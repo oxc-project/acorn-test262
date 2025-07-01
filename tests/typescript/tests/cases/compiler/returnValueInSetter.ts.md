@@ -2,22 +2,18 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 80,
   "body": [
     {
       "type": "ClassDeclaration",
-      "start": 0,
-      "end": 79,
       "decorators": [],
       "id": {
         "type": "Identifier",
-        "start": 6,
-        "end": 7,
         "decorators": [],
         "name": "f",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 6,
+        "end": 7
       },
       "typeParameters": null,
       "superClass": null,
@@ -25,27 +21,21 @@ __ESTREE_TEST__:PASS:
       "implements": [],
       "body": {
         "type": "ClassBody",
-        "start": 8,
-        "end": 79,
         "body": [
           {
             "type": "MethodDefinition",
-            "start": 14,
-            "end": 77,
             "decorators": [],
             "key": {
               "type": "Identifier",
-              "start": 18,
-              "end": 19,
               "decorators": [],
               "name": "x",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 18,
+              "end": 19
             },
             "value": {
               "type": "FunctionExpression",
-              "start": 19,
-              "end": 77,
               "id": null,
               "generator": false,
               "async": false,
@@ -54,50 +44,60 @@ __ESTREE_TEST__:PASS:
               "params": [
                 {
                   "type": "Identifier",
-                  "start": 20,
-                  "end": 25,
                   "decorators": [],
                   "name": "value",
                   "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "start": 20,
+                  "end": 25
                 }
               ],
               "returnType": null,
               "body": {
                 "type": "BlockStatement",
-                "start": 27,
-                "end": 77,
                 "body": [
                   {
                     "type": "ReturnStatement",
-                    "start": 37,
-                    "end": 49,
                     "argument": {
                       "type": "Literal",
-                      "start": 44,
-                      "end": 48,
                       "value": null,
-                      "raw": "null"
-                    }
+                      "raw": "null",
+                      "start": 44,
+                      "end": 48
+                    },
+                    "start": 37,
+                    "end": 49
                   }
-                ]
+                ],
+                "start": 27,
+                "end": 77
               },
-              "expression": false
+              "expression": false,
+              "start": 19,
+              "end": 77
             },
             "kind": "set",
             "computed": false,
             "static": false,
             "override": false,
             "optional": false,
-            "accessibility": null
+            "accessibility": null,
+            "start": 14,
+            "end": 77
           }
-        ]
+        ],
+        "start": 8,
+        "end": 79
       },
       "abstract": false,
-      "declare": false
+      "declare": false,
+      "start": 0,
+      "end": 79
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 80
 }
 ```

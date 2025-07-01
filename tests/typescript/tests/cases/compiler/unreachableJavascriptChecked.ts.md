@@ -2,21 +2,17 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 104,
   "body": [
     {
       "type": "FunctionDeclaration",
-      "start": 0,
-      "end": 104,
       "id": {
         "type": "Identifier",
-        "start": 9,
-        "end": 20,
         "decorators": [],
         "name": "unreachable",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 9,
+        "end": 20
       },
       "generator": false,
       "async": false,
@@ -26,67 +22,63 @@ __ESTREE_TEST__:PASS:
       "returnType": null,
       "body": {
         "type": "BlockStatement",
-        "start": 23,
-        "end": 104,
         "body": [
           {
             "type": "ReturnStatement",
-            "start": 29,
-            "end": 40,
             "argument": {
               "type": "CallExpression",
-              "start": 36,
-              "end": 39,
               "callee": {
                 "type": "Identifier",
-                "start": 36,
-                "end": 37,
                 "decorators": [],
                 "name": "f",
                 "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "start": 36,
+                "end": 37
               },
               "typeArguments": null,
               "arguments": [],
-              "optional": false
-            }
+              "optional": false,
+              "start": 36,
+              "end": 39
+            },
+            "start": 29,
+            "end": 40
           },
           {
             "type": "ReturnStatement",
-            "start": 45,
-            "end": 54,
             "argument": {
               "type": "Literal",
-              "start": 52,
-              "end": 53,
               "value": 2,
-              "raw": "2"
-            }
+              "raw": "2",
+              "start": 52,
+              "end": 53
+            },
+            "start": 45,
+            "end": 54
           },
           {
             "type": "ReturnStatement",
-            "start": 59,
-            "end": 68,
             "argument": {
               "type": "Literal",
-              "start": 66,
-              "end": 67,
               "value": 3,
-              "raw": "3"
-            }
+              "raw": "3",
+              "start": 66,
+              "end": 67
+            },
+            "start": 59,
+            "end": 68
           },
           {
             "type": "FunctionDeclaration",
-            "start": 73,
-            "end": 88,
             "id": {
               "type": "Identifier",
-              "start": 82,
-              "end": 83,
               "decorators": [],
               "name": "f",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 82,
+              "end": 83
             },
             "generator": false,
             "async": false,
@@ -96,30 +88,38 @@ __ESTREE_TEST__:PASS:
             "returnType": null,
             "body": {
               "type": "BlockStatement",
+              "body": [],
               "start": 86,
-              "end": 88,
-              "body": []
+              "end": 88
             },
-            "expression": false
+            "expression": false,
+            "start": 73,
+            "end": 88
           },
           {
             "type": "ReturnStatement",
-            "start": 93,
-            "end": 102,
             "argument": {
               "type": "Literal",
-              "start": 100,
-              "end": 101,
               "value": 4,
-              "raw": "4"
-            }
+              "raw": "4",
+              "start": 100,
+              "end": 101
+            },
+            "start": 93,
+            "end": 102
           }
-        ]
+        ],
+        "start": 23,
+        "end": 104
       },
-      "expression": false
+      "expression": false,
+      "start": 0,
+      "end": 104
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 104
 }
 ```

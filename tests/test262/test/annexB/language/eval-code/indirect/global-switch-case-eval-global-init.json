@@ -1,93 +1,93 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 993,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 689,
-      "end": 992,
       "expression": {
         "type": "CallExpression",
-        "start": 689,
-        "end": 991,
         "callee": {
           "type": "ParenthesizedExpression",
-          "start": 689,
-          "end": 697,
           "expression": {
             "type": "SequenceExpression",
-            "start": 690,
-            "end": 696,
             "expressions": [
               {
                 "type": "Literal",
-                "start": 690,
-                "end": 691,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "start": 690,
+                "end": 691
               },
               {
                 "type": "Identifier",
+                "name": "eval",
                 "start": 692,
-                "end": 696,
-                "name": "eval"
+                "end": 696
               }
-            ]
-          }
+            ],
+            "start": 690,
+            "end": 696
+          },
+          "start": 689,
+          "end": 697
         },
         "arguments": [
           {
             "type": "BinaryExpression",
-            "start": 701,
-            "end": 989,
             "left": {
               "type": "BinaryExpression",
-              "start": 701,
-              "end": 977,
               "left": {
                 "type": "BinaryExpression",
-                "start": 701,
-                "end": 949,
                 "left": {
                   "type": "Literal",
-                  "start": 701,
-                  "end": 933,
                   "value": "var global = fnGlobalObject();  assert.sameValue(f, undefined, \"binding is initialized to `undefined`\");    verifyProperty(global, \"f\", {    enumerable: true,    writable: true,    configurable: true  });switch (1) {",
-                  "raw": "'var global = fnGlobalObject();\\\n  assert.sameValue(f, undefined, \"binding is initialized to `undefined`\");\\\n  \\\n  verifyProperty(global, \"f\", {\\\n    enumerable: true,\\\n    writable: true,\\\n    configurable: true\\\n  });switch (1) {'"
+                  "raw": "'var global = fnGlobalObject();\\\n  assert.sameValue(f, undefined, \"binding is initialized to `undefined`\");\\\n  \\\n  verifyProperty(global, \"f\", {\\\n    enumerable: true,\\\n    writable: true,\\\n    configurable: true\\\n  });switch (1) {'",
+                  "start": 701,
+                  "end": 933
                 },
                 "operator": "+",
                 "right": {
                   "type": "Literal",
-                  "start": 938,
-                  "end": 949,
                   "value": "  case 1:",
-                  "raw": "'  case 1:'"
-                }
+                  "raw": "'  case 1:'",
+                  "start": 938,
+                  "end": 949
+                },
+                "start": 701,
+                "end": 949
               },
               "operator": "+",
               "right": {
                 "type": "Literal",
-                "start": 954,
-                "end": 977,
                 "value": "    function f() {  }",
-                "raw": "'    function f() {  }'"
-              }
+                "raw": "'    function f() {  }'",
+                "start": 954,
+                "end": 977
+              },
+              "start": 701,
+              "end": 977
             },
             "operator": "+",
             "right": {
               "type": "Literal",
-              "start": 982,
-              "end": 989,
               "value": "}  ",
-              "raw": "'}\\\n  '"
-            }
+              "raw": "'}\\\n  '",
+              "start": 982,
+              "end": 989
+            },
+            "start": 701,
+            "end": 989
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 689,
+        "end": 991
+      },
+      "start": 689,
+      "end": 992
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 993
 }

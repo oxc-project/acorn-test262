@@ -2,90 +2,82 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 67,
   "body": [
     {
       "type": "ClassDeclaration",
-      "start": 0,
-      "end": 26,
       "decorators": [],
       "id": {
         "type": "Identifier",
-        "start": 6,
-        "end": 9,
         "decorators": [],
         "name": "Foo",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 6,
+        "end": 9
       },
       "typeParameters": {
         "type": "TSTypeParameterDeclaration",
-        "start": 9,
-        "end": 12,
         "params": [
           {
             "type": "TSTypeParameter",
-            "start": 10,
-            "end": 11,
             "name": {
               "type": "Identifier",
-              "start": 10,
-              "end": 11,
               "decorators": [],
               "name": "T",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 10,
+              "end": 11
             },
             "constraint": null,
             "default": null,
             "in": false,
             "out": false,
-            "const": false
+            "const": false,
+            "start": 10,
+            "end": 11
           }
-        ]
+        ],
+        "start": 9,
+        "end": 12
       },
       "superClass": null,
       "superTypeArguments": null,
       "implements": [],
       "body": {
         "type": "ClassBody",
-        "start": 13,
-        "end": 26,
         "body": [
           {
             "type": "PropertyDefinition",
-            "start": 19,
-            "end": 24,
             "decorators": [],
             "key": {
               "type": "Identifier",
-              "start": 19,
-              "end": 20,
               "decorators": [],
               "name": "t",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 19,
+              "end": 20
             },
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
-              "start": 20,
-              "end": 23,
               "typeAnnotation": {
                 "type": "TSTypeReference",
-                "start": 22,
-                "end": 23,
                 "typeName": {
                   "type": "Identifier",
-                  "start": 22,
-                  "end": 23,
                   "decorators": [],
                   "name": "T",
                   "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "start": 22,
+                  "end": 23
                 },
-                "typeArguments": null
-              }
+                "typeArguments": null,
+                "start": 22,
+                "end": 23
+              },
+              "start": 20,
+              "end": 23
             },
             "value": null,
             "computed": false,
@@ -95,61 +87,69 @@ __ESTREE_TEST__:PASS:
             "optional": false,
             "definite": false,
             "readonly": false,
-            "accessibility": null
+            "accessibility": null,
+            "start": 19,
+            "end": 24
           }
-        ]
+        ],
+        "start": 13,
+        "end": 26
       },
       "abstract": false,
-      "declare": false
+      "declare": false,
+      "start": 0,
+      "end": 26
     },
     {
       "type": "ClassDeclaration",
-      "start": 28,
-      "end": 58,
       "decorators": [],
       "id": {
         "type": "Identifier",
-        "start": 34,
-        "end": 37,
         "decorators": [],
         "name": "Bar",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 34,
+        "end": 37
       },
       "typeParameters": null,
       "superClass": {
         "type": "Identifier",
-        "start": 46,
-        "end": 49,
         "decorators": [],
         "name": "Foo",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 46,
+        "end": 49
       },
       "superTypeArguments": {
         "type": "TSTypeParameterInstantiation",
-        "start": 49,
-        "end": 54,
         "params": [
           {
             "type": "TSAnyKeyword",
             "start": 50,
             "end": 53
           }
-        ]
+        ],
+        "start": 49,
+        "end": 54
       },
       "implements": [],
       "body": {
         "type": "ClassBody",
+        "body": [],
         "start": 55,
-        "end": 58,
-        "body": []
+        "end": 58
       },
       "abstract": false,
-      "declare": false
+      "declare": false,
+      "start": 28,
+      "end": 58
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 67
 }
 ```

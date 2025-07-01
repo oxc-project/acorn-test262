@@ -1,229 +1,229 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 773,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 286,
-      "end": 324,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 290,
-          "end": 323,
           "id": {
             "type": "Identifier",
+            "name": "__fcc__func",
             "start": 290,
-            "end": 301,
-            "name": "__fcc__func"
+            "end": 301
           },
           "init": {
             "type": "MemberExpression",
-            "start": 304,
-            "end": 323,
             "object": {
               "type": "Identifier",
+              "name": "String",
               "start": 304,
-              "end": 310,
-              "name": "String"
+              "end": 310
             },
             "property": {
               "type": "Identifier",
+              "name": "fromCharCode",
               "start": 311,
-              "end": 323,
-              "name": "fromCharCode"
+              "end": 323
             },
             "optional": false,
-            "computed": false
-          }
+            "computed": false,
+            "start": 304,
+            "end": 323
+          },
+          "start": 290,
+          "end": 323
         }
-      ]
+      ],
+      "start": 286,
+      "end": 324
     },
     {
       "type": "ExpressionStatement",
-      "start": 326,
-      "end": 353,
       "expression": {
         "type": "UnaryExpression",
-        "start": 326,
-        "end": 352,
         "operator": "delete",
         "argument": {
           "type": "MemberExpression",
-          "start": 333,
-          "end": 352,
           "object": {
             "type": "Identifier",
+            "name": "String",
             "start": 333,
-            "end": 339,
-            "name": "String"
+            "end": 339
           },
           "property": {
             "type": "Identifier",
+            "name": "fromCharCode",
             "start": 340,
-            "end": 352,
-            "name": "fromCharCode"
+            "end": 352
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 333,
+          "end": 352
         },
-        "prefix": true
-      }
+        "prefix": true,
+        "start": 326,
+        "end": 352
+      },
+      "start": 326,
+      "end": 353
     },
     {
       "type": "TryStatement",
-      "start": 444,
-      "end": 690,
       "block": {
         "type": "BlockStatement",
-        "start": 448,
-        "end": 634,
         "body": [
           {
             "type": "VariableDeclaration",
-            "start": 452,
-            "end": 496,
             "kind": "var",
             "declarations": [
               {
                 "type": "VariableDeclarator",
-                "start": 456,
-                "end": 495,
                 "id": {
                   "type": "Identifier",
+                  "name": "__obj",
                   "start": 456,
-                  "end": 461,
-                  "name": "__obj"
+                  "end": 461
                 },
                 "init": {
                   "type": "NewExpression",
-                  "start": 464,
-                  "end": 495,
                   "callee": {
                     "type": "Identifier",
+                    "name": "__fcc__func",
                     "start": 468,
-                    "end": 479,
-                    "name": "__fcc__func"
+                    "end": 479
                   },
                   "arguments": [
                     {
                       "type": "Literal",
+                      "value": 65,
+                      "raw": "65",
                       "start": 480,
-                      "end": 482,
-                      "value": 65,
-                      "raw": "65"
+                      "end": 482
                     },
                     {
                       "type": "Literal",
+                      "value": 66,
+                      "raw": "66",
                       "start": 484,
-                      "end": 486,
-                      "value": 66,
-                      "raw": "66"
+                      "end": 486
                     },
                     {
                       "type": "Literal",
+                      "value": 66,
+                      "raw": "66",
                       "start": 488,
-                      "end": 490,
-                      "value": 66,
-                      "raw": "66"
+                      "end": 490
                     },
                     {
                       "type": "Literal",
-                      "start": 492,
-                      "end": 494,
                       "value": 65,
-                      "raw": "65"
+                      "raw": "65",
+                      "start": 492,
+                      "end": 494
                     }
-                  ]
-                }
+                  ],
+                  "start": 464,
+                  "end": 495
+                },
+                "start": 456,
+                "end": 495
               }
-            ]
+            ],
+            "start": 452,
+            "end": 496
           },
           {
             "type": "ThrowStatement",
-            "start": 499,
-            "end": 632,
             "argument": {
               "type": "NewExpression",
-              "start": 505,
-              "end": 631,
               "callee": {
                 "type": "Identifier",
+                "name": "Test262Error",
                 "start": 509,
-                "end": 521,
-                "name": "Test262Error"
+                "end": 521
               },
               "arguments": [
                 {
                   "type": "Literal",
-                  "start": 522,
-                  "end": 630,
                   "value": "#1: __fcc__func = String.fromCharCode; var __obj = new __fcc__func(65,66,66,65) lead to throwing exception",
-                  "raw": "'#1: __fcc__func = String.fromCharCode; var __obj = new __fcc__func(65,66,66,65) lead to throwing exception'"
+                  "raw": "'#1: __fcc__func = String.fromCharCode; var __obj = new __fcc__func(65,66,66,65) lead to throwing exception'",
+                  "start": 522,
+                  "end": 630
                 }
-              ]
-            }
+              ],
+              "start": 505,
+              "end": 631
+            },
+            "start": 499,
+            "end": 632
           }
-        ]
+        ],
+        "start": 448,
+        "end": 634
       },
       "handler": {
         "type": "CatchClause",
-        "start": 635,
-        "end": 690,
         "param": {
           "type": "Identifier",
+          "name": "e",
           "start": 642,
-          "end": 643,
-          "name": "e"
+          "end": 643
         },
         "body": {
           "type": "BlockStatement",
-          "start": 645,
-          "end": 690,
           "body": [
             {
               "type": "IfStatement",
-              "start": 649,
-              "end": 688,
               "test": {
                 "type": "BinaryExpression",
-                "start": 653,
-                "end": 678,
                 "left": {
                   "type": "Identifier",
+                  "name": "e",
                   "start": 653,
-                  "end": 654,
-                  "name": "e"
+                  "end": 654
                 },
                 "operator": "instanceof",
                 "right": {
                   "type": "Identifier",
+                  "name": "Test262Error",
                   "start": 666,
-                  "end": 678,
-                  "name": "Test262Error"
-                }
+                  "end": 678
+                },
+                "start": 653,
+                "end": 678
               },
               "consequent": {
                 "type": "ThrowStatement",
-                "start": 680,
-                "end": 688,
                 "argument": {
                   "type": "Identifier",
+                  "name": "e",
                   "start": 686,
-                  "end": 687,
-                  "name": "e"
-                }
+                  "end": 687
+                },
+                "start": 680,
+                "end": 688
               },
-              "alternate": null
+              "alternate": null,
+              "start": 649,
+              "end": 688
             }
-          ]
-        }
+          ],
+          "start": 645,
+          "end": 690
+        },
+        "start": 635,
+        "end": 690
       },
-      "finalizer": null
+      "finalizer": null,
+      "start": 444,
+      "end": 690
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 773
 }

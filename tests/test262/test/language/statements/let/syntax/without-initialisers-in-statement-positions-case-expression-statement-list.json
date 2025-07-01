@@ -1,57 +1,57 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 315,
   "body": [
     {
       "type": "SwitchStatement",
-      "start": 279,
-      "end": 314,
       "discriminant": {
         "type": "Literal",
-        "start": 287,
-        "end": 291,
         "value": true,
-        "raw": "true"
+        "raw": "true",
+        "start": 287,
+        "end": 291
       },
       "cases": [
         {
           "type": "SwitchCase",
-          "start": 295,
-          "end": 312,
           "test": {
             "type": "Literal",
-            "start": 300,
-            "end": 304,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "start": 300,
+            "end": 304
           },
           "consequent": [
             {
               "type": "VariableDeclaration",
-              "start": 306,
-              "end": 312,
               "kind": "let",
               "declarations": [
                 {
                   "type": "VariableDeclarator",
-                  "start": 310,
-                  "end": 311,
                   "id": {
                     "type": "Identifier",
+                    "name": "x",
                     "start": 310,
-                    "end": 311,
-                    "name": "x"
+                    "end": 311
                   },
-                  "init": null
+                  "init": null,
+                  "start": 310,
+                  "end": 311
                 }
-              ]
+              ],
+              "start": 306,
+              "end": 312
             }
-          ]
+          ],
+          "start": 295,
+          "end": 312
         }
-      ]
+      ],
+      "start": 279,
+      "end": 314
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 315
 }

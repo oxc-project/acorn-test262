@@ -2,106 +2,100 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 28,
   "body": [
     {
       "type": "TSModuleDeclaration",
-      "start": 0,
-      "end": 27,
       "id": {
         "type": "Literal",
-        "start": 15,
-        "end": 22,
         "value": "react",
-        "raw": "\"react\""
+        "raw": "\"react\"",
+        "start": 15,
+        "end": 22
       },
       "body": {
         "type": "TSModuleBlock",
+        "body": [],
         "start": 23,
-        "end": 27,
-        "body": []
+        "end": 27
       },
       "kind": "module",
       "declare": true,
-      "global": false
+      "global": false,
+      "start": 0,
+      "end": 27
     }
   ],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 28
 }
 ```
 __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 74,
   "body": [
     {
       "type": "TSModuleDeclaration",
-      "start": 0,
-      "end": 48,
       "id": {
         "type": "Identifier",
-        "start": 15,
-        "end": 18,
         "decorators": [],
         "name": "JSX",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 15,
+        "end": 18
       },
       "body": {
         "type": "TSModuleBlock",
-        "start": 19,
-        "end": 48,
         "body": [
           {
             "type": "TSInterfaceDeclaration",
-            "start": 25,
-            "end": 46,
             "id": {
               "type": "Identifier",
-              "start": 35,
-              "end": 42,
               "decorators": [],
               "name": "Element",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 35,
+              "end": 42
             },
             "typeParameters": null,
             "extends": [],
             "body": {
               "type": "TSInterfaceBody",
+              "body": [],
               "start": 43,
-              "end": 46,
-              "body": []
+              "end": 46
             },
-            "declare": false
+            "declare": false,
+            "start": 25,
+            "end": 46
           }
-        ]
+        ],
+        "start": 19,
+        "end": 48
       },
       "kind": "module",
       "declare": true,
-      "global": false
+      "global": false,
+      "start": 0,
+      "end": 48
     },
     {
       "type": "ExportNamedDeclaration",
-      "start": 49,
-      "end": 73,
       "declaration": {
         "type": "ClassDeclaration",
-        "start": 56,
-        "end": 73,
         "decorators": [],
         "id": {
           "type": "Identifier",
-          "start": 62,
-          "end": 69,
           "decorators": [],
           "name": "MyClass",
           "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "start": 62,
+          "end": 69
         },
         "typeParameters": null,
         "superClass": null,
@@ -109,131 +103,137 @@ __ESTREE_TEST__:PASS:
         "implements": [],
         "body": {
           "type": "ClassBody",
+          "body": [],
           "start": 70,
-          "end": 73,
-          "body": []
+          "end": 73
         },
         "abstract": false,
-        "declare": false
+        "declare": false,
+        "start": 56,
+        "end": 73
       },
       "specifiers": [],
       "source": null,
       "exportKind": "value",
-      "attributes": []
+      "attributes": [],
+      "start": 49,
+      "end": 73
     }
   ],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 74
 }
 ```
 __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 33,
-  "end": 111,
   "body": [
     {
       "type": "ImportDeclaration",
-      "start": 33,
-      "end": 64,
       "specifiers": [
         {
           "type": "ImportNamespaceSpecifier",
-          "start": 40,
-          "end": 50,
           "local": {
             "type": "Identifier",
-            "start": 45,
-            "end": 50,
             "decorators": [],
             "name": "React",
             "optional": false,
-            "typeAnnotation": null
-          }
+            "typeAnnotation": null,
+            "start": 45,
+            "end": 50
+          },
+          "start": 40,
+          "end": 50
         }
       ],
       "source": {
         "type": "Literal",
-        "start": 56,
-        "end": 63,
         "value": "react",
-        "raw": "'react'"
+        "raw": "'react'",
+        "start": 56,
+        "end": 63
       },
       "phase": null,
       "attributes": [],
-      "importKind": "value"
+      "importKind": "value",
+      "start": 33,
+      "end": 64
     },
     {
       "type": "ImportDeclaration",
-      "start": 65,
-      "end": 97,
       "specifiers": [
         {
           "type": "ImportSpecifier",
-          "start": 73,
-          "end": 80,
           "imported": {
             "type": "Identifier",
-            "start": 73,
-            "end": 80,
             "decorators": [],
             "name": "MyClass",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 73,
+            "end": 80
           },
           "local": {
             "type": "Identifier",
-            "start": 73,
-            "end": 80,
             "decorators": [],
             "name": "MyClass",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 73,
+            "end": 80
           },
-          "importKind": "value"
+          "importKind": "value",
+          "start": 73,
+          "end": 80
         }
       ],
       "source": {
         "type": "Literal",
-        "start": 87,
-        "end": 96,
         "value": "./file1",
-        "raw": "'./file1'"
+        "raw": "'./file1'",
+        "start": 87,
+        "end": 96
       },
       "phase": null,
       "attributes": [],
-      "importKind": "value"
+      "importKind": "value",
+      "start": 65,
+      "end": 97
     },
     {
       "type": "ExpressionStatement",
-      "start": 99,
-      "end": 111,
       "expression": {
         "type": "JSXElement",
-        "start": 99,
-        "end": 110,
         "openingElement": {
           "type": "JSXOpeningElement",
-          "start": 99,
-          "end": 110,
           "name": {
             "type": "JSXIdentifier",
+            "name": "MyClass",
             "start": 100,
-            "end": 107,
-            "name": "MyClass"
+            "end": 107
           },
           "typeArguments": null,
           "attributes": [],
-          "selfClosing": true
+          "selfClosing": true,
+          "start": 99,
+          "end": 110
         },
         "children": [],
-        "closingElement": null
+        "closingElement": null,
+        "start": 99,
+        "end": 110
       },
-      "directive": null
+      "directive": null,
+      "start": 99,
+      "end": 111
     }
   ],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 33,
+  "end": 111
 }
 ```

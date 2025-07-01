@@ -1,92 +1,92 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 796,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 693,
-      "end": 779,
       "expression": {
         "type": "CallExpression",
-        "start": 693,
-        "end": 778,
         "callee": {
           "type": "MemberExpression",
-          "start": 693,
-          "end": 709,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 693,
-            "end": 699,
-            "name": "assert"
+            "end": 699
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 700,
-            "end": 709,
-            "name": "sameValue"
+            "end": 709
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 693,
+          "end": 709
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 710,
-            "end": 730,
             "callee": {
               "type": "Identifier",
+              "name": "isConstructor",
               "start": 710,
-              "end": 723,
-              "name": "isConstructor"
+              "end": 723
             },
             "arguments": [
               {
                 "type": "Identifier",
+                "name": "Array",
                 "start": 724,
-                "end": 729,
-                "name": "Array"
+                "end": 729
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 710,
+            "end": 730
           },
           {
             "type": "Literal",
-            "start": 732,
-            "end": 736,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "start": 732,
+            "end": 736
           },
           {
             "type": "Literal",
-            "start": 738,
-            "end": 777,
             "value": "isConstructor(Array) must return true",
-            "raw": "'isConstructor(Array) must return true'"
+            "raw": "'isConstructor(Array) must return true'",
+            "start": 738,
+            "end": 777
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 693,
+        "end": 778
+      },
+      "start": 693,
+      "end": 779
     },
     {
       "type": "ExpressionStatement",
-      "start": 780,
-      "end": 792,
       "expression": {
         "type": "NewExpression",
-        "start": 780,
-        "end": 791,
         "callee": {
           "type": "Identifier",
+          "name": "Array",
           "start": 784,
-          "end": 789,
-          "name": "Array"
+          "end": 789
         },
-        "arguments": []
-      }
+        "arguments": [],
+        "start": 780,
+        "end": 791
+      },
+      "start": 780,
+      "end": 792
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 796
 }

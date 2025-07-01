@@ -1,93 +1,93 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 426,
   "body": [
     {
       "type": "IfStatement",
-      "start": 316,
-      "end": 425,
       "test": {
         "type": "BinaryExpression",
-        "start": 320,
-        "end": 379,
         "left": {
           "type": "CallExpression",
-          "start": 320,
-          "end": 363,
           "callee": {
             "type": "ParenthesizedExpression",
-            "start": 320,
-            "end": 361,
             "expression": {
               "type": "FunctionExpression",
-              "start": 321,
-              "end": 360,
               "id": null,
               "generator": false,
               "async": false,
               "params": [],
               "body": {
                 "type": "BlockStatement",
-                "start": 333,
-                "end": 360,
                 "body": [
                   {
                     "type": "ReturnStatement",
-                    "start": 339,
-                    "end": 358,
                     "argument": {
                       "type": "UnaryExpression",
-                      "start": 346,
-                      "end": 357,
                       "operator": "typeof",
                       "argument": {
                         "type": "ThisExpression",
                         "start": 353,
                         "end": 357
                       },
-                      "prefix": true
-                    }
+                      "prefix": true,
+                      "start": 346,
+                      "end": 357
+                    },
+                    "start": 339,
+                    "end": 358
                   }
-                ]
+                ],
+                "start": 333,
+                "end": 360
               },
-              "expression": false
-            }
+              "expression": false,
+              "start": 321,
+              "end": 360
+            },
+            "start": 320,
+            "end": 361
           },
           "arguments": [],
-          "optional": false
+          "optional": false,
+          "start": 320,
+          "end": 363
         },
         "operator": "!==",
         "right": {
           "type": "Literal",
-          "start": 368,
-          "end": 379,
           "value": "undefined",
-          "raw": "\"undefined\""
-        }
+          "raw": "\"undefined\"",
+          "start": 368,
+          "end": 379
+        },
+        "start": 320,
+        "end": 379
       },
       "consequent": {
         "type": "BlockStatement",
-        "start": 381,
-        "end": 425,
         "body": [
           {
             "type": "ThrowStatement",
-            "start": 387,
-            "end": 423,
             "argument": {
               "type": "Literal",
-              "start": 393,
-              "end": 422,
               "value": "'this' had incorrect value!",
-              "raw": "\"'this' had incorrect value!\""
-            }
+              "raw": "\"'this' had incorrect value!\"",
+              "start": 393,
+              "end": 422
+            },
+            "start": 387,
+            "end": 423
           }
-        ]
+        ],
+        "start": 381,
+        "end": 425
       },
-      "alternate": null
+      "alternate": null,
+      "start": 316,
+      "end": 425
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 426
 }

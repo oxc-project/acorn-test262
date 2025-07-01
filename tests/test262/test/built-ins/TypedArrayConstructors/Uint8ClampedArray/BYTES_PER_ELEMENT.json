@@ -1,163 +1,163 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 804,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 562,
-      "end": 619,
       "expression": {
         "type": "CallExpression",
-        "start": 562,
-        "end": 618,
         "callee": {
           "type": "MemberExpression",
-          "start": 562,
-          "end": 578,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 562,
-            "end": 568,
-            "name": "assert"
+            "end": 568
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 569,
-            "end": 578,
-            "name": "sameValue"
+            "end": 578
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 562,
+          "end": 578
         },
         "arguments": [
           {
             "type": "MemberExpression",
-            "start": 579,
-            "end": 614,
             "object": {
               "type": "Identifier",
+              "name": "Uint8ClampedArray",
               "start": 579,
-              "end": 596,
-              "name": "Uint8ClampedArray"
+              "end": 596
             },
             "property": {
               "type": "Identifier",
+              "name": "BYTES_PER_ELEMENT",
               "start": 597,
-              "end": 614,
-              "name": "BYTES_PER_ELEMENT"
+              "end": 614
             },
             "optional": false,
-            "computed": false
+            "computed": false,
+            "start": 579,
+            "end": 614
           },
           {
             "type": "Literal",
-            "start": 616,
-            "end": 617,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "start": 616,
+            "end": 617
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 562,
+        "end": 618
+      },
+      "start": 562,
+      "end": 619
     },
     {
       "type": "ExpressionStatement",
-      "start": 621,
-      "end": 681,
       "expression": {
         "type": "CallExpression",
-        "start": 621,
-        "end": 680,
         "callee": {
           "type": "Identifier",
+          "name": "verifyNotEnumerable",
           "start": 621,
-          "end": 640,
-          "name": "verifyNotEnumerable"
+          "end": 640
         },
         "arguments": [
           {
             "type": "Identifier",
+            "name": "Uint8ClampedArray",
             "start": 641,
-            "end": 658,
-            "name": "Uint8ClampedArray"
+            "end": 658
           },
           {
             "type": "Literal",
+            "value": "BYTES_PER_ELEMENT",
+            "raw": "\"BYTES_PER_ELEMENT\"",
             "start": 660,
-            "end": 679,
-            "value": "BYTES_PER_ELEMENT",
-            "raw": "\"BYTES_PER_ELEMENT\""
+            "end": 679
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 621,
+        "end": 680
+      },
+      "start": 621,
+      "end": 681
     },
     {
       "type": "ExpressionStatement",
-      "start": 682,
-      "end": 740,
       "expression": {
         "type": "CallExpression",
-        "start": 682,
-        "end": 739,
         "callee": {
           "type": "Identifier",
+          "name": "verifyNotWritable",
           "start": 682,
-          "end": 699,
-          "name": "verifyNotWritable"
+          "end": 699
         },
         "arguments": [
           {
             "type": "Identifier",
+            "name": "Uint8ClampedArray",
             "start": 700,
-            "end": 717,
-            "name": "Uint8ClampedArray"
+            "end": 717
           },
           {
             "type": "Literal",
-            "start": 719,
-            "end": 738,
             "value": "BYTES_PER_ELEMENT",
-            "raw": "\"BYTES_PER_ELEMENT\""
+            "raw": "\"BYTES_PER_ELEMENT\"",
+            "start": 719,
+            "end": 738
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 682,
+        "end": 739
+      },
+      "start": 682,
+      "end": 740
     },
     {
       "type": "ExpressionStatement",
-      "start": 741,
-      "end": 803,
       "expression": {
         "type": "CallExpression",
-        "start": 741,
-        "end": 802,
         "callee": {
           "type": "Identifier",
+          "name": "verifyNotConfigurable",
           "start": 741,
-          "end": 762,
-          "name": "verifyNotConfigurable"
+          "end": 762
         },
         "arguments": [
           {
             "type": "Identifier",
+            "name": "Uint8ClampedArray",
             "start": 763,
-            "end": 780,
-            "name": "Uint8ClampedArray"
+            "end": 780
           },
           {
             "type": "Literal",
-            "start": 782,
-            "end": 801,
             "value": "BYTES_PER_ELEMENT",
-            "raw": "\"BYTES_PER_ELEMENT\""
+            "raw": "\"BYTES_PER_ELEMENT\"",
+            "start": 782,
+            "end": 801
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 741,
+        "end": 802
+      },
+      "start": 741,
+      "end": 803
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 804
 }

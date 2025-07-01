@@ -1,153 +1,153 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 401,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 280,
-      "end": 297,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 284,
-          "end": 296,
           "id": {
             "type": "Identifier",
+            "name": "__e",
             "start": 284,
-            "end": 287,
-            "name": "__e"
+            "end": 287
           },
           "init": {
             "type": "MemberExpression",
-            "start": 290,
-            "end": 296,
             "object": {
               "type": "Identifier",
+              "name": "Math",
               "start": 290,
-              "end": 294,
-              "name": "Math"
+              "end": 294
             },
             "property": {
               "type": "Identifier",
+              "name": "E",
               "start": 295,
-              "end": 296,
-              "name": "E"
+              "end": 296
             },
             "optional": false,
-            "computed": false
-          }
+            "computed": false,
+            "start": 290,
+            "end": 296
+          },
+          "start": 284,
+          "end": 296
         }
-      ]
+      ],
+      "start": 280,
+      "end": 297
     },
     {
       "type": "ExpressionStatement",
-      "start": 298,
-      "end": 307,
       "expression": {
         "type": "AssignmentExpression",
-        "start": 298,
-        "end": 306,
         "operator": "=",
         "left": {
           "type": "MemberExpression",
-          "start": 298,
-          "end": 304,
           "object": {
             "type": "Identifier",
+            "name": "Math",
             "start": 298,
-            "end": 302,
-            "name": "Math"
+            "end": 302
           },
           "property": {
             "type": "Identifier",
+            "name": "E",
             "start": 303,
-            "end": 304,
-            "name": "E"
+            "end": 304
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 298,
+          "end": 304
         },
         "right": {
           "type": "Literal",
-          "start": 305,
-          "end": 306,
           "value": 1,
-          "raw": "1"
-        }
-      }
+          "raw": "1",
+          "start": 305,
+          "end": 306
+        },
+        "start": 298,
+        "end": 306
+      },
+      "start": 298,
+      "end": 307
     },
     {
       "type": "IfStatement",
-      "start": 308,
-      "end": 400,
       "test": {
         "type": "BinaryExpression",
-        "start": 312,
-        "end": 325,
         "left": {
           "type": "MemberExpression",
-          "start": 312,
-          "end": 318,
           "object": {
             "type": "Identifier",
+            "name": "Math",
             "start": 312,
-            "end": 316,
-            "name": "Math"
+            "end": 316
           },
           "property": {
             "type": "Identifier",
+            "name": "E",
             "start": 317,
-            "end": 318,
-            "name": "E"
+            "end": 318
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 312,
+          "end": 318
         },
         "operator": "!==",
         "right": {
           "type": "Identifier",
+          "name": "__e",
           "start": 322,
-          "end": 325,
-          "name": "__e"
-        }
+          "end": 325
+        },
+        "start": 312,
+        "end": 325
       },
       "consequent": {
         "type": "BlockStatement",
-        "start": 326,
-        "end": 400,
         "body": [
           {
             "type": "ThrowStatement",
-            "start": 330,
-            "end": 398,
             "argument": {
               "type": "NewExpression",
-              "start": 336,
-              "end": 397,
               "callee": {
                 "type": "Identifier",
+                "name": "Test262Error",
                 "start": 340,
-                "end": 352,
-                "name": "Test262Error"
+                "end": 352
               },
               "arguments": [
                 {
                   "type": "Literal",
-                  "start": 353,
-                  "end": 396,
                   "value": "#1: __e = Math.E; Math.E=1; Math.E ===__e",
-                  "raw": "'#1: __e = Math.E; Math.E=1; Math.E ===__e'"
+                  "raw": "'#1: __e = Math.E; Math.E=1; Math.E ===__e'",
+                  "start": 353,
+                  "end": 396
                 }
-              ]
-            }
+              ],
+              "start": 336,
+              "end": 397
+            },
+            "start": 330,
+            "end": 398
           }
-        ]
+        ],
+        "start": 326,
+        "end": 400
       },
-      "alternate": null
+      "alternate": null,
+      "start": 308,
+      "end": 400
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 401
 }

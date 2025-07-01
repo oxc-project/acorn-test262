@@ -1,216 +1,216 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 592,
   "body": [
     {
       "type": "TryStatement",
-      "start": 328,
-      "end": 591,
       "block": {
         "type": "BlockStatement",
-        "start": 332,
-        "end": 440,
         "body": [
           {
             "type": "VariableDeclaration",
-            "start": 336,
-            "end": 355,
             "kind": "var",
             "declarations": [
               {
                 "type": "VariableDeclarator",
-                "start": 340,
-                "end": 354,
                 "id": {
                   "type": "Identifier",
+                  "name": "z",
                   "start": 340,
-                  "end": 341,
-                  "name": "z"
+                  "end": 341
                 },
                 "init": {
                   "type": "ParenthesizedExpression",
-                  "start": 344,
-                  "end": 354,
                   "expression": {
                     "type": "AssignmentExpression",
-                    "start": 345,
-                    "end": 353,
                     "operator": ">>>=",
                     "left": {
                       "type": "Identifier",
+                      "name": "x",
                       "start": 345,
-                      "end": 346,
-                      "name": "x"
+                      "end": 346
                     },
                     "right": {
                       "type": "Literal",
-                      "start": 352,
-                      "end": 353,
                       "value": 1,
-                      "raw": "1"
-                    }
-                  }
-                }
+                      "raw": "1",
+                      "start": 352,
+                      "end": 353
+                    },
+                    "start": 345,
+                    "end": 353
+                  },
+                  "start": 344,
+                  "end": 354
+                },
+                "start": 340,
+                "end": 354
               }
-            ]
+            ],
+            "start": 336,
+            "end": 355
           },
           {
             "type": "ThrowStatement",
-            "start": 358,
-            "end": 436,
             "argument": {
               "type": "NewExpression",
-              "start": 364,
-              "end": 435,
               "callee": {
                 "type": "Identifier",
+                "name": "Test262Error",
                 "start": 368,
-                "end": 380,
-                "name": "Test262Error"
+                "end": 380
               },
               "arguments": [
                 {
                   "type": "BinaryExpression",
-                  "start": 381,
-                  "end": 434,
                   "left": {
                     "type": "Literal",
-                    "start": 381,
-                    "end": 428,
                     "value": "#1.1: x >>>= 1 throw ReferenceError. Actual: ",
-                    "raw": "'#1.1: x >>>= 1 throw ReferenceError. Actual: '"
+                    "raw": "'#1.1: x >>>= 1 throw ReferenceError. Actual: '",
+                    "start": 381,
+                    "end": 428
                   },
                   "operator": "+",
                   "right": {
                     "type": "ParenthesizedExpression",
-                    "start": 431,
-                    "end": 434,
                     "expression": {
                       "type": "Identifier",
+                      "name": "z",
                       "start": 432,
-                      "end": 433,
-                      "name": "z"
-                    }
-                  }
+                      "end": 433
+                    },
+                    "start": 431,
+                    "end": 434
+                  },
+                  "start": 381,
+                  "end": 434
                 }
-              ]
-            }
+              ],
+              "start": 364,
+              "end": 435
+            },
+            "start": 358,
+            "end": 436
           }
-        ]
+        ],
+        "start": 332,
+        "end": 440
       },
       "handler": {
         "type": "CatchClause",
-        "start": 441,
-        "end": 591,
         "param": {
           "type": "Identifier",
+          "name": "e",
           "start": 448,
-          "end": 449,
-          "name": "e"
+          "end": 449
         },
         "body": {
           "type": "BlockStatement",
-          "start": 451,
-          "end": 591,
           "body": [
             {
               "type": "IfStatement",
-              "start": 455,
-              "end": 589,
               "test": {
                 "type": "BinaryExpression",
-                "start": 459,
-                "end": 497,
                 "left": {
                   "type": "ParenthesizedExpression",
-                  "start": 459,
-                  "end": 488,
                   "expression": {
                     "type": "BinaryExpression",
-                    "start": 460,
-                    "end": 487,
                     "left": {
                       "type": "Identifier",
+                      "name": "e",
                       "start": 460,
-                      "end": 461,
-                      "name": "e"
+                      "end": 461
                     },
                     "operator": "instanceof",
                     "right": {
                       "type": "Identifier",
+                      "name": "ReferenceError",
                       "start": 473,
-                      "end": 487,
-                      "name": "ReferenceError"
-                    }
-                  }
+                      "end": 487
+                    },
+                    "start": 460,
+                    "end": 487
+                  },
+                  "start": 459,
+                  "end": 488
                 },
                 "operator": "!==",
                 "right": {
                   "type": "Literal",
-                  "start": 493,
-                  "end": 497,
                   "value": true,
-                  "raw": "true"
-                }
+                  "raw": "true",
+                  "start": 493,
+                  "end": 497
+                },
+                "start": 459,
+                "end": 497
               },
               "consequent": {
                 "type": "BlockStatement",
-                "start": 499,
-                "end": 589,
                 "body": [
                   {
                     "type": "ThrowStatement",
-                    "start": 505,
-                    "end": 583,
                     "argument": {
                       "type": "NewExpression",
-                      "start": 511,
-                      "end": 582,
                       "callee": {
                         "type": "Identifier",
+                        "name": "Test262Error",
                         "start": 515,
-                        "end": 527,
-                        "name": "Test262Error"
+                        "end": 527
                       },
                       "arguments": [
                         {
                           "type": "BinaryExpression",
-                          "start": 528,
-                          "end": 581,
                           "left": {
                             "type": "Literal",
-                            "start": 528,
-                            "end": 575,
                             "value": "#1.2: x >>>= 1 throw ReferenceError. Actual: ",
-                            "raw": "'#1.2: x >>>= 1 throw ReferenceError. Actual: '"
+                            "raw": "'#1.2: x >>>= 1 throw ReferenceError. Actual: '",
+                            "start": 528,
+                            "end": 575
                           },
                           "operator": "+",
                           "right": {
                             "type": "ParenthesizedExpression",
-                            "start": 578,
-                            "end": 581,
                             "expression": {
                               "type": "Identifier",
+                              "name": "e",
                               "start": 579,
-                              "end": 580,
-                              "name": "e"
-                            }
-                          }
+                              "end": 580
+                            },
+                            "start": 578,
+                            "end": 581
+                          },
+                          "start": 528,
+                          "end": 581
                         }
-                      ]
-                    }
+                      ],
+                      "start": 511,
+                      "end": 582
+                    },
+                    "start": 505,
+                    "end": 583
                   }
-                ]
+                ],
+                "start": 499,
+                "end": 589
               },
-              "alternate": null
+              "alternate": null,
+              "start": 455,
+              "end": 589
             }
-          ]
-        }
+          ],
+          "start": 451,
+          "end": 591
+        },
+        "start": 441,
+        "end": 591
       },
-      "finalizer": null
+      "finalizer": null,
+      "start": 328,
+      "end": 591
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 592
 }

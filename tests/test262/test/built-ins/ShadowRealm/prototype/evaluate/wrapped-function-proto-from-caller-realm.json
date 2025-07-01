@@ -1,1039 +1,1039 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 2392,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 915,
-      "end": 1066,
       "expression": {
         "type": "CallExpression",
-        "start": 915,
-        "end": 1065,
         "callee": {
           "type": "MemberExpression",
-          "start": 915,
-          "end": 931,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 915,
-            "end": 921,
-            "name": "assert"
+            "end": 921
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 922,
-            "end": 931,
-            "name": "sameValue"
+            "end": 931
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 915,
+          "end": 931
         },
         "arguments": [
           {
             "type": "UnaryExpression",
-            "start": 935,
-            "end": 972,
             "operator": "typeof",
             "argument": {
               "type": "MemberExpression",
-              "start": 942,
-              "end": 972,
               "object": {
                 "type": "MemberExpression",
-                "start": 942,
-                "end": 963,
                 "object": {
                   "type": "Identifier",
+                  "name": "ShadowRealm",
                   "start": 942,
-                  "end": 953,
-                  "name": "ShadowRealm"
+                  "end": 953
                 },
                 "property": {
                   "type": "Identifier",
+                  "name": "prototype",
                   "start": 954,
-                  "end": 963,
-                  "name": "prototype"
+                  "end": 963
                 },
                 "optional": false,
-                "computed": false
+                "computed": false,
+                "start": 942,
+                "end": 963
               },
               "property": {
                 "type": "Identifier",
+                "name": "evaluate",
                 "start": 964,
-                "end": 972,
-                "name": "evaluate"
+                "end": 972
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 942,
+              "end": 972
             },
-            "prefix": true
+            "prefix": true,
+            "start": 935,
+            "end": 972
           },
           {
             "type": "Literal",
-            "start": 976,
-            "end": 986,
             "value": "function",
-            "raw": "'function'"
+            "raw": "'function'",
+            "start": 976,
+            "end": 986
           },
           {
             "type": "Literal",
-            "start": 990,
-            "end": 1063,
             "value": "This test must fail if ShadowRealm.prototype.evaluate is not a function",
-            "raw": "'This test must fail if ShadowRealm.prototype.evaluate is not a function'"
+            "raw": "'This test must fail if ShadowRealm.prototype.evaluate is not a function'",
+            "start": 990,
+            "end": 1063
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 915,
+        "end": 1065
+      },
+      "start": 915,
+      "end": 1066
     },
     {
       "type": "VariableDeclaration",
-      "start": 1068,
-      "end": 1106,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 1072,
-          "end": 1105,
           "id": {
             "type": "Identifier",
+            "name": "other",
             "start": 1072,
-            "end": 1077,
-            "name": "other"
+            "end": 1077
           },
           "init": {
             "type": "MemberExpression",
-            "start": 1080,
-            "end": 1105,
             "object": {
               "type": "CallExpression",
-              "start": 1080,
-              "end": 1098,
               "callee": {
                 "type": "MemberExpression",
-                "start": 1080,
-                "end": 1096,
                 "object": {
                   "type": "Identifier",
+                  "name": "$262",
                   "start": 1080,
-                  "end": 1084,
-                  "name": "$262"
+                  "end": 1084
                 },
                 "property": {
                   "type": "Identifier",
+                  "name": "createRealm",
                   "start": 1085,
-                  "end": 1096,
-                  "name": "createRealm"
+                  "end": 1096
                 },
                 "optional": false,
-                "computed": false
+                "computed": false,
+                "start": 1080,
+                "end": 1096
               },
               "arguments": [],
-              "optional": false
+              "optional": false,
+              "start": 1080,
+              "end": 1098
             },
             "property": {
               "type": "Identifier",
+              "name": "global",
               "start": 1099,
-              "end": 1105,
-              "name": "global"
+              "end": 1105
             },
             "optional": false,
-            "computed": false
-          }
+            "computed": false,
+            "start": 1080,
+            "end": 1105
+          },
+          "start": 1072,
+          "end": 1105
         }
-      ]
+      ],
+      "start": 1068,
+      "end": 1106
     },
     {
       "type": "VariableDeclaration",
-      "start": 1107,
-      "end": 1148,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 1111,
-          "end": 1147,
           "id": {
             "type": "Identifier",
+            "name": "OtherShadowRealm",
             "start": 1111,
-            "end": 1127,
-            "name": "OtherShadowRealm"
+            "end": 1127
           },
           "init": {
             "type": "MemberExpression",
-            "start": 1130,
-            "end": 1147,
             "object": {
               "type": "Identifier",
+              "name": "other",
               "start": 1130,
-              "end": 1135,
-              "name": "other"
+              "end": 1135
             },
             "property": {
               "type": "Identifier",
+              "name": "ShadowRealm",
               "start": 1136,
-              "end": 1147,
-              "name": "ShadowRealm"
+              "end": 1147
             },
             "optional": false,
-            "computed": false
-          }
+            "computed": false,
+            "start": 1130,
+            "end": 1147
+          },
+          "start": 1111,
+          "end": 1147
         }
-      ]
+      ],
+      "start": 1107,
+      "end": 1148
     },
     {
       "type": "VariableDeclaration",
-      "start": 1149,
-      "end": 1203,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 1153,
-          "end": 1202,
           "id": {
             "type": "Identifier",
+            "name": "OtherFunctionPrototype",
             "start": 1153,
-            "end": 1175,
-            "name": "OtherFunctionPrototype"
+            "end": 1175
           },
           "init": {
             "type": "MemberExpression",
-            "start": 1178,
-            "end": 1202,
             "object": {
               "type": "MemberExpression",
-              "start": 1178,
-              "end": 1192,
               "object": {
                 "type": "Identifier",
+                "name": "other",
                 "start": 1178,
-                "end": 1183,
-                "name": "other"
+                "end": 1183
               },
               "property": {
                 "type": "Identifier",
+                "name": "Function",
                 "start": 1184,
-                "end": 1192,
-                "name": "Function"
+                "end": 1192
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 1178,
+              "end": 1192
             },
             "property": {
               "type": "Identifier",
+              "name": "prototype",
               "start": 1193,
-              "end": 1202,
-              "name": "prototype"
+              "end": 1202
             },
             "optional": false,
-            "computed": false
-          }
+            "computed": false,
+            "start": 1178,
+            "end": 1202
+          },
+          "start": 1153,
+          "end": 1202
         }
-      ]
+      ],
+      "start": 1149,
+      "end": 1203
     },
     {
       "type": "VariableDeclaration",
-      "start": 1205,
-      "end": 1248,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 1209,
-          "end": 1247,
           "id": {
             "type": "Identifier",
+            "name": "yetAnother",
             "start": 1209,
-            "end": 1219,
-            "name": "yetAnother"
+            "end": 1219
           },
           "init": {
             "type": "MemberExpression",
-            "start": 1222,
-            "end": 1247,
             "object": {
               "type": "CallExpression",
-              "start": 1222,
-              "end": 1240,
               "callee": {
                 "type": "MemberExpression",
-                "start": 1222,
-                "end": 1238,
                 "object": {
                   "type": "Identifier",
+                  "name": "$262",
                   "start": 1222,
-                  "end": 1226,
-                  "name": "$262"
+                  "end": 1226
                 },
                 "property": {
                   "type": "Identifier",
+                  "name": "createRealm",
                   "start": 1227,
-                  "end": 1238,
-                  "name": "createRealm"
+                  "end": 1238
                 },
                 "optional": false,
-                "computed": false
+                "computed": false,
+                "start": 1222,
+                "end": 1238
               },
               "arguments": [],
-              "optional": false
+              "optional": false,
+              "start": 1222,
+              "end": 1240
             },
             "property": {
               "type": "Identifier",
+              "name": "global",
               "start": 1241,
-              "end": 1247,
-              "name": "global"
+              "end": 1247
             },
             "optional": false,
-            "computed": false
-          }
+            "computed": false,
+            "start": 1222,
+            "end": 1247
+          },
+          "start": 1209,
+          "end": 1247
         }
-      ]
+      ],
+      "start": 1205,
+      "end": 1248
     },
     {
       "type": "VariableDeclaration",
-      "start": 1249,
-      "end": 1300,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 1253,
-          "end": 1299,
           "id": {
             "type": "Identifier",
+            "name": "YetAnotherShadowRealm",
             "start": 1253,
-            "end": 1274,
-            "name": "YetAnotherShadowRealm"
+            "end": 1274
           },
           "init": {
             "type": "MemberExpression",
-            "start": 1277,
-            "end": 1299,
             "object": {
               "type": "Identifier",
+              "name": "yetAnother",
               "start": 1277,
-              "end": 1287,
-              "name": "yetAnother"
+              "end": 1287
             },
             "property": {
               "type": "Identifier",
+              "name": "ShadowRealm",
               "start": 1288,
-              "end": 1299,
-              "name": "ShadowRealm"
+              "end": 1299
             },
             "optional": false,
-            "computed": false
-          }
+            "computed": false,
+            "start": 1277,
+            "end": 1299
+          },
+          "start": 1253,
+          "end": 1299
         }
-      ]
+      ],
+      "start": 1249,
+      "end": 1300
     },
     {
       "type": "VariableDeclaration",
-      "start": 1301,
-      "end": 1365,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 1305,
-          "end": 1364,
           "id": {
             "type": "Identifier",
+            "name": "YetAnotherFunctionPrototype",
             "start": 1305,
-            "end": 1332,
-            "name": "YetAnotherFunctionPrototype"
+            "end": 1332
           },
           "init": {
             "type": "MemberExpression",
-            "start": 1335,
-            "end": 1364,
             "object": {
               "type": "MemberExpression",
-              "start": 1335,
-              "end": 1354,
               "object": {
                 "type": "Identifier",
+                "name": "yetAnother",
                 "start": 1335,
-                "end": 1345,
-                "name": "yetAnother"
+                "end": 1345
               },
               "property": {
                 "type": "Identifier",
+                "name": "Function",
                 "start": 1346,
-                "end": 1354,
-                "name": "Function"
+                "end": 1354
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 1335,
+              "end": 1354
             },
             "property": {
               "type": "Identifier",
+              "name": "prototype",
               "start": 1355,
-              "end": 1364,
-              "name": "prototype"
+              "end": 1364
             },
             "optional": false,
-            "computed": false
-          }
+            "computed": false,
+            "start": 1335,
+            "end": 1364
+          },
+          "start": 1305,
+          "end": 1364
         }
-      ]
+      ],
+      "start": 1301,
+      "end": 1365
     },
     {
       "type": "VariableDeclaration",
-      "start": 1367,
-      "end": 1419,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 1371,
-          "end": 1418,
           "id": {
             "type": "Identifier",
+            "name": "realm",
             "start": 1371,
-            "end": 1376,
-            "name": "realm"
+            "end": 1376
           },
           "init": {
             "type": "CallExpression",
-            "start": 1379,
-            "end": 1418,
             "callee": {
               "type": "MemberExpression",
-              "start": 1379,
-              "end": 1396,
               "object": {
                 "type": "Identifier",
+                "name": "Reflect",
                 "start": 1379,
-                "end": 1386,
-                "name": "Reflect"
+                "end": 1386
               },
               "property": {
                 "type": "Identifier",
+                "name": "construct",
                 "start": 1387,
-                "end": 1396,
-                "name": "construct"
+                "end": 1396
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 1379,
+              "end": 1396
             },
             "arguments": [
               {
                 "type": "Identifier",
+                "name": "OtherShadowRealm",
                 "start": 1397,
-                "end": 1413,
-                "name": "OtherShadowRealm"
+                "end": 1413
               },
               {
                 "type": "ArrayExpression",
+                "elements": [],
                 "start": 1415,
-                "end": 1417,
-                "elements": []
+                "end": 1417
               }
             ],
-            "optional": false
-          }
+            "optional": false,
+            "start": 1379,
+            "end": 1418
+          },
+          "start": 1371,
+          "end": 1418
         }
-      ]
+      ],
+      "start": 1367,
+      "end": 1419
     },
     {
       "type": "VariableDeclaration",
-      "start": 1421,
-      "end": 1528,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 1425,
-          "end": 1528,
           "id": {
             "type": "Identifier",
+            "name": "checkArgWrapperFn",
             "start": 1425,
-            "end": 1442,
-            "name": "checkArgWrapperFn"
+            "end": 1442
           },
           "init": {
             "type": "CallExpression",
-            "start": 1445,
-            "end": 1528,
             "callee": {
               "type": "MemberExpression",
-              "start": 1445,
-              "end": 1459,
               "object": {
                 "type": "Identifier",
+                "name": "realm",
                 "start": 1445,
-                "end": 1450,
-                "name": "realm"
+                "end": 1450
               },
               "property": {
                 "type": "Identifier",
+                "name": "evaluate",
                 "start": 1451,
-                "end": 1459,
-                "name": "evaluate"
+                "end": 1459
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 1445,
+              "end": 1459
             },
             "arguments": [
               {
                 "type": "Literal",
-                "start": 1460,
-                "end": 1527,
                 "value": "(x) => { return Object.getPrototypeOf(x) === Function.prototype }",
-                "raw": "'(x) => { return Object.getPrototypeOf(x) === Function.prototype }'"
+                "raw": "'(x) => { return Object.getPrototypeOf(x) === Function.prototype }'",
+                "start": 1460,
+                "end": 1527
               }
             ],
-            "optional": false
-          }
+            "optional": false,
+            "start": 1445,
+            "end": 1528
+          },
+          "start": 1425,
+          "end": 1528
         }
-      ]
+      ],
+      "start": 1421,
+      "end": 1528
     },
     {
       "type": "ExpressionStatement",
-      "start": 1529,
-      "end": 1665,
       "expression": {
         "type": "CallExpression",
-        "start": 1529,
-        "end": 1664,
         "callee": {
           "type": "MemberExpression",
-          "start": 1529,
-          "end": 1545,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 1529,
-            "end": 1535,
-            "name": "assert"
+            "end": 1535
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 1536,
-            "end": 1545,
-            "name": "sameValue"
+            "end": 1545
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 1529,
+          "end": 1545
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 1546,
-            "end": 1573,
             "callee": {
               "type": "Identifier",
+              "name": "checkArgWrapperFn",
               "start": 1546,
-              "end": 1563,
-              "name": "checkArgWrapperFn"
+              "end": 1563
             },
             "arguments": [
               {
                 "type": "ArrowFunctionExpression",
-                "start": 1564,
-                "end": 1572,
                 "expression": false,
                 "async": false,
                 "params": [],
                 "body": {
                   "type": "BlockStatement",
+                  "body": [],
                   "start": 1570,
-                  "end": 1572,
-                  "body": []
+                  "end": 1572
                 },
                 "id": null,
-                "generator": false
+                "generator": false,
+                "start": 1564,
+                "end": 1572
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 1546,
+            "end": 1573
           },
           {
             "type": "Literal",
-            "start": 1575,
-            "end": 1579,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "start": 1575,
+            "end": 1579
           },
           {
             "type": "Literal",
-            "start": 1581,
-            "end": 1663,
             "value": "callable arguments passed into WrappedFunction should be wrapped in target realm",
-            "raw": "'callable arguments passed into WrappedFunction should be wrapped in target realm'"
+            "raw": "'callable arguments passed into WrappedFunction should be wrapped in target realm'",
+            "start": 1581,
+            "end": 1663
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 1529,
+        "end": 1664
+      },
+      "start": 1529,
+      "end": 1665
     },
     {
       "type": "VariableDeclaration",
-      "start": 1667,
-      "end": 1730,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 1671,
-          "end": 1729,
           "id": {
             "type": "Identifier",
+            "name": "fn",
             "start": 1671,
-            "end": 1673,
-            "name": "fn"
+            "end": 1673
           },
           "init": {
             "type": "CallExpression",
-            "start": 1676,
-            "end": 1729,
             "callee": {
               "type": "MemberExpression",
-              "start": 1676,
-              "end": 1690,
               "object": {
                 "type": "Identifier",
+                "name": "realm",
                 "start": 1676,
-                "end": 1681,
-                "name": "realm"
+                "end": 1681
               },
               "property": {
                 "type": "Identifier",
+                "name": "evaluate",
                 "start": 1682,
-                "end": 1690,
-                "name": "evaluate"
+                "end": 1690
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 1676,
+              "end": 1690
             },
             "arguments": [
               {
                 "type": "Literal",
-                "start": 1691,
-                "end": 1728,
                 "value": "() => { return () => { return 1 } }",
-                "raw": "'() => { return () => { return 1 } }'"
+                "raw": "'() => { return () => { return 1 } }'",
+                "start": 1691,
+                "end": 1728
               }
             ],
-            "optional": false
-          }
+            "optional": false,
+            "start": 1676,
+            "end": 1729
+          },
+          "start": 1671,
+          "end": 1729
         }
-      ]
+      ],
+      "start": 1667,
+      "end": 1730
     },
     {
       "type": "ExpressionStatement",
-      "start": 1731,
-      "end": 1858,
       "expression": {
         "type": "CallExpression",
-        "start": 1731,
-        "end": 1857,
         "callee": {
           "type": "MemberExpression",
-          "start": 1731,
-          "end": 1747,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 1731,
-            "end": 1737,
-            "name": "assert"
+            "end": 1737
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 1738,
-            "end": 1747,
-            "name": "sameValue"
+            "end": 1747
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 1731,
+          "end": 1747
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 1748,
-            "end": 1773,
             "callee": {
               "type": "MemberExpression",
-              "start": 1748,
-              "end": 1769,
               "object": {
                 "type": "Identifier",
+                "name": "Object",
                 "start": 1748,
-                "end": 1754,
-                "name": "Object"
+                "end": 1754
               },
               "property": {
                 "type": "Identifier",
+                "name": "getPrototypeOf",
                 "start": 1755,
-                "end": 1769,
-                "name": "getPrototypeOf"
+                "end": 1769
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 1748,
+              "end": 1769
             },
             "arguments": [
               {
                 "type": "Identifier",
+                "name": "fn",
                 "start": 1770,
-                "end": 1772,
-                "name": "fn"
+                "end": 1772
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 1748,
+            "end": 1773
           },
           {
             "type": "Identifier",
+            "name": "OtherFunctionPrototype",
             "start": 1775,
-            "end": 1797,
-            "name": "OtherFunctionPrototype"
+            "end": 1797
           },
           {
             "type": "Literal",
-            "start": 1799,
-            "end": 1856,
             "value": "WrappedFunction should be derived from the caller realm",
-            "raw": "'WrappedFunction should be derived from the caller realm'"
+            "raw": "'WrappedFunction should be derived from the caller realm'",
+            "start": 1799,
+            "end": 1856
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 1731,
+        "end": 1857
+      },
+      "start": 1731,
+      "end": 1858
     },
     {
       "type": "ExpressionStatement",
-      "start": 1859,
-      "end": 2004,
       "expression": {
         "type": "CallExpression",
-        "start": 1859,
-        "end": 2003,
         "callee": {
           "type": "MemberExpression",
-          "start": 1859,
-          "end": 1875,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 1859,
-            "end": 1865,
-            "name": "assert"
+            "end": 1865
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 1866,
-            "end": 1875,
-            "name": "sameValue"
+            "end": 1875
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 1859,
+          "end": 1875
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 1876,
-            "end": 1903,
             "callee": {
               "type": "MemberExpression",
-              "start": 1876,
-              "end": 1897,
               "object": {
                 "type": "Identifier",
+                "name": "Object",
                 "start": 1876,
-                "end": 1882,
-                "name": "Object"
+                "end": 1882
               },
               "property": {
                 "type": "Identifier",
+                "name": "getPrototypeOf",
                 "start": 1883,
-                "end": 1897,
-                "name": "getPrototypeOf"
+                "end": 1897
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 1876,
+              "end": 1897
             },
             "arguments": [
               {
                 "type": "CallExpression",
-                "start": 1898,
-                "end": 1902,
                 "callee": {
                   "type": "Identifier",
+                  "name": "fn",
                   "start": 1898,
-                  "end": 1900,
-                  "name": "fn"
+                  "end": 1900
                 },
                 "arguments": [],
-                "optional": false
+                "optional": false,
+                "start": 1898,
+                "end": 1902
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 1876,
+            "end": 1903
           },
           {
             "type": "Identifier",
+            "name": "OtherFunctionPrototype",
             "start": 1905,
-            "end": 1927,
-            "name": "OtherFunctionPrototype"
+            "end": 1927
           },
           {
             "type": "Literal",
-            "start": 1929,
-            "end": 2002,
             "value": "callable results from WrappedFunction should be wrapped in caller realm",
-            "raw": "'callable results from WrappedFunction should be wrapped in caller realm'"
+            "raw": "'callable results from WrappedFunction should be wrapped in caller realm'",
+            "start": 1929,
+            "end": 2002
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 1859,
+        "end": 2003
+      },
+      "start": 1859,
+      "end": 2004
     },
     {
       "type": "VariableDeclaration",
-      "start": 2006,
-      "end": 2107,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 2010,
-          "end": 2106,
           "id": {
             "type": "Identifier",
+            "name": "fn",
             "start": 2010,
-            "end": 2012,
-            "name": "fn"
+            "end": 2012
           },
           "init": {
             "type": "CallExpression",
-            "start": 2015,
-            "end": 2106,
             "callee": {
               "type": "MemberExpression",
-              "start": 2015,
-              "end": 2060,
               "object": {
                 "type": "MemberExpression",
-                "start": 2015,
-                "end": 2055,
                 "object": {
                   "type": "MemberExpression",
-                  "start": 2015,
-                  "end": 2046,
                   "object": {
                     "type": "Identifier",
+                    "name": "YetAnotherShadowRealm",
                     "start": 2015,
-                    "end": 2036,
-                    "name": "YetAnotherShadowRealm"
+                    "end": 2036
                   },
                   "property": {
                     "type": "Identifier",
+                    "name": "prototype",
                     "start": 2037,
-                    "end": 2046,
-                    "name": "prototype"
+                    "end": 2046
                   },
                   "optional": false,
-                  "computed": false
+                  "computed": false,
+                  "start": 2015,
+                  "end": 2046
                 },
                 "property": {
                   "type": "Identifier",
+                  "name": "evaluate",
                   "start": 2047,
-                  "end": 2055,
-                  "name": "evaluate"
+                  "end": 2055
                 },
                 "optional": false,
-                "computed": false
+                "computed": false,
+                "start": 2015,
+                "end": 2055
               },
               "property": {
                 "type": "Identifier",
+                "name": "call",
                 "start": 2056,
-                "end": 2060,
-                "name": "call"
+                "end": 2060
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 2015,
+              "end": 2060
             },
             "arguments": [
               {
                 "type": "Identifier",
+                "name": "realm",
                 "start": 2061,
-                "end": 2066,
-                "name": "realm"
+                "end": 2066
               },
               {
                 "type": "Literal",
-                "start": 2068,
-                "end": 2105,
                 "value": "() => { return () => { return 1 } }",
-                "raw": "'() => { return () => { return 1 } }'"
+                "raw": "'() => { return () => { return 1 } }'",
+                "start": 2068,
+                "end": 2105
               }
             ],
-            "optional": false
-          }
+            "optional": false,
+            "start": 2015,
+            "end": 2106
+          },
+          "start": 2010,
+          "end": 2106
         }
-      ]
+      ],
+      "start": 2006,
+      "end": 2107
     },
     {
       "type": "ExpressionStatement",
-      "start": 2108,
-      "end": 2240,
       "expression": {
         "type": "CallExpression",
-        "start": 2108,
-        "end": 2239,
         "callee": {
           "type": "MemberExpression",
-          "start": 2108,
-          "end": 2124,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 2108,
-            "end": 2114,
-            "name": "assert"
+            "end": 2114
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 2115,
-            "end": 2124,
-            "name": "sameValue"
+            "end": 2124
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 2108,
+          "end": 2124
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 2125,
-            "end": 2150,
             "callee": {
               "type": "MemberExpression",
-              "start": 2125,
-              "end": 2146,
               "object": {
                 "type": "Identifier",
+                "name": "Object",
                 "start": 2125,
-                "end": 2131,
-                "name": "Object"
+                "end": 2131
               },
               "property": {
                 "type": "Identifier",
+                "name": "getPrototypeOf",
                 "start": 2132,
-                "end": 2146,
-                "name": "getPrototypeOf"
+                "end": 2146
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 2125,
+              "end": 2146
             },
             "arguments": [
               {
                 "type": "Identifier",
+                "name": "fn",
                 "start": 2147,
-                "end": 2149,
-                "name": "fn"
+                "end": 2149
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 2125,
+            "end": 2150
           },
           {
             "type": "Identifier",
+            "name": "YetAnotherFunctionPrototype",
             "start": 2152,
-            "end": 2179,
-            "name": "YetAnotherFunctionPrototype"
+            "end": 2179
           },
           {
             "type": "Literal",
-            "start": 2181,
-            "end": 2238,
             "value": "WrappedFunction should be derived from the caller realm",
-            "raw": "'WrappedFunction should be derived from the caller realm'"
+            "raw": "'WrappedFunction should be derived from the caller realm'",
+            "start": 2181,
+            "end": 2238
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 2108,
+        "end": 2239
+      },
+      "start": 2108,
+      "end": 2240
     },
     {
       "type": "ExpressionStatement",
-      "start": 2241,
-      "end": 2391,
       "expression": {
         "type": "CallExpression",
-        "start": 2241,
-        "end": 2390,
         "callee": {
           "type": "MemberExpression",
-          "start": 2241,
-          "end": 2257,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 2241,
-            "end": 2247,
-            "name": "assert"
+            "end": 2247
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 2248,
-            "end": 2257,
-            "name": "sameValue"
+            "end": 2257
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 2241,
+          "end": 2257
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 2258,
-            "end": 2285,
             "callee": {
               "type": "MemberExpression",
-              "start": 2258,
-              "end": 2279,
               "object": {
                 "type": "Identifier",
+                "name": "Object",
                 "start": 2258,
-                "end": 2264,
-                "name": "Object"
+                "end": 2264
               },
               "property": {
                 "type": "Identifier",
+                "name": "getPrototypeOf",
                 "start": 2265,
-                "end": 2279,
-                "name": "getPrototypeOf"
+                "end": 2279
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 2258,
+              "end": 2279
             },
             "arguments": [
               {
                 "type": "CallExpression",
-                "start": 2280,
-                "end": 2284,
                 "callee": {
                   "type": "Identifier",
+                  "name": "fn",
                   "start": 2280,
-                  "end": 2282,
-                  "name": "fn"
+                  "end": 2282
                 },
                 "arguments": [],
-                "optional": false
+                "optional": false,
+                "start": 2280,
+                "end": 2284
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 2258,
+            "end": 2285
           },
           {
             "type": "Identifier",
+            "name": "YetAnotherFunctionPrototype",
             "start": 2287,
-            "end": 2314,
-            "name": "YetAnotherFunctionPrototype"
+            "end": 2314
           },
           {
             "type": "Literal",
-            "start": 2316,
-            "end": 2389,
             "value": "callable results from WrappedFunction should be wrapped in caller realm",
-            "raw": "'callable results from WrappedFunction should be wrapped in caller realm'"
+            "raw": "'callable results from WrappedFunction should be wrapped in caller realm'",
+            "start": 2316,
+            "end": 2389
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 2241,
+        "end": 2390
+      },
+      "start": 2241,
+      "end": 2391
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 2392
 }

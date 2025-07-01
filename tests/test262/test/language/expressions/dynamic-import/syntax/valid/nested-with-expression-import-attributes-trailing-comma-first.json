@@ -1,149 +1,149 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 1469,
   "body": [
     {
       "type": "WithStatement",
-      "start": 1332,
-      "end": 1468,
       "object": {
         "type": "ImportExpression",
-        "start": 1338,
-        "end": 1367,
         "source": {
           "type": "Literal",
-          "start": 1345,
-          "end": 1365,
           "value": "./empty_FIXTURE.js",
-          "raw": "'./empty_FIXTURE.js'"
+          "raw": "'./empty_FIXTURE.js'",
+          "start": 1345,
+          "end": 1365
         },
         "options": null,
-        "phase": null
+        "phase": null,
+        "start": 1338,
+        "end": 1367
       },
       "body": {
         "type": "BlockStatement",
-        "start": 1369,
-        "end": 1468,
         "body": [
           {
             "type": "ExpressionStatement",
-            "start": 1375,
-            "end": 1422,
             "expression": {
               "type": "CallExpression",
-              "start": 1375,
-              "end": 1421,
               "callee": {
                 "type": "MemberExpression",
-                "start": 1375,
-                "end": 1391,
                 "object": {
                   "type": "Identifier",
+                  "name": "assert",
                   "start": 1375,
-                  "end": 1381,
-                  "name": "assert"
+                  "end": 1381
                 },
                 "property": {
                   "type": "Identifier",
+                  "name": "sameValue",
                   "start": 1382,
-                  "end": 1391,
-                  "name": "sameValue"
+                  "end": 1391
                 },
                 "optional": false,
-                "computed": false
+                "computed": false,
+                "start": 1375,
+                "end": 1391
               },
               "arguments": [
                 {
                   "type": "Identifier",
+                  "name": "then",
                   "start": 1392,
-                  "end": 1396,
-                  "name": "then"
+                  "end": 1396
                 },
                 {
                   "type": "MemberExpression",
-                  "start": 1398,
-                  "end": 1420,
                   "object": {
                     "type": "MemberExpression",
-                    "start": 1398,
-                    "end": 1415,
                     "object": {
                       "type": "Identifier",
+                      "name": "Promise",
                       "start": 1398,
-                      "end": 1405,
-                      "name": "Promise"
+                      "end": 1405
                     },
                     "property": {
                       "type": "Identifier",
+                      "name": "prototype",
                       "start": 1406,
-                      "end": 1415,
-                      "name": "prototype"
+                      "end": 1415
                     },
                     "optional": false,
-                    "computed": false
+                    "computed": false,
+                    "start": 1398,
+                    "end": 1415
                   },
                   "property": {
                     "type": "Identifier",
+                    "name": "then",
                     "start": 1416,
-                    "end": 1420,
-                    "name": "then"
+                    "end": 1420
                   },
                   "optional": false,
-                  "computed": false
+                  "computed": false,
+                  "start": 1398,
+                  "end": 1420
                 }
               ],
-              "optional": false
-            }
+              "optional": false,
+              "start": 1375,
+              "end": 1421
+            },
+            "start": 1375,
+            "end": 1422
           },
           {
             "type": "ExpressionStatement",
-            "start": 1427,
-            "end": 1466,
             "expression": {
               "type": "CallExpression",
-              "start": 1427,
-              "end": 1465,
               "callee": {
                 "type": "MemberExpression",
-                "start": 1427,
-                "end": 1443,
                 "object": {
                   "type": "Identifier",
+                  "name": "assert",
                   "start": 1427,
-                  "end": 1433,
-                  "name": "assert"
+                  "end": 1433
                 },
                 "property": {
                   "type": "Identifier",
+                  "name": "sameValue",
                   "start": 1434,
-                  "end": 1443,
-                  "name": "sameValue"
+                  "end": 1443
                 },
                 "optional": false,
-                "computed": false
+                "computed": false,
+                "start": 1427,
+                "end": 1443
               },
               "arguments": [
                 {
                   "type": "Identifier",
+                  "name": "constructor",
                   "start": 1444,
-                  "end": 1455,
-                  "name": "constructor"
+                  "end": 1455
                 },
                 {
                   "type": "Identifier",
+                  "name": "Promise",
                   "start": 1457,
-                  "end": 1464,
-                  "name": "Promise"
+                  "end": 1464
                 }
               ],
-              "optional": false
-            }
+              "optional": false,
+              "start": 1427,
+              "end": 1465
+            },
+            "start": 1427,
+            "end": 1466
           }
-        ]
-      }
+        ],
+        "start": 1369,
+        "end": 1468
+      },
+      "start": 1332,
+      "end": 1468
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 1469
 }

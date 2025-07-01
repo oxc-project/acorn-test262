@@ -2,63 +2,63 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 34,
   "body": [
     {
       "type": "ClassDeclaration",
-      "start": 0,
-      "end": 34,
       "decorators": [],
       "id": {
         "type": "Identifier",
-        "start": 6,
-        "end": 13,
         "decorators": [],
         "name": "greeter",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 6,
+        "end": 13
       },
       "typeParameters": {
         "type": "TSTypeParameterDeclaration",
-        "start": 13,
-        "end": 29,
         "params": [
           {
             "type": "TSTypeParameter",
-            "start": 14,
-            "end": 28,
             "name": {
               "type": "Identifier",
-              "start": 14,
-              "end": 28,
               "decorators": [],
               "name": "typeparameter1",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 14,
+              "end": 28
             },
             "constraint": null,
             "default": null,
             "in": false,
             "out": false,
-            "const": false
+            "const": false,
+            "start": 14,
+            "end": 28
           }
-        ]
+        ],
+        "start": 13,
+        "end": 29
       },
       "superClass": null,
       "superTypeArguments": null,
       "implements": [],
       "body": {
         "type": "ClassBody",
+        "body": [],
         "start": 30,
-        "end": 34,
-        "body": []
+        "end": 34
       },
       "abstract": false,
-      "declare": false
+      "declare": false,
+      "start": 0,
+      "end": 34
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 34
 }
 ```

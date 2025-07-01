@@ -2,22 +2,18 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 11,
-  "end": 487,
   "body": [
     {
       "type": "ClassDeclaration",
-      "start": 11,
-      "end": 437,
       "decorators": [],
       "id": {
         "type": "Identifier",
-        "start": 17,
-        "end": 18,
         "decorators": [],
         "name": "C",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 17,
+        "end": 18
       },
       "typeParameters": null,
       "superClass": null,
@@ -25,40 +21,36 @@ __ESTREE_TEST__:PASS:
       "implements": [],
       "body": {
         "type": "ClassBody",
-        "start": 19,
-        "end": 437,
         "body": [
           {
             "type": "PropertyDefinition",
-            "start": 58,
-            "end": 95,
             "decorators": [],
             "key": {
               "type": "Identifier",
-              "start": 65,
-              "end": 83,
               "decorators": [],
               "name": "readonlyStaticCall",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 65,
+              "end": 83
             },
             "typeAnnotation": null,
             "value": {
               "type": "CallExpression",
-              "start": 86,
-              "end": 94,
               "callee": {
                 "type": "Identifier",
-                "start": 86,
-                "end": 92,
                 "decorators": [],
                 "name": "Symbol",
                 "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "start": 86,
+                "end": 92
               },
               "typeArguments": null,
               "arguments": [],
-              "optional": false
+              "optional": false,
+              "start": 86,
+              "end": 94
             },
             "computed": false,
             "static": true,
@@ -67,21 +59,21 @@ __ESTREE_TEST__:PASS:
             "optional": false,
             "definite": false,
             "readonly": false,
-            "accessibility": null
+            "accessibility": null,
+            "start": 58,
+            "end": 95
           },
           {
             "type": "PropertyDefinition",
-            "start": 162,
-            "end": 188,
             "decorators": [],
             "key": {
               "type": "Identifier",
-              "start": 169,
-              "end": 187,
               "decorators": [],
               "name": "readonlyStaticType",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 169,
+              "end": 187
             },
             "typeAnnotation": null,
             "value": null,
@@ -92,39 +84,39 @@ __ESTREE_TEST__:PASS:
             "optional": false,
             "definite": false,
             "readonly": false,
-            "accessibility": null
+            "accessibility": null,
+            "start": 162,
+            "end": 188
           },
           {
             "type": "PropertyDefinition",
-            "start": 255,
-            "end": 299,
             "decorators": [],
             "key": {
               "type": "Identifier",
-              "start": 262,
-              "end": 287,
               "decorators": [],
               "name": "readonlyStaticTypeAndCall",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 262,
+              "end": 287
             },
             "typeAnnotation": null,
             "value": {
               "type": "CallExpression",
-              "start": 290,
-              "end": 298,
               "callee": {
                 "type": "Identifier",
-                "start": 290,
-                "end": 296,
                 "decorators": [],
                 "name": "Symbol",
                 "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "start": 290,
+                "end": 296
               },
               "typeArguments": null,
               "arguments": [],
-              "optional": false
+              "optional": false,
+              "start": 290,
+              "end": 298
             },
             "computed": false,
             "static": true,
@@ -133,39 +125,39 @@ __ESTREE_TEST__:PASS:
             "optional": false,
             "definite": false,
             "readonly": false,
-            "accessibility": null
+            "accessibility": null,
+            "start": 255,
+            "end": 299
           },
           {
             "type": "PropertyDefinition",
-            "start": 304,
-            "end": 342,
             "decorators": [],
             "key": {
               "type": "Identifier",
-              "start": 311,
-              "end": 330,
               "decorators": [],
               "name": "readwriteStaticCall",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 311,
+              "end": 330
             },
             "typeAnnotation": null,
             "value": {
               "type": "CallExpression",
-              "start": 333,
-              "end": 341,
               "callee": {
                 "type": "Identifier",
-                "start": 333,
-                "end": 339,
                 "decorators": [],
                 "name": "Symbol",
                 "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "start": 333,
+                "end": 339
               },
               "typeArguments": null,
               "arguments": [],
-              "optional": false
+              "optional": false,
+              "start": 333,
+              "end": 341
             },
             "computed": false,
             "static": true,
@@ -174,39 +166,39 @@ __ESTREE_TEST__:PASS:
             "optional": false,
             "definite": false,
             "readonly": false,
-            "accessibility": null
+            "accessibility": null,
+            "start": 304,
+            "end": 342
           },
           {
             "type": "PropertyDefinition",
-            "start": 381,
-            "end": 405,
             "decorators": [],
             "key": {
               "type": "Identifier",
-              "start": 381,
-              "end": 393,
               "decorators": [],
               "name": "readonlyCall",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 381,
+              "end": 393
             },
             "typeAnnotation": null,
             "value": {
               "type": "CallExpression",
-              "start": 396,
-              "end": 404,
               "callee": {
                 "type": "Identifier",
-                "start": 396,
-                "end": 402,
                 "decorators": [],
                 "name": "Symbol",
                 "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "start": 396,
+                "end": 402
               },
               "typeArguments": null,
               "arguments": [],
-              "optional": false
+              "optional": false,
+              "start": 396,
+              "end": 404
             },
             "computed": false,
             "static": false,
@@ -215,39 +207,39 @@ __ESTREE_TEST__:PASS:
             "optional": false,
             "definite": false,
             "readonly": false,
-            "accessibility": null
+            "accessibility": null,
+            "start": 381,
+            "end": 405
           },
           {
             "type": "PropertyDefinition",
-            "start": 410,
-            "end": 435,
             "decorators": [],
             "key": {
               "type": "Identifier",
-              "start": 410,
-              "end": 423,
               "decorators": [],
               "name": "readwriteCall",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 410,
+              "end": 423
             },
             "typeAnnotation": null,
             "value": {
               "type": "CallExpression",
-              "start": 426,
-              "end": 434,
               "callee": {
                 "type": "Identifier",
-                "start": 426,
-                "end": 432,
                 "decorators": [],
                 "name": "Symbol",
                 "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "start": 426,
+                "end": 432
               },
               "typeArguments": null,
               "arguments": [],
-              "optional": false
+              "optional": false,
+              "start": 426,
+              "end": 434
             },
             "computed": false,
             "static": false,
@@ -256,56 +248,64 @@ __ESTREE_TEST__:PASS:
             "optional": false,
             "definite": false,
             "readonly": false,
-            "accessibility": null
+            "accessibility": null,
+            "start": 410,
+            "end": 435
           }
-        ]
+        ],
+        "start": 19,
+        "end": 437
       },
       "abstract": false,
-      "declare": false
+      "declare": false,
+      "start": 11,
+      "end": 437
     },
     {
       "type": "VariableDeclaration",
-      "start": 468,
-      "end": 487,
       "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 474,
-          "end": 486,
           "id": {
             "type": "Identifier",
-            "start": 474,
-            "end": 475,
             "decorators": [],
             "name": "a",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 474,
+            "end": 475
           },
           "init": {
             "type": "CallExpression",
-            "start": 478,
-            "end": 486,
             "callee": {
               "type": "Identifier",
-              "start": 478,
-              "end": 484,
               "decorators": [],
               "name": "Symbol",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 478,
+              "end": 484
             },
             "typeArguments": null,
             "arguments": [],
-            "optional": false
+            "optional": false,
+            "start": 478,
+            "end": 486
           },
-          "definite": false
+          "definite": false,
+          "start": 474,
+          "end": 486
         }
       ],
-      "declare": false
+      "declare": false,
+      "start": 468,
+      "end": 487
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 11,
+  "end": 487
 }
 ```

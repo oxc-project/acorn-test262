@@ -2,149 +2,141 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 57,
-  "end": 233,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 57,
-      "end": 75,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 61,
-          "end": 75,
           "id": {
             "type": "Identifier",
-            "start": 61,
-            "end": 70,
             "decorators": [],
             "name": "Workspace",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 61,
+            "end": 70
           },
           "init": {
             "type": "ObjectExpression",
+            "properties": [],
             "start": 73,
-            "end": 75,
-            "properties": []
+            "end": 75
           },
-          "definite": false
+          "definite": false,
+          "start": 61,
+          "end": 75
         }
       ],
-      "declare": false
+      "declare": false,
+      "start": 57,
+      "end": 75
     },
     {
       "type": "VariableDeclaration",
-      "start": 109,
-      "end": 115,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 113,
-          "end": 114,
           "id": {
             "type": "Identifier",
-            "start": 113,
-            "end": 114,
             "decorators": [],
             "name": "p",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 113,
+            "end": 114
           },
           "init": null,
-          "definite": false
+          "definite": false,
+          "start": 113,
+          "end": 114
         }
       ],
-      "declare": false
+      "declare": false,
+      "start": 109,
+      "end": 115
     },
     {
       "type": "ExpressionStatement",
-      "start": 116,
-      "end": 136,
       "expression": {
         "type": "CallExpression",
-        "start": 116,
-        "end": 136,
         "callee": {
           "type": "MemberExpression",
-          "start": 116,
-          "end": 134,
           "object": {
             "type": "Identifier",
-            "start": 116,
-            "end": 117,
             "decorators": [],
             "name": "p",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 116,
+            "end": 117
           },
           "property": {
             "type": "Identifier",
-            "start": 118,
-            "end": 134,
             "decorators": [],
             "name": "isServiceProject",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 118,
+            "end": 134
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 116,
+          "end": 134
         },
         "typeArguments": null,
         "arguments": [],
-        "optional": false
+        "optional": false,
+        "start": 116,
+        "end": 136
       },
-      "directive": null
+      "directive": null,
+      "start": 116,
+      "end": 136
     },
     {
       "type": "ExpressionStatement",
-      "start": 138,
-      "end": 175,
       "expression": {
         "type": "AssignmentExpression",
-        "start": 138,
-        "end": 175,
         "operator": "=",
         "left": {
           "type": "MemberExpression",
-          "start": 138,
-          "end": 155,
           "object": {
             "type": "Identifier",
-            "start": 138,
-            "end": 147,
             "decorators": [],
             "name": "Workspace",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 138,
+            "end": 147
           },
           "property": {
             "type": "Identifier",
-            "start": 148,
-            "end": 155,
             "decorators": [],
             "name": "Project",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 148,
+            "end": 155
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 138,
+          "end": 155
         },
         "right": {
           "type": "FunctionExpression",
-          "start": 158,
-          "end": 175,
           "id": {
             "type": "Identifier",
-            "start": 167,
-            "end": 169,
             "decorators": [],
             "name": "wp",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 167,
+            "end": 169
           },
           "generator": false,
           "async": false,
@@ -154,88 +146,84 @@ __ESTREE_TEST__:PASS:
           "returnType": null,
           "body": {
             "type": "BlockStatement",
+            "body": [],
             "start": 172,
-            "end": 175,
-            "body": []
+            "end": 175
           },
-          "expression": false
-        }
+          "expression": false,
+          "start": 158,
+          "end": 175
+        },
+        "start": 138,
+        "end": 175
       },
-      "directive": null
+      "directive": null,
+      "start": 138,
+      "end": 175
     },
     {
       "type": "ExpressionStatement",
-      "start": 176,
-      "end": 233,
       "expression": {
         "type": "AssignmentExpression",
-        "start": 176,
-        "end": 233,
         "operator": "=",
         "left": {
           "type": "MemberExpression",
-          "start": 176,
-          "end": 203,
           "object": {
             "type": "MemberExpression",
-            "start": 176,
-            "end": 193,
             "object": {
               "type": "Identifier",
-              "start": 176,
-              "end": 185,
               "decorators": [],
               "name": "Workspace",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 176,
+              "end": 185
             },
             "property": {
               "type": "Identifier",
-              "start": 186,
-              "end": 193,
               "decorators": [],
               "name": "Project",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 186,
+              "end": 193
             },
             "optional": false,
-            "computed": false
+            "computed": false,
+            "start": 176,
+            "end": 193
           },
           "property": {
             "type": "Identifier",
-            "start": 194,
-            "end": 203,
             "decorators": [],
             "name": "prototype",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 194,
+            "end": 203
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 176,
+          "end": 203
         },
         "right": {
           "type": "ObjectExpression",
-          "start": 206,
-          "end": 233,
           "properties": [
             {
               "type": "Property",
-              "start": 210,
-              "end": 231,
               "kind": "init",
               "key": {
                 "type": "Identifier",
-                "start": 210,
-                "end": 226,
                 "decorators": [],
                 "name": "isServiceProject",
                 "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "start": 210,
+                "end": 226
               },
               "value": {
                 "type": "FunctionExpression",
-                "start": 226,
-                "end": 231,
                 "id": null,
                 "generator": false,
                 "async": false,
@@ -245,24 +233,36 @@ __ESTREE_TEST__:PASS:
                 "returnType": null,
                 "body": {
                   "type": "BlockStatement",
+                  "body": [],
                   "start": 229,
-                  "end": 231,
-                  "body": []
+                  "end": 231
                 },
-                "expression": false
+                "expression": false,
+                "start": 226,
+                "end": 231
               },
               "method": true,
               "shorthand": false,
               "computed": false,
-              "optional": false
+              "optional": false,
+              "start": 210,
+              "end": 231
             }
-          ]
-        }
+          ],
+          "start": 206,
+          "end": 233
+        },
+        "start": 176,
+        "end": 233
       },
-      "directive": null
+      "directive": null,
+      "start": 176,
+      "end": 233
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 57,
+  "end": 233
 }
 ```

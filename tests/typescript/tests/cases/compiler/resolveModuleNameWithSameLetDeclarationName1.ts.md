@@ -2,116 +2,116 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 70,
   "body": [
     {
       "type": "TSModuleDeclaration",
-      "start": 0,
-      "end": 50,
       "id": {
         "type": "Identifier",
-        "start": 15,
-        "end": 18,
         "decorators": [],
         "name": "foo",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 15,
+        "end": 18
       },
       "body": {
         "type": "TSModuleBlock",
-        "start": 19,
-        "end": 50,
         "body": [
           {
             "type": "TSInterfaceDeclaration",
-            "start": 26,
-            "end": 48,
             "id": {
               "type": "Identifier",
-              "start": 36,
-              "end": 39,
               "decorators": [],
               "name": "Bar",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 36,
+              "end": 39
             },
             "typeParameters": null,
             "extends": [],
             "body": {
               "type": "TSInterfaceBody",
+              "body": [],
               "start": 40,
-              "end": 48,
-              "body": []
+              "end": 48
             },
-            "declare": false
+            "declare": false,
+            "start": 26,
+            "end": 48
           }
-        ]
+        ],
+        "start": 19,
+        "end": 50
       },
       "kind": "module",
       "declare": true,
-      "global": false
+      "global": false,
+      "start": 0,
+      "end": 50
     },
     {
       "type": "VariableDeclaration",
-      "start": 52,
-      "end": 69,
       "kind": "let",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 56,
-          "end": 68,
           "id": {
             "type": "Identifier",
-            "start": 56,
-            "end": 68,
             "decorators": [],
             "name": "foo",
             "optional": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
-              "start": 59,
-              "end": 68,
               "typeAnnotation": {
                 "type": "TSTypeReference",
-                "start": 61,
-                "end": 68,
                 "typeName": {
                   "type": "TSQualifiedName",
-                  "start": 61,
-                  "end": 68,
                   "left": {
                     "type": "Identifier",
-                    "start": 61,
-                    "end": 64,
                     "decorators": [],
                     "name": "foo",
                     "optional": false,
-                    "typeAnnotation": null
+                    "typeAnnotation": null,
+                    "start": 61,
+                    "end": 64
                   },
                   "right": {
                     "type": "Identifier",
-                    "start": 65,
-                    "end": 68,
                     "decorators": [],
                     "name": "Bar",
                     "optional": false,
-                    "typeAnnotation": null
-                  }
+                    "typeAnnotation": null,
+                    "start": 65,
+                    "end": 68
+                  },
+                  "start": 61,
+                  "end": 68
                 },
-                "typeArguments": null
-              }
-            }
+                "typeArguments": null,
+                "start": 61,
+                "end": 68
+              },
+              "start": 59,
+              "end": 68
+            },
+            "start": 56,
+            "end": 68
           },
           "init": null,
-          "definite": false
+          "definite": false,
+          "start": 56,
+          "end": 68
         }
       ],
-      "declare": false
+      "declare": false,
+      "start": 52,
+      "end": 69
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 70
 }
 ```

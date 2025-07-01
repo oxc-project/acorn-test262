@@ -1,160 +1,160 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 488,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 344,
-      "end": 420,
       "expression": {
         "type": "CallExpression",
-        "start": 344,
-        "end": 419,
         "callee": {
           "type": "Identifier",
+          "name": "assert",
           "start": 344,
-          "end": 350,
-          "name": "assert"
+          "end": 350
         },
         "arguments": [
           {
             "type": "UnaryExpression",
-            "start": 351,
-            "end": 380,
             "operator": "!",
             "argument": {
               "type": "CallExpression",
-              "start": 352,
-              "end": 380,
               "callee": {
                 "type": "Identifier",
+                "name": "isConstructor",
                 "start": 352,
-                "end": 365,
-                "name": "isConstructor"
+                "end": 365
               },
               "arguments": [
                 {
                   "type": "MemberExpression",
-                  "start": 366,
-                  "end": 379,
                   "object": {
                     "type": "Identifier",
+                    "name": "Math",
                     "start": 366,
-                    "end": 370,
-                    "name": "Math"
+                    "end": 370
                   },
                   "property": {
                     "type": "Identifier",
+                    "name": "f16round",
                     "start": 371,
-                    "end": 379,
-                    "name": "f16round"
+                    "end": 379
                   },
                   "optional": false,
-                  "computed": false
+                  "computed": false,
+                  "start": 366,
+                  "end": 379
                 }
               ],
-              "optional": false
+              "optional": false,
+              "start": 352,
+              "end": 380
             },
-            "prefix": true
+            "prefix": true,
+            "start": 351,
+            "end": 380
           },
           {
             "type": "Literal",
-            "start": 382,
-            "end": 418,
             "value": "Math.f16round is not a constructor",
-            "raw": "\"Math.f16round is not a constructor\""
+            "raw": "\"Math.f16round is not a constructor\"",
+            "start": 382,
+            "end": 418
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 344,
+        "end": 419
+      },
+      "start": 344,
+      "end": 420
     },
     {
       "type": "ExpressionStatement",
-      "start": 422,
-      "end": 487,
       "expression": {
         "type": "CallExpression",
-        "start": 422,
-        "end": 486,
         "callee": {
           "type": "MemberExpression",
-          "start": 422,
-          "end": 435,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 422,
-            "end": 428,
-            "name": "assert"
+            "end": 428
           },
           "property": {
             "type": "Identifier",
+            "name": "throws",
             "start": 429,
-            "end": 435,
-            "name": "throws"
+            "end": 435
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 422,
+          "end": 435
         },
         "arguments": [
           {
             "type": "Identifier",
+            "name": "TypeError",
             "start": 436,
-            "end": 445,
-            "name": "TypeError"
+            "end": 445
           },
           {
             "type": "FunctionExpression",
-            "start": 447,
-            "end": 485,
             "id": null,
             "generator": false,
             "async": false,
             "params": [],
             "body": {
               "type": "BlockStatement",
-              "start": 459,
-              "end": 485,
               "body": [
                 {
                   "type": "ExpressionStatement",
-                  "start": 463,
-                  "end": 483,
                   "expression": {
                     "type": "NewExpression",
-                    "start": 463,
-                    "end": 482,
                     "callee": {
                       "type": "MemberExpression",
-                      "start": 467,
-                      "end": 480,
                       "object": {
                         "type": "Identifier",
+                        "name": "Math",
                         "start": 467,
-                        "end": 471,
-                        "name": "Math"
+                        "end": 471
                       },
                       "property": {
                         "type": "Identifier",
+                        "name": "f16round",
                         "start": 472,
-                        "end": 480,
-                        "name": "f16round"
+                        "end": 480
                       },
                       "optional": false,
-                      "computed": false
+                      "computed": false,
+                      "start": 467,
+                      "end": 480
                     },
-                    "arguments": []
-                  }
+                    "arguments": [],
+                    "start": 463,
+                    "end": 482
+                  },
+                  "start": 463,
+                  "end": 483
                 }
-              ]
+              ],
+              "start": 459,
+              "end": 485
             },
-            "expression": false
+            "expression": false,
+            "start": 447,
+            "end": 485
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 422,
+        "end": 486
+      },
+      "start": 422,
+      "end": 487
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 488
 }

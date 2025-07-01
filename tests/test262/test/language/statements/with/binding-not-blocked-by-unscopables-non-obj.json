@@ -1,193 +1,193 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 985,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 825,
-      "end": 850,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 829,
-          "end": 849,
           "id": {
             "type": "Identifier",
+            "name": "test262ToString",
             "start": 829,
-            "end": 844,
-            "name": "test262ToString"
+            "end": 844
           },
           "init": {
             "type": "ObjectExpression",
+            "properties": [],
             "start": 847,
-            "end": 849,
-            "properties": []
-          }
+            "end": 849
+          },
+          "start": 829,
+          "end": 849
         }
-      ]
+      ],
+      "start": 825,
+      "end": 850
     },
     {
       "type": "VariableDeclaration",
-      "start": 851,
-      "end": 891,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 855,
-          "end": 890,
           "id": {
             "type": "Identifier",
+            "name": "env",
             "start": 855,
-            "end": 858,
-            "name": "env"
+            "end": 858
           },
           "init": {
             "type": "ObjectExpression",
-            "start": 861,
-            "end": 890,
             "properties": [
               {
                 "type": "Property",
-                "start": 863,
-                "end": 888,
                 "kind": "init",
                 "key": {
                   "type": "Identifier",
+                  "name": "toString",
                   "start": 863,
-                  "end": 871,
-                  "name": "toString"
+                  "end": 871
                 },
                 "value": {
                   "type": "Identifier",
+                  "name": "test262ToString",
                   "start": 873,
-                  "end": 888,
-                  "name": "test262ToString"
+                  "end": 888
                 },
                 "method": false,
                 "shorthand": false,
-                "computed": false
+                "computed": false,
+                "start": 863,
+                "end": 888
               }
-            ]
-          }
+            ],
+            "start": 861,
+            "end": 890
+          },
+          "start": 855,
+          "end": 890
         }
-      ]
+      ],
+      "start": 851,
+      "end": 891
     },
     {
       "type": "ExpressionStatement",
-      "start": 892,
-      "end": 921,
       "expression": {
         "type": "AssignmentExpression",
-        "start": 892,
-        "end": 920,
         "operator": "=",
         "left": {
           "type": "MemberExpression",
-          "start": 892,
-          "end": 915,
           "object": {
             "type": "Identifier",
+            "name": "env",
             "start": 892,
-            "end": 895,
-            "name": "env"
+            "end": 895
           },
           "property": {
             "type": "MemberExpression",
-            "start": 896,
-            "end": 914,
             "object": {
               "type": "Identifier",
+              "name": "Symbol",
               "start": 896,
-              "end": 902,
-              "name": "Symbol"
+              "end": 902
             },
             "property": {
               "type": "Identifier",
+              "name": "unscopables",
               "start": 903,
-              "end": 914,
-              "name": "unscopables"
+              "end": 914
             },
             "optional": false,
-            "computed": false
+            "computed": false,
+            "start": 896,
+            "end": 914
           },
           "optional": false,
-          "computed": true
+          "computed": true,
+          "start": 892,
+          "end": 915
         },
         "right": {
           "type": "Literal",
-          "start": 918,
-          "end": 920,
           "value": "",
-          "raw": "''"
-        }
-      }
+          "raw": "''",
+          "start": 918,
+          "end": 920
+        },
+        "start": 892,
+        "end": 920
+      },
+      "start": 892,
+      "end": 921
     },
     {
       "type": "WithStatement",
-      "start": 923,
-      "end": 984,
       "object": {
         "type": "Identifier",
+        "name": "env",
         "start": 929,
-        "end": 932,
-        "name": "env"
+        "end": 932
       },
       "body": {
         "type": "BlockStatement",
-        "start": 934,
-        "end": 984,
         "body": [
           {
             "type": "ExpressionStatement",
-            "start": 938,
-            "end": 982,
             "expression": {
               "type": "CallExpression",
-              "start": 938,
-              "end": 981,
               "callee": {
                 "type": "MemberExpression",
-                "start": 938,
-                "end": 954,
                 "object": {
                   "type": "Identifier",
+                  "name": "assert",
                   "start": 938,
-                  "end": 944,
-                  "name": "assert"
+                  "end": 944
                 },
                 "property": {
                   "type": "Identifier",
+                  "name": "sameValue",
                   "start": 945,
-                  "end": 954,
-                  "name": "sameValue"
+                  "end": 954
                 },
                 "optional": false,
-                "computed": false
+                "computed": false,
+                "start": 938,
+                "end": 954
               },
               "arguments": [
                 {
                   "type": "Identifier",
+                  "name": "toString",
                   "start": 955,
-                  "end": 963,
-                  "name": "toString"
+                  "end": 963
                 },
                 {
                   "type": "Identifier",
+                  "name": "test262ToString",
                   "start": 965,
-                  "end": 980,
-                  "name": "test262ToString"
+                  "end": 980
                 }
               ],
-              "optional": false
-            }
+              "optional": false,
+              "start": 938,
+              "end": 981
+            },
+            "start": 938,
+            "end": 982
           }
-        ]
-      }
+        ],
+        "start": 934,
+        "end": 984
+      },
+      "start": 923,
+      "end": 984
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 985
 }

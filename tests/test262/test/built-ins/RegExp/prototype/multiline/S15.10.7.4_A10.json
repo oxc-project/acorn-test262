@@ -1,305 +1,305 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 719,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 334,
-      "end": 362,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 338,
-          "end": 361,
           "id": {
             "type": "Identifier",
+            "name": "__re",
             "start": 338,
-            "end": 342,
-            "name": "__re"
+            "end": 342
           },
           "init": {
             "type": "MemberExpression",
-            "start": 345,
-            "end": 361,
             "object": {
               "type": "Identifier",
+              "name": "RegExp",
               "start": 345,
-              "end": 351,
-              "name": "RegExp"
+              "end": 351
             },
             "property": {
               "type": "Identifier",
+              "name": "prototype",
               "start": 352,
-              "end": 361,
-              "name": "prototype"
+              "end": 361
             },
             "optional": false,
-            "computed": false
-          }
+            "computed": false,
+            "start": 345,
+            "end": 361
+          },
+          "start": 338,
+          "end": 361
         }
-      ]
+      ],
+      "start": 334,
+      "end": 362
     },
     {
       "type": "ExpressionStatement",
-      "start": 364,
-      "end": 476,
       "expression": {
         "type": "CallExpression",
-        "start": 364,
-        "end": 475,
         "callee": {
           "type": "MemberExpression",
-          "start": 364,
-          "end": 380,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 364,
-            "end": 370,
-            "name": "assert"
+            "end": 370
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 371,
-            "end": 380,
-            "name": "sameValue"
+            "end": 380
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 364,
+          "end": 380
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 381,
-            "end": 413,
             "callee": {
               "type": "MemberExpression",
-              "start": 381,
-              "end": 400,
               "object": {
                 "type": "Identifier",
+                "name": "__re",
                 "start": 381,
-                "end": 385,
-                "name": "__re"
+                "end": 385
               },
               "property": {
                 "type": "Identifier",
+                "name": "hasOwnProperty",
                 "start": 386,
-                "end": 400,
-                "name": "hasOwnProperty"
+                "end": 400
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 381,
+              "end": 400
             },
             "arguments": [
               {
                 "type": "Literal",
-                "start": 401,
-                "end": 412,
                 "value": "multiline",
-                "raw": "'multiline'"
+                "raw": "'multiline'",
+                "start": 401,
+                "end": 412
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 381,
+            "end": 413
           },
           {
             "type": "Literal",
-            "start": 415,
-            "end": 419,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "start": 415,
+            "end": 419
           },
           {
             "type": "Literal",
-            "start": 421,
-            "end": 474,
             "value": "__re.hasOwnProperty('multiline') must return true",
-            "raw": "'__re.hasOwnProperty(\\'multiline\\') must return true'"
+            "raw": "'__re.hasOwnProperty(\\'multiline\\') must return true'",
+            "start": 421,
+            "end": 474
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 364,
+        "end": 475
+      },
+      "start": 364,
+      "end": 476
     },
     {
       "type": "VariableDeclaration",
-      "start": 478,
-      "end": 498,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 482,
-          "end": 497,
           "id": {
             "type": "Identifier",
+            "name": "__sample",
             "start": 482,
-            "end": 490,
-            "name": "__sample"
+            "end": 490
           },
           "init": {
             "type": "Literal",
-            "start": 493,
-            "end": 497,
             "value": null,
             "raw": "/\\n/",
             "regex": {
               "pattern": "\\n",
               "flags": ""
-            }
-          }
+            },
+            "start": 493,
+            "end": 497
+          },
+          "start": 482,
+          "end": 497
         }
-      ]
+      ],
+      "start": 478,
+      "end": 498
     },
     {
       "type": "VariableDeclaration",
-      "start": 499,
-      "end": 530,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 503,
-          "end": 529,
           "id": {
             "type": "Identifier",
+            "name": "__obj",
             "start": 503,
-            "end": 508,
-            "name": "__obj"
+            "end": 508
           },
           "init": {
             "type": "MemberExpression",
-            "start": 511,
-            "end": 529,
             "object": {
               "type": "Identifier",
+              "name": "__sample",
               "start": 511,
-              "end": 519,
-              "name": "__sample"
+              "end": 519
             },
             "property": {
               "type": "Identifier",
+              "name": "multiline",
               "start": 520,
-              "end": 529,
-              "name": "multiline"
+              "end": 529
             },
             "optional": false,
-            "computed": false
-          }
+            "computed": false,
+            "start": 511,
+            "end": 529
+          },
+          "start": 503,
+          "end": 529
         }
-      ]
+      ],
+      "start": 499,
+      "end": 530
     },
     {
       "type": "ExpressionStatement",
-      "start": 532,
-      "end": 597,
       "expression": {
         "type": "CallExpression",
-        "start": 532,
-        "end": 596,
         "callee": {
           "type": "Identifier",
+          "name": "verifyNotWritable",
           "start": 532,
-          "end": 549,
-          "name": "verifyNotWritable"
+          "end": 549
         },
         "arguments": [
           {
             "type": "Identifier",
+            "name": "__sample",
             "start": 550,
-            "end": 558,
-            "name": "__sample"
+            "end": 558
           },
           {
             "type": "Literal",
+            "value": "multiline",
+            "raw": "\"multiline\"",
             "start": 560,
-            "end": 571,
-            "value": "multiline",
-            "raw": "\"multiline\""
+            "end": 571
           },
           {
             "type": "Literal",
+            "value": "multiline",
+            "raw": "\"multiline\"",
             "start": 573,
-            "end": 584,
-            "value": "multiline",
-            "raw": "\"multiline\""
+            "end": 584
           },
           {
             "type": "Literal",
-            "start": 586,
-            "end": 595,
             "value": "shifted",
-            "raw": "\"shifted\""
+            "raw": "\"shifted\"",
+            "start": 586,
+            "end": 595
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 532,
+        "end": 596
+      },
+      "start": 532,
+      "end": 597
     },
     {
       "type": "ExpressionStatement",
-      "start": 599,
-      "end": 718,
       "expression": {
         "type": "CallExpression",
-        "start": 599,
-        "end": 717,
         "callee": {
           "type": "MemberExpression",
-          "start": 599,
-          "end": 615,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 599,
-            "end": 605,
-            "name": "assert"
+            "end": 605
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 606,
-            "end": 615,
-            "name": "sameValue"
+            "end": 615
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 599,
+          "end": 615
         },
         "arguments": [
           {
             "type": "MemberExpression",
-            "start": 616,
-            "end": 634,
             "object": {
               "type": "Identifier",
+              "name": "__sample",
               "start": 616,
-              "end": 624,
-              "name": "__sample"
+              "end": 624
             },
             "property": {
               "type": "Identifier",
+              "name": "multiline",
               "start": 625,
-              "end": 634,
-              "name": "multiline"
+              "end": 634
             },
             "optional": false,
-            "computed": false
+            "computed": false,
+            "start": 616,
+            "end": 634
           },
           {
             "type": "Identifier",
+            "name": "__obj",
             "start": 636,
-            "end": 641,
-            "name": "__obj"
+            "end": 641
           },
           {
             "type": "Literal",
-            "start": 643,
-            "end": 716,
             "value": "The value of __sample.multiline is expected to equal the value of __obj",
-            "raw": "'The value of __sample.multiline is expected to equal the value of __obj'"
+            "raw": "'The value of __sample.multiline is expected to equal the value of __obj'",
+            "start": 643,
+            "end": 716
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 599,
+        "end": 717
+      },
+      "start": 599,
+      "end": 718
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 719
 }

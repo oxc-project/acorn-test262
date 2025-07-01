@@ -2,59 +2,59 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 35,
   "body": [
     {
       "type": "ExportNamedDeclaration",
-      "start": 0,
-      "end": 10,
       "declaration": null,
       "specifiers": [],
       "source": null,
       "exportKind": "value",
-      "attributes": []
+      "attributes": [],
+      "start": 0,
+      "end": 10
     },
     {
       "type": "BlockStatement",
-      "start": 12,
-      "end": 35,
       "body": [
         {
           "type": "VariableDeclaration",
-          "start": 18,
-          "end": 33,
           "kind": "using",
           "declarations": [
             {
               "type": "VariableDeclarator",
-              "start": 24,
-              "end": 32,
               "id": {
                 "type": "Identifier",
-                "start": 24,
-                "end": 25,
                 "decorators": [],
                 "name": "a",
                 "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "start": 24,
+                "end": 25
               },
               "init": {
                 "type": "Literal",
-                "start": 28,
-                "end": 32,
                 "value": null,
-                "raw": "null"
+                "raw": "null",
+                "start": 28,
+                "end": 32
               },
-              "definite": false
+              "definite": false,
+              "start": 24,
+              "end": 32
             }
           ],
-          "declare": false
+          "declare": false,
+          "start": 18,
+          "end": 33
         }
-      ]
+      ],
+      "start": 12,
+      "end": 35
     }
   ],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 35
 }
 ```

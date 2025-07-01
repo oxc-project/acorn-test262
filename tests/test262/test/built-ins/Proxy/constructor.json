@@ -1,68 +1,68 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 404,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 326,
-      "end": 403,
       "expression": {
         "type": "CallExpression",
-        "start": 326,
-        "end": 402,
         "callee": {
           "type": "MemberExpression",
-          "start": 326,
-          "end": 342,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 326,
-            "end": 332,
-            "name": "assert"
+            "end": 332
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 333,
-            "end": 342,
-            "name": "sameValue"
+            "end": 342
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 326,
+          "end": 342
         },
         "arguments": [
           {
             "type": "UnaryExpression",
-            "start": 343,
-            "end": 355,
             "operator": "typeof",
             "argument": {
               "type": "Identifier",
+              "name": "Proxy",
               "start": 350,
-              "end": 355,
-              "name": "Proxy"
+              "end": 355
             },
-            "prefix": true
+            "prefix": true,
+            "start": 343,
+            "end": 355
           },
           {
             "type": "Literal",
-            "start": 357,
-            "end": 367,
             "value": "function",
-            "raw": "\"function\""
+            "raw": "\"function\"",
+            "start": 357,
+            "end": 367
           },
           {
             "type": "Literal",
-            "start": 369,
-            "end": 401,
             "value": "`typeof Proxy` is `'function'`",
-            "raw": "\"`typeof Proxy` is `'function'`\""
+            "raw": "\"`typeof Proxy` is `'function'`\"",
+            "start": 369,
+            "end": 401
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 326,
+        "end": 402
+      },
+      "start": 326,
+      "end": 403
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 404
 }

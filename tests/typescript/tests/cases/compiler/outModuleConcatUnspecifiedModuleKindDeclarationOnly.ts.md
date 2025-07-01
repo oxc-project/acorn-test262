@@ -2,26 +2,20 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 29,
   "body": [
     {
       "type": "ExportNamedDeclaration",
-      "start": 0,
-      "end": 18,
       "declaration": {
         "type": "ClassDeclaration",
-        "start": 7,
-        "end": 18,
         "decorators": [],
         "id": {
           "type": "Identifier",
-          "start": 13,
-          "end": 14,
           "decorators": [],
           "name": "A",
           "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "start": 13,
+          "end": 14
         },
         "typeParameters": null,
         "superClass": null,
@@ -29,63 +23,69 @@ __ESTREE_TEST__:PASS:
         "implements": [],
         "body": {
           "type": "ClassBody",
+          "body": [],
           "start": 15,
-          "end": 18,
-          "body": []
+          "end": 18
         },
         "abstract": false,
-        "declare": false
+        "declare": false,
+        "start": 7,
+        "end": 18
       },
       "specifiers": [],
       "source": null,
       "exportKind": "value",
-      "attributes": []
+      "attributes": [],
+      "start": 0,
+      "end": 18
     }
   ],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 29
 }
 ```
 __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 20,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 0,
-      "end": 10,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 4,
-          "end": 9,
           "id": {
             "type": "Identifier",
-            "start": 4,
-            "end": 5,
             "decorators": [],
             "name": "x",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 4,
+            "end": 5
           },
           "init": {
             "type": "Literal",
-            "start": 8,
-            "end": 9,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "start": 8,
+            "end": 9
           },
-          "definite": false
+          "definite": false,
+          "start": 4,
+          "end": 9
         }
       ],
-      "declare": false
+      "declare": false,
+      "start": 0,
+      "end": 10
     }
   ],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 20
 }
 ```

@@ -1,35 +1,35 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 351,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 316,
-      "end": 350,
       "expression": {
         "type": "CallExpression",
-        "start": 316,
-        "end": 349,
         "callee": {
           "type": "Identifier",
+          "name": "eval",
           "start": 316,
-          "end": 320,
-          "name": "eval"
+          "end": 320
         },
         "arguments": [
           {
             "type": "Literal",
-            "start": 321,
-            "end": 348,
             "value": "({foo : 1, get foo(){}});",
-            "raw": "\"({foo : 1, get foo(){}});\""
+            "raw": "\"({foo : 1, get foo(){}});\"",
+            "start": 321,
+            "end": 348
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 316,
+        "end": 349
+      },
+      "start": 316,
+      "end": 350
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 351
 }

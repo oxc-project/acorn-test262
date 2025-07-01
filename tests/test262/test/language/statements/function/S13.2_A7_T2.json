@@ -1,63 +1,63 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 291,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 247,
-      "end": 290,
       "expression": {
         "type": "CallExpression",
-        "start": 247,
-        "end": 289,
         "callee": {
           "type": "MemberExpression",
-          "start": 247,
-          "end": 276,
           "object": {
             "type": "ParenthesizedExpression",
-            "start": 247,
-            "end": 261,
             "expression": {
               "type": "FunctionExpression",
-              "start": 248,
-              "end": 260,
               "id": null,
               "generator": false,
               "async": false,
               "params": [],
               "body": {
                 "type": "BlockStatement",
+                "body": [],
                 "start": 258,
-                "end": 260,
-                "body": []
+                "end": 260
               },
-              "expression": false
-            }
+              "expression": false,
+              "start": 248,
+              "end": 260
+            },
+            "start": 247,
+            "end": 261
           },
           "property": {
             "type": "Identifier",
+            "name": "hasOwnProperty",
             "start": 262,
-            "end": 276,
-            "name": "hasOwnProperty"
+            "end": 276
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 247,
+          "end": 276
         },
         "arguments": [
           {
             "type": "Literal",
-            "start": 277,
-            "end": 288,
             "value": "arguments",
-            "raw": "'arguments'"
+            "raw": "'arguments'",
+            "start": 277,
+            "end": 288
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 247,
+        "end": 289
+      },
+      "start": 247,
+      "end": 290
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 291
 }

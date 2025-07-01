@@ -1,130 +1,130 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 529,
   "body": [
     {
       "type": "FunctionDeclaration",
-      "start": 364,
-      "end": 513,
       "id": {
         "type": "Identifier",
+        "name": "fun",
         "start": 373,
-        "end": 376,
-        "name": "fun"
+        "end": 376
       },
       "generator": false,
       "async": false,
       "params": [],
       "body": {
         "type": "BlockStatement",
-        "start": 379,
-        "end": 513,
         "body": [
           {
             "type": "ExpressionStatement",
-            "start": 393,
-            "end": 420,
             "expression": {
               "type": "AssignmentExpression",
-              "start": 393,
-              "end": 419,
               "operator": "=",
               "left": {
                 "type": "Identifier",
+                "name": "test262unresolvable",
                 "start": 393,
-                "end": 412,
-                "name": "test262unresolvable"
+                "end": 412
               },
               "right": {
                 "type": "Literal",
-                "start": 415,
-                "end": 419,
                 "value": null,
-                "raw": "null"
-              }
-            }
+                "raw": "null",
+                "start": 415,
+                "end": 419
+              },
+              "start": 393,
+              "end": 419
+            },
+            "start": 393,
+            "end": 420
           },
           {
             "type": "ExpressionStatement",
-            "start": 433,
-            "end": 477,
             "expression": {
               "type": "CallExpression",
-              "start": 433,
-              "end": 476,
               "callee": {
                 "type": "MemberExpression",
-                "start": 433,
-                "end": 449,
                 "object": {
                   "type": "Identifier",
+                  "name": "assert",
                   "start": 433,
-                  "end": 439,
-                  "name": "assert"
+                  "end": 439
                 },
                 "property": {
                   "type": "Identifier",
+                  "name": "sameValue",
                   "start": 440,
-                  "end": 449,
-                  "name": "sameValue"
+                  "end": 449
                 },
                 "optional": false,
-                "computed": false
+                "computed": false,
+                "start": 433,
+                "end": 449
               },
               "arguments": [
                 {
                   "type": "Identifier",
+                  "name": "test262unresolvable",
                   "start": 450,
-                  "end": 469,
-                  "name": "test262unresolvable"
+                  "end": 469
                 },
                 {
                   "type": "Literal",
-                  "start": 471,
-                  "end": 475,
                   "value": null,
-                  "raw": "null"
+                  "raw": "null",
+                  "start": 471,
+                  "end": 475
                 }
               ],
-              "optional": false
-            }
+              "optional": false,
+              "start": 433,
+              "end": 476
+            },
+            "start": 433,
+            "end": 477
           },
           {
             "type": "ExpressionStatement",
-            "start": 490,
-            "end": 503,
             "expression": {
               "type": "Literal",
-              "start": 490,
-              "end": 502,
               "value": "use strict",
-              "raw": "\"use strict\""
-            }
+              "raw": "\"use strict\"",
+              "start": 490,
+              "end": 502
+            },
+            "start": 490,
+            "end": 503
           }
-        ]
+        ],
+        "start": 379,
+        "end": 513
       },
-      "expression": false
+      "expression": false,
+      "start": 364,
+      "end": 513
     },
     {
       "type": "ExpressionStatement",
-      "start": 522,
-      "end": 528,
       "expression": {
         "type": "CallExpression",
-        "start": 522,
-        "end": 527,
         "callee": {
           "type": "Identifier",
+          "name": "fun",
           "start": 522,
-          "end": 525,
-          "name": "fun"
+          "end": 525
         },
         "arguments": [],
-        "optional": false
-      }
+        "optional": false,
+        "start": 522,
+        "end": 527
+      },
+      "start": 522,
+      "end": 528
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 529
 }

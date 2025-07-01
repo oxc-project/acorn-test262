@@ -2,43 +2,33 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 40,
   "body": [
     {
       "type": "TSModuleDeclaration",
-      "start": 0,
-      "end": 40,
       "id": {
         "type": "Identifier",
-        "start": 7,
-        "end": 8,
         "decorators": [],
         "name": "X",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 7,
+        "end": 8
       },
       "body": {
         "type": "TSModuleBlock",
-        "start": 9,
-        "end": 40,
         "body": [
           {
             "type": "ExportNamedDeclaration",
-            "start": 15,
-            "end": 38,
             "declaration": {
               "type": "FunctionDeclaration",
-              "start": 22,
-              "end": 38,
               "id": {
                 "type": "Identifier",
-                "start": 31,
-                "end": 32,
                 "decorators": [],
                 "name": "f",
                 "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "start": 31,
+                "end": 32
               },
               "generator": false,
               "async": false,
@@ -48,25 +38,35 @@ __ESTREE_TEST__:PASS:
               "returnType": null,
               "body": {
                 "type": "BlockStatement",
+                "body": [],
                 "start": 35,
-                "end": 38,
-                "body": []
+                "end": 38
               },
-              "expression": false
+              "expression": false,
+              "start": 22,
+              "end": 38
             },
             "specifiers": [],
             "source": null,
             "exportKind": "value",
-            "attributes": []
+            "attributes": [],
+            "start": 15,
+            "end": 38
           }
-        ]
+        ],
+        "start": 9,
+        "end": 40
       },
       "kind": "module",
       "declare": false,
-      "global": false
+      "global": false,
+      "start": 0,
+      "end": 40
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 40
 }
 ```

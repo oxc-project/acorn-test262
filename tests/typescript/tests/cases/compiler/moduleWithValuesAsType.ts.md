@@ -2,110 +2,110 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 50,
   "body": [
     {
       "type": "TSModuleDeclaration",
-      "start": 0,
-      "end": 27,
       "id": {
         "type": "Identifier",
-        "start": 7,
-        "end": 8,
         "decorators": [],
         "name": "A",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 7,
+        "end": 8
       },
       "body": {
         "type": "TSModuleBlock",
-        "start": 9,
-        "end": 27,
         "body": [
           {
             "type": "VariableDeclaration",
-            "start": 15,
-            "end": 25,
             "kind": "var",
             "declarations": [
               {
                 "type": "VariableDeclarator",
-                "start": 19,
-                "end": 24,
                 "id": {
                   "type": "Identifier",
-                  "start": 19,
-                  "end": 20,
                   "decorators": [],
                   "name": "b",
                   "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "start": 19,
+                  "end": 20
                 },
                 "init": {
                   "type": "Literal",
-                  "start": 23,
-                  "end": 24,
                   "value": 1,
-                  "raw": "1"
+                  "raw": "1",
+                  "start": 23,
+                  "end": 24
                 },
-                "definite": false
+                "definite": false,
+                "start": 19,
+                "end": 24
               }
             ],
-            "declare": false
+            "declare": false,
+            "start": 15,
+            "end": 25
           }
-        ]
+        ],
+        "start": 9,
+        "end": 27
       },
       "kind": "module",
       "declare": false,
-      "global": false
+      "global": false,
+      "start": 0,
+      "end": 27
     },
     {
       "type": "VariableDeclaration",
-      "start": 29,
-      "end": 38,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 33,
-          "end": 37,
           "id": {
             "type": "Identifier",
-            "start": 33,
-            "end": 37,
             "decorators": [],
             "name": "a",
             "optional": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
-              "start": 34,
-              "end": 37,
               "typeAnnotation": {
                 "type": "TSTypeReference",
-                "start": 36,
-                "end": 37,
                 "typeName": {
                   "type": "Identifier",
-                  "start": 36,
-                  "end": 37,
                   "decorators": [],
                   "name": "A",
                   "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "start": 36,
+                  "end": 37
                 },
-                "typeArguments": null
-              }
-            }
+                "typeArguments": null,
+                "start": 36,
+                "end": 37
+              },
+              "start": 34,
+              "end": 37
+            },
+            "start": 33,
+            "end": 37
           },
           "init": null,
-          "definite": false
+          "definite": false,
+          "start": 33,
+          "end": 37
         }
       ],
-      "declare": false
+      "declare": false,
+      "start": 29,
+      "end": 38
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 50
 }
 ```

@@ -1,29 +1,29 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 286,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 271,
-      "end": 285,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 275,
-          "end": 284,
           "id": {
             "type": "Identifier",
+            "name": "arguments",
             "start": 275,
-            "end": 284,
-            "name": "arguments"
+            "end": 284
           },
-          "init": null
+          "init": null,
+          "start": 275,
+          "end": 284
         }
-      ]
+      ],
+      "start": 271,
+      "end": 285
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 286
 }

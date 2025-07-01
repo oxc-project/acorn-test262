@@ -1,21 +1,13 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 393,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 288,
-      "end": 351,
       "expression": {
         "type": "AssignmentExpression",
-        "start": 288,
-        "end": 350,
         "operator": "=",
         "left": {
           "type": "MemberExpression",
-          "start": 288,
-          "end": 294,
           "object": {
             "type": "ThisExpression",
             "start": 288,
@@ -23,47 +15,41 @@
           },
           "property": {
             "type": "Identifier",
+            "name": "f",
             "start": 293,
-            "end": 294,
-            "name": "f"
+            "end": 294
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 288,
+          "end": 294
         },
         "right": {
           "type": "FunctionExpression",
-          "start": 297,
-          "end": 350,
           "id": null,
           "generator": false,
           "async": false,
           "params": [],
           "body": {
             "type": "BlockStatement",
-            "start": 309,
-            "end": 350,
             "body": [
               {
                 "type": "ExpressionStatement",
-                "start": 311,
-                "end": 324,
                 "expression": {
                   "type": "Literal",
-                  "start": 311,
-                  "end": 323,
                   "value": "use strict",
-                  "raw": "\"use strict\""
+                  "raw": "\"use strict\"",
+                  "start": 311,
+                  "end": 323
                 },
-                "directive": "use strict"
+                "directive": "use strict",
+                "start": 311,
+                "end": 324
               },
               {
                 "type": "ReturnStatement",
-                "start": 325,
-                "end": 349,
                 "argument": {
                   "type": "BinaryExpression",
-                  "start": 332,
-                  "end": 348,
                   "left": {
                     "type": "ThisExpression",
                     "start": 332,
@@ -72,70 +58,84 @@
                   "operator": "===",
                   "right": {
                     "type": "Identifier",
+                    "name": "undefined",
                     "start": 339,
-                    "end": 348,
-                    "name": "undefined"
-                  }
-                }
+                    "end": 348
+                  },
+                  "start": 332,
+                  "end": 348
+                },
+                "start": 325,
+                "end": 349
               }
-            ]
+            ],
+            "start": 309,
+            "end": 350
           },
-          "expression": false
-        }
-      }
+          "expression": false,
+          "start": 297,
+          "end": 350
+        },
+        "start": 288,
+        "end": 350
+      },
+      "start": 288,
+      "end": 351
     },
     {
       "type": "ExpressionStatement",
-      "start": 352,
-      "end": 392,
       "expression": {
         "type": "CallExpression",
-        "start": 352,
-        "end": 391,
         "callee": {
           "type": "Identifier",
+          "name": "assert",
           "start": 352,
-          "end": 358,
-          "name": "assert"
+          "end": 358
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 359,
-            "end": 390,
             "callee": {
               "type": "ParenthesizedExpression",
-              "start": 359,
-              "end": 388,
               "expression": {
                 "type": "NewExpression",
-                "start": 360,
-                "end": 387,
                 "callee": {
                   "type": "Identifier",
+                  "name": "Function",
                   "start": 364,
-                  "end": 372,
-                  "name": "Function"
+                  "end": 372
                 },
                 "arguments": [
                   {
                     "type": "Literal",
-                    "start": 373,
-                    "end": 386,
                     "value": "return f();",
-                    "raw": "\"return f();\""
+                    "raw": "\"return f();\"",
+                    "start": 373,
+                    "end": 386
                   }
-                ]
-              }
+                ],
+                "start": 360,
+                "end": 387
+              },
+              "start": 359,
+              "end": 388
             },
             "arguments": [],
-            "optional": false
+            "optional": false,
+            "start": 359,
+            "end": 390
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 352,
+        "end": 391
+      },
+      "start": 352,
+      "end": 392
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 393
 }

@@ -1,27 +1,27 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 304,
   "body": [
     {
       "type": "DoWhileStatement",
-      "start": 281,
-      "end": 303,
       "body": {
         "type": "BlockStatement",
+        "body": [],
         "start": 284,
-        "end": 289,
-        "body": []
+        "end": 289
       },
       "test": {
         "type": "Literal",
-        "start": 297,
-        "end": 302,
         "value": false,
-        "raw": "false"
-      }
+        "raw": "false",
+        "start": 297,
+        "end": 302
+      },
+      "start": 281,
+      "end": 303
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 304
 }

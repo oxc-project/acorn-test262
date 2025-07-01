@@ -2,2147 +2,2147 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 877,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 0,
-      "end": 12,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 4,
-          "end": 11,
           "id": {
             "type": "Identifier",
-            "start": 4,
-            "end": 6,
             "decorators": [],
             "name": "t1",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 4,
+            "end": 6
           },
           "init": {
             "type": "Literal",
-            "start": 9,
-            "end": 11,
             "value": 10,
-            "raw": "10"
+            "raw": "10",
+            "start": 9,
+            "end": 11
           },
-          "definite": false
+          "definite": false,
+          "start": 4,
+          "end": 11
         }
       ],
-      "declare": false
+      "declare": false,
+      "start": 0,
+      "end": 12
     },
     {
       "type": "VariableDeclaration",
-      "start": 13,
-      "end": 25,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 17,
-          "end": 24,
           "id": {
             "type": "Identifier",
-            "start": 17,
-            "end": 19,
             "decorators": [],
             "name": "t2",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 17,
+            "end": 19
           },
           "init": {
             "type": "Literal",
-            "start": 22,
-            "end": 24,
             "value": 10,
-            "raw": "10"
+            "raw": "10",
+            "start": 22,
+            "end": 24
           },
-          "definite": false
+          "definite": false,
+          "start": 17,
+          "end": 24
         }
       ],
-      "declare": false
+      "declare": false,
+      "start": 13,
+      "end": 25
     },
     {
       "type": "VariableDeclaration",
-      "start": 26,
-      "end": 32,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 30,
-          "end": 31,
           "id": {
             "type": "Identifier",
-            "start": 30,
-            "end": 31,
             "decorators": [],
             "name": "s",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 30,
+            "end": 31
           },
           "init": null,
-          "definite": false
+          "definite": false,
+          "start": 30,
+          "end": 31
         }
       ],
-      "declare": false
+      "declare": false,
+      "start": 26,
+      "end": 32
     },
     {
       "type": "ExpressionStatement",
-      "start": 55,
-      "end": 75,
       "expression": {
         "type": "TemplateLiteral",
-        "start": 55,
-        "end": 74,
         "quasis": [
           {
             "type": "TemplateElement",
-            "start": 55,
-            "end": 58,
             "value": {
               "raw": "",
               "cooked": ""
             },
-            "tail": false
+            "tail": false,
+            "start": 55,
+            "end": 58
           },
           {
             "type": "TemplateElement",
-            "start": 66,
-            "end": 74,
             "value": {
               "raw": " world",
               "cooked": " world"
             },
-            "tail": true
+            "tail": true,
+            "start": 66,
+            "end": 74
           }
         ],
         "expressions": [
           {
             "type": "BinaryExpression",
-            "start": 58,
-            "end": 66,
             "left": {
               "type": "Identifier",
-              "start": 58,
-              "end": 60,
               "decorators": [],
               "name": "t1",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 58,
+              "end": 60
             },
             "operator": "**",
             "right": {
               "type": "Identifier",
-              "start": 64,
-              "end": 66,
               "decorators": [],
               "name": "t2",
               "optional": false,
-              "typeAnnotation": null
-            }
+              "typeAnnotation": null,
+              "start": 64,
+              "end": 66
+            },
+            "start": 58,
+            "end": 66
           }
-        ]
+        ],
+        "start": 55,
+        "end": 74
       },
-      "directive": null
+      "directive": null,
+      "start": 55,
+      "end": 75
     },
     {
       "type": "ExpressionStatement",
-      "start": 76,
-      "end": 102,
       "expression": {
         "type": "TemplateLiteral",
-        "start": 76,
-        "end": 101,
         "quasis": [
           {
             "type": "TemplateElement",
-            "start": 76,
-            "end": 79,
             "value": {
               "raw": "",
               "cooked": ""
             },
-            "tail": false
+            "tail": false,
+            "start": 76,
+            "end": 79
           },
           {
             "type": "TemplateElement",
-            "start": 93,
-            "end": 101,
             "value": {
               "raw": " world",
               "cooked": " world"
             },
-            "tail": true
+            "tail": true,
+            "start": 93,
+            "end": 101
           }
         ],
         "expressions": [
           {
             "type": "BinaryExpression",
-            "start": 79,
-            "end": 93,
             "left": {
               "type": "Identifier",
-              "start": 79,
-              "end": 81,
               "decorators": [],
               "name": "t1",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 79,
+              "end": 81
             },
             "operator": "**",
             "right": {
               "type": "BinaryExpression",
-              "start": 85,
-              "end": 93,
               "left": {
                 "type": "Identifier",
+                "decorators": [],
+                "name": "t2",
+                "optional": false,
+                "typeAnnotation": null,
                 "start": 85,
-                "end": 87,
-                "decorators": [],
-                "name": "t2",
-                "optional": false,
-                "typeAnnotation": null
+                "end": 87
               },
               "operator": "**",
               "right": {
                 "type": "Identifier",
+                "decorators": [],
+                "name": "t1",
+                "optional": false,
+                "typeAnnotation": null,
                 "start": 91,
-                "end": 93,
-                "decorators": [],
-                "name": "t1",
-                "optional": false,
-                "typeAnnotation": null
-              }
-            }
+                "end": 93
+              },
+              "start": 85,
+              "end": 93
+            },
+            "start": 79,
+            "end": 93
           }
-        ]
+        ],
+        "start": 76,
+        "end": 101
       },
-      "directive": null
+      "directive": null,
+      "start": 76,
+      "end": 102
     },
     {
       "type": "ExpressionStatement",
-      "start": 103,
-      "end": 128,
       "expression": {
         "type": "TemplateLiteral",
-        "start": 103,
-        "end": 127,
         "quasis": [
           {
             "type": "TemplateElement",
+            "value": {
+              "raw": "",
+              "cooked": ""
+            },
+            "tail": false,
             "start": 103,
-            "end": 106,
-            "value": {
-              "raw": "",
-              "cooked": ""
-            },
-            "tail": false
+            "end": 106
           },
           {
             "type": "TemplateElement",
+            "value": {
+              "raw": " world",
+              "cooked": " world"
+            },
+            "tail": true,
             "start": 119,
-            "end": 127,
-            "value": {
-              "raw": " world",
-              "cooked": " world"
-            },
-            "tail": true
+            "end": 127
           }
         ],
         "expressions": [
           {
             "type": "BinaryExpression",
-            "start": 106,
-            "end": 119,
             "left": {
               "type": "Identifier",
+              "decorators": [],
+              "name": "t1",
+              "optional": false,
+              "typeAnnotation": null,
               "start": 106,
-              "end": 108,
-              "decorators": [],
-              "name": "t1",
-              "optional": false,
-              "typeAnnotation": null
+              "end": 108
             },
             "operator": "+",
             "right": {
               "type": "BinaryExpression",
-              "start": 111,
-              "end": 119,
               "left": {
                 "type": "Identifier",
-                "start": 111,
-                "end": 113,
                 "decorators": [],
                 "name": "t2",
                 "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "start": 111,
+                "end": 113
               },
               "operator": "**",
               "right": {
                 "type": "Identifier",
-                "start": 117,
-                "end": 119,
                 "decorators": [],
                 "name": "t1",
                 "optional": false,
-                "typeAnnotation": null
-              }
-            }
+                "typeAnnotation": null,
+                "start": 117,
+                "end": 119
+              },
+              "start": 111,
+              "end": 119
+            },
+            "start": 106,
+            "end": 119
           }
-        ]
+        ],
+        "start": 103,
+        "end": 127
       },
-      "directive": null
+      "directive": null,
+      "start": 103,
+      "end": 128
     },
     {
       "type": "ExpressionStatement",
-      "start": 129,
-      "end": 154,
       "expression": {
         "type": "TemplateLiteral",
-        "start": 129,
-        "end": 153,
         "quasis": [
           {
             "type": "TemplateElement",
-            "start": 129,
-            "end": 132,
             "value": {
               "raw": "",
               "cooked": ""
             },
-            "tail": false
+            "tail": false,
+            "start": 129,
+            "end": 132
           },
           {
             "type": "TemplateElement",
-            "start": 145,
-            "end": 153,
             "value": {
               "raw": " world",
               "cooked": " world"
             },
-            "tail": true
+            "tail": true,
+            "start": 145,
+            "end": 153
           }
         ],
         "expressions": [
           {
             "type": "BinaryExpression",
-            "start": 132,
-            "end": 145,
             "left": {
               "type": "BinaryExpression",
-              "start": 132,
-              "end": 140,
               "left": {
                 "type": "Identifier",
-                "start": 132,
-                "end": 134,
                 "decorators": [],
                 "name": "t1",
                 "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "start": 132,
+                "end": 134
               },
               "operator": "**",
               "right": {
                 "type": "Identifier",
-                "start": 138,
-                "end": 140,
                 "decorators": [],
                 "name": "t2",
                 "optional": false,
-                "typeAnnotation": null
-              }
+                "typeAnnotation": null,
+                "start": 138,
+                "end": 140
+              },
+              "start": 132,
+              "end": 140
             },
             "operator": "+",
             "right": {
               "type": "Identifier",
-              "start": 143,
-              "end": 145,
               "decorators": [],
               "name": "t1",
               "optional": false,
-              "typeAnnotation": null
-            }
+              "typeAnnotation": null,
+              "start": 143,
+              "end": 145
+            },
+            "start": 132,
+            "end": 145
           }
-        ]
+        ],
+        "start": 129,
+        "end": 153
       },
-      "directive": null
+      "directive": null,
+      "start": 129,
+      "end": 154
     },
     {
       "type": "ExpressionStatement",
-      "start": 155,
-      "end": 186,
       "expression": {
         "type": "TemplateLiteral",
-        "start": 155,
-        "end": 185,
         "quasis": [
           {
             "type": "TemplateElement",
-            "start": 155,
-            "end": 158,
             "value": {
               "raw": "",
               "cooked": ""
             },
-            "tail": false
+            "tail": false,
+            "start": 155,
+            "end": 158
           },
           {
             "type": "TemplateElement",
-            "start": 177,
-            "end": 185,
             "value": {
               "raw": " world",
               "cooked": " world"
             },
-            "tail": true
+            "tail": true,
+            "start": 177,
+            "end": 185
           }
         ],
         "expressions": [
           {
             "type": "BinaryExpression",
-            "start": 158,
-            "end": 176,
             "left": {
               "type": "BinaryExpression",
-              "start": 158,
-              "end": 171,
               "left": {
                 "type": "Identifier",
-                "start": 158,
-                "end": 160,
                 "decorators": [],
                 "name": "t1",
                 "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "start": 158,
+                "end": 160
               },
               "operator": "+",
               "right": {
                 "type": "BinaryExpression",
-                "start": 163,
-                "end": 171,
                 "left": {
                   "type": "Identifier",
-                  "start": 163,
-                  "end": 165,
                   "decorators": [],
                   "name": "t2",
                   "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "start": 163,
+                  "end": 165
                 },
                 "operator": "**",
                 "right": {
                   "type": "Identifier",
-                  "start": 169,
-                  "end": 171,
                   "decorators": [],
                   "name": "t2",
                   "optional": false,
-                  "typeAnnotation": null
-                }
-              }
+                  "typeAnnotation": null,
+                  "start": 169,
+                  "end": 171
+                },
+                "start": 163,
+                "end": 171
+              },
+              "start": 158,
+              "end": 171
             },
             "operator": "+",
             "right": {
               "type": "Identifier",
-              "start": 174,
-              "end": 176,
               "decorators": [],
               "name": "t1",
               "optional": false,
-              "typeAnnotation": null
-            }
+              "typeAnnotation": null,
+              "start": 174,
+              "end": 176
+            },
+            "start": 158,
+            "end": 176
           }
-        ]
+        ],
+        "start": 155,
+        "end": 185
       },
-      "directive": null
+      "directive": null,
+      "start": 155,
+      "end": 186
     },
     {
       "type": "ExpressionStatement",
-      "start": 187,
-      "end": 223,
       "expression": {
         "type": "TemplateLiteral",
-        "start": 187,
-        "end": 222,
         "quasis": [
           {
             "type": "TemplateElement",
-            "start": 187,
-            "end": 190,
             "value": {
               "raw": "",
               "cooked": ""
             },
-            "tail": false
+            "tail": false,
+            "start": 187,
+            "end": 190
           },
           {
             "type": "TemplateElement",
-            "start": 214,
-            "end": 222,
             "value": {
               "raw": " world",
               "cooked": " world"
             },
-            "tail": true
+            "tail": true,
+            "start": 214,
+            "end": 222
           }
         ],
         "expressions": [
           {
             "type": "UnaryExpression",
-            "start": 190,
-            "end": 213,
             "operator": "typeof",
             "argument": {
               "type": "BinaryExpression",
-              "start": 198,
-              "end": 212,
               "left": {
                 "type": "Identifier",
-                "start": 198,
-                "end": 200,
                 "decorators": [],
                 "name": "t1",
                 "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "start": 198,
+                "end": 200
               },
               "operator": "**",
               "right": {
                 "type": "BinaryExpression",
-                "start": 204,
-                "end": 212,
                 "left": {
                   "type": "Identifier",
-                  "start": 204,
-                  "end": 206,
                   "decorators": [],
                   "name": "t2",
                   "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "start": 204,
+                  "end": 206
                 },
                 "operator": "**",
                 "right": {
                   "type": "Identifier",
-                  "start": 210,
-                  "end": 212,
                   "decorators": [],
                   "name": "t1",
                   "optional": false,
-                  "typeAnnotation": null
-                }
-              }
+                  "typeAnnotation": null,
+                  "start": 210,
+                  "end": 212
+                },
+                "start": 204,
+                "end": 212
+              },
+              "start": 198,
+              "end": 212
             },
-            "prefix": true
+            "prefix": true,
+            "start": 190,
+            "end": 213
           }
-        ]
+        ],
+        "start": 187,
+        "end": 222
       },
-      "directive": null
+      "directive": null,
+      "start": 187,
+      "end": 223
     },
     {
       "type": "ExpressionStatement",
-      "start": 224,
-      "end": 264,
       "expression": {
         "type": "TemplateLiteral",
-        "start": 224,
-        "end": 263,
         "quasis": [
           {
             "type": "TemplateElement",
-            "start": 224,
-            "end": 227,
             "value": {
               "raw": "",
               "cooked": ""
             },
-            "tail": false
+            "tail": false,
+            "start": 224,
+            "end": 227
           },
           {
             "type": "TemplateElement",
-            "start": 255,
-            "end": 263,
             "value": {
               "raw": " world",
               "cooked": " world"
             },
-            "tail": true
+            "tail": true,
+            "start": 255,
+            "end": 263
           }
         ],
         "expressions": [
           {
             "type": "BinaryExpression",
-            "start": 227,
-            "end": 254,
             "left": {
               "type": "Literal",
-              "start": 227,
-              "end": 228,
               "value": 1,
-              "raw": "1"
+              "raw": "1",
+              "start": 227,
+              "end": 228
             },
             "operator": "+",
             "right": {
               "type": "UnaryExpression",
-              "start": 231,
-              "end": 254,
               "operator": "typeof",
               "argument": {
                 "type": "BinaryExpression",
-                "start": 239,
-                "end": 253,
                 "left": {
                   "type": "Identifier",
-                  "start": 239,
-                  "end": 241,
                   "decorators": [],
                   "name": "t1",
                   "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "start": 239,
+                  "end": 241
                 },
                 "operator": "**",
                 "right": {
                   "type": "BinaryExpression",
-                  "start": 245,
-                  "end": 253,
                   "left": {
                     "type": "Identifier",
-                    "start": 245,
-                    "end": 247,
                     "decorators": [],
                     "name": "t2",
                     "optional": false,
-                    "typeAnnotation": null
+                    "typeAnnotation": null,
+                    "start": 245,
+                    "end": 247
                   },
                   "operator": "**",
                   "right": {
                     "type": "Identifier",
-                    "start": 251,
-                    "end": 253,
                     "decorators": [],
                     "name": "t1",
                     "optional": false,
-                    "typeAnnotation": null
-                  }
-                }
+                    "typeAnnotation": null,
+                    "start": 251,
+                    "end": 253
+                  },
+                  "start": 245,
+                  "end": 253
+                },
+                "start": 239,
+                "end": 253
               },
-              "prefix": true
-            }
+              "prefix": true,
+              "start": 231,
+              "end": 254
+            },
+            "start": 227,
+            "end": 254
           }
-        ]
+        ],
+        "start": 224,
+        "end": 263
       },
-      "directive": null
+      "directive": null,
+      "start": 224,
+      "end": 264
     },
     {
       "type": "ExpressionStatement",
-      "start": 266,
-      "end": 297,
       "expression": {
         "type": "TemplateLiteral",
-        "start": 266,
-        "end": 296,
         "quasis": [
           {
             "type": "TemplateElement",
+            "value": {
+              "raw": "",
+              "cooked": ""
+            },
+            "tail": false,
             "start": 266,
-            "end": 269,
+            "end": 269
+          },
+          {
+            "type": "TemplateElement",
             "value": {
               "raw": "",
               "cooked": ""
             },
-            "tail": false
-          },
-          {
-            "type": "TemplateElement",
+            "tail": false,
             "start": 277,
-            "end": 280,
-            "value": {
-              "raw": "",
-              "cooked": ""
-            },
-            "tail": false
+            "end": 280
           },
           {
             "type": "TemplateElement",
+            "value": {
+              "raw": " world",
+              "cooked": " world"
+            },
+            "tail": true,
             "start": 288,
-            "end": 296,
-            "value": {
-              "raw": " world",
-              "cooked": " world"
-            },
-            "tail": true
+            "end": 296
           }
         ],
         "expressions": [
           {
             "type": "BinaryExpression",
-            "start": 269,
-            "end": 277,
             "left": {
               "type": "Identifier",
+              "decorators": [],
+              "name": "t1",
+              "optional": false,
+              "typeAnnotation": null,
               "start": 269,
-              "end": 271,
-              "decorators": [],
-              "name": "t1",
-              "optional": false,
-              "typeAnnotation": null
+              "end": 271
             },
             "operator": "**",
             "right": {
               "type": "Identifier",
+              "decorators": [],
+              "name": "t2",
+              "optional": false,
+              "typeAnnotation": null,
               "start": 275,
-              "end": 277,
-              "decorators": [],
-              "name": "t2",
-              "optional": false,
-              "typeAnnotation": null
-            }
+              "end": 277
+            },
+            "start": 269,
+            "end": 277
           },
           {
             "type": "BinaryExpression",
-            "start": 280,
-            "end": 288,
             "left": {
               "type": "Identifier",
+              "decorators": [],
+              "name": "t1",
+              "optional": false,
+              "typeAnnotation": null,
               "start": 280,
-              "end": 282,
-              "decorators": [],
-              "name": "t1",
-              "optional": false,
-              "typeAnnotation": null
+              "end": 282
             },
             "operator": "**",
             "right": {
               "type": "Identifier",
+              "decorators": [],
+              "name": "t2",
+              "optional": false,
+              "typeAnnotation": null,
               "start": 286,
-              "end": 288,
-              "decorators": [],
-              "name": "t2",
-              "optional": false,
-              "typeAnnotation": null
-            }
+              "end": 288
+            },
+            "start": 280,
+            "end": 288
           }
-        ]
+        ],
+        "start": 266,
+        "end": 296
       },
-      "directive": null
+      "directive": null,
+      "start": 266,
+      "end": 297
     },
     {
       "type": "ExpressionStatement",
-      "start": 298,
-      "end": 341,
       "expression": {
         "type": "TemplateLiteral",
-        "start": 298,
-        "end": 340,
         "quasis": [
           {
             "type": "TemplateElement",
+            "value": {
+              "raw": "",
+              "cooked": ""
+            },
+            "tail": false,
             "start": 298,
-            "end": 301,
+            "end": 301
+          },
+          {
+            "type": "TemplateElement",
             "value": {
               "raw": "",
               "cooked": ""
             },
-            "tail": false
-          },
-          {
-            "type": "TemplateElement",
+            "tail": false,
             "start": 315,
-            "end": 318,
-            "value": {
-              "raw": "",
-              "cooked": ""
-            },
-            "tail": false
+            "end": 318
           },
           {
             "type": "TemplateElement",
+            "value": {
+              "raw": " world",
+              "cooked": " world"
+            },
+            "tail": true,
             "start": 332,
-            "end": 340,
-            "value": {
-              "raw": " world",
-              "cooked": " world"
-            },
-            "tail": true
+            "end": 340
           }
         ],
         "expressions": [
           {
             "type": "BinaryExpression",
-            "start": 301,
-            "end": 315,
             "left": {
               "type": "Identifier",
+              "decorators": [],
+              "name": "t1",
+              "optional": false,
+              "typeAnnotation": null,
               "start": 301,
-              "end": 303,
-              "decorators": [],
-              "name": "t1",
-              "optional": false,
-              "typeAnnotation": null
+              "end": 303
             },
             "operator": "**",
             "right": {
               "type": "BinaryExpression",
-              "start": 307,
-              "end": 315,
               "left": {
                 "type": "Identifier",
+                "decorators": [],
+                "name": "t2",
+                "optional": false,
+                "typeAnnotation": null,
                 "start": 307,
-                "end": 309,
-                "decorators": [],
-                "name": "t2",
-                "optional": false,
-                "typeAnnotation": null
+                "end": 309
               },
               "operator": "**",
               "right": {
                 "type": "Identifier",
+                "decorators": [],
+                "name": "t1",
+                "optional": false,
+                "typeAnnotation": null,
                 "start": 313,
-                "end": 315,
-                "decorators": [],
-                "name": "t1",
-                "optional": false,
-                "typeAnnotation": null
-              }
-            }
+                "end": 315
+              },
+              "start": 307,
+              "end": 315
+            },
+            "start": 301,
+            "end": 315
           },
           {
             "type": "BinaryExpression",
-            "start": 318,
-            "end": 332,
             "left": {
               "type": "Identifier",
+              "decorators": [],
+              "name": "t1",
+              "optional": false,
+              "typeAnnotation": null,
               "start": 318,
-              "end": 320,
-              "decorators": [],
-              "name": "t1",
-              "optional": false,
-              "typeAnnotation": null
+              "end": 320
             },
             "operator": "**",
             "right": {
               "type": "BinaryExpression",
-              "start": 324,
-              "end": 332,
               "left": {
                 "type": "Identifier",
+                "decorators": [],
+                "name": "t2",
+                "optional": false,
+                "typeAnnotation": null,
                 "start": 324,
-                "end": 326,
-                "decorators": [],
-                "name": "t2",
-                "optional": false,
-                "typeAnnotation": null
+                "end": 326
               },
               "operator": "**",
               "right": {
                 "type": "Identifier",
+                "decorators": [],
+                "name": "t1",
+                "optional": false,
+                "typeAnnotation": null,
                 "start": 330,
-                "end": 332,
-                "decorators": [],
-                "name": "t1",
-                "optional": false,
-                "typeAnnotation": null
-              }
-            }
+                "end": 332
+              },
+              "start": 324,
+              "end": 332
+            },
+            "start": 318,
+            "end": 332
           }
-        ]
+        ],
+        "start": 298,
+        "end": 340
       },
-      "directive": null
+      "directive": null,
+      "start": 298,
+      "end": 341
     },
     {
       "type": "ExpressionStatement",
-      "start": 342,
-      "end": 383,
       "expression": {
         "type": "TemplateLiteral",
-        "start": 342,
-        "end": 382,
         "quasis": [
           {
             "type": "TemplateElement",
+            "value": {
+              "raw": "",
+              "cooked": ""
+            },
+            "tail": false,
             "start": 342,
-            "end": 345,
+            "end": 345
+          },
+          {
+            "type": "TemplateElement",
             "value": {
               "raw": "",
               "cooked": ""
             },
-            "tail": false
-          },
-          {
-            "type": "TemplateElement",
+            "tail": false,
             "start": 358,
-            "end": 361,
-            "value": {
-              "raw": "",
-              "cooked": ""
-            },
-            "tail": false
+            "end": 361
           },
           {
             "type": "TemplateElement",
+            "value": {
+              "raw": " world",
+              "cooked": " world"
+            },
+            "tail": true,
             "start": 374,
-            "end": 382,
-            "value": {
-              "raw": " world",
-              "cooked": " world"
-            },
-            "tail": true
+            "end": 382
           }
         ],
         "expressions": [
           {
             "type": "BinaryExpression",
-            "start": 345,
-            "end": 358,
             "left": {
               "type": "Identifier",
+              "decorators": [],
+              "name": "t1",
+              "optional": false,
+              "typeAnnotation": null,
               "start": 345,
-              "end": 347,
-              "decorators": [],
-              "name": "t1",
-              "optional": false,
-              "typeAnnotation": null
+              "end": 347
             },
             "operator": "+",
             "right": {
               "type": "BinaryExpression",
-              "start": 350,
-              "end": 358,
               "left": {
                 "type": "Identifier",
+                "decorators": [],
+                "name": "t2",
+                "optional": false,
+                "typeAnnotation": null,
                 "start": 350,
-                "end": 352,
-                "decorators": [],
-                "name": "t2",
-                "optional": false,
-                "typeAnnotation": null
+                "end": 352
               },
               "operator": "**",
               "right": {
                 "type": "Identifier",
+                "decorators": [],
+                "name": "t1",
+                "optional": false,
+                "typeAnnotation": null,
                 "start": 356,
-                "end": 358,
-                "decorators": [],
-                "name": "t1",
-                "optional": false,
-                "typeAnnotation": null
-              }
-            }
+                "end": 358
+              },
+              "start": 350,
+              "end": 358
+            },
+            "start": 345,
+            "end": 358
           },
           {
             "type": "BinaryExpression",
-            "start": 361,
-            "end": 374,
             "left": {
               "type": "Identifier",
+              "decorators": [],
+              "name": "t1",
+              "optional": false,
+              "typeAnnotation": null,
               "start": 361,
-              "end": 363,
-              "decorators": [],
-              "name": "t1",
-              "optional": false,
-              "typeAnnotation": null
+              "end": 363
             },
             "operator": "+",
             "right": {
               "type": "BinaryExpression",
-              "start": 366,
-              "end": 374,
               "left": {
                 "type": "Identifier",
+                "decorators": [],
+                "name": "t2",
+                "optional": false,
+                "typeAnnotation": null,
                 "start": 366,
-                "end": 368,
-                "decorators": [],
-                "name": "t2",
-                "optional": false,
-                "typeAnnotation": null
+                "end": 368
               },
               "operator": "**",
               "right": {
                 "type": "Identifier",
+                "decorators": [],
+                "name": "t1",
+                "optional": false,
+                "typeAnnotation": null,
                 "start": 372,
-                "end": 374,
-                "decorators": [],
-                "name": "t1",
-                "optional": false,
-                "typeAnnotation": null
-              }
-            }
+                "end": 374
+              },
+              "start": 366,
+              "end": 374
+            },
+            "start": 361,
+            "end": 374
           }
-        ]
+        ],
+        "start": 342,
+        "end": 382
       },
-      "directive": null
+      "directive": null,
+      "start": 342,
+      "end": 383
     },
     {
       "type": "ExpressionStatement",
-      "start": 384,
-      "end": 425,
       "expression": {
         "type": "TemplateLiteral",
-        "start": 384,
-        "end": 424,
         "quasis": [
           {
             "type": "TemplateElement",
+            "value": {
+              "raw": "",
+              "cooked": ""
+            },
+            "tail": false,
             "start": 384,
-            "end": 387,
+            "end": 387
+          },
+          {
+            "type": "TemplateElement",
             "value": {
               "raw": "",
               "cooked": ""
             },
-            "tail": false
-          },
-          {
-            "type": "TemplateElement",
+            "tail": false,
             "start": 400,
-            "end": 403,
-            "value": {
-              "raw": "",
-              "cooked": ""
-            },
-            "tail": false
+            "end": 403
           },
           {
             "type": "TemplateElement",
+            "value": {
+              "raw": " world",
+              "cooked": " world"
+            },
+            "tail": true,
             "start": 416,
-            "end": 424,
-            "value": {
-              "raw": " world",
-              "cooked": " world"
-            },
-            "tail": true
+            "end": 424
           }
         ],
         "expressions": [
           {
             "type": "BinaryExpression",
-            "start": 387,
-            "end": 400,
             "left": {
               "type": "BinaryExpression",
-              "start": 387,
-              "end": 395,
               "left": {
                 "type": "Identifier",
+                "decorators": [],
+                "name": "t1",
+                "optional": false,
+                "typeAnnotation": null,
                 "start": 387,
-                "end": 389,
-                "decorators": [],
-                "name": "t1",
-                "optional": false,
-                "typeAnnotation": null
+                "end": 389
               },
               "operator": "**",
               "right": {
                 "type": "Identifier",
+                "decorators": [],
+                "name": "t2",
+                "optional": false,
+                "typeAnnotation": null,
                 "start": 393,
-                "end": 395,
-                "decorators": [],
-                "name": "t2",
-                "optional": false,
-                "typeAnnotation": null
-              }
+                "end": 395
+              },
+              "start": 387,
+              "end": 395
             },
             "operator": "+",
             "right": {
               "type": "Identifier",
+              "decorators": [],
+              "name": "t1",
+              "optional": false,
+              "typeAnnotation": null,
               "start": 398,
-              "end": 400,
-              "decorators": [],
-              "name": "t1",
-              "optional": false,
-              "typeAnnotation": null
-            }
+              "end": 400
+            },
+            "start": 387,
+            "end": 400
           },
           {
             "type": "BinaryExpression",
-            "start": 403,
-            "end": 416,
             "left": {
               "type": "BinaryExpression",
-              "start": 403,
-              "end": 411,
               "left": {
                 "type": "Identifier",
+                "decorators": [],
+                "name": "t1",
+                "optional": false,
+                "typeAnnotation": null,
                 "start": 403,
-                "end": 405,
-                "decorators": [],
-                "name": "t1",
-                "optional": false,
-                "typeAnnotation": null
+                "end": 405
               },
               "operator": "**",
               "right": {
                 "type": "Identifier",
+                "decorators": [],
+                "name": "t2",
+                "optional": false,
+                "typeAnnotation": null,
                 "start": 409,
-                "end": 411,
-                "decorators": [],
-                "name": "t2",
-                "optional": false,
-                "typeAnnotation": null
-              }
+                "end": 411
+              },
+              "start": 403,
+              "end": 411
             },
             "operator": "+",
             "right": {
               "type": "Identifier",
+              "decorators": [],
+              "name": "t1",
+              "optional": false,
+              "typeAnnotation": null,
               "start": 414,
-              "end": 416,
-              "decorators": [],
-              "name": "t1",
-              "optional": false,
-              "typeAnnotation": null
-            }
+              "end": 416
+            },
+            "start": 403,
+            "end": 416
           }
-        ]
+        ],
+        "start": 384,
+        "end": 424
       },
-      "directive": null
+      "directive": null,
+      "start": 384,
+      "end": 425
     },
     {
       "type": "ExpressionStatement",
-      "start": 426,
-      "end": 477,
       "expression": {
         "type": "TemplateLiteral",
-        "start": 426,
-        "end": 476,
         "quasis": [
           {
             "type": "TemplateElement",
+            "value": {
+              "raw": "",
+              "cooked": ""
+            },
+            "tail": false,
             "start": 426,
-            "end": 429,
+            "end": 429
+          },
+          {
+            "type": "TemplateElement",
             "value": {
               "raw": "",
               "cooked": ""
             },
-            "tail": false
-          },
-          {
-            "type": "TemplateElement",
+            "tail": false,
             "start": 447,
-            "end": 450,
-            "value": {
-              "raw": "",
-              "cooked": ""
-            },
-            "tail": false
+            "end": 450
           },
           {
             "type": "TemplateElement",
+            "value": {
+              "raw": " world",
+              "cooked": " world"
+            },
+            "tail": true,
             "start": 468,
-            "end": 476,
-            "value": {
-              "raw": " world",
-              "cooked": " world"
-            },
-            "tail": true
+            "end": 476
           }
         ],
         "expressions": [
           {
             "type": "BinaryExpression",
-            "start": 429,
-            "end": 447,
             "left": {
               "type": "BinaryExpression",
-              "start": 429,
-              "end": 442,
               "left": {
                 "type": "Identifier",
+                "decorators": [],
+                "name": "t1",
+                "optional": false,
+                "typeAnnotation": null,
                 "start": 429,
-                "end": 431,
-                "decorators": [],
-                "name": "t1",
-                "optional": false,
-                "typeAnnotation": null
+                "end": 431
               },
               "operator": "+",
               "right": {
                 "type": "BinaryExpression",
-                "start": 434,
-                "end": 442,
                 "left": {
                   "type": "Identifier",
-                  "start": 434,
-                  "end": 436,
                   "decorators": [],
                   "name": "t2",
                   "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "start": 434,
+                  "end": 436
                 },
                 "operator": "**",
                 "right": {
                   "type": "Identifier",
-                  "start": 440,
-                  "end": 442,
                   "decorators": [],
                   "name": "t2",
                   "optional": false,
-                  "typeAnnotation": null
-                }
-              }
+                  "typeAnnotation": null,
+                  "start": 440,
+                  "end": 442
+                },
+                "start": 434,
+                "end": 442
+              },
+              "start": 429,
+              "end": 442
             },
             "operator": "+",
             "right": {
               "type": "Identifier",
-              "start": 445,
-              "end": 447,
               "decorators": [],
               "name": "t1",
               "optional": false,
-              "typeAnnotation": null
-            }
+              "typeAnnotation": null,
+              "start": 445,
+              "end": 447
+            },
+            "start": 429,
+            "end": 447
           },
           {
             "type": "BinaryExpression",
-            "start": 450,
-            "end": 468,
             "left": {
               "type": "BinaryExpression",
-              "start": 450,
-              "end": 463,
               "left": {
                 "type": "Identifier",
-                "start": 450,
-                "end": 452,
                 "decorators": [],
                 "name": "t1",
                 "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "start": 450,
+                "end": 452
               },
               "operator": "+",
               "right": {
                 "type": "BinaryExpression",
-                "start": 455,
-                "end": 463,
                 "left": {
                   "type": "Identifier",
-                  "start": 455,
-                  "end": 457,
                   "decorators": [],
                   "name": "t2",
                   "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "start": 455,
+                  "end": 457
                 },
                 "operator": "**",
                 "right": {
                   "type": "Identifier",
-                  "start": 461,
-                  "end": 463,
                   "decorators": [],
                   "name": "t2",
                   "optional": false,
-                  "typeAnnotation": null
-                }
-              }
+                  "typeAnnotation": null,
+                  "start": 461,
+                  "end": 463
+                },
+                "start": 455,
+                "end": 463
+              },
+              "start": 450,
+              "end": 463
             },
             "operator": "+",
             "right": {
               "type": "Identifier",
-              "start": 466,
-              "end": 468,
               "decorators": [],
               "name": "t1",
               "optional": false,
-              "typeAnnotation": null
-            }
+              "typeAnnotation": null,
+              "start": 466,
+              "end": 468
+            },
+            "start": 450,
+            "end": 468
           }
-        ]
+        ],
+        "start": 426,
+        "end": 476
       },
-      "directive": null
+      "directive": null,
+      "start": 426,
+      "end": 477
     },
     {
       "type": "ExpressionStatement",
-      "start": 478,
-      "end": 541,
       "expression": {
         "type": "TemplateLiteral",
-        "start": 478,
-        "end": 540,
         "quasis": [
           {
             "type": "TemplateElement",
+            "value": {
+              "raw": "",
+              "cooked": ""
+            },
+            "tail": false,
             "start": 478,
-            "end": 481,
+            "end": 481
+          },
+          {
+            "type": "TemplateElement",
             "value": {
               "raw": "",
               "cooked": ""
             },
-            "tail": false
-          },
-          {
-            "type": "TemplateElement",
+            "tail": false,
             "start": 505,
-            "end": 508,
-            "value": {
-              "raw": "",
-              "cooked": ""
-            },
-            "tail": false
+            "end": 508
           },
           {
             "type": "TemplateElement",
-            "start": 532,
-            "end": 540,
             "value": {
               "raw": " world",
               "cooked": " world"
             },
-            "tail": true
+            "tail": true,
+            "start": 532,
+            "end": 540
           }
         ],
         "expressions": [
           {
             "type": "UnaryExpression",
-            "start": 481,
-            "end": 504,
             "operator": "typeof",
             "argument": {
               "type": "BinaryExpression",
-              "start": 489,
-              "end": 503,
               "left": {
                 "type": "Identifier",
+                "decorators": [],
+                "name": "t1",
+                "optional": false,
+                "typeAnnotation": null,
                 "start": 489,
-                "end": 491,
-                "decorators": [],
-                "name": "t1",
-                "optional": false,
-                "typeAnnotation": null
+                "end": 491
               },
               "operator": "**",
               "right": {
                 "type": "BinaryExpression",
-                "start": 495,
-                "end": 503,
                 "left": {
                   "type": "Identifier",
+                  "decorators": [],
+                  "name": "t2",
+                  "optional": false,
+                  "typeAnnotation": null,
                   "start": 495,
-                  "end": 497,
-                  "decorators": [],
-                  "name": "t2",
-                  "optional": false,
-                  "typeAnnotation": null
+                  "end": 497
                 },
                 "operator": "**",
                 "right": {
                   "type": "Identifier",
+                  "decorators": [],
+                  "name": "t1",
+                  "optional": false,
+                  "typeAnnotation": null,
                   "start": 501,
-                  "end": 503,
-                  "decorators": [],
-                  "name": "t1",
-                  "optional": false,
-                  "typeAnnotation": null
-                }
-              }
+                  "end": 503
+                },
+                "start": 495,
+                "end": 503
+              },
+              "start": 489,
+              "end": 503
             },
-            "prefix": true
+            "prefix": true,
+            "start": 481,
+            "end": 504
           },
           {
             "type": "UnaryExpression",
-            "start": 508,
-            "end": 531,
             "operator": "typeof",
             "argument": {
               "type": "BinaryExpression",
-              "start": 516,
-              "end": 530,
               "left": {
                 "type": "Identifier",
+                "decorators": [],
+                "name": "t1",
+                "optional": false,
+                "typeAnnotation": null,
                 "start": 516,
-                "end": 518,
-                "decorators": [],
-                "name": "t1",
-                "optional": false,
-                "typeAnnotation": null
+                "end": 518
               },
               "operator": "**",
               "right": {
                 "type": "BinaryExpression",
-                "start": 522,
-                "end": 530,
                 "left": {
                   "type": "Identifier",
+                  "decorators": [],
+                  "name": "t2",
+                  "optional": false,
+                  "typeAnnotation": null,
                   "start": 522,
-                  "end": 524,
-                  "decorators": [],
-                  "name": "t2",
-                  "optional": false,
-                  "typeAnnotation": null
+                  "end": 524
                 },
                 "operator": "**",
                 "right": {
                   "type": "Identifier",
+                  "decorators": [],
+                  "name": "t1",
+                  "optional": false,
+                  "typeAnnotation": null,
                   "start": 528,
-                  "end": 530,
-                  "decorators": [],
-                  "name": "t1",
-                  "optional": false,
-                  "typeAnnotation": null
-                }
-              }
+                  "end": 530
+                },
+                "start": 522,
+                "end": 530
+              },
+              "start": 516,
+              "end": 530
             },
-            "prefix": true
+            "prefix": true,
+            "start": 508,
+            "end": 531
           }
-        ]
+        ],
+        "start": 478,
+        "end": 540
       },
-      "directive": null
+      "directive": null,
+      "start": 478,
+      "end": 541
     },
     {
       "type": "ExpressionStatement",
-      "start": 543,
-      "end": 584,
       "expression": {
         "type": "TemplateLiteral",
-        "start": 543,
-        "end": 583,
         "quasis": [
           {
             "type": "TemplateElement",
+            "value": {
+              "raw": "",
+              "cooked": ""
+            },
+            "tail": false,
             "start": 543,
-            "end": 546,
-            "value": {
-              "raw": "",
-              "cooked": ""
-            },
-            "tail": false
+            "end": 546
           },
           {
             "type": "TemplateElement",
+            "value": {
+              "raw": " hello world ",
+              "cooked": " hello world "
+            },
+            "tail": false,
             "start": 554,
-            "end": 570,
-            "value": {
-              "raw": " hello world ",
-              "cooked": " hello world "
-            },
-            "tail": false
+            "end": 570
           },
           {
             "type": "TemplateElement",
+            "value": {
+              "raw": " !!",
+              "cooked": " !!"
+            },
+            "tail": true,
             "start": 578,
-            "end": 583,
-            "value": {
-              "raw": " !!",
-              "cooked": " !!"
-            },
-            "tail": true
+            "end": 583
           }
         ],
         "expressions": [
           {
             "type": "BinaryExpression",
-            "start": 546,
-            "end": 554,
             "left": {
               "type": "Identifier",
+              "decorators": [],
+              "name": "t1",
+              "optional": false,
+              "typeAnnotation": null,
               "start": 546,
-              "end": 548,
-              "decorators": [],
-              "name": "t1",
-              "optional": false,
-              "typeAnnotation": null
+              "end": 548
             },
             "operator": "**",
             "right": {
               "type": "Identifier",
+              "decorators": [],
+              "name": "t2",
+              "optional": false,
+              "typeAnnotation": null,
               "start": 552,
-              "end": 554,
-              "decorators": [],
-              "name": "t2",
-              "optional": false,
-              "typeAnnotation": null
-            }
+              "end": 554
+            },
+            "start": 546,
+            "end": 554
           },
           {
             "type": "BinaryExpression",
-            "start": 570,
-            "end": 578,
             "left": {
               "type": "Identifier",
+              "decorators": [],
+              "name": "t1",
+              "optional": false,
+              "typeAnnotation": null,
               "start": 570,
-              "end": 572,
-              "decorators": [],
-              "name": "t1",
-              "optional": false,
-              "typeAnnotation": null
+              "end": 572
             },
             "operator": "**",
             "right": {
               "type": "Identifier",
-              "start": 576,
-              "end": 578,
               "decorators": [],
               "name": "t2",
               "optional": false,
-              "typeAnnotation": null
-            }
+              "typeAnnotation": null,
+              "start": 576,
+              "end": 578
+            },
+            "start": 570,
+            "end": 578
           }
-        ]
+        ],
+        "start": 543,
+        "end": 583
       },
-      "directive": null
+      "directive": null,
+      "start": 543,
+      "end": 584
     },
     {
       "type": "ExpressionStatement",
-      "start": 585,
-      "end": 638,
       "expression": {
         "type": "TemplateLiteral",
-        "start": 585,
-        "end": 637,
         "quasis": [
           {
             "type": "TemplateElement",
+            "value": {
+              "raw": "",
+              "cooked": ""
+            },
+            "tail": false,
             "start": 585,
-            "end": 588,
-            "value": {
-              "raw": "",
-              "cooked": ""
-            },
-            "tail": false
+            "end": 588
           },
           {
             "type": "TemplateElement",
+            "value": {
+              "raw": " hello world ",
+              "cooked": " hello world "
+            },
+            "tail": false,
             "start": 602,
-            "end": 618,
-            "value": {
-              "raw": " hello world ",
-              "cooked": " hello world "
-            },
-            "tail": false
+            "end": 618
           },
           {
             "type": "TemplateElement",
+            "value": {
+              "raw": " !!",
+              "cooked": " !!"
+            },
+            "tail": true,
             "start": 632,
-            "end": 637,
-            "value": {
-              "raw": " !!",
-              "cooked": " !!"
-            },
-            "tail": true
+            "end": 637
           }
         ],
         "expressions": [
           {
             "type": "BinaryExpression",
-            "start": 588,
-            "end": 602,
             "left": {
               "type": "Identifier",
+              "decorators": [],
+              "name": "t1",
+              "optional": false,
+              "typeAnnotation": null,
               "start": 588,
-              "end": 590,
-              "decorators": [],
-              "name": "t1",
-              "optional": false,
-              "typeAnnotation": null
+              "end": 590
             },
             "operator": "**",
             "right": {
               "type": "BinaryExpression",
-              "start": 594,
-              "end": 602,
               "left": {
                 "type": "Identifier",
+                "decorators": [],
+                "name": "t2",
+                "optional": false,
+                "typeAnnotation": null,
                 "start": 594,
-                "end": 596,
-                "decorators": [],
-                "name": "t2",
-                "optional": false,
-                "typeAnnotation": null
+                "end": 596
               },
               "operator": "**",
               "right": {
                 "type": "Identifier",
-                "start": 600,
-                "end": 602,
                 "decorators": [],
                 "name": "t1",
                 "optional": false,
-                "typeAnnotation": null
-              }
-            }
+                "typeAnnotation": null,
+                "start": 600,
+                "end": 602
+              },
+              "start": 594,
+              "end": 602
+            },
+            "start": 588,
+            "end": 602
           },
           {
             "type": "BinaryExpression",
-            "start": 618,
-            "end": 632,
             "left": {
               "type": "Identifier",
-              "start": 618,
-              "end": 620,
               "decorators": [],
               "name": "t1",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 618,
+              "end": 620
             },
             "operator": "**",
             "right": {
               "type": "BinaryExpression",
-              "start": 624,
-              "end": 632,
               "left": {
                 "type": "Identifier",
+                "decorators": [],
+                "name": "t2",
+                "optional": false,
+                "typeAnnotation": null,
                 "start": 624,
-                "end": 626,
-                "decorators": [],
-                "name": "t2",
-                "optional": false,
-                "typeAnnotation": null
+                "end": 626
               },
               "operator": "**",
               "right": {
                 "type": "Identifier",
+                "decorators": [],
+                "name": "t1",
+                "optional": false,
+                "typeAnnotation": null,
                 "start": 630,
-                "end": 632,
-                "decorators": [],
-                "name": "t1",
-                "optional": false,
-                "typeAnnotation": null
-              }
-            }
+                "end": 632
+              },
+              "start": 624,
+              "end": 632
+            },
+            "start": 618,
+            "end": 632
           }
-        ]
+        ],
+        "start": 585,
+        "end": 637
       },
-      "directive": null
+      "directive": null,
+      "start": 585,
+      "end": 638
     },
     {
       "type": "ExpressionStatement",
-      "start": 639,
-      "end": 690,
       "expression": {
         "type": "TemplateLiteral",
-        "start": 639,
-        "end": 689,
         "quasis": [
           {
             "type": "TemplateElement",
+            "value": {
+              "raw": "",
+              "cooked": ""
+            },
+            "tail": false,
             "start": 639,
-            "end": 642,
-            "value": {
-              "raw": "",
-              "cooked": ""
-            },
-            "tail": false
+            "end": 642
           },
           {
             "type": "TemplateElement",
+            "value": {
+              "raw": " hello world ",
+              "cooked": " hello world "
+            },
+            "tail": false,
             "start": 655,
-            "end": 671,
-            "value": {
-              "raw": " hello world ",
-              "cooked": " hello world "
-            },
-            "tail": false
+            "end": 671
           },
           {
             "type": "TemplateElement",
+            "value": {
+              "raw": " !!",
+              "cooked": " !!"
+            },
+            "tail": true,
             "start": 684,
-            "end": 689,
-            "value": {
-              "raw": " !!",
-              "cooked": " !!"
-            },
-            "tail": true
+            "end": 689
           }
         ],
         "expressions": [
           {
             "type": "BinaryExpression",
-            "start": 642,
-            "end": 655,
             "left": {
               "type": "Identifier",
+              "decorators": [],
+              "name": "t1",
+              "optional": false,
+              "typeAnnotation": null,
               "start": 642,
-              "end": 644,
-              "decorators": [],
-              "name": "t1",
-              "optional": false,
-              "typeAnnotation": null
+              "end": 644
             },
             "operator": "+",
             "right": {
               "type": "BinaryExpression",
-              "start": 647,
-              "end": 655,
               "left": {
                 "type": "Identifier",
+                "decorators": [],
+                "name": "t2",
+                "optional": false,
+                "typeAnnotation": null,
                 "start": 647,
-                "end": 649,
-                "decorators": [],
-                "name": "t2",
-                "optional": false,
-                "typeAnnotation": null
+                "end": 649
               },
               "operator": "**",
               "right": {
                 "type": "Identifier",
+                "decorators": [],
+                "name": "t1",
+                "optional": false,
+                "typeAnnotation": null,
                 "start": 653,
-                "end": 655,
-                "decorators": [],
-                "name": "t1",
-                "optional": false,
-                "typeAnnotation": null
-              }
-            }
+                "end": 655
+              },
+              "start": 647,
+              "end": 655
+            },
+            "start": 642,
+            "end": 655
           },
           {
             "type": "BinaryExpression",
-            "start": 671,
-            "end": 684,
             "left": {
               "type": "Identifier",
+              "decorators": [],
+              "name": "t1",
+              "optional": false,
+              "typeAnnotation": null,
               "start": 671,
-              "end": 673,
-              "decorators": [],
-              "name": "t1",
-              "optional": false,
-              "typeAnnotation": null
+              "end": 673
             },
             "operator": "+",
             "right": {
               "type": "BinaryExpression",
-              "start": 676,
-              "end": 684,
               "left": {
                 "type": "Identifier",
+                "decorators": [],
+                "name": "t2",
+                "optional": false,
+                "typeAnnotation": null,
                 "start": 676,
-                "end": 678,
-                "decorators": [],
-                "name": "t2",
-                "optional": false,
-                "typeAnnotation": null
+                "end": 678
               },
               "operator": "**",
               "right": {
                 "type": "Identifier",
+                "decorators": [],
+                "name": "t1",
+                "optional": false,
+                "typeAnnotation": null,
                 "start": 682,
-                "end": 684,
-                "decorators": [],
-                "name": "t1",
-                "optional": false,
-                "typeAnnotation": null
-              }
-            }
+                "end": 684
+              },
+              "start": 676,
+              "end": 684
+            },
+            "start": 671,
+            "end": 684
           }
-        ]
+        ],
+        "start": 639,
+        "end": 689
       },
-      "directive": null
+      "directive": null,
+      "start": 639,
+      "end": 690
     },
     {
       "type": "ExpressionStatement",
-      "start": 691,
-      "end": 742,
       "expression": {
         "type": "TemplateLiteral",
-        "start": 691,
-        "end": 741,
         "quasis": [
           {
             "type": "TemplateElement",
+            "value": {
+              "raw": "",
+              "cooked": ""
+            },
+            "tail": false,
             "start": 691,
-            "end": 694,
-            "value": {
-              "raw": "",
-              "cooked": ""
-            },
-            "tail": false
+            "end": 694
           },
           {
             "type": "TemplateElement",
+            "value": {
+              "raw": " hello world ",
+              "cooked": " hello world "
+            },
+            "tail": false,
             "start": 707,
-            "end": 723,
-            "value": {
-              "raw": " hello world ",
-              "cooked": " hello world "
-            },
-            "tail": false
+            "end": 723
           },
           {
             "type": "TemplateElement",
+            "value": {
+              "raw": " !!",
+              "cooked": " !!"
+            },
+            "tail": true,
             "start": 736,
-            "end": 741,
-            "value": {
-              "raw": " !!",
-              "cooked": " !!"
-            },
-            "tail": true
+            "end": 741
           }
         ],
         "expressions": [
           {
             "type": "BinaryExpression",
-            "start": 694,
-            "end": 707,
             "left": {
               "type": "BinaryExpression",
-              "start": 694,
-              "end": 702,
               "left": {
                 "type": "Identifier",
+                "decorators": [],
+                "name": "t1",
+                "optional": false,
+                "typeAnnotation": null,
                 "start": 694,
-                "end": 696,
-                "decorators": [],
-                "name": "t1",
-                "optional": false,
-                "typeAnnotation": null
+                "end": 696
               },
               "operator": "**",
               "right": {
                 "type": "Identifier",
+                "decorators": [],
+                "name": "t2",
+                "optional": false,
+                "typeAnnotation": null,
                 "start": 700,
-                "end": 702,
-                "decorators": [],
-                "name": "t2",
-                "optional": false,
-                "typeAnnotation": null
-              }
+                "end": 702
+              },
+              "start": 694,
+              "end": 702
             },
             "operator": "+",
             "right": {
               "type": "Identifier",
+              "decorators": [],
+              "name": "t1",
+              "optional": false,
+              "typeAnnotation": null,
               "start": 705,
-              "end": 707,
-              "decorators": [],
-              "name": "t1",
-              "optional": false,
-              "typeAnnotation": null
-            }
+              "end": 707
+            },
+            "start": 694,
+            "end": 707
           },
           {
             "type": "BinaryExpression",
-            "start": 723,
-            "end": 736,
             "left": {
               "type": "BinaryExpression",
-              "start": 723,
-              "end": 731,
               "left": {
                 "type": "Identifier",
-                "start": 723,
-                "end": 725,
                 "decorators": [],
                 "name": "t1",
                 "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "start": 723,
+                "end": 725
               },
               "operator": "**",
               "right": {
                 "type": "Identifier",
-                "start": 729,
-                "end": 731,
                 "decorators": [],
                 "name": "t2",
                 "optional": false,
-                "typeAnnotation": null
-              }
+                "typeAnnotation": null,
+                "start": 729,
+                "end": 731
+              },
+              "start": 723,
+              "end": 731
             },
             "operator": "+",
             "right": {
               "type": "Identifier",
+              "decorators": [],
+              "name": "t1",
+              "optional": false,
+              "typeAnnotation": null,
               "start": 734,
-              "end": 736,
-              "decorators": [],
-              "name": "t1",
-              "optional": false,
-              "typeAnnotation": null
-            }
+              "end": 736
+            },
+            "start": 723,
+            "end": 736
           }
-        ]
+        ],
+        "start": 691,
+        "end": 741
       },
-      "directive": null
+      "directive": null,
+      "start": 691,
+      "end": 742
     },
     {
       "type": "ExpressionStatement",
-      "start": 743,
-      "end": 804,
       "expression": {
         "type": "TemplateLiteral",
-        "start": 743,
-        "end": 803,
         "quasis": [
           {
             "type": "TemplateElement",
+            "value": {
+              "raw": "",
+              "cooked": ""
+            },
+            "tail": false,
             "start": 743,
-            "end": 746,
-            "value": {
-              "raw": "",
-              "cooked": ""
-            },
-            "tail": false
+            "end": 746
           },
           {
             "type": "TemplateElement",
-            "start": 764,
-            "end": 780,
             "value": {
               "raw": " hello world ",
               "cooked": " hello world "
             },
-            "tail": false
+            "tail": false,
+            "start": 764,
+            "end": 780
           },
           {
             "type": "TemplateElement",
-            "start": 798,
-            "end": 803,
             "value": {
               "raw": " !!",
               "cooked": " !!"
             },
-            "tail": true
+            "tail": true,
+            "start": 798,
+            "end": 803
           }
         ],
         "expressions": [
           {
             "type": "BinaryExpression",
-            "start": 746,
-            "end": 764,
             "left": {
               "type": "BinaryExpression",
-              "start": 746,
-              "end": 759,
               "left": {
                 "type": "Identifier",
-                "start": 746,
-                "end": 748,
                 "decorators": [],
                 "name": "t1",
                 "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "start": 746,
+                "end": 748
               },
               "operator": "+",
               "right": {
                 "type": "BinaryExpression",
-                "start": 751,
-                "end": 759,
                 "left": {
                   "type": "Identifier",
-                  "start": 751,
-                  "end": 753,
                   "decorators": [],
                   "name": "t2",
                   "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "start": 751,
+                  "end": 753
                 },
                 "operator": "**",
                 "right": {
                   "type": "Identifier",
-                  "start": 757,
-                  "end": 759,
                   "decorators": [],
                   "name": "t2",
                   "optional": false,
-                  "typeAnnotation": null
-                }
-              }
+                  "typeAnnotation": null,
+                  "start": 757,
+                  "end": 759
+                },
+                "start": 751,
+                "end": 759
+              },
+              "start": 746,
+              "end": 759
             },
             "operator": "+",
             "right": {
               "type": "Identifier",
-              "start": 762,
-              "end": 764,
               "decorators": [],
               "name": "t1",
               "optional": false,
-              "typeAnnotation": null
-            }
+              "typeAnnotation": null,
+              "start": 762,
+              "end": 764
+            },
+            "start": 746,
+            "end": 764
           },
           {
             "type": "BinaryExpression",
-            "start": 780,
-            "end": 798,
             "left": {
               "type": "BinaryExpression",
-              "start": 780,
-              "end": 793,
               "left": {
                 "type": "Identifier",
-                "start": 780,
-                "end": 782,
                 "decorators": [],
                 "name": "t1",
                 "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "start": 780,
+                "end": 782
               },
               "operator": "+",
               "right": {
                 "type": "BinaryExpression",
-                "start": 785,
-                "end": 793,
                 "left": {
                   "type": "Identifier",
-                  "start": 785,
-                  "end": 787,
                   "decorators": [],
                   "name": "t2",
                   "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "start": 785,
+                  "end": 787
                 },
                 "operator": "**",
                 "right": {
                   "type": "Identifier",
-                  "start": 791,
-                  "end": 793,
                   "decorators": [],
                   "name": "t2",
                   "optional": false,
-                  "typeAnnotation": null
-                }
-              }
+                  "typeAnnotation": null,
+                  "start": 791,
+                  "end": 793
+                },
+                "start": 785,
+                "end": 793
+              },
+              "start": 780,
+              "end": 793
             },
             "operator": "+",
             "right": {
               "type": "Identifier",
-              "start": 796,
-              "end": 798,
               "decorators": [],
               "name": "t1",
               "optional": false,
-              "typeAnnotation": null
-            }
+              "typeAnnotation": null,
+              "start": 796,
+              "end": 798
+            },
+            "start": 780,
+            "end": 798
           }
-        ]
+        ],
+        "start": 743,
+        "end": 803
       },
-      "directive": null
+      "directive": null,
+      "start": 743,
+      "end": 804
     },
     {
       "type": "ExpressionStatement",
-      "start": 805,
-      "end": 877,
       "expression": {
         "type": "TemplateLiteral",
-        "start": 805,
-        "end": 876,
         "quasis": [
           {
             "type": "TemplateElement",
-            "start": 805,
-            "end": 808,
             "value": {
               "raw": "",
               "cooked": ""
             },
-            "tail": false
+            "tail": false,
+            "start": 805,
+            "end": 808
           },
           {
             "type": "TemplateElement",
-            "start": 832,
-            "end": 848,
             "value": {
               "raw": " hello world ",
               "cooked": " hello world "
             },
-            "tail": false
+            "tail": false,
+            "start": 832,
+            "end": 848
           },
           {
             "type": "TemplateElement",
-            "start": 871,
-            "end": 876,
             "value": {
               "raw": " !!",
               "cooked": " !!"
             },
-            "tail": true
+            "tail": true,
+            "start": 871,
+            "end": 876
           }
         ],
         "expressions": [
           {
             "type": "UnaryExpression",
-            "start": 808,
-            "end": 831,
             "operator": "typeof",
             "argument": {
               "type": "BinaryExpression",
-              "start": 816,
-              "end": 830,
               "left": {
                 "type": "Identifier",
-                "start": 816,
-                "end": 818,
                 "decorators": [],
                 "name": "t1",
                 "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "start": 816,
+                "end": 818
               },
               "operator": "**",
               "right": {
                 "type": "BinaryExpression",
-                "start": 822,
-                "end": 830,
                 "left": {
                   "type": "Identifier",
-                  "start": 822,
-                  "end": 824,
                   "decorators": [],
                   "name": "t2",
                   "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "start": 822,
+                  "end": 824
                 },
                 "operator": "**",
                 "right": {
                   "type": "Identifier",
-                  "start": 828,
-                  "end": 830,
                   "decorators": [],
                   "name": "t1",
                   "optional": false,
-                  "typeAnnotation": null
-                }
-              }
+                  "typeAnnotation": null,
+                  "start": 828,
+                  "end": 830
+                },
+                "start": 822,
+                "end": 830
+              },
+              "start": 816,
+              "end": 830
             },
-            "prefix": true
+            "prefix": true,
+            "start": 808,
+            "end": 831
           },
           {
             "type": "UnaryExpression",
-            "start": 848,
-            "end": 871,
             "operator": "typeof",
             "argument": {
               "type": "BinaryExpression",
-              "start": 856,
-              "end": 870,
               "left": {
                 "type": "Identifier",
-                "start": 856,
-                "end": 858,
                 "decorators": [],
                 "name": "t1",
                 "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "start": 856,
+                "end": 858
               },
               "operator": "**",
               "right": {
                 "type": "BinaryExpression",
-                "start": 862,
-                "end": 870,
                 "left": {
                   "type": "Identifier",
-                  "start": 862,
-                  "end": 864,
                   "decorators": [],
                   "name": "t2",
                   "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "start": 862,
+                  "end": 864
                 },
                 "operator": "**",
                 "right": {
                   "type": "Identifier",
-                  "start": 868,
-                  "end": 870,
                   "decorators": [],
                   "name": "t1",
                   "optional": false,
-                  "typeAnnotation": null
-                }
-              }
+                  "typeAnnotation": null,
+                  "start": 868,
+                  "end": 870
+                },
+                "start": 862,
+                "end": 870
+              },
+              "start": 856,
+              "end": 870
             },
-            "prefix": true
+            "prefix": true,
+            "start": 848,
+            "end": 871
           }
-        ]
+        ],
+        "start": 805,
+        "end": 876
       },
-      "directive": null
+      "directive": null,
+      "start": 805,
+      "end": 877
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 877
 }
 ```

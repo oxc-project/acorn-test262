@@ -1,125 +1,125 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 595,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 473,
-      "end": 506,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 477,
-          "end": 505,
           "id": {
             "type": "Identifier",
+            "name": "__re",
             "start": 477,
-            "end": 481,
-            "name": "__re"
+            "end": 481
           },
           "init": {
             "type": "MemberExpression",
-            "start": 484,
-            "end": 505,
             "object": {
               "type": "CallExpression",
-              "start": 484,
-              "end": 502,
               "callee": {
                 "type": "MemberExpression",
-                "start": 484,
-                "end": 500,
                 "object": {
                   "type": "Literal",
-                  "start": 484,
-                  "end": 495,
                   "value": null,
                   "raw": "/undefined/",
                   "regex": {
                     "pattern": "undefined",
                     "flags": ""
-                  }
+                  },
+                  "start": 484,
+                  "end": 495
                 },
                 "property": {
                   "type": "Identifier",
+                  "name": "exec",
                   "start": 496,
-                  "end": 500,
-                  "name": "exec"
+                  "end": 500
                 },
                 "optional": false,
-                "computed": false
+                "computed": false,
+                "start": 484,
+                "end": 500
               },
               "arguments": [],
-              "optional": false
+              "optional": false,
+              "start": 484,
+              "end": 502
             },
             "property": {
               "type": "Literal",
-              "start": 503,
-              "end": 504,
               "value": 0,
-              "raw": "0"
+              "raw": "0",
+              "start": 503,
+              "end": 504
             },
             "optional": false,
-            "computed": true
-          }
+            "computed": true,
+            "start": 484,
+            "end": 505
+          },
+          "start": 477,
+          "end": 505
         }
-      ]
+      ],
+      "start": 473,
+      "end": 506
     },
     {
       "type": "ExpressionStatement",
-      "start": 507,
-      "end": 594,
       "expression": {
         "type": "CallExpression",
-        "start": 507,
-        "end": 593,
         "callee": {
           "type": "MemberExpression",
-          "start": 507,
-          "end": 523,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 507,
-            "end": 513,
-            "name": "assert"
+            "end": 513
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 514,
-            "end": 523,
-            "name": "sameValue"
+            "end": 523
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 507,
+          "end": 523
         },
         "arguments": [
           {
             "type": "Identifier",
+            "name": "__re",
             "start": 524,
-            "end": 528,
-            "name": "__re"
+            "end": 528
           },
           {
             "type": "Literal",
-            "start": 530,
-            "end": 541,
             "value": "undefined",
-            "raw": "\"undefined\""
+            "raw": "\"undefined\"",
+            "start": 530,
+            "end": 541
           },
           {
             "type": "Literal",
-            "start": 543,
-            "end": 592,
             "value": "The value of __re is expected to be \"undefined\"",
-            "raw": "'The value of __re is expected to be \"undefined\"'"
+            "raw": "'The value of __re is expected to be \"undefined\"'",
+            "start": 543,
+            "end": 592
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 507,
+        "end": 593
+      },
+      "start": 507,
+      "end": 594
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 595
 }

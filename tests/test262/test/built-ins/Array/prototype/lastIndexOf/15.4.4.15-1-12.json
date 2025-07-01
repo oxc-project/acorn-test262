@@ -1,235 +1,235 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 444,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 253,
-      "end": 284,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 257,
-          "end": 283,
           "id": {
             "type": "Identifier",
+            "name": "obj",
             "start": 257,
-            "end": 260,
-            "name": "obj"
+            "end": 260
           },
           "init": {
             "type": "NewExpression",
-            "start": 263,
-            "end": 283,
             "callee": {
               "type": "Identifier",
+              "name": "RegExp",
               "start": 267,
-              "end": 273,
-              "name": "RegExp"
+              "end": 273
             },
             "arguments": [
               {
                 "type": "Literal",
-                "start": 274,
-                "end": 282,
                 "value": "afdasf",
-                "raw": "\"afdasf\""
+                "raw": "\"afdasf\"",
+                "start": 274,
+                "end": 282
               }
-            ]
-          }
+            ],
+            "start": 263,
+            "end": 283
+          },
+          "start": 257,
+          "end": 283
         }
-      ]
+      ],
+      "start": 253,
+      "end": 284
     },
     {
       "type": "ExpressionStatement",
-      "start": 285,
-      "end": 302,
       "expression": {
         "type": "AssignmentExpression",
-        "start": 285,
-        "end": 301,
         "operator": "=",
         "left": {
           "type": "MemberExpression",
-          "start": 285,
-          "end": 295,
           "object": {
             "type": "Identifier",
+            "name": "obj",
             "start": 285,
-            "end": 288,
-            "name": "obj"
+            "end": 288
           },
           "property": {
             "type": "Identifier",
+            "name": "length",
             "start": 289,
-            "end": 295,
-            "name": "length"
+            "end": 295
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 285,
+          "end": 295
         },
         "right": {
           "type": "Literal",
-          "start": 298,
-          "end": 301,
           "value": 100,
-          "raw": "100"
-        }
-      }
+          "raw": "100",
+          "start": 298,
+          "end": 301
+        },
+        "start": 285,
+        "end": 301
+      },
+      "start": 285,
+      "end": 302
     },
     {
       "type": "ExpressionStatement",
-      "start": 303,
-      "end": 321,
       "expression": {
         "type": "AssignmentExpression",
-        "start": 303,
-        "end": 320,
         "operator": "=",
         "left": {
           "type": "MemberExpression",
-          "start": 303,
-          "end": 309,
           "object": {
             "type": "Identifier",
+            "name": "obj",
             "start": 303,
-            "end": 306,
-            "name": "obj"
+            "end": 306
           },
           "property": {
             "type": "Literal",
-            "start": 307,
-            "end": 308,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "start": 307,
+            "end": 308
           },
           "optional": false,
-          "computed": true
+          "computed": true,
+          "start": 303,
+          "end": 309
         },
         "right": {
           "type": "Literal",
-          "start": 312,
-          "end": 320,
           "value": "afdasf",
-          "raw": "\"afdasf\""
-        }
-      }
+          "raw": "\"afdasf\"",
+          "start": 312,
+          "end": 320
+        },
+        "start": 303,
+        "end": 320
+      },
+      "start": 303,
+      "end": 321
     },
     {
       "type": "ExpressionStatement",
-      "start": 323,
-      "end": 443,
       "expression": {
         "type": "CallExpression",
-        "start": 323,
-        "end": 442,
         "callee": {
           "type": "MemberExpression",
-          "start": 323,
-          "end": 339,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 323,
-            "end": 329,
-            "name": "assert"
+            "end": 329
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 330,
-            "end": 339,
-            "name": "sameValue"
+            "end": 339
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 323,
+          "end": 339
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 340,
-            "end": 387,
             "callee": {
               "type": "MemberExpression",
-              "start": 340,
-              "end": 372,
               "object": {
                 "type": "MemberExpression",
-                "start": 340,
-                "end": 367,
                 "object": {
                   "type": "MemberExpression",
-                  "start": 340,
-                  "end": 355,
                   "object": {
                     "type": "Identifier",
+                    "name": "Array",
                     "start": 340,
-                    "end": 345,
-                    "name": "Array"
+                    "end": 345
                   },
                   "property": {
                     "type": "Identifier",
+                    "name": "prototype",
                     "start": 346,
-                    "end": 355,
-                    "name": "prototype"
+                    "end": 355
                   },
                   "optional": false,
-                  "computed": false
+                  "computed": false,
+                  "start": 340,
+                  "end": 355
                 },
                 "property": {
                   "type": "Identifier",
+                  "name": "lastIndexOf",
                   "start": 356,
-                  "end": 367,
-                  "name": "lastIndexOf"
+                  "end": 367
                 },
                 "optional": false,
-                "computed": false
+                "computed": false,
+                "start": 340,
+                "end": 367
               },
               "property": {
                 "type": "Identifier",
+                "name": "call",
                 "start": 368,
-                "end": 372,
-                "name": "call"
+                "end": 372
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 340,
+              "end": 372
             },
             "arguments": [
               {
                 "type": "Identifier",
+                "name": "obj",
                 "start": 373,
-                "end": 376,
-                "name": "obj"
+                "end": 376
               },
               {
                 "type": "Literal",
-                "start": 378,
-                "end": 386,
                 "value": "afdasf",
-                "raw": "\"afdasf\""
+                "raw": "\"afdasf\"",
+                "start": 378,
+                "end": 386
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 340,
+            "end": 387
           },
           {
             "type": "Literal",
-            "start": 389,
-            "end": 390,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "start": 389,
+            "end": 390
           },
           {
             "type": "Literal",
-            "start": 392,
-            "end": 441,
             "value": "Array.prototype.lastIndexOf.call(obj, \"afdasf\")",
-            "raw": "'Array.prototype.lastIndexOf.call(obj, \"afdasf\")'"
+            "raw": "'Array.prototype.lastIndexOf.call(obj, \"afdasf\")'",
+            "start": 392,
+            "end": 441
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 323,
+        "end": 442
+      },
+      "start": 323,
+      "end": 443
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 444
 }

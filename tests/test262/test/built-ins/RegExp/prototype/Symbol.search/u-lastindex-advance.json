@@ -1,107 +1,107 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 741,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 677,
-      "end": 740,
       "expression": {
         "type": "CallExpression",
-        "start": 677,
-        "end": 739,
         "callee": {
           "type": "MemberExpression",
-          "start": 677,
-          "end": 693,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 677,
-            "end": 683,
-            "name": "assert"
+            "end": 683
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 684,
-            "end": 693,
-            "name": "sameValue"
+            "end": 693
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 677,
+          "end": 693
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 694,
-            "end": 734,
             "callee": {
               "type": "MemberExpression",
-              "start": 694,
-              "end": 718,
               "object": {
                 "type": "Literal",
-                "start": 694,
-                "end": 703,
                 "value": null,
                 "raw": "/\\udf06/u",
                 "regex": {
                   "pattern": "\\udf06",
                   "flags": "u"
-                }
+                },
+                "start": 694,
+                "end": 703
               },
               "property": {
                 "type": "MemberExpression",
-                "start": 704,
-                "end": 717,
                 "object": {
                   "type": "Identifier",
+                  "name": "Symbol",
                   "start": 704,
-                  "end": 710,
-                  "name": "Symbol"
+                  "end": 710
                 },
                 "property": {
                   "type": "Identifier",
+                  "name": "search",
                   "start": 711,
-                  "end": 717,
-                  "name": "search"
+                  "end": 717
                 },
                 "optional": false,
-                "computed": false
+                "computed": false,
+                "start": 704,
+                "end": 717
               },
               "optional": false,
-              "computed": true
+              "computed": true,
+              "start": 694,
+              "end": 718
             },
             "arguments": [
               {
                 "type": "Literal",
-                "start": 719,
-                "end": 733,
                 "value": "𝌆",
-                "raw": "'\\ud834\\udf06'"
+                "raw": "'\\ud834\\udf06'",
+                "start": 719,
+                "end": 733
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 694,
+            "end": 734
           },
           {
             "type": "UnaryExpression",
-            "start": 736,
-            "end": 738,
             "operator": "-",
             "argument": {
               "type": "Literal",
-              "start": 737,
-              "end": 738,
               "value": 1,
-              "raw": "1"
+              "raw": "1",
+              "start": 737,
+              "end": 738
             },
-            "prefix": true
+            "prefix": true,
+            "start": 736,
+            "end": 738
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 677,
+        "end": 739
+      },
+      "start": 677,
+      "end": 740
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 741
 }

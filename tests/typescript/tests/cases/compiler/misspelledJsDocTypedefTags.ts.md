@@ -2,137 +2,137 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 63,
-  "end": 230,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 63,
-      "end": 114,
       "expression": {
         "type": "MemberExpression",
-        "start": 63,
-        "end": 113,
         "object": {
           "type": "MemberExpression",
-          "start": 63,
-          "end": 105,
           "object": {
             "type": "MemberExpression",
-            "start": 63,
-            "end": 87,
             "object": {
               "type": "Identifier",
-              "start": 63,
-              "end": 72,
               "decorators": [],
               "name": "Animation",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 63,
+              "end": 72
             },
             "property": {
               "type": "Identifier",
-              "start": 73,
-              "end": 87,
               "decorators": [],
               "name": "AnimationModel",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 73,
+              "end": 87
             },
             "optional": false,
-            "computed": false
+            "computed": false,
+            "start": 63,
+            "end": 87
           },
           "property": {
             "type": "Identifier",
-            "start": 88,
-            "end": 105,
             "decorators": [],
             "name": "ScreenshotCapture",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 88,
+            "end": 105
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 63,
+          "end": 105
         },
         "property": {
           "type": "Identifier",
-          "start": 106,
-          "end": 113,
           "decorators": [],
           "name": "Request",
           "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "start": 106,
+          "end": 113
         },
         "optional": false,
-        "computed": false
+        "computed": false,
+        "start": 63,
+        "end": 113
       },
-      "directive": null
+      "directive": null,
+      "start": 63,
+      "end": 114
     },
     {
       "type": "ExpressionStatement",
-      "start": 179,
-      "end": 230,
       "expression": {
         "type": "MemberExpression",
-        "start": 179,
-        "end": 229,
         "object": {
           "type": "MemberExpression",
-          "start": 179,
-          "end": 221,
           "object": {
             "type": "MemberExpression",
-            "start": 179,
-            "end": 203,
             "object": {
               "type": "Identifier",
-              "start": 179,
-              "end": 188,
               "decorators": [],
               "name": "Animation",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 179,
+              "end": 188
             },
             "property": {
               "type": "Identifier",
-              "start": 189,
-              "end": 203,
               "decorators": [],
               "name": "AnimationModel",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 189,
+              "end": 203
             },
             "optional": false,
-            "computed": false
+            "computed": false,
+            "start": 179,
+            "end": 203
           },
           "property": {
             "type": "Identifier",
-            "start": 204,
-            "end": 221,
             "decorators": [],
             "name": "ScreenshotCapture",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 204,
+            "end": 221
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 179,
+          "end": 221
         },
         "property": {
           "type": "Identifier",
-          "start": 222,
-          "end": 229,
           "decorators": [],
           "name": "Request",
           "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "start": 222,
+          "end": 229
         },
         "optional": false,
-        "computed": false
+        "computed": false,
+        "start": 179,
+        "end": 229
       },
-      "directive": null
+      "directive": null,
+      "start": 179,
+      "end": 230
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 63,
+  "end": 230
 }
 ```

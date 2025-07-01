@@ -1,524 +1,524 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 2702,
   "body": [
     {
       "type": "ImportDeclaration",
-      "start": 1851,
-      "end": 1909,
       "specifiers": [
         {
           "type": "ImportNamespaceSpecifier",
-          "start": 1858,
-          "end": 1865,
           "local": {
             "type": "Identifier",
+            "name": "ns",
             "start": 1863,
-            "end": 1865,
-            "name": "ns"
-          }
+            "end": 1865
+          },
+          "start": 1858,
+          "end": 1865
         }
       ],
       "source": {
         "type": "Literal",
-        "start": 1871,
-        "end": 1908,
         "value": "./instn-star-iee-cycle-2_FIXTURE.js",
-        "raw": "'./instn-star-iee-cycle-2_FIXTURE.js'"
+        "raw": "'./instn-star-iee-cycle-2_FIXTURE.js'",
+        "start": 1871,
+        "end": 1908
       },
       "phase": null,
-      "attributes": []
+      "attributes": [],
+      "start": 1851,
+      "end": 1909
     },
     {
       "type": "ExportNamedDeclaration",
-      "start": 1910,
-      "end": 1971,
       "declaration": null,
       "specifiers": [
         {
           "type": "ExportSpecifier",
-          "start": 1919,
-          "end": 1925,
           "local": {
             "type": "Identifier",
+            "name": "c",
             "start": 1919,
-            "end": 1920,
-            "name": "c"
+            "end": 1920
           },
           "exported": {
             "type": "Identifier",
+            "name": "b",
             "start": 1924,
-            "end": 1925,
-            "name": "b"
-          }
+            "end": 1925
+          },
+          "start": 1919,
+          "end": 1925
         }
       ],
       "source": {
         "type": "Literal",
+        "value": "./instn-star-iee-cycle-2_FIXTURE.js",
+        "raw": "'./instn-star-iee-cycle-2_FIXTURE.js'",
         "start": 1933,
-        "end": 1970,
-        "value": "./instn-star-iee-cycle-2_FIXTURE.js",
-        "raw": "'./instn-star-iee-cycle-2_FIXTURE.js'"
+        "end": 1970
       },
-      "attributes": []
+      "attributes": [],
+      "start": 1910,
+      "end": 1971
     },
     {
       "type": "ExportNamedDeclaration",
-      "start": 1972,
-      "end": 2033,
       "declaration": null,
       "specifiers": [
         {
           "type": "ExportSpecifier",
-          "start": 1981,
-          "end": 1987,
           "local": {
             "type": "Identifier",
+            "name": "e",
             "start": 1981,
-            "end": 1982,
-            "name": "e"
+            "end": 1982
           },
           "exported": {
             "type": "Identifier",
+            "name": "d",
             "start": 1986,
-            "end": 1987,
-            "name": "d"
-          }
+            "end": 1987
+          },
+          "start": 1981,
+          "end": 1987
         }
       ],
       "source": {
         "type": "Literal",
+        "value": "./instn-star-iee-cycle-2_FIXTURE.js",
+        "raw": "'./instn-star-iee-cycle-2_FIXTURE.js'",
         "start": 1995,
-        "end": 2032,
-        "value": "./instn-star-iee-cycle-2_FIXTURE.js",
-        "raw": "'./instn-star-iee-cycle-2_FIXTURE.js'"
+        "end": 2032
       },
-      "attributes": []
+      "attributes": [],
+      "start": 1972,
+      "end": 2033
     },
     {
       "type": "ExportNamedDeclaration",
-      "start": 2034,
-      "end": 2095,
       "declaration": null,
       "specifiers": [
         {
           "type": "ExportSpecifier",
-          "start": 2043,
-          "end": 2049,
           "local": {
             "type": "Identifier",
+            "name": "g",
             "start": 2043,
-            "end": 2044,
-            "name": "g"
+            "end": 2044
           },
           "exported": {
             "type": "Identifier",
+            "name": "f",
             "start": 2048,
-            "end": 2049,
-            "name": "f"
-          }
+            "end": 2049
+          },
+          "start": 2043,
+          "end": 2049
         }
       ],
       "source": {
         "type": "Literal",
+        "value": "./instn-star-iee-cycle-2_FIXTURE.js",
+        "raw": "'./instn-star-iee-cycle-2_FIXTURE.js'",
         "start": 2057,
-        "end": 2094,
-        "value": "./instn-star-iee-cycle-2_FIXTURE.js",
-        "raw": "'./instn-star-iee-cycle-2_FIXTURE.js'"
+        "end": 2094
       },
-      "attributes": []
+      "attributes": [],
+      "start": 2034,
+      "end": 2095
     },
     {
       "type": "ExportNamedDeclaration",
-      "start": 2096,
-      "end": 2157,
       "declaration": null,
       "specifiers": [
         {
           "type": "ExportSpecifier",
-          "start": 2105,
-          "end": 2111,
           "local": {
             "type": "Identifier",
+            "name": "i",
             "start": 2105,
-            "end": 2106,
-            "name": "i"
+            "end": 2106
           },
           "exported": {
             "type": "Identifier",
+            "name": "h",
             "start": 2110,
-            "end": 2111,
-            "name": "h"
-          }
+            "end": 2111
+          },
+          "start": 2105,
+          "end": 2111
         }
       ],
       "source": {
         "type": "Literal",
+        "value": "./instn-star-iee-cycle-2_FIXTURE.js",
+        "raw": "'./instn-star-iee-cycle-2_FIXTURE.js'",
         "start": 2119,
-        "end": 2156,
-        "value": "./instn-star-iee-cycle-2_FIXTURE.js",
-        "raw": "'./instn-star-iee-cycle-2_FIXTURE.js'"
+        "end": 2156
       },
-      "attributes": []
+      "attributes": [],
+      "start": 2096,
+      "end": 2157
     },
     {
       "type": "ExportNamedDeclaration",
-      "start": 2158,
-      "end": 2219,
       "declaration": null,
       "specifiers": [
         {
           "type": "ExportSpecifier",
-          "start": 2167,
-          "end": 2173,
           "local": {
             "type": "Identifier",
+            "name": "k",
             "start": 2167,
-            "end": 2168,
-            "name": "k"
+            "end": 2168
           },
           "exported": {
             "type": "Identifier",
+            "name": "j",
             "start": 2172,
-            "end": 2173,
-            "name": "j"
-          }
+            "end": 2173
+          },
+          "start": 2167,
+          "end": 2173
         }
       ],
       "source": {
         "type": "Literal",
+        "value": "./instn-star-iee-cycle-2_FIXTURE.js",
+        "raw": "'./instn-star-iee-cycle-2_FIXTURE.js'",
         "start": 2181,
-        "end": 2218,
-        "value": "./instn-star-iee-cycle-2_FIXTURE.js",
-        "raw": "'./instn-star-iee-cycle-2_FIXTURE.js'"
+        "end": 2218
       },
-      "attributes": []
+      "attributes": [],
+      "start": 2158,
+      "end": 2219
     },
     {
       "type": "ExportNamedDeclaration",
-      "start": 2220,
-      "end": 2281,
       "declaration": null,
       "specifiers": [
         {
           "type": "ExportSpecifier",
-          "start": 2229,
-          "end": 2235,
           "local": {
             "type": "Identifier",
+            "name": "m",
             "start": 2229,
-            "end": 2230,
-            "name": "m"
+            "end": 2230
           },
           "exported": {
             "type": "Identifier",
+            "name": "l",
             "start": 2234,
-            "end": 2235,
-            "name": "l"
-          }
+            "end": 2235
+          },
+          "start": 2229,
+          "end": 2235
         }
       ],
       "source": {
         "type": "Literal",
+        "value": "./instn-star-iee-cycle-2_FIXTURE.js",
+        "raw": "'./instn-star-iee-cycle-2_FIXTURE.js'",
         "start": 2243,
-        "end": 2280,
-        "value": "./instn-star-iee-cycle-2_FIXTURE.js",
-        "raw": "'./instn-star-iee-cycle-2_FIXTURE.js'"
+        "end": 2280
       },
-      "attributes": []
+      "attributes": [],
+      "start": 2220,
+      "end": 2281
     },
     {
       "type": "ExportNamedDeclaration",
-      "start": 2282,
-      "end": 2343,
       "declaration": null,
       "specifiers": [
         {
           "type": "ExportSpecifier",
-          "start": 2291,
-          "end": 2297,
           "local": {
             "type": "Identifier",
+            "name": "o",
             "start": 2291,
-            "end": 2292,
-            "name": "o"
+            "end": 2292
           },
           "exported": {
             "type": "Identifier",
+            "name": "n",
             "start": 2296,
-            "end": 2297,
-            "name": "n"
-          }
+            "end": 2297
+          },
+          "start": 2291,
+          "end": 2297
         }
       ],
       "source": {
         "type": "Literal",
+        "value": "./instn-star-iee-cycle-2_FIXTURE.js",
+        "raw": "'./instn-star-iee-cycle-2_FIXTURE.js'",
         "start": 2305,
-        "end": 2342,
-        "value": "./instn-star-iee-cycle-2_FIXTURE.js",
-        "raw": "'./instn-star-iee-cycle-2_FIXTURE.js'"
+        "end": 2342
       },
-      "attributes": []
+      "attributes": [],
+      "start": 2282,
+      "end": 2343
     },
     {
       "type": "ExportNamedDeclaration",
-      "start": 2344,
-      "end": 2405,
       "declaration": null,
       "specifiers": [
         {
           "type": "ExportSpecifier",
-          "start": 2353,
-          "end": 2359,
           "local": {
             "type": "Identifier",
+            "name": "q",
             "start": 2353,
-            "end": 2354,
-            "name": "q"
+            "end": 2354
           },
           "exported": {
             "type": "Identifier",
+            "name": "p",
             "start": 2358,
-            "end": 2359,
-            "name": "p"
-          }
+            "end": 2359
+          },
+          "start": 2353,
+          "end": 2359
         }
       ],
       "source": {
         "type": "Literal",
+        "value": "./instn-star-iee-cycle-2_FIXTURE.js",
+        "raw": "'./instn-star-iee-cycle-2_FIXTURE.js'",
         "start": 2367,
-        "end": 2404,
-        "value": "./instn-star-iee-cycle-2_FIXTURE.js",
-        "raw": "'./instn-star-iee-cycle-2_FIXTURE.js'"
+        "end": 2404
       },
-      "attributes": []
+      "attributes": [],
+      "start": 2344,
+      "end": 2405
     },
     {
       "type": "ExportNamedDeclaration",
-      "start": 2406,
-      "end": 2467,
       "declaration": null,
       "specifiers": [
         {
           "type": "ExportSpecifier",
-          "start": 2415,
-          "end": 2421,
           "local": {
             "type": "Identifier",
+            "name": "s",
             "start": 2415,
-            "end": 2416,
-            "name": "s"
+            "end": 2416
           },
           "exported": {
             "type": "Identifier",
+            "name": "r",
             "start": 2420,
-            "end": 2421,
-            "name": "r"
-          }
+            "end": 2421
+          },
+          "start": 2415,
+          "end": 2421
         }
       ],
       "source": {
         "type": "Literal",
+        "value": "./instn-star-iee-cycle-2_FIXTURE.js",
+        "raw": "'./instn-star-iee-cycle-2_FIXTURE.js'",
         "start": 2429,
-        "end": 2466,
-        "value": "./instn-star-iee-cycle-2_FIXTURE.js",
-        "raw": "'./instn-star-iee-cycle-2_FIXTURE.js'"
+        "end": 2466
       },
-      "attributes": []
+      "attributes": [],
+      "start": 2406,
+      "end": 2467
     },
     {
       "type": "ExportNamedDeclaration",
-      "start": 2468,
-      "end": 2529,
       "declaration": null,
       "specifiers": [
         {
           "type": "ExportSpecifier",
-          "start": 2477,
-          "end": 2483,
           "local": {
             "type": "Identifier",
+            "name": "u",
             "start": 2477,
-            "end": 2478,
-            "name": "u"
+            "end": 2478
           },
           "exported": {
             "type": "Identifier",
+            "name": "t",
             "start": 2482,
-            "end": 2483,
-            "name": "t"
-          }
+            "end": 2483
+          },
+          "start": 2477,
+          "end": 2483
         }
       ],
       "source": {
         "type": "Literal",
+        "value": "./instn-star-iee-cycle-2_FIXTURE.js",
+        "raw": "'./instn-star-iee-cycle-2_FIXTURE.js'",
         "start": 2491,
-        "end": 2528,
-        "value": "./instn-star-iee-cycle-2_FIXTURE.js",
-        "raw": "'./instn-star-iee-cycle-2_FIXTURE.js'"
+        "end": 2528
       },
-      "attributes": []
+      "attributes": [],
+      "start": 2468,
+      "end": 2529
     },
     {
       "type": "ExportNamedDeclaration",
-      "start": 2530,
-      "end": 2591,
       "declaration": null,
       "specifiers": [
         {
           "type": "ExportSpecifier",
-          "start": 2539,
-          "end": 2545,
           "local": {
             "type": "Identifier",
+            "name": "w",
             "start": 2539,
-            "end": 2540,
-            "name": "w"
+            "end": 2540
           },
           "exported": {
             "type": "Identifier",
+            "name": "v",
             "start": 2544,
-            "end": 2545,
-            "name": "v"
-          }
+            "end": 2545
+          },
+          "start": 2539,
+          "end": 2545
         }
       ],
       "source": {
         "type": "Literal",
-        "start": 2553,
-        "end": 2590,
         "value": "./instn-star-iee-cycle-2_FIXTURE.js",
-        "raw": "'./instn-star-iee-cycle-2_FIXTURE.js'"
+        "raw": "'./instn-star-iee-cycle-2_FIXTURE.js'",
+        "start": 2553,
+        "end": 2590
       },
-      "attributes": []
+      "attributes": [],
+      "start": 2530,
+      "end": 2591
     },
     {
       "type": "ExportNamedDeclaration",
-      "start": 2592,
-      "end": 2653,
       "declaration": null,
       "specifiers": [
         {
           "type": "ExportSpecifier",
-          "start": 2601,
-          "end": 2607,
           "local": {
             "type": "Identifier",
+            "name": "y",
             "start": 2601,
-            "end": 2602,
-            "name": "y"
+            "end": 2602
           },
           "exported": {
             "type": "Identifier",
+            "name": "x",
             "start": 2606,
-            "end": 2607,
-            "name": "x"
-          }
+            "end": 2607
+          },
+          "start": 2601,
+          "end": 2607
         }
       ],
       "source": {
         "type": "Literal",
-        "start": 2615,
-        "end": 2652,
         "value": "./instn-star-iee-cycle-2_FIXTURE.js",
-        "raw": "'./instn-star-iee-cycle-2_FIXTURE.js'"
+        "raw": "'./instn-star-iee-cycle-2_FIXTURE.js'",
+        "start": 2615,
+        "end": 2652
       },
-      "attributes": []
+      "attributes": [],
+      "start": 2592,
+      "end": 2653
     },
     {
       "type": "ExportNamedDeclaration",
-      "start": 2654,
-      "end": 2672,
       "declaration": {
         "type": "VariableDeclaration",
-        "start": 2661,
-        "end": 2672,
         "kind": "var",
         "declarations": [
           {
             "type": "VariableDeclarator",
-            "start": 2665,
-            "end": 2671,
             "id": {
               "type": "Identifier",
+              "name": "z",
               "start": 2665,
-              "end": 2666,
-              "name": "z"
+              "end": 2666
             },
             "init": {
               "type": "Literal",
-              "start": 2669,
-              "end": 2671,
               "value": 23,
-              "raw": "23"
-            }
+              "raw": "23",
+              "start": 2669,
+              "end": 2671
+            },
+            "start": 2665,
+            "end": 2671
           }
-        ]
+        ],
+        "start": 2661,
+        "end": 2672
       },
       "specifiers": [],
       "source": null,
-      "attributes": []
+      "attributes": [],
+      "start": 2654,
+      "end": 2672
     },
     {
       "type": "ExpressionStatement",
-      "start": 2674,
-      "end": 2701,
       "expression": {
         "type": "CallExpression",
-        "start": 2674,
-        "end": 2700,
         "callee": {
           "type": "MemberExpression",
-          "start": 2674,
-          "end": 2690,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 2674,
-            "end": 2680,
-            "name": "assert"
+            "end": 2680
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 2681,
-            "end": 2690,
-            "name": "sameValue"
+            "end": 2690
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 2674,
+          "end": 2690
         },
         "arguments": [
           {
             "type": "MemberExpression",
-            "start": 2691,
-            "end": 2695,
             "object": {
               "type": "Identifier",
+              "name": "ns",
               "start": 2691,
-              "end": 2693,
-              "name": "ns"
+              "end": 2693
             },
             "property": {
               "type": "Identifier",
+              "name": "a",
               "start": 2694,
-              "end": 2695,
-              "name": "a"
+              "end": 2695
             },
             "optional": false,
-            "computed": false
+            "computed": false,
+            "start": 2691,
+            "end": 2695
           },
           {
             "type": "Literal",
-            "start": 2697,
-            "end": 2699,
             "value": 23,
-            "raw": "23"
+            "raw": "23",
+            "start": 2697,
+            "end": 2699
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 2674,
+        "end": 2700
+      },
+      "start": 2674,
+      "end": 2701
     }
   ],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 2702
 }

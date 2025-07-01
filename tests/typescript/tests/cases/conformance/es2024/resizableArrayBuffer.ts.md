@@ -2,123 +2,123 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 75,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 0,
-      "end": 57,
       "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 6,
-          "end": 56,
           "id": {
             "type": "Identifier",
-            "start": 6,
-            "end": 12,
             "decorators": [],
             "name": "buffer",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 6,
+            "end": 12
           },
           "init": {
             "type": "NewExpression",
-            "start": 15,
-            "end": 56,
             "callee": {
               "type": "Identifier",
-              "start": 19,
-              "end": 30,
               "decorators": [],
               "name": "ArrayBuffer",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 19,
+              "end": 30
             },
             "typeArguments": null,
             "arguments": [
               {
                 "type": "Literal",
-                "start": 31,
-                "end": 32,
                 "value": 8,
-                "raw": "8"
+                "raw": "8",
+                "start": 31,
+                "end": 32
               },
               {
                 "type": "ObjectExpression",
-                "start": 34,
-                "end": 55,
                 "properties": [
                   {
                     "type": "Property",
-                    "start": 36,
-                    "end": 53,
                     "kind": "init",
                     "key": {
                       "type": "Identifier",
-                      "start": 36,
-                      "end": 49,
                       "decorators": [],
                       "name": "maxByteLength",
                       "optional": false,
-                      "typeAnnotation": null
+                      "typeAnnotation": null,
+                      "start": 36,
+                      "end": 49
                     },
                     "value": {
                       "type": "Literal",
-                      "start": 51,
-                      "end": 53,
                       "value": 16,
-                      "raw": "16"
+                      "raw": "16",
+                      "start": 51,
+                      "end": 53
                     },
                     "method": false,
                     "shorthand": false,
                     "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "start": 36,
+                    "end": 53
                   }
-                ]
+                ],
+                "start": 34,
+                "end": 55
               }
-            ]
+            ],
+            "start": 15,
+            "end": 56
           },
-          "definite": false
+          "definite": false,
+          "start": 6,
+          "end": 56
         }
       ],
-      "declare": false
+      "declare": false,
+      "start": 0,
+      "end": 57
     },
     {
       "type": "ExpressionStatement",
-      "start": 58,
-      "end": 75,
       "expression": {
         "type": "MemberExpression",
-        "start": 58,
-        "end": 74,
         "object": {
           "type": "Identifier",
-          "start": 58,
-          "end": 64,
           "decorators": [],
           "name": "buffer",
           "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "start": 58,
+          "end": 64
         },
         "property": {
           "type": "Identifier",
-          "start": 65,
-          "end": 74,
           "decorators": [],
           "name": "resizable",
           "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "start": 65,
+          "end": 74
         },
         "optional": false,
-        "computed": false
+        "computed": false,
+        "start": 58,
+        "end": 74
       },
-      "directive": null
+      "directive": null,
+      "start": 58,
+      "end": 75
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 75
 }
 ```

@@ -2,21 +2,17 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 86,
-  "end": 110,
   "body": [
     {
       "type": "FunctionDeclaration",
-      "start": 86,
-      "end": 110,
       "id": {
         "type": "Identifier",
-        "start": 95,
-        "end": 98,
         "decorators": [],
         "name": "foo",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 95,
+        "end": 98
       },
       "generator": false,
       "async": false,
@@ -25,43 +21,47 @@ __ESTREE_TEST__:PASS:
       "params": [
         {
           "type": "Identifier",
-          "start": 99,
-          "end": 100,
           "decorators": [],
           "name": "a",
           "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "start": 99,
+          "end": 100
         },
         {
           "type": "Identifier",
-          "start": 102,
-          "end": 103,
           "decorators": [],
           "name": "b",
           "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "start": 102,
+          "end": 103
         },
         {
           "type": "Identifier",
-          "start": 105,
-          "end": 106,
           "decorators": [],
           "name": "c",
           "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "start": 105,
+          "end": 106
         }
       ],
       "returnType": null,
       "body": {
         "type": "BlockStatement",
+        "body": [],
         "start": 108,
-        "end": 110,
-        "body": []
+        "end": 110
       },
-      "expression": false
+      "expression": false,
+      "start": 86,
+      "end": 110
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 86,
+  "end": 110
 }
 ```

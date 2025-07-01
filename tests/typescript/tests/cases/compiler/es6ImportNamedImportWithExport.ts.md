@@ -2,1390 +2,1390 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 157,
   "body": [
     {
       "type": "ExportNamedDeclaration",
-      "start": 0,
-      "end": 18,
       "declaration": {
         "type": "VariableDeclaration",
-        "start": 7,
-        "end": 18,
         "kind": "var",
         "declarations": [
           {
             "type": "VariableDeclarator",
-            "start": 11,
-            "end": 17,
             "id": {
               "type": "Identifier",
-              "start": 11,
-              "end": 12,
               "decorators": [],
               "name": "a",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 11,
+              "end": 12
             },
             "init": {
               "type": "Literal",
-              "start": 15,
-              "end": 17,
               "value": 10,
-              "raw": "10"
+              "raw": "10",
+              "start": 15,
+              "end": 17
             },
-            "definite": false
+            "definite": false,
+            "start": 11,
+            "end": 17
           }
         ],
-        "declare": false
+        "declare": false,
+        "start": 7,
+        "end": 18
       },
       "specifiers": [],
       "source": null,
       "exportKind": "value",
-      "attributes": []
+      "attributes": [],
+      "start": 0,
+      "end": 18
     },
     {
       "type": "ExportNamedDeclaration",
-      "start": 19,
-      "end": 36,
       "declaration": {
         "type": "VariableDeclaration",
-        "start": 26,
-        "end": 36,
         "kind": "var",
         "declarations": [
           {
             "type": "VariableDeclarator",
-            "start": 30,
-            "end": 35,
             "id": {
               "type": "Identifier",
-              "start": 30,
-              "end": 31,
               "decorators": [],
               "name": "x",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 30,
+              "end": 31
             },
             "init": {
               "type": "Identifier",
-              "start": 34,
-              "end": 35,
               "decorators": [],
               "name": "a",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 34,
+              "end": 35
             },
-            "definite": false
+            "definite": false,
+            "start": 30,
+            "end": 35
           }
         ],
-        "declare": false
+        "declare": false,
+        "start": 26,
+        "end": 36
       },
       "specifiers": [],
       "source": null,
       "exportKind": "value",
-      "attributes": []
+      "attributes": [],
+      "start": 19,
+      "end": 36
     },
     {
       "type": "ExportNamedDeclaration",
-      "start": 37,
-      "end": 54,
       "declaration": {
         "type": "VariableDeclaration",
-        "start": 44,
-        "end": 54,
         "kind": "var",
         "declarations": [
           {
             "type": "VariableDeclarator",
-            "start": 48,
-            "end": 53,
             "id": {
               "type": "Identifier",
-              "start": 48,
-              "end": 49,
               "decorators": [],
               "name": "m",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 48,
+              "end": 49
             },
             "init": {
               "type": "Identifier",
-              "start": 52,
-              "end": 53,
               "decorators": [],
               "name": "a",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 52,
+              "end": 53
             },
-            "definite": false
+            "definite": false,
+            "start": 48,
+            "end": 53
           }
         ],
-        "declare": false
+        "declare": false,
+        "start": 44,
+        "end": 54
       },
       "specifiers": [],
       "source": null,
       "exportKind": "value",
-      "attributes": []
+      "attributes": [],
+      "start": 37,
+      "end": 54
     },
     {
       "type": "ExportNamedDeclaration",
-      "start": 55,
-      "end": 74,
       "declaration": {
         "type": "VariableDeclaration",
-        "start": 62,
-        "end": 74,
         "kind": "var",
         "declarations": [
           {
             "type": "VariableDeclarator",
-            "start": 66,
-            "end": 73,
             "id": {
               "type": "Identifier",
-              "start": 66,
-              "end": 68,
               "decorators": [],
               "name": "a1",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 66,
+              "end": 68
             },
             "init": {
               "type": "Literal",
-              "start": 71,
-              "end": 73,
               "value": 10,
-              "raw": "10"
+              "raw": "10",
+              "start": 71,
+              "end": 73
             },
-            "definite": false
+            "definite": false,
+            "start": 66,
+            "end": 73
           }
         ],
-        "declare": false
+        "declare": false,
+        "start": 62,
+        "end": 74
       },
       "specifiers": [],
       "source": null,
       "exportKind": "value",
-      "attributes": []
+      "attributes": [],
+      "start": 55,
+      "end": 74
     },
     {
       "type": "ExportNamedDeclaration",
-      "start": 75,
-      "end": 94,
       "declaration": {
         "type": "VariableDeclaration",
-        "start": 82,
-        "end": 94,
         "kind": "var",
         "declarations": [
           {
             "type": "VariableDeclarator",
-            "start": 86,
-            "end": 93,
             "id": {
               "type": "Identifier",
-              "start": 86,
-              "end": 88,
               "decorators": [],
               "name": "x1",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 86,
+              "end": 88
             },
             "init": {
               "type": "Literal",
-              "start": 91,
-              "end": 93,
               "value": 10,
-              "raw": "10"
+              "raw": "10",
+              "start": 91,
+              "end": 93
             },
-            "definite": false
+            "definite": false,
+            "start": 86,
+            "end": 93
           }
         ],
-        "declare": false
+        "declare": false,
+        "start": 82,
+        "end": 94
       },
       "specifiers": [],
       "source": null,
       "exportKind": "value",
-      "attributes": []
+      "attributes": [],
+      "start": 75,
+      "end": 94
     },
     {
       "type": "ExportNamedDeclaration",
-      "start": 95,
-      "end": 114,
       "declaration": {
         "type": "VariableDeclaration",
-        "start": 102,
-        "end": 114,
         "kind": "var",
         "declarations": [
           {
             "type": "VariableDeclarator",
-            "start": 106,
-            "end": 113,
             "id": {
               "type": "Identifier",
-              "start": 106,
-              "end": 108,
               "decorators": [],
               "name": "z1",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 106,
+              "end": 108
             },
             "init": {
               "type": "Literal",
-              "start": 111,
-              "end": 113,
               "value": 10,
-              "raw": "10"
+              "raw": "10",
+              "start": 111,
+              "end": 113
             },
-            "definite": false
+            "definite": false,
+            "start": 106,
+            "end": 113
           }
         ],
-        "declare": false
+        "declare": false,
+        "start": 102,
+        "end": 114
       },
       "specifiers": [],
       "source": null,
       "exportKind": "value",
-      "attributes": []
+      "attributes": [],
+      "start": 95,
+      "end": 114
     },
     {
       "type": "ExportNamedDeclaration",
-      "start": 115,
-      "end": 134,
       "declaration": {
         "type": "VariableDeclaration",
-        "start": 122,
-        "end": 134,
         "kind": "var",
         "declarations": [
           {
             "type": "VariableDeclarator",
-            "start": 126,
-            "end": 133,
             "id": {
               "type": "Identifier",
-              "start": 126,
-              "end": 128,
               "decorators": [],
               "name": "z2",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 126,
+              "end": 128
             },
             "init": {
               "type": "Literal",
-              "start": 131,
-              "end": 133,
               "value": 10,
-              "raw": "10"
+              "raw": "10",
+              "start": 131,
+              "end": 133
             },
-            "definite": false
+            "definite": false,
+            "start": 126,
+            "end": 133
           }
         ],
-        "declare": false
+        "declare": false,
+        "start": 122,
+        "end": 134
       },
       "specifiers": [],
       "source": null,
       "exportKind": "value",
-      "attributes": []
+      "attributes": [],
+      "start": 115,
+      "end": 134
     },
     {
       "type": "ExportNamedDeclaration",
-      "start": 135,
-      "end": 156,
       "declaration": {
         "type": "VariableDeclaration",
-        "start": 142,
-        "end": 156,
         "kind": "var",
         "declarations": [
           {
             "type": "VariableDeclarator",
-            "start": 146,
-            "end": 155,
             "id": {
               "type": "Identifier",
-              "start": 146,
-              "end": 150,
               "decorators": [],
               "name": "aaaa",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 146,
+              "end": 150
             },
             "init": {
               "type": "Literal",
-              "start": 153,
-              "end": 155,
               "value": 10,
-              "raw": "10"
+              "raw": "10",
+              "start": 153,
+              "end": 155
             },
-            "definite": false
+            "definite": false,
+            "start": 146,
+            "end": 155
           }
         ],
-        "declare": false
+        "declare": false,
+        "start": 142,
+        "end": 156
       },
       "specifiers": [],
       "source": null,
       "exportKind": "value",
-      "attributes": []
+      "attributes": [],
+      "start": 135,
+      "end": 156
     }
   ],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 157
 }
 ```
 __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 831,
   "body": [
     {
       "type": "ImportDeclaration",
-      "start": 0,
-      "end": 34,
       "specifiers": [],
       "source": {
         "type": "Literal",
-        "start": 23,
-        "end": 33,
         "value": "./server",
-        "raw": "\"./server\""
+        "raw": "\"./server\"",
+        "start": 23,
+        "end": 33
       },
       "phase": null,
       "attributes": [],
-      "importKind": "value"
+      "importKind": "value",
+      "start": 0,
+      "end": 34
     },
     {
       "type": "ImportDeclaration",
-      "start": 35,
-      "end": 71,
       "specifiers": [
         {
           "type": "ImportSpecifier",
-          "start": 51,
-          "end": 52,
           "imported": {
             "type": "Identifier",
-            "start": 51,
-            "end": 52,
             "decorators": [],
             "name": "a",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 51,
+            "end": 52
           },
           "local": {
             "type": "Identifier",
-            "start": 51,
-            "end": 52,
             "decorators": [],
             "name": "a",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 51,
+            "end": 52
           },
-          "importKind": "value"
+          "importKind": "value",
+          "start": 51,
+          "end": 52
         }
       ],
       "source": {
         "type": "Literal",
-        "start": 60,
-        "end": 70,
         "value": "./server",
-        "raw": "\"./server\""
+        "raw": "\"./server\"",
+        "start": 60,
+        "end": 70
       },
       "phase": null,
       "attributes": [],
-      "importKind": "value"
+      "importKind": "value",
+      "start": 35,
+      "end": 71
     },
     {
       "type": "ExportNamedDeclaration",
-      "start": 72,
-      "end": 92,
       "declaration": {
         "type": "VariableDeclaration",
-        "start": 79,
-        "end": 92,
         "kind": "var",
         "declarations": [
           {
             "type": "VariableDeclarator",
-            "start": 83,
-            "end": 91,
             "id": {
               "type": "Identifier",
-              "start": 83,
-              "end": 87,
               "decorators": [],
               "name": "xxxx",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 83,
+              "end": 87
             },
             "init": {
               "type": "Identifier",
-              "start": 90,
-              "end": 91,
               "decorators": [],
               "name": "a",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 90,
+              "end": 91
             },
-            "definite": false
+            "definite": false,
+            "start": 83,
+            "end": 91
           }
         ],
-        "declare": false
+        "declare": false,
+        "start": 79,
+        "end": 92
       },
       "specifiers": [],
       "source": null,
       "exportKind": "value",
-      "attributes": []
+      "attributes": [],
+      "start": 72,
+      "end": 92
     },
     {
       "type": "ImportDeclaration",
-      "start": 93,
-      "end": 134,
       "specifiers": [
         {
           "type": "ImportSpecifier",
-          "start": 109,
-          "end": 115,
           "imported": {
             "type": "Identifier",
-            "start": 109,
-            "end": 110,
             "decorators": [],
             "name": "a",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 109,
+            "end": 110
           },
           "local": {
             "type": "Identifier",
-            "start": 114,
-            "end": 115,
             "decorators": [],
             "name": "b",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 114,
+            "end": 115
           },
-          "importKind": "value"
+          "importKind": "value",
+          "start": 109,
+          "end": 115
         }
       ],
       "source": {
         "type": "Literal",
-        "start": 123,
-        "end": 133,
         "value": "./server",
-        "raw": "\"./server\""
+        "raw": "\"./server\"",
+        "start": 123,
+        "end": 133
       },
       "phase": null,
       "attributes": [],
-      "importKind": "value"
+      "importKind": "value",
+      "start": 93,
+      "end": 134
     },
     {
       "type": "ExportNamedDeclaration",
-      "start": 135,
-      "end": 155,
       "declaration": {
         "type": "VariableDeclaration",
-        "start": 142,
-        "end": 155,
         "kind": "var",
         "declarations": [
           {
             "type": "VariableDeclarator",
-            "start": 146,
-            "end": 154,
             "id": {
               "type": "Identifier",
-              "start": 146,
-              "end": 150,
               "decorators": [],
               "name": "xxxx",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 146,
+              "end": 150
             },
             "init": {
               "type": "Identifier",
-              "start": 153,
-              "end": 154,
               "decorators": [],
               "name": "b",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 153,
+              "end": 154
             },
-            "definite": false
+            "definite": false,
+            "start": 146,
+            "end": 154
           }
         ],
-        "declare": false
+        "declare": false,
+        "start": 142,
+        "end": 155
       },
       "specifiers": [],
       "source": null,
       "exportKind": "value",
-      "attributes": []
+      "attributes": [],
+      "start": 135,
+      "end": 155
     },
     {
       "type": "ImportDeclaration",
-      "start": 156,
-      "end": 200,
       "specifiers": [
         {
           "type": "ImportSpecifier",
-          "start": 172,
-          "end": 173,
           "imported": {
             "type": "Identifier",
-            "start": 172,
-            "end": 173,
             "decorators": [],
             "name": "x",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 172,
+            "end": 173
           },
           "local": {
             "type": "Identifier",
-            "start": 172,
-            "end": 173,
             "decorators": [],
             "name": "x",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 172,
+            "end": 173
           },
-          "importKind": "value"
+          "importKind": "value",
+          "start": 172,
+          "end": 173
         },
         {
           "type": "ImportSpecifier",
-          "start": 175,
-          "end": 181,
           "imported": {
             "type": "Identifier",
-            "start": 175,
-            "end": 176,
             "decorators": [],
             "name": "a",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 175,
+            "end": 176
           },
           "local": {
             "type": "Identifier",
-            "start": 180,
-            "end": 181,
             "decorators": [],
             "name": "y",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 180,
+            "end": 181
           },
-          "importKind": "value"
+          "importKind": "value",
+          "start": 175,
+          "end": 181
         }
       ],
       "source": {
         "type": "Literal",
-        "start": 189,
-        "end": 199,
         "value": "./server",
-        "raw": "\"./server\""
+        "raw": "\"./server\"",
+        "start": 189,
+        "end": 199
       },
       "phase": null,
       "attributes": [],
-      "importKind": "value"
+      "importKind": "value",
+      "start": 156,
+      "end": 200
     },
     {
       "type": "ExportNamedDeclaration",
-      "start": 201,
-      "end": 221,
       "declaration": {
         "type": "VariableDeclaration",
-        "start": 208,
-        "end": 221,
         "kind": "var",
         "declarations": [
           {
             "type": "VariableDeclarator",
-            "start": 212,
-            "end": 220,
             "id": {
               "type": "Identifier",
-              "start": 212,
-              "end": 216,
               "decorators": [],
               "name": "xxxx",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 212,
+              "end": 216
             },
             "init": {
               "type": "Identifier",
-              "start": 219,
-              "end": 220,
               "decorators": [],
               "name": "x",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 219,
+              "end": 220
             },
-            "definite": false
+            "definite": false,
+            "start": 212,
+            "end": 220
           }
         ],
-        "declare": false
+        "declare": false,
+        "start": 208,
+        "end": 221
       },
       "specifiers": [],
       "source": null,
       "exportKind": "value",
-      "attributes": []
+      "attributes": [],
+      "start": 201,
+      "end": 221
     },
     {
       "type": "ExportNamedDeclaration",
-      "start": 222,
-      "end": 242,
       "declaration": {
         "type": "VariableDeclaration",
-        "start": 229,
-        "end": 242,
         "kind": "var",
         "declarations": [
           {
             "type": "VariableDeclarator",
-            "start": 233,
-            "end": 241,
             "id": {
               "type": "Identifier",
-              "start": 233,
-              "end": 237,
               "decorators": [],
               "name": "xxxx",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 233,
+              "end": 237
             },
             "init": {
               "type": "Identifier",
-              "start": 240,
-              "end": 241,
               "decorators": [],
               "name": "y",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 240,
+              "end": 241
             },
-            "definite": false
+            "definite": false,
+            "start": 233,
+            "end": 241
           }
         ],
-        "declare": false
+        "declare": false,
+        "start": 229,
+        "end": 242
       },
       "specifiers": [],
       "source": null,
       "exportKind": "value",
-      "attributes": []
+      "attributes": [],
+      "start": 222,
+      "end": 242
     },
     {
       "type": "ImportDeclaration",
-      "start": 243,
-      "end": 286,
       "specifiers": [
         {
           "type": "ImportSpecifier",
-          "start": 259,
-          "end": 265,
           "imported": {
             "type": "Identifier",
-            "start": 259,
-            "end": 260,
             "decorators": [],
             "name": "x",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 259,
+            "end": 260
           },
           "local": {
             "type": "Identifier",
-            "start": 264,
-            "end": 265,
             "decorators": [],
             "name": "z",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 264,
+            "end": 265
           },
-          "importKind": "value"
+          "importKind": "value",
+          "start": 259,
+          "end": 265
         }
       ],
       "source": {
         "type": "Literal",
-        "start": 275,
-        "end": 285,
         "value": "./server",
-        "raw": "\"./server\""
+        "raw": "\"./server\"",
+        "start": 275,
+        "end": 285
       },
       "phase": null,
       "attributes": [],
-      "importKind": "value"
+      "importKind": "value",
+      "start": 243,
+      "end": 286
     },
     {
       "type": "ExportNamedDeclaration",
-      "start": 287,
-      "end": 307,
       "declaration": {
         "type": "VariableDeclaration",
-        "start": 294,
-        "end": 307,
         "kind": "var",
         "declarations": [
           {
             "type": "VariableDeclarator",
-            "start": 298,
-            "end": 306,
             "id": {
               "type": "Identifier",
-              "start": 298,
-              "end": 302,
               "decorators": [],
               "name": "xxxx",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 298,
+              "end": 302
             },
             "init": {
               "type": "Identifier",
-              "start": 305,
-              "end": 306,
               "decorators": [],
               "name": "z",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 305,
+              "end": 306
             },
-            "definite": false
+            "definite": false,
+            "start": 298,
+            "end": 306
           }
         ],
-        "declare": false
+        "declare": false,
+        "start": 294,
+        "end": 307
       },
       "specifiers": [],
       "source": null,
       "exportKind": "value",
-      "attributes": []
+      "attributes": [],
+      "start": 287,
+      "end": 307
     },
     {
       "type": "ImportDeclaration",
-      "start": 308,
-      "end": 346,
       "specifiers": [
         {
           "type": "ImportSpecifier",
-          "start": 324,
-          "end": 325,
           "imported": {
             "type": "Identifier",
-            "start": 324,
-            "end": 325,
             "decorators": [],
             "name": "m",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 324,
+            "end": 325
           },
           "local": {
             "type": "Identifier",
-            "start": 324,
-            "end": 325,
             "decorators": [],
             "name": "m",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 324,
+            "end": 325
           },
-          "importKind": "value"
+          "importKind": "value",
+          "start": 324,
+          "end": 325
         }
       ],
       "source": {
         "type": "Literal",
-        "start": 335,
-        "end": 345,
         "value": "./server",
-        "raw": "\"./server\""
+        "raw": "\"./server\"",
+        "start": 335,
+        "end": 345
       },
       "phase": null,
       "attributes": [],
-      "importKind": "value"
+      "importKind": "value",
+      "start": 308,
+      "end": 346
     },
     {
       "type": "ExportNamedDeclaration",
-      "start": 347,
-      "end": 367,
       "declaration": {
         "type": "VariableDeclaration",
-        "start": 354,
-        "end": 367,
         "kind": "var",
         "declarations": [
           {
             "type": "VariableDeclarator",
-            "start": 358,
-            "end": 366,
             "id": {
               "type": "Identifier",
-              "start": 358,
-              "end": 362,
               "decorators": [],
               "name": "xxxx",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 358,
+              "end": 362
             },
             "init": {
               "type": "Identifier",
-              "start": 365,
-              "end": 366,
               "decorators": [],
               "name": "m",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 365,
+              "end": 366
             },
-            "definite": false
+            "definite": false,
+            "start": 358,
+            "end": 366
           }
         ],
-        "declare": false
+        "declare": false,
+        "start": 354,
+        "end": 367
       },
       "specifiers": [],
       "source": null,
       "exportKind": "value",
-      "attributes": []
+      "attributes": [],
+      "start": 347,
+      "end": 367
     },
     {
       "type": "ImportDeclaration",
-      "start": 368,
-      "end": 409,
       "specifiers": [
         {
           "type": "ImportSpecifier",
-          "start": 384,
-          "end": 386,
           "imported": {
             "type": "Identifier",
-            "start": 384,
-            "end": 386,
             "decorators": [],
             "name": "a1",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 384,
+            "end": 386
           },
           "local": {
             "type": "Identifier",
-            "start": 384,
-            "end": 386,
             "decorators": [],
             "name": "a1",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 384,
+            "end": 386
           },
-          "importKind": "value"
+          "importKind": "value",
+          "start": 384,
+          "end": 386
         },
         {
           "type": "ImportSpecifier",
-          "start": 388,
-          "end": 390,
           "imported": {
             "type": "Identifier",
-            "start": 388,
-            "end": 390,
             "decorators": [],
             "name": "x1",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 388,
+            "end": 390
           },
           "local": {
             "type": "Identifier",
-            "start": 388,
-            "end": 390,
             "decorators": [],
             "name": "x1",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 388,
+            "end": 390
           },
-          "importKind": "value"
+          "importKind": "value",
+          "start": 388,
+          "end": 390
         }
       ],
       "source": {
         "type": "Literal",
-        "start": 398,
-        "end": 408,
         "value": "./server",
-        "raw": "\"./server\""
+        "raw": "\"./server\"",
+        "start": 398,
+        "end": 408
       },
       "phase": null,
       "attributes": [],
-      "importKind": "value"
+      "importKind": "value",
+      "start": 368,
+      "end": 409
     },
     {
       "type": "ExportNamedDeclaration",
-      "start": 410,
-      "end": 431,
       "declaration": {
         "type": "VariableDeclaration",
-        "start": 417,
-        "end": 431,
         "kind": "var",
         "declarations": [
           {
             "type": "VariableDeclarator",
-            "start": 421,
-            "end": 430,
             "id": {
               "type": "Identifier",
-              "start": 421,
-              "end": 425,
               "decorators": [],
               "name": "xxxx",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 421,
+              "end": 425
             },
             "init": {
               "type": "Identifier",
-              "start": 428,
-              "end": 430,
               "decorators": [],
               "name": "a1",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 428,
+              "end": 430
             },
-            "definite": false
+            "definite": false,
+            "start": 421,
+            "end": 430
           }
         ],
-        "declare": false
+        "declare": false,
+        "start": 417,
+        "end": 431
       },
       "specifiers": [],
       "source": null,
       "exportKind": "value",
-      "attributes": []
+      "attributes": [],
+      "start": 410,
+      "end": 431
     },
     {
       "type": "ExportNamedDeclaration",
-      "start": 432,
-      "end": 453,
       "declaration": {
         "type": "VariableDeclaration",
-        "start": 439,
-        "end": 453,
         "kind": "var",
         "declarations": [
           {
             "type": "VariableDeclarator",
-            "start": 443,
-            "end": 452,
             "id": {
               "type": "Identifier",
-              "start": 443,
-              "end": 447,
               "decorators": [],
               "name": "xxxx",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 443,
+              "end": 447
             },
             "init": {
               "type": "Identifier",
-              "start": 450,
-              "end": 452,
               "decorators": [],
               "name": "x1",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 450,
+              "end": 452
             },
-            "definite": false
+            "definite": false,
+            "start": 443,
+            "end": 452
           }
         ],
-        "declare": false
+        "declare": false,
+        "start": 439,
+        "end": 453
       },
       "specifiers": [],
       "source": null,
       "exportKind": "value",
-      "attributes": []
+      "attributes": [],
+      "start": 432,
+      "end": 453
     },
     {
       "type": "ImportDeclaration",
-      "start": 454,
-      "end": 509,
       "specifiers": [
         {
           "type": "ImportSpecifier",
-          "start": 470,
-          "end": 479,
           "imported": {
             "type": "Identifier",
-            "start": 470,
-            "end": 472,
             "decorators": [],
             "name": "a1",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 470,
+            "end": 472
           },
           "local": {
             "type": "Identifier",
-            "start": 476,
-            "end": 479,
             "decorators": [],
             "name": "a11",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 476,
+            "end": 479
           },
-          "importKind": "value"
+          "importKind": "value",
+          "start": 470,
+          "end": 479
         },
         {
           "type": "ImportSpecifier",
-          "start": 481,
-          "end": 490,
           "imported": {
             "type": "Identifier",
-            "start": 481,
-            "end": 483,
             "decorators": [],
             "name": "x1",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 481,
+            "end": 483
           },
           "local": {
             "type": "Identifier",
-            "start": 487,
-            "end": 490,
             "decorators": [],
             "name": "x11",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 487,
+            "end": 490
           },
-          "importKind": "value"
+          "importKind": "value",
+          "start": 481,
+          "end": 490
         }
       ],
       "source": {
         "type": "Literal",
-        "start": 498,
-        "end": 508,
         "value": "./server",
-        "raw": "\"./server\""
+        "raw": "\"./server\"",
+        "start": 498,
+        "end": 508
       },
       "phase": null,
       "attributes": [],
-      "importKind": "value"
+      "importKind": "value",
+      "start": 454,
+      "end": 509
     },
     {
       "type": "ExportNamedDeclaration",
-      "start": 510,
-      "end": 532,
       "declaration": {
         "type": "VariableDeclaration",
-        "start": 517,
-        "end": 532,
         "kind": "var",
         "declarations": [
           {
             "type": "VariableDeclarator",
-            "start": 521,
-            "end": 531,
             "id": {
               "type": "Identifier",
-              "start": 521,
-              "end": 525,
               "decorators": [],
               "name": "xxxx",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 521,
+              "end": 525
             },
             "init": {
               "type": "Identifier",
-              "start": 528,
-              "end": 531,
               "decorators": [],
               "name": "a11",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 528,
+              "end": 531
             },
-            "definite": false
+            "definite": false,
+            "start": 521,
+            "end": 531
           }
         ],
-        "declare": false
+        "declare": false,
+        "start": 517,
+        "end": 532
       },
       "specifiers": [],
       "source": null,
       "exportKind": "value",
-      "attributes": []
+      "attributes": [],
+      "start": 510,
+      "end": 532
     },
     {
       "type": "ExportNamedDeclaration",
-      "start": 533,
-      "end": 555,
       "declaration": {
         "type": "VariableDeclaration",
-        "start": 540,
-        "end": 555,
         "kind": "var",
         "declarations": [
           {
             "type": "VariableDeclarator",
-            "start": 544,
-            "end": 554,
             "id": {
               "type": "Identifier",
-              "start": 544,
-              "end": 548,
               "decorators": [],
               "name": "xxxx",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 544,
+              "end": 548
             },
             "init": {
               "type": "Identifier",
-              "start": 551,
-              "end": 554,
               "decorators": [],
               "name": "x11",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 551,
+              "end": 554
             },
-            "definite": false
+            "definite": false,
+            "start": 544,
+            "end": 554
           }
         ],
-        "declare": false
+        "declare": false,
+        "start": 540,
+        "end": 555
       },
       "specifiers": [],
       "source": null,
       "exportKind": "value",
-      "attributes": []
+      "attributes": [],
+      "start": 533,
+      "end": 555
     },
     {
       "type": "ImportDeclaration",
-      "start": 556,
-      "end": 593,
       "specifiers": [
         {
           "type": "ImportSpecifier",
-          "start": 572,
-          "end": 574,
           "imported": {
             "type": "Identifier",
-            "start": 572,
-            "end": 574,
             "decorators": [],
             "name": "z1",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 572,
+            "end": 574
           },
           "local": {
             "type": "Identifier",
-            "start": 572,
-            "end": 574,
             "decorators": [],
             "name": "z1",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 572,
+            "end": 574
           },
-          "importKind": "value"
+          "importKind": "value",
+          "start": 572,
+          "end": 574
         }
       ],
       "source": {
         "type": "Literal",
-        "start": 582,
-        "end": 592,
         "value": "./server",
-        "raw": "\"./server\""
+        "raw": "\"./server\"",
+        "start": 582,
+        "end": 592
       },
       "phase": null,
       "attributes": [],
-      "importKind": "value"
+      "importKind": "value",
+      "start": 556,
+      "end": 593
     },
     {
       "type": "ExportNamedDeclaration",
-      "start": 594,
-      "end": 615,
       "declaration": {
         "type": "VariableDeclaration",
-        "start": 601,
-        "end": 615,
         "kind": "var",
         "declarations": [
           {
             "type": "VariableDeclarator",
-            "start": 605,
-            "end": 614,
             "id": {
               "type": "Identifier",
-              "start": 605,
-              "end": 609,
               "decorators": [],
               "name": "z111",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 605,
+              "end": 609
             },
             "init": {
               "type": "Identifier",
-              "start": 612,
-              "end": 614,
               "decorators": [],
               "name": "z1",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 612,
+              "end": 614
             },
-            "definite": false
+            "definite": false,
+            "start": 605,
+            "end": 614
           }
         ],
-        "declare": false
+        "declare": false,
+        "start": 601,
+        "end": 615
       },
       "specifiers": [],
       "source": null,
       "exportKind": "value",
-      "attributes": []
+      "attributes": [],
+      "start": 594,
+      "end": 615
     },
     {
       "type": "ImportDeclaration",
-      "start": 616,
-      "end": 659,
       "specifiers": [
         {
           "type": "ImportSpecifier",
-          "start": 632,
-          "end": 640,
           "imported": {
             "type": "Identifier",
-            "start": 632,
-            "end": 634,
             "decorators": [],
             "name": "z2",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 632,
+            "end": 634
           },
           "local": {
             "type": "Identifier",
-            "start": 638,
-            "end": 640,
             "decorators": [],
             "name": "z3",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 638,
+            "end": 640
           },
-          "importKind": "value"
+          "importKind": "value",
+          "start": 632,
+          "end": 640
         }
       ],
       "source": {
         "type": "Literal",
-        "start": 648,
-        "end": 658,
         "value": "./server",
-        "raw": "\"./server\""
+        "raw": "\"./server\"",
+        "start": 648,
+        "end": 658
       },
       "phase": null,
       "attributes": [],
-      "importKind": "value"
+      "importKind": "value",
+      "start": 616,
+      "end": 659
     },
     {
       "type": "ExportNamedDeclaration",
-      "start": 660,
-      "end": 679,
       "declaration": {
         "type": "VariableDeclaration",
-        "start": 667,
-        "end": 679,
         "kind": "var",
         "declarations": [
           {
             "type": "VariableDeclarator",
-            "start": 671,
-            "end": 678,
             "id": {
               "type": "Identifier",
-              "start": 671,
-              "end": 673,
               "decorators": [],
               "name": "z2",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 671,
+              "end": 673
             },
             "init": {
               "type": "Identifier",
-              "start": 676,
-              "end": 678,
               "decorators": [],
               "name": "z3",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 676,
+              "end": 678
             },
-            "definite": false
+            "definite": false,
+            "start": 671,
+            "end": 678
           }
         ],
-        "declare": false
+        "declare": false,
+        "start": 667,
+        "end": 679
       },
       "specifiers": [],
       "source": null,
       "exportKind": "value",
-      "attributes": []
+      "attributes": [],
+      "start": 660,
+      "end": 679
     },
     {
       "type": "ImportDeclaration",
-      "start": 744,
-      "end": 783,
       "specifiers": [
         {
           "type": "ImportSpecifier",
-          "start": 760,
-          "end": 764,
           "imported": {
             "type": "Identifier",
-            "start": 760,
-            "end": 764,
             "decorators": [],
             "name": "aaaa",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 760,
+            "end": 764
           },
           "local": {
             "type": "Identifier",
-            "start": 760,
-            "end": 764,
             "decorators": [],
             "name": "aaaa",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 760,
+            "end": 764
           },
-          "importKind": "value"
+          "importKind": "value",
+          "start": 760,
+          "end": 764
         }
       ],
       "source": {
         "type": "Literal",
-        "start": 772,
-        "end": 782,
         "value": "./server",
-        "raw": "\"./server\""
+        "raw": "\"./server\"",
+        "start": 772,
+        "end": 782
       },
       "phase": null,
       "attributes": [],
-      "importKind": "value"
+      "importKind": "value",
+      "start": 744,
+      "end": 783
     },
     {
       "type": "ImportDeclaration",
-      "start": 784,
-      "end": 831,
       "specifiers": [
         {
           "type": "ImportSpecifier",
-          "start": 800,
-          "end": 812,
           "imported": {
             "type": "Identifier",
-            "start": 800,
-            "end": 804,
             "decorators": [],
             "name": "aaaa",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 800,
+            "end": 804
           },
           "local": {
             "type": "Identifier",
-            "start": 808,
-            "end": 812,
             "decorators": [],
             "name": "bbbb",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 808,
+            "end": 812
           },
-          "importKind": "value"
+          "importKind": "value",
+          "start": 800,
+          "end": 812
         }
       ],
       "source": {
         "type": "Literal",
-        "start": 820,
-        "end": 830,
         "value": "./server",
-        "raw": "\"./server\""
+        "raw": "\"./server\"",
+        "start": 820,
+        "end": 830
       },
       "phase": null,
       "attributes": [],
-      "importKind": "value"
+      "importKind": "value",
+      "start": 784,
+      "end": 831
     }
   ],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 831
 }
 ```

@@ -1,35 +1,35 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 366,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 348,
-      "end": 365,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 352,
-          "end": 364,
           "id": {
             "type": "Identifier",
+            "name": "volatile",
             "start": 352,
-            "end": 360,
-            "name": "volatile"
+            "end": 360
           },
           "init": {
             "type": "Literal",
-            "start": 363,
-            "end": 364,
             "value": 1,
-            "raw": "1"
-          }
+            "raw": "1",
+            "start": 363,
+            "end": 364
+          },
+          "start": 352,
+          "end": 364
         }
-      ]
+      ],
+      "start": 348,
+      "end": 365
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 366
 }

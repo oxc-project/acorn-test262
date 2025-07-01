@@ -2,43 +2,43 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 13,
   "body": [
     {
       "type": "ClassDeclaration",
-      "start": 0,
-      "end": 13,
       "decorators": [],
       "id": {
         "type": "Identifier",
-        "start": 6,
-        "end": 7,
         "decorators": [],
         "name": "C",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 6,
+        "end": 7
       },
       "typeParameters": {
         "type": "TSTypeParameterDeclaration",
+        "params": [],
         "start": 7,
-        "end": 9,
-        "params": []
+        "end": 9
       },
       "superClass": null,
       "superTypeArguments": null,
       "implements": [],
       "body": {
         "type": "ClassBody",
+        "body": [],
         "start": 10,
-        "end": 13,
-        "body": []
+        "end": 13
       },
       "abstract": false,
-      "declare": false
+      "declare": false,
+      "start": 0,
+      "end": 13
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 13
 }
 ```

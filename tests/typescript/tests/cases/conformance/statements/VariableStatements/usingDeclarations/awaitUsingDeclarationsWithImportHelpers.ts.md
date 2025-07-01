@@ -2,31 +2,27 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 60,
   "body": [
     {
       "type": "ExportNamedDeclaration",
-      "start": 0,
-      "end": 10,
       "declaration": null,
       "specifiers": [],
       "source": null,
       "exportKind": "value",
-      "attributes": []
+      "attributes": [],
+      "start": 0,
+      "end": 10
     },
     {
       "type": "FunctionDeclaration",
-      "start": 12,
-      "end": 60,
       "id": {
         "type": "Identifier",
-        "start": 27,
-        "end": 28,
         "decorators": [],
         "name": "f",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 27,
+        "end": 28
       },
       "generator": false,
       "async": true,
@@ -36,46 +32,50 @@ __ESTREE_TEST__:PASS:
       "returnType": null,
       "body": {
         "type": "BlockStatement",
-        "start": 31,
-        "end": 60,
         "body": [
           {
             "type": "VariableDeclaration",
-            "start": 37,
-            "end": 58,
             "kind": "await using",
             "declarations": [
               {
                 "type": "VariableDeclarator",
-                "start": 49,
-                "end": 57,
                 "id": {
                   "type": "Identifier",
-                  "start": 49,
-                  "end": 50,
                   "decorators": [],
                   "name": "a",
                   "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "start": 49,
+                  "end": 50
                 },
                 "init": {
                   "type": "Literal",
-                  "start": 53,
-                  "end": 57,
                   "value": null,
-                  "raw": "null"
+                  "raw": "null",
+                  "start": 53,
+                  "end": 57
                 },
-                "definite": false
+                "definite": false,
+                "start": 49,
+                "end": 57
               }
             ],
-            "declare": false
+            "declare": false,
+            "start": 37,
+            "end": 58
           }
-        ]
+        ],
+        "start": 31,
+        "end": 60
       },
-      "expression": false
+      "expression": false,
+      "start": 12,
+      "end": 60
     }
   ],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 60
 }
 ```

@@ -2,81 +2,81 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 12,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 0,
-      "end": 12,
       "expression": {
         "type": "CallExpression",
-        "start": 0,
-        "end": 11,
         "callee": {
           "type": "Identifier",
-          "start": 0,
-          "end": 1,
           "decorators": [],
           "name": "f",
           "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "start": 0,
+          "end": 1
         },
         "typeArguments": null,
         "arguments": [
           {
             "type": "BinaryExpression",
-            "start": 2,
-            "end": 5,
             "left": {
               "type": "Identifier",
-              "start": 2,
-              "end": 3,
               "decorators": [],
               "name": "g",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 2,
+              "end": 3
             },
             "operator": "<",
             "right": {
               "type": "Identifier",
-              "start": 4,
-              "end": 5,
               "decorators": [],
               "name": "A",
               "optional": false,
-              "typeAnnotation": null
-            }
+              "typeAnnotation": null,
+              "start": 4,
+              "end": 5
+            },
+            "start": 2,
+            "end": 5
           },
           {
             "type": "BinaryExpression",
-            "start": 7,
-            "end": 10,
             "left": {
               "type": "Identifier",
-              "start": 7,
-              "end": 8,
               "decorators": [],
               "name": "B",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 7,
+              "end": 8
             },
             "operator": ">",
             "right": {
               "type": "Literal",
-              "start": 9,
-              "end": 10,
               "value": 7,
-              "raw": "7"
-            }
+              "raw": "7",
+              "start": 9,
+              "end": 10
+            },
+            "start": 7,
+            "end": 10
           }
         ],
-        "optional": false
+        "optional": false,
+        "start": 0,
+        "end": 11
       },
-      "directive": null
+      "directive": null,
+      "start": 0,
+      "end": 12
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 12
 }
 ```

@@ -1,547 +1,547 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 2411,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 1398,
-      "end": 1549,
       "expression": {
         "type": "CallExpression",
-        "start": 1398,
-        "end": 1548,
         "callee": {
           "type": "MemberExpression",
-          "start": 1398,
-          "end": 1414,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 1398,
-            "end": 1404,
-            "name": "assert"
+            "end": 1404
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 1405,
-            "end": 1414,
-            "name": "sameValue"
+            "end": 1414
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 1398,
+          "end": 1414
         },
         "arguments": [
           {
             "type": "UnaryExpression",
-            "start": 1418,
-            "end": 1455,
             "operator": "typeof",
             "argument": {
               "type": "MemberExpression",
-              "start": 1425,
-              "end": 1455,
               "object": {
                 "type": "MemberExpression",
-                "start": 1425,
-                "end": 1446,
                 "object": {
                   "type": "Identifier",
+                  "name": "ShadowRealm",
                   "start": 1425,
-                  "end": 1436,
-                  "name": "ShadowRealm"
+                  "end": 1436
                 },
                 "property": {
                   "type": "Identifier",
+                  "name": "prototype",
                   "start": 1437,
-                  "end": 1446,
-                  "name": "prototype"
+                  "end": 1446
                 },
                 "optional": false,
-                "computed": false
+                "computed": false,
+                "start": 1425,
+                "end": 1446
               },
               "property": {
                 "type": "Identifier",
+                "name": "evaluate",
                 "start": 1447,
-                "end": 1455,
-                "name": "evaluate"
+                "end": 1455
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 1425,
+              "end": 1455
             },
-            "prefix": true
+            "prefix": true,
+            "start": 1418,
+            "end": 1455
           },
           {
             "type": "Literal",
-            "start": 1459,
-            "end": 1469,
             "value": "function",
-            "raw": "'function'"
+            "raw": "'function'",
+            "start": 1459,
+            "end": 1469
           },
           {
             "type": "Literal",
-            "start": 1473,
-            "end": 1546,
             "value": "This test must fail if ShadowRealm.prototype.evaluate is not a function",
-            "raw": "'This test must fail if ShadowRealm.prototype.evaluate is not a function'"
+            "raw": "'This test must fail if ShadowRealm.prototype.evaluate is not a function'",
+            "start": 1473,
+            "end": 1546
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 1398,
+        "end": 1548
+      },
+      "start": 1398,
+      "end": 1549
     },
     {
       "type": "VariableDeclaration",
-      "start": 1551,
-      "end": 1579,
       "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 1557,
-          "end": 1578,
           "id": {
             "type": "Identifier",
+            "name": "r",
             "start": 1557,
-            "end": 1558,
-            "name": "r"
+            "end": 1558
           },
           "init": {
             "type": "NewExpression",
-            "start": 1561,
-            "end": 1578,
             "callee": {
               "type": "Identifier",
+              "name": "ShadowRealm",
               "start": 1565,
-              "end": 1576,
-              "name": "ShadowRealm"
+              "end": 1576
             },
-            "arguments": []
-          }
+            "arguments": [],
+            "start": 1561,
+            "end": 1578
+          },
+          "start": 1557,
+          "end": 1578
         }
-      ]
+      ],
+      "start": 1551,
+      "end": 1579
     },
     {
       "type": "ExpressionStatement",
-      "start": 1581,
-      "end": 1737,
       "expression": {
         "type": "CallExpression",
-        "start": 1581,
-        "end": 1736,
         "callee": {
           "type": "MemberExpression",
-          "start": 1581,
-          "end": 1597,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 1581,
-            "end": 1587,
-            "name": "assert"
+            "end": 1587
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 1588,
-            "end": 1597,
-            "name": "sameValue"
+            "end": 1597
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 1581,
+          "end": 1597
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 1601,
-            "end": 1669,
             "callee": {
               "type": "MemberExpression",
-              "start": 1601,
-              "end": 1611,
               "object": {
                 "type": "Identifier",
+                "name": "r",
                 "start": 1601,
-                "end": 1602,
-                "name": "r"
+                "end": 1602
               },
               "property": {
                 "type": "Identifier",
+                "name": "evaluate",
                 "start": 1603,
-                "end": 1611,
-                "name": "evaluate"
+                "end": 1611
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 1601,
+              "end": 1611
             },
             "arguments": [
               {
                 "type": "Literal",
-                "start": 1612,
-                "end": 1668,
                 "value": "Object.getPrototypeOf(globalThis) === Object.prototype",
-                "raw": "'Object.getPrototypeOf(globalThis) === Object.prototype'"
+                "raw": "'Object.getPrototypeOf(globalThis) === Object.prototype'",
+                "start": 1612,
+                "end": 1668
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 1601,
+            "end": 1669
           },
           {
             "type": "Literal",
+            "value": true,
+            "raw": "true",
             "start": 1673,
-            "end": 1677,
-            "value": true,
-            "raw": "true"
+            "end": 1677
           },
           {
             "type": "Literal",
-            "start": 1681,
-            "end": 1734,
             "value": "The [[Prototype]] of globalThis is Object.prototype",
-            "raw": "'The [[Prototype]] of globalThis is Object.prototype'"
+            "raw": "'The [[Prototype]] of globalThis is Object.prototype'",
+            "start": 1681,
+            "end": 1734
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 1581,
+        "end": 1736
+      },
+      "start": 1581,
+      "end": 1737
     },
     {
       "type": "ExpressionStatement",
-      "start": 1739,
-      "end": 1845,
       "expression": {
         "type": "CallExpression",
-        "start": 1739,
-        "end": 1844,
         "callee": {
           "type": "MemberExpression",
-          "start": 1739,
-          "end": 1755,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 1739,
-            "end": 1745,
-            "name": "assert"
+            "end": 1745
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 1746,
-            "end": 1755,
-            "name": "sameValue"
+            "end": 1755
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 1739,
+          "end": 1755
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 1759,
-            "end": 1804,
             "callee": {
               "type": "MemberExpression",
-              "start": 1759,
-              "end": 1769,
               "object": {
                 "type": "Identifier",
+                "name": "r",
                 "start": 1759,
-                "end": 1760,
-                "name": "r"
+                "end": 1760
               },
               "property": {
                 "type": "Identifier",
+                "name": "evaluate",
                 "start": 1761,
-                "end": 1769,
-                "name": "evaluate"
+                "end": 1769
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 1759,
+              "end": 1769
             },
             "arguments": [
               {
                 "type": "Literal",
-                "start": 1770,
-                "end": 1803,
                 "value": "Object.isExtensible(globalThis)",
-                "raw": "'Object.isExtensible(globalThis)'"
+                "raw": "'Object.isExtensible(globalThis)'",
+                "start": 1770,
+                "end": 1803
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 1759,
+            "end": 1804
           },
           {
             "type": "Literal",
-            "start": 1808,
-            "end": 1812,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "start": 1808,
+            "end": 1812
           },
           {
             "type": "Literal",
-            "start": 1816,
-            "end": 1842,
             "value": "globalThis is extensible",
-            "raw": "'globalThis is extensible'"
+            "raw": "'globalThis is extensible'",
+            "start": 1816,
+            "end": 1842
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 1739,
+        "end": 1844
+      },
+      "start": 1739,
+      "end": 1845
     },
     {
       "type": "ExpressionStatement",
-      "start": 1847,
-      "end": 1963,
       "expression": {
         "type": "CallExpression",
-        "start": 1847,
-        "end": 1962,
         "callee": {
           "type": "MemberExpression",
-          "start": 1847,
-          "end": 1863,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 1847,
-            "end": 1853,
-            "name": "assert"
+            "end": 1853
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 1854,
-            "end": 1863,
-            "name": "sameValue"
+            "end": 1863
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 1847,
+          "end": 1863
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 1867,
-            "end": 1914,
             "callee": {
               "type": "MemberExpression",
-              "start": 1867,
-              "end": 1877,
               "object": {
                 "type": "Identifier",
+                "name": "r",
                 "start": 1867,
-                "end": 1868,
-                "name": "r"
+                "end": 1868
               },
               "property": {
                 "type": "Identifier",
+                "name": "evaluate",
                 "start": 1869,
-                "end": 1877,
-                "name": "evaluate"
+                "end": 1877
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 1867,
+              "end": 1877
             },
             "arguments": [
               {
                 "type": "Literal",
-                "start": 1878,
-                "end": 1913,
                 "value": "globalThis.constructor === Object",
-                "raw": "'globalThis.constructor === Object'"
+                "raw": "'globalThis.constructor === Object'",
+                "start": 1878,
+                "end": 1913
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 1867,
+            "end": 1914
           },
           {
             "type": "Literal",
-            "start": 1918,
-            "end": 1922,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "start": 1918,
+            "end": 1922
           },
           {
             "type": "Literal",
-            "start": 1926,
-            "end": 1960,
             "value": "globalThis.constructor is Object",
-            "raw": "'globalThis.constructor is Object'"
+            "raw": "'globalThis.constructor is Object'",
+            "start": 1926,
+            "end": 1960
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 1847,
+        "end": 1962
+      },
+      "start": 1847,
+      "end": 1963
     },
     {
       "type": "ExpressionStatement",
-      "start": 1965,
-      "end": 2204,
       "expression": {
         "type": "CallExpression",
-        "start": 1965,
-        "end": 2203,
         "callee": {
           "type": "MemberExpression",
-          "start": 1965,
-          "end": 1981,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 1965,
-            "end": 1971,
-            "name": "assert"
+            "end": 1971
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 1972,
-            "end": 1981,
-            "name": "sameValue"
+            "end": 1981
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 1965,
+          "end": 1981
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 1985,
-            "end": 2144,
             "callee": {
               "type": "MemberExpression",
-              "start": 1985,
-              "end": 1995,
               "object": {
                 "type": "Identifier",
+                "name": "r",
                 "start": 1985,
-                "end": 1986,
-                "name": "r"
+                "end": 1986
               },
               "property": {
                 "type": "Identifier",
+                "name": "evaluate",
                 "start": 1987,
-                "end": 1995,
-                "name": "evaluate"
+                "end": 1995
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 1985,
+              "end": 1995
             },
             "arguments": [
               {
                 "type": "TemplateLiteral",
-                "start": 1996,
-                "end": 2143,
                 "quasis": [
                   {
                     "type": "TemplateElement",
-                    "start": 1997,
-                    "end": 2142,
                     "value": {
                       "raw": "\n    let result;\n    try {\n      globalThis.__proto__ = {x: 2};\n      result = true;\n    } catch (e) {\n      result = false;\n    }\n    result;\n  ",
                       "cooked": "\n    let result;\n    try {\n      globalThis.__proto__ = {x: 2};\n      result = true;\n    } catch (e) {\n      result = false;\n    }\n    result;\n  "
                     },
-                    "tail": true
+                    "tail": true,
+                    "start": 1997,
+                    "end": 2142
                   }
                 ],
-                "expressions": []
+                "expressions": [],
+                "start": 1996,
+                "end": 2143
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 1985,
+            "end": 2144
           },
           {
             "type": "Literal",
-            "start": 2148,
-            "end": 2152,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "start": 2148,
+            "end": 2152
           },
           {
             "type": "Literal",
-            "start": 2156,
-            "end": 2201,
             "value": "Can assign to globalThis.__proto__ directly",
-            "raw": "'Can assign to globalThis.__proto__ directly'"
+            "raw": "'Can assign to globalThis.__proto__ directly'",
+            "start": 2156,
+            "end": 2201
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 1965,
+        "end": 2203
+      },
+      "start": 1965,
+      "end": 2204
     },
     {
       "type": "ExpressionStatement",
-      "start": 2206,
-      "end": 2410,
       "expression": {
         "type": "CallExpression",
-        "start": 2206,
-        "end": 2409,
         "callee": {
           "type": "MemberExpression",
-          "start": 2206,
-          "end": 2222,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 2206,
-            "end": 2212,
-            "name": "assert"
+            "end": 2212
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 2213,
-            "end": 2222,
-            "name": "sameValue"
+            "end": 2222
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 2206,
+          "end": 2222
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 2226,
-            "end": 2353,
             "callee": {
               "type": "MemberExpression",
-              "start": 2226,
-              "end": 2236,
               "object": {
                 "type": "Identifier",
+                "name": "r",
                 "start": 2226,
-                "end": 2227,
-                "name": "r"
+                "end": 2227
               },
               "property": {
                 "type": "Identifier",
+                "name": "evaluate",
                 "start": 2228,
-                "end": 2236,
-                "name": "evaluate"
+                "end": 2236
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 2226,
+              "end": 2236
             },
             "arguments": [
               {
                 "type": "TemplateLiteral",
-                "start": 2237,
-                "end": 2352,
                 "quasis": [
                   {
                     "type": "TemplateElement",
-                    "start": 2238,
-                    "end": 2351,
                     "value": {
                       "raw": "\n    Reflect.set(globalThis, '__proto__', {x: 1}) &&\n    Reflect.setPrototypeOf(globalThis.__proto__, {x: 2});\n  ",
                       "cooked": "\n    Reflect.set(globalThis, '__proto__', {x: 1}) &&\n    Reflect.setPrototypeOf(globalThis.__proto__, {x: 2});\n  "
                     },
-                    "tail": true
+                    "tail": true,
+                    "start": 2238,
+                    "end": 2351
                   }
                 ],
-                "expressions": []
+                "expressions": [],
+                "start": 2237,
+                "end": 2352
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 2226,
+            "end": 2353
           },
           {
             "type": "Literal",
-            "start": 2357,
-            "end": 2361,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "start": 2357,
+            "end": 2361
           },
           {
             "type": "Literal",
-            "start": 2365,
-            "end": 2407,
             "value": "Can set an ordinary globalThis.__proto__",
-            "raw": "'Can set an ordinary globalThis.__proto__'"
+            "raw": "'Can set an ordinary globalThis.__proto__'",
+            "start": 2365,
+            "end": 2407
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 2206,
+        "end": 2409
+      },
+      "start": 2206,
+      "end": 2410
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 2411
 }

@@ -1,27 +1,27 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 778,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 770,
-      "end": 777,
       "expression": {
         "type": "UpdateExpression",
-        "start": 770,
-        "end": 776,
         "operator": "--",
         "prefix": true,
         "argument": {
           "type": "Identifier",
+          "name": "eval",
           "start": 772,
-          "end": 776,
-          "name": "eval"
-        }
-      }
+          "end": 776
+        },
+        "start": 770,
+        "end": 776
+      },
+      "start": 770,
+      "end": 777
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 778
 }

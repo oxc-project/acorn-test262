@@ -1,61 +1,61 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 626,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 573,
-      "end": 625,
       "expression": {
         "type": "CallExpression",
-        "start": 573,
-        "end": 624,
         "callee": {
           "type": "MemberExpression",
-          "start": 573,
-          "end": 589,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 573,
-            "end": 579,
-            "name": "assert"
+            "end": 579
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 580,
-            "end": 589,
-            "name": "sameValue"
+            "end": 589
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 573,
+          "end": 589
         },
         "arguments": [
           {
             "type": "UnaryExpression",
-            "start": 590,
-            "end": 611,
             "operator": "typeof",
             "argument": {
               "type": "Identifier",
+              "name": "BigUint64Array",
               "start": 597,
-              "end": 611,
-              "name": "BigUint64Array"
+              "end": 611
             },
-            "prefix": true
+            "prefix": true,
+            "start": 590,
+            "end": 611
           },
           {
             "type": "Literal",
-            "start": 613,
-            "end": 623,
             "value": "function",
-            "raw": "\"function\""
+            "raw": "\"function\"",
+            "start": 613,
+            "end": 623
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 573,
+        "end": 624
+      },
+      "start": 573,
+      "end": 625
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 626
 }

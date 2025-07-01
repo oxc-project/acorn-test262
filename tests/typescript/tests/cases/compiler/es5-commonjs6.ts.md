@@ -2,55 +2,55 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 42,
   "body": [
     {
       "type": "ExportDefaultDeclaration",
-      "start": 0,
-      "end": 22,
       "declaration": {
         "type": "Literal",
-        "start": 15,
-        "end": 21,
         "value": "test",
-        "raw": "\"test\""
+        "raw": "\"test\"",
+        "start": 15,
+        "end": 21
       },
-      "exportKind": "value"
+      "exportKind": "value",
+      "start": 0,
+      "end": 22
     },
     {
       "type": "VariableDeclaration",
-      "start": 23,
-      "end": 42,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 27,
-          "end": 41,
           "id": {
             "type": "Identifier",
-            "start": 27,
-            "end": 37,
             "decorators": [],
             "name": "__esModule",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 27,
+            "end": 37
           },
           "init": {
             "type": "Literal",
-            "start": 40,
-            "end": 41,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "start": 40,
+            "end": 41
           },
-          "definite": false
+          "definite": false,
+          "start": 27,
+          "end": 41
         }
       ],
-      "declare": false
+      "declare": false,
+      "start": 23,
+      "end": 42
     }
   ],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 42
 }
 ```

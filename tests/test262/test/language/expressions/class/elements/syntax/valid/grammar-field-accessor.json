@@ -1,133 +1,133 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 749,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 615,
-      "end": 748,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 619,
-          "end": 747,
           "id": {
             "type": "Identifier",
+            "name": "C",
             "start": 619,
-            "end": 620,
-            "name": "C"
+            "end": 620
           },
           "init": {
             "type": "ClassExpression",
-            "start": 623,
-            "end": 747,
             "decorators": [],
             "id": null,
             "superClass": null,
             "body": {
               "type": "ClassBody",
-              "start": 629,
-              "end": 747,
               "body": [
                 {
                   "type": "AccessorProperty",
-                  "start": 633,
-                  "end": 644,
                   "decorators": [],
                   "key": {
                     "type": "Identifier",
+                    "name": "$",
                     "start": 642,
-                    "end": 643,
-                    "name": "$"
+                    "end": 643
                   },
                   "value": null,
                   "computed": false,
-                  "static": false
+                  "static": false,
+                  "start": 633,
+                  "end": 644
                 },
                 {
                   "type": "AccessorProperty",
-                  "start": 647,
-                  "end": 658,
                   "decorators": [],
                   "key": {
                     "type": "Identifier",
+                    "name": "_",
                     "start": 656,
-                    "end": 657,
-                    "name": "_"
+                    "end": 657
                   },
                   "value": null,
                   "computed": false,
-                  "static": false
+                  "static": false,
+                  "start": 647,
+                  "end": 658
                 },
                 {
                   "type": "AccessorProperty",
-                  "start": 661,
-                  "end": 677,
                   "decorators": [],
                   "key": {
                     "type": "Identifier",
+                    "name": "o",
                     "start": 670,
-                    "end": 676,
-                    "name": "o"
+                    "end": 676
                   },
                   "value": null,
                   "computed": false,
-                  "static": false
+                  "static": false,
+                  "start": 661,
+                  "end": 677
                 },
                 {
                   "type": "AccessorProperty",
-                  "start": 680,
-                  "end": 696,
                   "decorators": [],
                   "key": {
                     "type": "Identifier",
+                    "name": "℘",
                     "start": 689,
-                    "end": 695,
-                    "name": "℘"
+                    "end": 695
                   },
                   "value": null,
                   "computed": false,
-                  "static": false
+                  "static": false,
+                  "start": 680,
+                  "end": 696
                 },
                 {
                   "type": "AccessorProperty",
-                  "start": 699,
-                  "end": 721,
                   "decorators": [],
                   "key": {
                     "type": "Identifier",
+                    "name": "ZW_‌_NJ",
                     "start": 708,
-                    "end": 720,
-                    "name": "ZW_‌_NJ"
+                    "end": 720
                   },
                   "value": null,
                   "computed": false,
-                  "static": false
+                  "static": false,
+                  "start": 699,
+                  "end": 721
                 },
                 {
                   "type": "AccessorProperty",
-                  "start": 724,
-                  "end": 745,
                   "decorators": [],
                   "key": {
                     "type": "Identifier",
+                    "name": "ZW_‍_J",
                     "start": 733,
-                    "end": 744,
-                    "name": "ZW_‍_J"
+                    "end": 744
                   },
                   "value": null,
                   "computed": false,
-                  "static": false
+                  "static": false,
+                  "start": 724,
+                  "end": 745
                 }
-              ]
-            }
-          }
+              ],
+              "start": 629,
+              "end": 747
+            },
+            "start": 623,
+            "end": 747
+          },
+          "start": 619,
+          "end": 747
         }
-      ]
+      ],
+      "start": 615,
+      "end": 748
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 749
 }

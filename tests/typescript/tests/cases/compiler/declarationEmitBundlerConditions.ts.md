@@ -2,26 +2,20 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 40,
   "body": [
     {
       "type": "ExportNamedDeclaration",
-      "start": 0,
-      "end": 39,
       "declaration": {
         "type": "ClassDeclaration",
-        "start": 7,
-        "end": 39,
         "decorators": [],
         "id": {
           "type": "Identifier",
-          "start": 21,
-          "end": 22,
           "decorators": [],
           "name": "C",
           "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "start": 21,
+          "end": 22
         },
         "typeParameters": null,
         "superClass": null,
@@ -29,22 +23,18 @@ __ESTREE_TEST__:PASS:
         "implements": [],
         "body": {
           "type": "ClassBody",
-          "start": 23,
-          "end": 39,
           "body": [
             {
               "type": "PropertyDefinition",
-              "start": 27,
-              "end": 37,
               "decorators": [],
               "key": {
                 "type": "Identifier",
-                "start": 35,
-                "end": 36,
                 "decorators": [],
                 "name": "p",
                 "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "start": 35,
+                "end": 36
               },
               "typeAnnotation": null,
               "value": null,
@@ -55,109 +45,113 @@ __ESTREE_TEST__:PASS:
               "optional": false,
               "definite": false,
               "readonly": false,
-              "accessibility": "private"
+              "accessibility": "private",
+              "start": 27,
+              "end": 37
             }
-          ]
+          ],
+          "start": 23,
+          "end": 39
         },
         "abstract": false,
-        "declare": true
+        "declare": true,
+        "start": 7,
+        "end": 39
       },
       "specifiers": [],
       "source": null,
       "exportKind": "type",
-      "attributes": []
+      "attributes": [],
+      "start": 0,
+      "end": 39
     }
   ],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 40
 }
 ```
 __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 11,
   "body": [
     {
       "type": "ExportNamedDeclaration",
-      "start": 0,
-      "end": 10,
       "declaration": null,
       "specifiers": [],
       "source": null,
       "exportKind": "value",
-      "attributes": []
+      "attributes": [],
+      "start": 0,
+      "end": 10
     }
   ],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 11
 }
 ```
 __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 71,
   "body": [
     {
       "type": "ImportDeclaration",
-      "start": 0,
-      "end": 24,
       "specifiers": [
         {
           "type": "ImportSpecifier",
-          "start": 9,
-          "end": 10,
           "imported": {
             "type": "Identifier",
-            "start": 9,
-            "end": 10,
             "decorators": [],
             "name": "C",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 9,
+            "end": 10
           },
           "local": {
             "type": "Identifier",
-            "start": 9,
-            "end": 10,
             "decorators": [],
             "name": "C",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 9,
+            "end": 10
           },
-          "importKind": "value"
+          "importKind": "value",
+          "start": 9,
+          "end": 10
         }
       ],
       "source": {
         "type": "Literal",
-        "start": 18,
-        "end": 23,
         "value": "pkg",
-        "raw": "\"pkg\""
+        "raw": "\"pkg\"",
+        "start": 18,
+        "end": 23
       },
       "phase": null,
       "attributes": [],
-      "importKind": "value"
+      "importKind": "value",
+      "start": 0,
+      "end": 24
     },
     {
       "type": "ExportNamedDeclaration",
-      "start": 25,
-      "end": 70,
       "declaration": {
         "type": "FunctionDeclaration",
-        "start": 32,
-        "end": 70,
         "id": {
           "type": "Identifier",
-          "start": 41,
-          "end": 46,
           "decorators": [],
           "name": "makeC",
           "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "start": 41,
+          "end": 46
         },
         "generator": false,
         "async": false,
@@ -167,144 +161,150 @@ __ESTREE_TEST__:PASS:
         "returnType": null,
         "body": {
           "type": "BlockStatement",
-          "start": 49,
-          "end": 70,
           "body": [
             {
               "type": "ReturnStatement",
-              "start": 53,
-              "end": 68,
               "argument": {
                 "type": "NewExpression",
-                "start": 60,
-                "end": 67,
                 "callee": {
                   "type": "Identifier",
-                  "start": 64,
-                  "end": 65,
                   "decorators": [],
                   "name": "C",
                   "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "start": 64,
+                  "end": 65
                 },
                 "typeArguments": null,
-                "arguments": []
-              }
+                "arguments": [],
+                "start": 60,
+                "end": 67
+              },
+              "start": 53,
+              "end": 68
             }
-          ]
+          ],
+          "start": 49,
+          "end": 70
         },
-        "expression": false
+        "expression": false,
+        "start": 32,
+        "end": 70
       },
       "specifiers": [],
       "source": null,
       "exportKind": "value",
-      "attributes": []
+      "attributes": [],
+      "start": 25,
+      "end": 70
     }
   ],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 71
 }
 ```
 __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 58,
   "body": [
     {
       "type": "ImportDeclaration",
-      "start": 0,
-      "end": 32,
       "specifiers": [
         {
           "type": "ImportSpecifier",
-          "start": 9,
-          "end": 14,
           "imported": {
             "type": "Identifier",
-            "start": 9,
-            "end": 14,
             "decorators": [],
             "name": "makeC",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 9,
+            "end": 14
           },
           "local": {
             "type": "Identifier",
-            "start": 9,
-            "end": 14,
             "decorators": [],
             "name": "makeC",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 9,
+            "end": 14
           },
-          "importKind": "value"
+          "importKind": "value",
+          "start": 9,
+          "end": 14
         }
       ],
       "source": {
         "type": "Literal",
-        "start": 22,
-        "end": 31,
         "value": "./makeC",
-        "raw": "\"./makeC\""
+        "raw": "\"./makeC\"",
+        "start": 22,
+        "end": 31
       },
       "phase": null,
       "attributes": [],
-      "importKind": "value"
+      "importKind": "value",
+      "start": 0,
+      "end": 32
     },
     {
       "type": "ExportNamedDeclaration",
-      "start": 33,
-      "end": 58,
       "declaration": {
         "type": "VariableDeclaration",
-        "start": 40,
-        "end": 58,
         "kind": "const",
         "declarations": [
           {
             "type": "VariableDeclarator",
-            "start": 46,
-            "end": 57,
             "id": {
               "type": "Identifier",
-              "start": 46,
-              "end": 47,
               "decorators": [],
               "name": "c",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 46,
+              "end": 47
             },
             "init": {
               "type": "CallExpression",
-              "start": 50,
-              "end": 57,
               "callee": {
                 "type": "Identifier",
-                "start": 50,
-                "end": 55,
                 "decorators": [],
                 "name": "makeC",
                 "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "start": 50,
+                "end": 55
               },
               "typeArguments": null,
               "arguments": [],
-              "optional": false
+              "optional": false,
+              "start": 50,
+              "end": 57
             },
-            "definite": false
+            "definite": false,
+            "start": 46,
+            "end": 57
           }
         ],
-        "declare": false
+        "declare": false,
+        "start": 40,
+        "end": 58
       },
       "specifiers": [],
       "source": null,
       "exportKind": "value",
-      "attributes": []
+      "attributes": [],
+      "start": 33,
+      "end": 58
     }
   ],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 58
 }
 ```

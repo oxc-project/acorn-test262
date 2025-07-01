@@ -1,167 +1,167 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 447,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 247,
-      "end": 345,
       "expression": {
         "type": "CallExpression",
-        "start": 247,
-        "end": 344,
         "callee": {
           "type": "MemberExpression",
-          "start": 247,
-          "end": 263,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 247,
-            "end": 253,
-            "name": "assert"
+            "end": 253
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 254,
-            "end": 263,
-            "name": "sameValue"
+            "end": 263
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 247,
+          "end": 263
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 264,
-            "end": 291,
             "callee": {
               "type": "Identifier",
+              "name": "parseInt",
               "start": 264,
-              "end": 272,
-              "name": "parseInt"
+              "end": 272
             },
             "arguments": [
               {
                 "type": "NewExpression",
-                "start": 273,
-                "end": 290,
                 "callee": {
                   "type": "Identifier",
+                  "name": "Boolean",
                   "start": 277,
-                  "end": 284,
-                  "name": "Boolean"
+                  "end": 284
                 },
                 "arguments": [
                   {
                     "type": "Literal",
-                    "start": 285,
-                    "end": 289,
                     "value": true,
-                    "raw": "true"
+                    "raw": "true",
+                    "start": 285,
+                    "end": 289
                   }
-                ]
+                ],
+                "start": 273,
+                "end": 290
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 264,
+            "end": 291
           },
           {
             "type": "Identifier",
+            "name": "NaN",
             "start": 293,
-            "end": 296,
-            "name": "NaN"
+            "end": 296
           },
           {
             "type": "Literal",
-            "start": 298,
-            "end": 343,
             "value": "parseInt(new Boolean(true)) must return NaN",
-            "raw": "'parseInt(new Boolean(true)) must return NaN'"
+            "raw": "'parseInt(new Boolean(true)) must return NaN'",
+            "start": 298,
+            "end": 343
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 247,
+        "end": 344
+      },
+      "start": 247,
+      "end": 345
     },
     {
       "type": "ExpressionStatement",
-      "start": 346,
-      "end": 446,
       "expression": {
         "type": "CallExpression",
-        "start": 346,
-        "end": 445,
         "callee": {
           "type": "MemberExpression",
-          "start": 346,
-          "end": 362,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 346,
-            "end": 352,
-            "name": "assert"
+            "end": 352
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 353,
-            "end": 362,
-            "name": "sameValue"
+            "end": 362
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 346,
+          "end": 362
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 363,
-            "end": 391,
             "callee": {
               "type": "Identifier",
+              "name": "parseInt",
               "start": 363,
-              "end": 371,
-              "name": "parseInt"
+              "end": 371
             },
             "arguments": [
               {
                 "type": "NewExpression",
-                "start": 372,
-                "end": 390,
                 "callee": {
                   "type": "Identifier",
+                  "name": "Boolean",
                   "start": 376,
-                  "end": 383,
-                  "name": "Boolean"
+                  "end": 383
                 },
                 "arguments": [
                   {
                     "type": "Literal",
-                    "start": 384,
-                    "end": 389,
                     "value": false,
-                    "raw": "false"
+                    "raw": "false",
+                    "start": 384,
+                    "end": 389
                   }
-                ]
+                ],
+                "start": 372,
+                "end": 390
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 363,
+            "end": 391
           },
           {
             "type": "Identifier",
+            "name": "NaN",
             "start": 393,
-            "end": 396,
-            "name": "NaN"
+            "end": 396
           },
           {
             "type": "Literal",
-            "start": 398,
-            "end": 444,
             "value": "parseInt(new Boolean(false)) must return NaN",
-            "raw": "'parseInt(new Boolean(false)) must return NaN'"
+            "raw": "'parseInt(new Boolean(false)) must return NaN'",
+            "start": 398,
+            "end": 444
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 346,
+        "end": 445
+      },
+      "start": 346,
+      "end": 446
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 447
 }

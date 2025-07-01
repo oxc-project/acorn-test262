@@ -1,68 +1,68 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 415,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 331,
-      "end": 414,
       "expression": {
         "type": "CallExpression",
-        "start": 331,
-        "end": 413,
         "callee": {
           "type": "MemberExpression",
-          "start": 331,
-          "end": 347,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 331,
-            "end": 337,
-            "name": "assert"
+            "end": 337
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 338,
-            "end": 347,
-            "name": "sameValue"
+            "end": 347
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 331,
+          "end": 347
         },
         "arguments": [
           {
             "type": "UnaryExpression",
-            "start": 348,
-            "end": 363,
             "operator": "typeof",
             "argument": {
               "type": "Identifier",
+              "name": "DataView",
               "start": 355,
-              "end": 363,
-              "name": "DataView"
+              "end": 363
             },
-            "prefix": true
+            "prefix": true,
+            "start": 348,
+            "end": 363
           },
           {
             "type": "Literal",
-            "start": 365,
-            "end": 375,
             "value": "function",
-            "raw": "\"function\""
+            "raw": "\"function\"",
+            "start": 365,
+            "end": 375
           },
           {
             "type": "Literal",
-            "start": 377,
-            "end": 412,
             "value": "`typeof DataView` is `'function'`",
-            "raw": "\"`typeof DataView` is `'function'`\""
+            "raw": "\"`typeof DataView` is `'function'`\"",
+            "start": 377,
+            "end": 412
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 331,
+        "end": 413
+      },
+      "start": 331,
+      "end": 414
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 415
 }

@@ -2,142 +2,142 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 62,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 0,
-      "end": 32,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 4,
-          "end": 31,
           "id": {
             "type": "Identifier",
-            "start": 4,
-            "end": 7,
             "decorators": [],
             "name": "map",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 4,
+            "end": 7
           },
           "init": {
             "type": "NewExpression",
-            "start": 10,
-            "end": 31,
             "callee": {
               "type": "Identifier",
-              "start": 14,
-              "end": 17,
               "decorators": [],
               "name": "Map",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 14,
+              "end": 17
             },
             "typeArguments": null,
             "arguments": [
               {
                 "type": "ArrayExpression",
-                "start": 18,
-                "end": 30,
                 "elements": [
                   {
                     "type": "ArrayExpression",
-                    "start": 19,
-                    "end": 29,
                     "elements": [
                       {
                         "type": "Literal",
-                        "start": 20,
-                        "end": 22,
                         "value": "",
-                        "raw": "\"\""
+                        "raw": "\"\"",
+                        "start": 20,
+                        "end": 22
                       },
                       {
                         "type": "Literal",
-                        "start": 24,
-                        "end": 28,
                         "value": true,
-                        "raw": "true"
+                        "raw": "true",
+                        "start": 24,
+                        "end": 28
                       }
-                    ]
+                    ],
+                    "start": 19,
+                    "end": 29
                   }
-                ]
+                ],
+                "start": 18,
+                "end": 30
               }
-            ]
+            ],
+            "start": 10,
+            "end": 31
           },
-          "definite": false
+          "definite": false,
+          "start": 4,
+          "end": 31
         }
       ],
-      "declare": false
+      "declare": false,
+      "start": 0,
+      "end": 32
     },
     {
       "type": "ForOfStatement",
-      "start": 33,
-      "end": 62,
       "await": false,
       "left": {
         "type": "VariableDeclaration",
-        "start": 38,
-        "end": 43,
         "kind": "var",
         "declarations": [
           {
             "type": "VariableDeclarator",
-            "start": 42,
-            "end": 43,
             "id": {
               "type": "Identifier",
-              "start": 42,
-              "end": 43,
               "decorators": [],
               "name": "v",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 42,
+              "end": 43
             },
             "init": null,
-            "definite": false
+            "definite": false,
+            "start": 42,
+            "end": 43
           }
         ],
-        "declare": false
+        "declare": false,
+        "start": 38,
+        "end": 43
       },
       "right": {
         "type": "Identifier",
-        "start": 47,
-        "end": 50,
         "decorators": [],
         "name": "map",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 47,
+        "end": 50
       },
       "body": {
         "type": "BlockStatement",
-        "start": 52,
-        "end": 62,
         "body": [
           {
             "type": "ExpressionStatement",
-            "start": 58,
-            "end": 60,
             "expression": {
               "type": "Identifier",
-              "start": 58,
-              "end": 59,
               "decorators": [],
               "name": "v",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 58,
+              "end": 59
             },
-            "directive": null
+            "directive": null,
+            "start": 58,
+            "end": 60
           }
-        ]
-      }
+        ],
+        "start": 52,
+        "end": 62
+      },
+      "start": 33,
+      "end": 62
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 62
 }
 ```

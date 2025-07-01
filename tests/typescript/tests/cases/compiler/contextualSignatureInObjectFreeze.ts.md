@@ -2,67 +2,55 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 11,
-  "end": 52,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 11,
-      "end": 52,
       "expression": {
         "type": "CallExpression",
-        "start": 11,
-        "end": 52,
         "callee": {
           "type": "MemberExpression",
-          "start": 11,
-          "end": 24,
           "object": {
             "type": "Identifier",
-            "start": 11,
-            "end": 17,
             "decorators": [],
             "name": "Object",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 11,
+            "end": 17
           },
           "property": {
             "type": "Identifier",
-            "start": 18,
-            "end": 24,
             "decorators": [],
             "name": "freeze",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 18,
+            "end": 24
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 11,
+          "end": 24
         },
         "typeArguments": null,
         "arguments": [
           {
             "type": "ObjectExpression",
-            "start": 25,
-            "end": 51,
             "properties": [
               {
                 "type": "Property",
-                "start": 31,
-                "end": 49,
                 "kind": "init",
                 "key": {
                   "type": "Identifier",
-                  "start": 31,
-                  "end": 32,
                   "decorators": [],
                   "name": "f",
                   "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "start": 31,
+                  "end": 32
                 },
                 "value": {
                   "type": "FunctionExpression",
-                  "start": 34,
-                  "end": 49,
                   "id": null,
                   "generator": false,
                   "async": false,
@@ -72,26 +60,38 @@ __ESTREE_TEST__:PASS:
                   "returnType": null,
                   "body": {
                     "type": "BlockStatement",
+                    "body": [],
                     "start": 46,
-                    "end": 49,
-                    "body": []
+                    "end": 49
                   },
-                  "expression": false
+                  "expression": false,
+                  "start": 34,
+                  "end": 49
                 },
                 "method": false,
                 "shorthand": false,
                 "computed": false,
-                "optional": false
+                "optional": false,
+                "start": 31,
+                "end": 49
               }
-            ]
+            ],
+            "start": 25,
+            "end": 51
           }
         ],
-        "optional": false
+        "optional": false,
+        "start": 11,
+        "end": 52
       },
-      "directive": null
+      "directive": null,
+      "start": 11,
+      "end": 52
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 11,
+  "end": 52
 }
 ```

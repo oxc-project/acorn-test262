@@ -2,80 +2,80 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 44,
   "body": [
     {
       "type": "TSInterfaceDeclaration",
-      "start": 0,
-      "end": 44,
       "id": {
         "type": "Identifier",
-        "start": 10,
-        "end": 11,
         "decorators": [],
         "name": "I",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 10,
+        "end": 11
       },
       "typeParameters": null,
       "extends": [],
       "body": {
         "type": "TSInterfaceBody",
-        "start": 12,
-        "end": 44,
         "body": [
           {
             "type": "TSPropertySignature",
-            "start": 18,
-            "end": 42,
             "computed": true,
             "optional": false,
             "readonly": false,
             "key": {
               "type": "MemberExpression",
-              "start": 19,
-              "end": 32,
               "object": {
                 "type": "Identifier",
-                "start": 19,
-                "end": 25,
                 "decorators": [],
                 "name": "Symbol",
                 "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "start": 19,
+                "end": 25
               },
               "property": {
                 "type": "Identifier",
-                "start": 26,
-                "end": 32,
                 "decorators": [],
                 "name": "keyFor",
                 "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "start": 26,
+                "end": 32
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 19,
+              "end": 32
             },
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
-              "start": 33,
-              "end": 41,
               "typeAnnotation": {
                 "type": "TSStringKeyword",
                 "start": 35,
                 "end": 41
-              }
+              },
+              "start": 33,
+              "end": 41
             },
             "accessibility": null,
-            "static": false
+            "static": false,
+            "start": 18,
+            "end": 42
           }
-        ]
+        ],
+        "start": 12,
+        "end": 44
       },
-      "declare": false
+      "declare": false,
+      "start": 0,
+      "end": 44
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 44
 }
 ```

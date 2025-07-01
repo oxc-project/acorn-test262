@@ -1,94 +1,94 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 358,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 245,
-      "end": 357,
       "expression": {
         "type": "CallExpression",
-        "start": 245,
-        "end": 356,
         "callee": {
           "type": "MemberExpression",
-          "start": 245,
-          "end": 261,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 245,
-            "end": 251,
-            "name": "assert"
+            "end": 251
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 252,
-            "end": 261,
-            "name": "sameValue"
+            "end": 261
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 245,
+          "end": 261
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 262,
-            "end": 294,
             "callee": {
               "type": "MemberExpression",
-              "start": 262,
-              "end": 275,
               "object": {
                 "type": "Identifier",
+                "name": "Array",
                 "start": 262,
-                "end": 267,
-                "name": "Array"
+                "end": 267
               },
               "property": {
                 "type": "Identifier",
+                "name": "isArray",
                 "start": 268,
-                "end": 275,
-                "name": "isArray"
+                "end": 275
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 262,
+              "end": 275
             },
             "arguments": [
               {
                 "type": "NewExpression",
-                "start": 276,
-                "end": 293,
                 "callee": {
                   "type": "Identifier",
+                  "name": "SyntaxError",
                   "start": 280,
-                  "end": 291,
-                  "name": "SyntaxError"
+                  "end": 291
                 },
-                "arguments": []
+                "arguments": [],
+                "start": 276,
+                "end": 293
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 262,
+            "end": 294
           },
           {
             "type": "Literal",
-            "start": 296,
-            "end": 301,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "start": 296,
+            "end": 301
           },
           {
             "type": "Literal",
-            "start": 303,
-            "end": 355,
             "value": "Array.isArray(new SyntaxError()) must return false",
-            "raw": "'Array.isArray(new SyntaxError()) must return false'"
+            "raw": "'Array.isArray(new SyntaxError()) must return false'",
+            "start": 303,
+            "end": 355
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 245,
+        "end": 356
+      },
+      "start": 245,
+      "end": 357
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 358
 }

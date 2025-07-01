@@ -1,110 +1,110 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 401,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 315,
-      "end": 400,
       "expression": {
         "type": "CallExpression",
-        "start": 315,
-        "end": 399,
         "callee": {
           "type": "MemberExpression",
-          "start": 315,
-          "end": 328,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 315,
-            "end": 321,
-            "name": "assert"
+            "end": 321
           },
           "property": {
             "type": "Identifier",
+            "name": "throws",
             "start": 322,
-            "end": 328,
-            "name": "throws"
+            "end": 328
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 315,
+          "end": 328
         },
         "arguments": [
           {
             "type": "Identifier",
+            "name": "SyntaxError",
             "start": 329,
-            "end": 340,
-            "name": "SyntaxError"
+            "end": 340
           },
           {
             "type": "FunctionExpression",
-            "start": 342,
-            "end": 398,
             "id": null,
             "generator": false,
             "async": false,
             "params": [],
             "body": {
               "type": "BlockStatement",
-              "start": 353,
-              "end": 398,
               "body": [
                 {
                   "type": "VariableDeclaration",
-                  "start": 357,
-                  "end": 396,
                   "kind": "var",
                   "declarations": [
                     {
                       "type": "VariableDeclarator",
-                      "start": 361,
-                      "end": 395,
                       "id": {
                         "type": "Identifier",
+                        "name": "regExpObj",
                         "start": 361,
-                        "end": 370,
-                        "name": "regExpObj"
+                        "end": 370
                       },
                       "init": {
                         "type": "NewExpression",
-                        "start": 373,
-                        "end": 395,
                         "callee": {
                           "type": "Identifier",
+                          "name": "RegExp",
                           "start": 377,
-                          "end": 383,
-                          "name": "RegExp"
+                          "end": 383
                         },
                         "arguments": [
                           {
                             "type": "Literal",
-                            "start": 384,
-                            "end": 389,
                             "value": "abc",
-                            "raw": "'abc'"
+                            "raw": "'abc'",
+                            "start": 384,
+                            "end": 389
                           },
                           {
                             "type": "Literal",
-                            "start": 391,
-                            "end": 394,
                             "value": "a",
-                            "raw": "'a'"
+                            "raw": "'a'",
+                            "start": 391,
+                            "end": 394
                           }
-                        ]
-                      }
+                        ],
+                        "start": 373,
+                        "end": 395
+                      },
+                      "start": 361,
+                      "end": 395
                     }
-                  ]
+                  ],
+                  "start": 357,
+                  "end": 396
                 }
-              ]
+              ],
+              "start": 353,
+              "end": 398
             },
-            "expression": false
+            "expression": false,
+            "start": 342,
+            "end": 398
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 315,
+        "end": 399
+      },
+      "start": 315,
+      "end": 400
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 401
 }

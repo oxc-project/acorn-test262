@@ -1,47 +1,45 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 561,
   "body": [
     {
       "type": "FunctionDeclaration",
-      "start": 405,
-      "end": 444,
       "id": {
         "type": "Identifier",
+        "name": "f",
         "start": 414,
-        "end": 415,
-        "name": "f"
+        "end": 415
       },
       "generator": false,
       "async": false,
       "params": [],
       "body": {
         "type": "BlockStatement",
-        "start": 418,
-        "end": 444,
         "body": [
           {
             "type": "ReturnStatement",
-            "start": 422,
-            "end": 442,
             "argument": {
               "type": "CallExpression",
-              "start": 429,
-              "end": 441,
               "callee": {
                 "type": "Identifier",
+                "name": "gNonStrict",
                 "start": 429,
-                "end": 439,
-                "name": "gNonStrict"
+                "end": 439
               },
               "arguments": [],
-              "optional": false
-            }
+              "optional": false,
+              "start": 429,
+              "end": 441
+            },
+            "start": 422,
+            "end": 442
           }
-        ]
+        ],
+        "start": 418,
+        "end": 444
       },
-      "expression": false
+      "expression": false,
+      "start": 405,
+      "end": 444
     },
     {
       "type": "EmptyStatement",
@@ -50,143 +48,145 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 446,
-      "end": 504,
       "expression": {
         "type": "CallExpression",
-        "start": 446,
-        "end": 503,
         "callee": {
           "type": "ParenthesizedExpression",
-          "start": 446,
-          "end": 501,
           "expression": {
             "type": "FunctionExpression",
-            "start": 447,
-            "end": 500,
             "id": null,
             "generator": false,
             "async": false,
             "params": [],
             "body": {
               "type": "BlockStatement",
-              "start": 458,
-              "end": 500,
               "body": [
                 {
                   "type": "ExpressionStatement",
-                  "start": 462,
-                  "end": 475,
                   "expression": {
                     "type": "Literal",
-                    "start": 462,
-                    "end": 474,
                     "value": "use strict",
-                    "raw": "\"use strict\""
+                    "raw": "\"use strict\"",
+                    "start": 462,
+                    "end": 474
                   },
-                  "directive": "use strict"
+                  "directive": "use strict",
+                  "start": 462,
+                  "end": 475
                 },
                 {
                   "type": "ExpressionStatement",
-                  "start": 478,
-                  "end": 498,
                   "expression": {
                     "type": "CallExpression",
-                    "start": 478,
-                    "end": 497,
                     "callee": {
                       "type": "CallExpression",
-                      "start": 478,
-                      "end": 495,
                       "callee": {
                         "type": "MemberExpression",
-                        "start": 478,
-                        "end": 484,
                         "object": {
                           "type": "Identifier",
+                          "name": "f",
                           "start": 478,
-                          "end": 479,
-                          "name": "f"
+                          "end": 479
                         },
                         "property": {
                           "type": "Identifier",
+                          "name": "bind",
                           "start": 480,
-                          "end": 484,
-                          "name": "bind"
+                          "end": 484
                         },
                         "optional": false,
-                        "computed": false
+                        "computed": false,
+                        "start": 478,
+                        "end": 484
                       },
                       "arguments": [
                         {
                           "type": "Identifier",
+                          "name": "undefined",
                           "start": 485,
-                          "end": 494,
-                          "name": "undefined"
+                          "end": 494
                         }
                       ],
-                      "optional": false
+                      "optional": false,
+                      "start": 478,
+                      "end": 495
                     },
                     "arguments": [],
-                    "optional": false
-                  }
+                    "optional": false,
+                    "start": 478,
+                    "end": 497
+                  },
+                  "start": 478,
+                  "end": 498
                 }
-              ]
+              ],
+              "start": 458,
+              "end": 500
             },
-            "expression": false
-          }
+            "expression": false,
+            "start": 447,
+            "end": 500
+          },
+          "start": 446,
+          "end": 501
         },
         "arguments": [],
-        "optional": false
-      }
+        "optional": false,
+        "start": 446,
+        "end": 503
+      },
+      "start": 446,
+      "end": 504
     },
     {
       "type": "FunctionDeclaration",
-      "start": 507,
-      "end": 560,
       "id": {
         "type": "Identifier",
+        "name": "gNonStrict",
         "start": 516,
-        "end": 526,
-        "name": "gNonStrict"
+        "end": 526
       },
       "generator": false,
       "async": false,
       "params": [],
       "body": {
         "type": "BlockStatement",
-        "start": 529,
-        "end": 560,
         "body": [
           {
             "type": "ReturnStatement",
-            "start": 533,
-            "end": 558,
             "argument": {
               "type": "MemberExpression",
-              "start": 540,
-              "end": 557,
               "object": {
                 "type": "Identifier",
+                "name": "gNonStrict",
                 "start": 540,
-                "end": 550,
-                "name": "gNonStrict"
+                "end": 550
               },
               "property": {
                 "type": "Identifier",
+                "name": "caller",
                 "start": 551,
-                "end": 557,
-                "name": "caller"
+                "end": 557
               },
               "optional": false,
-              "computed": false
-            }
+              "computed": false,
+              "start": 540,
+              "end": 557
+            },
+            "start": 533,
+            "end": 558
           }
-        ]
+        ],
+        "start": 529,
+        "end": 560
       },
-      "expression": false
+      "expression": false,
+      "start": 507,
+      "end": 560
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 561
 }

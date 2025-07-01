@@ -2,133 +2,133 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 47,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 0,
-      "end": 31,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 4,
-          "end": 30,
           "id": {
             "type": "ArrayPattern",
-            "start": 4,
-            "end": 10,
             "decorators": [],
             "elements": [
               {
                 "type": "Identifier",
-                "start": 5,
-                "end": 6,
                 "decorators": [],
                 "name": "a",
                 "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "start": 5,
+                "end": 6
               },
               {
                 "type": "Identifier",
-                "start": 8,
-                "end": 9,
                 "decorators": [],
                 "name": "b",
                 "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "start": 8,
+                "end": 9
               }
             ],
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 4,
+            "end": 10
           },
           "init": {
             "type": "ArrayExpression",
-            "start": 13,
-            "end": 30,
             "elements": [
               {
                 "type": "Identifier",
-                "start": 14,
-                "end": 23,
                 "decorators": [],
                 "name": "undefined",
                 "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "start": 14,
+                "end": 23
               },
               {
                 "type": "Literal",
-                "start": 25,
-                "end": 29,
                 "value": null,
-                "raw": "null"
+                "raw": "null",
+                "start": 25,
+                "end": 29
               }
-            ]
+            ],
+            "start": 13,
+            "end": 30
           },
-          "definite": false
+          "definite": false,
+          "start": 4,
+          "end": 30
         }
       ],
-      "declare": false
+      "declare": false,
+      "start": 0,
+      "end": 31
     },
     {
       "type": "ExpressionStatement",
-      "start": 32,
-      "end": 39,
       "expression": {
         "type": "AssignmentExpression",
-        "start": 32,
-        "end": 38,
         "operator": "=",
         "left": {
           "type": "Identifier",
-          "start": 32,
-          "end": 33,
           "decorators": [],
           "name": "a",
           "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "start": 32,
+          "end": 33
         },
         "right": {
           "type": "Literal",
-          "start": 36,
-          "end": 38,
           "value": "",
-          "raw": "\"\""
-        }
+          "raw": "\"\"",
+          "start": 36,
+          "end": 38
+        },
+        "start": 32,
+        "end": 38
       },
-      "directive": null
+      "directive": null,
+      "start": 32,
+      "end": 39
     },
     {
       "type": "ExpressionStatement",
-      "start": 40,
-      "end": 47,
       "expression": {
         "type": "AssignmentExpression",
-        "start": 40,
-        "end": 46,
         "operator": "=",
         "left": {
           "type": "Identifier",
-          "start": 40,
-          "end": 41,
           "decorators": [],
           "name": "b",
           "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "start": 40,
+          "end": 41
         },
         "right": {
           "type": "Literal",
-          "start": 44,
-          "end": 46,
           "value": "",
-          "raw": "\"\""
-        }
+          "raw": "\"\"",
+          "start": 44,
+          "end": 46
+        },
+        "start": 40,
+        "end": 46
       },
-      "directive": null
+      "directive": null,
+      "start": 40,
+      "end": 47
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 47
 }
 ```

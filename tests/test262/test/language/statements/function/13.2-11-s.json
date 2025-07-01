@@ -1,139 +1,139 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 416,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 288,
-      "end": 324,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 292,
-          "end": 323,
           "id": {
             "type": "Identifier",
+            "name": "foo",
             "start": 292,
-            "end": 295,
-            "name": "foo"
+            "end": 295
           },
           "init": {
             "type": "CallExpression",
-            "start": 298,
-            "end": 323,
             "callee": {
               "type": "Identifier",
+              "name": "Function",
               "start": 298,
-              "end": 306,
-              "name": "Function"
+              "end": 306
             },
             "arguments": [
               {
                 "type": "Literal",
-                "start": 307,
-                "end": 322,
                 "value": "'use strict';",
-                "raw": "\"'use strict';\""
+                "raw": "\"'use strict';\"",
+                "start": 307,
+                "end": 322
               }
             ],
-            "optional": false
-          }
+            "optional": false,
+            "start": 298,
+            "end": 323
+          },
+          "start": 292,
+          "end": 323
         }
-      ]
+      ],
+      "start": 288,
+      "end": 324
     },
     {
       "type": "ForInStatement",
-      "start": 326,
-      "end": 415,
       "left": {
         "type": "VariableDeclaration",
-        "start": 331,
-        "end": 344,
         "kind": "var",
         "declarations": [
           {
             "type": "VariableDeclarator",
-            "start": 335,
-            "end": 344,
             "id": {
               "type": "Identifier",
+              "name": "tempIndex",
               "start": 335,
-              "end": 344,
-              "name": "tempIndex"
+              "end": 344
             },
-            "init": null
+            "init": null,
+            "start": 335,
+            "end": 344
           }
-        ]
+        ],
+        "start": 331,
+        "end": 344
       },
       "right": {
         "type": "Identifier",
+        "name": "foo",
         "start": 348,
-        "end": 351,
-        "name": "foo"
+        "end": 351
       },
       "body": {
         "type": "BlockStatement",
-        "start": 353,
-        "end": 415,
         "body": [
           {
             "type": "ExpressionStatement",
-            "start": 359,
-            "end": 413,
             "expression": {
               "type": "CallExpression",
-              "start": 359,
-              "end": 412,
               "callee": {
                 "type": "MemberExpression",
-                "start": 359,
-                "end": 378,
                 "object": {
                   "type": "Identifier",
+                  "name": "assert",
                   "start": 359,
-                  "end": 365,
-                  "name": "assert"
+                  "end": 365
                 },
                 "property": {
                   "type": "Identifier",
+                  "name": "notSameValue",
                   "start": 366,
-                  "end": 378,
-                  "name": "notSameValue"
+                  "end": 378
                 },
                 "optional": false,
-                "computed": false
+                "computed": false,
+                "start": 359,
+                "end": 378
               },
               "arguments": [
                 {
                   "type": "Identifier",
+                  "name": "tempIndex",
                   "start": 379,
-                  "end": 388,
-                  "name": "tempIndex"
+                  "end": 388
                 },
                 {
                   "type": "Literal",
-                  "start": 390,
-                  "end": 398,
                   "value": "caller",
-                  "raw": "\"caller\""
+                  "raw": "\"caller\"",
+                  "start": 390,
+                  "end": 398
                 },
                 {
                   "type": "Literal",
-                  "start": 400,
-                  "end": 411,
                   "value": "tempIndex",
-                  "raw": "'tempIndex'"
+                  "raw": "'tempIndex'",
+                  "start": 400,
+                  "end": 411
                 }
               ],
-              "optional": false
-            }
+              "optional": false,
+              "start": 359,
+              "end": 412
+            },
+            "start": 359,
+            "end": 413
           }
-        ]
-      }
+        ],
+        "start": 353,
+        "end": 415
+      },
+      "start": 326,
+      "end": 415
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 416
 }

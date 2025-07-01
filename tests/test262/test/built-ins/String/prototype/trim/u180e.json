@@ -1,207 +1,207 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 551,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 412,
-      "end": 458,
       "expression": {
         "type": "CallExpression",
-        "start": 412,
-        "end": 457,
         "callee": {
           "type": "MemberExpression",
-          "start": 412,
-          "end": 428,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 412,
-            "end": 418,
-            "name": "assert"
+            "end": 418
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 419,
-            "end": 428,
-            "name": "sameValue"
+            "end": 428
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 412,
+          "end": 428
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 429,
-            "end": 445,
             "callee": {
               "type": "MemberExpression",
-              "start": 429,
-              "end": 443,
               "object": {
                 "type": "Literal",
-                "start": 429,
-                "end": 438,
                 "value": "_᠎",
-                "raw": "\"_\\u180E\""
+                "raw": "\"_\\u180E\"",
+                "start": 429,
+                "end": 438
               },
               "property": {
                 "type": "Identifier",
+                "name": "trim",
                 "start": 439,
-                "end": 443,
-                "name": "trim"
+                "end": 443
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 429,
+              "end": 443
             },
             "arguments": [],
-            "optional": false
+            "optional": false,
+            "start": 429,
+            "end": 445
           },
           {
             "type": "Literal",
-            "start": 447,
-            "end": 456,
             "value": "_᠎",
-            "raw": "\"_\\u180E\""
+            "raw": "\"_\\u180E\"",
+            "start": 447,
+            "end": 456
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 412,
+        "end": 457
+      },
+      "start": 412,
+      "end": 458
     },
     {
       "type": "ExpressionStatement",
-      "start": 459,
-      "end": 503,
       "expression": {
         "type": "CallExpression",
-        "start": 459,
-        "end": 502,
         "callee": {
           "type": "MemberExpression",
-          "start": 459,
-          "end": 475,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 459,
-            "end": 465,
-            "name": "assert"
+            "end": 465
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 466,
-            "end": 475,
-            "name": "sameValue"
+            "end": 475
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 459,
+          "end": 475
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 476,
-            "end": 491,
             "callee": {
               "type": "MemberExpression",
-              "start": 476,
-              "end": 489,
               "object": {
                 "type": "Literal",
-                "start": 476,
-                "end": 484,
                 "value": "᠎",
-                "raw": "\"\\u180E\""
+                "raw": "\"\\u180E\"",
+                "start": 476,
+                "end": 484
               },
               "property": {
                 "type": "Identifier",
+                "name": "trim",
                 "start": 485,
-                "end": 489,
-                "name": "trim"
+                "end": 489
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 476,
+              "end": 489
             },
             "arguments": [],
-            "optional": false
+            "optional": false,
+            "start": 476,
+            "end": 491
           },
           {
             "type": "Literal",
-            "start": 493,
-            "end": 501,
             "value": "᠎",
-            "raw": "\"\\u180E\""
+            "raw": "\"\\u180E\"",
+            "start": 493,
+            "end": 501
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 459,
+        "end": 502
+      },
+      "start": 459,
+      "end": 503
     },
     {
       "type": "ExpressionStatement",
-      "start": 504,
-      "end": 550,
       "expression": {
         "type": "CallExpression",
-        "start": 504,
-        "end": 549,
         "callee": {
           "type": "MemberExpression",
-          "start": 504,
-          "end": 520,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 504,
-            "end": 510,
-            "name": "assert"
+            "end": 510
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 511,
-            "end": 520,
-            "name": "sameValue"
+            "end": 520
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 504,
+          "end": 520
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 521,
-            "end": 537,
             "callee": {
               "type": "MemberExpression",
-              "start": 521,
-              "end": 535,
               "object": {
                 "type": "Literal",
-                "start": 521,
-                "end": 530,
                 "value": "᠎_",
-                "raw": "\"\\u180E_\""
+                "raw": "\"\\u180E_\"",
+                "start": 521,
+                "end": 530
               },
               "property": {
                 "type": "Identifier",
+                "name": "trim",
                 "start": 531,
-                "end": 535,
-                "name": "trim"
+                "end": 535
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 521,
+              "end": 535
             },
             "arguments": [],
-            "optional": false
+            "optional": false,
+            "start": 521,
+            "end": 537
           },
           {
             "type": "Literal",
-            "start": 539,
-            "end": 548,
             "value": "᠎_",
-            "raw": "\"\\u180E_\""
+            "raw": "\"\\u180E_\"",
+            "start": 539,
+            "end": 548
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 504,
+        "end": 549
+      },
+      "start": 504,
+      "end": 550
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 551
 }

@@ -1,227 +1,227 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 999,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 710,
-      "end": 768,
       "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 716,
-          "end": 767,
           "id": {
             "type": "Identifier",
+            "name": "loc",
             "start": 716,
-            "end": 719,
-            "name": "loc"
+            "end": 719
           },
           "init": {
             "type": "NewExpression",
-            "start": 722,
-            "end": 767,
             "callee": {
               "type": "MemberExpression",
-              "start": 726,
-              "end": 737,
               "object": {
                 "type": "Identifier",
+                "name": "Intl",
                 "start": 726,
-                "end": 730,
-                "name": "Intl"
+                "end": 730
               },
               "property": {
                 "type": "Identifier",
+                "name": "Locale",
                 "start": 731,
-                "end": 737,
-                "name": "Locale"
+                "end": 737
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 726,
+              "end": 737
             },
             "arguments": [
               {
                 "type": "Literal",
-                "start": 738,
-                "end": 742,
                 "value": "en",
-                "raw": "'en'"
+                "raw": "'en'",
+                "start": 738,
+                "end": 742
               },
               {
                 "type": "ObjectExpression",
-                "start": 744,
-                "end": 766,
                 "properties": [
                   {
                     "type": "Property",
-                    "start": 745,
-                    "end": 765,
                     "kind": "init",
                     "key": {
                       "type": "Identifier",
+                      "name": "calendar",
                       "start": 745,
-                      "end": 753,
-                      "name": "calendar"
+                      "end": 753
                     },
                     "value": {
                       "type": "Literal",
-                      "start": 755,
-                      "end": 765,
                       "value": "islamicc",
-                      "raw": "'islamicc'"
+                      "raw": "'islamicc'",
+                      "start": 755,
+                      "end": 765
                     },
                     "method": false,
                     "shorthand": false,
-                    "computed": false
+                    "computed": false,
+                    "start": 745,
+                    "end": 765
                   }
-                ]
+                ],
+                "start": 744,
+                "end": 766
               }
-            ]
-          }
+            ],
+            "start": 722,
+            "end": 767
+          },
+          "start": 716,
+          "end": 767
         }
-      ]
+      ],
+      "start": 710,
+      "end": 768
     },
     {
       "type": "ExpressionStatement",
-      "start": 770,
-      "end": 888,
       "expression": {
         "type": "CallExpression",
-        "start": 770,
-        "end": 887,
         "callee": {
           "type": "MemberExpression",
-          "start": 770,
-          "end": 786,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 770,
-            "end": 776,
-            "name": "assert"
+            "end": 776
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 777,
-            "end": 786,
-            "name": "sameValue"
+            "end": 786
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 770,
+          "end": 786
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 787,
-            "end": 801,
             "callee": {
               "type": "MemberExpression",
-              "start": 787,
-              "end": 799,
               "object": {
                 "type": "Identifier",
+                "name": "loc",
                 "start": 787,
-                "end": 790,
-                "name": "loc"
+                "end": 790
               },
               "property": {
                 "type": "Identifier",
+                "name": "toString",
                 "start": 791,
-                "end": 799,
-                "name": "toString"
+                "end": 799
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 787,
+              "end": 799
             },
             "arguments": [],
-            "optional": false
+            "optional": false,
+            "start": 787,
+            "end": 801
           },
           {
             "type": "Literal",
-            "start": 803,
-            "end": 826,
             "value": "en-u-ca-islamic-civil",
-            "raw": "\"en-u-ca-islamic-civil\""
+            "raw": "\"en-u-ca-islamic-civil\"",
+            "start": 803,
+            "end": 826
           },
           {
             "type": "Literal",
-            "start": 832,
-            "end": 886,
             "value": "'islamicc' should be canonicalize to 'islamic-civil'",
-            "raw": "\"'islamicc' should be canonicalize to 'islamic-civil'\""
+            "raw": "\"'islamicc' should be canonicalize to 'islamic-civil'\"",
+            "start": 832,
+            "end": 886
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 770,
+        "end": 887
+      },
+      "start": 770,
+      "end": 888
     },
     {
       "type": "ExpressionStatement",
-      "start": 890,
-      "end": 998,
       "expression": {
         "type": "CallExpression",
-        "start": 890,
-        "end": 997,
         "callee": {
           "type": "MemberExpression",
-          "start": 890,
-          "end": 906,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 890,
-            "end": 896,
-            "name": "assert"
+            "end": 896
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 897,
-            "end": 906,
-            "name": "sameValue"
+            "end": 906
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 890,
+          "end": 906
         },
         "arguments": [
           {
             "type": "MemberExpression",
-            "start": 907,
-            "end": 919,
             "object": {
               "type": "Identifier",
+              "name": "loc",
               "start": 907,
-              "end": 910,
-              "name": "loc"
+              "end": 910
             },
             "property": {
               "type": "Identifier",
+              "name": "calendar",
               "start": 911,
-              "end": 919,
-              "name": "calendar"
+              "end": 919
             },
             "optional": false,
-            "computed": false
+            "computed": false,
+            "start": 907,
+            "end": 919
           },
           {
             "type": "Literal",
-            "start": 921,
-            "end": 936,
             "value": "islamic-civil",
-            "raw": "\"islamic-civil\""
+            "raw": "\"islamic-civil\"",
+            "start": 921,
+            "end": 936
           },
           {
             "type": "Literal",
-            "start": 942,
-            "end": 996,
             "value": "'islamicc' should be canonicalize to 'islamic-civil'",
-            "raw": "\"'islamicc' should be canonicalize to 'islamic-civil'\""
+            "raw": "\"'islamicc' should be canonicalize to 'islamic-civil'\"",
+            "start": 942,
+            "end": 996
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 890,
+        "end": 997
+      },
+      "start": 890,
+      "end": 998
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 999
 }

@@ -1,31 +1,29 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 342,
   "body": [
     {
       "type": "ClassDeclaration",
-      "start": 253,
-      "end": 285,
       "decorators": [],
       "id": {
         "type": "Identifier",
+        "name": "MyRegExp",
         "start": 259,
-        "end": 267,
-        "name": "MyRegExp"
+        "end": 267
       },
       "superClass": {
         "type": "Identifier",
+        "name": "RegExp",
         "start": 276,
-        "end": 282,
-        "name": "RegExp"
+        "end": 282
       },
       "body": {
         "type": "ClassBody",
+        "body": [],
         "start": 283,
-        "end": 285,
-        "body": []
-      }
+        "end": 285
+      },
+      "start": 253,
+      "end": 285
     },
     {
       "type": "EmptyStatement",
@@ -34,75 +32,77 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 288,
-      "end": 341,
       "expression": {
         "type": "CallExpression",
-        "start": 288,
-        "end": 340,
         "callee": {
           "type": "MemberExpression",
-          "start": 288,
-          "end": 304,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 288,
-            "end": 294,
-            "name": "assert"
+            "end": 294
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 295,
-            "end": 304,
-            "name": "sameValue"
+            "end": 304
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 288,
+          "end": 304
         },
         "arguments": [
           {
             "type": "MemberExpression",
-            "start": 305,
-            "end": 329,
             "object": {
               "type": "Identifier",
+              "name": "MyRegExp",
               "start": 305,
-              "end": 313,
-              "name": "MyRegExp"
+              "end": 313
             },
             "property": {
               "type": "MemberExpression",
-              "start": 314,
-              "end": 328,
               "object": {
                 "type": "Identifier",
+                "name": "Symbol",
                 "start": 314,
-                "end": 320,
-                "name": "Symbol"
+                "end": 320
               },
               "property": {
                 "type": "Identifier",
+                "name": "species",
                 "start": 321,
-                "end": 328,
-                "name": "species"
+                "end": 328
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 314,
+              "end": 328
             },
             "optional": false,
-            "computed": true
+            "computed": true,
+            "start": 305,
+            "end": 329
           },
           {
             "type": "Identifier",
+            "name": "MyRegExp",
             "start": 331,
-            "end": 339,
-            "name": "MyRegExp"
+            "end": 339
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 288,
+        "end": 340
+      },
+      "start": 288,
+      "end": 341
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 342
 }

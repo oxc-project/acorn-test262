@@ -2,21 +2,17 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 56,
-  "end": 139,
   "body": [
     {
       "type": "FunctionDeclaration",
-      "start": 56,
-      "end": 139,
       "id": {
         "type": "Identifier",
-        "start": 67,
-        "end": 83,
         "decorators": [],
         "name": "mergeStringLists",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 67,
+        "end": 83
       },
       "generator": true,
       "async": false,
@@ -25,94 +21,98 @@ __ESTREE_TEST__:PASS:
       "params": [
         {
           "type": "RestElement",
-          "start": 84,
-          "end": 104,
           "decorators": [],
           "argument": {
             "type": "Identifier",
-            "start": 87,
-            "end": 94,
             "decorators": [],
             "name": "strings",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 87,
+            "end": 94
           },
           "optional": false,
           "typeAnnotation": {
             "type": "TSTypeAnnotation",
-            "start": 94,
-            "end": 104,
             "typeAnnotation": {
               "type": "TSArrayType",
-              "start": 96,
-              "end": 104,
               "elementType": {
                 "type": "TSStringKeyword",
                 "start": 96,
                 "end": 102
-              }
-            }
+              },
+              "start": 96,
+              "end": 104
+            },
+            "start": 94,
+            "end": 104
           },
-          "value": null
+          "value": null,
+          "start": 84,
+          "end": 104
         }
       ],
       "returnType": null,
       "body": {
         "type": "BlockStatement",
-        "start": 106,
-        "end": 139,
         "body": [
           {
             "type": "ForOfStatement",
-            "start": 112,
-            "end": 137,
             "await": false,
             "left": {
               "type": "VariableDeclaration",
-              "start": 117,
-              "end": 124,
               "kind": "var",
               "declarations": [
                 {
                   "type": "VariableDeclarator",
-                  "start": 121,
-                  "end": 124,
                   "id": {
                     "type": "Identifier",
-                    "start": 121,
-                    "end": 124,
                     "decorators": [],
                     "name": "str",
                     "optional": false,
-                    "typeAnnotation": null
+                    "typeAnnotation": null,
+                    "start": 121,
+                    "end": 124
                   },
                   "init": null,
-                  "definite": false
+                  "definite": false,
+                  "start": 121,
+                  "end": 124
                 }
               ],
-              "declare": false
+              "declare": false,
+              "start": 117,
+              "end": 124
             },
             "right": {
               "type": "Identifier",
-              "start": 128,
-              "end": 135,
               "decorators": [],
               "name": "strings",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 128,
+              "end": 135
             },
             "body": {
               "type": "EmptyStatement",
               "start": 136,
               "end": 137
-            }
+            },
+            "start": 112,
+            "end": 137
           }
-        ]
+        ],
+        "start": 106,
+        "end": 139
       },
-      "expression": false
+      "expression": false,
+      "start": 56,
+      "end": 139
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 56,
+  "end": 139
 }
 ```

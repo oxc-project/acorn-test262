@@ -1,204 +1,204 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 935,
   "body": [
     {
       "type": "ClassDeclaration",
-      "start": 343,
-      "end": 378,
       "decorators": [],
       "id": {
         "type": "Identifier",
+        "name": "A",
         "start": 357,
-        "end": 358,
-        "name": "A"
+        "end": 358
       },
       "superClass": null,
       "body": {
         "type": "ClassBody",
+        "body": [],
         "start": 367,
-        "end": 378,
-        "body": []
-      }
+        "end": 378
+      },
+      "start": 343,
+      "end": 378
     },
     {
       "type": "ClassDeclaration",
-      "start": 402,
-      "end": 463,
       "decorators": [],
       "id": {
         "type": "Identifier",
+        "name": "B",
         "start": 416,
-        "end": 417,
-        "name": "B"
+        "end": 417
       },
       "superClass": {
         "type": "Identifier",
+        "name": "A",
         "start": 442,
-        "end": 443,
-        "name": "A"
+        "end": 443
       },
       "body": {
         "type": "ClassBody",
+        "body": [],
         "start": 452,
-        "end": 463,
-        "body": []
-      }
+        "end": 463
+      },
+      "start": 402,
+      "end": 463
     },
     {
       "type": "ClassDeclaration",
-      "start": 487,
-      "end": 598,
       "decorators": [],
       "id": {
         "type": "Identifier",
+        "name": "C",
         "start": 501,
-        "end": 502,
-        "name": "C"
+        "end": 502
       },
       "superClass": {
         "type": "Identifier",
+        "name": "B",
         "start": 527,
-        "end": 528,
-        "name": "B"
+        "end": 528
       },
       "body": {
         "type": "ClassBody",
-        "start": 537,
-        "end": 598,
         "body": [
           {
             "type": "MethodDefinition",
-            "start": 547,
-            "end": 588,
             "decorators": [],
             "key": {
               "type": "Identifier",
+              "name": "m",
               "start": 547,
-              "end": 548,
-              "name": "m"
+              "end": 548
             },
             "value": {
               "type": "FunctionExpression",
-              "start": 557,
-              "end": 588,
               "id": null,
               "generator": false,
               "async": false,
               "params": [],
               "body": {
                 "type": "BlockStatement",
+                "body": [],
                 "start": 577,
-                "end": 588,
-                "body": []
+                "end": 588
               },
-              "expression": false
+              "expression": false,
+              "start": 557,
+              "end": 588
             },
             "kind": "method",
             "computed": false,
-            "static": false
+            "static": false,
+            "start": 547,
+            "end": 588
           }
-        ]
-      }
+        ],
+        "start": 537,
+        "end": 598
+      },
+      "start": 487,
+      "end": 598
     },
     {
       "type": "ExpressionStatement",
-      "start": 611,
-      "end": 684,
       "expression": {
         "type": "CallExpression",
-        "start": 611,
-        "end": 683,
         "callee": {
           "type": "Identifier",
+          "name": "assertToStringOrNativeFunction",
           "start": 611,
-          "end": 641,
-          "name": "assertToStringOrNativeFunction"
+          "end": 641
         },
         "arguments": [
           {
             "type": "Identifier",
+            "name": "A",
             "start": 642,
-            "end": 643,
-            "name": "A"
+            "end": 643
           },
           {
             "type": "Literal",
-            "start": 645,
-            "end": 682,
             "value": "class /* a */ A /* b */ { /* c */ }",
-            "raw": "\"class /* a */ A /* b */ { /* c */ }\""
+            "raw": "\"class /* a */ A /* b */ { /* c */ }\"",
+            "start": 645,
+            "end": 682
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 611,
+        "end": 683
+      },
+      "start": 611,
+      "end": 684
     },
     {
       "type": "ExpressionStatement",
-      "start": 685,
-      "end": 784,
       "expression": {
         "type": "CallExpression",
-        "start": 685,
-        "end": 783,
         "callee": {
           "type": "Identifier",
+          "name": "assertToStringOrNativeFunction",
           "start": 685,
-          "end": 715,
-          "name": "assertToStringOrNativeFunction"
+          "end": 715
         },
         "arguments": [
           {
             "type": "Identifier",
+            "name": "B",
             "start": 716,
-            "end": 717,
-            "name": "B"
+            "end": 717
           },
           {
             "type": "Literal",
-            "start": 719,
-            "end": 782,
             "value": "class /* a */ B /* b */ extends /* c */ A /* d */ { /* e */ }",
-            "raw": "\"class /* a */ B /* b */ extends /* c */ A /* d */ { /* e */ }\""
+            "raw": "\"class /* a */ B /* b */ extends /* c */ A /* d */ { /* e */ }\"",
+            "start": 719,
+            "end": 782
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 685,
+        "end": 783
+      },
+      "start": 685,
+      "end": 784
     },
     {
       "type": "ExpressionStatement",
-      "start": 785,
-      "end": 934,
       "expression": {
         "type": "CallExpression",
-        "start": 785,
-        "end": 933,
         "callee": {
           "type": "Identifier",
+          "name": "assertToStringOrNativeFunction",
           "start": 785,
-          "end": 815,
-          "name": "assertToStringOrNativeFunction"
+          "end": 815
         },
         "arguments": [
           {
             "type": "Identifier",
+            "name": "C",
             "start": 816,
-            "end": 817,
-            "name": "C"
+            "end": 817
           },
           {
             "type": "Literal",
-            "start": 819,
-            "end": 932,
             "value": "class /* a */ C /* b */ extends /* c */ B /* d */ { /* e */ m /* f */ ( /* g */ ) /* h */ { /* i */ } /* j */ }",
-            "raw": "\"class /* a */ C /* b */ extends /* c */ B /* d */ { /* e */ m /* f */ ( /* g */ ) /* h */ { /* i */ } /* j */ }\""
+            "raw": "\"class /* a */ C /* b */ extends /* c */ B /* d */ { /* e */ m /* f */ ( /* g */ ) /* h */ { /* i */ } /* j */ }\"",
+            "start": 819,
+            "end": 932
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 785,
+        "end": 933
+      },
+      "start": 785,
+      "end": 934
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 935
 }

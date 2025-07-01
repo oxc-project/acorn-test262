@@ -2,65 +2,61 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 23,
   "body": [
     {
       "type": "ExportNamedDeclaration",
-      "start": 0,
-      "end": 22,
       "declaration": {
         "type": "TSInterfaceDeclaration",
-        "start": 7,
-        "end": 22,
         "id": {
           "type": "Identifier",
-          "start": 17,
-          "end": 18,
           "decorators": [],
           "name": "I",
           "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "start": 17,
+          "end": 18
         },
         "typeParameters": null,
         "extends": [],
         "body": {
           "type": "TSInterfaceBody",
+          "body": [],
           "start": 19,
-          "end": 22,
-          "body": []
+          "end": 22
         },
-        "declare": false
+        "declare": false,
+        "start": 7,
+        "end": 22
       },
       "specifiers": [],
       "source": null,
       "exportKind": "type",
-      "attributes": []
+      "attributes": [],
+      "start": 0,
+      "end": 22
     }
   ],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 23
 }
 ```
 __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 132,
-  "end": 148,
   "body": [
     {
       "type": "FunctionDeclaration",
-      "start": 132,
-      "end": 148,
       "id": {
         "type": "Identifier",
-        "start": 141,
-        "end": 142,
         "decorators": [],
         "name": "f",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 141,
+        "end": 142
       },
       "generator": false,
       "async": false,
@@ -69,25 +65,29 @@ __ESTREE_TEST__:PASS:
       "params": [
         {
           "type": "Identifier",
-          "start": 143,
-          "end": 144,
           "decorators": [],
           "name": "a",
           "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "start": 143,
+          "end": 144
         }
       ],
       "returnType": null,
       "body": {
         "type": "BlockStatement",
+        "body": [],
         "start": 146,
-        "end": 148,
-        "body": []
+        "end": 148
       },
-      "expression": false
+      "expression": false,
+      "start": 132,
+      "end": 148
     }
   ],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 132,
+  "end": 148
 }
 ```

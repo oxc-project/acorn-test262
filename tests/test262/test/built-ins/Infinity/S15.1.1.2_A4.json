@@ -1,31 +1,27 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 394,
   "body": [
     {
       "type": "ForInStatement",
-      "start": 241,
-      "end": 347,
       "left": {
         "type": "VariableDeclaration",
-        "start": 246,
-        "end": 254,
         "kind": "var",
         "declarations": [
           {
             "type": "VariableDeclarator",
-            "start": 250,
-            "end": 254,
             "id": {
               "type": "Identifier",
+              "name": "prop",
               "start": 250,
-              "end": 254,
-              "name": "prop"
+              "end": 254
             },
-            "init": null
+            "init": null,
+            "start": 250,
+            "end": 254
           }
-        ]
+        ],
+        "start": 246,
+        "end": 254
       },
       "right": {
         "type": "ThisExpression",
@@ -34,65 +30,69 @@
       },
       "body": {
         "type": "BlockStatement",
-        "start": 264,
-        "end": 347,
         "body": [
           {
             "type": "ExpressionStatement",
-            "start": 268,
-            "end": 345,
             "expression": {
               "type": "CallExpression",
-              "start": 268,
-              "end": 344,
               "callee": {
                 "type": "MemberExpression",
-                "start": 268,
-                "end": 287,
                 "object": {
                   "type": "Identifier",
+                  "name": "assert",
                   "start": 268,
-                  "end": 274,
-                  "name": "assert"
+                  "end": 274
                 },
                 "property": {
                   "type": "Identifier",
+                  "name": "notSameValue",
                   "start": 275,
-                  "end": 287,
-                  "name": "notSameValue"
+                  "end": 287
                 },
                 "optional": false,
-                "computed": false
+                "computed": false,
+                "start": 268,
+                "end": 287
               },
               "arguments": [
                 {
                   "type": "Identifier",
+                  "name": "prop",
                   "start": 288,
-                  "end": 292,
-                  "name": "prop"
+                  "end": 292
                 },
                 {
                   "type": "Literal",
-                  "start": 294,
-                  "end": 304,
                   "value": "Infinity",
-                  "raw": "\"Infinity\""
+                  "raw": "\"Infinity\"",
+                  "start": 294,
+                  "end": 304
                 },
                 {
                   "type": "Literal",
-                  "start": 306,
-                  "end": 343,
                   "value": "The value of prop is not \"Infinity\"",
-                  "raw": "'The value of prop is not \"Infinity\"'"
+                  "raw": "'The value of prop is not \"Infinity\"'",
+                  "start": 306,
+                  "end": 343
                 }
               ],
-              "optional": false
-            }
+              "optional": false,
+              "start": 268,
+              "end": 344
+            },
+            "start": 268,
+            "end": 345
           }
-        ]
-      }
+        ],
+        "start": 264,
+        "end": 347
+      },
+      "start": 241,
+      "end": 347
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 394
 }

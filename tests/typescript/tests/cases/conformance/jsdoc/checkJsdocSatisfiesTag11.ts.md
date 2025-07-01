@@ -2,99 +2,99 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 160,
-  "end": 255,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 160,
-      "end": 180,
       "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 166,
-          "end": 179,
           "id": {
             "type": "Identifier",
-            "start": 166,
-            "end": 168,
             "decorators": [],
             "name": "t1",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 166,
+            "end": 168
           },
           "init": {
             "type": "ObjectExpression",
-            "start": 171,
-            "end": 179,
             "properties": [
               {
                 "type": "Property",
-                "start": 173,
-                "end": 177,
                 "kind": "init",
                 "key": {
                   "type": "Identifier",
-                  "start": 173,
-                  "end": 174,
                   "decorators": [],
                   "name": "a",
                   "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "start": 173,
+                  "end": 174
                 },
                 "value": {
                   "type": "Literal",
-                  "start": 176,
-                  "end": 177,
                   "value": 1,
-                  "raw": "1"
+                  "raw": "1",
+                  "start": 176,
+                  "end": 177
                 },
                 "method": false,
                 "shorthand": false,
                 "computed": false,
-                "optional": false
+                "optional": false,
+                "start": 173,
+                "end": 177
               }
-            ]
+            ],
+            "start": 171,
+            "end": 179
           },
-          "definite": false
+          "definite": false,
+          "start": 166,
+          "end": 179
         }
       ],
-      "declare": false
+      "declare": false,
+      "start": 160,
+      "end": 180
     },
     {
       "type": "VariableDeclaration",
-      "start": 213,
-      "end": 255,
       "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 219,
-          "end": 254,
           "id": {
             "type": "Identifier",
-            "start": 219,
-            "end": 221,
             "decorators": [],
             "name": "t2",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 219,
+            "end": 221
           },
           "init": {
             "type": "Literal",
-            "start": 252,
-            "end": 253,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "start": 252,
+            "end": 253
           },
-          "definite": false
+          "definite": false,
+          "start": 219,
+          "end": 254
         }
       ],
-      "declare": false
+      "declare": false,
+      "start": 213,
+      "end": 255
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 160,
+  "end": 255
 }
 ```

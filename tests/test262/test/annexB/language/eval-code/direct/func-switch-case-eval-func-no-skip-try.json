@@ -1,108 +1,108 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 1565,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 1125,
-      "end": 1564,
       "expression": {
         "type": "ParenthesizedExpression",
-        "start": 1125,
-        "end": 1563,
         "expression": {
           "type": "CallExpression",
-          "start": 1126,
-          "end": 1562,
           "callee": {
             "type": "FunctionExpression",
-            "start": 1126,
-            "end": 1560,
             "id": null,
             "generator": false,
             "async": false,
             "params": [],
             "body": {
               "type": "BlockStatement",
-              "start": 1137,
-              "end": 1560,
               "body": [
                 {
                   "type": "ExpressionStatement",
-                  "start": 1141,
-                  "end": 1558,
                   "expression": {
                     "type": "CallExpression",
-                    "start": 1141,
-                    "end": 1557,
                     "callee": {
                       "type": "Identifier",
+                      "name": "eval",
                       "start": 1141,
-                      "end": 1145,
-                      "name": "eval"
+                      "end": 1145
                     },
                     "arguments": [
                       {
                         "type": "BinaryExpression",
-                        "start": 1151,
-                        "end": 1553,
                         "left": {
                           "type": "BinaryExpression",
-                          "start": 1151,
-                          "end": 1375,
                           "left": {
                             "type": "BinaryExpression",
-                            "start": 1151,
-                            "end": 1334,
                             "left": {
                               "type": "Literal",
-                              "start": 1151,
-                              "end": 1316,
                               "value": "assert.sameValue(      f, undefined, \"Initialized binding created prior to evaluation\"    );        try {      throw null;    } catch (f) {switch (1) {",
-                              "raw": "'assert.sameValue(\\\n      f, undefined, \"Initialized binding created prior to evaluation\"\\\n    );\\\n    \\\n    try {\\\n      throw null;\\\n    } catch (f) {switch (1) {'"
+                              "raw": "'assert.sameValue(\\\n      f, undefined, \"Initialized binding created prior to evaluation\"\\\n    );\\\n    \\\n    try {\\\n      throw null;\\\n    } catch (f) {switch (1) {'",
+                              "start": 1151,
+                              "end": 1316
                             },
                             "operator": "+",
                             "right": {
                               "type": "Literal",
-                              "start": 1323,
-                              "end": 1334,
                               "value": "  case 1:",
-                              "raw": "'  case 1:'"
-                            }
+                              "raw": "'  case 1:'",
+                              "start": 1323,
+                              "end": 1334
+                            },
+                            "start": 1151,
+                            "end": 1334
                           },
                           "operator": "+",
                           "right": {
                             "type": "Literal",
-                            "start": 1341,
-                            "end": 1375,
                             "value": "    function f() { return 123; }",
-                            "raw": "'    function f() { return 123; }'"
-                          }
+                            "raw": "'    function f() { return 123; }'",
+                            "start": 1341,
+                            "end": 1375
+                          },
+                          "start": 1151,
+                          "end": 1375
                         },
                         "operator": "+",
                         "right": {
                           "type": "Literal",
-                          "start": 1382,
-                          "end": 1553,
                           "value": "}    }        assert.sameValue(      typeof f,      \"function\",      \"binding value is updated following evaluation\"    );    assert.sameValue(f(), 123);",
-                          "raw": "'}\\\n    }\\\n    \\\n    assert.sameValue(\\\n      typeof f,\\\n      \"function\",\\\n      \"binding value is updated following evaluation\"\\\n    );\\\n    assert.sameValue(f(), 123);'"
-                        }
+                          "raw": "'}\\\n    }\\\n    \\\n    assert.sameValue(\\\n      typeof f,\\\n      \"function\",\\\n      \"binding value is updated following evaluation\"\\\n    );\\\n    assert.sameValue(f(), 123);'",
+                          "start": 1382,
+                          "end": 1553
+                        },
+                        "start": 1151,
+                        "end": 1553
                       }
                     ],
-                    "optional": false
-                  }
+                    "optional": false,
+                    "start": 1141,
+                    "end": 1557
+                  },
+                  "start": 1141,
+                  "end": 1558
                 }
-              ]
+              ],
+              "start": 1137,
+              "end": 1560
             },
-            "expression": false
+            "expression": false,
+            "start": 1126,
+            "end": 1560
           },
           "arguments": [],
-          "optional": false
-        }
-      }
+          "optional": false,
+          "start": 1126,
+          "end": 1562
+        },
+        "start": 1125,
+        "end": 1563
+      },
+      "start": 1125,
+      "end": 1564
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 1565
 }

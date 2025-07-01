@@ -2,41 +2,41 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 603,
-  "end": 616,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 603,
-      "end": 616,
       "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 609,
-          "end": 615,
           "id": {
             "type": "Identifier",
-            "start": 609,
-            "end": 610,
             "decorators": [],
             "name": "p",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 609,
+            "end": 610
           },
           "init": {
             "type": "ObjectExpression",
+            "properties": [],
             "start": 613,
-            "end": 615,
-            "properties": []
+            "end": 615
           },
-          "definite": false
+          "definite": false,
+          "start": 609,
+          "end": 615
         }
       ],
-      "declare": false
+      "declare": false,
+      "start": 603,
+      "end": 616
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 603,
+  "end": 616
 }
 ```

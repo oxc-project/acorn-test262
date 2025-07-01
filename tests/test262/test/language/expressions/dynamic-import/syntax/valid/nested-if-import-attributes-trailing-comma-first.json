@@ -1,48 +1,48 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 1327,
   "body": [
     {
       "type": "IfStatement",
-      "start": 1280,
-      "end": 1326,
       "test": {
         "type": "Literal",
-        "start": 1284,
-        "end": 1288,
         "value": true,
-        "raw": "true"
+        "raw": "true",
+        "start": 1284,
+        "end": 1288
       },
       "consequent": {
         "type": "BlockStatement",
-        "start": 1290,
-        "end": 1326,
         "body": [
           {
             "type": "ExpressionStatement",
-            "start": 1294,
-            "end": 1324,
             "expression": {
               "type": "ImportExpression",
-              "start": 1294,
-              "end": 1323,
               "source": {
                 "type": "Literal",
-                "start": 1301,
-                "end": 1321,
                 "value": "./empty_FIXTURE.js",
-                "raw": "'./empty_FIXTURE.js'"
+                "raw": "'./empty_FIXTURE.js'",
+                "start": 1301,
+                "end": 1321
               },
               "options": null,
-              "phase": null
-            }
+              "phase": null,
+              "start": 1294,
+              "end": 1323
+            },
+            "start": 1294,
+            "end": 1324
           }
-        ]
+        ],
+        "start": 1290,
+        "end": 1326
       },
-      "alternate": null
+      "alternate": null,
+      "start": 1280,
+      "end": 1326
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 1327
 }

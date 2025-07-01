@@ -2,21 +2,17 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 99,
   "body": [
     {
       "type": "FunctionDeclaration",
-      "start": 0,
-      "end": 99,
       "id": {
         "type": "Identifier",
-        "start": 15,
-        "end": 19,
         "decorators": [],
         "name": "func",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 15,
+        "end": 19
       },
       "generator": false,
       "async": true,
@@ -26,65 +22,69 @@ __ESTREE_TEST__:PASS:
       "returnType": null,
       "body": {
         "type": "BlockStatement",
-        "start": 22,
-        "end": 99,
         "body": [
           {
             "type": "IfStatement",
-            "start": 28,
-            "end": 97,
             "test": {
               "type": "Literal",
-              "start": 32,
-              "end": 36,
               "value": true,
-              "raw": "true"
+              "raw": "true",
+              "start": 32,
+              "end": 36
             },
             "consequent": {
               "type": "BlockStatement",
-              "start": 38,
-              "end": 63,
               "body": [
                 {
                   "type": "ContinueStatement",
+                  "label": null,
                   "start": 48,
-                  "end": 57,
-                  "label": null
+                  "end": 57
                 }
-              ]
+              ],
+              "start": 38,
+              "end": 63
             },
             "alternate": {
               "type": "BlockStatement",
-              "start": 73,
-              "end": 97,
               "body": [
                 {
                   "type": "ExpressionStatement",
-                  "start": 83,
-                  "end": 91,
                   "expression": {
                     "type": "AwaitExpression",
-                    "start": 83,
-                    "end": 90,
                     "argument": {
                       "type": "Literal",
-                      "start": 89,
-                      "end": 90,
                       "value": 1,
-                      "raw": "1"
-                    }
+                      "raw": "1",
+                      "start": 89,
+                      "end": 90
+                    },
+                    "start": 83,
+                    "end": 90
                   },
-                  "directive": null
+                  "directive": null,
+                  "start": 83,
+                  "end": 91
                 }
-              ]
-            }
+              ],
+              "start": 73,
+              "end": 97
+            },
+            "start": 28,
+            "end": 97
           }
-        ]
+        ],
+        "start": 22,
+        "end": 99
       },
-      "expression": false
+      "expression": false,
+      "start": 0,
+      "end": 99
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 99
 }
 ```

@@ -2,44 +2,34 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 82,
   "body": [
     {
       "type": "TSModuleDeclaration",
-      "start": 0,
-      "end": 48,
       "id": {
         "type": "Identifier",
-        "start": 7,
-        "end": 12,
         "decorators": [],
         "name": "Tools",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 7,
+        "end": 12
       },
       "body": {
         "type": "TSModuleBlock",
-        "start": 13,
-        "end": 48,
         "body": [
           {
             "type": "ExportNamedDeclaration",
-            "start": 19,
-            "end": 46,
             "declaration": {
               "type": "ClassDeclaration",
-              "start": 26,
-              "end": 46,
               "decorators": [],
               "id": {
                 "type": "Identifier",
-                "start": 32,
-                "end": 42,
                 "decorators": [],
                 "name": "NullLogger",
                 "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "start": 32,
+                "end": 42
               },
               "typeParameters": null,
               "superClass": null,
@@ -47,83 +37,93 @@ __ESTREE_TEST__:PASS:
               "implements": [],
               "body": {
                 "type": "ClassBody",
+                "body": [],
                 "start": 43,
-                "end": 46,
-                "body": []
+                "end": 46
               },
               "abstract": false,
-              "declare": false
+              "declare": false,
+              "start": 26,
+              "end": 46
             },
             "specifiers": [],
             "source": null,
             "exportKind": "value",
-            "attributes": []
+            "attributes": [],
+            "start": 19,
+            "end": 46
           }
-        ]
+        ],
+        "start": 13,
+        "end": 48
       },
       "kind": "module",
       "declare": false,
-      "global": false
+      "global": false,
+      "start": 0,
+      "end": 48
     },
     {
       "type": "VariableDeclaration",
-      "start": 50,
-      "end": 82,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 54,
-          "end": 81,
           "id": {
             "type": "Identifier",
-            "start": 54,
-            "end": 60,
             "decorators": [],
             "name": "logger",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 54,
+            "end": 60
           },
           "init": {
             "type": "CallExpression",
-            "start": 63,
-            "end": 81,
             "callee": {
               "type": "MemberExpression",
-              "start": 63,
-              "end": 79,
               "object": {
                 "type": "Identifier",
-                "start": 63,
-                "end": 68,
                 "decorators": [],
                 "name": "Tools",
                 "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "start": 63,
+                "end": 68
               },
               "property": {
                 "type": "Identifier",
-                "start": 69,
-                "end": 79,
                 "decorators": [],
                 "name": "NullLogger",
                 "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "start": 69,
+                "end": 79
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 63,
+              "end": 79
             },
             "typeArguments": null,
             "arguments": [],
-            "optional": false
+            "optional": false,
+            "start": 63,
+            "end": 81
           },
-          "definite": false
+          "definite": false,
+          "start": 54,
+          "end": 81
         }
       ],
-      "declare": false
+      "declare": false,
+      "start": 50,
+      "end": 82
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 82
 }
 ```

@@ -2,69 +2,69 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 78,
   "body": [
     {
       "type": "ExportNamedDeclaration",
-      "start": 0,
-      "end": 10,
       "declaration": null,
       "specifiers": [],
       "source": null,
       "exportKind": "value",
-      "attributes": []
+      "attributes": [],
+      "start": 0,
+      "end": 10
     },
     {
       "type": "VariableDeclaration",
-      "start": 60,
-      "end": 78,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 64,
-          "end": 77,
           "id": {
             "type": "ArrayPattern",
-            "start": 64,
-            "end": 71,
             "decorators": [],
             "elements": [
               {
                 "type": "Identifier",
-                "start": 65,
-                "end": 70,
                 "decorators": [],
                 "name": "await",
                 "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "start": 65,
+                "end": 70
               }
             ],
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 64,
+            "end": 71
           },
           "init": {
             "type": "ArrayExpression",
-            "start": 74,
-            "end": 77,
             "elements": [
               {
                 "type": "Literal",
-                "start": 75,
-                "end": 76,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "start": 75,
+                "end": 76
               }
-            ]
+            ],
+            "start": 74,
+            "end": 77
           },
-          "definite": false
+          "definite": false,
+          "start": 64,
+          "end": 77
         }
       ],
-      "declare": false
+      "declare": false,
+      "start": 60,
+      "end": 78
     }
   ],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 78
 }
 ```

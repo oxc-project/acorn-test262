@@ -1,7 +1,5 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 324,
   "body": [
     {
       "type": "EmptyStatement",
@@ -25,5 +23,7 @@
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 324
 }

@@ -1,82 +1,82 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 329,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 267,
-      "end": 328,
       "expression": {
         "type": "CallExpression",
-        "start": 267,
-        "end": 327,
         "callee": {
           "type": "MemberExpression",
-          "start": 267,
-          "end": 280,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 267,
-            "end": 273,
-            "name": "assert"
+            "end": 273
           },
           "property": {
             "type": "Identifier",
+            "name": "throws",
             "start": 274,
-            "end": 280,
-            "name": "throws"
+            "end": 280
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 267,
+          "end": 280
         },
         "arguments": [
           {
             "type": "Identifier",
+            "name": "TypeError",
             "start": 281,
-            "end": 290,
-            "name": "TypeError"
+            "end": 290
           },
           {
             "type": "ArrowFunctionExpression",
-            "start": 292,
-            "end": 326,
             "expression": true,
             "async": false,
             "params": [],
             "body": {
               "type": "NewExpression",
-              "start": 298,
-              "end": 326,
               "callee": {
                 "type": "MemberExpression",
-                "start": 302,
-                "end": 324,
                 "object": {
                   "type": "Identifier",
+                  "name": "Temporal",
                   "start": 302,
-                  "end": 310,
-                  "name": "Temporal"
+                  "end": 310
                 },
                 "property": {
                   "type": "Identifier",
+                  "name": "ZonedDateTime",
                   "start": 311,
-                  "end": 324,
-                  "name": "ZonedDateTime"
+                  "end": 324
                 },
                 "optional": false,
-                "computed": false
+                "computed": false,
+                "start": 302,
+                "end": 324
               },
-              "arguments": []
+              "arguments": [],
+              "start": 298,
+              "end": 326
             },
             "id": null,
-            "generator": false
+            "generator": false,
+            "start": 292,
+            "end": 326
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 267,
+        "end": 327
+      },
+      "start": 267,
+      "end": 328
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 329
 }

@@ -1,471 +1,471 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 975,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 561,
-      "end": 604,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 565,
-          "end": 603,
           "id": {
             "type": "Identifier",
+            "name": "getMinutes",
             "start": 565,
-            "end": 575,
-            "name": "getMinutes"
+            "end": 575
           },
           "init": {
             "type": "MemberExpression",
-            "start": 578,
-            "end": 603,
             "object": {
               "type": "MemberExpression",
-              "start": 578,
-              "end": 592,
               "object": {
                 "type": "Identifier",
+                "name": "Date",
                 "start": 578,
-                "end": 582,
-                "name": "Date"
+                "end": 582
               },
               "property": {
                 "type": "Identifier",
+                "name": "prototype",
                 "start": 583,
-                "end": 592,
-                "name": "prototype"
+                "end": 592
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 578,
+              "end": 592
             },
             "property": {
               "type": "Identifier",
+              "name": "getMinutes",
               "start": 593,
-              "end": 603,
-              "name": "getMinutes"
+              "end": 603
             },
             "optional": false,
-            "computed": false
-          }
+            "computed": false,
+            "start": 578,
+            "end": 603
+          },
+          "start": 565,
+          "end": 603
         }
-      ]
+      ],
+      "start": 561,
+      "end": 604
     },
     {
       "type": "VariableDeclaration",
-      "start": 605,
-      "end": 655,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 609,
-          "end": 654,
           "id": {
             "type": "Identifier",
+            "name": "args",
             "start": 609,
-            "end": 613,
-            "name": "args"
+            "end": 613
           },
           "init": {
             "type": "ParenthesizedExpression",
-            "start": 616,
-            "end": 654,
             "expression": {
               "type": "CallExpression",
-              "start": 617,
-              "end": 653,
               "callee": {
                 "type": "FunctionExpression",
-                "start": 617,
-                "end": 651,
                 "id": null,
                 "generator": false,
                 "async": false,
                 "params": [],
                 "body": {
                   "type": "BlockStatement",
-                  "start": 628,
-                  "end": 651,
                   "body": [
                     {
                       "type": "ReturnStatement",
-                      "start": 632,
-                      "end": 649,
                       "argument": {
                         "type": "Identifier",
+                        "name": "arguments",
                         "start": 639,
-                        "end": 648,
-                        "name": "arguments"
-                      }
+                        "end": 648
+                      },
+                      "start": 632,
+                      "end": 649
                     }
-                  ]
+                  ],
+                  "start": 628,
+                  "end": 651
                 },
-                "expression": false
+                "expression": false,
+                "start": 617,
+                "end": 651
               },
               "arguments": [],
-              "optional": false
-            }
-          }
+              "optional": false,
+              "start": 617,
+              "end": 653
+            },
+            "start": 616,
+            "end": 654
+          },
+          "start": 609,
+          "end": 654
         }
-      ]
+      ],
+      "start": 605,
+      "end": 655
     },
     {
       "type": "ExpressionStatement",
-      "start": 657,
-      "end": 705,
       "expression": {
         "type": "CallExpression",
-        "start": 657,
-        "end": 704,
         "callee": {
           "type": "MemberExpression",
-          "start": 657,
-          "end": 673,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 657,
-            "end": 663,
-            "name": "assert"
+            "end": 663
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 664,
-            "end": 673,
-            "name": "sameValue"
+            "end": 673
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 657,
+          "end": 673
         },
         "arguments": [
           {
             "type": "UnaryExpression",
-            "start": 674,
-            "end": 691,
             "operator": "typeof",
             "argument": {
               "type": "Identifier",
+              "name": "getMinutes",
               "start": 681,
-              "end": 691,
-              "name": "getMinutes"
+              "end": 691
             },
-            "prefix": true
+            "prefix": true,
+            "start": 674,
+            "end": 691
           },
           {
             "type": "Literal",
-            "start": 693,
-            "end": 703,
             "value": "function",
-            "raw": "'function'"
+            "raw": "'function'",
+            "start": 693,
+            "end": 703
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 657,
+        "end": 704
+      },
+      "start": 657,
+      "end": 705
     },
     {
       "type": "ExpressionStatement",
-      "start": 707,
-      "end": 790,
       "expression": {
         "type": "CallExpression",
-        "start": 707,
-        "end": 789,
         "callee": {
           "type": "MemberExpression",
-          "start": 707,
-          "end": 720,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 707,
-            "end": 713,
-            "name": "assert"
+            "end": 713
           },
           "property": {
             "type": "Identifier",
+            "name": "throws",
             "start": 714,
-            "end": 720,
-            "name": "throws"
+            "end": 720
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 707,
+          "end": 720
         },
         "arguments": [
           {
             "type": "Identifier",
+            "name": "TypeError",
             "start": 721,
-            "end": 730,
-            "name": "TypeError"
+            "end": 730
           },
           {
             "type": "FunctionExpression",
-            "start": 732,
-            "end": 769,
             "id": null,
             "generator": false,
             "async": false,
             "params": [],
             "body": {
               "type": "BlockStatement",
-              "start": 743,
-              "end": 769,
               "body": [
                 {
                   "type": "ExpressionStatement",
-                  "start": 747,
-                  "end": 767,
                   "expression": {
                     "type": "CallExpression",
-                    "start": 747,
-                    "end": 766,
                     "callee": {
                       "type": "MemberExpression",
-                      "start": 747,
-                      "end": 762,
                       "object": {
                         "type": "Identifier",
+                        "name": "getMinutes",
                         "start": 747,
-                        "end": 757,
-                        "name": "getMinutes"
+                        "end": 757
                       },
                       "property": {
                         "type": "Identifier",
+                        "name": "call",
                         "start": 758,
-                        "end": 762,
-                        "name": "call"
+                        "end": 762
                       },
                       "optional": false,
-                      "computed": false
+                      "computed": false,
+                      "start": 747,
+                      "end": 762
                     },
                     "arguments": [
                       {
                         "type": "ObjectExpression",
+                        "properties": [],
                         "start": 763,
-                        "end": 765,
-                        "properties": []
+                        "end": 765
                       }
                     ],
-                    "optional": false
-                  }
+                    "optional": false,
+                    "start": 747,
+                    "end": 766
+                  },
+                  "start": 747,
+                  "end": 767
                 }
-              ]
+              ],
+              "start": 743,
+              "end": 769
             },
-            "expression": false
+            "expression": false,
+            "start": 732,
+            "end": 769
           },
           {
             "type": "Literal",
-            "start": 771,
-            "end": 788,
             "value": "ordinary object",
-            "raw": "'ordinary object'"
+            "raw": "'ordinary object'",
+            "start": 771,
+            "end": 788
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 707,
+        "end": 789
+      },
+      "start": 707,
+      "end": 790
     },
     {
       "type": "ExpressionStatement",
-      "start": 792,
-      "end": 879,
       "expression": {
         "type": "CallExpression",
-        "start": 792,
-        "end": 878,
         "callee": {
           "type": "MemberExpression",
-          "start": 792,
-          "end": 805,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 792,
-            "end": 798,
-            "name": "assert"
+            "end": 798
           },
           "property": {
             "type": "Identifier",
+            "name": "throws",
             "start": 799,
-            "end": 805,
-            "name": "throws"
+            "end": 805
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 792,
+          "end": 805
         },
         "arguments": [
           {
             "type": "Identifier",
+            "name": "TypeError",
             "start": 806,
-            "end": 815,
-            "name": "TypeError"
+            "end": 815
           },
           {
             "type": "FunctionExpression",
-            "start": 817,
-            "end": 854,
             "id": null,
             "generator": false,
             "async": false,
             "params": [],
             "body": {
               "type": "BlockStatement",
-              "start": 828,
-              "end": 854,
               "body": [
                 {
                   "type": "ExpressionStatement",
-                  "start": 832,
-                  "end": 852,
                   "expression": {
                     "type": "CallExpression",
-                    "start": 832,
-                    "end": 851,
                     "callee": {
                       "type": "MemberExpression",
-                      "start": 832,
-                      "end": 847,
                       "object": {
                         "type": "Identifier",
+                        "name": "getMinutes",
                         "start": 832,
-                        "end": 842,
-                        "name": "getMinutes"
+                        "end": 842
                       },
                       "property": {
                         "type": "Identifier",
+                        "name": "call",
                         "start": 843,
-                        "end": 847,
-                        "name": "call"
+                        "end": 847
                       },
                       "optional": false,
-                      "computed": false
+                      "computed": false,
+                      "start": 832,
+                      "end": 847
                     },
                     "arguments": [
                       {
                         "type": "ArrayExpression",
+                        "elements": [],
                         "start": 848,
-                        "end": 850,
-                        "elements": []
+                        "end": 850
                       }
                     ],
-                    "optional": false
-                  }
+                    "optional": false,
+                    "start": 832,
+                    "end": 851
+                  },
+                  "start": 832,
+                  "end": 852
                 }
-              ]
+              ],
+              "start": 828,
+              "end": 854
             },
-            "expression": false
+            "expression": false,
+            "start": 817,
+            "end": 854
           },
           {
             "type": "Literal",
-            "start": 856,
-            "end": 877,
             "value": "array exotic object",
-            "raw": "'array exotic object'"
+            "raw": "'array exotic object'",
+            "start": 856,
+            "end": 877
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 792,
+        "end": 878
+      },
+      "start": 792,
+      "end": 879
     },
     {
       "type": "ExpressionStatement",
-      "start": 881,
-      "end": 974,
       "expression": {
         "type": "CallExpression",
-        "start": 881,
-        "end": 973,
         "callee": {
           "type": "MemberExpression",
-          "start": 881,
-          "end": 894,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 881,
-            "end": 887,
-            "name": "assert"
+            "end": 887
           },
           "property": {
             "type": "Identifier",
+            "name": "throws",
             "start": 888,
-            "end": 894,
-            "name": "throws"
+            "end": 894
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 881,
+          "end": 894
         },
         "arguments": [
           {
             "type": "Identifier",
+            "name": "TypeError",
             "start": 895,
-            "end": 904,
-            "name": "TypeError"
+            "end": 904
           },
           {
             "type": "FunctionExpression",
-            "start": 906,
-            "end": 945,
             "id": null,
             "generator": false,
             "async": false,
             "params": [],
             "body": {
               "type": "BlockStatement",
-              "start": 917,
-              "end": 945,
               "body": [
                 {
                   "type": "ExpressionStatement",
-                  "start": 921,
-                  "end": 943,
                   "expression": {
                     "type": "CallExpression",
-                    "start": 921,
-                    "end": 942,
                     "callee": {
                       "type": "MemberExpression",
-                      "start": 921,
-                      "end": 936,
                       "object": {
                         "type": "Identifier",
+                        "name": "getMinutes",
                         "start": 921,
-                        "end": 931,
-                        "name": "getMinutes"
+                        "end": 931
                       },
                       "property": {
                         "type": "Identifier",
+                        "name": "call",
                         "start": 932,
-                        "end": 936,
-                        "name": "call"
+                        "end": 936
                       },
                       "optional": false,
-                      "computed": false
+                      "computed": false,
+                      "start": 921,
+                      "end": 936
                     },
                     "arguments": [
                       {
                         "type": "Identifier",
+                        "name": "args",
                         "start": 937,
-                        "end": 941,
-                        "name": "args"
+                        "end": 941
                       }
                     ],
-                    "optional": false
-                  }
+                    "optional": false,
+                    "start": 921,
+                    "end": 942
+                  },
+                  "start": 921,
+                  "end": 943
                 }
-              ]
+              ],
+              "start": 917,
+              "end": 945
             },
-            "expression": false
+            "expression": false,
+            "start": 906,
+            "end": 945
           },
           {
             "type": "Literal",
-            "start": 947,
-            "end": 972,
             "value": "arguments exotic object",
-            "raw": "'arguments exotic object'"
+            "raw": "'arguments exotic object'",
+            "start": 947,
+            "end": 972
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 881,
+        "end": 973
+      },
+      "start": 881,
+      "end": 974
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 975
 }

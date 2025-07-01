@@ -1,92 +1,92 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 836,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 715,
-      "end": 813,
       "expression": {
         "type": "CallExpression",
-        "start": 715,
-        "end": 812,
         "callee": {
           "type": "MemberExpression",
-          "start": 715,
-          "end": 731,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 715,
-            "end": 721,
-            "name": "assert"
+            "end": 721
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 722,
-            "end": 731,
-            "name": "sameValue"
+            "end": 731
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 715,
+          "end": 731
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 732,
-            "end": 758,
             "callee": {
               "type": "Identifier",
+              "name": "isConstructor",
               "start": 732,
-              "end": 745,
-              "name": "isConstructor"
+              "end": 745
             },
             "arguments": [
               {
                 "type": "Identifier",
+                "name": "SyntaxError",
                 "start": 746,
-                "end": 757,
-                "name": "SyntaxError"
+                "end": 757
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 732,
+            "end": 758
           },
           {
             "type": "Literal",
-            "start": 760,
-            "end": 764,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "start": 760,
+            "end": 764
           },
           {
             "type": "Literal",
-            "start": 766,
-            "end": 811,
             "value": "isConstructor(SyntaxError) must return true",
-            "raw": "'isConstructor(SyntaxError) must return true'"
+            "raw": "'isConstructor(SyntaxError) must return true'",
+            "start": 766,
+            "end": 811
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 715,
+        "end": 812
+      },
+      "start": 715,
+      "end": 813
     },
     {
       "type": "ExpressionStatement",
-      "start": 814,
-      "end": 832,
       "expression": {
         "type": "NewExpression",
-        "start": 814,
-        "end": 831,
         "callee": {
           "type": "Identifier",
+          "name": "SyntaxError",
           "start": 818,
-          "end": 829,
-          "name": "SyntaxError"
+          "end": 829
         },
-        "arguments": []
-      }
+        "arguments": [],
+        "start": 814,
+        "end": 831
+      },
+      "start": 814,
+      "end": 832
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 836
 }

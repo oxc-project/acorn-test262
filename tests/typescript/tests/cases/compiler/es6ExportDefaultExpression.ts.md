@@ -2,37 +2,37 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 23,
   "body": [
     {
       "type": "ExportDefaultDeclaration",
-      "start": 0,
-      "end": 23,
       "declaration": {
         "type": "BinaryExpression",
-        "start": 16,
-        "end": 21,
         "left": {
           "type": "Literal",
-          "start": 16,
-          "end": 17,
           "value": 1,
-          "raw": "1"
+          "raw": "1",
+          "start": 16,
+          "end": 17
         },
         "operator": "+",
         "right": {
           "type": "Literal",
-          "start": 20,
-          "end": 21,
           "value": 2,
-          "raw": "2"
-        }
+          "raw": "2",
+          "start": 20,
+          "end": 21
+        },
+        "start": 16,
+        "end": 21
       },
-      "exportKind": "value"
+      "exportKind": "value",
+      "start": 0,
+      "end": 23
     }
   ],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 23
 }
 ```

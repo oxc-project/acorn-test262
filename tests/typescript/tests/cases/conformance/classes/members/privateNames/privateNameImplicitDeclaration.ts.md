@@ -2,22 +2,18 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 85,
   "body": [
     {
       "type": "ClassDeclaration",
-      "start": 0,
-      "end": 84,
       "decorators": [],
       "id": {
         "type": "Identifier",
-        "start": 6,
-        "end": 7,
         "decorators": [],
         "name": "C",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 6,
+        "end": 7
       },
       "typeParameters": null,
       "superClass": null,
@@ -25,27 +21,21 @@ __ESTREE_TEST__:PASS:
       "implements": [],
       "body": {
         "type": "ClassBody",
-        "start": 8,
-        "end": 84,
         "body": [
           {
             "type": "MethodDefinition",
-            "start": 14,
-            "end": 82,
             "decorators": [],
             "key": {
               "type": "Identifier",
-              "start": 14,
-              "end": 25,
               "decorators": [],
               "name": "constructor",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 14,
+              "end": 25
             },
             "value": {
               "type": "FunctionExpression",
-              "start": 25,
-              "end": 82,
               "id": null,
               "generator": false,
               "async": false,
@@ -55,17 +45,11 @@ __ESTREE_TEST__:PASS:
               "returnType": null,
               "body": {
                 "type": "BlockStatement",
-                "start": 28,
-                "end": 82,
                 "body": [
                   {
                     "type": "ExpressionStatement",
-                    "start": 68,
-                    "end": 76,
                     "expression": {
                       "type": "MemberExpression",
-                      "start": 68,
-                      "end": 75,
                       "object": {
                         "type": "ThisExpression",
                         "start": 68,
@@ -73,33 +57,49 @@ __ESTREE_TEST__:PASS:
                       },
                       "property": {
                         "type": "PrivateIdentifier",
+                        "name": "x",
                         "start": 73,
-                        "end": 75,
-                        "name": "x"
+                        "end": 75
                       },
                       "optional": false,
-                      "computed": false
+                      "computed": false,
+                      "start": 68,
+                      "end": 75
                     },
-                    "directive": null
+                    "directive": null,
+                    "start": 68,
+                    "end": 76
                   }
-                ]
+                ],
+                "start": 28,
+                "end": 82
               },
-              "expression": false
+              "expression": false,
+              "start": 25,
+              "end": 82
             },
             "kind": "constructor",
             "computed": false,
             "static": false,
             "override": false,
             "optional": false,
-            "accessibility": null
+            "accessibility": null,
+            "start": 14,
+            "end": 82
           }
-        ]
+        ],
+        "start": 8,
+        "end": 84
       },
       "abstract": false,
-      "declare": false
+      "declare": false,
+      "start": 0,
+      "end": 84
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 85
 }
 ```

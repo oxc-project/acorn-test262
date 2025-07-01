@@ -2,31 +2,23 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 114,
   "body": [
     {
       "type": "ExportNamedDeclaration",
-      "start": 0,
-      "end": 37,
       "declaration": {
         "type": "TSTypeAliasDeclaration",
-        "start": 7,
-        "end": 37,
         "id": {
           "type": "Identifier",
-          "start": 12,
-          "end": 17,
           "decorators": [],
           "name": "Point",
           "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "start": 12,
+          "end": 17
         },
         "typeParameters": null,
         "typeAnnotation": {
           "type": "TSTupleType",
-          "start": 20,
-          "end": 36,
           "elementTypes": [
             {
               "type": "TSNumberKeyword",
@@ -38,31 +30,33 @@ __ESTREE_TEST__:PASS:
               "start": 29,
               "end": 35
             }
-          ]
+          ],
+          "start": 20,
+          "end": 36
         },
-        "declare": false
+        "declare": false,
+        "start": 7,
+        "end": 37
       },
       "specifiers": [],
       "source": null,
       "exportKind": "type",
-      "attributes": []
+      "attributes": [],
+      "start": 0,
+      "end": 37
     },
     {
       "type": "ExportNamedDeclaration",
-      "start": 39,
-      "end": 114,
       "declaration": {
         "type": "FunctionDeclaration",
-        "start": 46,
-        "end": 114,
         "id": {
           "type": "Identifier",
-          "start": 55,
-          "end": 64,
           "decorators": [],
           "name": "increment",
           "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "start": 55,
+          "end": 64
         },
         "generator": false,
         "async": false,
@@ -71,133 +65,139 @@ __ESTREE_TEST__:PASS:
         "params": [
           {
             "type": "Identifier",
-            "start": 65,
-            "end": 77,
             "decorators": [],
             "name": "point",
             "optional": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
-              "start": 70,
-              "end": 77,
               "typeAnnotation": {
                 "type": "TSTypeReference",
-                "start": 72,
-                "end": 77,
                 "typeName": {
                   "type": "Identifier",
-                  "start": 72,
-                  "end": 77,
                   "decorators": [],
                   "name": "Point",
                   "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "start": 72,
+                  "end": 77
                 },
-                "typeArguments": null
-              }
-            }
+                "typeArguments": null,
+                "start": 72,
+                "end": 77
+              },
+              "start": 70,
+              "end": 77
+            },
+            "start": 65,
+            "end": 77
           }
         ],
         "returnType": null,
         "body": {
           "type": "BlockStatement",
-          "start": 79,
-          "end": 114,
           "body": [
             {
               "type": "ReturnStatement",
-              "start": 83,
-              "end": 112,
               "argument": {
                 "type": "CallExpression",
-                "start": 90,
-                "end": 111,
                 "callee": {
                   "type": "MemberExpression",
-                  "start": 90,
-                  "end": 99,
                   "object": {
                     "type": "Identifier",
-                    "start": 90,
-                    "end": 95,
                     "decorators": [],
                     "name": "point",
                     "optional": false,
-                    "typeAnnotation": null
+                    "typeAnnotation": null,
+                    "start": 90,
+                    "end": 95
                   },
                   "property": {
                     "type": "Identifier",
-                    "start": 96,
-                    "end": 99,
                     "decorators": [],
                     "name": "map",
                     "optional": false,
-                    "typeAnnotation": null
+                    "typeAnnotation": null,
+                    "start": 96,
+                    "end": 99
                   },
                   "optional": false,
-                  "computed": false
+                  "computed": false,
+                  "start": 90,
+                  "end": 99
                 },
                 "typeArguments": null,
                 "arguments": [
                   {
                     "type": "ArrowFunctionExpression",
-                    "start": 100,
-                    "end": 110,
                     "expression": true,
                     "async": false,
                     "typeParameters": null,
                     "params": [
                       {
                         "type": "Identifier",
-                        "start": 100,
-                        "end": 101,
                         "decorators": [],
                         "name": "d",
                         "optional": false,
-                        "typeAnnotation": null
+                        "typeAnnotation": null,
+                        "start": 100,
+                        "end": 101
                       }
                     ],
                     "returnType": null,
                     "body": {
                       "type": "BinaryExpression",
-                      "start": 105,
-                      "end": 110,
                       "left": {
                         "type": "Identifier",
-                        "start": 105,
-                        "end": 106,
                         "decorators": [],
                         "name": "d",
                         "optional": false,
-                        "typeAnnotation": null
+                        "typeAnnotation": null,
+                        "start": 105,
+                        "end": 106
                       },
                       "operator": "+",
                       "right": {
                         "type": "Literal",
-                        "start": 109,
-                        "end": 110,
                         "value": 1,
-                        "raw": "1"
-                      }
+                        "raw": "1",
+                        "start": 109,
+                        "end": 110
+                      },
+                      "start": 105,
+                      "end": 110
                     },
                     "id": null,
-                    "generator": false
+                    "generator": false,
+                    "start": 100,
+                    "end": 110
                   }
                 ],
-                "optional": false
-              }
+                "optional": false,
+                "start": 90,
+                "end": 111
+              },
+              "start": 83,
+              "end": 112
             }
-          ]
+          ],
+          "start": 79,
+          "end": 114
         },
-        "expression": false
+        "expression": false,
+        "start": 46,
+        "end": 114
       },
       "specifiers": [],
       "source": null,
       "exportKind": "value",
-      "attributes": []
+      "attributes": [],
+      "start": 39,
+      "end": 114
     }
   ],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 114
 }
 ```

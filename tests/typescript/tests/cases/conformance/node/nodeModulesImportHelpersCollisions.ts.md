@@ -2,350 +2,350 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 19,
-  "end": 106,
   "body": [
     {
       "type": "ImportDeclaration",
-      "start": 19,
-      "end": 53,
       "specifiers": [
         {
           "type": "ImportSpecifier",
-          "start": 27,
-          "end": 41,
           "imported": {
             "type": "Identifier",
-            "start": 27,
-            "end": 34,
             "decorators": [],
             "name": "default",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 27,
+            "end": 34
           },
           "local": {
             "type": "Identifier",
-            "start": 38,
-            "end": 41,
             "decorators": [],
             "name": "_fs",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 38,
+            "end": 41
           },
-          "importKind": "value"
+          "importKind": "value",
+          "start": 27,
+          "end": 41
         }
       ],
       "source": {
         "type": "Literal",
-        "start": 48,
-        "end": 52,
         "value": "fs",
-        "raw": "\"fs\""
+        "raw": "\"fs\"",
+        "start": 48,
+        "end": 52
       },
       "phase": null,
       "attributes": [],
-      "importKind": "value"
+      "importKind": "value",
+      "start": 19,
+      "end": 53
     },
     {
       "type": "ExpressionStatement",
-      "start": 54,
-      "end": 67,
       "expression": {
         "type": "MemberExpression",
-        "start": 54,
-        "end": 66,
         "object": {
           "type": "Identifier",
-          "start": 54,
-          "end": 57,
           "decorators": [],
           "name": "_fs",
           "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "start": 54,
+          "end": 57
         },
         "property": {
           "type": "Identifier",
-          "start": 58,
-          "end": 66,
           "decorators": [],
           "name": "readFile",
           "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "start": 58,
+          "end": 66
         },
         "optional": false,
-        "computed": false
+        "computed": false,
+        "start": 54,
+        "end": 66
       },
-      "directive": null
+      "directive": null,
+      "start": 54,
+      "end": 67
     },
     {
       "type": "ImportDeclaration",
-      "start": 68,
-      "end": 93,
       "specifiers": [
         {
           "type": "ImportNamespaceSpecifier",
-          "start": 75,
-          "end": 82,
           "local": {
             "type": "Identifier",
-            "start": 80,
-            "end": 82,
             "decorators": [],
             "name": "fs",
             "optional": false,
-            "typeAnnotation": null
-          }
+            "typeAnnotation": null,
+            "start": 80,
+            "end": 82
+          },
+          "start": 75,
+          "end": 82
         }
       ],
       "source": {
         "type": "Literal",
-        "start": 88,
-        "end": 92,
         "value": "fs",
-        "raw": "\"fs\""
+        "raw": "\"fs\"",
+        "start": 88,
+        "end": 92
       },
       "phase": null,
       "attributes": [],
-      "importKind": "value"
+      "importKind": "value",
+      "start": 68,
+      "end": 93
     },
     {
       "type": "ExpressionStatement",
-      "start": 94,
-      "end": 106,
       "expression": {
         "type": "MemberExpression",
-        "start": 94,
-        "end": 105,
         "object": {
           "type": "Identifier",
-          "start": 94,
-          "end": 96,
           "decorators": [],
           "name": "fs",
           "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "start": 94,
+          "end": 96
         },
         "property": {
           "type": "Identifier",
-          "start": 97,
-          "end": 105,
           "decorators": [],
           "name": "readFile",
           "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "start": 97,
+          "end": 105
         },
         "optional": false,
-        "computed": false
+        "computed": false,
+        "start": 94,
+        "end": 105
       },
-      "directive": null
+      "directive": null,
+      "start": 94,
+      "end": 106
     }
   ],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 19,
+  "end": 106
 }
 ```
 __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 19,
-  "end": 106,
   "body": [
     {
       "type": "ImportDeclaration",
-      "start": 19,
-      "end": 53,
       "specifiers": [
         {
           "type": "ImportSpecifier",
-          "start": 27,
-          "end": 41,
           "imported": {
             "type": "Identifier",
-            "start": 27,
-            "end": 34,
             "decorators": [],
             "name": "default",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 27,
+            "end": 34
           },
           "local": {
             "type": "Identifier",
-            "start": 38,
-            "end": 41,
             "decorators": [],
             "name": "_fs",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 38,
+            "end": 41
           },
-          "importKind": "value"
+          "importKind": "value",
+          "start": 27,
+          "end": 41
         }
       ],
       "source": {
         "type": "Literal",
-        "start": 48,
-        "end": 52,
         "value": "fs",
-        "raw": "\"fs\""
+        "raw": "\"fs\"",
+        "start": 48,
+        "end": 52
       },
       "phase": null,
       "attributes": [],
-      "importKind": "value"
+      "importKind": "value",
+      "start": 19,
+      "end": 53
     },
     {
       "type": "ExpressionStatement",
-      "start": 54,
-      "end": 67,
       "expression": {
         "type": "MemberExpression",
-        "start": 54,
-        "end": 66,
         "object": {
           "type": "Identifier",
-          "start": 54,
-          "end": 57,
           "decorators": [],
           "name": "_fs",
           "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "start": 54,
+          "end": 57
         },
         "property": {
           "type": "Identifier",
-          "start": 58,
-          "end": 66,
           "decorators": [],
           "name": "readFile",
           "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "start": 58,
+          "end": 66
         },
         "optional": false,
-        "computed": false
+        "computed": false,
+        "start": 54,
+        "end": 66
       },
-      "directive": null
+      "directive": null,
+      "start": 54,
+      "end": 67
     },
     {
       "type": "ImportDeclaration",
-      "start": 68,
-      "end": 93,
       "specifiers": [
         {
           "type": "ImportNamespaceSpecifier",
-          "start": 75,
-          "end": 82,
           "local": {
             "type": "Identifier",
-            "start": 80,
-            "end": 82,
             "decorators": [],
             "name": "fs",
             "optional": false,
-            "typeAnnotation": null
-          }
+            "typeAnnotation": null,
+            "start": 80,
+            "end": 82
+          },
+          "start": 75,
+          "end": 82
         }
       ],
       "source": {
         "type": "Literal",
-        "start": 88,
-        "end": 92,
         "value": "fs",
-        "raw": "\"fs\""
+        "raw": "\"fs\"",
+        "start": 88,
+        "end": 92
       },
       "phase": null,
       "attributes": [],
-      "importKind": "value"
+      "importKind": "value",
+      "start": 68,
+      "end": 93
     },
     {
       "type": "ExpressionStatement",
-      "start": 94,
-      "end": 106,
       "expression": {
         "type": "MemberExpression",
-        "start": 94,
-        "end": 105,
         "object": {
           "type": "Identifier",
-          "start": 94,
-          "end": 96,
           "decorators": [],
           "name": "fs",
           "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "start": 94,
+          "end": 96
         },
         "property": {
           "type": "Identifier",
-          "start": 97,
-          "end": 105,
           "decorators": [],
           "name": "readFile",
           "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "start": 97,
+          "end": 105
         },
         "optional": false,
-        "computed": false
+        "computed": false,
+        "start": 94,
+        "end": 105
       },
-      "directive": null
+      "directive": null,
+      "start": 94,
+      "end": 106
     }
   ],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 19,
+  "end": 106
 }
 ```
 __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 103,
   "body": [
     {
       "type": "TSModuleDeclaration",
-      "start": 0,
-      "end": 20,
       "id": {
         "type": "Literal",
-        "start": 15,
-        "end": 19,
         "value": "fs",
-        "raw": "\"fs\""
+        "raw": "\"fs\"",
+        "start": 15,
+        "end": 19
       },
       "kind": "module",
       "declare": true,
-      "global": false
+      "global": false,
+      "start": 0,
+      "end": 20
     },
     {
       "type": "TSModuleDeclaration",
-      "start": 21,
-      "end": 103,
       "id": {
         "type": "Literal",
-        "start": 36,
-        "end": 43,
         "value": "tslib",
-        "raw": "\"tslib\""
+        "raw": "\"tslib\"",
+        "start": 36,
+        "end": 43
       },
       "body": {
         "type": "TSModuleBlock",
-        "start": 44,
-        "end": 103,
         "body": [
           {
             "type": "ExportNamedDeclaration",
-            "start": 50,
-            "end": 60,
             "declaration": null,
             "specifiers": [],
             "source": null,
             "exportKind": "value",
-            "attributes": []
+            "attributes": [],
+            "start": 50,
+            "end": 60
           }
-        ]
+        ],
+        "start": 44,
+        "end": 103
       },
       "kind": "module",
       "declare": true,
-      "global": false
+      "global": false,
+      "start": 21,
+      "end": 103
     }
   ],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 103
 }
 ```

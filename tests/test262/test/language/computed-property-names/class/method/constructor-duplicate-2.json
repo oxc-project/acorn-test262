@@ -1,92 +1,92 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 282,
   "body": [
     {
       "type": "ClassDeclaration",
-      "start": 228,
-      "end": 281,
       "decorators": [],
       "id": {
         "type": "Identifier",
+        "name": "C",
         "start": 234,
-        "end": 235,
-        "name": "C"
+        "end": 235
       },
       "superClass": null,
       "body": {
         "type": "ClassBody",
-        "start": 236,
-        "end": 281,
         "body": [
           {
             "type": "MethodDefinition",
-            "start": 240,
-            "end": 260,
             "decorators": [],
             "key": {
               "type": "Literal",
-              "start": 241,
-              "end": 254,
               "value": "constructor",
-              "raw": "'constructor'"
+              "raw": "'constructor'",
+              "start": 241,
+              "end": 254
             },
             "value": {
               "type": "FunctionExpression",
-              "start": 255,
-              "end": 260,
               "id": null,
               "generator": false,
               "async": false,
               "params": [],
               "body": {
                 "type": "BlockStatement",
+                "body": [],
                 "start": 258,
-                "end": 260,
-                "body": []
+                "end": 260
               },
-              "expression": false
+              "expression": false,
+              "start": 255,
+              "end": 260
             },
             "kind": "method",
             "computed": true,
-            "static": false
+            "static": false,
+            "start": 240,
+            "end": 260
           },
           {
             "type": "MethodDefinition",
-            "start": 263,
-            "end": 279,
             "decorators": [],
             "key": {
               "type": "Identifier",
+              "name": "constructor",
               "start": 263,
-              "end": 274,
-              "name": "constructor"
+              "end": 274
             },
             "value": {
               "type": "FunctionExpression",
-              "start": 274,
-              "end": 279,
               "id": null,
               "generator": false,
               "async": false,
               "params": [],
               "body": {
                 "type": "BlockStatement",
+                "body": [],
                 "start": 277,
-                "end": 279,
-                "body": []
+                "end": 279
               },
-              "expression": false
+              "expression": false,
+              "start": 274,
+              "end": 279
             },
             "kind": "constructor",
             "computed": false,
-            "static": false
+            "static": false,
+            "start": 263,
+            "end": 279
           }
-        ]
-      }
+        ],
+        "start": 236,
+        "end": 281
+      },
+      "start": 228,
+      "end": 281
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 282
 }

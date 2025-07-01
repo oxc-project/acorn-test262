@@ -1,204 +1,204 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 434,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 302,
-      "end": 314,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 306,
-          "end": 313,
           "id": {
             "type": "Identifier",
+            "name": "sum",
             "start": 306,
-            "end": 309,
-            "name": "sum"
+            "end": 309
           },
           "init": {
             "type": "Literal",
-            "start": 312,
-            "end": 313,
             "value": 0,
-            "raw": "0"
-          }
+            "raw": "0",
+            "start": 312,
+            "end": 313
+          },
+          "start": 306,
+          "end": 313
         }
-      ]
+      ],
+      "start": 302,
+      "end": 314
     },
     {
       "type": "ForStatement",
-      "start": 315,
-      "end": 399,
       "init": {
         "type": "VariableDeclaration",
-        "start": 320,
-        "end": 329,
         "kind": "var",
         "declarations": [
           {
             "type": "VariableDeclarator",
-            "start": 324,
-            "end": 329,
             "id": {
               "type": "Identifier",
+              "name": "i",
               "start": 324,
-              "end": 325,
-              "name": "i"
+              "end": 325
             },
             "init": {
               "type": "Literal",
-              "start": 328,
-              "end": 329,
               "value": 1,
-              "raw": "1"
-            }
+              "raw": "1",
+              "start": 328,
+              "end": 329
+            },
+            "start": 324,
+            "end": 329
           }
-        ]
+        ],
+        "start": 320,
+        "end": 329
       },
       "test": {
         "type": "BinaryExpression",
-        "start": 331,
-        "end": 338,
         "left": {
           "type": "Identifier",
+          "name": "i",
           "start": 331,
-          "end": 332,
-          "name": "i"
+          "end": 332
         },
         "operator": "<=",
         "right": {
           "type": "Literal",
-          "start": 336,
-          "end": 338,
           "value": 10,
-          "raw": "10"
-        }
+          "raw": "10",
+          "start": 336,
+          "end": 338
+        },
+        "start": 331,
+        "end": 338
       },
       "update": {
         "type": "UpdateExpression",
-        "start": 340,
-        "end": 343,
         "operator": "++",
         "prefix": false,
         "argument": {
           "type": "Identifier",
+          "name": "i",
           "start": 340,
-          "end": 341,
-          "name": "i"
-        }
+          "end": 341
+        },
+        "start": 340,
+        "end": 343
       },
       "body": {
         "type": "BlockStatement",
-        "start": 345,
-        "end": 399,
         "body": [
           {
             "type": "IfStatement",
-            "start": 351,
-            "end": 383,
             "test": {
               "type": "Literal",
-              "start": 355,
-              "end": 359,
               "value": true,
-              "raw": "true"
+              "raw": "true",
+              "start": 355,
+              "end": 359
             },
             "consequent": {
               "type": "ContinueStatement",
+              "label": null,
               "start": 361,
-              "end": 375,
-              "label": null
+              "end": 375
             },
             "alternate": {
               "type": "BlockStatement",
+              "body": [],
               "start": 381,
-              "end": 383,
-              "body": []
-            }
+              "end": 383
+            },
+            "start": 351,
+            "end": 383
           },
           {
             "type": "ExpressionStatement",
-            "start": 388,
-            "end": 397,
             "expression": {
               "type": "AssignmentExpression",
-              "start": 388,
-              "end": 396,
               "operator": "+=",
               "left": {
                 "type": "Identifier",
+                "name": "sum",
                 "start": 388,
-                "end": 391,
-                "name": "sum"
+                "end": 391
               },
               "right": {
                 "type": "Identifier",
+                "name": "i",
                 "start": 395,
-                "end": 396,
-                "name": "i"
-              }
-            }
+                "end": 396
+              },
+              "start": 388,
+              "end": 396
+            },
+            "start": 388,
+            "end": 397
           }
-        ]
-      }
+        ],
+        "start": 345,
+        "end": 399
+      },
+      "start": 315,
+      "end": 399
     },
     {
       "type": "ExpressionStatement",
-      "start": 401,
-      "end": 433,
       "expression": {
         "type": "CallExpression",
-        "start": 401,
-        "end": 432,
         "callee": {
           "type": "MemberExpression",
-          "start": 401,
-          "end": 417,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 401,
-            "end": 407,
-            "name": "assert"
+            "end": 407
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 408,
-            "end": 417,
-            "name": "sameValue"
+            "end": 417
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 401,
+          "end": 417
         },
         "arguments": [
           {
             "type": "Identifier",
+            "name": "sum",
             "start": 418,
-            "end": 421,
-            "name": "sum"
+            "end": 421
           },
           {
             "type": "Literal",
-            "start": 423,
-            "end": 424,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "start": 423,
+            "end": 424
           },
           {
             "type": "Literal",
-            "start": 426,
-            "end": 431,
             "value": "sum",
-            "raw": "'sum'"
+            "raw": "'sum'",
+            "start": 426,
+            "end": 431
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 401,
+        "end": 432
+      },
+      "start": 401,
+      "end": 433
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 434
 }

@@ -2,109 +2,105 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 67,
   "body": [
     {
       "type": "ClassDeclaration",
-      "start": 0,
-      "end": 43,
       "decorators": [],
       "id": {
         "type": "Identifier",
-        "start": 14,
-        "end": 26,
         "decorators": [],
         "name": "SpecialError",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 14,
+        "end": 26
       },
       "typeParameters": null,
       "superClass": {
         "type": "Identifier",
-        "start": 35,
-        "end": 40,
         "decorators": [],
         "name": "Error",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 35,
+        "end": 40
       },
       "superTypeArguments": null,
       "implements": [],
       "body": {
         "type": "ClassBody",
+        "body": [],
         "start": 41,
-        "end": 43,
-        "body": []
+        "end": 43
       },
       "abstract": false,
-      "declare": true
+      "declare": true,
+      "start": 0,
+      "end": 43
     },
     {
       "type": "TSExportAssignment",
-      "start": 44,
-      "end": 66,
       "expression": {
         "type": "Identifier",
-        "start": 53,
-        "end": 65,
         "decorators": [],
         "name": "SpecialError",
         "optional": false,
-        "typeAnnotation": null
-      }
+        "typeAnnotation": null,
+        "start": 53,
+        "end": 65
+      },
+      "start": 44,
+      "end": 66
     }
   ],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 67
 }
 ```
 __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 89,
   "body": [
     {
       "type": "TSImportEqualsDeclaration",
-      "start": 0,
-      "end": 46,
       "id": {
         "type": "Identifier",
-        "start": 12,
-        "end": 24,
         "decorators": [],
         "name": "SpecialError",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 12,
+        "end": 24
       },
       "moduleReference": {
         "type": "TSExternalModuleReference",
-        "start": 27,
-        "end": 45,
         "expression": {
           "type": "Literal",
-          "start": 35,
-          "end": 44,
           "value": "cjs-dep",
-          "raw": "\"cjs-dep\""
-        }
+          "raw": "\"cjs-dep\"",
+          "start": 35,
+          "end": 44
+        },
+        "start": 27,
+        "end": 45
       },
-      "importKind": "type"
+      "importKind": "type",
+      "start": 0,
+      "end": 46
     },
     {
       "type": "FunctionDeclaration",
-      "start": 47,
-      "end": 89,
       "id": {
         "type": "Identifier",
-        "start": 56,
-        "end": 67,
         "decorators": [],
         "name": "handleError",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 56,
+        "end": 67
       },
       "generator": false,
       "async": false,
@@ -113,44 +109,48 @@ __ESTREE_TEST__:PASS:
       "params": [
         {
           "type": "Identifier",
-          "start": 68,
-          "end": 85,
           "decorators": [],
           "name": "err",
           "optional": false,
           "typeAnnotation": {
             "type": "TSTypeAnnotation",
-            "start": 71,
-            "end": 85,
             "typeAnnotation": {
               "type": "TSTypeReference",
-              "start": 73,
-              "end": 85,
               "typeName": {
                 "type": "Identifier",
-                "start": 73,
-                "end": 85,
                 "decorators": [],
                 "name": "SpecialError",
                 "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "start": 73,
+                "end": 85
               },
-              "typeArguments": null
-            }
-          }
+              "typeArguments": null,
+              "start": 73,
+              "end": 85
+            },
+            "start": 71,
+            "end": 85
+          },
+          "start": 68,
+          "end": 85
         }
       ],
       "returnType": null,
       "body": {
         "type": "BlockStatement",
+        "body": [],
         "start": 87,
-        "end": 89,
-        "body": []
+        "end": 89
       },
-      "expression": false
+      "expression": false,
+      "start": 47,
+      "end": 89
     }
   ],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 89
 }
 ```

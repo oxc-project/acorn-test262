@@ -1,177 +1,177 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 715,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 285,
-      "end": 698,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 289,
-          "end": 697,
           "id": {
             "type": "Identifier",
+            "name": "evalStr",
             "start": 289,
-            "end": 296,
-            "name": "evalStr"
+            "end": 296
           },
           "init": {
             "type": "BinaryExpression",
-            "start": 299,
-            "end": 697,
             "left": {
               "type": "BinaryExpression",
-              "start": 299,
-              "end": 690,
               "left": {
                 "type": "BinaryExpression",
-                "start": 299,
-                "end": 681,
                 "left": {
                   "type": "BinaryExpression",
-                  "start": 299,
-                  "end": 603,
                   "left": {
                     "type": "BinaryExpression",
-                    "start": 299,
-                    "end": 560,
                     "left": {
                       "type": "BinaryExpression",
-                      "start": 299,
-                      "end": 483,
                       "left": {
                         "type": "BinaryExpression",
-                        "start": 299,
-                        "end": 441,
                         "left": {
                           "type": "BinaryExpression",
-                          "start": 299,
-                          "end": 369,
                           "left": {
                             "type": "BinaryExpression",
-                            "start": 299,
-                            "end": 339,
                             "left": {
                               "type": "Literal",
-                              "start": 299,
-                              "end": 312,
                               "value": "//CHECK#1\n",
-                              "raw": "'//CHECK#1\\n'"
+                              "raw": "'//CHECK#1\\n'",
+                              "start": 299,
+                              "end": 312
                             },
                             "operator": "+",
                             "right": {
                               "type": "Literal",
-                              "start": 314,
-                              "end": 339,
                               "value": "for (var x in this) {\n",
-                              "raw": "'for (var x in this) {\\n'"
-                            }
+                              "raw": "'for (var x in this) {\\n'",
+                              "start": 314,
+                              "end": 339
+                            },
+                            "start": 299,
+                            "end": 339
                           },
                           "operator": "+",
                           "right": {
                             "type": "Literal",
-                            "start": 341,
-                            "end": 369,
                             "value": "  if ( x === 'NaN' ) {\n",
-                            "raw": "'  if ( x === \\'NaN\\' ) {\\n'"
-                          }
+                            "raw": "'  if ( x === \\'NaN\\' ) {\\n'",
+                            "start": 341,
+                            "end": 369
+                          },
+                          "start": 299,
+                          "end": 369
                         },
                         "operator": "+",
                         "right": {
                           "type": "Literal",
-                          "start": 371,
-                          "end": 441,
                           "value": "    throw new Test262Error(\"#1: 'NaN' have attribute DontEnum\");\n",
-                          "raw": "'    throw new Test262Error(\"#1: \\'NaN\\' have attribute DontEnum\");\\n'"
-                        }
+                          "raw": "'    throw new Test262Error(\"#1: \\'NaN\\' have attribute DontEnum\");\\n'",
+                          "start": 371,
+                          "end": 441
+                        },
+                        "start": 299,
+                        "end": 441
                       },
                       "operator": "+",
                       "right": {
                         "type": "Literal",
-                        "start": 443,
-                        "end": 483,
                         "value": "  } else if ( x === 'Infinity' ) {\n",
-                        "raw": "'  } else if ( x === \\'Infinity\\' ) {\\n'"
-                      }
+                        "raw": "'  } else if ( x === \\'Infinity\\' ) {\\n'",
+                        "start": 443,
+                        "end": 483
+                      },
+                      "start": 299,
+                      "end": 483
                     },
                     "operator": "+",
                     "right": {
                       "type": "Literal",
-                      "start": 485,
-                      "end": 560,
                       "value": "    throw new Test262Error(\"#1: 'Infinity' have attribute DontEnum\");\n",
-                      "raw": "'    throw new Test262Error(\"#1: \\'Infinity\\' have attribute DontEnum\");\\n'"
-                    }
+                      "raw": "'    throw new Test262Error(\"#1: \\'Infinity\\' have attribute DontEnum\");\\n'",
+                      "start": 485,
+                      "end": 560
+                    },
+                    "start": 299,
+                    "end": 560
                   },
                   "operator": "+",
                   "right": {
                     "type": "Literal",
-                    "start": 562,
-                    "end": 603,
                     "value": "  } else if ( x === 'undefined' ) {\n",
-                    "raw": "'  } else if ( x === \\'undefined\\' ) {\\n'"
-                  }
+                    "raw": "'  } else if ( x === \\'undefined\\' ) {\\n'",
+                    "start": 562,
+                    "end": 603
+                  },
+                  "start": 299,
+                  "end": 603
                 },
                 "operator": "+",
                 "right": {
                   "type": "Literal",
-                  "start": 605,
-                  "end": 681,
                   "value": "    throw new Test262Error(\"#1: 'undefined' have attribute DontEnum\");\n",
-                  "raw": "'    throw new Test262Error(\"#1: \\'undefined\\' have attribute DontEnum\");\\n'"
-                }
+                  "raw": "'    throw new Test262Error(\"#1: \\'undefined\\' have attribute DontEnum\");\\n'",
+                  "start": 605,
+                  "end": 681
+                },
+                "start": 299,
+                "end": 681
               },
               "operator": "+",
               "right": {
                 "type": "Literal",
-                "start": 683,
-                "end": 690,
                 "value": "  }\n",
-                "raw": "'  }\\n'"
-              }
+                "raw": "'  }\\n'",
+                "start": 683,
+                "end": 690
+              },
+              "start": 299,
+              "end": 690
             },
             "operator": "+",
             "right": {
               "type": "Literal",
-              "start": 692,
-              "end": 697,
               "value": "}\n",
-              "raw": "'}\\n'"
-            }
-          }
+              "raw": "'}\\n'",
+              "start": 692,
+              "end": 697
+            },
+            "start": 299,
+            "end": 697
+          },
+          "start": 289,
+          "end": 697
         }
-      ]
+      ],
+      "start": 285,
+      "end": 698
     },
     {
       "type": "ExpressionStatement",
-      "start": 700,
-      "end": 714,
       "expression": {
         "type": "CallExpression",
-        "start": 700,
-        "end": 713,
         "callee": {
           "type": "Identifier",
+          "name": "eval",
           "start": 700,
-          "end": 704,
-          "name": "eval"
+          "end": 704
         },
         "arguments": [
           {
             "type": "Identifier",
+            "name": "evalStr",
             "start": 705,
-            "end": 712,
-            "name": "evalStr"
+            "end": 712
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 700,
+        "end": 713
+      },
+      "start": 700,
+      "end": 714
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 715
 }

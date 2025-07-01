@@ -1,101 +1,101 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 392,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 323,
-      "end": 391,
       "expression": {
         "type": "CallExpression",
-        "start": 323,
-        "end": 390,
         "callee": {
           "type": "MemberExpression",
-          "start": 323,
-          "end": 336,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 323,
-            "end": 329,
-            "name": "assert"
+            "end": 329
           },
           "property": {
             "type": "Identifier",
+            "name": "throws",
             "start": 330,
-            "end": 336,
-            "name": "throws"
+            "end": 336
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 323,
+          "end": 336
         },
         "arguments": [
           {
             "type": "Identifier",
+            "name": "TypeError",
             "start": 337,
-            "end": 346,
-            "name": "TypeError"
+            "end": 346
           },
           {
             "type": "FunctionExpression",
-            "start": 348,
-            "end": 389,
             "id": null,
             "generator": false,
             "async": false,
             "params": [],
             "body": {
               "type": "BlockStatement",
-              "start": 359,
-              "end": 389,
               "body": [
                 {
                   "type": "ExpressionStatement",
-                  "start": 365,
-                  "end": 387,
                   "expression": {
                     "type": "AssignmentExpression",
-                    "start": 365,
-                    "end": 386,
                     "operator": "=",
                     "left": {
                       "type": "MemberExpression",
-                      "start": 365,
-                      "end": 381,
                       "object": {
                         "type": "Identifier",
+                        "name": "Number",
                         "start": 365,
-                        "end": 371,
-                        "name": "Number"
+                        "end": 371
                       },
                       "property": {
                         "type": "Identifier",
+                        "name": "MAX_VALUE",
                         "start": 372,
-                        "end": 381,
-                        "name": "MAX_VALUE"
+                        "end": 381
                       },
                       "optional": false,
-                      "computed": false
+                      "computed": false,
+                      "start": 365,
+                      "end": 381
                     },
                     "right": {
                       "type": "Literal",
-                      "start": 384,
-                      "end": 386,
                       "value": 42,
-                      "raw": "42"
-                    }
-                  }
+                      "raw": "42",
+                      "start": 384,
+                      "end": 386
+                    },
+                    "start": 365,
+                    "end": 386
+                  },
+                  "start": 365,
+                  "end": 387
                 }
-              ]
+              ],
+              "start": 359,
+              "end": 389
             },
-            "expression": false
+            "expression": false,
+            "start": 348,
+            "end": 389
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 323,
+        "end": 390
+      },
+      "start": 323,
+      "end": 391
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 392
 }

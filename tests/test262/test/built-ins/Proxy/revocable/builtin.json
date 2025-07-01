@@ -1,468 +1,468 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 1025,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 316,
-      "end": 418,
       "expression": {
         "type": "CallExpression",
-        "start": 316,
-        "end": 417,
         "callee": {
           "type": "Identifier",
+          "name": "assert",
           "start": 316,
-          "end": 322,
-          "name": "assert"
+          "end": 322
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 323,
-            "end": 359,
             "callee": {
               "type": "MemberExpression",
-              "start": 323,
-              "end": 342,
               "object": {
                 "type": "Identifier",
+                "name": "Object",
                 "start": 323,
-                "end": 329,
-                "name": "Object"
+                "end": 329
               },
               "property": {
                 "type": "Identifier",
+                "name": "isExtensible",
                 "start": 330,
-                "end": 342,
-                "name": "isExtensible"
+                "end": 342
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 323,
+              "end": 342
             },
             "arguments": [
               {
                 "type": "MemberExpression",
-                "start": 343,
-                "end": 358,
                 "object": {
                   "type": "Identifier",
+                  "name": "Proxy",
                   "start": 343,
-                  "end": 348,
-                  "name": "Proxy"
+                  "end": 348
                 },
                 "property": {
                   "type": "Identifier",
+                  "name": "revocable",
                   "start": 349,
-                  "end": 358,
-                  "name": "revocable"
+                  "end": 358
                 },
                 "optional": false,
-                "computed": false
+                "computed": false,
+                "start": 343,
+                "end": 358
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 323,
+            "end": 359
           },
           {
             "type": "Literal",
-            "start": 361,
-            "end": 416,
             "value": "Object.isExtensible(Proxy.revocable) must return true",
-            "raw": "'Object.isExtensible(Proxy.revocable) must return true'"
+            "raw": "'Object.isExtensible(Proxy.revocable) must return true'",
+            "start": 361,
+            "end": 416
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 316,
+        "end": 417
+      },
+      "start": 316,
+      "end": 418
     },
     {
       "type": "ExpressionStatement",
-      "start": 419,
-      "end": 527,
       "expression": {
         "type": "CallExpression",
-        "start": 419,
-        "end": 526,
         "callee": {
           "type": "MemberExpression",
-          "start": 419,
-          "end": 435,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 419,
-            "end": 425,
-            "name": "assert"
+            "end": 425
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 426,
-            "end": 435,
-            "name": "sameValue"
+            "end": 435
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 419,
+          "end": 435
         },
         "arguments": [
           {
             "type": "UnaryExpression",
-            "start": 436,
-            "end": 458,
             "operator": "typeof",
             "argument": {
               "type": "MemberExpression",
-              "start": 443,
-              "end": 458,
               "object": {
                 "type": "Identifier",
+                "name": "Proxy",
                 "start": 443,
-                "end": 448,
-                "name": "Proxy"
+                "end": 448
               },
               "property": {
                 "type": "Identifier",
+                "name": "revocable",
                 "start": 449,
-                "end": 458,
-                "name": "revocable"
+                "end": 458
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 443,
+              "end": 458
             },
-            "prefix": true
+            "prefix": true,
+            "start": 436,
+            "end": 458
           },
           {
             "type": "Literal",
-            "start": 460,
-            "end": 470,
             "value": "function",
-            "raw": "'function'"
+            "raw": "'function'",
+            "start": 460,
+            "end": 470
           },
           {
             "type": "Literal",
-            "start": 472,
-            "end": 525,
             "value": "The value of `typeof Proxy.revocable` is \"function\"",
-            "raw": "'The value of `typeof Proxy.revocable` is \"function\"'"
+            "raw": "'The value of `typeof Proxy.revocable` is \"function\"'",
+            "start": 472,
+            "end": 525
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 419,
+        "end": 526
+      },
+      "start": 419,
+      "end": 527
     },
     {
       "type": "ExpressionStatement",
-      "start": 528,
-      "end": 706,
       "expression": {
         "type": "CallExpression",
-        "start": 528,
-        "end": 705,
         "callee": {
           "type": "MemberExpression",
-          "start": 528,
-          "end": 544,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 528,
-            "end": 534,
-            "name": "assert"
+            "end": 534
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 535,
-            "end": 544,
-            "name": "sameValue"
+            "end": 544
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 528,
+          "end": 544
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 548,
-            "end": 595,
             "callee": {
               "type": "MemberExpression",
-              "start": 548,
-              "end": 578,
               "object": {
                 "type": "MemberExpression",
-                "start": 548,
-                "end": 573,
                 "object": {
                   "type": "MemberExpression",
-                  "start": 548,
-                  "end": 564,
                   "object": {
                     "type": "Identifier",
+                    "name": "Object",
                     "start": 548,
-                    "end": 554,
-                    "name": "Object"
+                    "end": 554
                   },
                   "property": {
                     "type": "Identifier",
+                    "name": "prototype",
                     "start": 555,
-                    "end": 564,
-                    "name": "prototype"
+                    "end": 564
                   },
                   "optional": false,
-                  "computed": false
+                  "computed": false,
+                  "start": 548,
+                  "end": 564
                 },
                 "property": {
                   "type": "Identifier",
+                  "name": "toString",
                   "start": 565,
-                  "end": 573,
-                  "name": "toString"
+                  "end": 573
                 },
                 "optional": false,
-                "computed": false
+                "computed": false,
+                "start": 548,
+                "end": 573
               },
               "property": {
                 "type": "Identifier",
+                "name": "call",
                 "start": 574,
-                "end": 578,
-                "name": "call"
+                "end": 578
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 548,
+              "end": 578
             },
             "arguments": [
               {
                 "type": "MemberExpression",
-                "start": 579,
-                "end": 594,
                 "object": {
                   "type": "Identifier",
+                  "name": "Proxy",
                   "start": 579,
-                  "end": 584,
-                  "name": "Proxy"
+                  "end": 584
                 },
                 "property": {
                   "type": "Identifier",
+                  "name": "revocable",
                   "start": 585,
-                  "end": 594,
-                  "name": "revocable"
+                  "end": 594
                 },
                 "optional": false,
-                "computed": false
+                "computed": false,
+                "start": 579,
+                "end": 594
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 548,
+            "end": 595
           },
           {
             "type": "Literal",
-            "start": 599,
-            "end": 618,
             "value": "[object Function]",
-            "raw": "'[object Function]'"
+            "raw": "'[object Function]'",
+            "start": 599,
+            "end": 618
           },
           {
             "type": "Literal",
-            "start": 622,
-            "end": 703,
             "value": "Object.prototype.toString.call(Proxy.revocable) must return \"[object Function]\"",
-            "raw": "'Object.prototype.toString.call(Proxy.revocable) must return \"[object Function]\"'"
+            "raw": "'Object.prototype.toString.call(Proxy.revocable) must return \"[object Function]\"'",
+            "start": 622,
+            "end": 703
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 528,
+        "end": 705
+      },
+      "start": 528,
+      "end": 706
     },
     {
       "type": "ExpressionStatement",
-      "start": 707,
-      "end": 878,
       "expression": {
         "type": "CallExpression",
-        "start": 707,
-        "end": 877,
         "callee": {
           "type": "MemberExpression",
-          "start": 707,
-          "end": 723,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 707,
-            "end": 713,
-            "name": "assert"
+            "end": 713
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 714,
-            "end": 723,
-            "name": "sameValue"
+            "end": 723
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 707,
+          "end": 723
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 727,
-            "end": 765,
             "callee": {
               "type": "MemberExpression",
-              "start": 727,
-              "end": 748,
               "object": {
                 "type": "Identifier",
+                "name": "Object",
                 "start": 727,
-                "end": 733,
-                "name": "Object"
+                "end": 733
               },
               "property": {
                 "type": "Identifier",
+                "name": "getPrototypeOf",
                 "start": 734,
-                "end": 748,
-                "name": "getPrototypeOf"
+                "end": 748
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 727,
+              "end": 748
             },
             "arguments": [
               {
                 "type": "MemberExpression",
-                "start": 749,
-                "end": 764,
                 "object": {
                   "type": "Identifier",
+                  "name": "Proxy",
                   "start": 749,
-                  "end": 754,
-                  "name": "Proxy"
+                  "end": 754
                 },
                 "property": {
                   "type": "Identifier",
+                  "name": "revocable",
                   "start": 755,
-                  "end": 764,
-                  "name": "revocable"
+                  "end": 764
                 },
                 "optional": false,
-                "computed": false
+                "computed": false,
+                "start": 749,
+                "end": 764
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 727,
+            "end": 765
           },
           {
             "type": "MemberExpression",
-            "start": 769,
-            "end": 787,
             "object": {
               "type": "Identifier",
+              "name": "Function",
               "start": 769,
-              "end": 777,
-              "name": "Function"
+              "end": 777
             },
             "property": {
               "type": "Identifier",
+              "name": "prototype",
               "start": 778,
-              "end": 787,
-              "name": "prototype"
+              "end": 787
             },
             "optional": false,
-            "computed": false
+            "computed": false,
+            "start": 769,
+            "end": 787
           },
           {
             "type": "Literal",
-            "start": 791,
-            "end": 875,
             "value": "Object.getPrototypeOf(Proxy.revocable) must return the value of Function.prototype",
-            "raw": "'Object.getPrototypeOf(Proxy.revocable) must return the value of Function.prototype'"
+            "raw": "'Object.getPrototypeOf(Proxy.revocable) must return the value of Function.prototype'",
+            "start": 791,
+            "end": 875
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 707,
+        "end": 877
+      },
+      "start": 707,
+      "end": 878
     },
     {
       "type": "ExpressionStatement",
-      "start": 880,
-      "end": 1024,
       "expression": {
         "type": "CallExpression",
-        "start": 880,
-        "end": 1023,
         "callee": {
           "type": "MemberExpression",
-          "start": 880,
-          "end": 896,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 880,
-            "end": 886,
-            "name": "assert"
+            "end": 886
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 887,
-            "end": 896,
-            "name": "sameValue"
+            "end": 896
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 880,
+          "end": 896
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 900,
-            "end": 943,
             "callee": {
               "type": "MemberExpression",
-              "start": 900,
-              "end": 930,
               "object": {
                 "type": "MemberExpression",
-                "start": 900,
-                "end": 915,
                 "object": {
                   "type": "Identifier",
+                  "name": "Proxy",
                   "start": 900,
-                  "end": 905,
-                  "name": "Proxy"
+                  "end": 905
                 },
                 "property": {
                   "type": "Identifier",
+                  "name": "revocable",
                   "start": 906,
-                  "end": 915,
-                  "name": "revocable"
+                  "end": 915
                 },
                 "optional": false,
-                "computed": false
+                "computed": false,
+                "start": 900,
+                "end": 915
               },
               "property": {
                 "type": "Identifier",
+                "name": "hasOwnProperty",
                 "start": 916,
-                "end": 930,
-                "name": "hasOwnProperty"
+                "end": 930
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 900,
+              "end": 930
             },
             "arguments": [
               {
                 "type": "Literal",
-                "start": 931,
-                "end": 942,
                 "value": "prototype",
-                "raw": "'prototype'"
+                "raw": "'prototype'",
+                "start": 931,
+                "end": 942
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 900,
+            "end": 943
           },
           {
             "type": "Literal",
-            "start": 947,
-            "end": 952,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "start": 947,
+            "end": 952
           },
           {
             "type": "Literal",
-            "start": 956,
-            "end": 1021,
             "value": "Proxy.revocable.hasOwnProperty('prototype') must return false",
-            "raw": "'Proxy.revocable.hasOwnProperty(\\'prototype\\') must return false'"
+            "raw": "'Proxy.revocable.hasOwnProperty(\\'prototype\\') must return false'",
+            "start": 956,
+            "end": 1021
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 880,
+        "end": 1023
+      },
+      "start": 880,
+      "end": 1024
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 1025
 }

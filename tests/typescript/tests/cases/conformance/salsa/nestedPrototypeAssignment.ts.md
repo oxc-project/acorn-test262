@@ -2,129 +2,129 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 30,
-  "end": 72,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 30,
-      "end": 46,
       "expression": {
         "type": "AssignmentExpression",
-        "start": 30,
-        "end": 46,
         "operator": "=",
         "left": {
           "type": "MemberExpression",
-          "start": 30,
-          "end": 41,
           "object": {
             "type": "Identifier",
-            "start": 30,
-            "end": 31,
             "decorators": [],
             "name": "C",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 30,
+            "end": 31
           },
           "property": {
             "type": "Identifier",
-            "start": 32,
-            "end": 41,
             "decorators": [],
             "name": "prototype",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 32,
+            "end": 41
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 30,
+          "end": 41
         },
         "right": {
           "type": "ObjectExpression",
+          "properties": [],
           "start": 44,
-          "end": 46,
-          "properties": []
-        }
+          "end": 46
+        },
+        "start": 30,
+        "end": 46
       },
-      "directive": null
+      "directive": null,
+      "start": 30,
+      "end": 46
     },
     {
       "type": "ExpressionStatement",
-      "start": 47,
-      "end": 72,
       "expression": {
         "type": "AssignmentExpression",
-        "start": 47,
-        "end": 71,
         "operator": "=",
         "left": {
           "type": "MemberExpression",
-          "start": 47,
-          "end": 66,
           "object": {
             "type": "MemberExpression",
-            "start": 47,
-            "end": 62,
             "object": {
               "type": "MemberExpression",
-              "start": 47,
-              "end": 58,
               "object": {
                 "type": "Identifier",
-                "start": 47,
-                "end": 48,
                 "decorators": [],
                 "name": "C",
                 "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "start": 47,
+                "end": 48
               },
               "property": {
                 "type": "Identifier",
-                "start": 49,
-                "end": 58,
                 "decorators": [],
                 "name": "prototype",
                 "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "start": 49,
+                "end": 58
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 47,
+              "end": 58
             },
             "property": {
               "type": "Identifier",
-              "start": 59,
-              "end": 62,
               "decorators": [],
               "name": "bar",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 59,
+              "end": 62
             },
             "optional": false,
-            "computed": false
+            "computed": false,
+            "start": 47,
+            "end": 62
           },
           "property": {
             "type": "Identifier",
-            "start": 63,
-            "end": 66,
             "decorators": [],
             "name": "foo",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 63,
+            "end": 66
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 47,
+          "end": 66
         },
         "right": {
           "type": "ObjectExpression",
+          "properties": [],
           "start": 69,
-          "end": 71,
-          "properties": []
-        }
+          "end": 71
+        },
+        "start": 47,
+        "end": 71
       },
-      "directive": null
+      "directive": null,
+      "start": 47,
+      "end": 72
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 30,
+  "end": 72
 }
 ```

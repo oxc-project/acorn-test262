@@ -2,94 +2,94 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 20,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 0,
-      "end": 19,
       "expression": {
         "type": "AssignmentExpression",
-        "start": 0,
-        "end": 18,
         "operator": "=",
         "left": {
           "type": "MemberExpression",
-          "start": 0,
-          "end": 14,
           "object": {
             "type": "Identifier",
-            "start": 0,
-            "end": 6,
             "decorators": [],
             "name": "module",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 0,
+            "end": 6
           },
           "property": {
             "type": "Identifier",
-            "start": 7,
-            "end": 14,
             "decorators": [],
             "name": "exports",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 7,
+            "end": 14
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 0,
+          "end": 14
         },
         "right": {
           "type": "Literal",
-          "start": 17,
-          "end": 18,
           "value": 0,
-          "raw": "0"
-        }
+          "raw": "0",
+          "start": 17,
+          "end": 18
+        },
+        "start": 0,
+        "end": 18
       },
-      "directive": null
+      "directive": null,
+      "start": 0,
+      "end": 19
     }
   ],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 20
 }
 ```
 __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 28,
   "body": [
     {
       "type": "TSImportEqualsDeclaration",
-      "start": 0,
-      "end": 28,
       "id": {
         "type": "Identifier",
-        "start": 7,
-        "end": 10,
         "decorators": [],
         "name": "foo",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 7,
+        "end": 10
       },
       "moduleReference": {
         "type": "TSExternalModuleReference",
-        "start": 13,
-        "end": 27,
         "expression": {
           "type": "Literal",
-          "start": 21,
-          "end": 26,
           "value": "foo",
-          "raw": "\"foo\""
-        }
+          "raw": "\"foo\"",
+          "start": 21,
+          "end": 26
+        },
+        "start": 13,
+        "end": 27
       },
-      "importKind": "value"
+      "importKind": "value",
+      "start": 0,
+      "end": 28
     }
   ],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 28
 }
 ```

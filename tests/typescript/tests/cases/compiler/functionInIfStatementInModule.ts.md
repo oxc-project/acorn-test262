@@ -2,55 +2,43 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 2,
-  "end": 88,
   "body": [
     {
       "type": "TSModuleDeclaration",
-      "start": 2,
-      "end": 88,
       "id": {
         "type": "Identifier",
-        "start": 9,
-        "end": 15,
         "decorators": [],
         "name": "Midori",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 9,
+        "end": 15
       },
       "body": {
         "type": "TSModuleBlock",
-        "start": 16,
-        "end": 88,
         "body": [
           {
             "type": "IfStatement",
-            "start": 22,
-            "end": 86,
             "test": {
               "type": "Literal",
-              "start": 26,
-              "end": 31,
               "value": false,
-              "raw": "false"
+              "raw": "false",
+              "start": 26,
+              "end": 31
             },
             "consequent": {
               "type": "BlockStatement",
-              "start": 33,
-              "end": 86,
               "body": [
                 {
                   "type": "FunctionDeclaration",
-                  "start": 43,
-                  "end": 80,
                   "id": {
                     "type": "Identifier",
-                    "start": 52,
-                    "end": 55,
                     "decorators": [],
                     "name": "Foo",
                     "optional": false,
-                    "typeAnnotation": null
+                    "typeAnnotation": null,
+                    "start": 52,
+                    "end": 55
                   },
                   "generator": false,
                   "async": false,
@@ -59,35 +47,47 @@ __ESTREE_TEST__:PASS:
                   "params": [
                     {
                       "type": "Identifier",
-                      "start": 56,
-                      "end": 59,
                       "decorators": [],
                       "name": "src",
                       "optional": false,
-                      "typeAnnotation": null
+                      "typeAnnotation": null,
+                      "start": 56,
+                      "end": 59
                     }
                   ],
                   "returnType": null,
                   "body": {
                     "type": "BlockStatement",
+                    "body": [],
                     "start": 69,
-                    "end": 80,
-                    "body": []
+                    "end": 80
                   },
-                  "expression": false
+                  "expression": false,
+                  "start": 43,
+                  "end": 80
                 }
-              ]
+              ],
+              "start": 33,
+              "end": 86
             },
-            "alternate": null
+            "alternate": null,
+            "start": 22,
+            "end": 86
           }
-        ]
+        ],
+        "start": 16,
+        "end": 88
       },
       "kind": "module",
       "declare": false,
-      "global": false
+      "global": false,
+      "start": 2,
+      "end": 88
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 2,
+  "end": 88
 }
 ```

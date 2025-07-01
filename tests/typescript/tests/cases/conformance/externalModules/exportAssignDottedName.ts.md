@@ -2,25 +2,19 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 37,
   "body": [
     {
       "type": "ExportNamedDeclaration",
-      "start": 0,
-      "end": 36,
       "declaration": {
         "type": "FunctionDeclaration",
-        "start": 7,
-        "end": 36,
         "id": {
           "type": "Identifier",
-          "start": 16,
-          "end": 17,
           "decorators": [],
           "name": "x",
           "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "start": 16,
+          "end": 17
         },
         "generator": false,
         "async": false,
@@ -30,101 +24,107 @@ __ESTREE_TEST__:PASS:
         "returnType": null,
         "body": {
           "type": "BlockStatement",
-          "start": 19,
-          "end": 36,
           "body": [
             {
               "type": "ReturnStatement",
-              "start": 22,
-              "end": 34,
               "argument": {
                 "type": "Literal",
-                "start": 29,
-                "end": 33,
                 "value": true,
-                "raw": "true"
-              }
+                "raw": "true",
+                "start": 29,
+                "end": 33
+              },
+              "start": 22,
+              "end": 34
             }
-          ]
+          ],
+          "start": 19,
+          "end": 36
         },
-        "expression": false
+        "expression": false,
+        "start": 7,
+        "end": 36
       },
       "specifiers": [],
       "source": null,
       "exportKind": "value",
-      "attributes": []
+      "attributes": [],
+      "start": 0,
+      "end": 36
     }
   ],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 37
 }
 ```
 __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 55,
   "body": [
     {
       "type": "TSImportEqualsDeclaration",
-      "start": 0,
-      "end": 32,
       "id": {
         "type": "Identifier",
-        "start": 7,
-        "end": 11,
         "decorators": [],
         "name": "foo1",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 7,
+        "end": 11
       },
       "moduleReference": {
         "type": "TSExternalModuleReference",
-        "start": 14,
-        "end": 31,
         "expression": {
           "type": "Literal",
-          "start": 22,
-          "end": 30,
           "value": "./foo1",
-          "raw": "'./foo1'"
-        }
+          "raw": "'./foo1'",
+          "start": 22,
+          "end": 30
+        },
+        "start": 14,
+        "end": 31
       },
-      "importKind": "value"
+      "importKind": "value",
+      "start": 0,
+      "end": 32
     },
     {
       "type": "TSExportAssignment",
-      "start": 33,
-      "end": 49,
       "expression": {
         "type": "MemberExpression",
-        "start": 42,
-        "end": 48,
         "object": {
           "type": "Identifier",
-          "start": 42,
-          "end": 46,
           "decorators": [],
           "name": "foo1",
           "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "start": 42,
+          "end": 46
         },
         "property": {
           "type": "Identifier",
-          "start": 47,
-          "end": 48,
           "decorators": [],
           "name": "x",
           "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "start": 47,
+          "end": 48
         },
         "optional": false,
-        "computed": false
-      }
+        "computed": false,
+        "start": 42,
+        "end": 48
+      },
+      "start": 33,
+      "end": 49
     }
   ],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 55
 }
 ```

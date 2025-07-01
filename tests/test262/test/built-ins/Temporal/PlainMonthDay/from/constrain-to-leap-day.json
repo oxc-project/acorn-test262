@@ -1,213 +1,213 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 436,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 267,
-      "end": 364,
       "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 273,
-          "end": 363,
           "id": {
             "type": "Identifier",
+            "name": "md",
             "start": 273,
-            "end": 275,
-            "name": "md"
+            "end": 275
           },
           "init": {
             "type": "CallExpression",
-            "start": 278,
-            "end": 363,
             "callee": {
               "type": "MemberExpression",
-              "start": 278,
-              "end": 305,
               "object": {
                 "type": "MemberExpression",
-                "start": 278,
-                "end": 300,
                 "object": {
                   "type": "Identifier",
+                  "name": "Temporal",
                   "start": 278,
-                  "end": 286,
-                  "name": "Temporal"
+                  "end": 286
                 },
                 "property": {
                   "type": "Identifier",
+                  "name": "PlainMonthDay",
                   "start": 287,
-                  "end": 300,
-                  "name": "PlainMonthDay"
+                  "end": 300
                 },
                 "optional": false,
-                "computed": false
+                "computed": false,
+                "start": 278,
+                "end": 300
               },
               "property": {
                 "type": "Identifier",
+                "name": "from",
                 "start": 301,
-                "end": 305,
-                "name": "from"
+                "end": 305
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 278,
+              "end": 305
             },
             "arguments": [
               {
                 "type": "ObjectExpression",
-                "start": 306,
-                "end": 335,
                 "properties": [
                   {
                     "type": "Property",
-                    "start": 308,
-                    "end": 324,
                     "kind": "init",
                     "key": {
                       "type": "Identifier",
+                      "name": "monthCode",
                       "start": 308,
-                      "end": 317,
-                      "name": "monthCode"
+                      "end": 317
                     },
                     "value": {
                       "type": "Literal",
-                      "start": 319,
-                      "end": 324,
                       "value": "M02",
-                      "raw": "\"M02\""
+                      "raw": "\"M02\"",
+                      "start": 319,
+                      "end": 324
                     },
                     "method": false,
                     "shorthand": false,
-                    "computed": false
+                    "computed": false,
+                    "start": 308,
+                    "end": 324
                   },
                   {
                     "type": "Property",
-                    "start": 326,
-                    "end": 333,
                     "kind": "init",
                     "key": {
                       "type": "Identifier",
+                      "name": "day",
                       "start": 326,
-                      "end": 329,
-                      "name": "day"
+                      "end": 329
                     },
                     "value": {
                       "type": "Literal",
-                      "start": 331,
-                      "end": 333,
                       "value": 30,
-                      "raw": "30"
+                      "raw": "30",
+                      "start": 331,
+                      "end": 333
                     },
                     "method": false,
                     "shorthand": false,
-                    "computed": false
+                    "computed": false,
+                    "start": 326,
+                    "end": 333
                   }
-                ]
+                ],
+                "start": 306,
+                "end": 335
               },
               {
                 "type": "ObjectExpression",
-                "start": 337,
-                "end": 362,
                 "properties": [
                   {
                     "type": "Property",
-                    "start": 339,
-                    "end": 360,
                     "kind": "init",
                     "key": {
                       "type": "Identifier",
+                      "name": "overflow",
                       "start": 339,
-                      "end": 347,
-                      "name": "overflow"
+                      "end": 347
                     },
                     "value": {
                       "type": "Literal",
-                      "start": 349,
-                      "end": 360,
                       "value": "constrain",
-                      "raw": "\"constrain\""
+                      "raw": "\"constrain\"",
+                      "start": 349,
+                      "end": 360
                     },
                     "method": false,
                     "shorthand": false,
-                    "computed": false
+                    "computed": false,
+                    "start": 339,
+                    "end": 360
                   }
-                ]
+                ],
+                "start": 337,
+                "end": 362
               }
             ],
-            "optional": false
-          }
+            "optional": false,
+            "start": 278,
+            "end": 363
+          },
+          "start": 273,
+          "end": 363
         }
-      ]
+      ],
+      "start": 267,
+      "end": 364
     },
     {
       "type": "ExpressionStatement",
-      "start": 365,
-      "end": 435,
       "expression": {
         "type": "CallExpression",
-        "start": 365,
-        "end": 434,
         "callee": {
           "type": "MemberExpression",
-          "start": 365,
-          "end": 381,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 365,
-            "end": 371,
-            "name": "assert"
+            "end": 371
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 372,
-            "end": 381,
-            "name": "sameValue"
+            "end": 381
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 365,
+          "end": 381
         },
         "arguments": [
           {
             "type": "MemberExpression",
-            "start": 382,
-            "end": 388,
             "object": {
               "type": "Identifier",
+              "name": "md",
               "start": 382,
-              "end": 384,
-              "name": "md"
+              "end": 384
             },
             "property": {
               "type": "Identifier",
+              "name": "day",
               "start": 385,
-              "end": 388,
-              "name": "day"
+              "end": 388
             },
             "optional": false,
-            "computed": false
+            "computed": false,
+            "start": 382,
+            "end": 388
           },
           {
             "type": "Literal",
-            "start": 390,
-            "end": 392,
             "value": 29,
-            "raw": "29"
+            "raw": "29",
+            "start": 390,
+            "end": 392
           },
           {
             "type": "Literal",
-            "start": 394,
-            "end": 433,
             "value": "M02-30 should constrain to 29, not 28",
-            "raw": "\"M02-30 should constrain to 29, not 28\""
+            "raw": "\"M02-30 should constrain to 29, not 28\"",
+            "start": 394,
+            "end": 433
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 365,
+        "end": 434
+      },
+      "start": 365,
+      "end": 435
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 436
 }

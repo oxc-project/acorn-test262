@@ -1,90 +1,90 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 396,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 326,
-      "end": 395,
       "expression": {
         "type": "CallExpression",
-        "start": 326,
-        "end": 394,
         "callee": {
           "type": "MemberExpression",
-          "start": 326,
-          "end": 342,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 326,
-            "end": 332,
-            "name": "assert"
+            "end": 332
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 333,
-            "end": 342,
-            "name": "sameValue"
+            "end": 342
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 326,
+          "end": 342
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 343,
-            "end": 363,
             "callee": {
               "type": "MemberExpression",
-              "start": 343,
-              "end": 358,
               "object": {
                 "type": "Literal",
-                "start": 343,
-                "end": 349,
                 "value": "word",
-                "raw": "'word'"
+                "raw": "'word'",
+                "start": 343,
+                "end": 349
               },
               "property": {
                 "type": "Identifier",
+                "name": "endsWith",
                 "start": 350,
-                "end": 358,
-                "name": "endsWith"
+                "end": 358
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 343,
+              "end": 358
             },
             "arguments": [
               {
                 "type": "Literal",
-                "start": 359,
-                "end": 362,
                 "value": "d",
-                "raw": "'d'"
+                "raw": "'d'",
+                "start": 359,
+                "end": 362
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 343,
+            "end": 363
           },
           {
             "type": "Literal",
-            "start": 365,
-            "end": 369,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "start": 365,
+            "end": 369
           },
           {
             "type": "Literal",
-            "start": 371,
-            "end": 393,
             "value": "\"word\".endsWith(\"d\")",
-            "raw": "'\"word\".endsWith(\"d\")'"
+            "raw": "'\"word\".endsWith(\"d\")'",
+            "start": 371,
+            "end": 393
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 326,
+        "end": 394
+      },
+      "start": 326,
+      "end": 395
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 396
 }

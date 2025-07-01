@@ -1,152 +1,152 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 534,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 397,
-      "end": 416,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 401,
-          "end": 415,
           "id": {
             "type": "Identifier",
+            "name": "rejectFunction",
             "start": 401,
-            "end": 415,
-            "name": "rejectFunction"
+            "end": 415
           },
-          "init": null
+          "init": null,
+          "start": 401,
+          "end": 415
         }
-      ]
+      ],
+      "start": 397,
+      "end": 416
     },
     {
       "type": "ExpressionStatement",
-      "start": 417,
-      "end": 487,
       "expression": {
         "type": "NewExpression",
-        "start": 417,
-        "end": 486,
         "callee": {
           "type": "Identifier",
+          "name": "Promise",
           "start": 421,
-          "end": 428,
-          "name": "Promise"
+          "end": 428
         },
         "arguments": [
           {
             "type": "FunctionExpression",
-            "start": 429,
-            "end": 485,
             "id": null,
             "generator": false,
             "async": false,
             "params": [
               {
                 "type": "Identifier",
+                "name": "resolve",
                 "start": 438,
-                "end": 445,
-                "name": "resolve"
+                "end": 445
               },
               {
                 "type": "Identifier",
+                "name": "reject",
                 "start": 447,
-                "end": 453,
-                "name": "reject"
+                "end": 453
               }
             ],
             "body": {
               "type": "BlockStatement",
-              "start": 455,
-              "end": 485,
               "body": [
                 {
                   "type": "ExpressionStatement",
-                  "start": 459,
-                  "end": 483,
                   "expression": {
                     "type": "AssignmentExpression",
-                    "start": 459,
-                    "end": 482,
                     "operator": "=",
                     "left": {
                       "type": "Identifier",
+                      "name": "rejectFunction",
                       "start": 459,
-                      "end": 473,
-                      "name": "rejectFunction"
+                      "end": 473
                     },
                     "right": {
                       "type": "Identifier",
+                      "name": "reject",
                       "start": 476,
-                      "end": 482,
-                      "name": "reject"
-                    }
-                  }
+                      "end": 482
+                    },
+                    "start": 459,
+                    "end": 482
+                  },
+                  "start": 459,
+                  "end": 483
                 }
-              ]
+              ],
+              "start": 455,
+              "end": 485
             },
-            "expression": false
+            "expression": false,
+            "start": 429,
+            "end": 485
           }
-        ]
-      }
+        ],
+        "start": 417,
+        "end": 486
+      },
+      "start": 417,
+      "end": 487
     },
     {
       "type": "ExpressionStatement",
-      "start": 489,
-      "end": 533,
       "expression": {
         "type": "CallExpression",
-        "start": 489,
-        "end": 532,
         "callee": {
           "type": "Identifier",
+          "name": "assert",
           "start": 489,
-          "end": 495,
-          "name": "assert"
+          "end": 495
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 496,
-            "end": 531,
             "callee": {
               "type": "MemberExpression",
-              "start": 496,
-              "end": 515,
               "object": {
                 "type": "Identifier",
+                "name": "Object",
                 "start": 496,
-                "end": 502,
-                "name": "Object"
+                "end": 502
               },
               "property": {
                 "type": "Identifier",
+                "name": "isExtensible",
                 "start": 503,
-                "end": 515,
-                "name": "isExtensible"
+                "end": 515
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 496,
+              "end": 515
             },
             "arguments": [
               {
                 "type": "Identifier",
+                "name": "rejectFunction",
                 "start": 516,
-                "end": 530,
-                "name": "rejectFunction"
+                "end": 530
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 496,
+            "end": 531
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 489,
+        "end": 532
+      },
+      "start": 489,
+      "end": 533
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 534
 }

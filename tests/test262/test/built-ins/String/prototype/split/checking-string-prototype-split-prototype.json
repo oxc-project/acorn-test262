@@ -1,99 +1,99 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 430,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 277,
-      "end": 429,
       "expression": {
         "type": "CallExpression",
-        "start": 277,
-        "end": 428,
         "callee": {
           "type": "MemberExpression",
-          "start": 277,
-          "end": 293,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 277,
-            "end": 283,
-            "name": "assert"
+            "end": 283
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 284,
-            "end": 293,
-            "name": "sameValue"
+            "end": 293
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 277,
+          "end": 293
         },
         "arguments": [
           {
             "type": "MemberExpression",
-            "start": 297,
-            "end": 329,
             "object": {
               "type": "MemberExpression",
-              "start": 297,
-              "end": 319,
               "object": {
                 "type": "MemberExpression",
-                "start": 297,
-                "end": 313,
                 "object": {
                   "type": "Identifier",
+                  "name": "String",
                   "start": 297,
-                  "end": 303,
-                  "name": "String"
+                  "end": 303
                 },
                 "property": {
                   "type": "Identifier",
+                  "name": "prototype",
                   "start": 304,
-                  "end": 313,
-                  "name": "prototype"
+                  "end": 313
                 },
                 "optional": false,
-                "computed": false
+                "computed": false,
+                "start": 297,
+                "end": 313
               },
               "property": {
                 "type": "Identifier",
+                "name": "split",
                 "start": 314,
-                "end": 319,
-                "name": "split"
+                "end": 319
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 297,
+              "end": 319
             },
             "property": {
               "type": "Identifier",
+              "name": "prototype",
               "start": 320,
-              "end": 329,
-              "name": "prototype"
+              "end": 329
             },
             "optional": false,
-            "computed": false
+            "computed": false,
+            "start": 297,
+            "end": 329
           },
           {
             "type": "Identifier",
+            "name": "undefined",
             "start": 333,
-            "end": 342,
-            "name": "undefined"
+            "end": 342
           },
           {
             "type": "Literal",
-            "start": 346,
-            "end": 426,
             "value": "The value of String.prototype.split.prototype is expected to equal `undefined`",
-            "raw": "'The value of String.prototype.split.prototype is expected to equal `undefined`'"
+            "raw": "'The value of String.prototype.split.prototype is expected to equal `undefined`'",
+            "start": 346,
+            "end": 426
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 277,
+        "end": 428
+      },
+      "start": 277,
+      "end": 429
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 430
 }

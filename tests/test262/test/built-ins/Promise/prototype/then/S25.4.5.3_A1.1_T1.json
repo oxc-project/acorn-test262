@@ -1,98 +1,98 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 425,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 277,
-      "end": 424,
       "expression": {
         "type": "CallExpression",
-        "start": 277,
-        "end": 423,
         "callee": {
           "type": "Identifier",
+          "name": "assert",
           "start": 277,
-          "end": 283,
-          "name": "assert"
+          "end": 283
         },
         "arguments": [
           {
             "type": "UnaryExpression",
-            "start": 287,
-            "end": 333,
             "operator": "!",
             "argument": {
               "type": "UnaryExpression",
-              "start": 288,
-              "end": 333,
               "operator": "!",
               "argument": {
                 "type": "ParenthesizedExpression",
-                "start": 289,
-                "end": 333,
                 "expression": {
                   "type": "BinaryExpression",
-                  "start": 290,
-                  "end": 332,
                   "left": {
                     "type": "MemberExpression",
-                    "start": 290,
-                    "end": 312,
                     "object": {
                       "type": "MemberExpression",
-                      "start": 290,
-                      "end": 307,
                       "object": {
                         "type": "Identifier",
+                        "name": "Promise",
                         "start": 290,
-                        "end": 297,
-                        "name": "Promise"
+                        "end": 297
                       },
                       "property": {
                         "type": "Identifier",
+                        "name": "prototype",
                         "start": 298,
-                        "end": 307,
-                        "name": "prototype"
+                        "end": 307
                       },
                       "optional": false,
-                      "computed": false
+                      "computed": false,
+                      "start": 290,
+                      "end": 307
                     },
                     "property": {
                       "type": "Identifier",
+                      "name": "then",
                       "start": 308,
-                      "end": 312,
-                      "name": "then"
+                      "end": 312
                     },
                     "optional": false,
-                    "computed": false
+                    "computed": false,
+                    "start": 290,
+                    "end": 312
                   },
                   "operator": "instanceof",
                   "right": {
                     "type": "Identifier",
+                    "name": "Function",
                     "start": 324,
-                    "end": 332,
-                    "name": "Function"
-                  }
-                }
+                    "end": 332
+                  },
+                  "start": 290,
+                  "end": 332
+                },
+                "start": 289,
+                "end": 333
               },
-              "prefix": true
+              "prefix": true,
+              "start": 288,
+              "end": 333
             },
-            "prefix": true
+            "prefix": true,
+            "start": 287,
+            "end": 333
           },
           {
             "type": "Literal",
-            "start": 337,
-            "end": 421,
             "value": "The value of !!(Promise.prototype.then instanceof Function) is expected to be true",
-            "raw": "'The value of !!(Promise.prototype.then instanceof Function) is expected to be true'"
+            "raw": "'The value of !!(Promise.prototype.then instanceof Function) is expected to be true'",
+            "start": 337,
+            "end": 421
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 277,
+        "end": 423
+      },
+      "start": 277,
+      "end": 424
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 425
 }

@@ -1,129 +1,129 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 464,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 381,
-      "end": 387,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 385,
-          "end": 386,
           "id": {
             "type": "Identifier",
+            "name": "x",
             "start": 385,
-            "end": 386,
-            "name": "x"
+            "end": 386
           },
-          "init": null
+          "init": null,
+          "start": 385,
+          "end": 386
         }
-      ]
+      ],
+      "start": 381,
+      "end": 387
     },
     {
       "type": "ExpressionStatement",
-      "start": 388,
-      "end": 463,
       "expression": {
         "type": "CallExpression",
-        "start": 388,
-        "end": 462,
         "callee": {
           "type": "MemberExpression",
-          "start": 388,
-          "end": 401,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 388,
-            "end": 394,
-            "name": "assert"
+            "end": 394
           },
           "property": {
             "type": "Identifier",
+            "name": "throws",
             "start": 395,
-            "end": 401,
-            "name": "throws"
+            "end": 401
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 388,
+          "end": 401
         },
         "arguments": [
           {
             "type": "Identifier",
+            "name": "SyntaxError",
             "start": 402,
-            "end": 413,
-            "name": "SyntaxError"
+            "end": 413
           },
           {
             "type": "FunctionExpression",
-            "start": 415,
-            "end": 461,
             "id": null,
             "generator": false,
             "async": false,
             "params": [],
             "body": {
               "type": "BlockStatement",
-              "start": 426,
-              "end": 461,
               "body": [
                 {
                   "type": "ExpressionStatement",
-                  "start": 430,
-                  "end": 459,
                   "expression": {
                     "type": "CallExpression",
-                    "start": 430,
-                    "end": 458,
                     "callee": {
                       "type": "ParenthesizedExpression",
-                      "start": 430,
-                      "end": 438,
                       "expression": {
                         "type": "SequenceExpression",
-                        "start": 431,
-                        "end": 437,
                         "expressions": [
                           {
                             "type": "Literal",
-                            "start": 431,
-                            "end": 432,
                             "value": 0,
-                            "raw": "0"
+                            "raw": "0",
+                            "start": 431,
+                            "end": 432
                           },
                           {
                             "type": "Identifier",
+                            "name": "eval",
                             "start": 433,
-                            "end": 437,
-                            "name": "eval"
+                            "end": 437
                           }
-                        ]
-                      }
+                        ],
+                        "start": 431,
+                        "end": 437
+                      },
+                      "start": 430,
+                      "end": 438
                     },
                     "arguments": [
                       {
                         "type": "Literal",
-                        "start": 439,
-                        "end": 457,
                         "value": "x = 1; x\n++",
-                        "raw": "\"x = 1; x\\u000A++\""
+                        "raw": "\"x = 1; x\\u000A++\"",
+                        "start": 439,
+                        "end": 457
                       }
                     ],
-                    "optional": false
-                  }
+                    "optional": false,
+                    "start": 430,
+                    "end": 458
+                  },
+                  "start": 430,
+                  "end": 459
                 }
-              ]
+              ],
+              "start": 426,
+              "end": 461
             },
-            "expression": false
+            "expression": false,
+            "start": 415,
+            "end": 461
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 388,
+        "end": 462
+      },
+      "start": 388,
+      "end": 463
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 464
 }

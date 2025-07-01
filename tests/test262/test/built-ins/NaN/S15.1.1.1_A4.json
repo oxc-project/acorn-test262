@@ -1,31 +1,27 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 381,
   "body": [
     {
       "type": "ForInStatement",
-      "start": 238,
-      "end": 334,
       "left": {
         "type": "VariableDeclaration",
-        "start": 243,
-        "end": 251,
         "kind": "var",
         "declarations": [
           {
             "type": "VariableDeclarator",
-            "start": 247,
-            "end": 251,
             "id": {
               "type": "Identifier",
+              "name": "prop",
               "start": 247,
-              "end": 251,
-              "name": "prop"
+              "end": 251
             },
-            "init": null
+            "init": null,
+            "start": 247,
+            "end": 251
           }
-        ]
+        ],
+        "start": 243,
+        "end": 251
       },
       "right": {
         "type": "ThisExpression",
@@ -34,65 +30,69 @@
       },
       "body": {
         "type": "BlockStatement",
-        "start": 261,
-        "end": 334,
         "body": [
           {
             "type": "ExpressionStatement",
-            "start": 265,
-            "end": 332,
             "expression": {
               "type": "CallExpression",
-              "start": 265,
-              "end": 331,
               "callee": {
                 "type": "MemberExpression",
-                "start": 265,
-                "end": 284,
                 "object": {
                   "type": "Identifier",
+                  "name": "assert",
                   "start": 265,
-                  "end": 271,
-                  "name": "assert"
+                  "end": 271
                 },
                 "property": {
                   "type": "Identifier",
+                  "name": "notSameValue",
                   "start": 272,
-                  "end": 284,
-                  "name": "notSameValue"
+                  "end": 284
                 },
                 "optional": false,
-                "computed": false
+                "computed": false,
+                "start": 265,
+                "end": 284
               },
               "arguments": [
                 {
                   "type": "Identifier",
+                  "name": "prop",
                   "start": 285,
-                  "end": 289,
-                  "name": "prop"
+                  "end": 289
                 },
                 {
                   "type": "Literal",
-                  "start": 291,
-                  "end": 296,
                   "value": "NaN",
-                  "raw": "\"NaN\""
+                  "raw": "\"NaN\"",
+                  "start": 291,
+                  "end": 296
                 },
                 {
                   "type": "Literal",
-                  "start": 298,
-                  "end": 330,
                   "value": "The value of prop is not \"NaN\"",
-                  "raw": "'The value of prop is not \"NaN\"'"
+                  "raw": "'The value of prop is not \"NaN\"'",
+                  "start": 298,
+                  "end": 330
                 }
               ],
-              "optional": false
-            }
+              "optional": false,
+              "start": 265,
+              "end": 331
+            },
+            "start": 265,
+            "end": 332
           }
-        ]
-      }
+        ],
+        "start": 261,
+        "end": 334
+      },
+      "start": 238,
+      "end": 334
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 381
 }

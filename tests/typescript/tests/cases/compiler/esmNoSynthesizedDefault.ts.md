@@ -2,25 +2,19 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 36,
   "body": [
     {
       "type": "ExportNamedDeclaration",
-      "start": 0,
-      "end": 35,
       "declaration": {
         "type": "TSDeclareFunction",
-        "start": 7,
-        "end": 35,
         "id": {
           "type": "Identifier",
-          "start": 16,
-          "end": 24,
           "decorators": [],
           "name": "toString",
           "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "start": 16,
+          "end": 24
         },
         "generator": false,
         "async": false,
@@ -29,258 +23,264 @@ __ESTREE_TEST__:PASS:
         "params": [],
         "returnType": {
           "type": "TSTypeAnnotation",
-          "start": 26,
-          "end": 34,
           "typeAnnotation": {
             "type": "TSStringKeyword",
             "start": 28,
             "end": 34
-          }
+          },
+          "start": 26,
+          "end": 34
         },
         "body": null,
-        "expression": false
+        "expression": false,
+        "start": 7,
+        "end": 35
       },
       "specifiers": [],
       "source": null,
       "exportKind": "value",
-      "attributes": []
+      "attributes": [],
+      "start": 0,
+      "end": 35
     }
   ],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 36
 }
 ```
 __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 169,
   "body": [
     {
       "type": "ImportDeclaration",
-      "start": 0,
-      "end": 55,
       "specifiers": [
         {
           "type": "ImportDefaultSpecifier",
-          "start": 7,
-          "end": 12,
           "local": {
             "type": "Identifier",
-            "start": 7,
-            "end": 12,
             "decorators": [],
             "name": "mdast",
             "optional": false,
-            "typeAnnotation": null
-          }
+            "typeAnnotation": null,
+            "start": 7,
+            "end": 12
+          },
+          "start": 7,
+          "end": 12
         },
         {
           "type": "ImportSpecifier",
-          "start": 16,
-          "end": 24,
           "imported": {
             "type": "Identifier",
-            "start": 16,
-            "end": 24,
             "decorators": [],
             "name": "toString",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 16,
+            "end": 24
           },
           "local": {
             "type": "Identifier",
-            "start": 16,
-            "end": 24,
             "decorators": [],
             "name": "toString",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 16,
+            "end": 24
           },
-          "importKind": "value"
+          "importKind": "value",
+          "start": 16,
+          "end": 24
         }
       ],
       "source": {
         "type": "Literal",
-        "start": 32,
-        "end": 54,
         "value": "mdast-util-to-string",
-        "raw": "'mdast-util-to-string'"
+        "raw": "'mdast-util-to-string'",
+        "start": 32,
+        "end": 54
       },
       "phase": null,
       "attributes": [],
-      "importKind": "value"
+      "importKind": "value",
+      "start": 0,
+      "end": 55
     },
     {
       "type": "ExpressionStatement",
-      "start": 56,
-      "end": 62,
       "expression": {
         "type": "Identifier",
-        "start": 56,
-        "end": 61,
         "decorators": [],
         "name": "mdast",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 56,
+        "end": 61
       },
-      "directive": null
+      "directive": null,
+      "start": 56,
+      "end": 62
     },
     {
       "type": "ExpressionStatement",
-      "start": 63,
-      "end": 80,
       "expression": {
         "type": "CallExpression",
-        "start": 63,
-        "end": 79,
         "callee": {
           "type": "MemberExpression",
-          "start": 63,
-          "end": 77,
           "object": {
             "type": "Identifier",
-            "start": 63,
-            "end": 68,
             "decorators": [],
             "name": "mdast",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 63,
+            "end": 68
           },
           "property": {
             "type": "Identifier",
-            "start": 69,
-            "end": 77,
             "decorators": [],
             "name": "toString",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 69,
+            "end": 77
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 63,
+          "end": 77
         },
         "typeArguments": null,
         "arguments": [],
-        "optional": false
+        "optional": false,
+        "start": 63,
+        "end": 79
       },
-      "directive": null
+      "directive": null,
+      "start": 63,
+      "end": 80
     },
     {
       "type": "VariableDeclaration",
-      "start": 82,
-      "end": 134,
       "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 88,
-          "end": 133,
           "id": {
             "type": "Identifier",
-            "start": 88,
-            "end": 94,
             "decorators": [],
             "name": "mdast2",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 88,
+            "end": 94
           },
           "init": {
             "type": "AwaitExpression",
-            "start": 97,
-            "end": 133,
             "argument": {
               "type": "ImportExpression",
-              "start": 103,
-              "end": 133,
               "source": {
                 "type": "Literal",
-                "start": 110,
-                "end": 132,
                 "value": "mdast-util-to-string",
-                "raw": "'mdast-util-to-string'"
+                "raw": "'mdast-util-to-string'",
+                "start": 110,
+                "end": 132
               },
               "options": null,
-              "phase": null
-            }
+              "phase": null,
+              "start": 103,
+              "end": 133
+            },
+            "start": 97,
+            "end": 133
           },
-          "definite": false
+          "definite": false,
+          "start": 88,
+          "end": 133
         }
       ],
-      "declare": false
+      "declare": false,
+      "start": 82,
+      "end": 134
     },
     {
       "type": "ExpressionStatement",
-      "start": 135,
-      "end": 153,
       "expression": {
         "type": "CallExpression",
-        "start": 135,
-        "end": 152,
         "callee": {
           "type": "MemberExpression",
-          "start": 135,
-          "end": 150,
           "object": {
             "type": "Identifier",
-            "start": 135,
-            "end": 141,
             "decorators": [],
             "name": "mdast2",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 135,
+            "end": 141
           },
           "property": {
             "type": "Identifier",
-            "start": 142,
-            "end": 150,
             "decorators": [],
             "name": "toString",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 142,
+            "end": 150
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 135,
+          "end": 150
         },
         "typeArguments": null,
         "arguments": [],
-        "optional": false
+        "optional": false,
+        "start": 135,
+        "end": 152
       },
-      "directive": null
+      "directive": null,
+      "start": 135,
+      "end": 153
     },
     {
       "type": "ExpressionStatement",
-      "start": 154,
-      "end": 169,
       "expression": {
         "type": "MemberExpression",
-        "start": 154,
-        "end": 168,
         "object": {
           "type": "Identifier",
-          "start": 154,
-          "end": 160,
           "decorators": [],
           "name": "mdast2",
           "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "start": 154,
+          "end": 160
         },
         "property": {
           "type": "Identifier",
-          "start": 161,
-          "end": 168,
           "decorators": [],
           "name": "default",
           "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "start": 161,
+          "end": 168
         },
         "optional": false,
-        "computed": false
+        "computed": false,
+        "start": 154,
+        "end": 168
       },
-      "directive": null
+      "directive": null,
+      "start": 154,
+      "end": 169
     }
   ],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 169
 }
 ```

@@ -1,118 +1,112 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 417,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 329,
-      "end": 355,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 333,
-          "end": 354,
           "id": {
             "type": "Identifier",
+            "name": "gO",
             "start": 333,
-            "end": 335,
-            "name": "gO"
+            "end": 335
           },
           "init": {
             "type": "CallExpression",
-            "start": 338,
-            "end": 354,
             "callee": {
               "type": "Identifier",
+              "name": "fnGlobalObject",
               "start": 338,
-              "end": 352,
-              "name": "fnGlobalObject"
+              "end": 352
             },
             "arguments": [],
-            "optional": false
-          }
+            "optional": false,
+            "start": 338,
+            "end": 354
+          },
+          "start": 333,
+          "end": 354
         }
-      ]
+      ],
+      "start": 329,
+      "end": 355
     },
     {
       "type": "ExpressionStatement",
-      "start": 357,
-      "end": 388,
       "expression": {
         "type": "CallExpression",
-        "start": 357,
-        "end": 387,
         "callee": {
           "type": "Identifier",
+          "name": "assert",
           "start": 357,
-          "end": 363,
-          "name": "assert"
+          "end": 363
         },
         "arguments": [
           {
             "type": "BinaryExpression",
-            "start": 364,
-            "end": 386,
             "left": {
               "type": "UnaryExpression",
-              "start": 364,
-              "end": 373,
               "operator": "typeof",
               "argument": {
                 "type": "Identifier",
+                "name": "gO",
                 "start": 371,
-                "end": 373,
-                "name": "gO"
+                "end": 373
               },
-              "prefix": true
+              "prefix": true,
+              "start": 364,
+              "end": 373
             },
             "operator": "===",
             "right": {
               "type": "Literal",
-              "start": 378,
-              "end": 386,
               "value": "object",
-              "raw": "\"object\""
-            }
+              "raw": "\"object\"",
+              "start": 378,
+              "end": 386
+            },
+            "start": 364,
+            "end": 386
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 357,
+        "end": 387
+      },
+      "start": 357,
+      "end": 388
     },
     {
       "type": "ExpressionStatement",
-      "start": 389,
-      "end": 416,
       "expression": {
         "type": "CallExpression",
-        "start": 389,
-        "end": 415,
         "callee": {
           "type": "MemberExpression",
-          "start": 389,
-          "end": 405,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 389,
-            "end": 395,
-            "name": "assert"
+            "end": 395
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 396,
-            "end": 405,
-            "name": "sameValue"
+            "end": 405
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 389,
+          "end": 405
         },
         "arguments": [
           {
             "type": "Identifier",
+            "name": "gO",
             "start": 406,
-            "end": 408,
-            "name": "gO"
+            "end": 408
           },
           {
             "type": "ThisExpression",
@@ -120,10 +114,16 @@
             "end": 414
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 389,
+        "end": 415
+      },
+      "start": 389,
+      "end": 416
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 417
 }

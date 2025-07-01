@@ -2,37 +2,29 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 51,
   "body": [
     {
       "type": "WhileStatement",
-      "start": 0,
-      "end": 51,
       "test": {
         "type": "Literal",
-        "start": 7,
-        "end": 11,
         "value": true,
-        "raw": "true"
+        "raw": "true",
+        "start": 7,
+        "end": 11
       },
       "body": {
         "type": "BlockStatement",
-        "start": 13,
-        "end": 51,
         "body": [
           {
             "type": "FunctionDeclaration",
-            "start": 17,
-            "end": 49,
             "id": {
               "type": "Identifier",
-              "start": 26,
-              "end": 27,
               "decorators": [],
               "name": "f",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 26,
+              "end": 27
             },
             "generator": false,
             "async": false,
@@ -42,24 +34,32 @@ __ESTREE_TEST__:PASS:
             "returnType": null,
             "body": {
               "type": "BlockStatement",
-              "start": 30,
-              "end": 49,
               "body": [
                 {
                   "type": "ContinueStatement",
+                  "label": null,
                   "start": 36,
-                  "end": 45,
-                  "label": null
+                  "end": 45
                 }
-              ]
+              ],
+              "start": 30,
+              "end": 49
             },
-            "expression": false
+            "expression": false,
+            "start": 17,
+            "end": 49
           }
-        ]
-      }
+        ],
+        "start": 13,
+        "end": 51
+      },
+      "start": 0,
+      "end": 51
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 51
 }
 ```

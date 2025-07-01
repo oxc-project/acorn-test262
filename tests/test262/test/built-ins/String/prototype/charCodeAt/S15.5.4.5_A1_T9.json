@@ -1,194 +1,194 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 803,
   "body": [
     {
       "type": "IfStatement",
-      "start": 476,
-      "end": 720,
       "test": {
         "type": "BinaryExpression",
-        "start": 480,
-        "end": 531,
         "left": {
           "type": "CallExpression",
-          "start": 480,
-          "end": 522,
           "callee": {
             "type": "MemberExpression",
-            "start": 480,
-            "end": 505,
             "object": {
               "type": "NewExpression",
-              "start": 480,
-              "end": 494,
               "callee": {
                 "type": "Identifier",
+                "name": "String",
                 "start": 484,
-                "end": 490,
-                "name": "String"
+                "end": 490
               },
               "arguments": [
                 {
                   "type": "Literal",
-                  "start": 491,
-                  "end": 493,
                   "value": 42,
-                  "raw": "42"
+                  "raw": "42",
+                  "start": 491,
+                  "end": 493
                 }
-              ]
+              ],
+              "start": 480,
+              "end": 494
             },
             "property": {
               "type": "Identifier",
+              "name": "charCodeAt",
               "start": 495,
-              "end": 505,
-              "name": "charCodeAt"
+              "end": 505
             },
             "optional": false,
-            "computed": false
+            "computed": false,
+            "start": 480,
+            "end": 505
           },
           "arguments": [
             {
               "type": "CallExpression",
-              "start": 506,
-              "end": 521,
               "callee": {
                 "type": "FunctionExpression",
-                "start": 506,
-                "end": 519,
                 "id": null,
                 "generator": false,
                 "async": false,
                 "params": [],
                 "body": {
                   "type": "BlockStatement",
+                  "body": [],
                   "start": 517,
-                  "end": 519,
-                  "body": []
+                  "end": 519
                 },
-                "expression": false
+                "expression": false,
+                "start": 506,
+                "end": 519
               },
               "arguments": [],
-              "optional": false
+              "optional": false,
+              "start": 506,
+              "end": 521
             }
           ],
-          "optional": false
+          "optional": false,
+          "start": 480,
+          "end": 522
         },
         "operator": "!==",
         "right": {
           "type": "Literal",
-          "start": 527,
-          "end": 531,
           "value": 52,
-          "raw": "0x34"
-        }
+          "raw": "0x34",
+          "start": 527,
+          "end": 531
+        },
+        "start": 480,
+        "end": 531
       },
       "consequent": {
         "type": "BlockStatement",
-        "start": 533,
-        "end": 720,
         "body": [
           {
             "type": "ThrowStatement",
-            "start": 537,
-            "end": 718,
             "argument": {
               "type": "NewExpression",
-              "start": 543,
-              "end": 717,
               "callee": {
                 "type": "Identifier",
+                "name": "Test262Error",
                 "start": 547,
-                "end": 559,
-                "name": "Test262Error"
+                "end": 559
               },
               "arguments": [
                 {
                   "type": "BinaryExpression",
-                  "start": 560,
-                  "end": 716,
                   "left": {
                     "type": "Literal",
-                    "start": 560,
-                    "end": 671,
                     "value": "#1: new String(42).charCodeAt(function(){}()) === 0x34. Actual: new String(42).charCodeAt(function(){}()) ===",
-                    "raw": "'#1: new String(42).charCodeAt(function(){}()) === 0x34. Actual: new String(42).charCodeAt(function(){}()) ==='"
+                    "raw": "'#1: new String(42).charCodeAt(function(){}()) === 0x34. Actual: new String(42).charCodeAt(function(){}()) ==='",
+                    "start": 560,
+                    "end": 671
                   },
                   "operator": "+",
                   "right": {
                     "type": "CallExpression",
-                    "start": 674,
-                    "end": 716,
                     "callee": {
                       "type": "MemberExpression",
-                      "start": 674,
-                      "end": 699,
                       "object": {
                         "type": "NewExpression",
-                        "start": 674,
-                        "end": 688,
                         "callee": {
                           "type": "Identifier",
+                          "name": "String",
                           "start": 678,
-                          "end": 684,
-                          "name": "String"
+                          "end": 684
                         },
                         "arguments": [
                           {
                             "type": "Literal",
-                            "start": 685,
-                            "end": 687,
                             "value": 42,
-                            "raw": "42"
+                            "raw": "42",
+                            "start": 685,
+                            "end": 687
                           }
-                        ]
+                        ],
+                        "start": 674,
+                        "end": 688
                       },
                       "property": {
                         "type": "Identifier",
+                        "name": "charCodeAt",
                         "start": 689,
-                        "end": 699,
-                        "name": "charCodeAt"
+                        "end": 699
                       },
                       "optional": false,
-                      "computed": false
+                      "computed": false,
+                      "start": 674,
+                      "end": 699
                     },
                     "arguments": [
                       {
                         "type": "CallExpression",
-                        "start": 700,
-                        "end": 715,
                         "callee": {
                           "type": "FunctionExpression",
-                          "start": 700,
-                          "end": 713,
                           "id": null,
                           "generator": false,
                           "async": false,
                           "params": [],
                           "body": {
                             "type": "BlockStatement",
+                            "body": [],
                             "start": 711,
-                            "end": 713,
-                            "body": []
+                            "end": 713
                           },
-                          "expression": false
+                          "expression": false,
+                          "start": 700,
+                          "end": 713
                         },
                         "arguments": [],
-                        "optional": false
+                        "optional": false,
+                        "start": 700,
+                        "end": 715
                       }
                     ],
-                    "optional": false
-                  }
+                    "optional": false,
+                    "start": 674,
+                    "end": 716
+                  },
+                  "start": 560,
+                  "end": 716
                 }
-              ]
-            }
+              ],
+              "start": 543,
+              "end": 717
+            },
+            "start": 537,
+            "end": 718
           }
-        ]
+        ],
+        "start": 533,
+        "end": 720
       },
-      "alternate": null
+      "alternate": null,
+      "start": 476,
+      "end": 720
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 803
 }

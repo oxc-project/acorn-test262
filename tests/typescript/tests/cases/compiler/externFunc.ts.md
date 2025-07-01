@@ -2,21 +2,17 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 59,
   "body": [
     {
       "type": "TSDeclareFunction",
-      "start": 0,
-      "end": 43,
       "id": {
         "type": "Identifier",
-        "start": 17,
-        "end": 25,
         "decorators": [],
         "name": "parseInt",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 17,
+        "end": 25
       },
       "generator": false,
       "async": false,
@@ -25,69 +21,73 @@ __ESTREE_TEST__:PASS:
       "params": [
         {
           "type": "Identifier",
-          "start": 26,
-          "end": 34,
           "decorators": [],
           "name": "s",
           "optional": false,
           "typeAnnotation": {
             "type": "TSTypeAnnotation",
-            "start": 27,
-            "end": 34,
             "typeAnnotation": {
               "type": "TSStringKeyword",
               "start": 28,
               "end": 34
-            }
-          }
+            },
+            "start": 27,
+            "end": 34
+          },
+          "start": 26,
+          "end": 34
         }
       ],
       "returnType": {
         "type": "TSTypeAnnotation",
-        "start": 35,
-        "end": 42,
         "typeAnnotation": {
           "type": "TSNumberKeyword",
           "start": 36,
           "end": 42
-        }
+        },
+        "start": 35,
+        "end": 42
       },
       "body": null,
-      "expression": false
+      "expression": false,
+      "start": 0,
+      "end": 43
     },
     {
       "type": "ExpressionStatement",
-      "start": 45,
-      "end": 59,
       "expression": {
         "type": "CallExpression",
-        "start": 45,
-        "end": 58,
         "callee": {
           "type": "Identifier",
-          "start": 45,
-          "end": 53,
           "decorators": [],
           "name": "parseInt",
           "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "start": 45,
+          "end": 53
         },
         "typeArguments": null,
         "arguments": [
           {
             "type": "Literal",
-            "start": 54,
-            "end": 57,
             "value": "2",
-            "raw": "\"2\""
+            "raw": "\"2\"",
+            "start": 54,
+            "end": 57
           }
         ],
-        "optional": false
+        "optional": false,
+        "start": 45,
+        "end": 58
       },
-      "directive": null
+      "directive": null,
+      "start": 45,
+      "end": 59
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 59
 }
 ```

@@ -2,21 +2,17 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 96,
-  "end": 142,
   "body": [
     {
       "type": "FunctionDeclaration",
-      "start": 96,
-      "end": 142,
       "id": {
         "type": "Identifier",
-        "start": 105,
-        "end": 119,
         "decorators": [],
         "name": "isLessThanFive",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 105,
+        "end": 119
       },
       "generator": false,
       "async": false,
@@ -25,53 +21,57 @@ __ESTREE_TEST__:PASS:
       "params": [
         {
           "type": "Identifier",
-          "start": 120,
-          "end": 121,
           "decorators": [],
           "name": "n",
           "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "start": 120,
+          "end": 121
         }
       ],
       "returnType": null,
       "body": {
         "type": "BlockStatement",
-        "start": 123,
-        "end": 142,
         "body": [
           {
             "type": "ReturnStatement",
-            "start": 127,
-            "end": 140,
             "argument": {
               "type": "BinaryExpression",
-              "start": 134,
-              "end": 139,
               "left": {
                 "type": "Identifier",
-                "start": 134,
-                "end": 135,
                 "decorators": [],
                 "name": "n",
                 "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "start": 134,
+                "end": 135
               },
               "operator": "<",
               "right": {
                 "type": "Literal",
-                "start": 138,
-                "end": 139,
                 "value": 5,
-                "raw": "5"
-              }
-            }
+                "raw": "5",
+                "start": 138,
+                "end": 139
+              },
+              "start": 134,
+              "end": 139
+            },
+            "start": 127,
+            "end": 140
           }
-        ]
+        ],
+        "start": 123,
+        "end": 142
       },
-      "expression": false
+      "expression": false,
+      "start": 96,
+      "end": 142
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 96,
+  "end": 142
 }
 ```

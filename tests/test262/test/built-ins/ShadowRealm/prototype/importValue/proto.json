@@ -1,119 +1,119 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 651,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 555,
-      "end": 650,
       "expression": {
         "type": "CallExpression",
-        "start": 555,
-        "end": 649,
         "callee": {
           "type": "MemberExpression",
-          "start": 555,
-          "end": 571,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 555,
-            "end": 561,
-            "name": "assert"
+            "end": 561
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 562,
-            "end": 571,
-            "name": "sameValue"
+            "end": 571
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 555,
+          "end": 571
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 572,
-            "end": 628,
             "callee": {
               "type": "MemberExpression",
-              "start": 572,
-              "end": 593,
               "object": {
                 "type": "Identifier",
+                "name": "Object",
                 "start": 572,
-                "end": 578,
-                "name": "Object"
+                "end": 578
               },
               "property": {
                 "type": "Identifier",
+                "name": "getPrototypeOf",
                 "start": 579,
-                "end": 593,
-                "name": "getPrototypeOf"
+                "end": 593
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 572,
+              "end": 593
             },
             "arguments": [
               {
                 "type": "MemberExpression",
-                "start": 594,
-                "end": 627,
                 "object": {
                   "type": "MemberExpression",
-                  "start": 594,
-                  "end": 615,
                   "object": {
                     "type": "Identifier",
+                    "name": "ShadowRealm",
                     "start": 594,
-                    "end": 605,
-                    "name": "ShadowRealm"
+                    "end": 605
                   },
                   "property": {
                     "type": "Identifier",
+                    "name": "prototype",
                     "start": 606,
-                    "end": 615,
-                    "name": "prototype"
+                    "end": 615
                   },
                   "optional": false,
-                  "computed": false
+                  "computed": false,
+                  "start": 594,
+                  "end": 615
                 },
                 "property": {
                   "type": "Identifier",
+                  "name": "importValue",
                   "start": 616,
-                  "end": 627,
-                  "name": "importValue"
+                  "end": 627
                 },
                 "optional": false,
-                "computed": false
+                "computed": false,
+                "start": 594,
+                "end": 627
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 572,
+            "end": 628
           },
           {
             "type": "MemberExpression",
-            "start": 630,
-            "end": 648,
             "object": {
               "type": "Identifier",
+              "name": "Function",
               "start": 630,
-              "end": 638,
-              "name": "Function"
+              "end": 638
             },
             "property": {
               "type": "Identifier",
+              "name": "prototype",
               "start": 639,
-              "end": 648,
-              "name": "prototype"
+              "end": 648
             },
             "optional": false,
-            "computed": false
+            "computed": false,
+            "start": 630,
+            "end": 648
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 555,
+        "end": 649
+      },
+      "start": 555,
+      "end": 650
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 651
 }

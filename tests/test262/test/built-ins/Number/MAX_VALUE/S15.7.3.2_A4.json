@@ -1,166 +1,166 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 564,
   "body": [
     {
       "type": "ForInStatement",
-      "start": 275,
-      "end": 376,
       "left": {
         "type": "VariableDeclaration",
-        "start": 280,
-        "end": 285,
         "kind": "var",
         "declarations": [
           {
             "type": "VariableDeclarator",
-            "start": 284,
-            "end": 285,
             "id": {
               "type": "Identifier",
+              "name": "x",
               "start": 284,
-              "end": 285,
-              "name": "x"
+              "end": 285
             },
-            "init": null
+            "init": null,
+            "start": 284,
+            "end": 285
           }
-        ]
+        ],
+        "start": 280,
+        "end": 285
       },
       "right": {
         "type": "Identifier",
+        "name": "Number",
         "start": 289,
-        "end": 295,
-        "name": "Number"
+        "end": 295
       },
       "body": {
         "type": "BlockStatement",
-        "start": 297,
-        "end": 376,
         "body": [
           {
             "type": "ExpressionStatement",
-            "start": 301,
-            "end": 374,
             "expression": {
               "type": "CallExpression",
-              "start": 301,
-              "end": 373,
               "callee": {
                 "type": "MemberExpression",
-                "start": 301,
-                "end": 320,
                 "object": {
                   "type": "Identifier",
+                  "name": "assert",
                   "start": 301,
-                  "end": 307,
-                  "name": "assert"
+                  "end": 307
                 },
                 "property": {
                   "type": "Identifier",
+                  "name": "notSameValue",
                   "start": 308,
-                  "end": 320,
-                  "name": "notSameValue"
+                  "end": 320
                 },
                 "optional": false,
-                "computed": false
+                "computed": false,
+                "start": 301,
+                "end": 320
               },
               "arguments": [
                 {
                   "type": "Identifier",
+                  "name": "x",
                   "start": 321,
-                  "end": 322,
-                  "name": "x"
+                  "end": 322
                 },
                 {
                   "type": "Literal",
-                  "start": 324,
-                  "end": 335,
                   "value": "MAX_VALUE",
-                  "raw": "\"MAX_VALUE\""
+                  "raw": "\"MAX_VALUE\"",
+                  "start": 324,
+                  "end": 335
                 },
                 {
                   "type": "Literal",
-                  "start": 337,
-                  "end": 372,
                   "value": "The value of x is not \"MAX_VALUE\"",
-                  "raw": "'The value of x is not \"MAX_VALUE\"'"
+                  "raw": "'The value of x is not \"MAX_VALUE\"'",
+                  "start": 337,
+                  "end": 372
                 }
               ],
-              "optional": false
-            }
+              "optional": false,
+              "start": 301,
+              "end": 373
+            },
+            "start": 301,
+            "end": 374
           }
-        ]
-      }
+        ],
+        "start": 297,
+        "end": 376
+      },
+      "start": 275,
+      "end": 376
     },
     {
       "type": "ExpressionStatement",
-      "start": 378,
-      "end": 517,
       "expression": {
         "type": "CallExpression",
-        "start": 378,
-        "end": 516,
         "callee": {
           "type": "Identifier",
+          "name": "assert",
           "start": 378,
-          "end": 384,
-          "name": "assert"
+          "end": 384
         },
         "arguments": [
           {
             "type": "UnaryExpression",
-            "start": 388,
-            "end": 429,
             "operator": "!",
             "argument": {
               "type": "CallExpression",
-              "start": 389,
-              "end": 429,
               "callee": {
                 "type": "MemberExpression",
-                "start": 389,
-                "end": 416,
                 "object": {
                   "type": "Identifier",
+                  "name": "Number",
                   "start": 389,
-                  "end": 395,
-                  "name": "Number"
+                  "end": 395
                 },
                 "property": {
                   "type": "Identifier",
+                  "name": "propertyIsEnumerable",
                   "start": 396,
-                  "end": 416,
-                  "name": "propertyIsEnumerable"
+                  "end": 416
                 },
                 "optional": false,
-                "computed": false
+                "computed": false,
+                "start": 389,
+                "end": 416
               },
               "arguments": [
                 {
                   "type": "Literal",
-                  "start": 417,
-                  "end": 428,
                   "value": "MAX_VALUE",
-                  "raw": "'MAX_VALUE'"
+                  "raw": "'MAX_VALUE'",
+                  "start": 417,
+                  "end": 428
                 }
               ],
-              "optional": false
+              "optional": false,
+              "start": 389,
+              "end": 429
             },
-            "prefix": true
+            "prefix": true,
+            "start": 388,
+            "end": 429
           },
           {
             "type": "Literal",
-            "start": 433,
-            "end": 514,
             "value": "The value of !Number.propertyIsEnumerable('MAX_VALUE') is expected to be true",
-            "raw": "'The value of !Number.propertyIsEnumerable(\\'MAX_VALUE\\') is expected to be true'"
+            "raw": "'The value of !Number.propertyIsEnumerable(\\'MAX_VALUE\\') is expected to be true'",
+            "start": 433,
+            "end": 514
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 378,
+        "end": 516
+      },
+      "start": 378,
+      "end": 517
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 564
 }

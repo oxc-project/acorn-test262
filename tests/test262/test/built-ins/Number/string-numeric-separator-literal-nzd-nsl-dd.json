@@ -1,75 +1,75 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 674,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 629,
-      "end": 673,
       "expression": {
         "type": "CallExpression",
-        "start": 629,
-        "end": 672,
         "callee": {
           "type": "MemberExpression",
-          "start": 629,
-          "end": 645,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 629,
-            "end": 635,
-            "name": "assert"
+            "end": 635
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 636,
-            "end": 645,
-            "name": "sameValue"
+            "end": 645
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 629,
+          "end": 645
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 646,
-            "end": 659,
             "callee": {
               "type": "Identifier",
+              "name": "Number",
               "start": 646,
-              "end": 652,
-              "name": "Number"
+              "end": 652
             },
             "arguments": [
               {
                 "type": "Literal",
-                "start": 653,
-                "end": 658,
                 "value": "1_1",
-                "raw": "\"1_1\""
+                "raw": "\"1_1\"",
+                "start": 653,
+                "end": 658
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 646,
+            "end": 659
           },
           {
             "type": "Identifier",
+            "name": "NaN",
             "start": 661,
-            "end": 664,
-            "name": "NaN"
+            "end": 664
           },
           {
             "type": "Literal",
-            "start": 666,
-            "end": 671,
             "value": "1_1",
-            "raw": "\"1_1\""
+            "raw": "\"1_1\"",
+            "start": 666,
+            "end": 671
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 629,
+        "end": 672
+      },
+      "start": 629,
+      "end": 673
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 674
 }

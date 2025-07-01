@@ -1,100 +1,100 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 608,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 438,
-      "end": 607,
       "expression": {
         "type": "CallExpression",
-        "start": 438,
-        "end": 606,
         "callee": {
           "type": "MemberExpression",
-          "start": 438,
-          "end": 454,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 438,
-            "end": 444,
-            "name": "assert"
+            "end": 444
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 445,
-            "end": 454,
-            "name": "sameValue"
+            "end": 454
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 438,
+          "end": 454
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 458,
-            "end": 496,
             "callee": {
               "type": "MemberExpression",
-              "start": 458,
-              "end": 479,
               "object": {
                 "type": "Identifier",
+                "name": "Object",
                 "start": 458,
-                "end": 464,
-                "name": "Object"
+                "end": 464
               },
               "property": {
                 "type": "Identifier",
+                "name": "getPrototypeOf",
                 "start": 465,
-                "end": 479,
-                "name": "getPrototypeOf"
+                "end": 479
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 458,
+              "end": 479
             },
             "arguments": [
               {
                 "type": "Identifier",
+                "name": "DisposableStack",
                 "start": 480,
-                "end": 495,
-                "name": "DisposableStack"
+                "end": 495
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 458,
+            "end": 496
           },
           {
             "type": "MemberExpression",
-            "start": 500,
-            "end": 518,
             "object": {
               "type": "Identifier",
+              "name": "Function",
               "start": 500,
-              "end": 508,
-              "name": "Function"
+              "end": 508
             },
             "property": {
               "type": "Identifier",
+              "name": "prototype",
               "start": 509,
-              "end": 518,
-              "name": "prototype"
+              "end": 518
             },
             "optional": false,
-            "computed": false
+            "computed": false,
+            "start": 500,
+            "end": 518
           },
           {
             "type": "Literal",
-            "start": 522,
-            "end": 604,
             "value": "Object.getPrototypeOf(DisposableStack) returns the value of `Function.prototype`",
-            "raw": "'Object.getPrototypeOf(DisposableStack) returns the value of `Function.prototype`'"
+            "raw": "'Object.getPrototypeOf(DisposableStack) returns the value of `Function.prototype`'",
+            "start": 522,
+            "end": 604
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 438,
+        "end": 606
+      },
+      "start": 438,
+      "end": 607
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 608
 }

@@ -2,22 +2,18 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 329,
-  "end": 374,
   "body": [
     {
       "type": "ClassDeclaration",
-      "start": 329,
-      "end": 373,
       "decorators": [],
       "id": {
         "type": "Identifier",
-        "start": 343,
-        "end": 350,
         "decorators": [],
         "name": "MyClass",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 343,
+        "end": 350
       },
       "typeParameters": null,
       "superClass": null,
@@ -25,32 +21,28 @@ __ESTREE_TEST__:PASS:
       "implements": [],
       "body": {
         "type": "ClassBody",
-        "start": 351,
-        "end": 373,
         "body": [
           {
             "type": "PropertyDefinition",
-            "start": 353,
-            "end": 371,
             "decorators": [],
             "key": {
               "type": "Identifier",
-              "start": 361,
-              "end": 362,
               "decorators": [],
               "name": "x",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 361,
+              "end": 362
             },
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
-              "start": 362,
-              "end": 370,
               "typeAnnotation": {
                 "type": "TSNumberKeyword",
                 "start": 364,
                 "end": 370
-              }
+              },
+              "start": 362,
+              "end": 370
             },
             "value": null,
             "computed": false,
@@ -60,37 +52,45 @@ __ESTREE_TEST__:PASS:
             "optional": false,
             "definite": false,
             "readonly": false,
-            "accessibility": "private"
+            "accessibility": "private",
+            "start": 353,
+            "end": 371
           }
-        ]
+        ],
+        "start": 351,
+        "end": 373
       },
       "abstract": false,
-      "declare": true
+      "declare": true,
+      "start": 329,
+      "end": 373
     }
   ],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 329,
+  "end": 374
 }
 ```
 __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
+  "body": [],
+  "sourceType": "module",
+  "hashbang": null,
   "start": 36,
-  "end": 36,
-  "body": [],
-  "sourceType": "module",
-  "hashbang": null
+  "end": 36
 }
 ```
 __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 72,
-  "end": 72,
   "body": [],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 72,
+  "end": 72
 }
 ```

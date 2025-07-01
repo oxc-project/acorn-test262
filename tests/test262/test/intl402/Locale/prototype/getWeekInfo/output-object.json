@@ -1,140 +1,140 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 524,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 428,
-      "end": 523,
       "expression": {
         "type": "CallExpression",
-        "start": 428,
-        "end": 522,
         "callee": {
           "type": "MemberExpression",
-          "start": 428,
-          "end": 444,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 428,
-            "end": 434,
-            "name": "assert"
+            "end": 434
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 435,
-            "end": 444,
-            "name": "sameValue"
+            "end": 444
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 428,
+          "end": 444
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 445,
-            "end": 503,
             "callee": {
               "type": "MemberExpression",
-              "start": 445,
-              "end": 466,
               "object": {
                 "type": "Identifier",
+                "name": "Object",
                 "start": 445,
-                "end": 451,
-                "name": "Object"
+                "end": 451
               },
               "property": {
                 "type": "Identifier",
+                "name": "getPrototypeOf",
                 "start": 452,
-                "end": 466,
-                "name": "getPrototypeOf"
+                "end": 466
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 445,
+              "end": 466
             },
             "arguments": [
               {
                 "type": "CallExpression",
-                "start": 467,
-                "end": 502,
                 "callee": {
                   "type": "MemberExpression",
-                  "start": 467,
-                  "end": 500,
                   "object": {
                     "type": "NewExpression",
-                    "start": 467,
-                    "end": 488,
                     "callee": {
                       "type": "MemberExpression",
-                      "start": 471,
-                      "end": 482,
                       "object": {
                         "type": "Identifier",
+                        "name": "Intl",
                         "start": 471,
-                        "end": 475,
-                        "name": "Intl"
+                        "end": 475
                       },
                       "property": {
                         "type": "Identifier",
+                        "name": "Locale",
                         "start": 476,
-                        "end": 482,
-                        "name": "Locale"
+                        "end": 482
                       },
                       "optional": false,
-                      "computed": false
+                      "computed": false,
+                      "start": 471,
+                      "end": 482
                     },
                     "arguments": [
                       {
                         "type": "Literal",
-                        "start": 483,
-                        "end": 487,
                         "value": "en",
-                        "raw": "'en'"
+                        "raw": "'en'",
+                        "start": 483,
+                        "end": 487
                       }
-                    ]
+                    ],
+                    "start": 467,
+                    "end": 488
                   },
                   "property": {
                     "type": "Identifier",
+                    "name": "getWeekInfo",
                     "start": 489,
-                    "end": 500,
-                    "name": "getWeekInfo"
+                    "end": 500
                   },
                   "optional": false,
-                  "computed": false
+                  "computed": false,
+                  "start": 467,
+                  "end": 500
                 },
                 "arguments": [],
-                "optional": false
+                "optional": false,
+                "start": 467,
+                "end": 502
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 445,
+            "end": 503
           },
           {
             "type": "MemberExpression",
-            "start": 505,
-            "end": 521,
             "object": {
               "type": "Identifier",
+              "name": "Object",
               "start": 505,
-              "end": 511,
-              "name": "Object"
+              "end": 511
             },
             "property": {
               "type": "Identifier",
+              "name": "prototype",
               "start": 512,
-              "end": 521,
-              "name": "prototype"
+              "end": 521
             },
             "optional": false,
-            "computed": false
+            "computed": false,
+            "start": 505,
+            "end": 521
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 428,
+        "end": 522
+      },
+      "start": 428,
+      "end": 523
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 524
 }

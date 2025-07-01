@@ -2,135 +2,135 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 62,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 0,
-      "end": 30,
       "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 6,
-          "end": 29,
           "id": {
             "type": "Identifier",
-            "start": 6,
-            "end": 9,
             "decorators": [],
             "name": "foo",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 6,
+            "end": 9
           },
           "init": {
             "type": "CallExpression",
-            "start": 12,
-            "end": 29,
             "callee": {
               "type": "MemberExpression",
-              "start": 12,
-              "end": 22,
               "object": {
                 "type": "Identifier",
-                "start": 12,
-                "end": 18,
                 "decorators": [],
                 "name": "Symbol",
                 "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "start": 12,
+                "end": 18
               },
               "property": {
                 "type": "Identifier",
-                "start": 19,
-                "end": 22,
                 "decorators": [],
                 "name": "for",
                 "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "start": 19,
+                "end": 22
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 12,
+              "end": 22
             },
             "typeArguments": null,
             "arguments": [
               {
                 "type": "Literal",
-                "start": 23,
-                "end": 28,
                 "value": "foo",
-                "raw": "\"foo\""
+                "raw": "\"foo\"",
+                "start": 23,
+                "end": 28
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 12,
+            "end": 29
           },
-          "definite": false
+          "definite": false,
+          "start": 6,
+          "end": 29
         }
       ],
-      "declare": false
+      "declare": false,
+      "start": 0,
+      "end": 30
     },
     {
       "type": "VariableDeclaration",
-      "start": 31,
-      "end": 62,
       "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 37,
-          "end": 61,
           "id": {
             "type": "Identifier",
-            "start": 37,
-            "end": 38,
             "decorators": [],
             "name": "o",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 37,
+            "end": 38
           },
           "init": {
             "type": "ObjectExpression",
-            "start": 41,
-            "end": 61,
             "properties": [
               {
                 "type": "Property",
-                "start": 43,
-                "end": 59,
                 "kind": "init",
                 "key": {
                   "type": "Identifier",
-                  "start": 44,
-                  "end": 47,
                   "decorators": [],
                   "name": "foo",
                   "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "start": 44,
+                  "end": 47
                 },
                 "value": {
                   "type": "Identifier",
-                  "start": 50,
-                  "end": 59,
                   "decorators": [],
                   "name": "undefined",
                   "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "start": 50,
+                  "end": 59
                 },
                 "method": false,
                 "shorthand": false,
                 "computed": true,
-                "optional": false
+                "optional": false,
+                "start": 43,
+                "end": 59
               }
-            ]
+            ],
+            "start": 41,
+            "end": 61
           },
-          "definite": false
+          "definite": false,
+          "start": 37,
+          "end": 61
         }
       ],
-      "declare": false
+      "declare": false,
+      "start": 31,
+      "end": 62
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 62
 }
 ```

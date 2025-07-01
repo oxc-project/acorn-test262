@@ -2,41 +2,33 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 23,
   "body": [
     {
       "type": "TSInterfaceDeclaration",
-      "start": 0,
-      "end": 23,
       "id": {
         "type": "Identifier",
-        "start": 10,
-        "end": 11,
         "decorators": [],
         "name": "I",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 10,
+        "end": 11
       },
       "typeParameters": null,
       "extends": [],
       "body": {
         "type": "TSInterfaceBody",
-        "start": 12,
-        "end": 23,
         "body": [
           {
             "type": "TSMethodSignature",
-            "start": 16,
-            "end": 21,
             "key": {
               "type": "Identifier",
-              "start": 16,
-              "end": 17,
               "decorators": [],
               "name": "B",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 16,
+              "end": 17
             },
             "computed": false,
             "optional": true,
@@ -46,14 +38,22 @@ __ESTREE_TEST__:PASS:
             "returnType": null,
             "accessibility": null,
             "readonly": false,
-            "static": false
+            "static": false,
+            "start": 16,
+            "end": 21
           }
-        ]
+        ],
+        "start": 12,
+        "end": 23
       },
-      "declare": false
+      "declare": false,
+      "start": 0,
+      "end": 23
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 23
 }
 ```

@@ -1,360 +1,360 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 692,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 279,
-      "end": 417,
       "expression": {
         "type": "CallExpression",
-        "start": 279,
-        "end": 416,
         "callee": {
           "type": "MemberExpression",
-          "start": 279,
-          "end": 295,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 279,
-            "end": 285,
-            "name": "assert"
+            "end": 285
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 286,
-            "end": 295,
-            "name": "sameValue"
+            "end": 295
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 279,
+          "end": 295
         },
         "arguments": [
           {
             "type": "MemberExpression",
-            "start": 299,
-            "end": 360,
             "object": {
               "type": "CallExpression",
-              "start": 299,
-              "end": 342,
               "callee": {
                 "type": "MemberExpression",
-                "start": 299,
-                "end": 340,
                 "object": {
                   "type": "ParenthesizedExpression",
-                  "start": 299,
-                  "end": 324,
                   "expression": {
                     "type": "NewExpression",
-                    "start": 300,
-                    "end": 323,
                     "callee": {
                       "type": "MemberExpression",
-                      "start": 304,
-                      "end": 317,
                       "object": {
                         "type": "Identifier",
+                        "name": "Intl",
                         "start": 304,
-                        "end": 308,
-                        "name": "Intl"
+                        "end": 308
                       },
                       "property": {
                         "type": "Identifier",
+                        "name": "Collator",
                         "start": 309,
-                        "end": 317,
-                        "name": "Collator"
+                        "end": 317
                       },
                       "optional": false,
-                      "computed": false
+                      "computed": false,
+                      "start": 304,
+                      "end": 317
                     },
                     "arguments": [
                       {
                         "type": "Literal",
-                        "start": 318,
-                        "end": 322,
                         "value": "en",
-                        "raw": "\"en\""
+                        "raw": "\"en\"",
+                        "start": 318,
+                        "end": 322
                       }
-                    ]
-                  }
+                    ],
+                    "start": 300,
+                    "end": 323
+                  },
+                  "start": 299,
+                  "end": 324
                 },
                 "property": {
                   "type": "Identifier",
+                  "name": "resolvedOptions",
                   "start": 325,
-                  "end": 340,
-                  "name": "resolvedOptions"
+                  "end": 340
                 },
                 "optional": false,
-                "computed": false
+                "computed": false,
+                "start": 299,
+                "end": 340
               },
               "arguments": [],
-              "optional": false
+              "optional": false,
+              "start": 299,
+              "end": 342
             },
             "property": {
               "type": "Identifier",
+              "name": "ignorePunctuation",
               "start": 343,
-              "end": 360,
-              "name": "ignorePunctuation"
+              "end": 360
             },
             "optional": false,
-            "computed": false
+            "computed": false,
+            "start": 299,
+            "end": 360
           },
           {
             "type": "Literal",
+            "value": false,
+            "raw": "false",
             "start": 364,
-            "end": 369,
-            "value": false,
-            "raw": "false"
+            "end": 369
           },
           {
             "type": "Literal",
-            "start": 371,
-            "end": 415,
             "value": "English default ignorePunctuation to false",
-            "raw": "\"English default ignorePunctuation to false\""
+            "raw": "\"English default ignorePunctuation to false\"",
+            "start": 371,
+            "end": 415
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 279,
+        "end": 416
+      },
+      "start": 279,
+      "end": 417
     },
     {
       "type": "ExpressionStatement",
-      "start": 418,
-      "end": 551,
       "expression": {
         "type": "CallExpression",
-        "start": 418,
-        "end": 550,
         "callee": {
           "type": "MemberExpression",
-          "start": 418,
-          "end": 434,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 418,
-            "end": 424,
-            "name": "assert"
+            "end": 424
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 425,
-            "end": 434,
-            "name": "sameValue"
+            "end": 434
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 418,
+          "end": 434
         },
         "arguments": [
           {
             "type": "MemberExpression",
-            "start": 438,
-            "end": 499,
             "object": {
               "type": "CallExpression",
-              "start": 438,
-              "end": 481,
               "callee": {
                 "type": "MemberExpression",
-                "start": 438,
-                "end": 479,
                 "object": {
                   "type": "ParenthesizedExpression",
-                  "start": 438,
-                  "end": 463,
                   "expression": {
                     "type": "NewExpression",
-                    "start": 439,
-                    "end": 462,
                     "callee": {
                       "type": "MemberExpression",
-                      "start": 443,
-                      "end": 456,
                       "object": {
                         "type": "Identifier",
+                        "name": "Intl",
                         "start": 443,
-                        "end": 447,
-                        "name": "Intl"
+                        "end": 447
                       },
                       "property": {
                         "type": "Identifier",
+                        "name": "Collator",
                         "start": 448,
-                        "end": 456,
-                        "name": "Collator"
+                        "end": 456
                       },
                       "optional": false,
-                      "computed": false
+                      "computed": false,
+                      "start": 443,
+                      "end": 456
                     },
                     "arguments": [
                       {
                         "type": "Literal",
-                        "start": 457,
-                        "end": 461,
                         "value": "th",
-                        "raw": "\"th\""
+                        "raw": "\"th\"",
+                        "start": 457,
+                        "end": 461
                       }
-                    ]
-                  }
+                    ],
+                    "start": 439,
+                    "end": 462
+                  },
+                  "start": 438,
+                  "end": 463
                 },
                 "property": {
                   "type": "Identifier",
+                  "name": "resolvedOptions",
                   "start": 464,
-                  "end": 479,
-                  "name": "resolvedOptions"
+                  "end": 479
                 },
                 "optional": false,
-                "computed": false
+                "computed": false,
+                "start": 438,
+                "end": 479
               },
               "arguments": [],
-              "optional": false
+              "optional": false,
+              "start": 438,
+              "end": 481
             },
             "property": {
               "type": "Identifier",
+              "name": "ignorePunctuation",
               "start": 482,
-              "end": 499,
-              "name": "ignorePunctuation"
+              "end": 499
             },
             "optional": false,
-            "computed": false
+            "computed": false,
+            "start": 438,
+            "end": 499
           },
           {
             "type": "Literal",
-            "start": 503,
-            "end": 507,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "start": 503,
+            "end": 507
           },
           {
             "type": "Literal",
-            "start": 509,
-            "end": 549,
             "value": "Thai default ignorePunctuation to true",
-            "raw": "\"Thai default ignorePunctuation to true\""
+            "raw": "\"Thai default ignorePunctuation to true\"",
+            "start": 509,
+            "end": 549
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 418,
+        "end": 550
+      },
+      "start": 418,
+      "end": 551
     },
     {
       "type": "ExpressionStatement",
-      "start": 552,
-      "end": 691,
       "expression": {
         "type": "CallExpression",
-        "start": 552,
-        "end": 690,
         "callee": {
           "type": "MemberExpression",
-          "start": 552,
-          "end": 568,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 552,
-            "end": 558,
-            "name": "assert"
+            "end": 558
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 559,
-            "end": 568,
-            "name": "sameValue"
+            "end": 568
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 552,
+          "end": 568
         },
         "arguments": [
           {
             "type": "MemberExpression",
-            "start": 572,
-            "end": 633,
             "object": {
               "type": "CallExpression",
-              "start": 572,
-              "end": 615,
               "callee": {
                 "type": "MemberExpression",
-                "start": 572,
-                "end": 613,
                 "object": {
                   "type": "ParenthesizedExpression",
-                  "start": 572,
-                  "end": 597,
                   "expression": {
                     "type": "NewExpression",
-                    "start": 573,
-                    "end": 596,
                     "callee": {
                       "type": "MemberExpression",
-                      "start": 577,
-                      "end": 590,
                       "object": {
                         "type": "Identifier",
+                        "name": "Intl",
                         "start": 577,
-                        "end": 581,
-                        "name": "Intl"
+                        "end": 581
                       },
                       "property": {
                         "type": "Identifier",
+                        "name": "Collator",
                         "start": 582,
-                        "end": 590,
-                        "name": "Collator"
+                        "end": 590
                       },
                       "optional": false,
-                      "computed": false
+                      "computed": false,
+                      "start": 577,
+                      "end": 590
                     },
                     "arguments": [
                       {
                         "type": "Literal",
-                        "start": 591,
-                        "end": 595,
                         "value": "ja",
-                        "raw": "\"ja\""
+                        "raw": "\"ja\"",
+                        "start": 591,
+                        "end": 595
                       }
-                    ]
-                  }
+                    ],
+                    "start": 573,
+                    "end": 596
+                  },
+                  "start": 572,
+                  "end": 597
                 },
                 "property": {
                   "type": "Identifier",
+                  "name": "resolvedOptions",
                   "start": 598,
-                  "end": 613,
-                  "name": "resolvedOptions"
+                  "end": 613
                 },
                 "optional": false,
-                "computed": false
+                "computed": false,
+                "start": 572,
+                "end": 613
               },
               "arguments": [],
-              "optional": false
+              "optional": false,
+              "start": 572,
+              "end": 615
             },
             "property": {
               "type": "Identifier",
+              "name": "ignorePunctuation",
               "start": 616,
-              "end": 633,
-              "name": "ignorePunctuation"
+              "end": 633
             },
             "optional": false,
-            "computed": false
+            "computed": false,
+            "start": 572,
+            "end": 633
           },
           {
             "type": "Literal",
-            "start": 637,
-            "end": 642,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "start": 637,
+            "end": 642
           },
           {
             "type": "Literal",
-            "start": 644,
-            "end": 689,
             "value": "Japanese default ignorePunctuation to false",
-            "raw": "\"Japanese default ignorePunctuation to false\""
+            "raw": "\"Japanese default ignorePunctuation to false\"",
+            "start": 644,
+            "end": 689
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 552,
+        "end": 690
+      },
+      "start": 552,
+      "end": 691
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 692
 }

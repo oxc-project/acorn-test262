@@ -2,108 +2,108 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 31,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 0,
-      "end": 31,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 4,
-          "end": 30,
           "id": {
             "type": "Identifier",
-            "start": 4,
-            "end": 21,
             "decorators": [],
             "name": "foo",
             "optional": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
-              "start": 7,
-              "end": 21,
               "typeAnnotation": {
                 "type": "TSTypeLiteral",
-                "start": 9,
-                "end": 21,
                 "members": [
                   {
                     "type": "TSPropertySignature",
-                    "start": 10,
-                    "end": 20,
                     "computed": false,
                     "optional": false,
                     "readonly": false,
                     "key": {
                       "type": "Identifier",
-                      "start": 10,
-                      "end": 12,
                       "decorators": [],
                       "name": "id",
                       "optional": false,
-                      "typeAnnotation": null
+                      "typeAnnotation": null,
+                      "start": 10,
+                      "end": 12
                     },
                     "typeAnnotation": {
                       "type": "TSTypeAnnotation",
-                      "start": 12,
-                      "end": 19,
                       "typeAnnotation": {
                         "type": "TSNumberKeyword",
                         "start": 13,
                         "end": 19
-                      }
+                      },
+                      "start": 12,
+                      "end": 19
                     },
                     "accessibility": null,
-                    "static": false
+                    "static": false,
+                    "start": 10,
+                    "end": 20
                   }
-                ]
-              }
-            }
+                ],
+                "start": 9,
+                "end": 21
+              },
+              "start": 7,
+              "end": 21
+            },
+            "start": 4,
+            "end": 21
           },
           "init": {
             "type": "ObjectExpression",
-            "start": 24,
-            "end": 30,
             "properties": [
               {
                 "type": "Property",
-                "start": 25,
-                "end": 29,
                 "kind": "init",
                 "key": {
                   "type": "Identifier",
-                  "start": 25,
-                  "end": 27,
                   "decorators": [],
                   "name": "id",
                   "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "start": 25,
+                  "end": 27
                 },
                 "value": {
                   "type": "Literal",
-                  "start": 28,
-                  "end": 29,
                   "value": 4,
-                  "raw": "4"
+                  "raw": "4",
+                  "start": 28,
+                  "end": 29
                 },
                 "method": false,
                 "shorthand": false,
                 "computed": false,
-                "optional": false
+                "optional": false,
+                "start": 25,
+                "end": 29
               }
-            ]
+            ],
+            "start": 24,
+            "end": 30
           },
-          "definite": false
+          "definite": false,
+          "start": 4,
+          "end": 30
         }
       ],
-      "declare": false
+      "declare": false,
+      "start": 0,
+      "end": 31
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 31
 }
 ```

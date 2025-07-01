@@ -1,479 +1,479 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 787,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 448,
-      "end": 498,
       "expression": {
         "type": "CallExpression",
-        "start": 448,
-        "end": 497,
         "callee": {
           "type": "MemberExpression",
-          "start": 448,
-          "end": 464,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 448,
-            "end": 454,
-            "name": "assert"
+            "end": 454
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 455,
-            "end": 464,
-            "name": "sameValue"
+            "end": 464
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 448,
+          "end": 464
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 465,
-            "end": 476,
             "callee": {
               "type": "MemberExpression",
-              "start": 465,
-              "end": 474,
               "object": {
                 "type": "Literal",
-                "start": 465,
-                "end": 468,
                 "value": "_",
-                "raw": "'_'"
+                "raw": "'_'",
+                "start": 465,
+                "end": 468
               },
               "property": {
                 "type": "Identifier",
+                "name": "blink",
                 "start": 469,
-                "end": 474,
-                "name": "blink"
+                "end": 474
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 465,
+              "end": 474
             },
             "arguments": [],
-            "optional": false
+            "optional": false,
+            "start": 465,
+            "end": 476
           },
           {
             "type": "Literal",
-            "start": 478,
-            "end": 496,
             "value": "<blink>_</blink>",
-            "raw": "'<blink>_</blink>'"
+            "raw": "'<blink>_</blink>'",
+            "start": 478,
+            "end": 496
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 448,
+        "end": 497
+      },
+      "start": 448,
+      "end": 498
     },
     {
       "type": "ExpressionStatement",
-      "start": 499,
-      "end": 549,
       "expression": {
         "type": "CallExpression",
-        "start": 499,
-        "end": 548,
         "callee": {
           "type": "MemberExpression",
-          "start": 499,
-          "end": 515,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 499,
-            "end": 505,
-            "name": "assert"
+            "end": 505
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 506,
-            "end": 515,
-            "name": "sameValue"
+            "end": 515
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 499,
+          "end": 515
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 516,
-            "end": 527,
             "callee": {
               "type": "MemberExpression",
-              "start": 516,
-              "end": 525,
               "object": {
                 "type": "Literal",
-                "start": 516,
-                "end": 519,
                 "value": "<",
-                "raw": "'<'"
+                "raw": "'<'",
+                "start": 516,
+                "end": 519
               },
               "property": {
                 "type": "Identifier",
+                "name": "blink",
                 "start": 520,
-                "end": 525,
-                "name": "blink"
+                "end": 525
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 516,
+              "end": 525
             },
             "arguments": [],
-            "optional": false
+            "optional": false,
+            "start": 516,
+            "end": 527
           },
           {
             "type": "Literal",
-            "start": 529,
-            "end": 547,
             "value": "<blink><</blink>",
-            "raw": "'<blink><</blink>'"
+            "raw": "'<blink><</blink>'",
+            "start": 529,
+            "end": 547
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 499,
+        "end": 548
+      },
+      "start": 499,
+      "end": 549
     },
     {
       "type": "ExpressionStatement",
-      "start": 550,
-      "end": 623,
       "expression": {
         "type": "CallExpression",
-        "start": 550,
-        "end": 622,
         "callee": {
           "type": "MemberExpression",
-          "start": 550,
-          "end": 566,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 550,
-            "end": 556,
-            "name": "assert"
+            "end": 556
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 557,
-            "end": 566,
-            "name": "sameValue"
+            "end": 566
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 550,
+          "end": 566
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 567,
-            "end": 600,
             "callee": {
               "type": "MemberExpression",
-              "start": 567,
-              "end": 594,
               "object": {
                 "type": "MemberExpression",
-                "start": 567,
-                "end": 589,
                 "object": {
                   "type": "MemberExpression",
-                  "start": 567,
-                  "end": 583,
                   "object": {
                     "type": "Identifier",
+                    "name": "String",
                     "start": 567,
-                    "end": 573,
-                    "name": "String"
+                    "end": 573
                   },
                   "property": {
                     "type": "Identifier",
+                    "name": "prototype",
                     "start": 574,
-                    "end": 583,
-                    "name": "prototype"
+                    "end": 583
                   },
                   "optional": false,
-                  "computed": false
+                  "computed": false,
+                  "start": 567,
+                  "end": 583
                 },
                 "property": {
                   "type": "Identifier",
+                  "name": "blink",
                   "start": 584,
-                  "end": 589,
-                  "name": "blink"
+                  "end": 589
                 },
                 "optional": false,
-                "computed": false
+                "computed": false,
+                "start": 567,
+                "end": 589
               },
               "property": {
                 "type": "Identifier",
+                "name": "call",
                 "start": 590,
-                "end": 594,
-                "name": "call"
+                "end": 594
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 567,
+              "end": 594
             },
             "arguments": [
               {
                 "type": "Literal",
-                "start": 595,
-                "end": 599,
                 "value": 42,
-                "raw": "0x2A"
+                "raw": "0x2A",
+                "start": 595,
+                "end": 599
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 567,
+            "end": 600
           },
           {
             "type": "Literal",
-            "start": 602,
-            "end": 621,
             "value": "<blink>42</blink>",
-            "raw": "'<blink>42</blink>'"
+            "raw": "'<blink>42</blink>'",
+            "start": 602,
+            "end": 621
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 550,
+        "end": 622
+      },
+      "start": 550,
+      "end": 623
     },
     {
       "type": "ExpressionStatement",
-      "start": 624,
-      "end": 707,
       "expression": {
         "type": "CallExpression",
-        "start": 624,
-        "end": 706,
         "callee": {
           "type": "MemberExpression",
-          "start": 624,
-          "end": 637,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 624,
-            "end": 630,
-            "name": "assert"
+            "end": 630
           },
           "property": {
             "type": "Identifier",
+            "name": "throws",
             "start": 631,
-            "end": 637,
-            "name": "throws"
+            "end": 637
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 624,
+          "end": 637
         },
         "arguments": [
           {
             "type": "Identifier",
+            "name": "TypeError",
             "start": 638,
-            "end": 647,
-            "name": "TypeError"
+            "end": 647
           },
           {
             "type": "FunctionExpression",
-            "start": 649,
-            "end": 705,
             "id": null,
             "generator": false,
             "async": false,
             "params": [],
             "body": {
               "type": "BlockStatement",
-              "start": 660,
-              "end": 705,
               "body": [
                 {
                   "type": "ExpressionStatement",
-                  "start": 664,
-                  "end": 703,
                   "expression": {
                     "type": "CallExpression",
-                    "start": 664,
-                    "end": 702,
                     "callee": {
                       "type": "MemberExpression",
-                      "start": 664,
-                      "end": 691,
                       "object": {
                         "type": "MemberExpression",
-                        "start": 664,
-                        "end": 686,
                         "object": {
                           "type": "MemberExpression",
-                          "start": 664,
-                          "end": 680,
                           "object": {
                             "type": "Identifier",
+                            "name": "String",
                             "start": 664,
-                            "end": 670,
-                            "name": "String"
+                            "end": 670
                           },
                           "property": {
                             "type": "Identifier",
+                            "name": "prototype",
                             "start": 671,
-                            "end": 680,
-                            "name": "prototype"
+                            "end": 680
                           },
                           "optional": false,
-                          "computed": false
+                          "computed": false,
+                          "start": 664,
+                          "end": 680
                         },
                         "property": {
                           "type": "Identifier",
+                          "name": "blink",
                           "start": 681,
-                          "end": 686,
-                          "name": "blink"
+                          "end": 686
                         },
                         "optional": false,
-                        "computed": false
+                        "computed": false,
+                        "start": 664,
+                        "end": 686
                       },
                       "property": {
                         "type": "Identifier",
+                        "name": "call",
                         "start": 687,
-                        "end": 691,
-                        "name": "call"
+                        "end": 691
                       },
                       "optional": false,
-                      "computed": false
+                      "computed": false,
+                      "start": 664,
+                      "end": 691
                     },
                     "arguments": [
                       {
                         "type": "Identifier",
+                        "name": "undefined",
                         "start": 692,
-                        "end": 701,
-                        "name": "undefined"
+                        "end": 701
                       }
                     ],
-                    "optional": false
-                  }
+                    "optional": false,
+                    "start": 664,
+                    "end": 702
+                  },
+                  "start": 664,
+                  "end": 703
                 }
-              ]
+              ],
+              "start": 660,
+              "end": 705
             },
-            "expression": false
+            "expression": false,
+            "start": 649,
+            "end": 705
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 624,
+        "end": 706
+      },
+      "start": 624,
+      "end": 707
     },
     {
       "type": "ExpressionStatement",
-      "start": 708,
-      "end": 786,
       "expression": {
         "type": "CallExpression",
-        "start": 708,
-        "end": 785,
         "callee": {
           "type": "MemberExpression",
-          "start": 708,
-          "end": 721,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 708,
-            "end": 714,
-            "name": "assert"
+            "end": 714
           },
           "property": {
             "type": "Identifier",
+            "name": "throws",
             "start": 715,
-            "end": 721,
-            "name": "throws"
+            "end": 721
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 708,
+          "end": 721
         },
         "arguments": [
           {
             "type": "Identifier",
+            "name": "TypeError",
             "start": 722,
-            "end": 731,
-            "name": "TypeError"
+            "end": 731
           },
           {
             "type": "FunctionExpression",
-            "start": 733,
-            "end": 784,
             "id": null,
             "generator": false,
             "async": false,
             "params": [],
             "body": {
               "type": "BlockStatement",
-              "start": 744,
-              "end": 784,
               "body": [
                 {
                   "type": "ExpressionStatement",
-                  "start": 748,
-                  "end": 782,
                   "expression": {
                     "type": "CallExpression",
-                    "start": 748,
-                    "end": 781,
                     "callee": {
                       "type": "MemberExpression",
-                      "start": 748,
-                      "end": 775,
                       "object": {
                         "type": "MemberExpression",
-                        "start": 748,
-                        "end": 770,
                         "object": {
                           "type": "MemberExpression",
-                          "start": 748,
-                          "end": 764,
                           "object": {
                             "type": "Identifier",
+                            "name": "String",
                             "start": 748,
-                            "end": 754,
-                            "name": "String"
+                            "end": 754
                           },
                           "property": {
                             "type": "Identifier",
+                            "name": "prototype",
                             "start": 755,
-                            "end": 764,
-                            "name": "prototype"
+                            "end": 764
                           },
                           "optional": false,
-                          "computed": false
+                          "computed": false,
+                          "start": 748,
+                          "end": 764
                         },
                         "property": {
                           "type": "Identifier",
+                          "name": "blink",
                           "start": 765,
-                          "end": 770,
-                          "name": "blink"
+                          "end": 770
                         },
                         "optional": false,
-                        "computed": false
+                        "computed": false,
+                        "start": 748,
+                        "end": 770
                       },
                       "property": {
                         "type": "Identifier",
+                        "name": "call",
                         "start": 771,
-                        "end": 775,
-                        "name": "call"
+                        "end": 775
                       },
                       "optional": false,
-                      "computed": false
+                      "computed": false,
+                      "start": 748,
+                      "end": 775
                     },
                     "arguments": [
                       {
                         "type": "Literal",
-                        "start": 776,
-                        "end": 780,
                         "value": null,
-                        "raw": "null"
+                        "raw": "null",
+                        "start": 776,
+                        "end": 780
                       }
                     ],
-                    "optional": false
-                  }
+                    "optional": false,
+                    "start": 748,
+                    "end": 781
+                  },
+                  "start": 748,
+                  "end": 782
                 }
-              ]
+              ],
+              "start": 744,
+              "end": 784
             },
-            "expression": false
+            "expression": false,
+            "start": 733,
+            "end": 784
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 708,
+        "end": 785
+      },
+      "start": 708,
+      "end": 786
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 787
 }

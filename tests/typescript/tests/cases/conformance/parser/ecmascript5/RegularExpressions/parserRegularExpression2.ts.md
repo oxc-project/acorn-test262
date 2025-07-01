@@ -2,76 +2,76 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 31,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 0,
-      "end": 31,
       "expression": {
         "type": "MemberExpression",
-        "start": 0,
-        "end": 30,
         "object": {
           "type": "CallExpression",
-          "start": 0,
-          "end": 27,
           "callee": {
             "type": "MemberExpression",
-            "start": 0,
-            "end": 10,
             "object": {
               "type": "Identifier",
-              "start": 0,
-              "end": 4,
               "decorators": [],
               "name": "href",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 0,
+              "end": 4
             },
             "property": {
               "type": "Identifier",
-              "start": 5,
-              "end": 10,
               "decorators": [],
               "name": "match",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 5,
+              "end": 10
             },
             "optional": false,
-            "computed": false
+            "computed": false,
+            "start": 0,
+            "end": 10
           },
           "typeArguments": null,
           "arguments": [
             {
               "type": "Literal",
-              "start": 11,
-              "end": 26,
               "value": null,
               "raw": "/:\\/\\/(.[^/]+)/",
               "regex": {
                 "pattern": ":\\/\\/(.[^/]+)",
                 "flags": ""
-              }
+              },
+              "start": 11,
+              "end": 26
             }
           ],
-          "optional": false
+          "optional": false,
+          "start": 0,
+          "end": 27
         },
         "property": {
           "type": "Literal",
-          "start": 28,
-          "end": 29,
           "value": 1,
-          "raw": "1"
+          "raw": "1",
+          "start": 28,
+          "end": 29
         },
         "optional": false,
-        "computed": true
+        "computed": true,
+        "start": 0,
+        "end": 30
       },
-      "directive": null
+      "directive": null,
+      "start": 0,
+      "end": 31
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 31
 }
 ```

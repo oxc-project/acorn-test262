@@ -2,122 +2,108 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 74,
   "body": [
     {
       "type": "ExportNamedDeclaration",
-      "start": 0,
-      "end": 74,
       "declaration": {
         "type": "TSTypeAliasDeclaration",
-        "start": 7,
-        "end": 74,
         "id": {
           "type": "Identifier",
-          "start": 12,
-          "end": 27,
           "decorators": [],
           "name": "LionRequestInit",
           "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "start": 12,
+          "end": 27
         },
         "typeParameters": null,
         "typeAnnotation": {
           "type": "TSImportType",
-          "start": 30,
-          "end": 73,
           "argument": {
             "type": "TSLiteralType",
-            "start": 37,
-            "end": 56,
             "literal": {
               "type": "Literal",
-              "start": 37,
-              "end": 56,
               "value": "../types/types.js",
-              "raw": "'../types/types.js'"
-            }
+              "raw": "'../types/types.js'",
+              "start": 37,
+              "end": 56
+            },
+            "start": 37,
+            "end": 56
           },
           "options": null,
           "qualifier": {
             "type": "Identifier",
-            "start": 58,
-            "end": 73,
             "decorators": [],
             "name": "LionRequestInit",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 58,
+            "end": 73
           },
-          "typeArguments": null
+          "typeArguments": null,
+          "start": 30,
+          "end": 73
         },
-        "declare": false
+        "declare": false,
+        "start": 7,
+        "end": 74
       },
       "specifiers": [],
       "source": null,
       "exportKind": "type",
-      "attributes": []
+      "attributes": [],
+      "start": 0,
+      "end": 74
     }
   ],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 74
 }
 ```
 __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 63,
   "body": [
     {
       "type": "ExportNamedDeclaration",
-      "start": 0,
-      "end": 62,
       "declaration": {
         "type": "TSInterfaceDeclaration",
-        "start": 7,
-        "end": 62,
         "id": {
           "type": "Identifier",
-          "start": 17,
-          "end": 32,
           "decorators": [],
           "name": "LionRequestInit",
           "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "start": 17,
+          "end": 32
         },
         "typeParameters": null,
         "extends": [],
         "body": {
           "type": "TSInterfaceBody",
-          "start": 33,
-          "end": 62,
           "body": [
             {
               "type": "TSPropertySignature",
-              "start": 39,
-              "end": 60,
               "computed": false,
               "optional": true,
               "readonly": false,
               "key": {
                 "type": "Identifier",
-                "start": 39,
-                "end": 43,
                 "decorators": [],
                 "name": "body",
                 "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "start": 39,
+                "end": 43
               },
               "typeAnnotation": {
                 "type": "TSTypeAnnotation",
-                "start": 44,
-                "end": 59,
                 "typeAnnotation": {
                   "type": "TSUnionType",
-                  "start": 46,
-                  "end": 59,
                   "types": [
                     {
                       "type": "TSNullKeyword",
@@ -126,63 +112,71 @@ __ESTREE_TEST__:PASS:
                     },
                     {
                       "type": "TSTypeReference",
-                      "start": 53,
-                      "end": 59,
                       "typeName": {
                         "type": "Identifier",
-                        "start": 53,
-                        "end": 59,
                         "decorators": [],
                         "name": "Object",
                         "optional": false,
-                        "typeAnnotation": null
+                        "typeAnnotation": null,
+                        "start": 53,
+                        "end": 59
                       },
-                      "typeArguments": null
+                      "typeArguments": null,
+                      "start": 53,
+                      "end": 59
                     }
-                  ]
-                }
+                  ],
+                  "start": 46,
+                  "end": 59
+                },
+                "start": 44,
+                "end": 59
               },
               "accessibility": null,
-              "static": false
+              "static": false,
+              "start": 39,
+              "end": 60
             }
-          ]
+          ],
+          "start": 33,
+          "end": 62
         },
-        "declare": false
+        "declare": false,
+        "start": 7,
+        "end": 62
       },
       "specifiers": [],
       "source": null,
       "exportKind": "type",
-      "attributes": []
+      "attributes": [],
+      "start": 0,
+      "end": 62
     }
   ],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 63
 }
 ```
 __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 76,
-  "end": 348,
   "body": [
     {
       "type": "ExportNamedDeclaration",
-      "start": 76,
-      "end": 212,
       "declaration": {
         "type": "ClassDeclaration",
-        "start": 83,
-        "end": 212,
         "decorators": [],
         "id": {
           "type": "Identifier",
-          "start": 89,
-          "end": 96,
           "decorators": [],
           "name": "NewAjax",
           "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "start": 89,
+          "end": 96
         },
         "typeParameters": null,
         "superClass": null,
@@ -190,27 +184,21 @@ __ESTREE_TEST__:PASS:
         "implements": [],
         "body": {
           "type": "ClassBody",
-          "start": 97,
-          "end": 212,
           "body": [
             {
               "type": "MethodDefinition",
-              "start": 158,
-              "end": 210,
               "decorators": [],
               "key": {
                 "type": "Identifier",
-                "start": 158,
-                "end": 201,
                 "decorators": [],
                 "name": "case5_unexpectedlyResolvesPathToNodeModules",
                 "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "start": 158,
+                "end": 201
               },
               "value": {
                 "type": "FunctionExpression",
-                "start": 201,
-                "end": 210,
                 "id": null,
                 "generator": false,
                 "async": false,
@@ -219,89 +207,101 @@ __ESTREE_TEST__:PASS:
                 "params": [
                   {
                     "type": "Identifier",
-                    "start": 202,
-                    "end": 206,
                     "decorators": [],
                     "name": "init",
                     "optional": false,
-                    "typeAnnotation": null
+                    "typeAnnotation": null,
+                    "start": 202,
+                    "end": 206
                   }
                 ],
                 "returnType": null,
                 "body": {
                   "type": "BlockStatement",
+                  "body": [],
                   "start": 208,
-                  "end": 210,
-                  "body": []
+                  "end": 210
                 },
-                "expression": false
+                "expression": false,
+                "start": 201,
+                "end": 210
               },
               "kind": "method",
               "computed": false,
               "static": false,
               "override": false,
               "optional": false,
-              "accessibility": null
+              "accessibility": null,
+              "start": 158,
+              "end": 210
             }
-          ]
+          ],
+          "start": 97,
+          "end": 212
         },
         "abstract": false,
-        "declare": false
+        "declare": false,
+        "start": 83,
+        "end": 212
       },
       "specifiers": [],
       "source": null,
       "exportKind": "value",
-      "attributes": []
+      "attributes": [],
+      "start": 76,
+      "end": 212
     },
     {
       "type": "ExpressionStatement",
-      "start": 286,
-      "end": 348,
       "expression": {
         "type": "MemberExpression",
-        "start": 286,
-        "end": 347,
         "object": {
           "type": "MemberExpression",
-          "start": 286,
-          "end": 303,
           "object": {
             "type": "Identifier",
-            "start": 286,
-            "end": 293,
             "decorators": [],
             "name": "NewAjax",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 286,
+            "end": 293
           },
           "property": {
             "type": "Identifier",
-            "start": 294,
-            "end": 303,
             "decorators": [],
             "name": "prototype",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 294,
+            "end": 303
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 286,
+          "end": 303
         },
         "property": {
           "type": "Identifier",
-          "start": 304,
-          "end": 347,
           "decorators": [],
           "name": "case6_unexpectedlyResolvesPathToNodeModules",
           "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "start": 304,
+          "end": 347
         },
         "optional": false,
-        "computed": false
+        "computed": false,
+        "start": 286,
+        "end": 347
       },
-      "directive": null
+      "directive": null,
+      "start": 286,
+      "end": 348
     }
   ],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 76,
+  "end": 348
 }
 ```

@@ -1,86 +1,86 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 421,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 296,
-      "end": 420,
       "expression": {
         "type": "CallExpression",
-        "start": 296,
-        "end": 419,
         "callee": {
           "type": "MemberExpression",
-          "start": 296,
-          "end": 312,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 296,
-            "end": 302,
-            "name": "assert"
+            "end": 302
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 303,
-            "end": 312,
-            "name": "sameValue"
+            "end": 312
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 296,
+          "end": 312
         },
         "arguments": [
           {
             "type": "MemberExpression",
-            "start": 316,
-            "end": 345,
             "object": {
               "type": "MemberExpression",
-              "start": 316,
-              "end": 333,
               "object": {
                 "type": "Identifier",
+                "name": "WeakSet",
                 "start": 316,
-                "end": 323,
-                "name": "WeakSet"
+                "end": 323
               },
               "property": {
                 "type": "Identifier",
+                "name": "prototype",
                 "start": 324,
-                "end": 333,
-                "name": "prototype"
+                "end": 333
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 316,
+              "end": 333
             },
             "property": {
               "type": "Identifier",
+              "name": "constructor",
               "start": 334,
-              "end": 345,
-              "name": "constructor"
+              "end": 345
             },
             "optional": false,
-            "computed": false
+            "computed": false,
+            "start": 316,
+            "end": 345
           },
           {
             "type": "Identifier",
+            "name": "WeakSet",
             "start": 349,
-            "end": 356,
-            "name": "WeakSet"
+            "end": 356
           },
           {
             "type": "Literal",
-            "start": 360,
-            "end": 417,
             "value": "The value of WeakSet.prototype.constructor is \"WeakSet\"",
-            "raw": "'The value of WeakSet.prototype.constructor is \"WeakSet\"'"
+            "raw": "'The value of WeakSet.prototype.constructor is \"WeakSet\"'",
+            "start": 360,
+            "end": 417
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 296,
+        "end": 419
+      },
+      "start": 296,
+      "end": 420
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 421
 }

@@ -1,178 +1,178 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 737,
   "body": [
     {
       "type": "IfStatement",
-      "start": 487,
-      "end": 654,
       "test": {
         "type": "BinaryExpression",
-        "start": 491,
-        "end": 534,
         "left": {
           "type": "CallExpression",
-          "start": 491,
-          "end": 516,
           "callee": {
             "type": "MemberExpression",
-            "start": 491,
-            "end": 508,
             "object": {
               "type": "CallExpression",
-              "start": 491,
-              "end": 501,
               "callee": {
                 "type": "Identifier",
+                "name": "String",
                 "start": 491,
-                "end": 497,
-                "name": "String"
+                "end": 497
               },
               "arguments": [
                 {
                   "type": "Literal",
-                  "start": 498,
-                  "end": 500,
                   "value": 42,
-                  "raw": "42"
+                  "raw": "42",
+                  "start": 498,
+                  "end": 500
                 }
               ],
-              "optional": false
+              "optional": false,
+              "start": 491,
+              "end": 501
             },
             "property": {
               "type": "Identifier",
+              "name": "concat",
               "start": 502,
-              "end": 508,
-              "name": "concat"
+              "end": 508
             },
             "optional": false,
-            "computed": false
+            "computed": false,
+            "start": 491,
+            "end": 508
           },
           "arguments": [
             {
               "type": "UnaryExpression",
-              "start": 509,
-              "end": 515,
               "operator": "void",
               "argument": {
                 "type": "Literal",
-                "start": 514,
-                "end": 515,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "start": 514,
+                "end": 515
               },
-              "prefix": true
+              "prefix": true,
+              "start": 509,
+              "end": 515
             }
           ],
-          "optional": false
+          "optional": false,
+          "start": 491,
+          "end": 516
         },
         "operator": "!==",
         "right": {
           "type": "Literal",
-          "start": 521,
-          "end": 534,
           "value": "42undefined",
-          "raw": "\"42undefined\""
-        }
+          "raw": "\"42undefined\"",
+          "start": 521,
+          "end": 534
+        },
+        "start": 491,
+        "end": 534
       },
       "consequent": {
         "type": "BlockStatement",
-        "start": 536,
-        "end": 654,
         "body": [
           {
             "type": "ThrowStatement",
-            "start": 540,
-            "end": 652,
             "argument": {
               "type": "NewExpression",
-              "start": 546,
-              "end": 651,
               "callee": {
                 "type": "Identifier",
+                "name": "Test262Error",
                 "start": 550,
-                "end": 562,
-                "name": "Test262Error"
+                "end": 562
               },
               "arguments": [
                 {
                   "type": "BinaryExpression",
-                  "start": 563,
-                  "end": 650,
                   "left": {
                     "type": "Literal",
-                    "start": 563,
-                    "end": 622,
                     "value": "#1: String(42).concat(void 0) === \"42undefined\". Actual: ",
-                    "raw": "'#1: String(42).concat(void 0) === \"42undefined\". Actual: '"
+                    "raw": "'#1: String(42).concat(void 0) === \"42undefined\". Actual: '",
+                    "start": 563,
+                    "end": 622
                   },
                   "operator": "+",
                   "right": {
                     "type": "CallExpression",
-                    "start": 625,
-                    "end": 650,
                     "callee": {
                       "type": "MemberExpression",
-                      "start": 625,
-                      "end": 642,
                       "object": {
                         "type": "CallExpression",
-                        "start": 625,
-                        "end": 635,
                         "callee": {
                           "type": "Identifier",
+                          "name": "String",
                           "start": 625,
-                          "end": 631,
-                          "name": "String"
+                          "end": 631
                         },
                         "arguments": [
                           {
                             "type": "Literal",
-                            "start": 632,
-                            "end": 634,
                             "value": 42,
-                            "raw": "42"
+                            "raw": "42",
+                            "start": 632,
+                            "end": 634
                           }
                         ],
-                        "optional": false
+                        "optional": false,
+                        "start": 625,
+                        "end": 635
                       },
                       "property": {
                         "type": "Identifier",
+                        "name": "concat",
                         "start": 636,
-                        "end": 642,
-                        "name": "concat"
+                        "end": 642
                       },
                       "optional": false,
-                      "computed": false
+                      "computed": false,
+                      "start": 625,
+                      "end": 642
                     },
                     "arguments": [
                       {
                         "type": "UnaryExpression",
-                        "start": 643,
-                        "end": 649,
                         "operator": "void",
                         "argument": {
                           "type": "Literal",
-                          "start": 648,
-                          "end": 649,
                           "value": 0,
-                          "raw": "0"
+                          "raw": "0",
+                          "start": 648,
+                          "end": 649
                         },
-                        "prefix": true
+                        "prefix": true,
+                        "start": 643,
+                        "end": 649
                       }
                     ],
-                    "optional": false
-                  }
+                    "optional": false,
+                    "start": 625,
+                    "end": 650
+                  },
+                  "start": 563,
+                  "end": 650
                 }
-              ]
-            }
+              ],
+              "start": 546,
+              "end": 651
+            },
+            "start": 540,
+            "end": 652
           }
-        ]
+        ],
+        "start": 536,
+        "end": 654
       },
-      "alternate": null
+      "alternate": null,
+      "start": 487,
+      "end": 654
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 737
 }

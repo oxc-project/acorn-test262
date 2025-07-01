@@ -2,41 +2,33 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 19,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 0,
-      "end": 19,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 4,
-          "end": 18,
           "id": {
             "type": "Identifier",
-            "start": 4,
-            "end": 5,
             "decorators": [],
             "name": "v",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 4,
+            "end": 5
           },
           "init": {
             "type": "ClassExpression",
-            "start": 8,
-            "end": 18,
             "decorators": [],
             "id": {
               "type": "Identifier",
-              "start": 14,
-              "end": 15,
               "decorators": [],
               "name": "C",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 14,
+              "end": 15
             },
             "typeParameters": null,
             "superClass": null,
@@ -44,20 +36,28 @@ __ESTREE_TEST__:PASS:
             "implements": [],
             "body": {
               "type": "ClassBody",
+              "body": [],
               "start": 16,
-              "end": 18,
-              "body": []
+              "end": 18
             },
             "abstract": false,
-            "declare": false
+            "declare": false,
+            "start": 8,
+            "end": 18
           },
-          "definite": false
+          "definite": false,
+          "start": 4,
+          "end": 18
         }
       ],
-      "declare": false
+      "declare": false,
+      "start": 0,
+      "end": 19
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 19
 }
 ```

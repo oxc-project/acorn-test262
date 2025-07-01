@@ -1,94 +1,94 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 359,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 279,
-      "end": 358,
       "expression": {
         "type": "CallExpression",
-        "start": 279,
-        "end": 357,
         "callee": {
           "type": "MemberExpression",
-          "start": 279,
-          "end": 295,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 279,
-            "end": 285,
-            "name": "assert"
+            "end": 285
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 286,
-            "end": 295,
-            "name": "sameValue"
+            "end": 295
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 279,
+          "end": 295
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 296,
-            "end": 319,
             "callee": {
               "type": "MemberExpression",
-              "start": 296,
-              "end": 306,
               "object": {
                 "type": "Identifier",
+                "name": "Math",
                 "start": 296,
-                "end": 300,
-                "name": "Math"
+                "end": 300
               },
               "property": {
                 "type": "Identifier",
+                "name": "hypot",
                 "start": 301,
-                "end": 306,
-                "name": "hypot"
+                "end": 306
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 296,
+              "end": 306
             },
             "arguments": [
               {
                 "type": "Literal",
-                "start": 307,
-                "end": 308,
                 "value": 3,
-                "raw": "3"
+                "raw": "3",
+                "start": 307,
+                "end": 308
               },
               {
                 "type": "Identifier",
+                "name": "Infinity",
                 "start": 310,
-                "end": 318,
-                "name": "Infinity"
+                "end": 318
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 296,
+            "end": 319
           },
           {
             "type": "Identifier",
+            "name": "Infinity",
             "start": 321,
-            "end": 329,
-            "name": "Infinity"
+            "end": 329
           },
           {
             "type": "Literal",
-            "start": 331,
-            "end": 356,
             "value": "Math.hypot(3, Infinity)",
-            "raw": "'Math.hypot(3, Infinity)'"
+            "raw": "'Math.hypot(3, Infinity)'",
+            "start": 331,
+            "end": 356
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 279,
+        "end": 357
+      },
+      "start": 279,
+      "end": 358
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 359
 }

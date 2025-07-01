@@ -1,105 +1,89 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 492,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 298,
-      "end": 316,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 302,
-          "end": 315,
           "id": {
             "type": "Identifier",
+            "name": "global",
             "start": 302,
-            "end": 308,
-            "name": "global"
+            "end": 308
           },
           "init": {
             "type": "ThisExpression",
             "start": 311,
             "end": 315
-          }
+          },
+          "start": 302,
+          "end": 315
         }
-      ]
+      ],
+      "start": 298,
+      "end": 316
     },
     {
       "type": "VariableDeclaration",
-      "start": 317,
-      "end": 449,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 321,
-          "end": 448,
           "id": {
             "type": "Identifier",
+            "name": "retVal",
             "start": 321,
-            "end": 327,
-            "name": "retVal"
+            "end": 327
           },
           "init": {
             "type": "CallExpression",
-            "start": 330,
-            "end": 448,
             "callee": {
               "type": "MemberExpression",
-              "start": 330,
-              "end": 341,
               "object": {
                 "type": "Literal",
-                "start": 330,
-                "end": 333,
                 "value": "x",
-                "raw": "'x'"
+                "raw": "'x'",
+                "start": 330,
+                "end": 333
               },
               "property": {
                 "type": "Identifier",
+                "name": "replace",
                 "start": 334,
-                "end": 341,
-                "name": "replace"
+                "end": 341
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 330,
+              "end": 341
             },
             "arguments": [
               {
                 "type": "Literal",
-                "start": 342,
-                "end": 345,
                 "value": null,
                 "raw": "/x/",
                 "regex": {
                   "pattern": "x",
                   "flags": ""
-                }
+                },
+                "start": 342,
+                "end": 345
               },
               {
                 "type": "FunctionExpression",
-                "start": 349,
-                "end": 447,
                 "id": null,
                 "generator": false,
                 "async": false,
                 "params": [],
                 "body": {
                   "type": "BlockStatement",
-                  "start": 360,
-                  "end": 447,
                   "body": [
                     {
                       "type": "IfStatement",
-                      "start": 366,
-                      "end": 443,
                       "test": {
                         "type": "BinaryExpression",
-                        "start": 370,
-                        "end": 385,
                         "left": {
                           "type": "ThisExpression",
                           "start": 370,
@@ -108,113 +92,129 @@
                         "operator": "===",
                         "right": {
                           "type": "Identifier",
+                          "name": "global",
                           "start": 379,
-                          "end": 385,
-                          "name": "global"
-                        }
+                          "end": 385
+                        },
+                        "start": 370,
+                        "end": 385
                       },
                       "consequent": {
                         "type": "BlockStatement",
-                        "start": 387,
-                        "end": 412,
                         "body": [
                           {
                             "type": "ReturnStatement",
-                            "start": 395,
-                            "end": 406,
                             "argument": {
                               "type": "Literal",
-                              "start": 402,
-                              "end": 405,
                               "value": "y",
-                              "raw": "'y'"
-                            }
+                              "raw": "'y'",
+                              "start": 402,
+                              "end": 405
+                            },
+                            "start": 395,
+                            "end": 406
                           }
-                        ]
+                        ],
+                        "start": 387,
+                        "end": 412
                       },
                       "alternate": {
                         "type": "BlockStatement",
-                        "start": 418,
-                        "end": 443,
                         "body": [
                           {
                             "type": "ReturnStatement",
-                            "start": 426,
-                            "end": 437,
                             "argument": {
                               "type": "Literal",
-                              "start": 433,
-                              "end": 436,
                               "value": "z",
-                              "raw": "'z'"
-                            }
+                              "raw": "'z'",
+                              "start": 433,
+                              "end": 436
+                            },
+                            "start": 426,
+                            "end": 437
                           }
-                        ]
-                      }
+                        ],
+                        "start": 418,
+                        "end": 443
+                      },
+                      "start": 366,
+                      "end": 443
                     }
-                  ]
+                  ],
+                  "start": 360,
+                  "end": 447
                 },
-                "expression": false
+                "expression": false,
+                "start": 349,
+                "end": 447
               }
             ],
-            "optional": false
-          }
+            "optional": false,
+            "start": 330,
+            "end": 448
+          },
+          "start": 321,
+          "end": 448
         }
-      ]
+      ],
+      "start": 317,
+      "end": 449
     },
     {
       "type": "ExpressionStatement",
-      "start": 451,
-      "end": 491,
       "expression": {
         "type": "CallExpression",
-        "start": 451,
-        "end": 490,
         "callee": {
           "type": "MemberExpression",
-          "start": 451,
-          "end": 467,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 451,
-            "end": 457,
-            "name": "assert"
+            "end": 457
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 458,
-            "end": 467,
-            "name": "sameValue"
+            "end": 467
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 451,
+          "end": 467
         },
         "arguments": [
           {
             "type": "Identifier",
+            "name": "retVal",
             "start": 468,
-            "end": 474,
-            "name": "retVal"
+            "end": 474
           },
           {
             "type": "Literal",
-            "start": 476,
-            "end": 479,
             "value": "y",
-            "raw": "'y'"
+            "raw": "'y'",
+            "start": 476,
+            "end": 479
           },
           {
             "type": "Literal",
-            "start": 481,
-            "end": 489,
             "value": "retVal",
-            "raw": "'retVal'"
+            "raw": "'retVal'",
+            "start": 481,
+            "end": 489
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 451,
+        "end": 490
+      },
+      "start": 451,
+      "end": 491
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 492
 }

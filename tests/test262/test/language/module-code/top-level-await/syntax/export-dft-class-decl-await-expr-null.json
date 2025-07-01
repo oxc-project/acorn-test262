@@ -1,94 +1,92 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 2162,
   "body": [
     {
       "type": "FunctionDeclaration",
-      "start": 2031,
-      "end": 2072,
       "id": {
         "type": "Identifier",
+        "name": "fn",
         "start": 2040,
-        "end": 2042,
-        "name": "fn"
+        "end": 2042
       },
       "generator": false,
       "async": false,
       "params": [],
       "body": {
         "type": "BlockStatement",
-        "start": 2045,
-        "end": 2072,
         "body": [
           {
             "type": "ReturnStatement",
-            "start": 2049,
-            "end": 2070,
             "argument": {
               "type": "FunctionExpression",
-              "start": 2056,
-              "end": 2069,
               "id": null,
               "generator": false,
               "async": false,
               "params": [],
               "body": {
                 "type": "BlockStatement",
+                "body": [],
                 "start": 2067,
-                "end": 2069,
-                "body": []
+                "end": 2069
               },
-              "expression": false
-            }
+              "expression": false,
+              "start": 2056,
+              "end": 2069
+            },
+            "start": 2049,
+            "end": 2070
           }
-        ]
+        ],
+        "start": 2045,
+        "end": 2072
       },
-      "expression": false
+      "expression": false,
+      "start": 2031,
+      "end": 2072
     },
     {
       "type": "ExportDefaultDeclaration",
-      "start": 2114,
-      "end": 2160,
       "declaration": {
         "type": "ClassDeclaration",
-        "start": 2129,
-        "end": 2160,
         "decorators": [],
         "id": null,
         "superClass": {
           "type": "CallExpression",
-          "start": 2143,
-          "end": 2157,
           "callee": {
             "type": "Identifier",
+            "name": "fn",
             "start": 2143,
-            "end": 2145,
-            "name": "fn"
+            "end": 2145
           },
           "arguments": [
             {
               "type": "AwaitExpression",
-              "start": 2146,
-              "end": 2156,
               "argument": {
                 "type": "Literal",
-                "start": 2152,
-                "end": 2156,
                 "value": null,
-                "raw": "null"
-              }
+                "raw": "null",
+                "start": 2152,
+                "end": 2156
+              },
+              "start": 2146,
+              "end": 2156
             }
           ],
-          "optional": false
+          "optional": false,
+          "start": 2143,
+          "end": 2157
         },
         "body": {
           "type": "ClassBody",
+          "body": [],
           "start": 2158,
-          "end": 2160,
-          "body": []
-        }
-      }
+          "end": 2160
+        },
+        "start": 2129,
+        "end": 2160
+      },
+      "start": 2114,
+      "end": 2160
     },
     {
       "type": "EmptyStatement",
@@ -97,5 +95,7 @@
     }
   ],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 2162
 }

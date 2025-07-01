@@ -2,235 +2,235 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 69,
   "body": [
     {
       "type": "TSInterfaceDeclaration",
-      "start": 0,
-      "end": 52,
       "id": {
         "type": "Identifier",
-        "start": 10,
-        "end": 15,
         "decorators": [],
         "name": "Sammy",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 10,
+        "end": 15
       },
       "typeParameters": null,
       "extends": [],
       "body": {
         "type": "TSInterfaceBody",
-        "start": 16,
-        "end": 52,
         "body": [
           {
             "type": "TSConstructSignatureDeclaration",
-            "start": 22,
-            "end": 34,
             "typeParameters": null,
             "params": [],
             "returnType": {
               "type": "TSTypeAnnotation",
-              "start": 28,
-              "end": 33,
               "typeAnnotation": {
                 "type": "TSAnyKeyword",
                 "start": 30,
                 "end": 33
-              }
-            }
+              },
+              "start": 28,
+              "end": 33
+            },
+            "start": 22,
+            "end": 34
           },
           {
             "type": "TSCallSignatureDeclaration",
-            "start": 39,
-            "end": 50,
             "typeParameters": null,
             "params": [],
             "returnType": {
               "type": "TSTypeAnnotation",
-              "start": 41,
-              "end": 49,
               "typeAnnotation": {
                 "type": "TSNumberKeyword",
                 "start": 43,
                 "end": 49
-              }
-            }
+              },
+              "start": 41,
+              "end": 49
+            },
+            "start": 39,
+            "end": 50
           }
-        ]
+        ],
+        "start": 16,
+        "end": 52
       },
-      "declare": false
+      "declare": false,
+      "start": 0,
+      "end": 52
     },
     {
       "type": "TSExportAssignment",
-      "start": 53,
-      "end": 68,
       "expression": {
         "type": "Identifier",
-        "start": 62,
-        "end": 67,
         "decorators": [],
         "name": "Sammy",
         "optional": false,
-        "typeAnnotation": null
-      }
+        "typeAnnotation": null,
+        "start": 62,
+        "end": 67
+      },
+      "start": 53,
+      "end": 68
     }
   ],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 69
 }
 ```
 __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 105,
   "body": [
     {
       "type": "TSImportEqualsDeclaration",
-      "start": 0,
-      "end": 53,
       "id": {
         "type": "Identifier",
-        "start": 7,
-        "end": 12,
         "decorators": [],
         "name": "Sammy",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 7,
+        "end": 12
       },
       "moduleReference": {
         "type": "TSExternalModuleReference",
-        "start": 15,
-        "end": 52,
         "expression": {
           "type": "Literal",
-          "start": 23,
-          "end": 51,
           "value": "./errorsOnImportedSymbol_0",
-          "raw": "\"./errorsOnImportedSymbol_0\""
-        }
+          "raw": "\"./errorsOnImportedSymbol_0\"",
+          "start": 23,
+          "end": 51
+        },
+        "start": 15,
+        "end": 52
       },
-      "importKind": "value"
+      "importKind": "value",
+      "start": 0,
+      "end": 53
     },
     {
       "type": "VariableDeclaration",
-      "start": 54,
-      "end": 80,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 58,
-          "end": 79,
           "id": {
             "type": "Identifier",
-            "start": 58,
-            "end": 59,
             "decorators": [],
             "name": "x",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 58,
+            "end": 59
           },
           "init": {
             "type": "NewExpression",
-            "start": 62,
-            "end": 79,
             "callee": {
               "type": "MemberExpression",
-              "start": 66,
-              "end": 77,
               "object": {
                 "type": "Identifier",
-                "start": 66,
-                "end": 71,
                 "decorators": [],
                 "name": "Sammy",
                 "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "start": 66,
+                "end": 71
               },
               "property": {
                 "type": "Identifier",
-                "start": 72,
-                "end": 77,
                 "decorators": [],
                 "name": "Sammy",
                 "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "start": 72,
+                "end": 77
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 66,
+              "end": 77
             },
             "typeArguments": null,
-            "arguments": []
+            "arguments": [],
+            "start": 62,
+            "end": 79
           },
-          "definite": false
+          "definite": false,
+          "start": 58,
+          "end": 79
         }
       ],
-      "declare": false
+      "declare": false,
+      "start": 54,
+      "end": 80
     },
     {
       "type": "VariableDeclaration",
-      "start": 81,
-      "end": 103,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 85,
-          "end": 102,
           "id": {
             "type": "Identifier",
-            "start": 85,
-            "end": 86,
             "decorators": [],
             "name": "y",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 85,
+            "end": 86
           },
           "init": {
             "type": "CallExpression",
-            "start": 89,
-            "end": 102,
             "callee": {
               "type": "MemberExpression",
-              "start": 89,
-              "end": 100,
               "object": {
                 "type": "Identifier",
-                "start": 89,
-                "end": 94,
                 "decorators": [],
                 "name": "Sammy",
                 "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "start": 89,
+                "end": 94
               },
               "property": {
                 "type": "Identifier",
-                "start": 95,
-                "end": 100,
                 "decorators": [],
                 "name": "Sammy",
                 "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "start": 95,
+                "end": 100
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 89,
+              "end": 100
             },
             "typeArguments": null,
             "arguments": [],
-            "optional": false
+            "optional": false,
+            "start": 89,
+            "end": 102
           },
-          "definite": false
+          "definite": false,
+          "start": 85,
+          "end": 102
         }
       ],
-      "declare": false
+      "declare": false,
+      "start": 81,
+      "end": 103
     }
   ],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 105
 }
 ```

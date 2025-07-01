@@ -2,77 +2,65 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 115,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 0,
-      "end": 107,
       "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 6,
-          "end": 106,
           "id": {
             "type": "Identifier",
-            "start": 6,
-            "end": 7,
             "decorators": [],
             "name": "o",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 6,
+            "end": 7
           },
           "init": {
             "type": "ObjectExpression",
-            "start": 10,
-            "end": 106,
             "properties": [
               {
                 "type": "Property",
-                "start": 51,
-                "end": 57,
                 "kind": "init",
                 "key": {
                   "type": "Identifier",
-                  "start": 51,
-                  "end": 52,
                   "decorators": [],
                   "name": "a",
                   "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "start": 51,
+                  "end": 52
                 },
                 "value": {
                   "type": "Literal",
-                  "start": 54,
-                  "end": 57,
                   "value": "a",
-                  "raw": "\"a\""
+                  "raw": "\"a\"",
+                  "start": 54,
+                  "end": 57
                 },
                 "method": false,
                 "shorthand": false,
                 "computed": false,
-                "optional": false
+                "optional": false,
+                "start": 51,
+                "end": 57
               },
               {
                 "type": "Property",
-                "start": 92,
-                "end": 104,
                 "kind": "init",
                 "key": {
                   "type": "Identifier",
-                  "start": 92,
-                  "end": 93,
                   "decorators": [],
                   "name": "n",
                   "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "start": 92,
+                  "end": 93
                 },
                 "value": {
                   "type": "ArrowFunctionExpression",
-                  "start": 95,
-                  "end": 104,
                   "expression": true,
                   "async": false,
                   "typeParameters": null,
@@ -80,90 +68,102 @@ __ESTREE_TEST__:PASS:
                   "returnType": null,
                   "body": {
                     "type": "Literal",
-                    "start": 101,
-                    "end": 104,
                     "value": "b",
-                    "raw": "'b'"
+                    "raw": "'b'",
+                    "start": 101,
+                    "end": 104
                   },
                   "id": null,
-                  "generator": false
+                  "generator": false,
+                  "start": 95,
+                  "end": 104
                 },
                 "method": false,
                 "shorthand": false,
                 "computed": false,
-                "optional": false
+                "optional": false,
+                "start": 92,
+                "end": 104
               }
-            ]
+            ],
+            "start": 10,
+            "end": 106
           },
-          "definite": false
+          "definite": false,
+          "start": 6,
+          "end": 106
         }
       ],
-      "declare": false
+      "declare": false,
+      "start": 0,
+      "end": 107
     },
     {
       "type": "ExpressionStatement",
-      "start": 108,
-      "end": 111,
       "expression": {
         "type": "MemberExpression",
-        "start": 108,
-        "end": 111,
         "object": {
           "type": "Identifier",
-          "start": 108,
-          "end": 109,
           "decorators": [],
           "name": "o",
           "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "start": 108,
+          "end": 109
         },
         "property": {
           "type": "Identifier",
-          "start": 110,
-          "end": 111,
           "decorators": [],
           "name": "a",
           "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "start": 110,
+          "end": 111
         },
         "optional": false,
-        "computed": false
+        "computed": false,
+        "start": 108,
+        "end": 111
       },
-      "directive": null
+      "directive": null,
+      "start": 108,
+      "end": 111
     },
     {
       "type": "ExpressionStatement",
-      "start": 112,
-      "end": 115,
       "expression": {
         "type": "MemberExpression",
-        "start": 112,
-        "end": 115,
         "object": {
           "type": "Identifier",
-          "start": 112,
-          "end": 113,
           "decorators": [],
           "name": "o",
           "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "start": 112,
+          "end": 113
         },
         "property": {
           "type": "Identifier",
-          "start": 114,
-          "end": 115,
           "decorators": [],
           "name": "n",
           "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "start": 114,
+          "end": 115
         },
         "optional": false,
-        "computed": false
+        "computed": false,
+        "start": 112,
+        "end": 115
       },
-      "directive": null
+      "directive": null,
+      "start": 112,
+      "end": 115
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 115
 }
 ```

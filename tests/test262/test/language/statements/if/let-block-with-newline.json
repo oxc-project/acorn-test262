@@ -1,39 +1,39 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 469,
   "body": [
     {
       "type": "IfStatement",
-      "start": 444,
-      "end": 458,
       "test": {
         "type": "Literal",
-        "start": 448,
-        "end": 453,
         "value": false,
-        "raw": "false"
+        "raw": "false",
+        "start": 448,
+        "end": 453
       },
       "consequent": {
         "type": "ExpressionStatement",
-        "start": 455,
-        "end": 458,
         "expression": {
           "type": "Identifier",
+          "name": "let",
           "start": 455,
-          "end": 458,
-          "name": "let"
-        }
+          "end": 458
+        },
+        "start": 455,
+        "end": 458
       },
-      "alternate": null
+      "alternate": null,
+      "start": 444,
+      "end": 458
     },
     {
       "type": "BlockStatement",
+      "body": [],
       "start": 466,
-      "end": 468,
-      "body": []
+      "end": 468
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 469
 }

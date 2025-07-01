@@ -1,100 +1,100 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 549,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 395,
-      "end": 548,
       "expression": {
         "type": "CallExpression",
-        "start": 395,
-        "end": 547,
         "callee": {
           "type": "MemberExpression",
-          "start": 395,
-          "end": 411,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 395,
-            "end": 401,
-            "name": "assert"
+            "end": 401
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 402,
-            "end": 411,
-            "name": "sameValue"
+            "end": 411
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 395,
+          "end": 411
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 415,
-            "end": 445,
             "callee": {
               "type": "MemberExpression",
-              "start": 415,
-              "end": 436,
               "object": {
                 "type": "Identifier",
+                "name": "Object",
                 "start": 415,
-                "end": 421,
-                "name": "Object"
+                "end": 421
               },
               "property": {
                 "type": "Identifier",
+                "name": "getPrototypeOf",
                 "start": 422,
-                "end": 436,
-                "name": "getPrototypeOf"
+                "end": 436
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 415,
+              "end": 436
             },
             "arguments": [
               {
                 "type": "Identifier",
+                "name": "WeakRef",
                 "start": 437,
-                "end": 444,
-                "name": "WeakRef"
+                "end": 444
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 415,
+            "end": 445
           },
           {
             "type": "MemberExpression",
-            "start": 449,
-            "end": 467,
             "object": {
               "type": "Identifier",
+              "name": "Function",
               "start": 449,
-              "end": 457,
-              "name": "Function"
+              "end": 457
             },
             "property": {
               "type": "Identifier",
+              "name": "prototype",
               "start": 458,
-              "end": 467,
-              "name": "prototype"
+              "end": 467
             },
             "optional": false,
-            "computed": false
+            "computed": false,
+            "start": 449,
+            "end": 467
           },
           {
             "type": "Literal",
-            "start": 471,
-            "end": 545,
             "value": "Object.getPrototypeOf(WeakRef) returns the value of `Function.prototype`",
-            "raw": "'Object.getPrototypeOf(WeakRef) returns the value of `Function.prototype`'"
+            "raw": "'Object.getPrototypeOf(WeakRef) returns the value of `Function.prototype`'",
+            "start": 471,
+            "end": 545
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 395,
+        "end": 547
+      },
+      "start": 395,
+      "end": 548
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 549
 }

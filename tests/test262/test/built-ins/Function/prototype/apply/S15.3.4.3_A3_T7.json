@@ -1,140 +1,132 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 575,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 385,
-      "end": 466,
       "expression": {
         "type": "CallExpression",
-        "start": 385,
-        "end": 465,
         "callee": {
           "type": "ParenthesizedExpression",
-          "start": 385,
-          "end": 463,
           "expression": {
             "type": "FunctionExpression",
-            "start": 386,
-            "end": 462,
             "id": {
               "type": "Identifier",
+              "name": "FACTORY",
               "start": 395,
-              "end": 402,
-              "name": "FACTORY"
+              "end": 402
             },
             "generator": false,
             "async": false,
             "params": [],
             "body": {
               "type": "BlockStatement",
-              "start": 405,
-              "end": 462,
               "body": [
                 {
                   "type": "ExpressionStatement",
-                  "start": 409,
-                  "end": 460,
                   "expression": {
                     "type": "CallExpression",
-                    "start": 409,
-                    "end": 459,
                     "callee": {
                       "type": "MemberExpression",
-                      "start": 409,
-                      "end": 451,
                       "object": {
                         "type": "CallExpression",
-                        "start": 409,
-                        "end": 445,
                         "callee": {
                           "type": "Identifier",
+                          "name": "Function",
                           "start": 409,
-                          "end": 417,
-                          "name": "Function"
+                          "end": 417
                         },
                         "arguments": [
                           {
                             "type": "Literal",
-                            "start": 418,
-                            "end": 444,
                             "value": "this.feat=\"in da haus\"",
-                            "raw": "\"this.feat=\\\"in da haus\\\"\""
+                            "raw": "\"this.feat=\\\"in da haus\\\"\"",
+                            "start": 418,
+                            "end": 444
                           }
                         ],
-                        "optional": false
+                        "optional": false,
+                        "start": 409,
+                        "end": 445
                       },
                       "property": {
                         "type": "Identifier",
+                        "name": "apply",
                         "start": 446,
-                        "end": 451,
-                        "name": "apply"
+                        "end": 451
                       },
                       "optional": false,
-                      "computed": false
+                      "computed": false,
+                      "start": 409,
+                      "end": 451
                     },
                     "arguments": [
                       {
                         "type": "UnaryExpression",
-                        "start": 452,
-                        "end": 458,
                         "operator": "void",
                         "argument": {
                           "type": "Literal",
-                          "start": 457,
-                          "end": 458,
                           "value": 0,
-                          "raw": "0"
+                          "raw": "0",
+                          "start": 457,
+                          "end": 458
                         },
-                        "prefix": true
+                        "prefix": true,
+                        "start": 452,
+                        "end": 458
                       }
                     ],
-                    "optional": false
-                  }
+                    "optional": false,
+                    "start": 409,
+                    "end": 459
+                  },
+                  "start": 409,
+                  "end": 460
                 }
-              ]
+              ],
+              "start": 405,
+              "end": 462
             },
-            "expression": false
-          }
+            "expression": false,
+            "start": 386,
+            "end": 462
+          },
+          "start": 385,
+          "end": 463
         },
         "arguments": [],
-        "optional": false
-      }
+        "optional": false,
+        "start": 385,
+        "end": 465
+      },
+      "start": 385,
+      "end": 466
     },
     {
       "type": "ExpressionStatement",
-      "start": 469,
-      "end": 574,
       "expression": {
         "type": "CallExpression",
-        "start": 469,
-        "end": 573,
         "callee": {
           "type": "MemberExpression",
-          "start": 469,
-          "end": 485,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 469,
-            "end": 475,
-            "name": "assert"
+            "end": 475
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 476,
-            "end": 485,
-            "name": "sameValue"
+            "end": 485
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 469,
+          "end": 485
         },
         "arguments": [
           {
             "type": "MemberExpression",
-            "start": 486,
-            "end": 498,
             "object": {
               "type": "ThisExpression",
               "start": 486,
@@ -142,33 +134,41 @@
             },
             "property": {
               "type": "Literal",
-              "start": 491,
-              "end": 497,
               "value": "feat",
-              "raw": "\"feat\""
+              "raw": "\"feat\"",
+              "start": 491,
+              "end": 497
             },
             "optional": false,
-            "computed": true
+            "computed": true,
+            "start": 486,
+            "end": 498
           },
           {
             "type": "Literal",
-            "start": 500,
-            "end": 512,
             "value": "in da haus",
-            "raw": "\"in da haus\""
+            "raw": "\"in da haus\"",
+            "start": 500,
+            "end": 512
           },
           {
             "type": "Literal",
-            "start": 514,
-            "end": 572,
             "value": "The value of this[\"feat\"] is expected to be \"in da haus\"",
-            "raw": "'The value of this[\"feat\"] is expected to be \"in da haus\"'"
+            "raw": "'The value of this[\"feat\"] is expected to be \"in da haus\"'",
+            "start": 514,
+            "end": 572
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 469,
+        "end": 573
+      },
+      "start": 469,
+      "end": 574
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 575
 }

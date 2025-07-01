@@ -2,47 +2,39 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 102,
   "body": [
     {
       "type": "BlockStatement",
-      "start": 0,
-      "end": 27,
       "body": [
         {
           "type": "VariableDeclaration",
-          "start": 6,
-          "end": 12,
           "kind": "let",
           "declarations": [
             {
               "type": "VariableDeclarator",
-              "start": 10,
-              "end": 11,
               "id": {
                 "type": "Identifier",
-                "start": 10,
-                "end": 11,
                 "decorators": [],
                 "name": "x",
                 "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "start": 10,
+                "end": 11
               },
               "init": null,
-              "definite": false
+              "definite": false,
+              "start": 10,
+              "end": 11
             }
           ],
-          "declare": false
+          "declare": false,
+          "start": 6,
+          "end": 12
         },
         {
           "type": "ExpressionStatement",
-          "start": 17,
-          "end": 25,
           "expression": {
             "type": "ArrowFunctionExpression",
-            "start": 17,
-            "end": 24,
             "expression": true,
             "async": false,
             "typeParameters": null,
@@ -50,77 +42,75 @@ __ESTREE_TEST__:PASS:
             "returnType": null,
             "body": {
               "type": "Identifier",
-              "start": 23,
-              "end": 24,
               "decorators": [],
               "name": "x",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 23,
+              "end": 24
             },
             "id": null,
-            "generator": false
+            "generator": false,
+            "start": 17,
+            "end": 24
           },
-          "directive": null
+          "directive": null,
+          "start": 17,
+          "end": 25
         }
-      ]
+      ],
+      "start": 0,
+      "end": 27
     },
     {
       "type": "SwitchStatement",
-      "start": 29,
-      "end": 102,
       "discriminant": {
         "type": "Literal",
-        "start": 37,
-        "end": 38,
         "value": 1,
-        "raw": "1"
+        "raw": "1",
+        "start": 37,
+        "end": 38
       },
       "cases": [
         {
           "type": "SwitchCase",
-          "start": 46,
-          "end": 100,
           "test": {
             "type": "Literal",
-            "start": 51,
-            "end": 52,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "start": 51,
+            "end": 52
           },
           "consequent": [
             {
               "type": "VariableDeclaration",
-              "start": 62,
-              "end": 68,
               "kind": "let",
               "declarations": [
                 {
                   "type": "VariableDeclarator",
-                  "start": 66,
-                  "end": 67,
                   "id": {
                     "type": "Identifier",
-                    "start": 66,
-                    "end": 67,
                     "decorators": [],
                     "name": "y",
                     "optional": false,
-                    "typeAnnotation": null
+                    "typeAnnotation": null,
+                    "start": 66,
+                    "end": 67
                   },
                   "init": null,
-                  "definite": false
+                  "definite": false,
+                  "start": 66,
+                  "end": 67
                 }
               ],
-              "declare": false
+              "declare": false,
+              "start": 62,
+              "end": 68
             },
             {
               "type": "ExpressionStatement",
-              "start": 77,
-              "end": 85,
               "expression": {
                 "type": "ArrowFunctionExpression",
-                "start": 77,
-                "end": 84,
                 "expression": true,
                 "async": false,
                 "typeParameters": null,
@@ -128,30 +118,40 @@ __ESTREE_TEST__:PASS:
                 "returnType": null,
                 "body": {
                   "type": "Identifier",
-                  "start": 83,
-                  "end": 84,
                   "decorators": [],
                   "name": "y",
                   "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "start": 83,
+                  "end": 84
                 },
                 "id": null,
-                "generator": false
+                "generator": false,
+                "start": 77,
+                "end": 84
               },
-              "directive": null
+              "directive": null,
+              "start": 77,
+              "end": 85
             },
             {
               "type": "BreakStatement",
+              "label": null,
               "start": 94,
-              "end": 100,
-              "label": null
+              "end": 100
             }
-          ]
+          ],
+          "start": 46,
+          "end": 100
         }
-      ]
+      ],
+      "start": 29,
+      "end": 102
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 102
 }
 ```

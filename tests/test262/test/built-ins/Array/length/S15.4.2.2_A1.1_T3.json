@@ -1,115 +1,115 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 550,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 409,
-      "end": 549,
       "expression": {
         "type": "CallExpression",
-        "start": 409,
-        "end": 548,
         "callee": {
           "type": "MemberExpression",
-          "start": 409,
-          "end": 425,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 409,
-            "end": 415,
-            "name": "assert"
+            "end": 415
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 416,
-            "end": 425,
-            "name": "sameValue"
+            "end": 425
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 409,
+          "end": 425
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 429,
-            "end": 472,
             "callee": {
               "type": "MemberExpression",
-              "start": 429,
-              "end": 458,
               "object": {
                 "type": "MemberExpression",
-                "start": 429,
-                "end": 444,
                 "object": {
                   "type": "Identifier",
+                  "name": "Array",
                   "start": 429,
-                  "end": 434,
-                  "name": "Array"
+                  "end": 434
                 },
                 "property": {
                   "type": "Identifier",
+                  "name": "prototype",
                   "start": 435,
-                  "end": 444,
-                  "name": "prototype"
+                  "end": 444
                 },
                 "optional": false,
-                "computed": false
+                "computed": false,
+                "start": 429,
+                "end": 444
               },
               "property": {
                 "type": "Identifier",
+                "name": "isPrototypeOf",
                 "start": 445,
-                "end": 458,
-                "name": "isPrototypeOf"
+                "end": 458
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 429,
+              "end": 458
             },
             "arguments": [
               {
                 "type": "NewExpression",
-                "start": 459,
-                "end": 471,
                 "callee": {
                   "type": "Identifier",
+                  "name": "Array",
                   "start": 463,
-                  "end": 468,
-                  "name": "Array"
+                  "end": 468
                 },
                 "arguments": [
                   {
                     "type": "Literal",
-                    "start": 469,
-                    "end": 470,
                     "value": 0,
-                    "raw": "0"
+                    "raw": "0",
+                    "start": 469,
+                    "end": 470
                   }
-                ]
+                ],
+                "start": 459,
+                "end": 471
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 429,
+            "end": 472
           },
           {
             "type": "Literal",
-            "start": 476,
-            "end": 480,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "start": 476,
+            "end": 480
           },
           {
             "type": "Literal",
-            "start": 484,
-            "end": 546,
             "value": "Array.prototype.isPrototypeOf(new Array(0)) must return true",
-            "raw": "'Array.prototype.isPrototypeOf(new Array(0)) must return true'"
+            "raw": "'Array.prototype.isPrototypeOf(new Array(0)) must return true'",
+            "start": 484,
+            "end": 546
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 409,
+        "end": 548
+      },
+      "start": 409,
+      "end": 549
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 550
 }

@@ -1,689 +1,689 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 2121,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 1179,
-      "end": 1191,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 1183,
-          "end": 1190,
           "id": {
             "type": "Identifier",
+            "name": "v1",
             "start": 1183,
-            "end": 1185,
-            "name": "v1"
+            "end": 1185
           },
           "init": {
             "type": "ObjectExpression",
+            "properties": [],
             "start": 1188,
-            "end": 1190,
-            "properties": []
-          }
+            "end": 1190
+          },
+          "start": 1183,
+          "end": 1190
         }
-      ]
+      ],
+      "start": 1179,
+      "end": 1191
     },
     {
       "type": "VariableDeclaration",
-      "start": 1192,
-      "end": 1204,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 1196,
-          "end": 1203,
           "id": {
             "type": "Identifier",
+            "name": "v2",
             "start": 1196,
-            "end": 1198,
-            "name": "v2"
+            "end": 1198
           },
           "init": {
             "type": "ObjectExpression",
+            "properties": [],
             "start": 1201,
-            "end": 1203,
-            "properties": []
-          }
+            "end": 1203
+          },
+          "start": 1196,
+          "end": 1203
         }
-      ]
+      ],
+      "start": 1192,
+      "end": 1204
     },
     {
       "type": "VariableDeclaration",
-      "start": 1205,
-      "end": 1217,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 1209,
-          "end": 1216,
           "id": {
             "type": "Identifier",
+            "name": "v3",
             "start": 1209,
-            "end": 1211,
-            "name": "v3"
+            "end": 1211
           },
           "init": {
             "type": "ObjectExpression",
+            "properties": [],
             "start": 1214,
-            "end": 1216,
-            "properties": []
-          }
+            "end": 1216
+          },
+          "start": 1209,
+          "end": 1216
         }
-      ]
+      ],
+      "start": 1205,
+      "end": 1217
     },
     {
       "type": "ExpressionStatement",
-      "start": 1219,
-      "end": 2120,
       "expression": {
         "type": "CallExpression",
-        "start": 1219,
-        "end": 2119,
         "callee": {
           "type": "MemberExpression",
-          "start": 1219,
-          "end": 1252,
           "object": {
             "type": "CallExpression",
-            "start": 1219,
-            "end": 1244,
             "callee": {
               "type": "MemberExpression",
-              "start": 1219,
-              "end": 1230,
               "object": {
                 "type": "Identifier",
+                "name": "Promise",
                 "start": 1219,
-                "end": 1226,
-                "name": "Promise"
+                "end": 1226
               },
               "property": {
                 "type": "Identifier",
+                "name": "all",
                 "start": 1227,
-                "end": 1230,
-                "name": "all"
+                "end": 1230
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 1219,
+              "end": 1230
             },
             "arguments": [
               {
                 "type": "ArrayExpression",
-                "start": 1231,
-                "end": 1243,
                 "elements": [
                   {
                     "type": "Identifier",
+                    "name": "v1",
                     "start": 1232,
-                    "end": 1234,
-                    "name": "v1"
+                    "end": 1234
                   },
                   {
                     "type": "Identifier",
+                    "name": "v2",
                     "start": 1236,
-                    "end": 1238,
-                    "name": "v2"
+                    "end": 1238
                   },
                   {
                     "type": "Identifier",
+                    "name": "v3",
                     "start": 1240,
-                    "end": 1242,
-                    "name": "v3"
+                    "end": 1242
                   }
-                ]
+                ],
+                "start": 1231,
+                "end": 1243
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 1219,
+            "end": 1244
           },
           "property": {
             "type": "Identifier",
+            "name": "then",
             "start": 1248,
-            "end": 1252,
-            "name": "then"
+            "end": 1252
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 1219,
+          "end": 1252
         },
         "arguments": [
           {
             "type": "FunctionExpression",
-            "start": 1253,
-            "end": 2050,
             "id": null,
             "generator": false,
             "async": false,
             "params": [
               {
                 "type": "Identifier",
+                "name": "values",
                 "start": 1262,
-                "end": 1268,
-                "name": "values"
+                "end": 1268
               }
             ],
             "body": {
               "type": "BlockStatement",
-              "start": 1270,
-              "end": 2050,
               "body": [
                 {
                   "type": "IfStatement",
-                  "start": 1276,
-                  "end": 1371,
                   "test": {
                     "type": "UnaryExpression",
-                    "start": 1280,
-                    "end": 1287,
                     "operator": "!",
                     "argument": {
                       "type": "Identifier",
+                      "name": "values",
                       "start": 1281,
-                      "end": 1287,
-                      "name": "values"
+                      "end": 1287
                     },
-                    "prefix": true
+                    "prefix": true,
+                    "start": 1280,
+                    "end": 1287
                   },
                   "consequent": {
                     "type": "BlockStatement",
-                    "start": 1289,
-                    "end": 1371,
                     "body": [
                       {
                         "type": "ExpressionStatement",
-                        "start": 1297,
-                        "end": 1351,
                         "expression": {
                           "type": "CallExpression",
-                          "start": 1297,
-                          "end": 1350,
                           "callee": {
                             "type": "Identifier",
+                            "name": "$DONE",
                             "start": 1297,
-                            "end": 1302,
-                            "name": "$DONE"
+                            "end": 1302
                           },
                           "arguments": [
                             {
                               "type": "Literal",
-                              "start": 1303,
-                              "end": 1349,
                               "value": "The promise should be resolved with a value.",
-                              "raw": "'The promise should be resolved with a value.'"
+                              "raw": "'The promise should be resolved with a value.'",
+                              "start": 1303,
+                              "end": 1349
                             }
                           ],
-                          "optional": false
-                        }
+                          "optional": false,
+                          "start": 1297,
+                          "end": 1350
+                        },
+                        "start": 1297,
+                        "end": 1351
                       },
                       {
                         "type": "ReturnStatement",
+                        "argument": null,
                         "start": 1358,
-                        "end": 1365,
-                        "argument": null
+                        "end": 1365
                       }
-                    ]
+                    ],
+                    "start": 1289,
+                    "end": 1371
                   },
-                  "alternate": null
+                  "alternate": null,
+                  "start": 1276,
+                  "end": 1371
                 },
                 {
                   "type": "IfStatement",
-                  "start": 1376,
-                  "end": 1502,
                   "test": {
                     "type": "BinaryExpression",
-                    "start": 1380,
-                    "end": 1408,
                     "left": {
                       "type": "MemberExpression",
-                      "start": 1380,
-                      "end": 1398,
                       "object": {
                         "type": "Identifier",
+                        "name": "values",
                         "start": 1380,
-                        "end": 1386,
-                        "name": "values"
+                        "end": 1386
                       },
                       "property": {
                         "type": "Identifier",
+                        "name": "constructor",
                         "start": 1387,
-                        "end": 1398,
-                        "name": "constructor"
+                        "end": 1398
                       },
                       "optional": false,
-                      "computed": false
+                      "computed": false,
+                      "start": 1380,
+                      "end": 1398
                     },
                     "operator": "!==",
                     "right": {
                       "type": "Identifier",
+                      "name": "Array",
                       "start": 1403,
-                      "end": 1408,
-                      "name": "Array"
-                    }
+                      "end": 1408
+                    },
+                    "start": 1380,
+                    "end": 1408
                   },
                   "consequent": {
                     "type": "BlockStatement",
-                    "start": 1410,
-                    "end": 1502,
                     "body": [
                       {
                         "type": "ExpressionStatement",
-                        "start": 1418,
-                        "end": 1482,
                         "expression": {
                           "type": "CallExpression",
-                          "start": 1418,
-                          "end": 1481,
                           "callee": {
                             "type": "Identifier",
+                            "name": "$DONE",
                             "start": 1418,
-                            "end": 1423,
-                            "name": "$DONE"
+                            "end": 1423
                           },
                           "arguments": [
                             {
                               "type": "Literal",
-                              "start": 1424,
-                              "end": 1480,
                               "value": "The promise should be resolved with an Array instance.",
-                              "raw": "'The promise should be resolved with an Array instance.'"
+                              "raw": "'The promise should be resolved with an Array instance.'",
+                              "start": 1424,
+                              "end": 1480
                             }
                           ],
-                          "optional": false
-                        }
+                          "optional": false,
+                          "start": 1418,
+                          "end": 1481
+                        },
+                        "start": 1418,
+                        "end": 1482
                       },
                       {
                         "type": "ReturnStatement",
+                        "argument": null,
                         "start": 1489,
-                        "end": 1496,
-                        "argument": null
+                        "end": 1496
                       }
-                    ]
+                    ],
+                    "start": 1410,
+                    "end": 1502
                   },
-                  "alternate": null
+                  "alternate": null,
+                  "start": 1376,
+                  "end": 1502
                 },
                 {
                   "type": "IfStatement",
-                  "start": 1508,
-                  "end": 1633,
                   "test": {
                     "type": "BinaryExpression",
-                    "start": 1512,
-                    "end": 1531,
                     "left": {
                       "type": "MemberExpression",
-                      "start": 1512,
-                      "end": 1525,
                       "object": {
                         "type": "Identifier",
+                        "name": "values",
                         "start": 1512,
-                        "end": 1518,
-                        "name": "values"
+                        "end": 1518
                       },
                       "property": {
                         "type": "Identifier",
+                        "name": "length",
                         "start": 1519,
-                        "end": 1525,
-                        "name": "length"
+                        "end": 1525
                       },
                       "optional": false,
-                      "computed": false
+                      "computed": false,
+                      "start": 1512,
+                      "end": 1525
                     },
                     "operator": "!==",
                     "right": {
                       "type": "Literal",
-                      "start": 1530,
-                      "end": 1531,
                       "value": 3,
-                      "raw": "3"
-                    }
+                      "raw": "3",
+                      "start": 1530,
+                      "end": 1531
+                    },
+                    "start": 1512,
+                    "end": 1531
                   },
                   "consequent": {
                     "type": "BlockStatement",
-                    "start": 1533,
-                    "end": 1633,
                     "body": [
                       {
                         "type": "ExpressionStatement",
-                        "start": 1541,
-                        "end": 1613,
                         "expression": {
                           "type": "CallExpression",
-                          "start": 1541,
-                          "end": 1612,
                           "callee": {
                             "type": "Identifier",
+                            "name": "$DONE",
                             "start": 1541,
-                            "end": 1546,
-                            "name": "$DONE"
+                            "end": 1546
                           },
                           "arguments": [
                             {
                               "type": "Literal",
-                              "start": 1547,
-                              "end": 1611,
                               "value": "The promise should be resolved with an array of proper length.",
-                              "raw": "'The promise should be resolved with an array of proper length.'"
+                              "raw": "'The promise should be resolved with an array of proper length.'",
+                              "start": 1547,
+                              "end": 1611
                             }
                           ],
-                          "optional": false
-                        }
+                          "optional": false,
+                          "start": 1541,
+                          "end": 1612
+                        },
+                        "start": 1541,
+                        "end": 1613
                       },
                       {
                         "type": "ReturnStatement",
+                        "argument": null,
                         "start": 1620,
-                        "end": 1627,
-                        "argument": null
+                        "end": 1627
                       }
-                    ]
+                    ],
+                    "start": 1533,
+                    "end": 1633
                   },
-                  "alternate": null
+                  "alternate": null,
+                  "start": 1508,
+                  "end": 1633
                 },
                 {
                   "type": "IfStatement",
-                  "start": 1639,
-                  "end": 1766,
                   "test": {
                     "type": "BinaryExpression",
-                    "start": 1643,
-                    "end": 1659,
                     "left": {
                       "type": "MemberExpression",
-                      "start": 1643,
-                      "end": 1652,
                       "object": {
                         "type": "Identifier",
+                        "name": "values",
                         "start": 1643,
-                        "end": 1649,
-                        "name": "values"
+                        "end": 1649
                       },
                       "property": {
                         "type": "Literal",
-                        "start": 1650,
-                        "end": 1651,
                         "value": 0,
-                        "raw": "0"
+                        "raw": "0",
+                        "start": 1650,
+                        "end": 1651
                       },
                       "optional": false,
-                      "computed": true
+                      "computed": true,
+                      "start": 1643,
+                      "end": 1652
                     },
                     "operator": "!==",
                     "right": {
                       "type": "Identifier",
+                      "name": "v1",
                       "start": 1657,
-                      "end": 1659,
-                      "name": "v1"
-                    }
+                      "end": 1659
+                    },
+                    "start": 1643,
+                    "end": 1659
                   },
                   "consequent": {
                     "type": "BlockStatement",
-                    "start": 1661,
-                    "end": 1766,
                     "body": [
                       {
                         "type": "ExpressionStatement",
-                        "start": 1669,
-                        "end": 1746,
                         "expression": {
                           "type": "CallExpression",
-                          "start": 1669,
-                          "end": 1745,
                           "callee": {
                             "type": "Identifier",
+                            "name": "$DONE",
                             "start": 1669,
-                            "end": 1674,
-                            "name": "$DONE"
+                            "end": 1674
                           },
                           "arguments": [
                             {
                               "type": "Literal",
-                              "start": 1675,
-                              "end": 1744,
                               "value": "The promise should be resolved with the correct element values (#1)",
-                              "raw": "'The promise should be resolved with the correct element values (#1)'"
+                              "raw": "'The promise should be resolved with the correct element values (#1)'",
+                              "start": 1675,
+                              "end": 1744
                             }
                           ],
-                          "optional": false
-                        }
+                          "optional": false,
+                          "start": 1669,
+                          "end": 1745
+                        },
+                        "start": 1669,
+                        "end": 1746
                       },
                       {
                         "type": "ReturnStatement",
+                        "argument": null,
                         "start": 1753,
-                        "end": 1760,
-                        "argument": null
+                        "end": 1760
                       }
-                    ]
+                    ],
+                    "start": 1661,
+                    "end": 1766
                   },
-                  "alternate": null
+                  "alternate": null,
+                  "start": 1639,
+                  "end": 1766
                 },
                 {
                   "type": "IfStatement",
-                  "start": 1772,
-                  "end": 1899,
                   "test": {
                     "type": "BinaryExpression",
-                    "start": 1776,
-                    "end": 1792,
                     "left": {
                       "type": "MemberExpression",
-                      "start": 1776,
-                      "end": 1785,
                       "object": {
                         "type": "Identifier",
+                        "name": "values",
                         "start": 1776,
-                        "end": 1782,
-                        "name": "values"
+                        "end": 1782
                       },
                       "property": {
                         "type": "Literal",
-                        "start": 1783,
-                        "end": 1784,
                         "value": 1,
-                        "raw": "1"
+                        "raw": "1",
+                        "start": 1783,
+                        "end": 1784
                       },
                       "optional": false,
-                      "computed": true
+                      "computed": true,
+                      "start": 1776,
+                      "end": 1785
                     },
                     "operator": "!==",
                     "right": {
                       "type": "Identifier",
+                      "name": "v2",
                       "start": 1790,
-                      "end": 1792,
-                      "name": "v2"
-                    }
+                      "end": 1792
+                    },
+                    "start": 1776,
+                    "end": 1792
                   },
                   "consequent": {
                     "type": "BlockStatement",
-                    "start": 1794,
-                    "end": 1899,
                     "body": [
                       {
                         "type": "ExpressionStatement",
-                        "start": 1802,
-                        "end": 1879,
                         "expression": {
                           "type": "CallExpression",
-                          "start": 1802,
-                          "end": 1878,
                           "callee": {
                             "type": "Identifier",
+                            "name": "$DONE",
                             "start": 1802,
-                            "end": 1807,
-                            "name": "$DONE"
+                            "end": 1807
                           },
                           "arguments": [
                             {
                               "type": "Literal",
-                              "start": 1808,
-                              "end": 1877,
                               "value": "The promise should be resolved with the correct element values (#2)",
-                              "raw": "'The promise should be resolved with the correct element values (#2)'"
+                              "raw": "'The promise should be resolved with the correct element values (#2)'",
+                              "start": 1808,
+                              "end": 1877
                             }
                           ],
-                          "optional": false
-                        }
+                          "optional": false,
+                          "start": 1802,
+                          "end": 1878
+                        },
+                        "start": 1802,
+                        "end": 1879
                       },
                       {
                         "type": "ReturnStatement",
+                        "argument": null,
                         "start": 1886,
-                        "end": 1893,
-                        "argument": null
+                        "end": 1893
                       }
-                    ]
+                    ],
+                    "start": 1794,
+                    "end": 1899
                   },
-                  "alternate": null
+                  "alternate": null,
+                  "start": 1772,
+                  "end": 1899
                 },
                 {
                   "type": "IfStatement",
-                  "start": 1905,
-                  "end": 2032,
                   "test": {
                     "type": "BinaryExpression",
-                    "start": 1909,
-                    "end": 1925,
                     "left": {
                       "type": "MemberExpression",
-                      "start": 1909,
-                      "end": 1918,
                       "object": {
                         "type": "Identifier",
+                        "name": "values",
                         "start": 1909,
-                        "end": 1915,
-                        "name": "values"
+                        "end": 1915
                       },
                       "property": {
                         "type": "Literal",
-                        "start": 1916,
-                        "end": 1917,
                         "value": 2,
-                        "raw": "2"
+                        "raw": "2",
+                        "start": 1916,
+                        "end": 1917
                       },
                       "optional": false,
-                      "computed": true
+                      "computed": true,
+                      "start": 1909,
+                      "end": 1918
                     },
                     "operator": "!==",
                     "right": {
                       "type": "Identifier",
+                      "name": "v3",
                       "start": 1923,
-                      "end": 1925,
-                      "name": "v3"
-                    }
+                      "end": 1925
+                    },
+                    "start": 1909,
+                    "end": 1925
                   },
                   "consequent": {
                     "type": "BlockStatement",
-                    "start": 1927,
-                    "end": 2032,
                     "body": [
                       {
                         "type": "ExpressionStatement",
-                        "start": 1935,
-                        "end": 2012,
                         "expression": {
                           "type": "CallExpression",
-                          "start": 1935,
-                          "end": 2011,
                           "callee": {
                             "type": "Identifier",
+                            "name": "$DONE",
                             "start": 1935,
-                            "end": 1940,
-                            "name": "$DONE"
+                            "end": 1940
                           },
                           "arguments": [
                             {
                               "type": "Literal",
-                              "start": 1941,
-                              "end": 2010,
                               "value": "The promise should be resolved with the correct element values (#3)",
-                              "raw": "'The promise should be resolved with the correct element values (#3)'"
+                              "raw": "'The promise should be resolved with the correct element values (#3)'",
+                              "start": 1941,
+                              "end": 2010
                             }
                           ],
-                          "optional": false
-                        }
+                          "optional": false,
+                          "start": 1935,
+                          "end": 2011
+                        },
+                        "start": 1935,
+                        "end": 2012
                       },
                       {
                         "type": "ReturnStatement",
+                        "argument": null,
                         "start": 2019,
-                        "end": 2026,
-                        "argument": null
+                        "end": 2026
                       }
-                    ]
+                    ],
+                    "start": 1927,
+                    "end": 2032
                   },
-                  "alternate": null
+                  "alternate": null,
+                  "start": 1905,
+                  "end": 2032
                 },
                 {
                   "type": "ExpressionStatement",
-                  "start": 2038,
-                  "end": 2046,
                   "expression": {
                     "type": "CallExpression",
-                    "start": 2038,
-                    "end": 2045,
                     "callee": {
                       "type": "Identifier",
+                      "name": "$DONE",
                       "start": 2038,
-                      "end": 2043,
-                      "name": "$DONE"
+                      "end": 2043
                     },
                     "arguments": [],
-                    "optional": false
-                  }
+                    "optional": false,
+                    "start": 2038,
+                    "end": 2045
+                  },
+                  "start": 2038,
+                  "end": 2046
                 }
-              ]
+              ],
+              "start": 1270,
+              "end": 2050
             },
-            "expression": false
+            "expression": false,
+            "start": 1253,
+            "end": 2050
           },
           {
             "type": "FunctionExpression",
-            "start": 2052,
-            "end": 2118,
             "id": null,
             "generator": false,
             "async": false,
             "params": [],
             "body": {
               "type": "BlockStatement",
-              "start": 2063,
-              "end": 2118,
               "body": [
                 {
                   "type": "ExpressionStatement",
-                  "start": 2069,
-                  "end": 2114,
                   "expression": {
                     "type": "CallExpression",
-                    "start": 2069,
-                    "end": 2113,
                     "callee": {
                       "type": "Identifier",
+                      "name": "$DONE",
                       "start": 2069,
-                      "end": 2074,
-                      "name": "$DONE"
+                      "end": 2074
                     },
                     "arguments": [
                       {
                         "type": "Literal",
-                        "start": 2075,
-                        "end": 2112,
                         "value": "The promise should not be rejected.",
-                        "raw": "'The promise should not be rejected.'"
+                        "raw": "'The promise should not be rejected.'",
+                        "start": 2075,
+                        "end": 2112
                       }
                     ],
-                    "optional": false
-                  }
+                    "optional": false,
+                    "start": 2069,
+                    "end": 2113
+                  },
+                  "start": 2069,
+                  "end": 2114
                 }
-              ]
+              ],
+              "start": 2063,
+              "end": 2118
             },
-            "expression": false
+            "expression": false,
+            "start": 2052,
+            "end": 2118
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 1219,
+        "end": 2119
+      },
+      "start": 1219,
+      "end": 2120
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 2121
 }

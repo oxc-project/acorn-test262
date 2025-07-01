@@ -1,84 +1,78 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 469,
   "body": [
     {
       "type": "FunctionDeclaration",
-      "start": 311,
-      "end": 344,
       "id": {
         "type": "Identifier",
+        "name": "f",
         "start": 320,
-        "end": 321,
-        "name": "f"
+        "end": 321
       },
       "generator": false,
       "async": false,
       "params": [],
       "body": {
         "type": "BlockStatement",
-        "start": 324,
-        "end": 344,
         "body": [
           {
             "type": "ReturnStatement",
-            "start": 330,
-            "end": 342,
             "argument": {
               "type": "ThisExpression",
               "start": 337,
               "end": 341
-            }
+            },
+            "start": 330,
+            "end": 342
           }
-        ]
+        ],
+        "start": 324,
+        "end": 344
       },
-      "expression": false
+      "expression": false,
+      "start": 311,
+      "end": 344
     },
     {
       "type": "ExpressionStatement",
-      "start": 346,
-      "end": 396,
       "expression": {
         "type": "CallExpression",
-        "start": 346,
-        "end": 395,
         "callee": {
           "type": "MemberExpression",
-          "start": 346,
-          "end": 365,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 346,
-            "end": 352,
-            "name": "assert"
+            "end": 352
           },
           "property": {
             "type": "Identifier",
+            "name": "notSameValue",
             "start": 353,
-            "end": 365,
-            "name": "notSameValue"
+            "end": 365
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 346,
+          "end": 365
         },
         "arguments": [
           {
             "type": "ParenthesizedExpression",
-            "start": 366,
-            "end": 375,
             "expression": {
               "type": "NewExpression",
-              "start": 367,
-              "end": 374,
               "callee": {
                 "type": "Identifier",
+                "name": "f",
                 "start": 371,
-                "end": 372,
-                "name": "f"
+                "end": 372
               },
-              "arguments": []
-            }
+              "arguments": [],
+              "start": 367,
+              "end": 374
+            },
+            "start": 366,
+            "end": 375
           },
           {
             "type": "ThisExpression",
@@ -87,86 +81,92 @@
           },
           {
             "type": "Literal",
-            "start": 383,
-            "end": 394,
             "value": "(new f())",
-            "raw": "'(new f())'"
+            "raw": "'(new f())'",
+            "start": 383,
+            "end": 394
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 346,
+        "end": 395
+      },
+      "start": 346,
+      "end": 396
     },
     {
       "type": "ExpressionStatement",
-      "start": 397,
-      "end": 468,
       "expression": {
         "type": "CallExpression",
-        "start": 397,
-        "end": 467,
         "callee": {
           "type": "MemberExpression",
-          "start": 397,
-          "end": 416,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 397,
-            "end": 403,
-            "name": "assert"
+            "end": 403
           },
           "property": {
             "type": "Identifier",
+            "name": "notSameValue",
             "start": 404,
-            "end": 416,
-            "name": "notSameValue"
+            "end": 416
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 397,
+          "end": 416
         },
         "arguments": [
           {
             "type": "UnaryExpression",
-            "start": 417,
-            "end": 433,
             "operator": "typeof",
             "argument": {
               "type": "ParenthesizedExpression",
-              "start": 424,
-              "end": 433,
               "expression": {
                 "type": "NewExpression",
-                "start": 425,
-                "end": 432,
                 "callee": {
                   "type": "Identifier",
+                  "name": "f",
                   "start": 429,
-                  "end": 430,
-                  "name": "f"
+                  "end": 430
                 },
-                "arguments": []
-              }
+                "arguments": [],
+                "start": 425,
+                "end": 432
+              },
+              "start": 424,
+              "end": 433
             },
-            "prefix": true
+            "prefix": true,
+            "start": 417,
+            "end": 433
           },
           {
             "type": "Literal",
-            "start": 435,
-            "end": 446,
             "value": "undefined",
-            "raw": "\"undefined\""
+            "raw": "\"undefined\"",
+            "start": 435,
+            "end": 446
           },
           {
             "type": "Literal",
-            "start": 448,
-            "end": 466,
             "value": "typeof (new f())",
-            "raw": "'typeof (new f())'"
+            "raw": "'typeof (new f())'",
+            "start": 448,
+            "end": 466
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 397,
+        "end": 467
+      },
+      "start": 397,
+      "end": 468
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 469
 }

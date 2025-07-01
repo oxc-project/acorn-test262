@@ -1,269 +1,269 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 1066,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 695,
-      "end": 869,
       "expression": {
         "type": "CallExpression",
-        "start": 695,
-        "end": 868,
         "callee": {
           "type": "MemberExpression",
-          "start": 695,
-          "end": 711,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 695,
-            "end": 701,
-            "name": "assert"
+            "end": 701
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 702,
-            "end": 711,
-            "name": "sameValue"
+            "end": 711
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 695,
+          "end": 711
         },
         "arguments": [
           {
             "type": "BinaryExpression",
-            "start": 715,
-            "end": 763,
             "left": {
               "type": "ParenthesizedExpression",
-              "start": 715,
-              "end": 757,
               "expression": {
                 "type": "BinaryExpression",
-                "start": 716,
-                "end": 756,
                 "left": {
                   "type": "CallExpression",
-                  "start": 716,
-                  "end": 730,
                   "callee": {
                     "type": "Identifier",
+                    "name": "Number",
                     "start": 716,
-                    "end": 722,
-                    "name": "Number"
+                    "end": 722
                   },
                   "arguments": [
                     {
                       "type": "Literal",
-                      "start": 723,
-                      "end": 729,
                       "value": "1234",
-                      "raw": "\"1234\""
+                      "raw": "\"1234\"",
+                      "start": 723,
+                      "end": 729
                     }
                   ],
-                  "optional": false
+                  "optional": false,
+                  "start": 716,
+                  "end": 730
                 },
                 "operator": "+",
                 "right": {
                   "type": "ParenthesizedExpression",
-                  "start": 733,
-                  "end": 756,
                   "expression": {
                     "type": "BinaryExpression",
-                    "start": 734,
-                    "end": 755,
                     "left": {
                       "type": "CallExpression",
-                      "start": 734,
-                      "end": 748,
                       "callee": {
                         "type": "Identifier",
+                        "name": "Number",
                         "start": 734,
-                        "end": 740,
-                        "name": "Number"
+                        "end": 740
                       },
                       "arguments": [
                         {
                           "type": "Literal",
-                          "start": 741,
-                          "end": 747,
                           "value": "5678",
-                          "raw": "\"5678\""
+                          "raw": "\"5678\"",
+                          "start": 741,
+                          "end": 747
                         }
                       ],
-                      "optional": false
+                      "optional": false,
+                      "start": 734,
+                      "end": 748
                     },
                     "operator": "*",
                     "right": {
                       "type": "Literal",
-                      "start": 751,
-                      "end": 755,
                       "value": 0.0001,
-                      "raw": "1e-4"
-                    }
-                  }
-                }
-              }
+                      "raw": "1e-4",
+                      "start": 751,
+                      "end": 755
+                    },
+                    "start": 734,
+                    "end": 755
+                  },
+                  "start": 733,
+                  "end": 756
+                },
+                "start": 716,
+                "end": 756
+              },
+              "start": 715,
+              "end": 757
             },
             "operator": "*",
             "right": {
               "type": "Literal",
-              "start": 760,
-              "end": 763,
               "value": 1000000000,
-              "raw": "1e9"
-            }
+              "raw": "1e9",
+              "start": 760,
+              "end": 763
+            },
+            "start": 715,
+            "end": 763
           },
           {
             "type": "Literal",
-            "start": 767,
-            "end": 778,
             "value": 1234567800000,
-            "raw": "1234.5678e9"
+            "raw": "1234.5678e9",
+            "start": 767,
+            "end": 778
           },
           {
             "type": "Literal",
-            "start": 782,
-            "end": 866,
             "value": "Number(\"1234.5678e9\") must return (Number(\"1234\") + (Number(\"5678\") * 1e-4)) * 1e9",
-            "raw": "'Number(\"1234.5678e9\") must return (Number(\"1234\") + (Number(\"5678\") * 1e-4)) * 1e9'"
+            "raw": "'Number(\"1234.5678e9\") must return (Number(\"1234\") + (Number(\"5678\") * 1e-4)) * 1e9'",
+            "start": 782,
+            "end": 866
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 695,
+        "end": 868
+      },
+      "start": 695,
+      "end": 869
     },
     {
       "type": "ExpressionStatement",
-      "start": 871,
-      "end": 1065,
       "expression": {
         "type": "CallExpression",
-        "start": 871,
-        "end": 1064,
         "callee": {
           "type": "MemberExpression",
-          "start": 871,
-          "end": 887,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 871,
-            "end": 877,
-            "name": "assert"
+            "end": 877
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 878,
-            "end": 887,
-            "name": "sameValue"
+            "end": 887
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 871,
+          "end": 887
         },
         "arguments": [
           {
             "type": "BinaryExpression",
-            "start": 891,
-            "end": 940,
             "left": {
               "type": "ParenthesizedExpression",
-              "start": 891,
-              "end": 933,
               "expression": {
                 "type": "BinaryExpression",
-                "start": 892,
-                "end": 932,
                 "left": {
                   "type": "CallExpression",
-                  "start": 892,
-                  "end": 906,
                   "callee": {
                     "type": "Identifier",
+                    "name": "Number",
                     "start": 892,
-                    "end": 898,
-                    "name": "Number"
+                    "end": 898
                   },
                   "arguments": [
                     {
                       "type": "Literal",
-                      "start": 899,
-                      "end": 905,
                       "value": "1234",
-                      "raw": "\"1234\""
+                      "raw": "\"1234\"",
+                      "start": 899,
+                      "end": 905
                     }
                   ],
-                  "optional": false
+                  "optional": false,
+                  "start": 892,
+                  "end": 906
                 },
                 "operator": "+",
                 "right": {
                   "type": "ParenthesizedExpression",
-                  "start": 909,
-                  "end": 932,
                   "expression": {
                     "type": "BinaryExpression",
-                    "start": 910,
-                    "end": 931,
                     "left": {
                       "type": "CallExpression",
-                      "start": 910,
-                      "end": 924,
                       "callee": {
                         "type": "Identifier",
+                        "name": "Number",
                         "start": 910,
-                        "end": 916,
-                        "name": "Number"
+                        "end": 916
                       },
                       "arguments": [
                         {
                           "type": "Literal",
-                          "start": 917,
-                          "end": 923,
                           "value": "5678",
-                          "raw": "\"5678\""
+                          "raw": "\"5678\"",
+                          "start": 917,
+                          "end": 923
                         }
                       ],
-                      "optional": false
+                      "optional": false,
+                      "start": 910,
+                      "end": 924
                     },
                     "operator": "*",
                     "right": {
                       "type": "Literal",
-                      "start": 927,
-                      "end": 931,
                       "value": 0.0001,
-                      "raw": "1e-4"
-                    }
-                  }
-                }
-              }
+                      "raw": "1e-4",
+                      "start": 927,
+                      "end": 931
+                    },
+                    "start": 910,
+                    "end": 931
+                  },
+                  "start": 909,
+                  "end": 932
+                },
+                "start": 892,
+                "end": 932
+              },
+              "start": 891,
+              "end": 933
             },
             "operator": "*",
             "right": {
               "type": "Literal",
-              "start": 936,
-              "end": 940,
               "value": 1e-9,
-              "raw": "1e-9"
-            }
+              "raw": "1e-9",
+              "start": 936,
+              "end": 940
+            },
+            "start": 891,
+            "end": 940
           },
           {
             "type": "Literal",
-            "start": 944,
-            "end": 956,
             "value": 0.0000012345678,
-            "raw": "1234.5678e-9"
+            "raw": "1234.5678e-9",
+            "start": 944,
+            "end": 956
           },
           {
             "type": "Literal",
-            "start": 960,
-            "end": 1062,
             "value": "The value of `+(\"1234.5678e-9\")` is expected to be (Number(\"1234\") + (Number(\"5678\") * 1e-4)) * 1e-9",
-            "raw": "'The value of `+(\"1234.5678e-9\")` is expected to be (Number(\"1234\") + (Number(\"5678\") * 1e-4)) * 1e-9'"
+            "raw": "'The value of `+(\"1234.5678e-9\")` is expected to be (Number(\"1234\") + (Number(\"5678\") * 1e-4)) * 1e-9'",
+            "start": 960,
+            "end": 1062
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 871,
+        "end": 1064
+      },
+      "start": 871,
+      "end": 1065
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 1066
 }

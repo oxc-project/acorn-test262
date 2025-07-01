@@ -1,37 +1,37 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 1157,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 1139,
-      "end": 1156,
       "expression": {
         "type": "UnaryExpression",
-        "start": 1139,
-        "end": 1155,
         "operator": "typeof",
         "argument": {
           "type": "AwaitExpression",
-          "start": 1146,
-          "end": 1155,
           "argument": {
             "type": "Literal",
-            "start": 1152,
-            "end": 1155,
             "value": null,
             "raw": "/1/",
             "regex": {
               "pattern": "1",
               "flags": ""
-            }
-          }
+            },
+            "start": 1152,
+            "end": 1155
+          },
+          "start": 1146,
+          "end": 1155
         },
-        "prefix": true
-      }
+        "prefix": true,
+        "start": 1139,
+        "end": 1155
+      },
+      "start": 1139,
+      "end": 1156
     }
   ],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 1157
 }

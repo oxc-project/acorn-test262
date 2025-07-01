@@ -1,51 +1,47 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 728,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 332,
-      "end": 343,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 336,
-          "end": 342,
           "id": {
             "type": "Identifier",
+            "name": "enumed",
             "start": 336,
-            "end": 342,
-            "name": "enumed"
+            "end": 342
           },
-          "init": null
+          "init": null,
+          "start": 336,
+          "end": 342
         }
-      ]
+      ],
+      "start": 332,
+      "end": 343
     },
     {
       "type": "ForInStatement",
-      "start": 434,
-      "end": 520,
       "left": {
         "type": "VariableDeclaration",
-        "start": 439,
-        "end": 449,
         "kind": "var",
         "declarations": [
           {
             "type": "VariableDeclarator",
-            "start": 443,
-            "end": 449,
             "id": {
               "type": "Identifier",
+              "name": "__prop",
               "start": 443,
-              "end": 449,
-              "name": "__prop"
+              "end": 449
             },
-            "init": null
+            "init": null,
+            "start": 443,
+            "end": 449
           }
-        ]
+        ],
+        "start": 439,
+        "end": 449
       },
       "right": {
         "type": "ThisExpression",
@@ -54,138 +50,142 @@
       },
       "body": {
         "type": "BlockStatement",
-        "start": 458,
-        "end": 520,
         "body": [
           {
             "type": "IfStatement",
-            "start": 464,
-            "end": 518,
             "test": {
               "type": "BinaryExpression",
-              "start": 468,
-              "end": 496,
               "left": {
                 "type": "Identifier",
+                "name": "__prop",
                 "start": 468,
-                "end": 474,
-                "name": "__prop"
+                "end": 474
               },
               "operator": "===",
               "right": {
                 "type": "Literal",
-                "start": 479,
-                "end": 496,
                 "value": "__declared__var",
-                "raw": "\"__declared__var\""
-              }
+                "raw": "\"__declared__var\"",
+                "start": 479,
+                "end": 496
+              },
+              "start": 468,
+              "end": 496
             },
             "consequent": {
               "type": "ExpressionStatement",
-              "start": 506,
-              "end": 518,
               "expression": {
                 "type": "AssignmentExpression",
-                "start": 506,
-                "end": 517,
                 "operator": "=",
                 "left": {
                   "type": "Identifier",
+                  "name": "enumed",
                   "start": 506,
-                  "end": 512,
-                  "name": "enumed"
+                  "end": 512
                 },
                 "right": {
                   "type": "Literal",
-                  "start": 513,
-                  "end": 517,
                   "value": true,
-                  "raw": "true"
-                }
-              }
+                  "raw": "true",
+                  "start": 513,
+                  "end": 517
+                },
+                "start": 506,
+                "end": 517
+              },
+              "start": 506,
+              "end": 518
             },
-            "alternate": null
+            "alternate": null,
+            "start": 464,
+            "end": 518
           }
-        ]
-      }
+        ],
+        "start": 458,
+        "end": 520
+      },
+      "start": 434,
+      "end": 520
     },
     {
       "type": "IfStatement",
-      "start": 521,
-      "end": 623,
       "test": {
         "type": "UnaryExpression",
-        "start": 525,
-        "end": 534,
         "operator": "!",
         "argument": {
           "type": "ParenthesizedExpression",
-          "start": 526,
-          "end": 534,
           "expression": {
             "type": "Identifier",
+            "name": "enumed",
             "start": 527,
-            "end": 533,
-            "name": "enumed"
-          }
+            "end": 533
+          },
+          "start": 526,
+          "end": 534
         },
-        "prefix": true
+        "prefix": true,
+        "start": 525,
+        "end": 534
       },
       "consequent": {
         "type": "BlockStatement",
-        "start": 536,
-        "end": 623,
         "body": [
           {
             "type": "ThrowStatement",
-            "start": 539,
-            "end": 621,
             "argument": {
               "type": "NewExpression",
-              "start": 545,
-              "end": 620,
               "callee": {
                 "type": "Identifier",
+                "name": "Test262Error",
                 "start": 549,
-                "end": 561,
-                "name": "Test262Error"
+                "end": 561
               },
               "arguments": [
                 {
                   "type": "Literal",
-                  "start": 562,
-                  "end": 619,
                   "value": "#1: When using property attributes, {DontEnum} not used",
-                  "raw": "'#1: When using property attributes, {DontEnum} not used'"
+                  "raw": "'#1: When using property attributes, {DontEnum} not used'",
+                  "start": 562,
+                  "end": 619
                 }
-              ]
-            }
+              ],
+              "start": 545,
+              "end": 620
+            },
+            "start": 539,
+            "end": 621
           }
-        ]
+        ],
+        "start": 536,
+        "end": 623
       },
-      "alternate": null
+      "alternate": null,
+      "start": 521,
+      "end": 623
     },
     {
       "type": "VariableDeclaration",
-      "start": 707,
-      "end": 727,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 711,
-          "end": 726,
           "id": {
             "type": "Identifier",
+            "name": "__declared__var",
             "start": 711,
-            "end": 726,
-            "name": "__declared__var"
+            "end": 726
           },
-          "init": null
+          "init": null,
+          "start": 711,
+          "end": 726
         }
-      ]
+      ],
+      "start": 707,
+      "end": 727
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 728
 }

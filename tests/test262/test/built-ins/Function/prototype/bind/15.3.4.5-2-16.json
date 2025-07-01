@@ -1,61 +1,61 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 273,
   "body": [
     {
       "type": "FunctionDeclaration",
-      "start": 232,
-      "end": 254,
       "id": {
         "type": "Identifier",
+        "name": "testFunc",
         "start": 241,
-        "end": 249,
-        "name": "testFunc"
+        "end": 249
       },
       "generator": false,
       "async": false,
       "params": [],
       "body": {
         "type": "BlockStatement",
+        "body": [],
         "start": 252,
-        "end": 254,
-        "body": []
+        "end": 254
       },
-      "expression": false
+      "expression": false,
+      "start": 232,
+      "end": 254
     },
     {
       "type": "ExpressionStatement",
-      "start": 256,
-      "end": 272,
       "expression": {
         "type": "CallExpression",
-        "start": 256,
-        "end": 271,
         "callee": {
           "type": "MemberExpression",
-          "start": 256,
-          "end": 269,
           "object": {
             "type": "Identifier",
+            "name": "testFunc",
             "start": 256,
-            "end": 264,
-            "name": "testFunc"
+            "end": 264
           },
           "property": {
             "type": "Identifier",
+            "name": "bind",
             "start": 265,
-            "end": 269,
-            "name": "bind"
+            "end": 269
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 256,
+          "end": 269
         },
         "arguments": [],
-        "optional": false
-      }
+        "optional": false,
+        "start": 256,
+        "end": 271
+      },
+      "start": 256,
+      "end": 272
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 273
 }

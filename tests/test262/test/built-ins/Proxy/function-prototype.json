@@ -1,100 +1,100 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 469,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 330,
-      "end": 468,
       "expression": {
         "type": "CallExpression",
-        "start": 330,
-        "end": 467,
         "callee": {
           "type": "MemberExpression",
-          "start": 330,
-          "end": 346,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 330,
-            "end": 336,
-            "name": "assert"
+            "end": 336
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 337,
-            "end": 346,
-            "name": "sameValue"
+            "end": 346
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 330,
+          "end": 346
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 350,
-            "end": 378,
             "callee": {
               "type": "MemberExpression",
-              "start": 350,
-              "end": 371,
               "object": {
                 "type": "Identifier",
+                "name": "Object",
                 "start": 350,
-                "end": 356,
-                "name": "Object"
+                "end": 356
               },
               "property": {
                 "type": "Identifier",
+                "name": "getPrototypeOf",
                 "start": 357,
-                "end": 371,
-                "name": "getPrototypeOf"
+                "end": 371
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 350,
+              "end": 371
             },
             "arguments": [
               {
                 "type": "Identifier",
+                "name": "Proxy",
                 "start": 372,
-                "end": 377,
-                "name": "Proxy"
+                "end": 377
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 350,
+            "end": 378
           },
           {
             "type": "MemberExpression",
-            "start": 382,
-            "end": 400,
             "object": {
               "type": "Identifier",
+              "name": "Function",
               "start": 382,
-              "end": 390,
-              "name": "Function"
+              "end": 390
             },
             "property": {
               "type": "Identifier",
+              "name": "prototype",
               "start": 391,
-              "end": 400,
-              "name": "prototype"
+              "end": 400
             },
             "optional": false,
-            "computed": false
+            "computed": false,
+            "start": 382,
+            "end": 400
           },
           {
             "type": "Literal",
-            "start": 404,
-            "end": 465,
             "value": "`Object.getPrototypeOf(Proxy)` returns `Function.prototype`",
-            "raw": "\"`Object.getPrototypeOf(Proxy)` returns `Function.prototype`\""
+            "raw": "\"`Object.getPrototypeOf(Proxy)` returns `Function.prototype`\"",
+            "start": 404,
+            "end": 465
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 330,
+        "end": 467
+      },
+      "start": 330,
+      "end": 468
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 469
 }

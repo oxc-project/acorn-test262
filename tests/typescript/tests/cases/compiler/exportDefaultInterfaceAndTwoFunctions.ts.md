@@ -2,76 +2,70 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 121,
   "body": [
     {
       "type": "ExportDefaultDeclaration",
-      "start": 0,
-      "end": 41,
       "declaration": {
         "type": "TSInterfaceDeclaration",
-        "start": 15,
-        "end": 41,
         "id": {
           "type": "Identifier",
-          "start": 25,
-          "end": 26,
           "decorators": [],
           "name": "A",
           "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "start": 25,
+          "end": 26
         },
         "typeParameters": null,
         "extends": [],
         "body": {
           "type": "TSInterfaceBody",
-          "start": 27,
-          "end": 41,
           "body": [
             {
               "type": "TSPropertySignature",
-              "start": 29,
-              "end": 39,
               "computed": false,
               "optional": false,
               "readonly": false,
               "key": {
                 "type": "Identifier",
-                "start": 29,
-                "end": 30,
                 "decorators": [],
                 "name": "a",
                 "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "start": 29,
+                "end": 30
               },
               "typeAnnotation": {
                 "type": "TSTypeAnnotation",
-                "start": 30,
-                "end": 38,
                 "typeAnnotation": {
                   "type": "TSStringKeyword",
                   "start": 32,
                   "end": 38
-                }
+                },
+                "start": 30,
+                "end": 38
               },
               "accessibility": null,
-              "static": false
+              "static": false,
+              "start": 29,
+              "end": 39
             }
-          ]
+          ],
+          "start": 27,
+          "end": 41
         },
-        "declare": false
+        "declare": false,
+        "start": 15,
+        "end": 41
       },
-      "exportKind": "value"
+      "exportKind": "value",
+      "start": 0,
+      "end": 41
     },
     {
       "type": "ExportDefaultDeclaration",
-      "start": 42,
-      "end": 81,
       "declaration": {
         "type": "FunctionDeclaration",
-        "start": 57,
-        "end": 81,
         "id": null,
         "generator": false,
         "async": false,
@@ -81,35 +75,35 @@ __ESTREE_TEST__:PASS:
         "returnType": null,
         "body": {
           "type": "BlockStatement",
-          "start": 68,
-          "end": 81,
           "body": [
             {
               "type": "ReturnStatement",
-              "start": 70,
-              "end": 79,
               "argument": {
                 "type": "Literal",
-                "start": 77,
-                "end": 78,
                 "value": 1,
-                "raw": "1"
-              }
+                "raw": "1",
+                "start": 77,
+                "end": 78
+              },
+              "start": 70,
+              "end": 79
             }
-          ]
+          ],
+          "start": 68,
+          "end": 81
         },
-        "expression": false
+        "expression": false,
+        "start": 57,
+        "end": 81
       },
-      "exportKind": "value"
+      "exportKind": "value",
+      "start": 42,
+      "end": 81
     },
     {
       "type": "ExportDefaultDeclaration",
-      "start": 82,
-      "end": 121,
       "declaration": {
         "type": "FunctionDeclaration",
-        "start": 97,
-        "end": 121,
         "id": null,
         "generator": false,
         "async": false,
@@ -119,29 +113,35 @@ __ESTREE_TEST__:PASS:
         "returnType": null,
         "body": {
           "type": "BlockStatement",
-          "start": 108,
-          "end": 121,
           "body": [
             {
               "type": "ReturnStatement",
-              "start": 110,
-              "end": 119,
               "argument": {
                 "type": "Literal",
-                "start": 117,
-                "end": 118,
                 "value": 2,
-                "raw": "2"
-              }
+                "raw": "2",
+                "start": 117,
+                "end": 118
+              },
+              "start": 110,
+              "end": 119
             }
-          ]
+          ],
+          "start": 108,
+          "end": 121
         },
-        "expression": false
+        "expression": false,
+        "start": 97,
+        "end": 121
       },
-      "exportKind": "value"
+      "exportKind": "value",
+      "start": 82,
+      "end": 121
     }
   ],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 121
 }
 ```

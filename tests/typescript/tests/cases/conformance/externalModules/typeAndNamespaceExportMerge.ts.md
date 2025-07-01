@@ -2,303 +2,303 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 12,
-  "end": 60,
   "body": [
     {
       "type": "ExportNamedDeclaration",
-      "start": 12,
-      "end": 36,
       "declaration": {
         "type": "VariableDeclaration",
-        "start": 19,
-        "end": 36,
         "kind": "const",
         "declarations": [
           {
             "type": "VariableDeclarator",
-            "start": 25,
-            "end": 35,
             "id": {
               "type": "Identifier",
-              "start": 25,
-              "end": 31,
               "decorators": [],
               "name": "COFFEE",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 25,
+              "end": 31
             },
             "init": {
               "type": "Literal",
-              "start": 34,
-              "end": 35,
               "value": 0,
-              "raw": "0"
+              "raw": "0",
+              "start": 34,
+              "end": 35
             },
-            "definite": false
+            "definite": false,
+            "start": 25,
+            "end": 35
           }
         ],
-        "declare": false
+        "declare": false,
+        "start": 19,
+        "end": 36
       },
       "specifiers": [],
       "source": null,
       "exportKind": "value",
-      "attributes": []
+      "attributes": [],
+      "start": 12,
+      "end": 36
     },
     {
       "type": "ExportNamedDeclaration",
-      "start": 37,
-      "end": 58,
       "declaration": {
         "type": "VariableDeclaration",
-        "start": 44,
-        "end": 58,
         "kind": "const",
         "declarations": [
           {
             "type": "VariableDeclarator",
-            "start": 50,
-            "end": 57,
             "id": {
               "type": "Identifier",
-              "start": 50,
-              "end": 53,
               "decorators": [],
               "name": "TEA",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 50,
+              "end": 53
             },
             "init": {
               "type": "Literal",
-              "start": 56,
-              "end": 57,
               "value": 1,
-              "raw": "1"
+              "raw": "1",
+              "start": 56,
+              "end": 57
             },
-            "definite": false
+            "definite": false,
+            "start": 50,
+            "end": 57
           }
         ],
-        "declare": false
+        "declare": false,
+        "start": 44,
+        "end": 58
       },
       "specifiers": [],
       "source": null,
       "exportKind": "value",
-      "attributes": []
+      "attributes": [],
+      "start": 37,
+      "end": 58
     }
   ],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 12,
+  "end": 60
 }
 ```
 __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 66,
   "body": [
     {
       "type": "ExportNamedDeclaration",
-      "start": 0,
-      "end": 26,
       "declaration": {
         "type": "TSTypeAliasDeclaration",
-        "start": 7,
-        "end": 26,
         "id": {
           "type": "Identifier",
-          "start": 12,
-          "end": 17,
           "decorators": [],
           "name": "Drink",
           "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "start": 12,
+          "end": 17
         },
         "typeParameters": null,
         "typeAnnotation": {
           "type": "TSUnionType",
-          "start": 20,
-          "end": 25,
           "types": [
             {
               "type": "TSLiteralType",
-              "start": 20,
-              "end": 21,
               "literal": {
                 "type": "Literal",
-                "start": 20,
-                "end": 21,
                 "value": 0,
-                "raw": "0"
-              }
+                "raw": "0",
+                "start": 20,
+                "end": 21
+              },
+              "start": 20,
+              "end": 21
             },
             {
               "type": "TSLiteralType",
-              "start": 24,
-              "end": 25,
               "literal": {
                 "type": "Literal",
-                "start": 24,
-                "end": 25,
                 "value": 1,
-                "raw": "1"
-              }
+                "raw": "1",
+                "start": 24,
+                "end": 25
+              },
+              "start": 24,
+              "end": 25
             }
-          ]
+          ],
+          "start": 20,
+          "end": 25
         },
-        "declare": false
+        "declare": false,
+        "start": 7,
+        "end": 26
       },
       "specifiers": [],
       "source": null,
       "exportKind": "type",
-      "attributes": []
+      "attributes": [],
+      "start": 0,
+      "end": 26
     },
     {
       "type": "ExportAllDeclaration",
-      "start": 27,
-      "end": 64,
       "exported": {
         "type": "Identifier",
-        "start": 39,
-        "end": 44,
         "decorators": [],
         "name": "Drink",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 39,
+        "end": 44
       },
       "source": {
         "type": "Literal",
-        "start": 50,
-        "end": 63,
         "value": "./constants",
-        "raw": "\"./constants\""
+        "raw": "\"./constants\"",
+        "start": 50,
+        "end": 63
       },
       "attributes": [],
-      "exportKind": "value"
+      "exportKind": "value",
+      "start": 27,
+      "end": 64
     }
   ],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 66
 }
 ```
 __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 128,
   "body": [
     {
       "type": "ImportDeclaration",
-      "start": 0,
-      "end": 32,
       "specifiers": [
         {
           "type": "ImportSpecifier",
-          "start": 9,
-          "end": 14,
           "imported": {
             "type": "Identifier",
-            "start": 9,
-            "end": 14,
             "decorators": [],
             "name": "Drink",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 9,
+            "end": 14
           },
           "local": {
             "type": "Identifier",
-            "start": 9,
-            "end": 14,
             "decorators": [],
             "name": "Drink",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 9,
+            "end": 14
           },
-          "importKind": "value"
+          "importKind": "value",
+          "start": 9,
+          "end": 14
         }
       ],
       "source": {
         "type": "Literal",
-        "start": 22,
-        "end": 31,
         "value": "./drink",
-        "raw": "\"./drink\""
+        "raw": "\"./drink\"",
+        "start": 22,
+        "end": 31
       },
       "phase": null,
       "attributes": [],
-      "importKind": "value"
+      "importKind": "value",
+      "start": 0,
+      "end": 32
     },
     {
       "type": "VariableDeclaration",
-      "start": 101,
-      "end": 128,
       "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 107,
-          "end": 127,
           "id": {
             "type": "Identifier",
-            "start": 107,
-            "end": 115,
             "decorators": [],
             "name": "x",
             "optional": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
-              "start": 108,
-              "end": 115,
               "typeAnnotation": {
                 "type": "TSTypeReference",
-                "start": 110,
-                "end": 115,
                 "typeName": {
                   "type": "Identifier",
-                  "start": 110,
-                  "end": 115,
                   "decorators": [],
                   "name": "Drink",
                   "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "start": 110,
+                  "end": 115
                 },
-                "typeArguments": null
-              }
-            }
+                "typeArguments": null,
+                "start": 110,
+                "end": 115
+              },
+              "start": 108,
+              "end": 115
+            },
+            "start": 107,
+            "end": 115
           },
           "init": {
             "type": "MemberExpression",
-            "start": 118,
-            "end": 127,
             "object": {
               "type": "Identifier",
-              "start": 118,
-              "end": 123,
               "decorators": [],
               "name": "Drink",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 118,
+              "end": 123
             },
             "property": {
               "type": "Identifier",
-              "start": 124,
-              "end": 127,
               "decorators": [],
               "name": "TEA",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 124,
+              "end": 127
             },
             "optional": false,
-            "computed": false
+            "computed": false,
+            "start": 118,
+            "end": 127
           },
-          "definite": false
+          "definite": false,
+          "start": 107,
+          "end": 127
         }
       ],
-      "declare": false
+      "declare": false,
+      "start": 101,
+      "end": 128
     }
   ],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 128
 }
 ```

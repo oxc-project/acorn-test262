@@ -1,57 +1,57 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 467,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 337,
-      "end": 354,
       "expression": {
         "type": "CallExpression",
-        "start": 337,
-        "end": 353,
         "callee": {
           "type": "Identifier",
+          "name": "$DONOTEVALUATE",
           "start": 337,
-          "end": 351,
-          "name": "$DONOTEVALUATE"
+          "end": 351
         },
         "arguments": [],
-        "optional": false
-      }
+        "optional": false,
+        "start": 337,
+        "end": 353
+      },
+      "start": 337,
+      "end": 354
     },
     {
       "type": "ImportDeclaration",
-      "start": 356,
-      "end": 410,
       "specifiers": [],
       "source": {
         "type": "Literal",
-        "start": 363,
-        "end": 409,
         "value": "./instn-resolve-order-depth-child_FIXTURE.js",
-        "raw": "'./instn-resolve-order-depth-child_FIXTURE.js'"
+        "raw": "'./instn-resolve-order-depth-child_FIXTURE.js'",
+        "start": 363,
+        "end": 409
       },
       "phase": null,
-      "attributes": []
+      "attributes": [],
+      "start": 356,
+      "end": 410
     },
     {
       "type": "ImportDeclaration",
-      "start": 411,
-      "end": 466,
       "specifiers": [],
       "source": {
         "type": "Literal",
-        "start": 418,
-        "end": 465,
         "value": "./instn-resolve-order-depth-syntax_FIXTURE.js",
-        "raw": "'./instn-resolve-order-depth-syntax_FIXTURE.js'"
+        "raw": "'./instn-resolve-order-depth-syntax_FIXTURE.js'",
+        "start": 418,
+        "end": 465
       },
       "phase": null,
-      "attributes": []
+      "attributes": [],
+      "start": 411,
+      "end": 466
     }
   ],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 467
 }

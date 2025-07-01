@@ -1,123 +1,123 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 964,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 876,
-      "end": 907,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 880,
-          "end": 906,
           "id": {
             "type": "Identifier",
+            "name": "obj",
             "start": 880,
-            "end": 883,
-            "name": "obj"
+            "end": 883
           },
           "init": {
             "type": "ObjectExpression",
-            "start": 886,
-            "end": 906,
             "properties": [
               {
                 "type": "Property",
-                "start": 890,
-                "end": 904,
                 "kind": "init",
                 "key": {
                   "type": "Identifier",
+                  "name": "const",
                   "start": 890,
-                  "end": 900,
-                  "name": "const"
+                  "end": 900
                 },
                 "value": {
                   "type": "Literal",
-                  "start": 902,
-                  "end": 904,
                   "value": 42,
-                  "raw": "42"
+                  "raw": "42",
+                  "start": 902,
+                  "end": 904
                 },
                 "method": false,
                 "shorthand": false,
-                "computed": false
+                "computed": false,
+                "start": 890,
+                "end": 904
               }
-            ]
-          }
+            ],
+            "start": 886,
+            "end": 906
+          },
+          "start": 880,
+          "end": 906
         }
-      ]
+      ],
+      "start": 876,
+      "end": 907
     },
     {
       "type": "ExpressionStatement",
-      "start": 909,
-      "end": 963,
       "expression": {
         "type": "CallExpression",
-        "start": 909,
-        "end": 962,
         "callee": {
           "type": "MemberExpression",
-          "start": 909,
-          "end": 925,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 909,
-            "end": 915,
-            "name": "assert"
+            "end": 915
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 916,
-            "end": 925,
-            "name": "sameValue"
+            "end": 925
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 909,
+          "end": 925
         },
         "arguments": [
           {
             "type": "MemberExpression",
-            "start": 926,
-            "end": 938,
             "object": {
               "type": "Identifier",
+              "name": "obj",
               "start": 926,
-              "end": 929,
-              "name": "obj"
+              "end": 929
             },
             "property": {
               "type": "Literal",
-              "start": 930,
-              "end": 937,
               "value": "const",
-              "raw": "'const'"
+              "raw": "'const'",
+              "start": 930,
+              "end": 937
             },
             "optional": false,
-            "computed": true
+            "computed": true,
+            "start": 926,
+            "end": 938
           },
           {
             "type": "Literal",
-            "start": 940,
-            "end": 942,
             "value": 42,
-            "raw": "42"
+            "raw": "42",
+            "start": 940,
+            "end": 942
           },
           {
             "type": "Literal",
-            "start": 944,
-            "end": 961,
             "value": "property exists",
-            "raw": "'property exists'"
+            "raw": "'property exists'",
+            "start": 944,
+            "end": 961
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 909,
+        "end": 962
+      },
+      "start": 909,
+      "end": 963
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 964
 }

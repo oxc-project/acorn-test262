@@ -1,663 +1,663 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 2360,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 305,
-      "end": 313,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 309,
-          "end": 312,
           "id": {
             "type": "Identifier",
+            "name": "c",
             "start": 309,
-            "end": 310,
-            "name": "c"
+            "end": 310
           },
           "init": {
             "type": "Literal",
-            "start": 311,
-            "end": 312,
             "value": 0,
-            "raw": "0"
-          }
+            "raw": "0",
+            "start": 311,
+            "end": 312
+          },
+          "start": 309,
+          "end": 312
         }
-      ]
+      ],
+      "start": 305,
+      "end": 313
     },
     {
       "type": "IfStatement",
-      "start": 403,
-      "end": 493,
       "test": {
         "type": "Literal",
-        "start": 406,
-        "end": 407,
         "value": 0,
-        "raw": "0"
+        "raw": "0",
+        "start": 406,
+        "end": 407
       },
       "consequent": {
         "type": "ThrowStatement",
-        "start": 410,
-        "end": 481,
         "argument": {
           "type": "NewExpression",
-          "start": 416,
-          "end": 480,
           "callee": {
             "type": "Identifier",
+            "name": "Test262Error",
             "start": 420,
-            "end": 432,
-            "name": "Test262Error"
+            "end": 432
           },
           "arguments": [
             {
               "type": "Literal",
-              "start": 433,
-              "end": 479,
               "value": "#1.1: 0 in expression is evaluated to false ",
-              "raw": "'#1.1: 0 in expression is evaluated to false '"
+              "raw": "'#1.1: 0 in expression is evaluated to false '",
+              "start": 433,
+              "end": 479
             }
-          ]
-        }
+          ],
+          "start": 416,
+          "end": 480
+        },
+        "start": 410,
+        "end": 481
       },
       "alternate": {
         "type": "ExpressionStatement",
-        "start": 489,
-        "end": 493,
         "expression": {
           "type": "UpdateExpression",
-          "start": 489,
-          "end": 492,
           "operator": "++",
           "prefix": false,
           "argument": {
             "type": "Identifier",
+            "name": "c",
             "start": 489,
-            "end": 490,
-            "name": "c"
-          }
-        }
-      }
+            "end": 490
+          },
+          "start": 489,
+          "end": 492
+        },
+        "start": 489,
+        "end": 493
+      },
+      "start": 403,
+      "end": 493
     },
     {
       "type": "IfStatement",
-      "start": 494,
-      "end": 562,
       "test": {
         "type": "BinaryExpression",
-        "start": 498,
-        "end": 502,
         "left": {
           "type": "Identifier",
+          "name": "c",
           "start": 498,
-          "end": 499,
-          "name": "c"
+          "end": 499
         },
         "operator": "!=",
         "right": {
           "type": "Literal",
-          "start": 501,
-          "end": 502,
           "value": 1,
-          "raw": "1"
-        }
+          "raw": "1",
+          "start": 501,
+          "end": 502
+        },
+        "start": 498,
+        "end": 502
       },
       "consequent": {
         "type": "ThrowStatement",
-        "start": 504,
-        "end": 562,
         "argument": {
           "type": "NewExpression",
-          "start": 510,
-          "end": 561,
           "callee": {
             "type": "Identifier",
+            "name": "Test262Error",
             "start": 514,
-            "end": 526,
-            "name": "Test262Error"
+            "end": 526
           },
           "arguments": [
             {
               "type": "Literal",
-              "start": 527,
-              "end": 560,
               "value": "#1.2: else branch don`t execute",
-              "raw": "'#1.2: else branch don`t execute'"
+              "raw": "'#1.2: else branch don`t execute'",
+              "start": 527,
+              "end": 560
             }
-          ]
-        }
+          ],
+          "start": 510,
+          "end": 561
+        },
+        "start": 504,
+        "end": 562
       },
-      "alternate": null
+      "alternate": null,
+      "start": 494,
+      "end": 562
     },
     {
       "type": "IfStatement",
-      "start": 735,
-      "end": 836,
       "test": {
         "type": "Literal",
-        "start": 738,
-        "end": 743,
         "value": false,
-        "raw": "false"
+        "raw": "false",
+        "start": 738,
+        "end": 743
       },
       "consequent": {
         "type": "ThrowStatement",
-        "start": 749,
-        "end": 824,
         "argument": {
           "type": "NewExpression",
-          "start": 755,
-          "end": 823,
           "callee": {
             "type": "Identifier",
+            "name": "Test262Error",
             "start": 759,
-            "end": 771,
-            "name": "Test262Error"
+            "end": 771
           },
           "arguments": [
             {
               "type": "Literal",
-              "start": 772,
-              "end": 822,
               "value": "#2.1: false in expression is evaluated to false ",
-              "raw": "'#2.1: false in expression is evaluated to false '"
+              "raw": "'#2.1: false in expression is evaluated to false '",
+              "start": 772,
+              "end": 822
             }
-          ]
-        }
+          ],
+          "start": 755,
+          "end": 823
+        },
+        "start": 749,
+        "end": 824
       },
       "alternate": {
         "type": "ExpressionStatement",
-        "start": 832,
-        "end": 836,
         "expression": {
           "type": "UpdateExpression",
-          "start": 832,
-          "end": 835,
           "operator": "++",
           "prefix": false,
           "argument": {
             "type": "Identifier",
+            "name": "c",
             "start": 832,
-            "end": 833,
-            "name": "c"
-          }
-        }
-      }
+            "end": 833
+          },
+          "start": 832,
+          "end": 835
+        },
+        "start": 832,
+        "end": 836
+      },
+      "start": 735,
+      "end": 836
     },
     {
       "type": "IfStatement",
-      "start": 837,
-      "end": 905,
       "test": {
         "type": "BinaryExpression",
-        "start": 841,
-        "end": 845,
         "left": {
           "type": "Identifier",
+          "name": "c",
           "start": 841,
-          "end": 842,
-          "name": "c"
+          "end": 842
         },
         "operator": "!=",
         "right": {
           "type": "Literal",
-          "start": 844,
-          "end": 845,
           "value": 2,
-          "raw": "2"
-        }
+          "raw": "2",
+          "start": 844,
+          "end": 845
+        },
+        "start": 841,
+        "end": 845
       },
       "consequent": {
         "type": "ThrowStatement",
-        "start": 847,
-        "end": 905,
         "argument": {
           "type": "NewExpression",
-          "start": 853,
-          "end": 904,
           "callee": {
             "type": "Identifier",
+            "name": "Test262Error",
             "start": 857,
-            "end": 869,
-            "name": "Test262Error"
+            "end": 869
           },
           "arguments": [
             {
               "type": "Literal",
-              "start": 870,
-              "end": 903,
               "value": "#2.2: else branch don`t execute",
-              "raw": "'#2.2: else branch don`t execute'"
+              "raw": "'#2.2: else branch don`t execute'",
+              "start": 870,
+              "end": 903
             }
-          ]
-        }
+          ],
+          "start": 853,
+          "end": 904
+        },
+        "start": 847,
+        "end": 905
       },
-      "alternate": null
+      "alternate": null,
+      "start": 837,
+      "end": 905
     },
     {
       "type": "IfStatement",
-      "start": 1078,
-      "end": 1174,
       "test": {
         "type": "Literal",
-        "start": 1081,
-        "end": 1085,
         "value": null,
-        "raw": "null"
+        "raw": "null",
+        "start": 1081,
+        "end": 1085
       },
       "consequent": {
         "type": "ThrowStatement",
-        "start": 1088,
-        "end": 1162,
         "argument": {
           "type": "NewExpression",
-          "start": 1094,
-          "end": 1161,
           "callee": {
             "type": "Identifier",
+            "name": "Test262Error",
             "start": 1098,
-            "end": 1110,
-            "name": "Test262Error"
+            "end": 1110
           },
           "arguments": [
             {
               "type": "Literal",
-              "start": 1111,
-              "end": 1160,
               "value": "#3.1: null in expression is evaluated to false ",
-              "raw": "'#3.1: null in expression is evaluated to false '"
+              "raw": "'#3.1: null in expression is evaluated to false '",
+              "start": 1111,
+              "end": 1160
             }
-          ]
-        }
+          ],
+          "start": 1094,
+          "end": 1161
+        },
+        "start": 1088,
+        "end": 1162
       },
       "alternate": {
         "type": "ExpressionStatement",
-        "start": 1170,
-        "end": 1174,
         "expression": {
           "type": "UpdateExpression",
-          "start": 1170,
-          "end": 1173,
           "operator": "++",
           "prefix": false,
           "argument": {
             "type": "Identifier",
+            "name": "c",
             "start": 1170,
-            "end": 1171,
-            "name": "c"
-          }
-        }
-      }
+            "end": 1171
+          },
+          "start": 1170,
+          "end": 1173
+        },
+        "start": 1170,
+        "end": 1174
+      },
+      "start": 1078,
+      "end": 1174
     },
     {
       "type": "IfStatement",
-      "start": 1175,
-      "end": 1243,
       "test": {
         "type": "BinaryExpression",
-        "start": 1179,
-        "end": 1183,
         "left": {
           "type": "Identifier",
+          "name": "c",
           "start": 1179,
-          "end": 1180,
-          "name": "c"
+          "end": 1180
         },
         "operator": "!=",
         "right": {
           "type": "Literal",
-          "start": 1182,
-          "end": 1183,
           "value": 3,
-          "raw": "3"
-        }
+          "raw": "3",
+          "start": 1182,
+          "end": 1183
+        },
+        "start": 1179,
+        "end": 1183
       },
       "consequent": {
         "type": "ThrowStatement",
-        "start": 1185,
-        "end": 1243,
         "argument": {
           "type": "NewExpression",
-          "start": 1191,
-          "end": 1242,
           "callee": {
             "type": "Identifier",
+            "name": "Test262Error",
             "start": 1195,
-            "end": 1207,
-            "name": "Test262Error"
+            "end": 1207
           },
           "arguments": [
             {
               "type": "Literal",
-              "start": 1208,
-              "end": 1241,
               "value": "#3.2: else branch don`t execute",
-              "raw": "'#3.2: else branch don`t execute'"
+              "raw": "'#3.2: else branch don`t execute'",
+              "start": 1208,
+              "end": 1241
             }
-          ]
-        }
+          ],
+          "start": 1191,
+          "end": 1242
+        },
+        "start": 1185,
+        "end": 1243
       },
-      "alternate": null
+      "alternate": null,
+      "start": 1175,
+      "end": 1243
     },
     {
       "type": "IfStatement",
-      "start": 1416,
-      "end": 1522,
       "test": {
         "type": "Identifier",
+        "name": "undefined",
         "start": 1419,
-        "end": 1428,
-        "name": "undefined"
+        "end": 1428
       },
       "consequent": {
         "type": "ThrowStatement",
-        "start": 1431,
-        "end": 1510,
         "argument": {
           "type": "NewExpression",
-          "start": 1437,
-          "end": 1509,
           "callee": {
             "type": "Identifier",
+            "name": "Test262Error",
             "start": 1441,
-            "end": 1453,
-            "name": "Test262Error"
+            "end": 1453
           },
           "arguments": [
             {
               "type": "Literal",
-              "start": 1454,
-              "end": 1508,
               "value": "#4.1: undefined in expression is evaluated to false ",
-              "raw": "'#4.1: undefined in expression is evaluated to false '"
+              "raw": "'#4.1: undefined in expression is evaluated to false '",
+              "start": 1454,
+              "end": 1508
             }
-          ]
-        }
+          ],
+          "start": 1437,
+          "end": 1509
+        },
+        "start": 1431,
+        "end": 1510
       },
       "alternate": {
         "type": "ExpressionStatement",
-        "start": 1518,
-        "end": 1522,
         "expression": {
           "type": "UpdateExpression",
-          "start": 1518,
-          "end": 1521,
           "operator": "++",
           "prefix": false,
           "argument": {
             "type": "Identifier",
+            "name": "c",
             "start": 1518,
-            "end": 1519,
-            "name": "c"
-          }
-        }
-      }
+            "end": 1519
+          },
+          "start": 1518,
+          "end": 1521
+        },
+        "start": 1518,
+        "end": 1522
+      },
+      "start": 1416,
+      "end": 1522
     },
     {
       "type": "IfStatement",
-      "start": 1523,
-      "end": 1591,
       "test": {
         "type": "BinaryExpression",
-        "start": 1527,
-        "end": 1531,
         "left": {
           "type": "Identifier",
+          "name": "c",
           "start": 1527,
-          "end": 1528,
-          "name": "c"
+          "end": 1528
         },
         "operator": "!=",
         "right": {
           "type": "Literal",
-          "start": 1530,
-          "end": 1531,
           "value": 4,
-          "raw": "4"
-        }
+          "raw": "4",
+          "start": 1530,
+          "end": 1531
+        },
+        "start": 1527,
+        "end": 1531
       },
       "consequent": {
         "type": "ThrowStatement",
-        "start": 1533,
-        "end": 1591,
         "argument": {
           "type": "NewExpression",
-          "start": 1539,
-          "end": 1590,
           "callee": {
             "type": "Identifier",
+            "name": "Test262Error",
             "start": 1543,
-            "end": 1555,
-            "name": "Test262Error"
+            "end": 1555
           },
           "arguments": [
             {
               "type": "Literal",
-              "start": 1556,
-              "end": 1589,
               "value": "#4.2: else branch don`t execute",
-              "raw": "'#4.2: else branch don`t execute'"
+              "raw": "'#4.2: else branch don`t execute'",
+              "start": 1556,
+              "end": 1589
             }
-          ]
-        }
+          ],
+          "start": 1539,
+          "end": 1590
+        },
+        "start": 1533,
+        "end": 1591
       },
-      "alternate": null
+      "alternate": null,
+      "start": 1523,
+      "end": 1591
     },
     {
       "type": "IfStatement",
-      "start": 1764,
-      "end": 1869,
       "test": {
         "type": "Literal",
-        "start": 1767,
-        "end": 1769,
         "value": "",
-        "raw": "\"\""
+        "raw": "\"\"",
+        "start": 1767,
+        "end": 1769
       },
       "consequent": {
         "type": "ThrowStatement",
-        "start": 1775,
-        "end": 1857,
         "argument": {
           "type": "NewExpression",
-          "start": 1781,
-          "end": 1856,
           "callee": {
             "type": "Identifier",
+            "name": "Test262Error",
             "start": 1785,
-            "end": 1797,
-            "name": "Test262Error"
+            "end": 1797
           },
           "arguments": [
             {
               "type": "Literal",
-              "start": 1798,
-              "end": 1855,
               "value": "#5.1: empty string in expression is evaluated to false ",
-              "raw": "'#5.1: empty string in expression is evaluated to false '"
+              "raw": "'#5.1: empty string in expression is evaluated to false '",
+              "start": 1798,
+              "end": 1855
             }
-          ]
-        }
+          ],
+          "start": 1781,
+          "end": 1856
+        },
+        "start": 1775,
+        "end": 1857
       },
       "alternate": {
         "type": "ExpressionStatement",
-        "start": 1865,
-        "end": 1869,
         "expression": {
           "type": "UpdateExpression",
-          "start": 1865,
-          "end": 1868,
           "operator": "++",
           "prefix": false,
           "argument": {
             "type": "Identifier",
+            "name": "c",
             "start": 1865,
-            "end": 1866,
-            "name": "c"
-          }
-        }
-      }
+            "end": 1866
+          },
+          "start": 1865,
+          "end": 1868
+        },
+        "start": 1865,
+        "end": 1869
+      },
+      "start": 1764,
+      "end": 1869
     },
     {
       "type": "IfStatement",
-      "start": 1870,
-      "end": 1938,
       "test": {
         "type": "BinaryExpression",
-        "start": 1874,
-        "end": 1878,
         "left": {
           "type": "Identifier",
+          "name": "c",
           "start": 1874,
-          "end": 1875,
-          "name": "c"
+          "end": 1875
         },
         "operator": "!=",
         "right": {
           "type": "Literal",
-          "start": 1877,
-          "end": 1878,
           "value": 5,
-          "raw": "5"
-        }
+          "raw": "5",
+          "start": 1877,
+          "end": 1878
+        },
+        "start": 1874,
+        "end": 1878
       },
       "consequent": {
         "type": "ThrowStatement",
-        "start": 1880,
-        "end": 1938,
         "argument": {
           "type": "NewExpression",
-          "start": 1886,
-          "end": 1937,
           "callee": {
             "type": "Identifier",
+            "name": "Test262Error",
             "start": 1890,
-            "end": 1902,
-            "name": "Test262Error"
+            "end": 1902
           },
           "arguments": [
             {
               "type": "Literal",
-              "start": 1903,
-              "end": 1936,
               "value": "#5.2: else branch don`t execute",
-              "raw": "'#5.2: else branch don`t execute'"
+              "raw": "'#5.2: else branch don`t execute'",
+              "start": 1903,
+              "end": 1936
             }
-          ]
-        }
+          ],
+          "start": 1886,
+          "end": 1937
+        },
+        "start": 1880,
+        "end": 1938
       },
-      "alternate": null
+      "alternate": null,
+      "start": 1870,
+      "end": 1938
     },
     {
       "type": "IfStatement",
-      "start": 2111,
-      "end": 2208,
       "test": {
         "type": "Identifier",
+        "name": "NaN",
         "start": 2114,
-        "end": 2117,
-        "name": "NaN"
+        "end": 2117
       },
       "consequent": {
         "type": "ThrowStatement",
-        "start": 2123,
-        "end": 2196,
         "argument": {
           "type": "NewExpression",
-          "start": 2129,
-          "end": 2195,
           "callee": {
             "type": "Identifier",
+            "name": "Test262Error",
             "start": 2133,
-            "end": 2145,
-            "name": "Test262Error"
+            "end": 2145
           },
           "arguments": [
             {
               "type": "Literal",
-              "start": 2146,
-              "end": 2194,
               "value": "#6.1: NaN in expression is evaluated to false ",
-              "raw": "'#6.1: NaN in expression is evaluated to false '"
+              "raw": "'#6.1: NaN in expression is evaluated to false '",
+              "start": 2146,
+              "end": 2194
             }
-          ]
-        }
+          ],
+          "start": 2129,
+          "end": 2195
+        },
+        "start": 2123,
+        "end": 2196
       },
       "alternate": {
         "type": "ExpressionStatement",
-        "start": 2204,
-        "end": 2208,
         "expression": {
           "type": "UpdateExpression",
-          "start": 2204,
-          "end": 2207,
           "operator": "++",
           "prefix": false,
           "argument": {
             "type": "Identifier",
+            "name": "c",
             "start": 2204,
-            "end": 2205,
-            "name": "c"
-          }
-        }
-      }
+            "end": 2205
+          },
+          "start": 2204,
+          "end": 2207
+        },
+        "start": 2204,
+        "end": 2208
+      },
+      "start": 2111,
+      "end": 2208
     },
     {
       "type": "IfStatement",
-      "start": 2209,
-      "end": 2277,
       "test": {
         "type": "BinaryExpression",
-        "start": 2213,
-        "end": 2217,
         "left": {
           "type": "Identifier",
+          "name": "c",
           "start": 2213,
-          "end": 2214,
-          "name": "c"
+          "end": 2214
         },
         "operator": "!=",
         "right": {
           "type": "Literal",
-          "start": 2216,
-          "end": 2217,
           "value": 6,
-          "raw": "6"
-        }
+          "raw": "6",
+          "start": 2216,
+          "end": 2217
+        },
+        "start": 2213,
+        "end": 2217
       },
       "consequent": {
         "type": "ThrowStatement",
-        "start": 2219,
-        "end": 2277,
         "argument": {
           "type": "NewExpression",
-          "start": 2225,
-          "end": 2276,
           "callee": {
             "type": "Identifier",
+            "name": "Test262Error",
             "start": 2229,
-            "end": 2241,
-            "name": "Test262Error"
+            "end": 2241
           },
           "arguments": [
             {
               "type": "Literal",
-              "start": 2242,
-              "end": 2275,
               "value": "#6.2: else branch don`t execute",
-              "raw": "'#6.2: else branch don`t execute'"
+              "raw": "'#6.2: else branch don`t execute'",
+              "start": 2242,
+              "end": 2275
             }
-          ]
-        }
+          ],
+          "start": 2225,
+          "end": 2276
+        },
+        "start": 2219,
+        "end": 2277
       },
-      "alternate": null
+      "alternate": null,
+      "start": 2209,
+      "end": 2277
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 2360
 }

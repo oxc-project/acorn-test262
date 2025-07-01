@@ -1,91 +1,91 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 840,
   "body": [
     {
       "type": "FunctionDeclaration",
-      "start": 804,
-      "end": 820,
       "id": {
         "type": "Identifier",
+        "name": "fn",
         "start": 813,
-        "end": 815,
-        "name": "fn"
+        "end": 815
       },
       "generator": false,
       "async": false,
       "params": [],
       "body": {
         "type": "BlockStatement",
+        "body": [],
         "start": 818,
-        "end": 820,
-        "body": []
+        "end": 820
       },
-      "expression": false
+      "expression": false,
+      "start": 804,
+      "end": 820
     },
     {
       "type": "VariableDeclaration",
-      "start": 820,
-      "end": 837,
       "kind": "let",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 824,
-          "end": 825,
           "id": {
             "type": "Identifier",
+            "name": "a",
             "start": 824,
-            "end": 825,
-            "name": "a"
+            "end": 825
           },
-          "init": null
+          "init": null,
+          "start": 824,
+          "end": 825
         },
         {
           "type": "VariableDeclarator",
-          "start": 827,
-          "end": 833,
           "id": {
             "type": "Identifier",
+            "name": "b",
             "start": 827,
-            "end": 828,
-            "name": "b"
+            "end": 828
           },
           "init": {
             "type": "Literal",
-            "start": 831,
-            "end": 833,
             "value": 42,
-            "raw": "42"
-          }
+            "raw": "42",
+            "start": 831,
+            "end": 833
+          },
+          "start": 827,
+          "end": 833
         },
         {
           "type": "VariableDeclarator",
-          "start": 835,
-          "end": 836,
           "id": {
             "type": "Identifier",
+            "name": "c",
             "start": 835,
-            "end": 836,
-            "name": "c"
+            "end": 836
           },
-          "init": null
+          "init": null,
+          "start": 835,
+          "end": 836
         }
-      ]
+      ],
+      "start": 820,
+      "end": 837
     },
     {
       "type": "ExpressionStatement",
-      "start": 837,
-      "end": 839,
       "expression": {
         "type": "Identifier",
+        "name": "b",
         "start": 837,
-        "end": 838,
-        "name": "b"
-      }
+        "end": 838
+      },
+      "start": 837,
+      "end": 839
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 840
 }

@@ -2,146 +2,146 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 26,
-  "end": 87,
   "body": [
     {
       "type": "ForInStatement",
-      "start": 26,
-      "end": 53,
       "left": {
         "type": "VariableDeclaration",
-        "start": 31,
-        "end": 38,
         "kind": "var",
         "declarations": [
           {
             "type": "VariableDeclarator",
-            "start": 35,
-            "end": 38,
             "id": {
               "type": "Identifier",
-              "start": 35,
-              "end": 38,
               "decorators": [],
               "name": "let",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 35,
+              "end": 38
             },
             "init": null,
-            "definite": false
+            "definite": false,
+            "start": 35,
+            "end": 38
           }
         ],
-        "declare": false
+        "declare": false,
+        "start": 31,
+        "end": 38
       },
       "right": {
         "type": "ArrayExpression",
-        "start": 42,
-        "end": 49,
         "elements": [
           {
             "type": "Literal",
-            "start": 43,
-            "end": 44,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "start": 43,
+            "end": 44
           },
           {
             "type": "Literal",
-            "start": 45,
-            "end": 46,
             "value": 2,
-            "raw": "2"
+            "raw": "2",
+            "start": 45,
+            "end": 46
           },
           {
             "type": "Literal",
-            "start": 47,
-            "end": 48,
             "value": 3,
-            "raw": "3"
+            "raw": "3",
+            "start": 47,
+            "end": 48
           }
-        ]
+        ],
+        "start": 42,
+        "end": 49
       },
       "body": {
         "type": "BlockStatement",
+        "body": [],
         "start": 51,
-        "end": 53,
-        "body": []
-      }
+        "end": 53
+      },
+      "start": 26,
+      "end": 53
     },
     {
       "type": "BlockStatement",
-      "start": 55,
-      "end": 87,
       "body": [
         {
           "type": "ForInStatement",
-          "start": 58,
-          "end": 85,
           "left": {
             "type": "VariableDeclaration",
-            "start": 63,
-            "end": 70,
             "kind": "var",
             "declarations": [
               {
                 "type": "VariableDeclarator",
-                "start": 67,
-                "end": 70,
                 "id": {
                   "type": "Identifier",
-                  "start": 67,
-                  "end": 70,
                   "decorators": [],
                   "name": "let",
                   "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "start": 67,
+                  "end": 70
                 },
                 "init": null,
-                "definite": false
+                "definite": false,
+                "start": 67,
+                "end": 70
               }
             ],
-            "declare": false
+            "declare": false,
+            "start": 63,
+            "end": 70
           },
           "right": {
             "type": "ArrayExpression",
-            "start": 74,
-            "end": 81,
             "elements": [
               {
                 "type": "Literal",
-                "start": 75,
-                "end": 76,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "start": 75,
+                "end": 76
               },
               {
                 "type": "Literal",
-                "start": 77,
-                "end": 78,
                 "value": 2,
-                "raw": "2"
+                "raw": "2",
+                "start": 77,
+                "end": 78
               },
               {
                 "type": "Literal",
-                "start": 79,
-                "end": 80,
                 "value": 3,
-                "raw": "3"
+                "raw": "3",
+                "start": 79,
+                "end": 80
               }
-            ]
+            ],
+            "start": 74,
+            "end": 81
           },
           "body": {
             "type": "BlockStatement",
+            "body": [],
             "start": 83,
-            "end": 85,
-            "body": []
-          }
+            "end": 85
+          },
+          "start": 58,
+          "end": 85
         }
-      ]
+      ],
+      "start": 55,
+      "end": 87
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 26,
+  "end": 87
 }
 ```

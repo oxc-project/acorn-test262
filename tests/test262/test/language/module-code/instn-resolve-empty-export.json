@@ -1,42 +1,42 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 1157,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 1080,
-      "end": 1097,
       "expression": {
         "type": "CallExpression",
-        "start": 1080,
-        "end": 1096,
         "callee": {
           "type": "Identifier",
+          "name": "$DONOTEVALUATE",
           "start": 1080,
-          "end": 1094,
-          "name": "$DONOTEVALUATE"
+          "end": 1094
         },
         "arguments": [],
-        "optional": false
-      }
+        "optional": false,
+        "start": 1080,
+        "end": 1096
+      },
+      "start": 1080,
+      "end": 1097
     },
     {
       "type": "ExportNamedDeclaration",
-      "start": 1099,
-      "end": 1156,
       "declaration": null,
       "specifiers": [],
       "source": {
         "type": "Literal",
-        "start": 1114,
-        "end": 1155,
         "value": "./instn-resolve-empty-export_FIXTURE.js",
-        "raw": "'./instn-resolve-empty-export_FIXTURE.js'"
+        "raw": "'./instn-resolve-empty-export_FIXTURE.js'",
+        "start": 1114,
+        "end": 1155
       },
-      "attributes": []
+      "attributes": [],
+      "start": 1099,
+      "end": 1156
     }
   ],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 1157
 }

@@ -1,255 +1,255 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 817,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 358,
-      "end": 380,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 362,
-          "end": 379,
           "id": {
             "type": "Identifier",
+            "name": "__instance",
             "start": 362,
-            "end": 372,
-            "name": "__instance"
+            "end": 372
           },
           "init": {
             "type": "Identifier",
+            "name": "Math",
             "start": 375,
-            "end": 379,
-            "name": "Math"
-          }
+            "end": 379
+          },
+          "start": 362,
+          "end": 379
         }
-      ]
+      ],
+      "start": 358,
+      "end": 380
     },
     {
       "type": "ExpressionStatement",
-      "start": 382,
-      "end": 422,
       "expression": {
         "type": "AssignmentExpression",
-        "start": 382,
-        "end": 421,
         "operator": "=",
         "left": {
           "type": "MemberExpression",
-          "start": 382,
-          "end": 397,
           "object": {
             "type": "Identifier",
+            "name": "__instance",
             "start": 382,
-            "end": 392,
-            "name": "__instance"
+            "end": 392
           },
           "property": {
             "type": "Identifier",
+            "name": "test",
             "start": 393,
-            "end": 397,
-            "name": "test"
+            "end": 397
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 382,
+          "end": 397
         },
         "right": {
           "type": "MemberExpression",
-          "start": 400,
-          "end": 421,
           "object": {
             "type": "MemberExpression",
-            "start": 400,
-            "end": 416,
             "object": {
               "type": "Identifier",
+              "name": "RegExp",
               "start": 400,
-              "end": 406,
-              "name": "RegExp"
+              "end": 406
             },
             "property": {
               "type": "Identifier",
+              "name": "prototype",
               "start": 407,
-              "end": 416,
-              "name": "prototype"
+              "end": 416
             },
             "optional": false,
-            "computed": false
+            "computed": false,
+            "start": 400,
+            "end": 416
           },
           "property": {
             "type": "Identifier",
+            "name": "test",
             "start": 417,
-            "end": 421,
-            "name": "test"
+            "end": 421
           },
           "optional": false,
-          "computed": false
-        }
-      }
+          "computed": false,
+          "start": 400,
+          "end": 421
+        },
+        "start": 382,
+        "end": 421
+      },
+      "start": 382,
+      "end": 422
     },
     {
       "type": "TryStatement",
-      "start": 424,
-      "end": 771,
       "block": {
         "type": "BlockStatement",
-        "start": 428,
-        "end": 615,
         "body": [
           {
             "type": "ExpressionStatement",
-            "start": 433,
-            "end": 475,
             "expression": {
               "type": "CallExpression",
-              "start": 433,
-              "end": 474,
               "callee": {
                 "type": "MemberExpression",
-                "start": 433,
-                "end": 448,
                 "object": {
                   "type": "Identifier",
+                  "name": "__instance",
                   "start": 433,
-                  "end": 443,
-                  "name": "__instance"
+                  "end": 443
                 },
                 "property": {
                   "type": "Identifier",
+                  "name": "test",
                   "start": 444,
-                  "end": 448,
-                  "name": "test"
+                  "end": 448
                 },
                 "optional": false,
-                "computed": false
+                "computed": false,
+                "start": 433,
+                "end": 448
               },
               "arguments": [
                 {
                   "type": "Literal",
-                  "start": 449,
-                  "end": 473,
                   "value": "message to investigate",
-                  "raw": "\"message to investigate\""
+                  "raw": "\"message to investigate\"",
+                  "start": 449,
+                  "end": 473
                 }
               ],
-              "optional": false
-            }
+              "optional": false,
+              "start": 433,
+              "end": 474
+            },
+            "start": 433,
+            "end": 475
           },
           {
             "type": "ThrowStatement",
-            "start": 478,
-            "end": 613,
             "argument": {
               "type": "NewExpression",
-              "start": 484,
-              "end": 612,
               "callee": {
                 "type": "Identifier",
+                "name": "Test262Error",
                 "start": 488,
-                "end": 500,
-                "name": "Test262Error"
+                "end": 500
               },
               "arguments": [
                 {
                   "type": "Literal",
-                  "start": 501,
-                  "end": 611,
                   "value": "#1.1: __instance = Math; __instance.test = RegExp.prototype.test;  __instance.test(\"message to investigate\")",
-                  "raw": "'#1.1: __instance = Math; __instance.test = RegExp.prototype.test;  __instance.test(\"message to investigate\")'"
+                  "raw": "'#1.1: __instance = Math; __instance.test = RegExp.prototype.test;  __instance.test(\"message to investigate\")'",
+                  "start": 501,
+                  "end": 611
                 }
-              ]
-            }
+              ],
+              "start": 484,
+              "end": 612
+            },
+            "start": 478,
+            "end": 613
           }
-        ]
+        ],
+        "start": 428,
+        "end": 615
       },
       "handler": {
         "type": "CatchClause",
-        "start": 616,
-        "end": 771,
         "param": {
           "type": "Identifier",
+          "name": "e",
           "start": 623,
-          "end": 624,
-          "name": "e"
+          "end": 624
         },
         "body": {
           "type": "BlockStatement",
-          "start": 626,
-          "end": 771,
           "body": [
             {
               "type": "ExpressionStatement",
-              "start": 630,
-              "end": 769,
               "expression": {
                 "type": "CallExpression",
-                "start": 630,
-                "end": 768,
                 "callee": {
                   "type": "MemberExpression",
-                  "start": 630,
-                  "end": 646,
                   "object": {
                     "type": "Identifier",
+                    "name": "assert",
                     "start": 630,
-                    "end": 636,
-                    "name": "assert"
+                    "end": 636
                   },
                   "property": {
                     "type": "Identifier",
+                    "name": "sameValue",
                     "start": 637,
-                    "end": 646,
-                    "name": "sameValue"
+                    "end": 646
                   },
                   "optional": false,
-                  "computed": false
+                  "computed": false,
+                  "start": 630,
+                  "end": 646
                 },
                 "arguments": [
                   {
                     "type": "BinaryExpression",
-                    "start": 652,
-                    "end": 674,
                     "left": {
                       "type": "Identifier",
+                      "name": "e",
                       "start": 652,
-                      "end": 653,
-                      "name": "e"
+                      "end": 653
                     },
                     "operator": "instanceof",
                     "right": {
                       "type": "Identifier",
+                      "name": "TypeError",
                       "start": 665,
-                      "end": 674,
-                      "name": "TypeError"
-                    }
+                      "end": 674
+                    },
+                    "start": 652,
+                    "end": 674
                   },
                   {
                     "type": "Literal",
-                    "start": 680,
-                    "end": 684,
                     "value": true,
-                    "raw": "true"
+                    "raw": "true",
+                    "start": 680,
+                    "end": 684
                   },
                   {
                     "type": "Literal",
-                    "start": 690,
-                    "end": 764,
                     "value": "The result of evaluating (e instanceof TypeError) is expected to be true",
-                    "raw": "'The result of evaluating (e instanceof TypeError) is expected to be true'"
+                    "raw": "'The result of evaluating (e instanceof TypeError) is expected to be true'",
+                    "start": 690,
+                    "end": 764
                   }
                 ],
-                "optional": false
-              }
+                "optional": false,
+                "start": 630,
+                "end": 768
+              },
+              "start": 630,
+              "end": 769
             }
-          ]
-        }
+          ],
+          "start": 626,
+          "end": 771
+        },
+        "start": 616,
+        "end": 771
       },
-      "finalizer": null
+      "finalizer": null,
+      "start": 424,
+      "end": 771
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 817
 }

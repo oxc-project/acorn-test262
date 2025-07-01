@@ -2,46 +2,42 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 66,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 0,
-      "end": 10,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 4,
-          "end": 9,
           "id": {
             "type": "Identifier",
-            "start": 4,
-            "end": 9,
             "decorators": [],
             "name": "yield",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 4,
+            "end": 9
           },
           "init": null,
-          "definite": false
+          "definite": false,
+          "start": 4,
+          "end": 9
         }
       ],
-      "declare": false
+      "declare": false,
+      "start": 0,
+      "end": 10
     },
     {
       "type": "FunctionDeclaration",
-      "start": 11,
-      "end": 66,
       "id": {
         "type": "Identifier",
-        "start": 21,
-        "end": 22,
         "decorators": [],
         "name": "g",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 21,
+        "end": 22
       },
       "generator": true,
       "async": false,
@@ -51,78 +47,82 @@ __ESTREE_TEST__:PASS:
       "returnType": null,
       "body": {
         "type": "BlockStatement",
-        "start": 25,
-        "end": 66,
         "body": [
           {
             "type": "ExpressionStatement",
-            "start": 31,
-            "end": 39,
             "expression": {
               "type": "YieldExpression",
-              "start": 31,
-              "end": 38,
               "delegate": false,
               "argument": {
                 "type": "Literal",
-                "start": 37,
-                "end": 38,
                 "value": 0,
-                "raw": "0"
-              }
+                "raw": "0",
+                "start": 37,
+                "end": 38
+              },
+              "start": 31,
+              "end": 38
             },
-            "directive": null
+            "directive": null,
+            "start": 31,
+            "end": 39
           },
           {
             "type": "VariableDeclaration",
-            "start": 44,
-            "end": 64,
             "kind": "var",
             "declarations": [
               {
                 "type": "VariableDeclarator",
-                "start": 48,
-                "end": 63,
                 "id": {
                   "type": "Identifier",
-                  "start": 48,
-                  "end": 63,
                   "decorators": [],
                   "name": "v",
                   "optional": false,
                   "typeAnnotation": {
                     "type": "TSTypeAnnotation",
-                    "start": 49,
-                    "end": 63,
                     "typeAnnotation": {
                       "type": "TSTypeQuery",
-                      "start": 51,
-                      "end": 63,
                       "exprName": {
                         "type": "Identifier",
-                        "start": 58,
-                        "end": 63,
                         "decorators": [],
                         "name": "yield",
                         "optional": false,
-                        "typeAnnotation": null
+                        "typeAnnotation": null,
+                        "start": 58,
+                        "end": 63
                       },
-                      "typeArguments": null
-                    }
-                  }
+                      "typeArguments": null,
+                      "start": 51,
+                      "end": 63
+                    },
+                    "start": 49,
+                    "end": 63
+                  },
+                  "start": 48,
+                  "end": 63
                 },
                 "init": null,
-                "definite": false
+                "definite": false,
+                "start": 48,
+                "end": 63
               }
             ],
-            "declare": false
+            "declare": false,
+            "start": 44,
+            "end": 64
           }
-        ]
+        ],
+        "start": 25,
+        "end": 66
       },
-      "expression": false
+      "expression": false,
+      "start": 11,
+      "end": 66
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 66
 }
 ```

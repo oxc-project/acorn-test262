@@ -1,212 +1,198 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 586,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 294,
-      "end": 439,
       "expression": {
         "type": "CallExpression",
-        "start": 294,
-        "end": 438,
         "callee": {
           "type": "MemberExpression",
-          "start": 294,
-          "end": 315,
           "object": {
             "type": "Identifier",
+            "name": "Object",
             "start": 294,
-            "end": 300,
-            "name": "Object"
+            "end": 300
           },
           "property": {
             "type": "Identifier",
+            "name": "defineProperty",
             "start": 301,
-            "end": 315,
-            "name": "defineProperty"
+            "end": 315
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 294,
+          "end": 315
         },
         "arguments": [
           {
             "type": "MemberExpression",
-            "start": 316,
-            "end": 332,
             "object": {
               "type": "Identifier",
+              "name": "Object",
               "start": 316,
-              "end": 322,
-              "name": "Object"
+              "end": 322
             },
             "property": {
               "type": "Identifier",
+              "name": "prototype",
               "start": 323,
-              "end": 332,
-              "name": "prototype"
+              "end": 332
             },
             "optional": false,
-            "computed": false
+            "computed": false,
+            "start": 316,
+            "end": 332
           },
           {
             "type": "Literal",
-            "start": 336,
-            "end": 342,
             "value": "prop",
-            "raw": "\"prop\""
+            "raw": "\"prop\"",
+            "start": 336,
+            "end": 342
           },
           {
             "type": "ObjectExpression",
-            "start": 346,
-            "end": 436,
             "properties": [
               {
                 "type": "Property",
-                "start": 352,
-                "end": 363,
                 "kind": "init",
                 "key": {
                   "type": "Identifier",
+                  "name": "value",
                   "start": 352,
-                  "end": 357,
-                  "name": "value"
+                  "end": 357
                 },
                 "value": {
                   "type": "Literal",
-                  "start": 359,
-                  "end": 363,
                   "value": 1001,
-                  "raw": "1001"
+                  "raw": "1001",
+                  "start": 359,
+                  "end": 363
                 },
                 "method": false,
                 "shorthand": false,
-                "computed": false
+                "computed": false,
+                "start": 352,
+                "end": 363
               },
               {
                 "type": "Property",
-                "start": 369,
-                "end": 384,
                 "kind": "init",
                 "key": {
                   "type": "Identifier",
+                  "name": "writable",
                   "start": 369,
-                  "end": 377,
-                  "name": "writable"
+                  "end": 377
                 },
                 "value": {
                   "type": "Literal",
+                  "value": false,
+                  "raw": "false",
                   "start": 379,
-                  "end": 384,
-                  "value": false,
-                  "raw": "false"
+                  "end": 384
                 },
                 "method": false,
                 "shorthand": false,
-                "computed": false
+                "computed": false,
+                "start": 369,
+                "end": 384
               },
               {
                 "type": "Property",
-                "start": 390,
-                "end": 407,
                 "kind": "init",
                 "key": {
                   "type": "Identifier",
+                  "name": "enumerable",
                   "start": 390,
-                  "end": 400,
-                  "name": "enumerable"
+                  "end": 400
                 },
                 "value": {
                   "type": "Literal",
-                  "start": 402,
-                  "end": 407,
                   "value": false,
-                  "raw": "false"
+                  "raw": "false",
+                  "start": 402,
+                  "end": 407
                 },
                 "method": false,
                 "shorthand": false,
-                "computed": false
+                "computed": false,
+                "start": 390,
+                "end": 407
               },
               {
                 "type": "Property",
-                "start": 413,
-                "end": 432,
                 "kind": "init",
                 "key": {
                   "type": "Identifier",
+                  "name": "configurable",
                   "start": 413,
-                  "end": 425,
-                  "name": "configurable"
+                  "end": 425
                 },
                 "value": {
                   "type": "Literal",
-                  "start": 427,
-                  "end": 432,
                   "value": false,
-                  "raw": "false"
+                  "raw": "false",
+                  "start": 427,
+                  "end": 432
                 },
                 "method": false,
                 "shorthand": false,
-                "computed": false
+                "computed": false,
+                "start": 413,
+                "end": 432
               }
-            ]
+            ],
+            "start": 346,
+            "end": 436
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 294,
+        "end": 438
+      },
+      "start": 294,
+      "end": 439
     },
     {
       "type": "VariableDeclaration",
-      "start": 440,
-      "end": 456,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 444,
-          "end": 455,
           "id": {
             "type": "Identifier",
+            "name": "prop",
             "start": 444,
-            "end": 448,
-            "name": "prop"
+            "end": 448
           },
           "init": {
             "type": "Literal",
-            "start": 451,
-            "end": 455,
             "value": 1002,
-            "raw": "1002"
-          }
+            "raw": "1002",
+            "start": 451,
+            "end": 455
+          },
+          "start": 444,
+          "end": 455
         }
-      ]
+      ],
+      "start": 440,
+      "end": 456
     },
     {
       "type": "IfStatement",
-      "start": 458,
-      "end": 585,
       "test": {
         "type": "UnaryExpression",
-        "start": 462,
-        "end": 509,
         "operator": "!",
         "argument": {
           "type": "ParenthesizedExpression",
-          "start": 463,
-          "end": 509,
           "expression": {
             "type": "LogicalExpression",
-            "start": 464,
-            "end": 508,
             "left": {
               "type": "CallExpression",
-              "start": 464,
-              "end": 491,
               "callee": {
                 "type": "MemberExpression",
-                "start": 464,
-                "end": 483,
                 "object": {
                   "type": "ThisExpression",
                   "start": 464,
@@ -214,70 +200,84 @@
                 },
                 "property": {
                   "type": "Identifier",
+                  "name": "hasOwnProperty",
                   "start": 469,
-                  "end": 483,
-                  "name": "hasOwnProperty"
+                  "end": 483
                 },
                 "optional": false,
-                "computed": false
+                "computed": false,
+                "start": 464,
+                "end": 483
               },
               "arguments": [
                 {
                   "type": "Literal",
-                  "start": 484,
-                  "end": 490,
                   "value": "prop",
-                  "raw": "\"prop\""
+                  "raw": "\"prop\"",
+                  "start": 484,
+                  "end": 490
                 }
               ],
-              "optional": false
+              "optional": false,
+              "start": 464,
+              "end": 491
             },
             "operator": "&&",
             "right": {
               "type": "BinaryExpression",
-              "start": 495,
-              "end": 508,
               "left": {
                 "type": "Identifier",
+                "name": "prop",
                 "start": 495,
-                "end": 499,
-                "name": "prop"
+                "end": 499
               },
               "operator": "===",
               "right": {
                 "type": "Literal",
-                "start": 504,
-                "end": 508,
                 "value": 1002,
-                "raw": "1002"
-              }
-            }
-          }
+                "raw": "1002",
+                "start": 504,
+                "end": 508
+              },
+              "start": 495,
+              "end": 508
+            },
+            "start": 464,
+            "end": 508
+          },
+          "start": 463,
+          "end": 509
         },
-        "prefix": true
+        "prefix": true,
+        "start": 462,
+        "end": 509
       },
       "consequent": {
         "type": "BlockStatement",
-        "start": 511,
-        "end": 585,
         "body": [
           {
             "type": "ThrowStatement",
-            "start": 515,
-            "end": 583,
             "argument": {
               "type": "Literal",
-              "start": 521,
-              "end": 582,
               "value": "this.prop should take precedence over Object.prototype.prop",
-              "raw": "\"this.prop should take precedence over Object.prototype.prop\""
-            }
+              "raw": "\"this.prop should take precedence over Object.prototype.prop\"",
+              "start": 521,
+              "end": 582
+            },
+            "start": 515,
+            "end": 583
           }
-        ]
+        ],
+        "start": 511,
+        "end": 585
       },
-      "alternate": null
+      "alternate": null,
+      "start": 458,
+      "end": 585
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 586
 }

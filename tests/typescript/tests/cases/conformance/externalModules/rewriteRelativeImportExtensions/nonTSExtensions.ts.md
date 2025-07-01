@@ -2,87 +2,87 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 11,
   "body": [
     {
       "type": "ExportNamedDeclaration",
-      "start": 0,
-      "end": 10,
       "declaration": null,
       "specifiers": [],
       "source": null,
       "exportKind": "value",
-      "attributes": []
+      "attributes": [],
+      "start": 0,
+      "end": 10
     }
   ],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 11
 }
 ```
 __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 97,
   "body": [
     {
       "type": "ImportDeclaration",
-      "start": 0,
-      "end": 54,
       "specifiers": [],
       "source": {
         "type": "Literal",
-        "start": 15,
-        "end": 31,
         "value": "./example.json",
-        "raw": "\"./example.json\""
+        "raw": "\"./example.json\"",
+        "start": 15,
+        "end": 31
       },
       "phase": null,
       "attributes": [
         {
           "type": "ImportAttribute",
-          "start": 39,
-          "end": 51,
           "key": {
             "type": "Identifier",
-            "start": 39,
-            "end": 43,
             "decorators": [],
             "name": "type",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 39,
+            "end": 43
           },
           "value": {
             "type": "Literal",
-            "start": 45,
-            "end": 51,
             "value": "json",
-            "raw": "\"json\""
-          }
+            "raw": "\"json\"",
+            "start": 45,
+            "end": 51
+          },
+          "start": 39,
+          "end": 51
         }
       ],
-      "importKind": "value"
+      "importKind": "value",
+      "start": 0,
+      "end": 54
     },
     {
       "type": "ImportDeclaration",
-      "start": 61,
-      "end": 91,
       "specifiers": [],
       "source": {
         "type": "Literal",
-        "start": 76,
-        "end": 90,
         "value": "./styles.css",
-        "raw": "\"./styles.css\""
+        "raw": "\"./styles.css\"",
+        "start": 76,
+        "end": 90
       },
       "phase": null,
       "attributes": [],
-      "importKind": "value"
+      "importKind": "value",
+      "start": 61,
+      "end": 91
     }
   ],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 97
 }
 ```

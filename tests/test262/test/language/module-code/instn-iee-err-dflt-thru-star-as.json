@@ -1,60 +1,60 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 1008,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 911,
-      "end": 928,
       "expression": {
         "type": "CallExpression",
-        "start": 911,
-        "end": 927,
         "callee": {
           "type": "Identifier",
+          "name": "$DONOTEVALUATE",
           "start": 911,
-          "end": 925,
-          "name": "$DONOTEVALUATE"
+          "end": 925
         },
         "arguments": [],
-        "optional": false
-      }
+        "optional": false,
+        "start": 911,
+        "end": 927
+      },
+      "start": 911,
+      "end": 928
     },
     {
       "type": "ExportNamedDeclaration",
-      "start": 930,
-      "end": 1007,
       "declaration": null,
       "specifiers": [
         {
           "type": "ExportSpecifier",
-          "start": 939,
-          "end": 951,
           "local": {
             "type": "Identifier",
+            "name": "default",
             "start": 939,
-            "end": 946,
-            "name": "default"
+            "end": 946
           },
           "exported": {
             "type": "Identifier",
+            "name": "x",
             "start": 950,
-            "end": 951,
-            "name": "x"
-          }
+            "end": 951
+          },
+          "start": 939,
+          "end": 951
         }
       ],
       "source": {
         "type": "Literal",
-        "start": 959,
-        "end": 1006,
         "value": "./instn-iee-err-dflt-thru-star-int_FIXTURE.js",
-        "raw": "'./instn-iee-err-dflt-thru-star-int_FIXTURE.js'"
+        "raw": "'./instn-iee-err-dflt-thru-star-int_FIXTURE.js'",
+        "start": 959,
+        "end": 1006
       },
-      "attributes": []
+      "attributes": [],
+      "start": 930,
+      "end": 1007
     }
   ],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 1008
 }

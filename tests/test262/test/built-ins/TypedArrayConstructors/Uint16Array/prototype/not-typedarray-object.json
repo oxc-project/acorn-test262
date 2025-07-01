@@ -1,101 +1,101 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 562,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 488,
-      "end": 561,
       "expression": {
         "type": "CallExpression",
-        "start": 488,
-        "end": 560,
         "callee": {
           "type": "MemberExpression",
-          "start": 488,
-          "end": 501,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 488,
-            "end": 494,
-            "name": "assert"
+            "end": 494
           },
           "property": {
             "type": "Identifier",
+            "name": "throws",
             "start": 495,
-            "end": 501,
-            "name": "throws"
+            "end": 501
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 488,
+          "end": 501
         },
         "arguments": [
           {
             "type": "Identifier",
+            "name": "TypeError",
             "start": 502,
-            "end": 511,
-            "name": "TypeError"
+            "end": 511
           },
           {
             "type": "FunctionExpression",
-            "start": 513,
-            "end": 559,
             "id": null,
             "generator": false,
             "async": false,
             "params": [],
             "body": {
               "type": "BlockStatement",
-              "start": 524,
-              "end": 559,
               "body": [
                 {
                   "type": "ExpressionStatement",
-                  "start": 528,
-                  "end": 557,
                   "expression": {
                     "type": "MemberExpression",
-                    "start": 528,
-                    "end": 556,
                     "object": {
                       "type": "MemberExpression",
-                      "start": 528,
-                      "end": 549,
                       "object": {
                         "type": "Identifier",
+                        "name": "Uint16Array",
                         "start": 528,
-                        "end": 539,
-                        "name": "Uint16Array"
+                        "end": 539
                       },
                       "property": {
                         "type": "Identifier",
+                        "name": "prototype",
                         "start": 540,
-                        "end": 549,
-                        "name": "prototype"
+                        "end": 549
                       },
                       "optional": false,
-                      "computed": false
+                      "computed": false,
+                      "start": 528,
+                      "end": 549
                     },
                     "property": {
                       "type": "Identifier",
+                      "name": "buffer",
                       "start": 550,
-                      "end": 556,
-                      "name": "buffer"
+                      "end": 556
                     },
                     "optional": false,
-                    "computed": false
-                  }
+                    "computed": false,
+                    "start": 528,
+                    "end": 556
+                  },
+                  "start": 528,
+                  "end": 557
                 }
-              ]
+              ],
+              "start": 524,
+              "end": 559
             },
-            "expression": false
+            "expression": false,
+            "start": 513,
+            "end": 559
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 488,
+        "end": 560
+      },
+      "start": 488,
+      "end": 561
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 562
 }

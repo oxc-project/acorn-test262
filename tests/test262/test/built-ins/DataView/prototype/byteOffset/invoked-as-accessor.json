@@ -1,101 +1,101 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 580,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 505,
-      "end": 579,
       "expression": {
         "type": "CallExpression",
-        "start": 505,
-        "end": 578,
         "callee": {
           "type": "MemberExpression",
-          "start": 505,
-          "end": 518,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 505,
-            "end": 511,
-            "name": "assert"
+            "end": 511
           },
           "property": {
             "type": "Identifier",
+            "name": "throws",
             "start": 512,
-            "end": 518,
-            "name": "throws"
+            "end": 518
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 505,
+          "end": 518
         },
         "arguments": [
           {
             "type": "Identifier",
+            "name": "TypeError",
             "start": 519,
-            "end": 528,
-            "name": "TypeError"
+            "end": 528
           },
           {
             "type": "FunctionExpression",
-            "start": 530,
-            "end": 577,
             "id": null,
             "generator": false,
             "async": false,
             "params": [],
             "body": {
               "type": "BlockStatement",
-              "start": 541,
-              "end": 577,
               "body": [
                 {
                   "type": "ExpressionStatement",
-                  "start": 545,
-                  "end": 575,
                   "expression": {
                     "type": "MemberExpression",
-                    "start": 545,
-                    "end": 574,
                     "object": {
                       "type": "MemberExpression",
-                      "start": 545,
-                      "end": 563,
                       "object": {
                         "type": "Identifier",
+                        "name": "DataView",
                         "start": 545,
-                        "end": 553,
-                        "name": "DataView"
+                        "end": 553
                       },
                       "property": {
                         "type": "Identifier",
+                        "name": "prototype",
                         "start": 554,
-                        "end": 563,
-                        "name": "prototype"
+                        "end": 563
                       },
                       "optional": false,
-                      "computed": false
+                      "computed": false,
+                      "start": 545,
+                      "end": 563
                     },
                     "property": {
                       "type": "Identifier",
+                      "name": "byteOffset",
                       "start": 564,
-                      "end": 574,
-                      "name": "byteOffset"
+                      "end": 574
                     },
                     "optional": false,
-                    "computed": false
-                  }
+                    "computed": false,
+                    "start": 545,
+                    "end": 574
+                  },
+                  "start": 545,
+                  "end": 575
                 }
-              ]
+              ],
+              "start": 541,
+              "end": 577
             },
-            "expression": false
+            "expression": false,
+            "start": 530,
+            "end": 577
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 505,
+        "end": 578
+      },
+      "start": 505,
+      "end": 579
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 580
 }

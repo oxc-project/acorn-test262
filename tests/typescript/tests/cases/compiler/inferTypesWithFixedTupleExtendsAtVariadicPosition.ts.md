@@ -2,106 +2,90 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 17,
-  "end": 2124,
   "body": [
     {
       "type": "TSTypeAliasDeclaration",
-      "start": 17,
-      "end": 133,
       "id": {
         "type": "Identifier",
-        "start": 22,
-        "end": 40,
         "decorators": [],
         "name": "SubTup2FixedLength",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 22,
+        "end": 40
       },
       "typeParameters": {
         "type": "TSTypeParameterDeclaration",
-        "start": 40,
-        "end": 61,
         "params": [
           {
             "type": "TSTypeParameter",
-            "start": 41,
-            "end": 60,
             "name": {
               "type": "Identifier",
-              "start": 41,
-              "end": 42,
               "decorators": [],
               "name": "T",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 41,
+              "end": 42
             },
             "constraint": {
               "type": "TSArrayType",
-              "start": 51,
-              "end": 60,
               "elementType": {
                 "type": "TSUnknownKeyword",
                 "start": 51,
                 "end": 58
-              }
+              },
+              "start": 51,
+              "end": 60
             },
             "default": null,
             "in": false,
             "out": false,
-            "const": false
+            "const": false,
+            "start": 41,
+            "end": 60
           }
-        ]
+        ],
+        "start": 40,
+        "end": 61
       },
       "typeAnnotation": {
         "type": "TSConditionalType",
-        "start": 64,
-        "end": 132,
         "checkType": {
           "type": "TSTypeReference",
-          "start": 64,
-          "end": 65,
           "typeName": {
             "type": "Identifier",
-            "start": 64,
-            "end": 65,
             "decorators": [],
             "name": "T",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 64,
+            "end": 65
           },
-          "typeArguments": null
+          "typeArguments": null,
+          "start": 64,
+          "end": 65
         },
         "extendsType": {
           "type": "TSTupleType",
-          "start": 74,
-          "end": 116,
           "elementTypes": [
             {
               "type": "TSRestType",
-              "start": 78,
-              "end": 107,
               "typeAnnotation": {
                 "type": "TSInferType",
-                "start": 81,
-                "end": 107,
                 "typeParameter": {
                   "type": "TSTypeParameter",
-                  "start": 87,
-                  "end": 107,
                   "name": {
                     "type": "Identifier",
-                    "start": 87,
-                    "end": 88,
                     "decorators": [],
                     "name": "B",
                     "optional": false,
-                    "typeAnnotation": null
+                    "typeAnnotation": null,
+                    "start": 87,
+                    "end": 88
                   },
                   "constraint": {
                     "type": "TSTupleType",
-                    "start": 97,
-                    "end": 107,
                     "elementTypes": [
                       {
                         "type": "TSAnyKeyword",
@@ -113,267 +97,267 @@ __ESTREE_TEST__:PASS:
                         "start": 103,
                         "end": 106
                       }
-                    ]
+                    ],
+                    "start": 97,
+                    "end": 107
                   },
                   "default": null,
                   "in": false,
                   "out": false,
-                  "const": false
-                }
-              }
+                  "const": false,
+                  "start": 87,
+                  "end": 107
+                },
+                "start": 81,
+                "end": 107
+              },
+              "start": 78,
+              "end": 107
             },
             {
               "type": "TSAnyKeyword",
               "start": 111,
               "end": 114
             }
-          ]
+          ],
+          "start": 74,
+          "end": 116
         },
         "trueType": {
           "type": "TSTypeReference",
-          "start": 121,
-          "end": 122,
           "typeName": {
             "type": "Identifier",
-            "start": 121,
-            "end": 122,
             "decorators": [],
             "name": "B",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 121,
+            "end": 122
           },
-          "typeArguments": null
+          "typeArguments": null,
+          "start": 121,
+          "end": 122
         },
         "falseType": {
           "type": "TSNeverKeyword",
           "start": 127,
           "end": 132
-        }
+        },
+        "start": 64,
+        "end": 132
       },
-      "declare": false
+      "declare": false,
+      "start": 17,
+      "end": 133
     },
     {
       "type": "TSTypeAliasDeclaration",
-      "start": 135,
-      "end": 204,
       "id": {
         "type": "Identifier",
-        "start": 140,
-        "end": 162,
         "decorators": [],
         "name": "SubTup2FixedLengthTest",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 140,
+        "end": 162
       },
       "typeParameters": null,
       "typeAnnotation": {
         "type": "TSTypeReference",
-        "start": 165,
-        "end": 203,
         "typeName": {
           "type": "Identifier",
-          "start": 165,
-          "end": 183,
           "decorators": [],
           "name": "SubTup2FixedLength",
           "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "start": 165,
+          "end": 183
         },
         "typeArguments": {
           "type": "TSTypeParameterInstantiation",
-          "start": 183,
-          "end": 203,
           "params": [
             {
               "type": "TSTupleType",
-              "start": 184,
-              "end": 202,
               "elementTypes": [
                 {
                   "type": "TSNamedTupleMember",
-                  "start": 185,
-                  "end": 189,
                   "label": {
                     "type": "Identifier",
-                    "start": 185,
-                    "end": 186,
                     "decorators": [],
                     "name": "a",
                     "optional": false,
-                    "typeAnnotation": null
+                    "typeAnnotation": null,
+                    "start": 185,
+                    "end": 186
                   },
                   "elementType": {
                     "type": "TSLiteralType",
-                    "start": 188,
-                    "end": 189,
                     "literal": {
                       "type": "Literal",
-                      "start": 188,
-                      "end": 189,
                       "value": 0,
-                      "raw": "0"
-                    }
+                      "raw": "0",
+                      "start": 188,
+                      "end": 189
+                    },
+                    "start": 188,
+                    "end": 189
                   },
-                  "optional": false
+                  "optional": false,
+                  "start": 185,
+                  "end": 189
                 },
                 {
                   "type": "TSNamedTupleMember",
-                  "start": 191,
-                  "end": 195,
                   "label": {
                     "type": "Identifier",
-                    "start": 191,
-                    "end": 192,
                     "decorators": [],
                     "name": "b",
                     "optional": false,
-                    "typeAnnotation": null
+                    "typeAnnotation": null,
+                    "start": 191,
+                    "end": 192
                   },
                   "elementType": {
                     "type": "TSLiteralType",
-                    "start": 194,
-                    "end": 195,
                     "literal": {
                       "type": "Literal",
-                      "start": 194,
-                      "end": 195,
                       "value": 1,
-                      "raw": "1"
-                    }
+                      "raw": "1",
+                      "start": 194,
+                      "end": 195
+                    },
+                    "start": 194,
+                    "end": 195
                   },
-                  "optional": false
+                  "optional": false,
+                  "start": 191,
+                  "end": 195
                 },
                 {
                   "type": "TSNamedTupleMember",
-                  "start": 197,
-                  "end": 201,
                   "label": {
                     "type": "Identifier",
-                    "start": 197,
-                    "end": 198,
                     "decorators": [],
                     "name": "c",
                     "optional": false,
-                    "typeAnnotation": null
+                    "typeAnnotation": null,
+                    "start": 197,
+                    "end": 198
                   },
                   "elementType": {
                     "type": "TSLiteralType",
-                    "start": 200,
-                    "end": 201,
                     "literal": {
                       "type": "Literal",
-                      "start": 200,
-                      "end": 201,
                       "value": 2,
-                      "raw": "2"
-                    }
+                      "raw": "2",
+                      "start": 200,
+                      "end": 201
+                    },
+                    "start": 200,
+                    "end": 201
                   },
-                  "optional": false
+                  "optional": false,
+                  "start": 197,
+                  "end": 201
                 }
-              ]
+              ],
+              "start": 184,
+              "end": 202
             }
-          ]
-        }
+          ],
+          "start": 183,
+          "end": 203
+        },
+        "start": 165,
+        "end": 203
       },
-      "declare": false
+      "declare": false,
+      "start": 135,
+      "end": 204
     },
     {
       "type": "TSTypeAliasDeclaration",
-      "start": 206,
-      "end": 322,
       "id": {
         "type": "Identifier",
-        "start": 211,
-        "end": 226,
         "decorators": [],
         "name": "SubTup2Variadic",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 211,
+        "end": 226
       },
       "typeParameters": {
         "type": "TSTypeParameterDeclaration",
-        "start": 226,
-        "end": 247,
         "params": [
           {
             "type": "TSTypeParameter",
-            "start": 227,
-            "end": 246,
             "name": {
               "type": "Identifier",
-              "start": 227,
-              "end": 228,
               "decorators": [],
               "name": "T",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 227,
+              "end": 228
             },
             "constraint": {
               "type": "TSArrayType",
-              "start": 237,
-              "end": 246,
               "elementType": {
                 "type": "TSUnknownKeyword",
                 "start": 237,
                 "end": 244
-              }
+              },
+              "start": 237,
+              "end": 246
             },
             "default": null,
             "in": false,
             "out": false,
-            "const": false
+            "const": false,
+            "start": 227,
+            "end": 246
           }
-        ]
+        ],
+        "start": 226,
+        "end": 247
       },
       "typeAnnotation": {
         "type": "TSConditionalType",
-        "start": 250,
-        "end": 321,
         "checkType": {
           "type": "TSTypeReference",
-          "start": 250,
-          "end": 251,
           "typeName": {
             "type": "Identifier",
-            "start": 250,
-            "end": 251,
             "decorators": [],
             "name": "T",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 250,
+            "end": 251
           },
-          "typeArguments": null
+          "typeArguments": null,
+          "start": 250,
+          "end": 251
         },
         "extendsType": {
           "type": "TSTupleType",
-          "start": 260,
-          "end": 305,
           "elementTypes": [
             {
               "type": "TSRestType",
-              "start": 264,
-              "end": 293,
               "typeAnnotation": {
                 "type": "TSInferType",
-                "start": 267,
-                "end": 293,
                 "typeParameter": {
                   "type": "TSTypeParameter",
-                  "start": 273,
-                  "end": 293,
                   "name": {
                     "type": "Identifier",
-                    "start": 273,
-                    "end": 274,
                     "decorators": [],
                     "name": "B",
                     "optional": false,
-                    "typeAnnotation": null
+                    "typeAnnotation": null,
+                    "start": 273,
+                    "end": 274
                   },
                   "constraint": {
                     "type": "TSTupleType",
-                    "start": 283,
-                    "end": 293,
                     "elementTypes": [
                       {
                         "type": "TSAnyKeyword",
@@ -385,444 +369,444 @@ __ESTREE_TEST__:PASS:
                         "start": 289,
                         "end": 292
                       }
-                    ]
+                    ],
+                    "start": 283,
+                    "end": 293
                   },
                   "default": null,
                   "in": false,
                   "out": false,
-                  "const": false
-                }
-              }
+                  "const": false,
+                  "start": 273,
+                  "end": 293
+                },
+                "start": 267,
+                "end": 293
+              },
+              "start": 264,
+              "end": 293
             },
             {
               "type": "TSRestType",
-              "start": 297,
-              "end": 303,
               "typeAnnotation": {
                 "type": "TSAnyKeyword",
                 "start": 300,
                 "end": 303
-              }
+              },
+              "start": 297,
+              "end": 303
             }
-          ]
+          ],
+          "start": 260,
+          "end": 305
         },
         "trueType": {
           "type": "TSTypeReference",
-          "start": 310,
-          "end": 311,
           "typeName": {
             "type": "Identifier",
-            "start": 310,
-            "end": 311,
             "decorators": [],
             "name": "B",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 310,
+            "end": 311
           },
-          "typeArguments": null
+          "typeArguments": null,
+          "start": 310,
+          "end": 311
         },
         "falseType": {
           "type": "TSNeverKeyword",
           "start": 316,
           "end": 321
-        }
+        },
+        "start": 250,
+        "end": 321
       },
-      "declare": false
+      "declare": false,
+      "start": 206,
+      "end": 322
     },
     {
       "type": "TSTypeAliasDeclaration",
-      "start": 324,
-      "end": 392,
       "id": {
         "type": "Identifier",
-        "start": 329,
-        "end": 348,
         "decorators": [],
         "name": "SubTup2VariadicTest",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 329,
+        "end": 348
       },
       "typeParameters": null,
       "typeAnnotation": {
         "type": "TSTypeReference",
-        "start": 351,
-        "end": 391,
         "typeName": {
           "type": "Identifier",
-          "start": 351,
-          "end": 366,
           "decorators": [],
           "name": "SubTup2Variadic",
           "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "start": 351,
+          "end": 366
         },
         "typeArguments": {
           "type": "TSTypeParameterInstantiation",
-          "start": 366,
-          "end": 391,
           "params": [
             {
               "type": "TSTupleType",
-              "start": 367,
-              "end": 390,
               "elementTypes": [
                 {
                   "type": "TSNamedTupleMember",
-                  "start": 368,
-                  "end": 372,
                   "label": {
                     "type": "Identifier",
-                    "start": 368,
-                    "end": 369,
                     "decorators": [],
                     "name": "a",
                     "optional": false,
-                    "typeAnnotation": null
+                    "typeAnnotation": null,
+                    "start": 368,
+                    "end": 369
                   },
                   "elementType": {
                     "type": "TSLiteralType",
-                    "start": 371,
-                    "end": 372,
                     "literal": {
                       "type": "Literal",
-                      "start": 371,
-                      "end": 372,
                       "value": 0,
-                      "raw": "0"
-                    }
+                      "raw": "0",
+                      "start": 371,
+                      "end": 372
+                    },
+                    "start": 371,
+                    "end": 372
                   },
-                  "optional": false
+                  "optional": false,
+                  "start": 368,
+                  "end": 372
                 },
                 {
                   "type": "TSNamedTupleMember",
-                  "start": 374,
-                  "end": 378,
                   "label": {
                     "type": "Identifier",
-                    "start": 374,
-                    "end": 375,
                     "decorators": [],
                     "name": "b",
                     "optional": false,
-                    "typeAnnotation": null
+                    "typeAnnotation": null,
+                    "start": 374,
+                    "end": 375
                   },
                   "elementType": {
                     "type": "TSLiteralType",
-                    "start": 377,
-                    "end": 378,
                     "literal": {
                       "type": "Literal",
-                      "start": 377,
-                      "end": 378,
                       "value": 1,
-                      "raw": "1"
-                    }
+                      "raw": "1",
+                      "start": 377,
+                      "end": 378
+                    },
+                    "start": 377,
+                    "end": 378
                   },
-                  "optional": false
+                  "optional": false,
+                  "start": 374,
+                  "end": 378
                 },
                 {
                   "type": "TSRestType",
-                  "start": 380,
-                  "end": 389,
                   "typeAnnotation": {
                     "type": "TSNamedTupleMember",
-                    "start": 383,
-                    "end": 389,
                     "label": {
                       "type": "Identifier",
-                      "start": 383,
-                      "end": 384,
                       "decorators": [],
                       "name": "c",
                       "optional": false,
-                      "typeAnnotation": null
+                      "typeAnnotation": null,
+                      "start": 383,
+                      "end": 384
                     },
                     "elementType": {
                       "type": "TSArrayType",
-                      "start": 386,
-                      "end": 389,
                       "elementType": {
                         "type": "TSLiteralType",
-                        "start": 386,
-                        "end": 387,
                         "literal": {
                           "type": "Literal",
-                          "start": 386,
-                          "end": 387,
                           "value": 2,
-                          "raw": "2"
-                        }
-                      }
+                          "raw": "2",
+                          "start": 386,
+                          "end": 387
+                        },
+                        "start": 386,
+                        "end": 387
+                      },
+                      "start": 386,
+                      "end": 389
                     },
-                    "optional": false
-                  }
+                    "optional": false,
+                    "start": 383,
+                    "end": 389
+                  },
+                  "start": 380,
+                  "end": 389
                 }
-              ]
+              ],
+              "start": 367,
+              "end": 390
             }
-          ]
-        }
+          ],
+          "start": 366,
+          "end": 391
+        },
+        "start": 351,
+        "end": 391
       },
-      "declare": false
+      "declare": false,
+      "start": 324,
+      "end": 392
     },
     {
       "type": "TSTypeAliasDeclaration",
-      "start": 393,
-      "end": 468,
       "id": {
         "type": "Identifier",
-        "start": 398,
-        "end": 418,
         "decorators": [],
         "name": "SubTup2VariadicTest2",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 398,
+        "end": 418
       },
       "typeParameters": null,
       "typeAnnotation": {
         "type": "TSTypeReference",
-        "start": 421,
-        "end": 467,
         "typeName": {
           "type": "Identifier",
-          "start": 421,
-          "end": 436,
           "decorators": [],
           "name": "SubTup2Variadic",
           "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "start": 421,
+          "end": 436
         },
         "typeArguments": {
           "type": "TSTypeParameterInstantiation",
-          "start": 436,
-          "end": 467,
           "params": [
             {
               "type": "TSTupleType",
-              "start": 437,
-              "end": 466,
               "elementTypes": [
                 {
                   "type": "TSNamedTupleMember",
-                  "start": 438,
-                  "end": 442,
                   "label": {
                     "type": "Identifier",
-                    "start": 438,
-                    "end": 439,
                     "decorators": [],
                     "name": "a",
                     "optional": false,
-                    "typeAnnotation": null
+                    "typeAnnotation": null,
+                    "start": 438,
+                    "end": 439
                   },
                   "elementType": {
                     "type": "TSLiteralType",
-                    "start": 441,
-                    "end": 442,
                     "literal": {
                       "type": "Literal",
-                      "start": 441,
-                      "end": 442,
                       "value": 0,
-                      "raw": "0"
-                    }
+                      "raw": "0",
+                      "start": 441,
+                      "end": 442
+                    },
+                    "start": 441,
+                    "end": 442
                   },
-                  "optional": false
+                  "optional": false,
+                  "start": 438,
+                  "end": 442
                 },
                 {
                   "type": "TSNamedTupleMember",
-                  "start": 444,
-                  "end": 448,
                   "label": {
                     "type": "Identifier",
-                    "start": 444,
-                    "end": 445,
                     "decorators": [],
                     "name": "b",
                     "optional": false,
-                    "typeAnnotation": null
+                    "typeAnnotation": null,
+                    "start": 444,
+                    "end": 445
                   },
                   "elementType": {
                     "type": "TSLiteralType",
-                    "start": 447,
-                    "end": 448,
                     "literal": {
                       "type": "Literal",
-                      "start": 447,
-                      "end": 448,
                       "value": 1,
-                      "raw": "1"
-                    }
+                      "raw": "1",
+                      "start": 447,
+                      "end": 448
+                    },
+                    "start": 447,
+                    "end": 448
                   },
-                  "optional": false
+                  "optional": false,
+                  "start": 444,
+                  "end": 448
                 },
                 {
                   "type": "TSNamedTupleMember",
-                  "start": 450,
-                  "end": 454,
                   "label": {
                     "type": "Identifier",
-                    "start": 450,
-                    "end": 451,
                     "decorators": [],
                     "name": "c",
                     "optional": false,
-                    "typeAnnotation": null
+                    "typeAnnotation": null,
+                    "start": 450,
+                    "end": 451
                   },
                   "elementType": {
                     "type": "TSLiteralType",
-                    "start": 453,
-                    "end": 454,
                     "literal": {
                       "type": "Literal",
-                      "start": 453,
-                      "end": 454,
                       "value": 2,
-                      "raw": "2"
-                    }
+                      "raw": "2",
+                      "start": 453,
+                      "end": 454
+                    },
+                    "start": 453,
+                    "end": 454
                   },
-                  "optional": false
+                  "optional": false,
+                  "start": 450,
+                  "end": 454
                 },
                 {
                   "type": "TSRestType",
-                  "start": 456,
-                  "end": 465,
                   "typeAnnotation": {
                     "type": "TSNamedTupleMember",
-                    "start": 459,
-                    "end": 465,
                     "label": {
                       "type": "Identifier",
-                      "start": 459,
-                      "end": 460,
                       "decorators": [],
                       "name": "d",
                       "optional": false,
-                      "typeAnnotation": null
+                      "typeAnnotation": null,
+                      "start": 459,
+                      "end": 460
                     },
                     "elementType": {
                       "type": "TSArrayType",
-                      "start": 462,
-                      "end": 465,
                       "elementType": {
                         "type": "TSLiteralType",
-                        "start": 462,
-                        "end": 463,
                         "literal": {
                           "type": "Literal",
-                          "start": 462,
-                          "end": 463,
                           "value": 3,
-                          "raw": "3"
-                        }
-                      }
+                          "raw": "3",
+                          "start": 462,
+                          "end": 463
+                        },
+                        "start": 462,
+                        "end": 463
+                      },
+                      "start": 462,
+                      "end": 465
                     },
-                    "optional": false
-                  }
+                    "optional": false,
+                    "start": 459,
+                    "end": 465
+                  },
+                  "start": 456,
+                  "end": 465
                 }
-              ]
+              ],
+              "start": 437,
+              "end": 466
             }
-          ]
-        }
+          ],
+          "start": 436,
+          "end": 467
+        },
+        "start": 421,
+        "end": 467
       },
-      "declare": false
+      "declare": false,
+      "start": 393,
+      "end": 468
     },
     {
       "type": "TSTypeAliasDeclaration",
-      "start": 470,
-      "end": 622,
       "id": {
         "type": "Identifier",
-        "start": 475,
-        "end": 497,
         "decorators": [],
         "name": "SubTup2VariadicAndRest",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 475,
+        "end": 497
       },
       "typeParameters": {
         "type": "TSTypeParameterDeclaration",
-        "start": 497,
-        "end": 518,
         "params": [
           {
             "type": "TSTypeParameter",
-            "start": 498,
-            "end": 517,
             "name": {
               "type": "Identifier",
-              "start": 498,
-              "end": 499,
               "decorators": [],
               "name": "T",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 498,
+              "end": 499
             },
             "constraint": {
               "type": "TSArrayType",
-              "start": 508,
-              "end": 517,
               "elementType": {
                 "type": "TSUnknownKeyword",
                 "start": 508,
                 "end": 515
-              }
+              },
+              "start": 508,
+              "end": 517
             },
             "default": null,
             "in": false,
             "out": false,
-            "const": false
+            "const": false,
+            "start": 498,
+            "end": 517
           }
-        ]
+        ],
+        "start": 497,
+        "end": 518
       },
       "typeAnnotation": {
         "type": "TSConditionalType",
-        "start": 521,
-        "end": 621,
         "checkType": {
           "type": "TSTypeReference",
-          "start": 521,
-          "end": 522,
           "typeName": {
             "type": "Identifier",
-            "start": 521,
-            "end": 522,
             "decorators": [],
             "name": "T",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 521,
+            "end": 522
           },
-          "typeArguments": null
+          "typeArguments": null,
+          "start": 521,
+          "end": 522
         },
         "extendsType": {
           "type": "TSTupleType",
-          "start": 531,
-          "end": 588,
           "elementTypes": [
             {
               "type": "TSRestType",
-              "start": 537,
-              "end": 566,
               "typeAnnotation": {
                 "type": "TSInferType",
-                "start": 540,
-                "end": 566,
                 "typeParameter": {
                   "type": "TSTypeParameter",
-                  "start": 546,
-                  "end": 566,
                   "name": {
                     "type": "Identifier",
-                    "start": 546,
-                    "end": 547,
                     "decorators": [],
                     "name": "B",
                     "optional": false,
-                    "typeAnnotation": null
+                    "typeAnnotation": null,
+                    "start": 546,
+                    "end": 547
                   },
                   "constraint": {
                     "type": "TSTupleType",
-                    "start": 556,
-                    "end": 566,
                     "elementTypes": [
                       {
                         "type": "TSAnyKeyword",
@@ -834,355 +818,355 @@ __ESTREE_TEST__:PASS:
                         "start": 562,
                         "end": 565
                       }
-                    ]
+                    ],
+                    "start": 556,
+                    "end": 566
                   },
                   "default": null,
                   "in": false,
                   "out": false,
-                  "const": false
-                }
-              }
+                  "const": false,
+                  "start": 546,
+                  "end": 566
+                },
+                "start": 540,
+                "end": 566
+              },
+              "start": 537,
+              "end": 566
             },
             {
               "type": "TSRestType",
-              "start": 572,
-              "end": 586,
               "typeAnnotation": {
                 "type": "TSArrayType",
-                "start": 575,
-                "end": 586,
                 "elementType": {
                   "type": "TSInferType",
-                  "start": 576,
-                  "end": 583,
                   "typeParameter": {
                     "type": "TSTypeParameter",
-                    "start": 582,
-                    "end": 583,
                     "name": {
                       "type": "Identifier",
-                      "start": 582,
-                      "end": 583,
                       "decorators": [],
                       "name": "C",
                       "optional": false,
-                      "typeAnnotation": null
+                      "typeAnnotation": null,
+                      "start": 582,
+                      "end": 583
                     },
                     "constraint": null,
                     "default": null,
                     "in": false,
                     "out": false,
-                    "const": false
-                  }
-                }
-              }
+                    "const": false,
+                    "start": 582,
+                    "end": 583
+                  },
+                  "start": 576,
+                  "end": 583
+                },
+                "start": 575,
+                "end": 586
+              },
+              "start": 572,
+              "end": 586
             }
-          ]
+          ],
+          "start": 531,
+          "end": 588
         },
         "trueType": {
           "type": "TSTupleType",
-          "start": 595,
-          "end": 609,
           "elementTypes": [
             {
               "type": "TSRestType",
-              "start": 596,
-              "end": 600,
               "typeAnnotation": {
                 "type": "TSTypeReference",
-                "start": 599,
-                "end": 600,
                 "typeName": {
                   "type": "Identifier",
-                  "start": 599,
-                  "end": 600,
                   "decorators": [],
                   "name": "B",
                   "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "start": 599,
+                  "end": 600
                 },
-                "typeArguments": null
-              }
+                "typeArguments": null,
+                "start": 599,
+                "end": 600
+              },
+              "start": 596,
+              "end": 600
             },
             {
               "type": "TSRestType",
-              "start": 602,
-              "end": 608,
               "typeAnnotation": {
                 "type": "TSTupleType",
-                "start": 605,
-                "end": 608,
                 "elementTypes": [
                   {
                     "type": "TSTypeReference",
-                    "start": 606,
-                    "end": 607,
                     "typeName": {
                       "type": "Identifier",
-                      "start": 606,
-                      "end": 607,
                       "decorators": [],
                       "name": "C",
                       "optional": false,
-                      "typeAnnotation": null
+                      "typeAnnotation": null,
+                      "start": 606,
+                      "end": 607
                     },
-                    "typeArguments": null
+                    "typeArguments": null,
+                    "start": 606,
+                    "end": 607
                   }
-                ]
-              }
+                ],
+                "start": 605,
+                "end": 608
+              },
+              "start": 602,
+              "end": 608
             }
-          ]
+          ],
+          "start": 595,
+          "end": 609
         },
         "falseType": {
           "type": "TSNeverKeyword",
           "start": 616,
           "end": 621
-        }
+        },
+        "start": 521,
+        "end": 621
       },
-      "declare": false
+      "declare": false,
+      "start": 470,
+      "end": 622
     },
     {
       "type": "TSTypeAliasDeclaration",
-      "start": 624,
-      "end": 706,
       "id": {
         "type": "Identifier",
-        "start": 629,
-        "end": 655,
         "decorators": [],
         "name": "SubTup2VariadicAndRestTest",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 629,
+        "end": 655
       },
       "typeParameters": null,
       "typeAnnotation": {
         "type": "TSTypeReference",
-        "start": 658,
-        "end": 705,
         "typeName": {
           "type": "Identifier",
-          "start": 658,
-          "end": 680,
           "decorators": [],
           "name": "SubTup2VariadicAndRest",
           "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "start": 658,
+          "end": 680
         },
         "typeArguments": {
           "type": "TSTypeParameterInstantiation",
-          "start": 680,
-          "end": 705,
           "params": [
             {
               "type": "TSTupleType",
-              "start": 681,
-              "end": 704,
               "elementTypes": [
                 {
                   "type": "TSNamedTupleMember",
-                  "start": 682,
-                  "end": 686,
                   "label": {
                     "type": "Identifier",
-                    "start": 682,
-                    "end": 683,
                     "decorators": [],
                     "name": "a",
                     "optional": false,
-                    "typeAnnotation": null
+                    "typeAnnotation": null,
+                    "start": 682,
+                    "end": 683
                   },
                   "elementType": {
                     "type": "TSLiteralType",
-                    "start": 685,
-                    "end": 686,
                     "literal": {
                       "type": "Literal",
-                      "start": 685,
-                      "end": 686,
                       "value": 0,
-                      "raw": "0"
-                    }
+                      "raw": "0",
+                      "start": 685,
+                      "end": 686
+                    },
+                    "start": 685,
+                    "end": 686
                   },
-                  "optional": false
+                  "optional": false,
+                  "start": 682,
+                  "end": 686
                 },
                 {
                   "type": "TSNamedTupleMember",
-                  "start": 688,
-                  "end": 692,
                   "label": {
                     "type": "Identifier",
-                    "start": 688,
-                    "end": 689,
                     "decorators": [],
                     "name": "b",
                     "optional": false,
-                    "typeAnnotation": null
+                    "typeAnnotation": null,
+                    "start": 688,
+                    "end": 689
                   },
                   "elementType": {
                     "type": "TSLiteralType",
-                    "start": 691,
-                    "end": 692,
                     "literal": {
                       "type": "Literal",
-                      "start": 691,
-                      "end": 692,
                       "value": 1,
-                      "raw": "1"
-                    }
+                      "raw": "1",
+                      "start": 691,
+                      "end": 692
+                    },
+                    "start": 691,
+                    "end": 692
                   },
-                  "optional": false
+                  "optional": false,
+                  "start": 688,
+                  "end": 692
                 },
                 {
                   "type": "TSRestType",
-                  "start": 694,
-                  "end": 703,
                   "typeAnnotation": {
                     "type": "TSNamedTupleMember",
-                    "start": 697,
-                    "end": 703,
                     "label": {
                       "type": "Identifier",
-                      "start": 697,
-                      "end": 698,
                       "decorators": [],
                       "name": "c",
                       "optional": false,
-                      "typeAnnotation": null
+                      "typeAnnotation": null,
+                      "start": 697,
+                      "end": 698
                     },
                     "elementType": {
                       "type": "TSArrayType",
-                      "start": 700,
-                      "end": 703,
                       "elementType": {
                         "type": "TSLiteralType",
-                        "start": 700,
-                        "end": 701,
                         "literal": {
                           "type": "Literal",
-                          "start": 700,
-                          "end": 701,
                           "value": 2,
-                          "raw": "2"
-                        }
-                      }
+                          "raw": "2",
+                          "start": 700,
+                          "end": 701
+                        },
+                        "start": 700,
+                        "end": 701
+                      },
+                      "start": 700,
+                      "end": 703
                     },
-                    "optional": false
-                  }
+                    "optional": false,
+                    "start": 697,
+                    "end": 703
+                  },
+                  "start": 694,
+                  "end": 703
                 }
-              ]
+              ],
+              "start": 681,
+              "end": 704
             }
-          ]
-        }
+          ],
+          "start": 680,
+          "end": 705
+        },
+        "start": 658,
+        "end": 705
       },
-      "declare": false
+      "declare": false,
+      "start": 624,
+      "end": 706
     },
     {
       "type": "TSTypeAliasDeclaration",
-      "start": 708,
-      "end": 833,
       "id": {
         "type": "Identifier",
-        "start": 713,
-        "end": 736,
         "decorators": [],
         "name": "SubTup2TrailingVariadic",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 713,
+        "end": 736
       },
       "typeParameters": {
         "type": "TSTypeParameterDeclaration",
-        "start": 736,
-        "end": 757,
         "params": [
           {
             "type": "TSTypeParameter",
-            "start": 737,
-            "end": 756,
             "name": {
               "type": "Identifier",
-              "start": 737,
-              "end": 738,
               "decorators": [],
               "name": "T",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 737,
+              "end": 738
             },
             "constraint": {
               "type": "TSArrayType",
-              "start": 747,
-              "end": 756,
               "elementType": {
                 "type": "TSUnknownKeyword",
                 "start": 747,
                 "end": 754
-              }
+              },
+              "start": 747,
+              "end": 756
             },
             "default": null,
             "in": false,
             "out": false,
-            "const": false
+            "const": false,
+            "start": 737,
+            "end": 756
           }
-        ]
+        ],
+        "start": 736,
+        "end": 757
       },
       "typeAnnotation": {
         "type": "TSConditionalType",
-        "start": 760,
-        "end": 832,
         "checkType": {
           "type": "TSTypeReference",
-          "start": 760,
-          "end": 761,
           "typeName": {
             "type": "Identifier",
-            "start": 760,
-            "end": 761,
             "decorators": [],
             "name": "T",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 760,
+            "end": 761
           },
-          "typeArguments": null
+          "typeArguments": null,
+          "start": 760,
+          "end": 761
         },
         "extendsType": {
           "type": "TSTupleType",
-          "start": 770,
-          "end": 816,
           "elementTypes": [
             {
               "type": "TSRestType",
-              "start": 774,
-              "end": 780,
               "typeAnnotation": {
                 "type": "TSAnyKeyword",
                 "start": 777,
                 "end": 780
-              }
+              },
+              "start": 774,
+              "end": 780
             },
             {
               "type": "TSRestType",
-              "start": 784,
-              "end": 813,
               "typeAnnotation": {
                 "type": "TSInferType",
-                "start": 787,
-                "end": 813,
                 "typeParameter": {
                   "type": "TSTypeParameter",
-                  "start": 793,
-                  "end": 813,
                   "name": {
                     "type": "Identifier",
-                    "start": 793,
-                    "end": 794,
                     "decorators": [],
                     "name": "B",
                     "optional": false,
-                    "typeAnnotation": null
+                    "typeAnnotation": null,
+                    "start": 793,
+                    "end": 794
                   },
                   "constraint": {
                     "type": "TSTupleType",
-                    "start": 803,
-                    "end": 813,
                     "elementTypes": [
                       {
                         "type": "TSAnyKeyword",
@@ -1194,468 +1178,468 @@ __ESTREE_TEST__:PASS:
                         "start": 809,
                         "end": 812
                       }
-                    ]
+                    ],
+                    "start": 803,
+                    "end": 813
                   },
                   "default": null,
                   "in": false,
                   "out": false,
-                  "const": false
-                }
-              }
+                  "const": false,
+                  "start": 793,
+                  "end": 813
+                },
+                "start": 787,
+                "end": 813
+              },
+              "start": 784,
+              "end": 813
             }
-          ]
+          ],
+          "start": 770,
+          "end": 816
         },
         "trueType": {
           "type": "TSTypeReference",
-          "start": 821,
-          "end": 822,
           "typeName": {
             "type": "Identifier",
-            "start": 821,
-            "end": 822,
             "decorators": [],
             "name": "B",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 821,
+            "end": 822
           },
-          "typeArguments": null
+          "typeArguments": null,
+          "start": 821,
+          "end": 822
         },
         "falseType": {
           "type": "TSNeverKeyword",
           "start": 827,
           "end": 832
-        }
+        },
+        "start": 760,
+        "end": 832
       },
-      "declare": false
+      "declare": false,
+      "start": 708,
+      "end": 833
     },
     {
       "type": "TSTypeAliasDeclaration",
-      "start": 835,
-      "end": 919,
       "id": {
         "type": "Identifier",
-        "start": 840,
-        "end": 867,
         "decorators": [],
         "name": "SubTup2TrailingVariadicTest",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 840,
+        "end": 867
       },
       "typeParameters": null,
       "typeAnnotation": {
         "type": "TSTypeReference",
-        "start": 870,
-        "end": 918,
         "typeName": {
           "type": "Identifier",
-          "start": 870,
-          "end": 893,
           "decorators": [],
           "name": "SubTup2TrailingVariadic",
           "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "start": 870,
+          "end": 893
         },
         "typeArguments": {
           "type": "TSTypeParameterInstantiation",
-          "start": 893,
-          "end": 918,
           "params": [
             {
               "type": "TSTupleType",
-              "start": 894,
-              "end": 917,
               "elementTypes": [
                 {
                   "type": "TSRestType",
-                  "start": 895,
-                  "end": 904,
                   "typeAnnotation": {
                     "type": "TSNamedTupleMember",
-                    "start": 898,
-                    "end": 904,
                     "label": {
                       "type": "Identifier",
-                      "start": 898,
-                      "end": 899,
                       "decorators": [],
                       "name": "a",
                       "optional": false,
-                      "typeAnnotation": null
+                      "typeAnnotation": null,
+                      "start": 898,
+                      "end": 899
                     },
                     "elementType": {
                       "type": "TSArrayType",
-                      "start": 901,
-                      "end": 904,
                       "elementType": {
                         "type": "TSLiteralType",
-                        "start": 901,
-                        "end": 902,
                         "literal": {
                           "type": "Literal",
-                          "start": 901,
-                          "end": 902,
                           "value": 0,
-                          "raw": "0"
-                        }
-                      }
+                          "raw": "0",
+                          "start": 901,
+                          "end": 902
+                        },
+                        "start": 901,
+                        "end": 902
+                      },
+                      "start": 901,
+                      "end": 904
                     },
-                    "optional": false
-                  }
+                    "optional": false,
+                    "start": 898,
+                    "end": 904
+                  },
+                  "start": 895,
+                  "end": 904
                 },
                 {
                   "type": "TSNamedTupleMember",
-                  "start": 906,
-                  "end": 910,
                   "label": {
                     "type": "Identifier",
-                    "start": 906,
-                    "end": 907,
                     "decorators": [],
                     "name": "b",
                     "optional": false,
-                    "typeAnnotation": null
+                    "typeAnnotation": null,
+                    "start": 906,
+                    "end": 907
                   },
                   "elementType": {
                     "type": "TSLiteralType",
-                    "start": 909,
-                    "end": 910,
                     "literal": {
                       "type": "Literal",
-                      "start": 909,
-                      "end": 910,
                       "value": 1,
-                      "raw": "1"
-                    }
+                      "raw": "1",
+                      "start": 909,
+                      "end": 910
+                    },
+                    "start": 909,
+                    "end": 910
                   },
-                  "optional": false
+                  "optional": false,
+                  "start": 906,
+                  "end": 910
                 },
                 {
                   "type": "TSNamedTupleMember",
-                  "start": 912,
-                  "end": 916,
                   "label": {
                     "type": "Identifier",
-                    "start": 912,
-                    "end": 913,
                     "decorators": [],
                     "name": "c",
                     "optional": false,
-                    "typeAnnotation": null
+                    "typeAnnotation": null,
+                    "start": 912,
+                    "end": 913
                   },
                   "elementType": {
                     "type": "TSLiteralType",
-                    "start": 915,
-                    "end": 916,
                     "literal": {
                       "type": "Literal",
-                      "start": 915,
-                      "end": 916,
                       "value": 2,
-                      "raw": "2"
-                    }
+                      "raw": "2",
+                      "start": 915,
+                      "end": 916
+                    },
+                    "start": 915,
+                    "end": 916
                   },
-                  "optional": false
+                  "optional": false,
+                  "start": 912,
+                  "end": 916
                 }
-              ]
+              ],
+              "start": 894,
+              "end": 917
             }
-          ]
-        }
+          ],
+          "start": 893,
+          "end": 918
+        },
+        "start": 870,
+        "end": 918
       },
-      "declare": false
+      "declare": false,
+      "start": 835,
+      "end": 919
     },
     {
       "type": "TSTypeAliasDeclaration",
-      "start": 920,
-      "end": 1011,
       "id": {
         "type": "Identifier",
-        "start": 925,
-        "end": 953,
         "decorators": [],
         "name": "SubTup2TrailingVariadicTest2",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 925,
+        "end": 953
       },
       "typeParameters": null,
       "typeAnnotation": {
         "type": "TSTypeReference",
-        "start": 956,
-        "end": 1010,
         "typeName": {
           "type": "Identifier",
-          "start": 956,
-          "end": 979,
           "decorators": [],
           "name": "SubTup2TrailingVariadic",
           "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "start": 956,
+          "end": 979
         },
         "typeArguments": {
           "type": "TSTypeParameterInstantiation",
-          "start": 979,
-          "end": 1010,
           "params": [
             {
               "type": "TSTupleType",
-              "start": 980,
-              "end": 1009,
               "elementTypes": [
                 {
                   "type": "TSRestType",
-                  "start": 981,
-                  "end": 990,
                   "typeAnnotation": {
                     "type": "TSNamedTupleMember",
-                    "start": 984,
-                    "end": 990,
                     "label": {
                       "type": "Identifier",
-                      "start": 984,
-                      "end": 985,
                       "decorators": [],
                       "name": "a",
                       "optional": false,
-                      "typeAnnotation": null
+                      "typeAnnotation": null,
+                      "start": 984,
+                      "end": 985
                     },
                     "elementType": {
                       "type": "TSArrayType",
-                      "start": 987,
-                      "end": 990,
                       "elementType": {
                         "type": "TSLiteralType",
-                        "start": 987,
-                        "end": 988,
                         "literal": {
                           "type": "Literal",
-                          "start": 987,
-                          "end": 988,
                           "value": 0,
-                          "raw": "0"
-                        }
-                      }
+                          "raw": "0",
+                          "start": 987,
+                          "end": 988
+                        },
+                        "start": 987,
+                        "end": 988
+                      },
+                      "start": 987,
+                      "end": 990
                     },
-                    "optional": false
-                  }
+                    "optional": false,
+                    "start": 984,
+                    "end": 990
+                  },
+                  "start": 981,
+                  "end": 990
                 },
                 {
                   "type": "TSNamedTupleMember",
-                  "start": 992,
-                  "end": 996,
                   "label": {
                     "type": "Identifier",
-                    "start": 992,
-                    "end": 993,
                     "decorators": [],
                     "name": "b",
                     "optional": false,
-                    "typeAnnotation": null
+                    "typeAnnotation": null,
+                    "start": 992,
+                    "end": 993
                   },
                   "elementType": {
                     "type": "TSLiteralType",
-                    "start": 995,
-                    "end": 996,
                     "literal": {
                       "type": "Literal",
-                      "start": 995,
-                      "end": 996,
                       "value": 1,
-                      "raw": "1"
-                    }
+                      "raw": "1",
+                      "start": 995,
+                      "end": 996
+                    },
+                    "start": 995,
+                    "end": 996
                   },
-                  "optional": false
+                  "optional": false,
+                  "start": 992,
+                  "end": 996
                 },
                 {
                   "type": "TSNamedTupleMember",
-                  "start": 998,
-                  "end": 1002,
                   "label": {
                     "type": "Identifier",
-                    "start": 998,
-                    "end": 999,
                     "decorators": [],
                     "name": "c",
                     "optional": false,
-                    "typeAnnotation": null
+                    "typeAnnotation": null,
+                    "start": 998,
+                    "end": 999
                   },
                   "elementType": {
                     "type": "TSLiteralType",
-                    "start": 1001,
-                    "end": 1002,
                     "literal": {
                       "type": "Literal",
-                      "start": 1001,
-                      "end": 1002,
                       "value": 2,
-                      "raw": "2"
-                    }
+                      "raw": "2",
+                      "start": 1001,
+                      "end": 1002
+                    },
+                    "start": 1001,
+                    "end": 1002
                   },
-                  "optional": false
+                  "optional": false,
+                  "start": 998,
+                  "end": 1002
                 },
                 {
                   "type": "TSNamedTupleMember",
-                  "start": 1004,
-                  "end": 1008,
                   "label": {
                     "type": "Identifier",
-                    "start": 1004,
-                    "end": 1005,
                     "decorators": [],
                     "name": "d",
                     "optional": false,
-                    "typeAnnotation": null
+                    "typeAnnotation": null,
+                    "start": 1004,
+                    "end": 1005
                   },
                   "elementType": {
                     "type": "TSLiteralType",
-                    "start": 1007,
-                    "end": 1008,
                     "literal": {
                       "type": "Literal",
-                      "start": 1007,
-                      "end": 1008,
                       "value": 3,
-                      "raw": "3"
-                    }
+                      "raw": "3",
+                      "start": 1007,
+                      "end": 1008
+                    },
+                    "start": 1007,
+                    "end": 1008
                   },
-                  "optional": false
+                  "optional": false,
+                  "start": 1004,
+                  "end": 1008
                 }
-              ]
+              ],
+              "start": 980,
+              "end": 1009
             }
-          ]
-        }
+          ],
+          "start": 979,
+          "end": 1010
+        },
+        "start": 956,
+        "end": 1010
       },
-      "declare": false
+      "declare": false,
+      "start": 920,
+      "end": 1011
     },
     {
       "type": "TSTypeAliasDeclaration",
-      "start": 1013,
-      "end": 1170,
       "id": {
         "type": "Identifier",
-        "start": 1018,
-        "end": 1049,
         "decorators": [],
         "name": "SubTup2RestAndTrailingVariadic2",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 1018,
+        "end": 1049
       },
       "typeParameters": {
         "type": "TSTypeParameterDeclaration",
-        "start": 1049,
-        "end": 1070,
         "params": [
           {
             "type": "TSTypeParameter",
-            "start": 1050,
-            "end": 1069,
             "name": {
               "type": "Identifier",
-              "start": 1050,
-              "end": 1051,
               "decorators": [],
               "name": "T",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 1050,
+              "end": 1051
             },
             "constraint": {
               "type": "TSArrayType",
-              "start": 1060,
-              "end": 1069,
               "elementType": {
                 "type": "TSUnknownKeyword",
                 "start": 1060,
                 "end": 1067
-              }
+              },
+              "start": 1060,
+              "end": 1069
             },
             "default": null,
             "in": false,
             "out": false,
-            "const": false
+            "const": false,
+            "start": 1050,
+            "end": 1069
           }
-        ]
+        ],
+        "start": 1049,
+        "end": 1070
       },
       "typeAnnotation": {
         "type": "TSConditionalType",
-        "start": 1073,
-        "end": 1169,
         "checkType": {
           "type": "TSTypeReference",
-          "start": 1073,
-          "end": 1074,
           "typeName": {
             "type": "Identifier",
-            "start": 1073,
-            "end": 1074,
             "decorators": [],
             "name": "T",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 1073,
+            "end": 1074
           },
-          "typeArguments": null
+          "typeArguments": null,
+          "start": 1073,
+          "end": 1074
         },
         "extendsType": {
           "type": "TSTupleType",
-          "start": 1083,
-          "end": 1141,
           "elementTypes": [
             {
               "type": "TSRestType",
-              "start": 1089,
-              "end": 1103,
               "typeAnnotation": {
                 "type": "TSArrayType",
-                "start": 1092,
-                "end": 1103,
                 "elementType": {
                   "type": "TSInferType",
-                  "start": 1093,
-                  "end": 1100,
                   "typeParameter": {
                     "type": "TSTypeParameter",
-                    "start": 1099,
-                    "end": 1100,
                     "name": {
                       "type": "Identifier",
-                      "start": 1099,
-                      "end": 1100,
                       "decorators": [],
                       "name": "C",
                       "optional": false,
-                      "typeAnnotation": null
+                      "typeAnnotation": null,
+                      "start": 1099,
+                      "end": 1100
                     },
                     "constraint": null,
                     "default": null,
                     "in": false,
                     "out": false,
-                    "const": false
-                  }
-                }
-              }
+                    "const": false,
+                    "start": 1099,
+                    "end": 1100
+                  },
+                  "start": 1093,
+                  "end": 1100
+                },
+                "start": 1092,
+                "end": 1103
+              },
+              "start": 1089,
+              "end": 1103
             },
             {
               "type": "TSRestType",
-              "start": 1109,
-              "end": 1138,
               "typeAnnotation": {
                 "type": "TSInferType",
-                "start": 1112,
-                "end": 1138,
                 "typeParameter": {
                   "type": "TSTypeParameter",
-                  "start": 1118,
-                  "end": 1138,
                   "name": {
                     "type": "Identifier",
-                    "start": 1118,
-                    "end": 1119,
                     "decorators": [],
                     "name": "B",
                     "optional": false,
-                    "typeAnnotation": null
+                    "typeAnnotation": null,
+                    "start": 1118,
+                    "end": 1119
                   },
                   "constraint": {
                     "type": "TSTupleType",
-                    "start": 1128,
-                    "end": 1138,
                     "elementTypes": [
                       {
                         "type": "TSAnyKeyword",
@@ -1667,273 +1651,281 @@ __ESTREE_TEST__:PASS:
                         "start": 1134,
                         "end": 1137
                       }
-                    ]
+                    ],
+                    "start": 1128,
+                    "end": 1138
                   },
                   "default": null,
                   "in": false,
                   "out": false,
-                  "const": false
-                }
-              }
+                  "const": false,
+                  "start": 1118,
+                  "end": 1138
+                },
+                "start": 1112,
+                "end": 1138
+              },
+              "start": 1109,
+              "end": 1138
             }
-          ]
+          ],
+          "start": 1083,
+          "end": 1141
         },
         "trueType": {
           "type": "TSTupleType",
-          "start": 1148,
-          "end": 1157,
           "elementTypes": [
             {
               "type": "TSTypeReference",
-              "start": 1149,
-              "end": 1150,
               "typeName": {
                 "type": "Identifier",
-                "start": 1149,
-                "end": 1150,
                 "decorators": [],
                 "name": "C",
                 "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "start": 1149,
+                "end": 1150
               },
-              "typeArguments": null
+              "typeArguments": null,
+              "start": 1149,
+              "end": 1150
             },
             {
               "type": "TSRestType",
-              "start": 1152,
-              "end": 1156,
               "typeAnnotation": {
                 "type": "TSTypeReference",
-                "start": 1155,
-                "end": 1156,
                 "typeName": {
                   "type": "Identifier",
-                  "start": 1155,
-                  "end": 1156,
                   "decorators": [],
                   "name": "B",
                   "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "start": 1155,
+                  "end": 1156
                 },
-                "typeArguments": null
-              }
+                "typeArguments": null,
+                "start": 1155,
+                "end": 1156
+              },
+              "start": 1152,
+              "end": 1156
             }
-          ]
+          ],
+          "start": 1148,
+          "end": 1157
         },
         "falseType": {
           "type": "TSNeverKeyword",
           "start": 1164,
           "end": 1169
-        }
+        },
+        "start": 1073,
+        "end": 1169
       },
-      "declare": false
+      "declare": false,
+      "start": 1013,
+      "end": 1170
     },
     {
       "type": "TSTypeAliasDeclaration",
-      "start": 1172,
-      "end": 1272,
       "id": {
         "type": "Identifier",
-        "start": 1177,
-        "end": 1212,
         "decorators": [],
         "name": "SubTup2RestAndTrailingVariadic2Test",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 1177,
+        "end": 1212
       },
       "typeParameters": null,
       "typeAnnotation": {
         "type": "TSTypeReference",
-        "start": 1215,
-        "end": 1271,
         "typeName": {
           "type": "Identifier",
-          "start": 1215,
-          "end": 1246,
           "decorators": [],
           "name": "SubTup2RestAndTrailingVariadic2",
           "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "start": 1215,
+          "end": 1246
         },
         "typeArguments": {
           "type": "TSTypeParameterInstantiation",
-          "start": 1246,
-          "end": 1271,
           "params": [
             {
               "type": "TSTupleType",
-              "start": 1247,
-              "end": 1270,
               "elementTypes": [
                 {
                   "type": "TSRestType",
-                  "start": 1248,
-                  "end": 1257,
                   "typeAnnotation": {
                     "type": "TSNamedTupleMember",
-                    "start": 1251,
-                    "end": 1257,
                     "label": {
                       "type": "Identifier",
-                      "start": 1251,
-                      "end": 1252,
                       "decorators": [],
                       "name": "a",
                       "optional": false,
-                      "typeAnnotation": null
+                      "typeAnnotation": null,
+                      "start": 1251,
+                      "end": 1252
                     },
                     "elementType": {
                       "type": "TSArrayType",
-                      "start": 1254,
-                      "end": 1257,
                       "elementType": {
                         "type": "TSLiteralType",
-                        "start": 1254,
-                        "end": 1255,
                         "literal": {
                           "type": "Literal",
-                          "start": 1254,
-                          "end": 1255,
                           "value": 0,
-                          "raw": "0"
-                        }
-                      }
+                          "raw": "0",
+                          "start": 1254,
+                          "end": 1255
+                        },
+                        "start": 1254,
+                        "end": 1255
+                      },
+                      "start": 1254,
+                      "end": 1257
                     },
-                    "optional": false
-                  }
+                    "optional": false,
+                    "start": 1251,
+                    "end": 1257
+                  },
+                  "start": 1248,
+                  "end": 1257
                 },
                 {
                   "type": "TSNamedTupleMember",
-                  "start": 1259,
-                  "end": 1263,
                   "label": {
                     "type": "Identifier",
-                    "start": 1259,
-                    "end": 1260,
                     "decorators": [],
                     "name": "b",
                     "optional": false,
-                    "typeAnnotation": null
+                    "typeAnnotation": null,
+                    "start": 1259,
+                    "end": 1260
                   },
                   "elementType": {
                     "type": "TSLiteralType",
-                    "start": 1262,
-                    "end": 1263,
                     "literal": {
                       "type": "Literal",
-                      "start": 1262,
-                      "end": 1263,
                       "value": 1,
-                      "raw": "1"
-                    }
+                      "raw": "1",
+                      "start": 1262,
+                      "end": 1263
+                    },
+                    "start": 1262,
+                    "end": 1263
                   },
-                  "optional": false
+                  "optional": false,
+                  "start": 1259,
+                  "end": 1263
                 },
                 {
                   "type": "TSNamedTupleMember",
-                  "start": 1265,
-                  "end": 1269,
                   "label": {
                     "type": "Identifier",
-                    "start": 1265,
-                    "end": 1266,
                     "decorators": [],
                     "name": "c",
                     "optional": false,
-                    "typeAnnotation": null
+                    "typeAnnotation": null,
+                    "start": 1265,
+                    "end": 1266
                   },
                   "elementType": {
                     "type": "TSLiteralType",
-                    "start": 1268,
-                    "end": 1269,
                     "literal": {
                       "type": "Literal",
-                      "start": 1268,
-                      "end": 1269,
                       "value": 2,
-                      "raw": "2"
-                    }
+                      "raw": "2",
+                      "start": 1268,
+                      "end": 1269
+                    },
+                    "start": 1268,
+                    "end": 1269
                   },
-                  "optional": false
+                  "optional": false,
+                  "start": 1265,
+                  "end": 1269
                 }
-              ]
+              ],
+              "start": 1247,
+              "end": 1270
             }
-          ]
-        }
+          ],
+          "start": 1246,
+          "end": 1271
+        },
+        "start": 1215,
+        "end": 1271
       },
-      "declare": false
+      "declare": false,
+      "start": 1172,
+      "end": 1272
     },
     {
       "type": "TSTypeAliasDeclaration",
-      "start": 1274,
-      "end": 1421,
       "id": {
         "type": "Identifier",
-        "start": 1279,
-        "end": 1318,
         "decorators": [],
         "name": "SubTup2VariadicWithLeadingFixedElements",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 1279,
+        "end": 1318
       },
       "typeParameters": {
         "type": "TSTypeParameterDeclaration",
-        "start": 1318,
-        "end": 1339,
         "params": [
           {
             "type": "TSTypeParameter",
-            "start": 1319,
-            "end": 1338,
             "name": {
               "type": "Identifier",
-              "start": 1319,
-              "end": 1320,
               "decorators": [],
               "name": "T",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 1319,
+              "end": 1320
             },
             "constraint": {
               "type": "TSArrayType",
-              "start": 1329,
-              "end": 1338,
               "elementType": {
                 "type": "TSUnknownKeyword",
                 "start": 1329,
                 "end": 1336
-              }
+              },
+              "start": 1329,
+              "end": 1338
             },
             "default": null,
             "in": false,
             "out": false,
-            "const": false
+            "const": false,
+            "start": 1319,
+            "end": 1338
           }
-        ]
+        ],
+        "start": 1318,
+        "end": 1339
       },
       "typeAnnotation": {
         "type": "TSConditionalType",
-        "start": 1342,
-        "end": 1420,
         "checkType": {
           "type": "TSTypeReference",
-          "start": 1342,
-          "end": 1343,
           "typeName": {
             "type": "Identifier",
-            "start": 1342,
-            "end": 1343,
             "decorators": [],
             "name": "T",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 1342,
+            "end": 1343
           },
-          "typeArguments": null
+          "typeArguments": null,
+          "start": 1342,
+          "end": 1343
         },
         "extendsType": {
           "type": "TSTupleType",
-          "start": 1352,
-          "end": 1404,
           "elementTypes": [
             {
               "type": "TSAnyKeyword",
@@ -1942,29 +1934,21 @@ __ESTREE_TEST__:PASS:
             },
             {
               "type": "TSRestType",
-              "start": 1363,
-              "end": 1392,
               "typeAnnotation": {
                 "type": "TSInferType",
-                "start": 1366,
-                "end": 1392,
                 "typeParameter": {
                   "type": "TSTypeParameter",
-                  "start": 1372,
-                  "end": 1392,
                   "name": {
                     "type": "Identifier",
-                    "start": 1372,
-                    "end": 1373,
                     "decorators": [],
                     "name": "B",
                     "optional": false,
-                    "typeAnnotation": null
+                    "typeAnnotation": null,
+                    "start": 1372,
+                    "end": 1373
                   },
                   "constraint": {
                     "type": "TSTupleType",
-                    "start": 1382,
-                    "end": 1392,
                     "elementTypes": [
                       {
                         "type": "TSAnyKeyword",
@@ -1976,508 +1960,508 @@ __ESTREE_TEST__:PASS:
                         "start": 1388,
                         "end": 1391
                       }
-                    ]
+                    ],
+                    "start": 1382,
+                    "end": 1392
                   },
                   "default": null,
                   "in": false,
                   "out": false,
-                  "const": false
-                }
-              }
+                  "const": false,
+                  "start": 1372,
+                  "end": 1392
+                },
+                "start": 1366,
+                "end": 1392
+              },
+              "start": 1363,
+              "end": 1392
             },
             {
               "type": "TSRestType",
-              "start": 1396,
-              "end": 1402,
               "typeAnnotation": {
                 "type": "TSAnyKeyword",
                 "start": 1399,
                 "end": 1402
-              }
+              },
+              "start": 1396,
+              "end": 1402
             }
-          ]
+          ],
+          "start": 1352,
+          "end": 1404
         },
         "trueType": {
           "type": "TSTypeReference",
-          "start": 1409,
-          "end": 1410,
           "typeName": {
             "type": "Identifier",
-            "start": 1409,
-            "end": 1410,
             "decorators": [],
             "name": "B",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 1409,
+            "end": 1410
           },
-          "typeArguments": null
+          "typeArguments": null,
+          "start": 1409,
+          "end": 1410
         },
         "falseType": {
           "type": "TSNeverKeyword",
           "start": 1415,
           "end": 1420
-        }
+        },
+        "start": 1342,
+        "end": 1420
       },
-      "declare": false
+      "declare": false,
+      "start": 1274,
+      "end": 1421
     },
     {
       "type": "TSTypeAliasDeclaration",
-      "start": 1423,
-      "end": 1545,
       "id": {
         "type": "Identifier",
-        "start": 1428,
-        "end": 1471,
         "decorators": [],
         "name": "SubTup2VariadicWithLeadingFixedElementsTest",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 1428,
+        "end": 1471
       },
       "typeParameters": null,
       "typeAnnotation": {
         "type": "TSTypeReference",
-        "start": 1474,
-        "end": 1544,
         "typeName": {
           "type": "Identifier",
-          "start": 1474,
-          "end": 1513,
           "decorators": [],
           "name": "SubTup2VariadicWithLeadingFixedElements",
           "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "start": 1474,
+          "end": 1513
         },
         "typeArguments": {
           "type": "TSTypeParameterInstantiation",
-          "start": 1513,
-          "end": 1544,
           "params": [
             {
               "type": "TSTupleType",
-              "start": 1514,
-              "end": 1543,
               "elementTypes": [
                 {
                   "type": "TSNamedTupleMember",
-                  "start": 1515,
-                  "end": 1519,
                   "label": {
                     "type": "Identifier",
-                    "start": 1515,
-                    "end": 1516,
                     "decorators": [],
                     "name": "a",
                     "optional": false,
-                    "typeAnnotation": null
+                    "typeAnnotation": null,
+                    "start": 1515,
+                    "end": 1516
                   },
                   "elementType": {
                     "type": "TSLiteralType",
-                    "start": 1518,
-                    "end": 1519,
                     "literal": {
                       "type": "Literal",
-                      "start": 1518,
-                      "end": 1519,
                       "value": 0,
-                      "raw": "0"
-                    }
+                      "raw": "0",
+                      "start": 1518,
+                      "end": 1519
+                    },
+                    "start": 1518,
+                    "end": 1519
                   },
-                  "optional": false
+                  "optional": false,
+                  "start": 1515,
+                  "end": 1519
                 },
                 {
                   "type": "TSNamedTupleMember",
-                  "start": 1521,
-                  "end": 1525,
                   "label": {
                     "type": "Identifier",
-                    "start": 1521,
-                    "end": 1522,
                     "decorators": [],
                     "name": "b",
                     "optional": false,
-                    "typeAnnotation": null
+                    "typeAnnotation": null,
+                    "start": 1521,
+                    "end": 1522
                   },
                   "elementType": {
                     "type": "TSLiteralType",
-                    "start": 1524,
-                    "end": 1525,
                     "literal": {
                       "type": "Literal",
-                      "start": 1524,
-                      "end": 1525,
                       "value": 1,
-                      "raw": "1"
-                    }
+                      "raw": "1",
+                      "start": 1524,
+                      "end": 1525
+                    },
+                    "start": 1524,
+                    "end": 1525
                   },
-                  "optional": false
+                  "optional": false,
+                  "start": 1521,
+                  "end": 1525
                 },
                 {
                   "type": "TSNamedTupleMember",
-                  "start": 1527,
-                  "end": 1531,
                   "label": {
                     "type": "Identifier",
-                    "start": 1527,
-                    "end": 1528,
                     "decorators": [],
                     "name": "c",
                     "optional": false,
-                    "typeAnnotation": null
+                    "typeAnnotation": null,
+                    "start": 1527,
+                    "end": 1528
                   },
                   "elementType": {
                     "type": "TSLiteralType",
-                    "start": 1530,
-                    "end": 1531,
                     "literal": {
                       "type": "Literal",
-                      "start": 1530,
-                      "end": 1531,
                       "value": 2,
-                      "raw": "2"
-                    }
+                      "raw": "2",
+                      "start": 1530,
+                      "end": 1531
+                    },
+                    "start": 1530,
+                    "end": 1531
                   },
-                  "optional": false
+                  "optional": false,
+                  "start": 1527,
+                  "end": 1531
                 },
                 {
                   "type": "TSRestType",
-                  "start": 1533,
-                  "end": 1542,
                   "typeAnnotation": {
                     "type": "TSNamedTupleMember",
-                    "start": 1536,
-                    "end": 1542,
                     "label": {
                       "type": "Identifier",
-                      "start": 1536,
-                      "end": 1537,
                       "decorators": [],
                       "name": "d",
                       "optional": false,
-                      "typeAnnotation": null
+                      "typeAnnotation": null,
+                      "start": 1536,
+                      "end": 1537
                     },
                     "elementType": {
                       "type": "TSArrayType",
-                      "start": 1539,
-                      "end": 1542,
                       "elementType": {
                         "type": "TSLiteralType",
-                        "start": 1539,
-                        "end": 1540,
                         "literal": {
                           "type": "Literal",
-                          "start": 1539,
-                          "end": 1540,
                           "value": 3,
-                          "raw": "3"
-                        }
-                      }
+                          "raw": "3",
+                          "start": 1539,
+                          "end": 1540
+                        },
+                        "start": 1539,
+                        "end": 1540
+                      },
+                      "start": 1539,
+                      "end": 1542
                     },
-                    "optional": false
-                  }
+                    "optional": false,
+                    "start": 1536,
+                    "end": 1542
+                  },
+                  "start": 1533,
+                  "end": 1542
                 }
-              ]
+              ],
+              "start": 1514,
+              "end": 1543
             }
-          ]
-        }
+          ],
+          "start": 1513,
+          "end": 1544
+        },
+        "start": 1474,
+        "end": 1544
       },
-      "declare": false
+      "declare": false,
+      "start": 1423,
+      "end": 1545
     },
     {
       "type": "TSTypeAliasDeclaration",
-      "start": 1546,
-      "end": 1675,
       "id": {
         "type": "Identifier",
-        "start": 1551,
-        "end": 1595,
         "decorators": [],
         "name": "SubTup2VariadicWithLeadingFixedElementsTest2",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 1551,
+        "end": 1595
       },
       "typeParameters": null,
       "typeAnnotation": {
         "type": "TSTypeReference",
-        "start": 1598,
-        "end": 1674,
         "typeName": {
           "type": "Identifier",
-          "start": 1598,
-          "end": 1637,
           "decorators": [],
           "name": "SubTup2VariadicWithLeadingFixedElements",
           "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "start": 1598,
+          "end": 1637
         },
         "typeArguments": {
           "type": "TSTypeParameterInstantiation",
-          "start": 1637,
-          "end": 1674,
           "params": [
             {
               "type": "TSTupleType",
-              "start": 1638,
-              "end": 1673,
               "elementTypes": [
                 {
                   "type": "TSNamedTupleMember",
-                  "start": 1639,
-                  "end": 1643,
                   "label": {
                     "type": "Identifier",
-                    "start": 1639,
-                    "end": 1640,
                     "decorators": [],
                     "name": "a",
                     "optional": false,
-                    "typeAnnotation": null
+                    "typeAnnotation": null,
+                    "start": 1639,
+                    "end": 1640
                   },
                   "elementType": {
                     "type": "TSLiteralType",
-                    "start": 1642,
-                    "end": 1643,
                     "literal": {
                       "type": "Literal",
-                      "start": 1642,
-                      "end": 1643,
                       "value": 0,
-                      "raw": "0"
-                    }
+                      "raw": "0",
+                      "start": 1642,
+                      "end": 1643
+                    },
+                    "start": 1642,
+                    "end": 1643
                   },
-                  "optional": false
+                  "optional": false,
+                  "start": 1639,
+                  "end": 1643
                 },
                 {
                   "type": "TSNamedTupleMember",
-                  "start": 1645,
-                  "end": 1649,
                   "label": {
                     "type": "Identifier",
-                    "start": 1645,
-                    "end": 1646,
                     "decorators": [],
                     "name": "b",
                     "optional": false,
-                    "typeAnnotation": null
+                    "typeAnnotation": null,
+                    "start": 1645,
+                    "end": 1646
                   },
                   "elementType": {
                     "type": "TSLiteralType",
-                    "start": 1648,
-                    "end": 1649,
                     "literal": {
                       "type": "Literal",
-                      "start": 1648,
-                      "end": 1649,
                       "value": 1,
-                      "raw": "1"
-                    }
+                      "raw": "1",
+                      "start": 1648,
+                      "end": 1649
+                    },
+                    "start": 1648,
+                    "end": 1649
                   },
-                  "optional": false
+                  "optional": false,
+                  "start": 1645,
+                  "end": 1649
                 },
                 {
                   "type": "TSNamedTupleMember",
-                  "start": 1651,
-                  "end": 1655,
                   "label": {
                     "type": "Identifier",
-                    "start": 1651,
-                    "end": 1652,
                     "decorators": [],
                     "name": "c",
                     "optional": false,
-                    "typeAnnotation": null
+                    "typeAnnotation": null,
+                    "start": 1651,
+                    "end": 1652
                   },
                   "elementType": {
                     "type": "TSLiteralType",
-                    "start": 1654,
-                    "end": 1655,
                     "literal": {
                       "type": "Literal",
-                      "start": 1654,
-                      "end": 1655,
                       "value": 2,
-                      "raw": "2"
-                    }
+                      "raw": "2",
+                      "start": 1654,
+                      "end": 1655
+                    },
+                    "start": 1654,
+                    "end": 1655
                   },
-                  "optional": false
+                  "optional": false,
+                  "start": 1651,
+                  "end": 1655
                 },
                 {
                   "type": "TSNamedTupleMember",
-                  "start": 1657,
-                  "end": 1661,
                   "label": {
                     "type": "Identifier",
-                    "start": 1657,
-                    "end": 1658,
                     "decorators": [],
                     "name": "d",
                     "optional": false,
-                    "typeAnnotation": null
+                    "typeAnnotation": null,
+                    "start": 1657,
+                    "end": 1658
                   },
                   "elementType": {
                     "type": "TSLiteralType",
-                    "start": 1660,
-                    "end": 1661,
                     "literal": {
                       "type": "Literal",
-                      "start": 1660,
-                      "end": 1661,
                       "value": 3,
-                      "raw": "3"
-                    }
+                      "raw": "3",
+                      "start": 1660,
+                      "end": 1661
+                    },
+                    "start": 1660,
+                    "end": 1661
                   },
-                  "optional": false
+                  "optional": false,
+                  "start": 1657,
+                  "end": 1661
                 },
                 {
                   "type": "TSRestType",
-                  "start": 1663,
-                  "end": 1672,
                   "typeAnnotation": {
                     "type": "TSNamedTupleMember",
-                    "start": 1666,
-                    "end": 1672,
                     "label": {
                       "type": "Identifier",
-                      "start": 1666,
-                      "end": 1667,
                       "decorators": [],
                       "name": "e",
                       "optional": false,
-                      "typeAnnotation": null
+                      "typeAnnotation": null,
+                      "start": 1666,
+                      "end": 1667
                     },
                     "elementType": {
                       "type": "TSArrayType",
-                      "start": 1669,
-                      "end": 1672,
                       "elementType": {
                         "type": "TSLiteralType",
-                        "start": 1669,
-                        "end": 1670,
                         "literal": {
                           "type": "Literal",
-                          "start": 1669,
-                          "end": 1670,
                           "value": 4,
-                          "raw": "4"
-                        }
-                      }
+                          "raw": "4",
+                          "start": 1669,
+                          "end": 1670
+                        },
+                        "start": 1669,
+                        "end": 1670
+                      },
+                      "start": 1669,
+                      "end": 1672
                     },
-                    "optional": false
-                  }
+                    "optional": false,
+                    "start": 1666,
+                    "end": 1672
+                  },
+                  "start": 1663,
+                  "end": 1672
                 }
-              ]
+              ],
+              "start": 1638,
+              "end": 1673
             }
-          ]
-        }
+          ],
+          "start": 1637,
+          "end": 1674
+        },
+        "start": 1598,
+        "end": 1674
       },
-      "declare": false
+      "declare": false,
+      "start": 1546,
+      "end": 1675
     },
     {
       "type": "TSTypeAliasDeclaration",
-      "start": 1677,
-      "end": 1834,
       "id": {
         "type": "Identifier",
-        "start": 1682,
-        "end": 1730,
         "decorators": [],
         "name": "SubTup2TrailingVariadicWithTrailingFixedElements",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 1682,
+        "end": 1730
       },
       "typeParameters": {
         "type": "TSTypeParameterDeclaration",
-        "start": 1730,
-        "end": 1751,
         "params": [
           {
             "type": "TSTypeParameter",
-            "start": 1731,
-            "end": 1750,
             "name": {
               "type": "Identifier",
-              "start": 1731,
-              "end": 1732,
               "decorators": [],
               "name": "T",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 1731,
+              "end": 1732
             },
             "constraint": {
               "type": "TSArrayType",
-              "start": 1741,
-              "end": 1750,
               "elementType": {
                 "type": "TSUnknownKeyword",
                 "start": 1741,
                 "end": 1748
-              }
+              },
+              "start": 1741,
+              "end": 1750
             },
             "default": null,
             "in": false,
             "out": false,
-            "const": false
+            "const": false,
+            "start": 1731,
+            "end": 1750
           }
-        ]
+        ],
+        "start": 1730,
+        "end": 1751
       },
       "typeAnnotation": {
         "type": "TSConditionalType",
-        "start": 1754,
-        "end": 1833,
         "checkType": {
           "type": "TSTypeReference",
-          "start": 1754,
-          "end": 1755,
           "typeName": {
             "type": "Identifier",
-            "start": 1754,
-            "end": 1755,
             "decorators": [],
             "name": "T",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 1754,
+            "end": 1755
           },
-          "typeArguments": null
+          "typeArguments": null,
+          "start": 1754,
+          "end": 1755
         },
         "extendsType": {
           "type": "TSTupleType",
-          "start": 1764,
-          "end": 1817,
           "elementTypes": [
             {
               "type": "TSRestType",
-              "start": 1768,
-              "end": 1774,
               "typeAnnotation": {
                 "type": "TSAnyKeyword",
                 "start": 1771,
                 "end": 1774
-              }
+              },
+              "start": 1768,
+              "end": 1774
             },
             {
               "type": "TSRestType",
-              "start": 1778,
-              "end": 1807,
               "typeAnnotation": {
                 "type": "TSInferType",
-                "start": 1781,
-                "end": 1807,
                 "typeParameter": {
                   "type": "TSTypeParameter",
-                  "start": 1787,
-                  "end": 1807,
                   "name": {
                     "type": "Identifier",
-                    "start": 1787,
-                    "end": 1788,
                     "decorators": [],
                     "name": "B",
                     "optional": false,
-                    "typeAnnotation": null
+                    "typeAnnotation": null,
+                    "start": 1787,
+                    "end": 1788
                   },
                   "constraint": {
                     "type": "TSTupleType",
-                    "start": 1797,
-                    "end": 1807,
                     "elementTypes": [
                       {
                         "type": "TSAnyKeyword",
@@ -2489,398 +2473,414 @@ __ESTREE_TEST__:PASS:
                         "start": 1803,
                         "end": 1806
                       }
-                    ]
+                    ],
+                    "start": 1797,
+                    "end": 1807
                   },
                   "default": null,
                   "in": false,
                   "out": false,
-                  "const": false
-                }
-              }
+                  "const": false,
+                  "start": 1787,
+                  "end": 1807
+                },
+                "start": 1781,
+                "end": 1807
+              },
+              "start": 1778,
+              "end": 1807
             },
             {
               "type": "TSAnyKeyword",
               "start": 1811,
               "end": 1814
             }
-          ]
+          ],
+          "start": 1764,
+          "end": 1817
         },
         "trueType": {
           "type": "TSTypeReference",
-          "start": 1822,
-          "end": 1823,
           "typeName": {
             "type": "Identifier",
-            "start": 1822,
-            "end": 1823,
             "decorators": [],
             "name": "B",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 1822,
+            "end": 1823
           },
-          "typeArguments": null
+          "typeArguments": null,
+          "start": 1822,
+          "end": 1823
         },
         "falseType": {
           "type": "TSNeverKeyword",
           "start": 1828,
           "end": 1833
-        }
+        },
+        "start": 1754,
+        "end": 1833
       },
-      "declare": false
+      "declare": false,
+      "start": 1677,
+      "end": 1834
     },
     {
       "type": "TSTypeAliasDeclaration",
-      "start": 1836,
-      "end": 1976,
       "id": {
         "type": "Identifier",
-        "start": 1841,
-        "end": 1893,
         "decorators": [],
         "name": "SubTup2TrailingVariadicWithTrailingFixedElementsTest",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 1841,
+        "end": 1893
       },
       "typeParameters": null,
       "typeAnnotation": {
         "type": "TSTypeReference",
-        "start": 1896,
-        "end": 1975,
         "typeName": {
           "type": "Identifier",
-          "start": 1896,
-          "end": 1944,
           "decorators": [],
           "name": "SubTup2TrailingVariadicWithTrailingFixedElements",
           "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "start": 1896,
+          "end": 1944
         },
         "typeArguments": {
           "type": "TSTypeParameterInstantiation",
-          "start": 1944,
-          "end": 1975,
           "params": [
             {
               "type": "TSTupleType",
-              "start": 1945,
-              "end": 1974,
               "elementTypes": [
                 {
                   "type": "TSRestType",
-                  "start": 1946,
-                  "end": 1955,
                   "typeAnnotation": {
                     "type": "TSNamedTupleMember",
-                    "start": 1949,
-                    "end": 1955,
                     "label": {
                       "type": "Identifier",
-                      "start": 1949,
-                      "end": 1950,
                       "decorators": [],
                       "name": "a",
                       "optional": false,
-                      "typeAnnotation": null
+                      "typeAnnotation": null,
+                      "start": 1949,
+                      "end": 1950
                     },
                     "elementType": {
                       "type": "TSArrayType",
-                      "start": 1952,
-                      "end": 1955,
                       "elementType": {
                         "type": "TSLiteralType",
-                        "start": 1952,
-                        "end": 1953,
                         "literal": {
                           "type": "Literal",
-                          "start": 1952,
-                          "end": 1953,
                           "value": 0,
-                          "raw": "0"
-                        }
-                      }
+                          "raw": "0",
+                          "start": 1952,
+                          "end": 1953
+                        },
+                        "start": 1952,
+                        "end": 1953
+                      },
+                      "start": 1952,
+                      "end": 1955
                     },
-                    "optional": false
-                  }
+                    "optional": false,
+                    "start": 1949,
+                    "end": 1955
+                  },
+                  "start": 1946,
+                  "end": 1955
                 },
                 {
                   "type": "TSNamedTupleMember",
-                  "start": 1957,
-                  "end": 1961,
                   "label": {
                     "type": "Identifier",
-                    "start": 1957,
-                    "end": 1958,
                     "decorators": [],
                     "name": "b",
                     "optional": false,
-                    "typeAnnotation": null
+                    "typeAnnotation": null,
+                    "start": 1957,
+                    "end": 1958
                   },
                   "elementType": {
                     "type": "TSLiteralType",
-                    "start": 1960,
-                    "end": 1961,
                     "literal": {
                       "type": "Literal",
-                      "start": 1960,
-                      "end": 1961,
                       "value": 1,
-                      "raw": "1"
-                    }
+                      "raw": "1",
+                      "start": 1960,
+                      "end": 1961
+                    },
+                    "start": 1960,
+                    "end": 1961
                   },
-                  "optional": false
+                  "optional": false,
+                  "start": 1957,
+                  "end": 1961
                 },
                 {
                   "type": "TSNamedTupleMember",
-                  "start": 1963,
-                  "end": 1967,
                   "label": {
                     "type": "Identifier",
-                    "start": 1963,
-                    "end": 1964,
                     "decorators": [],
                     "name": "c",
                     "optional": false,
-                    "typeAnnotation": null
+                    "typeAnnotation": null,
+                    "start": 1963,
+                    "end": 1964
                   },
                   "elementType": {
                     "type": "TSLiteralType",
-                    "start": 1966,
-                    "end": 1967,
                     "literal": {
                       "type": "Literal",
-                      "start": 1966,
-                      "end": 1967,
                       "value": 2,
-                      "raw": "2"
-                    }
+                      "raw": "2",
+                      "start": 1966,
+                      "end": 1967
+                    },
+                    "start": 1966,
+                    "end": 1967
                   },
-                  "optional": false
+                  "optional": false,
+                  "start": 1963,
+                  "end": 1967
                 },
                 {
                   "type": "TSNamedTupleMember",
-                  "start": 1969,
-                  "end": 1973,
                   "label": {
                     "type": "Identifier",
-                    "start": 1969,
-                    "end": 1970,
                     "decorators": [],
                     "name": "d",
                     "optional": false,
-                    "typeAnnotation": null
+                    "typeAnnotation": null,
+                    "start": 1969,
+                    "end": 1970
                   },
                   "elementType": {
                     "type": "TSLiteralType",
-                    "start": 1972,
-                    "end": 1973,
                     "literal": {
                       "type": "Literal",
-                      "start": 1972,
-                      "end": 1973,
                       "value": 3,
-                      "raw": "3"
-                    }
+                      "raw": "3",
+                      "start": 1972,
+                      "end": 1973
+                    },
+                    "start": 1972,
+                    "end": 1973
                   },
-                  "optional": false
+                  "optional": false,
+                  "start": 1969,
+                  "end": 1973
                 }
-              ]
+              ],
+              "start": 1945,
+              "end": 1974
             }
-          ]
-        }
+          ],
+          "start": 1944,
+          "end": 1975
+        },
+        "start": 1896,
+        "end": 1975
       },
-      "declare": false
+      "declare": false,
+      "start": 1836,
+      "end": 1976
     },
     {
       "type": "TSTypeAliasDeclaration",
-      "start": 1977,
-      "end": 2124,
       "id": {
         "type": "Identifier",
-        "start": 1982,
-        "end": 2035,
         "decorators": [],
         "name": "SubTup2TrailingVariadicWithTrailingFixedElementsTest2",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 1982,
+        "end": 2035
       },
       "typeParameters": null,
       "typeAnnotation": {
         "type": "TSTypeReference",
-        "start": 2038,
-        "end": 2123,
         "typeName": {
           "type": "Identifier",
-          "start": 2038,
-          "end": 2086,
           "decorators": [],
           "name": "SubTup2TrailingVariadicWithTrailingFixedElements",
           "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "start": 2038,
+          "end": 2086
         },
         "typeArguments": {
           "type": "TSTypeParameterInstantiation",
-          "start": 2086,
-          "end": 2123,
           "params": [
             {
               "type": "TSTupleType",
-              "start": 2087,
-              "end": 2122,
               "elementTypes": [
                 {
                   "type": "TSRestType",
-                  "start": 2088,
-                  "end": 2097,
                   "typeAnnotation": {
                     "type": "TSNamedTupleMember",
-                    "start": 2091,
-                    "end": 2097,
                     "label": {
                       "type": "Identifier",
-                      "start": 2091,
-                      "end": 2092,
                       "decorators": [],
                       "name": "a",
                       "optional": false,
-                      "typeAnnotation": null
+                      "typeAnnotation": null,
+                      "start": 2091,
+                      "end": 2092
                     },
                     "elementType": {
                       "type": "TSArrayType",
-                      "start": 2094,
-                      "end": 2097,
                       "elementType": {
                         "type": "TSLiteralType",
-                        "start": 2094,
-                        "end": 2095,
                         "literal": {
                           "type": "Literal",
-                          "start": 2094,
-                          "end": 2095,
                           "value": 0,
-                          "raw": "0"
-                        }
-                      }
+                          "raw": "0",
+                          "start": 2094,
+                          "end": 2095
+                        },
+                        "start": 2094,
+                        "end": 2095
+                      },
+                      "start": 2094,
+                      "end": 2097
                     },
-                    "optional": false
-                  }
+                    "optional": false,
+                    "start": 2091,
+                    "end": 2097
+                  },
+                  "start": 2088,
+                  "end": 2097
                 },
                 {
                   "type": "TSNamedTupleMember",
-                  "start": 2099,
-                  "end": 2103,
                   "label": {
                     "type": "Identifier",
-                    "start": 2099,
-                    "end": 2100,
                     "decorators": [],
                     "name": "b",
                     "optional": false,
-                    "typeAnnotation": null
+                    "typeAnnotation": null,
+                    "start": 2099,
+                    "end": 2100
                   },
                   "elementType": {
                     "type": "TSLiteralType",
-                    "start": 2102,
-                    "end": 2103,
                     "literal": {
                       "type": "Literal",
-                      "start": 2102,
-                      "end": 2103,
                       "value": 1,
-                      "raw": "1"
-                    }
+                      "raw": "1",
+                      "start": 2102,
+                      "end": 2103
+                    },
+                    "start": 2102,
+                    "end": 2103
                   },
-                  "optional": false
+                  "optional": false,
+                  "start": 2099,
+                  "end": 2103
                 },
                 {
                   "type": "TSNamedTupleMember",
-                  "start": 2105,
-                  "end": 2109,
                   "label": {
                     "type": "Identifier",
-                    "start": 2105,
-                    "end": 2106,
                     "decorators": [],
                     "name": "c",
                     "optional": false,
-                    "typeAnnotation": null
+                    "typeAnnotation": null,
+                    "start": 2105,
+                    "end": 2106
                   },
                   "elementType": {
                     "type": "TSLiteralType",
-                    "start": 2108,
-                    "end": 2109,
                     "literal": {
                       "type": "Literal",
-                      "start": 2108,
-                      "end": 2109,
                       "value": 2,
-                      "raw": "2"
-                    }
+                      "raw": "2",
+                      "start": 2108,
+                      "end": 2109
+                    },
+                    "start": 2108,
+                    "end": 2109
                   },
-                  "optional": false
+                  "optional": false,
+                  "start": 2105,
+                  "end": 2109
                 },
                 {
                   "type": "TSNamedTupleMember",
-                  "start": 2111,
-                  "end": 2115,
                   "label": {
                     "type": "Identifier",
-                    "start": 2111,
-                    "end": 2112,
                     "decorators": [],
                     "name": "d",
                     "optional": false,
-                    "typeAnnotation": null
+                    "typeAnnotation": null,
+                    "start": 2111,
+                    "end": 2112
                   },
                   "elementType": {
                     "type": "TSLiteralType",
-                    "start": 2114,
-                    "end": 2115,
                     "literal": {
                       "type": "Literal",
-                      "start": 2114,
-                      "end": 2115,
                       "value": 3,
-                      "raw": "3"
-                    }
+                      "raw": "3",
+                      "start": 2114,
+                      "end": 2115
+                    },
+                    "start": 2114,
+                    "end": 2115
                   },
-                  "optional": false
+                  "optional": false,
+                  "start": 2111,
+                  "end": 2115
                 },
                 {
                   "type": "TSNamedTupleMember",
-                  "start": 2117,
-                  "end": 2121,
                   "label": {
                     "type": "Identifier",
-                    "start": 2117,
-                    "end": 2118,
                     "decorators": [],
                     "name": "e",
                     "optional": false,
-                    "typeAnnotation": null
+                    "typeAnnotation": null,
+                    "start": 2117,
+                    "end": 2118
                   },
                   "elementType": {
                     "type": "TSLiteralType",
-                    "start": 2120,
-                    "end": 2121,
                     "literal": {
                       "type": "Literal",
-                      "start": 2120,
-                      "end": 2121,
                       "value": 4,
-                      "raw": "4"
-                    }
+                      "raw": "4",
+                      "start": 2120,
+                      "end": 2121
+                    },
+                    "start": 2120,
+                    "end": 2121
                   },
-                  "optional": false
+                  "optional": false,
+                  "start": 2117,
+                  "end": 2121
                 }
-              ]
+              ],
+              "start": 2087,
+              "end": 2122
             }
-          ]
-        }
+          ],
+          "start": 2086,
+          "end": 2123
+        },
+        "start": 2038,
+        "end": 2123
       },
-      "declare": false
+      "declare": false,
+      "start": 1977,
+      "end": 2124
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 17,
+  "end": 2124
 }
 ```

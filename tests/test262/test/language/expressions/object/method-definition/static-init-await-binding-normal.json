@@ -1,91 +1,91 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 551,
   "body": [
     {
       "type": "ClassDeclaration",
-      "start": 498,
-      "end": 550,
       "decorators": [],
       "id": {
         "type": "Identifier",
+        "name": "C",
         "start": 504,
-        "end": 505,
-        "name": "C"
+        "end": 505
       },
       "superClass": null,
       "body": {
         "type": "ClassBody",
-        "start": 506,
-        "end": 550,
         "body": [
           {
             "type": "StaticBlock",
-            "start": 510,
-            "end": 548,
             "body": [
               {
                 "type": "ExpressionStatement",
-                "start": 523,
-                "end": 544,
                 "expression": {
                   "type": "ParenthesizedExpression",
-                  "start": 523,
-                  "end": 543,
                   "expression": {
                     "type": "ObjectExpression",
-                    "start": 524,
-                    "end": 542,
                     "properties": [
                       {
                         "type": "Property",
-                        "start": 525,
-                        "end": 541,
                         "kind": "init",
                         "key": {
                           "type": "Identifier",
+                          "name": "method",
                           "start": 525,
-                          "end": 531,
-                          "name": "method"
+                          "end": 531
                         },
                         "value": {
                           "type": "FunctionExpression",
-                          "start": 531,
-                          "end": 541,
                           "id": null,
                           "generator": false,
                           "async": false,
                           "params": [
                             {
                               "type": "Identifier",
+                              "name": "await",
                               "start": 532,
-                              "end": 537,
-                              "name": "await"
+                              "end": 537
                             }
                           ],
                           "body": {
                             "type": "BlockStatement",
+                            "body": [],
                             "start": 539,
-                            "end": 541,
-                            "body": []
+                            "end": 541
                           },
-                          "expression": false
+                          "expression": false,
+                          "start": 531,
+                          "end": 541
                         },
                         "method": true,
                         "shorthand": false,
-                        "computed": false
+                        "computed": false,
+                        "start": 525,
+                        "end": 541
                       }
-                    ]
-                  }
-                }
+                    ],
+                    "start": 524,
+                    "end": 542
+                  },
+                  "start": 523,
+                  "end": 543
+                },
+                "start": 523,
+                "end": 544
               }
-            ]
+            ],
+            "start": 510,
+            "end": 548
           }
-        ]
-      }
+        ],
+        "start": 506,
+        "end": 550
+      },
+      "start": 498,
+      "end": 550
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 551
 }

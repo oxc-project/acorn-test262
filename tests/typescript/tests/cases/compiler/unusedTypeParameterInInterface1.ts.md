@@ -2,59 +2,59 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 21,
   "body": [
     {
       "type": "TSInterfaceDeclaration",
-      "start": 0,
-      "end": 21,
       "id": {
         "type": "Identifier",
-        "start": 10,
-        "end": 13,
         "decorators": [],
         "name": "int",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 10,
+        "end": 13
       },
       "typeParameters": {
         "type": "TSTypeParameterDeclaration",
-        "start": 13,
-        "end": 16,
         "params": [
           {
             "type": "TSTypeParameter",
-            "start": 14,
-            "end": 15,
             "name": {
               "type": "Identifier",
-              "start": 14,
-              "end": 15,
               "decorators": [],
               "name": "T",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 14,
+              "end": 15
             },
             "constraint": null,
             "default": null,
             "in": false,
             "out": false,
-            "const": false
+            "const": false,
+            "start": 14,
+            "end": 15
           }
-        ]
+        ],
+        "start": 13,
+        "end": 16
       },
       "extends": [],
       "body": {
         "type": "TSInterfaceBody",
+        "body": [],
         "start": 17,
-        "end": 21,
-        "body": []
+        "end": 21
       },
-      "declare": false
+      "declare": false,
+      "start": 0,
+      "end": 21
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 21
 }
 ```

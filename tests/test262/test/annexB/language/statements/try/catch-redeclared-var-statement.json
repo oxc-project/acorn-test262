@@ -1,152 +1,152 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 479,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 320,
-      "end": 343,
       "expression": {
         "type": "AssignmentExpression",
-        "start": 320,
-        "end": 342,
         "operator": "=",
         "left": {
           "type": "Identifier",
+          "name": "foo",
           "start": 320,
-          "end": 323,
-          "name": "foo"
+          "end": 323
         },
         "right": {
           "type": "Literal",
-          "start": 326,
-          "end": 342,
           "value": "prior to throw",
-          "raw": "\"prior to throw\""
-        }
-      }
+          "raw": "\"prior to throw\"",
+          "start": 326,
+          "end": 342
+        },
+        "start": 320,
+        "end": 342
+      },
+      "start": 320,
+      "end": 343
     },
     {
       "type": "TryStatement",
-      "start": 346,
-      "end": 436,
       "block": {
         "type": "BlockStatement",
-        "start": 350,
-        "end": 378,
         "body": [
           {
             "type": "ThrowStatement",
-            "start": 356,
-            "end": 374,
             "argument": {
               "type": "NewExpression",
-              "start": 362,
-              "end": 373,
               "callee": {
                 "type": "Identifier",
+                "name": "Error",
                 "start": 366,
-                "end": 371,
-                "name": "Error"
+                "end": 371
               },
-              "arguments": []
-            }
+              "arguments": [],
+              "start": 362,
+              "end": 373
+            },
+            "start": 356,
+            "end": 374
           }
-        ]
+        ],
+        "start": 350,
+        "end": 378
       },
       "handler": {
         "type": "CatchClause",
-        "start": 381,
-        "end": 436,
         "param": {
           "type": "Identifier",
+          "name": "foo",
           "start": 388,
-          "end": 391,
-          "name": "foo"
+          "end": 391
         },
         "body": {
           "type": "BlockStatement",
-          "start": 393,
-          "end": 436,
           "body": [
             {
               "type": "VariableDeclaration",
-              "start": 399,
-              "end": 432,
               "kind": "var",
               "declarations": [
                 {
                   "type": "VariableDeclarator",
-                  "start": 403,
-                  "end": 431,
                   "id": {
                     "type": "Identifier",
+                    "name": "foo",
                     "start": 403,
-                    "end": 406,
-                    "name": "foo"
+                    "end": 406
                   },
                   "init": {
                     "type": "Literal",
-                    "start": 409,
-                    "end": 431,
                     "value": "initializer in catch",
-                    "raw": "\"initializer in catch\""
-                  }
+                    "raw": "\"initializer in catch\"",
+                    "start": 409,
+                    "end": 431
+                  },
+                  "start": 403,
+                  "end": 431
                 }
-              ]
+              ],
+              "start": 399,
+              "end": 432
             }
-          ]
-        }
+          ],
+          "start": 393,
+          "end": 436
+        },
+        "start": 381,
+        "end": 436
       },
-      "finalizer": null
+      "finalizer": null,
+      "start": 346,
+      "end": 436
     },
     {
       "type": "ExpressionStatement",
-      "start": 438,
-      "end": 478,
       "expression": {
         "type": "CallExpression",
-        "start": 438,
-        "end": 477,
         "callee": {
           "type": "MemberExpression",
-          "start": 438,
-          "end": 454,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 438,
-            "end": 444,
-            "name": "assert"
+            "end": 444
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 445,
-            "end": 454,
-            "name": "sameValue"
+            "end": 454
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 438,
+          "end": 454
         },
         "arguments": [
           {
             "type": "Identifier",
+            "name": "foo",
             "start": 455,
-            "end": 458,
-            "name": "foo"
+            "end": 458
           },
           {
             "type": "Literal",
-            "start": 460,
-            "end": 476,
             "value": "prior to throw",
-            "raw": "\"prior to throw\""
+            "raw": "\"prior to throw\"",
+            "start": 460,
+            "end": 476
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 438,
+        "end": 477
+      },
+      "start": 438,
+      "end": 478
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 479
 }

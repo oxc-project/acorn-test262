@@ -1,41 +1,41 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 302,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 292,
-      "end": 301,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 296,
-          "end": 297,
           "id": {
             "type": "Identifier",
+            "name": "x",
             "start": 296,
-            "end": 297,
-            "name": "x"
+            "end": 297
           },
-          "init": null
+          "init": null,
+          "start": 296,
+          "end": 297
         },
         {
           "type": "VariableDeclarator",
-          "start": 300,
-          "end": 301,
           "id": {
             "type": "Identifier",
+            "name": "y",
             "start": 300,
-            "end": 301,
-            "name": "y"
+            "end": 301
           },
-          "init": null
+          "init": null,
+          "start": 300,
+          "end": 301
         }
-      ]
+      ],
+      "start": 292,
+      "end": 301
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 302
 }

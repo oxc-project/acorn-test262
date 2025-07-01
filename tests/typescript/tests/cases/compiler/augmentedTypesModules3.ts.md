@@ -2,45 +2,41 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 23,
-  "end": 203,
   "body": [
     {
       "type": "TSModuleDeclaration",
-      "start": 23,
-      "end": 36,
       "id": {
         "type": "Identifier",
-        "start": 30,
-        "end": 32,
         "decorators": [],
         "name": "m3",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 30,
+        "end": 32
       },
       "body": {
         "type": "TSModuleBlock",
+        "body": [],
         "start": 33,
-        "end": 36,
-        "body": []
+        "end": 36
       },
       "kind": "module",
       "declare": false,
-      "global": false
+      "global": false,
+      "start": 23,
+      "end": 36
     },
     {
       "type": "ClassDeclaration",
-      "start": 37,
-      "end": 49,
       "decorators": [],
       "id": {
         "type": "Identifier",
-        "start": 43,
-        "end": 45,
         "decorators": [],
         "name": "m3",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 43,
+        "end": 45
       },
       "typeParameters": null,
       "superClass": null,
@@ -48,81 +44,81 @@ __ESTREE_TEST__:PASS:
       "implements": [],
       "body": {
         "type": "ClassBody",
+        "body": [],
         "start": 46,
-        "end": 49,
-        "body": []
+        "end": 49
       },
       "abstract": false,
-      "declare": false
+      "declare": false,
+      "start": 37,
+      "end": 49
     },
     {
       "type": "TSModuleDeclaration",
-      "start": 94,
-      "end": 119,
       "id": {
         "type": "Identifier",
-        "start": 101,
-        "end": 104,
         "decorators": [],
         "name": "m3a",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 101,
+        "end": 104
       },
       "body": {
         "type": "TSModuleBlock",
-        "start": 105,
-        "end": 119,
         "body": [
           {
             "type": "VariableDeclaration",
-            "start": 107,
-            "end": 117,
             "kind": "var",
             "declarations": [
               {
                 "type": "VariableDeclarator",
-                "start": 111,
-                "end": 116,
                 "id": {
                   "type": "Identifier",
-                  "start": 111,
-                  "end": 112,
                   "decorators": [],
                   "name": "y",
                   "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "start": 111,
+                  "end": 112
                 },
                 "init": {
                   "type": "Literal",
-                  "start": 115,
-                  "end": 116,
                   "value": 2,
-                  "raw": "2"
+                  "raw": "2",
+                  "start": 115,
+                  "end": 116
                 },
-                "definite": false
+                "definite": false,
+                "start": 111,
+                "end": 116
               }
             ],
-            "declare": false
+            "declare": false,
+            "start": 107,
+            "end": 117
           }
-        ]
+        ],
+        "start": 105,
+        "end": 119
       },
       "kind": "module",
       "declare": false,
-      "global": false
+      "global": false,
+      "start": 94,
+      "end": 119
     },
     {
       "type": "ClassDeclaration",
-      "start": 120,
-      "end": 143,
       "decorators": [],
       "id": {
         "type": "Identifier",
-        "start": 126,
-        "end": 129,
         "decorators": [],
         "name": "m3a",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 126,
+        "end": 129
       },
       "typeParameters": null,
       "superClass": null,
@@ -130,27 +126,21 @@ __ESTREE_TEST__:PASS:
       "implements": [],
       "body": {
         "type": "ClassBody",
-        "start": 130,
-        "end": 143,
         "body": [
           {
             "type": "MethodDefinition",
-            "start": 132,
-            "end": 141,
             "decorators": [],
             "key": {
               "type": "Identifier",
-              "start": 132,
-              "end": 135,
               "decorators": [],
               "name": "foo",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 132,
+              "end": 135
             },
             "value": {
               "type": "FunctionExpression",
-              "start": 135,
-              "end": 141,
               "id": null,
               "generator": false,
               "async": false,
@@ -160,26 +150,36 @@ __ESTREE_TEST__:PASS:
               "returnType": null,
               "body": {
                 "type": "BlockStatement",
+                "body": [],
                 "start": 138,
-                "end": 141,
-                "body": []
+                "end": 141
               },
-              "expression": false
+              "expression": false,
+              "start": 135,
+              "end": 141
             },
             "kind": "method",
             "computed": false,
             "static": false,
             "override": false,
             "optional": false,
-            "accessibility": null
+            "accessibility": null,
+            "start": 132,
+            "end": 141
           }
-        ]
+        ],
+        "start": 130,
+        "end": 143
       },
       "abstract": false,
-      "declare": false
+      "declare": false,
+      "start": 120,
+      "end": 143
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 23,
+  "end": 203
 }
 ```

@@ -1,93 +1,93 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 782,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 638,
-      "end": 728,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 642,
-          "end": 727,
           "id": {
             "type": "Identifier",
+            "name": "passthrough",
             "start": 642,
-            "end": 653,
-            "name": "passthrough"
+            "end": 653
           },
           "init": {
             "type": "Literal",
-            "start": 656,
-            "end": 727,
             "value": "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789@*_+-./",
-            "raw": "'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789@*_+-./'"
-          }
+            "raw": "'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789@*_+-./'",
+            "start": 656,
+            "end": 727
+          },
+          "start": 642,
+          "end": 727
         }
-      ]
+      ],
+      "start": 638,
+      "end": 728
     },
     {
       "type": "ExpressionStatement",
-      "start": 730,
-      "end": 781,
       "expression": {
         "type": "CallExpression",
-        "start": 730,
-        "end": 780,
         "callee": {
           "type": "MemberExpression",
-          "start": 730,
-          "end": 746,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 730,
-            "end": 736,
-            "name": "assert"
+            "end": 736
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 737,
-            "end": 746,
-            "name": "sameValue"
+            "end": 746
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 730,
+          "end": 746
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 747,
-            "end": 766,
             "callee": {
               "type": "Identifier",
+              "name": "escape",
               "start": 747,
-              "end": 753,
-              "name": "escape"
+              "end": 753
             },
             "arguments": [
               {
                 "type": "Identifier",
+                "name": "passthrough",
                 "start": 754,
-                "end": 765,
-                "name": "passthrough"
+                "end": 765
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 747,
+            "end": 766
           },
           {
             "type": "Identifier",
+            "name": "passthrough",
             "start": 768,
-            "end": 779,
-            "name": "passthrough"
+            "end": 779
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 730,
+        "end": 780
+      },
+      "start": 730,
+      "end": 781
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 782
 }

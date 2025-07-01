@@ -2,70 +2,70 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 36,
   "body": [
     {
       "type": "TSModuleDeclaration",
-      "start": 0,
-      "end": 24,
       "id": {
         "type": "Literal",
-        "start": 15,
-        "end": 20,
         "value": "ext",
-        "raw": "\"ext\""
+        "raw": "\"ext\"",
+        "start": 15,
+        "end": 20
       },
       "body": {
         "type": "TSModuleBlock",
+        "body": [],
         "start": 21,
-        "end": 24,
-        "body": []
+        "end": 24
       },
       "kind": "module",
       "declare": true,
-      "global": false
+      "global": false,
+      "start": 0,
+      "end": 24
     },
     {
       "type": "ExportNamedDeclaration",
-      "start": 25,
-      "end": 35,
       "declaration": null,
       "specifiers": [],
       "source": null,
       "exportKind": "value",
-      "attributes": []
+      "attributes": [],
+      "start": 25,
+      "end": 35
     }
   ],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 36
 }
 ```
 __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 10,
   "body": [
     {
       "type": "ImportDeclaration",
-      "start": 0,
-      "end": 10,
       "specifiers": [],
       "source": {
         "type": "Literal",
-        "start": 7,
-        "end": 10,
         "value": "A",
-        "raw": "\"A\""
+        "raw": "\"A\"",
+        "start": 7,
+        "end": 10
       },
       "phase": null,
       "attributes": [],
-      "importKind": "value"
+      "importKind": "value",
+      "start": 0,
+      "end": 10
     }
   ],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 10
 }
 ```

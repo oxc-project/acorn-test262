@@ -2,40 +2,32 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 76,
   "body": [
     {
       "type": "TSModuleDeclaration",
-      "start": 0,
-      "end": 76,
       "id": {
         "type": "Identifier",
-        "start": 10,
-        "end": 20,
         "decorators": [],
         "name": "Validation",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 10,
+        "end": 20
       },
       "body": {
         "type": "TSModuleBlock",
-        "start": 21,
-        "end": 76,
         "body": [
           {
             "type": "ClassDeclaration",
-            "start": 27,
-            "end": 44,
             "decorators": [],
             "id": {
               "type": "Identifier",
-              "start": 33,
-              "end": 35,
               "decorators": [],
               "name": "c1",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 33,
+              "end": 35
             },
             "typeParameters": null,
             "superClass": null,
@@ -43,30 +35,28 @@ __ESTREE_TEST__:PASS:
             "implements": [],
             "body": {
               "type": "ClassBody",
+              "body": [],
               "start": 36,
-              "end": 44,
-              "body": []
+              "end": 44
             },
             "abstract": false,
-            "declare": false
+            "declare": false,
+            "start": 27,
+            "end": 44
           },
           {
             "type": "ExportNamedDeclaration",
-            "start": 50,
-            "end": 74,
             "declaration": {
               "type": "ClassDeclaration",
-              "start": 57,
-              "end": 74,
               "decorators": [],
               "id": {
                 "type": "Identifier",
-                "start": 63,
-                "end": 65,
                 "decorators": [],
                 "name": "c2",
                 "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "start": 63,
+                "end": 65
               },
               "typeParameters": null,
               "superClass": null,
@@ -74,26 +64,36 @@ __ESTREE_TEST__:PASS:
               "implements": [],
               "body": {
                 "type": "ClassBody",
+                "body": [],
                 "start": 66,
-                "end": 74,
-                "body": []
+                "end": 74
               },
               "abstract": false,
-              "declare": false
+              "declare": false,
+              "start": 57,
+              "end": 74
             },
             "specifiers": [],
             "source": null,
             "exportKind": "value",
-            "attributes": []
+            "attributes": [],
+            "start": 50,
+            "end": 74
           }
-        ]
+        ],
+        "start": 21,
+        "end": 76
       },
       "kind": "namespace",
       "declare": false,
-      "global": false
+      "global": false,
+      "start": 0,
+      "end": 76
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 76
 }
 ```

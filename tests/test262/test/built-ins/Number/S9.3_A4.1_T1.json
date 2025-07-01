@@ -1,305 +1,305 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 676,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 408,
-      "end": 470,
       "expression": {
         "type": "CallExpression",
-        "start": 408,
-        "end": 469,
         "callee": {
           "type": "MemberExpression",
-          "start": 408,
-          "end": 424,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 408,
-            "end": 414,
-            "name": "assert"
+            "end": 414
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 415,
-            "end": 424,
-            "name": "sameValue"
+            "end": 424
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 408,
+          "end": 424
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 425,
-            "end": 435,
             "callee": {
               "type": "Identifier",
+              "name": "Number",
               "start": 425,
-              "end": 431,
-              "name": "Number"
+              "end": 431
             },
             "arguments": [
               {
                 "type": "Literal",
-                "start": 432,
-                "end": 434,
                 "value": 13,
-                "raw": "13"
+                "raw": "13",
+                "start": 432,
+                "end": 434
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 425,
+            "end": 435
           },
           {
             "type": "Literal",
-            "start": 437,
-            "end": 439,
             "value": 13,
-            "raw": "13"
+            "raw": "13",
+            "start": 437,
+            "end": 439
           },
           {
             "type": "Literal",
-            "start": 441,
-            "end": 468,
             "value": "Number(13) must return 13",
-            "raw": "'Number(13) must return 13'"
+            "raw": "'Number(13) must return 13'",
+            "start": 441,
+            "end": 468
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 408,
+        "end": 469
+      },
+      "start": 408,
+      "end": 470
     },
     {
       "type": "ExpressionStatement",
-      "start": 471,
-      "end": 537,
       "expression": {
         "type": "CallExpression",
-        "start": 471,
-        "end": 536,
         "callee": {
           "type": "MemberExpression",
-          "start": 471,
-          "end": 487,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 471,
-            "end": 477,
-            "name": "assert"
+            "end": 477
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 478,
-            "end": 487,
-            "name": "sameValue"
+            "end": 487
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 471,
+          "end": 487
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 488,
-            "end": 499,
             "callee": {
               "type": "Identifier",
+              "name": "Number",
               "start": 488,
-              "end": 494,
-              "name": "Number"
+              "end": 494
             },
             "arguments": [
               {
                 "type": "UnaryExpression",
-                "start": 495,
-                "end": 498,
                 "operator": "-",
                 "argument": {
                   "type": "Literal",
-                  "start": 496,
-                  "end": 498,
                   "value": 13,
-                  "raw": "13"
+                  "raw": "13",
+                  "start": 496,
+                  "end": 498
                 },
-                "prefix": true
+                "prefix": true,
+                "start": 495,
+                "end": 498
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 488,
+            "end": 499
           },
           {
             "type": "UnaryExpression",
-            "start": 501,
-            "end": 504,
             "operator": "-",
             "argument": {
               "type": "Literal",
-              "start": 502,
-              "end": 504,
               "value": 13,
-              "raw": "13"
+              "raw": "13",
+              "start": 502,
+              "end": 504
             },
-            "prefix": true
+            "prefix": true,
+            "start": 501,
+            "end": 504
           },
           {
             "type": "Literal",
-            "start": 506,
-            "end": 535,
             "value": "Number(-13) must return -13",
-            "raw": "'Number(-13) must return -13'"
+            "raw": "'Number(-13) must return -13'",
+            "start": 506,
+            "end": 535
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 471,
+        "end": 536
+      },
+      "start": 471,
+      "end": 537
     },
     {
       "type": "ExpressionStatement",
-      "start": 538,
-      "end": 604,
       "expression": {
         "type": "CallExpression",
-        "start": 538,
-        "end": 603,
         "callee": {
           "type": "MemberExpression",
-          "start": 538,
-          "end": 554,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 538,
-            "end": 544,
-            "name": "assert"
+            "end": 544
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 545,
-            "end": 554,
-            "name": "sameValue"
+            "end": 554
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 538,
+          "end": 554
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 555,
-            "end": 566,
             "callee": {
               "type": "Identifier",
+              "name": "Number",
               "start": 555,
-              "end": 561,
-              "name": "Number"
+              "end": 561
             },
             "arguments": [
               {
                 "type": "Literal",
-                "start": 562,
-                "end": 565,
                 "value": 1.3,
-                "raw": "1.3"
+                "raw": "1.3",
+                "start": 562,
+                "end": 565
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 555,
+            "end": 566
           },
           {
             "type": "Literal",
-            "start": 568,
-            "end": 571,
             "value": 1.3,
-            "raw": "1.3"
+            "raw": "1.3",
+            "start": 568,
+            "end": 571
           },
           {
             "type": "Literal",
-            "start": 573,
-            "end": 602,
             "value": "Number(1.3) must return 1.3",
-            "raw": "'Number(1.3) must return 1.3'"
+            "raw": "'Number(1.3) must return 1.3'",
+            "start": 573,
+            "end": 602
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 538,
+        "end": 603
+      },
+      "start": 538,
+      "end": 604
     },
     {
       "type": "ExpressionStatement",
-      "start": 605,
-      "end": 675,
       "expression": {
         "type": "CallExpression",
-        "start": 605,
-        "end": 674,
         "callee": {
           "type": "MemberExpression",
-          "start": 605,
-          "end": 621,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 605,
-            "end": 611,
-            "name": "assert"
+            "end": 611
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 612,
-            "end": 621,
-            "name": "sameValue"
+            "end": 621
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 605,
+          "end": 621
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 622,
-            "end": 634,
             "callee": {
               "type": "Identifier",
+              "name": "Number",
               "start": 622,
-              "end": 628,
-              "name": "Number"
+              "end": 628
             },
             "arguments": [
               {
                 "type": "UnaryExpression",
-                "start": 629,
-                "end": 633,
                 "operator": "-",
                 "argument": {
                   "type": "Literal",
-                  "start": 630,
-                  "end": 633,
                   "value": 1.3,
-                  "raw": "1.3"
+                  "raw": "1.3",
+                  "start": 630,
+                  "end": 633
                 },
-                "prefix": true
+                "prefix": true,
+                "start": 629,
+                "end": 633
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 622,
+            "end": 634
           },
           {
             "type": "UnaryExpression",
-            "start": 636,
-            "end": 640,
             "operator": "-",
             "argument": {
               "type": "Literal",
-              "start": 637,
-              "end": 640,
               "value": 1.3,
-              "raw": "1.3"
+              "raw": "1.3",
+              "start": 637,
+              "end": 640
             },
-            "prefix": true
+            "prefix": true,
+            "start": 636,
+            "end": 640
           },
           {
             "type": "Literal",
-            "start": 642,
-            "end": 673,
             "value": "Number(-1.3) must return -1.3",
-            "raw": "'Number(-1.3) must return -1.3'"
+            "raw": "'Number(-1.3) must return -1.3'",
+            "start": 642,
+            "end": 673
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 605,
+        "end": 674
+      },
+      "start": 605,
+      "end": 675
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 676
 }

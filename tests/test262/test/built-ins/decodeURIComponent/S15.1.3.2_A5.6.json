@@ -1,108 +1,108 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 492,
   "body": [
     {
       "type": "IfStatement",
-      "start": 321,
-      "end": 491,
       "test": {
         "type": "BinaryExpression",
-        "start": 325,
-        "end": 367,
         "left": {
           "type": "MemberExpression",
-          "start": 325,
-          "end": 353,
           "object": {
             "type": "Identifier",
+            "name": "decodeURIComponent",
             "start": 325,
-            "end": 343,
-            "name": "decodeURIComponent"
+            "end": 343
           },
           "property": {
             "type": "Identifier",
+            "name": "prototype",
             "start": 344,
-            "end": 353,
-            "name": "prototype"
+            "end": 353
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 325,
+          "end": 353
         },
         "operator": "!==",
         "right": {
           "type": "Identifier",
+          "name": "undefined",
           "start": 358,
-          "end": 367,
-          "name": "undefined"
-        }
+          "end": 367
+        },
+        "start": 325,
+        "end": 367
       },
       "consequent": {
         "type": "BlockStatement",
-        "start": 369,
-        "end": 491,
         "body": [
           {
             "type": "ThrowStatement",
-            "start": 373,
-            "end": 489,
             "argument": {
               "type": "NewExpression",
-              "start": 379,
-              "end": 488,
               "callee": {
                 "type": "Identifier",
+                "name": "Test262Error",
                 "start": 383,
-                "end": 395,
-                "name": "Test262Error"
+                "end": 395
               },
               "arguments": [
                 {
                   "type": "BinaryExpression",
-                  "start": 396,
-                  "end": 487,
                   "left": {
                     "type": "Literal",
-                    "start": 396,
-                    "end": 454,
                     "value": "#1: decodeURIComponent.prototype === undefined. Actual: ",
-                    "raw": "'#1: decodeURIComponent.prototype === undefined. Actual: '"
+                    "raw": "'#1: decodeURIComponent.prototype === undefined. Actual: '",
+                    "start": 396,
+                    "end": 454
                   },
                   "operator": "+",
                   "right": {
                     "type": "ParenthesizedExpression",
-                    "start": 457,
-                    "end": 487,
                     "expression": {
                       "type": "MemberExpression",
-                      "start": 458,
-                      "end": 486,
                       "object": {
                         "type": "Identifier",
+                        "name": "decodeURIComponent",
                         "start": 458,
-                        "end": 476,
-                        "name": "decodeURIComponent"
+                        "end": 476
                       },
                       "property": {
                         "type": "Identifier",
+                        "name": "prototype",
                         "start": 477,
-                        "end": 486,
-                        "name": "prototype"
+                        "end": 486
                       },
                       "optional": false,
-                      "computed": false
-                    }
-                  }
+                      "computed": false,
+                      "start": 458,
+                      "end": 486
+                    },
+                    "start": 457,
+                    "end": 487
+                  },
+                  "start": 396,
+                  "end": 487
                 }
-              ]
-            }
+              ],
+              "start": 379,
+              "end": 488
+            },
+            "start": 373,
+            "end": 489
           }
-        ]
+        ],
+        "start": 369,
+        "end": 491
       },
-      "alternate": null
+      "alternate": null,
+      "start": 321,
+      "end": 491
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 492
 }

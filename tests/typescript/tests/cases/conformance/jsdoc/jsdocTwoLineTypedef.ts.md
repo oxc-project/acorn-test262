@@ -2,21 +2,17 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 79,
-  "end": 104,
   "body": [
     {
       "type": "TSTypeAliasDeclaration",
-      "start": 79,
-      "end": 104,
       "id": {
         "type": "Identifier",
-        "start": 84,
-        "end": 96,
         "decorators": [],
         "name": "LoadCallback",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 84,
+        "end": 96
       },
       "typeParameters": null,
       "typeAnnotation": {
@@ -24,10 +20,14 @@ __ESTREE_TEST__:PASS:
         "start": 99,
         "end": 103
       },
-      "declare": false
+      "declare": false,
+      "start": 79,
+      "end": 104
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 79,
+  "end": 104
 }
 ```

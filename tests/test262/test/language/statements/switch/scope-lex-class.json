@@ -1,61 +1,61 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 862,
   "body": [
     {
       "type": "SwitchStatement",
-      "start": 824,
-      "end": 858,
       "discriminant": {
         "type": "Literal",
-        "start": 832,
-        "end": 833,
         "value": 0,
-        "raw": "0"
+        "raw": "0",
+        "start": 832,
+        "end": 833
       },
       "cases": [
         {
           "type": "SwitchCase",
-          "start": 837,
-          "end": 856,
           "test": null,
           "consequent": [
             {
               "type": "ClassDeclaration",
-              "start": 846,
-              "end": 856,
               "decorators": [],
               "id": {
                 "type": "Identifier",
+                "name": "x",
                 "start": 852,
-                "end": 853,
-                "name": "x"
+                "end": 853
               },
               "superClass": null,
               "body": {
                 "type": "ClassBody",
+                "body": [],
                 "start": 854,
-                "end": 856,
-                "body": []
-              }
+                "end": 856
+              },
+              "start": 846,
+              "end": 856
             }
-          ]
+          ],
+          "start": 837,
+          "end": 856
         }
-      ]
+      ],
+      "start": 824,
+      "end": 858
     },
     {
       "type": "ExpressionStatement",
-      "start": 859,
-      "end": 861,
       "expression": {
         "type": "Identifier",
+        "name": "x",
         "start": 859,
-        "end": 860,
-        "name": "x"
-      }
+        "end": 860
+      },
+      "start": 859,
+      "end": 861
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 862
 }

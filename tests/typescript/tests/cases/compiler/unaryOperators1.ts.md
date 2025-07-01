@@ -2,77 +2,77 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 18,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 0,
-      "end": 5,
       "expression": {
         "type": "UnaryExpression",
-        "start": 0,
-        "end": 4,
         "operator": "+",
         "argument": {
           "type": "Identifier",
-          "start": 1,
-          "end": 4,
           "decorators": [],
           "name": "foo",
           "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "start": 1,
+          "end": 4
         },
-        "prefix": true
+        "prefix": true,
+        "start": 0,
+        "end": 4
       },
-      "directive": null
+      "directive": null,
+      "start": 0,
+      "end": 5
     },
     {
       "type": "ExpressionStatement",
-      "start": 6,
-      "end": 11,
       "expression": {
         "type": "UnaryExpression",
-        "start": 6,
-        "end": 10,
         "operator": "-",
         "argument": {
           "type": "Identifier",
-          "start": 7,
-          "end": 10,
           "decorators": [],
           "name": "bar",
           "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "start": 7,
+          "end": 10
         },
-        "prefix": true
+        "prefix": true,
+        "start": 6,
+        "end": 10
       },
-      "directive": null
+      "directive": null,
+      "start": 6,
+      "end": 11
     },
     {
       "type": "ExpressionStatement",
-      "start": 12,
-      "end": 18,
       "expression": {
         "type": "UnaryExpression",
-        "start": 12,
-        "end": 17,
         "operator": "~",
         "argument": {
           "type": "Identifier",
-          "start": 13,
-          "end": 17,
           "decorators": [],
           "name": "quux",
           "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "start": 13,
+          "end": 17
         },
-        "prefix": true
+        "prefix": true,
+        "start": 12,
+        "end": 17
       },
-      "directive": null
+      "directive": null,
+      "start": 12,
+      "end": 18
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 18
 }
 ```

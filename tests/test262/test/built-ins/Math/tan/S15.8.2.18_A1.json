@@ -1,80 +1,80 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 288,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 250,
-      "end": 287,
       "expression": {
         "type": "CallExpression",
-        "start": 250,
-        "end": 286,
         "callee": {
           "type": "MemberExpression",
-          "start": 250,
-          "end": 266,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 250,
-            "end": 256,
-            "name": "assert"
+            "end": 256
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 257,
-            "end": 266,
-            "name": "sameValue"
+            "end": 266
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 250,
+          "end": 266
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 267,
-            "end": 280,
             "callee": {
               "type": "MemberExpression",
-              "start": 267,
-              "end": 275,
               "object": {
                 "type": "Identifier",
+                "name": "Math",
                 "start": 267,
-                "end": 271,
-                "name": "Math"
+                "end": 271
               },
               "property": {
                 "type": "Identifier",
+                "name": "tan",
                 "start": 272,
-                "end": 275,
-                "name": "tan"
+                "end": 275
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 267,
+              "end": 275
             },
             "arguments": [
               {
                 "type": "Identifier",
+                "name": "NaN",
                 "start": 276,
-                "end": 279,
-                "name": "NaN"
+                "end": 279
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 267,
+            "end": 280
           },
           {
             "type": "Identifier",
+            "name": "NaN",
             "start": 282,
-            "end": 285,
-            "name": "NaN"
+            "end": 285
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 250,
+        "end": 286
+      },
+      "start": 250,
+      "end": 287
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 288
 }

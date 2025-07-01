@@ -2,26 +2,20 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 199,
   "body": [
     {
       "type": "BlockStatement",
-      "start": 0,
-      "end": 199,
       "body": [
         {
           "type": "FunctionDeclaration",
-          "start": 146,
-          "end": 185,
           "id": {
             "type": "Identifier",
-            "start": 155,
-            "end": 156,
             "decorators": [],
             "name": "C",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 155,
+            "end": 156
           },
           "generator": false,
           "async": false,
@@ -31,22 +25,14 @@ __ESTREE_TEST__:PASS:
           "returnType": null,
           "body": {
             "type": "BlockStatement",
-            "start": 159,
-            "end": 185,
             "body": [
               {
                 "type": "ExpressionStatement",
-                "start": 169,
-                "end": 179,
                 "expression": {
                   "type": "AssignmentExpression",
-                  "start": 169,
-                  "end": 179,
                   "operator": "=",
                   "left": {
                     "type": "MemberExpression",
-                    "start": 169,
-                    "end": 175,
                     "object": {
                       "type": "ThisExpression",
                       "start": 169,
@@ -54,56 +40,70 @@ __ESTREE_TEST__:PASS:
                     },
                     "property": {
                       "type": "Identifier",
-                      "start": 174,
-                      "end": 175,
                       "decorators": [],
                       "name": "x",
                       "optional": false,
-                      "typeAnnotation": null
+                      "typeAnnotation": null,
+                      "start": 174,
+                      "end": 175
                     },
                     "optional": false,
-                    "computed": false
+                    "computed": false,
+                    "start": 169,
+                    "end": 175
                   },
                   "right": {
                     "type": "Literal",
-                    "start": 178,
-                    "end": 179,
                     "value": 1,
-                    "raw": "1"
-                  }
+                    "raw": "1",
+                    "start": 178,
+                    "end": 179
+                  },
+                  "start": 169,
+                  "end": 179
                 },
-                "directive": null
+                "directive": null,
+                "start": 169,
+                "end": 179
               }
-            ]
+            ],
+            "start": 159,
+            "end": 185
           },
-          "expression": false
+          "expression": false,
+          "start": 146,
+          "end": 185
         },
         {
           "type": "ExpressionStatement",
-          "start": 190,
-          "end": 197,
           "expression": {
             "type": "NewExpression",
-            "start": 190,
-            "end": 197,
             "callee": {
               "type": "Identifier",
-              "start": 194,
-              "end": 195,
               "decorators": [],
               "name": "C",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 194,
+              "end": 195
             },
             "typeArguments": null,
-            "arguments": []
+            "arguments": [],
+            "start": 190,
+            "end": 197
           },
-          "directive": null
+          "directive": null,
+          "start": 190,
+          "end": 197
         }
-      ]
+      ],
+      "start": 0,
+      "end": 199
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 199
 }
 ```

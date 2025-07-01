@@ -2,184 +2,184 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 57,
   "body": [
     {
       "type": "TSInterfaceDeclaration",
-      "start": 0,
-      "end": 29,
       "id": {
         "type": "Identifier",
-        "start": 10,
-        "end": 11,
         "decorators": [],
         "name": "I",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 10,
+        "end": 11
       },
       "typeParameters": null,
       "extends": [],
       "body": {
         "type": "TSInterfaceBody",
-        "start": 12,
-        "end": 29,
         "body": [
           {
             "type": "TSPropertySignature",
-            "start": 18,
-            "end": 27,
             "computed": false,
             "optional": false,
             "readonly": false,
             "key": {
               "type": "Identifier",
-              "start": 18,
-              "end": 19,
               "decorators": [],
               "name": "I",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 18,
+              "end": 19
             },
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
-              "start": 19,
-              "end": 26,
               "typeAnnotation": {
                 "type": "TSNumberKeyword",
                 "start": 20,
                 "end": 26
-              }
+              },
+              "start": 19,
+              "end": 26
             },
             "accessibility": null,
-            "static": false
+            "static": false,
+            "start": 18,
+            "end": 27
           }
-        ]
+        ],
+        "start": 12,
+        "end": 29
       },
-      "declare": false
+      "declare": false,
+      "start": 0,
+      "end": 29
     },
     {
       "type": "VariableDeclaration",
-      "start": 31,
-      "end": 49,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 35,
-          "end": 48,
           "id": {
             "type": "Identifier",
-            "start": 35,
-            "end": 38,
             "decorators": [],
             "name": "I",
             "optional": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
-              "start": 36,
-              "end": 38,
               "typeAnnotation": {
                 "type": "TSTypeReference",
-                "start": 37,
-                "end": 38,
                 "typeName": {
                   "type": "Identifier",
-                  "start": 37,
-                  "end": 38,
                   "decorators": [],
                   "name": "I",
                   "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "start": 37,
+                  "end": 38
                 },
-                "typeArguments": null
-              }
-            }
+                "typeArguments": null,
+                "start": 37,
+                "end": 38
+              },
+              "start": 36,
+              "end": 38
+            },
+            "start": 35,
+            "end": 38
           },
           "init": {
             "type": "ObjectExpression",
-            "start": 41,
-            "end": 48,
             "properties": [
               {
                 "type": "Property",
-                "start": 43,
-                "end": 47,
                 "kind": "init",
                 "key": {
                   "type": "Identifier",
-                  "start": 43,
-                  "end": 44,
                   "decorators": [],
                   "name": "I",
                   "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "start": 43,
+                  "end": 44
                 },
                 "value": {
                   "type": "Literal",
-                  "start": 46,
-                  "end": 47,
                   "value": 3,
-                  "raw": "3"
+                  "raw": "3",
+                  "start": 46,
+                  "end": 47
                 },
                 "method": false,
                 "shorthand": false,
                 "computed": false,
-                "optional": false
+                "optional": false,
+                "start": 43,
+                "end": 47
               }
-            ]
+            ],
+            "start": 41,
+            "end": 48
           },
-          "definite": false
+          "definite": false,
+          "start": 35,
+          "end": 48
         }
       ],
-      "declare": false
+      "declare": false,
+      "start": 31,
+      "end": 49
     },
     {
       "type": "ExpressionStatement",
-      "start": 50,
-      "end": 56,
       "expression": {
         "type": "AssignmentExpression",
-        "start": 50,
-        "end": 55,
         "operator": "=",
         "left": {
           "type": "MemberExpression",
-          "start": 50,
-          "end": 53,
           "object": {
             "type": "Identifier",
-            "start": 50,
-            "end": 51,
             "decorators": [],
             "name": "I",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 50,
+            "end": 51
           },
           "property": {
             "type": "Identifier",
-            "start": 52,
-            "end": 53,
             "decorators": [],
             "name": "I",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 52,
+            "end": 53
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 50,
+          "end": 53
         },
         "right": {
           "type": "Literal",
-          "start": 54,
-          "end": 55,
           "value": 4,
-          "raw": "4"
-        }
+          "raw": "4",
+          "start": 54,
+          "end": 55
+        },
+        "start": 50,
+        "end": 55
       },
-      "directive": null
+      "directive": null,
+      "start": 50,
+      "end": 56
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 57
 }
 ```

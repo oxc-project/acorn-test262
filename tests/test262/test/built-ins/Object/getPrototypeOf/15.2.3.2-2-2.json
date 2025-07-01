@@ -1,255 +1,255 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 593,
   "body": [
     {
       "type": "FunctionDeclaration",
-      "start": 394,
-      "end": 412,
       "id": {
         "type": "Identifier",
+        "name": "base",
         "start": 403,
-        "end": 407,
-        "name": "base"
+        "end": 407
       },
       "generator": false,
       "async": false,
       "params": [],
       "body": {
         "type": "BlockStatement",
+        "body": [],
         "start": 410,
-        "end": 412,
-        "body": []
+        "end": 412
       },
-      "expression": false
+      "expression": false,
+      "start": 394,
+      "end": 412
     },
     {
       "type": "FunctionDeclaration",
-      "start": 414,
-      "end": 435,
       "id": {
         "type": "Identifier",
+        "name": "derived",
         "start": 423,
-        "end": 430,
-        "name": "derived"
+        "end": 430
       },
       "generator": false,
       "async": false,
       "params": [],
       "body": {
         "type": "BlockStatement",
+        "body": [],
         "start": 433,
-        "end": 435,
-        "body": []
+        "end": 435
       },
-      "expression": false
+      "expression": false,
+      "start": 414,
+      "end": 435
     },
     {
       "type": "ExpressionStatement",
-      "start": 436,
-      "end": 467,
       "expression": {
         "type": "AssignmentExpression",
-        "start": 436,
-        "end": 466,
         "operator": "=",
         "left": {
           "type": "MemberExpression",
-          "start": 436,
-          "end": 453,
           "object": {
             "type": "Identifier",
+            "name": "derived",
             "start": 436,
-            "end": 443,
-            "name": "derived"
+            "end": 443
           },
           "property": {
             "type": "Identifier",
+            "name": "prototype",
             "start": 444,
-            "end": 453,
-            "name": "prototype"
+            "end": 453
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 436,
+          "end": 453
         },
         "right": {
           "type": "NewExpression",
-          "start": 456,
-          "end": 466,
           "callee": {
             "type": "Identifier",
+            "name": "base",
             "start": 460,
-            "end": 464,
-            "name": "base"
+            "end": 464
           },
-          "arguments": []
-        }
-      }
+          "arguments": [],
+          "start": 456,
+          "end": 466
+        },
+        "start": 436,
+        "end": 466
+      },
+      "start": 436,
+      "end": 467
     },
     {
       "type": "VariableDeclaration",
-      "start": 469,
-      "end": 491,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 473,
-          "end": 490,
           "id": {
             "type": "Identifier",
+            "name": "d",
             "start": 473,
-            "end": 474,
-            "name": "d"
+            "end": 474
           },
           "init": {
             "type": "NewExpression",
-            "start": 477,
-            "end": 490,
             "callee": {
               "type": "Identifier",
+              "name": "derived",
               "start": 481,
-              "end": 488,
-              "name": "derived"
+              "end": 488
             },
-            "arguments": []
-          }
+            "arguments": [],
+            "start": 477,
+            "end": 490
+          },
+          "start": 473,
+          "end": 490
         }
-      ]
+      ],
+      "start": 469,
+      "end": 491
     },
     {
       "type": "VariableDeclaration",
-      "start": 492,
-      "end": 525,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 496,
-          "end": 524,
           "id": {
             "type": "Identifier",
+            "name": "x",
             "start": 496,
-            "end": 497,
-            "name": "x"
+            "end": 497
           },
           "init": {
             "type": "CallExpression",
-            "start": 500,
-            "end": 524,
             "callee": {
               "type": "MemberExpression",
-              "start": 500,
-              "end": 521,
               "object": {
                 "type": "Identifier",
+                "name": "Object",
                 "start": 500,
-                "end": 506,
-                "name": "Object"
+                "end": 506
               },
               "property": {
                 "type": "Identifier",
+                "name": "getPrototypeOf",
                 "start": 507,
-                "end": 521,
-                "name": "getPrototypeOf"
+                "end": 521
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 500,
+              "end": 521
             },
             "arguments": [
               {
                 "type": "Identifier",
+                "name": "d",
                 "start": 522,
-                "end": 523,
-                "name": "d"
+                "end": 523
               }
             ],
-            "optional": false
-          }
+            "optional": false,
+            "start": 500,
+            "end": 524
+          },
+          "start": 496,
+          "end": 524
         }
-      ]
+      ],
+      "start": 492,
+      "end": 525
     },
     {
       "type": "ExpressionStatement",
-      "start": 527,
-      "end": 592,
       "expression": {
         "type": "CallExpression",
-        "start": 527,
-        "end": 591,
         "callee": {
           "type": "MemberExpression",
-          "start": 527,
-          "end": 543,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 527,
-            "end": 533,
-            "name": "assert"
+            "end": 533
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 534,
-            "end": 543,
-            "name": "sameValue"
+            "end": 543
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 527,
+          "end": 543
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 544,
-            "end": 562,
             "callee": {
               "type": "MemberExpression",
-              "start": 544,
-              "end": 559,
               "object": {
                 "type": "Identifier",
+                "name": "x",
                 "start": 544,
-                "end": 545,
-                "name": "x"
+                "end": 545
               },
               "property": {
                 "type": "Identifier",
+                "name": "isPrototypeOf",
                 "start": 546,
-                "end": 559,
-                "name": "isPrototypeOf"
+                "end": 559
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 544,
+              "end": 559
             },
             "arguments": [
               {
                 "type": "Identifier",
+                "name": "d",
                 "start": 560,
-                "end": 561,
-                "name": "d"
+                "end": 561
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 544,
+            "end": 562
           },
           {
             "type": "Literal",
-            "start": 564,
-            "end": 568,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "start": 564,
+            "end": 568
           },
           {
             "type": "Literal",
-            "start": 570,
-            "end": 590,
             "value": "x.isPrototypeOf(d)",
-            "raw": "'x.isPrototypeOf(d)'"
+            "raw": "'x.isPrototypeOf(d)'",
+            "start": 570,
+            "end": 590
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 527,
+        "end": 591
+      },
+      "start": 527,
+      "end": 592
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 593
 }

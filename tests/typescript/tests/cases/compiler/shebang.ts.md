@@ -2,42 +2,42 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 20,
-  "end": 79,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 20,
-      "end": 79,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 24,
-          "end": 78,
           "id": {
             "type": "Identifier",
-            "start": 24,
-            "end": 27,
             "decorators": [],
             "name": "foo",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 24,
+            "end": 27
           },
           "init": {
             "type": "Literal",
-            "start": 30,
-            "end": 78,
             "value": "I wish the generated JS to be executed in node",
-            "raw": "'I wish the generated JS to be executed in node'"
+            "raw": "'I wish the generated JS to be executed in node'",
+            "start": 30,
+            "end": 78
           },
-          "definite": false
+          "definite": false,
+          "start": 24,
+          "end": 78
         }
       ],
-      "declare": false
+      "declare": false,
+      "start": 20,
+      "end": 79
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 20,
+  "end": 79
 }
 ```

@@ -2,219 +2,219 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 140,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 0,
-      "end": 27,
       "kind": "let",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 12,
-          "end": 26,
           "id": {
             "type": "Identifier",
-            "start": 12,
-            "end": 26,
             "decorators": [],
             "name": "tgt2",
             "optional": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
-              "start": 16,
-              "end": 26,
               "typeAnnotation": {
                 "type": "TSArrayType",
-                "start": 18,
-                "end": 26,
                 "elementType": {
                   "type": "TSNumberKeyword",
                   "start": 18,
                   "end": 24
-                }
-              }
-            }
+                },
+                "start": 18,
+                "end": 26
+              },
+              "start": 16,
+              "end": 26
+            },
+            "start": 12,
+            "end": 26
           },
           "init": null,
-          "definite": false
+          "definite": false,
+          "start": 12,
+          "end": 26
         }
       ],
-      "declare": true
+      "declare": true,
+      "start": 0,
+      "end": 27
     },
     {
       "type": "VariableDeclaration",
-      "start": 28,
-      "end": 111,
       "kind": "let",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 40,
-          "end": 110,
           "id": {
             "type": "Identifier",
-            "start": 40,
-            "end": 110,
             "decorators": [],
             "name": "src2",
             "optional": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
-              "start": 44,
-              "end": 110,
               "typeAnnotation": {
                 "type": "TSMappedType",
-                "start": 46,
-                "end": 110,
                 "key": {
                   "type": "Identifier",
-                  "start": 49,
-                  "end": 50,
                   "decorators": [],
                   "name": "K",
                   "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "start": 49,
+                  "end": 50
                 },
                 "constraint": {
                   "type": "TSTypeOperator",
-                  "start": 54,
-                  "end": 68,
                   "operator": "keyof",
                   "typeAnnotation": {
                     "type": "TSArrayType",
-                    "start": 60,
-                    "end": 68,
                     "elementType": {
                       "type": "TSNumberKeyword",
                       "start": 60,
                       "end": 66
-                    }
-                  }
+                    },
+                    "start": 60,
+                    "end": 68
+                  },
+                  "start": 54,
+                  "end": 68
                 },
                 "nameType": {
                   "type": "TSTypeReference",
-                  "start": 72,
-                  "end": 92,
                   "typeName": {
                     "type": "Identifier",
-                    "start": 72,
-                    "end": 79,
                     "decorators": [],
                     "name": "Exclude",
                     "optional": false,
-                    "typeAnnotation": null
+                    "typeAnnotation": null,
+                    "start": 72,
+                    "end": 79
                   },
                   "typeArguments": {
                     "type": "TSTypeParameterInstantiation",
-                    "start": 79,
-                    "end": 92,
                     "params": [
                       {
                         "type": "TSTypeReference",
-                        "start": 80,
-                        "end": 81,
                         "typeName": {
                           "type": "Identifier",
-                          "start": 80,
-                          "end": 81,
                           "decorators": [],
                           "name": "K",
                           "optional": false,
-                          "typeAnnotation": null
+                          "typeAnnotation": null,
+                          "start": 80,
+                          "end": 81
                         },
-                        "typeArguments": null
+                        "typeArguments": null,
+                        "start": 80,
+                        "end": 81
                       },
                       {
                         "type": "TSLiteralType",
-                        "start": 83,
-                        "end": 91,
                         "literal": {
                           "type": "Literal",
-                          "start": 83,
-                          "end": 91,
                           "value": "length",
-                          "raw": "\"length\""
-                        }
+                          "raw": "\"length\"",
+                          "start": 83,
+                          "end": 91
+                        },
+                        "start": 83,
+                        "end": 91
                       }
-                    ]
-                  }
+                    ],
+                    "start": 79,
+                    "end": 92
+                  },
+                  "start": 72,
+                  "end": 92
                 },
                 "typeAnnotation": {
                   "type": "TSIndexedAccessType",
-                  "start": 95,
-                  "end": 108,
                   "objectType": {
                     "type": "TSArrayType",
-                    "start": 96,
-                    "end": 104,
                     "elementType": {
                       "type": "TSNumberKeyword",
                       "start": 96,
                       "end": 102
-                    }
+                    },
+                    "start": 96,
+                    "end": 104
                   },
                   "indexType": {
                     "type": "TSTypeReference",
-                    "start": 106,
-                    "end": 107,
                     "typeName": {
                       "type": "Identifier",
-                      "start": 106,
-                      "end": 107,
                       "decorators": [],
                       "name": "K",
                       "optional": false,
-                      "typeAnnotation": null
+                      "typeAnnotation": null,
+                      "start": 106,
+                      "end": 107
                     },
-                    "typeArguments": null
-                  }
+                    "typeArguments": null,
+                    "start": 106,
+                    "end": 107
+                  },
+                  "start": 95,
+                  "end": 108
                 },
                 "optional": false,
-                "readonly": null
-              }
-            }
+                "readonly": null,
+                "start": 46,
+                "end": 110
+              },
+              "start": 44,
+              "end": 110
+            },
+            "start": 40,
+            "end": 110
           },
           "init": null,
-          "definite": false
+          "definite": false,
+          "start": 40,
+          "end": 110
         }
       ],
-      "declare": true
+      "declare": true,
+      "start": 28,
+      "end": 111
     },
     {
       "type": "ExpressionStatement",
-      "start": 112,
-      "end": 124,
       "expression": {
         "type": "AssignmentExpression",
-        "start": 112,
-        "end": 123,
         "operator": "=",
         "left": {
           "type": "Identifier",
-          "start": 112,
-          "end": 116,
           "decorators": [],
           "name": "tgt2",
           "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "start": 112,
+          "end": 116
         },
         "right": {
           "type": "Identifier",
-          "start": 119,
-          "end": 123,
           "decorators": [],
           "name": "src2",
           "optional": false,
-          "typeAnnotation": null
-        }
+          "typeAnnotation": null,
+          "start": 119,
+          "end": 123
+        },
+        "start": 112,
+        "end": 123
       },
-      "directive": null
+      "directive": null,
+      "start": 112,
+      "end": 124
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 140
 }
 ```

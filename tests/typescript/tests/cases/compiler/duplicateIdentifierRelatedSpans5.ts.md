@@ -2,268 +2,256 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 161,
   "body": [
     {
       "type": "TSModuleDeclaration",
-      "start": 0,
-      "end": 151,
       "id": {
         "type": "Identifier",
-        "start": 8,
-        "end": 14,
         "decorators": [],
         "name": "global",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 8,
+        "end": 14
       },
       "body": {
         "type": "TSModuleBlock",
-        "start": 15,
-        "end": 151,
         "body": [
           {
             "type": "TSInterfaceDeclaration",
-            "start": 21,
-            "end": 149,
             "id": {
               "type": "Identifier",
-              "start": 31,
-              "end": 39,
               "decorators": [],
               "name": "TopLevel",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 31,
+              "end": 39
             },
             "typeParameters": null,
             "extends": [],
             "body": {
               "type": "TSInterfaceBody",
-              "start": 40,
-              "end": 149,
               "body": [
                 {
                   "type": "TSPropertySignature",
-                  "start": 50,
-                  "end": 75,
                   "computed": false,
                   "optional": false,
                   "readonly": false,
                   "key": {
                     "type": "Identifier",
-                    "start": 50,
-                    "end": 60,
                     "decorators": [],
                     "name": "duplicate1",
                     "optional": false,
-                    "typeAnnotation": null
+                    "typeAnnotation": null,
+                    "start": 50,
+                    "end": 60
                   },
                   "typeAnnotation": {
                     "type": "TSTypeAnnotation",
-                    "start": 60,
-                    "end": 74,
                     "typeAnnotation": {
                       "type": "TSFunctionType",
-                      "start": 62,
-                      "end": 74,
                       "typeParameters": null,
                       "params": [],
                       "returnType": {
                         "type": "TSTypeAnnotation",
-                        "start": 65,
-                        "end": 74,
                         "typeAnnotation": {
                           "type": "TSStringKeyword",
                           "start": 68,
                           "end": 74
-                        }
-                      }
-                    }
+                        },
+                        "start": 65,
+                        "end": 74
+                      },
+                      "start": 62,
+                      "end": 74
+                    },
+                    "start": 60,
+                    "end": 74
                   },
                   "accessibility": null,
-                  "static": false
+                  "static": false,
+                  "start": 50,
+                  "end": 75
                 },
                 {
                   "type": "TSPropertySignature",
-                  "start": 84,
-                  "end": 109,
                   "computed": false,
                   "optional": false,
                   "readonly": false,
                   "key": {
                     "type": "Identifier",
-                    "start": 84,
-                    "end": 94,
                     "decorators": [],
                     "name": "duplicate2",
                     "optional": false,
-                    "typeAnnotation": null
+                    "typeAnnotation": null,
+                    "start": 84,
+                    "end": 94
                   },
                   "typeAnnotation": {
                     "type": "TSTypeAnnotation",
-                    "start": 94,
-                    "end": 108,
                     "typeAnnotation": {
                       "type": "TSFunctionType",
-                      "start": 96,
-                      "end": 108,
                       "typeParameters": null,
                       "params": [],
                       "returnType": {
                         "type": "TSTypeAnnotation",
-                        "start": 99,
-                        "end": 108,
                         "typeAnnotation": {
                           "type": "TSStringKeyword",
                           "start": 102,
                           "end": 108
-                        }
-                      }
-                    }
+                        },
+                        "start": 99,
+                        "end": 108
+                      },
+                      "start": 96,
+                      "end": 108
+                    },
+                    "start": 94,
+                    "end": 108
                   },
                   "accessibility": null,
-                  "static": false
+                  "static": false,
+                  "start": 84,
+                  "end": 109
                 },
                 {
                   "type": "TSPropertySignature",
-                  "start": 118,
-                  "end": 143,
                   "computed": false,
                   "optional": false,
                   "readonly": false,
                   "key": {
                     "type": "Identifier",
-                    "start": 118,
-                    "end": 128,
                     "decorators": [],
                     "name": "duplicate3",
                     "optional": false,
-                    "typeAnnotation": null
+                    "typeAnnotation": null,
+                    "start": 118,
+                    "end": 128
                   },
                   "typeAnnotation": {
                     "type": "TSTypeAnnotation",
-                    "start": 128,
-                    "end": 142,
                     "typeAnnotation": {
                       "type": "TSFunctionType",
-                      "start": 130,
-                      "end": 142,
                       "typeParameters": null,
                       "params": [],
                       "returnType": {
                         "type": "TSTypeAnnotation",
-                        "start": 133,
-                        "end": 142,
                         "typeAnnotation": {
                           "type": "TSStringKeyword",
                           "start": 136,
                           "end": 142
-                        }
-                      }
-                    }
+                        },
+                        "start": 133,
+                        "end": 142
+                      },
+                      "start": 130,
+                      "end": 142
+                    },
+                    "start": 128,
+                    "end": 142
                   },
                   "accessibility": null,
-                  "static": false
+                  "static": false,
+                  "start": 118,
+                  "end": 143
                 }
-              ]
+              ],
+              "start": 40,
+              "end": 149
             },
-            "declare": false
+            "declare": false,
+            "start": 21,
+            "end": 149
           }
-        ]
+        ],
+        "start": 15,
+        "end": 151
       },
       "kind": "global",
       "declare": true,
-      "global": true
+      "global": true,
+      "start": 0,
+      "end": 151
     },
     {
       "type": "ExportNamedDeclaration",
-      "start": 152,
-      "end": 161,
       "declaration": null,
       "specifiers": [],
       "source": null,
       "exportKind": "value",
-      "attributes": []
+      "attributes": [],
+      "start": 152,
+      "end": 161
     }
   ],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 161
 }
 ```
 __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 167,
   "body": [
     {
       "type": "ImportDeclaration",
-      "start": 0,
-      "end": 17,
       "specifiers": [],
       "source": {
         "type": "Literal",
-        "start": 7,
-        "end": 16,
         "value": "./file1",
-        "raw": "\"./file1\""
+        "raw": "\"./file1\"",
+        "start": 7,
+        "end": 16
       },
       "phase": null,
       "attributes": [],
-      "importKind": "value"
+      "importKind": "value",
+      "start": 0,
+      "end": 17
     },
     {
       "type": "TSModuleDeclaration",
-      "start": 18,
-      "end": 157,
       "id": {
         "type": "Identifier",
-        "start": 26,
-        "end": 32,
         "decorators": [],
         "name": "global",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 26,
+        "end": 32
       },
       "body": {
         "type": "TSModuleBlock",
-        "start": 33,
-        "end": 157,
         "body": [
           {
             "type": "TSInterfaceDeclaration",
-            "start": 39,
-            "end": 155,
             "id": {
               "type": "Identifier",
-              "start": 49,
-              "end": 57,
               "decorators": [],
               "name": "TopLevel",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 49,
+              "end": 57
             },
             "typeParameters": null,
             "extends": [],
             "body": {
               "type": "TSInterfaceBody",
-              "start": 58,
-              "end": 155,
               "body": [
                 {
                   "type": "TSMethodSignature",
-                  "start": 68,
-                  "end": 89,
                   "key": {
                     "type": "Identifier",
-                    "start": 68,
-                    "end": 78,
                     "decorators": [],
                     "name": "duplicate1",
                     "optional": false,
-                    "typeAnnotation": null
+                    "typeAnnotation": null,
+                    "start": 68,
+                    "end": 78
                   },
                   "computed": false,
                   "optional": false,
@@ -272,30 +260,30 @@ __ESTREE_TEST__:PASS:
                   "params": [],
                   "returnType": {
                     "type": "TSTypeAnnotation",
-                    "start": 80,
-                    "end": 88,
                     "typeAnnotation": {
                       "type": "TSNumberKeyword",
                       "start": 82,
                       "end": 88
-                    }
+                    },
+                    "start": 80,
+                    "end": 88
                   },
                   "accessibility": null,
                   "readonly": false,
-                  "static": false
+                  "static": false,
+                  "start": 68,
+                  "end": 89
                 },
                 {
                   "type": "TSMethodSignature",
-                  "start": 98,
-                  "end": 119,
                   "key": {
                     "type": "Identifier",
-                    "start": 98,
-                    "end": 108,
                     "decorators": [],
                     "name": "duplicate2",
                     "optional": false,
-                    "typeAnnotation": null
+                    "typeAnnotation": null,
+                    "start": 98,
+                    "end": 108
                   },
                   "computed": false,
                   "optional": false,
@@ -304,30 +292,30 @@ __ESTREE_TEST__:PASS:
                   "params": [],
                   "returnType": {
                     "type": "TSTypeAnnotation",
-                    "start": 110,
-                    "end": 118,
                     "typeAnnotation": {
                       "type": "TSNumberKeyword",
                       "start": 112,
                       "end": 118
-                    }
+                    },
+                    "start": 110,
+                    "end": 118
                   },
                   "accessibility": null,
                   "readonly": false,
-                  "static": false
+                  "static": false,
+                  "start": 98,
+                  "end": 119
                 },
                 {
                   "type": "TSMethodSignature",
-                  "start": 128,
-                  "end": 149,
                   "key": {
                     "type": "Identifier",
-                    "start": 128,
-                    "end": 138,
                     "decorators": [],
                     "name": "duplicate3",
                     "optional": false,
-                    "typeAnnotation": null
+                    "typeAnnotation": null,
+                    "start": 128,
+                    "end": 138
                   },
                   "computed": false,
                   "optional": false,
@@ -336,40 +324,52 @@ __ESTREE_TEST__:PASS:
                   "params": [],
                   "returnType": {
                     "type": "TSTypeAnnotation",
-                    "start": 140,
-                    "end": 148,
                     "typeAnnotation": {
                       "type": "TSNumberKeyword",
                       "start": 142,
                       "end": 148
-                    }
+                    },
+                    "start": 140,
+                    "end": 148
                   },
                   "accessibility": null,
                   "readonly": false,
-                  "static": false
+                  "static": false,
+                  "start": 128,
+                  "end": 149
                 }
-              ]
+              ],
+              "start": 58,
+              "end": 155
             },
-            "declare": false
+            "declare": false,
+            "start": 39,
+            "end": 155
           }
-        ]
+        ],
+        "start": 33,
+        "end": 157
       },
       "kind": "global",
       "declare": true,
-      "global": true
+      "global": true,
+      "start": 18,
+      "end": 157
     },
     {
       "type": "ExportNamedDeclaration",
-      "start": 158,
-      "end": 167,
       "declaration": null,
       "specifiers": [],
       "source": null,
       "exportKind": "value",
-      "attributes": []
+      "attributes": [],
+      "start": 158,
+      "end": 167
     }
   ],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 167
 }
 ```

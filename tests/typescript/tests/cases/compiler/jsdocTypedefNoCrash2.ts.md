@@ -2,88 +2,88 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 71,
   "body": [
     {
       "type": "ExportNamedDeclaration",
-      "start": 0,
-      "end": 20,
       "declaration": {
         "type": "TSTypeAliasDeclaration",
-        "start": 7,
-        "end": 20,
         "id": {
           "type": "Identifier",
-          "start": 12,
-          "end": 15,
           "decorators": [],
           "name": "foo",
           "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "start": 12,
+          "end": 15
         },
         "typeParameters": null,
         "typeAnnotation": {
           "type": "TSLiteralType",
-          "start": 18,
-          "end": 19,
           "literal": {
             "type": "Literal",
-            "start": 18,
-            "end": 19,
             "value": 5,
-            "raw": "5"
-          }
+            "raw": "5",
+            "start": 18,
+            "end": 19
+          },
+          "start": 18,
+          "end": 19
         },
-        "declare": false
+        "declare": false,
+        "start": 7,
+        "end": 20
       },
       "specifiers": [],
       "source": null,
       "exportKind": "type",
-      "attributes": []
+      "attributes": [],
+      "start": 0,
+      "end": 20
     },
     {
       "type": "ExportNamedDeclaration",
-      "start": 50,
-      "end": 71,
       "declaration": {
         "type": "VariableDeclaration",
-        "start": 57,
-        "end": 71,
         "kind": "const",
         "declarations": [
           {
             "type": "VariableDeclarator",
-            "start": 63,
-            "end": 70,
             "id": {
               "type": "Identifier",
-              "start": 63,
-              "end": 66,
               "decorators": [],
               "name": "foo",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 63,
+              "end": 66
             },
             "init": {
               "type": "Literal",
-              "start": 69,
-              "end": 70,
               "value": 5,
-              "raw": "5"
+              "raw": "5",
+              "start": 69,
+              "end": 70
             },
-            "definite": false
+            "definite": false,
+            "start": 63,
+            "end": 70
           }
         ],
-        "declare": false
+        "declare": false,
+        "start": 57,
+        "end": 71
       },
       "specifiers": [],
       "source": null,
       "exportKind": "value",
-      "attributes": []
+      "attributes": [],
+      "start": 50,
+      "end": 71
     }
   ],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 71
 }
 ```

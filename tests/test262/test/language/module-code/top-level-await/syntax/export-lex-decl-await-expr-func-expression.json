@@ -1,105 +1,105 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 2109,
   "body": [
     {
       "type": "ExportNamedDeclaration",
-      "start": 2035,
-      "end": 2070,
       "declaration": {
         "type": "VariableDeclaration",
-        "start": 2042,
-        "end": 2070,
         "kind": "let",
         "declarations": [
           {
             "type": "VariableDeclarator",
-            "start": 2046,
-            "end": 2069,
             "id": {
               "type": "Identifier",
+              "name": "x",
               "start": 2046,
-              "end": 2047,
-              "name": "x"
+              "end": 2047
             },
             "init": {
               "type": "AwaitExpression",
-              "start": 2050,
-              "end": 2069,
               "argument": {
                 "type": "FunctionExpression",
-                "start": 2056,
-                "end": 2069,
                 "id": null,
                 "generator": false,
                 "async": false,
                 "params": [],
                 "body": {
                   "type": "BlockStatement",
+                  "body": [],
                   "start": 2067,
-                  "end": 2069,
-                  "body": []
+                  "end": 2069
                 },
-                "expression": false
-              }
-            }
+                "expression": false,
+                "start": 2056,
+                "end": 2069
+              },
+              "start": 2050,
+              "end": 2069
+            },
+            "start": 2046,
+            "end": 2069
           }
-        ]
+        ],
+        "start": 2042,
+        "end": 2070
       },
       "specifiers": [],
       "source": null,
-      "attributes": []
+      "attributes": [],
+      "start": 2035,
+      "end": 2070
     },
     {
       "type": "ExportNamedDeclaration",
-      "start": 2071,
-      "end": 2108,
       "declaration": {
         "type": "VariableDeclaration",
-        "start": 2078,
-        "end": 2108,
         "kind": "const",
         "declarations": [
           {
             "type": "VariableDeclarator",
-            "start": 2084,
-            "end": 2107,
             "id": {
               "type": "Identifier",
+              "name": "y",
               "start": 2084,
-              "end": 2085,
-              "name": "y"
+              "end": 2085
             },
             "init": {
               "type": "AwaitExpression",
-              "start": 2088,
-              "end": 2107,
               "argument": {
                 "type": "FunctionExpression",
-                "start": 2094,
-                "end": 2107,
                 "id": null,
                 "generator": false,
                 "async": false,
                 "params": [],
                 "body": {
                   "type": "BlockStatement",
+                  "body": [],
                   "start": 2105,
-                  "end": 2107,
-                  "body": []
+                  "end": 2107
                 },
-                "expression": false
-              }
-            }
+                "expression": false,
+                "start": 2094,
+                "end": 2107
+              },
+              "start": 2088,
+              "end": 2107
+            },
+            "start": 2084,
+            "end": 2107
           }
-        ]
+        ],
+        "start": 2078,
+        "end": 2108
       },
       "specifiers": [],
       "source": null,
-      "attributes": []
+      "attributes": [],
+      "start": 2071,
+      "end": 2108
     }
   ],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 2109
 }

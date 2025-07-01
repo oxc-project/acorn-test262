@@ -1,121 +1,121 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 403,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 293,
-      "end": 402,
       "expression": {
         "type": "CallExpression",
-        "start": 293,
-        "end": 401,
         "callee": {
           "type": "MemberExpression",
-          "start": 293,
-          "end": 309,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 293,
-            "end": 299,
-            "name": "assert"
+            "end": 299
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 300,
-            "end": 309,
-            "name": "sameValue"
+            "end": 309
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 293,
+          "end": 309
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 310,
-            "end": 347,
             "callee": {
               "type": "MemberExpression",
-              "start": 310,
-              "end": 336,
               "object": {
                 "type": "MemberExpression",
-                "start": 310,
-                "end": 331,
                 "object": {
                   "type": "MemberExpression",
-                  "start": 310,
-                  "end": 326,
                   "object": {
                     "type": "Identifier",
+                    "name": "String",
                     "start": 310,
-                    "end": 316,
-                    "name": "String"
+                    "end": 316
                   },
                   "property": {
                     "type": "Identifier",
+                    "name": "prototype",
                     "start": 317,
-                    "end": 326,
-                    "name": "prototype"
+                    "end": 326
                   },
                   "optional": false,
-                  "computed": false
+                  "computed": false,
+                  "start": 310,
+                  "end": 326
                 },
                 "property": {
                   "type": "Identifier",
+                  "name": "trim",
                   "start": 327,
-                  "end": 331,
-                  "name": "trim"
+                  "end": 331
                 },
                 "optional": false,
-                "computed": false
+                "computed": false,
+                "start": 310,
+                "end": 331
               },
               "property": {
                 "type": "Identifier",
+                "name": "call",
                 "start": 332,
-                "end": 336,
-                "name": "call"
+                "end": 336
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 310,
+              "end": 336
             },
             "arguments": [
               {
                 "type": "UnaryExpression",
-                "start": 337,
-                "end": 346,
                 "operator": "+",
                 "argument": {
                   "type": "Identifier",
+                  "name": "Infinity",
                   "start": 338,
-                  "end": 346,
-                  "name": "Infinity"
+                  "end": 346
                 },
-                "prefix": true
+                "prefix": true,
+                "start": 337,
+                "end": 346
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 310,
+            "end": 347
           },
           {
             "type": "Literal",
-            "start": 349,
-            "end": 359,
             "value": "Infinity",
-            "raw": "\"Infinity\""
+            "raw": "\"Infinity\"",
+            "start": 349,
+            "end": 359
           },
           {
             "type": "Literal",
-            "start": 361,
-            "end": 400,
             "value": "String.prototype.trim.call(+Infinity)",
-            "raw": "'String.prototype.trim.call(+Infinity)'"
+            "raw": "'String.prototype.trim.call(+Infinity)'",
+            "start": 361,
+            "end": 400
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 293,
+        "end": 401
+      },
+      "start": 293,
+      "end": 402
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 403
 }

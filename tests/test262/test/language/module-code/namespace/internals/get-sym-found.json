@@ -1,114 +1,114 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 561,
   "body": [
     {
       "type": "ImportDeclaration",
-      "start": 459,
-      "end": 500,
       "specifiers": [
         {
           "type": "ImportNamespaceSpecifier",
-          "start": 466,
-          "end": 473,
           "local": {
             "type": "Identifier",
+            "name": "ns",
             "start": 471,
-            "end": 473,
-            "name": "ns"
-          }
+            "end": 473
+          },
+          "start": 466,
+          "end": 473
         }
       ],
       "source": {
         "type": "Literal",
-        "start": 479,
-        "end": 499,
         "value": "./get-sym-found.js",
-        "raw": "'./get-sym-found.js'"
+        "raw": "'./get-sym-found.js'",
+        "start": 479,
+        "end": 499
       },
       "phase": null,
-      "attributes": []
+      "attributes": [],
+      "start": 459,
+      "end": 500
     },
     {
       "type": "ExpressionStatement",
-      "start": 502,
-      "end": 560,
       "expression": {
         "type": "CallExpression",
-        "start": 502,
-        "end": 559,
         "callee": {
           "type": "MemberExpression",
-          "start": 502,
-          "end": 518,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 502,
-            "end": 508,
-            "name": "assert"
+            "end": 508
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 509,
-            "end": 518,
-            "name": "sameValue"
+            "end": 518
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 502,
+          "end": 518
         },
         "arguments": [
           {
             "type": "UnaryExpression",
-            "start": 519,
-            "end": 548,
             "operator": "typeof",
             "argument": {
               "type": "MemberExpression",
-              "start": 526,
-              "end": 548,
               "object": {
                 "type": "Identifier",
+                "name": "ns",
                 "start": 526,
-                "end": 528,
-                "name": "ns"
+                "end": 528
               },
               "property": {
                 "type": "MemberExpression",
-                "start": 529,
-                "end": 547,
                 "object": {
                   "type": "Identifier",
+                  "name": "Symbol",
                   "start": 529,
-                  "end": 535,
-                  "name": "Symbol"
+                  "end": 535
                 },
                 "property": {
                   "type": "Identifier",
+                  "name": "toStringTag",
                   "start": 536,
-                  "end": 547,
-                  "name": "toStringTag"
+                  "end": 547
                 },
                 "optional": false,
-                "computed": false
+                "computed": false,
+                "start": 529,
+                "end": 547
               },
               "optional": false,
-              "computed": true
+              "computed": true,
+              "start": 526,
+              "end": 548
             },
-            "prefix": true
+            "prefix": true,
+            "start": 519,
+            "end": 548
           },
           {
             "type": "Literal",
-            "start": 550,
-            "end": 558,
             "value": "string",
-            "raw": "'string'"
+            "raw": "'string'",
+            "start": 550,
+            "end": 558
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 502,
+        "end": 559
+      },
+      "start": 502,
+      "end": 560
     }
   ],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 561
 }

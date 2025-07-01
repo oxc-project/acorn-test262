@@ -1,87 +1,87 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 380,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 275,
-      "end": 379,
       "expression": {
         "type": "CallExpression",
-        "start": 275,
-        "end": 378,
         "callee": {
           "type": "MemberExpression",
-          "start": 275,
-          "end": 291,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 275,
-            "end": 281,
-            "name": "assert"
+            "end": 281
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 282,
-            "end": 291,
-            "name": "sameValue"
+            "end": 291
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 275,
+          "end": 291
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 292,
-            "end": 329,
             "callee": {
               "type": "MemberExpression",
-              "start": 292,
-              "end": 313,
               "object": {
                 "type": "Identifier",
+                "name": "Object",
                 "start": 292,
-                "end": 298,
-                "name": "Object"
+                "end": 298
               },
               "property": {
                 "type": "Identifier",
+                "name": "getPrototypeOf",
                 "start": 299,
-                "end": 313,
-                "name": "getPrototypeOf"
+                "end": 313
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 292,
+              "end": 313
             },
             "arguments": [
               {
                 "type": "Identifier",
+                "name": "ReferenceError",
                 "start": 314,
-                "end": 328,
-                "name": "ReferenceError"
+                "end": 328
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 292,
+            "end": 329
           },
           {
             "type": "Identifier",
+            "name": "Error",
             "start": 331,
-            "end": 336,
-            "name": "Error"
+            "end": 336
           },
           {
             "type": "Literal",
-            "start": 338,
-            "end": 377,
             "value": "Object.getPrototypeOf(ReferenceError)",
-            "raw": "'Object.getPrototypeOf(ReferenceError)'"
+            "raw": "'Object.getPrototypeOf(ReferenceError)'",
+            "start": 338,
+            "end": 377
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 275,
+        "end": 378
+      },
+      "start": 275,
+      "end": 379
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 380
 }

@@ -1,89 +1,89 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 370,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 253,
-      "end": 369,
       "expression": {
         "type": "CallExpression",
-        "start": 253,
-        "end": 368,
         "callee": {
           "type": "MemberExpression",
-          "start": 253,
-          "end": 269,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 253,
-            "end": 259,
-            "name": "assert"
+            "end": 259
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 260,
-            "end": 269,
-            "name": "sameValue"
+            "end": 269
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 253,
+          "end": 269
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 270,
-            "end": 304,
             "callee": {
               "type": "MemberExpression",
-              "start": 270,
-              "end": 291,
               "object": {
                 "type": "Identifier",
+                "name": "RegExp",
                 "start": 270,
-                "end": 276,
-                "name": "RegExp"
+                "end": 276
               },
               "property": {
                 "type": "Identifier",
+                "name": "hasOwnProperty",
                 "start": 277,
-                "end": 291,
-                "name": "hasOwnProperty"
+                "end": 291
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 270,
+              "end": 291
             },
             "arguments": [
               {
                 "type": "Literal",
-                "start": 292,
-                "end": 303,
                 "value": "prototype",
-                "raw": "'prototype'"
+                "raw": "'prototype'",
+                "start": 292,
+                "end": 303
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 270,
+            "end": 304
           },
           {
             "type": "Literal",
-            "start": 306,
-            "end": 310,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "start": 306,
+            "end": 310
           },
           {
             "type": "Literal",
-            "start": 312,
-            "end": 367,
             "value": "RegExp.hasOwnProperty('prototype') must return true",
-            "raw": "'RegExp.hasOwnProperty(\\'prototype\\') must return true'"
+            "raw": "'RegExp.hasOwnProperty(\\'prototype\\') must return true'",
+            "start": 312,
+            "end": 367
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 253,
+        "end": 368
+      },
+      "start": 253,
+      "end": 369
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 370
 }

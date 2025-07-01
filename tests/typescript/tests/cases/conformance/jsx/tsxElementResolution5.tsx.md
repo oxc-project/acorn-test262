@@ -2,104 +2,104 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 85,
   "body": [
     {
       "type": "TSModuleDeclaration",
-      "start": 0,
-      "end": 45,
       "id": {
         "type": "Identifier",
-        "start": 15,
-        "end": 18,
         "decorators": [],
         "name": "JSX",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 15,
+        "end": 18
       },
       "body": {
         "type": "TSModuleBlock",
-        "start": 19,
-        "end": 45,
         "body": [
           {
             "type": "TSInterfaceDeclaration",
-            "start": 22,
-            "end": 43,
             "id": {
               "type": "Identifier",
-              "start": 32,
-              "end": 39,
               "decorators": [],
               "name": "Element",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 32,
+              "end": 39
             },
             "typeParameters": null,
             "extends": [],
             "body": {
               "type": "TSInterfaceBody",
+              "body": [],
               "start": 40,
-              "end": 43,
-              "body": []
+              "end": 43
             },
-            "declare": false
+            "declare": false,
+            "start": 22,
+            "end": 43
           }
-        ]
+        ],
+        "start": 19,
+        "end": 45
       },
       "kind": "module",
       "declare": true,
-      "global": false
+      "global": false,
+      "start": 0,
+      "end": 45
     },
     {
       "type": "ExpressionStatement",
-      "start": 71,
-      "end": 85,
       "expression": {
         "type": "JSXElement",
-        "start": 71,
-        "end": 84,
         "openingElement": {
           "type": "JSXOpeningElement",
-          "start": 71,
-          "end": 84,
           "name": {
             "type": "JSXIdentifier",
+            "name": "div",
             "start": 72,
-            "end": 75,
-            "name": "div"
+            "end": 75
           },
           "typeArguments": null,
           "attributes": [
             {
               "type": "JSXAttribute",
-              "start": 76,
-              "end": 81,
               "name": {
                 "type": "JSXIdentifier",
+                "name": "n",
                 "start": 76,
-                "end": 77,
-                "name": "n"
+                "end": 77
               },
               "value": {
                 "type": "Literal",
-                "start": 78,
-                "end": 81,
                 "value": "x",
-                "raw": "'x'"
-              }
+                "raw": "'x'",
+                "start": 78,
+                "end": 81
+              },
+              "start": 76,
+              "end": 81
             }
           ],
-          "selfClosing": true
+          "selfClosing": true,
+          "start": 71,
+          "end": 84
         },
         "children": [],
-        "closingElement": null
+        "closingElement": null,
+        "start": 71,
+        "end": 84
       },
-      "directive": null
+      "directive": null,
+      "start": 71,
+      "end": 85
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 85
 }
 ```

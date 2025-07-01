@@ -2,138 +2,138 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 97,
-  "end": 184,
   "body": [
     {
       "type": "TSEnumDeclaration",
-      "start": 97,
-      "end": 135,
       "id": {
         "type": "Identifier",
-        "start": 110,
-        "end": 111,
         "decorators": [],
         "name": "C",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 110,
+        "end": 111
       },
       "body": {
         "type": "TSEnumBody",
-        "start": 112,
-        "end": 135,
         "members": [
           {
             "type": "TSEnumMember",
-            "start": 118,
-            "end": 119,
             "id": {
               "type": "Identifier",
-              "start": 118,
-              "end": 119,
               "decorators": [],
               "name": "a",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 118,
+              "end": 119
             },
             "initializer": null,
-            "computed": false
+            "computed": false,
+            "start": 118,
+            "end": 119
           },
           {
             "type": "TSEnumMember",
-            "start": 125,
-            "end": 126,
             "id": {
               "type": "Identifier",
-              "start": 125,
-              "end": 126,
               "decorators": [],
               "name": "b",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 125,
+              "end": 126
             },
             "initializer": null,
-            "computed": false
+            "computed": false,
+            "start": 125,
+            "end": 126
           },
           {
             "type": "TSEnumMember",
-            "start": 132,
-            "end": 133,
             "id": {
               "type": "Identifier",
-              "start": 132,
-              "end": 133,
               "decorators": [],
               "name": "c",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 132,
+              "end": 133
             },
             "initializer": null,
-            "computed": false
+            "computed": false,
+            "start": 132,
+            "end": 133
           }
-        ]
+        ],
+        "start": 112,
+        "end": 135
       },
       "const": false,
-      "declare": true
+      "declare": true,
+      "start": 97,
+      "end": 135
     },
     {
       "type": "TSEnumDeclaration",
-      "start": 165,
-      "end": 183,
       "id": {
         "type": "Identifier",
-        "start": 178,
-        "end": 179,
         "decorators": [],
         "name": "D",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 178,
+        "end": 179
       },
       "body": {
         "type": "TSEnumBody",
+        "members": [],
         "start": 180,
-        "end": 183,
-        "members": []
+        "end": 183
       },
       "const": false,
-      "declare": true
+      "declare": true,
+      "start": 165,
+      "end": 183
     }
   ],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 97,
+  "end": 184
 }
 ```
 __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 28,
-  "end": 46,
   "body": [
     {
       "type": "TSEnumDeclaration",
-      "start": 28,
-      "end": 46,
       "id": {
         "type": "Identifier",
-        "start": 41,
-        "end": 42,
         "decorators": [],
         "name": "E",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 41,
+        "end": 42
       },
       "body": {
         "type": "TSEnumBody",
+        "members": [],
         "start": 43,
-        "end": 46,
-        "members": []
+        "end": 46
       },
       "const": false,
-      "declare": true
+      "declare": true,
+      "start": 28,
+      "end": 46
     }
   ],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 28,
+  "end": 46
 }
 ```

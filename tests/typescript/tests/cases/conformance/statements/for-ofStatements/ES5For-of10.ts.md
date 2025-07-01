@@ -2,21 +2,17 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 112,
   "body": [
     {
       "type": "FunctionDeclaration",
-      "start": 0,
-      "end": 39,
       "id": {
         "type": "Identifier",
-        "start": 9,
-        "end": 12,
         "decorators": [],
         "name": "foo",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 9,
+        "end": 12
       },
       "generator": false,
       "async": false,
@@ -26,207 +22,211 @@ __ESTREE_TEST__:PASS:
       "returnType": null,
       "body": {
         "type": "BlockStatement",
-        "start": 15,
-        "end": 39,
         "body": [
           {
             "type": "ReturnStatement",
-            "start": 21,
-            "end": 37,
             "argument": {
               "type": "ObjectExpression",
-              "start": 28,
-              "end": 36,
               "properties": [
                 {
                   "type": "Property",
-                  "start": 30,
-                  "end": 34,
                   "kind": "init",
                   "key": {
                     "type": "Identifier",
-                    "start": 30,
-                    "end": 31,
                     "decorators": [],
                     "name": "x",
                     "optional": false,
-                    "typeAnnotation": null
+                    "typeAnnotation": null,
+                    "start": 30,
+                    "end": 31
                   },
                   "value": {
                     "type": "Literal",
-                    "start": 33,
-                    "end": 34,
                     "value": 0,
-                    "raw": "0"
+                    "raw": "0",
+                    "start": 33,
+                    "end": 34
                   },
                   "method": false,
                   "shorthand": false,
                   "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "start": 30,
+                  "end": 34
                 }
-              ]
-            }
+              ],
+              "start": 28,
+              "end": 36
+            },
+            "start": 21,
+            "end": 37
           }
-        ]
+        ],
+        "start": 15,
+        "end": 39
       },
-      "expression": false
+      "expression": false,
+      "start": 0,
+      "end": 39
     },
     {
       "type": "ForOfStatement",
-      "start": 40,
-      "end": 112,
       "await": false,
       "left": {
         "type": "MemberExpression",
-        "start": 45,
-        "end": 52,
         "object": {
           "type": "CallExpression",
-          "start": 45,
-          "end": 50,
           "callee": {
             "type": "Identifier",
-            "start": 45,
-            "end": 48,
             "decorators": [],
             "name": "foo",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 45,
+            "end": 48
           },
           "typeArguments": null,
           "arguments": [],
-          "optional": false
+          "optional": false,
+          "start": 45,
+          "end": 50
         },
         "property": {
           "type": "Identifier",
-          "start": 51,
-          "end": 52,
           "decorators": [],
           "name": "x",
           "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "start": 51,
+          "end": 52
         },
         "optional": false,
-        "computed": false
+        "computed": false,
+        "start": 45,
+        "end": 52
       },
       "right": {
         "type": "ArrayExpression",
+        "elements": [],
         "start": 56,
-        "end": 58,
-        "elements": []
+        "end": 58
       },
       "body": {
         "type": "BlockStatement",
-        "start": 60,
-        "end": 112,
         "body": [
           {
             "type": "ForOfStatement",
-            "start": 66,
-            "end": 110,
             "await": false,
             "left": {
               "type": "MemberExpression",
-              "start": 71,
-              "end": 78,
               "object": {
                 "type": "CallExpression",
-                "start": 71,
-                "end": 76,
                 "callee": {
                   "type": "Identifier",
-                  "start": 71,
-                  "end": 74,
                   "decorators": [],
                   "name": "foo",
                   "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "start": 71,
+                  "end": 74
                 },
                 "typeArguments": null,
                 "arguments": [],
-                "optional": false
+                "optional": false,
+                "start": 71,
+                "end": 76
               },
               "property": {
                 "type": "Identifier",
-                "start": 77,
-                "end": 78,
                 "decorators": [],
                 "name": "x",
                 "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "start": 77,
+                "end": 78
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 71,
+              "end": 78
             },
             "right": {
               "type": "ArrayExpression",
+              "elements": [],
               "start": 82,
-              "end": 84,
-              "elements": []
+              "end": 84
             },
             "body": {
               "type": "VariableDeclaration",
-              "start": 94,
-              "end": 110,
               "kind": "var",
               "declarations": [
                 {
                   "type": "VariableDeclarator",
-                  "start": 98,
-                  "end": 109,
                   "id": {
                     "type": "Identifier",
-                    "start": 98,
-                    "end": 99,
                     "decorators": [],
                     "name": "p",
                     "optional": false,
-                    "typeAnnotation": null
+                    "typeAnnotation": null,
+                    "start": 98,
+                    "end": 99
                   },
                   "init": {
                     "type": "MemberExpression",
-                    "start": 102,
-                    "end": 109,
                     "object": {
                       "type": "CallExpression",
-                      "start": 102,
-                      "end": 107,
                       "callee": {
                         "type": "Identifier",
-                        "start": 102,
-                        "end": 105,
                         "decorators": [],
                         "name": "foo",
                         "optional": false,
-                        "typeAnnotation": null
+                        "typeAnnotation": null,
+                        "start": 102,
+                        "end": 105
                       },
                       "typeArguments": null,
                       "arguments": [],
-                      "optional": false
+                      "optional": false,
+                      "start": 102,
+                      "end": 107
                     },
                     "property": {
                       "type": "Identifier",
-                      "start": 108,
-                      "end": 109,
                       "decorators": [],
                       "name": "x",
                       "optional": false,
-                      "typeAnnotation": null
+                      "typeAnnotation": null,
+                      "start": 108,
+                      "end": 109
                     },
                     "optional": false,
-                    "computed": false
+                    "computed": false,
+                    "start": 102,
+                    "end": 109
                   },
-                  "definite": false
+                  "definite": false,
+                  "start": 98,
+                  "end": 109
                 }
               ],
-              "declare": false
-            }
+              "declare": false,
+              "start": 94,
+              "end": 110
+            },
+            "start": 66,
+            "end": 110
           }
-        ]
-      }
+        ],
+        "start": 60,
+        "end": 112
+      },
+      "start": 40,
+      "end": 112
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 112
 }
 ```

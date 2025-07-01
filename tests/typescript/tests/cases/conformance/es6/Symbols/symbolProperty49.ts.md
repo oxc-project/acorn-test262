@@ -2,74 +2,66 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 88,
   "body": [
     {
       "type": "TSModuleDeclaration",
-      "start": 0,
-      "end": 88,
       "id": {
         "type": "Identifier",
-        "start": 7,
-        "end": 8,
         "decorators": [],
         "name": "M",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 7,
+        "end": 8
       },
       "body": {
         "type": "TSModuleBlock",
-        "start": 9,
-        "end": 88,
         "body": [
           {
             "type": "ExportNamedDeclaration",
-            "start": 15,
-            "end": 33,
             "declaration": {
               "type": "VariableDeclaration",
-              "start": 22,
-              "end": 33,
               "kind": "var",
               "declarations": [
                 {
                   "type": "VariableDeclarator",
-                  "start": 26,
-                  "end": 32,
                   "id": {
                     "type": "Identifier",
-                    "start": 26,
-                    "end": 32,
                     "decorators": [],
                     "name": "Symbol",
                     "optional": false,
-                    "typeAnnotation": null
+                    "typeAnnotation": null,
+                    "start": 26,
+                    "end": 32
                   },
                   "init": null,
-                  "definite": false
+                  "definite": false,
+                  "start": 26,
+                  "end": 32
                 }
               ],
-              "declare": false
+              "declare": false,
+              "start": 22,
+              "end": 33
             },
             "specifiers": [],
             "source": null,
             "exportKind": "value",
-            "attributes": []
+            "attributes": [],
+            "start": 15,
+            "end": 33
           },
           {
             "type": "ClassDeclaration",
-            "start": 39,
-            "end": 86,
             "decorators": [],
             "id": {
               "type": "Identifier",
-              "start": 45,
-              "end": 46,
               "decorators": [],
               "name": "C",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 45,
+              "end": 46
             },
             "typeParameters": null,
             "superClass": null,
@@ -77,43 +69,37 @@ __ESTREE_TEST__:PASS:
             "implements": [],
             "body": {
               "type": "ClassBody",
-              "start": 47,
-              "end": 86,
               "body": [
                 {
                   "type": "MethodDefinition",
-                  "start": 57,
-                  "end": 80,
                   "decorators": [],
                   "key": {
                     "type": "MemberExpression",
-                    "start": 58,
-                    "end": 73,
                     "object": {
                       "type": "Identifier",
-                      "start": 58,
-                      "end": 64,
                       "decorators": [],
                       "name": "Symbol",
                       "optional": false,
-                      "typeAnnotation": null
+                      "typeAnnotation": null,
+                      "start": 58,
+                      "end": 64
                     },
                     "property": {
                       "type": "Identifier",
-                      "start": 65,
-                      "end": 73,
                       "decorators": [],
                       "name": "iterator",
                       "optional": false,
-                      "typeAnnotation": null
+                      "typeAnnotation": null,
+                      "start": 65,
+                      "end": 73
                     },
                     "optional": false,
-                    "computed": false
+                    "computed": false,
+                    "start": 58,
+                    "end": 73
                   },
                   "value": {
                     "type": "FunctionExpression",
-                    "start": 74,
-                    "end": 80,
                     "id": null,
                     "generator": false,
                     "async": false,
@@ -123,32 +109,46 @@ __ESTREE_TEST__:PASS:
                     "returnType": null,
                     "body": {
                       "type": "BlockStatement",
+                      "body": [],
                       "start": 77,
-                      "end": 80,
-                      "body": []
+                      "end": 80
                     },
-                    "expression": false
+                    "expression": false,
+                    "start": 74,
+                    "end": 80
                   },
                   "kind": "method",
                   "computed": true,
                   "static": false,
                   "override": false,
                   "optional": false,
-                  "accessibility": null
+                  "accessibility": null,
+                  "start": 57,
+                  "end": 80
                 }
-              ]
+              ],
+              "start": 47,
+              "end": 86
             },
             "abstract": false,
-            "declare": false
+            "declare": false,
+            "start": 39,
+            "end": 86
           }
-        ]
+        ],
+        "start": 9,
+        "end": 88
       },
       "kind": "module",
       "declare": false,
-      "global": false
+      "global": false,
+      "start": 0,
+      "end": 88
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 88
 }
 ```

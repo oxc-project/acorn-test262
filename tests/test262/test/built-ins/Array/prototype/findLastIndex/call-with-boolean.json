@@ -1,267 +1,267 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 589,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 285,
-      "end": 435,
       "expression": {
         "type": "CallExpression",
-        "start": 285,
-        "end": 434,
         "callee": {
           "type": "MemberExpression",
-          "start": 285,
-          "end": 301,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 285,
-            "end": 291,
-            "name": "assert"
+            "end": 291
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 292,
-            "end": 301,
-            "name": "sameValue"
+            "end": 301
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 285,
+          "end": 301
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 305,
-            "end": 355,
             "callee": {
               "type": "MemberExpression",
-              "start": 305,
-              "end": 339,
               "object": {
                 "type": "MemberExpression",
-                "start": 305,
-                "end": 334,
                 "object": {
                   "type": "MemberExpression",
-                  "start": 305,
-                  "end": 320,
                   "object": {
                     "type": "Identifier",
+                    "name": "Array",
                     "start": 305,
-                    "end": 310,
-                    "name": "Array"
+                    "end": 310
                   },
                   "property": {
                     "type": "Identifier",
+                    "name": "prototype",
                     "start": 311,
-                    "end": 320,
-                    "name": "prototype"
+                    "end": 320
                   },
                   "optional": false,
-                  "computed": false
+                  "computed": false,
+                  "start": 305,
+                  "end": 320
                 },
                 "property": {
                   "type": "Identifier",
+                  "name": "findLastIndex",
                   "start": 321,
-                  "end": 334,
-                  "name": "findLastIndex"
+                  "end": 334
                 },
                 "optional": false,
-                "computed": false
+                "computed": false,
+                "start": 305,
+                "end": 334
               },
               "property": {
                 "type": "Identifier",
+                "name": "call",
                 "start": 335,
-                "end": 339,
-                "name": "call"
+                "end": 339
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 305,
+              "end": 339
             },
             "arguments": [
               {
                 "type": "Literal",
-                "start": 340,
-                "end": 344,
                 "value": true,
-                "raw": "true"
+                "raw": "true",
+                "start": 340,
+                "end": 344
               },
               {
                 "type": "ArrowFunctionExpression",
-                "start": 346,
-                "end": 354,
                 "expression": false,
                 "async": false,
                 "params": [],
                 "body": {
                   "type": "BlockStatement",
+                  "body": [],
                   "start": 352,
-                  "end": 354,
-                  "body": []
+                  "end": 354
                 },
                 "id": null,
-                "generator": false
+                "generator": false,
+                "start": 346,
+                "end": 354
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 305,
+            "end": 355
           },
           {
             "type": "UnaryExpression",
-            "start": 359,
-            "end": 361,
             "operator": "-",
             "argument": {
               "type": "Literal",
-              "start": 360,
-              "end": 361,
               "value": 1,
-              "raw": "1"
+              "raw": "1",
+              "start": 360,
+              "end": 361
             },
-            "prefix": true
+            "prefix": true,
+            "start": 359,
+            "end": 361
           },
           {
             "type": "Literal",
-            "start": 365,
-            "end": 432,
             "value": "Array.prototype.findLastIndex.call(true, () => {}) must return -1",
-            "raw": "'Array.prototype.findLastIndex.call(true, () => {}) must return -1'"
+            "raw": "'Array.prototype.findLastIndex.call(true, () => {}) must return -1'",
+            "start": 365,
+            "end": 432
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 285,
+        "end": 434
+      },
+      "start": 285,
+      "end": 435
     },
     {
       "type": "ExpressionStatement",
-      "start": 436,
-      "end": 588,
       "expression": {
         "type": "CallExpression",
-        "start": 436,
-        "end": 587,
         "callee": {
           "type": "MemberExpression",
-          "start": 436,
-          "end": 452,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 436,
-            "end": 442,
-            "name": "assert"
+            "end": 442
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 443,
-            "end": 452,
-            "name": "sameValue"
+            "end": 452
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 436,
+          "end": 452
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 456,
-            "end": 507,
             "callee": {
               "type": "MemberExpression",
-              "start": 456,
-              "end": 490,
               "object": {
                 "type": "MemberExpression",
-                "start": 456,
-                "end": 485,
                 "object": {
                   "type": "MemberExpression",
-                  "start": 456,
-                  "end": 471,
                   "object": {
                     "type": "Identifier",
+                    "name": "Array",
                     "start": 456,
-                    "end": 461,
-                    "name": "Array"
+                    "end": 461
                   },
                   "property": {
                     "type": "Identifier",
+                    "name": "prototype",
                     "start": 462,
-                    "end": 471,
-                    "name": "prototype"
+                    "end": 471
                   },
                   "optional": false,
-                  "computed": false
+                  "computed": false,
+                  "start": 456,
+                  "end": 471
                 },
                 "property": {
                   "type": "Identifier",
+                  "name": "findLastIndex",
                   "start": 472,
-                  "end": 485,
-                  "name": "findLastIndex"
+                  "end": 485
                 },
                 "optional": false,
-                "computed": false
+                "computed": false,
+                "start": 456,
+                "end": 485
               },
               "property": {
                 "type": "Identifier",
+                "name": "call",
                 "start": 486,
-                "end": 490,
-                "name": "call"
+                "end": 490
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 456,
+              "end": 490
             },
             "arguments": [
               {
                 "type": "Literal",
-                "start": 491,
-                "end": 496,
                 "value": false,
-                "raw": "false"
+                "raw": "false",
+                "start": 491,
+                "end": 496
               },
               {
                 "type": "ArrowFunctionExpression",
-                "start": 498,
-                "end": 506,
                 "expression": false,
                 "async": false,
                 "params": [],
                 "body": {
                   "type": "BlockStatement",
+                  "body": [],
                   "start": 504,
-                  "end": 506,
-                  "body": []
+                  "end": 506
                 },
                 "id": null,
-                "generator": false
+                "generator": false,
+                "start": 498,
+                "end": 506
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 456,
+            "end": 507
           },
           {
             "type": "UnaryExpression",
-            "start": 511,
-            "end": 513,
             "operator": "-",
             "argument": {
               "type": "Literal",
-              "start": 512,
-              "end": 513,
               "value": 1,
-              "raw": "1"
+              "raw": "1",
+              "start": 512,
+              "end": 513
             },
-            "prefix": true
+            "prefix": true,
+            "start": 511,
+            "end": 513
           },
           {
             "type": "Literal",
-            "start": 517,
-            "end": 585,
             "value": "Array.prototype.findLastIndex.call(false, () => {}) must return -1",
-            "raw": "'Array.prototype.findLastIndex.call(false, () => {}) must return -1'"
+            "raw": "'Array.prototype.findLastIndex.call(false, () => {}) must return -1'",
+            "start": 517,
+            "end": 585
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 436,
+        "end": 587
+      },
+      "start": 436,
+      "end": 588
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 589
 }

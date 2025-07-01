@@ -1,155 +1,155 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 1487,
   "body": [
     {
       "type": "ClassDeclaration",
-      "start": 1384,
-      "end": 1486,
       "decorators": [],
       "id": {
         "type": "Identifier",
+        "name": "C",
         "start": 1390,
-        "end": 1391,
-        "name": "C"
+        "end": 1391
       },
       "superClass": null,
       "body": {
         "type": "ClassBody",
-        "start": 1392,
-        "end": 1486,
         "body": [
           {
             "type": "PropertyDefinition",
-            "start": 1396,
-            "end": 1403,
             "decorators": [],
             "key": {
               "type": "PrivateIdentifier",
+              "name": "$",
               "start": 1396,
-              "end": 1398,
-              "name": "$"
+              "end": 1398
             },
             "value": {
               "type": "Literal",
-              "start": 1401,
-              "end": 1402,
               "value": 1,
-              "raw": "1"
+              "raw": "1",
+              "start": 1401,
+              "end": 1402
             },
             "computed": false,
-            "static": false
+            "static": false,
+            "start": 1396,
+            "end": 1403
           },
           {
             "type": "PropertyDefinition",
-            "start": 1406,
-            "end": 1413,
             "decorators": [],
             "key": {
               "type": "PrivateIdentifier",
+              "name": "_",
               "start": 1406,
-              "end": 1408,
-              "name": "_"
+              "end": 1408
             },
             "value": {
               "type": "Literal",
-              "start": 1411,
-              "end": 1412,
               "value": 2,
-              "raw": "2"
+              "raw": "2",
+              "start": 1411,
+              "end": 1412
             },
             "computed": false,
-            "static": false
+            "static": false,
+            "start": 1406,
+            "end": 1413
           },
           {
             "type": "PropertyDefinition",
-            "start": 1416,
-            "end": 1428,
             "decorators": [],
             "key": {
               "type": "PrivateIdentifier",
+              "name": "o",
               "start": 1416,
-              "end": 1423,
-              "name": "o"
+              "end": 1423
             },
             "value": {
               "type": "Literal",
-              "start": 1426,
-              "end": 1427,
               "value": 3,
-              "raw": "3"
+              "raw": "3",
+              "start": 1426,
+              "end": 1427
             },
             "computed": false,
-            "static": false
+            "static": false,
+            "start": 1416,
+            "end": 1428
           },
           {
             "type": "PropertyDefinition",
-            "start": 1431,
-            "end": 1443,
             "decorators": [],
             "key": {
               "type": "PrivateIdentifier",
+              "name": "℘",
               "start": 1431,
-              "end": 1438,
-              "name": "℘"
+              "end": 1438
             },
             "value": {
               "type": "Literal",
-              "start": 1441,
-              "end": 1442,
               "value": 4,
-              "raw": "4"
+              "raw": "4",
+              "start": 1441,
+              "end": 1442
             },
             "computed": false,
-            "static": false
+            "static": false,
+            "start": 1431,
+            "end": 1443
           },
           {
             "type": "PropertyDefinition",
-            "start": 1446,
-            "end": 1464,
             "decorators": [],
             "key": {
               "type": "PrivateIdentifier",
+              "name": "ZW_‌_NJ",
               "start": 1446,
-              "end": 1459,
-              "name": "ZW_‌_NJ"
+              "end": 1459
             },
             "value": {
               "type": "Literal",
-              "start": 1462,
-              "end": 1463,
               "value": 5,
-              "raw": "5"
+              "raw": "5",
+              "start": 1462,
+              "end": 1463
             },
             "computed": false,
-            "static": false
+            "static": false,
+            "start": 1446,
+            "end": 1464
           },
           {
             "type": "PropertyDefinition",
-            "start": 1467,
-            "end": 1484,
             "decorators": [],
             "key": {
               "type": "PrivateIdentifier",
+              "name": "ZW_‍_J",
               "start": 1467,
-              "end": 1479,
-              "name": "ZW_‍_J"
+              "end": 1479
             },
             "value": {
               "type": "Literal",
-              "start": 1482,
-              "end": 1483,
               "value": 6,
-              "raw": "6"
+              "raw": "6",
+              "start": 1482,
+              "end": 1483
             },
             "computed": false,
-            "static": false
+            "static": false,
+            "start": 1467,
+            "end": 1484
           }
-        ]
-      }
+        ],
+        "start": 1392,
+        "end": 1486
+      },
+      "start": 1384,
+      "end": 1486
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 1487
 }

@@ -2,25 +2,19 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 288,
   "body": [
     {
       "type": "ExportNamedDeclaration",
-      "start": 0,
-      "end": 25,
       "declaration": {
         "type": "FunctionDeclaration",
-        "start": 7,
-        "end": 25,
         "id": {
           "type": "Identifier",
-          "start": 16,
-          "end": 19,
           "decorators": [],
           "name": "Foo",
           "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "start": 16,
+          "end": 19
         },
         "generator": false,
         "async": false,
@@ -30,71 +24,69 @@ __ESTREE_TEST__:PASS:
         "returnType": null,
         "body": {
           "type": "BlockStatement",
+          "body": [],
           "start": 22,
-          "end": 25,
-          "body": []
+          "end": 25
         },
-        "expression": false
+        "expression": false,
+        "start": 7,
+        "end": 25
       },
       "specifiers": [],
       "source": null,
       "exportKind": "value",
-      "attributes": []
+      "attributes": [],
+      "start": 0,
+      "end": 25
     },
     {
       "type": "ExpressionStatement",
-      "start": 249,
-      "end": 288,
       "expression": {
         "type": "AssignmentExpression",
-        "start": 249,
-        "end": 288,
         "operator": "=",
         "left": {
           "type": "MemberExpression",
-          "start": 249,
-          "end": 266,
           "object": {
             "type": "MemberExpression",
-            "start": 249,
-            "end": 262,
             "object": {
               "type": "Identifier",
-              "start": 249,
-              "end": 252,
               "decorators": [],
               "name": "Foo",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 249,
+              "end": 252
             },
             "property": {
               "type": "Identifier",
-              "start": 253,
-              "end": 262,
               "decorators": [],
               "name": "prototype",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 253,
+              "end": 262
             },
             "optional": false,
-            "computed": false
+            "computed": false,
+            "start": 249,
+            "end": 262
           },
           "property": {
             "type": "Identifier",
-            "start": 263,
-            "end": 266,
             "decorators": [],
             "name": "bar",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 263,
+            "end": 266
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 249,
+          "end": 266
         },
         "right": {
           "type": "FunctionExpression",
-          "start": 269,
-          "end": 288,
           "id": null,
           "generator": false,
           "async": false,
@@ -103,37 +95,45 @@ __ESTREE_TEST__:PASS:
           "params": [
             {
               "type": "Identifier",
-              "start": 279,
-              "end": 280,
               "decorators": [],
               "name": "a",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 279,
+              "end": 280
             },
             {
               "type": "Identifier",
-              "start": 282,
-              "end": 283,
               "decorators": [],
               "name": "b",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 282,
+              "end": 283
             }
           ],
           "returnType": null,
           "body": {
             "type": "BlockStatement",
+            "body": [],
             "start": 285,
-            "end": 288,
-            "body": []
+            "end": 288
           },
-          "expression": false
-        }
+          "expression": false,
+          "start": 269,
+          "end": 288
+        },
+        "start": 249,
+        "end": 288
       },
-      "directive": null
+      "directive": null,
+      "start": 249,
+      "end": 288
     }
   ],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 288
 }
 ```

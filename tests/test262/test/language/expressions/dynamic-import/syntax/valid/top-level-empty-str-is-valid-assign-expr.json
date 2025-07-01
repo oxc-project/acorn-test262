@@ -1,28 +1,28 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 422,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 410,
-      "end": 421,
       "expression": {
         "type": "ImportExpression",
-        "start": 410,
-        "end": 420,
         "source": {
           "type": "Literal",
-          "start": 417,
-          "end": 419,
           "value": "",
-          "raw": "''"
+          "raw": "''",
+          "start": 417,
+          "end": 419
         },
         "options": null,
-        "phase": null
-      }
+        "phase": null,
+        "start": 410,
+        "end": 420
+      },
+      "start": 410,
+      "end": 421
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 422
 }

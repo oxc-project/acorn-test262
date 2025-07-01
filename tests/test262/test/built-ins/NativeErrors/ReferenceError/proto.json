@@ -1,80 +1,80 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 408,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 344,
-      "end": 407,
       "expression": {
         "type": "CallExpression",
-        "start": 344,
-        "end": 406,
         "callee": {
           "type": "MemberExpression",
-          "start": 344,
-          "end": 360,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 344,
-            "end": 350,
-            "name": "assert"
+            "end": 350
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 351,
-            "end": 360,
-            "name": "sameValue"
+            "end": 360
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 344,
+          "end": 360
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 361,
-            "end": 398,
             "callee": {
               "type": "MemberExpression",
-              "start": 361,
-              "end": 382,
               "object": {
                 "type": "Identifier",
+                "name": "Object",
                 "start": 361,
-                "end": 367,
-                "name": "Object"
+                "end": 367
               },
               "property": {
                 "type": "Identifier",
+                "name": "getPrototypeOf",
                 "start": 368,
-                "end": 382,
-                "name": "getPrototypeOf"
+                "end": 382
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 361,
+              "end": 382
             },
             "arguments": [
               {
                 "type": "Identifier",
+                "name": "ReferenceError",
                 "start": 383,
-                "end": 397,
-                "name": "ReferenceError"
+                "end": 397
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 361,
+            "end": 398
           },
           {
             "type": "Identifier",
+            "name": "Error",
             "start": 400,
-            "end": 405,
-            "name": "Error"
+            "end": 405
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 344,
+        "end": 406
+      },
+      "start": 344,
+      "end": 407
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 408
 }

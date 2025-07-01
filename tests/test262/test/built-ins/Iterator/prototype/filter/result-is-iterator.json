@@ -1,113 +1,113 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 508,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 372,
-      "end": 507,
       "expression": {
         "type": "CallExpression",
-        "start": 372,
-        "end": 506,
         "callee": {
           "type": "Identifier",
+          "name": "assert",
           "start": 372,
-          "end": 378,
-          "name": "assert"
+          "end": 378
         },
         "arguments": [
           {
             "type": "BinaryExpression",
-            "start": 382,
-            "end": 440,
             "left": {
               "type": "CallExpression",
-              "start": 382,
-              "end": 420,
               "callee": {
                 "type": "MemberExpression",
-                "start": 382,
-                "end": 408,
                 "object": {
                   "type": "CallExpression",
-                  "start": 382,
-                  "end": 401,
                   "callee": {
                     "type": "ParenthesizedExpression",
-                    "start": 382,
-                    "end": 399,
                     "expression": {
                       "type": "FunctionExpression",
-                      "start": 383,
-                      "end": 398,
                       "id": null,
                       "generator": true,
                       "async": false,
                       "params": [],
                       "body": {
                         "type": "BlockStatement",
+                        "body": [],
                         "start": 396,
-                        "end": 398,
-                        "body": []
+                        "end": 398
                       },
-                      "expression": false
-                    }
+                      "expression": false,
+                      "start": 383,
+                      "end": 398
+                    },
+                    "start": 382,
+                    "end": 399
                   },
                   "arguments": [],
-                  "optional": false
+                  "optional": false,
+                  "start": 382,
+                  "end": 401
                 },
                 "property": {
                   "type": "Identifier",
+                  "name": "filter",
                   "start": 402,
-                  "end": 408,
-                  "name": "filter"
+                  "end": 408
                 },
                 "optional": false,
-                "computed": false
+                "computed": false,
+                "start": 382,
+                "end": 408
               },
               "arguments": [
                 {
                   "type": "ArrowFunctionExpression",
-                  "start": 409,
-                  "end": 419,
                   "expression": true,
                   "async": false,
                   "params": [],
                   "body": {
                     "type": "Literal",
-                    "start": 415,
-                    "end": 419,
                     "value": true,
-                    "raw": "true"
+                    "raw": "true",
+                    "start": 415,
+                    "end": 419
                   },
                   "id": null,
-                  "generator": false
+                  "generator": false,
+                  "start": 409,
+                  "end": 419
                 }
               ],
-              "optional": false
+              "optional": false,
+              "start": 382,
+              "end": 420
             },
             "operator": "instanceof",
             "right": {
               "type": "Identifier",
+              "name": "Iterator",
               "start": 432,
-              "end": 440,
-              "name": "Iterator"
-            }
+              "end": 440
+            },
+            "start": 382,
+            "end": 440
           },
           {
             "type": "Literal",
-            "start": 444,
-            "end": 504,
             "value": "function*(){}().filter(() => true) must return an Iterator",
-            "raw": "'function*(){}().filter(() => true) must return an Iterator'"
+            "raw": "'function*(){}().filter(() => true) must return an Iterator'",
+            "start": 444,
+            "end": 504
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 372,
+        "end": 506
+      },
+      "start": 372,
+      "end": 507
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 508
 }

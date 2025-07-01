@@ -1,63 +1,63 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 873,
   "body": [
     {
       "type": "SwitchStatement",
-      "start": 824,
-      "end": 869,
       "discriminant": {
         "type": "Literal",
-        "start": 832,
-        "end": 833,
         "value": 0,
-        "raw": "0"
+        "raw": "0",
+        "start": 832,
+        "end": 833
       },
       "cases": [
         {
           "type": "SwitchCase",
-          "start": 837,
-          "end": 867,
           "test": null,
           "consequent": [
             {
               "type": "FunctionDeclaration",
-              "start": 846,
-              "end": 867,
               "id": {
                 "type": "Identifier",
+                "name": "x",
                 "start": 861,
-                "end": 862,
-                "name": "x"
+                "end": 862
               },
               "generator": false,
               "async": true,
               "params": [],
               "body": {
                 "type": "BlockStatement",
+                "body": [],
                 "start": 865,
-                "end": 867,
-                "body": []
+                "end": 867
               },
-              "expression": false
+              "expression": false,
+              "start": 846,
+              "end": 867
             }
-          ]
+          ],
+          "start": 837,
+          "end": 867
         }
-      ]
+      ],
+      "start": 824,
+      "end": 869
     },
     {
       "type": "ExpressionStatement",
-      "start": 870,
-      "end": 872,
       "expression": {
         "type": "Identifier",
+        "name": "x",
         "start": 870,
-        "end": 871,
-        "name": "x"
-      }
+        "end": 871
+      },
+      "start": 870,
+      "end": 872
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 873
 }

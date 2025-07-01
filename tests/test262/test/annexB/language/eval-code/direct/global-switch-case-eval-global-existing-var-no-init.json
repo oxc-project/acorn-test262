@@ -1,74 +1,74 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 682,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 559,
-      "end": 681,
       "expression": {
         "type": "CallExpression",
-        "start": 559,
-        "end": 680,
         "callee": {
           "type": "Identifier",
+          "name": "eval",
           "start": 559,
-          "end": 563,
-          "name": "eval"
+          "end": 563
         },
         "arguments": [
           {
             "type": "BinaryExpression",
-            "start": 567,
-            "end": 678,
             "left": {
               "type": "BinaryExpression",
-              "start": 567,
-              "end": 666,
               "left": {
                 "type": "BinaryExpression",
-                "start": 567,
-                "end": 638,
                 "left": {
                   "type": "Literal",
-                  "start": 567,
-                  "end": 622,
                   "value": "var f = 123;  assert.sameValue(f, 123);switch (1) {",
-                  "raw": "'var f = 123;\\\n  assert.sameValue(f, 123);switch (1) {'"
+                  "raw": "'var f = 123;\\\n  assert.sameValue(f, 123);switch (1) {'",
+                  "start": 567,
+                  "end": 622
                 },
                 "operator": "+",
                 "right": {
                   "type": "Literal",
-                  "start": 627,
-                  "end": 638,
                   "value": "  case 1:",
-                  "raw": "'  case 1:'"
-                }
+                  "raw": "'  case 1:'",
+                  "start": 627,
+                  "end": 638
+                },
+                "start": 567,
+                "end": 638
               },
               "operator": "+",
               "right": {
                 "type": "Literal",
-                "start": 643,
-                "end": 666,
                 "value": "    function f() {  }",
-                "raw": "'    function f() {  }'"
-              }
+                "raw": "'    function f() {  }'",
+                "start": 643,
+                "end": 666
+              },
+              "start": 567,
+              "end": 666
             },
             "operator": "+",
             "right": {
               "type": "Literal",
-              "start": 671,
-              "end": 678,
               "value": "}  ",
-              "raw": "'}\\\n  '"
-            }
+              "raw": "'}\\\n  '",
+              "start": 671,
+              "end": 678
+            },
+            "start": 567,
+            "end": 678
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 559,
+        "end": 680
+      },
+      "start": 559,
+      "end": 681
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 682
 }

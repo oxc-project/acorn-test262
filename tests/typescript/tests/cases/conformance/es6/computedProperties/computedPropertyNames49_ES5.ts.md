@@ -2,88 +2,76 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 348,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 0,
-      "end": 348,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 4,
-          "end": 348,
           "id": {
             "type": "Identifier",
-            "start": 4,
-            "end": 5,
             "decorators": [],
             "name": "x",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 4,
+            "end": 5
           },
           "init": {
             "type": "ObjectExpression",
-            "start": 8,
-            "end": 348,
             "properties": [
               {
                 "type": "Property",
-                "start": 14,
-                "end": 20,
                 "kind": "init",
                 "key": {
                   "type": "Identifier",
-                  "start": 14,
-                  "end": 16,
                   "decorators": [],
                   "name": "p1",
                   "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "start": 14,
+                  "end": 16
                 },
                 "value": {
                   "type": "Literal",
-                  "start": 18,
-                  "end": 20,
                   "value": 10,
-                  "raw": "10"
+                  "raw": "10",
+                  "start": 18,
+                  "end": 20
                 },
                 "method": false,
                 "shorthand": false,
                 "computed": false,
-                "optional": false
+                "optional": false,
+                "start": 14,
+                "end": 20
               },
               {
                 "type": "Property",
-                "start": 26,
-                "end": 65,
                 "kind": "get",
                 "key": {
                   "type": "BinaryExpression",
-                  "start": 31,
-                  "end": 36,
                   "left": {
                     "type": "Literal",
-                    "start": 31,
-                    "end": 32,
                     "value": 1,
-                    "raw": "1"
+                    "raw": "1",
+                    "start": 31,
+                    "end": 32
                   },
                   "operator": "+",
                   "right": {
                     "type": "Literal",
-                    "start": 35,
-                    "end": 36,
                     "value": 1,
-                    "raw": "1"
-                  }
+                    "raw": "1",
+                    "start": 35,
+                    "end": 36
+                  },
+                  "start": 31,
+                  "end": 36
                 },
                 "value": {
                   "type": "FunctionExpression",
-                  "start": 37,
-                  "end": 65,
                   "id": null,
                   "generator": false,
                   "async": false,
@@ -93,59 +81,59 @@ __ESTREE_TEST__:PASS:
                   "returnType": null,
                   "body": {
                     "type": "BlockStatement",
-                    "start": 40,
-                    "end": 65,
                     "body": [
                       {
                         "type": "ThrowStatement",
-                        "start": 50,
-                        "end": 59,
                         "argument": {
                           "type": "Literal",
-                          "start": 56,
-                          "end": 58,
                           "value": 10,
-                          "raw": "10"
-                        }
+                          "raw": "10",
+                          "start": 56,
+                          "end": 58
+                        },
+                        "start": 50,
+                        "end": 59
                       }
-                    ]
+                    ],
+                    "start": 40,
+                    "end": 65
                   },
-                  "expression": false
+                  "expression": false,
+                  "start": 37,
+                  "end": 65
                 },
                 "method": false,
                 "shorthand": false,
                 "computed": true,
-                "optional": false
+                "optional": false,
+                "start": 26,
+                "end": 65
               },
               {
                 "type": "Property",
-                "start": 71,
-                "end": 111,
                 "kind": "get",
                 "key": {
                   "type": "BinaryExpression",
-                  "start": 76,
-                  "end": 81,
                   "left": {
                     "type": "Literal",
-                    "start": 76,
-                    "end": 77,
                     "value": 1,
-                    "raw": "1"
+                    "raw": "1",
+                    "start": 76,
+                    "end": 77
                   },
                   "operator": "+",
                   "right": {
                     "type": "Literal",
-                    "start": 80,
-                    "end": 81,
                     "value": 1,
-                    "raw": "1"
-                  }
+                    "raw": "1",
+                    "start": 80,
+                    "end": 81
+                  },
+                  "start": 76,
+                  "end": 81
                 },
                 "value": {
                   "type": "FunctionExpression",
-                  "start": 82,
-                  "end": 111,
                   "id": null,
                   "generator": false,
                   "async": false,
@@ -155,59 +143,59 @@ __ESTREE_TEST__:PASS:
                   "returnType": null,
                   "body": {
                     "type": "BlockStatement",
-                    "start": 85,
-                    "end": 111,
                     "body": [
                       {
                         "type": "ReturnStatement",
-                        "start": 95,
-                        "end": 105,
                         "argument": {
                           "type": "Literal",
-                          "start": 102,
-                          "end": 104,
                           "value": 10,
-                          "raw": "10"
-                        }
+                          "raw": "10",
+                          "start": 102,
+                          "end": 104
+                        },
+                        "start": 95,
+                        "end": 105
                       }
-                    ]
+                    ],
+                    "start": 85,
+                    "end": 111
                   },
-                  "expression": false
+                  "expression": false,
+                  "start": 82,
+                  "end": 111
                 },
                 "method": false,
                 "shorthand": false,
                 "computed": true,
-                "optional": false
+                "optional": false,
+                "start": 71,
+                "end": 111
               },
               {
                 "type": "Property",
-                "start": 117,
-                "end": 178,
                 "kind": "set",
                 "key": {
                   "type": "BinaryExpression",
-                  "start": 122,
-                  "end": 127,
                   "left": {
                     "type": "Literal",
-                    "start": 122,
-                    "end": 123,
                     "value": 1,
-                    "raw": "1"
+                    "raw": "1",
+                    "start": 122,
+                    "end": 123
                   },
                   "operator": "+",
                   "right": {
                     "type": "Literal",
-                    "start": 126,
-                    "end": 127,
                     "value": 1,
-                    "raw": "1"
-                  }
+                    "raw": "1",
+                    "start": 126,
+                    "end": 127
+                  },
+                  "start": 122,
+                  "end": 127
                 },
                 "value": {
                   "type": "FunctionExpression",
-                  "start": 128,
-                  "end": 178,
                   "id": null,
                   "generator": false,
                   "async": false,
@@ -217,48 +205,48 @@ __ESTREE_TEST__:PASS:
                   "returnType": null,
                   "body": {
                     "type": "BlockStatement",
-                    "start": 131,
-                    "end": 178,
                     "body": [
                       {
                         "type": "ThrowStatement",
-                        "start": 163,
-                        "end": 172,
                         "argument": {
                           "type": "Literal",
-                          "start": 169,
-                          "end": 171,
                           "value": 10,
-                          "raw": "10"
-                        }
+                          "raw": "10",
+                          "start": 169,
+                          "end": 171
+                        },
+                        "start": 163,
+                        "end": 172
                       }
-                    ]
+                    ],
+                    "start": 131,
+                    "end": 178
                   },
-                  "expression": false
+                  "expression": false,
+                  "start": 128,
+                  "end": 178
                 },
                 "method": false,
                 "shorthand": false,
                 "computed": true,
-                "optional": false
+                "optional": false,
+                "start": 117,
+                "end": 178
               },
               {
                 "type": "Property",
-                "start": 184,
-                "end": 256,
                 "kind": "get",
                 "key": {
                   "type": "Identifier",
+                  "decorators": [],
+                  "name": "foo",
+                  "optional": false,
+                  "typeAnnotation": null,
                   "start": 188,
-                  "end": 191,
-                  "decorators": [],
-                  "name": "foo",
-                  "optional": false,
-                  "typeAnnotation": null
+                  "end": 191
                 },
                 "value": {
                   "type": "FunctionExpression",
-                  "start": 191,
-                  "end": 256,
                   "id": null,
                   "generator": false,
                   "async": false,
@@ -268,81 +256,81 @@ __ESTREE_TEST__:PASS:
                   "returnType": null,
                   "body": {
                     "type": "BlockStatement",
-                    "start": 194,
-                    "end": 256,
                     "body": [
                       {
                         "type": "IfStatement",
-                        "start": 204,
-                        "end": 250,
                         "test": {
                           "type": "BinaryExpression",
-                          "start": 208,
-                          "end": 214,
                           "left": {
                             "type": "Literal",
-                            "start": 208,
-                            "end": 209,
                             "value": 1,
-                            "raw": "1"
+                            "raw": "1",
+                            "start": 208,
+                            "end": 209
                           },
                           "operator": "==",
                           "right": {
                             "type": "Literal",
-                            "start": 213,
-                            "end": 214,
                             "value": 1,
-                            "raw": "1"
-                          }
+                            "raw": "1",
+                            "start": 213,
+                            "end": 214
+                          },
+                          "start": 208,
+                          "end": 214
                         },
                         "consequent": {
                           "type": "BlockStatement",
-                          "start": 216,
-                          "end": 250,
                           "body": [
                             {
                               "type": "ReturnStatement",
-                              "start": 230,
-                              "end": 240,
                               "argument": {
                                 "type": "Literal",
-                                "start": 237,
-                                "end": 239,
                                 "value": 10,
-                                "raw": "10"
-                              }
+                                "raw": "10",
+                                "start": 237,
+                                "end": 239
+                              },
+                              "start": 230,
+                              "end": 240
                             }
-                          ]
+                          ],
+                          "start": 216,
+                          "end": 250
                         },
-                        "alternate": null
+                        "alternate": null,
+                        "start": 204,
+                        "end": 250
                       }
-                    ]
+                    ],
+                    "start": 194,
+                    "end": 256
                   },
-                  "expression": false
+                  "expression": false,
+                  "start": 191,
+                  "end": 256
                 },
                 "method": false,
                 "shorthand": false,
                 "computed": false,
-                "optional": false
+                "optional": false,
+                "start": 184,
+                "end": 256
               },
               {
                 "type": "Property",
-                "start": 262,
-                "end": 334,
                 "kind": "get",
                 "key": {
                   "type": "Identifier",
-                  "start": 266,
-                  "end": 269,
                   "decorators": [],
                   "name": "foo",
                   "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "start": 266,
+                  "end": 269
                 },
                 "value": {
                   "type": "FunctionExpression",
-                  "start": 269,
-                  "end": 334,
                   "id": null,
                   "generator": false,
                   "async": false,
@@ -352,98 +340,110 @@ __ESTREE_TEST__:PASS:
                   "returnType": null,
                   "body": {
                     "type": "BlockStatement",
-                    "start": 272,
-                    "end": 334,
                     "body": [
                       {
                         "type": "IfStatement",
-                        "start": 282,
-                        "end": 328,
                         "test": {
                           "type": "BinaryExpression",
-                          "start": 286,
-                          "end": 292,
                           "left": {
                             "type": "Literal",
-                            "start": 286,
-                            "end": 287,
                             "value": 2,
-                            "raw": "2"
+                            "raw": "2",
+                            "start": 286,
+                            "end": 287
                           },
                           "operator": "==",
                           "right": {
                             "type": "Literal",
-                            "start": 291,
-                            "end": 292,
                             "value": 2,
-                            "raw": "2"
-                          }
+                            "raw": "2",
+                            "start": 291,
+                            "end": 292
+                          },
+                          "start": 286,
+                          "end": 292
                         },
                         "consequent": {
                           "type": "BlockStatement",
-                          "start": 294,
-                          "end": 328,
                           "body": [
                             {
                               "type": "ReturnStatement",
-                              "start": 308,
-                              "end": 318,
                               "argument": {
                                 "type": "Literal",
-                                "start": 315,
-                                "end": 317,
                                 "value": 20,
-                                "raw": "20"
-                              }
+                                "raw": "20",
+                                "start": 315,
+                                "end": 317
+                              },
+                              "start": 308,
+                              "end": 318
                             }
-                          ]
+                          ],
+                          "start": 294,
+                          "end": 328
                         },
-                        "alternate": null
+                        "alternate": null,
+                        "start": 282,
+                        "end": 328
                       }
-                    ]
+                    ],
+                    "start": 272,
+                    "end": 334
                   },
-                  "expression": false
+                  "expression": false,
+                  "start": 269,
+                  "end": 334
                 },
                 "method": false,
                 "shorthand": false,
                 "computed": false,
-                "optional": false
+                "optional": false,
+                "start": 262,
+                "end": 334
               },
               {
                 "type": "Property",
-                "start": 340,
-                "end": 346,
                 "kind": "init",
                 "key": {
                   "type": "Identifier",
-                  "start": 340,
-                  "end": 342,
                   "decorators": [],
                   "name": "p2",
                   "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "start": 340,
+                  "end": 342
                 },
                 "value": {
                   "type": "Literal",
-                  "start": 344,
-                  "end": 346,
                   "value": 20,
-                  "raw": "20"
+                  "raw": "20",
+                  "start": 344,
+                  "end": 346
                 },
                 "method": false,
                 "shorthand": false,
                 "computed": false,
-                "optional": false
+                "optional": false,
+                "start": 340,
+                "end": 346
               }
-            ]
+            ],
+            "start": 8,
+            "end": 348
           },
-          "definite": false
+          "definite": false,
+          "start": 4,
+          "end": 348
         }
       ],
-      "declare": false
+      "declare": false,
+      "start": 0,
+      "end": 348
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 348
 }
 ```

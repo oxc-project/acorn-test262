@@ -2,72 +2,72 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 30,
   "body": [
     {
       "type": "TSTypeAliasDeclaration",
-      "start": 0,
-      "end": 30,
       "id": {
         "type": "Identifier",
-        "start": 5,
-        "end": 6,
         "decorators": [],
         "name": "A",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 5,
+        "end": 6
       },
       "typeParameters": {
         "type": "TSTypeParameterDeclaration",
-        "start": 6,
-        "end": 25,
         "params": [
           {
             "type": "TSTypeParameter",
-            "start": 7,
-            "end": 24,
             "name": {
               "type": "Identifier",
-              "start": 7,
-              "end": 8,
               "decorators": [],
               "name": "T",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 7,
+              "end": 8
             },
             "constraint": {
               "type": "TSTypeReference",
-              "start": 17,
-              "end": 24,
               "typeName": {
                 "type": "Identifier",
-                "start": 17,
-                "end": 24,
                 "decorators": [],
                 "name": "Unknown",
                 "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "start": 17,
+                "end": 24
               },
-              "typeArguments": null
+              "typeArguments": null,
+              "start": 17,
+              "end": 24
             },
             "default": null,
             "in": false,
             "out": false,
-            "const": false
+            "const": false,
+            "start": 7,
+            "end": 24
           }
-        ]
+        ],
+        "start": 6,
+        "end": 25
       },
       "typeAnnotation": {
         "type": "TSTypeLiteral",
+        "members": [],
         "start": 28,
-        "end": 30,
-        "members": []
+        "end": 30
       },
-      "declare": false
+      "declare": false,
+      "start": 0,
+      "end": 30
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 30
 }
 ```

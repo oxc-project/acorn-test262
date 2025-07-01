@@ -1,69 +1,69 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 393,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 292,
-      "end": 392,
       "expression": {
         "type": "CallExpression",
-        "start": 292,
-        "end": 391,
         "callee": {
           "type": "Identifier",
+          "name": "assert",
           "start": 292,
-          "end": 298,
-          "name": "assert"
+          "end": 298
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 299,
-            "end": 334,
             "callee": {
               "type": "MemberExpression",
-              "start": 299,
-              "end": 321,
               "object": {
                 "type": "Identifier",
+                "name": "Boolean",
                 "start": 299,
-                "end": 306,
-                "name": "Boolean"
+                "end": 306
               },
               "property": {
                 "type": "Identifier",
+                "name": "hasOwnProperty",
                 "start": 307,
-                "end": 321,
-                "name": "hasOwnProperty"
+                "end": 321
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 299,
+              "end": 321
             },
             "arguments": [
               {
                 "type": "Literal",
-                "start": 322,
-                "end": 333,
                 "value": "prototype",
-                "raw": "\"prototype\""
+                "raw": "\"prototype\"",
+                "start": 322,
+                "end": 333
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 299,
+            "end": 334
           },
           {
             "type": "Literal",
-            "start": 336,
-            "end": 390,
             "value": "Boolean.hasOwnProperty(\"prototype\") must return true",
-            "raw": "'Boolean.hasOwnProperty(\"prototype\") must return true'"
+            "raw": "'Boolean.hasOwnProperty(\"prototype\") must return true'",
+            "start": 336,
+            "end": 390
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 292,
+        "end": 391
+      },
+      "start": 292,
+      "end": 392
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 393
 }

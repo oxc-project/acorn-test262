@@ -1,221 +1,221 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 714,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 369,
-      "end": 542,
       "expression": {
         "type": "CallExpression",
-        "start": 369,
-        "end": 541,
         "callee": {
           "type": "MemberExpression",
-          "start": 369,
-          "end": 385,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 369,
-            "end": 375,
-            "name": "assert"
+            "end": 375
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 376,
-            "end": 385,
-            "name": "sameValue"
+            "end": 385
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 369,
+          "end": 385
         },
         "arguments": [
           {
             "type": "MemberExpression",
-            "start": 389,
-            "end": 472,
             "object": {
               "type": "NewExpression",
-              "start": 389,
-              "end": 461,
               "callee": {
                 "type": "MemberExpression",
-                "start": 393,
-                "end": 415,
                 "object": {
                   "type": "Identifier",
+                  "name": "Temporal",
                   "start": 393,
-                  "end": 401,
-                  "name": "Temporal"
+                  "end": 401
                 },
                 "property": {
                   "type": "Identifier",
+                  "name": "ZonedDateTime",
                   "start": 402,
-                  "end": 415,
-                  "name": "ZonedDateTime"
+                  "end": 415
                 },
                 "optional": false,
-                "computed": false
+                "computed": false,
+                "start": 393,
+                "end": 415
               },
               "arguments": [
                 {
                   "type": "Literal",
-                  "start": 416,
-                  "end": 442,
                   "value": null,
                   "raw": "1_704_112_496_987_654_321n",
-                  "bigint": "1704112496987654321"
+                  "bigint": "1704112496987654321",
+                  "start": 416,
+                  "end": 442
                 },
                 {
                   "type": "Literal",
-                  "start": 444,
-                  "end": 449,
                   "value": "UTC",
-                  "raw": "\"UTC\""
+                  "raw": "\"UTC\"",
+                  "start": 444,
+                  "end": 449
                 },
                 {
                   "type": "Literal",
-                  "start": 451,
-                  "end": 460,
                   "value": "gregory",
-                  "raw": "\"gregory\""
+                  "raw": "\"gregory\"",
+                  "start": 451,
+                  "end": 460
                 }
-              ]
+              ],
+              "start": 389,
+              "end": 461
             },
             "property": {
               "type": "Identifier",
+              "name": "weekOfYear",
               "start": 462,
-              "end": 472,
-              "name": "weekOfYear"
+              "end": 472
             },
             "optional": false,
-            "computed": false
+            "computed": false,
+            "start": 389,
+            "end": 472
           },
           {
             "type": "Identifier",
+            "name": "undefined",
             "start": 476,
-            "end": 485,
-            "name": "undefined"
+            "end": 485
           },
           {
             "type": "Literal",
-            "start": 489,
-            "end": 539,
             "value": "Gregorian calendar does not provide week numbers",
-            "raw": "\"Gregorian calendar does not provide week numbers\""
+            "raw": "\"Gregorian calendar does not provide week numbers\"",
+            "start": 489,
+            "end": 539
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 369,
+        "end": 541
+      },
+      "start": 369,
+      "end": 542
     },
     {
       "type": "ExpressionStatement",
-      "start": 544,
-      "end": 713,
       "expression": {
         "type": "CallExpression",
-        "start": 544,
-        "end": 712,
         "callee": {
           "type": "MemberExpression",
-          "start": 544,
-          "end": 560,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 544,
-            "end": 550,
-            "name": "assert"
+            "end": 550
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 551,
-            "end": 560,
-            "name": "sameValue"
+            "end": 560
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 544,
+          "end": 560
         },
         "arguments": [
           {
             "type": "MemberExpression",
-            "start": 564,
-            "end": 646,
             "object": {
               "type": "NewExpression",
-              "start": 564,
-              "end": 635,
               "callee": {
                 "type": "MemberExpression",
-                "start": 568,
-                "end": 590,
                 "object": {
                   "type": "Identifier",
+                  "name": "Temporal",
                   "start": 568,
-                  "end": 576,
-                  "name": "Temporal"
+                  "end": 576
                 },
                 "property": {
                   "type": "Identifier",
+                  "name": "ZonedDateTime",
                   "start": 577,
-                  "end": 590,
-                  "name": "ZonedDateTime"
+                  "end": 590
                 },
                 "optional": false,
-                "computed": false
+                "computed": false,
+                "start": 568,
+                "end": 590
               },
               "arguments": [
                 {
                   "type": "Literal",
-                  "start": 591,
-                  "end": 617,
                   "value": null,
                   "raw": "1_704_112_496_987_654_321n",
-                  "bigint": "1704112496987654321"
+                  "bigint": "1704112496987654321",
+                  "start": 591,
+                  "end": 617
                 },
                 {
                   "type": "Literal",
-                  "start": 619,
-                  "end": 624,
                   "value": "UTC",
-                  "raw": "\"UTC\""
+                  "raw": "\"UTC\"",
+                  "start": 619,
+                  "end": 624
                 },
                 {
                   "type": "Literal",
-                  "start": 626,
-                  "end": 634,
                   "value": "hebrew",
-                  "raw": "\"hebrew\""
+                  "raw": "\"hebrew\"",
+                  "start": 626,
+                  "end": 634
                 }
-              ]
+              ],
+              "start": 564,
+              "end": 635
             },
             "property": {
               "type": "Identifier",
+              "name": "weekOfYear",
               "start": 636,
-              "end": 646,
-              "name": "weekOfYear"
+              "end": 646
             },
             "optional": false,
-            "computed": false
+            "computed": false,
+            "start": 564,
+            "end": 646
           },
           {
             "type": "Identifier",
+            "name": "undefined",
             "start": 650,
-            "end": 659,
-            "name": "undefined"
+            "end": 659
           },
           {
             "type": "Literal",
-            "start": 663,
-            "end": 710,
             "value": "Hebrew calendar does not provide week numbers",
-            "raw": "\"Hebrew calendar does not provide week numbers\""
+            "raw": "\"Hebrew calendar does not provide week numbers\"",
+            "start": 663,
+            "end": 710
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 544,
+        "end": 712
+      },
+      "start": 544,
+      "end": 713
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 714
 }

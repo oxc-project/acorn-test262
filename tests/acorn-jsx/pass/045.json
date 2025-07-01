@@ -1,64 +1,64 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 15,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 0,
-      "end": 15,
       "expression": {
         "type": "JSXElement",
-        "start": 0,
-        "end": 15,
         "openingElement": {
           "type": "JSXOpeningElement",
-          "start": 0,
-          "end": 3,
           "name": {
             "type": "JSXIdentifier",
+            "name": "A",
             "start": 1,
-            "end": 2,
-            "name": "A"
+            "end": 2
           },
           "attributes": [],
-          "selfClosing": false
+          "selfClosing": false,
+          "start": 0,
+          "end": 3
         },
         "children": [
           {
             "type": "JSXText",
-            "start": 3,
-            "end": 6,
             "value": "foo",
-            "raw": "foo"
+            "raw": "foo",
+            "start": 3,
+            "end": 6
           },
           {
             "type": "JSXExpressionContainer",
-            "start": 6,
-            "end": 11,
             "expression": {
               "type": "Literal",
-              "start": 7,
-              "end": 10,
               "value": ">",
-              "raw": "\">\""
-            }
+              "raw": "\">\"",
+              "start": 7,
+              "end": 10
+            },
+            "start": 6,
+            "end": 11
           }
         ],
         "closingElement": {
           "type": "JSXClosingElement",
-          "start": 11,
-          "end": 15,
           "name": {
             "type": "JSXIdentifier",
+            "name": "A",
             "start": 13,
-            "end": 14,
-            "name": "A"
-          }
-        }
-      }
+            "end": 14
+          },
+          "start": 11,
+          "end": 15
+        },
+        "start": 0,
+        "end": 15
+      },
+      "start": 0,
+      "end": 15
     }
   ],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 15
 }

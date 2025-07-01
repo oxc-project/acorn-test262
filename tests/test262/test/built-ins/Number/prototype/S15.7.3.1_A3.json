@@ -1,67 +1,67 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 340,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 256,
-      "end": 339,
       "expression": {
         "type": "CallExpression",
-        "start": 256,
-        "end": 338,
         "callee": {
           "type": "Identifier",
+          "name": "assert",
           "start": 256,
-          "end": 262,
-          "name": "assert"
+          "end": 262
         },
         "arguments": [
           {
             "type": "BinaryExpression",
-            "start": 263,
-            "end": 284,
             "left": {
               "type": "MemberExpression",
-              "start": 263,
-              "end": 279,
               "object": {
                 "type": "Identifier",
+                "name": "Number",
                 "start": 263,
-                "end": 269,
-                "name": "Number"
+                "end": 269
               },
               "property": {
                 "type": "Identifier",
+                "name": "prototype",
                 "start": 270,
-                "end": 279,
-                "name": "prototype"
+                "end": 279
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 263,
+              "end": 279
             },
             "operator": "==",
             "right": {
               "type": "Literal",
-              "start": 283,
-              "end": 284,
               "value": 0,
-              "raw": "0"
-            }
+              "raw": "0",
+              "start": 283,
+              "end": 284
+            },
+            "start": 263,
+            "end": 284
           },
           {
             "type": "Literal",
-            "start": 286,
-            "end": 337,
             "value": "The value of Number.prototype is expected to be 0",
-            "raw": "'The value of Number.prototype is expected to be 0'"
+            "raw": "'The value of Number.prototype is expected to be 0'",
+            "start": 286,
+            "end": 337
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 256,
+        "end": 338
+      },
+      "start": 256,
+      "end": 339
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 340
 }

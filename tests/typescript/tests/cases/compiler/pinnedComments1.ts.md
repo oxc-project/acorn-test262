@@ -2,22 +2,18 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 128,
-  "end": 139,
   "body": [
     {
       "type": "ClassDeclaration",
-      "start": 128,
-      "end": 139,
       "decorators": [],
       "id": {
         "type": "Identifier",
-        "start": 134,
-        "end": 135,
         "decorators": [],
         "name": "C",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 134,
+        "end": 135
       },
       "typeParameters": null,
       "superClass": null,
@@ -25,15 +21,19 @@ __ESTREE_TEST__:PASS:
       "implements": [],
       "body": {
         "type": "ClassBody",
+        "body": [],
         "start": 136,
-        "end": 139,
-        "body": []
+        "end": 139
       },
       "abstract": false,
-      "declare": false
+      "declare": false,
+      "start": 128,
+      "end": 139
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 128,
+  "end": 139
 }
 ```

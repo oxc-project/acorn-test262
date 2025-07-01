@@ -2,120 +2,120 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 40,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 0,
-      "end": 30,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 4,
-          "end": 29,
           "id": {
             "type": "Identifier",
-            "start": 4,
-            "end": 5,
             "decorators": [],
             "name": "s",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 4,
+            "end": 5
           },
           "init": {
             "type": "CallExpression",
-            "start": 8,
-            "end": 29,
             "callee": {
               "type": "MemberExpression",
-              "start": 8,
-              "end": 18,
               "object": {
                 "type": "Identifier",
-                "start": 8,
-                "end": 14,
                 "decorators": [],
                 "name": "Symbol",
                 "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "start": 8,
+                "end": 14
               },
               "property": {
                 "type": "Identifier",
-                "start": 15,
-                "end": 18,
                 "decorators": [],
                 "name": "for",
                 "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "start": 15,
+                "end": 18
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 8,
+              "end": 18
             },
             "typeArguments": null,
             "arguments": [
               {
                 "type": "Literal",
-                "start": 19,
-                "end": 28,
                 "value": "postfix",
-                "raw": "\"postfix\""
+                "raw": "\"postfix\"",
+                "start": 19,
+                "end": 28
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 8,
+            "end": 29
           },
-          "definite": false
+          "definite": false,
+          "start": 4,
+          "end": 29
         }
       ],
-      "declare": false
+      "declare": false,
+      "start": 0,
+      "end": 30
     },
     {
       "type": "ExpressionStatement",
-      "start": 31,
-      "end": 35,
       "expression": {
         "type": "UpdateExpression",
-        "start": 31,
-        "end": 34,
         "operator": "++",
         "prefix": false,
         "argument": {
           "type": "Identifier",
-          "start": 31,
-          "end": 32,
           "decorators": [],
           "name": "s",
           "optional": false,
-          "typeAnnotation": null
-        }
+          "typeAnnotation": null,
+          "start": 31,
+          "end": 32
+        },
+        "start": 31,
+        "end": 34
       },
-      "directive": null
+      "directive": null,
+      "start": 31,
+      "end": 35
     },
     {
       "type": "ExpressionStatement",
-      "start": 36,
-      "end": 40,
       "expression": {
         "type": "UpdateExpression",
-        "start": 36,
-        "end": 39,
         "operator": "--",
         "prefix": false,
         "argument": {
           "type": "Identifier",
-          "start": 36,
-          "end": 37,
           "decorators": [],
           "name": "s",
           "optional": false,
-          "typeAnnotation": null
-        }
+          "typeAnnotation": null,
+          "start": 36,
+          "end": 37
+        },
+        "start": 36,
+        "end": 39
       },
-      "directive": null
+      "directive": null,
+      "start": 36,
+      "end": 40
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 40
 }
 ```

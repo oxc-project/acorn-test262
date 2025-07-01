@@ -2,22 +2,18 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 69,
   "body": [
     {
       "type": "ClassDeclaration",
-      "start": 0,
-      "end": 69,
       "decorators": [],
       "id": {
         "type": "Identifier",
-        "start": 6,
-        "end": 7,
         "decorators": [],
         "name": "A",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 6,
+        "end": 7
       },
       "typeParameters": null,
       "superClass": null,
@@ -25,27 +21,21 @@ __ESTREE_TEST__:PASS:
       "implements": [],
       "body": {
         "type": "ClassBody",
-        "start": 8,
-        "end": 69,
         "body": [
           {
             "type": "MethodDefinition",
-            "start": 14,
-            "end": 67,
             "decorators": [],
             "key": {
               "type": "Identifier",
-              "start": 21,
-              "end": 23,
               "decorators": [],
               "name": "f1",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 21,
+              "end": 23
             },
             "value": {
               "type": "FunctionExpression",
-              "start": 23,
-              "end": 67,
               "id": null,
               "generator": false,
               "async": false,
@@ -55,60 +45,70 @@ __ESTREE_TEST__:PASS:
               "returnType": null,
               "body": {
                 "type": "BlockStatement",
-                "start": 26,
-                "end": 67,
                 "body": [
                   {
                     "type": "ReturnStatement",
-                    "start": 36,
-                    "end": 61,
                     "argument": {
                       "type": "ArrowFunctionExpression",
-                      "start": 43,
-                      "end": 61,
                       "expression": false,
                       "async": false,
                       "typeParameters": null,
                       "params": [
                         {
                           "type": "Identifier",
-                          "start": 44,
-                          "end": 45,
                           "decorators": [],
                           "name": "X",
                           "optional": false,
-                          "typeAnnotation": null
+                          "typeAnnotation": null,
+                          "start": 44,
+                          "end": 45
                         }
                       ],
                       "returnType": null,
                       "body": {
                         "type": "BlockStatement",
+                        "body": [],
                         "start": 50,
-                        "end": 61,
-                        "body": []
+                        "end": 61
                       },
                       "id": null,
-                      "generator": false
-                    }
+                      "generator": false,
+                      "start": 43,
+                      "end": 61
+                    },
+                    "start": 36,
+                    "end": 61
                   }
-                ]
+                ],
+                "start": 26,
+                "end": 67
               },
-              "expression": false
+              "expression": false,
+              "start": 23,
+              "end": 67
             },
             "kind": "method",
             "computed": false,
             "static": false,
             "override": false,
             "optional": false,
-            "accessibility": "public"
+            "accessibility": "public",
+            "start": 14,
+            "end": 67
           }
-        ]
+        ],
+        "start": 8,
+        "end": 69
       },
       "abstract": false,
-      "declare": false
+      "declare": false,
+      "start": 0,
+      "end": 69
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 69
 }
 ```

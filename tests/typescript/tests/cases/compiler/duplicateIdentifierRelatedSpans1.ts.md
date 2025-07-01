@@ -2,22 +2,18 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 28,
   "body": [
     {
       "type": "ClassDeclaration",
-      "start": 0,
-      "end": 13,
       "decorators": [],
       "id": {
         "type": "Identifier",
-        "start": 6,
-        "end": 9,
         "decorators": [],
         "name": "Foo",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 6,
+        "end": 9
       },
       "typeParameters": null,
       "superClass": null,
@@ -25,68 +21,68 @@ __ESTREE_TEST__:PASS:
       "implements": [],
       "body": {
         "type": "ClassBody",
+        "body": [],
         "start": 10,
-        "end": 13,
-        "body": []
+        "end": 13
       },
       "abstract": false,
-      "declare": false
+      "declare": false,
+      "start": 0,
+      "end": 13
     },
     {
       "type": "VariableDeclaration",
-      "start": 14,
-      "end": 28,
       "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 20,
-          "end": 27,
           "id": {
             "type": "Identifier",
-            "start": 20,
-            "end": 23,
             "decorators": [],
             "name": "Bar",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 20,
+            "end": 23
           },
           "init": {
             "type": "Literal",
-            "start": 26,
-            "end": 27,
             "value": 3,
-            "raw": "3"
+            "raw": "3",
+            "start": 26,
+            "end": 27
           },
-          "definite": false
+          "definite": false,
+          "start": 20,
+          "end": 27
         }
       ],
-      "declare": false
+      "declare": false,
+      "start": 14,
+      "end": 28
     }
   ],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 28
 }
 ```
 __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 31,
   "body": [
     {
       "type": "TSTypeAliasDeclaration",
-      "start": 0,
-      "end": 18,
       "id": {
         "type": "Identifier",
-        "start": 5,
-        "end": 8,
         "decorators": [],
         "name": "Foo",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 5,
+        "end": 8
       },
       "typeParameters": null,
       "typeAnnotation": {
@@ -94,21 +90,21 @@ __ESTREE_TEST__:PASS:
         "start": 11,
         "end": 17
       },
-      "declare": false
+      "declare": false,
+      "start": 0,
+      "end": 18
     },
     {
       "type": "ClassDeclaration",
-      "start": 19,
-      "end": 31,
       "decorators": [],
       "id": {
         "type": "Identifier",
-        "start": 25,
-        "end": 28,
         "decorators": [],
         "name": "Bar",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 25,
+        "end": 28
       },
       "typeParameters": null,
       "superClass": null,
@@ -116,86 +112,90 @@ __ESTREE_TEST__:PASS:
       "implements": [],
       "body": {
         "type": "ClassBody",
+        "body": [],
         "start": 29,
-        "end": 31,
-        "body": []
+        "end": 31
       },
       "abstract": false,
-      "declare": false
+      "declare": false,
+      "start": 19,
+      "end": 31
     }
   ],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 31
 }
 ```
 __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 27,
   "body": [
     {
       "type": "TSTypeAliasDeclaration",
-      "start": 0,
-      "end": 14,
       "id": {
         "type": "Identifier",
-        "start": 5,
-        "end": 8,
         "decorators": [],
         "name": "Foo",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 5,
+        "end": 8
       },
       "typeParameters": null,
       "typeAnnotation": {
         "type": "TSLiteralType",
-        "start": 11,
-        "end": 13,
         "literal": {
           "type": "Literal",
-          "start": 11,
-          "end": 13,
           "value": 54,
-          "raw": "54"
-        }
+          "raw": "54",
+          "start": 11,
+          "end": 13
+        },
+        "start": 11,
+        "end": 13
       },
-      "declare": false
+      "declare": false,
+      "start": 0,
+      "end": 14
     },
     {
       "type": "VariableDeclaration",
-      "start": 15,
-      "end": 27,
       "kind": "let",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 19,
-          "end": 27,
           "id": {
             "type": "Identifier",
-            "start": 19,
-            "end": 22,
             "decorators": [],
             "name": "Bar",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 19,
+            "end": 22
           },
           "init": {
             "type": "Literal",
-            "start": 25,
-            "end": 27,
             "value": 42,
-            "raw": "42"
+            "raw": "42",
+            "start": 25,
+            "end": 27
           },
-          "definite": false
+          "definite": false,
+          "start": 19,
+          "end": 27
         }
       ],
-      "declare": false
+      "declare": false,
+      "start": 15,
+      "end": 27
     }
   ],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 27
 }
 ```

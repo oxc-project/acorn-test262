@@ -2,26 +2,26 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 16,
   "body": [
     {
       "type": "SwitchStatement",
-      "start": 0,
-      "end": 16,
       "discriminant": {
         "type": "Identifier",
-        "start": 8,
-        "end": 11,
         "decorators": [],
         "name": "foo",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 8,
+        "end": 11
       },
-      "cases": []
+      "cases": [],
+      "start": 0,
+      "end": 16
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 16
 }
 ```

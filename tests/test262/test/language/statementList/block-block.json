@@ -1,21 +1,21 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 865,
   "body": [
     {
       "type": "BlockStatement",
+      "body": [],
       "start": 860,
-      "end": 862,
-      "body": []
+      "end": 862
     },
     {
       "type": "BlockStatement",
+      "body": [],
       "start": 862,
-      "end": 864,
-      "body": []
+      "end": 864
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 865
 }

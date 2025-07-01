@@ -2,21 +2,17 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 104,
   "body": [
     {
       "type": "FunctionDeclaration",
-      "start": 0,
-      "end": 37,
       "id": {
         "type": "Identifier",
-        "start": 9,
-        "end": 16,
         "decorators": [],
         "name": "require",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 9,
+        "end": 16
       },
       "generator": false,
       "async": false,
@@ -25,154 +21,158 @@ __ESTREE_TEST__:PASS:
       "params": [
         {
           "type": "Identifier",
-          "start": 17,
-          "end": 18,
           "decorators": [],
           "name": "a",
           "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "start": 17,
+          "end": 18
         }
       ],
       "returnType": null,
       "body": {
         "type": "BlockStatement",
-        "start": 20,
-        "end": 37,
         "body": [
           {
             "type": "ReturnStatement",
-            "start": 26,
-            "end": 35,
             "argument": {
               "type": "Identifier",
-              "start": 33,
-              "end": 34,
               "decorators": [],
               "name": "a",
               "optional": false,
-              "typeAnnotation": null
-            }
+              "typeAnnotation": null,
+              "start": 33,
+              "end": 34
+            },
+            "start": 26,
+            "end": 35
           }
-        ]
+        ],
+        "start": 20,
+        "end": 37
       },
-      "expression": false
+      "expression": false,
+      "start": 0,
+      "end": 37
     },
     {
       "type": "VariableDeclaration",
-      "start": 39,
-      "end": 64,
       "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 45,
-          "end": 63,
           "id": {
             "type": "Identifier",
-            "start": 45,
-            "end": 47,
             "decorators": [],
             "name": "fs",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 45,
+            "end": 47
           },
           "init": {
             "type": "CallExpression",
-            "start": 50,
-            "end": 63,
             "callee": {
               "type": "Identifier",
-              "start": 50,
-              "end": 57,
               "decorators": [],
               "name": "require",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 50,
+              "end": 57
             },
             "typeArguments": null,
             "arguments": [
               {
                 "type": "Literal",
-                "start": 58,
-                "end": 62,
                 "value": "fs",
-                "raw": "\"fs\""
+                "raw": "\"fs\"",
+                "start": 58,
+                "end": 62
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 50,
+            "end": 63
           },
-          "definite": false
+          "definite": false,
+          "start": 45,
+          "end": 63
         }
       ],
-      "declare": false
+      "declare": false,
+      "start": 39,
+      "end": 64
     },
     {
       "type": "VariableDeclaration",
-      "start": 65,
-      "end": 104,
       "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 71,
-          "end": 103,
           "id": {
             "type": "Identifier",
-            "start": 71,
-            "end": 75,
             "decorators": [],
             "name": "text",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 71,
+            "end": 75
           },
           "init": {
             "type": "CallExpression",
-            "start": 78,
-            "end": 103,
             "callee": {
               "type": "MemberExpression",
-              "start": 78,
-              "end": 93,
               "object": {
                 "type": "Identifier",
-                "start": 78,
-                "end": 80,
                 "decorators": [],
                 "name": "fs",
                 "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "start": 78,
+                "end": 80
               },
               "property": {
                 "type": "Identifier",
-                "start": 81,
-                "end": 93,
                 "decorators": [],
                 "name": "readFileSync",
                 "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "start": 81,
+                "end": 93
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 78,
+              "end": 93
             },
             "typeArguments": null,
             "arguments": [
               {
                 "type": "Literal",
-                "start": 94,
-                "end": 102,
                 "value": "/a/b/c",
-                "raw": "\"/a/b/c\""
+                "raw": "\"/a/b/c\"",
+                "start": 94,
+                "end": 102
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 78,
+            "end": 103
           },
-          "definite": false
+          "definite": false,
+          "start": 71,
+          "end": 103
         }
       ],
-      "declare": false
+      "declare": false,
+      "start": 65,
+      "end": 104
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 104
 }
 ```

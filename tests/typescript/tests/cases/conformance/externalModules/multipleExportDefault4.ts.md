@@ -2,26 +2,20 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 76,
   "body": [
     {
       "type": "ExportDefaultDeclaration",
-      "start": 0,
-      "end": 26,
       "declaration": {
         "type": "ClassDeclaration",
-        "start": 15,
-        "end": 26,
         "decorators": [],
         "id": {
           "type": "Identifier",
-          "start": 21,
-          "end": 22,
           "decorators": [],
           "name": "C",
           "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "start": 21,
+          "end": 22
         },
         "typeParameters": null,
         "superClass": null,
@@ -29,56 +23,62 @@ __ESTREE_TEST__:PASS:
         "implements": [],
         "body": {
           "type": "ClassBody",
+          "body": [],
           "start": 23,
-          "end": 26,
-          "body": []
+          "end": 26
         },
         "abstract": false,
-        "declare": false
+        "declare": false,
+        "start": 15,
+        "end": 26
       },
-      "exportKind": "value"
+      "exportKind": "value",
+      "start": 0,
+      "end": 26
     },
     {
       "type": "ExportDefaultDeclaration",
-      "start": 28,
-      "end": 76,
       "declaration": {
         "type": "ObjectExpression",
-        "start": 43,
-        "end": 75,
         "properties": [
           {
             "type": "Property",
-            "start": 49,
-            "end": 72,
             "kind": "init",
             "key": {
               "type": "Identifier",
-              "start": 49,
-              "end": 53,
               "decorators": [],
               "name": "uhoh",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 49,
+              "end": 53
             },
             "value": {
               "type": "Literal",
-              "start": 55,
-              "end": 72,
               "value": "another default",
-              "raw": "\"another default\""
+              "raw": "\"another default\"",
+              "start": 55,
+              "end": 72
             },
             "method": false,
             "shorthand": false,
             "computed": false,
-            "optional": false
+            "optional": false,
+            "start": 49,
+            "end": 72
           }
-        ]
+        ],
+        "start": 43,
+        "end": 75
       },
-      "exportKind": "value"
+      "exportKind": "value",
+      "start": 28,
+      "end": 76
     }
   ],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 76
 }
 ```

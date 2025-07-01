@@ -2,21 +2,17 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 30,
-  "end": 261,
   "body": [
     {
       "type": "FunctionDeclaration",
-      "start": 30,
-      "end": 261,
       "id": {
         "type": "Identifier",
-        "start": 39,
-        "end": 40,
         "decorators": [],
         "name": "f",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 39,
+        "end": 40
       },
       "generator": false,
       "async": false,
@@ -25,170 +21,174 @@ __ESTREE_TEST__:PASS:
       "params": [
         {
           "type": "Identifier",
-          "start": 41,
-          "end": 42,
           "decorators": [],
           "name": "x",
           "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "start": 41,
+          "end": 42
         }
       ],
       "returnType": null,
       "body": {
         "type": "BlockStatement",
-        "start": 44,
-        "end": 261,
         "body": [
           {
             "type": "VariableDeclaration",
-            "start": 79,
-            "end": 91,
             "kind": "let",
             "declarations": [
               {
                 "type": "VariableDeclarator",
-                "start": 83,
-                "end": 90,
                 "id": {
                   "type": "Identifier",
-                  "start": 83,
-                  "end": 84,
                   "decorators": [],
                   "name": "a",
                   "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "start": 83,
+                  "end": 84
                 },
                 "init": {
                   "type": "Identifier",
-                  "start": 88,
-                  "end": 89,
                   "decorators": [],
                   "name": "x",
                   "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "start": 88,
+                  "end": 89
                 },
-                "definite": false
+                "definite": false,
+                "start": 83,
+                "end": 90
               }
             ],
-            "declare": false
+            "declare": false,
+            "start": 79,
+            "end": 91
           },
           {
             "type": "ExpressionStatement",
-            "start": 105,
-            "end": 107,
             "expression": {
               "type": "Identifier",
-              "start": 105,
-              "end": 106,
               "decorators": [],
               "name": "a",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 105,
+              "end": 106
             },
-            "directive": null
+            "directive": null,
+            "start": 105,
+            "end": 107
           },
           {
             "type": "VariableDeclaration",
-            "start": 142,
-            "end": 158,
             "kind": "let",
             "declarations": [
               {
                 "type": "VariableDeclarator",
-                "start": 146,
-                "end": 157,
                 "id": {
                   "type": "Identifier",
-                  "start": 146,
-                  "end": 147,
                   "decorators": [],
                   "name": "b",
                   "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "start": 146,
+                  "end": 147
                 },
                 "init": {
                   "type": "Identifier",
-                  "start": 153,
-                  "end": 154,
                   "decorators": [],
                   "name": "x",
                   "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "start": 153,
+                  "end": 154
                 },
-                "definite": false
+                "definite": false,
+                "start": 146,
+                "end": 157
               }
             ],
-            "declare": false
+            "declare": false,
+            "start": 142,
+            "end": 158
           },
           {
             "type": "ExpressionStatement",
-            "start": 172,
-            "end": 174,
             "expression": {
               "type": "Identifier",
-              "start": 172,
-              "end": 173,
               "decorators": [],
               "name": "b",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 172,
+              "end": 173
             },
-            "directive": null
+            "directive": null,
+            "start": 172,
+            "end": 174
           },
           {
             "type": "VariableDeclaration",
-            "start": 209,
-            "end": 246,
             "kind": "let",
             "declarations": [
               {
                 "type": "VariableDeclarator",
-                "start": 213,
-                "end": 245,
                 "id": {
                   "type": "Identifier",
-                  "start": 213,
-                  "end": 214,
                   "decorators": [],
                   "name": "c",
                   "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "start": 213,
+                  "end": 214
                 },
                 "init": {
                   "type": "Identifier",
-                  "start": 243,
-                  "end": 244,
                   "decorators": [],
                   "name": "x",
                   "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "start": 243,
+                  "end": 244
                 },
-                "definite": false
+                "definite": false,
+                "start": 213,
+                "end": 245
               }
             ],
-            "declare": false
+            "declare": false,
+            "start": 209,
+            "end": 246
           },
           {
             "type": "ExpressionStatement",
-            "start": 257,
-            "end": 259,
             "expression": {
               "type": "Identifier",
-              "start": 257,
-              "end": 258,
               "decorators": [],
               "name": "c",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 257,
+              "end": 258
             },
-            "directive": null
+            "directive": null,
+            "start": 257,
+            "end": 259
           }
-        ]
+        ],
+        "start": 44,
+        "end": 261
       },
-      "expression": false
+      "expression": false,
+      "start": 30,
+      "end": 261
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 30,
+  "end": 261
 }
 ```

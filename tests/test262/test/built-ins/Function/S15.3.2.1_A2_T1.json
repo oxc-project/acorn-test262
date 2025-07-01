@@ -1,251 +1,251 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 709,
   "body": [
     {
       "type": "TryStatement",
-      "start": 404,
-      "end": 540,
       "block": {
         "type": "BlockStatement",
-        "start": 408,
-        "end": 481,
         "body": [
           {
             "type": "VariableDeclaration",
-            "start": 412,
-            "end": 479,
             "kind": "var",
             "declarations": [
               {
                 "type": "VariableDeclarator",
-                "start": 416,
-                "end": 478,
                 "id": {
                   "type": "Identifier",
+                  "name": "f",
                   "start": 416,
-                  "end": 417,
-                  "name": "f"
+                  "end": 417
                 },
                 "init": {
                   "type": "CallExpression",
-                  "start": 420,
-                  "end": 478,
                   "callee": {
                     "type": "Identifier",
+                    "name": "Function",
                     "start": 420,
-                    "end": 428,
-                    "name": "Function"
+                    "end": 428
                   },
                   "arguments": [
                     {
                       "type": "Literal",
-                      "start": 429,
-                      "end": 435,
                       "value": "arg1",
-                      "raw": "\"arg1\""
+                      "raw": "\"arg1\"",
+                      "start": 429,
+                      "end": 435
                     },
                     {
                       "type": "Literal",
-                      "start": 437,
-                      "end": 443,
                       "value": "arg2",
-                      "raw": "\"arg2\""
+                      "raw": "\"arg2\"",
+                      "start": 437,
+                      "end": 443
                     },
                     {
                       "type": "Literal",
-                      "start": 445,
-                      "end": 451,
                       "value": "arg3",
-                      "raw": "\"arg3\""
+                      "raw": "\"arg3\"",
+                      "start": 445,
+                      "end": 451
                     },
                     {
                       "type": "Literal",
-                      "start": 453,
-                      "end": 477,
                       "value": "return arg1+arg2+arg3;",
-                      "raw": "\"return arg1+arg2+arg3;\""
+                      "raw": "\"return arg1+arg2+arg3;\"",
+                      "start": 453,
+                      "end": 477
                     }
                   ],
-                  "optional": false
-                }
+                  "optional": false,
+                  "start": 420,
+                  "end": 478
+                },
+                "start": 416,
+                "end": 478
               }
-            ]
+            ],
+            "start": 412,
+            "end": 479
           }
-        ]
+        ],
+        "start": 408,
+        "end": 481
       },
       "handler": {
         "type": "CatchClause",
-        "start": 482,
-        "end": 540,
         "param": {
           "type": "Identifier",
+          "name": "e",
           "start": 489,
-          "end": 490,
-          "name": "e"
+          "end": 490
         },
         "body": {
           "type": "BlockStatement",
-          "start": 492,
-          "end": 540,
           "body": [
             {
               "type": "ThrowStatement",
-              "start": 496,
-              "end": 538,
               "argument": {
                 "type": "NewExpression",
-                "start": 502,
-                "end": 537,
                 "callee": {
                   "type": "Identifier",
+                  "name": "Test262Error",
                   "start": 506,
-                  "end": 518,
-                  "name": "Test262Error"
+                  "end": 518
                 },
                 "arguments": [
                   {
                     "type": "Literal",
-                    "start": 519,
-                    "end": 536,
                     "value": "#1: test failed",
-                    "raw": "'#1: test failed'"
+                    "raw": "'#1: test failed'",
+                    "start": 519,
+                    "end": 536
                   }
-                ]
-              }
+                ],
+                "start": 502,
+                "end": 537
+              },
+              "start": 496,
+              "end": 538
             }
-          ]
-        }
+          ],
+          "start": 492,
+          "end": 540
+        },
+        "start": 482,
+        "end": 540
       },
-      "finalizer": null
+      "finalizer": null,
+      "start": 404,
+      "end": 540
     },
     {
       "type": "ExpressionStatement",
-      "start": 542,
-      "end": 647,
       "expression": {
         "type": "CallExpression",
-        "start": 542,
-        "end": 646,
         "callee": {
           "type": "Identifier",
+          "name": "assert",
           "start": 542,
-          "end": 548,
-          "name": "assert"
+          "end": 548
         },
         "arguments": [
           {
             "type": "BinaryExpression",
-            "start": 549,
-            "end": 570,
             "left": {
               "type": "Identifier",
+              "name": "f",
               "start": 549,
-              "end": 550,
-              "name": "f"
+              "end": 550
             },
             "operator": "instanceof",
             "right": {
               "type": "Identifier",
+              "name": "Function",
               "start": 562,
-              "end": 570,
-              "name": "Function"
-            }
+              "end": 570
+            },
+            "start": 549,
+            "end": 570
           },
           {
             "type": "Literal",
-            "start": 572,
-            "end": 645,
             "value": "The result of evaluating (f instanceof Function) is expected to be true",
-            "raw": "'The result of evaluating (f instanceof Function) is expected to be true'"
+            "raw": "'The result of evaluating (f instanceof Function) is expected to be true'",
+            "start": 572,
+            "end": 645
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 542,
+        "end": 646
+      },
+      "start": 542,
+      "end": 647
     },
     {
       "type": "ExpressionStatement",
-      "start": 648,
-      "end": 708,
       "expression": {
         "type": "CallExpression",
-        "start": 648,
-        "end": 707,
         "callee": {
           "type": "MemberExpression",
-          "start": 648,
-          "end": 664,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 648,
-            "end": 654,
-            "name": "assert"
+            "end": 654
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 655,
-            "end": 664,
-            "name": "sameValue"
+            "end": 664
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 648,
+          "end": 664
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 665,
-            "end": 675,
             "callee": {
               "type": "Identifier",
+              "name": "f",
               "start": 665,
-              "end": 666,
-              "name": "f"
+              "end": 666
             },
             "arguments": [
               {
                 "type": "Literal",
-                "start": 667,
-                "end": 668,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "start": 667,
+                "end": 668
               },
               {
                 "type": "Literal",
-                "start": 670,
-                "end": 671,
                 "value": 2,
-                "raw": "2"
+                "raw": "2",
+                "start": 670,
+                "end": 671
               },
               {
                 "type": "Literal",
-                "start": 673,
-                "end": 674,
                 "value": 3,
-                "raw": "3"
+                "raw": "3",
+                "start": 673,
+                "end": 674
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 665,
+            "end": 675
           },
           {
             "type": "Literal",
-            "start": 677,
-            "end": 678,
             "value": 6,
-            "raw": "6"
+            "raw": "6",
+            "start": 677,
+            "end": 678
           },
           {
             "type": "Literal",
-            "start": 680,
-            "end": 706,
             "value": "f(1, 2, 3) must return 6",
-            "raw": "'f(1, 2, 3) must return 6'"
+            "raw": "'f(1, 2, 3) must return 6'",
+            "start": 680,
+            "end": 706
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 648,
+        "end": 707
+      },
+      "start": 648,
+      "end": 708
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 709
 }

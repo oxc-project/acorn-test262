@@ -1,65 +1,63 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 1872,
   "body": [
     {
       "type": "ClassDeclaration",
-      "start": 1738,
-      "end": 1787,
       "decorators": [],
       "id": {
         "type": "Identifier",
+        "name": "C",
         "start": 1744,
-        "end": 1745,
-        "name": "C"
+        "end": 1745
       },
       "superClass": null,
       "body": {
         "type": "ClassBody",
-        "start": 1746,
-        "end": 1787,
         "body": [
           {
             "type": "MethodDefinition",
-            "start": 1750,
-            "end": 1785,
             "decorators": [],
             "key": {
               "type": "Identifier",
+              "name": "method",
               "start": 1764,
-              "end": 1770,
-              "name": "method"
+              "end": 1770
             },
             "value": {
               "type": "FunctionExpression",
-              "start": 1770,
-              "end": 1785,
               "id": null,
               "generator": true,
               "async": true,
               "params": [
                 {
                   "type": "ObjectPattern",
+                  "properties": [],
                   "start": 1771,
-                  "end": 1773,
-                  "properties": []
+                  "end": 1773
                 }
               ],
               "body": {
                 "type": "BlockStatement",
+                "body": [],
                 "start": 1775,
-                "end": 1785,
-                "body": []
+                "end": 1785
               },
-              "expression": false
+              "expression": false,
+              "start": 1770,
+              "end": 1785
             },
             "kind": "method",
             "computed": false,
-            "static": true
+            "static": true,
+            "start": 1750,
+            "end": 1785
           }
-        ]
-      }
+        ],
+        "start": 1746,
+        "end": 1787
+      },
+      "start": 1738,
+      "end": 1787
     },
     {
       "type": "EmptyStatement",
@@ -68,124 +66,126 @@
     },
     {
       "type": "VariableDeclaration",
-      "start": 1790,
-      "end": 1812,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 1794,
-          "end": 1811,
           "id": {
             "type": "Identifier",
+            "name": "method",
             "start": 1794,
-            "end": 1800,
-            "name": "method"
+            "end": 1800
           },
           "init": {
             "type": "MemberExpression",
-            "start": 1803,
-            "end": 1811,
             "object": {
               "type": "Identifier",
+              "name": "C",
               "start": 1803,
-              "end": 1804,
-              "name": "C"
+              "end": 1804
             },
             "property": {
               "type": "Identifier",
+              "name": "method",
               "start": 1805,
-              "end": 1811,
-              "name": "method"
+              "end": 1811
             },
             "optional": false,
-            "computed": false
-          }
+            "computed": false,
+            "start": 1803,
+            "end": 1811
+          },
+          "start": 1794,
+          "end": 1811
         }
-      ]
+      ],
+      "start": 1790,
+      "end": 1812
     },
     {
       "type": "ExpressionStatement",
-      "start": 1814,
-      "end": 1871,
       "expression": {
         "type": "CallExpression",
-        "start": 1814,
-        "end": 1870,
         "callee": {
           "type": "MemberExpression",
-          "start": 1814,
-          "end": 1827,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 1814,
-            "end": 1820,
-            "name": "assert"
+            "end": 1820
           },
           "property": {
             "type": "Identifier",
+            "name": "throws",
             "start": 1821,
-            "end": 1827,
-            "name": "throws"
+            "end": 1827
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 1814,
+          "end": 1827
         },
         "arguments": [
           {
             "type": "Identifier",
+            "name": "TypeError",
             "start": 1828,
-            "end": 1837,
-            "name": "TypeError"
+            "end": 1837
           },
           {
             "type": "FunctionExpression",
-            "start": 1839,
-            "end": 1869,
             "id": null,
             "generator": false,
             "async": false,
             "params": [],
             "body": {
               "type": "BlockStatement",
-              "start": 1850,
-              "end": 1869,
               "body": [
                 {
                   "type": "ExpressionStatement",
-                  "start": 1854,
-                  "end": 1867,
                   "expression": {
                     "type": "CallExpression",
-                    "start": 1854,
-                    "end": 1866,
                     "callee": {
                       "type": "Identifier",
+                      "name": "method",
                       "start": 1854,
-                      "end": 1860,
-                      "name": "method"
+                      "end": 1860
                     },
                     "arguments": [
                       {
                         "type": "Literal",
-                        "start": 1861,
-                        "end": 1865,
                         "value": null,
-                        "raw": "null"
+                        "raw": "null",
+                        "start": 1861,
+                        "end": 1865
                       }
                     ],
-                    "optional": false
-                  }
+                    "optional": false,
+                    "start": 1854,
+                    "end": 1866
+                  },
+                  "start": 1854,
+                  "end": 1867
                 }
-              ]
+              ],
+              "start": 1850,
+              "end": 1869
             },
-            "expression": false
+            "expression": false,
+            "start": 1839,
+            "end": 1869
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 1814,
+        "end": 1870
+      },
+      "start": 1814,
+      "end": 1871
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 1872
 }

@@ -1,287 +1,287 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 723,
   "body": [
     {
       "type": "FunctionDeclaration",
-      "start": 590,
-      "end": 622,
       "id": {
         "type": "Identifier",
+        "name": "fn",
         "start": 599,
-        "end": 601,
-        "name": "fn"
+        "end": 601
       },
       "generator": false,
       "async": false,
       "params": [
         {
           "type": "ObjectPattern",
+          "properties": [],
           "start": 602,
-          "end": 604,
-          "properties": []
+          "end": 604
         }
       ],
       "body": {
         "type": "BlockStatement",
-        "start": 606,
-        "end": 622,
         "body": [
           {
             "type": "ReturnStatement",
-            "start": 608,
-            "end": 620,
             "argument": {
               "type": "Literal",
-              "start": 615,
-              "end": 619,
               "value": true,
-              "raw": "true"
-            }
+              "raw": "true",
+              "start": 615,
+              "end": 619
+            },
+            "start": 608,
+            "end": 620
           }
-        ]
+        ],
+        "start": 606,
+        "end": 622
       },
-      "expression": false
+      "expression": false,
+      "start": 590,
+      "end": 622
     },
     {
       "type": "ExpressionStatement",
-      "start": 624,
-      "end": 638,
       "expression": {
         "type": "CallExpression",
-        "start": 624,
-        "end": 637,
         "callee": {
           "type": "Identifier",
+          "name": "assert",
           "start": 624,
-          "end": 630,
-          "name": "assert"
+          "end": 630
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 631,
-            "end": 636,
             "callee": {
               "type": "Identifier",
+              "name": "fn",
               "start": 631,
-              "end": 633,
-              "name": "fn"
+              "end": 633
             },
             "arguments": [
               {
                 "type": "Literal",
-                "start": 634,
-                "end": 635,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "start": 634,
+                "end": 635
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 631,
+            "end": 636
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 624,
+        "end": 637
+      },
+      "start": 624,
+      "end": 638
     },
     {
       "type": "ExpressionStatement",
-      "start": 639,
-      "end": 655,
       "expression": {
         "type": "CallExpression",
-        "start": 639,
-        "end": 654,
         "callee": {
           "type": "Identifier",
+          "name": "assert",
           "start": 639,
-          "end": 645,
-          "name": "assert"
+          "end": 645
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 646,
-            "end": 653,
             "callee": {
               "type": "Identifier",
+              "name": "fn",
               "start": 646,
-              "end": 648,
-              "name": "fn"
+              "end": 648
             },
             "arguments": [
               {
                 "type": "Identifier",
+                "name": "NaN",
                 "start": 649,
-                "end": 652,
-                "name": "NaN"
+                "end": 652
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 646,
+            "end": 653
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 639,
+        "end": 654
+      },
+      "start": 639,
+      "end": 655
     },
     {
       "type": "ExpressionStatement",
-      "start": 656,
-      "end": 671,
       "expression": {
         "type": "CallExpression",
-        "start": 656,
-        "end": 670,
         "callee": {
           "type": "Identifier",
+          "name": "assert",
           "start": 656,
-          "end": 662,
-          "name": "assert"
+          "end": 662
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 663,
-            "end": 669,
             "callee": {
               "type": "Identifier",
+              "name": "fn",
               "start": 663,
-              "end": 665,
-              "name": "fn"
+              "end": 665
             },
             "arguments": [
               {
                 "type": "Literal",
-                "start": 666,
-                "end": 668,
                 "value": "",
-                "raw": "''"
+                "raw": "''",
+                "start": 666,
+                "end": 668
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 663,
+            "end": 669
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 656,
+        "end": 670
+      },
+      "start": 656,
+      "end": 671
     },
     {
       "type": "ExpressionStatement",
-      "start": 672,
-      "end": 690,
       "expression": {
         "type": "CallExpression",
-        "start": 672,
-        "end": 689,
         "callee": {
           "type": "Identifier",
+          "name": "assert",
           "start": 672,
-          "end": 678,
-          "name": "assert"
+          "end": 678
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 679,
-            "end": 688,
             "callee": {
               "type": "Identifier",
+              "name": "fn",
               "start": 679,
-              "end": 681,
-              "name": "fn"
+              "end": 681
             },
             "arguments": [
               {
                 "type": "Literal",
-                "start": 682,
-                "end": 687,
                 "value": false,
-                "raw": "false"
+                "raw": "false",
+                "start": 682,
+                "end": 687
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 679,
+            "end": 688
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 672,
+        "end": 689
+      },
+      "start": 672,
+      "end": 690
     },
     {
       "type": "ExpressionStatement",
-      "start": 691,
-      "end": 706,
       "expression": {
         "type": "CallExpression",
-        "start": 691,
-        "end": 705,
         "callee": {
           "type": "Identifier",
+          "name": "assert",
           "start": 691,
-          "end": 697,
-          "name": "assert"
+          "end": 697
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 698,
-            "end": 704,
             "callee": {
               "type": "Identifier",
+              "name": "fn",
               "start": 698,
-              "end": 700,
-              "name": "fn"
+              "end": 700
             },
             "arguments": [
               {
                 "type": "ObjectExpression",
+                "properties": [],
                 "start": 701,
-                "end": 703,
-                "properties": []
+                "end": 703
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 698,
+            "end": 704
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 691,
+        "end": 705
+      },
+      "start": 691,
+      "end": 706
     },
     {
       "type": "ExpressionStatement",
-      "start": 707,
-      "end": 722,
       "expression": {
         "type": "CallExpression",
-        "start": 707,
-        "end": 721,
         "callee": {
           "type": "Identifier",
+          "name": "assert",
           "start": 707,
-          "end": 713,
-          "name": "assert"
+          "end": 713
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 714,
-            "end": 720,
             "callee": {
               "type": "Identifier",
+              "name": "fn",
               "start": 714,
-              "end": 716,
-              "name": "fn"
+              "end": 716
             },
             "arguments": [
               {
                 "type": "ArrayExpression",
+                "elements": [],
                 "start": 717,
-                "end": 719,
-                "elements": []
+                "end": 719
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 714,
+            "end": 720
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 707,
+        "end": 721
+      },
+      "start": 707,
+      "end": 722
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 723
 }

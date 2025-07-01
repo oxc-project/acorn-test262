@@ -2,98 +2,98 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 58,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 0,
-      "end": 32,
       "expression": {
         "type": "BinaryExpression",
-        "start": 0,
-        "end": 31,
         "left": {
           "type": "MemberExpression",
-          "start": 0,
-          "end": 25,
           "object": {
             "type": "Identifier",
-            "start": 0,
-            "end": 6,
             "decorators": [],
             "name": "Symbol",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 0,
+            "end": 6
           },
           "property": {
             "type": "Identifier",
-            "start": 7,
-            "end": 25,
             "decorators": [],
             "name": "isConcatSpreadable",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 7,
+            "end": 25
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 0,
+          "end": 25
         },
         "operator": "in",
         "right": {
           "type": "ObjectExpression",
+          "properties": [],
           "start": 29,
-          "end": 31,
-          "properties": []
-        }
+          "end": 31
+        },
+        "start": 0,
+        "end": 31
       },
-      "directive": null
+      "directive": null,
+      "start": 0,
+      "end": 32
     },
     {
       "type": "ExpressionStatement",
-      "start": 33,
-      "end": 58,
       "expression": {
         "type": "BinaryExpression",
-        "start": 33,
-        "end": 57,
         "left": {
           "type": "Literal",
-          "start": 33,
-          "end": 35,
           "value": "",
-          "raw": "\"\""
+          "raw": "\"\"",
+          "start": 33,
+          "end": 35
         },
         "operator": "in",
         "right": {
           "type": "MemberExpression",
-          "start": 39,
-          "end": 57,
           "object": {
             "type": "Identifier",
-            "start": 39,
-            "end": 45,
             "decorators": [],
             "name": "Symbol",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 39,
+            "end": 45
           },
           "property": {
             "type": "Identifier",
-            "start": 46,
-            "end": 57,
             "decorators": [],
             "name": "toPrimitive",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 46,
+            "end": 57
           },
           "optional": false,
-          "computed": false
-        }
+          "computed": false,
+          "start": 39,
+          "end": 57
+        },
+        "start": 33,
+        "end": 57
       },
-      "directive": null
+      "directive": null,
+      "start": 33,
+      "end": 58
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 58
 }
 ```

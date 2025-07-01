@@ -1,842 +1,842 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 979,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 352,
-      "end": 433,
       "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 358,
-          "end": 432,
           "id": {
             "type": "Identifier",
+            "name": "duration1",
             "start": 358,
-            "end": 367,
-            "name": "duration1"
+            "end": 367
           },
           "init": {
             "type": "CallExpression",
-            "start": 370,
-            "end": 432,
             "callee": {
               "type": "MemberExpression",
-              "start": 370,
-              "end": 392,
               "object": {
                 "type": "MemberExpression",
-                "start": 370,
-                "end": 387,
                 "object": {
                   "type": "Identifier",
+                  "name": "Temporal",
                   "start": 370,
-                  "end": 378,
-                  "name": "Temporal"
+                  "end": 378
                 },
                 "property": {
                   "type": "Identifier",
+                  "name": "Duration",
                   "start": 379,
-                  "end": 387,
-                  "name": "Duration"
+                  "end": 387
                 },
                 "optional": false,
-                "computed": false
+                "computed": false,
+                "start": 370,
+                "end": 387
               },
               "property": {
                 "type": "Identifier",
+                "name": "from",
                 "start": 388,
-                "end": 392,
-                "name": "from"
+                "end": 392
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 370,
+              "end": 392
             },
             "arguments": [
               {
                 "type": "ObjectExpression",
-                "start": 393,
-                "end": 431,
                 "properties": [
                   {
                     "type": "Property",
-                    "start": 394,
-                    "end": 430,
                     "kind": "init",
                     "key": {
                       "type": "Identifier",
+                      "name": "nanoseconds",
                       "start": 394,
-                      "end": 405,
-                      "name": "nanoseconds"
+                      "end": 405
                     },
                     "value": {
                       "type": "MemberExpression",
-                      "start": 407,
-                      "end": 430,
                       "object": {
                         "type": "Identifier",
+                        "name": "Number",
                         "start": 407,
-                        "end": 413,
-                        "name": "Number"
+                        "end": 413
                       },
                       "property": {
                         "type": "Identifier",
+                        "name": "MAX_SAFE_INTEGER",
                         "start": 414,
-                        "end": 430,
-                        "name": "MAX_SAFE_INTEGER"
+                        "end": 430
                       },
                       "optional": false,
-                      "computed": false
+                      "computed": false,
+                      "start": 407,
+                      "end": 430
                     },
                     "method": false,
                     "shorthand": false,
-                    "computed": false
+                    "computed": false,
+                    "start": 394,
+                    "end": 430
                   }
-                ]
+                ],
+                "start": 393,
+                "end": 431
               }
             ],
-            "optional": false
-          }
+            "optional": false,
+            "start": 370,
+            "end": 432
+          },
+          "start": 358,
+          "end": 432
         }
-      ]
+      ],
+      "start": 352,
+      "end": 433
     },
     {
       "type": "VariableDeclaration",
-      "start": 434,
-      "end": 504,
       "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 440,
-          "end": 503,
           "id": {
             "type": "Identifier",
+            "name": "duration2",
             "start": 440,
-            "end": 449,
-            "name": "duration2"
+            "end": 449
           },
           "init": {
             "type": "CallExpression",
-            "start": 452,
-            "end": 503,
             "callee": {
               "type": "MemberExpression",
-              "start": 452,
-              "end": 474,
               "object": {
                 "type": "MemberExpression",
-                "start": 452,
-                "end": 469,
                 "object": {
                   "type": "Identifier",
+                  "name": "Temporal",
                   "start": 452,
-                  "end": 460,
-                  "name": "Temporal"
+                  "end": 460
                 },
                 "property": {
                   "type": "Identifier",
+                  "name": "Duration",
                   "start": 461,
-                  "end": 469,
-                  "name": "Duration"
+                  "end": 469
                 },
                 "optional": false,
-                "computed": false
+                "computed": false,
+                "start": 452,
+                "end": 469
               },
               "property": {
                 "type": "Identifier",
+                "name": "from",
                 "start": 470,
-                "end": 474,
-                "name": "from"
+                "end": 474
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 452,
+              "end": 474
             },
             "arguments": [
               {
                 "type": "ObjectExpression",
-                "start": 475,
-                "end": 502,
                 "properties": [
                   {
                     "type": "Property",
-                    "start": 476,
-                    "end": 491,
                     "kind": "init",
                     "key": {
                       "type": "Identifier",
+                      "name": "nanoseconds",
                       "start": 476,
-                      "end": 487,
-                      "name": "nanoseconds"
+                      "end": 487
                     },
                     "value": {
                       "type": "UnaryExpression",
-                      "start": 489,
-                      "end": 491,
                       "operator": "-",
                       "argument": {
                         "type": "Literal",
-                        "start": 490,
-                        "end": 491,
                         "value": 2,
-                        "raw": "2"
+                        "raw": "2",
+                        "start": 490,
+                        "end": 491
                       },
-                      "prefix": true
+                      "prefix": true,
+                      "start": 489,
+                      "end": 491
                     },
                     "method": false,
                     "shorthand": false,
-                    "computed": false
+                    "computed": false,
+                    "start": 476,
+                    "end": 491
                   },
                   {
                     "type": "Property",
-                    "start": 493,
-                    "end": 501,
                     "kind": "init",
                     "key": {
                       "type": "Identifier",
+                      "name": "days",
                       "start": 493,
-                      "end": 497,
-                      "name": "days"
+                      "end": 497
                     },
                     "value": {
                       "type": "UnaryExpression",
-                      "start": 499,
-                      "end": 501,
                       "operator": "-",
                       "argument": {
                         "type": "Literal",
-                        "start": 500,
-                        "end": 501,
                         "value": 1,
-                        "raw": "1"
+                        "raw": "1",
+                        "start": 500,
+                        "end": 501
                       },
-                      "prefix": true
+                      "prefix": true,
+                      "start": 499,
+                      "end": 501
                     },
                     "method": false,
                     "shorthand": false,
-                    "computed": false
+                    "computed": false,
+                    "start": 493,
+                    "end": 501
                   }
-                ]
+                ],
+                "start": 475,
+                "end": 502
               }
             ],
-            "optional": false
-          }
+            "optional": false,
+            "start": 452,
+            "end": 503
+          },
+          "start": 440,
+          "end": 503
         }
-      ]
+      ],
+      "start": 434,
+      "end": 504
     },
     {
       "type": "VariableDeclaration",
-      "start": 505,
-      "end": 556,
       "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 511,
-          "end": 555,
           "id": {
             "type": "Identifier",
+            "name": "nanos",
             "start": 511,
-            "end": 516,
-            "name": "nanos"
+            "end": 516
           },
           "init": {
             "type": "BinaryExpression",
-            "start": 519,
-            "end": 555,
             "left": {
               "type": "CallExpression",
-              "start": 519,
-              "end": 550,
               "callee": {
                 "type": "Identifier",
+                "name": "BigInt",
                 "start": 519,
-                "end": 525,
-                "name": "BigInt"
+                "end": 525
               },
               "arguments": [
                 {
                   "type": "MemberExpression",
-                  "start": 526,
-                  "end": 549,
                   "object": {
                     "type": "Identifier",
+                    "name": "Number",
                     "start": 526,
-                    "end": 532,
-                    "name": "Number"
+                    "end": 532
                   },
                   "property": {
                     "type": "Identifier",
+                    "name": "MAX_SAFE_INTEGER",
                     "start": 533,
-                    "end": 549,
-                    "name": "MAX_SAFE_INTEGER"
+                    "end": 549
                   },
                   "optional": false,
-                  "computed": false
+                  "computed": false,
+                  "start": 526,
+                  "end": 549
                 }
               ],
-              "optional": false
+              "optional": false,
+              "start": 519,
+              "end": 550
             },
             "operator": "+",
             "right": {
               "type": "Literal",
-              "start": 553,
-              "end": 555,
               "value": null,
               "raw": "2n",
-              "bigint": "2"
-            }
-          }
+              "bigint": "2",
+              "start": 553,
+              "end": 555
+            },
+            "start": 519,
+            "end": 555
+          },
+          "start": 511,
+          "end": 555
         }
-      ]
+      ],
+      "start": 505,
+      "end": 556
     },
     {
       "type": "ExpressionStatement",
-      "start": 558,
-      "end": 978,
       "expression": {
         "type": "CallExpression",
-        "start": 558,
-        "end": 977,
         "callee": {
           "type": "MemberExpression",
-          "start": 558,
-          "end": 588,
           "object": {
             "type": "Identifier",
+            "name": "TemporalHelpers",
             "start": 558,
-            "end": 573,
-            "name": "TemporalHelpers"
+            "end": 573
           },
           "property": {
             "type": "Identifier",
+            "name": "assertDuration",
             "start": 574,
-            "end": 588,
-            "name": "assertDuration"
+            "end": 588
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 558,
+          "end": 588
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 592,
-            "end": 621,
             "callee": {
               "type": "MemberExpression",
-              "start": 592,
-              "end": 610,
               "object": {
                 "type": "Identifier",
+                "name": "duration1",
                 "start": 592,
-                "end": 601,
-                "name": "duration1"
+                "end": 601
               },
               "property": {
                 "type": "Identifier",
+                "name": "subtract",
                 "start": 602,
-                "end": 610,
-                "name": "subtract"
+                "end": 610
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 592,
+              "end": 610
             },
             "arguments": [
               {
                 "type": "Identifier",
+                "name": "duration2",
                 "start": 611,
-                "end": 620,
-                "name": "duration2"
+                "end": 620
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 592,
+            "end": 621
           },
           {
             "type": "Literal",
+            "value": 0,
+            "raw": "0",
             "start": 625,
-            "end": 626,
-            "value": 0,
-            "raw": "0"
+            "end": 626
           },
           {
             "type": "Literal",
+            "value": 0,
+            "raw": "0",
             "start": 628,
-            "end": 629,
-            "value": 0,
-            "raw": "0"
+            "end": 629
           },
           {
             "type": "Literal",
-            "start": 631,
-            "end": 632,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "start": 631,
+            "end": 632
           },
           {
             "type": "BinaryExpression",
-            "start": 636,
-            "end": 692,
             "left": {
               "type": "Literal",
-              "start": 636,
-              "end": 637,
               "value": 1,
-              "raw": "1"
+              "raw": "1",
+              "start": 636,
+              "end": 637
             },
             "operator": "+",
             "right": {
               "type": "CallExpression",
-              "start": 640,
-              "end": 692,
               "callee": {
                 "type": "Identifier",
+                "name": "Number",
                 "start": 640,
-                "end": 646,
-                "name": "Number"
+                "end": 646
               },
               "arguments": [
                 {
                   "type": "ParenthesizedExpression",
-                  "start": 647,
-                  "end": 691,
                   "expression": {
                     "type": "BinaryExpression",
-                    "start": 648,
-                    "end": 690,
                     "left": {
                       "type": "Identifier",
+                      "name": "nanos",
                       "start": 648,
-                      "end": 653,
-                      "name": "nanos"
+                      "end": 653
                     },
                     "operator": "/",
                     "right": {
                       "type": "ParenthesizedExpression",
-                      "start": 656,
-                      "end": 690,
                       "expression": {
                         "type": "BinaryExpression",
-                        "start": 657,
-                        "end": 689,
                         "left": {
                           "type": "BinaryExpression",
-                          "start": 657,
-                          "end": 672,
                           "left": {
                             "type": "BinaryExpression",
-                            "start": 657,
-                            "end": 666,
                             "left": {
                               "type": "Literal",
-                              "start": 657,
-                              "end": 660,
                               "value": null,
                               "raw": "24n",
-                              "bigint": "24"
+                              "bigint": "24",
+                              "start": 657,
+                              "end": 660
                             },
                             "operator": "*",
                             "right": {
                               "type": "Literal",
-                              "start": 663,
-                              "end": 666,
                               "value": null,
                               "raw": "60n",
-                              "bigint": "60"
-                            }
+                              "bigint": "60",
+                              "start": 663,
+                              "end": 666
+                            },
+                            "start": 657,
+                            "end": 666
                           },
                           "operator": "*",
                           "right": {
                             "type": "Literal",
-                            "start": 669,
-                            "end": 672,
                             "value": null,
                             "raw": "60n",
-                            "bigint": "60"
-                          }
+                            "bigint": "60",
+                            "start": 669,
+                            "end": 672
+                          },
+                          "start": 657,
+                          "end": 672
                         },
                         "operator": "*",
                         "right": {
                           "type": "Literal",
-                          "start": 675,
-                          "end": 689,
                           "value": null,
                           "raw": "1_000_000_000n",
-                          "bigint": "1000000000"
-                        }
-                      }
-                    }
-                  }
+                          "bigint": "1000000000",
+                          "start": 675,
+                          "end": 689
+                        },
+                        "start": 657,
+                        "end": 689
+                      },
+                      "start": 656,
+                      "end": 690
+                    },
+                    "start": 648,
+                    "end": 690
+                  },
+                  "start": 647,
+                  "end": 691
                 }
               ],
-              "optional": false
-            }
+              "optional": false,
+              "start": 640,
+              "end": 692
+            },
+            "start": 636,
+            "end": 692
           },
           {
             "type": "CallExpression",
-            "start": 696,
-            "end": 748,
             "callee": {
               "type": "Identifier",
+              "name": "Number",
               "start": 696,
-              "end": 702,
-              "name": "Number"
+              "end": 702
             },
             "arguments": [
               {
                 "type": "BinaryExpression",
-                "start": 703,
-                "end": 747,
                 "left": {
                   "type": "ParenthesizedExpression",
-                  "start": 703,
-                  "end": 741,
                   "expression": {
                     "type": "BinaryExpression",
-                    "start": 704,
-                    "end": 740,
                     "left": {
                       "type": "Identifier",
+                      "name": "nanos",
                       "start": 704,
-                      "end": 709,
-                      "name": "nanos"
+                      "end": 709
                     },
                     "operator": "/",
                     "right": {
                       "type": "ParenthesizedExpression",
-                      "start": 712,
-                      "end": 740,
                       "expression": {
                         "type": "BinaryExpression",
-                        "start": 713,
-                        "end": 739,
                         "left": {
                           "type": "BinaryExpression",
-                          "start": 713,
-                          "end": 722,
                           "left": {
                             "type": "Literal",
-                            "start": 713,
-                            "end": 716,
                             "value": null,
                             "raw": "60n",
-                            "bigint": "60"
+                            "bigint": "60",
+                            "start": 713,
+                            "end": 716
                           },
                           "operator": "*",
                           "right": {
                             "type": "Literal",
-                            "start": 719,
-                            "end": 722,
                             "value": null,
                             "raw": "60n",
-                            "bigint": "60"
-                          }
+                            "bigint": "60",
+                            "start": 719,
+                            "end": 722
+                          },
+                          "start": 713,
+                          "end": 722
                         },
                         "operator": "*",
                         "right": {
                           "type": "Literal",
-                          "start": 725,
-                          "end": 739,
                           "value": null,
                           "raw": "1_000_000_000n",
-                          "bigint": "1000000000"
-                        }
-                      }
-                    }
-                  }
+                          "bigint": "1000000000",
+                          "start": 725,
+                          "end": 739
+                        },
+                        "start": 713,
+                        "end": 739
+                      },
+                      "start": 712,
+                      "end": 740
+                    },
+                    "start": 704,
+                    "end": 740
+                  },
+                  "start": 703,
+                  "end": 741
                 },
                 "operator": "%",
                 "right": {
                   "type": "Literal",
-                  "start": 744,
-                  "end": 747,
                   "value": null,
                   "raw": "24n",
-                  "bigint": "24"
-                }
+                  "bigint": "24",
+                  "start": 744,
+                  "end": 747
+                },
+                "start": 703,
+                "end": 747
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 696,
+            "end": 748
           },
           {
             "type": "CallExpression",
-            "start": 752,
-            "end": 798,
             "callee": {
               "type": "Identifier",
+              "name": "Number",
               "start": 752,
-              "end": 758,
-              "name": "Number"
+              "end": 758
             },
             "arguments": [
               {
                 "type": "BinaryExpression",
-                "start": 759,
-                "end": 797,
                 "left": {
                   "type": "ParenthesizedExpression",
-                  "start": 759,
-                  "end": 791,
                   "expression": {
                     "type": "BinaryExpression",
-                    "start": 760,
-                    "end": 790,
                     "left": {
                       "type": "Identifier",
+                      "name": "nanos",
                       "start": 760,
-                      "end": 765,
-                      "name": "nanos"
+                      "end": 765
                     },
                     "operator": "/",
                     "right": {
                       "type": "ParenthesizedExpression",
-                      "start": 768,
-                      "end": 790,
                       "expression": {
                         "type": "BinaryExpression",
-                        "start": 769,
-                        "end": 789,
                         "left": {
                           "type": "Literal",
-                          "start": 769,
-                          "end": 772,
                           "value": null,
                           "raw": "60n",
-                          "bigint": "60"
+                          "bigint": "60",
+                          "start": 769,
+                          "end": 772
                         },
                         "operator": "*",
                         "right": {
                           "type": "Literal",
-                          "start": 775,
-                          "end": 789,
                           "value": null,
                           "raw": "1_000_000_000n",
-                          "bigint": "1000000000"
-                        }
-                      }
-                    }
-                  }
+                          "bigint": "1000000000",
+                          "start": 775,
+                          "end": 789
+                        },
+                        "start": 769,
+                        "end": 789
+                      },
+                      "start": 768,
+                      "end": 790
+                    },
+                    "start": 760,
+                    "end": 790
+                  },
+                  "start": 759,
+                  "end": 791
                 },
                 "operator": "%",
                 "right": {
                   "type": "Literal",
-                  "start": 794,
-                  "end": 797,
                   "value": null,
                   "raw": "60n",
-                  "bigint": "60"
-                }
+                  "bigint": "60",
+                  "start": 794,
+                  "end": 797
+                },
+                "start": 759,
+                "end": 797
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 752,
+            "end": 798
           },
           {
             "type": "CallExpression",
-            "start": 802,
-            "end": 840,
             "callee": {
               "type": "Identifier",
+              "name": "Number",
               "start": 802,
-              "end": 808,
-              "name": "Number"
+              "end": 808
             },
             "arguments": [
               {
                 "type": "BinaryExpression",
-                "start": 809,
-                "end": 839,
                 "left": {
                   "type": "ParenthesizedExpression",
-                  "start": 809,
-                  "end": 833,
                   "expression": {
                     "type": "BinaryExpression",
-                    "start": 810,
-                    "end": 832,
                     "left": {
                       "type": "Identifier",
+                      "name": "nanos",
                       "start": 810,
-                      "end": 815,
-                      "name": "nanos"
+                      "end": 815
                     },
                     "operator": "/",
                     "right": {
                       "type": "Literal",
-                      "start": 818,
-                      "end": 832,
                       "value": null,
                       "raw": "1_000_000_000n",
-                      "bigint": "1000000000"
-                    }
-                  }
+                      "bigint": "1000000000",
+                      "start": 818,
+                      "end": 832
+                    },
+                    "start": 810,
+                    "end": 832
+                  },
+                  "start": 809,
+                  "end": 833
                 },
                 "operator": "%",
                 "right": {
                   "type": "Literal",
-                  "start": 836,
-                  "end": 839,
                   "value": null,
                   "raw": "60n",
-                  "bigint": "60"
-                }
+                  "bigint": "60",
+                  "start": 836,
+                  "end": 839
+                },
+                "start": 809,
+                "end": 839
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 802,
+            "end": 840
           },
           {
             "type": "CallExpression",
-            "start": 844,
-            "end": 880,
             "callee": {
               "type": "Identifier",
+              "name": "Number",
               "start": 844,
-              "end": 850,
-              "name": "Number"
+              "end": 850
             },
             "arguments": [
               {
                 "type": "BinaryExpression",
-                "start": 851,
-                "end": 879,
                 "left": {
                   "type": "ParenthesizedExpression",
-                  "start": 851,
-                  "end": 871,
                   "expression": {
                     "type": "BinaryExpression",
-                    "start": 852,
-                    "end": 870,
                     "left": {
                       "type": "Identifier",
+                      "name": "nanos",
                       "start": 852,
-                      "end": 857,
-                      "name": "nanos"
+                      "end": 857
                     },
                     "operator": "/",
                     "right": {
                       "type": "Literal",
-                      "start": 860,
-                      "end": 870,
                       "value": null,
                       "raw": "1_000_000n",
-                      "bigint": "1000000"
-                    }
-                  }
+                      "bigint": "1000000",
+                      "start": 860,
+                      "end": 870
+                    },
+                    "start": 852,
+                    "end": 870
+                  },
+                  "start": 851,
+                  "end": 871
                 },
                 "operator": "%",
                 "right": {
                   "type": "Literal",
-                  "start": 874,
-                  "end": 879,
                   "value": null,
                   "raw": "1000n",
-                  "bigint": "1000"
-                }
+                  "bigint": "1000",
+                  "start": 874,
+                  "end": 879
+                },
+                "start": 851,
+                "end": 879
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 844,
+            "end": 880
           },
           {
             "type": "CallExpression",
-            "start": 884,
-            "end": 915,
             "callee": {
               "type": "Identifier",
+              "name": "Number",
               "start": 884,
-              "end": 890,
-              "name": "Number"
+              "end": 890
             },
             "arguments": [
               {
                 "type": "BinaryExpression",
-                "start": 891,
-                "end": 914,
                 "left": {
                   "type": "ParenthesizedExpression",
-                  "start": 891,
-                  "end": 906,
                   "expression": {
                     "type": "BinaryExpression",
-                    "start": 892,
-                    "end": 905,
                     "left": {
                       "type": "Identifier",
+                      "name": "nanos",
                       "start": 892,
-                      "end": 897,
-                      "name": "nanos"
+                      "end": 897
                     },
                     "operator": "/",
                     "right": {
                       "type": "Literal",
-                      "start": 900,
-                      "end": 905,
                       "value": null,
                       "raw": "1000n",
-                      "bigint": "1000"
-                    }
-                  }
+                      "bigint": "1000",
+                      "start": 900,
+                      "end": 905
+                    },
+                    "start": 892,
+                    "end": 905
+                  },
+                  "start": 891,
+                  "end": 906
                 },
                 "operator": "%",
                 "right": {
                   "type": "Literal",
-                  "start": 909,
-                  "end": 914,
                   "value": null,
                   "raw": "1000n",
-                  "bigint": "1000"
-                }
+                  "bigint": "1000",
+                  "start": 909,
+                  "end": 914
+                },
+                "start": 891,
+                "end": 914
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 884,
+            "end": 915
           },
           {
             "type": "CallExpression",
-            "start": 919,
-            "end": 940,
             "callee": {
               "type": "Identifier",
+              "name": "Number",
               "start": 919,
-              "end": 925,
-              "name": "Number"
+              "end": 925
             },
             "arguments": [
               {
                 "type": "BinaryExpression",
-                "start": 926,
-                "end": 939,
                 "left": {
                   "type": "Identifier",
+                  "name": "nanos",
                   "start": 926,
-                  "end": 931,
-                  "name": "nanos"
+                  "end": 931
                 },
                 "operator": "%",
                 "right": {
                   "type": "Literal",
-                  "start": 934,
-                  "end": 939,
                   "value": null,
                   "raw": "1000n",
-                  "bigint": "1000"
-                }
+                  "bigint": "1000",
+                  "start": 934,
+                  "end": 939
+                },
+                "start": 926,
+                "end": 939
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 919,
+            "end": 940
           },
           {
             "type": "Literal",
-            "start": 944,
-            "end": 975,
             "value": "duration1.subtract(duration2)",
-            "raw": "\"duration1.subtract(duration2)\""
+            "raw": "\"duration1.subtract(duration2)\"",
+            "start": 944,
+            "end": 975
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 558,
+        "end": 977
+      },
+      "start": 558,
+      "end": 978
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 979
 }

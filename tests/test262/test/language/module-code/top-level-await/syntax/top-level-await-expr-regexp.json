@@ -1,30 +1,30 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 1079,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 1068,
-      "end": 1078,
       "expression": {
         "type": "AwaitExpression",
-        "start": 1068,
-        "end": 1077,
         "argument": {
           "type": "Literal",
-          "start": 1074,
-          "end": 1077,
           "value": null,
           "raw": "/1/",
           "regex": {
             "pattern": "1",
             "flags": ""
-          }
-        }
-      }
+          },
+          "start": 1074,
+          "end": 1077
+        },
+        "start": 1068,
+        "end": 1077
+      },
+      "start": 1068,
+      "end": 1078
     }
   ],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 1079
 }

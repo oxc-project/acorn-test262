@@ -2,254 +2,254 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 118,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 0,
-      "end": 21,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 4,
-          "end": 20,
           "id": {
             "type": "Identifier",
-            "start": 4,
-            "end": 15,
             "decorators": [],
             "name": "a",
             "optional": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
-              "start": 5,
-              "end": 15,
               "typeAnnotation": {
                 "type": "TSArrayType",
-                "start": 7,
-                "end": 15,
                 "elementType": {
                   "type": "TSStringKeyword",
                   "start": 7,
                   "end": 13
-                }
-              }
-            }
+                },
+                "start": 7,
+                "end": 15
+              },
+              "start": 5,
+              "end": 15
+            },
+            "start": 4,
+            "end": 15
           },
           "init": {
             "type": "ArrayExpression",
+            "elements": [],
             "start": 18,
-            "end": 20,
-            "elements": []
+            "end": 20
           },
-          "definite": false
+          "definite": false,
+          "start": 4,
+          "end": 20
         }
       ],
-      "declare": false
+      "declare": false,
+      "start": 0,
+      "end": 21
     },
     {
       "type": "ExpressionStatement",
-      "start": 22,
-      "end": 49,
       "expression": {
         "type": "CallExpression",
-        "start": 22,
-        "end": 48,
         "callee": {
           "type": "MemberExpression",
-          "start": 22,
-          "end": 30,
           "object": {
             "type": "Identifier",
+            "decorators": [],
+            "name": "a",
+            "optional": false,
+            "typeAnnotation": null,
             "start": 22,
-            "end": 23,
-            "decorators": [],
-            "name": "a",
-            "optional": false,
-            "typeAnnotation": null
+            "end": 23
           },
           "property": {
             "type": "Identifier",
-            "start": 24,
-            "end": 30,
             "decorators": [],
             "name": "concat",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 24,
+            "end": 30
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 22,
+          "end": 30
         },
         "typeArguments": null,
         "arguments": [
           {
             "type": "Literal",
-            "start": 31,
-            "end": 38,
             "value": "hello",
-            "raw": "\"hello\""
+            "raw": "\"hello\"",
+            "start": 31,
+            "end": 38
           },
           {
             "type": "Literal",
-            "start": 40,
-            "end": 47,
             "value": "world",
-            "raw": "'world'"
+            "raw": "'world'",
+            "start": 40,
+            "end": 47
           }
         ],
-        "optional": false
+        "optional": false,
+        "start": 22,
+        "end": 48
       },
-      "directive": null
+      "directive": null,
+      "start": 22,
+      "end": 49
     },
     {
       "type": "ExpressionStatement",
-      "start": 51,
-      "end": 69,
       "expression": {
         "type": "CallExpression",
-        "start": 51,
-        "end": 68,
         "callee": {
           "type": "MemberExpression",
-          "start": 51,
-          "end": 59,
           "object": {
             "type": "Identifier",
-            "start": 51,
-            "end": 52,
             "decorators": [],
             "name": "a",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 51,
+            "end": 52
           },
           "property": {
             "type": "Identifier",
-            "start": 53,
-            "end": 59,
             "decorators": [],
             "name": "concat",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 53,
+            "end": 59
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 51,
+          "end": 59
         },
         "typeArguments": null,
         "arguments": [
           {
             "type": "Literal",
-            "start": 60,
-            "end": 67,
             "value": "Hello",
-            "raw": "'Hello'"
+            "raw": "'Hello'",
+            "start": 60,
+            "end": 67
           }
         ],
-        "optional": false
+        "optional": false,
+        "start": 51,
+        "end": 68
       },
-      "directive": null
+      "directive": null,
+      "start": 51,
+      "end": 69
     },
     {
       "type": "VariableDeclaration",
-      "start": 71,
-      "end": 99,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 75,
-          "end": 98,
           "id": {
             "type": "Identifier",
-            "start": 75,
-            "end": 76,
             "decorators": [],
             "name": "b",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 75,
+            "end": 76
           },
           "init": {
             "type": "NewExpression",
-            "start": 79,
-            "end": 98,
             "callee": {
               "type": "Identifier",
-              "start": 83,
-              "end": 88,
               "decorators": [],
               "name": "Array",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 83,
+              "end": 88
             },
             "typeArguments": {
               "type": "TSTypeParameterInstantiation",
-              "start": 88,
-              "end": 96,
               "params": [
                 {
                   "type": "TSStringKeyword",
                   "start": 89,
                   "end": 95
                 }
-              ]
+              ],
+              "start": 88,
+              "end": 96
             },
-            "arguments": []
+            "arguments": [],
+            "start": 79,
+            "end": 98
           },
-          "definite": false
+          "definite": false,
+          "start": 75,
+          "end": 98
         }
       ],
-      "declare": false
+      "declare": false,
+      "start": 71,
+      "end": 99
     },
     {
       "type": "ExpressionStatement",
-      "start": 100,
-      "end": 118,
       "expression": {
         "type": "CallExpression",
-        "start": 100,
-        "end": 117,
         "callee": {
           "type": "MemberExpression",
-          "start": 100,
-          "end": 108,
           "object": {
             "type": "Identifier",
-            "start": 100,
-            "end": 101,
             "decorators": [],
             "name": "b",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 100,
+            "end": 101
           },
           "property": {
             "type": "Identifier",
-            "start": 102,
-            "end": 108,
             "decorators": [],
             "name": "concat",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 102,
+            "end": 108
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 100,
+          "end": 108
         },
         "typeArguments": null,
         "arguments": [
           {
             "type": "Literal",
-            "start": 109,
-            "end": 116,
             "value": "hello",
-            "raw": "'hello'"
+            "raw": "'hello'",
+            "start": 109,
+            "end": 116
           }
         ],
-        "optional": false
+        "optional": false,
+        "start": 100,
+        "end": 117
       },
-      "directive": null
+      "directive": null,
+      "start": 100,
+      "end": 118
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 118
 }
 ```

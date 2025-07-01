@@ -1,403 +1,403 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 810,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 277,
-      "end": 341,
       "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 283,
-          "end": 340,
           "id": {
             "type": "Identifier",
+            "name": "afterEpoch",
             "start": 283,
-            "end": 293,
-            "name": "afterEpoch"
+            "end": 293
           },
           "init": {
             "type": "NewExpression",
-            "start": 296,
-            "end": 340,
             "callee": {
               "type": "MemberExpression",
-              "start": 300,
-              "end": 316,
               "object": {
                 "type": "Identifier",
+                "name": "Temporal",
                 "start": 300,
-                "end": 308,
-                "name": "Temporal"
+                "end": 308
               },
               "property": {
                 "type": "Identifier",
+                "name": "Instant",
                 "start": 309,
-                "end": 316,
-                "name": "Instant"
+                "end": 316
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 300,
+              "end": 316
             },
             "arguments": [
               {
                 "type": "Literal",
-                "start": 317,
-                "end": 339,
                 "value": null,
                 "raw": "217175010_123_456_789n",
-                "bigint": "217175010123456789"
+                "bigint": "217175010123456789",
+                "start": 317,
+                "end": 339
               }
-            ]
-          }
+            ],
+            "start": 296,
+            "end": 340
+          },
+          "start": 283,
+          "end": 340
         }
-      ]
+      ],
+      "start": 277,
+      "end": 341
     },
     {
       "type": "ExpressionStatement",
-      "start": 342,
-      "end": 436,
       "expression": {
         "type": "CallExpression",
-        "start": 342,
-        "end": 435,
         "callee": {
           "type": "MemberExpression",
-          "start": 342,
-          "end": 358,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 342,
-            "end": 348,
-            "name": "assert"
+            "end": 348
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 349,
-            "end": 358,
-            "name": "sameValue"
+            "end": 358
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 342,
+          "end": 358
         },
         "arguments": [
           {
             "type": "MemberExpression",
-            "start": 359,
-            "end": 387,
             "object": {
               "type": "Identifier",
+              "name": "afterEpoch",
               "start": 359,
-              "end": 369,
-              "name": "afterEpoch"
+              "end": 369
             },
             "property": {
               "type": "Identifier",
+              "name": "epochMilliseconds",
               "start": 370,
-              "end": 387,
-              "name": "epochMilliseconds"
+              "end": 387
             },
             "optional": false,
-            "computed": false
+            "computed": false,
+            "start": 359,
+            "end": 387
           },
           {
             "type": "Literal",
-            "start": 389,
-            "end": 402,
             "value": 217175010123,
-            "raw": "217175010_123"
+            "raw": "217175010_123",
+            "start": 389,
+            "end": 402
           },
           {
             "type": "Literal",
-            "start": 404,
-            "end": 434,
             "value": "epochMilliseconds post epoch",
-            "raw": "\"epochMilliseconds post epoch\""
+            "raw": "\"epochMilliseconds post epoch\"",
+            "start": 404,
+            "end": 434
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 342,
+        "end": 435
+      },
+      "start": 342,
+      "end": 436
     },
     {
       "type": "ExpressionStatement",
-      "start": 437,
-      "end": 540,
       "expression": {
         "type": "CallExpression",
-        "start": 437,
-        "end": 539,
         "callee": {
           "type": "MemberExpression",
-          "start": 437,
-          "end": 453,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 437,
-            "end": 443,
-            "name": "assert"
+            "end": 443
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 444,
-            "end": 453,
-            "name": "sameValue"
+            "end": 453
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 437,
+          "end": 453
         },
         "arguments": [
           {
             "type": "UnaryExpression",
-            "start": 454,
-            "end": 489,
             "operator": "typeof",
             "argument": {
               "type": "MemberExpression",
-              "start": 461,
-              "end": 489,
               "object": {
                 "type": "Identifier",
+                "name": "afterEpoch",
                 "start": 461,
-                "end": 471,
-                "name": "afterEpoch"
+                "end": 471
               },
               "property": {
                 "type": "Identifier",
+                "name": "epochMilliseconds",
                 "start": 472,
-                "end": 489,
-                "name": "epochMilliseconds"
+                "end": 489
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 461,
+              "end": 489
             },
-            "prefix": true
+            "prefix": true,
+            "start": 454,
+            "end": 489
           },
           {
             "type": "Literal",
-            "start": 491,
-            "end": 499,
             "value": "number",
-            "raw": "\"number\""
+            "raw": "\"number\"",
+            "start": 491,
+            "end": 499
           },
           {
             "type": "Literal",
-            "start": 501,
-            "end": 538,
             "value": "epochMilliseconds value is a number",
-            "raw": "\"epochMilliseconds value is a number\""
+            "raw": "\"epochMilliseconds value is a number\"",
+            "start": 501,
+            "end": 538
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 437,
+        "end": 539
+      },
+      "start": 437,
+      "end": 540
     },
     {
       "type": "VariableDeclaration",
-      "start": 542,
-      "end": 608,
       "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 548,
-          "end": 607,
           "id": {
             "type": "Identifier",
+            "name": "beforeEpoch",
             "start": 548,
-            "end": 559,
-            "name": "beforeEpoch"
+            "end": 559
           },
           "init": {
             "type": "NewExpression",
-            "start": 562,
-            "end": 607,
             "callee": {
               "type": "MemberExpression",
-              "start": 566,
-              "end": 582,
               "object": {
                 "type": "Identifier",
+                "name": "Temporal",
                 "start": 566,
-                "end": 574,
-                "name": "Temporal"
+                "end": 574
               },
               "property": {
                 "type": "Identifier",
+                "name": "Instant",
                 "start": 575,
-                "end": 582,
-                "name": "Instant"
+                "end": 582
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 566,
+              "end": 582
             },
             "arguments": [
               {
                 "type": "UnaryExpression",
-                "start": 583,
-                "end": 606,
                 "operator": "-",
                 "argument": {
                   "type": "Literal",
-                  "start": 584,
-                  "end": 606,
                   "value": null,
                   "raw": "217175010_876_543_211n",
-                  "bigint": "217175010876543211"
+                  "bigint": "217175010876543211",
+                  "start": 584,
+                  "end": 606
                 },
-                "prefix": true
+                "prefix": true,
+                "start": 583,
+                "end": 606
               }
-            ]
-          }
+            ],
+            "start": 562,
+            "end": 607
+          },
+          "start": 548,
+          "end": 607
         }
-      ]
+      ],
+      "start": 542,
+      "end": 608
     },
     {
       "type": "ExpressionStatement",
-      "start": 609,
-      "end": 704,
       "expression": {
         "type": "CallExpression",
-        "start": 609,
-        "end": 703,
         "callee": {
           "type": "MemberExpression",
-          "start": 609,
-          "end": 625,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 609,
-            "end": 615,
-            "name": "assert"
+            "end": 615
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 616,
-            "end": 625,
-            "name": "sameValue"
+            "end": 625
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 609,
+          "end": 625
         },
         "arguments": [
           {
             "type": "MemberExpression",
-            "start": 626,
-            "end": 655,
             "object": {
               "type": "Identifier",
+              "name": "beforeEpoch",
               "start": 626,
-              "end": 637,
-              "name": "beforeEpoch"
+              "end": 637
             },
             "property": {
               "type": "Identifier",
+              "name": "epochMilliseconds",
               "start": 638,
-              "end": 655,
-              "name": "epochMilliseconds"
+              "end": 655
             },
             "optional": false,
-            "computed": false
+            "computed": false,
+            "start": 626,
+            "end": 655
           },
           {
             "type": "UnaryExpression",
-            "start": 657,
-            "end": 671,
             "operator": "-",
             "argument": {
               "type": "Literal",
-              "start": 658,
-              "end": 671,
               "value": 217175010877,
-              "raw": "217175010_877"
+              "raw": "217175010_877",
+              "start": 658,
+              "end": 671
             },
-            "prefix": true
+            "prefix": true,
+            "start": 657,
+            "end": 671
           },
           {
             "type": "Literal",
-            "start": 673,
-            "end": 702,
             "value": "epochMilliseconds pre epoch",
-            "raw": "\"epochMilliseconds pre epoch\""
+            "raw": "\"epochMilliseconds pre epoch\"",
+            "start": 673,
+            "end": 702
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 609,
+        "end": 703
+      },
+      "start": 609,
+      "end": 704
     },
     {
       "type": "ExpressionStatement",
-      "start": 705,
-      "end": 809,
       "expression": {
         "type": "CallExpression",
-        "start": 705,
-        "end": 808,
         "callee": {
           "type": "MemberExpression",
-          "start": 705,
-          "end": 721,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 705,
-            "end": 711,
-            "name": "assert"
+            "end": 711
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 712,
-            "end": 721,
-            "name": "sameValue"
+            "end": 721
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 705,
+          "end": 721
         },
         "arguments": [
           {
             "type": "UnaryExpression",
-            "start": 722,
-            "end": 758,
             "operator": "typeof",
             "argument": {
               "type": "MemberExpression",
-              "start": 729,
-              "end": 758,
               "object": {
                 "type": "Identifier",
+                "name": "beforeEpoch",
                 "start": 729,
-                "end": 740,
-                "name": "beforeEpoch"
+                "end": 740
               },
               "property": {
                 "type": "Identifier",
+                "name": "epochMilliseconds",
                 "start": 741,
-                "end": 758,
-                "name": "epochMilliseconds"
+                "end": 758
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 729,
+              "end": 758
             },
-            "prefix": true
+            "prefix": true,
+            "start": 722,
+            "end": 758
           },
           {
             "type": "Literal",
-            "start": 760,
-            "end": 768,
             "value": "number",
-            "raw": "\"number\""
+            "raw": "\"number\"",
+            "start": 760,
+            "end": 768
           },
           {
             "type": "Literal",
-            "start": 770,
-            "end": 807,
             "value": "epochMilliseconds value is a number",
-            "raw": "\"epochMilliseconds value is a number\""
+            "raw": "\"epochMilliseconds value is a number\"",
+            "start": 770,
+            "end": 807
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 705,
+        "end": 808
+      },
+      "start": 705,
+      "end": 809
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 810
 }

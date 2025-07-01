@@ -1,92 +1,92 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 832,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 714,
-      "end": 810,
       "expression": {
         "type": "CallExpression",
-        "start": 714,
-        "end": 809,
         "callee": {
           "type": "MemberExpression",
-          "start": 714,
-          "end": 730,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 714,
-            "end": 720,
-            "name": "assert"
+            "end": 720
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 721,
-            "end": 730,
-            "name": "sameValue"
+            "end": 730
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 714,
+          "end": 730
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 731,
-            "end": 756,
             "callee": {
               "type": "Identifier",
+              "name": "isConstructor",
               "start": 731,
-              "end": 744,
-              "name": "isConstructor"
+              "end": 744
             },
             "arguments": [
               {
                 "type": "Identifier",
+                "name": "RangeError",
                 "start": 745,
-                "end": 755,
-                "name": "RangeError"
+                "end": 755
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 731,
+            "end": 756
           },
           {
             "type": "Literal",
-            "start": 758,
-            "end": 762,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "start": 758,
+            "end": 762
           },
           {
             "type": "Literal",
-            "start": 764,
-            "end": 808,
             "value": "isConstructor(RangeError) must return true",
-            "raw": "'isConstructor(RangeError) must return true'"
+            "raw": "'isConstructor(RangeError) must return true'",
+            "start": 764,
+            "end": 808
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 714,
+        "end": 809
+      },
+      "start": 714,
+      "end": 810
     },
     {
       "type": "ExpressionStatement",
-      "start": 811,
-      "end": 828,
       "expression": {
         "type": "NewExpression",
-        "start": 811,
-        "end": 827,
         "callee": {
           "type": "Identifier",
+          "name": "RangeError",
           "start": 815,
-          "end": 825,
-          "name": "RangeError"
+          "end": 825
         },
-        "arguments": []
-      }
+        "arguments": [],
+        "start": 811,
+        "end": 827
+      },
+      "start": 811,
+      "end": 828
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 832
 }

@@ -2,70 +2,70 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 14,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 0,
-      "end": 8,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 4,
-          "end": 7,
           "id": {
             "type": "Identifier",
-            "start": 4,
-            "end": 5,
             "decorators": [],
             "name": "x",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 4,
+            "end": 5
           },
           "init": {
             "type": "Literal",
-            "start": 6,
-            "end": 7,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "start": 6,
+            "end": 7
           },
-          "definite": false
+          "definite": false,
+          "start": 4,
+          "end": 7
         }
       ],
-      "declare": false
+      "declare": false,
+      "start": 0,
+      "end": 8
     },
     {
       "type": "ExpressionStatement",
-      "start": 9,
-      "end": 13,
       "expression": {
         "type": "AssignmentExpression",
-        "start": 9,
-        "end": 12,
         "operator": "=",
         "left": {
           "type": "Identifier",
-          "start": 9,
-          "end": 10,
           "decorators": [],
           "name": "x",
           "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "start": 9,
+          "end": 10
         },
         "right": {
           "type": "Literal",
-          "start": 11,
-          "end": 12,
           "value": 2,
-          "raw": "2"
-        }
+          "raw": "2",
+          "start": 11,
+          "end": 12
+        },
+        "start": 9,
+        "end": 12
       },
-      "directive": null
+      "directive": null,
+      "start": 9,
+      "end": 13
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 14
 }
 ```

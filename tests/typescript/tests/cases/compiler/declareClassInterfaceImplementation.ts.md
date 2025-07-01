@@ -2,84 +2,80 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 96,
   "body": [
     {
       "type": "TSInterfaceDeclaration",
-      "start": 0,
-      "end": 50,
       "id": {
         "type": "Identifier",
-        "start": 10,
-        "end": 17,
         "decorators": [],
         "name": "IBuffer",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 10,
+        "end": 17
       },
       "typeParameters": null,
       "extends": [],
       "body": {
         "type": "TSInterfaceBody",
-        "start": 18,
-        "end": 50,
         "body": [
           {
             "type": "TSIndexSignature",
-            "start": 24,
-            "end": 48,
             "parameters": [
               {
                 "type": "Identifier",
-                "start": 25,
-                "end": 38,
                 "decorators": [],
                 "name": "index",
                 "optional": false,
                 "typeAnnotation": {
                   "type": "TSTypeAnnotation",
-                  "start": 30,
-                  "end": 38,
                   "typeAnnotation": {
                     "type": "TSNumberKeyword",
                     "start": 32,
                     "end": 38
-                  }
-                }
+                  },
+                  "start": 30,
+                  "end": 38
+                },
+                "start": 25,
+                "end": 38
               }
             ],
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
-              "start": 39,
-              "end": 47,
               "typeAnnotation": {
                 "type": "TSNumberKeyword",
                 "start": 41,
                 "end": 47
-              }
+              },
+              "start": 39,
+              "end": 47
             },
             "readonly": false,
             "static": false,
-            "accessibility": null
+            "accessibility": null,
+            "start": 24,
+            "end": 48
           }
-        ]
+        ],
+        "start": 18,
+        "end": 50
       },
-      "declare": false
+      "declare": false,
+      "start": 0,
+      "end": 50
     },
     {
       "type": "ClassDeclaration",
-      "start": 52,
-      "end": 96,
       "decorators": [],
       "id": {
         "type": "Identifier",
-        "start": 66,
-        "end": 72,
         "decorators": [],
         "name": "Buffer",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 66,
+        "end": 72
       },
       "typeParameters": null,
       "superClass": null,
@@ -87,31 +83,35 @@ __ESTREE_TEST__:PASS:
       "implements": [
         {
           "type": "TSClassImplements",
-          "start": 84,
-          "end": 91,
           "expression": {
             "type": "Identifier",
-            "start": 84,
-            "end": 91,
             "decorators": [],
             "name": "IBuffer",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 84,
+            "end": 91
           },
-          "typeArguments": null
+          "typeArguments": null,
+          "start": 84,
+          "end": 91
         }
       ],
       "body": {
         "type": "ClassBody",
+        "body": [],
         "start": 92,
-        "end": 96,
-        "body": []
+        "end": 96
       },
       "abstract": false,
-      "declare": true
+      "declare": true,
+      "start": 52,
+      "end": 96
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 96
 }
 ```

@@ -2,65 +2,53 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 43,
   "body": [
     {
       "type": "TSModuleDeclaration",
-      "start": 0,
-      "end": 43,
       "id": {
         "type": "Identifier",
-        "start": 7,
-        "end": 12,
         "decorators": [],
         "name": "myMod",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 7,
+        "end": 12
       },
       "body": {
         "type": "TSModuleBlock",
-        "start": 13,
-        "end": 43,
         "body": [
           {
             "type": "VariableDeclaration",
-            "start": 19,
-            "end": 25,
             "kind": "var",
             "declarations": [
               {
                 "type": "VariableDeclarator",
-                "start": 23,
-                "end": 24,
                 "id": {
                   "type": "Identifier",
-                  "start": 23,
-                  "end": 24,
                   "decorators": [],
                   "name": "x",
                   "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "start": 23,
+                  "end": 24
                 },
                 "init": null,
-                "definite": false
+                "definite": false,
+                "start": 23,
+                "end": 24
               }
             ],
-            "declare": false
+            "declare": false,
+            "start": 19,
+            "end": 25
           },
           {
             "type": "ExpressionStatement",
-            "start": 30,
-            "end": 41,
             "expression": {
               "type": "AssignmentExpression",
-              "start": 30,
-              "end": 40,
               "operator": "=",
               "left": {
                 "type": "MemberExpression",
-                "start": 30,
-                "end": 36,
                 "object": {
                   "type": "ThisExpression",
                   "start": 30,
@@ -68,34 +56,46 @@ __ESTREE_TEST__:PASS:
                 },
                 "property": {
                   "type": "Identifier",
-                  "start": 35,
-                  "end": 36,
                   "decorators": [],
                   "name": "x",
                   "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "start": 35,
+                  "end": 36
                 },
                 "optional": false,
-                "computed": false
+                "computed": false,
+                "start": 30,
+                "end": 36
               },
               "right": {
                 "type": "Literal",
-                "start": 39,
-                "end": 40,
                 "value": 5,
-                "raw": "5"
-              }
+                "raw": "5",
+                "start": 39,
+                "end": 40
+              },
+              "start": 30,
+              "end": 40
             },
-            "directive": null
+            "directive": null,
+            "start": 30,
+            "end": 41
           }
-        ]
+        ],
+        "start": 13,
+        "end": 43
       },
       "kind": "module",
       "declare": false,
-      "global": false
+      "global": false,
+      "start": 0,
+      "end": 43
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 43
 }
 ```

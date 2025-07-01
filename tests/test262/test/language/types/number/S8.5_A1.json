@@ -1,141 +1,141 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 447,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 212,
-      "end": 231,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 216,
-          "end": 230,
           "id": {
             "type": "Identifier",
+            "name": "x",
             "start": 216,
-            "end": 217,
-            "name": "x"
+            "end": 217
           },
           "init": {
             "type": "MemberExpression",
-            "start": 220,
-            "end": 230,
             "object": {
               "type": "Identifier",
+              "name": "Number",
               "start": 220,
-              "end": 226,
-              "name": "Number"
+              "end": 226
             },
             "property": {
               "type": "Identifier",
+              "name": "NaN",
               "start": 227,
-              "end": 230,
-              "name": "NaN"
+              "end": 230
             },
             "optional": false,
-            "computed": false
-          }
+            "computed": false,
+            "start": 220,
+            "end": 230
+          },
+          "start": 216,
+          "end": 230
         }
-      ]
+      ],
+      "start": 212,
+      "end": 231
     },
     {
       "type": "VariableDeclaration",
-      "start": 232,
-      "end": 252,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 236,
-          "end": 251,
           "id": {
             "type": "Identifier",
+            "name": "x_",
             "start": 236,
-            "end": 238,
-            "name": "x_"
+            "end": 238
           },
           "init": {
             "type": "MemberExpression",
-            "start": 241,
-            "end": 251,
             "object": {
               "type": "Identifier",
+              "name": "Number",
               "start": 241,
-              "end": 247,
-              "name": "Number"
+              "end": 247
             },
             "property": {
               "type": "Identifier",
+              "name": "NaN",
               "start": 248,
-              "end": 251,
-              "name": "NaN"
+              "end": 251
             },
             "optional": false,
-            "computed": false
-          }
+            "computed": false,
+            "start": 241,
+            "end": 251
+          },
+          "start": 236,
+          "end": 251
         }
-      ]
+      ],
+      "start": 232,
+      "end": 252
     },
     {
       "type": "IfStatement",
-      "start": 322,
-      "end": 384,
       "test": {
         "type": "BinaryExpression",
-        "start": 326,
-        "end": 334,
         "left": {
           "type": "Identifier",
+          "name": "x",
           "start": 326,
-          "end": 327,
-          "name": "x"
+          "end": 327
         },
         "operator": "===",
         "right": {
           "type": "Identifier",
+          "name": "x_",
           "start": 332,
-          "end": 334,
-          "name": "x_"
-        }
+          "end": 334
+        },
+        "start": 326,
+        "end": 334
       },
       "consequent": {
         "type": "BlockStatement",
-        "start": 335,
-        "end": 384,
         "body": [
           {
             "type": "ThrowStatement",
-            "start": 339,
-            "end": 382,
             "argument": {
               "type": "NewExpression",
-              "start": 345,
-              "end": 381,
               "callee": {
                 "type": "Identifier",
+                "name": "Test262Error",
                 "start": 349,
-                "end": 361,
-                "name": "Test262Error"
+                "end": 361
               },
               "arguments": [
                 {
                   "type": "Literal",
-                  "start": 362,
-                  "end": 380,
                   "value": "#1: NaN !== NaN ",
-                  "raw": "'#1: NaN !== NaN '"
+                  "raw": "'#1: NaN !== NaN '",
+                  "start": 362,
+                  "end": 380
                 }
-              ]
-            }
+              ],
+              "start": 345,
+              "end": 381
+            },
+            "start": 339,
+            "end": 382
           }
-        ]
+        ],
+        "start": 335,
+        "end": 384
       },
-      "alternate": null
+      "alternate": null,
+      "start": 322,
+      "end": 384
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 447
 }

@@ -1,120 +1,120 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 575,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 417,
-      "end": 438,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 421,
-          "end": 437,
           "id": {
             "type": "Identifier",
+            "name": "regexp1",
             "start": 421,
-            "end": 428,
-            "name": "regexp1"
+            "end": 428
           },
           "init": {
             "type": "Literal",
-            "start": 431,
-            "end": 437,
             "value": null,
             "raw": "/(?:)/",
             "regex": {
               "pattern": "(?:)",
               "flags": ""
-            }
-          }
+            },
+            "start": 431,
+            "end": 437
+          },
+          "start": 421,
+          "end": 437
         }
-      ]
+      ],
+      "start": 417,
+      "end": 438
     },
     {
       "type": "VariableDeclaration",
-      "start": 439,
-      "end": 460,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 443,
-          "end": 459,
           "id": {
             "type": "Identifier",
+            "name": "regexp2",
             "start": 443,
-            "end": 450,
-            "name": "regexp2"
+            "end": 450
           },
           "init": {
             "type": "Literal",
-            "start": 453,
-            "end": 459,
             "value": null,
             "raw": "/(?:)/",
             "regex": {
               "pattern": "(?:)",
               "flags": ""
-            }
-          }
+            },
+            "start": 453,
+            "end": 459
+          },
+          "start": 443,
+          "end": 459
         }
-      ]
+      ],
+      "start": 439,
+      "end": 460
     },
     {
       "type": "ExpressionStatement",
-      "start": 461,
-      "end": 574,
       "expression": {
         "type": "CallExpression",
-        "start": 461,
-        "end": 573,
         "callee": {
           "type": "MemberExpression",
-          "start": 461,
-          "end": 480,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 461,
-            "end": 467,
-            "name": "assert"
+            "end": 467
           },
           "property": {
             "type": "Identifier",
+            "name": "notSameValue",
             "start": 468,
-            "end": 480,
-            "name": "notSameValue"
+            "end": 480
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 461,
+          "end": 480
         },
         "arguments": [
           {
             "type": "Identifier",
+            "name": "regexp1",
             "start": 484,
-            "end": 491,
-            "name": "regexp1"
+            "end": 491
           },
           {
             "type": "Identifier",
+            "name": "regexp2",
             "start": 495,
-            "end": 502,
-            "name": "regexp2"
+            "end": 502
           },
           {
             "type": "Literal",
-            "start": 506,
-            "end": 571,
             "value": "var regexp1 = /(?:)/; var regexp2 = /(?:)/; regexp1 !== regexp2",
-            "raw": "\"var regexp1 = /(?:)/; var regexp2 = /(?:)/; regexp1 !== regexp2\""
+            "raw": "\"var regexp1 = /(?:)/; var regexp2 = /(?:)/; regexp1 !== regexp2\"",
+            "start": 506,
+            "end": 571
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 461,
+        "end": 573
+      },
+      "start": 461,
+      "end": 574
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 575
 }

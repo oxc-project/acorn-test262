@@ -2,29 +2,29 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 53,
   "body": [
     {
       "type": "TryStatement",
-      "start": 0,
-      "end": 53,
       "block": {
         "type": "BlockStatement",
+        "body": [],
         "start": 4,
-        "end": 15,
-        "body": []
+        "end": 15
       },
       "handler": null,
       "finalizer": {
         "type": "BlockStatement",
+        "body": [],
         "start": 24,
-        "end": 53,
-        "body": []
-      }
+        "end": 53
+      },
+      "start": 0,
+      "end": 53
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 53
 }
 ```

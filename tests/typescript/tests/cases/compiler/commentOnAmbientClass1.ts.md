@@ -2,22 +2,18 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 97,
-  "end": 166,
   "body": [
     {
       "type": "ClassDeclaration",
-      "start": 97,
-      "end": 116,
       "decorators": [],
       "id": {
         "type": "Identifier",
-        "start": 111,
-        "end": 112,
         "decorators": [],
         "name": "C",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 111,
+        "end": 112
       },
       "typeParameters": null,
       "superClass": null,
@@ -25,26 +21,26 @@ __ESTREE_TEST__:PASS:
       "implements": [],
       "body": {
         "type": "ClassBody",
+        "body": [],
         "start": 113,
-        "end": 116,
-        "body": []
+        "end": 116
       },
       "abstract": false,
-      "declare": true
+      "declare": true,
+      "start": 97,
+      "end": 116
     },
     {
       "type": "ClassDeclaration",
-      "start": 146,
-      "end": 165,
       "decorators": [],
       "id": {
         "type": "Identifier",
-        "start": 160,
-        "end": 161,
         "decorators": [],
         "name": "D",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 160,
+        "end": 161
       },
       "typeParameters": null,
       "superClass": null,
@@ -52,62 +48,66 @@ __ESTREE_TEST__:PASS:
       "implements": [],
       "body": {
         "type": "ClassBody",
+        "body": [],
         "start": 162,
-        "end": 165,
-        "body": []
+        "end": 165
       },
       "abstract": false,
-      "declare": true
+      "declare": true,
+      "start": 146,
+      "end": 165
     }
   ],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 97,
+  "end": 166
 }
 ```
 __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 28,
-  "end": 57,
   "body": [
     {
       "type": "ClassDeclaration",
-      "start": 28,
-      "end": 57,
       "decorators": [],
       "id": {
         "type": "Identifier",
-        "start": 42,
-        "end": 43,
         "decorators": [],
         "name": "E",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 42,
+        "end": 43
       },
       "typeParameters": null,
       "superClass": {
         "type": "Identifier",
-        "start": 52,
-        "end": 53,
         "decorators": [],
         "name": "C",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 52,
+        "end": 53
       },
       "superTypeArguments": null,
       "implements": [],
       "body": {
         "type": "ClassBody",
+        "body": [],
         "start": 54,
-        "end": 57,
-        "body": []
+        "end": 57
       },
       "abstract": false,
-      "declare": true
+      "declare": true,
+      "start": 28,
+      "end": 57
     }
   ],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 28,
+  "end": 57
 }
 ```

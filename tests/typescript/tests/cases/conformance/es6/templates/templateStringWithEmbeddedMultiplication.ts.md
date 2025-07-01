@@ -2,84 +2,84 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 27,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 0,
-      "end": 27,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 4,
-          "end": 26,
           "id": {
             "type": "Identifier",
-            "start": 4,
-            "end": 5,
             "decorators": [],
             "name": "x",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 4,
+            "end": 5
           },
           "init": {
             "type": "TemplateLiteral",
-            "start": 8,
-            "end": 26,
             "quasis": [
               {
                 "type": "TemplateElement",
-                "start": 8,
-                "end": 14,
                 "value": {
                   "raw": "abc",
                   "cooked": "abc"
                 },
-                "tail": false
+                "tail": false,
+                "start": 8,
+                "end": 14
               },
               {
                 "type": "TemplateElement",
-                "start": 21,
-                "end": 26,
                 "value": {
                   "raw": "def",
                   "cooked": "def"
                 },
-                "tail": true
+                "tail": true,
+                "start": 21,
+                "end": 26
               }
             ],
             "expressions": [
               {
                 "type": "BinaryExpression",
-                "start": 15,
-                "end": 20,
                 "left": {
                   "type": "Literal",
-                  "start": 15,
-                  "end": 16,
                   "value": 7,
-                  "raw": "7"
+                  "raw": "7",
+                  "start": 15,
+                  "end": 16
                 },
                 "operator": "*",
                 "right": {
                   "type": "Literal",
-                  "start": 19,
-                  "end": 20,
                   "value": 6,
-                  "raw": "6"
-                }
+                  "raw": "6",
+                  "start": 19,
+                  "end": 20
+                },
+                "start": 15,
+                "end": 20
               }
-            ]
+            ],
+            "start": 8,
+            "end": 26
           },
-          "definite": false
+          "definite": false,
+          "start": 4,
+          "end": 26
         }
       ],
-      "declare": false
+      "declare": false,
+      "start": 0,
+      "end": 27
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 27
 }
 ```

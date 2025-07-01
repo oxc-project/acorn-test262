@@ -1,58 +1,58 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 498,
   "body": [
     {
       "type": "ForStatement",
-      "start": 464,
-      "end": 483,
       "init": null,
       "test": {
         "type": "Literal",
-        "start": 471,
-        "end": 476,
         "value": false,
-        "raw": "false"
+        "raw": "false",
+        "start": 471,
+        "end": 476
       },
       "update": null,
       "body": {
         "type": "ExpressionStatement",
-        "start": 480,
-        "end": 483,
         "expression": {
           "type": "Identifier",
+          "name": "let",
           "start": 480,
-          "end": 483,
-          "name": "let"
-        }
-      }
+          "end": 483
+        },
+        "start": 480,
+        "end": 483
+      },
+      "start": 464,
+      "end": 483
     },
     {
       "type": "ExpressionStatement",
-      "start": 491,
-      "end": 497,
       "expression": {
         "type": "AssignmentExpression",
-        "start": 491,
-        "end": 496,
         "operator": "=",
         "left": {
           "type": "Identifier",
+          "name": "x",
           "start": 491,
-          "end": 492,
-          "name": "x"
+          "end": 492
         },
         "right": {
           "type": "Literal",
-          "start": 495,
-          "end": 496,
           "value": 1,
-          "raw": "1"
-        }
-      }
+          "raw": "1",
+          "start": 495,
+          "end": 496
+        },
+        "start": 491,
+        "end": 496
+      },
+      "start": 491,
+      "end": 497
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 498
 }

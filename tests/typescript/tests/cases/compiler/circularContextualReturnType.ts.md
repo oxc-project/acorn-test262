@@ -2,67 +2,55 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 22,
-  "end": 95,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 22,
-      "end": 95,
       "expression": {
         "type": "CallExpression",
-        "start": 22,
-        "end": 94,
         "callee": {
           "type": "MemberExpression",
-          "start": 22,
-          "end": 35,
           "object": {
             "type": "Identifier",
-            "start": 22,
-            "end": 28,
             "decorators": [],
             "name": "Object",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 22,
+            "end": 28
           },
           "property": {
             "type": "Identifier",
-            "start": 29,
-            "end": 35,
             "decorators": [],
             "name": "freeze",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 29,
+            "end": 35
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 22,
+          "end": 35
         },
         "typeArguments": null,
         "arguments": [
           {
             "type": "ObjectExpression",
-            "start": 36,
-            "end": 93,
             "properties": [
               {
                 "type": "Property",
-                "start": 42,
-                "end": 90,
                 "kind": "init",
                 "key": {
                   "type": "Identifier",
-                  "start": 42,
-                  "end": 45,
                   "decorators": [],
                   "name": "foo",
                   "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "start": 42,
+                  "end": 45
                 },
                 "value": {
                   "type": "FunctionExpression",
-                  "start": 45,
-                  "end": 90,
                   "id": null,
                   "generator": false,
                   "async": false,
@@ -72,73 +60,85 @@ __ESTREE_TEST__:PASS:
                   "returnType": null,
                   "body": {
                     "type": "BlockStatement",
-                    "start": 48,
-                    "end": 90,
                     "body": [
                       {
                         "type": "ReturnStatement",
-                        "start": 58,
-                        "end": 84,
                         "argument": {
                           "type": "CallExpression",
-                          "start": 65,
-                          "end": 83,
                           "callee": {
                             "type": "MemberExpression",
-                            "start": 65,
-                            "end": 78,
                             "object": {
                               "type": "Identifier",
-                              "start": 65,
-                              "end": 71,
                               "decorators": [],
                               "name": "Object",
                               "optional": false,
-                              "typeAnnotation": null
+                              "typeAnnotation": null,
+                              "start": 65,
+                              "end": 71
                             },
                             "property": {
                               "type": "Identifier",
-                              "start": 72,
-                              "end": 78,
                               "decorators": [],
                               "name": "freeze",
                               "optional": false,
-                              "typeAnnotation": null
+                              "typeAnnotation": null,
+                              "start": 72,
+                              "end": 78
                             },
                             "optional": false,
-                            "computed": false
+                            "computed": false,
+                            "start": 65,
+                            "end": 78
                           },
                           "typeArguments": null,
                           "arguments": [
                             {
                               "type": "Literal",
-                              "start": 79,
-                              "end": 82,
                               "value": "a",
-                              "raw": "'a'"
+                              "raw": "'a'",
+                              "start": 79,
+                              "end": 82
                             }
                           ],
-                          "optional": false
-                        }
+                          "optional": false,
+                          "start": 65,
+                          "end": 83
+                        },
+                        "start": 58,
+                        "end": 84
                       }
-                    ]
+                    ],
+                    "start": 48,
+                    "end": 90
                   },
-                  "expression": false
+                  "expression": false,
+                  "start": 45,
+                  "end": 90
                 },
                 "method": true,
                 "shorthand": false,
                 "computed": false,
-                "optional": false
+                "optional": false,
+                "start": 42,
+                "end": 90
               }
-            ]
+            ],
+            "start": 36,
+            "end": 93
           }
         ],
-        "optional": false
+        "optional": false,
+        "start": 22,
+        "end": 94
       },
-      "directive": null
+      "directive": null,
+      "start": 22,
+      "end": 95
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 22,
+  "end": 95
 }
 ```

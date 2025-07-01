@@ -2,87 +2,87 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 4,
-  "end": 71,
   "body": [
     {
       "type": "ExportNamedDeclaration",
-      "start": 4,
-      "end": 71,
       "declaration": {
         "type": "TSEnumDeclaration",
-        "start": 11,
-        "end": 71,
         "id": {
           "type": "Identifier",
-          "start": 16,
-          "end": 29,
           "decorators": [],
           "name": "CodeGenTarget",
           "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "start": 16,
+          "end": 29
         },
         "body": {
           "type": "TSEnumBody",
-          "start": 30,
-          "end": 71,
           "members": [
             {
               "type": "TSEnumMember",
-              "start": 40,
-              "end": 47,
               "id": {
                 "type": "Identifier",
-                "start": 40,
-                "end": 43,
                 "decorators": [],
                 "name": "ES3",
                 "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "start": 40,
+                "end": 43
               },
               "initializer": {
                 "type": "Literal",
-                "start": 46,
-                "end": 47,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "start": 46,
+                "end": 47
               },
-              "computed": false
+              "computed": false,
+              "start": 40,
+              "end": 47
             },
             {
               "type": "TSEnumMember",
-              "start": 57,
-              "end": 64,
               "id": {
                 "type": "Identifier",
-                "start": 57,
-                "end": 60,
                 "decorators": [],
                 "name": "ES5",
                 "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "start": 57,
+                "end": 60
               },
               "initializer": {
                 "type": "Literal",
-                "start": 63,
-                "end": 64,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "start": 63,
+                "end": 64
               },
-              "computed": false
+              "computed": false,
+              "start": 57,
+              "end": 64
             }
-          ]
+          ],
+          "start": 30,
+          "end": 71
         },
         "const": false,
-        "declare": false
+        "declare": false,
+        "start": 11,
+        "end": 71
       },
       "specifiers": [],
       "source": null,
       "exportKind": "value",
-      "attributes": []
+      "attributes": [],
+      "start": 4,
+      "end": 71
     }
   ],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 4,
+  "end": 71
 }
 ```

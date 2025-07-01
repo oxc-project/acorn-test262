@@ -2,75 +2,67 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 81,
   "body": [
     {
       "type": "TSModuleDeclaration",
-      "start": 0,
-      "end": 81,
       "id": {
         "type": "Identifier",
-        "start": 18,
-        "end": 20,
         "decorators": [],
         "name": "ns",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 18,
+        "end": 20
       },
       "body": {
         "type": "TSModuleBlock",
-        "start": 21,
-        "end": 81,
         "body": [
           {
             "type": "ClassDeclaration",
-            "start": 25,
-            "end": 59,
             "decorators": [],
             "id": {
               "type": "Identifier",
-              "start": 31,
-              "end": 39,
               "decorators": [],
               "name": "SecondNS",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 31,
+              "end": 39
             },
             "typeParameters": null,
             "superClass": {
               "type": "Identifier",
-              "start": 48,
-              "end": 55,
               "decorators": [],
               "name": "FirstNS",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 48,
+              "end": 55
             },
             "superTypeArguments": null,
             "implements": [],
             "body": {
               "type": "ClassBody",
+              "body": [],
               "start": 56,
-              "end": 59,
-              "body": []
+              "end": 59
             },
             "abstract": false,
-            "declare": false
+            "declare": false,
+            "start": 25,
+            "end": 59
           },
           {
             "type": "ClassDeclaration",
-            "start": 62,
-            "end": 79,
             "decorators": [],
             "id": {
               "type": "Identifier",
-              "start": 68,
-              "end": 75,
               "decorators": [],
               "name": "FirstNS",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 68,
+              "end": 75
             },
             "typeParameters": null,
             "superClass": null,
@@ -78,21 +70,29 @@ __ESTREE_TEST__:PASS:
             "implements": [],
             "body": {
               "type": "ClassBody",
+              "body": [],
               "start": 76,
-              "end": 79,
-              "body": []
+              "end": 79
             },
             "abstract": false,
-            "declare": false
+            "declare": false,
+            "start": 62,
+            "end": 79
           }
-        ]
+        ],
+        "start": 21,
+        "end": 81
       },
       "kind": "namespace",
       "declare": true,
-      "global": false
+      "global": false,
+      "start": 0,
+      "end": 81
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 81
 }
 ```

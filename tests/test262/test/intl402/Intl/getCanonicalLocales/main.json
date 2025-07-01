@@ -1,535 +1,535 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 795,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 416,
-      "end": 451,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 420,
-          "end": 450,
           "id": {
             "type": "Identifier",
+            "name": "gCL",
             "start": 420,
-            "end": 423,
-            "name": "gCL"
+            "end": 423
           },
           "init": {
             "type": "MemberExpression",
-            "start": 426,
-            "end": 450,
             "object": {
               "type": "Identifier",
+              "name": "Intl",
               "start": 426,
-              "end": 430,
-              "name": "Intl"
+              "end": 430
             },
             "property": {
               "type": "Identifier",
+              "name": "getCanonicalLocales",
               "start": 431,
-              "end": 450,
-              "name": "getCanonicalLocales"
+              "end": 450
             },
             "optional": false,
-            "computed": false
-          }
+            "computed": false,
+            "start": 426,
+            "end": 450
+          },
+          "start": 420,
+          "end": 450
         }
-      ]
+      ],
+      "start": 416,
+      "end": 451
     },
     {
       "type": "FunctionDeclaration",
-      "start": 453,
-      "end": 515,
       "id": {
         "type": "Identifier",
+        "name": "assertArray",
         "start": 462,
-        "end": 473,
-        "name": "assertArray"
+        "end": 473
       },
       "generator": false,
       "async": false,
       "params": [
         {
           "type": "Identifier",
+          "name": "l",
           "start": 474,
-          "end": 475,
-          "name": "l"
+          "end": 475
         },
         {
           "type": "Identifier",
+          "name": "r",
           "start": 477,
-          "end": 478,
-          "name": "r"
+          "end": 478
         }
       ],
       "body": {
         "type": "BlockStatement",
-        "start": 480,
-        "end": 515,
         "body": [
           {
             "type": "ExpressionStatement",
-            "start": 484,
-            "end": 513,
             "expression": {
               "type": "CallExpression",
-              "start": 484,
-              "end": 512,
               "callee": {
                 "type": "MemberExpression",
-                "start": 484,
-                "end": 503,
                 "object": {
                   "type": "Identifier",
+                  "name": "assert",
                   "start": 484,
-                  "end": 490,
-                  "name": "assert"
+                  "end": 490
                 },
                 "property": {
                   "type": "Identifier",
+                  "name": "compareArray",
                   "start": 491,
-                  "end": 503,
-                  "name": "compareArray"
+                  "end": 503
                 },
                 "optional": false,
-                "computed": false
+                "computed": false,
+                "start": 484,
+                "end": 503
               },
               "arguments": [
                 {
                   "type": "Identifier",
+                  "name": "l",
                   "start": 504,
-                  "end": 505,
-                  "name": "l"
+                  "end": 505
                 },
                 {
                   "type": "Identifier",
+                  "name": "r",
                   "start": 507,
-                  "end": 508,
-                  "name": "r"
+                  "end": 508
                 },
                 {
                   "type": "Identifier",
+                  "name": "r",
                   "start": 510,
-                  "end": 511,
-                  "name": "r"
+                  "end": 511
                 }
               ],
-              "optional": false
-            }
+              "optional": false,
+              "start": 484,
+              "end": 512
+            },
+            "start": 484,
+            "end": 513
           }
-        ]
+        ],
+        "start": 480,
+        "end": 515
       },
-      "expression": false
+      "expression": false,
+      "start": 453,
+      "end": 515
     },
     {
       "type": "ExpressionStatement",
-      "start": 517,
-      "end": 540,
       "expression": {
         "type": "CallExpression",
-        "start": 517,
-        "end": 539,
         "callee": {
           "type": "Identifier",
+          "name": "assertArray",
           "start": 517,
-          "end": 528,
-          "name": "assertArray"
+          "end": 528
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 529,
-            "end": 534,
             "callee": {
               "type": "Identifier",
+              "name": "gCL",
               "start": 529,
-              "end": 532,
-              "name": "gCL"
+              "end": 532
             },
             "arguments": [],
-            "optional": false
+            "optional": false,
+            "start": 529,
+            "end": 534
           },
           {
             "type": "ArrayExpression",
+            "elements": [],
             "start": 536,
-            "end": 538,
-            "elements": []
+            "end": 538
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 517,
+        "end": 539
+      },
+      "start": 517,
+      "end": 540
     },
     {
       "type": "ExpressionStatement",
-      "start": 542,
-      "end": 579,
       "expression": {
         "type": "CallExpression",
-        "start": 542,
-        "end": 578,
         "callee": {
           "type": "Identifier",
+          "name": "assertArray",
           "start": 542,
-          "end": 553,
-          "name": "assertArray"
+          "end": 553
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 554,
-            "end": 566,
             "callee": {
               "type": "Identifier",
+              "name": "gCL",
               "start": 554,
-              "end": 557,
-              "name": "gCL"
+              "end": 557
             },
             "arguments": [
               {
                 "type": "Literal",
-                "start": 558,
-                "end": 565,
                 "value": "ab-cd",
-                "raw": "'ab-cd'"
+                "raw": "'ab-cd'",
+                "start": 558,
+                "end": 565
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 554,
+            "end": 566
           },
           {
             "type": "ArrayExpression",
-            "start": 568,
-            "end": 577,
             "elements": [
               {
                 "type": "Literal",
+                "value": "ab-CD",
+                "raw": "'ab-CD'",
                 "start": 569,
-                "end": 576,
-                "value": "ab-CD",
-                "raw": "'ab-CD'"
+                "end": 576
               }
-            ]
+            ],
+            "start": 568,
+            "end": 577
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 542,
+        "end": 578
+      },
+      "start": 542,
+      "end": 579
     },
     {
       "type": "ExpressionStatement",
-      "start": 581,
-      "end": 620,
       "expression": {
         "type": "CallExpression",
-        "start": 581,
-        "end": 619,
         "callee": {
           "type": "Identifier",
+          "name": "assertArray",
           "start": 581,
-          "end": 592,
-          "name": "assertArray"
+          "end": 592
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 593,
-            "end": 607,
             "callee": {
               "type": "Identifier",
+              "name": "gCL",
               "start": 593,
-              "end": 596,
-              "name": "gCL"
+              "end": 596
             },
             "arguments": [
               {
                 "type": "ArrayExpression",
-                "start": 597,
-                "end": 606,
                 "elements": [
                   {
                     "type": "Literal",
-                    "start": 598,
-                    "end": 605,
                     "value": "ab-cd",
-                    "raw": "'ab-cd'"
+                    "raw": "'ab-cd'",
+                    "start": 598,
+                    "end": 605
                   }
-                ]
+                ],
+                "start": 597,
+                "end": 606
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 593,
+            "end": 607
           },
           {
             "type": "ArrayExpression",
-            "start": 609,
-            "end": 618,
             "elements": [
               {
                 "type": "Literal",
-                "start": 610,
-                "end": 617,
                 "value": "ab-CD",
-                "raw": "'ab-CD'"
+                "raw": "'ab-CD'",
+                "start": 610,
+                "end": 617
               }
-            ]
+            ],
+            "start": 609,
+            "end": 618
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 581,
+        "end": 619
+      },
+      "start": 581,
+      "end": 620
     },
     {
       "type": "ExpressionStatement",
-      "start": 622,
-      "end": 673,
       "expression": {
         "type": "CallExpression",
-        "start": 622,
-        "end": 672,
         "callee": {
           "type": "Identifier",
+          "name": "assertArray",
           "start": 622,
-          "end": 633,
-          "name": "assertArray"
+          "end": 633
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 634,
-            "end": 654,
             "callee": {
               "type": "Identifier",
+              "name": "gCL",
               "start": 634,
-              "end": 637,
-              "name": "gCL"
+              "end": 637
             },
             "arguments": [
               {
                 "type": "ArrayExpression",
-                "start": 638,
-                "end": 653,
                 "elements": [
                   {
                     "type": "Literal",
-                    "start": 639,
-                    "end": 646,
                     "value": "ab-cd",
-                    "raw": "'ab-cd'"
+                    "raw": "'ab-cd'",
+                    "start": 639,
+                    "end": 646
                   },
                   {
                     "type": "Literal",
-                    "start": 648,
-                    "end": 652,
                     "value": "FF",
-                    "raw": "'FF'"
+                    "raw": "'FF'",
+                    "start": 648,
+                    "end": 652
                   }
-                ]
+                ],
+                "start": 638,
+                "end": 653
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 634,
+            "end": 654
           },
           {
             "type": "ArrayExpression",
-            "start": 656,
-            "end": 671,
             "elements": [
               {
                 "type": "Literal",
-                "start": 657,
-                "end": 664,
                 "value": "ab-CD",
-                "raw": "'ab-CD'"
+                "raw": "'ab-CD'",
+                "start": 657,
+                "end": 664
               },
               {
                 "type": "Literal",
-                "start": 666,
-                "end": 670,
                 "value": "ff",
-                "raw": "'ff'"
+                "raw": "'ff'",
+                "start": 666,
+                "end": 670
               }
-            ]
+            ],
+            "start": 656,
+            "end": 671
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 622,
+        "end": 672
+      },
+      "start": 622,
+      "end": 673
     },
     {
       "type": "ExpressionStatement",
-      "start": 675,
-      "end": 706,
       "expression": {
         "type": "CallExpression",
-        "start": 675,
-        "end": 705,
         "callee": {
           "type": "Identifier",
+          "name": "assertArray",
           "start": 675,
-          "end": 686,
-          "name": "assertArray"
+          "end": 686
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 687,
-            "end": 700,
             "callee": {
               "type": "Identifier",
+              "name": "gCL",
               "start": 687,
-              "end": 690,
-              "name": "gCL"
+              "end": 690
             },
             "arguments": [
               {
                 "type": "ObjectExpression",
-                "start": 691,
-                "end": 699,
                 "properties": [
                   {
                     "type": "Property",
-                    "start": 692,
-                    "end": 698,
                     "kind": "init",
                     "key": {
                       "type": "Literal",
-                      "start": 692,
-                      "end": 695,
                       "value": "a",
-                      "raw": "'a'"
+                      "raw": "'a'",
+                      "start": 692,
+                      "end": 695
                     },
                     "value": {
                       "type": "Literal",
-                      "start": 697,
-                      "end": 698,
                       "value": 0,
-                      "raw": "0"
+                      "raw": "0",
+                      "start": 697,
+                      "end": 698
                     },
                     "method": false,
                     "shorthand": false,
-                    "computed": false
+                    "computed": false,
+                    "start": 692,
+                    "end": 698
                   }
-                ]
+                ],
+                "start": 691,
+                "end": 699
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 687,
+            "end": 700
           },
           {
             "type": "ArrayExpression",
+            "elements": [],
             "start": 702,
-            "end": 704,
-            "elements": []
+            "end": 704
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 675,
+        "end": 705
+      },
+      "start": 675,
+      "end": 706
     },
     {
       "type": "ExpressionStatement",
-      "start": 708,
-      "end": 733,
       "expression": {
         "type": "CallExpression",
-        "start": 708,
-        "end": 732,
         "callee": {
           "type": "Identifier",
+          "name": "assertArray",
           "start": 708,
-          "end": 719,
-          "name": "assertArray"
+          "end": 719
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 720,
-            "end": 727,
             "callee": {
               "type": "Identifier",
+              "name": "gCL",
               "start": 720,
-              "end": 723,
-              "name": "gCL"
+              "end": 723
             },
             "arguments": [
               {
                 "type": "ObjectExpression",
+                "properties": [],
                 "start": 724,
-                "end": 726,
-                "properties": []
+                "end": 726
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 720,
+            "end": 727
           },
           {
             "type": "ArrayExpression",
+            "elements": [],
             "start": 729,
-            "end": 731,
-            "elements": []
+            "end": 731
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 708,
+        "end": 732
+      },
+      "start": 708,
+      "end": 733
     },
     {
       "type": "ExpressionStatement",
-      "start": 735,
-      "end": 794,
       "expression": {
         "type": "CallExpression",
-        "start": 735,
-        "end": 793,
         "callee": {
           "type": "Identifier",
+          "name": "assertArray",
           "start": 735,
-          "end": 746,
-          "name": "assertArray"
+          "end": 746
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 747,
-            "end": 771,
             "callee": {
               "type": "Identifier",
+              "name": "gCL",
               "start": 747,
-              "end": 750,
-              "name": "gCL"
+              "end": 750
             },
             "arguments": [
               {
                 "type": "ArrayExpression",
-                "start": 751,
-                "end": 770,
                 "elements": [
                   {
                     "type": "Literal",
-                    "start": 752,
-                    "end": 769,
                     "value": "th-th-u-nu-thai",
-                    "raw": "'th-th-u-nu-thai'"
+                    "raw": "'th-th-u-nu-thai'",
+                    "start": 752,
+                    "end": 769
                   }
-                ]
+                ],
+                "start": 751,
+                "end": 770
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 747,
+            "end": 771
           },
           {
             "type": "ArrayExpression",
-            "start": 773,
-            "end": 792,
             "elements": [
               {
                 "type": "Literal",
-                "start": 774,
-                "end": 791,
                 "value": "th-TH-u-nu-thai",
-                "raw": "'th-TH-u-nu-thai'"
+                "raw": "'th-TH-u-nu-thai'",
+                "start": 774,
+                "end": 791
               }
-            ]
+            ],
+            "start": 773,
+            "end": 792
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 735,
+        "end": 793
+      },
+      "start": 735,
+      "end": 794
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 795
 }

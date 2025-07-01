@@ -2,26 +2,20 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 42,
   "body": [
     {
       "type": "ExportNamedDeclaration",
-      "start": 0,
-      "end": 41,
       "declaration": {
         "type": "ClassDeclaration",
-        "start": 7,
-        "end": 41,
         "decorators": [],
         "id": {
           "type": "Identifier",
-          "start": 13,
-          "end": 20,
           "decorators": [],
           "name": "Promise",
           "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "start": 13,
+          "end": 20
         },
         "typeParameters": null,
         "superClass": null,
@@ -29,32 +23,28 @@ __ESTREE_TEST__:PASS:
         "implements": [],
         "body": {
           "type": "ClassBody",
-          "start": 21,
-          "end": 41,
           "body": [
             {
               "type": "PropertyDefinition",
-              "start": 27,
-              "end": 39,
               "decorators": [],
               "key": {
                 "type": "Identifier",
-                "start": 27,
-                "end": 30,
                 "decorators": [],
                 "name": "foo",
                 "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "start": 27,
+                "end": 30
               },
               "typeAnnotation": {
                 "type": "TSTypeAnnotation",
-                "start": 30,
-                "end": 38,
                 "typeAnnotation": {
                   "type": "TSStringKeyword",
                   "start": 32,
                   "end": 38
-                }
+                },
+                "start": 30,
+                "end": 38
               },
               "value": null,
               "computed": false,
@@ -64,130 +54,140 @@ __ESTREE_TEST__:PASS:
               "optional": false,
               "definite": false,
               "readonly": false,
-              "accessibility": null
+              "accessibility": null,
+              "start": 27,
+              "end": 39
             }
-          ]
+          ],
+          "start": 21,
+          "end": 41
         },
         "abstract": false,
-        "declare": false
+        "declare": false,
+        "start": 7,
+        "end": 41
       },
       "specifiers": [],
       "source": null,
       "exportKind": "value",
-      "attributes": []
+      "attributes": [],
+      "start": 0,
+      "end": 41
     }
   ],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 42
 }
 ```
 __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 50,
-  "end": 130,
   "body": [
     {
       "type": "TSImportEqualsDeclaration",
-      "start": 50,
-      "end": 102,
       "id": {
         "type": "Identifier",
-        "start": 57,
-        "end": 62,
         "decorators": [],
         "name": "WinJS",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 57,
+        "end": 62
       },
       "moduleReference": {
         "type": "TSExternalModuleReference",
-        "start": 65,
-        "end": 101,
         "expression": {
           "type": "Literal",
-          "start": 73,
-          "end": 100,
           "value": "./moduleInTypePosition1_0",
-          "raw": "'./moduleInTypePosition1_0'"
-        }
+          "raw": "'./moduleInTypePosition1_0'",
+          "start": 73,
+          "end": 100
+        },
+        "start": 65,
+        "end": 101
       },
-      "importKind": "value"
+      "importKind": "value",
+      "start": 50,
+      "end": 102
     },
     {
       "type": "VariableDeclaration",
-      "start": 103,
-      "end": 130,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 107,
-          "end": 129,
           "id": {
             "type": "Identifier",
-            "start": 107,
-            "end": 108,
             "decorators": [],
             "name": "x",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 107,
+            "end": 108
           },
           "init": {
             "type": "ArrowFunctionExpression",
-            "start": 111,
-            "end": 129,
             "expression": false,
             "async": false,
             "typeParameters": null,
             "params": [
               {
                 "type": "Identifier",
-                "start": 112,
-                "end": 121,
                 "decorators": [],
                 "name": "w1",
                 "optional": false,
                 "typeAnnotation": {
                   "type": "TSTypeAnnotation",
-                  "start": 114,
-                  "end": 121,
                   "typeAnnotation": {
                     "type": "TSTypeReference",
-                    "start": 116,
-                    "end": 121,
                     "typeName": {
                       "type": "Identifier",
-                      "start": 116,
-                      "end": 121,
                       "decorators": [],
                       "name": "WinJS",
                       "optional": false,
-                      "typeAnnotation": null
+                      "typeAnnotation": null,
+                      "start": 116,
+                      "end": 121
                     },
-                    "typeArguments": null
-                  }
-                }
+                    "typeArguments": null,
+                    "start": 116,
+                    "end": 121
+                  },
+                  "start": 114,
+                  "end": 121
+                },
+                "start": 112,
+                "end": 121
               }
             ],
             "returnType": null,
             "body": {
               "type": "BlockStatement",
+              "body": [],
               "start": 126,
-              "end": 129,
-              "body": []
+              "end": 129
             },
             "id": null,
-            "generator": false
+            "generator": false,
+            "start": 111,
+            "end": 129
           },
-          "definite": false
+          "definite": false,
+          "start": 107,
+          "end": 129
         }
       ],
-      "declare": false
+      "declare": false,
+      "start": 103,
+      "end": 130
     }
   ],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 50,
+  "end": 130
 }
 ```

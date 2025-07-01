@@ -2,27 +2,27 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 35,
   "body": [
     {
       "type": "ImportDeclaration",
-      "start": 0,
-      "end": 35,
       "specifiers": [],
       "source": {
         "type": "Literal",
-        "start": 15,
-        "end": 35,
         "value": "module-not-existed",
-        "raw": "'module-not-existed'"
+        "raw": "'module-not-existed'",
+        "start": 15,
+        "end": 35
       },
       "phase": null,
       "attributes": [],
-      "importKind": "value"
+      "importKind": "value",
+      "start": 0,
+      "end": 35
     }
   ],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 35
 }
 ```

@@ -1,336 +1,336 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 773,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 373,
-      "end": 395,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 377,
-          "end": 394,
           "id": {
             "type": "Identifier",
+            "name": "__instance",
             "start": 377,
-            "end": 387,
-            "name": "__instance"
+            "end": 387
           },
           "init": {
             "type": "Identifier",
+            "name": "Math",
             "start": 390,
-            "end": 394,
-            "name": "Math"
-          }
+            "end": 394
+          },
+          "start": 377,
+          "end": 394
         }
-      ]
+      ],
+      "start": 373,
+      "end": 395
     },
     {
       "type": "ExpressionStatement",
-      "start": 397,
-      "end": 439,
       "expression": {
         "type": "AssignmentExpression",
-        "start": 397,
-        "end": 438,
         "operator": "=",
         "left": {
           "type": "MemberExpression",
-          "start": 397,
-          "end": 413,
           "object": {
             "type": "Identifier",
+            "name": "__instance",
             "start": 397,
-            "end": 407,
-            "name": "__instance"
+            "end": 407
           },
           "property": {
             "type": "Identifier",
+            "name": "split",
             "start": 408,
-            "end": 413,
-            "name": "split"
+            "end": 413
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 397,
+          "end": 413
         },
         "right": {
           "type": "MemberExpression",
-          "start": 416,
-          "end": 438,
           "object": {
             "type": "MemberExpression",
-            "start": 416,
-            "end": 432,
             "object": {
               "type": "Identifier",
+              "name": "String",
               "start": 416,
-              "end": 422,
-              "name": "String"
+              "end": 422
             },
             "property": {
               "type": "Identifier",
+              "name": "prototype",
               "start": 423,
-              "end": 432,
-              "name": "prototype"
+              "end": 432
             },
             "optional": false,
-            "computed": false
+            "computed": false,
+            "start": 416,
+            "end": 432
           },
           "property": {
             "type": "Identifier",
+            "name": "split",
             "start": 433,
-            "end": 438,
-            "name": "split"
+            "end": 438
           },
           "optional": false,
-          "computed": false
-        }
-      }
+          "computed": false,
+          "start": 416,
+          "end": 438
+        },
+        "start": 397,
+        "end": 438
+      },
+      "start": 397,
+      "end": 439
     },
     {
       "type": "VariableDeclaration",
-      "start": 441,
-      "end": 474,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 445,
-          "end": 473,
           "id": {
             "type": "Identifier",
+            "name": "__split",
             "start": 445,
-            "end": 452,
-            "name": "__split"
+            "end": 452
           },
           "init": {
             "type": "CallExpression",
-            "start": 455,
-            "end": 473,
             "callee": {
               "type": "MemberExpression",
-              "start": 455,
-              "end": 471,
               "object": {
                 "type": "Identifier",
+                "name": "__instance",
                 "start": 455,
-                "end": 465,
-                "name": "__instance"
+                "end": 465
               },
               "property": {
                 "type": "Identifier",
+                "name": "split",
                 "start": 466,
-                "end": 471,
-                "name": "split"
+                "end": 471
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 455,
+              "end": 471
             },
             "arguments": [],
-            "optional": false
-          }
+            "optional": false,
+            "start": 455,
+            "end": 473
+          },
+          "start": 445,
+          "end": 473
         }
-      ]
+      ],
+      "start": 441,
+      "end": 474
     },
     {
       "type": "ExpressionStatement",
-      "start": 476,
-      "end": 605,
       "expression": {
         "type": "CallExpression",
-        "start": 476,
-        "end": 604,
         "callee": {
           "type": "MemberExpression",
-          "start": 476,
-          "end": 492,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 476,
-            "end": 482,
-            "name": "assert"
+            "end": 482
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 483,
-            "end": 492,
-            "name": "sameValue"
+            "end": 492
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 476,
+          "end": 492
         },
         "arguments": [
           {
             "type": "MemberExpression",
-            "start": 496,
-            "end": 515,
             "object": {
               "type": "Identifier",
+              "name": "__split",
               "start": 496,
-              "end": 503,
-              "name": "__split"
+              "end": 503
             },
             "property": {
               "type": "Identifier",
+              "name": "constructor",
               "start": 504,
-              "end": 515,
-              "name": "constructor"
+              "end": 515
             },
             "optional": false,
-            "computed": false
+            "computed": false,
+            "start": 496,
+            "end": 515
           },
           {
             "type": "Identifier",
+            "name": "Array",
             "start": 519,
-            "end": 524,
-            "name": "Array"
+            "end": 524
           },
           {
             "type": "Literal",
-            "start": 528,
-            "end": 602,
             "value": "The value of __split.constructor is expected to equal the value of Array",
-            "raw": "'The value of __split.constructor is expected to equal the value of Array'"
+            "raw": "'The value of __split.constructor is expected to equal the value of Array'",
+            "start": 528,
+            "end": 602
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 476,
+        "end": 604
+      },
+      "start": 476,
+      "end": 605
     },
     {
       "type": "ExpressionStatement",
-      "start": 607,
-      "end": 679,
       "expression": {
         "type": "CallExpression",
-        "start": 607,
-        "end": 678,
         "callee": {
           "type": "MemberExpression",
-          "start": 607,
-          "end": 623,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 607,
-            "end": 613,
-            "name": "assert"
+            "end": 613
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 614,
-            "end": 623,
-            "name": "sameValue"
+            "end": 623
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 607,
+          "end": 623
         },
         "arguments": [
           {
             "type": "MemberExpression",
-            "start": 624,
-            "end": 638,
             "object": {
               "type": "Identifier",
+              "name": "__split",
               "start": 624,
-              "end": 631,
-              "name": "__split"
+              "end": 631
             },
             "property": {
               "type": "Identifier",
+              "name": "length",
               "start": 632,
-              "end": 638,
-              "name": "length"
+              "end": 638
             },
             "optional": false,
-            "computed": false
+            "computed": false,
+            "start": 624,
+            "end": 638
           },
           {
             "type": "Literal",
-            "start": 640,
-            "end": 641,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "start": 640,
+            "end": 641
           },
           {
             "type": "Literal",
-            "start": 643,
-            "end": 677,
             "value": "The value of __split.length is 1",
-            "raw": "'The value of __split.length is 1'"
+            "raw": "'The value of __split.length is 1'",
+            "start": 643,
+            "end": 677
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 607,
+        "end": 678
+      },
+      "start": 607,
+      "end": 679
     },
     {
       "type": "ExpressionStatement",
-      "start": 680,
-      "end": 772,
       "expression": {
         "type": "CallExpression",
-        "start": 680,
-        "end": 771,
         "callee": {
           "type": "MemberExpression",
-          "start": 680,
-          "end": 696,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 680,
-            "end": 686,
-            "name": "assert"
+            "end": 686
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 687,
-            "end": 696,
-            "name": "sameValue"
+            "end": 696
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 680,
+          "end": 696
         },
         "arguments": [
           {
             "type": "MemberExpression",
-            "start": 697,
-            "end": 707,
             "object": {
               "type": "Identifier",
+              "name": "__split",
               "start": 697,
-              "end": 704,
-              "name": "__split"
+              "end": 704
             },
             "property": {
               "type": "Literal",
-              "start": 705,
-              "end": 706,
               "value": 0,
-              "raw": "0"
+              "raw": "0",
+              "start": 705,
+              "end": 706
             },
             "optional": false,
-            "computed": true
+            "computed": true,
+            "start": 697,
+            "end": 707
           },
           {
             "type": "Literal",
-            "start": 709,
-            "end": 724,
             "value": "[object Math]",
-            "raw": "\"[object Math]\""
+            "raw": "\"[object Math]\"",
+            "start": 709,
+            "end": 724
           },
           {
             "type": "Literal",
-            "start": 726,
-            "end": 770,
             "value": "The value of __split[0] is \"[object Math]\"",
-            "raw": "'The value of __split[0] is \"[object Math]\"'"
+            "raw": "'The value of __split[0] is \"[object Math]\"'",
+            "start": 726,
+            "end": 770
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 680,
+        "end": 771
+      },
+      "start": 680,
+      "end": 772
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 773
 }

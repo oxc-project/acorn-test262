@@ -1,239 +1,239 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 2038,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 1868,
-      "end": 1931,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 1872,
-          "end": 1930,
           "id": {
             "type": "Identifier",
+            "name": "ns",
             "start": 1872,
-            "end": 1874,
-            "name": "ns"
+            "end": 1874
           },
           "init": {
             "type": "AwaitExpression",
-            "start": 1877,
-            "end": 1930,
             "argument": {
               "type": "ImportExpression",
-              "start": 1883,
-              "end": 1930,
               "source": {
                 "type": "Literal",
-                "start": 1890,
-                "end": 1929,
                 "value": "./module-import-resolution_FIXTURE.js",
-                "raw": "'./module-import-resolution_FIXTURE.js'"
+                "raw": "'./module-import-resolution_FIXTURE.js'",
+                "start": 1890,
+                "end": 1929
               },
               "options": null,
-              "phase": null
-            }
-          }
+              "phase": null,
+              "start": 1883,
+              "end": 1930
+            },
+            "start": 1877,
+            "end": 1930
+          },
+          "start": 1872,
+          "end": 1930
         }
-      ]
+      ],
+      "start": 1868,
+      "end": 1931
     },
     {
       "type": "ExpressionStatement",
-      "start": 1933,
-      "end": 1966,
       "expression": {
         "type": "CallExpression",
-        "start": 1933,
-        "end": 1965,
         "callee": {
           "type": "MemberExpression",
-          "start": 1933,
-          "end": 1949,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 1933,
-            "end": 1939,
-            "name": "assert"
+            "end": 1939
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 1940,
-            "end": 1949,
-            "name": "sameValue"
+            "end": 1949
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 1933,
+          "end": 1949
         },
         "arguments": [
           {
             "type": "MemberExpression",
-            "start": 1950,
-            "end": 1960,
             "object": {
               "type": "Identifier",
+              "name": "ns",
               "start": 1950,
-              "end": 1952,
-              "name": "ns"
+              "end": 1952
             },
             "property": {
               "type": "Identifier",
+              "name": "default",
               "start": 1953,
-              "end": 1960,
-              "name": "default"
+              "end": 1960
             },
             "optional": false,
-            "computed": false
+            "computed": false,
+            "start": 1950,
+            "end": 1960
           },
           {
             "type": "Literal",
-            "start": 1962,
-            "end": 1964,
             "value": 42,
-            "raw": "42"
+            "raw": "42",
+            "start": 1962,
+            "end": 1964
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 1933,
+        "end": 1965
+      },
+      "start": 1933,
+      "end": 1966
     },
     {
       "type": "ExpressionStatement",
-      "start": 1967,
-      "end": 1999,
       "expression": {
         "type": "CallExpression",
-        "start": 1967,
-        "end": 1998,
         "callee": {
           "type": "MemberExpression",
-          "start": 1967,
-          "end": 1983,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 1967,
-            "end": 1973,
-            "name": "assert"
+            "end": 1973
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 1974,
-            "end": 1983,
-            "name": "sameValue"
+            "end": 1983
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 1967,
+          "end": 1983
         },
         "arguments": [
           {
             "type": "MemberExpression",
-            "start": 1984,
-            "end": 1988,
             "object": {
               "type": "Identifier",
+              "name": "ns",
               "start": 1984,
-              "end": 1986,
-              "name": "ns"
+              "end": 1986
             },
             "property": {
               "type": "Identifier",
+              "name": "x",
               "start": 1987,
-              "end": 1988,
-              "name": "x"
+              "end": 1988
             },
             "optional": false,
-            "computed": false
+            "computed": false,
+            "start": 1984,
+            "end": 1988
           },
           {
             "type": "Literal",
-            "start": 1990,
-            "end": 1997,
             "value": "named",
-            "raw": "'named'"
+            "raw": "'named'",
+            "start": 1990,
+            "end": 1997
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 1967,
+        "end": 1998
+      },
+      "start": 1967,
+      "end": 1999
     },
     {
       "type": "ExpressionStatement",
-      "start": 2000,
-      "end": 2027,
       "expression": {
         "type": "CallExpression",
-        "start": 2000,
-        "end": 2026,
         "callee": {
           "type": "MemberExpression",
-          "start": 2000,
-          "end": 2016,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 2000,
-            "end": 2006,
-            "name": "assert"
+            "end": 2006
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 2007,
-            "end": 2016,
-            "name": "sameValue"
+            "end": 2016
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 2000,
+          "end": 2016
         },
         "arguments": [
           {
             "type": "MemberExpression",
-            "start": 2017,
-            "end": 2021,
             "object": {
               "type": "Identifier",
+              "name": "ns",
               "start": 2017,
-              "end": 2019,
-              "name": "ns"
+              "end": 2019
             },
             "property": {
               "type": "Identifier",
+              "name": "y",
               "start": 2020,
-              "end": 2021,
-              "name": "y"
+              "end": 2021
             },
             "optional": false,
-            "computed": false
+            "computed": false,
+            "start": 2017,
+            "end": 2021
           },
           {
             "type": "Literal",
-            "start": 2023,
-            "end": 2025,
             "value": 39,
-            "raw": "39"
+            "raw": "39",
+            "start": 2023,
+            "end": 2025
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 2000,
+        "end": 2026
+      },
+      "start": 2000,
+      "end": 2027
     },
     {
       "type": "ExpressionStatement",
-      "start": 2029,
-      "end": 2037,
       "expression": {
         "type": "CallExpression",
-        "start": 2029,
-        "end": 2036,
         "callee": {
           "type": "Identifier",
+          "name": "$DONE",
           "start": 2029,
-          "end": 2034,
-          "name": "$DONE"
+          "end": 2034
         },
         "arguments": [],
-        "optional": false
-      }
+        "optional": false,
+        "start": 2029,
+        "end": 2036
+      },
+      "start": 2029,
+      "end": 2037
     }
   ],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 2038
 }

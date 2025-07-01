@@ -1,336 +1,336 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 1094,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 654,
-      "end": 766,
       "expression": {
         "type": "CallExpression",
-        "start": 654,
-        "end": 765,
         "callee": {
           "type": "MemberExpression",
-          "start": 654,
-          "end": 670,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 654,
-            "end": 660,
-            "name": "assert"
+            "end": 660
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 661,
-            "end": 670,
-            "name": "sameValue"
+            "end": 670
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 654,
+          "end": 670
         },
         "arguments": [
           {
             "type": "UnaryExpression",
-            "start": 671,
-            "end": 695,
             "operator": "typeof",
             "argument": {
               "type": "MemberExpression",
-              "start": 678,
-              "end": 695,
               "object": {
                 "type": "Identifier",
+                "name": "Atomics",
                 "start": 678,
-                "end": 685,
-                "name": "Atomics"
+                "end": 685
               },
               "property": {
                 "type": "Identifier",
+                "name": "waitAsync",
                 "start": 686,
-                "end": 695,
-                "name": "waitAsync"
+                "end": 695
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 678,
+              "end": 695
             },
-            "prefix": true
+            "prefix": true,
+            "start": 671,
+            "end": 695
           },
           {
             "type": "Literal",
-            "start": 697,
-            "end": 707,
             "value": "function",
-            "raw": "'function'"
+            "raw": "'function'",
+            "start": 697,
+            "end": 707
           },
           {
             "type": "Literal",
-            "start": 709,
-            "end": 764,
             "value": "The value of `typeof Atomics.waitAsync` is \"function\"",
-            "raw": "'The value of `typeof Atomics.waitAsync` is \"function\"'"
+            "raw": "'The value of `typeof Atomics.waitAsync` is \"function\"'",
+            "start": 709,
+            "end": 764
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 654,
+        "end": 765
+      },
+      "start": 654,
+      "end": 766
     },
     {
       "type": "VariableDeclaration",
-      "start": 767,
-      "end": 858,
       "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 773,
-          "end": 857,
           "id": {
             "type": "Identifier",
+            "name": "i64a",
             "start": 773,
-            "end": 777,
-            "name": "i64a"
+            "end": 777
           },
           "init": {
             "type": "NewExpression",
-            "start": 780,
-            "end": 857,
             "callee": {
               "type": "Identifier",
+              "name": "BigInt64Array",
               "start": 784,
-              "end": 797,
-              "name": "BigInt64Array"
+              "end": 797
             },
             "arguments": [
               {
                 "type": "NewExpression",
-                "start": 798,
-                "end": 856,
                 "callee": {
                   "type": "Identifier",
+                  "name": "SharedArrayBuffer",
                   "start": 802,
-                  "end": 819,
-                  "name": "SharedArrayBuffer"
+                  "end": 819
                 },
                 "arguments": [
                   {
                     "type": "BinaryExpression",
-                    "start": 820,
-                    "end": 855,
                     "left": {
                       "type": "MemberExpression",
-                      "start": 820,
-                      "end": 851,
                       "object": {
                         "type": "Identifier",
+                        "name": "BigInt64Array",
                         "start": 820,
-                        "end": 833,
-                        "name": "BigInt64Array"
+                        "end": 833
                       },
                       "property": {
                         "type": "Identifier",
+                        "name": "BYTES_PER_ELEMENT",
                         "start": 834,
-                        "end": 851,
-                        "name": "BYTES_PER_ELEMENT"
+                        "end": 851
                       },
                       "optional": false,
-                      "computed": false
+                      "computed": false,
+                      "start": 820,
+                      "end": 851
                     },
                     "operator": "*",
                     "right": {
                       "type": "Literal",
-                      "start": 854,
-                      "end": 855,
                       "value": 8,
-                      "raw": "8"
-                    }
+                      "raw": "8",
+                      "start": 854,
+                      "end": 855
+                    },
+                    "start": 820,
+                    "end": 855
                   }
-                ]
+                ],
+                "start": 798,
+                "end": 856
               }
-            ]
-          }
+            ],
+            "start": 780,
+            "end": 857
+          },
+          "start": 773,
+          "end": 857
         }
-      ]
+      ],
+      "start": 767,
+      "end": 858
     },
     {
       "type": "ExpressionStatement",
-      "start": 860,
-      "end": 1093,
       "expression": {
         "type": "CallExpression",
-        "start": 860,
-        "end": 1092,
         "callee": {
           "type": "Identifier",
+          "name": "testWithAtomicsOutOfBoundsIndices",
           "start": 860,
-          "end": 893,
-          "name": "testWithAtomicsOutOfBoundsIndices"
+          "end": 893
         },
         "arguments": [
           {
             "type": "FunctionExpression",
-            "start": 894,
-            "end": 1091,
             "id": null,
             "generator": false,
             "async": false,
             "params": [
               {
                 "type": "Identifier",
+                "name": "IdxGen",
                 "start": 903,
-                "end": 909,
-                "name": "IdxGen"
+                "end": 909
               }
             ],
             "body": {
               "type": "BlockStatement",
-              "start": 911,
-              "end": 1091,
               "body": [
                 {
                   "type": "ExpressionStatement",
-                  "start": 915,
-                  "end": 1089,
                   "expression": {
                     "type": "CallExpression",
-                    "start": 915,
-                    "end": 1088,
                     "callee": {
                       "type": "MemberExpression",
-                      "start": 915,
-                      "end": 928,
                       "object": {
                         "type": "Identifier",
+                        "name": "assert",
                         "start": 915,
-                        "end": 921,
-                        "name": "assert"
+                        "end": 921
                       },
                       "property": {
                         "type": "Identifier",
+                        "name": "throws",
                         "start": 922,
-                        "end": 928,
-                        "name": "throws"
+                        "end": 928
                       },
                       "optional": false,
-                      "computed": false
+                      "computed": false,
+                      "start": 915,
+                      "end": 928
                     },
                     "arguments": [
                       {
                         "type": "Identifier",
+                        "name": "RangeError",
                         "start": 929,
-                        "end": 939,
-                        "name": "RangeError"
+                        "end": 939
                       },
                       {
                         "type": "FunctionExpression",
-                        "start": 941,
-                        "end": 1007,
                         "id": null,
                         "generator": false,
                         "async": false,
                         "params": [],
                         "body": {
                           "type": "BlockStatement",
-                          "start": 952,
-                          "end": 1007,
                           "body": [
                             {
                               "type": "ExpressionStatement",
-                              "start": 958,
-                              "end": 1003,
                               "expression": {
                                 "type": "CallExpression",
-                                "start": 958,
-                                "end": 1002,
                                 "callee": {
                                   "type": "MemberExpression",
-                                  "start": 958,
-                                  "end": 975,
                                   "object": {
                                     "type": "Identifier",
+                                    "name": "Atomics",
                                     "start": 958,
-                                    "end": 965,
-                                    "name": "Atomics"
+                                    "end": 965
                                   },
                                   "property": {
                                     "type": "Identifier",
+                                    "name": "waitAsync",
                                     "start": 966,
-                                    "end": 975,
-                                    "name": "waitAsync"
+                                    "end": 975
                                   },
                                   "optional": false,
-                                  "computed": false
+                                  "computed": false,
+                                  "start": 958,
+                                  "end": 975
                                 },
                                 "arguments": [
                                   {
                                     "type": "Identifier",
+                                    "name": "i64a",
                                     "start": 976,
-                                    "end": 980,
-                                    "name": "i64a"
+                                    "end": 980
                                   },
                                   {
                                     "type": "CallExpression",
-                                    "start": 982,
-                                    "end": 994,
                                     "callee": {
                                       "type": "Identifier",
+                                      "name": "IdxGen",
                                       "start": 982,
-                                      "end": 988,
-                                      "name": "IdxGen"
+                                      "end": 988
                                     },
                                     "arguments": [
                                       {
                                         "type": "Identifier",
+                                        "name": "i64a",
                                         "start": 989,
-                                        "end": 993,
-                                        "name": "i64a"
+                                        "end": 993
                                       }
                                     ],
-                                    "optional": false
+                                    "optional": false,
+                                    "start": 982,
+                                    "end": 994
                                   },
                                   {
                                     "type": "Literal",
-                                    "start": 996,
-                                    "end": 998,
                                     "value": null,
                                     "raw": "0n",
-                                    "bigint": "0"
+                                    "bigint": "0",
+                                    "start": 996,
+                                    "end": 998
                                   },
                                   {
                                     "type": "Literal",
-                                    "start": 1000,
-                                    "end": 1001,
                                     "value": 0,
-                                    "raw": "0"
+                                    "raw": "0",
+                                    "start": 1000,
+                                    "end": 1001
                                   }
                                 ],
-                                "optional": false
-                              }
+                                "optional": false,
+                                "start": 958,
+                                "end": 1002
+                              },
+                              "start": 958,
+                              "end": 1003
                             }
-                          ]
+                          ],
+                          "start": 952,
+                          "end": 1007
                         },
-                        "expression": false
+                        "expression": false,
+                        "start": 941,
+                        "end": 1007
                       },
                       {
                         "type": "Literal",
-                        "start": 1009,
-                        "end": 1087,
                         "value": "`Atomics.waitAsync(i64a, IdxGen(i64a), 0n, 0)` throws a RangeError exception",
-                        "raw": "'`Atomics.waitAsync(i64a, IdxGen(i64a), 0n, 0)` throws a RangeError exception'"
+                        "raw": "'`Atomics.waitAsync(i64a, IdxGen(i64a), 0n, 0)` throws a RangeError exception'",
+                        "start": 1009,
+                        "end": 1087
                       }
                     ],
-                    "optional": false
-                  }
+                    "optional": false,
+                    "start": 915,
+                    "end": 1088
+                  },
+                  "start": 915,
+                  "end": 1089
                 }
-              ]
+              ],
+              "start": 911,
+              "end": 1091
             },
-            "expression": false
+            "expression": false,
+            "start": 894,
+            "end": 1091
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 860,
+        "end": 1092
+      },
+      "start": 860,
+      "end": 1093
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 1094
 }

@@ -1,155 +1,155 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 833,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 679,
-      "end": 773,
       "expression": {
         "type": "CallExpression",
-        "start": 679,
-        "end": 772,
         "callee": {
           "type": "MemberExpression",
-          "start": 679,
-          "end": 695,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 679,
-            "end": 685,
-            "name": "assert"
+            "end": 685
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 686,
-            "end": 695,
-            "name": "sameValue"
+            "end": 695
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 679,
+          "end": 695
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 696,
-            "end": 719,
             "callee": {
               "type": "Identifier",
+              "name": "isConstructor",
               "start": 696,
-              "end": 709,
-              "name": "isConstructor"
+              "end": 709
             },
             "arguments": [
               {
                 "type": "Identifier",
+                "name": "unescape",
                 "start": 710,
-                "end": 718,
-                "name": "unescape"
+                "end": 718
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 696,
+            "end": 719
           },
           {
             "type": "Literal",
-            "start": 721,
-            "end": 726,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "start": 721,
+            "end": 726
           },
           {
             "type": "Literal",
-            "start": 728,
-            "end": 771,
             "value": "isConstructor(unescape) must return false",
-            "raw": "'isConstructor(unescape) must return false'"
+            "raw": "'isConstructor(unescape) must return false'",
+            "start": 728,
+            "end": 771
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 679,
+        "end": 772
+      },
+      "start": 679,
+      "end": 773
     },
     {
       "type": "ExpressionStatement",
-      "start": 775,
-      "end": 831,
       "expression": {
         "type": "CallExpression",
-        "start": 775,
-        "end": 830,
         "callee": {
           "type": "MemberExpression",
-          "start": 775,
-          "end": 788,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 775,
-            "end": 781,
-            "name": "assert"
+            "end": 781
           },
           "property": {
             "type": "Identifier",
+            "name": "throws",
             "start": 782,
-            "end": 788,
-            "name": "throws"
+            "end": 788
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 775,
+          "end": 788
         },
         "arguments": [
           {
             "type": "Identifier",
+            "name": "TypeError",
             "start": 789,
-            "end": 798,
-            "name": "TypeError"
+            "end": 798
           },
           {
             "type": "ArrowFunctionExpression",
-            "start": 800,
-            "end": 829,
             "expression": false,
             "async": false,
             "params": [],
             "body": {
               "type": "BlockStatement",
-              "start": 806,
-              "end": 829,
               "body": [
                 {
                   "type": "ExpressionStatement",
-                  "start": 810,
-                  "end": 827,
                   "expression": {
                     "type": "NewExpression",
-                    "start": 810,
-                    "end": 826,
                     "callee": {
                       "type": "Identifier",
+                      "name": "unescape",
                       "start": 814,
-                      "end": 822,
-                      "name": "unescape"
+                      "end": 822
                     },
                     "arguments": [
                       {
                         "type": "Literal",
-                        "start": 823,
-                        "end": 825,
                         "value": "",
-                        "raw": "''"
+                        "raw": "''",
+                        "start": 823,
+                        "end": 825
                       }
-                    ]
-                  }
+                    ],
+                    "start": 810,
+                    "end": 826
+                  },
+                  "start": 810,
+                  "end": 827
                 }
-              ]
+              ],
+              "start": 806,
+              "end": 829
             },
             "id": null,
-            "generator": false
+            "generator": false,
+            "start": 800,
+            "end": 829
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 775,
+        "end": 830
+      },
+      "start": 775,
+      "end": 831
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 833
 }

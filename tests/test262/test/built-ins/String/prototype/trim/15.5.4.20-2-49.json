@@ -1,157 +1,157 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 406,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 270,
-      "end": 302,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 274,
-          "end": 301,
           "id": {
             "type": "Identifier",
+            "name": "regObj",
             "start": 274,
-            "end": 280,
-            "name": "regObj"
+            "end": 280
           },
           "init": {
             "type": "NewExpression",
-            "start": 283,
-            "end": 301,
             "callee": {
               "type": "Identifier",
+              "name": "RegExp",
               "start": 287,
-              "end": 293,
-              "name": "RegExp"
+              "end": 293
             },
             "arguments": [
               {
                 "type": "Literal",
-                "start": 294,
-                "end": 300,
                 "value": null,
                 "raw": "/test/",
                 "regex": {
                   "pattern": "test",
                   "flags": ""
-                }
+                },
+                "start": 294,
+                "end": 300
               }
-            ]
-          }
+            ],
+            "start": 283,
+            "end": 301
+          },
+          "start": 274,
+          "end": 301
         }
-      ]
+      ],
+      "start": 270,
+      "end": 302
     },
     {
       "type": "ExpressionStatement",
-      "start": 304,
-      "end": 405,
       "expression": {
         "type": "CallExpression",
-        "start": 304,
-        "end": 404,
         "callee": {
           "type": "MemberExpression",
-          "start": 304,
-          "end": 320,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 304,
-            "end": 310,
-            "name": "assert"
+            "end": 310
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 311,
-            "end": 320,
-            "name": "sameValue"
+            "end": 320
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 304,
+          "end": 320
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 321,
-            "end": 355,
             "callee": {
               "type": "MemberExpression",
-              "start": 321,
-              "end": 347,
               "object": {
                 "type": "MemberExpression",
-                "start": 321,
-                "end": 342,
                 "object": {
                   "type": "MemberExpression",
-                  "start": 321,
-                  "end": 337,
                   "object": {
                     "type": "Identifier",
+                    "name": "String",
                     "start": 321,
-                    "end": 327,
-                    "name": "String"
+                    "end": 327
                   },
                   "property": {
                     "type": "Identifier",
+                    "name": "prototype",
                     "start": 328,
-                    "end": 337,
-                    "name": "prototype"
+                    "end": 337
                   },
                   "optional": false,
-                  "computed": false
+                  "computed": false,
+                  "start": 321,
+                  "end": 337
                 },
                 "property": {
                   "type": "Identifier",
+                  "name": "trim",
                   "start": 338,
-                  "end": 342,
-                  "name": "trim"
+                  "end": 342
                 },
                 "optional": false,
-                "computed": false
+                "computed": false,
+                "start": 321,
+                "end": 342
               },
               "property": {
                 "type": "Identifier",
+                "name": "call",
                 "start": 343,
-                "end": 347,
-                "name": "call"
+                "end": 347
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 321,
+              "end": 347
             },
             "arguments": [
               {
                 "type": "Identifier",
+                "name": "regObj",
                 "start": 348,
-                "end": 354,
-                "name": "regObj"
+                "end": 354
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 321,
+            "end": 355
           },
           {
             "type": "Literal",
-            "start": 357,
-            "end": 365,
             "value": "/test/",
-            "raw": "\"/test/\""
+            "raw": "\"/test/\"",
+            "start": 357,
+            "end": 365
           },
           {
             "type": "Literal",
-            "start": 367,
-            "end": 403,
             "value": "String.prototype.trim.call(regObj)",
-            "raw": "'String.prototype.trim.call(regObj)'"
+            "raw": "'String.prototype.trim.call(regObj)'",
+            "start": 367,
+            "end": 403
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 304,
+        "end": 404
+      },
+      "start": 304,
+      "end": 405
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 406
 }

@@ -1,330 +1,330 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 1395,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 299,
-      "end": 310,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 303,
-          "end": 309,
           "id": {
             "type": "Identifier",
+            "name": "str",
             "start": 303,
-            "end": 306,
-            "name": "str"
+            "end": 306
           },
           "init": {
             "type": "Literal",
-            "start": 307,
-            "end": 309,
             "value": "",
-            "raw": "\"\""
-          }
+            "raw": "\"\"",
+            "start": 307,
+            "end": 309
+          },
+          "start": 303,
+          "end": 309
         }
-      ]
+      ],
+      "start": 299,
+      "end": 310
     },
     {
       "type": "VariableDeclaration",
-      "start": 311,
-      "end": 333,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 315,
-          "end": 332,
           "id": {
             "type": "Identifier",
+            "name": "strObj",
             "start": 315,
-            "end": 321,
-            "name": "strObj"
+            "end": 321
           },
           "init": {
             "type": "NewExpression",
-            "start": 322,
-            "end": 332,
             "callee": {
               "type": "Identifier",
+              "name": "String",
               "start": 326,
-              "end": 332,
-              "name": "String"
+              "end": 332
             },
-            "arguments": []
-          }
+            "arguments": [],
+            "start": 322,
+            "end": 332
+          },
+          "start": 315,
+          "end": 332
         }
-      ]
+      ],
+      "start": 311,
+      "end": 333
     },
     {
       "type": "IfStatement",
-      "start": 407,
-      "end": 528,
       "test": {
         "type": "BinaryExpression",
-        "start": 411,
-        "end": 449,
         "left": {
           "type": "MemberExpression",
-          "start": 411,
-          "end": 426,
           "object": {
             "type": "Identifier",
+            "name": "str",
             "start": 411,
-            "end": 414,
-            "name": "str"
+            "end": 414
           },
           "property": {
             "type": "Identifier",
+            "name": "constructor",
             "start": 415,
-            "end": 426,
-            "name": "constructor"
+            "end": 426
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 411,
+          "end": 426
         },
         "operator": "!==",
         "right": {
           "type": "MemberExpression",
-          "start": 431,
-          "end": 449,
           "object": {
             "type": "Identifier",
+            "name": "strObj",
             "start": 431,
-            "end": 437,
-            "name": "strObj"
+            "end": 437
           },
           "property": {
             "type": "Identifier",
+            "name": "constructor",
             "start": 438,
-            "end": 449,
-            "name": "constructor"
+            "end": 449
           },
           "optional": false,
-          "computed": false
-        }
+          "computed": false,
+          "start": 431,
+          "end": 449
+        },
+        "start": 411,
+        "end": 449
       },
       "consequent": {
         "type": "BlockStatement",
-        "start": 450,
-        "end": 528,
         "body": [
           {
             "type": "ThrowStatement",
-            "start": 454,
-            "end": 526,
             "argument": {
               "type": "NewExpression",
-              "start": 460,
-              "end": 525,
               "callee": {
                 "type": "Identifier",
+                "name": "Test262Error",
                 "start": 464,
-                "end": 476,
-                "name": "Test262Error"
+                "end": 476
               },
               "arguments": [
                 {
                   "type": "Literal",
-                  "start": 477,
-                  "end": 524,
                   "value": "#1: \"\".constructor === new String.constructor",
-                  "raw": "'#1: \"\".constructor === new String.constructor'"
+                  "raw": "'#1: \"\".constructor === new String.constructor'",
+                  "start": 477,
+                  "end": 524
                 }
-              ]
-            }
+              ],
+              "start": 460,
+              "end": 525
+            },
+            "start": 454,
+            "end": 526
           }
-        ]
+        ],
+        "start": 450,
+        "end": 528
       },
-      "alternate": null
+      "alternate": null,
+      "start": 407,
+      "end": 528
     },
     {
       "type": "IfStatement",
-      "start": 667,
-      "end": 776,
       "test": {
         "type": "BinaryExpression",
-        "start": 671,
-        "end": 684,
         "left": {
           "type": "Identifier",
+          "name": "str",
           "start": 671,
-          "end": 674,
-          "name": "str"
+          "end": 674
         },
         "operator": "!=",
         "right": {
           "type": "Identifier",
+          "name": "strObj",
           "start": 678,
-          "end": 684,
-          "name": "strObj"
-        }
+          "end": 684
+        },
+        "start": 671,
+        "end": 684
       },
       "consequent": {
         "type": "BlockStatement",
-        "start": 685,
-        "end": 776,
         "body": [
           {
             "type": "ThrowStatement",
-            "start": 689,
-            "end": 774,
             "argument": {
               "type": "NewExpression",
-              "start": 695,
-              "end": 773,
               "callee": {
                 "type": "Identifier",
+                "name": "Test262Error",
                 "start": 699,
-                "end": 711,
-                "name": "Test262Error"
+                "end": 711
               },
               "arguments": [
                 {
                   "type": "Literal",
-                  "start": 712,
-                  "end": 772,
                   "value": "#2: values of str=\"\"; and strObj=new String(\"\"); are equal",
-                  "raw": "'#2: values of str=\"\"; and strObj=new String(\"\"); are equal'"
+                  "raw": "'#2: values of str=\"\"; and strObj=new String(\"\"); are equal'",
+                  "start": 712,
+                  "end": 772
                 }
-              ]
-            }
+              ],
+              "start": 695,
+              "end": 773
+            },
+            "start": 689,
+            "end": 774
           }
-        ]
+        ],
+        "start": 685,
+        "end": 776
       },
-      "alternate": null
+      "alternate": null,
+      "start": 667,
+      "end": 776
     },
     {
       "type": "IfStatement",
-      "start": 915,
-      "end": 1030,
       "test": {
         "type": "BinaryExpression",
-        "start": 919,
-        "end": 933,
         "left": {
           "type": "Identifier",
+          "name": "str",
           "start": 919,
-          "end": 922,
-          "name": "str"
+          "end": 922
         },
         "operator": "===",
         "right": {
           "type": "Identifier",
+          "name": "strObj",
           "start": 927,
-          "end": 933,
-          "name": "strObj"
-        }
+          "end": 933
+        },
+        "start": 919,
+        "end": 933
       },
       "consequent": {
         "type": "BlockStatement",
-        "start": 934,
-        "end": 1030,
         "body": [
           {
             "type": "ThrowStatement",
-            "start": 938,
-            "end": 1028,
             "argument": {
               "type": "NewExpression",
-              "start": 944,
-              "end": 1027,
               "callee": {
                 "type": "Identifier",
+                "name": "Test262Error",
                 "start": 948,
-                "end": 960,
-                "name": "Test262Error"
+                "end": 960
               },
               "arguments": [
                 {
                   "type": "Literal",
-                  "start": 961,
-                  "end": 1026,
                   "value": "#3: objects of str=\"\"; and strObj=new String(\"\"); are different",
-                  "raw": "'#3: objects of str=\"\"; and strObj=new String(\"\"); are different'"
+                  "raw": "'#3: objects of str=\"\"; and strObj=new String(\"\"); are different'",
+                  "start": 961,
+                  "end": 1026
                 }
-              ]
-            }
+              ],
+              "start": 944,
+              "end": 1027
+            },
+            "start": 938,
+            "end": 1028
           }
-        ]
+        ],
+        "start": 934,
+        "end": 1030
       },
-      "alternate": null
+      "alternate": null,
+      "start": 915,
+      "end": 1030
     },
     {
       "type": "IfStatement",
-      "start": 1186,
-      "end": 1312,
       "test": {
         "type": "BinaryExpression",
-        "start": 1190,
-        "end": 1217,
         "left": {
           "type": "UnaryExpression",
-          "start": 1190,
-          "end": 1200,
           "operator": "typeof",
           "argument": {
             "type": "Identifier",
+            "name": "str",
             "start": 1197,
-            "end": 1200,
-            "name": "str"
+            "end": 1200
           },
-          "prefix": true
+          "prefix": true,
+          "start": 1190,
+          "end": 1200
         },
         "operator": "==",
         "right": {
           "type": "UnaryExpression",
-          "start": 1204,
-          "end": 1217,
           "operator": "typeof",
           "argument": {
             "type": "Identifier",
+            "name": "strObj",
             "start": 1211,
-            "end": 1217,
-            "name": "strObj"
+            "end": 1217
           },
-          "prefix": true
-        }
+          "prefix": true,
+          "start": 1204,
+          "end": 1217
+        },
+        "start": 1190,
+        "end": 1217
       },
       "consequent": {
         "type": "BlockStatement",
-        "start": 1218,
-        "end": 1312,
         "body": [
           {
             "type": "ThrowStatement",
-            "start": 1222,
-            "end": 1310,
             "argument": {
               "type": "NewExpression",
-              "start": 1228,
-              "end": 1309,
               "callee": {
                 "type": "Identifier",
+                "name": "Test262Error",
                 "start": 1232,
-                "end": 1244,
-                "name": "Test262Error"
+                "end": 1244
               },
               "arguments": [
                 {
                   "type": "Literal",
-                  "start": 1245,
-                  "end": 1308,
                   "value": "#4: types of str=\"\"; and strObj=new String(\"\"); are different",
-                  "raw": "'#4: types of str=\"\"; and strObj=new String(\"\"); are different'"
+                  "raw": "'#4: types of str=\"\"; and strObj=new String(\"\"); are different'",
+                  "start": 1245,
+                  "end": 1308
                 }
-              ]
-            }
+              ],
+              "start": 1228,
+              "end": 1309
+            },
+            "start": 1222,
+            "end": 1310
           }
-        ]
+        ],
+        "start": 1218,
+        "end": 1312
       },
-      "alternate": null
+      "alternate": null,
+      "start": 1186,
+      "end": 1312
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 1395
 }

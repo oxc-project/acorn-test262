@@ -1,244 +1,244 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 525,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 370,
-      "end": 403,
       "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 376,
-          "end": 402,
           "id": {
             "type": "Identifier",
+            "name": "realm",
             "start": 376,
-            "end": 381,
-            "name": "realm"
+            "end": 381
           },
           "init": {
             "type": "CallExpression",
-            "start": 384,
-            "end": 402,
             "callee": {
               "type": "MemberExpression",
-              "start": 384,
-              "end": 400,
               "object": {
                 "type": "Identifier",
+                "name": "$262",
                 "start": 384,
-                "end": 388,
-                "name": "$262"
+                "end": 388
               },
               "property": {
                 "type": "Identifier",
+                "name": "createRealm",
                 "start": 389,
-                "end": 400,
-                "name": "createRealm"
+                "end": 400
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 384,
+              "end": 400
             },
             "arguments": [],
-            "optional": false
-          }
+            "optional": false,
+            "start": 384,
+            "end": 402
+          },
+          "start": 376,
+          "end": 402
         }
-      ]
+      ],
+      "start": 370,
+      "end": 403
     },
     {
       "type": "VariableDeclaration",
-      "start": 404,
-      "end": 446,
       "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 410,
-          "end": 445,
           "id": {
             "type": "Identifier",
+            "name": "C",
             "start": 410,
-            "end": 411,
-            "name": "C"
+            "end": 411
           },
           "init": {
             "type": "CallExpression",
-            "start": 414,
-            "end": 445,
             "callee": {
               "type": "MemberExpression",
-              "start": 414,
-              "end": 431,
               "object": {
                 "type": "MemberExpression",
-                "start": 414,
-                "end": 426,
                 "object": {
                   "type": "Identifier",
+                  "name": "realm",
                   "start": 414,
-                  "end": 419,
-                  "name": "realm"
+                  "end": 419
                 },
                 "property": {
                   "type": "Identifier",
+                  "name": "global",
                   "start": 420,
-                  "end": 426,
-                  "name": "global"
+                  "end": 426
                 },
                 "optional": false,
-                "computed": false
+                "computed": false,
+                "start": 414,
+                "end": 426
               },
               "property": {
                 "type": "Identifier",
+                "name": "eval",
                 "start": 427,
-                "end": 431,
-                "name": "eval"
+                "end": 431
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 414,
+              "end": 431
             },
             "arguments": [
               {
                 "type": "Literal",
-                "start": 432,
-                "end": 444,
                 "value": "(class {})",
-                "raw": "'(class {})'"
+                "raw": "'(class {})'",
+                "start": 432,
+                "end": 444
               }
             ],
-            "optional": false
-          }
+            "optional": false,
+            "start": 414,
+            "end": 445
+          },
+          "start": 410,
+          "end": 445
         }
-      ]
+      ],
+      "start": 404,
+      "end": 446
     },
     {
       "type": "VariableDeclaration",
-      "start": 447,
-      "end": 481,
       "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 453,
-          "end": 480,
           "id": {
             "type": "Identifier",
+            "name": "TE",
             "start": 453,
-            "end": 455,
-            "name": "TE"
+            "end": 455
           },
           "init": {
             "type": "MemberExpression",
-            "start": 458,
-            "end": 480,
             "object": {
               "type": "MemberExpression",
-              "start": 458,
-              "end": 470,
               "object": {
                 "type": "Identifier",
+                "name": "realm",
                 "start": 458,
-                "end": 463,
-                "name": "realm"
+                "end": 463
               },
               "property": {
                 "type": "Identifier",
+                "name": "global",
                 "start": 464,
-                "end": 470,
-                "name": "global"
+                "end": 470
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 458,
+              "end": 470
             },
             "property": {
               "type": "Identifier",
+              "name": "TypeError",
               "start": 471,
-              "end": 480,
-              "name": "TypeError"
+              "end": 480
             },
             "optional": false,
-            "computed": false
-          }
+            "computed": false,
+            "start": 458,
+            "end": 480
+          },
+          "start": 453,
+          "end": 480
         }
-      ]
+      ],
+      "start": 447,
+      "end": 481
     },
     {
       "type": "ExpressionStatement",
-      "start": 483,
-      "end": 524,
       "expression": {
         "type": "CallExpression",
-        "start": 483,
-        "end": 523,
         "callee": {
           "type": "MemberExpression",
-          "start": 483,
-          "end": 496,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 483,
-            "end": 489,
-            "name": "assert"
+            "end": 489
           },
           "property": {
             "type": "Identifier",
+            "name": "throws",
             "start": 490,
-            "end": 496,
-            "name": "throws"
+            "end": 496
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 483,
+          "end": 496
         },
         "arguments": [
           {
             "type": "Identifier",
+            "name": "TE",
             "start": 497,
-            "end": 499,
-            "name": "TE"
+            "end": 499
           },
           {
             "type": "FunctionExpression",
-            "start": 501,
-            "end": 522,
             "id": null,
             "generator": false,
             "async": false,
             "params": [],
             "body": {
               "type": "BlockStatement",
-              "start": 512,
-              "end": 522,
               "body": [
                 {
                   "type": "ExpressionStatement",
-                  "start": 516,
-                  "end": 520,
                   "expression": {
                     "type": "CallExpression",
-                    "start": 516,
-                    "end": 519,
                     "callee": {
                       "type": "Identifier",
+                      "name": "C",
                       "start": 516,
-                      "end": 517,
-                      "name": "C"
+                      "end": 517
                     },
                     "arguments": [],
-                    "optional": false
-                  }
+                    "optional": false,
+                    "start": 516,
+                    "end": 519
+                  },
+                  "start": 516,
+                  "end": 520
                 }
-              ]
+              ],
+              "start": 512,
+              "end": 522
             },
-            "expression": false
+            "expression": false,
+            "start": 501,
+            "end": 522
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 483,
+        "end": 523
+      },
+      "start": 483,
+      "end": 524
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 525
 }

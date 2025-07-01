@@ -2,26 +2,20 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 37,
   "body": [
     {
       "type": "ExportDefaultDeclaration",
-      "start": 0,
-      "end": 37,
       "declaration": {
         "type": "ClassDeclaration",
-        "start": 15,
-        "end": 37,
         "decorators": [],
         "id": {
           "type": "Identifier",
-          "start": 21,
-          "end": 33,
           "decorators": [],
           "name": "DefaultClass",
           "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "start": 21,
+          "end": 33
         },
         "typeParameters": null,
         "superClass": null,
@@ -29,17 +23,23 @@ __ESTREE_TEST__:PASS:
         "implements": [],
         "body": {
           "type": "ClassBody",
+          "body": [],
           "start": 34,
-          "end": 37,
-          "body": []
+          "end": 37
         },
         "abstract": false,
-        "declare": false
+        "declare": false,
+        "start": 15,
+        "end": 37
       },
-      "exportKind": "value"
+      "exportKind": "value",
+      "start": 0,
+      "end": 37
     }
   ],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 37
 }
 ```

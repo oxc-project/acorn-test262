@@ -2,17 +2,11 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 25,
   "body": [
     {
       "type": "ExportDefaultDeclaration",
-      "start": 0,
-      "end": 24,
       "declaration": {
         "type": "ClassDeclaration",
-        "start": 15,
-        "end": 24,
         "decorators": [],
         "id": null,
         "typeParameters": null,
@@ -21,212 +15,210 @@ __ESTREE_TEST__:PASS:
         "implements": [],
         "body": {
           "type": "ClassBody",
+          "body": [],
           "start": 21,
-          "end": 24,
-          "body": []
+          "end": 24
         },
         "abstract": false,
-        "declare": false
+        "declare": false,
+        "start": 15,
+        "end": 24
       },
-      "exportKind": "value"
+      "exportKind": "value",
+      "start": 0,
+      "end": 24
     }
   ],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 25
 }
 ```
 __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 111,
   "body": [
     {
       "type": "ExportNamedDeclaration",
-      "start": 0,
-      "end": 30,
       "declaration": null,
       "specifiers": [
         {
           "type": "ExportSpecifier",
-          "start": 9,
-          "end": 16,
           "local": {
             "type": "Identifier",
-            "start": 9,
-            "end": 16,
             "decorators": [],
             "name": "default",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 9,
+            "end": 16
           },
           "exported": {
             "type": "Identifier",
-            "start": 9,
-            "end": 16,
             "decorators": [],
             "name": "default",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 9,
+            "end": 16
           },
-          "exportKind": "value"
+          "exportKind": "value",
+          "start": 9,
+          "end": 16
         }
       ],
       "source": {
         "type": "Literal",
-        "start": 24,
-        "end": 29,
         "value": "./a",
-        "raw": "\"./a\""
+        "raw": "\"./a\"",
+        "start": 24,
+        "end": 29
       },
       "exportKind": "value",
-      "attributes": []
+      "attributes": [],
+      "start": 0,
+      "end": 30
     },
     {
       "type": "ExportNamedDeclaration",
-      "start": 31,
-      "end": 66,
       "declaration": null,
       "specifiers": [
         {
           "type": "ExportSpecifier",
-          "start": 40,
-          "end": 52,
           "local": {
             "type": "Identifier",
-            "start": 40,
-            "end": 47,
             "decorators": [],
             "name": "default",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 40,
+            "end": 47
           },
           "exported": {
             "type": "Identifier",
-            "start": 51,
-            "end": 52,
             "decorators": [],
             "name": "a",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 51,
+            "end": 52
           },
-          "exportKind": "value"
+          "exportKind": "value",
+          "start": 40,
+          "end": 52
         }
       ],
       "source": {
         "type": "Literal",
-        "start": 60,
-        "end": 65,
         "value": "./a",
-        "raw": "\"./a\""
+        "raw": "\"./a\"",
+        "start": 60,
+        "end": 65
       },
       "exportKind": "value",
-      "attributes": []
+      "attributes": [],
+      "start": 31,
+      "end": 66
     },
     {
       "type": "ImportDeclaration",
-      "start": 67,
-      "end": 102,
       "specifiers": [
         {
           "type": "ImportSpecifier",
-          "start": 76,
-          "end": 88,
           "imported": {
             "type": "Identifier",
-            "start": 76,
-            "end": 83,
             "decorators": [],
             "name": "default",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 76,
+            "end": 83
           },
           "local": {
             "type": "Identifier",
-            "start": 87,
-            "end": 88,
             "decorators": [],
             "name": "b",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 87,
+            "end": 88
           },
-          "importKind": "value"
+          "importKind": "value",
+          "start": 76,
+          "end": 88
         }
       ],
       "source": {
         "type": "Literal",
-        "start": 96,
-        "end": 101,
         "value": "./a",
-        "raw": "\"./a\""
+        "raw": "\"./a\"",
+        "start": 96,
+        "end": 101
       },
       "phase": null,
       "attributes": [],
-      "importKind": "value"
+      "importKind": "value",
+      "start": 67,
+      "end": 102
     },
     {
       "type": "ExpressionStatement",
-      "start": 103,
-      "end": 110,
       "expression": {
         "type": "UnaryExpression",
-        "start": 103,
-        "end": 109,
         "operator": "void",
         "argument": {
           "type": "Identifier",
-          "start": 108,
-          "end": 109,
           "decorators": [],
           "name": "b",
           "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "start": 108,
+          "end": 109
         },
-        "prefix": true
+        "prefix": true,
+        "start": 103,
+        "end": 109
       },
-      "directive": null
+      "directive": null,
+      "start": 103,
+      "end": 110
     }
   ],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 111
 }
 ```
 __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 70,
   "body": [
     {
       "type": "TSModuleDeclaration",
-      "start": 0,
-      "end": 70,
       "id": {
         "type": "Literal",
-        "start": 15,
-        "end": 22,
         "value": "tslib",
-        "raw": "\"tslib\""
+        "raw": "\"tslib\"",
+        "start": 15,
+        "end": 22
       },
       "body": {
         "type": "TSModuleBlock",
-        "start": 23,
-        "end": 70,
         "body": [
           {
             "type": "TSDeclareFunction",
-            "start": 29,
-            "end": 68,
             "id": {
               "type": "Identifier",
-              "start": 38,
-              "end": 53,
               "decorators": [],
               "name": "__importDefault",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 38,
+              "end": 53
             },
             "generator": false,
             "async": false,
@@ -235,44 +227,52 @@ __ESTREE_TEST__:PASS:
             "params": [
               {
                 "type": "Identifier",
-                "start": 54,
-                "end": 60,
                 "decorators": [],
                 "name": "m",
                 "optional": false,
                 "typeAnnotation": {
                   "type": "TSTypeAnnotation",
-                  "start": 55,
-                  "end": 60,
                   "typeAnnotation": {
                     "type": "TSAnyKeyword",
                     "start": 57,
                     "end": 60
-                  }
-                }
+                  },
+                  "start": 55,
+                  "end": 60
+                },
+                "start": 54,
+                "end": 60
               }
             ],
             "returnType": {
               "type": "TSTypeAnnotation",
-              "start": 61,
-              "end": 67,
               "typeAnnotation": {
                 "type": "TSVoidKeyword",
                 "start": 63,
                 "end": 67
-              }
+              },
+              "start": 61,
+              "end": 67
             },
             "body": null,
-            "expression": false
+            "expression": false,
+            "start": 29,
+            "end": 68
           }
-        ]
+        ],
+        "start": 23,
+        "end": 70
       },
       "kind": "module",
       "declare": true,
-      "global": false
+      "global": false,
+      "start": 0,
+      "end": 70
     }
   ],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 70
 }
 ```

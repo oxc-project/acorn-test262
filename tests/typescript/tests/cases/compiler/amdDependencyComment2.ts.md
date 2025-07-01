@@ -2,77 +2,77 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 33,
-  "end": 66,
   "body": [
     {
       "type": "TSImportEqualsDeclaration",
-      "start": 33,
-      "end": 58,
       "id": {
         "type": "Identifier",
-        "start": 40,
-        "end": 42,
         "decorators": [],
         "name": "m1",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 40,
+        "end": 42
       },
       "moduleReference": {
         "type": "TSExternalModuleReference",
-        "start": 45,
-        "end": 58,
         "expression": {
           "type": "Literal",
-          "start": 53,
-          "end": 57,
           "value": "m2",
-          "raw": "\"m2\""
-        }
+          "raw": "\"m2\"",
+          "start": 53,
+          "end": 57
+        },
+        "start": 45,
+        "end": 58
       },
-      "importKind": "value"
+      "importKind": "value",
+      "start": 33,
+      "end": 58
     },
     {
       "type": "ExpressionStatement",
-      "start": 59,
-      "end": 66,
       "expression": {
         "type": "CallExpression",
-        "start": 59,
-        "end": 65,
         "callee": {
           "type": "MemberExpression",
-          "start": 59,
-          "end": 63,
           "object": {
             "type": "Identifier",
-            "start": 59,
-            "end": 61,
             "decorators": [],
             "name": "m1",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 59,
+            "end": 61
           },
           "property": {
             "type": "Identifier",
-            "start": 62,
-            "end": 63,
             "decorators": [],
             "name": "f",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 62,
+            "end": 63
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 59,
+          "end": 63
         },
         "typeArguments": null,
         "arguments": [],
-        "optional": false
+        "optional": false,
+        "start": 59,
+        "end": 65
       },
-      "directive": null
+      "directive": null,
+      "start": 59,
+      "end": 66
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 33,
+  "end": 66
 }
 ```

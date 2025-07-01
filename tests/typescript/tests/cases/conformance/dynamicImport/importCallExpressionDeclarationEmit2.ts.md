@@ -2,25 +2,19 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 40,
   "body": [
     {
       "type": "ExportNamedDeclaration",
-      "start": 0,
-      "end": 39,
       "declaration": {
         "type": "FunctionDeclaration",
-        "start": 7,
-        "end": 39,
         "id": {
           "type": "Identifier",
-          "start": 16,
-          "end": 19,
           "decorators": [],
           "name": "foo",
           "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "start": 16,
+          "end": 19
         },
         "generator": false,
         "async": false,
@@ -30,82 +24,88 @@ __ESTREE_TEST__:PASS:
         "returnType": null,
         "body": {
           "type": "BlockStatement",
-          "start": 22,
-          "end": 39,
           "body": [
             {
               "type": "ReturnStatement",
-              "start": 24,
-              "end": 37,
               "argument": {
                 "type": "Literal",
-                "start": 31,
-                "end": 36,
                 "value": "foo",
-                "raw": "\"foo\""
-              }
+                "raw": "\"foo\"",
+                "start": 31,
+                "end": 36
+              },
+              "start": 24,
+              "end": 37
             }
-          ]
+          ],
+          "start": 22,
+          "end": 39
         },
-        "expression": false
+        "expression": false,
+        "start": 7,
+        "end": 39
       },
       "specifiers": [],
       "source": null,
       "exportKind": "value",
-      "attributes": []
+      "attributes": [],
+      "start": 0,
+      "end": 39
     }
   ],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 40
 }
 ```
 __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 23,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 0,
-      "end": 23,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 4,
-          "end": 22,
           "id": {
             "type": "Identifier",
-            "start": 4,
-            "end": 6,
             "decorators": [],
             "name": "p1",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 4,
+            "end": 6
           },
           "init": {
             "type": "ImportExpression",
-            "start": 9,
-            "end": 22,
             "source": {
               "type": "Literal",
-              "start": 16,
-              "end": 21,
               "value": "./0",
-              "raw": "\"./0\""
+              "raw": "\"./0\"",
+              "start": 16,
+              "end": 21
             },
             "options": null,
-            "phase": null
+            "phase": null,
+            "start": 9,
+            "end": 22
           },
-          "definite": false
+          "definite": false,
+          "start": 4,
+          "end": 22
         }
       ],
-      "declare": false
+      "declare": false,
+      "start": 0,
+      "end": 23
     }
   ],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 23
 }
 ```

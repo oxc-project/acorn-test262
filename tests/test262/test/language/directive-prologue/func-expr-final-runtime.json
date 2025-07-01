@@ -1,124 +1,124 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 518,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 364,
-      "end": 517,
       "expression": {
         "type": "CallExpression",
-        "start": 364,
-        "end": 516,
         "callee": {
           "type": "ParenthesizedExpression",
-          "start": 364,
-          "end": 513,
           "expression": {
             "type": "FunctionExpression",
-            "start": 365,
-            "end": 512,
             "id": null,
             "generator": false,
             "async": false,
             "params": [],
             "body": {
               "type": "BlockStatement",
-              "start": 377,
-              "end": 512,
               "body": [
                 {
                   "type": "ExpressionStatement",
-                  "start": 391,
-                  "end": 418,
                   "expression": {
                     "type": "AssignmentExpression",
-                    "start": 391,
-                    "end": 417,
                     "operator": "=",
                     "left": {
                       "type": "Identifier",
+                      "name": "test262unresolvable",
                       "start": 391,
-                      "end": 410,
-                      "name": "test262unresolvable"
+                      "end": 410
                     },
                     "right": {
                       "type": "Literal",
-                      "start": 413,
-                      "end": 417,
                       "value": null,
-                      "raw": "null"
-                    }
-                  }
+                      "raw": "null",
+                      "start": 413,
+                      "end": 417
+                    },
+                    "start": 391,
+                    "end": 417
+                  },
+                  "start": 391,
+                  "end": 418
                 },
                 {
                   "type": "ExpressionStatement",
-                  "start": 431,
-                  "end": 444,
                   "expression": {
                     "type": "Literal",
-                    "start": 431,
-                    "end": 443,
                     "value": "use strict",
-                    "raw": "\"use strict\""
-                  }
+                    "raw": "\"use strict\"",
+                    "start": 431,
+                    "end": 443
+                  },
+                  "start": 431,
+                  "end": 444
                 },
                 {
                   "type": "ExpressionStatement",
-                  "start": 458,
-                  "end": 502,
                   "expression": {
                     "type": "CallExpression",
-                    "start": 458,
-                    "end": 501,
                     "callee": {
                       "type": "MemberExpression",
-                      "start": 458,
-                      "end": 474,
                       "object": {
                         "type": "Identifier",
+                        "name": "assert",
                         "start": 458,
-                        "end": 464,
-                        "name": "assert"
+                        "end": 464
                       },
                       "property": {
                         "type": "Identifier",
+                        "name": "sameValue",
                         "start": 465,
-                        "end": 474,
-                        "name": "sameValue"
+                        "end": 474
                       },
                       "optional": false,
-                      "computed": false
+                      "computed": false,
+                      "start": 458,
+                      "end": 474
                     },
                     "arguments": [
                       {
                         "type": "Identifier",
+                        "name": "test262unresolvable",
                         "start": 475,
-                        "end": 494,
-                        "name": "test262unresolvable"
+                        "end": 494
                       },
                       {
                         "type": "Literal",
-                        "start": 496,
-                        "end": 500,
                         "value": null,
-                        "raw": "null"
+                        "raw": "null",
+                        "start": 496,
+                        "end": 500
                       }
                     ],
-                    "optional": false
-                  }
+                    "optional": false,
+                    "start": 458,
+                    "end": 501
+                  },
+                  "start": 458,
+                  "end": 502
                 }
-              ]
+              ],
+              "start": 377,
+              "end": 512
             },
-            "expression": false
-          }
+            "expression": false,
+            "start": 365,
+            "end": 512
+          },
+          "start": 364,
+          "end": 513
         },
         "arguments": [],
-        "optional": false
-      }
+        "optional": false,
+        "start": 364,
+        "end": 516
+      },
+      "start": 364,
+      "end": 517
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 518
 }

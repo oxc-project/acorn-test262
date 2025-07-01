@@ -1,267 +1,267 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 1310,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 810,
-      "end": 1049,
       "expression": {
         "type": "CallExpression",
-        "start": 810,
-        "end": 1048,
         "callee": {
           "type": "MemberExpression",
-          "start": 810,
-          "end": 823,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 810,
-            "end": 816,
-            "name": "assert"
+            "end": 816
           },
           "property": {
             "type": "Identifier",
+            "name": "throws",
             "start": 817,
-            "end": 823,
-            "name": "throws"
+            "end": 823
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 810,
+          "end": 823
         },
         "arguments": [
           {
             "type": "Identifier",
+            "name": "RangeError",
             "start": 824,
-            "end": 834,
-            "name": "RangeError"
+            "end": 834
           },
           {
             "type": "FunctionExpression",
-            "start": 836,
-            "end": 1012,
             "id": null,
             "generator": false,
             "async": false,
             "params": [],
             "body": {
               "type": "BlockStatement",
-              "start": 847,
-              "end": 1012,
               "body": [
                 {
                   "type": "ExpressionStatement",
-                  "start": 946,
-                  "end": 1010,
                   "expression": {
                     "type": "NewExpression",
-                    "start": 946,
-                    "end": 1009,
                     "callee": {
                       "type": "Identifier",
+                      "name": "SharedArrayBuffer",
                       "start": 950,
-                      "end": 967,
-                      "name": "SharedArrayBuffer"
+                      "end": 967
                     },
                     "arguments": [
                       {
                         "type": "Literal",
-                        "start": 968,
-                        "end": 969,
                         "value": 0,
-                        "raw": "0"
+                        "raw": "0",
+                        "start": 968,
+                        "end": 969
                       },
                       {
                         "type": "ObjectExpression",
-                        "start": 971,
-                        "end": 1008,
                         "properties": [
                           {
                             "type": "Property",
-                            "start": 972,
-                            "end": 1007,
                             "kind": "init",
                             "key": {
                               "type": "Identifier",
+                              "name": "maxByteLength",
                               "start": 972,
-                              "end": 985,
-                              "name": "maxByteLength"
+                              "end": 985
                             },
                             "value": {
                               "type": "BinaryExpression",
-                              "start": 987,
-                              "end": 1007,
                               "left": {
                                 "type": "Literal",
-                                "start": 987,
-                                "end": 988,
                                 "value": 7,
-                                "raw": "7"
+                                "raw": "7",
+                                "start": 987,
+                                "end": 988
                               },
                               "operator": "*",
                               "right": {
                                 "type": "Literal",
-                                "start": 991,
-                                "end": 1007,
                                 "value": 1125899906842624,
-                                "raw": "1125899906842624"
-                              }
+                                "raw": "1125899906842624",
+                                "start": 991,
+                                "end": 1007
+                              },
+                              "start": 987,
+                              "end": 1007
                             },
                             "method": false,
                             "shorthand": false,
-                            "computed": false
+                            "computed": false,
+                            "start": 972,
+                            "end": 1007
                           }
-                        ]
+                        ],
+                        "start": 971,
+                        "end": 1008
                       }
-                    ]
-                  }
+                    ],
+                    "start": 946,
+                    "end": 1009
+                  },
+                  "start": 946,
+                  "end": 1010
                 }
-              ]
+              ],
+              "start": 847,
+              "end": 1012
             },
-            "expression": false
+            "expression": false,
+            "start": 836,
+            "end": 1012
           },
           {
             "type": "Literal",
-            "start": 1014,
-            "end": 1047,
             "value": "`maxByteLength` option is 7 PiB",
-            "raw": "\"`maxByteLength` option is 7 PiB\""
+            "raw": "\"`maxByteLength` option is 7 PiB\"",
+            "start": 1014,
+            "end": 1047
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 810,
+        "end": 1048
+      },
+      "start": 810,
+      "end": 1049
     },
     {
       "type": "ExpressionStatement",
-      "start": 1051,
-      "end": 1309,
       "expression": {
         "type": "CallExpression",
-        "start": 1051,
-        "end": 1308,
         "callee": {
           "type": "MemberExpression",
-          "start": 1051,
-          "end": 1064,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 1051,
-            "end": 1057,
-            "name": "assert"
+            "end": 1057
           },
           "property": {
             "type": "Identifier",
+            "name": "throws",
             "start": 1058,
-            "end": 1064,
-            "name": "throws"
+            "end": 1064
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 1051,
+          "end": 1064
         },
         "arguments": [
           {
             "type": "Identifier",
+            "name": "RangeError",
             "start": 1065,
-            "end": 1075,
-            "name": "RangeError"
+            "end": 1075
           },
           {
             "type": "FunctionExpression",
-            "start": 1077,
-            "end": 1258,
             "id": null,
             "generator": false,
             "async": false,
             "params": [],
             "body": {
               "type": "BlockStatement",
-              "start": 1088,
-              "end": 1258,
               "body": [
                 {
                   "type": "ExpressionStatement",
-                  "start": 1192,
-                  "end": 1256,
                   "expression": {
                     "type": "NewExpression",
-                    "start": 1192,
-                    "end": 1255,
                     "callee": {
                       "type": "Identifier",
+                      "name": "SharedArrayBuffer",
                       "start": 1196,
-                      "end": 1213,
-                      "name": "SharedArrayBuffer"
+                      "end": 1213
                     },
                     "arguments": [
                       {
                         "type": "Literal",
-                        "start": 1214,
-                        "end": 1215,
                         "value": 0,
-                        "raw": "0"
+                        "raw": "0",
+                        "start": 1214,
+                        "end": 1215
                       },
                       {
                         "type": "ObjectExpression",
-                        "start": 1217,
-                        "end": 1254,
                         "properties": [
                           {
                             "type": "Property",
-                            "start": 1218,
-                            "end": 1253,
                             "kind": "init",
                             "key": {
                               "type": "Identifier",
+                              "name": "maxByteLength",
                               "start": 1218,
-                              "end": 1231,
-                              "name": "maxByteLength"
+                              "end": 1231
                             },
                             "value": {
                               "type": "BinaryExpression",
-                              "start": 1233,
-                              "end": 1253,
                               "left": {
                                 "type": "Literal",
-                                "start": 1233,
-                                "end": 1249,
                                 "value": 9007199254740992,
-                                "raw": "9007199254740992"
+                                "raw": "9007199254740992",
+                                "start": 1233,
+                                "end": 1249
                               },
                               "operator": "-",
                               "right": {
                                 "type": "Literal",
-                                "start": 1252,
-                                "end": 1253,
                                 "value": 1,
-                                "raw": "1"
-                              }
+                                "raw": "1",
+                                "start": 1252,
+                                "end": 1253
+                              },
+                              "start": 1233,
+                              "end": 1253
                             },
                             "method": false,
                             "shorthand": false,
-                            "computed": false
+                            "computed": false,
+                            "start": 1218,
+                            "end": 1253
                           }
-                        ]
+                        ],
+                        "start": 1217,
+                        "end": 1254
                       }
-                    ]
-                  }
+                    ],
+                    "start": 1192,
+                    "end": 1255
+                  },
+                  "start": 1192,
+                  "end": 1256
                 }
-              ]
+              ],
+              "start": 1088,
+              "end": 1258
             },
-            "expression": false
+            "expression": false,
+            "start": 1077,
+            "end": 1258
           },
           {
             "type": "Literal",
-            "start": 1260,
-            "end": 1307,
             "value": "`maxByteLength` option is Math.pow(2, 53) - 1",
-            "raw": "\"`maxByteLength` option is Math.pow(2, 53) - 1\""
+            "raw": "\"`maxByteLength` option is Math.pow(2, 53) - 1\"",
+            "start": 1260,
+            "end": 1307
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 1051,
+        "end": 1308
+      },
+      "start": 1051,
+      "end": 1309
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 1310
 }

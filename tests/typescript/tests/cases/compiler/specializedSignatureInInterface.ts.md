@@ -2,197 +2,197 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 107,
   "body": [
     {
       "type": "TSInterfaceDeclaration",
-      "start": 0,
-      "end": 36,
       "id": {
         "type": "Identifier",
-        "start": 10,
-        "end": 11,
         "decorators": [],
         "name": "A",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 10,
+        "end": 11
       },
       "typeParameters": null,
       "extends": [],
       "body": {
         "type": "TSInterfaceBody",
-        "start": 12,
-        "end": 36,
         "body": [
           {
             "type": "TSCallSignatureDeclaration",
-            "start": 16,
-            "end": 34,
             "typeParameters": null,
             "params": [
               {
                 "type": "Identifier",
-                "start": 17,
-                "end": 27,
                 "decorators": [],
                 "name": "key",
                 "optional": false,
                 "typeAnnotation": {
                   "type": "TSTypeAnnotation",
-                  "start": 20,
-                  "end": 27,
                   "typeAnnotation": {
                     "type": "TSStringKeyword",
                     "start": 21,
                     "end": 27
-                  }
-                }
+                  },
+                  "start": 20,
+                  "end": 27
+                },
+                "start": 17,
+                "end": 27
               }
             ],
             "returnType": {
               "type": "TSTypeAnnotation",
-              "start": 28,
-              "end": 33,
               "typeAnnotation": {
                 "type": "TSVoidKeyword",
                 "start": 29,
                 "end": 33
-              }
-            }
+              },
+              "start": 28,
+              "end": 33
+            },
+            "start": 16,
+            "end": 34
           }
-        ]
+        ],
+        "start": 12,
+        "end": 36
       },
-      "declare": false
+      "declare": false,
+      "start": 0,
+      "end": 36
     },
     {
       "type": "TSInterfaceDeclaration",
-      "start": 38,
-      "end": 107,
       "id": {
         "type": "Identifier",
-        "start": 48,
-        "end": 49,
         "decorators": [],
         "name": "B",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 48,
+        "end": 49
       },
       "typeParameters": null,
       "extends": [
         {
           "type": "TSInterfaceHeritage",
-          "start": 58,
-          "end": 59,
           "expression": {
             "type": "Identifier",
-            "start": 58,
-            "end": 59,
             "decorators": [],
             "name": "A",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 58,
+            "end": 59
           },
-          "typeArguments": null
+          "typeArguments": null,
+          "start": 58,
+          "end": 59
         }
       ],
       "body": {
         "type": "TSInterfaceBody",
-        "start": 60,
-        "end": 107,
         "body": [
           {
             "type": "TSCallSignatureDeclaration",
-            "start": 64,
-            "end": 83,
             "typeParameters": null,
             "params": [
               {
                 "type": "Identifier",
-                "start": 65,
-                "end": 74,
                 "decorators": [],
                 "name": "key",
                 "optional": false,
                 "typeAnnotation": {
                   "type": "TSTypeAnnotation",
-                  "start": 68,
-                  "end": 74,
                   "typeAnnotation": {
                     "type": "TSLiteralType",
-                    "start": 69,
-                    "end": 74,
                     "literal": {
                       "type": "Literal",
-                      "start": 69,
-                      "end": 74,
                       "value": "foo",
-                      "raw": "'foo'"
-                    }
-                  }
-                }
+                      "raw": "'foo'",
+                      "start": 69,
+                      "end": 74
+                    },
+                    "start": 69,
+                    "end": 74
+                  },
+                  "start": 68,
+                  "end": 74
+                },
+                "start": 65,
+                "end": 74
               }
             ],
             "returnType": {
               "type": "TSTypeAnnotation",
-              "start": 75,
-              "end": 82,
               "typeAnnotation": {
                 "type": "TSStringKeyword",
                 "start": 76,
                 "end": 82
-              }
-            }
+              },
+              "start": 75,
+              "end": 82
+            },
+            "start": 64,
+            "end": 83
           },
           {
             "type": "TSCallSignatureDeclaration",
-            "start": 86,
-            "end": 105,
             "typeParameters": null,
             "params": [
               {
                 "type": "Identifier",
-                "start": 87,
-                "end": 96,
                 "decorators": [],
                 "name": "key",
                 "optional": false,
                 "typeAnnotation": {
                   "type": "TSTypeAnnotation",
-                  "start": 90,
-                  "end": 96,
                   "typeAnnotation": {
                     "type": "TSLiteralType",
-                    "start": 91,
-                    "end": 96,
                     "literal": {
                       "type": "Literal",
-                      "start": 91,
-                      "end": 96,
                       "value": "bar",
-                      "raw": "'bar'"
-                    }
-                  }
-                }
+                      "raw": "'bar'",
+                      "start": 91,
+                      "end": 96
+                    },
+                    "start": 91,
+                    "end": 96
+                  },
+                  "start": 90,
+                  "end": 96
+                },
+                "start": 87,
+                "end": 96
               }
             ],
             "returnType": {
               "type": "TSTypeAnnotation",
-              "start": 97,
-              "end": 104,
               "typeAnnotation": {
                 "type": "TSStringKeyword",
                 "start": 98,
                 "end": 104
-              }
-            }
+              },
+              "start": 97,
+              "end": 104
+            },
+            "start": 86,
+            "end": 105
           }
-        ]
+        ],
+        "start": 60,
+        "end": 107
       },
-      "declare": false
+      "declare": false,
+      "start": 38,
+      "end": 107
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 107
 }
 ```

@@ -1,284 +1,284 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 2094,
   "body": [
     {
       "type": "ImportDeclaration",
-      "start": 1641,
-      "end": 1686,
       "specifiers": [
         {
           "type": "ImportSpecifier",
-          "start": 1650,
-          "end": 1654,
           "imported": {
             "type": "Identifier",
+            "name": "done",
             "start": 1650,
-            "end": 1654,
-            "name": "done"
+            "end": 1654
           },
           "local": {
             "type": "Identifier",
+            "name": "done",
             "start": 1650,
-            "end": 1654,
-            "name": "done"
-          }
+            "end": 1654
+          },
+          "start": 1650,
+          "end": 1654
         }
       ],
       "source": {
         "type": "Literal",
-        "start": 1662,
-        "end": 1685,
         "value": "./promises_FIXTURE.js",
-        "raw": "\"./promises_FIXTURE.js\""
+        "raw": "\"./promises_FIXTURE.js\"",
+        "start": 1662,
+        "end": 1685
       },
       "phase": null,
-      "attributes": []
+      "attributes": [],
+      "start": 1641,
+      "end": 1686
     },
     {
       "type": "ImportDeclaration",
-      "start": 1687,
-      "end": 1719,
       "specifiers": [],
       "source": {
         "type": "Literal",
-        "start": 1694,
-        "end": 1718,
         "value": "./dep-1-tla_FIXTURE.js",
-        "raw": "\"./dep-1-tla_FIXTURE.js\""
+        "raw": "\"./dep-1-tla_FIXTURE.js\"",
+        "start": 1694,
+        "end": 1718
       },
       "phase": null,
-      "attributes": []
+      "attributes": [],
+      "start": 1687,
+      "end": 1719
     },
     {
       "type": "ExpressionStatement",
-      "start": 1721,
-      "end": 2093,
       "expression": {
         "type": "CallExpression",
-        "start": 1721,
-        "end": 2092,
         "callee": {
           "type": "Identifier",
+          "name": "asyncTest",
           "start": 1721,
-          "end": 1730,
-          "name": "asyncTest"
+          "end": 1730
         },
         "arguments": [
           {
             "type": "ArrowFunctionExpression",
-            "start": 1731,
-            "end": 2091,
             "expression": false,
             "async": true,
             "params": [],
             "body": {
               "type": "BlockStatement",
-              "start": 1743,
-              "end": 2091,
               "body": [
                 {
                   "type": "ExpressionStatement",
-                  "start": 1747,
-                  "end": 1758,
                   "expression": {
                     "type": "AwaitExpression",
-                    "start": 1747,
-                    "end": 1757,
                     "argument": {
                       "type": "Identifier",
+                      "name": "done",
                       "start": 1753,
-                      "end": 1757,
-                      "name": "done"
-                    }
-                  }
+                      "end": 1757
+                    },
+                    "start": 1747,
+                    "end": 1757
+                  },
+                  "start": 1747,
+                  "end": 1758
                 },
                 {
                   "type": "ExpressionStatement",
-                  "start": 1761,
-                  "end": 1883,
                   "expression": {
                     "type": "CallExpression",
-                    "start": 1761,
-                    "end": 1882,
                     "callee": {
                       "type": "Identifier",
+                      "name": "assert",
                       "start": 1761,
-                      "end": 1767,
-                      "name": "assert"
+                      "end": 1767
                     },
                     "arguments": [
                       {
                         "type": "BinaryExpression",
-                        "start": 1768,
-                        "end": 1835,
                         "left": {
                           "type": "MemberExpression",
-                          "start": 1768,
-                          "end": 1814,
                           "object": {
                             "type": "Identifier",
+                            "name": "globalThis",
                             "start": 1768,
-                            "end": 1778,
-                            "name": "globalThis"
+                            "end": 1778
                           },
                           "property": {
                             "type": "Literal",
-                            "start": 1779,
-                            "end": 1813,
                             "value": "error on ns.foo while evaluating",
-                            "raw": "\"error on ns.foo while evaluating\""
+                            "raw": "\"error on ns.foo while evaluating\"",
+                            "start": 1779,
+                            "end": 1813
                           },
                           "optional": false,
-                          "computed": true
+                          "computed": true,
+                          "start": 1768,
+                          "end": 1814
                         },
                         "operator": "instanceof",
                         "right": {
                           "type": "Identifier",
+                          "name": "TypeError",
                           "start": 1826,
-                          "end": 1835,
-                          "name": "TypeError"
-                        }
+                          "end": 1835
+                        },
+                        "start": 1768,
+                        "end": 1835
                       },
                       {
                         "type": "Literal",
-                        "start": 1837,
-                        "end": 1881,
                         "value": "ns.foo while evaluating throws a TypeError",
-                        "raw": "\"ns.foo while evaluating throws a TypeError\""
+                        "raw": "\"ns.foo while evaluating throws a TypeError\"",
+                        "start": 1837,
+                        "end": 1881
                       }
                     ],
-                    "optional": false
-                  }
+                    "optional": false,
+                    "start": 1761,
+                    "end": 1882
+                  },
+                  "start": 1761,
+                  "end": 1883
                 },
                 {
                   "type": "ExpressionStatement",
-                  "start": 1886,
-                  "end": 2020,
                   "expression": {
                     "type": "CallExpression",
-                    "start": 1886,
-                    "end": 2019,
                     "callee": {
                       "type": "Identifier",
+                      "name": "assert",
                       "start": 1886,
-                      "end": 1892,
-                      "name": "assert"
+                      "end": 1892
                     },
                     "arguments": [
                       {
                         "type": "BinaryExpression",
-                        "start": 1893,
-                        "end": 1966,
                         "left": {
                           "type": "MemberExpression",
-                          "start": 1893,
-                          "end": 1945,
                           "object": {
                             "type": "Identifier",
+                            "name": "globalThis",
                             "start": 1893,
-                            "end": 1903,
-                            "name": "globalThis"
+                            "end": 1903
                           },
                           "property": {
                             "type": "Literal",
-                            "start": 1904,
-                            "end": 1944,
                             "value": "error on ns.foo while evaluating-async",
-                            "raw": "\"error on ns.foo while evaluating-async\""
+                            "raw": "\"error on ns.foo while evaluating-async\"",
+                            "start": 1904,
+                            "end": 1944
                           },
                           "optional": false,
-                          "computed": true
+                          "computed": true,
+                          "start": 1893,
+                          "end": 1945
                         },
                         "operator": "instanceof",
                         "right": {
                           "type": "Identifier",
+                          "name": "TypeError",
                           "start": 1957,
-                          "end": 1966,
-                          "name": "TypeError"
-                        }
+                          "end": 1966
+                        },
+                        "start": 1893,
+                        "end": 1966
                       },
                       {
                         "type": "Literal",
-                        "start": 1968,
-                        "end": 2018,
                         "value": "ns.foo while evaluating-async throws a TypeError",
-                        "raw": "\"ns.foo while evaluating-async throws a TypeError\""
+                        "raw": "\"ns.foo while evaluating-async throws a TypeError\"",
+                        "start": 1968,
+                        "end": 2018
                       }
                     ],
-                    "optional": false
-                  }
+                    "optional": false,
+                    "start": 1886,
+                    "end": 2019
+                  },
+                  "start": 1886,
+                  "end": 2020
                 },
                 {
                   "type": "ExpressionStatement",
-                  "start": 2023,
-                  "end": 2089,
                   "expression": {
                     "type": "CallExpression",
-                    "start": 2023,
-                    "end": 2088,
                     "callee": {
                       "type": "MemberExpression",
-                      "start": 2023,
-                      "end": 2039,
                       "object": {
                         "type": "Identifier",
+                        "name": "assert",
                         "start": 2023,
-                        "end": 2029,
-                        "name": "assert"
+                        "end": 2029
                       },
                       "property": {
                         "type": "Identifier",
+                        "name": "sameValue",
                         "start": 2030,
-                        "end": 2039,
-                        "name": "sameValue"
+                        "end": 2039
                       },
                       "optional": false,
-                      "computed": false
+                      "computed": false,
+                      "start": 2023,
+                      "end": 2039
                     },
                     "arguments": [
                       {
                         "type": "MemberExpression",
-                        "start": 2040,
-                        "end": 2084,
                         "object": {
                           "type": "Identifier",
+                          "name": "globalThis",
                           "start": 2040,
-                          "end": 2050,
-                          "name": "globalThis"
+                          "end": 2050
                         },
                         "property": {
                           "type": "Literal",
-                          "start": 2051,
-                          "end": 2083,
                           "value": "value of ns.foo when evaluated",
-                          "raw": "\"value of ns.foo when evaluated\""
+                          "raw": "\"value of ns.foo when evaluated\"",
+                          "start": 2051,
+                          "end": 2083
                         },
                         "optional": false,
-                        "computed": true
+                        "computed": true,
+                        "start": 2040,
+                        "end": 2084
                       },
                       {
                         "type": "Literal",
-                        "start": 2086,
-                        "end": 2087,
                         "value": 1,
-                        "raw": "1"
+                        "raw": "1",
+                        "start": 2086,
+                        "end": 2087
                       }
                     ],
-                    "optional": false
-                  }
+                    "optional": false,
+                    "start": 2023,
+                    "end": 2088
+                  },
+                  "start": 2023,
+                  "end": 2089
                 }
-              ]
+              ],
+              "start": 1743,
+              "end": 2091
             },
             "id": null,
-            "generator": false
+            "generator": false,
+            "start": 1731,
+            "end": 2091
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 1721,
+        "end": 2092
+      },
+      "start": 1721,
+      "end": 2093
     }
   ],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 2094
 }

@@ -2,114 +2,114 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 46,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 0,
-      "end": 46,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 4,
-          "end": 46,
           "id": {
             "type": "Identifier",
-            "start": 4,
-            "end": 5,
             "decorators": [],
             "name": "x",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 4,
+            "end": 5
           },
           "init": {
             "type": "ObjectExpression",
-            "start": 8,
-            "end": 46,
             "properties": [
               {
                 "type": "Property",
-                "start": 14,
-                "end": 44,
                 "kind": "init",
                 "key": {
                   "type": "Identifier",
-                  "start": 14,
-                  "end": 15,
                   "decorators": [],
                   "name": "a",
                   "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "start": 14,
+                  "end": 15
                 },
                 "value": {
                   "type": "TemplateLiteral",
-                  "start": 17,
-                  "end": 44,
                   "quasis": [
                     {
                       "type": "TemplateElement",
-                      "start": 17,
-                      "end": 23,
                       "value": {
                         "raw": "abc",
                         "cooked": "abc"
                       },
-                      "tail": false
+                      "tail": false,
+                      "start": 17,
+                      "end": 23
                     },
                     {
                       "type": "TemplateElement",
-                      "start": 28,
-                      "end": 34,
                       "value": {
                         "raw": "def",
                         "cooked": "def"
                       },
-                      "tail": false
+                      "tail": false,
+                      "start": 28,
+                      "end": 34
                     },
                     {
                       "type": "TemplateElement",
-                      "start": 39,
-                      "end": 44,
                       "value": {
                         "raw": "ghi",
                         "cooked": "ghi"
                       },
-                      "tail": true
+                      "tail": true,
+                      "start": 39,
+                      "end": 44
                     }
                   ],
                   "expressions": [
                     {
                       "type": "Literal",
-                      "start": 24,
-                      "end": 27,
                       "value": 123,
-                      "raw": "123"
+                      "raw": "123",
+                      "start": 24,
+                      "end": 27
                     },
                     {
                       "type": "Literal",
-                      "start": 35,
-                      "end": 38,
                       "value": 456,
-                      "raw": "456"
+                      "raw": "456",
+                      "start": 35,
+                      "end": 38
                     }
-                  ]
+                  ],
+                  "start": 17,
+                  "end": 44
                 },
                 "method": false,
                 "shorthand": false,
                 "computed": false,
-                "optional": false
+                "optional": false,
+                "start": 14,
+                "end": 44
               }
-            ]
+            ],
+            "start": 8,
+            "end": 46
           },
-          "definite": false
+          "definite": false,
+          "start": 4,
+          "end": 46
         }
       ],
-      "declare": false
+      "declare": false,
+      "start": 0,
+      "end": 46
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 46
 }
 ```

@@ -1,230 +1,230 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 740,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 230,
-      "end": 240,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 234,
-          "end": 239,
           "id": {
             "type": "Identifier",
+            "name": "x",
             "start": 234,
-            "end": 235,
-            "name": "x"
+            "end": 235
           },
           "init": {
             "type": "Identifier",
+            "name": "NaN",
             "start": 236,
-            "end": 239,
-            "name": "NaN"
-          }
+            "end": 239
+          },
+          "start": 234,
+          "end": 239
         }
-      ]
+      ],
+      "start": 230,
+      "end": 240
     },
     {
       "type": "IfStatement",
-      "start": 309,
-      "end": 430,
       "test": {
         "type": "BinaryExpression",
-        "start": 313,
-        "end": 335,
         "left": {
           "type": "UnaryExpression",
-          "start": 313,
-          "end": 322,
           "operator": "typeof",
           "argument": {
             "type": "ParenthesizedExpression",
-            "start": 319,
-            "end": 322,
             "expression": {
               "type": "Identifier",
+              "name": "x",
               "start": 320,
-              "end": 321,
-              "name": "x"
-            }
+              "end": 321
+            },
+            "start": 319,
+            "end": 322
           },
-          "prefix": true
+          "prefix": true,
+          "start": 313,
+          "end": 322
         },
         "operator": "!==",
         "right": {
           "type": "Literal",
-          "start": 327,
-          "end": 335,
           "value": "number",
-          "raw": "\"number\""
-        }
+          "raw": "\"number\"",
+          "start": 327,
+          "end": 335
+        },
+        "start": 313,
+        "end": 335
       },
       "consequent": {
         "type": "BlockStatement",
-        "start": 336,
-        "end": 430,
         "body": [
           {
             "type": "ThrowStatement",
-            "start": 340,
-            "end": 428,
             "argument": {
               "type": "NewExpression",
-              "start": 346,
-              "end": 427,
               "callee": {
                 "type": "Identifier",
+                "name": "Test262Error",
                 "start": 350,
-                "end": 362,
-                "name": "Test262Error"
+                "end": 362
               },
               "arguments": [
                 {
                   "type": "BinaryExpression",
-                  "start": 363,
-                  "end": 426,
                   "left": {
                     "type": "Literal",
-                    "start": 363,
-                    "end": 412,
                     "value": "#1: var x=NaN; typeof(x) === \"number\". Actual: ",
-                    "raw": "'#1: var x=NaN; typeof(x) === \"number\". Actual: '"
+                    "raw": "'#1: var x=NaN; typeof(x) === \"number\". Actual: '",
+                    "start": 363,
+                    "end": 412
                   },
                   "operator": "+",
                   "right": {
                     "type": "ParenthesizedExpression",
-                    "start": 415,
-                    "end": 426,
                     "expression": {
                       "type": "UnaryExpression",
-                      "start": 416,
-                      "end": 425,
                       "operator": "typeof",
                       "argument": {
                         "type": "ParenthesizedExpression",
-                        "start": 422,
-                        "end": 425,
                         "expression": {
                           "type": "Identifier",
+                          "name": "x",
                           "start": 423,
-                          "end": 424,
-                          "name": "x"
-                        }
+                          "end": 424
+                        },
+                        "start": 422,
+                        "end": 425
                       },
-                      "prefix": true
-                    }
-                  }
+                      "prefix": true,
+                      "start": 416,
+                      "end": 425
+                    },
+                    "start": 415,
+                    "end": 426
+                  },
+                  "start": 363,
+                  "end": 426
                 }
-              ]
-            }
+              ],
+              "start": 346,
+              "end": 427
+            },
+            "start": 340,
+            "end": 428
           }
-        ]
+        ],
+        "start": 336,
+        "end": 430
       },
-      "alternate": null
+      "alternate": null,
+      "start": 309,
+      "end": 430
     },
     {
       "type": "IfStatement",
-      "start": 561,
-      "end": 677,
       "test": {
         "type": "BinaryExpression",
-        "start": 565,
-        "end": 589,
         "left": {
           "type": "UnaryExpression",
-          "start": 565,
-          "end": 576,
           "operator": "typeof",
           "argument": {
             "type": "ParenthesizedExpression",
-            "start": 571,
-            "end": 576,
             "expression": {
               "type": "Identifier",
+              "name": "NaN",
               "start": 572,
-              "end": 575,
-              "name": "NaN"
-            }
+              "end": 575
+            },
+            "start": 571,
+            "end": 576
           },
-          "prefix": true
+          "prefix": true,
+          "start": 565,
+          "end": 576
         },
         "operator": "!==",
         "right": {
           "type": "Literal",
-          "start": 581,
-          "end": 589,
           "value": "number",
-          "raw": "\"number\""
-        }
+          "raw": "\"number\"",
+          "start": 581,
+          "end": 589
+        },
+        "start": 565,
+        "end": 589
       },
       "consequent": {
         "type": "BlockStatement",
-        "start": 590,
-        "end": 677,
         "body": [
           {
             "type": "ThrowStatement",
-            "start": 594,
-            "end": 675,
             "argument": {
               "type": "NewExpression",
-              "start": 600,
-              "end": 674,
               "callee": {
                 "type": "Identifier",
+                "name": "Test262Error",
                 "start": 604,
-                "end": 616,
-                "name": "Test262Error"
+                "end": 616
               },
               "arguments": [
                 {
                   "type": "BinaryExpression",
-                  "start": 617,
-                  "end": 673,
                   "left": {
                     "type": "Literal",
-                    "start": 617,
-                    "end": 657,
                     "value": "#2: typeof(NaN) === \"number\". Actual: ",
-                    "raw": "'#2: typeof(NaN) === \"number\". Actual: '"
+                    "raw": "'#2: typeof(NaN) === \"number\". Actual: '",
+                    "start": 617,
+                    "end": 657
                   },
                   "operator": "+",
                   "right": {
                     "type": "ParenthesizedExpression",
-                    "start": 660,
-                    "end": 673,
                     "expression": {
                       "type": "UnaryExpression",
-                      "start": 661,
-                      "end": 672,
                       "operator": "typeof",
                       "argument": {
                         "type": "ParenthesizedExpression",
-                        "start": 667,
-                        "end": 672,
                         "expression": {
                           "type": "Identifier",
+                          "name": "NaN",
                           "start": 668,
-                          "end": 671,
-                          "name": "NaN"
-                        }
+                          "end": 671
+                        },
+                        "start": 667,
+                        "end": 672
                       },
-                      "prefix": true
-                    }
-                  }
+                      "prefix": true,
+                      "start": 661,
+                      "end": 672
+                    },
+                    "start": 660,
+                    "end": 673
+                  },
+                  "start": 617,
+                  "end": 673
                 }
-              ]
-            }
+              ],
+              "start": 600,
+              "end": 674
+            },
+            "start": 594,
+            "end": 675
           }
-        ]
+        ],
+        "start": 590,
+        "end": 677
       },
-      "alternate": null
+      "alternate": null,
+      "start": 561,
+      "end": 677
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 740
 }

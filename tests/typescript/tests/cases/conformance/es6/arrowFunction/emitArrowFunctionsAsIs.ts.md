@@ -2,176 +2,176 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 76,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 0,
-      "end": 22,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 4,
-          "end": 21,
           "id": {
             "type": "Identifier",
-            "start": 4,
-            "end": 10,
             "decorators": [],
             "name": "arrow1",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 4,
+            "end": 10
           },
           "init": {
             "type": "ArrowFunctionExpression",
-            "start": 13,
-            "end": 21,
             "expression": false,
             "async": false,
             "typeParameters": null,
             "params": [
               {
                 "type": "Identifier",
-                "start": 13,
-                "end": 14,
                 "decorators": [],
                 "name": "a",
                 "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "start": 13,
+                "end": 14
               }
             ],
             "returnType": null,
             "body": {
               "type": "BlockStatement",
+              "body": [],
               "start": 18,
-              "end": 21,
-              "body": []
+              "end": 21
             },
             "id": null,
-            "generator": false
+            "generator": false,
+            "start": 13,
+            "end": 21
           },
-          "definite": false
+          "definite": false,
+          "start": 4,
+          "end": 21
         }
       ],
-      "declare": false
+      "declare": false,
+      "start": 0,
+      "end": 22
     },
     {
       "type": "VariableDeclaration",
-      "start": 23,
-      "end": 47,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 27,
-          "end": 46,
           "id": {
             "type": "Identifier",
-            "start": 27,
-            "end": 33,
             "decorators": [],
             "name": "arrow2",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 27,
+            "end": 33
           },
           "init": {
             "type": "ArrowFunctionExpression",
-            "start": 36,
-            "end": 46,
             "expression": false,
             "async": false,
             "typeParameters": null,
             "params": [
               {
                 "type": "Identifier",
-                "start": 37,
-                "end": 38,
                 "decorators": [],
                 "name": "a",
                 "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "start": 37,
+                "end": 38
               }
             ],
             "returnType": null,
             "body": {
               "type": "BlockStatement",
+              "body": [],
               "start": 43,
-              "end": 46,
-              "body": []
+              "end": 46
             },
             "id": null,
-            "generator": false
+            "generator": false,
+            "start": 36,
+            "end": 46
           },
-          "definite": false
+          "definite": false,
+          "start": 27,
+          "end": 46
         }
       ],
-      "declare": false
+      "declare": false,
+      "start": 23,
+      "end": 47
     },
     {
       "type": "VariableDeclaration",
-      "start": 49,
-      "end": 76,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 53,
-          "end": 75,
           "id": {
             "type": "Identifier",
-            "start": 53,
-            "end": 59,
             "decorators": [],
             "name": "arrow3",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 53,
+            "end": 59
           },
           "init": {
             "type": "ArrowFunctionExpression",
-            "start": 62,
-            "end": 75,
             "expression": false,
             "async": false,
             "typeParameters": null,
             "params": [
               {
                 "type": "Identifier",
-                "start": 63,
-                "end": 64,
                 "decorators": [],
                 "name": "a",
                 "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "start": 63,
+                "end": 64
               },
               {
                 "type": "Identifier",
-                "start": 66,
-                "end": 67,
                 "decorators": [],
                 "name": "b",
                 "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "start": 66,
+                "end": 67
               }
             ],
             "returnType": null,
             "body": {
               "type": "BlockStatement",
+              "body": [],
               "start": 72,
-              "end": 75,
-              "body": []
+              "end": 75
             },
             "id": null,
-            "generator": false
+            "generator": false,
+            "start": 62,
+            "end": 75
           },
-          "definite": false
+          "definite": false,
+          "start": 53,
+          "end": 75
         }
       ],
-      "declare": false
+      "declare": false,
+      "start": 49,
+      "end": 76
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 76
 }
 ```

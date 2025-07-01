@@ -2,21 +2,17 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 191,
   "body": [
     {
       "type": "FunctionDeclaration",
-      "start": 0,
-      "end": 191,
       "id": {
         "type": "Identifier",
-        "start": 9,
-        "end": 13,
         "decorators": [],
         "name": "test",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 9,
+        "end": 13
       },
       "generator": false,
       "async": false,
@@ -26,108 +22,98 @@ __ESTREE_TEST__:PASS:
       "returnType": null,
       "body": {
         "type": "BlockStatement",
-        "start": 16,
-        "end": 191,
         "body": [
           {
             "type": "VariableDeclaration",
-            "start": 22,
-            "end": 34,
             "kind": "let",
             "declarations": [
               {
                 "type": "VariableDeclarator",
-                "start": 26,
-                "end": 33,
                 "id": {
                   "type": "Identifier",
-                  "start": 26,
-                  "end": 29,
                   "decorators": [],
                   "name": "foo",
                   "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "start": 26,
+                  "end": 29
                 },
                 "init": {
                   "type": "Literal",
-                  "start": 32,
-                  "end": 33,
                   "value": 0,
-                  "raw": "0"
+                  "raw": "0",
+                  "start": 32,
+                  "end": 33
                 },
-                "definite": false
+                "definite": false,
+                "start": 26,
+                "end": 33
               }
             ],
-            "declare": false
+            "declare": false,
+            "start": 22,
+            "end": 34
           },
           {
             "type": "LabeledStatement",
-            "start": 39,
-            "end": 172,
             "label": {
               "type": "Identifier",
-              "start": 39,
-              "end": 47,
               "decorators": [],
               "name": "testLoop",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 39,
+              "end": 47
             },
             "body": {
               "type": "DoWhileStatement",
-              "start": 49,
-              "end": 172,
               "body": {
                 "type": "BlockStatement",
-                "start": 52,
-                "end": 101,
                 "body": [
                   {
                     "type": "ExpressionStatement",
-                    "start": 62,
-                    "end": 68,
                     "expression": {
                       "type": "UpdateExpression",
-                      "start": 62,
-                      "end": 67,
                       "operator": "++",
                       "prefix": false,
                       "argument": {
                         "type": "Identifier",
-                        "start": 62,
-                        "end": 65,
                         "decorators": [],
                         "name": "foo",
                         "optional": false,
-                        "typeAnnotation": null
-                      }
+                        "typeAnnotation": null,
+                        "start": 62,
+                        "end": 65
+                      },
+                      "start": 62,
+                      "end": 67
                     },
-                    "directive": null
+                    "directive": null,
+                    "start": 62,
+                    "end": 68
                   },
                   {
                     "type": "ContinueStatement",
-                    "start": 77,
-                    "end": 95,
                     "label": {
                       "type": "Identifier",
-                      "start": 86,
-                      "end": 94,
                       "decorators": [],
                       "name": "testLoop",
                       "optional": false,
-                      "typeAnnotation": null
-                    }
+                      "typeAnnotation": null,
+                      "start": 86,
+                      "end": 94
+                    },
+                    "start": 77,
+                    "end": 95
                   }
-                ]
+                ],
+                "start": 52,
+                "end": 101
               },
               "test": {
                 "type": "CallExpression",
-                "start": 109,
-                "end": 170,
                 "callee": {
                   "type": "FunctionExpression",
-                  "start": 109,
-                  "end": 168,
                   "id": null,
                   "generator": false,
                   "async": false,
@@ -137,82 +123,96 @@ __ESTREE_TEST__:PASS:
                   "returnType": null,
                   "body": {
                     "type": "BlockStatement",
-                    "start": 120,
-                    "end": 168,
                     "body": [
                       {
                         "type": "VariableDeclaration",
-                        "start": 130,
-                        "end": 140,
                         "kind": "var",
                         "declarations": [
                           {
                             "type": "VariableDeclarator",
-                            "start": 134,
-                            "end": 139,
                             "id": {
                               "type": "Identifier",
-                              "start": 134,
-                              "end": 135,
                               "decorators": [],
                               "name": "x",
                               "optional": false,
-                              "typeAnnotation": null
+                              "typeAnnotation": null,
+                              "start": 134,
+                              "end": 135
                             },
                             "init": {
                               "type": "Literal",
-                              "start": 138,
-                              "end": 139,
                               "value": 1,
-                              "raw": "1"
+                              "raw": "1",
+                              "start": 138,
+                              "end": 139
                             },
-                            "definite": false
+                            "definite": false,
+                            "start": 134,
+                            "end": 139
                           }
                         ],
-                        "declare": false
+                        "declare": false,
+                        "start": 130,
+                        "end": 140
                       },
                       {
                         "type": "ReturnStatement",
-                        "start": 149,
-                        "end": 162,
                         "argument": {
                           "type": "Literal",
-                          "start": 156,
-                          "end": 161,
                           "value": false,
-                          "raw": "false"
-                        }
+                          "raw": "false",
+                          "start": 156,
+                          "end": 161
+                        },
+                        "start": 149,
+                        "end": 162
                       }
-                    ]
+                    ],
+                    "start": 120,
+                    "end": 168
                   },
-                  "expression": false
+                  "expression": false,
+                  "start": 109,
+                  "end": 168
                 },
                 "typeArguments": null,
                 "arguments": [],
-                "optional": false
-              }
-            }
+                "optional": false,
+                "start": 109,
+                "end": 170
+              },
+              "start": 49,
+              "end": 172
+            },
+            "start": 39,
+            "end": 172
           },
           {
             "type": "ReturnStatement",
-            "start": 178,
-            "end": 189,
             "argument": {
               "type": "Identifier",
-              "start": 185,
-              "end": 188,
               "decorators": [],
               "name": "foo",
               "optional": false,
-              "typeAnnotation": null
-            }
+              "typeAnnotation": null,
+              "start": 185,
+              "end": 188
+            },
+            "start": 178,
+            "end": 189
           }
-        ]
+        ],
+        "start": 16,
+        "end": 191
       },
-      "expression": false
+      "expression": false,
+      "start": 0,
+      "end": 191
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 191
 }
 ```

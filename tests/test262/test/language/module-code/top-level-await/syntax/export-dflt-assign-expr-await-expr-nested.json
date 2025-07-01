@@ -1,96 +1,96 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 2148,
   "body": [
     {
       "type": "ExportDefaultDeclaration",
-      "start": 2034,
-      "end": 2147,
       "declaration": {
         "type": "AwaitExpression",
-        "start": 2049,
-        "end": 2146,
         "argument": {
           "type": "AwaitExpression",
-          "start": 2055,
-          "end": 2146,
           "argument": {
             "type": "AwaitExpression",
-            "start": 2061,
-            "end": 2146,
             "argument": {
               "type": "AwaitExpression",
-              "start": 2067,
-              "end": 2146,
               "argument": {
                 "type": "AwaitExpression",
-                "start": 2073,
-                "end": 2146,
                 "argument": {
                   "type": "AwaitExpression",
-                  "start": 2079,
-                  "end": 2146,
                   "argument": {
                     "type": "AwaitExpression",
-                    "start": 2085,
-                    "end": 2146,
                     "argument": {
                       "type": "AwaitExpression",
-                      "start": 2091,
-                      "end": 2146,
                       "argument": {
                         "type": "AwaitExpression",
-                        "start": 2097,
-                        "end": 2146,
                         "argument": {
                           "type": "AwaitExpression",
-                          "start": 2103,
-                          "end": 2146,
                           "argument": {
                             "type": "AwaitExpression",
-                            "start": 2109,
-                            "end": 2146,
                             "argument": {
                               "type": "AwaitExpression",
-                              "start": 2115,
-                              "end": 2146,
                               "argument": {
                                 "type": "AwaitExpression",
-                                "start": 2121,
-                                "end": 2146,
                                 "argument": {
                                   "type": "AwaitExpression",
-                                  "start": 2127,
-                                  "end": 2146,
                                   "argument": {
                                     "type": "AwaitExpression",
-                                    "start": 2133,
-                                    "end": 2146,
                                     "argument": {
                                       "type": "Literal",
-                                      "start": 2139,
-                                      "end": 2146,
                                       "value": "await",
-                                      "raw": "'await'"
-                                    }
-                                  }
-                                }
-                              }
-                            }
-                          }
-                        }
-                      }
-                    }
-                  }
-                }
-              }
-            }
-          }
-        }
-      }
+                                      "raw": "'await'",
+                                      "start": 2139,
+                                      "end": 2146
+                                    },
+                                    "start": 2133,
+                                    "end": 2146
+                                  },
+                                  "start": 2127,
+                                  "end": 2146
+                                },
+                                "start": 2121,
+                                "end": 2146
+                              },
+                              "start": 2115,
+                              "end": 2146
+                            },
+                            "start": 2109,
+                            "end": 2146
+                          },
+                          "start": 2103,
+                          "end": 2146
+                        },
+                        "start": 2097,
+                        "end": 2146
+                      },
+                      "start": 2091,
+                      "end": 2146
+                    },
+                    "start": 2085,
+                    "end": 2146
+                  },
+                  "start": 2079,
+                  "end": 2146
+                },
+                "start": 2073,
+                "end": 2146
+              },
+              "start": 2067,
+              "end": 2146
+            },
+            "start": 2061,
+            "end": 2146
+          },
+          "start": 2055,
+          "end": 2146
+        },
+        "start": 2049,
+        "end": 2146
+      },
+      "start": 2034,
+      "end": 2147
     }
   ],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 2148
 }

@@ -1,310 +1,300 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 769,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 357,
-      "end": 401,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 361,
-          "end": 400,
           "id": {
             "type": "Identifier",
+            "name": "f",
             "start": 361,
-            "end": 362,
-            "name": "f"
+            "end": 362
           },
           "init": {
             "type": "CallExpression",
-            "start": 365,
-            "end": 400,
             "callee": {
               "type": "MemberExpression",
-              "start": 365,
-              "end": 378,
               "object": {
                 "type": "Identifier",
+                "name": "Function",
                 "start": 365,
-                "end": 373,
-                "name": "Function"
+                "end": 373
               },
               "property": {
                 "type": "Identifier",
+                "name": "call",
                 "start": 374,
-                "end": 378,
-                "name": "call"
+                "end": 378
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 365,
+              "end": 378
             },
             "arguments": [
               {
                 "type": "Identifier",
+                "name": "mars",
                 "start": 379,
-                "end": 383,
-                "name": "mars"
+                "end": 383
               },
               {
                 "type": "Literal",
-                "start": 385,
-                "end": 399,
                 "value": "return name;",
-                "raw": "\"return name;\""
+                "raw": "\"return name;\"",
+                "start": 385,
+                "end": 399
               }
             ],
-            "optional": false
-          }
+            "optional": false,
+            "start": 365,
+            "end": 400
+          },
+          "start": 361,
+          "end": 400
         }
-      ]
+      ],
+      "start": 357,
+      "end": 401
     },
     {
       "type": "VariableDeclaration",
-      "start": 402,
-      "end": 461,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 406,
-          "end": 460,
           "id": {
             "type": "Identifier",
+            "name": "mars",
             "start": 406,
-            "end": 410,
-            "name": "mars"
+            "end": 410
           },
           "init": {
             "type": "ObjectExpression",
-            "start": 413,
-            "end": 460,
             "properties": [
               {
                 "type": "Property",
-                "start": 417,
-                "end": 429,
                 "kind": "init",
                 "key": {
                   "type": "Identifier",
+                  "name": "name",
                   "start": 417,
-                  "end": 421,
-                  "name": "name"
+                  "end": 421
                 },
                 "value": {
                   "type": "Literal",
-                  "start": 423,
-                  "end": 429,
                   "value": "mars",
-                  "raw": "\"mars\""
+                  "raw": "\"mars\"",
+                  "start": 423,
+                  "end": 429
                 },
                 "method": false,
                 "shorthand": false,
-                "computed": false
+                "computed": false,
+                "start": 417,
+                "end": 429
               },
               {
                 "type": "Property",
-                "start": 433,
-                "end": 445,
                 "kind": "init",
                 "key": {
                   "type": "Identifier",
+                  "name": "color",
                   "start": 433,
-                  "end": 438,
-                  "name": "color"
+                  "end": 438
                 },
                 "value": {
                   "type": "Literal",
-                  "start": 440,
-                  "end": 445,
                   "value": "red",
-                  "raw": "\"red\""
+                  "raw": "\"red\"",
+                  "start": 440,
+                  "end": 445
                 },
                 "method": false,
                 "shorthand": false,
-                "computed": false
+                "computed": false,
+                "start": 433,
+                "end": 445
               },
               {
                 "type": "Property",
-                "start": 449,
-                "end": 458,
                 "kind": "init",
                 "key": {
                   "type": "Identifier",
+                  "name": "number",
                   "start": 449,
-                  "end": 455,
-                  "name": "number"
+                  "end": 455
                 },
                 "value": {
                   "type": "Literal",
-                  "start": 457,
-                  "end": 458,
                   "value": 4,
-                  "raw": "4"
+                  "raw": "4",
+                  "start": 457,
+                  "end": 458
                 },
                 "method": false,
                 "shorthand": false,
-                "computed": false
+                "computed": false,
+                "start": 449,
+                "end": 458
               }
-            ]
-          }
+            ],
+            "start": 413,
+            "end": 460
+          },
+          "start": 406,
+          "end": 460
         }
-      ]
+      ],
+      "start": 402,
+      "end": 461
     },
     {
       "type": "VariableDeclaration",
-      "start": 463,
-      "end": 536,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 467,
-          "end": 535,
           "id": {
             "type": "Identifier",
+            "name": "f",
             "start": 467,
-            "end": 468,
-            "name": "f"
+            "end": 468
           },
           "init": {
             "type": "CallExpression",
-            "start": 471,
-            "end": 535,
             "callee": {
               "type": "MemberExpression",
-              "start": 471,
-              "end": 484,
               "object": {
                 "type": "Identifier",
+                "name": "Function",
                 "start": 471,
-                "end": 479,
-                "name": "Function"
+                "end": 479
               },
               "property": {
                 "type": "Identifier",
+                "name": "call",
                 "start": 480,
-                "end": 484,
-                "name": "call"
+                "end": 484
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 471,
+              "end": 484
             },
             "arguments": [
               {
                 "type": "Identifier",
+                "name": "mars",
                 "start": 485,
-                "end": 489,
-                "name": "mars"
+                "end": 489
               },
               {
                 "type": "Literal",
-                "start": 491,
-                "end": 534,
                 "value": "this.godname=\"ares\"; return this.color;",
-                "raw": "\"this.godname=\\\"ares\\\"; return this.color;\""
+                "raw": "\"this.godname=\\\"ares\\\"; return this.color;\"",
+                "start": 491,
+                "end": 534
               }
             ],
-            "optional": false
-          }
+            "optional": false,
+            "start": 471,
+            "end": 535
+          },
+          "start": 467,
+          "end": 535
         }
-      ]
+      ],
+      "start": 463,
+      "end": 536
     },
     {
       "type": "VariableDeclaration",
-      "start": 538,
-      "end": 559,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 542,
-          "end": 558,
           "id": {
             "type": "Identifier",
+            "name": "about_mars",
             "start": 542,
-            "end": 552,
-            "name": "about_mars"
+            "end": 552
           },
           "init": {
             "type": "CallExpression",
-            "start": 555,
-            "end": 558,
             "callee": {
               "type": "Identifier",
+              "name": "f",
               "start": 555,
-              "end": 556,
-              "name": "f"
+              "end": 556
             },
             "arguments": [],
-            "optional": false
-          }
+            "optional": false,
+            "start": 555,
+            "end": 558
+          },
+          "start": 542,
+          "end": 558
         }
-      ]
+      ],
+      "start": 538,
+      "end": 559
     },
     {
       "type": "ExpressionStatement",
-      "start": 561,
-      "end": 601,
       "expression": {
         "type": "CallExpression",
-        "start": 561,
-        "end": 600,
         "callee": {
           "type": "MemberExpression",
-          "start": 561,
-          "end": 577,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 561,
-            "end": 567,
-            "name": "assert"
+            "end": 567
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 568,
-            "end": 577,
-            "name": "sameValue"
+            "end": 577
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 561,
+          "end": 577
         },
         "arguments": [
           {
             "type": "Identifier",
+            "name": "about_mars",
             "start": 578,
-            "end": 588,
-            "name": "about_mars"
+            "end": 588
           },
           {
             "type": "Identifier",
+            "name": "undefined",
             "start": 590,
-            "end": 599,
-            "name": "undefined"
+            "end": 599
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 561,
+        "end": 600
+      },
+      "start": 561,
+      "end": 601
     },
     {
       "type": "IfStatement",
-      "start": 603,
-      "end": 768,
       "test": {
         "type": "LogicalExpression",
-        "start": 607,
-        "end": 660,
         "left": {
           "type": "BinaryExpression",
-          "start": 607,
-          "end": 630,
           "left": {
             "type": "MemberExpression",
-            "start": 607,
-            "end": 619,
             "object": {
               "type": "ThisExpression",
               "start": 607,
@@ -312,90 +302,100 @@
             },
             "property": {
               "type": "Identifier",
+              "name": "godname",
               "start": 612,
-              "end": 619,
-              "name": "godname"
+              "end": 619
             },
             "optional": false,
-            "computed": false
+            "computed": false,
+            "start": 607,
+            "end": 619
           },
           "operator": "!==",
           "right": {
             "type": "Literal",
-            "start": 624,
-            "end": 630,
             "value": "ares",
-            "raw": "\"ares\""
-          }
+            "raw": "\"ares\"",
+            "start": 624,
+            "end": 630
+          },
+          "start": 607,
+          "end": 630
         },
         "operator": "&&",
         "right": {
           "type": "BinaryExpression",
-          "start": 634,
-          "end": 660,
           "left": {
             "type": "MemberExpression",
-            "start": 634,
-            "end": 646,
             "object": {
               "type": "Identifier",
+              "name": "mars",
               "start": 634,
-              "end": 638,
-              "name": "mars"
+              "end": 638
             },
             "property": {
               "type": "Identifier",
+              "name": "godname",
               "start": 639,
-              "end": 646,
-              "name": "godname"
+              "end": 646
             },
             "optional": false,
-            "computed": false
+            "computed": false,
+            "start": 634,
+            "end": 646
           },
           "operator": "===",
           "right": {
             "type": "Identifier",
+            "name": "undefined",
             "start": 651,
-            "end": 660,
-            "name": "undefined"
-          }
-        }
+            "end": 660
+          },
+          "start": 634,
+          "end": 660
+        },
+        "start": 607,
+        "end": 660
       },
       "consequent": {
         "type": "BlockStatement",
-        "start": 662,
-        "end": 768,
         "body": [
           {
             "type": "ThrowStatement",
-            "start": 666,
-            "end": 766,
             "argument": {
               "type": "NewExpression",
-              "start": 672,
-              "end": 765,
               "callee": {
                 "type": "Identifier",
+                "name": "Test262Error",
                 "start": 676,
-                "end": 688,
-                "name": "Test262Error"
+                "end": 688
               },
               "arguments": [
                 {
                   "type": "Literal",
-                  "start": 689,
-                  "end": 764,
                   "value": "#3: When applied to the Function object itself, thisArg should be ignored",
-                  "raw": "'#3: When applied to the Function object itself, thisArg should be ignored'"
+                  "raw": "'#3: When applied to the Function object itself, thisArg should be ignored'",
+                  "start": 689,
+                  "end": 764
                 }
-              ]
-            }
+              ],
+              "start": 672,
+              "end": 765
+            },
+            "start": 666,
+            "end": 766
           }
-        ]
+        ],
+        "start": 662,
+        "end": 768
       },
-      "alternate": null
+      "alternate": null,
+      "start": 603,
+      "end": 768
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 769
 }

@@ -1,32 +1,32 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 449,
   "body": [
     {
       "type": "ForInStatement",
-      "start": 429,
-      "end": 448,
       "left": {
         "type": "Identifier",
+        "name": "let",
         "start": 434,
-        "end": 437,
-        "name": "let"
+        "end": 437
       },
       "right": {
         "type": "ObjectExpression",
+        "properties": [],
         "start": 441,
-        "end": 443,
-        "properties": []
+        "end": 443
       },
       "body": {
         "type": "BlockStatement",
+        "body": [],
         "start": 445,
-        "end": 448,
-        "body": []
-      }
+        "end": 448
+      },
+      "start": 429,
+      "end": 448
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 449
 }

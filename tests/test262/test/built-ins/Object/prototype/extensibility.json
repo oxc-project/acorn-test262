@@ -1,277 +1,277 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 879,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 506,
-      "end": 592,
       "expression": {
         "type": "CallExpression",
-        "start": 506,
-        "end": 591,
         "callee": {
           "type": "Identifier",
+          "name": "assert",
           "start": 506,
-          "end": 512,
-          "name": "assert"
+          "end": 512
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 516,
-            "end": 553,
             "callee": {
               "type": "MemberExpression",
-              "start": 516,
-              "end": 535,
               "object": {
                 "type": "Identifier",
+                "name": "Object",
                 "start": 516,
-                "end": 522,
-                "name": "Object"
+                "end": 522
               },
               "property": {
                 "type": "Identifier",
+                "name": "isExtensible",
                 "start": 523,
-                "end": 535,
-                "name": "isExtensible"
+                "end": 535
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 516,
+              "end": 535
             },
             "arguments": [
               {
                 "type": "MemberExpression",
-                "start": 536,
-                "end": 552,
                 "object": {
                   "type": "Identifier",
+                  "name": "Object",
                   "start": 536,
-                  "end": 542,
-                  "name": "Object"
+                  "end": 542
                 },
                 "property": {
                   "type": "Identifier",
+                  "name": "prototype",
                   "start": 543,
-                  "end": 552,
-                  "name": "prototype"
+                  "end": 552
                 },
                 "optional": false,
-                "computed": false
+                "computed": false,
+                "start": 536,
+                "end": 552
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 516,
+            "end": 553
           },
           {
             "type": "Literal",
-            "start": 557,
-            "end": 589,
             "value": "Object.prototype is extensible",
-            "raw": "\"Object.prototype is extensible\""
+            "raw": "\"Object.prototype is extensible\"",
+            "start": 557,
+            "end": 589
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 506,
+        "end": 591
+      },
+      "start": 506,
+      "end": 592
     },
     {
       "type": "ExpressionStatement",
-      "start": 594,
-      "end": 731,
       "expression": {
         "type": "CallExpression",
-        "start": 594,
-        "end": 730,
         "callee": {
           "type": "MemberExpression",
-          "start": 594,
-          "end": 610,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 594,
-            "end": 600,
-            "name": "assert"
+            "end": 600
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 601,
-            "end": 610,
-            "name": "sameValue"
+            "end": 610
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 594,
+          "end": 610
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 614,
-            "end": 656,
             "callee": {
               "type": "MemberExpression",
-              "start": 614,
-              "end": 638,
               "object": {
                 "type": "Identifier",
+                "name": "Object",
                 "start": 614,
-                "end": 620,
-                "name": "Object"
+                "end": 620
               },
               "property": {
                 "type": "Identifier",
+                "name": "preventExtensions",
                 "start": 621,
-                "end": 638,
-                "name": "preventExtensions"
+                "end": 638
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 614,
+              "end": 638
             },
             "arguments": [
               {
                 "type": "MemberExpression",
-                "start": 639,
-                "end": 655,
                 "object": {
                   "type": "Identifier",
+                  "name": "Object",
                   "start": 639,
-                  "end": 645,
-                  "name": "Object"
+                  "end": 645
                 },
                 "property": {
                   "type": "Identifier",
+                  "name": "prototype",
                   "start": 646,
-                  "end": 655,
-                  "name": "prototype"
+                  "end": 655
                 },
                 "optional": false,
-                "computed": false
+                "computed": false,
+                "start": 639,
+                "end": 655
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 614,
+            "end": 656
           },
           {
             "type": "MemberExpression",
-            "start": 660,
-            "end": 676,
             "object": {
               "type": "Identifier",
+              "name": "Object",
               "start": 660,
-              "end": 666,
-              "name": "Object"
+              "end": 666
             },
             "property": {
               "type": "Identifier",
+              "name": "prototype",
               "start": 667,
-              "end": 676,
-              "name": "prototype"
+              "end": 676
             },
             "optional": false,
-            "computed": false
+            "computed": false,
+            "start": 660,
+            "end": 676
           },
           {
             "type": "Literal",
-            "start": 680,
-            "end": 728,
             "value": "Object.prototype may have extensions prevented",
-            "raw": "\"Object.prototype may have extensions prevented\""
+            "raw": "\"Object.prototype may have extensions prevented\"",
+            "start": 680,
+            "end": 728
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 594,
+        "end": 730
+      },
+      "start": 594,
+      "end": 731
     },
     {
       "type": "ExpressionStatement",
-      "start": 733,
-      "end": 878,
       "expression": {
         "type": "CallExpression",
-        "start": 733,
-        "end": 877,
         "callee": {
           "type": "MemberExpression",
-          "start": 733,
-          "end": 749,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 733,
-            "end": 739,
-            "name": "assert"
+            "end": 739
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 740,
-            "end": 749,
-            "name": "sameValue"
+            "end": 749
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 733,
+          "end": 749
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 753,
-            "end": 790,
             "callee": {
               "type": "MemberExpression",
-              "start": 753,
-              "end": 772,
               "object": {
                 "type": "Identifier",
+                "name": "Object",
                 "start": 753,
-                "end": 759,
-                "name": "Object"
+                "end": 759
               },
               "property": {
                 "type": "Identifier",
+                "name": "isExtensible",
                 "start": 760,
-                "end": 772,
-                "name": "isExtensible"
+                "end": 772
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 753,
+              "end": 772
             },
             "arguments": [
               {
                 "type": "MemberExpression",
-                "start": 773,
-                "end": 789,
                 "object": {
                   "type": "Identifier",
+                  "name": "Object",
                   "start": 773,
-                  "end": 779,
-                  "name": "Object"
+                  "end": 779
                 },
                 "property": {
                   "type": "Identifier",
+                  "name": "prototype",
                   "start": 780,
-                  "end": 789,
-                  "name": "prototype"
+                  "end": 789
                 },
                 "optional": false,
-                "computed": false
+                "computed": false,
+                "start": 773,
+                "end": 789
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 753,
+            "end": 790
           },
           {
             "type": "Literal",
-            "start": 794,
-            "end": 799,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "start": 794,
+            "end": 799
           },
           {
             "type": "Literal",
-            "start": 803,
-            "end": 875,
             "value": "Object.prototype is not extensible after a preventExtensions operation",
-            "raw": "\"Object.prototype is not extensible after a preventExtensions operation\""
+            "raw": "\"Object.prototype is not extensible after a preventExtensions operation\"",
+            "start": 803,
+            "end": 875
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 733,
+        "end": 877
+      },
+      "start": 733,
+      "end": 878
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 879
 }

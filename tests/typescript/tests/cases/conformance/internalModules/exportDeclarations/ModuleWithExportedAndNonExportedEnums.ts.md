@@ -2,317 +2,317 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 188,
   "body": [
     {
       "type": "TSModuleDeclaration",
-      "start": 0,
-      "end": 81,
       "id": {
         "type": "Identifier",
-        "start": 7,
-        "end": 8,
         "decorators": [],
         "name": "A",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 7,
+        "end": 8
       },
       "body": {
         "type": "TSModuleBlock",
-        "start": 9,
-        "end": 81,
         "body": [
           {
             "type": "ExportNamedDeclaration",
-            "start": 15,
-            "end": 46,
             "declaration": {
               "type": "TSEnumDeclaration",
-              "start": 22,
-              "end": 46,
               "id": {
                 "type": "Identifier",
-                "start": 27,
-                "end": 32,
                 "decorators": [],
                 "name": "Color",
                 "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "start": 27,
+                "end": 32
               },
               "body": {
                 "type": "TSEnumBody",
-                "start": 33,
-                "end": 46,
                 "members": [
                   {
                     "type": "TSEnumMember",
-                    "start": 35,
-                    "end": 38,
                     "id": {
                       "type": "Identifier",
-                      "start": 35,
-                      "end": 38,
                       "decorators": [],
                       "name": "Red",
                       "optional": false,
-                      "typeAnnotation": null
+                      "typeAnnotation": null,
+                      "start": 35,
+                      "end": 38
                     },
                     "initializer": null,
-                    "computed": false
+                    "computed": false,
+                    "start": 35,
+                    "end": 38
                   },
                   {
                     "type": "TSEnumMember",
-                    "start": 40,
-                    "end": 44,
                     "id": {
                       "type": "Identifier",
-                      "start": 40,
-                      "end": 44,
                       "decorators": [],
                       "name": "Blue",
                       "optional": false,
-                      "typeAnnotation": null
+                      "typeAnnotation": null,
+                      "start": 40,
+                      "end": 44
                     },
                     "initializer": null,
-                    "computed": false
+                    "computed": false,
+                    "start": 40,
+                    "end": 44
                   }
-                ]
+                ],
+                "start": 33,
+                "end": 46
               },
               "const": false,
-              "declare": false
+              "declare": false,
+              "start": 22,
+              "end": 46
             },
             "specifiers": [],
             "source": null,
             "exportKind": "value",
-            "attributes": []
+            "attributes": [],
+            "start": 15,
+            "end": 46
           },
           {
             "type": "TSEnumDeclaration",
-            "start": 51,
-            "end": 79,
             "id": {
               "type": "Identifier",
-              "start": 56,
-              "end": 59,
               "decorators": [],
               "name": "Day",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 56,
+              "end": 59
             },
             "body": {
               "type": "TSEnumBody",
-              "start": 60,
-              "end": 79,
               "members": [
                 {
                   "type": "TSEnumMember",
-                  "start": 62,
-                  "end": 68,
                   "id": {
                     "type": "Identifier",
-                    "start": 62,
-                    "end": 68,
                     "decorators": [],
                     "name": "Monday",
                     "optional": false,
-                    "typeAnnotation": null
+                    "typeAnnotation": null,
+                    "start": 62,
+                    "end": 68
                   },
                   "initializer": null,
-                  "computed": false
+                  "computed": false,
+                  "start": 62,
+                  "end": 68
                 },
                 {
                   "type": "TSEnumMember",
-                  "start": 70,
-                  "end": 77,
                   "id": {
                     "type": "Identifier",
-                    "start": 70,
-                    "end": 77,
                     "decorators": [],
                     "name": "Tuesday",
                     "optional": false,
-                    "typeAnnotation": null
+                    "typeAnnotation": null,
+                    "start": 70,
+                    "end": 77
                   },
                   "initializer": null,
-                  "computed": false
+                  "computed": false,
+                  "start": 70,
+                  "end": 77
                 }
-              ]
+              ],
+              "start": 60,
+              "end": 79
             },
             "const": false,
-            "declare": false
+            "declare": false,
+            "start": 51,
+            "end": 79
           }
-        ]
+        ],
+        "start": 9,
+        "end": 81
       },
       "kind": "module",
       "declare": false,
-      "global": false
+      "global": false,
+      "start": 0,
+      "end": 81
     },
     {
       "type": "VariableDeclaration",
-      "start": 114,
-      "end": 143,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 118,
-          "end": 142,
           "id": {
             "type": "Identifier",
-            "start": 118,
-            "end": 128,
             "decorators": [],
             "name": "a",
             "optional": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
-              "start": 119,
-              "end": 128,
               "typeAnnotation": {
                 "type": "TSTypeReference",
-                "start": 121,
-                "end": 128,
                 "typeName": {
                   "type": "TSQualifiedName",
-                  "start": 121,
-                  "end": 128,
                   "left": {
                     "type": "Identifier",
-                    "start": 121,
-                    "end": 122,
                     "decorators": [],
                     "name": "A",
                     "optional": false,
-                    "typeAnnotation": null
+                    "typeAnnotation": null,
+                    "start": 121,
+                    "end": 122
                   },
                   "right": {
                     "type": "Identifier",
-                    "start": 123,
-                    "end": 128,
                     "decorators": [],
                     "name": "Color",
                     "optional": false,
-                    "typeAnnotation": null
-                  }
+                    "typeAnnotation": null,
+                    "start": 123,
+                    "end": 128
+                  },
+                  "start": 121,
+                  "end": 128
                 },
-                "typeArguments": null
-              }
-            }
+                "typeArguments": null,
+                "start": 121,
+                "end": 128
+              },
+              "start": 119,
+              "end": 128
+            },
+            "start": 118,
+            "end": 128
           },
           "init": {
             "type": "MemberExpression",
-            "start": 131,
-            "end": 142,
             "object": {
               "type": "MemberExpression",
-              "start": 131,
-              "end": 138,
               "object": {
                 "type": "Identifier",
-                "start": 131,
-                "end": 132,
                 "decorators": [],
                 "name": "A",
                 "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "start": 131,
+                "end": 132
               },
               "property": {
                 "type": "Identifier",
-                "start": 133,
-                "end": 138,
                 "decorators": [],
                 "name": "Color",
                 "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "start": 133,
+                "end": 138
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 131,
+              "end": 138
             },
             "property": {
               "type": "Identifier",
-              "start": 139,
-              "end": 142,
               "decorators": [],
               "name": "Red",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 139,
+              "end": 142
             },
             "optional": false,
-            "computed": false
+            "computed": false,
+            "start": 131,
+            "end": 142
           },
-          "definite": false
+          "definite": false,
+          "start": 118,
+          "end": 142
         }
       ],
-      "declare": false
+      "declare": false,
+      "start": 114,
+      "end": 143
     },
     {
       "type": "VariableDeclaration",
-      "start": 167,
-      "end": 188,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 171,
-          "end": 187,
           "id": {
             "type": "Identifier",
-            "start": 171,
-            "end": 172,
             "decorators": [],
             "name": "b",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 171,
+            "end": 172
           },
           "init": {
             "type": "MemberExpression",
-            "start": 175,
-            "end": 187,
             "object": {
               "type": "MemberExpression",
-              "start": 175,
-              "end": 180,
               "object": {
                 "type": "Identifier",
-                "start": 175,
-                "end": 176,
                 "decorators": [],
                 "name": "A",
                 "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "start": 175,
+                "end": 176
               },
               "property": {
                 "type": "Identifier",
-                "start": 177,
-                "end": 180,
                 "decorators": [],
                 "name": "Day",
                 "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "start": 177,
+                "end": 180
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 175,
+              "end": 180
             },
             "property": {
               "type": "Identifier",
-              "start": 181,
-              "end": 187,
               "decorators": [],
               "name": "Monday",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 181,
+              "end": 187
             },
             "optional": false,
-            "computed": false
+            "computed": false,
+            "start": 175,
+            "end": 187
           },
-          "definite": false
+          "definite": false,
+          "start": 171,
+          "end": 187
         }
       ],
-      "declare": false
+      "declare": false,
+      "start": 167,
+      "end": 188
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 188
 }
 ```

@@ -1,114 +1,114 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 537,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 416,
-      "end": 536,
       "expression": {
         "type": "CallExpression",
-        "start": 416,
-        "end": 535,
         "callee": {
           "type": "Identifier",
+          "name": "verifyProperty",
           "start": 416,
-          "end": 430,
-          "name": "verifyProperty"
+          "end": 430
         },
         "arguments": [
           {
             "type": "Identifier",
+            "name": "SharedArrayBuffer",
             "start": 431,
-            "end": 448,
-            "name": "SharedArrayBuffer"
+            "end": 448
           },
           {
             "type": "Literal",
-            "start": 450,
-            "end": 461,
             "value": "prototype",
-            "raw": "'prototype'"
+            "raw": "'prototype'",
+            "start": 450,
+            "end": 461
           },
           {
             "type": "ObjectExpression",
-            "start": 463,
-            "end": 534,
             "properties": [
               {
                 "type": "Property",
-                "start": 469,
-                "end": 486,
                 "kind": "init",
                 "key": {
                   "type": "Identifier",
+                  "name": "enumerable",
                   "start": 469,
-                  "end": 479,
-                  "name": "enumerable"
+                  "end": 479
                 },
                 "value": {
                   "type": "Literal",
+                  "value": false,
+                  "raw": "false",
                   "start": 481,
-                  "end": 486,
-                  "value": false,
-                  "raw": "false"
+                  "end": 486
                 },
                 "method": false,
                 "shorthand": false,
-                "computed": false
+                "computed": false,
+                "start": 469,
+                "end": 486
               },
               {
                 "type": "Property",
-                "start": 492,
-                "end": 507,
                 "kind": "init",
                 "key": {
                   "type": "Identifier",
+                  "name": "writable",
                   "start": 492,
-                  "end": 500,
-                  "name": "writable"
+                  "end": 500
                 },
                 "value": {
                   "type": "Literal",
-                  "start": 502,
-                  "end": 507,
                   "value": false,
-                  "raw": "false"
+                  "raw": "false",
+                  "start": 502,
+                  "end": 507
                 },
                 "method": false,
                 "shorthand": false,
-                "computed": false
+                "computed": false,
+                "start": 492,
+                "end": 507
               },
               {
                 "type": "Property",
-                "start": 513,
-                "end": 532,
                 "kind": "init",
                 "key": {
                   "type": "Identifier",
+                  "name": "configurable",
                   "start": 513,
-                  "end": 525,
-                  "name": "configurable"
+                  "end": 525
                 },
                 "value": {
                   "type": "Literal",
-                  "start": 527,
-                  "end": 532,
                   "value": false,
-                  "raw": "false"
+                  "raw": "false",
+                  "start": 527,
+                  "end": 532
                 },
                 "method": false,
                 "shorthand": false,
-                "computed": false
+                "computed": false,
+                "start": 513,
+                "end": 532
               }
-            ]
+            ],
+            "start": 463,
+            "end": 534
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 416,
+        "end": 535
+      },
+      "start": 416,
+      "end": 536
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 537
 }

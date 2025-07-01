@@ -1,168 +1,168 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 503,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 334,
-      "end": 426,
       "expression": {
         "type": "CallExpression",
-        "start": 334,
-        "end": 425,
         "callee": {
           "type": "Identifier",
+          "name": "assert",
           "start": 334,
-          "end": 340,
-          "name": "assert"
+          "end": 340
         },
         "arguments": [
           {
             "type": "UnaryExpression",
-            "start": 341,
-            "end": 378,
             "operator": "!",
             "argument": {
               "type": "CallExpression",
-              "start": 342,
-              "end": 378,
               "callee": {
                 "type": "Identifier",
+                "name": "isConstructor",
                 "start": 342,
-                "end": 355,
-                "name": "isConstructor"
+                "end": 355
               },
               "arguments": [
                 {
                   "type": "MemberExpression",
-                  "start": 356,
-                  "end": 377,
                   "object": {
                     "type": "Identifier",
+                    "name": "Uint8Array",
                     "start": 356,
-                    "end": 366,
-                    "name": "Uint8Array"
+                    "end": 366
                   },
                   "property": {
                     "type": "Identifier",
+                    "name": "fromBase64",
                     "start": 367,
-                    "end": 377,
-                    "name": "fromBase64"
+                    "end": 377
                   },
                   "optional": false,
-                  "computed": false
+                  "computed": false,
+                  "start": 356,
+                  "end": 377
                 }
               ],
-              "optional": false
+              "optional": false,
+              "start": 342,
+              "end": 378
             },
-            "prefix": true
+            "prefix": true,
+            "start": 341,
+            "end": 378
           },
           {
             "type": "Literal",
-            "start": 380,
-            "end": 424,
             "value": "Uint8Array.fromBase64 is not a constructor",
-            "raw": "\"Uint8Array.fromBase64 is not a constructor\""
+            "raw": "\"Uint8Array.fromBase64 is not a constructor\"",
+            "start": 380,
+            "end": 424
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 334,
+        "end": 425
+      },
+      "start": 334,
+      "end": 426
     },
     {
       "type": "ExpressionStatement",
-      "start": 428,
-      "end": 502,
       "expression": {
         "type": "CallExpression",
-        "start": 428,
-        "end": 501,
         "callee": {
           "type": "MemberExpression",
-          "start": 428,
-          "end": 441,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 428,
-            "end": 434,
-            "name": "assert"
+            "end": 434
           },
           "property": {
             "type": "Identifier",
+            "name": "throws",
             "start": 435,
-            "end": 441,
-            "name": "throws"
+            "end": 441
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 428,
+          "end": 441
         },
         "arguments": [
           {
             "type": "Identifier",
+            "name": "TypeError",
             "start": 442,
-            "end": 451,
-            "name": "TypeError"
+            "end": 451
           },
           {
             "type": "FunctionExpression",
-            "start": 453,
-            "end": 500,
             "id": null,
             "generator": false,
             "async": false,
             "params": [],
             "body": {
               "type": "BlockStatement",
-              "start": 464,
-              "end": 500,
               "body": [
                 {
                   "type": "ExpressionStatement",
-                  "start": 468,
-                  "end": 498,
                   "expression": {
                     "type": "NewExpression",
-                    "start": 468,
-                    "end": 497,
                     "callee": {
                       "type": "MemberExpression",
-                      "start": 472,
-                      "end": 493,
                       "object": {
                         "type": "Identifier",
+                        "name": "Uint8Array",
                         "start": 472,
-                        "end": 482,
-                        "name": "Uint8Array"
+                        "end": 482
                       },
                       "property": {
                         "type": "Identifier",
+                        "name": "fromBase64",
                         "start": 483,
-                        "end": 493,
-                        "name": "fromBase64"
+                        "end": 493
                       },
                       "optional": false,
-                      "computed": false
+                      "computed": false,
+                      "start": 472,
+                      "end": 493
                     },
                     "arguments": [
                       {
                         "type": "Literal",
-                        "start": 494,
-                        "end": 496,
                         "value": "",
-                        "raw": "''"
+                        "raw": "''",
+                        "start": 494,
+                        "end": 496
                       }
-                    ]
-                  }
+                    ],
+                    "start": 468,
+                    "end": 497
+                  },
+                  "start": 468,
+                  "end": 498
                 }
-              ]
+              ],
+              "start": 464,
+              "end": 500
             },
-            "expression": false
+            "expression": false,
+            "start": 453,
+            "end": 500
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 428,
+        "end": 501
+      },
+      "start": 428,
+      "end": 502
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 503
 }

@@ -1,473 +1,473 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 1128,
   "body": [
     {
       "type": "FunctionDeclaration",
-      "start": 458,
-      "end": 523,
       "id": {
         "type": "Identifier",
+        "name": "dynaString",
         "start": 467,
-        "end": 477,
-        "name": "dynaString"
+        "end": 477
       },
       "generator": false,
       "async": false,
       "params": [
         {
           "type": "Identifier",
+          "name": "s1",
           "start": 478,
-          "end": 480,
-          "name": "s1"
+          "end": 480
         },
         {
           "type": "Identifier",
+          "name": "s2",
           "start": 482,
-          "end": 484,
-          "name": "s2"
+          "end": 484
         }
       ],
       "body": {
         "type": "BlockStatement",
-        "start": 486,
-        "end": 523,
         "body": [
           {
             "type": "ReturnStatement",
-            "start": 490,
-            "end": 521,
             "argument": {
               "type": "BinaryExpression",
-              "start": 497,
-              "end": 520,
               "left": {
                 "type": "CallExpression",
-                "start": 497,
-                "end": 507,
                 "callee": {
                   "type": "Identifier",
+                  "name": "String",
                   "start": 497,
-                  "end": 503,
-                  "name": "String"
+                  "end": 503
                 },
                 "arguments": [
                   {
                     "type": "Identifier",
+                    "name": "s1",
                     "start": 504,
-                    "end": 506,
-                    "name": "s1"
+                    "end": 506
                   }
                 ],
-                "optional": false
+                "optional": false,
+                "start": 497,
+                "end": 507
               },
               "operator": "+",
               "right": {
                 "type": "CallExpression",
-                "start": 510,
-                "end": 520,
                 "callee": {
                   "type": "Identifier",
+                  "name": "String",
                   "start": 510,
-                  "end": 516,
-                  "name": "String"
+                  "end": 516
                 },
                 "arguments": [
                   {
                     "type": "Identifier",
+                    "name": "s2",
                     "start": 517,
-                    "end": 519,
-                    "name": "s2"
+                    "end": 519
                   }
                 ],
-                "optional": false
-              }
-            }
+                "optional": false,
+                "start": 510,
+                "end": 520
+              },
+              "start": 497,
+              "end": 520
+            },
+            "start": 490,
+            "end": 521
           }
-        ]
+        ],
+        "start": 486,
+        "end": 523
       },
-      "expression": false
+      "expression": false,
+      "start": 458,
+      "end": 523
     },
     {
       "type": "ExpressionStatement",
-      "start": 526,
-      "end": 684,
       "expression": {
         "type": "CallExpression",
-        "start": 526,
-        "end": 683,
         "callee": {
           "type": "MemberExpression",
-          "start": 526,
-          "end": 542,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 526,
-            "end": 532,
-            "name": "assert"
+            "end": 532
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 533,
-            "end": 542,
-            "name": "sameValue"
+            "end": 542
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 526,
+          "end": 542
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 546,
-            "end": 580,
             "callee": {
               "type": "Identifier",
+              "name": "Number",
               "start": 546,
-              "end": 552,
-              "name": "Number"
+              "end": 552
             },
             "arguments": [
               {
                 "type": "CallExpression",
-                "start": 553,
-                "end": 579,
                 "callee": {
                   "type": "Identifier",
+                  "name": "dynaString",
                   "start": 553,
-                  "end": 563,
-                  "name": "dynaString"
+                  "end": 563
                 },
                 "arguments": [
                   {
                     "type": "Literal",
-                    "start": 564,
-                    "end": 570,
                     "value": "Infi",
-                    "raw": "\"Infi\""
+                    "raw": "\"Infi\"",
+                    "start": 564,
+                    "end": 570
                   },
                   {
                     "type": "Literal",
-                    "start": 572,
-                    "end": 578,
                     "value": "nity",
-                    "raw": "\"nity\""
+                    "raw": "\"nity\"",
+                    "start": 572,
+                    "end": 578
                   }
                 ],
-                "optional": false
+                "optional": false,
+                "start": 553,
+                "end": 579
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 546,
+            "end": 580
           },
           {
             "type": "MemberExpression",
-            "start": 584,
-            "end": 608,
             "object": {
               "type": "Identifier",
+              "name": "Number",
               "start": 584,
-              "end": 590,
-              "name": "Number"
+              "end": 590
             },
             "property": {
               "type": "Identifier",
+              "name": "POSITIVE_INFINITY",
               "start": 591,
-              "end": 608,
-              "name": "POSITIVE_INFINITY"
+              "end": 608
             },
             "optional": false,
-            "computed": false
+            "computed": false,
+            "start": 584,
+            "end": 608
           },
           {
             "type": "Literal",
-            "start": 612,
-            "end": 681,
             "value": "Number(dynaString(\"Infi\", \"nity\")) returns Number.POSITIVE_INFINITY",
-            "raw": "'Number(dynaString(\"Infi\", \"nity\")) returns Number.POSITIVE_INFINITY'"
+            "raw": "'Number(dynaString(\"Infi\", \"nity\")) returns Number.POSITIVE_INFINITY'",
+            "start": 612,
+            "end": 681
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 526,
+        "end": 683
+      },
+      "start": 526,
+      "end": 684
     },
     {
       "type": "ExpressionStatement",
-      "start": 686,
-      "end": 816,
       "expression": {
         "type": "CallExpression",
-        "start": 686,
-        "end": 815,
         "callee": {
           "type": "MemberExpression",
-          "start": 686,
-          "end": 702,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 686,
-            "end": 692,
-            "name": "assert"
+            "end": 692
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 693,
-            "end": 702,
-            "name": "sameValue"
+            "end": 702
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 686,
+          "end": 702
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 706,
-            "end": 740,
             "callee": {
               "type": "Identifier",
+              "name": "Number",
               "start": 706,
-              "end": 712,
-              "name": "Number"
+              "end": 712
             },
             "arguments": [
               {
                 "type": "CallExpression",
-                "start": 713,
-                "end": 739,
                 "callee": {
                   "type": "Identifier",
+                  "name": "dynaString",
                   "start": 713,
-                  "end": 723,
-                  "name": "dynaString"
+                  "end": 723
                 },
                 "arguments": [
                   {
                     "type": "Literal",
+                    "value": "Infi",
+                    "raw": "\"Infi\"",
                     "start": 724,
-                    "end": 730,
-                    "value": "Infi",
-                    "raw": "\"Infi\""
+                    "end": 730
                   },
                   {
                     "type": "Literal",
+                    "value": "nity",
+                    "raw": "\"nity\"",
                     "start": 732,
-                    "end": 738,
-                    "value": "nity",
-                    "raw": "\"nity\""
+                    "end": 738
                   }
                 ],
-                "optional": false
+                "optional": false,
+                "start": 713,
+                "end": 739
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 706,
+            "end": 740
           },
           {
             "type": "Literal",
+            "value": 1e+400,
+            "raw": "10e10000",
             "start": 744,
-            "end": 752,
-            "value": 1e+400,
-            "raw": "10e10000"
+            "end": 752
           },
           {
             "type": "Literal",
-            "start": 756,
-            "end": 813,
             "value": "Number(dynaString(\"Infi\", \"nity\")) must return 10e10000",
-            "raw": "'Number(dynaString(\"Infi\", \"nity\")) must return 10e10000'"
+            "raw": "'Number(dynaString(\"Infi\", \"nity\")) must return 10e10000'",
+            "start": 756,
+            "end": 813
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 686,
+        "end": 815
+      },
+      "start": 686,
+      "end": 816
     },
     {
       "type": "ExpressionStatement",
-      "start": 818,
-      "end": 948,
       "expression": {
         "type": "CallExpression",
-        "start": 818,
-        "end": 947,
         "callee": {
           "type": "MemberExpression",
-          "start": 818,
-          "end": 834,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 818,
-            "end": 824,
-            "name": "assert"
+            "end": 824
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 825,
-            "end": 834,
-            "name": "sameValue"
+            "end": 834
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 818,
+          "end": 834
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 838,
-            "end": 872,
             "callee": {
               "type": "Identifier",
+              "name": "Number",
               "start": 838,
-              "end": 844,
-              "name": "Number"
+              "end": 844
             },
             "arguments": [
               {
                 "type": "CallExpression",
-                "start": 845,
-                "end": 871,
                 "callee": {
                   "type": "Identifier",
+                  "name": "dynaString",
                   "start": 845,
-                  "end": 855,
-                  "name": "dynaString"
+                  "end": 855
                 },
                 "arguments": [
                   {
                     "type": "Literal",
-                    "start": 856,
-                    "end": 862,
                     "value": "Infi",
-                    "raw": "\"Infi\""
+                    "raw": "\"Infi\"",
+                    "start": 856,
+                    "end": 862
                   },
                   {
                     "type": "Literal",
-                    "start": 864,
-                    "end": 870,
                     "value": "nity",
-                    "raw": "\"nity\""
+                    "raw": "\"nity\"",
+                    "start": 864,
+                    "end": 870
                   }
                 ],
-                "optional": false
+                "optional": false,
+                "start": 845,
+                "end": 871
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 838,
+            "end": 872
           },
           {
             "type": "Literal",
-            "start": 876,
-            "end": 884,
             "value": 1e+400,
-            "raw": "10E10000"
+            "raw": "10E10000",
+            "start": 876,
+            "end": 884
           },
           {
             "type": "Literal",
-            "start": 888,
-            "end": 945,
             "value": "Number(dynaString(\"Infi\", \"nity\")) must return 10E10000",
-            "raw": "'Number(dynaString(\"Infi\", \"nity\")) must return 10E10000'"
+            "raw": "'Number(dynaString(\"Infi\", \"nity\")) must return 10E10000'",
+            "start": 888,
+            "end": 945
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 818,
+        "end": 947
+      },
+      "start": 818,
+      "end": 948
     },
     {
       "type": "ExpressionStatement",
-      "start": 950,
-      "end": 1127,
       "expression": {
         "type": "CallExpression",
-        "start": 950,
-        "end": 1126,
         "callee": {
           "type": "MemberExpression",
-          "start": 950,
-          "end": 966,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 950,
-            "end": 956,
-            "name": "assert"
+            "end": 956
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 957,
-            "end": 966,
-            "name": "sameValue"
+            "end": 966
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 950,
+          "end": 966
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 970,
-            "end": 1004,
             "callee": {
               "type": "Identifier",
+              "name": "Number",
               "start": 970,
-              "end": 976,
-              "name": "Number"
+              "end": 976
             },
             "arguments": [
               {
                 "type": "CallExpression",
-                "start": 977,
-                "end": 1003,
                 "callee": {
                   "type": "Identifier",
+                  "name": "dynaString",
                   "start": 977,
-                  "end": 987,
-                  "name": "dynaString"
+                  "end": 987
                 },
                 "arguments": [
                   {
                     "type": "Literal",
-                    "start": 988,
-                    "end": 994,
                     "value": "Infi",
-                    "raw": "\"Infi\""
+                    "raw": "\"Infi\"",
+                    "start": 988,
+                    "end": 994
                   },
                   {
                     "type": "Literal",
-                    "start": 996,
-                    "end": 1002,
                     "value": "nity",
-                    "raw": "\"nity\""
+                    "raw": "\"nity\"",
+                    "start": 996,
+                    "end": 1002
                   }
                 ],
-                "optional": false
+                "optional": false,
+                "start": 977,
+                "end": 1003
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 970,
+            "end": 1004
           },
           {
             "type": "CallExpression",
-            "start": 1008,
-            "end": 1026,
             "callee": {
               "type": "Identifier",
+              "name": "Number",
               "start": 1008,
-              "end": 1014,
-              "name": "Number"
+              "end": 1014
             },
             "arguments": [
               {
                 "type": "Literal",
-                "start": 1015,
-                "end": 1025,
                 "value": "10e10000",
-                "raw": "\"10e10000\""
+                "raw": "\"10e10000\"",
+                "start": 1015,
+                "end": 1025
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 1008,
+            "end": 1026
           },
           {
             "type": "Literal",
-            "start": 1030,
-            "end": 1124,
             "value": "Number(dynaString(\"Infi\", \"nity\")) must return the same value returned by Number(\"10e10000\")",
-            "raw": "'Number(dynaString(\"Infi\", \"nity\")) must return the same value returned by Number(\"10e10000\")'"
+            "raw": "'Number(dynaString(\"Infi\", \"nity\")) must return the same value returned by Number(\"10e10000\")'",
+            "start": 1030,
+            "end": 1124
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 950,
+        "end": 1126
+      },
+      "start": 950,
+      "end": 1127
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 1128
 }

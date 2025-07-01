@@ -1,84 +1,84 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 857,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 786,
-      "end": 796,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 790,
-          "end": 795,
           "id": {
             "type": "Identifier",
+            "name": "x",
             "start": 790,
-            "end": 791,
-            "name": "x"
+            "end": 791
           },
           "init": {
             "type": "Literal",
-            "start": 794,
-            "end": 795,
             "value": 0,
-            "raw": "0"
-          }
+            "raw": "0",
+            "start": 794,
+            "end": 795
+          },
+          "start": 790,
+          "end": 795
         }
-      ]
+      ],
+      "start": 786,
+      "end": 796
     },
     {
       "type": "IfStatement",
-      "start": 812,
-      "end": 856,
       "test": {
         "type": "BinaryExpression",
-        "start": 816,
-        "end": 823,
         "left": {
           "type": "Identifier",
+          "name": "x",
           "start": 816,
-          "end": 817,
-          "name": "x"
+          "end": 817
         },
         "operator": "===",
         "right": {
           "type": "Literal",
-          "start": 822,
-          "end": 823,
           "value": 0,
-          "raw": "0"
-        }
+          "raw": "0",
+          "start": 822,
+          "end": 823
+        },
+        "start": 816,
+        "end": 823
       },
       "consequent": {
         "type": "BlockStatement",
-        "start": 825,
-        "end": 856,
         "body": [
           {
             "type": "ThrowStatement",
-            "start": 829,
-            "end": 854,
             "argument": {
               "type": "NewExpression",
-              "start": 835,
-              "end": 853,
               "callee": {
                 "type": "Identifier",
+                "name": "Test262Error",
                 "start": 839,
-                "end": 851,
-                "name": "Test262Error"
+                "end": 851
               },
-              "arguments": []
-            }
+              "arguments": [],
+              "start": 835,
+              "end": 853
+            },
+            "start": 829,
+            "end": 854
           }
-        ]
+        ],
+        "start": 825,
+        "end": 856
       },
-      "alternate": null
+      "alternate": null,
+      "start": 812,
+      "end": 856
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 857
 }

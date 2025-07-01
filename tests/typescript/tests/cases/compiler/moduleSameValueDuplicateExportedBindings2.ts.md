@@ -2,167 +2,165 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 42,
   "body": [
     {
       "type": "ExportAllDeclaration",
-      "start": 0,
-      "end": 20,
       "exported": null,
       "source": {
         "type": "Literal",
-        "start": 14,
-        "end": 19,
         "value": "./b",
-        "raw": "\"./b\""
+        "raw": "\"./b\"",
+        "start": 14,
+        "end": 19
       },
       "attributes": [],
-      "exportKind": "value"
+      "exportKind": "value",
+      "start": 0,
+      "end": 20
     },
     {
       "type": "ExportAllDeclaration",
-      "start": 21,
-      "end": 41,
       "exported": null,
       "source": {
         "type": "Literal",
-        "start": 35,
-        "end": 40,
         "value": "./c",
-        "raw": "\"./c\""
+        "raw": "\"./c\"",
+        "start": 35,
+        "end": 40
       },
       "attributes": [],
-      "exportKind": "value"
+      "exportKind": "value",
+      "start": 21,
+      "end": 41
     }
   ],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 42
 }
 ```
 __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 29,
   "body": [
     {
       "type": "ExportNamedDeclaration",
-      "start": 0,
-      "end": 28,
       "declaration": null,
       "specifiers": [
         {
           "type": "ExportSpecifier",
-          "start": 8,
-          "end": 15,
           "local": {
             "type": "Identifier",
-            "start": 8,
-            "end": 15,
             "decorators": [],
             "name": "Animals",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 8,
+            "end": 15
           },
           "exported": {
             "type": "Identifier",
-            "start": 8,
-            "end": 15,
             "decorators": [],
             "name": "Animals",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 8,
+            "end": 15
           },
-          "exportKind": "value"
+          "exportKind": "value",
+          "start": 8,
+          "end": 15
         }
       ],
       "source": {
         "type": "Literal",
-        "start": 22,
-        "end": 27,
         "value": "./c",
-        "raw": "\"./c\""
+        "raw": "\"./c\"",
+        "start": 22,
+        "end": 27
       },
       "exportKind": "value",
-      "attributes": []
+      "attributes": [],
+      "start": 0,
+      "end": 28
     }
   ],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 29
 }
 ```
 __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 35,
   "body": [
     {
       "type": "ExportNamedDeclaration",
-      "start": 0,
-      "end": 34,
       "declaration": {
         "type": "TSEnumDeclaration",
-        "start": 7,
-        "end": 34,
         "id": {
           "type": "Identifier",
-          "start": 12,
-          "end": 19,
           "decorators": [],
           "name": "Animals",
           "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "start": 12,
+          "end": 19
         },
         "body": {
           "type": "TSEnumBody",
-          "start": 20,
-          "end": 34,
           "members": [
             {
               "type": "TSEnumMember",
-              "start": 23,
-              "end": 26,
               "id": {
                 "type": "Identifier",
-                "start": 23,
-                "end": 26,
                 "decorators": [],
                 "name": "Cat",
                 "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "start": 23,
+                "end": 26
               },
               "initializer": null,
-              "computed": false
+              "computed": false,
+              "start": 23,
+              "end": 26
             },
             {
               "type": "TSEnumMember",
-              "start": 29,
-              "end": 32,
               "id": {
                 "type": "Identifier",
-                "start": 29,
-                "end": 32,
                 "decorators": [],
                 "name": "Dog",
                 "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "start": 29,
+                "end": 32
               },
               "initializer": null,
-              "computed": false
+              "computed": false,
+              "start": 29,
+              "end": 32
             }
-          ]
+          ],
+          "start": 20,
+          "end": 34
         },
         "const": false,
-        "declare": false
+        "declare": false,
+        "start": 7,
+        "end": 34
       },
       "specifiers": [],
       "source": null,
       "exportKind": "value",
-      "attributes": []
+      "attributes": [],
+      "start": 0,
+      "end": 34
     },
     {
       "type": "EmptyStatement",
@@ -171,6 +169,8 @@ __ESTREE_TEST__:PASS:
     }
   ],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 35
 }
 ```

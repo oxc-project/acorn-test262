@@ -1,208 +1,208 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 575,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 331,
-      "end": 444,
       "expression": {
         "type": "CallExpression",
-        "start": 331,
-        "end": 443,
         "callee": {
           "type": "MemberExpression",
-          "start": 331,
-          "end": 347,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 331,
-            "end": 337,
-            "name": "assert"
+            "end": 337
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 338,
-            "end": 347,
-            "name": "sameValue"
+            "end": 347
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 331,
+          "end": 347
         },
         "arguments": [
           {
             "type": "UnaryExpression",
-            "start": 351,
-            "end": 369,
             "operator": "typeof",
             "argument": {
               "type": "Identifier",
+              "name": "ShadowRealm",
               "start": 358,
-              "end": 369,
-              "name": "ShadowRealm"
+              "end": 369
             },
-            "prefix": true
+            "prefix": true,
+            "start": 351,
+            "end": 369
           },
           {
             "type": "Literal",
-            "start": 373,
-            "end": 383,
             "value": "function",
-            "raw": "'function'"
+            "raw": "'function'",
+            "start": 373,
+            "end": 383
           },
           {
             "type": "Literal",
-            "start": 387,
-            "end": 441,
             "value": "This test must fail if ShadowRealm is not a function",
-            "raw": "'This test must fail if ShadowRealm is not a function'"
+            "raw": "'This test must fail if ShadowRealm is not a function'",
+            "start": 387,
+            "end": 441
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 331,
+        "end": 443
+      },
+      "start": 331,
+      "end": 444
     },
     {
       "type": "ExpressionStatement",
-      "start": 446,
-      "end": 481,
       "expression": {
         "type": "CallExpression",
-        "start": 446,
-        "end": 480,
         "callee": {
           "type": "Identifier",
+          "name": "assert",
           "start": 446,
-          "end": 452,
-          "name": "assert"
+          "end": 452
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 453,
-            "end": 479,
             "callee": {
               "type": "Identifier",
+              "name": "isConstructor",
               "start": 453,
-              "end": 466,
-              "name": "isConstructor"
+              "end": 466
             },
             "arguments": [
               {
                 "type": "Identifier",
+                "name": "ShadowRealm",
                 "start": 467,
-                "end": 478,
-                "name": "ShadowRealm"
+                "end": 478
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 453,
+            "end": 479
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 446,
+        "end": 480
+      },
+      "start": 446,
+      "end": 481
     },
     {
       "type": "ExpressionStatement",
-      "start": 482,
-      "end": 555,
       "expression": {
         "type": "CallExpression",
-        "start": 482,
-        "end": 554,
         "callee": {
           "type": "MemberExpression",
-          "start": 482,
-          "end": 498,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 482,
-            "end": 488,
-            "name": "assert"
+            "end": 488
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 489,
-            "end": 498,
-            "name": "sameValue"
+            "end": 498
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 482,
+          "end": 498
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 499,
-            "end": 533,
             "callee": {
               "type": "MemberExpression",
-              "start": 499,
-              "end": 520,
               "object": {
                 "type": "Identifier",
+                "name": "Object",
                 "start": 499,
-                "end": 505,
-                "name": "Object"
+                "end": 505
               },
               "property": {
                 "type": "Identifier",
+                "name": "getPrototypeOf",
                 "start": 506,
-                "end": 520,
-                "name": "getPrototypeOf"
+                "end": 520
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 499,
+              "end": 520
             },
             "arguments": [
               {
                 "type": "Identifier",
+                "name": "ShadowRealm",
                 "start": 521,
-                "end": 532,
-                "name": "ShadowRealm"
+                "end": 532
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 499,
+            "end": 533
           },
           {
             "type": "MemberExpression",
-            "start": 535,
-            "end": 553,
             "object": {
               "type": "Identifier",
+              "name": "Function",
               "start": 535,
-              "end": 543,
-              "name": "Function"
+              "end": 543
             },
             "property": {
               "type": "Identifier",
+              "name": "prototype",
               "start": 544,
-              "end": 553,
-              "name": "prototype"
+              "end": 553
             },
             "optional": false,
-            "computed": false
+            "computed": false,
+            "start": 535,
+            "end": 553
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 482,
+        "end": 554
+      },
+      "start": 482,
+      "end": 555
     },
     {
       "type": "ExpressionStatement",
-      "start": 556,
-      "end": 574,
       "expression": {
         "type": "NewExpression",
-        "start": 556,
-        "end": 573,
         "callee": {
           "type": "Identifier",
+          "name": "ShadowRealm",
           "start": 560,
-          "end": 571,
-          "name": "ShadowRealm"
+          "end": 571
         },
-        "arguments": []
-      }
+        "arguments": [],
+        "start": 556,
+        "end": 573
+      },
+      "start": 556,
+      "end": 574
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 575
 }

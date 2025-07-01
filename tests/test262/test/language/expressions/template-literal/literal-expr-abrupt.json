@@ -1,139 +1,139 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 595,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 499,
-      "end": 594,
       "expression": {
         "type": "CallExpression",
-        "start": 499,
-        "end": 593,
         "callee": {
           "type": "MemberExpression",
-          "start": 499,
-          "end": 512,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 499,
-            "end": 505,
-            "name": "assert"
+            "end": 505
           },
           "property": {
             "type": "Identifier",
+            "name": "throws",
             "start": 506,
-            "end": 512,
-            "name": "throws"
+            "end": 512
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 499,
+          "end": 512
         },
         "arguments": [
           {
             "type": "Identifier",
+            "name": "Test262Error",
             "start": 513,
-            "end": 525,
-            "name": "Test262Error"
+            "end": 525
           },
           {
             "type": "FunctionExpression",
-            "start": 527,
-            "end": 592,
             "id": null,
             "generator": false,
             "async": false,
             "params": [],
             "body": {
               "type": "BlockStatement",
-              "start": 538,
-              "end": 592,
               "body": [
                 {
                   "type": "ExpressionStatement",
-                  "start": 542,
-                  "end": 590,
                   "expression": {
                     "type": "TemplateLiteral",
-                    "start": 542,
-                    "end": 589,
                     "quasis": [
                       {
                         "type": "TemplateElement",
-                        "start": 543,
-                        "end": 543,
                         "value": {
                           "raw": "",
                           "cooked": ""
                         },
-                        "tail": false
+                        "tail": false,
+                        "start": 543,
+                        "end": 543
                       },
                       {
                         "type": "TemplateElement",
-                        "start": 588,
-                        "end": 588,
                         "value": {
                           "raw": "",
                           "cooked": ""
                         },
-                        "tail": true
+                        "tail": true,
+                        "start": 588,
+                        "end": 588
                       }
                     ],
                     "expressions": [
                       {
                         "type": "CallExpression",
-                        "start": 545,
-                        "end": 587,
                         "callee": {
                           "type": "FunctionExpression",
-                          "start": 545,
-                          "end": 585,
                           "id": null,
                           "generator": false,
                           "async": false,
                           "params": [],
                           "body": {
                             "type": "BlockStatement",
-                            "start": 556,
-                            "end": 585,
                             "body": [
                               {
                                 "type": "ThrowStatement",
-                                "start": 558,
-                                "end": 583,
                                 "argument": {
                                   "type": "NewExpression",
-                                  "start": 564,
-                                  "end": 582,
                                   "callee": {
                                     "type": "Identifier",
+                                    "name": "Test262Error",
                                     "start": 568,
-                                    "end": 580,
-                                    "name": "Test262Error"
+                                    "end": 580
                                   },
-                                  "arguments": []
-                                }
+                                  "arguments": [],
+                                  "start": 564,
+                                  "end": 582
+                                },
+                                "start": 558,
+                                "end": 583
                               }
-                            ]
+                            ],
+                            "start": 556,
+                            "end": 585
                           },
-                          "expression": false
+                          "expression": false,
+                          "start": 545,
+                          "end": 585
                         },
                         "arguments": [],
-                        "optional": false
+                        "optional": false,
+                        "start": 545,
+                        "end": 587
                       }
-                    ]
-                  }
+                    ],
+                    "start": 542,
+                    "end": 589
+                  },
+                  "start": 542,
+                  "end": 590
                 }
-              ]
+              ],
+              "start": 538,
+              "end": 592
             },
-            "expression": false
+            "expression": false,
+            "start": 527,
+            "end": 592
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 499,
+        "end": 593
+      },
+      "start": 499,
+      "end": 594
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 595
 }

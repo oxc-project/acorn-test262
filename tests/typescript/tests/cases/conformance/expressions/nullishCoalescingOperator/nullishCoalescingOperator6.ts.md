@@ -2,21 +2,17 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 49,
   "body": [
     {
       "type": "FunctionDeclaration",
-      "start": 0,
-      "end": 49,
       "id": {
         "type": "Identifier",
-        "start": 9,
-        "end": 12,
         "decorators": [],
         "name": "foo",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 9,
+        "end": 12
       },
       "generator": false,
       "async": false,
@@ -25,73 +21,77 @@ __ESTREE_TEST__:PASS:
       "params": [
         {
           "type": "Identifier",
-          "start": 13,
-          "end": 24,
           "decorators": [],
           "name": "foo",
           "optional": false,
           "typeAnnotation": {
             "type": "TSTypeAnnotation",
-            "start": 16,
-            "end": 24,
             "typeAnnotation": {
               "type": "TSStringKeyword",
               "start": 18,
               "end": 24
-            }
-          }
+            },
+            "start": 16,
+            "end": 24
+          },
+          "start": 13,
+          "end": 24
         },
         {
           "type": "AssignmentPattern",
-          "start": 26,
-          "end": 44,
           "decorators": [],
           "left": {
             "type": "Identifier",
-            "start": 26,
-            "end": 29,
             "decorators": [],
             "name": "bar",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 26,
+            "end": 29
           },
           "right": {
             "type": "LogicalExpression",
-            "start": 32,
-            "end": 44,
             "left": {
               "type": "Identifier",
-              "start": 32,
-              "end": 35,
               "decorators": [],
               "name": "foo",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 32,
+              "end": 35
             },
             "operator": "??",
             "right": {
               "type": "Literal",
-              "start": 39,
-              "end": 44,
               "value": "bar",
-              "raw": "\"bar\""
-            }
+              "raw": "\"bar\"",
+              "start": 39,
+              "end": 44
+            },
+            "start": 32,
+            "end": 44
           },
           "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "start": 26,
+          "end": 44
         }
       ],
       "returnType": null,
       "body": {
         "type": "BlockStatement",
+        "body": [],
         "start": 46,
-        "end": 49,
-        "body": []
+        "end": 49
       },
-      "expression": false
+      "expression": false,
+      "start": 0,
+      "end": 49
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 49
 }
 ```

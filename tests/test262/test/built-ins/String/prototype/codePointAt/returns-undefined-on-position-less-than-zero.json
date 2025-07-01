@@ -1,168 +1,168 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 658,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 547,
-      "end": 598,
       "expression": {
         "type": "CallExpression",
-        "start": 547,
-        "end": 597,
         "callee": {
           "type": "MemberExpression",
-          "start": 547,
-          "end": 563,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 547,
-            "end": 553,
-            "name": "assert"
+            "end": 553
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 554,
-            "end": 563,
-            "name": "sameValue"
+            "end": 563
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 547,
+          "end": 563
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 564,
-            "end": 585,
             "callee": {
               "type": "MemberExpression",
-              "start": 564,
-              "end": 581,
               "object": {
                 "type": "Literal",
-                "start": 564,
-                "end": 569,
                 "value": "abc",
-                "raw": "'abc'"
+                "raw": "'abc'",
+                "start": 564,
+                "end": 569
               },
               "property": {
                 "type": "Identifier",
+                "name": "codePointAt",
                 "start": 570,
-                "end": 581,
-                "name": "codePointAt"
+                "end": 581
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 564,
+              "end": 581
             },
             "arguments": [
               {
                 "type": "UnaryExpression",
-                "start": 582,
-                "end": 584,
                 "operator": "-",
                 "argument": {
                   "type": "Literal",
-                  "start": 583,
-                  "end": 584,
                   "value": 1,
-                  "raw": "1"
+                  "raw": "1",
+                  "start": 583,
+                  "end": 584
                 },
-                "prefix": true
+                "prefix": true,
+                "start": 582,
+                "end": 584
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 564,
+            "end": 585
           },
           {
             "type": "Identifier",
+            "name": "undefined",
             "start": 587,
-            "end": 596,
-            "name": "undefined"
+            "end": 596
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 547,
+        "end": 597
+      },
+      "start": 547,
+      "end": 598
     },
     {
       "type": "ExpressionStatement",
-      "start": 599,
-      "end": 657,
       "expression": {
         "type": "CallExpression",
-        "start": 599,
-        "end": 656,
         "callee": {
           "type": "MemberExpression",
-          "start": 599,
-          "end": 615,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 599,
-            "end": 605,
-            "name": "assert"
+            "end": 605
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 606,
-            "end": 615,
-            "name": "sameValue"
+            "end": 615
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 599,
+          "end": 615
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 616,
-            "end": 644,
             "callee": {
               "type": "MemberExpression",
-              "start": 616,
-              "end": 633,
               "object": {
                 "type": "Literal",
-                "start": 616,
-                "end": 621,
                 "value": "abc",
-                "raw": "'abc'"
+                "raw": "'abc'",
+                "start": 616,
+                "end": 621
               },
               "property": {
                 "type": "Identifier",
+                "name": "codePointAt",
                 "start": 622,
-                "end": 633,
-                "name": "codePointAt"
+                "end": 633
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 616,
+              "end": 633
             },
             "arguments": [
               {
                 "type": "UnaryExpression",
-                "start": 634,
-                "end": 643,
                 "operator": "-",
                 "argument": {
                   "type": "Identifier",
+                  "name": "Infinity",
                   "start": 635,
-                  "end": 643,
-                  "name": "Infinity"
+                  "end": 643
                 },
-                "prefix": true
+                "prefix": true,
+                "start": 634,
+                "end": 643
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 616,
+            "end": 644
           },
           {
             "type": "Identifier",
+            "name": "undefined",
             "start": 646,
-            "end": 655,
-            "name": "undefined"
+            "end": 655
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 599,
+        "end": 656
+      },
+      "start": 599,
+      "end": 657
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 658
 }

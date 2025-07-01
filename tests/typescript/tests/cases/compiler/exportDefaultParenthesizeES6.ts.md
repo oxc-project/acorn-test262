@@ -2,30 +2,22 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 37,
   "body": [
     {
       "type": "ExportDefaultDeclaration",
-      "start": 0,
-      "end": 37,
       "declaration": {
         "type": "TSAsExpression",
-        "start": 16,
-        "end": 35,
         "expression": {
           "type": "ClassExpression",
-          "start": 16,
-          "end": 28,
           "decorators": [],
           "id": {
             "type": "Identifier",
-            "start": 22,
-            "end": 25,
             "decorators": [],
             "name": "Foo",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 22,
+            "end": 25
           },
           "typeParameters": null,
           "superClass": null,
@@ -33,23 +25,31 @@ __ESTREE_TEST__:PASS:
           "implements": [],
           "body": {
             "type": "ClassBody",
+            "body": [],
             "start": 26,
-            "end": 28,
-            "body": []
+            "end": 28
           },
           "abstract": false,
-          "declare": false
+          "declare": false,
+          "start": 16,
+          "end": 28
         },
         "typeAnnotation": {
           "type": "TSAnyKeyword",
           "start": 32,
           "end": 35
-        }
+        },
+        "start": 16,
+        "end": 35
       },
-      "exportKind": "value"
+      "exportKind": "value",
+      "start": 0,
+      "end": 37
     }
   ],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 37
 }
 ```

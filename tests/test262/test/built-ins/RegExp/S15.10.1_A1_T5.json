@@ -1,160 +1,160 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 591,
   "body": [
     {
       "type": "TryStatement",
-      "start": 271,
-      "end": 545,
       "block": {
         "type": "BlockStatement",
-        "start": 275,
-        "end": 385,
         "body": [
           {
             "type": "ThrowStatement",
-            "start": 281,
-            "end": 383,
             "argument": {
               "type": "NewExpression",
-              "start": 287,
-              "end": 382,
               "callee": {
                 "type": "Identifier",
+                "name": "Test262Error",
                 "start": 291,
-                "end": 303,
-                "name": "Test262Error"
+                "end": 303
               },
               "arguments": [
                 {
                   "type": "BinaryExpression",
-                  "start": 304,
-                  "end": 381,
                   "left": {
                     "type": "Literal",
-                    "start": 304,
-                    "end": 358,
                     "value": "#1.1: new RegExp(\"a???\") throw SyntaxError. Actual: ",
-                    "raw": "'#1.1: new RegExp(\"a???\") throw SyntaxError. Actual: '"
+                    "raw": "'#1.1: new RegExp(\"a???\") throw SyntaxError. Actual: '",
+                    "start": 304,
+                    "end": 358
                   },
                   "operator": "+",
                   "right": {
                     "type": "ParenthesizedExpression",
-                    "start": 361,
-                    "end": 381,
                     "expression": {
                       "type": "NewExpression",
-                      "start": 362,
-                      "end": 380,
                       "callee": {
                         "type": "Identifier",
+                        "name": "RegExp",
                         "start": 366,
-                        "end": 372,
-                        "name": "RegExp"
+                        "end": 372
                       },
                       "arguments": [
                         {
                           "type": "Literal",
-                          "start": 373,
-                          "end": 379,
                           "value": "a???",
-                          "raw": "\"a???\""
+                          "raw": "\"a???\"",
+                          "start": 373,
+                          "end": 379
                         }
-                      ]
-                    }
-                  }
+                      ],
+                      "start": 362,
+                      "end": 380
+                    },
+                    "start": 361,
+                    "end": 381
+                  },
+                  "start": 304,
+                  "end": 381
                 }
-              ]
-            }
+              ],
+              "start": 287,
+              "end": 382
+            },
+            "start": 281,
+            "end": 383
           }
-        ]
+        ],
+        "start": 275,
+        "end": 385
       },
       "handler": {
         "type": "CatchClause",
-        "start": 386,
-        "end": 545,
         "param": {
           "type": "Identifier",
+          "name": "e",
           "start": 393,
-          "end": 394,
-          "name": "e"
+          "end": 394
         },
         "body": {
           "type": "BlockStatement",
-          "start": 396,
-          "end": 545,
           "body": [
             {
               "type": "ExpressionStatement",
-              "start": 400,
-              "end": 543,
               "expression": {
                 "type": "CallExpression",
-                "start": 400,
-                "end": 542,
                 "callee": {
                   "type": "MemberExpression",
-                  "start": 400,
-                  "end": 416,
                   "object": {
                     "type": "Identifier",
+                    "name": "assert",
                     "start": 400,
-                    "end": 406,
-                    "name": "assert"
+                    "end": 406
                   },
                   "property": {
                     "type": "Identifier",
+                    "name": "sameValue",
                     "start": 407,
-                    "end": 416,
-                    "name": "sameValue"
+                    "end": 416
                   },
                   "optional": false,
-                  "computed": false
+                  "computed": false,
+                  "start": 400,
+                  "end": 416
                 },
                 "arguments": [
                   {
                     "type": "BinaryExpression",
-                    "start": 422,
-                    "end": 446,
                     "left": {
                       "type": "Identifier",
+                      "name": "e",
                       "start": 422,
-                      "end": 423,
-                      "name": "e"
+                      "end": 423
                     },
                     "operator": "instanceof",
                     "right": {
                       "type": "Identifier",
+                      "name": "SyntaxError",
                       "start": 435,
-                      "end": 446,
-                      "name": "SyntaxError"
-                    }
+                      "end": 446
+                    },
+                    "start": 422,
+                    "end": 446
                   },
                   {
                     "type": "Literal",
-                    "start": 452,
-                    "end": 456,
                     "value": true,
-                    "raw": "true"
+                    "raw": "true",
+                    "start": 452,
+                    "end": 456
                   },
                   {
                     "type": "Literal",
-                    "start": 462,
-                    "end": 538,
                     "value": "The result of evaluating (e instanceof SyntaxError) is expected to be true",
-                    "raw": "'The result of evaluating (e instanceof SyntaxError) is expected to be true'"
+                    "raw": "'The result of evaluating (e instanceof SyntaxError) is expected to be true'",
+                    "start": 462,
+                    "end": 538
                   }
                 ],
-                "optional": false
-              }
+                "optional": false,
+                "start": 400,
+                "end": 542
+              },
+              "start": 400,
+              "end": 543
             }
-          ]
-        }
+          ],
+          "start": 396,
+          "end": 545
+        },
+        "start": 386,
+        "end": 545
       },
-      "finalizer": null
+      "finalizer": null,
+      "start": 271,
+      "end": 545
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 591
 }

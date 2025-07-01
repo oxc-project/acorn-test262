@@ -1,219 +1,219 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 774,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 330,
-      "end": 352,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 334,
-          "end": 351,
           "id": {
             "type": "Identifier",
+            "name": "__num",
             "start": 334,
-            "end": 339,
-            "name": "__num"
+            "end": 339
           },
           "init": {
             "type": "Literal",
-            "start": 342,
-            "end": 351,
             "value": 11.001002,
-            "raw": "11.001002"
-          }
+            "raw": "11.001002",
+            "start": 342,
+            "end": 351
+          },
+          "start": 334,
+          "end": 351
         }
-      ]
+      ],
+      "start": 330,
+      "end": 352
     },
     {
       "type": "ExpressionStatement",
-      "start": 354,
-      "end": 402,
       "expression": {
         "type": "AssignmentExpression",
-        "start": 354,
-        "end": 401,
         "operator": "=",
         "left": {
           "type": "MemberExpression",
-          "start": 354,
-          "end": 376,
           "object": {
             "type": "MemberExpression",
-            "start": 354,
-            "end": 370,
             "object": {
               "type": "Identifier",
+              "name": "Number",
               "start": 354,
-              "end": 360,
-              "name": "Number"
+              "end": 360
             },
             "property": {
               "type": "Identifier",
+              "name": "prototype",
               "start": 361,
-              "end": 370,
-              "name": "prototype"
+              "end": 370
             },
             "optional": false,
-            "computed": false
+            "computed": false,
+            "start": 354,
+            "end": 370
           },
           "property": {
             "type": "Identifier",
+            "name": "slice",
             "start": 371,
-            "end": 376,
-            "name": "slice"
+            "end": 376
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 354,
+          "end": 376
         },
         "right": {
           "type": "MemberExpression",
-          "start": 379,
-          "end": 401,
           "object": {
             "type": "MemberExpression",
-            "start": 379,
-            "end": 395,
             "object": {
               "type": "Identifier",
+              "name": "String",
               "start": 379,
-              "end": 385,
-              "name": "String"
+              "end": 385
             },
             "property": {
               "type": "Identifier",
+              "name": "prototype",
               "start": 386,
-              "end": 395,
-              "name": "prototype"
+              "end": 395
             },
             "optional": false,
-            "computed": false
+            "computed": false,
+            "start": 379,
+            "end": 395
           },
           "property": {
             "type": "Identifier",
+            "name": "slice",
             "start": 396,
-            "end": 401,
-            "name": "slice"
+            "end": 401
           },
           "optional": false,
-          "computed": false
-        }
-      }
+          "computed": false,
+          "start": 379,
+          "end": 401
+        },
+        "start": 354,
+        "end": 401
+      },
+      "start": 354,
+      "end": 402
     },
     {
       "type": "IfStatement",
-      "start": 494,
-      "end": 691,
       "test": {
         "type": "BinaryExpression",
-        "start": 498,
-        "end": 527,
         "left": {
           "type": "CallExpression",
-          "start": 498,
-          "end": 511,
           "callee": {
             "type": "MemberExpression",
-            "start": 498,
-            "end": 509,
             "object": {
               "type": "Identifier",
+              "name": "__num",
               "start": 498,
-              "end": 503,
-              "name": "__num"
+              "end": 503
             },
             "property": {
               "type": "Identifier",
+              "name": "slice",
               "start": 504,
-              "end": 509,
-              "name": "slice"
+              "end": 509
             },
             "optional": false,
-            "computed": false
+            "computed": false,
+            "start": 498,
+            "end": 509
           },
           "arguments": [],
-          "optional": false
+          "optional": false,
+          "start": 498,
+          "end": 511
         },
         "operator": "!==",
         "right": {
           "type": "Literal",
-          "start": 516,
-          "end": 527,
           "value": "11.001002",
-          "raw": "\"11.001002\""
-        }
+          "raw": "\"11.001002\"",
+          "start": 516,
+          "end": 527
+        },
+        "start": 498,
+        "end": 527
       },
       "consequent": {
         "type": "BlockStatement",
-        "start": 529,
-        "end": 691,
         "body": [
           {
             "type": "ThrowStatement",
-            "start": 533,
-            "end": 689,
             "argument": {
               "type": "NewExpression",
-              "start": 539,
-              "end": 688,
               "callee": {
                 "type": "Identifier",
+                "name": "Test262Error",
                 "start": 543,
-                "end": 555,
-                "name": "Test262Error"
+                "end": 555
               },
               "arguments": [
                 {
                   "type": "BinaryExpression",
-                  "start": 556,
-                  "end": 687,
                   "left": {
                     "type": "Literal",
-                    "start": 556,
-                    "end": 671,
                     "value": "#1: var __num = 11.001002; Number.prototype.slice = String.prototype.slice; __num.slice()===\"11.001002\". Actual: ",
-                    "raw": "'#1: var __num = 11.001002; Number.prototype.slice = String.prototype.slice; __num.slice()===\"11.001002\". Actual: '"
+                    "raw": "'#1: var __num = 11.001002; Number.prototype.slice = String.prototype.slice; __num.slice()===\"11.001002\". Actual: '",
+                    "start": 556,
+                    "end": 671
                   },
                   "operator": "+",
                   "right": {
                     "type": "CallExpression",
-                    "start": 674,
-                    "end": 687,
                     "callee": {
                       "type": "MemberExpression",
-                      "start": 674,
-                      "end": 685,
                       "object": {
                         "type": "Identifier",
+                        "name": "__num",
                         "start": 674,
-                        "end": 679,
-                        "name": "__num"
+                        "end": 679
                       },
                       "property": {
                         "type": "Identifier",
+                        "name": "slice",
                         "start": 680,
-                        "end": 685,
-                        "name": "slice"
+                        "end": 685
                       },
                       "optional": false,
-                      "computed": false
+                      "computed": false,
+                      "start": 674,
+                      "end": 685
                     },
                     "arguments": [],
-                    "optional": false
-                  }
+                    "optional": false,
+                    "start": 674,
+                    "end": 687
+                  },
+                  "start": 556,
+                  "end": 687
                 }
-              ]
-            }
+              ],
+              "start": 539,
+              "end": 688
+            },
+            "start": 533,
+            "end": 689
           }
-        ]
+        ],
+        "start": 529,
+        "end": 691
       },
-      "alternate": null
+      "alternate": null,
+      "start": 494,
+      "end": 691
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 774
 }

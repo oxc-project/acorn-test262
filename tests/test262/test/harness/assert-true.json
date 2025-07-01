@@ -1,35 +1,35 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 217,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 203,
-      "end": 216,
       "expression": {
         "type": "CallExpression",
-        "start": 203,
-        "end": 215,
         "callee": {
           "type": "Identifier",
+          "name": "assert",
           "start": 203,
-          "end": 209,
-          "name": "assert"
+          "end": 209
         },
         "arguments": [
           {
             "type": "Literal",
-            "start": 210,
-            "end": 214,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "start": 210,
+            "end": 214
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 203,
+        "end": 215
+      },
+      "start": 203,
+      "end": 216
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 217
 }

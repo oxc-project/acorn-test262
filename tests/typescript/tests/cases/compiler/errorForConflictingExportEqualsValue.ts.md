@@ -2,79 +2,79 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 40,
   "body": [
     {
       "type": "ExportNamedDeclaration",
-      "start": 0,
-      "end": 13,
       "declaration": {
         "type": "VariableDeclaration",
-        "start": 7,
-        "end": 13,
         "kind": "var",
         "declarations": [
           {
             "type": "VariableDeclarator",
-            "start": 11,
-            "end": 12,
             "id": {
               "type": "Identifier",
-              "start": 11,
-              "end": 12,
               "decorators": [],
               "name": "x",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 11,
+              "end": 12
             },
             "init": null,
-            "definite": false
+            "definite": false,
+            "start": 11,
+            "end": 12
           }
         ],
-        "declare": false
+        "declare": false,
+        "start": 7,
+        "end": 13
       },
       "specifiers": [],
       "source": null,
       "exportKind": "value",
-      "attributes": []
+      "attributes": [],
+      "start": 0,
+      "end": 13
     },
     {
       "type": "TSExportAssignment",
-      "start": 14,
-      "end": 25,
       "expression": {
         "type": "Identifier",
-        "start": 23,
-        "end": 24,
         "decorators": [],
         "name": "x",
         "optional": false,
-        "typeAnnotation": null
-      }
+        "typeAnnotation": null,
+        "start": 23,
+        "end": 24
+      },
+      "start": 14,
+      "end": 25
     },
     {
       "type": "ExpressionStatement",
-      "start": 26,
-      "end": 40,
       "expression": {
         "type": "ImportExpression",
-        "start": 26,
-        "end": 39,
         "source": {
           "type": "Literal",
-          "start": 33,
-          "end": 38,
           "value": "./a",
-          "raw": "\"./a\""
+          "raw": "\"./a\"",
+          "start": 33,
+          "end": 38
         },
         "options": null,
-        "phase": null
+        "phase": null,
+        "start": 26,
+        "end": 39
       },
-      "directive": null
+      "directive": null,
+      "start": 26,
+      "end": 40
     }
   ],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 40
 }
 ```

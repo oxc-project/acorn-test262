@@ -1,114 +1,114 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 411,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 248,
-      "end": 410,
       "expression": {
         "type": "CallExpression",
-        "start": 248,
-        "end": 409,
         "callee": {
           "type": "MemberExpression",
-          "start": 248,
-          "end": 264,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 248,
-            "end": 254,
-            "name": "assert"
+            "end": 254
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 255,
-            "end": 264,
-            "name": "sameValue"
+            "end": 264
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 248,
+          "end": 264
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 268,
-            "end": 309,
             "callee": {
               "type": "MemberExpression",
-              "start": 268,
-              "end": 298,
               "object": {
                 "type": "MemberExpression",
-                "start": 268,
-                "end": 293,
                 "object": {
                   "type": "MemberExpression",
-                  "start": 268,
-                  "end": 284,
                   "object": {
                     "type": "Identifier",
+                    "name": "Object",
                     "start": 268,
-                    "end": 274,
-                    "name": "Object"
+                    "end": 274
                   },
                   "property": {
                     "type": "Identifier",
+                    "name": "prototype",
                     "start": 275,
-                    "end": 284,
-                    "name": "prototype"
+                    "end": 284
                   },
                   "optional": false,
-                  "computed": false
+                  "computed": false,
+                  "start": 268,
+                  "end": 284
                 },
                 "property": {
                   "type": "Identifier",
+                  "name": "toString",
                   "start": 285,
-                  "end": 293,
-                  "name": "toString"
+                  "end": 293
                 },
                 "optional": false,
-                "computed": false
+                "computed": false,
+                "start": 268,
+                "end": 293
               },
               "property": {
                 "type": "Identifier",
+                "name": "call",
                 "start": 294,
-                "end": 298,
-                "name": "call"
+                "end": 298
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 268,
+              "end": 298
             },
             "arguments": [
               {
                 "type": "Identifier",
+                "name": "undefined",
                 "start": 299,
-                "end": 308,
-                "name": "undefined"
+                "end": 308
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 268,
+            "end": 309
           },
           {
             "type": "Literal",
-            "start": 313,
-            "end": 333,
             "value": "[object Undefined]",
-            "raw": "\"[object Undefined]\""
+            "raw": "\"[object Undefined]\"",
+            "start": 313,
+            "end": 333
           },
           {
             "type": "Literal",
-            "start": 337,
-            "end": 407,
             "value": "Object.prototype.toString.call(undefined) returns [object Undefined]",
-            "raw": "\"Object.prototype.toString.call(undefined) returns [object Undefined]\""
+            "raw": "\"Object.prototype.toString.call(undefined) returns [object Undefined]\"",
+            "start": 337,
+            "end": 407
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 248,
+        "end": 409
+      },
+      "start": 248,
+      "end": 410
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 411
 }

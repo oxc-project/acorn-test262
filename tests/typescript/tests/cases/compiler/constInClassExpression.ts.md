@@ -2,32 +2,24 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 35,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 0,
-      "end": 35,
       "kind": "let",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 4,
-          "end": 34,
           "id": {
             "type": "Identifier",
-            "start": 4,
-            "end": 5,
             "decorators": [],
             "name": "C",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 4,
+            "end": 5
           },
           "init": {
             "type": "ClassExpression",
-            "start": 8,
-            "end": 34,
             "decorators": [],
             "id": null,
             "typeParameters": null,
@@ -36,30 +28,26 @@ __ESTREE_TEST__:PASS:
             "implements": [],
             "body": {
               "type": "ClassBody",
-              "start": 14,
-              "end": 34,
               "body": [
                 {
                   "type": "PropertyDefinition",
-                  "start": 20,
-                  "end": 32,
                   "decorators": [],
                   "key": {
                     "type": "Identifier",
-                    "start": 26,
-                    "end": 27,
                     "decorators": [],
                     "name": "a",
                     "optional": false,
-                    "typeAnnotation": null
+                    "typeAnnotation": null,
+                    "start": 26,
+                    "end": 27
                   },
                   "typeAnnotation": null,
                   "value": {
                     "type": "Literal",
-                    "start": 30,
-                    "end": 31,
                     "value": 4,
-                    "raw": "4"
+                    "raw": "4",
+                    "start": 30,
+                    "end": 31
                   },
                   "computed": false,
                   "static": false,
@@ -68,20 +56,32 @@ __ESTREE_TEST__:PASS:
                   "optional": false,
                   "definite": false,
                   "readonly": false,
-                  "accessibility": null
+                  "accessibility": null,
+                  "start": 20,
+                  "end": 32
                 }
-              ]
+              ],
+              "start": 14,
+              "end": 34
             },
             "abstract": false,
-            "declare": false
+            "declare": false,
+            "start": 8,
+            "end": 34
           },
-          "definite": false
+          "definite": false,
+          "start": 4,
+          "end": 34
         }
       ],
-      "declare": false
+      "declare": false,
+      "start": 0,
+      "end": 35
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 35
 }
 ```

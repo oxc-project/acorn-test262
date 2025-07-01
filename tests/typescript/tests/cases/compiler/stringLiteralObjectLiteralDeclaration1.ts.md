@@ -2,99 +2,99 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 48,
   "body": [
     {
       "type": "TSModuleDeclaration",
-      "start": 0,
-      "end": 48,
       "id": {
         "type": "Identifier",
-        "start": 7,
-        "end": 9,
         "decorators": [],
         "name": "m1",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 7,
+        "end": 9
       },
       "body": {
         "type": "TSModuleBlock",
-        "start": 10,
-        "end": 48,
         "body": [
           {
             "type": "ExportNamedDeclaration",
-            "start": 14,
-            "end": 46,
             "declaration": {
               "type": "VariableDeclaration",
-              "start": 21,
-              "end": 46,
               "kind": "var",
               "declarations": [
                 {
                   "type": "VariableDeclarator",
-                  "start": 25,
-                  "end": 45,
                   "id": {
                     "type": "Identifier",
-                    "start": 25,
-                    "end": 26,
                     "decorators": [],
                     "name": "n",
                     "optional": false,
-                    "typeAnnotation": null
+                    "typeAnnotation": null,
+                    "start": 25,
+                    "end": 26
                   },
                   "init": {
                     "type": "ObjectExpression",
-                    "start": 29,
-                    "end": 45,
                     "properties": [
                       {
                         "type": "Property",
-                        "start": 31,
-                        "end": 43,
                         "kind": "init",
                         "key": {
                           "type": "Literal",
-                          "start": 31,
-                          "end": 40,
                           "value": "foo bar",
-                          "raw": "'foo bar'"
+                          "raw": "'foo bar'",
+                          "start": 31,
+                          "end": 40
                         },
                         "value": {
                           "type": "Literal",
-                          "start": 42,
-                          "end": 43,
                           "value": 4,
-                          "raw": "4"
+                          "raw": "4",
+                          "start": 42,
+                          "end": 43
                         },
                         "method": false,
                         "shorthand": false,
                         "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "start": 31,
+                        "end": 43
                       }
-                    ]
+                    ],
+                    "start": 29,
+                    "end": 45
                   },
-                  "definite": false
+                  "definite": false,
+                  "start": 25,
+                  "end": 45
                 }
               ],
-              "declare": false
+              "declare": false,
+              "start": 21,
+              "end": 46
             },
             "specifiers": [],
             "source": null,
             "exportKind": "value",
-            "attributes": []
+            "attributes": [],
+            "start": 14,
+            "end": 46
           }
-        ]
+        ],
+        "start": 10,
+        "end": 48
       },
       "kind": "module",
       "declare": false,
-      "global": false
+      "global": false,
+      "start": 0,
+      "end": 48
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 48
 }
 ```

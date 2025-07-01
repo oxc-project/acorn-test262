@@ -1,357 +1,357 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 2894,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 1133,
-      "end": 1284,
       "expression": {
         "type": "CallExpression",
-        "start": 1133,
-        "end": 1283,
         "callee": {
           "type": "MemberExpression",
-          "start": 1133,
-          "end": 1149,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 1133,
-            "end": 1139,
-            "name": "assert"
+            "end": 1139
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 1140,
-            "end": 1149,
-            "name": "sameValue"
+            "end": 1149
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 1133,
+          "end": 1149
         },
         "arguments": [
           {
             "type": "UnaryExpression",
-            "start": 1153,
-            "end": 1190,
             "operator": "typeof",
             "argument": {
               "type": "MemberExpression",
-              "start": 1160,
-              "end": 1190,
               "object": {
                 "type": "MemberExpression",
-                "start": 1160,
-                "end": 1181,
                 "object": {
                   "type": "Identifier",
+                  "name": "ShadowRealm",
                   "start": 1160,
-                  "end": 1171,
-                  "name": "ShadowRealm"
+                  "end": 1171
                 },
                 "property": {
                   "type": "Identifier",
+                  "name": "prototype",
                   "start": 1172,
-                  "end": 1181,
-                  "name": "prototype"
+                  "end": 1181
                 },
                 "optional": false,
-                "computed": false
+                "computed": false,
+                "start": 1160,
+                "end": 1181
               },
               "property": {
                 "type": "Identifier",
+                "name": "evaluate",
                 "start": 1182,
-                "end": 1190,
-                "name": "evaluate"
+                "end": 1190
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 1160,
+              "end": 1190
             },
-            "prefix": true
+            "prefix": true,
+            "start": 1153,
+            "end": 1190
           },
           {
             "type": "Literal",
-            "start": 1194,
-            "end": 1204,
             "value": "function",
-            "raw": "'function'"
+            "raw": "'function'",
+            "start": 1194,
+            "end": 1204
           },
           {
             "type": "Literal",
-            "start": 1208,
-            "end": 1281,
             "value": "This test must fail if ShadowRealm.prototype.evaluate is not a function",
-            "raw": "'This test must fail if ShadowRealm.prototype.evaluate is not a function'"
+            "raw": "'This test must fail if ShadowRealm.prototype.evaluate is not a function'",
+            "start": 1208,
+            "end": 1281
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 1133,
+        "end": 1283
+      },
+      "start": 1133,
+      "end": 1284
     },
     {
       "type": "VariableDeclaration",
-      "start": 1286,
-      "end": 1314,
       "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 1292,
-          "end": 1313,
           "id": {
             "type": "Identifier",
+            "name": "r",
             "start": 1292,
-            "end": 1293,
-            "name": "r"
+            "end": 1293
           },
           "init": {
             "type": "NewExpression",
-            "start": 1296,
-            "end": 1313,
             "callee": {
               "type": "Identifier",
+              "name": "ShadowRealm",
               "start": 1300,
-              "end": 1311,
-              "name": "ShadowRealm"
+              "end": 1311
             },
-            "arguments": []
-          }
+            "arguments": [],
+            "start": 1296,
+            "end": 1313
+          },
+          "start": 1292,
+          "end": 1313
         }
-      ]
+      ],
+      "start": 1286,
+      "end": 1314
     },
     {
       "type": "VariableDeclaration",
-      "start": 1316,
-      "end": 1816,
       "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 1322,
-          "end": 1815,
           "id": {
             "type": "Identifier",
+            "name": "anyMissed",
             "start": 1322,
-            "end": 1331,
-            "name": "anyMissed"
+            "end": 1331
           },
           "init": {
             "type": "CallExpression",
-            "start": 1334,
-            "end": 1815,
             "callee": {
               "type": "MemberExpression",
-              "start": 1334,
-              "end": 1344,
               "object": {
                 "type": "Identifier",
+                "name": "r",
                 "start": 1334,
-                "end": 1335,
-                "name": "r"
+                "end": 1335
               },
               "property": {
                 "type": "Identifier",
+                "name": "evaluate",
                 "start": 1336,
-                "end": 1344,
-                "name": "evaluate"
+                "end": 1344
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 1334,
+              "end": 1344
             },
             "arguments": [
               {
                 "type": "TemplateLiteral",
-                "start": 1345,
-                "end": 1814,
                 "quasis": [
                   {
                     "type": "TemplateElement",
-                    "start": 1346,
-                    "end": 1813,
                     "value": {
                       "raw": "\n  // These names are the only exception as non configurable values.\n  // Yet, they don't represent any object value.\n  const esNonConfigValues = [\n    'undefined',\n    'Infinity',\n    'NaN'\n  ];\n\n  const entries = Object.entries(Object.getOwnPropertyDescriptors(globalThis));\n\n  const missed = entries\n    .filter(entry => entry[1].configurable === false)\n    .map(([name]) => name)\n    .filter(name => !esNonConfigValues.includes(name))\n    .join(', ');\n\n  missed;\n",
                       "cooked": "\n  // These names are the only exception as non configurable values.\n  // Yet, they don't represent any object value.\n  const esNonConfigValues = [\n    'undefined',\n    'Infinity',\n    'NaN'\n  ];\n\n  const entries = Object.entries(Object.getOwnPropertyDescriptors(globalThis));\n\n  const missed = entries\n    .filter(entry => entry[1].configurable === false)\n    .map(([name]) => name)\n    .filter(name => !esNonConfigValues.includes(name))\n    .join(', ');\n\n  missed;\n"
                     },
-                    "tail": true
+                    "tail": true,
+                    "start": 1346,
+                    "end": 1813
                   }
                 ],
-                "expressions": []
+                "expressions": [],
+                "start": 1345,
+                "end": 1814
               }
             ],
-            "optional": false
-          }
+            "optional": false,
+            "start": 1334,
+            "end": 1815
+          },
+          "start": 1322,
+          "end": 1815
         }
-      ]
+      ],
+      "start": 1316,
+      "end": 1816
     },
     {
       "type": "ExpressionStatement",
-      "start": 1818,
-      "end": 1900,
       "expression": {
         "type": "CallExpression",
-        "start": 1818,
-        "end": 1899,
         "callee": {
           "type": "MemberExpression",
-          "start": 1818,
-          "end": 1834,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 1818,
-            "end": 1824,
-            "name": "assert"
+            "end": 1824
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 1825,
-            "end": 1834,
-            "name": "sameValue"
+            "end": 1834
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 1818,
+          "end": 1834
         },
         "arguments": [
           {
             "type": "Identifier",
+            "name": "anyMissed",
             "start": 1835,
-            "end": 1844,
-            "name": "anyMissed"
+            "end": 1844
           },
           {
             "type": "Literal",
-            "start": 1846,
-            "end": 1848,
             "value": "",
-            "raw": "''"
+            "raw": "''",
+            "start": 1846,
+            "end": 1848
           },
           {
             "type": "Literal",
-            "start": 1850,
-            "end": 1898,
             "value": "All globalThis properties must be configurable",
-            "raw": "'All globalThis properties must be configurable'"
+            "raw": "'All globalThis properties must be configurable'",
+            "start": 1850,
+            "end": 1898
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 1818,
+        "end": 1899
+      },
+      "start": 1818,
+      "end": 1900
     },
     {
       "type": "VariableDeclaration",
-      "start": 1902,
-      "end": 2808,
       "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 1908,
-          "end": 2807,
           "id": {
             "type": "Identifier",
+            "name": "result",
             "start": 1908,
-            "end": 1914,
-            "name": "result"
+            "end": 1914
           },
           "init": {
             "type": "CallExpression",
-            "start": 1917,
-            "end": 2807,
             "callee": {
               "type": "MemberExpression",
-              "start": 1917,
-              "end": 1927,
               "object": {
                 "type": "Identifier",
+                "name": "r",
                 "start": 1917,
-                "end": 1918,
-                "name": "r"
+                "end": 1918
               },
               "property": {
                 "type": "Identifier",
+                "name": "evaluate",
                 "start": 1919,
-                "end": 1927,
-                "name": "evaluate"
+                "end": 1927
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 1917,
+              "end": 1927
             },
             "arguments": [
               {
                 "type": "TemplateLiteral",
-                "start": 1928,
-                "end": 2806,
                 "quasis": [
                   {
                     "type": "TemplateElement",
-                    "start": 1929,
-                    "end": 2805,
                     "value": {
                       "raw": "\n  const ObjectKeys = Object.keys;\n  const hasOwn = Object.prototype.hasOwnProperty;\n  const savedGlobal = globalThis;\n  const names = Object.keys(Object.getOwnPropertyDescriptors(globalThis));\n\n  // These names are the only exception as non configurable values.\n  // Yet, they don't represent any object value.\n  const esNonConfigValues = [\n    'undefined',\n    'Infinity',\n    'NaN'\n  ];\n\n  // Delete every name except globalThis, for now\n  const remainingNames = names.filter(name => {\n    if (esNonConfigValues.includes(name)) {\n      return false;\n    }\n\n    if (name !== 'globalThis') {\n      delete globalThis[name];\n      return hasOwn.call(globalThis, name);\n    }\n  });\n\n  delete globalThis['globalThis'];\n\n  if (hasOwn.call(savedGlobal, 'globalThis')) {\n    remainingNames.push('globalThis');\n  }\n\n  const failedDelete = remainingNames.join(', ');\n\n  failedDelete;\n",
                       "cooked": "\n  const ObjectKeys = Object.keys;\n  const hasOwn = Object.prototype.hasOwnProperty;\n  const savedGlobal = globalThis;\n  const names = Object.keys(Object.getOwnPropertyDescriptors(globalThis));\n\n  // These names are the only exception as non configurable values.\n  // Yet, they don't represent any object value.\n  const esNonConfigValues = [\n    'undefined',\n    'Infinity',\n    'NaN'\n  ];\n\n  // Delete every name except globalThis, for now\n  const remainingNames = names.filter(name => {\n    if (esNonConfigValues.includes(name)) {\n      return false;\n    }\n\n    if (name !== 'globalThis') {\n      delete globalThis[name];\n      return hasOwn.call(globalThis, name);\n    }\n  });\n\n  delete globalThis['globalThis'];\n\n  if (hasOwn.call(savedGlobal, 'globalThis')) {\n    remainingNames.push('globalThis');\n  }\n\n  const failedDelete = remainingNames.join(', ');\n\n  failedDelete;\n"
                     },
-                    "tail": true
+                    "tail": true,
+                    "start": 1929,
+                    "end": 2805
                   }
                 ],
-                "expressions": []
+                "expressions": [],
+                "start": 1928,
+                "end": 2806
               }
             ],
-            "optional": false
-          }
+            "optional": false,
+            "start": 1917,
+            "end": 2807
+          },
+          "start": 1908,
+          "end": 2807
         }
-      ]
+      ],
+      "start": 1902,
+      "end": 2808
     },
     {
       "type": "ExpressionStatement",
-      "start": 2810,
-      "end": 2893,
       "expression": {
         "type": "CallExpression",
-        "start": 2810,
-        "end": 2892,
         "callee": {
           "type": "MemberExpression",
-          "start": 2810,
-          "end": 2826,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 2810,
-            "end": 2816,
-            "name": "assert"
+            "end": 2816
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 2817,
-            "end": 2826,
-            "name": "sameValue"
+            "end": 2826
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 2810,
+          "end": 2826
         },
         "arguments": [
           {
             "type": "Identifier",
+            "name": "result",
             "start": 2827,
-            "end": 2833,
-            "name": "result"
+            "end": 2833
           },
           {
             "type": "Literal",
-            "start": 2835,
-            "end": 2837,
             "value": "",
-            "raw": "''"
+            "raw": "''",
+            "start": 2835,
+            "end": 2837
           },
           {
             "type": "Literal",
-            "start": 2839,
-            "end": 2891,
             "value": "deleting any globalThis property must be effective",
-            "raw": "'deleting any globalThis property must be effective'"
+            "raw": "'deleting any globalThis property must be effective'",
+            "start": 2839,
+            "end": 2891
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 2810,
+        "end": 2892
+      },
+      "start": 2810,
+      "end": 2893
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 2894
 }

@@ -1,447 +1,447 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 2344,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 1147,
-      "end": 1291,
       "expression": {
         "type": "CallExpression",
-        "start": 1147,
-        "end": 1290,
         "callee": {
           "type": "MemberExpression",
-          "start": 1147,
-          "end": 1163,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 1147,
-            "end": 1153,
-            "name": "assert"
+            "end": 1153
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 1154,
-            "end": 1163,
-            "name": "sameValue"
+            "end": 1163
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 1147,
+          "end": 1163
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 1167,
-            "end": 1196,
             "callee": {
               "type": "MemberExpression",
-              "start": 1167,
-              "end": 1194,
               "object": {
                 "type": "Literal",
-                "start": 1167,
-                "end": 1182,
                 "value": "A᠎Σ",
-                "raw": "\"A\\u180E\\u03A3\""
+                "raw": "\"A\\u180E\\u03A3\"",
+                "start": 1167,
+                "end": 1182
               },
               "property": {
                 "type": "Identifier",
+                "name": "toLowerCase",
                 "start": 1183,
-                "end": 1194,
-                "name": "toLowerCase"
+                "end": 1194
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 1167,
+              "end": 1194
             },
             "arguments": [],
-            "optional": false
+            "optional": false,
+            "start": 1167,
+            "end": 1196
           },
           {
             "type": "Literal",
-            "start": 1200,
-            "end": 1215,
             "value": "a᠎ς",
-            "raw": "\"a\\u180E\\u03C2\""
+            "raw": "\"a\\u180E\\u03C2\"",
+            "start": 1200,
+            "end": 1215
           },
           {
             "type": "Literal",
-            "start": 1219,
-            "end": 1288,
             "value": "Sigma preceded by LATIN CAPITAL LETTER A, MONGOLIAN VOWEL SEPARATOR",
-            "raw": "\"Sigma preceded by LATIN CAPITAL LETTER A, MONGOLIAN VOWEL SEPARATOR\""
+            "raw": "\"Sigma preceded by LATIN CAPITAL LETTER A, MONGOLIAN VOWEL SEPARATOR\"",
+            "start": 1219,
+            "end": 1288
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 1147,
+        "end": 1290
+      },
+      "start": 1147,
+      "end": 1291
     },
     {
       "type": "ExpressionStatement",
-      "start": 1292,
-      "end": 1474,
       "expression": {
         "type": "CallExpression",
-        "start": 1292,
-        "end": 1473,
         "callee": {
           "type": "MemberExpression",
-          "start": 1292,
-          "end": 1308,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 1292,
-            "end": 1298,
-            "name": "assert"
+            "end": 1298
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 1299,
-            "end": 1308,
-            "name": "sameValue"
+            "end": 1308
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 1292,
+          "end": 1308
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 1312,
-            "end": 1342,
             "callee": {
               "type": "MemberExpression",
-              "start": 1312,
-              "end": 1340,
               "object": {
                 "type": "Literal",
-                "start": 1312,
-                "end": 1328,
                 "value": "A᠎ΣB",
-                "raw": "\"A\\u180E\\u03A3B\""
+                "raw": "\"A\\u180E\\u03A3B\"",
+                "start": 1312,
+                "end": 1328
               },
               "property": {
                 "type": "Identifier",
+                "name": "toLowerCase",
                 "start": 1329,
-                "end": 1340,
-                "name": "toLowerCase"
+                "end": 1340
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 1312,
+              "end": 1340
             },
             "arguments": [],
-            "optional": false
+            "optional": false,
+            "start": 1312,
+            "end": 1342
           },
           {
             "type": "Literal",
-            "start": 1346,
-            "end": 1362,
             "value": "a᠎σb",
-            "raw": "\"a\\u180E\\u03C3b\""
+            "raw": "\"a\\u180E\\u03C3b\"",
+            "start": 1346,
+            "end": 1362
           },
           {
             "type": "Literal",
-            "start": 1366,
-            "end": 1471,
             "value": "Sigma preceded by LATIN CAPITAL LETTER A, MONGOLIAN VOWEL SEPARATOR, followed by LATIN CAPITAL LETTER B",
-            "raw": "\"Sigma preceded by LATIN CAPITAL LETTER A, MONGOLIAN VOWEL SEPARATOR, followed by LATIN CAPITAL LETTER B\""
+            "raw": "\"Sigma preceded by LATIN CAPITAL LETTER A, MONGOLIAN VOWEL SEPARATOR, followed by LATIN CAPITAL LETTER B\"",
+            "start": 1366,
+            "end": 1471
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 1292,
+        "end": 1473
+      },
+      "start": 1292,
+      "end": 1474
     },
     {
       "type": "ExpressionStatement",
-      "start": 1524,
-      "end": 1680,
       "expression": {
         "type": "CallExpression",
-        "start": 1524,
-        "end": 1679,
         "callee": {
           "type": "MemberExpression",
-          "start": 1524,
-          "end": 1540,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 1524,
-            "end": 1530,
-            "name": "assert"
+            "end": 1530
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 1531,
-            "end": 1540,
-            "name": "sameValue"
+            "end": 1540
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 1524,
+          "end": 1540
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 1544,
-            "end": 1573,
             "callee": {
               "type": "MemberExpression",
-              "start": 1544,
-              "end": 1571,
               "object": {
                 "type": "Literal",
-                "start": 1544,
-                "end": 1559,
                 "value": "AΣ᠎",
-                "raw": "\"A\\u03A3\\u180E\""
+                "raw": "\"A\\u03A3\\u180E\"",
+                "start": 1544,
+                "end": 1559
               },
               "property": {
                 "type": "Identifier",
+                "name": "toLowerCase",
                 "start": 1560,
-                "end": 1571,
-                "name": "toLowerCase"
+                "end": 1571
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 1544,
+              "end": 1571
             },
             "arguments": [],
-            "optional": false
+            "optional": false,
+            "start": 1544,
+            "end": 1573
           },
           {
             "type": "Literal",
-            "start": 1577,
-            "end": 1592,
             "value": "aς᠎",
-            "raw": "\"a\\u03C2\\u180E\""
+            "raw": "\"a\\u03C2\\u180E\"",
+            "start": 1577,
+            "end": 1592
           },
           {
             "type": "Literal",
-            "start": 1596,
-            "end": 1677,
             "value": "Sigma preceded by LATIN CAPITAL LETTER A, followed by MONGOLIAN VOWEL SEPARATOR",
-            "raw": "\"Sigma preceded by LATIN CAPITAL LETTER A, followed by MONGOLIAN VOWEL SEPARATOR\""
+            "raw": "\"Sigma preceded by LATIN CAPITAL LETTER A, followed by MONGOLIAN VOWEL SEPARATOR\"",
+            "start": 1596,
+            "end": 1677
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 1524,
+        "end": 1679
+      },
+      "start": 1524,
+      "end": 1680
     },
     {
       "type": "ExpressionStatement",
-      "start": 1681,
-      "end": 1863,
       "expression": {
         "type": "CallExpression",
-        "start": 1681,
-        "end": 1862,
         "callee": {
           "type": "MemberExpression",
-          "start": 1681,
-          "end": 1697,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 1681,
-            "end": 1687,
-            "name": "assert"
+            "end": 1687
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 1688,
-            "end": 1697,
-            "name": "sameValue"
+            "end": 1697
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 1681,
+          "end": 1697
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 1701,
-            "end": 1731,
             "callee": {
               "type": "MemberExpression",
-              "start": 1701,
-              "end": 1729,
               "object": {
                 "type": "Literal",
-                "start": 1701,
-                "end": 1717,
                 "value": "AΣ᠎B",
-                "raw": "\"A\\u03A3\\u180EB\""
+                "raw": "\"A\\u03A3\\u180EB\"",
+                "start": 1701,
+                "end": 1717
               },
               "property": {
                 "type": "Identifier",
+                "name": "toLowerCase",
                 "start": 1718,
-                "end": 1729,
-                "name": "toLowerCase"
+                "end": 1729
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 1701,
+              "end": 1729
             },
             "arguments": [],
-            "optional": false
+            "optional": false,
+            "start": 1701,
+            "end": 1731
           },
           {
             "type": "Literal",
-            "start": 1735,
-            "end": 1751,
             "value": "aσ᠎b",
-            "raw": "\"a\\u03C3\\u180Eb\""
+            "raw": "\"a\\u03C3\\u180Eb\"",
+            "start": 1735,
+            "end": 1751
           },
           {
             "type": "Literal",
-            "start": 1755,
-            "end": 1860,
             "value": "Sigma preceded by LATIN CAPITAL LETTER A, followed by MONGOLIAN VOWEL SEPARATOR, LATIN CAPITAL LETTER B",
-            "raw": "\"Sigma preceded by LATIN CAPITAL LETTER A, followed by MONGOLIAN VOWEL SEPARATOR, LATIN CAPITAL LETTER B\""
+            "raw": "\"Sigma preceded by LATIN CAPITAL LETTER A, followed by MONGOLIAN VOWEL SEPARATOR, LATIN CAPITAL LETTER B\"",
+            "start": 1755,
+            "end": 1860
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 1681,
+        "end": 1862
+      },
+      "start": 1681,
+      "end": 1863
     },
     {
       "type": "ExpressionStatement",
-      "start": 1926,
-      "end": 2121,
       "expression": {
         "type": "CallExpression",
-        "start": 1926,
-        "end": 2120,
         "callee": {
           "type": "MemberExpression",
-          "start": 1926,
-          "end": 1942,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 1926,
-            "end": 1932,
-            "name": "assert"
+            "end": 1932
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 1933,
-            "end": 1942,
-            "name": "sameValue"
+            "end": 1942
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 1926,
+          "end": 1942
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 1946,
-            "end": 1981,
             "callee": {
               "type": "MemberExpression",
-              "start": 1946,
-              "end": 1979,
               "object": {
                 "type": "Literal",
-                "start": 1946,
-                "end": 1967,
                 "value": "A᠎Σ᠎",
-                "raw": "\"A\\u180E\\u03A3\\u180E\""
+                "raw": "\"A\\u180E\\u03A3\\u180E\"",
+                "start": 1946,
+                "end": 1967
               },
               "property": {
                 "type": "Identifier",
+                "name": "toLowerCase",
                 "start": 1968,
-                "end": 1979,
-                "name": "toLowerCase"
+                "end": 1979
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 1946,
+              "end": 1979
             },
             "arguments": [],
-            "optional": false
+            "optional": false,
+            "start": 1946,
+            "end": 1981
           },
           {
             "type": "Literal",
-            "start": 1985,
-            "end": 2006,
             "value": "a᠎ς᠎",
-            "raw": "\"a\\u180E\\u03C2\\u180E\""
+            "raw": "\"a\\u180E\\u03C2\\u180E\"",
+            "start": 1985,
+            "end": 2006
           },
           {
             "type": "Literal",
-            "start": 2010,
-            "end": 2118,
             "value": "Sigma preceded by LATIN CAPITAL LETTER A, MONGOLIAN VOWEL SEPARATOR, followed by MONGOLIAN VOWEL SEPARATOR",
-            "raw": "\"Sigma preceded by LATIN CAPITAL LETTER A, MONGOLIAN VOWEL SEPARATOR, followed by MONGOLIAN VOWEL SEPARATOR\""
+            "raw": "\"Sigma preceded by LATIN CAPITAL LETTER A, MONGOLIAN VOWEL SEPARATOR, followed by MONGOLIAN VOWEL SEPARATOR\"",
+            "start": 2010,
+            "end": 2118
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 1926,
+        "end": 2120
+      },
+      "start": 1926,
+      "end": 2121
     },
     {
       "type": "ExpressionStatement",
-      "start": 2122,
-      "end": 2343,
       "expression": {
         "type": "CallExpression",
-        "start": 2122,
-        "end": 2342,
         "callee": {
           "type": "MemberExpression",
-          "start": 2122,
-          "end": 2138,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 2122,
-            "end": 2128,
-            "name": "assert"
+            "end": 2128
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 2129,
-            "end": 2138,
-            "name": "sameValue"
+            "end": 2138
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 2122,
+          "end": 2138
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 2142,
-            "end": 2178,
             "callee": {
               "type": "MemberExpression",
-              "start": 2142,
-              "end": 2176,
               "object": {
                 "type": "Literal",
-                "start": 2142,
-                "end": 2164,
                 "value": "A᠎Σ᠎B",
-                "raw": "\"A\\u180E\\u03A3\\u180EB\""
+                "raw": "\"A\\u180E\\u03A3\\u180EB\"",
+                "start": 2142,
+                "end": 2164
               },
               "property": {
                 "type": "Identifier",
+                "name": "toLowerCase",
                 "start": 2165,
-                "end": 2176,
-                "name": "toLowerCase"
+                "end": 2176
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 2142,
+              "end": 2176
             },
             "arguments": [],
-            "optional": false
+            "optional": false,
+            "start": 2142,
+            "end": 2178
           },
           {
             "type": "Literal",
-            "start": 2182,
-            "end": 2204,
             "value": "a᠎σ᠎b",
-            "raw": "\"a\\u180E\\u03C3\\u180Eb\""
+            "raw": "\"a\\u180E\\u03C3\\u180Eb\"",
+            "start": 2182,
+            "end": 2204
           },
           {
             "type": "Literal",
-            "start": 2208,
-            "end": 2340,
             "value": "Sigma preceded by LATIN CAPITAL LETTER A, MONGOLIAN VOWEL SEPARATOR, followed by MONGOLIAN VOWEL SEPARATOR, LATIN CAPITAL LETTER B",
-            "raw": "\"Sigma preceded by LATIN CAPITAL LETTER A, MONGOLIAN VOWEL SEPARATOR, followed by MONGOLIAN VOWEL SEPARATOR, LATIN CAPITAL LETTER B\""
+            "raw": "\"Sigma preceded by LATIN CAPITAL LETTER A, MONGOLIAN VOWEL SEPARATOR, followed by MONGOLIAN VOWEL SEPARATOR, LATIN CAPITAL LETTER B\"",
+            "start": 2208,
+            "end": 2340
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 2122,
+        "end": 2342
+      },
+      "start": 2122,
+      "end": 2343
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 2344
 }

@@ -2,147 +2,147 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 57,
   "body": [
     {
       "type": "ExportNamedDeclaration",
-      "start": 0,
-      "end": 28,
       "declaration": {
         "type": "VariableDeclaration",
-        "start": 7,
-        "end": 28,
         "kind": "let",
         "declarations": [
           {
             "type": "VariableDeclarator",
-            "start": 11,
-            "end": 27,
             "id": {
               "type": "ObjectPattern",
-              "start": 11,
-              "end": 23,
               "decorators": [],
               "properties": [
                 {
                   "type": "Property",
-                  "start": 13,
-                  "end": 21,
                   "kind": "init",
                   "key": {
                     "type": "Identifier",
-                    "start": 13,
-                    "end": 21,
                     "decorators": [],
                     "name": "toString",
                     "optional": false,
-                    "typeAnnotation": null
+                    "typeAnnotation": null,
+                    "start": 13,
+                    "end": 21
                   },
                   "value": {
                     "type": "Identifier",
-                    "start": 13,
-                    "end": 21,
                     "decorators": [],
                     "name": "toString",
                     "optional": false,
-                    "typeAnnotation": null
+                    "typeAnnotation": null,
+                    "start": 13,
+                    "end": 21
                   },
                   "method": false,
                   "shorthand": true,
                   "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "start": 13,
+                  "end": 21
                 }
               ],
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 11,
+              "end": 23
             },
             "init": {
               "type": "Literal",
-              "start": 26,
-              "end": 27,
               "value": 1,
-              "raw": "1"
+              "raw": "1",
+              "start": 26,
+              "end": 27
             },
-            "definite": false
+            "definite": false,
+            "start": 11,
+            "end": 27
           }
         ],
-        "declare": false
+        "declare": false,
+        "start": 7,
+        "end": 28
       },
       "specifiers": [],
       "source": null,
       "exportKind": "value",
-      "attributes": []
+      "attributes": [],
+      "start": 0,
+      "end": 28
     },
     {
       "type": "BlockStatement",
-      "start": 29,
-      "end": 57,
       "body": [
         {
           "type": "VariableDeclaration",
-          "start": 35,
-          "end": 55,
           "kind": "let",
           "declarations": [
             {
               "type": "VariableDeclarator",
-              "start": 39,
-              "end": 54,
               "id": {
                 "type": "ObjectPattern",
-                "start": 39,
-                "end": 50,
                 "decorators": [],
                 "properties": [
                   {
                     "type": "Property",
-                    "start": 41,
-                    "end": 48,
                     "kind": "init",
                     "key": {
                       "type": "Identifier",
-                      "start": 41,
-                      "end": 48,
                       "decorators": [],
                       "name": "toFixed",
                       "optional": false,
-                      "typeAnnotation": null
+                      "typeAnnotation": null,
+                      "start": 41,
+                      "end": 48
                     },
                     "value": {
                       "type": "Identifier",
-                      "start": 41,
-                      "end": 48,
                       "decorators": [],
                       "name": "toFixed",
                       "optional": false,
-                      "typeAnnotation": null
+                      "typeAnnotation": null,
+                      "start": 41,
+                      "end": 48
                     },
                     "method": false,
                     "shorthand": true,
                     "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "start": 41,
+                    "end": 48
                   }
                 ],
                 "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "start": 39,
+                "end": 50
               },
               "init": {
                 "type": "Literal",
-                "start": 53,
-                "end": 54,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "start": 53,
+                "end": 54
               },
-              "definite": false
+              "definite": false,
+              "start": 39,
+              "end": 54
             }
           ],
-          "declare": false
+          "declare": false,
+          "start": 35,
+          "end": 55
         }
-      ]
+      ],
+      "start": 29,
+      "end": 57
     }
   ],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 57
 }
 ```

@@ -2,26 +2,20 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 68,
   "body": [
     {
       "type": "ExportNamedDeclaration",
-      "start": 0,
-      "end": 68,
       "declaration": {
         "type": "ClassDeclaration",
-        "start": 7,
-        "end": 68,
         "decorators": [],
         "id": {
           "type": "Identifier",
-          "start": 13,
-          "end": 22,
           "decorators": [],
           "name": "LoggedOut",
           "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "start": 13,
+          "end": 22
         },
         "typeParameters": null,
         "superClass": null,
@@ -29,28 +23,22 @@ __ESTREE_TEST__:PASS:
         "implements": [],
         "body": {
           "type": "ClassBody",
-          "start": 23,
-          "end": 68,
           "body": [
             {
               "type": "PropertyDefinition",
-              "start": 29,
-              "end": 66,
               "decorators": [],
               "key": {
                 "type": "Identifier",
-                "start": 29,
-                "end": 36,
                 "decorators": [],
                 "name": "content",
                 "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "start": 29,
+                "end": 36
               },
               "typeAnnotation": null,
               "value": {
                 "type": "ArrowFunctionExpression",
-                "start": 39,
-                "end": 66,
                 "expression": true,
                 "async": false,
                 "typeParameters": null,
@@ -58,8 +46,6 @@ __ESTREE_TEST__:PASS:
                 "returnType": null,
                 "body": {
                   "type": "JSXFragment",
-                  "start": 55,
-                  "end": 60,
                   "openingFragment": {
                     "type": "JSXOpeningFragment",
                     "start": 55,
@@ -70,10 +56,14 @@ __ESTREE_TEST__:PASS:
                     "type": "JSXClosingFragment",
                     "start": 57,
                     "end": 60
-                  }
+                  },
+                  "start": 55,
+                  "end": 60
                 },
                 "id": null,
-                "generator": false
+                "generator": false,
+                "start": 39,
+                "end": 66
               },
               "computed": false,
               "static": false,
@@ -82,20 +72,30 @@ __ESTREE_TEST__:PASS:
               "optional": false,
               "definite": false,
               "readonly": false,
-              "accessibility": null
+              "accessibility": null,
+              "start": 29,
+              "end": 66
             }
-          ]
+          ],
+          "start": 23,
+          "end": 68
         },
         "abstract": false,
-        "declare": false
+        "declare": false,
+        "start": 7,
+        "end": 68
       },
       "specifiers": [],
       "source": null,
       "exportKind": "value",
-      "attributes": []
+      "attributes": [],
+      "start": 0,
+      "end": 68
     }
   ],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 68
 }
 ```

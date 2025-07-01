@@ -1,101 +1,101 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 368,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 292,
-      "end": 312,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 296,
-          "end": 311,
           "id": {
             "type": "Identifier",
+            "name": "objBak",
             "start": 296,
-            "end": 302,
-            "name": "objBak"
+            "end": 302
           },
           "init": {
             "type": "Identifier",
+            "name": "Object",
             "start": 305,
-            "end": 311,
-            "name": "Object"
-          }
+            "end": 311
+          },
+          "start": 296,
+          "end": 311
         }
-      ]
+      ],
+      "start": 292,
+      "end": 312
     },
     {
       "type": "TryStatement",
-      "start": 314,
-      "end": 367,
       "block": {
         "type": "BlockStatement",
-        "start": 318,
-        "end": 336,
         "body": [
           {
             "type": "ExpressionStatement",
-            "start": 322,
-            "end": 334,
             "expression": {
               "type": "AssignmentExpression",
-              "start": 322,
-              "end": 333,
               "operator": "=",
               "left": {
                 "type": "Identifier",
+                "name": "Object",
                 "start": 322,
-                "end": 328,
-                "name": "Object"
+                "end": 328
               },
               "right": {
                 "type": "Literal",
-                "start": 331,
-                "end": 333,
                 "value": 12,
-                "raw": "12"
-              }
-            }
+                "raw": "12",
+                "start": 331,
+                "end": 333
+              },
+              "start": 322,
+              "end": 333
+            },
+            "start": 322,
+            "end": 334
           }
-        ]
+        ],
+        "start": 318,
+        "end": 336
       },
       "handler": null,
       "finalizer": {
         "type": "BlockStatement",
-        "start": 345,
-        "end": 367,
         "body": [
           {
             "type": "ExpressionStatement",
-            "start": 349,
-            "end": 365,
             "expression": {
               "type": "AssignmentExpression",
-              "start": 349,
-              "end": 364,
               "operator": "=",
               "left": {
                 "type": "Identifier",
+                "name": "Object",
                 "start": 349,
-                "end": 355,
-                "name": "Object"
+                "end": 355
               },
               "right": {
                 "type": "Identifier",
+                "name": "objBak",
                 "start": 358,
-                "end": 364,
-                "name": "objBak"
-              }
-            }
+                "end": 364
+              },
+              "start": 349,
+              "end": 364
+            },
+            "start": 349,
+            "end": 365
           }
-        ]
-      }
+        ],
+        "start": 345,
+        "end": 367
+      },
+      "start": 314,
+      "end": 367
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 368
 }

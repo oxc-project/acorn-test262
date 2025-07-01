@@ -2,80 +2,80 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 32,
   "body": [
     {
       "type": "ForOfStatement",
-      "start": 0,
-      "end": 32,
       "await": false,
       "left": {
         "type": "VariableDeclaration",
-        "start": 5,
-        "end": 10,
         "kind": "let",
         "declarations": [
           {
             "type": "VariableDeclarator",
-            "start": 9,
-            "end": 10,
             "id": {
               "type": "Identifier",
-              "start": 9,
-              "end": 10,
               "decorators": [],
               "name": "v",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 9,
+              "end": 10
             },
             "init": null,
-            "definite": false
+            "definite": false,
+            "start": 9,
+            "end": 10
           }
         ],
-        "declare": false
+        "declare": false,
+        "start": 5,
+        "end": 10
       },
       "right": {
         "type": "ArrayExpression",
+        "elements": [],
         "start": 14,
-        "end": 16,
-        "elements": []
+        "end": 16
       },
       "body": {
         "type": "BlockStatement",
-        "start": 18,
-        "end": 32,
         "body": [
           {
             "type": "VariableDeclaration",
-            "start": 24,
-            "end": 30,
             "kind": "var",
             "declarations": [
               {
                 "type": "VariableDeclarator",
-                "start": 28,
-                "end": 29,
                 "id": {
                   "type": "Identifier",
-                  "start": 28,
-                  "end": 29,
                   "decorators": [],
                   "name": "v",
                   "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "start": 28,
+                  "end": 29
                 },
                 "init": null,
-                "definite": false
+                "definite": false,
+                "start": 28,
+                "end": 29
               }
             ],
-            "declare": false
+            "declare": false,
+            "start": 24,
+            "end": 30
           }
-        ]
-      }
+        ],
+        "start": 18,
+        "end": 32
+      },
+      "start": 0,
+      "end": 32
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 32
 }
 ```

@@ -2,51 +2,41 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 200,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 0,
-      "end": 200,
       "expression": {
         "type": "AssignmentExpression",
-        "start": 0,
-        "end": 199,
         "operator": "=",
         "left": {
           "type": "MemberExpression",
-          "start": 0,
-          "end": 18,
           "object": {
             "type": "Identifier",
-            "start": 0,
-            "end": 4,
             "decorators": [],
             "name": "self",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 0,
+            "end": 4
           },
           "property": {
             "type": "Identifier",
-            "start": 5,
-            "end": 18,
             "decorators": [],
             "name": "importScripts",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 5,
+            "end": 18
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 0,
+          "end": 18
         },
         "right": {
           "type": "CallExpression",
-          "start": 21,
-          "end": 199,
           "callee": {
             "type": "FunctionExpression",
-            "start": 22,
-            "end": 183,
             "id": null,
             "generator": false,
             "async": false,
@@ -55,28 +45,22 @@ __ESTREE_TEST__:PASS:
             "params": [
               {
                 "type": "Identifier",
-                "start": 32,
-                "end": 45,
                 "decorators": [],
                 "name": "importScripts",
                 "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "start": 32,
+                "end": 45
               }
             ],
             "returnType": null,
             "body": {
               "type": "BlockStatement",
-              "start": 47,
-              "end": 183,
               "body": [
                 {
                   "type": "ReturnStatement",
-                  "start": 101,
-                  "end": 181,
                   "argument": {
                     "type": "FunctionExpression",
-                    "start": 108,
-                    "end": 180,
                     "id": null,
                     "generator": false,
                     "async": false,
@@ -86,41 +70,35 @@ __ESTREE_TEST__:PASS:
                     "returnType": null,
                     "body": {
                       "type": "BlockStatement",
-                      "start": 120,
-                      "end": 180,
                       "body": [
                         {
                           "type": "ReturnStatement",
-                          "start": 130,
-                          "end": 174,
                           "argument": {
                             "type": "CallExpression",
-                            "start": 137,
-                            "end": 173,
                             "callee": {
                               "type": "MemberExpression",
-                              "start": 137,
-                              "end": 156,
                               "object": {
                                 "type": "Identifier",
-                                "start": 137,
-                                "end": 150,
                                 "decorators": [],
                                 "name": "importScripts",
                                 "optional": false,
-                                "typeAnnotation": null
+                                "typeAnnotation": null,
+                                "start": 137,
+                                "end": 150
                               },
                               "property": {
                                 "type": "Identifier",
-                                "start": 151,
-                                "end": 156,
                                 "decorators": [],
                                 "name": "apply",
                                 "optional": false,
-                                "typeAnnotation": null
+                                "typeAnnotation": null,
+                                "start": 151,
+                                "end": 156
                               },
                               "optional": false,
-                              "computed": false
+                              "computed": false,
+                              "start": 137,
+                              "end": 156
                             },
                             "typeArguments": null,
                             "arguments": [
@@ -131,45 +109,67 @@ __ESTREE_TEST__:PASS:
                               },
                               {
                                 "type": "Identifier",
-                                "start": 163,
-                                "end": 172,
                                 "decorators": [],
                                 "name": "arguments",
                                 "optional": false,
-                                "typeAnnotation": null
+                                "typeAnnotation": null,
+                                "start": 163,
+                                "end": 172
                               }
                             ],
-                            "optional": false
-                          }
+                            "optional": false,
+                            "start": 137,
+                            "end": 173
+                          },
+                          "start": 130,
+                          "end": 174
                         }
-                      ]
+                      ],
+                      "start": 120,
+                      "end": 180
                     },
-                    "expression": false
-                  }
+                    "expression": false,
+                    "start": 108,
+                    "end": 180
+                  },
+                  "start": 101,
+                  "end": 181
                 }
-              ]
+              ],
+              "start": 47,
+              "end": 183
             },
-            "expression": false
+            "expression": false,
+            "start": 22,
+            "end": 183
           },
           "typeArguments": null,
           "arguments": [
             {
               "type": "Identifier",
-              "start": 185,
-              "end": 198,
               "decorators": [],
               "name": "importScripts",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 185,
+              "end": 198
             }
           ],
-          "optional": false
-        }
+          "optional": false,
+          "start": 21,
+          "end": 199
+        },
+        "start": 0,
+        "end": 199
       },
-      "directive": null
+      "directive": null,
+      "start": 0,
+      "end": 200
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 200
 }
 ```

@@ -2,85 +2,85 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 49,
   "body": [
     {
       "type": "TSEnumDeclaration",
-      "start": 0,
-      "end": 49,
       "id": {
         "type": "Identifier",
-        "start": 5,
-        "end": 6,
         "decorators": [],
         "name": "E",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 5,
+        "end": 6
       },
       "body": {
         "type": "TSEnumBody",
-        "start": 7,
-        "end": 49,
         "members": [
           {
             "type": "TSEnumMember",
-            "start": 27,
-            "end": 47,
             "id": {
               "type": "Identifier",
-              "start": 28,
-              "end": 29,
               "decorators": [],
               "name": "e",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 28,
+              "end": 29
             },
             "initializer": {
               "type": "AssignmentExpression",
-              "start": 33,
-              "end": 47,
               "operator": "=",
               "left": {
                 "type": "MemberExpression",
-                "start": 33,
-                "end": 43,
                 "object": {
                   "type": "Literal",
-                  "start": 33,
-                  "end": 34,
                   "value": 0,
-                  "raw": "0"
+                  "raw": "0",
+                  "start": 33,
+                  "end": 34
                 },
                 "property": {
                   "type": "Identifier",
-                  "start": 40,
-                  "end": 42,
                   "decorators": [],
                   "name": "e2",
                   "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "start": 40,
+                  "end": 42
                 },
                 "optional": false,
-                "computed": true
+                "computed": true,
+                "start": 33,
+                "end": 43
               },
               "right": {
                 "type": "Literal",
-                "start": 46,
-                "end": 47,
                 "value": 1,
-                "raw": "1"
-              }
+                "raw": "1",
+                "start": 46,
+                "end": 47
+              },
+              "start": 33,
+              "end": 47
             },
-            "computed": true
+            "computed": true,
+            "start": 27,
+            "end": 47
           }
-        ]
+        ],
+        "start": 7,
+        "end": 49
       },
       "const": false,
-      "declare": false
+      "declare": false,
+      "start": 0,
+      "end": 49
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 49
 }
 ```

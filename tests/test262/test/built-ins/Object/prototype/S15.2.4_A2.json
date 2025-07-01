@@ -1,119 +1,119 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 525,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 381,
-      "end": 421,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 385,
-          "end": 420,
           "id": {
             "type": "Identifier",
+            "name": "tostr",
             "start": 385,
-            "end": 390,
-            "name": "tostr"
+            "end": 390
           },
           "init": {
             "type": "CallExpression",
-            "start": 393,
-            "end": 420,
             "callee": {
               "type": "MemberExpression",
-              "start": 393,
-              "end": 418,
               "object": {
                 "type": "MemberExpression",
-                "start": 393,
-                "end": 409,
                 "object": {
                   "type": "Identifier",
+                  "name": "Object",
                   "start": 393,
-                  "end": 399,
-                  "name": "Object"
+                  "end": 399
                 },
                 "property": {
                   "type": "Identifier",
+                  "name": "prototype",
                   "start": 400,
-                  "end": 409,
-                  "name": "prototype"
+                  "end": 409
                 },
                 "optional": false,
-                "computed": false
+                "computed": false,
+                "start": 393,
+                "end": 409
               },
               "property": {
                 "type": "Identifier",
+                "name": "toString",
                 "start": 410,
-                "end": 418,
-                "name": "toString"
+                "end": 418
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 393,
+              "end": 418
             },
             "arguments": [],
-            "optional": false
-          }
+            "optional": false,
+            "start": 393,
+            "end": 420
+          },
+          "start": 385,
+          "end": 420
         }
-      ]
+      ],
+      "start": 381,
+      "end": 421
     },
     {
       "type": "ExpressionStatement",
-      "start": 423,
-      "end": 524,
       "expression": {
         "type": "CallExpression",
-        "start": 423,
-        "end": 523,
         "callee": {
           "type": "MemberExpression",
-          "start": 423,
-          "end": 439,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 423,
-            "end": 429,
-            "name": "assert"
+            "end": 429
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 430,
-            "end": 439,
-            "name": "sameValue"
+            "end": 439
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 423,
+          "end": 439
         },
         "arguments": [
           {
             "type": "Identifier",
+            "name": "tostr",
             "start": 440,
-            "end": 445,
-            "name": "tostr"
+            "end": 445
           },
           {
             "type": "Literal",
-            "start": 447,
-            "end": 464,
             "value": "[object Object]",
-            "raw": "\"[object Object]\""
+            "raw": "\"[object Object]\"",
+            "start": 447,
+            "end": 464
           },
           {
             "type": "Literal",
-            "start": 466,
-            "end": 522,
             "value": "The value of tostr is expected to be \"[object Object]\"",
-            "raw": "'The value of tostr is expected to be \"[object Object]\"'"
+            "raw": "'The value of tostr is expected to be \"[object Object]\"'",
+            "start": 466,
+            "end": 522
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 423,
+        "end": 523
+      },
+      "start": 423,
+      "end": 524
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 525
 }

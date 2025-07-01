@@ -1,212 +1,212 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 615,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 286,
-      "end": 430,
       "expression": {
         "type": "CallExpression",
-        "start": 286,
-        "end": 429,
         "callee": {
           "type": "MemberExpression",
-          "start": 286,
-          "end": 299,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 286,
-            "end": 292,
-            "name": "assert"
+            "end": 292
           },
           "property": {
             "type": "Identifier",
+            "name": "throws",
             "start": 293,
-            "end": 299,
-            "name": "throws"
+            "end": 299
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 286,
+          "end": 299
         },
         "arguments": [
           {
             "type": "Identifier",
+            "name": "SyntaxError",
             "start": 303,
-            "end": 314,
-            "name": "SyntaxError"
+            "end": 314
           },
           {
             "type": "ArrowFunctionExpression",
-            "start": 318,
-            "end": 352,
             "expression": true,
             "async": false,
             "params": [],
             "body": {
               "type": "NewExpression",
-              "start": 324,
-              "end": 352,
               "callee": {
                 "type": "Identifier",
+                "name": "RegExp",
                 "start": 328,
-                "end": 334,
-                "name": "RegExp"
+                "end": 334
               },
               "arguments": [
                 {
                   "type": "Literal",
-                  "start": 335,
-                  "end": 351,
                   "value": "(?<x>a)(?<x>b)",
-                  "raw": "\"(?<x>a)(?<x>b)\""
+                  "raw": "\"(?<x>a)(?<x>b)\"",
+                  "start": 335,
+                  "end": 351
                 }
-              ]
+              ],
+              "start": 324,
+              "end": 352
             },
             "id": null,
-            "generator": false
+            "generator": false,
+            "start": 318,
+            "end": 352
           },
           {
             "type": "Literal",
-            "start": 356,
-            "end": 427,
             "value": "Duplicate named capturing groups in the same alternative do not parse",
-            "raw": "\"Duplicate named capturing groups in the same alternative do not parse\""
+            "raw": "\"Duplicate named capturing groups in the same alternative do not parse\"",
+            "start": 356,
+            "end": 427
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 286,
+        "end": 429
+      },
+      "start": 286,
+      "end": 430
     },
     {
       "type": "VariableDeclaration",
-      "start": 432,
-      "end": 463,
       "kind": "let",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 436,
-          "end": 462,
           "id": {
             "type": "Identifier",
+            "name": "source",
             "start": 436,
-            "end": 442,
-            "name": "source"
+            "end": 442
           },
           "init": {
             "type": "Literal",
-            "start": 445,
-            "end": 462,
             "value": "(?<x>a)|(?<x>b)",
-            "raw": "\"(?<x>a)|(?<x>b)\""
-          }
+            "raw": "\"(?<x>a)|(?<x>b)\"",
+            "start": 445,
+            "end": 462
+          },
+          "start": 436,
+          "end": 462
         }
-      ]
+      ],
+      "start": 432,
+      "end": 463
     },
     {
       "type": "VariableDeclaration",
-      "start": 464,
-      "end": 496,
       "kind": "let",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 468,
-          "end": 495,
           "id": {
             "type": "Identifier",
+            "name": "parsed",
             "start": 468,
-            "end": 474,
-            "name": "parsed"
+            "end": 474
           },
           "init": {
             "type": "NewExpression",
-            "start": 477,
-            "end": 495,
             "callee": {
               "type": "Identifier",
+              "name": "RegExp",
               "start": 481,
-              "end": 487,
-              "name": "RegExp"
+              "end": 487
             },
             "arguments": [
               {
                 "type": "Identifier",
+                "name": "source",
                 "start": 488,
-                "end": 494,
-                "name": "source"
+                "end": 494
               }
-            ]
-          }
+            ],
+            "start": 477,
+            "end": 495
+          },
+          "start": 468,
+          "end": 495
         }
-      ]
+      ],
+      "start": 464,
+      "end": 496
     },
     {
       "type": "ExpressionStatement",
-      "start": 497,
-      "end": 614,
       "expression": {
         "type": "CallExpression",
-        "start": 497,
-        "end": 613,
         "callee": {
           "type": "MemberExpression",
-          "start": 497,
-          "end": 513,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 497,
-            "end": 503,
-            "name": "assert"
+            "end": 503
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 504,
-            "end": 513,
-            "name": "sameValue"
+            "end": 513
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 497,
+          "end": 513
         },
         "arguments": [
           {
             "type": "MemberExpression",
-            "start": 514,
-            "end": 527,
             "object": {
               "type": "Identifier",
+              "name": "parsed",
               "start": 514,
-              "end": 520,
-              "name": "parsed"
+              "end": 520
             },
             "property": {
               "type": "Identifier",
+              "name": "source",
               "start": 521,
-              "end": 527,
-              "name": "source"
+              "end": 527
             },
             "optional": false,
-            "computed": false
+            "computed": false,
+            "start": 514,
+            "end": 527
           },
           {
             "type": "Identifier",
+            "name": "source",
             "start": 529,
-            "end": 535,
-            "name": "source"
+            "end": 535
           },
           {
             "type": "Literal",
-            "start": 537,
-            "end": 612,
             "value": "Duplicate named capturing groups in separate alternatives parse correctly",
-            "raw": "\"Duplicate named capturing groups in separate alternatives parse correctly\""
+            "raw": "\"Duplicate named capturing groups in separate alternatives parse correctly\"",
+            "start": 537,
+            "end": 612
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 497,
+        "end": 613
+      },
+      "start": 497,
+      "end": 614
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 615
 }

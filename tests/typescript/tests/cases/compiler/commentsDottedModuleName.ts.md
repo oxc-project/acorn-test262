@@ -2,62 +2,50 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 35,
-  "end": 127,
   "body": [
     {
       "type": "ExportNamedDeclaration",
-      "start": 35,
-      "end": 127,
       "declaration": {
         "type": "TSModuleDeclaration",
-        "start": 42,
-        "end": 127,
         "id": {
           "type": "TSQualifiedName",
-          "start": 49,
-          "end": 72,
           "left": {
             "type": "Identifier",
-            "start": 49,
-            "end": 60,
             "decorators": [],
             "name": "outerModule",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 49,
+            "end": 60
           },
           "right": {
             "type": "Identifier",
-            "start": 61,
-            "end": 72,
             "decorators": [],
             "name": "InnerModule",
             "optional": false,
-            "typeAnnotation": null
-          }
+            "typeAnnotation": null,
+            "start": 61,
+            "end": 72
+          },
+          "start": 49,
+          "end": 72
         },
         "body": {
           "type": "TSModuleBlock",
-          "start": 73,
-          "end": 127,
           "body": [
             {
               "type": "ExportNamedDeclaration",
-              "start": 103,
-              "end": 125,
               "declaration": {
                 "type": "ClassDeclaration",
-                "start": 110,
-                "end": 125,
                 "decorators": [],
                 "id": {
                   "type": "Identifier",
-                  "start": 116,
-                  "end": 117,
                   "decorators": [],
                   "name": "b",
                   "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "start": 116,
+                  "end": 117
                 },
                 "typeParameters": null,
                 "superClass": null,
@@ -65,31 +53,43 @@ __ESTREE_TEST__:PASS:
                 "implements": [],
                 "body": {
                   "type": "ClassBody",
+                  "body": [],
                   "start": 118,
-                  "end": 125,
-                  "body": []
+                  "end": 125
                 },
                 "abstract": false,
-                "declare": false
+                "declare": false,
+                "start": 110,
+                "end": 125
               },
               "specifiers": [],
               "source": null,
               "exportKind": "value",
-              "attributes": []
+              "attributes": [],
+              "start": 103,
+              "end": 125
             }
-          ]
+          ],
+          "start": 73,
+          "end": 127
         },
         "kind": "module",
         "declare": false,
-        "global": false
+        "global": false,
+        "start": 42,
+        "end": 127
       },
       "specifiers": [],
       "source": null,
       "exportKind": "value",
-      "attributes": []
+      "attributes": [],
+      "start": 35,
+      "end": 127
     }
   ],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 35,
+  "end": 127
 }
 ```

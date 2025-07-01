@@ -1,340 +1,340 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 561,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 266,
-      "end": 289,
       "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 272,
-          "end": 288,
           "id": {
             "type": "Identifier",
+            "name": "str",
             "start": 272,
-            "end": 275,
-            "name": "str"
+            "end": 275
           },
           "init": {
             "type": "Literal",
-            "start": 278,
-            "end": 288,
             "value": "oi+hello",
-            "raw": "\"oi+hello\""
-          }
+            "raw": "\"oi+hello\"",
+            "start": 278,
+            "end": 288
+          },
+          "start": 272,
+          "end": 288
         }
-      ]
+      ],
+      "start": 266,
+      "end": 289
     },
     {
       "type": "VariableDeclaration",
-      "start": 290,
-      "end": 330,
       "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 296,
-          "end": 329,
           "id": {
             "type": "Identifier",
+            "name": "other",
             "start": 296,
-            "end": 301,
-            "name": "other"
+            "end": 301
           },
           "init": {
             "type": "MemberExpression",
-            "start": 304,
-            "end": 329,
             "object": {
               "type": "CallExpression",
-              "start": 304,
-              "end": 322,
               "callee": {
                 "type": "MemberExpression",
-                "start": 304,
-                "end": 320,
                 "object": {
                   "type": "Identifier",
+                  "name": "$262",
                   "start": 304,
-                  "end": 308,
-                  "name": "$262"
+                  "end": 308
                 },
                 "property": {
                   "type": "Identifier",
+                  "name": "createRealm",
                   "start": 309,
-                  "end": 320,
-                  "name": "createRealm"
+                  "end": 320
                 },
                 "optional": false,
-                "computed": false
+                "computed": false,
+                "start": 304,
+                "end": 320
               },
               "arguments": [],
-              "optional": false
+              "optional": false,
+              "start": 304,
+              "end": 322
             },
             "property": {
               "type": "Identifier",
+              "name": "global",
               "start": 323,
-              "end": 329,
-              "name": "global"
+              "end": 329
             },
             "optional": false,
-            "computed": false
-          }
+            "computed": false,
+            "start": 304,
+            "end": 329
+          },
+          "start": 296,
+          "end": 329
         }
-      ]
+      ],
+      "start": 290,
+      "end": 330
     },
     {
       "type": "ExpressionStatement",
-      "start": 332,
-      "end": 426,
       "expression": {
         "type": "CallExpression",
-        "start": 332,
-        "end": 425,
         "callee": {
           "type": "MemberExpression",
-          "start": 332,
-          "end": 348,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 332,
-            "end": 338,
-            "name": "assert"
+            "end": 338
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 339,
-            "end": 348,
-            "name": "sameValue"
+            "end": 348
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 332,
+          "end": 348
         },
         "arguments": [
           {
             "type": "UnaryExpression",
-            "start": 349,
-            "end": 375,
             "operator": "typeof",
             "argument": {
               "type": "MemberExpression",
-              "start": 356,
-              "end": 375,
               "object": {
                 "type": "MemberExpression",
-                "start": 356,
-                "end": 368,
                 "object": {
                   "type": "Identifier",
+                  "name": "other",
                   "start": 356,
-                  "end": 361,
-                  "name": "other"
+                  "end": 361
                 },
                 "property": {
                   "type": "Identifier",
+                  "name": "RegExp",
                   "start": 362,
-                  "end": 368,
-                  "name": "RegExp"
+                  "end": 368
                 },
                 "optional": false,
-                "computed": false
+                "computed": false,
+                "start": 356,
+                "end": 368
               },
               "property": {
                 "type": "Identifier",
+                "name": "escape",
                 "start": 369,
-                "end": 375,
-                "name": "escape"
+                "end": 375
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 356,
+              "end": 375
             },
-            "prefix": true
+            "prefix": true,
+            "start": 349,
+            "end": 375
           },
           {
             "type": "Literal",
-            "start": 377,
-            "end": 387,
             "value": "function",
-            "raw": "\"function\""
+            "raw": "\"function\"",
+            "start": 377,
+            "end": 387
           },
           {
             "type": "Literal",
-            "start": 389,
-            "end": 424,
             "value": "other.RegExp.escape is a function",
-            "raw": "\"other.RegExp.escape is a function\""
+            "raw": "\"other.RegExp.escape is a function\"",
+            "start": 389,
+            "end": 424
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 332,
+        "end": 425
+      },
+      "start": 332,
+      "end": 426
     },
     {
       "type": "VariableDeclaration",
-      "start": 428,
-      "end": 478,
       "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 434,
-          "end": 477,
           "id": {
             "type": "Identifier",
+            "name": "res",
             "start": 434,
-            "end": 437,
-            "name": "res"
+            "end": 437
           },
           "init": {
             "type": "CallExpression",
-            "start": 440,
-            "end": 477,
             "callee": {
               "type": "MemberExpression",
-              "start": 440,
-              "end": 464,
               "object": {
                 "type": "MemberExpression",
-                "start": 440,
-                "end": 459,
                 "object": {
                   "type": "MemberExpression",
-                  "start": 440,
-                  "end": 452,
                   "object": {
                     "type": "Identifier",
+                    "name": "other",
                     "start": 440,
-                    "end": 445,
-                    "name": "other"
+                    "end": 445
                   },
                   "property": {
                     "type": "Identifier",
+                    "name": "RegExp",
                     "start": 446,
-                    "end": 452,
-                    "name": "RegExp"
+                    "end": 452
                   },
                   "optional": false,
-                  "computed": false
+                  "computed": false,
+                  "start": 440,
+                  "end": 452
                 },
                 "property": {
                   "type": "Identifier",
+                  "name": "escape",
                   "start": 453,
-                  "end": 459,
-                  "name": "escape"
+                  "end": 459
                 },
                 "optional": false,
-                "computed": false
+                "computed": false,
+                "start": 440,
+                "end": 459
               },
               "property": {
                 "type": "Identifier",
+                "name": "call",
                 "start": 460,
-                "end": 464,
-                "name": "call"
+                "end": 464
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 440,
+              "end": 464
             },
             "arguments": [
               {
                 "type": "Identifier",
+                "name": "RegExp",
                 "start": 465,
-                "end": 471,
-                "name": "RegExp"
+                "end": 471
               },
               {
                 "type": "Identifier",
+                "name": "str",
                 "start": 473,
-                "end": 476,
-                "name": "str"
+                "end": 476
               }
             ],
-            "optional": false
-          }
+            "optional": false,
+            "start": 440,
+            "end": 477
+          },
+          "start": 434,
+          "end": 477
         }
-      ]
+      ],
+      "start": 428,
+      "end": 478
     },
     {
       "type": "ExpressionStatement",
-      "start": 480,
-      "end": 560,
       "expression": {
         "type": "CallExpression",
-        "start": 480,
-        "end": 559,
         "callee": {
           "type": "MemberExpression",
-          "start": 480,
-          "end": 496,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 480,
-            "end": 486,
-            "name": "assert"
+            "end": 486
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 487,
-            "end": 496,
-            "name": "sameValue"
+            "end": 496
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 480,
+          "end": 496
         },
         "arguments": [
           {
             "type": "Identifier",
+            "name": "res",
             "start": 497,
-            "end": 500,
-            "name": "res"
+            "end": 500
           },
           {
             "type": "CallExpression",
-            "start": 502,
-            "end": 520,
             "callee": {
               "type": "MemberExpression",
-              "start": 502,
-              "end": 515,
               "object": {
                 "type": "Identifier",
+                "name": "RegExp",
                 "start": 502,
-                "end": 508,
-                "name": "RegExp"
+                "end": 508
               },
               "property": {
                 "type": "Identifier",
+                "name": "escape",
                 "start": 509,
-                "end": 515,
-                "name": "escape"
+                "end": 515
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 502,
+              "end": 515
             },
             "arguments": [
               {
                 "type": "Identifier",
+                "name": "str",
                 "start": 516,
-                "end": 519,
-                "name": "str"
+                "end": 519
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 502,
+            "end": 520
           },
           {
             "type": "Literal",
-            "start": 522,
-            "end": 558,
             "value": "cross-realm escape works correctly",
-            "raw": "\"cross-realm escape works correctly\""
+            "raw": "\"cross-realm escape works correctly\"",
+            "start": 522,
+            "end": 558
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 480,
+        "end": 559
+      },
+      "start": 480,
+      "end": 560
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 561
 }

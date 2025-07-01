@@ -1,123 +1,123 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 361,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 253,
-      "end": 290,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 257,
-          "end": 289,
           "id": {
             "type": "Identifier",
+            "name": "newArr",
             "start": 257,
-            "end": 263,
-            "name": "newArr"
+            "end": 263
           },
           "init": {
             "type": "CallExpression",
-            "start": 266,
-            "end": 289,
             "callee": {
               "type": "MemberExpression",
-              "start": 266,
-              "end": 274,
               "object": {
                 "type": "ArrayExpression",
-                "start": 266,
-                "end": 270,
                 "elements": [
                   {
                     "type": "Literal",
-                    "start": 267,
-                    "end": 269,
                     "value": 11,
-                    "raw": "11"
+                    "raw": "11",
+                    "start": 267,
+                    "end": 269
                   }
-                ]
+                ],
+                "start": 266,
+                "end": 270
               },
               "property": {
                 "type": "Identifier",
+                "name": "map",
                 "start": 271,
-                "end": 274,
-                "name": "map"
+                "end": 274
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 266,
+              "end": 274
             },
             "arguments": [
               {
                 "type": "FunctionExpression",
-                "start": 275,
-                "end": 288,
                 "id": null,
                 "generator": false,
                 "async": false,
                 "params": [],
                 "body": {
                   "type": "BlockStatement",
+                  "body": [],
                   "start": 286,
-                  "end": 288,
-                  "body": []
+                  "end": 288
                 },
-                "expression": false
+                "expression": false,
+                "start": 275,
+                "end": 288
               }
             ],
-            "optional": false
-          }
+            "optional": false,
+            "start": 266,
+            "end": 289
+          },
+          "start": 257,
+          "end": 289
         }
-      ]
+      ],
+      "start": 253,
+      "end": 290
     },
     {
       "type": "ExpressionStatement",
-      "start": 292,
-      "end": 360,
       "expression": {
         "type": "CallExpression",
-        "start": 292,
-        "end": 359,
         "callee": {
           "type": "Identifier",
+          "name": "assert",
           "start": 292,
-          "end": 298,
-          "name": "assert"
+          "end": 298
         },
         "arguments": [
           {
             "type": "BinaryExpression",
-            "start": 299,
-            "end": 322,
             "left": {
               "type": "Identifier",
+              "name": "newArr",
               "start": 299,
-              "end": 305,
-              "name": "newArr"
+              "end": 305
             },
             "operator": "instanceof",
             "right": {
               "type": "Identifier",
+              "name": "Array",
               "start": 317,
-              "end": 322,
-              "name": "Array"
-            }
+              "end": 322
+            },
+            "start": 299,
+            "end": 322
           },
           {
             "type": "Literal",
-            "start": 324,
-            "end": 358,
             "value": "newArr instanceof Array !== true",
-            "raw": "'newArr instanceof Array !== true'"
+            "raw": "'newArr instanceof Array !== true'",
+            "start": 324,
+            "end": 358
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 292,
+        "end": 359
+      },
+      "start": 292,
+      "end": 360
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 361
 }

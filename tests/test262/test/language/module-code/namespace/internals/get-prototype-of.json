@@ -1,165 +1,165 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 435,
   "body": [
     {
       "type": "ImportDeclaration",
-      "start": 291,
-      "end": 335,
       "specifiers": [
         {
           "type": "ImportNamespaceSpecifier",
-          "start": 298,
-          "end": 305,
           "local": {
             "type": "Identifier",
+            "name": "ns",
             "start": 303,
-            "end": 305,
-            "name": "ns"
-          }
+            "end": 305
+          },
+          "start": 298,
+          "end": 305
         }
       ],
       "source": {
         "type": "Literal",
-        "start": 311,
-        "end": 334,
         "value": "./get-prototype-of.js",
-        "raw": "'./get-prototype-of.js'"
+        "raw": "'./get-prototype-of.js'",
+        "start": 311,
+        "end": 334
       },
       "phase": null,
-      "attributes": []
+      "attributes": [],
+      "start": 291,
+      "end": 335
     },
     {
       "type": "ExpressionStatement",
-      "start": 337,
-      "end": 383,
       "expression": {
         "type": "CallExpression",
-        "start": 337,
-        "end": 382,
         "callee": {
           "type": "MemberExpression",
-          "start": 337,
-          "end": 353,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 337,
-            "end": 343,
-            "name": "assert"
+            "end": 343
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 344,
-            "end": 353,
-            "name": "sameValue"
+            "end": 353
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 337,
+          "end": 353
         },
         "arguments": [
           {
             "type": "BinaryExpression",
-            "start": 354,
-            "end": 374,
             "left": {
               "type": "Identifier",
+              "name": "ns",
               "start": 354,
-              "end": 356,
-              "name": "ns"
+              "end": 356
             },
             "operator": "instanceof",
             "right": {
               "type": "Identifier",
+              "name": "Object",
               "start": 368,
-              "end": 374,
-              "name": "Object"
-            }
+              "end": 374
+            },
+            "start": 354,
+            "end": 374
           },
           {
             "type": "Literal",
-            "start": 376,
-            "end": 381,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "start": 376,
+            "end": 381
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 337,
+        "end": 382
+      },
+      "start": 337,
+      "end": 383
     },
     {
       "type": "ExpressionStatement",
-      "start": 384,
-      "end": 434,
       "expression": {
         "type": "CallExpression",
-        "start": 384,
-        "end": 433,
         "callee": {
           "type": "MemberExpression",
-          "start": 384,
-          "end": 400,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 384,
-            "end": 390,
-            "name": "assert"
+            "end": 390
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 391,
-            "end": 400,
-            "name": "sameValue"
+            "end": 400
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 384,
+          "end": 400
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 401,
-            "end": 426,
             "callee": {
               "type": "MemberExpression",
-              "start": 401,
-              "end": 422,
               "object": {
                 "type": "Identifier",
+                "name": "Object",
                 "start": 401,
-                "end": 407,
-                "name": "Object"
+                "end": 407
               },
               "property": {
                 "type": "Identifier",
+                "name": "getPrototypeOf",
                 "start": 408,
-                "end": 422,
-                "name": "getPrototypeOf"
+                "end": 422
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 401,
+              "end": 422
             },
             "arguments": [
               {
                 "type": "Identifier",
+                "name": "ns",
                 "start": 423,
-                "end": 425,
-                "name": "ns"
+                "end": 425
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 401,
+            "end": 426
           },
           {
             "type": "Literal",
-            "start": 428,
-            "end": 432,
             "value": null,
-            "raw": "null"
+            "raw": "null",
+            "start": 428,
+            "end": 432
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 384,
+        "end": 433
+      },
+      "start": 384,
+      "end": 434
     }
   ],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 435
 }

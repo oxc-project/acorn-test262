@@ -1,87 +1,87 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 364,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 264,
-      "end": 363,
       "expression": {
         "type": "CallExpression",
-        "start": 264,
-        "end": 362,
         "callee": {
           "type": "MemberExpression",
-          "start": 264,
-          "end": 280,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 264,
-            "end": 270,
-            "name": "assert"
+            "end": 270
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 271,
-            "end": 280,
-            "name": "sameValue"
+            "end": 280
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 264,
+          "end": 280
         },
         "arguments": [
           {
             "type": "MemberExpression",
-            "start": 281,
-            "end": 301,
             "object": {
               "type": "MemberExpression",
-              "start": 281,
-              "end": 294,
               "object": {
                 "type": "Identifier",
+                "name": "Array",
                 "start": 281,
-                "end": 286,
-                "name": "Array"
+                "end": 286
               },
               "property": {
                 "type": "Identifier",
+                "name": "isArray",
                 "start": 287,
-                "end": 294,
-                "name": "isArray"
+                "end": 294
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 281,
+              "end": 294
             },
             "property": {
               "type": "Identifier",
+              "name": "length",
               "start": 295,
-              "end": 301,
-              "name": "length"
+              "end": 301
             },
             "optional": false,
-            "computed": false
+            "computed": false,
+            "start": 281,
+            "end": 301
           },
           {
             "type": "Literal",
-            "start": 303,
-            "end": 304,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "start": 303,
+            "end": 304
           },
           {
             "type": "Literal",
-            "start": 306,
-            "end": 361,
             "value": "The value of Array.isArray.length is expected to be 1",
-            "raw": "'The value of Array.isArray.length is expected to be 1'"
+            "raw": "'The value of Array.isArray.length is expected to be 1'",
+            "start": 306,
+            "end": 361
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 264,
+        "end": 362
+      },
+      "start": 264,
+      "end": 363
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 364
 }

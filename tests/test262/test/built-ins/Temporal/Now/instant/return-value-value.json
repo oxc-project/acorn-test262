@@ -1,286 +1,286 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 674,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 339,
-      "end": 366,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 343,
-          "end": 365,
           "id": {
             "type": "Identifier",
+            "name": "nowBefore",
             "start": 343,
-            "end": 352,
-            "name": "nowBefore"
+            "end": 352
           },
           "init": {
             "type": "CallExpression",
-            "start": 355,
-            "end": 365,
             "callee": {
               "type": "MemberExpression",
-              "start": 355,
-              "end": 363,
               "object": {
                 "type": "Identifier",
+                "name": "Date",
                 "start": 355,
-                "end": 359,
-                "name": "Date"
+                "end": 359
               },
               "property": {
                 "type": "Identifier",
+                "name": "now",
                 "start": 360,
-                "end": 363,
-                "name": "now"
+                "end": 363
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 355,
+              "end": 363
             },
             "arguments": [],
-            "optional": false
-          }
+            "optional": false,
+            "start": 355,
+            "end": 365
+          },
+          "start": 343,
+          "end": 365
         }
-      ]
+      ],
+      "start": 339,
+      "end": 366
     },
     {
       "type": "VariableDeclaration",
-      "start": 367,
-      "end": 440,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 371,
-          "end": 439,
           "id": {
             "type": "Identifier",
+            "name": "seconds",
             "start": 371,
-            "end": 378,
-            "name": "seconds"
+            "end": 378
           },
           "init": {
             "type": "CallExpression",
-            "start": 381,
-            "end": 439,
             "callee": {
               "type": "Identifier",
+              "name": "Number",
               "start": 381,
-              "end": 387,
-              "name": "Number"
+              "end": 387
             },
             "arguments": [
               {
                 "type": "BinaryExpression",
-                "start": 388,
-                "end": 438,
                 "left": {
                   "type": "MemberExpression",
-                  "start": 388,
-                  "end": 427,
                   "object": {
                     "type": "CallExpression",
-                    "start": 388,
-                    "end": 410,
                     "callee": {
                       "type": "MemberExpression",
-                      "start": 388,
-                      "end": 408,
                       "object": {
                         "type": "MemberExpression",
-                        "start": 388,
-                        "end": 400,
                         "object": {
                           "type": "Identifier",
+                          "name": "Temporal",
                           "start": 388,
-                          "end": 396,
-                          "name": "Temporal"
+                          "end": 396
                         },
                         "property": {
                           "type": "Identifier",
+                          "name": "Now",
                           "start": 397,
-                          "end": 400,
-                          "name": "Now"
+                          "end": 400
                         },
                         "optional": false,
-                        "computed": false
+                        "computed": false,
+                        "start": 388,
+                        "end": 400
                       },
                       "property": {
                         "type": "Identifier",
+                        "name": "instant",
                         "start": 401,
-                        "end": 408,
-                        "name": "instant"
+                        "end": 408
                       },
                       "optional": false,
-                      "computed": false
+                      "computed": false,
+                      "start": 388,
+                      "end": 408
                     },
                     "arguments": [],
-                    "optional": false
+                    "optional": false,
+                    "start": 388,
+                    "end": 410
                   },
                   "property": {
                     "type": "Identifier",
+                    "name": "epochNanoseconds",
                     "start": 411,
-                    "end": 427,
-                    "name": "epochNanoseconds"
+                    "end": 427
                   },
                   "optional": false,
-                  "computed": false
+                  "computed": false,
+                  "start": 388,
+                  "end": 427
                 },
                 "operator": "/",
                 "right": {
                   "type": "Literal",
-                  "start": 430,
-                  "end": 438,
                   "value": null,
                   "raw": "1000000n",
-                  "bigint": "1000000"
-                }
+                  "bigint": "1000000",
+                  "start": 430,
+                  "end": 438
+                },
+                "start": 388,
+                "end": 438
               }
             ],
-            "optional": false
-          }
+            "optional": false,
+            "start": 381,
+            "end": 439
+          },
+          "start": 371,
+          "end": 439
         }
-      ]
+      ],
+      "start": 367,
+      "end": 440
     },
     {
       "type": "VariableDeclaration",
-      "start": 441,
-      "end": 467,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 445,
-          "end": 466,
           "id": {
             "type": "Identifier",
+            "name": "nowAfter",
             "start": 445,
-            "end": 453,
-            "name": "nowAfter"
+            "end": 453
           },
           "init": {
             "type": "CallExpression",
-            "start": 456,
-            "end": 466,
             "callee": {
               "type": "MemberExpression",
-              "start": 456,
-              "end": 464,
               "object": {
                 "type": "Identifier",
+                "name": "Date",
                 "start": 456,
-                "end": 460,
-                "name": "Date"
+                "end": 460
               },
               "property": {
                 "type": "Identifier",
+                "name": "now",
                 "start": 461,
-                "end": 464,
-                "name": "now"
+                "end": 464
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 456,
+              "end": 464
             },
             "arguments": [],
-            "optional": false
-          }
+            "optional": false,
+            "start": 456,
+            "end": 466
+          },
+          "start": 445,
+          "end": 466
         }
-      ]
+      ],
+      "start": 441,
+      "end": 467
     },
     {
       "type": "ExpressionStatement",
-      "start": 468,
-      "end": 571,
       "expression": {
         "type": "CallExpression",
-        "start": 468,
-        "end": 570,
         "callee": {
           "type": "Identifier",
+          "name": "assert",
           "start": 468,
-          "end": 474,
-          "name": "assert"
+          "end": 474
         },
         "arguments": [
           {
             "type": "BinaryExpression",
-            "start": 475,
-            "end": 495,
             "left": {
               "type": "Identifier",
+              "name": "seconds",
               "start": 475,
-              "end": 482,
-              "name": "seconds"
+              "end": 482
             },
             "operator": ">=",
             "right": {
               "type": "Identifier",
+              "name": "nowBefore",
               "start": 486,
-              "end": 495,
-              "name": "nowBefore"
-            }
+              "end": 495
+            },
+            "start": 475,
+            "end": 495
           },
           {
             "type": "Literal",
-            "start": 497,
-            "end": 569,
             "value": "The result of evaluating (seconds >= nowBefore) is expected to be true",
-            "raw": "'The result of evaluating (seconds >= nowBefore) is expected to be true'"
+            "raw": "'The result of evaluating (seconds >= nowBefore) is expected to be true'",
+            "start": 497,
+            "end": 569
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 468,
+        "end": 570
+      },
+      "start": 468,
+      "end": 571
     },
     {
       "type": "ExpressionStatement",
-      "start": 572,
-      "end": 673,
       "expression": {
         "type": "CallExpression",
-        "start": 572,
-        "end": 672,
         "callee": {
           "type": "Identifier",
+          "name": "assert",
           "start": 572,
-          "end": 578,
-          "name": "assert"
+          "end": 578
         },
         "arguments": [
           {
             "type": "BinaryExpression",
-            "start": 579,
-            "end": 598,
             "left": {
               "type": "Identifier",
+              "name": "seconds",
               "start": 579,
-              "end": 586,
-              "name": "seconds"
+              "end": 586
             },
             "operator": "<=",
             "right": {
               "type": "Identifier",
+              "name": "nowAfter",
               "start": 590,
-              "end": 598,
-              "name": "nowAfter"
-            }
+              "end": 598
+            },
+            "start": 579,
+            "end": 598
           },
           {
             "type": "Literal",
-            "start": 600,
-            "end": 671,
             "value": "The result of evaluating (seconds <= nowAfter) is expected to be true",
-            "raw": "'The result of evaluating (seconds <= nowAfter) is expected to be true'"
+            "raw": "'The result of evaluating (seconds <= nowAfter) is expected to be true'",
+            "start": 600,
+            "end": 671
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 572,
+        "end": 672
+      },
+      "start": 572,
+      "end": 673
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 674
 }

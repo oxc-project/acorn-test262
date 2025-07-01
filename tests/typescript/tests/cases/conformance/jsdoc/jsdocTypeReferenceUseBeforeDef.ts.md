@@ -2,53 +2,49 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 24,
-  "end": 50,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 24,
-      "end": 38,
       "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 30,
-          "end": 38,
           "id": {
             "type": "Identifier",
-            "start": 30,
-            "end": 31,
             "decorators": [],
             "name": "c",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 30,
+            "end": 31
           },
           "init": {
             "type": "Literal",
-            "start": 34,
-            "end": 38,
             "value": null,
-            "raw": "null"
+            "raw": "null",
+            "start": 34,
+            "end": 38
           },
-          "definite": false
+          "definite": false,
+          "start": 30,
+          "end": 38
         }
       ],
-      "declare": false
+      "declare": false,
+      "start": 24,
+      "end": 38
     },
     {
       "type": "ClassDeclaration",
-      "start": 39,
-      "end": 50,
       "decorators": [],
       "id": {
         "type": "Identifier",
-        "start": 45,
-        "end": 46,
         "decorators": [],
         "name": "C",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 45,
+        "end": 46
       },
       "typeParameters": null,
       "superClass": null,
@@ -56,15 +52,19 @@ __ESTREE_TEST__:PASS:
       "implements": [],
       "body": {
         "type": "ClassBody",
+        "body": [],
         "start": 47,
-        "end": 50,
-        "body": []
+        "end": 50
       },
       "abstract": false,
-      "declare": false
+      "declare": false,
+      "start": 39,
+      "end": 50
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 24,
+  "end": 50
 }
 ```

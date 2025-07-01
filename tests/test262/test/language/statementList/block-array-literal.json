@@ -1,26 +1,26 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 936,
   "body": [
     {
       "type": "BlockStatement",
+      "body": [],
       "start": 930,
-      "end": 932,
-      "body": []
+      "end": 932
     },
     {
       "type": "ExpressionStatement",
-      "start": 932,
-      "end": 935,
       "expression": {
         "type": "ArrayExpression",
+        "elements": [],
         "start": 932,
-        "end": 934,
-        "elements": []
-      }
+        "end": 934
+      },
+      "start": 932,
+      "end": 935
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 936
 }

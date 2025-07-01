@@ -2,21 +2,17 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 41,
   "body": [
     {
       "type": "FunctionDeclaration",
-      "start": 0,
-      "end": 41,
       "id": {
         "type": "Identifier",
-        "start": 15,
-        "end": 20,
         "decorators": [],
         "name": "await",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 15,
+        "end": 20
       },
       "generator": false,
       "async": true,
@@ -25,45 +21,49 @@ __ESTREE_TEST__:PASS:
       "params": [],
       "returnType": {
         "type": "TSTypeAnnotation",
-        "start": 22,
-        "end": 37,
         "typeAnnotation": {
           "type": "TSTypeReference",
-          "start": 24,
-          "end": 37,
           "typeName": {
             "type": "Identifier",
-            "start": 24,
-            "end": 31,
             "decorators": [],
             "name": "Promise",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 24,
+            "end": 31
           },
           "typeArguments": {
             "type": "TSTypeParameterInstantiation",
-            "start": 31,
-            "end": 37,
             "params": [
               {
                 "type": "TSVoidKeyword",
                 "start": 32,
                 "end": 36
               }
-            ]
-          }
-        }
+            ],
+            "start": 31,
+            "end": 37
+          },
+          "start": 24,
+          "end": 37
+        },
+        "start": 22,
+        "end": 37
       },
       "body": {
         "type": "BlockStatement",
+        "body": [],
         "start": 38,
-        "end": 41,
-        "body": []
+        "end": 41
       },
-      "expression": false
+      "expression": false,
+      "start": 0,
+      "end": 41
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 41
 }
 ```

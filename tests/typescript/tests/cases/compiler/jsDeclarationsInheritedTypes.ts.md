@@ -2,22 +2,18 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 95,
-  "end": 293,
   "body": [
     {
       "type": "ClassDeclaration",
-      "start": 95,
-      "end": 151,
       "decorators": [],
       "id": {
         "type": "Identifier",
-        "start": 101,
-        "end": 103,
         "decorators": [],
         "name": "C1",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 101,
+        "end": 103
       },
       "typeParameters": null,
       "superClass": null,
@@ -25,22 +21,18 @@ __ESTREE_TEST__:PASS:
       "implements": [],
       "body": {
         "type": "ClassBody",
-        "start": 104,
-        "end": 151,
         "body": [
           {
             "type": "PropertyDefinition",
-            "start": 143,
-            "end": 149,
             "decorators": [],
             "key": {
               "type": "Identifier",
-              "start": 143,
-              "end": 148,
               "decorators": [],
               "name": "value",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 143,
+              "end": 148
             },
             "typeAnnotation": null,
             "value": null,
@@ -51,57 +43,57 @@ __ESTREE_TEST__:PASS:
             "optional": false,
             "definite": false,
             "readonly": false,
-            "accessibility": null
+            "accessibility": null,
+            "start": 143,
+            "end": 149
           }
-        ]
+        ],
+        "start": 104,
+        "end": 151
       },
       "abstract": false,
-      "declare": false
+      "declare": false,
+      "start": 95,
+      "end": 151
     },
     {
       "type": "ClassDeclaration",
-      "start": 153,
-      "end": 220,
       "decorators": [],
       "id": {
         "type": "Identifier",
-        "start": 159,
-        "end": 161,
         "decorators": [],
         "name": "C2",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 159,
+        "end": 161
       },
       "typeParameters": null,
       "superClass": {
         "type": "Identifier",
-        "start": 170,
-        "end": 172,
         "decorators": [],
         "name": "C1",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 170,
+        "end": 172
       },
       "superTypeArguments": null,
       "implements": [],
       "body": {
         "type": "ClassBody",
-        "start": 173,
-        "end": 220,
         "body": [
           {
             "type": "PropertyDefinition",
-            "start": 212,
-            "end": 218,
             "decorators": [],
             "key": {
               "type": "Identifier",
-              "start": 212,
-              "end": 217,
               "decorators": [],
               "name": "value",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 212,
+              "end": 217
             },
             "typeAnnotation": null,
             "value": null,
@@ -112,57 +104,57 @@ __ESTREE_TEST__:PASS:
             "optional": false,
             "definite": false,
             "readonly": false,
-            "accessibility": null
+            "accessibility": null,
+            "start": 212,
+            "end": 218
           }
-        ]
+        ],
+        "start": 173,
+        "end": 220
       },
       "abstract": false,
-      "declare": false
+      "declare": false,
+      "start": 153,
+      "end": 220
     },
     {
       "type": "ClassDeclaration",
-      "start": 222,
-      "end": 293,
       "decorators": [],
       "id": {
         "type": "Identifier",
-        "start": 228,
-        "end": 230,
         "decorators": [],
         "name": "C3",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 228,
+        "end": 230
       },
       "typeParameters": null,
       "superClass": {
         "type": "Identifier",
-        "start": 239,
-        "end": 241,
         "decorators": [],
         "name": "C1",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 239,
+        "end": 241
       },
       "superTypeArguments": null,
       "implements": [],
       "body": {
         "type": "ClassBody",
-        "start": 242,
-        "end": 293,
         "body": [
           {
             "type": "PropertyDefinition",
-            "start": 285,
-            "end": 291,
             "decorators": [],
             "key": {
               "type": "Identifier",
-              "start": 285,
-              "end": 290,
               "decorators": [],
               "name": "value",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 285,
+              "end": 290
             },
             "typeAnnotation": null,
             "value": null,
@@ -173,15 +165,23 @@ __ESTREE_TEST__:PASS:
             "optional": false,
             "definite": false,
             "readonly": false,
-            "accessibility": null
+            "accessibility": null,
+            "start": 285,
+            "end": 291
           }
-        ]
+        ],
+        "start": 242,
+        "end": 293
       },
       "abstract": false,
-      "declare": false
+      "declare": false,
+      "start": 222,
+      "end": 293
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 95,
+  "end": 293
 }
 ```

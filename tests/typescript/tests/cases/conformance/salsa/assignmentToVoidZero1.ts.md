@@ -2,181 +2,181 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 10,
-  "end": 71,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 10,
-      "end": 41,
       "expression": {
         "type": "AssignmentExpression",
-        "start": 10,
-        "end": 40,
         "operator": "=",
         "left": {
           "type": "MemberExpression",
-          "start": 10,
-          "end": 19,
           "object": {
             "type": "Identifier",
-            "start": 10,
-            "end": 17,
             "decorators": [],
             "name": "exports",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 10,
+            "end": 17
           },
           "property": {
             "type": "Identifier",
-            "start": 18,
-            "end": 19,
             "decorators": [],
             "name": "y",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 18,
+            "end": 19
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 10,
+          "end": 19
         },
         "right": {
           "type": "AssignmentExpression",
-          "start": 22,
-          "end": 40,
           "operator": "=",
           "left": {
             "type": "MemberExpression",
-            "start": 22,
-            "end": 31,
             "object": {
               "type": "Identifier",
-              "start": 22,
-              "end": 29,
               "decorators": [],
               "name": "exports",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 22,
+              "end": 29
             },
             "property": {
               "type": "Identifier",
-              "start": 30,
-              "end": 31,
               "decorators": [],
               "name": "x",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 30,
+              "end": 31
             },
             "optional": false,
-            "computed": false
+            "computed": false,
+            "start": 22,
+            "end": 31
           },
           "right": {
             "type": "UnaryExpression",
-            "start": 34,
-            "end": 40,
             "operator": "void",
             "argument": {
               "type": "Literal",
-              "start": 39,
-              "end": 40,
               "value": 0,
-              "raw": "0"
+              "raw": "0",
+              "start": 39,
+              "end": 40
             },
-            "prefix": true
-          }
-        }
+            "prefix": true,
+            "start": 34,
+            "end": 40
+          },
+          "start": 22,
+          "end": 40
+        },
+        "start": 10,
+        "end": 40
       },
-      "directive": null
+      "directive": null,
+      "start": 10,
+      "end": 41
     },
     {
       "type": "ExpressionStatement",
-      "start": 42,
-      "end": 56,
       "expression": {
         "type": "AssignmentExpression",
-        "start": 42,
-        "end": 55,
         "operator": "=",
         "left": {
           "type": "MemberExpression",
-          "start": 42,
-          "end": 51,
           "object": {
             "type": "Identifier",
-            "start": 42,
-            "end": 49,
             "decorators": [],
             "name": "exports",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 42,
+            "end": 49
           },
           "property": {
             "type": "Identifier",
-            "start": 50,
-            "end": 51,
             "decorators": [],
             "name": "x",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 50,
+            "end": 51
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 42,
+          "end": 51
         },
         "right": {
           "type": "Literal",
-          "start": 54,
-          "end": 55,
           "value": 1,
-          "raw": "1"
-        }
+          "raw": "1",
+          "start": 54,
+          "end": 55
+        },
+        "start": 42,
+        "end": 55
       },
-      "directive": null
+      "directive": null,
+      "start": 42,
+      "end": 56
     },
     {
       "type": "ExpressionStatement",
-      "start": 57,
-      "end": 71,
       "expression": {
         "type": "AssignmentExpression",
-        "start": 57,
-        "end": 70,
         "operator": "=",
         "left": {
           "type": "MemberExpression",
-          "start": 57,
-          "end": 66,
           "object": {
             "type": "Identifier",
-            "start": 57,
-            "end": 64,
             "decorators": [],
             "name": "exports",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 57,
+            "end": 64
           },
           "property": {
             "type": "Identifier",
-            "start": 65,
-            "end": 66,
             "decorators": [],
             "name": "y",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 65,
+            "end": 66
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 57,
+          "end": 66
         },
         "right": {
           "type": "Literal",
-          "start": 69,
-          "end": 70,
           "value": 2,
-          "raw": "2"
-        }
+          "raw": "2",
+          "start": 69,
+          "end": 70
+        },
+        "start": 57,
+        "end": 70
       },
-      "directive": null
+      "directive": null,
+      "start": 57,
+      "end": 71
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 10,
+  "end": 71
 }
 ```

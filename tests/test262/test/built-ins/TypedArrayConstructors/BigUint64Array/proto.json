@@ -1,80 +1,80 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 553,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 484,
-      "end": 552,
       "expression": {
         "type": "CallExpression",
-        "start": 484,
-        "end": 551,
         "callee": {
           "type": "MemberExpression",
-          "start": 484,
-          "end": 500,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 484,
-            "end": 490,
-            "name": "assert"
+            "end": 490
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 491,
-            "end": 500,
-            "name": "sameValue"
+            "end": 500
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 484,
+          "end": 500
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 501,
-            "end": 538,
             "callee": {
               "type": "MemberExpression",
-              "start": 501,
-              "end": 522,
               "object": {
                 "type": "Identifier",
+                "name": "Object",
                 "start": 501,
-                "end": 507,
-                "name": "Object"
+                "end": 507
               },
               "property": {
                 "type": "Identifier",
+                "name": "getPrototypeOf",
                 "start": 508,
-                "end": 522,
-                "name": "getPrototypeOf"
+                "end": 522
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 501,
+              "end": 522
             },
             "arguments": [
               {
                 "type": "Identifier",
+                "name": "BigUint64Array",
                 "start": 523,
-                "end": 537,
-                "name": "BigUint64Array"
+                "end": 537
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 501,
+            "end": 538
           },
           {
             "type": "Identifier",
+            "name": "TypedArray",
             "start": 540,
-            "end": 550,
-            "name": "TypedArray"
+            "end": 550
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 484,
+        "end": 551
+      },
+      "start": 484,
+      "end": 552
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 553
 }

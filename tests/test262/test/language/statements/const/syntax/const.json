@@ -1,204 +1,204 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 340,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 210,
-      "end": 222,
       "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 216,
-          "end": 221,
           "id": {
             "type": "Identifier",
+            "name": "z",
             "start": 216,
-            "end": 217,
-            "name": "z"
+            "end": 217
           },
           "init": {
             "type": "Literal",
-            "start": 220,
-            "end": 221,
             "value": 4,
-            "raw": "4"
-          }
+            "raw": "4",
+            "start": 220,
+            "end": 221
+          },
+          "start": 216,
+          "end": 221
         }
-      ]
+      ],
+      "start": 210,
+      "end": 222
     },
     {
       "type": "BlockStatement",
-      "start": 239,
-      "end": 257,
       "body": [
         {
           "type": "VariableDeclaration",
-          "start": 243,
-          "end": 255,
           "kind": "const",
           "declarations": [
             {
               "type": "VariableDeclarator",
-              "start": 249,
-              "end": 254,
               "id": {
                 "type": "Identifier",
+                "name": "z",
                 "start": 249,
-                "end": 250,
-                "name": "z"
+                "end": 250
               },
               "init": {
                 "type": "Literal",
-                "start": 253,
-                "end": 254,
                 "value": 5,
-                "raw": "5"
-              }
+                "raw": "5",
+                "start": 253,
+                "end": 254
+              },
+              "start": 249,
+              "end": 254
             }
-          ]
+          ],
+          "start": 243,
+          "end": 255
         }
-      ]
+      ],
+      "start": 239,
+      "end": 257
     },
     {
       "type": "ExpressionStatement",
-      "start": 259,
-      "end": 282,
       "expression": {
         "type": "CallExpression",
-        "start": 259,
-        "end": 281,
         "callee": {
           "type": "MemberExpression",
-          "start": 259,
-          "end": 275,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 259,
-            "end": 265,
-            "name": "assert"
+            "end": 265
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 266,
-            "end": 275,
-            "name": "sameValue"
+            "end": 275
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 259,
+          "end": 275
         },
         "arguments": [
           {
             "type": "Identifier",
+            "name": "z",
             "start": 276,
-            "end": 277,
-            "name": "z"
+            "end": 277
           },
           {
             "type": "Literal",
-            "start": 279,
-            "end": 280,
             "value": 4,
-            "raw": "4"
+            "raw": "4",
+            "start": 279,
+            "end": 280
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 259,
+        "end": 281
+      },
+      "start": 259,
+      "end": 282
     },
     {
       "type": "IfStatement",
-      "start": 284,
-      "end": 338,
       "test": {
         "type": "Literal",
-        "start": 288,
-        "end": 292,
         "value": true,
-        "raw": "true"
+        "raw": "true",
+        "start": 288,
+        "end": 292
       },
       "consequent": {
         "type": "BlockStatement",
-        "start": 294,
-        "end": 338,
         "body": [
           {
             "type": "VariableDeclaration",
-            "start": 298,
-            "end": 310,
             "kind": "const",
             "declarations": [
               {
                 "type": "VariableDeclarator",
-                "start": 304,
-                "end": 309,
                 "id": {
                   "type": "Identifier",
+                  "name": "z",
                   "start": 304,
-                  "end": 305,
-                  "name": "z"
+                  "end": 305
                 },
                 "init": {
                   "type": "Literal",
-                  "start": 308,
-                  "end": 309,
                   "value": 1,
-                  "raw": "1"
-                }
+                  "raw": "1",
+                  "start": 308,
+                  "end": 309
+                },
+                "start": 304,
+                "end": 309
               }
-            ]
+            ],
+            "start": 298,
+            "end": 310
           },
           {
             "type": "ExpressionStatement",
-            "start": 313,
-            "end": 336,
             "expression": {
               "type": "CallExpression",
-              "start": 313,
-              "end": 335,
               "callee": {
                 "type": "MemberExpression",
-                "start": 313,
-                "end": 329,
                 "object": {
                   "type": "Identifier",
+                  "name": "assert",
                   "start": 313,
-                  "end": 319,
-                  "name": "assert"
+                  "end": 319
                 },
                 "property": {
                   "type": "Identifier",
+                  "name": "sameValue",
                   "start": 320,
-                  "end": 329,
-                  "name": "sameValue"
+                  "end": 329
                 },
                 "optional": false,
-                "computed": false
+                "computed": false,
+                "start": 313,
+                "end": 329
               },
               "arguments": [
                 {
                   "type": "Identifier",
+                  "name": "z",
                   "start": 330,
-                  "end": 331,
-                  "name": "z"
+                  "end": 331
                 },
                 {
                   "type": "Literal",
-                  "start": 333,
-                  "end": 334,
                   "value": 1,
-                  "raw": "1"
+                  "raw": "1",
+                  "start": 333,
+                  "end": 334
                 }
               ],
-              "optional": false
-            }
+              "optional": false,
+              "start": 313,
+              "end": 335
+            },
+            "start": 313,
+            "end": 336
           }
-        ]
+        ],
+        "start": 294,
+        "end": 338
       },
-      "alternate": null
+      "alternate": null,
+      "start": 284,
+      "end": 338
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 340
 }

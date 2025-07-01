@@ -1,75 +1,75 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 933,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 800,
-      "end": 855,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 804,
-          "end": 854,
           "id": {
             "type": "Identifier",
+            "name": "result",
             "start": 804,
-            "end": 810,
-            "name": "result"
+            "end": 810
           },
           "init": {
             "type": "CallExpression",
-            "start": 813,
-            "end": 854,
             "callee": {
               "type": "Identifier",
+              "name": "eval",
               "start": 813,
-              "end": 817,
-              "name": "eval"
+              "end": 817
             },
             "arguments": [
               {
                 "type": "Literal",
-                "start": 818,
-                "end": 853,
                 "value": "{length: 3000}let a, b = 42, c;b;",
-                "raw": "'{length: 3000}let a, b = 42, c;b;'"
+                "raw": "'{length: 3000}let a, b = 42, c;b;'",
+                "start": 818,
+                "end": 853
               }
             ],
-            "optional": false
-          }
+            "optional": false,
+            "start": 813,
+            "end": 854
+          },
+          "start": 804,
+          "end": 854
         }
-      ]
+      ],
+      "start": 800,
+      "end": 855
     },
     {
       "type": "VariableDeclaration",
-      "start": 910,
-      "end": 930,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 914,
-          "end": 929,
           "id": {
             "type": "Identifier",
+            "name": "expected",
             "start": 914,
-            "end": 922,
-            "name": "expected"
+            "end": 922
           },
           "init": {
             "type": "Literal",
-            "start": 925,
-            "end": 929,
             "value": 3000,
-            "raw": "3000"
-          }
+            "raw": "3000",
+            "start": 925,
+            "end": 929
+          },
+          "start": 914,
+          "end": 929
         }
-      ]
+      ],
+      "start": 910,
+      "end": 930
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 933
 }

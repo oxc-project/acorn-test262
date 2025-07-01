@@ -2,50 +2,40 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 90,
   "body": [
     {
       "type": "LabeledStatement",
-      "start": 0,
-      "end": 90,
       "label": {
         "type": "Identifier",
-        "start": 0,
-        "end": 6,
         "decorators": [],
         "name": "target",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 0,
+        "end": 6
       },
       "body": {
         "type": "WhileStatement",
-        "start": 8,
-        "end": 90,
         "test": {
           "type": "Literal",
-          "start": 15,
-          "end": 19,
           "value": true,
-          "raw": "true"
+          "raw": "true",
+          "start": 15,
+          "end": 19
         },
         "body": {
           "type": "BlockStatement",
-          "start": 21,
-          "end": 90,
           "body": [
             {
               "type": "FunctionDeclaration",
-              "start": 25,
-              "end": 88,
               "id": {
                 "type": "Identifier",
-                "start": 34,
-                "end": 35,
                 "decorators": [],
                 "name": "f",
                 "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "start": 34,
+                "end": 35
               },
               "generator": false,
               "async": false,
@@ -55,52 +45,62 @@ __ESTREE_TEST__:PASS:
               "returnType": null,
               "body": {
                 "type": "BlockStatement",
-                "start": 38,
-                "end": 88,
                 "body": [
                   {
                     "type": "WhileStatement",
-                    "start": 44,
-                    "end": 84,
                     "test": {
                       "type": "Literal",
-                      "start": 51,
-                      "end": 55,
                       "value": true,
-                      "raw": "true"
+                      "raw": "true",
+                      "start": 51,
+                      "end": 55
                     },
                     "body": {
                       "type": "BlockStatement",
-                      "start": 57,
-                      "end": 84,
                       "body": [
                         {
                           "type": "BreakStatement",
-                          "start": 65,
-                          "end": 78,
                           "label": {
                             "type": "Identifier",
-                            "start": 71,
-                            "end": 77,
                             "decorators": [],
                             "name": "target",
                             "optional": false,
-                            "typeAnnotation": null
-                          }
+                            "typeAnnotation": null,
+                            "start": 71,
+                            "end": 77
+                          },
+                          "start": 65,
+                          "end": 78
                         }
-                      ]
-                    }
+                      ],
+                      "start": 57,
+                      "end": 84
+                    },
+                    "start": 44,
+                    "end": 84
                   }
-                ]
+                ],
+                "start": 38,
+                "end": 88
               },
-              "expression": false
+              "expression": false,
+              "start": 25,
+              "end": 88
             }
-          ]
-        }
-      }
+          ],
+          "start": 21,
+          "end": 90
+        },
+        "start": 8,
+        "end": 90
+      },
+      "start": 0,
+      "end": 90
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 90
 }
 ```

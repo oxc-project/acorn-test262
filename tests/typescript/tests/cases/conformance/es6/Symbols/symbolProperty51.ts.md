@@ -2,63 +2,55 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 87,
   "body": [
     {
       "type": "TSModuleDeclaration",
-      "start": 0,
-      "end": 87,
       "id": {
         "type": "Identifier",
-        "start": 7,
-        "end": 8,
         "decorators": [],
         "name": "M",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 7,
+        "end": 8
       },
       "body": {
         "type": "TSModuleBlock",
-        "start": 9,
-        "end": 87,
         "body": [
           {
             "type": "TSModuleDeclaration",
-            "start": 15,
-            "end": 32,
             "id": {
               "type": "Identifier",
-              "start": 22,
-              "end": 28,
               "decorators": [],
               "name": "Symbol",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 22,
+              "end": 28
             },
             "body": {
               "type": "TSModuleBlock",
+              "body": [],
               "start": 29,
-              "end": 32,
-              "body": []
+              "end": 32
             },
             "kind": "module",
             "declare": false,
-            "global": false
+            "global": false,
+            "start": 15,
+            "end": 32
           },
           {
             "type": "ClassDeclaration",
-            "start": 38,
-            "end": 85,
             "decorators": [],
             "id": {
               "type": "Identifier",
-              "start": 44,
-              "end": 45,
               "decorators": [],
               "name": "C",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 44,
+              "end": 45
             },
             "typeParameters": null,
             "superClass": null,
@@ -66,43 +58,37 @@ __ESTREE_TEST__:PASS:
             "implements": [],
             "body": {
               "type": "ClassBody",
-              "start": 46,
-              "end": 85,
               "body": [
                 {
                   "type": "MethodDefinition",
-                  "start": 56,
-                  "end": 79,
                   "decorators": [],
                   "key": {
                     "type": "MemberExpression",
-                    "start": 57,
-                    "end": 72,
                     "object": {
                       "type": "Identifier",
-                      "start": 57,
-                      "end": 63,
                       "decorators": [],
                       "name": "Symbol",
                       "optional": false,
-                      "typeAnnotation": null
+                      "typeAnnotation": null,
+                      "start": 57,
+                      "end": 63
                     },
                     "property": {
                       "type": "Identifier",
-                      "start": 64,
-                      "end": 72,
                       "decorators": [],
                       "name": "iterator",
                       "optional": false,
-                      "typeAnnotation": null
+                      "typeAnnotation": null,
+                      "start": 64,
+                      "end": 72
                     },
                     "optional": false,
-                    "computed": false
+                    "computed": false,
+                    "start": 57,
+                    "end": 72
                   },
                   "value": {
                     "type": "FunctionExpression",
-                    "start": 73,
-                    "end": 79,
                     "id": null,
                     "generator": false,
                     "async": false,
@@ -112,32 +98,46 @@ __ESTREE_TEST__:PASS:
                     "returnType": null,
                     "body": {
                       "type": "BlockStatement",
+                      "body": [],
                       "start": 76,
-                      "end": 79,
-                      "body": []
+                      "end": 79
                     },
-                    "expression": false
+                    "expression": false,
+                    "start": 73,
+                    "end": 79
                   },
                   "kind": "method",
                   "computed": true,
                   "static": false,
                   "override": false,
                   "optional": false,
-                  "accessibility": null
+                  "accessibility": null,
+                  "start": 56,
+                  "end": 79
                 }
-              ]
+              ],
+              "start": 46,
+              "end": 85
             },
             "abstract": false,
-            "declare": false
+            "declare": false,
+            "start": 38,
+            "end": 85
           }
-        ]
+        ],
+        "start": 9,
+        "end": 87
       },
       "kind": "module",
       "declare": false,
-      "global": false
+      "global": false,
+      "start": 0,
+      "end": 87
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 87
 }
 ```

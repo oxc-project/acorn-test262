@@ -2,80 +2,80 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 46,
   "body": [
     {
       "type": "TSEnumDeclaration",
-      "start": 0,
-      "end": 46,
       "id": {
         "type": "Identifier",
-        "start": 11,
-        "end": 12,
         "decorators": [],
         "name": "E",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 11,
+        "end": 12
       },
       "body": {
         "type": "TSEnumBody",
-        "start": 13,
-        "end": 46,
         "members": [
           {
             "type": "TSEnumMember",
-            "start": 19,
-            "end": 28,
             "id": {
               "type": "Identifier",
-              "start": 19,
-              "end": 24,
               "decorators": [],
               "name": "Value",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 19,
+              "end": 24
             },
             "initializer": {
               "type": "Literal",
-              "start": 27,
-              "end": 28,
               "value": 1,
-              "raw": "1"
+              "raw": "1",
+              "start": 27,
+              "end": 28
             },
-            "computed": false
+            "computed": false,
+            "start": 19,
+            "end": 28
           },
           {
             "type": "TSEnumMember",
-            "start": 30,
-            "end": 44,
             "id": {
               "type": "Identifier",
-              "start": 30,
-              "end": 36,
               "decorators": [],
               "name": "Value2",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 30,
+              "end": 36
             },
             "initializer": {
               "type": "Identifier",
-              "start": 39,
-              "end": 44,
               "decorators": [],
               "name": "Value",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 39,
+              "end": 44
             },
-            "computed": false
+            "computed": false,
+            "start": 30,
+            "end": 44
           }
-        ]
+        ],
+        "start": 13,
+        "end": 46
       },
       "const": true,
-      "declare": false
+      "declare": false,
+      "start": 0,
+      "end": 46
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 46
 }
 ```

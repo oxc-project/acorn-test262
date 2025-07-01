@@ -1,94 +1,94 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 255,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 197,
-      "end": 213,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 201,
-          "end": 213,
           "id": {
             "type": "Identifier",
+            "name": "A",
             "start": 201,
-            "end": 202,
-            "name": "A"
+            "end": 202
           },
           "init": {
             "type": "ClassExpression",
-            "start": 205,
-            "end": 213,
             "decorators": [],
             "id": null,
             "superClass": null,
             "body": {
               "type": "ClassBody",
+              "body": [],
               "start": 211,
-              "end": 213,
-              "body": []
-            }
-          }
+              "end": 213
+            },
+            "start": 205,
+            "end": 213
+          },
+          "start": 201,
+          "end": 213
         }
-      ]
+      ],
+      "start": 197,
+      "end": 213
     },
     {
       "type": "ExpressionStatement",
-      "start": 215,
-      "end": 254,
       "expression": {
         "type": "CallExpression",
-        "start": 215,
-        "end": 253,
         "callee": {
           "type": "MemberExpression",
-          "start": 215,
-          "end": 231,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 215,
-            "end": 221,
-            "name": "assert"
+            "end": 221
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 222,
-            "end": 231,
-            "name": "sameValue"
+            "end": 231
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 215,
+          "end": 231
         },
         "arguments": [
           {
             "type": "UnaryExpression",
-            "start": 232,
-            "end": 240,
             "operator": "typeof",
             "argument": {
               "type": "Identifier",
+              "name": "A",
               "start": 239,
-              "end": 240,
-              "name": "A"
+              "end": 240
             },
-            "prefix": true
+            "prefix": true,
+            "start": 232,
+            "end": 240
           },
           {
             "type": "Literal",
-            "start": 242,
-            "end": 252,
             "value": "function",
-            "raw": "\"function\""
+            "raw": "\"function\"",
+            "start": 242,
+            "end": 252
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 215,
+        "end": 253
+      },
+      "start": 215,
+      "end": 254
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 255
 }

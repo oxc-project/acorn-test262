@@ -2,66 +2,60 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 116,
-  "end": 273,
   "body": [
     {
       "type": "ImportDeclaration",
-      "start": 116,
-      "end": 153,
       "specifiers": [
         {
           "type": "ImportSpecifier",
-          "start": 125,
-          "end": 128,
           "imported": {
             "type": "Identifier",
-            "start": 125,
-            "end": 128,
             "decorators": [],
             "name": "css",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 125,
+            "end": 128
           },
           "local": {
             "type": "Identifier",
-            "start": 125,
-            "end": 128,
             "decorators": [],
             "name": "css",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 125,
+            "end": 128
           },
-          "importKind": "value"
+          "importKind": "value",
+          "start": 125,
+          "end": 128
         }
       ],
       "source": {
         "type": "Literal",
-        "start": 136,
-        "end": 152,
         "value": "@emotion/react",
-        "raw": "\"@emotion/react\""
+        "raw": "\"@emotion/react\"",
+        "start": 136,
+        "end": 152
       },
       "phase": null,
       "attributes": [],
-      "importKind": "value"
+      "importKind": "value",
+      "start": 116,
+      "end": 153
     },
     {
       "type": "ExportDefaultDeclaration",
-      "start": 155,
-      "end": 273,
       "declaration": {
         "type": "FunctionDeclaration",
-        "start": 170,
-        "end": 273,
         "id": {
           "type": "Identifier",
-          "start": 179,
-          "end": 188,
           "decorators": [],
           "name": "Component",
           "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "start": 179,
+          "end": 188
         },
         "generator": false,
         "async": false,
@@ -71,93 +65,99 @@ __ESTREE_TEST__:PASS:
         "returnType": null,
         "body": {
           "type": "BlockStatement",
-          "start": 191,
-          "end": 273,
           "body": [
             {
               "type": "ReturnStatement",
-              "start": 195,
-              "end": 271,
               "argument": {
                 "type": "JSXElement",
-                "start": 208,
-                "end": 266,
                 "openingElement": {
                   "type": "JSXOpeningElement",
-                  "start": 208,
-                  "end": 266,
                   "name": {
                     "type": "JSXIdentifier",
+                    "name": "input",
                     "start": 209,
-                    "end": 214,
-                    "name": "input"
+                    "end": 214
                   },
                   "typeArguments": null,
                   "attributes": [
                     {
                       "type": "JSXAttribute",
-                      "start": 221,
-                      "end": 259,
                       "name": {
                         "type": "JSXIdentifier",
+                        "name": "css",
                         "start": 221,
-                        "end": 224,
-                        "name": "css"
+                        "end": 224
                       },
                       "value": {
                         "type": "JSXExpressionContainer",
-                        "start": 225,
-                        "end": 259,
                         "expression": {
                           "type": "TaggedTemplateExpression",
-                          "start": 226,
-                          "end": 258,
                           "tag": {
                             "type": "Identifier",
-                            "start": 226,
-                            "end": 229,
                             "decorators": [],
                             "name": "css",
                             "optional": false,
-                            "typeAnnotation": null
+                            "typeAnnotation": null,
+                            "start": 226,
+                            "end": 229
                           },
                           "typeArguments": null,
                           "quasi": {
                             "type": "TemplateLiteral",
-                            "start": 229,
-                            "end": 258,
                             "quasis": [
                               {
                                 "type": "TemplateElement",
-                                "start": 229,
-                                "end": 258,
                                 "value": {
                                   "raw": "\n        color: red;\n      ",
                                   "cooked": "\n        color: red;\n      "
                                 },
-                                "tail": true
+                                "tail": true,
+                                "start": 229,
+                                "end": 258
                               }
                             ],
-                            "expressions": []
-                          }
-                        }
-                      }
+                            "expressions": [],
+                            "start": 229,
+                            "end": 258
+                          },
+                          "start": 226,
+                          "end": 258
+                        },
+                        "start": 225,
+                        "end": 259
+                      },
+                      "start": 221,
+                      "end": 259
                     }
                   ],
-                  "selfClosing": true
+                  "selfClosing": true,
+                  "start": 208,
+                  "end": 266
                 },
                 "children": [],
-                "closingElement": null
-              }
+                "closingElement": null,
+                "start": 208,
+                "end": 266
+              },
+              "start": 195,
+              "end": 271
             }
-          ]
+          ],
+          "start": 191,
+          "end": 273
         },
-        "expression": false
+        "expression": false,
+        "start": 170,
+        "end": 273
       },
-      "exportKind": "value"
+      "exportKind": "value",
+      "start": 155,
+      "end": 273
     }
   ],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 116,
+  "end": 273
 }
 ```

@@ -2,73 +2,69 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 60,
   "body": [
     {
       "type": "ClassDeclaration",
-      "start": 0,
-      "end": 19,
       "decorators": [],
       "id": {
         "type": "Identifier",
-        "start": 6,
-        "end": 13,
         "decorators": [],
         "name": "Promise",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 6,
+        "end": 13
       },
       "typeParameters": {
         "type": "TSTypeParameterDeclaration",
-        "start": 13,
-        "end": 16,
         "params": [
           {
             "type": "TSTypeParameter",
-            "start": 14,
-            "end": 15,
             "name": {
               "type": "Identifier",
-              "start": 14,
-              "end": 15,
               "decorators": [],
               "name": "T",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 14,
+              "end": 15
             },
             "constraint": null,
             "default": null,
             "in": false,
             "out": false,
-            "const": false
+            "const": false,
+            "start": 14,
+            "end": 15
           }
-        ]
+        ],
+        "start": 13,
+        "end": 16
       },
       "superClass": null,
       "superTypeArguments": null,
       "implements": [],
       "body": {
         "type": "ClassBody",
+        "body": [],
         "start": 17,
-        "end": 19,
-        "body": []
+        "end": 19
       },
       "abstract": false,
-      "declare": false
+      "declare": false,
+      "start": 0,
+      "end": 19
     },
     {
       "type": "FunctionDeclaration",
-      "start": 20,
-      "end": 43,
       "id": {
         "type": "Identifier",
-        "start": 35,
-        "end": 38,
         "decorators": [],
         "name": "foo",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 35,
+        "end": 38
       },
       "generator": false,
       "async": true,
@@ -78,55 +74,59 @@ __ESTREE_TEST__:PASS:
       "returnType": null,
       "body": {
         "type": "BlockStatement",
+        "body": [],
         "start": 41,
-        "end": 43,
-        "body": []
+        "end": 43
       },
-      "expression": false
+      "expression": false,
+      "start": 20,
+      "end": 43
     },
     {
       "type": "VariableDeclaration",
-      "start": 44,
-      "end": 60,
       "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 50,
-          "end": 59,
           "id": {
             "type": "Identifier",
-            "start": 50,
-            "end": 51,
             "decorators": [],
             "name": "x",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 50,
+            "end": 51
           },
           "init": {
             "type": "CallExpression",
-            "start": 54,
-            "end": 59,
             "callee": {
               "type": "Identifier",
-              "start": 54,
-              "end": 57,
               "decorators": [],
               "name": "foo",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 54,
+              "end": 57
             },
             "typeArguments": null,
             "arguments": [],
-            "optional": false
+            "optional": false,
+            "start": 54,
+            "end": 59
           },
-          "definite": false
+          "definite": false,
+          "start": 50,
+          "end": 59
         }
       ],
-      "declare": false
+      "declare": false,
+      "start": 44,
+      "end": 60
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 60
 }
 ```

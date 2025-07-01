@@ -2,34 +2,22 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 123,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 0,
-      "end": 76,
       "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 14,
-          "end": 75,
           "id": {
             "type": "Identifier",
-            "start": 14,
-            "end": 75,
             "decorators": [],
             "name": "tuple",
             "optional": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
-              "start": 19,
-              "end": 75,
               "typeAnnotation": {
                 "type": "TSTupleType",
-                "start": 21,
-                "end": 75,
                 "elementTypes": [
                   {
                     "type": "TSNumberKeyword",
@@ -38,23 +26,23 @@ __ESTREE_TEST__:PASS:
                   },
                   {
                     "type": "TSNamedTupleMember",
-                    "start": 30,
-                    "end": 42,
                     "label": {
                       "type": "Identifier",
-                      "start": 30,
-                      "end": 34,
                       "decorators": [],
                       "name": "name",
                       "optional": false,
-                      "typeAnnotation": null
+                      "typeAnnotation": null,
+                      "start": 30,
+                      "end": 34
                     },
                     "elementType": {
                       "type": "TSStringKeyword",
                       "start": 36,
                       "end": 42
                     },
-                    "optional": false
+                    "optional": false,
+                    "start": 30,
+                    "end": 42
                   },
                   {
                     "type": "TSBooleanKeyword",
@@ -63,128 +51,140 @@ __ESTREE_TEST__:PASS:
                   },
                   {
                     "type": "TSNamedTupleMember",
-                    "start": 53,
-                    "end": 66,
                     "label": {
                       "type": "Identifier",
-                      "start": 53,
-                      "end": 58,
                       "decorators": [],
                       "name": "value",
                       "optional": false,
-                      "typeAnnotation": null
+                      "typeAnnotation": null,
+                      "start": 53,
+                      "end": 58
                     },
                     "elementType": {
                       "type": "TSNumberKeyword",
                       "start": 60,
                       "end": 66
                     },
-                    "optional": false
+                    "optional": false,
+                    "start": 53,
+                    "end": 66
                   },
                   {
                     "type": "TSStringKeyword",
                     "start": 68,
                     "end": 74
                   }
-                ]
-              }
-            }
+                ],
+                "start": 21,
+                "end": 75
+              },
+              "start": 19,
+              "end": 75
+            },
+            "start": 14,
+            "end": 75
           },
           "init": null,
-          "definite": false
+          "definite": false,
+          "start": 14,
+          "end": 75
         }
       ],
-      "declare": true
+      "declare": true,
+      "start": 0,
+      "end": 76
     },
     {
       "type": "VariableDeclaration",
-      "start": 78,
-      "end": 123,
       "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 84,
-          "end": 122,
           "id": {
             "type": "Identifier",
-            "start": 84,
-            "end": 90,
             "decorators": [],
             "name": "output",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 84,
+            "end": 90
           },
           "init": {
             "type": "CallExpression",
-            "start": 93,
-            "end": 122,
             "callee": {
               "type": "ArrowFunctionExpression",
-              "start": 94,
-              "end": 111,
               "expression": true,
               "async": false,
               "typeParameters": null,
               "params": [
                 {
                   "type": "RestElement",
-                  "start": 95,
-                  "end": 102,
                   "decorators": [],
                   "argument": {
                     "type": "Identifier",
-                    "start": 98,
-                    "end": 102,
                     "decorators": [],
                     "name": "args",
                     "optional": false,
-                    "typeAnnotation": null
+                    "typeAnnotation": null,
+                    "start": 98,
+                    "end": 102
                   },
                   "optional": false,
                   "typeAnnotation": null,
-                  "value": null
+                  "value": null,
+                  "start": 95,
+                  "end": 102
                 }
               ],
               "returnType": null,
               "body": {
                 "type": "Identifier",
-                "start": 107,
-                "end": 111,
                 "decorators": [],
                 "name": "args",
                 "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "start": 107,
+                "end": 111
               },
               "id": null,
-              "generator": false
+              "generator": false,
+              "start": 94,
+              "end": 111
             },
             "typeArguments": null,
             "arguments": [
               {
                 "type": "SpreadElement",
-                "start": 113,
-                "end": 121,
                 "argument": {
                   "type": "Identifier",
-                  "start": 116,
-                  "end": 121,
                   "decorators": [],
                   "name": "tuple",
                   "optional": false,
-                  "typeAnnotation": null
-                }
+                  "typeAnnotation": null,
+                  "start": 116,
+                  "end": 121
+                },
+                "start": 113,
+                "end": 121
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 93,
+            "end": 122
           },
-          "definite": false
+          "definite": false,
+          "start": 84,
+          "end": 122
         }
       ],
-      "declare": false
+      "declare": false,
+      "start": 78,
+      "end": 123
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 123
 }
 ```

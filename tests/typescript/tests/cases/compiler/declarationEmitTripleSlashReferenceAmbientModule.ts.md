@@ -2,42 +2,32 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 80,
   "body": [
     {
       "type": "TSModuleDeclaration",
-      "start": 0,
-      "end": 79,
       "id": {
         "type": "Literal",
-        "start": 15,
-        "end": 20,
         "value": "url",
-        "raw": "\"url\""
+        "raw": "\"url\"",
+        "start": 15,
+        "end": 20
       },
       "body": {
         "type": "TSModuleBlock",
-        "start": 21,
-        "end": 79,
         "body": [
           {
             "type": "ExportNamedDeclaration",
-            "start": 25,
-            "end": 44,
             "declaration": {
               "type": "ClassDeclaration",
-              "start": 32,
-              "end": 44,
               "decorators": [],
               "id": {
                 "type": "Identifier",
-                "start": 38,
-                "end": 41,
                 "decorators": [],
                 "name": "Url",
                 "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "start": 38,
+                "end": 41
               },
               "typeParameters": null,
               "superClass": null,
@@ -45,34 +35,34 @@ __ESTREE_TEST__:PASS:
               "implements": [],
               "body": {
                 "type": "ClassBody",
+                "body": [],
                 "start": 42,
-                "end": 44,
-                "body": []
+                "end": 44
               },
               "abstract": false,
-              "declare": false
+              "declare": false,
+              "start": 32,
+              "end": 44
             },
             "specifiers": [],
             "source": null,
             "exportKind": "value",
-            "attributes": []
+            "attributes": [],
+            "start": 25,
+            "end": 44
           },
           {
             "type": "ExportNamedDeclaration",
-            "start": 47,
-            "end": 76,
             "declaration": {
               "type": "TSDeclareFunction",
-              "start": 54,
-              "end": 76,
               "id": {
                 "type": "Identifier",
-                "start": 63,
-                "end": 68,
                 "decorators": [],
                 "name": "parse",
                 "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "start": 63,
+                "end": 68
               },
               "generator": false,
               "async": false,
@@ -81,331 +71,341 @@ __ESTREE_TEST__:PASS:
               "params": [],
               "returnType": {
                 "type": "TSTypeAnnotation",
-                "start": 70,
-                "end": 75,
                 "typeAnnotation": {
                   "type": "TSTypeReference",
-                  "start": 72,
-                  "end": 75,
                   "typeName": {
                     "type": "Identifier",
-                    "start": 72,
-                    "end": 75,
                     "decorators": [],
                     "name": "Url",
                     "optional": false,
-                    "typeAnnotation": null
+                    "typeAnnotation": null,
+                    "start": 72,
+                    "end": 75
                   },
-                  "typeArguments": null
-                }
+                  "typeArguments": null,
+                  "start": 72,
+                  "end": 75
+                },
+                "start": 70,
+                "end": 75
               },
               "body": null,
-              "expression": false
+              "expression": false,
+              "start": 54,
+              "end": 76
             },
             "specifiers": [],
             "source": null,
             "exportKind": "value",
-            "attributes": []
+            "attributes": [],
+            "start": 47,
+            "end": 76
           }
-        ]
+        ],
+        "start": 21,
+        "end": 79
       },
       "kind": "module",
       "declare": true,
-      "global": false
+      "global": false,
+      "start": 0,
+      "end": 79
     }
   ],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 80
 }
 ```
 __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 29,
   "body": [
     {
       "type": "ExportNamedDeclaration",
-      "start": 0,
-      "end": 28,
       "declaration": null,
       "specifiers": [
         {
           "type": "ExportSpecifier",
-          "start": 9,
-          "end": 14,
           "local": {
             "type": "Identifier",
-            "start": 9,
-            "end": 14,
             "decorators": [],
             "name": "parse",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 9,
+            "end": 14
           },
           "exported": {
             "type": "Identifier",
-            "start": 9,
-            "end": 14,
             "decorators": [],
             "name": "parse",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 9,
+            "end": 14
           },
-          "exportKind": "value"
+          "exportKind": "value",
+          "start": 9,
+          "end": 14
         }
       ],
       "source": {
         "type": "Literal",
-        "start": 22,
-        "end": 27,
         "value": "url",
-        "raw": "\"url\""
+        "raw": "\"url\"",
+        "start": 22,
+        "end": 27
       },
       "exportKind": "value",
-      "attributes": []
+      "attributes": [],
+      "start": 0,
+      "end": 28
     }
   ],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 29
 }
 ```
 __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 79,
   "body": [
     {
       "type": "ImportDeclaration",
-      "start": 0,
-      "end": 28,
       "specifiers": [
         {
           "type": "ImportSpecifier",
-          "start": 9,
-          "end": 14,
           "imported": {
             "type": "Identifier",
-            "start": 9,
-            "end": 14,
             "decorators": [],
             "name": "parse",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 9,
+            "end": 14
           },
           "local": {
             "type": "Identifier",
-            "start": 9,
-            "end": 14,
             "decorators": [],
             "name": "parse",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 9,
+            "end": 14
           },
-          "importKind": "value"
+          "importKind": "value",
+          "start": 9,
+          "end": 14
         }
       ],
       "source": {
         "type": "Literal",
-        "start": 22,
-        "end": 27,
         "value": "url",
-        "raw": "\"url\""
+        "raw": "\"url\"",
+        "start": 22,
+        "end": 27
       },
       "phase": null,
       "attributes": [],
-      "importKind": "value"
+      "importKind": "value",
+      "start": 0,
+      "end": 28
     },
     {
       "type": "ExportNamedDeclaration",
-      "start": 29,
-      "end": 77,
       "declaration": {
         "type": "VariableDeclaration",
-        "start": 36,
-        "end": 77,
         "kind": "const",
         "declarations": [
           {
             "type": "VariableDeclarator",
-            "start": 42,
-            "end": 76,
             "id": {
               "type": "Identifier",
-              "start": 42,
-              "end": 66,
               "decorators": [],
               "name": "thing",
               "optional": false,
               "typeAnnotation": {
                 "type": "TSTypeAnnotation",
-                "start": 47,
-                "end": 66,
                 "typeAnnotation": {
                   "type": "TSImportType",
-                  "start": 49,
-                  "end": 66,
                   "argument": {
                     "type": "TSLiteralType",
-                    "start": 56,
-                    "end": 61,
                     "literal": {
                       "type": "Literal",
-                      "start": 56,
-                      "end": 61,
                       "value": "url",
-                      "raw": "\"url\""
-                    }
+                      "raw": "\"url\"",
+                      "start": 56,
+                      "end": 61
+                    },
+                    "start": 56,
+                    "end": 61
                   },
                   "options": null,
                   "qualifier": {
                     "type": "Identifier",
-                    "start": 63,
-                    "end": 66,
                     "decorators": [],
                     "name": "Url",
                     "optional": false,
-                    "typeAnnotation": null
+                    "typeAnnotation": null,
+                    "start": 63,
+                    "end": 66
                   },
-                  "typeArguments": null
-                }
-              }
+                  "typeArguments": null,
+                  "start": 49,
+                  "end": 66
+                },
+                "start": 47,
+                "end": 66
+              },
+              "start": 42,
+              "end": 66
             },
             "init": {
               "type": "CallExpression",
-              "start": 69,
-              "end": 76,
               "callee": {
                 "type": "Identifier",
-                "start": 69,
-                "end": 74,
                 "decorators": [],
                 "name": "parse",
                 "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "start": 69,
+                "end": 74
               },
               "typeArguments": null,
               "arguments": [],
-              "optional": false
+              "optional": false,
+              "start": 69,
+              "end": 76
             },
-            "definite": false
+            "definite": false,
+            "start": 42,
+            "end": 76
           }
         ],
-        "declare": false
+        "declare": false,
+        "start": 36,
+        "end": 77
       },
       "specifiers": [],
       "source": null,
       "exportKind": "value",
-      "attributes": []
+      "attributes": [],
+      "start": 29,
+      "end": 77
     }
   ],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 79
 }
 ```
 __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 58,
   "body": [
     {
       "type": "ImportDeclaration",
-      "start": 0,
-      "end": 28,
       "specifiers": [
         {
           "type": "ImportSpecifier",
-          "start": 9,
-          "end": 14,
           "imported": {
             "type": "Identifier",
-            "start": 9,
-            "end": 14,
             "decorators": [],
             "name": "parse",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 9,
+            "end": 14
           },
           "local": {
             "type": "Identifier",
-            "start": 9,
-            "end": 14,
             "decorators": [],
             "name": "parse",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 9,
+            "end": 14
           },
-          "importKind": "value"
+          "importKind": "value",
+          "start": 9,
+          "end": 14
         }
       ],
       "source": {
         "type": "Literal",
-        "start": 22,
-        "end": 27,
         "value": "url",
-        "raw": "\"url\""
+        "raw": "\"url\"",
+        "start": 22,
+        "end": 27
       },
       "phase": null,
       "attributes": [],
-      "importKind": "value"
+      "importKind": "value",
+      "start": 0,
+      "end": 28
     },
     {
       "type": "ExportNamedDeclaration",
-      "start": 29,
-      "end": 58,
       "declaration": {
         "type": "VariableDeclaration",
-        "start": 36,
-        "end": 58,
         "kind": "const",
         "declarations": [
           {
             "type": "VariableDeclarator",
-            "start": 42,
-            "end": 57,
             "id": {
               "type": "Identifier",
-              "start": 42,
-              "end": 47,
               "decorators": [],
               "name": "thing",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 42,
+              "end": 47
             },
             "init": {
               "type": "CallExpression",
-              "start": 50,
-              "end": 57,
               "callee": {
                 "type": "Identifier",
-                "start": 50,
-                "end": 55,
                 "decorators": [],
                 "name": "parse",
                 "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "start": 50,
+                "end": 55
               },
               "typeArguments": null,
               "arguments": [],
-              "optional": false
+              "optional": false,
+              "start": 50,
+              "end": 57
             },
-            "definite": false
+            "definite": false,
+            "start": 42,
+            "end": 57
           }
         ],
-        "declare": false
+        "declare": false,
+        "start": 36,
+        "end": 58
       },
       "specifiers": [],
       "source": null,
       "exportKind": "value",
-      "attributes": []
+      "attributes": [],
+      "start": 29,
+      "end": 58
     }
   ],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 58
 }
 ```

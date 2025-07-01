@@ -1,772 +1,772 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 1901,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 546,
-      "end": 619,
       "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 552,
-          "end": 618,
           "id": {
             "type": "Identifier",
+            "name": "d1",
             "start": 552,
-            "end": 554,
-            "name": "d1"
+            "end": 554
           },
           "init": {
             "type": "NewExpression",
-            "start": 557,
-            "end": 618,
             "callee": {
               "type": "MemberExpression",
-              "start": 561,
-              "end": 583,
               "object": {
                 "type": "Identifier",
+                "name": "Temporal",
                 "start": 561,
-                "end": 569,
-                "name": "Temporal"
+                "end": 569
               },
               "property": {
                 "type": "Identifier",
+                "name": "ZonedDateTime",
                 "start": 570,
-                "end": 583,
-                "name": "ZonedDateTime"
+                "end": 583
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 561,
+              "end": 583
             },
             "arguments": [
               {
                 "type": "Literal",
-                "start": 584,
-                "end": 610,
                 "value": null,
                 "raw": "1_000_000_000_000_000_789n",
-                "bigint": "1000000000000000789"
+                "bigint": "1000000000000000789",
+                "start": 584,
+                "end": 610
               },
               {
                 "type": "Literal",
-                "start": 612,
-                "end": 617,
                 "value": "UTC",
-                "raw": "\"UTC\""
+                "raw": "\"UTC\"",
+                "start": 612,
+                "end": 617
               }
-            ]
-          }
+            ],
+            "start": 557,
+            "end": 618
+          },
+          "start": 552,
+          "end": 618
         }
-      ]
+      ],
+      "start": 546,
+      "end": 619
     },
     {
       "type": "VariableDeclaration",
-      "start": 621,
-      "end": 679,
       "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 627,
-          "end": 678,
           "id": {
             "type": "Identifier",
+            "name": "d2",
             "start": 627,
-            "end": 629,
-            "name": "d2"
+            "end": 629
           },
           "init": {
             "type": "CallExpression",
-            "start": 632,
-            "end": 678,
             "callee": {
               "type": "MemberExpression",
-              "start": 632,
-              "end": 639,
               "object": {
                 "type": "Identifier",
+                "name": "d1",
                 "start": 632,
-                "end": 634,
-                "name": "d1"
+                "end": 634
               },
               "property": {
                 "type": "Identifier",
+                "name": "with",
                 "start": 635,
-                "end": 639,
-                "name": "with"
+                "end": 639
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 632,
+              "end": 639
             },
             "arguments": [
               {
                 "type": "ObjectExpression",
-                "start": 640,
-                "end": 677,
                 "properties": [
                   {
                     "type": "Property",
-                    "start": 642,
-                    "end": 648,
                     "kind": "init",
                     "key": {
                       "type": "Identifier",
+                      "name": "day",
                       "start": 642,
-                      "end": 645,
-                      "name": "day"
+                      "end": 645
                     },
                     "value": {
                       "type": "Literal",
-                      "start": 647,
-                      "end": 648,
                       "value": 1,
-                      "raw": "1"
+                      "raw": "1",
+                      "start": 647,
+                      "end": 648
                     },
                     "method": false,
                     "shorthand": false,
-                    "computed": false
+                    "computed": false,
+                    "start": 642,
+                    "end": 648
                   },
                   {
                     "type": "Property",
-                    "start": 650,
-                    "end": 658,
                     "kind": "init",
                     "key": {
                       "type": "Identifier",
+                      "name": "hour",
                       "start": 650,
-                      "end": 654,
-                      "name": "hour"
+                      "end": 654
                     },
                     "value": {
                       "type": "Literal",
-                      "start": 656,
-                      "end": 658,
                       "value": 10,
-                      "raw": "10"
+                      "raw": "10",
+                      "start": 656,
+                      "end": 658
                     },
                     "method": false,
                     "shorthand": false,
-                    "computed": false
+                    "computed": false,
+                    "start": 650,
+                    "end": 658
                   },
                   {
                     "type": "Property",
-                    "start": 660,
-                    "end": 675,
                     "kind": "init",
                     "key": {
                       "type": "Identifier",
+                      "name": "year",
                       "start": 660,
-                      "end": 664,
-                      "name": "year"
+                      "end": 664
                     },
                     "value": {
                       "type": "Identifier",
+                      "name": "undefined",
                       "start": 666,
-                      "end": 675,
-                      "name": "undefined"
+                      "end": 675
                     },
                     "method": false,
                     "shorthand": false,
-                    "computed": false
+                    "computed": false,
+                    "start": 660,
+                    "end": 675
                   }
-                ]
+                ],
+                "start": 640,
+                "end": 677
               }
             ],
-            "optional": false
-          }
+            "optional": false,
+            "start": 632,
+            "end": 678
+          },
+          "start": 627,
+          "end": 678
         }
-      ]
+      ],
+      "start": 621,
+      "end": 679
     },
     {
       "type": "ExpressionStatement",
-      "start": 681,
-      "end": 812,
       "expression": {
         "type": "CallExpression",
-        "start": 681,
-        "end": 811,
         "callee": {
           "type": "MemberExpression",
-          "start": 681,
-          "end": 697,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 681,
-            "end": 687,
-            "name": "assert"
+            "end": 687
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 688,
-            "end": 697,
-            "name": "sameValue"
+            "end": 697
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 681,
+          "end": 697
         },
         "arguments": [
           {
             "type": "MemberExpression",
-            "start": 698,
-            "end": 705,
             "object": {
               "type": "Identifier",
+              "name": "d2",
               "start": 698,
-              "end": 700,
-              "name": "d2"
+              "end": 700
             },
             "property": {
               "type": "Identifier",
+              "name": "year",
               "start": 701,
-              "end": 705,
-              "name": "year"
+              "end": 705
             },
             "optional": false,
-            "computed": false
+            "computed": false,
+            "start": 698,
+            "end": 705
           },
           {
             "type": "Literal",
-            "start": 707,
-            "end": 711,
             "value": 2001,
-            "raw": "2001"
+            "raw": "2001",
+            "start": 707,
+            "end": 711
           },
           {
             "type": "Literal",
-            "start": 715,
-            "end": 809,
             "value": "only the properties that are present and defined in the plain object are copied (year value)",
-            "raw": "\"only the properties that are present and defined in the plain object are copied (year value)\""
+            "raw": "\"only the properties that are present and defined in the plain object are copied (year value)\"",
+            "start": 715,
+            "end": 809
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 681,
+        "end": 811
+      },
+      "start": 681,
+      "end": 812
     },
     {
       "type": "ExpressionStatement",
-      "start": 814,
-      "end": 944,
       "expression": {
         "type": "CallExpression",
-        "start": 814,
-        "end": 943,
         "callee": {
           "type": "MemberExpression",
-          "start": 814,
-          "end": 830,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 814,
-            "end": 820,
-            "name": "assert"
+            "end": 820
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 821,
-            "end": 830,
-            "name": "sameValue"
+            "end": 830
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 814,
+          "end": 830
         },
         "arguments": [
           {
             "type": "MemberExpression",
-            "start": 831,
-            "end": 839,
             "object": {
               "type": "Identifier",
+              "name": "d2",
               "start": 831,
-              "end": 833,
-              "name": "d2"
+              "end": 833
             },
             "property": {
               "type": "Identifier",
+              "name": "month",
               "start": 834,
-              "end": 839,
-              "name": "month"
+              "end": 839
             },
             "optional": false,
-            "computed": false
+            "computed": false,
+            "start": 831,
+            "end": 839
           },
           {
             "type": "Literal",
-            "start": 841,
-            "end": 842,
             "value": 9,
-            "raw": "9"
+            "raw": "9",
+            "start": 841,
+            "end": 842
           },
           {
             "type": "Literal",
-            "start": 846,
-            "end": 941,
             "value": "only the properties that are present and defined in the plain object are copied (month value)",
-            "raw": "\"only the properties that are present and defined in the plain object are copied (month value)\""
+            "raw": "\"only the properties that are present and defined in the plain object are copied (month value)\"",
+            "start": 846,
+            "end": 941
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 814,
+        "end": 943
+      },
+      "start": 814,
+      "end": 944
     },
     {
       "type": "ExpressionStatement",
-      "start": 946,
-      "end": 1072,
       "expression": {
         "type": "CallExpression",
-        "start": 946,
-        "end": 1071,
         "callee": {
           "type": "MemberExpression",
-          "start": 946,
-          "end": 962,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 946,
-            "end": 952,
-            "name": "assert"
+            "end": 952
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 953,
-            "end": 962,
-            "name": "sameValue"
+            "end": 962
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 946,
+          "end": 962
         },
         "arguments": [
           {
             "type": "MemberExpression",
-            "start": 963,
-            "end": 969,
             "object": {
               "type": "Identifier",
+              "name": "d2",
               "start": 963,
-              "end": 965,
-              "name": "d2"
+              "end": 965
             },
             "property": {
               "type": "Identifier",
+              "name": "day",
               "start": 966,
-              "end": 969,
-              "name": "day"
+              "end": 969
             },
             "optional": false,
-            "computed": false
+            "computed": false,
+            "start": 963,
+            "end": 969
           },
           {
             "type": "Literal",
-            "start": 971,
-            "end": 972,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "start": 971,
+            "end": 972
           },
           {
             "type": "Literal",
-            "start": 976,
-            "end": 1069,
             "value": "only the properties that are present and defined in the plain object are copied (day value)",
-            "raw": "\"only the properties that are present and defined in the plain object are copied (day value)\""
+            "raw": "\"only the properties that are present and defined in the plain object are copied (day value)\"",
+            "start": 976,
+            "end": 1069
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 946,
+        "end": 1071
+      },
+      "start": 946,
+      "end": 1072
     },
     {
       "type": "ExpressionStatement",
-      "start": 1074,
-      "end": 1203,
       "expression": {
         "type": "CallExpression",
-        "start": 1074,
-        "end": 1202,
         "callee": {
           "type": "MemberExpression",
-          "start": 1074,
-          "end": 1090,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 1074,
-            "end": 1080,
-            "name": "assert"
+            "end": 1080
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 1081,
-            "end": 1090,
-            "name": "sameValue"
+            "end": 1090
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 1074,
+          "end": 1090
         },
         "arguments": [
           {
             "type": "MemberExpression",
-            "start": 1091,
-            "end": 1098,
             "object": {
               "type": "Identifier",
+              "name": "d2",
               "start": 1091,
-              "end": 1093,
-              "name": "d2"
+              "end": 1093
             },
             "property": {
               "type": "Identifier",
+              "name": "hour",
               "start": 1094,
-              "end": 1098,
-              "name": "hour"
+              "end": 1098
             },
             "optional": false,
-            "computed": false
+            "computed": false,
+            "start": 1091,
+            "end": 1098
           },
           {
             "type": "Literal",
-            "start": 1100,
-            "end": 1102,
             "value": 10,
-            "raw": "10"
+            "raw": "10",
+            "start": 1100,
+            "end": 1102
           },
           {
             "type": "Literal",
-            "start": 1106,
-            "end": 1200,
             "value": "only the properties that are present and defined in the plain object are copied (hour value)",
-            "raw": "\"only the properties that are present and defined in the plain object are copied (hour value)\""
+            "raw": "\"only the properties that are present and defined in the plain object are copied (hour value)\"",
+            "start": 1106,
+            "end": 1200
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 1074,
+        "end": 1202
+      },
+      "start": 1074,
+      "end": 1203
     },
     {
       "type": "ExpressionStatement",
-      "start": 1204,
-      "end": 1337,
       "expression": {
         "type": "CallExpression",
-        "start": 1204,
-        "end": 1336,
         "callee": {
           "type": "MemberExpression",
-          "start": 1204,
-          "end": 1220,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 1204,
-            "end": 1210,
-            "name": "assert"
+            "end": 1210
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 1211,
-            "end": 1220,
-            "name": "sameValue"
+            "end": 1220
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 1204,
+          "end": 1220
         },
         "arguments": [
           {
             "type": "MemberExpression",
-            "start": 1221,
-            "end": 1230,
             "object": {
               "type": "Identifier",
+              "name": "d2",
               "start": 1221,
-              "end": 1223,
-              "name": "d2"
+              "end": 1223
             },
             "property": {
               "type": "Identifier",
+              "name": "minute",
               "start": 1224,
-              "end": 1230,
-              "name": "minute"
+              "end": 1230
             },
             "optional": false,
-            "computed": false
+            "computed": false,
+            "start": 1221,
+            "end": 1230
           },
           {
             "type": "Literal",
-            "start": 1232,
-            "end": 1234,
             "value": 46,
-            "raw": "46"
+            "raw": "46",
+            "start": 1232,
+            "end": 1234
           },
           {
             "type": "Literal",
-            "start": 1238,
-            "end": 1334,
             "value": "only the properties that are present and defined in the plain object are copied (minute value)",
-            "raw": "\"only the properties that are present and defined in the plain object are copied (minute value)\""
+            "raw": "\"only the properties that are present and defined in the plain object are copied (minute value)\"",
+            "start": 1238,
+            "end": 1334
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 1204,
+        "end": 1336
+      },
+      "start": 1204,
+      "end": 1337
     },
     {
       "type": "ExpressionStatement",
-      "start": 1338,
-      "end": 1471,
       "expression": {
         "type": "CallExpression",
-        "start": 1338,
-        "end": 1470,
         "callee": {
           "type": "MemberExpression",
-          "start": 1338,
-          "end": 1354,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 1338,
-            "end": 1344,
-            "name": "assert"
+            "end": 1344
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 1345,
-            "end": 1354,
-            "name": "sameValue"
+            "end": 1354
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 1338,
+          "end": 1354
         },
         "arguments": [
           {
             "type": "MemberExpression",
-            "start": 1355,
-            "end": 1364,
             "object": {
               "type": "Identifier",
+              "name": "d2",
               "start": 1355,
-              "end": 1357,
-              "name": "d2"
+              "end": 1357
             },
             "property": {
               "type": "Identifier",
+              "name": "second",
               "start": 1358,
-              "end": 1364,
-              "name": "second"
+              "end": 1364
             },
             "optional": false,
-            "computed": false
+            "computed": false,
+            "start": 1355,
+            "end": 1364
           },
           {
             "type": "Literal",
-            "start": 1366,
-            "end": 1368,
             "value": 40,
-            "raw": "40"
+            "raw": "40",
+            "start": 1366,
+            "end": 1368
           },
           {
             "type": "Literal",
-            "start": 1372,
-            "end": 1468,
             "value": "only the properties that are present and defined in the plain object are copied (second value)",
-            "raw": "\"only the properties that are present and defined in the plain object are copied (second value)\""
+            "raw": "\"only the properties that are present and defined in the plain object are copied (second value)\"",
+            "start": 1372,
+            "end": 1468
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 1338,
+        "end": 1470
+      },
+      "start": 1338,
+      "end": 1471
     },
     {
       "type": "ExpressionStatement",
-      "start": 1472,
-      "end": 1614,
       "expression": {
         "type": "CallExpression",
-        "start": 1472,
-        "end": 1613,
         "callee": {
           "type": "MemberExpression",
-          "start": 1472,
-          "end": 1488,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 1472,
-            "end": 1478,
-            "name": "assert"
+            "end": 1478
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 1479,
-            "end": 1488,
-            "name": "sameValue"
+            "end": 1488
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 1472,
+          "end": 1488
         },
         "arguments": [
           {
             "type": "MemberExpression",
-            "start": 1489,
-            "end": 1503,
             "object": {
               "type": "Identifier",
+              "name": "d2",
               "start": 1489,
-              "end": 1491,
-              "name": "d2"
+              "end": 1491
             },
             "property": {
               "type": "Identifier",
+              "name": "millisecond",
               "start": 1492,
-              "end": 1503,
-              "name": "millisecond"
+              "end": 1503
             },
             "optional": false,
-            "computed": false
+            "computed": false,
+            "start": 1489,
+            "end": 1503
           },
           {
             "type": "Literal",
+            "value": 0,
+            "raw": "0",
             "start": 1505,
-            "end": 1506,
-            "value": 0,
-            "raw": "0"
+            "end": 1506
           },
           {
             "type": "Literal",
-            "start": 1510,
-            "end": 1611,
             "value": "only the properties that are present and defined in the plain object are copied (millisecond value)",
-            "raw": "\"only the properties that are present and defined in the plain object are copied (millisecond value)\""
+            "raw": "\"only the properties that are present and defined in the plain object are copied (millisecond value)\"",
+            "start": 1510,
+            "end": 1611
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 1472,
+        "end": 1613
+      },
+      "start": 1472,
+      "end": 1614
     },
     {
       "type": "ExpressionStatement",
-      "start": 1615,
-      "end": 1757,
       "expression": {
         "type": "CallExpression",
-        "start": 1615,
-        "end": 1756,
         "callee": {
           "type": "MemberExpression",
-          "start": 1615,
-          "end": 1631,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 1615,
-            "end": 1621,
-            "name": "assert"
+            "end": 1621
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 1622,
-            "end": 1631,
-            "name": "sameValue"
+            "end": 1631
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 1615,
+          "end": 1631
         },
         "arguments": [
           {
             "type": "MemberExpression",
-            "start": 1632,
-            "end": 1646,
             "object": {
               "type": "Identifier",
+              "name": "d2",
               "start": 1632,
-              "end": 1634,
-              "name": "d2"
+              "end": 1634
             },
             "property": {
               "type": "Identifier",
+              "name": "microsecond",
               "start": 1635,
-              "end": 1646,
-              "name": "microsecond"
+              "end": 1646
             },
             "optional": false,
-            "computed": false
+            "computed": false,
+            "start": 1632,
+            "end": 1646
           },
           {
             "type": "Literal",
-            "start": 1648,
-            "end": 1649,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "start": 1648,
+            "end": 1649
           },
           {
             "type": "Literal",
-            "start": 1653,
-            "end": 1754,
             "value": "only the properties that are present and defined in the plain object are copied (microsecond value)",
-            "raw": "\"only the properties that are present and defined in the plain object are copied (microsecond value)\""
+            "raw": "\"only the properties that are present and defined in the plain object are copied (microsecond value)\"",
+            "start": 1653,
+            "end": 1754
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 1615,
+        "end": 1756
+      },
+      "start": 1615,
+      "end": 1757
     },
     {
       "type": "ExpressionStatement",
-      "start": 1758,
-      "end": 1900,
       "expression": {
         "type": "CallExpression",
-        "start": 1758,
-        "end": 1899,
         "callee": {
           "type": "MemberExpression",
-          "start": 1758,
-          "end": 1774,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 1758,
-            "end": 1764,
-            "name": "assert"
+            "end": 1764
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 1765,
-            "end": 1774,
-            "name": "sameValue"
+            "end": 1774
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 1758,
+          "end": 1774
         },
         "arguments": [
           {
             "type": "MemberExpression",
-            "start": 1775,
-            "end": 1788,
             "object": {
               "type": "Identifier",
+              "name": "d2",
               "start": 1775,
-              "end": 1777,
-              "name": "d2"
+              "end": 1777
             },
             "property": {
               "type": "Identifier",
+              "name": "nanosecond",
               "start": 1778,
-              "end": 1788,
-              "name": "nanosecond"
+              "end": 1788
             },
             "optional": false,
-            "computed": false
+            "computed": false,
+            "start": 1775,
+            "end": 1788
           },
           {
             "type": "Literal",
-            "start": 1790,
-            "end": 1793,
             "value": 789,
-            "raw": "789"
+            "raw": "789",
+            "start": 1790,
+            "end": 1793
           },
           {
             "type": "Literal",
-            "start": 1797,
-            "end": 1897,
             "value": "only the properties that are present and defined in the plain object are copied (nanosecond value)",
-            "raw": "\"only the properties that are present and defined in the plain object are copied (nanosecond value)\""
+            "raw": "\"only the properties that are present and defined in the plain object are copied (nanosecond value)\"",
+            "start": 1797,
+            "end": 1897
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 1758,
+        "end": 1899
+      },
+      "start": 1758,
+      "end": 1900
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 1901
 }

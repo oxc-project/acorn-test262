@@ -1,661 +1,661 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 1698,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 767,
-      "end": 1697,
       "expression": {
         "type": "CallExpression",
-        "start": 767,
-        "end": 1696,
         "callee": {
           "type": "Identifier",
+          "name": "asyncTest",
           "start": 767,
-          "end": 776,
-          "name": "asyncTest"
+          "end": 776
         },
         "arguments": [
           {
             "type": "FunctionExpression",
-            "start": 777,
-            "end": 1695,
             "id": null,
             "generator": false,
             "async": true,
             "params": [],
             "body": {
               "type": "BlockStatement",
-              "start": 794,
-              "end": 1695,
               "body": [
                 {
                   "type": "ExpressionStatement",
-                  "start": 798,
-                  "end": 879,
                   "expression": {
                     "type": "CallExpression",
-                    "start": 798,
-                    "end": 878,
                     "callee": {
                       "type": "MemberExpression",
-                      "start": 798,
-                      "end": 814,
                       "object": {
                         "type": "Identifier",
+                        "name": "assert",
                         "start": 798,
-                        "end": 804,
-                        "name": "assert"
+                        "end": 804
                       },
                       "property": {
                         "type": "Identifier",
+                        "name": "sameValue",
                         "start": 805,
-                        "end": 814,
-                        "name": "sameValue"
+                        "end": 814
                       },
                       "optional": false,
-                      "computed": false
+                      "computed": false,
+                      "start": 798,
+                      "end": 814
                     },
                     "arguments": [
                       {
                         "type": "UnaryExpression",
-                        "start": 815,
-                        "end": 865,
                         "operator": "typeof",
                         "argument": {
                           "type": "MemberExpression",
-                          "start": 822,
-                          "end": 865,
                           "object": {
                             "type": "MemberExpression",
-                            "start": 822,
-                            "end": 852,
                             "object": {
                               "type": "Identifier",
+                              "name": "AsyncDisposableStack",
                               "start": 822,
-                              "end": 842,
-                              "name": "AsyncDisposableStack"
+                              "end": 842
                             },
                             "property": {
                               "type": "Identifier",
+                              "name": "prototype",
                               "start": 843,
-                              "end": 852,
-                              "name": "prototype"
+                              "end": 852
                             },
                             "optional": false,
-                            "computed": false
+                            "computed": false,
+                            "start": 822,
+                            "end": 852
                           },
                           "property": {
                             "type": "Identifier",
+                            "name": "disposeAsync",
                             "start": 853,
-                            "end": 865,
-                            "name": "disposeAsync"
+                            "end": 865
                           },
                           "optional": false,
-                          "computed": false
+                          "computed": false,
+                          "start": 822,
+                          "end": 865
                         },
-                        "prefix": true
+                        "prefix": true,
+                        "start": 815,
+                        "end": 865
                       },
                       {
                         "type": "Literal",
-                        "start": 867,
-                        "end": 877,
                         "value": "function",
-                        "raw": "'function'"
+                        "raw": "'function'",
+                        "start": 867,
+                        "end": 877
                       }
                     ],
-                    "optional": false
-                  }
+                    "optional": false,
+                    "start": 798,
+                    "end": 878
+                  },
+                  "start": 798,
+                  "end": 879
                 },
                 {
                   "type": "VariableDeclaration",
-                  "start": 885,
-                  "end": 948,
                   "kind": "var",
                   "declarations": [
                     {
                       "type": "VariableDeclarator",
-                      "start": 889,
-                      "end": 947,
                       "id": {
                         "type": "Identifier",
+                        "name": "disposeAsync",
                         "start": 889,
-                        "end": 901,
-                        "name": "disposeAsync"
+                        "end": 901
                       },
                       "init": {
                         "type": "MemberExpression",
-                        "start": 904,
-                        "end": 947,
                         "object": {
                           "type": "MemberExpression",
-                          "start": 904,
-                          "end": 934,
                           "object": {
                             "type": "Identifier",
+                            "name": "AsyncDisposableStack",
                             "start": 904,
-                            "end": 924,
-                            "name": "AsyncDisposableStack"
+                            "end": 924
                           },
                           "property": {
                             "type": "Identifier",
+                            "name": "prototype",
                             "start": 925,
-                            "end": 934,
-                            "name": "prototype"
+                            "end": 934
                           },
                           "optional": false,
-                          "computed": false
+                          "computed": false,
+                          "start": 904,
+                          "end": 934
                         },
                         "property": {
                           "type": "Identifier",
+                          "name": "disposeAsync",
                           "start": 935,
-                          "end": 947,
-                          "name": "disposeAsync"
+                          "end": 947
                         },
                         "optional": false,
-                        "computed": false
-                      }
+                        "computed": false,
+                        "start": 904,
+                        "end": 947
+                      },
+                      "start": 889,
+                      "end": 947
                     }
-                  ]
+                  ],
+                  "start": 885,
+                  "end": 948
                 },
                 {
                   "type": "ExpressionStatement",
-                  "start": 954,
-                  "end": 1128,
                   "expression": {
                     "type": "AwaitExpression",
-                    "start": 954,
-                    "end": 1127,
                     "argument": {
                       "type": "CallExpression",
-                      "start": 960,
-                      "end": 1127,
                       "callee": {
                         "type": "MemberExpression",
-                        "start": 960,
-                        "end": 978,
                         "object": {
                           "type": "Identifier",
+                          "name": "assert",
                           "start": 960,
-                          "end": 966,
-                          "name": "assert"
+                          "end": 966
                         },
                         "property": {
                           "type": "Identifier",
+                          "name": "throwsAsync",
                           "start": 967,
-                          "end": 978,
-                          "name": "throwsAsync"
+                          "end": 978
                         },
                         "optional": false,
-                        "computed": false
+                        "computed": false,
+                        "start": 960,
+                        "end": 978
                       },
                       "arguments": [
                         {
                           "type": "Identifier",
+                          "name": "TypeError",
                           "start": 979,
-                          "end": 988,
-                          "name": "TypeError"
+                          "end": 988
                         },
                         {
                           "type": "FunctionExpression",
-                          "start": 990,
-                          "end": 1074,
                           "id": null,
                           "generator": false,
                           "async": false,
                           "params": [],
                           "body": {
                             "type": "BlockStatement",
-                            "start": 1001,
-                            "end": 1074,
                             "body": [
                               {
                                 "type": "ReturnStatement",
-                                "start": 1007,
-                                "end": 1070,
                                 "argument": {
                                   "type": "CallExpression",
-                                  "start": 1014,
-                                  "end": 1069,
                                   "callee": {
                                     "type": "MemberExpression",
-                                    "start": 1014,
-                                    "end": 1031,
                                     "object": {
                                       "type": "Identifier",
+                                      "name": "disposeAsync",
                                       "start": 1014,
-                                      "end": 1026,
-                                      "name": "disposeAsync"
+                                      "end": 1026
                                     },
                                     "property": {
                                       "type": "Identifier",
+                                      "name": "call",
                                       "start": 1027,
-                                      "end": 1031,
-                                      "name": "call"
+                                      "end": 1031
                                     },
                                     "optional": false,
-                                    "computed": false
+                                    "computed": false,
+                                    "start": 1014,
+                                    "end": 1031
                                   },
                                   "arguments": [
                                     {
                                       "type": "ObjectExpression",
-                                      "start": 1032,
-                                      "end": 1068,
                                       "properties": [
                                         {
                                           "type": "Property",
-                                          "start": 1034,
-                                          "end": 1066,
                                           "kind": "init",
                                           "key": {
                                             "type": "Literal",
-                                            "start": 1035,
-                                            "end": 1061,
                                             "value": "[[AsyncDisposableState]]",
-                                            "raw": "'[[AsyncDisposableState]]'"
+                                            "raw": "'[[AsyncDisposableState]]'",
+                                            "start": 1035,
+                                            "end": 1061
                                           },
                                           "value": {
                                             "type": "ObjectExpression",
+                                            "properties": [],
                                             "start": 1064,
-                                            "end": 1066,
-                                            "properties": []
+                                            "end": 1066
                                           },
                                           "method": false,
                                           "shorthand": false,
-                                          "computed": true
+                                          "computed": true,
+                                          "start": 1034,
+                                          "end": 1066
                                         }
-                                      ]
+                                      ],
+                                      "start": 1032,
+                                      "end": 1068
                                     }
                                   ],
-                                  "optional": false
-                                }
+                                  "optional": false,
+                                  "start": 1014,
+                                  "end": 1069
+                                },
+                                "start": 1007,
+                                "end": 1070
                               }
-                            ]
+                            ],
+                            "start": 1001,
+                            "end": 1074
                           },
-                          "expression": false
+                          "expression": false,
+                          "start": 990,
+                          "end": 1074
                         },
                         {
                           "type": "Literal",
-                          "start": 1076,
-                          "end": 1126,
                           "value": "Ordinary object without [[AsyncDisposableState]]",
-                          "raw": "'Ordinary object without [[AsyncDisposableState]]'"
+                          "raw": "'Ordinary object without [[AsyncDisposableState]]'",
+                          "start": 1076,
+                          "end": 1126
                         }
                       ],
-                      "optional": false
-                    }
-                  }
+                      "optional": false,
+                      "start": 960,
+                      "end": 1127
+                    },
+                    "start": 954,
+                    "end": 1127
+                  },
+                  "start": 954,
+                  "end": 1128
                 },
                 {
                   "type": "ExpressionStatement",
-                  "start": 1134,
-                  "end": 1339,
                   "expression": {
                     "type": "AwaitExpression",
-                    "start": 1134,
-                    "end": 1338,
                     "argument": {
                       "type": "CallExpression",
-                      "start": 1140,
-                      "end": 1338,
                       "callee": {
                         "type": "MemberExpression",
-                        "start": 1140,
-                        "end": 1158,
                         "object": {
                           "type": "Identifier",
+                          "name": "assert",
                           "start": 1140,
-                          "end": 1146,
-                          "name": "assert"
+                          "end": 1146
                         },
                         "property": {
                           "type": "Identifier",
+                          "name": "throwsAsync",
                           "start": 1147,
-                          "end": 1158,
-                          "name": "throwsAsync"
+                          "end": 1158
                         },
                         "optional": false,
-                        "computed": false
+                        "computed": false,
+                        "start": 1140,
+                        "end": 1158
                       },
                       "arguments": [
                         {
                           "type": "Identifier",
+                          "name": "TypeError",
                           "start": 1159,
-                          "end": 1168,
-                          "name": "TypeError"
+                          "end": 1168
                         },
                         {
                           "type": "FunctionExpression",
-                          "start": 1170,
-                          "end": 1248,
                           "id": null,
                           "generator": false,
                           "async": false,
                           "params": [],
                           "body": {
                             "type": "BlockStatement",
-                            "start": 1181,
-                            "end": 1248,
                             "body": [
                               {
                                 "type": "ReturnStatement",
-                                "start": 1187,
-                                "end": 1244,
                                 "argument": {
                                   "type": "CallExpression",
-                                  "start": 1194,
-                                  "end": 1243,
                                   "callee": {
                                     "type": "MemberExpression",
-                                    "start": 1194,
-                                    "end": 1211,
                                     "object": {
                                       "type": "Identifier",
+                                      "name": "disposeAsync",
                                       "start": 1194,
-                                      "end": 1206,
-                                      "name": "disposeAsync"
+                                      "end": 1206
                                     },
                                     "property": {
                                       "type": "Identifier",
+                                      "name": "call",
                                       "start": 1207,
-                                      "end": 1211,
-                                      "name": "call"
+                                      "end": 1211
                                     },
                                     "optional": false,
-                                    "computed": false
+                                    "computed": false,
+                                    "start": 1194,
+                                    "end": 1211
                                   },
                                   "arguments": [
                                     {
                                       "type": "MemberExpression",
-                                      "start": 1212,
-                                      "end": 1242,
                                       "object": {
                                         "type": "Identifier",
+                                        "name": "AsyncDisposableStack",
                                         "start": 1212,
-                                        "end": 1232,
-                                        "name": "AsyncDisposableStack"
+                                        "end": 1232
                                       },
                                       "property": {
                                         "type": "Identifier",
+                                        "name": "prototype",
                                         "start": 1233,
-                                        "end": 1242,
-                                        "name": "prototype"
+                                        "end": 1242
                                       },
                                       "optional": false,
-                                      "computed": false
+                                      "computed": false,
+                                      "start": 1212,
+                                      "end": 1242
                                     }
                                   ],
-                                  "optional": false
-                                }
+                                  "optional": false,
+                                  "start": 1194,
+                                  "end": 1243
+                                },
+                                "start": 1187,
+                                "end": 1244
                               }
-                            ]
+                            ],
+                            "start": 1181,
+                            "end": 1248
                           },
-                          "expression": false
+                          "expression": false,
+                          "start": 1170,
+                          "end": 1248
                         },
                         {
                           "type": "Literal",
-                          "start": 1250,
-                          "end": 1337,
                           "value": "AsyncDisposableStack.prototype does not have a [[AsyncDisposableState]] internal slot",
-                          "raw": "'AsyncDisposableStack.prototype does not have a [[AsyncDisposableState]] internal slot'"
+                          "raw": "'AsyncDisposableStack.prototype does not have a [[AsyncDisposableState]] internal slot'",
+                          "start": 1250,
+                          "end": 1337
                         }
                       ],
-                      "optional": false
-                    }
-                  }
+                      "optional": false,
+                      "start": 1140,
+                      "end": 1338
+                    },
+                    "start": 1134,
+                    "end": 1338
+                  },
+                  "start": 1134,
+                  "end": 1339
                 },
                 {
                   "type": "ExpressionStatement",
-                  "start": 1345,
-                  "end": 1530,
                   "expression": {
                     "type": "AwaitExpression",
-                    "start": 1345,
-                    "end": 1529,
                     "argument": {
                       "type": "CallExpression",
-                      "start": 1351,
-                      "end": 1529,
                       "callee": {
                         "type": "MemberExpression",
-                        "start": 1351,
-                        "end": 1369,
                         "object": {
                           "type": "Identifier",
+                          "name": "assert",
                           "start": 1351,
-                          "end": 1357,
-                          "name": "assert"
+                          "end": 1357
                         },
                         "property": {
                           "type": "Identifier",
+                          "name": "throwsAsync",
                           "start": 1358,
-                          "end": 1369,
-                          "name": "throwsAsync"
+                          "end": 1369
                         },
                         "optional": false,
-                        "computed": false
+                        "computed": false,
+                        "start": 1351,
+                        "end": 1369
                       },
                       "arguments": [
                         {
                           "type": "Identifier",
+                          "name": "TypeError",
                           "start": 1370,
-                          "end": 1379,
-                          "name": "TypeError"
+                          "end": 1379
                         },
                         {
                           "type": "FunctionExpression",
-                          "start": 1381,
-                          "end": 1449,
                           "id": null,
                           "generator": false,
                           "async": false,
                           "params": [],
                           "body": {
                             "type": "BlockStatement",
-                            "start": 1392,
-                            "end": 1449,
                             "body": [
                               {
                                 "type": "ReturnStatement",
-                                "start": 1398,
-                                "end": 1445,
                                 "argument": {
                                   "type": "CallExpression",
-                                  "start": 1405,
-                                  "end": 1444,
                                   "callee": {
                                     "type": "MemberExpression",
-                                    "start": 1405,
-                                    "end": 1422,
                                     "object": {
                                       "type": "Identifier",
+                                      "name": "disposeAsync",
                                       "start": 1405,
-                                      "end": 1417,
-                                      "name": "disposeAsync"
+                                      "end": 1417
                                     },
                                     "property": {
                                       "type": "Identifier",
+                                      "name": "call",
                                       "start": 1418,
-                                      "end": 1422,
-                                      "name": "call"
+                                      "end": 1422
                                     },
                                     "optional": false,
-                                    "computed": false
+                                    "computed": false,
+                                    "start": 1405,
+                                    "end": 1422
                                   },
                                   "arguments": [
                                     {
                                       "type": "Identifier",
+                                      "name": "AsyncDisposableStack",
                                       "start": 1423,
-                                      "end": 1443,
-                                      "name": "AsyncDisposableStack"
+                                      "end": 1443
                                     }
                                   ],
-                                  "optional": false
-                                }
+                                  "optional": false,
+                                  "start": 1405,
+                                  "end": 1444
+                                },
+                                "start": 1398,
+                                "end": 1445
                               }
-                            ]
+                            ],
+                            "start": 1392,
+                            "end": 1449
                           },
-                          "expression": false
+                          "expression": false,
+                          "start": 1381,
+                          "end": 1449
                         },
                         {
                           "type": "Literal",
-                          "start": 1451,
-                          "end": 1528,
                           "value": "AsyncDisposableStack does not have a [[AsyncDisposableState]] internal slot",
-                          "raw": "'AsyncDisposableStack does not have a [[AsyncDisposableState]] internal slot'"
+                          "raw": "'AsyncDisposableStack does not have a [[AsyncDisposableState]] internal slot'",
+                          "start": 1451,
+                          "end": 1528
                         }
                       ],
-                      "optional": false
-                    }
-                  }
+                      "optional": false,
+                      "start": 1351,
+                      "end": 1529
+                    },
+                    "start": 1345,
+                    "end": 1529
+                  },
+                  "start": 1345,
+                  "end": 1530
                 },
                 {
                   "type": "VariableDeclaration",
-                  "start": 1536,
-                  "end": 1570,
                   "kind": "var",
                   "declarations": [
                     {
                       "type": "VariableDeclarator",
-                      "start": 1540,
-                      "end": 1569,
                       "id": {
                         "type": "Identifier",
+                        "name": "stack",
                         "start": 1540,
-                        "end": 1545,
-                        "name": "stack"
+                        "end": 1545
                       },
                       "init": {
                         "type": "NewExpression",
-                        "start": 1548,
-                        "end": 1569,
                         "callee": {
                           "type": "Identifier",
+                          "name": "DisposableStack",
                           "start": 1552,
-                          "end": 1567,
-                          "name": "DisposableStack"
+                          "end": 1567
                         },
-                        "arguments": []
-                      }
+                        "arguments": [],
+                        "start": 1548,
+                        "end": 1569
+                      },
+                      "start": 1540,
+                      "end": 1569
                     }
-                  ]
+                  ],
+                  "start": 1536,
+                  "end": 1570
                 },
                 {
                   "type": "ExpressionStatement",
-                  "start": 1573,
-                  "end": 1693,
                   "expression": {
                     "type": "AwaitExpression",
-                    "start": 1573,
-                    "end": 1692,
                     "argument": {
                       "type": "CallExpression",
-                      "start": 1579,
-                      "end": 1692,
                       "callee": {
                         "type": "MemberExpression",
-                        "start": 1579,
-                        "end": 1597,
                         "object": {
                           "type": "Identifier",
+                          "name": "assert",
                           "start": 1579,
-                          "end": 1585,
-                          "name": "assert"
+                          "end": 1585
                         },
                         "property": {
                           "type": "Identifier",
+                          "name": "throwsAsync",
                           "start": 1586,
-                          "end": 1597,
-                          "name": "throwsAsync"
+                          "end": 1597
                         },
                         "optional": false,
-                        "computed": false
+                        "computed": false,
+                        "start": 1579,
+                        "end": 1597
                       },
                       "arguments": [
                         {
                           "type": "Identifier",
+                          "name": "TypeError",
                           "start": 1598,
-                          "end": 1607,
-                          "name": "TypeError"
+                          "end": 1607
                         },
                         {
                           "type": "FunctionExpression",
-                          "start": 1609,
-                          "end": 1663,
                           "id": null,
                           "generator": false,
                           "async": false,
                           "params": [],
                           "body": {
                             "type": "BlockStatement",
-                            "start": 1621,
-                            "end": 1663,
                             "body": [
                               {
                                 "type": "ReturnStatement",
-                                "start": 1627,
-                                "end": 1659,
                                 "argument": {
                                   "type": "CallExpression",
-                                  "start": 1634,
-                                  "end": 1658,
                                   "callee": {
                                     "type": "MemberExpression",
-                                    "start": 1634,
-                                    "end": 1651,
                                     "object": {
                                       "type": "Identifier",
+                                      "name": "disposeAsync",
                                       "start": 1634,
-                                      "end": 1646,
-                                      "name": "disposeAsync"
+                                      "end": 1646
                                     },
                                     "property": {
                                       "type": "Identifier",
+                                      "name": "call",
                                       "start": 1647,
-                                      "end": 1651,
-                                      "name": "call"
+                                      "end": 1651
                                     },
                                     "optional": false,
-                                    "computed": false
+                                    "computed": false,
+                                    "start": 1634,
+                                    "end": 1651
                                   },
                                   "arguments": [
                                     {
                                       "type": "Identifier",
+                                      "name": "stack",
                                       "start": 1652,
-                                      "end": 1657,
-                                      "name": "stack"
+                                      "end": 1657
                                     }
                                   ],
-                                  "optional": false
-                                }
+                                  "optional": false,
+                                  "start": 1634,
+                                  "end": 1658
+                                },
+                                "start": 1627,
+                                "end": 1659
                               }
-                            ]
+                            ],
+                            "start": 1621,
+                            "end": 1663
                           },
-                          "expression": false
+                          "expression": false,
+                          "start": 1609,
+                          "end": 1663
                         },
                         {
                           "type": "Literal",
-                          "start": 1665,
-                          "end": 1691,
                           "value": "DisposableStack instance",
-                          "raw": "'DisposableStack instance'"
+                          "raw": "'DisposableStack instance'",
+                          "start": 1665,
+                          "end": 1691
                         }
                       ],
-                      "optional": false
-                    }
-                  }
+                      "optional": false,
+                      "start": 1579,
+                      "end": 1692
+                    },
+                    "start": 1573,
+                    "end": 1692
+                  },
+                  "start": 1573,
+                  "end": 1693
                 }
-              ]
+              ],
+              "start": 794,
+              "end": 1695
             },
-            "expression": false
+            "expression": false,
+            "start": 777,
+            "end": 1695
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 767,
+        "end": 1696
+      },
+      "start": 767,
+      "end": 1697
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 1698
 }

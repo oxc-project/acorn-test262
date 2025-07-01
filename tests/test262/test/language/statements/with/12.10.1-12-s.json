@@ -1,90 +1,90 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 405,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 264,
-      "end": 404,
       "expression": {
         "type": "CallExpression",
-        "start": 264,
-        "end": 403,
         "callee": {
           "type": "MemberExpression",
-          "start": 264,
-          "end": 277,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 264,
-            "end": 270,
-            "name": "assert"
+            "end": 270
           },
           "property": {
             "type": "Identifier",
+            "name": "throws",
             "start": 271,
-            "end": 277,
-            "name": "throws"
+            "end": 277
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 264,
+          "end": 277
         },
         "arguments": [
           {
             "type": "Identifier",
+            "name": "SyntaxError",
             "start": 278,
-            "end": 289,
-            "name": "SyntaxError"
+            "end": 289
           },
           {
             "type": "FunctionExpression",
-            "start": 291,
-            "end": 402,
             "id": null,
             "generator": false,
             "async": false,
             "params": [],
             "body": {
               "type": "BlockStatement",
-              "start": 302,
-              "end": 402,
               "body": [
                 {
                   "type": "ExpressionStatement",
-                  "start": 308,
-                  "end": 400,
                   "expression": {
                     "type": "CallExpression",
-                    "start": 308,
-                    "end": 399,
                     "callee": {
                       "type": "Identifier",
+                      "name": "eval",
                       "start": 308,
-                      "end": 312,
-                      "name": "eval"
+                      "end": 312
                     },
                     "arguments": [
                       {
                         "type": "Literal",
-                        "start": 313,
-                        "end": 398,
                         "value": "          'use strict';           var o = {};           with (o) {}        ",
-                        "raw": "\"\\\n          'use strict'; \\\n          var o = {}; \\\n          with (o) {}\\\n        \""
+                        "raw": "\"\\\n          'use strict'; \\\n          var o = {}; \\\n          with (o) {}\\\n        \"",
+                        "start": 313,
+                        "end": 398
                       }
                     ],
-                    "optional": false
-                  }
+                    "optional": false,
+                    "start": 308,
+                    "end": 399
+                  },
+                  "start": 308,
+                  "end": 400
                 }
-              ]
+              ],
+              "start": 302,
+              "end": 402
             },
-            "expression": false
+            "expression": false,
+            "start": 291,
+            "end": 402
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 264,
+        "end": 403
+      },
+      "start": 264,
+      "end": 404
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 405
 }

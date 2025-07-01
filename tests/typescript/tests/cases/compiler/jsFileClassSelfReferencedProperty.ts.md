@@ -2,26 +2,20 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 120,
   "body": [
     {
       "type": "ExportNamedDeclaration",
-      "start": 0,
-      "end": 120,
       "declaration": {
         "type": "ClassDeclaration",
-        "start": 7,
-        "end": 120,
         "decorators": [],
         "id": {
           "type": "Identifier",
-          "start": 13,
-          "end": 30,
           "decorators": [],
           "name": "StackOverflowTest",
           "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "start": 13,
+          "end": 30
         },
         "typeParameters": null,
         "superClass": null,
@@ -29,27 +23,21 @@ __ESTREE_TEST__:PASS:
         "implements": [],
         "body": {
           "type": "ClassBody",
-          "start": 31,
-          "end": 120,
           "body": [
             {
               "type": "MethodDefinition",
-              "start": 35,
-              "end": 118,
               "decorators": [],
               "key": {
                 "type": "Identifier",
-                "start": 35,
-                "end": 46,
                 "decorators": [],
                 "name": "constructor",
                 "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "start": 35,
+                "end": 46
               },
               "value": {
                 "type": "FunctionExpression",
-                "start": 47,
-                "end": 118,
                 "id": null,
                 "generator": false,
                 "async": false,
@@ -59,22 +47,14 @@ __ESTREE_TEST__:PASS:
                 "returnType": null,
                 "body": {
                   "type": "BlockStatement",
-                  "start": 50,
-                  "end": 118,
                   "body": [
                     {
                       "type": "ExpressionStatement",
-                      "start": 56,
-                      "end": 114,
                       "expression": {
                         "type": "AssignmentExpression",
-                        "start": 56,
-                        "end": 114,
                         "operator": "=",
                         "left": {
                           "type": "MemberExpression",
-                          "start": 56,
-                          "end": 78,
                           "object": {
                             "type": "ThisExpression",
                             "start": 56,
@@ -82,28 +62,24 @@ __ESTREE_TEST__:PASS:
                           },
                           "property": {
                             "type": "Identifier",
-                            "start": 61,
-                            "end": 78,
                             "decorators": [],
                             "name": "testStackOverflow",
                             "optional": false,
-                            "typeAnnotation": null
+                            "typeAnnotation": null,
+                            "start": 61,
+                            "end": 78
                           },
                           "optional": false,
-                          "computed": false
+                          "computed": false,
+                          "start": 56,
+                          "end": 78
                         },
                         "right": {
                           "type": "CallExpression",
-                          "start": 81,
-                          "end": 114,
                           "callee": {
                             "type": "MemberExpression",
-                            "start": 81,
-                            "end": 108,
                             "object": {
                               "type": "MemberExpression",
-                              "start": 81,
-                              "end": 103,
                               "object": {
                                 "type": "ThisExpression",
                                 "start": 81,
@@ -111,27 +87,31 @@ __ESTREE_TEST__:PASS:
                               },
                               "property": {
                                 "type": "Identifier",
-                                "start": 86,
-                                "end": 103,
                                 "decorators": [],
                                 "name": "testStackOverflow",
                                 "optional": false,
-                                "typeAnnotation": null
+                                "typeAnnotation": null,
+                                "start": 86,
+                                "end": 103
                               },
                               "optional": false,
-                              "computed": false
+                              "computed": false,
+                              "start": 81,
+                              "end": 103
                             },
                             "property": {
                               "type": "Identifier",
-                              "start": 104,
-                              "end": 108,
                               "decorators": [],
                               "name": "bind",
                               "optional": false,
-                              "typeAnnotation": null
+                              "typeAnnotation": null,
+                              "start": 104,
+                              "end": 108
                             },
                             "optional": false,
-                            "computed": false
+                            "computed": false,
+                            "start": 81,
+                            "end": 108
                           },
                           "typeArguments": null,
                           "arguments": [
@@ -141,34 +121,54 @@ __ESTREE_TEST__:PASS:
                               "end": 113
                             }
                           ],
-                          "optional": false
-                        }
+                          "optional": false,
+                          "start": 81,
+                          "end": 114
+                        },
+                        "start": 56,
+                        "end": 114
                       },
-                      "directive": null
+                      "directive": null,
+                      "start": 56,
+                      "end": 114
                     }
-                  ]
+                  ],
+                  "start": 50,
+                  "end": 118
                 },
-                "expression": false
+                "expression": false,
+                "start": 47,
+                "end": 118
               },
               "kind": "constructor",
               "computed": false,
               "static": false,
               "override": false,
               "optional": false,
-              "accessibility": null
+              "accessibility": null,
+              "start": 35,
+              "end": 118
             }
-          ]
+          ],
+          "start": 31,
+          "end": 120
         },
         "abstract": false,
-        "declare": false
+        "declare": false,
+        "start": 7,
+        "end": 120
       },
       "specifiers": [],
       "source": null,
       "exportKind": "value",
-      "attributes": []
+      "attributes": [],
+      "start": 0,
+      "end": 120
     }
   ],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 120
 }
 ```

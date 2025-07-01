@@ -1,189 +1,189 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 458,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 307,
-      "end": 324,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 311,
-          "end": 323,
           "id": {
             "type": "Identifier",
+            "name": "thisVal",
             "start": 311,
-            "end": 318,
-            "name": "thisVal"
+            "end": 318
           },
           "init": {
             "type": "ObjectExpression",
+            "properties": [],
             "start": 321,
-            "end": 323,
-            "properties": []
-          }
+            "end": 323
+          },
+          "start": 311,
+          "end": 323
         }
-      ]
+      ],
+      "start": 307,
+      "end": 324
     },
     {
       "type": "VariableDeclaration",
-      "start": 325,
-      "end": 405,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 329,
-          "end": 404,
           "id": {
             "type": "Identifier",
+            "name": "accessor",
             "start": 329,
-            "end": 337,
-            "name": "accessor"
+            "end": 337
           },
           "init": {
             "type": "MemberExpression",
-            "start": 340,
-            "end": 404,
             "object": {
               "type": "CallExpression",
-              "start": 340,
-              "end": 400,
               "callee": {
                 "type": "MemberExpression",
-                "start": 340,
-                "end": 371,
                 "object": {
                   "type": "Identifier",
+                  "name": "Object",
                   "start": 340,
-                  "end": 346,
-                  "name": "Object"
+                  "end": 346
                 },
                 "property": {
                   "type": "Identifier",
+                  "name": "getOwnPropertyDescriptor",
                   "start": 347,
-                  "end": 371,
-                  "name": "getOwnPropertyDescriptor"
+                  "end": 371
                 },
                 "optional": false,
-                "computed": false
+                "computed": false,
+                "start": 340,
+                "end": 371
               },
               "arguments": [
                 {
                   "type": "Identifier",
+                  "name": "ArrayBuffer",
                   "start": 372,
-                  "end": 383,
-                  "name": "ArrayBuffer"
+                  "end": 383
                 },
                 {
                   "type": "MemberExpression",
-                  "start": 385,
-                  "end": 399,
                   "object": {
                     "type": "Identifier",
+                    "name": "Symbol",
                     "start": 385,
-                    "end": 391,
-                    "name": "Symbol"
+                    "end": 391
                   },
                   "property": {
                     "type": "Identifier",
+                    "name": "species",
                     "start": 392,
-                    "end": 399,
-                    "name": "species"
+                    "end": 399
                   },
                   "optional": false,
-                  "computed": false
+                  "computed": false,
+                  "start": 385,
+                  "end": 399
                 }
               ],
-              "optional": false
+              "optional": false,
+              "start": 340,
+              "end": 400
             },
             "property": {
               "type": "Identifier",
+              "name": "get",
               "start": 401,
-              "end": 404,
-              "name": "get"
+              "end": 404
             },
             "optional": false,
-            "computed": false
-          }
+            "computed": false,
+            "start": 340,
+            "end": 404
+          },
+          "start": 329,
+          "end": 404
         }
-      ]
+      ],
+      "start": 325,
+      "end": 405
     },
     {
       "type": "ExpressionStatement",
-      "start": 407,
-      "end": 457,
       "expression": {
         "type": "CallExpression",
-        "start": 407,
-        "end": 456,
         "callee": {
           "type": "MemberExpression",
-          "start": 407,
-          "end": 423,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 407,
-            "end": 413,
-            "name": "assert"
+            "end": 413
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 414,
-            "end": 423,
-            "name": "sameValue"
+            "end": 423
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 407,
+          "end": 423
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 424,
-            "end": 446,
             "callee": {
               "type": "MemberExpression",
-              "start": 424,
-              "end": 437,
               "object": {
                 "type": "Identifier",
+                "name": "accessor",
                 "start": 424,
-                "end": 432,
-                "name": "accessor"
+                "end": 432
               },
               "property": {
                 "type": "Identifier",
+                "name": "call",
                 "start": 433,
-                "end": 437,
-                "name": "call"
+                "end": 437
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 424,
+              "end": 437
             },
             "arguments": [
               {
                 "type": "Identifier",
+                "name": "thisVal",
                 "start": 438,
-                "end": 445,
-                "name": "thisVal"
+                "end": 445
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 424,
+            "end": 446
           },
           {
             "type": "Identifier",
+            "name": "thisVal",
             "start": 448,
-            "end": 455,
-            "name": "thisVal"
+            "end": 455
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 407,
+        "end": 456
+      },
+      "start": 407,
+      "end": 457
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 458
 }

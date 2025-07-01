@@ -2,68 +2,58 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 41,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 0,
-      "end": 17,
       "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 6,
-          "end": 16,
           "id": {
             "type": "Identifier",
-            "start": 6,
-            "end": 7,
             "decorators": [],
             "name": "x",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 6,
+            "end": 7
           },
           "init": {
             "type": "Literal",
-            "start": 10,
-            "end": 16,
             "value": "oops",
-            "raw": "\"oops\""
+            "raw": "\"oops\"",
+            "start": 10,
+            "end": 16
           },
-          "definite": false
+          "definite": false,
+          "start": 6,
+          "end": 16
         }
       ],
-      "declare": false
+      "declare": false,
+      "start": 0,
+      "end": 17
     },
     {
       "type": "VariableDeclaration",
-      "start": 18,
-      "end": 41,
       "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 24,
-          "end": 40,
           "id": {
             "type": "Identifier",
-            "start": 24,
-            "end": 25,
             "decorators": [],
             "name": "y",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 24,
+            "end": 25
           },
           "init": {
             "type": "UnaryExpression",
-            "start": 28,
-            "end": 40,
             "operator": "+",
             "argument": {
               "type": "TSTypeAssertion",
-              "start": 30,
-              "end": 40,
               "typeAnnotation": {
                 "type": "TSNumberKeyword",
                 "start": 31,
@@ -71,23 +61,33 @@ __ESTREE_TEST__:PASS:
               },
               "expression": {
                 "type": "Identifier",
-                "start": 39,
-                "end": 40,
                 "decorators": [],
                 "name": "x",
                 "optional": false,
-                "typeAnnotation": null
-              }
+                "typeAnnotation": null,
+                "start": 39,
+                "end": 40
+              },
+              "start": 30,
+              "end": 40
             },
-            "prefix": true
+            "prefix": true,
+            "start": 28,
+            "end": 40
           },
-          "definite": false
+          "definite": false,
+          "start": 24,
+          "end": 40
         }
       ],
-      "declare": false
+      "declare": false,
+      "start": 18,
+      "end": 41
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 41
 }
 ```

@@ -1,244 +1,244 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 662,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 463,
-      "end": 520,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 467,
-          "end": 519,
           "id": {
             "type": "Identifier",
+            "name": "revocableTarget",
             "start": 467,
-            "end": 482,
-            "name": "revocableTarget"
+            "end": 482
           },
           "init": {
             "type": "CallExpression",
-            "start": 485,
-            "end": 519,
             "callee": {
               "type": "MemberExpression",
-              "start": 485,
-              "end": 500,
               "object": {
                 "type": "Identifier",
+                "name": "Proxy",
                 "start": 485,
-                "end": 490,
-                "name": "Proxy"
+                "end": 490
               },
               "property": {
                 "type": "Identifier",
+                "name": "revocable",
                 "start": 491,
-                "end": 500,
-                "name": "revocable"
+                "end": 500
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 485,
+              "end": 500
             },
             "arguments": [
               {
                 "type": "FunctionExpression",
-                "start": 501,
-                "end": 514,
                 "id": null,
                 "generator": false,
                 "async": false,
                 "params": [],
                 "body": {
                   "type": "BlockStatement",
+                  "body": [],
                   "start": 512,
-                  "end": 514,
-                  "body": []
+                  "end": 514
                 },
-                "expression": false
+                "expression": false,
+                "start": 501,
+                "end": 514
               },
               {
                 "type": "ObjectExpression",
+                "properties": [],
                 "start": 516,
-                "end": 518,
-                "properties": []
+                "end": 518
               }
             ],
-            "optional": false
-          }
+            "optional": false,
+            "start": 485,
+            "end": 519
+          },
+          "start": 467,
+          "end": 519
         }
-      ]
+      ],
+      "start": 463,
+      "end": 520
     },
     {
       "type": "ExpressionStatement",
-      "start": 521,
-      "end": 546,
       "expression": {
         "type": "CallExpression",
-        "start": 521,
-        "end": 545,
         "callee": {
           "type": "MemberExpression",
-          "start": 521,
-          "end": 543,
           "object": {
             "type": "Identifier",
+            "name": "revocableTarget",
             "start": 521,
-            "end": 536,
-            "name": "revocableTarget"
+            "end": 536
           },
           "property": {
             "type": "Identifier",
+            "name": "revoke",
             "start": 537,
-            "end": 543,
-            "name": "revoke"
+            "end": 543
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 521,
+          "end": 543
         },
         "arguments": [],
-        "optional": false
-      }
+        "optional": false,
+        "start": 521,
+        "end": 545
+      },
+      "start": 521,
+      "end": 546
     },
     {
       "type": "VariableDeclaration",
-      "start": 548,
-      "end": 607,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 552,
-          "end": 606,
           "id": {
             "type": "Identifier",
+            "name": "revocable",
             "start": 552,
-            "end": 561,
-            "name": "revocable"
+            "end": 561
           },
           "init": {
             "type": "CallExpression",
-            "start": 564,
-            "end": 606,
             "callee": {
               "type": "MemberExpression",
-              "start": 564,
-              "end": 579,
               "object": {
                 "type": "Identifier",
+                "name": "Proxy",
                 "start": 564,
-                "end": 569,
-                "name": "Proxy"
+                "end": 569
               },
               "property": {
                 "type": "Identifier",
+                "name": "revocable",
                 "start": 570,
-                "end": 579,
-                "name": "revocable"
+                "end": 579
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 564,
+              "end": 579
             },
             "arguments": [
               {
                 "type": "MemberExpression",
-                "start": 580,
-                "end": 601,
                 "object": {
                   "type": "Identifier",
+                  "name": "revocableTarget",
                   "start": 580,
-                  "end": 595,
-                  "name": "revocableTarget"
+                  "end": 595
                 },
                 "property": {
                   "type": "Identifier",
+                  "name": "proxy",
                   "start": 596,
-                  "end": 601,
-                  "name": "proxy"
+                  "end": 601
                 },
                 "optional": false,
-                "computed": false
+                "computed": false,
+                "start": 580,
+                "end": 601
               },
               {
                 "type": "ObjectExpression",
+                "properties": [],
                 "start": 603,
-                "end": 605,
-                "properties": []
+                "end": 605
               }
             ],
-            "optional": false
-          }
+            "optional": false,
+            "start": 564,
+            "end": 606
+          },
+          "start": 552,
+          "end": 606
         }
-      ]
+      ],
+      "start": 548,
+      "end": 607
     },
     {
       "type": "ExpressionStatement",
-      "start": 608,
-      "end": 661,
       "expression": {
         "type": "CallExpression",
-        "start": 608,
-        "end": 660,
         "callee": {
           "type": "MemberExpression",
-          "start": 608,
-          "end": 624,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 608,
-            "end": 614,
-            "name": "assert"
+            "end": 614
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 615,
-            "end": 624,
-            "name": "sameValue"
+            "end": 624
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 608,
+          "end": 624
         },
         "arguments": [
           {
             "type": "UnaryExpression",
-            "start": 625,
-            "end": 647,
             "operator": "typeof",
             "argument": {
               "type": "MemberExpression",
-              "start": 632,
-              "end": 647,
               "object": {
                 "type": "Identifier",
+                "name": "revocable",
                 "start": 632,
-                "end": 641,
-                "name": "revocable"
+                "end": 641
               },
               "property": {
                 "type": "Identifier",
+                "name": "proxy",
                 "start": 642,
-                "end": 647,
-                "name": "proxy"
+                "end": 647
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 632,
+              "end": 647
             },
-            "prefix": true
+            "prefix": true,
+            "start": 625,
+            "end": 647
           },
           {
             "type": "Literal",
-            "start": 649,
-            "end": 659,
             "value": "function",
-            "raw": "\"function\""
+            "raw": "\"function\"",
+            "start": 649,
+            "end": 659
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 608,
+        "end": 660
+      },
+      "start": 608,
+      "end": 661
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 662
 }

@@ -1,64 +1,64 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 311,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 254,
-      "end": 310,
       "expression": {
         "type": "CallExpression",
-        "start": 254,
-        "end": 309,
         "callee": {
           "type": "MemberExpression",
-          "start": 254,
-          "end": 285,
           "object": {
             "type": "Identifier",
+            "name": "Object",
             "start": 254,
-            "end": 260,
-            "name": "Object"
+            "end": 260
           },
           "property": {
             "type": "Identifier",
+            "name": "getOwnPropertyDescriptor",
             "start": 261,
-            "end": 285,
-            "name": "getOwnPropertyDescriptor"
+            "end": 285
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 254,
+          "end": 285
         },
         "arguments": [
           {
             "type": "FunctionExpression",
-            "start": 286,
-            "end": 298,
             "id": null,
             "generator": false,
             "async": false,
             "params": [],
             "body": {
               "type": "BlockStatement",
+              "body": [],
               "start": 296,
-              "end": 298,
-              "body": []
+              "end": 298
             },
-            "expression": false
+            "expression": false,
+            "start": 286,
+            "end": 298
           },
           {
             "type": "Literal",
-            "start": 300,
-            "end": 308,
             "value": "caller",
-            "raw": "'caller'"
+            "raw": "'caller'",
+            "start": 300,
+            "end": 308
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 254,
+        "end": 309
+      },
+      "start": 254,
+      "end": 310
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 311
 }

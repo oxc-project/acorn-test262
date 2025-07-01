@@ -1,180 +1,180 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 534,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 387,
-      "end": 404,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 391,
-          "end": 403,
           "id": {
             "type": "Identifier",
+            "name": "x",
             "start": 391,
-            "end": 392,
-            "name": "x"
+            "end": 392
           },
           "init": {
             "type": "CallExpression",
-            "start": 395,
-            "end": 403,
             "callee": {
               "type": "Identifier",
+              "name": "Array",
               "start": 395,
-              "end": 400,
-              "name": "Array"
+              "end": 400
             },
             "arguments": [
               {
                 "type": "Literal",
-                "start": 401,
-                "end": 402,
                 "value": 2,
-                "raw": "2"
+                "raw": "2",
+                "start": 401,
+                "end": 402
               }
             ],
-            "optional": false
-          }
+            "optional": false,
+            "start": 395,
+            "end": 403
+          },
+          "start": 391,
+          "end": 403
         }
-      ]
+      ],
+      "start": 387,
+      "end": 404
     },
     {
       "type": "ExpressionStatement",
-      "start": 406,
-      "end": 473,
       "expression": {
         "type": "CallExpression",
-        "start": 406,
-        "end": 472,
         "callee": {
           "type": "MemberExpression",
-          "start": 406,
-          "end": 425,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 406,
-            "end": 412,
-            "name": "assert"
+            "end": 412
           },
           "property": {
             "type": "Identifier",
+            "name": "notSameValue",
             "start": 413,
-            "end": 425,
-            "name": "notSameValue"
+            "end": 425
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 406,
+          "end": 425
         },
         "arguments": [
           {
             "type": "MemberExpression",
-            "start": 426,
-            "end": 434,
             "object": {
               "type": "Identifier",
+              "name": "x",
               "start": 426,
-              "end": 427,
-              "name": "x"
+              "end": 427
             },
             "property": {
               "type": "Identifier",
+              "name": "length",
               "start": 428,
-              "end": 434,
-              "name": "length"
+              "end": 434
             },
             "optional": false,
-            "computed": false
+            "computed": false,
+            "start": 426,
+            "end": 434
           },
           {
             "type": "Literal",
-            "start": 436,
-            "end": 437,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "start": 436,
+            "end": 437
           },
           {
             "type": "Literal",
-            "start": 439,
-            "end": 471,
             "value": "The value of x.length is not 1",
-            "raw": "'The value of x.length is not 1'"
+            "raw": "'The value of x.length is not 1'",
+            "start": 439,
+            "end": 471
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 406,
+        "end": 472
+      },
+      "start": 406,
+      "end": 473
     },
     {
       "type": "ExpressionStatement",
-      "start": 474,
-      "end": 533,
       "expression": {
         "type": "CallExpression",
-        "start": 474,
-        "end": 532,
         "callee": {
           "type": "MemberExpression",
-          "start": 474,
-          "end": 493,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 474,
-            "end": 480,
-            "name": "assert"
+            "end": 480
           },
           "property": {
             "type": "Identifier",
+            "name": "notSameValue",
             "start": 481,
-            "end": 493,
-            "name": "notSameValue"
+            "end": 493
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 474,
+          "end": 493
         },
         "arguments": [
           {
             "type": "MemberExpression",
-            "start": 494,
-            "end": 498,
             "object": {
               "type": "Identifier",
+              "name": "x",
               "start": 494,
-              "end": 495,
-              "name": "x"
+              "end": 495
             },
             "property": {
               "type": "Literal",
-              "start": 496,
-              "end": 497,
               "value": 0,
-              "raw": "0"
+              "raw": "0",
+              "start": 496,
+              "end": 497
             },
             "optional": false,
-            "computed": true
+            "computed": true,
+            "start": 494,
+            "end": 498
           },
           {
             "type": "Literal",
-            "start": 500,
-            "end": 501,
             "value": 2,
-            "raw": "2"
+            "raw": "2",
+            "start": 500,
+            "end": 501
           },
           {
             "type": "Literal",
-            "start": 503,
-            "end": 531,
             "value": "The value of x[0] is not 2",
-            "raw": "'The value of x[0] is not 2'"
+            "raw": "'The value of x[0] is not 2'",
+            "start": 503,
+            "end": 531
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 474,
+        "end": 532
+      },
+      "start": 474,
+      "end": 533
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 534
 }

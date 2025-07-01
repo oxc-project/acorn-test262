@@ -2,17 +2,11 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 25,
   "body": [
     {
       "type": "ExportDefaultDeclaration",
-      "start": 0,
-      "end": 24,
       "declaration": {
         "type": "ClassDeclaration",
-        "start": 15,
-        "end": 24,
         "decorators": [],
         "id": null,
         "typeParameters": null,
@@ -21,92 +15,98 @@ __ESTREE_TEST__:PASS:
         "implements": [],
         "body": {
           "type": "ClassBody",
+          "body": [],
           "start": 21,
-          "end": 24,
-          "body": []
+          "end": 24
         },
         "abstract": false,
-        "declare": false
+        "declare": false,
+        "start": 15,
+        "end": 24
       },
-      "exportKind": "value"
+      "exportKind": "value",
+      "start": 0,
+      "end": 24
     }
   ],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 25
 }
 ```
 __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 43,
   "body": [
     {
       "type": "ImportDeclaration",
-      "start": 0,
-      "end": 35,
       "specifiers": [
         {
           "type": "ImportSpecifier",
-          "start": 9,
-          "end": 21,
           "imported": {
             "type": "Identifier",
-            "start": 9,
-            "end": 16,
             "decorators": [],
             "name": "default",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 9,
+            "end": 16
           },
           "local": {
             "type": "Identifier",
-            "start": 20,
-            "end": 21,
             "decorators": [],
             "name": "b",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 20,
+            "end": 21
           },
-          "importKind": "value"
+          "importKind": "value",
+          "start": 9,
+          "end": 21
         }
       ],
       "source": {
         "type": "Literal",
-        "start": 29,
-        "end": 34,
         "value": "./a",
-        "raw": "\"./a\""
+        "raw": "\"./a\"",
+        "start": 29,
+        "end": 34
       },
       "phase": null,
       "attributes": [],
-      "importKind": "value"
+      "importKind": "value",
+      "start": 0,
+      "end": 35
     },
     {
       "type": "ExpressionStatement",
-      "start": 36,
-      "end": 43,
       "expression": {
         "type": "UnaryExpression",
-        "start": 36,
-        "end": 42,
         "operator": "void",
         "argument": {
           "type": "Identifier",
-          "start": 41,
-          "end": 42,
           "decorators": [],
           "name": "b",
           "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "start": 41,
+          "end": 42
         },
-        "prefix": true
+        "prefix": true,
+        "start": 36,
+        "end": 42
       },
-      "directive": null
+      "directive": null,
+      "start": 36,
+      "end": 43
     }
   ],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 43
 }
 ```

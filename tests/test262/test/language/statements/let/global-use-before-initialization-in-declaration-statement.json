@@ -1,47 +1,47 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 340,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 325,
-      "end": 339,
       "kind": "let",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 329,
-          "end": 338,
           "id": {
             "type": "Identifier",
+            "name": "x",
             "start": 329,
-            "end": 330,
-            "name": "x"
+            "end": 330
           },
           "init": {
             "type": "BinaryExpression",
-            "start": 333,
-            "end": 338,
             "left": {
               "type": "Identifier",
+              "name": "x",
               "start": 333,
-              "end": 334,
-              "name": "x"
+              "end": 334
             },
             "operator": "+",
             "right": {
               "type": "Literal",
-              "start": 337,
-              "end": 338,
               "value": 1,
-              "raw": "1"
-            }
-          }
+              "raw": "1",
+              "start": 337,
+              "end": 338
+            },
+            "start": 333,
+            "end": 338
+          },
+          "start": 329,
+          "end": 338
         }
-      ]
+      ],
+      "start": 325,
+      "end": 339
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 340
 }

@@ -2,31 +2,31 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 17,
   "body": [
     {
       "type": "DoWhileStatement",
-      "start": 0,
-      "end": 17,
       "body": {
         "type": "BlockStatement",
+        "body": [],
         "start": 3,
-        "end": 6,
-        "body": []
+        "end": 6
       },
       "test": {
         "type": "Identifier",
-        "start": 14,
-        "end": 15,
         "decorators": [],
         "name": "e",
         "optional": false,
-        "typeAnnotation": null
-      }
+        "typeAnnotation": null,
+        "start": 14,
+        "end": 15
+      },
+      "start": 0,
+      "end": 17
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 17
 }
 ```

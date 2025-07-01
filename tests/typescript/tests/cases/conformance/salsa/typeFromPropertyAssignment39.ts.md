@@ -2,138 +2,138 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 56,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 0,
-      "end": 15,
       "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 6,
-          "end": 14,
           "id": {
             "type": "Identifier",
-            "start": 6,
-            "end": 9,
             "decorators": [],
             "name": "foo",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 6,
+            "end": 9
           },
           "init": {
             "type": "ObjectExpression",
+            "properties": [],
             "start": 12,
-            "end": 14,
-            "properties": []
+            "end": 14
           },
-          "definite": false
+          "definite": false,
+          "start": 6,
+          "end": 14
         }
       ],
-      "declare": false
+      "declare": false,
+      "start": 0,
+      "end": 15
     },
     {
       "type": "ExpressionStatement",
-      "start": 16,
-      "end": 32,
       "expression": {
         "type": "AssignmentExpression",
-        "start": 16,
-        "end": 31,
         "operator": "=",
         "left": {
           "type": "MemberExpression",
-          "start": 16,
-          "end": 26,
           "object": {
             "type": "Identifier",
-            "start": 16,
-            "end": 19,
             "decorators": [],
             "name": "foo",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 16,
+            "end": 19
           },
           "property": {
             "type": "Literal",
-            "start": 20,
-            "end": 25,
             "value": "baz",
-            "raw": "\"baz\""
+            "raw": "\"baz\"",
+            "start": 20,
+            "end": 25
           },
           "optional": false,
-          "computed": true
+          "computed": true,
+          "start": 16,
+          "end": 26
         },
         "right": {
           "type": "ObjectExpression",
+          "properties": [],
           "start": 29,
-          "end": 31,
-          "properties": []
-        }
+          "end": 31
+        },
+        "start": 16,
+        "end": 31
       },
-      "directive": null
+      "directive": null,
+      "start": 16,
+      "end": 32
     },
     {
       "type": "ExpressionStatement",
-      "start": 33,
-      "end": 56,
       "expression": {
         "type": "AssignmentExpression",
-        "start": 33,
-        "end": 55,
         "operator": "=",
         "left": {
           "type": "MemberExpression",
-          "start": 33,
-          "end": 51,
           "object": {
             "type": "MemberExpression",
-            "start": 33,
-            "end": 43,
             "object": {
               "type": "Identifier",
-              "start": 33,
-              "end": 36,
               "decorators": [],
               "name": "foo",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 33,
+              "end": 36
             },
             "property": {
               "type": "Literal",
-              "start": 37,
-              "end": 42,
               "value": "baz",
-              "raw": "\"baz\""
+              "raw": "\"baz\"",
+              "start": 37,
+              "end": 42
             },
             "optional": false,
-            "computed": true
+            "computed": true,
+            "start": 33,
+            "end": 43
           },
           "property": {
             "type": "Literal",
-            "start": 44,
-            "end": 50,
             "value": "blah",
-            "raw": "\"blah\""
+            "raw": "\"blah\"",
+            "start": 44,
+            "end": 50
           },
           "optional": false,
-          "computed": true
+          "computed": true,
+          "start": 33,
+          "end": 51
         },
         "right": {
           "type": "Literal",
-          "start": 54,
-          "end": 55,
           "value": 3,
-          "raw": "3"
-        }
+          "raw": "3",
+          "start": 54,
+          "end": 55
+        },
+        "start": 33,
+        "end": 55
       },
-      "directive": null
+      "directive": null,
+      "start": 33,
+      "end": 56
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 56
 }
 ```

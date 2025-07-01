@@ -2,78 +2,78 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 32,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 0,
-      "end": 32,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 4,
-          "end": 31,
           "id": {
             "type": "Identifier",
-            "start": 4,
-            "end": 5,
             "decorators": [],
             "name": "x",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 4,
+            "end": 5
           },
           "init": {
             "type": "UnaryExpression",
-            "start": 8,
-            "end": 31,
             "operator": "typeof",
             "argument": {
               "type": "TemplateLiteral",
-              "start": 15,
-              "end": 31,
               "quasis": [
                 {
                   "type": "TemplateElement",
-                  "start": 15,
-                  "end": 21,
                   "value": {
                     "raw": "abc",
                     "cooked": "abc"
                   },
-                  "tail": false
+                  "tail": false,
+                  "start": 15,
+                  "end": 21
                 },
                 {
                   "type": "TemplateElement",
-                  "start": 26,
-                  "end": 31,
                   "value": {
                     "raw": "def",
                     "cooked": "def"
                   },
-                  "tail": true
+                  "tail": true,
+                  "start": 26,
+                  "end": 31
                 }
               ],
               "expressions": [
                 {
                   "type": "Literal",
-                  "start": 22,
-                  "end": 25,
                   "value": 123,
-                  "raw": "123"
+                  "raw": "123",
+                  "start": 22,
+                  "end": 25
                 }
-              ]
+              ],
+              "start": 15,
+              "end": 31
             },
-            "prefix": true
+            "prefix": true,
+            "start": 8,
+            "end": 31
           },
-          "definite": false
+          "definite": false,
+          "start": 4,
+          "end": 31
         }
       ],
-      "declare": false
+      "declare": false,
+      "start": 0,
+      "end": 32
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 32
 }
 ```

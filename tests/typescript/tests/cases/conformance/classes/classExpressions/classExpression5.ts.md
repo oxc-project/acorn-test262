@@ -2,29 +2,17 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 60,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 0,
-      "end": 60,
       "expression": {
         "type": "CallExpression",
-        "start": 0,
-        "end": 59,
         "callee": {
           "type": "MemberExpression",
-          "start": 0,
-          "end": 57,
           "object": {
             "type": "NewExpression",
-            "start": 0,
-            "end": 54,
             "callee": {
               "type": "ClassExpression",
-              "start": 4,
-              "end": 52,
               "decorators": [],
               "id": null,
               "typeParameters": null,
@@ -33,27 +21,21 @@ __ESTREE_TEST__:PASS:
               "implements": [],
               "body": {
                 "type": "ClassBody",
-                "start": 10,
-                "end": 52,
                 "body": [
                   {
                     "type": "MethodDefinition",
-                    "start": 16,
-                    "end": 50,
                     "decorators": [],
                     "key": {
                       "type": "Identifier",
-                      "start": 16,
-                      "end": 18,
                       "decorators": [],
                       "name": "hi",
                       "optional": false,
-                      "typeAnnotation": null
+                      "typeAnnotation": null,
+                      "start": 16,
+                      "end": 18
                     },
                     "value": {
                       "type": "FunctionExpression",
-                      "start": 18,
-                      "end": 50,
                       "id": null,
                       "generator": false,
                       "async": false,
@@ -63,60 +45,78 @@ __ESTREE_TEST__:PASS:
                       "returnType": null,
                       "body": {
                         "type": "BlockStatement",
-                        "start": 21,
-                        "end": 50,
                         "body": [
                           {
                             "type": "ReturnStatement",
-                            "start": 31,
-                            "end": 44,
                             "argument": {
                               "type": "Literal",
-                              "start": 38,
-                              "end": 43,
                               "value": "Hi!",
-                              "raw": "\"Hi!\""
-                            }
+                              "raw": "\"Hi!\"",
+                              "start": 38,
+                              "end": 43
+                            },
+                            "start": 31,
+                            "end": 44
                           }
-                        ]
+                        ],
+                        "start": 21,
+                        "end": 50
                       },
-                      "expression": false
+                      "expression": false,
+                      "start": 18,
+                      "end": 50
                     },
                     "kind": "method",
                     "computed": false,
                     "static": false,
                     "override": false,
                     "optional": false,
-                    "accessibility": null
+                    "accessibility": null,
+                    "start": 16,
+                    "end": 50
                   }
-                ]
+                ],
+                "start": 10,
+                "end": 52
               },
               "abstract": false,
-              "declare": false
+              "declare": false,
+              "start": 4,
+              "end": 52
             },
             "typeArguments": null,
-            "arguments": []
+            "arguments": [],
+            "start": 0,
+            "end": 54
           },
           "property": {
             "type": "Identifier",
-            "start": 55,
-            "end": 57,
             "decorators": [],
             "name": "hi",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 55,
+            "end": 57
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 0,
+          "end": 57
         },
         "typeArguments": null,
         "arguments": [],
-        "optional": false
+        "optional": false,
+        "start": 0,
+        "end": 59
       },
-      "directive": null
+      "directive": null,
+      "start": 0,
+      "end": 60
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 60
 }
 ```

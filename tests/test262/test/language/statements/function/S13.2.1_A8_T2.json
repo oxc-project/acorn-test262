@@ -1,289 +1,289 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 864,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 493,
-      "end": 524,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 497,
-          "end": 523,
           "id": {
             "type": "Identifier",
+            "name": "CATCH_ME_IF_YOU_CAN",
             "start": 497,
-            "end": 516,
-            "name": "CATCH_ME_IF_YOU_CAN"
+            "end": 516
           },
           "init": {
             "type": "Literal",
-            "start": 519,
-            "end": 523,
             "value": true,
-            "raw": "true"
-          }
+            "raw": "true",
+            "start": 519,
+            "end": 523
+          },
+          "start": 497,
+          "end": 523
         }
-      ]
+      ],
+      "start": 493,
+      "end": 524
     },
     {
       "type": "VariableDeclaration",
-      "start": 526,
-      "end": 609,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 530,
-          "end": 609,
           "id": {
             "type": "Identifier",
+            "name": "__func",
             "start": 530,
-            "end": 536,
-            "name": "__func"
+            "end": 536
           },
           "init": {
             "type": "FunctionExpression",
-            "start": 539,
-            "end": 609,
             "id": null,
             "generator": false,
             "async": false,
             "params": [
               {
                 "type": "Identifier",
+                "name": "message",
                 "start": 549,
-                "end": 556,
-                "name": "message"
+                "end": 556
               }
             ],
             "body": {
               "type": "BlockStatement",
-              "start": 557,
-              "end": 609,
               "body": [
                 {
                   "type": "VariableDeclaration",
-                  "start": 563,
-                  "end": 573,
                   "kind": "var",
                   "declarations": [
                     {
                       "type": "VariableDeclarator",
-                      "start": 567,
-                      "end": 572,
                       "id": {
                         "type": "Identifier",
+                        "name": "x",
                         "start": 567,
-                        "end": 568,
-                        "name": "x"
+                        "end": 568
                       },
                       "init": {
                         "type": "Literal",
-                        "start": 571,
-                        "end": 572,
                         "value": 1,
-                        "raw": "1"
-                      }
+                        "raw": "1",
+                        "start": 571,
+                        "end": 572
+                      },
+                      "start": 567,
+                      "end": 572
                     }
-                  ]
+                  ],
+                  "start": 563,
+                  "end": 573
                 },
                 {
                   "type": "ThrowStatement",
-                  "start": 578,
-                  "end": 593,
                   "argument": {
                     "type": "ParenthesizedExpression",
-                    "start": 584,
-                    "end": 593,
                     "expression": {
                       "type": "Identifier",
+                      "name": "message",
                       "start": 585,
-                      "end": 592,
-                      "name": "message"
-                    }
-                  }
+                      "end": 592
+                    },
+                    "start": 584,
+                    "end": 593
+                  },
+                  "start": 578,
+                  "end": 593
                 },
                 {
                   "type": "ReturnStatement",
-                  "start": 598,
-                  "end": 607,
                   "argument": {
                     "type": "Identifier",
+                    "name": "x",
                     "start": 605,
-                    "end": 606,
-                    "name": "x"
-                  }
+                    "end": 606
+                  },
+                  "start": 598,
+                  "end": 607
                 }
-              ]
+              ],
+              "start": 557,
+              "end": 609
             },
-            "expression": false
-          }
+            "expression": false,
+            "start": 539,
+            "end": 609
+          },
+          "start": 530,
+          "end": 609
         }
-      ]
+      ],
+      "start": 526,
+      "end": 609
     },
     {
       "type": "TryStatement",
-      "start": 611,
-      "end": 863,
       "block": {
         "type": "BlockStatement",
-        "start": 614,
-        "end": 751,
         "body": [
           {
             "type": "VariableDeclaration",
-            "start": 620,
-            "end": 653,
             "kind": "var",
             "declarations": [
               {
                 "type": "VariableDeclarator",
-                "start": 624,
-                "end": 653,
                 "id": {
                   "type": "Identifier",
+                  "name": "x",
                   "start": 624,
-                  "end": 625,
-                  "name": "x"
+                  "end": 625
                 },
                 "init": {
                   "type": "CallExpression",
-                  "start": 626,
-                  "end": 653,
                   "callee": {
                     "type": "Identifier",
+                    "name": "__func",
                     "start": 626,
-                    "end": 632,
-                    "name": "__func"
+                    "end": 632
                   },
                   "arguments": [
                     {
                       "type": "Identifier",
+                      "name": "CATCH_ME_IF_YOU_CAN",
                       "start": 633,
-                      "end": 652,
-                      "name": "CATCH_ME_IF_YOU_CAN"
+                      "end": 652
                     }
                   ],
-                  "optional": false
-                }
+                  "optional": false,
+                  "start": 626,
+                  "end": 653
+                },
+                "start": 624,
+                "end": 653
               }
-            ]
+            ],
+            "start": 620,
+            "end": 653
           },
           {
             "type": "ThrowStatement",
-            "start": 658,
-            "end": 749,
             "argument": {
               "type": "NewExpression",
-              "start": 664,
-              "end": 748,
               "callee": {
                 "type": "Identifier",
+                "name": "Test262Error",
                 "start": 668,
-                "end": 680,
-                "name": "Test262Error"
+                "end": 680
               },
               "arguments": [
                 {
                   "type": "Literal",
-                  "start": 681,
-                  "end": 747,
                   "value": "#0: var x=__func(CATCH_ME_IF_YOU_CAN) lead to throwing exception",
-                  "raw": "'#0: var x=__func(CATCH_ME_IF_YOU_CAN) lead to throwing exception'"
+                  "raw": "'#0: var x=__func(CATCH_ME_IF_YOU_CAN) lead to throwing exception'",
+                  "start": 681,
+                  "end": 747
                 }
-              ]
-            }
+              ],
+              "start": 664,
+              "end": 748
+            },
+            "start": 658,
+            "end": 749
           }
-        ]
+        ],
+        "start": 614,
+        "end": 751
       },
       "handler": {
         "type": "CatchClause",
-        "start": 752,
-        "end": 863,
         "param": {
           "type": "Identifier",
+          "name": "e",
           "start": 758,
-          "end": 759,
-          "name": "e"
+          "end": 759
         },
         "body": {
           "type": "BlockStatement",
-          "start": 760,
-          "end": 863,
           "body": [
             {
               "type": "IfStatement",
-              "start": 766,
-              "end": 861,
               "test": {
                 "type": "UnaryExpression",
-                "start": 770,
-                "end": 772,
                 "operator": "!",
                 "argument": {
                   "type": "Identifier",
+                  "name": "e",
                   "start": 771,
-                  "end": 772,
-                  "name": "e"
+                  "end": 772
                 },
-                "prefix": true
+                "prefix": true,
+                "start": 770,
+                "end": 772
               },
               "consequent": {
                 "type": "BlockStatement",
-                "start": 774,
-                "end": 861,
                 "body": [
                   {
                     "type": "ThrowStatement",
-                    "start": 781,
-                    "end": 855,
                     "argument": {
                       "type": "NewExpression",
-                      "start": 787,
-                      "end": 854,
                       "callee": {
                         "type": "Identifier",
+                        "name": "Test262Error",
                         "start": 791,
-                        "end": 803,
-                        "name": "Test262Error"
+                        "end": 803
                       },
                       "arguments": [
                         {
                           "type": "BinaryExpression",
-                          "start": 804,
-                          "end": 853,
                           "left": {
                             "type": "Literal",
-                            "start": 804,
-                            "end": 851,
                             "value": "#1: Exception === true. Actual: exception ===",
-                            "raw": "'#1: Exception === true. Actual: exception ==='"
+                            "raw": "'#1: Exception === true. Actual: exception ==='",
+                            "start": 804,
+                            "end": 851
                           },
                           "operator": "+",
                           "right": {
                             "type": "Identifier",
+                            "name": "e",
                             "start": 852,
-                            "end": 853,
-                            "name": "e"
-                          }
+                            "end": 853
+                          },
+                          "start": 804,
+                          "end": 853
                         }
-                      ]
-                    }
+                      ],
+                      "start": 787,
+                      "end": 854
+                    },
+                    "start": 781,
+                    "end": 855
                   }
-                ]
+                ],
+                "start": 774,
+                "end": 861
               },
-              "alternate": null
+              "alternate": null,
+              "start": 766,
+              "end": 861
             }
-          ]
-        }
+          ],
+          "start": 760,
+          "end": 863
+        },
+        "start": 752,
+        "end": 863
       },
-      "finalizer": null
+      "finalizer": null,
+      "start": 611,
+      "end": 863
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 864
 }

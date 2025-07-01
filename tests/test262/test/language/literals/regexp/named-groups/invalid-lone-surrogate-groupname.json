@@ -1,313 +1,313 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 553,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 257,
-      "end": 323,
       "expression": {
         "type": "CallExpression",
-        "start": 257,
-        "end": 322,
         "callee": {
           "type": "MemberExpression",
-          "start": 257,
-          "end": 270,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 257,
-            "end": 263,
-            "name": "assert"
+            "end": 263
           },
           "property": {
             "type": "Identifier",
+            "name": "throws",
             "start": 264,
-            "end": 270,
-            "name": "throws"
+            "end": 270
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 257,
+          "end": 270
         },
         "arguments": [
           {
             "type": "Identifier",
+            "name": "SyntaxError",
             "start": 271,
-            "end": 282,
-            "name": "SyntaxError"
+            "end": 282
           },
           {
             "type": "ArrowFunctionExpression",
-            "start": 284,
-            "end": 313,
             "expression": true,
             "async": false,
             "params": [],
             "body": {
               "type": "CallExpression",
-              "start": 290,
-              "end": 313,
               "callee": {
                 "type": "Identifier",
+                "name": "eval",
                 "start": 290,
-                "end": 294,
-                "name": "eval"
+                "end": 294
               },
               "arguments": [
                 {
                   "type": "Literal",
-                  "start": 295,
-                  "end": 312,
                   "value": "/(?<a\ud801>.)/",
-                  "raw": "\"/(?<a\\uD801>.)/\""
+                  "raw": "\"/(?<a\\uD801>.)/\"",
+                  "start": 295,
+                  "end": 312
                 }
               ],
-              "optional": false
+              "optional": false,
+              "start": 290,
+              "end": 313
             },
             "id": null,
-            "generator": false
+            "generator": false,
+            "start": 284,
+            "end": 313
           },
           {
             "type": "Literal",
-            "start": 315,
-            "end": 321,
             "value": "Lead",
-            "raw": "\"Lead\""
+            "raw": "\"Lead\"",
+            "start": 315,
+            "end": 321
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 257,
+        "end": 322
+      },
+      "start": 257,
+      "end": 323
     },
     {
       "type": "ExpressionStatement",
-      "start": 324,
-      "end": 391,
       "expression": {
         "type": "CallExpression",
-        "start": 324,
-        "end": 390,
         "callee": {
           "type": "MemberExpression",
-          "start": 324,
-          "end": 337,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 324,
-            "end": 330,
-            "name": "assert"
+            "end": 330
           },
           "property": {
             "type": "Identifier",
+            "name": "throws",
             "start": 331,
-            "end": 337,
-            "name": "throws"
+            "end": 337
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 324,
+          "end": 337
         },
         "arguments": [
           {
             "type": "Identifier",
+            "name": "SyntaxError",
             "start": 338,
-            "end": 349,
-            "name": "SyntaxError"
+            "end": 349
           },
           {
             "type": "ArrowFunctionExpression",
-            "start": 351,
-            "end": 380,
             "expression": true,
             "async": false,
             "params": [],
             "body": {
               "type": "CallExpression",
-              "start": 357,
-              "end": 380,
               "callee": {
                 "type": "Identifier",
+                "name": "eval",
                 "start": 357,
-                "end": 361,
-                "name": "eval"
+                "end": 361
               },
               "arguments": [
                 {
                   "type": "Literal",
-                  "start": 362,
-                  "end": 379,
                   "value": "/(?<a\udca4>.)/",
-                  "raw": "\"/(?<a\\uDCA4>.)/\""
+                  "raw": "\"/(?<a\\uDCA4>.)/\"",
+                  "start": 362,
+                  "end": 379
                 }
               ],
-              "optional": false
+              "optional": false,
+              "start": 357,
+              "end": 380
             },
             "id": null,
-            "generator": false
+            "generator": false,
+            "start": 351,
+            "end": 380
           },
           {
             "type": "Literal",
-            "start": 382,
-            "end": 389,
             "value": "Trail",
-            "raw": "\"Trail\""
+            "raw": "\"Trail\"",
+            "start": 382,
+            "end": 389
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 324,
+        "end": 390
+      },
+      "start": 324,
+      "end": 391
     },
     {
       "type": "ExpressionStatement",
-      "start": 392,
-      "end": 471,
       "expression": {
         "type": "CallExpression",
-        "start": 392,
-        "end": 470,
         "callee": {
           "type": "MemberExpression",
-          "start": 392,
-          "end": 405,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 392,
-            "end": 398,
-            "name": "assert"
+            "end": 398
           },
           "property": {
             "type": "Identifier",
+            "name": "throws",
             "start": 399,
-            "end": 405,
-            "name": "throws"
+            "end": 405
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 392,
+          "end": 405
         },
         "arguments": [
           {
             "type": "Identifier",
+            "name": "SyntaxError",
             "start": 406,
-            "end": 417,
-            "name": "SyntaxError"
+            "end": 417
           },
           {
             "type": "ArrowFunctionExpression",
-            "start": 419,
-            "end": 449,
             "expression": true,
             "async": false,
             "params": [],
             "body": {
               "type": "CallExpression",
-              "start": 425,
-              "end": 449,
               "callee": {
                 "type": "Identifier",
+                "name": "eval",
                 "start": 425,
-                "end": 429,
-                "name": "eval"
+                "end": 429
               },
               "arguments": [
                 {
                   "type": "Literal",
-                  "start": 430,
-                  "end": 448,
                   "value": "/(?<a\ud801>.)/u",
-                  "raw": "\"/(?<a\\uD801>.)/u\""
+                  "raw": "\"/(?<a\\uD801>.)/u\"",
+                  "start": 430,
+                  "end": 448
                 }
               ],
-              "optional": false
+              "optional": false,
+              "start": 425,
+              "end": 449
             },
             "id": null,
-            "generator": false
+            "generator": false,
+            "start": 419,
+            "end": 449
           },
           {
             "type": "Literal",
-            "start": 451,
-            "end": 469,
             "value": "Lead with u flag",
-            "raw": "\"Lead with u flag\""
+            "raw": "\"Lead with u flag\"",
+            "start": 451,
+            "end": 469
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 392,
+        "end": 470
+      },
+      "start": 392,
+      "end": 471
     },
     {
       "type": "ExpressionStatement",
-      "start": 472,
-      "end": 552,
       "expression": {
         "type": "CallExpression",
-        "start": 472,
-        "end": 551,
         "callee": {
           "type": "MemberExpression",
-          "start": 472,
-          "end": 485,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 472,
-            "end": 478,
-            "name": "assert"
+            "end": 478
           },
           "property": {
             "type": "Identifier",
+            "name": "throws",
             "start": 479,
-            "end": 485,
-            "name": "throws"
+            "end": 485
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 472,
+          "end": 485
         },
         "arguments": [
           {
             "type": "Identifier",
+            "name": "SyntaxError",
             "start": 486,
-            "end": 497,
-            "name": "SyntaxError"
+            "end": 497
           },
           {
             "type": "ArrowFunctionExpression",
-            "start": 499,
-            "end": 529,
             "expression": true,
             "async": false,
             "params": [],
             "body": {
               "type": "CallExpression",
-              "start": 505,
-              "end": 529,
               "callee": {
                 "type": "Identifier",
+                "name": "eval",
                 "start": 505,
-                "end": 509,
-                "name": "eval"
+                "end": 509
               },
               "arguments": [
                 {
                   "type": "Literal",
-                  "start": 510,
-                  "end": 528,
                   "value": "/(?<a\udca4>.)/u",
-                  "raw": "\"/(?<a\\uDCA4>.)/u\""
+                  "raw": "\"/(?<a\\uDCA4>.)/u\"",
+                  "start": 510,
+                  "end": 528
                 }
               ],
-              "optional": false
+              "optional": false,
+              "start": 505,
+              "end": 529
             },
             "id": null,
-            "generator": false
+            "generator": false,
+            "start": 499,
+            "end": 529
           },
           {
             "type": "Literal",
-            "start": 531,
-            "end": 550,
             "value": "Trail with u flag",
-            "raw": "\"Trail with u flag\""
+            "raw": "\"Trail with u flag\"",
+            "start": 531,
+            "end": 550
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 472,
+        "end": 551
+      },
+      "start": 472,
+      "end": 552
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 553
 }

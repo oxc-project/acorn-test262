@@ -1,119 +1,119 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 1383,
   "body": [
     {
       "type": "ClassDeclaration",
-      "start": 1304,
-      "end": 1382,
       "decorators": [],
       "id": {
         "type": "Identifier",
+        "name": "C",
         "start": 1310,
-        "end": 1311,
-        "name": "C"
+        "end": 1311
       },
       "superClass": null,
       "body": {
         "type": "ClassBody",
-        "start": 1312,
-        "end": 1382,
         "body": [
           {
             "type": "PropertyDefinition",
-            "start": 1316,
-            "end": 1319,
             "decorators": [],
             "key": {
               "type": "PrivateIdentifier",
+              "name": "$",
               "start": 1316,
-              "end": 1318,
-              "name": "$"
+              "end": 1318
             },
             "value": null,
             "computed": false,
-            "static": false
+            "static": false,
+            "start": 1316,
+            "end": 1319
           },
           {
             "type": "PropertyDefinition",
-            "start": 1322,
-            "end": 1325,
             "decorators": [],
             "key": {
               "type": "PrivateIdentifier",
+              "name": "_",
               "start": 1322,
-              "end": 1324,
-              "name": "_"
+              "end": 1324
             },
             "value": null,
             "computed": false,
-            "static": false
+            "static": false,
+            "start": 1322,
+            "end": 1325
           },
           {
             "type": "PropertyDefinition",
-            "start": 1328,
-            "end": 1336,
             "decorators": [],
             "key": {
               "type": "PrivateIdentifier",
+              "name": "o",
               "start": 1328,
-              "end": 1335,
-              "name": "o"
+              "end": 1335
             },
             "value": null,
             "computed": false,
-            "static": false
+            "static": false,
+            "start": 1328,
+            "end": 1336
           },
           {
             "type": "PropertyDefinition",
-            "start": 1339,
-            "end": 1347,
             "decorators": [],
             "key": {
               "type": "PrivateIdentifier",
+              "name": "℘",
               "start": 1339,
-              "end": 1346,
-              "name": "℘"
+              "end": 1346
             },
             "value": null,
             "computed": false,
-            "static": false
+            "static": false,
+            "start": 1339,
+            "end": 1347
           },
           {
             "type": "PropertyDefinition",
-            "start": 1350,
-            "end": 1364,
             "decorators": [],
             "key": {
               "type": "PrivateIdentifier",
+              "name": "ZW_‌_NJ",
               "start": 1350,
-              "end": 1363,
-              "name": "ZW_‌_NJ"
+              "end": 1363
             },
             "value": null,
             "computed": false,
-            "static": false
+            "static": false,
+            "start": 1350,
+            "end": 1364
           },
           {
             "type": "PropertyDefinition",
-            "start": 1367,
-            "end": 1380,
             "decorators": [],
             "key": {
               "type": "PrivateIdentifier",
+              "name": "ZW_‍_J",
               "start": 1367,
-              "end": 1379,
-              "name": "ZW_‍_J"
+              "end": 1379
             },
             "value": null,
             "computed": false,
-            "static": false
+            "static": false,
+            "start": 1367,
+            "end": 1380
           }
-        ]
-      }
+        ],
+        "start": 1312,
+        "end": 1382
+      },
+      "start": 1304,
+      "end": 1382
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 1383
 }

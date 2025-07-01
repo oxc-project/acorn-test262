@@ -2,261 +2,261 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 162,
   "body": [
     {
       "type": "ImportDeclaration",
-      "start": 0,
-      "end": 25,
       "specifiers": [
         {
           "type": "ImportNamespaceSpecifier",
-          "start": 7,
-          "end": 13,
           "local": {
             "type": "Identifier",
-            "start": 12,
-            "end": 13,
             "decorators": [],
             "name": "_",
             "optional": false,
-            "typeAnnotation": null
-          }
+            "typeAnnotation": null,
+            "start": 12,
+            "end": 13
+          },
+          "start": 7,
+          "end": 13
         }
       ],
       "source": {
         "type": "Literal",
-        "start": 19,
-        "end": 24,
         "value": "./a",
-        "raw": "\"./a\""
+        "raw": "\"./a\"",
+        "start": 19,
+        "end": 24
       },
       "phase": null,
       "attributes": [],
-      "importKind": "value"
+      "importKind": "value",
+      "start": 0,
+      "end": 25
     },
     {
       "type": "ForOfStatement",
-      "start": 27,
-      "end": 50,
       "await": false,
       "left": {
         "type": "VariableDeclaration",
-        "start": 32,
-        "end": 39,
         "kind": "const",
         "declarations": [
           {
             "type": "VariableDeclarator",
-            "start": 38,
-            "end": 39,
             "id": {
               "type": "Identifier",
-              "start": 38,
-              "end": 39,
               "decorators": [],
               "name": "_",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 38,
+              "end": 39
             },
             "init": null,
-            "definite": false
+            "definite": false,
+            "start": 38,
+            "end": 39
           }
         ],
-        "declare": false
+        "declare": false,
+        "start": 32,
+        "end": 39
       },
       "right": {
         "type": "ArrayExpression",
+        "elements": [],
         "start": 43,
-        "end": 45,
-        "elements": []
+        "end": 45
       },
       "body": {
         "type": "BlockStatement",
+        "body": [],
         "start": 47,
-        "end": 50,
-        "body": []
-      }
+        "end": 50
+      },
+      "start": 27,
+      "end": 50
     },
     {
       "type": "ForInStatement",
-      "start": 52,
-      "end": 75,
       "left": {
         "type": "VariableDeclaration",
-        "start": 57,
-        "end": 64,
         "kind": "const",
         "declarations": [
           {
             "type": "VariableDeclarator",
-            "start": 63,
-            "end": 64,
             "id": {
               "type": "Identifier",
-              "start": 63,
-              "end": 64,
               "decorators": [],
               "name": "_",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 63,
+              "end": 64
             },
             "init": null,
-            "definite": false
+            "definite": false,
+            "start": 63,
+            "end": 64
           }
         ],
-        "declare": false
+        "declare": false,
+        "start": 57,
+        "end": 64
       },
       "right": {
         "type": "ArrayExpression",
+        "elements": [],
         "start": 68,
-        "end": 70,
-        "elements": []
+        "end": 70
       },
       "body": {
         "type": "BlockStatement",
+        "body": [],
         "start": 72,
-        "end": 75,
-        "body": []
-      }
+        "end": 75
+      },
+      "start": 52,
+      "end": 75
     },
     {
       "type": "TSModuleDeclaration",
-      "start": 77,
-      "end": 162,
       "id": {
         "type": "Identifier",
-        "start": 87,
-        "end": 90,
         "decorators": [],
         "name": "_ns",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 87,
+        "end": 90
       },
       "body": {
         "type": "TSModuleBlock",
-        "start": 91,
-        "end": 162,
         "body": [
           {
             "type": "VariableDeclaration",
-            "start": 97,
-            "end": 103,
             "kind": "let",
             "declarations": [
               {
                 "type": "VariableDeclarator",
-                "start": 101,
-                "end": 102,
                 "id": {
                   "type": "Identifier",
-                  "start": 101,
-                  "end": 102,
                   "decorators": [],
                   "name": "_",
                   "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "start": 101,
+                  "end": 102
                 },
                 "init": null,
-                "definite": false
+                "definite": false,
+                "start": 101,
+                "end": 102
               }
             ],
-            "declare": false
+            "declare": false,
+            "start": 97,
+            "end": 103
           },
           {
             "type": "ForOfStatement",
-            "start": 108,
-            "end": 131,
             "await": false,
             "left": {
               "type": "VariableDeclaration",
-              "start": 113,
-              "end": 120,
               "kind": "const",
               "declarations": [
                 {
                   "type": "VariableDeclarator",
-                  "start": 119,
-                  "end": 120,
                   "id": {
                     "type": "Identifier",
-                    "start": 119,
-                    "end": 120,
                     "decorators": [],
                     "name": "_",
                     "optional": false,
-                    "typeAnnotation": null
+                    "typeAnnotation": null,
+                    "start": 119,
+                    "end": 120
                   },
                   "init": null,
-                  "definite": false
+                  "definite": false,
+                  "start": 119,
+                  "end": 120
                 }
               ],
-              "declare": false
+              "declare": false,
+              "start": 113,
+              "end": 120
             },
             "right": {
               "type": "ArrayExpression",
+              "elements": [],
               "start": 124,
-              "end": 126,
-              "elements": []
+              "end": 126
             },
             "body": {
               "type": "BlockStatement",
+              "body": [],
               "start": 128,
-              "end": 131,
-              "body": []
-            }
+              "end": 131
+            },
+            "start": 108,
+            "end": 131
           },
           {
             "type": "ForInStatement",
-            "start": 137,
-            "end": 160,
             "left": {
               "type": "VariableDeclaration",
-              "start": 142,
-              "end": 149,
               "kind": "const",
               "declarations": [
                 {
                   "type": "VariableDeclarator",
-                  "start": 148,
-                  "end": 149,
                   "id": {
                     "type": "Identifier",
-                    "start": 148,
-                    "end": 149,
                     "decorators": [],
                     "name": "_",
                     "optional": false,
-                    "typeAnnotation": null
+                    "typeAnnotation": null,
+                    "start": 148,
+                    "end": 149
                   },
                   "init": null,
-                  "definite": false
+                  "definite": false,
+                  "start": 148,
+                  "end": 149
                 }
               ],
-              "declare": false
+              "declare": false,
+              "start": 142,
+              "end": 149
             },
             "right": {
               "type": "ArrayExpression",
+              "elements": [],
               "start": 153,
-              "end": 155,
-              "elements": []
+              "end": 155
             },
             "body": {
               "type": "BlockStatement",
+              "body": [],
               "start": 157,
-              "end": 160,
-              "body": []
-            }
+              "end": 160
+            },
+            "start": 137,
+            "end": 160
           }
-        ]
+        ],
+        "start": 91,
+        "end": 162
       },
       "kind": "namespace",
       "declare": false,
-      "global": false
+      "global": false,
+      "start": 77,
+      "end": 162
     }
   ],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 162
 }
 ```

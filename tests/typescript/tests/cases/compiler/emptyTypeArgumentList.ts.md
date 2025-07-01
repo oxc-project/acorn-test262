@@ -2,101 +2,97 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 124,
   "body": [
     {
       "type": "FunctionDeclaration",
-      "start": 0,
-      "end": 21,
       "id": {
         "type": "Identifier",
-        "start": 9,
-        "end": 12,
         "decorators": [],
         "name": "foo",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 9,
+        "end": 12
       },
       "generator": false,
       "async": false,
       "declare": false,
       "typeParameters": {
         "type": "TSTypeParameterDeclaration",
-        "start": 12,
-        "end": 15,
         "params": [
           {
             "type": "TSTypeParameter",
-            "start": 13,
-            "end": 14,
             "name": {
               "type": "Identifier",
-              "start": 13,
-              "end": 14,
               "decorators": [],
               "name": "T",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 13,
+              "end": 14
             },
             "constraint": null,
             "default": null,
             "in": false,
             "out": false,
-            "const": false
+            "const": false,
+            "start": 13,
+            "end": 14
           }
-        ]
+        ],
+        "start": 12,
+        "end": 15
       },
       "params": [],
       "returnType": null,
       "body": {
         "type": "BlockStatement",
+        "body": [],
         "start": 18,
-        "end": 21,
-        "body": []
+        "end": 21
       },
-      "expression": false
+      "expression": false,
+      "start": 0,
+      "end": 21
     },
     {
       "type": "ExpressionStatement",
-      "start": 22,
-      "end": 30,
       "expression": {
         "type": "CallExpression",
-        "start": 22,
-        "end": 29,
         "callee": {
           "type": "Identifier",
-          "start": 22,
-          "end": 25,
           "decorators": [],
           "name": "foo",
           "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "start": 22,
+          "end": 25
         },
         "typeArguments": {
           "type": "TSTypeParameterInstantiation",
+          "params": [],
           "start": 25,
-          "end": 27,
-          "params": []
+          "end": 27
         },
         "arguments": [],
-        "optional": false
+        "optional": false,
+        "start": 22,
+        "end": 29
       },
-      "directive": null
+      "directive": null,
+      "start": 22,
+      "end": 30
     },
     {
       "type": "FunctionDeclaration",
-      "start": 88,
-      "end": 110,
       "id": {
         "type": "Identifier",
-        "start": 97,
-        "end": 105,
         "decorators": [],
         "name": "noParams",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 97,
+        "end": 105
       },
       "generator": false,
       "async": false,
@@ -106,42 +102,46 @@ __ESTREE_TEST__:PASS:
       "returnType": null,
       "body": {
         "type": "BlockStatement",
+        "body": [],
         "start": 108,
-        "end": 110,
-        "body": []
+        "end": 110
       },
-      "expression": false
+      "expression": false,
+      "start": 88,
+      "end": 110
     },
     {
       "type": "ExpressionStatement",
-      "start": 111,
-      "end": 124,
       "expression": {
         "type": "CallExpression",
-        "start": 111,
-        "end": 123,
         "callee": {
           "type": "Identifier",
-          "start": 111,
-          "end": 119,
           "decorators": [],
           "name": "noParams",
           "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "start": 111,
+          "end": 119
         },
         "typeArguments": {
           "type": "TSTypeParameterInstantiation",
+          "params": [],
           "start": 119,
-          "end": 121,
-          "params": []
+          "end": 121
         },
         "arguments": [],
-        "optional": false
+        "optional": false,
+        "start": 111,
+        "end": 123
       },
-      "directive": null
+      "directive": null,
+      "start": 111,
+      "end": 124
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 124
 }
 ```

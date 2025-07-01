@@ -1,145 +1,145 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 425,
   "body": [
     {
       "type": "ClassDeclaration",
-      "start": 295,
-      "end": 328,
       "decorators": [],
       "id": {
         "type": "Identifier",
+        "name": "Subclass",
         "start": 301,
-        "end": 309,
-        "name": "Subclass"
+        "end": 309
       },
       "superClass": {
         "type": "Identifier",
+        "name": "WeakRef",
         "start": 318,
-        "end": 325,
-        "name": "WeakRef"
+        "end": 325
       },
       "body": {
         "type": "ClassBody",
+        "body": [],
         "start": 326,
-        "end": 328,
-        "body": []
-      }
+        "end": 328
+      },
+      "start": 295,
+      "end": 328
     },
     {
       "type": "VariableDeclaration",
-      "start": 330,
-      "end": 359,
       "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 336,
-          "end": 358,
           "id": {
             "type": "Identifier",
+            "name": "sub",
             "start": 336,
-            "end": 339,
-            "name": "sub"
+            "end": 339
           },
           "init": {
             "type": "NewExpression",
-            "start": 342,
-            "end": 358,
             "callee": {
               "type": "Identifier",
+              "name": "Subclass",
               "start": 346,
-              "end": 354,
-              "name": "Subclass"
+              "end": 354
             },
             "arguments": [
               {
                 "type": "ObjectExpression",
+                "properties": [],
                 "start": 355,
-                "end": 357,
-                "properties": []
+                "end": 357
               }
-            ]
-          }
+            ],
+            "start": 342,
+            "end": 358
+          },
+          "start": 336,
+          "end": 358
         }
-      ]
+      ],
+      "start": 330,
+      "end": 359
     },
     {
       "type": "ExpressionStatement",
-      "start": 360,
-      "end": 392,
       "expression": {
         "type": "CallExpression",
-        "start": 360,
-        "end": 391,
         "callee": {
           "type": "Identifier",
+          "name": "assert",
           "start": 360,
-          "end": 366,
-          "name": "assert"
+          "end": 366
         },
         "arguments": [
           {
             "type": "BinaryExpression",
-            "start": 367,
-            "end": 390,
             "left": {
               "type": "Identifier",
+              "name": "sub",
               "start": 367,
-              "end": 370,
-              "name": "sub"
+              "end": 370
             },
             "operator": "instanceof",
             "right": {
               "type": "Identifier",
+              "name": "Subclass",
               "start": 382,
-              "end": 390,
-              "name": "Subclass"
-            }
+              "end": 390
+            },
+            "start": 367,
+            "end": 390
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 360,
+        "end": 391
+      },
+      "start": 360,
+      "end": 392
     },
     {
       "type": "ExpressionStatement",
-      "start": 393,
-      "end": 424,
       "expression": {
         "type": "CallExpression",
-        "start": 393,
-        "end": 423,
         "callee": {
           "type": "Identifier",
+          "name": "assert",
           "start": 393,
-          "end": 399,
-          "name": "assert"
+          "end": 399
         },
         "arguments": [
           {
             "type": "BinaryExpression",
-            "start": 400,
-            "end": 422,
             "left": {
               "type": "Identifier",
+              "name": "sub",
               "start": 400,
-              "end": 403,
-              "name": "sub"
+              "end": 403
             },
             "operator": "instanceof",
             "right": {
               "type": "Identifier",
+              "name": "WeakRef",
               "start": 415,
-              "end": 422,
-              "name": "WeakRef"
-            }
+              "end": 422
+            },
+            "start": 400,
+            "end": 422
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 393,
+        "end": 423
+      },
+      "start": 393,
+      "end": 424
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 425
 }

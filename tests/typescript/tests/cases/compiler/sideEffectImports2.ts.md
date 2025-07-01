@@ -2,82 +2,82 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 38,
   "body": [
     {
       "type": "ImportDeclaration",
-      "start": 0,
-      "end": 37,
       "specifiers": [],
       "source": {
         "type": "Literal",
-        "start": 7,
-        "end": 36,
         "value": "source-map-support/register",
-        "raw": "\"source-map-support/register\""
+        "raw": "\"source-map-support/register\"",
+        "start": 7,
+        "end": 36
       },
       "phase": null,
       "attributes": [],
-      "importKind": "value"
+      "importKind": "value",
+      "start": 0,
+      "end": 37
     }
   ],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 38
 }
 ```
 __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 20,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 0,
-      "end": 20,
       "expression": {
         "type": "AssignmentExpression",
-        "start": 0,
-        "end": 19,
         "operator": "=",
         "left": {
           "type": "MemberExpression",
-          "start": 0,
-          "end": 14,
           "object": {
             "type": "Identifier",
-            "start": 0,
-            "end": 6,
             "decorators": [],
             "name": "module",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 0,
+            "end": 6
           },
           "property": {
             "type": "Identifier",
-            "start": 7,
-            "end": 14,
             "decorators": [],
             "name": "exports",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 7,
+            "end": 14
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 0,
+          "end": 14
         },
         "right": {
           "type": "ObjectExpression",
+          "properties": [],
           "start": 17,
-          "end": 19,
-          "properties": []
-        }
+          "end": 19
+        },
+        "start": 0,
+        "end": 19
       },
-      "directive": null
+      "directive": null,
+      "start": 0,
+      "end": 20
     }
   ],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 20
 }
 ```

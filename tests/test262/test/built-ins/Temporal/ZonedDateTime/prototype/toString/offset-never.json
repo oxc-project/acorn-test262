@@ -1,170 +1,170 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 415,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 259,
-      "end": 331,
       "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 265,
-          "end": 330,
           "id": {
             "type": "Identifier",
+            "name": "zdt1",
             "start": 265,
-            "end": 269,
-            "name": "zdt1"
+            "end": 269
           },
           "init": {
             "type": "CallExpression",
-            "start": 272,
-            "end": 330,
             "callee": {
               "type": "MemberExpression",
-              "start": 272,
-              "end": 299,
               "object": {
                 "type": "MemberExpression",
-                "start": 272,
-                "end": 294,
                 "object": {
                   "type": "Identifier",
+                  "name": "Temporal",
                   "start": 272,
-                  "end": 280,
-                  "name": "Temporal"
+                  "end": 280
                 },
                 "property": {
                   "type": "Identifier",
+                  "name": "ZonedDateTime",
                   "start": 281,
-                  "end": 294,
-                  "name": "ZonedDateTime"
+                  "end": 294
                 },
                 "optional": false,
-                "computed": false
+                "computed": false,
+                "start": 272,
+                "end": 294
               },
               "property": {
                 "type": "Identifier",
+                "name": "from",
                 "start": 295,
-                "end": 299,
-                "name": "from"
+                "end": 299
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 272,
+              "end": 299
             },
             "arguments": [
               {
                 "type": "Literal",
-                "start": 300,
-                "end": 329,
                 "value": "1976-11-18T15:23+00:00[UTC]",
-                "raw": "\"1976-11-18T15:23+00:00[UTC]\""
+                "raw": "\"1976-11-18T15:23+00:00[UTC]\"",
+                "start": 300,
+                "end": 329
               }
             ],
-            "optional": false
-          }
+            "optional": false,
+            "start": 272,
+            "end": 330
+          },
+          "start": 265,
+          "end": 330
         }
-      ]
+      ],
+      "start": 259,
+      "end": 331
     },
     {
       "type": "ExpressionStatement",
-      "start": 333,
-      "end": 414,
       "expression": {
         "type": "CallExpression",
-        "start": 333,
-        "end": 413,
         "callee": {
           "type": "MemberExpression",
-          "start": 333,
-          "end": 349,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 333,
-            "end": 339,
-            "name": "assert"
+            "end": 339
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 340,
-            "end": 349,
-            "name": "sameValue"
+            "end": 349
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 333,
+          "end": 349
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 350,
-            "end": 384,
             "callee": {
               "type": "MemberExpression",
-              "start": 350,
-              "end": 363,
               "object": {
                 "type": "Identifier",
+                "name": "zdt1",
                 "start": 350,
-                "end": 354,
-                "name": "zdt1"
+                "end": 354
               },
               "property": {
                 "type": "Identifier",
+                "name": "toString",
                 "start": 355,
-                "end": 363,
-                "name": "toString"
+                "end": 363
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 350,
+              "end": 363
             },
             "arguments": [
               {
                 "type": "ObjectExpression",
-                "start": 364,
-                "end": 383,
                 "properties": [
                   {
                     "type": "Property",
-                    "start": 366,
-                    "end": 381,
                     "kind": "init",
                     "key": {
                       "type": "Identifier",
+                      "name": "offset",
                       "start": 366,
-                      "end": 372,
-                      "name": "offset"
+                      "end": 372
                     },
                     "value": {
                       "type": "Literal",
-                      "start": 374,
-                      "end": 381,
                       "value": "never",
-                      "raw": "\"never\""
+                      "raw": "\"never\"",
+                      "start": 374,
+                      "end": 381
                     },
                     "method": false,
                     "shorthand": false,
-                    "computed": false
+                    "computed": false,
+                    "start": 366,
+                    "end": 381
                   }
-                ]
+                ],
+                "start": 364,
+                "end": 383
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 350,
+            "end": 384
           },
           {
             "type": "Literal",
-            "start": 386,
-            "end": 412,
             "value": "1976-11-18T15:23:00[UTC]",
-            "raw": "\"1976-11-18T15:23:00[UTC]\""
+            "raw": "\"1976-11-18T15:23:00[UTC]\"",
+            "start": 386,
+            "end": 412
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 333,
+        "end": 413
+      },
+      "start": 333,
+      "end": 414
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 415
 }

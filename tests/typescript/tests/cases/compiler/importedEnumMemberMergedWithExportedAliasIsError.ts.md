@@ -2,203 +2,193 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 33,
   "body": [
     {
       "type": "ExportNamedDeclaration",
-      "start": 0,
-      "end": 33,
       "declaration": {
         "type": "TSEnumDeclaration",
-        "start": 7,
-        "end": 33,
         "id": {
           "type": "Identifier",
-          "start": 12,
-          "end": 16,
           "decorators": [],
           "name": "Enum",
           "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "start": 12,
+          "end": 16
         },
         "body": {
           "type": "TSEnumBody",
-          "start": 17,
-          "end": 33,
           "members": [
             {
               "type": "TSEnumMember",
-              "start": 23,
-              "end": 24,
               "id": {
                 "type": "Identifier",
-                "start": 23,
-                "end": 24,
                 "decorators": [],
                 "name": "A",
                 "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "start": 23,
+                "end": 24
               },
               "initializer": null,
-              "computed": false
+              "computed": false,
+              "start": 23,
+              "end": 24
             },
             {
               "type": "TSEnumMember",
-              "start": 30,
-              "end": 31,
               "id": {
                 "type": "Identifier",
-                "start": 30,
-                "end": 31,
                 "decorators": [],
                 "name": "B",
                 "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "start": 30,
+                "end": 31
               },
               "initializer": null,
-              "computed": false
+              "computed": false,
+              "start": 30,
+              "end": 31
             }
-          ]
+          ],
+          "start": 17,
+          "end": 33
         },
         "const": false,
-        "declare": false
+        "declare": false,
+        "start": 7,
+        "end": 33
       },
       "specifiers": [],
       "source": null,
       "exportKind": "value",
-      "attributes": []
+      "attributes": [],
+      "start": 0,
+      "end": 33
     }
   ],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 33
 }
 ```
 __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 102,
   "body": [
     {
       "type": "ImportDeclaration",
-      "start": 0,
-      "end": 28,
       "specifiers": [
         {
           "type": "ImportSpecifier",
-          "start": 8,
-          "end": 12,
           "imported": {
             "type": "Identifier",
-            "start": 8,
-            "end": 12,
             "decorators": [],
             "name": "Enum",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 8,
+            "end": 12
           },
           "local": {
             "type": "Identifier",
-            "start": 8,
-            "end": 12,
             "decorators": [],
             "name": "Enum",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 8,
+            "end": 12
           },
-          "importKind": "value"
+          "importKind": "value",
+          "start": 8,
+          "end": 12
         }
       ],
       "source": {
         "type": "Literal",
-        "start": 19,
-        "end": 27,
         "value": "./enum",
-        "raw": "\"./enum\""
+        "raw": "\"./enum\"",
+        "start": 19,
+        "end": 27
       },
       "phase": null,
       "attributes": [],
-      "importKind": "value"
+      "importKind": "value",
+      "start": 0,
+      "end": 28
     },
     {
       "type": "TSImportEqualsDeclaration",
-      "start": 30,
-      "end": 52,
       "id": {
         "type": "Identifier",
-        "start": 37,
-        "end": 42,
         "decorators": [],
         "name": "EnumA",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 37,
+        "end": 42
       },
       "moduleReference": {
         "type": "TSQualifiedName",
-        "start": 45,
-        "end": 51,
         "left": {
           "type": "Identifier",
-          "start": 45,
-          "end": 49,
           "decorators": [],
           "name": "Enum",
           "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "start": 45,
+          "end": 49
         },
         "right": {
           "type": "Identifier",
-          "start": 50,
-          "end": 51,
           "decorators": [],
           "name": "A",
           "optional": false,
-          "typeAnnotation": null
-        }
+          "typeAnnotation": null,
+          "start": 50,
+          "end": 51
+        },
+        "start": 45,
+        "end": 51
       },
-      "importKind": "value"
+      "importKind": "value",
+      "start": 30,
+      "end": 52
     },
     {
       "type": "ExportNamedDeclaration",
-      "start": 54,
-      "end": 102,
       "declaration": {
         "type": "TSTypeAliasDeclaration",
-        "start": 61,
-        "end": 102,
         "id": {
           "type": "Identifier",
-          "start": 66,
-          "end": 71,
           "decorators": [],
           "name": "EnumA",
           "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "start": 66,
+          "end": 71
         },
         "typeParameters": null,
         "typeAnnotation": {
           "type": "TSUnionType",
-          "start": 74,
-          "end": 101,
           "types": [
             {
               "type": "TSTupleType",
-              "start": 74,
-              "end": 82,
               "elementTypes": [
                 {
                   "type": "TSStringKeyword",
                   "start": 75,
                   "end": 81
                 }
-              ]
+              ],
+              "start": 74,
+              "end": 82
             },
             {
               "type": "TSTupleType",
-              "start": 85,
-              "end": 101,
               "elementTypes": [
                 {
                   "type": "TSStringKeyword",
@@ -210,19 +200,29 @@ __ESTREE_TEST__:PASS:
                   "start": 94,
                   "end": 100
                 }
-              ]
+              ],
+              "start": 85,
+              "end": 101
             }
-          ]
+          ],
+          "start": 74,
+          "end": 101
         },
-        "declare": false
+        "declare": false,
+        "start": 61,
+        "end": 102
       },
       "specifiers": [],
       "source": null,
       "exportKind": "type",
-      "attributes": []
+      "attributes": [],
+      "start": 54,
+      "end": 102
     }
   ],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 102
 }
 ```

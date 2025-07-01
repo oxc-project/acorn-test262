@@ -1,181 +1,181 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 851,
   "body": [
     {
       "type": "TryStatement",
-      "start": 507,
-      "end": 805,
       "block": {
         "type": "BlockStatement",
-        "start": 511,
-        "end": 645,
         "body": [
           {
             "type": "ThrowStatement",
-            "start": 517,
-            "end": 643,
             "argument": {
               "type": "NewExpression",
-              "start": 523,
-              "end": 642,
               "callee": {
                 "type": "Identifier",
+                "name": "Test262Error",
                 "start": 527,
-                "end": 539,
-                "name": "Test262Error"
+                "end": 539
               },
               "arguments": [
                 {
                   "type": "BinaryExpression",
-                  "start": 540,
-                  "end": 641,
                   "left": {
                     "type": "Literal",
-                    "start": 540,
-                    "end": 607,
                     "value": "#1.1: RegExp(new RegExp(\"\\d\"), \"1\")) throw SyntaxError. Actual: ",
-                    "raw": "'#1.1: RegExp(new RegExp(\"\\\\d\"), \"1\")) throw SyntaxError. Actual: '"
+                    "raw": "'#1.1: RegExp(new RegExp(\"\\\\d\"), \"1\")) throw SyntaxError. Actual: '",
+                    "start": 540,
+                    "end": 607
                   },
                   "operator": "+",
                   "right": {
                     "type": "ParenthesizedExpression",
-                    "start": 610,
-                    "end": 641,
                     "expression": {
                       "type": "CallExpression",
-                      "start": 611,
-                      "end": 640,
                       "callee": {
                         "type": "Identifier",
+                        "name": "RegExp",
                         "start": 611,
-                        "end": 617,
-                        "name": "RegExp"
+                        "end": 617
                       },
                       "arguments": [
                         {
                           "type": "NewExpression",
-                          "start": 618,
-                          "end": 634,
                           "callee": {
                             "type": "Identifier",
+                            "name": "RegExp",
                             "start": 622,
-                            "end": 628,
-                            "name": "RegExp"
+                            "end": 628
                           },
                           "arguments": [
                             {
                               "type": "Literal",
-                              "start": 629,
-                              "end": 633,
                               "value": "d",
-                              "raw": "\"\\d\""
+                              "raw": "\"\\d\"",
+                              "start": 629,
+                              "end": 633
                             }
-                          ]
+                          ],
+                          "start": 618,
+                          "end": 634
                         },
                         {
                           "type": "Literal",
-                          "start": 636,
-                          "end": 639,
                           "value": "1",
-                          "raw": "\"1\""
+                          "raw": "\"1\"",
+                          "start": 636,
+                          "end": 639
                         }
                       ],
-                      "optional": false
-                    }
-                  }
+                      "optional": false,
+                      "start": 611,
+                      "end": 640
+                    },
+                    "start": 610,
+                    "end": 641
+                  },
+                  "start": 540,
+                  "end": 641
                 }
-              ]
-            }
+              ],
+              "start": 523,
+              "end": 642
+            },
+            "start": 517,
+            "end": 643
           }
-        ]
+        ],
+        "start": 511,
+        "end": 645
       },
       "handler": {
         "type": "CatchClause",
-        "start": 646,
-        "end": 805,
         "param": {
           "type": "Identifier",
+          "name": "e",
           "start": 653,
-          "end": 654,
-          "name": "e"
+          "end": 654
         },
         "body": {
           "type": "BlockStatement",
-          "start": 656,
-          "end": 805,
           "body": [
             {
               "type": "ExpressionStatement",
-              "start": 660,
-              "end": 803,
               "expression": {
                 "type": "CallExpression",
-                "start": 660,
-                "end": 802,
                 "callee": {
                   "type": "MemberExpression",
-                  "start": 660,
-                  "end": 676,
                   "object": {
                     "type": "Identifier",
+                    "name": "assert",
                     "start": 660,
-                    "end": 666,
-                    "name": "assert"
+                    "end": 666
                   },
                   "property": {
                     "type": "Identifier",
+                    "name": "sameValue",
                     "start": 667,
-                    "end": 676,
-                    "name": "sameValue"
+                    "end": 676
                   },
                   "optional": false,
-                  "computed": false
+                  "computed": false,
+                  "start": 660,
+                  "end": 676
                 },
                 "arguments": [
                   {
                     "type": "BinaryExpression",
-                    "start": 682,
-                    "end": 706,
                     "left": {
                       "type": "Identifier",
+                      "name": "e",
                       "start": 682,
-                      "end": 683,
-                      "name": "e"
+                      "end": 683
                     },
                     "operator": "instanceof",
                     "right": {
                       "type": "Identifier",
+                      "name": "SyntaxError",
                       "start": 695,
-                      "end": 706,
-                      "name": "SyntaxError"
-                    }
+                      "end": 706
+                    },
+                    "start": 682,
+                    "end": 706
                   },
                   {
                     "type": "Literal",
-                    "start": 712,
-                    "end": 716,
                     "value": true,
-                    "raw": "true"
+                    "raw": "true",
+                    "start": 712,
+                    "end": 716
                   },
                   {
                     "type": "Literal",
-                    "start": 722,
-                    "end": 798,
                     "value": "The result of evaluating (e instanceof SyntaxError) is expected to be true",
-                    "raw": "'The result of evaluating (e instanceof SyntaxError) is expected to be true'"
+                    "raw": "'The result of evaluating (e instanceof SyntaxError) is expected to be true'",
+                    "start": 722,
+                    "end": 798
                   }
                 ],
-                "optional": false
-              }
+                "optional": false,
+                "start": 660,
+                "end": 802
+              },
+              "start": 660,
+              "end": 803
             }
-          ]
-        }
+          ],
+          "start": 656,
+          "end": 805
+        },
+        "start": 646,
+        "end": 805
       },
-      "finalizer": null
+      "finalizer": null,
+      "start": 507,
+      "end": 805
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 851
 }

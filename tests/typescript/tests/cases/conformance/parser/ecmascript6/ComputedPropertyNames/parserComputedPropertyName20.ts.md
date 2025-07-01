@@ -2,41 +2,33 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 34,
   "body": [
     {
       "type": "TSInterfaceDeclaration",
-      "start": 0,
-      "end": 34,
       "id": {
         "type": "Identifier",
-        "start": 10,
-        "end": 11,
         "decorators": [],
         "name": "I",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 10,
+        "end": 11
       },
       "typeParameters": null,
       "extends": [],
       "body": {
         "type": "TSInterfaceBody",
-        "start": 12,
-        "end": 34,
         "body": [
           {
             "type": "TSMethodSignature",
-            "start": 18,
-            "end": 31,
             "key": {
               "type": "Identifier",
-              "start": 19,
-              "end": 20,
               "decorators": [],
               "name": "e",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 19,
+              "end": 20
             },
             "computed": true,
             "optional": false,
@@ -45,24 +37,32 @@ __ESTREE_TEST__:PASS:
             "params": [],
             "returnType": {
               "type": "TSTypeAnnotation",
-              "start": 23,
-              "end": 31,
               "typeAnnotation": {
                 "type": "TSNumberKeyword",
                 "start": 25,
                 "end": 31
-              }
+              },
+              "start": 23,
+              "end": 31
             },
             "accessibility": null,
             "readonly": false,
-            "static": false
+            "static": false,
+            "start": 18,
+            "end": 31
           }
-        ]
+        ],
+        "start": 12,
+        "end": 34
       },
-      "declare": false
+      "declare": false,
+      "start": 0,
+      "end": 34
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 34
 }
 ```

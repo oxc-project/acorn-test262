@@ -1,213 +1,213 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 467,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 268,
-      "end": 366,
       "expression": {
         "type": "CallExpression",
-        "start": 268,
-        "end": 365,
         "callee": {
           "type": "MemberExpression",
-          "start": 268,
-          "end": 281,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 268,
-            "end": 274,
-            "name": "assert"
+            "end": 274
           },
           "property": {
             "type": "Identifier",
+            "name": "throws",
             "start": 275,
-            "end": 281,
-            "name": "throws"
+            "end": 281
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 268,
+          "end": 281
         },
         "arguments": [
           {
             "type": "Identifier",
+            "name": "TypeError",
             "start": 282,
-            "end": 291,
-            "name": "TypeError"
+            "end": 291
           },
           {
             "type": "FunctionExpression",
-            "start": 293,
-            "end": 327,
             "id": null,
             "generator": false,
             "async": false,
             "params": [],
             "body": {
               "type": "BlockStatement",
-              "start": 304,
-              "end": 327,
               "body": [
                 {
                   "type": "ExpressionStatement",
-                  "start": 308,
-                  "end": 325,
                   "expression": {
                     "type": "BinaryExpression",
-                    "start": 308,
-                    "end": 324,
                     "left": {
                       "type": "Literal",
-                      "start": 308,
-                      "end": 310,
                       "value": null,
                       "raw": "3n",
-                      "bigint": "3"
+                      "bigint": "3",
+                      "start": 308,
+                      "end": 310
                     },
                     "operator": "<",
                     "right": {
                       "type": "CallExpression",
-                      "start": 313,
-                      "end": 324,
                       "callee": {
                         "type": "Identifier",
+                        "name": "Symbol",
                         "start": 313,
-                        "end": 319,
-                        "name": "Symbol"
+                        "end": 319
                       },
                       "arguments": [
                         {
                           "type": "Literal",
-                          "start": 320,
-                          "end": 323,
                           "value": "2",
-                          "raw": "'2'"
+                          "raw": "'2'",
+                          "start": 320,
+                          "end": 323
                         }
                       ],
-                      "optional": false
-                    }
-                  }
+                      "optional": false,
+                      "start": 313,
+                      "end": 324
+                    },
+                    "start": 308,
+                    "end": 324
+                  },
+                  "start": 308,
+                  "end": 325
                 }
-              ]
+              ],
+              "start": 304,
+              "end": 327
             },
-            "expression": false
+            "expression": false,
+            "start": 293,
+            "end": 327
           },
           {
             "type": "Literal",
-            "start": 329,
-            "end": 364,
             "value": "3n < Symbol(\"2\") throws TypeError",
-            "raw": "'3n < Symbol(\"2\") throws TypeError'"
+            "raw": "'3n < Symbol(\"2\") throws TypeError'",
+            "start": 329,
+            "end": 364
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 268,
+        "end": 365
+      },
+      "start": 268,
+      "end": 366
     },
     {
       "type": "ExpressionStatement",
-      "start": 368,
-      "end": 466,
       "expression": {
         "type": "CallExpression",
-        "start": 368,
-        "end": 465,
         "callee": {
           "type": "MemberExpression",
-          "start": 368,
-          "end": 381,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 368,
-            "end": 374,
-            "name": "assert"
+            "end": 374
           },
           "property": {
             "type": "Identifier",
+            "name": "throws",
             "start": 375,
-            "end": 381,
-            "name": "throws"
+            "end": 381
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 368,
+          "end": 381
         },
         "arguments": [
           {
             "type": "Identifier",
+            "name": "TypeError",
             "start": 382,
-            "end": 391,
-            "name": "TypeError"
+            "end": 391
           },
           {
             "type": "FunctionExpression",
-            "start": 393,
-            "end": 427,
             "id": null,
             "generator": false,
             "async": false,
             "params": [],
             "body": {
               "type": "BlockStatement",
-              "start": 404,
-              "end": 427,
               "body": [
                 {
                   "type": "ExpressionStatement",
-                  "start": 408,
-                  "end": 425,
                   "expression": {
                     "type": "BinaryExpression",
-                    "start": 408,
-                    "end": 424,
                     "left": {
                       "type": "CallExpression",
-                      "start": 408,
-                      "end": 419,
                       "callee": {
                         "type": "Identifier",
+                        "name": "Symbol",
                         "start": 408,
-                        "end": 414,
-                        "name": "Symbol"
+                        "end": 414
                       },
                       "arguments": [
                         {
                           "type": "Literal",
-                          "start": 415,
-                          "end": 418,
                           "value": "2",
-                          "raw": "'2'"
+                          "raw": "'2'",
+                          "start": 415,
+                          "end": 418
                         }
                       ],
-                      "optional": false
+                      "optional": false,
+                      "start": 408,
+                      "end": 419
                     },
                     "operator": "<",
                     "right": {
                       "type": "Literal",
-                      "start": 422,
-                      "end": 424,
                       "value": null,
                       "raw": "3n",
-                      "bigint": "3"
-                    }
-                  }
+                      "bigint": "3",
+                      "start": 422,
+                      "end": 424
+                    },
+                    "start": 408,
+                    "end": 424
+                  },
+                  "start": 408,
+                  "end": 425
                 }
-              ]
+              ],
+              "start": 404,
+              "end": 427
             },
-            "expression": false
+            "expression": false,
+            "start": 393,
+            "end": 427
           },
           {
             "type": "Literal",
-            "start": 429,
-            "end": 464,
             "value": "Symbol(\"2\") < 3n throws TypeError",
-            "raw": "'Symbol(\"2\") < 3n throws TypeError'"
+            "raw": "'Symbol(\"2\") < 3n throws TypeError'",
+            "start": 429,
+            "end": 464
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 368,
+        "end": 465
+      },
+      "start": 368,
+      "end": 466
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 467
 }

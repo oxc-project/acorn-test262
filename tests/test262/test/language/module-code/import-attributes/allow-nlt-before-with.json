@@ -1,63 +1,63 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 783,
   "body": [
     {
       "type": "ThrowStatement",
-      "start": 617,
-      "end": 674,
       "argument": {
         "type": "Literal",
-        "start": 623,
-        "end": 673,
         "value": "Test262: This statement should not be evaluated.",
-        "raw": "\"Test262: This statement should not be evaluated.\""
-      }
+        "raw": "\"Test262: This statement should not be evaluated.\"",
+        "start": 623,
+        "end": 673
+      },
+      "start": 617,
+      "end": 674
     },
     {
       "type": "ImportDeclaration",
-      "start": 676,
-      "end": 719,
       "specifiers": [],
       "source": {
         "type": "Literal",
-        "start": 683,
-        "end": 718,
         "value": "./ensure-linking-error_FIXTURE.js",
-        "raw": "\"./ensure-linking-error_FIXTURE.js\""
+        "raw": "\"./ensure-linking-error_FIXTURE.js\"",
+        "start": 683,
+        "end": 718
       },
       "phase": null,
-      "attributes": []
+      "attributes": [],
+      "start": 676,
+      "end": 719
     },
     {
       "type": "ImportDeclaration",
-      "start": 721,
-      "end": 782,
       "specifiers": [
         {
           "type": "ImportNamespaceSpecifier",
-          "start": 728,
-          "end": 734,
           "local": {
             "type": "Identifier",
+            "name": "x",
             "start": 733,
-            "end": 734,
-            "name": "x"
-          }
+            "end": 734
+          },
+          "start": 728,
+          "end": 734
         }
       ],
       "source": {
         "type": "Literal",
-        "start": 740,
-        "end": 773,
         "value": "./import-attribute-1_FIXTURE.js",
-        "raw": "'./import-attribute-1_FIXTURE.js'"
+        "raw": "'./import-attribute-1_FIXTURE.js'",
+        "start": 740,
+        "end": 773
       },
       "phase": null,
-      "attributes": []
+      "attributes": [],
+      "start": 721,
+      "end": 782
     }
   ],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 783
 }

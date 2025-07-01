@@ -2,40 +2,32 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 28,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 0,
-      "end": 28,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 4,
-          "end": 28,
           "id": {
             "type": "Identifier",
-            "start": 4,
-            "end": 5,
             "decorators": [],
             "name": "v",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 4,
+            "end": 5
           },
           "init": {
             "type": "FunctionExpression",
-            "start": 8,
-            "end": 28,
             "id": {
               "type": "Identifier",
-              "start": 19,
-              "end": 22,
               "decorators": [],
               "name": "foo",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 19,
+              "end": 22
             },
             "generator": true,
             "async": false,
@@ -45,19 +37,27 @@ __ESTREE_TEST__:PASS:
             "returnType": null,
             "body": {
               "type": "BlockStatement",
+              "body": [],
               "start": 25,
-              "end": 28,
-              "body": []
+              "end": 28
             },
-            "expression": false
+            "expression": false,
+            "start": 8,
+            "end": 28
           },
-          "definite": false
+          "definite": false,
+          "start": 4,
+          "end": 28
         }
       ],
-      "declare": false
+      "declare": false,
+      "start": 0,
+      "end": 28
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 28
 }
 ```

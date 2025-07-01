@@ -2,136 +2,136 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 55,
   "body": [
     {
       "type": "TSInterfaceDeclaration",
-      "start": 0,
-      "end": 30,
       "id": {
         "type": "Identifier",
-        "start": 10,
-        "end": 11,
         "decorators": [],
         "name": "A",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 10,
+        "end": 11
       },
       "typeParameters": null,
       "extends": [],
       "body": {
         "type": "TSInterfaceBody",
-        "start": 12,
-        "end": 30,
         "body": [
           {
             "type": "TSPropertySignature",
-            "start": 18,
-            "end": 28,
             "computed": false,
             "optional": false,
             "readonly": false,
             "key": {
               "type": "Literal",
-              "start": 18,
-              "end": 19,
               "value": 0,
-              "raw": "0"
+              "raw": "0",
+              "start": 18,
+              "end": 19
             },
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
-              "start": 19,
-              "end": 27,
               "typeAnnotation": {
                 "type": "TSStringKeyword",
                 "start": 21,
                 "end": 27
-              }
+              },
+              "start": 19,
+              "end": 27
             },
             "accessibility": null,
-            "static": false
+            "static": false,
+            "start": 18,
+            "end": 28
           }
-        ]
+        ],
+        "start": 12,
+        "end": 30
       },
-      "declare": false
+      "declare": false,
+      "start": 0,
+      "end": 30
     },
     {
       "type": "VariableDeclaration",
-      "start": 31,
-      "end": 55,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 35,
-          "end": 54,
           "id": {
             "type": "Identifier",
-            "start": 35,
-            "end": 39,
             "decorators": [],
             "name": "x",
             "optional": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
-              "start": 36,
-              "end": 39,
               "typeAnnotation": {
                 "type": "TSTypeReference",
-                "start": 38,
-                "end": 39,
                 "typeName": {
                   "type": "Identifier",
-                  "start": 38,
-                  "end": 39,
                   "decorators": [],
                   "name": "A",
                   "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "start": 38,
+                  "end": 39
                 },
-                "typeArguments": null
-              }
-            }
+                "typeArguments": null,
+                "start": 38,
+                "end": 39
+              },
+              "start": 36,
+              "end": 39
+            },
+            "start": 35,
+            "end": 39
           },
           "init": {
             "type": "ObjectExpression",
-            "start": 42,
-            "end": 54,
             "properties": [
               {
                 "type": "Property",
-                "start": 48,
-                "end": 52,
                 "kind": "init",
                 "key": {
                   "type": "Literal",
-                  "start": 48,
-                  "end": 49,
                   "value": 0,
-                  "raw": "0"
+                  "raw": "0",
+                  "start": 48,
+                  "end": 49
                 },
                 "value": {
                   "type": "Literal",
-                  "start": 51,
-                  "end": 52,
                   "value": 3,
-                  "raw": "3"
+                  "raw": "3",
+                  "start": 51,
+                  "end": 52
                 },
                 "method": false,
                 "shorthand": false,
                 "computed": false,
-                "optional": false
+                "optional": false,
+                "start": 48,
+                "end": 52
               }
-            ]
+            ],
+            "start": 42,
+            "end": 54
           },
-          "definite": false
+          "definite": false,
+          "start": 35,
+          "end": 54
         }
       ],
-      "declare": false
+      "declare": false,
+      "start": 31,
+      "end": 55
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 55
 }
 ```

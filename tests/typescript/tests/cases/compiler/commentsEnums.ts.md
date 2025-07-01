@@ -2,161 +2,161 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 21,
-  "end": 211,
   "body": [
     {
       "type": "TSEnumDeclaration",
-      "start": 21,
-      "end": 141,
       "id": {
         "type": "Identifier",
-        "start": 26,
-        "end": 32,
         "decorators": [],
         "name": "Colors",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 26,
+        "end": 32
       },
       "body": {
         "type": "TSEnumBody",
-        "start": 33,
-        "end": 141,
         "members": [
           {
             "type": "TSEnumMember",
-            "start": 71,
-            "end": 81,
             "id": {
               "type": "Identifier",
-              "start": 71,
-              "end": 81,
               "decorators": [],
               "name": "Cornflower",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 71,
+              "end": 81
             },
             "initializer": null,
-            "computed": false
+            "computed": false,
+            "start": 71,
+            "end": 81
           },
           {
             "type": "TSEnumMember",
-            "start": 130,
-            "end": 139,
             "id": {
               "type": "Identifier",
-              "start": 130,
-              "end": 139,
               "decorators": [],
               "name": "FancyPink",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 130,
+              "end": 139
             },
             "initializer": null,
-            "computed": false
+            "computed": false,
+            "start": 130,
+            "end": 139
           }
-        ]
+        ],
+        "start": 33,
+        "end": 141
       },
       "const": false,
-      "declare": false
+      "declare": false,
+      "start": 21,
+      "end": 141
     },
     {
       "type": "VariableDeclaration",
-      "start": 162,
-      "end": 188,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 166,
-          "end": 187,
           "id": {
             "type": "Identifier",
-            "start": 166,
-            "end": 167,
             "decorators": [],
             "name": "x",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 166,
+            "end": 167
           },
           "init": {
             "type": "MemberExpression",
-            "start": 170,
-            "end": 187,
             "object": {
               "type": "Identifier",
-              "start": 170,
-              "end": 176,
               "decorators": [],
               "name": "Colors",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 170,
+              "end": 176
             },
             "property": {
               "type": "Identifier",
-              "start": 177,
-              "end": 187,
               "decorators": [],
               "name": "Cornflower",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 177,
+              "end": 187
             },
             "optional": false,
-            "computed": false
+            "computed": false,
+            "start": 170,
+            "end": 187
           },
-          "definite": false
+          "definite": false,
+          "start": 166,
+          "end": 187
         }
       ],
-      "declare": false
+      "declare": false,
+      "start": 162,
+      "end": 188
     },
     {
       "type": "ExpressionStatement",
-      "start": 189,
-      "end": 210,
       "expression": {
         "type": "AssignmentExpression",
-        "start": 189,
-        "end": 209,
         "operator": "=",
         "left": {
           "type": "Identifier",
-          "start": 189,
-          "end": 190,
           "decorators": [],
           "name": "x",
           "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "start": 189,
+          "end": 190
         },
         "right": {
           "type": "MemberExpression",
-          "start": 193,
-          "end": 209,
           "object": {
             "type": "Identifier",
-            "start": 193,
-            "end": 199,
             "decorators": [],
             "name": "Colors",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 193,
+            "end": 199
           },
           "property": {
             "type": "Identifier",
-            "start": 200,
-            "end": 209,
             "decorators": [],
             "name": "FancyPink",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 200,
+            "end": 209
           },
           "optional": false,
-          "computed": false
-        }
+          "computed": false,
+          "start": 193,
+          "end": 209
+        },
+        "start": 189,
+        "end": 209
       },
-      "directive": null
+      "directive": null,
+      "start": 189,
+      "end": 210
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 21,
+  "end": 211
 }
 ```

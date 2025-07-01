@@ -2,21 +2,17 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 53,
   "body": [
     {
       "type": "FunctionDeclaration",
-      "start": 0,
-      "end": 36,
       "id": {
         "type": "Identifier",
-        "start": 9,
-        "end": 10,
         "decorators": [],
         "name": "f",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 9,
+        "end": 10
       },
       "generator": false,
       "async": false,
@@ -26,48 +22,48 @@ __ESTREE_TEST__:PASS:
       "returnType": null,
       "body": {
         "type": "BlockStatement",
-        "start": 13,
-        "end": 36,
         "body": [
           {
             "type": "ExpressionStatement",
-            "start": 19,
-            "end": 28,
             "expression": {
               "type": "NewExpression",
-              "start": 19,
-              "end": 27,
               "callee": {
                 "type": "Identifier",
-                "start": 23,
-                "end": 25,
                 "decorators": [],
                 "name": "C2",
                 "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "start": 23,
+                "end": 25
               },
               "typeArguments": null,
-              "arguments": []
+              "arguments": [],
+              "start": 19,
+              "end": 27
             },
-            "directive": null
+            "directive": null,
+            "start": 19,
+            "end": 28
           }
-        ]
+        ],
+        "start": 13,
+        "end": 36
       },
-      "expression": false
+      "expression": false,
+      "start": 0,
+      "end": 36
     },
     {
       "type": "ClassDeclaration",
-      "start": 41,
-      "end": 53,
       "decorators": [],
       "id": {
         "type": "Identifier",
-        "start": 47,
-        "end": 49,
         "decorators": [],
         "name": "C2",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 47,
+        "end": 49
       },
       "typeParameters": null,
       "superClass": null,
@@ -75,15 +71,19 @@ __ESTREE_TEST__:PASS:
       "implements": [],
       "body": {
         "type": "ClassBody",
+        "body": [],
         "start": 50,
-        "end": 53,
-        "body": []
+        "end": 53
       },
       "abstract": false,
-      "declare": false
+      "declare": false,
+      "start": 41,
+      "end": 53
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 53
 }
 ```

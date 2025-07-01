@@ -1,114 +1,108 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 393,
   "body": [
     {
       "type": "FunctionDeclaration",
-      "start": 214,
-      "end": 263,
       "id": {
         "type": "Identifier",
+        "name": "foo",
         "start": 223,
-        "end": 226,
-        "name": "foo"
+        "end": 226
       },
       "generator": false,
       "async": false,
       "params": [],
       "body": {
         "type": "BlockStatement",
-        "start": 228,
-        "end": 263,
         "body": [
           {
             "type": "ReturnStatement",
-            "start": 235,
-            "end": 259,
             "argument": {
               "type": "ArrowFunctionExpression",
-              "start": 242,
-              "end": 258,
               "expression": true,
               "async": false,
               "params": [],
               "body": {
                 "type": "CallExpression",
-                "start": 246,
-                "end": 258,
                 "callee": {
                   "type": "Identifier",
+                  "name": "eval",
                   "start": 246,
-                  "end": 250,
-                  "name": "eval"
+                  "end": 250
                 },
                 "arguments": [
                   {
                     "type": "Literal",
-                    "start": 251,
-                    "end": 257,
                     "value": "this",
-                    "raw": "\"this\""
+                    "raw": "\"this\"",
+                    "start": 251,
+                    "end": 257
                   }
                 ],
-                "optional": false
+                "optional": false,
+                "start": 246,
+                "end": 258
               },
               "id": null,
-              "generator": false
-            }
+              "generator": false,
+              "start": 242,
+              "end": 258
+            },
+            "start": 235,
+            "end": 259
           }
-        ]
+        ],
+        "start": 228,
+        "end": 263
       },
-      "expression": false
+      "expression": false,
+      "start": 214,
+      "end": 263
     },
     {
       "type": "ExpressionStatement",
-      "start": 267,
-      "end": 391,
       "expression": {
         "type": "CallExpression",
-        "start": 267,
-        "end": 390,
         "callee": {
           "type": "MemberExpression",
-          "start": 267,
-          "end": 283,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 267,
-            "end": 273,
-            "name": "assert"
+            "end": 273
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 274,
-            "end": 283,
-            "name": "sameValue"
+            "end": 283
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 267,
+          "end": 283
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 284,
-            "end": 299,
             "callee": {
               "type": "Identifier",
+              "name": "eval",
               "start": 284,
-              "end": 288,
-              "name": "eval"
+              "end": 288
             },
             "arguments": [
               {
                 "type": "Literal",
-                "start": 289,
-                "end": 298,
                 "value": "foo()()",
-                "raw": "\"foo()()\""
+                "raw": "\"foo()()\"",
+                "start": 289,
+                "end": 298
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 284,
+            "end": 299
           },
           {
             "type": "ThisExpression",
@@ -117,16 +111,22 @@
           },
           {
             "type": "Literal",
-            "start": 307,
-            "end": 389,
             "value": "This binding initialization was incorrect for arrow capturing this from closure.",
-            "raw": "\"This binding initialization was incorrect for arrow capturing this from closure.\""
+            "raw": "\"This binding initialization was incorrect for arrow capturing this from closure.\"",
+            "start": 307,
+            "end": 389
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 267,
+        "end": 390
+      },
+      "start": 267,
+      "end": 391
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 393
 }

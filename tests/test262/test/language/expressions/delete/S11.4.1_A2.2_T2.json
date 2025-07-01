@@ -1,246 +1,246 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 746,
   "body": [
     {
       "type": "FunctionDeclaration",
-      "start": 349,
-      "end": 373,
       "id": {
         "type": "Identifier",
+        "name": "MyFunction",
         "start": 358,
-        "end": 368,
-        "name": "MyFunction"
+        "end": 368
       },
       "generator": false,
       "async": false,
       "params": [],
       "body": {
         "type": "BlockStatement",
+        "body": [],
         "start": 371,
-        "end": 373,
-        "body": []
+        "end": 373
       },
-      "expression": false
+      "expression": false,
+      "start": 349,
+      "end": 373
     },
     {
       "type": "VariableDeclaration",
-      "start": 374,
-      "end": 406,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 378,
-          "end": 405,
           "id": {
             "type": "Identifier",
+            "name": "MyObject",
             "start": 378,
-            "end": 386,
-            "name": "MyObject"
+            "end": 386
           },
           "init": {
             "type": "NewExpression",
-            "start": 389,
-            "end": 405,
             "callee": {
               "type": "Identifier",
+              "name": "MyFunction",
               "start": 393,
-              "end": 403,
-              "name": "MyFunction"
+              "end": 403
             },
-            "arguments": []
-          }
+            "arguments": [],
+            "start": 389,
+            "end": 405
+          },
+          "start": 378,
+          "end": 405
         }
-      ]
+      ],
+      "start": 374,
+      "end": 406
     },
     {
       "type": "IfStatement",
-      "start": 407,
-      "end": 574,
       "test": {
         "type": "BinaryExpression",
-        "start": 411,
-        "end": 440,
         "left": {
           "type": "UnaryExpression",
-          "start": 411,
-          "end": 431,
           "operator": "delete",
           "argument": {
             "type": "MemberExpression",
-            "start": 418,
-            "end": 431,
             "object": {
               "type": "Identifier",
+              "name": "MyObject",
               "start": 418,
-              "end": 426,
-              "name": "MyObject"
+              "end": 426
             },
             "property": {
               "type": "Identifier",
+              "name": "prop",
               "start": 427,
-              "end": 431,
-              "name": "prop"
+              "end": 431
             },
             "optional": false,
-            "computed": false
+            "computed": false,
+            "start": 418,
+            "end": 431
           },
-          "prefix": true
+          "prefix": true,
+          "start": 411,
+          "end": 431
         },
         "operator": "!==",
         "right": {
           "type": "Literal",
-          "start": 436,
-          "end": 440,
           "value": true,
-          "raw": "true"
-        }
+          "raw": "true",
+          "start": 436,
+          "end": 440
+        },
+        "start": 411,
+        "end": 440
       },
       "consequent": {
         "type": "BlockStatement",
-        "start": 442,
-        "end": 574,
         "body": [
           {
             "type": "ThrowStatement",
-            "start": 446,
-            "end": 572,
             "argument": {
               "type": "NewExpression",
-              "start": 452,
-              "end": 571,
               "callee": {
                 "type": "Identifier",
+                "name": "Test262Error",
                 "start": 456,
-                "end": 468,
-                "name": "Test262Error"
+                "end": 468
               },
               "arguments": [
                 {
                   "type": "Literal",
-                  "start": 474,
-                  "end": 567,
                   "value": "#1: function MyFunction(){}; var MyObject = new MyFunction(); delete MyObject.prop === true",
-                  "raw": "'#1: function MyFunction(){}; var MyObject = new MyFunction(); delete MyObject.prop === true'"
+                  "raw": "'#1: function MyFunction(){}; var MyObject = new MyFunction(); delete MyObject.prop === true'",
+                  "start": 474,
+                  "end": 567
                 }
-              ]
-            }
+              ],
+              "start": 452,
+              "end": 571
+            },
+            "start": 446,
+            "end": 572
           }
-        ]
+        ],
+        "start": 442,
+        "end": 574
       },
-      "alternate": null
+      "alternate": null,
+      "start": 407,
+      "end": 574
     },
     {
       "type": "VariableDeclaration",
-      "start": 586,
-      "end": 614,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 590,
-          "end": 613,
           "id": {
             "type": "Identifier",
+            "name": "MyObject",
             "start": 590,
-            "end": 598,
-            "name": "MyObject"
+            "end": 598
           },
           "init": {
             "type": "NewExpression",
-            "start": 601,
-            "end": 613,
             "callee": {
               "type": "Identifier",
+              "name": "Object",
               "start": 605,
-              "end": 611,
-              "name": "Object"
+              "end": 611
             },
-            "arguments": []
-          }
+            "arguments": [],
+            "start": 601,
+            "end": 613
+          },
+          "start": 590,
+          "end": 613
         }
-      ]
+      ],
+      "start": 586,
+      "end": 614
     },
     {
       "type": "IfStatement",
-      "start": 615,
-      "end": 745,
       "test": {
         "type": "BinaryExpression",
-        "start": 619,
-        "end": 648,
         "left": {
           "type": "UnaryExpression",
-          "start": 619,
-          "end": 639,
           "operator": "delete",
           "argument": {
             "type": "MemberExpression",
-            "start": 626,
-            "end": 639,
             "object": {
               "type": "Identifier",
+              "name": "MyObject",
               "start": 626,
-              "end": 634,
-              "name": "MyObject"
+              "end": 634
             },
             "property": {
               "type": "Identifier",
+              "name": "prop",
               "start": 635,
-              "end": 639,
-              "name": "prop"
+              "end": 639
             },
             "optional": false,
-            "computed": false
+            "computed": false,
+            "start": 626,
+            "end": 639
           },
-          "prefix": true
+          "prefix": true,
+          "start": 619,
+          "end": 639
         },
         "operator": "!==",
         "right": {
           "type": "Literal",
-          "start": 644,
-          "end": 648,
           "value": true,
-          "raw": "true"
-        }
+          "raw": "true",
+          "start": 644,
+          "end": 648
+        },
+        "start": 619,
+        "end": 648
       },
       "consequent": {
         "type": "BlockStatement",
-        "start": 650,
-        "end": 745,
         "body": [
           {
             "type": "ThrowStatement",
-            "start": 654,
-            "end": 743,
             "argument": {
               "type": "NewExpression",
-              "start": 660,
-              "end": 742,
               "callee": {
                 "type": "Identifier",
+                "name": "Test262Error",
                 "start": 664,
-                "end": 676,
-                "name": "Test262Error"
+                "end": 676
               },
               "arguments": [
                 {
                   "type": "Literal",
-                  "start": 677,
-                  "end": 741,
                   "value": "#2: var MyObject = new Object(); delete MyObject.prop === true",
-                  "raw": "'#2: var MyObject = new Object(); delete MyObject.prop === true'"
+                  "raw": "'#2: var MyObject = new Object(); delete MyObject.prop === true'",
+                  "start": 677,
+                  "end": 741
                 }
-              ]
-            }
+              ],
+              "start": 660,
+              "end": 742
+            },
+            "start": 654,
+            "end": 743
           }
-        ]
+        ],
+        "start": 650,
+        "end": 745
       },
-      "alternate": null
+      "alternate": null,
+      "start": 615,
+      "end": 745
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 746
 }

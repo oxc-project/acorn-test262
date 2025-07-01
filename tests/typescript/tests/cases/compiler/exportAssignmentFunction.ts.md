@@ -2,21 +2,17 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 44,
   "body": [
     {
       "type": "FunctionDeclaration",
-      "start": 0,
-      "end": 28,
       "id": {
         "type": "Identifier",
-        "start": 9,
-        "end": 12,
         "decorators": [],
         "name": "foo",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 9,
+        "end": 12
       },
       "generator": false,
       "async": false,
@@ -26,130 +22,134 @@ __ESTREE_TEST__:PASS:
       "returnType": null,
       "body": {
         "type": "BlockStatement",
-        "start": 15,
-        "end": 28,
         "body": [
           {
             "type": "ReturnStatement",
-            "start": 17,
-            "end": 26,
             "argument": {
               "type": "Literal",
-              "start": 24,
-              "end": 25,
               "value": 0,
-              "raw": "0"
-            }
+              "raw": "0",
+              "start": 24,
+              "end": 25
+            },
+            "start": 17,
+            "end": 26
           }
-        ]
+        ],
+        "start": 15,
+        "end": 28
       },
-      "expression": false
+      "expression": false,
+      "start": 0,
+      "end": 28
     },
     {
       "type": "TSExportAssignment",
-      "start": 30,
-      "end": 43,
       "expression": {
         "type": "Identifier",
-        "start": 39,
-        "end": 42,
         "decorators": [],
         "name": "foo",
         "optional": false,
-        "typeAnnotation": null
-      }
+        "typeAnnotation": null,
+        "start": 39,
+        "end": 42
+      },
+      "start": 30,
+      "end": 43
     }
   ],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 44
 }
 ```
 __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 83,
   "body": [
     {
       "type": "TSImportEqualsDeclaration",
-      "start": 0,
-      "end": 55,
       "id": {
         "type": "Identifier",
-        "start": 7,
-        "end": 14,
         "decorators": [],
         "name": "fooFunc",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 7,
+        "end": 14
       },
       "moduleReference": {
         "type": "TSExternalModuleReference",
-        "start": 17,
-        "end": 54,
         "expression": {
           "type": "Literal",
-          "start": 25,
-          "end": 53,
           "value": "exportAssignmentFunction_A",
-          "raw": "\"exportAssignmentFunction_A\""
-        }
+          "raw": "\"exportAssignmentFunction_A\"",
+          "start": 25,
+          "end": 53
+        },
+        "start": 17,
+        "end": 54
       },
-      "importKind": "value"
+      "importKind": "value",
+      "start": 0,
+      "end": 55
     },
     {
       "type": "VariableDeclaration",
-      "start": 57,
-      "end": 83,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 61,
-          "end": 82,
           "id": {
             "type": "Identifier",
-            "start": 61,
-            "end": 70,
             "decorators": [],
             "name": "n",
             "optional": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
-              "start": 62,
-              "end": 70,
               "typeAnnotation": {
                 "type": "TSNumberKeyword",
                 "start": 64,
                 "end": 70
-              }
-            }
+              },
+              "start": 62,
+              "end": 70
+            },
+            "start": 61,
+            "end": 70
           },
           "init": {
             "type": "CallExpression",
-            "start": 73,
-            "end": 82,
             "callee": {
               "type": "Identifier",
-              "start": 73,
-              "end": 80,
               "decorators": [],
               "name": "fooFunc",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 73,
+              "end": 80
             },
             "typeArguments": null,
             "arguments": [],
-            "optional": false
+            "optional": false,
+            "start": 73,
+            "end": 82
           },
-          "definite": false
+          "definite": false,
+          "start": 61,
+          "end": 82
         }
       ],
-      "declare": false
+      "declare": false,
+      "start": 57,
+      "end": 83
     }
   ],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 83
 }
 ```

@@ -1,131 +1,131 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 490,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 411,
-      "end": 454,
       "expression": {
         "type": "CallExpression",
-        "start": 411,
-        "end": 453,
         "callee": {
           "type": "MemberExpression",
-          "start": 411,
-          "end": 427,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 411,
-            "end": 417,
-            "name": "assert"
+            "end": 417
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 418,
-            "end": 427,
-            "name": "sameValue"
+            "end": 427
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 411,
+          "end": 427
         },
         "arguments": [
           {
             "type": "UnaryExpression",
-            "start": 428,
-            "end": 442,
             "operator": "typeof",
             "argument": {
               "type": "MemberExpression",
-              "start": 435,
-              "end": 442,
               "object": {
                 "type": "Identifier",
+                "name": "Math",
                 "start": 435,
-                "end": 439,
-                "name": "Math"
+                "end": 439
               },
               "property": {
                 "type": "Identifier",
+                "name": "PI",
                 "start": 440,
-                "end": 442,
-                "name": "PI"
+                "end": 442
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 435,
+              "end": 442
             },
-            "prefix": true
+            "prefix": true,
+            "start": 428,
+            "end": 442
           },
           {
             "type": "Literal",
-            "start": 444,
-            "end": 452,
             "value": "number",
-            "raw": "'number'"
+            "raw": "'number'",
+            "start": 444,
+            "end": 452
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 411,
+        "end": 453
+      },
+      "start": 411,
+      "end": 454
     },
     {
       "type": "ExpressionStatement",
-      "start": 455,
-      "end": 489,
       "expression": {
         "type": "CallExpression",
-        "start": 455,
-        "end": 488,
         "callee": {
           "type": "MemberExpression",
-          "start": 455,
-          "end": 474,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 455,
-            "end": 461,
-            "name": "assert"
+            "end": 461
           },
           "property": {
             "type": "Identifier",
+            "name": "notSameValue",
             "start": 462,
-            "end": 474,
-            "name": "notSameValue"
+            "end": 474
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 455,
+          "end": 474
         },
         "arguments": [
           {
             "type": "MemberExpression",
-            "start": 475,
-            "end": 482,
             "object": {
               "type": "Identifier",
+              "name": "Math",
               "start": 475,
-              "end": 479,
-              "name": "Math"
+              "end": 479
             },
             "property": {
               "type": "Identifier",
+              "name": "PI",
               "start": 480,
-              "end": 482,
-              "name": "PI"
+              "end": 482
             },
             "optional": false,
-            "computed": false
+            "computed": false,
+            "start": 475,
+            "end": 482
           },
           {
             "type": "Identifier",
+            "name": "NaN",
             "start": 484,
-            "end": 487,
-            "name": "NaN"
+            "end": 487
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 455,
+        "end": 488
+      },
+      "start": 455,
+      "end": 489
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 490
 }

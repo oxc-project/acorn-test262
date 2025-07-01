@@ -1,152 +1,152 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 365,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 253,
-      "end": 305,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 257,
-          "end": 304,
           "id": {
             "type": "Identifier",
+            "name": "AsyncFunction",
             "start": 257,
-            "end": 270,
-            "name": "AsyncFunction"
+            "end": 270
           },
           "init": {
             "type": "MemberExpression",
-            "start": 273,
-            "end": 304,
             "object": {
               "type": "FunctionExpression",
-              "start": 273,
-              "end": 292,
               "id": null,
               "generator": false,
               "async": true,
               "params": [],
               "body": {
                 "type": "BlockStatement",
+                "body": [],
                 "start": 290,
-                "end": 292,
-                "body": []
+                "end": 292
               },
-              "expression": false
+              "expression": false,
+              "start": 273,
+              "end": 292
             },
             "property": {
               "type": "Identifier",
+              "name": "constructor",
               "start": 293,
-              "end": 304,
-              "name": "constructor"
+              "end": 304
             },
             "optional": false,
-            "computed": false
-          }
+            "computed": false,
+            "start": 273,
+            "end": 304
+          },
+          "start": 257,
+          "end": 304
         }
-      ]
+      ],
+      "start": 253,
+      "end": 305
     },
     {
       "type": "ExpressionStatement",
-      "start": 306,
-      "end": 326,
       "expression": {
         "type": "AssignmentExpression",
-        "start": 306,
-        "end": 325,
         "operator": "=",
         "left": {
           "type": "MemberExpression",
-          "start": 306,
-          "end": 321,
           "object": {
             "type": "Identifier",
+            "name": "AsyncFunction",
             "start": 306,
-            "end": 319,
-            "name": "AsyncFunction"
+            "end": 319
           },
           "property": {
             "type": "Identifier",
+            "name": "x",
             "start": 320,
-            "end": 321,
-            "name": "x"
+            "end": 321
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 306,
+          "end": 321
         },
         "right": {
           "type": "Literal",
-          "start": 324,
-          "end": 325,
           "value": 1,
-          "raw": "1"
-        }
-      }
+          "raw": "1",
+          "start": 324,
+          "end": 325
+        },
+        "start": 306,
+        "end": 325
+      },
+      "start": 306,
+      "end": 326
     },
     {
       "type": "ExpressionStatement",
-      "start": 327,
-      "end": 364,
       "expression": {
         "type": "CallExpression",
-        "start": 327,
-        "end": 363,
         "callee": {
           "type": "MemberExpression",
-          "start": 327,
-          "end": 343,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 327,
-            "end": 333,
-            "name": "assert"
+            "end": 333
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 334,
-            "end": 343,
-            "name": "sameValue"
+            "end": 343
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 327,
+          "end": 343
         },
         "arguments": [
           {
             "type": "MemberExpression",
-            "start": 344,
-            "end": 359,
             "object": {
               "type": "Identifier",
+              "name": "AsyncFunction",
               "start": 344,
-              "end": 357,
-              "name": "AsyncFunction"
+              "end": 357
             },
             "property": {
               "type": "Identifier",
+              "name": "x",
               "start": 358,
-              "end": 359,
-              "name": "x"
+              "end": 359
             },
             "optional": false,
-            "computed": false
+            "computed": false,
+            "start": 344,
+            "end": 359
           },
           {
             "type": "Literal",
-            "start": 361,
-            "end": 362,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "start": 361,
+            "end": 362
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 327,
+        "end": 363
+      },
+      "start": 327,
+      "end": 364
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 365
 }

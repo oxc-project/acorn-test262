@@ -2,47 +2,33 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 26,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 0,
-      "end": 26,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 4,
-          "end": 25,
           "id": {
             "type": "Identifier",
-            "start": 4,
-            "end": 25,
             "decorators": [],
             "name": "v",
             "optional": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
-              "start": 5,
-              "end": 25,
               "typeAnnotation": {
                 "type": "TSTypeLiteral",
-                "start": 7,
-                "end": 25,
                 "members": [
                   {
                     "type": "TSMethodSignature",
-                    "start": 9,
-                    "end": 23,
                     "key": {
                       "type": "Identifier",
-                      "start": 10,
-                      "end": 11,
                       "decorators": [],
                       "name": "e",
                       "optional": false,
-                      "typeAnnotation": null
+                      "typeAnnotation": null,
+                      "start": 10,
+                      "end": 11
                     },
                     "computed": true,
                     "optional": true,
@@ -51,30 +37,44 @@ __ESTREE_TEST__:PASS:
                     "params": [],
                     "returnType": {
                       "type": "TSTypeAnnotation",
-                      "start": 15,
-                      "end": 23,
                       "typeAnnotation": {
                         "type": "TSNumberKeyword",
                         "start": 17,
                         "end": 23
-                      }
+                      },
+                      "start": 15,
+                      "end": 23
                     },
                     "accessibility": null,
                     "readonly": false,
-                    "static": false
+                    "static": false,
+                    "start": 9,
+                    "end": 23
                   }
-                ]
-              }
-            }
+                ],
+                "start": 7,
+                "end": 25
+              },
+              "start": 5,
+              "end": 25
+            },
+            "start": 4,
+            "end": 25
           },
           "init": null,
-          "definite": false
+          "definite": false,
+          "start": 4,
+          "end": 25
         }
       ],
-      "declare": false
+      "declare": false,
+      "start": 0,
+      "end": 26
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 26
 }
 ```

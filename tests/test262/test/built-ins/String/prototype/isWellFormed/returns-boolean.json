@@ -1,1161 +1,1161 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 1838,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 446,
-      "end": 513,
       "expression": {
         "type": "CallExpression",
-        "start": 446,
-        "end": 512,
         "callee": {
           "type": "MemberExpression",
-          "start": 446,
-          "end": 462,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 446,
-            "end": 452,
-            "name": "assert"
+            "end": 452
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 453,
-            "end": 462,
-            "name": "sameValue"
+            "end": 462
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 446,
+          "end": 462
         },
         "arguments": [
           {
             "type": "UnaryExpression",
-            "start": 463,
-            "end": 499,
             "operator": "typeof",
             "argument": {
               "type": "MemberExpression",
-              "start": 470,
-              "end": 499,
               "object": {
                 "type": "MemberExpression",
-                "start": 470,
-                "end": 486,
                 "object": {
                   "type": "Identifier",
+                  "name": "String",
                   "start": 470,
-                  "end": 476,
-                  "name": "String"
+                  "end": 476
                 },
                 "property": {
                   "type": "Identifier",
+                  "name": "prototype",
                   "start": 477,
-                  "end": 486,
-                  "name": "prototype"
+                  "end": 486
                 },
                 "optional": false,
-                "computed": false
+                "computed": false,
+                "start": 470,
+                "end": 486
               },
               "property": {
                 "type": "Identifier",
+                "name": "isWellFormed",
                 "start": 487,
-                "end": 499,
-                "name": "isWellFormed"
+                "end": 499
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 470,
+              "end": 499
             },
-            "prefix": true
+            "prefix": true,
+            "start": 463,
+            "end": 499
           },
           {
             "type": "Literal",
-            "start": 501,
-            "end": 511,
             "value": "function",
-            "raw": "'function'"
+            "raw": "'function'",
+            "start": 501,
+            "end": 511
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 446,
+        "end": 512
+      },
+      "start": 446,
+      "end": 513
     },
     {
       "type": "VariableDeclaration",
-      "start": 515,
-      "end": 541,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 519,
-          "end": 540,
           "id": {
             "type": "Identifier",
+            "name": "leadingPoo",
             "start": 519,
-            "end": 529,
-            "name": "leadingPoo"
+            "end": 529
           },
           "init": {
             "type": "Literal",
-            "start": 532,
-            "end": 540,
             "value": "\ud83d",
-            "raw": "'\\uD83D'"
-          }
+            "raw": "'\\uD83D'",
+            "start": 532,
+            "end": 540
+          },
+          "start": 519,
+          "end": 540
         }
-      ]
+      ],
+      "start": 515,
+      "end": 541
     },
     {
       "type": "VariableDeclaration",
-      "start": 542,
-      "end": 569,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 546,
-          "end": 568,
           "id": {
             "type": "Identifier",
+            "name": "trailingPoo",
             "start": 546,
-            "end": 557,
-            "name": "trailingPoo"
+            "end": 557
           },
           "init": {
             "type": "Literal",
-            "start": 560,
-            "end": 568,
             "value": "\udca9",
-            "raw": "'\\uDCA9'"
-          }
+            "raw": "'\\uDCA9'",
+            "start": 560,
+            "end": 568
+          },
+          "start": 546,
+          "end": 568
         }
-      ]
+      ],
+      "start": 542,
+      "end": 569
     },
     {
       "type": "VariableDeclaration",
-      "start": 570,
-      "end": 610,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 574,
-          "end": 609,
           "id": {
             "type": "Identifier",
+            "name": "wholePoo",
             "start": 574,
-            "end": 582,
-            "name": "wholePoo"
+            "end": 582
           },
           "init": {
             "type": "BinaryExpression",
-            "start": 585,
-            "end": 609,
             "left": {
               "type": "Identifier",
+              "name": "leadingPoo",
               "start": 585,
-              "end": 595,
-              "name": "leadingPoo"
+              "end": 595
             },
             "operator": "+",
             "right": {
               "type": "Identifier",
+              "name": "trailingPoo",
               "start": 598,
-              "end": 609,
-              "name": "trailingPoo"
-            }
-          }
+              "end": 609
+            },
+            "start": 585,
+            "end": 609
+          },
+          "start": 574,
+          "end": 609
         }
-      ]
+      ],
+      "start": 570,
+      "end": 610
     },
     {
       "type": "ExpressionStatement",
-      "start": 612,
-      "end": 751,
       "expression": {
         "type": "CallExpression",
-        "start": 612,
-        "end": 750,
         "callee": {
           "type": "MemberExpression",
-          "start": 612,
-          "end": 628,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 612,
-            "end": 618,
-            "name": "assert"
+            "end": 618
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 619,
-            "end": 628,
-            "name": "sameValue"
+            "end": 628
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 612,
+          "end": 628
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 632,
-            "end": 690,
             "callee": {
               "type": "MemberExpression",
-              "start": 632,
-              "end": 688,
               "object": {
                 "type": "ParenthesizedExpression",
-                "start": 632,
-                "end": 675,
                 "expression": {
                   "type": "BinaryExpression",
-                  "start": 633,
-                  "end": 674,
                   "left": {
                     "type": "BinaryExpression",
-                    "start": 633,
-                    "end": 668,
                     "left": {
                       "type": "BinaryExpression",
-                      "start": 633,
-                      "end": 655,
                       "left": {
                         "type": "BinaryExpression",
-                        "start": 633,
-                        "end": 649,
                         "left": {
                           "type": "Literal",
+                          "value": "a",
+                          "raw": "'a'",
                           "start": 633,
-                          "end": 636,
-                          "value": "a",
-                          "raw": "'a'"
+                          "end": 636
                         },
                         "operator": "+",
                         "right": {
                           "type": "Identifier",
+                          "name": "leadingPoo",
                           "start": 639,
-                          "end": 649,
-                          "name": "leadingPoo"
-                        }
+                          "end": 649
+                        },
+                        "start": 633,
+                        "end": 649
                       },
                       "operator": "+",
                       "right": {
                         "type": "Literal",
-                        "start": 652,
-                        "end": 655,
                         "value": "c",
-                        "raw": "'c'"
-                      }
+                        "raw": "'c'",
+                        "start": 652,
+                        "end": 655
+                      },
+                      "start": 633,
+                      "end": 655
                     },
                     "operator": "+",
                     "right": {
                       "type": "Identifier",
+                      "name": "leadingPoo",
                       "start": 658,
-                      "end": 668,
-                      "name": "leadingPoo"
-                    }
+                      "end": 668
+                    },
+                    "start": 633,
+                    "end": 668
                   },
                   "operator": "+",
                   "right": {
                     "type": "Literal",
-                    "start": 671,
-                    "end": 674,
                     "value": "e",
-                    "raw": "'e'"
-                  }
-                }
+                    "raw": "'e'",
+                    "start": 671,
+                    "end": 674
+                  },
+                  "start": 633,
+                  "end": 674
+                },
+                "start": 632,
+                "end": 675
               },
               "property": {
                 "type": "Identifier",
+                "name": "isWellFormed",
                 "start": 676,
-                "end": 688,
-                "name": "isWellFormed"
+                "end": 688
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 632,
+              "end": 688
             },
             "arguments": [],
-            "optional": false
+            "optional": false,
+            "start": 632,
+            "end": 690
           },
           {
             "type": "Literal",
-            "start": 694,
-            "end": 699,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "start": 694,
+            "end": 699
           },
           {
             "type": "Literal",
-            "start": 703,
-            "end": 748,
             "value": "lone leading surrogates are not well-formed",
-            "raw": "'lone leading surrogates are not well-formed'"
+            "raw": "'lone leading surrogates are not well-formed'",
+            "start": 703,
+            "end": 748
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 612,
+        "end": 750
+      },
+      "start": 612,
+      "end": 751
     },
     {
       "type": "ExpressionStatement",
-      "start": 752,
-      "end": 894,
       "expression": {
         "type": "CallExpression",
-        "start": 752,
-        "end": 893,
         "callee": {
           "type": "MemberExpression",
-          "start": 752,
-          "end": 768,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 752,
-            "end": 758,
-            "name": "assert"
+            "end": 758
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 759,
-            "end": 768,
-            "name": "sameValue"
+            "end": 768
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 752,
+          "end": 768
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 772,
-            "end": 832,
             "callee": {
               "type": "MemberExpression",
-              "start": 772,
-              "end": 830,
               "object": {
                 "type": "ParenthesizedExpression",
-                "start": 772,
-                "end": 817,
                 "expression": {
                   "type": "BinaryExpression",
-                  "start": 773,
-                  "end": 816,
                   "left": {
                     "type": "BinaryExpression",
-                    "start": 773,
-                    "end": 810,
                     "left": {
                       "type": "BinaryExpression",
-                      "start": 773,
-                      "end": 796,
                       "left": {
                         "type": "BinaryExpression",
-                        "start": 773,
-                        "end": 790,
                         "left": {
                           "type": "Literal",
-                          "start": 773,
-                          "end": 776,
                           "value": "a",
-                          "raw": "'a'"
+                          "raw": "'a'",
+                          "start": 773,
+                          "end": 776
                         },
                         "operator": "+",
                         "right": {
                           "type": "Identifier",
+                          "name": "trailingPoo",
                           "start": 779,
-                          "end": 790,
-                          "name": "trailingPoo"
-                        }
+                          "end": 790
+                        },
+                        "start": 773,
+                        "end": 790
                       },
                       "operator": "+",
                       "right": {
                         "type": "Literal",
-                        "start": 793,
-                        "end": 796,
                         "value": "c",
-                        "raw": "'c'"
-                      }
+                        "raw": "'c'",
+                        "start": 793,
+                        "end": 796
+                      },
+                      "start": 773,
+                      "end": 796
                     },
                     "operator": "+",
                     "right": {
                       "type": "Identifier",
+                      "name": "trailingPoo",
                       "start": 799,
-                      "end": 810,
-                      "name": "trailingPoo"
-                    }
+                      "end": 810
+                    },
+                    "start": 773,
+                    "end": 810
                   },
                   "operator": "+",
                   "right": {
                     "type": "Literal",
-                    "start": 813,
-                    "end": 816,
                     "value": "e",
-                    "raw": "'e'"
-                  }
-                }
+                    "raw": "'e'",
+                    "start": 813,
+                    "end": 816
+                  },
+                  "start": 773,
+                  "end": 816
+                },
+                "start": 772,
+                "end": 817
               },
               "property": {
                 "type": "Identifier",
+                "name": "isWellFormed",
                 "start": 818,
-                "end": 830,
-                "name": "isWellFormed"
+                "end": 830
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 772,
+              "end": 830
             },
             "arguments": [],
-            "optional": false
+            "optional": false,
+            "start": 772,
+            "end": 832
           },
           {
             "type": "Literal",
+            "value": false,
+            "raw": "false",
             "start": 836,
-            "end": 841,
-            "value": false,
-            "raw": "false"
+            "end": 841
           },
           {
             "type": "Literal",
-            "start": 845,
-            "end": 891,
             "value": "lone trailing surrogates are not well-formed",
-            "raw": "'lone trailing surrogates are not well-formed'"
+            "raw": "'lone trailing surrogates are not well-formed'",
+            "start": 845,
+            "end": 891
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 752,
+        "end": 893
+      },
+      "start": 752,
+      "end": 894
     },
     {
       "type": "ExpressionStatement",
-      "start": 895,
-      "end": 1034,
       "expression": {
         "type": "CallExpression",
-        "start": 895,
-        "end": 1034,
         "callee": {
           "type": "MemberExpression",
-          "start": 895,
-          "end": 911,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 895,
-            "end": 901,
-            "name": "assert"
+            "end": 901
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 902,
-            "end": 911,
-            "name": "sameValue"
+            "end": 911
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 895,
+          "end": 911
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 915,
-            "end": 968,
             "callee": {
               "type": "MemberExpression",
-              "start": 915,
-              "end": 966,
               "object": {
                 "type": "ParenthesizedExpression",
-                "start": 915,
-                "end": 953,
                 "expression": {
                   "type": "BinaryExpression",
-                  "start": 916,
-                  "end": 952,
                   "left": {
                     "type": "BinaryExpression",
-                    "start": 916,
-                    "end": 946,
                     "left": {
                       "type": "BinaryExpression",
-                      "start": 916,
-                      "end": 933,
                       "left": {
                         "type": "Literal",
+                        "value": "a",
+                        "raw": "'a'",
                         "start": 916,
-                        "end": 919,
-                        "value": "a",
-                        "raw": "'a'"
+                        "end": 919
                       },
                       "operator": "+",
                       "right": {
                         "type": "Identifier",
+                        "name": "trailingPoo",
                         "start": 922,
-                        "end": 933,
-                        "name": "trailingPoo"
-                      }
+                        "end": 933
+                      },
+                      "start": 916,
+                      "end": 933
                     },
                     "operator": "+",
                     "right": {
                       "type": "Identifier",
+                      "name": "leadingPoo",
                       "start": 936,
-                      "end": 946,
-                      "name": "leadingPoo"
-                    }
+                      "end": 946
+                    },
+                    "start": 916,
+                    "end": 946
                   },
                   "operator": "+",
                   "right": {
                     "type": "Literal",
-                    "start": 949,
-                    "end": 952,
                     "value": "d",
-                    "raw": "'d'"
-                  }
-                }
+                    "raw": "'d'",
+                    "start": 949,
+                    "end": 952
+                  },
+                  "start": 916,
+                  "end": 952
+                },
+                "start": 915,
+                "end": 953
               },
               "property": {
                 "type": "Identifier",
+                "name": "isWellFormed",
                 "start": 954,
-                "end": 966,
-                "name": "isWellFormed"
+                "end": 966
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 915,
+              "end": 966
             },
             "arguments": [],
-            "optional": false
+            "optional": false,
+            "start": 915,
+            "end": 968
           },
           {
             "type": "Literal",
-            "start": 972,
-            "end": 977,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "start": 972,
+            "end": 977
           },
           {
             "type": "Literal",
-            "start": 981,
-            "end": 1032,
             "value": "a wrong-ordered surrogate pair is not well-formed",
-            "raw": "'a wrong-ordered surrogate pair is not well-formed'"
+            "raw": "'a wrong-ordered surrogate pair is not well-formed'",
+            "start": 981,
+            "end": 1032
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 895,
+        "end": 1034
+      },
+      "start": 895,
+      "end": 1034
     },
     {
       "type": "ExpressionStatement",
-      "start": 1036,
-      "end": 1144,
       "expression": {
         "type": "CallExpression",
-        "start": 1036,
-        "end": 1143,
         "callee": {
           "type": "MemberExpression",
-          "start": 1036,
-          "end": 1052,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 1036,
-            "end": 1042,
-            "name": "assert"
+            "end": 1042
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 1043,
-            "end": 1052,
-            "name": "sameValue"
+            "end": 1052
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 1036,
+          "end": 1052
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 1053,
-            "end": 1074,
             "callee": {
               "type": "MemberExpression",
-              "start": 1053,
-              "end": 1072,
               "object": {
                 "type": "Literal",
+                "value": "a💩c",
+                "raw": "'a💩c'",
                 "start": 1053,
-                "end": 1059,
-                "value": "a💩c",
-                "raw": "'a💩c'"
+                "end": 1059
               },
               "property": {
                 "type": "Identifier",
+                "name": "isWellFormed",
                 "start": 1060,
-                "end": 1072,
-                "name": "isWellFormed"
+                "end": 1072
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 1053,
+              "end": 1072
             },
             "arguments": [],
-            "optional": false
+            "optional": false,
+            "start": 1053,
+            "end": 1074
           },
           {
             "type": "Literal",
-            "start": 1076,
-            "end": 1080,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "start": 1076,
+            "end": 1080
           },
           {
             "type": "Literal",
-            "start": 1082,
-            "end": 1142,
             "value": "a surrogate pair using a literal code point is well-formed",
-            "raw": "'a surrogate pair using a literal code point is well-formed'"
+            "raw": "'a surrogate pair using a literal code point is well-formed'",
+            "start": 1082,
+            "end": 1142
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 1036,
+        "end": 1143
+      },
+      "start": 1036,
+      "end": 1144
     },
     {
       "type": "ExpressionStatement",
-      "start": 1145,
-      "end": 1263,
       "expression": {
         "type": "CallExpression",
-        "start": 1145,
-        "end": 1262,
         "callee": {
           "type": "MemberExpression",
-          "start": 1145,
-          "end": 1161,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 1145,
-            "end": 1151,
-            "name": "assert"
+            "end": 1151
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 1152,
-            "end": 1161,
-            "name": "sameValue"
+            "end": 1161
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 1145,
+          "end": 1161
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 1162,
-            "end": 1193,
             "callee": {
               "type": "MemberExpression",
-              "start": 1162,
-              "end": 1191,
               "object": {
                 "type": "Literal",
-                "start": 1162,
-                "end": 1178,
                 "value": "a💩c",
-                "raw": "'a\\uD83D\\uDCA9c'"
+                "raw": "'a\\uD83D\\uDCA9c'",
+                "start": 1162,
+                "end": 1178
               },
               "property": {
                 "type": "Identifier",
+                "name": "isWellFormed",
                 "start": 1179,
-                "end": 1191,
-                "name": "isWellFormed"
+                "end": 1191
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 1162,
+              "end": 1191
             },
             "arguments": [],
-            "optional": false
+            "optional": false,
+            "start": 1162,
+            "end": 1193
           },
           {
             "type": "Literal",
-            "start": 1195,
-            "end": 1199,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "start": 1195,
+            "end": 1199
           },
           {
             "type": "Literal",
-            "start": 1201,
-            "end": 1261,
             "value": "a surrogate pair formed by escape sequences is well-formed",
-            "raw": "'a surrogate pair formed by escape sequences is well-formed'"
+            "raw": "'a surrogate pair formed by escape sequences is well-formed'",
+            "start": 1201,
+            "end": 1261
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 1145,
+        "end": 1262
+      },
+      "start": 1145,
+      "end": 1263
     },
     {
       "type": "ExpressionStatement",
-      "start": 1264,
-      "end": 1401,
       "expression": {
         "type": "CallExpression",
-        "start": 1264,
-        "end": 1400,
         "callee": {
           "type": "MemberExpression",
-          "start": 1264,
-          "end": 1280,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 1264,
-            "end": 1270,
-            "name": "assert"
+            "end": 1270
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 1271,
-            "end": 1280,
-            "name": "sameValue"
+            "end": 1280
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 1264,
+          "end": 1280
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 1281,
-            "end": 1334,
             "callee": {
               "type": "MemberExpression",
-              "start": 1281,
-              "end": 1332,
               "object": {
                 "type": "ParenthesizedExpression",
-                "start": 1281,
-                "end": 1319,
                 "expression": {
                   "type": "BinaryExpression",
-                  "start": 1282,
-                  "end": 1318,
                   "left": {
                     "type": "BinaryExpression",
-                    "start": 1282,
-                    "end": 1312,
                     "left": {
                       "type": "BinaryExpression",
-                      "start": 1282,
-                      "end": 1298,
                       "left": {
                         "type": "Literal",
-                        "start": 1282,
-                        "end": 1285,
                         "value": "a",
-                        "raw": "'a'"
+                        "raw": "'a'",
+                        "start": 1282,
+                        "end": 1285
                       },
                       "operator": "+",
                       "right": {
                         "type": "Identifier",
+                        "name": "leadingPoo",
                         "start": 1288,
-                        "end": 1298,
-                        "name": "leadingPoo"
-                      }
+                        "end": 1298
+                      },
+                      "start": 1282,
+                      "end": 1298
                     },
                     "operator": "+",
                     "right": {
                       "type": "Identifier",
+                      "name": "trailingPoo",
                       "start": 1301,
-                      "end": 1312,
-                      "name": "trailingPoo"
-                    }
+                      "end": 1312
+                    },
+                    "start": 1282,
+                    "end": 1312
                   },
                   "operator": "+",
                   "right": {
                     "type": "Literal",
-                    "start": 1315,
-                    "end": 1318,
                     "value": "d",
-                    "raw": "'d'"
-                  }
-                }
+                    "raw": "'d'",
+                    "start": 1315,
+                    "end": 1318
+                  },
+                  "start": 1282,
+                  "end": 1318
+                },
+                "start": 1281,
+                "end": 1319
               },
               "property": {
                 "type": "Identifier",
+                "name": "isWellFormed",
                 "start": 1320,
-                "end": 1332,
-                "name": "isWellFormed"
+                "end": 1332
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 1281,
+              "end": 1332
             },
             "arguments": [],
-            "optional": false
+            "optional": false,
+            "start": 1281,
+            "end": 1334
           },
           {
             "type": "Literal",
+            "value": true,
+            "raw": "true",
             "start": 1336,
-            "end": 1340,
-            "value": true,
-            "raw": "true"
+            "end": 1340
           },
           {
             "type": "Literal",
-            "start": 1342,
-            "end": 1399,
             "value": "a surrogate pair formed by concatenation is well-formed",
-            "raw": "'a surrogate pair formed by concatenation is well-formed'"
+            "raw": "'a surrogate pair formed by concatenation is well-formed'",
+            "start": 1342,
+            "end": 1399
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 1264,
+        "end": 1400
+      },
+      "start": 1264,
+      "end": 1401
     },
     {
       "type": "ExpressionStatement",
-      "start": 1402,
-      "end": 1534,
       "expression": {
         "type": "CallExpression",
-        "start": 1402,
-        "end": 1533,
         "callee": {
           "type": "MemberExpression",
-          "start": 1402,
-          "end": 1418,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 1402,
-            "end": 1408,
-            "name": "assert"
+            "end": 1408
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 1409,
-            "end": 1418,
-            "name": "sameValue"
+            "end": 1418
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 1402,
+          "end": 1418
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 1419,
-            "end": 1454,
             "callee": {
               "type": "MemberExpression",
-              "start": 1419,
-              "end": 1452,
               "object": {
                 "type": "CallExpression",
-                "start": 1419,
-                "end": 1439,
                 "callee": {
                   "type": "MemberExpression",
-                  "start": 1419,
-                  "end": 1433,
                   "object": {
                     "type": "Identifier",
+                    "name": "wholePoo",
                     "start": 1419,
-                    "end": 1427,
-                    "name": "wholePoo"
+                    "end": 1427
                   },
                   "property": {
                     "type": "Identifier",
+                    "name": "slice",
                     "start": 1428,
-                    "end": 1433,
-                    "name": "slice"
+                    "end": 1433
                   },
                   "optional": false,
-                  "computed": false
+                  "computed": false,
+                  "start": 1419,
+                  "end": 1433
                 },
                 "arguments": [
                   {
                     "type": "Literal",
-                    "start": 1434,
-                    "end": 1435,
                     "value": 0,
-                    "raw": "0"
+                    "raw": "0",
+                    "start": 1434,
+                    "end": 1435
                   },
                   {
                     "type": "Literal",
-                    "start": 1437,
-                    "end": 1438,
                     "value": 1,
-                    "raw": "1"
+                    "raw": "1",
+                    "start": 1437,
+                    "end": 1438
                   }
                 ],
-                "optional": false
+                "optional": false,
+                "start": 1419,
+                "end": 1439
               },
               "property": {
                 "type": "Identifier",
+                "name": "isWellFormed",
                 "start": 1440,
-                "end": 1452,
-                "name": "isWellFormed"
+                "end": 1452
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 1419,
+              "end": 1452
             },
             "arguments": [],
-            "optional": false
+            "optional": false,
+            "start": 1419,
+            "end": 1454
           },
           {
             "type": "Literal",
-            "start": 1456,
-            "end": 1461,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "start": 1456,
+            "end": 1461
           },
           {
             "type": "Literal",
-            "start": 1463,
-            "end": 1532,
             "value": "a surrogate pair sliced to the leading surrogate is not well-formed",
-            "raw": "'a surrogate pair sliced to the leading surrogate is not well-formed'"
+            "raw": "'a surrogate pair sliced to the leading surrogate is not well-formed'",
+            "start": 1463,
+            "end": 1532
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 1402,
+        "end": 1533
+      },
+      "start": 1402,
+      "end": 1534
     },
     {
       "type": "ExpressionStatement",
-      "start": 1535,
-      "end": 1665,
       "expression": {
         "type": "CallExpression",
-        "start": 1535,
-        "end": 1664,
         "callee": {
           "type": "MemberExpression",
-          "start": 1535,
-          "end": 1551,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 1535,
-            "end": 1541,
-            "name": "assert"
+            "end": 1541
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 1542,
-            "end": 1551,
-            "name": "sameValue"
+            "end": 1551
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 1535,
+          "end": 1551
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 1552,
-            "end": 1584,
             "callee": {
               "type": "MemberExpression",
-              "start": 1552,
-              "end": 1582,
               "object": {
                 "type": "CallExpression",
-                "start": 1552,
-                "end": 1569,
                 "callee": {
                   "type": "MemberExpression",
-                  "start": 1552,
-                  "end": 1566,
                   "object": {
                     "type": "Identifier",
+                    "name": "wholePoo",
                     "start": 1552,
-                    "end": 1560,
-                    "name": "wholePoo"
+                    "end": 1560
                   },
                   "property": {
                     "type": "Identifier",
+                    "name": "slice",
                     "start": 1561,
-                    "end": 1566,
-                    "name": "slice"
+                    "end": 1566
                   },
                   "optional": false,
-                  "computed": false
+                  "computed": false,
+                  "start": 1552,
+                  "end": 1566
                 },
                 "arguments": [
                   {
                     "type": "Literal",
-                    "start": 1567,
-                    "end": 1568,
                     "value": 1,
-                    "raw": "1"
+                    "raw": "1",
+                    "start": 1567,
+                    "end": 1568
                   }
                 ],
-                "optional": false
+                "optional": false,
+                "start": 1552,
+                "end": 1569
               },
               "property": {
                 "type": "Identifier",
+                "name": "isWellFormed",
                 "start": 1570,
-                "end": 1582,
-                "name": "isWellFormed"
+                "end": 1582
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 1552,
+              "end": 1582
             },
             "arguments": [],
-            "optional": false
+            "optional": false,
+            "start": 1552,
+            "end": 1584
           },
           {
             "type": "Literal",
-            "start": 1586,
-            "end": 1591,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "start": 1586,
+            "end": 1591
           },
           {
             "type": "Literal",
-            "start": 1593,
-            "end": 1663,
             "value": "a surrogate pair sliced to the trailing surrogate is not well-formed",
-            "raw": "'a surrogate pair sliced to the trailing surrogate is not well-formed'"
+            "raw": "'a surrogate pair sliced to the trailing surrogate is not well-formed'",
+            "start": 1593,
+            "end": 1663
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 1535,
+        "end": 1664
+      },
+      "start": 1535,
+      "end": 1665
     },
     {
       "type": "ExpressionStatement",
-      "start": 1666,
-      "end": 1746,
       "expression": {
         "type": "CallExpression",
-        "start": 1666,
-        "end": 1745,
         "callee": {
           "type": "MemberExpression",
-          "start": 1666,
-          "end": 1682,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 1666,
-            "end": 1672,
-            "name": "assert"
+            "end": 1672
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 1673,
-            "end": 1682,
-            "name": "sameValue"
+            "end": 1682
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 1666,
+          "end": 1682
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 1683,
-            "end": 1703,
             "callee": {
               "type": "MemberExpression",
-              "start": 1683,
-              "end": 1701,
               "object": {
                 "type": "Literal",
-                "start": 1683,
-                "end": 1688,
                 "value": "abc",
-                "raw": "'abc'"
+                "raw": "'abc'",
+                "start": 1683,
+                "end": 1688
               },
               "property": {
                 "type": "Identifier",
+                "name": "isWellFormed",
                 "start": 1689,
-                "end": 1701,
-                "name": "isWellFormed"
+                "end": 1701
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 1683,
+              "end": 1701
             },
             "arguments": [],
-            "optional": false
+            "optional": false,
+            "start": 1683,
+            "end": 1703
           },
           {
             "type": "Literal",
-            "start": 1705,
-            "end": 1709,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "start": 1705,
+            "end": 1709
           },
           {
             "type": "Literal",
-            "start": 1711,
-            "end": 1744,
             "value": "a latin-1 string is well-formed",
-            "raw": "'a latin-1 string is well-formed'"
+            "raw": "'a latin-1 string is well-formed'",
+            "start": 1711,
+            "end": 1744
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 1666,
+        "end": 1745
+      },
+      "start": 1666,
+      "end": 1746
     },
     {
       "type": "ExpressionStatement",
-      "start": 1747,
-      "end": 1837,
       "expression": {
         "type": "CallExpression",
-        "start": 1747,
-        "end": 1836,
         "callee": {
           "type": "MemberExpression",
-          "start": 1747,
-          "end": 1763,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 1747,
-            "end": 1753,
-            "name": "assert"
+            "end": 1753
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 1754,
-            "end": 1763,
-            "name": "sameValue"
+            "end": 1763
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 1747,
+          "end": 1763
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 1764,
-            "end": 1789,
             "callee": {
               "type": "MemberExpression",
-              "start": 1764,
-              "end": 1787,
               "object": {
                 "type": "Literal",
-                "start": 1764,
-                "end": 1774,
                 "value": "a▨c",
-                "raw": "'a\\u25A8c'"
+                "raw": "'a\\u25A8c'",
+                "start": 1764,
+                "end": 1774
               },
               "property": {
                 "type": "Identifier",
+                "name": "isWellFormed",
                 "start": 1775,
-                "end": 1787,
-                "name": "isWellFormed"
+                "end": 1787
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 1764,
+              "end": 1787
             },
             "arguments": [],
-            "optional": false
+            "optional": false,
+            "start": 1764,
+            "end": 1789
           },
           {
             "type": "Literal",
-            "start": 1791,
-            "end": 1795,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "start": 1791,
+            "end": 1795
           },
           {
             "type": "Literal",
-            "start": 1797,
-            "end": 1835,
             "value": "a non-ASCII character is well-formed",
-            "raw": "'a non-ASCII character is well-formed'"
+            "raw": "'a non-ASCII character is well-formed'",
+            "start": 1797,
+            "end": 1835
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 1747,
+        "end": 1836
+      },
+      "start": 1747,
+      "end": 1837
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 1838
 }

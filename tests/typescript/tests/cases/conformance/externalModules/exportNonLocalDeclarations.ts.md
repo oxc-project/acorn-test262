@@ -2,81 +2,81 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 42,
   "body": [
     {
       "type": "ExportNamedDeclaration",
-      "start": 0,
-      "end": 18,
       "declaration": null,
       "specifiers": [
         {
           "type": "ExportSpecifier",
-          "start": 9,
-          "end": 15,
           "local": {
             "type": "Identifier",
-            "start": 9,
-            "end": 15,
             "decorators": [],
             "name": "string",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 9,
+            "end": 15
           },
           "exported": {
             "type": "Identifier",
-            "start": 9,
-            "end": 15,
             "decorators": [],
             "name": "string",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 9,
+            "end": 15
           },
-          "exportKind": "value"
+          "exportKind": "value",
+          "start": 9,
+          "end": 15
         }
       ],
       "source": null,
       "exportKind": "value",
-      "attributes": []
+      "attributes": [],
+      "start": 0,
+      "end": 18
     },
     {
       "type": "ExportNamedDeclaration",
-      "start": 19,
-      "end": 42,
       "declaration": null,
       "specifiers": [
         {
           "type": "ExportSpecifier",
-          "start": 33,
-          "end": 39,
           "local": {
             "type": "Identifier",
-            "start": 33,
-            "end": 39,
             "decorators": [],
             "name": "number",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 33,
+            "end": 39
           },
           "exported": {
             "type": "Identifier",
-            "start": 33,
-            "end": 39,
             "decorators": [],
             "name": "number",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 33,
+            "end": 39
           },
-          "exportKind": "value"
+          "exportKind": "value",
+          "start": 33,
+          "end": 39
         }
       ],
       "source": null,
       "exportKind": "type",
-      "attributes": []
+      "attributes": [],
+      "start": 19,
+      "end": 42
     }
   ],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 42
 }
 ```

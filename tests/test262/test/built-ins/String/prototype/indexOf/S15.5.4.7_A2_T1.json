@@ -1,148 +1,148 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 622,
   "body": [
     {
       "type": "IfStatement",
-      "start": 397,
-      "end": 539,
       "test": {
         "type": "BinaryExpression",
-        "start": 401,
-        "end": 432,
         "left": {
           "type": "CallExpression",
-          "start": 401,
-          "end": 425,
           "callee": {
             "type": "MemberExpression",
-            "start": 401,
-            "end": 415,
             "object": {
               "type": "Literal",
-              "start": 401,
-              "end": 407,
               "value": "abcd",
-              "raw": "\"abcd\""
+              "raw": "\"abcd\"",
+              "start": 401,
+              "end": 407
             },
             "property": {
               "type": "Identifier",
+              "name": "indexOf",
               "start": 408,
-              "end": 415,
-              "name": "indexOf"
+              "end": 415
             },
             "optional": false,
-            "computed": false
+            "computed": false,
+            "start": 401,
+            "end": 415
           },
           "arguments": [
             {
               "type": "Literal",
-              "start": 416,
-              "end": 424,
               "value": "abcdab",
-              "raw": "\"abcdab\""
+              "raw": "\"abcdab\"",
+              "start": 416,
+              "end": 424
             }
           ],
-          "optional": false
+          "optional": false,
+          "start": 401,
+          "end": 425
         },
         "operator": "!==",
         "right": {
           "type": "UnaryExpression",
-          "start": 430,
-          "end": 432,
           "operator": "-",
           "argument": {
             "type": "Literal",
-            "start": 431,
-            "end": 432,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "start": 431,
+            "end": 432
           },
-          "prefix": true
-        }
+          "prefix": true,
+          "start": 430,
+          "end": 432
+        },
+        "start": 401,
+        "end": 432
       },
       "consequent": {
         "type": "BlockStatement",
-        "start": 434,
-        "end": 539,
         "body": [
           {
             "type": "ThrowStatement",
-            "start": 438,
-            "end": 537,
             "argument": {
               "type": "NewExpression",
-              "start": 444,
-              "end": 536,
               "callee": {
                 "type": "Identifier",
+                "name": "Test262Error",
                 "start": 448,
-                "end": 460,
-                "name": "Test262Error"
+                "end": 460
               },
               "arguments": [
                 {
                   "type": "BinaryExpression",
-                  "start": 461,
-                  "end": 535,
                   "left": {
                     "type": "Literal",
-                    "start": 461,
-                    "end": 506,
                     "value": "#1: \"abcd\".indexOf(\"abcdab\")===-1. Actual: ",
-                    "raw": "'#1: \"abcd\".indexOf(\"abcdab\")===-1. Actual: '"
+                    "raw": "'#1: \"abcd\".indexOf(\"abcdab\")===-1. Actual: '",
+                    "start": 461,
+                    "end": 506
                   },
                   "operator": "+",
                   "right": {
                     "type": "ParenthesizedExpression",
-                    "start": 509,
-                    "end": 535,
                     "expression": {
                       "type": "CallExpression",
-                      "start": 510,
-                      "end": 534,
                       "callee": {
                         "type": "MemberExpression",
-                        "start": 510,
-                        "end": 524,
                         "object": {
                           "type": "Literal",
-                          "start": 510,
-                          "end": 516,
                           "value": "abcd",
-                          "raw": "\"abcd\""
+                          "raw": "\"abcd\"",
+                          "start": 510,
+                          "end": 516
                         },
                         "property": {
                           "type": "Identifier",
+                          "name": "indexOf",
                           "start": 517,
-                          "end": 524,
-                          "name": "indexOf"
+                          "end": 524
                         },
                         "optional": false,
-                        "computed": false
+                        "computed": false,
+                        "start": 510,
+                        "end": 524
                       },
                       "arguments": [
                         {
                           "type": "Literal",
-                          "start": 525,
-                          "end": 533,
                           "value": "abcdab",
-                          "raw": "\"abcdab\""
+                          "raw": "\"abcdab\"",
+                          "start": 525,
+                          "end": 533
                         }
                       ],
-                      "optional": false
-                    }
-                  }
+                      "optional": false,
+                      "start": 510,
+                      "end": 534
+                    },
+                    "start": 509,
+                    "end": 535
+                  },
+                  "start": 461,
+                  "end": 535
                 }
-              ]
-            }
+              ],
+              "start": 444,
+              "end": 536
+            },
+            "start": 438,
+            "end": 537
           }
-        ]
+        ],
+        "start": 434,
+        "end": 539
       },
-      "alternate": null
+      "alternate": null,
+      "start": 397,
+      "end": 539
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 622
 }

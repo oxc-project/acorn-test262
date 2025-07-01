@@ -1,93 +1,93 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 1515,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 1131,
-      "end": 1514,
       "expression": {
         "type": "CallExpression",
-        "start": 1131,
-        "end": 1513,
         "callee": {
           "type": "ParenthesizedExpression",
-          "start": 1131,
-          "end": 1139,
           "expression": {
             "type": "SequenceExpression",
-            "start": 1132,
-            "end": 1138,
             "expressions": [
               {
                 "type": "Literal",
-                "start": 1132,
-                "end": 1133,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "start": 1132,
+                "end": 1133
               },
               {
                 "type": "Identifier",
+                "name": "eval",
                 "start": 1134,
-                "end": 1138,
-                "name": "eval"
+                "end": 1138
               }
-            ]
-          }
+            ],
+            "start": 1132,
+            "end": 1138
+          },
+          "start": 1131,
+          "end": 1139
         },
         "arguments": [
           {
             "type": "BinaryExpression",
-            "start": 1143,
-            "end": 1511,
             "left": {
               "type": "BinaryExpression",
-              "start": 1143,
-              "end": 1351,
               "left": {
                 "type": "BinaryExpression",
-                "start": 1143,
-                "end": 1312,
                 "left": {
                   "type": "Literal",
-                  "start": 1143,
-                  "end": 1296,
                   "value": "assert.sameValue(    f, undefined, \"Initialized binding created prior to evaluation\"  );    try {    throw null;  } catch (f) {switch (1) {",
-                  "raw": "'assert.sameValue(\\\n    f, undefined, \"Initialized binding created prior to evaluation\"\\\n  );\\\n  \\\n  try {\\\n    throw null;\\\n  } catch (f) {switch (1) {'"
+                  "raw": "'assert.sameValue(\\\n    f, undefined, \"Initialized binding created prior to evaluation\"\\\n  );\\\n  \\\n  try {\\\n    throw null;\\\n  } catch (f) {switch (1) {'",
+                  "start": 1143,
+                  "end": 1296
                 },
                 "operator": "+",
                 "right": {
                   "type": "Literal",
-                  "start": 1301,
-                  "end": 1312,
                   "value": "  case 1:",
-                  "raw": "'  case 1:'"
-                }
+                  "raw": "'  case 1:'",
+                  "start": 1301,
+                  "end": 1312
+                },
+                "start": 1143,
+                "end": 1312
               },
               "operator": "+",
               "right": {
                 "type": "Literal",
-                "start": 1317,
-                "end": 1351,
                 "value": "    function f() { return 123; }",
-                "raw": "'    function f() { return 123; }'"
-              }
+                "raw": "'    function f() { return 123; }'",
+                "start": 1317,
+                "end": 1351
+              },
+              "start": 1143,
+              "end": 1351
             },
             "operator": "+",
             "right": {
               "type": "Literal",
-              "start": 1356,
-              "end": 1511,
               "value": "}  }    assert.sameValue(    typeof f,    \"function\",    \"binding value is updated following evaluation\"  );  assert.sameValue(f(), 123);",
-              "raw": "'}\\\n  }\\\n  \\\n  assert.sameValue(\\\n    typeof f,\\\n    \"function\",\\\n    \"binding value is updated following evaluation\"\\\n  );\\\n  assert.sameValue(f(), 123);'"
-            }
+              "raw": "'}\\\n  }\\\n  \\\n  assert.sameValue(\\\n    typeof f,\\\n    \"function\",\\\n    \"binding value is updated following evaluation\"\\\n  );\\\n  assert.sameValue(f(), 123);'",
+              "start": 1356,
+              "end": 1511
+            },
+            "start": 1143,
+            "end": 1511
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 1131,
+        "end": 1513
+      },
+      "start": 1131,
+      "end": 1514
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 1515
 }

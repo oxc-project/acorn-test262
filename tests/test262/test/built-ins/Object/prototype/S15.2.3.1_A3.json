@@ -1,314 +1,314 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 799,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 264,
-      "end": 307,
       "expression": {
         "type": "CallExpression",
-        "start": 264,
-        "end": 306,
         "callee": {
           "type": "Identifier",
+          "name": "verifyNotConfigurable",
           "start": 264,
-          "end": 285,
-          "name": "verifyNotConfigurable"
+          "end": 285
         },
         "arguments": [
           {
             "type": "Identifier",
+            "name": "Object",
             "start": 286,
-            "end": 292,
-            "name": "Object"
+            "end": 292
           },
           {
             "type": "Literal",
-            "start": 294,
-            "end": 305,
             "value": "prototype",
-            "raw": "\"prototype\""
+            "raw": "\"prototype\"",
+            "start": 294,
+            "end": 305
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 264,
+        "end": 306
+      },
+      "start": 264,
+      "end": 307
     },
     {
       "type": "TryStatement",
-      "start": 309,
-      "end": 610,
       "block": {
         "type": "BlockStatement",
-        "start": 313,
-        "end": 434,
         "body": [
           {
             "type": "ExpressionStatement",
-            "start": 317,
-            "end": 432,
             "expression": {
               "type": "CallExpression",
-              "start": 317,
-              "end": 431,
               "callee": {
                 "type": "MemberExpression",
-                "start": 317,
-                "end": 333,
                 "object": {
                   "type": "Identifier",
+                  "name": "assert",
                   "start": 317,
-                  "end": 323,
-                  "name": "assert"
+                  "end": 323
                 },
                 "property": {
                   "type": "Identifier",
+                  "name": "sameValue",
                   "start": 324,
-                  "end": 333,
-                  "name": "sameValue"
+                  "end": 333
                 },
                 "optional": false,
-                "computed": false
+                "computed": false,
+                "start": 317,
+                "end": 333
               },
               "arguments": [
                 {
                   "type": "UnaryExpression",
-                  "start": 334,
-                  "end": 357,
                   "operator": "delete",
                   "argument": {
                     "type": "MemberExpression",
-                    "start": 341,
-                    "end": 357,
                     "object": {
                       "type": "Identifier",
+                      "name": "Object",
                       "start": 341,
-                      "end": 347,
-                      "name": "Object"
+                      "end": 347
                     },
                     "property": {
                       "type": "Identifier",
+                      "name": "prototype",
                       "start": 348,
-                      "end": 357,
-                      "name": "prototype"
+                      "end": 357
                     },
                     "optional": false,
-                    "computed": false
+                    "computed": false,
+                    "start": 341,
+                    "end": 357
                   },
-                  "prefix": true
+                  "prefix": true,
+                  "start": 334,
+                  "end": 357
                 },
                 {
                   "type": "Literal",
-                  "start": 359,
-                  "end": 364,
                   "value": false,
-                  "raw": "false"
+                  "raw": "false",
+                  "start": 359,
+                  "end": 364
                 },
                 {
                   "type": "Literal",
-                  "start": 366,
-                  "end": 430,
                   "value": "The value of `delete Object.prototype` is expected to be false",
-                  "raw": "'The value of `delete Object.prototype` is expected to be false'"
+                  "raw": "'The value of `delete Object.prototype` is expected to be false'",
+                  "start": 366,
+                  "end": 430
                 }
               ],
-              "optional": false
-            }
+              "optional": false,
+              "start": 317,
+              "end": 431
+            },
+            "start": 317,
+            "end": 432
           }
-        ]
+        ],
+        "start": 313,
+        "end": 434
       },
       "handler": {
         "type": "CatchClause",
-        "start": 435,
-        "end": 610,
         "param": {
           "type": "Identifier",
+          "name": "e",
           "start": 442,
-          "end": 443,
-          "name": "e"
+          "end": 443
         },
         "body": {
           "type": "BlockStatement",
-          "start": 445,
-          "end": 610,
           "body": [
             {
               "type": "IfStatement",
-              "start": 449,
-              "end": 498,
               "test": {
                 "type": "BinaryExpression",
-                "start": 453,
-                "end": 478,
                 "left": {
                   "type": "Identifier",
+                  "name": "e",
                   "start": 453,
-                  "end": 454,
-                  "name": "e"
+                  "end": 454
                 },
                 "operator": "instanceof",
                 "right": {
                   "type": "Identifier",
+                  "name": "Test262Error",
                   "start": 466,
-                  "end": 478,
-                  "name": "Test262Error"
-                }
+                  "end": 478
+                },
+                "start": 453,
+                "end": 478
               },
               "consequent": {
                 "type": "BlockStatement",
-                "start": 480,
-                "end": 498,
                 "body": [
                   {
                     "type": "ThrowStatement",
-                    "start": 486,
-                    "end": 494,
                     "argument": {
                       "type": "Identifier",
+                      "name": "e",
                       "start": 492,
-                      "end": 493,
-                      "name": "e"
-                    }
+                      "end": 493
+                    },
+                    "start": 486,
+                    "end": 494
                   }
-                ]
+                ],
+                "start": 480,
+                "end": 498
               },
-              "alternate": null
+              "alternate": null,
+              "start": 449,
+              "end": 498
             },
             {
               "type": "ExpressionStatement",
-              "start": 501,
-              "end": 608,
               "expression": {
                 "type": "CallExpression",
-                "start": 501,
-                "end": 607,
                 "callee": {
                   "type": "Identifier",
+                  "name": "assert",
                   "start": 501,
-                  "end": 507,
-                  "name": "assert"
+                  "end": 507
                 },
                 "arguments": [
                   {
                     "type": "BinaryExpression",
-                    "start": 508,
-                    "end": 530,
                     "left": {
                       "type": "Identifier",
+                      "name": "e",
                       "start": 508,
-                      "end": 509,
-                      "name": "e"
+                      "end": 509
                     },
                     "operator": "instanceof",
                     "right": {
                       "type": "Identifier",
+                      "name": "TypeError",
                       "start": 521,
-                      "end": 530,
-                      "name": "TypeError"
-                    }
+                      "end": 530
+                    },
+                    "start": 508,
+                    "end": 530
                   },
                   {
                     "type": "Literal",
-                    "start": 532,
-                    "end": 606,
                     "value": "The result of evaluating (e instanceof TypeError) is expected to be true",
-                    "raw": "'The result of evaluating (e instanceof TypeError) is expected to be true'"
+                    "raw": "'The result of evaluating (e instanceof TypeError) is expected to be true'",
+                    "start": 532,
+                    "end": 606
                   }
                 ],
-                "optional": false
-              }
+                "optional": false,
+                "start": 501,
+                "end": 607
+              },
+              "start": 501,
+              "end": 608
             }
-          ]
-        }
+          ],
+          "start": 445,
+          "end": 610
+        },
+        "start": 435,
+        "end": 610
       },
-      "finalizer": null
+      "finalizer": null,
+      "start": 309,
+      "end": 610
     },
     {
       "type": "IfStatement",
-      "start": 612,
-      "end": 752,
       "test": {
         "type": "UnaryExpression",
-        "start": 616,
-        "end": 653,
         "operator": "!",
         "argument": {
           "type": "ParenthesizedExpression",
-          "start": 617,
-          "end": 653,
           "expression": {
             "type": "CallExpression",
-            "start": 618,
-            "end": 652,
             "callee": {
               "type": "MemberExpression",
-              "start": 618,
-              "end": 639,
               "object": {
                 "type": "Identifier",
+                "name": "Object",
                 "start": 618,
-                "end": 624,
-                "name": "Object"
+                "end": 624
               },
               "property": {
                 "type": "Identifier",
+                "name": "hasOwnProperty",
                 "start": 625,
-                "end": 639,
-                "name": "hasOwnProperty"
+                "end": 639
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 618,
+              "end": 639
             },
             "arguments": [
               {
                 "type": "Literal",
-                "start": 640,
-                "end": 651,
                 "value": "prototype",
-                "raw": "'prototype'"
+                "raw": "'prototype'",
+                "start": 640,
+                "end": 651
               }
             ],
-            "optional": false
-          }
+            "optional": false,
+            "start": 618,
+            "end": 652
+          },
+          "start": 617,
+          "end": 653
         },
-        "prefix": true
+        "prefix": true,
+        "start": 616,
+        "end": 653
       },
       "consequent": {
         "type": "BlockStatement",
-        "start": 655,
-        "end": 752,
         "body": [
           {
             "type": "ThrowStatement",
-            "start": 659,
-            "end": 750,
             "argument": {
               "type": "NewExpression",
-              "start": 665,
-              "end": 749,
               "callee": {
                 "type": "Identifier",
+                "name": "Test262Error",
                 "start": 669,
-                "end": 681,
-                "name": "Test262Error"
+                "end": 681
               },
               "arguments": [
                 {
                   "type": "Literal",
-                  "start": 682,
-                  "end": 748,
                   "value": "#2: the Object.prototype property has the attributes DontDelete.",
-                  "raw": "'#2: the Object.prototype property has the attributes DontDelete.'"
+                  "raw": "'#2: the Object.prototype property has the attributes DontDelete.'",
+                  "start": 682,
+                  "end": 748
                 }
-              ]
-            }
+              ],
+              "start": 665,
+              "end": 749
+            },
+            "start": 659,
+            "end": 750
           }
-        ]
+        ],
+        "start": 655,
+        "end": 752
       },
-      "alternate": null
+      "alternate": null,
+      "start": 612,
+      "end": 752
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 799
 }

@@ -2,22 +2,18 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 104,
   "body": [
     {
       "type": "ClassDeclaration",
-      "start": 0,
-      "end": 104,
       "decorators": [],
       "id": {
         "type": "Identifier",
-        "start": 6,
-        "end": 12,
         "decorators": [],
         "name": "Vector",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 6,
+        "end": 12
       },
       "typeParameters": null,
       "superClass": null,
@@ -25,28 +21,22 @@ __ESTREE_TEST__:PASS:
       "implements": [],
       "body": {
         "type": "ClassBody",
-        "start": 13,
-        "end": 104,
         "body": [
           {
             "type": "PropertyDefinition",
-            "start": 16,
-            "end": 102,
             "decorators": [],
             "key": {
               "type": "Identifier",
-              "start": 23,
-              "end": 26,
               "decorators": [],
               "name": "foo",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 23,
+              "end": 26
             },
             "typeAnnotation": null,
             "value": {
               "type": "ArrowFunctionExpression",
-              "start": 29,
-              "end": 102,
               "expression": false,
               "async": false,
               "typeParameters": null,
@@ -54,36 +44,38 @@ __ESTREE_TEST__:PASS:
               "returnType": null,
               "body": {
                 "type": "BlockStatement",
-                "start": 35,
-                "end": 102,
                 "body": [
                   {
                     "type": "ExpressionStatement",
-                    "start": 93,
-                    "end": 99,
                     "expression": {
                       "type": "CallExpression",
-                      "start": 93,
-                      "end": 98,
                       "callee": {
                         "type": "Identifier",
-                        "start": 93,
-                        "end": 96,
                         "decorators": [],
                         "name": "foo",
                         "optional": false,
-                        "typeAnnotation": null
+                        "typeAnnotation": null,
+                        "start": 93,
+                        "end": 96
                       },
                       "typeArguments": null,
                       "arguments": [],
-                      "optional": false
+                      "optional": false,
+                      "start": 93,
+                      "end": 98
                     },
-                    "directive": null
+                    "directive": null,
+                    "start": 93,
+                    "end": 99
                   }
-                ]
+                ],
+                "start": 35,
+                "end": 102
               },
               "id": null,
-              "generator": false
+              "generator": false,
+              "start": 29,
+              "end": 102
             },
             "computed": false,
             "static": true,
@@ -92,15 +84,23 @@ __ESTREE_TEST__:PASS:
             "optional": false,
             "definite": false,
             "readonly": false,
-            "accessibility": null
+            "accessibility": null,
+            "start": 16,
+            "end": 102
           }
-        ]
+        ],
+        "start": 13,
+        "end": 104
       },
       "abstract": false,
-      "declare": false
+      "declare": false,
+      "start": 0,
+      "end": 104
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 104
 }
 ```

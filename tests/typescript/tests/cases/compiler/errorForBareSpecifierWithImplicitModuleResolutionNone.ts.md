@@ -2,75 +2,75 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 59,
-  "end": 111,
   "body": [
     {
       "type": "ImportDeclaration",
-      "start": 59,
-      "end": 103,
       "specifiers": [
         {
           "type": "ImportSpecifier",
-          "start": 68,
-          "end": 73,
           "imported": {
             "type": "Identifier",
-            "start": 68,
-            "end": 73,
             "decorators": [],
             "name": "thing",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 68,
+            "end": 73
           },
           "local": {
             "type": "Identifier",
-            "start": 68,
-            "end": 73,
             "decorators": [],
             "name": "thing",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 68,
+            "end": 73
           },
-          "importKind": "value"
+          "importKind": "value",
+          "start": 68,
+          "end": 73
         }
       ],
       "source": {
         "type": "Literal",
-        "start": 81,
-        "end": 102,
         "value": "non-existent-module",
-        "raw": "\"non-existent-module\""
+        "raw": "\"non-existent-module\"",
+        "start": 81,
+        "end": 102
       },
       "phase": null,
       "attributes": [],
-      "importKind": "value"
+      "importKind": "value",
+      "start": 59,
+      "end": 103
     },
     {
       "type": "ExpressionStatement",
-      "start": 104,
-      "end": 111,
       "expression": {
         "type": "CallExpression",
-        "start": 104,
-        "end": 111,
         "callee": {
           "type": "Identifier",
-          "start": 104,
-          "end": 109,
           "decorators": [],
           "name": "thing",
           "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "start": 104,
+          "end": 109
         },
         "typeArguments": null,
         "arguments": [],
-        "optional": false
+        "optional": false,
+        "start": 104,
+        "end": 111
       },
-      "directive": null
+      "directive": null,
+      "start": 104,
+      "end": 111
     }
   ],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 59,
+  "end": 111
 }
 ```

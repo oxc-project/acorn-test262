@@ -1,228 +1,228 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 486,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 281,
-      "end": 324,
       "expression": {
         "type": "CallExpression",
-        "start": 281,
-        "end": 323,
         "callee": {
           "type": "Identifier",
+          "name": "assert",
           "start": 281,
-          "end": 287,
-          "name": "assert"
+          "end": 287
         },
         "arguments": [
           {
             "type": "BinaryExpression",
-            "start": 288,
-            "end": 322,
             "left": {
               "type": "UnaryExpression",
-              "start": 288,
-              "end": 307,
               "operator": "typeof",
               "argument": {
                 "type": "Identifier",
+                "name": "Test262Error",
                 "start": 295,
-                "end": 307,
-                "name": "Test262Error"
+                "end": 307
               },
-              "prefix": true
+              "prefix": true,
+              "start": 288,
+              "end": 307
             },
             "operator": "===",
             "right": {
               "type": "Literal",
-              "start": 312,
-              "end": 322,
               "value": "function",
-              "raw": "\"function\""
-            }
+              "raw": "\"function\"",
+              "start": 312,
+              "end": 322
+            },
+            "start": 288,
+            "end": 322
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 281,
+        "end": 323
+      },
+      "start": 281,
+      "end": 324
     },
     {
       "type": "ExpressionStatement",
-      "start": 325,
-      "end": 387,
       "expression": {
         "type": "CallExpression",
-        "start": 325,
-        "end": 386,
         "callee": {
           "type": "Identifier",
+          "name": "assert",
           "start": 325,
-          "end": 331,
-          "name": "assert"
+          "end": 331
         },
         "arguments": [
           {
             "type": "BinaryExpression",
-            "start": 332,
-            "end": 385,
             "left": {
               "type": "UnaryExpression",
-              "start": 332,
-              "end": 370,
               "operator": "typeof",
               "argument": {
                 "type": "MemberExpression",
-                "start": 339,
-                "end": 370,
                 "object": {
                   "type": "MemberExpression",
-                  "start": 339,
-                  "end": 361,
                   "object": {
                     "type": "Identifier",
+                    "name": "Test262Error",
                     "start": 339,
-                    "end": 351,
-                    "name": "Test262Error"
+                    "end": 351
                   },
                   "property": {
                     "type": "Identifier",
+                    "name": "prototype",
                     "start": 352,
-                    "end": 361,
-                    "name": "prototype"
+                    "end": 361
                   },
                   "optional": false,
-                  "computed": false
+                  "computed": false,
+                  "start": 339,
+                  "end": 361
                 },
                 "property": {
                   "type": "Identifier",
+                  "name": "toString",
                   "start": 362,
-                  "end": 370,
-                  "name": "toString"
+                  "end": 370
                 },
                 "optional": false,
-                "computed": false
+                "computed": false,
+                "start": 339,
+                "end": 370
               },
-              "prefix": true
+              "prefix": true,
+              "start": 332,
+              "end": 370
             },
             "operator": "===",
             "right": {
               "type": "Literal",
-              "start": 375,
-              "end": 385,
               "value": "function",
-              "raw": "\"function\""
-            }
+              "raw": "\"function\"",
+              "start": 375,
+              "end": 385
+            },
+            "start": 332,
+            "end": 385
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 325,
+        "end": 386
+      },
+      "start": 325,
+      "end": 387
     },
     {
       "type": "ExpressionStatement",
-      "start": 388,
-      "end": 439,
       "expression": {
         "type": "CallExpression",
-        "start": 388,
-        "end": 438,
         "callee": {
           "type": "Identifier",
+          "name": "assert",
           "start": 388,
-          "end": 394,
-          "name": "assert"
+          "end": 394
         },
         "arguments": [
           {
             "type": "BinaryExpression",
-            "start": 395,
-            "end": 437,
             "left": {
               "type": "UnaryExpression",
-              "start": 395,
-              "end": 422,
               "operator": "typeof",
               "argument": {
                 "type": "MemberExpression",
-                "start": 402,
-                "end": 422,
                 "object": {
                   "type": "Identifier",
+                  "name": "Test262Error",
                   "start": 402,
-                  "end": 414,
-                  "name": "Test262Error"
+                  "end": 414
                 },
                 "property": {
                   "type": "Identifier",
+                  "name": "thrower",
                   "start": 415,
-                  "end": 422,
-                  "name": "thrower"
+                  "end": 422
                 },
                 "optional": false,
-                "computed": false
+                "computed": false,
+                "start": 402,
+                "end": 422
               },
-              "prefix": true
+              "prefix": true,
+              "start": 395,
+              "end": 422
             },
             "operator": "===",
             "right": {
               "type": "Literal",
-              "start": 427,
-              "end": 437,
               "value": "function",
-              "raw": "\"function\""
-            }
+              "raw": "\"function\"",
+              "start": 427,
+              "end": 437
+            },
+            "start": 395,
+            "end": 437
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 388,
+        "end": 438
+      },
+      "start": 388,
+      "end": 439
     },
     {
       "type": "ExpressionStatement",
-      "start": 440,
-      "end": 485,
       "expression": {
         "type": "CallExpression",
-        "start": 440,
-        "end": 484,
         "callee": {
           "type": "Identifier",
+          "name": "assert",
           "start": 440,
-          "end": 446,
-          "name": "assert"
+          "end": 446
         },
         "arguments": [
           {
             "type": "BinaryExpression",
-            "start": 447,
-            "end": 483,
             "left": {
               "type": "UnaryExpression",
-              "start": 447,
-              "end": 468,
               "operator": "typeof",
               "argument": {
                 "type": "Identifier",
+                "name": "$DONOTEVALUATE",
                 "start": 454,
-                "end": 468,
-                "name": "$DONOTEVALUATE"
+                "end": 468
               },
-              "prefix": true
+              "prefix": true,
+              "start": 447,
+              "end": 468
             },
             "operator": "===",
             "right": {
               "type": "Literal",
-              "start": 473,
-              "end": 483,
               "value": "function",
-              "raw": "\"function\""
-            }
+              "raw": "\"function\"",
+              "start": 473,
+              "end": 483
+            },
+            "start": 447,
+            "end": 483
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 440,
+        "end": 484
+      },
+      "start": 440,
+      "end": 485
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 486
 }

@@ -2,78 +2,74 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 77,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 0,
-      "end": 13,
       "expression": {
         "type": "Literal",
-        "start": 0,
-        "end": 12,
         "value": "use strict",
-        "raw": "\"use strict\""
+        "raw": "\"use strict\"",
+        "start": 0,
+        "end": 12
       },
-      "directive": "use strict"
+      "directive": "use strict",
+      "start": 0,
+      "end": 13
     },
     {
       "type": "ExpressionStatement",
-      "start": 14,
-      "end": 40,
       "expression": {
         "type": "AssignmentExpression",
-        "start": 14,
-        "end": 39,
         "operator": "=",
         "left": {
           "type": "MemberExpression",
-          "start": 14,
-          "end": 32,
           "object": {
             "type": "Identifier",
-            "start": 14,
-            "end": 21,
             "decorators": [],
             "name": "exports",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 14,
+            "end": 21
           },
           "property": {
             "type": "Identifier",
-            "start": 22,
-            "end": 32,
             "decorators": [],
             "name": "__esModule",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 22,
+            "end": 32
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 14,
+          "end": 32
         },
         "right": {
           "type": "Literal",
-          "start": 35,
-          "end": 39,
           "value": true,
-          "raw": "true"
-        }
+          "raw": "true",
+          "start": 35,
+          "end": 39
+        },
+        "start": 14,
+        "end": 39
       },
-      "directive": null
+      "directive": null,
+      "start": 14,
+      "end": 40
     },
     {
       "type": "FunctionDeclaration",
-      "start": 41,
-      "end": 58,
       "id": {
         "type": "Identifier",
-        "start": 50,
-        "end": 53,
         "decorators": [],
         "name": "ios",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 50,
+        "end": 53
       },
       "generator": false,
       "async": false,
@@ -83,86 +79,84 @@ __ESTREE_TEST__:PASS:
       "returnType": null,
       "body": {
         "type": "BlockStatement",
+        "body": [],
         "start": 56,
-        "end": 58,
-        "body": []
+        "end": 58
       },
-      "expression": false
+      "expression": false,
+      "start": 41,
+      "end": 58
     },
     {
       "type": "ExpressionStatement",
-      "start": 59,
-      "end": 77,
       "expression": {
         "type": "AssignmentExpression",
-        "start": 59,
-        "end": 76,
         "operator": "=",
         "left": {
           "type": "MemberExpression",
-          "start": 59,
-          "end": 70,
           "object": {
             "type": "Identifier",
-            "start": 59,
-            "end": 66,
             "decorators": [],
             "name": "exports",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 59,
+            "end": 66
           },
           "property": {
             "type": "Identifier",
-            "start": 67,
-            "end": 70,
             "decorators": [],
             "name": "ios",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 67,
+            "end": 70
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 59,
+          "end": 70
         },
         "right": {
           "type": "Identifier",
-          "start": 73,
-          "end": 76,
           "decorators": [],
           "name": "ios",
           "optional": false,
-          "typeAnnotation": null
-        }
+          "typeAnnotation": null,
+          "start": 73,
+          "end": 76
+        },
+        "start": 59,
+        "end": 76
       },
-      "directive": null
+      "directive": null,
+      "start": 59,
+      "end": 77
     }
   ],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 77
 }
 ```
 __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 36,
   "body": [
     {
       "type": "ExportNamedDeclaration",
-      "start": 0,
-      "end": 36,
       "declaration": {
         "type": "TSDeclareFunction",
-        "start": 7,
-        "end": 36,
         "id": {
           "type": "Identifier",
-          "start": 24,
-          "end": 27,
           "decorators": [],
           "name": "ios",
           "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "start": 24,
+          "end": 27
         },
         "generator": false,
         "async": false,
@@ -171,103 +165,105 @@ __ESTREE_TEST__:PASS:
         "params": [],
         "returnType": {
           "type": "TSTypeAnnotation",
-          "start": 29,
-          "end": 35,
           "typeAnnotation": {
             "type": "TSVoidKeyword",
             "start": 31,
             "end": 35
-          }
+          },
+          "start": 29,
+          "end": 35
         },
         "body": null,
-        "expression": false
+        "expression": false,
+        "start": 7,
+        "end": 36
       },
       "specifiers": [],
       "source": null,
       "exportKind": "type",
-      "attributes": []
+      "attributes": [],
+      "start": 0,
+      "end": 36
     }
   ],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 36
 }
 ```
 __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 80,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 0,
-      "end": 13,
       "expression": {
         "type": "Literal",
-        "start": 0,
-        "end": 12,
         "value": "use strict",
-        "raw": "\"use strict\""
+        "raw": "\"use strict\"",
+        "start": 0,
+        "end": 12
       },
-      "directive": "use strict"
+      "directive": "use strict",
+      "start": 0,
+      "end": 13
     },
     {
       "type": "ExpressionStatement",
-      "start": 14,
-      "end": 40,
       "expression": {
         "type": "AssignmentExpression",
-        "start": 14,
-        "end": 39,
         "operator": "=",
         "left": {
           "type": "MemberExpression",
-          "start": 14,
-          "end": 32,
           "object": {
             "type": "Identifier",
-            "start": 14,
-            "end": 21,
             "decorators": [],
             "name": "exports",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 14,
+            "end": 21
           },
           "property": {
             "type": "Identifier",
-            "start": 22,
-            "end": 32,
             "decorators": [],
             "name": "__esModule",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 22,
+            "end": 32
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 14,
+          "end": 32
         },
         "right": {
           "type": "Literal",
-          "start": 35,
-          "end": 39,
           "value": true,
-          "raw": "true"
-        }
+          "raw": "true",
+          "start": 35,
+          "end": 39
+        },
+        "start": 14,
+        "end": 39
       },
-      "directive": null
+      "directive": null,
+      "start": 14,
+      "end": 40
     },
     {
       "type": "FunctionDeclaration",
-      "start": 41,
-      "end": 59,
       "id": {
         "type": "Identifier",
-        "start": 50,
-        "end": 54,
         "decorators": [],
         "name": "base",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 50,
+        "end": 54
       },
       "generator": false,
       "async": false,
@@ -277,86 +273,84 @@ __ESTREE_TEST__:PASS:
       "returnType": null,
       "body": {
         "type": "BlockStatement",
+        "body": [],
         "start": 57,
-        "end": 59,
-        "body": []
+        "end": 59
       },
-      "expression": false
+      "expression": false,
+      "start": 41,
+      "end": 59
     },
     {
       "type": "ExpressionStatement",
-      "start": 60,
-      "end": 80,
       "expression": {
         "type": "AssignmentExpression",
-        "start": 60,
-        "end": 79,
         "operator": "=",
         "left": {
           "type": "MemberExpression",
-          "start": 60,
-          "end": 72,
           "object": {
             "type": "Identifier",
-            "start": 60,
-            "end": 67,
             "decorators": [],
             "name": "exports",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 60,
+            "end": 67
           },
           "property": {
             "type": "Identifier",
-            "start": 68,
-            "end": 72,
             "decorators": [],
             "name": "base",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 68,
+            "end": 72
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 60,
+          "end": 72
         },
         "right": {
           "type": "Identifier",
-          "start": 75,
-          "end": 79,
           "decorators": [],
           "name": "base",
           "optional": false,
-          "typeAnnotation": null
-        }
+          "typeAnnotation": null,
+          "start": 75,
+          "end": 79
+        },
+        "start": 60,
+        "end": 79
       },
-      "directive": null
+      "directive": null,
+      "start": 60,
+      "end": 80
     }
   ],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 80
 }
 ```
 __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 38,
   "body": [
     {
       "type": "ExportNamedDeclaration",
-      "start": 0,
-      "end": 37,
       "declaration": {
         "type": "TSDeclareFunction",
-        "start": 7,
-        "end": 37,
         "id": {
           "type": "Identifier",
-          "start": 24,
-          "end": 28,
           "decorators": [],
           "name": "base",
           "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "start": 24,
+          "end": 28
         },
         "generator": false,
         "async": false,
@@ -365,77 +359,83 @@ __ESTREE_TEST__:PASS:
         "params": [],
         "returnType": {
           "type": "TSTypeAnnotation",
-          "start": 30,
-          "end": 36,
           "typeAnnotation": {
             "type": "TSVoidKeyword",
             "start": 32,
             "end": 36
-          }
+          },
+          "start": 30,
+          "end": 36
         },
         "body": null,
-        "expression": false
+        "expression": false,
+        "start": 7,
+        "end": 37
       },
       "specifiers": [],
       "source": null,
       "exportKind": "type",
-      "attributes": []
+      "attributes": [],
+      "start": 0,
+      "end": 37
     }
   ],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 38
 }
 ```
 __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 35,
   "body": [
     {
       "type": "ImportDeclaration",
-      "start": 0,
-      "end": 35,
       "specifiers": [
         {
           "type": "ImportSpecifier",
-          "start": 9,
-          "end": 12,
           "imported": {
             "type": "Identifier",
-            "start": 9,
-            "end": 12,
             "decorators": [],
             "name": "ios",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 9,
+            "end": 12
           },
           "local": {
             "type": "Identifier",
-            "start": 9,
-            "end": 12,
             "decorators": [],
             "name": "ios",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 9,
+            "end": 12
           },
-          "importKind": "value"
+          "importKind": "value",
+          "start": 9,
+          "end": 12
         }
       ],
       "source": {
         "type": "Literal",
-        "start": 20,
-        "end": 34,
         "value": "some-library",
-        "raw": "\"some-library\""
+        "raw": "\"some-library\"",
+        "start": 20,
+        "end": 34
       },
       "phase": null,
       "attributes": [],
-      "importKind": "value"
+      "importKind": "value",
+      "start": 0,
+      "end": 35
     }
   ],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 35
 }
 ```

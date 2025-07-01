@@ -1,168 +1,168 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 701,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 387,
-      "end": 399,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 391,
-          "end": 398,
           "id": {
             "type": "Identifier",
+            "name": "FACTORY",
             "start": 391,
-            "end": 398,
-            "name": "FACTORY"
+            "end": 398
           },
-          "init": null
+          "init": null,
+          "start": 391,
+          "end": 398
         }
-      ]
+      ],
+      "start": 387,
+      "end": 399
     },
     {
       "type": "ExpressionStatement",
-      "start": 400,
-      "end": 445,
       "expression": {
         "type": "AssignmentExpression",
-        "start": 400,
-        "end": 444,
         "operator": "=",
         "left": {
           "type": "Identifier",
+          "name": "FACTORY",
           "start": 400,
-          "end": 407,
-          "name": "FACTORY"
+          "end": 407
         },
         "right": {
           "type": "CallExpression",
-          "start": 410,
-          "end": 444,
           "callee": {
             "type": "Identifier",
+            "name": "Function",
             "start": 410,
-            "end": 418,
-            "name": "Function"
+            "end": 418
           },
           "arguments": [
             {
               "type": "Literal",
-              "start": 419,
-              "end": 425,
               "value": "name",
-              "raw": "\"name\""
+              "raw": "\"name\"",
+              "start": 419,
+              "end": 425
             },
             {
               "type": "Literal",
-              "start": 426,
-              "end": 443,
               "value": "this.name=name;",
-              "raw": "\"this.name=name;\""
+              "raw": "\"this.name=name;\"",
+              "start": 426,
+              "end": 443
             }
           ],
-          "optional": false
-        }
-      }
+          "optional": false,
+          "start": 410,
+          "end": 444
+        },
+        "start": 400,
+        "end": 444
+      },
+      "start": 400,
+      "end": 445
     },
     {
       "type": "IfStatement",
-      "start": 457,
-      "end": 692,
       "test": {
         "type": "BinaryExpression",
-        "start": 461,
-        "end": 492,
         "left": {
           "type": "ParenthesizedExpression",
-          "start": 461,
-          "end": 484,
           "expression": {
             "type": "BinaryExpression",
-            "start": 462,
-            "end": 483,
             "left": {
               "type": "Identifier",
+              "name": "x",
               "start": 462,
-              "end": 463,
-              "name": "x"
+              "end": 463
             },
             "operator": "instanceof",
             "right": {
               "type": "Identifier",
+              "name": "FACTORY",
               "start": 476,
-              "end": 483,
-              "name": "FACTORY"
-            }
-          }
+              "end": 483
+            },
+            "start": 462,
+            "end": 483
+          },
+          "start": 461,
+          "end": 484
         },
         "operator": "!==",
         "right": {
           "type": "Literal",
-          "start": 487,
-          "end": 492,
           "value": false,
-          "raw": "false"
-        }
+          "raw": "false",
+          "start": 487,
+          "end": 492
+        },
+        "start": 461,
+        "end": 492
       },
       "consequent": {
         "type": "BlockStatement",
-        "start": 494,
-        "end": 692,
         "body": [
           {
             "type": "ThrowStatement",
-            "start": 498,
-            "end": 690,
             "argument": {
               "type": "NewExpression",
-              "start": 504,
-              "end": 689,
               "callee": {
                 "type": "Identifier",
+                "name": "Test262Error",
                 "start": 508,
-                "end": 520,
-                "name": "Test262Error"
+                "end": 520
               },
               "arguments": [
                 {
                   "type": "Literal",
-                  "start": 521,
-                  "end": 688,
                   "value": "#1: Assume F is a Function object. When the [[HasInstance]] method of F is called with value V, the following steps are taken: i) If V is not an object, return false",
-                  "raw": "'#1: Assume F is a Function object. When the [[HasInstance]] method of F is called with value V, the following steps are taken: i) If V is not an object, return false'"
+                  "raw": "'#1: Assume F is a Function object. When the [[HasInstance]] method of F is called with value V, the following steps are taken: i) If V is not an object, return false'",
+                  "start": 521,
+                  "end": 688
                 }
-              ]
-            }
+              ],
+              "start": 504,
+              "end": 689
+            },
+            "start": 498,
+            "end": 690
           }
-        ]
+        ],
+        "start": 494,
+        "end": 692
       },
-      "alternate": null
+      "alternate": null,
+      "start": 457,
+      "end": 692
     },
     {
       "type": "VariableDeclaration",
-      "start": 694,
-      "end": 700,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 698,
-          "end": 699,
           "id": {
             "type": "Identifier",
+            "name": "x",
             "start": 698,
-            "end": 699,
-            "name": "x"
+            "end": 699
           },
-          "init": null
+          "init": null,
+          "start": 698,
+          "end": 699
         }
-      ]
+      ],
+      "start": 694,
+      "end": 700
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 701
 }

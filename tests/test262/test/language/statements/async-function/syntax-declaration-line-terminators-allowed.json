@@ -1,67 +1,67 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 356,
   "body": [
     {
       "type": "FunctionDeclaration",
-      "start": 294,
-      "end": 321,
       "id": {
         "type": "Identifier",
+        "name": "foo",
         "start": 309,
-        "end": 312,
-        "name": "foo"
+        "end": 312
       },
       "generator": false,
       "async": true,
       "params": [],
       "body": {
         "type": "BlockStatement",
+        "body": [],
         "start": 315,
-        "end": 321,
-        "body": []
+        "end": 321
       },
-      "expression": false
+      "expression": false,
+      "start": 294,
+      "end": 321
     },
     {
       "type": "ExpressionStatement",
-      "start": 323,
-      "end": 355,
       "expression": {
         "type": "CallExpression",
-        "start": 323,
-        "end": 354,
         "callee": {
           "type": "Identifier",
+          "name": "assert",
           "start": 323,
-          "end": 329,
-          "name": "assert"
+          "end": 329
         },
         "arguments": [
           {
             "type": "BinaryExpression",
-            "start": 330,
-            "end": 353,
             "left": {
               "type": "Identifier",
+              "name": "foo",
               "start": 330,
-              "end": 333,
-              "name": "foo"
+              "end": 333
             },
             "operator": "instanceof",
             "right": {
               "type": "Identifier",
+              "name": "Function",
               "start": 345,
-              "end": 353,
-              "name": "Function"
-            }
+              "end": 353
+            },
+            "start": 330,
+            "end": 353
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 323,
+        "end": 354
+      },
+      "start": 323,
+      "end": 355
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 356
 }

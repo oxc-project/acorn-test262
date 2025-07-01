@@ -1,215 +1,215 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 499,
   "body": [
     {
       "type": "IfStatement",
-      "start": 274,
-      "end": 362,
       "test": {
         "type": "BinaryExpression",
-        "start": 278,
-        "end": 290,
         "left": {
           "type": "UnaryExpression",
-          "start": 278,
-          "end": 284,
           "operator": "+",
           "argument": {
             "type": "Literal",
-            "start": 279,
-            "end": 284,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "start": 279,
+            "end": 284
           },
-          "prefix": true
+          "prefix": true,
+          "start": 278,
+          "end": 284
         },
         "operator": "!==",
         "right": {
           "type": "Literal",
-          "start": 289,
-          "end": 290,
           "value": 0,
-          "raw": "0"
-        }
+          "raw": "0",
+          "start": 289,
+          "end": 290
+        },
+        "start": 278,
+        "end": 290
       },
       "consequent": {
         "type": "BlockStatement",
-        "start": 292,
-        "end": 362,
         "body": [
           {
             "type": "ThrowStatement",
-            "start": 296,
-            "end": 360,
             "argument": {
               "type": "NewExpression",
-              "start": 302,
-              "end": 359,
               "callee": {
                 "type": "Identifier",
+                "name": "Test262Error",
                 "start": 306,
-                "end": 318,
-                "name": "Test262Error"
+                "end": 318
               },
               "arguments": [
                 {
                   "type": "BinaryExpression",
-                  "start": 319,
-                  "end": 358,
                   "left": {
                     "type": "Literal",
-                    "start": 319,
-                    "end": 347,
                     "value": "#1: +false === 0. Actual: ",
-                    "raw": "'#1: +false === 0. Actual: '"
+                    "raw": "'#1: +false === 0. Actual: '",
+                    "start": 319,
+                    "end": 347
                   },
                   "operator": "+",
                   "right": {
                     "type": "ParenthesizedExpression",
-                    "start": 350,
-                    "end": 358,
                     "expression": {
                       "type": "UnaryExpression",
-                      "start": 351,
-                      "end": 357,
                       "operator": "+",
                       "argument": {
                         "type": "Literal",
-                        "start": 352,
-                        "end": 357,
                         "value": false,
-                        "raw": "false"
+                        "raw": "false",
+                        "start": 352,
+                        "end": 357
                       },
-                      "prefix": true
-                    }
-                  }
+                      "prefix": true,
+                      "start": 351,
+                      "end": 357
+                    },
+                    "start": 350,
+                    "end": 358
+                  },
+                  "start": 319,
+                  "end": 358
                 }
-              ]
-            }
+              ],
+              "start": 302,
+              "end": 359
+            },
+            "start": 296,
+            "end": 360
           }
-        ]
+        ],
+        "start": 292,
+        "end": 362
       },
-      "alternate": null
+      "alternate": null,
+      "start": 274,
+      "end": 362
     },
     {
       "type": "IfStatement",
-      "start": 374,
-      "end": 498,
       "test": {
         "type": "BinaryExpression",
-        "start": 378,
-        "end": 402,
         "left": {
           "type": "UnaryExpression",
-          "start": 378,
-          "end": 396,
           "operator": "+",
           "argument": {
             "type": "NewExpression",
-            "start": 379,
-            "end": 396,
             "callee": {
               "type": "Identifier",
+              "name": "Boolean",
               "start": 383,
-              "end": 390,
-              "name": "Boolean"
+              "end": 390
             },
             "arguments": [
               {
                 "type": "Literal",
-                "start": 391,
-                "end": 395,
                 "value": true,
-                "raw": "true"
+                "raw": "true",
+                "start": 391,
+                "end": 395
               }
-            ]
+            ],
+            "start": 379,
+            "end": 396
           },
-          "prefix": true
+          "prefix": true,
+          "start": 378,
+          "end": 396
         },
         "operator": "!==",
         "right": {
           "type": "Literal",
-          "start": 401,
-          "end": 402,
           "value": 1,
-          "raw": "1"
-        }
+          "raw": "1",
+          "start": 401,
+          "end": 402
+        },
+        "start": 378,
+        "end": 402
       },
       "consequent": {
         "type": "BlockStatement",
-        "start": 404,
-        "end": 498,
         "body": [
           {
             "type": "ThrowStatement",
-            "start": 408,
-            "end": 496,
             "argument": {
               "type": "NewExpression",
-              "start": 414,
-              "end": 495,
               "callee": {
                 "type": "Identifier",
+                "name": "Test262Error",
                 "start": 418,
-                "end": 430,
-                "name": "Test262Error"
+                "end": 430
               },
               "arguments": [
                 {
                   "type": "BinaryExpression",
-                  "start": 431,
-                  "end": 494,
                   "left": {
                     "type": "Literal",
-                    "start": 431,
-                    "end": 471,
                     "value": "#2: +new Boolean(true) === 1. Actual: ",
-                    "raw": "'#2: +new Boolean(true) === 1. Actual: '"
+                    "raw": "'#2: +new Boolean(true) === 1. Actual: '",
+                    "start": 431,
+                    "end": 471
                   },
                   "operator": "+",
                   "right": {
                     "type": "ParenthesizedExpression",
-                    "start": 474,
-                    "end": 494,
                     "expression": {
                       "type": "UnaryExpression",
-                      "start": 475,
-                      "end": 493,
                       "operator": "+",
                       "argument": {
                         "type": "NewExpression",
-                        "start": 476,
-                        "end": 493,
                         "callee": {
                           "type": "Identifier",
+                          "name": "Boolean",
                           "start": 480,
-                          "end": 487,
-                          "name": "Boolean"
+                          "end": 487
                         },
                         "arguments": [
                           {
                             "type": "Literal",
-                            "start": 488,
-                            "end": 492,
                             "value": true,
-                            "raw": "true"
+                            "raw": "true",
+                            "start": 488,
+                            "end": 492
                           }
-                        ]
+                        ],
+                        "start": 476,
+                        "end": 493
                       },
-                      "prefix": true
-                    }
-                  }
+                      "prefix": true,
+                      "start": 475,
+                      "end": 493
+                    },
+                    "start": 474,
+                    "end": 494
+                  },
+                  "start": 431,
+                  "end": 494
                 }
-              ]
-            }
+              ],
+              "start": 414,
+              "end": 495
+            },
+            "start": 408,
+            "end": 496
           }
-        ]
+        ],
+        "start": 404,
+        "end": 498
       },
-      "alternate": null
+      "alternate": null,
+      "start": 374,
+      "end": 498
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 499
 }

@@ -2,163 +2,163 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 154,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 0,
-      "end": 16,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 4,
-          "end": 15,
           "id": {
             "type": "Identifier",
-            "start": 4,
-            "end": 15,
             "decorators": [],
             "name": "obj",
             "optional": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
-              "start": 7,
-              "end": 15,
               "typeAnnotation": {
                 "type": "TSTypeReference",
-                "start": 9,
-                "end": 15,
                 "typeName": {
                   "type": "Identifier",
-                  "start": 9,
-                  "end": 15,
                   "decorators": [],
                   "name": "Object",
                   "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "start": 9,
+                  "end": 15
                 },
-                "typeArguments": null
-              }
-            }
+                "typeArguments": null,
+                "start": 9,
+                "end": 15
+              },
+              "start": 7,
+              "end": 15
+            },
+            "start": 4,
+            "end": 15
           },
           "init": null,
-          "definite": false
+          "definite": false,
+          "start": 4,
+          "end": 15
         }
       ],
-      "declare": false
+      "declare": false,
+      "start": 0,
+      "end": 16
     },
     {
       "type": "IfStatement",
-      "start": 17,
-      "end": 154,
       "test": {
         "type": "CallExpression",
-        "start": 21,
-        "end": 44,
         "callee": {
           "type": "MemberExpression",
-          "start": 21,
-          "end": 39,
           "object": {
             "type": "Identifier",
-            "start": 21,
-            "end": 32,
             "decorators": [],
             "name": "ArrayBuffer",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 21,
+            "end": 32
           },
           "property": {
             "type": "Identifier",
-            "start": 33,
-            "end": 39,
             "decorators": [],
             "name": "isView",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 33,
+            "end": 39
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 21,
+          "end": 39
         },
         "typeArguments": null,
         "arguments": [
           {
             "type": "Identifier",
-            "start": 40,
-            "end": 43,
             "decorators": [],
             "name": "obj",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 40,
+            "end": 43
           }
         ],
-        "optional": false
+        "optional": false,
+        "start": 21,
+        "end": 44
       },
       "consequent": {
         "type": "BlockStatement",
-        "start": 46,
-        "end": 154,
         "body": [
           {
             "type": "VariableDeclaration",
-            "start": 122,
-            "end": 152,
             "kind": "var",
             "declarations": [
               {
                 "type": "VariableDeclarator",
-                "start": 126,
-                "end": 151,
                 "id": {
                   "type": "Identifier",
-                  "start": 126,
-                  "end": 145,
                   "decorators": [],
                   "name": "ab",
                   "optional": false,
                   "typeAnnotation": {
                     "type": "TSTypeAnnotation",
-                    "start": 128,
-                    "end": 145,
                     "typeAnnotation": {
                       "type": "TSTypeReference",
-                      "start": 130,
-                      "end": 145,
                       "typeName": {
                         "type": "Identifier",
-                        "start": 130,
-                        "end": 145,
                         "decorators": [],
                         "name": "ArrayBufferView",
                         "optional": false,
-                        "typeAnnotation": null
+                        "typeAnnotation": null,
+                        "start": 130,
+                        "end": 145
                       },
-                      "typeArguments": null
-                    }
-                  }
+                      "typeArguments": null,
+                      "start": 130,
+                      "end": 145
+                    },
+                    "start": 128,
+                    "end": 145
+                  },
+                  "start": 126,
+                  "end": 145
                 },
                 "init": {
                   "type": "Identifier",
-                  "start": 148,
-                  "end": 151,
                   "decorators": [],
                   "name": "obj",
                   "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "start": 148,
+                  "end": 151
                 },
-                "definite": false
+                "definite": false,
+                "start": 126,
+                "end": 151
               }
             ],
-            "declare": false
+            "declare": false,
+            "start": 122,
+            "end": 152
           }
-        ]
+        ],
+        "start": 46,
+        "end": 154
       },
-      "alternate": null
+      "alternate": null,
+      "start": 17,
+      "end": 154
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 154
 }
 ```

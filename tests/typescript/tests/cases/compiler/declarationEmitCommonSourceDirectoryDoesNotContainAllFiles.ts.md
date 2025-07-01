@@ -2,53 +2,47 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 22,
   "body": [
     {
       "type": "ExportAllDeclaration",
-      "start": 0,
-      "end": 22,
       "exported": null,
       "source": {
         "type": "Literal",
-        "start": 14,
-        "end": 22,
         "value": "./src/",
-        "raw": "\"./src/\""
+        "raw": "\"./src/\"",
+        "start": 14,
+        "end": 22
       },
       "attributes": [],
-      "exportKind": "value"
+      "exportKind": "value",
+      "start": 0,
+      "end": 22
     }
   ],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 22
 }
 ```
 __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 17,
   "body": [
     {
       "type": "ExportNamedDeclaration",
-      "start": 0,
-      "end": 17,
       "declaration": {
         "type": "ClassDeclaration",
-        "start": 7,
-        "end": 17,
         "decorators": [],
         "id": {
           "type": "Identifier",
-          "start": 13,
-          "end": 14,
           "decorators": [],
           "name": "B",
           "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "start": 13,
+          "end": 14
         },
         "typeParameters": null,
         "superClass": null,
@@ -56,79 +50,79 @@ __ESTREE_TEST__:PASS:
         "implements": [],
         "body": {
           "type": "ClassBody",
+          "body": [],
           "start": 15,
-          "end": 17,
-          "body": []
+          "end": 17
         },
         "abstract": false,
-        "declare": false
+        "declare": false,
+        "start": 7,
+        "end": 17
       },
       "specifiers": [],
       "source": null,
       "exportKind": "value",
-      "attributes": []
+      "attributes": [],
+      "start": 0,
+      "end": 17
     }
   ],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 17
 }
 ```
 __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 71,
   "body": [
     {
       "type": "ImportDeclaration",
-      "start": 0,
-      "end": 22,
       "specifiers": [
         {
           "type": "ImportSpecifier",
-          "start": 9,
-          "end": 10,
           "imported": {
             "type": "Identifier",
-            "start": 9,
-            "end": 10,
             "decorators": [],
             "name": "B",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 9,
+            "end": 10
           },
           "local": {
             "type": "Identifier",
-            "start": 9,
-            "end": 10,
             "decorators": [],
             "name": "B",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 9,
+            "end": 10
           },
-          "importKind": "value"
+          "importKind": "value",
+          "start": 9,
+          "end": 10
         }
       ],
       "source": {
         "type": "Literal",
-        "start": 18,
-        "end": 21,
         "value": "b",
-        "raw": "\"b\""
+        "raw": "\"b\"",
+        "start": 18,
+        "end": 21
       },
       "phase": null,
       "attributes": [],
-      "importKind": "value"
+      "importKind": "value",
+      "start": 0,
+      "end": 22
     },
     {
       "type": "ExportDefaultDeclaration",
-      "start": 24,
-      "end": 71,
       "declaration": {
         "type": "FunctionDeclaration",
-        "start": 39,
-        "end": 71,
         "id": null,
         "generator": false,
         "async": false,
@@ -138,65 +132,71 @@ __ESTREE_TEST__:PASS:
         "returnType": null,
         "body": {
           "type": "BlockStatement",
-          "start": 51,
-          "end": 71,
           "body": [
             {
               "type": "ReturnStatement",
-              "start": 54,
-              "end": 69,
               "argument": {
                 "type": "NewExpression",
-                "start": 61,
-                "end": 68,
                 "callee": {
                   "type": "Identifier",
-                  "start": 65,
-                  "end": 66,
                   "decorators": [],
                   "name": "B",
                   "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "start": 65,
+                  "end": 66
                 },
                 "typeArguments": null,
-                "arguments": []
-              }
+                "arguments": [],
+                "start": 61,
+                "end": 68
+              },
+              "start": 54,
+              "end": 69
             }
-          ]
+          ],
+          "start": 51,
+          "end": 71
         },
-        "expression": false
+        "expression": false,
+        "start": 39,
+        "end": 71
       },
-      "exportKind": "value"
+      "exportKind": "value",
+      "start": 24,
+      "end": 71
     }
   ],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 71
 }
 ```
 __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 22,
   "body": [
     {
       "type": "ExportAllDeclaration",
-      "start": 0,
-      "end": 22,
       "exported": null,
       "source": {
         "type": "Literal",
-        "start": 14,
-        "end": 22,
         "value": "./src/",
-        "raw": "\"./src/\""
+        "raw": "\"./src/\"",
+        "start": 14,
+        "end": 22
       },
       "attributes": [],
-      "exportKind": "value"
+      "exportKind": "value",
+      "start": 0,
+      "end": 22
     }
   ],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 22
 }
 ```

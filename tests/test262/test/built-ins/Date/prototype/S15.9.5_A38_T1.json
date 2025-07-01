@@ -1,102 +1,102 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 445,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 308,
-      "end": 444,
       "expression": {
         "type": "CallExpression",
-        "start": 308,
-        "end": 443,
         "callee": {
           "type": "MemberExpression",
-          "start": 308,
-          "end": 324,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 308,
-            "end": 314,
-            "name": "assert"
+            "end": 314
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 315,
-            "end": 324,
-            "name": "sameValue"
+            "end": 324
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 308,
+          "end": 324
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 328,
-            "end": 369,
             "callee": {
               "type": "MemberExpression",
-              "start": 328,
-              "end": 357,
               "object": {
                 "type": "MemberExpression",
-                "start": 328,
-                "end": 342,
                 "object": {
                   "type": "Identifier",
+                  "name": "Date",
                   "start": 328,
-                  "end": 332,
-                  "name": "Date"
+                  "end": 332
                 },
                 "property": {
                   "type": "Identifier",
+                  "name": "prototype",
                   "start": 333,
-                  "end": 342,
-                  "name": "prototype"
+                  "end": 342
                 },
                 "optional": false,
-                "computed": false
+                "computed": false,
+                "start": 328,
+                "end": 342
               },
               "property": {
                 "type": "Identifier",
+                "name": "hasOwnProperty",
                 "start": 343,
-                "end": 357,
-                "name": "hasOwnProperty"
+                "end": 357
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 328,
+              "end": 357
             },
             "arguments": [
               {
                 "type": "Literal",
-                "start": 358,
-                "end": 368,
                 "value": "setMonth",
-                "raw": "\"setMonth\""
+                "raw": "\"setMonth\"",
+                "start": 358,
+                "end": 368
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 328,
+            "end": 369
           },
           {
             "type": "Literal",
-            "start": 373,
-            "end": 377,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "start": 373,
+            "end": 377
           },
           {
             "type": "Literal",
-            "start": 381,
-            "end": 441,
             "value": "Date.prototype.hasOwnProperty(\"setMonth\") must return true",
-            "raw": "'Date.prototype.hasOwnProperty(\"setMonth\") must return true'"
+            "raw": "'Date.prototype.hasOwnProperty(\"setMonth\") must return true'",
+            "start": 381,
+            "end": 441
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 308,
+        "end": 443
+      },
+      "start": 308,
+      "end": 444
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 445
 }

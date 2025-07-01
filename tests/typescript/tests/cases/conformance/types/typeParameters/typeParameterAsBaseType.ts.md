@@ -2,297 +2,297 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 73,
-  "end": 190,
   "body": [
     {
       "type": "ClassDeclaration",
-      "start": 73,
-      "end": 97,
       "decorators": [],
       "id": {
         "type": "Identifier",
-        "start": 79,
-        "end": 80,
         "decorators": [],
         "name": "C",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 79,
+        "end": 80
       },
       "typeParameters": {
         "type": "TSTypeParameterDeclaration",
-        "start": 80,
-        "end": 83,
         "params": [
           {
             "type": "TSTypeParameter",
-            "start": 81,
-            "end": 82,
             "name": {
               "type": "Identifier",
-              "start": 81,
-              "end": 82,
               "decorators": [],
               "name": "T",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 81,
+              "end": 82
             },
             "constraint": null,
             "default": null,
             "in": false,
             "out": false,
-            "const": false
+            "const": false,
+            "start": 81,
+            "end": 82
           }
-        ]
+        ],
+        "start": 80,
+        "end": 83
       },
       "superClass": {
         "type": "Identifier",
-        "start": 92,
-        "end": 93,
         "decorators": [],
         "name": "T",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 92,
+        "end": 93
       },
       "superTypeArguments": null,
       "implements": [],
       "body": {
         "type": "ClassBody",
+        "body": [],
         "start": 94,
-        "end": 97,
-        "body": []
+        "end": 97
       },
       "abstract": false,
-      "declare": false
+      "declare": false,
+      "start": 73,
+      "end": 97
     },
     {
       "type": "ClassDeclaration",
-      "start": 98,
-      "end": 126,
       "decorators": [],
       "id": {
         "type": "Identifier",
-        "start": 104,
-        "end": 106,
         "decorators": [],
         "name": "C2",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 104,
+        "end": 106
       },
       "typeParameters": {
         "type": "TSTypeParameterDeclaration",
-        "start": 106,
-        "end": 112,
         "params": [
           {
             "type": "TSTypeParameter",
-            "start": 107,
-            "end": 108,
             "name": {
               "type": "Identifier",
-              "start": 107,
-              "end": 108,
               "decorators": [],
               "name": "T",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 107,
+              "end": 108
             },
             "constraint": null,
             "default": null,
             "in": false,
             "out": false,
-            "const": false
+            "const": false,
+            "start": 107,
+            "end": 108
           },
           {
             "type": "TSTypeParameter",
-            "start": 110,
-            "end": 111,
             "name": {
               "type": "Identifier",
-              "start": 110,
-              "end": 111,
               "decorators": [],
               "name": "U",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 110,
+              "end": 111
             },
             "constraint": null,
             "default": null,
             "in": false,
             "out": false,
-            "const": false
+            "const": false,
+            "start": 110,
+            "end": 111
           }
-        ]
+        ],
+        "start": 106,
+        "end": 112
       },
       "superClass": {
         "type": "Identifier",
-        "start": 121,
-        "end": 122,
         "decorators": [],
         "name": "U",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 121,
+        "end": 122
       },
       "superTypeArguments": null,
       "implements": [],
       "body": {
         "type": "ClassBody",
+        "body": [],
         "start": 123,
-        "end": 126,
-        "body": []
+        "end": 126
       },
       "abstract": false,
-      "declare": false
+      "declare": false,
+      "start": 98,
+      "end": 126
     },
     {
       "type": "TSInterfaceDeclaration",
-      "start": 128,
-      "end": 156,
       "id": {
         "type": "Identifier",
-        "start": 138,
-        "end": 139,
         "decorators": [],
         "name": "I",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 138,
+        "end": 139
       },
       "typeParameters": {
         "type": "TSTypeParameterDeclaration",
-        "start": 139,
-        "end": 142,
         "params": [
           {
             "type": "TSTypeParameter",
-            "start": 140,
-            "end": 141,
             "name": {
               "type": "Identifier",
-              "start": 140,
-              "end": 141,
               "decorators": [],
               "name": "T",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 140,
+              "end": 141
             },
             "constraint": null,
             "default": null,
             "in": false,
             "out": false,
-            "const": false
+            "const": false,
+            "start": 140,
+            "end": 141
           }
-        ]
+        ],
+        "start": 139,
+        "end": 142
       },
       "extends": [
         {
           "type": "TSInterfaceHeritage",
-          "start": 151,
-          "end": 152,
           "expression": {
             "type": "Identifier",
-            "start": 151,
-            "end": 152,
             "decorators": [],
             "name": "T",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 151,
+            "end": 152
           },
-          "typeArguments": null
+          "typeArguments": null,
+          "start": 151,
+          "end": 152
         }
       ],
       "body": {
         "type": "TSInterfaceBody",
+        "body": [],
         "start": 153,
-        "end": 156,
-        "body": []
+        "end": 156
       },
-      "declare": false
+      "declare": false,
+      "start": 128,
+      "end": 156
     },
     {
       "type": "TSInterfaceDeclaration",
-      "start": 157,
-      "end": 189,
       "id": {
         "type": "Identifier",
-        "start": 167,
-        "end": 169,
         "decorators": [],
         "name": "I2",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 167,
+        "end": 169
       },
       "typeParameters": {
         "type": "TSTypeParameterDeclaration",
-        "start": 169,
-        "end": 175,
         "params": [
           {
             "type": "TSTypeParameter",
-            "start": 170,
-            "end": 171,
             "name": {
               "type": "Identifier",
-              "start": 170,
-              "end": 171,
               "decorators": [],
               "name": "T",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 170,
+              "end": 171
             },
             "constraint": null,
             "default": null,
             "in": false,
             "out": false,
-            "const": false
+            "const": false,
+            "start": 170,
+            "end": 171
           },
           {
             "type": "TSTypeParameter",
-            "start": 173,
-            "end": 174,
             "name": {
               "type": "Identifier",
-              "start": 173,
-              "end": 174,
               "decorators": [],
               "name": "U",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 173,
+              "end": 174
             },
             "constraint": null,
             "default": null,
             "in": false,
             "out": false,
-            "const": false
+            "const": false,
+            "start": 173,
+            "end": 174
           }
-        ]
+        ],
+        "start": 169,
+        "end": 175
       },
       "extends": [
         {
           "type": "TSInterfaceHeritage",
-          "start": 184,
-          "end": 185,
           "expression": {
             "type": "Identifier",
-            "start": 184,
-            "end": 185,
             "decorators": [],
             "name": "U",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 184,
+            "end": 185
           },
-          "typeArguments": null
+          "typeArguments": null,
+          "start": 184,
+          "end": 185
         }
       ],
       "body": {
         "type": "TSInterfaceBody",
+        "body": [],
         "start": 186,
-        "end": 189,
-        "body": []
+        "end": 189
       },
-      "declare": false
+      "declare": false,
+      "start": 157,
+      "end": 189
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 73,
+  "end": 190
 }
 ```

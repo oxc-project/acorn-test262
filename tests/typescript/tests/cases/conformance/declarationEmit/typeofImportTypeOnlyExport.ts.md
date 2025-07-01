@@ -2,125 +2,121 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 64,
   "body": [
     {
       "type": "ImportDeclaration",
-      "start": 0,
-      "end": 34,
       "specifiers": [
         {
           "type": "ImportSpecifier",
-          "start": 8,
-          "end": 16,
           "imported": {
             "type": "Identifier",
-            "start": 8,
-            "end": 16,
             "decorators": [],
             "name": "classMap",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 8,
+            "end": 16
           },
           "local": {
             "type": "Identifier",
-            "start": 8,
-            "end": 16,
             "decorators": [],
             "name": "classMap",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 8,
+            "end": 16
           },
-          "importKind": "value"
+          "importKind": "value",
+          "start": 8,
+          "end": 16
         }
       ],
       "source": {
         "type": "Literal",
-        "start": 23,
-        "end": 33,
         "value": "./lit.js",
-        "raw": "'./lit.js'"
+        "raw": "'./lit.js'",
+        "start": 23,
+        "end": 33
       },
       "phase": null,
       "attributes": [],
-      "importKind": "value"
+      "importKind": "value",
+      "start": 0,
+      "end": 34
     },
     {
       "type": "ExportNamedDeclaration",
-      "start": 35,
-      "end": 63,
       "declaration": {
         "type": "VariableDeclaration",
-        "start": 42,
-        "end": 63,
         "kind": "const",
         "declarations": [
           {
             "type": "VariableDeclarator",
-            "start": 48,
-            "end": 62,
             "id": {
               "type": "Identifier",
-              "start": 48,
-              "end": 49,
               "decorators": [],
               "name": "c",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 48,
+              "end": 49
             },
             "init": {
               "type": "CallExpression",
-              "start": 52,
-              "end": 62,
               "callee": {
                 "type": "Identifier",
-                "start": 52,
-                "end": 60,
                 "decorators": [],
                 "name": "classMap",
                 "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "start": 52,
+                "end": 60
               },
               "typeArguments": null,
               "arguments": [],
-              "optional": false
+              "optional": false,
+              "start": 52,
+              "end": 62
             },
-            "definite": false
+            "definite": false,
+            "start": 48,
+            "end": 62
           }
         ],
-        "declare": false
+        "declare": false,
+        "start": 42,
+        "end": 63
       },
       "specifiers": [],
       "source": null,
       "exportKind": "value",
-      "attributes": []
+      "attributes": [],
+      "start": 35,
+      "end": 63
     }
   ],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 64
 }
 ```
 __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 201,
   "body": [
     {
       "type": "ClassDeclaration",
-      "start": 0,
-      "end": 26,
       "decorators": [],
       "id": {
         "type": "Identifier",
-        "start": 6,
-        "end": 23,
         "decorators": [],
         "name": "ClassMapDirective",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 6,
+        "end": 23
       },
       "typeParameters": null,
       "superClass": null,
@@ -128,138 +124,130 @@ __ESTREE_TEST__:PASS:
       "implements": [],
       "body": {
         "type": "ClassBody",
+        "body": [],
         "start": 24,
-        "end": 26,
-        "body": []
+        "end": 26
       },
       "abstract": false,
-      "declare": false
+      "declare": false,
+      "start": 0,
+      "end": 26
     },
     {
       "type": "ExportNamedDeclaration",
-      "start": 28,
-      "end": 60,
       "declaration": null,
       "specifiers": [
         {
           "type": "ExportSpecifier",
-          "start": 41,
-          "end": 58,
           "local": {
             "type": "Identifier",
-            "start": 41,
-            "end": 58,
             "decorators": [],
             "name": "ClassMapDirective",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 41,
+            "end": 58
           },
           "exported": {
             "type": "Identifier",
-            "start": 41,
-            "end": 58,
             "decorators": [],
             "name": "ClassMapDirective",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 41,
+            "end": 58
           },
-          "exportKind": "value"
+          "exportKind": "value",
+          "start": 41,
+          "end": 58
         }
       ],
       "source": null,
       "exportKind": "type",
-      "attributes": []
+      "attributes": [],
+      "start": 28,
+      "end": 60
     },
     {
       "type": "ExportNamedDeclaration",
-      "start": 62,
-      "end": 146,
       "declaration": {
         "type": "VariableDeclaration",
-        "start": 69,
-        "end": 146,
         "kind": "const",
         "declarations": [
           {
             "type": "VariableDeclarator",
-            "start": 75,
-            "end": 145,
             "id": {
               "type": "Identifier",
-              "start": 75,
-              "end": 84,
               "decorators": [],
               "name": "directive",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 75,
+              "end": 84
             },
             "init": {
               "type": "ArrowFunctionExpression",
-              "start": 89,
-              "end": 145,
               "expression": true,
               "async": false,
               "typeParameters": {
                 "type": "TSTypeParameterDeclaration",
-                "start": 89,
-                "end": 92,
                 "params": [
                   {
                     "type": "TSTypeParameter",
-                    "start": 90,
-                    "end": 91,
                     "name": {
                       "type": "Identifier",
-                      "start": 90,
-                      "end": 91,
                       "decorators": [],
                       "name": "C",
                       "optional": false,
-                      "typeAnnotation": null
+                      "typeAnnotation": null,
+                      "start": 90,
+                      "end": 91
                     },
                     "constraint": null,
                     "default": null,
                     "in": false,
                     "out": false,
-                    "const": false
+                    "const": false,
+                    "start": 90,
+                    "end": 91
                   }
-                ]
+                ],
+                "start": 89,
+                "end": 92
               },
               "params": [
                 {
                   "type": "Identifier",
-                  "start": 93,
-                  "end": 102,
                   "decorators": [],
                   "name": "class_",
                   "optional": false,
                   "typeAnnotation": {
                     "type": "TSTypeAnnotation",
-                    "start": 99,
-                    "end": 102,
                     "typeAnnotation": {
                       "type": "TSTypeReference",
-                      "start": 101,
-                      "end": 102,
                       "typeName": {
                         "type": "Identifier",
-                        "start": 101,
-                        "end": 102,
                         "decorators": [],
                         "name": "C",
                         "optional": false,
-                        "typeAnnotation": null
+                        "typeAnnotation": null,
+                        "start": 101,
+                        "end": 102
                       },
-                      "typeArguments": null
-                    }
-                  }
+                      "typeArguments": null,
+                      "start": 101,
+                      "end": 102
+                    },
+                    "start": 99,
+                    "end": 102
+                  },
+                  "start": 93,
+                  "end": 102
                 }
               ],
               "returnType": null,
               "body": {
                 "type": "ArrowFunctionExpression",
-                "start": 109,
-                "end": 145,
                 "expression": true,
                 "async": false,
                 "typeParameters": null,
@@ -267,117 +255,129 @@ __ESTREE_TEST__:PASS:
                 "returnType": null,
                 "body": {
                   "type": "ObjectExpression",
-                  "start": 116,
-                  "end": 144,
                   "properties": [
                     {
                       "type": "Property",
-                      "start": 122,
-                      "end": 139,
                       "kind": "init",
                       "key": {
                         "type": "Identifier",
-                        "start": 122,
-                        "end": 131,
                         "decorators": [],
                         "name": "directive",
                         "optional": false,
-                        "typeAnnotation": null
+                        "typeAnnotation": null,
+                        "start": 122,
+                        "end": 131
                       },
                       "value": {
                         "type": "Identifier",
-                        "start": 133,
-                        "end": 139,
                         "decorators": [],
                         "name": "class_",
                         "optional": false,
-                        "typeAnnotation": null
+                        "typeAnnotation": null,
+                        "start": 133,
+                        "end": 139
                       },
                       "method": false,
                       "shorthand": false,
                       "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "start": 122,
+                      "end": 139
                     }
-                  ]
+                  ],
+                  "start": 116,
+                  "end": 144
                 },
                 "id": null,
-                "generator": false
+                "generator": false,
+                "start": 109,
+                "end": 145
               },
               "id": null,
-              "generator": false
+              "generator": false,
+              "start": 89,
+              "end": 145
             },
-            "definite": false
+            "definite": false,
+            "start": 75,
+            "end": 145
           }
         ],
-        "declare": false
+        "declare": false,
+        "start": 69,
+        "end": 146
       },
       "specifiers": [],
       "source": null,
       "exportKind": "value",
-      "attributes": []
+      "attributes": [],
+      "start": 62,
+      "end": 146
     },
     {
       "type": "ExportNamedDeclaration",
-      "start": 148,
-      "end": 201,
       "declaration": {
         "type": "VariableDeclaration",
-        "start": 155,
-        "end": 201,
         "kind": "const",
         "declarations": [
           {
             "type": "VariableDeclarator",
-            "start": 161,
-            "end": 200,
             "id": {
               "type": "Identifier",
-              "start": 161,
-              "end": 169,
               "decorators": [],
               "name": "classMap",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 161,
+              "end": 169
             },
             "init": {
               "type": "CallExpression",
-              "start": 172,
-              "end": 200,
               "callee": {
                 "type": "Identifier",
-                "start": 172,
-                "end": 181,
                 "decorators": [],
                 "name": "directive",
                 "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "start": 172,
+                "end": 181
               },
               "typeArguments": null,
               "arguments": [
                 {
                   "type": "Identifier",
-                  "start": 182,
-                  "end": 199,
                   "decorators": [],
                   "name": "ClassMapDirective",
                   "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "start": 182,
+                  "end": 199
                 }
               ],
-              "optional": false
+              "optional": false,
+              "start": 172,
+              "end": 200
             },
-            "definite": false
+            "definite": false,
+            "start": 161,
+            "end": 200
           }
         ],
-        "declare": false
+        "declare": false,
+        "start": 155,
+        "end": 201
       },
       "specifiers": [],
       "source": null,
       "exportKind": "value",
-      "attributes": []
+      "attributes": [],
+      "start": 148,
+      "end": 201
     }
   ],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 201
 }
 ```

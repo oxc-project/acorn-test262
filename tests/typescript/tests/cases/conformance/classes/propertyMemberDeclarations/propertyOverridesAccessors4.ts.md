@@ -2,22 +2,18 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 139,
   "body": [
     {
       "type": "ClassDeclaration",
-      "start": 0,
-      "end": 75,
       "decorators": [],
       "id": {
         "type": "Identifier",
-        "start": 14,
-        "end": 20,
         "decorators": [],
         "name": "Animal",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 14,
+        "end": 20
       },
       "typeParameters": null,
       "superClass": null,
@@ -25,27 +21,21 @@ __ESTREE_TEST__:PASS:
       "implements": [],
       "body": {
         "type": "ClassBody",
-        "start": 21,
-        "end": 75,
         "body": [
           {
             "type": "MethodDefinition",
-            "start": 27,
-            "end": 46,
             "decorators": [],
             "key": {
               "type": "Identifier",
-              "start": 31,
-              "end": 36,
               "decorators": [],
               "name": "sound",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 31,
+              "end": 36
             },
             "value": {
               "type": "TSEmptyBodyFunctionExpression",
-              "start": 36,
-              "end": 46,
               "id": null,
               "generator": false,
               "async": false,
@@ -54,42 +44,42 @@ __ESTREE_TEST__:PASS:
               "params": [],
               "returnType": {
                 "type": "TSTypeAnnotation",
-                "start": 38,
-                "end": 46,
                 "typeAnnotation": {
                   "type": "TSStringKeyword",
                   "start": 40,
                   "end": 46
-                }
+                },
+                "start": 38,
+                "end": 46
               },
               "body": null,
-              "expression": false
+              "expression": false,
+              "start": 36,
+              "end": 46
             },
             "kind": "get",
             "computed": false,
             "static": false,
             "override": false,
             "optional": false,
-            "accessibility": null
+            "accessibility": null,
+            "start": 27,
+            "end": 46
           },
           {
             "type": "MethodDefinition",
-            "start": 51,
-            "end": 73,
             "decorators": [],
             "key": {
               "type": "Identifier",
-              "start": 55,
-              "end": 60,
               "decorators": [],
               "name": "sound",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 55,
+              "end": 60
             },
             "value": {
               "type": "TSEmptyBodyFunctionExpression",
-              "start": 60,
-              "end": 73,
               "id": null,
               "generator": false,
               "async": false,
@@ -98,91 +88,93 @@ __ESTREE_TEST__:PASS:
               "params": [
                 {
                   "type": "Identifier",
-                  "start": 61,
-                  "end": 72,
                   "decorators": [],
                   "name": "val",
                   "optional": false,
                   "typeAnnotation": {
                     "type": "TSTypeAnnotation",
-                    "start": 64,
-                    "end": 72,
                     "typeAnnotation": {
                       "type": "TSStringKeyword",
                       "start": 66,
                       "end": 72
-                    }
-                  }
+                    },
+                    "start": 64,
+                    "end": 72
+                  },
+                  "start": 61,
+                  "end": 72
                 }
               ],
               "returnType": null,
               "body": null,
-              "expression": false
+              "expression": false,
+              "start": 60,
+              "end": 73
             },
             "kind": "set",
             "computed": false,
             "static": false,
             "override": false,
             "optional": false,
-            "accessibility": null
+            "accessibility": null,
+            "start": 51,
+            "end": 73
           }
-        ]
+        ],
+        "start": 21,
+        "end": 75
       },
       "abstract": false,
-      "declare": true
+      "declare": true,
+      "start": 0,
+      "end": 75
     },
     {
       "type": "ClassDeclaration",
-      "start": 76,
-      "end": 139,
       "decorators": [],
       "id": {
         "type": "Identifier",
-        "start": 82,
-        "end": 86,
         "decorators": [],
         "name": "Lion",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 82,
+        "end": 86
       },
       "typeParameters": null,
       "superClass": {
         "type": "Identifier",
-        "start": 95,
-        "end": 101,
         "decorators": [],
         "name": "Animal",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 95,
+        "end": 101
       },
       "superTypeArguments": null,
       "implements": [],
       "body": {
         "type": "ClassBody",
-        "start": 102,
-        "end": 139,
         "body": [
           {
             "type": "PropertyDefinition",
-            "start": 108,
-            "end": 123,
             "decorators": [],
             "key": {
               "type": "Identifier",
-              "start": 108,
-              "end": 113,
               "decorators": [],
               "name": "sound",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 108,
+              "end": 113
             },
             "typeAnnotation": null,
             "value": {
               "type": "Literal",
-              "start": 116,
-              "end": 123,
               "value": "RAWR!",
-              "raw": "'RAWR!'"
+              "raw": "'RAWR!'",
+              "start": 116,
+              "end": 123
             },
             "computed": false,
             "static": false,
@@ -191,15 +183,23 @@ __ESTREE_TEST__:PASS:
             "optional": false,
             "definite": false,
             "readonly": false,
-            "accessibility": null
+            "accessibility": null,
+            "start": 108,
+            "end": 123
           }
-        ]
+        ],
+        "start": 102,
+        "end": 139
       },
       "abstract": false,
-      "declare": false
+      "declare": false,
+      "start": 76,
+      "end": 139
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 139
 }
 ```

@@ -2,150 +2,150 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 101,
   "body": [
     {
       "type": "TSImportEqualsDeclaration",
-      "start": 0,
-      "end": 32,
       "id": {
         "type": "Identifier",
-        "start": 7,
-        "end": 9,
         "decorators": [],
         "name": "b1",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 7,
+        "end": 9
       },
       "moduleReference": {
         "type": "TSExternalModuleReference",
-        "start": 12,
-        "end": 31,
         "expression": {
           "type": "Literal",
-          "start": 20,
-          "end": 30,
           "value": "./b.json",
-          "raw": "'./b.json'"
-        }
+          "raw": "'./b.json'",
+          "start": 20,
+          "end": 30
+        },
+        "start": 12,
+        "end": 31
       },
-      "importKind": "value"
+      "importKind": "value",
+      "start": 0,
+      "end": 32
     },
     {
       "type": "VariableDeclaration",
-      "start": 33,
-      "end": 44,
       "kind": "let",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 37,
-          "end": 43,
           "id": {
             "type": "Identifier",
-            "start": 37,
-            "end": 38,
             "decorators": [],
             "name": "x",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 37,
+            "end": 38
           },
           "init": {
             "type": "Identifier",
-            "start": 41,
-            "end": 43,
             "decorators": [],
             "name": "b1",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 41,
+            "end": 43
           },
-          "definite": false
+          "definite": false,
+          "start": 37,
+          "end": 43
         }
       ],
-      "declare": false
+      "declare": false,
+      "start": 33,
+      "end": 44
     },
     {
       "type": "TSImportEqualsDeclaration",
-      "start": 45,
-      "end": 77,
       "id": {
         "type": "Identifier",
-        "start": 52,
-        "end": 54,
         "decorators": [],
         "name": "b2",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 52,
+        "end": 54
       },
       "moduleReference": {
         "type": "TSExternalModuleReference",
-        "start": 57,
-        "end": 76,
         "expression": {
           "type": "Literal",
-          "start": 65,
-          "end": 75,
           "value": "./b.json",
-          "raw": "'./b.json'"
-        }
+          "raw": "'./b.json'",
+          "start": 65,
+          "end": 75
+        },
+        "start": 57,
+        "end": 76
       },
-      "importKind": "value"
+      "importKind": "value",
+      "start": 45,
+      "end": 77
     },
     {
       "type": "IfStatement",
-      "start": 78,
-      "end": 100,
       "test": {
         "type": "Identifier",
-        "start": 82,
-        "end": 83,
         "decorators": [],
         "name": "x",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 82,
+        "end": 83
       },
       "consequent": {
         "type": "BlockStatement",
-        "start": 85,
-        "end": 100,
         "body": [
           {
             "type": "ExpressionStatement",
-            "start": 91,
-            "end": 98,
             "expression": {
               "type": "AssignmentExpression",
-              "start": 91,
-              "end": 97,
               "operator": "=",
               "left": {
                 "type": "Identifier",
-                "start": 91,
-                "end": 92,
                 "decorators": [],
                 "name": "x",
                 "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "start": 91,
+                "end": 92
               },
               "right": {
                 "type": "Identifier",
-                "start": 95,
-                "end": 97,
                 "decorators": [],
                 "name": "b2",
                 "optional": false,
-                "typeAnnotation": null
-              }
+                "typeAnnotation": null,
+                "start": 95,
+                "end": 97
+              },
+              "start": 91,
+              "end": 97
             },
-            "directive": null
+            "directive": null,
+            "start": 91,
+            "end": 98
           }
-        ]
+        ],
+        "start": 85,
+        "end": 100
       },
-      "alternate": null
+      "alternate": null,
+      "start": 78,
+      "end": 100
     }
   ],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 101
 }
 ```

@@ -1,121 +1,121 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 465,
   "body": [
     {
       "type": "ImportDeclaration",
-      "start": 311,
-      "end": 367,
       "specifiers": [
         {
           "type": "ImportNamespaceSpecifier",
-          "start": 318,
-          "end": 329,
           "local": {
             "type": "Identifier",
+            "name": "Scouts",
             "start": 323,
-            "end": 329,
-            "name": "Scouts"
-          }
+            "end": 329
+          },
+          "start": 318,
+          "end": 329
         }
       ],
       "source": {
         "type": "Literal",
-        "start": 335,
-        "end": 366,
         "value": "./export-expname-from-star.js",
-        "raw": "\"./export-expname-from-star.js\""
+        "raw": "\"./export-expname-from-star.js\"",
+        "start": 335,
+        "end": 366
       },
       "phase": null,
-      "attributes": []
+      "attributes": [],
+      "start": 311,
+      "end": 367
     },
     {
       "type": "ExportAllDeclaration",
-      "start": 368,
-      "end": 412,
       "exported": null,
       "source": {
         "type": "Literal",
-        "start": 382,
-        "end": 411,
         "value": "./export-expname_FIXTURE.js",
-        "raw": "\"./export-expname_FIXTURE.js\""
+        "raw": "\"./export-expname_FIXTURE.js\"",
+        "start": 382,
+        "end": 411
       },
-      "attributes": []
+      "attributes": [],
+      "start": 368,
+      "end": 412
     },
     {
       "type": "ExpressionStatement",
-      "start": 414,
-      "end": 464,
       "expression": {
         "type": "CallExpression",
-        "start": 414,
-        "end": 463,
         "callee": {
           "type": "MemberExpression",
-          "start": 414,
-          "end": 430,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 414,
-            "end": 420,
-            "name": "assert"
+            "end": 420
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 421,
-            "end": 430,
-            "name": "sameValue"
+            "end": 430
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 414,
+          "end": 430
         },
         "arguments": [
           {
             "type": "MemberExpression",
-            "start": 431,
-            "end": 442,
             "object": {
               "type": "Identifier",
+              "name": "Scouts",
               "start": 431,
-              "end": 437,
-              "name": "Scouts"
+              "end": 437
             },
             "property": {
               "type": "Literal",
-              "start": 438,
-              "end": 441,
               "value": "☿",
-              "raw": "\"☿\""
+              "raw": "\"☿\"",
+              "start": 438,
+              "end": 441
             },
             "optional": false,
-            "computed": true
+            "computed": true,
+            "start": 431,
+            "end": 442
           },
           {
             "type": "MemberExpression",
-            "start": 444,
-            "end": 462,
             "object": {
               "type": "Identifier",
+              "name": "globalThis",
               "start": 444,
-              "end": 454,
-              "name": "globalThis"
+              "end": 454
             },
             "property": {
               "type": "Identifier",
+              "name": "Mercury",
               "start": 455,
-              "end": 462,
-              "name": "Mercury"
+              "end": 462
             },
             "optional": false,
-            "computed": false
+            "computed": false,
+            "start": 444,
+            "end": 462
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 414,
+        "end": 463
+      },
+      "start": 414,
+      "end": 464
     }
   ],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 465
 }

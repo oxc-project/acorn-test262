@@ -2,21 +2,17 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 114,
   "body": [
     {
       "type": "FunctionDeclaration",
-      "start": 0,
-      "end": 114,
       "id": {
         "type": "Identifier",
-        "start": 9,
-        "end": 12,
         "decorators": [],
         "name": "bar",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 9,
+        "end": 12
       },
       "generator": true,
       "async": false,
@@ -26,21 +22,17 @@ __ESTREE_TEST__:PASS:
       "returnType": null,
       "body": {
         "type": "BlockStatement",
-        "start": 15,
-        "end": 114,
         "body": [
           {
             "type": "FunctionDeclaration",
-            "start": 83,
-            "end": 112,
             "id": {
               "type": "Identifier",
-              "start": 92,
-              "end": 95,
               "decorators": [],
               "name": "foo",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 92,
+              "end": 95
             },
             "generator": true,
             "async": false,
@@ -49,44 +41,52 @@ __ESTREE_TEST__:PASS:
             "params": [
               {
                 "type": "AssignmentPattern",
-                "start": 96,
-                "end": 105,
                 "decorators": [],
                 "left": {
                   "type": "Identifier",
-                  "start": 96,
-                  "end": 97,
                   "decorators": [],
                   "name": "a",
                   "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "start": 96,
+                  "end": 97
                 },
                 "right": {
                   "type": "YieldExpression",
-                  "start": 100,
-                  "end": 105,
                   "delegate": false,
-                  "argument": null
+                  "argument": null,
+                  "start": 100,
+                  "end": 105
                 },
                 "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "start": 96,
+                "end": 105
               }
             ],
             "returnType": null,
             "body": {
               "type": "BlockStatement",
+              "body": [],
               "start": 107,
-              "end": 112,
-              "body": []
+              "end": 112
             },
-            "expression": false
+            "expression": false,
+            "start": 83,
+            "end": 112
           }
-        ]
+        ],
+        "start": 15,
+        "end": 114
       },
-      "expression": false
+      "expression": false,
+      "start": 0,
+      "end": 114
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 114
 }
 ```

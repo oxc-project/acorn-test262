@@ -2,114 +2,108 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 244,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 0,
-      "end": 44,
       "kind": "let",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 12,
-          "end": 43,
           "id": {
             "type": "Identifier",
-            "start": 12,
-            "end": 43,
             "decorators": [],
             "name": "win",
             "optional": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
-              "start": 15,
-              "end": 43,
               "typeAnnotation": {
                 "type": "TSIntersectionType",
-                "start": 17,
-                "end": 43,
                 "types": [
                   {
                     "type": "TSTypeReference",
-                    "start": 17,
-                    "end": 23,
                     "typeName": {
                       "type": "Identifier",
-                      "start": 17,
-                      "end": 23,
                       "decorators": [],
                       "name": "Window",
                       "optional": false,
-                      "typeAnnotation": null
+                      "typeAnnotation": null,
+                      "start": 17,
+                      "end": 23
                     },
-                    "typeArguments": null
+                    "typeArguments": null,
+                    "start": 17,
+                    "end": 23
                   },
                   {
                     "type": "TSTypeQuery",
-                    "start": 26,
-                    "end": 43,
                     "exprName": {
                       "type": "Identifier",
-                      "start": 33,
-                      "end": 43,
                       "decorators": [],
                       "name": "globalThis",
                       "optional": false,
-                      "typeAnnotation": null
+                      "typeAnnotation": null,
+                      "start": 33,
+                      "end": 43
                     },
-                    "typeArguments": null
+                    "typeArguments": null,
+                    "start": 26,
+                    "end": 43
                   }
-                ]
-              }
-            }
+                ],
+                "start": 17,
+                "end": 43
+              },
+              "start": 15,
+              "end": 43
+            },
+            "start": 12,
+            "end": 43
           },
           "init": null,
-          "definite": false
+          "definite": false,
+          "start": 12,
+          "end": 43
         }
       ],
-      "declare": true
+      "declare": true,
+      "start": 0,
+      "end": 44
     },
     {
       "type": "ExpressionStatement",
-      "start": 80,
-      "end": 86,
       "expression": {
         "type": "MemberExpression",
-        "start": 80,
-        "end": 86,
         "object": {
           "type": "Identifier",
-          "start": 80,
-          "end": 83,
           "decorators": [],
           "name": "win",
           "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "start": 80,
+          "end": 83
         },
         "property": {
           "type": "Identifier",
-          "start": 84,
-          "end": 86,
           "decorators": [],
           "name": "hi",
           "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "start": 84,
+          "end": 86
         },
         "optional": false,
-        "computed": false
+        "computed": false,
+        "start": 80,
+        "end": 86
       },
-      "directive": null
+      "directive": null,
+      "start": 80,
+      "end": 86
     },
     {
       "type": "ExpressionStatement",
-      "start": 130,
-      "end": 137,
       "expression": {
         "type": "MemberExpression",
-        "start": 130,
-        "end": 137,
         "object": {
           "type": "ThisExpression",
           "start": 130,
@@ -117,86 +111,86 @@ __ESTREE_TEST__:PASS:
         },
         "property": {
           "type": "Identifier",
-          "start": 135,
-          "end": 137,
           "decorators": [],
           "name": "hi",
           "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "start": 135,
+          "end": 137
         },
         "optional": false,
-        "computed": false
+        "computed": false,
+        "start": 130,
+        "end": 137
       },
-      "directive": null
+      "directive": null,
+      "start": 130,
+      "end": 137
     },
     {
       "type": "ExpressionStatement",
-      "start": 138,
-      "end": 151,
       "expression": {
         "type": "MemberExpression",
-        "start": 138,
-        "end": 151,
         "object": {
           "type": "Identifier",
-          "start": 138,
-          "end": 148,
           "decorators": [],
           "name": "globalThis",
           "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "start": 138,
+          "end": 148
         },
         "property": {
           "type": "Identifier",
-          "start": 149,
-          "end": 151,
           "decorators": [],
           "name": "hi",
           "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "start": 149,
+          "end": 151
         },
         "optional": false,
-        "computed": false
+        "computed": false,
+        "start": 138,
+        "end": 151
       },
-      "directive": null
+      "directive": null,
+      "start": 138,
+      "end": 151
     },
     {
       "type": "ExpressionStatement",
-      "start": 206,
-      "end": 215,
       "expression": {
         "type": "MemberExpression",
-        "start": 206,
-        "end": 215,
         "object": {
           "type": "Identifier",
-          "start": 206,
-          "end": 209,
           "decorators": [],
           "name": "win",
           "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "start": 206,
+          "end": 209
         },
         "property": {
           "type": "Literal",
-          "start": 210,
-          "end": 214,
           "value": "hi",
-          "raw": "'hi'"
+          "raw": "'hi'",
+          "start": 210,
+          "end": 214
         },
         "optional": false,
-        "computed": true
+        "computed": true,
+        "start": 206,
+        "end": 215
       },
-      "directive": null
+      "directive": null,
+      "start": 206,
+      "end": 215
     },
     {
       "type": "ExpressionStatement",
-      "start": 216,
-      "end": 226,
       "expression": {
         "type": "MemberExpression",
-        "start": 216,
-        "end": 226,
         "object": {
           "type": "ThisExpression",
           "start": 216,
@@ -204,47 +198,53 @@ __ESTREE_TEST__:PASS:
         },
         "property": {
           "type": "Literal",
-          "start": 221,
-          "end": 225,
           "value": "hi",
-          "raw": "'hi'"
+          "raw": "'hi'",
+          "start": 221,
+          "end": 225
         },
         "optional": false,
-        "computed": true
+        "computed": true,
+        "start": 216,
+        "end": 226
       },
-      "directive": null
+      "directive": null,
+      "start": 216,
+      "end": 226
     },
     {
       "type": "ExpressionStatement",
-      "start": 227,
-      "end": 243,
       "expression": {
         "type": "MemberExpression",
-        "start": 227,
-        "end": 243,
         "object": {
           "type": "Identifier",
-          "start": 227,
-          "end": 237,
           "decorators": [],
           "name": "globalThis",
           "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "start": 227,
+          "end": 237
         },
         "property": {
           "type": "Literal",
-          "start": 238,
-          "end": 242,
           "value": "hi",
-          "raw": "'hi'"
+          "raw": "'hi'",
+          "start": 238,
+          "end": 242
         },
         "optional": false,
-        "computed": true
+        "computed": true,
+        "start": 227,
+        "end": 243
       },
-      "directive": null
+      "directive": null,
+      "start": 227,
+      "end": 243
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 244
 }
 ```

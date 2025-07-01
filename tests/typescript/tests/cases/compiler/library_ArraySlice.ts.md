@@ -2,199 +2,199 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 62,
-  "end": 141,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 62,
-      "end": 86,
       "expression": {
         "type": "CallExpression",
-        "start": 62,
-        "end": 85,
         "callee": {
           "type": "MemberExpression",
-          "start": 62,
-          "end": 83,
           "object": {
             "type": "MemberExpression",
-            "start": 62,
-            "end": 77,
             "object": {
               "type": "Identifier",
-              "start": 62,
-              "end": 67,
               "decorators": [],
               "name": "Array",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 62,
+              "end": 67
             },
             "property": {
               "type": "Identifier",
-              "start": 68,
-              "end": 77,
               "decorators": [],
               "name": "prototype",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 68,
+              "end": 77
             },
             "optional": false,
-            "computed": false
+            "computed": false,
+            "start": 62,
+            "end": 77
           },
           "property": {
             "type": "Identifier",
-            "start": 78,
-            "end": 83,
             "decorators": [],
             "name": "slice",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 78,
+            "end": 83
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 62,
+          "end": 83
         },
         "typeArguments": null,
         "arguments": [],
-        "optional": false
+        "optional": false,
+        "start": 62,
+        "end": 85
       },
-      "directive": null
+      "directive": null,
+      "start": 62,
+      "end": 86
     },
     {
       "type": "ExpressionStatement",
-      "start": 87,
-      "end": 112,
       "expression": {
         "type": "CallExpression",
-        "start": 87,
-        "end": 111,
         "callee": {
           "type": "MemberExpression",
-          "start": 87,
-          "end": 108,
           "object": {
             "type": "MemberExpression",
-            "start": 87,
-            "end": 102,
             "object": {
               "type": "Identifier",
+              "decorators": [],
+              "name": "Array",
+              "optional": false,
+              "typeAnnotation": null,
               "start": 87,
-              "end": 92,
-              "decorators": [],
-              "name": "Array",
-              "optional": false,
-              "typeAnnotation": null
+              "end": 92
             },
             "property": {
               "type": "Identifier",
-              "start": 93,
-              "end": 102,
               "decorators": [],
               "name": "prototype",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 93,
+              "end": 102
             },
             "optional": false,
-            "computed": false
+            "computed": false,
+            "start": 87,
+            "end": 102
           },
           "property": {
             "type": "Identifier",
-            "start": 103,
-            "end": 108,
             "decorators": [],
             "name": "slice",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 103,
+            "end": 108
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 87,
+          "end": 108
         },
         "typeArguments": null,
         "arguments": [
           {
             "type": "Literal",
-            "start": 109,
-            "end": 110,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "start": 109,
+            "end": 110
           }
         ],
-        "optional": false
+        "optional": false,
+        "start": 87,
+        "end": 111
       },
-      "directive": null
+      "directive": null,
+      "start": 87,
+      "end": 112
     },
     {
       "type": "ExpressionStatement",
-      "start": 113,
-      "end": 141,
       "expression": {
         "type": "CallExpression",
-        "start": 113,
-        "end": 140,
         "callee": {
           "type": "MemberExpression",
-          "start": 113,
-          "end": 134,
           "object": {
             "type": "MemberExpression",
-            "start": 113,
-            "end": 128,
             "object": {
               "type": "Identifier",
-              "start": 113,
-              "end": 118,
               "decorators": [],
               "name": "Array",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 113,
+              "end": 118
             },
             "property": {
               "type": "Identifier",
-              "start": 119,
-              "end": 128,
               "decorators": [],
               "name": "prototype",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 119,
+              "end": 128
             },
             "optional": false,
-            "computed": false
+            "computed": false,
+            "start": 113,
+            "end": 128
           },
           "property": {
             "type": "Identifier",
-            "start": 129,
-            "end": 134,
             "decorators": [],
             "name": "slice",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 129,
+            "end": 134
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 113,
+          "end": 134
         },
         "typeArguments": null,
         "arguments": [
           {
             "type": "Literal",
-            "start": 135,
-            "end": 136,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "start": 135,
+            "end": 136
           },
           {
             "type": "Literal",
-            "start": 138,
-            "end": 139,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "start": 138,
+            "end": 139
           }
         ],
-        "optional": false
+        "optional": false,
+        "start": 113,
+        "end": 140
       },
-      "directive": null
+      "directive": null,
+      "start": 113,
+      "end": 141
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 62,
+  "end": 141
 }
 ```

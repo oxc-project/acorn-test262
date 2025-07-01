@@ -2,86 +2,86 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 47,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 0,
-      "end": 12,
       "expression": {
         "type": "Literal",
-        "start": 0,
-        "end": 12,
         "value": "use strict",
-        "raw": "\"use strict\""
+        "raw": "\"use strict\"",
+        "start": 0,
+        "end": 12
       },
-      "directive": "use strict"
+      "directive": "use strict",
+      "start": 0,
+      "end": 12
     },
     {
       "type": "VariableDeclaration",
-      "start": 13,
-      "end": 27,
       "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 19,
-          "end": 27,
           "id": {
             "type": "Identifier",
-            "start": 19,
-            "end": 23,
             "decorators": [],
             "name": "eval",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 19,
+            "end": 23
           },
           "init": {
             "type": "Literal",
-            "start": 26,
-            "end": 27,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "start": 26,
+            "end": 27
           },
-          "definite": false
+          "definite": false,
+          "start": 19,
+          "end": 27
         }
       ],
-      "declare": false
+      "declare": false,
+      "start": 13,
+      "end": 27
     },
     {
       "type": "VariableDeclaration",
-      "start": 28,
-      "end": 47,
       "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 34,
-          "end": 47,
           "id": {
             "type": "Identifier",
-            "start": 34,
-            "end": 43,
             "decorators": [],
             "name": "arguments",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 34,
+            "end": 43
           },
           "init": {
             "type": "Literal",
-            "start": 46,
-            "end": 47,
             "value": 2,
-            "raw": "2"
+            "raw": "2",
+            "start": 46,
+            "end": 47
           },
-          "definite": false
+          "definite": false,
+          "start": 34,
+          "end": 47
         }
       ],
-      "declare": false
+      "declare": false,
+      "start": 28,
+      "end": 47
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 47
 }
 ```

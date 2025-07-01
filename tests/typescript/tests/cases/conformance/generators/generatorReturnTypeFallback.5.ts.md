@@ -2,21 +2,17 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 130,
-  "end": 186,
   "body": [
     {
       "type": "FunctionDeclaration",
-      "start": 130,
-      "end": 186,
       "id": {
         "type": "Identifier",
-        "start": 140,
-        "end": 141,
         "decorators": [],
         "name": "f",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 140,
+        "end": 141
       },
       "generator": true,
       "async": false,
@@ -25,65 +21,69 @@ __ESTREE_TEST__:PASS:
       "params": [],
       "returnType": {
         "type": "TSTypeAnnotation",
-        "start": 143,
-        "end": 169,
         "typeAnnotation": {
           "type": "TSTypeReference",
-          "start": 145,
-          "end": 169,
           "typeName": {
             "type": "Identifier",
-            "start": 145,
-            "end": 161,
             "decorators": [],
             "name": "IterableIterator",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 145,
+            "end": 161
           },
           "typeArguments": {
             "type": "TSTypeParameterInstantiation",
-            "start": 161,
-            "end": 169,
             "params": [
               {
                 "type": "TSNumberKeyword",
                 "start": 162,
                 "end": 168
               }
-            ]
-          }
-        }
+            ],
+            "start": 161,
+            "end": 169
+          },
+          "start": 145,
+          "end": 169
+        },
+        "start": 143,
+        "end": 169
       },
       "body": {
         "type": "BlockStatement",
-        "start": 170,
-        "end": 186,
         "body": [
           {
             "type": "ExpressionStatement",
-            "start": 176,
-            "end": 184,
             "expression": {
               "type": "YieldExpression",
-              "start": 176,
-              "end": 183,
               "delegate": false,
               "argument": {
                 "type": "Literal",
-                "start": 182,
-                "end": 183,
                 "value": 1,
-                "raw": "1"
-              }
+                "raw": "1",
+                "start": 182,
+                "end": 183
+              },
+              "start": 176,
+              "end": 183
             },
-            "directive": null
+            "directive": null,
+            "start": 176,
+            "end": 184
           }
-        ]
+        ],
+        "start": 170,
+        "end": 186
       },
-      "expression": false
+      "expression": false,
+      "start": 130,
+      "end": 186
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 130,
+  "end": 186
 }
 ```

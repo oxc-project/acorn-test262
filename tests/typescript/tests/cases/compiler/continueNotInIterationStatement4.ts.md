@@ -2,61 +2,47 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 60,
   "body": [
     {
       "type": "LabeledStatement",
-      "start": 0,
-      "end": 60,
       "label": {
         "type": "Identifier",
-        "start": 0,
-        "end": 3,
         "decorators": [],
         "name": "TWO",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 0,
+        "end": 3
       },
       "body": {
         "type": "WhileStatement",
-        "start": 5,
-        "end": 60,
         "test": {
           "type": "Literal",
-          "start": 12,
-          "end": 16,
           "value": true,
-          "raw": "true"
+          "raw": "true",
+          "start": 12,
+          "end": 16
         },
         "body": {
           "type": "BlockStatement",
-          "start": 17,
-          "end": 60,
           "body": [
             {
               "type": "VariableDeclaration",
-              "start": 21,
-              "end": 58,
               "kind": "var",
               "declarations": [
                 {
                   "type": "VariableDeclarator",
-                  "start": 25,
-                  "end": 58,
                   "id": {
                     "type": "Identifier",
-                    "start": 25,
-                    "end": 26,
                     "decorators": [],
                     "name": "x",
                     "optional": false,
-                    "typeAnnotation": null
+                    "typeAnnotation": null,
+                    "start": 25,
+                    "end": 26
                   },
                   "init": {
                     "type": "ArrowFunctionExpression",
-                    "start": 29,
-                    "end": 58,
                     "expression": false,
                     "async": false,
                     "typeParameters": null,
@@ -64,39 +50,53 @@ __ESTREE_TEST__:PASS:
                     "returnType": null,
                     "body": {
                       "type": "BlockStatement",
-                      "start": 35,
-                      "end": 58,
                       "body": [
                         {
                           "type": "ContinueStatement",
-                          "start": 41,
-                          "end": 54,
                           "label": {
                             "type": "Identifier",
-                            "start": 50,
-                            "end": 53,
                             "decorators": [],
                             "name": "TWO",
                             "optional": false,
-                            "typeAnnotation": null
-                          }
+                            "typeAnnotation": null,
+                            "start": 50,
+                            "end": 53
+                          },
+                          "start": 41,
+                          "end": 54
                         }
-                      ]
+                      ],
+                      "start": 35,
+                      "end": 58
                     },
                     "id": null,
-                    "generator": false
+                    "generator": false,
+                    "start": 29,
+                    "end": 58
                   },
-                  "definite": false
+                  "definite": false,
+                  "start": 25,
+                  "end": 58
                 }
               ],
-              "declare": false
+              "declare": false,
+              "start": 21,
+              "end": 58
             }
-          ]
-        }
-      }
+          ],
+          "start": 17,
+          "end": 60
+        },
+        "start": 5,
+        "end": 60
+      },
+      "start": 0,
+      "end": 60
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 60
 }
 ```

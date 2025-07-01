@@ -2,21 +2,17 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 33,
   "body": [
     {
       "type": "FunctionDeclaration",
-      "start": 0,
-      "end": 19,
       "id": {
         "type": "Identifier",
-        "start": 9,
-        "end": 13,
         "decorators": [],
         "name": "Test",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 9,
+        "end": 13
       },
       "generator": false,
       "async": false,
@@ -26,51 +22,55 @@ __ESTREE_TEST__:PASS:
       "returnType": null,
       "body": {
         "type": "BlockStatement",
+        "body": [],
         "start": 16,
-        "end": 19,
-        "body": []
+        "end": 19
       },
-      "expression": false
+      "expression": false,
+      "start": 0,
+      "end": 19
     },
     {
       "type": "ExpressionStatement",
-      "start": 20,
-      "end": 33,
       "expression": {
         "type": "JSXElement",
-        "start": 20,
-        "end": 33,
         "openingElement": {
           "type": "JSXOpeningElement",
-          "start": 20,
-          "end": 26,
           "name": {
             "type": "JSXIdentifier",
+            "name": "Test",
             "start": 21,
-            "end": 25,
-            "name": "Test"
+            "end": 25
           },
           "typeArguments": null,
           "attributes": [],
-          "selfClosing": false
+          "selfClosing": false,
+          "start": 20,
+          "end": 26
         },
         "children": [],
         "closingElement": {
           "type": "JSXClosingElement",
-          "start": 26,
-          "end": 33,
           "name": {
             "type": "JSXIdentifier",
+            "name": "Test",
             "start": 28,
-            "end": 32,
-            "name": "Test"
-          }
-        }
+            "end": 32
+          },
+          "start": 26,
+          "end": 33
+        },
+        "start": 20,
+        "end": 33
       },
-      "directive": null
+      "directive": null,
+      "start": 20,
+      "end": 33
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 33
 }
 ```

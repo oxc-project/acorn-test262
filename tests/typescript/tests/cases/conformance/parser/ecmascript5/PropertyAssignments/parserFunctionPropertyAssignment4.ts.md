@@ -2,103 +2,103 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 23,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 0,
-      "end": 23,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 4,
-          "end": 22,
           "id": {
             "type": "Identifier",
-            "start": 4,
-            "end": 5,
             "decorators": [],
             "name": "v",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 4,
+            "end": 5
           },
           "init": {
             "type": "ObjectExpression",
-            "start": 8,
-            "end": 22,
             "properties": [
               {
                 "type": "Property",
-                "start": 10,
-                "end": 20,
                 "kind": "init",
                 "key": {
                   "type": "Literal",
-                  "start": 10,
-                  "end": 11,
                   "value": 0,
-                  "raw": "0"
+                  "raw": "0",
+                  "start": 10,
+                  "end": 11
                 },
                 "value": {
                   "type": "FunctionExpression",
-                  "start": 11,
-                  "end": 20,
                   "id": null,
                   "generator": false,
                   "async": false,
                   "declare": false,
                   "typeParameters": {
                     "type": "TSTypeParameterDeclaration",
-                    "start": 11,
-                    "end": 14,
                     "params": [
                       {
                         "type": "TSTypeParameter",
-                        "start": 12,
-                        "end": 13,
                         "name": {
                           "type": "Identifier",
-                          "start": 12,
-                          "end": 13,
                           "decorators": [],
                           "name": "T",
                           "optional": false,
-                          "typeAnnotation": null
+                          "typeAnnotation": null,
+                          "start": 12,
+                          "end": 13
                         },
                         "constraint": null,
                         "default": null,
                         "in": false,
                         "out": false,
-                        "const": false
+                        "const": false,
+                        "start": 12,
+                        "end": 13
                       }
-                    ]
+                    ],
+                    "start": 11,
+                    "end": 14
                   },
                   "params": [],
                   "returnType": null,
                   "body": {
                     "type": "BlockStatement",
+                    "body": [],
                     "start": 17,
-                    "end": 20,
-                    "body": []
+                    "end": 20
                   },
-                  "expression": false
+                  "expression": false,
+                  "start": 11,
+                  "end": 20
                 },
                 "method": true,
                 "shorthand": false,
                 "computed": false,
-                "optional": false
+                "optional": false,
+                "start": 10,
+                "end": 20
               }
-            ]
+            ],
+            "start": 8,
+            "end": 22
           },
-          "definite": false
+          "definite": false,
+          "start": 4,
+          "end": 22
         }
       ],
-      "declare": false
+      "declare": false,
+      "start": 0,
+      "end": 23
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 23
 }
 ```

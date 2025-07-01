@@ -1,208 +1,208 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 493,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 285,
-      "end": 347,
       "expression": {
         "type": "CallExpression",
-        "start": 285,
-        "end": 346,
         "callee": {
           "type": "MemberExpression",
-          "start": 285,
-          "end": 301,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 285,
-            "end": 291,
-            "name": "assert"
+            "end": 291
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 292,
-            "end": 301,
-            "name": "sameValue"
+            "end": 301
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 285,
+          "end": 301
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 302,
-            "end": 313,
             "callee": {
               "type": "Identifier",
+              "name": "Number",
               "start": 302,
-              "end": 308,
-              "name": "Number"
+              "end": 308
             },
             "arguments": [
               {
                 "type": "Literal",
-                "start": 309,
-                "end": 312,
                 "value": "4",
-                "raw": "\"4\""
+                "raw": "\"4\"",
+                "start": 309,
+                "end": 312
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 302,
+            "end": 313
           },
           {
             "type": "Literal",
-            "start": 315,
-            "end": 316,
             "value": 4,
-            "raw": "4"
+            "raw": "4",
+            "start": 315,
+            "end": 316
           },
           {
             "type": "Literal",
-            "start": 318,
-            "end": 345,
             "value": "Number(\"4\") must return 4",
-            "raw": "'Number(\"4\") must return 4'"
+            "raw": "'Number(\"4\") must return 4'",
+            "start": 318,
+            "end": 345
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 285,
+        "end": 346
+      },
+      "start": 285,
+      "end": 347
     },
     {
       "type": "ExpressionStatement",
-      "start": 348,
-      "end": 414,
       "expression": {
         "type": "CallExpression",
-        "start": 348,
-        "end": 413,
         "callee": {
           "type": "MemberExpression",
-          "start": 348,
-          "end": 364,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 348,
-            "end": 354,
-            "name": "assert"
+            "end": 354
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 355,
-            "end": 364,
-            "name": "sameValue"
+            "end": 364
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 348,
+          "end": 364
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 365,
-            "end": 378,
             "callee": {
               "type": "Identifier",
+              "name": "Number",
               "start": 365,
-              "end": 371,
-              "name": "Number"
+              "end": 371
             },
             "arguments": [
               {
                 "type": "Literal",
-                "start": 372,
-                "end": 377,
                 "value": "0x4",
-                "raw": "\"0x4\""
+                "raw": "\"0x4\"",
+                "start": 372,
+                "end": 377
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 365,
+            "end": 378
           },
           {
             "type": "Literal",
-            "start": 380,
-            "end": 381,
             "value": 4,
-            "raw": "4"
+            "raw": "4",
+            "start": 380,
+            "end": 381
           },
           {
             "type": "Literal",
-            "start": 383,
-            "end": 412,
             "value": "Number(\"0x4\") must return 4",
-            "raw": "'Number(\"0x4\") must return 4'"
+            "raw": "'Number(\"0x4\") must return 4'",
+            "start": 383,
+            "end": 412
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 348,
+        "end": 413
+      },
+      "start": 348,
+      "end": 414
     },
     {
       "type": "ExpressionStatement",
-      "start": 415,
-      "end": 492,
       "expression": {
         "type": "CallExpression",
-        "start": 415,
-        "end": 491,
         "callee": {
           "type": "MemberExpression",
-          "start": 415,
-          "end": 431,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 415,
-            "end": 421,
-            "name": "assert"
+            "end": 421
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 422,
-            "end": 431,
-            "name": "sameValue"
+            "end": 431
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 415,
+          "end": 431
         },
         "arguments": [
           {
             "type": "UnaryExpression",
-            "start": 432,
-            "end": 440,
             "operator": "+",
             "argument": {
               "type": "ParenthesizedExpression",
-              "start": 433,
-              "end": 440,
               "expression": {
                 "type": "Literal",
-                "start": 434,
-                "end": 439,
                 "value": "0X4",
-                "raw": "\"0X4\""
-              }
+                "raw": "\"0X4\"",
+                "start": 434,
+                "end": 439
+              },
+              "start": 433,
+              "end": 440
             },
-            "prefix": true
+            "prefix": true,
+            "start": 432,
+            "end": 440
           },
           {
             "type": "Literal",
-            "start": 442,
-            "end": 443,
             "value": 4,
-            "raw": "4"
+            "raw": "4",
+            "start": 442,
+            "end": 443
           },
           {
             "type": "Literal",
-            "start": 445,
-            "end": 490,
             "value": "The value of `+(\"0X4\")` is expected to be 4",
-            "raw": "'The value of `+(\"0X4\")` is expected to be 4'"
+            "raw": "'The value of `+(\"0X4\")` is expected to be 4'",
+            "start": 445,
+            "end": 490
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 415,
+        "end": 491
+      },
+      "start": 415,
+      "end": 492
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 493
 }

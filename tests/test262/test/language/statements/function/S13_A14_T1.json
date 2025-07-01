@@ -1,99 +1,99 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 628,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 286,
-      "end": 339,
       "expression": {
         "type": "CallExpression",
-        "start": 286,
-        "end": 338,
         "callee": {
           "type": "Identifier",
+          "name": "eval",
           "start": 286,
-          "end": 290,
-          "name": "eval"
+          "end": 290
         },
         "arguments": [
           {
             "type": "Literal",
-            "start": 291,
-            "end": 337,
             "value": "function __funcA(__arg){return __arg;};",
-            "raw": "\"function __func\\u0041(__arg){return __arg;};\""
+            "raw": "\"function __func\\u0041(__arg){return __arg;};\"",
+            "start": 291,
+            "end": 337
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 286,
+        "end": 338
+      },
+      "start": 286,
+      "end": 339
     },
     {
       "type": "IfStatement",
-      "start": 430,
-      "end": 545,
       "test": {
         "type": "BinaryExpression",
-        "start": 434,
-        "end": 463,
         "left": {
           "type": "UnaryExpression",
-          "start": 434,
-          "end": 448,
           "operator": "typeof",
           "argument": {
             "type": "Identifier",
+            "name": "__funcA",
             "start": 441,
-            "end": 448,
-            "name": "__funcA"
+            "end": 448
           },
-          "prefix": true
+          "prefix": true,
+          "start": 434,
+          "end": 448
         },
         "operator": "!==",
         "right": {
           "type": "Literal",
-          "start": 453,
-          "end": 463,
           "value": "function",
-          "raw": "\"function\""
-        }
+          "raw": "\"function\"",
+          "start": 453,
+          "end": 463
+        },
+        "start": 434,
+        "end": 463
       },
       "consequent": {
         "type": "BlockStatement",
-        "start": 465,
-        "end": 545,
         "body": [
           {
             "type": "ThrowStatement",
-            "start": 468,
-            "end": 543,
             "argument": {
               "type": "NewExpression",
-              "start": 474,
-              "end": 542,
               "callee": {
                 "type": "Identifier",
+                "name": "Test262Error",
                 "start": 478,
-                "end": 490,
-                "name": "Test262Error"
+                "end": 490
               },
               "arguments": [
                 {
                   "type": "Literal",
-                  "start": 491,
-                  "end": 541,
                   "value": "#1: unicode symbols in function name are allowed",
-                  "raw": "'#1: unicode symbols in function name are allowed'"
+                  "raw": "'#1: unicode symbols in function name are allowed'",
+                  "start": 491,
+                  "end": 541
                 }
-              ]
-            }
+              ],
+              "start": 474,
+              "end": 542
+            },
+            "start": 468,
+            "end": 543
           }
-        ]
+        ],
+        "start": 465,
+        "end": 545
       },
-      "alternate": null
+      "alternate": null,
+      "start": 430,
+      "end": 545
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 628
 }

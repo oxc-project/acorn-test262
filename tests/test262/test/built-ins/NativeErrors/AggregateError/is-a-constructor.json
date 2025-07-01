@@ -1,99 +1,99 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 866,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 734,
-      "end": 838,
       "expression": {
         "type": "CallExpression",
-        "start": 734,
-        "end": 837,
         "callee": {
           "type": "MemberExpression",
-          "start": 734,
-          "end": 750,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 734,
-            "end": 740,
-            "name": "assert"
+            "end": 740
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 741,
-            "end": 750,
-            "name": "sameValue"
+            "end": 750
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 734,
+          "end": 750
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 751,
-            "end": 780,
             "callee": {
               "type": "Identifier",
+              "name": "isConstructor",
               "start": 751,
-              "end": 764,
-              "name": "isConstructor"
+              "end": 764
             },
             "arguments": [
               {
                 "type": "Identifier",
+                "name": "AggregateError",
                 "start": 765,
-                "end": 779,
-                "name": "AggregateError"
+                "end": 779
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 751,
+            "end": 780
           },
           {
             "type": "Literal",
-            "start": 782,
-            "end": 786,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "start": 782,
+            "end": 786
           },
           {
             "type": "Literal",
-            "start": 788,
-            "end": 836,
             "value": "isConstructor(AggregateError) must return true",
-            "raw": "'isConstructor(AggregateError) must return true'"
+            "raw": "'isConstructor(AggregateError) must return true'",
+            "start": 788,
+            "end": 836
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 734,
+        "end": 837
+      },
+      "start": 734,
+      "end": 838
     },
     {
       "type": "ExpressionStatement",
-      "start": 839,
-      "end": 862,
       "expression": {
         "type": "NewExpression",
-        "start": 839,
-        "end": 861,
         "callee": {
           "type": "Identifier",
+          "name": "AggregateError",
           "start": 843,
-          "end": 857,
-          "name": "AggregateError"
+          "end": 857
         },
         "arguments": [
           {
             "type": "ArrayExpression",
+            "elements": [],
             "start": 858,
-            "end": 860,
-            "elements": []
+            "end": 860
           }
-        ]
-      }
+        ],
+        "start": 839,
+        "end": 861
+      },
+      "start": 839,
+      "end": 862
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 866
 }

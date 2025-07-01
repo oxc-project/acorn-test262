@@ -2,22 +2,18 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 42,
   "body": [
     {
       "type": "ClassDeclaration",
-      "start": 0,
-      "end": 17,
       "decorators": [],
       "id": {
         "type": "Identifier",
-        "start": 6,
-        "end": 13,
         "decorators": [],
         "name": "CtorTag",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 6,
+        "end": 13
       },
       "typeParameters": null,
       "superClass": null,
@@ -25,54 +21,58 @@ __ESTREE_TEST__:PASS:
       "implements": [],
       "body": {
         "type": "ClassBody",
+        "body": [],
         "start": 14,
-        "end": 17,
-        "body": []
+        "end": 17
       },
       "abstract": false,
-      "declare": false
+      "declare": false,
+      "start": 0,
+      "end": 17
     },
     {
       "type": "ExpressionStatement",
-      "start": 19,
-      "end": 42,
       "expression": {
         "type": "TaggedTemplateExpression",
-        "start": 19,
-        "end": 41,
         "tag": {
           "type": "Identifier",
-          "start": 19,
-          "end": 26,
           "decorators": [],
           "name": "CtorTag",
           "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "start": 19,
+          "end": 26
         },
         "typeArguments": null,
         "quasi": {
           "type": "TemplateLiteral",
-          "start": 27,
-          "end": 41,
           "quasis": [
             {
               "type": "TemplateElement",
-              "start": 27,
-              "end": 41,
               "value": {
                 "raw": "Hello world!",
                 "cooked": "Hello world!"
               },
-              "tail": true
+              "tail": true,
+              "start": 27,
+              "end": 41
             }
           ],
-          "expressions": []
-        }
+          "expressions": [],
+          "start": 27,
+          "end": 41
+        },
+        "start": 19,
+        "end": 41
       },
-      "directive": null
+      "directive": null,
+      "start": 19,
+      "end": 42
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 42
 }
 ```

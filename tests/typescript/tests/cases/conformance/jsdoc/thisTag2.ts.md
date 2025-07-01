@@ -2,25 +2,19 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 22,
-  "end": 83,
   "body": [
     {
       "type": "ExportNamedDeclaration",
-      "start": 22,
-      "end": 45,
       "declaration": {
         "type": "FunctionDeclaration",
-        "start": 29,
-        "end": 45,
         "id": {
           "type": "Identifier",
-          "start": 38,
-          "end": 40,
           "decorators": [],
           "name": "f1",
           "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "start": 38,
+          "end": 40
         },
         "generator": false,
         "async": false,
@@ -30,33 +24,33 @@ __ESTREE_TEST__:PASS:
         "returnType": null,
         "body": {
           "type": "BlockStatement",
+          "body": [],
           "start": 43,
-          "end": 45,
-          "body": []
+          "end": 45
         },
-        "expression": false
+        "expression": false,
+        "start": 29,
+        "end": 45
       },
       "specifiers": [],
       "source": null,
       "exportKind": "value",
-      "attributes": []
+      "attributes": [],
+      "start": 22,
+      "end": 45
     },
     {
       "type": "ExportNamedDeclaration",
-      "start": 60,
-      "end": 83,
       "declaration": {
         "type": "FunctionDeclaration",
-        "start": 67,
-        "end": 83,
         "id": {
           "type": "Identifier",
-          "start": 76,
-          "end": 78,
           "decorators": [],
           "name": "f2",
           "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "start": 76,
+          "end": 78
         },
         "generator": false,
         "async": false,
@@ -66,19 +60,25 @@ __ESTREE_TEST__:PASS:
         "returnType": null,
         "body": {
           "type": "BlockStatement",
+          "body": [],
           "start": 81,
-          "end": 83,
-          "body": []
+          "end": 83
         },
-        "expression": false
+        "expression": false,
+        "start": 67,
+        "end": 83
       },
       "specifiers": [],
       "source": null,
       "exportKind": "value",
-      "attributes": []
+      "attributes": [],
+      "start": 60,
+      "end": 83
     }
   ],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 22,
+  "end": 83
 }
 ```

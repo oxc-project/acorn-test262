@@ -2,51 +2,51 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 12,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 0,
-      "end": 12,
       "expression": {
         "type": "JSXElement",
-        "start": 0,
-        "end": 11,
         "openingElement": {
           "type": "JSXOpeningElement",
-          "start": 0,
-          "end": 11,
           "name": {
             "type": "JSXIdentifier",
+            "name": "foo",
             "start": 1,
-            "end": 4,
-            "name": "foo"
+            "end": 4
           },
           "typeArguments": null,
           "attributes": [
             {
               "type": "JSXAttribute",
-              "start": 5,
-              "end": 9,
               "name": {
                 "type": "JSXIdentifier",
+                "name": "data",
                 "start": 5,
-                "end": 9,
-                "name": "data"
+                "end": 9
               },
-              "value": null
+              "value": null,
+              "start": 5,
+              "end": 9
             }
           ],
-          "selfClosing": true
+          "selfClosing": true,
+          "start": 0,
+          "end": 11
         },
         "children": [],
-        "closingElement": null
+        "closingElement": null,
+        "start": 0,
+        "end": 11
       },
-      "directive": null
+      "directive": null,
+      "start": 0,
+      "end": 12
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 12
 }
 ```

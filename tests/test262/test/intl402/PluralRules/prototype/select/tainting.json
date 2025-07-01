@@ -1,139 +1,139 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 609,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 523,
-      "end": 549,
       "expression": {
         "type": "CallExpression",
-        "start": 523,
-        "end": 548,
         "callee": {
           "type": "Identifier",
+          "name": "taintProperties",
           "start": 523,
-          "end": 538,
-          "name": "taintProperties"
+          "end": 538
         },
         "arguments": [
           {
             "type": "ArrayExpression",
-            "start": 539,
-            "end": 547,
             "elements": [
               {
                 "type": "Literal",
-                "start": 540,
-                "end": 546,
                 "value": "type",
-                "raw": "\"type\""
+                "raw": "\"type\"",
+                "start": 540,
+                "end": 546
               }
-            ]
+            ],
+            "start": 539,
+            "end": 547
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 523,
+        "end": 548
+      },
+      "start": 523,
+      "end": 549
     },
     {
       "type": "VariableDeclaration",
-      "start": 551,
-      "end": 583,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 555,
-          "end": 582,
           "id": {
             "type": "Identifier",
+            "name": "pr",
             "start": 555,
-            "end": 557,
-            "name": "pr"
+            "end": 557
           },
           "init": {
             "type": "NewExpression",
-            "start": 560,
-            "end": 582,
             "callee": {
               "type": "MemberExpression",
-              "start": 564,
-              "end": 580,
               "object": {
                 "type": "Identifier",
+                "name": "Intl",
                 "start": 564,
-                "end": 568,
-                "name": "Intl"
+                "end": 568
               },
               "property": {
                 "type": "Identifier",
+                "name": "PluralRules",
                 "start": 569,
-                "end": 580,
-                "name": "PluralRules"
+                "end": 580
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 564,
+              "end": 580
             },
-            "arguments": []
-          }
+            "arguments": [],
+            "start": 560,
+            "end": 582
+          },
+          "start": 555,
+          "end": 582
         }
-      ]
+      ],
+      "start": 551,
+      "end": 583
     },
     {
       "type": "VariableDeclaration",
-      "start": 584,
-      "end": 608,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 588,
-          "end": 607,
           "id": {
             "type": "Identifier",
+            "name": "time",
             "start": 588,
-            "end": 592,
-            "name": "time"
+            "end": 592
           },
           "init": {
             "type": "CallExpression",
-            "start": 595,
-            "end": 607,
             "callee": {
               "type": "MemberExpression",
-              "start": 595,
-              "end": 604,
               "object": {
                 "type": "Identifier",
+                "name": "pr",
                 "start": 595,
-                "end": 597,
-                "name": "pr"
+                "end": 597
               },
               "property": {
                 "type": "Identifier",
+                "name": "select",
                 "start": 598,
-                "end": 604,
-                "name": "select"
+                "end": 604
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 595,
+              "end": 604
             },
             "arguments": [
               {
                 "type": "Literal",
-                "start": 605,
-                "end": 606,
                 "value": 9,
-                "raw": "9"
+                "raw": "9",
+                "start": 605,
+                "end": 606
               }
             ],
-            "optional": false
-          }
+            "optional": false,
+            "start": 595,
+            "end": 607
+          },
+          "start": 588,
+          "end": 607
         }
-      ]
+      ],
+      "start": 584,
+      "end": 608
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 609
 }

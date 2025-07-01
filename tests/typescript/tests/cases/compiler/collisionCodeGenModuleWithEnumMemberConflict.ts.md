@@ -2,98 +2,98 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 61,
   "body": [
     {
       "type": "TSModuleDeclaration",
-      "start": 0,
-      "end": 61,
       "id": {
         "type": "Identifier",
-        "start": 7,
-        "end": 9,
         "decorators": [],
         "name": "m1",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 7,
+        "end": 9
       },
       "body": {
         "type": "TSModuleBlock",
-        "start": 10,
-        "end": 61,
         "body": [
           {
             "type": "TSEnumDeclaration",
-            "start": 16,
-            "end": 59,
             "id": {
               "type": "Identifier",
-              "start": 21,
-              "end": 22,
               "decorators": [],
               "name": "e",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 21,
+              "end": 22
             },
             "body": {
               "type": "TSEnumBody",
-              "start": 23,
-              "end": 59,
               "members": [
                 {
                   "type": "TSEnumMember",
-                  "start": 33,
-                  "end": 35,
                   "id": {
                     "type": "Identifier",
-                    "start": 33,
-                    "end": 35,
                     "decorators": [],
                     "name": "m1",
                     "optional": false,
-                    "typeAnnotation": null
+                    "typeAnnotation": null,
+                    "start": 33,
+                    "end": 35
                   },
                   "initializer": null,
-                  "computed": false
+                  "computed": false,
+                  "start": 33,
+                  "end": 35
                 },
                 {
                   "type": "TSEnumMember",
-                  "start": 46,
-                  "end": 53,
                   "id": {
                     "type": "Identifier",
-                    "start": 46,
-                    "end": 48,
                     "decorators": [],
                     "name": "m2",
                     "optional": false,
-                    "typeAnnotation": null
+                    "typeAnnotation": null,
+                    "start": 46,
+                    "end": 48
                   },
                   "initializer": {
                     "type": "Identifier",
-                    "start": 51,
-                    "end": 53,
                     "decorators": [],
                     "name": "m1",
                     "optional": false,
-                    "typeAnnotation": null
+                    "typeAnnotation": null,
+                    "start": 51,
+                    "end": 53
                   },
-                  "computed": false
+                  "computed": false,
+                  "start": 46,
+                  "end": 53
                 }
-              ]
+              ],
+              "start": 23,
+              "end": 59
             },
             "const": false,
-            "declare": false
+            "declare": false,
+            "start": 16,
+            "end": 59
           }
-        ]
+        ],
+        "start": 10,
+        "end": 61
       },
       "kind": "module",
       "declare": false,
-      "global": false
+      "global": false,
+      "start": 0,
+      "end": 61
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 61
 }
 ```

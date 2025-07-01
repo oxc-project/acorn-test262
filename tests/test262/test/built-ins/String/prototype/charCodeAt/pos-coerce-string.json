@@ -1,108 +1,108 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 457,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 369,
-      "end": 384,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 373,
-          "end": 383,
           "id": {
             "type": "Identifier",
+            "name": "cCode",
             "start": 373,
-            "end": 378,
-            "name": "cCode"
+            "end": 378
           },
           "init": {
             "type": "Literal",
-            "start": 381,
-            "end": 383,
             "value": 99,
-            "raw": "99"
-          }
+            "raw": "99",
+            "start": 381,
+            "end": 383
+          },
+          "start": 373,
+          "end": 383
         }
-      ]
+      ],
+      "start": 369,
+      "end": 384
     },
     {
       "type": "ExpressionStatement",
-      "start": 386,
-      "end": 456,
       "expression": {
         "type": "CallExpression",
-        "start": 386,
-        "end": 455,
         "callee": {
           "type": "MemberExpression",
-          "start": 386,
-          "end": 402,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 386,
-            "end": 392,
-            "name": "assert"
+            "end": 392
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 393,
-            "end": 402,
-            "name": "sameValue"
+            "end": 402
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 386,
+          "end": 402
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 403,
-            "end": 447,
             "callee": {
               "type": "MemberExpression",
-              "start": 403,
-              "end": 420,
               "object": {
                 "type": "Literal",
-                "start": 403,
-                "end": 409,
                 "value": "abcd",
-                "raw": "'abcd'"
+                "raw": "'abcd'",
+                "start": 403,
+                "end": 409
               },
               "property": {
                 "type": "Identifier",
+                "name": "charCodeAt",
                 "start": 410,
-                "end": 420,
-                "name": "charCodeAt"
+                "end": 420
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 403,
+              "end": 420
             },
             "arguments": [
               {
                 "type": "Literal",
-                "start": 421,
-                "end": 446,
                 "value": "   +00200.0000E-0002   ",
-                "raw": "'   +00200.0000E-0002   '"
+                "raw": "'   +00200.0000E-0002   '",
+                "start": 421,
+                "end": 446
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 403,
+            "end": 447
           },
           {
             "type": "Identifier",
+            "name": "cCode",
             "start": 449,
-            "end": 454,
-            "name": "cCode"
+            "end": 454
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 386,
+        "end": 455
+      },
+      "start": 386,
+      "end": 456
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 457
 }

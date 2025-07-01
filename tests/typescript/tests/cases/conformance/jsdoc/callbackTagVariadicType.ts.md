@@ -2,36 +2,26 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 93,
-  "end": 139,
   "body": [
     {
       "type": "ExportNamedDeclaration",
-      "start": 93,
-      "end": 117,
       "declaration": {
         "type": "VariableDeclaration",
-        "start": 100,
-        "end": 117,
         "kind": "const",
         "declarations": [
           {
             "type": "VariableDeclarator",
-            "start": 106,
-            "end": 117,
             "id": {
               "type": "Identifier",
-              "start": 106,
-              "end": 107,
               "decorators": [],
               "name": "x",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 106,
+              "end": 107
             },
             "init": {
               "type": "ArrowFunctionExpression",
-              "start": 110,
-              "end": 117,
               "expression": true,
               "async": false,
               "typeParameters": null,
@@ -39,82 +29,92 @@ __ESTREE_TEST__:PASS:
               "returnType": null,
               "body": {
                 "type": "Literal",
-                "start": 116,
-                "end": 117,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "start": 116,
+                "end": 117
               },
               "id": null,
-              "generator": false
+              "generator": false,
+              "start": 110,
+              "end": 117
             },
-            "definite": false
+            "definite": false,
+            "start": 106,
+            "end": 117
           }
         ],
-        "declare": false
+        "declare": false,
+        "start": 100,
+        "end": 117
       },
       "specifiers": [],
       "source": null,
       "exportKind": "value",
-      "attributes": []
+      "attributes": [],
+      "start": 93,
+      "end": 117
     },
     {
       "type": "VariableDeclaration",
-      "start": 118,
-      "end": 139,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 122,
-          "end": 139,
           "id": {
             "type": "Identifier",
-            "start": 122,
-            "end": 125,
             "decorators": [],
             "name": "res",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 122,
+            "end": 125
           },
           "init": {
             "type": "CallExpression",
-            "start": 128,
-            "end": 139,
             "callee": {
               "type": "Identifier",
-              "start": 128,
-              "end": 129,
               "decorators": [],
               "name": "x",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 128,
+              "end": 129
             },
             "typeArguments": null,
             "arguments": [
               {
                 "type": "Literal",
-                "start": 130,
-                "end": 133,
                 "value": "a",
-                "raw": "'a'"
+                "raw": "'a'",
+                "start": 130,
+                "end": 133
               },
               {
                 "type": "Literal",
-                "start": 135,
-                "end": 138,
                 "value": "b",
-                "raw": "'b'"
+                "raw": "'b'",
+                "start": 135,
+                "end": 138
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 128,
+            "end": 139
           },
-          "definite": false
+          "definite": false,
+          "start": 122,
+          "end": 139
         }
       ],
-      "declare": false
+      "declare": false,
+      "start": 118,
+      "end": 139
     }
   ],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 93,
+  "end": 139
 }
 ```

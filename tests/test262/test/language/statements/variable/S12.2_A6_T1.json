@@ -1,86 +1,84 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 954,
   "body": [
     {
       "type": "TryStatement",
-      "start": 380,
-      "end": 505,
       "block": {
         "type": "BlockStatement",
-        "start": 383,
-        "end": 410,
         "body": [
           {
             "type": "ExpressionStatement",
-            "start": 386,
-            "end": 408,
             "expression": {
               "type": "AssignmentExpression",
-              "start": 386,
-              "end": 407,
               "operator": "=",
               "left": {
                 "type": "Identifier",
+                "name": "intry__var",
                 "start": 386,
-                "end": 396,
-                "name": "intry__var"
+                "end": 396
               },
               "right": {
                 "type": "Identifier",
+                "name": "intry__var",
                 "start": 397,
-                "end": 407,
-                "name": "intry__var"
-              }
-            }
+                "end": 407
+              },
+              "start": 386,
+              "end": 407
+            },
+            "start": 386,
+            "end": 408
           }
-        ]
+        ],
+        "start": 383,
+        "end": 410
       },
       "handler": {
         "type": "CatchClause",
-        "start": 410,
-        "end": 505,
         "param": {
           "type": "Identifier",
+          "name": "e",
           "start": 416,
-          "end": 417,
-          "name": "e"
+          "end": 417
         },
         "body": {
           "type": "BlockStatement",
-          "start": 418,
-          "end": 505,
           "body": [
             {
               "type": "ThrowStatement",
-              "start": 421,
-              "end": 503,
               "argument": {
                 "type": "NewExpression",
-                "start": 427,
-                "end": 502,
                 "callee": {
                   "type": "Identifier",
+                  "name": "Test262Error",
                   "start": 431,
-                  "end": 443,
-                  "name": "Test262Error"
+                  "end": 443
                 },
                 "arguments": [
                   {
                     "type": "Literal",
-                    "start": 444,
-                    "end": 501,
                     "value": "#1: Variable declaration inside \"try\" block is admitted",
-                    "raw": "'#1: Variable declaration inside \"try\" block is admitted'"
+                    "raw": "'#1: Variable declaration inside \"try\" block is admitted'",
+                    "start": 444,
+                    "end": 501
                   }
-                ]
-              }
+                ],
+                "start": 427,
+                "end": 502
+              },
+              "start": 421,
+              "end": 503
             }
-          ]
-        }
+          ],
+          "start": 418,
+          "end": 505
+        },
+        "start": 410,
+        "end": 505
       },
-      "finalizer": null
+      "finalizer": null,
+      "start": 380,
+      "end": 505
     },
     {
       "type": "EmptyStatement",
@@ -89,82 +87,82 @@
     },
     {
       "type": "TryStatement",
-      "start": 679,
-      "end": 810,
       "block": {
         "type": "BlockStatement",
-        "start": 682,
-        "end": 713,
         "body": [
           {
             "type": "ExpressionStatement",
-            "start": 685,
-            "end": 711,
             "expression": {
               "type": "AssignmentExpression",
-              "start": 685,
-              "end": 710,
               "operator": "=",
               "left": {
                 "type": "Identifier",
+                "name": "incatch__var",
                 "start": 685,
-                "end": 697,
-                "name": "incatch__var"
+                "end": 697
               },
               "right": {
                 "type": "Identifier",
+                "name": "incatch__var",
                 "start": 698,
-                "end": 710,
-                "name": "incatch__var"
-              }
-            }
+                "end": 710
+              },
+              "start": 685,
+              "end": 710
+            },
+            "start": 685,
+            "end": 711
           }
-        ]
+        ],
+        "start": 682,
+        "end": 713
       },
       "handler": {
         "type": "CatchClause",
-        "start": 713,
-        "end": 810,
         "param": {
           "type": "Identifier",
+          "name": "e",
           "start": 719,
-          "end": 720,
-          "name": "e"
+          "end": 720
         },
         "body": {
           "type": "BlockStatement",
-          "start": 721,
-          "end": 810,
           "body": [
             {
               "type": "ThrowStatement",
-              "start": 724,
-              "end": 808,
               "argument": {
                 "type": "NewExpression",
-                "start": 730,
-                "end": 807,
                 "callee": {
                   "type": "Identifier",
+                  "name": "Test262Error",
                   "start": 734,
-                  "end": 746,
-                  "name": "Test262Error"
+                  "end": 746
                 },
                 "arguments": [
                   {
                     "type": "Literal",
-                    "start": 747,
-                    "end": 806,
                     "value": "#2: Variable declaration inside \"catch\" block is admitted",
-                    "raw": "'#2: Variable declaration inside \"catch\" block is admitted'"
+                    "raw": "'#2: Variable declaration inside \"catch\" block is admitted'",
+                    "start": 747,
+                    "end": 806
                   }
-                ]
-              }
+                ],
+                "start": 730,
+                "end": 807
+              },
+              "start": 724,
+              "end": 808
             }
-          ]
-        }
+          ],
+          "start": 721,
+          "end": 810
+        },
+        "start": 713,
+        "end": 810
       },
-      "finalizer": null
+      "finalizer": null,
+      "start": 679,
+      "end": 810
     },
     {
       "type": "EmptyStatement",
@@ -173,74 +171,74 @@
     },
     {
       "type": "TryStatement",
-      "start": 895,
-      "end": 952,
       "block": {
         "type": "BlockStatement",
-        "start": 898,
-        "end": 919,
         "body": [
           {
             "type": "VariableDeclaration",
-            "start": 902,
-            "end": 917,
             "kind": "var",
             "declarations": [
               {
                 "type": "VariableDeclarator",
-                "start": 906,
-                "end": 916,
                 "id": {
                   "type": "Identifier",
+                  "name": "intry__var",
                   "start": 906,
-                  "end": 916,
-                  "name": "intry__var"
+                  "end": 916
                 },
-                "init": null
+                "init": null,
+                "start": 906,
+                "end": 916
               }
-            ]
+            ],
+            "start": 902,
+            "end": 917
           }
-        ]
+        ],
+        "start": 898,
+        "end": 919
       },
       "handler": {
         "type": "CatchClause",
-        "start": 919,
-        "end": 952,
         "param": {
           "type": "Identifier",
+          "name": "e",
           "start": 925,
-          "end": 926,
-          "name": "e"
+          "end": 926
         },
         "body": {
           "type": "BlockStatement",
-          "start": 927,
-          "end": 952,
           "body": [
             {
               "type": "VariableDeclaration",
-              "start": 933,
-              "end": 950,
               "kind": "var",
               "declarations": [
                 {
                   "type": "VariableDeclarator",
-                  "start": 937,
-                  "end": 949,
                   "id": {
                     "type": "Identifier",
+                    "name": "incatch__var",
                     "start": 937,
-                    "end": 949,
-                    "name": "incatch__var"
+                    "end": 949
                   },
-                  "init": null
+                  "init": null,
+                  "start": 937,
+                  "end": 949
                 }
-              ]
+              ],
+              "start": 933,
+              "end": 950
             }
-          ]
-        }
+          ],
+          "start": 927,
+          "end": 952
+        },
+        "start": 919,
+        "end": 952
       },
-      "finalizer": null
+      "finalizer": null,
+      "start": 895,
+      "end": 952
     },
     {
       "type": "EmptyStatement",
@@ -249,5 +247,7 @@
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 954
 }

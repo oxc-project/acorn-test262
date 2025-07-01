@@ -2,61 +2,61 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 24,
   "body": [
     {
       "type": "ForOfStatement",
-      "start": 0,
-      "end": 24,
       "await": false,
       "left": {
         "type": "ArrayPattern",
-        "start": 5,
-        "end": 9,
         "decorators": [],
         "elements": [
           {
             "type": "Literal",
-            "start": 6,
-            "end": 8,
             "value": "",
-            "raw": "\"\""
+            "raw": "\"\"",
+            "start": 6,
+            "end": 8
           }
         ],
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 5,
+        "end": 9
       },
       "right": {
         "type": "ArrayExpression",
-        "start": 13,
-        "end": 19,
         "elements": [
           {
             "type": "ArrayExpression",
-            "start": 14,
-            "end": 18,
             "elements": [
               {
                 "type": "Literal",
-                "start": 15,
-                "end": 17,
                 "value": "",
-                "raw": "\"\""
+                "raw": "\"\"",
+                "start": 15,
+                "end": 17
               }
-            ]
+            ],
+            "start": 14,
+            "end": 18
           }
-        ]
+        ],
+        "start": 13,
+        "end": 19
       },
       "body": {
         "type": "BlockStatement",
+        "body": [],
         "start": 21,
-        "end": 24,
-        "body": []
-      }
+        "end": 24
+      },
+      "start": 0,
+      "end": 24
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 24
 }
 ```

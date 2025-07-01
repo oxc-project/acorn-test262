@@ -2,21 +2,17 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 40,
   "body": [
     {
       "type": "FunctionDeclaration",
-      "start": 0,
-      "end": 40,
       "id": {
         "type": "Identifier",
-        "start": 9,
-        "end": 11,
         "decorators": [],
         "name": "f1",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 9,
+        "end": 11
       },
       "generator": false,
       "async": false,
@@ -26,47 +22,51 @@ __ESTREE_TEST__:PASS:
       "returnType": null,
       "body": {
         "type": "BlockStatement",
-        "start": 14,
-        "end": 40,
         "body": [
           {
             "type": "TryStatement",
-            "start": 20,
-            "end": 38,
             "block": {
               "type": "BlockStatement",
+              "body": [],
               "start": 24,
-              "end": 26,
-              "body": []
+              "end": 26
             },
             "handler": {
               "type": "CatchClause",
-              "start": 27,
-              "end": 38,
               "param": {
                 "type": "Identifier",
-                "start": 33,
-                "end": 35,
                 "decorators": [],
                 "name": "ex",
                 "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "start": 33,
+                "end": 35
               },
               "body": {
                 "type": "BlockStatement",
+                "body": [],
                 "start": 36,
-                "end": 38,
-                "body": []
-              }
+                "end": 38
+              },
+              "start": 27,
+              "end": 38
             },
-            "finalizer": null
+            "finalizer": null,
+            "start": 20,
+            "end": 38
           }
-        ]
+        ],
+        "start": 14,
+        "end": 40
       },
-      "expression": false
+      "expression": false,
+      "start": 0,
+      "end": 40
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 40
 }
 ```

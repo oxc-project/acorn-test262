@@ -2,35 +2,35 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 42,
-  "end": 81,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 42,
-      "end": 81,
       "expression": {
         "type": "TemplateLiteral",
-        "start": 42,
-        "end": 80,
         "quasis": [
           {
             "type": "TemplateElement",
-            "start": 42,
-            "end": 80,
             "value": {
               "raw": "\\u0009\\u000B\\u000C\\u0020\\u00A0\\uFEFF",
               "cooked": "\t\u000b\f  ﻿"
             },
-            "tail": true
+            "tail": true,
+            "start": 42,
+            "end": 80
           }
         ],
-        "expressions": []
+        "expressions": [],
+        "start": 42,
+        "end": 80
       },
-      "directive": null
+      "directive": null,
+      "start": 42,
+      "end": 81
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 42,
+  "end": 81
 }
 ```

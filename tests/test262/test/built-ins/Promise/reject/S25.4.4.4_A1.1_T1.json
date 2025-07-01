@@ -1,81 +1,81 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 342,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 212,
-      "end": 341,
       "expression": {
         "type": "CallExpression",
-        "start": 212,
-        "end": 340,
         "callee": {
           "type": "MemberExpression",
-          "start": 212,
-          "end": 228,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 212,
-            "end": 218,
-            "name": "assert"
+            "end": 218
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 219,
-            "end": 228,
-            "name": "sameValue"
+            "end": 228
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 212,
+          "end": 228
         },
         "arguments": [
           {
             "type": "UnaryExpression",
-            "start": 232,
-            "end": 253,
             "operator": "typeof",
             "argument": {
               "type": "MemberExpression",
-              "start": 239,
-              "end": 253,
               "object": {
                 "type": "Identifier",
+                "name": "Promise",
                 "start": 239,
-                "end": 246,
-                "name": "Promise"
+                "end": 246
               },
               "property": {
                 "type": "Identifier",
+                "name": "reject",
                 "start": 247,
-                "end": 253,
-                "name": "reject"
+                "end": 253
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 239,
+              "end": 253
             },
-            "prefix": true
+            "prefix": true,
+            "start": 232,
+            "end": 253
           },
           {
             "type": "Literal",
-            "start": 257,
-            "end": 267,
             "value": "function",
-            "raw": "\"function\""
+            "raw": "\"function\"",
+            "start": 257,
+            "end": 267
           },
           {
             "type": "Literal",
-            "start": 271,
-            "end": 338,
             "value": "The value of `typeof Promise.reject` is expected to be \"function\"",
-            "raw": "'The value of `typeof Promise.reject` is expected to be \"function\"'"
+            "raw": "'The value of `typeof Promise.reject` is expected to be \"function\"'",
+            "start": 271,
+            "end": 338
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 212,
+        "end": 340
+      },
+      "start": 212,
+      "end": 341
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 342
 }

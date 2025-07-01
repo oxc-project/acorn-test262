@@ -1,105 +1,105 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 550,
   "body": [
     {
       "type": "FunctionDeclaration",
-      "start": 436,
-      "end": 464,
       "id": {
         "type": "Identifier",
+        "name": "f1",
         "start": 445,
-        "end": 447,
-        "name": "f1"
+        "end": 447
       },
       "generator": false,
       "async": false,
       "params": [],
       "body": {
         "type": "BlockStatement",
-        "start": 449,
-        "end": 464,
         "body": [
           {
             "type": "ReturnStatement",
-            "start": 453,
-            "end": 462,
             "argument": {
               "type": "Literal",
-              "start": 460,
-              "end": 461,
               "value": 1,
-              "raw": "1"
-            }
+              "raw": "1",
+              "start": 460,
+              "end": 461
+            },
+            "start": 453,
+            "end": 462
           }
-        ]
+        ],
+        "start": 449,
+        "end": 464
       },
-      "expression": false
+      "expression": false,
+      "start": 436,
+      "end": 464
     },
     {
       "type": "IfStatement",
-      "start": 465,
-      "end": 549,
       "test": {
         "type": "BinaryExpression",
-        "start": 468,
-        "end": 491,
         "left": {
           "type": "UnaryExpression",
-          "start": 468,
-          "end": 478,
           "operator": "typeof",
           "argument": {
             "type": "ParenthesizedExpression",
-            "start": 474,
-            "end": 478,
             "expression": {
               "type": "Identifier",
+              "name": "f1",
               "start": 475,
-              "end": 477,
-              "name": "f1"
-            }
+              "end": 477
+            },
+            "start": 474,
+            "end": 478
           },
-          "prefix": true
+          "prefix": true,
+          "start": 468,
+          "end": 478
         },
         "operator": "!==",
         "right": {
           "type": "Literal",
-          "start": 481,
-          "end": 491,
           "value": "function",
-          "raw": "\"function\""
-        }
+          "raw": "\"function\"",
+          "start": 481,
+          "end": 491
+        },
+        "start": 468,
+        "end": 491
       },
       "consequent": {
         "type": "ThrowStatement",
-        "start": 495,
-        "end": 549,
         "argument": {
           "type": "NewExpression",
-          "start": 501,
-          "end": 548,
           "callee": {
             "type": "Identifier",
+            "name": "Test262Error",
             "start": 505,
-            "end": 517,
-            "name": "Test262Error"
+            "end": 517
           },
           "arguments": [
             {
               "type": "Literal",
-              "start": 518,
-              "end": 547,
               "value": "#1: typeof(f1)!==\"function\"",
-              "raw": "'#1: typeof(f1)!==\"function\"'"
+              "raw": "'#1: typeof(f1)!==\"function\"'",
+              "start": 518,
+              "end": 547
             }
-          ]
-        }
+          ],
+          "start": 501,
+          "end": 548
+        },
+        "start": 495,
+        "end": 549
       },
-      "alternate": null
+      "alternate": null,
+      "start": 465,
+      "end": 549
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 550
 }

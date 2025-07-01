@@ -2,359 +2,359 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 57,
-  "end": 323,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 57,
-      "end": 90,
       "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 71,
-          "end": 89,
           "id": {
             "type": "Identifier",
-            "start": 71,
-            "end": 89,
             "decorators": [],
             "name": "f",
             "optional": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
-              "start": 72,
-              "end": 89,
               "typeAnnotation": {
                 "type": "TSUnionType",
-                "start": 74,
-                "end": 89,
                 "types": [
                   {
                     "type": "TSLiteralType",
-                    "start": 74,
-                    "end": 77,
                     "literal": {
                       "type": "Literal",
-                      "start": 74,
-                      "end": 77,
                       "value": "a",
-                      "raw": "'a'"
-                    }
+                      "raw": "'a'",
+                      "start": 74,
+                      "end": 77
+                    },
+                    "start": 74,
+                    "end": 77
                   },
                   {
                     "type": "TSLiteralType",
-                    "start": 80,
-                    "end": 83,
                     "literal": {
                       "type": "Literal",
-                      "start": 80,
-                      "end": 83,
                       "value": "b",
-                      "raw": "'b'"
-                    }
+                      "raw": "'b'",
+                      "start": 80,
+                      "end": 83
+                    },
+                    "start": 80,
+                    "end": 83
                   },
                   {
                     "type": "TSLiteralType",
-                    "start": 86,
-                    "end": 89,
                     "literal": {
                       "type": "Literal",
-                      "start": 86,
-                      "end": 89,
                       "value": "c",
-                      "raw": "'c'"
-                    }
+                      "raw": "'c'",
+                      "start": 86,
+                      "end": 89
+                    },
+                    "start": 86,
+                    "end": 89
                   }
-                ]
-              }
-            }
+                ],
+                "start": 74,
+                "end": 89
+              },
+              "start": 72,
+              "end": 89
+            },
+            "start": 71,
+            "end": 89
           },
           "init": null,
-          "definite": false
+          "definite": false,
+          "start": 71,
+          "end": 89
         }
       ],
-      "declare": true
+      "declare": true,
+      "start": 57,
+      "end": 90
     },
     {
       "type": "SwitchStatement",
-      "start": 92,
-      "end": 197,
       "discriminant": {
         "type": "Literal",
+        "value": true,
+        "raw": "true",
         "start": 99,
-        "end": 103,
-        "value": true,
-        "raw": "true"
+        "end": 103
       },
       "cases": [
         {
           "type": "SwitchCase",
-          "start": 111,
-          "end": 126,
           "test": {
             "type": "BinaryExpression",
-            "start": 116,
-            "end": 125,
             "left": {
               "type": "Identifier",
-              "start": 116,
-              "end": 117,
               "decorators": [],
               "name": "f",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 116,
+              "end": 117
             },
             "operator": "===",
             "right": {
               "type": "Literal",
-              "start": 122,
-              "end": 125,
               "value": "a",
-              "raw": "'a'"
-            }
+              "raw": "'a'",
+              "start": 122,
+              "end": 125
+            },
+            "start": 116,
+            "end": 125
           },
-          "consequent": []
+          "consequent": [],
+          "start": 111,
+          "end": 126
         },
         {
           "type": "SwitchCase",
-          "start": 131,
-          "end": 171,
           "test": {
             "type": "BinaryExpression",
-            "start": 136,
-            "end": 145,
             "left": {
               "type": "Identifier",
-              "start": 136,
-              "end": 137,
               "decorators": [],
               "name": "f",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 136,
+              "end": 137
             },
             "operator": "===",
             "right": {
               "type": "Literal",
-              "start": 142,
-              "end": 145,
               "value": "b",
-              "raw": "'b'"
-            }
+              "raw": "'b'",
+              "start": 142,
+              "end": 145
+            },
+            "start": 136,
+            "end": 145
           },
           "consequent": [
             {
               "type": "ExpressionStatement",
-              "start": 155,
-              "end": 157,
               "expression": {
                 "type": "Identifier",
-                "start": 155,
-                "end": 156,
                 "decorators": [],
                 "name": "f",
                 "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "start": 155,
+                "end": 156
               },
-              "directive": null
+              "directive": null,
+              "start": 155,
+              "end": 157
             },
             {
               "type": "BreakStatement",
+              "label": null,
               "start": 166,
-              "end": 171,
-              "label": null
+              "end": 171
             }
-          ]
+          ],
+          "start": 131,
+          "end": 171
         },
         {
           "type": "SwitchCase",
-          "start": 176,
-          "end": 195,
           "test": null,
           "consequent": [
             {
               "type": "ExpressionStatement",
-              "start": 193,
-              "end": 195,
               "expression": {
                 "type": "Identifier",
-                "start": 193,
-                "end": 194,
                 "decorators": [],
                 "name": "f",
                 "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "start": 193,
+                "end": 194
               },
-              "directive": null
+              "directive": null,
+              "start": 193,
+              "end": 195
             }
-          ]
+          ],
+          "start": 176,
+          "end": 195
         }
-      ]
+      ],
+      "start": 92,
+      "end": 197
     },
     {
       "type": "ExpressionStatement",
-      "start": 199,
-      "end": 201,
       "expression": {
         "type": "Identifier",
-        "start": 199,
-        "end": 200,
         "decorators": [],
         "name": "f",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 199,
+        "end": 200
       },
-      "directive": null
+      "directive": null,
+      "start": 199,
+      "end": 201
     },
     {
       "type": "SwitchStatement",
-      "start": 203,
-      "end": 319,
       "discriminant": {
         "type": "Literal",
-        "start": 210,
-        "end": 214,
         "value": true,
-        "raw": "true"
+        "raw": "true",
+        "start": 210,
+        "end": 214
       },
       "cases": [
         {
           "type": "SwitchCase",
-          "start": 222,
-          "end": 248,
           "test": {
             "type": "BinaryExpression",
-            "start": 227,
-            "end": 236,
             "left": {
               "type": "Identifier",
-              "start": 227,
-              "end": 228,
               "decorators": [],
               "name": "f",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 227,
+              "end": 228
             },
             "operator": "===",
             "right": {
               "type": "Literal",
-              "start": 233,
-              "end": 236,
               "value": "a",
-              "raw": "'a'"
-            }
+              "raw": "'a'",
+              "start": 233,
+              "end": 236
+            },
+            "start": 227,
+            "end": 236
           },
           "consequent": [
             {
               "type": "ExpressionStatement",
-              "start": 246,
-              "end": 248,
               "expression": {
                 "type": "Identifier",
-                "start": 246,
-                "end": 247,
                 "decorators": [],
                 "name": "f",
                 "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "start": 246,
+                "end": 247
               },
-              "directive": null
+              "directive": null,
+              "start": 246,
+              "end": 248
             }
-          ]
+          ],
+          "start": 222,
+          "end": 248
         },
         {
           "type": "SwitchCase",
-          "start": 253,
-          "end": 293,
           "test": {
             "type": "BinaryExpression",
-            "start": 258,
-            "end": 267,
             "left": {
               "type": "Identifier",
-              "start": 258,
-              "end": 259,
               "decorators": [],
               "name": "f",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 258,
+              "end": 259
             },
             "operator": "===",
             "right": {
               "type": "Literal",
-              "start": 264,
-              "end": 267,
               "value": "b",
-              "raw": "'b'"
-            }
+              "raw": "'b'",
+              "start": 264,
+              "end": 267
+            },
+            "start": 258,
+            "end": 267
           },
           "consequent": [
             {
               "type": "ExpressionStatement",
-              "start": 277,
-              "end": 279,
               "expression": {
                 "type": "Identifier",
-                "start": 277,
-                "end": 278,
                 "decorators": [],
                 "name": "f",
                 "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "start": 277,
+                "end": 278
               },
-              "directive": null
+              "directive": null,
+              "start": 277,
+              "end": 279
             },
             {
               "type": "BreakStatement",
+              "label": null,
               "start": 288,
-              "end": 293,
-              "label": null
+              "end": 293
             }
-          ]
+          ],
+          "start": 253,
+          "end": 293
         },
         {
           "type": "SwitchCase",
-          "start": 298,
-          "end": 317,
           "test": null,
           "consequent": [
             {
               "type": "ExpressionStatement",
-              "start": 315,
-              "end": 317,
               "expression": {
                 "type": "Identifier",
-                "start": 315,
-                "end": 316,
                 "decorators": [],
                 "name": "f",
                 "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "start": 315,
+                "end": 316
               },
-              "directive": null
+              "directive": null,
+              "start": 315,
+              "end": 317
             }
-          ]
+          ],
+          "start": 298,
+          "end": 317
         }
-      ]
+      ],
+      "start": 203,
+      "end": 319
     },
     {
       "type": "ExpressionStatement",
-      "start": 321,
-      "end": 323,
       "expression": {
         "type": "Identifier",
-        "start": 321,
-        "end": 322,
         "decorators": [],
         "name": "f",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 321,
+        "end": 322
       },
-      "directive": null
+      "directive": null,
+      "start": 321,
+      "end": 323
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 57,
+  "end": 323
 }
 ```

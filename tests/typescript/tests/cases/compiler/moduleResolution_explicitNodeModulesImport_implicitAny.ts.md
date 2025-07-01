@@ -2,108 +2,108 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 15,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 0,
-      "end": 14,
       "expression": {
         "type": "AssignmentExpression",
-        "start": 0,
-        "end": 13,
         "operator": "=",
         "left": {
           "type": "MemberExpression",
-          "start": 0,
-          "end": 9,
           "object": {
             "type": "Identifier",
-            "start": 0,
-            "end": 7,
             "decorators": [],
             "name": "exports",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 0,
+            "end": 7
           },
           "property": {
             "type": "Identifier",
-            "start": 8,
-            "end": 9,
             "decorators": [],
             "name": "x",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 8,
+            "end": 9
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 0,
+          "end": 9
         },
         "right": {
           "type": "Literal",
-          "start": 12,
-          "end": 13,
           "value": 0,
-          "raw": "0"
-        }
+          "raw": "0",
+          "start": 12,
+          "end": 13
+        },
+        "start": 0,
+        "end": 13
       },
-      "directive": null
+      "directive": null,
+      "start": 0,
+      "end": 14
     }
   ],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 15
 }
 ```
 __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 40,
   "body": [
     {
       "type": "ImportDeclaration",
-      "start": 0,
-      "end": 40,
       "specifiers": [
         {
           "type": "ImportSpecifier",
-          "start": 9,
-          "end": 10,
           "imported": {
             "type": "Identifier",
-            "start": 9,
-            "end": 10,
             "decorators": [],
             "name": "y",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 9,
+            "end": 10
           },
           "local": {
             "type": "Identifier",
-            "start": 9,
-            "end": 10,
             "decorators": [],
             "name": "y",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 9,
+            "end": 10
           },
-          "importKind": "value"
+          "importKind": "value",
+          "start": 9,
+          "end": 10
         }
       ],
       "source": {
         "type": "Literal",
-        "start": 18,
-        "end": 39,
         "value": "../node_modules/foo",
-        "raw": "\"../node_modules/foo\""
+        "raw": "\"../node_modules/foo\"",
+        "start": 18,
+        "end": 39
       },
       "phase": null,
       "attributes": [],
-      "importKind": "value"
+      "importKind": "value",
+      "start": 0,
+      "end": 40
     }
   ],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 40
 }
 ```

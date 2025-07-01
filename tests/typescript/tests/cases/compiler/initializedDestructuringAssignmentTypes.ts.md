@@ -2,151 +2,151 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 51,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 0,
-      "end": 38,
       "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 6,
-          "end": 37,
           "id": {
             "type": "ArrayPattern",
-            "start": 6,
-            "end": 16,
             "decorators": [],
             "elements": [
               null,
               {
                 "type": "AssignmentPattern",
-                "start": 9,
-                "end": 15,
                 "decorators": [],
                 "left": {
                   "type": "Identifier",
-                  "start": 9,
-                  "end": 10,
                   "decorators": [],
                   "name": "a",
                   "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "start": 9,
+                  "end": 10
                 },
                 "right": {
                   "type": "Literal",
-                  "start": 13,
-                  "end": 15,
                   "value": "",
-                  "raw": "''"
+                  "raw": "''",
+                  "start": 13,
+                  "end": 15
                 },
                 "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "start": 9,
+                "end": 15
               }
             ],
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 6,
+            "end": 16
           },
           "init": {
             "type": "LogicalExpression",
-            "start": 19,
-            "end": 37,
             "left": {
               "type": "CallExpression",
-              "start": 19,
-              "end": 31,
               "callee": {
                 "type": "MemberExpression",
-                "start": 19,
-                "end": 27,
                 "object": {
                   "type": "Literal",
-                  "start": 19,
-                  "end": 21,
                   "value": "",
-                  "raw": "''"
+                  "raw": "''",
+                  "start": 19,
+                  "end": 21
                 },
                 "property": {
                   "type": "Identifier",
-                  "start": 22,
-                  "end": 27,
                   "decorators": [],
                   "name": "match",
                   "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "start": 22,
+                  "end": 27
                 },
                 "optional": false,
-                "computed": false
+                "computed": false,
+                "start": 19,
+                "end": 27
               },
               "typeArguments": null,
               "arguments": [
                 {
                   "type": "Literal",
-                  "start": 28,
-                  "end": 30,
                   "value": "",
-                  "raw": "''"
+                  "raw": "''",
+                  "start": 28,
+                  "end": 30
                 }
               ],
-              "optional": false
+              "optional": false,
+              "start": 19,
+              "end": 31
             },
             "operator": "||",
             "right": {
               "type": "ArrayExpression",
+              "elements": [],
               "start": 35,
-              "end": 37,
-              "elements": []
-            }
+              "end": 37
+            },
+            "start": 19,
+            "end": 37
           },
-          "definite": false
+          "definite": false,
+          "start": 6,
+          "end": 37
         }
       ],
-      "declare": false
+      "declare": false,
+      "start": 0,
+      "end": 38
     },
     {
       "type": "ExpressionStatement",
-      "start": 40,
-      "end": 51,
       "expression": {
         "type": "CallExpression",
-        "start": 40,
-        "end": 51,
         "callee": {
           "type": "MemberExpression",
-          "start": 40,
-          "end": 49,
           "object": {
             "type": "Identifier",
-            "start": 40,
-            "end": 41,
             "decorators": [],
             "name": "a",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 40,
+            "end": 41
           },
           "property": {
             "type": "Identifier",
-            "start": 42,
-            "end": 49,
             "decorators": [],
             "name": "toFixed",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 42,
+            "end": 49
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 40,
+          "end": 49
         },
         "typeArguments": null,
         "arguments": [],
-        "optional": false
+        "optional": false,
+        "start": 40,
+        "end": 51
       },
-      "directive": null
+      "directive": null,
+      "start": 40,
+      "end": 51
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 51
 }
 ```

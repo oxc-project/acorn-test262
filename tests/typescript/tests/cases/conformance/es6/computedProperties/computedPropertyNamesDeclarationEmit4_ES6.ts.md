@@ -2,58 +2,44 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 33,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 0,
-      "end": 33,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 4,
-          "end": 33,
           "id": {
             "type": "Identifier",
-            "start": 4,
-            "end": 33,
             "decorators": [],
             "name": "v",
             "optional": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
-              "start": 5,
-              "end": 33,
               "typeAnnotation": {
                 "type": "TSTypeLiteral",
-                "start": 7,
-                "end": 33,
                 "members": [
                   {
                     "type": "TSMethodSignature",
-                    "start": 13,
-                    "end": 31,
                     "key": {
                       "type": "BinaryExpression",
-                      "start": 14,
-                      "end": 21,
                       "left": {
                         "type": "Literal",
-                        "start": 14,
-                        "end": 16,
                         "value": "",
-                        "raw": "\"\""
+                        "raw": "\"\"",
+                        "start": 14,
+                        "end": 16
                       },
                       "operator": "+",
                       "right": {
                         "type": "Literal",
-                        "start": 19,
-                        "end": 21,
                         "value": "",
-                        "raw": "\"\""
-                      }
+                        "raw": "\"\"",
+                        "start": 19,
+                        "end": 21
+                      },
+                      "start": 14,
+                      "end": 21
                     },
                     "computed": true,
                     "optional": false,
@@ -62,30 +48,44 @@ __ESTREE_TEST__:PASS:
                     "params": [],
                     "returnType": {
                       "type": "TSTypeAnnotation",
-                      "start": 24,
-                      "end": 30,
                       "typeAnnotation": {
                         "type": "TSVoidKeyword",
                         "start": 26,
                         "end": 30
-                      }
+                      },
+                      "start": 24,
+                      "end": 30
                     },
                     "accessibility": null,
                     "readonly": false,
-                    "static": false
+                    "static": false,
+                    "start": 13,
+                    "end": 31
                   }
-                ]
-              }
-            }
+                ],
+                "start": 7,
+                "end": 33
+              },
+              "start": 5,
+              "end": 33
+            },
+            "start": 4,
+            "end": 33
           },
           "init": null,
-          "definite": false
+          "definite": false,
+          "start": 4,
+          "end": 33
         }
       ],
-      "declare": false
+      "declare": false,
+      "start": 0,
+      "end": 33
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 33
 }
 ```

@@ -1,1265 +1,1265 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 1718,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 279,
-      "end": 340,
       "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 285,
-          "end": 339,
           "id": {
             "type": "Identifier",
+            "name": "earlier",
             "start": 285,
-            "end": 292,
-            "name": "earlier"
+            "end": 292
           },
           "init": {
             "type": "NewExpression",
-            "start": 295,
-            "end": 339,
             "callee": {
               "type": "MemberExpression",
-              "start": 299,
-              "end": 315,
               "object": {
                 "type": "Identifier",
+                "name": "Temporal",
                 "start": 299,
-                "end": 307,
-                "name": "Temporal"
+                "end": 307
               },
               "property": {
                 "type": "Identifier",
+                "name": "Instant",
                 "start": 308,
-                "end": 315,
-                "name": "Instant"
+                "end": 315
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 299,
+              "end": 315
             },
             "arguments": [
               {
                 "type": "Literal",
-                "start": 316,
-                "end": 338,
                 "value": null,
                 "raw": "957270896_987_654_321n",
-                "bigint": "957270896987654321"
+                "bigint": "957270896987654321",
+                "start": 316,
+                "end": 338
               }
-            ]
-          }
+            ],
+            "start": 295,
+            "end": 339
+          },
+          "start": 285,
+          "end": 339
         }
-      ]
+      ],
+      "start": 279,
+      "end": 340
     },
     {
       "type": "VariableDeclaration",
-      "start": 341,
-      "end": 400,
       "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 347,
-          "end": 399,
           "id": {
             "type": "Identifier",
+            "name": "later",
             "start": 347,
-            "end": 352,
-            "name": "later"
+            "end": 352
           },
           "init": {
             "type": "NewExpression",
-            "start": 355,
-            "end": 399,
             "callee": {
               "type": "MemberExpression",
-              "start": 359,
-              "end": 375,
               "object": {
                 "type": "Identifier",
+                "name": "Temporal",
                 "start": 359,
-                "end": 367,
-                "name": "Temporal"
+                "end": 367
               },
               "property": {
                 "type": "Identifier",
+                "name": "Instant",
                 "start": 368,
-                "end": 375,
-                "name": "Instant"
+                "end": 375
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 359,
+              "end": 375
             },
             "arguments": [
               {
                 "type": "Literal",
-                "start": 376,
-                "end": 398,
                 "value": null,
                 "raw": "959949296_987_654_322n",
-                "bigint": "959949296987654322"
+                "bigint": "959949296987654322",
+                "start": 376,
+                "end": 398
               }
-            ]
-          }
+            ],
+            "start": 355,
+            "end": 399
+          },
+          "start": 347,
+          "end": 399
         }
-      ]
+      ],
+      "start": 341,
+      "end": 400
     },
     {
       "type": "VariableDeclaration",
-      "start": 402,
-      "end": 451,
       "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 408,
-          "end": 450,
           "id": {
             "type": "Identifier",
+            "name": "explicit",
             "start": 408,
-            "end": 416,
-            "name": "explicit"
+            "end": 416
           },
           "init": {
             "type": "CallExpression",
-            "start": 419,
-            "end": 450,
             "callee": {
               "type": "MemberExpression",
-              "start": 419,
-              "end": 432,
               "object": {
                 "type": "Identifier",
+                "name": "earlier",
                 "start": 419,
-                "end": 426,
-                "name": "earlier"
+                "end": 426
               },
               "property": {
                 "type": "Identifier",
+                "name": "until",
                 "start": 427,
-                "end": 432,
-                "name": "until"
+                "end": 432
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 419,
+              "end": 432
             },
             "arguments": [
               {
                 "type": "Identifier",
+                "name": "later",
                 "start": 433,
-                "end": 438,
-                "name": "later"
+                "end": 438
               },
               {
                 "type": "Identifier",
+                "name": "undefined",
                 "start": 440,
-                "end": 449,
-                "name": "undefined"
+                "end": 449
               }
             ],
-            "optional": false
-          }
+            "optional": false,
+            "start": 419,
+            "end": 450
+          },
+          "start": 408,
+          "end": 450
         }
-      ]
+      ],
+      "start": 402,
+      "end": 451
     },
     {
       "type": "ExpressionStatement",
-      "start": 452,
-      "end": 523,
       "expression": {
         "type": "CallExpression",
-        "start": 452,
-        "end": 522,
         "callee": {
           "type": "MemberExpression",
-          "start": 452,
-          "end": 468,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 452,
-            "end": 458,
-            "name": "assert"
+            "end": 458
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 459,
-            "end": 468,
-            "name": "sameValue"
+            "end": 468
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 452,
+          "end": 468
         },
         "arguments": [
           {
             "type": "MemberExpression",
-            "start": 469,
-            "end": 483,
             "object": {
               "type": "Identifier",
+              "name": "explicit",
               "start": 469,
-              "end": 477,
-              "name": "explicit"
+              "end": 477
             },
             "property": {
               "type": "Identifier",
+              "name": "years",
               "start": 478,
-              "end": 483,
-              "name": "years"
+              "end": 483
             },
             "optional": false,
-            "computed": false
+            "computed": false,
+            "start": 469,
+            "end": 483
           },
           {
             "type": "Literal",
+            "value": 0,
+            "raw": "0",
             "start": 485,
-            "end": 486,
-            "value": 0,
-            "raw": "0"
+            "end": 486
           },
           {
             "type": "Literal",
+            "value": "default largest unit is seconds",
+            "raw": "\"default largest unit is seconds\"",
             "start": 488,
-            "end": 521,
-            "value": "default largest unit is seconds",
-            "raw": "\"default largest unit is seconds\""
+            "end": 521
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 452,
+        "end": 522
+      },
+      "start": 452,
+      "end": 523
     },
     {
       "type": "ExpressionStatement",
-      "start": 524,
-      "end": 596,
       "expression": {
         "type": "CallExpression",
-        "start": 524,
-        "end": 595,
         "callee": {
           "type": "MemberExpression",
-          "start": 524,
-          "end": 540,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 524,
-            "end": 530,
-            "name": "assert"
+            "end": 530
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 531,
-            "end": 540,
-            "name": "sameValue"
+            "end": 540
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 524,
+          "end": 540
         },
         "arguments": [
           {
             "type": "MemberExpression",
-            "start": 541,
-            "end": 556,
             "object": {
               "type": "Identifier",
+              "name": "explicit",
               "start": 541,
-              "end": 549,
-              "name": "explicit"
+              "end": 549
             },
             "property": {
               "type": "Identifier",
+              "name": "months",
               "start": 550,
-              "end": 556,
-              "name": "months"
+              "end": 556
             },
             "optional": false,
-            "computed": false
+            "computed": false,
+            "start": 541,
+            "end": 556
           },
           {
             "type": "Literal",
+            "value": 0,
+            "raw": "0",
             "start": 558,
-            "end": 559,
-            "value": 0,
-            "raw": "0"
+            "end": 559
           },
           {
             "type": "Literal",
+            "value": "default largest unit is seconds",
+            "raw": "\"default largest unit is seconds\"",
             "start": 561,
-            "end": 594,
-            "value": "default largest unit is seconds",
-            "raw": "\"default largest unit is seconds\""
+            "end": 594
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 524,
+        "end": 595
+      },
+      "start": 524,
+      "end": 596
     },
     {
       "type": "ExpressionStatement",
-      "start": 597,
-      "end": 668,
       "expression": {
         "type": "CallExpression",
-        "start": 597,
-        "end": 667,
         "callee": {
           "type": "MemberExpression",
-          "start": 597,
-          "end": 613,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 597,
-            "end": 603,
-            "name": "assert"
+            "end": 603
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 604,
-            "end": 613,
-            "name": "sameValue"
+            "end": 613
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 597,
+          "end": 613
         },
         "arguments": [
           {
             "type": "MemberExpression",
-            "start": 614,
-            "end": 628,
             "object": {
               "type": "Identifier",
+              "name": "explicit",
               "start": 614,
-              "end": 622,
-              "name": "explicit"
+              "end": 622
             },
             "property": {
               "type": "Identifier",
+              "name": "weeks",
               "start": 623,
-              "end": 628,
-              "name": "weeks"
+              "end": 628
             },
             "optional": false,
-            "computed": false
+            "computed": false,
+            "start": 614,
+            "end": 628
           },
           {
             "type": "Literal",
+            "value": 0,
+            "raw": "0",
             "start": 630,
-            "end": 631,
-            "value": 0,
-            "raw": "0"
+            "end": 631
           },
           {
             "type": "Literal",
+            "value": "default largest unit is seconds",
+            "raw": "\"default largest unit is seconds\"",
             "start": 633,
-            "end": 666,
-            "value": "default largest unit is seconds",
-            "raw": "\"default largest unit is seconds\""
+            "end": 666
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 597,
+        "end": 667
+      },
+      "start": 597,
+      "end": 668
     },
     {
       "type": "ExpressionStatement",
-      "start": 669,
-      "end": 739,
       "expression": {
         "type": "CallExpression",
-        "start": 669,
-        "end": 738,
         "callee": {
           "type": "MemberExpression",
-          "start": 669,
-          "end": 685,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 669,
-            "end": 675,
-            "name": "assert"
+            "end": 675
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 676,
-            "end": 685,
-            "name": "sameValue"
+            "end": 685
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 669,
+          "end": 685
         },
         "arguments": [
           {
             "type": "MemberExpression",
-            "start": 686,
-            "end": 699,
             "object": {
               "type": "Identifier",
+              "name": "explicit",
               "start": 686,
-              "end": 694,
-              "name": "explicit"
+              "end": 694
             },
             "property": {
               "type": "Identifier",
+              "name": "days",
               "start": 695,
-              "end": 699,
-              "name": "days"
+              "end": 699
             },
             "optional": false,
-            "computed": false
+            "computed": false,
+            "start": 686,
+            "end": 699
           },
           {
             "type": "Literal",
+            "value": 0,
+            "raw": "0",
             "start": 701,
-            "end": 702,
-            "value": 0,
-            "raw": "0"
+            "end": 702
           },
           {
             "type": "Literal",
+            "value": "default largest unit is seconds",
+            "raw": "\"default largest unit is seconds\"",
             "start": 704,
-            "end": 737,
-            "value": "default largest unit is seconds",
-            "raw": "\"default largest unit is seconds\""
+            "end": 737
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 669,
+        "end": 738
+      },
+      "start": 669,
+      "end": 739
     },
     {
       "type": "ExpressionStatement",
-      "start": 740,
-      "end": 811,
       "expression": {
         "type": "CallExpression",
-        "start": 740,
-        "end": 810,
         "callee": {
           "type": "MemberExpression",
-          "start": 740,
-          "end": 756,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 740,
-            "end": 746,
-            "name": "assert"
+            "end": 746
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 747,
-            "end": 756,
-            "name": "sameValue"
+            "end": 756
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 740,
+          "end": 756
         },
         "arguments": [
           {
             "type": "MemberExpression",
-            "start": 757,
-            "end": 771,
             "object": {
               "type": "Identifier",
+              "name": "explicit",
               "start": 757,
-              "end": 765,
-              "name": "explicit"
+              "end": 765
             },
             "property": {
               "type": "Identifier",
+              "name": "hours",
               "start": 766,
-              "end": 771,
-              "name": "hours"
+              "end": 771
             },
             "optional": false,
-            "computed": false
+            "computed": false,
+            "start": 757,
+            "end": 771
           },
           {
             "type": "Literal",
+            "value": 0,
+            "raw": "0",
             "start": 773,
-            "end": 774,
-            "value": 0,
-            "raw": "0"
+            "end": 774
           },
           {
             "type": "Literal",
+            "value": "default largest unit is seconds",
+            "raw": "\"default largest unit is seconds\"",
             "start": 776,
-            "end": 809,
-            "value": "default largest unit is seconds",
-            "raw": "\"default largest unit is seconds\""
+            "end": 809
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 740,
+        "end": 810
+      },
+      "start": 740,
+      "end": 811
     },
     {
       "type": "ExpressionStatement",
-      "start": 812,
-      "end": 885,
       "expression": {
         "type": "CallExpression",
-        "start": 812,
-        "end": 884,
         "callee": {
           "type": "MemberExpression",
-          "start": 812,
-          "end": 828,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 812,
-            "end": 818,
-            "name": "assert"
+            "end": 818
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 819,
-            "end": 828,
-            "name": "sameValue"
+            "end": 828
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 812,
+          "end": 828
         },
         "arguments": [
           {
             "type": "MemberExpression",
-            "start": 829,
-            "end": 845,
             "object": {
               "type": "Identifier",
+              "name": "explicit",
               "start": 829,
-              "end": 837,
-              "name": "explicit"
+              "end": 837
             },
             "property": {
               "type": "Identifier",
+              "name": "minutes",
               "start": 838,
-              "end": 845,
-              "name": "minutes"
+              "end": 845
             },
             "optional": false,
-            "computed": false
+            "computed": false,
+            "start": 829,
+            "end": 845
           },
           {
             "type": "Literal",
-            "start": 847,
-            "end": 848,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "start": 847,
+            "end": 848
           },
           {
             "type": "Literal",
+            "value": "default largest unit is seconds",
+            "raw": "\"default largest unit is seconds\"",
             "start": 850,
-            "end": 883,
-            "value": "default largest unit is seconds",
-            "raw": "\"default largest unit is seconds\""
+            "end": 883
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 812,
+        "end": 884
+      },
+      "start": 812,
+      "end": 885
     },
     {
       "type": "ExpressionStatement",
-      "start": 886,
-      "end": 965,
       "expression": {
         "type": "CallExpression",
-        "start": 886,
-        "end": 964,
         "callee": {
           "type": "MemberExpression",
-          "start": 886,
-          "end": 902,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 886,
-            "end": 892,
-            "name": "assert"
+            "end": 892
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 893,
-            "end": 902,
-            "name": "sameValue"
+            "end": 902
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 886,
+          "end": 902
         },
         "arguments": [
           {
             "type": "MemberExpression",
-            "start": 903,
-            "end": 919,
             "object": {
               "type": "Identifier",
+              "name": "explicit",
               "start": 903,
-              "end": 911,
-              "name": "explicit"
+              "end": 911
             },
             "property": {
               "type": "Identifier",
+              "name": "seconds",
               "start": 912,
-              "end": 919,
-              "name": "seconds"
+              "end": 919
             },
             "optional": false,
-            "computed": false
+            "computed": false,
+            "start": 903,
+            "end": 919
           },
           {
             "type": "Literal",
-            "start": 921,
-            "end": 928,
             "value": 2678400,
-            "raw": "2678400"
+            "raw": "2678400",
+            "start": 921,
+            "end": 928
           },
           {
             "type": "Literal",
-            "start": 930,
-            "end": 963,
             "value": "default largest unit is seconds",
-            "raw": "\"default largest unit is seconds\""
+            "raw": "\"default largest unit is seconds\"",
+            "start": 930,
+            "end": 963
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 886,
+        "end": 964
+      },
+      "start": 886,
+      "end": 965
     },
     {
       "type": "ExpressionStatement",
-      "start": 966,
-      "end": 1064,
       "expression": {
         "type": "CallExpression",
-        "start": 966,
-        "end": 1063,
         "callee": {
           "type": "MemberExpression",
-          "start": 966,
-          "end": 982,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 966,
-            "end": 972,
-            "name": "assert"
+            "end": 972
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 973,
-            "end": 982,
-            "name": "sameValue"
+            "end": 982
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 966,
+          "end": 982
         },
         "arguments": [
           {
             "type": "MemberExpression",
-            "start": 983,
-            "end": 1003,
             "object": {
               "type": "Identifier",
+              "name": "explicit",
               "start": 983,
-              "end": 991,
-              "name": "explicit"
+              "end": 991
             },
             "property": {
               "type": "Identifier",
+              "name": "nanoseconds",
               "start": 992,
-              "end": 1003,
-              "name": "nanoseconds"
+              "end": 1003
             },
             "optional": false,
-            "computed": false
+            "computed": false,
+            "start": 983,
+            "end": 1003
           },
           {
             "type": "Literal",
-            "start": 1005,
-            "end": 1006,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "start": 1005,
+            "end": 1006
           },
           {
             "type": "Literal",
-            "start": 1008,
-            "end": 1062,
             "value": "default smallest unit is nanoseconds and no rounding",
-            "raw": "\"default smallest unit is nanoseconds and no rounding\""
+            "raw": "\"default smallest unit is nanoseconds and no rounding\"",
+            "start": 1008,
+            "end": 1062
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 966,
+        "end": 1063
+      },
+      "start": 966,
+      "end": 1064
     },
     {
       "type": "VariableDeclaration",
-      "start": 1066,
-      "end": 1104,
       "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 1072,
-          "end": 1103,
           "id": {
             "type": "Identifier",
+            "name": "implicit",
             "start": 1072,
-            "end": 1080,
-            "name": "implicit"
+            "end": 1080
           },
           "init": {
             "type": "CallExpression",
-            "start": 1083,
-            "end": 1103,
             "callee": {
               "type": "MemberExpression",
-              "start": 1083,
-              "end": 1096,
               "object": {
                 "type": "Identifier",
+                "name": "earlier",
                 "start": 1083,
-                "end": 1090,
-                "name": "earlier"
+                "end": 1090
               },
               "property": {
                 "type": "Identifier",
+                "name": "until",
                 "start": 1091,
-                "end": 1096,
-                "name": "until"
+                "end": 1096
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 1083,
+              "end": 1096
             },
             "arguments": [
               {
                 "type": "Identifier",
+                "name": "later",
                 "start": 1097,
-                "end": 1102,
-                "name": "later"
+                "end": 1102
               }
             ],
-            "optional": false
-          }
+            "optional": false,
+            "start": 1083,
+            "end": 1103
+          },
+          "start": 1072,
+          "end": 1103
         }
-      ]
+      ],
+      "start": 1066,
+      "end": 1104
     },
     {
       "type": "ExpressionStatement",
-      "start": 1105,
-      "end": 1176,
       "expression": {
         "type": "CallExpression",
-        "start": 1105,
-        "end": 1175,
         "callee": {
           "type": "MemberExpression",
-          "start": 1105,
-          "end": 1121,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 1105,
-            "end": 1111,
-            "name": "assert"
+            "end": 1111
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 1112,
-            "end": 1121,
-            "name": "sameValue"
+            "end": 1121
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 1105,
+          "end": 1121
         },
         "arguments": [
           {
             "type": "MemberExpression",
-            "start": 1122,
-            "end": 1136,
             "object": {
               "type": "Identifier",
+              "name": "implicit",
               "start": 1122,
-              "end": 1130,
-              "name": "implicit"
+              "end": 1130
             },
             "property": {
               "type": "Identifier",
+              "name": "years",
               "start": 1131,
-              "end": 1136,
-              "name": "years"
+              "end": 1136
             },
             "optional": false,
-            "computed": false
+            "computed": false,
+            "start": 1122,
+            "end": 1136
           },
           {
             "type": "Literal",
+            "value": 0,
+            "raw": "0",
             "start": 1138,
-            "end": 1139,
-            "value": 0,
-            "raw": "0"
+            "end": 1139
           },
           {
             "type": "Literal",
+            "value": "default largest unit is seconds",
+            "raw": "\"default largest unit is seconds\"",
             "start": 1141,
-            "end": 1174,
-            "value": "default largest unit is seconds",
-            "raw": "\"default largest unit is seconds\""
+            "end": 1174
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 1105,
+        "end": 1175
+      },
+      "start": 1105,
+      "end": 1176
     },
     {
       "type": "ExpressionStatement",
-      "start": 1177,
-      "end": 1249,
       "expression": {
         "type": "CallExpression",
-        "start": 1177,
-        "end": 1248,
         "callee": {
           "type": "MemberExpression",
-          "start": 1177,
-          "end": 1193,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 1177,
-            "end": 1183,
-            "name": "assert"
+            "end": 1183
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 1184,
-            "end": 1193,
-            "name": "sameValue"
+            "end": 1193
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 1177,
+          "end": 1193
         },
         "arguments": [
           {
             "type": "MemberExpression",
-            "start": 1194,
-            "end": 1209,
             "object": {
               "type": "Identifier",
+              "name": "implicit",
               "start": 1194,
-              "end": 1202,
-              "name": "implicit"
+              "end": 1202
             },
             "property": {
               "type": "Identifier",
+              "name": "months",
               "start": 1203,
-              "end": 1209,
-              "name": "months"
+              "end": 1209
             },
             "optional": false,
-            "computed": false
+            "computed": false,
+            "start": 1194,
+            "end": 1209
           },
           {
             "type": "Literal",
+            "value": 0,
+            "raw": "0",
             "start": 1211,
-            "end": 1212,
-            "value": 0,
-            "raw": "0"
+            "end": 1212
           },
           {
             "type": "Literal",
+            "value": "default largest unit is seconds",
+            "raw": "\"default largest unit is seconds\"",
             "start": 1214,
-            "end": 1247,
-            "value": "default largest unit is seconds",
-            "raw": "\"default largest unit is seconds\""
+            "end": 1247
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 1177,
+        "end": 1248
+      },
+      "start": 1177,
+      "end": 1249
     },
     {
       "type": "ExpressionStatement",
-      "start": 1250,
-      "end": 1321,
       "expression": {
         "type": "CallExpression",
-        "start": 1250,
-        "end": 1320,
         "callee": {
           "type": "MemberExpression",
-          "start": 1250,
-          "end": 1266,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 1250,
-            "end": 1256,
-            "name": "assert"
+            "end": 1256
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 1257,
-            "end": 1266,
-            "name": "sameValue"
+            "end": 1266
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 1250,
+          "end": 1266
         },
         "arguments": [
           {
             "type": "MemberExpression",
-            "start": 1267,
-            "end": 1281,
             "object": {
               "type": "Identifier",
+              "name": "implicit",
               "start": 1267,
-              "end": 1275,
-              "name": "implicit"
+              "end": 1275
             },
             "property": {
               "type": "Identifier",
+              "name": "weeks",
               "start": 1276,
-              "end": 1281,
-              "name": "weeks"
+              "end": 1281
             },
             "optional": false,
-            "computed": false
+            "computed": false,
+            "start": 1267,
+            "end": 1281
           },
           {
             "type": "Literal",
+            "value": 0,
+            "raw": "0",
             "start": 1283,
-            "end": 1284,
-            "value": 0,
-            "raw": "0"
+            "end": 1284
           },
           {
             "type": "Literal",
+            "value": "default largest unit is seconds",
+            "raw": "\"default largest unit is seconds\"",
             "start": 1286,
-            "end": 1319,
-            "value": "default largest unit is seconds",
-            "raw": "\"default largest unit is seconds\""
+            "end": 1319
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 1250,
+        "end": 1320
+      },
+      "start": 1250,
+      "end": 1321
     },
     {
       "type": "ExpressionStatement",
-      "start": 1322,
-      "end": 1392,
       "expression": {
         "type": "CallExpression",
-        "start": 1322,
-        "end": 1391,
         "callee": {
           "type": "MemberExpression",
-          "start": 1322,
-          "end": 1338,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 1322,
-            "end": 1328,
-            "name": "assert"
+            "end": 1328
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 1329,
-            "end": 1338,
-            "name": "sameValue"
+            "end": 1338
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 1322,
+          "end": 1338
         },
         "arguments": [
           {
             "type": "MemberExpression",
-            "start": 1339,
-            "end": 1352,
             "object": {
               "type": "Identifier",
+              "name": "implicit",
               "start": 1339,
-              "end": 1347,
-              "name": "implicit"
+              "end": 1347
             },
             "property": {
               "type": "Identifier",
+              "name": "days",
               "start": 1348,
-              "end": 1352,
-              "name": "days"
+              "end": 1352
             },
             "optional": false,
-            "computed": false
+            "computed": false,
+            "start": 1339,
+            "end": 1352
           },
           {
             "type": "Literal",
+            "value": 0,
+            "raw": "0",
             "start": 1354,
-            "end": 1355,
-            "value": 0,
-            "raw": "0"
+            "end": 1355
           },
           {
             "type": "Literal",
+            "value": "default largest unit is seconds",
+            "raw": "\"default largest unit is seconds\"",
             "start": 1357,
-            "end": 1390,
-            "value": "default largest unit is seconds",
-            "raw": "\"default largest unit is seconds\""
+            "end": 1390
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 1322,
+        "end": 1391
+      },
+      "start": 1322,
+      "end": 1392
     },
     {
       "type": "ExpressionStatement",
-      "start": 1393,
-      "end": 1464,
       "expression": {
         "type": "CallExpression",
-        "start": 1393,
-        "end": 1463,
         "callee": {
           "type": "MemberExpression",
-          "start": 1393,
-          "end": 1409,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 1393,
-            "end": 1399,
-            "name": "assert"
+            "end": 1399
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 1400,
-            "end": 1409,
-            "name": "sameValue"
+            "end": 1409
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 1393,
+          "end": 1409
         },
         "arguments": [
           {
             "type": "MemberExpression",
-            "start": 1410,
-            "end": 1424,
             "object": {
               "type": "Identifier",
+              "name": "implicit",
               "start": 1410,
-              "end": 1418,
-              "name": "implicit"
+              "end": 1418
             },
             "property": {
               "type": "Identifier",
+              "name": "hours",
               "start": 1419,
-              "end": 1424,
-              "name": "hours"
+              "end": 1424
             },
             "optional": false,
-            "computed": false
+            "computed": false,
+            "start": 1410,
+            "end": 1424
           },
           {
             "type": "Literal",
+            "value": 0,
+            "raw": "0",
             "start": 1426,
-            "end": 1427,
-            "value": 0,
-            "raw": "0"
+            "end": 1427
           },
           {
             "type": "Literal",
+            "value": "default largest unit is seconds",
+            "raw": "\"default largest unit is seconds\"",
             "start": 1429,
-            "end": 1462,
-            "value": "default largest unit is seconds",
-            "raw": "\"default largest unit is seconds\""
+            "end": 1462
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 1393,
+        "end": 1463
+      },
+      "start": 1393,
+      "end": 1464
     },
     {
       "type": "ExpressionStatement",
-      "start": 1465,
-      "end": 1538,
       "expression": {
         "type": "CallExpression",
-        "start": 1465,
-        "end": 1537,
         "callee": {
           "type": "MemberExpression",
-          "start": 1465,
-          "end": 1481,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 1465,
-            "end": 1471,
-            "name": "assert"
+            "end": 1471
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 1472,
-            "end": 1481,
-            "name": "sameValue"
+            "end": 1481
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 1465,
+          "end": 1481
         },
         "arguments": [
           {
             "type": "MemberExpression",
-            "start": 1482,
-            "end": 1498,
             "object": {
               "type": "Identifier",
+              "name": "implicit",
               "start": 1482,
-              "end": 1490,
-              "name": "implicit"
+              "end": 1490
             },
             "property": {
               "type": "Identifier",
+              "name": "minutes",
               "start": 1491,
-              "end": 1498,
-              "name": "minutes"
+              "end": 1498
             },
             "optional": false,
-            "computed": false
+            "computed": false,
+            "start": 1482,
+            "end": 1498
           },
           {
             "type": "Literal",
-            "start": 1500,
-            "end": 1501,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "start": 1500,
+            "end": 1501
           },
           {
             "type": "Literal",
+            "value": "default largest unit is seconds",
+            "raw": "\"default largest unit is seconds\"",
             "start": 1503,
-            "end": 1536,
-            "value": "default largest unit is seconds",
-            "raw": "\"default largest unit is seconds\""
+            "end": 1536
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 1465,
+        "end": 1537
+      },
+      "start": 1465,
+      "end": 1538
     },
     {
       "type": "ExpressionStatement",
-      "start": 1539,
-      "end": 1618,
       "expression": {
         "type": "CallExpression",
-        "start": 1539,
-        "end": 1617,
         "callee": {
           "type": "MemberExpression",
-          "start": 1539,
-          "end": 1555,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 1539,
-            "end": 1545,
-            "name": "assert"
+            "end": 1545
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 1546,
-            "end": 1555,
-            "name": "sameValue"
+            "end": 1555
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 1539,
+          "end": 1555
         },
         "arguments": [
           {
             "type": "MemberExpression",
-            "start": 1556,
-            "end": 1572,
             "object": {
               "type": "Identifier",
+              "name": "implicit",
               "start": 1556,
-              "end": 1564,
-              "name": "implicit"
+              "end": 1564
             },
             "property": {
               "type": "Identifier",
+              "name": "seconds",
               "start": 1565,
-              "end": 1572,
-              "name": "seconds"
+              "end": 1572
             },
             "optional": false,
-            "computed": false
+            "computed": false,
+            "start": 1556,
+            "end": 1572
           },
           {
             "type": "Literal",
-            "start": 1574,
-            "end": 1581,
             "value": 2678400,
-            "raw": "2678400"
+            "raw": "2678400",
+            "start": 1574,
+            "end": 1581
           },
           {
             "type": "Literal",
-            "start": 1583,
-            "end": 1616,
             "value": "default largest unit is seconds",
-            "raw": "\"default largest unit is seconds\""
+            "raw": "\"default largest unit is seconds\"",
+            "start": 1583,
+            "end": 1616
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 1539,
+        "end": 1617
+      },
+      "start": 1539,
+      "end": 1618
     },
     {
       "type": "ExpressionStatement",
-      "start": 1619,
-      "end": 1717,
       "expression": {
         "type": "CallExpression",
-        "start": 1619,
-        "end": 1716,
         "callee": {
           "type": "MemberExpression",
-          "start": 1619,
-          "end": 1635,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 1619,
-            "end": 1625,
-            "name": "assert"
+            "end": 1625
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 1626,
-            "end": 1635,
-            "name": "sameValue"
+            "end": 1635
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 1619,
+          "end": 1635
         },
         "arguments": [
           {
             "type": "MemberExpression",
-            "start": 1636,
-            "end": 1656,
             "object": {
               "type": "Identifier",
+              "name": "implicit",
               "start": 1636,
-              "end": 1644,
-              "name": "implicit"
+              "end": 1644
             },
             "property": {
               "type": "Identifier",
+              "name": "nanoseconds",
               "start": 1645,
-              "end": 1656,
-              "name": "nanoseconds"
+              "end": 1656
             },
             "optional": false,
-            "computed": false
+            "computed": false,
+            "start": 1636,
+            "end": 1656
           },
           {
             "type": "Literal",
-            "start": 1658,
-            "end": 1659,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "start": 1658,
+            "end": 1659
           },
           {
             "type": "Literal",
-            "start": 1661,
-            "end": 1715,
             "value": "default smallest unit is nanoseconds and no rounding",
-            "raw": "\"default smallest unit is nanoseconds and no rounding\""
+            "raw": "\"default smallest unit is nanoseconds and no rounding\"",
+            "start": 1661,
+            "end": 1715
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 1619,
+        "end": 1716
+      },
+      "start": 1619,
+      "end": 1717
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 1718
 }

@@ -2,17 +2,11 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 115,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 0,
-      "end": 8,
       "expression": {
         "type": "ArrowFunctionExpression",
-        "start": 0,
-        "end": 7,
         "expression": true,
         "async": false,
         "typeParameters": null,
@@ -20,55 +14,55 @@ __ESTREE_TEST__:PASS:
         "returnType": null,
         "body": {
           "type": "Literal",
-          "start": 6,
-          "end": 7,
           "value": 0,
-          "raw": "0"
+          "raw": "0",
+          "start": 6,
+          "end": 7
         },
         "id": null,
-        "generator": false
+        "generator": false,
+        "start": 0,
+        "end": 7
       },
-      "directive": null
+      "directive": null,
+      "start": 0,
+      "end": 8
     },
     {
       "type": "VariableDeclaration",
-      "start": 85,
-      "end": 95,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 89,
-          "end": 94,
           "id": {
             "type": "Identifier",
-            "start": 89,
-            "end": 90,
             "decorators": [],
             "name": "y",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 89,
+            "end": 90
           },
           "init": {
             "type": "Literal",
-            "start": 93,
-            "end": 94,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "start": 93,
+            "end": 94
           },
-          "definite": false
+          "definite": false,
+          "start": 89,
+          "end": 94
         }
       ],
-      "declare": false
+      "declare": false,
+      "start": 85,
+      "end": 95
     },
     {
       "type": "ExpressionStatement",
-      "start": 96,
-      "end": 104,
       "expression": {
         "type": "ArrowFunctionExpression",
-        "start": 97,
-        "end": 102,
         "expression": true,
         "async": false,
         "typeParameters": null,
@@ -76,49 +70,55 @@ __ESTREE_TEST__:PASS:
         "returnType": null,
         "body": {
           "type": "Literal",
-          "start": 101,
-          "end": 102,
           "value": 0,
-          "raw": "0"
+          "raw": "0",
+          "start": 101,
+          "end": 102
         },
         "id": null,
-        "generator": false
+        "generator": false,
+        "start": 97,
+        "end": 102
       },
-      "directive": null
+      "directive": null,
+      "start": 96,
+      "end": 104
     },
     {
       "type": "VariableDeclaration",
-      "start": 105,
-      "end": 115,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 109,
-          "end": 114,
           "id": {
             "type": "Identifier",
-            "start": 109,
-            "end": 110,
             "decorators": [],
             "name": "x",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 109,
+            "end": 110
           },
           "init": {
             "type": "Literal",
-            "start": 113,
-            "end": 114,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "start": 113,
+            "end": 114
           },
-          "definite": false
+          "definite": false,
+          "start": 109,
+          "end": 114
         }
       ],
-      "declare": false
+      "declare": false,
+      "start": 105,
+      "end": 115
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 115
 }
 ```

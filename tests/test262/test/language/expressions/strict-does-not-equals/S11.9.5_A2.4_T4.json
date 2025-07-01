@@ -1,83 +1,83 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 381,
   "body": [
     {
       "type": "IfStatement",
-      "start": 311,
-      "end": 380,
       "test": {
         "type": "BinaryExpression",
-        "start": 315,
-        "end": 328,
         "left": {
           "type": "ParenthesizedExpression",
-          "start": 315,
-          "end": 322,
           "expression": {
             "type": "AssignmentExpression",
-            "start": 316,
-            "end": 321,
             "operator": "=",
             "left": {
               "type": "Identifier",
+              "name": "y",
               "start": 316,
-              "end": 317,
-              "name": "y"
+              "end": 317
             },
             "right": {
               "type": "Literal",
-              "start": 320,
-              "end": 321,
               "value": 1,
-              "raw": "1"
-            }
-          }
+              "raw": "1",
+              "start": 320,
+              "end": 321
+            },
+            "start": 316,
+            "end": 321
+          },
+          "start": 315,
+          "end": 322
         },
         "operator": "!==",
         "right": {
           "type": "Identifier",
+          "name": "y",
           "start": 327,
-          "end": 328,
-          "name": "y"
-        }
+          "end": 328
+        },
+        "start": 315,
+        "end": 328
       },
       "consequent": {
         "type": "BlockStatement",
-        "start": 330,
-        "end": 380,
         "body": [
           {
             "type": "ThrowStatement",
-            "start": 334,
-            "end": 378,
             "argument": {
               "type": "NewExpression",
-              "start": 340,
-              "end": 377,
               "callee": {
                 "type": "Identifier",
+                "name": "Test262Error",
                 "start": 344,
-                "end": 356,
-                "name": "Test262Error"
+                "end": 356
               },
               "arguments": [
                 {
                   "type": "Literal",
-                  "start": 357,
-                  "end": 376,
                   "value": "#1: (y = 1) === y",
-                  "raw": "'#1: (y = 1) === y'"
+                  "raw": "'#1: (y = 1) === y'",
+                  "start": 357,
+                  "end": 376
                 }
-              ]
-            }
+              ],
+              "start": 340,
+              "end": 377
+            },
+            "start": 334,
+            "end": 378
           }
-        ]
+        ],
+        "start": 330,
+        "end": 380
       },
-      "alternate": null
+      "alternate": null,
+      "start": 311,
+      "end": 380
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 381
 }

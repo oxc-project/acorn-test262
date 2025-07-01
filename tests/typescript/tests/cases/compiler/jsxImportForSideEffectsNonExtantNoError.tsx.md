@@ -2,113 +2,113 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 44,
-  "end": 148,
   "body": [
     {
       "type": "ImportDeclaration",
-      "start": 44,
-      "end": 75,
       "specifiers": [
         {
           "type": "ImportNamespaceSpecifier",
-          "start": 51,
-          "end": 61,
           "local": {
             "type": "Identifier",
-            "start": 56,
-            "end": 61,
             "decorators": [],
             "name": "React",
             "optional": false,
-            "typeAnnotation": null
-          }
+            "typeAnnotation": null,
+            "start": 56,
+            "end": 61
+          },
+          "start": 51,
+          "end": 61
         }
       ],
       "source": {
         "type": "Literal",
-        "start": 67,
-        "end": 74,
         "value": "react",
-        "raw": "\"react\""
+        "raw": "\"react\"",
+        "start": 67,
+        "end": 74
       },
       "phase": null,
       "attributes": [],
-      "importKind": "value"
+      "importKind": "value",
+      "start": 44,
+      "end": 75
     },
     {
       "type": "ImportDeclaration",
-      "start": 77,
-      "end": 96,
       "specifiers": [],
       "source": {
         "type": "Literal",
-        "start": 84,
-        "end": 95,
         "value": "./App.css",
-        "raw": "\"./App.css\""
+        "raw": "\"./App.css\"",
+        "start": 84,
+        "end": 95
       },
       "phase": null,
       "attributes": [],
-      "importKind": "value"
+      "importKind": "value",
+      "start": 77,
+      "end": 96
     },
     {
       "type": "VariableDeclaration",
-      "start": 124,
-      "end": 148,
       "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 130,
-          "end": 147,
           "id": {
             "type": "Identifier",
-            "start": 130,
-            "end": 133,
             "decorators": [],
             "name": "tag",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 130,
+            "end": 133
           },
           "init": {
             "type": "JSXElement",
-            "start": 136,
-            "end": 147,
             "openingElement": {
               "type": "JSXOpeningElement",
-              "start": 136,
-              "end": 141,
               "name": {
                 "type": "JSXIdentifier",
+                "name": "div",
                 "start": 137,
-                "end": 140,
-                "name": "div"
+                "end": 140
               },
               "typeArguments": null,
               "attributes": [],
-              "selfClosing": false
+              "selfClosing": false,
+              "start": 136,
+              "end": 141
             },
             "children": [],
             "closingElement": {
               "type": "JSXClosingElement",
-              "start": 141,
-              "end": 147,
               "name": {
                 "type": "JSXIdentifier",
+                "name": "div",
                 "start": 143,
-                "end": 146,
-                "name": "div"
-              }
-            }
+                "end": 146
+              },
+              "start": 141,
+              "end": 147
+            },
+            "start": 136,
+            "end": 147
           },
-          "definite": false
+          "definite": false,
+          "start": 130,
+          "end": 147
         }
       ],
-      "declare": false
+      "declare": false,
+      "start": 124,
+      "end": 148
     }
   ],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 44,
+  "end": 148
 }
 ```

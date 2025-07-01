@@ -2,21 +2,17 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 77,
   "body": [
     {
       "type": "FunctionDeclaration",
-      "start": 0,
-      "end": 77,
       "id": {
         "type": "Identifier",
-        "start": 9,
-        "end": 12,
         "decorators": [],
         "name": "foo",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 9,
+        "end": 12
       },
       "generator": false,
       "async": false,
@@ -25,92 +21,96 @@ __ESTREE_TEST__:PASS:
       "params": [
         {
           "type": "Identifier",
-          "start": 13,
-          "end": 23,
           "decorators": [],
           "name": "x",
           "optional": false,
           "typeAnnotation": {
             "type": "TSTypeAnnotation",
-            "start": 14,
-            "end": 23,
             "typeAnnotation": {
               "type": "TSUnknownKeyword",
               "start": 16,
               "end": 23
-            }
-          }
+            },
+            "start": 14,
+            "end": 23
+          },
+          "start": 13,
+          "end": 23
         }
       ],
       "returnType": null,
       "body": {
         "type": "BlockStatement",
-        "start": 25,
-        "end": 77,
         "body": [
           {
             "type": "IfStatement",
-            "start": 31,
-            "end": 75,
             "test": {
               "type": "BinaryExpression",
-              "start": 35,
-              "end": 56,
               "left": {
                 "type": "UnaryExpression",
-                "start": 35,
-                "end": 43,
                 "operator": "typeof",
                 "argument": {
                   "type": "Identifier",
-                  "start": 42,
-                  "end": 43,
                   "decorators": [],
                   "name": "x",
                   "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "start": 42,
+                  "end": 43
                 },
-                "prefix": true
+                "prefix": true,
+                "start": 35,
+                "end": 43
               },
               "operator": "===",
               "right": {
                 "type": "Literal",
-                "start": 48,
-                "end": 56,
                 "value": "object",
-                "raw": "\"object\""
-              }
+                "raw": "\"object\"",
+                "start": 48,
+                "end": 56
+              },
+              "start": 35,
+              "end": 56
             },
             "consequent": {
               "type": "BlockStatement",
-              "start": 58,
-              "end": 75,
               "body": [
                 {
                   "type": "ExpressionStatement",
-                  "start": 68,
-                  "end": 69,
                   "expression": {
                     "type": "Identifier",
-                    "start": 68,
-                    "end": 69,
                     "decorators": [],
                     "name": "x",
                     "optional": false,
-                    "typeAnnotation": null
+                    "typeAnnotation": null,
+                    "start": 68,
+                    "end": 69
                   },
-                  "directive": null
+                  "directive": null,
+                  "start": 68,
+                  "end": 69
                 }
-              ]
+              ],
+              "start": 58,
+              "end": 75
             },
-            "alternate": null
+            "alternate": null,
+            "start": 31,
+            "end": 75
           }
-        ]
+        ],
+        "start": 25,
+        "end": 77
       },
-      "expression": false
+      "expression": false,
+      "start": 0,
+      "end": 77
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 77
 }
 ```

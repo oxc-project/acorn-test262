@@ -2,303 +2,303 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 126,
-  "end": 725,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 126,
-      "end": 191,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 130,
-          "end": 190,
           "id": {
             "type": "Identifier",
-            "start": 130,
-            "end": 169,
             "decorators": [],
             "name": "stringContainingUnescapedLineSeparator1",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 130,
+            "end": 169
           },
           "init": {
             "type": "Literal",
-            "start": 172,
-            "end": 190,
             "value": " STRING_CONTENT ",
-            "raw": "\" STRING_CONTENT \""
+            "raw": "\" STRING_CONTENT \"",
+            "start": 172,
+            "end": 190
           },
-          "definite": false
+          "definite": false,
+          "start": 130,
+          "end": 190
         }
       ],
-      "declare": false
+      "declare": false,
+      "start": 126,
+      "end": 191
     },
     {
       "type": "VariableDeclaration",
-      "start": 192,
-      "end": 262,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 196,
-          "end": 261,
           "id": {
             "type": "Identifier",
-            "start": 196,
-            "end": 240,
             "decorators": [],
             "name": "stringContainingUnescapedParagraphSeparator1",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 196,
+            "end": 240
           },
           "init": {
             "type": "Literal",
-            "start": 243,
-            "end": 261,
             "value": " STRING_CONTENT ",
-            "raw": "\" STRING_CONTENT \""
+            "raw": "\" STRING_CONTENT \"",
+            "start": 243,
+            "end": 261
           },
-          "definite": false
+          "definite": false,
+          "start": 196,
+          "end": 261
         }
       ],
-      "declare": false
+      "declare": false,
+      "start": 192,
+      "end": 262
     },
     {
       "type": "VariableDeclaration",
-      "start": 265,
-      "end": 330,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 269,
-          "end": 329,
           "id": {
             "type": "Identifier",
-            "start": 269,
-            "end": 308,
             "decorators": [],
             "name": "stringContainingUnescapedLineSeparator2",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 269,
+            "end": 308
           },
           "init": {
             "type": "Literal",
-            "start": 311,
-            "end": 329,
             "value": " STRING_CONTENT ",
-            "raw": "' STRING_CONTENT '"
+            "raw": "' STRING_CONTENT '",
+            "start": 311,
+            "end": 329
           },
-          "definite": false
+          "definite": false,
+          "start": 269,
+          "end": 329
         }
       ],
-      "declare": false
+      "declare": false,
+      "start": 265,
+      "end": 330
     },
     {
       "type": "VariableDeclaration",
-      "start": 331,
-      "end": 401,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 335,
-          "end": 400,
           "id": {
             "type": "Identifier",
-            "start": 335,
-            "end": 379,
             "decorators": [],
             "name": "stringContainingUnescapedParagraphSeparator2",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 335,
+            "end": 379
           },
           "init": {
             "type": "Literal",
-            "start": 382,
-            "end": 400,
             "value": " STRING_CONTENT ",
-            "raw": "' STRING_CONTENT '"
+            "raw": "' STRING_CONTENT '",
+            "start": 382,
+            "end": 400
           },
-          "definite": false
+          "definite": false,
+          "start": 335,
+          "end": 400
         }
       ],
-      "declare": false
+      "declare": false,
+      "start": 331,
+      "end": 401
     },
     {
       "type": "VariableDeclaration",
-      "start": 404,
-      "end": 469,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 408,
-          "end": 468,
           "id": {
             "type": "Identifier",
-            "start": 408,
-            "end": 447,
             "decorators": [],
             "name": "stringContainingUnescapedLineSeparator3",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 408,
+            "end": 447
           },
           "init": {
             "type": "TemplateLiteral",
-            "start": 450,
-            "end": 468,
             "quasis": [
               {
                 "type": "TemplateElement",
-                "start": 450,
-                "end": 468,
                 "value": {
                   "raw": " STRING_CONTENT ",
                   "cooked": " STRING_CONTENT "
                 },
-                "tail": true
+                "tail": true,
+                "start": 450,
+                "end": 468
               }
             ],
-            "expressions": []
+            "expressions": [],
+            "start": 450,
+            "end": 468
           },
-          "definite": false
+          "definite": false,
+          "start": 408,
+          "end": 468
         }
       ],
-      "declare": false
+      "declare": false,
+      "start": 404,
+      "end": 469
     },
     {
       "type": "VariableDeclaration",
-      "start": 470,
-      "end": 540,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 474,
-          "end": 539,
           "id": {
             "type": "Identifier",
-            "start": 474,
-            "end": 518,
             "decorators": [],
             "name": "stringContainingUnescapedParagraphSeparator3",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 474,
+            "end": 518
           },
           "init": {
             "type": "TemplateLiteral",
-            "start": 521,
-            "end": 539,
             "quasis": [
               {
                 "type": "TemplateElement",
-                "start": 521,
-                "end": 539,
                 "value": {
                   "raw": " STRING_CONTENT ",
                   "cooked": " STRING_CONTENT "
                 },
-                "tail": true
+                "tail": true,
+                "start": 521,
+                "end": 539
               }
             ],
-            "expressions": []
+            "expressions": [],
+            "start": 521,
+            "end": 539
           },
-          "definite": false
+          "definite": false,
+          "start": 474,
+          "end": 539
         }
       ],
-      "declare": false
+      "declare": false,
+      "start": 470,
+      "end": 540
     },
     {
       "type": "VariableDeclaration",
-      "start": 593,
-      "end": 725,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 597,
-          "end": 724,
           "id": {
             "type": "Identifier",
-            "start": 597,
-            "end": 600,
             "decorators": [],
             "name": "arr",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 597,
+            "end": 600
           },
           "init": {
             "type": "ArrayExpression",
-            "start": 603,
-            "end": 724,
             "elements": [
               {
                 "type": "Literal",
-                "start": 609,
-                "end": 629,
                 "value": "  STRING_CONTENT  ",
-                "raw": "\"  STRING_CONTENT  \""
+                "raw": "\"  STRING_CONTENT  \"",
+                "start": 609,
+                "end": 629
               },
               {
                 "type": "Literal",
-                "start": 635,
-                "end": 657,
                 "value": "   STRING_CONTENT   ",
-                "raw": "\"   STRING_CONTENT   \""
+                "raw": "\"   STRING_CONTENT   \"",
+                "start": 635,
+                "end": 657
               },
               {
                 "type": "Literal",
-                "start": 663,
-                "end": 680,
                 "value": "STRING_CONTENT ",
-                "raw": "\"STRING_CONTENT \""
+                "raw": "\"STRING_CONTENT \"",
+                "start": 663,
+                "end": 680
               },
               {
                 "type": "Literal",
-                "start": 686,
-                "end": 703,
                 "value": " STRING_CONTENT",
-                "raw": "\" STRING_CONTENT\""
+                "raw": "\" STRING_CONTENT\"",
+                "start": 686,
+                "end": 703
               },
               {
                 "type": "TemplateLiteral",
-                "start": 709,
-                "end": 713,
                 "quasis": [
                   {
                     "type": "TemplateElement",
-                    "start": 709,
-                    "end": 713,
                     "value": {
                       "raw": "\\ ",
                       "cooked": ""
                     },
-                    "tail": true
+                    "tail": true,
+                    "start": 709,
+                    "end": 713
                   }
                 ],
-                "expressions": []
+                "expressions": [],
+                "start": 709,
+                "end": 713
               },
               {
                 "type": "Literal",
-                "start": 719,
-                "end": 722,
                 "value": " ",
-                "raw": "' '"
+                "raw": "' '",
+                "start": 719,
+                "end": 722
               }
-            ]
+            ],
+            "start": 603,
+            "end": 724
           },
-          "definite": false
+          "definite": false,
+          "start": 597,
+          "end": 724
         }
       ],
-      "declare": false
+      "declare": false,
+      "start": 593,
+      "end": 725
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 126,
+  "end": 725
 }
 ```

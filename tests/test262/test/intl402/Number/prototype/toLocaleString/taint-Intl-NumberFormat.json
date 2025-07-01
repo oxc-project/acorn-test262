@@ -1,78 +1,78 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 399,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 334,
-      "end": 374,
       "expression": {
         "type": "CallExpression",
-        "start": 334,
-        "end": 373,
         "callee": {
           "type": "Identifier",
+          "name": "taintDataProperty",
           "start": 334,
-          "end": 351,
-          "name": "taintDataProperty"
+          "end": 351
         },
         "arguments": [
           {
             "type": "Identifier",
+            "name": "Intl",
             "start": 352,
-            "end": 356,
-            "name": "Intl"
+            "end": 356
           },
           {
             "type": "Literal",
-            "start": 358,
-            "end": 372,
             "value": "NumberFormat",
-            "raw": "\"NumberFormat\""
+            "raw": "\"NumberFormat\"",
+            "start": 358,
+            "end": 372
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 334,
+        "end": 373
+      },
+      "start": 334,
+      "end": 374
     },
     {
       "type": "ExpressionStatement",
-      "start": 375,
-      "end": 398,
       "expression": {
         "type": "CallExpression",
-        "start": 375,
-        "end": 397,
         "callee": {
           "type": "MemberExpression",
-          "start": 375,
-          "end": 395,
           "object": {
             "type": "ParenthesizedExpression",
-            "start": 375,
-            "end": 380,
             "expression": {
               "type": "Literal",
-              "start": 376,
-              "end": 379,
               "value": 0,
-              "raw": "0.0"
-            }
+              "raw": "0.0",
+              "start": 376,
+              "end": 379
+            },
+            "start": 375,
+            "end": 380
           },
           "property": {
             "type": "Identifier",
+            "name": "toLocaleString",
             "start": 381,
-            "end": 395,
-            "name": "toLocaleString"
+            "end": 395
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 375,
+          "end": 395
         },
         "arguments": [],
-        "optional": false
-      }
+        "optional": false,
+        "start": 375,
+        "end": 397
+      },
+      "start": 375,
+      "end": 398
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 399
 }

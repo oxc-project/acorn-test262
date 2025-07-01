@@ -1,31 +1,27 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 1280,
   "body": [
     {
       "type": "ForInStatement",
-      "start": 298,
-      "end": 1279,
       "left": {
         "type": "VariableDeclaration",
-        "start": 303,
-        "end": 308,
         "kind": "var",
         "declarations": [
           {
             "type": "VariableDeclarator",
-            "start": 307,
-            "end": 308,
             "id": {
               "type": "Identifier",
+              "name": "x",
               "start": 307,
-              "end": 308,
-              "name": "x"
+              "end": 308
             },
-            "init": null
+            "init": null,
+            "start": 307,
+            "end": 308
           }
-        ]
+        ],
+        "start": 303,
+        "end": 308
       },
       "right": {
         "type": "ThisExpression",
@@ -34,518 +30,522 @@
       },
       "body": {
         "type": "BlockStatement",
-        "start": 318,
-        "end": 1279,
         "body": [
           {
             "type": "IfStatement",
-            "start": 322,
-            "end": 1277,
             "test": {
               "type": "BinaryExpression",
-              "start": 326,
-              "end": 338,
               "left": {
                 "type": "Identifier",
+                "name": "x",
                 "start": 326,
-                "end": 327,
-                "name": "x"
+                "end": 327
               },
               "operator": "===",
               "right": {
                 "type": "Literal",
-                "start": 332,
-                "end": 338,
                 "value": "eval",
-                "raw": "'eval'"
-              }
+                "raw": "'eval'",
+                "start": 332,
+                "end": 338
+              },
+              "start": 326,
+              "end": 338
             },
             "consequent": {
               "type": "BlockStatement",
-              "start": 340,
-              "end": 411,
               "body": [
                 {
                   "type": "ThrowStatement",
-                  "start": 346,
-                  "end": 407,
                   "argument": {
                     "type": "NewExpression",
-                    "start": 352,
-                    "end": 406,
                     "callee": {
                       "type": "Identifier",
+                      "name": "Test262Error",
                       "start": 356,
-                      "end": 368,
-                      "name": "Test262Error"
+                      "end": 368
                     },
                     "arguments": [
                       {
                         "type": "Literal",
-                        "start": 369,
-                        "end": 405,
                         "value": "#1: 'eval' have attribute DontEnum",
-                        "raw": "\"#1: 'eval' have attribute DontEnum\""
+                        "raw": "\"#1: 'eval' have attribute DontEnum\"",
+                        "start": 369,
+                        "end": 405
                       }
-                    ]
-                  }
+                    ],
+                    "start": 352,
+                    "end": 406
+                  },
+                  "start": 346,
+                  "end": 407
                 }
-              ]
+              ],
+              "start": 340,
+              "end": 411
             },
             "alternate": {
               "type": "IfStatement",
-              "start": 417,
-              "end": 1277,
               "test": {
                 "type": "BinaryExpression",
-                "start": 421,
-                "end": 437,
                 "left": {
                   "type": "Identifier",
+                  "name": "x",
                   "start": 421,
-                  "end": 422,
-                  "name": "x"
+                  "end": 422
                 },
                 "operator": "===",
                 "right": {
                   "type": "Literal",
-                  "start": 427,
-                  "end": 437,
                   "value": "parseInt",
-                  "raw": "'parseInt'"
-                }
+                  "raw": "'parseInt'",
+                  "start": 427,
+                  "end": 437
+                },
+                "start": 421,
+                "end": 437
               },
               "consequent": {
                 "type": "BlockStatement",
-                "start": 439,
-                "end": 514,
                 "body": [
                   {
                     "type": "ThrowStatement",
-                    "start": 445,
-                    "end": 510,
                     "argument": {
                       "type": "NewExpression",
-                      "start": 451,
-                      "end": 509,
                       "callee": {
                         "type": "Identifier",
+                        "name": "Test262Error",
                         "start": 455,
-                        "end": 467,
-                        "name": "Test262Error"
+                        "end": 467
                       },
                       "arguments": [
                         {
                           "type": "Literal",
-                          "start": 468,
-                          "end": 508,
                           "value": "#1: 'parseInt' have attribute DontEnum",
-                          "raw": "\"#1: 'parseInt' have attribute DontEnum\""
+                          "raw": "\"#1: 'parseInt' have attribute DontEnum\"",
+                          "start": 468,
+                          "end": 508
                         }
-                      ]
-                    }
+                      ],
+                      "start": 451,
+                      "end": 509
+                    },
+                    "start": 445,
+                    "end": 510
                   }
-                ]
+                ],
+                "start": 439,
+                "end": 514
               },
               "alternate": {
                 "type": "IfStatement",
-                "start": 520,
-                "end": 1277,
                 "test": {
                   "type": "BinaryExpression",
-                  "start": 524,
-                  "end": 542,
                   "left": {
                     "type": "Identifier",
+                    "name": "x",
                     "start": 524,
-                    "end": 525,
-                    "name": "x"
+                    "end": 525
                   },
                   "operator": "===",
                   "right": {
                     "type": "Literal",
-                    "start": 530,
-                    "end": 542,
                     "value": "parseFloat",
-                    "raw": "'parseFloat'"
-                  }
+                    "raw": "'parseFloat'",
+                    "start": 530,
+                    "end": 542
+                  },
+                  "start": 524,
+                  "end": 542
                 },
                 "consequent": {
                   "type": "BlockStatement",
-                  "start": 544,
-                  "end": 621,
                   "body": [
                     {
                       "type": "ThrowStatement",
-                      "start": 550,
-                      "end": 617,
                       "argument": {
                         "type": "NewExpression",
-                        "start": 556,
-                        "end": 616,
                         "callee": {
                           "type": "Identifier",
+                          "name": "Test262Error",
                           "start": 560,
-                          "end": 572,
-                          "name": "Test262Error"
+                          "end": 572
                         },
                         "arguments": [
                           {
                             "type": "Literal",
-                            "start": 573,
-                            "end": 615,
                             "value": "#1: 'parseFloat' have attribute DontEnum",
-                            "raw": "\"#1: 'parseFloat' have attribute DontEnum\""
+                            "raw": "\"#1: 'parseFloat' have attribute DontEnum\"",
+                            "start": 573,
+                            "end": 615
                           }
-                        ]
-                      }
+                        ],
+                        "start": 556,
+                        "end": 616
+                      },
+                      "start": 550,
+                      "end": 617
                     }
-                  ]
+                  ],
+                  "start": 544,
+                  "end": 621
                 },
                 "alternate": {
                   "type": "IfStatement",
-                  "start": 627,
-                  "end": 1277,
                   "test": {
                     "type": "BinaryExpression",
-                    "start": 631,
-                    "end": 644,
                     "left": {
                       "type": "Identifier",
+                      "name": "x",
                       "start": 631,
-                      "end": 632,
-                      "name": "x"
+                      "end": 632
                     },
                     "operator": "===",
                     "right": {
                       "type": "Literal",
-                      "start": 637,
-                      "end": 644,
                       "value": "isNaN",
-                      "raw": "'isNaN'"
-                    }
+                      "raw": "'isNaN'",
+                      "start": 637,
+                      "end": 644
+                    },
+                    "start": 631,
+                    "end": 644
                   },
                   "consequent": {
                     "type": "BlockStatement",
-                    "start": 646,
-                    "end": 718,
                     "body": [
                       {
                         "type": "ThrowStatement",
-                        "start": 652,
-                        "end": 714,
                         "argument": {
                           "type": "NewExpression",
-                          "start": 658,
-                          "end": 713,
                           "callee": {
                             "type": "Identifier",
+                            "name": "Test262Error",
                             "start": 662,
-                            "end": 674,
-                            "name": "Test262Error"
+                            "end": 674
                           },
                           "arguments": [
                             {
                               "type": "Literal",
-                              "start": 675,
-                              "end": 712,
                               "value": "#1: 'isNaN' have attribute DontEnum",
-                              "raw": "\"#1: 'isNaN' have attribute DontEnum\""
+                              "raw": "\"#1: 'isNaN' have attribute DontEnum\"",
+                              "start": 675,
+                              "end": 712
                             }
-                          ]
-                        }
+                          ],
+                          "start": 658,
+                          "end": 713
+                        },
+                        "start": 652,
+                        "end": 714
                       }
-                    ]
+                    ],
+                    "start": 646,
+                    "end": 718
                   },
                   "alternate": {
                     "type": "IfStatement",
-                    "start": 724,
-                    "end": 1277,
                     "test": {
                       "type": "BinaryExpression",
-                      "start": 728,
-                      "end": 744,
                       "left": {
                         "type": "Identifier",
+                        "name": "x",
                         "start": 728,
-                        "end": 729,
-                        "name": "x"
+                        "end": 729
                       },
                       "operator": "===",
                       "right": {
                         "type": "Literal",
-                        "start": 734,
-                        "end": 744,
                         "value": "isFinite",
-                        "raw": "'isFinite'"
-                      }
+                        "raw": "'isFinite'",
+                        "start": 734,
+                        "end": 744
+                      },
+                      "start": 728,
+                      "end": 744
                     },
                     "consequent": {
                       "type": "BlockStatement",
-                      "start": 746,
-                      "end": 821,
                       "body": [
                         {
                           "type": "ThrowStatement",
-                          "start": 752,
-                          "end": 817,
                           "argument": {
                             "type": "NewExpression",
-                            "start": 758,
-                            "end": 816,
                             "callee": {
                               "type": "Identifier",
+                              "name": "Test262Error",
                               "start": 762,
-                              "end": 774,
-                              "name": "Test262Error"
+                              "end": 774
                             },
                             "arguments": [
                               {
                                 "type": "Literal",
-                                "start": 775,
-                                "end": 815,
                                 "value": "#1: 'isFinite' have attribute DontEnum",
-                                "raw": "\"#1: 'isFinite' have attribute DontEnum\""
+                                "raw": "\"#1: 'isFinite' have attribute DontEnum\"",
+                                "start": 775,
+                                "end": 815
                               }
-                            ]
-                          }
+                            ],
+                            "start": 758,
+                            "end": 816
+                          },
+                          "start": 752,
+                          "end": 817
                         }
-                      ]
+                      ],
+                      "start": 746,
+                      "end": 821
                     },
                     "alternate": {
                       "type": "IfStatement",
-                      "start": 827,
-                      "end": 1277,
                       "test": {
                         "type": "BinaryExpression",
-                        "start": 831,
-                        "end": 848,
                         "left": {
                           "type": "Identifier",
+                          "name": "x",
                           "start": 831,
-                          "end": 832,
-                          "name": "x"
+                          "end": 832
                         },
                         "operator": "===",
                         "right": {
                           "type": "Literal",
-                          "start": 837,
-                          "end": 848,
                           "value": "decodeURI",
-                          "raw": "'decodeURI'"
-                        }
+                          "raw": "'decodeURI'",
+                          "start": 837,
+                          "end": 848
+                        },
+                        "start": 831,
+                        "end": 848
                       },
                       "consequent": {
                         "type": "BlockStatement",
-                        "start": 850,
-                        "end": 926,
                         "body": [
                           {
                             "type": "ThrowStatement",
-                            "start": 856,
-                            "end": 922,
                             "argument": {
                               "type": "NewExpression",
-                              "start": 862,
-                              "end": 921,
                               "callee": {
                                 "type": "Identifier",
+                                "name": "Test262Error",
                                 "start": 866,
-                                "end": 878,
-                                "name": "Test262Error"
+                                "end": 878
                               },
                               "arguments": [
                                 {
                                   "type": "Literal",
-                                  "start": 879,
-                                  "end": 920,
                                   "value": "#1: 'decodeURI' have attribute DontEnum",
-                                  "raw": "\"#1: 'decodeURI' have attribute DontEnum\""
+                                  "raw": "\"#1: 'decodeURI' have attribute DontEnum\"",
+                                  "start": 879,
+                                  "end": 920
                                 }
-                              ]
-                            }
+                              ],
+                              "start": 862,
+                              "end": 921
+                            },
+                            "start": 856,
+                            "end": 922
                           }
-                        ]
+                        ],
+                        "start": 850,
+                        "end": 926
                       },
                       "alternate": {
                         "type": "IfStatement",
-                        "start": 932,
-                        "end": 1277,
                         "test": {
                           "type": "BinaryExpression",
-                          "start": 936,
-                          "end": 962,
                           "left": {
                             "type": "Identifier",
+                            "name": "x",
                             "start": 936,
-                            "end": 937,
-                            "name": "x"
+                            "end": 937
                           },
                           "operator": "===",
                           "right": {
                             "type": "Literal",
-                            "start": 942,
-                            "end": 962,
                             "value": "decodeURIComponent",
-                            "raw": "'decodeURIComponent'"
-                          }
+                            "raw": "'decodeURIComponent'",
+                            "start": 942,
+                            "end": 962
+                          },
+                          "start": 936,
+                          "end": 962
                         },
                         "consequent": {
                           "type": "BlockStatement",
-                          "start": 964,
-                          "end": 1049,
                           "body": [
                             {
                               "type": "ThrowStatement",
-                              "start": 970,
-                              "end": 1045,
                               "argument": {
                                 "type": "NewExpression",
-                                "start": 976,
-                                "end": 1044,
                                 "callee": {
                                   "type": "Identifier",
+                                  "name": "Test262Error",
                                   "start": 980,
-                                  "end": 992,
-                                  "name": "Test262Error"
+                                  "end": 992
                                 },
                                 "arguments": [
                                   {
                                     "type": "Literal",
-                                    "start": 993,
-                                    "end": 1043,
                                     "value": "#1: 'decodeURIComponent' have attribute DontEnum",
-                                    "raw": "\"#1: 'decodeURIComponent' have attribute DontEnum\""
+                                    "raw": "\"#1: 'decodeURIComponent' have attribute DontEnum\"",
+                                    "start": 993,
+                                    "end": 1043
                                   }
-                                ]
-                              }
+                                ],
+                                "start": 976,
+                                "end": 1044
+                              },
+                              "start": 970,
+                              "end": 1045
                             }
-                          ]
+                          ],
+                          "start": 964,
+                          "end": 1049
                         },
                         "alternate": {
                           "type": "IfStatement",
-                          "start": 1055,
-                          "end": 1277,
                           "test": {
                             "type": "BinaryExpression",
-                            "start": 1059,
-                            "end": 1076,
                             "left": {
                               "type": "Identifier",
+                              "name": "x",
                               "start": 1059,
-                              "end": 1060,
-                              "name": "x"
+                              "end": 1060
                             },
                             "operator": "===",
                             "right": {
                               "type": "Literal",
-                              "start": 1065,
-                              "end": 1076,
                               "value": "encodeURI",
-                              "raw": "'encodeURI'"
-                            }
+                              "raw": "'encodeURI'",
+                              "start": 1065,
+                              "end": 1076
+                            },
+                            "start": 1059,
+                            "end": 1076
                           },
                           "consequent": {
                             "type": "BlockStatement",
-                            "start": 1078,
-                            "end": 1154,
                             "body": [
                               {
                                 "type": "ThrowStatement",
-                                "start": 1084,
-                                "end": 1150,
                                 "argument": {
                                   "type": "NewExpression",
-                                  "start": 1090,
-                                  "end": 1149,
                                   "callee": {
                                     "type": "Identifier",
+                                    "name": "Test262Error",
                                     "start": 1094,
-                                    "end": 1106,
-                                    "name": "Test262Error"
+                                    "end": 1106
                                   },
                                   "arguments": [
                                     {
                                       "type": "Literal",
-                                      "start": 1107,
-                                      "end": 1148,
                                       "value": "#1: 'encodeURI' have attribute DontEnum",
-                                      "raw": "\"#1: 'encodeURI' have attribute DontEnum\""
+                                      "raw": "\"#1: 'encodeURI' have attribute DontEnum\"",
+                                      "start": 1107,
+                                      "end": 1148
                                     }
-                                  ]
-                                }
+                                  ],
+                                  "start": 1090,
+                                  "end": 1149
+                                },
+                                "start": 1084,
+                                "end": 1150
                               }
-                            ]
+                            ],
+                            "start": 1078,
+                            "end": 1154
                           },
                           "alternate": {
                             "type": "IfStatement",
-                            "start": 1160,
-                            "end": 1277,
                             "test": {
                               "type": "BinaryExpression",
-                              "start": 1164,
-                              "end": 1190,
                               "left": {
                                 "type": "Identifier",
+                                "name": "x",
                                 "start": 1164,
-                                "end": 1165,
-                                "name": "x"
+                                "end": 1165
                               },
                               "operator": "===",
                               "right": {
                                 "type": "Literal",
-                                "start": 1170,
-                                "end": 1190,
                                 "value": "encodeURIComponent",
-                                "raw": "'encodeURIComponent'"
-                              }
+                                "raw": "'encodeURIComponent'",
+                                "start": 1170,
+                                "end": 1190
+                              },
+                              "start": 1164,
+                              "end": 1190
                             },
                             "consequent": {
                               "type": "BlockStatement",
-                              "start": 1192,
-                              "end": 1277,
                               "body": [
                                 {
                                   "type": "ThrowStatement",
-                                  "start": 1198,
-                                  "end": 1273,
                                   "argument": {
                                     "type": "NewExpression",
-                                    "start": 1204,
-                                    "end": 1272,
                                     "callee": {
                                       "type": "Identifier",
+                                      "name": "Test262Error",
                                       "start": 1208,
-                                      "end": 1220,
-                                      "name": "Test262Error"
+                                      "end": 1220
                                     },
                                     "arguments": [
                                       {
                                         "type": "Literal",
-                                        "start": 1221,
-                                        "end": 1271,
                                         "value": "#1: 'encodeURIComponent' have attribute DontEnum",
-                                        "raw": "\"#1: 'encodeURIComponent' have attribute DontEnum\""
+                                        "raw": "\"#1: 'encodeURIComponent' have attribute DontEnum\"",
+                                        "start": 1221,
+                                        "end": 1271
                                       }
-                                    ]
-                                  }
+                                    ],
+                                    "start": 1204,
+                                    "end": 1272
+                                  },
+                                  "start": 1198,
+                                  "end": 1273
                                 }
-                              ]
+                              ],
+                              "start": 1192,
+                              "end": 1277
                             },
-                            "alternate": null
-                          }
-                        }
-                      }
-                    }
-                  }
-                }
-              }
-            }
+                            "alternate": null,
+                            "start": 1160,
+                            "end": 1277
+                          },
+                          "start": 1055,
+                          "end": 1277
+                        },
+                        "start": 932,
+                        "end": 1277
+                      },
+                      "start": 827,
+                      "end": 1277
+                    },
+                    "start": 724,
+                    "end": 1277
+                  },
+                  "start": 627,
+                  "end": 1277
+                },
+                "start": 520,
+                "end": 1277
+              },
+              "start": 417,
+              "end": 1277
+            },
+            "start": 322,
+            "end": 1277
           }
-        ]
-      }
+        ],
+        "start": 318,
+        "end": 1279
+      },
+      "start": 298,
+      "end": 1279
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 1280
 }

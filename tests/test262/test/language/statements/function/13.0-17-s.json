@@ -1,35 +1,35 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 541,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 455,
-      "end": 540,
       "expression": {
         "type": "CallExpression",
-        "start": 455,
-        "end": 539,
         "callee": {
           "type": "Identifier",
+          "name": "eval",
           "start": 455,
-          "end": 459,
-          "name": "eval"
+          "end": 459
         },
         "arguments": [
           {
             "type": "Literal",
-            "start": 460,
-            "end": 538,
             "value": "'use strict'; var _13_0_17_fun = new Function('eval = 42;'); _13_0_17_fun();",
-            "raw": "\"'use strict'; var _13_0_17_fun = new Function('eval = 42;'); _13_0_17_fun();\""
+            "raw": "\"'use strict'; var _13_0_17_fun = new Function('eval = 42;'); _13_0_17_fun();\"",
+            "start": 460,
+            "end": 538
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 455,
+        "end": 539
+      },
+      "start": 455,
+      "end": 540
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 541
 }

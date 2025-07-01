@@ -1,875 +1,875 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 1151,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 390,
-      "end": 402,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 394,
-          "end": 401,
           "id": {
             "type": "Identifier",
+            "name": "_if",
             "start": 394,
-            "end": 397,
-            "name": "_if"
+            "end": 397
           },
           "init": {
             "type": "Literal",
-            "start": 400,
-            "end": 401,
             "value": 1,
-            "raw": "1"
-          }
+            "raw": "1",
+            "start": 400,
+            "end": 401
+          },
+          "start": 394,
+          "end": 401
         }
-      ]
+      ],
+      "start": 390,
+      "end": 402
     },
     {
       "type": "VariableDeclaration",
-      "start": 403,
-      "end": 419,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 407,
-          "end": 418,
           "id": {
             "type": "Identifier",
+            "name": "_import",
             "start": 407,
-            "end": 414,
-            "name": "_import"
+            "end": 414
           },
           "init": {
             "type": "Literal",
-            "start": 417,
-            "end": 418,
             "value": 2,
-            "raw": "2"
-          }
+            "raw": "2",
+            "start": 417,
+            "end": 418
+          },
+          "start": 407,
+          "end": 418
         }
-      ]
+      ],
+      "start": 403,
+      "end": 419
     },
     {
       "type": "VariableDeclaration",
-      "start": 420,
-      "end": 436,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 424,
-          "end": 435,
           "id": {
             "type": "Identifier",
+            "name": "_export",
             "start": 424,
-            "end": 431,
-            "name": "_export"
+            "end": 431
           },
           "init": {
             "type": "Literal",
-            "start": 434,
-            "end": 435,
             "value": 3,
-            "raw": "3"
-          }
+            "raw": "3",
+            "start": 434,
+            "end": 435
+          },
+          "start": 424,
+          "end": 435
         }
-      ]
+      ],
+      "start": 420,
+      "end": 436
     },
     {
       "type": "VariableDeclaration",
-      "start": 437,
-      "end": 452,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 441,
-          "end": 451,
           "id": {
             "type": "Identifier",
+            "name": "_await",
             "start": 441,
-            "end": 447,
-            "name": "_await"
+            "end": 447
           },
           "init": {
             "type": "Literal",
-            "start": 450,
-            "end": 451,
             "value": 4,
-            "raw": "4"
-          }
+            "raw": "4",
+            "start": 450,
+            "end": 451
+          },
+          "start": 441,
+          "end": 451
         }
-      ]
+      ],
+      "start": 437,
+      "end": 452
     },
     {
       "type": "VariableDeclaration",
-      "start": 453,
-      "end": 472,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 457,
-          "end": 471,
           "id": {
             "type": "Identifier",
+            "name": "_arguments",
             "start": 457,
-            "end": 467,
-            "name": "_arguments"
+            "end": 467
           },
           "init": {
             "type": "Literal",
-            "start": 470,
-            "end": 471,
             "value": 5,
-            "raw": "5"
-          }
+            "raw": "5",
+            "start": 470,
+            "end": 471
+          },
+          "start": 457,
+          "end": 471
         }
-      ]
+      ],
+      "start": 453,
+      "end": 472
     },
     {
       "type": "VariableDeclaration",
-      "start": 473,
-      "end": 487,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 477,
-          "end": 486,
           "id": {
             "type": "Identifier",
+            "name": "_eval",
             "start": 477,
-            "end": 482,
-            "name": "_eval"
+            "end": 482
           },
           "init": {
             "type": "Literal",
-            "start": 485,
-            "end": 486,
             "value": 6,
-            "raw": "6"
-          }
+            "raw": "6",
+            "start": 485,
+            "end": 486
+          },
+          "start": 477,
+          "end": 486
         }
-      ]
+      ],
+      "start": 473,
+      "end": 487
     },
     {
       "type": "VariableDeclaration",
-      "start": 488,
-      "end": 505,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 492,
-          "end": 504,
           "id": {
             "type": "Identifier",
+            "name": "_default",
             "start": 492,
-            "end": 500,
-            "name": "_default"
+            "end": 500
           },
           "init": {
             "type": "Literal",
-            "start": 503,
-            "end": 504,
             "value": 7,
-            "raw": "7"
-          }
+            "raw": "7",
+            "start": 503,
+            "end": 504
+          },
+          "start": 492,
+          "end": 504
         }
-      ]
+      ],
+      "start": 488,
+      "end": 505
     },
     {
       "type": "VariableDeclaration",
-      "start": 506,
-      "end": 518,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 510,
-          "end": 517,
           "id": {
             "type": "Identifier",
+            "name": "_as",
             "start": 510,
-            "end": 513,
-            "name": "_as"
+            "end": 513
           },
           "init": {
             "type": "Literal",
-            "start": 516,
-            "end": 517,
             "value": 8,
-            "raw": "8"
-          }
+            "raw": "8",
+            "start": 516,
+            "end": 517
+          },
+          "start": 510,
+          "end": 517
         }
-      ]
+      ],
+      "start": 506,
+      "end": 518
     },
     {
       "type": "ExportNamedDeclaration",
-      "start": 520,
-      "end": 702,
       "declaration": null,
       "specifiers": [
         {
           "type": "ExportSpecifier",
-          "start": 533,
-          "end": 542,
           "local": {
             "type": "Identifier",
+            "name": "_if",
             "start": 533,
-            "end": 536,
-            "name": "_if"
+            "end": 536
           },
           "exported": {
             "type": "Identifier",
+            "name": "if",
             "start": 540,
-            "end": 542,
-            "name": "if"
-          }
+            "end": 542
+          },
+          "start": 533,
+          "end": 542
         },
         {
           "type": "ExportSpecifier",
-          "start": 548,
-          "end": 565,
           "local": {
             "type": "Identifier",
+            "name": "_import",
             "start": 548,
-            "end": 555,
-            "name": "_import"
+            "end": 555
           },
           "exported": {
             "type": "Identifier",
+            "name": "import",
             "start": 559,
-            "end": 565,
-            "name": "import"
-          }
+            "end": 565
+          },
+          "start": 548,
+          "end": 565
         },
         {
           "type": "ExportSpecifier",
-          "start": 571,
-          "end": 588,
           "local": {
             "type": "Identifier",
+            "name": "_export",
             "start": 571,
-            "end": 578,
-            "name": "_export"
+            "end": 578
           },
           "exported": {
             "type": "Identifier",
+            "name": "export",
             "start": 582,
-            "end": 588,
-            "name": "export"
-          }
+            "end": 588
+          },
+          "start": 571,
+          "end": 588
         },
         {
           "type": "ExportSpecifier",
-          "start": 594,
-          "end": 609,
           "local": {
             "type": "Identifier",
+            "name": "_await",
             "start": 594,
-            "end": 600,
-            "name": "_await"
+            "end": 600
           },
           "exported": {
             "type": "Identifier",
+            "name": "await",
             "start": 604,
-            "end": 609,
-            "name": "await"
-          }
+            "end": 609
+          },
+          "start": 594,
+          "end": 609
         },
         {
           "type": "ExportSpecifier",
-          "start": 615,
-          "end": 638,
           "local": {
             "type": "Identifier",
+            "name": "_arguments",
             "start": 615,
-            "end": 625,
-            "name": "_arguments"
+            "end": 625
           },
           "exported": {
             "type": "Identifier",
+            "name": "arguments",
             "start": 629,
-            "end": 638,
-            "name": "arguments"
-          }
+            "end": 638
+          },
+          "start": 615,
+          "end": 638
         },
         {
           "type": "ExportSpecifier",
-          "start": 644,
-          "end": 657,
           "local": {
             "type": "Identifier",
+            "name": "_eval",
             "start": 644,
-            "end": 649,
-            "name": "_eval"
+            "end": 649
           },
           "exported": {
             "type": "Identifier",
+            "name": "eval",
             "start": 653,
-            "end": 657,
-            "name": "eval"
-          }
+            "end": 657
+          },
+          "start": 644,
+          "end": 657
         },
         {
           "type": "ExportSpecifier",
-          "start": 663,
-          "end": 682,
           "local": {
             "type": "Identifier",
+            "name": "_default",
             "start": 663,
-            "end": 671,
-            "name": "_default"
+            "end": 671
           },
           "exported": {
             "type": "Identifier",
+            "name": "default",
             "start": 675,
-            "end": 682,
-            "name": "default"
-          }
+            "end": 682
+          },
+          "start": 663,
+          "end": 682
         },
         {
           "type": "ExportSpecifier",
-          "start": 688,
-          "end": 697,
           "local": {
             "type": "Identifier",
+            "name": "_as",
             "start": 688,
-            "end": 691,
-            "name": "_as"
+            "end": 691
           },
           "exported": {
             "type": "Identifier",
+            "name": "as",
             "start": 695,
-            "end": 697,
-            "name": "as"
-          }
+            "end": 697
+          },
+          "start": 688,
+          "end": 697
         }
       ],
       "source": null,
-      "attributes": []
+      "attributes": [],
+      "start": 520,
+      "end": 702
     },
     {
       "type": "ImportDeclaration",
-      "start": 704,
-      "end": 917,
       "specifiers": [
         {
           "type": "ImportSpecifier",
-          "start": 717,
-          "end": 726,
           "imported": {
             "type": "Identifier",
+            "name": "if",
             "start": 717,
-            "end": 719,
-            "name": "if"
+            "end": 719
           },
           "local": {
             "type": "Identifier",
+            "name": "if_",
             "start": 723,
-            "end": 726,
-            "name": "if_"
-          }
+            "end": 726
+          },
+          "start": 717,
+          "end": 726
         },
         {
           "type": "ImportSpecifier",
-          "start": 732,
-          "end": 749,
           "imported": {
             "type": "Identifier",
+            "name": "import",
             "start": 732,
-            "end": 738,
-            "name": "import"
+            "end": 738
           },
           "local": {
             "type": "Identifier",
+            "name": "import_",
             "start": 742,
-            "end": 749,
-            "name": "import_"
-          }
+            "end": 749
+          },
+          "start": 732,
+          "end": 749
         },
         {
           "type": "ImportSpecifier",
-          "start": 755,
-          "end": 772,
           "imported": {
             "type": "Identifier",
+            "name": "export",
             "start": 755,
-            "end": 761,
-            "name": "export"
+            "end": 761
           },
           "local": {
             "type": "Identifier",
+            "name": "export_",
             "start": 765,
-            "end": 772,
-            "name": "export_"
-          }
+            "end": 772
+          },
+          "start": 755,
+          "end": 772
         },
         {
           "type": "ImportSpecifier",
-          "start": 778,
-          "end": 793,
           "imported": {
             "type": "Identifier",
+            "name": "await",
             "start": 778,
-            "end": 783,
-            "name": "await"
+            "end": 783
           },
           "local": {
             "type": "Identifier",
+            "name": "await_",
             "start": 787,
-            "end": 793,
-            "name": "await_"
-          }
+            "end": 793
+          },
+          "start": 778,
+          "end": 793
         },
         {
           "type": "ImportSpecifier",
-          "start": 799,
-          "end": 822,
           "imported": {
             "type": "Identifier",
+            "name": "arguments",
             "start": 799,
-            "end": 808,
-            "name": "arguments"
+            "end": 808
           },
           "local": {
             "type": "Identifier",
+            "name": "arguments_",
             "start": 812,
-            "end": 822,
-            "name": "arguments_"
-          }
+            "end": 822
+          },
+          "start": 799,
+          "end": 822
         },
         {
           "type": "ImportSpecifier",
-          "start": 828,
-          "end": 841,
           "imported": {
             "type": "Identifier",
+            "name": "eval",
             "start": 828,
-            "end": 832,
-            "name": "eval"
+            "end": 832
           },
           "local": {
             "type": "Identifier",
+            "name": "eval_",
             "start": 836,
-            "end": 841,
-            "name": "eval_"
-          }
+            "end": 841
+          },
+          "start": 828,
+          "end": 841
         },
         {
           "type": "ImportSpecifier",
-          "start": 847,
-          "end": 866,
           "imported": {
             "type": "Identifier",
+            "name": "default",
             "start": 847,
-            "end": 854,
-            "name": "default"
+            "end": 854
           },
           "local": {
             "type": "Identifier",
+            "name": "default_",
             "start": 858,
-            "end": 866,
-            "name": "default_"
-          }
+            "end": 866
+          },
+          "start": 847,
+          "end": 866
         },
         {
           "type": "ImportSpecifier",
-          "start": 872,
-          "end": 880,
           "imported": {
             "type": "Identifier",
+            "name": "as",
             "start": 872,
-            "end": 874,
-            "name": "as"
+            "end": 874
           },
           "local": {
             "type": "Identifier",
+            "name": "as",
             "start": 878,
-            "end": 880,
-            "name": "as"
-          }
+            "end": 880
+          },
+          "start": 872,
+          "end": 880
         }
       ],
       "source": {
         "type": "Literal",
-        "start": 890,
-        "end": 916,
         "value": "./instn-named-id-name.js",
-        "raw": "'./instn-named-id-name.js'"
+        "raw": "'./instn-named-id-name.js'",
+        "start": 890,
+        "end": 916
       },
       "phase": null,
-      "attributes": []
+      "attributes": [],
+      "start": 704,
+      "end": 917
     },
     {
       "type": "ExpressionStatement",
-      "start": 919,
-      "end": 944,
       "expression": {
         "type": "CallExpression",
-        "start": 919,
-        "end": 943,
         "callee": {
           "type": "MemberExpression",
-          "start": 919,
-          "end": 935,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 919,
-            "end": 925,
-            "name": "assert"
+            "end": 925
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 926,
-            "end": 935,
-            "name": "sameValue"
+            "end": 935
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 919,
+          "end": 935
         },
         "arguments": [
           {
             "type": "Identifier",
+            "name": "if_",
             "start": 936,
-            "end": 939,
-            "name": "if_"
+            "end": 939
           },
           {
             "type": "Literal",
-            "start": 941,
-            "end": 942,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "start": 941,
+            "end": 942
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 919,
+        "end": 943
+      },
+      "start": 919,
+      "end": 944
     },
     {
       "type": "ExpressionStatement",
-      "start": 945,
-      "end": 974,
       "expression": {
         "type": "CallExpression",
-        "start": 945,
-        "end": 973,
         "callee": {
           "type": "MemberExpression",
-          "start": 945,
-          "end": 961,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 945,
-            "end": 951,
-            "name": "assert"
+            "end": 951
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 952,
-            "end": 961,
-            "name": "sameValue"
+            "end": 961
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 945,
+          "end": 961
         },
         "arguments": [
           {
             "type": "Identifier",
+            "name": "import_",
             "start": 962,
-            "end": 969,
-            "name": "import_"
+            "end": 969
           },
           {
             "type": "Literal",
-            "start": 971,
-            "end": 972,
             "value": 2,
-            "raw": "2"
+            "raw": "2",
+            "start": 971,
+            "end": 972
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 945,
+        "end": 973
+      },
+      "start": 945,
+      "end": 974
     },
     {
       "type": "ExpressionStatement",
-      "start": 975,
-      "end": 1004,
       "expression": {
         "type": "CallExpression",
-        "start": 975,
-        "end": 1003,
         "callee": {
           "type": "MemberExpression",
-          "start": 975,
-          "end": 991,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 975,
-            "end": 981,
-            "name": "assert"
+            "end": 981
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 982,
-            "end": 991,
-            "name": "sameValue"
+            "end": 991
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 975,
+          "end": 991
         },
         "arguments": [
           {
             "type": "Identifier",
+            "name": "export_",
             "start": 992,
-            "end": 999,
-            "name": "export_"
+            "end": 999
           },
           {
             "type": "Literal",
-            "start": 1001,
-            "end": 1002,
             "value": 3,
-            "raw": "3"
+            "raw": "3",
+            "start": 1001,
+            "end": 1002
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 975,
+        "end": 1003
+      },
+      "start": 975,
+      "end": 1004
     },
     {
       "type": "ExpressionStatement",
-      "start": 1005,
-      "end": 1033,
       "expression": {
         "type": "CallExpression",
-        "start": 1005,
-        "end": 1032,
         "callee": {
           "type": "MemberExpression",
-          "start": 1005,
-          "end": 1021,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 1005,
-            "end": 1011,
-            "name": "assert"
+            "end": 1011
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 1012,
-            "end": 1021,
-            "name": "sameValue"
+            "end": 1021
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 1005,
+          "end": 1021
         },
         "arguments": [
           {
             "type": "Identifier",
+            "name": "await_",
             "start": 1022,
-            "end": 1028,
-            "name": "await_"
+            "end": 1028
           },
           {
             "type": "Literal",
-            "start": 1030,
-            "end": 1031,
             "value": 4,
-            "raw": "4"
+            "raw": "4",
+            "start": 1030,
+            "end": 1031
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 1005,
+        "end": 1032
+      },
+      "start": 1005,
+      "end": 1033
     },
     {
       "type": "ExpressionStatement",
-      "start": 1034,
-      "end": 1066,
       "expression": {
         "type": "CallExpression",
-        "start": 1034,
-        "end": 1065,
         "callee": {
           "type": "MemberExpression",
-          "start": 1034,
-          "end": 1050,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 1034,
-            "end": 1040,
-            "name": "assert"
+            "end": 1040
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 1041,
-            "end": 1050,
-            "name": "sameValue"
+            "end": 1050
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 1034,
+          "end": 1050
         },
         "arguments": [
           {
             "type": "Identifier",
+            "name": "arguments_",
             "start": 1051,
-            "end": 1061,
-            "name": "arguments_"
+            "end": 1061
           },
           {
             "type": "Literal",
-            "start": 1063,
-            "end": 1064,
             "value": 5,
-            "raw": "5"
+            "raw": "5",
+            "start": 1063,
+            "end": 1064
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 1034,
+        "end": 1065
+      },
+      "start": 1034,
+      "end": 1066
     },
     {
       "type": "ExpressionStatement",
-      "start": 1067,
-      "end": 1094,
       "expression": {
         "type": "CallExpression",
-        "start": 1067,
-        "end": 1093,
         "callee": {
           "type": "MemberExpression",
-          "start": 1067,
-          "end": 1083,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 1067,
-            "end": 1073,
-            "name": "assert"
+            "end": 1073
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 1074,
-            "end": 1083,
-            "name": "sameValue"
+            "end": 1083
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 1067,
+          "end": 1083
         },
         "arguments": [
           {
             "type": "Identifier",
+            "name": "eval_",
             "start": 1084,
-            "end": 1089,
-            "name": "eval_"
+            "end": 1089
           },
           {
             "type": "Literal",
-            "start": 1091,
-            "end": 1092,
             "value": 6,
-            "raw": "6"
+            "raw": "6",
+            "start": 1091,
+            "end": 1092
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 1067,
+        "end": 1093
+      },
+      "start": 1067,
+      "end": 1094
     },
     {
       "type": "ExpressionStatement",
-      "start": 1095,
-      "end": 1125,
       "expression": {
         "type": "CallExpression",
-        "start": 1095,
-        "end": 1124,
         "callee": {
           "type": "MemberExpression",
-          "start": 1095,
-          "end": 1111,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 1095,
-            "end": 1101,
-            "name": "assert"
+            "end": 1101
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 1102,
-            "end": 1111,
-            "name": "sameValue"
+            "end": 1111
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 1095,
+          "end": 1111
         },
         "arguments": [
           {
             "type": "Identifier",
+            "name": "default_",
             "start": 1112,
-            "end": 1120,
-            "name": "default_"
+            "end": 1120
           },
           {
             "type": "Literal",
-            "start": 1122,
-            "end": 1123,
             "value": 7,
-            "raw": "7"
+            "raw": "7",
+            "start": 1122,
+            "end": 1123
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 1095,
+        "end": 1124
+      },
+      "start": 1095,
+      "end": 1125
     },
     {
       "type": "ExpressionStatement",
-      "start": 1126,
-      "end": 1150,
       "expression": {
         "type": "CallExpression",
-        "start": 1126,
-        "end": 1149,
         "callee": {
           "type": "MemberExpression",
-          "start": 1126,
-          "end": 1142,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 1126,
-            "end": 1132,
-            "name": "assert"
+            "end": 1132
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 1133,
-            "end": 1142,
-            "name": "sameValue"
+            "end": 1142
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 1126,
+          "end": 1142
         },
         "arguments": [
           {
             "type": "Identifier",
+            "name": "as",
             "start": 1143,
-            "end": 1145,
-            "name": "as"
+            "end": 1145
           },
           {
             "type": "Literal",
-            "start": 1147,
-            "end": 1148,
             "value": 8,
-            "raw": "8"
+            "raw": "8",
+            "start": 1147,
+            "end": 1148
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 1126,
+        "end": 1149
+      },
+      "start": 1126,
+      "end": 1150
     }
   ],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 1151
 }

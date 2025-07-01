@@ -2,21 +2,17 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 60,
   "body": [
     {
       "type": "FunctionDeclaration",
-      "start": 0,
-      "end": 60,
       "id": {
         "type": "Identifier",
-        "start": 9,
-        "end": 11,
         "decorators": [],
         "name": "fn",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 9,
+        "end": 11
       },
       "generator": false,
       "async": false,
@@ -25,79 +21,83 @@ __ESTREE_TEST__:PASS:
       "params": [],
       "returnType": {
         "type": "TSTypeAnnotation",
-        "start": 13,
-        "end": 21,
         "typeAnnotation": {
           "type": "TSNumberKeyword",
           "start": 15,
           "end": 21
-        }
+        },
+        "start": 13,
+        "end": 21
       },
       "body": {
         "type": "BlockStatement",
-        "start": 22,
-        "end": 60,
         "body": [
           {
             "type": "ThrowStatement",
-            "start": 26,
-            "end": 49,
             "argument": {
               "type": "NewExpression",
-              "start": 32,
-              "end": 48,
               "callee": {
                 "type": "Identifier",
-                "start": 36,
-                "end": 41,
                 "decorators": [],
                 "name": "Error",
                 "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "start": 36,
+                "end": 41
               },
               "typeArguments": null,
               "arguments": [
                 {
                   "type": "Literal",
-                  "start": 42,
-                  "end": 47,
                   "value": "NYI",
-                  "raw": "'NYI'"
+                  "raw": "'NYI'",
+                  "start": 42,
+                  "end": 47
                 }
-              ]
-            }
+              ],
+              "start": 32,
+              "end": 48
+            },
+            "start": 26,
+            "end": 49
           },
           {
             "type": "VariableDeclaration",
-            "start": 52,
-            "end": 58,
             "kind": "var",
             "declarations": [
               {
                 "type": "VariableDeclarator",
-                "start": 56,
-                "end": 57,
                 "id": {
                   "type": "Identifier",
-                  "start": 56,
-                  "end": 57,
                   "decorators": [],
                   "name": "t",
                   "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "start": 56,
+                  "end": 57
                 },
                 "init": null,
-                "definite": false
+                "definite": false,
+                "start": 56,
+                "end": 57
               }
             ],
-            "declare": false
+            "declare": false,
+            "start": 52,
+            "end": 58
           }
-        ]
+        ],
+        "start": 22,
+        "end": 60
       },
-      "expression": false
+      "expression": false,
+      "start": 0,
+      "end": 60
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 60
 }
 ```

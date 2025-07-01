@@ -1,87 +1,87 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 590,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 526,
-      "end": 589,
       "expression": {
         "type": "CallExpression",
-        "start": 526,
-        "end": 588,
         "callee": {
           "type": "Identifier",
+          "name": "assert",
           "start": 526,
-          "end": 532,
-          "name": "assert"
+          "end": 532
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 533,
-            "end": 587,
             "callee": {
               "type": "MemberExpression",
-              "start": 533,
-              "end": 552,
               "object": {
                 "type": "Identifier",
+                "name": "Object",
                 "start": 533,
-                "end": 539,
-                "name": "Object"
+                "end": 539
               },
               "property": {
                 "type": "Identifier",
+                "name": "isExtensible",
                 "start": 540,
-                "end": 552,
-                "name": "isExtensible"
+                "end": 552
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 533,
+              "end": 552
             },
             "arguments": [
               {
                 "type": "MemberExpression",
-                "start": 553,
-                "end": 586,
                 "object": {
                   "type": "MemberExpression",
-                  "start": 553,
-                  "end": 580,
                   "object": {
                     "type": "Identifier",
+                    "name": "SharedArrayBuffer",
                     "start": 553,
-                    "end": 570,
-                    "name": "SharedArrayBuffer"
+                    "end": 570
                   },
                   "property": {
                     "type": "Identifier",
+                    "name": "prototype",
                     "start": 571,
-                    "end": 580,
-                    "name": "prototype"
+                    "end": 580
                   },
                   "optional": false,
-                  "computed": false
+                  "computed": false,
+                  "start": 553,
+                  "end": 580
                 },
                 "property": {
                   "type": "Identifier",
+                  "name": "slice",
                   "start": 581,
-                  "end": 586,
-                  "name": "slice"
+                  "end": 586
                 },
                 "optional": false,
-                "computed": false
+                "computed": false,
+                "start": 553,
+                "end": 586
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 533,
+            "end": 587
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 526,
+        "end": 588
+      },
+      "start": 526,
+      "end": 589
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 590
 }

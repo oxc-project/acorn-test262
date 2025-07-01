@@ -1,178 +1,178 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 757,
   "body": [
     {
       "type": "IfStatement",
-      "start": 435,
-      "end": 674,
       "test": {
         "type": "BinaryExpression",
-        "start": 439,
-        "end": 508,
         "left": {
           "type": "CallExpression",
-          "start": 439,
-          "end": 493,
           "callee": {
             "type": "MemberExpression",
-            "start": 439,
-            "end": 491,
             "object": {
               "type": "CallExpression",
-              "start": 439,
-              "end": 479,
               "callee": {
                 "type": "FunctionExpression",
-                "start": 439,
-                "end": 477,
                 "id": null,
                 "generator": false,
                 "async": false,
                 "params": [],
                 "body": {
                   "type": "BlockStatement",
-                  "start": 450,
-                  "end": 477,
                   "body": [
                     {
                       "type": "ReturnStatement",
-                      "start": 456,
-                      "end": 473,
                       "argument": {
                         "type": "Literal",
-                        "start": 463,
-                        "end": 473,
                         "value": "GnulLuNa",
-                        "raw": "\"GnulLuNa\""
-                      }
+                        "raw": "\"GnulLuNa\"",
+                        "start": 463,
+                        "end": 473
+                      },
+                      "start": 456,
+                      "end": 473
                     }
-                  ]
+                  ],
+                  "start": 450,
+                  "end": 477
                 },
-                "expression": false
+                "expression": false,
+                "start": 439,
+                "end": 477
               },
               "arguments": [],
-              "optional": false
+              "optional": false,
+              "start": 439,
+              "end": 479
             },
             "property": {
               "type": "Identifier",
+              "name": "toUpperCase",
               "start": 480,
-              "end": 491,
-              "name": "toUpperCase"
+              "end": 491
             },
             "optional": false,
-            "computed": false
+            "computed": false,
+            "start": 439,
+            "end": 491
           },
           "arguments": [],
-          "optional": false
+          "optional": false,
+          "start": 439,
+          "end": 493
         },
         "operator": "!==",
         "right": {
           "type": "Literal",
-          "start": 498,
-          "end": 508,
           "value": "GNULLUNA",
-          "raw": "\"GNULLUNA\""
-        }
+          "raw": "\"GNULLUNA\"",
+          "start": 498,
+          "end": 508
+        },
+        "start": 439,
+        "end": 508
       },
       "consequent": {
         "type": "BlockStatement",
-        "start": 510,
-        "end": 674,
         "body": [
           {
             "type": "ThrowStatement",
-            "start": 514,
-            "end": 672,
             "argument": {
               "type": "NewExpression",
-              "start": 520,
-              "end": 671,
               "callee": {
                 "type": "Identifier",
+                "name": "Test262Error",
                 "start": 524,
-                "end": 536,
-                "name": "Test262Error"
+                "end": 536
               },
               "arguments": [
                 {
                   "type": "BinaryExpression",
-                  "start": 537,
-                  "end": 670,
                   "left": {
                     "type": "Literal",
-                    "start": 537,
-                    "end": 613,
                     "value": "#1: function(){return \"GnulLuNa\"}().toUpperCase() === \"GNULLUNA\". Actual: ",
-                    "raw": "'#1: function(){return \"GnulLuNa\"}().toUpperCase() === \"GNULLUNA\". Actual: '"
+                    "raw": "'#1: function(){return \"GnulLuNa\"}().toUpperCase() === \"GNULLUNA\". Actual: '",
+                    "start": 537,
+                    "end": 613
                   },
                   "operator": "+",
                   "right": {
                     "type": "CallExpression",
-                    "start": 616,
-                    "end": 670,
                     "callee": {
                       "type": "MemberExpression",
-                      "start": 616,
-                      "end": 668,
                       "object": {
                         "type": "CallExpression",
-                        "start": 616,
-                        "end": 656,
                         "callee": {
                           "type": "FunctionExpression",
-                          "start": 616,
-                          "end": 654,
                           "id": null,
                           "generator": false,
                           "async": false,
                           "params": [],
                           "body": {
                             "type": "BlockStatement",
-                            "start": 627,
-                            "end": 654,
                             "body": [
                               {
                                 "type": "ReturnStatement",
-                                "start": 633,
-                                "end": 650,
                                 "argument": {
                                   "type": "Literal",
-                                  "start": 640,
-                                  "end": 650,
                                   "value": "GnulLuNa",
-                                  "raw": "\"GnulLuNa\""
-                                }
+                                  "raw": "\"GnulLuNa\"",
+                                  "start": 640,
+                                  "end": 650
+                                },
+                                "start": 633,
+                                "end": 650
                               }
-                            ]
+                            ],
+                            "start": 627,
+                            "end": 654
                           },
-                          "expression": false
+                          "expression": false,
+                          "start": 616,
+                          "end": 654
                         },
                         "arguments": [],
-                        "optional": false
+                        "optional": false,
+                        "start": 616,
+                        "end": 656
                       },
                       "property": {
                         "type": "Identifier",
+                        "name": "toUpperCase",
                         "start": 657,
-                        "end": 668,
-                        "name": "toUpperCase"
+                        "end": 668
                       },
                       "optional": false,
-                      "computed": false
+                      "computed": false,
+                      "start": 616,
+                      "end": 668
                     },
                     "arguments": [],
-                    "optional": false
-                  }
+                    "optional": false,
+                    "start": 616,
+                    "end": 670
+                  },
+                  "start": 537,
+                  "end": 670
                 }
-              ]
-            }
+              ],
+              "start": 520,
+              "end": 671
+            },
+            "start": 514,
+            "end": 672
           }
-        ]
+        ],
+        "start": 510,
+        "end": 674
       },
-      "alternate": null
+      "alternate": null,
+      "start": 435,
+      "end": 674
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 757
 }

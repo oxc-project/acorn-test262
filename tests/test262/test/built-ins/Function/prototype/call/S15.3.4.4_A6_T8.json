@@ -1,81 +1,65 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 681,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 464,
-      "end": 583,
       "expression": {
         "type": "CallExpression",
-        "start": 464,
-        "end": 582,
         "callee": {
           "type": "ParenthesizedExpression",
-          "start": 464,
-          "end": 566,
           "expression": {
             "type": "FunctionExpression",
-            "start": 465,
-            "end": 565,
             "id": null,
             "generator": false,
             "async": false,
             "params": [],
             "body": {
               "type": "BlockStatement",
-              "start": 476,
-              "end": 565,
               "body": [
                 {
                   "type": "ExpressionStatement",
-                  "start": 480,
-                  "end": 563,
                   "expression": {
                     "type": "CallExpression",
-                    "start": 480,
-                    "end": 562,
                     "callee": {
                       "type": "MemberExpression",
-                      "start": 480,
-                      "end": 538,
                       "object": {
                         "type": "CallExpression",
-                        "start": 480,
-                        "end": 533,
                         "callee": {
                           "type": "Identifier",
+                          "name": "Function",
                           "start": 480,
-                          "end": 488,
-                          "name": "Function"
+                          "end": 488
                         },
                         "arguments": [
                           {
                             "type": "Literal",
-                            "start": 489,
-                            "end": 499,
                             "value": "a1,a2,a3",
-                            "raw": "\"a1,a2,a3\""
+                            "raw": "\"a1,a2,a3\"",
+                            "start": 489,
+                            "end": 499
                           },
                           {
                             "type": "Literal",
-                            "start": 501,
-                            "end": 532,
                             "value": "this.shifted=a1.length+a2+a3;",
-                            "raw": "\"this.shifted=a1.length+a2+a3;\""
+                            "raw": "\"this.shifted=a1.length+a2+a3;\"",
+                            "start": 501,
+                            "end": 532
                           }
                         ],
-                        "optional": false
+                        "optional": false,
+                        "start": 480,
+                        "end": 533
                       },
                       "property": {
                         "type": "Identifier",
+                        "name": "call",
                         "start": 534,
-                        "end": 538,
-                        "name": "call"
+                        "end": 538
                       },
                       "optional": false,
-                      "computed": false
+                      "computed": false,
+                      "start": 480,
+                      "end": 538
                     },
                     "arguments": [
                       {
@@ -85,98 +69,106 @@
                       },
                       {
                         "type": "Identifier",
+                        "name": "arguments",
                         "start": 545,
-                        "end": 554,
-                        "name": "arguments"
+                        "end": 554
                       },
                       {
                         "type": "Literal",
-                        "start": 556,
-                        "end": 558,
                         "value": "",
-                        "raw": "\"\""
+                        "raw": "\"\"",
+                        "start": 556,
+                        "end": 558
                       },
                       {
                         "type": "Literal",
-                        "start": 560,
-                        "end": 561,
                         "value": 2,
-                        "raw": "2"
+                        "raw": "2",
+                        "start": 560,
+                        "end": 561
                       }
                     ],
-                    "optional": false
-                  }
+                    "optional": false,
+                    "start": 480,
+                    "end": 562
+                  },
+                  "start": 480,
+                  "end": 563
                 }
-              ]
+              ],
+              "start": 476,
+              "end": 565
             },
-            "expression": false
-          }
+            "expression": false,
+            "start": 465,
+            "end": 565
+          },
+          "start": 464,
+          "end": 566
         },
         "arguments": [
           {
             "type": "Literal",
-            "start": 567,
-            "end": 569,
             "value": "",
-            "raw": "\"\""
+            "raw": "\"\"",
+            "start": 567,
+            "end": 569
           },
           {
             "type": "Literal",
-            "start": 571,
-            "end": 572,
             "value": 4,
-            "raw": "4"
+            "raw": "4",
+            "start": 571,
+            "end": 572
           },
           {
             "type": "Literal",
-            "start": 574,
-            "end": 575,
             "value": 2,
-            "raw": "2"
+            "raw": "2",
+            "start": 574,
+            "end": 575
           },
           {
             "type": "Literal",
-            "start": 577,
-            "end": 581,
             "value": null,
-            "raw": "null"
+            "raw": "null",
+            "start": 577,
+            "end": 581
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 464,
+        "end": 582
+      },
+      "start": 464,
+      "end": 583
     },
     {
       "type": "ExpressionStatement",
-      "start": 585,
-      "end": 680,
       "expression": {
         "type": "CallExpression",
-        "start": 585,
-        "end": 679,
         "callee": {
           "type": "MemberExpression",
-          "start": 585,
-          "end": 601,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 585,
-            "end": 591,
-            "name": "assert"
+            "end": 591
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 592,
-            "end": 601,
-            "name": "sameValue"
+            "end": 601
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 585,
+          "end": 601
         },
         "arguments": [
           {
             "type": "MemberExpression",
-            "start": 602,
-            "end": 617,
             "object": {
               "type": "ThisExpression",
               "start": 602,
@@ -184,33 +176,41 @@
             },
             "property": {
               "type": "Literal",
-              "start": 607,
-              "end": 616,
               "value": "shifted",
-              "raw": "\"shifted\""
+              "raw": "\"shifted\"",
+              "start": 607,
+              "end": 616
             },
             "optional": false,
-            "computed": true
+            "computed": true,
+            "start": 602,
+            "end": 617
           },
           {
             "type": "Literal",
-            "start": 619,
-            "end": 623,
             "value": "42",
-            "raw": "\"42\""
+            "raw": "\"42\"",
+            "start": 619,
+            "end": 623
           },
           {
             "type": "Literal",
-            "start": 625,
-            "end": 678,
             "value": "The value of this[\"shifted\"] is expected to be \"42\"",
-            "raw": "'The value of this[\"shifted\"] is expected to be \"42\"'"
+            "raw": "'The value of this[\"shifted\"] is expected to be \"42\"'",
+            "start": 625,
+            "end": 678
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 585,
+        "end": 679
+      },
+      "start": 585,
+      "end": 680
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 681
 }

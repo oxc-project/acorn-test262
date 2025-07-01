@@ -1,470 +1,470 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 800,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 446,
-      "end": 504,
       "expression": {
         "type": "CallExpression",
-        "start": 446,
-        "end": 503,
         "callee": {
           "type": "Identifier",
+          "name": "assert",
           "start": 446,
-          "end": 452,
-          "name": "assert"
+          "end": 452
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 453,
-            "end": 476,
             "callee": {
               "type": "MemberExpression",
-              "start": 453,
-              "end": 466,
               "object": {
                 "type": "Literal",
-                "start": 453,
-                "end": 461,
                 "value": null,
                 "raw": "/\\u{0}/u",
                 "regex": {
                   "pattern": "\\u{0}",
                   "flags": "u"
-                }
+                },
+                "start": 453,
+                "end": 461
               },
               "property": {
                 "type": "Identifier",
+                "name": "test",
                 "start": 462,
-                "end": 466,
-                "name": "test"
+                "end": 466
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 453,
+              "end": 466
             },
             "arguments": [
               {
                 "type": "Literal",
-                "start": 467,
-                "end": 475,
                 "value": "\u0000",
-                "raw": "'\\u0000'"
+                "raw": "'\\u0000'",
+                "start": 467,
+                "end": 475
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 453,
+            "end": 476
           },
           {
             "type": "Literal",
-            "start": 478,
-            "end": 502,
             "value": "Minimum value (U+0000)",
-            "raw": "'Minimum value (U+0000)'"
+            "raw": "'Minimum value (U+0000)'",
+            "start": 478,
+            "end": 502
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 446,
+        "end": 503
+      },
+      "start": 446,
+      "end": 504
     },
     {
       "type": "ExpressionStatement",
-      "start": 505,
-      "end": 547,
       "expression": {
         "type": "CallExpression",
-        "start": 505,
-        "end": 546,
         "callee": {
           "type": "Identifier",
+          "name": "assert",
           "start": 505,
-          "end": 511,
-          "name": "assert"
+          "end": 511
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 512,
-            "end": 535,
             "callee": {
               "type": "MemberExpression",
-              "start": 512,
-              "end": 525,
               "object": {
                 "type": "Literal",
-                "start": 512,
-                "end": 520,
                 "value": null,
                 "raw": "/\\u{1}/u",
                 "regex": {
                   "pattern": "\\u{1}",
                   "flags": "u"
-                }
+                },
+                "start": 512,
+                "end": 520
               },
               "property": {
                 "type": "Identifier",
+                "name": "test",
                 "start": 521,
-                "end": 525,
-                "name": "test"
+                "end": 525
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 512,
+              "end": 525
             },
             "arguments": [
               {
                 "type": "Literal",
-                "start": 526,
-                "end": 534,
                 "value": "\u0001",
-                "raw": "'\\u0001'"
+                "raw": "'\\u0001'",
+                "start": 526,
+                "end": 534
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 512,
+            "end": 535
           },
           {
             "type": "Literal",
-            "start": 537,
-            "end": 545,
             "value": "U+0001",
-            "raw": "'U+0001'"
+            "raw": "'U+0001'",
+            "start": 537,
+            "end": 545
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 505,
+        "end": 546
+      },
+      "start": 505,
+      "end": 547
     },
     {
       "type": "ExpressionStatement",
-      "start": 548,
-      "end": 592,
       "expression": {
         "type": "CallExpression",
-        "start": 548,
-        "end": 591,
         "callee": {
           "type": "MemberExpression",
-          "start": 548,
-          "end": 564,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 548,
-            "end": 554,
-            "name": "assert"
+            "end": 554
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 555,
-            "end": 564,
-            "name": "sameValue"
+            "end": 564
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 548,
+          "end": 564
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 565,
-            "end": 583,
             "callee": {
               "type": "MemberExpression",
-              "start": 565,
-              "end": 578,
               "object": {
                 "type": "Literal",
-                "start": 565,
-                "end": 573,
                 "value": null,
                 "raw": "/\\u{1}/u",
                 "regex": {
                   "pattern": "\\u{1}",
                   "flags": "u"
-                }
+                },
+                "start": 565,
+                "end": 573
               },
               "property": {
                 "type": "Identifier",
+                "name": "test",
                 "start": 574,
-                "end": 578,
-                "name": "test"
+                "end": 578
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 565,
+              "end": 578
             },
             "arguments": [
               {
                 "type": "Literal",
-                "start": 579,
-                "end": 582,
                 "value": "u",
-                "raw": "'u'"
+                "raw": "'u'",
+                "start": 579,
+                "end": 582
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 565,
+            "end": 583
           },
           {
             "type": "Literal",
-            "start": 585,
-            "end": 590,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "start": 585,
+            "end": 590
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 548,
+        "end": 591
+      },
+      "start": 548,
+      "end": 592
     },
     {
       "type": "ExpressionStatement",
-      "start": 593,
-      "end": 621,
       "expression": {
         "type": "CallExpression",
-        "start": 593,
-        "end": 620,
         "callee": {
           "type": "Identifier",
+          "name": "assert",
           "start": 593,
-          "end": 599,
-          "name": "assert"
+          "end": 599
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 600,
-            "end": 619,
             "callee": {
               "type": "MemberExpression",
-              "start": 600,
-              "end": 614,
               "object": {
                 "type": "Literal",
-                "start": 600,
-                "end": 609,
                 "value": null,
                 "raw": "/\\u{3f}/u",
                 "regex": {
                   "pattern": "\\u{3f}",
                   "flags": "u"
-                }
+                },
+                "start": 600,
+                "end": 609
               },
               "property": {
                 "type": "Identifier",
+                "name": "test",
                 "start": 610,
-                "end": 614,
-                "name": "test"
+                "end": 614
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 600,
+              "end": 614
             },
             "arguments": [
               {
                 "type": "Literal",
-                "start": 615,
-                "end": 618,
                 "value": "?",
-                "raw": "'?'"
+                "raw": "'?'",
+                "start": 615,
+                "end": 618
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 600,
+            "end": 619
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 593,
+        "end": 620
+      },
+      "start": 593,
+      "end": 621
     },
     {
       "type": "ExpressionStatement",
-      "start": 622,
-      "end": 675,
       "expression": {
         "type": "CallExpression",
-        "start": 622,
-        "end": 674,
         "callee": {
           "type": "Identifier",
+          "name": "assert",
           "start": 622,
-          "end": 628,
-          "name": "assert"
+          "end": 628
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 629,
-            "end": 656,
             "callee": {
               "type": "MemberExpression",
-              "start": 629,
-              "end": 651,
               "object": {
                 "type": "Literal",
-                "start": 629,
-                "end": 646,
                 "value": null,
                 "raw": "/\\u{000000003f}/u",
                 "regex": {
                   "pattern": "\\u{000000003f}",
                   "flags": "u"
-                }
+                },
+                "start": 629,
+                "end": 646
               },
               "property": {
                 "type": "Identifier",
+                "name": "test",
                 "start": 647,
-                "end": 651,
-                "name": "test"
+                "end": 651
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 629,
+              "end": 651
             },
             "arguments": [
               {
                 "type": "Literal",
-                "start": 652,
-                "end": 655,
                 "value": "?",
-                "raw": "'?'"
+                "raw": "'?'",
+                "start": 652,
+                "end": 655
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 629,
+            "end": 656
           },
           {
             "type": "Literal",
-            "start": 658,
-            "end": 673,
             "value": "Leading zeros",
-            "raw": "'Leading zeros'"
+            "raw": "'Leading zeros'",
+            "start": 658,
+            "end": 673
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 622,
+        "end": 674
+      },
+      "start": 622,
+      "end": 675
     },
     {
       "type": "ExpressionStatement",
-      "start": 676,
-      "end": 726,
       "expression": {
         "type": "CallExpression",
-        "start": 676,
-        "end": 725,
         "callee": {
           "type": "Identifier",
+          "name": "assert",
           "start": 676,
-          "end": 682,
-          "name": "assert"
+          "end": 682
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 683,
-            "end": 702,
             "callee": {
               "type": "MemberExpression",
-              "start": 683,
-              "end": 697,
               "object": {
                 "type": "Literal",
-                "start": 683,
-                "end": 692,
                 "value": null,
                 "raw": "/\\u{3F}/u",
                 "regex": {
                   "pattern": "\\u{3F}",
                   "flags": "u"
-                }
+                },
+                "start": 683,
+                "end": 692
               },
               "property": {
                 "type": "Identifier",
+                "name": "test",
                 "start": 693,
-                "end": 697,
-                "name": "test"
+                "end": 697
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 683,
+              "end": 697
             },
             "arguments": [
               {
                 "type": "Literal",
-                "start": 698,
-                "end": 701,
                 "value": "?",
-                "raw": "'?'"
+                "raw": "'?'",
+                "start": 698,
+                "end": 701
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 683,
+            "end": 702
           },
           {
             "type": "Literal",
-            "start": 704,
-            "end": 724,
             "value": "Case insensitivity",
-            "raw": "'Case insensitivity'"
+            "raw": "'Case insensitivity'",
+            "start": 704,
+            "end": 724
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 676,
+        "end": 725
+      },
+      "start": 676,
+      "end": 726
     },
     {
       "type": "ExpressionStatement",
-      "start": 727,
-      "end": 799,
       "expression": {
         "type": "CallExpression",
-        "start": 727,
-        "end": 798,
         "callee": {
           "type": "Identifier",
+          "name": "assert",
           "start": 727,
-          "end": 733,
-          "name": "assert"
+          "end": 733
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 734,
-            "end": 768,
             "callee": {
               "type": "MemberExpression",
-              "start": 734,
-              "end": 752,
               "object": {
                 "type": "Literal",
-                "start": 734,
-                "end": 747,
                 "value": null,
                 "raw": "/\\u{10ffff}/u",
                 "regex": {
                   "pattern": "\\u{10ffff}",
                   "flags": "u"
-                }
+                },
+                "start": 734,
+                "end": 747
               },
               "property": {
                 "type": "Identifier",
+                "name": "test",
                 "start": 748,
-                "end": 752,
-                "name": "test"
+                "end": 752
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 734,
+              "end": 752
             },
             "arguments": [
               {
                 "type": "Literal",
-                "start": 753,
-                "end": 767,
                 "value": "􏿿",
-                "raw": "'\\udbff\\udfff'"
+                "raw": "'\\udbff\\udfff'",
+                "start": 753,
+                "end": 767
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 734,
+            "end": 768
           },
           {
             "type": "Literal",
-            "start": 770,
-            "end": 797,
             "value": "Maxiumum value (U+10ffff)",
-            "raw": "'Maxiumum value (U+10ffff)'"
+            "raw": "'Maxiumum value (U+10ffff)'",
+            "start": 770,
+            "end": 797
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 727,
+        "end": 798
+      },
+      "start": 727,
+      "end": 799
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 800
 }

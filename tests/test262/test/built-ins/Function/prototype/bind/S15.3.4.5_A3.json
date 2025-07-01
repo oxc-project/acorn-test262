@@ -1,67 +1,67 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 331,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 203,
-      "end": 330,
       "expression": {
         "type": "CallExpression",
-        "start": 203,
-        "end": 329,
         "callee": {
           "type": "Identifier",
+          "name": "assert",
           "start": 203,
-          "end": 209,
-          "name": "assert"
+          "end": 209
         },
         "arguments": [
           {
             "type": "BinaryExpression",
-            "start": 213,
-            "end": 241,
             "left": {
               "type": "Literal",
-              "start": 213,
-              "end": 219,
               "value": "bind",
-              "raw": "'bind'"
+              "raw": "'bind'",
+              "start": 213,
+              "end": 219
             },
             "operator": "in",
             "right": {
               "type": "MemberExpression",
-              "start": 223,
-              "end": 241,
               "object": {
                 "type": "Identifier",
+                "name": "Function",
                 "start": 223,
-                "end": 231,
-                "name": "Function"
+                "end": 231
               },
               "property": {
                 "type": "Identifier",
+                "name": "prototype",
                 "start": 232,
-                "end": 241,
-                "name": "prototype"
+                "end": 241
               },
               "optional": false,
-              "computed": false
-            }
+              "computed": false,
+              "start": 223,
+              "end": 241
+            },
+            "start": 213,
+            "end": 241
           },
           {
             "type": "Literal",
-            "start": 245,
-            "end": 327,
             "value": "The result of evaluating ('bind' in Function.prototype) is expected to be true",
-            "raw": "'The result of evaluating (\\'bind\\' in Function.prototype) is expected to be true'"
+            "raw": "'The result of evaluating (\\'bind\\' in Function.prototype) is expected to be true'",
+            "start": 245,
+            "end": 327
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 203,
+        "end": 329
+      },
+      "start": 203,
+      "end": 330
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 331
 }

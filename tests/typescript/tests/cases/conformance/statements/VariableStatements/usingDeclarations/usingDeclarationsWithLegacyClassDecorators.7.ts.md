@@ -2,81 +2,77 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 72,
   "body": [
     {
       "type": "ExportNamedDeclaration",
-      "start": 0,
-      "end": 10,
       "declaration": null,
       "specifiers": [],
       "source": null,
       "exportKind": "value",
-      "attributes": []
+      "attributes": [],
+      "start": 0,
+      "end": 10
     },
     {
       "type": "VariableDeclaration",
-      "start": 12,
-      "end": 33,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 24,
-          "end": 32,
           "id": {
             "type": "Identifier",
-            "start": 24,
-            "end": 32,
             "decorators": [],
             "name": "dec",
             "optional": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
-              "start": 27,
-              "end": 32,
               "typeAnnotation": {
                 "type": "TSAnyKeyword",
                 "start": 29,
                 "end": 32
-              }
-            }
+              },
+              "start": 27,
+              "end": 32
+            },
+            "start": 24,
+            "end": 32
           },
           "init": null,
-          "definite": false
+          "definite": false,
+          "start": 24,
+          "end": 32
         }
       ],
-      "declare": true
+      "declare": true,
+      "start": 12,
+      "end": 33
     },
     {
       "type": "ClassDeclaration",
-      "start": 35,
-      "end": 51,
       "decorators": [
         {
           "type": "Decorator",
-          "start": 35,
-          "end": 39,
           "expression": {
             "type": "Identifier",
-            "start": 36,
-            "end": 39,
             "decorators": [],
             "name": "dec",
             "optional": false,
-            "typeAnnotation": null
-          }
+            "typeAnnotation": null,
+            "start": 36,
+            "end": 39
+          },
+          "start": 35,
+          "end": 39
         }
       ],
       "id": {
         "type": "Identifier",
-        "start": 46,
-        "end": 47,
         "decorators": [],
         "name": "C",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 46,
+        "end": 47
       },
       "typeParameters": null,
       "superClass": null,
@@ -84,46 +80,50 @@ __ESTREE_TEST__:PASS:
       "implements": [],
       "body": {
         "type": "ClassBody",
+        "body": [],
         "start": 48,
-        "end": 51,
-        "body": []
+        "end": 51
       },
       "abstract": false,
-      "declare": false
+      "declare": false,
+      "start": 35,
+      "end": 51
     },
     {
       "type": "VariableDeclaration",
-      "start": 53,
-      "end": 72,
       "kind": "using",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 59,
-          "end": 71,
           "id": {
             "type": "Identifier",
-            "start": 59,
-            "end": 64,
             "decorators": [],
             "name": "after",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 59,
+            "end": 64
           },
           "init": {
             "type": "Literal",
-            "start": 67,
-            "end": 71,
             "value": null,
-            "raw": "null"
+            "raw": "null",
+            "start": 67,
+            "end": 71
           },
-          "definite": false
+          "definite": false,
+          "start": 59,
+          "end": 71
         }
       ],
-      "declare": false
+      "declare": false,
+      "start": 53,
+      "end": 72
     }
   ],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 72
 }
 ```

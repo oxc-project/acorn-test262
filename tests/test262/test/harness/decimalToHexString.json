@@ -1,743 +1,743 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 969,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 313,
-      "end": 366,
       "expression": {
         "type": "CallExpression",
-        "start": 313,
-        "end": 365,
         "callee": {
           "type": "MemberExpression",
-          "start": 313,
-          "end": 329,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 313,
-            "end": 319,
-            "name": "assert"
+            "end": 319
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 320,
-            "end": 329,
-            "name": "sameValue"
+            "end": 329
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 313,
+          "end": 329
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 330,
-            "end": 352,
             "callee": {
               "type": "Identifier",
+              "name": "decimalToHexString",
               "start": 330,
-              "end": 348,
-              "name": "decimalToHexString"
+              "end": 348
             },
             "arguments": [
               {
                 "type": "UnaryExpression",
-                "start": 349,
-                "end": 351,
                 "operator": "-",
                 "argument": {
                   "type": "Literal",
+                  "value": 1,
+                  "raw": "1",
                   "start": 350,
-                  "end": 351,
-                  "value": 1,
-                  "raw": "1"
+                  "end": 351
                 },
-                "prefix": true
+                "prefix": true,
+                "start": 349,
+                "end": 351
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 330,
+            "end": 352
           },
           {
             "type": "Literal",
-            "start": 354,
-            "end": 364,
             "value": "FFFFFFFF",
-            "raw": "\"FFFFFFFF\""
+            "raw": "\"FFFFFFFF\"",
+            "start": 354,
+            "end": 364
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 313,
+        "end": 365
+      },
+      "start": 313,
+      "end": 366
     },
     {
       "type": "ExpressionStatement",
-      "start": 367,
-      "end": 417,
       "expression": {
         "type": "CallExpression",
-        "start": 367,
-        "end": 416,
         "callee": {
           "type": "MemberExpression",
-          "start": 367,
-          "end": 383,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 367,
-            "end": 373,
-            "name": "assert"
+            "end": 373
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 374,
-            "end": 383,
-            "name": "sameValue"
+            "end": 383
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 367,
+          "end": 383
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 384,
-            "end": 407,
             "callee": {
               "type": "Identifier",
+              "name": "decimalToHexString",
               "start": 384,
-              "end": 402,
-              "name": "decimalToHexString"
+              "end": 402
             },
             "arguments": [
               {
                 "type": "Literal",
-                "start": 403,
-                "end": 406,
                 "value": 0.5,
-                "raw": "0.5"
+                "raw": "0.5",
+                "start": 403,
+                "end": 406
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 384,
+            "end": 407
           },
           {
             "type": "Literal",
-            "start": 409,
-            "end": 415,
             "value": "0000",
-            "raw": "\"0000\""
+            "raw": "\"0000\"",
+            "start": 409,
+            "end": 415
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 367,
+        "end": 416
+      },
+      "start": 367,
+      "end": 417
     },
     {
       "type": "ExpressionStatement",
-      "start": 418,
-      "end": 466,
       "expression": {
         "type": "CallExpression",
-        "start": 418,
-        "end": 465,
         "callee": {
           "type": "MemberExpression",
-          "start": 418,
-          "end": 434,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 418,
-            "end": 424,
-            "name": "assert"
+            "end": 424
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 425,
-            "end": 434,
-            "name": "sameValue"
+            "end": 434
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 418,
+          "end": 434
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 435,
-            "end": 456,
             "callee": {
               "type": "Identifier",
+              "name": "decimalToHexString",
               "start": 435,
-              "end": 453,
-              "name": "decimalToHexString"
+              "end": 453
             },
             "arguments": [
               {
                 "type": "Literal",
-                "start": 454,
-                "end": 455,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "start": 454,
+                "end": 455
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 435,
+            "end": 456
           },
           {
             "type": "Literal",
-            "start": 458,
-            "end": 464,
             "value": "0001",
-            "raw": "\"0001\""
+            "raw": "\"0001\"",
+            "start": 458,
+            "end": 464
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 418,
+        "end": 465
+      },
+      "start": 418,
+      "end": 466
     },
     {
       "type": "ExpressionStatement",
-      "start": 467,
-      "end": 517,
       "expression": {
         "type": "CallExpression",
-        "start": 467,
-        "end": 516,
         "callee": {
           "type": "MemberExpression",
-          "start": 467,
-          "end": 483,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 467,
-            "end": 473,
-            "name": "assert"
+            "end": 473
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 474,
-            "end": 483,
-            "name": "sameValue"
+            "end": 483
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 467,
+          "end": 483
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 484,
-            "end": 507,
             "callee": {
               "type": "Identifier",
+              "name": "decimalToHexString",
               "start": 484,
-              "end": 502,
-              "name": "decimalToHexString"
+              "end": 502
             },
             "arguments": [
               {
                 "type": "Literal",
-                "start": 503,
-                "end": 506,
                 "value": 100,
-                "raw": "100"
+                "raw": "100",
+                "start": 503,
+                "end": 506
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 484,
+            "end": 507
           },
           {
             "type": "Literal",
-            "start": 509,
-            "end": 515,
             "value": "0064",
-            "raw": "\"0064\""
+            "raw": "\"0064\"",
+            "start": 509,
+            "end": 515
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 467,
+        "end": 516
+      },
+      "start": 467,
+      "end": 517
     },
     {
       "type": "ExpressionStatement",
-      "start": 518,
-      "end": 570,
       "expression": {
         "type": "CallExpression",
-        "start": 518,
-        "end": 569,
         "callee": {
           "type": "MemberExpression",
-          "start": 518,
-          "end": 534,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 518,
-            "end": 524,
-            "name": "assert"
+            "end": 524
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 525,
-            "end": 534,
-            "name": "sameValue"
+            "end": 534
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 518,
+          "end": 534
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 535,
-            "end": 560,
             "callee": {
               "type": "Identifier",
+              "name": "decimalToHexString",
               "start": 535,
-              "end": 553,
-              "name": "decimalToHexString"
+              "end": 553
             },
             "arguments": [
               {
                 "type": "Literal",
-                "start": 554,
-                "end": 559,
                 "value": 65535,
-                "raw": "65535"
+                "raw": "65535",
+                "start": 554,
+                "end": 559
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 535,
+            "end": 560
           },
           {
             "type": "Literal",
-            "start": 562,
-            "end": 568,
             "value": "FFFF",
-            "raw": "\"FFFF\""
+            "raw": "\"FFFF\"",
+            "start": 562,
+            "end": 568
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 518,
+        "end": 569
+      },
+      "start": 518,
+      "end": 570
     },
     {
       "type": "ExpressionStatement",
-      "start": 571,
-      "end": 624,
       "expression": {
         "type": "CallExpression",
-        "start": 571,
-        "end": 623,
         "callee": {
           "type": "MemberExpression",
-          "start": 571,
-          "end": 587,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 571,
-            "end": 577,
-            "name": "assert"
+            "end": 577
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 578,
-            "end": 587,
-            "name": "sameValue"
+            "end": 587
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 571,
+          "end": 587
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 588,
-            "end": 613,
             "callee": {
               "type": "Identifier",
+              "name": "decimalToHexString",
               "start": 588,
-              "end": 606,
-              "name": "decimalToHexString"
+              "end": 606
             },
             "arguments": [
               {
                 "type": "Literal",
-                "start": 607,
-                "end": 612,
                 "value": 65536,
-                "raw": "65536"
+                "raw": "65536",
+                "start": 607,
+                "end": 612
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 588,
+            "end": 613
           },
           {
             "type": "Literal",
-            "start": 615,
-            "end": 622,
             "value": "10000",
-            "raw": "\"10000\""
+            "raw": "\"10000\"",
+            "start": 615,
+            "end": 622
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 571,
+        "end": 623
+      },
+      "start": 571,
+      "end": 624
     },
     {
       "type": "ExpressionStatement",
-      "start": 626,
-      "end": 681,
       "expression": {
         "type": "CallExpression",
-        "start": 626,
-        "end": 680,
         "callee": {
           "type": "MemberExpression",
-          "start": 626,
-          "end": 642,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 626,
-            "end": 632,
-            "name": "assert"
+            "end": 632
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 633,
-            "end": 642,
-            "name": "sameValue"
+            "end": 642
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 626,
+          "end": 642
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 643,
-            "end": 672,
             "callee": {
               "type": "Identifier",
+              "name": "decimalToPercentHexString",
               "start": 643,
-              "end": 668,
-              "name": "decimalToPercentHexString"
+              "end": 668
             },
             "arguments": [
               {
                 "type": "UnaryExpression",
-                "start": 669,
-                "end": 671,
                 "operator": "-",
                 "argument": {
                   "type": "Literal",
-                  "start": 670,
-                  "end": 671,
                   "value": 1,
-                  "raw": "1"
+                  "raw": "1",
+                  "start": 670,
+                  "end": 671
                 },
-                "prefix": true
+                "prefix": true,
+                "start": 669,
+                "end": 671
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 643,
+            "end": 672
           },
           {
             "type": "Literal",
+            "value": "%FF",
+            "raw": "\"%FF\"",
             "start": 674,
-            "end": 679,
-            "value": "%FF",
-            "raw": "\"%FF\""
+            "end": 679
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 626,
+        "end": 680
+      },
+      "start": 626,
+      "end": 681
     },
     {
       "type": "ExpressionStatement",
-      "start": 682,
-      "end": 738,
       "expression": {
         "type": "CallExpression",
-        "start": 682,
-        "end": 737,
         "callee": {
           "type": "MemberExpression",
-          "start": 682,
-          "end": 698,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 682,
-            "end": 688,
-            "name": "assert"
+            "end": 688
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 689,
-            "end": 698,
-            "name": "sameValue"
+            "end": 698
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 682,
+          "end": 698
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 699,
-            "end": 729,
             "callee": {
               "type": "Identifier",
+              "name": "decimalToPercentHexString",
               "start": 699,
-              "end": 724,
-              "name": "decimalToPercentHexString"
+              "end": 724
             },
             "arguments": [
               {
                 "type": "Literal",
-                "start": 725,
-                "end": 728,
                 "value": 0.5,
-                "raw": "0.5"
+                "raw": "0.5",
+                "start": 725,
+                "end": 728
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 699,
+            "end": 729
           },
           {
             "type": "Literal",
+            "value": "%00",
+            "raw": "\"%00\"",
             "start": 731,
-            "end": 736,
-            "value": "%00",
-            "raw": "\"%00\""
+            "end": 736
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 682,
+        "end": 737
+      },
+      "start": 682,
+      "end": 738
     },
     {
       "type": "ExpressionStatement",
-      "start": 739,
-      "end": 793,
       "expression": {
         "type": "CallExpression",
-        "start": 739,
-        "end": 792,
         "callee": {
           "type": "MemberExpression",
-          "start": 739,
-          "end": 755,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 739,
-            "end": 745,
-            "name": "assert"
+            "end": 745
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 746,
-            "end": 755,
-            "name": "sameValue"
+            "end": 755
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 739,
+          "end": 755
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 756,
-            "end": 784,
             "callee": {
               "type": "Identifier",
+              "name": "decimalToPercentHexString",
               "start": 756,
-              "end": 781,
-              "name": "decimalToPercentHexString"
+              "end": 781
             },
             "arguments": [
               {
                 "type": "Literal",
-                "start": 782,
-                "end": 783,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "start": 782,
+                "end": 783
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 756,
+            "end": 784
           },
           {
             "type": "Literal",
-            "start": 786,
-            "end": 791,
             "value": "%01",
-            "raw": "\"%01\""
+            "raw": "\"%01\"",
+            "start": 786,
+            "end": 791
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 739,
+        "end": 792
+      },
+      "start": 739,
+      "end": 793
     },
     {
       "type": "ExpressionStatement",
-      "start": 794,
-      "end": 850,
       "expression": {
         "type": "CallExpression",
-        "start": 794,
-        "end": 849,
         "callee": {
           "type": "MemberExpression",
-          "start": 794,
-          "end": 810,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 794,
-            "end": 800,
-            "name": "assert"
+            "end": 800
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 801,
-            "end": 810,
-            "name": "sameValue"
+            "end": 810
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 794,
+          "end": 810
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 811,
-            "end": 841,
             "callee": {
               "type": "Identifier",
+              "name": "decimalToPercentHexString",
               "start": 811,
-              "end": 836,
-              "name": "decimalToPercentHexString"
+              "end": 836
             },
             "arguments": [
               {
                 "type": "Literal",
-                "start": 837,
-                "end": 840,
                 "value": 100,
-                "raw": "100"
+                "raw": "100",
+                "start": 837,
+                "end": 840
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 811,
+            "end": 841
           },
           {
             "type": "Literal",
-            "start": 843,
-            "end": 848,
             "value": "%64",
-            "raw": "\"%64\""
+            "raw": "\"%64\"",
+            "start": 843,
+            "end": 848
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 794,
+        "end": 849
+      },
+      "start": 794,
+      "end": 850
     },
     {
       "type": "ExpressionStatement",
-      "start": 851,
-      "end": 909,
       "expression": {
         "type": "CallExpression",
-        "start": 851,
-        "end": 908,
         "callee": {
           "type": "MemberExpression",
-          "start": 851,
-          "end": 867,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 851,
-            "end": 857,
-            "name": "assert"
+            "end": 857
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 858,
-            "end": 867,
-            "name": "sameValue"
+            "end": 867
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 851,
+          "end": 867
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 868,
-            "end": 900,
             "callee": {
               "type": "Identifier",
+              "name": "decimalToPercentHexString",
               "start": 868,
-              "end": 893,
-              "name": "decimalToPercentHexString"
+              "end": 893
             },
             "arguments": [
               {
                 "type": "Literal",
-                "start": 894,
-                "end": 899,
                 "value": 65535,
-                "raw": "65535"
+                "raw": "65535",
+                "start": 894,
+                "end": 899
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 868,
+            "end": 900
           },
           {
             "type": "Literal",
-            "start": 902,
-            "end": 907,
             "value": "%FF",
-            "raw": "\"%FF\""
+            "raw": "\"%FF\"",
+            "start": 902,
+            "end": 907
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 851,
+        "end": 908
+      },
+      "start": 851,
+      "end": 909
     },
     {
       "type": "ExpressionStatement",
-      "start": 910,
-      "end": 968,
       "expression": {
         "type": "CallExpression",
-        "start": 910,
-        "end": 967,
         "callee": {
           "type": "MemberExpression",
-          "start": 910,
-          "end": 926,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 910,
-            "end": 916,
-            "name": "assert"
+            "end": 916
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 917,
-            "end": 926,
-            "name": "sameValue"
+            "end": 926
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 910,
+          "end": 926
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 927,
-            "end": 959,
             "callee": {
               "type": "Identifier",
+              "name": "decimalToPercentHexString",
               "start": 927,
-              "end": 952,
-              "name": "decimalToPercentHexString"
+              "end": 952
             },
             "arguments": [
               {
                 "type": "Literal",
-                "start": 953,
-                "end": 958,
                 "value": 65536,
-                "raw": "65536"
+                "raw": "65536",
+                "start": 953,
+                "end": 958
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 927,
+            "end": 959
           },
           {
             "type": "Literal",
-            "start": 961,
-            "end": 966,
             "value": "%00",
-            "raw": "\"%00\""
+            "raw": "\"%00\"",
+            "start": 961,
+            "end": 966
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 910,
+        "end": 967
+      },
+      "start": 910,
+      "end": 968
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 969
 }

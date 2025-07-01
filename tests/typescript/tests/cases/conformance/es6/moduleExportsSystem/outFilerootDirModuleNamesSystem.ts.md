@@ -2,57 +2,51 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 58,
   "body": [
     {
       "type": "ImportDeclaration",
-      "start": 0,
-      "end": 22,
       "specifiers": [
         {
           "type": "ImportDefaultSpecifier",
-          "start": 7,
-          "end": 10,
           "local": {
             "type": "Identifier",
-            "start": 7,
-            "end": 10,
             "decorators": [],
             "name": "foo",
             "optional": false,
-            "typeAnnotation": null
-          }
+            "typeAnnotation": null,
+            "start": 7,
+            "end": 10
+          },
+          "start": 7,
+          "end": 10
         }
       ],
       "source": {
         "type": "Literal",
-        "start": 16,
-        "end": 21,
         "value": "./b",
-        "raw": "\"./b\""
+        "raw": "\"./b\"",
+        "start": 16,
+        "end": 21
       },
       "phase": null,
       "attributes": [],
-      "importKind": "value"
+      "importKind": "value",
+      "start": 0,
+      "end": 22
     },
     {
       "type": "ExportDefaultDeclaration",
-      "start": 23,
-      "end": 50,
       "declaration": {
         "type": "ClassDeclaration",
-        "start": 38,
-        "end": 50,
         "decorators": [],
         "id": {
           "type": "Identifier",
-          "start": 44,
-          "end": 47,
           "decorators": [],
           "name": "Foo",
           "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "start": 44,
+          "end": 47
         },
         "typeParameters": null,
         "superClass": null,
@@ -60,97 +54,97 @@ __ESTREE_TEST__:PASS:
         "implements": [],
         "body": {
           "type": "ClassBody",
+          "body": [],
           "start": 48,
-          "end": 50,
-          "body": []
+          "end": 50
         },
         "abstract": false,
-        "declare": false
+        "declare": false,
+        "start": 38,
+        "end": 50
       },
-      "exportKind": "value"
+      "exportKind": "value",
+      "start": 23,
+      "end": 50
     },
     {
       "type": "ExpressionStatement",
-      "start": 51,
-      "end": 57,
       "expression": {
         "type": "CallExpression",
-        "start": 51,
-        "end": 56,
         "callee": {
           "type": "Identifier",
-          "start": 51,
-          "end": 54,
           "decorators": [],
           "name": "foo",
           "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "start": 51,
+          "end": 54
         },
         "typeArguments": null,
         "arguments": [],
-        "optional": false
+        "optional": false,
+        "start": 51,
+        "end": 56
       },
-      "directive": null
+      "directive": null,
+      "start": 51,
+      "end": 57
     }
   ],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 58
 }
 ```
 __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 139,
   "body": [
     {
       "type": "ImportDeclaration",
-      "start": 0,
-      "end": 22,
       "specifiers": [
         {
           "type": "ImportDefaultSpecifier",
-          "start": 7,
-          "end": 10,
           "local": {
             "type": "Identifier",
-            "start": 7,
-            "end": 10,
             "decorators": [],
             "name": "Foo",
             "optional": false,
-            "typeAnnotation": null
-          }
+            "typeAnnotation": null,
+            "start": 7,
+            "end": 10
+          },
+          "start": 7,
+          "end": 10
         }
       ],
       "source": {
         "type": "Literal",
-        "start": 16,
-        "end": 21,
         "value": "./a",
-        "raw": "\"./a\""
+        "raw": "\"./a\"",
+        "start": 16,
+        "end": 21
       },
       "phase": null,
       "attributes": [],
-      "importKind": "value"
+      "importKind": "value",
+      "start": 0,
+      "end": 22
     },
     {
       "type": "ExportDefaultDeclaration",
-      "start": 23,
-      "end": 67,
       "declaration": {
         "type": "FunctionDeclaration",
-        "start": 38,
-        "end": 67,
         "id": {
           "type": "Identifier",
-          "start": 47,
-          "end": 50,
           "decorators": [],
           "name": "foo",
           "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "start": 47,
+          "end": 50
         },
         "generator": false,
         "async": false,
@@ -160,59 +154,65 @@ __ESTREE_TEST__:PASS:
         "returnType": null,
         "body": {
           "type": "BlockStatement",
-          "start": 53,
-          "end": 67,
           "body": [
             {
               "type": "ExpressionStatement",
-              "start": 55,
-              "end": 65,
               "expression": {
                 "type": "NewExpression",
-                "start": 55,
-                "end": 64,
                 "callee": {
                   "type": "Identifier",
-                  "start": 59,
-                  "end": 62,
                   "decorators": [],
                   "name": "Foo",
                   "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "start": 59,
+                  "end": 62
                 },
                 "typeArguments": null,
-                "arguments": []
+                "arguments": [],
+                "start": 55,
+                "end": 64
               },
-              "directive": null
+              "directive": null,
+              "start": 55,
+              "end": 65
             }
-          ]
+          ],
+          "start": 53,
+          "end": 67
         },
-        "expression": false
+        "expression": false,
+        "start": 38,
+        "end": 67
       },
-      "exportKind": "value"
+      "exportKind": "value",
+      "start": 23,
+      "end": 67
     },
     {
       "type": "ExpressionStatement",
-      "start": 125,
-      "end": 139,
       "expression": {
         "type": "ImportExpression",
-        "start": 125,
-        "end": 138,
         "source": {
           "type": "Literal",
-          "start": 132,
-          "end": 137,
           "value": "./a",
-          "raw": "\"./a\""
+          "raw": "\"./a\"",
+          "start": 132,
+          "end": 137
         },
         "options": null,
-        "phase": null
+        "phase": null,
+        "start": 125,
+        "end": 138
       },
-      "directive": null
+      "directive": null,
+      "start": 125,
+      "end": 139
     }
   ],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 139
 }
 ```

@@ -1,639 +1,639 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 2331,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 342,
-      "end": 386,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 346,
-          "end": 385,
           "id": {
             "type": "Identifier",
+            "name": "__constr",
             "start": 346,
-            "end": 354,
-            "name": "__constr"
+            "end": 354
           },
           "init": {
             "type": "MemberExpression",
-            "start": 357,
-            "end": 385,
             "object": {
               "type": "MemberExpression",
-              "start": 357,
-              "end": 373,
               "object": {
                 "type": "Identifier",
+                "name": "String",
                 "start": 357,
-                "end": 363,
-                "name": "String"
+                "end": 363
               },
               "property": {
                 "type": "Identifier",
+                "name": "prototype",
                 "start": 364,
-                "end": 373,
-                "name": "prototype"
+                "end": 373
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 357,
+              "end": 373
             },
             "property": {
               "type": "Identifier",
+              "name": "constructor",
               "start": 374,
-              "end": 385,
-              "name": "constructor"
+              "end": 385
             },
             "optional": false,
-            "computed": false
-          }
+            "computed": false,
+            "start": 357,
+            "end": 385
+          },
+          "start": 346,
+          "end": 385
         }
-      ]
+      ],
+      "start": 342,
+      "end": 386
     },
     {
       "type": "VariableDeclaration",
-      "start": 388,
-      "end": 434,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 392,
-          "end": 433,
           "id": {
             "type": "Identifier",
+            "name": "__instance",
             "start": 392,
-            "end": 402,
-            "name": "__instance"
+            "end": 402
           },
           "init": {
             "type": "NewExpression",
-            "start": 405,
-            "end": 433,
             "callee": {
               "type": "Identifier",
+              "name": "__constr",
               "start": 409,
-              "end": 417,
-              "name": "__constr"
+              "end": 417
             },
             "arguments": [
               {
                 "type": "Literal",
-                "start": 418,
-                "end": 432,
                 "value": "choosing one",
-                "raw": "\"choosing one\""
+                "raw": "\"choosing one\"",
+                "start": 418,
+                "end": 432
               }
-            ]
-          }
+            ],
+            "start": 405,
+            "end": 433
+          },
+          "start": 392,
+          "end": 433
         }
-      ]
+      ],
+      "start": 388,
+      "end": 434
     },
     {
       "type": "IfStatement",
-      "start": 526,
-      "end": 744,
       "test": {
         "type": "BinaryExpression",
-        "start": 530,
-        "end": 558,
         "left": {
           "type": "Identifier",
+          "name": "__instance",
           "start": 530,
-          "end": 540,
-          "name": "__instance"
+          "end": 540
         },
         "operator": "!=",
         "right": {
           "type": "Literal",
-          "start": 544,
-          "end": 558,
           "value": "choosing one",
-          "raw": "\"choosing one\""
-        }
+          "raw": "\"choosing one\"",
+          "start": 544,
+          "end": 558
+        },
+        "start": 530,
+        "end": 558
       },
       "consequent": {
         "type": "BlockStatement",
-        "start": 560,
-        "end": 744,
         "body": [
           {
             "type": "ThrowStatement",
-            "start": 564,
-            "end": 742,
             "argument": {
               "type": "NewExpression",
-              "start": 570,
-              "end": 741,
               "callee": {
                 "type": "Identifier",
+                "name": "Test262Error",
                 "start": 574,
-                "end": 586,
-                "name": "Test262Error"
+                "end": 586
               },
               "arguments": [
                 {
                   "type": "BinaryExpression",
-                  "start": 587,
-                  "end": 740,
                   "left": {
                     "type": "Literal",
-                    "start": 587,
-                    "end": 727,
                     "value": "#0: __constr = String.prototype.constructor; __instance = new __constr(\"choosing one\"); __instance ==\"choosing one\". Actual: __instance ==",
-                    "raw": "'#0: __constr = String.prototype.constructor; __instance = new __constr(\"choosing one\"); __instance ==\"choosing one\". Actual: __instance =='"
+                    "raw": "'#0: __constr = String.prototype.constructor; __instance = new __constr(\"choosing one\"); __instance ==\"choosing one\". Actual: __instance =='",
+                    "start": 587,
+                    "end": 727
                   },
                   "operator": "+",
                   "right": {
                     "type": "Identifier",
+                    "name": "__instance",
                     "start": 730,
-                    "end": 740,
-                    "name": "__instance"
-                  }
+                    "end": 740
+                  },
+                  "start": 587,
+                  "end": 740
                 }
-              ]
-            }
+              ],
+              "start": 570,
+              "end": 741
+            },
+            "start": 564,
+            "end": 742
           }
-        ]
+        ],
+        "start": 560,
+        "end": 744
       },
-      "alternate": null
+      "alternate": null,
+      "start": 526,
+      "end": 744
     },
     {
       "type": "IfStatement",
-      "start": 918,
-      "end": 1172,
       "test": {
         "type": "BinaryExpression",
-        "start": 922,
-        "end": 955,
         "left": {
           "type": "MemberExpression",
-          "start": 922,
-          "end": 944,
           "object": {
             "type": "Identifier",
+            "name": "__instance",
             "start": 922,
-            "end": 932,
-            "name": "__instance"
+            "end": 932
           },
           "property": {
             "type": "Identifier",
+            "name": "constructor",
             "start": 933,
-            "end": 944,
-            "name": "constructor"
+            "end": 944
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 922,
+          "end": 944
         },
         "operator": "!==",
         "right": {
           "type": "Identifier",
+          "name": "String",
           "start": 949,
-          "end": 955,
-          "name": "String"
-        }
+          "end": 955
+        },
+        "start": 922,
+        "end": 955
       },
       "consequent": {
         "type": "BlockStatement",
-        "start": 957,
-        "end": 1172,
         "body": [
           {
             "type": "ThrowStatement",
-            "start": 961,
-            "end": 1170,
             "argument": {
               "type": "NewExpression",
-              "start": 967,
-              "end": 1169,
               "callee": {
                 "type": "Identifier",
+                "name": "Test262Error",
                 "start": 971,
-                "end": 983,
-                "name": "Test262Error"
+                "end": 983
               },
               "arguments": [
                 {
                   "type": "BinaryExpression",
-                  "start": 984,
-                  "end": 1168,
                   "left": {
                     "type": "Literal",
-                    "start": 984,
-                    "end": 1143,
                     "value": "#1: __constr = String.prototype.constructor; __instance = new __constr(\"choosing one\"); __instance.constructor === String. Actual: __instance.constructor ===",
-                    "raw": "'#1: __constr = String.prototype.constructor; __instance = new __constr(\"choosing one\"); __instance.constructor === String. Actual: __instance.constructor ==='"
+                    "raw": "'#1: __constr = String.prototype.constructor; __instance = new __constr(\"choosing one\"); __instance.constructor === String. Actual: __instance.constructor ==='",
+                    "start": 984,
+                    "end": 1143
                   },
                   "operator": "+",
                   "right": {
                     "type": "MemberExpression",
-                    "start": 1146,
-                    "end": 1168,
                     "object": {
                       "type": "Identifier",
+                      "name": "__instance",
                       "start": 1146,
-                      "end": 1156,
-                      "name": "__instance"
+                      "end": 1156
                     },
                     "property": {
                       "type": "Identifier",
+                      "name": "constructor",
                       "start": 1157,
-                      "end": 1168,
-                      "name": "constructor"
+                      "end": 1168
                     },
                     "optional": false,
-                    "computed": false
-                  }
+                    "computed": false,
+                    "start": 1146,
+                    "end": 1168
+                  },
+                  "start": 984,
+                  "end": 1168
                 }
-              ]
-            }
+              ],
+              "start": 967,
+              "end": 1169
+            },
+            "start": 961,
+            "end": 1170
           }
-        ]
+        ],
+        "start": 957,
+        "end": 1172
       },
-      "alternate": null
+      "alternate": null,
+      "start": 918,
+      "end": 1172
     },
     {
       "type": "IfStatement",
-      "start": 1346,
-      "end": 1627,
       "test": {
         "type": "UnaryExpression",
-        "start": 1350,
-        "end": 1395,
         "operator": "!",
         "argument": {
           "type": "ParenthesizedExpression",
-          "start": 1351,
-          "end": 1395,
           "expression": {
             "type": "CallExpression",
-            "start": 1352,
-            "end": 1394,
             "callee": {
               "type": "MemberExpression",
-              "start": 1352,
-              "end": 1382,
               "object": {
                 "type": "MemberExpression",
-                "start": 1352,
-                "end": 1368,
                 "object": {
                   "type": "Identifier",
+                  "name": "String",
                   "start": 1352,
-                  "end": 1358,
-                  "name": "String"
+                  "end": 1358
                 },
                 "property": {
                   "type": "Identifier",
+                  "name": "prototype",
                   "start": 1359,
-                  "end": 1368,
-                  "name": "prototype"
+                  "end": 1368
                 },
                 "optional": false,
-                "computed": false
+                "computed": false,
+                "start": 1352,
+                "end": 1368
               },
               "property": {
                 "type": "Identifier",
+                "name": "isPrototypeOf",
                 "start": 1369,
-                "end": 1382,
-                "name": "isPrototypeOf"
+                "end": 1382
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 1352,
+              "end": 1382
             },
             "arguments": [
               {
                 "type": "Identifier",
+                "name": "__instance",
                 "start": 1383,
-                "end": 1393,
-                "name": "__instance"
+                "end": 1393
               }
             ],
-            "optional": false
-          }
+            "optional": false,
+            "start": 1352,
+            "end": 1394
+          },
+          "start": 1351,
+          "end": 1395
         },
-        "prefix": true
+        "prefix": true,
+        "start": 1350,
+        "end": 1395
       },
       "consequent": {
         "type": "BlockStatement",
-        "start": 1397,
-        "end": 1627,
         "body": [
           {
             "type": "ThrowStatement",
-            "start": 1401,
-            "end": 1625,
             "argument": {
               "type": "NewExpression",
-              "start": 1407,
-              "end": 1624,
               "callee": {
                 "type": "Identifier",
+                "name": "Test262Error",
                 "start": 1411,
-                "end": 1423,
-                "name": "Test262Error"
+                "end": 1423
               },
               "arguments": [
                 {
                   "type": "BinaryExpression",
-                  "start": 1424,
-                  "end": 1623,
                   "left": {
                     "type": "Literal",
-                    "start": 1424,
-                    "end": 1578,
                     "value": "#2: __constr = String.prototype.constructor; __instance = new __constr(\"choosing one\"); String.prototype.isPrototypeOf(__instance) return true. Actual: ",
-                    "raw": "'#2: __constr = String.prototype.constructor; __instance = new __constr(\"choosing one\"); String.prototype.isPrototypeOf(__instance) return true. Actual: '"
+                    "raw": "'#2: __constr = String.prototype.constructor; __instance = new __constr(\"choosing one\"); String.prototype.isPrototypeOf(__instance) return true. Actual: '",
+                    "start": 1424,
+                    "end": 1578
                   },
                   "operator": "+",
                   "right": {
                     "type": "CallExpression",
-                    "start": 1581,
-                    "end": 1623,
                     "callee": {
                       "type": "MemberExpression",
-                      "start": 1581,
-                      "end": 1611,
                       "object": {
                         "type": "MemberExpression",
-                        "start": 1581,
-                        "end": 1597,
                         "object": {
                           "type": "Identifier",
+                          "name": "String",
                           "start": 1581,
-                          "end": 1587,
-                          "name": "String"
+                          "end": 1587
                         },
                         "property": {
                           "type": "Identifier",
+                          "name": "prototype",
                           "start": 1588,
-                          "end": 1597,
-                          "name": "prototype"
+                          "end": 1597
                         },
                         "optional": false,
-                        "computed": false
+                        "computed": false,
+                        "start": 1581,
+                        "end": 1597
                       },
                       "property": {
                         "type": "Identifier",
+                        "name": "isPrototypeOf",
                         "start": 1598,
-                        "end": 1611,
-                        "name": "isPrototypeOf"
+                        "end": 1611
                       },
                       "optional": false,
-                      "computed": false
+                      "computed": false,
+                      "start": 1581,
+                      "end": 1611
                     },
                     "arguments": [
                       {
                         "type": "Identifier",
+                        "name": "__instance",
                         "start": 1612,
-                        "end": 1622,
-                        "name": "__instance"
+                        "end": 1622
                       }
                     ],
-                    "optional": false
-                  }
+                    "optional": false,
+                    "start": 1581,
+                    "end": 1623
+                  },
+                  "start": 1424,
+                  "end": 1623
                 }
-              ]
-            }
+              ],
+              "start": 1407,
+              "end": 1624
+            },
+            "start": 1401,
+            "end": 1625
           }
-        ]
+        ],
+        "start": 1397,
+        "end": 1627
       },
-      "alternate": null
+      "alternate": null,
+      "start": 1346,
+      "end": 1627
     },
     {
       "type": "VariableDeclaration",
-      "start": 1801,
-      "end": 1854,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 1805,
-          "end": 1853,
           "id": {
             "type": "Identifier",
+            "name": "__to_string_result",
             "start": 1805,
-            "end": 1823,
-            "name": "__to_string_result"
+            "end": 1823
           },
           "init": {
             "type": "BinaryExpression",
-            "start": 1826,
-            "end": 1853,
             "left": {
               "type": "BinaryExpression",
-              "start": 1826,
-              "end": 1847,
               "left": {
                 "type": "Literal",
-                "start": 1826,
-                "end": 1836,
                 "value": "[object ",
-                "raw": "'[object '"
+                "raw": "'[object '",
+                "start": 1826,
+                "end": 1836
               },
               "operator": "+",
               "right": {
                 "type": "Literal",
-                "start": 1839,
-                "end": 1847,
                 "value": "String",
-                "raw": "'String'"
-              }
+                "raw": "'String'",
+                "start": 1839,
+                "end": 1847
+              },
+              "start": 1826,
+              "end": 1847
             },
             "operator": "+",
             "right": {
               "type": "Literal",
-              "start": 1850,
-              "end": 1853,
               "value": "]",
-              "raw": "']'"
-            }
-          }
+              "raw": "']'",
+              "start": 1850,
+              "end": 1853
+            },
+            "start": 1826,
+            "end": 1853
+          },
+          "start": 1805,
+          "end": 1853
         }
-      ]
+      ],
+      "start": 1801,
+      "end": 1854
     },
     {
       "type": "ExpressionStatement",
-      "start": 1856,
-      "end": 1889,
       "expression": {
         "type": "UnaryExpression",
-        "start": 1856,
-        "end": 1888,
         "operator": "delete",
         "argument": {
           "type": "MemberExpression",
-          "start": 1863,
-          "end": 1888,
           "object": {
             "type": "MemberExpression",
-            "start": 1863,
-            "end": 1879,
             "object": {
               "type": "Identifier",
+              "name": "String",
               "start": 1863,
-              "end": 1869,
-              "name": "String"
+              "end": 1869
             },
             "property": {
               "type": "Identifier",
+              "name": "prototype",
               "start": 1870,
-              "end": 1879,
-              "name": "prototype"
+              "end": 1879
             },
             "optional": false,
-            "computed": false
+            "computed": false,
+            "start": 1863,
+            "end": 1879
           },
           "property": {
             "type": "Identifier",
+            "name": "toString",
             "start": 1880,
-            "end": 1888,
-            "name": "toString"
+            "end": 1888
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 1863,
+          "end": 1888
         },
-        "prefix": true
-      }
+        "prefix": true,
+        "start": 1856,
+        "end": 1888
+      },
+      "start": 1856,
+      "end": 1889
     },
     {
       "type": "IfStatement",
-      "start": 1891,
-      "end": 2248,
       "test": {
         "type": "BinaryExpression",
-        "start": 1895,
-        "end": 1939,
         "left": {
           "type": "CallExpression",
-          "start": 1895,
-          "end": 1916,
           "callee": {
             "type": "MemberExpression",
-            "start": 1895,
-            "end": 1914,
             "object": {
               "type": "Identifier",
+              "name": "__instance",
               "start": 1895,
-              "end": 1905,
-              "name": "__instance"
+              "end": 1905
             },
             "property": {
               "type": "Identifier",
+              "name": "toString",
               "start": 1906,
-              "end": 1914,
-              "name": "toString"
+              "end": 1914
             },
             "optional": false,
-            "computed": false
+            "computed": false,
+            "start": 1895,
+            "end": 1914
           },
           "arguments": [],
-          "optional": false
+          "optional": false,
+          "start": 1895,
+          "end": 1916
         },
         "operator": "!==",
         "right": {
           "type": "Identifier",
+          "name": "__to_string_result",
           "start": 1921,
-          "end": 1939,
-          "name": "__to_string_result"
-        }
+          "end": 1939
+        },
+        "start": 1895,
+        "end": 1939
       },
       "consequent": {
         "type": "BlockStatement",
-        "start": 1941,
-        "end": 2248,
         "body": [
           {
             "type": "ThrowStatement",
-            "start": 1945,
-            "end": 2246,
             "argument": {
               "type": "NewExpression",
-              "start": 1951,
-              "end": 2245,
               "callee": {
                 "type": "Identifier",
+                "name": "Test262Error",
                 "start": 1955,
-                "end": 1967,
-                "name": "Test262Error"
+                "end": 1967
               },
               "arguments": [
                 {
                   "type": "BinaryExpression",
-                  "start": 1968,
-                  "end": 2244,
                   "left": {
                     "type": "BinaryExpression",
-                    "start": 1968,
-                    "end": 2223,
                     "left": {
                       "type": "BinaryExpression",
-                      "start": 1968,
-                      "end": 2195,
                       "left": {
                         "type": "Literal",
-                        "start": 1968,
-                        "end": 2171,
                         "value": "#3: __constr = String.prototype.constructor; __instance = new __constr(\"choosing one\"); delete String.prototype.toString; __instance.toString() === __to_string_result. Actual: __instance.toString() ===",
-                        "raw": "'#3: __constr = String.prototype.constructor; __instance = new __constr(\"choosing one\"); delete String.prototype.toString; __instance.toString() === __to_string_result. Actual: __instance.toString() ==='"
+                        "raw": "'#3: __constr = String.prototype.constructor; __instance = new __constr(\"choosing one\"); delete String.prototype.toString; __instance.toString() === __to_string_result. Actual: __instance.toString() ==='",
+                        "start": 1968,
+                        "end": 2171
                       },
                       "operator": "+",
                       "right": {
                         "type": "CallExpression",
-                        "start": 2174,
-                        "end": 2195,
                         "callee": {
                           "type": "MemberExpression",
-                          "start": 2174,
-                          "end": 2193,
                           "object": {
                             "type": "Identifier",
+                            "name": "__instance",
                             "start": 2174,
-                            "end": 2184,
-                            "name": "__instance"
+                            "end": 2184
                           },
                           "property": {
                             "type": "Identifier",
+                            "name": "toString",
                             "start": 2185,
-                            "end": 2193,
-                            "name": "toString"
+                            "end": 2193
                           },
                           "optional": false,
-                          "computed": false
+                          "computed": false,
+                          "start": 2174,
+                          "end": 2193
                         },
                         "arguments": [],
-                        "optional": false
-                      }
+                        "optional": false,
+                        "start": 2174,
+                        "end": 2195
+                      },
+                      "start": 1968,
+                      "end": 2195
                     },
                     "operator": "+",
                     "right": {
                       "type": "Literal",
-                      "start": 2198,
-                      "end": 2223,
                       "value": " __to_string_result ===",
-                      "raw": "' __to_string_result ==='"
-                    }
+                      "raw": "' __to_string_result ==='",
+                      "start": 2198,
+                      "end": 2223
+                    },
+                    "start": 1968,
+                    "end": 2223
                   },
                   "operator": "+",
                   "right": {
                     "type": "Identifier",
+                    "name": "__to_string_result",
                     "start": 2226,
-                    "end": 2244,
-                    "name": "__to_string_result"
-                  }
+                    "end": 2244
+                  },
+                  "start": 1968,
+                  "end": 2244
                 }
-              ]
-            }
+              ],
+              "start": 1951,
+              "end": 2245
+            },
+            "start": 1945,
+            "end": 2246
           }
-        ]
+        ],
+        "start": 1941,
+        "end": 2248
       },
-      "alternate": null
+      "alternate": null,
+      "start": 1891,
+      "end": 2248
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 2331
 }

@@ -1,80 +1,74 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 1998,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 1777,
-      "end": 1873,
       "expression": {
         "type": "CallExpression",
-        "start": 1777,
-        "end": 1872,
         "callee": {
           "type": "MemberExpression",
-          "start": 1777,
-          "end": 1793,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 1777,
-            "end": 1783,
-            "name": "assert"
+            "end": 1783
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 1784,
-            "end": 1793,
-            "name": "sameValue"
+            "end": 1793
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 1777,
+          "end": 1793
         },
         "arguments": [
           {
             "type": "UnaryExpression",
-            "start": 1797,
-            "end": 1812,
             "operator": "typeof",
             "argument": {
               "type": "Identifier",
+              "name": "brandNew",
               "start": 1804,
-              "end": 1812,
-              "name": "brandNew"
+              "end": 1812
             },
-            "prefix": true
+            "prefix": true,
+            "start": 1797,
+            "end": 1812
           },
           {
             "type": "Literal",
-            "start": 1814,
-            "end": 1824,
             "value": "function",
-            "raw": "'function'"
+            "raw": "'function'",
+            "start": 1814,
+            "end": 1824
           },
           {
             "type": "Literal",
-            "start": 1826,
-            "end": 1870,
             "value": "new binding on an extensible global object",
-            "raw": "'new binding on an extensible global object'"
+            "raw": "'new binding on an extensible global object'",
+            "start": 1826,
+            "end": 1870
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 1777,
+        "end": 1872
+      },
+      "start": 1777,
+      "end": 1873
     },
     {
       "type": "ExpressionStatement",
-      "start": 1874,
-      "end": 1973,
       "expression": {
         "type": "CallExpression",
-        "start": 1874,
-        "end": 1972,
         "callee": {
           "type": "Identifier",
+          "name": "verifyProperty",
           "start": 1874,
-          "end": 1888,
-          "name": "verifyProperty"
+          "end": 1888
         },
         "arguments": [
           {
@@ -84,110 +78,116 @@
           },
           {
             "type": "Literal",
-            "start": 1895,
-            "end": 1905,
             "value": "brandNew",
-            "raw": "'brandNew'"
+            "raw": "'brandNew'",
+            "start": 1895,
+            "end": 1905
           },
           {
             "type": "ObjectExpression",
-            "start": 1907,
-            "end": 1971,
             "properties": [
               {
                 "type": "Property",
-                "start": 1911,
-                "end": 1925,
                 "kind": "init",
                 "key": {
                   "type": "Identifier",
+                  "name": "writable",
                   "start": 1911,
-                  "end": 1919,
-                  "name": "writable"
+                  "end": 1919
                 },
                 "value": {
                   "type": "Literal",
+                  "value": true,
+                  "raw": "true",
                   "start": 1921,
-                  "end": 1925,
-                  "value": true,
-                  "raw": "true"
+                  "end": 1925
                 },
                 "method": false,
                 "shorthand": false,
-                "computed": false
+                "computed": false,
+                "start": 1911,
+                "end": 1925
               },
               {
                 "type": "Property",
-                "start": 1929,
-                "end": 1945,
                 "kind": "init",
                 "key": {
                   "type": "Identifier",
+                  "name": "enumerable",
                   "start": 1929,
-                  "end": 1939,
-                  "name": "enumerable"
+                  "end": 1939
                 },
                 "value": {
                   "type": "Literal",
-                  "start": 1941,
-                  "end": 1945,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "start": 1941,
+                  "end": 1945
                 },
                 "method": false,
                 "shorthand": false,
-                "computed": false
+                "computed": false,
+                "start": 1929,
+                "end": 1945
               },
               {
                 "type": "Property",
-                "start": 1949,
-                "end": 1968,
                 "kind": "init",
                 "key": {
                   "type": "Identifier",
+                  "name": "configurable",
                   "start": 1949,
-                  "end": 1961,
-                  "name": "configurable"
+                  "end": 1961
                 },
                 "value": {
                   "type": "Literal",
-                  "start": 1963,
-                  "end": 1968,
                   "value": false,
-                  "raw": "false"
+                  "raw": "false",
+                  "start": 1963,
+                  "end": 1968
                 },
                 "method": false,
                 "shorthand": false,
-                "computed": false
+                "computed": false,
+                "start": 1949,
+                "end": 1968
               }
-            ]
+            ],
+            "start": 1907,
+            "end": 1971
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 1874,
+        "end": 1972
+      },
+      "start": 1874,
+      "end": 1973
     },
     {
       "type": "FunctionDeclaration",
-      "start": 1975,
-      "end": 1997,
       "id": {
         "type": "Identifier",
+        "name": "brandNew",
         "start": 1984,
-        "end": 1992,
-        "name": "brandNew"
+        "end": 1992
       },
       "generator": false,
       "async": false,
       "params": [],
       "body": {
         "type": "BlockStatement",
+        "body": [],
         "start": 1995,
-        "end": 1997,
-        "body": []
+        "end": 1997
       },
-      "expression": false
+      "expression": false,
+      "start": 1975,
+      "end": 1997
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 1998
 }

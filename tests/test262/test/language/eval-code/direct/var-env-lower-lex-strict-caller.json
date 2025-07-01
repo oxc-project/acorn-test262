@@ -1,69 +1,69 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 398,
   "body": [
     {
       "type": "BlockStatement",
-      "start": 357,
-      "end": 397,
       "body": [
         {
           "type": "VariableDeclaration",
-          "start": 361,
-          "end": 367,
           "kind": "let",
           "declarations": [
             {
               "type": "VariableDeclarator",
-              "start": 365,
-              "end": 366,
               "id": {
                 "type": "Identifier",
+                "name": "x",
                 "start": 365,
-                "end": 366,
-                "name": "x"
+                "end": 366
               },
-              "init": null
+              "init": null,
+              "start": 365,
+              "end": 366
             }
-          ]
+          ],
+          "start": 361,
+          "end": 367
         },
         {
           "type": "BlockStatement",
-          "start": 370,
-          "end": 395,
           "body": [
             {
               "type": "ExpressionStatement",
-              "start": 376,
-              "end": 391,
               "expression": {
                 "type": "CallExpression",
-                "start": 376,
-                "end": 390,
                 "callee": {
                   "type": "Identifier",
+                  "name": "eval",
                   "start": 376,
-                  "end": 380,
-                  "name": "eval"
+                  "end": 380
                 },
                 "arguments": [
                   {
                     "type": "Literal",
-                    "start": 381,
-                    "end": 389,
                     "value": "var x;",
-                    "raw": "'var x;'"
+                    "raw": "'var x;'",
+                    "start": 381,
+                    "end": 389
                   }
                 ],
-                "optional": false
-              }
+                "optional": false,
+                "start": 376,
+                "end": 390
+              },
+              "start": 376,
+              "end": 391
             }
-          ]
+          ],
+          "start": 370,
+          "end": 395
         }
-      ]
+      ],
+      "start": 357,
+      "end": 397
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 398
 }

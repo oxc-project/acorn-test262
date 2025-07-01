@@ -1,129 +1,129 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 551,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 388,
-      "end": 467,
       "expression": {
         "type": "CallExpression",
-        "start": 388,
-        "end": 466,
         "callee": {
           "type": "MemberExpression",
-          "start": 388,
-          "end": 404,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 388,
-            "end": 394,
-            "name": "assert"
+            "end": 394
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 395,
-            "end": 404,
-            "name": "sameValue"
+            "end": 404
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 388,
+          "end": 404
         },
         "arguments": [
           {
             "type": "UnaryExpression",
-            "start": 408,
-            "end": 419,
             "operator": "typeof",
             "argument": {
               "type": "Literal",
-              "start": 415,
-              "end": 419,
               "value": true,
-              "raw": "true"
+              "raw": "true",
+              "start": 415,
+              "end": 419
             },
-            "prefix": true
+            "prefix": true,
+            "start": 408,
+            "end": 419
           },
           {
             "type": "Literal",
-            "start": 424,
-            "end": 433,
             "value": "boolean",
-            "raw": "\"boolean\""
+            "raw": "\"boolean\"",
+            "start": 424,
+            "end": 433
           },
           {
             "type": "Literal",
-            "start": 437,
-            "end": 464,
             "value": "typeof true === \"boolean\"",
-            "raw": "'typeof true === \"boolean\"'"
+            "raw": "'typeof true === \"boolean\"'",
+            "start": 437,
+            "end": 464
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 388,
+        "end": 466
+      },
+      "start": 388,
+      "end": 467
     },
     {
       "type": "ExpressionStatement",
-      "start": 469,
-      "end": 550,
       "expression": {
         "type": "CallExpression",
-        "start": 469,
-        "end": 549,
         "callee": {
           "type": "MemberExpression",
-          "start": 469,
-          "end": 485,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 469,
-            "end": 475,
-            "name": "assert"
+            "end": 475
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 476,
-            "end": 485,
-            "name": "sameValue"
+            "end": 485
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 469,
+          "end": 485
         },
         "arguments": [
           {
             "type": "UnaryExpression",
-            "start": 489,
-            "end": 501,
             "operator": "typeof",
             "argument": {
               "type": "Literal",
-              "start": 496,
-              "end": 501,
               "value": false,
-              "raw": "false"
+              "raw": "false",
+              "start": 496,
+              "end": 501
             },
-            "prefix": true
+            "prefix": true,
+            "start": 489,
+            "end": 501
           },
           {
             "type": "Literal",
-            "start": 506,
-            "end": 515,
             "value": "boolean",
-            "raw": "\"boolean\""
+            "raw": "\"boolean\"",
+            "start": 506,
+            "end": 515
           },
           {
             "type": "Literal",
-            "start": 519,
-            "end": 547,
             "value": "typeof false === \"boolean\"",
-            "raw": "'typeof false === \"boolean\"'"
+            "raw": "'typeof false === \"boolean\"'",
+            "start": 519,
+            "end": 547
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 469,
+        "end": 549
+      },
+      "start": 469,
+      "end": 550
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 551
 }

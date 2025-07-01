@@ -2,40 +2,32 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 44,
   "body": [
     {
       "type": "TSModuleDeclaration",
-      "start": 0,
-      "end": 44,
       "id": {
         "type": "Identifier",
-        "start": 15,
-        "end": 16,
         "decorators": [],
         "name": "M",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 15,
+        "end": 16
       },
       "body": {
         "type": "TSModuleBlock",
-        "start": 17,
-        "end": 44,
         "body": [
           {
             "type": "ClassDeclaration",
-            "start": 21,
-            "end": 42,
             "decorators": [],
             "id": {
               "type": "Identifier",
-              "start": 35,
-              "end": 36,
               "decorators": [],
               "name": "C",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 35,
+              "end": 36
             },
             "typeParameters": null,
             "superClass": null,
@@ -43,21 +35,29 @@ __ESTREE_TEST__:PASS:
             "implements": [],
             "body": {
               "type": "ClassBody",
+              "body": [],
               "start": 37,
-              "end": 42,
-              "body": []
+              "end": 42
             },
             "abstract": false,
-            "declare": true
+            "declare": true,
+            "start": 21,
+            "end": 42
           }
-        ]
+        ],
+        "start": 17,
+        "end": 44
       },
       "kind": "module",
       "declare": true,
-      "global": false
+      "global": false,
+      "start": 0,
+      "end": 44
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 44
 }
 ```

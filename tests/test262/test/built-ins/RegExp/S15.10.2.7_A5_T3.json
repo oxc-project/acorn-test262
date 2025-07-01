@@ -1,106 +1,106 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 569,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 398,
-      "end": 495,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 402,
-          "end": 494,
           "id": {
             "type": "Identifier",
+            "name": "__executed",
             "start": 402,
-            "end": 412,
-            "name": "__executed"
+            "end": 412
           },
           "init": {
             "type": "CallExpression",
-            "start": 415,
-            "end": 494,
             "callee": {
               "type": "MemberExpression",
-              "start": 415,
-              "end": 435,
               "object": {
                 "type": "Literal",
-                "start": 415,
-                "end": 430,
                 "value": null,
                 "raw": "/java(script)?/",
                 "regex": {
                   "pattern": "java(script)?",
                   "flags": ""
-                }
+                },
+                "start": 415,
+                "end": 430
               },
               "property": {
                 "type": "Identifier",
+                "name": "test",
                 "start": 431,
-                "end": 435,
-                "name": "test"
+                "end": 435
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 415,
+              "end": 435
             },
             "arguments": [
               {
                 "type": "Literal",
-                "start": 436,
-                "end": 493,
                 "value": "state: both Java and JavaScript used in web development",
-                "raw": "\"state: both Java and JavaScript used in web development\""
+                "raw": "\"state: both Java and JavaScript used in web development\"",
+                "start": 436,
+                "end": 493
               }
             ],
-            "optional": false
-          }
+            "optional": false,
+            "start": 415,
+            "end": 494
+          },
+          "start": 402,
+          "end": 494
         }
-      ]
+      ],
+      "start": 398,
+      "end": 495
     },
     {
       "type": "ExpressionStatement",
-      "start": 497,
-      "end": 568,
       "expression": {
         "type": "CallExpression",
-        "start": 497,
-        "end": 567,
         "callee": {
           "type": "Identifier",
+          "name": "assert",
           "start": 497,
-          "end": 503,
-          "name": "assert"
+          "end": 503
         },
         "arguments": [
           {
             "type": "UnaryExpression",
-            "start": 504,
-            "end": 515,
             "operator": "!",
             "argument": {
               "type": "Identifier",
+              "name": "__executed",
               "start": 505,
-              "end": 515,
-              "name": "__executed"
+              "end": 515
             },
-            "prefix": true
+            "prefix": true,
+            "start": 504,
+            "end": 515
           },
           {
             "type": "Literal",
-            "start": 517,
-            "end": 566,
             "value": "The value of !__executed is expected to be true",
-            "raw": "'The value of !__executed is expected to be true'"
+            "raw": "'The value of !__executed is expected to be true'",
+            "start": 517,
+            "end": 566
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 497,
+        "end": 567
+      },
+      "start": 497,
+      "end": 568
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 569
 }

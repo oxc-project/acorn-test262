@@ -1,422 +1,422 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 1454,
   "body": [
     {
       "type": "FunctionDeclaration",
-      "start": 380,
-      "end": 445,
       "id": {
         "type": "Identifier",
+        "name": "dynaString",
         "start": 389,
-        "end": 399,
-        "name": "dynaString"
+        "end": 399
       },
       "generator": false,
       "async": false,
       "params": [
         {
           "type": "Identifier",
+          "name": "s1",
           "start": 400,
-          "end": 402,
-          "name": "s1"
+          "end": 402
         },
         {
           "type": "Identifier",
+          "name": "s2",
           "start": 404,
-          "end": 406,
-          "name": "s2"
+          "end": 406
         }
       ],
       "body": {
         "type": "BlockStatement",
-        "start": 408,
-        "end": 445,
         "body": [
           {
             "type": "ReturnStatement",
-            "start": 412,
-            "end": 443,
             "argument": {
               "type": "BinaryExpression",
-              "start": 419,
-              "end": 442,
               "left": {
                 "type": "CallExpression",
-                "start": 419,
-                "end": 429,
                 "callee": {
                   "type": "Identifier",
+                  "name": "String",
                   "start": 419,
-                  "end": 425,
-                  "name": "String"
+                  "end": 425
                 },
                 "arguments": [
                   {
                     "type": "Identifier",
+                    "name": "s1",
                     "start": 426,
-                    "end": 428,
-                    "name": "s1"
+                    "end": 428
                   }
                 ],
-                "optional": false
+                "optional": false,
+                "start": 419,
+                "end": 429
               },
               "operator": "+",
               "right": {
                 "type": "CallExpression",
-                "start": 432,
-                "end": 442,
                 "callee": {
                   "type": "Identifier",
+                  "name": "String",
                   "start": 432,
-                  "end": 438,
-                  "name": "String"
+                  "end": 438
                 },
                 "arguments": [
                   {
                     "type": "Identifier",
+                    "name": "s2",
                     "start": 439,
-                    "end": 441,
-                    "name": "s2"
+                    "end": 441
                   }
                 ],
-                "optional": false
-              }
-            }
+                "optional": false,
+                "start": 432,
+                "end": 442
+              },
+              "start": 419,
+              "end": 442
+            },
+            "start": 412,
+            "end": 443
           }
-        ]
+        ],
+        "start": 408,
+        "end": 445
       },
-      "expression": false
+      "expression": false,
+      "start": 380,
+      "end": 445
     },
     {
       "type": "ExpressionStatement",
-      "start": 447,
-      "end": 645,
       "expression": {
         "type": "CallExpression",
-        "start": 447,
-        "end": 644,
         "callee": {
           "type": "MemberExpression",
-          "start": 447,
-          "end": 463,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 447,
-            "end": 453,
-            "name": "assert"
+            "end": 453
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 454,
-            "end": 463,
-            "name": "sameValue"
+            "end": 463
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 447,
+          "end": 463
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 467,
-            "end": 637,
             "callee": {
               "type": "Identifier",
+              "name": "Number",
               "start": 467,
-              "end": 473,
-              "name": "Number"
+              "end": 473
             },
             "arguments": [
               {
                 "type": "CallExpression",
-                "start": 474,
-                "end": 636,
                 "callee": {
                   "type": "Identifier",
+                  "name": "dynaString",
                   "start": 474,
-                  "end": 484,
-                  "name": "dynaString"
+                  "end": 484
                 },
                 "arguments": [
                   {
                     "type": "Literal",
-                    "start": 485,
-                    "end": 517,
                     "value": "\t\f  \u000b",
-                    "raw": "\"\\u0009\\u000C\\u0020\\u00A0\\u000B\""
+                    "raw": "\"\\u0009\\u000C\\u0020\\u00A0\\u000B\"",
+                    "start": 485,
+                    "end": 517
                   },
                   {
                     "type": "Literal",
-                    "start": 519,
-                    "end": 635,
                     "value": "\n\r                　",
-                    "raw": "\"\\u000A\\u000D\\u2028\\u2029\\u1680\\u2000\\u2001\\u2002\\u2003\\u2004\\u2005\\u2006\\u2007\\u2008\\u2009\\u200A\\u202F\\u205F\\u3000\""
+                    "raw": "\"\\u000A\\u000D\\u2028\\u2029\\u1680\\u2000\\u2001\\u2002\\u2003\\u2004\\u2005\\u2006\\u2007\\u2008\\u2009\\u200A\\u202F\\u205F\\u3000\"",
+                    "start": 519,
+                    "end": 635
                   }
                 ],
-                "optional": false
+                "optional": false,
+                "start": 474,
+                "end": 636
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 467,
+            "end": 637
           },
           {
             "type": "Literal",
-            "start": 641,
-            "end": 642,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "start": 641,
+            "end": 642
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 447,
+        "end": 644
+      },
+      "start": 447,
+      "end": 645
     },
     {
       "type": "ExpressionStatement",
-      "start": 647,
-      "end": 913,
       "expression": {
         "type": "CallExpression",
-        "start": 647,
-        "end": 912,
         "callee": {
           "type": "MemberExpression",
-          "start": 647,
-          "end": 663,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 647,
-            "end": 653,
-            "name": "assert"
+            "end": 653
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 654,
-            "end": 663,
-            "name": "sameValue"
+            "end": 663
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 647,
+          "end": 663
         },
         "arguments": [
           {
             "type": "UnaryExpression",
-            "start": 667,
-            "end": 896,
             "operator": "+",
             "argument": {
               "type": "ParenthesizedExpression",
-              "start": 668,
-              "end": 896,
               "expression": {
                 "type": "CallExpression",
-                "start": 669,
-                "end": 895,
                 "callee": {
                   "type": "Identifier",
+                  "name": "dynaString",
                   "start": 669,
-                  "end": 679,
-                  "name": "dynaString"
+                  "end": 679
                 },
                 "arguments": [
                   {
                     "type": "Literal",
-                    "start": 680,
-                    "end": 741,
                     "value": "\t\f  \n\r  \u000b12345",
-                    "raw": "\"\\u0009\\u000C\\u0020\\u00A0\\u000A\\u000D\\u2028\\u2029\\u000B12345\""
+                    "raw": "\"\\u0009\\u000C\\u0020\\u00A0\\u000A\\u000D\\u2028\\u2029\\u000B12345\"",
+                    "start": 680,
+                    "end": 741
                   },
                   {
                     "type": "Literal",
-                    "start": 743,
-                    "end": 894,
                     "value": "67890\t\f  \u000b\n\r                　",
-                    "raw": "\"67890\\u0009\\u000C\\u0020\\u00A0\\u000B\\u000A\\u000D\\u2028\\u2029\\u1680\\u2000\\u2001\\u2002\\u2003\\u2004\\u2005\\u2006\\u2007\\u2008\\u2009\\u200A\\u202F\\u205F\\u3000\""
+                    "raw": "\"67890\\u0009\\u000C\\u0020\\u00A0\\u000B\\u000A\\u000D\\u2028\\u2029\\u1680\\u2000\\u2001\\u2002\\u2003\\u2004\\u2005\\u2006\\u2007\\u2008\\u2009\\u200A\\u202F\\u205F\\u3000\"",
+                    "start": 743,
+                    "end": 894
                   }
                 ],
-                "optional": false
-              }
+                "optional": false,
+                "start": 669,
+                "end": 895
+              },
+              "start": 668,
+              "end": 896
             },
-            "prefix": true
+            "prefix": true,
+            "start": 667,
+            "end": 896
           },
           {
             "type": "Literal",
-            "start": 900,
-            "end": 910,
             "value": 1234567890,
-            "raw": "1234567890"
+            "raw": "1234567890",
+            "start": 900,
+            "end": 910
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 647,
+        "end": 912
+      },
+      "start": 647,
+      "end": 913
     },
     {
       "type": "ExpressionStatement",
-      "start": 915,
-      "end": 1182,
       "expression": {
         "type": "CallExpression",
-        "start": 915,
-        "end": 1181,
         "callee": {
           "type": "MemberExpression",
-          "start": 915,
-          "end": 931,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 915,
-            "end": 921,
-            "name": "assert"
+            "end": 921
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 922,
-            "end": 931,
-            "name": "sameValue"
+            "end": 931
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 915,
+          "end": 931
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 935,
-            "end": 1167,
             "callee": {
               "type": "Identifier",
+              "name": "Number",
               "start": 935,
-              "end": 941,
-              "name": "Number"
+              "end": 941
             },
             "arguments": [
               {
                 "type": "CallExpression",
-                "start": 942,
-                "end": 1166,
                 "callee": {
                   "type": "Identifier",
+                  "name": "dynaString",
                   "start": 942,
-                  "end": 952,
-                  "name": "dynaString"
+                  "end": 952
                 },
                 "arguments": [
                   {
                     "type": "Literal",
-                    "start": 953,
-                    "end": 1013,
                     "value": "\t\f  \u000b\n\r  Infi",
-                    "raw": "\"\\u0009\\u000C\\u0020\\u00A0\\u000B\\u000A\\u000D\\u2028\\u2029Infi\""
+                    "raw": "\"\\u0009\\u000C\\u0020\\u00A0\\u000B\\u000A\\u000D\\u2028\\u2029Infi\"",
+                    "start": 953,
+                    "end": 1013
                   },
                   {
                     "type": "Literal",
-                    "start": 1015,
-                    "end": 1165,
                     "value": "nity\t\f  \u000b\n\r                　",
-                    "raw": "\"nity\\u0009\\u000C\\u0020\\u00A0\\u000B\\u000A\\u000D\\u2028\\u2029\\u1680\\u2000\\u2001\\u2002\\u2003\\u2004\\u2005\\u2006\\u2007\\u2008\\u2009\\u200A\\u202F\\u205F\\u3000\""
+                    "raw": "\"nity\\u0009\\u000C\\u0020\\u00A0\\u000B\\u000A\\u000D\\u2028\\u2029\\u1680\\u2000\\u2001\\u2002\\u2003\\u2004\\u2005\\u2006\\u2007\\u2008\\u2009\\u200A\\u202F\\u205F\\u3000\"",
+                    "start": 1015,
+                    "end": 1165
                   }
                 ],
-                "optional": false
+                "optional": false,
+                "start": 942,
+                "end": 1166
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 935,
+            "end": 1167
           },
           {
             "type": "Identifier",
+            "name": "Infinity",
             "start": 1171,
-            "end": 1179,
-            "name": "Infinity"
+            "end": 1179
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 915,
+        "end": 1181
+      },
+      "start": 915,
+      "end": 1182
     },
     {
       "type": "ExpressionStatement",
-      "start": 1184,
-      "end": 1453,
       "expression": {
         "type": "CallExpression",
-        "start": 1184,
-        "end": 1452,
         "callee": {
           "type": "MemberExpression",
-          "start": 1184,
-          "end": 1200,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 1184,
-            "end": 1190,
-            "name": "assert"
+            "end": 1190
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 1191,
-            "end": 1200,
-            "name": "sameValue"
+            "end": 1200
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 1184,
+          "end": 1200
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 1204,
-            "end": 1437,
             "callee": {
               "type": "Identifier",
+              "name": "Number",
               "start": 1204,
-              "end": 1210,
-              "name": "Number"
+              "end": 1210
             },
             "arguments": [
               {
                 "type": "CallExpression",
-                "start": 1211,
-                "end": 1436,
                 "callee": {
                   "type": "Identifier",
+                  "name": "dynaString",
                   "start": 1211,
-                  "end": 1221,
-                  "name": "dynaString"
+                  "end": 1221
                 },
                 "arguments": [
                   {
                     "type": "Literal",
-                    "start": 1222,
-                    "end": 1283,
                     "value": "\t\f  \u000b\n\r  -Infi",
-                    "raw": "\"\\u0009\\u000C\\u0020\\u00A0\\u000B\\u000A\\u000D\\u2028\\u2029-Infi\""
+                    "raw": "\"\\u0009\\u000C\\u0020\\u00A0\\u000B\\u000A\\u000D\\u2028\\u2029-Infi\"",
+                    "start": 1222,
+                    "end": 1283
                   },
                   {
                     "type": "Literal",
-                    "start": 1285,
-                    "end": 1435,
                     "value": "nity\t\f  \u000b\n\r                　",
-                    "raw": "\"nity\\u0009\\u000C\\u0020\\u00A0\\u000B\\u000A\\u000D\\u2028\\u2029\\u1680\\u2000\\u2001\\u2002\\u2003\\u2004\\u2005\\u2006\\u2007\\u2008\\u2009\\u200A\\u202F\\u205F\\u3000\""
+                    "raw": "\"nity\\u0009\\u000C\\u0020\\u00A0\\u000B\\u000A\\u000D\\u2028\\u2029\\u1680\\u2000\\u2001\\u2002\\u2003\\u2004\\u2005\\u2006\\u2007\\u2008\\u2009\\u200A\\u202F\\u205F\\u3000\"",
+                    "start": 1285,
+                    "end": 1435
                   }
                 ],
-                "optional": false
+                "optional": false,
+                "start": 1211,
+                "end": 1436
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 1204,
+            "end": 1437
           },
           {
             "type": "UnaryExpression",
-            "start": 1441,
-            "end": 1450,
             "operator": "-",
             "argument": {
               "type": "Identifier",
+              "name": "Infinity",
               "start": 1442,
-              "end": 1450,
-              "name": "Infinity"
+              "end": 1450
             },
-            "prefix": true
+            "prefix": true,
+            "start": 1441,
+            "end": 1450
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 1184,
+        "end": 1452
+      },
+      "start": 1184,
+      "end": 1453
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 1454
 }

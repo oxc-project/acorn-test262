@@ -1,58 +1,50 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 337,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 250,
-      "end": 336,
       "expression": {
         "type": "CallExpression",
-        "start": 250,
-        "end": 335,
         "callee": {
           "type": "MemberExpression",
-          "start": 250,
-          "end": 266,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 250,
-            "end": 256,
-            "name": "assert"
+            "end": 256
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 257,
-            "end": 266,
-            "name": "sameValue"
+            "end": 266
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 250,
+          "end": 266
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 267,
-            "end": 286,
             "callee": {
               "type": "MemberExpression",
-              "start": 267,
-              "end": 280,
               "object": {
                 "type": "Identifier",
+                "name": "Array",
                 "start": 267,
-                "end": 272,
-                "name": "Array"
+                "end": 272
               },
               "property": {
                 "type": "Identifier",
+                "name": "isArray",
                 "start": 273,
-                "end": 280,
-                "name": "isArray"
+                "end": 280
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 267,
+              "end": 280
             },
             "arguments": [
               {
@@ -61,27 +53,35 @@
                 "end": 285
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 267,
+            "end": 286
           },
           {
             "type": "Literal",
-            "start": 288,
-            "end": 293,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "start": 288,
+            "end": 293
           },
           {
             "type": "Literal",
-            "start": 295,
-            "end": 334,
             "value": "Array.isArray(this) must return false",
-            "raw": "'Array.isArray(this) must return false'"
+            "raw": "'Array.isArray(this) must return false'",
+            "start": 295,
+            "end": 334
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 250,
+        "end": 335
+      },
+      "start": 250,
+      "end": 336
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 337
 }

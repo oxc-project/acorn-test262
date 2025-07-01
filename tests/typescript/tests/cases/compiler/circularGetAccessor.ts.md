@@ -2,22 +2,18 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 51,
   "body": [
     {
       "type": "ClassDeclaration",
-      "start": 0,
-      "end": 51,
       "decorators": [],
       "id": {
         "type": "Identifier",
-        "start": 14,
-        "end": 15,
         "decorators": [],
         "name": "C",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 14,
+        "end": 15
       },
       "typeParameters": null,
       "superClass": null,
@@ -25,27 +21,21 @@ __ESTREE_TEST__:PASS:
       "implements": [],
       "body": {
         "type": "ClassBody",
-        "start": 16,
-        "end": 51,
         "body": [
           {
             "type": "MethodDefinition",
-            "start": 22,
-            "end": 49,
             "decorators": [],
             "key": {
               "type": "Identifier",
-              "start": 26,
-              "end": 29,
               "decorators": [],
               "name": "foo",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 26,
+              "end": 29
             },
             "value": {
               "type": "TSEmptyBodyFunctionExpression",
-              "start": 29,
-              "end": 49,
               "id": null,
               "generator": false,
               "async": false,
@@ -54,16 +44,10 @@ __ESTREE_TEST__:PASS:
               "params": [],
               "returnType": {
                 "type": "TSTypeAnnotation",
-                "start": 31,
-                "end": 48,
                 "typeAnnotation": {
                   "type": "TSTypeQuery",
-                  "start": 33,
-                  "end": 48,
                   "exprName": {
                     "type": "TSQualifiedName",
-                    "start": 40,
-                    "end": 48,
                     "left": {
                       "type": "ThisExpression",
                       "start": 40,
@@ -71,34 +55,50 @@ __ESTREE_TEST__:PASS:
                     },
                     "right": {
                       "type": "Identifier",
-                      "start": 45,
-                      "end": 48,
                       "decorators": [],
                       "name": "foo",
                       "optional": false,
-                      "typeAnnotation": null
-                    }
+                      "typeAnnotation": null,
+                      "start": 45,
+                      "end": 48
+                    },
+                    "start": 40,
+                    "end": 48
                   },
-                  "typeArguments": null
-                }
+                  "typeArguments": null,
+                  "start": 33,
+                  "end": 48
+                },
+                "start": 31,
+                "end": 48
               },
               "body": null,
-              "expression": false
+              "expression": false,
+              "start": 29,
+              "end": 49
             },
             "kind": "get",
             "computed": false,
             "static": false,
             "override": false,
             "optional": false,
-            "accessibility": null
+            "accessibility": null,
+            "start": 22,
+            "end": 49
           }
-        ]
+        ],
+        "start": 16,
+        "end": 51
       },
       "abstract": false,
-      "declare": true
+      "declare": true,
+      "start": 0,
+      "end": 51
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 51
 }
 ```

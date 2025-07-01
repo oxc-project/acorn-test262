@@ -1,94 +1,94 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 377,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 301,
-      "end": 376,
       "expression": {
         "type": "CallExpression",
-        "start": 301,
-        "end": 375,
         "callee": {
           "type": "MemberExpression",
-          "start": 301,
-          "end": 317,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 301,
-            "end": 307,
-            "name": "assert"
+            "end": 307
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 308,
-            "end": 317,
-            "name": "sameValue"
+            "end": 317
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 301,
+          "end": 317
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 318,
-            "end": 361,
             "callee": {
               "type": "ParenthesizedExpression",
-              "start": 318,
-              "end": 359,
               "expression": {
                 "type": "FunctionExpression",
-                "start": 319,
-                "end": 358,
                 "id": null,
                 "generator": false,
                 "async": false,
                 "params": [],
                 "body": {
                   "type": "BlockStatement",
-                  "start": 331,
-                  "end": 358,
                   "body": [
                     {
                       "type": "ReturnStatement",
-                      "start": 337,
-                      "end": 356,
                       "argument": {
                         "type": "UnaryExpression",
-                        "start": 344,
-                        "end": 355,
                         "operator": "typeof",
                         "argument": {
                           "type": "ThisExpression",
                           "start": 351,
                           "end": 355
                         },
-                        "prefix": true
-                      }
+                        "prefix": true,
+                        "start": 344,
+                        "end": 355
+                      },
+                      "start": 337,
+                      "end": 356
                     }
-                  ]
+                  ],
+                  "start": 331,
+                  "end": 358
                 },
-                "expression": false
-              }
+                "expression": false,
+                "start": 319,
+                "end": 358
+              },
+              "start": 318,
+              "end": 359
             },
             "arguments": [],
-            "optional": false
+            "optional": false,
+            "start": 318,
+            "end": 361
           },
           {
             "type": "Literal",
-            "start": 363,
-            "end": 374,
             "value": "undefined",
-            "raw": "\"undefined\""
+            "raw": "\"undefined\"",
+            "start": 363,
+            "end": 374
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 301,
+        "end": 375
+      },
+      "start": 301,
+      "end": 376
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 377
 }

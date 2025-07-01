@@ -2,22 +2,18 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 72,
   "body": [
     {
       "type": "ClassDeclaration",
-      "start": 0,
-      "end": 72,
       "decorators": [],
       "id": {
         "type": "Identifier",
-        "start": 6,
-        "end": 7,
         "decorators": [],
         "name": "A",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 6,
+        "end": 7
       },
       "typeParameters": null,
       "superClass": null,
@@ -25,27 +21,21 @@ __ESTREE_TEST__:PASS:
       "implements": [],
       "body": {
         "type": "ClassBody",
-        "start": 8,
-        "end": 72,
         "body": [
           {
             "type": "MethodDefinition",
-            "start": 14,
-            "end": 70,
             "decorators": [],
             "key": {
               "type": "Identifier",
-              "start": 21,
-              "end": 23,
               "decorators": [],
               "name": "f1",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 21,
+              "end": 23
             },
             "value": {
               "type": "FunctionExpression",
-              "start": 23,
-              "end": 70,
               "id": null,
               "generator": false,
               "async": false,
@@ -55,75 +45,85 @@ __ESTREE_TEST__:PASS:
               "returnType": null,
               "body": {
                 "type": "BlockStatement",
-                "start": 26,
-                "end": 70,
                 "body": [
                   {
                     "type": "ReturnStatement",
-                    "start": 36,
-                    "end": 64,
                     "argument": {
                       "type": "ArrowFunctionExpression",
-                      "start": 43,
-                      "end": 64,
                       "expression": false,
                       "async": false,
                       "typeParameters": {
                         "type": "TSTypeParameterDeclaration",
-                        "start": 43,
-                        "end": 46,
                         "params": [
                           {
                             "type": "TSTypeParameter",
-                            "start": 44,
-                            "end": 45,
                             "name": {
                               "type": "Identifier",
-                              "start": 44,
-                              "end": 45,
                               "decorators": [],
                               "name": "T",
                               "optional": false,
-                              "typeAnnotation": null
+                              "typeAnnotation": null,
+                              "start": 44,
+                              "end": 45
                             },
                             "constraint": null,
                             "default": null,
                             "in": false,
                             "out": false,
-                            "const": false
+                            "const": false,
+                            "start": 44,
+                            "end": 45
                           }
-                        ]
+                        ],
+                        "start": 43,
+                        "end": 46
                       },
                       "params": [],
                       "returnType": null,
                       "body": {
                         "type": "BlockStatement",
+                        "body": [],
                         "start": 52,
-                        "end": 64,
-                        "body": []
+                        "end": 64
                       },
                       "id": null,
-                      "generator": false
-                    }
+                      "generator": false,
+                      "start": 43,
+                      "end": 64
+                    },
+                    "start": 36,
+                    "end": 64
                   }
-                ]
+                ],
+                "start": 26,
+                "end": 70
               },
-              "expression": false
+              "expression": false,
+              "start": 23,
+              "end": 70
             },
             "kind": "method",
             "computed": false,
             "static": false,
             "override": false,
             "optional": false,
-            "accessibility": "public"
+            "accessibility": "public",
+            "start": 14,
+            "end": 70
           }
-        ]
+        ],
+        "start": 8,
+        "end": 72
       },
       "abstract": false,
-      "declare": false
+      "declare": false,
+      "start": 0,
+      "end": 72
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 72
 }
 ```

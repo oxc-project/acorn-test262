@@ -2,47 +2,47 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 29,
   "body": [
     {
       "type": "TSExportAssignment",
-      "start": 0,
-      "end": 29,
       "expression": {
         "type": "ObjectExpression",
-        "start": 9,
-        "end": 28,
         "properties": [
           {
             "type": "Property",
-            "start": 11,
-            "end": 26,
             "kind": "init",
             "key": {
               "type": "Literal",
-              "start": 12,
-              "end": 16,
               "value": "hi",
-              "raw": "\"hi\""
+              "raw": "\"hi\"",
+              "start": 12,
+              "end": 16
             },
             "value": {
               "type": "Literal",
-              "start": 19,
-              "end": 26,
               "value": "there",
-              "raw": "\"there\""
+              "raw": "\"there\"",
+              "start": 19,
+              "end": 26
             },
             "method": false,
             "shorthand": false,
             "computed": true,
-            "optional": false
+            "optional": false,
+            "start": 11,
+            "end": 26
           }
-        ]
-      }
+        ],
+        "start": 9,
+        "end": 28
+      },
+      "start": 0,
+      "end": 29
     }
   ],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 29
 }
 ```

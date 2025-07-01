@@ -1,81 +1,81 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 360,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 325,
-      "end": 359,
       "expression": {
         "type": "UnaryExpression",
-        "start": 325,
-        "end": 358,
         "operator": "void",
         "argument": {
           "type": "ObjectExpression",
-          "start": 330,
-          "end": 358,
           "properties": [
             {
               "type": "Property",
-              "start": 334,
-              "end": 346,
               "kind": "get",
               "key": {
                 "type": "Identifier",
+                "name": "foo",
                 "start": 338,
-                "end": 341,
-                "name": "foo"
+                "end": 341
               },
               "value": {
                 "type": "FunctionExpression",
-                "start": 341,
-                "end": 346,
                 "id": null,
                 "generator": false,
                 "async": false,
                 "params": [],
                 "body": {
                   "type": "BlockStatement",
+                  "body": [],
                   "start": 344,
-                  "end": 346,
-                  "body": []
+                  "end": 346
                 },
-                "expression": false
+                "expression": false,
+                "start": 341,
+                "end": 346
               },
               "method": false,
               "shorthand": false,
-              "computed": false
+              "computed": false,
+              "start": 334,
+              "end": 346
             },
             {
               "type": "Property",
-              "start": 350,
-              "end": 356,
               "kind": "init",
               "key": {
                 "type": "Identifier",
+                "name": "foo",
                 "start": 350,
-                "end": 353,
-                "name": "foo"
+                "end": 353
               },
               "value": {
                 "type": "Literal",
-                "start": 355,
-                "end": 356,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "start": 355,
+                "end": 356
               },
               "method": false,
               "shorthand": false,
-              "computed": false
+              "computed": false,
+              "start": 350,
+              "end": 356
             }
-          ]
+          ],
+          "start": 330,
+          "end": 358
         },
-        "prefix": true
-      }
+        "prefix": true,
+        "start": 325,
+        "end": 358
+      },
+      "start": 325,
+      "end": 359
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 360
 }

@@ -1,102 +1,102 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 346,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 277,
-      "end": 345,
       "expression": {
         "type": "CallExpression",
-        "start": 277,
-        "end": 344,
         "callee": {
           "type": "MemberExpression",
-          "start": 277,
-          "end": 290,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 277,
-            "end": 283,
-            "name": "assert"
+            "end": 283
           },
           "property": {
             "type": "Identifier",
+            "name": "throws",
             "start": 284,
-            "end": 290,
-            "name": "throws"
+            "end": 290
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 277,
+          "end": 290
         },
         "arguments": [
           {
             "type": "Identifier",
+            "name": "ReferenceError",
             "start": 291,
-            "end": 305,
-            "name": "ReferenceError"
+            "end": 305
           },
           {
             "type": "FunctionExpression",
-            "start": 307,
-            "end": 343,
             "id": null,
             "generator": false,
             "async": false,
             "params": [],
             "body": {
               "type": "BlockStatement",
-              "start": 318,
-              "end": 343,
               "body": [
                 {
                   "type": "ExpressionStatement",
-                  "start": 322,
-                  "end": 341,
                   "expression": {
                     "type": "ParenthesizedExpression",
-                    "start": 322,
-                    "end": 340,
                     "expression": {
                       "type": "ObjectExpression",
-                      "start": 323,
-                      "end": 339,
                       "properties": [
                         {
                           "type": "Property",
-                          "start": 325,
-                          "end": 337,
                           "kind": "init",
                           "key": {
                             "type": "Identifier",
+                            "name": "unresolvable",
                             "start": 325,
-                            "end": 337,
-                            "name": "unresolvable"
+                            "end": 337
                           },
                           "value": {
                             "type": "Identifier",
+                            "name": "unresolvable",
                             "start": 325,
-                            "end": 337,
-                            "name": "unresolvable"
+                            "end": 337
                           },
                           "method": false,
                           "shorthand": true,
-                          "computed": false
+                          "computed": false,
+                          "start": 325,
+                          "end": 337
                         }
-                      ]
-                    }
-                  }
+                      ],
+                      "start": 323,
+                      "end": 339
+                    },
+                    "start": 322,
+                    "end": 340
+                  },
+                  "start": 322,
+                  "end": 341
                 }
-              ]
+              ],
+              "start": 318,
+              "end": 343
             },
-            "expression": false
+            "expression": false,
+            "start": 307,
+            "end": 343
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 277,
+        "end": 344
+      },
+      "start": 277,
+      "end": 345
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 346
 }

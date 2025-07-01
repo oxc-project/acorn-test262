@@ -1,74 +1,74 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 356,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 270,
-      "end": 355,
       "expression": {
         "type": "CallExpression",
-        "start": 270,
-        "end": 354,
         "callee": {
           "type": "MemberExpression",
-          "start": 270,
-          "end": 286,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 270,
-            "end": 276,
-            "name": "assert"
+            "end": 276
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 277,
-            "end": 286,
-            "name": "sameValue"
+            "end": 286
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 270,
+          "end": 286
         },
         "arguments": [
           {
             "type": "MemberExpression",
-            "start": 287,
-            "end": 300,
             "object": {
               "type": "Identifier",
+              "name": "RegExp",
               "start": 287,
-              "end": 293,
-              "name": "RegExp"
+              "end": 293
             },
             "property": {
               "type": "Identifier",
+              "name": "length",
               "start": 294,
-              "end": 300,
-              "name": "length"
+              "end": 300
             },
             "optional": false,
-            "computed": false
+            "computed": false,
+            "start": 287,
+            "end": 300
           },
           {
             "type": "Literal",
-            "start": 302,
-            "end": 303,
             "value": 2,
-            "raw": "2"
+            "raw": "2",
+            "start": 302,
+            "end": 303
           },
           {
             "type": "Literal",
-            "start": 305,
-            "end": 353,
             "value": "The value of RegExp.length is expected to be 2",
-            "raw": "'The value of RegExp.length is expected to be 2'"
+            "raw": "'The value of RegExp.length is expected to be 2'",
+            "start": 305,
+            "end": 353
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 270,
+        "end": 354
+      },
+      "start": 270,
+      "end": 355
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 356
 }

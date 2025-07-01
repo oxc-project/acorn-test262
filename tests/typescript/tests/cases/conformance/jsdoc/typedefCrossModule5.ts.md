@@ -2,22 +2,18 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 29,
-  "end": 42,
   "body": [
     {
       "type": "ClassDeclaration",
-      "start": 29,
-      "end": 41,
       "decorators": [],
       "id": {
         "type": "Identifier",
-        "start": 35,
-        "end": 38,
         "decorators": [],
         "name": "Bar",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 35,
+        "end": 38
       },
       "typeParameters": null,
       "superClass": null,
@@ -25,38 +21,38 @@ __ESTREE_TEST__:PASS:
       "implements": [],
       "body": {
         "type": "ClassBody",
+        "body": [],
         "start": 39,
-        "end": 41,
-        "body": []
+        "end": 41
       },
       "abstract": false,
-      "declare": false
+      "declare": false,
+      "start": 29,
+      "end": 41
     }
   ],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 29,
+  "end": 42
 }
 ```
 __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 44,
   "body": [
     {
       "type": "ClassDeclaration",
-      "start": 0,
-      "end": 13,
       "decorators": [],
       "id": {
         "type": "Identifier",
-        "start": 6,
-        "end": 9,
         "decorators": [],
         "name": "Foo",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 6,
+        "end": 9
       },
       "typeParameters": null,
       "superClass": null,
@@ -64,46 +60,50 @@ __ESTREE_TEST__:PASS:
       "implements": [],
       "body": {
         "type": "ClassBody",
+        "body": [],
         "start": 10,
-        "end": 13,
-        "body": []
+        "end": 13
       },
       "abstract": false,
-      "declare": false
+      "declare": false,
+      "start": 0,
+      "end": 13
     },
     {
       "type": "VariableDeclaration",
-      "start": 30,
-      "end": 44,
       "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 36,
-          "end": 43,
           "id": {
             "type": "Identifier",
-            "start": 36,
-            "end": 39,
             "decorators": [],
             "name": "Bar",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 36,
+            "end": 39
           },
           "init": {
             "type": "Literal",
-            "start": 42,
-            "end": 43,
             "value": 3,
-            "raw": "3"
+            "raw": "3",
+            "start": 42,
+            "end": 43
           },
-          "definite": false
+          "definite": false,
+          "start": 36,
+          "end": 43
         }
       ],
-      "declare": false
+      "declare": false,
+      "start": 30,
+      "end": 44
     }
   ],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 44
 }
 ```

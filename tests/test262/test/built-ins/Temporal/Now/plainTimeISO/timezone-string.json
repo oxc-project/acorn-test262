@@ -1,131 +1,131 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 403,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 318,
-      "end": 402,
       "expression": {
         "type": "CallExpression",
-        "start": 318,
-        "end": 401,
         "callee": {
           "type": "MemberExpression",
-          "start": 318,
-          "end": 343,
           "object": {
             "type": "ArrayExpression",
-            "start": 318,
-            "end": 335,
             "elements": [
               {
                 "type": "Literal",
-                "start": 319,
-                "end": 324,
                 "value": "UTC",
-                "raw": "\"UTC\""
+                "raw": "\"UTC\"",
+                "start": 319,
+                "end": 324
               },
               {
                 "type": "Literal",
-                "start": 326,
-                "end": 334,
                 "value": "+01:00",
-                "raw": "\"+01:00\""
+                "raw": "\"+01:00\"",
+                "start": 326,
+                "end": 334
               }
-            ]
+            ],
+            "start": 318,
+            "end": 335
           },
           "property": {
             "type": "Identifier",
+            "name": "forEach",
             "start": 336,
-            "end": 343,
-            "name": "forEach"
+            "end": 343
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 318,
+          "end": 343
         },
         "arguments": [
           {
             "type": "ArrowFunctionExpression",
-            "start": 344,
-            "end": 400,
             "expression": false,
             "async": false,
             "params": [
               {
                 "type": "Identifier",
+                "name": "timeZone",
                 "start": 345,
-                "end": 353,
-                "name": "timeZone"
+                "end": 353
               }
             ],
             "body": {
               "type": "BlockStatement",
-              "start": 358,
-              "end": 400,
               "body": [
                 {
                   "type": "ExpressionStatement",
-                  "start": 362,
-                  "end": 398,
                   "expression": {
                     "type": "CallExpression",
-                    "start": 362,
-                    "end": 397,
                     "callee": {
                       "type": "MemberExpression",
-                      "start": 362,
-                      "end": 387,
                       "object": {
                         "type": "MemberExpression",
-                        "start": 362,
-                        "end": 374,
                         "object": {
                           "type": "Identifier",
+                          "name": "Temporal",
                           "start": 362,
-                          "end": 370,
-                          "name": "Temporal"
+                          "end": 370
                         },
                         "property": {
                           "type": "Identifier",
+                          "name": "Now",
                           "start": 371,
-                          "end": 374,
-                          "name": "Now"
+                          "end": 374
                         },
                         "optional": false,
-                        "computed": false
+                        "computed": false,
+                        "start": 362,
+                        "end": 374
                       },
                       "property": {
                         "type": "Identifier",
+                        "name": "plainTimeISO",
                         "start": 375,
-                        "end": 387,
-                        "name": "plainTimeISO"
+                        "end": 387
                       },
                       "optional": false,
-                      "computed": false
+                      "computed": false,
+                      "start": 362,
+                      "end": 387
                     },
                     "arguments": [
                       {
                         "type": "Identifier",
+                        "name": "timeZone",
                         "start": 388,
-                        "end": 396,
-                        "name": "timeZone"
+                        "end": 396
                       }
                     ],
-                    "optional": false
-                  }
+                    "optional": false,
+                    "start": 362,
+                    "end": 397
+                  },
+                  "start": 362,
+                  "end": 398
                 }
-              ]
+              ],
+              "start": 358,
+              "end": 400
             },
             "id": null,
-            "generator": false
+            "generator": false,
+            "start": 344,
+            "end": 400
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 318,
+        "end": 401
+      },
+      "start": 318,
+      "end": 402
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 403
 }

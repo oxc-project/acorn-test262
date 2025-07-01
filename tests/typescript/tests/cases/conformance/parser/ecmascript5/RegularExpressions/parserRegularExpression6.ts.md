@@ -2,96 +2,96 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 68,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 0,
-      "end": 14,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 12,
-          "end": 13,
           "id": {
             "type": "Identifier",
-            "start": 12,
-            "end": 13,
             "decorators": [],
             "name": "a",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 12,
+            "end": 13
           },
           "init": null,
-          "definite": false
+          "definite": false,
+          "start": 12,
+          "end": 13
         }
       ],
-      "declare": true
+      "declare": true,
+      "start": 0,
+      "end": 14
     },
     {
       "type": "ExpressionStatement",
-      "start": 15,
-      "end": 22,
       "expression": {
         "type": "AssignmentExpression",
-        "start": 15,
-        "end": 21,
         "operator": "/=",
         "left": {
           "type": "Identifier",
-          "start": 15,
-          "end": 16,
           "decorators": [],
           "name": "a",
           "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "start": 15,
+          "end": 16
         },
         "right": {
           "type": "Literal",
-          "start": 20,
-          "end": 21,
           "value": 1,
-          "raw": "1"
-        }
+          "raw": "1",
+          "start": 20,
+          "end": 21
+        },
+        "start": 15,
+        "end": 21
       },
-      "directive": null
+      "directive": null,
+      "start": 15,
+      "end": 22
     },
     {
       "type": "ExpressionStatement",
-      "start": 41,
-      "end": 49,
       "expression": {
         "type": "AssignmentExpression",
-        "start": 41,
-        "end": 48,
         "operator": "=",
         "left": {
           "type": "Identifier",
-          "start": 41,
-          "end": 42,
           "decorators": [],
           "name": "a",
           "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "start": 41,
+          "end": 42
         },
         "right": {
           "type": "Literal",
-          "start": 45,
-          "end": 48,
           "value": null,
           "raw": "/=/",
           "regex": {
             "pattern": "=",
             "flags": ""
-          }
-        }
+          },
+          "start": 45,
+          "end": 48
+        },
+        "start": 41,
+        "end": 48
       },
-      "directive": null
+      "directive": null,
+      "start": 41,
+      "end": 49
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 68
 }
 ```

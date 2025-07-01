@@ -1,88 +1,88 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 304,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 235,
-      "end": 303,
       "expression": {
         "type": "CallExpression",
-        "start": 235,
-        "end": 302,
         "callee": {
           "type": "MemberExpression",
-          "start": 235,
-          "end": 251,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 235,
-            "end": 241,
-            "name": "assert"
+            "end": 241
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 242,
-            "end": 251,
-            "name": "sameValue"
+            "end": 251
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 235,
+          "end": 251
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 252,
-            "end": 271,
             "callee": {
               "type": "MemberExpression",
-              "start": 252,
-              "end": 267,
               "object": {
                 "type": "Identifier",
+                "name": "Object",
                 "start": 252,
-                "end": 258,
-                "name": "Object"
+                "end": 258
               },
               "property": {
                 "type": "Identifier",
+                "name": "isFrozen",
                 "start": 259,
-                "end": 267,
-                "name": "isFrozen"
+                "end": 267
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 252,
+              "end": 267
             },
             "arguments": [
               {
                 "type": "ObjectExpression",
+                "properties": [],
                 "start": 268,
-                "end": 270,
-                "properties": []
+                "end": 270
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 252,
+            "end": 271
           },
           {
             "type": "Literal",
-            "start": 273,
-            "end": 278,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "start": 273,
+            "end": 278
           },
           {
             "type": "Literal",
-            "start": 280,
-            "end": 301,
             "value": "Object.isFrozen({})",
-            "raw": "'Object.isFrozen({})'"
+            "raw": "'Object.isFrozen({})'",
+            "start": 280,
+            "end": 301
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 235,
+        "end": 302
+      },
+      "start": 235,
+      "end": 303
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 304
 }

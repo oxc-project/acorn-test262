@@ -1,406 +1,406 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 2007,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 1691,
-      "end": 1713,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 1695,
-          "end": 1712,
           "id": {
             "type": "Identifier",
+            "name": "len",
             "start": 1695,
-            "end": 1698,
-            "name": "len"
+            "end": 1698
           },
           "init": {
             "type": "MemberExpression",
-            "start": 1701,
-            "end": 1712,
             "object": {
               "type": "Identifier",
+              "name": "NaNs",
               "start": 1701,
-              "end": 1705,
-              "name": "NaNs"
+              "end": 1705
             },
             "property": {
               "type": "Identifier",
+              "name": "length",
               "start": 1706,
-              "end": 1712,
-              "name": "length"
+              "end": 1712
             },
             "optional": false,
-            "computed": false
-          }
+            "computed": false,
+            "start": 1701,
+            "end": 1712
+          },
+          "start": 1695,
+          "end": 1712
         }
-      ]
+      ],
+      "start": 1691,
+      "end": 1713
     },
     {
       "type": "ForStatement",
-      "start": 1715,
-      "end": 2006,
       "init": {
         "type": "VariableDeclaration",
-        "start": 1720,
-        "end": 1731,
         "kind": "var",
         "declarations": [
           {
             "type": "VariableDeclarator",
-            "start": 1724,
-            "end": 1731,
             "id": {
               "type": "Identifier",
+              "name": "idx",
               "start": 1724,
-              "end": 1727,
-              "name": "idx"
+              "end": 1727
             },
             "init": {
               "type": "Literal",
-              "start": 1730,
-              "end": 1731,
               "value": 0,
-              "raw": "0"
-            }
+              "raw": "0",
+              "start": 1730,
+              "end": 1731
+            },
+            "start": 1724,
+            "end": 1731
           }
-        ]
+        ],
+        "start": 1720,
+        "end": 1731
       },
       "test": {
         "type": "BinaryExpression",
-        "start": 1733,
-        "end": 1742,
         "left": {
           "type": "Identifier",
+          "name": "idx",
           "start": 1733,
-          "end": 1736,
-          "name": "idx"
+          "end": 1736
         },
         "operator": "<",
         "right": {
           "type": "Identifier",
+          "name": "len",
           "start": 1739,
-          "end": 1742,
-          "name": "len"
-        }
+          "end": 1742
+        },
+        "start": 1733,
+        "end": 1742
       },
       "update": {
         "type": "UpdateExpression",
-        "start": 1744,
-        "end": 1749,
         "operator": "++",
         "prefix": true,
         "argument": {
           "type": "Identifier",
+          "name": "idx",
           "start": 1746,
-          "end": 1749,
-          "name": "idx"
-        }
+          "end": 1749
+        },
+        "start": 1744,
+        "end": 1749
       },
       "body": {
         "type": "BlockStatement",
-        "start": 1751,
-        "end": 2006,
         "body": [
           {
             "type": "ForStatement",
-            "start": 1755,
-            "end": 2004,
             "init": {
               "type": "VariableDeclaration",
-              "start": 1760,
-              "end": 1771,
               "kind": "var",
               "declarations": [
                 {
                   "type": "VariableDeclarator",
-                  "start": 1764,
-                  "end": 1771,
                   "id": {
                     "type": "Identifier",
+                    "name": "jdx",
                     "start": 1764,
-                    "end": 1767,
-                    "name": "jdx"
+                    "end": 1767
                   },
                   "init": {
                     "type": "Literal",
-                    "start": 1770,
-                    "end": 1771,
                     "value": 0,
-                    "raw": "0"
-                  }
+                    "raw": "0",
+                    "start": 1770,
+                    "end": 1771
+                  },
+                  "start": 1764,
+                  "end": 1771
                 }
-              ]
+              ],
+              "start": 1760,
+              "end": 1771
             },
             "test": {
               "type": "BinaryExpression",
-              "start": 1773,
-              "end": 1782,
               "left": {
                 "type": "Identifier",
+                "name": "jdx",
                 "start": 1773,
-                "end": 1776,
-                "name": "jdx"
+                "end": 1776
               },
               "operator": "<",
               "right": {
                 "type": "Identifier",
+                "name": "len",
                 "start": 1779,
-                "end": 1782,
-                "name": "len"
-              }
+                "end": 1782
+              },
+              "start": 1773,
+              "end": 1782
             },
             "update": {
               "type": "UpdateExpression",
-              "start": 1784,
-              "end": 1789,
               "operator": "++",
               "prefix": true,
               "argument": {
                 "type": "Identifier",
+                "name": "jdx",
                 "start": 1786,
-                "end": 1789,
-                "name": "jdx"
-              }
+                "end": 1789
+              },
+              "start": 1784,
+              "end": 1789
             },
             "body": {
               "type": "BlockStatement",
-              "start": 1791,
-              "end": 2004,
               "body": [
                 {
                   "type": "VariableDeclaration",
-                  "start": 1797,
-                  "end": 1808,
                   "kind": "var",
                   "declarations": [
                     {
                       "type": "VariableDeclarator",
-                      "start": 1801,
-                      "end": 1807,
                       "id": {
                         "type": "Identifier",
+                        "name": "a",
                         "start": 1801,
-                        "end": 1802,
-                        "name": "a"
+                        "end": 1802
                       },
                       "init": {
                         "type": "ObjectExpression",
+                        "properties": [],
                         "start": 1805,
-                        "end": 1807,
-                        "properties": []
-                      }
+                        "end": 1807
+                      },
+                      "start": 1801,
+                      "end": 1807
                     }
-                  ]
+                  ],
+                  "start": 1797,
+                  "end": 1808
                 },
                 {
                   "type": "ExpressionStatement",
-                  "start": 1814,
-                  "end": 1833,
                   "expression": {
                     "type": "AssignmentExpression",
-                    "start": 1814,
-                    "end": 1832,
                     "operator": "=",
                     "left": {
                       "type": "MemberExpression",
-                      "start": 1814,
-                      "end": 1820,
                       "object": {
                         "type": "Identifier",
+                        "name": "a",
                         "start": 1814,
-                        "end": 1815,
-                        "name": "a"
+                        "end": 1815
                       },
                       "property": {
                         "type": "Identifier",
+                        "name": "prop",
                         "start": 1816,
-                        "end": 1820,
-                        "name": "prop"
+                        "end": 1820
                       },
                       "optional": false,
-                      "computed": false
+                      "computed": false,
+                      "start": 1814,
+                      "end": 1820
                     },
                     "right": {
                       "type": "MemberExpression",
-                      "start": 1823,
-                      "end": 1832,
                       "object": {
                         "type": "Identifier",
+                        "name": "NaNs",
                         "start": 1823,
-                        "end": 1827,
-                        "name": "NaNs"
+                        "end": 1827
                       },
                       "property": {
                         "type": "Identifier",
+                        "name": "idx",
                         "start": 1828,
-                        "end": 1831,
-                        "name": "idx"
+                        "end": 1831
                       },
                       "optional": false,
-                      "computed": true
-                    }
-                  }
+                      "computed": true,
+                      "start": 1823,
+                      "end": 1832
+                    },
+                    "start": 1814,
+                    "end": 1832
+                  },
+                  "start": 1814,
+                  "end": 1833
                 },
                 {
                   "type": "ExpressionStatement",
-                  "start": 1838,
-                  "end": 1857,
                   "expression": {
                     "type": "AssignmentExpression",
-                    "start": 1838,
-                    "end": 1856,
                     "operator": "=",
                     "left": {
                       "type": "MemberExpression",
-                      "start": 1838,
-                      "end": 1844,
                       "object": {
                         "type": "Identifier",
+                        "name": "a",
                         "start": 1838,
-                        "end": 1839,
-                        "name": "a"
+                        "end": 1839
                       },
                       "property": {
                         "type": "Identifier",
+                        "name": "prop",
                         "start": 1840,
-                        "end": 1844,
-                        "name": "prop"
+                        "end": 1844
                       },
                       "optional": false,
-                      "computed": false
+                      "computed": false,
+                      "start": 1838,
+                      "end": 1844
                     },
                     "right": {
                       "type": "MemberExpression",
-                      "start": 1847,
-                      "end": 1856,
                       "object": {
                         "type": "Identifier",
+                        "name": "NaNs",
                         "start": 1847,
-                        "end": 1851,
-                        "name": "NaNs"
+                        "end": 1851
                       },
                       "property": {
                         "type": "Identifier",
+                        "name": "jdx",
                         "start": 1852,
-                        "end": 1855,
-                        "name": "jdx"
+                        "end": 1855
                       },
                       "optional": false,
-                      "computed": true
-                    }
-                  }
+                      "computed": true,
+                      "start": 1847,
+                      "end": 1856
+                    },
+                    "start": 1838,
+                    "end": 1856
+                  },
+                  "start": 1838,
+                  "end": 1857
                 },
                 {
                   "type": "ExpressionStatement",
-                  "start": 1863,
-                  "end": 2000,
                   "expression": {
                     "type": "CallExpression",
-                    "start": 1863,
-                    "end": 1999,
                     "callee": {
                       "type": "Identifier",
+                      "name": "assert",
                       "start": 1863,
-                      "end": 1869,
-                      "name": "assert"
+                      "end": 1869
                     },
                     "arguments": [
                       {
                         "type": "BinaryExpression",
-                        "start": 1877,
-                        "end": 1894,
                         "left": {
                           "type": "MemberExpression",
-                          "start": 1877,
-                          "end": 1883,
                           "object": {
                             "type": "Identifier",
+                            "name": "a",
                             "start": 1877,
-                            "end": 1878,
-                            "name": "a"
+                            "end": 1878
                           },
                           "property": {
                             "type": "Identifier",
+                            "name": "prop",
                             "start": 1879,
-                            "end": 1883,
-                            "name": "prop"
+                            "end": 1883
                           },
                           "optional": false,
-                          "computed": false
+                          "computed": false,
+                          "start": 1877,
+                          "end": 1883
                         },
                         "operator": "!==",
                         "right": {
                           "type": "MemberExpression",
-                          "start": 1888,
-                          "end": 1894,
                           "object": {
                             "type": "Identifier",
+                            "name": "a",
                             "start": 1888,
-                            "end": 1889,
-                            "name": "a"
+                            "end": 1889
                           },
                           "property": {
                             "type": "Identifier",
+                            "name": "prop",
                             "start": 1890,
-                            "end": 1894,
-                            "name": "prop"
+                            "end": 1894
                           },
                           "optional": false,
-                          "computed": false
-                        }
+                          "computed": false,
+                          "start": 1888,
+                          "end": 1894
+                        },
+                        "start": 1877,
+                        "end": 1894
                       },
                       {
                         "type": "TemplateLiteral",
-                        "start": 1902,
-                        "end": 1993,
                         "quasis": [
                           {
                             "type": "TemplateElement",
-                            "start": 1903,
-                            "end": 1962,
                             "value": {
                               "raw": "Object property value reassigned to NaN produced by (index=",
                               "cooked": "Object property value reassigned to NaN produced by (index="
                             },
-                            "tail": false
+                            "tail": false,
+                            "start": 1903,
+                            "end": 1962
                           },
                           {
                             "type": "TemplateElement",
-                            "start": 1968,
-                            "end": 1992,
                             "value": {
                               "raw": ") results in a valid NaN",
                               "cooked": ") results in a valid NaN"
                             },
-                            "tail": true
+                            "tail": true,
+                            "start": 1968,
+                            "end": 1992
                           }
                         ],
                         "expressions": [
                           {
                             "type": "Identifier",
+                            "name": "idx",
                             "start": 1964,
-                            "end": 1967,
-                            "name": "idx"
+                            "end": 1967
                           }
-                        ]
+                        ],
+                        "start": 1902,
+                        "end": 1993
                       }
                     ],
-                    "optional": false
-                  }
+                    "optional": false,
+                    "start": 1863,
+                    "end": 1999
+                  },
+                  "start": 1863,
+                  "end": 2000
                 }
-              ]
-            }
+              ],
+              "start": 1791,
+              "end": 2004
+            },
+            "start": 1755,
+            "end": 2004
           }
-        ]
-      }
+        ],
+        "start": 1751,
+        "end": 2006
+      },
+      "start": 1715,
+      "end": 2006
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 2007
 }

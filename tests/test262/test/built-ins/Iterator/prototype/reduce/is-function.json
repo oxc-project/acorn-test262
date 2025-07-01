@@ -1,87 +1,87 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 335,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 271,
-      "end": 334,
       "expression": {
         "type": "CallExpression",
-        "start": 271,
-        "end": 333,
         "callee": {
           "type": "MemberExpression",
-          "start": 271,
-          "end": 287,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 271,
-            "end": 277,
-            "name": "assert"
+            "end": 277
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 278,
-            "end": 287,
-            "name": "sameValue"
+            "end": 287
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 271,
+          "end": 287
         },
         "arguments": [
           {
             "type": "UnaryExpression",
-            "start": 288,
-            "end": 320,
             "operator": "typeof",
             "argument": {
               "type": "MemberExpression",
-              "start": 295,
-              "end": 320,
               "object": {
                 "type": "MemberExpression",
-                "start": 295,
-                "end": 313,
                 "object": {
                   "type": "Identifier",
+                  "name": "Iterator",
                   "start": 295,
-                  "end": 303,
-                  "name": "Iterator"
+                  "end": 303
                 },
                 "property": {
                   "type": "Identifier",
+                  "name": "prototype",
                   "start": 304,
-                  "end": 313,
-                  "name": "prototype"
+                  "end": 313
                 },
                 "optional": false,
-                "computed": false
+                "computed": false,
+                "start": 295,
+                "end": 313
               },
               "property": {
                 "type": "Identifier",
+                "name": "reduce",
                 "start": 314,
-                "end": 320,
-                "name": "reduce"
+                "end": 320
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 295,
+              "end": 320
             },
-            "prefix": true
+            "prefix": true,
+            "start": 288,
+            "end": 320
           },
           {
             "type": "Literal",
-            "start": 322,
-            "end": 332,
             "value": "function",
-            "raw": "'function'"
+            "raw": "'function'",
+            "start": 322,
+            "end": 332
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 271,
+        "end": 333
+      },
+      "start": 271,
+      "end": 334
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 335
 }

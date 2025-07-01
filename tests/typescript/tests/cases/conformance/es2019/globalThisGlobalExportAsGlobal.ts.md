@@ -2,70 +2,70 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 56,
-  "end": 110,
   "body": [
     {
       "type": "TSModuleDeclaration",
-      "start": 56,
-      "end": 110,
       "id": {
         "type": "Identifier",
-        "start": 64,
-        "end": 70,
         "decorators": [],
         "name": "global",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 64,
+        "end": 70
       },
       "body": {
         "type": "TSModuleBlock",
-        "start": 71,
-        "end": 110,
         "body": [
           {
             "type": "ExportNamedDeclaration",
-            "start": 77,
-            "end": 108,
             "declaration": null,
             "specifiers": [
               {
                 "type": "ExportSpecifier",
-                "start": 86,
-                "end": 106,
                 "local": {
                   "type": "Identifier",
-                  "start": 86,
-                  "end": 96,
                   "decorators": [],
                   "name": "globalThis",
                   "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "start": 86,
+                  "end": 96
                 },
                 "exported": {
                   "type": "Identifier",
-                  "start": 100,
-                  "end": 106,
                   "decorators": [],
                   "name": "global",
                   "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "start": 100,
+                  "end": 106
                 },
-                "exportKind": "value"
+                "exportKind": "value",
+                "start": 86,
+                "end": 106
               }
             ],
             "source": null,
             "exportKind": "value",
-            "attributes": []
+            "attributes": [],
+            "start": 77,
+            "end": 108
           }
-        ]
+        ],
+        "start": 71,
+        "end": 110
       },
       "kind": "global",
       "declare": true,
-      "global": true
+      "global": true,
+      "start": 56,
+      "end": 110
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 56,
+  "end": 110
 }
 ```

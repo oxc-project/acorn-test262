@@ -1,657 +1,657 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 3513,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 2432,
-      "end": 2444,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 2436,
-          "end": 2443,
           "id": {
             "type": "Identifier",
+            "name": "binding",
             "start": 2436,
-            "end": 2443,
-            "name": "binding"
+            "end": 2443
           },
-          "init": null
+          "init": null,
+          "start": 2436,
+          "end": 2443
         }
-      ]
+      ],
+      "start": 2432,
+      "end": 2444
     },
     {
       "type": "ForInStatement",
-      "start": 2586,
-      "end": 2816,
       "left": {
         "type": "Identifier",
+        "name": "binding",
         "start": 2591,
-        "end": 2598,
-        "name": "binding"
+        "end": 2598
       },
       "right": {
         "type": "ArrayExpression",
-        "start": 2602,
-        "end": 2701,
         "elements": [
           {
             "type": "AwaitExpression",
-            "start": 2603,
-            "end": 2700,
             "argument": {
               "type": "AwaitExpression",
-              "start": 2609,
-              "end": 2700,
               "argument": {
                 "type": "AwaitExpression",
-                "start": 2615,
-                "end": 2700,
                 "argument": {
                   "type": "AwaitExpression",
-                  "start": 2621,
-                  "end": 2700,
                   "argument": {
                     "type": "AwaitExpression",
-                    "start": 2627,
-                    "end": 2700,
                     "argument": {
                       "type": "AwaitExpression",
-                      "start": 2633,
-                      "end": 2700,
                       "argument": {
                         "type": "AwaitExpression",
-                        "start": 2639,
-                        "end": 2700,
                         "argument": {
                           "type": "AwaitExpression",
-                          "start": 2645,
-                          "end": 2700,
                           "argument": {
                             "type": "AwaitExpression",
-                            "start": 2651,
-                            "end": 2700,
                             "argument": {
                               "type": "AwaitExpression",
-                              "start": 2657,
-                              "end": 2700,
                               "argument": {
                                 "type": "AwaitExpression",
-                                "start": 2663,
-                                "end": 2700,
                                 "argument": {
                                   "type": "AwaitExpression",
-                                  "start": 2669,
-                                  "end": 2700,
                                   "argument": {
                                     "type": "AwaitExpression",
-                                    "start": 2675,
-                                    "end": 2700,
                                     "argument": {
                                       "type": "AwaitExpression",
-                                      "start": 2681,
-                                      "end": 2700,
                                       "argument": {
                                         "type": "AwaitExpression",
-                                        "start": 2687,
-                                        "end": 2700,
                                         "argument": {
                                           "type": "Literal",
-                                          "start": 2693,
-                                          "end": 2700,
                                           "value": "await",
-                                          "raw": "'await'"
-                                        }
-                                      }
-                                    }
-                                  }
-                                }
-                              }
-                            }
-                          }
-                        }
-                      }
-                    }
-                  }
-                }
-              }
-            }
+                                          "raw": "'await'",
+                                          "start": 2693,
+                                          "end": 2700
+                                        },
+                                        "start": 2687,
+                                        "end": 2700
+                                      },
+                                      "start": 2681,
+                                      "end": 2700
+                                    },
+                                    "start": 2675,
+                                    "end": 2700
+                                  },
+                                  "start": 2669,
+                                  "end": 2700
+                                },
+                                "start": 2663,
+                                "end": 2700
+                              },
+                              "start": 2657,
+                              "end": 2700
+                            },
+                            "start": 2651,
+                            "end": 2700
+                          },
+                          "start": 2645,
+                          "end": 2700
+                        },
+                        "start": 2639,
+                        "end": 2700
+                      },
+                      "start": 2633,
+                      "end": 2700
+                    },
+                    "start": 2627,
+                    "end": 2700
+                  },
+                  "start": 2621,
+                  "end": 2700
+                },
+                "start": 2615,
+                "end": 2700
+              },
+              "start": 2609,
+              "end": 2700
+            },
+            "start": 2603,
+            "end": 2700
           }
-        ]
+        ],
+        "start": 2602,
+        "end": 2701
       },
       "body": {
         "type": "BlockStatement",
-        "start": 2703,
-        "end": 2816,
         "body": [
           {
             "type": "ExpressionStatement",
-            "start": 2707,
-            "end": 2805,
             "expression": {
               "type": "AwaitExpression",
-              "start": 2707,
-              "end": 2804,
               "argument": {
                 "type": "AwaitExpression",
-                "start": 2713,
-                "end": 2804,
                 "argument": {
                   "type": "AwaitExpression",
-                  "start": 2719,
-                  "end": 2804,
                   "argument": {
                     "type": "AwaitExpression",
-                    "start": 2725,
-                    "end": 2804,
                     "argument": {
                       "type": "AwaitExpression",
-                      "start": 2731,
-                      "end": 2804,
                       "argument": {
                         "type": "AwaitExpression",
-                        "start": 2737,
-                        "end": 2804,
                         "argument": {
                           "type": "AwaitExpression",
-                          "start": 2743,
-                          "end": 2804,
                           "argument": {
                             "type": "AwaitExpression",
-                            "start": 2749,
-                            "end": 2804,
                             "argument": {
                               "type": "AwaitExpression",
-                              "start": 2755,
-                              "end": 2804,
                               "argument": {
                                 "type": "AwaitExpression",
-                                "start": 2761,
-                                "end": 2804,
                                 "argument": {
                                   "type": "AwaitExpression",
-                                  "start": 2767,
-                                  "end": 2804,
                                   "argument": {
                                     "type": "AwaitExpression",
-                                    "start": 2773,
-                                    "end": 2804,
                                     "argument": {
                                       "type": "AwaitExpression",
-                                      "start": 2779,
-                                      "end": 2804,
                                       "argument": {
                                         "type": "AwaitExpression",
-                                        "start": 2785,
-                                        "end": 2804,
                                         "argument": {
                                           "type": "AwaitExpression",
-                                          "start": 2791,
-                                          "end": 2804,
                                           "argument": {
                                             "type": "Literal",
-                                            "start": 2797,
-                                            "end": 2804,
                                             "value": "await",
-                                            "raw": "'await'"
-                                          }
-                                        }
-                                      }
-                                    }
-                                  }
-                                }
-                              }
-                            }
-                          }
-                        }
-                      }
-                    }
-                  }
-                }
-              }
-            }
+                                            "raw": "'await'",
+                                            "start": 2797,
+                                            "end": 2804
+                                          },
+                                          "start": 2791,
+                                          "end": 2804
+                                        },
+                                        "start": 2785,
+                                        "end": 2804
+                                      },
+                                      "start": 2779,
+                                      "end": 2804
+                                    },
+                                    "start": 2773,
+                                    "end": 2804
+                                  },
+                                  "start": 2767,
+                                  "end": 2804
+                                },
+                                "start": 2761,
+                                "end": 2804
+                              },
+                              "start": 2755,
+                              "end": 2804
+                            },
+                            "start": 2749,
+                            "end": 2804
+                          },
+                          "start": 2743,
+                          "end": 2804
+                        },
+                        "start": 2737,
+                        "end": 2804
+                      },
+                      "start": 2731,
+                      "end": 2804
+                    },
+                    "start": 2725,
+                    "end": 2804
+                  },
+                  "start": 2719,
+                  "end": 2804
+                },
+                "start": 2713,
+                "end": 2804
+              },
+              "start": 2707,
+              "end": 2804
+            },
+            "start": 2707,
+            "end": 2805
           },
           {
             "type": "BreakStatement",
+            "label": null,
             "start": 2808,
-            "end": 2814,
-            "label": null
+            "end": 2814
           }
-        ]
-      }
+        ],
+        "start": 2703,
+        "end": 2816
+      },
+      "start": 2586,
+      "end": 2816
     },
     {
       "type": "ForInStatement",
-      "start": 2930,
-      "end": 3164,
       "left": {
         "type": "VariableDeclaration",
-        "start": 2935,
-        "end": 2946,
         "kind": "var",
         "declarations": [
           {
             "type": "VariableDeclarator",
-            "start": 2939,
-            "end": 2946,
             "id": {
               "type": "Identifier",
+              "name": "binding",
               "start": 2939,
-              "end": 2946,
-              "name": "binding"
+              "end": 2946
             },
-            "init": null
+            "init": null,
+            "start": 2939,
+            "end": 2946
           }
-        ]
+        ],
+        "start": 2935,
+        "end": 2946
       },
       "right": {
         "type": "ArrayExpression",
-        "start": 2950,
-        "end": 3049,
         "elements": [
           {
             "type": "AwaitExpression",
-            "start": 2951,
-            "end": 3048,
             "argument": {
               "type": "AwaitExpression",
-              "start": 2957,
-              "end": 3048,
               "argument": {
                 "type": "AwaitExpression",
-                "start": 2963,
-                "end": 3048,
                 "argument": {
                   "type": "AwaitExpression",
-                  "start": 2969,
-                  "end": 3048,
                   "argument": {
                     "type": "AwaitExpression",
-                    "start": 2975,
-                    "end": 3048,
                     "argument": {
                       "type": "AwaitExpression",
-                      "start": 2981,
-                      "end": 3048,
                       "argument": {
                         "type": "AwaitExpression",
-                        "start": 2987,
-                        "end": 3048,
                         "argument": {
                           "type": "AwaitExpression",
-                          "start": 2993,
-                          "end": 3048,
                           "argument": {
                             "type": "AwaitExpression",
-                            "start": 2999,
-                            "end": 3048,
                             "argument": {
                               "type": "AwaitExpression",
-                              "start": 3005,
-                              "end": 3048,
                               "argument": {
                                 "type": "AwaitExpression",
-                                "start": 3011,
-                                "end": 3048,
                                 "argument": {
                                   "type": "AwaitExpression",
-                                  "start": 3017,
-                                  "end": 3048,
                                   "argument": {
                                     "type": "AwaitExpression",
-                                    "start": 3023,
-                                    "end": 3048,
                                     "argument": {
                                       "type": "AwaitExpression",
-                                      "start": 3029,
-                                      "end": 3048,
                                       "argument": {
                                         "type": "AwaitExpression",
-                                        "start": 3035,
-                                        "end": 3048,
                                         "argument": {
                                           "type": "Literal",
-                                          "start": 3041,
-                                          "end": 3048,
                                           "value": "await",
-                                          "raw": "'await'"
-                                        }
-                                      }
-                                    }
-                                  }
-                                }
-                              }
-                            }
-                          }
-                        }
-                      }
-                    }
-                  }
-                }
-              }
-            }
+                                          "raw": "'await'",
+                                          "start": 3041,
+                                          "end": 3048
+                                        },
+                                        "start": 3035,
+                                        "end": 3048
+                                      },
+                                      "start": 3029,
+                                      "end": 3048
+                                    },
+                                    "start": 3023,
+                                    "end": 3048
+                                  },
+                                  "start": 3017,
+                                  "end": 3048
+                                },
+                                "start": 3011,
+                                "end": 3048
+                              },
+                              "start": 3005,
+                              "end": 3048
+                            },
+                            "start": 2999,
+                            "end": 3048
+                          },
+                          "start": 2993,
+                          "end": 3048
+                        },
+                        "start": 2987,
+                        "end": 3048
+                      },
+                      "start": 2981,
+                      "end": 3048
+                    },
+                    "start": 2975,
+                    "end": 3048
+                  },
+                  "start": 2969,
+                  "end": 3048
+                },
+                "start": 2963,
+                "end": 3048
+              },
+              "start": 2957,
+              "end": 3048
+            },
+            "start": 2951,
+            "end": 3048
           }
-        ]
+        ],
+        "start": 2950,
+        "end": 3049
       },
       "body": {
         "type": "BlockStatement",
-        "start": 3051,
-        "end": 3164,
         "body": [
           {
             "type": "ExpressionStatement",
-            "start": 3055,
-            "end": 3153,
             "expression": {
               "type": "AwaitExpression",
-              "start": 3055,
-              "end": 3152,
               "argument": {
                 "type": "AwaitExpression",
-                "start": 3061,
-                "end": 3152,
                 "argument": {
                   "type": "AwaitExpression",
-                  "start": 3067,
-                  "end": 3152,
                   "argument": {
                     "type": "AwaitExpression",
-                    "start": 3073,
-                    "end": 3152,
                     "argument": {
                       "type": "AwaitExpression",
-                      "start": 3079,
-                      "end": 3152,
                       "argument": {
                         "type": "AwaitExpression",
-                        "start": 3085,
-                        "end": 3152,
                         "argument": {
                           "type": "AwaitExpression",
-                          "start": 3091,
-                          "end": 3152,
                           "argument": {
                             "type": "AwaitExpression",
-                            "start": 3097,
-                            "end": 3152,
                             "argument": {
                               "type": "AwaitExpression",
-                              "start": 3103,
-                              "end": 3152,
                               "argument": {
                                 "type": "AwaitExpression",
-                                "start": 3109,
-                                "end": 3152,
                                 "argument": {
                                   "type": "AwaitExpression",
-                                  "start": 3115,
-                                  "end": 3152,
                                   "argument": {
                                     "type": "AwaitExpression",
-                                    "start": 3121,
-                                    "end": 3152,
                                     "argument": {
                                       "type": "AwaitExpression",
-                                      "start": 3127,
-                                      "end": 3152,
                                       "argument": {
                                         "type": "AwaitExpression",
-                                        "start": 3133,
-                                        "end": 3152,
                                         "argument": {
                                           "type": "AwaitExpression",
-                                          "start": 3139,
-                                          "end": 3152,
                                           "argument": {
                                             "type": "Literal",
-                                            "start": 3145,
-                                            "end": 3152,
                                             "value": "await",
-                                            "raw": "'await'"
-                                          }
-                                        }
-                                      }
-                                    }
-                                  }
-                                }
-                              }
-                            }
-                          }
-                        }
-                      }
-                    }
-                  }
-                }
-              }
-            }
+                                            "raw": "'await'",
+                                            "start": 3145,
+                                            "end": 3152
+                                          },
+                                          "start": 3139,
+                                          "end": 3152
+                                        },
+                                        "start": 3133,
+                                        "end": 3152
+                                      },
+                                      "start": 3127,
+                                      "end": 3152
+                                    },
+                                    "start": 3121,
+                                    "end": 3152
+                                  },
+                                  "start": 3115,
+                                  "end": 3152
+                                },
+                                "start": 3109,
+                                "end": 3152
+                              },
+                              "start": 3103,
+                              "end": 3152
+                            },
+                            "start": 3097,
+                            "end": 3152
+                          },
+                          "start": 3091,
+                          "end": 3152
+                        },
+                        "start": 3085,
+                        "end": 3152
+                      },
+                      "start": 3079,
+                      "end": 3152
+                    },
+                    "start": 3073,
+                    "end": 3152
+                  },
+                  "start": 3067,
+                  "end": 3152
+                },
+                "start": 3061,
+                "end": 3152
+              },
+              "start": 3055,
+              "end": 3152
+            },
+            "start": 3055,
+            "end": 3153
           },
           {
             "type": "BreakStatement",
+            "label": null,
             "start": 3156,
-            "end": 3162,
-            "label": null
+            "end": 3162
           }
-        ]
-      }
+        ],
+        "start": 3051,
+        "end": 3164
+      },
+      "start": 2930,
+      "end": 3164
     },
     {
       "type": "ForInStatement",
-      "start": 3278,
-      "end": 3512,
       "left": {
         "type": "VariableDeclaration",
-        "start": 3283,
-        "end": 3294,
         "kind": "let",
         "declarations": [
           {
             "type": "VariableDeclarator",
-            "start": 3287,
-            "end": 3294,
             "id": {
               "type": "Identifier",
+              "name": "binding",
               "start": 3287,
-              "end": 3294,
-              "name": "binding"
+              "end": 3294
             },
-            "init": null
+            "init": null,
+            "start": 3287,
+            "end": 3294
           }
-        ]
+        ],
+        "start": 3283,
+        "end": 3294
       },
       "right": {
         "type": "ArrayExpression",
-        "start": 3298,
-        "end": 3397,
         "elements": [
           {
             "type": "AwaitExpression",
-            "start": 3299,
-            "end": 3396,
             "argument": {
               "type": "AwaitExpression",
-              "start": 3305,
-              "end": 3396,
               "argument": {
                 "type": "AwaitExpression",
-                "start": 3311,
-                "end": 3396,
                 "argument": {
                   "type": "AwaitExpression",
-                  "start": 3317,
-                  "end": 3396,
                   "argument": {
                     "type": "AwaitExpression",
-                    "start": 3323,
-                    "end": 3396,
                     "argument": {
                       "type": "AwaitExpression",
-                      "start": 3329,
-                      "end": 3396,
                       "argument": {
                         "type": "AwaitExpression",
-                        "start": 3335,
-                        "end": 3396,
                         "argument": {
                           "type": "AwaitExpression",
-                          "start": 3341,
-                          "end": 3396,
                           "argument": {
                             "type": "AwaitExpression",
-                            "start": 3347,
-                            "end": 3396,
                             "argument": {
                               "type": "AwaitExpression",
-                              "start": 3353,
-                              "end": 3396,
                               "argument": {
                                 "type": "AwaitExpression",
-                                "start": 3359,
-                                "end": 3396,
                                 "argument": {
                                   "type": "AwaitExpression",
-                                  "start": 3365,
-                                  "end": 3396,
                                   "argument": {
                                     "type": "AwaitExpression",
-                                    "start": 3371,
-                                    "end": 3396,
                                     "argument": {
                                       "type": "AwaitExpression",
-                                      "start": 3377,
-                                      "end": 3396,
                                       "argument": {
                                         "type": "AwaitExpression",
-                                        "start": 3383,
-                                        "end": 3396,
                                         "argument": {
                                           "type": "Literal",
-                                          "start": 3389,
-                                          "end": 3396,
                                           "value": "await",
-                                          "raw": "'await'"
-                                        }
-                                      }
-                                    }
-                                  }
-                                }
-                              }
-                            }
-                          }
-                        }
-                      }
-                    }
-                  }
-                }
-              }
-            }
+                                          "raw": "'await'",
+                                          "start": 3389,
+                                          "end": 3396
+                                        },
+                                        "start": 3383,
+                                        "end": 3396
+                                      },
+                                      "start": 3377,
+                                      "end": 3396
+                                    },
+                                    "start": 3371,
+                                    "end": 3396
+                                  },
+                                  "start": 3365,
+                                  "end": 3396
+                                },
+                                "start": 3359,
+                                "end": 3396
+                              },
+                              "start": 3353,
+                              "end": 3396
+                            },
+                            "start": 3347,
+                            "end": 3396
+                          },
+                          "start": 3341,
+                          "end": 3396
+                        },
+                        "start": 3335,
+                        "end": 3396
+                      },
+                      "start": 3329,
+                      "end": 3396
+                    },
+                    "start": 3323,
+                    "end": 3396
+                  },
+                  "start": 3317,
+                  "end": 3396
+                },
+                "start": 3311,
+                "end": 3396
+              },
+              "start": 3305,
+              "end": 3396
+            },
+            "start": 3299,
+            "end": 3396
           }
-        ]
+        ],
+        "start": 3298,
+        "end": 3397
       },
       "body": {
         "type": "BlockStatement",
-        "start": 3399,
-        "end": 3512,
         "body": [
           {
             "type": "ExpressionStatement",
-            "start": 3403,
-            "end": 3501,
             "expression": {
               "type": "AwaitExpression",
-              "start": 3403,
-              "end": 3500,
               "argument": {
                 "type": "AwaitExpression",
-                "start": 3409,
-                "end": 3500,
                 "argument": {
                   "type": "AwaitExpression",
-                  "start": 3415,
-                  "end": 3500,
                   "argument": {
                     "type": "AwaitExpression",
-                    "start": 3421,
-                    "end": 3500,
                     "argument": {
                       "type": "AwaitExpression",
-                      "start": 3427,
-                      "end": 3500,
                       "argument": {
                         "type": "AwaitExpression",
-                        "start": 3433,
-                        "end": 3500,
                         "argument": {
                           "type": "AwaitExpression",
-                          "start": 3439,
-                          "end": 3500,
                           "argument": {
                             "type": "AwaitExpression",
-                            "start": 3445,
-                            "end": 3500,
                             "argument": {
                               "type": "AwaitExpression",
-                              "start": 3451,
-                              "end": 3500,
                               "argument": {
                                 "type": "AwaitExpression",
-                                "start": 3457,
-                                "end": 3500,
                                 "argument": {
                                   "type": "AwaitExpression",
-                                  "start": 3463,
-                                  "end": 3500,
                                   "argument": {
                                     "type": "AwaitExpression",
-                                    "start": 3469,
-                                    "end": 3500,
                                     "argument": {
                                       "type": "AwaitExpression",
-                                      "start": 3475,
-                                      "end": 3500,
                                       "argument": {
                                         "type": "AwaitExpression",
-                                        "start": 3481,
-                                        "end": 3500,
                                         "argument": {
                                           "type": "AwaitExpression",
-                                          "start": 3487,
-                                          "end": 3500,
                                           "argument": {
                                             "type": "Literal",
-                                            "start": 3493,
-                                            "end": 3500,
                                             "value": "await",
-                                            "raw": "'await'"
-                                          }
-                                        }
-                                      }
-                                    }
-                                  }
-                                }
-                              }
-                            }
-                          }
-                        }
-                      }
-                    }
-                  }
-                }
-              }
-            }
+                                            "raw": "'await'",
+                                            "start": 3493,
+                                            "end": 3500
+                                          },
+                                          "start": 3487,
+                                          "end": 3500
+                                        },
+                                        "start": 3481,
+                                        "end": 3500
+                                      },
+                                      "start": 3475,
+                                      "end": 3500
+                                    },
+                                    "start": 3469,
+                                    "end": 3500
+                                  },
+                                  "start": 3463,
+                                  "end": 3500
+                                },
+                                "start": 3457,
+                                "end": 3500
+                              },
+                              "start": 3451,
+                              "end": 3500
+                            },
+                            "start": 3445,
+                            "end": 3500
+                          },
+                          "start": 3439,
+                          "end": 3500
+                        },
+                        "start": 3433,
+                        "end": 3500
+                      },
+                      "start": 3427,
+                      "end": 3500
+                    },
+                    "start": 3421,
+                    "end": 3500
+                  },
+                  "start": 3415,
+                  "end": 3500
+                },
+                "start": 3409,
+                "end": 3500
+              },
+              "start": 3403,
+              "end": 3500
+            },
+            "start": 3403,
+            "end": 3501
           },
           {
             "type": "BreakStatement",
+            "label": null,
             "start": 3504,
-            "end": 3510,
-            "label": null
+            "end": 3510
           }
-        ]
-      }
+        ],
+        "start": 3399,
+        "end": 3512
+      },
+      "start": 3278,
+      "end": 3512
     }
   ],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 3513
 }

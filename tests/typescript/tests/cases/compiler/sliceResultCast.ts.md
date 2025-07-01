@@ -2,39 +2,25 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 93,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 0,
-      "end": 59,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 12,
-          "end": 58,
           "id": {
             "type": "Identifier",
-            "start": 12,
-            "end": 58,
             "decorators": [],
             "name": "x",
             "optional": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
-              "start": 13,
-              "end": 58,
               "typeAnnotation": {
                 "type": "TSUnionType",
-                "start": 15,
-                "end": 58,
                 "types": [
                   {
                     "type": "TSTupleType",
-                    "start": 15,
-                    "end": 31,
                     "elementTypes": [
                       {
                         "type": "TSNumberKeyword",
@@ -46,12 +32,12 @@ __ESTREE_TEST__:PASS:
                         "start": 24,
                         "end": 30
                       }
-                    ]
+                    ],
+                    "start": 15,
+                    "end": 31
                   },
                   {
                     "type": "TSTupleType",
-                    "start": 34,
-                    "end": 58,
                     "elementTypes": [
                       {
                         "type": "TSNumberKeyword",
@@ -68,88 +54,102 @@ __ESTREE_TEST__:PASS:
                         "start": 51,
                         "end": 57
                       }
-                    ]
+                    ],
+                    "start": 34,
+                    "end": 58
                   }
-                ]
-              }
-            }
+                ],
+                "start": 15,
+                "end": 58
+              },
+              "start": 13,
+              "end": 58
+            },
+            "start": 12,
+            "end": 58
           },
           "init": null,
-          "definite": false
+          "definite": false,
+          "start": 12,
+          "end": 58
         }
       ],
-      "declare": true
+      "declare": true,
+      "start": 0,
+      "end": 59
     },
     {
       "type": "ExpressionStatement",
-      "start": 61,
-      "end": 93,
       "expression": {
         "type": "TSAsExpression",
-        "start": 61,
-        "end": 92,
         "expression": {
           "type": "CallExpression",
-          "start": 61,
-          "end": 71,
           "callee": {
             "type": "MemberExpression",
-            "start": 61,
-            "end": 68,
             "object": {
               "type": "Identifier",
-              "start": 61,
-              "end": 62,
               "decorators": [],
               "name": "x",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 61,
+              "end": 62
             },
             "property": {
               "type": "Identifier",
-              "start": 63,
-              "end": 68,
               "decorators": [],
               "name": "slice",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 63,
+              "end": 68
             },
             "optional": false,
-            "computed": false
+            "computed": false,
+            "start": 61,
+            "end": 68
           },
           "typeArguments": null,
           "arguments": [
             {
               "type": "Literal",
-              "start": 69,
-              "end": 70,
               "value": 1,
-              "raw": "1"
+              "raw": "1",
+              "start": 69,
+              "end": 70
             }
           ],
-          "optional": false
+          "optional": false,
+          "start": 61,
+          "end": 71
         },
         "typeAnnotation": {
           "type": "TSTypeOperator",
-          "start": 75,
-          "end": 92,
           "operator": "readonly",
           "typeAnnotation": {
             "type": "TSArrayType",
-            "start": 84,
-            "end": 92,
             "elementType": {
               "type": "TSStringKeyword",
               "start": 84,
               "end": 90
-            }
-          }
-        }
+            },
+            "start": 84,
+            "end": 92
+          },
+          "start": 75,
+          "end": 92
+        },
+        "start": 61,
+        "end": 92
       },
-      "directive": null
+      "directive": null,
+      "start": 61,
+      "end": 93
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 93
 }
 ```

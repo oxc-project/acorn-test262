@@ -2,80 +2,80 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 27,
   "body": [
     {
       "type": "ForOfStatement",
-      "start": 0,
-      "end": 27,
       "await": false,
       "left": {
         "type": "VariableDeclaration",
-        "start": 5,
-        "end": 15,
         "kind": "let",
         "declarations": [
           {
             "type": "VariableDeclarator",
-            "start": 9,
-            "end": 15,
             "id": {
               "type": "ArrayPattern",
-              "start": 9,
-              "end": 15,
               "decorators": [],
               "elements": [
                 {
                   "type": "Identifier",
-                  "start": 10,
-                  "end": 11,
                   "decorators": [],
                   "name": "v",
                   "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "start": 10,
+                  "end": 11
                 },
                 {
                   "type": "Identifier",
-                  "start": 13,
-                  "end": 14,
                   "decorators": [],
                   "name": "v",
                   "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "start": 13,
+                  "end": 14
                 }
               ],
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 9,
+              "end": 15
             },
             "init": null,
-            "definite": false
+            "definite": false,
+            "start": 9,
+            "end": 15
           }
         ],
-        "declare": false
+        "declare": false,
+        "start": 5,
+        "end": 15
       },
       "right": {
         "type": "ArrayExpression",
-        "start": 19,
-        "end": 23,
         "elements": [
           {
             "type": "ArrayExpression",
+            "elements": [],
             "start": 20,
-            "end": 22,
-            "elements": []
+            "end": 22
           }
-        ]
+        ],
+        "start": 19,
+        "end": 23
       },
       "body": {
         "type": "BlockStatement",
+        "body": [],
         "start": 25,
-        "end": 27,
-        "body": []
-      }
+        "end": 27
+      },
+      "start": 0,
+      "end": 27
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 27
 }
 ```

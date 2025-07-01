@@ -1,580 +1,580 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 1658,
   "body": [
     {
       "type": "FunctionDeclaration",
-      "start": 1164,
-      "end": 1179,
       "id": {
         "type": "Identifier",
+        "name": "$",
         "start": 1173,
-        "end": 1174,
-        "name": "$"
+        "end": 1174
       },
       "generator": false,
       "async": false,
       "params": [],
       "body": {
         "type": "BlockStatement",
+        "body": [],
         "start": 1177,
-        "end": 1179,
-        "body": []
+        "end": 1179
       },
-      "expression": false
+      "expression": false,
+      "start": 1164,
+      "end": 1179
     },
     {
       "type": "FunctionDeclaration",
-      "start": 1180,
-      "end": 1195,
       "id": {
         "type": "Identifier",
+        "name": "_",
         "start": 1189,
-        "end": 1190,
-        "name": "_"
+        "end": 1190
       },
       "generator": false,
       "async": false,
       "params": [],
       "body": {
         "type": "BlockStatement",
+        "body": [],
         "start": 1193,
-        "end": 1195,
-        "body": []
+        "end": 1195
       },
-      "expression": false
+      "expression": false,
+      "start": 1180,
+      "end": 1195
     },
     {
       "type": "FunctionDeclaration",
-      "start": 1196,
-      "end": 1216,
       "id": {
         "type": "Identifier",
+        "name": "o",
         "start": 1205,
-        "end": 1211,
-        "name": "o"
+        "end": 1211
       },
       "generator": false,
       "async": false,
       "params": [],
       "body": {
         "type": "BlockStatement",
+        "body": [],
         "start": 1214,
-        "end": 1216,
-        "body": []
+        "end": 1216
       },
-      "expression": false
+      "expression": false,
+      "start": 1196,
+      "end": 1216
     },
     {
       "type": "FunctionDeclaration",
-      "start": 1217,
-      "end": 1237,
       "id": {
         "type": "Identifier",
+        "name": "℘",
         "start": 1226,
-        "end": 1232,
-        "name": "℘"
+        "end": 1232
       },
       "generator": false,
       "async": false,
       "params": [],
       "body": {
         "type": "BlockStatement",
+        "body": [],
         "start": 1235,
-        "end": 1237,
-        "body": []
+        "end": 1237
       },
-      "expression": false
+      "expression": false,
+      "start": 1217,
+      "end": 1237
     },
     {
       "type": "FunctionDeclaration",
-      "start": 1238,
-      "end": 1264,
       "id": {
         "type": "Identifier",
+        "name": "ZW_‌_NJ",
         "start": 1247,
-        "end": 1259,
-        "name": "ZW_‌_NJ"
+        "end": 1259
       },
       "generator": false,
       "async": false,
       "params": [],
       "body": {
         "type": "BlockStatement",
+        "body": [],
         "start": 1262,
-        "end": 1264,
-        "body": []
+        "end": 1264
       },
-      "expression": false
+      "expression": false,
+      "start": 1238,
+      "end": 1264
     },
     {
       "type": "FunctionDeclaration",
-      "start": 1265,
-      "end": 1290,
       "id": {
         "type": "Identifier",
+        "name": "ZW_‍_J",
         "start": 1274,
-        "end": 1285,
-        "name": "ZW_‍_J"
+        "end": 1285
       },
       "generator": false,
       "async": false,
       "params": [],
       "body": {
         "type": "BlockStatement",
+        "body": [],
         "start": 1288,
-        "end": 1290,
-        "body": []
+        "end": 1290
       },
-      "expression": false
+      "expression": false,
+      "start": 1265,
+      "end": 1290
     },
     {
       "type": "FunctionDeclaration",
-      "start": 1291,
-      "end": 1310,
       "id": {
         "type": "Identifier",
+        "name": "await",
         "start": 1300,
-        "end": 1305,
-        "name": "await"
+        "end": 1305
       },
       "generator": false,
       "async": false,
       "params": [],
       "body": {
         "type": "BlockStatement",
+        "body": [],
         "start": 1308,
-        "end": 1310,
-        "body": []
+        "end": 1310
       },
-      "expression": false
+      "expression": false,
+      "start": 1291,
+      "end": 1310
     },
     {
       "type": "ClassDeclaration",
-      "start": 1314,
-      "end": 1657,
       "decorators": [],
       "id": {
         "type": "Identifier",
+        "name": "C",
         "start": 1320,
-        "end": 1321,
-        "name": "C"
+        "end": 1321
       },
       "superClass": null,
       "body": {
         "type": "ClassBody",
-        "start": 1322,
-        "end": 1657,
         "body": [
           {
             "type": "MethodDefinition",
-            "start": 1326,
-            "end": 1405,
             "decorators": [
               {
                 "type": "Decorator",
-                "start": 1326,
-                "end": 1328,
                 "expression": {
                   "type": "Identifier",
+                  "name": "$",
                   "start": 1327,
-                  "end": 1328,
-                  "name": "$"
-                }
+                  "end": 1328
+                },
+                "start": 1326,
+                "end": 1328
               },
               {
                 "type": "Decorator",
-                "start": 1331,
-                "end": 1333,
                 "expression": {
                   "type": "Identifier",
+                  "name": "_",
                   "start": 1332,
-                  "end": 1333,
-                  "name": "_"
-                }
+                  "end": 1333
+                },
+                "start": 1331,
+                "end": 1333
               },
               {
                 "type": "Decorator",
-                "start": 1336,
-                "end": 1343,
                 "expression": {
                   "type": "Identifier",
+                  "name": "o",
                   "start": 1337,
-                  "end": 1343,
-                  "name": "o"
-                }
+                  "end": 1343
+                },
+                "start": 1336,
+                "end": 1343
               },
               {
                 "type": "Decorator",
-                "start": 1346,
-                "end": 1353,
                 "expression": {
                   "type": "Identifier",
+                  "name": "℘",
                   "start": 1347,
-                  "end": 1353,
-                  "name": "℘"
-                }
+                  "end": 1353
+                },
+                "start": 1346,
+                "end": 1353
               },
               {
                 "type": "Decorator",
-                "start": 1356,
-                "end": 1369,
                 "expression": {
                   "type": "Identifier",
+                  "name": "ZW_‌_NJ",
                   "start": 1357,
-                  "end": 1369,
-                  "name": "ZW_‌_NJ"
-                }
+                  "end": 1369
+                },
+                "start": 1356,
+                "end": 1369
               },
               {
                 "type": "Decorator",
-                "start": 1372,
-                "end": 1384,
                 "expression": {
                   "type": "Identifier",
+                  "name": "ZW_‍_J",
                   "start": 1373,
-                  "end": 1384,
-                  "name": "ZW_‍_J"
-                }
+                  "end": 1384
+                },
+                "start": 1372,
+                "end": 1384
               },
               {
                 "type": "Decorator",
-                "start": 1387,
-                "end": 1393,
                 "expression": {
                   "type": "Identifier",
+                  "name": "await",
                   "start": 1388,
-                  "end": 1393,
-                  "name": "await"
-                }
+                  "end": 1393
+                },
+                "start": 1387,
+                "end": 1393
               }
             ],
             "key": {
               "type": "Identifier",
+              "name": "method",
               "start": 1394,
-              "end": 1400,
-              "name": "method"
+              "end": 1400
             },
             "value": {
               "type": "FunctionExpression",
-              "start": 1400,
-              "end": 1405,
               "id": null,
               "generator": false,
               "async": false,
               "params": [],
               "body": {
                 "type": "BlockStatement",
+                "body": [],
                 "start": 1403,
-                "end": 1405,
-                "body": []
+                "end": 1405
               },
-              "expression": false
+              "expression": false,
+              "start": 1400,
+              "end": 1405
             },
             "kind": "method",
             "computed": false,
-            "static": false
+            "static": false,
+            "start": 1326,
+            "end": 1405
           },
           {
             "type": "MethodDefinition",
-            "start": 1408,
-            "end": 1494,
             "decorators": [
               {
                 "type": "Decorator",
-                "start": 1408,
-                "end": 1410,
                 "expression": {
                   "type": "Identifier",
+                  "name": "$",
                   "start": 1409,
-                  "end": 1410,
-                  "name": "$"
-                }
+                  "end": 1410
+                },
+                "start": 1408,
+                "end": 1410
               },
               {
                 "type": "Decorator",
-                "start": 1413,
-                "end": 1415,
                 "expression": {
                   "type": "Identifier",
+                  "name": "_",
                   "start": 1414,
-                  "end": 1415,
-                  "name": "_"
-                }
+                  "end": 1415
+                },
+                "start": 1413,
+                "end": 1415
               },
               {
                 "type": "Decorator",
-                "start": 1418,
-                "end": 1425,
                 "expression": {
                   "type": "Identifier",
+                  "name": "o",
                   "start": 1419,
-                  "end": 1425,
-                  "name": "o"
-                }
+                  "end": 1425
+                },
+                "start": 1418,
+                "end": 1425
               },
               {
                 "type": "Decorator",
-                "start": 1428,
-                "end": 1435,
                 "expression": {
                   "type": "Identifier",
+                  "name": "℘",
                   "start": 1429,
-                  "end": 1435,
-                  "name": "℘"
-                }
+                  "end": 1435
+                },
+                "start": 1428,
+                "end": 1435
               },
               {
                 "type": "Decorator",
-                "start": 1438,
-                "end": 1451,
                 "expression": {
                   "type": "Identifier",
+                  "name": "ZW_‌_NJ",
                   "start": 1439,
-                  "end": 1451,
-                  "name": "ZW_‌_NJ"
-                }
+                  "end": 1451
+                },
+                "start": 1438,
+                "end": 1451
               },
               {
                 "type": "Decorator",
-                "start": 1454,
-                "end": 1466,
                 "expression": {
                   "type": "Identifier",
+                  "name": "ZW_‍_J",
                   "start": 1455,
-                  "end": 1466,
-                  "name": "ZW_‍_J"
-                }
+                  "end": 1466
+                },
+                "start": 1454,
+                "end": 1466
               },
               {
                 "type": "Decorator",
-                "start": 1469,
-                "end": 1475,
                 "expression": {
                   "type": "Identifier",
+                  "name": "await",
                   "start": 1470,
-                  "end": 1475,
-                  "name": "await"
-                }
+                  "end": 1475
+                },
+                "start": 1469,
+                "end": 1475
               }
             ],
             "key": {
               "type": "Identifier",
+              "name": "method",
               "start": 1483,
-              "end": 1489,
-              "name": "method"
+              "end": 1489
             },
             "value": {
               "type": "FunctionExpression",
-              "start": 1489,
-              "end": 1494,
               "id": null,
               "generator": false,
               "async": false,
               "params": [],
               "body": {
                 "type": "BlockStatement",
+                "body": [],
                 "start": 1492,
-                "end": 1494,
-                "body": []
+                "end": 1494
               },
-              "expression": false
+              "expression": false,
+              "start": 1489,
+              "end": 1494
             },
             "kind": "method",
             "computed": false,
-            "static": true
+            "static": true,
+            "start": 1408,
+            "end": 1494
           },
           {
             "type": "PropertyDefinition",
-            "start": 1497,
-            "end": 1571,
             "decorators": [
               {
                 "type": "Decorator",
-                "start": 1497,
-                "end": 1499,
                 "expression": {
                   "type": "Identifier",
+                  "name": "$",
                   "start": 1498,
-                  "end": 1499,
-                  "name": "$"
-                }
+                  "end": 1499
+                },
+                "start": 1497,
+                "end": 1499
               },
               {
                 "type": "Decorator",
-                "start": 1502,
-                "end": 1504,
                 "expression": {
                   "type": "Identifier",
+                  "name": "_",
                   "start": 1503,
-                  "end": 1504,
-                  "name": "_"
-                }
+                  "end": 1504
+                },
+                "start": 1502,
+                "end": 1504
               },
               {
                 "type": "Decorator",
-                "start": 1507,
-                "end": 1514,
                 "expression": {
                   "type": "Identifier",
+                  "name": "o",
                   "start": 1508,
-                  "end": 1514,
-                  "name": "o"
-                }
+                  "end": 1514
+                },
+                "start": 1507,
+                "end": 1514
               },
               {
                 "type": "Decorator",
-                "start": 1517,
-                "end": 1524,
                 "expression": {
                   "type": "Identifier",
+                  "name": "℘",
                   "start": 1518,
-                  "end": 1524,
-                  "name": "℘"
-                }
+                  "end": 1524
+                },
+                "start": 1517,
+                "end": 1524
               },
               {
                 "type": "Decorator",
-                "start": 1527,
-                "end": 1540,
                 "expression": {
                   "type": "Identifier",
+                  "name": "ZW_‌_NJ",
                   "start": 1528,
-                  "end": 1540,
-                  "name": "ZW_‌_NJ"
-                }
+                  "end": 1540
+                },
+                "start": 1527,
+                "end": 1540
               },
               {
                 "type": "Decorator",
-                "start": 1543,
-                "end": 1555,
                 "expression": {
                   "type": "Identifier",
+                  "name": "ZW_‍_J",
                   "start": 1544,
-                  "end": 1555,
-                  "name": "ZW_‍_J"
-                }
+                  "end": 1555
+                },
+                "start": 1543,
+                "end": 1555
               },
               {
                 "type": "Decorator",
-                "start": 1558,
-                "end": 1564,
                 "expression": {
                   "type": "Identifier",
+                  "name": "await",
                   "start": 1559,
-                  "end": 1564,
-                  "name": "await"
-                }
+                  "end": 1564
+                },
+                "start": 1558,
+                "end": 1564
               }
             ],
             "key": {
               "type": "Identifier",
+              "name": "field",
               "start": 1565,
-              "end": 1570,
-              "name": "field"
+              "end": 1570
             },
             "value": null,
             "computed": false,
-            "static": false
+            "static": false,
+            "start": 1497,
+            "end": 1571
           },
           {
             "type": "PropertyDefinition",
-            "start": 1574,
-            "end": 1655,
             "decorators": [
               {
                 "type": "Decorator",
-                "start": 1574,
-                "end": 1576,
                 "expression": {
                   "type": "Identifier",
+                  "name": "$",
                   "start": 1575,
-                  "end": 1576,
-                  "name": "$"
-                }
+                  "end": 1576
+                },
+                "start": 1574,
+                "end": 1576
               },
               {
                 "type": "Decorator",
-                "start": 1579,
-                "end": 1581,
                 "expression": {
                   "type": "Identifier",
+                  "name": "_",
                   "start": 1580,
-                  "end": 1581,
-                  "name": "_"
-                }
+                  "end": 1581
+                },
+                "start": 1579,
+                "end": 1581
               },
               {
                 "type": "Decorator",
-                "start": 1584,
-                "end": 1591,
                 "expression": {
                   "type": "Identifier",
+                  "name": "o",
                   "start": 1585,
-                  "end": 1591,
-                  "name": "o"
-                }
+                  "end": 1591
+                },
+                "start": 1584,
+                "end": 1591
               },
               {
                 "type": "Decorator",
-                "start": 1594,
-                "end": 1601,
                 "expression": {
                   "type": "Identifier",
+                  "name": "℘",
                   "start": 1595,
-                  "end": 1601,
-                  "name": "℘"
-                }
+                  "end": 1601
+                },
+                "start": 1594,
+                "end": 1601
               },
               {
                 "type": "Decorator",
-                "start": 1604,
-                "end": 1617,
                 "expression": {
                   "type": "Identifier",
+                  "name": "ZW_‌_NJ",
                   "start": 1605,
-                  "end": 1617,
-                  "name": "ZW_‌_NJ"
-                }
+                  "end": 1617
+                },
+                "start": 1604,
+                "end": 1617
               },
               {
                 "type": "Decorator",
-                "start": 1620,
-                "end": 1632,
                 "expression": {
                   "type": "Identifier",
+                  "name": "ZW_‍_J",
                   "start": 1621,
-                  "end": 1632,
-                  "name": "ZW_‍_J"
-                }
+                  "end": 1632
+                },
+                "start": 1620,
+                "end": 1632
               },
               {
                 "type": "Decorator",
-                "start": 1635,
-                "end": 1641,
                 "expression": {
                   "type": "Identifier",
+                  "name": "await",
                   "start": 1636,
-                  "end": 1641,
-                  "name": "await"
-                }
+                  "end": 1641
+                },
+                "start": 1635,
+                "end": 1641
               }
             ],
             "key": {
               "type": "Identifier",
+              "name": "field",
               "start": 1649,
-              "end": 1654,
-              "name": "field"
+              "end": 1654
             },
             "value": null,
             "computed": false,
-            "static": true
+            "static": true,
+            "start": 1574,
+            "end": 1655
           }
-        ]
-      }
+        ],
+        "start": 1322,
+        "end": 1657
+      },
+      "start": 1314,
+      "end": 1657
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 1658
 }

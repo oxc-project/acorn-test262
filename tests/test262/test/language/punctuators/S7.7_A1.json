@@ -1,21 +1,13 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 660,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 243,
-      "end": 258,
       "expression": {
         "type": "AssignmentExpression",
-        "start": 243,
-        "end": 257,
         "operator": "=",
         "left": {
           "type": "MemberExpression",
-          "start": 243,
-          "end": 251,
           "object": {
             "type": "ThisExpression",
             "start": 243,
@@ -23,56 +15,58 @@
           },
           "property": {
             "type": "Identifier",
+            "name": "nan",
             "start": 248,
-            "end": 251,
-            "name": "nan"
+            "end": 251
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 243,
+          "end": 251
         },
         "right": {
           "type": "Identifier",
+          "name": "NaN",
           "start": 254,
-          "end": 257,
-          "name": "NaN"
-        }
-      }
+          "end": 257
+        },
+        "start": 243,
+        "end": 257
+      },
+      "start": 243,
+      "end": 258
     },
     {
       "type": "ExpressionStatement",
-      "start": 272,
-      "end": 277,
       "expression": {
         "type": "ParenthesizedExpression",
-        "start": 272,
-        "end": 276,
         "expression": {
           "type": "ObjectExpression",
+          "properties": [],
           "start": 273,
-          "end": 275,
-          "properties": []
-        }
-      }
+          "end": 275
+        },
+        "start": 272,
+        "end": 276
+      },
+      "start": 272,
+      "end": 277
     },
     {
       "type": "ExpressionStatement",
-      "start": 277,
-      "end": 280,
       "expression": {
         "type": "ArrayExpression",
+        "elements": [],
         "start": 277,
-        "end": 279,
-        "elements": []
-      }
+        "end": 279
+      },
+      "start": 277,
+      "end": 280
     },
     {
       "type": "ExpressionStatement",
-      "start": 283,
-      "end": 292,
       "expression": {
         "type": "MemberExpression",
-        "start": 283,
-        "end": 291,
         "object": {
           "type": "ThisExpression",
           "start": 283,
@@ -80,260 +74,258 @@
         },
         "property": {
           "type": "Identifier",
+          "name": "nan",
           "start": 288,
-          "end": 291,
-          "name": "nan"
+          "end": 291
         },
         "optional": false,
-        "computed": false
-      }
+        "computed": false,
+        "start": 283,
+        "end": 291
+      },
+      "start": 283,
+      "end": 292
     },
     {
       "type": "ExpressionStatement",
-      "start": 295,
-      "end": 337,
       "expression": {
         "type": "BinaryExpression",
-        "start": 295,
-        "end": 336,
         "left": {
           "type": "BinaryExpression",
-          "start": 295,
-          "end": 330,
           "left": {
             "type": "BinaryExpression",
-            "start": 295,
-            "end": 324,
             "left": {
               "type": "BinaryExpression",
-              "start": 295,
-              "end": 319,
               "left": {
                 "type": "BinaryExpression",
-                "start": 295,
-                "end": 314,
                 "left": {
                   "type": "BinaryExpression",
-                  "start": 295,
-                  "end": 309,
                   "left": {
                     "type": "BinaryExpression",
-                    "start": 295,
-                    "end": 304,
                     "left": {
                       "type": "BinaryExpression",
-                      "start": 295,
-                      "end": 300,
                       "left": {
                         "type": "Literal",
-                        "start": 295,
-                        "end": 296,
                         "value": 1,
-                        "raw": "1"
+                        "raw": "1",
+                        "start": 295,
+                        "end": 296
                       },
                       "operator": "<",
                       "right": {
                         "type": "Literal",
-                        "start": 299,
-                        "end": 300,
                         "value": 2,
-                        "raw": "2"
-                      }
+                        "raw": "2",
+                        "start": 299,
+                        "end": 300
+                      },
+                      "start": 295,
+                      "end": 300
                     },
                     "operator": ">",
                     "right": {
                       "type": "Literal",
-                      "start": 303,
-                      "end": 304,
                       "value": 3,
-                      "raw": "3"
-                    }
+                      "raw": "3",
+                      "start": 303,
+                      "end": 304
+                    },
+                    "start": 295,
+                    "end": 304
                   },
                   "operator": "<=",
                   "right": {
                     "type": "Literal",
-                    "start": 308,
-                    "end": 309,
                     "value": 4,
-                    "raw": "4"
-                  }
+                    "raw": "4",
+                    "start": 308,
+                    "end": 309
+                  },
+                  "start": 295,
+                  "end": 309
                 },
                 "operator": ">=",
                 "right": {
                   "type": "Literal",
-                  "start": 313,
-                  "end": 314,
                   "value": 5,
-                  "raw": "5"
-                }
+                  "raw": "5",
+                  "start": 313,
+                  "end": 314
+                },
+                "start": 295,
+                "end": 314
               },
               "operator": "==",
               "right": {
                 "type": "Literal",
-                "start": 318,
-                "end": 319,
                 "value": 6,
-                "raw": "6"
-              }
+                "raw": "6",
+                "start": 318,
+                "end": 319
+              },
+              "start": 295,
+              "end": 319
             },
             "operator": "!=",
             "right": {
               "type": "Literal",
-              "start": 323,
-              "end": 324,
               "value": 7,
-              "raw": "7"
-            }
+              "raw": "7",
+              "start": 323,
+              "end": 324
+            },
+            "start": 295,
+            "end": 324
           },
           "operator": "===",
           "right": {
             "type": "Literal",
-            "start": 329,
-            "end": 330,
             "value": 8,
-            "raw": "8"
-          }
+            "raw": "8",
+            "start": 329,
+            "end": 330
+          },
+          "start": 295,
+          "end": 330
         },
         "operator": "!==",
         "right": {
           "type": "Literal",
-          "start": 335,
-          "end": 336,
           "value": 9,
-          "raw": "9"
-        }
-      }
+          "raw": "9",
+          "start": 335,
+          "end": 336
+        },
+        "start": 295,
+        "end": 336
+      },
+      "start": 295,
+      "end": 337
     },
     {
       "type": "ExpressionStatement",
-      "start": 340,
-      "end": 378,
       "expression": {
         "type": "BinaryExpression",
-        "start": 340,
-        "end": 377,
         "left": {
           "type": "BinaryExpression",
-          "start": 340,
-          "end": 371,
           "left": {
             "type": "BinaryExpression",
-            "start": 340,
-            "end": 366,
             "left": {
               "type": "BinaryExpression",
-              "start": 340,
-              "end": 361,
               "left": {
                 "type": "BinaryExpression",
-                "start": 340,
-                "end": 345,
                 "left": {
                   "type": "Literal",
-                  "start": 340,
-                  "end": 341,
                   "value": 1,
-                  "raw": "1"
+                  "raw": "1",
+                  "start": 340,
+                  "end": 341
                 },
                 "operator": "+",
                 "right": {
                   "type": "Literal",
-                  "start": 344,
-                  "end": 345,
                   "value": 2,
-                  "raw": "2"
-                }
+                  "raw": "2",
+                  "start": 344,
+                  "end": 345
+                },
+                "start": 340,
+                "end": 345
               },
               "operator": "-",
               "right": {
                 "type": "BinaryExpression",
-                "start": 348,
-                "end": 361,
                 "left": {
                   "type": "BinaryExpression",
-                  "start": 348,
-                  "end": 357,
                   "left": {
                     "type": "BinaryExpression",
-                    "start": 348,
-                    "end": 353,
                     "left": {
                       "type": "Literal",
-                      "start": 348,
-                      "end": 349,
                       "value": 3,
-                      "raw": "3"
+                      "raw": "3",
+                      "start": 348,
+                      "end": 349
                     },
                     "operator": "*",
                     "right": {
                       "type": "Literal",
-                      "start": 352,
-                      "end": 353,
                       "value": 4,
-                      "raw": "4"
-                    }
+                      "raw": "4",
+                      "start": 352,
+                      "end": 353
+                    },
+                    "start": 348,
+                    "end": 353
                   },
                   "operator": "%",
                   "right": {
                     "type": "Literal",
-                    "start": 356,
-                    "end": 357,
                     "value": 5,
-                    "raw": "5"
-                  }
+                    "raw": "5",
+                    "start": 356,
+                    "end": 357
+                  },
+                  "start": 348,
+                  "end": 357
                 },
                 "operator": "/",
                 "right": {
                   "type": "Literal",
-                  "start": 360,
-                  "end": 361,
                   "value": 6,
-                  "raw": "6"
-                }
-              }
+                  "raw": "6",
+                  "start": 360,
+                  "end": 361
+                },
+                "start": 348,
+                "end": 361
+              },
+              "start": 340,
+              "end": 361
             },
             "operator": "<<",
             "right": {
               "type": "Literal",
-              "start": 365,
-              "end": 366,
               "value": 7,
-              "raw": "7"
-            }
+              "raw": "7",
+              "start": 365,
+              "end": 366
+            },
+            "start": 340,
+            "end": 366
           },
           "operator": ">>",
           "right": {
             "type": "Literal",
-            "start": 370,
-            "end": 371,
             "value": 8,
-            "raw": "8"
-          }
+            "raw": "8",
+            "start": 370,
+            "end": 371
+          },
+          "start": 340,
+          "end": 371
         },
         "operator": ">>>",
         "right": {
           "type": "Literal",
-          "start": 376,
-          "end": 377,
           "value": 9,
-          "raw": "9"
-        }
-      }
+          "raw": "9",
+          "start": 376,
+          "end": 377
+        },
+        "start": 340,
+        "end": 377
+      },
+      "start": 340,
+      "end": 378
     },
     {
       "type": "ExpressionStatement",
-      "start": 381,
-      "end": 392,
       "expression": {
         "type": "UpdateExpression",
-        "start": 381,
-        "end": 391,
         "operator": "++",
         "prefix": false,
         "argument": {
           "type": "MemberExpression",
-          "start": 381,
-          "end": 389,
           "object": {
             "type": "ThisExpression",
             "start": 381,
@@ -341,29 +333,29 @@
           },
           "property": {
             "type": "Identifier",
+            "name": "nan",
             "start": 386,
-            "end": 389,
-            "name": "nan"
+            "end": 389
           },
           "optional": false,
-          "computed": false
-        }
-      }
+          "computed": false,
+          "start": 381,
+          "end": 389
+        },
+        "start": 381,
+        "end": 391
+      },
+      "start": 381,
+      "end": 392
     },
     {
       "type": "ExpressionStatement",
-      "start": 393,
-      "end": 404,
       "expression": {
         "type": "UpdateExpression",
-        "start": 393,
-        "end": 403,
         "operator": "++",
         "prefix": true,
         "argument": {
           "type": "MemberExpression",
-          "start": 395,
-          "end": 403,
           "object": {
             "type": "ThisExpression",
             "start": 395,
@@ -371,29 +363,29 @@
           },
           "property": {
             "type": "Identifier",
+            "name": "nan",
             "start": 400,
-            "end": 403,
-            "name": "nan"
+            "end": 403
           },
           "optional": false,
-          "computed": false
-        }
-      }
+          "computed": false,
+          "start": 395,
+          "end": 403
+        },
+        "start": 393,
+        "end": 403
+      },
+      "start": 393,
+      "end": 404
     },
     {
       "type": "ExpressionStatement",
-      "start": 405,
-      "end": 416,
       "expression": {
         "type": "UpdateExpression",
-        "start": 405,
-        "end": 415,
         "operator": "--",
         "prefix": false,
         "argument": {
           "type": "MemberExpression",
-          "start": 405,
-          "end": 413,
           "object": {
             "type": "ThisExpression",
             "start": 405,
@@ -401,29 +393,29 @@
           },
           "property": {
             "type": "Identifier",
+            "name": "nan",
             "start": 410,
-            "end": 413,
-            "name": "nan"
+            "end": 413
           },
           "optional": false,
-          "computed": false
-        }
-      }
+          "computed": false,
+          "start": 405,
+          "end": 413
+        },
+        "start": 405,
+        "end": 415
+      },
+      "start": 405,
+      "end": 416
     },
     {
       "type": "ExpressionStatement",
-      "start": 417,
-      "end": 428,
       "expression": {
         "type": "UpdateExpression",
-        "start": 417,
-        "end": 427,
         "operator": "--",
         "prefix": true,
         "argument": {
           "type": "MemberExpression",
-          "start": 419,
-          "end": 427,
           "object": {
             "type": "ThisExpression",
             "start": 419,
@@ -431,150 +423,150 @@
           },
           "property": {
             "type": "Identifier",
+            "name": "nan",
             "start": 424,
-            "end": 427,
-            "name": "nan"
+            "end": 427
           },
           "optional": false,
-          "computed": false
-        }
-      }
+          "computed": false,
+          "start": 419,
+          "end": 427
+        },
+        "start": 417,
+        "end": 427
+      },
+      "start": 417,
+      "end": 428
     },
     {
       "type": "ExpressionStatement",
-      "start": 431,
-      "end": 457,
       "expression": {
         "type": "LogicalExpression",
-        "start": 431,
-        "end": 456,
         "left": {
           "type": "LogicalExpression",
-          "start": 431,
-          "end": 450,
           "left": {
             "type": "BinaryExpression",
-            "start": 431,
-            "end": 444,
             "left": {
               "type": "BinaryExpression",
-              "start": 431,
-              "end": 436,
               "left": {
                 "type": "Literal",
-                "start": 431,
-                "end": 432,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "start": 431,
+                "end": 432
               },
               "operator": "&",
               "right": {
                 "type": "Literal",
-                "start": 435,
-                "end": 436,
                 "value": 2,
-                "raw": "2"
-              }
+                "raw": "2",
+                "start": 435,
+                "end": 436
+              },
+              "start": 431,
+              "end": 436
             },
             "operator": "|",
             "right": {
               "type": "BinaryExpression",
-              "start": 439,
-              "end": 444,
               "left": {
                 "type": "Literal",
-                "start": 439,
-                "end": 440,
                 "value": 3,
-                "raw": "3"
+                "raw": "3",
+                "start": 439,
+                "end": 440
               },
               "operator": "^",
               "right": {
                 "type": "Literal",
-                "start": 443,
-                "end": 444,
                 "value": 4,
-                "raw": "4"
-              }
-            }
+                "raw": "4",
+                "start": 443,
+                "end": 444
+              },
+              "start": 439,
+              "end": 444
+            },
+            "start": 431,
+            "end": 444
           },
           "operator": "&&",
           "right": {
             "type": "UnaryExpression",
-            "start": 448,
-            "end": 450,
             "operator": "!",
             "argument": {
               "type": "Literal",
-              "start": 449,
-              "end": 450,
               "value": 5,
-              "raw": "5"
+              "raw": "5",
+              "start": 449,
+              "end": 450
             },
-            "prefix": true
-          }
+            "prefix": true,
+            "start": 448,
+            "end": 450
+          },
+          "start": 431,
+          "end": 450
         },
         "operator": "||",
         "right": {
           "type": "UnaryExpression",
-          "start": 454,
-          "end": 456,
           "operator": "~",
           "argument": {
             "type": "Literal",
-            "start": 455,
-            "end": 456,
             "value": 6,
-            "raw": "6"
+            "raw": "6",
+            "start": 455,
+            "end": 456
           },
-          "prefix": true
-        }
-      }
+          "prefix": true,
+          "start": 454,
+          "end": 456
+        },
+        "start": 431,
+        "end": 456
+      },
+      "start": 431,
+      "end": 457
     },
     {
       "type": "ExpressionStatement",
-      "start": 460,
-      "end": 470,
       "expression": {
         "type": "ConditionalExpression",
-        "start": 460,
-        "end": 469,
         "test": {
           "type": "Literal",
-          "start": 460,
-          "end": 461,
           "value": 1,
-          "raw": "1"
+          "raw": "1",
+          "start": 460,
+          "end": 461
         },
         "consequent": {
           "type": "Literal",
-          "start": 464,
-          "end": 465,
           "value": 2,
-          "raw": "2"
+          "raw": "2",
+          "start": 464,
+          "end": 465
         },
         "alternate": {
           "type": "Literal",
-          "start": 468,
-          "end": 469,
           "value": 3,
-          "raw": "3"
-        }
-      }
+          "raw": "3",
+          "start": 468,
+          "end": 469
+        },
+        "start": 460,
+        "end": 469
+      },
+      "start": 460,
+      "end": 470
     },
     {
       "type": "ExpressionStatement",
-      "start": 473,
-      "end": 486,
       "expression": {
         "type": "AssignmentExpression",
-        "start": 473,
-        "end": 485,
         "operator": "=",
         "left": {
           "type": "MemberExpression",
-          "start": 473,
-          "end": 481,
           "object": {
             "type": "ThisExpression",
             "start": 473,
@@ -582,35 +574,35 @@
           },
           "property": {
             "type": "Identifier",
+            "name": "nan",
             "start": 478,
-            "end": 481,
-            "name": "nan"
+            "end": 481
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 473,
+          "end": 481
         },
         "right": {
           "type": "Literal",
-          "start": 484,
-          "end": 485,
           "value": 1,
-          "raw": "1"
-        }
-      }
+          "raw": "1",
+          "start": 484,
+          "end": 485
+        },
+        "start": 473,
+        "end": 485
+      },
+      "start": 473,
+      "end": 486
     },
     {
       "type": "ExpressionStatement",
-      "start": 487,
-      "end": 501,
       "expression": {
         "type": "AssignmentExpression",
-        "start": 487,
-        "end": 500,
         "operator": "+=",
         "left": {
           "type": "MemberExpression",
-          "start": 487,
-          "end": 495,
           "object": {
             "type": "ThisExpression",
             "start": 487,
@@ -618,35 +610,35 @@
           },
           "property": {
             "type": "Identifier",
+            "name": "nan",
             "start": 492,
-            "end": 495,
-            "name": "nan"
+            "end": 495
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 487,
+          "end": 495
         },
         "right": {
           "type": "Literal",
-          "start": 499,
-          "end": 500,
           "value": 2,
-          "raw": "2"
-        }
-      }
+          "raw": "2",
+          "start": 499,
+          "end": 500
+        },
+        "start": 487,
+        "end": 500
+      },
+      "start": 487,
+      "end": 501
     },
     {
       "type": "ExpressionStatement",
-      "start": 502,
-      "end": 516,
       "expression": {
         "type": "AssignmentExpression",
-        "start": 502,
-        "end": 515,
         "operator": "-=",
         "left": {
           "type": "MemberExpression",
-          "start": 502,
-          "end": 510,
           "object": {
             "type": "ThisExpression",
             "start": 502,
@@ -654,35 +646,35 @@
           },
           "property": {
             "type": "Identifier",
+            "name": "nan",
             "start": 507,
-            "end": 510,
-            "name": "nan"
+            "end": 510
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 502,
+          "end": 510
         },
         "right": {
           "type": "Literal",
-          "start": 514,
-          "end": 515,
           "value": 3,
-          "raw": "3"
-        }
-      }
+          "raw": "3",
+          "start": 514,
+          "end": 515
+        },
+        "start": 502,
+        "end": 515
+      },
+      "start": 502,
+      "end": 516
     },
     {
       "type": "ExpressionStatement",
-      "start": 517,
-      "end": 531,
       "expression": {
         "type": "AssignmentExpression",
-        "start": 517,
-        "end": 530,
         "operator": "*=",
         "left": {
           "type": "MemberExpression",
-          "start": 517,
-          "end": 525,
           "object": {
             "type": "ThisExpression",
             "start": 517,
@@ -690,35 +682,35 @@
           },
           "property": {
             "type": "Identifier",
+            "name": "nan",
             "start": 522,
-            "end": 525,
-            "name": "nan"
+            "end": 525
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 517,
+          "end": 525
         },
         "right": {
           "type": "Literal",
-          "start": 529,
-          "end": 530,
           "value": 4,
-          "raw": "4"
-        }
-      }
+          "raw": "4",
+          "start": 529,
+          "end": 530
+        },
+        "start": 517,
+        "end": 530
+      },
+      "start": 517,
+      "end": 531
     },
     {
       "type": "ExpressionStatement",
-      "start": 532,
-      "end": 546,
       "expression": {
         "type": "AssignmentExpression",
-        "start": 532,
-        "end": 545,
         "operator": "/=",
         "left": {
           "type": "MemberExpression",
-          "start": 532,
-          "end": 540,
           "object": {
             "type": "ThisExpression",
             "start": 532,
@@ -726,35 +718,35 @@
           },
           "property": {
             "type": "Identifier",
+            "name": "nan",
             "start": 537,
-            "end": 540,
-            "name": "nan"
+            "end": 540
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 532,
+          "end": 540
         },
         "right": {
           "type": "Literal",
-          "start": 544,
-          "end": 545,
           "value": 5,
-          "raw": "5"
-        }
-      }
+          "raw": "5",
+          "start": 544,
+          "end": 545
+        },
+        "start": 532,
+        "end": 545
+      },
+      "start": 532,
+      "end": 546
     },
     {
       "type": "ExpressionStatement",
-      "start": 549,
-      "end": 563,
       "expression": {
         "type": "AssignmentExpression",
-        "start": 549,
-        "end": 562,
         "operator": "%=",
         "left": {
           "type": "MemberExpression",
-          "start": 549,
-          "end": 557,
           "object": {
             "type": "ThisExpression",
             "start": 549,
@@ -762,35 +754,35 @@
           },
           "property": {
             "type": "Identifier",
+            "name": "nan",
             "start": 554,
-            "end": 557,
-            "name": "nan"
+            "end": 557
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 549,
+          "end": 557
         },
         "right": {
           "type": "Literal",
-          "start": 561,
-          "end": 562,
           "value": 6,
-          "raw": "6"
-        }
-      }
+          "raw": "6",
+          "start": 561,
+          "end": 562
+        },
+        "start": 549,
+        "end": 562
+      },
+      "start": 549,
+      "end": 563
     },
     {
       "type": "ExpressionStatement",
-      "start": 564,
-      "end": 579,
       "expression": {
         "type": "AssignmentExpression",
-        "start": 564,
-        "end": 578,
         "operator": "<<=",
         "left": {
           "type": "MemberExpression",
-          "start": 564,
-          "end": 572,
           "object": {
             "type": "ThisExpression",
             "start": 564,
@@ -798,35 +790,35 @@
           },
           "property": {
             "type": "Identifier",
+            "name": "nan",
             "start": 569,
-            "end": 572,
-            "name": "nan"
+            "end": 572
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 564,
+          "end": 572
         },
         "right": {
           "type": "Literal",
-          "start": 577,
-          "end": 578,
           "value": 7,
-          "raw": "7"
-        }
-      }
+          "raw": "7",
+          "start": 577,
+          "end": 578
+        },
+        "start": 564,
+        "end": 578
+      },
+      "start": 564,
+      "end": 579
     },
     {
       "type": "ExpressionStatement",
-      "start": 580,
-      "end": 595,
       "expression": {
         "type": "AssignmentExpression",
-        "start": 580,
-        "end": 594,
         "operator": ">>=",
         "left": {
           "type": "MemberExpression",
-          "start": 580,
-          "end": 588,
           "object": {
             "type": "ThisExpression",
             "start": 580,
@@ -834,35 +826,35 @@
           },
           "property": {
             "type": "Identifier",
+            "name": "nan",
             "start": 585,
-            "end": 588,
-            "name": "nan"
+            "end": 588
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 580,
+          "end": 588
         },
         "right": {
           "type": "Literal",
-          "start": 593,
-          "end": 594,
           "value": 8,
-          "raw": "8"
-        }
-      }
+          "raw": "8",
+          "start": 593,
+          "end": 594
+        },
+        "start": 580,
+        "end": 594
+      },
+      "start": 580,
+      "end": 595
     },
     {
       "type": "ExpressionStatement",
-      "start": 596,
-      "end": 612,
       "expression": {
         "type": "AssignmentExpression",
-        "start": 596,
-        "end": 611,
         "operator": ">>>=",
         "left": {
           "type": "MemberExpression",
-          "start": 596,
-          "end": 604,
           "object": {
             "type": "ThisExpression",
             "start": 596,
@@ -870,35 +862,35 @@
           },
           "property": {
             "type": "Identifier",
+            "name": "nan",
             "start": 601,
-            "end": 604,
-            "name": "nan"
+            "end": 604
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 596,
+          "end": 604
         },
         "right": {
           "type": "Literal",
-          "start": 610,
-          "end": 611,
           "value": 9,
-          "raw": "9"
-        }
-      }
+          "raw": "9",
+          "start": 610,
+          "end": 611
+        },
+        "start": 596,
+        "end": 611
+      },
+      "start": 596,
+      "end": 612
     },
     {
       "type": "ExpressionStatement",
-      "start": 615,
-      "end": 629,
       "expression": {
         "type": "AssignmentExpression",
-        "start": 615,
-        "end": 628,
         "operator": "&=",
         "left": {
           "type": "MemberExpression",
-          "start": 615,
-          "end": 623,
           "object": {
             "type": "ThisExpression",
             "start": 615,
@@ -906,35 +898,35 @@
           },
           "property": {
             "type": "Identifier",
+            "name": "nan",
             "start": 620,
-            "end": 623,
-            "name": "nan"
+            "end": 623
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 615,
+          "end": 623
         },
         "right": {
           "type": "Literal",
-          "start": 627,
-          "end": 628,
           "value": 1,
-          "raw": "1"
-        }
-      }
+          "raw": "1",
+          "start": 627,
+          "end": 628
+        },
+        "start": 615,
+        "end": 628
+      },
+      "start": 615,
+      "end": 629
     },
     {
       "type": "ExpressionStatement",
-      "start": 630,
-      "end": 644,
       "expression": {
         "type": "AssignmentExpression",
-        "start": 630,
-        "end": 643,
         "operator": "|=",
         "left": {
           "type": "MemberExpression",
-          "start": 630,
-          "end": 638,
           "object": {
             "type": "ThisExpression",
             "start": 630,
@@ -942,35 +934,35 @@
           },
           "property": {
             "type": "Identifier",
+            "name": "nan",
             "start": 635,
-            "end": 638,
-            "name": "nan"
+            "end": 638
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 630,
+          "end": 638
         },
         "right": {
           "type": "Literal",
-          "start": 642,
-          "end": 643,
           "value": 2,
-          "raw": "2"
-        }
-      }
+          "raw": "2",
+          "start": 642,
+          "end": 643
+        },
+        "start": 630,
+        "end": 643
+      },
+      "start": 630,
+      "end": 644
     },
     {
       "type": "ExpressionStatement",
-      "start": 645,
-      "end": 659,
       "expression": {
         "type": "AssignmentExpression",
-        "start": 645,
-        "end": 658,
         "operator": "^=",
         "left": {
           "type": "MemberExpression",
-          "start": 645,
-          "end": 653,
           "object": {
             "type": "ThisExpression",
             "start": 645,
@@ -978,23 +970,31 @@
           },
           "property": {
             "type": "Identifier",
+            "name": "nan",
             "start": 650,
-            "end": 653,
-            "name": "nan"
+            "end": 653
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 645,
+          "end": 653
         },
         "right": {
           "type": "Literal",
-          "start": 657,
-          "end": 658,
           "value": 3,
-          "raw": "3"
-        }
-      }
+          "raw": "3",
+          "start": 657,
+          "end": 658
+        },
+        "start": 645,
+        "end": 658
+      },
+      "start": 645,
+      "end": 659
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 660
 }

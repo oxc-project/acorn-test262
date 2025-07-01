@@ -1,212 +1,212 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 600,
   "body": [
     {
       "type": "IfStatement",
-      "start": 274,
-      "end": 363,
       "test": {
         "type": "BinaryExpression",
-        "start": 278,
-        "end": 298,
         "left": {
           "type": "Literal",
-          "start": 278,
-          "end": 280,
           "value": "",
-          "raw": "\"\""
+          "raw": "\"\"",
+          "start": 278,
+          "end": 280
         },
         "operator": "instanceof",
         "right": {
           "type": "Identifier",
+          "name": "String",
           "start": 292,
-          "end": 298,
-          "name": "String"
-        }
+          "end": 298
+        },
+        "start": 278,
+        "end": 298
       },
       "consequent": {
         "type": "BlockStatement",
-        "start": 300,
-        "end": 363,
         "body": [
           {
             "type": "ThrowStatement",
-            "start": 303,
-            "end": 361,
             "argument": {
               "type": "NewExpression",
-              "start": 309,
-              "end": 360,
               "callee": {
                 "type": "Identifier",
+                "name": "Test262Error",
                 "start": 313,
-                "end": 325,
-                "name": "Test262Error"
+                "end": 325
               },
               "arguments": [
                 {
                   "type": "Literal",
-                  "start": 326,
-                  "end": 359,
                   "value": "#1: \"\" is not instanceof String",
-                  "raw": "'#1: \"\" is not instanceof String'"
+                  "raw": "'#1: \"\" is not instanceof String'",
+                  "start": 326,
+                  "end": 359
                 }
-              ]
-            }
+              ],
+              "start": 309,
+              "end": 360
+            },
+            "start": 303,
+            "end": 361
           }
-        ]
+        ],
+        "start": 300,
+        "end": 363
       },
-      "alternate": null
+      "alternate": null,
+      "start": 274,
+      "end": 363
     },
     {
       "type": "IfStatement",
-      "start": 375,
-      "end": 480,
       "test": {
         "type": "BinaryExpression",
-        "start": 379,
-        "end": 407,
         "left": {
           "type": "CallExpression",
-          "start": 379,
-          "end": 389,
           "callee": {
             "type": "Identifier",
+            "name": "String",
             "start": 379,
-            "end": 385,
-            "name": "String"
+            "end": 385
           },
           "arguments": [
             {
               "type": "Literal",
-              "start": 386,
-              "end": 388,
               "value": "",
-              "raw": "\"\""
+              "raw": "\"\"",
+              "start": 386,
+              "end": 388
             }
           ],
-          "optional": false
+          "optional": false,
+          "start": 379,
+          "end": 389
         },
         "operator": "instanceof",
         "right": {
           "type": "Identifier",
+          "name": "String",
           "start": 401,
-          "end": 407,
-          "name": "String"
-        }
+          "end": 407
+        },
+        "start": 379,
+        "end": 407
       },
       "consequent": {
         "type": "BlockStatement",
-        "start": 409,
-        "end": 480,
         "body": [
           {
             "type": "ThrowStatement",
-            "start": 412,
-            "end": 478,
             "argument": {
               "type": "NewExpression",
-              "start": 418,
-              "end": 477,
               "callee": {
                 "type": "Identifier",
+                "name": "Test262Error",
                 "start": 422,
-                "end": 434,
-                "name": "Test262Error"
+                "end": 434
               },
               "arguments": [
                 {
                   "type": "Literal",
-                  "start": 435,
-                  "end": 476,
                   "value": "#2: String(\"\") is not instanceof String",
-                  "raw": "'#2: String(\"\") is not instanceof String'"
+                  "raw": "'#2: String(\"\") is not instanceof String'",
+                  "start": 435,
+                  "end": 476
                 }
-              ]
-            }
+              ],
+              "start": 418,
+              "end": 477
+            },
+            "start": 412,
+            "end": 478
           }
-        ]
+        ],
+        "start": 409,
+        "end": 480
       },
-      "alternate": null
+      "alternate": null,
+      "start": 375,
+      "end": 480
     },
     {
       "type": "IfStatement",
-      "start": 492,
-      "end": 599,
       "test": {
         "type": "BinaryExpression",
-        "start": 496,
-        "end": 533,
         "left": {
           "type": "BinaryExpression",
-          "start": 496,
-          "end": 524,
           "left": {
             "type": "NewExpression",
-            "start": 496,
-            "end": 506,
             "callee": {
               "type": "Identifier",
+              "name": "String",
               "start": 500,
-              "end": 506,
-              "name": "String"
+              "end": 506
             },
-            "arguments": []
+            "arguments": [],
+            "start": 496,
+            "end": 506
           },
           "operator": "instanceof",
           "right": {
             "type": "Identifier",
+            "name": "String",
             "start": 518,
-            "end": 524,
-            "name": "String"
-          }
+            "end": 524
+          },
+          "start": 496,
+          "end": 524
         },
         "operator": "!==",
         "right": {
           "type": "Literal",
-          "start": 529,
-          "end": 533,
           "value": true,
-          "raw": "true"
-        }
+          "raw": "true",
+          "start": 529,
+          "end": 533
+        },
+        "start": 496,
+        "end": 533
       },
       "consequent": {
         "type": "BlockStatement",
-        "start": 535,
-        "end": 599,
         "body": [
           {
             "type": "ThrowStatement",
-            "start": 538,
-            "end": 597,
             "argument": {
               "type": "NewExpression",
-              "start": 544,
-              "end": 596,
               "callee": {
                 "type": "Identifier",
+                "name": "Test262Error",
                 "start": 548,
-                "end": 560,
-                "name": "Test262Error"
+                "end": 560
               },
               "arguments": [
                 {
                   "type": "Literal",
-                  "start": 561,
-                  "end": 595,
                   "value": "#3: new String instanceof String",
-                  "raw": "'#3: new String instanceof String'"
+                  "raw": "'#3: new String instanceof String'",
+                  "start": 561,
+                  "end": 595
                 }
-              ]
-            }
+              ],
+              "start": 544,
+              "end": 596
+            },
+            "start": 538,
+            "end": 597
           }
-        ]
+        ],
+        "start": 535,
+        "end": 599
       },
-      "alternate": null
+      "alternate": null,
+      "start": 492,
+      "end": 599
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 600
 }

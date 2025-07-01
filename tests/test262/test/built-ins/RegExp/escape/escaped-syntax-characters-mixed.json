@@ -1,1209 +1,1209 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 2249,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 413,
-      "end": 521,
       "expression": {
         "type": "CallExpression",
-        "start": 413,
-        "end": 520,
         "callee": {
           "type": "MemberExpression",
-          "start": 413,
-          "end": 429,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 413,
-            "end": 419,
-            "name": "assert"
+            "end": 419
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 420,
-            "end": 429,
-            "name": "sameValue"
+            "end": 429
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 413,
+          "end": 429
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 430,
-            "end": 451,
             "callee": {
               "type": "MemberExpression",
-              "start": 430,
-              "end": 443,
               "object": {
                 "type": "Identifier",
+                "name": "RegExp",
                 "start": 430,
-                "end": 436,
-                "name": "RegExp"
+                "end": 436
               },
               "property": {
                 "type": "Identifier",
+                "name": "escape",
                 "start": 437,
-                "end": 443,
-                "name": "escape"
+                "end": 443
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 430,
+              "end": 443
             },
             "arguments": [
               {
                 "type": "Literal",
-                "start": 444,
-                "end": 450,
                 "value": ".a.b",
-                "raw": "'.a.b'"
+                "raw": "'.a.b'",
+                "start": 444,
+                "end": 450
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 430,
+            "end": 451
           },
           {
             "type": "Literal",
-            "start": 453,
-            "end": 463,
             "value": "\\.a\\.b",
-            "raw": "'\\\\.a\\\\.b'"
+            "raw": "'\\\\.a\\\\.b'",
+            "start": 453,
+            "end": 463
           },
           {
             "type": "Literal",
-            "start": 465,
-            "end": 519,
             "value": "mixed string with dot character is escaped correctly",
-            "raw": "'mixed string with dot character is escaped correctly'"
+            "raw": "'mixed string with dot character is escaped correctly'",
+            "start": 465,
+            "end": 519
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 413,
+        "end": 520
+      },
+      "start": 413,
+      "end": 521
     },
     {
       "type": "ExpressionStatement",
-      "start": 522,
-      "end": 631,
       "expression": {
         "type": "CallExpression",
-        "start": 522,
-        "end": 630,
         "callee": {
           "type": "MemberExpression",
-          "start": 522,
-          "end": 538,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 522,
-            "end": 528,
-            "name": "assert"
+            "end": 528
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 529,
-            "end": 538,
-            "name": "sameValue"
+            "end": 538
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 522,
+          "end": 538
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 539,
-            "end": 560,
             "callee": {
               "type": "MemberExpression",
-              "start": 539,
-              "end": 552,
               "object": {
                 "type": "Identifier",
+                "name": "RegExp",
                 "start": 539,
-                "end": 545,
-                "name": "RegExp"
+                "end": 545
               },
               "property": {
                 "type": "Identifier",
+                "name": "escape",
                 "start": 546,
-                "end": 552,
-                "name": "escape"
+                "end": 552
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 539,
+              "end": 552
             },
             "arguments": [
               {
                 "type": "Literal",
-                "start": 553,
-                "end": 559,
                 "value": ".1+2",
-                "raw": "'.1+2'"
+                "raw": "'.1+2'",
+                "start": 553,
+                "end": 559
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 539,
+            "end": 560
           },
           {
             "type": "Literal",
-            "start": 562,
-            "end": 572,
             "value": "\\.1\\+2",
-            "raw": "'\\\\.1\\\\+2'"
+            "raw": "'\\\\.1\\\\+2'",
+            "start": 562,
+            "end": 572
           },
           {
             "type": "Literal",
-            "start": 574,
-            "end": 629,
             "value": "mixed string with plus character is escaped correctly",
-            "raw": "'mixed string with plus character is escaped correctly'"
+            "raw": "'mixed string with plus character is escaped correctly'",
+            "start": 574,
+            "end": 629
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 522,
+        "end": 630
+      },
+      "start": 522,
+      "end": 631
     },
     {
       "type": "ExpressionStatement",
-      "start": 632,
-      "end": 744,
       "expression": {
         "type": "CallExpression",
-        "start": 632,
-        "end": 743,
         "callee": {
           "type": "MemberExpression",
-          "start": 632,
-          "end": 648,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 632,
-            "end": 638,
-            "name": "assert"
+            "end": 638
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 639,
-            "end": 648,
-            "name": "sameValue"
+            "end": 648
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 632,
+          "end": 648
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 649,
-            "end": 672,
             "callee": {
               "type": "MemberExpression",
-              "start": 649,
-              "end": 662,
               "object": {
                 "type": "Identifier",
+                "name": "RegExp",
                 "start": 649,
-                "end": 655,
-                "name": "RegExp"
+                "end": 655
               },
               "property": {
                 "type": "Identifier",
+                "name": "escape",
                 "start": 656,
-                "end": 662,
-                "name": "escape"
+                "end": 662
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 649,
+              "end": 662
             },
             "arguments": [
               {
                 "type": "Literal",
-                "start": 663,
-                "end": 671,
                 "value": ".a(b)c",
-                "raw": "'.a(b)c'"
+                "raw": "'.a(b)c'",
+                "start": 663,
+                "end": 671
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 649,
+            "end": 672
           },
           {
             "type": "Literal",
-            "start": 674,
-            "end": 688,
             "value": "\\.a\\(b\\)c",
-            "raw": "'\\\\.a\\\\(b\\\\)c'"
+            "raw": "'\\\\.a\\\\(b\\\\)c'",
+            "start": 674,
+            "end": 688
           },
           {
             "type": "Literal",
-            "start": 690,
-            "end": 742,
             "value": "mixed string with parentheses is escaped correctly",
-            "raw": "'mixed string with parentheses is escaped correctly'"
+            "raw": "'mixed string with parentheses is escaped correctly'",
+            "start": 690,
+            "end": 742
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 632,
+        "end": 743
+      },
+      "start": 632,
+      "end": 744
     },
     {
       "type": "ExpressionStatement",
-      "start": 745,
-      "end": 874,
       "expression": {
         "type": "CallExpression",
-        "start": 745,
-        "end": 873,
         "callee": {
           "type": "MemberExpression",
-          "start": 745,
-          "end": 761,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 745,
-            "end": 751,
-            "name": "assert"
+            "end": 751
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 752,
-            "end": 761,
-            "name": "sameValue"
+            "end": 761
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 745,
+          "end": 761
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 762,
-            "end": 785,
             "callee": {
               "type": "MemberExpression",
-              "start": 762,
-              "end": 775,
               "object": {
                 "type": "Identifier",
+                "name": "RegExp",
                 "start": 762,
-                "end": 768,
-                "name": "RegExp"
+                "end": 768
               },
               "property": {
                 "type": "Identifier",
+                "name": "escape",
                 "start": 769,
-                "end": 775,
-                "name": "escape"
+                "end": 775
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 762,
+              "end": 775
             },
             "arguments": [
               {
                 "type": "Literal",
-                "start": 776,
-                "end": 784,
                 "value": ".a*b+c",
-                "raw": "'.a*b+c'"
+                "raw": "'.a*b+c'",
+                "start": 776,
+                "end": 784
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 762,
+            "end": 785
           },
           {
             "type": "Literal",
-            "start": 787,
-            "end": 801,
             "value": "\\.a\\*b\\+c",
-            "raw": "'\\\\.a\\\\*b\\\\+c'"
+            "raw": "'\\\\.a\\\\*b\\\\+c'",
+            "start": 787,
+            "end": 801
           },
           {
             "type": "Literal",
-            "start": 803,
-            "end": 872,
             "value": "mixed string with asterisk and plus characters is escaped correctly",
-            "raw": "'mixed string with asterisk and plus characters is escaped correctly'"
+            "raw": "'mixed string with asterisk and plus characters is escaped correctly'",
+            "start": 803,
+            "end": 872
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 745,
+        "end": 873
+      },
+      "start": 745,
+      "end": 874
     },
     {
       "type": "ExpressionStatement",
-      "start": 875,
-      "end": 1010,
       "expression": {
         "type": "CallExpression",
-        "start": 875,
-        "end": 1009,
         "callee": {
           "type": "MemberExpression",
-          "start": 875,
-          "end": 891,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 875,
-            "end": 881,
-            "name": "assert"
+            "end": 881
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 882,
-            "end": 891,
-            "name": "sameValue"
+            "end": 891
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 875,
+          "end": 891
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 892,
-            "end": 915,
             "callee": {
               "type": "MemberExpression",
-              "start": 892,
-              "end": 905,
               "object": {
                 "type": "Identifier",
+                "name": "RegExp",
                 "start": 892,
-                "end": 898,
-                "name": "RegExp"
+                "end": 898
               },
               "property": {
                 "type": "Identifier",
+                "name": "escape",
                 "start": 899,
-                "end": 905,
-                "name": "escape"
+                "end": 905
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 892,
+              "end": 905
             },
             "arguments": [
               {
                 "type": "Literal",
-                "start": 906,
-                "end": 914,
                 "value": ".a?b^c",
-                "raw": "'.a?b^c'"
+                "raw": "'.a?b^c'",
+                "start": 906,
+                "end": 914
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 892,
+            "end": 915
           },
           {
             "type": "Literal",
-            "start": 917,
-            "end": 931,
             "value": "\\.a\\?b\\^c",
-            "raw": "'\\\\.a\\\\?b\\\\^c'"
+            "raw": "'\\\\.a\\\\?b\\\\^c'",
+            "start": 917,
+            "end": 931
           },
           {
             "type": "Literal",
-            "start": 933,
-            "end": 1008,
             "value": "mixed string with question mark and caret characters is escaped correctly",
-            "raw": "'mixed string with question mark and caret characters is escaped correctly'"
+            "raw": "'mixed string with question mark and caret characters is escaped correctly'",
+            "start": 933,
+            "end": 1008
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 875,
+        "end": 1009
+      },
+      "start": 875,
+      "end": 1010
     },
     {
       "type": "ExpressionStatement",
-      "start": 1011,
-      "end": 1122,
       "expression": {
         "type": "CallExpression",
-        "start": 1011,
-        "end": 1121,
         "callee": {
           "type": "MemberExpression",
-          "start": 1011,
-          "end": 1027,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 1011,
-            "end": 1017,
-            "name": "assert"
+            "end": 1017
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 1018,
-            "end": 1027,
-            "name": "sameValue"
+            "end": 1027
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 1011,
+          "end": 1027
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 1028,
-            "end": 1050,
             "callee": {
               "type": "MemberExpression",
-              "start": 1028,
-              "end": 1041,
               "object": {
                 "type": "Identifier",
+                "name": "RegExp",
                 "start": 1028,
-                "end": 1034,
-                "name": "RegExp"
+                "end": 1034
               },
               "property": {
                 "type": "Identifier",
+                "name": "escape",
                 "start": 1035,
-                "end": 1041,
-                "name": "escape"
+                "end": 1041
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 1028,
+              "end": 1041
             },
             "arguments": [
               {
                 "type": "Literal",
-                "start": 1042,
-                "end": 1049,
                 "value": ".a{2}",
-                "raw": "'.a{2}'"
+                "raw": "'.a{2}'",
+                "start": 1042,
+                "end": 1049
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 1028,
+            "end": 1050
           },
           {
             "type": "Literal",
-            "start": 1052,
-            "end": 1065,
             "value": "\\.a\\{2\\}",
-            "raw": "'\\\\.a\\\\{2\\\\}'"
+            "raw": "'\\\\.a\\\\{2\\\\}'",
+            "start": 1052,
+            "end": 1065
           },
           {
             "type": "Literal",
-            "start": 1067,
-            "end": 1120,
             "value": "mixed string with curly braces is escaped correctly",
-            "raw": "'mixed string with curly braces is escaped correctly'"
+            "raw": "'mixed string with curly braces is escaped correctly'",
+            "start": 1067,
+            "end": 1120
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 1011,
+        "end": 1121
+      },
+      "start": 1011,
+      "end": 1122
     },
     {
       "type": "ExpressionStatement",
-      "start": 1123,
-      "end": 1232,
       "expression": {
         "type": "CallExpression",
-        "start": 1123,
-        "end": 1231,
         "callee": {
           "type": "MemberExpression",
-          "start": 1123,
-          "end": 1139,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 1123,
-            "end": 1129,
-            "name": "assert"
+            "end": 1129
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 1130,
-            "end": 1139,
-            "name": "sameValue"
+            "end": 1139
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 1123,
+          "end": 1139
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 1140,
-            "end": 1161,
             "callee": {
               "type": "MemberExpression",
-              "start": 1140,
-              "end": 1153,
               "object": {
                 "type": "Identifier",
+                "name": "RegExp",
                 "start": 1140,
-                "end": 1146,
-                "name": "RegExp"
+                "end": 1146
               },
               "property": {
                 "type": "Identifier",
+                "name": "escape",
                 "start": 1147,
-                "end": 1153,
-                "name": "escape"
+                "end": 1153
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 1140,
+              "end": 1153
             },
             "arguments": [
               {
                 "type": "Literal",
-                "start": 1154,
-                "end": 1160,
                 "value": ".a|b",
-                "raw": "'.a|b'"
+                "raw": "'.a|b'",
+                "start": 1154,
+                "end": 1160
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 1140,
+            "end": 1161
           },
           {
             "type": "Literal",
-            "start": 1163,
-            "end": 1173,
             "value": "\\.a\\|b",
-            "raw": "'\\\\.a\\\\|b'"
+            "raw": "'\\\\.a\\\\|b'",
+            "start": 1163,
+            "end": 1173
           },
           {
             "type": "Literal",
-            "start": 1175,
-            "end": 1230,
             "value": "mixed string with pipe character is escaped correctly",
-            "raw": "'mixed string with pipe character is escaped correctly'"
+            "raw": "'mixed string with pipe character is escaped correctly'",
+            "start": 1175,
+            "end": 1230
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 1123,
+        "end": 1231
+      },
+      "start": 1123,
+      "end": 1232
     },
     {
       "type": "ExpressionStatement",
-      "start": 1233,
-      "end": 1339,
       "expression": {
         "type": "CallExpression",
-        "start": 1233,
-        "end": 1338,
         "callee": {
           "type": "MemberExpression",
-          "start": 1233,
-          "end": 1249,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 1233,
-            "end": 1239,
-            "name": "assert"
+            "end": 1239
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 1240,
-            "end": 1249,
-            "name": "sameValue"
+            "end": 1249
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 1233,
+          "end": 1249
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 1250,
-            "end": 1272,
             "callee": {
               "type": "MemberExpression",
-              "start": 1250,
-              "end": 1263,
               "object": {
                 "type": "Identifier",
+                "name": "RegExp",
                 "start": 1250,
-                "end": 1256,
-                "name": "RegExp"
+                "end": 1256
               },
               "property": {
                 "type": "Identifier",
+                "name": "escape",
                 "start": 1257,
-                "end": 1263,
-                "name": "escape"
+                "end": 1263
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 1250,
+              "end": 1263
             },
             "arguments": [
               {
                 "type": "Literal",
-                "start": 1264,
-                "end": 1271,
                 "value": ".a\\b",
-                "raw": "'.a\\\\b'"
+                "raw": "'.a\\\\b'",
+                "start": 1264,
+                "end": 1271
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 1250,
+            "end": 1272
           },
           {
             "type": "Literal",
-            "start": 1274,
-            "end": 1285,
             "value": "\\.a\\\\b",
-            "raw": "'\\\\.a\\\\\\\\b'"
+            "raw": "'\\\\.a\\\\\\\\b'",
+            "start": 1274,
+            "end": 1285
           },
           {
             "type": "Literal",
+            "value": "mixed string with backslash is escaped correctly",
+            "raw": "'mixed string with backslash is escaped correctly'",
             "start": 1287,
-            "end": 1337,
-            "value": "mixed string with backslash is escaped correctly",
-            "raw": "'mixed string with backslash is escaped correctly'"
+            "end": 1337
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 1233,
+        "end": 1338
+      },
+      "start": 1233,
+      "end": 1339
     },
     {
       "type": "ExpressionStatement",
-      "start": 1340,
-      "end": 1452,
       "expression": {
         "type": "CallExpression",
-        "start": 1340,
-        "end": 1451,
         "callee": {
           "type": "MemberExpression",
-          "start": 1340,
-          "end": 1356,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 1340,
-            "end": 1346,
-            "name": "assert"
+            "end": 1346
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 1347,
-            "end": 1356,
-            "name": "sameValue"
+            "end": 1356
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 1340,
+          "end": 1356
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 1357,
-            "end": 1381,
             "callee": {
               "type": "MemberExpression",
-              "start": 1357,
-              "end": 1370,
               "object": {
                 "type": "Identifier",
+                "name": "RegExp",
                 "start": 1357,
-                "end": 1363,
-                "name": "RegExp"
+                "end": 1363
               },
               "property": {
                 "type": "Identifier",
+                "name": "escape",
                 "start": 1364,
-                "end": 1370,
-                "name": "escape"
+                "end": 1370
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 1357,
+              "end": 1370
             },
             "arguments": [
               {
                 "type": "Literal",
-                "start": 1371,
-                "end": 1380,
                 "value": ".a\\\\b",
-                "raw": "'.a\\\\\\\\b'"
+                "raw": "'.a\\\\\\\\b'",
+                "start": 1371,
+                "end": 1380
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 1357,
+            "end": 1381
           },
           {
             "type": "Literal",
-            "start": 1383,
-            "end": 1398,
             "value": "\\.a\\\\\\\\b",
-            "raw": "'\\\\.a\\\\\\\\\\\\\\\\b'"
+            "raw": "'\\\\.a\\\\\\\\\\\\\\\\b'",
+            "start": 1383,
+            "end": 1398
           },
           {
             "type": "Literal",
-            "start": 1400,
-            "end": 1450,
             "value": "mixed string with backslash is escaped correctly",
-            "raw": "'mixed string with backslash is escaped correctly'"
+            "raw": "'mixed string with backslash is escaped correctly'",
+            "start": 1400,
+            "end": 1450
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 1340,
+        "end": 1451
+      },
+      "start": 1340,
+      "end": 1452
     },
     {
       "type": "ExpressionStatement",
-      "start": 1453,
-      "end": 1563,
       "expression": {
         "type": "CallExpression",
-        "start": 1453,
-        "end": 1562,
         "callee": {
           "type": "MemberExpression",
-          "start": 1453,
-          "end": 1469,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 1453,
-            "end": 1459,
-            "name": "assert"
+            "end": 1459
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 1460,
-            "end": 1469,
-            "name": "sameValue"
+            "end": 1469
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 1453,
+          "end": 1469
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 1470,
-            "end": 1491,
             "callee": {
               "type": "MemberExpression",
-              "start": 1470,
-              "end": 1483,
               "object": {
                 "type": "Identifier",
+                "name": "RegExp",
                 "start": 1470,
-                "end": 1476,
-                "name": "RegExp"
+                "end": 1476
               },
               "property": {
                 "type": "Identifier",
+                "name": "escape",
                 "start": 1477,
-                "end": 1483,
-                "name": "escape"
+                "end": 1483
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 1470,
+              "end": 1483
             },
             "arguments": [
               {
                 "type": "Literal",
-                "start": 1484,
-                "end": 1490,
                 "value": ".a^b",
-                "raw": "'.a^b'"
+                "raw": "'.a^b'",
+                "start": 1484,
+                "end": 1490
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 1470,
+            "end": 1491
           },
           {
             "type": "Literal",
-            "start": 1493,
-            "end": 1503,
             "value": "\\.a\\^b",
-            "raw": "'\\\\.a\\\\^b'"
+            "raw": "'\\\\.a\\\\^b'",
+            "start": 1493,
+            "end": 1503
           },
           {
             "type": "Literal",
-            "start": 1505,
-            "end": 1561,
             "value": "mixed string with caret character is escaped correctly",
-            "raw": "'mixed string with caret character is escaped correctly'"
+            "raw": "'mixed string with caret character is escaped correctly'",
+            "start": 1505,
+            "end": 1561
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 1453,
+        "end": 1562
+      },
+      "start": 1453,
+      "end": 1563
     },
     {
       "type": "ExpressionStatement",
-      "start": 1564,
-      "end": 1670,
       "expression": {
         "type": "CallExpression",
-        "start": 1564,
-        "end": 1669,
         "callee": {
           "type": "MemberExpression",
-          "start": 1564,
-          "end": 1580,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 1564,
-            "end": 1570,
-            "name": "assert"
+            "end": 1570
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 1571,
-            "end": 1580,
-            "name": "sameValue"
+            "end": 1580
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 1564,
+          "end": 1580
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 1581,
-            "end": 1602,
             "callee": {
               "type": "MemberExpression",
-              "start": 1581,
-              "end": 1594,
               "object": {
                 "type": "Identifier",
+                "name": "RegExp",
                 "start": 1581,
-                "end": 1587,
-                "name": "RegExp"
+                "end": 1587
               },
               "property": {
                 "type": "Identifier",
+                "name": "escape",
                 "start": 1588,
-                "end": 1594,
-                "name": "escape"
+                "end": 1594
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 1581,
+              "end": 1594
             },
             "arguments": [
               {
                 "type": "Literal",
-                "start": 1595,
-                "end": 1601,
                 "value": ".a$b",
-                "raw": "'.a$b'"
+                "raw": "'.a$b'",
+                "start": 1595,
+                "end": 1601
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 1581,
+            "end": 1602
           },
           {
             "type": "Literal",
-            "start": 1604,
-            "end": 1614,
             "value": "\\.a\\$b",
-            "raw": "'\\\\.a\\\\$b'"
+            "raw": "'\\\\.a\\\\$b'",
+            "start": 1604,
+            "end": 1614
           },
           {
             "type": "Literal",
-            "start": 1616,
-            "end": 1668,
             "value": "mixed string with dollar sign is escaped correctly",
-            "raw": "'mixed string with dollar sign is escaped correctly'"
+            "raw": "'mixed string with dollar sign is escaped correctly'",
+            "start": 1616,
+            "end": 1668
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 1564,
+        "end": 1669
+      },
+      "start": 1564,
+      "end": 1670
     },
     {
       "type": "ExpressionStatement",
-      "start": 1671,
-      "end": 1785,
       "expression": {
         "type": "CallExpression",
-        "start": 1671,
-        "end": 1784,
         "callee": {
           "type": "MemberExpression",
-          "start": 1671,
-          "end": 1687,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 1671,
-            "end": 1677,
-            "name": "assert"
+            "end": 1677
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 1678,
-            "end": 1687,
-            "name": "sameValue"
+            "end": 1687
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 1671,
+          "end": 1687
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 1688,
-            "end": 1710,
             "callee": {
               "type": "MemberExpression",
-              "start": 1688,
-              "end": 1701,
               "object": {
                 "type": "Identifier",
+                "name": "RegExp",
                 "start": 1688,
-                "end": 1694,
-                "name": "RegExp"
+                "end": 1694
               },
               "property": {
                 "type": "Identifier",
+                "name": "escape",
                 "start": 1695,
-                "end": 1701,
-                "name": "escape"
+                "end": 1701
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 1688,
+              "end": 1701
             },
             "arguments": [
               {
                 "type": "Literal",
-                "start": 1702,
-                "end": 1709,
                 "value": ".a[b]",
-                "raw": "'.a[b]'"
+                "raw": "'.a[b]'",
+                "start": 1702,
+                "end": 1709
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 1688,
+            "end": 1710
           },
           {
             "type": "Literal",
-            "start": 1712,
-            "end": 1725,
             "value": "\\.a\\[b\\]",
-            "raw": "'\\\\.a\\\\[b\\\\]'"
+            "raw": "'\\\\.a\\\\[b\\\\]'",
+            "start": 1712,
+            "end": 1725
           },
           {
             "type": "Literal",
-            "start": 1727,
-            "end": 1783,
             "value": "mixed string with square brackets is escaped correctly",
-            "raw": "'mixed string with square brackets is escaped correctly'"
+            "raw": "'mixed string with square brackets is escaped correctly'",
+            "start": 1727,
+            "end": 1783
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 1671,
+        "end": 1784
+      },
+      "start": 1671,
+      "end": 1785
     },
     {
       "type": "ExpressionStatement",
-      "start": 1786,
-      "end": 1910,
       "expression": {
         "type": "CallExpression",
-        "start": 1786,
-        "end": 1909,
         "callee": {
           "type": "MemberExpression",
-          "start": 1786,
-          "end": 1802,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 1786,
-            "end": 1792,
-            "name": "assert"
+            "end": 1792
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 1793,
-            "end": 1802,
-            "name": "sameValue"
+            "end": 1802
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 1786,
+          "end": 1802
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 1803,
-            "end": 1827,
             "callee": {
               "type": "MemberExpression",
-              "start": 1803,
-              "end": 1816,
               "object": {
                 "type": "Identifier",
+                "name": "RegExp",
                 "start": 1803,
-                "end": 1809,
-                "name": "RegExp"
+                "end": 1809
               },
               "property": {
                 "type": "Identifier",
+                "name": "escape",
                 "start": 1810,
-                "end": 1816,
-                "name": "escape"
+                "end": 1816
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 1803,
+              "end": 1816
             },
             "arguments": [
               {
                 "type": "Literal",
-                "start": 1817,
-                "end": 1826,
                 "value": ".a.b(c)",
-                "raw": "'.a.b(c)'"
+                "raw": "'.a.b(c)'",
+                "start": 1817,
+                "end": 1826
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 1803,
+            "end": 1827
           },
           {
             "type": "Literal",
-            "start": 1829,
-            "end": 1846,
             "value": "\\.a\\.b\\(c\\)",
-            "raw": "'\\\\.a\\\\.b\\\\(c\\\\)'"
+            "raw": "'\\\\.a\\\\.b\\\\(c\\\\)'",
+            "start": 1829,
+            "end": 1846
           },
           {
             "type": "Literal",
-            "start": 1848,
-            "end": 1908,
             "value": "mixed string with dot and parentheses is escaped correctly",
-            "raw": "'mixed string with dot and parentheses is escaped correctly'"
+            "raw": "'mixed string with dot and parentheses is escaped correctly'",
+            "start": 1848,
+            "end": 1908
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 1786,
+        "end": 1909
+      },
+      "start": 1786,
+      "end": 1910
     },
     {
       "type": "ExpressionStatement",
-      "start": 1911,
-      "end": 2097,
       "expression": {
         "type": "CallExpression",
-        "start": 1911,
-        "end": 2096,
         "callee": {
           "type": "MemberExpression",
-          "start": 1911,
-          "end": 1927,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 1911,
-            "end": 1917,
-            "name": "assert"
+            "end": 1917
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 1918,
-            "end": 1927,
-            "name": "sameValue"
+            "end": 1927
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 1911,
+          "end": 1927
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 1928,
-            "end": 1970,
             "callee": {
               "type": "MemberExpression",
-              "start": 1928,
-              "end": 1941,
               "object": {
                 "type": "Identifier",
+                "name": "RegExp",
                 "start": 1928,
-                "end": 1934,
-                "name": "RegExp"
+                "end": 1934
               },
               "property": {
                 "type": "Identifier",
+                "name": "escape",
                 "start": 1935,
-                "end": 1941,
-                "name": "escape"
+                "end": 1941
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 1928,
+              "end": 1941
             },
             "arguments": [
               {
                 "type": "Literal",
-                "start": 1942,
-                "end": 1969,
                 "value": ".a*b+c?d^e$f|g{2}h[i]j\\k",
-                "raw": "'.a*b+c?d^e$f|g{2}h[i]j\\\\k'"
+                "raw": "'.a*b+c?d^e$f|g{2}h[i]j\\\\k'",
+                "start": 1942,
+                "end": 1969
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 1928,
+            "end": 1970
           },
           {
             "type": "Literal",
-            "start": 1972,
-            "end": 2023,
             "value": "\\.a\\*b\\+c\\?d\\^e\\$f\\|g\\{2\\}h\\[i\\]j\\\\k",
-            "raw": "'\\\\.a\\\\*b\\\\+c\\\\?d\\\\^e\\\\$f\\\\|g\\\\{2\\\\}h\\\\[i\\\\]j\\\\\\\\k'"
+            "raw": "'\\\\.a\\\\*b\\\\+c\\\\?d\\\\^e\\\\$f\\\\|g\\\\{2\\\\}h\\\\[i\\\\]j\\\\\\\\k'",
+            "start": 1972,
+            "end": 2023
           },
           {
             "type": "Literal",
-            "start": 2025,
-            "end": 2095,
             "value": "complex string with multiple special characters is escaped correctly",
-            "raw": "'complex string with multiple special characters is escaped correctly'"
+            "raw": "'complex string with multiple special characters is escaped correctly'",
+            "start": 2025,
+            "end": 2095
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 1911,
+        "end": 2096
+      },
+      "start": 1911,
+      "end": 2097
     },
     {
       "type": "ExpressionStatement",
-      "start": 2099,
-      "end": 2248,
       "expression": {
         "type": "CallExpression",
-        "start": 2099,
-        "end": 2247,
         "callee": {
           "type": "MemberExpression",
-          "start": 2099,
-          "end": 2115,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 2099,
-            "end": 2105,
-            "name": "assert"
+            "end": 2105
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 2106,
-            "end": 2115,
-            "name": "sameValue"
+            "end": 2115
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 2099,
+          "end": 2115
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 2119,
-            "end": 2151,
             "callee": {
               "type": "MemberExpression",
-              "start": 2119,
-              "end": 2132,
               "object": {
                 "type": "Identifier",
+                "name": "RegExp",
                 "start": 2119,
-                "end": 2125,
-                "name": "RegExp"
+                "end": 2125
               },
               "property": {
                 "type": "Identifier",
+                "name": "escape",
                 "start": 2126,
-                "end": 2132,
-                "name": "escape"
+                "end": 2132
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 2119,
+              "end": 2132
             },
             "arguments": [
               {
                 "type": "Literal",
-                "start": 2133,
-                "end": 2150,
                 "value": "^$\\.*+?()[]{}|",
-                "raw": "'^$\\\\.*+?()[]{}|'"
+                "raw": "'^$\\\\.*+?()[]{}|'",
+                "start": 2133,
+                "end": 2150
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 2119,
+            "end": 2151
           },
           {
             "type": "Literal",
-            "start": 2155,
-            "end": 2200,
             "value": "\\^\\$\\\\\\.\\*\\+\\?\\(\\)\\[\\]\\{\\}\\|",
-            "raw": "'\\\\^\\\\$\\\\\\\\\\\\.\\\\*\\\\+\\\\?\\\\(\\\\)\\\\[\\\\]\\\\{\\\\}\\\\|'"
+            "raw": "'\\\\^\\\\$\\\\\\\\\\\\.\\\\*\\\\+\\\\?\\\\(\\\\)\\\\[\\\\]\\\\{\\\\}\\\\|'",
+            "start": 2155,
+            "end": 2200
           },
           {
             "type": "Literal",
-            "start": 2204,
-            "end": 2245,
             "value": "Syntax characters are correctly escaped",
-            "raw": "'Syntax characters are correctly escaped'"
+            "raw": "'Syntax characters are correctly escaped'",
+            "start": 2204,
+            "end": 2245
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 2099,
+        "end": 2247
+      },
+      "start": 2099,
+      "end": 2248
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 2249
 }

@@ -2,125 +2,125 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 65,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 0,
-      "end": 17,
       "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 6,
-          "end": 17,
           "id": {
             "type": "Identifier",
-            "start": 6,
-            "end": 13,
             "decorators": [],
             "name": "orbitol",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 6,
+            "end": 13
           },
           "init": {
             "type": "Literal",
-            "start": 16,
-            "end": 17,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "start": 16,
+            "end": 17
           },
-          "definite": false
+          "definite": false,
+          "start": 6,
+          "end": 17
         }
       ],
-      "declare": false
+      "declare": false,
+      "start": 0,
+      "end": 17
     },
     {
       "type": "VariableDeclaration",
-      "start": 18,
-      "end": 41,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 22,
-          "end": 41,
           "id": {
             "type": "Identifier",
-            "start": 22,
-            "end": 29,
             "decorators": [],
             "name": "orbitol",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 22,
+            "end": 29
           },
           "init": {
             "type": "BinaryExpression",
-            "start": 32,
-            "end": 41,
             "left": {
               "type": "Literal",
-              "start": 32,
-              "end": 33,
               "value": 1,
-              "raw": "1"
+              "raw": "1",
+              "start": 32,
+              "end": 33
             },
             "operator": "+",
             "right": {
               "type": "Literal",
-              "start": 36,
-              "end": 41,
               "value": false,
-              "raw": "false"
-            }
+              "raw": "false",
+              "start": 36,
+              "end": 41
+            },
+            "start": 32,
+            "end": 41
           },
-          "definite": false
+          "definite": false,
+          "start": 22,
+          "end": 41
         }
       ],
-      "declare": false
+      "declare": false,
+      "start": 18,
+      "end": 41
     },
     {
       "type": "ExpressionStatement",
-      "start": 42,
-      "end": 65,
       "expression": {
         "type": "CallExpression",
-        "start": 42,
-        "end": 65,
         "callee": {
           "type": "MemberExpression",
-          "start": 42,
-          "end": 63,
           "object": {
             "type": "Identifier",
-            "start": 42,
-            "end": 49,
             "decorators": [],
             "name": "orbitol",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 42,
+            "end": 49
           },
           "property": {
             "type": "Identifier",
-            "start": 50,
-            "end": 63,
             "decorators": [],
             "name": "toExponential",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 50,
+            "end": 63
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 42,
+          "end": 63
         },
         "typeArguments": null,
         "arguments": [],
-        "optional": false
+        "optional": false,
+        "start": 42,
+        "end": 65
       },
-      "directive": null
+      "directive": null,
+      "start": 42,
+      "end": 65
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 65
 }
 ```

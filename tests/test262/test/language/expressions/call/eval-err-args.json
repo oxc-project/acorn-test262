@@ -1,89 +1,89 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 792,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 723,
-      "end": 791,
       "expression": {
         "type": "CallExpression",
-        "start": 723,
-        "end": 790,
         "callee": {
           "type": "MemberExpression",
-          "start": 723,
-          "end": 736,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 723,
-            "end": 729,
-            "name": "assert"
+            "end": 729
           },
           "property": {
             "type": "Identifier",
+            "name": "throws",
             "start": 730,
-            "end": 736,
-            "name": "throws"
+            "end": 736
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 723,
+          "end": 736
         },
         "arguments": [
           {
             "type": "Identifier",
+            "name": "ReferenceError",
             "start": 737,
-            "end": 751,
-            "name": "ReferenceError"
+            "end": 751
           },
           {
             "type": "FunctionExpression",
-            "start": 753,
-            "end": 789,
             "id": null,
             "generator": false,
             "async": false,
             "params": [],
             "body": {
               "type": "BlockStatement",
-              "start": 764,
-              "end": 789,
               "body": [
                 {
                   "type": "ExpressionStatement",
-                  "start": 768,
-                  "end": 787,
                   "expression": {
                     "type": "CallExpression",
-                    "start": 768,
-                    "end": 786,
                     "callee": {
                       "type": "Identifier",
+                      "name": "eval",
                       "start": 768,
-                      "end": 772,
-                      "name": "eval"
+                      "end": 772
                     },
                     "arguments": [
                       {
                         "type": "Identifier",
+                        "name": "unresolvable",
                         "start": 773,
-                        "end": 785,
-                        "name": "unresolvable"
+                        "end": 785
                       }
                     ],
-                    "optional": false
-                  }
+                    "optional": false,
+                    "start": 768,
+                    "end": 786
+                  },
+                  "start": 768,
+                  "end": 787
                 }
-              ]
+              ],
+              "start": 764,
+              "end": 789
             },
-            "expression": false
+            "expression": false,
+            "start": 753,
+            "end": 789
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 723,
+        "end": 790
+      },
+      "start": 723,
+      "end": 791
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 792
 }

@@ -1,157 +1,157 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 757,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 671,
-      "end": 756,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 675,
-          "end": 755,
           "id": {
             "type": "Identifier",
+            "name": "C",
             "start": 675,
-            "end": 676,
-            "name": "C"
+            "end": 676
           },
           "init": {
             "type": "ClassExpression",
-            "start": 679,
-            "end": 755,
             "decorators": [],
             "id": null,
             "superClass": null,
             "body": {
               "type": "ClassBody",
-              "start": 685,
-              "end": 755,
               "body": [
                 {
                   "type": "MethodDefinition",
-                  "start": 689,
-                  "end": 742,
                   "decorators": [],
                   "key": {
                     "type": "Identifier",
+                    "name": "constructor",
                     "start": 689,
-                    "end": 700,
-                    "name": "constructor"
+                    "end": 700
                   },
                   "value": {
                     "type": "FunctionExpression",
-                    "start": 700,
-                    "end": 742,
                     "id": null,
                     "generator": false,
                     "async": false,
                     "params": [],
                     "body": {
                       "type": "BlockStatement",
-                      "start": 703,
-                      "end": 742,
                       "body": [
                         {
                           "type": "ClassDeclaration",
-                          "start": 709,
-                          "end": 738,
                           "decorators": [],
                           "id": {
                             "type": "Identifier",
+                            "name": "B",
                             "start": 715,
-                            "end": 716,
-                            "name": "B"
+                            "end": 716
                           },
                           "superClass": null,
                           "body": {
                             "type": "ClassBody",
-                            "start": 717,
-                            "end": 738,
                             "body": [
                               {
                                 "type": "MethodDefinition",
-                                "start": 725,
-                                "end": 732,
                                 "decorators": [],
                                 "key": {
                                   "type": "PrivateIdentifier",
+                                  "name": "m",
                                   "start": 725,
-                                  "end": 727,
-                                  "name": "m"
+                                  "end": 727
                                 },
                                 "value": {
                                   "type": "FunctionExpression",
-                                  "start": 727,
-                                  "end": 732,
                                   "id": null,
                                   "generator": false,
                                   "async": false,
                                   "params": [],
                                   "body": {
                                     "type": "BlockStatement",
+                                    "body": [],
                                     "start": 730,
-                                    "end": 732,
-                                    "body": []
+                                    "end": 732
                                   },
-                                  "expression": false
+                                  "expression": false,
+                                  "start": 727,
+                                  "end": 732
                                 },
                                 "kind": "method",
                                 "computed": false,
-                                "static": false
+                                "static": false,
+                                "start": 725,
+                                "end": 732
                               }
-                            ]
-                          }
+                            ],
+                            "start": 717,
+                            "end": 738
+                          },
+                          "start": 709,
+                          "end": 738
                         }
-                      ]
+                      ],
+                      "start": 703,
+                      "end": 742
                     },
-                    "expression": false
+                    "expression": false,
+                    "start": 700,
+                    "end": 742
                   },
                   "kind": "constructor",
                   "computed": false,
-                  "static": false
+                  "static": false,
+                  "start": 689,
+                  "end": 742
                 },
                 {
                   "type": "MethodDefinition",
-                  "start": 746,
-                  "end": 753,
                   "decorators": [],
                   "key": {
                     "type": "PrivateIdentifier",
+                    "name": "m",
                     "start": 746,
-                    "end": 748,
-                    "name": "m"
+                    "end": 748
                   },
                   "value": {
                     "type": "FunctionExpression",
-                    "start": 748,
-                    "end": 753,
                     "id": null,
                     "generator": false,
                     "async": false,
                     "params": [],
                     "body": {
                       "type": "BlockStatement",
+                      "body": [],
                       "start": 751,
-                      "end": 753,
-                      "body": []
+                      "end": 753
                     },
-                    "expression": false
+                    "expression": false,
+                    "start": 748,
+                    "end": 753
                   },
                   "kind": "method",
                   "computed": false,
-                  "static": false
+                  "static": false,
+                  "start": 746,
+                  "end": 753
                 }
-              ]
-            }
-          }
+              ],
+              "start": 685,
+              "end": 755
+            },
+            "start": 679,
+            "end": 755
+          },
+          "start": 675,
+          "end": 755
         }
-      ]
+      ],
+      "start": 671,
+      "end": 756
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 757
 }

@@ -2,22 +2,18 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 95,
   "body": [
     {
       "type": "ClassDeclaration",
-      "start": 0,
-      "end": 44,
       "decorators": [],
       "id": {
         "type": "Identifier",
-        "start": 6,
-        "end": 8,
         "decorators": [],
         "name": "C1",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 6,
+        "end": 8
       },
       "typeParameters": null,
       "superClass": null,
@@ -25,27 +21,21 @@ __ESTREE_TEST__:PASS:
       "implements": [],
       "body": {
         "type": "ClassBody",
-        "start": 9,
-        "end": 44,
         "body": [
           {
             "type": "MethodDefinition",
-            "start": 11,
-            "end": 42,
             "decorators": [],
             "key": {
               "type": "Identifier",
-              "start": 18,
-              "end": 22,
               "decorators": [],
               "name": "func",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 18,
+              "end": 22
             },
             "value": {
               "type": "FunctionExpression",
-              "start": 22,
-              "end": 42,
               "id": null,
               "generator": false,
               "async": false,
@@ -54,140 +44,150 @@ __ESTREE_TEST__:PASS:
               "params": [
                 {
                   "type": "Identifier",
-                  "start": 23,
-                  "end": 32,
                   "decorators": [],
                   "name": "param",
                   "optional": false,
                   "typeAnnotation": {
                     "type": "TSTypeAnnotation",
-                    "start": 28,
-                    "end": 32,
                     "typeAnnotation": {
                       "type": "TSTypeReference",
-                      "start": 30,
-                      "end": 32,
                       "typeName": {
                         "type": "Identifier",
-                        "start": 30,
-                        "end": 32,
                         "decorators": [],
                         "name": "C2",
                         "optional": false,
-                        "typeAnnotation": null
+                        "typeAnnotation": null,
+                        "start": 30,
+                        "end": 32
                       },
-                      "typeArguments": null
-                    }
-                  }
+                      "typeArguments": null,
+                      "start": 30,
+                      "end": 32
+                    },
+                    "start": 28,
+                    "end": 32
+                  },
+                  "start": 23,
+                  "end": 32
                 }
               ],
               "returnType": {
                 "type": "TSTypeAnnotation",
-                "start": 33,
-                "end": 38,
                 "typeAnnotation": {
                   "type": "TSAnyKeyword",
                   "start": 35,
                   "end": 38
-                }
+                },
+                "start": 33,
+                "end": 38
               },
               "body": {
                 "type": "BlockStatement",
+                "body": [],
                 "start": 39,
-                "end": 42,
-                "body": []
+                "end": 42
               },
-              "expression": false
+              "expression": false,
+              "start": 22,
+              "end": 42
             },
             "kind": "method",
             "computed": false,
             "static": false,
             "override": false,
             "optional": false,
-            "accessibility": "public"
+            "accessibility": "public",
+            "start": 11,
+            "end": 42
           }
-        ]
+        ],
+        "start": 9,
+        "end": 44
       },
       "abstract": false,
-      "declare": false
+      "declare": false,
+      "start": 0,
+      "end": 44
     },
     {
       "type": "ClassDeclaration",
-      "start": 45,
-      "end": 68,
       "decorators": [],
       "id": {
         "type": "Identifier",
-        "start": 51,
-        "end": 53,
         "decorators": [],
         "name": "C2",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 51,
+        "end": 53
       },
       "typeParameters": null,
       "superClass": {
         "type": "Identifier",
-        "start": 62,
-        "end": 64,
         "decorators": [],
         "name": "C1",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 62,
+        "end": 64
       },
       "superTypeArguments": null,
       "implements": [],
       "body": {
         "type": "ClassBody",
+        "body": [],
         "start": 65,
-        "end": 68,
-        "body": []
+        "end": 68
       },
       "abstract": false,
-      "declare": false
+      "declare": false,
+      "start": 45,
+      "end": 68
     },
     {
       "type": "VariableDeclaration",
-      "start": 69,
-      "end": 86,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 73,
-          "end": 85,
           "id": {
             "type": "Identifier",
-            "start": 73,
-            "end": 74,
             "decorators": [],
             "name": "x",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 73,
+            "end": 74
           },
           "init": {
             "type": "NewExpression",
-            "start": 77,
-            "end": 85,
             "callee": {
               "type": "Identifier",
-              "start": 81,
-              "end": 83,
               "decorators": [],
               "name": "C2",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 81,
+              "end": 83
             },
             "typeArguments": null,
-            "arguments": []
+            "arguments": [],
+            "start": 77,
+            "end": 85
           },
-          "definite": false
+          "definite": false,
+          "start": 73,
+          "end": 85
         }
       ],
-      "declare": false
+      "declare": false,
+      "start": 69,
+      "end": 86
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 95
 }
 ```

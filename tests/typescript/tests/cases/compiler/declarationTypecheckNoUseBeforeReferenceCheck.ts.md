@@ -2,73 +2,63 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 90,
   "body": [
     {
       "type": "ExportNamedDeclaration",
-      "start": 0,
-      "end": 90,
       "declaration": {
         "type": "ClassDeclaration",
-        "start": 7,
-        "end": 90,
         "decorators": [],
         "id": {
           "type": "Identifier",
-          "start": 13,
-          "end": 14,
           "decorators": [],
           "name": "C",
           "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "start": 13,
+          "end": 14
         },
         "typeParameters": null,
         "superClass": {
           "type": "Identifier",
-          "start": 23,
-          "end": 29,
           "decorators": [],
           "name": "Object",
           "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "start": 23,
+          "end": 29
         },
         "superTypeArguments": null,
         "implements": [],
         "body": {
           "type": "ClassBody",
-          "start": 30,
-          "end": 90,
           "body": [
             {
               "type": "PropertyDefinition",
-              "start": 36,
-              "end": 69,
               "decorators": [],
               "key": {
                 "type": "Identifier",
-                "start": 52,
-                "end": 53,
                 "decorators": [],
                 "name": "p",
                 "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "start": 52,
+                "end": 53
               },
               "typeAnnotation": {
                 "type": "TSTypeAnnotation",
-                "start": 53,
-                "end": 68,
                 "typeAnnotation": {
                   "type": "TSTypeOperator",
-                  "start": 55,
-                  "end": 68,
                   "operator": "unique",
                   "typeAnnotation": {
                     "type": "TSSymbolKeyword",
                     "start": 62,
                     "end": 68
-                  }
-                }
+                  },
+                  "start": 55,
+                  "end": 68
+                },
+                "start": 53,
+                "end": 68
               },
               "value": null,
               "computed": false,
@@ -78,42 +68,40 @@ __ESTREE_TEST__:PASS:
               "optional": false,
               "definite": false,
               "readonly": true,
-              "accessibility": null
+              "accessibility": null,
+              "start": 36,
+              "end": 69
             },
             {
               "type": "MethodDefinition",
-              "start": 74,
-              "end": 88,
               "decorators": [],
               "key": {
                 "type": "MemberExpression",
-                "start": 75,
-                "end": 78,
                 "object": {
                   "type": "Identifier",
-                  "start": 75,
-                  "end": 76,
                   "decorators": [],
                   "name": "C",
                   "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "start": 75,
+                  "end": 76
                 },
                 "property": {
                   "type": "Identifier",
-                  "start": 77,
-                  "end": 78,
                   "decorators": [],
                   "name": "p",
                   "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "start": 77,
+                  "end": 78
                 },
                 "optional": false,
-                "computed": false
+                "computed": false,
+                "start": 75,
+                "end": 78
               },
               "value": {
                 "type": "TSEmptyBodyFunctionExpression",
-                "start": 79,
-                "end": 88,
                 "id": null,
                 "generator": false,
                 "async": false,
@@ -122,36 +110,48 @@ __ESTREE_TEST__:PASS:
                 "params": [],
                 "returnType": {
                   "type": "TSTypeAnnotation",
-                  "start": 81,
-                  "end": 87,
                   "typeAnnotation": {
                     "type": "TSVoidKeyword",
                     "start": 83,
                     "end": 87
-                  }
+                  },
+                  "start": 81,
+                  "end": 87
                 },
                 "body": null,
-                "expression": false
+                "expression": false,
+                "start": 79,
+                "end": 88
               },
               "kind": "method",
               "computed": true,
               "static": false,
               "override": false,
               "optional": false,
-              "accessibility": null
+              "accessibility": null,
+              "start": 74,
+              "end": 88
             }
-          ]
+          ],
+          "start": 30,
+          "end": 90
         },
         "abstract": false,
-        "declare": false
+        "declare": false,
+        "start": 7,
+        "end": 90
       },
       "specifiers": [],
       "source": null,
       "exportKind": "value",
-      "attributes": []
+      "attributes": [],
+      "start": 0,
+      "end": 90
     }
   ],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 90
 }
 ```

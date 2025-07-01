@@ -2,21 +2,17 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 49,
   "body": [
     {
       "type": "FunctionDeclaration",
-      "start": 0,
-      "end": 49,
       "id": {
         "type": "Identifier",
-        "start": 9,
-        "end": 11,
         "decorators": [],
         "name": "f1",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 9,
+        "end": 11
       },
       "generator": false,
       "async": false,
@@ -26,59 +22,63 @@ __ESTREE_TEST__:PASS:
       "returnType": null,
       "body": {
         "type": "BlockStatement",
-        "start": 15,
-        "end": 49,
         "body": [
           {
             "type": "ForStatement",
-            "start": 21,
-            "end": 47,
             "init": {
               "type": "VariableDeclaration",
-              "start": 25,
-              "end": 34,
               "kind": "var",
               "declarations": [
                 {
                   "type": "VariableDeclarator",
-                  "start": 29,
-                  "end": 34,
                   "id": {
                     "type": "Identifier",
-                    "start": 29,
-                    "end": 30,
                     "decorators": [],
                     "name": "i",
                     "optional": false,
-                    "typeAnnotation": null
+                    "typeAnnotation": null,
+                    "start": 29,
+                    "end": 30
                   },
                   "init": {
                     "type": "Literal",
-                    "start": 33,
-                    "end": 34,
                     "value": 0,
-                    "raw": "0"
+                    "raw": "0",
+                    "start": 33,
+                    "end": 34
                   },
-                  "definite": false
+                  "definite": false,
+                  "start": 29,
+                  "end": 34
                 }
               ],
-              "declare": false
+              "declare": false,
+              "start": 25,
+              "end": 34
             },
             "test": null,
             "update": null,
             "body": {
               "type": "BlockStatement",
+              "body": [],
               "start": 39,
-              "end": 47,
-              "body": []
-            }
+              "end": 47
+            },
+            "start": 21,
+            "end": 47
           }
-        ]
+        ],
+        "start": 15,
+        "end": 49
       },
-      "expression": false
+      "expression": false,
+      "start": 0,
+      "end": 49
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 49
 }
 ```

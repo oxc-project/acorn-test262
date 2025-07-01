@@ -2,44 +2,34 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 88,
   "body": [
     {
       "type": "TSModuleDeclaration",
-      "start": 0,
-      "end": 88,
       "id": {
         "type": "Identifier",
-        "start": 7,
-        "end": 11,
         "decorators": [],
         "name": "Test",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 7,
+        "end": 11
       },
       "body": {
         "type": "TSModuleBlock",
-        "start": 12,
-        "end": 88,
         "body": [
           {
             "type": "ExportNamedDeclaration",
-            "start": 18,
-            "end": 82,
             "declaration": {
               "type": "ClassDeclaration",
-              "start": 25,
-              "end": 82,
               "decorators": [],
               "id": {
                 "type": "Identifier",
-                "start": 31,
-                "end": 34,
                 "decorators": [],
                 "name": "Bug",
                 "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "start": 31,
+                "end": 34
               },
               "typeParameters": null,
               "superClass": null,
@@ -47,27 +37,21 @@ __ESTREE_TEST__:PASS:
               "implements": [],
               "body": {
                 "type": "ClassBody",
-                "start": 35,
-                "end": 82,
                 "body": [
                   {
                     "type": "MethodDefinition",
-                    "start": 45,
-                    "end": 76,
                     "decorators": [],
                     "key": {
                       "type": "Identifier",
-                      "start": 52,
-                      "end": 55,
                       "decorators": [],
                       "name": "foo",
                       "optional": false,
-                      "typeAnnotation": null
+                      "typeAnnotation": null,
+                      "start": 52,
+                      "end": 55
                     },
                     "value": {
                       "type": "FunctionExpression",
-                      "start": 55,
-                      "end": 76,
                       "id": null,
                       "generator": false,
                       "async": false,
@@ -76,47 +60,63 @@ __ESTREE_TEST__:PASS:
                       "params": [],
                       "returnType": {
                         "type": "TSTypeAnnotation",
-                        "start": 57,
-                        "end": 64,
                         "typeAnnotation": {
                           "type": "TSStringKeyword",
                           "start": 58,
                           "end": 64
-                        }
+                        },
+                        "start": 57,
+                        "end": 64
                       },
                       "body": {
                         "type": "BlockStatement",
+                        "body": [],
                         "start": 65,
-                        "end": 76,
-                        "body": []
+                        "end": 76
                       },
-                      "expression": false
+                      "expression": false,
+                      "start": 55,
+                      "end": 76
                     },
                     "kind": "method",
                     "computed": false,
                     "static": false,
                     "override": false,
                     "optional": false,
-                    "accessibility": "public"
+                    "accessibility": "public",
+                    "start": 45,
+                    "end": 76
                   }
-                ]
+                ],
+                "start": 35,
+                "end": 82
               },
               "abstract": false,
-              "declare": false
+              "declare": false,
+              "start": 25,
+              "end": 82
             },
             "specifiers": [],
             "source": null,
             "exportKind": "value",
-            "attributes": []
+            "attributes": [],
+            "start": 18,
+            "end": 82
           }
-        ]
+        ],
+        "start": 12,
+        "end": 88
       },
       "kind": "module",
       "declare": false,
-      "global": false
+      "global": false,
+      "start": 0,
+      "end": 88
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 88
 }
 ```

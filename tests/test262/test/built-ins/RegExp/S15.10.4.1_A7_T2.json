@@ -1,132 +1,132 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 588,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 427,
-      "end": 451,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 431,
-          "end": 450,
           "id": {
             "type": "Identifier",
+            "name": "__re",
             "start": 431,
-            "end": 435,
-            "name": "__re"
+            "end": 435
           },
           "init": {
             "type": "NewExpression",
-            "start": 438,
-            "end": 450,
             "callee": {
               "type": "Identifier",
+              "name": "RegExp",
               "start": 442,
-              "end": 448,
-              "name": "RegExp"
+              "end": 448
             },
-            "arguments": []
-          }
+            "arguments": [],
+            "start": 438,
+            "end": 450
+          },
+          "start": 431,
+          "end": 450
         }
-      ]
+      ],
+      "start": 427,
+      "end": 451
     },
     {
       "type": "ExpressionStatement",
-      "start": 453,
-      "end": 587,
       "expression": {
         "type": "CallExpression",
-        "start": 453,
-        "end": 586,
         "callee": {
           "type": "MemberExpression",
-          "start": 453,
-          "end": 469,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 453,
-            "end": 459,
-            "name": "assert"
+            "end": 459
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 460,
-            "end": 469,
-            "name": "sameValue"
+            "end": 469
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 453,
+          "end": 469
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 473,
-            "end": 509,
             "callee": {
               "type": "MemberExpression",
-              "start": 473,
-              "end": 503,
               "object": {
                 "type": "MemberExpression",
-                "start": 473,
-                "end": 489,
                 "object": {
                   "type": "Identifier",
+                  "name": "RegExp",
                   "start": 473,
-                  "end": 479,
-                  "name": "RegExp"
+                  "end": 479
                 },
                 "property": {
                   "type": "Identifier",
+                  "name": "prototype",
                   "start": 480,
-                  "end": 489,
-                  "name": "prototype"
+                  "end": 489
                 },
                 "optional": false,
-                "computed": false
+                "computed": false,
+                "start": 473,
+                "end": 489
               },
               "property": {
                 "type": "Identifier",
+                "name": "isPrototypeOf",
                 "start": 490,
-                "end": 503,
-                "name": "isPrototypeOf"
+                "end": 503
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 473,
+              "end": 503
             },
             "arguments": [
               {
                 "type": "Identifier",
+                "name": "__re",
                 "start": 504,
-                "end": 508,
-                "name": "__re"
+                "end": 508
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 473,
+            "end": 509
           },
           {
             "type": "Literal",
-            "start": 513,
-            "end": 517,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "start": 513,
+            "end": 517
           },
           {
             "type": "Literal",
-            "start": 521,
-            "end": 584,
             "value": "RegExp.prototype.isPrototypeOf(new RegExp()) must return true",
-            "raw": "'RegExp.prototype.isPrototypeOf(new RegExp()) must return true'"
+            "raw": "'RegExp.prototype.isPrototypeOf(new RegExp()) must return true'",
+            "start": 521,
+            "end": 584
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 453,
+        "end": 586
+      },
+      "start": 453,
+      "end": 587
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 588
 }

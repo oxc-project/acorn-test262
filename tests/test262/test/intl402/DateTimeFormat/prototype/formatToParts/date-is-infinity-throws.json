@@ -1,275 +1,275 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 924,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 701,
-      "end": 746,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 705,
-          "end": 745,
           "id": {
             "type": "Identifier",
+            "name": "dtf",
             "start": 705,
-            "end": 708,
-            "name": "dtf"
+            "end": 708
           },
           "init": {
             "type": "NewExpression",
-            "start": 711,
-            "end": 745,
             "callee": {
               "type": "MemberExpression",
-              "start": 715,
-              "end": 734,
               "object": {
                 "type": "Identifier",
+                "name": "Intl",
                 "start": 715,
-                "end": 719,
-                "name": "Intl"
+                "end": 719
               },
               "property": {
                 "type": "Identifier",
+                "name": "DateTimeFormat",
                 "start": 720,
-                "end": 734,
-                "name": "DateTimeFormat"
+                "end": 734
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 715,
+              "end": 734
             },
             "arguments": [
               {
                 "type": "ArrayExpression",
-                "start": 735,
-                "end": 744,
                 "elements": [
                   {
                     "type": "Literal",
-                    "start": 736,
-                    "end": 743,
                     "value": "pt-BR",
-                    "raw": "\"pt-BR\""
+                    "raw": "\"pt-BR\"",
+                    "start": 736,
+                    "end": 743
                   }
-                ]
+                ],
+                "start": 735,
+                "end": 744
               }
-            ]
-          }
+            ],
+            "start": 711,
+            "end": 745
+          },
+          "start": 705,
+          "end": 745
         }
-      ]
+      ],
+      "start": 701,
+      "end": 746
     },
     {
       "type": "ExpressionStatement",
-      "start": 748,
-      "end": 834,
       "expression": {
         "type": "CallExpression",
-        "start": 748,
-        "end": 833,
         "callee": {
           "type": "MemberExpression",
-          "start": 748,
-          "end": 761,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 748,
-            "end": 754,
-            "name": "assert"
+            "end": 754
           },
           "property": {
             "type": "Identifier",
+            "name": "throws",
             "start": 755,
-            "end": 761,
-            "name": "throws"
+            "end": 761
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 748,
+          "end": 761
         },
         "arguments": [
           {
             "type": "Identifier",
+            "name": "RangeError",
             "start": 762,
-            "end": 772,
-            "name": "RangeError"
+            "end": 772
           },
           {
             "type": "FunctionExpression",
-            "start": 774,
-            "end": 819,
             "id": null,
             "generator": false,
             "async": false,
             "params": [],
             "body": {
               "type": "BlockStatement",
-              "start": 785,
-              "end": 819,
               "body": [
                 {
                   "type": "ExpressionStatement",
-                  "start": 789,
-                  "end": 817,
                   "expression": {
                     "type": "CallExpression",
-                    "start": 789,
-                    "end": 816,
                     "callee": {
                       "type": "MemberExpression",
-                      "start": 789,
-                      "end": 806,
                       "object": {
                         "type": "Identifier",
+                        "name": "dtf",
                         "start": 789,
-                        "end": 792,
-                        "name": "dtf"
+                        "end": 792
                       },
                       "property": {
                         "type": "Identifier",
+                        "name": "formatToParts",
                         "start": 793,
-                        "end": 806,
-                        "name": "formatToParts"
+                        "end": 806
                       },
                       "optional": false,
-                      "computed": false
+                      "computed": false,
+                      "start": 789,
+                      "end": 806
                     },
                     "arguments": [
                       {
                         "type": "Identifier",
+                        "name": "Infinity",
                         "start": 807,
-                        "end": 815,
-                        "name": "Infinity"
+                        "end": 815
                       }
                     ],
-                    "optional": false
-                  }
+                    "optional": false,
+                    "start": 789,
+                    "end": 816
+                  },
+                  "start": 789,
+                  "end": 817
                 }
-              ]
+              ],
+              "start": 785,
+              "end": 819
             },
-            "expression": false
+            "expression": false,
+            "start": 774,
+            "end": 819
           },
           {
             "type": "Literal",
-            "start": 821,
-            "end": 832,
             "value": "+Infinity",
-            "raw": "\"+Infinity\""
+            "raw": "\"+Infinity\"",
+            "start": 821,
+            "end": 832
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 748,
+        "end": 833
+      },
+      "start": 748,
+      "end": 834
     },
     {
       "type": "ExpressionStatement",
-      "start": 836,
-      "end": 923,
       "expression": {
         "type": "CallExpression",
-        "start": 836,
-        "end": 922,
         "callee": {
           "type": "MemberExpression",
-          "start": 836,
-          "end": 849,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 836,
-            "end": 842,
-            "name": "assert"
+            "end": 842
           },
           "property": {
             "type": "Identifier",
+            "name": "throws",
             "start": 843,
-            "end": 849,
-            "name": "throws"
+            "end": 849
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 836,
+          "end": 849
         },
         "arguments": [
           {
             "type": "Identifier",
+            "name": "RangeError",
             "start": 850,
-            "end": 860,
-            "name": "RangeError"
+            "end": 860
           },
           {
             "type": "FunctionExpression",
-            "start": 862,
-            "end": 908,
             "id": null,
             "generator": false,
             "async": false,
             "params": [],
             "body": {
               "type": "BlockStatement",
-              "start": 873,
-              "end": 908,
               "body": [
                 {
                   "type": "ExpressionStatement",
-                  "start": 877,
-                  "end": 906,
                   "expression": {
                     "type": "CallExpression",
-                    "start": 877,
-                    "end": 905,
                     "callee": {
                       "type": "MemberExpression",
-                      "start": 877,
-                      "end": 894,
                       "object": {
                         "type": "Identifier",
+                        "name": "dtf",
                         "start": 877,
-                        "end": 880,
-                        "name": "dtf"
+                        "end": 880
                       },
                       "property": {
                         "type": "Identifier",
+                        "name": "formatToParts",
                         "start": 881,
-                        "end": 894,
-                        "name": "formatToParts"
+                        "end": 894
                       },
                       "optional": false,
-                      "computed": false
+                      "computed": false,
+                      "start": 877,
+                      "end": 894
                     },
                     "arguments": [
                       {
                         "type": "UnaryExpression",
-                        "start": 895,
-                        "end": 904,
                         "operator": "-",
                         "argument": {
                           "type": "Identifier",
+                          "name": "Infinity",
                           "start": 896,
-                          "end": 904,
-                          "name": "Infinity"
+                          "end": 904
                         },
-                        "prefix": true
+                        "prefix": true,
+                        "start": 895,
+                        "end": 904
                       }
                     ],
-                    "optional": false
-                  }
+                    "optional": false,
+                    "start": 877,
+                    "end": 905
+                  },
+                  "start": 877,
+                  "end": 906
                 }
-              ]
+              ],
+              "start": 873,
+              "end": 908
             },
-            "expression": false
+            "expression": false,
+            "start": 862,
+            "end": 908
           },
           {
             "type": "Literal",
-            "start": 910,
-            "end": 921,
             "value": "-Infinity",
-            "raw": "\"-Infinity\""
+            "raw": "\"-Infinity\"",
+            "start": 910,
+            "end": 921
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 836,
+        "end": 922
+      },
+      "start": 836,
+      "end": 923
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 924
 }

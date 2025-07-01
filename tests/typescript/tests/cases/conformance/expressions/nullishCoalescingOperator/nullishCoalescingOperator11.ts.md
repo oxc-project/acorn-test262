@@ -2,70 +2,58 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 83,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 0,
-      "end": 49,
       "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 14,
-          "end": 48,
           "id": {
             "type": "Identifier",
-            "start": 14,
-            "end": 48,
             "decorators": [],
             "name": "f11",
             "optional": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
-              "start": 17,
-              "end": 48,
               "typeAnnotation": {
                 "type": "TSUnionType",
-                "start": 19,
-                "end": 48,
                 "types": [
                   {
                     "type": "TSLiteralType",
-                    "start": 19,
-                    "end": 20,
                     "literal": {
                       "type": "Literal",
-                      "start": 19,
-                      "end": 20,
                       "value": 1,
-                      "raw": "1"
-                    }
+                      "raw": "1",
+                      "start": 19,
+                      "end": 20
+                    },
+                    "start": 19,
+                    "end": 20
                   },
                   {
                     "type": "TSLiteralType",
-                    "start": 23,
-                    "end": 24,
                     "literal": {
                       "type": "Literal",
-                      "start": 23,
-                      "end": 24,
                       "value": 0,
-                      "raw": "0"
-                    }
+                      "raw": "0",
+                      "start": 23,
+                      "end": 24
+                    },
+                    "start": 23,
+                    "end": 24
                   },
                   {
                     "type": "TSLiteralType",
-                    "start": 27,
-                    "end": 29,
                     "literal": {
                       "type": "Literal",
-                      "start": 27,
-                      "end": 29,
                       "value": "",
-                      "raw": "''"
-                    }
+                      "raw": "''",
+                      "start": 27,
+                      "end": 29
+                    },
+                    "start": 27,
+                    "end": 29
                   },
                   {
                     "type": "TSNullKeyword",
@@ -77,90 +65,102 @@ __ESTREE_TEST__:PASS:
                     "start": 39,
                     "end": 48
                   }
-                ]
-              }
-            }
+                ],
+                "start": 19,
+                "end": 48
+              },
+              "start": 17,
+              "end": 48
+            },
+            "start": 14,
+            "end": 48
           },
           "init": null,
-          "definite": false
+          "definite": false,
+          "start": 14,
+          "end": 48
         }
       ],
-      "declare": true
+      "declare": true,
+      "start": 0,
+      "end": 49
     },
     {
       "type": "VariableDeclaration",
-      "start": 51,
-      "end": 81,
       "kind": "let",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 55,
-          "end": 81,
           "id": {
             "type": "Identifier",
-            "start": 55,
-            "end": 58,
             "decorators": [],
             "name": "g11",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 55,
+            "end": 58
           },
           "init": {
             "type": "LogicalExpression",
-            "start": 61,
-            "end": 81,
             "left": {
               "type": "Identifier",
-              "start": 61,
-              "end": 64,
               "decorators": [],
               "name": "f11",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 61,
+              "end": 64
             },
             "operator": "??",
             "right": {
               "type": "CallExpression",
-              "start": 68,
-              "end": 81,
               "callee": {
                 "type": "MemberExpression",
-                "start": 68,
-                "end": 79,
                 "object": {
                   "type": "Identifier",
-                  "start": 68,
-                  "end": 71,
                   "decorators": [],
                   "name": "f11",
                   "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "start": 68,
+                  "end": 71
                 },
                 "property": {
                   "type": "Identifier",
-                  "start": 72,
-                  "end": 79,
                   "decorators": [],
                   "name": "toFixed",
                   "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "start": 72,
+                  "end": 79
                 },
                 "optional": false,
-                "computed": false
+                "computed": false,
+                "start": 68,
+                "end": 79
               },
               "typeArguments": null,
               "arguments": [],
-              "optional": false
-            }
+              "optional": false,
+              "start": 68,
+              "end": 81
+            },
+            "start": 61,
+            "end": 81
           },
-          "definite": false
+          "definite": false,
+          "start": 55,
+          "end": 81
         }
       ],
-      "declare": false
+      "declare": false,
+      "start": 51,
+      "end": 81
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 83
 }
 ```

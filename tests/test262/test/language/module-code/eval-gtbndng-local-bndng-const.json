@@ -1,80 +1,80 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 670,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 609,
-      "end": 633,
       "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 615,
-          "end": 632,
           "id": {
             "type": "Identifier",
+            "name": "constBinding",
             "start": 615,
-            "end": 627,
-            "name": "constBinding"
+            "end": 627
           },
           "init": {
             "type": "Literal",
-            "start": 630,
-            "end": 632,
             "value": 89,
-            "raw": "89"
-          }
+            "raw": "89",
+            "start": 630,
+            "end": 632
+          },
+          "start": 615,
+          "end": 632
         }
-      ]
+      ],
+      "start": 609,
+      "end": 633
     },
     {
       "type": "ExpressionStatement",
-      "start": 634,
-      "end": 669,
       "expression": {
         "type": "CallExpression",
-        "start": 634,
-        "end": 668,
         "callee": {
           "type": "MemberExpression",
-          "start": 634,
-          "end": 650,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 634,
-            "end": 640,
-            "name": "assert"
+            "end": 640
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 641,
-            "end": 650,
-            "name": "sameValue"
+            "end": 650
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 634,
+          "end": 650
         },
         "arguments": [
           {
             "type": "Identifier",
+            "name": "constBinding",
             "start": 651,
-            "end": 663,
-            "name": "constBinding"
+            "end": 663
           },
           {
             "type": "Literal",
-            "start": 665,
-            "end": 667,
             "value": 89,
-            "raw": "89"
+            "raw": "89",
+            "start": 665,
+            "end": 667
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 634,
+        "end": 668
+      },
+      "start": 634,
+      "end": 669
     }
   ],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 670
 }

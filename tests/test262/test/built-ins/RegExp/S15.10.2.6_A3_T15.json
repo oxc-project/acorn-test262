@@ -1,106 +1,106 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 569,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 427,
-      "end": 495,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 431,
-          "end": 494,
           "id": {
             "type": "Identifier",
+            "name": "__executed",
             "start": 431,
-            "end": 441,
-            "name": "__executed"
+            "end": 441
           },
           "init": {
             "type": "CallExpression",
-            "start": 444,
-            "end": 494,
             "callee": {
               "type": "MemberExpression",
-              "start": 444,
-              "end": 454,
               "object": {
                 "type": "Literal",
-                "start": 444,
-                "end": 449,
                 "value": null,
                 "raw": "/\\be/",
                 "regex": {
                   "pattern": "\\be",
                   "flags": ""
-                }
+                },
+                "start": 444,
+                "end": 449
               },
               "property": {
                 "type": "Identifier",
+                "name": "test",
                 "start": 450,
-                "end": 454,
-                "name": "test"
+                "end": 454
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 444,
+              "end": 454
             },
             "arguments": [
               {
                 "type": "Literal",
-                "start": 455,
-                "end": 493,
                 "value": "pilot\nsoviet robot\topenoffice",
-                "raw": "\"pilot\\nsoviet robot\\topenoffic\\u0065\""
+                "raw": "\"pilot\\nsoviet robot\\topenoffic\\u0065\"",
+                "start": 455,
+                "end": 493
               }
             ],
-            "optional": false
-          }
+            "optional": false,
+            "start": 444,
+            "end": 494
+          },
+          "start": 431,
+          "end": 494
         }
-      ]
+      ],
+      "start": 427,
+      "end": 495
     },
     {
       "type": "ExpressionStatement",
-      "start": 497,
-      "end": 568,
       "expression": {
         "type": "CallExpression",
-        "start": 497,
-        "end": 567,
         "callee": {
           "type": "Identifier",
+          "name": "assert",
           "start": 497,
-          "end": 503,
-          "name": "assert"
+          "end": 503
         },
         "arguments": [
           {
             "type": "UnaryExpression",
-            "start": 504,
-            "end": 515,
             "operator": "!",
             "argument": {
               "type": "Identifier",
+              "name": "__executed",
               "start": 505,
-              "end": 515,
-              "name": "__executed"
+              "end": 515
             },
-            "prefix": true
+            "prefix": true,
+            "start": 504,
+            "end": 515
           },
           {
             "type": "Literal",
-            "start": 517,
-            "end": 566,
             "value": "The value of !__executed is expected to be true",
-            "raw": "'The value of !__executed is expected to be true'"
+            "raw": "'The value of !__executed is expected to be true'",
+            "start": 517,
+            "end": 566
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 497,
+        "end": 567
+      },
+      "start": 497,
+      "end": 568
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 569
 }

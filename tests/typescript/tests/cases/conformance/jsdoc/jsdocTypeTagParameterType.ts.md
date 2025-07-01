@@ -2,102 +2,98 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 38,
-  "end": 172,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 38,
-      "end": 93,
       "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 44,
-          "end": 92,
           "id": {
             "type": "Identifier",
-            "start": 44,
-            "end": 45,
             "decorators": [],
             "name": "f",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 44,
+            "end": 45
           },
           "init": {
             "type": "ArrowFunctionExpression",
-            "start": 48,
-            "end": 92,
             "expression": false,
             "async": false,
             "typeParameters": null,
             "params": [
               {
                 "type": "Identifier",
-                "start": 49,
-                "end": 54,
                 "decorators": [],
                 "name": "value",
                 "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "start": 49,
+                "end": 54
               }
             ],
             "returnType": null,
             "body": {
               "type": "BlockStatement",
-              "start": 59,
-              "end": 92,
               "body": [
                 {
                   "type": "ExpressionStatement",
-                  "start": 65,
-                  "end": 74,
                   "expression": {
                     "type": "AssignmentExpression",
-                    "start": 65,
-                    "end": 74,
                     "operator": "=",
                     "left": {
                       "type": "Identifier",
-                      "start": 65,
-                      "end": 70,
                       "decorators": [],
                       "name": "value",
                       "optional": false,
-                      "typeAnnotation": null
+                      "typeAnnotation": null,
+                      "start": 65,
+                      "end": 70
                     },
                     "right": {
                       "type": "Literal",
-                      "start": 73,
-                      "end": 74,
                       "value": 1,
-                      "raw": "1"
-                    }
+                      "raw": "1",
+                      "start": 73,
+                      "end": 74
+                    },
+                    "start": 65,
+                    "end": 74
                   },
-                  "directive": null
+                  "directive": null,
+                  "start": 65,
+                  "end": 74
                 }
-              ]
+              ],
+              "start": 59,
+              "end": 92
             },
             "id": null,
-            "generator": false
+            "generator": false,
+            "start": 48,
+            "end": 92
           },
-          "definite": false
+          "definite": false,
+          "start": 44,
+          "end": 92
         }
       ],
-      "declare": false
+      "declare": false,
+      "start": 38,
+      "end": 93
     },
     {
       "type": "FunctionDeclaration",
-      "start": 129,
-      "end": 172,
       "id": {
         "type": "Identifier",
-        "start": 138,
-        "end": 139,
         "decorators": [],
         "name": "g",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 138,
+        "end": 139
       },
       "generator": false,
       "async": false,
@@ -106,54 +102,58 @@ __ESTREE_TEST__:PASS:
       "params": [
         {
           "type": "Identifier",
-          "start": 140,
-          "end": 141,
           "decorators": [],
           "name": "s",
           "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "start": 140,
+          "end": 141
         }
       ],
       "returnType": null,
       "body": {
         "type": "BlockStatement",
-        "start": 143,
-        "end": 172,
         "body": [
           {
             "type": "ExpressionStatement",
-            "start": 149,
-            "end": 154,
             "expression": {
               "type": "AssignmentExpression",
-              "start": 149,
-              "end": 154,
               "operator": "=",
               "left": {
                 "type": "Identifier",
-                "start": 149,
-                "end": 150,
                 "decorators": [],
                 "name": "s",
                 "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "start": 149,
+                "end": 150
               },
               "right": {
                 "type": "Literal",
-                "start": 153,
-                "end": 154,
                 "value": 1,
-                "raw": "1"
-              }
+                "raw": "1",
+                "start": 153,
+                "end": 154
+              },
+              "start": 149,
+              "end": 154
             },
-            "directive": null
+            "directive": null,
+            "start": 149,
+            "end": 154
           }
-        ]
+        ],
+        "start": 143,
+        "end": 172
       },
-      "expression": false
+      "expression": false,
+      "start": 129,
+      "end": 172
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 38,
+  "end": 172
 }
 ```

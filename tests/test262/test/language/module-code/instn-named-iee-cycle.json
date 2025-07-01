@@ -1,517 +1,517 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 2869,
   "body": [
     {
       "type": "ImportDeclaration",
-      "start": 2010,
-      "end": 2067,
       "specifiers": [
         {
           "type": "ImportSpecifier",
-          "start": 2019,
-          "end": 2020,
           "imported": {
             "type": "Identifier",
+            "name": "a",
             "start": 2019,
-            "end": 2020,
-            "name": "a"
+            "end": 2020
           },
           "local": {
             "type": "Identifier",
+            "name": "a",
             "start": 2019,
-            "end": 2020,
-            "name": "a"
-          }
+            "end": 2020
+          },
+          "start": 2019,
+          "end": 2020
         }
       ],
       "source": {
         "type": "Literal",
-        "start": 2028,
-        "end": 2066,
         "value": "./instn-named-iee-cycle-2_FIXTURE.js",
-        "raw": "'./instn-named-iee-cycle-2_FIXTURE.js'"
+        "raw": "'./instn-named-iee-cycle-2_FIXTURE.js'",
+        "start": 2028,
+        "end": 2066
       },
       "phase": null,
-      "attributes": []
+      "attributes": [],
+      "start": 2010,
+      "end": 2067
     },
     {
       "type": "ExportNamedDeclaration",
-      "start": 2068,
-      "end": 2130,
       "declaration": null,
       "specifiers": [
         {
           "type": "ExportSpecifier",
-          "start": 2077,
-          "end": 2083,
           "local": {
             "type": "Identifier",
+            "name": "c",
             "start": 2077,
-            "end": 2078,
-            "name": "c"
+            "end": 2078
           },
           "exported": {
             "type": "Identifier",
+            "name": "b",
             "start": 2082,
-            "end": 2083,
-            "name": "b"
-          }
+            "end": 2083
+          },
+          "start": 2077,
+          "end": 2083
         }
       ],
       "source": {
         "type": "Literal",
+        "value": "./instn-named-iee-cycle-2_FIXTURE.js",
+        "raw": "'./instn-named-iee-cycle-2_FIXTURE.js'",
         "start": 2091,
-        "end": 2129,
-        "value": "./instn-named-iee-cycle-2_FIXTURE.js",
-        "raw": "'./instn-named-iee-cycle-2_FIXTURE.js'"
+        "end": 2129
       },
-      "attributes": []
+      "attributes": [],
+      "start": 2068,
+      "end": 2130
     },
     {
       "type": "ExportNamedDeclaration",
-      "start": 2131,
-      "end": 2193,
       "declaration": null,
       "specifiers": [
         {
           "type": "ExportSpecifier",
-          "start": 2140,
-          "end": 2146,
           "local": {
             "type": "Identifier",
+            "name": "e",
             "start": 2140,
-            "end": 2141,
-            "name": "e"
+            "end": 2141
           },
           "exported": {
             "type": "Identifier",
+            "name": "d",
             "start": 2145,
-            "end": 2146,
-            "name": "d"
-          }
+            "end": 2146
+          },
+          "start": 2140,
+          "end": 2146
         }
       ],
       "source": {
         "type": "Literal",
+        "value": "./instn-named-iee-cycle-2_FIXTURE.js",
+        "raw": "'./instn-named-iee-cycle-2_FIXTURE.js'",
         "start": 2154,
-        "end": 2192,
-        "value": "./instn-named-iee-cycle-2_FIXTURE.js",
-        "raw": "'./instn-named-iee-cycle-2_FIXTURE.js'"
+        "end": 2192
       },
-      "attributes": []
+      "attributes": [],
+      "start": 2131,
+      "end": 2193
     },
     {
       "type": "ExportNamedDeclaration",
-      "start": 2194,
-      "end": 2256,
       "declaration": null,
       "specifiers": [
         {
           "type": "ExportSpecifier",
-          "start": 2203,
-          "end": 2209,
           "local": {
             "type": "Identifier",
+            "name": "g",
             "start": 2203,
-            "end": 2204,
-            "name": "g"
+            "end": 2204
           },
           "exported": {
             "type": "Identifier",
+            "name": "f",
             "start": 2208,
-            "end": 2209,
-            "name": "f"
-          }
+            "end": 2209
+          },
+          "start": 2203,
+          "end": 2209
         }
       ],
       "source": {
         "type": "Literal",
+        "value": "./instn-named-iee-cycle-2_FIXTURE.js",
+        "raw": "'./instn-named-iee-cycle-2_FIXTURE.js'",
         "start": 2217,
-        "end": 2255,
-        "value": "./instn-named-iee-cycle-2_FIXTURE.js",
-        "raw": "'./instn-named-iee-cycle-2_FIXTURE.js'"
+        "end": 2255
       },
-      "attributes": []
+      "attributes": [],
+      "start": 2194,
+      "end": 2256
     },
     {
       "type": "ExportNamedDeclaration",
-      "start": 2257,
-      "end": 2319,
       "declaration": null,
       "specifiers": [
         {
           "type": "ExportSpecifier",
-          "start": 2266,
-          "end": 2272,
           "local": {
             "type": "Identifier",
+            "name": "i",
             "start": 2266,
-            "end": 2267,
-            "name": "i"
+            "end": 2267
           },
           "exported": {
             "type": "Identifier",
+            "name": "h",
             "start": 2271,
-            "end": 2272,
-            "name": "h"
-          }
+            "end": 2272
+          },
+          "start": 2266,
+          "end": 2272
         }
       ],
       "source": {
         "type": "Literal",
+        "value": "./instn-named-iee-cycle-2_FIXTURE.js",
+        "raw": "'./instn-named-iee-cycle-2_FIXTURE.js'",
         "start": 2280,
-        "end": 2318,
-        "value": "./instn-named-iee-cycle-2_FIXTURE.js",
-        "raw": "'./instn-named-iee-cycle-2_FIXTURE.js'"
+        "end": 2318
       },
-      "attributes": []
+      "attributes": [],
+      "start": 2257,
+      "end": 2319
     },
     {
       "type": "ExportNamedDeclaration",
-      "start": 2320,
-      "end": 2382,
       "declaration": null,
       "specifiers": [
         {
           "type": "ExportSpecifier",
-          "start": 2329,
-          "end": 2335,
           "local": {
             "type": "Identifier",
+            "name": "k",
             "start": 2329,
-            "end": 2330,
-            "name": "k"
+            "end": 2330
           },
           "exported": {
             "type": "Identifier",
+            "name": "j",
             "start": 2334,
-            "end": 2335,
-            "name": "j"
-          }
+            "end": 2335
+          },
+          "start": 2329,
+          "end": 2335
         }
       ],
       "source": {
         "type": "Literal",
+        "value": "./instn-named-iee-cycle-2_FIXTURE.js",
+        "raw": "'./instn-named-iee-cycle-2_FIXTURE.js'",
         "start": 2343,
-        "end": 2381,
-        "value": "./instn-named-iee-cycle-2_FIXTURE.js",
-        "raw": "'./instn-named-iee-cycle-2_FIXTURE.js'"
+        "end": 2381
       },
-      "attributes": []
+      "attributes": [],
+      "start": 2320,
+      "end": 2382
     },
     {
       "type": "ExportNamedDeclaration",
-      "start": 2383,
-      "end": 2445,
       "declaration": null,
       "specifiers": [
         {
           "type": "ExportSpecifier",
-          "start": 2392,
-          "end": 2398,
           "local": {
             "type": "Identifier",
+            "name": "m",
             "start": 2392,
-            "end": 2393,
-            "name": "m"
+            "end": 2393
           },
           "exported": {
             "type": "Identifier",
+            "name": "l",
             "start": 2397,
-            "end": 2398,
-            "name": "l"
-          }
+            "end": 2398
+          },
+          "start": 2392,
+          "end": 2398
         }
       ],
       "source": {
         "type": "Literal",
+        "value": "./instn-named-iee-cycle-2_FIXTURE.js",
+        "raw": "'./instn-named-iee-cycle-2_FIXTURE.js'",
         "start": 2406,
-        "end": 2444,
-        "value": "./instn-named-iee-cycle-2_FIXTURE.js",
-        "raw": "'./instn-named-iee-cycle-2_FIXTURE.js'"
+        "end": 2444
       },
-      "attributes": []
+      "attributes": [],
+      "start": 2383,
+      "end": 2445
     },
     {
       "type": "ExportNamedDeclaration",
-      "start": 2446,
-      "end": 2508,
       "declaration": null,
       "specifiers": [
         {
           "type": "ExportSpecifier",
-          "start": 2455,
-          "end": 2461,
           "local": {
             "type": "Identifier",
+            "name": "o",
             "start": 2455,
-            "end": 2456,
-            "name": "o"
+            "end": 2456
           },
           "exported": {
             "type": "Identifier",
+            "name": "n",
             "start": 2460,
-            "end": 2461,
-            "name": "n"
-          }
+            "end": 2461
+          },
+          "start": 2455,
+          "end": 2461
         }
       ],
       "source": {
         "type": "Literal",
+        "value": "./instn-named-iee-cycle-2_FIXTURE.js",
+        "raw": "'./instn-named-iee-cycle-2_FIXTURE.js'",
         "start": 2469,
-        "end": 2507,
-        "value": "./instn-named-iee-cycle-2_FIXTURE.js",
-        "raw": "'./instn-named-iee-cycle-2_FIXTURE.js'"
+        "end": 2507
       },
-      "attributes": []
+      "attributes": [],
+      "start": 2446,
+      "end": 2508
     },
     {
       "type": "ExportNamedDeclaration",
-      "start": 2509,
-      "end": 2571,
       "declaration": null,
       "specifiers": [
         {
           "type": "ExportSpecifier",
-          "start": 2518,
-          "end": 2524,
           "local": {
             "type": "Identifier",
+            "name": "q",
             "start": 2518,
-            "end": 2519,
-            "name": "q"
+            "end": 2519
           },
           "exported": {
             "type": "Identifier",
+            "name": "p",
             "start": 2523,
-            "end": 2524,
-            "name": "p"
-          }
+            "end": 2524
+          },
+          "start": 2518,
+          "end": 2524
         }
       ],
       "source": {
         "type": "Literal",
+        "value": "./instn-named-iee-cycle-2_FIXTURE.js",
+        "raw": "'./instn-named-iee-cycle-2_FIXTURE.js'",
         "start": 2532,
-        "end": 2570,
-        "value": "./instn-named-iee-cycle-2_FIXTURE.js",
-        "raw": "'./instn-named-iee-cycle-2_FIXTURE.js'"
+        "end": 2570
       },
-      "attributes": []
+      "attributes": [],
+      "start": 2509,
+      "end": 2571
     },
     {
       "type": "ExportNamedDeclaration",
-      "start": 2572,
-      "end": 2634,
       "declaration": null,
       "specifiers": [
         {
           "type": "ExportSpecifier",
-          "start": 2581,
-          "end": 2587,
           "local": {
             "type": "Identifier",
+            "name": "s",
             "start": 2581,
-            "end": 2582,
-            "name": "s"
+            "end": 2582
           },
           "exported": {
             "type": "Identifier",
+            "name": "r",
             "start": 2586,
-            "end": 2587,
-            "name": "r"
-          }
+            "end": 2587
+          },
+          "start": 2581,
+          "end": 2587
         }
       ],
       "source": {
         "type": "Literal",
+        "value": "./instn-named-iee-cycle-2_FIXTURE.js",
+        "raw": "'./instn-named-iee-cycle-2_FIXTURE.js'",
         "start": 2595,
-        "end": 2633,
-        "value": "./instn-named-iee-cycle-2_FIXTURE.js",
-        "raw": "'./instn-named-iee-cycle-2_FIXTURE.js'"
+        "end": 2633
       },
-      "attributes": []
+      "attributes": [],
+      "start": 2572,
+      "end": 2634
     },
     {
       "type": "ExportNamedDeclaration",
-      "start": 2635,
-      "end": 2697,
       "declaration": null,
       "specifiers": [
         {
           "type": "ExportSpecifier",
-          "start": 2644,
-          "end": 2650,
           "local": {
             "type": "Identifier",
+            "name": "u",
             "start": 2644,
-            "end": 2645,
-            "name": "u"
+            "end": 2645
           },
           "exported": {
             "type": "Identifier",
+            "name": "t",
             "start": 2649,
-            "end": 2650,
-            "name": "t"
-          }
+            "end": 2650
+          },
+          "start": 2644,
+          "end": 2650
         }
       ],
       "source": {
         "type": "Literal",
+        "value": "./instn-named-iee-cycle-2_FIXTURE.js",
+        "raw": "'./instn-named-iee-cycle-2_FIXTURE.js'",
         "start": 2658,
-        "end": 2696,
-        "value": "./instn-named-iee-cycle-2_FIXTURE.js",
-        "raw": "'./instn-named-iee-cycle-2_FIXTURE.js'"
+        "end": 2696
       },
-      "attributes": []
+      "attributes": [],
+      "start": 2635,
+      "end": 2697
     },
     {
       "type": "ExportNamedDeclaration",
-      "start": 2698,
-      "end": 2760,
       "declaration": null,
       "specifiers": [
         {
           "type": "ExportSpecifier",
-          "start": 2707,
-          "end": 2713,
           "local": {
             "type": "Identifier",
+            "name": "w",
             "start": 2707,
-            "end": 2708,
-            "name": "w"
+            "end": 2708
           },
           "exported": {
             "type": "Identifier",
+            "name": "v",
             "start": 2712,
-            "end": 2713,
-            "name": "v"
-          }
+            "end": 2713
+          },
+          "start": 2707,
+          "end": 2713
         }
       ],
       "source": {
         "type": "Literal",
-        "start": 2721,
-        "end": 2759,
         "value": "./instn-named-iee-cycle-2_FIXTURE.js",
-        "raw": "'./instn-named-iee-cycle-2_FIXTURE.js'"
+        "raw": "'./instn-named-iee-cycle-2_FIXTURE.js'",
+        "start": 2721,
+        "end": 2759
       },
-      "attributes": []
+      "attributes": [],
+      "start": 2698,
+      "end": 2760
     },
     {
       "type": "ExportNamedDeclaration",
-      "start": 2761,
-      "end": 2823,
       "declaration": null,
       "specifiers": [
         {
           "type": "ExportSpecifier",
-          "start": 2770,
-          "end": 2776,
           "local": {
             "type": "Identifier",
+            "name": "y",
             "start": 2770,
-            "end": 2771,
-            "name": "y"
+            "end": 2771
           },
           "exported": {
             "type": "Identifier",
+            "name": "x",
             "start": 2775,
-            "end": 2776,
-            "name": "x"
-          }
+            "end": 2776
+          },
+          "start": 2770,
+          "end": 2776
         }
       ],
       "source": {
         "type": "Literal",
-        "start": 2784,
-        "end": 2822,
         "value": "./instn-named-iee-cycle-2_FIXTURE.js",
-        "raw": "'./instn-named-iee-cycle-2_FIXTURE.js'"
+        "raw": "'./instn-named-iee-cycle-2_FIXTURE.js'",
+        "start": 2784,
+        "end": 2822
       },
-      "attributes": []
+      "attributes": [],
+      "start": 2761,
+      "end": 2823
     },
     {
       "type": "ExportNamedDeclaration",
-      "start": 2824,
-      "end": 2842,
       "declaration": {
         "type": "VariableDeclaration",
-        "start": 2831,
-        "end": 2842,
         "kind": "var",
         "declarations": [
           {
             "type": "VariableDeclarator",
-            "start": 2835,
-            "end": 2841,
             "id": {
               "type": "Identifier",
+              "name": "z",
               "start": 2835,
-              "end": 2836,
-              "name": "z"
+              "end": 2836
             },
             "init": {
               "type": "Literal",
-              "start": 2839,
-              "end": 2841,
               "value": 23,
-              "raw": "23"
-            }
+              "raw": "23",
+              "start": 2839,
+              "end": 2841
+            },
+            "start": 2835,
+            "end": 2841
           }
-        ]
+        ],
+        "start": 2831,
+        "end": 2842
       },
       "specifiers": [],
       "source": null,
-      "attributes": []
+      "attributes": [],
+      "start": 2824,
+      "end": 2842
     },
     {
       "type": "ExpressionStatement",
-      "start": 2844,
-      "end": 2868,
       "expression": {
         "type": "CallExpression",
-        "start": 2844,
-        "end": 2867,
         "callee": {
           "type": "MemberExpression",
-          "start": 2844,
-          "end": 2860,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 2844,
-            "end": 2850,
-            "name": "assert"
+            "end": 2850
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 2851,
-            "end": 2860,
-            "name": "sameValue"
+            "end": 2860
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 2844,
+          "end": 2860
         },
         "arguments": [
           {
             "type": "Identifier",
+            "name": "a",
             "start": 2861,
-            "end": 2862,
-            "name": "a"
+            "end": 2862
           },
           {
             "type": "Literal",
-            "start": 2864,
-            "end": 2866,
             "value": 23,
-            "raw": "23"
+            "raw": "23",
+            "start": 2864,
+            "end": 2866
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 2844,
+        "end": 2867
+      },
+      "start": 2844,
+      "end": 2868
     }
   ],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 2869
 }

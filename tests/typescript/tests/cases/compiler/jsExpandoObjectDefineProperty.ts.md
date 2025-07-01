@@ -2,214 +2,214 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 127,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 0,
-      "end": 15,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 4,
-          "end": 15,
           "id": {
             "type": "Identifier",
-            "start": 4,
-            "end": 10,
             "decorators": [],
             "name": "chrome",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 4,
+            "end": 10
           },
           "init": {
             "type": "ObjectExpression",
+            "properties": [],
             "start": 13,
-            "end": 15,
-            "properties": []
+            "end": 15
           },
-          "definite": false
+          "definite": false,
+          "start": 4,
+          "end": 15
         }
       ],
-      "declare": false
+      "declare": false,
+      "start": 0,
+      "end": 15
     },
     {
       "type": "ExpressionStatement",
-      "start": 16,
-      "end": 90,
       "expression": {
         "type": "CallExpression",
-        "start": 16,
-        "end": 90,
         "callee": {
           "type": "MemberExpression",
-          "start": 16,
-          "end": 37,
           "object": {
             "type": "Identifier",
-            "start": 16,
-            "end": 22,
             "decorators": [],
             "name": "Object",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 16,
+            "end": 22
           },
           "property": {
             "type": "Identifier",
-            "start": 23,
-            "end": 37,
             "decorators": [],
             "name": "defineProperty",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 23,
+            "end": 37
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 16,
+          "end": 37
         },
         "typeArguments": null,
         "arguments": [
           {
             "type": "Identifier",
-            "start": 38,
-            "end": 44,
             "decorators": [],
             "name": "chrome",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 38,
+            "end": 44
           },
           {
             "type": "Literal",
-            "start": 46,
-            "end": 56,
             "value": "devtools",
-            "raw": "'devtools'"
+            "raw": "'devtools'",
+            "start": 46,
+            "end": 56
           },
           {
             "type": "ObjectExpression",
-            "start": 58,
-            "end": 89,
             "properties": [
               {
                 "type": "Property",
-                "start": 60,
-                "end": 69,
                 "kind": "init",
                 "key": {
                   "type": "Identifier",
-                  "start": 60,
-                  "end": 65,
                   "decorators": [],
                   "name": "value",
                   "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "start": 60,
+                  "end": 65
                 },
                 "value": {
                   "type": "ObjectExpression",
+                  "properties": [],
                   "start": 67,
-                  "end": 69,
-                  "properties": []
+                  "end": 69
                 },
                 "method": false,
                 "shorthand": false,
                 "computed": false,
-                "optional": false
+                "optional": false,
+                "start": 60,
+                "end": 69
               },
               {
                 "type": "Property",
-                "start": 71,
-                "end": 87,
                 "kind": "init",
                 "key": {
                   "type": "Identifier",
-                  "start": 71,
-                  "end": 81,
                   "decorators": [],
                   "name": "enumerable",
                   "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "start": 71,
+                  "end": 81
                 },
                 "value": {
                   "type": "Literal",
-                  "start": 83,
-                  "end": 87,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "start": 83,
+                  "end": 87
                 },
                 "method": false,
                 "shorthand": false,
                 "computed": false,
-                "optional": false
+                "optional": false,
+                "start": 71,
+                "end": 87
               }
-            ]
+            ],
+            "start": 58,
+            "end": 89
           }
         ],
-        "optional": false
+        "optional": false,
+        "start": 16,
+        "end": 90
       },
-      "directive": null
+      "directive": null,
+      "start": 16,
+      "end": 90
     },
     {
       "type": "ExpressionStatement",
-      "start": 91,
-      "end": 127,
       "expression": {
         "type": "AssignmentExpression",
-        "start": 91,
-        "end": 127,
         "operator": "=",
         "left": {
           "type": "MemberExpression",
-          "start": 91,
-          "end": 122,
           "object": {
             "type": "MemberExpression",
-            "start": 91,
-            "end": 106,
             "object": {
               "type": "Identifier",
-              "start": 91,
-              "end": 97,
               "decorators": [],
               "name": "chrome",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 91,
+              "end": 97
             },
             "property": {
               "type": "Identifier",
-              "start": 98,
-              "end": 106,
               "decorators": [],
               "name": "devtools",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 98,
+              "end": 106
             },
             "optional": false,
-            "computed": false
+            "computed": false,
+            "start": 91,
+            "end": 106
           },
           "property": {
             "type": "Identifier",
-            "start": 107,
-            "end": 122,
             "decorators": [],
             "name": "inspectedWindow",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 107,
+            "end": 122
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 91,
+          "end": 122
         },
         "right": {
           "type": "ObjectExpression",
+          "properties": [],
           "start": 125,
-          "end": 127,
-          "properties": []
-        }
+          "end": 127
+        },
+        "start": 91,
+        "end": 127
       },
-      "directive": null
+      "directive": null,
+      "start": 91,
+      "end": 127
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 127
 }
 ```

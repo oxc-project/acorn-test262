@@ -2,97 +2,97 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 2,
-  "end": 121,
   "body": [
     {
       "type": "IfStatement",
-      "start": 2,
-      "end": 121,
       "test": {
         "type": "CallExpression",
-        "start": 6,
-        "end": 23,
         "callee": {
           "type": "MemberExpression",
-          "start": 6,
-          "end": 15,
           "object": {
             "type": "Identifier",
-            "start": 6,
-            "end": 7,
             "decorators": [],
             "name": "a",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 6,
+            "end": 7
           },
           "property": {
             "type": "Identifier",
-            "start": 8,
-            "end": 15,
             "decorators": [],
             "name": "indexOf",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 8,
+            "end": 15
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 6,
+          "end": 15
         },
         "typeArguments": null,
         "arguments": [
           {
             "type": "UnaryExpression",
-            "start": 16,
-            "end": 22,
             "operator": "-",
             "argument": {
               "type": "BinaryExpression",
-              "start": 18,
-              "end": 21,
               "left": {
                 "type": "Literal",
-                "start": 18,
-                "end": 19,
                 "value": 4,
-                "raw": "4"
+                "raw": "4",
+                "start": 18,
+                "end": 19
               },
               "operator": "/",
               "right": {
                 "type": "Literal",
-                "start": 20,
-                "end": 21,
                 "value": 3,
-                "raw": "3"
-              }
+                "raw": "3",
+                "start": 20,
+                "end": 21
+              },
+              "start": 18,
+              "end": 21
             },
-            "prefix": true
+            "prefix": true,
+            "start": 16,
+            "end": 22
           }
         ],
-        "optional": false
+        "optional": false,
+        "start": 6,
+        "end": 23
       },
       "consequent": {
         "type": "BlockStatement",
-        "start": 99,
-        "end": 121,
         "body": [
           {
             "type": "ReturnStatement",
-            "start": 105,
-            "end": 117,
             "argument": {
               "type": "Literal",
-              "start": 112,
-              "end": 116,
               "value": true,
-              "raw": "true"
-            }
+              "raw": "true",
+              "start": 112,
+              "end": 116
+            },
+            "start": 105,
+            "end": 117
           }
-        ]
+        ],
+        "start": 99,
+        "end": 121
       },
-      "alternate": null
+      "alternate": null,
+      "start": 2,
+      "end": 121
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 2,
+  "end": 121
 }
 ```

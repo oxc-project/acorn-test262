@@ -2,21 +2,17 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 151,
   "body": [
     {
       "type": "FunctionDeclaration",
-      "start": 0,
-      "end": 151,
       "id": {
         "type": "Identifier",
-        "start": 9,
-        "end": 10,
         "decorators": [],
         "name": "f",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 9,
+        "end": 10
       },
       "generator": false,
       "async": false,
@@ -26,111 +22,115 @@ __ESTREE_TEST__:PASS:
       "returnType": null,
       "body": {
         "type": "BlockStatement",
-        "start": 13,
-        "end": 151,
         "body": [
           {
             "type": "TryStatement",
-            "start": 19,
-            "end": 149,
             "block": {
               "type": "BlockStatement",
+              "body": [],
               "start": 23,
-              "end": 30,
-              "body": []
+              "end": 30
             },
             "handler": {
               "type": "CatchClause",
-              "start": 31,
-              "end": 149,
               "param": {
                 "type": "Identifier",
-                "start": 38,
-                "end": 39,
                 "decorators": [],
                 "name": "e",
                 "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "start": 38,
+                "end": 39
               },
               "body": {
                 "type": "BlockStatement",
-                "start": 41,
-                "end": 149,
                 "body": [
                   {
                     "type": "VariableDeclaration",
-                    "start": 51,
-                    "end": 72,
                     "kind": "var",
                     "declarations": [
                       {
                         "type": "VariableDeclarator",
-                        "start": 55,
-                        "end": 71,
                         "id": {
                           "type": "Identifier",
-                          "start": 55,
-                          "end": 61,
                           "decorators": [],
                           "name": "stack2",
                           "optional": false,
-                          "typeAnnotation": null
+                          "typeAnnotation": null,
+                          "start": 55,
+                          "end": 61
                         },
                         "init": {
                           "type": "MemberExpression",
-                          "start": 64,
-                          "end": 71,
                           "object": {
                             "type": "Identifier",
-                            "start": 64,
-                            "end": 65,
                             "decorators": [],
                             "name": "e",
                             "optional": false,
-                            "typeAnnotation": null
+                            "typeAnnotation": null,
+                            "start": 64,
+                            "end": 65
                           },
                           "property": {
                             "type": "Identifier",
-                            "start": 66,
-                            "end": 71,
                             "decorators": [],
                             "name": "stack",
                             "optional": false,
-                            "typeAnnotation": null
+                            "typeAnnotation": null,
+                            "start": 66,
+                            "end": 71
                           },
                           "optional": false,
-                          "computed": false
+                          "computed": false,
+                          "start": 64,
+                          "end": 71
                         },
-                        "definite": false
+                        "definite": false,
+                        "start": 55,
+                        "end": 71
                       }
                     ],
-                    "declare": false
+                    "declare": false,
+                    "start": 51,
+                    "end": 72
                   },
                   {
                     "type": "ReturnStatement",
-                    "start": 81,
-                    "end": 95,
                     "argument": {
                       "type": "Identifier",
-                      "start": 88,
-                      "end": 94,
                       "decorators": [],
                       "name": "stack2",
                       "optional": false,
-                      "typeAnnotation": null
-                    }
+                      "typeAnnotation": null,
+                      "start": 88,
+                      "end": 94
+                    },
+                    "start": 81,
+                    "end": 95
                   }
-                ]
-              }
+                ],
+                "start": 41,
+                "end": 149
+              },
+              "start": 31,
+              "end": 149
             },
-            "finalizer": null
+            "finalizer": null,
+            "start": 19,
+            "end": 149
           }
-        ]
+        ],
+        "start": 13,
+        "end": 151
       },
-      "expression": false
+      "expression": false,
+      "start": 0,
+      "end": 151
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 151
 }
 ```

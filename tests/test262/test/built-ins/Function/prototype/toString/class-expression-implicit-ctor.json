@@ -1,261 +1,261 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 956,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 325,
-      "end": 392,
       "kind": "let",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 329,
-          "end": 380,
           "id": {
             "type": "Identifier",
+            "name": "A",
             "start": 329,
-            "end": 330,
-            "name": "A"
+            "end": 330
           },
           "init": {
             "type": "ClassExpression",
-            "start": 345,
-            "end": 380,
             "decorators": [],
             "id": {
               "type": "Identifier",
+              "name": "A",
               "start": 359,
-              "end": 360,
-              "name": "A"
+              "end": 360
             },
             "superClass": null,
             "body": {
               "type": "ClassBody",
+              "body": [],
               "start": 369,
-              "end": 380,
-              "body": []
-            }
-          }
+              "end": 380
+            },
+            "start": 345,
+            "end": 380
+          },
+          "start": 329,
+          "end": 380
         }
-      ]
+      ],
+      "start": 325,
+      "end": 392
     },
     {
       "type": "VariableDeclaration",
-      "start": 393,
-      "end": 486,
       "kind": "let",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 397,
-          "end": 474,
           "id": {
             "type": "Identifier",
+            "name": "B",
             "start": 397,
-            "end": 398,
-            "name": "B"
+            "end": 398
           },
           "init": {
             "type": "ClassExpression",
-            "start": 413,
-            "end": 474,
             "decorators": [],
             "id": {
               "type": "Identifier",
+              "name": "B",
               "start": 427,
-              "end": 428,
-              "name": "B"
+              "end": 428
             },
             "superClass": {
               "type": "Identifier",
+              "name": "A",
               "start": 453,
-              "end": 454,
-              "name": "A"
+              "end": 454
             },
             "body": {
               "type": "ClassBody",
+              "body": [],
               "start": 463,
-              "end": 474,
-              "body": []
-            }
-          }
+              "end": 474
+            },
+            "start": 413,
+            "end": 474
+          },
+          "start": 397,
+          "end": 474
         }
-      ]
+      ],
+      "start": 393,
+      "end": 486
     },
     {
       "type": "VariableDeclaration",
-      "start": 487,
-      "end": 630,
       "kind": "let",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 491,
-          "end": 618,
           "id": {
             "type": "Identifier",
+            "name": "C",
             "start": 491,
-            "end": 492,
-            "name": "C"
+            "end": 492
           },
           "init": {
             "type": "ClassExpression",
-            "start": 507,
-            "end": 618,
             "decorators": [],
             "id": {
               "type": "Identifier",
+              "name": "C",
               "start": 521,
-              "end": 522,
-              "name": "C"
+              "end": 522
             },
             "superClass": {
               "type": "Identifier",
+              "name": "B",
               "start": 547,
-              "end": 548,
-              "name": "B"
+              "end": 548
             },
             "body": {
               "type": "ClassBody",
-              "start": 557,
-              "end": 618,
               "body": [
                 {
                   "type": "MethodDefinition",
-                  "start": 567,
-                  "end": 608,
                   "decorators": [],
                   "key": {
                     "type": "Identifier",
+                    "name": "m",
                     "start": 567,
-                    "end": 568,
-                    "name": "m"
+                    "end": 568
                   },
                   "value": {
                     "type": "FunctionExpression",
-                    "start": 577,
-                    "end": 608,
                     "id": null,
                     "generator": false,
                     "async": false,
                     "params": [],
                     "body": {
                       "type": "BlockStatement",
+                      "body": [],
                       "start": 597,
-                      "end": 608,
-                      "body": []
+                      "end": 608
                     },
-                    "expression": false
+                    "expression": false,
+                    "start": 577,
+                    "end": 608
                   },
                   "kind": "method",
                   "computed": false,
-                  "static": false
+                  "static": false,
+                  "start": 567,
+                  "end": 608
                 }
-              ]
-            }
-          }
+              ],
+              "start": 557,
+              "end": 618
+            },
+            "start": 507,
+            "end": 618
+          },
+          "start": 491,
+          "end": 618
         }
-      ]
+      ],
+      "start": 487,
+      "end": 630
     },
     {
       "type": "ExpressionStatement",
-      "start": 632,
-      "end": 705,
       "expression": {
         "type": "CallExpression",
-        "start": 632,
-        "end": 704,
         "callee": {
           "type": "Identifier",
+          "name": "assertToStringOrNativeFunction",
           "start": 632,
-          "end": 662,
-          "name": "assertToStringOrNativeFunction"
+          "end": 662
         },
         "arguments": [
           {
             "type": "Identifier",
+            "name": "A",
             "start": 663,
-            "end": 664,
-            "name": "A"
+            "end": 664
           },
           {
             "type": "Literal",
-            "start": 666,
-            "end": 703,
             "value": "class /* a */ A /* b */ { /* c */ }",
-            "raw": "\"class /* a */ A /* b */ { /* c */ }\""
+            "raw": "\"class /* a */ A /* b */ { /* c */ }\"",
+            "start": 666,
+            "end": 703
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 632,
+        "end": 704
+      },
+      "start": 632,
+      "end": 705
     },
     {
       "type": "ExpressionStatement",
-      "start": 706,
-      "end": 805,
       "expression": {
         "type": "CallExpression",
-        "start": 706,
-        "end": 804,
         "callee": {
           "type": "Identifier",
+          "name": "assertToStringOrNativeFunction",
           "start": 706,
-          "end": 736,
-          "name": "assertToStringOrNativeFunction"
+          "end": 736
         },
         "arguments": [
           {
             "type": "Identifier",
+            "name": "B",
             "start": 737,
-            "end": 738,
-            "name": "B"
+            "end": 738
           },
           {
             "type": "Literal",
-            "start": 740,
-            "end": 803,
             "value": "class /* a */ B /* b */ extends /* c */ A /* d */ { /* e */ }",
-            "raw": "\"class /* a */ B /* b */ extends /* c */ A /* d */ { /* e */ }\""
+            "raw": "\"class /* a */ B /* b */ extends /* c */ A /* d */ { /* e */ }\"",
+            "start": 740,
+            "end": 803
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 706,
+        "end": 804
+      },
+      "start": 706,
+      "end": 805
     },
     {
       "type": "ExpressionStatement",
-      "start": 806,
-      "end": 955,
       "expression": {
         "type": "CallExpression",
-        "start": 806,
-        "end": 954,
         "callee": {
           "type": "Identifier",
+          "name": "assertToStringOrNativeFunction",
           "start": 806,
-          "end": 836,
-          "name": "assertToStringOrNativeFunction"
+          "end": 836
         },
         "arguments": [
           {
             "type": "Identifier",
+            "name": "C",
             "start": 837,
-            "end": 838,
-            "name": "C"
+            "end": 838
           },
           {
             "type": "Literal",
-            "start": 840,
-            "end": 953,
             "value": "class /* a */ C /* b */ extends /* c */ B /* d */ { /* e */ m /* f */ ( /* g */ ) /* h */ { /* i */ } /* j */ }",
-            "raw": "\"class /* a */ C /* b */ extends /* c */ B /* d */ { /* e */ m /* f */ ( /* g */ ) /* h */ { /* i */ } /* j */ }\""
+            "raw": "\"class /* a */ C /* b */ extends /* c */ B /* d */ { /* e */ m /* f */ ( /* g */ ) /* h */ { /* i */ } /* j */ }\"",
+            "start": 840,
+            "end": 953
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 806,
+        "end": 954
+      },
+      "start": 806,
+      "end": 955
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 956
 }

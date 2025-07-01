@@ -2,17 +2,11 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 54,
   "body": [
     {
       "type": "ExportDefaultDeclaration",
-      "start": 0,
-      "end": 54,
       "declaration": {
         "type": "ClassDeclaration",
-        "start": 15,
-        "end": 54,
         "decorators": [],
         "id": null,
         "typeParameters": null,
@@ -21,39 +15,35 @@ __ESTREE_TEST__:PASS:
         "implements": [],
         "body": {
           "type": "ClassBody",
-          "start": 21,
-          "end": 54,
           "body": [
             {
               "type": "PropertyDefinition",
-              "start": 27,
-              "end": 52,
               "decorators": [],
               "key": {
                 "type": "Identifier",
-                "start": 34,
-                "end": 35,
                 "decorators": [],
                 "name": "z",
                 "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "start": 34,
+                "end": 35
               },
               "typeAnnotation": {
                 "type": "TSTypeAnnotation",
-                "start": 35,
-                "end": 43,
                 "typeAnnotation": {
                   "type": "TSStringKeyword",
                   "start": 37,
                   "end": 43
-                }
+                },
+                "start": 35,
+                "end": 43
               },
               "value": {
                 "type": "Literal",
-                "start": 46,
-                "end": 51,
                 "value": "Foo",
-                "raw": "\"Foo\""
+                "raw": "\"Foo\"",
+                "start": 46,
+                "end": 51
               },
               "computed": false,
               "static": true,
@@ -62,17 +52,27 @@ __ESTREE_TEST__:PASS:
               "optional": false,
               "definite": false,
               "readonly": false,
-              "accessibility": null
+              "accessibility": null,
+              "start": 27,
+              "end": 52
             }
-          ]
+          ],
+          "start": 21,
+          "end": 54
         },
         "abstract": false,
-        "declare": false
+        "declare": false,
+        "start": 15,
+        "end": 54
       },
-      "exportKind": "value"
+      "exportKind": "value",
+      "start": 0,
+      "end": 54
     }
   ],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 54
 }
 ```

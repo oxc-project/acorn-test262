@@ -1,40 +1,40 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 329,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 319,
-      "end": 321,
       "expression": {
         "type": "Identifier",
+        "name": "x",
         "start": 319,
-        "end": 320,
-        "name": "x"
-      }
+        "end": 320
+      },
+      "start": 319,
+      "end": 321
     },
     {
       "type": "VariableDeclaration",
-      "start": 322,
-      "end": 328,
       "kind": "let",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 326,
-          "end": 327,
           "id": {
             "type": "Identifier",
+            "name": "x",
             "start": 326,
-            "end": 327,
-            "name": "x"
+            "end": 327
           },
-          "init": null
+          "init": null,
+          "start": 326,
+          "end": 327
         }
-      ]
+      ],
+      "start": 322,
+      "end": 328
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 329
 }

@@ -1,72 +1,72 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 876,
   "body": [
     {
       "type": "ExportNamedDeclaration",
+      "declaration": null,
+      "specifiers": [],
+      "source": null,
+      "attributes": [],
       "start": 780,
-      "end": 789,
-      "declaration": null,
-      "specifiers": [],
-      "source": null,
-      "attributes": []
+      "end": 789
     },
     {
       "type": "ExportNamedDeclaration",
+      "declaration": null,
+      "specifiers": [],
+      "source": null,
+      "attributes": [],
       "start": 790,
-      "end": 800,
-      "declaration": null,
-      "specifiers": [],
-      "source": null,
-      "attributes": []
+      "end": 800
     },
     {
       "type": "ExportNamedDeclaration",
+      "declaration": null,
+      "specifiers": [],
+      "source": null,
+      "attributes": [],
       "start": 801,
-      "end": 810,
-      "declaration": null,
-      "specifiers": [],
-      "source": null,
-      "attributes": []
+      "end": 810
     },
     {
       "type": "ExportNamedDeclaration",
+      "declaration": null,
+      "specifiers": [],
+      "source": null,
+      "attributes": [],
       "start": 811,
-      "end": 822,
-      "declaration": null,
-      "specifiers": [],
-      "source": null,
-      "attributes": []
+      "end": 822
     },
     {
       "type": "ExportNamedDeclaration",
+      "declaration": null,
+      "specifiers": [],
+      "source": null,
+      "attributes": [],
       "start": 823,
-      "end": 835,
-      "declaration": null,
-      "specifiers": [],
-      "source": null,
-      "attributes": []
+      "end": 835
     },
     {
       "type": "ExportNamedDeclaration",
+      "declaration": null,
+      "specifiers": [],
+      "source": null,
+      "attributes": [],
       "start": 836,
-      "end": 857,
-      "declaration": null,
-      "specifiers": [],
-      "source": null,
-      "attributes": []
+      "end": 857
     },
     {
       "type": "ExportNamedDeclaration",
-      "start": 858,
-      "end": 875,
       "declaration": null,
       "specifiers": [],
       "source": null,
-      "attributes": []
+      "attributes": [],
+      "start": 858,
+      "end": 875
     }
   ],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 876
 }

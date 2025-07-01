@@ -2,52 +2,52 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 175,
-  "end": 249,
   "body": [
     {
       "type": "ImportDeclaration",
-      "start": 175,
-      "end": 203,
       "specifiers": [
         {
           "type": "ImportSpecifier",
-          "start": 184,
-          "end": 187,
           "imported": {
             "type": "Identifier",
-            "start": 184,
-            "end": 187,
             "decorators": [],
             "name": "foo",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 184,
+            "end": 187
           },
           "local": {
             "type": "Identifier",
-            "start": 184,
-            "end": 187,
             "decorators": [],
             "name": "foo",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 184,
+            "end": 187
           },
-          "importKind": "value"
+          "importKind": "value",
+          "start": 184,
+          "end": 187
         }
       ],
       "source": {
         "type": "Literal",
-        "start": 195,
-        "end": 202,
         "value": "./foo",
-        "raw": "\"./foo\""
+        "raw": "\"./foo\"",
+        "start": 195,
+        "end": 202
       },
       "phase": null,
       "attributes": [],
-      "importKind": "value"
+      "importKind": "value",
+      "start": 175,
+      "end": 203
     }
   ],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 175,
+  "end": 249
 }
 ```

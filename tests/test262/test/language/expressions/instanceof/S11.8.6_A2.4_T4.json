@@ -1,108 +1,108 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 456,
   "body": [
     {
       "type": "IfStatement",
-      "start": 316,
-      "end": 455,
       "test": {
         "type": "BinaryExpression",
-        "start": 320,
-        "end": 368,
         "left": {
           "type": "BinaryExpression",
-          "start": 320,
-          "end": 359,
           "left": {
             "type": "ParenthesizedExpression",
-            "start": 320,
-            "end": 341,
             "expression": {
               "type": "SequenceExpression",
-              "start": 321,
-              "end": 340,
               "expressions": [
                 {
                   "type": "AssignmentExpression",
-                  "start": 321,
-                  "end": 336,
                   "operator": "=",
                   "left": {
                     "type": "Identifier",
+                    "name": "OBJECT",
                     "start": 321,
-                    "end": 327,
-                    "name": "OBJECT"
+                    "end": 327
                   },
                   "right": {
                     "type": "Identifier",
+                    "name": "Object",
                     "start": 330,
-                    "end": 336,
-                    "name": "Object"
-                  }
+                    "end": 336
+                  },
+                  "start": 321,
+                  "end": 336
                 },
                 {
                   "type": "ObjectExpression",
+                  "properties": [],
                   "start": 338,
-                  "end": 340,
-                  "properties": []
+                  "end": 340
                 }
-              ]
-            }
+              ],
+              "start": 321,
+              "end": 340
+            },
+            "start": 320,
+            "end": 341
           },
           "operator": "instanceof",
           "right": {
             "type": "Identifier",
+            "name": "OBJECT",
             "start": 353,
-            "end": 359,
-            "name": "OBJECT"
-          }
+            "end": 359
+          },
+          "start": 320,
+          "end": 359
         },
         "operator": "!==",
         "right": {
           "type": "Literal",
-          "start": 364,
-          "end": 368,
           "value": true,
-          "raw": "true"
-        }
+          "raw": "true",
+          "start": 364,
+          "end": 368
+        },
+        "start": 320,
+        "end": 368
       },
       "consequent": {
         "type": "BlockStatement",
-        "start": 370,
-        "end": 455,
         "body": [
           {
             "type": "ThrowStatement",
-            "start": 374,
-            "end": 453,
             "argument": {
               "type": "NewExpression",
-              "start": 380,
-              "end": 452,
               "callee": {
                 "type": "Identifier",
+                "name": "Test262Error",
                 "start": 384,
-                "end": 396,
-                "name": "Test262Error"
+                "end": 396
               },
               "arguments": [
                 {
                   "type": "Literal",
-                  "start": 397,
-                  "end": 451,
                   "value": "#1: (OBJECT = Object, {}) instanceof OBJECT !== true",
-                  "raw": "'#1: (OBJECT = Object, {}) instanceof OBJECT !== true'"
+                  "raw": "'#1: (OBJECT = Object, {}) instanceof OBJECT !== true'",
+                  "start": 397,
+                  "end": 451
                 }
-              ]
-            }
+              ],
+              "start": 380,
+              "end": 452
+            },
+            "start": 374,
+            "end": 453
           }
-        ]
+        ],
+        "start": 370,
+        "end": 455
       },
-      "alternate": null
+      "alternate": null,
+      "start": 316,
+      "end": 455
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 456
 }

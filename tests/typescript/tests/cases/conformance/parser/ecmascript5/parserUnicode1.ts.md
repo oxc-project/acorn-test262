@@ -2,203 +2,203 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 195,
   "body": [
     {
       "type": "TryStatement",
-      "start": 0,
-      "end": 195,
       "block": {
         "type": "BlockStatement",
-        "start": 4,
-        "end": 115,
         "body": [
           {
             "type": "VariableDeclaration",
-            "start": 8,
-            "end": 24,
             "kind": "var",
             "declarations": [
               {
                 "type": "VariableDeclarator",
-                "start": 12,
-                "end": 23,
                 "id": {
                   "type": "Identifier",
-                  "start": 12,
-                  "end": 19,
                   "decorators": [],
                   "name": "xx",
                   "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "start": 12,
+                  "end": 19
                 },
                 "init": {
                   "type": "Literal",
-                  "start": 22,
-                  "end": 23,
                   "value": 6,
-                  "raw": "6"
+                  "raw": "6",
+                  "start": 22,
+                  "end": 23
                 },
-                "definite": false
+                "definite": false,
+                "start": 12,
+                "end": 23
               }
             ],
-            "declare": false
+            "declare": false,
+            "start": 8,
+            "end": 24
           },
           {
             "type": "IfStatement",
-            "start": 28,
-            "end": 113,
             "test": {
               "type": "BinaryExpression",
-              "start": 32,
-              "end": 40,
               "left": {
                 "type": "Identifier",
-                "start": 32,
-                "end": 34,
                 "decorators": [],
                 "name": "xx",
                 "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "start": 32,
+                "end": 34
               },
               "operator": "!==",
               "right": {
                 "type": "Literal",
-                "start": 39,
-                "end": 40,
                 "value": 6,
-                "raw": "6"
-              }
+                "raw": "6",
+                "start": 39,
+                "end": 40
+              },
+              "start": 32,
+              "end": 40
             },
             "consequent": {
               "type": "BlockStatement",
-              "start": 42,
-              "end": 113,
               "body": [
                 {
                   "type": "ExpressionStatement",
-                  "start": 49,
-                  "end": 109,
                   "expression": {
                     "type": "CallExpression",
-                    "start": 49,
-                    "end": 108,
                     "callee": {
                       "type": "Identifier",
-                      "start": 49,
-                      "end": 55,
                       "decorators": [],
                       "name": "$ERROR",
                       "optional": false,
-                      "typeAnnotation": null
+                      "typeAnnotation": null,
+                      "start": 49,
+                      "end": 55
                     },
                     "typeArguments": null,
                     "arguments": [
                       {
                         "type": "BinaryExpression",
-                        "start": 56,
-                        "end": 107,
                         "left": {
                           "type": "Literal",
-                          "start": 56,
-                          "end": 100,
                           "value": "#6.1: var \\u0078x = 1; xx === 6. Actual: ",
-                          "raw": "'#6.1: var \\\\u0078x = 1; xx === 6. Actual: '"
+                          "raw": "'#6.1: var \\\\u0078x = 1; xx === 6. Actual: '",
+                          "start": 56,
+                          "end": 100
                         },
                         "operator": "+",
                         "right": {
                           "type": "Identifier",
-                          "start": 104,
-                          "end": 106,
                           "decorators": [],
                           "name": "xx",
                           "optional": false,
-                          "typeAnnotation": null
-                        }
+                          "typeAnnotation": null,
+                          "start": 104,
+                          "end": 106
+                        },
+                        "start": 56,
+                        "end": 107
                       }
                     ],
-                    "optional": false
+                    "optional": false,
+                    "start": 49,
+                    "end": 108
                   },
-                  "directive": null
+                  "directive": null,
+                  "start": 49,
+                  "end": 109
                 }
-              ]
+              ],
+              "start": 42,
+              "end": 113
             },
-            "alternate": null
+            "alternate": null,
+            "start": 28,
+            "end": 113
           }
-        ]
+        ],
+        "start": 4,
+        "end": 115
       },
       "handler": {
         "type": "CatchClause",
-        "start": 116,
-        "end": 195,
         "param": {
           "type": "Identifier",
-          "start": 123,
-          "end": 124,
           "decorators": [],
           "name": "e",
           "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "start": 123,
+          "end": 124
         },
         "body": {
           "type": "BlockStatement",
-          "start": 126,
-          "end": 195,
           "body": [
             {
               "type": "ExpressionStatement",
-              "start": 132,
-              "end": 192,
               "expression": {
                 "type": "CallExpression",
-                "start": 132,
-                "end": 191,
                 "callee": {
                   "type": "Identifier",
-                  "start": 132,
-                  "end": 138,
                   "decorators": [],
                   "name": "$ERROR",
                   "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "start": 132,
+                  "end": 138
                 },
                 "typeArguments": null,
                 "arguments": [
                   {
                     "type": "BinaryExpression",
-                    "start": 139,
-                    "end": 190,
                     "left": {
                       "type": "Literal",
-                      "start": 139,
-                      "end": 183,
                       "value": "#6.2: var \\u0078x = 1; xx === 6. Actual: ",
-                      "raw": "'#6.2: var \\\\u0078x = 1; xx === 6. Actual: '"
+                      "raw": "'#6.2: var \\\\u0078x = 1; xx === 6. Actual: '",
+                      "start": 139,
+                      "end": 183
                     },
                     "operator": "+",
                     "right": {
                       "type": "Identifier",
-                      "start": 187,
-                      "end": 189,
                       "decorators": [],
                       "name": "xx",
                       "optional": false,
-                      "typeAnnotation": null
-                    }
+                      "typeAnnotation": null,
+                      "start": 187,
+                      "end": 189
+                    },
+                    "start": 139,
+                    "end": 190
                   }
                 ],
-                "optional": false
+                "optional": false,
+                "start": 132,
+                "end": 191
               },
-              "directive": null
+              "directive": null,
+              "start": 132,
+              "end": 192
             }
-          ]
-        }
+          ],
+          "start": 126,
+          "end": 195
+        },
+        "start": 116,
+        "end": 195
       },
-      "finalizer": null
+      "finalizer": null,
+      "start": 0,
+      "end": 195
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 195
 }
 ```

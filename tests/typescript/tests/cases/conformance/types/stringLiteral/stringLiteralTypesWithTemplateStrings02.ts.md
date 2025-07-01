@@ -2,145 +2,145 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 70,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 0,
-      "end": 28,
       "kind": "let",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 4,
-          "end": 27,
           "id": {
             "type": "Identifier",
-            "start": 4,
-            "end": 18,
             "decorators": [],
             "name": "abc",
             "optional": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
-              "start": 7,
-              "end": 18,
               "typeAnnotation": {
                 "type": "TSLiteralType",
-                "start": 9,
-                "end": 18,
                 "literal": {
                   "type": "Literal",
-                  "start": 9,
-                  "end": 18,
                   "value": "AB\r\nC",
-                  "raw": "\"AB\\r\\nC\""
-                }
-              }
-            }
+                  "raw": "\"AB\\r\\nC\"",
+                  "start": 9,
+                  "end": 18
+                },
+                "start": 9,
+                "end": 18
+              },
+              "start": 7,
+              "end": 18
+            },
+            "start": 4,
+            "end": 18
           },
           "init": {
             "type": "TemplateLiteral",
-            "start": 21,
-            "end": 27,
             "quasis": [
               {
                 "type": "TemplateElement",
-                "start": 21,
-                "end": 27,
                 "value": {
                   "raw": "AB\nC",
                   "cooked": "AB\nC"
                 },
-                "tail": true
+                "tail": true,
+                "start": 21,
+                "end": 27
               }
             ],
-            "expressions": []
+            "expressions": [],
+            "start": 21,
+            "end": 27
           },
-          "definite": false
+          "definite": false,
+          "start": 4,
+          "end": 27
         }
       ],
-      "declare": false
+      "declare": false,
+      "start": 0,
+      "end": 28
     },
     {
       "type": "VariableDeclaration",
-      "start": 29,
-      "end": 70,
       "kind": "let",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 33,
-          "end": 69,
           "id": {
             "type": "Identifier",
-            "start": 33,
-            "end": 54,
             "decorators": [],
             "name": "de_NEWLINE_f",
             "optional": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
-              "start": 45,
-              "end": 54,
               "typeAnnotation": {
                 "type": "TSLiteralType",
-                "start": 47,
-                "end": 54,
                 "literal": {
                   "type": "Literal",
-                  "start": 47,
-                  "end": 54,
                   "value": "DE\nF",
-                  "raw": "\"DE\\nF\""
-                }
-              }
-            }
+                  "raw": "\"DE\\nF\"",
+                  "start": 47,
+                  "end": 54
+                },
+                "start": 47,
+                "end": 54
+              },
+              "start": 45,
+              "end": 54
+            },
+            "start": 33,
+            "end": 54
           },
           "init": {
             "type": "TemplateLiteral",
-            "start": 57,
-            "end": 69,
             "quasis": [
               {
                 "type": "TemplateElement",
-                "start": 57,
-                "end": 62,
                 "value": {
                   "raw": "DE",
                   "cooked": "DE"
                 },
-                "tail": false
+                "tail": false,
+                "start": 57,
+                "end": 62
               },
               {
                 "type": "TemplateElement",
-                "start": 66,
-                "end": 69,
                 "value": {
                   "raw": "F",
                   "cooked": "F"
                 },
-                "tail": true
+                "tail": true,
+                "start": 66,
+                "end": 69
               }
             ],
             "expressions": [
               {
                 "type": "Literal",
-                "start": 62,
-                "end": 66,
                 "value": "\n",
-                "raw": "\"\\n\""
+                "raw": "\"\\n\"",
+                "start": 62,
+                "end": 66
               }
-            ]
+            ],
+            "start": 57,
+            "end": 69
           },
-          "definite": false
+          "definite": false,
+          "start": 33,
+          "end": 69
         }
       ],
-      "declare": false
+      "declare": false,
+      "start": 29,
+      "end": 70
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 70
 }
 ```

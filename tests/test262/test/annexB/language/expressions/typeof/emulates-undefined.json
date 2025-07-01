@@ -1,399 +1,399 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 943,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 536,
-      "end": 567,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 540,
-          "end": 566,
           "id": {
             "type": "Identifier",
+            "name": "IsHTMLDDA",
             "start": 540,
-            "end": 549,
-            "name": "IsHTMLDDA"
+            "end": 549
           },
           "init": {
             "type": "MemberExpression",
-            "start": 552,
-            "end": 566,
             "object": {
               "type": "Identifier",
+              "name": "$262",
               "start": 552,
-              "end": 556,
-              "name": "$262"
+              "end": 556
             },
             "property": {
               "type": "Identifier",
+              "name": "IsHTMLDDA",
               "start": 557,
-              "end": 566,
-              "name": "IsHTMLDDA"
+              "end": 566
             },
             "optional": false,
-            "computed": false
-          }
+            "computed": false,
+            "start": 552,
+            "end": 566
+          },
+          "start": 540,
+          "end": 566
         }
-      ]
+      ],
+      "start": 536,
+      "end": 567
     },
     {
       "type": "ExpressionStatement",
-      "start": 569,
-      "end": 629,
       "expression": {
         "type": "CallExpression",
-        "start": 569,
-        "end": 628,
         "callee": {
           "type": "Identifier",
+          "name": "assert",
           "start": 569,
-          "end": 575,
-          "name": "assert"
+          "end": 575
         },
         "arguments": [
           {
             "type": "BinaryExpression",
-            "start": 576,
-            "end": 608,
             "left": {
               "type": "UnaryExpression",
-              "start": 576,
-              "end": 592,
               "operator": "typeof",
               "argument": {
                 "type": "Identifier",
+                "name": "IsHTMLDDA",
                 "start": 583,
-                "end": 592,
-                "name": "IsHTMLDDA"
+                "end": 592
               },
-              "prefix": true
+              "prefix": true,
+              "start": 576,
+              "end": 592
             },
             "operator": "===",
             "right": {
               "type": "Literal",
-              "start": 597,
-              "end": 608,
               "value": "undefined",
-              "raw": "\"undefined\""
-            }
+              "raw": "\"undefined\"",
+              "start": 597,
+              "end": 608
+            },
+            "start": 576,
+            "end": 608
           },
           {
             "type": "Literal",
-            "start": 610,
-            "end": 627,
             "value": "=== \"undefined\"",
-            "raw": "'=== \"undefined\"'"
+            "raw": "'=== \"undefined\"'",
+            "start": 610,
+            "end": 627
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 569,
+        "end": 628
+      },
+      "start": 569,
+      "end": 629
     },
     {
       "type": "ExpressionStatement",
-      "start": 630,
-      "end": 678,
       "expression": {
         "type": "CallExpression",
-        "start": 630,
-        "end": 677,
         "callee": {
           "type": "MemberExpression",
-          "start": 630,
-          "end": 646,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 630,
-            "end": 636,
-            "name": "assert"
+            "end": 636
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 637,
-            "end": 646,
-            "name": "sameValue"
+            "end": 646
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 630,
+          "end": 646
         },
         "arguments": [
           {
             "type": "UnaryExpression",
-            "start": 647,
-            "end": 663,
             "operator": "typeof",
             "argument": {
               "type": "Identifier",
+              "name": "IsHTMLDDA",
               "start": 654,
-              "end": 663,
-              "name": "IsHTMLDDA"
+              "end": 663
             },
-            "prefix": true
+            "prefix": true,
+            "start": 647,
+            "end": 663
           },
           {
             "type": "Literal",
-            "start": 665,
-            "end": 676,
             "value": "undefined",
-            "raw": "\"undefined\""
+            "raw": "\"undefined\"",
+            "start": 665,
+            "end": 676
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 630,
+        "end": 677
+      },
+      "start": 630,
+      "end": 678
     },
     {
       "type": "ExpressionStatement",
-      "start": 680,
-      "end": 734,
       "expression": {
         "type": "CallExpression",
-        "start": 680,
-        "end": 733,
         "callee": {
           "type": "Identifier",
+          "name": "assert",
           "start": 680,
-          "end": 686,
-          "name": "assert"
+          "end": 686
         },
         "arguments": [
           {
             "type": "BinaryExpression",
-            "start": 687,
-            "end": 716,
             "left": {
               "type": "UnaryExpression",
-              "start": 687,
-              "end": 703,
               "operator": "typeof",
               "argument": {
                 "type": "Identifier",
+                "name": "IsHTMLDDA",
                 "start": 694,
-                "end": 703,
-                "name": "IsHTMLDDA"
+                "end": 703
               },
-              "prefix": true
+              "prefix": true,
+              "start": 687,
+              "end": 703
             },
             "operator": "!==",
             "right": {
               "type": "Literal",
-              "start": 708,
-              "end": 716,
               "value": "object",
-              "raw": "\"object\""
-            }
+              "raw": "\"object\"",
+              "start": 708,
+              "end": 716
+            },
+            "start": 687,
+            "end": 716
           },
           {
             "type": "Literal",
-            "start": 718,
-            "end": 732,
             "value": "!== \"object\"",
-            "raw": "'!== \"object\"'"
+            "raw": "'!== \"object\"'",
+            "start": 718,
+            "end": 732
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 680,
+        "end": 733
+      },
+      "start": 680,
+      "end": 734
     },
     {
       "type": "ExpressionStatement",
-      "start": 735,
-      "end": 806,
       "expression": {
         "type": "CallExpression",
-        "start": 735,
-        "end": 805,
         "callee": {
           "type": "MemberExpression",
-          "start": 735,
-          "end": 751,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 735,
-            "end": 741,
-            "name": "assert"
+            "end": 741
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 742,
-            "end": 751,
-            "name": "sameValue"
+            "end": 751
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 735,
+          "end": 751
         },
         "arguments": [
           {
             "type": "BinaryExpression",
-            "start": 752,
-            "end": 781,
             "left": {
               "type": "UnaryExpression",
-              "start": 752,
-              "end": 768,
               "operator": "typeof",
               "argument": {
                 "type": "Identifier",
+                "name": "IsHTMLDDA",
                 "start": 759,
-                "end": 768,
-                "name": "IsHTMLDDA"
+                "end": 768
               },
-              "prefix": true
+              "prefix": true,
+              "start": 752,
+              "end": 768
             },
             "operator": "===",
             "right": {
               "type": "Literal",
-              "start": 773,
-              "end": 781,
               "value": "object",
-              "raw": "\"object\""
-            }
+              "raw": "\"object\"",
+              "start": 773,
+              "end": 781
+            },
+            "start": 752,
+            "end": 781
           },
           {
             "type": "Literal",
-            "start": 783,
-            "end": 788,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "start": 783,
+            "end": 788
           },
           {
             "type": "Literal",
-            "start": 790,
-            "end": 804,
             "value": "!== \"object\"",
-            "raw": "'!== \"object\"'"
+            "raw": "'!== \"object\"'",
+            "start": 790,
+            "end": 804
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 735,
+        "end": 805
+      },
+      "start": 735,
+      "end": 806
     },
     {
       "type": "ExpressionStatement",
-      "start": 808,
-      "end": 866,
       "expression": {
         "type": "CallExpression",
-        "start": 808,
-        "end": 865,
         "callee": {
           "type": "Identifier",
+          "name": "assert",
           "start": 808,
-          "end": 814,
-          "name": "assert"
+          "end": 814
         },
         "arguments": [
           {
             "type": "BinaryExpression",
-            "start": 815,
-            "end": 846,
             "left": {
               "type": "UnaryExpression",
-              "start": 815,
-              "end": 831,
               "operator": "typeof",
               "argument": {
                 "type": "Identifier",
+                "name": "IsHTMLDDA",
                 "start": 822,
-                "end": 831,
-                "name": "IsHTMLDDA"
+                "end": 831
               },
-              "prefix": true
+              "prefix": true,
+              "start": 815,
+              "end": 831
             },
             "operator": "!==",
             "right": {
               "type": "Literal",
-              "start": 836,
-              "end": 846,
               "value": "function",
-              "raw": "\"function\""
-            }
+              "raw": "\"function\"",
+              "start": 836,
+              "end": 846
+            },
+            "start": 815,
+            "end": 846
           },
           {
             "type": "Literal",
-            "start": 848,
-            "end": 864,
             "value": "!== \"function\"",
-            "raw": "'!== \"function\"'"
+            "raw": "'!== \"function\"'",
+            "start": 848,
+            "end": 864
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 808,
+        "end": 865
+      },
+      "start": 808,
+      "end": 866
     },
     {
       "type": "ExpressionStatement",
-      "start": 867,
-      "end": 942,
       "expression": {
         "type": "CallExpression",
-        "start": 867,
-        "end": 941,
         "callee": {
           "type": "MemberExpression",
-          "start": 867,
-          "end": 883,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 867,
-            "end": 873,
-            "name": "assert"
+            "end": 873
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 874,
-            "end": 883,
-            "name": "sameValue"
+            "end": 883
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 867,
+          "end": 883
         },
         "arguments": [
           {
             "type": "BinaryExpression",
-            "start": 884,
-            "end": 915,
             "left": {
               "type": "UnaryExpression",
-              "start": 884,
-              "end": 900,
               "operator": "typeof",
               "argument": {
                 "type": "Identifier",
+                "name": "IsHTMLDDA",
                 "start": 891,
-                "end": 900,
-                "name": "IsHTMLDDA"
+                "end": 900
               },
-              "prefix": true
+              "prefix": true,
+              "start": 884,
+              "end": 900
             },
             "operator": "===",
             "right": {
               "type": "Literal",
-              "start": 905,
-              "end": 915,
               "value": "function",
-              "raw": "\"function\""
-            }
+              "raw": "\"function\"",
+              "start": 905,
+              "end": 915
+            },
+            "start": 884,
+            "end": 915
           },
           {
             "type": "Literal",
-            "start": 917,
-            "end": 922,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "start": 917,
+            "end": 922
           },
           {
             "type": "Literal",
-            "start": 924,
-            "end": 940,
             "value": "!== \"function\"",
-            "raw": "'!== \"function\"'"
+            "raw": "'!== \"function\"'",
+            "start": 924,
+            "end": 940
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 867,
+        "end": 941
+      },
+      "start": 867,
+      "end": 942
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 943
 }

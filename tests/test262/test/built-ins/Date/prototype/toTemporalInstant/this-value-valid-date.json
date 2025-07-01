@@ -1,537 +1,537 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 1089,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 444,
-      "end": 543,
       "expression": {
         "type": "CallExpression",
-        "start": 444,
-        "end": 542,
         "callee": {
           "type": "MemberExpression",
-          "start": 444,
-          "end": 460,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 444,
-            "end": 450,
-            "name": "assert"
+            "end": 450
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 451,
-            "end": 460,
-            "name": "sameValue"
+            "end": 460
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 444,
+          "end": 460
         },
         "arguments": [
           {
             "type": "MemberExpression",
-            "start": 464,
-            "end": 512,
             "object": {
               "type": "CallExpression",
-              "start": 464,
-              "end": 495,
               "callee": {
                 "type": "MemberExpression",
-                "start": 464,
-                "end": 493,
                 "object": {
                   "type": "NewExpression",
-                  "start": 464,
-                  "end": 475,
                   "callee": {
                     "type": "Identifier",
+                    "name": "Date",
                     "start": 468,
-                    "end": 472,
-                    "name": "Date"
+                    "end": 472
                   },
                   "arguments": [
                     {
                       "type": "Literal",
-                      "start": 473,
-                      "end": 474,
                       "value": 0,
-                      "raw": "0"
+                      "raw": "0",
+                      "start": 473,
+                      "end": 474
                     }
-                  ]
+                  ],
+                  "start": 464,
+                  "end": 475
                 },
                 "property": {
                   "type": "Identifier",
+                  "name": "toTemporalInstant",
                   "start": 476,
-                  "end": 493,
-                  "name": "toTemporalInstant"
+                  "end": 493
                 },
                 "optional": false,
-                "computed": false
+                "computed": false,
+                "start": 464,
+                "end": 493
               },
               "arguments": [],
-              "optional": false
+              "optional": false,
+              "start": 464,
+              "end": 495
             },
             "property": {
               "type": "Identifier",
+              "name": "epochNanoseconds",
               "start": 496,
-              "end": 512,
-              "name": "epochNanoseconds"
+              "end": 512
             },
             "optional": false,
-            "computed": false
+            "computed": false,
+            "start": 464,
+            "end": 512
           },
           {
             "type": "Literal",
-            "start": 516,
-            "end": 518,
             "value": null,
             "raw": "0n",
-            "bigint": "0"
+            "bigint": "0",
+            "start": 516,
+            "end": 518
           },
           {
             "type": "Literal",
-            "start": 522,
-            "end": 540,
             "value": "the (Unix) epoch",
-            "raw": "\"the (Unix) epoch\""
+            "raw": "\"the (Unix) epoch\"",
+            "start": 522,
+            "end": 540
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 444,
+        "end": 542
+      },
+      "start": 444,
+      "end": 543
     },
     {
       "type": "ExpressionStatement",
-      "start": 545,
-      "end": 683,
       "expression": {
         "type": "CallExpression",
-        "start": 545,
-        "end": 682,
         "callee": {
           "type": "MemberExpression",
-          "start": 545,
-          "end": 561,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 545,
-            "end": 551,
-            "name": "assert"
+            "end": 551
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 552,
-            "end": 561,
-            "name": "sameValue"
+            "end": 561
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 545,
+          "end": 561
         },
         "arguments": [
           {
             "type": "MemberExpression",
-            "start": 565,
-            "end": 623,
             "object": {
               "type": "CallExpression",
-              "start": 565,
-              "end": 606,
               "callee": {
                 "type": "MemberExpression",
-                "start": 565,
-                "end": 604,
                 "object": {
                   "type": "NewExpression",
-                  "start": 565,
-                  "end": 586,
                   "callee": {
                     "type": "Identifier",
+                    "name": "Date",
                     "start": 569,
-                    "end": 573,
-                    "name": "Date"
+                    "end": 573
                   },
                   "arguments": [
                     {
                       "type": "Literal",
-                      "start": 574,
-                      "end": 585,
                       "value": 123456789,
-                      "raw": "123_456_789"
+                      "raw": "123_456_789",
+                      "start": 574,
+                      "end": 585
                     }
-                  ]
+                  ],
+                  "start": 565,
+                  "end": 586
                 },
                 "property": {
                   "type": "Identifier",
+                  "name": "toTemporalInstant",
                   "start": 587,
-                  "end": 604,
-                  "name": "toTemporalInstant"
+                  "end": 604
                 },
                 "optional": false,
-                "computed": false
+                "computed": false,
+                "start": 565,
+                "end": 604
               },
               "arguments": [],
-              "optional": false
+              "optional": false,
+              "start": 565,
+              "end": 606
             },
             "property": {
               "type": "Identifier",
+              "name": "epochNanoseconds",
               "start": 607,
-              "end": 623,
-              "name": "epochNanoseconds"
+              "end": 623
             },
             "optional": false,
-            "computed": false
+            "computed": false,
+            "start": 565,
+            "end": 623
           },
           {
             "type": "Literal",
-            "start": 627,
-            "end": 647,
             "value": null,
             "raw": "123_456_789_000_000n",
-            "bigint": "123456789000000"
+            "bigint": "123456789000000",
+            "start": 627,
+            "end": 647
           },
           {
             "type": "Literal",
-            "start": 651,
-            "end": 680,
             "value": "date after the (Unix) epoch",
-            "raw": "\"date after the (Unix) epoch\""
+            "raw": "\"date after the (Unix) epoch\"",
+            "start": 651,
+            "end": 680
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 545,
+        "end": 682
+      },
+      "start": 545,
+      "end": 683
     },
     {
       "type": "ExpressionStatement",
-      "start": 685,
-      "end": 826,
       "expression": {
         "type": "CallExpression",
-        "start": 685,
-        "end": 825,
         "callee": {
           "type": "MemberExpression",
-          "start": 685,
-          "end": 701,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 685,
-            "end": 691,
-            "name": "assert"
+            "end": 691
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 692,
-            "end": 701,
-            "name": "sameValue"
+            "end": 701
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 685,
+          "end": 701
         },
         "arguments": [
           {
             "type": "MemberExpression",
-            "start": 705,
-            "end": 764,
             "object": {
               "type": "CallExpression",
-              "start": 705,
-              "end": 747,
               "callee": {
                 "type": "MemberExpression",
-                "start": 705,
-                "end": 745,
                 "object": {
                   "type": "NewExpression",
-                  "start": 705,
-                  "end": 727,
                   "callee": {
                     "type": "Identifier",
+                    "name": "Date",
                     "start": 709,
-                    "end": 713,
-                    "name": "Date"
+                    "end": 713
                   },
                   "arguments": [
                     {
                       "type": "UnaryExpression",
-                      "start": 714,
-                      "end": 726,
                       "operator": "-",
                       "argument": {
                         "type": "Literal",
-                        "start": 715,
-                        "end": 726,
                         "value": 123456789,
-                        "raw": "123_456_789"
+                        "raw": "123_456_789",
+                        "start": 715,
+                        "end": 726
                       },
-                      "prefix": true
+                      "prefix": true,
+                      "start": 714,
+                      "end": 726
                     }
-                  ]
+                  ],
+                  "start": 705,
+                  "end": 727
                 },
                 "property": {
                   "type": "Identifier",
+                  "name": "toTemporalInstant",
                   "start": 728,
-                  "end": 745,
-                  "name": "toTemporalInstant"
+                  "end": 745
                 },
                 "optional": false,
-                "computed": false
+                "computed": false,
+                "start": 705,
+                "end": 745
               },
               "arguments": [],
-              "optional": false
+              "optional": false,
+              "start": 705,
+              "end": 747
             },
             "property": {
               "type": "Identifier",
+              "name": "epochNanoseconds",
               "start": 748,
-              "end": 764,
-              "name": "epochNanoseconds"
+              "end": 764
             },
             "optional": false,
-            "computed": false
+            "computed": false,
+            "start": 705,
+            "end": 764
           },
           {
             "type": "UnaryExpression",
-            "start": 768,
-            "end": 789,
             "operator": "-",
             "argument": {
               "type": "Literal",
-              "start": 769,
-              "end": 789,
               "value": null,
               "raw": "123_456_789_000_000n",
-              "bigint": "123456789000000"
+              "bigint": "123456789000000",
+              "start": 769,
+              "end": 789
             },
-            "prefix": true
+            "prefix": true,
+            "start": 768,
+            "end": 789
           },
           {
             "type": "Literal",
-            "start": 793,
-            "end": 823,
             "value": "date before the (Unix) epoch",
-            "raw": "\"date before the (Unix) epoch\""
+            "raw": "\"date before the (Unix) epoch\"",
+            "start": 793,
+            "end": 823
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 685,
+        "end": 825
+      },
+      "start": 685,
+      "end": 826
     },
     {
       "type": "ExpressionStatement",
-      "start": 828,
-      "end": 959,
       "expression": {
         "type": "CallExpression",
-        "start": 828,
-        "end": 958,
         "callee": {
           "type": "MemberExpression",
-          "start": 828,
-          "end": 844,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 828,
-            "end": 834,
-            "name": "assert"
+            "end": 834
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 835,
-            "end": 844,
-            "name": "sameValue"
+            "end": 844
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 828,
+          "end": 844
         },
         "arguments": [
           {
             "type": "MemberExpression",
-            "start": 848,
-            "end": 903,
             "object": {
               "type": "CallExpression",
-              "start": 848,
-              "end": 886,
               "callee": {
                 "type": "MemberExpression",
-                "start": 848,
-                "end": 884,
                 "object": {
                   "type": "NewExpression",
-                  "start": 848,
-                  "end": 866,
                   "callee": {
                     "type": "Identifier",
+                    "name": "Date",
                     "start": 852,
-                    "end": 856,
-                    "name": "Date"
+                    "end": 856
                   },
                   "arguments": [
                     {
                       "type": "UnaryExpression",
-                      "start": 857,
-                      "end": 865,
                       "operator": "-",
                       "argument": {
                         "type": "Literal",
-                        "start": 858,
-                        "end": 865,
                         "value": 8640000000000000,
-                        "raw": "8.64e15"
+                        "raw": "8.64e15",
+                        "start": 858,
+                        "end": 865
                       },
-                      "prefix": true
+                      "prefix": true,
+                      "start": 857,
+                      "end": 865
                     }
-                  ]
+                  ],
+                  "start": 848,
+                  "end": 866
                 },
                 "property": {
                   "type": "Identifier",
+                  "name": "toTemporalInstant",
                   "start": 867,
-                  "end": 884,
-                  "name": "toTemporalInstant"
+                  "end": 884
                 },
                 "optional": false,
-                "computed": false
+                "computed": false,
+                "start": 848,
+                "end": 884
               },
               "arguments": [],
-              "optional": false
+              "optional": false,
+              "start": 848,
+              "end": 886
             },
             "property": {
               "type": "Identifier",
+              "name": "epochNanoseconds",
               "start": 887,
-              "end": 903,
-              "name": "epochNanoseconds"
+              "end": 903
             },
             "optional": false,
-            "computed": false
+            "computed": false,
+            "start": 848,
+            "end": 903
           },
           {
             "type": "UnaryExpression",
-            "start": 907,
-            "end": 937,
             "operator": "-",
             "argument": {
               "type": "Literal",
-              "start": 908,
-              "end": 937,
               "value": null,
               "raw": "8640_000_000_000_000_000_000n",
-              "bigint": "8640000000000000000000"
+              "bigint": "8640000000000000000000",
+              "start": 908,
+              "end": 937
             },
-            "prefix": true
+            "prefix": true,
+            "start": 907,
+            "end": 937
           },
           {
             "type": "Literal",
-            "start": 941,
-            "end": 956,
             "value": "start of time",
-            "raw": "\"start of time\""
+            "raw": "\"start of time\"",
+            "start": 941,
+            "end": 956
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 828,
+        "end": 958
+      },
+      "start": 828,
+      "end": 959
     },
     {
       "type": "ExpressionStatement",
-      "start": 961,
-      "end": 1088,
       "expression": {
         "type": "CallExpression",
-        "start": 961,
-        "end": 1087,
         "callee": {
           "type": "MemberExpression",
-          "start": 961,
-          "end": 977,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 961,
-            "end": 967,
-            "name": "assert"
+            "end": 967
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 968,
-            "end": 977,
-            "name": "sameValue"
+            "end": 977
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 961,
+          "end": 977
         },
         "arguments": [
           {
             "type": "MemberExpression",
-            "start": 981,
-            "end": 1035,
             "object": {
               "type": "CallExpression",
-              "start": 981,
-              "end": 1018,
               "callee": {
                 "type": "MemberExpression",
-                "start": 981,
-                "end": 1016,
                 "object": {
                   "type": "NewExpression",
-                  "start": 981,
-                  "end": 998,
                   "callee": {
                     "type": "Identifier",
+                    "name": "Date",
                     "start": 985,
-                    "end": 989,
-                    "name": "Date"
+                    "end": 989
                   },
                   "arguments": [
                     {
                       "type": "Literal",
-                      "start": 990,
-                      "end": 997,
                       "value": 8640000000000000,
-                      "raw": "8.64e15"
+                      "raw": "8.64e15",
+                      "start": 990,
+                      "end": 997
                     }
-                  ]
+                  ],
+                  "start": 981,
+                  "end": 998
                 },
                 "property": {
                   "type": "Identifier",
+                  "name": "toTemporalInstant",
                   "start": 999,
-                  "end": 1016,
-                  "name": "toTemporalInstant"
+                  "end": 1016
                 },
                 "optional": false,
-                "computed": false
+                "computed": false,
+                "start": 981,
+                "end": 1016
               },
               "arguments": [],
-              "optional": false
+              "optional": false,
+              "start": 981,
+              "end": 1018
             },
             "property": {
               "type": "Identifier",
+              "name": "epochNanoseconds",
               "start": 1019,
-              "end": 1035,
-              "name": "epochNanoseconds"
+              "end": 1035
             },
             "optional": false,
-            "computed": false
+            "computed": false,
+            "start": 981,
+            "end": 1035
           },
           {
             "type": "Literal",
-            "start": 1039,
-            "end": 1068,
             "value": null,
             "raw": "8640_000_000_000_000_000_000n",
-            "bigint": "8640000000000000000000"
+            "bigint": "8640000000000000000000",
+            "start": 1039,
+            "end": 1068
           },
           {
             "type": "Literal",
-            "start": 1072,
-            "end": 1085,
             "value": "end of time",
-            "raw": "\"end of time\""
+            "raw": "\"end of time\"",
+            "start": 1072,
+            "end": 1085
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 961,
+        "end": 1087
+      },
+      "start": 961,
+      "end": 1088
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 1089
 }

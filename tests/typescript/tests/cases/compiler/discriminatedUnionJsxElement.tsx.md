@@ -2,626 +2,622 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 22,
-  "end": 607,
   "body": [
     {
       "type": "TSInterfaceDeclaration",
-      "start": 22,
-      "end": 148,
       "id": {
         "type": "Identifier",
-        "start": 32,
-        "end": 37,
         "decorators": [],
         "name": "IData",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 32,
+        "end": 37
       },
       "typeParameters": {
         "type": "TSTypeParameterDeclaration",
-        "start": 37,
-        "end": 104,
         "params": [
           {
             "type": "TSTypeParameter",
-            "start": 38,
-            "end": 103,
             "name": {
               "type": "Identifier",
-              "start": 38,
-              "end": 53,
               "decorators": [],
               "name": "MenuItemVariant",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 38,
+              "end": 53
             },
             "constraint": {
               "type": "TSTypeReference",
-              "start": 62,
-              "end": 77,
               "typeName": {
                 "type": "Identifier",
-                "start": 62,
-                "end": 77,
                 "decorators": [],
                 "name": "ListItemVariant",
                 "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "start": 62,
+                "end": 77
               },
-              "typeArguments": null
+              "typeArguments": null,
+              "start": 62,
+              "end": 77
             },
             "default": {
               "type": "TSTypeReference",
-              "start": 80,
-              "end": 103,
               "typeName": {
                 "type": "TSQualifiedName",
-                "start": 80,
-                "end": 103,
                 "left": {
                   "type": "Identifier",
-                  "start": 80,
-                  "end": 95,
                   "decorators": [],
                   "name": "ListItemVariant",
                   "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "start": 80,
+                  "end": 95
                 },
                 "right": {
                   "type": "Identifier",
-                  "start": 96,
-                  "end": 103,
                   "decorators": [],
                   "name": "OneLine",
                   "optional": false,
-                  "typeAnnotation": null
-                }
+                  "typeAnnotation": null,
+                  "start": 96,
+                  "end": 103
+                },
+                "start": 80,
+                "end": 103
               },
-              "typeArguments": null
+              "typeArguments": null,
+              "start": 80,
+              "end": 103
             },
             "in": false,
             "out": false,
-            "const": false
+            "const": false,
+            "start": 38,
+            "end": 103
           }
-        ]
+        ],
+        "start": 37,
+        "end": 104
       },
       "extends": [],
       "body": {
         "type": "TSInterfaceBody",
-        "start": 105,
-        "end": 148,
         "body": [
           {
             "type": "TSPropertySignature",
-            "start": 111,
-            "end": 146,
             "computed": false,
             "optional": true,
             "readonly": false,
             "key": {
               "type": "Identifier",
-              "start": 111,
-              "end": 127,
               "decorators": [],
               "name": "menuItemsVariant",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 111,
+              "end": 127
             },
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
-              "start": 128,
-              "end": 145,
               "typeAnnotation": {
                 "type": "TSTypeReference",
-                "start": 130,
-                "end": 145,
                 "typeName": {
                   "type": "Identifier",
-                  "start": 130,
-                  "end": 145,
                   "decorators": [],
                   "name": "MenuItemVariant",
                   "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "start": 130,
+                  "end": 145
                 },
-                "typeArguments": null
-              }
+                "typeArguments": null,
+                "start": 130,
+                "end": 145
+              },
+              "start": 128,
+              "end": 145
             },
             "accessibility": null,
-            "static": false
+            "static": false,
+            "start": 111,
+            "end": 146
           }
-        ]
+        ],
+        "start": 105,
+        "end": 148
       },
-      "declare": false
+      "declare": false,
+      "start": 22,
+      "end": 148
     },
     {
       "type": "FunctionDeclaration",
-      "start": 150,
-      "end": 393,
       "id": {
         "type": "Identifier",
-        "start": 159,
-        "end": 163,
         "decorators": [],
         "name": "Menu",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 159,
+        "end": 163
       },
       "generator": false,
       "async": false,
       "declare": false,
       "typeParameters": {
         "type": "TSTypeParameterDeclaration",
-        "start": 163,
-        "end": 230,
         "params": [
           {
             "type": "TSTypeParameter",
-            "start": 164,
-            "end": 229,
             "name": {
               "type": "Identifier",
-              "start": 164,
-              "end": 179,
               "decorators": [],
               "name": "MenuItemVariant",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 164,
+              "end": 179
             },
             "constraint": {
               "type": "TSTypeReference",
-              "start": 188,
-              "end": 203,
               "typeName": {
                 "type": "Identifier",
-                "start": 188,
-                "end": 203,
                 "decorators": [],
                 "name": "ListItemVariant",
                 "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "start": 188,
+                "end": 203
               },
-              "typeArguments": null
+              "typeArguments": null,
+              "start": 188,
+              "end": 203
             },
             "default": {
               "type": "TSTypeReference",
-              "start": 206,
-              "end": 229,
               "typeName": {
                 "type": "TSQualifiedName",
-                "start": 206,
-                "end": 229,
                 "left": {
                   "type": "Identifier",
-                  "start": 206,
-                  "end": 221,
                   "decorators": [],
                   "name": "ListItemVariant",
                   "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "start": 206,
+                  "end": 221
                 },
                 "right": {
                   "type": "Identifier",
-                  "start": 222,
-                  "end": 229,
                   "decorators": [],
                   "name": "OneLine",
                   "optional": false,
-                  "typeAnnotation": null
-                }
+                  "typeAnnotation": null,
+                  "start": 222,
+                  "end": 229
+                },
+                "start": 206,
+                "end": 229
               },
-              "typeArguments": null
+              "typeArguments": null,
+              "start": 206,
+              "end": 229
             },
             "in": false,
             "out": false,
-            "const": false
+            "const": false,
+            "start": 164,
+            "end": 229
           }
-        ]
+        ],
+        "start": 163,
+        "end": 230
       },
       "params": [
         {
           "type": "Identifier",
-          "start": 231,
-          "end": 259,
           "decorators": [],
           "name": "data",
           "optional": false,
           "typeAnnotation": {
             "type": "TSTypeAnnotation",
-            "start": 235,
-            "end": 259,
             "typeAnnotation": {
               "type": "TSTypeReference",
-              "start": 237,
-              "end": 259,
               "typeName": {
                 "type": "Identifier",
-                "start": 237,
-                "end": 242,
                 "decorators": [],
                 "name": "IData",
                 "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "start": 237,
+                "end": 242
               },
               "typeArguments": {
                 "type": "TSTypeParameterInstantiation",
-                "start": 242,
-                "end": 259,
                 "params": [
                   {
                     "type": "TSTypeReference",
-                    "start": 243,
-                    "end": 258,
                     "typeName": {
                       "type": "Identifier",
-                      "start": 243,
-                      "end": 258,
                       "decorators": [],
                       "name": "MenuItemVariant",
                       "optional": false,
-                      "typeAnnotation": null
+                      "typeAnnotation": null,
+                      "start": 243,
+                      "end": 258
                     },
-                    "typeArguments": null
+                    "typeArguments": null,
+                    "start": 243,
+                    "end": 258
                   }
-                ]
-              }
-            }
-          }
+                ],
+                "start": 242,
+                "end": 259
+              },
+              "start": 237,
+              "end": 259
+            },
+            "start": 235,
+            "end": 259
+          },
+          "start": 231,
+          "end": 259
         }
       ],
       "returnType": null,
       "body": {
         "type": "BlockStatement",
-        "start": 261,
-        "end": 393,
         "body": [
           {
             "type": "VariableDeclaration",
-            "start": 267,
-            "end": 340,
             "kind": "const",
             "declarations": [
               {
                 "type": "VariableDeclarator",
-                "start": 273,
-                "end": 339,
                 "id": {
                   "type": "Identifier",
-                  "start": 273,
-                  "end": 288,
                   "decorators": [],
                   "name": "listItemVariant",
                   "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "start": 273,
+                  "end": 288
                 },
                 "init": {
                   "type": "LogicalExpression",
-                  "start": 291,
-                  "end": 339,
                   "left": {
                     "type": "MemberExpression",
-                    "start": 291,
-                    "end": 312,
                     "object": {
                       "type": "Identifier",
-                      "start": 291,
-                      "end": 295,
                       "decorators": [],
                       "name": "data",
                       "optional": false,
-                      "typeAnnotation": null
+                      "typeAnnotation": null,
+                      "start": 291,
+                      "end": 295
                     },
                     "property": {
                       "type": "Identifier",
-                      "start": 296,
-                      "end": 312,
                       "decorators": [],
                       "name": "menuItemsVariant",
                       "optional": false,
-                      "typeAnnotation": null
+                      "typeAnnotation": null,
+                      "start": 296,
+                      "end": 312
                     },
                     "optional": false,
-                    "computed": false
+                    "computed": false,
+                    "start": 291,
+                    "end": 312
                   },
                   "operator": "??",
                   "right": {
                     "type": "MemberExpression",
-                    "start": 316,
-                    "end": 339,
                     "object": {
                       "type": "Identifier",
-                      "start": 316,
-                      "end": 331,
                       "decorators": [],
                       "name": "ListItemVariant",
                       "optional": false,
-                      "typeAnnotation": null
+                      "typeAnnotation": null,
+                      "start": 316,
+                      "end": 331
                     },
                     "property": {
                       "type": "Identifier",
-                      "start": 332,
-                      "end": 339,
                       "decorators": [],
                       "name": "OneLine",
                       "optional": false,
-                      "typeAnnotation": null
+                      "typeAnnotation": null,
+                      "start": 332,
+                      "end": 339
                     },
                     "optional": false,
-                    "computed": false
-                  }
+                    "computed": false,
+                    "start": 316,
+                    "end": 339
+                  },
+                  "start": 291,
+                  "end": 339
                 },
-                "definite": false
+                "definite": false,
+                "start": 273,
+                "end": 339
               }
             ],
-            "declare": false
+            "declare": false,
+            "start": 267,
+            "end": 340
           },
           {
             "type": "ReturnStatement",
-            "start": 345,
-            "end": 391,
             "argument": {
               "type": "JSXElement",
-              "start": 352,
-              "end": 390,
               "openingElement": {
                 "type": "JSXOpeningElement",
-                "start": 352,
-                "end": 390,
                 "name": {
                   "type": "JSXIdentifier",
+                  "name": "ListItem",
                   "start": 353,
-                  "end": 361,
-                  "name": "ListItem"
+                  "end": 361
                 },
                 "typeArguments": null,
                 "attributes": [
                   {
                     "type": "JSXAttribute",
-                    "start": 362,
-                    "end": 387,
                     "name": {
                       "type": "JSXIdentifier",
+                      "name": "variant",
                       "start": 362,
-                      "end": 369,
-                      "name": "variant"
+                      "end": 369
                     },
                     "value": {
                       "type": "JSXExpressionContainer",
-                      "start": 370,
-                      "end": 387,
                       "expression": {
                         "type": "Identifier",
-                        "start": 371,
-                        "end": 386,
                         "decorators": [],
                         "name": "listItemVariant",
                         "optional": false,
-                        "typeAnnotation": null
-                      }
-                    }
+                        "typeAnnotation": null,
+                        "start": 371,
+                        "end": 386
+                      },
+                      "start": 370,
+                      "end": 387
+                    },
+                    "start": 362,
+                    "end": 387
                   }
                 ],
-                "selfClosing": true
+                "selfClosing": true,
+                "start": 352,
+                "end": 390
               },
               "children": [],
-              "closingElement": null
-            }
+              "closingElement": null,
+              "start": 352,
+              "end": 390
+            },
+            "start": 345,
+            "end": 391
           }
-        ]
+        ],
+        "start": 261,
+        "end": 393
       },
-      "expression": false
+      "expression": false,
+      "start": 150,
+      "end": 393
     },
     {
       "type": "TSTypeAliasDeclaration",
-      "start": 395,
-      "end": 493,
       "id": {
         "type": "Identifier",
-        "start": 400,
-        "end": 413,
         "decorators": [],
         "name": "IListItemData",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 400,
+        "end": 413
       },
       "typeParameters": null,
       "typeAnnotation": {
         "type": "TSUnionType",
-        "start": 416,
-        "end": 492,
         "types": [
           {
             "type": "TSTypeLiteral",
-            "start": 416,
-            "end": 452,
             "members": [
               {
                 "type": "TSPropertySignature",
-                "start": 418,
-                "end": 450,
                 "computed": false,
                 "optional": false,
                 "readonly": false,
                 "key": {
                   "type": "Identifier",
-                  "start": 418,
-                  "end": 425,
                   "decorators": [],
                   "name": "variant",
                   "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "start": 418,
+                  "end": 425
                 },
                 "typeAnnotation": {
                   "type": "TSTypeAnnotation",
-                  "start": 425,
-                  "end": 449,
                   "typeAnnotation": {
                     "type": "TSTypeReference",
-                    "start": 427,
-                    "end": 449,
                     "typeName": {
                       "type": "TSQualifiedName",
-                      "start": 427,
-                      "end": 449,
                       "left": {
                         "type": "Identifier",
-                        "start": 427,
-                        "end": 442,
                         "decorators": [],
                         "name": "ListItemVariant",
                         "optional": false,
-                        "typeAnnotation": null
+                        "typeAnnotation": null,
+                        "start": 427,
+                        "end": 442
                       },
                       "right": {
                         "type": "Identifier",
-                        "start": 443,
-                        "end": 449,
                         "decorators": [],
                         "name": "Avatar",
                         "optional": false,
-                        "typeAnnotation": null
-                      }
+                        "typeAnnotation": null,
+                        "start": 443,
+                        "end": 449
+                      },
+                      "start": 427,
+                      "end": 449
                     },
-                    "typeArguments": null
-                  }
+                    "typeArguments": null,
+                    "start": 427,
+                    "end": 449
+                  },
+                  "start": 425,
+                  "end": 449
                 },
                 "accessibility": null,
-                "static": false
+                "static": false,
+                "start": 418,
+                "end": 450
               }
-            ]
+            ],
+            "start": 416,
+            "end": 452
           },
           {
             "type": "TSTypeLiteral",
-            "start": 455,
-            "end": 492,
             "members": [
               {
                 "type": "TSPropertySignature",
-                "start": 457,
-                "end": 490,
                 "computed": false,
                 "optional": false,
                 "readonly": false,
                 "key": {
                   "type": "Identifier",
-                  "start": 457,
-                  "end": 464,
                   "decorators": [],
                   "name": "variant",
                   "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "start": 457,
+                  "end": 464
                 },
                 "typeAnnotation": {
                   "type": "TSTypeAnnotation",
-                  "start": 464,
-                  "end": 489,
                   "typeAnnotation": {
                     "type": "TSTypeReference",
-                    "start": 466,
-                    "end": 489,
                     "typeName": {
                       "type": "TSQualifiedName",
-                      "start": 466,
-                      "end": 489,
                       "left": {
                         "type": "Identifier",
-                        "start": 466,
-                        "end": 481,
                         "decorators": [],
                         "name": "ListItemVariant",
                         "optional": false,
-                        "typeAnnotation": null
+                        "typeAnnotation": null,
+                        "start": 466,
+                        "end": 481
                       },
                       "right": {
                         "type": "Identifier",
-                        "start": 482,
-                        "end": 489,
                         "decorators": [],
                         "name": "OneLine",
                         "optional": false,
-                        "typeAnnotation": null
-                      }
+                        "typeAnnotation": null,
+                        "start": 482,
+                        "end": 489
+                      },
+                      "start": 466,
+                      "end": 489
                     },
-                    "typeArguments": null
-                  }
+                    "typeArguments": null,
+                    "start": 466,
+                    "end": 489
+                  },
+                  "start": 464,
+                  "end": 489
                 },
                 "accessibility": null,
-                "static": false
+                "static": false,
+                "start": 457,
+                "end": 490
               }
-            ]
+            ],
+            "start": 455,
+            "end": 492
           }
-        ]
+        ],
+        "start": 416,
+        "end": 492
       },
-      "declare": false
+      "declare": false,
+      "start": 395,
+      "end": 493
     },
     {
       "type": "TSEnumDeclaration",
-      "start": 495,
-      "end": 544,
       "id": {
         "type": "Identifier",
-        "start": 500,
-        "end": 515,
         "decorators": [],
         "name": "ListItemVariant",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 500,
+        "end": 515
       },
       "body": {
         "type": "TSEnumBody",
-        "start": 516,
-        "end": 544,
         "members": [
           {
             "type": "TSEnumMember",
-            "start": 522,
-            "end": 529,
             "id": {
               "type": "Identifier",
-              "start": 522,
-              "end": 529,
               "decorators": [],
               "name": "OneLine",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 522,
+              "end": 529
             },
             "initializer": null,
-            "computed": false
+            "computed": false,
+            "start": 522,
+            "end": 529
           },
           {
             "type": "TSEnumMember",
-            "start": 535,
-            "end": 541,
             "id": {
               "type": "Identifier",
-              "start": 535,
-              "end": 541,
               "decorators": [],
               "name": "Avatar",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 535,
+              "end": 541
             },
             "initializer": null,
-            "computed": false
+            "computed": false,
+            "start": 535,
+            "end": 541
           }
-        ]
+        ],
+        "start": 516,
+        "end": 544
       },
       "const": false,
-      "declare": false
+      "declare": false,
+      "start": 495,
+      "end": 544
     },
     {
       "type": "FunctionDeclaration",
-      "start": 546,
-      "end": 607,
       "id": {
         "type": "Identifier",
-        "start": 555,
-        "end": 563,
         "decorators": [],
         "name": "ListItem",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 555,
+        "end": 563
       },
       "generator": false,
       "async": false,
@@ -630,57 +626,61 @@ __ESTREE_TEST__:PASS:
       "params": [
         {
           "type": "Identifier",
-          "start": 564,
-          "end": 584,
           "decorators": [],
           "name": "_data",
           "optional": false,
           "typeAnnotation": {
             "type": "TSTypeAnnotation",
-            "start": 569,
-            "end": 584,
             "typeAnnotation": {
               "type": "TSTypeReference",
-              "start": 571,
-              "end": 584,
               "typeName": {
                 "type": "Identifier",
-                "start": 571,
-                "end": 584,
                 "decorators": [],
                 "name": "IListItemData",
                 "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "start": 571,
+                "end": 584
               },
-              "typeArguments": null
-            }
-          }
+              "typeArguments": null,
+              "start": 571,
+              "end": 584
+            },
+            "start": 569,
+            "end": 584
+          },
+          "start": 564,
+          "end": 584
         }
       ],
       "returnType": null,
       "body": {
         "type": "BlockStatement",
-        "start": 586,
-        "end": 607,
         "body": [
           {
             "type": "ReturnStatement",
-            "start": 592,
-            "end": 604,
             "argument": {
               "type": "Literal",
-              "start": 599,
-              "end": 603,
               "value": null,
-              "raw": "null"
-            }
+              "raw": "null",
+              "start": 599,
+              "end": 603
+            },
+            "start": 592,
+            "end": 604
           }
-        ]
+        ],
+        "start": 586,
+        "end": 607
       },
-      "expression": false
+      "expression": false,
+      "start": 546,
+      "end": 607
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 22,
+  "end": 607
 }
 ```

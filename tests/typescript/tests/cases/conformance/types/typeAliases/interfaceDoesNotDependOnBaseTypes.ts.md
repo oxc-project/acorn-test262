@@ -2,214 +2,208 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 184,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 0,
-      "end": 18,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 4,
-          "end": 17,
           "id": {
             "type": "Identifier",
-            "start": 4,
-            "end": 17,
             "decorators": [],
             "name": "x",
             "optional": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
-              "start": 5,
-              "end": 17,
               "typeAnnotation": {
                 "type": "TSTypeReference",
-                "start": 7,
-                "end": 17,
                 "typeName": {
                   "type": "Identifier",
-                  "start": 7,
-                  "end": 17,
                   "decorators": [],
                   "name": "StringTree",
                   "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "start": 7,
+                  "end": 17
                 },
-                "typeArguments": null
-              }
-            }
+                "typeArguments": null,
+                "start": 7,
+                "end": 17
+              },
+              "start": 5,
+              "end": 17
+            },
+            "start": 4,
+            "end": 17
           },
           "init": null,
-          "definite": false
+          "definite": false,
+          "start": 4,
+          "end": 17
         }
       ],
-      "declare": false
+      "declare": false,
+      "start": 0,
+      "end": 18
     },
     {
       "type": "IfStatement",
-      "start": 19,
-      "end": 83,
       "test": {
         "type": "BinaryExpression",
-        "start": 23,
-        "end": 44,
         "left": {
           "type": "UnaryExpression",
-          "start": 23,
-          "end": 31,
           "operator": "typeof",
           "argument": {
             "type": "Identifier",
-            "start": 30,
-            "end": 31,
             "decorators": [],
             "name": "x",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 30,
+            "end": 31
           },
-          "prefix": true
+          "prefix": true,
+          "start": 23,
+          "end": 31
         },
         "operator": "!==",
         "right": {
           "type": "Literal",
-          "start": 36,
-          "end": 44,
           "value": "string",
-          "raw": "\"string\""
-        }
+          "raw": "\"string\"",
+          "start": 36,
+          "end": 44
+        },
+        "start": 23,
+        "end": 44
       },
       "consequent": {
         "type": "BlockStatement",
-        "start": 46,
-        "end": 83,
         "body": [
           {
             "type": "ExpressionStatement",
-            "start": 52,
-            "end": 63,
             "expression": {
               "type": "CallExpression",
-              "start": 52,
-              "end": 62,
               "callee": {
                 "type": "MemberExpression",
-                "start": 52,
-                "end": 58,
                 "object": {
                   "type": "Identifier",
-                  "start": 52,
-                  "end": 53,
                   "decorators": [],
                   "name": "x",
                   "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "start": 52,
+                  "end": 53
                 },
                 "property": {
                   "type": "Identifier",
-                  "start": 54,
-                  "end": 58,
                   "decorators": [],
                   "name": "push",
                   "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "start": 54,
+                  "end": 58
                 },
                 "optional": false,
-                "computed": false
+                "computed": false,
+                "start": 52,
+                "end": 58
               },
               "typeArguments": null,
               "arguments": [
                 {
                   "type": "Literal",
-                  "start": 59,
-                  "end": 61,
                   "value": "",
-                  "raw": "\"\""
+                  "raw": "\"\"",
+                  "start": 59,
+                  "end": 61
                 }
               ],
-              "optional": false
+              "optional": false,
+              "start": 52,
+              "end": 62
             },
-            "directive": null
+            "directive": null,
+            "start": 52,
+            "end": 63
           },
           {
             "type": "ExpressionStatement",
-            "start": 68,
-            "end": 81,
             "expression": {
               "type": "CallExpression",
-              "start": 68,
-              "end": 80,
               "callee": {
                 "type": "MemberExpression",
-                "start": 68,
-                "end": 74,
                 "object": {
                   "type": "Identifier",
-                  "start": 68,
-                  "end": 69,
                   "decorators": [],
                   "name": "x",
                   "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "start": 68,
+                  "end": 69
                 },
                 "property": {
                   "type": "Identifier",
-                  "start": 70,
-                  "end": 74,
                   "decorators": [],
                   "name": "push",
                   "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "start": 70,
+                  "end": 74
                 },
                 "optional": false,
-                "computed": false
+                "computed": false,
+                "start": 68,
+                "end": 74
               },
               "typeArguments": null,
               "arguments": [
                 {
                   "type": "ArrayExpression",
-                  "start": 75,
-                  "end": 79,
                   "elements": [
                     {
                       "type": "Literal",
-                      "start": 76,
-                      "end": 78,
                       "value": "",
-                      "raw": "\"\""
+                      "raw": "\"\"",
+                      "start": 76,
+                      "end": 78
                     }
-                  ]
+                  ],
+                  "start": 75,
+                  "end": 79
                 }
               ],
-              "optional": false
+              "optional": false,
+              "start": 68,
+              "end": 80
             },
-            "directive": null
+            "directive": null,
+            "start": 68,
+            "end": 81
           }
-        ]
+        ],
+        "start": 46,
+        "end": 83
       },
-      "alternate": null
+      "alternate": null,
+      "start": 19,
+      "end": 83
     },
     {
       "type": "TSTypeAliasDeclaration",
-      "start": 85,
-      "end": 128,
       "id": {
         "type": "Identifier",
-        "start": 90,
-        "end": 100,
         "decorators": [],
         "name": "StringTree",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 90,
+        "end": 100
       },
       "typeParameters": null,
       "typeAnnotation": {
         "type": "TSUnionType",
-        "start": 103,
-        "end": 127,
         "types": [
           {
             "type": "TSStringKeyword",
@@ -218,85 +212,91 @@ __ESTREE_TEST__:PASS:
           },
           {
             "type": "TSTypeReference",
-            "start": 112,
-            "end": 127,
             "typeName": {
               "type": "Identifier",
-              "start": 112,
-              "end": 127,
               "decorators": [],
               "name": "StringTreeArray",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 112,
+              "end": 127
             },
-            "typeArguments": null
+            "typeArguments": null,
+            "start": 112,
+            "end": 127
           }
-        ]
+        ],
+        "start": 103,
+        "end": 127
       },
-      "declare": false
+      "declare": false,
+      "start": 85,
+      "end": 128
     },
     {
       "type": "TSInterfaceDeclaration",
-      "start": 129,
-      "end": 184,
       "id": {
         "type": "Identifier",
-        "start": 139,
-        "end": 154,
         "decorators": [],
         "name": "StringTreeArray",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 139,
+        "end": 154
       },
       "typeParameters": null,
       "extends": [
         {
           "type": "TSInterfaceHeritage",
-          "start": 163,
-          "end": 180,
           "expression": {
             "type": "Identifier",
-            "start": 163,
-            "end": 168,
             "decorators": [],
             "name": "Array",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 163,
+            "end": 168
           },
           "typeArguments": {
             "type": "TSTypeParameterInstantiation",
-            "start": 168,
-            "end": 180,
             "params": [
               {
                 "type": "TSTypeReference",
-                "start": 169,
-                "end": 179,
                 "typeName": {
                   "type": "Identifier",
-                  "start": 169,
-                  "end": 179,
                   "decorators": [],
                   "name": "StringTree",
                   "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "start": 169,
+                  "end": 179
                 },
-                "typeArguments": null
+                "typeArguments": null,
+                "start": 169,
+                "end": 179
               }
-            ]
-          }
+            ],
+            "start": 168,
+            "end": 180
+          },
+          "start": 163,
+          "end": 180
         }
       ],
       "body": {
         "type": "TSInterfaceBody",
+        "body": [],
         "start": 181,
-        "end": 184,
-        "body": []
+        "end": 184
       },
-      "declare": false
+      "declare": false,
+      "start": 129,
+      "end": 184
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 184
 }
 ```

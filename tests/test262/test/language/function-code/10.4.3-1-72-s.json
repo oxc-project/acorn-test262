@@ -1,47 +1,37 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 378,
   "body": [
     {
       "type": "FunctionDeclaration",
-      "start": 279,
-      "end": 328,
       "id": {
         "type": "Identifier",
+        "name": "f",
         "start": 288,
-        "end": 289,
-        "name": "f"
+        "end": 289
       },
       "generator": false,
       "async": false,
       "params": [],
       "body": {
         "type": "BlockStatement",
-        "start": 292,
-        "end": 328,
         "body": [
           {
             "type": "ExpressionStatement",
-            "start": 294,
-            "end": 307,
             "expression": {
               "type": "Literal",
-              "start": 294,
-              "end": 306,
               "value": "use strict",
-              "raw": "\"use strict\""
+              "raw": "\"use strict\"",
+              "start": 294,
+              "end": 306
             },
-            "directive": "use strict"
+            "directive": "use strict",
+            "start": 294,
+            "end": 307
           },
           {
             "type": "ReturnStatement",
-            "start": 308,
-            "end": 327,
             "argument": {
               "type": "BinaryExpression",
-              "start": 315,
-              "end": 326,
               "left": {
                 "type": "ThisExpression",
                 "start": 315,
@@ -50,16 +40,24 @@
               "operator": "===",
               "right": {
                 "type": "Literal",
-                "start": 322,
-                "end": 326,
                 "value": null,
-                "raw": "null"
-              }
-            }
+                "raw": "null",
+                "start": 322,
+                "end": 326
+              },
+              "start": 315,
+              "end": 326
+            },
+            "start": 308,
+            "end": 327
           }
-        ]
+        ],
+        "start": 292,
+        "end": 328
       },
-      "expression": false
+      "expression": false,
+      "start": 279,
+      "end": 328
     },
     {
       "type": "EmptyStatement",
@@ -68,65 +66,67 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 331,
-      "end": 377,
       "expression": {
         "type": "CallExpression",
-        "start": 331,
-        "end": 376,
         "callee": {
           "type": "Identifier",
+          "name": "assert",
           "start": 331,
-          "end": 337,
-          "name": "assert"
+          "end": 337
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 338,
-            "end": 350,
             "callee": {
               "type": "MemberExpression",
-              "start": 338,
-              "end": 344,
               "object": {
                 "type": "Identifier",
+                "name": "f",
                 "start": 338,
-                "end": 339,
-                "name": "f"
+                "end": 339
               },
               "property": {
                 "type": "Identifier",
+                "name": "call",
                 "start": 340,
-                "end": 344,
-                "name": "call"
+                "end": 344
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 338,
+              "end": 344
             },
             "arguments": [
               {
                 "type": "Literal",
-                "start": 345,
-                "end": 349,
                 "value": null,
-                "raw": "null"
+                "raw": "null",
+                "start": 345,
+                "end": 349
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 338,
+            "end": 350
           },
           {
             "type": "Literal",
-            "start": 352,
-            "end": 375,
             "value": "f.call(null) !== true",
-            "raw": "'f.call(null) !== true'"
+            "raw": "'f.call(null) !== true'",
+            "start": 352,
+            "end": 375
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 331,
+        "end": 376
+      },
+      "start": 331,
+      "end": 377
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 378
 }

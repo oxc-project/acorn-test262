@@ -1,26 +1,26 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 391,
   "body": [
     {
       "type": "WithStatement",
-      "start": 378,
-      "end": 390,
       "object": {
         "type": "ObjectExpression",
+        "properties": [],
         "start": 384,
-        "end": 386,
-        "properties": []
+        "end": 386
       },
       "body": {
         "type": "BlockStatement",
+        "body": [],
         "start": 388,
-        "end": 390,
-        "body": []
-      }
+        "end": 390
+      },
+      "start": 378,
+      "end": 390
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 391
 }

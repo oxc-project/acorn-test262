@@ -2,22 +2,18 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 53,
   "body": [
     {
       "type": "ClassDeclaration",
-      "start": 0,
-      "end": 11,
       "decorators": [],
       "id": {
         "type": "Identifier",
-        "start": 6,
-        "end": 7,
         "decorators": [],
         "name": "C",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 6,
+        "end": 7
       },
       "typeParameters": null,
       "superClass": null,
@@ -25,79 +21,83 @@ __ESTREE_TEST__:PASS:
       "implements": [],
       "body": {
         "type": "ClassBody",
+        "body": [],
         "start": 8,
-        "end": 11,
-        "body": []
+        "end": 11
       },
       "abstract": false,
-      "declare": false
+      "declare": false,
+      "start": 0,
+      "end": 11
     },
     {
       "type": "VariableDeclaration",
-      "start": 13,
-      "end": 30,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 17,
-          "end": 29,
           "id": {
             "type": "Identifier",
-            "start": 17,
-            "end": 29,
             "decorators": [],
             "name": "declare",
             "optional": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
-              "start": 24,
-              "end": 29,
               "typeAnnotation": {
                 "type": "TSAnyKeyword",
                 "start": 26,
                 "end": 29
-              }
-            }
+              },
+              "start": 24,
+              "end": 29
+            },
+            "start": 17,
+            "end": 29
           },
           "init": null,
-          "definite": false
+          "definite": false,
+          "start": 17,
+          "end": 29
         }
       ],
-      "declare": false
+      "declare": false,
+      "start": 13,
+      "end": 30
     },
     {
       "type": "ExpressionStatement",
-      "start": 32,
-      "end": 53,
       "expression": {
         "type": "BinaryExpression",
-        "start": 32,
-        "end": 52,
         "left": {
           "type": "Identifier",
-          "start": 32,
-          "end": 39,
           "decorators": [],
           "name": "declare",
           "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "start": 32,
+          "end": 39
         },
         "operator": "instanceof",
         "right": {
           "type": "Identifier",
-          "start": 51,
-          "end": 52,
           "decorators": [],
           "name": "C",
           "optional": false,
-          "typeAnnotation": null
-        }
+          "typeAnnotation": null,
+          "start": 51,
+          "end": 52
+        },
+        "start": 32,
+        "end": 52
       },
-      "directive": null
+      "directive": null,
+      "start": 32,
+      "end": 53
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 53
 }
 ```

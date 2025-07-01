@@ -1,28 +1,28 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 501,
   "body": [
     {
       "type": "ClassDeclaration",
-      "start": 481,
-      "end": 500,
       "decorators": [],
       "id": {
         "type": "Identifier",
+        "name": "await",
         "start": 487,
-        "end": 497,
-        "name": "await"
+        "end": 497
       },
       "superClass": null,
       "body": {
         "type": "ClassBody",
+        "body": [],
         "start": 498,
-        "end": 500,
-        "body": []
-      }
+        "end": 500
+      },
+      "start": 481,
+      "end": 500
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 501
 }

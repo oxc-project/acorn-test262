@@ -1,321 +1,321 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 1753,
   "body": [
     {
       "type": "ImportDeclaration",
-      "start": 1276,
-      "end": 1354,
       "specifiers": [
         {
           "type": "ImportNamespaceSpecifier",
-          "start": 1283,
-          "end": 1296,
           "local": {
             "type": "Identifier",
+            "name": "namedns1",
             "start": 1288,
-            "end": 1296,
-            "name": "namedns1"
-          }
+            "end": 1296
+          },
+          "start": 1283,
+          "end": 1296
         }
       ],
       "source": {
         "type": "Literal",
-        "start": 1302,
-        "end": 1353,
         "value": "./get-nested-namespace-dflt-skip-named_FIXTURE.js",
-        "raw": "'./get-nested-namespace-dflt-skip-named_FIXTURE.js'"
+        "raw": "'./get-nested-namespace-dflt-skip-named_FIXTURE.js'",
+        "start": 1302,
+        "end": 1353
       },
       "phase": null,
-      "attributes": []
+      "attributes": [],
+      "start": 1276,
+      "end": 1354
     },
     {
       "type": "ImportDeclaration",
-      "start": 1355,
-      "end": 1437,
       "specifiers": [
         {
           "type": "ImportNamespaceSpecifier",
-          "start": 1362,
-          "end": 1380,
           "local": {
             "type": "Identifier",
+            "name": "productionns1",
             "start": 1367,
-            "end": 1380,
-            "name": "productionns1"
-          }
+            "end": 1380
+          },
+          "start": 1362,
+          "end": 1380
         }
       ],
       "source": {
         "type": "Literal",
-        "start": 1386,
-        "end": 1436,
         "value": "./get-nested-namespace-dflt-skip-prod_FIXTURE.js",
-        "raw": "'./get-nested-namespace-dflt-skip-prod_FIXTURE.js'"
+        "raw": "'./get-nested-namespace-dflt-skip-prod_FIXTURE.js'",
+        "start": 1386,
+        "end": 1436
       },
       "phase": null,
-      "attributes": []
+      "attributes": [],
+      "start": 1355,
+      "end": 1437
     },
     {
       "type": "ExpressionStatement",
-      "start": 1439,
-      "end": 1481,
       "expression": {
         "type": "CallExpression",
-        "start": 1439,
-        "end": 1480,
         "callee": {
           "type": "Identifier",
+          "name": "assert",
           "start": 1439,
-          "end": 1445,
-          "name": "assert"
+          "end": 1445
         },
         "arguments": [
           {
             "type": "BinaryExpression",
-            "start": 1446,
-            "end": 1479,
             "left": {
               "type": "Literal",
-              "start": 1446,
-              "end": 1458,
               "value": "namedOther",
-              "raw": "'namedOther'"
+              "raw": "'namedOther'",
+              "start": 1446,
+              "end": 1458
             },
             "operator": "in",
             "right": {
               "type": "MemberExpression",
-              "start": 1462,
-              "end": 1479,
               "object": {
                 "type": "Identifier",
+                "name": "namedns1",
                 "start": 1462,
-                "end": 1470,
-                "name": "namedns1"
+                "end": 1470
               },
               "property": {
                 "type": "Identifier",
+                "name": "namedns2",
                 "start": 1471,
-                "end": 1479,
-                "name": "namedns2"
+                "end": 1479
               },
               "optional": false,
-              "computed": false
-            }
+              "computed": false,
+              "start": 1462,
+              "end": 1479
+            },
+            "start": 1446,
+            "end": 1479
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 1439,
+        "end": 1480
+      },
+      "start": 1439,
+      "end": 1481
     },
     {
       "type": "ExpressionStatement",
-      "start": 1482,
-      "end": 1577,
       "expression": {
         "type": "CallExpression",
-        "start": 1482,
-        "end": 1576,
         "callee": {
           "type": "MemberExpression",
-          "start": 1482,
-          "end": 1498,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 1482,
-            "end": 1488,
-            "name": "assert"
+            "end": 1488
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 1489,
-            "end": 1498,
-            "name": "sameValue"
+            "end": 1498
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 1482,
+          "end": 1498
         },
         "arguments": [
           {
             "type": "BinaryExpression",
-            "start": 1502,
-            "end": 1532,
             "left": {
               "type": "Literal",
-              "start": 1502,
-              "end": 1511,
               "value": "default",
-              "raw": "'default'"
+              "raw": "'default'",
+              "start": 1502,
+              "end": 1511
             },
             "operator": "in",
             "right": {
               "type": "MemberExpression",
-              "start": 1515,
-              "end": 1532,
               "object": {
                 "type": "Identifier",
+                "name": "namedns1",
                 "start": 1515,
-                "end": 1523,
-                "name": "namedns1"
+                "end": 1523
               },
               "property": {
                 "type": "Identifier",
+                "name": "namedns2",
                 "start": 1524,
-                "end": 1532,
-                "name": "namedns2"
+                "end": 1532
               },
               "optional": false,
-              "computed": false
-            }
+              "computed": false,
+              "start": 1515,
+              "end": 1532
+            },
+            "start": 1502,
+            "end": 1532
           },
           {
             "type": "Literal",
-            "start": 1534,
-            "end": 1538,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "start": 1534,
+            "end": 1538
           },
           {
             "type": "Literal",
-            "start": 1540,
-            "end": 1574,
             "value": "default specified via identifier",
-            "raw": "'default specified via identifier'"
+            "raw": "'default specified via identifier'",
+            "start": 1540,
+            "end": 1574
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 1482,
+        "end": 1576
+      },
+      "start": 1482,
+      "end": 1577
     },
     {
       "type": "ExpressionStatement",
-      "start": 1579,
-      "end": 1636,
       "expression": {
         "type": "CallExpression",
-        "start": 1579,
-        "end": 1635,
         "callee": {
           "type": "Identifier",
+          "name": "assert",
           "start": 1579,
-          "end": 1585,
-          "name": "assert"
+          "end": 1585
         },
         "arguments": [
           {
             "type": "BinaryExpression",
-            "start": 1586,
-            "end": 1634,
             "left": {
               "type": "Literal",
-              "start": 1586,
-              "end": 1603,
               "value": "productionOther",
-              "raw": "'productionOther'"
+              "raw": "'productionOther'",
+              "start": 1586,
+              "end": 1603
             },
             "operator": "in",
             "right": {
               "type": "MemberExpression",
-              "start": 1607,
-              "end": 1634,
               "object": {
                 "type": "Identifier",
+                "name": "productionns1",
                 "start": 1607,
-                "end": 1620,
-                "name": "productionns1"
+                "end": 1620
               },
               "property": {
                 "type": "Identifier",
+                "name": "productionns2",
                 "start": 1621,
-                "end": 1634,
-                "name": "productionns2"
+                "end": 1634
               },
               "optional": false,
-              "computed": false
-            }
+              "computed": false,
+              "start": 1607,
+              "end": 1634
+            },
+            "start": 1586,
+            "end": 1634
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 1579,
+        "end": 1635
+      },
+      "start": 1579,
+      "end": 1636
     },
     {
       "type": "ExpressionStatement",
-      "start": 1637,
-      "end": 1752,
       "expression": {
         "type": "CallExpression",
-        "start": 1637,
-        "end": 1751,
         "callee": {
           "type": "MemberExpression",
-          "start": 1637,
-          "end": 1653,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 1637,
-            "end": 1643,
-            "name": "assert"
+            "end": 1643
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 1644,
-            "end": 1653,
-            "name": "sameValue"
+            "end": 1653
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 1637,
+          "end": 1653
         },
         "arguments": [
           {
             "type": "BinaryExpression",
-            "start": 1657,
-            "end": 1697,
             "left": {
               "type": "Literal",
-              "start": 1657,
-              "end": 1666,
               "value": "default",
-              "raw": "'default'"
+              "raw": "'default'",
+              "start": 1657,
+              "end": 1666
             },
             "operator": "in",
             "right": {
               "type": "MemberExpression",
-              "start": 1670,
-              "end": 1697,
               "object": {
                 "type": "Identifier",
+                "name": "productionns1",
                 "start": 1670,
-                "end": 1683,
-                "name": "productionns1"
+                "end": 1683
               },
               "property": {
                 "type": "Identifier",
+                "name": "productionns2",
                 "start": 1684,
-                "end": 1697,
-                "name": "productionns2"
+                "end": 1697
               },
               "optional": false,
-              "computed": false
-            }
+              "computed": false,
+              "start": 1670,
+              "end": 1697
+            },
+            "start": 1657,
+            "end": 1697
           },
           {
             "type": "Literal",
-            "start": 1699,
-            "end": 1703,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "start": 1699,
+            "end": 1703
           },
           {
             "type": "Literal",
-            "start": 1705,
-            "end": 1749,
             "value": "default specified via dedicated production",
-            "raw": "'default specified via dedicated production'"
+            "raw": "'default specified via dedicated production'",
+            "start": 1705,
+            "end": 1749
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 1637,
+        "end": 1751
+      },
+      "start": 1637,
+      "end": 1752
     }
   ],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 1753
 }

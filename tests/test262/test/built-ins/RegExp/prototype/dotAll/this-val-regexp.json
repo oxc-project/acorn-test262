@@ -1,1569 +1,1569 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 1875,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 490,
-      "end": 540,
       "expression": {
         "type": "CallExpression",
-        "start": 490,
-        "end": 539,
         "callee": {
           "type": "MemberExpression",
-          "start": 490,
-          "end": 506,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 490,
-            "end": 496,
-            "name": "assert"
+            "end": 496
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 497,
-            "end": 506,
-            "name": "sameValue"
+            "end": 506
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 490,
+          "end": 506
         },
         "arguments": [
           {
             "type": "MemberExpression",
-            "start": 507,
-            "end": 517,
             "object": {
               "type": "Literal",
-              "start": 507,
-              "end": 510,
               "value": null,
               "raw": "/./",
               "regex": {
                 "pattern": ".",
                 "flags": ""
-              }
+              },
+              "start": 507,
+              "end": 510
             },
             "property": {
               "type": "Identifier",
+              "name": "dotAll",
               "start": 511,
-              "end": 517,
-              "name": "dotAll"
+              "end": 517
             },
             "optional": false,
-            "computed": false
+            "computed": false,
+            "start": 507,
+            "end": 517
           },
           {
             "type": "Literal",
-            "start": 519,
-            "end": 524,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "start": 519,
+            "end": 524
           },
           {
             "type": "Literal",
-            "start": 526,
-            "end": 538,
             "value": "/./.dotAll",
-            "raw": "\"/./.dotAll\""
+            "raw": "\"/./.dotAll\"",
+            "start": 526,
+            "end": 538
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 490,
+        "end": 539
+      },
+      "start": 490,
+      "end": 540
     },
     {
       "type": "ExpressionStatement",
-      "start": 541,
-      "end": 593,
       "expression": {
         "type": "CallExpression",
-        "start": 541,
-        "end": 592,
         "callee": {
           "type": "MemberExpression",
-          "start": 541,
-          "end": 557,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 541,
-            "end": 547,
-            "name": "assert"
+            "end": 547
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 548,
-            "end": 557,
-            "name": "sameValue"
+            "end": 557
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 541,
+          "end": 557
         },
         "arguments": [
           {
             "type": "MemberExpression",
-            "start": 558,
-            "end": 569,
             "object": {
               "type": "Literal",
-              "start": 558,
-              "end": 562,
               "value": null,
               "raw": "/./i",
               "regex": {
                 "pattern": ".",
                 "flags": "i"
-              }
+              },
+              "start": 558,
+              "end": 562
             },
             "property": {
               "type": "Identifier",
+              "name": "dotAll",
               "start": 563,
-              "end": 569,
-              "name": "dotAll"
+              "end": 569
             },
             "optional": false,
-            "computed": false
+            "computed": false,
+            "start": 558,
+            "end": 569
           },
           {
             "type": "Literal",
-            "start": 571,
-            "end": 576,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "start": 571,
+            "end": 576
           },
           {
             "type": "Literal",
-            "start": 578,
-            "end": 591,
             "value": "/./i.dotAll",
-            "raw": "\"/./i.dotAll\""
+            "raw": "\"/./i.dotAll\"",
+            "start": 578,
+            "end": 591
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 541,
+        "end": 592
+      },
+      "start": 541,
+      "end": 593
     },
     {
       "type": "ExpressionStatement",
-      "start": 594,
-      "end": 646,
       "expression": {
         "type": "CallExpression",
-        "start": 594,
-        "end": 645,
         "callee": {
           "type": "MemberExpression",
-          "start": 594,
-          "end": 610,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 594,
-            "end": 600,
-            "name": "assert"
+            "end": 600
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 601,
-            "end": 610,
-            "name": "sameValue"
+            "end": 610
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 594,
+          "end": 610
         },
         "arguments": [
           {
             "type": "MemberExpression",
-            "start": 611,
-            "end": 622,
             "object": {
               "type": "Literal",
-              "start": 611,
-              "end": 615,
               "value": null,
               "raw": "/./g",
               "regex": {
                 "pattern": ".",
                 "flags": "g"
-              }
+              },
+              "start": 611,
+              "end": 615
             },
             "property": {
               "type": "Identifier",
+              "name": "dotAll",
               "start": 616,
-              "end": 622,
-              "name": "dotAll"
+              "end": 622
             },
             "optional": false,
-            "computed": false
+            "computed": false,
+            "start": 611,
+            "end": 622
           },
           {
             "type": "Literal",
-            "start": 624,
-            "end": 629,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "start": 624,
+            "end": 629
           },
           {
             "type": "Literal",
-            "start": 631,
-            "end": 644,
             "value": "/./g.dotAll",
-            "raw": "\"/./g.dotAll\""
+            "raw": "\"/./g.dotAll\"",
+            "start": 631,
+            "end": 644
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 594,
+        "end": 645
+      },
+      "start": 594,
+      "end": 646
     },
     {
       "type": "ExpressionStatement",
-      "start": 647,
-      "end": 699,
       "expression": {
         "type": "CallExpression",
-        "start": 647,
-        "end": 698,
         "callee": {
           "type": "MemberExpression",
-          "start": 647,
-          "end": 663,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 647,
-            "end": 653,
-            "name": "assert"
+            "end": 653
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 654,
-            "end": 663,
-            "name": "sameValue"
+            "end": 663
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 647,
+          "end": 663
         },
         "arguments": [
           {
             "type": "MemberExpression",
-            "start": 664,
-            "end": 675,
             "object": {
               "type": "Literal",
-              "start": 664,
-              "end": 668,
               "value": null,
               "raw": "/./y",
               "regex": {
                 "pattern": ".",
                 "flags": "y"
-              }
+              },
+              "start": 664,
+              "end": 668
             },
             "property": {
               "type": "Identifier",
+              "name": "dotAll",
               "start": 669,
-              "end": 675,
-              "name": "dotAll"
+              "end": 675
             },
             "optional": false,
-            "computed": false
+            "computed": false,
+            "start": 664,
+            "end": 675
           },
           {
             "type": "Literal",
-            "start": 677,
-            "end": 682,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "start": 677,
+            "end": 682
           },
           {
             "type": "Literal",
-            "start": 684,
-            "end": 697,
             "value": "/./y.dotAll",
-            "raw": "\"/./y.dotAll\""
+            "raw": "\"/./y.dotAll\"",
+            "start": 684,
+            "end": 697
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 647,
+        "end": 698
+      },
+      "start": 647,
+      "end": 699
     },
     {
       "type": "ExpressionStatement",
-      "start": 700,
-      "end": 752,
       "expression": {
         "type": "CallExpression",
-        "start": 700,
-        "end": 751,
         "callee": {
           "type": "MemberExpression",
-          "start": 700,
-          "end": 716,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 700,
-            "end": 706,
-            "name": "assert"
+            "end": 706
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 707,
-            "end": 716,
-            "name": "sameValue"
+            "end": 716
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 700,
+          "end": 716
         },
         "arguments": [
           {
             "type": "MemberExpression",
-            "start": 717,
-            "end": 728,
             "object": {
               "type": "Literal",
-              "start": 717,
-              "end": 721,
               "value": null,
               "raw": "/./m",
               "regex": {
                 "pattern": ".",
                 "flags": "m"
-              }
+              },
+              "start": 717,
+              "end": 721
             },
             "property": {
               "type": "Identifier",
+              "name": "dotAll",
               "start": 722,
-              "end": 728,
-              "name": "dotAll"
+              "end": 728
             },
             "optional": false,
-            "computed": false
+            "computed": false,
+            "start": 717,
+            "end": 728
           },
           {
             "type": "Literal",
-            "start": 730,
-            "end": 735,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "start": 730,
+            "end": 735
           },
           {
             "type": "Literal",
-            "start": 737,
-            "end": 750,
             "value": "/./m.dotAll",
-            "raw": "\"/./m.dotAll\""
+            "raw": "\"/./m.dotAll\"",
+            "start": 737,
+            "end": 750
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 700,
+        "end": 751
+      },
+      "start": 700,
+      "end": 752
     },
     {
       "type": "ExpressionStatement",
-      "start": 754,
-      "end": 805,
       "expression": {
         "type": "CallExpression",
-        "start": 754,
-        "end": 804,
         "callee": {
           "type": "MemberExpression",
-          "start": 754,
-          "end": 770,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 754,
-            "end": 760,
-            "name": "assert"
+            "end": 760
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 761,
-            "end": 770,
-            "name": "sameValue"
+            "end": 770
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 754,
+          "end": 770
         },
         "arguments": [
           {
             "type": "MemberExpression",
-            "start": 771,
-            "end": 782,
             "object": {
               "type": "Literal",
-              "start": 771,
-              "end": 775,
               "value": null,
               "raw": "/./s",
               "regex": {
                 "pattern": ".",
                 "flags": "s"
-              }
+              },
+              "start": 771,
+              "end": 775
             },
             "property": {
               "type": "Identifier",
+              "name": "dotAll",
               "start": 776,
-              "end": 782,
-              "name": "dotAll"
+              "end": 782
             },
             "optional": false,
-            "computed": false
+            "computed": false,
+            "start": 771,
+            "end": 782
           },
           {
             "type": "Literal",
-            "start": 784,
-            "end": 788,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "start": 784,
+            "end": 788
           },
           {
             "type": "Literal",
-            "start": 790,
-            "end": 803,
             "value": "/./s.dotAll",
-            "raw": "\"/./s.dotAll\""
+            "raw": "\"/./s.dotAll\"",
+            "start": 790,
+            "end": 803
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 754,
+        "end": 804
+      },
+      "start": 754,
+      "end": 805
     },
     {
       "type": "ExpressionStatement",
-      "start": 806,
-      "end": 859,
       "expression": {
         "type": "CallExpression",
-        "start": 806,
-        "end": 858,
         "callee": {
           "type": "MemberExpression",
-          "start": 806,
-          "end": 822,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 806,
-            "end": 812,
-            "name": "assert"
+            "end": 812
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 813,
-            "end": 822,
-            "name": "sameValue"
+            "end": 822
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 806,
+          "end": 822
         },
         "arguments": [
           {
             "type": "MemberExpression",
-            "start": 823,
-            "end": 835,
             "object": {
               "type": "Literal",
-              "start": 823,
-              "end": 828,
               "value": null,
               "raw": "/./is",
               "regex": {
                 "pattern": ".",
                 "flags": "is"
-              }
+              },
+              "start": 823,
+              "end": 828
             },
             "property": {
               "type": "Identifier",
+              "name": "dotAll",
               "start": 829,
-              "end": 835,
-              "name": "dotAll"
+              "end": 835
             },
             "optional": false,
-            "computed": false
+            "computed": false,
+            "start": 823,
+            "end": 835
           },
           {
             "type": "Literal",
-            "start": 837,
-            "end": 841,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "start": 837,
+            "end": 841
           },
           {
             "type": "Literal",
-            "start": 843,
-            "end": 857,
             "value": "/./is.dotAll",
-            "raw": "\"/./is.dotAll\""
+            "raw": "\"/./is.dotAll\"",
+            "start": 843,
+            "end": 857
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 806,
+        "end": 858
+      },
+      "start": 806,
+      "end": 859
     },
     {
       "type": "ExpressionStatement",
-      "start": 860,
-      "end": 913,
       "expression": {
         "type": "CallExpression",
-        "start": 860,
-        "end": 912,
         "callee": {
           "type": "MemberExpression",
-          "start": 860,
-          "end": 876,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 860,
-            "end": 866,
-            "name": "assert"
+            "end": 866
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 867,
-            "end": 876,
-            "name": "sameValue"
+            "end": 876
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 860,
+          "end": 876
         },
         "arguments": [
           {
             "type": "MemberExpression",
-            "start": 877,
-            "end": 889,
             "object": {
               "type": "Literal",
-              "start": 877,
-              "end": 882,
               "value": null,
               "raw": "/./sg",
               "regex": {
                 "pattern": ".",
                 "flags": "gs"
-              }
+              },
+              "start": 877,
+              "end": 882
             },
             "property": {
               "type": "Identifier",
+              "name": "dotAll",
               "start": 883,
-              "end": 889,
-              "name": "dotAll"
+              "end": 889
             },
             "optional": false,
-            "computed": false
+            "computed": false,
+            "start": 877,
+            "end": 889
           },
           {
             "type": "Literal",
-            "start": 891,
-            "end": 895,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "start": 891,
+            "end": 895
           },
           {
             "type": "Literal",
-            "start": 897,
-            "end": 911,
             "value": "/./sg.dotAll",
-            "raw": "\"/./sg.dotAll\""
+            "raw": "\"/./sg.dotAll\"",
+            "start": 897,
+            "end": 911
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 860,
+        "end": 912
+      },
+      "start": 860,
+      "end": 913
     },
     {
       "type": "ExpressionStatement",
-      "start": 914,
-      "end": 967,
       "expression": {
         "type": "CallExpression",
-        "start": 914,
-        "end": 966,
         "callee": {
           "type": "MemberExpression",
-          "start": 914,
-          "end": 930,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 914,
-            "end": 920,
-            "name": "assert"
+            "end": 920
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 921,
-            "end": 930,
-            "name": "sameValue"
+            "end": 930
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 914,
+          "end": 930
         },
         "arguments": [
           {
             "type": "MemberExpression",
-            "start": 931,
-            "end": 943,
             "object": {
               "type": "Literal",
-              "start": 931,
-              "end": 936,
               "value": null,
               "raw": "/./sy",
               "regex": {
                 "pattern": ".",
                 "flags": "sy"
-              }
+              },
+              "start": 931,
+              "end": 936
             },
             "property": {
               "type": "Identifier",
+              "name": "dotAll",
               "start": 937,
-              "end": 943,
-              "name": "dotAll"
+              "end": 943
             },
             "optional": false,
-            "computed": false
+            "computed": false,
+            "start": 931,
+            "end": 943
           },
           {
             "type": "Literal",
-            "start": 945,
-            "end": 949,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "start": 945,
+            "end": 949
           },
           {
             "type": "Literal",
-            "start": 951,
-            "end": 965,
             "value": "/./sy.dotAll",
-            "raw": "\"/./sy.dotAll\""
+            "raw": "\"/./sy.dotAll\"",
+            "start": 951,
+            "end": 965
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 914,
+        "end": 966
+      },
+      "start": 914,
+      "end": 967
     },
     {
       "type": "ExpressionStatement",
-      "start": 968,
-      "end": 1021,
       "expression": {
         "type": "CallExpression",
-        "start": 968,
-        "end": 1020,
         "callee": {
           "type": "MemberExpression",
-          "start": 968,
-          "end": 984,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 968,
-            "end": 974,
-            "name": "assert"
+            "end": 974
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 975,
-            "end": 984,
-            "name": "sameValue"
+            "end": 984
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 968,
+          "end": 984
         },
         "arguments": [
           {
             "type": "MemberExpression",
-            "start": 985,
-            "end": 997,
             "object": {
               "type": "Literal",
-              "start": 985,
-              "end": 990,
               "value": null,
               "raw": "/./ms",
               "regex": {
                 "pattern": ".",
                 "flags": "ms"
-              }
+              },
+              "start": 985,
+              "end": 990
             },
             "property": {
               "type": "Identifier",
+              "name": "dotAll",
               "start": 991,
-              "end": 997,
-              "name": "dotAll"
+              "end": 997
             },
             "optional": false,
-            "computed": false
+            "computed": false,
+            "start": 985,
+            "end": 997
           },
           {
             "type": "Literal",
+            "value": true,
+            "raw": "true",
             "start": 999,
-            "end": 1003,
-            "value": true,
-            "raw": "true"
+            "end": 1003
           },
           {
             "type": "Literal",
-            "start": 1005,
-            "end": 1019,
             "value": "/./ms.dotAll",
-            "raw": "\"/./ms.dotAll\""
+            "raw": "\"/./ms.dotAll\"",
+            "start": 1005,
+            "end": 1019
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 968,
+        "end": 1020
+      },
+      "start": 968,
+      "end": 1021
     },
     {
       "type": "ExpressionStatement",
-      "start": 1023,
-      "end": 1105,
       "expression": {
         "type": "CallExpression",
-        "start": 1023,
-        "end": 1104,
         "callee": {
           "type": "MemberExpression",
-          "start": 1023,
-          "end": 1039,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 1023,
-            "end": 1029,
-            "name": "assert"
+            "end": 1029
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 1030,
-            "end": 1039,
-            "name": "sameValue"
+            "end": 1039
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 1023,
+          "end": 1039
         },
         "arguments": [
           {
             "type": "MemberExpression",
-            "start": 1040,
-            "end": 1066,
             "object": {
               "type": "NewExpression",
-              "start": 1040,
-              "end": 1059,
               "callee": {
                 "type": "Identifier",
+                "name": "RegExp",
                 "start": 1044,
-                "end": 1050,
-                "name": "RegExp"
+                "end": 1050
               },
               "arguments": [
                 {
                   "type": "Literal",
+                  "value": ".",
+                  "raw": "\".\"",
                   "start": 1051,
-                  "end": 1054,
-                  "value": ".",
-                  "raw": "\".\""
+                  "end": 1054
                 },
                 {
                   "type": "Literal",
-                  "start": 1056,
-                  "end": 1058,
                   "value": "",
-                  "raw": "\"\""
+                  "raw": "\"\"",
+                  "start": 1056,
+                  "end": 1058
                 }
-              ]
+              ],
+              "start": 1040,
+              "end": 1059
             },
             "property": {
               "type": "Identifier",
+              "name": "dotAll",
               "start": 1060,
-              "end": 1066,
-              "name": "dotAll"
+              "end": 1066
             },
             "optional": false,
-            "computed": false
+            "computed": false,
+            "start": 1040,
+            "end": 1066
           },
           {
             "type": "Literal",
+            "value": false,
+            "raw": "false",
             "start": 1068,
-            "end": 1073,
-            "value": false,
-            "raw": "false"
+            "end": 1073
           },
           {
             "type": "Literal",
-            "start": 1075,
-            "end": 1103,
             "value": "new RegExp('.', '').dotAll",
-            "raw": "\"new RegExp('.', '').dotAll\""
+            "raw": "\"new RegExp('.', '').dotAll\"",
+            "start": 1075,
+            "end": 1103
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 1023,
+        "end": 1104
+      },
+      "start": 1023,
+      "end": 1105
     },
     {
       "type": "ExpressionStatement",
-      "start": 1106,
-      "end": 1190,
       "expression": {
         "type": "CallExpression",
-        "start": 1106,
-        "end": 1189,
         "callee": {
           "type": "MemberExpression",
-          "start": 1106,
-          "end": 1122,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 1106,
-            "end": 1112,
-            "name": "assert"
+            "end": 1112
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 1113,
-            "end": 1122,
-            "name": "sameValue"
+            "end": 1122
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 1106,
+          "end": 1122
         },
         "arguments": [
           {
             "type": "MemberExpression",
-            "start": 1123,
-            "end": 1150,
             "object": {
               "type": "NewExpression",
-              "start": 1123,
-              "end": 1143,
               "callee": {
                 "type": "Identifier",
+                "name": "RegExp",
                 "start": 1127,
-                "end": 1133,
-                "name": "RegExp"
+                "end": 1133
               },
               "arguments": [
                 {
                   "type": "Literal",
+                  "value": ".",
+                  "raw": "\".\"",
                   "start": 1134,
-                  "end": 1137,
-                  "value": ".",
-                  "raw": "\".\""
+                  "end": 1137
                 },
                 {
                   "type": "Literal",
-                  "start": 1139,
-                  "end": 1142,
                   "value": "i",
-                  "raw": "\"i\""
+                  "raw": "\"i\"",
+                  "start": 1139,
+                  "end": 1142
                 }
-              ]
+              ],
+              "start": 1123,
+              "end": 1143
             },
             "property": {
               "type": "Identifier",
+              "name": "dotAll",
               "start": 1144,
-              "end": 1150,
-              "name": "dotAll"
+              "end": 1150
             },
             "optional": false,
-            "computed": false
+            "computed": false,
+            "start": 1123,
+            "end": 1150
           },
           {
             "type": "Literal",
+            "value": false,
+            "raw": "false",
             "start": 1152,
-            "end": 1157,
-            "value": false,
-            "raw": "false"
+            "end": 1157
           },
           {
             "type": "Literal",
-            "start": 1159,
-            "end": 1188,
             "value": "new RegExp('.', 'i').dotAll",
-            "raw": "\"new RegExp('.', 'i').dotAll\""
+            "raw": "\"new RegExp('.', 'i').dotAll\"",
+            "start": 1159,
+            "end": 1188
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 1106,
+        "end": 1189
+      },
+      "start": 1106,
+      "end": 1190
     },
     {
       "type": "ExpressionStatement",
-      "start": 1191,
-      "end": 1275,
       "expression": {
         "type": "CallExpression",
-        "start": 1191,
-        "end": 1274,
         "callee": {
           "type": "MemberExpression",
-          "start": 1191,
-          "end": 1207,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 1191,
-            "end": 1197,
-            "name": "assert"
+            "end": 1197
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 1198,
-            "end": 1207,
-            "name": "sameValue"
+            "end": 1207
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 1191,
+          "end": 1207
         },
         "arguments": [
           {
             "type": "MemberExpression",
-            "start": 1208,
-            "end": 1235,
             "object": {
               "type": "NewExpression",
-              "start": 1208,
-              "end": 1228,
               "callee": {
                 "type": "Identifier",
+                "name": "RegExp",
                 "start": 1212,
-                "end": 1218,
-                "name": "RegExp"
+                "end": 1218
               },
               "arguments": [
                 {
                   "type": "Literal",
+                  "value": ".",
+                  "raw": "\".\"",
                   "start": 1219,
-                  "end": 1222,
-                  "value": ".",
-                  "raw": "\".\""
+                  "end": 1222
                 },
                 {
                   "type": "Literal",
-                  "start": 1224,
-                  "end": 1227,
                   "value": "g",
-                  "raw": "\"g\""
+                  "raw": "\"g\"",
+                  "start": 1224,
+                  "end": 1227
                 }
-              ]
+              ],
+              "start": 1208,
+              "end": 1228
             },
             "property": {
               "type": "Identifier",
+              "name": "dotAll",
               "start": 1229,
-              "end": 1235,
-              "name": "dotAll"
+              "end": 1235
             },
             "optional": false,
-            "computed": false
+            "computed": false,
+            "start": 1208,
+            "end": 1235
           },
           {
             "type": "Literal",
+            "value": false,
+            "raw": "false",
             "start": 1237,
-            "end": 1242,
-            "value": false,
-            "raw": "false"
+            "end": 1242
           },
           {
             "type": "Literal",
-            "start": 1244,
-            "end": 1273,
             "value": "new RegExp('.', 'g').dotAll",
-            "raw": "\"new RegExp('.', 'g').dotAll\""
+            "raw": "\"new RegExp('.', 'g').dotAll\"",
+            "start": 1244,
+            "end": 1273
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 1191,
+        "end": 1274
+      },
+      "start": 1191,
+      "end": 1275
     },
     {
       "type": "ExpressionStatement",
-      "start": 1276,
-      "end": 1360,
       "expression": {
         "type": "CallExpression",
-        "start": 1276,
-        "end": 1359,
         "callee": {
           "type": "MemberExpression",
-          "start": 1276,
-          "end": 1292,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 1276,
-            "end": 1282,
-            "name": "assert"
+            "end": 1282
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 1283,
-            "end": 1292,
-            "name": "sameValue"
+            "end": 1292
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 1276,
+          "end": 1292
         },
         "arguments": [
           {
             "type": "MemberExpression",
-            "start": 1293,
-            "end": 1320,
             "object": {
               "type": "NewExpression",
-              "start": 1293,
-              "end": 1313,
               "callee": {
                 "type": "Identifier",
+                "name": "RegExp",
                 "start": 1297,
-                "end": 1303,
-                "name": "RegExp"
+                "end": 1303
               },
               "arguments": [
                 {
                   "type": "Literal",
+                  "value": ".",
+                  "raw": "\".\"",
                   "start": 1304,
-                  "end": 1307,
-                  "value": ".",
-                  "raw": "\".\""
+                  "end": 1307
                 },
                 {
                   "type": "Literal",
-                  "start": 1309,
-                  "end": 1312,
                   "value": "y",
-                  "raw": "\"y\""
+                  "raw": "\"y\"",
+                  "start": 1309,
+                  "end": 1312
                 }
-              ]
+              ],
+              "start": 1293,
+              "end": 1313
             },
             "property": {
               "type": "Identifier",
+              "name": "dotAll",
               "start": 1314,
-              "end": 1320,
-              "name": "dotAll"
+              "end": 1320
             },
             "optional": false,
-            "computed": false
+            "computed": false,
+            "start": 1293,
+            "end": 1320
           },
           {
             "type": "Literal",
+            "value": false,
+            "raw": "false",
             "start": 1322,
-            "end": 1327,
-            "value": false,
-            "raw": "false"
+            "end": 1327
           },
           {
             "type": "Literal",
-            "start": 1329,
-            "end": 1358,
             "value": "new RegExp('.', 'y').dotAll",
-            "raw": "\"new RegExp('.', 'y').dotAll\""
+            "raw": "\"new RegExp('.', 'y').dotAll\"",
+            "start": 1329,
+            "end": 1358
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 1276,
+        "end": 1359
+      },
+      "start": 1276,
+      "end": 1360
     },
     {
       "type": "ExpressionStatement",
-      "start": 1361,
-      "end": 1445,
       "expression": {
         "type": "CallExpression",
-        "start": 1361,
-        "end": 1444,
         "callee": {
           "type": "MemberExpression",
-          "start": 1361,
-          "end": 1377,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 1361,
-            "end": 1367,
-            "name": "assert"
+            "end": 1367
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 1368,
-            "end": 1377,
-            "name": "sameValue"
+            "end": 1377
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 1361,
+          "end": 1377
         },
         "arguments": [
           {
             "type": "MemberExpression",
-            "start": 1378,
-            "end": 1405,
             "object": {
               "type": "NewExpression",
-              "start": 1378,
-              "end": 1398,
               "callee": {
                 "type": "Identifier",
+                "name": "RegExp",
                 "start": 1382,
-                "end": 1388,
-                "name": "RegExp"
+                "end": 1388
               },
               "arguments": [
                 {
                   "type": "Literal",
+                  "value": ".",
+                  "raw": "\".\"",
                   "start": 1389,
-                  "end": 1392,
-                  "value": ".",
-                  "raw": "\".\""
+                  "end": 1392
                 },
                 {
                   "type": "Literal",
-                  "start": 1394,
-                  "end": 1397,
                   "value": "m",
-                  "raw": "\"m\""
+                  "raw": "\"m\"",
+                  "start": 1394,
+                  "end": 1397
                 }
-              ]
+              ],
+              "start": 1378,
+              "end": 1398
             },
             "property": {
               "type": "Identifier",
+              "name": "dotAll",
               "start": 1399,
-              "end": 1405,
-              "name": "dotAll"
+              "end": 1405
             },
             "optional": false,
-            "computed": false
+            "computed": false,
+            "start": 1378,
+            "end": 1405
           },
           {
             "type": "Literal",
-            "start": 1407,
-            "end": 1412,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "start": 1407,
+            "end": 1412
           },
           {
             "type": "Literal",
-            "start": 1414,
-            "end": 1443,
             "value": "new RegExp('.', 'm').dotAll",
-            "raw": "\"new RegExp('.', 'm').dotAll\""
+            "raw": "\"new RegExp('.', 'm').dotAll\"",
+            "start": 1414,
+            "end": 1443
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 1361,
+        "end": 1444
+      },
+      "start": 1361,
+      "end": 1445
     },
     {
       "type": "ExpressionStatement",
-      "start": 1447,
-      "end": 1530,
       "expression": {
         "type": "CallExpression",
-        "start": 1447,
-        "end": 1529,
         "callee": {
           "type": "MemberExpression",
-          "start": 1447,
-          "end": 1463,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 1447,
-            "end": 1453,
-            "name": "assert"
+            "end": 1453
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 1454,
-            "end": 1463,
-            "name": "sameValue"
+            "end": 1463
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 1447,
+          "end": 1463
         },
         "arguments": [
           {
             "type": "MemberExpression",
-            "start": 1464,
-            "end": 1491,
             "object": {
               "type": "NewExpression",
-              "start": 1464,
-              "end": 1484,
               "callee": {
                 "type": "Identifier",
+                "name": "RegExp",
                 "start": 1468,
-                "end": 1474,
-                "name": "RegExp"
+                "end": 1474
               },
               "arguments": [
                 {
                   "type": "Literal",
+                  "value": ".",
+                  "raw": "\".\"",
                   "start": 1475,
-                  "end": 1478,
-                  "value": ".",
-                  "raw": "\".\""
+                  "end": 1478
                 },
                 {
                   "type": "Literal",
-                  "start": 1480,
-                  "end": 1483,
                   "value": "s",
-                  "raw": "\"s\""
+                  "raw": "\"s\"",
+                  "start": 1480,
+                  "end": 1483
                 }
-              ]
+              ],
+              "start": 1464,
+              "end": 1484
             },
             "property": {
               "type": "Identifier",
+              "name": "dotAll",
               "start": 1485,
-              "end": 1491,
-              "name": "dotAll"
+              "end": 1491
             },
             "optional": false,
-            "computed": false
+            "computed": false,
+            "start": 1464,
+            "end": 1491
           },
           {
             "type": "Literal",
+            "value": true,
+            "raw": "true",
             "start": 1493,
-            "end": 1497,
-            "value": true,
-            "raw": "true"
+            "end": 1497
           },
           {
             "type": "Literal",
-            "start": 1499,
-            "end": 1528,
             "value": "new RegExp('.', 's').dotAll",
-            "raw": "\"new RegExp('.', 's').dotAll\""
+            "raw": "\"new RegExp('.', 's').dotAll\"",
+            "start": 1499,
+            "end": 1528
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 1447,
+        "end": 1529
+      },
+      "start": 1447,
+      "end": 1530
     },
     {
       "type": "ExpressionStatement",
-      "start": 1531,
-      "end": 1616,
       "expression": {
         "type": "CallExpression",
-        "start": 1531,
-        "end": 1615,
         "callee": {
           "type": "MemberExpression",
-          "start": 1531,
-          "end": 1547,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 1531,
-            "end": 1537,
-            "name": "assert"
+            "end": 1537
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 1538,
-            "end": 1547,
-            "name": "sameValue"
+            "end": 1547
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 1531,
+          "end": 1547
         },
         "arguments": [
           {
             "type": "MemberExpression",
-            "start": 1548,
-            "end": 1576,
             "object": {
               "type": "NewExpression",
-              "start": 1548,
-              "end": 1569,
               "callee": {
                 "type": "Identifier",
+                "name": "RegExp",
                 "start": 1552,
-                "end": 1558,
-                "name": "RegExp"
+                "end": 1558
               },
               "arguments": [
                 {
                   "type": "Literal",
+                  "value": ".",
+                  "raw": "\".\"",
                   "start": 1559,
-                  "end": 1562,
-                  "value": ".",
-                  "raw": "\".\""
+                  "end": 1562
                 },
                 {
                   "type": "Literal",
-                  "start": 1564,
-                  "end": 1568,
                   "value": "is",
-                  "raw": "\"is\""
+                  "raw": "\"is\"",
+                  "start": 1564,
+                  "end": 1568
                 }
-              ]
+              ],
+              "start": 1548,
+              "end": 1569
             },
             "property": {
               "type": "Identifier",
+              "name": "dotAll",
               "start": 1570,
-              "end": 1576,
-              "name": "dotAll"
+              "end": 1576
             },
             "optional": false,
-            "computed": false
+            "computed": false,
+            "start": 1548,
+            "end": 1576
           },
           {
             "type": "Literal",
+            "value": true,
+            "raw": "true",
             "start": 1578,
-            "end": 1582,
-            "value": true,
-            "raw": "true"
+            "end": 1582
           },
           {
             "type": "Literal",
-            "start": 1584,
-            "end": 1614,
             "value": "new RegExp('.', 'is').dotAll",
-            "raw": "\"new RegExp('.', 'is').dotAll\""
+            "raw": "\"new RegExp('.', 'is').dotAll\"",
+            "start": 1584,
+            "end": 1614
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 1531,
+        "end": 1615
+      },
+      "start": 1531,
+      "end": 1616
     },
     {
       "type": "ExpressionStatement",
-      "start": 1617,
-      "end": 1702,
       "expression": {
         "type": "CallExpression",
-        "start": 1617,
-        "end": 1701,
         "callee": {
           "type": "MemberExpression",
-          "start": 1617,
-          "end": 1633,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 1617,
-            "end": 1623,
-            "name": "assert"
+            "end": 1623
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 1624,
-            "end": 1633,
-            "name": "sameValue"
+            "end": 1633
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 1617,
+          "end": 1633
         },
         "arguments": [
           {
             "type": "MemberExpression",
-            "start": 1634,
-            "end": 1662,
             "object": {
               "type": "NewExpression",
-              "start": 1634,
-              "end": 1655,
               "callee": {
                 "type": "Identifier",
+                "name": "RegExp",
                 "start": 1638,
-                "end": 1644,
-                "name": "RegExp"
+                "end": 1644
               },
               "arguments": [
                 {
                   "type": "Literal",
+                  "value": ".",
+                  "raw": "\".\"",
                   "start": 1645,
-                  "end": 1648,
-                  "value": ".",
-                  "raw": "\".\""
+                  "end": 1648
                 },
                 {
                   "type": "Literal",
-                  "start": 1650,
-                  "end": 1654,
                   "value": "sg",
-                  "raw": "\"sg\""
+                  "raw": "\"sg\"",
+                  "start": 1650,
+                  "end": 1654
                 }
-              ]
+              ],
+              "start": 1634,
+              "end": 1655
             },
             "property": {
               "type": "Identifier",
+              "name": "dotAll",
               "start": 1656,
-              "end": 1662,
-              "name": "dotAll"
+              "end": 1662
             },
             "optional": false,
-            "computed": false
+            "computed": false,
+            "start": 1634,
+            "end": 1662
           },
           {
             "type": "Literal",
+            "value": true,
+            "raw": "true",
             "start": 1664,
-            "end": 1668,
-            "value": true,
-            "raw": "true"
+            "end": 1668
           },
           {
             "type": "Literal",
-            "start": 1670,
-            "end": 1700,
             "value": "new RegExp('.', 'sg').dotAll",
-            "raw": "\"new RegExp('.', 'sg').dotAll\""
+            "raw": "\"new RegExp('.', 'sg').dotAll\"",
+            "start": 1670,
+            "end": 1700
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 1617,
+        "end": 1701
+      },
+      "start": 1617,
+      "end": 1702
     },
     {
       "type": "ExpressionStatement",
-      "start": 1703,
-      "end": 1788,
       "expression": {
         "type": "CallExpression",
-        "start": 1703,
-        "end": 1787,
         "callee": {
           "type": "MemberExpression",
-          "start": 1703,
-          "end": 1719,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 1703,
-            "end": 1709,
-            "name": "assert"
+            "end": 1709
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 1710,
-            "end": 1719,
-            "name": "sameValue"
+            "end": 1719
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 1703,
+          "end": 1719
         },
         "arguments": [
           {
             "type": "MemberExpression",
-            "start": 1720,
-            "end": 1748,
             "object": {
               "type": "NewExpression",
-              "start": 1720,
-              "end": 1741,
               "callee": {
                 "type": "Identifier",
+                "name": "RegExp",
                 "start": 1724,
-                "end": 1730,
-                "name": "RegExp"
+                "end": 1730
               },
               "arguments": [
                 {
                   "type": "Literal",
-                  "start": 1731,
-                  "end": 1734,
                   "value": ".",
-                  "raw": "\".\""
+                  "raw": "\".\"",
+                  "start": 1731,
+                  "end": 1734
                 },
                 {
                   "type": "Literal",
-                  "start": 1736,
-                  "end": 1740,
                   "value": "sy",
-                  "raw": "\"sy\""
+                  "raw": "\"sy\"",
+                  "start": 1736,
+                  "end": 1740
                 }
-              ]
+              ],
+              "start": 1720,
+              "end": 1741
             },
             "property": {
               "type": "Identifier",
+              "name": "dotAll",
               "start": 1742,
-              "end": 1748,
-              "name": "dotAll"
+              "end": 1748
             },
             "optional": false,
-            "computed": false
+            "computed": false,
+            "start": 1720,
+            "end": 1748
           },
           {
             "type": "Literal",
-            "start": 1750,
-            "end": 1754,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "start": 1750,
+            "end": 1754
           },
           {
             "type": "Literal",
-            "start": 1756,
-            "end": 1786,
             "value": "new RegExp('.', 'sy').dotAll",
-            "raw": "\"new RegExp('.', 'sy').dotAll\""
+            "raw": "\"new RegExp('.', 'sy').dotAll\"",
+            "start": 1756,
+            "end": 1786
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 1703,
+        "end": 1787
+      },
+      "start": 1703,
+      "end": 1788
     },
     {
       "type": "ExpressionStatement",
-      "start": 1789,
-      "end": 1874,
       "expression": {
         "type": "CallExpression",
-        "start": 1789,
-        "end": 1873,
         "callee": {
           "type": "MemberExpression",
-          "start": 1789,
-          "end": 1805,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 1789,
-            "end": 1795,
-            "name": "assert"
+            "end": 1795
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 1796,
-            "end": 1805,
-            "name": "sameValue"
+            "end": 1805
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 1789,
+          "end": 1805
         },
         "arguments": [
           {
             "type": "MemberExpression",
-            "start": 1806,
-            "end": 1834,
             "object": {
               "type": "NewExpression",
-              "start": 1806,
-              "end": 1827,
               "callee": {
                 "type": "Identifier",
+                "name": "RegExp",
                 "start": 1810,
-                "end": 1816,
-                "name": "RegExp"
+                "end": 1816
               },
               "arguments": [
                 {
                   "type": "Literal",
-                  "start": 1817,
-                  "end": 1820,
                   "value": ".",
-                  "raw": "\".\""
+                  "raw": "\".\"",
+                  "start": 1817,
+                  "end": 1820
                 },
                 {
                   "type": "Literal",
-                  "start": 1822,
-                  "end": 1826,
                   "value": "ms",
-                  "raw": "\"ms\""
+                  "raw": "\"ms\"",
+                  "start": 1822,
+                  "end": 1826
                 }
-              ]
+              ],
+              "start": 1806,
+              "end": 1827
             },
             "property": {
               "type": "Identifier",
+              "name": "dotAll",
               "start": 1828,
-              "end": 1834,
-              "name": "dotAll"
+              "end": 1834
             },
             "optional": false,
-            "computed": false
+            "computed": false,
+            "start": 1806,
+            "end": 1834
           },
           {
             "type": "Literal",
-            "start": 1836,
-            "end": 1840,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "start": 1836,
+            "end": 1840
           },
           {
             "type": "Literal",
-            "start": 1842,
-            "end": 1872,
             "value": "new RegExp('.', 'ms').dotAll",
-            "raw": "\"new RegExp('.', 'ms').dotAll\""
+            "raw": "\"new RegExp('.', 'ms').dotAll\"",
+            "start": 1842,
+            "end": 1872
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 1789,
+        "end": 1873
+      },
+      "start": 1789,
+      "end": 1874
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 1875
 }

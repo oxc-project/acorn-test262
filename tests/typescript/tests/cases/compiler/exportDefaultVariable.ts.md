@@ -2,82 +2,82 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 30,
-  "end": 102,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 30,
-      "end": 50,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 42,
-          "end": 49,
           "id": {
             "type": "Identifier",
-            "start": 42,
-            "end": 49,
             "decorators": [],
             "name": "io",
             "optional": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
-              "start": 44,
-              "end": 49,
               "typeAnnotation": {
                 "type": "TSAnyKeyword",
                 "start": 46,
                 "end": 49
-              }
-            }
+              },
+              "start": 44,
+              "end": 49
+            },
+            "start": 42,
+            "end": 49
           },
           "init": null,
-          "definite": false
+          "definite": false,
+          "start": 42,
+          "end": 49
         }
       ],
-      "declare": true
+      "declare": true,
+      "start": 30,
+      "end": 50
     },
     {
       "type": "TSModuleDeclaration",
-      "start": 52,
-      "end": 102,
       "id": {
         "type": "Literal",
-        "start": 67,
-        "end": 75,
         "value": "module",
-        "raw": "'module'"
+        "raw": "'module'",
+        "start": 67,
+        "end": 75
       },
       "body": {
         "type": "TSModuleBlock",
-        "start": 76,
-        "end": 102,
         "body": [
           {
             "type": "ExportDefaultDeclaration",
-            "start": 82,
-            "end": 100,
             "declaration": {
               "type": "Identifier",
-              "start": 97,
-              "end": 99,
               "decorators": [],
               "name": "io",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 97,
+              "end": 99
             },
-            "exportKind": "value"
+            "exportKind": "value",
+            "start": 82,
+            "end": 100
           }
-        ]
+        ],
+        "start": 76,
+        "end": 102
       },
       "kind": "module",
       "declare": true,
-      "global": false
+      "global": false,
+      "start": 52,
+      "end": 102
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 30,
+  "end": 102
 }
 ```

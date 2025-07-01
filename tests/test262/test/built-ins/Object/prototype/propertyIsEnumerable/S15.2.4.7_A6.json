@@ -1,99 +1,99 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 531,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 350,
-      "end": 530,
       "expression": {
         "type": "CallExpression",
-        "start": 350,
-        "end": 529,
         "callee": {
           "type": "MemberExpression",
-          "start": 350,
-          "end": 366,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 350,
-            "end": 356,
-            "name": "assert"
+            "end": 356
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 357,
-            "end": 366,
-            "name": "sameValue"
+            "end": 366
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 350,
+          "end": 366
         },
         "arguments": [
           {
             "type": "MemberExpression",
-            "start": 370,
-            "end": 417,
             "object": {
               "type": "MemberExpression",
-              "start": 370,
-              "end": 407,
               "object": {
                 "type": "MemberExpression",
-                "start": 370,
-                "end": 386,
                 "object": {
                   "type": "Identifier",
+                  "name": "Object",
                   "start": 370,
-                  "end": 376,
-                  "name": "Object"
+                  "end": 376
                 },
                 "property": {
                   "type": "Identifier",
+                  "name": "prototype",
                   "start": 377,
-                  "end": 386,
-                  "name": "prototype"
+                  "end": 386
                 },
                 "optional": false,
-                "computed": false
+                "computed": false,
+                "start": 370,
+                "end": 386
               },
               "property": {
                 "type": "Identifier",
+                "name": "propertyIsEnumerable",
                 "start": 387,
-                "end": 407,
-                "name": "propertyIsEnumerable"
+                "end": 407
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 370,
+              "end": 407
             },
             "property": {
               "type": "Identifier",
+              "name": "prototype",
               "start": 408,
-              "end": 417,
-              "name": "prototype"
+              "end": 417
             },
             "optional": false,
-            "computed": false
+            "computed": false,
+            "start": 370,
+            "end": 417
           },
           {
             "type": "Identifier",
+            "name": "undefined",
             "start": 421,
-            "end": 430,
-            "name": "undefined"
+            "end": 430
           },
           {
             "type": "Literal",
-            "start": 434,
-            "end": 527,
             "value": "The value of Object.prototype.propertyIsEnumerable.prototype is expected to equal undefined",
-            "raw": "'The value of Object.prototype.propertyIsEnumerable.prototype is expected to equal undefined'"
+            "raw": "'The value of Object.prototype.propertyIsEnumerable.prototype is expected to equal undefined'",
+            "start": 434,
+            "end": 527
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 350,
+        "end": 529
+      },
+      "start": 350,
+      "end": 530
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 531
 }

@@ -1,111 +1,111 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 1294,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 1230,
-      "end": 1293,
       "expression": {
         "type": "CallExpression",
-        "start": 1230,
-        "end": 1292,
         "callee": {
           "type": "MemberExpression",
-          "start": 1230,
-          "end": 1243,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 1230,
-            "end": 1236,
-            "name": "assert"
+            "end": 1236
           },
           "property": {
             "type": "Identifier",
+            "name": "throws",
             "start": 1237,
-            "end": 1243,
-            "name": "throws"
+            "end": 1243
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 1230,
+          "end": 1243
         },
         "arguments": [
           {
             "type": "Identifier",
+            "name": "TypeError",
             "start": 1244,
-            "end": 1253,
-            "name": "TypeError"
+            "end": 1253
           },
           {
             "type": "FunctionExpression",
-            "start": 1255,
-            "end": 1291,
             "id": null,
             "generator": false,
             "async": false,
             "params": [],
             "body": {
               "type": "BlockStatement",
-              "start": 1266,
-              "end": 1291,
               "body": [
                 {
                   "type": "VariableDeclaration",
-                  "start": 1270,
-                  "end": 1289,
                   "kind": "var",
                   "declarations": [
                     {
                       "type": "VariableDeclarator",
-                      "start": 1274,
-                      "end": 1288,
                       "id": {
                         "type": "ArrayPattern",
-                        "start": 1274,
-                        "end": 1279,
                         "elements": [
                           {
                             "type": "ArrayPattern",
-                            "start": 1275,
-                            "end": 1278,
                             "elements": [
                               {
                                 "type": "Identifier",
+                                "name": "x",
                                 "start": 1276,
-                                "end": 1277,
-                                "name": "x"
+                                "end": 1277
                               }
-                            ]
+                            ],
+                            "start": 1275,
+                            "end": 1278
                           }
-                        ]
+                        ],
+                        "start": 1274,
+                        "end": 1279
                       },
                       "init": {
                         "type": "ArrayExpression",
-                        "start": 1282,
-                        "end": 1288,
                         "elements": [
                           {
                             "type": "Literal",
-                            "start": 1283,
-                            "end": 1287,
                             "value": null,
-                            "raw": "null"
+                            "raw": "null",
+                            "start": 1283,
+                            "end": 1287
                           }
-                        ]
-                      }
+                        ],
+                        "start": 1282,
+                        "end": 1288
+                      },
+                      "start": 1274,
+                      "end": 1288
                     }
-                  ]
+                  ],
+                  "start": 1270,
+                  "end": 1289
                 }
-              ]
+              ],
+              "start": 1266,
+              "end": 1291
             },
-            "expression": false
+            "expression": false,
+            "start": 1255,
+            "end": 1291
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 1230,
+        "end": 1292
+      },
+      "start": 1230,
+      "end": 1293
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 1294
 }

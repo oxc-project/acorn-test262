@@ -1,230 +1,230 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 846,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 606,
-      "end": 666,
       "expression": {
         "type": "CallExpression",
-        "start": 606,
-        "end": 665,
         "callee": {
           "type": "Identifier",
+          "name": "assert",
           "start": 606,
-          "end": 612,
-          "name": "assert"
+          "end": 612
         },
         "arguments": [
           {
             "type": "BinaryExpression",
-            "start": 616,
-            "end": 634,
             "left": {
               "type": "MemberExpression",
-              "start": 616,
-              "end": 630,
               "object": {
                 "type": "Identifier",
+                "name": "Number",
                 "start": 616,
-                "end": 622,
-                "name": "Number"
+                "end": 622
               },
               "property": {
                 "type": "Identifier",
+                "name": "EPSILON",
                 "start": 623,
-                "end": 630,
-                "name": "EPSILON"
+                "end": 630
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 616,
+              "end": 630
             },
             "operator": ">",
             "right": {
               "type": "Literal",
-              "start": 633,
-              "end": 634,
               "value": 0,
-              "raw": "0"
-            }
+              "raw": "0",
+              "start": 633,
+              "end": 634
+            },
+            "start": 616,
+            "end": 634
           },
           {
             "type": "Literal",
-            "start": 638,
-            "end": 663,
             "value": "value is greater than 0",
-            "raw": "\"value is greater than 0\""
+            "raw": "\"value is greater than 0\"",
+            "start": 638,
+            "end": 663
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 606,
+        "end": 665
+      },
+      "start": 606,
+      "end": 666
     },
     {
       "type": "ExpressionStatement",
-      "start": 667,
-      "end": 741,
       "expression": {
         "type": "CallExpression",
-        "start": 667,
-        "end": 740,
         "callee": {
           "type": "Identifier",
+          "name": "assert",
           "start": 667,
-          "end": 673,
-          "name": "assert"
+          "end": 673
         },
         "arguments": [
           {
             "type": "BinaryExpression",
-            "start": 677,
-            "end": 702,
             "left": {
               "type": "MemberExpression",
-              "start": 677,
-              "end": 691,
               "object": {
                 "type": "Identifier",
+                "name": "Number",
                 "start": 677,
-                "end": 683,
-                "name": "Number"
+                "end": 683
               },
               "property": {
                 "type": "Identifier",
+                "name": "EPSILON",
                 "start": 684,
-                "end": 691,
-                "name": "EPSILON"
+                "end": 691
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 677,
+              "end": 691
             },
             "operator": "<",
             "right": {
               "type": "Literal",
-              "start": 694,
-              "end": 702,
               "value": 0.000001,
-              "raw": "0.000001"
-            }
+              "raw": "0.000001",
+              "start": 694,
+              "end": 702
+            },
+            "start": 677,
+            "end": 702
           },
           {
             "type": "Literal",
-            "start": 706,
-            "end": 738,
             "value": "value is smaller than 0.000001",
-            "raw": "\"value is smaller than 0.000001\""
+            "raw": "\"value is smaller than 0.000001\"",
+            "start": 706,
+            "end": 738
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 667,
+        "end": 740
+      },
+      "start": 667,
+      "end": 741
     },
     {
       "type": "ExpressionStatement",
-      "start": 743,
-      "end": 845,
       "expression": {
         "type": "CallExpression",
-        "start": 743,
-        "end": 844,
         "callee": {
           "type": "Identifier",
+          "name": "verifyProperty",
           "start": 743,
-          "end": 757,
-          "name": "verifyProperty"
+          "end": 757
         },
         "arguments": [
           {
             "type": "Identifier",
+            "name": "Number",
             "start": 758,
-            "end": 764,
-            "name": "Number"
+            "end": 764
           },
           {
             "type": "Literal",
-            "start": 766,
-            "end": 775,
             "value": "EPSILON",
-            "raw": "\"EPSILON\""
+            "raw": "\"EPSILON\"",
+            "start": 766,
+            "end": 775
           },
           {
             "type": "ObjectExpression",
-            "start": 777,
-            "end": 843,
             "properties": [
               {
                 "type": "Property",
-                "start": 781,
-                "end": 796,
                 "kind": "init",
                 "key": {
                   "type": "Identifier",
+                  "name": "writable",
                   "start": 781,
-                  "end": 789,
-                  "name": "writable"
+                  "end": 789
                 },
                 "value": {
                   "type": "Literal",
+                  "value": false,
+                  "raw": "false",
                   "start": 791,
-                  "end": 796,
-                  "value": false,
-                  "raw": "false"
+                  "end": 796
                 },
                 "method": false,
                 "shorthand": false,
-                "computed": false
+                "computed": false,
+                "start": 781,
+                "end": 796
               },
               {
                 "type": "Property",
-                "start": 800,
-                "end": 817,
                 "kind": "init",
                 "key": {
                   "type": "Identifier",
+                  "name": "enumerable",
                   "start": 800,
-                  "end": 810,
-                  "name": "enumerable"
+                  "end": 810
                 },
                 "value": {
                   "type": "Literal",
-                  "start": 812,
-                  "end": 817,
                   "value": false,
-                  "raw": "false"
+                  "raw": "false",
+                  "start": 812,
+                  "end": 817
                 },
                 "method": false,
                 "shorthand": false,
-                "computed": false
+                "computed": false,
+                "start": 800,
+                "end": 817
               },
               {
                 "type": "Property",
-                "start": 821,
-                "end": 840,
                 "kind": "init",
                 "key": {
                   "type": "Identifier",
+                  "name": "configurable",
                   "start": 821,
-                  "end": 833,
-                  "name": "configurable"
+                  "end": 833
                 },
                 "value": {
                   "type": "Literal",
-                  "start": 835,
-                  "end": 840,
                   "value": false,
-                  "raw": "false"
+                  "raw": "false",
+                  "start": 835,
+                  "end": 840
                 },
                 "method": false,
                 "shorthand": false,
-                "computed": false
+                "computed": false,
+                "start": 821,
+                "end": 840
               }
-            ]
+            ],
+            "start": 777,
+            "end": 843
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 743,
+        "end": 844
+      },
+      "start": 743,
+      "end": 845
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 846
 }

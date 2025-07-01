@@ -1,69 +1,69 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 644,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 579,
-      "end": 590,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 583,
-          "end": 589,
           "id": {
             "type": "Identifier",
+            "name": "smoosh",
             "start": 583,
-            "end": 589,
-            "name": "smoosh"
+            "end": 589
           },
-          "init": null
+          "init": null,
+          "start": 583,
+          "end": 589
         }
-      ]
+      ],
+      "start": 579,
+      "end": 590
     },
     {
       "type": "FunctionDeclaration",
-      "start": 591,
-      "end": 611,
       "id": {
         "type": "Identifier",
+        "name": "smoosh",
         "start": 600,
-        "end": 606,
-        "name": "smoosh"
+        "end": 606
       },
       "generator": false,
       "async": false,
       "params": [],
       "body": {
         "type": "BlockStatement",
+        "body": [],
         "start": 609,
-        "end": 611,
-        "body": []
+        "end": 611
       },
-      "expression": false
+      "expression": false,
+      "start": 591,
+      "end": 611
     },
     {
       "type": "ExpressionStatement",
-      "start": 614,
-      "end": 643,
       "expression": {
         "type": "ImportExpression",
-        "start": 614,
-        "end": 642,
         "source": {
           "type": "Literal",
-          "start": 621,
-          "end": 641,
           "value": "./empty_FIXTURE.js",
-          "raw": "'./empty_FIXTURE.js'"
+          "raw": "'./empty_FIXTURE.js'",
+          "start": 621,
+          "end": 641
         },
         "options": null,
-        "phase": null
-      }
+        "phase": null,
+        "start": 614,
+        "end": 642
+      },
+      "start": 614,
+      "end": 643
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 644
 }

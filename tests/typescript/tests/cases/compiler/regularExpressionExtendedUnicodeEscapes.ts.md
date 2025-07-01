@@ -2,99 +2,99 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 107,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 0,
-      "end": 107,
       "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 6,
-          "end": 106,
           "id": {
             "type": "Identifier",
-            "start": 6,
-            "end": 23,
             "decorators": [],
             "name": "regexes",
             "optional": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
-              "start": 13,
-              "end": 23,
               "typeAnnotation": {
                 "type": "TSArrayType",
-                "start": 15,
-                "end": 23,
                 "elementType": {
                   "type": "TSTypeReference",
-                  "start": 15,
-                  "end": 21,
                   "typeName": {
                     "type": "Identifier",
-                    "start": 15,
-                    "end": 21,
                     "decorators": [],
                     "name": "RegExp",
                     "optional": false,
-                    "typeAnnotation": null
+                    "typeAnnotation": null,
+                    "start": 15,
+                    "end": 21
                   },
-                  "typeArguments": null
-                }
-              }
-            }
+                  "typeArguments": null,
+                  "start": 15,
+                  "end": 21
+                },
+                "start": 15,
+                "end": 23
+              },
+              "start": 13,
+              "end": 23
+            },
+            "start": 6,
+            "end": 23
           },
           "init": {
             "type": "ArrayExpression",
-            "start": 26,
-            "end": 106,
             "elements": [
               {
                 "type": "Literal",
-                "start": 29,
-                "end": 51,
                 "value": null,
                 "raw": "/\\u{10000}[\\u{10000}]/",
                 "regex": {
                   "pattern": "\\u{10000}[\\u{10000}]",
                   "flags": ""
-                }
+                },
+                "start": 29,
+                "end": 51
               },
               {
                 "type": "Literal",
-                "start": 54,
-                "end": 77,
                 "value": null,
                 "raw": "/\\u{10000}[\\u{10000}]/u",
                 "regex": {
                   "pattern": "\\u{10000}[\\u{10000}]",
                   "flags": "u"
-                }
+                },
+                "start": 54,
+                "end": 77
               },
               {
                 "type": "Literal",
-                "start": 80,
-                "end": 103,
                 "value": null,
                 "raw": "/\\u{10000}[\\u{10000}]/v",
                 "regex": {
                   "pattern": "\\u{10000}[\\u{10000}]",
                   "flags": "v"
-                }
+                },
+                "start": 80,
+                "end": 103
               }
-            ]
+            ],
+            "start": 26,
+            "end": 106
           },
-          "definite": false
+          "definite": false,
+          "start": 6,
+          "end": 106
         }
       ],
-      "declare": false
+      "declare": false,
+      "start": 0,
+      "end": 107
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 107
 }
 ```

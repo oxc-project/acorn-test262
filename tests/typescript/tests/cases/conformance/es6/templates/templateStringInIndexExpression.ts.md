@@ -2,78 +2,78 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 18,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 0,
-      "end": 18,
       "expression": {
         "type": "MemberExpression",
-        "start": 0,
-        "end": 17,
         "object": {
           "type": "TemplateLiteral",
-          "start": 0,
-          "end": 12,
           "quasis": [
             {
               "type": "TemplateElement",
-              "start": 0,
-              "end": 6,
               "value": {
                 "raw": "abc",
                 "cooked": "abc"
               },
-              "tail": false
+              "tail": false,
+              "start": 0,
+              "end": 6
             },
             {
               "type": "TemplateElement",
-              "start": 7,
-              "end": 12,
               "value": {
                 "raw": "abc",
                 "cooked": "abc"
               },
-              "tail": true
+              "tail": true,
+              "start": 7,
+              "end": 12
             }
           ],
           "expressions": [
             {
               "type": "Literal",
-              "start": 6,
-              "end": 7,
               "value": 0,
-              "raw": "0"
+              "raw": "0",
+              "start": 6,
+              "end": 7
             }
-          ]
+          ],
+          "start": 0,
+          "end": 12
         },
         "property": {
           "type": "TemplateLiteral",
-          "start": 13,
-          "end": 16,
           "quasis": [
             {
               "type": "TemplateElement",
-              "start": 13,
-              "end": 16,
               "value": {
                 "raw": "0",
                 "cooked": "0"
               },
-              "tail": true
+              "tail": true,
+              "start": 13,
+              "end": 16
             }
           ],
-          "expressions": []
+          "expressions": [],
+          "start": 13,
+          "end": 16
         },
         "optional": false,
-        "computed": true
+        "computed": true,
+        "start": 0,
+        "end": 17
       },
-      "directive": null
+      "directive": null,
+      "start": 0,
+      "end": 18
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 18
 }
 ```

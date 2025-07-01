@@ -1,133 +1,133 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 833,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 750,
-      "end": 761,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 754,
-          "end": 760,
           "id": {
             "type": "Identifier",
+            "name": "result",
             "start": 754,
-            "end": 760,
-            "name": "result"
+            "end": 760
           },
-          "init": null
+          "init": null,
+          "start": 754,
+          "end": 760
         }
-      ]
+      ],
+      "start": 750,
+      "end": 761
     },
     {
       "type": "VariableDeclaration",
-      "start": 762,
-      "end": 776,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 766,
-          "end": 775,
           "id": {
             "type": "Identifier",
+            "name": "vals",
             "start": 766,
-            "end": 770,
-            "name": "vals"
+            "end": 770
           },
           "init": {
             "type": "ObjectExpression",
+            "properties": [],
             "start": 773,
-            "end": 775,
-            "properties": []
-          }
+            "end": 775
+          },
+          "start": 766,
+          "end": 775
         }
-      ]
+      ],
+      "start": 762,
+      "end": 776
     },
     {
       "type": "ExpressionStatement",
-      "start": 778,
-      "end": 797,
       "expression": {
         "type": "AssignmentExpression",
-        "start": 778,
-        "end": 796,
         "operator": "=",
         "left": {
           "type": "Identifier",
+          "name": "result",
           "start": 778,
-          "end": 784,
-          "name": "result"
+          "end": 784
         },
         "right": {
           "type": "AssignmentExpression",
-          "start": 787,
-          "end": 796,
           "operator": "=",
           "left": {
             "type": "ObjectPattern",
+            "properties": [],
             "start": 787,
-            "end": 789,
-            "properties": []
+            "end": 789
           },
           "right": {
             "type": "Identifier",
+            "name": "vals",
             "start": 792,
-            "end": 796,
-            "name": "vals"
-          }
-        }
-      }
+            "end": 796
+          },
+          "start": 787,
+          "end": 796
+        },
+        "start": 778,
+        "end": 796
+      },
+      "start": 778,
+      "end": 797
     },
     {
       "type": "ExpressionStatement",
-      "start": 801,
-      "end": 832,
       "expression": {
         "type": "CallExpression",
-        "start": 801,
-        "end": 831,
         "callee": {
           "type": "MemberExpression",
-          "start": 801,
-          "end": 817,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 801,
-            "end": 807,
-            "name": "assert"
+            "end": 807
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 808,
-            "end": 817,
-            "name": "sameValue"
+            "end": 817
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 801,
+          "end": 817
         },
         "arguments": [
           {
             "type": "Identifier",
+            "name": "result",
             "start": 818,
-            "end": 824,
-            "name": "result"
+            "end": 824
           },
           {
             "type": "Identifier",
+            "name": "vals",
             "start": 826,
-            "end": 830,
-            "name": "vals"
+            "end": 830
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 801,
+        "end": 831
+      },
+      "start": 801,
+      "end": 832
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 833
 }

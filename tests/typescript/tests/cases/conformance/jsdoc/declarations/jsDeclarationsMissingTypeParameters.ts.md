@@ -2,21 +2,17 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 36,
-  "end": 305,
   "body": [
     {
       "type": "FunctionDeclaration",
-      "start": 36,
-      "end": 53,
       "id": {
         "type": "Identifier",
-        "start": 45,
-        "end": 46,
         "decorators": [],
         "name": "x",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 45,
+        "end": 46
       },
       "generator": false,
       "async": false,
@@ -25,35 +21,35 @@ __ESTREE_TEST__:PASS:
       "params": [
         {
           "type": "Identifier",
-          "start": 47,
-          "end": 48,
           "decorators": [],
           "name": "y",
           "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "start": 47,
+          "end": 48
         }
       ],
       "returnType": null,
       "body": {
         "type": "BlockStatement",
+        "body": [],
         "start": 50,
-        "end": 53,
-        "body": []
+        "end": 53
       },
-      "expression": false
+      "expression": false,
+      "start": 36,
+      "end": 53
     },
     {
       "type": "FunctionDeclaration",
-      "start": 116,
-      "end": 144,
       "id": {
         "type": "Identifier",
-        "start": 125,
-        "end": 126,
         "decorators": [],
         "name": "y",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 125,
+        "end": 126
       },
       "generator": false,
       "async": false,
@@ -62,42 +58,42 @@ __ESTREE_TEST__:PASS:
       "params": [
         {
           "type": "Identifier",
-          "start": 127,
-          "end": 131,
           "decorators": [],
           "name": "func",
           "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "start": 127,
+          "end": 131
         }
       ],
       "returnType": null,
       "body": {
         "type": "BlockStatement",
-        "start": 133,
-        "end": 144,
         "body": [
           {
             "type": "ReturnStatement",
+            "argument": null,
             "start": 135,
-            "end": 142,
-            "argument": null
+            "end": 142
           }
-        ]
+        ],
+        "start": 133,
+        "end": 144
       },
-      "expression": false
+      "expression": false,
+      "start": 116,
+      "end": 144
     },
     {
       "type": "FunctionDeclaration",
-      "start": 201,
-      "end": 230,
       "id": {
         "type": "Identifier",
-        "start": 210,
-        "end": 211,
         "decorators": [],
         "name": "z",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 210,
+        "end": 211
       },
       "generator": false,
       "async": false,
@@ -107,37 +103,37 @@ __ESTREE_TEST__:PASS:
       "returnType": null,
       "body": {
         "type": "BlockStatement",
-        "start": 214,
-        "end": 230,
         "body": [
           {
             "type": "ReturnStatement",
-            "start": 216,
-            "end": 229,
             "argument": {
               "type": "Literal",
-              "start": 223,
-              "end": 227,
               "value": null,
-              "raw": "null"
-            }
+              "raw": "null",
+              "start": 223,
+              "end": 227
+            },
+            "start": 216,
+            "end": 229
           }
-        ]
+        ],
+        "start": 214,
+        "end": 230
       },
-      "expression": false
+      "expression": false,
+      "start": 201,
+      "end": 230
     },
     {
       "type": "FunctionDeclaration",
-      "start": 276,
-      "end": 305,
       "id": {
         "type": "Identifier",
-        "start": 285,
-        "end": 286,
         "decorators": [],
         "name": "w",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 285,
+        "end": 286
       },
       "generator": false,
       "async": false,
@@ -147,27 +143,31 @@ __ESTREE_TEST__:PASS:
       "returnType": null,
       "body": {
         "type": "BlockStatement",
-        "start": 289,
-        "end": 305,
         "body": [
           {
             "type": "ReturnStatement",
-            "start": 291,
-            "end": 303,
             "argument": {
               "type": "Literal",
-              "start": 298,
-              "end": 302,
               "value": null,
-              "raw": "null"
-            }
+              "raw": "null",
+              "start": 298,
+              "end": 302
+            },
+            "start": 291,
+            "end": 303
           }
-        ]
+        ],
+        "start": 289,
+        "end": 305
       },
-      "expression": false
+      "expression": false,
+      "start": 276,
+      "end": 305
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 36,
+  "end": 305
 }
 ```

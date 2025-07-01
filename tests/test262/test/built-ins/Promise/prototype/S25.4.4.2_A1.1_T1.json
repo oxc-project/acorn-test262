@@ -1,73 +1,73 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 416,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 284,
-      "end": 415,
       "expression": {
         "type": "CallExpression",
-        "start": 284,
-        "end": 414,
         "callee": {
           "type": "MemberExpression",
-          "start": 284,
-          "end": 303,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 284,
-            "end": 290,
-            "name": "assert"
+            "end": 290
           },
           "property": {
             "type": "Identifier",
+            "name": "notSameValue",
             "start": 291,
-            "end": 303,
-            "name": "notSameValue"
+            "end": 303
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 284,
+          "end": 303
         },
         "arguments": [
           {
             "type": "MemberExpression",
-            "start": 307,
-            "end": 324,
             "object": {
               "type": "Identifier",
+              "name": "Promise",
               "start": 307,
-              "end": 314,
-              "name": "Promise"
+              "end": 314
             },
             "property": {
               "type": "Identifier",
+              "name": "prototype",
               "start": 315,
-              "end": 324,
-              "name": "prototype"
+              "end": 324
             },
             "optional": false,
-            "computed": false
+            "computed": false,
+            "start": 307,
+            "end": 324
           },
           {
             "type": "Identifier",
+            "name": "undefined",
             "start": 328,
-            "end": 337,
-            "name": "undefined"
+            "end": 337
           },
           {
             "type": "Literal",
-            "start": 341,
-            "end": 412,
             "value": "The value of Promise.prototype is expected to not equal ``undefined``",
-            "raw": "'The value of Promise.prototype is expected to not equal ``undefined``'"
+            "raw": "'The value of Promise.prototype is expected to not equal ``undefined``'",
+            "start": 341,
+            "end": 412
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 284,
+        "end": 414
+      },
+      "start": 284,
+      "end": 415
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 416
 }

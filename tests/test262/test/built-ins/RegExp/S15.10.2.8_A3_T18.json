@@ -1,151 +1,151 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 995,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 616,
-      "end": 789,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 620,
-          "end": 788,
           "id": {
             "type": "Identifier",
+            "name": "__replaced",
             "start": 620,
-            "end": 630,
-            "name": "__replaced"
+            "end": 630
           },
           "init": {
             "type": "CallExpression",
-            "start": 633,
-            "end": 788,
             "callee": {
               "type": "MemberExpression",
-              "start": 633,
-              "end": 699,
               "object": {
                 "type": "Literal",
-                "start": 633,
-                "end": 691,
                 "value": "To sign up click |here|https:www.xxxx.org/subscribe.htm|",
-                "raw": "\"To sign up click |here|https:www.xxxx.org/subscribe.htm|\""
+                "raw": "\"To sign up click |here|https:www.xxxx.org/subscribe.htm|\"",
+                "start": 633,
+                "end": 691
               },
               "property": {
                 "type": "Identifier",
+                "name": "replace",
                 "start": 692,
-                "end": 699,
-                "name": "replace"
+                "end": 699
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 633,
+              "end": 699
             },
             "arguments": [
               {
                 "type": "Literal",
-                "start": 700,
-                "end": 764,
                 "value": null,
                 "raw": "/(\\|)([\\w\\x81-\\xff ]*)(\\|)([\\/a-z][\\w:\\/\\.]*\\.[a-z]{3,4})(\\|)/ig",
                 "regex": {
                   "pattern": "(\\|)([\\w\\x81-\\xff ]*)(\\|)([\\/a-z][\\w:\\/\\.]*\\.[a-z]{3,4})(\\|)",
                   "flags": "gi"
-                }
+                },
+                "start": 700,
+                "end": 764
               },
               {
                 "type": "Literal",
-                "start": 766,
-                "end": 787,
                 "value": "<a href=\"$4\">$2</a>",
-                "raw": "'<a href=\"$4\">$2</a>'"
+                "raw": "'<a href=\"$4\">$2</a>'",
+                "start": 766,
+                "end": 787
               }
             ],
-            "optional": false
-          }
+            "optional": false,
+            "start": 633,
+            "end": 788
+          },
+          "start": 620,
+          "end": 788
         }
-      ]
+      ],
+      "start": 616,
+      "end": 789
     },
     {
       "type": "VariableDeclaration",
-      "start": 791,
-      "end": 879,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 795,
-          "end": 878,
           "id": {
             "type": "Identifier",
+            "name": "__expected",
             "start": 795,
-            "end": 805,
-            "name": "__expected"
+            "end": 805
           },
           "init": {
             "type": "Literal",
-            "start": 808,
-            "end": 878,
             "value": "To sign up click <a href=\"https:www.xxxx.org/subscribe.htm\">here</a>",
-            "raw": "'To sign up click <a href=\"https:www.xxxx.org/subscribe.htm\">here</a>'"
-          }
+            "raw": "'To sign up click <a href=\"https:www.xxxx.org/subscribe.htm\">here</a>'",
+            "start": 808,
+            "end": 878
+          },
+          "start": 795,
+          "end": 878
         }
-      ]
+      ],
+      "start": 791,
+      "end": 879
     },
     {
       "type": "ExpressionStatement",
-      "start": 881,
-      "end": 994,
       "expression": {
         "type": "CallExpression",
-        "start": 881,
-        "end": 993,
         "callee": {
           "type": "MemberExpression",
-          "start": 881,
-          "end": 897,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 881,
-            "end": 887,
-            "name": "assert"
+            "end": 887
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 888,
-            "end": 897,
-            "name": "sameValue"
+            "end": 897
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 881,
+          "end": 897
         },
         "arguments": [
           {
             "type": "Identifier",
+            "name": "__replaced",
             "start": 898,
-            "end": 908,
-            "name": "__replaced"
+            "end": 908
           },
           {
             "type": "Identifier",
+            "name": "__expected",
             "start": 910,
-            "end": 920,
-            "name": "__expected"
+            "end": 920
           },
           {
             "type": "Literal",
-            "start": 922,
-            "end": 992,
             "value": "The value of __replaced is expected to equal the value of __expected",
-            "raw": "'The value of __replaced is expected to equal the value of __expected'"
+            "raw": "'The value of __replaced is expected to equal the value of __expected'",
+            "start": 922,
+            "end": 992
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 881,
+        "end": 993
+      },
+      "start": 881,
+      "end": 994
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 995
 }

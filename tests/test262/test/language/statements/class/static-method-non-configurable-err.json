@@ -1,116 +1,116 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 599,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 517,
-      "end": 598,
       "expression": {
         "type": "CallExpression",
-        "start": 517,
-        "end": 597,
         "callee": {
           "type": "MemberExpression",
-          "start": 517,
-          "end": 530,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 517,
-            "end": 523,
-            "name": "assert"
+            "end": 523
           },
           "property": {
             "type": "Identifier",
+            "name": "throws",
             "start": 524,
-            "end": 530,
-            "name": "throws"
+            "end": 530
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 517,
+          "end": 530
         },
         "arguments": [
           {
             "type": "Identifier",
+            "name": "TypeError",
             "start": 531,
-            "end": 540,
-            "name": "TypeError"
+            "end": 540
           },
           {
             "type": "FunctionExpression",
-            "start": 542,
-            "end": 596,
             "id": null,
             "generator": false,
             "async": false,
             "params": [],
             "body": {
               "type": "BlockStatement",
-              "start": 553,
-              "end": 596,
               "body": [
                 {
                   "type": "ClassDeclaration",
-                  "start": 557,
-                  "end": 594,
                   "decorators": [],
                   "id": {
                     "type": "Identifier",
+                    "name": "C",
                     "start": 563,
-                    "end": 564,
-                    "name": "C"
+                    "end": 564
                   },
                   "superClass": null,
                   "body": {
                     "type": "ClassBody",
-                    "start": 565,
-                    "end": 594,
                     "body": [
                       {
                         "type": "MethodDefinition",
-                        "start": 567,
-                        "end": 592,
                         "decorators": [],
                         "key": {
                           "type": "Literal",
-                          "start": 575,
-                          "end": 586,
                           "value": "prototype",
-                          "raw": "'prototype'"
+                          "raw": "'prototype'",
+                          "start": 575,
+                          "end": 586
                         },
                         "value": {
                           "type": "FunctionExpression",
-                          "start": 587,
-                          "end": 592,
                           "id": null,
                           "generator": false,
                           "async": false,
                           "params": [],
                           "body": {
                             "type": "BlockStatement",
+                            "body": [],
                             "start": 590,
-                            "end": 592,
-                            "body": []
+                            "end": 592
                           },
-                          "expression": false
+                          "expression": false,
+                          "start": 587,
+                          "end": 592
                         },
                         "kind": "method",
                         "computed": true,
-                        "static": true
+                        "static": true,
+                        "start": 567,
+                        "end": 592
                       }
-                    ]
-                  }
+                    ],
+                    "start": 565,
+                    "end": 594
+                  },
+                  "start": 557,
+                  "end": 594
                 }
-              ]
+              ],
+              "start": 553,
+              "end": 596
             },
-            "expression": false
+            "expression": false,
+            "start": 542,
+            "end": 596
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 517,
+        "end": 597
+      },
+      "start": 517,
+      "end": 598
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 599
 }

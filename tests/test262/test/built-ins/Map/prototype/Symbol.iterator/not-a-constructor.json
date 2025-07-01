@@ -1,243 +1,243 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 965,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 732,
-      "end": 878,
       "expression": {
         "type": "CallExpression",
-        "start": 732,
-        "end": 877,
         "callee": {
           "type": "MemberExpression",
-          "start": 732,
-          "end": 748,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 732,
-            "end": 738,
-            "name": "assert"
+            "end": 738
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 739,
-            "end": 748,
-            "name": "sameValue"
+            "end": 748
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 732,
+          "end": 748
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 752,
-            "end": 797,
             "callee": {
               "type": "Identifier",
+              "name": "isConstructor",
               "start": 752,
-              "end": 765,
-              "name": "isConstructor"
+              "end": 765
             },
             "arguments": [
               {
                 "type": "MemberExpression",
-                "start": 766,
-                "end": 796,
                 "object": {
                   "type": "MemberExpression",
-                  "start": 766,
-                  "end": 779,
                   "object": {
                     "type": "Identifier",
+                    "name": "Map",
                     "start": 766,
-                    "end": 769,
-                    "name": "Map"
+                    "end": 769
                   },
                   "property": {
                     "type": "Identifier",
+                    "name": "prototype",
                     "start": 770,
-                    "end": 779,
-                    "name": "prototype"
+                    "end": 779
                   },
                   "optional": false,
-                  "computed": false
+                  "computed": false,
+                  "start": 766,
+                  "end": 779
                 },
                 "property": {
                   "type": "MemberExpression",
-                  "start": 780,
-                  "end": 795,
                   "object": {
                     "type": "Identifier",
+                    "name": "Symbol",
                     "start": 780,
-                    "end": 786,
-                    "name": "Symbol"
+                    "end": 786
                   },
                   "property": {
                     "type": "Identifier",
+                    "name": "iterator",
                     "start": 787,
-                    "end": 795,
-                    "name": "iterator"
+                    "end": 795
                   },
                   "optional": false,
-                  "computed": false
+                  "computed": false,
+                  "start": 780,
+                  "end": 795
                 },
                 "optional": false,
-                "computed": true
+                "computed": true,
+                "start": 766,
+                "end": 796
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 752,
+            "end": 797
           },
           {
             "type": "Literal",
-            "start": 801,
-            "end": 806,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "start": 801,
+            "end": 806
           },
           {
             "type": "Literal",
-            "start": 810,
-            "end": 875,
             "value": "isConstructor(Map.prototype[Symbol.iterator]) must return false",
-            "raw": "'isConstructor(Map.prototype[Symbol.iterator]) must return false'"
+            "raw": "'isConstructor(Map.prototype[Symbol.iterator]) must return false'",
+            "start": 810,
+            "end": 875
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 732,
+        "end": 877
+      },
+      "start": 732,
+      "end": 878
     },
     {
       "type": "ExpressionStatement",
-      "start": 880,
-      "end": 963,
       "expression": {
         "type": "CallExpression",
-        "start": 880,
-        "end": 962,
         "callee": {
           "type": "MemberExpression",
-          "start": 880,
-          "end": 893,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 880,
-            "end": 886,
-            "name": "assert"
+            "end": 886
           },
           "property": {
             "type": "Identifier",
+            "name": "throws",
             "start": 887,
-            "end": 893,
-            "name": "throws"
+            "end": 893
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 880,
+          "end": 893
         },
         "arguments": [
           {
             "type": "Identifier",
+            "name": "TypeError",
             "start": 894,
-            "end": 903,
-            "name": "TypeError"
+            "end": 903
           },
           {
             "type": "ArrowFunctionExpression",
-            "start": 905,
-            "end": 961,
             "expression": false,
             "async": false,
             "params": [],
             "body": {
               "type": "BlockStatement",
-              "start": 911,
-              "end": 961,
               "body": [
                 {
                   "type": "VariableDeclaration",
-                  "start": 915,
-                  "end": 933,
                   "kind": "let",
                   "declarations": [
                     {
                       "type": "VariableDeclarator",
-                      "start": 919,
-                      "end": 932,
                       "id": {
                         "type": "Identifier",
+                        "name": "m",
                         "start": 919,
-                        "end": 920,
-                        "name": "m"
+                        "end": 920
                       },
                       "init": {
                         "type": "NewExpression",
-                        "start": 923,
-                        "end": 932,
                         "callee": {
                           "type": "Identifier",
+                          "name": "Map",
                           "start": 927,
-                          "end": 930,
-                          "name": "Map"
+                          "end": 930
                         },
-                        "arguments": []
-                      }
+                        "arguments": [],
+                        "start": 923,
+                        "end": 932
+                      },
+                      "start": 919,
+                      "end": 932
                     }
-                  ]
+                  ],
+                  "start": 915,
+                  "end": 933
                 },
                 {
                   "type": "ExpressionStatement",
-                  "start": 934,
-                  "end": 959,
                   "expression": {
                     "type": "NewExpression",
-                    "start": 934,
-                    "end": 958,
                     "callee": {
                       "type": "MemberExpression",
-                      "start": 938,
-                      "end": 956,
                       "object": {
                         "type": "Identifier",
+                        "name": "m",
                         "start": 938,
-                        "end": 939,
-                        "name": "m"
+                        "end": 939
                       },
                       "property": {
                         "type": "MemberExpression",
-                        "start": 940,
-                        "end": 955,
                         "object": {
                           "type": "Identifier",
+                          "name": "Symbol",
                           "start": 940,
-                          "end": 946,
-                          "name": "Symbol"
+                          "end": 946
                         },
                         "property": {
                           "type": "Identifier",
+                          "name": "iterator",
                           "start": 947,
-                          "end": 955,
-                          "name": "iterator"
+                          "end": 955
                         },
                         "optional": false,
-                        "computed": false
+                        "computed": false,
+                        "start": 940,
+                        "end": 955
                       },
                       "optional": false,
-                      "computed": true
+                      "computed": true,
+                      "start": 938,
+                      "end": 956
                     },
-                    "arguments": []
-                  }
+                    "arguments": [],
+                    "start": 934,
+                    "end": 958
+                  },
+                  "start": 934,
+                  "end": 959
                 }
-              ]
+              ],
+              "start": 911,
+              "end": 961
             },
             "id": null,
-            "generator": false
+            "generator": false,
+            "start": 905,
+            "end": 961
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 880,
+        "end": 962
+      },
+      "start": 880,
+      "end": 963
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 965
 }

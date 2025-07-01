@@ -1,567 +1,567 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 964,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 347,
-      "end": 353,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 351,
-          "end": 352,
           "id": {
             "type": "Identifier",
+            "name": "x",
             "start": 351,
-            "end": 352,
-            "name": "x"
+            "end": 352
           },
-          "init": null
+          "init": null,
+          "start": 351,
+          "end": 352
         }
-      ]
+      ],
+      "start": 347,
+      "end": 353
     },
     {
       "type": "ExpressionStatement",
-      "start": 365,
-      "end": 373,
       "expression": {
         "type": "AssignmentExpression",
-        "start": 365,
-        "end": 372,
         "operator": "=",
         "left": {
           "type": "Identifier",
+          "name": "x",
           "start": 365,
-          "end": 366,
-          "name": "x"
+          "end": 366
         },
         "right": {
           "type": "Literal",
+          "value": "1",
+          "raw": "\"1\"",
           "start": 369,
-          "end": 372,
-          "value": "1",
-          "raw": "\"1\""
-        }
-      }
+          "end": 372
+        },
+        "start": 365,
+        "end": 372
+      },
+      "start": 365,
+      "end": 373
     },
     {
       "type": "ExpressionStatement",
-      "start": 374,
-      "end": 384,
       "expression": {
         "type": "AssignmentExpression",
-        "start": 374,
-        "end": 383,
         "operator": "/=",
         "left": {
           "type": "Identifier",
+          "name": "x",
           "start": 374,
-          "end": 375,
-          "name": "x"
+          "end": 375
         },
         "right": {
           "type": "Literal",
+          "value": null,
+          "raw": "null",
           "start": 379,
-          "end": 383,
-          "value": null,
-          "raw": "null"
-        }
-      }
+          "end": 383
+        },
+        "start": 374,
+        "end": 383
+      },
+      "start": 374,
+      "end": 384
     },
     {
       "type": "IfStatement",
-      "start": 385,
-      "end": 509,
       "test": {
         "type": "BinaryExpression",
-        "start": 389,
-        "end": 419,
         "left": {
           "type": "Identifier",
+          "name": "x",
           "start": 389,
-          "end": 390,
-          "name": "x"
+          "end": 390
         },
         "operator": "!==",
         "right": {
           "type": "MemberExpression",
-          "start": 395,
-          "end": 419,
           "object": {
             "type": "Identifier",
+            "name": "Number",
             "start": 395,
-            "end": 401,
-            "name": "Number"
+            "end": 401
           },
           "property": {
             "type": "Identifier",
+            "name": "POSITIVE_INFINITY",
             "start": 402,
-            "end": 419,
-            "name": "POSITIVE_INFINITY"
+            "end": 419
           },
           "optional": false,
-          "computed": false
-        }
+          "computed": false,
+          "start": 395,
+          "end": 419
+        },
+        "start": 389,
+        "end": 419
       },
       "consequent": {
         "type": "BlockStatement",
-        "start": 421,
-        "end": 509,
         "body": [
           {
             "type": "ThrowStatement",
-            "start": 425,
-            "end": 507,
             "argument": {
               "type": "NewExpression",
-              "start": 431,
-              "end": 506,
               "callee": {
                 "type": "Identifier",
+                "name": "Test262Error",
                 "start": 435,
-                "end": 447,
-                "name": "Test262Error"
+                "end": 447
               },
               "arguments": [
                 {
                   "type": "BinaryExpression",
-                  "start": 448,
-                  "end": 505,
                   "left": {
                     "type": "Literal",
-                    "start": 448,
-                    "end": 499,
                     "value": "#1: x = \"1\"; x /= null; x === +Infinity. Actual: ",
-                    "raw": "'#1: x = \"1\"; x /= null; x === +Infinity. Actual: '"
+                    "raw": "'#1: x = \"1\"; x /= null; x === +Infinity. Actual: '",
+                    "start": 448,
+                    "end": 499
                   },
                   "operator": "+",
                   "right": {
                     "type": "ParenthesizedExpression",
-                    "start": 502,
-                    "end": 505,
                     "expression": {
                       "type": "Identifier",
+                      "name": "x",
                       "start": 503,
-                      "end": 504,
-                      "name": "x"
-                    }
-                  }
+                      "end": 504
+                    },
+                    "start": 502,
+                    "end": 505
+                  },
+                  "start": 448,
+                  "end": 505
                 }
-              ]
-            }
+              ],
+              "start": 431,
+              "end": 506
+            },
+            "start": 425,
+            "end": 507
           }
-        ]
+        ],
+        "start": 421,
+        "end": 509
       },
-      "alternate": null
+      "alternate": null,
+      "start": 385,
+      "end": 509
     },
     {
       "type": "ExpressionStatement",
-      "start": 521,
-      "end": 530,
       "expression": {
         "type": "AssignmentExpression",
-        "start": 521,
-        "end": 529,
         "operator": "=",
         "left": {
           "type": "Identifier",
+          "name": "x",
           "start": 521,
-          "end": 522,
-          "name": "x"
+          "end": 522
         },
         "right": {
           "type": "Literal",
-          "start": 525,
-          "end": 529,
           "value": null,
-          "raw": "null"
-        }
-      }
+          "raw": "null",
+          "start": 525,
+          "end": 529
+        },
+        "start": 521,
+        "end": 529
+      },
+      "start": 521,
+      "end": 530
     },
     {
       "type": "ExpressionStatement",
-      "start": 531,
-      "end": 540,
       "expression": {
         "type": "AssignmentExpression",
-        "start": 531,
-        "end": 539,
         "operator": "/=",
         "left": {
           "type": "Identifier",
+          "name": "x",
           "start": 531,
-          "end": 532,
-          "name": "x"
+          "end": 532
         },
         "right": {
           "type": "Literal",
-          "start": 536,
-          "end": 539,
           "value": "1",
-          "raw": "\"1\""
-        }
-      }
+          "raw": "\"1\"",
+          "start": 536,
+          "end": 539
+        },
+        "start": 531,
+        "end": 539
+      },
+      "start": 531,
+      "end": 540
     },
     {
       "type": "IfStatement",
-      "start": 541,
-      "end": 634,
       "test": {
         "type": "BinaryExpression",
-        "start": 545,
-        "end": 552,
         "left": {
           "type": "Identifier",
+          "name": "x",
           "start": 545,
-          "end": 546,
-          "name": "x"
+          "end": 546
         },
         "operator": "!==",
         "right": {
           "type": "Literal",
-          "start": 551,
-          "end": 552,
           "value": 0,
-          "raw": "0"
-        }
+          "raw": "0",
+          "start": 551,
+          "end": 552
+        },
+        "start": 545,
+        "end": 552
       },
       "consequent": {
         "type": "BlockStatement",
-        "start": 554,
-        "end": 634,
         "body": [
           {
             "type": "ThrowStatement",
-            "start": 558,
-            "end": 632,
             "argument": {
               "type": "NewExpression",
-              "start": 564,
-              "end": 631,
               "callee": {
                 "type": "Identifier",
+                "name": "Test262Error",
                 "start": 568,
-                "end": 580,
-                "name": "Test262Error"
+                "end": 580
               },
               "arguments": [
                 {
                   "type": "BinaryExpression",
-                  "start": 581,
-                  "end": 630,
                   "left": {
                     "type": "Literal",
-                    "start": 581,
-                    "end": 624,
                     "value": "#2: x = null; x /= \"1\"; x === 0. Actual: ",
-                    "raw": "'#2: x = null; x /= \"1\"; x === 0. Actual: '"
+                    "raw": "'#2: x = null; x /= \"1\"; x === 0. Actual: '",
+                    "start": 581,
+                    "end": 624
                   },
                   "operator": "+",
                   "right": {
                     "type": "ParenthesizedExpression",
-                    "start": 627,
-                    "end": 630,
                     "expression": {
                       "type": "Identifier",
+                      "name": "x",
                       "start": 628,
-                      "end": 629,
-                      "name": "x"
-                    }
-                  }
+                      "end": 629
+                    },
+                    "start": 627,
+                    "end": 630
+                  },
+                  "start": 581,
+                  "end": 630
                 }
-              ]
-            }
+              ],
+              "start": 564,
+              "end": 631
+            },
+            "start": 558,
+            "end": 632
           }
-        ]
+        ],
+        "start": 554,
+        "end": 634
       },
-      "alternate": null
+      "alternate": null,
+      "start": 541,
+      "end": 634
     },
     {
       "type": "ExpressionStatement",
-      "start": 646,
-      "end": 666,
       "expression": {
         "type": "AssignmentExpression",
-        "start": 646,
-        "end": 665,
         "operator": "=",
         "left": {
           "type": "Identifier",
+          "name": "x",
           "start": 646,
-          "end": 647,
-          "name": "x"
+          "end": 647
         },
         "right": {
           "type": "NewExpression",
-          "start": 650,
-          "end": 665,
           "callee": {
             "type": "Identifier",
+            "name": "String",
             "start": 654,
-            "end": 660,
-            "name": "String"
+            "end": 660
           },
           "arguments": [
             {
               "type": "Literal",
-              "start": 661,
-              "end": 664,
               "value": "1",
-              "raw": "\"1\""
+              "raw": "\"1\"",
+              "start": 661,
+              "end": 664
             }
-          ]
-        }
-      }
+          ],
+          "start": 650,
+          "end": 665
+        },
+        "start": 646,
+        "end": 665
+      },
+      "start": 646,
+      "end": 666
     },
     {
       "type": "ExpressionStatement",
-      "start": 667,
-      "end": 677,
       "expression": {
         "type": "AssignmentExpression",
-        "start": 667,
-        "end": 676,
         "operator": "/=",
         "left": {
           "type": "Identifier",
+          "name": "x",
           "start": 667,
-          "end": 668,
-          "name": "x"
+          "end": 668
         },
         "right": {
           "type": "Literal",
-          "start": 672,
-          "end": 676,
           "value": null,
-          "raw": "null"
-        }
-      }
+          "raw": "null",
+          "start": 672,
+          "end": 676
+        },
+        "start": 667,
+        "end": 676
+      },
+      "start": 667,
+      "end": 677
     },
     {
       "type": "IfStatement",
-      "start": 678,
-      "end": 814,
       "test": {
         "type": "BinaryExpression",
-        "start": 682,
-        "end": 712,
         "left": {
           "type": "Identifier",
+          "name": "x",
           "start": 682,
-          "end": 683,
-          "name": "x"
+          "end": 683
         },
         "operator": "!==",
         "right": {
           "type": "MemberExpression",
-          "start": 688,
-          "end": 712,
           "object": {
             "type": "Identifier",
+            "name": "Number",
             "start": 688,
-            "end": 694,
-            "name": "Number"
+            "end": 694
           },
           "property": {
             "type": "Identifier",
+            "name": "POSITIVE_INFINITY",
             "start": 695,
-            "end": 712,
-            "name": "POSITIVE_INFINITY"
+            "end": 712
           },
           "optional": false,
-          "computed": false
-        }
+          "computed": false,
+          "start": 688,
+          "end": 712
+        },
+        "start": 682,
+        "end": 712
       },
       "consequent": {
         "type": "BlockStatement",
-        "start": 714,
-        "end": 814,
         "body": [
           {
             "type": "ThrowStatement",
-            "start": 718,
-            "end": 812,
             "argument": {
               "type": "NewExpression",
-              "start": 724,
-              "end": 811,
               "callee": {
                 "type": "Identifier",
+                "name": "Test262Error",
                 "start": 728,
-                "end": 740,
-                "name": "Test262Error"
+                "end": 740
               },
               "arguments": [
                 {
                   "type": "BinaryExpression",
-                  "start": 741,
-                  "end": 810,
                   "left": {
                     "type": "Literal",
-                    "start": 741,
-                    "end": 804,
                     "value": "#3: x = new String(\"1\"); x /= null; x === +Infinity. Actual: ",
-                    "raw": "'#3: x = new String(\"1\"); x /= null; x === +Infinity. Actual: '"
+                    "raw": "'#3: x = new String(\"1\"); x /= null; x === +Infinity. Actual: '",
+                    "start": 741,
+                    "end": 804
                   },
                   "operator": "+",
                   "right": {
                     "type": "ParenthesizedExpression",
-                    "start": 807,
-                    "end": 810,
                     "expression": {
                       "type": "Identifier",
+                      "name": "x",
                       "start": 808,
-                      "end": 809,
-                      "name": "x"
-                    }
-                  }
+                      "end": 809
+                    },
+                    "start": 807,
+                    "end": 810
+                  },
+                  "start": 741,
+                  "end": 810
                 }
-              ]
-            }
+              ],
+              "start": 724,
+              "end": 811
+            },
+            "start": 718,
+            "end": 812
           }
-        ]
+        ],
+        "start": 714,
+        "end": 814
       },
-      "alternate": null
+      "alternate": null,
+      "start": 678,
+      "end": 814
     },
     {
       "type": "ExpressionStatement",
-      "start": 826,
-      "end": 835,
       "expression": {
         "type": "AssignmentExpression",
-        "start": 826,
-        "end": 834,
         "operator": "=",
         "left": {
           "type": "Identifier",
+          "name": "x",
           "start": 826,
-          "end": 827,
-          "name": "x"
+          "end": 827
         },
         "right": {
           "type": "Literal",
-          "start": 830,
-          "end": 834,
           "value": null,
-          "raw": "null"
-        }
-      }
+          "raw": "null",
+          "start": 830,
+          "end": 834
+        },
+        "start": 826,
+        "end": 834
+      },
+      "start": 826,
+      "end": 835
     },
     {
       "type": "ExpressionStatement",
-      "start": 836,
-      "end": 857,
       "expression": {
         "type": "AssignmentExpression",
-        "start": 836,
-        "end": 856,
         "operator": "/=",
         "left": {
           "type": "Identifier",
+          "name": "x",
           "start": 836,
-          "end": 837,
-          "name": "x"
+          "end": 837
         },
         "right": {
           "type": "NewExpression",
-          "start": 841,
-          "end": 856,
           "callee": {
             "type": "Identifier",
+            "name": "String",
             "start": 845,
-            "end": 851,
-            "name": "String"
+            "end": 851
           },
           "arguments": [
             {
               "type": "Literal",
-              "start": 852,
-              "end": 855,
               "value": "1",
-              "raw": "\"1\""
+              "raw": "\"1\"",
+              "start": 852,
+              "end": 855
             }
-          ]
-        }
-      }
+          ],
+          "start": 841,
+          "end": 856
+        },
+        "start": 836,
+        "end": 856
+      },
+      "start": 836,
+      "end": 857
     },
     {
       "type": "IfStatement",
-      "start": 858,
-      "end": 963,
       "test": {
         "type": "BinaryExpression",
-        "start": 862,
-        "end": 869,
         "left": {
           "type": "Identifier",
+          "name": "x",
           "start": 862,
-          "end": 863,
-          "name": "x"
+          "end": 863
         },
         "operator": "!==",
         "right": {
           "type": "Literal",
-          "start": 868,
-          "end": 869,
           "value": 0,
-          "raw": "0"
-        }
+          "raw": "0",
+          "start": 868,
+          "end": 869
+        },
+        "start": 862,
+        "end": 869
       },
       "consequent": {
         "type": "BlockStatement",
-        "start": 871,
-        "end": 963,
         "body": [
           {
             "type": "ThrowStatement",
-            "start": 875,
-            "end": 961,
             "argument": {
               "type": "NewExpression",
-              "start": 881,
-              "end": 960,
               "callee": {
                 "type": "Identifier",
+                "name": "Test262Error",
                 "start": 885,
-                "end": 897,
-                "name": "Test262Error"
+                "end": 897
               },
               "arguments": [
                 {
                   "type": "BinaryExpression",
-                  "start": 898,
-                  "end": 959,
                   "left": {
                     "type": "Literal",
-                    "start": 898,
-                    "end": 953,
                     "value": "#4: x = null; x /= new String(\"1\"); x === 0. Actual: ",
-                    "raw": "'#4: x = null; x /= new String(\"1\"); x === 0. Actual: '"
+                    "raw": "'#4: x = null; x /= new String(\"1\"); x === 0. Actual: '",
+                    "start": 898,
+                    "end": 953
                   },
                   "operator": "+",
                   "right": {
                     "type": "ParenthesizedExpression",
-                    "start": 956,
-                    "end": 959,
                     "expression": {
                       "type": "Identifier",
+                      "name": "x",
                       "start": 957,
-                      "end": 958,
-                      "name": "x"
-                    }
-                  }
+                      "end": 958
+                    },
+                    "start": 956,
+                    "end": 959
+                  },
+                  "start": 898,
+                  "end": 959
                 }
-              ]
-            }
+              ],
+              "start": 881,
+              "end": 960
+            },
+            "start": 875,
+            "end": 961
           }
-        ]
+        ],
+        "start": 871,
+        "end": 963
       },
-      "alternate": null
+      "alternate": null,
+      "start": 858,
+      "end": 963
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 964
 }

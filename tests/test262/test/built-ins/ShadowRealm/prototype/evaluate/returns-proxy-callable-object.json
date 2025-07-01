@@ -1,390 +1,390 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 818,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 285,
-      "end": 436,
       "expression": {
         "type": "CallExpression",
-        "start": 285,
-        "end": 435,
         "callee": {
           "type": "MemberExpression",
-          "start": 285,
-          "end": 301,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 285,
-            "end": 291,
-            "name": "assert"
+            "end": 291
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 292,
-            "end": 301,
-            "name": "sameValue"
+            "end": 301
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 285,
+          "end": 301
         },
         "arguments": [
           {
             "type": "UnaryExpression",
-            "start": 305,
-            "end": 342,
             "operator": "typeof",
             "argument": {
               "type": "MemberExpression",
-              "start": 312,
-              "end": 342,
               "object": {
                 "type": "MemberExpression",
-                "start": 312,
-                "end": 333,
                 "object": {
                   "type": "Identifier",
+                  "name": "ShadowRealm",
                   "start": 312,
-                  "end": 323,
-                  "name": "ShadowRealm"
+                  "end": 323
                 },
                 "property": {
                   "type": "Identifier",
+                  "name": "prototype",
                   "start": 324,
-                  "end": 333,
-                  "name": "prototype"
+                  "end": 333
                 },
                 "optional": false,
-                "computed": false
+                "computed": false,
+                "start": 312,
+                "end": 333
               },
               "property": {
                 "type": "Identifier",
+                "name": "evaluate",
                 "start": 334,
-                "end": 342,
-                "name": "evaluate"
+                "end": 342
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 312,
+              "end": 342
             },
-            "prefix": true
+            "prefix": true,
+            "start": 305,
+            "end": 342
           },
           {
             "type": "Literal",
-            "start": 346,
-            "end": 356,
             "value": "function",
-            "raw": "'function'"
+            "raw": "'function'",
+            "start": 346,
+            "end": 356
           },
           {
             "type": "Literal",
-            "start": 360,
-            "end": 433,
             "value": "This test must fail if ShadowRealm.prototype.evaluate is not a function",
-            "raw": "'This test must fail if ShadowRealm.prototype.evaluate is not a function'"
+            "raw": "'This test must fail if ShadowRealm.prototype.evaluate is not a function'",
+            "start": 360,
+            "end": 433
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 285,
+        "end": 435
+      },
+      "start": 285,
+      "end": 436
     },
     {
       "type": "VariableDeclaration",
-      "start": 438,
-      "end": 466,
       "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 444,
-          "end": 465,
           "id": {
             "type": "Identifier",
+            "name": "r",
             "start": 444,
-            "end": 445,
-            "name": "r"
+            "end": 445
           },
           "init": {
             "type": "NewExpression",
-            "start": 448,
-            "end": 465,
             "callee": {
               "type": "Identifier",
+              "name": "ShadowRealm",
               "start": 452,
-              "end": 463,
-              "name": "ShadowRealm"
+              "end": 463
             },
-            "arguments": []
-          }
+            "arguments": [],
+            "start": 448,
+            "end": 465
+          },
+          "start": 444,
+          "end": 465
         }
-      ]
+      ],
+      "start": 438,
+      "end": 466
     },
     {
       "type": "VariableDeclaration",
-      "start": 468,
-      "end": 554,
       "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 474,
-          "end": 553,
           "id": {
             "type": "Identifier",
+            "name": "proxyCallable",
             "start": 474,
-            "end": 487,
-            "name": "proxyCallable"
+            "end": 487
           },
           "init": {
             "type": "CallExpression",
-            "start": 490,
-            "end": 553,
             "callee": {
               "type": "MemberExpression",
-              "start": 490,
-              "end": 500,
               "object": {
                 "type": "Identifier",
+                "name": "r",
                 "start": 490,
-                "end": 491,
-                "name": "r"
+                "end": 491
               },
               "property": {
                 "type": "Identifier",
+                "name": "evaluate",
                 "start": 492,
-                "end": 500,
-                "name": "evaluate"
+                "end": 500
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 490,
+              "end": 500
             },
             "arguments": [
               {
                 "type": "TemplateLiteral",
-                "start": 501,
-                "end": 552,
                 "quasis": [
                   {
                     "type": "TemplateElement",
-                    "start": 502,
-                    "end": 551,
                     "value": {
                       "raw": "\nfunction fn() { return 42; }\nnew Proxy(fn, {});\n",
                       "cooked": "\nfunction fn() { return 42; }\nnew Proxy(fn, {});\n"
                     },
-                    "tail": true
+                    "tail": true,
+                    "start": 502,
+                    "end": 551
                   }
                 ],
-                "expressions": []
+                "expressions": [],
+                "start": 501,
+                "end": 552
               }
             ],
-            "optional": false
-          }
+            "optional": false,
+            "start": 490,
+            "end": 553
+          },
+          "start": 474,
+          "end": 553
         }
-      ]
+      ],
+      "start": 468,
+      "end": 554
     },
     {
       "type": "ExpressionStatement",
-      "start": 556,
-      "end": 659,
       "expression": {
         "type": "CallExpression",
-        "start": 556,
-        "end": 658,
         "callee": {
           "type": "MemberExpression",
-          "start": 556,
-          "end": 572,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 556,
-            "end": 562,
-            "name": "assert"
+            "end": 562
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 563,
-            "end": 572,
-            "name": "sameValue"
+            "end": 572
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 556,
+          "end": 572
         },
         "arguments": [
           {
             "type": "UnaryExpression",
-            "start": 573,
-            "end": 593,
             "operator": "typeof",
             "argument": {
               "type": "Identifier",
+              "name": "proxyCallable",
               "start": 580,
-              "end": 593,
-              "name": "proxyCallable"
+              "end": 593
             },
-            "prefix": true
+            "prefix": true,
+            "start": 573,
+            "end": 593
           },
           {
             "type": "Literal",
-            "start": 595,
-            "end": 605,
             "value": "function",
-            "raw": "'function'"
+            "raw": "'function'",
+            "start": 595,
+            "end": 605
           },
           {
             "type": "Literal",
-            "start": 607,
-            "end": 657,
             "value": "wrapped proxy callable object is typeof function",
-            "raw": "'wrapped proxy callable object is typeof function'"
+            "raw": "'wrapped proxy callable object is typeof function'",
+            "start": 607,
+            "end": 657
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 556,
+        "end": 658
+      },
+      "start": 556,
+      "end": 659
     },
     {
       "type": "ExpressionStatement",
-      "start": 660,
-      "end": 725,
       "expression": {
         "type": "CallExpression",
-        "start": 660,
-        "end": 724,
         "callee": {
           "type": "MemberExpression",
-          "start": 660,
-          "end": 676,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 660,
-            "end": 666,
-            "name": "assert"
+            "end": 666
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 667,
-            "end": 676,
-            "name": "sameValue"
+            "end": 676
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 660,
+          "end": 676
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 677,
-            "end": 692,
             "callee": {
               "type": "Identifier",
+              "name": "proxyCallable",
               "start": 677,
-              "end": 690,
-              "name": "proxyCallable"
+              "end": 690
             },
             "arguments": [],
-            "optional": false
+            "optional": false,
+            "start": 677,
+            "end": 692
           },
           {
             "type": "Literal",
-            "start": 694,
-            "end": 696,
             "value": 42,
-            "raw": "42"
+            "raw": "42",
+            "start": 694,
+            "end": 696
           },
           {
             "type": "Literal",
-            "start": 698,
-            "end": 723,
             "value": "wrappedpfn() returns 42",
-            "raw": "'wrappedpfn() returns 42'"
+            "raw": "'wrappedpfn() returns 42'",
+            "start": 698,
+            "end": 723
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 660,
+        "end": 724
+      },
+      "start": 660,
+      "end": 725
     },
     {
       "type": "ExpressionStatement",
-      "start": 726,
-      "end": 817,
       "expression": {
         "type": "CallExpression",
-        "start": 726,
-        "end": 816,
         "callee": {
           "type": "MemberExpression",
-          "start": 726,
-          "end": 742,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 726,
-            "end": 732,
-            "name": "assert"
+            "end": 732
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 733,
-            "end": 742,
-            "name": "sameValue"
+            "end": 742
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 726,
+          "end": 742
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 743,
-            "end": 775,
             "callee": {
               "type": "ParenthesizedExpression",
-              "start": 743,
-              "end": 773,
               "expression": {
                 "type": "NewExpression",
-                "start": 744,
-                "end": 772,
                 "callee": {
                   "type": "Identifier",
+                  "name": "Proxy",
                   "start": 748,
-                  "end": 753,
-                  "name": "Proxy"
+                  "end": 753
                 },
                 "arguments": [
                   {
                     "type": "Identifier",
+                    "name": "proxyCallable",
                     "start": 754,
-                    "end": 767,
-                    "name": "proxyCallable"
+                    "end": 767
                   },
                   {
                     "type": "ObjectExpression",
+                    "properties": [],
                     "start": 769,
-                    "end": 771,
-                    "properties": []
+                    "end": 771
                   }
-                ]
-              }
+                ],
+                "start": 744,
+                "end": 772
+              },
+              "start": 743,
+              "end": 773
             },
             "arguments": [],
-            "optional": false
+            "optional": false,
+            "start": 743,
+            "end": 775
           },
           {
             "type": "Literal",
-            "start": 777,
-            "end": 779,
             "value": 42,
-            "raw": "42"
+            "raw": "42",
+            "start": 777,
+            "end": 779
           },
           {
             "type": "Literal",
-            "start": 781,
-            "end": 815,
             "value": "wrapped functions can be proxied",
-            "raw": "'wrapped functions can be proxied'"
+            "raw": "'wrapped functions can be proxied'",
+            "start": 781,
+            "end": 815
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 726,
+        "end": 816
+      },
+      "start": 726,
+      "end": 817
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 818
 }

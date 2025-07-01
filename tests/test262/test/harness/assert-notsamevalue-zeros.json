@@ -1,62 +1,62 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 249,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 221,
-      "end": 248,
       "expression": {
         "type": "CallExpression",
-        "start": 221,
-        "end": 247,
         "callee": {
           "type": "MemberExpression",
-          "start": 221,
-          "end": 240,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 221,
-            "end": 227,
-            "name": "assert"
+            "end": 227
           },
           "property": {
             "type": "Identifier",
+            "name": "notSameValue",
             "start": 228,
-            "end": 240,
-            "name": "notSameValue"
+            "end": 240
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 221,
+          "end": 240
         },
         "arguments": [
           {
             "type": "Literal",
-            "start": 241,
-            "end": 242,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "start": 241,
+            "end": 242
           },
           {
             "type": "UnaryExpression",
-            "start": 244,
-            "end": 246,
             "operator": "-",
             "argument": {
               "type": "Literal",
-              "start": 245,
-              "end": 246,
               "value": 0,
-              "raw": "0"
+              "raw": "0",
+              "start": 245,
+              "end": 246
             },
-            "prefix": true
+            "prefix": true,
+            "start": 244,
+            "end": 246
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 221,
+        "end": 247
+      },
+      "start": 221,
+      "end": 248
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 249
 }

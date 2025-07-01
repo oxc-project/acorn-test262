@@ -1,97 +1,97 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 352,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 275,
-      "end": 351,
       "expression": {
         "type": "CallExpression",
-        "start": 275,
-        "end": 350,
         "callee": {
           "type": "MemberExpression",
-          "start": 275,
-          "end": 291,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 275,
-            "end": 281,
-            "name": "assert"
+            "end": 281
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 282,
-            "end": 291,
-            "name": "sameValue"
+            "end": 291
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 275,
+          "end": 291
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 292,
-            "end": 315,
             "callee": {
               "type": "MemberExpression",
-              "start": 292,
-              "end": 307,
               "object": {
                 "type": "Literal",
-                "start": 292,
-                "end": 298,
                 "value": "word",
-                "raw": "'word'"
+                "raw": "'word'",
+                "start": 292,
+                "end": 298
               },
               "property": {
                 "type": "Identifier",
+                "name": "includes",
                 "start": 299,
-                "end": 307,
-                "name": "includes"
+                "end": 307
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 292,
+              "end": 307
             },
             "arguments": [
               {
                 "type": "Literal",
-                "start": 308,
-                "end": 311,
                 "value": "a",
-                "raw": "'a'"
+                "raw": "'a'",
+                "start": 308,
+                "end": 311
               },
               {
                 "type": "Literal",
-                "start": 313,
-                "end": 314,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "start": 313,
+                "end": 314
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 292,
+            "end": 315
           },
           {
             "type": "Literal",
-            "start": 317,
-            "end": 322,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "start": 317,
+            "end": 322
           },
           {
             "type": "Literal",
-            "start": 324,
-            "end": 349,
             "value": "\"word\".includes(\"a\", 0)",
-            "raw": "'\"word\".includes(\"a\", 0)'"
+            "raw": "'\"word\".includes(\"a\", 0)'",
+            "start": 324,
+            "end": 349
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 275,
+        "end": 350
+      },
+      "start": 275,
+      "end": 351
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 352
 }

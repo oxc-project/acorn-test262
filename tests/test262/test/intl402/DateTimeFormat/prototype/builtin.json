@@ -1,211 +1,211 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 665,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 380,
-      "end": 479,
       "expression": {
         "type": "CallExpression",
-        "start": 380,
-        "end": 478,
         "callee": {
           "type": "Identifier",
+          "name": "assert",
           "start": 380,
-          "end": 386,
-          "name": "assert"
+          "end": 386
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 387,
-            "end": 437,
             "callee": {
               "type": "MemberExpression",
-              "start": 387,
-              "end": 406,
               "object": {
                 "type": "Identifier",
+                "name": "Object",
                 "start": 387,
-                "end": 393,
-                "name": "Object"
+                "end": 393
               },
               "property": {
                 "type": "Identifier",
+                "name": "isExtensible",
                 "start": 394,
-                "end": 406,
-                "name": "isExtensible"
+                "end": 406
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 387,
+              "end": 406
             },
             "arguments": [
               {
                 "type": "MemberExpression",
-                "start": 407,
-                "end": 436,
                 "object": {
                   "type": "MemberExpression",
-                  "start": 407,
-                  "end": 426,
                   "object": {
                     "type": "Identifier",
+                    "name": "Intl",
                     "start": 407,
-                    "end": 411,
-                    "name": "Intl"
+                    "end": 411
                   },
                   "property": {
                     "type": "Identifier",
+                    "name": "DateTimeFormat",
                     "start": 412,
-                    "end": 426,
-                    "name": "DateTimeFormat"
+                    "end": 426
                   },
                   "optional": false,
-                  "computed": false
+                  "computed": false,
+                  "start": 407,
+                  "end": 426
                 },
                 "property": {
                   "type": "Identifier",
+                  "name": "prototype",
                   "start": 427,
-                  "end": 436,
-                  "name": "prototype"
+                  "end": 436
                 },
                 "optional": false,
-                "computed": false
+                "computed": false,
+                "start": 407,
+                "end": 436
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 387,
+            "end": 437
           },
           {
             "type": "Literal",
-            "start": 439,
-            "end": 477,
             "value": "Built-in objects must be extensible.",
-            "raw": "\"Built-in objects must be extensible.\""
+            "raw": "\"Built-in objects must be extensible.\"",
+            "start": 439,
+            "end": 477
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 380,
+        "end": 478
+      },
+      "start": 380,
+      "end": 479
     },
     {
       "type": "ExpressionStatement",
-      "start": 481,
-      "end": 664,
       "expression": {
         "type": "CallExpression",
-        "start": 481,
-        "end": 663,
         "callee": {
           "type": "MemberExpression",
-          "start": 481,
-          "end": 497,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 481,
-            "end": 487,
-            "name": "assert"
+            "end": 487
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 488,
-            "end": 497,
-            "name": "sameValue"
+            "end": 497
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 481,
+          "end": 497
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 498,
-            "end": 550,
             "callee": {
               "type": "MemberExpression",
-              "start": 498,
-              "end": 519,
               "object": {
                 "type": "Identifier",
+                "name": "Object",
                 "start": 498,
-                "end": 504,
-                "name": "Object"
+                "end": 504
               },
               "property": {
                 "type": "Identifier",
+                "name": "getPrototypeOf",
                 "start": 505,
-                "end": 519,
-                "name": "getPrototypeOf"
+                "end": 519
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 498,
+              "end": 519
             },
             "arguments": [
               {
                 "type": "MemberExpression",
-                "start": 520,
-                "end": 549,
                 "object": {
                   "type": "MemberExpression",
-                  "start": 520,
-                  "end": 539,
                   "object": {
                     "type": "Identifier",
+                    "name": "Intl",
                     "start": 520,
-                    "end": 524,
-                    "name": "Intl"
+                    "end": 524
                   },
                   "property": {
                     "type": "Identifier",
+                    "name": "DateTimeFormat",
                     "start": 525,
-                    "end": 539,
-                    "name": "DateTimeFormat"
+                    "end": 539
                   },
                   "optional": false,
-                  "computed": false
+                  "computed": false,
+                  "start": 520,
+                  "end": 539
                 },
                 "property": {
                   "type": "Identifier",
+                  "name": "prototype",
                   "start": 540,
-                  "end": 549,
-                  "name": "prototype"
+                  "end": 549
                 },
                 "optional": false,
-                "computed": false
+                "computed": false,
+                "start": 520,
+                "end": 549
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 498,
+            "end": 550
           },
           {
             "type": "MemberExpression",
-            "start": 552,
-            "end": 568,
             "object": {
               "type": "Identifier",
+              "name": "Object",
               "start": 552,
-              "end": 558,
-              "name": "Object"
+              "end": 558
             },
             "property": {
               "type": "Identifier",
+              "name": "prototype",
               "start": 559,
-              "end": 568,
-              "name": "prototype"
+              "end": 568
             },
             "optional": false,
-            "computed": false
+            "computed": false,
+            "start": 552,
+            "end": 568
           },
           {
             "type": "Literal",
-            "start": 587,
-            "end": 662,
             "value": "Built-in prototype objects must have Object.prototype as their prototype.",
-            "raw": "\"Built-in prototype objects must have Object.prototype as their prototype.\""
+            "raw": "\"Built-in prototype objects must have Object.prototype as their prototype.\"",
+            "start": 587,
+            "end": 662
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 481,
+        "end": 663
+      },
+      "start": 481,
+      "end": 664
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 665
 }

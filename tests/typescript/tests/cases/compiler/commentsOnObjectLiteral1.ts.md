@@ -2,59 +2,59 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 73,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 0,
-      "end": 73,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 4,
-          "end": 72,
           "id": {
             "type": "Identifier",
-            "start": 4,
-            "end": 10,
             "decorators": [],
             "name": "Person",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 4,
+            "end": 10
           },
           "init": {
             "type": "CallExpression",
-            "start": 13,
-            "end": 72,
             "callee": {
               "type": "Identifier",
-              "start": 13,
-              "end": 22,
               "decorators": [],
               "name": "makeClass",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 13,
+              "end": 22
             },
             "typeArguments": null,
             "arguments": [
               {
                 "type": "ObjectExpression",
+                "properties": [],
                 "start": 63,
-                "end": 69,
-                "properties": []
+                "end": 69
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 13,
+            "end": 72
           },
-          "definite": false
+          "definite": false,
+          "start": 4,
+          "end": 72
         }
       ],
-      "declare": false
+      "declare": false,
+      "start": 0,
+      "end": 73
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 73
 }
 ```

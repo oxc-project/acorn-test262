@@ -1,161 +1,161 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 556,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 273,
-      "end": 325,
       "expression": {
         "type": "CallExpression",
-        "start": 273,
-        "end": 324,
         "callee": {
           "type": "Identifier",
+          "name": "eval",
           "start": 273,
-          "end": 277,
-          "name": "eval"
+          "end": 277
         },
         "arguments": [
           {
             "type": "Literal",
-            "start": 278,
-            "end": 323,
             "value": "/*\u000b multi line \u000b comment \u000b*/",
-            "raw": "\"/*\\u000B multi line \\u000B comment \\u000B*/\""
+            "raw": "\"/*\\u000B multi line \\u000B comment \\u000B*/\"",
+            "start": 278,
+            "end": 323
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 273,
+        "end": 324
+      },
+      "start": 273,
+      "end": 325
     },
     {
       "type": "VariableDeclaration",
-      "start": 337,
-      "end": 347,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 341,
-          "end": 346,
           "id": {
             "type": "Identifier",
+            "name": "x",
             "start": 341,
-            "end": 342,
-            "name": "x"
+            "end": 342
           },
           "init": {
             "type": "Literal",
-            "start": 345,
-            "end": 346,
             "value": 0,
-            "raw": "0"
-          }
+            "raw": "0",
+            "start": 345,
+            "end": 346
+          },
+          "start": 341,
+          "end": 346
         }
-      ]
+      ],
+      "start": 337,
+      "end": 347
     },
     {
       "type": "ExpressionStatement",
-      "start": 348,
-      "end": 407,
       "expression": {
         "type": "CallExpression",
-        "start": 348,
-        "end": 406,
         "callee": {
           "type": "Identifier",
+          "name": "eval",
           "start": 348,
-          "end": 352,
-          "name": "eval"
+          "end": 352
         },
         "arguments": [
           {
             "type": "Literal",
-            "start": 353,
-            "end": 405,
             "value": "/*\u000b multi line \u000b comment \u000b x = 1;*/",
-            "raw": "\"/*\\u000B multi line \\u000B comment \\u000B x = 1;*/\""
+            "raw": "\"/*\\u000B multi line \\u000B comment \\u000B x = 1;*/\"",
+            "start": 353,
+            "end": 405
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 348,
+        "end": 406
+      },
+      "start": 348,
+      "end": 407
     },
     {
       "type": "IfStatement",
-      "start": 408,
-      "end": 555,
       "test": {
         "type": "BinaryExpression",
-        "start": 412,
-        "end": 419,
         "left": {
           "type": "Identifier",
+          "name": "x",
           "start": 412,
-          "end": 413,
-          "name": "x"
+          "end": 413
         },
         "operator": "!==",
         "right": {
           "type": "Literal",
-          "start": 418,
-          "end": 419,
           "value": 0,
-          "raw": "0"
-        }
+          "raw": "0",
+          "start": 418,
+          "end": 419
+        },
+        "start": 412,
+        "end": 419
       },
       "consequent": {
         "type": "BlockStatement",
-        "start": 421,
-        "end": 555,
         "body": [
           {
             "type": "ThrowStatement",
-            "start": 425,
-            "end": 553,
             "argument": {
               "type": "NewExpression",
-              "start": 431,
-              "end": 552,
               "callee": {
                 "type": "Identifier",
+                "name": "Test262Error",
                 "start": 435,
-                "end": 447,
-                "name": "Test262Error"
+                "end": 447
               },
               "arguments": [
                 {
                   "type": "BinaryExpression",
-                  "start": 448,
-                  "end": 551,
                   "left": {
                     "type": "Literal",
-                    "start": 448,
-                    "end": 545,
                     "value": "#1: var x = 0; eval(\"/*\\u000B multi line \\u000B comment \\u000B x = 1;*/\"); x === 0. Actual: ",
-                    "raw": "'#1: var x = 0; eval(\"/*\\\\u000B multi line \\\\u000B comment \\\\u000B x = 1;*/\"); x === 0. Actual: '"
+                    "raw": "'#1: var x = 0; eval(\"/*\\\\u000B multi line \\\\u000B comment \\\\u000B x = 1;*/\"); x === 0. Actual: '",
+                    "start": 448,
+                    "end": 545
                   },
                   "operator": "+",
                   "right": {
                     "type": "ParenthesizedExpression",
-                    "start": 548,
-                    "end": 551,
                     "expression": {
                       "type": "Identifier",
+                      "name": "x",
                       "start": 549,
-                      "end": 550,
-                      "name": "x"
-                    }
-                  }
+                      "end": 550
+                    },
+                    "start": 548,
+                    "end": 551
+                  },
+                  "start": 448,
+                  "end": 551
                 }
-              ]
-            }
+              ],
+              "start": 431,
+              "end": 552
+            },
+            "start": 425,
+            "end": 553
           }
-        ]
+        ],
+        "start": 421,
+        "end": 555
       },
-      "alternate": null
+      "alternate": null,
+      "start": 408,
+      "end": 555
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 556
 }

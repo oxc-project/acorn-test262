@@ -2,72 +2,70 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 51,
   "body": [
     {
       "type": "ExportNamedDeclaration",
-      "start": 0,
-      "end": 50,
       "declaration": {
         "type": "TSEnumDeclaration",
-        "start": 7,
-        "end": 50,
         "id": {
           "type": "Identifier",
-          "start": 18,
-          "end": 29,
           "decorators": [],
           "name": "MyConstEnum",
           "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "start": 18,
+          "end": 29
         },
         "body": {
           "type": "TSEnumBody",
-          "start": 30,
-          "end": 50,
           "members": [
             {
               "type": "TSEnumMember",
-              "start": 36,
-              "end": 39,
               "id": {
                 "type": "Identifier",
-                "start": 36,
-                "end": 39,
                 "decorators": [],
                 "name": "Foo",
                 "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "start": 36,
+                "end": 39
               },
               "initializer": null,
-              "computed": false
+              "computed": false,
+              "start": 36,
+              "end": 39
             },
             {
               "type": "TSEnumMember",
-              "start": 45,
-              "end": 48,
               "id": {
                 "type": "Identifier",
-                "start": 45,
-                "end": 48,
                 "decorators": [],
                 "name": "Bar",
                 "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "start": 45,
+                "end": 48
               },
               "initializer": null,
-              "computed": false
+              "computed": false,
+              "start": 45,
+              "end": 48
             }
-          ]
+          ],
+          "start": 30,
+          "end": 50
         },
         "const": true,
-        "declare": false
+        "declare": false,
+        "start": 7,
+        "end": 50
       },
       "specifiers": [],
       "source": null,
       "exportKind": "value",
-      "attributes": []
+      "attributes": [],
+      "start": 0,
+      "end": 50
     },
     {
       "type": "EmptyStatement",
@@ -76,127 +74,129 @@ __ESTREE_TEST__:PASS:
     }
   ],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 51
 }
 ```
 __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 70,
   "body": [
     {
       "type": "ImportDeclaration",
-      "start": 0,
-      "end": 42,
       "specifiers": [
         {
           "type": "ImportSpecifier",
-          "start": 9,
-          "end": 20,
           "imported": {
             "type": "Identifier",
-            "start": 9,
-            "end": 20,
             "decorators": [],
             "name": "MyConstEnum",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 9,
+            "end": 20
           },
           "local": {
             "type": "Identifier",
-            "start": 9,
-            "end": 20,
             "decorators": [],
             "name": "MyConstEnum",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 9,
+            "end": 20
           },
-          "importKind": "value"
+          "importKind": "value",
+          "start": 9,
+          "end": 20
         }
       ],
       "source": {
         "type": "Literal",
-        "start": 28,
-        "end": 41,
         "value": "./ConstEnum",
-        "raw": "'./ConstEnum'"
+        "raw": "'./ConstEnum'",
+        "start": 28,
+        "end": 41
       },
       "phase": null,
       "attributes": [],
-      "importKind": "value"
+      "importKind": "value",
+      "start": 0,
+      "end": 42
     },
     {
       "type": "ExportDefaultDeclaration",
-      "start": 43,
-      "end": 70,
       "declaration": {
         "type": "Identifier",
-        "start": 58,
-        "end": 69,
         "decorators": [],
         "name": "MyConstEnum",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 58,
+        "end": 69
       },
-      "exportKind": "value"
+      "exportKind": "value",
+      "start": 43,
+      "end": 70
     }
   ],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 70
 }
 ```
 __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 53,
   "body": [
     {
       "type": "ExportNamedDeclaration",
-      "start": 0,
-      "end": 53,
       "declaration": null,
       "specifiers": [
         {
           "type": "ExportSpecifier",
-          "start": 9,
-          "end": 31,
           "local": {
             "type": "Identifier",
-            "start": 9,
-            "end": 20,
             "decorators": [],
             "name": "MyConstEnum",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 9,
+            "end": 20
           },
           "exported": {
             "type": "Identifier",
-            "start": 24,
-            "end": 31,
             "decorators": [],
             "name": "default",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 24,
+            "end": 31
           },
-          "exportKind": "value"
+          "exportKind": "value",
+          "start": 9,
+          "end": 31
         }
       ],
       "source": {
         "type": "Literal",
-        "start": 39,
-        "end": 52,
         "value": "./ConstEnum",
-        "raw": "'./ConstEnum'"
+        "raw": "'./ConstEnum'",
+        "start": 39,
+        "end": 52
       },
       "exportKind": "value",
-      "attributes": []
+      "attributes": [],
+      "start": 0,
+      "end": 53
     }
   ],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 53
 }
 ```

@@ -2,22 +2,18 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 81,
   "body": [
     {
       "type": "ClassDeclaration",
-      "start": 0,
-      "end": 29,
       "decorators": [],
       "id": {
         "type": "Identifier",
-        "start": 6,
-        "end": 7,
         "decorators": [],
         "name": "A",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 6,
+        "end": 7
       },
       "typeParameters": null,
       "superClass": null,
@@ -25,32 +21,28 @@ __ESTREE_TEST__:PASS:
       "implements": [],
       "body": {
         "type": "ClassBody",
-        "start": 8,
-        "end": 29,
         "body": [
           {
             "type": "PropertyDefinition",
-            "start": 14,
-            "end": 27,
             "decorators": [],
             "key": {
               "type": "Identifier",
-              "start": 14,
-              "end": 17,
               "decorators": [],
               "name": "foo",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 14,
+              "end": 17
             },
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
-              "start": 18,
-              "end": 26,
               "typeAnnotation": {
                 "type": "TSStringKeyword",
                 "start": 20,
                 "end": 26
-              }
+              },
+              "start": 18,
+              "end": 26
             },
             "value": null,
             "computed": false,
@@ -60,65 +52,65 @@ __ESTREE_TEST__:PASS:
             "optional": true,
             "definite": false,
             "readonly": false,
-            "accessibility": null
+            "accessibility": null,
+            "start": 14,
+            "end": 27
           }
-        ]
+        ],
+        "start": 8,
+        "end": 29
       },
       "abstract": false,
-      "declare": false
+      "declare": false,
+      "start": 0,
+      "end": 29
     },
     {
       "type": "ClassDeclaration",
-      "start": 31,
-      "end": 81,
       "decorators": [],
       "id": {
         "type": "Identifier",
-        "start": 37,
-        "end": 38,
         "decorators": [],
         "name": "B",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 37,
+        "end": 38
       },
       "typeParameters": null,
       "superClass": {
         "type": "Identifier",
-        "start": 47,
-        "end": 48,
         "decorators": [],
         "name": "A",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 47,
+        "end": 48
       },
       "superTypeArguments": null,
       "implements": [],
       "body": {
         "type": "ClassBody",
-        "start": 49,
-        "end": 81,
         "body": [
           {
             "type": "PropertyDefinition",
-            "start": 55,
-            "end": 79,
             "decorators": [],
             "key": {
               "type": "Identifier",
-              "start": 64,
-              "end": 67,
               "decorators": [],
               "name": "foo",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 64,
+              "end": 67
             },
             "typeAnnotation": null,
             "value": {
               "type": "Literal",
-              "start": 70,
-              "end": 78,
               "value": "string",
-              "raw": "\"string\""
+              "raw": "\"string\"",
+              "start": 70,
+              "end": 78
             },
             "computed": false,
             "static": false,
@@ -127,15 +119,23 @@ __ESTREE_TEST__:PASS:
             "optional": false,
             "definite": false,
             "readonly": false,
-            "accessibility": null
+            "accessibility": null,
+            "start": 55,
+            "end": 79
           }
-        ]
+        ],
+        "start": 49,
+        "end": 81
       },
       "abstract": false,
-      "declare": false
+      "declare": false,
+      "start": 31,
+      "end": 81
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 81
 }
 ```

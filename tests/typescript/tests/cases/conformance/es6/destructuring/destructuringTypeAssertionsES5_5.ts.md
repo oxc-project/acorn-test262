@@ -2,61 +2,53 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 19,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 0,
-      "end": 19,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 4,
-          "end": 18,
           "id": {
             "type": "ObjectPattern",
-            "start": 4,
-            "end": 9,
             "decorators": [],
             "properties": [
               {
                 "type": "Property",
-                "start": 6,
-                "end": 7,
                 "kind": "init",
                 "key": {
                   "type": "Identifier",
-                  "start": 6,
-                  "end": 7,
                   "decorators": [],
                   "name": "x",
                   "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "start": 6,
+                  "end": 7
                 },
                 "value": {
                   "type": "Identifier",
-                  "start": 6,
-                  "end": 7,
                   "decorators": [],
                   "name": "x",
                   "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "start": 6,
+                  "end": 7
                 },
                 "method": false,
                 "shorthand": true,
                 "computed": false,
-                "optional": false
+                "optional": false,
+                "start": 6,
+                "end": 7
               }
             ],
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 4,
+            "end": 9
           },
           "init": {
             "type": "TSTypeAssertion",
-            "start": 12,
-            "end": 18,
             "typeAnnotation": {
               "type": "TSAnyKeyword",
               "start": 13,
@@ -64,19 +56,27 @@ __ESTREE_TEST__:PASS:
             },
             "expression": {
               "type": "Literal",
-              "start": 17,
-              "end": 18,
               "value": 0,
-              "raw": "0"
-            }
+              "raw": "0",
+              "start": 17,
+              "end": 18
+            },
+            "start": 12,
+            "end": 18
           },
-          "definite": false
+          "definite": false,
+          "start": 4,
+          "end": 18
         }
       ],
-      "declare": false
+      "declare": false,
+      "start": 0,
+      "end": 19
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 19
 }
 ```

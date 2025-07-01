@@ -1,108 +1,108 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 422,
   "body": [
     {
       "type": "IfStatement",
-      "start": 278,
-      "end": 421,
       "test": {
         "type": "BinaryExpression",
-        "start": 282,
-        "end": 315,
         "left": {
           "type": "MemberExpression",
-          "start": 282,
-          "end": 301,
           "object": {
             "type": "Identifier",
+            "name": "encodeURI",
             "start": 282,
-            "end": 291,
-            "name": "encodeURI"
+            "end": 291
           },
           "property": {
             "type": "Identifier",
+            "name": "prototype",
             "start": 292,
-            "end": 301,
-            "name": "prototype"
+            "end": 301
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 282,
+          "end": 301
         },
         "operator": "!==",
         "right": {
           "type": "Identifier",
+          "name": "undefined",
           "start": 306,
-          "end": 315,
-          "name": "undefined"
-        }
+          "end": 315
+        },
+        "start": 282,
+        "end": 315
       },
       "consequent": {
         "type": "BlockStatement",
-        "start": 317,
-        "end": 421,
         "body": [
           {
             "type": "ThrowStatement",
-            "start": 321,
-            "end": 419,
             "argument": {
               "type": "NewExpression",
-              "start": 327,
-              "end": 418,
               "callee": {
                 "type": "Identifier",
+                "name": "Test262Error",
                 "start": 331,
-                "end": 343,
-                "name": "Test262Error"
+                "end": 343
               },
               "arguments": [
                 {
                   "type": "BinaryExpression",
-                  "start": 344,
-                  "end": 417,
                   "left": {
                     "type": "Literal",
-                    "start": 344,
-                    "end": 393,
                     "value": "#1: encodeURI.prototype === undefined. Actual: ",
-                    "raw": "'#1: encodeURI.prototype === undefined. Actual: '"
+                    "raw": "'#1: encodeURI.prototype === undefined. Actual: '",
+                    "start": 344,
+                    "end": 393
                   },
                   "operator": "+",
                   "right": {
                     "type": "ParenthesizedExpression",
-                    "start": 396,
-                    "end": 417,
                     "expression": {
                       "type": "MemberExpression",
-                      "start": 397,
-                      "end": 416,
                       "object": {
                         "type": "Identifier",
+                        "name": "encodeURI",
                         "start": 397,
-                        "end": 406,
-                        "name": "encodeURI"
+                        "end": 406
                       },
                       "property": {
                         "type": "Identifier",
+                        "name": "prototype",
                         "start": 407,
-                        "end": 416,
-                        "name": "prototype"
+                        "end": 416
                       },
                       "optional": false,
-                      "computed": false
-                    }
-                  }
+                      "computed": false,
+                      "start": 397,
+                      "end": 416
+                    },
+                    "start": 396,
+                    "end": 417
+                  },
+                  "start": 344,
+                  "end": 417
                 }
-              ]
-            }
+              ],
+              "start": 327,
+              "end": 418
+            },
+            "start": 321,
+            "end": 419
           }
-        ]
+        ],
+        "start": 317,
+        "end": 421
       },
-      "alternate": null
+      "alternate": null,
+      "start": 278,
+      "end": 421
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 422
 }

@@ -1,153 +1,153 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 686,
   "body": [
     {
       "type": "IfStatement",
-      "start": 443,
-      "end": 603,
       "test": {
         "type": "BinaryExpression",
-        "start": 447,
-        "end": 484,
         "left": {
           "type": "CallExpression",
-          "start": 447,
-          "end": 478,
           "callee": {
             "type": "MemberExpression",
-            "start": 447,
-            "end": 467,
             "object": {
               "type": "Literal",
-              "start": 447,
-              "end": 459,
               "value": "$$abcdabcd",
-              "raw": "\"$$abcdabcd\""
+              "raw": "\"$$abcdabcd\"",
+              "start": 447,
+              "end": 459
             },
             "property": {
               "type": "Identifier",
+              "name": "indexOf",
               "start": 460,
-              "end": 467,
-              "name": "indexOf"
+              "end": 467
             },
             "optional": false,
-            "computed": false
+            "computed": false,
+            "start": 447,
+            "end": 467
           },
           "arguments": [
             {
               "type": "Literal",
-              "start": 468,
-              "end": 472,
               "value": "ab",
-              "raw": "\"ab\""
+              "raw": "\"ab\"",
+              "start": 468,
+              "end": 472
             },
             {
               "type": "Identifier",
+              "name": "NaN",
               "start": 474,
-              "end": 477,
-              "name": "NaN"
+              "end": 477
             }
           ],
-          "optional": false
+          "optional": false,
+          "start": 447,
+          "end": 478
         },
         "operator": "!==",
         "right": {
           "type": "Literal",
-          "start": 483,
-          "end": 484,
           "value": 2,
-          "raw": "2"
-        }
+          "raw": "2",
+          "start": 483,
+          "end": 484
+        },
+        "start": 447,
+        "end": 484
       },
       "consequent": {
         "type": "BlockStatement",
-        "start": 486,
-        "end": 603,
         "body": [
           {
             "type": "ThrowStatement",
-            "start": 490,
-            "end": 601,
             "argument": {
               "type": "NewExpression",
-              "start": 496,
-              "end": 600,
               "callee": {
                 "type": "Identifier",
+                "name": "Test262Error",
                 "start": 500,
-                "end": 512,
-                "name": "Test262Error"
+                "end": 512
               },
               "arguments": [
                 {
                   "type": "BinaryExpression",
-                  "start": 513,
-                  "end": 599,
                   "left": {
                     "type": "Literal",
-                    "start": 513,
-                    "end": 563,
                     "value": "#1: \"$$abcdabcd\".indexOf(\"ab\",NaN)===2. Actual: ",
-                    "raw": "'#1: \"$$abcdabcd\".indexOf(\"ab\",NaN)===2. Actual: '"
+                    "raw": "'#1: \"$$abcdabcd\".indexOf(\"ab\",NaN)===2. Actual: '",
+                    "start": 513,
+                    "end": 563
                   },
                   "operator": "+",
                   "right": {
                     "type": "ParenthesizedExpression",
-                    "start": 566,
-                    "end": 599,
                     "expression": {
                       "type": "CallExpression",
-                      "start": 567,
-                      "end": 598,
                       "callee": {
                         "type": "MemberExpression",
-                        "start": 567,
-                        "end": 587,
                         "object": {
                           "type": "Literal",
-                          "start": 567,
-                          "end": 579,
                           "value": "$$abcdabcd",
-                          "raw": "\"$$abcdabcd\""
+                          "raw": "\"$$abcdabcd\"",
+                          "start": 567,
+                          "end": 579
                         },
                         "property": {
                           "type": "Identifier",
+                          "name": "indexOf",
                           "start": 580,
-                          "end": 587,
-                          "name": "indexOf"
+                          "end": 587
                         },
                         "optional": false,
-                        "computed": false
+                        "computed": false,
+                        "start": 567,
+                        "end": 587
                       },
                       "arguments": [
                         {
                           "type": "Literal",
-                          "start": 588,
-                          "end": 592,
                           "value": "ab",
-                          "raw": "\"ab\""
+                          "raw": "\"ab\"",
+                          "start": 588,
+                          "end": 592
                         },
                         {
                           "type": "Identifier",
+                          "name": "NaN",
                           "start": 594,
-                          "end": 597,
-                          "name": "NaN"
+                          "end": 597
                         }
                       ],
-                      "optional": false
-                    }
-                  }
+                      "optional": false,
+                      "start": 567,
+                      "end": 598
+                    },
+                    "start": 566,
+                    "end": 599
+                  },
+                  "start": 513,
+                  "end": 599
                 }
-              ]
-            }
+              ],
+              "start": 496,
+              "end": 600
+            },
+            "start": 490,
+            "end": 601
           }
-        ]
+        ],
+        "start": 486,
+        "end": 603
       },
-      "alternate": null
+      "alternate": null,
+      "start": 443,
+      "end": 603
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 686
 }

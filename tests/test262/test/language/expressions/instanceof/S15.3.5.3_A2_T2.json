@@ -1,284 +1,284 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 887,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 536,
-      "end": 548,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 540,
-          "end": 547,
           "id": {
             "type": "Identifier",
+            "name": "FACTORY",
             "start": 540,
-            "end": 547,
-            "name": "FACTORY"
+            "end": 547
           },
-          "init": null
+          "init": null,
+          "start": 540,
+          "end": 547
         }
-      ]
+      ],
+      "start": 536,
+      "end": 548
     },
     {
       "type": "ExpressionStatement",
-      "start": 549,
-      "end": 572,
       "expression": {
         "type": "AssignmentExpression",
-        "start": 549,
-        "end": 571,
         "operator": "=",
         "left": {
           "type": "Identifier",
+          "name": "FACTORY",
           "start": 549,
-          "end": 556,
-          "name": "FACTORY"
+          "end": 556
         },
         "right": {
           "type": "NewExpression",
-          "start": 559,
-          "end": 571,
           "callee": {
             "type": "Identifier",
+            "name": "Function",
             "start": 563,
-            "end": 571,
-            "name": "Function"
+            "end": 571
           },
-          "arguments": []
-        }
-      }
+          "arguments": [],
+          "start": 559,
+          "end": 571
+        },
+        "start": 549,
+        "end": 571
+      },
+      "start": 549,
+      "end": 572
     },
     {
       "type": "ExpressionStatement",
-      "start": 574,
-      "end": 604,
       "expression": {
         "type": "AssignmentExpression",
-        "start": 574,
-        "end": 603,
         "operator": "=",
         "left": {
           "type": "MemberExpression",
-          "start": 574,
-          "end": 591,
           "object": {
             "type": "Identifier",
+            "name": "FACTORY",
             "start": 574,
-            "end": 581,
-            "name": "FACTORY"
+            "end": 581
           },
           "property": {
             "type": "Identifier",
+            "name": "prototype",
             "start": 582,
-            "end": 591,
-            "name": "prototype"
+            "end": 591
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 574,
+          "end": 591
         },
         "right": {
           "type": "Identifier",
+          "name": "undefined",
           "start": 594,
-          "end": 603,
-          "name": "undefined"
-        }
-      }
+          "end": 603
+        },
+        "start": 574,
+        "end": 603
+      },
+      "start": 574,
+      "end": 604
     },
     {
       "type": "VariableDeclaration",
-      "start": 606,
-      "end": 614,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 610,
-          "end": 613,
           "id": {
             "type": "Identifier",
+            "name": "obj",
             "start": 610,
-            "end": 613,
-            "name": "obj"
+            "end": 613
           },
-          "init": null
+          "init": null,
+          "start": 610,
+          "end": 613
         }
-      ]
+      ],
+      "start": 606,
+      "end": 614
     },
     {
       "type": "ExpressionStatement",
-      "start": 615,
-      "end": 622,
       "expression": {
         "type": "AssignmentExpression",
-        "start": 615,
-        "end": 621,
         "operator": "=",
         "left": {
           "type": "Identifier",
+          "name": "obj",
           "start": 615,
-          "end": 618,
-          "name": "obj"
+          "end": 618
         },
         "right": {
           "type": "ObjectExpression",
+          "properties": [],
           "start": 619,
-          "end": 621,
-          "properties": []
-        }
-      }
+          "end": 621
+        },
+        "start": 615,
+        "end": 621
+      },
+      "start": 615,
+      "end": 622
     },
     {
       "type": "TryStatement",
-      "start": 634,
-      "end": 886,
       "block": {
         "type": "BlockStatement",
-        "start": 638,
-        "end": 749,
         "body": [
           {
             "type": "ExpressionStatement",
-            "start": 642,
-            "end": 666,
             "expression": {
               "type": "BinaryExpression",
-              "start": 642,
-              "end": 665,
               "left": {
                 "type": "Identifier",
+                "name": "obj",
                 "start": 642,
-                "end": 645,
-                "name": "obj"
+                "end": 645
               },
               "operator": "instanceof",
               "right": {
                 "type": "Identifier",
+                "name": "FACTORY",
                 "start": 658,
-                "end": 665,
-                "name": "FACTORY"
-              }
-            }
+                "end": 665
+              },
+              "start": 642,
+              "end": 665
+            },
+            "start": 642,
+            "end": 666
           },
           {
             "type": "ThrowStatement",
-            "start": 669,
-            "end": 747,
             "argument": {
               "type": "NewExpression",
-              "start": 675,
-              "end": 746,
               "callee": {
                 "type": "Identifier",
+                "name": "Test262Error",
                 "start": 679,
-                "end": 691,
-                "name": "Test262Error"
+                "end": 691
               },
               "arguments": [
                 {
                   "type": "Literal",
-                  "start": 692,
-                  "end": 745,
                   "value": "#1: O is not an object, throw a TypeError exception",
-                  "raw": "'#1: O is not an object, throw a TypeError exception'"
+                  "raw": "'#1: O is not an object, throw a TypeError exception'",
+                  "start": 692,
+                  "end": 745
                 }
-              ]
-            }
+              ],
+              "start": 675,
+              "end": 746
+            },
+            "start": 669,
+            "end": 747
           }
-        ]
+        ],
+        "start": 638,
+        "end": 749
       },
       "handler": {
         "type": "CatchClause",
-        "start": 750,
-        "end": 886,
         "param": {
           "type": "Identifier",
+          "name": "e",
           "start": 757,
-          "end": 758,
-          "name": "e"
+          "end": 758
         },
         "body": {
           "type": "BlockStatement",
-          "start": 760,
-          "end": 886,
           "body": [
             {
               "type": "IfStatement",
-              "start": 764,
-              "end": 884,
               "test": {
                 "type": "UnaryExpression",
-                "start": 768,
-                "end": 793,
                 "operator": "!",
                 "argument": {
                   "type": "ParenthesizedExpression",
-                  "start": 769,
-                  "end": 793,
                   "expression": {
                     "type": "BinaryExpression",
-                    "start": 770,
-                    "end": 792,
                     "left": {
                       "type": "Identifier",
+                      "name": "e",
                       "start": 770,
-                      "end": 771,
-                      "name": "e"
+                      "end": 771
                     },
                     "operator": "instanceof",
                     "right": {
                       "type": "Identifier",
+                      "name": "TypeError",
                       "start": 783,
-                      "end": 792,
-                      "name": "TypeError"
-                    }
-                  }
+                      "end": 792
+                    },
+                    "start": 770,
+                    "end": 792
+                  },
+                  "start": 769,
+                  "end": 793
                 },
-                "prefix": true
+                "prefix": true,
+                "start": 768,
+                "end": 793
               },
               "consequent": {
                 "type": "BlockStatement",
-                "start": 795,
-                "end": 884,
                 "body": [
                   {
                     "type": "ThrowStatement",
-                    "start": 800,
-                    "end": 880,
                     "argument": {
                       "type": "NewExpression",
-                      "start": 806,
-                      "end": 879,
                       "callee": {
                         "type": "Identifier",
+                        "name": "Test262Error",
                         "start": 810,
-                        "end": 822,
-                        "name": "Test262Error"
+                        "end": 822
                       },
                       "arguments": [
                         {
                           "type": "Literal",
-                          "start": 823,
-                          "end": 878,
                           "value": "#1.1: O is not an object, throw a TypeError exception",
-                          "raw": "'#1.1: O is not an object, throw a TypeError exception'"
+                          "raw": "'#1.1: O is not an object, throw a TypeError exception'",
+                          "start": 823,
+                          "end": 878
                         }
-                      ]
-                    }
+                      ],
+                      "start": 806,
+                      "end": 879
+                    },
+                    "start": 800,
+                    "end": 880
                   }
-                ]
+                ],
+                "start": 795,
+                "end": 884
               },
-              "alternate": null
+              "alternate": null,
+              "start": 764,
+              "end": 884
             }
-          ]
-        }
+          ],
+          "start": 760,
+          "end": 886
+        },
+        "start": 750,
+        "end": 886
       },
-      "finalizer": null
+      "finalizer": null,
+      "start": 634,
+      "end": 886
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 887
 }

@@ -2,122 +2,122 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 55,
   "body": [
     {
       "type": "TSModuleDeclaration",
-      "start": 0,
-      "end": 36,
       "id": {
         "type": "Identifier",
-        "start": 10,
-        "end": 11,
         "decorators": [],
         "name": "x",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 10,
+        "end": 11
       },
       "body": {
         "type": "TSModuleBlock",
-        "start": 12,
-        "end": 36,
         "body": [
           {
             "type": "ExportNamedDeclaration",
-            "start": 16,
-            "end": 34,
             "declaration": {
               "type": "VariableDeclaration",
-              "start": 23,
-              "end": 34,
               "kind": "let",
               "declarations": [
                 {
                   "type": "VariableDeclarator",
-                  "start": 27,
-                  "end": 34,
                   "id": {
                     "type": "Identifier",
-                    "start": 27,
-                    "end": 28,
                     "decorators": [],
                     "name": "y",
                     "optional": false,
-                    "typeAnnotation": null
+                    "typeAnnotation": null,
+                    "start": 27,
+                    "end": 28
                   },
                   "init": {
                     "type": "Literal",
-                    "start": 31,
-                    "end": 34,
                     "value": 123,
-                    "raw": "123"
+                    "raw": "123",
+                    "start": 31,
+                    "end": 34
                   },
-                  "definite": false
+                  "definite": false,
+                  "start": 27,
+                  "end": 34
                 }
               ],
-              "declare": false
+              "declare": false,
+              "start": 23,
+              "end": 34
             },
             "specifiers": [],
             "source": null,
             "exportKind": "value",
-            "attributes": []
+            "attributes": [],
+            "start": 16,
+            "end": 34
           }
-        ]
+        ],
+        "start": 12,
+        "end": 36
       },
       "kind": "namespace",
       "declare": false,
-      "global": false
+      "global": false,
+      "start": 0,
+      "end": 36
     },
     {
       "type": "TSEnumDeclaration",
-      "start": 37,
-      "end": 55,
       "id": {
         "type": "Identifier",
-        "start": 42,
-        "end": 43,
         "decorators": [],
         "name": "x",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 42,
+        "end": 43
       },
       "body": {
         "type": "TSEnumBody",
-        "start": 44,
-        "end": 55,
         "members": [
           {
             "type": "TSEnumMember",
-            "start": 48,
-            "end": 53,
             "id": {
               "type": "Identifier",
-              "start": 48,
-              "end": 49,
               "decorators": [],
               "name": "z",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 48,
+              "end": 49
             },
             "initializer": {
               "type": "Identifier",
-              "start": 52,
-              "end": 53,
               "decorators": [],
               "name": "y",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 52,
+              "end": 53
             },
-            "computed": false
+            "computed": false,
+            "start": 48,
+            "end": 53
           }
-        ]
+        ],
+        "start": 44,
+        "end": 55
       },
       "const": false,
-      "declare": false
+      "declare": false,
+      "start": 37,
+      "end": 55
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 55
 }
 ```

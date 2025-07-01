@@ -2,87 +2,87 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 37,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 0,
-      "end": 14,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 4,
-          "end": 13,
           "id": {
             "type": "Identifier",
-            "start": 4,
-            "end": 13,
             "decorators": [],
             "name": "v",
             "optional": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
-              "start": 5,
-              "end": 13,
               "typeAnnotation": {
                 "type": "TSStringKeyword",
                 "start": 7,
                 "end": 13
-              }
-            }
+              },
+              "start": 5,
+              "end": 13
+            },
+            "start": 4,
+            "end": 13
           },
           "init": null,
-          "definite": false
+          "definite": false,
+          "start": 4,
+          "end": 13
         }
       ],
-      "declare": false
+      "declare": false,
+      "start": 0,
+      "end": 14
     },
     {
       "type": "ForOfStatement",
-      "start": 15,
-      "end": 37,
       "await": false,
       "left": {
         "type": "Identifier",
-        "start": 20,
-        "end": 21,
         "decorators": [],
         "name": "v",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 20,
+        "end": 21
       },
       "right": {
         "type": "ArrayExpression",
-        "start": 25,
-        "end": 32,
         "elements": [
           {
             "type": "Literal",
-            "start": 26,
-            "end": 27,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "start": 26,
+            "end": 27
           },
           {
             "type": "Literal",
-            "start": 29,
-            "end": 31,
             "value": "",
-            "raw": "\"\""
+            "raw": "\"\"",
+            "start": 29,
+            "end": 31
           }
-        ]
+        ],
+        "start": 25,
+        "end": 32
       },
       "body": {
         "type": "BlockStatement",
+        "body": [],
         "start": 34,
-        "end": 37,
-        "body": []
-      }
+        "end": 37
+      },
+      "start": 15,
+      "end": 37
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 37
 }
 ```

@@ -1,212 +1,212 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 589,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 364,
-      "end": 479,
       "expression": {
         "type": "CallExpression",
-        "start": 364,
-        "end": 478,
         "callee": {
           "type": "MemberExpression",
-          "start": 364,
-          "end": 380,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 364,
-            "end": 370,
-            "name": "assert"
+            "end": 370
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 371,
-            "end": 380,
-            "name": "sameValue"
+            "end": 380
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 364,
+          "end": 380
         },
         "arguments": [
           {
             "type": "UnaryExpression",
-            "start": 384,
-            "end": 412,
             "operator": "typeof",
             "argument": {
               "type": "MemberExpression",
-              "start": 391,
-              "end": 412,
               "object": {
                 "type": "MemberExpression",
-                "start": 391,
-                "end": 404,
                 "object": {
                   "type": "Identifier",
+                  "name": "Map",
                   "start": 391,
-                  "end": 394,
-                  "name": "Map"
+                  "end": 394
                 },
                 "property": {
                   "type": "Identifier",
+                  "name": "prototype",
                   "start": 395,
-                  "end": 404,
-                  "name": "prototype"
+                  "end": 404
                 },
                 "optional": false,
-                "computed": false
+                "computed": false,
+                "start": 391,
+                "end": 404
               },
               "property": {
                 "type": "Identifier",
+                "name": "forEach",
                 "start": 405,
-                "end": 412,
-                "name": "forEach"
+                "end": 412
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 391,
+              "end": 412
             },
-            "prefix": true
+            "prefix": true,
+            "start": 384,
+            "end": 412
           },
           {
             "type": "Literal",
-            "start": 416,
-            "end": 426,
             "value": "function",
-            "raw": "'function'"
+            "raw": "'function'",
+            "start": 416,
+            "end": 426
           },
           {
             "type": "Literal",
-            "start": 430,
-            "end": 476,
             "value": "`typeof Map.prototype.forEach` is `function`",
-            "raw": "'`typeof Map.prototype.forEach` is `function`'"
+            "raw": "'`typeof Map.prototype.forEach` is `function`'",
+            "start": 430,
+            "end": 476
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 364,
+        "end": 478
+      },
+      "start": 364,
+      "end": 479
     },
     {
       "type": "ExpressionStatement",
-      "start": 481,
-      "end": 588,
       "expression": {
         "type": "CallExpression",
-        "start": 481,
-        "end": 587,
         "callee": {
           "type": "Identifier",
+          "name": "verifyProperty",
           "start": 481,
-          "end": 495,
-          "name": "verifyProperty"
+          "end": 495
         },
         "arguments": [
           {
             "type": "MemberExpression",
-            "start": 496,
-            "end": 509,
             "object": {
               "type": "Identifier",
+              "name": "Map",
               "start": 496,
-              "end": 499,
-              "name": "Map"
+              "end": 499
             },
             "property": {
               "type": "Identifier",
+              "name": "prototype",
               "start": 500,
-              "end": 509,
-              "name": "prototype"
+              "end": 509
             },
             "optional": false,
-            "computed": false
+            "computed": false,
+            "start": 496,
+            "end": 509
           },
           {
             "type": "Literal",
-            "start": 511,
-            "end": 520,
             "value": "forEach",
-            "raw": "'forEach'"
+            "raw": "'forEach'",
+            "start": 511,
+            "end": 520
           },
           {
             "type": "ObjectExpression",
-            "start": 522,
-            "end": 586,
             "properties": [
               {
                 "type": "Property",
-                "start": 526,
-                "end": 540,
                 "kind": "init",
                 "key": {
                   "type": "Identifier",
+                  "name": "writable",
                   "start": 526,
-                  "end": 534,
-                  "name": "writable"
+                  "end": 534
                 },
                 "value": {
                   "type": "Literal",
+                  "value": true,
+                  "raw": "true",
                   "start": 536,
-                  "end": 540,
-                  "value": true,
-                  "raw": "true"
+                  "end": 540
                 },
                 "method": false,
                 "shorthand": false,
-                "computed": false
+                "computed": false,
+                "start": 526,
+                "end": 540
               },
               {
                 "type": "Property",
-                "start": 544,
-                "end": 561,
                 "kind": "init",
                 "key": {
                   "type": "Identifier",
+                  "name": "enumerable",
                   "start": 544,
-                  "end": 554,
-                  "name": "enumerable"
+                  "end": 554
                 },
                 "value": {
                   "type": "Literal",
-                  "start": 556,
-                  "end": 561,
                   "value": false,
-                  "raw": "false"
+                  "raw": "false",
+                  "start": 556,
+                  "end": 561
                 },
                 "method": false,
                 "shorthand": false,
-                "computed": false
+                "computed": false,
+                "start": 544,
+                "end": 561
               },
               {
                 "type": "Property",
-                "start": 565,
-                "end": 583,
                 "kind": "init",
                 "key": {
                   "type": "Identifier",
+                  "name": "configurable",
                   "start": 565,
-                  "end": 577,
-                  "name": "configurable"
+                  "end": 577
                 },
                 "value": {
                   "type": "Literal",
-                  "start": 579,
-                  "end": 583,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "start": 579,
+                  "end": 583
                 },
                 "method": false,
                 "shorthand": false,
-                "computed": false
+                "computed": false,
+                "start": 565,
+                "end": 583
               }
-            ]
+            ],
+            "start": 522,
+            "end": 586
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 481,
+        "end": 587
+      },
+      "start": 481,
+      "end": 588
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 589
 }

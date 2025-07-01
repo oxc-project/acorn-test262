@@ -2,88 +2,88 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 38,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 0,
-      "end": 38,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 4,
-          "end": 37,
           "id": {
             "type": "Identifier",
-            "start": 4,
-            "end": 5,
             "decorators": [],
             "name": "x",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 4,
+            "end": 5
           },
           "init": {
             "type": "TemplateLiteral",
-            "start": 8,
-            "end": 37,
             "quasis": [
               {
                 "type": "TemplateElement",
-                "start": 8,
-                "end": 14,
                 "value": {
                   "raw": "abc",
                   "cooked": "abc"
                 },
-                "tail": false
+                "tail": false,
+                "start": 8,
+                "end": 14
               },
               {
                 "type": "TemplateElement",
-                "start": 32,
-                "end": 37,
                 "value": {
                   "raw": "def",
                   "cooked": "def"
                 },
-                "tail": true
+                "tail": true,
+                "start": 32,
+                "end": 37
               }
             ],
             "expressions": [
               {
                 "type": "NewExpression",
-                "start": 15,
-                "end": 31,
                 "callee": {
                   "type": "Identifier",
-                  "start": 19,
-                  "end": 25,
                   "decorators": [],
                   "name": "String",
                   "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "start": 19,
+                  "end": 25
                 },
                 "typeArguments": null,
                 "arguments": [
                   {
                     "type": "Literal",
-                    "start": 26,
-                    "end": 30,
                     "value": "Hi",
-                    "raw": "\"Hi\""
+                    "raw": "\"Hi\"",
+                    "start": 26,
+                    "end": 30
                   }
-                ]
+                ],
+                "start": 15,
+                "end": 31
               }
-            ]
+            ],
+            "start": 8,
+            "end": 37
           },
-          "definite": false
+          "definite": false,
+          "start": 4,
+          "end": 37
         }
       ],
-      "declare": false
+      "declare": false,
+      "start": 0,
+      "end": 38
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 38
 }
 ```

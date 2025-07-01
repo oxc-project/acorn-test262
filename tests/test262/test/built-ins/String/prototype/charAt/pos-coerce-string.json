@@ -1,83 +1,83 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 430,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 365,
-      "end": 429,
       "expression": {
         "type": "CallExpression",
-        "start": 365,
-        "end": 428,
         "callee": {
           "type": "MemberExpression",
-          "start": 365,
-          "end": 381,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 365,
-            "end": 371,
-            "name": "assert"
+            "end": 371
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 372,
-            "end": 381,
-            "name": "sameValue"
+            "end": 381
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 365,
+          "end": 381
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 382,
-            "end": 422,
             "callee": {
               "type": "MemberExpression",
-              "start": 382,
-              "end": 395,
               "object": {
                 "type": "Literal",
-                "start": 382,
-                "end": 388,
                 "value": "abcd",
-                "raw": "'abcd'"
+                "raw": "'abcd'",
+                "start": 382,
+                "end": 388
               },
               "property": {
                 "type": "Identifier",
+                "name": "charAt",
                 "start": 389,
-                "end": 395,
-                "name": "charAt"
+                "end": 395
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 382,
+              "end": 395
             },
             "arguments": [
               {
                 "type": "Literal",
-                "start": 396,
-                "end": 421,
                 "value": "   +00200.0000E-0002   ",
-                "raw": "'   +00200.0000E-0002   '"
+                "raw": "'   +00200.0000E-0002   '",
+                "start": 396,
+                "end": 421
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 382,
+            "end": 422
           },
           {
             "type": "Literal",
-            "start": 424,
-            "end": 427,
             "value": "c",
-            "raw": "'c'"
+            "raw": "'c'",
+            "start": 424,
+            "end": 427
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 365,
+        "end": 428
+      },
+      "start": 365,
+      "end": 429
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 430
 }

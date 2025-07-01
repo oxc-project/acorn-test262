@@ -1,100 +1,100 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 605,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 538,
-      "end": 604,
       "expression": {
         "type": "CallExpression",
-        "start": 538,
-        "end": 603,
         "callee": {
           "type": "MemberExpression",
-          "start": 538,
-          "end": 554,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 538,
-            "end": 544,
-            "name": "assert"
+            "end": 544
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 545,
-            "end": 554,
-            "name": "sameValue"
+            "end": 554
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 538,
+          "end": 554
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 555,
-            "end": 591,
             "callee": {
               "type": "MemberExpression",
-              "start": 555,
-              "end": 589,
               "object": {
                 "type": "NewExpression",
-                "start": 555,
-                "end": 576,
                 "callee": {
                   "type": "MemberExpression",
-                  "start": 559,
-                  "end": 570,
                   "object": {
                     "type": "Identifier",
+                    "name": "Intl",
                     "start": 559,
-                    "end": 563,
-                    "name": "Intl"
+                    "end": 563
                   },
                   "property": {
                     "type": "Identifier",
+                    "name": "Locale",
                     "start": 564,
-                    "end": 570,
-                    "name": "Locale"
+                    "end": 570
                   },
                   "optional": false,
-                  "computed": false
+                  "computed": false,
+                  "start": 559,
+                  "end": 570
                 },
                 "arguments": [
                   {
                     "type": "Literal",
-                    "start": 571,
-                    "end": 575,
                     "value": "en",
-                    "raw": "'en'"
+                    "raw": "'en'",
+                    "start": 571,
+                    "end": 575
                   }
-                ]
+                ],
+                "start": 555,
+                "end": 576
               },
               "property": {
                 "type": "Identifier",
+                "name": "getTimeZones",
                 "start": 577,
-                "end": 589,
-                "name": "getTimeZones"
+                "end": 589
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 555,
+              "end": 589
             },
             "arguments": [],
-            "optional": false
+            "optional": false,
+            "start": 555,
+            "end": 591
           },
           {
             "type": "Identifier",
+            "name": "undefined",
             "start": 593,
-            "end": 602,
-            "name": "undefined"
+            "end": 602
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 538,
+        "end": 603
+      },
+      "start": 538,
+      "end": 604
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 605
 }

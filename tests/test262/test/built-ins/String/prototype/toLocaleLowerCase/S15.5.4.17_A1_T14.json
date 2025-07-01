@@ -1,219 +1,219 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 792,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 278,
-      "end": 308,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 282,
-          "end": 307,
           "id": {
             "type": "Identifier",
+            "name": "__reg",
             "start": 282,
-            "end": 287,
-            "name": "__reg"
+            "end": 287
           },
           "init": {
             "type": "NewExpression",
-            "start": 290,
-            "end": 307,
             "callee": {
               "type": "Identifier",
+              "name": "RegExp",
               "start": 294,
-              "end": 300,
-              "name": "RegExp"
+              "end": 300
             },
             "arguments": [
               {
                 "type": "Literal",
-                "start": 301,
-                "end": 306,
                 "value": "ABC",
-                "raw": "\"ABC\""
+                "raw": "\"ABC\"",
+                "start": 301,
+                "end": 306
               }
-            ]
-          }
+            ],
+            "start": 290,
+            "end": 307
+          },
+          "start": 282,
+          "end": 307
         }
-      ]
+      ],
+      "start": 278,
+      "end": 308
     },
     {
       "type": "ExpressionStatement",
-      "start": 309,
-      "end": 370,
       "expression": {
         "type": "AssignmentExpression",
-        "start": 309,
-        "end": 369,
         "operator": "=",
         "left": {
           "type": "MemberExpression",
-          "start": 309,
-          "end": 332,
           "object": {
             "type": "Identifier",
+            "name": "__reg",
             "start": 309,
-            "end": 314,
-            "name": "__reg"
+            "end": 314
           },
           "property": {
             "type": "Identifier",
+            "name": "toLocaleLowerCase",
             "start": 315,
-            "end": 332,
-            "name": "toLocaleLowerCase"
+            "end": 332
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 309,
+          "end": 332
         },
         "right": {
           "type": "MemberExpression",
-          "start": 335,
-          "end": 369,
           "object": {
             "type": "MemberExpression",
-            "start": 335,
-            "end": 351,
             "object": {
               "type": "Identifier",
+              "name": "String",
               "start": 335,
-              "end": 341,
-              "name": "String"
+              "end": 341
             },
             "property": {
               "type": "Identifier",
+              "name": "prototype",
               "start": 342,
-              "end": 351,
-              "name": "prototype"
+              "end": 351
             },
             "optional": false,
-            "computed": false
+            "computed": false,
+            "start": 335,
+            "end": 351
           },
           "property": {
             "type": "Identifier",
+            "name": "toLocaleLowerCase",
             "start": 352,
-            "end": 369,
-            "name": "toLocaleLowerCase"
+            "end": 369
           },
           "optional": false,
-          "computed": false
-        }
-      }
+          "computed": false,
+          "start": 335,
+          "end": 369
+        },
+        "start": 309,
+        "end": 369
+      },
+      "start": 309,
+      "end": 370
     },
     {
       "type": "IfStatement",
-      "start": 461,
-      "end": 709,
       "test": {
         "type": "BinaryExpression",
-        "start": 465,
-        "end": 502,
         "left": {
           "type": "CallExpression",
-          "start": 465,
-          "end": 490,
           "callee": {
             "type": "MemberExpression",
-            "start": 465,
-            "end": 488,
             "object": {
               "type": "Identifier",
+              "name": "__reg",
               "start": 465,
-              "end": 470,
-              "name": "__reg"
+              "end": 470
             },
             "property": {
               "type": "Identifier",
+              "name": "toLocaleLowerCase",
               "start": 471,
-              "end": 488,
-              "name": "toLocaleLowerCase"
+              "end": 488
             },
             "optional": false,
-            "computed": false
+            "computed": false,
+            "start": 465,
+            "end": 488
           },
           "arguments": [],
-          "optional": false
+          "optional": false,
+          "start": 465,
+          "end": 490
         },
         "operator": "!==",
         "right": {
           "type": "Literal",
-          "start": 495,
-          "end": 502,
           "value": "/abc/",
-          "raw": "\"/abc/\""
-        }
+          "raw": "\"/abc/\"",
+          "start": 495,
+          "end": 502
+        },
+        "start": 465,
+        "end": 502
       },
       "consequent": {
         "type": "BlockStatement",
-        "start": 504,
-        "end": 709,
         "body": [
           {
             "type": "ThrowStatement",
-            "start": 508,
-            "end": 707,
             "argument": {
               "type": "NewExpression",
-              "start": 514,
-              "end": 706,
               "callee": {
                 "type": "Identifier",
+                "name": "Test262Error",
                 "start": 518,
-                "end": 530,
-                "name": "Test262Error"
+                "end": 530
               },
               "arguments": [
                 {
                   "type": "BinaryExpression",
-                  "start": 531,
-                  "end": 705,
                   "left": {
                     "type": "Literal",
-                    "start": 531,
-                    "end": 677,
                     "value": "#1: var __reg = new RegExp(\"ABC\"); __reg.toLocaleLowerCase = String.prototype.toLocaleLowerCase; __reg.toLocaleLowerCase() === \"/abc/\". Actual: ",
-                    "raw": "'#1: var __reg = new RegExp(\"ABC\"); __reg.toLocaleLowerCase = String.prototype.toLocaleLowerCase; __reg.toLocaleLowerCase() === \"/abc/\". Actual: '"
+                    "raw": "'#1: var __reg = new RegExp(\"ABC\"); __reg.toLocaleLowerCase = String.prototype.toLocaleLowerCase; __reg.toLocaleLowerCase() === \"/abc/\". Actual: '",
+                    "start": 531,
+                    "end": 677
                   },
                   "operator": "+",
                   "right": {
                     "type": "CallExpression",
-                    "start": 680,
-                    "end": 705,
                     "callee": {
                       "type": "MemberExpression",
-                      "start": 680,
-                      "end": 703,
                       "object": {
                         "type": "Identifier",
+                        "name": "__reg",
                         "start": 680,
-                        "end": 685,
-                        "name": "__reg"
+                        "end": 685
                       },
                       "property": {
                         "type": "Identifier",
+                        "name": "toLocaleLowerCase",
                         "start": 686,
-                        "end": 703,
-                        "name": "toLocaleLowerCase"
+                        "end": 703
                       },
                       "optional": false,
-                      "computed": false
+                      "computed": false,
+                      "start": 680,
+                      "end": 703
                     },
                     "arguments": [],
-                    "optional": false
-                  }
+                    "optional": false,
+                    "start": 680,
+                    "end": 705
+                  },
+                  "start": 531,
+                  "end": 705
                 }
-              ]
-            }
+              ],
+              "start": 514,
+              "end": 706
+            },
+            "start": 508,
+            "end": 707
           }
-        ]
+        ],
+        "start": 504,
+        "end": 709
       },
-      "alternate": null
+      "alternate": null,
+      "start": 461,
+      "end": 709
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 792
 }

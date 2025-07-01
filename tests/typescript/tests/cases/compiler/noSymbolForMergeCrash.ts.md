@@ -2,91 +2,91 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 31,
   "body": [
     {
       "type": "TSInterfaceDeclaration",
-      "start": 0,
-      "end": 15,
       "id": {
         "type": "Identifier",
-        "start": 10,
-        "end": 11,
         "decorators": [],
         "name": "A",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 10,
+        "end": 11
       },
       "typeParameters": null,
       "extends": [],
       "body": {
         "type": "TSInterfaceBody",
+        "body": [],
         "start": 12,
-        "end": 15,
-        "body": []
+        "end": 15
       },
-      "declare": false
+      "declare": false,
+      "start": 0,
+      "end": 15
     },
     {
       "type": "TSModuleDeclaration",
-      "start": 16,
-      "end": 30,
       "id": {
         "type": "Identifier",
-        "start": 26,
-        "end": 27,
         "decorators": [],
         "name": "A",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 26,
+        "end": 27
       },
       "body": {
         "type": "TSModuleBlock",
+        "body": [],
         "start": 28,
-        "end": 30,
-        "body": []
+        "end": 30
       },
       "kind": "namespace",
       "declare": false,
-      "global": false
+      "global": false,
+      "start": 16,
+      "end": 30
     }
   ],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 31
 }
 ```
 __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 11,
   "body": [
     {
       "type": "TSTypeAliasDeclaration",
-      "start": 0,
-      "end": 11,
       "id": {
         "type": "Identifier",
-        "start": 5,
-        "end": 6,
         "decorators": [],
         "name": "A",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 5,
+        "end": 6
       },
       "typeParameters": null,
       "typeAnnotation": {
         "type": "TSTypeLiteral",
+        "members": [],
         "start": 9,
-        "end": 11,
-        "members": []
+        "end": 11
       },
-      "declare": false
+      "declare": false,
+      "start": 0,
+      "end": 11
     }
   ],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 11
 }
 ```

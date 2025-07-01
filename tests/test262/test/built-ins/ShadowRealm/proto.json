@@ -1,93 +1,93 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 610,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 536,
-      "end": 609,
       "expression": {
         "type": "CallExpression",
-        "start": 536,
-        "end": 608,
         "callee": {
           "type": "MemberExpression",
-          "start": 536,
-          "end": 552,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 536,
-            "end": 542,
-            "name": "assert"
+            "end": 542
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 543,
-            "end": 552,
-            "name": "sameValue"
+            "end": 552
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 536,
+          "end": 552
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 553,
-            "end": 587,
             "callee": {
               "type": "MemberExpression",
-              "start": 553,
-              "end": 574,
               "object": {
                 "type": "Identifier",
+                "name": "Object",
                 "start": 553,
-                "end": 559,
-                "name": "Object"
+                "end": 559
               },
               "property": {
                 "type": "Identifier",
+                "name": "getPrototypeOf",
                 "start": 560,
-                "end": 574,
-                "name": "getPrototypeOf"
+                "end": 574
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 553,
+              "end": 574
             },
             "arguments": [
               {
                 "type": "Identifier",
+                "name": "ShadowRealm",
                 "start": 575,
-                "end": 586,
-                "name": "ShadowRealm"
+                "end": 586
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 553,
+            "end": 587
           },
           {
             "type": "MemberExpression",
-            "start": 589,
-            "end": 607,
             "object": {
               "type": "Identifier",
+              "name": "Function",
               "start": 589,
-              "end": 597,
-              "name": "Function"
+              "end": 597
             },
             "property": {
               "type": "Identifier",
+              "name": "prototype",
               "start": 598,
-              "end": 607,
-              "name": "prototype"
+              "end": 607
             },
             "optional": false,
-            "computed": false
+            "computed": false,
+            "start": 589,
+            "end": 607
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 536,
+        "end": 608
+      },
+      "start": 536,
+      "end": 609
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 610
 }

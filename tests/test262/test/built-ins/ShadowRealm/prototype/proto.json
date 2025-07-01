@@ -1,106 +1,106 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 641,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 559,
-      "end": 640,
       "expression": {
         "type": "CallExpression",
-        "start": 559,
-        "end": 639,
         "callee": {
           "type": "MemberExpression",
-          "start": 559,
-          "end": 575,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 559,
-            "end": 565,
-            "name": "assert"
+            "end": 565
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 566,
-            "end": 575,
-            "name": "sameValue"
+            "end": 575
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 559,
+          "end": 575
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 576,
-            "end": 620,
             "callee": {
               "type": "MemberExpression",
-              "start": 576,
-              "end": 597,
               "object": {
                 "type": "Identifier",
+                "name": "Object",
                 "start": 576,
-                "end": 582,
-                "name": "Object"
+                "end": 582
               },
               "property": {
                 "type": "Identifier",
+                "name": "getPrototypeOf",
                 "start": 583,
-                "end": 597,
-                "name": "getPrototypeOf"
+                "end": 597
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 576,
+              "end": 597
             },
             "arguments": [
               {
                 "type": "MemberExpression",
-                "start": 598,
-                "end": 619,
                 "object": {
                   "type": "Identifier",
+                  "name": "ShadowRealm",
                   "start": 598,
-                  "end": 609,
-                  "name": "ShadowRealm"
+                  "end": 609
                 },
                 "property": {
                   "type": "Identifier",
+                  "name": "prototype",
                   "start": 610,
-                  "end": 619,
-                  "name": "prototype"
+                  "end": 619
                 },
                 "optional": false,
-                "computed": false
+                "computed": false,
+                "start": 598,
+                "end": 619
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 576,
+            "end": 620
           },
           {
             "type": "MemberExpression",
-            "start": 622,
-            "end": 638,
             "object": {
               "type": "Identifier",
+              "name": "Object",
               "start": 622,
-              "end": 628,
-              "name": "Object"
+              "end": 628
             },
             "property": {
               "type": "Identifier",
+              "name": "prototype",
               "start": 629,
-              "end": 638,
-              "name": "prototype"
+              "end": 638
             },
             "optional": false,
-            "computed": false
+            "computed": false,
+            "start": 622,
+            "end": 638
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 559,
+        "end": 639
+      },
+      "start": 559,
+      "end": 640
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 641
 }

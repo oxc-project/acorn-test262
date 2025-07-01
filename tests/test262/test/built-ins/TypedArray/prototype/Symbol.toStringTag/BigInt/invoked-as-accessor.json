@@ -1,117 +1,117 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 691,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 572,
-      "end": 619,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 576,
-          "end": 618,
           "id": {
             "type": "Identifier",
+            "name": "TypedArrayPrototype",
             "start": 576,
-            "end": 595,
-            "name": "TypedArrayPrototype"
+            "end": 595
           },
           "init": {
             "type": "MemberExpression",
-            "start": 598,
-            "end": 618,
             "object": {
               "type": "Identifier",
+              "name": "TypedArray",
               "start": 598,
-              "end": 608,
-              "name": "TypedArray"
+              "end": 608
             },
             "property": {
               "type": "Identifier",
+              "name": "prototype",
               "start": 609,
-              "end": 618,
-              "name": "prototype"
+              "end": 618
             },
             "optional": false,
-            "computed": false
-          }
+            "computed": false,
+            "start": 598,
+            "end": 618
+          },
+          "start": 576,
+          "end": 618
         }
-      ]
+      ],
+      "start": 572,
+      "end": 619
     },
     {
       "type": "ExpressionStatement",
-      "start": 621,
-      "end": 690,
       "expression": {
         "type": "CallExpression",
-        "start": 621,
-        "end": 689,
         "callee": {
           "type": "MemberExpression",
-          "start": 621,
-          "end": 637,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 621,
-            "end": 627,
-            "name": "assert"
+            "end": 627
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 628,
-            "end": 637,
-            "name": "sameValue"
+            "end": 637
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 621,
+          "end": 637
         },
         "arguments": [
           {
             "type": "MemberExpression",
-            "start": 638,
-            "end": 677,
             "object": {
               "type": "Identifier",
+              "name": "TypedArrayPrototype",
               "start": 638,
-              "end": 657,
-              "name": "TypedArrayPrototype"
+              "end": 657
             },
             "property": {
               "type": "MemberExpression",
-              "start": 658,
-              "end": 676,
               "object": {
                 "type": "Identifier",
+                "name": "Symbol",
                 "start": 658,
-                "end": 664,
-                "name": "Symbol"
+                "end": 664
               },
               "property": {
                 "type": "Identifier",
+                "name": "toStringTag",
                 "start": 665,
-                "end": 676,
-                "name": "toStringTag"
+                "end": 676
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 658,
+              "end": 676
             },
             "optional": false,
-            "computed": true
+            "computed": true,
+            "start": 638,
+            "end": 677
           },
           {
             "type": "Identifier",
+            "name": "undefined",
             "start": 679,
-            "end": 688,
-            "name": "undefined"
+            "end": 688
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 621,
+        "end": 689
+      },
+      "start": 621,
+      "end": 690
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 691
 }

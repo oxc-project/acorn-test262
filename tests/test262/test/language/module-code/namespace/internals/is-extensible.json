@@ -1,108 +1,108 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 381,
   "body": [
     {
       "type": "ImportDeclaration",
-      "start": 288,
-      "end": 329,
       "specifiers": [
         {
           "type": "ImportNamespaceSpecifier",
-          "start": 295,
-          "end": 302,
           "local": {
             "type": "Identifier",
+            "name": "ns",
             "start": 300,
-            "end": 302,
-            "name": "ns"
-          }
+            "end": 302
+          },
+          "start": 295,
+          "end": 302
         }
       ],
       "source": {
         "type": "Literal",
-        "start": 308,
-        "end": 328,
         "value": "./is-extensible.js",
-        "raw": "'./is-extensible.js'"
+        "raw": "'./is-extensible.js'",
+        "start": 308,
+        "end": 328
       },
       "phase": null,
-      "attributes": []
+      "attributes": [],
+      "start": 288,
+      "end": 329
     },
     {
       "type": "ExpressionStatement",
-      "start": 331,
-      "end": 380,
       "expression": {
         "type": "CallExpression",
-        "start": 331,
-        "end": 379,
         "callee": {
           "type": "MemberExpression",
-          "start": 331,
-          "end": 347,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 331,
-            "end": 337,
-            "name": "assert"
+            "end": 337
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 338,
-            "end": 347,
-            "name": "sameValue"
+            "end": 347
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 331,
+          "end": 347
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 348,
-            "end": 371,
             "callee": {
               "type": "MemberExpression",
-              "start": 348,
-              "end": 367,
               "object": {
                 "type": "Identifier",
+                "name": "Object",
                 "start": 348,
-                "end": 354,
-                "name": "Object"
+                "end": 354
               },
               "property": {
                 "type": "Identifier",
+                "name": "isExtensible",
                 "start": 355,
-                "end": 367,
-                "name": "isExtensible"
+                "end": 367
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 348,
+              "end": 367
             },
             "arguments": [
               {
                 "type": "Identifier",
+                "name": "ns",
                 "start": 368,
-                "end": 370,
-                "name": "ns"
+                "end": 370
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 348,
+            "end": 371
           },
           {
             "type": "Literal",
-            "start": 373,
-            "end": 378,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "start": 373,
+            "end": 378
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 331,
+        "end": 379
+      },
+      "start": 331,
+      "end": 380
     }
   ],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 381
 }

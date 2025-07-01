@@ -1,21 +1,15 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 387,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 293,
-      "end": 386,
       "expression": {
         "type": "CallExpression",
-        "start": 293,
-        "end": 385,
         "callee": {
           "type": "Identifier",
+          "name": "verifyProperty",
           "start": 293,
-          "end": 307,
-          "name": "verifyProperty"
+          "end": 307
         },
         "arguments": [
           {
@@ -25,89 +19,95 @@
           },
           {
             "type": "Literal",
-            "start": 314,
-            "end": 319,
             "value": "Set",
-            "raw": "\"Set\""
+            "raw": "\"Set\"",
+            "start": 314,
+            "end": 319
           },
           {
             "type": "ObjectExpression",
-            "start": 321,
-            "end": 384,
             "properties": [
               {
                 "type": "Property",
-                "start": 325,
-                "end": 339,
                 "kind": "init",
                 "key": {
                   "type": "Identifier",
+                  "name": "writable",
                   "start": 325,
-                  "end": 333,
-                  "name": "writable"
+                  "end": 333
                 },
                 "value": {
                   "type": "Literal",
+                  "value": true,
+                  "raw": "true",
                   "start": 335,
-                  "end": 339,
-                  "value": true,
-                  "raw": "true"
+                  "end": 339
                 },
                 "method": false,
                 "shorthand": false,
-                "computed": false
+                "computed": false,
+                "start": 325,
+                "end": 339
               },
               {
                 "type": "Property",
-                "start": 343,
-                "end": 360,
                 "kind": "init",
                 "key": {
                   "type": "Identifier",
+                  "name": "enumerable",
                   "start": 343,
-                  "end": 353,
-                  "name": "enumerable"
+                  "end": 353
                 },
                 "value": {
                   "type": "Literal",
-                  "start": 355,
-                  "end": 360,
                   "value": false,
-                  "raw": "false"
+                  "raw": "false",
+                  "start": 355,
+                  "end": 360
                 },
                 "method": false,
                 "shorthand": false,
-                "computed": false
+                "computed": false,
+                "start": 343,
+                "end": 360
               },
               {
                 "type": "Property",
-                "start": 364,
-                "end": 382,
                 "kind": "init",
                 "key": {
                   "type": "Identifier",
+                  "name": "configurable",
                   "start": 364,
-                  "end": 376,
-                  "name": "configurable"
+                  "end": 376
                 },
                 "value": {
                   "type": "Literal",
-                  "start": 378,
-                  "end": 382,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "start": 378,
+                  "end": 382
                 },
                 "method": false,
                 "shorthand": false,
-                "computed": false
+                "computed": false,
+                "start": 364,
+                "end": 382
               }
-            ]
+            ],
+            "start": 321,
+            "end": 384
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 293,
+        "end": 385
+      },
+      "start": 293,
+      "end": 386
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 387
 }

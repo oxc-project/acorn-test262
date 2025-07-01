@@ -2,94 +2,94 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 25,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 0,
-      "end": 25,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 4,
-          "end": 24,
           "id": {
             "type": "ArrayPattern",
-            "start": 4,
-            "end": 15,
             "decorators": [],
             "elements": [
               {
                 "type": "RestElement",
-                "start": 5,
-                "end": 14,
                 "decorators": [],
                 "argument": {
                   "type": "ArrayPattern",
-                  "start": 8,
-                  "end": 14,
                   "decorators": [],
                   "elements": [
                     {
                       "type": "Identifier",
-                      "start": 9,
-                      "end": 10,
                       "decorators": [],
                       "name": "a",
                       "optional": false,
-                      "typeAnnotation": null
+                      "typeAnnotation": null,
+                      "start": 9,
+                      "end": 10
                     },
                     {
                       "type": "Identifier",
-                      "start": 12,
-                      "end": 13,
                       "decorators": [],
                       "name": "b",
                       "optional": false,
-                      "typeAnnotation": null
+                      "typeAnnotation": null,
+                      "start": 12,
+                      "end": 13
                     }
                   ],
                   "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "start": 8,
+                  "end": 14
                 },
                 "optional": false,
                 "typeAnnotation": null,
-                "value": null
+                "value": null,
+                "start": 5,
+                "end": 14
               }
             ],
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 4,
+            "end": 15
           },
           "init": {
             "type": "ArrayExpression",
-            "start": 18,
-            "end": 24,
             "elements": [
               {
                 "type": "Literal",
-                "start": 19,
-                "end": 20,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "start": 19,
+                "end": 20
               },
               {
                 "type": "Literal",
-                "start": 22,
-                "end": 23,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "start": 22,
+                "end": 23
               }
-            ]
+            ],
+            "start": 18,
+            "end": 24
           },
-          "definite": false
+          "definite": false,
+          "start": 4,
+          "end": 24
         }
       ],
-      "declare": false
+      "declare": false,
+      "start": 0,
+      "end": 25
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 25
 }
 ```

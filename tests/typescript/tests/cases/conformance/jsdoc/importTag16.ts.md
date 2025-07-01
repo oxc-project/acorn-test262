@@ -2,98 +2,92 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 54,
   "body": [
     {
       "type": "ExportDefaultDeclaration",
-      "start": 0,
-      "end": 31,
       "declaration": {
         "type": "TSInterfaceDeclaration",
-        "start": 15,
-        "end": 31,
         "id": {
           "type": "Identifier",
-          "start": 25,
-          "end": 28,
           "decorators": [],
           "name": "Foo",
           "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "start": 25,
+          "end": 28
         },
         "typeParameters": null,
         "extends": [],
         "body": {
           "type": "TSInterfaceBody",
+          "body": [],
           "start": 29,
-          "end": 31,
-          "body": []
+          "end": 31
         },
-        "declare": false
+        "declare": false,
+        "start": 15,
+        "end": 31
       },
-      "exportKind": "value"
+      "exportKind": "value",
+      "start": 0,
+      "end": 31
     },
     {
       "type": "ExportNamedDeclaration",
-      "start": 32,
-      "end": 53,
       "declaration": {
         "type": "TSInterfaceDeclaration",
-        "start": 39,
-        "end": 53,
         "id": {
           "type": "Identifier",
-          "start": 49,
-          "end": 50,
           "decorators": [],
           "name": "I",
           "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "start": 49,
+          "end": 50
         },
         "typeParameters": null,
         "extends": [],
         "body": {
           "type": "TSInterfaceBody",
+          "body": [],
           "start": 51,
-          "end": 53,
-          "body": []
+          "end": 53
         },
-        "declare": false
+        "declare": false,
+        "start": 39,
+        "end": 53
       },
       "specifiers": [],
       "source": null,
       "exportKind": "type",
-      "attributes": []
+      "attributes": [],
+      "start": 32,
+      "end": 53
     }
   ],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 54
 }
 ```
 __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 80,
-  "end": 108,
   "body": [
     {
       "type": "ExportNamedDeclaration",
-      "start": 80,
-      "end": 108,
       "declaration": {
         "type": "FunctionDeclaration",
-        "start": 87,
-        "end": 108,
         "id": {
           "type": "Identifier",
-          "start": 96,
-          "end": 99,
           "decorators": [],
           "name": "foo",
           "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "start": 96,
+          "end": 99
         },
         "generator": false,
         "async": false,
@@ -102,39 +96,45 @@ __ESTREE_TEST__:PASS:
         "params": [
           {
             "type": "Identifier",
-            "start": 100,
-            "end": 101,
             "decorators": [],
             "name": "a",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 100,
+            "end": 101
           },
           {
             "type": "Identifier",
-            "start": 103,
-            "end": 104,
             "decorators": [],
             "name": "b",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 103,
+            "end": 104
           }
         ],
         "returnType": null,
         "body": {
           "type": "BlockStatement",
+          "body": [],
           "start": 106,
-          "end": 108,
-          "body": []
+          "end": 108
         },
-        "expression": false
+        "expression": false,
+        "start": 87,
+        "end": 108
       },
       "specifiers": [],
       "source": null,
       "exportKind": "value",
-      "attributes": []
+      "attributes": [],
+      "start": 80,
+      "end": 108
     }
   ],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 80,
+  "end": 108
 }
 ```

@@ -2,51 +2,39 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 60,
-  "end": 214,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 60,
-      "end": 214,
       "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 66,
-          "end": 214,
           "id": {
             "type": "Identifier",
-            "start": 66,
-            "end": 69,
             "decorators": [],
             "name": "car",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 66,
+            "end": 69
           },
           "init": {
             "type": "ObjectExpression",
-            "start": 127,
-            "end": 213,
             "properties": [
               {
                 "type": "Property",
-                "start": 133,
-                "end": 144,
                 "kind": "init",
                 "key": {
                   "type": "Identifier",
-                  "start": 133,
-                  "end": 138,
                   "decorators": [],
                   "name": "start",
                   "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "start": 133,
+                  "end": 138
                 },
                 "value": {
                   "type": "FunctionExpression",
-                  "start": 138,
-                  "end": 144,
                   "id": null,
                   "generator": false,
                   "async": false,
@@ -56,35 +44,35 @@ __ESTREE_TEST__:PASS:
                   "returnType": null,
                   "body": {
                     "type": "BlockStatement",
+                    "body": [],
                     "start": 141,
-                    "end": 144,
-                    "body": []
+                    "end": 144
                   },
-                  "expression": false
+                  "expression": false,
+                  "start": 138,
+                  "end": 144
                 },
                 "method": true,
                 "shorthand": false,
                 "computed": false,
-                "optional": false
+                "optional": false,
+                "start": 133,
+                "end": 144
               },
               {
                 "type": "Property",
-                "start": 150,
-                "end": 195,
                 "kind": "init",
                 "key": {
                   "type": "Identifier",
-                  "start": 150,
-                  "end": 154,
                   "decorators": [],
                   "name": "move",
                   "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "start": 150,
+                  "end": 154
                 },
                 "value": {
                   "type": "FunctionExpression",
-                  "start": 154,
-                  "end": 195,
                   "id": null,
                   "generator": false,
                   "async": false,
@@ -93,46 +81,46 @@ __ESTREE_TEST__:PASS:
                   "params": [
                     {
                       "type": "Identifier",
-                      "start": 155,
-                      "end": 156,
                       "decorators": [],
                       "name": "d",
                       "optional": false,
-                      "typeAnnotation": null
+                      "typeAnnotation": null,
+                      "start": 155,
+                      "end": 156
                     }
                   ],
                   "returnType": null,
                   "body": {
                     "type": "BlockStatement",
+                    "body": [],
                     "start": 158,
-                    "end": 195,
-                    "body": []
+                    "end": 195
                   },
-                  "expression": false
+                  "expression": false,
+                  "start": 154,
+                  "end": 195
                 },
                 "method": true,
                 "shorthand": false,
                 "computed": false,
-                "optional": false
+                "optional": false,
+                "start": 150,
+                "end": 195
               },
               {
                 "type": "Property",
-                "start": 201,
-                "end": 211,
                 "kind": "init",
                 "key": {
                   "type": "Identifier",
-                  "start": 201,
-                  "end": 205,
                   "decorators": [],
                   "name": "stop",
                   "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "start": 201,
+                  "end": 205
                 },
                 "value": {
                   "type": "FunctionExpression",
-                  "start": 205,
-                  "end": 211,
                   "id": null,
                   "generator": false,
                   "async": false,
@@ -142,26 +130,38 @@ __ESTREE_TEST__:PASS:
                   "returnType": null,
                   "body": {
                     "type": "BlockStatement",
+                    "body": [],
                     "start": 208,
-                    "end": 211,
-                    "body": []
+                    "end": 211
                   },
-                  "expression": false
+                  "expression": false,
+                  "start": 205,
+                  "end": 211
                 },
                 "method": true,
                 "shorthand": false,
                 "computed": false,
-                "optional": false
+                "optional": false,
+                "start": 201,
+                "end": 211
               }
-            ]
+            ],
+            "start": 127,
+            "end": 213
           },
-          "definite": false
+          "definite": false,
+          "start": 66,
+          "end": 214
         }
       ],
-      "declare": false
+      "declare": false,
+      "start": 60,
+      "end": 214
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 60,
+  "end": 214
 }
 ```

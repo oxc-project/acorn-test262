@@ -2,470 +2,470 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 407,
   "body": [
     {
       "type": "TSInterfaceDeclaration",
-      "start": 0,
-      "end": 136,
       "id": {
         "type": "Identifier",
-        "start": 10,
-        "end": 19,
         "decorators": [],
         "name": "IMenuItem",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 10,
+        "end": 19
       },
       "typeParameters": null,
       "extends": [],
       "body": {
         "type": "TSInterfaceBody",
-        "start": 20,
-        "end": 136,
         "body": [
           {
             "type": "TSPropertySignature",
-            "start": 26,
-            "end": 37,
             "computed": false,
             "optional": false,
             "readonly": false,
             "key": {
               "type": "Identifier",
-              "start": 26,
-              "end": 28,
               "decorators": [],
               "name": "id",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 26,
+              "end": 28
             },
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
-              "start": 28,
-              "end": 36,
               "typeAnnotation": {
                 "type": "TSStringKeyword",
                 "start": 30,
                 "end": 36
-              }
+              },
+              "start": 28,
+              "end": 36
             },
             "accessibility": null,
-            "static": false
+            "static": false,
+            "start": 26,
+            "end": 37
           },
           {
             "type": "TSPropertySignature",
-            "start": 42,
-            "end": 55,
             "computed": false,
             "optional": false,
             "readonly": false,
             "key": {
               "type": "Identifier",
-              "start": 42,
-              "end": 46,
               "decorators": [],
               "name": "type",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 42,
+              "end": 46
             },
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
-              "start": 46,
-              "end": 54,
               "typeAnnotation": {
                 "type": "TSStringKeyword",
                 "start": 48,
                 "end": 54
-              }
+              },
+              "start": 46,
+              "end": 54
             },
             "accessibility": null,
-            "static": false
+            "static": false,
+            "start": 42,
+            "end": 55
           },
           {
             "type": "TSPropertySignature",
-            "start": 60,
-            "end": 74,
             "computed": false,
             "optional": true,
             "readonly": false,
             "key": {
               "type": "Identifier",
-              "start": 60,
-              "end": 64,
               "decorators": [],
               "name": "link",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 60,
+              "end": 64
             },
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
-              "start": 65,
-              "end": 73,
               "typeAnnotation": {
                 "type": "TSStringKeyword",
                 "start": 67,
                 "end": 73
-              }
+              },
+              "start": 65,
+              "end": 73
             },
             "accessibility": null,
-            "static": false
+            "static": false,
+            "start": 60,
+            "end": 74
           },
           {
             "type": "TSPropertySignature",
-            "start": 79,
-            "end": 96,
             "computed": false,
             "optional": true,
             "readonly": false,
             "key": {
               "type": "Identifier",
-              "start": 79,
-              "end": 86,
               "decorators": [],
               "name": "classes",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 79,
+              "end": 86
             },
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
-              "start": 87,
-              "end": 95,
               "typeAnnotation": {
                 "type": "TSStringKeyword",
                 "start": 89,
                 "end": 95
-              }
+              },
+              "start": 87,
+              "end": 95
             },
             "accessibility": null,
-            "static": false
+            "static": false,
+            "start": 79,
+            "end": 96
           },
           {
             "type": "TSPropertySignature",
-            "start": 101,
-            "end": 115,
             "computed": false,
             "optional": true,
             "readonly": false,
             "key": {
               "type": "Identifier",
-              "start": 101,
-              "end": 105,
               "decorators": [],
               "name": "text",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 101,
+              "end": 105
             },
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
-              "start": 106,
-              "end": 114,
               "typeAnnotation": {
                 "type": "TSStringKeyword",
                 "start": 108,
                 "end": 114
-              }
+              },
+              "start": 106,
+              "end": 114
             },
             "accessibility": null,
-            "static": false
+            "static": false,
+            "start": 101,
+            "end": 115
           },
           {
             "type": "TSPropertySignature",
-            "start": 120,
-            "end": 134,
             "computed": false,
             "optional": true,
             "readonly": false,
             "key": {
               "type": "Identifier",
-              "start": 120,
-              "end": 124,
               "decorators": [],
               "name": "icon",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 120,
+              "end": 124
             },
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
-              "start": 125,
-              "end": 133,
               "typeAnnotation": {
                 "type": "TSStringKeyword",
                 "start": 127,
                 "end": 133
-              }
+              },
+              "start": 125,
+              "end": 133
             },
             "accessibility": null,
-            "static": false
+            "static": false,
+            "start": 120,
+            "end": 134
           }
-        ]
+        ],
+        "start": 20,
+        "end": 136
       },
-      "declare": false
+      "declare": false,
+      "start": 0,
+      "end": 136
     },
     {
       "type": "VariableDeclaration",
-      "start": 137,
-      "end": 407,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 141,
-          "end": 406,
           "id": {
             "type": "Identifier",
-            "start": 141,
-            "end": 162,
             "decorators": [],
             "name": "menuData",
             "optional": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
-              "start": 149,
-              "end": 162,
               "typeAnnotation": {
                 "type": "TSArrayType",
-                "start": 151,
-                "end": 162,
                 "elementType": {
                   "type": "TSTypeReference",
-                  "start": 151,
-                  "end": 160,
                   "typeName": {
                     "type": "Identifier",
-                    "start": 151,
-                    "end": 160,
                     "decorators": [],
                     "name": "IMenuItem",
                     "optional": false,
-                    "typeAnnotation": null
+                    "typeAnnotation": null,
+                    "start": 151,
+                    "end": 160
                   },
-                  "typeArguments": null
-                }
-              }
-            }
+                  "typeArguments": null,
+                  "start": 151,
+                  "end": 160
+                },
+                "start": 151,
+                "end": 162
+              },
+              "start": 149,
+              "end": 162
+            },
+            "start": 141,
+            "end": 162
           },
           "init": {
             "type": "ArrayExpression",
-            "start": 165,
-            "end": 406,
             "elements": [
               {
                 "type": "ObjectExpression",
-                "start": 171,
-                "end": 288,
                 "properties": [
                   {
                     "type": "Property",
-                    "start": 181,
-                    "end": 196,
                     "kind": "init",
                     "key": {
                       "type": "Literal",
-                      "start": 181,
-                      "end": 185,
                       "value": "id",
-                      "raw": "\"id\""
+                      "raw": "\"id\"",
+                      "start": 181,
+                      "end": 185
                     },
                     "value": {
                       "type": "Literal",
-                      "start": 187,
-                      "end": 196,
                       "value": "ourLogo",
-                      "raw": "\"ourLogo\""
+                      "raw": "\"ourLogo\"",
+                      "start": 187,
+                      "end": 196
                     },
                     "method": false,
                     "shorthand": false,
                     "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "start": 181,
+                    "end": 196
                   },
                   {
                     "type": "Property",
-                    "start": 206,
-                    "end": 221,
                     "kind": "init",
                     "key": {
                       "type": "Literal",
-                      "start": 206,
-                      "end": 212,
                       "value": "type",
-                      "raw": "\"type\""
+                      "raw": "\"type\"",
+                      "start": 206,
+                      "end": 212
                     },
                     "value": {
                       "type": "Literal",
-                      "start": 214,
-                      "end": 221,
                       "value": "image",
-                      "raw": "\"image\""
+                      "raw": "\"image\"",
+                      "start": 214,
+                      "end": 221
                     },
                     "method": false,
                     "shorthand": false,
                     "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "start": 206,
+                    "end": 221
                   },
                   {
                     "type": "Property",
-                    "start": 231,
-                    "end": 241,
                     "kind": "init",
                     "key": {
                       "type": "Literal",
-                      "start": 231,
-                      "end": 237,
                       "value": "link",
-                      "raw": "\"link\""
+                      "raw": "\"link\"",
+                      "start": 231,
+                      "end": 237
                     },
                     "value": {
                       "type": "Literal",
-                      "start": 239,
-                      "end": 241,
                       "value": "",
-                      "raw": "\"\""
+                      "raw": "\"\"",
+                      "start": 239,
+                      "end": 241
                     },
                     "method": false,
                     "shorthand": false,
                     "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "start": 231,
+                    "end": 241
                   },
                   {
                     "type": "Property",
-                    "start": 251,
-                    "end": 282,
                     "kind": "init",
                     "key": {
                       "type": "Literal",
-                      "start": 251,
-                      "end": 257,
                       "value": "icon",
-                      "raw": "\"icon\""
+                      "raw": "\"icon\"",
+                      "start": 251,
+                      "end": 257
                     },
                     "value": {
                       "type": "Literal",
-                      "start": 259,
-                      "end": 282,
                       "value": "modules/menu/logo.svg",
-                      "raw": "\"modules/menu/logo.svg\""
+                      "raw": "\"modules/menu/logo.svg\"",
+                      "start": 259,
+                      "end": 282
                     },
                     "method": false,
                     "shorthand": false,
                     "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "start": 251,
+                    "end": 282
                   }
-                ]
+                ],
+                "start": 171,
+                "end": 288
               },
               {
                 "type": "ObjectExpression",
-                "start": 290,
-                "end": 404,
                 "properties": [
                   {
                     "type": "Property",
-                    "start": 300,
-                    "end": 319,
                     "kind": "init",
                     "key": {
                       "type": "Literal",
-                      "start": 300,
-                      "end": 304,
                       "value": "id",
-                      "raw": "\"id\""
+                      "raw": "\"id\"",
+                      "start": 300,
+                      "end": 304
                     },
                     "value": {
                       "type": "Literal",
-                      "start": 306,
-                      "end": 319,
                       "value": "productName",
-                      "raw": "\"productName\""
+                      "raw": "\"productName\"",
+                      "start": 306,
+                      "end": 319
                     },
                     "method": false,
                     "shorthand": false,
                     "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "start": 300,
+                    "end": 319
                   },
                   {
                     "type": "Property",
-                    "start": 329,
-                    "end": 346,
                     "kind": "init",
                     "key": {
                       "type": "Literal",
-                      "start": 329,
-                      "end": 335,
                       "value": "type",
-                      "raw": "\"type\""
+                      "raw": "\"type\"",
+                      "start": 329,
+                      "end": 335
                     },
                     "value": {
                       "type": "Literal",
-                      "start": 337,
-                      "end": 346,
                       "value": "default",
-                      "raw": "\"default\""
+                      "raw": "\"default\"",
+                      "start": 337,
+                      "end": 346
                     },
                     "method": false,
                     "shorthand": false,
                     "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "start": 329,
+                    "end": 346
                   },
                   {
                     "type": "Property",
-                    "start": 356,
-                    "end": 366,
                     "kind": "init",
                     "key": {
                       "type": "Literal",
-                      "start": 356,
-                      "end": 362,
                       "value": "link",
-                      "raw": "\"link\""
+                      "raw": "\"link\"",
+                      "start": 356,
+                      "end": 362
                     },
                     "value": {
                       "type": "Literal",
-                      "start": 364,
-                      "end": 366,
                       "value": "",
-                      "raw": "\"\""
+                      "raw": "\"\"",
+                      "start": 364,
+                      "end": 366
                     },
                     "method": false,
                     "shorthand": false,
                     "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "start": 356,
+                    "end": 366
                   },
                   {
                     "type": "Property",
-                    "start": 376,
-                    "end": 398,
                     "kind": "init",
                     "key": {
                       "type": "Literal",
-                      "start": 376,
-                      "end": 382,
                       "value": "text",
-                      "raw": "\"text\""
+                      "raw": "\"text\"",
+                      "start": 376,
+                      "end": 382
                     },
                     "value": {
                       "type": "Literal",
-                      "start": 384,
-                      "end": 398,
                       "value": "Product Name",
-                      "raw": "\"Product Name\""
+                      "raw": "\"Product Name\"",
+                      "start": 384,
+                      "end": 398
                     },
                     "method": false,
                     "shorthand": false,
                     "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "start": 376,
+                    "end": 398
                   }
-                ]
+                ],
+                "start": 290,
+                "end": 404
               }
-            ]
+            ],
+            "start": 165,
+            "end": 406
           },
-          "definite": false
+          "definite": false,
+          "start": 141,
+          "end": 406
         }
       ],
-      "declare": false
+      "declare": false,
+      "start": 137,
+      "end": 407
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 407
 }
 ```

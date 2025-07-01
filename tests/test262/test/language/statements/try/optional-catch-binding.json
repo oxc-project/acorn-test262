@@ -1,33 +1,33 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 409,
   "body": [
     {
       "type": "TryStatement",
-      "start": 393,
-      "end": 408,
       "block": {
         "type": "BlockStatement",
+        "body": [],
         "start": 397,
-        "end": 399,
-        "body": []
+        "end": 399
       },
       "handler": {
         "type": "CatchClause",
-        "start": 400,
-        "end": 408,
         "param": null,
         "body": {
           "type": "BlockStatement",
+          "body": [],
           "start": 406,
-          "end": 408,
-          "body": []
-        }
+          "end": 408
+        },
+        "start": 400,
+        "end": 408
       },
-      "finalizer": null
+      "finalizer": null,
+      "start": 393,
+      "end": 408
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 409
 }

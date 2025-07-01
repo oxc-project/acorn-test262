@@ -2,76 +2,76 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 44,
-  "end": 77,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 44,
-      "end": 65,
       "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 50,
-          "end": 65,
           "id": {
             "type": "Identifier",
-            "start": 50,
-            "end": 51,
             "decorators": [],
             "name": "a",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 50,
+            "end": 51
           },
           "init": {
             "type": "JSXElement",
-            "start": 54,
-            "end": 65,
             "openingElement": {
               "type": "JSXOpeningElement",
-              "start": 54,
-              "end": 59,
               "name": {
                 "type": "JSXIdentifier",
+                "name": "div",
                 "start": 55,
-                "end": 58,
-                "name": "div"
+                "end": 58
               },
               "typeArguments": null,
               "attributes": [],
-              "selfClosing": false
+              "selfClosing": false,
+              "start": 54,
+              "end": 59
             },
             "children": [],
             "closingElement": {
               "type": "JSXClosingElement",
-              "start": 59,
-              "end": 65,
               "name": {
                 "type": "JSXIdentifier",
+                "name": "div",
                 "start": 61,
-                "end": 64,
-                "name": "div"
-              }
-            }
+                "end": 64
+              },
+              "start": 59,
+              "end": 65
+            },
+            "start": 54,
+            "end": 65
           },
-          "definite": false
+          "definite": false,
+          "start": 50,
+          "end": 65
         }
       ],
-      "declare": false
+      "declare": false,
+      "start": 44,
+      "end": 65
     },
     {
       "type": "ExportNamedDeclaration",
-      "start": 67,
-      "end": 77,
       "declaration": null,
       "specifiers": [],
       "source": null,
       "exportKind": "value",
-      "attributes": []
+      "attributes": [],
+      "start": 67,
+      "end": 77
     }
   ],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 44,
+  "end": 77
 }
 ```

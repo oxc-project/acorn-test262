@@ -1,87 +1,87 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 709,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 653,
-      "end": 708,
       "expression": {
         "type": "CallExpression",
-        "start": 653,
-        "end": 707,
         "callee": {
           "type": "MemberExpression",
-          "start": 653,
-          "end": 669,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 653,
-            "end": 659,
-            "name": "assert"
+            "end": 659
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 660,
-            "end": 669,
-            "name": "sameValue"
+            "end": 669
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 653,
+          "end": 669
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 670,
-            "end": 700,
             "callee": {
               "type": "MemberExpression",
-              "start": 670,
-              "end": 684,
               "object": {
                 "type": "Literal",
-                "start": 670,
-                "end": 679,
                 "value": null,
                 "raw": "/\\udf06/u",
                 "regex": {
                   "pattern": "\\udf06",
                   "flags": "u"
-                }
+                },
+                "start": 670,
+                "end": 679
               },
               "property": {
                 "type": "Identifier",
+                "name": "exec",
                 "start": 680,
-                "end": 684,
-                "name": "exec"
+                "end": 684
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 670,
+              "end": 684
             },
             "arguments": [
               {
                 "type": "Literal",
-                "start": 685,
-                "end": 699,
                 "value": "𝌆",
-                "raw": "'\\ud834\\udf06'"
+                "raw": "'\\ud834\\udf06'",
+                "start": 685,
+                "end": 699
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 670,
+            "end": 700
           },
           {
             "type": "Literal",
-            "start": 702,
-            "end": 706,
             "value": null,
-            "raw": "null"
+            "raw": "null",
+            "start": 702,
+            "end": 706
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 653,
+        "end": 707
+      },
+      "start": 653,
+      "end": 708
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 709
 }

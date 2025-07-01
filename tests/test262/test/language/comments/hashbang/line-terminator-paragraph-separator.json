@@ -1,15 +1,15 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 645,
   "body": [
     {
       "type": "BlockStatement",
+      "body": [],
       "start": 57,
-      "end": 60,
-      "body": []
+      "end": 60
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 645
 }

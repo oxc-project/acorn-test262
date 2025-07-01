@@ -1,74 +1,74 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 277,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 227,
-      "end": 276,
       "expression": {
         "type": "CallExpression",
-        "start": 227,
-        "end": 275,
         "callee": {
           "type": "MemberExpression",
-          "start": 227,
-          "end": 243,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 227,
-            "end": 233,
-            "name": "assert"
+            "end": 233
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 234,
-            "end": 243,
-            "name": "sameValue"
+            "end": 243
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 227,
+          "end": 243
         },
         "arguments": [
           {
             "type": "UnaryExpression",
-            "start": 244,
-            "end": 262,
             "operator": "typeof",
             "argument": {
               "type": "MemberExpression",
-              "start": 251,
-              "end": 262,
               "object": {
                 "type": "Identifier",
+                "name": "Promise",
                 "start": 251,
-                "end": 258,
-                "name": "Promise"
+                "end": 258
               },
               "property": {
                 "type": "Identifier",
+                "name": "any",
                 "start": 259,
-                "end": 262,
-                "name": "any"
+                "end": 262
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 251,
+              "end": 262
             },
-            "prefix": true
+            "prefix": true,
+            "start": 244,
+            "end": 262
           },
           {
             "type": "Literal",
-            "start": 264,
-            "end": 274,
             "value": "function",
-            "raw": "'function'"
+            "raw": "'function'",
+            "start": 264,
+            "end": 274
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 227,
+        "end": 275
+      },
+      "start": 227,
+      "end": 276
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 277
 }

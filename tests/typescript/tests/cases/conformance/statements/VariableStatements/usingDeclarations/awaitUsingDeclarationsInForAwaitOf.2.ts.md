@@ -2,21 +2,17 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 57,
-  "end": 121,
   "body": [
     {
       "type": "FunctionDeclaration",
-      "start": 57,
-      "end": 121,
       "id": {
         "type": "Identifier",
-        "start": 72,
-        "end": 76,
         "decorators": [],
         "name": "test",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 72,
+        "end": 76
       },
       "generator": false,
       "async": true,
@@ -26,66 +22,70 @@ __ESTREE_TEST__:PASS:
       "returnType": null,
       "body": {
         "type": "BlockStatement",
-        "start": 79,
-        "end": 121,
         "body": [
           {
             "type": "ForOfStatement",
-            "start": 83,
-            "end": 118,
             "await": true,
             "left": {
               "type": "VariableDeclaration",
-              "start": 94,
-              "end": 108,
               "kind": "await using",
               "declarations": [
                 {
                   "type": "VariableDeclarator",
-                  "start": 106,
-                  "end": 108,
                   "id": {
                     "type": "Identifier",
-                    "start": 106,
-                    "end": 108,
                     "decorators": [],
                     "name": "of",
                     "optional": false,
-                    "typeAnnotation": null
+                    "typeAnnotation": null,
+                    "start": 106,
+                    "end": 108
                   },
                   "init": null,
-                  "definite": false
+                  "definite": false,
+                  "start": 106,
+                  "end": 108
                 }
               ],
-              "declare": false
+              "declare": false,
+              "start": 94,
+              "end": 108
             },
             "right": {
               "type": "Identifier",
-              "start": 112,
-              "end": 114,
               "decorators": [],
               "name": "of",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 112,
+              "end": 114
             },
             "body": {
               "type": "BlockStatement",
+              "body": [],
               "start": 116,
-              "end": 118,
-              "body": []
-            }
+              "end": 118
+            },
+            "start": 83,
+            "end": 118
           },
           {
             "type": "EmptyStatement",
             "start": 118,
             "end": 119
           }
-        ]
+        ],
+        "start": 79,
+        "end": 121
       },
-      "expression": false
+      "expression": false,
+      "start": 57,
+      "end": 121
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 57,
+  "end": 121
 }
 ```

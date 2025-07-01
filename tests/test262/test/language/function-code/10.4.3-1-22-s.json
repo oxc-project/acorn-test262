@@ -1,97 +1,91 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 493,
   "body": [
     {
       "type": "FunctionDeclaration",
-      "start": 317,
-      "end": 368,
       "id": {
         "type": "Identifier",
+        "name": "f",
         "start": 326,
-        "end": 327,
-        "name": "f"
+        "end": 327
       },
       "generator": false,
       "async": false,
       "params": [],
       "body": {
         "type": "BlockStatement",
-        "start": 330,
-        "end": 368,
         "body": [
           {
             "type": "ExpressionStatement",
-            "start": 336,
-            "end": 349,
             "expression": {
               "type": "Literal",
-              "start": 336,
-              "end": 348,
               "value": "use strict",
-              "raw": "\"use strict\""
+              "raw": "\"use strict\"",
+              "start": 336,
+              "end": 348
             },
-            "directive": "use strict"
+            "directive": "use strict",
+            "start": 336,
+            "end": 349
           },
           {
             "type": "ReturnStatement",
-            "start": 354,
-            "end": 366,
             "argument": {
               "type": "ThisExpression",
               "start": 361,
               "end": 365
-            }
+            },
+            "start": 354,
+            "end": 366
           }
-        ]
+        ],
+        "start": 330,
+        "end": 368
       },
-      "expression": false
+      "expression": false,
+      "start": 317,
+      "end": 368
     },
     {
       "type": "ExpressionStatement",
-      "start": 370,
-      "end": 420,
       "expression": {
         "type": "CallExpression",
-        "start": 370,
-        "end": 419,
         "callee": {
           "type": "MemberExpression",
-          "start": 370,
-          "end": 389,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 370,
-            "end": 376,
-            "name": "assert"
+            "end": 376
           },
           "property": {
             "type": "Identifier",
+            "name": "notSameValue",
             "start": 377,
-            "end": 389,
-            "name": "notSameValue"
+            "end": 389
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 370,
+          "end": 389
         },
         "arguments": [
           {
             "type": "ParenthesizedExpression",
-            "start": 390,
-            "end": 399,
             "expression": {
               "type": "NewExpression",
-              "start": 391,
-              "end": 398,
               "callee": {
                 "type": "Identifier",
+                "name": "f",
                 "start": 395,
-                "end": 396,
-                "name": "f"
+                "end": 396
               },
-              "arguments": []
-            }
+              "arguments": [],
+              "start": 391,
+              "end": 398
+            },
+            "start": 390,
+            "end": 399
           },
           {
             "type": "ThisExpression",
@@ -100,86 +94,92 @@
           },
           {
             "type": "Literal",
-            "start": 407,
-            "end": 418,
             "value": "(new f())",
-            "raw": "'(new f())'"
+            "raw": "'(new f())'",
+            "start": 407,
+            "end": 418
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 370,
+        "end": 419
+      },
+      "start": 370,
+      "end": 420
     },
     {
       "type": "ExpressionStatement",
-      "start": 421,
-      "end": 492,
       "expression": {
         "type": "CallExpression",
-        "start": 421,
-        "end": 491,
         "callee": {
           "type": "MemberExpression",
-          "start": 421,
-          "end": 440,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 421,
-            "end": 427,
-            "name": "assert"
+            "end": 427
           },
           "property": {
             "type": "Identifier",
+            "name": "notSameValue",
             "start": 428,
-            "end": 440,
-            "name": "notSameValue"
+            "end": 440
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 421,
+          "end": 440
         },
         "arguments": [
           {
             "type": "UnaryExpression",
-            "start": 441,
-            "end": 457,
             "operator": "typeof",
             "argument": {
               "type": "ParenthesizedExpression",
-              "start": 448,
-              "end": 457,
               "expression": {
                 "type": "NewExpression",
-                "start": 449,
-                "end": 456,
                 "callee": {
                   "type": "Identifier",
+                  "name": "f",
                   "start": 453,
-                  "end": 454,
-                  "name": "f"
+                  "end": 454
                 },
-                "arguments": []
-              }
+                "arguments": [],
+                "start": 449,
+                "end": 456
+              },
+              "start": 448,
+              "end": 457
             },
-            "prefix": true
+            "prefix": true,
+            "start": 441,
+            "end": 457
           },
           {
             "type": "Literal",
-            "start": 459,
-            "end": 470,
             "value": "undefined",
-            "raw": "\"undefined\""
+            "raw": "\"undefined\"",
+            "start": 459,
+            "end": 470
           },
           {
             "type": "Literal",
-            "start": 472,
-            "end": 490,
             "value": "typeof (new f())",
-            "raw": "'typeof (new f())'"
+            "raw": "'typeof (new f())'",
+            "start": 472,
+            "end": 490
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 421,
+        "end": 491
+      },
+      "start": 421,
+      "end": 492
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 493
 }

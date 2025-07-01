@@ -1,906 +1,906 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 1154,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 333,
-      "end": 359,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 337,
-          "end": 358,
           "id": {
             "type": "Identifier",
+            "name": "july6",
             "start": 337,
-            "end": 342,
-            "name": "july6"
+            "end": 342
           },
           "init": {
             "type": "Literal",
-            "start": 345,
-            "end": 358,
             "value": 1467763200000,
-            "raw": "1467763200000"
-          }
+            "raw": "1467763200000",
+            "start": 345,
+            "end": 358
+          },
+          "start": 337,
+          "end": 358
         }
-      ]
+      ],
+      "start": 333,
+      "end": 359
     },
     {
       "type": "VariableDeclaration",
-      "start": 360,
-      "end": 386,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 364,
-          "end": 385,
           "id": {
             "type": "Identifier",
+            "name": "july9",
             "start": 364,
-            "end": 369,
-            "name": "july9"
+            "end": 369
           },
           "init": {
             "type": "Literal",
-            "start": 372,
-            "end": 385,
             "value": 1468022400000,
-            "raw": "1468022400000"
-          }
+            "raw": "1468022400000",
+            "start": 372,
+            "end": 385
+          },
+          "start": 364,
+          "end": 385
         }
-      ]
+      ],
+      "start": 360,
+      "end": 386
     },
     {
       "type": "VariableDeclaration",
-      "start": 387,
-      "end": 419,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 391,
-          "end": 418,
           "id": {
             "type": "Identifier",
+            "name": "dayMs",
             "start": 391,
-            "end": 396,
-            "name": "dayMs"
+            "end": 396
           },
           "init": {
             "type": "BinaryExpression",
-            "start": 399,
-            "end": 418,
             "left": {
               "type": "BinaryExpression",
-              "start": 399,
-              "end": 411,
               "left": {
                 "type": "BinaryExpression",
-                "start": 399,
-                "end": 406,
                 "left": {
                   "type": "Literal",
-                  "start": 399,
-                  "end": 401,
                   "value": 24,
-                  "raw": "24"
+                  "raw": "24",
+                  "start": 399,
+                  "end": 401
                 },
                 "operator": "*",
                 "right": {
                   "type": "Literal",
-                  "start": 404,
-                  "end": 406,
                   "value": 60,
-                  "raw": "60"
-                }
+                  "raw": "60",
+                  "start": 404,
+                  "end": 406
+                },
+                "start": 399,
+                "end": 406
               },
               "operator": "*",
               "right": {
                 "type": "Literal",
-                "start": 409,
-                "end": 411,
                 "value": 60,
-                "raw": "60"
-              }
+                "raw": "60",
+                "start": 409,
+                "end": 411
+              },
+              "start": 399,
+              "end": 411
             },
             "operator": "*",
             "right": {
               "type": "Literal",
-              "start": 414,
-              "end": 418,
               "value": 1000,
-              "raw": "1000"
-            }
-          }
+              "raw": "1000",
+              "start": 414,
+              "end": 418
+            },
+            "start": 399,
+            "end": 418
+          },
+          "start": 391,
+          "end": 418
         }
-      ]
+      ],
+      "start": 387,
+      "end": 419
     },
     {
       "type": "ExpressionStatement",
-      "start": 421,
-      "end": 491,
       "expression": {
         "type": "CallExpression",
-        "start": 421,
-        "end": 490,
         "callee": {
           "type": "MemberExpression",
-          "start": 421,
-          "end": 437,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 421,
-            "end": 427,
-            "name": "assert"
+            "end": 427
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 428,
-            "end": 437,
-            "name": "sameValue"
+            "end": 437
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 421,
+          "end": 437
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 438,
-            "end": 465,
             "callee": {
               "type": "MemberExpression",
-              "start": 438,
-              "end": 463,
               "object": {
                 "type": "NewExpression",
-                "start": 438,
-                "end": 453,
                 "callee": {
                   "type": "Identifier",
+                  "name": "Date",
                   "start": 442,
-                  "end": 446,
-                  "name": "Date"
+                  "end": 446
                 },
                 "arguments": [
                   {
                     "type": "Identifier",
+                    "name": "july6",
                     "start": 447,
-                    "end": 452,
-                    "name": "july6"
+                    "end": 452
                   }
-                ]
+                ],
+                "start": 438,
+                "end": 453
               },
               "property": {
                 "type": "Identifier",
+                "name": "getUTCDay",
                 "start": 454,
-                "end": 463,
-                "name": "getUTCDay"
+                "end": 463
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 438,
+              "end": 463
             },
             "arguments": [],
-            "optional": false
+            "optional": false,
+            "start": 438,
+            "end": 465
           },
           {
             "type": "Literal",
-            "start": 467,
-            "end": 468,
             "value": 3,
-            "raw": "3"
+            "raw": "3",
+            "start": 467,
+            "end": 468
           },
           {
             "type": "Literal",
-            "start": 470,
-            "end": 489,
             "value": "first millisecond",
-            "raw": "'first millisecond'"
+            "raw": "'first millisecond'",
+            "start": 470,
+            "end": 489
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 421,
+        "end": 490
+      },
+      "start": 421,
+      "end": 491
     },
     {
       "type": "ExpressionStatement",
-      "start": 492,
-      "end": 573,
       "expression": {
         "type": "CallExpression",
-        "start": 492,
-        "end": 572,
         "callee": {
           "type": "MemberExpression",
-          "start": 492,
-          "end": 508,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 492,
-            "end": 498,
-            "name": "assert"
+            "end": 498
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 499,
-            "end": 508,
-            "name": "sameValue"
+            "end": 508
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 492,
+          "end": 508
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 512,
-            "end": 543,
             "callee": {
               "type": "MemberExpression",
-              "start": 512,
-              "end": 541,
               "object": {
                 "type": "NewExpression",
-                "start": 512,
-                "end": 531,
                 "callee": {
                   "type": "Identifier",
+                  "name": "Date",
                   "start": 516,
-                  "end": 520,
-                  "name": "Date"
+                  "end": 520
                 },
                 "arguments": [
                   {
                     "type": "BinaryExpression",
-                    "start": 521,
-                    "end": 530,
                     "left": {
                       "type": "Identifier",
+                      "name": "july6",
                       "start": 521,
-                      "end": 526,
-                      "name": "july6"
+                      "end": 526
                     },
                     "operator": "-",
                     "right": {
                       "type": "Literal",
-                      "start": 529,
-                      "end": 530,
                       "value": 1,
-                      "raw": "1"
-                    }
+                      "raw": "1",
+                      "start": 529,
+                      "end": 530
+                    },
+                    "start": 521,
+                    "end": 530
                   }
-                ]
+                ],
+                "start": 512,
+                "end": 531
               },
               "property": {
                 "type": "Identifier",
+                "name": "getUTCDay",
                 "start": 532,
-                "end": 541,
-                "name": "getUTCDay"
+                "end": 541
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 512,
+              "end": 541
             },
             "arguments": [],
-            "optional": false
+            "optional": false,
+            "start": 512,
+            "end": 543
           },
           {
             "type": "Literal",
-            "start": 545,
-            "end": 546,
             "value": 2,
-            "raw": "2"
+            "raw": "2",
+            "start": 545,
+            "end": 546
           },
           {
             "type": "Literal",
-            "start": 548,
-            "end": 570,
             "value": "previous millisecond",
-            "raw": "'previous millisecond'"
+            "raw": "'previous millisecond'",
+            "start": 548,
+            "end": 570
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 492,
+        "end": 572
+      },
+      "start": 492,
+      "end": 573
     },
     {
       "type": "ExpressionStatement",
-      "start": 574,
-      "end": 660,
       "expression": {
         "type": "CallExpression",
-        "start": 574,
-        "end": 659,
         "callee": {
           "type": "MemberExpression",
-          "start": 574,
-          "end": 590,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 574,
-            "end": 580,
-            "name": "assert"
+            "end": 580
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 581,
-            "end": 590,
-            "name": "sameValue"
+            "end": 590
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 574,
+          "end": 590
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 594,
-            "end": 633,
             "callee": {
               "type": "MemberExpression",
-              "start": 594,
-              "end": 631,
               "object": {
                 "type": "NewExpression",
-                "start": 594,
-                "end": 621,
                 "callee": {
                   "type": "Identifier",
+                  "name": "Date",
                   "start": 598,
-                  "end": 602,
-                  "name": "Date"
+                  "end": 602
                 },
                 "arguments": [
                   {
                     "type": "BinaryExpression",
-                    "start": 603,
-                    "end": 620,
                     "left": {
                       "type": "BinaryExpression",
-                      "start": 603,
-                      "end": 616,
                       "left": {
                         "type": "Identifier",
+                        "name": "july6",
                         "start": 603,
-                        "end": 608,
-                        "name": "july6"
+                        "end": 608
                       },
                       "operator": "+",
                       "right": {
                         "type": "Identifier",
+                        "name": "dayMs",
                         "start": 611,
-                        "end": 616,
-                        "name": "dayMs"
-                      }
+                        "end": 616
+                      },
+                      "start": 603,
+                      "end": 616
                     },
                     "operator": "-",
                     "right": {
                       "type": "Literal",
-                      "start": 619,
-                      "end": 620,
                       "value": 1,
-                      "raw": "1"
-                    }
+                      "raw": "1",
+                      "start": 619,
+                      "end": 620
+                    },
+                    "start": 603,
+                    "end": 620
                   }
-                ]
+                ],
+                "start": 594,
+                "end": 621
               },
               "property": {
                 "type": "Identifier",
+                "name": "getUTCDay",
                 "start": 622,
-                "end": 631,
-                "name": "getUTCDay"
+                "end": 631
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 594,
+              "end": 631
             },
             "arguments": [],
-            "optional": false
+            "optional": false,
+            "start": 594,
+            "end": 633
           },
           {
             "type": "Literal",
-            "start": 635,
-            "end": 636,
             "value": 3,
-            "raw": "3"
+            "raw": "3",
+            "start": 635,
+            "end": 636
           },
           {
             "type": "Literal",
-            "start": 638,
-            "end": 657,
             "value": "final millisecond",
-            "raw": "'final millisecond'"
+            "raw": "'final millisecond'",
+            "start": 638,
+            "end": 657
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 574,
+        "end": 659
+      },
+      "start": 574,
+      "end": 660
     },
     {
       "type": "ExpressionStatement",
-      "start": 661,
-      "end": 748,
       "expression": {
         "type": "CallExpression",
-        "start": 661,
-        "end": 747,
         "callee": {
           "type": "MemberExpression",
-          "start": 661,
-          "end": 677,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 661,
-            "end": 667,
-            "name": "assert"
+            "end": 667
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 668,
-            "end": 677,
-            "name": "sameValue"
+            "end": 677
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 661,
+          "end": 677
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 681,
-            "end": 716,
             "callee": {
               "type": "MemberExpression",
-              "start": 681,
-              "end": 714,
               "object": {
                 "type": "NewExpression",
-                "start": 681,
-                "end": 704,
                 "callee": {
                   "type": "Identifier",
+                  "name": "Date",
                   "start": 685,
-                  "end": 689,
-                  "name": "Date"
+                  "end": 689
                 },
                 "arguments": [
                   {
                     "type": "BinaryExpression",
-                    "start": 690,
-                    "end": 703,
                     "left": {
                       "type": "Identifier",
+                      "name": "july6",
                       "start": 690,
-                      "end": 695,
-                      "name": "july6"
+                      "end": 695
                     },
                     "operator": "+",
                     "right": {
                       "type": "Identifier",
+                      "name": "dayMs",
                       "start": 698,
-                      "end": 703,
-                      "name": "dayMs"
-                    }
+                      "end": 703
+                    },
+                    "start": 690,
+                    "end": 703
                   }
-                ]
+                ],
+                "start": 681,
+                "end": 704
               },
               "property": {
                 "type": "Identifier",
+                "name": "getUTCDay",
                 "start": 705,
-                "end": 714,
-                "name": "getUTCDay"
+                "end": 714
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 681,
+              "end": 714
             },
             "arguments": [],
-            "optional": false
+            "optional": false,
+            "start": 681,
+            "end": 716
           },
           {
             "type": "Literal",
-            "start": 718,
-            "end": 719,
             "value": 4,
-            "raw": "4"
+            "raw": "4",
+            "start": 718,
+            "end": 719
           },
           {
             "type": "Literal",
-            "start": 721,
-            "end": 745,
             "value": "subsequent millisecond",
-            "raw": "'subsequent millisecond'"
+            "raw": "'subsequent millisecond'",
+            "start": 721,
+            "end": 745
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 661,
+        "end": 747
+      },
+      "start": 661,
+      "end": 748
     },
     {
       "type": "ExpressionStatement",
-      "start": 750,
-      "end": 840,
       "expression": {
         "type": "CallExpression",
-        "start": 750,
-        "end": 839,
         "callee": {
           "type": "MemberExpression",
-          "start": 750,
-          "end": 766,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 750,
-            "end": 756,
-            "name": "assert"
+            "end": 756
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 757,
-            "end": 766,
-            "name": "sameValue"
+            "end": 766
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 750,
+          "end": 766
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 770,
-            "end": 797,
             "callee": {
               "type": "MemberExpression",
-              "start": 770,
-              "end": 795,
               "object": {
                 "type": "NewExpression",
-                "start": 770,
-                "end": 785,
                 "callee": {
                   "type": "Identifier",
+                  "name": "Date",
                   "start": 774,
-                  "end": 778,
-                  "name": "Date"
+                  "end": 778
                 },
                 "arguments": [
                   {
                     "type": "Identifier",
+                    "name": "july9",
                     "start": 779,
-                    "end": 784,
-                    "name": "july9"
+                    "end": 784
                   }
-                ]
+                ],
+                "start": 770,
+                "end": 785
               },
               "property": {
                 "type": "Identifier",
+                "name": "getUTCDay",
                 "start": 786,
-                "end": 795,
-                "name": "getUTCDay"
+                "end": 795
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 770,
+              "end": 795
             },
             "arguments": [],
-            "optional": false
+            "optional": false,
+            "start": 770,
+            "end": 797
           },
           {
             "type": "Literal",
-            "start": 799,
-            "end": 800,
             "value": 6,
-            "raw": "6"
+            "raw": "6",
+            "start": 799,
+            "end": 800
           },
           {
             "type": "Literal",
-            "start": 802,
-            "end": 837,
             "value": "first millisecond (week boundary)",
-            "raw": "'first millisecond (week boundary)'"
+            "raw": "'first millisecond (week boundary)'",
+            "start": 802,
+            "end": 837
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 750,
+        "end": 839
+      },
+      "start": 750,
+      "end": 840
     },
     {
       "type": "ExpressionStatement",
-      "start": 841,
-      "end": 938,
       "expression": {
         "type": "CallExpression",
-        "start": 841,
-        "end": 937,
         "callee": {
           "type": "MemberExpression",
-          "start": 841,
-          "end": 857,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 841,
-            "end": 847,
-            "name": "assert"
+            "end": 847
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 848,
-            "end": 857,
-            "name": "sameValue"
+            "end": 857
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 841,
+          "end": 857
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 861,
-            "end": 892,
             "callee": {
               "type": "MemberExpression",
-              "start": 861,
-              "end": 890,
               "object": {
                 "type": "NewExpression",
-                "start": 861,
-                "end": 880,
                 "callee": {
                   "type": "Identifier",
+                  "name": "Date",
                   "start": 865,
-                  "end": 869,
-                  "name": "Date"
+                  "end": 869
                 },
                 "arguments": [
                   {
                     "type": "BinaryExpression",
-                    "start": 870,
-                    "end": 879,
                     "left": {
                       "type": "Identifier",
+                      "name": "july9",
                       "start": 870,
-                      "end": 875,
-                      "name": "july9"
+                      "end": 875
                     },
                     "operator": "-",
                     "right": {
                       "type": "Literal",
-                      "start": 878,
-                      "end": 879,
                       "value": 1,
-                      "raw": "1"
-                    }
+                      "raw": "1",
+                      "start": 878,
+                      "end": 879
+                    },
+                    "start": 870,
+                    "end": 879
                   }
-                ]
+                ],
+                "start": 861,
+                "end": 880
               },
               "property": {
                 "type": "Identifier",
+                "name": "getUTCDay",
                 "start": 881,
-                "end": 890,
-                "name": "getUTCDay"
+                "end": 890
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 861,
+              "end": 890
             },
             "arguments": [],
-            "optional": false
+            "optional": false,
+            "start": 861,
+            "end": 892
           },
           {
             "type": "Literal",
-            "start": 894,
-            "end": 895,
             "value": 5,
-            "raw": "5"
+            "raw": "5",
+            "start": 894,
+            "end": 895
           },
           {
             "type": "Literal",
-            "start": 897,
-            "end": 935,
             "value": "previous millisecond (week boundary)",
-            "raw": "'previous millisecond (week boundary)'"
+            "raw": "'previous millisecond (week boundary)'",
+            "start": 897,
+            "end": 935
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 841,
+        "end": 937
+      },
+      "start": 841,
+      "end": 938
     },
     {
       "type": "ExpressionStatement",
-      "start": 939,
-      "end": 1045,
       "expression": {
         "type": "CallExpression",
-        "start": 939,
-        "end": 1044,
         "callee": {
           "type": "MemberExpression",
-          "start": 939,
-          "end": 955,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 939,
-            "end": 945,
-            "name": "assert"
+            "end": 945
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 946,
-            "end": 955,
-            "name": "sameValue"
+            "end": 955
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 939,
+          "end": 955
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 959,
-            "end": 998,
             "callee": {
               "type": "MemberExpression",
-              "start": 959,
-              "end": 996,
               "object": {
                 "type": "NewExpression",
-                "start": 959,
-                "end": 986,
                 "callee": {
                   "type": "Identifier",
+                  "name": "Date",
                   "start": 963,
-                  "end": 967,
-                  "name": "Date"
+                  "end": 967
                 },
                 "arguments": [
                   {
                     "type": "BinaryExpression",
-                    "start": 968,
-                    "end": 985,
                     "left": {
                       "type": "BinaryExpression",
-                      "start": 968,
-                      "end": 981,
                       "left": {
                         "type": "Identifier",
+                        "name": "july9",
                         "start": 968,
-                        "end": 973,
-                        "name": "july9"
+                        "end": 973
                       },
                       "operator": "+",
                       "right": {
                         "type": "Identifier",
+                        "name": "dayMs",
                         "start": 976,
-                        "end": 981,
-                        "name": "dayMs"
-                      }
+                        "end": 981
+                      },
+                      "start": 968,
+                      "end": 981
                     },
                     "operator": "-",
                     "right": {
                       "type": "Literal",
-                      "start": 984,
-                      "end": 985,
                       "value": 1,
-                      "raw": "1"
-                    }
+                      "raw": "1",
+                      "start": 984,
+                      "end": 985
+                    },
+                    "start": 968,
+                    "end": 985
                   }
-                ]
+                ],
+                "start": 959,
+                "end": 986
               },
               "property": {
                 "type": "Identifier",
+                "name": "getUTCDay",
                 "start": 987,
-                "end": 996,
-                "name": "getUTCDay"
+                "end": 996
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 959,
+              "end": 996
             },
             "arguments": [],
-            "optional": false
+            "optional": false,
+            "start": 959,
+            "end": 998
           },
           {
             "type": "Literal",
-            "start": 1002,
-            "end": 1003,
             "value": 6,
-            "raw": "6"
+            "raw": "6",
+            "start": 1002,
+            "end": 1003
           },
           {
             "type": "Literal",
-            "start": 1007,
-            "end": 1042,
             "value": "final millisecond (week boundary)",
-            "raw": "'final millisecond (week boundary)'"
+            "raw": "'final millisecond (week boundary)'",
+            "start": 1007,
+            "end": 1042
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 939,
+        "end": 1044
+      },
+      "start": 939,
+      "end": 1045
     },
     {
       "type": "ExpressionStatement",
-      "start": 1046,
-      "end": 1153,
       "expression": {
         "type": "CallExpression",
-        "start": 1046,
-        "end": 1152,
         "callee": {
           "type": "MemberExpression",
-          "start": 1046,
-          "end": 1062,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 1046,
-            "end": 1052,
-            "name": "assert"
+            "end": 1052
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 1053,
-            "end": 1062,
-            "name": "sameValue"
+            "end": 1062
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 1046,
+          "end": 1062
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 1066,
-            "end": 1101,
             "callee": {
               "type": "MemberExpression",
-              "start": 1066,
-              "end": 1099,
               "object": {
                 "type": "NewExpression",
-                "start": 1066,
-                "end": 1089,
                 "callee": {
                   "type": "Identifier",
+                  "name": "Date",
                   "start": 1070,
-                  "end": 1074,
-                  "name": "Date"
+                  "end": 1074
                 },
                 "arguments": [
                   {
                     "type": "BinaryExpression",
-                    "start": 1075,
-                    "end": 1088,
                     "left": {
                       "type": "Identifier",
+                      "name": "july9",
                       "start": 1075,
-                      "end": 1080,
-                      "name": "july9"
+                      "end": 1080
                     },
                     "operator": "+",
                     "right": {
                       "type": "Identifier",
+                      "name": "dayMs",
                       "start": 1083,
-                      "end": 1088,
-                      "name": "dayMs"
-                    }
+                      "end": 1088
+                    },
+                    "start": 1075,
+                    "end": 1088
                   }
-                ]
+                ],
+                "start": 1066,
+                "end": 1089
               },
               "property": {
                 "type": "Identifier",
+                "name": "getUTCDay",
                 "start": 1090,
-                "end": 1099,
-                "name": "getUTCDay"
+                "end": 1099
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 1066,
+              "end": 1099
             },
             "arguments": [],
-            "optional": false
+            "optional": false,
+            "start": 1066,
+            "end": 1101
           },
           {
             "type": "Literal",
-            "start": 1105,
-            "end": 1106,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "start": 1105,
+            "end": 1106
           },
           {
             "type": "Literal",
-            "start": 1110,
-            "end": 1150,
             "value": "subsequent millisecond (week boundary)",
-            "raw": "'subsequent millisecond (week boundary)'"
+            "raw": "'subsequent millisecond (week boundary)'",
+            "start": 1110,
+            "end": 1150
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 1046,
+        "end": 1152
+      },
+      "start": 1046,
+      "end": 1153
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 1154
 }

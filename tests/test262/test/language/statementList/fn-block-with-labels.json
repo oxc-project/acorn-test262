@@ -1,58 +1,56 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 963,
   "body": [
     {
       "type": "FunctionDeclaration",
-      "start": 938,
-      "end": 954,
       "id": {
         "type": "Identifier",
+        "name": "fn",
         "start": 947,
-        "end": 949,
-        "name": "fn"
+        "end": 949
       },
       "generator": false,
       "async": false,
       "params": [],
       "body": {
         "type": "BlockStatement",
+        "body": [],
         "start": 952,
-        "end": 954,
-        "body": []
+        "end": 954
       },
-      "expression": false
+      "expression": false,
+      "start": 938,
+      "end": 954
     },
     {
       "type": "BlockStatement",
-      "start": 954,
-      "end": 961,
       "body": [
         {
           "type": "LabeledStatement",
-          "start": 955,
-          "end": 960,
           "label": {
             "type": "Identifier",
+            "name": "x",
             "start": 955,
-            "end": 956,
-            "name": "x"
+            "end": 956
           },
           "body": {
             "type": "ExpressionStatement",
-            "start": 958,
-            "end": 960,
             "expression": {
               "type": "Literal",
-              "start": 958,
-              "end": 960,
               "value": 42,
-              "raw": "42"
-            }
-          }
+              "raw": "42",
+              "start": 958,
+              "end": 960
+            },
+            "start": 958,
+            "end": 960
+          },
+          "start": 955,
+          "end": 960
         }
-      ]
+      ],
+      "start": 954,
+      "end": 961
     },
     {
       "type": "EmptyStatement",
@@ -61,5 +59,7 @@
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 963
 }

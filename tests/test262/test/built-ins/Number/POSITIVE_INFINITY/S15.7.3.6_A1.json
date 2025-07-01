@@ -1,88 +1,88 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 395,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 278,
-      "end": 394,
       "expression": {
         "type": "CallExpression",
-        "start": 278,
-        "end": 393,
         "callee": {
           "type": "MemberExpression",
-          "start": 278,
-          "end": 294,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 278,
-            "end": 284,
-            "name": "assert"
+            "end": 284
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 285,
-            "end": 294,
-            "name": "sameValue"
+            "end": 294
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 278,
+          "end": 294
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 295,
-            "end": 329,
             "callee": {
               "type": "Identifier",
+              "name": "isFinite",
               "start": 295,
-              "end": 303,
-              "name": "isFinite"
+              "end": 303
             },
             "arguments": [
               {
                 "type": "MemberExpression",
-                "start": 304,
-                "end": 328,
                 "object": {
                   "type": "Identifier",
+                  "name": "Number",
                   "start": 304,
-                  "end": 310,
-                  "name": "Number"
+                  "end": 310
                 },
                 "property": {
                   "type": "Identifier",
+                  "name": "POSITIVE_INFINITY",
                   "start": 311,
-                  "end": 328,
-                  "name": "POSITIVE_INFINITY"
+                  "end": 328
                 },
                 "optional": false,
-                "computed": false
+                "computed": false,
+                "start": 304,
+                "end": 328
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 295,
+            "end": 329
           },
           {
             "type": "Literal",
-            "start": 331,
-            "end": 336,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "start": 331,
+            "end": 336
           },
           {
             "type": "Literal",
-            "start": 338,
-            "end": 392,
             "value": "isFinite(Number.POSITIVE_INFINITY) must return false",
-            "raw": "'isFinite(Number.POSITIVE_INFINITY) must return false'"
+            "raw": "'isFinite(Number.POSITIVE_INFINITY) must return false'",
+            "start": 338,
+            "end": 392
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 278,
+        "end": 393
+      },
+      "start": 278,
+      "end": 394
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 395
 }

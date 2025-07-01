@@ -1,59 +1,59 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 334,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 306,
-      "end": 320,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 310,
-          "end": 319,
           "id": {
             "type": "Identifier",
+            "name": "await",
             "start": 310,
-            "end": 315,
-            "name": "await"
+            "end": 315
           },
           "init": {
             "type": "Literal",
-            "start": 318,
-            "end": 319,
             "value": 0,
-            "raw": "0"
-          }
+            "raw": "0",
+            "start": 318,
+            "end": 319
+          },
+          "start": 310,
+          "end": 319
         }
-      ]
+      ],
+      "start": 306,
+      "end": 320
     },
     {
       "type": "ExpressionStatement",
-      "start": 323,
-      "end": 333,
       "expression": {
         "type": "AssignmentExpression",
-        "start": 323,
-        "end": 332,
         "operator": "=",
         "left": {
           "type": "Identifier",
+          "name": "await",
           "start": 323,
-          "end": 328,
-          "name": "await"
+          "end": 328
         },
         "right": {
           "type": "Literal",
-          "start": 331,
-          "end": 332,
           "value": 1,
-          "raw": "1"
-        }
-      }
+          "raw": "1",
+          "start": 331,
+          "end": 332
+        },
+        "start": 323,
+        "end": 332
+      },
+      "start": 323,
+      "end": 333
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 334
 }

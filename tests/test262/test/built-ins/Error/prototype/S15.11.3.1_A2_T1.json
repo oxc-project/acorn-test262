@@ -1,302 +1,302 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 912,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 301,
-      "end": 399,
       "expression": {
         "type": "CallExpression",
-        "start": 301,
-        "end": 398,
         "callee": {
           "type": "Identifier",
+          "name": "assert",
           "start": 301,
-          "end": 307,
-          "name": "assert"
+          "end": 307
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 308,
-            "end": 341,
             "callee": {
               "type": "MemberExpression",
-              "start": 308,
-              "end": 328,
               "object": {
                 "type": "Identifier",
+                "name": "Error",
                 "start": 308,
-                "end": 313,
-                "name": "Error"
+                "end": 313
               },
               "property": {
                 "type": "Identifier",
+                "name": "hasOwnProperty",
                 "start": 314,
-                "end": 328,
-                "name": "hasOwnProperty"
+                "end": 328
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 308,
+              "end": 328
             },
             "arguments": [
               {
                 "type": "Literal",
-                "start": 329,
-                "end": 340,
                 "value": "prototype",
-                "raw": "'prototype'"
+                "raw": "'prototype'",
+                "start": 329,
+                "end": 340
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 308,
+            "end": 341
           },
           {
             "type": "Literal",
-            "start": 343,
-            "end": 397,
             "value": "Error.hasOwnProperty('prototype') must return true",
-            "raw": "'Error.hasOwnProperty(\\'prototype\\') must return true'"
+            "raw": "'Error.hasOwnProperty(\\'prototype\\') must return true'",
+            "start": 343,
+            "end": 397
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 301,
+        "end": 398
+      },
+      "start": 301,
+      "end": 399
     },
     {
       "type": "ExpressionStatement",
-      "start": 401,
-      "end": 538,
       "expression": {
         "type": "CallExpression",
-        "start": 401,
-        "end": 537,
         "callee": {
           "type": "Identifier",
+          "name": "assert",
           "start": 401,
-          "end": 407,
-          "name": "assert"
+          "end": 407
         },
         "arguments": [
           {
             "type": "UnaryExpression",
-            "start": 411,
-            "end": 451,
             "operator": "!",
             "argument": {
               "type": "CallExpression",
-              "start": 412,
-              "end": 451,
               "callee": {
                 "type": "MemberExpression",
-                "start": 412,
-                "end": 438,
                 "object": {
                   "type": "Identifier",
+                  "name": "Error",
                   "start": 412,
-                  "end": 417,
-                  "name": "Error"
+                  "end": 417
                 },
                 "property": {
                   "type": "Identifier",
+                  "name": "propertyIsEnumerable",
                   "start": 418,
-                  "end": 438,
-                  "name": "propertyIsEnumerable"
+                  "end": 438
                 },
                 "optional": false,
-                "computed": false
+                "computed": false,
+                "start": 412,
+                "end": 438
               },
               "arguments": [
                 {
                   "type": "Literal",
-                  "start": 439,
-                  "end": 450,
                   "value": "prototype",
-                  "raw": "'prototype'"
+                  "raw": "'prototype'",
+                  "start": 439,
+                  "end": 450
                 }
               ],
-              "optional": false
+              "optional": false,
+              "start": 412,
+              "end": 451
             },
-            "prefix": true
+            "prefix": true,
+            "start": 411,
+            "end": 451
           },
           {
             "type": "Literal",
-            "start": 455,
-            "end": 535,
             "value": "The value of !Error.propertyIsEnumerable('prototype') is expected to be true",
-            "raw": "'The value of !Error.propertyIsEnumerable(\\'prototype\\') is expected to be true'"
+            "raw": "'The value of !Error.propertyIsEnumerable(\\'prototype\\') is expected to be true'",
+            "start": 455,
+            "end": 535
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 401,
+        "end": 537
+      },
+      "start": 401,
+      "end": 538
     },
     {
       "type": "VariableDeclaration",
-      "start": 714,
-      "end": 727,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 718,
-          "end": 726,
           "id": {
             "type": "Identifier",
+            "name": "cout",
             "start": 718,
-            "end": 722,
-            "name": "cout"
+            "end": 722
           },
           "init": {
             "type": "Literal",
-            "start": 725,
-            "end": 726,
             "value": 0,
-            "raw": "0"
-          }
+            "raw": "0",
+            "start": 725,
+            "end": 726
+          },
+          "start": 718,
+          "end": 726
         }
-      ]
+      ],
+      "start": 714,
+      "end": 727
     },
     {
       "type": "ForInStatement",
-      "start": 729,
-      "end": 796,
       "left": {
         "type": "VariableDeclaration",
-        "start": 734,
-        "end": 739,
         "kind": "var",
         "declarations": [
           {
             "type": "VariableDeclarator",
-            "start": 738,
-            "end": 739,
             "id": {
               "type": "Identifier",
+              "name": "p",
               "start": 738,
-              "end": 739,
-              "name": "p"
+              "end": 739
             },
-            "init": null
+            "init": null,
+            "start": 738,
+            "end": 739
           }
-        ]
+        ],
+        "start": 734,
+        "end": 739
       },
       "right": {
         "type": "Identifier",
+        "name": "Error",
         "start": 743,
-        "end": 748,
-        "name": "Error"
+        "end": 748
       },
       "body": {
         "type": "BlockStatement",
-        "start": 750,
-        "end": 796,
         "body": [
           {
             "type": "IfStatement",
-            "start": 754,
-            "end": 794,
             "test": {
               "type": "BinaryExpression",
-              "start": 758,
-              "end": 775,
               "left": {
                 "type": "Identifier",
+                "name": "p",
                 "start": 758,
-                "end": 759,
-                "name": "p"
+                "end": 759
               },
               "operator": "===",
               "right": {
                 "type": "Literal",
-                "start": 764,
-                "end": 775,
                 "value": "prototype",
-                "raw": "\"prototype\""
-              }
+                "raw": "\"prototype\"",
+                "start": 764,
+                "end": 775
+              },
+              "start": 758,
+              "end": 775
             },
             "consequent": {
               "type": "BlockStatement",
-              "start": 777,
-              "end": 794,
               "body": [
                 {
                   "type": "ExpressionStatement",
-                  "start": 783,
-                  "end": 790,
                   "expression": {
                     "type": "UpdateExpression",
-                    "start": 783,
-                    "end": 789,
                     "operator": "++",
                     "prefix": false,
                     "argument": {
                       "type": "Identifier",
+                      "name": "cout",
                       "start": 783,
-                      "end": 787,
-                      "name": "cout"
-                    }
-                  }
+                      "end": 787
+                    },
+                    "start": 783,
+                    "end": 789
+                  },
+                  "start": 783,
+                  "end": 790
                 }
-              ]
+              ],
+              "start": 777,
+              "end": 794
             },
-            "alternate": null
+            "alternate": null,
+            "start": 754,
+            "end": 794
           }
-        ]
-      }
+        ],
+        "start": 750,
+        "end": 796
+      },
+      "start": 729,
+      "end": 796
     },
     {
       "type": "ExpressionStatement",
-      "start": 798,
-      "end": 865,
       "expression": {
         "type": "CallExpression",
-        "start": 798,
-        "end": 864,
         "callee": {
           "type": "MemberExpression",
-          "start": 798,
-          "end": 814,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 798,
-            "end": 804,
-            "name": "assert"
+            "end": 804
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 805,
-            "end": 814,
-            "name": "sameValue"
+            "end": 814
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 798,
+          "end": 814
         },
         "arguments": [
           {
             "type": "Identifier",
+            "name": "cout",
             "start": 815,
-            "end": 819,
-            "name": "cout"
+            "end": 819
           },
           {
             "type": "Literal",
-            "start": 821,
-            "end": 822,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "start": 821,
+            "end": 822
           },
           {
             "type": "Literal",
-            "start": 824,
-            "end": 863,
             "value": "The value of cout is expected to be 0",
-            "raw": "'The value of cout is expected to be 0'"
+            "raw": "'The value of cout is expected to be 0'",
+            "start": 824,
+            "end": 863
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 798,
+        "end": 864
+      },
+      "start": 798,
+      "end": 865
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 912
 }

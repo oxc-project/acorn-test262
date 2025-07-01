@@ -2,21 +2,17 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 17,
   "body": [
     {
       "type": "FunctionDeclaration",
-      "start": 0,
-      "end": 16,
       "id": {
         "type": "Identifier",
-        "start": 9,
-        "end": 10,
         "decorators": [],
         "name": "D",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 9,
+        "end": 10
       },
       "generator": false,
       "async": false,
@@ -26,121 +22,125 @@ __ESTREE_TEST__:PASS:
       "returnType": null,
       "body": {
         "type": "BlockStatement",
+        "body": [],
         "start": 13,
-        "end": 16,
-        "body": []
+        "end": 16
       },
-      "expression": false
+      "expression": false,
+      "start": 0,
+      "end": 16
     }
   ],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 17
 }
 ```
 __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 42,
   "body": [
     {
       "type": "TSModuleDeclaration",
-      "start": 0,
-      "end": 37,
       "id": {
         "type": "Identifier",
-        "start": 7,
-        "end": 8,
         "decorators": [],
         "name": "D",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 7,
+        "end": 8
       },
       "body": {
         "type": "TSModuleBlock",
-        "start": 9,
-        "end": 37,
         "body": [
           {
             "type": "ExportNamedDeclaration",
-            "start": 15,
-            "end": 35,
             "declaration": {
               "type": "VariableDeclaration",
-              "start": 22,
-              "end": 35,
               "kind": "var",
               "declarations": [
                 {
                   "type": "VariableDeclarator",
-                  "start": 26,
-                  "end": 34,
                   "id": {
                     "type": "Identifier",
-                    "start": 26,
-                    "end": 27,
                     "decorators": [],
                     "name": "y",
                     "optional": false,
-                    "typeAnnotation": null
+                    "typeAnnotation": null,
+                    "start": 26,
+                    "end": 27
                   },
                   "init": {
                     "type": "Literal",
-                    "start": 30,
-                    "end": 34,
                     "value": "hi",
-                    "raw": "\"hi\""
+                    "raw": "\"hi\"",
+                    "start": 30,
+                    "end": 34
                   },
-                  "definite": false
+                  "definite": false,
+                  "start": 26,
+                  "end": 34
                 }
               ],
-              "declare": false
+              "declare": false,
+              "start": 22,
+              "end": 35
             },
             "specifiers": [],
             "source": null,
             "exportKind": "value",
-            "attributes": []
+            "attributes": [],
+            "start": 15,
+            "end": 35
           }
-        ]
+        ],
+        "start": 9,
+        "end": 37
       },
       "kind": "module",
       "declare": false,
-      "global": false
+      "global": false,
+      "start": 0,
+      "end": 37
     },
     {
       "type": "ExpressionStatement",
-      "start": 38,
-      "end": 42,
       "expression": {
         "type": "MemberExpression",
-        "start": 38,
-        "end": 41,
         "object": {
           "type": "Identifier",
-          "start": 38,
-          "end": 39,
           "decorators": [],
           "name": "D",
           "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "start": 38,
+          "end": 39
         },
         "property": {
           "type": "Identifier",
-          "start": 40,
-          "end": 41,
           "decorators": [],
           "name": "y",
           "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "start": 40,
+          "end": 41
         },
         "optional": false,
-        "computed": false
+        "computed": false,
+        "start": 38,
+        "end": 41
       },
-      "directive": null
+      "directive": null,
+      "start": 38,
+      "end": 42
     }
   ],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 42
 }
 ```

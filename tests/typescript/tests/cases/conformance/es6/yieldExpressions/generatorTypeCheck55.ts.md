@@ -2,21 +2,17 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 57,
   "body": [
     {
       "type": "FunctionDeclaration",
-      "start": 0,
-      "end": 57,
       "id": {
         "type": "Identifier",
-        "start": 10,
-        "end": 11,
         "decorators": [],
         "name": "g",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 10,
+        "end": 11
       },
       "generator": true,
       "async": false,
@@ -26,72 +22,76 @@ __ESTREE_TEST__:PASS:
       "returnType": null,
       "body": {
         "type": "BlockStatement",
-        "start": 14,
-        "end": 57,
         "body": [
           {
             "type": "VariableDeclaration",
-            "start": 20,
-            "end": 55,
             "kind": "var",
             "declarations": [
               {
                 "type": "VariableDeclarator",
-                "start": 24,
-                "end": 54,
                 "id": {
                   "type": "Identifier",
-                  "start": 24,
-                  "end": 25,
                   "decorators": [],
                   "name": "x",
                   "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "start": 24,
+                  "end": 25
                 },
                 "init": {
                   "type": "ClassExpression",
-                  "start": 28,
-                  "end": 54,
                   "decorators": [],
                   "id": {
                     "type": "Identifier",
-                    "start": 34,
-                    "end": 35,
                     "decorators": [],
                     "name": "C",
                     "optional": false,
-                    "typeAnnotation": null
+                    "typeAnnotation": null,
+                    "start": 34,
+                    "end": 35
                   },
                   "typeParameters": null,
                   "superClass": {
                     "type": "YieldExpression",
-                    "start": 45,
-                    "end": 50,
                     "delegate": false,
-                    "argument": null
+                    "argument": null,
+                    "start": 45,
+                    "end": 50
                   },
                   "superTypeArguments": null,
                   "implements": [],
                   "body": {
                     "type": "ClassBody",
+                    "body": [],
                     "start": 52,
-                    "end": 54,
-                    "body": []
+                    "end": 54
                   },
                   "abstract": false,
-                  "declare": false
+                  "declare": false,
+                  "start": 28,
+                  "end": 54
                 },
-                "definite": false
+                "definite": false,
+                "start": 24,
+                "end": 54
               }
             ],
-            "declare": false
+            "declare": false,
+            "start": 20,
+            "end": 55
           }
-        ]
+        ],
+        "start": 14,
+        "end": 57
       },
-      "expression": false
+      "expression": false,
+      "start": 0,
+      "end": 57
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 57
 }
 ```

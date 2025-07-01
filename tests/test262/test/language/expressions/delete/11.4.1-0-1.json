@@ -1,203 +1,203 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 590,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 452,
-      "end": 462,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 456,
-          "end": 461,
           "id": {
             "type": "Identifier",
+            "name": "x",
             "start": 456,
-            "end": 457,
-            "name": "x"
+            "end": 457
           },
           "init": {
             "type": "Literal",
-            "start": 460,
-            "end": 461,
             "value": 1,
-            "raw": "1"
-          }
+            "raw": "1",
+            "start": 460,
+            "end": 461
+          },
+          "start": 456,
+          "end": 461
         }
-      ]
+      ],
+      "start": 452,
+      "end": 462
     },
     {
       "type": "VariableDeclaration",
-      "start": 463,
-      "end": 473,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 467,
-          "end": 472,
           "id": {
             "type": "Identifier",
+            "name": "y",
             "start": 467,
-            "end": 468,
-            "name": "y"
+            "end": 468
           },
           "init": {
             "type": "Literal",
-            "start": 471,
-            "end": 472,
             "value": 2,
-            "raw": "2"
-          }
+            "raw": "2",
+            "start": 471,
+            "end": 472
+          },
+          "start": 467,
+          "end": 472
         }
-      ]
+      ],
+      "start": 463,
+      "end": 473
     },
     {
       "type": "VariableDeclaration",
-      "start": 474,
-      "end": 484,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 478,
-          "end": 483,
           "id": {
             "type": "Identifier",
+            "name": "z",
             "start": 478,
-            "end": 479,
-            "name": "z"
+            "end": 479
           },
           "init": {
             "type": "Literal",
-            "start": 482,
-            "end": 483,
             "value": 3,
-            "raw": "3"
-          }
+            "raw": "3",
+            "start": 482,
+            "end": 483
+          },
+          "start": 478,
+          "end": 483
         }
-      ]
+      ],
+      "start": 474,
+      "end": 484
     },
     {
       "type": "ExpressionStatement",
-      "start": 486,
-      "end": 545,
       "expression": {
         "type": "CallExpression",
-        "start": 486,
-        "end": 544,
         "callee": {
           "type": "Identifier",
+          "name": "assert",
           "start": 486,
-          "end": 492,
-          "name": "assert"
+          "end": 492
         },
         "arguments": [
           {
             "type": "ParenthesizedExpression",
-            "start": 493,
-            "end": 516,
             "expression": {
               "type": "LogicalExpression",
-              "start": 494,
-              "end": 515,
               "left": {
                 "type": "UnaryExpression",
-                "start": 494,
-                "end": 503,
                 "operator": "!",
                 "argument": {
                   "type": "UnaryExpression",
-                  "start": 495,
-                  "end": 503,
                   "operator": "delete",
                   "argument": {
                     "type": "Identifier",
+                    "name": "x",
                     "start": 502,
-                    "end": 503,
-                    "name": "x"
+                    "end": 503
                   },
-                  "prefix": true
+                  "prefix": true,
+                  "start": 495,
+                  "end": 503
                 },
-                "prefix": true
+                "prefix": true,
+                "start": 494,
+                "end": 503
               },
               "operator": "||",
               "right": {
                 "type": "UnaryExpression",
-                "start": 507,
-                "end": 515,
                 "operator": "delete",
                 "argument": {
                   "type": "Identifier",
+                  "name": "y",
                   "start": 514,
-                  "end": 515,
-                  "name": "y"
+                  "end": 515
                 },
-                "prefix": true
-              }
-            }
+                "prefix": true,
+                "start": 507,
+                "end": 515
+              },
+              "start": 494,
+              "end": 515
+            },
+            "start": 493,
+            "end": 516
           },
           {
             "type": "Literal",
-            "start": 518,
-            "end": 543,
             "value": "(!delete x || delete y)",
-            "raw": "'(!delete x || delete y)'"
+            "raw": "'(!delete x || delete y)'",
+            "start": 518,
+            "end": 543
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 486,
+        "end": 544
+      },
+      "start": 486,
+      "end": 545
     },
     {
       "type": "ExpressionStatement",
-      "start": 546,
-      "end": 589,
       "expression": {
         "type": "CallExpression",
-        "start": 546,
-        "end": 588,
         "callee": {
           "type": "Identifier",
+          "name": "assert",
           "start": 546,
-          "end": 552,
-          "name": "assert"
+          "end": 552
         },
         "arguments": [
           {
             "type": "UnaryExpression",
-            "start": 553,
-            "end": 568,
             "operator": "delete",
             "argument": {
               "type": "UnaryExpression",
-              "start": 560,
-              "end": 568,
               "operator": "delete",
               "argument": {
                 "type": "Identifier",
+                "name": "z",
                 "start": 567,
-                "end": 568,
-                "name": "z"
+                "end": 568
               },
-              "prefix": true
+              "prefix": true,
+              "start": 560,
+              "end": 568
             },
-            "prefix": true
+            "prefix": true,
+            "start": 553,
+            "end": 568
           },
           {
             "type": "Literal",
-            "start": 570,
-            "end": 587,
             "value": "delete delete z",
-            "raw": "'delete delete z'"
+            "raw": "'delete delete z'",
+            "start": 570,
+            "end": 587
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 546,
+        "end": 588
+      },
+      "start": 546,
+      "end": 589
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 590
 }

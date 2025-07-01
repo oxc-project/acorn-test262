@@ -2,46 +2,46 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 110,
-  "end": 131,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 110,
-      "end": 131,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 114,
-          "end": 130,
           "id": {
             "type": "Identifier",
-            "start": 114,
-            "end": 115,
             "decorators": [],
             "name": "x",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 114,
+            "end": 115
           },
           "init": {
             "type": "Literal",
-            "start": 118,
-            "end": 130,
             "value": null,
             "raw": "/\\u{FFFF}/gu",
             "regex": {
               "pattern": "\\u{FFFF}",
               "flags": "gu"
-            }
+            },
+            "start": 118,
+            "end": 130
           },
-          "definite": false
+          "definite": false,
+          "start": 114,
+          "end": 130
         }
       ],
-      "declare": false
+      "declare": false,
+      "start": 110,
+      "end": 131
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 110,
+  "end": 131
 }
 ```

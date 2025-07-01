@@ -1,220 +1,220 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 774,
   "body": [
     {
       "type": "FunctionDeclaration",
-      "start": 382,
-      "end": 437,
       "id": {
         "type": "Identifier",
+        "name": "__func",
         "start": 391,
-        "end": 397,
-        "name": "__func"
+        "end": 397
       },
       "generator": false,
       "async": false,
       "params": [
         {
           "type": "Identifier",
+          "name": "__arg",
           "start": 398,
-          "end": 403,
-          "name": "__arg"
+          "end": 403
         }
       ],
       "body": {
         "type": "BlockStatement",
-        "start": 404,
-        "end": 437,
         "body": [
           {
             "type": "ExpressionStatement",
-            "start": 410,
-            "end": 435,
             "expression": {
               "type": "AssignmentExpression",
-              "start": 410,
-              "end": 434,
               "operator": "=",
               "left": {
                 "type": "MemberExpression",
-                "start": 410,
-                "end": 419,
                 "object": {
                   "type": "Identifier",
+                  "name": "__arg",
                   "start": 410,
-                  "end": 415,
-                  "name": "__arg"
+                  "end": 415
                 },
                 "property": {
                   "type": "Identifier",
+                  "name": "foo",
                   "start": 416,
-                  "end": 419,
-                  "name": "foo"
+                  "end": 419
                 },
                 "optional": false,
-                "computed": false
+                "computed": false,
+                "start": 410,
+                "end": 419
               },
               "right": {
                 "type": "Literal",
-                "start": 420,
-                "end": 434,
                 "value": "whiskey gogo",
-                "raw": "\"whiskey gogo\""
-              }
-            }
+                "raw": "\"whiskey gogo\"",
+                "start": 420,
+                "end": 434
+              },
+              "start": 410,
+              "end": 434
+            },
+            "start": 410,
+            "end": 435
           }
-        ]
+        ],
+        "start": 404,
+        "end": 437
       },
-      "expression": false
+      "expression": false,
+      "start": 382,
+      "end": 437
     },
     {
       "type": "VariableDeclaration",
-      "start": 439,
-      "end": 452,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 443,
-          "end": 451,
           "id": {
             "type": "Identifier",
+            "name": "__obj",
             "start": 443,
-            "end": 448,
-            "name": "__obj"
+            "end": 448
           },
           "init": {
             "type": "ObjectExpression",
+            "properties": [],
             "start": 449,
-            "end": 451,
-            "properties": []
-          }
+            "end": 451
+          },
+          "start": 443,
+          "end": 451
         }
-      ]
+      ],
+      "start": 439,
+      "end": 452
     },
     {
       "type": "ExpressionStatement",
-      "start": 455,
-      "end": 469,
       "expression": {
         "type": "CallExpression",
-        "start": 455,
-        "end": 468,
         "callee": {
           "type": "Identifier",
+          "name": "__func",
           "start": 455,
-          "end": 461,
-          "name": "__func"
+          "end": 461
         },
         "arguments": [
           {
             "type": "Identifier",
+            "name": "__obj",
             "start": 462,
-            "end": 467,
-            "name": "__obj"
+            "end": 467
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 455,
+        "end": 468
+      },
+      "start": 455,
+      "end": 469
     },
     {
       "type": "IfStatement",
-      "start": 560,
-      "end": 691,
       "test": {
         "type": "BinaryExpression",
-        "start": 564,
-        "end": 592,
         "left": {
           "type": "MemberExpression",
-          "start": 564,
-          "end": 573,
           "object": {
             "type": "Identifier",
+            "name": "__obj",
             "start": 564,
-            "end": 569,
-            "name": "__obj"
+            "end": 569
           },
           "property": {
             "type": "Identifier",
+            "name": "foo",
             "start": 570,
-            "end": 573,
-            "name": "foo"
+            "end": 573
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 564,
+          "end": 573
         },
         "operator": "!==",
         "right": {
           "type": "Literal",
-          "start": 578,
-          "end": 592,
           "value": "whiskey gogo",
-          "raw": "\"whiskey gogo\""
-        }
+          "raw": "\"whiskey gogo\"",
+          "start": 578,
+          "end": 592
+        },
+        "start": 564,
+        "end": 592
       },
       "consequent": {
         "type": "BlockStatement",
-        "start": 594,
-        "end": 691,
         "body": [
           {
             "type": "ThrowStatement",
-            "start": 597,
-            "end": 689,
             "argument": {
               "type": "NewExpression",
-              "start": 603,
-              "end": 688,
               "callee": {
                 "type": "Identifier",
+                "name": "Test262Error",
                 "start": 607,
-                "end": 619,
-                "name": "Test262Error"
+                "end": 619
               },
               "arguments": [
                 {
                   "type": "BinaryExpression",
-                  "start": 620,
-                  "end": 687,
                   "left": {
                     "type": "Literal",
-                    "start": 620,
-                    "end": 677,
                     "value": "#1: __obj.foo === \"whiskey gogo\". Actual: __obj.foo ===",
-                    "raw": "'#1: __obj.foo === \"whiskey gogo\". Actual: __obj.foo ==='"
+                    "raw": "'#1: __obj.foo === \"whiskey gogo\". Actual: __obj.foo ==='",
+                    "start": 620,
+                    "end": 677
                   },
                   "operator": "+",
                   "right": {
                     "type": "MemberExpression",
-                    "start": 678,
-                    "end": 687,
                     "object": {
                       "type": "Identifier",
+                      "name": "__obj",
                       "start": 678,
-                      "end": 683,
-                      "name": "__obj"
+                      "end": 683
                     },
                     "property": {
                       "type": "Identifier",
+                      "name": "foo",
                       "start": 684,
-                      "end": 687,
-                      "name": "foo"
+                      "end": 687
                     },
                     "optional": false,
-                    "computed": false
-                  }
+                    "computed": false,
+                    "start": 678,
+                    "end": 687
+                  },
+                  "start": 620,
+                  "end": 687
                 }
-              ]
-            }
+              ],
+              "start": 603,
+              "end": 688
+            },
+            "start": 597,
+            "end": 689
           }
-        ]
+        ],
+        "start": 594,
+        "end": 691
       },
-      "alternate": null
+      "alternate": null,
+      "start": 560,
+      "end": 691
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 774
 }

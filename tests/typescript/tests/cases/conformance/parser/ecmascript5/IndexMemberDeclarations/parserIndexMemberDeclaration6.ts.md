@@ -2,22 +2,18 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 42,
   "body": [
     {
       "type": "ClassDeclaration",
-      "start": 0,
-      "end": 42,
       "decorators": [],
       "id": {
         "type": "Identifier",
-        "start": 6,
-        "end": 7,
         "decorators": [],
         "name": "C",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 6,
+        "end": 7
       },
       "typeParameters": null,
       "superClass": null,
@@ -25,54 +21,58 @@ __ESTREE_TEST__:PASS:
       "implements": [],
       "body": {
         "type": "ClassBody",
-        "start": 8,
-        "end": 42,
         "body": [
           {
             "type": "TSIndexSignature",
-            "start": 13,
-            "end": 40,
             "parameters": [
               {
                 "type": "Identifier",
-                "start": 21,
-                "end": 30,
                 "decorators": [],
                 "name": "x",
                 "optional": false,
                 "typeAnnotation": {
                   "type": "TSTypeAnnotation",
-                  "start": 22,
-                  "end": 30,
                   "typeAnnotation": {
                     "type": "TSStringKeyword",
                     "start": 24,
                     "end": 30
-                  }
-                }
+                  },
+                  "start": 22,
+                  "end": 30
+                },
+                "start": 21,
+                "end": 30
               }
             ],
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
-              "start": 31,
-              "end": 39,
               "typeAnnotation": {
                 "type": "TSStringKeyword",
                 "start": 33,
                 "end": 39
-              }
+              },
+              "start": 31,
+              "end": 39
             },
             "readonly": false,
             "static": true,
-            "accessibility": null
+            "accessibility": null,
+            "start": 13,
+            "end": 40
           }
-        ]
+        ],
+        "start": 8,
+        "end": 42
       },
       "abstract": false,
-      "declare": false
+      "declare": false,
+      "start": 0,
+      "end": 42
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 42
 }
 ```

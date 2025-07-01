@@ -1,146 +1,146 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 1973,
   "body": [
     {
       "type": "FunctionDeclaration",
-      "start": 1897,
-      "end": 1920,
       "id": {
         "type": "Identifier",
+        "name": "f",
         "start": 1907,
-        "end": 1908,
-        "name": "f"
+        "end": 1908
       },
       "generator": true,
       "async": false,
       "params": [
         {
           "type": "ArrayPattern",
-          "start": 1909,
-          "end": 1916,
           "elements": [
             {
               "type": "ObjectPattern",
-              "start": 1910,
-              "end": 1915,
               "properties": [
                 {
                   "type": "Property",
-                  "start": 1912,
-                  "end": 1913,
                   "kind": "init",
                   "key": {
                     "type": "Identifier",
+                    "name": "x",
                     "start": 1912,
-                    "end": 1913,
-                    "name": "x"
+                    "end": 1913
                   },
                   "value": {
                     "type": "Identifier",
+                    "name": "x",
                     "start": 1912,
-                    "end": 1913,
-                    "name": "x"
+                    "end": 1913
                   },
                   "method": false,
                   "shorthand": true,
-                  "computed": false
+                  "computed": false,
+                  "start": 1912,
+                  "end": 1913
                 }
-              ]
+              ],
+              "start": 1910,
+              "end": 1915
             }
-          ]
+          ],
+          "start": 1909,
+          "end": 1916
         }
       ],
       "body": {
         "type": "BlockStatement",
+        "body": [],
         "start": 1918,
-        "end": 1920,
-        "body": []
+        "end": 1920
       },
-      "expression": false
+      "expression": false,
+      "start": 1897,
+      "end": 1920
     },
     {
       "type": "ExpressionStatement",
-      "start": 1922,
-      "end": 1972,
       "expression": {
         "type": "CallExpression",
-        "start": 1922,
-        "end": 1971,
         "callee": {
           "type": "MemberExpression",
-          "start": 1922,
-          "end": 1935,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 1922,
-            "end": 1928,
-            "name": "assert"
+            "end": 1928
           },
           "property": {
             "type": "Identifier",
+            "name": "throws",
             "start": 1929,
-            "end": 1935,
-            "name": "throws"
+            "end": 1935
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 1922,
+          "end": 1935
         },
         "arguments": [
           {
             "type": "Identifier",
+            "name": "TypeError",
             "start": 1936,
-            "end": 1945,
-            "name": "TypeError"
+            "end": 1945
           },
           {
             "type": "FunctionExpression",
-            "start": 1947,
-            "end": 1970,
             "id": null,
             "generator": false,
             "async": false,
             "params": [],
             "body": {
               "type": "BlockStatement",
-              "start": 1958,
-              "end": 1970,
               "body": [
                 {
                   "type": "ExpressionStatement",
-                  "start": 1962,
-                  "end": 1968,
                   "expression": {
                     "type": "CallExpression",
-                    "start": 1962,
-                    "end": 1967,
                     "callee": {
                       "type": "Identifier",
+                      "name": "f",
                       "start": 1962,
-                      "end": 1963,
-                      "name": "f"
+                      "end": 1963
                     },
                     "arguments": [
                       {
                         "type": "ArrayExpression",
+                        "elements": [],
                         "start": 1964,
-                        "end": 1966,
-                        "elements": []
+                        "end": 1966
                       }
                     ],
-                    "optional": false
-                  }
+                    "optional": false,
+                    "start": 1962,
+                    "end": 1967
+                  },
+                  "start": 1962,
+                  "end": 1968
                 }
-              ]
+              ],
+              "start": 1958,
+              "end": 1970
             },
-            "expression": false
+            "expression": false,
+            "start": 1947,
+            "end": 1970
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 1922,
+        "end": 1971
+      },
+      "start": 1922,
+      "end": 1972
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 1973
 }

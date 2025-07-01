@@ -2,45 +2,37 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 38,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 0,
-      "end": 38,
       "expression": {
         "type": "CallExpression",
-        "start": 0,
-        "end": 37,
         "callee": {
           "type": "MemberExpression",
-          "start": 0,
-          "end": 6,
           "object": {
             "type": "ArrayExpression",
+            "elements": [],
             "start": 0,
-            "end": 2,
-            "elements": []
+            "end": 2
           },
           "property": {
             "type": "Identifier",
-            "start": 3,
-            "end": 6,
             "decorators": [],
             "name": "map",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 3,
+            "end": 6
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 0,
+          "end": 6
         },
         "typeArguments": null,
         "arguments": [
           {
             "type": "ArrowFunctionExpression",
-            "start": 7,
-            "end": 36,
             "expression": true,
             "async": false,
             "typeParameters": null,
@@ -48,102 +40,110 @@ __ESTREE_TEST__:PASS:
             "returnType": null,
             "body": {
               "type": "CallExpression",
-              "start": 13,
-              "end": 36,
               "callee": {
                 "type": "MemberExpression",
-                "start": 13,
-                "end": 19,
                 "object": {
                   "type": "ArrayExpression",
+                  "elements": [],
                   "start": 13,
-                  "end": 15,
-                  "elements": []
+                  "end": 15
                 },
                 "property": {
                   "type": "Identifier",
-                  "start": 16,
-                  "end": 19,
                   "decorators": [],
                   "name": "map",
                   "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "start": 16,
+                  "end": 19
                 },
                 "optional": false,
-                "computed": false
+                "computed": false,
+                "start": 13,
+                "end": 19
               },
               "typeArguments": null,
               "arguments": [
                 {
                   "type": "ArrowFunctionExpression",
-                  "start": 20,
-                  "end": 35,
                   "expression": true,
                   "async": false,
                   "typeParameters": null,
                   "params": [
                     {
                       "type": "Identifier",
-                      "start": 20,
-                      "end": 21,
                       "decorators": [],
                       "name": "p",
                       "optional": false,
-                      "typeAnnotation": null
+                      "typeAnnotation": null,
+                      "start": 20,
+                      "end": 21
                     }
                   ],
                   "returnType": null,
                   "body": {
                     "type": "ObjectExpression",
-                    "start": 26,
-                    "end": 34,
                     "properties": [
                       {
                         "type": "Property",
-                        "start": 28,
-                        "end": 32,
                         "kind": "init",
                         "key": {
                           "type": "Identifier",
-                          "start": 28,
-                          "end": 29,
                           "decorators": [],
                           "name": "X",
                           "optional": false,
-                          "typeAnnotation": null
+                          "typeAnnotation": null,
+                          "start": 28,
+                          "end": 29
                         },
                         "value": {
                           "type": "Identifier",
-                          "start": 31,
-                          "end": 32,
                           "decorators": [],
                           "name": "p",
                           "optional": false,
-                          "typeAnnotation": null
+                          "typeAnnotation": null,
+                          "start": 31,
+                          "end": 32
                         },
                         "method": false,
                         "shorthand": false,
                         "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "start": 28,
+                        "end": 32
                       }
-                    ]
+                    ],
+                    "start": 26,
+                    "end": 34
                   },
                   "id": null,
-                  "generator": false
+                  "generator": false,
+                  "start": 20,
+                  "end": 35
                 }
               ],
-              "optional": false
+              "optional": false,
+              "start": 13,
+              "end": 36
             },
             "id": null,
-            "generator": false
+            "generator": false,
+            "start": 7,
+            "end": 36
           }
         ],
-        "optional": false
+        "optional": false,
+        "start": 0,
+        "end": 37
       },
-      "directive": null
+      "directive": null,
+      "start": 0,
+      "end": 38
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 38
 }
 ```

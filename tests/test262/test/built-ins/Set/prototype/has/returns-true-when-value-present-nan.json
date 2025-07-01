@@ -1,157 +1,157 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 476,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 377,
-      "end": 395,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 381,
-          "end": 394,
           "id": {
             "type": "Identifier",
+            "name": "s",
             "start": 381,
-            "end": 382,
-            "name": "s"
+            "end": 382
           },
           "init": {
             "type": "NewExpression",
-            "start": 385,
-            "end": 394,
             "callee": {
               "type": "Identifier",
+              "name": "Set",
               "start": 389,
-              "end": 392,
-              "name": "Set"
+              "end": 392
             },
-            "arguments": []
-          }
+            "arguments": [],
+            "start": 385,
+            "end": 394
+          },
+          "start": 381,
+          "end": 394
         }
-      ]
+      ],
+      "start": 377,
+      "end": 395
     },
     {
       "type": "ExpressionStatement",
-      "start": 397,
-      "end": 407,
       "expression": {
         "type": "CallExpression",
-        "start": 397,
-        "end": 407,
         "callee": {
           "type": "MemberExpression",
-          "start": 397,
-          "end": 402,
           "object": {
             "type": "Identifier",
+            "name": "s",
             "start": 397,
-            "end": 398,
-            "name": "s"
+            "end": 398
           },
           "property": {
             "type": "Identifier",
+            "name": "add",
             "start": 399,
-            "end": 402,
-            "name": "add"
+            "end": 402
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 397,
+          "end": 402
         },
         "arguments": [
           {
             "type": "Identifier",
+            "name": "NaN",
             "start": 403,
-            "end": 406,
-            "name": "NaN"
+            "end": 406
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 397,
+        "end": 407
+      },
+      "start": 397,
+      "end": 407
     },
     {
       "type": "ExpressionStatement",
-      "start": 409,
-      "end": 475,
       "expression": {
         "type": "CallExpression",
-        "start": 409,
-        "end": 474,
         "callee": {
           "type": "MemberExpression",
-          "start": 409,
-          "end": 425,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 409,
-            "end": 415,
-            "name": "assert"
+            "end": 415
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 416,
-            "end": 425,
-            "name": "sameValue"
+            "end": 425
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 409,
+          "end": 425
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 426,
-            "end": 436,
             "callee": {
               "type": "MemberExpression",
-              "start": 426,
-              "end": 431,
               "object": {
                 "type": "Identifier",
+                "name": "s",
                 "start": 426,
-                "end": 427,
-                "name": "s"
+                "end": 427
               },
               "property": {
                 "type": "Identifier",
+                "name": "has",
                 "start": 428,
-                "end": 431,
-                "name": "has"
+                "end": 431
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 426,
+              "end": 431
             },
             "arguments": [
               {
                 "type": "Identifier",
+                "name": "NaN",
                 "start": 432,
-                "end": 435,
-                "name": "NaN"
+                "end": 435
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 426,
+            "end": 436
           },
           {
             "type": "Literal",
-            "start": 438,
-            "end": 442,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "start": 438,
+            "end": 442
           },
           {
             "type": "Literal",
-            "start": 444,
-            "end": 473,
             "value": "`s.has(NaN)` returns `true`",
-            "raw": "\"`s.has(NaN)` returns `true`\""
+            "raw": "\"`s.has(NaN)` returns `true`\"",
+            "start": 444,
+            "end": 473
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 409,
+        "end": 474
+      },
+      "start": 409,
+      "end": 475
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 476
 }

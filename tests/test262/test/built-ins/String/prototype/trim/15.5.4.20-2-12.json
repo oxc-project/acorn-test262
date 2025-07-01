@@ -1,115 +1,115 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 452,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 305,
-      "end": 451,
       "expression": {
         "type": "CallExpression",
-        "start": 305,
-        "end": 450,
         "callee": {
           "type": "MemberExpression",
-          "start": 305,
-          "end": 321,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 305,
-            "end": 311,
-            "name": "assert"
+            "end": 311
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 312,
-            "end": 321,
-            "name": "sameValue"
+            "end": 321
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 305,
+          "end": 321
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 322,
-            "end": 371,
             "callee": {
               "type": "MemberExpression",
-              "start": 322,
-              "end": 348,
               "object": {
                 "type": "MemberExpression",
-                "start": 322,
-                "end": 343,
                 "object": {
                   "type": "MemberExpression",
-                  "start": 322,
-                  "end": 338,
                   "object": {
                     "type": "Identifier",
+                    "name": "String",
                     "start": 322,
-                    "end": 328,
-                    "name": "String"
+                    "end": 328
                   },
                   "property": {
                     "type": "Identifier",
+                    "name": "prototype",
                     "start": 329,
-                    "end": 338,
-                    "name": "prototype"
+                    "end": 338
                   },
                   "optional": false,
-                  "computed": false
+                  "computed": false,
+                  "start": 322,
+                  "end": 338
                 },
                 "property": {
                   "type": "Identifier",
+                  "name": "trim",
                   "start": 339,
-                  "end": 343,
-                  "name": "trim"
+                  "end": 343
                 },
                 "optional": false,
-                "computed": false
+                "computed": false,
+                "start": 322,
+                "end": 343
               },
               "property": {
                 "type": "Identifier",
+                "name": "call",
                 "start": 344,
-                "end": 348,
-                "name": "call"
+                "end": 348
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 322,
+              "end": 348
             },
             "arguments": [
               {
                 "type": "Literal",
-                "start": 349,
-                "end": 370,
                 "value": 100000000000000000000,
-                "raw": "100000000000000000000"
+                "raw": "100000000000000000000",
+                "start": 349,
+                "end": 370
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 322,
+            "end": 371
           },
           {
             "type": "Literal",
-            "start": 373,
-            "end": 396,
             "value": "100000000000000000000",
-            "raw": "\"100000000000000000000\""
+            "raw": "\"100000000000000000000\"",
+            "start": 373,
+            "end": 396
           },
           {
             "type": "Literal",
-            "start": 398,
-            "end": 449,
             "value": "String.prototype.trim.call(100000000000000000000)",
-            "raw": "'String.prototype.trim.call(100000000000000000000)'"
+            "raw": "'String.prototype.trim.call(100000000000000000000)'",
+            "start": 398,
+            "end": 449
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 305,
+        "end": 450
+      },
+      "start": 305,
+      "end": 451
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 452
 }

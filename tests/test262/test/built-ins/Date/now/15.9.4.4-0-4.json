@@ -1,88 +1,88 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 275,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 207,
-      "end": 274,
       "expression": {
         "type": "CallExpression",
-        "start": 207,
-        "end": 273,
         "callee": {
           "type": "MemberExpression",
-          "start": 207,
-          "end": 223,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 207,
-            "end": 213,
-            "name": "assert"
+            "end": 213
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 214,
-            "end": 223,
-            "name": "sameValue"
+            "end": 223
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 207,
+          "end": 223
         },
         "arguments": [
           {
             "type": "UnaryExpression",
-            "start": 224,
-            "end": 241,
             "operator": "typeof",
             "argument": {
               "type": "CallExpression",
-              "start": 231,
-              "end": 241,
               "callee": {
                 "type": "MemberExpression",
-                "start": 231,
-                "end": 239,
                 "object": {
                   "type": "Identifier",
+                  "name": "Date",
                   "start": 231,
-                  "end": 235,
-                  "name": "Date"
+                  "end": 235
                 },
                 "property": {
                   "type": "Identifier",
+                  "name": "now",
                   "start": 236,
-                  "end": 239,
-                  "name": "now"
+                  "end": 239
                 },
                 "optional": false,
-                "computed": false
+                "computed": false,
+                "start": 231,
+                "end": 239
               },
               "arguments": [],
-              "optional": false
+              "optional": false,
+              "start": 231,
+              "end": 241
             },
-            "prefix": true
+            "prefix": true,
+            "start": 224,
+            "end": 241
           },
           {
             "type": "Literal",
-            "start": 243,
-            "end": 251,
             "value": "number",
-            "raw": "\"number\""
+            "raw": "\"number\"",
+            "start": 243,
+            "end": 251
           },
           {
             "type": "Literal",
-            "start": 253,
-            "end": 272,
             "value": "typeof Date.now()",
-            "raw": "'typeof Date.now()'"
+            "raw": "'typeof Date.now()'",
+            "start": 253,
+            "end": 272
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 207,
+        "end": 273
+      },
+      "start": 207,
+      "end": 274
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 275
 }

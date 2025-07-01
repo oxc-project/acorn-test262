@@ -1,67 +1,67 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 440,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 394,
-      "end": 430,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 398,
-          "end": 429,
           "id": {
             "type": "Identifier",
+            "name": "f",
             "start": 398,
-            "end": 399,
-            "name": "f"
+            "end": 399
           },
           "init": {
             "type": "CallExpression",
-            "start": 402,
-            "end": 429,
             "callee": {
               "type": "Identifier",
+              "name": "Function",
               "start": 402,
-              "end": 410,
-              "name": "Function"
+              "end": 410
             },
             "arguments": [
               {
                 "type": "Literal",
-                "start": 411,
-                "end": 428,
                 "value": "arguments = 42;",
-                "raw": "'arguments = 42;'"
+                "raw": "'arguments = 42;'",
+                "start": 411,
+                "end": 428
               }
             ],
-            "optional": false
-          }
+            "optional": false,
+            "start": 402,
+            "end": 429
+          },
+          "start": 398,
+          "end": 429
         }
-      ]
+      ],
+      "start": 394,
+      "end": 430
     },
     {
       "type": "ExpressionStatement",
-      "start": 435,
-      "end": 439,
       "expression": {
         "type": "CallExpression",
-        "start": 435,
-        "end": 438,
         "callee": {
           "type": "Identifier",
+          "name": "f",
           "start": 435,
-          "end": 436,
-          "name": "f"
+          "end": 436
         },
         "arguments": [],
-        "optional": false
-      }
+        "optional": false,
+        "start": 435,
+        "end": 438
+      },
+      "start": 435,
+      "end": 439
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 440
 }

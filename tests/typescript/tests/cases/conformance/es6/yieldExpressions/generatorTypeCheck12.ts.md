@@ -2,21 +2,17 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 66,
   "body": [
     {
       "type": "FunctionDeclaration",
-      "start": 0,
-      "end": 66,
       "id": {
         "type": "Identifier",
-        "start": 10,
-        "end": 11,
         "decorators": [],
         "name": "g",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 10,
+        "end": 11
       },
       "generator": true,
       "async": false,
@@ -25,25 +21,19 @@ __ESTREE_TEST__:PASS:
       "params": [],
       "returnType": {
         "type": "TSTypeAnnotation",
-        "start": 13,
-        "end": 47,
         "typeAnnotation": {
           "type": "TSTypeReference",
-          "start": 15,
-          "end": 47,
           "typeName": {
             "type": "Identifier",
-            "start": 15,
-            "end": 31,
             "decorators": [],
             "name": "IterableIterator",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 15,
+            "end": 31
           },
           "typeArguments": {
             "type": "TSTypeParameterInstantiation",
-            "start": 31,
-            "end": 47,
             "params": [
               {
                 "type": "TSNumberKeyword",
@@ -55,33 +45,43 @@ __ESTREE_TEST__:PASS:
                 "start": 40,
                 "end": 46
               }
-            ]
-          }
-        }
+            ],
+            "start": 31,
+            "end": 47
+          },
+          "start": 15,
+          "end": 47
+        },
+        "start": 13,
+        "end": 47
       },
       "body": {
         "type": "BlockStatement",
-        "start": 48,
-        "end": 66,
         "body": [
           {
             "type": "ReturnStatement",
-            "start": 54,
-            "end": 64,
             "argument": {
               "type": "Literal",
-              "start": 61,
-              "end": 63,
               "value": "",
-              "raw": "\"\""
-            }
+              "raw": "\"\"",
+              "start": 61,
+              "end": 63
+            },
+            "start": 54,
+            "end": 64
           }
-        ]
+        ],
+        "start": 48,
+        "end": 66
       },
-      "expression": false
+      "expression": false,
+      "start": 0,
+      "end": 66
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 66
 }
 ```

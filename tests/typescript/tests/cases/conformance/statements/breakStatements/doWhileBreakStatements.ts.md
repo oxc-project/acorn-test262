@@ -2,390 +2,376 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 402,
   "body": [
     {
       "type": "DoWhileStatement",
-      "start": 0,
-      "end": 29,
       "body": {
         "type": "BlockStatement",
-        "start": 3,
-        "end": 17,
         "body": [
           {
             "type": "BreakStatement",
+            "label": null,
             "start": 9,
-            "end": 15,
-            "label": null
+            "end": 15
           }
-        ]
+        ],
+        "start": 3,
+        "end": 17
       },
       "test": {
         "type": "Literal",
-        "start": 24,
-        "end": 28,
         "value": true,
-        "raw": "true"
-      }
+        "raw": "true",
+        "start": 24,
+        "end": 28
+      },
+      "start": 0,
+      "end": 29
     },
     {
       "type": "LabeledStatement",
-      "start": 31,
-      "end": 70,
       "label": {
         "type": "Identifier",
-        "start": 31,
-        "end": 34,
         "decorators": [],
         "name": "ONE",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 31,
+        "end": 34
       },
       "body": {
         "type": "DoWhileStatement",
-        "start": 36,
-        "end": 70,
         "body": {
           "type": "BlockStatement",
-          "start": 39,
-          "end": 57,
           "body": [
             {
               "type": "BreakStatement",
-              "start": 45,
-              "end": 55,
               "label": {
                 "type": "Identifier",
-                "start": 51,
-                "end": 54,
                 "decorators": [],
                 "name": "ONE",
                 "optional": false,
-                "typeAnnotation": null
-              }
+                "typeAnnotation": null,
+                "start": 51,
+                "end": 54
+              },
+              "start": 45,
+              "end": 55
             }
-          ]
+          ],
+          "start": 39,
+          "end": 57
         },
         "test": {
           "type": "Literal",
-          "start": 65,
-          "end": 69,
           "value": true,
-          "raw": "true"
-        }
-      }
+          "raw": "true",
+          "start": 65,
+          "end": 69
+        },
+        "start": 36,
+        "end": 70
+      },
+      "start": 31,
+      "end": 70
     },
     {
       "type": "LabeledStatement",
-      "start": 72,
-      "end": 119,
       "label": {
         "type": "Identifier",
-        "start": 72,
-        "end": 75,
         "decorators": [],
         "name": "TWO",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 72,
+        "end": 75
       },
       "body": {
         "type": "LabeledStatement",
-        "start": 77,
-        "end": 119,
         "label": {
           "type": "Identifier",
-          "start": 77,
-          "end": 82,
           "decorators": [],
           "name": "THREE",
           "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "start": 77,
+          "end": 82
         },
         "body": {
           "type": "DoWhileStatement",
-          "start": 84,
-          "end": 119,
           "body": {
             "type": "BlockStatement",
-            "start": 87,
-            "end": 107,
             "body": [
               {
                 "type": "BreakStatement",
-                "start": 93,
-                "end": 105,
                 "label": {
                   "type": "Identifier",
-                  "start": 99,
-                  "end": 104,
                   "decorators": [],
                   "name": "THREE",
                   "optional": false,
-                  "typeAnnotation": null
-                }
+                  "typeAnnotation": null,
+                  "start": 99,
+                  "end": 104
+                },
+                "start": 93,
+                "end": 105
               }
-            ]
+            ],
+            "start": 87,
+            "end": 107
           },
           "test": {
             "type": "Literal",
-            "start": 114,
-            "end": 118,
             "value": true,
-            "raw": "true"
-          }
-        }
-      }
+            "raw": "true",
+            "start": 114,
+            "end": 118
+          },
+          "start": 84,
+          "end": 119
+        },
+        "start": 77,
+        "end": 119
+      },
+      "start": 72,
+      "end": 119
     },
     {
       "type": "LabeledStatement",
-      "start": 121,
-      "end": 202,
       "label": {
         "type": "Identifier",
-        "start": 121,
-        "end": 125,
         "decorators": [],
         "name": "FOUR",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 121,
+        "end": 125
       },
       "body": {
         "type": "DoWhileStatement",
-        "start": 127,
-        "end": 202,
         "body": {
           "type": "BlockStatement",
-          "start": 130,
-          "end": 190,
           "body": [
             {
               "type": "LabeledStatement",
-              "start": 136,
-              "end": 188,
               "label": {
                 "type": "Identifier",
-                "start": 136,
-                "end": 140,
                 "decorators": [],
                 "name": "FIVE",
                 "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "start": 136,
+                "end": 140
               },
               "body": {
                 "type": "DoWhileStatement",
-                "start": 146,
-                "end": 188,
                 "body": {
                   "type": "BlockStatement",
-                  "start": 149,
-                  "end": 176,
                   "body": [
                     {
                       "type": "BreakStatement",
-                      "start": 159,
-                      "end": 170,
                       "label": {
                         "type": "Identifier",
-                        "start": 165,
-                        "end": 169,
                         "decorators": [],
                         "name": "FOUR",
                         "optional": false,
-                        "typeAnnotation": null
-                      }
+                        "typeAnnotation": null,
+                        "start": 165,
+                        "end": 169
+                      },
+                      "start": 159,
+                      "end": 170
                     }
-                  ]
+                  ],
+                  "start": 149,
+                  "end": 176
                 },
                 "test": {
                   "type": "Literal",
-                  "start": 183,
-                  "end": 187,
                   "value": true,
-                  "raw": "true"
-                }
-              }
+                  "raw": "true",
+                  "start": 183,
+                  "end": 187
+                },
+                "start": 146,
+                "end": 188
+              },
+              "start": 136,
+              "end": 188
             }
-          ]
+          ],
+          "start": 130,
+          "end": 190
         },
         "test": {
           "type": "Literal",
-          "start": 197,
-          "end": 201,
           "value": true,
-          "raw": "true"
-        }
-      }
+          "raw": "true",
+          "start": 197,
+          "end": 201
+        },
+        "start": 127,
+        "end": 202
+      },
+      "start": 121,
+      "end": 202
     },
     {
       "type": "DoWhileStatement",
-      "start": 204,
-      "end": 261,
       "body": {
         "type": "BlockStatement",
-        "start": 207,
-        "end": 249,
         "body": [
           {
             "type": "LabeledStatement",
-            "start": 213,
-            "end": 247,
             "label": {
               "type": "Identifier",
-              "start": 213,
-              "end": 216,
               "decorators": [],
               "name": "SIX",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 213,
+              "end": 216
             },
             "body": {
               "type": "DoWhileStatement",
-              "start": 222,
-              "end": 247,
               "body": {
                 "type": "BreakStatement",
-                "start": 225,
-                "end": 235,
                 "label": {
                   "type": "Identifier",
-                  "start": 231,
-                  "end": 234,
                   "decorators": [],
                   "name": "SIX",
                   "optional": false,
-                  "typeAnnotation": null
-                }
+                  "typeAnnotation": null,
+                  "start": 231,
+                  "end": 234
+                },
+                "start": 225,
+                "end": 235
               },
               "test": {
                 "type": "Literal",
-                "start": 242,
-                "end": 246,
                 "value": true,
-                "raw": "true"
-              }
-            }
+                "raw": "true",
+                "start": 242,
+                "end": 246
+              },
+              "start": 222,
+              "end": 247
+            },
+            "start": 213,
+            "end": 247
           }
-        ]
+        ],
+        "start": 207,
+        "end": 249
       },
       "test": {
         "type": "Literal",
-        "start": 256,
-        "end": 260,
         "value": true,
-        "raw": "true"
-      }
+        "raw": "true",
+        "start": 256,
+        "end": 260
+      },
+      "start": 204,
+      "end": 261
     },
     {
       "type": "LabeledStatement",
-      "start": 263,
-      "end": 331,
       "label": {
         "type": "Identifier",
-        "start": 263,
-        "end": 268,
         "decorators": [],
         "name": "SEVEN",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 263,
+        "end": 268
       },
       "body": {
         "type": "DoWhileStatement",
-        "start": 270,
-        "end": 331,
         "body": {
           "type": "DoWhileStatement",
-          "start": 273,
-          "end": 317,
           "body": {
             "type": "DoWhileStatement",
-            "start": 276,
-            "end": 304,
             "body": {
               "type": "BreakStatement",
-              "start": 279,
-              "end": 291,
               "label": {
                 "type": "Identifier",
-                "start": 285,
-                "end": 290,
                 "decorators": [],
                 "name": "SEVEN",
                 "optional": false,
-                "typeAnnotation": null
-              }
+                "typeAnnotation": null,
+                "start": 285,
+                "end": 290
+              },
+              "start": 279,
+              "end": 291
             },
             "test": {
               "type": "Literal",
-              "start": 299,
-              "end": 303,
               "value": true,
-              "raw": "true"
-            }
+              "raw": "true",
+              "start": 299,
+              "end": 303
+            },
+            "start": 276,
+            "end": 304
           },
           "test": {
             "type": "Literal",
-            "start": 312,
-            "end": 316,
             "value": true,
-            "raw": "true"
-          }
+            "raw": "true",
+            "start": 312,
+            "end": 316
+          },
+          "start": 273,
+          "end": 317
         },
         "test": {
           "type": "Literal",
-          "start": 326,
-          "end": 330,
           "value": true,
-          "raw": "true"
-        }
-      }
+          "raw": "true",
+          "start": 326,
+          "end": 330
+        },
+        "start": 270,
+        "end": 331
+      },
+      "start": 263,
+      "end": 331
     },
     {
       "type": "LabeledStatement",
-      "start": 333,
-      "end": 402,
       "label": {
         "type": "Identifier",
-        "start": 333,
-        "end": 338,
         "decorators": [],
         "name": "EIGHT",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 333,
+        "end": 338
       },
       "body": {
         "type": "DoWhileStatement",
-        "start": 340,
-        "end": 402,
         "body": {
           "type": "BlockStatement",
-          "start": 342,
-          "end": 391,
           "body": [
             {
               "type": "VariableDeclaration",
-              "start": 348,
-              "end": 372,
               "kind": "var",
               "declarations": [
                 {
                   "type": "VariableDeclarator",
-                  "start": 352,
-                  "end": 372,
                   "id": {
                     "type": "Identifier",
-                    "start": 352,
-                    "end": 354,
                     "decorators": [],
                     "name": "fn",
                     "optional": false,
-                    "typeAnnotation": null
+                    "typeAnnotation": null,
+                    "start": 352,
+                    "end": 354
                   },
                   "init": {
                     "type": "FunctionExpression",
-                    "start": 357,
-                    "end": 372,
                     "id": null,
                     "generator": false,
                     "async": false,
@@ -395,44 +381,58 @@ __ESTREE_TEST__:PASS:
                     "returnType": null,
                     "body": {
                       "type": "BlockStatement",
+                      "body": [],
                       "start": 369,
-                      "end": 372,
-                      "body": []
+                      "end": 372
                     },
-                    "expression": false
+                    "expression": false,
+                    "start": 357,
+                    "end": 372
                   },
-                  "definite": false
+                  "definite": false,
+                  "start": 352,
+                  "end": 372
                 }
               ],
-              "declare": false
+              "declare": false,
+              "start": 348,
+              "end": 372
             },
             {
               "type": "BreakStatement",
-              "start": 377,
-              "end": 389,
               "label": {
                 "type": "Identifier",
-                "start": 383,
-                "end": 388,
                 "decorators": [],
                 "name": "EIGHT",
                 "optional": false,
-                "typeAnnotation": null
-              }
+                "typeAnnotation": null,
+                "start": 383,
+                "end": 388
+              },
+              "start": 377,
+              "end": 389
             }
-          ]
+          ],
+          "start": 342,
+          "end": 391
         },
         "test": {
           "type": "Literal",
-          "start": 397,
-          "end": 401,
           "value": true,
-          "raw": "true"
-        }
-      }
+          "raw": "true",
+          "start": 397,
+          "end": 401
+        },
+        "start": 340,
+        "end": 402
+      },
+      "start": 333,
+      "end": 402
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 402
 }
 ```

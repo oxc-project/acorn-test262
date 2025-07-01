@@ -1,201 +1,201 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 732,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 565,
-      "end": 656,
       "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 571,
-          "end": 655,
           "id": {
             "type": "Identifier",
+            "name": "i64a",
             "start": 571,
-            "end": 575,
-            "name": "i64a"
+            "end": 575
           },
           "init": {
             "type": "NewExpression",
-            "start": 578,
-            "end": 655,
             "callee": {
               "type": "Identifier",
+              "name": "BigInt64Array",
               "start": 582,
-              "end": 595,
-              "name": "BigInt64Array"
+              "end": 595
             },
             "arguments": [
               {
                 "type": "NewExpression",
-                "start": 596,
-                "end": 654,
                 "callee": {
                   "type": "Identifier",
+                  "name": "SharedArrayBuffer",
                   "start": 600,
-                  "end": 617,
-                  "name": "SharedArrayBuffer"
+                  "end": 617
                 },
                 "arguments": [
                   {
                     "type": "BinaryExpression",
-                    "start": 618,
-                    "end": 653,
                     "left": {
                       "type": "MemberExpression",
-                      "start": 618,
-                      "end": 649,
                       "object": {
                         "type": "Identifier",
+                        "name": "BigInt64Array",
                         "start": 618,
-                        "end": 631,
-                        "name": "BigInt64Array"
+                        "end": 631
                       },
                       "property": {
                         "type": "Identifier",
+                        "name": "BYTES_PER_ELEMENT",
                         "start": 632,
-                        "end": 649,
-                        "name": "BYTES_PER_ELEMENT"
+                        "end": 649
                       },
                       "optional": false,
-                      "computed": false
+                      "computed": false,
+                      "start": 618,
+                      "end": 649
                     },
                     "operator": "*",
                     "right": {
                       "type": "Literal",
-                      "start": 652,
-                      "end": 653,
                       "value": 4,
-                      "raw": "4"
-                    }
+                      "raw": "4",
+                      "start": 652,
+                      "end": 653
+                    },
+                    "start": 618,
+                    "end": 653
                   }
-                ]
+                ],
+                "start": 596,
+                "end": 654
               }
-            ]
-          }
+            ],
+            "start": 578,
+            "end": 655
+          },
+          "start": 571,
+          "end": 655
         }
-      ]
+      ],
+      "start": 565,
+      "end": 656
     },
     {
       "type": "ExpressionStatement",
-      "start": 658,
-      "end": 731,
       "expression": {
         "type": "CallExpression",
-        "start": 658,
-        "end": 730,
         "callee": {
           "type": "MemberExpression",
-          "start": 658,
-          "end": 671,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 658,
-            "end": 664,
-            "name": "assert"
+            "end": 664
           },
           "property": {
             "type": "Identifier",
+            "name": "throws",
             "start": 665,
-            "end": 671,
-            "name": "throws"
+            "end": 671
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 658,
+          "end": 671
         },
         "arguments": [
           {
             "type": "Identifier",
+            "name": "TypeError",
             "start": 672,
-            "end": 681,
-            "name": "TypeError"
+            "end": 681
           },
           {
             "type": "FunctionExpression",
-            "start": 683,
-            "end": 729,
             "id": null,
             "generator": false,
             "async": false,
             "params": [],
             "body": {
               "type": "BlockStatement",
-              "start": 694,
-              "end": 729,
               "body": [
                 {
                   "type": "ExpressionStatement",
-                  "start": 698,
-                  "end": 727,
                   "expression": {
                     "type": "CallExpression",
-                    "start": 698,
-                    "end": 726,
                     "callee": {
                       "type": "MemberExpression",
-                      "start": 698,
-                      "end": 710,
                       "object": {
                         "type": "Identifier",
+                        "name": "Atomics",
                         "start": 698,
-                        "end": 705,
-                        "name": "Atomics"
+                        "end": 705
                       },
                       "property": {
                         "type": "Identifier",
+                        "name": "wait",
                         "start": 706,
-                        "end": 710,
-                        "name": "wait"
+                        "end": 710
                       },
                       "optional": false,
-                      "computed": false
+                      "computed": false,
+                      "start": 698,
+                      "end": 710
                     },
                     "arguments": [
                       {
                         "type": "Identifier",
+                        "name": "i64a",
                         "start": 711,
-                        "end": 715,
-                        "name": "i64a"
+                        "end": 715
                       },
                       {
                         "type": "Literal",
-                        "start": 717,
-                        "end": 718,
                         "value": 0,
-                        "raw": "0"
+                        "raw": "0",
+                        "start": 717,
+                        "end": 718
                       },
                       {
                         "type": "Literal",
-                        "start": 720,
-                        "end": 722,
                         "value": null,
                         "raw": "0n",
-                        "bigint": "0"
+                        "bigint": "0",
+                        "start": 720,
+                        "end": 722
                       },
                       {
                         "type": "Literal",
-                        "start": 724,
-                        "end": 725,
                         "value": 0,
-                        "raw": "0"
+                        "raw": "0",
+                        "start": 724,
+                        "end": 725
                       }
                     ],
-                    "optional": false
-                  }
+                    "optional": false,
+                    "start": 698,
+                    "end": 726
+                  },
+                  "start": 698,
+                  "end": 727
                 }
-              ]
+              ],
+              "start": 694,
+              "end": 729
             },
-            "expression": false
+            "expression": false,
+            "start": 683,
+            "end": 729
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 658,
+        "end": 730
+      },
+      "start": 658,
+      "end": 731
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 732
 }

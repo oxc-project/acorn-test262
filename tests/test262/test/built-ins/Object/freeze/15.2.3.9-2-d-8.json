@@ -1,137 +1,137 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 349,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 223,
-      "end": 254,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 227,
-          "end": 253,
           "id": {
             "type": "Identifier",
+            "name": "errObj",
             "start": 227,
-            "end": 233,
-            "name": "errObj"
+            "end": 233
           },
           "init": {
             "type": "NewExpression",
-            "start": 236,
-            "end": 253,
             "callee": {
               "type": "Identifier",
+              "name": "SyntaxError",
               "start": 240,
-              "end": 251,
-              "name": "SyntaxError"
+              "end": 251
             },
-            "arguments": []
-          }
+            "arguments": [],
+            "start": 236,
+            "end": 253
+          },
+          "start": 227,
+          "end": 253
         }
-      ]
+      ],
+      "start": 223,
+      "end": 254
     },
     {
       "type": "ExpressionStatement",
-      "start": 256,
-      "end": 278,
       "expression": {
         "type": "CallExpression",
-        "start": 256,
-        "end": 277,
         "callee": {
           "type": "MemberExpression",
-          "start": 256,
-          "end": 269,
           "object": {
             "type": "Identifier",
+            "name": "Object",
             "start": 256,
-            "end": 262,
-            "name": "Object"
+            "end": 262
           },
           "property": {
             "type": "Identifier",
+            "name": "freeze",
             "start": 263,
-            "end": 269,
-            "name": "freeze"
+            "end": 269
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 256,
+          "end": 269
         },
         "arguments": [
           {
             "type": "Identifier",
+            "name": "errObj",
             "start": 270,
-            "end": 276,
-            "name": "errObj"
+            "end": 276
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 256,
+        "end": 277
+      },
+      "start": 256,
+      "end": 278
     },
     {
       "type": "ExpressionStatement",
-      "start": 280,
-      "end": 348,
       "expression": {
         "type": "CallExpression",
-        "start": 280,
-        "end": 347,
         "callee": {
           "type": "Identifier",
+          "name": "assert",
           "start": 280,
-          "end": 286,
-          "name": "assert"
+          "end": 286
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 287,
-            "end": 310,
             "callee": {
               "type": "MemberExpression",
-              "start": 287,
-              "end": 302,
               "object": {
                 "type": "Identifier",
+                "name": "Object",
                 "start": 287,
-                "end": 293,
-                "name": "Object"
+                "end": 293
               },
               "property": {
                 "type": "Identifier",
+                "name": "isFrozen",
                 "start": 294,
-                "end": 302,
-                "name": "isFrozen"
+                "end": 302
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 287,
+              "end": 302
             },
             "arguments": [
               {
                 "type": "Identifier",
+                "name": "errObj",
                 "start": 303,
-                "end": 309,
-                "name": "errObj"
+                "end": 309
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 287,
+            "end": 310
           },
           {
             "type": "Literal",
-            "start": 312,
-            "end": 346,
             "value": "Object.isFrozen(errObj) !== true",
-            "raw": "'Object.isFrozen(errObj) !== true'"
+            "raw": "'Object.isFrozen(errObj) !== true'",
+            "start": 312,
+            "end": 346
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 280,
+        "end": 347
+      },
+      "start": 280,
+      "end": 348
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 349
 }

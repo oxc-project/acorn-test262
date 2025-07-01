@@ -1,53 +1,45 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 396,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 251,
-      "end": 270,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 255,
-          "end": 269,
           "id": {
             "type": "Identifier",
+            "name": "obj",
             "start": 255,
-            "end": 258,
-            "name": "obj"
+            "end": 258
           },
           "init": {
             "type": "Identifier",
+            "name": "Function",
             "start": 261,
-            "end": 269,
-            "name": "Function"
-          }
+            "end": 269
+          },
+          "start": 255,
+          "end": 269
         }
-      ]
+      ],
+      "start": 251,
+      "end": 270
     },
     {
       "type": "VariableDeclaration",
-      "start": 272,
-      "end": 300,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 276,
-          "end": 299,
           "id": {
             "type": "Identifier",
+            "name": "thisobj",
             "start": 276,
-            "end": 283,
-            "name": "thisobj"
+            "end": 283
           },
           "init": {
             "type": "MemberExpression",
-            "start": 286,
-            "end": 299,
             "object": {
               "type": "ThisExpression",
               "start": 286,
@@ -55,68 +47,76 @@
             },
             "property": {
               "type": "Identifier",
+              "name": "Function",
               "start": 291,
-              "end": 299,
-              "name": "Function"
+              "end": 299
             },
             "optional": false,
-            "computed": false
-          }
+            "computed": false,
+            "start": 286,
+            "end": 299
+          },
+          "start": 276,
+          "end": 299
         }
-      ]
+      ],
+      "start": 272,
+      "end": 300
     },
     {
       "type": "ExpressionStatement",
-      "start": 302,
-      "end": 395,
       "expression": {
         "type": "CallExpression",
-        "start": 302,
-        "end": 394,
         "callee": {
           "type": "MemberExpression",
-          "start": 302,
-          "end": 318,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 302,
-            "end": 308,
-            "name": "assert"
+            "end": 308
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 309,
-            "end": 318,
-            "name": "sameValue"
+            "end": 318
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 302,
+          "end": 318
         },
         "arguments": [
           {
             "type": "Identifier",
+            "name": "obj",
             "start": 319,
-            "end": 322,
-            "name": "obj"
+            "end": 322
           },
           {
             "type": "Identifier",
+            "name": "thisobj",
             "start": 324,
-            "end": 331,
-            "name": "thisobj"
+            "end": 331
           },
           {
             "type": "Literal",
-            "start": 333,
-            "end": 393,
             "value": "The value of obj is expected to equal the value of thisobj",
-            "raw": "'The value of obj is expected to equal the value of thisobj'"
+            "raw": "'The value of obj is expected to equal the value of thisobj'",
+            "start": 333,
+            "end": 393
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 302,
+        "end": 394
+      },
+      "start": 302,
+      "end": 395
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 396
 }

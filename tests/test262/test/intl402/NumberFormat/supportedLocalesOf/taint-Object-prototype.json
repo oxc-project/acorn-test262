@@ -1,92 +1,92 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 398,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 326,
-      "end": 367,
       "expression": {
         "type": "CallExpression",
-        "start": 326,
-        "end": 366,
         "callee": {
           "type": "Identifier",
+          "name": "taintDataProperty",
           "start": 326,
-          "end": 343,
-          "name": "taintDataProperty"
+          "end": 343
         },
         "arguments": [
           {
             "type": "MemberExpression",
-            "start": 344,
-            "end": 360,
             "object": {
               "type": "Identifier",
+              "name": "Object",
               "start": 344,
-              "end": 350,
-              "name": "Object"
+              "end": 350
             },
             "property": {
               "type": "Identifier",
+              "name": "prototype",
               "start": 351,
-              "end": 360,
-              "name": "prototype"
+              "end": 360
             },
             "optional": false,
-            "computed": false
+            "computed": false,
+            "start": 344,
+            "end": 360
           },
           {
             "type": "Literal",
-            "start": 362,
-            "end": 365,
             "value": "1",
-            "raw": "\"1\""
+            "raw": "\"1\"",
+            "start": 362,
+            "end": 365
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 326,
+        "end": 366
+      },
+      "start": 326,
+      "end": 367
     },
     {
       "type": "ExpressionStatement",
-      "start": 368,
-      "end": 397,
       "expression": {
         "type": "NewExpression",
-        "start": 368,
-        "end": 396,
         "callee": {
           "type": "MemberExpression",
-          "start": 372,
-          "end": 389,
           "object": {
             "type": "Identifier",
+            "name": "Intl",
             "start": 372,
-            "end": 376,
-            "name": "Intl"
+            "end": 376
           },
           "property": {
             "type": "Identifier",
+            "name": "NumberFormat",
             "start": 377,
-            "end": 389,
-            "name": "NumberFormat"
+            "end": 389
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 372,
+          "end": 389
         },
         "arguments": [
           {
             "type": "Literal",
-            "start": 390,
-            "end": 395,
             "value": "und",
-            "raw": "\"und\""
+            "raw": "\"und\"",
+            "start": 390,
+            "end": 395
           }
-        ]
-      }
+        ],
+        "start": 368,
+        "end": 396
+      },
+      "start": 368,
+      "end": 397
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 398
 }

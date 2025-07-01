@@ -1,80 +1,50 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 612,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 406,
-      "end": 502,
       "expression": {
         "type": "CallExpression",
-        "start": 406,
-        "end": 501,
         "callee": {
           "type": "ParenthesizedExpression",
-          "start": 406,
-          "end": 499,
           "expression": {
             "type": "FunctionExpression",
-            "start": 407,
-            "end": 498,
             "id": {
               "type": "Identifier",
+              "name": "FACTORY",
               "start": 416,
-              "end": 423,
-              "name": "FACTORY"
+              "end": 423
             },
             "generator": false,
             "async": false,
             "params": [],
             "body": {
               "type": "BlockStatement",
-              "start": 426,
-              "end": 498,
               "body": [
                 {
                   "type": "ExpressionStatement",
-                  "start": 430,
-                  "end": 496,
                   "expression": {
                     "type": "CallExpression",
-                    "start": 430,
-                    "end": 495,
                     "callee": {
                       "type": "MemberExpression",
-                      "start": 430,
-                      "end": 484,
                       "object": {
                         "type": "ParenthesizedExpression",
-                        "start": 430,
-                        "end": 478,
                         "expression": {
                           "type": "FunctionExpression",
-                          "start": 431,
-                          "end": 477,
                           "id": null,
                           "generator": false,
                           "async": false,
                           "params": [],
                           "body": {
                             "type": "BlockStatement",
-                            "start": 442,
-                            "end": 477,
                             "body": [
                               {
                                 "type": "ExpressionStatement",
-                                "start": 448,
-                                "end": 473,
                                 "expression": {
                                   "type": "AssignmentExpression",
-                                  "start": 448,
-                                  "end": 473,
                                   "operator": "=",
                                   "left": {
                                     "type": "MemberExpression",
-                                    "start": 448,
-                                    "end": 457,
                                     "object": {
                                       "type": "ThisExpression",
                                       "start": 448,
@@ -82,88 +52,110 @@
                                     },
                                     "property": {
                                       "type": "Identifier",
+                                      "name": "feat",
                                       "start": 453,
-                                      "end": 457,
-                                      "name": "feat"
+                                      "end": 457
                                     },
                                     "optional": false,
-                                    "computed": false
+                                    "computed": false,
+                                    "start": 448,
+                                    "end": 457
                                   },
                                   "right": {
                                     "type": "Literal",
-                                    "start": 460,
-                                    "end": 473,
                                     "value": "kamon beyba",
-                                    "raw": "\"kamon beyba\""
-                                  }
-                                }
+                                    "raw": "\"kamon beyba\"",
+                                    "start": 460,
+                                    "end": 473
+                                  },
+                                  "start": 448,
+                                  "end": 473
+                                },
+                                "start": 448,
+                                "end": 473
                               }
-                            ]
+                            ],
+                            "start": 442,
+                            "end": 477
                           },
-                          "expression": false
-                        }
+                          "expression": false,
+                          "start": 431,
+                          "end": 477
+                        },
+                        "start": 430,
+                        "end": 478
                       },
                       "property": {
                         "type": "Identifier",
+                        "name": "apply",
                         "start": 479,
-                        "end": 484,
-                        "name": "apply"
+                        "end": 484
                       },
                       "optional": false,
-                      "computed": false
+                      "computed": false,
+                      "start": 430,
+                      "end": 484
                     },
                     "arguments": [
                       {
                         "type": "Identifier",
+                        "name": "undefined",
                         "start": 485,
-                        "end": 494,
-                        "name": "undefined"
+                        "end": 494
                       }
                     ],
-                    "optional": false
-                  }
+                    "optional": false,
+                    "start": 430,
+                    "end": 495
+                  },
+                  "start": 430,
+                  "end": 496
                 }
-              ]
+              ],
+              "start": 426,
+              "end": 498
             },
-            "expression": false
-          }
+            "expression": false,
+            "start": 407,
+            "end": 498
+          },
+          "start": 406,
+          "end": 499
         },
         "arguments": [],
-        "optional": false
-      }
+        "optional": false,
+        "start": 406,
+        "end": 501
+      },
+      "start": 406,
+      "end": 502
     },
     {
       "type": "ExpressionStatement",
-      "start": 504,
-      "end": 611,
       "expression": {
         "type": "CallExpression",
-        "start": 504,
-        "end": 610,
         "callee": {
           "type": "MemberExpression",
-          "start": 504,
-          "end": 520,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 504,
-            "end": 510,
-            "name": "assert"
+            "end": 510
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 511,
-            "end": 520,
-            "name": "sameValue"
+            "end": 520
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 504,
+          "end": 520
         },
         "arguments": [
           {
             "type": "MemberExpression",
-            "start": 521,
-            "end": 533,
             "object": {
               "type": "ThisExpression",
               "start": 521,
@@ -171,33 +163,41 @@
             },
             "property": {
               "type": "Literal",
-              "start": 526,
-              "end": 532,
               "value": "feat",
-              "raw": "\"feat\""
+              "raw": "\"feat\"",
+              "start": 526,
+              "end": 532
             },
             "optional": false,
-            "computed": true
+            "computed": true,
+            "start": 521,
+            "end": 533
           },
           {
             "type": "Literal",
-            "start": 535,
-            "end": 548,
             "value": "kamon beyba",
-            "raw": "\"kamon beyba\""
+            "raw": "\"kamon beyba\"",
+            "start": 535,
+            "end": 548
           },
           {
             "type": "Literal",
-            "start": 550,
-            "end": 609,
             "value": "The value of this[\"feat\"] is expected to be \"kamon beyba\"",
-            "raw": "'The value of this[\"feat\"] is expected to be \"kamon beyba\"'"
+            "raw": "'The value of this[\"feat\"] is expected to be \"kamon beyba\"'",
+            "start": 550,
+            "end": 609
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 504,
+        "end": 610
+      },
+      "start": 504,
+      "end": 611
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 612
 }

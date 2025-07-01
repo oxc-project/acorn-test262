@@ -2,26 +2,20 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 63,
   "body": [
     {
       "type": "ExportNamedDeclaration",
-      "start": 0,
-      "end": 26,
       "declaration": {
         "type": "ClassDeclaration",
-        "start": 7,
-        "end": 26,
         "decorators": [],
         "id": {
           "type": "Identifier",
-          "start": 21,
-          "end": 22,
           "decorators": [],
           "name": "D",
           "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "start": 21,
+          "end": 22
         },
         "typeParameters": null,
         "superClass": null,
@@ -29,64 +23,70 @@ __ESTREE_TEST__:PASS:
         "implements": [],
         "body": {
           "type": "ClassBody",
+          "body": [],
           "start": 23,
-          "end": 26,
-          "body": []
+          "end": 26
         },
         "abstract": false,
-        "declare": true
+        "declare": true,
+        "start": 7,
+        "end": 26
       },
       "specifiers": [],
       "source": null,
       "exportKind": "type",
-      "attributes": []
+      "attributes": [],
+      "start": 0,
+      "end": 26
     },
     {
       "type": "ExportNamedDeclaration",
-      "start": 27,
-      "end": 63,
       "declaration": {
         "type": "ClassDeclaration",
-        "start": 34,
-        "end": 63,
         "decorators": [],
         "id": {
           "type": "Identifier",
-          "start": 48,
-          "end": 49,
           "decorators": [],
           "name": "E",
           "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "start": 48,
+          "end": 49
         },
         "typeParameters": null,
         "superClass": {
           "type": "Identifier",
-          "start": 58,
-          "end": 59,
           "decorators": [],
           "name": "D",
           "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "start": 58,
+          "end": 59
         },
         "superTypeArguments": null,
         "implements": [],
         "body": {
           "type": "ClassBody",
+          "body": [],
           "start": 60,
-          "end": 63,
-          "body": []
+          "end": 63
         },
         "abstract": false,
-        "declare": true
+        "declare": true,
+        "start": 34,
+        "end": 63
       },
       "specifiers": [],
       "source": null,
       "exportKind": "type",
-      "attributes": []
+      "attributes": [],
+      "start": 27,
+      "end": 63
     }
   ],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 63
 }
 ```

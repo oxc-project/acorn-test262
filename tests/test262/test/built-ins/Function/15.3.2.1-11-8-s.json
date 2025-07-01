@@ -1,69 +1,69 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 530,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 472,
-      "end": 529,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 476,
-          "end": 528,
           "id": {
             "type": "Identifier",
+            "name": "foo",
             "start": 476,
-            "end": 479,
-            "name": "foo"
+            "end": 479
           },
           "init": {
             "type": "NewExpression",
-            "start": 482,
-            "end": 528,
             "callee": {
               "type": "Identifier",
+              "name": "Function",
               "start": 486,
-              "end": 494,
-              "name": "Function"
+              "end": 494
             },
             "arguments": [
               {
                 "type": "Literal",
+                "value": "baz",
+                "raw": "\"baz\"",
                 "start": 495,
-                "end": 500,
-                "value": "baz",
-                "raw": "\"baz\""
+                "end": 500
               },
               {
                 "type": "Literal",
-                "start": 502,
-                "end": 507,
                 "value": "qux",
-                "raw": "\"qux\""
+                "raw": "\"qux\"",
+                "start": 502,
+                "end": 507
               },
               {
                 "type": "Literal",
-                "start": 509,
-                "end": 514,
                 "value": "baz",
-                "raw": "\"baz\""
+                "raw": "\"baz\"",
+                "start": 509,
+                "end": 514
               },
               {
                 "type": "Literal",
-                "start": 516,
-                "end": 527,
                 "value": "return 0;",
-                "raw": "\"return 0;\""
+                "raw": "\"return 0;\"",
+                "start": 516,
+                "end": 527
               }
-            ]
-          }
+            ],
+            "start": 482,
+            "end": 528
+          },
+          "start": 476,
+          "end": 528
         }
-      ]
+      ],
+      "start": 472,
+      "end": 529
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 530
 }

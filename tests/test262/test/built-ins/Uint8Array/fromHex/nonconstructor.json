@@ -1,168 +1,168 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 488,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 328,
-      "end": 414,
       "expression": {
         "type": "CallExpression",
-        "start": 328,
-        "end": 413,
         "callee": {
           "type": "Identifier",
+          "name": "assert",
           "start": 328,
-          "end": 334,
-          "name": "assert"
+          "end": 334
         },
         "arguments": [
           {
             "type": "UnaryExpression",
-            "start": 335,
-            "end": 369,
             "operator": "!",
             "argument": {
               "type": "CallExpression",
-              "start": 336,
-              "end": 369,
               "callee": {
                 "type": "Identifier",
+                "name": "isConstructor",
                 "start": 336,
-                "end": 349,
-                "name": "isConstructor"
+                "end": 349
               },
               "arguments": [
                 {
                   "type": "MemberExpression",
-                  "start": 350,
-                  "end": 368,
                   "object": {
                     "type": "Identifier",
+                    "name": "Uint8Array",
                     "start": 350,
-                    "end": 360,
-                    "name": "Uint8Array"
+                    "end": 360
                   },
                   "property": {
                     "type": "Identifier",
+                    "name": "fromHex",
                     "start": 361,
-                    "end": 368,
-                    "name": "fromHex"
+                    "end": 368
                   },
                   "optional": false,
-                  "computed": false
+                  "computed": false,
+                  "start": 350,
+                  "end": 368
                 }
               ],
-              "optional": false
+              "optional": false,
+              "start": 336,
+              "end": 369
             },
-            "prefix": true
+            "prefix": true,
+            "start": 335,
+            "end": 369
           },
           {
             "type": "Literal",
-            "start": 371,
-            "end": 412,
             "value": "Uint8Array.fromHex is not a constructor",
-            "raw": "\"Uint8Array.fromHex is not a constructor\""
+            "raw": "\"Uint8Array.fromHex is not a constructor\"",
+            "start": 371,
+            "end": 412
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 328,
+        "end": 413
+      },
+      "start": 328,
+      "end": 414
     },
     {
       "type": "ExpressionStatement",
-      "start": 416,
-      "end": 487,
       "expression": {
         "type": "CallExpression",
-        "start": 416,
-        "end": 486,
         "callee": {
           "type": "MemberExpression",
-          "start": 416,
-          "end": 429,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 416,
-            "end": 422,
-            "name": "assert"
+            "end": 422
           },
           "property": {
             "type": "Identifier",
+            "name": "throws",
             "start": 423,
-            "end": 429,
-            "name": "throws"
+            "end": 429
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 416,
+          "end": 429
         },
         "arguments": [
           {
             "type": "Identifier",
+            "name": "TypeError",
             "start": 430,
-            "end": 439,
-            "name": "TypeError"
+            "end": 439
           },
           {
             "type": "FunctionExpression",
-            "start": 441,
-            "end": 485,
             "id": null,
             "generator": false,
             "async": false,
             "params": [],
             "body": {
               "type": "BlockStatement",
-              "start": 452,
-              "end": 485,
               "body": [
                 {
                   "type": "ExpressionStatement",
-                  "start": 456,
-                  "end": 483,
                   "expression": {
                     "type": "NewExpression",
-                    "start": 456,
-                    "end": 482,
                     "callee": {
                       "type": "MemberExpression",
-                      "start": 460,
-                      "end": 478,
                       "object": {
                         "type": "Identifier",
+                        "name": "Uint8Array",
                         "start": 460,
-                        "end": 470,
-                        "name": "Uint8Array"
+                        "end": 470
                       },
                       "property": {
                         "type": "Identifier",
+                        "name": "fromHex",
                         "start": 471,
-                        "end": 478,
-                        "name": "fromHex"
+                        "end": 478
                       },
                       "optional": false,
-                      "computed": false
+                      "computed": false,
+                      "start": 460,
+                      "end": 478
                     },
                     "arguments": [
                       {
                         "type": "Literal",
-                        "start": 479,
-                        "end": 481,
                         "value": "",
-                        "raw": "''"
+                        "raw": "''",
+                        "start": 479,
+                        "end": 481
                       }
-                    ]
-                  }
+                    ],
+                    "start": 456,
+                    "end": 482
+                  },
+                  "start": 456,
+                  "end": 483
                 }
-              ]
+              ],
+              "start": 452,
+              "end": 485
             },
-            "expression": false
+            "expression": false,
+            "start": 441,
+            "end": 485
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 416,
+        "end": 486
+      },
+      "start": 416,
+      "end": 487
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 488
 }

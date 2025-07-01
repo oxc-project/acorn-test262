@@ -2,32 +2,28 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 0,
   "body": [],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 0
 }
 ```
 __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 52,
   "body": [
     {
       "type": "FunctionDeclaration",
-      "start": 0,
-      "end": 52,
       "id": {
         "type": "Identifier",
-        "start": 9,
-        "end": 12,
         "decorators": [],
         "name": "foo",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 9,
+        "end": 12
       },
       "generator": false,
       "async": false,
@@ -37,52 +33,56 @@ __ESTREE_TEST__:PASS:
       "returnType": null,
       "body": {
         "type": "BlockStatement",
-        "start": 15,
-        "end": 52,
         "body": [
           {
             "type": "ExpressionStatement",
-            "start": 21,
-            "end": 50,
             "expression": {
               "type": "AwaitExpression",
-              "start": 21,
-              "end": 49,
               "argument": {
                 "type": "NewExpression",
-                "start": 27,
-                "end": 49,
                 "callee": {
                   "type": "Identifier",
-                  "start": 31,
-                  "end": 38,
                   "decorators": [],
                   "name": "Promise",
                   "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "start": 31,
+                  "end": 38
                 },
                 "typeArguments": null,
                 "arguments": [
                   {
                     "type": "Identifier",
-                    "start": 39,
-                    "end": 48,
                     "decorators": [],
                     "name": "undefined",
                     "optional": false,
-                    "typeAnnotation": null
+                    "typeAnnotation": null,
+                    "start": 39,
+                    "end": 48
                   }
-                ]
-              }
+                ],
+                "start": 27,
+                "end": 49
+              },
+              "start": 21,
+              "end": 49
             },
-            "directive": null
+            "directive": null,
+            "start": 21,
+            "end": 50
           }
-        ]
+        ],
+        "start": 15,
+        "end": 52
       },
-      "expression": false
+      "expression": false,
+      "start": 0,
+      "end": 52
     }
   ],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 52
 }
 ```

@@ -1,102 +1,102 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 340,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 272,
-      "end": 339,
       "expression": {
         "type": "CallExpression",
-        "start": 272,
-        "end": 338,
         "callee": {
           "type": "MemberExpression",
-          "start": 272,
-          "end": 285,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 272,
-            "end": 278,
-            "name": "assert"
+            "end": 278
           },
           "property": {
             "type": "Identifier",
+            "name": "throws",
             "start": 279,
-            "end": 285,
-            "name": "throws"
+            "end": 285
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 272,
+          "end": 285
         },
         "arguments": [
           {
             "type": "Identifier",
+            "name": "TypeError",
             "start": 286,
-            "end": 295,
-            "name": "TypeError"
+            "end": 295
           },
           {
             "type": "FunctionExpression",
-            "start": 297,
-            "end": 337,
             "id": null,
             "generator": false,
             "async": false,
             "params": [],
             "body": {
               "type": "BlockStatement",
-              "start": 308,
-              "end": 337,
               "body": [
                 {
                   "type": "ExpressionStatement",
-                  "start": 312,
-                  "end": 335,
                   "expression": {
                     "type": "CallExpression",
-                    "start": 312,
-                    "end": 334,
                     "callee": {
                       "type": "MemberExpression",
-                      "start": 312,
-                      "end": 323,
                       "object": {
                         "type": "Identifier",
+                        "name": "Object",
                         "start": 312,
-                        "end": 318,
-                        "name": "Object"
+                        "end": 318
                       },
                       "property": {
                         "type": "Identifier",
+                        "name": "keys",
                         "start": 319,
-                        "end": 323,
-                        "name": "keys"
+                        "end": 323
                       },
                       "optional": false,
-                      "computed": false
+                      "computed": false,
+                      "start": 312,
+                      "end": 323
                     },
                     "arguments": [
                       {
                         "type": "Identifier",
+                        "name": "undefined",
                         "start": 324,
-                        "end": 333,
-                        "name": "undefined"
+                        "end": 333
                       }
                     ],
-                    "optional": false
-                  }
+                    "optional": false,
+                    "start": 312,
+                    "end": 334
+                  },
+                  "start": 312,
+                  "end": 335
                 }
-              ]
+              ],
+              "start": 308,
+              "end": 337
             },
-            "expression": false
+            "expression": false,
+            "start": 297,
+            "end": 337
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 272,
+        "end": 338
+      },
+      "start": 272,
+      "end": 339
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 340
 }

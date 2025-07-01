@@ -1,80 +1,80 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 508,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 443,
-      "end": 507,
       "expression": {
         "type": "CallExpression",
-        "start": 443,
-        "end": 506,
         "callee": {
           "type": "MemberExpression",
-          "start": 443,
-          "end": 459,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 443,
-            "end": 449,
-            "name": "assert"
+            "end": 449
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 450,
-            "end": 459,
-            "name": "sameValue"
+            "end": 459
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 443,
+          "end": 459
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 460,
-            "end": 493,
             "callee": {
               "type": "MemberExpression",
-              "start": 460,
-              "end": 481,
               "object": {
                 "type": "Identifier",
+                "name": "Object",
                 "start": 460,
-                "end": 466,
-                "name": "Object"
+                "end": 466
               },
               "property": {
                 "type": "Identifier",
+                "name": "getPrototypeOf",
                 "start": 467,
-                "end": 481,
-                "name": "getPrototypeOf"
+                "end": 481
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 460,
+              "end": 481
             },
             "arguments": [
               {
                 "type": "Identifier",
+                "name": "Uint8Array",
                 "start": 482,
-                "end": 492,
-                "name": "Uint8Array"
+                "end": 492
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 460,
+            "end": 493
           },
           {
             "type": "Identifier",
+            "name": "TypedArray",
             "start": 495,
-            "end": 505,
-            "name": "TypedArray"
+            "end": 505
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 443,
+        "end": 506
+      },
+      "start": 443,
+      "end": 507
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 508
 }

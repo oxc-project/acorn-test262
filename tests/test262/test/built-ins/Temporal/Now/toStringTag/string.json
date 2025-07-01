@@ -1,81 +1,81 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 379,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 314,
-      "end": 378,
       "expression": {
         "type": "CallExpression",
-        "start": 314,
-        "end": 377,
         "callee": {
           "type": "MemberExpression",
-          "start": 314,
-          "end": 330,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 314,
-            "end": 320,
-            "name": "assert"
+            "end": 320
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 321,
-            "end": 330,
-            "name": "sameValue"
+            "end": 330
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 314,
+          "end": 330
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 331,
-            "end": 351,
             "callee": {
               "type": "Identifier",
+              "name": "String",
               "start": 331,
-              "end": 337,
-              "name": "String"
+              "end": 337
             },
             "arguments": [
               {
                 "type": "MemberExpression",
-                "start": 338,
-                "end": 350,
                 "object": {
                   "type": "Identifier",
+                  "name": "Temporal",
                   "start": 338,
-                  "end": 346,
-                  "name": "Temporal"
+                  "end": 346
                 },
                 "property": {
                   "type": "Identifier",
+                  "name": "Now",
                   "start": 347,
-                  "end": 350,
-                  "name": "Now"
+                  "end": 350
                 },
                 "optional": false,
-                "computed": false
+                "computed": false,
+                "start": 338,
+                "end": 350
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 331,
+            "end": 351
           },
           {
             "type": "Literal",
-            "start": 353,
-            "end": 376,
             "value": "[object Temporal.Now]",
-            "raw": "\"[object Temporal.Now]\""
+            "raw": "\"[object Temporal.Now]\"",
+            "start": 353,
+            "end": 376
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 314,
+        "end": 377
+      },
+      "start": 314,
+      "end": 378
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 379
 }

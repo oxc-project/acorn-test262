@@ -2,76 +2,76 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 55,
   "body": [
     {
       "type": "LabeledStatement",
-      "start": 0,
-      "end": 55,
       "label": {
         "type": "Identifier",
-        "start": 0,
-        "end": 6,
         "decorators": [],
         "name": "target",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 0,
+        "end": 6
       },
       "body": {
         "type": "WhileStatement",
-        "start": 8,
-        "end": 55,
         "test": {
           "type": "Literal",
-          "start": 15,
-          "end": 19,
           "value": true,
-          "raw": "true"
+          "raw": "true",
+          "start": 15,
+          "end": 19
         },
         "body": {
           "type": "BlockStatement",
-          "start": 21,
-          "end": 55,
           "body": [
             {
               "type": "LabeledStatement",
-              "start": 25,
-              "end": 53,
               "label": {
                 "type": "Identifier",
-                "start": 25,
-                "end": 31,
                 "decorators": [],
                 "name": "target",
                 "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "start": 25,
+                "end": 31
               },
               "body": {
                 "type": "WhileStatement",
-                "start": 35,
-                "end": 53,
                 "test": {
                   "type": "Literal",
-                  "start": 42,
-                  "end": 46,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "start": 42,
+                  "end": 46
                 },
                 "body": {
                   "type": "BlockStatement",
+                  "body": [],
                   "start": 48,
-                  "end": 53,
-                  "body": []
-                }
-              }
+                  "end": 53
+                },
+                "start": 35,
+                "end": 53
+              },
+              "start": 25,
+              "end": 53
             }
-          ]
-        }
-      }
+          ],
+          "start": 21,
+          "end": 55
+        },
+        "start": 8,
+        "end": 55
+      },
+      "start": 0,
+      "end": 55
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 55
 }
 ```

@@ -1,133 +1,133 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 414,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 259,
-      "end": 354,
       "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 265,
-          "end": 353,
           "id": {
             "type": "Identifier",
+            "name": "instant",
             "start": 265,
-            "end": 272,
-            "name": "instant"
+            "end": 272
           },
           "init": {
             "type": "CallExpression",
-            "start": 275,
-            "end": 353,
             "callee": {
               "type": "MemberExpression",
-              "start": 275,
-              "end": 296,
               "object": {
                 "type": "MemberExpression",
-                "start": 275,
-                "end": 291,
                 "object": {
                   "type": "Identifier",
+                  "name": "Temporal",
                   "start": 275,
-                  "end": 283,
-                  "name": "Temporal"
+                  "end": 283
                 },
                 "property": {
                   "type": "Identifier",
+                  "name": "Instant",
                   "start": 284,
-                  "end": 291,
-                  "name": "Instant"
+                  "end": 291
                 },
                 "optional": false,
-                "computed": false
+                "computed": false,
+                "start": 275,
+                "end": 291
               },
               "property": {
                 "type": "Identifier",
+                "name": "from",
                 "start": 292,
-                "end": 296,
-                "name": "from"
+                "end": 296
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 275,
+              "end": 296
             },
             "arguments": [
               {
                 "type": "Literal",
-                "start": 297,
-                "end": 352,
                 "value": "1975-02-02T14:25:36.123456789+01:00[Invalid/TimeZone]",
-                "raw": "\"1975-02-02T14:25:36.123456789+01:00[Invalid/TimeZone]\""
+                "raw": "\"1975-02-02T14:25:36.123456789+01:00[Invalid/TimeZone]\"",
+                "start": 297,
+                "end": 352
               }
             ],
-            "optional": false
-          }
+            "optional": false,
+            "start": 275,
+            "end": 353
+          },
+          "start": 265,
+          "end": 353
         }
-      ]
+      ],
+      "start": 259,
+      "end": 354
     },
     {
       "type": "ExpressionStatement",
-      "start": 355,
-      "end": 413,
       "expression": {
         "type": "CallExpression",
-        "start": 355,
-        "end": 412,
         "callee": {
           "type": "MemberExpression",
-          "start": 355,
-          "end": 371,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 355,
-            "end": 361,
-            "name": "assert"
+            "end": 361
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 362,
-            "end": 371,
-            "name": "sameValue"
+            "end": 371
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 355,
+          "end": 371
         },
         "arguments": [
           {
             "type": "MemberExpression",
-            "start": 372,
-            "end": 397,
             "object": {
               "type": "Identifier",
+              "name": "instant",
               "start": 372,
-              "end": 379,
-              "name": "instant"
+              "end": 379
             },
             "property": {
               "type": "Identifier",
+              "name": "epochMilliseconds",
               "start": 380,
-              "end": 397,
-              "name": "epochMilliseconds"
+              "end": 397
             },
             "optional": false,
-            "computed": false
+            "computed": false,
+            "start": 372,
+            "end": 397
           },
           {
             "type": "Literal",
-            "start": 399,
-            "end": 411,
             "value": 160579536123,
-            "raw": "160579536123"
+            "raw": "160579536123",
+            "start": 399,
+            "end": 411
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 355,
+        "end": 412
+      },
+      "start": 355,
+      "end": 413
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 414
 }

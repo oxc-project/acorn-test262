@@ -1,92 +1,92 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 421,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 350,
-      "end": 391,
       "expression": {
         "type": "CallExpression",
-        "start": 350,
-        "end": 390,
         "callee": {
           "type": "Identifier",
+          "name": "taintDataProperty",
           "start": 350,
-          "end": 367,
-          "name": "taintDataProperty"
+          "end": 367
         },
         "arguments": [
           {
             "type": "MemberExpression",
-            "start": 368,
-            "end": 384,
             "object": {
               "type": "Identifier",
+              "name": "Object",
               "start": 368,
-              "end": 374,
-              "name": "Object"
+              "end": 374
             },
             "property": {
               "type": "Identifier",
+              "name": "prototype",
               "start": 375,
-              "end": 384,
-              "name": "prototype"
+              "end": 384
             },
             "optional": false,
-            "computed": false
+            "computed": false,
+            "start": 368,
+            "end": 384
           },
           {
             "type": "Literal",
-            "start": 386,
-            "end": 389,
             "value": "1",
-            "raw": "\"1\""
+            "raw": "\"1\"",
+            "start": 386,
+            "end": 389
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 350,
+        "end": 390
+      },
+      "start": 350,
+      "end": 391
     },
     {
       "type": "ExpressionStatement",
-      "start": 392,
-      "end": 420,
       "expression": {
         "type": "NewExpression",
-        "start": 392,
-        "end": 419,
         "callee": {
           "type": "MemberExpression",
-          "start": 396,
-          "end": 412,
           "object": {
             "type": "Identifier",
+            "name": "Intl",
             "start": 396,
-            "end": 400,
-            "name": "Intl"
+            "end": 400
           },
           "property": {
             "type": "Identifier",
+            "name": "PluralRules",
             "start": 401,
-            "end": 412,
-            "name": "PluralRules"
+            "end": 412
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 396,
+          "end": 412
         },
         "arguments": [
           {
             "type": "Literal",
-            "start": 413,
-            "end": 418,
             "value": "und",
-            "raw": "\"und\""
+            "raw": "\"und\"",
+            "start": 413,
+            "end": 418
           }
-        ]
-      }
+        ],
+        "start": 392,
+        "end": 419
+      },
+      "start": 392,
+      "end": 420
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 421
 }

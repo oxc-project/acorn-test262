@@ -1,98 +1,98 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 459,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 392,
-      "end": 405,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 396,
-          "end": 404,
           "id": {
             "type": "Identifier",
+            "name": "o",
             "start": 396,
-            "end": 397,
-            "name": "o"
+            "end": 397
           },
           "init": {
             "type": "Identifier",
+            "name": "JSON",
             "start": 400,
-            "end": 404,
-            "name": "JSON"
-          }
+            "end": 404
+          },
+          "start": 396,
+          "end": 404
         }
-      ]
+      ],
+      "start": 392,
+      "end": 405
     },
     {
       "type": "ExpressionStatement",
-      "start": 407,
-      "end": 458,
       "expression": {
         "type": "CallExpression",
-        "start": 407,
-        "end": 457,
         "callee": {
           "type": "MemberExpression",
-          "start": 407,
-          "end": 423,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 407,
-            "end": 413,
-            "name": "assert"
+            "end": 413
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 414,
-            "end": 423,
-            "name": "sameValue"
+            "end": 423
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 407,
+          "end": 423
         },
         "arguments": [
           {
             "type": "UnaryExpression",
-            "start": 424,
-            "end": 433,
             "operator": "typeof",
             "argument": {
               "type": "ParenthesizedExpression",
-              "start": 430,
-              "end": 433,
               "expression": {
                 "type": "Identifier",
+                "name": "o",
                 "start": 431,
-                "end": 432,
-                "name": "o"
-              }
+                "end": 432
+              },
+              "start": 430,
+              "end": 433
             },
-            "prefix": true
+            "prefix": true,
+            "start": 424,
+            "end": 433
           },
           {
             "type": "Literal",
-            "start": 435,
-            "end": 443,
             "value": "object",
-            "raw": "\"object\""
+            "raw": "\"object\"",
+            "start": 435,
+            "end": 443
           },
           {
             "type": "Literal",
-            "start": 445,
-            "end": 456,
             "value": "typeof(o)",
-            "raw": "'typeof(o)'"
+            "raw": "'typeof(o)'",
+            "start": 445,
+            "end": 456
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 407,
+        "end": 457
+      },
+      "start": 407,
+      "end": 458
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 459
 }

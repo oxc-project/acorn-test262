@@ -1,279 +1,279 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 749,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 329,
-      "end": 357,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 333,
-          "end": 356,
           "id": {
             "type": "Identifier",
+            "name": "__re",
             "start": 333,
-            "end": 337,
-            "name": "__re"
+            "end": 337
           },
           "init": {
             "type": "MemberExpression",
-            "start": 340,
-            "end": 356,
             "object": {
               "type": "Identifier",
+              "name": "RegExp",
               "start": 340,
-              "end": 346,
-              "name": "RegExp"
+              "end": 346
             },
             "property": {
               "type": "Identifier",
+              "name": "prototype",
               "start": 347,
-              "end": 356,
-              "name": "prototype"
+              "end": 356
             },
             "optional": false,
-            "computed": false
-          }
+            "computed": false,
+            "start": 340,
+            "end": 356
+          },
+          "start": 333,
+          "end": 356
         }
-      ]
+      ],
+      "start": 329,
+      "end": 357
     },
     {
       "type": "ExpressionStatement",
-      "start": 359,
-      "end": 473,
       "expression": {
         "type": "CallExpression",
-        "start": 359,
-        "end": 472,
         "callee": {
           "type": "MemberExpression",
-          "start": 359,
-          "end": 375,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 359,
-            "end": 365,
-            "name": "assert"
+            "end": 365
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 366,
-            "end": 375,
-            "name": "sameValue"
+            "end": 375
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 359,
+          "end": 375
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 376,
-            "end": 409,
             "callee": {
               "type": "MemberExpression",
-              "start": 376,
-              "end": 395,
               "object": {
                 "type": "Identifier",
+                "name": "__re",
                 "start": 376,
-                "end": 380,
-                "name": "__re"
+                "end": 380
               },
               "property": {
                 "type": "Identifier",
+                "name": "hasOwnProperty",
                 "start": 381,
-                "end": 395,
-                "name": "hasOwnProperty"
+                "end": 395
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 376,
+              "end": 395
             },
             "arguments": [
               {
                 "type": "Literal",
-                "start": 396,
-                "end": 408,
                 "value": "ignoreCase",
-                "raw": "'ignoreCase'"
+                "raw": "'ignoreCase'",
+                "start": 396,
+                "end": 408
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 376,
+            "end": 409
           },
           {
             "type": "Literal",
-            "start": 411,
-            "end": 415,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "start": 411,
+            "end": 415
           },
           {
             "type": "Literal",
-            "start": 417,
-            "end": 471,
             "value": "__re.hasOwnProperty('ignoreCase') must return true",
-            "raw": "'__re.hasOwnProperty(\\'ignoreCase\\') must return true'"
+            "raw": "'__re.hasOwnProperty(\\'ignoreCase\\') must return true'",
+            "start": 417,
+            "end": 471
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 359,
+        "end": 472
+      },
+      "start": 359,
+      "end": 473
     },
     {
       "type": "ExpressionStatement",
-      "start": 474,
-      "end": 585,
       "expression": {
         "type": "CallExpression",
-        "start": 474,
-        "end": 584,
         "callee": {
           "type": "MemberExpression",
-          "start": 474,
-          "end": 490,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 474,
-            "end": 480,
-            "name": "assert"
+            "end": 480
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 481,
-            "end": 490,
-            "name": "sameValue"
+            "end": 490
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 474,
+          "end": 490
         },
         "arguments": [
           {
             "type": "UnaryExpression",
-            "start": 491,
-            "end": 513,
             "operator": "delete",
             "argument": {
               "type": "MemberExpression",
-              "start": 498,
-              "end": 513,
               "object": {
                 "type": "Identifier",
+                "name": "__re",
                 "start": 498,
-                "end": 502,
-                "name": "__re"
+                "end": 502
               },
               "property": {
                 "type": "Identifier",
+                "name": "ignoreCase",
                 "start": 503,
-                "end": 513,
-                "name": "ignoreCase"
+                "end": 513
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 498,
+              "end": 513
             },
-            "prefix": true
+            "prefix": true,
+            "start": 491,
+            "end": 513
           },
           {
             "type": "Literal",
-            "start": 515,
-            "end": 519,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "start": 515,
+            "end": 519
           },
           {
             "type": "Literal",
-            "start": 521,
-            "end": 583,
             "value": "The value of `delete __re.ignoreCase` is expected to be true",
-            "raw": "'The value of `delete __re.ignoreCase` is expected to be true'"
+            "raw": "'The value of `delete __re.ignoreCase` is expected to be true'",
+            "start": 521,
+            "end": 583
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 474,
+        "end": 584
+      },
+      "start": 474,
+      "end": 585
     },
     {
       "type": "ExpressionStatement",
-      "start": 586,
-      "end": 702,
       "expression": {
         "type": "CallExpression",
-        "start": 586,
-        "end": 701,
         "callee": {
           "type": "MemberExpression",
-          "start": 586,
-          "end": 602,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 586,
-            "end": 592,
-            "name": "assert"
+            "end": 592
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 593,
-            "end": 602,
-            "name": "sameValue"
+            "end": 602
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 586,
+          "end": 602
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 603,
-            "end": 636,
             "callee": {
               "type": "MemberExpression",
-              "start": 603,
-              "end": 622,
               "object": {
                 "type": "Identifier",
+                "name": "__re",
                 "start": 603,
-                "end": 607,
-                "name": "__re"
+                "end": 607
               },
               "property": {
                 "type": "Identifier",
+                "name": "hasOwnProperty",
                 "start": 608,
-                "end": 622,
-                "name": "hasOwnProperty"
+                "end": 622
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 603,
+              "end": 622
             },
             "arguments": [
               {
                 "type": "Literal",
-                "start": 623,
-                "end": 635,
                 "value": "ignoreCase",
-                "raw": "'ignoreCase'"
+                "raw": "'ignoreCase'",
+                "start": 623,
+                "end": 635
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 603,
+            "end": 636
           },
           {
             "type": "Literal",
-            "start": 638,
-            "end": 643,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "start": 638,
+            "end": 643
           },
           {
             "type": "Literal",
-            "start": 645,
-            "end": 700,
             "value": "__re.hasOwnProperty('ignoreCase') must return false",
-            "raw": "'__re.hasOwnProperty(\\'ignoreCase\\') must return false'"
+            "raw": "'__re.hasOwnProperty(\\'ignoreCase\\') must return false'",
+            "start": 645,
+            "end": 700
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 586,
+        "end": 701
+      },
+      "start": 586,
+      "end": 702
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 749
 }

@@ -1,87 +1,87 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 307,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 240,
-      "end": 306,
       "expression": {
         "type": "CallExpression",
-        "start": 240,
-        "end": 305,
         "callee": {
           "type": "MemberExpression",
-          "start": 240,
-          "end": 256,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 240,
-            "end": 246,
-            "name": "assert"
+            "end": 246
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 247,
-            "end": 256,
-            "name": "sameValue"
+            "end": 256
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 240,
+          "end": 256
         },
         "arguments": [
           {
             "type": "MemberExpression",
-            "start": 257,
-            "end": 277,
             "object": {
               "type": "MemberExpression",
-              "start": 257,
-              "end": 270,
               "object": {
                 "type": "Identifier",
+                "name": "Object",
                 "start": 257,
-                "end": 263,
-                "name": "Object"
+                "end": 263
               },
               "property": {
                 "type": "Identifier",
+                "name": "freeze",
                 "start": 264,
-                "end": 270,
-                "name": "freeze"
+                "end": 270
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 257,
+              "end": 270
             },
             "property": {
               "type": "Identifier",
+              "name": "length",
               "start": 271,
-              "end": 277,
-              "name": "length"
+              "end": 277
             },
             "optional": false,
-            "computed": false
+            "computed": false,
+            "start": 257,
+            "end": 277
           },
           {
             "type": "Literal",
-            "start": 279,
-            "end": 280,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "start": 279,
+            "end": 280
           },
           {
             "type": "Literal",
-            "start": 282,
-            "end": 304,
             "value": "Object.freeze.length",
-            "raw": "'Object.freeze.length'"
+            "raw": "'Object.freeze.length'",
+            "start": 282,
+            "end": 304
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 240,
+        "end": 305
+      },
+      "start": 240,
+      "end": 306
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 307
 }

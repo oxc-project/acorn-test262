@@ -2,46 +2,42 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 89,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 0,
-      "end": 14,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 12,
-          "end": 13,
           "id": {
             "type": "Identifier",
-            "start": 12,
-            "end": 13,
             "decorators": [],
             "name": "x",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 12,
+            "end": 13
           },
           "init": null,
-          "definite": false
+          "definite": false,
+          "start": 12,
+          "end": 13
         }
       ],
-      "declare": true
+      "declare": true,
+      "start": 0,
+      "end": 14
     },
     {
       "type": "FunctionDeclaration",
-      "start": 16,
-      "end": 42,
       "id": {
         "type": "Identifier",
-        "start": 31,
-        "end": 36,
         "decorators": [],
         "name": "empty",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 31,
+        "end": 36
       },
       "generator": false,
       "async": true,
@@ -51,24 +47,24 @@ __ESTREE_TEST__:PASS:
       "returnType": null,
       "body": {
         "type": "BlockStatement",
+        "body": [],
         "start": 39,
-        "end": 42,
-        "body": []
+        "end": 42
       },
-      "expression": false
+      "expression": false,
+      "start": 16,
+      "end": 42
     },
     {
       "type": "FunctionDeclaration",
-      "start": 44,
-      "end": 89,
       "id": {
         "type": "Identifier",
-        "start": 59,
-        "end": 70,
         "decorators": [],
         "name": "singleAwait",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 59,
+        "end": 70
       },
       "generator": false,
       "async": true,
@@ -78,35 +74,39 @@ __ESTREE_TEST__:PASS:
       "returnType": null,
       "body": {
         "type": "BlockStatement",
-        "start": 73,
-        "end": 89,
         "body": [
           {
             "type": "ExpressionStatement",
-            "start": 79,
-            "end": 87,
             "expression": {
               "type": "AwaitExpression",
-              "start": 79,
-              "end": 86,
               "argument": {
                 "type": "Identifier",
-                "start": 85,
-                "end": 86,
                 "decorators": [],
                 "name": "x",
                 "optional": false,
-                "typeAnnotation": null
-              }
+                "typeAnnotation": null,
+                "start": 85,
+                "end": 86
+              },
+              "start": 79,
+              "end": 86
             },
-            "directive": null
+            "directive": null,
+            "start": 79,
+            "end": 87
           }
-        ]
+        ],
+        "start": 73,
+        "end": 89
       },
-      "expression": false
+      "expression": false,
+      "start": 44,
+      "end": 89
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 89
 }
 ```

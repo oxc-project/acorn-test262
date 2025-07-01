@@ -1,60 +1,60 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 901,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 818,
-      "end": 835,
       "expression": {
         "type": "CallExpression",
-        "start": 818,
-        "end": 834,
         "callee": {
           "type": "Identifier",
+          "name": "$DONOTEVALUATE",
           "start": 818,
-          "end": 832,
-          "name": "$DONOTEVALUATE"
+          "end": 832
         },
         "arguments": [],
-        "optional": false
-      }
+        "optional": false,
+        "start": 818,
+        "end": 834
+      },
+      "start": 818,
+      "end": 835
     },
     {
       "type": "ExportNamedDeclaration",
-      "start": 837,
-      "end": 900,
       "declaration": null,
       "specifiers": [
         {
           "type": "ExportSpecifier",
-          "start": 846,
-          "end": 847,
           "local": {
             "type": "Identifier",
+            "name": "x",
             "start": 846,
-            "end": 847,
-            "name": "x"
+            "end": 847
           },
           "exported": {
             "type": "Identifier",
+            "name": "x",
             "start": 846,
-            "end": 847,
-            "name": "x"
-          }
+            "end": 847
+          },
+          "start": 846,
+          "end": 847
         }
       ],
       "source": {
         "type": "Literal",
-        "start": 855,
-        "end": 899,
         "value": "./instn-iee-err-not-found-empty_FIXTURE.js",
-        "raw": "'./instn-iee-err-not-found-empty_FIXTURE.js'"
+        "raw": "'./instn-iee-err-not-found-empty_FIXTURE.js'",
+        "start": 855,
+        "end": 899
       },
-      "attributes": []
+      "attributes": [],
+      "start": 837,
+      "end": 900
     }
   ],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 901
 }

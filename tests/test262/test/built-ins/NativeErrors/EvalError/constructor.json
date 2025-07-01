@@ -1,68 +1,68 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 295,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 213,
-      "end": 294,
       "expression": {
         "type": "CallExpression",
-        "start": 213,
-        "end": 293,
         "callee": {
           "type": "MemberExpression",
-          "start": 213,
-          "end": 229,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 213,
-            "end": 219,
-            "name": "assert"
+            "end": 219
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 220,
-            "end": 229,
-            "name": "sameValue"
+            "end": 229
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 213,
+          "end": 229
         },
         "arguments": [
           {
             "type": "UnaryExpression",
-            "start": 230,
-            "end": 246,
             "operator": "typeof",
             "argument": {
               "type": "Identifier",
+              "name": "EvalError",
               "start": 237,
-              "end": 246,
-              "name": "EvalError"
+              "end": 246
             },
-            "prefix": true
+            "prefix": true,
+            "start": 230,
+            "end": 246
           },
           {
             "type": "Literal",
-            "start": 248,
-            "end": 258,
             "value": "function",
-            "raw": "'function'"
+            "raw": "'function'",
+            "start": 248,
+            "end": 258
           },
           {
             "type": "Literal",
-            "start": 260,
-            "end": 292,
             "value": "typeof EvalError is \"function\"",
-            "raw": "'typeof EvalError is \"function\"'"
+            "raw": "'typeof EvalError is \"function\"'",
+            "start": 260,
+            "end": 292
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 213,
+        "end": 293
+      },
+      "start": 213,
+      "end": 294
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 295
 }

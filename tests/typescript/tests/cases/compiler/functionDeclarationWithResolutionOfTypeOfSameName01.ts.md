@@ -2,44 +2,40 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 43,
   "body": [
     {
       "type": "TSInterfaceDeclaration",
-      "start": 0,
-      "end": 15,
       "id": {
         "type": "Identifier",
-        "start": 10,
-        "end": 11,
         "decorators": [],
         "name": "f",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 10,
+        "end": 11
       },
       "typeParameters": null,
       "extends": [],
       "body": {
         "type": "TSInterfaceBody",
+        "body": [],
         "start": 12,
-        "end": 15,
-        "body": []
+        "end": 15
       },
-      "declare": false
+      "declare": false,
+      "start": 0,
+      "end": 15
     },
     {
       "type": "FunctionDeclaration",
-      "start": 17,
-      "end": 43,
       "id": {
         "type": "Identifier",
-        "start": 26,
-        "end": 27,
         "decorators": [],
         "name": "f",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 26,
+        "end": 27
       },
       "generator": false,
       "async": false,
@@ -49,50 +45,54 @@ __ESTREE_TEST__:PASS:
       "returnType": null,
       "body": {
         "type": "BlockStatement",
-        "start": 30,
-        "end": 43,
         "body": [
           {
             "type": "ExpressionStatement",
-            "start": 36,
-            "end": 41,
             "expression": {
               "type": "TSTypeAssertion",
-              "start": 36,
-              "end": 40,
               "typeAnnotation": {
                 "type": "TSTypeReference",
-                "start": 37,
-                "end": 38,
                 "typeName": {
                   "type": "Identifier",
-                  "start": 37,
-                  "end": 38,
                   "decorators": [],
                   "name": "f",
                   "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "start": 37,
+                  "end": 38
                 },
-                "typeArguments": null
+                "typeArguments": null,
+                "start": 37,
+                "end": 38
               },
               "expression": {
                 "type": "Identifier",
-                "start": 39,
-                "end": 40,
                 "decorators": [],
                 "name": "f",
                 "optional": false,
-                "typeAnnotation": null
-              }
+                "typeAnnotation": null,
+                "start": 39,
+                "end": 40
+              },
+              "start": 36,
+              "end": 40
             },
-            "directive": null
+            "directive": null,
+            "start": 36,
+            "end": 41
           }
-        ]
+        ],
+        "start": 30,
+        "end": 43
       },
-      "expression": false
+      "expression": false,
+      "start": 17,
+      "end": 43
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 43
 }
 ```

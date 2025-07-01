@@ -1,327 +1,327 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 832,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 599,
-      "end": 615,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 603,
-          "end": 614,
           "id": {
             "type": "Identifier",
+            "name": "yield",
             "start": 603,
-            "end": 608,
-            "name": "yield"
+            "end": 608
           },
           "init": {
             "type": "Literal",
-            "start": 611,
-            "end": 614,
             "value": "y",
-            "raw": "'y'"
-          }
-        }
-      ]
-    },
-    {
-      "type": "VariableDeclaration",
-      "start": 616,
-      "end": 629,
-      "kind": "var",
-      "declarations": [
-        {
-          "type": "VariableDeclarator",
-          "start": 620,
-          "end": 628,
-          "id": {
-            "type": "Identifier",
-            "start": 620,
-            "end": 628,
-            "name": "yieldSet"
+            "raw": "'y'",
+            "start": 611,
+            "end": 614
           },
-          "init": null
+          "start": 603,
+          "end": 614
         }
-      ]
+      ],
+      "start": 599,
+      "end": 615
     },
     {
       "type": "VariableDeclaration",
-      "start": 630,
-      "end": 728,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 634,
-          "end": 727,
           "id": {
             "type": "Identifier",
+            "name": "yieldSet",
+            "start": 620,
+            "end": 628
+          },
+          "init": null,
+          "start": 620,
+          "end": 628
+        }
+      ],
+      "start": 616,
+      "end": 629
+    },
+    {
+      "type": "VariableDeclaration",
+      "kind": "var",
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "id": {
+            "type": "Identifier",
+            "name": "obj",
             "start": 634,
-            "end": 637,
-            "name": "obj"
+            "end": 637
           },
           "init": {
             "type": "ObjectExpression",
-            "start": 640,
-            "end": 727,
             "properties": [
               {
                 "type": "Property",
-                "start": 644,
-                "end": 681,
                 "kind": "get",
                 "key": {
                   "type": "Identifier",
+                  "name": "yield",
                   "start": 649,
-                  "end": 654,
-                  "name": "yield"
+                  "end": 654
                 },
                 "value": {
                   "type": "FunctionExpression",
-                  "start": 655,
-                  "end": 681,
                   "id": null,
                   "generator": false,
                   "async": false,
                   "params": [],
                   "body": {
                     "type": "BlockStatement",
-                    "start": 658,
-                    "end": 681,
                     "body": [
                       {
                         "type": "ReturnStatement",
-                        "start": 660,
-                        "end": 679,
                         "argument": {
                           "type": "Literal",
-                          "start": 667,
-                          "end": 678,
                           "value": "get yield",
-                          "raw": "'get yield'"
-                        }
+                          "raw": "'get yield'",
+                          "start": 667,
+                          "end": 678
+                        },
+                        "start": 660,
+                        "end": 679
                       }
-                    ]
+                    ],
+                    "start": 658,
+                    "end": 681
                   },
-                  "expression": false
+                  "expression": false,
+                  "start": 655,
+                  "end": 681
                 },
                 "method": false,
                 "shorthand": false,
-                "computed": true
+                "computed": true,
+                "start": 644,
+                "end": 681
               },
               {
                 "type": "Property",
-                "start": 685,
-                "end": 725,
                 "kind": "set",
                 "key": {
                   "type": "Identifier",
+                  "name": "yield",
                   "start": 690,
-                  "end": 695,
-                  "name": "yield"
+                  "end": 695
                 },
                 "value": {
                   "type": "FunctionExpression",
-                  "start": 696,
-                  "end": 725,
                   "id": null,
                   "generator": false,
                   "async": false,
                   "params": [
                     {
                       "type": "Identifier",
+                      "name": "param",
                       "start": 697,
-                      "end": 702,
-                      "name": "param"
+                      "end": 702
                     }
                   ],
                   "body": {
                     "type": "BlockStatement",
-                    "start": 704,
-                    "end": 725,
                     "body": [
                       {
                         "type": "ExpressionStatement",
-                        "start": 706,
-                        "end": 723,
                         "expression": {
                           "type": "AssignmentExpression",
-                          "start": 706,
-                          "end": 722,
                           "operator": "=",
                           "left": {
                             "type": "Identifier",
+                            "name": "yieldSet",
                             "start": 706,
-                            "end": 714,
-                            "name": "yieldSet"
+                            "end": 714
                           },
                           "right": {
                             "type": "Identifier",
+                            "name": "param",
                             "start": 717,
-                            "end": 722,
-                            "name": "param"
-                          }
-                        }
+                            "end": 722
+                          },
+                          "start": 706,
+                          "end": 722
+                        },
+                        "start": 706,
+                        "end": 723
                       }
-                    ]
+                    ],
+                    "start": 704,
+                    "end": 725
                   },
-                  "expression": false
+                  "expression": false,
+                  "start": 696,
+                  "end": 725
                 },
                 "method": false,
                 "shorthand": false,
-                "computed": true
+                "computed": true,
+                "start": 685,
+                "end": 725
               }
-            ]
-          }
+            ],
+            "start": 640,
+            "end": 727
+          },
+          "start": 634,
+          "end": 727
         }
-      ]
+      ],
+      "start": 630,
+      "end": 728
     },
     {
       "type": "ExpressionStatement",
-      "start": 730,
-      "end": 767,
       "expression": {
         "type": "CallExpression",
-        "start": 730,
-        "end": 766,
         "callee": {
           "type": "MemberExpression",
-          "start": 730,
-          "end": 746,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 730,
-            "end": 736,
-            "name": "assert"
+            "end": 736
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 737,
-            "end": 746,
-            "name": "sameValue"
+            "end": 746
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 730,
+          "end": 746
         },
         "arguments": [
           {
             "type": "MemberExpression",
-            "start": 747,
-            "end": 752,
             "object": {
               "type": "Identifier",
+              "name": "obj",
               "start": 747,
-              "end": 750,
-              "name": "obj"
+              "end": 750
             },
             "property": {
               "type": "Identifier",
+              "name": "y",
               "start": 751,
-              "end": 752,
-              "name": "y"
+              "end": 752
             },
             "optional": false,
-            "computed": false
+            "computed": false,
+            "start": 747,
+            "end": 752
           },
           {
             "type": "Literal",
-            "start": 754,
-            "end": 765,
             "value": "get yield",
-            "raw": "'get yield'"
+            "raw": "'get yield'",
+            "start": 754,
+            "end": 765
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 730,
+        "end": 766
+      },
+      "start": 730,
+      "end": 767
     },
     {
       "type": "ExpressionStatement",
-      "start": 769,
-      "end": 789,
       "expression": {
         "type": "AssignmentExpression",
-        "start": 769,
-        "end": 788,
         "operator": "=",
         "left": {
           "type": "MemberExpression",
-          "start": 769,
-          "end": 774,
           "object": {
             "type": "Identifier",
+            "name": "obj",
             "start": 769,
-            "end": 772,
-            "name": "obj"
+            "end": 772
           },
           "property": {
             "type": "Identifier",
+            "name": "y",
             "start": 773,
-            "end": 774,
-            "name": "y"
+            "end": 774
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 769,
+          "end": 774
         },
         "right": {
           "type": "Literal",
-          "start": 777,
-          "end": 788,
           "value": "set yield",
-          "raw": "'set yield'"
-        }
-      }
+          "raw": "'set yield'",
+          "start": 777,
+          "end": 788
+        },
+        "start": 769,
+        "end": 788
+      },
+      "start": 769,
+      "end": 789
     },
     {
       "type": "ExpressionStatement",
-      "start": 791,
-      "end": 831,
       "expression": {
         "type": "CallExpression",
-        "start": 791,
-        "end": 830,
         "callee": {
           "type": "MemberExpression",
-          "start": 791,
-          "end": 807,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 791,
-            "end": 797,
-            "name": "assert"
+            "end": 797
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 798,
-            "end": 807,
-            "name": "sameValue"
+            "end": 807
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 791,
+          "end": 807
         },
         "arguments": [
           {
             "type": "Identifier",
+            "name": "yieldSet",
             "start": 808,
-            "end": 816,
-            "name": "yieldSet"
+            "end": 816
           },
           {
             "type": "Literal",
-            "start": 818,
-            "end": 829,
             "value": "set yield",
-            "raw": "'set yield'"
+            "raw": "'set yield'",
+            "start": 818,
+            "end": 829
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 791,
+        "end": 830
+      },
+      "start": 791,
+      "end": 831
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 832
 }

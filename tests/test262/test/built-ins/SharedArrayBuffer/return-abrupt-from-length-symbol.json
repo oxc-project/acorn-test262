@@ -1,127 +1,127 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 618,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 495,
-      "end": 512,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 499,
-          "end": 511,
           "id": {
             "type": "Identifier",
+            "name": "s",
             "start": 499,
-            "end": 500,
-            "name": "s"
+            "end": 500
           },
           "init": {
             "type": "CallExpression",
-            "start": 503,
-            "end": 511,
             "callee": {
               "type": "Identifier",
+              "name": "Symbol",
               "start": 503,
-              "end": 509,
-              "name": "Symbol"
+              "end": 509
             },
             "arguments": [],
-            "optional": false
-          }
+            "optional": false,
+            "start": 503,
+            "end": 511
+          },
+          "start": 499,
+          "end": 511
         }
-      ]
+      ],
+      "start": 495,
+      "end": 512
     },
     {
       "type": "ExpressionStatement",
-      "start": 514,
-      "end": 617,
       "expression": {
         "type": "CallExpression",
-        "start": 514,
-        "end": 616,
         "callee": {
           "type": "MemberExpression",
-          "start": 514,
-          "end": 527,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 514,
-            "end": 520,
-            "name": "assert"
+            "end": 520
           },
           "property": {
             "type": "Identifier",
+            "name": "throws",
             "start": 521,
-            "end": 527,
-            "name": "throws"
+            "end": 527
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 514,
+          "end": 527
         },
         "arguments": [
           {
             "type": "Identifier",
+            "name": "TypeError",
             "start": 528,
-            "end": 537,
-            "name": "TypeError"
+            "end": 537
           },
           {
             "type": "FunctionExpression",
-            "start": 539,
-            "end": 581,
             "id": null,
             "generator": false,
             "async": false,
             "params": [],
             "body": {
               "type": "BlockStatement",
-              "start": 550,
-              "end": 581,
               "body": [
                 {
                   "type": "ExpressionStatement",
-                  "start": 554,
-                  "end": 579,
                   "expression": {
                     "type": "NewExpression",
-                    "start": 554,
-                    "end": 578,
                     "callee": {
                       "type": "Identifier",
+                      "name": "SharedArrayBuffer",
                       "start": 558,
-                      "end": 575,
-                      "name": "SharedArrayBuffer"
+                      "end": 575
                     },
                     "arguments": [
                       {
                         "type": "Identifier",
+                        "name": "s",
                         "start": 576,
-                        "end": 577,
-                        "name": "s"
+                        "end": 577
                       }
-                    ]
-                  }
+                    ],
+                    "start": 554,
+                    "end": 578
+                  },
+                  "start": 554,
+                  "end": 579
                 }
-              ]
+              ],
+              "start": 550,
+              "end": 581
             },
-            "expression": false
+            "expression": false,
+            "start": 539,
+            "end": 581
           },
           {
             "type": "Literal",
-            "start": 583,
-            "end": 615,
             "value": "`length` parameter is a Symbol",
-            "raw": "\"`length` parameter is a Symbol\""
+            "raw": "\"`length` parameter is a Symbol\"",
+            "start": 583,
+            "end": 615
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 514,
+        "end": 616
+      },
+      "start": 514,
+      "end": 617
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 618
 }

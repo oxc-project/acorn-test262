@@ -1,595 +1,595 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 936,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 251,
-      "end": 320,
       "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 257,
-          "end": 319,
           "id": {
             "type": "Identifier",
+            "name": "fmt1",
             "start": 257,
-            "end": 261,
-            "name": "fmt1"
+            "end": 261
           },
           "init": {
             "type": "NewExpression",
-            "start": 264,
-            "end": 319,
             "callee": {
               "type": "MemberExpression",
-              "start": 268,
-              "end": 287,
               "object": {
                 "type": "Identifier",
+                "name": "Intl",
                 "start": 268,
-                "end": 272,
-                "name": "Intl"
+                "end": 272
               },
               "property": {
                 "type": "Identifier",
+                "name": "DateTimeFormat",
                 "start": 273,
-                "end": 287,
-                "name": "DateTimeFormat"
+                "end": 287
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 268,
+              "end": 287
             },
             "arguments": [
               {
                 "type": "Literal",
+                "value": "en",
+                "raw": "\"en\"",
                 "start": 288,
-                "end": 292,
-                "value": "en",
-                "raw": "\"en\""
+                "end": 292
               },
               {
                 "type": "ObjectExpression",
-                "start": 294,
-                "end": 318,
                 "properties": [
                   {
                     "type": "Property",
-                    "start": 296,
-                    "end": 316,
                     "kind": "init",
                     "key": {
                       "type": "Identifier",
+                      "name": "calendar",
                       "start": 296,
-                      "end": 304,
-                      "name": "calendar"
+                      "end": 304
                     },
                     "value": {
                       "type": "Literal",
-                      "start": 306,
-                      "end": 316,
                       "value": "islamicc",
-                      "raw": "\"islamicc\""
+                      "raw": "\"islamicc\"",
+                      "start": 306,
+                      "end": 316
                     },
                     "method": false,
                     "shorthand": false,
-                    "computed": false
+                    "computed": false,
+                    "start": 296,
+                    "end": 316
                   }
-                ]
+                ],
+                "start": 294,
+                "end": 318
               }
-            ]
-          }
+            ],
+            "start": 264,
+            "end": 319
+          },
+          "start": 257,
+          "end": 319
         }
-      ]
+      ],
+      "start": 251,
+      "end": 320
     },
     {
       "type": "ExpressionStatement",
-      "start": 321,
-      "end": 429,
       "expression": {
         "type": "CallExpression",
-        "start": 321,
-        "end": 428,
         "callee": {
           "type": "MemberExpression",
-          "start": 321,
-          "end": 337,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 321,
-            "end": 327,
-            "name": "assert"
+            "end": 327
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 328,
-            "end": 337,
-            "name": "sameValue"
+            "end": 337
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 321,
+          "end": 337
         },
         "arguments": [
           {
             "type": "MemberExpression",
-            "start": 338,
-            "end": 369,
             "object": {
               "type": "CallExpression",
-              "start": 338,
-              "end": 360,
               "callee": {
                 "type": "MemberExpression",
-                "start": 338,
-                "end": 358,
                 "object": {
                   "type": "Identifier",
+                  "name": "fmt1",
                   "start": 338,
-                  "end": 342,
-                  "name": "fmt1"
+                  "end": 342
                 },
                 "property": {
                   "type": "Identifier",
+                  "name": "resolvedOptions",
                   "start": 343,
-                  "end": 358,
-                  "name": "resolvedOptions"
+                  "end": 358
                 },
                 "optional": false,
-                "computed": false
+                "computed": false,
+                "start": 338,
+                "end": 358
               },
               "arguments": [],
-              "optional": false
+              "optional": false,
+              "start": 338,
+              "end": 360
             },
             "property": {
               "type": "Identifier",
+              "name": "calendar",
               "start": 361,
-              "end": 369,
-              "name": "calendar"
+              "end": 369
             },
             "optional": false,
-            "computed": false
+            "computed": false,
+            "start": 338,
+            "end": 369
           },
           {
             "type": "Literal",
-            "start": 371,
-            "end": 386,
             "value": "islamic-civil",
-            "raw": "\"islamic-civil\""
+            "raw": "\"islamic-civil\"",
+            "start": 371,
+            "end": 386
           },
           {
             "type": "Literal",
-            "start": 388,
-            "end": 427,
             "value": "calendar ID is canonicalized (option)",
-            "raw": "\"calendar ID is canonicalized (option)\""
+            "raw": "\"calendar ID is canonicalized (option)\"",
+            "start": 388,
+            "end": 427
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 321,
+        "end": 428
+      },
+      "start": 321,
+      "end": 429
     },
     {
       "type": "VariableDeclaration",
-      "start": 431,
-      "end": 488,
       "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 437,
-          "end": 487,
           "id": {
             "type": "Identifier",
+            "name": "fmt2",
             "start": 437,
-            "end": 441,
-            "name": "fmt2"
+            "end": 441
           },
           "init": {
             "type": "NewExpression",
-            "start": 444,
-            "end": 487,
             "callee": {
               "type": "MemberExpression",
-              "start": 448,
-              "end": 467,
               "object": {
                 "type": "Identifier",
+                "name": "Intl",
                 "start": 448,
-                "end": 452,
-                "name": "Intl"
+                "end": 452
               },
               "property": {
                 "type": "Identifier",
+                "name": "DateTimeFormat",
                 "start": 453,
-                "end": 467,
-                "name": "DateTimeFormat"
+                "end": 467
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 448,
+              "end": 467
             },
             "arguments": [
               {
                 "type": "Literal",
-                "start": 468,
-                "end": 486,
                 "value": "en-u-ca-islamicc",
-                "raw": "\"en-u-ca-islamicc\""
+                "raw": "\"en-u-ca-islamicc\"",
+                "start": 468,
+                "end": 486
               }
-            ]
-          }
+            ],
+            "start": 444,
+            "end": 487
+          },
+          "start": 437,
+          "end": 487
         }
-      ]
+      ],
+      "start": 431,
+      "end": 488
     },
     {
       "type": "ExpressionStatement",
-      "start": 489,
-      "end": 601,
       "expression": {
         "type": "CallExpression",
-        "start": 489,
-        "end": 600,
         "callee": {
           "type": "MemberExpression",
-          "start": 489,
-          "end": 505,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 489,
-            "end": 495,
-            "name": "assert"
+            "end": 495
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 496,
-            "end": 505,
-            "name": "sameValue"
+            "end": 505
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 489,
+          "end": 505
         },
         "arguments": [
           {
             "type": "MemberExpression",
-            "start": 506,
-            "end": 537,
             "object": {
               "type": "CallExpression",
-              "start": 506,
-              "end": 528,
               "callee": {
                 "type": "MemberExpression",
-                "start": 506,
-                "end": 526,
                 "object": {
                   "type": "Identifier",
+                  "name": "fmt1",
                   "start": 506,
-                  "end": 510,
-                  "name": "fmt1"
+                  "end": 510
                 },
                 "property": {
                   "type": "Identifier",
+                  "name": "resolvedOptions",
                   "start": 511,
-                  "end": 526,
-                  "name": "resolvedOptions"
+                  "end": 526
                 },
                 "optional": false,
-                "computed": false
+                "computed": false,
+                "start": 506,
+                "end": 526
               },
               "arguments": [],
-              "optional": false
+              "optional": false,
+              "start": 506,
+              "end": 528
             },
             "property": {
               "type": "Identifier",
+              "name": "calendar",
               "start": 529,
-              "end": 537,
-              "name": "calendar"
+              "end": 537
             },
             "optional": false,
-            "computed": false
+            "computed": false,
+            "start": 506,
+            "end": 537
           },
           {
             "type": "Literal",
-            "start": 539,
-            "end": 554,
             "value": "islamic-civil",
-            "raw": "\"islamic-civil\""
+            "raw": "\"islamic-civil\"",
+            "start": 539,
+            "end": 554
           },
           {
             "type": "Literal",
-            "start": 556,
-            "end": 599,
             "value": "calendar ID is canonicalized (locale key)",
-            "raw": "\"calendar ID is canonicalized (locale key)\""
+            "raw": "\"calendar ID is canonicalized (locale key)\"",
+            "start": 556,
+            "end": 599
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 489,
+        "end": 600
+      },
+      "start": 489,
+      "end": 601
     },
     {
       "type": "VariableDeclaration",
-      "start": 603,
-      "end": 671,
       "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 609,
-          "end": 670,
           "id": {
             "type": "Identifier",
+            "name": "fmt3",
             "start": 609,
-            "end": 613,
-            "name": "fmt3"
+            "end": 613
           },
           "init": {
             "type": "NewExpression",
-            "start": 616,
-            "end": 670,
             "callee": {
               "type": "MemberExpression",
-              "start": 620,
-              "end": 639,
               "object": {
                 "type": "Identifier",
+                "name": "Intl",
                 "start": 620,
-                "end": 624,
-                "name": "Intl"
+                "end": 624
               },
               "property": {
                 "type": "Identifier",
+                "name": "DateTimeFormat",
                 "start": 625,
-                "end": 639,
-                "name": "DateTimeFormat"
+                "end": 639
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 620,
+              "end": 639
             },
             "arguments": [
               {
                 "type": "Literal",
-                "start": 640,
-                "end": 644,
                 "value": "en",
-                "raw": "\"en\""
+                "raw": "\"en\"",
+                "start": 640,
+                "end": 644
               },
               {
                 "type": "ObjectExpression",
-                "start": 646,
-                "end": 669,
                 "properties": [
                   {
                     "type": "Property",
-                    "start": 648,
-                    "end": 667,
                     "kind": "init",
                     "key": {
                       "type": "Identifier",
+                      "name": "calendar",
                       "start": 648,
-                      "end": 656,
-                      "name": "calendar"
+                      "end": 656
                     },
                     "value": {
                       "type": "Literal",
-                      "start": 658,
-                      "end": 667,
                       "value": "ISO8601",
-                      "raw": "\"ISO8601\""
+                      "raw": "\"ISO8601\"",
+                      "start": 658,
+                      "end": 667
                     },
                     "method": false,
                     "shorthand": false,
-                    "computed": false
+                    "computed": false,
+                    "start": 648,
+                    "end": 667
                   }
-                ]
+                ],
+                "start": 646,
+                "end": 669
               }
-            ]
-          }
+            ],
+            "start": 616,
+            "end": 670
+          },
+          "start": 609,
+          "end": 670
         }
-      ]
+      ],
+      "start": 603,
+      "end": 671
     },
     {
       "type": "ExpressionStatement",
-      "start": 672,
-      "end": 762,
       "expression": {
         "type": "CallExpression",
-        "start": 672,
-        "end": 761,
         "callee": {
           "type": "MemberExpression",
-          "start": 672,
-          "end": 688,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 672,
-            "end": 678,
-            "name": "assert"
+            "end": 678
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 679,
-            "end": 688,
-            "name": "sameValue"
+            "end": 688
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 672,
+          "end": 688
         },
         "arguments": [
           {
             "type": "MemberExpression",
-            "start": 689,
-            "end": 720,
             "object": {
               "type": "CallExpression",
-              "start": 689,
-              "end": 711,
               "callee": {
                 "type": "MemberExpression",
-                "start": 689,
-                "end": 709,
                 "object": {
                   "type": "Identifier",
+                  "name": "fmt3",
                   "start": 689,
-                  "end": 693,
-                  "name": "fmt3"
+                  "end": 693
                 },
                 "property": {
                   "type": "Identifier",
+                  "name": "resolvedOptions",
                   "start": 694,
-                  "end": 709,
-                  "name": "resolvedOptions"
+                  "end": 709
                 },
                 "optional": false,
-                "computed": false
+                "computed": false,
+                "start": 689,
+                "end": 709
               },
               "arguments": [],
-              "optional": false
+              "optional": false,
+              "start": 689,
+              "end": 711
             },
             "property": {
               "type": "Identifier",
+              "name": "calendar",
               "start": 712,
-              "end": 720,
-              "name": "calendar"
+              "end": 720
             },
             "optional": false,
-            "computed": false
+            "computed": false,
+            "start": 689,
+            "end": 720
           },
           {
             "type": "Literal",
-            "start": 722,
-            "end": 731,
             "value": "iso8601",
-            "raw": "\"iso8601\""
+            "raw": "\"iso8601\"",
+            "start": 722,
+            "end": 731
           },
           {
             "type": "Literal",
-            "start": 733,
-            "end": 760,
             "value": "calendar ID is lowercased",
-            "raw": "\"calendar ID is lowercased\""
+            "raw": "\"calendar ID is lowercased\"",
+            "start": 733,
+            "end": 760
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 672,
+        "end": 761
+      },
+      "start": 672,
+      "end": 762
     },
     {
       "type": "ExpressionStatement",
-      "start": 764,
-      "end": 935,
       "expression": {
         "type": "CallExpression",
-        "start": 764,
-        "end": 934,
         "callee": {
           "type": "MemberExpression",
-          "start": 764,
-          "end": 777,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 764,
-            "end": 770,
-            "name": "assert"
+            "end": 770
           },
           "property": {
             "type": "Identifier",
+            "name": "throws",
             "start": 771,
-            "end": 777,
-            "name": "throws"
+            "end": 777
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 764,
+          "end": 777
         },
         "arguments": [
           {
             "type": "Identifier",
+            "name": "RangeError",
             "start": 781,
-            "end": 791,
-            "name": "RangeError"
+            "end": 791
           },
           {
             "type": "ArrowFunctionExpression",
-            "start": 795,
-            "end": 860,
             "expression": true,
             "async": false,
             "params": [],
             "body": {
               "type": "NewExpression",
-              "start": 801,
-              "end": 860,
               "callee": {
                 "type": "MemberExpression",
-                "start": 805,
-                "end": 824,
                 "object": {
                   "type": "Identifier",
+                  "name": "Intl",
                   "start": 805,
-                  "end": 809,
-                  "name": "Intl"
+                  "end": 809
                 },
                 "property": {
                   "type": "Identifier",
+                  "name": "DateTimeFormat",
                   "start": 810,
-                  "end": 824,
-                  "name": "DateTimeFormat"
+                  "end": 824
                 },
                 "optional": false,
-                "computed": false
+                "computed": false,
+                "start": 805,
+                "end": 824
               },
               "arguments": [
                 {
                   "type": "Literal",
-                  "start": 825,
-                  "end": 829,
                   "value": "en",
-                  "raw": "\"en\""
+                  "raw": "\"en\"",
+                  "start": 825,
+                  "end": 829
                 },
                 {
                   "type": "ObjectExpression",
-                  "start": 831,
-                  "end": 859,
                   "properties": [
                     {
                       "type": "Property",
-                      "start": 833,
-                      "end": 857,
                       "kind": "init",
                       "key": {
                         "type": "Identifier",
+                        "name": "calendar",
                         "start": 833,
-                        "end": 841,
-                        "name": "calendar"
+                        "end": 841
                       },
                       "value": {
                         "type": "Literal",
-                        "start": 843,
-                        "end": 857,
                         "value": "İSO8601",
-                        "raw": "\"\\u0130SO8601\""
+                        "raw": "\"\\u0130SO8601\"",
+                        "start": 843,
+                        "end": 857
                       },
                       "method": false,
                       "shorthand": false,
-                      "computed": false
+                      "computed": false,
+                      "start": 833,
+                      "end": 857
                     }
-                  ]
+                  ],
+                  "start": 831,
+                  "end": 859
                 }
-              ]
+              ],
+              "start": 801,
+              "end": 860
             },
             "id": null,
-            "generator": false
+            "generator": false,
+            "start": 795,
+            "end": 860
           },
           {
             "type": "Literal",
-            "start": 864,
-            "end": 932,
             "value": "calendar ID is capital dotted I is not lowercased (first argument)",
-            "raw": "\"calendar ID is capital dotted I is not lowercased (first argument)\""
+            "raw": "\"calendar ID is capital dotted I is not lowercased (first argument)\"",
+            "start": 864,
+            "end": 932
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 764,
+        "end": 934
+      },
+      "start": 764,
+      "end": 935
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 936
 }

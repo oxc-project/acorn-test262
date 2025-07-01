@@ -1,322 +1,322 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 682,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 268,
-      "end": 304,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 272,
-          "end": 303,
           "id": {
             "type": "Identifier",
+            "name": "__re",
             "start": 272,
-            "end": 276,
-            "name": "__re"
+            "end": 276
           },
           "init": {
             "type": "NewExpression",
-            "start": 279,
-            "end": 303,
             "callee": {
               "type": "Identifier",
+              "name": "RegExp",
               "start": 283,
-              "end": 289,
-              "name": "RegExp"
+              "end": 289
             },
             "arguments": [
               {
                 "type": "Literal",
-                "start": 290,
-                "end": 294,
                 "value": null,
-                "raw": "null"
+                "raw": "null",
+                "start": 290,
+                "end": 294
               },
               {
                 "type": "UnaryExpression",
-                "start": 296,
-                "end": 302,
                 "operator": "void",
                 "argument": {
                   "type": "Literal",
-                  "start": 301,
-                  "end": 302,
                   "value": 0,
-                  "raw": "0"
+                  "raw": "0",
+                  "start": 301,
+                  "end": 302
                 },
-                "prefix": true
+                "prefix": true,
+                "start": 296,
+                "end": 302
               }
-            ]
-          }
+            ],
+            "start": 279,
+            "end": 303
+          },
+          "start": 272,
+          "end": 303
         }
-      ]
+      ],
+      "start": 268,
+      "end": 304
     },
     {
       "type": "ExpressionStatement",
-      "start": 306,
-      "end": 397,
       "expression": {
         "type": "CallExpression",
-        "start": 306,
-        "end": 396,
         "callee": {
           "type": "MemberExpression",
-          "start": 306,
-          "end": 322,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 306,
-            "end": 312,
-            "name": "assert"
+            "end": 312
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 313,
-            "end": 322,
-            "name": "sameValue"
+            "end": 322
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 306,
+          "end": 322
         },
         "arguments": [
           {
             "type": "MemberExpression",
-            "start": 323,
-            "end": 334,
             "object": {
               "type": "Identifier",
+              "name": "__re",
               "start": 323,
-              "end": 327,
-              "name": "__re"
+              "end": 327
             },
             "property": {
               "type": "Identifier",
+              "name": "source",
               "start": 328,
-              "end": 334,
-              "name": "source"
+              "end": 334
             },
             "optional": false,
-            "computed": false
+            "computed": false,
+            "start": 323,
+            "end": 334
           },
           {
             "type": "Literal",
-            "start": 336,
-            "end": 342,
             "value": "null",
-            "raw": "\"null\""
+            "raw": "\"null\"",
+            "start": 336,
+            "end": 342
           },
           {
             "type": "Literal",
-            "start": 344,
-            "end": 395,
             "value": "The value of __re.source is expected to be \"null\"",
-            "raw": "'The value of __re.source is expected to be \"null\"'"
+            "raw": "'The value of __re.source is expected to be \"null\"'",
+            "start": 344,
+            "end": 395
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 306,
+        "end": 396
+      },
+      "start": 306,
+      "end": 397
     },
     {
       "type": "ExpressionStatement",
-      "start": 398,
-      "end": 493,
       "expression": {
         "type": "CallExpression",
-        "start": 398,
-        "end": 492,
         "callee": {
           "type": "MemberExpression",
-          "start": 398,
-          "end": 414,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 398,
-            "end": 404,
-            "name": "assert"
+            "end": 404
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 405,
-            "end": 414,
-            "name": "sameValue"
+            "end": 414
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 398,
+          "end": 414
         },
         "arguments": [
           {
             "type": "MemberExpression",
-            "start": 415,
-            "end": 429,
             "object": {
               "type": "Identifier",
+              "name": "__re",
               "start": 415,
-              "end": 419,
-              "name": "__re"
+              "end": 419
             },
             "property": {
               "type": "Identifier",
+              "name": "multiline",
               "start": 420,
-              "end": 429,
-              "name": "multiline"
+              "end": 429
             },
             "optional": false,
-            "computed": false
+            "computed": false,
+            "start": 415,
+            "end": 429
           },
           {
             "type": "Literal",
+            "value": false,
+            "raw": "false",
             "start": 431,
-            "end": 436,
-            "value": false,
-            "raw": "false"
+            "end": 436
           },
           {
             "type": "Literal",
-            "start": 438,
-            "end": 491,
             "value": "The value of __re.multiline is expected to be false",
-            "raw": "'The value of __re.multiline is expected to be false'"
+            "raw": "'The value of __re.multiline is expected to be false'",
+            "start": 438,
+            "end": 491
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 398,
+        "end": 492
+      },
+      "start": 398,
+      "end": 493
     },
     {
       "type": "ExpressionStatement",
-      "start": 494,
-      "end": 583,
       "expression": {
         "type": "CallExpression",
-        "start": 494,
-        "end": 582,
         "callee": {
           "type": "MemberExpression",
-          "start": 494,
-          "end": 510,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 494,
-            "end": 500,
-            "name": "assert"
+            "end": 500
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 501,
-            "end": 510,
-            "name": "sameValue"
+            "end": 510
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 494,
+          "end": 510
         },
         "arguments": [
           {
             "type": "MemberExpression",
-            "start": 511,
-            "end": 522,
             "object": {
               "type": "Identifier",
+              "name": "__re",
               "start": 511,
-              "end": 515,
-              "name": "__re"
+              "end": 515
             },
             "property": {
               "type": "Identifier",
+              "name": "global",
               "start": 516,
-              "end": 522,
-              "name": "global"
+              "end": 522
             },
             "optional": false,
-            "computed": false
+            "computed": false,
+            "start": 511,
+            "end": 522
           },
           {
             "type": "Literal",
-            "start": 524,
-            "end": 529,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "start": 524,
+            "end": 529
           },
           {
             "type": "Literal",
-            "start": 531,
-            "end": 581,
             "value": "The value of __re.global is expected to be false",
-            "raw": "'The value of __re.global is expected to be false'"
+            "raw": "'The value of __re.global is expected to be false'",
+            "start": 531,
+            "end": 581
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 494,
+        "end": 582
+      },
+      "start": 494,
+      "end": 583
     },
     {
       "type": "ExpressionStatement",
-      "start": 584,
-      "end": 681,
       "expression": {
         "type": "CallExpression",
-        "start": 584,
-        "end": 680,
         "callee": {
           "type": "MemberExpression",
-          "start": 584,
-          "end": 600,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 584,
-            "end": 590,
-            "name": "assert"
+            "end": 590
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 591,
-            "end": 600,
-            "name": "sameValue"
+            "end": 600
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 584,
+          "end": 600
         },
         "arguments": [
           {
             "type": "MemberExpression",
-            "start": 601,
-            "end": 616,
             "object": {
               "type": "Identifier",
+              "name": "__re",
               "start": 601,
-              "end": 605,
-              "name": "__re"
+              "end": 605
             },
             "property": {
               "type": "Identifier",
+              "name": "ignoreCase",
               "start": 606,
-              "end": 616,
-              "name": "ignoreCase"
+              "end": 616
             },
             "optional": false,
-            "computed": false
+            "computed": false,
+            "start": 601,
+            "end": 616
           },
           {
             "type": "Literal",
-            "start": 618,
-            "end": 623,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "start": 618,
+            "end": 623
           },
           {
             "type": "Literal",
-            "start": 625,
-            "end": 679,
             "value": "The value of __re.ignoreCase is expected to be false",
-            "raw": "'The value of __re.ignoreCase is expected to be false'"
+            "raw": "'The value of __re.ignoreCase is expected to be false'",
+            "start": 625,
+            "end": 679
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 584,
+        "end": 680
+      },
+      "start": 584,
+      "end": 681
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 682
 }

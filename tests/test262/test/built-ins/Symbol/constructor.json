@@ -1,235 +1,235 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 561,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 223,
-      "end": 383,
       "expression": {
         "type": "CallExpression",
-        "start": 223,
-        "end": 382,
         "callee": {
           "type": "MemberExpression",
-          "start": 223,
-          "end": 239,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 223,
-            "end": 229,
-            "name": "assert"
+            "end": 229
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 230,
-            "end": 239,
-            "name": "sameValue"
+            "end": 239
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 223,
+          "end": 239
         },
         "arguments": [
           {
             "type": "MemberExpression",
-            "start": 243,
-            "end": 290,
             "object": {
               "type": "CallExpression",
-              "start": 243,
-              "end": 278,
               "callee": {
                 "type": "MemberExpression",
-                "start": 243,
-                "end": 264,
                 "object": {
                   "type": "Identifier",
+                  "name": "Object",
                   "start": 243,
-                  "end": 249,
-                  "name": "Object"
+                  "end": 249
                 },
                 "property": {
                   "type": "Identifier",
+                  "name": "getPrototypeOf",
                   "start": 250,
-                  "end": 264,
-                  "name": "getPrototypeOf"
+                  "end": 264
                 },
                 "optional": false,
-                "computed": false
+                "computed": false,
+                "start": 243,
+                "end": 264
               },
               "arguments": [
                 {
                   "type": "CallExpression",
-                  "start": 265,
-                  "end": 277,
                   "callee": {
                     "type": "Identifier",
+                    "name": "Symbol",
                     "start": 265,
-                    "end": 271,
-                    "name": "Symbol"
+                    "end": 271
                   },
                   "arguments": [
                     {
                       "type": "Literal",
-                      "start": 272,
-                      "end": 276,
                       "value": "66",
-                      "raw": "'66'"
+                      "raw": "'66'",
+                      "start": 272,
+                      "end": 276
                     }
                   ],
-                  "optional": false
+                  "optional": false,
+                  "start": 265,
+                  "end": 277
                 }
               ],
-              "optional": false
+              "optional": false,
+              "start": 243,
+              "end": 278
             },
             "property": {
               "type": "Identifier",
+              "name": "constructor",
               "start": 279,
-              "end": 290,
-              "name": "constructor"
+              "end": 290
             },
             "optional": false,
-            "computed": false
+            "computed": false,
+            "start": 243,
+            "end": 290
           },
           {
             "type": "Identifier",
+            "name": "Symbol",
             "start": 294,
-            "end": 300,
-            "name": "Symbol"
+            "end": 300
           },
           {
             "type": "Literal",
-            "start": 304,
-            "end": 380,
             "value": "The value of `Object.getPrototypeOf(Symbol('66')).constructor` is `Symbol`",
-            "raw": "\"The value of `Object.getPrototypeOf(Symbol('66')).constructor` is `Symbol`\""
+            "raw": "\"The value of `Object.getPrototypeOf(Symbol('66')).constructor` is `Symbol`\"",
+            "start": 304,
+            "end": 380
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 223,
+        "end": 382
+      },
+      "start": 223,
+      "end": 383
     },
     {
       "type": "ExpressionStatement",
-      "start": 384,
-      "end": 560,
       "expression": {
         "type": "CallExpression",
-        "start": 384,
-        "end": 559,
         "callee": {
           "type": "MemberExpression",
-          "start": 384,
-          "end": 400,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 384,
-            "end": 390,
-            "name": "assert"
+            "end": 390
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 391,
-            "end": 400,
-            "name": "sameValue"
+            "end": 400
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 384,
+          "end": 400
         },
         "arguments": [
           {
             "type": "MemberExpression",
-            "start": 404,
-            "end": 459,
             "object": {
               "type": "CallExpression",
-              "start": 404,
-              "end": 447,
               "callee": {
                 "type": "MemberExpression",
-                "start": 404,
-                "end": 425,
                 "object": {
                   "type": "Identifier",
+                  "name": "Object",
                   "start": 404,
-                  "end": 410,
-                  "name": "Object"
+                  "end": 410
                 },
                 "property": {
                   "type": "Identifier",
+                  "name": "getPrototypeOf",
                   "start": 411,
-                  "end": 425,
-                  "name": "getPrototypeOf"
+                  "end": 425
                 },
                 "optional": false,
-                "computed": false
+                "computed": false,
+                "start": 404,
+                "end": 425
               },
               "arguments": [
                 {
                   "type": "CallExpression",
-                  "start": 426,
-                  "end": 446,
                   "callee": {
                     "type": "Identifier",
+                    "name": "Object",
                     "start": 426,
-                    "end": 432,
-                    "name": "Object"
+                    "end": 432
                   },
                   "arguments": [
                     {
                       "type": "CallExpression",
-                      "start": 433,
-                      "end": 445,
                       "callee": {
                         "type": "Identifier",
+                        "name": "Symbol",
                         "start": 433,
-                        "end": 439,
-                        "name": "Symbol"
+                        "end": 439
                       },
                       "arguments": [
                         {
                           "type": "Literal",
-                          "start": 440,
-                          "end": 444,
                           "value": "66",
-                          "raw": "'66'"
+                          "raw": "'66'",
+                          "start": 440,
+                          "end": 444
                         }
                       ],
-                      "optional": false
+                      "optional": false,
+                      "start": 433,
+                      "end": 445
                     }
                   ],
-                  "optional": false
+                  "optional": false,
+                  "start": 426,
+                  "end": 446
                 }
               ],
-              "optional": false
+              "optional": false,
+              "start": 404,
+              "end": 447
             },
             "property": {
               "type": "Identifier",
+              "name": "constructor",
               "start": 448,
-              "end": 459,
-              "name": "constructor"
+              "end": 459
             },
             "optional": false,
-            "computed": false
+            "computed": false,
+            "start": 404,
+            "end": 459
           },
           {
             "type": "Identifier",
+            "name": "Symbol",
             "start": 463,
-            "end": 469,
-            "name": "Symbol"
+            "end": 469
           },
           {
             "type": "Literal",
-            "start": 473,
-            "end": 557,
             "value": "The value of `Object.getPrototypeOf(Object(Symbol('66'))).constructor` is `Symbol`",
-            "raw": "\"The value of `Object.getPrototypeOf(Object(Symbol('66'))).constructor` is `Symbol`\""
+            "raw": "\"The value of `Object.getPrototypeOf(Object(Symbol('66'))).constructor` is `Symbol`\"",
+            "start": 473,
+            "end": 557
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 384,
+        "end": 559
+      },
+      "start": 384,
+      "end": 560
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 561
 }

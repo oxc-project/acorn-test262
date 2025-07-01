@@ -2,21 +2,17 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 77,
   "body": [
     {
       "type": "FunctionDeclaration",
-      "start": 0,
-      "end": 32,
       "id": {
         "type": "Identifier",
-        "start": 9,
-        "end": 14,
         "decorators": [],
         "name": "Point",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 9,
+        "end": 14
       },
       "generator": false,
       "async": false,
@@ -26,22 +22,14 @@ __ESTREE_TEST__:PASS:
       "returnType": null,
       "body": {
         "type": "BlockStatement",
-        "start": 17,
-        "end": 32,
         "body": [
           {
             "type": "ExpressionStatement",
-            "start": 19,
-            "end": 30,
             "expression": {
               "type": "AssignmentExpression",
-              "start": 19,
-              "end": 29,
               "operator": "=",
               "left": {
                 "type": "MemberExpression",
-                "start": 19,
-                "end": 25,
                 "object": {
                   "type": "ThisExpression",
                   "start": 19,
@@ -49,81 +37,93 @@ __ESTREE_TEST__:PASS:
                 },
                 "property": {
                   "type": "Identifier",
-                  "start": 24,
-                  "end": 25,
                   "decorators": [],
                   "name": "x",
                   "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "start": 24,
+                  "end": 25
                 },
                 "optional": false,
-                "computed": false
+                "computed": false,
+                "start": 19,
+                "end": 25
               },
               "right": {
                 "type": "Literal",
-                "start": 28,
-                "end": 29,
                 "value": 3,
-                "raw": "3"
-              }
+                "raw": "3",
+                "start": 28,
+                "end": 29
+              },
+              "start": 19,
+              "end": 29
             },
-            "directive": null
+            "directive": null,
+            "start": 19,
+            "end": 30
           }
-        ]
+        ],
+        "start": 17,
+        "end": 32
       },
-      "expression": false
+      "expression": false,
+      "start": 0,
+      "end": 32
     },
     {
       "type": "VariableDeclaration",
-      "start": 33,
-      "end": 58,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 37,
-          "end": 57,
           "id": {
             "type": "Identifier",
-            "start": 37,
-            "end": 43,
             "decorators": [],
             "name": "x",
             "optional": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
-              "start": 38,
-              "end": 43,
               "typeAnnotation": {
                 "type": "TSAnyKeyword",
                 "start": 40,
                 "end": 43
-              }
-            }
+              },
+              "start": 38,
+              "end": 43
+            },
+            "start": 37,
+            "end": 43
           },
           "init": {
             "type": "NewExpression",
-            "start": 46,
-            "end": 57,
             "callee": {
               "type": "Identifier",
-              "start": 50,
-              "end": 55,
               "decorators": [],
               "name": "Point",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 50,
+              "end": 55
             },
             "typeArguments": null,
-            "arguments": []
+            "arguments": [],
+            "start": 46,
+            "end": 57
           },
-          "definite": false
+          "definite": false,
+          "start": 37,
+          "end": 57
         }
       ],
-      "declare": false
+      "declare": false,
+      "start": 33,
+      "end": 58
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 77
 }
 ```

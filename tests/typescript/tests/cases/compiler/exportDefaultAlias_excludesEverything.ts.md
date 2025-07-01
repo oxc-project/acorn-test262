@@ -2,78 +2,78 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 62,
   "body": [
     {
       "type": "ExportDefaultDeclaration",
-      "start": 0,
-      "end": 29,
       "declaration": {
         "type": "TSInterfaceDeclaration",
-        "start": 15,
-        "end": 29,
         "id": {
           "type": "Identifier",
-          "start": 25,
-          "end": 26,
           "decorators": [],
           "name": "A",
           "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "start": 25,
+          "end": 26
         },
         "typeParameters": null,
         "extends": [],
         "body": {
           "type": "TSInterfaceBody",
+          "body": [],
           "start": 27,
-          "end": 29,
-          "body": []
+          "end": 29
         },
-        "declare": false
+        "declare": false,
+        "start": 15,
+        "end": 29
       },
-      "exportKind": "value"
+      "exportKind": "value",
+      "start": 0,
+      "end": 29
     },
     {
       "type": "TSInterfaceDeclaration",
-      "start": 30,
-      "end": 44,
       "id": {
         "type": "Identifier",
-        "start": 40,
-        "end": 41,
         "decorators": [],
         "name": "B",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 40,
+        "end": 41
       },
       "typeParameters": null,
       "extends": [],
       "body": {
         "type": "TSInterfaceBody",
+        "body": [],
         "start": 42,
-        "end": 44,
-        "body": []
+        "end": 44
       },
-      "declare": false
+      "declare": false,
+      "start": 30,
+      "end": 44
     },
     {
       "type": "ExportDefaultDeclaration",
-      "start": 45,
-      "end": 62,
       "declaration": {
         "type": "Identifier",
-        "start": 60,
-        "end": 61,
         "decorators": [],
         "name": "B",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 60,
+        "end": 61
       },
-      "exportKind": "value"
+      "exportKind": "value",
+      "start": 45,
+      "end": 62
     }
   ],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 62
 }
 ```

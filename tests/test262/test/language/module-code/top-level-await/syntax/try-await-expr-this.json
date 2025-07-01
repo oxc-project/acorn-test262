@@ -1,202 +1,202 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 1543,
   "body": [
     {
       "type": "TryStatement",
-      "start": 1369,
-      "end": 1417,
       "block": {
         "type": "BlockStatement",
-        "start": 1373,
-        "end": 1390,
         "body": [
           {
             "type": "ExpressionStatement",
-            "start": 1377,
-            "end": 1388,
             "expression": {
               "type": "AwaitExpression",
-              "start": 1377,
-              "end": 1387,
               "argument": {
                 "type": "ThisExpression",
                 "start": 1383,
                 "end": 1387
-              }
-            }
+              },
+              "start": 1377,
+              "end": 1387
+            },
+            "start": 1377,
+            "end": 1388
           }
-        ]
+        ],
+        "start": 1373,
+        "end": 1390
       },
       "handler": {
         "type": "CatchClause",
-        "start": 1391,
-        "end": 1417,
         "param": {
           "type": "Identifier",
+          "name": "e",
           "start": 1397,
-          "end": 1398,
-          "name": "e"
+          "end": 1398
         },
         "body": {
           "type": "BlockStatement",
-          "start": 1400,
-          "end": 1417,
           "body": [
             {
               "type": "ExpressionStatement",
-              "start": 1404,
-              "end": 1415,
               "expression": {
                 "type": "AwaitExpression",
-                "start": 1404,
-                "end": 1414,
                 "argument": {
                   "type": "ThisExpression",
                   "start": 1410,
                   "end": 1414
-                }
-              }
+                },
+                "start": 1404,
+                "end": 1414
+              },
+              "start": 1404,
+              "end": 1415
             }
-          ]
-        }
+          ],
+          "start": 1400,
+          "end": 1417
+        },
+        "start": 1391,
+        "end": 1417
       },
-      "finalizer": null
+      "finalizer": null,
+      "start": 1369,
+      "end": 1417
     },
     {
       "type": "TryStatement",
-      "start": 1419,
-      "end": 1466,
       "block": {
         "type": "BlockStatement",
-        "start": 1423,
-        "end": 1440,
         "body": [
           {
             "type": "ExpressionStatement",
-            "start": 1427,
-            "end": 1438,
             "expression": {
               "type": "AwaitExpression",
-              "start": 1427,
-              "end": 1437,
               "argument": {
                 "type": "ThisExpression",
                 "start": 1433,
                 "end": 1437
-              }
-            }
+              },
+              "start": 1427,
+              "end": 1437
+            },
+            "start": 1427,
+            "end": 1438
           }
-        ]
+        ],
+        "start": 1423,
+        "end": 1440
       },
       "handler": null,
       "finalizer": {
         "type": "BlockStatement",
-        "start": 1449,
-        "end": 1466,
         "body": [
           {
             "type": "ExpressionStatement",
-            "start": 1453,
-            "end": 1464,
             "expression": {
               "type": "AwaitExpression",
-              "start": 1453,
-              "end": 1463,
               "argument": {
                 "type": "ThisExpression",
                 "start": 1459,
                 "end": 1463
-              }
-            }
+              },
+              "start": 1453,
+              "end": 1463
+            },
+            "start": 1453,
+            "end": 1464
           }
-        ]
-      }
+        ],
+        "start": 1449,
+        "end": 1466
+      },
+      "start": 1419,
+      "end": 1466
     },
     {
       "type": "TryStatement",
-      "start": 1468,
-      "end": 1542,
       "block": {
         "type": "BlockStatement",
-        "start": 1472,
-        "end": 1489,
         "body": [
           {
             "type": "ExpressionStatement",
-            "start": 1476,
-            "end": 1487,
             "expression": {
               "type": "AwaitExpression",
-              "start": 1476,
-              "end": 1486,
               "argument": {
                 "type": "ThisExpression",
                 "start": 1482,
                 "end": 1486
-              }
-            }
+              },
+              "start": 1476,
+              "end": 1486
+            },
+            "start": 1476,
+            "end": 1487
           }
-        ]
+        ],
+        "start": 1472,
+        "end": 1489
       },
       "handler": {
         "type": "CatchClause",
-        "start": 1490,
-        "end": 1516,
         "param": {
           "type": "Identifier",
+          "name": "e",
           "start": 1496,
-          "end": 1497,
-          "name": "e"
+          "end": 1497
         },
         "body": {
           "type": "BlockStatement",
-          "start": 1499,
-          "end": 1516,
           "body": [
             {
               "type": "ExpressionStatement",
-              "start": 1503,
-              "end": 1514,
               "expression": {
                 "type": "AwaitExpression",
-                "start": 1503,
-                "end": 1513,
                 "argument": {
                   "type": "ThisExpression",
                   "start": 1509,
                   "end": 1513
-                }
-              }
+                },
+                "start": 1503,
+                "end": 1513
+              },
+              "start": 1503,
+              "end": 1514
             }
-          ]
-        }
+          ],
+          "start": 1499,
+          "end": 1516
+        },
+        "start": 1490,
+        "end": 1516
       },
       "finalizer": {
         "type": "BlockStatement",
-        "start": 1525,
-        "end": 1542,
         "body": [
           {
             "type": "ExpressionStatement",
-            "start": 1529,
-            "end": 1540,
             "expression": {
               "type": "AwaitExpression",
-              "start": 1529,
-              "end": 1539,
               "argument": {
                 "type": "ThisExpression",
                 "start": 1535,
                 "end": 1539
-              }
-            }
+              },
+              "start": 1529,
+              "end": 1539
+            },
+            "start": 1529,
+            "end": 1540
           }
-        ]
-      }
+        ],
+        "start": 1525,
+        "end": 1542
+      },
+      "start": 1468,
+      "end": 1542
     }
   ],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 1543
 }

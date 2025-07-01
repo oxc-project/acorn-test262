@@ -2,21 +2,17 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 352,
   "body": [
     {
       "type": "FunctionDeclaration",
-      "start": 0,
-      "end": 352,
       "id": {
         "type": "Identifier",
-        "start": 16,
-        "end": 20,
         "decorators": [],
         "name": "test",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 16,
+        "end": 20
       },
       "generator": true,
       "async": true,
@@ -25,63 +21,59 @@ __ESTREE_TEST__:PASS:
       "params": [
         {
           "type": "Identifier",
-          "start": 21,
-          "end": 39,
           "decorators": [],
           "name": "x",
           "optional": false,
           "typeAnnotation": {
             "type": "TSTypeAnnotation",
-            "start": 22,
-            "end": 39,
             "typeAnnotation": {
               "type": "TSTypeReference",
-              "start": 24,
-              "end": 39,
               "typeName": {
                 "type": "Identifier",
-                "start": 24,
-                "end": 31,
                 "decorators": [],
                 "name": "Promise",
                 "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "start": 24,
+                "end": 31
               },
               "typeArguments": {
                 "type": "TSTypeParameterInstantiation",
-                "start": 31,
-                "end": 39,
                 "params": [
                   {
                     "type": "TSStringKeyword",
                     "start": 32,
                     "end": 38
                   }
-                ]
-              }
-            }
-          }
+                ],
+                "start": 31,
+                "end": 39
+              },
+              "start": 24,
+              "end": 39
+            },
+            "start": 22,
+            "end": 39
+          },
+          "start": 21,
+          "end": 39
         }
       ],
       "returnType": null,
       "body": {
         "type": "BlockStatement",
-        "start": 41,
-        "end": 352,
         "body": [
           {
             "type": "ClassDeclaration",
-            "start": 47,
-            "end": 193,
             "decorators": [],
             "id": {
               "type": "Identifier",
-              "start": 53,
-              "end": 54,
               "decorators": [],
               "name": "C",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 53,
+              "end": 54
             },
             "typeParameters": null,
             "superClass": null,
@@ -89,42 +81,38 @@ __ESTREE_TEST__:PASS:
             "implements": [],
             "body": {
               "type": "ClassBody",
-              "start": 55,
-              "end": 193,
               "body": [
                 {
                   "type": "PropertyDefinition",
-                  "start": 65,
-                  "end": 85,
                   "decorators": [],
                   "key": {
                     "type": "AwaitExpression",
-                    "start": 66,
-                    "end": 73,
                     "argument": {
                       "type": "Identifier",
+                      "decorators": [],
+                      "name": "x",
+                      "optional": false,
+                      "typeAnnotation": null,
                       "start": 72,
-                      "end": 73,
-                      "decorators": [],
-                      "name": "x",
-                      "optional": false,
-                      "typeAnnotation": null
-                    }
+                      "end": 73
+                    },
+                    "start": 66,
+                    "end": 73
                   },
                   "typeAnnotation": null,
                   "value": {
                     "type": "AwaitExpression",
-                    "start": 77,
-                    "end": 84,
                     "argument": {
                       "type": "Identifier",
+                      "decorators": [],
+                      "name": "x",
+                      "optional": false,
+                      "typeAnnotation": null,
                       "start": 83,
-                      "end": 84,
-                      "decorators": [],
-                      "name": "x",
-                      "optional": false,
-                      "typeAnnotation": null
-                    }
+                      "end": 84
+                    },
+                    "start": 77,
+                    "end": 84
                   },
                   "computed": true,
                   "static": false,
@@ -133,41 +121,41 @@ __ESTREE_TEST__:PASS:
                   "optional": false,
                   "definite": false,
                   "readonly": false,
-                  "accessibility": null
+                  "accessibility": null,
+                  "start": 65,
+                  "end": 85
                 },
                 {
                   "type": "PropertyDefinition",
-                  "start": 94,
-                  "end": 121,
                   "decorators": [],
                   "key": {
                     "type": "AwaitExpression",
-                    "start": 102,
-                    "end": 109,
                     "argument": {
                       "type": "Identifier",
+                      "decorators": [],
+                      "name": "x",
+                      "optional": false,
+                      "typeAnnotation": null,
                       "start": 108,
-                      "end": 109,
-                      "decorators": [],
-                      "name": "x",
-                      "optional": false,
-                      "typeAnnotation": null
-                    }
+                      "end": 109
+                    },
+                    "start": 102,
+                    "end": 109
                   },
                   "typeAnnotation": null,
                   "value": {
                     "type": "AwaitExpression",
-                    "start": 113,
-                    "end": 120,
                     "argument": {
                       "type": "Identifier",
-                      "start": 119,
-                      "end": 120,
                       "decorators": [],
                       "name": "x",
                       "optional": false,
-                      "typeAnnotation": null
-                    }
+                      "typeAnnotation": null,
+                      "start": 119,
+                      "end": 120
+                    },
+                    "start": 113,
+                    "end": 120
                   },
                   "computed": true,
                   "static": true,
@@ -176,39 +164,39 @@ __ESTREE_TEST__:PASS:
                   "optional": false,
                   "definite": false,
                   "readonly": false,
-                  "accessibility": null
+                  "accessibility": null,
+                  "start": 94,
+                  "end": 121
                 },
                 {
                   "type": "PropertyDefinition",
-                  "start": 131,
-                  "end": 151,
                   "decorators": [],
                   "key": {
                     "type": "YieldExpression",
-                    "start": 132,
-                    "end": 139,
                     "delegate": false,
                     "argument": {
                       "type": "Literal",
-                      "start": 138,
-                      "end": 139,
                       "value": 1,
-                      "raw": "1"
-                    }
+                      "raw": "1",
+                      "start": 138,
+                      "end": 139
+                    },
+                    "start": 132,
+                    "end": 139
                   },
                   "typeAnnotation": null,
                   "value": {
                     "type": "YieldExpression",
-                    "start": 143,
-                    "end": 150,
                     "delegate": false,
                     "argument": {
                       "type": "Literal",
-                      "start": 149,
-                      "end": 150,
                       "value": 2,
-                      "raw": "2"
-                    }
+                      "raw": "2",
+                      "start": 149,
+                      "end": 150
+                    },
+                    "start": 143,
+                    "end": 150
                   },
                   "computed": true,
                   "static": false,
@@ -217,39 +205,39 @@ __ESTREE_TEST__:PASS:
                   "optional": false,
                   "definite": false,
                   "readonly": false,
-                  "accessibility": null
+                  "accessibility": null,
+                  "start": 131,
+                  "end": 151
                 },
                 {
                   "type": "PropertyDefinition",
-                  "start": 160,
-                  "end": 187,
                   "decorators": [],
                   "key": {
                     "type": "YieldExpression",
-                    "start": 168,
-                    "end": 175,
                     "delegate": false,
                     "argument": {
                       "type": "Literal",
-                      "start": 174,
-                      "end": 175,
                       "value": 3,
-                      "raw": "3"
-                    }
+                      "raw": "3",
+                      "start": 174,
+                      "end": 175
+                    },
+                    "start": 168,
+                    "end": 175
                   },
                   "typeAnnotation": null,
                   "value": {
                     "type": "YieldExpression",
-                    "start": 179,
-                    "end": 186,
                     "delegate": false,
                     "argument": {
                       "type": "Literal",
-                      "start": 185,
-                      "end": 186,
                       "value": 4,
-                      "raw": "4"
-                    }
+                      "raw": "4",
+                      "start": 185,
+                      "end": 186
+                    },
+                    "start": 179,
+                    "end": 186
                   },
                   "computed": true,
                   "static": true,
@@ -258,21 +246,23 @@ __ESTREE_TEST__:PASS:
                   "optional": false,
                   "definite": false,
                   "readonly": false,
-                  "accessibility": null
+                  "accessibility": null,
+                  "start": 160,
+                  "end": 187
                 }
-              ]
+              ],
+              "start": 55,
+              "end": 193
             },
             "abstract": false,
-            "declare": false
+            "declare": false,
+            "start": 47,
+            "end": 193
           },
           {
             "type": "ReturnStatement",
-            "start": 199,
-            "end": 350,
             "argument": {
               "type": "ClassExpression",
-              "start": 206,
-              "end": 350,
               "decorators": [],
               "id": null,
               "typeParameters": null,
@@ -281,42 +271,38 @@ __ESTREE_TEST__:PASS:
               "implements": [],
               "body": {
                 "type": "ClassBody",
-                "start": 212,
-                "end": 350,
                 "body": [
                   {
                     "type": "PropertyDefinition",
-                    "start": 222,
-                    "end": 242,
                     "decorators": [],
                     "key": {
                       "type": "AwaitExpression",
-                      "start": 223,
-                      "end": 230,
                       "argument": {
                         "type": "Identifier",
+                        "decorators": [],
+                        "name": "x",
+                        "optional": false,
+                        "typeAnnotation": null,
                         "start": 229,
-                        "end": 230,
-                        "decorators": [],
-                        "name": "x",
-                        "optional": false,
-                        "typeAnnotation": null
-                      }
+                        "end": 230
+                      },
+                      "start": 223,
+                      "end": 230
                     },
                     "typeAnnotation": null,
                     "value": {
                       "type": "AwaitExpression",
-                      "start": 234,
-                      "end": 241,
                       "argument": {
                         "type": "Identifier",
+                        "decorators": [],
+                        "name": "x",
+                        "optional": false,
+                        "typeAnnotation": null,
                         "start": 240,
-                        "end": 241,
-                        "decorators": [],
-                        "name": "x",
-                        "optional": false,
-                        "typeAnnotation": null
-                      }
+                        "end": 241
+                      },
+                      "start": 234,
+                      "end": 241
                     },
                     "computed": true,
                     "static": false,
@@ -325,41 +311,41 @@ __ESTREE_TEST__:PASS:
                     "optional": false,
                     "definite": false,
                     "readonly": false,
-                    "accessibility": null
+                    "accessibility": null,
+                    "start": 222,
+                    "end": 242
                   },
                   {
                     "type": "PropertyDefinition",
-                    "start": 251,
-                    "end": 278,
                     "decorators": [],
                     "key": {
                       "type": "AwaitExpression",
-                      "start": 259,
-                      "end": 266,
                       "argument": {
                         "type": "Identifier",
+                        "decorators": [],
+                        "name": "x",
+                        "optional": false,
+                        "typeAnnotation": null,
                         "start": 265,
-                        "end": 266,
-                        "decorators": [],
-                        "name": "x",
-                        "optional": false,
-                        "typeAnnotation": null
-                      }
+                        "end": 266
+                      },
+                      "start": 259,
+                      "end": 266
                     },
                     "typeAnnotation": null,
                     "value": {
                       "type": "AwaitExpression",
-                      "start": 270,
-                      "end": 277,
                       "argument": {
                         "type": "Identifier",
-                        "start": 276,
-                        "end": 277,
                         "decorators": [],
                         "name": "x",
                         "optional": false,
-                        "typeAnnotation": null
-                      }
+                        "typeAnnotation": null,
+                        "start": 276,
+                        "end": 277
+                      },
+                      "start": 270,
+                      "end": 277
                     },
                     "computed": true,
                     "static": true,
@@ -368,39 +354,39 @@ __ESTREE_TEST__:PASS:
                     "optional": false,
                     "definite": false,
                     "readonly": false,
-                    "accessibility": null
+                    "accessibility": null,
+                    "start": 251,
+                    "end": 278
                   },
                   {
                     "type": "PropertyDefinition",
-                    "start": 288,
-                    "end": 308,
                     "decorators": [],
                     "key": {
                       "type": "YieldExpression",
-                      "start": 289,
-                      "end": 296,
                       "delegate": false,
                       "argument": {
                         "type": "Literal",
-                        "start": 295,
-                        "end": 296,
                         "value": 1,
-                        "raw": "1"
-                      }
+                        "raw": "1",
+                        "start": 295,
+                        "end": 296
+                      },
+                      "start": 289,
+                      "end": 296
                     },
                     "typeAnnotation": null,
                     "value": {
                       "type": "YieldExpression",
-                      "start": 300,
-                      "end": 307,
                       "delegate": false,
                       "argument": {
                         "type": "Literal",
-                        "start": 306,
-                        "end": 307,
                         "value": 2,
-                        "raw": "2"
-                      }
+                        "raw": "2",
+                        "start": 306,
+                        "end": 307
+                      },
+                      "start": 300,
+                      "end": 307
                     },
                     "computed": true,
                     "static": false,
@@ -409,39 +395,39 @@ __ESTREE_TEST__:PASS:
                     "optional": false,
                     "definite": false,
                     "readonly": false,
-                    "accessibility": null
+                    "accessibility": null,
+                    "start": 288,
+                    "end": 308
                   },
                   {
                     "type": "PropertyDefinition",
-                    "start": 317,
-                    "end": 344,
                     "decorators": [],
                     "key": {
                       "type": "YieldExpression",
-                      "start": 325,
-                      "end": 332,
                       "delegate": false,
                       "argument": {
                         "type": "Literal",
-                        "start": 331,
-                        "end": 332,
                         "value": 3,
-                        "raw": "3"
-                      }
+                        "raw": "3",
+                        "start": 331,
+                        "end": 332
+                      },
+                      "start": 325,
+                      "end": 332
                     },
                     "typeAnnotation": null,
                     "value": {
                       "type": "YieldExpression",
-                      "start": 336,
-                      "end": 343,
                       "delegate": false,
                       "argument": {
                         "type": "Literal",
-                        "start": 342,
-                        "end": 343,
                         "value": 4,
-                        "raw": "4"
-                      }
+                        "raw": "4",
+                        "start": 342,
+                        "end": 343
+                      },
+                      "start": 336,
+                      "end": 343
                     },
                     "computed": true,
                     "static": true,
@@ -450,20 +436,34 @@ __ESTREE_TEST__:PASS:
                     "optional": false,
                     "definite": false,
                     "readonly": false,
-                    "accessibility": null
+                    "accessibility": null,
+                    "start": 317,
+                    "end": 344
                   }
-                ]
+                ],
+                "start": 212,
+                "end": 350
               },
               "abstract": false,
-              "declare": false
-            }
+              "declare": false,
+              "start": 206,
+              "end": 350
+            },
+            "start": 199,
+            "end": 350
           }
-        ]
+        ],
+        "start": 41,
+        "end": 352
       },
-      "expression": false
+      "expression": false,
+      "start": 0,
+      "end": 352
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 352
 }
 ```

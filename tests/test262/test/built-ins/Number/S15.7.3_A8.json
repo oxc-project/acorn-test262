@@ -1,134 +1,134 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 448,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 269,
-      "end": 361,
       "expression": {
         "type": "CallExpression",
-        "start": 269,
-        "end": 360,
         "callee": {
           "type": "Identifier",
+          "name": "assert",
           "start": 269,
-          "end": 275,
-          "name": "assert"
+          "end": 275
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 276,
-            "end": 307,
             "callee": {
               "type": "MemberExpression",
-              "start": 276,
-              "end": 297,
               "object": {
                 "type": "Identifier",
+                "name": "Number",
                 "start": 276,
-                "end": 282,
-                "name": "Number"
+                "end": 282
               },
               "property": {
                 "type": "Identifier",
+                "name": "hasOwnProperty",
                 "start": 283,
-                "end": 297,
-                "name": "hasOwnProperty"
+                "end": 297
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 276,
+              "end": 297
             },
             "arguments": [
               {
                 "type": "Literal",
-                "start": 298,
-                "end": 306,
                 "value": "length",
-                "raw": "\"length\""
+                "raw": "\"length\"",
+                "start": 298,
+                "end": 306
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 276,
+            "end": 307
           },
           {
             "type": "Literal",
-            "start": 309,
-            "end": 359,
             "value": "Number.hasOwnProperty(\"length\") must return true",
-            "raw": "'Number.hasOwnProperty(\"length\") must return true'"
+            "raw": "'Number.hasOwnProperty(\"length\") must return true'",
+            "start": 309,
+            "end": 359
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 269,
+        "end": 360
+      },
+      "start": 269,
+      "end": 361
     },
     {
       "type": "ExpressionStatement",
-      "start": 362,
-      "end": 447,
       "expression": {
         "type": "CallExpression",
-        "start": 362,
-        "end": 446,
         "callee": {
           "type": "MemberExpression",
-          "start": 362,
-          "end": 378,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 362,
-            "end": 368,
-            "name": "assert"
+            "end": 368
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 369,
-            "end": 378,
-            "name": "sameValue"
+            "end": 378
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 362,
+          "end": 378
         },
         "arguments": [
           {
             "type": "MemberExpression",
-            "start": 379,
-            "end": 392,
             "object": {
               "type": "Identifier",
+              "name": "Number",
               "start": 379,
-              "end": 385,
-              "name": "Number"
+              "end": 385
             },
             "property": {
               "type": "Identifier",
+              "name": "length",
               "start": 386,
-              "end": 392,
-              "name": "length"
+              "end": 392
             },
             "optional": false,
-            "computed": false
+            "computed": false,
+            "start": 379,
+            "end": 392
           },
           {
             "type": "Literal",
-            "start": 394,
-            "end": 395,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "start": 394,
+            "end": 395
           },
           {
             "type": "Literal",
-            "start": 397,
-            "end": 445,
             "value": "The value of Number.length is expected to be 1",
-            "raw": "'The value of Number.length is expected to be 1'"
+            "raw": "'The value of Number.length is expected to be 1'",
+            "start": 397,
+            "end": 445
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 362,
+        "end": 446
+      },
+      "start": 362,
+      "end": 447
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 448
 }

@@ -1,102 +1,102 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 457,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 314,
-      "end": 456,
       "expression": {
         "type": "CallExpression",
-        "start": 314,
-        "end": 455,
         "callee": {
           "type": "MemberExpression",
-          "start": 314,
-          "end": 330,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 314,
-            "end": 320,
-            "name": "assert"
+            "end": 320
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 321,
-            "end": 330,
-            "name": "sameValue"
+            "end": 330
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 314,
+          "end": 330
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 334,
-            "end": 378,
             "callee": {
               "type": "MemberExpression",
-              "start": 334,
-              "end": 363,
               "object": {
                 "type": "MemberExpression",
-                "start": 334,
-                "end": 348,
                 "object": {
                   "type": "Identifier",
+                  "name": "Date",
                   "start": 334,
-                  "end": 338,
-                  "name": "Date"
+                  "end": 338
                 },
                 "property": {
                   "type": "Identifier",
+                  "name": "prototype",
                   "start": 339,
-                  "end": 348,
-                  "name": "prototype"
+                  "end": 348
                 },
                 "optional": false,
-                "computed": false
+                "computed": false,
+                "start": 334,
+                "end": 348
               },
               "property": {
                 "type": "Identifier",
+                "name": "hasOwnProperty",
                 "start": 349,
-                "end": 363,
-                "name": "hasOwnProperty"
+                "end": 363
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 334,
+              "end": 363
             },
             "arguments": [
               {
                 "type": "Literal",
-                "start": 364,
-                "end": 377,
                 "value": "getUTCHours",
-                "raw": "\"getUTCHours\""
+                "raw": "\"getUTCHours\"",
+                "start": 364,
+                "end": 377
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 334,
+            "end": 378
           },
           {
             "type": "Literal",
-            "start": 382,
-            "end": 386,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "start": 382,
+            "end": 386
           },
           {
             "type": "Literal",
-            "start": 390,
-            "end": 453,
             "value": "Date.prototype.hasOwnProperty(\"getUTCHours\") must return true",
-            "raw": "'Date.prototype.hasOwnProperty(\"getUTCHours\") must return true'"
+            "raw": "'Date.prototype.hasOwnProperty(\"getUTCHours\") must return true'",
+            "start": 390,
+            "end": 453
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 314,
+        "end": 455
+      },
+      "start": 314,
+      "end": 456
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 457
 }

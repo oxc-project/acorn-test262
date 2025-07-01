@@ -2,48 +2,36 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 91,
   "body": [
     {
       "type": "IfStatement",
-      "start": 0,
-      "end": 91,
       "test": {
         "type": "Literal",
-        "start": 4,
-        "end": 9,
         "value": false,
-        "raw": "false"
+        "raw": "false",
+        "start": 4,
+        "end": 9
       },
       "consequent": {
         "type": "BlockStatement",
-        "start": 11,
-        "end": 91,
         "body": [
           {
             "type": "VariableDeclaration",
-            "start": 58,
-            "end": 89,
             "kind": "const",
             "declarations": [
               {
                 "type": "VariableDeclarator",
-                "start": 64,
-                "end": 88,
                 "id": {
                   "type": "Identifier",
-                  "start": 64,
-                  "end": 65,
                   "decorators": [],
                   "name": "x",
                   "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "start": 64,
+                  "end": 65
                 },
                 "init": {
                   "type": "FunctionExpression",
-                  "start": 68,
-                  "end": 88,
                   "id": null,
                   "generator": false,
                   "async": false,
@@ -52,34 +40,46 @@ __ESTREE_TEST__:PASS:
                   "params": [
                     {
                       "type": "Identifier",
-                      "start": 78,
-                      "end": 79,
                       "decorators": [],
                       "name": "s",
                       "optional": false,
-                      "typeAnnotation": null
+                      "typeAnnotation": null,
+                      "start": 78,
+                      "end": 79
                     }
                   ],
                   "returnType": null,
                   "body": {
                     "type": "BlockStatement",
+                    "body": [],
                     "start": 81,
-                    "end": 88,
-                    "body": []
+                    "end": 88
                   },
-                  "expression": false
+                  "expression": false,
+                  "start": 68,
+                  "end": 88
                 },
-                "definite": false
+                "definite": false,
+                "start": 64,
+                "end": 88
               }
             ],
-            "declare": false
+            "declare": false,
+            "start": 58,
+            "end": 89
           }
-        ]
+        ],
+        "start": 11,
+        "end": 91
       },
-      "alternate": null
+      "alternate": null,
+      "start": 0,
+      "end": 91
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 91
 }
 ```

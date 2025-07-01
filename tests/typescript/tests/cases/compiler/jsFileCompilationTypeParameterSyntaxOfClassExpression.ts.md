@@ -2,79 +2,79 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 24,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 0,
-      "end": 24,
       "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 6,
-          "end": 23,
           "id": {
             "type": "Identifier",
-            "start": 6,
-            "end": 9,
             "decorators": [],
             "name": "Bar",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 6,
+            "end": 9
           },
           "init": {
             "type": "ClassExpression",
-            "start": 12,
-            "end": 23,
             "decorators": [],
             "id": null,
             "typeParameters": {
               "type": "TSTypeParameterDeclaration",
-              "start": 17,
-              "end": 20,
               "params": [
                 {
                   "type": "TSTypeParameter",
-                  "start": 18,
-                  "end": 19,
                   "name": {
                     "type": "Identifier",
-                    "start": 18,
-                    "end": 19,
                     "decorators": [],
                     "name": "T",
                     "optional": false,
-                    "typeAnnotation": null
+                    "typeAnnotation": null,
+                    "start": 18,
+                    "end": 19
                   },
                   "constraint": null,
                   "default": null,
                   "in": false,
                   "out": false,
-                  "const": false
+                  "const": false,
+                  "start": 18,
+                  "end": 19
                 }
-              ]
+              ],
+              "start": 17,
+              "end": 20
             },
             "superClass": null,
             "superTypeArguments": null,
             "implements": [],
             "body": {
               "type": "ClassBody",
+              "body": [],
               "start": 21,
-              "end": 23,
-              "body": []
+              "end": 23
             },
             "abstract": false,
-            "declare": false
+            "declare": false,
+            "start": 12,
+            "end": 23
           },
-          "definite": false
+          "definite": false,
+          "start": 6,
+          "end": 23
         }
       ],
-      "declare": false
+      "declare": false,
+      "start": 0,
+      "end": 24
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 24
 }
 ```

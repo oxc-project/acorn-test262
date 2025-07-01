@@ -1,135 +1,135 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 576,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 395,
-      "end": 487,
       "expression": {
         "type": "CallExpression",
-        "start": 395,
-        "end": 486,
         "callee": {
           "type": "MemberExpression",
-          "start": 395,
-          "end": 411,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 395,
-            "end": 401,
-            "name": "assert"
+            "end": 401
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 402,
-            "end": 411,
-            "name": "sameValue"
+            "end": 411
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 395,
+          "end": 411
         },
         "arguments": [
           {
             "type": "UnaryExpression",
-            "start": 415,
-            "end": 431,
             "operator": "typeof",
             "argument": {
               "type": "Identifier",
+              "name": "undefined",
               "start": 422,
-              "end": 431,
-              "name": "undefined"
+              "end": 431
             },
-            "prefix": true
+            "prefix": true,
+            "start": 415,
+            "end": 431
           },
           {
             "type": "Literal",
-            "start": 435,
-            "end": 446,
             "value": "undefined",
-            "raw": "\"undefined\""
+            "raw": "\"undefined\"",
+            "start": 435,
+            "end": 446
           },
           {
             "type": "Literal",
-            "start": 450,
-            "end": 484,
             "value": "typeof undefined === \"undefined\"",
-            "raw": "'typeof undefined === \"undefined\"'"
+            "raw": "'typeof undefined === \"undefined\"'",
+            "start": 450,
+            "end": 484
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 395,
+        "end": 486
+      },
+      "start": 395,
+      "end": 487
     },
     {
       "type": "ExpressionStatement",
-      "start": 489,
-      "end": 575,
       "expression": {
         "type": "CallExpression",
-        "start": 489,
-        "end": 574,
         "callee": {
           "type": "MemberExpression",
-          "start": 489,
-          "end": 505,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 489,
-            "end": 495,
-            "name": "assert"
+            "end": 495
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 496,
-            "end": 505,
-            "name": "sameValue"
+            "end": 505
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 489,
+          "end": 505
         },
         "arguments": [
           {
             "type": "UnaryExpression",
-            "start": 509,
-            "end": 522,
             "operator": "typeof",
             "argument": {
               "type": "UnaryExpression",
-              "start": 516,
-              "end": 522,
               "operator": "void",
               "argument": {
                 "type": "Literal",
-                "start": 521,
-                "end": 522,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "start": 521,
+                "end": 522
               },
-              "prefix": true
+              "prefix": true,
+              "start": 516,
+              "end": 522
             },
-            "prefix": true
+            "prefix": true,
+            "start": 509,
+            "end": 522
           },
           {
             "type": "Literal",
-            "start": 526,
-            "end": 537,
             "value": "undefined",
-            "raw": "\"undefined\""
+            "raw": "\"undefined\"",
+            "start": 526,
+            "end": 537
           },
           {
             "type": "Literal",
-            "start": 541,
-            "end": 572,
             "value": "typeof void 0 === \"undefined\"",
-            "raw": "'typeof void 0 === \"undefined\"'"
+            "raw": "'typeof void 0 === \"undefined\"'",
+            "start": 541,
+            "end": 572
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 489,
+        "end": 574
+      },
+      "start": 489,
+      "end": 575
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 576
 }

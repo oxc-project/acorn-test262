@@ -1,104 +1,104 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 599,
   "body": [
     {
       "type": "IfStatement",
-      "start": 382,
-      "end": 516,
       "test": {
         "type": "BinaryExpression",
-        "start": 386,
-        "end": 408,
         "left": {
           "type": "MemberExpression",
-          "start": 386,
-          "end": 402,
           "object": {
             "type": "Identifier",
+            "name": "String",
             "start": 386,
-            "end": 392,
-            "name": "String"
+            "end": 392
           },
           "property": {
             "type": "Identifier",
+            "name": "prototype",
             "start": 393,
-            "end": 402,
-            "name": "prototype"
+            "end": 402
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 386,
+          "end": 402
         },
         "operator": "!=",
         "right": {
           "type": "Literal",
-          "start": 406,
-          "end": 408,
           "value": "",
-          "raw": "\"\""
-        }
+          "raw": "\"\"",
+          "start": 406,
+          "end": 408
+        },
+        "start": 386,
+        "end": 408
       },
       "consequent": {
         "type": "BlockStatement",
-        "start": 410,
-        "end": 516,
         "body": [
           {
             "type": "ThrowStatement",
-            "start": 414,
-            "end": 514,
             "argument": {
               "type": "NewExpression",
-              "start": 420,
-              "end": 513,
               "callee": {
                 "type": "Identifier",
+                "name": "Test262Error",
                 "start": 424,
-                "end": 436,
-                "name": "Test262Error"
+                "end": 436
               },
               "arguments": [
                 {
                   "type": "BinaryExpression",
-                  "start": 437,
-                  "end": 512,
                   "left": {
                     "type": "Literal",
-                    "start": 437,
-                    "end": 493,
                     "value": "#1: String.prototype ==\"\". Actual: String.prototype ==",
-                    "raw": "'#1: String.prototype ==\"\". Actual: String.prototype =='"
+                    "raw": "'#1: String.prototype ==\"\". Actual: String.prototype =='",
+                    "start": 437,
+                    "end": 493
                   },
                   "operator": "+",
                   "right": {
                     "type": "MemberExpression",
-                    "start": 496,
-                    "end": 512,
                     "object": {
                       "type": "Identifier",
+                      "name": "String",
                       "start": 496,
-                      "end": 502,
-                      "name": "String"
+                      "end": 502
                     },
                     "property": {
                       "type": "Identifier",
+                      "name": "prototype",
                       "start": 503,
-                      "end": 512,
-                      "name": "prototype"
+                      "end": 512
                     },
                     "optional": false,
-                    "computed": false
-                  }
+                    "computed": false,
+                    "start": 496,
+                    "end": 512
+                  },
+                  "start": 437,
+                  "end": 512
                 }
-              ]
-            }
+              ],
+              "start": 420,
+              "end": 513
+            },
+            "start": 414,
+            "end": 514
           }
-        ]
+        ],
+        "start": 410,
+        "end": 516
       },
-      "alternate": null
+      "alternate": null,
+      "start": 382,
+      "end": 516
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 599
 }

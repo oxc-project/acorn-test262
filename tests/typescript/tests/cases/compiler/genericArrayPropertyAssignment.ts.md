@@ -2,21 +2,17 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 95,
   "body": [
     {
       "type": "FunctionDeclaration",
-      "start": 0,
-      "end": 69,
       "id": {
         "type": "Identifier",
-        "start": 9,
-        "end": 16,
         "decorators": [],
         "name": "isEmpty",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 9,
+        "end": 16
       },
       "generator": false,
       "async": false,
@@ -25,139 +21,143 @@ __ESTREE_TEST__:PASS:
       "params": [
         {
           "type": "Identifier",
-          "start": 17,
-          "end": 39,
           "decorators": [],
           "name": "list",
           "optional": false,
           "typeAnnotation": {
             "type": "TSTypeAnnotation",
-            "start": 21,
-            "end": 39,
             "typeAnnotation": {
               "type": "TSTypeLiteral",
-              "start": 23,
-              "end": 39,
               "members": [
                 {
                   "type": "TSPropertySignature",
-                  "start": 24,
-                  "end": 38,
                   "computed": false,
                   "optional": false,
                   "readonly": false,
                   "key": {
                     "type": "Identifier",
-                    "start": 24,
-                    "end": 30,
                     "decorators": [],
                     "name": "length",
                     "optional": false,
-                    "typeAnnotation": null
+                    "typeAnnotation": null,
+                    "start": 24,
+                    "end": 30
                   },
                   "typeAnnotation": {
                     "type": "TSTypeAnnotation",
-                    "start": 30,
-                    "end": 37,
                     "typeAnnotation": {
                       "type": "TSNumberKeyword",
                       "start": 31,
                       "end": 37
-                    }
+                    },
+                    "start": 30,
+                    "end": 37
                   },
                   "accessibility": null,
-                  "static": false
+                  "static": false,
+                  "start": 24,
+                  "end": 38
                 }
-              ]
-            }
-          }
+              ],
+              "start": 23,
+              "end": 39
+            },
+            "start": 21,
+            "end": 39
+          },
+          "start": 17,
+          "end": 39
         }
       ],
       "returnType": null,
       "body": {
         "type": "BlockStatement",
-        "start": 41,
-        "end": 69,
         "body": [
           {
             "type": "ReturnStatement",
-            "start": 43,
-            "end": 67,
             "argument": {
               "type": "BinaryExpression",
-              "start": 50,
-              "end": 66,
               "left": {
                 "type": "MemberExpression",
-                "start": 50,
-                "end": 61,
                 "object": {
                   "type": "Identifier",
-                  "start": 50,
-                  "end": 54,
                   "decorators": [],
                   "name": "list",
                   "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "start": 50,
+                  "end": 54
                 },
                 "property": {
                   "type": "Identifier",
-                  "start": 55,
-                  "end": 61,
                   "decorators": [],
                   "name": "length",
                   "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "start": 55,
+                  "end": 61
                 },
                 "optional": false,
-                "computed": false
+                "computed": false,
+                "start": 50,
+                "end": 61
               },
               "operator": "===",
               "right": {
                 "type": "Literal",
-                "start": 65,
-                "end": 66,
                 "value": 0,
-                "raw": "0"
-              }
-            }
+                "raw": "0",
+                "start": 65,
+                "end": 66
+              },
+              "start": 50,
+              "end": 66
+            },
+            "start": 43,
+            "end": 67
           }
-        ]
+        ],
+        "start": 41,
+        "end": 69
       },
-      "expression": false
+      "expression": false,
+      "start": 0,
+      "end": 69
     },
     {
       "type": "ExpressionStatement",
-      "start": 72,
-      "end": 84,
       "expression": {
         "type": "CallExpression",
-        "start": 72,
-        "end": 83,
         "callee": {
           "type": "Identifier",
-          "start": 72,
-          "end": 79,
           "decorators": [],
           "name": "isEmpty",
           "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "start": 72,
+          "end": 79
         },
         "typeArguments": null,
         "arguments": [
           {
             "type": "ArrayExpression",
+            "elements": [],
             "start": 80,
-            "end": 82,
-            "elements": []
+            "end": 82
           }
         ],
-        "optional": false
+        "optional": false,
+        "start": 72,
+        "end": 83
       },
-      "directive": null
+      "directive": null,
+      "start": 72,
+      "end": 84
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 95
 }
 ```

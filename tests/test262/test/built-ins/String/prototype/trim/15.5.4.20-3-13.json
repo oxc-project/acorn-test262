@@ -1,82 +1,82 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 398,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 295,
-      "end": 397,
       "expression": {
         "type": "CallExpression",
-        "start": 295,
-        "end": 396,
         "callee": {
           "type": "MemberExpression",
-          "start": 295,
-          "end": 311,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 295,
-            "end": 301,
-            "name": "assert"
+            "end": 301
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 302,
-            "end": 311,
-            "name": "sameValue"
+            "end": 311
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 295,
+          "end": 311
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 312,
-            "end": 340,
             "callee": {
               "type": "MemberExpression",
-              "start": 312,
-              "end": 338,
               "object": {
                 "type": "Literal",
-                "start": 312,
-                "end": 333,
                 "value": "\u0000\u0000abc\u0000\u0000",
-                "raw": "\"\\0\\u0000abc\\0\\u0000\""
+                "raw": "\"\\0\\u0000abc\\0\\u0000\"",
+                "start": 312,
+                "end": 333
               },
               "property": {
                 "type": "Identifier",
+                "name": "trim",
                 "start": 334,
-                "end": 338,
-                "name": "trim"
+                "end": 338
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 312,
+              "end": 338
             },
             "arguments": [],
-            "optional": false
+            "optional": false,
+            "start": 312,
+            "end": 340
           },
           {
             "type": "Literal",
-            "start": 342,
-            "end": 363,
             "value": "\u0000\u0000abc\u0000\u0000",
-            "raw": "\"\\0\\u0000abc\\0\\u0000\""
+            "raw": "\"\\0\\u0000abc\\0\\u0000\"",
+            "start": 342,
+            "end": 363
           },
           {
             "type": "Literal",
-            "start": 365,
-            "end": 395,
             "value": "\"\u0000\u0000abc\u0000\u0000\".trim()",
-            "raw": "'\"\\0\\u0000abc\\0\\u0000\".trim()'"
+            "raw": "'\"\\0\\u0000abc\\0\\u0000\".trim()'",
+            "start": 365,
+            "end": 395
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 295,
+        "end": 396
+      },
+      "start": 295,
+      "end": 397
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 398
 }

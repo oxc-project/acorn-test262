@@ -1,217 +1,217 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 654,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 481,
-      "end": 520,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 485,
-          "end": 519,
           "id": {
             "type": "Identifier",
+            "name": "positiveZero",
             "start": 485,
-            "end": 497,
-            "name": "positiveZero"
+            "end": 497
           },
           "init": {
             "type": "NewExpression",
-            "start": 500,
-            "end": 519,
             "callee": {
               "type": "Identifier",
+              "name": "ArrayBuffer",
               "start": 504,
-              "end": 515,
-              "name": "ArrayBuffer"
+              "end": 515
             },
             "arguments": [
               {
                 "type": "UnaryExpression",
-                "start": 516,
-                "end": 518,
                 "operator": "+",
                 "argument": {
                   "type": "Literal",
-                  "start": 517,
-                  "end": 518,
                   "value": 0,
-                  "raw": "0"
+                  "raw": "0",
+                  "start": 517,
+                  "end": 518
                 },
-                "prefix": true
+                "prefix": true,
+                "start": 516,
+                "end": 518
               }
-            ]
-          }
+            ],
+            "start": 500,
+            "end": 519
+          },
+          "start": 485,
+          "end": 519
         }
-      ]
+      ],
+      "start": 481,
+      "end": 520
     },
     {
       "type": "ExpressionStatement",
-      "start": 521,
-      "end": 566,
       "expression": {
         "type": "CallExpression",
-        "start": 521,
-        "end": 565,
         "callee": {
           "type": "MemberExpression",
-          "start": 521,
-          "end": 537,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 521,
-            "end": 527,
-            "name": "assert"
+            "end": 527
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 528,
-            "end": 537,
-            "name": "sameValue"
+            "end": 537
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 521,
+          "end": 537
         },
         "arguments": [
           {
             "type": "MemberExpression",
-            "start": 538,
-            "end": 561,
             "object": {
               "type": "Identifier",
+              "name": "positiveZero",
               "start": 538,
-              "end": 550,
-              "name": "positiveZero"
+              "end": 550
             },
             "property": {
               "type": "Identifier",
+              "name": "byteLength",
               "start": 551,
-              "end": 561,
-              "name": "byteLength"
+              "end": 561
             },
             "optional": false,
-            "computed": false
+            "computed": false,
+            "start": 538,
+            "end": 561
           },
           {
             "type": "Literal",
-            "start": 563,
-            "end": 564,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "start": 563,
+            "end": 564
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 521,
+        "end": 565
+      },
+      "start": 521,
+      "end": 566
     },
     {
       "type": "VariableDeclaration",
-      "start": 568,
-      "end": 607,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 572,
-          "end": 606,
           "id": {
             "type": "Identifier",
+            "name": "negativeZero",
             "start": 572,
-            "end": 584,
-            "name": "negativeZero"
+            "end": 584
           },
           "init": {
             "type": "NewExpression",
-            "start": 587,
-            "end": 606,
             "callee": {
               "type": "Identifier",
+              "name": "ArrayBuffer",
               "start": 591,
-              "end": 602,
-              "name": "ArrayBuffer"
+              "end": 602
             },
             "arguments": [
               {
                 "type": "UnaryExpression",
-                "start": 603,
-                "end": 605,
                 "operator": "-",
                 "argument": {
                   "type": "Literal",
-                  "start": 604,
-                  "end": 605,
                   "value": 0,
-                  "raw": "0"
+                  "raw": "0",
+                  "start": 604,
+                  "end": 605
                 },
-                "prefix": true
+                "prefix": true,
+                "start": 603,
+                "end": 605
               }
-            ]
-          }
+            ],
+            "start": 587,
+            "end": 606
+          },
+          "start": 572,
+          "end": 606
         }
-      ]
+      ],
+      "start": 568,
+      "end": 607
     },
     {
       "type": "ExpressionStatement",
-      "start": 608,
-      "end": 653,
       "expression": {
         "type": "CallExpression",
-        "start": 608,
-        "end": 652,
         "callee": {
           "type": "MemberExpression",
-          "start": 608,
-          "end": 624,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 608,
-            "end": 614,
-            "name": "assert"
+            "end": 614
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 615,
-            "end": 624,
-            "name": "sameValue"
+            "end": 624
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 608,
+          "end": 624
         },
         "arguments": [
           {
             "type": "MemberExpression",
-            "start": 625,
-            "end": 648,
             "object": {
               "type": "Identifier",
+              "name": "negativeZero",
               "start": 625,
-              "end": 637,
-              "name": "negativeZero"
+              "end": 637
             },
             "property": {
               "type": "Identifier",
+              "name": "byteLength",
               "start": 638,
-              "end": 648,
-              "name": "byteLength"
+              "end": 648
             },
             "optional": false,
-            "computed": false
+            "computed": false,
+            "start": 625,
+            "end": 648
           },
           {
             "type": "Literal",
-            "start": 650,
-            "end": 651,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "start": 650,
+            "end": 651
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 608,
+        "end": 652
+      },
+      "start": 608,
+      "end": 653
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 654
 }

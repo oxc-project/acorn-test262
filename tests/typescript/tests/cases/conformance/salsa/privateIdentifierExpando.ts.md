@@ -2,98 +2,98 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 30,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 0,
-      "end": 13,
       "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 6,
-          "end": 12,
           "id": {
             "type": "Identifier",
-            "start": 6,
-            "end": 7,
             "decorators": [],
             "name": "x",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 6,
+            "end": 7
           },
           "init": {
             "type": "ObjectExpression",
+            "properties": [],
             "start": 10,
-            "end": 12,
-            "properties": []
+            "end": 12
           },
-          "definite": false
+          "definite": false,
+          "start": 6,
+          "end": 12
         }
       ],
-      "declare": false
+      "declare": false,
+      "start": 0,
+      "end": 13
     },
     {
       "type": "ExpressionStatement",
-      "start": 14,
-      "end": 30,
       "expression": {
         "type": "AssignmentExpression",
-        "start": 14,
-        "end": 29,
         "operator": "=",
         "left": {
           "type": "MemberExpression",
-          "start": 14,
-          "end": 24,
           "object": {
             "type": "MemberExpression",
-            "start": 14,
-            "end": 20,
             "object": {
               "type": "Identifier",
-              "start": 14,
-              "end": 15,
               "decorators": [],
               "name": "x",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 14,
+              "end": 15
             },
             "property": {
               "type": "PrivateIdentifier",
+              "name": "bar",
               "start": 16,
-              "end": 20,
-              "name": "bar"
+              "end": 20
             },
             "optional": false,
-            "computed": false
+            "computed": false,
+            "start": 14,
+            "end": 20
           },
           "property": {
             "type": "Identifier",
-            "start": 21,
-            "end": 24,
             "decorators": [],
             "name": "baz",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 21,
+            "end": 24
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 14,
+          "end": 24
         },
         "right": {
           "type": "Literal",
-          "start": 27,
-          "end": 29,
           "value": 20,
-          "raw": "20"
-        }
+          "raw": "20",
+          "start": 27,
+          "end": 29
+        },
+        "start": 14,
+        "end": 29
       },
-      "directive": null
+      "directive": null,
+      "start": 14,
+      "end": 30
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 30
 }
 ```

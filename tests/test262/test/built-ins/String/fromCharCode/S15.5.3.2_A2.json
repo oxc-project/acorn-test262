@@ -1,118 +1,118 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 575,
   "body": [
     {
       "type": "IfStatement",
-      "start": 344,
-      "end": 492,
       "test": {
         "type": "BinaryExpression",
-        "start": 348,
-        "end": 376,
         "left": {
           "type": "CallExpression",
-          "start": 348,
-          "end": 369,
           "callee": {
             "type": "MemberExpression",
-            "start": 348,
-            "end": 367,
             "object": {
               "type": "Identifier",
+              "name": "String",
               "start": 348,
-              "end": 354,
-              "name": "String"
+              "end": 354
             },
             "property": {
               "type": "Identifier",
+              "name": "fromCharCode",
               "start": 355,
-              "end": 367,
-              "name": "fromCharCode"
+              "end": 367
             },
             "optional": false,
-            "computed": false
+            "computed": false,
+            "start": 348,
+            "end": 367
           },
           "arguments": [],
-          "optional": false
+          "optional": false,
+          "start": 348,
+          "end": 369
         },
         "operator": "!==",
         "right": {
           "type": "Literal",
-          "start": 374,
-          "end": 376,
           "value": "",
-          "raw": "\"\""
-        }
+          "raw": "\"\"",
+          "start": 374,
+          "end": 376
+        },
+        "start": 348,
+        "end": 376
       },
       "consequent": {
         "type": "BlockStatement",
-        "start": 378,
-        "end": 492,
         "body": [
           {
             "type": "ThrowStatement",
-            "start": 382,
-            "end": 490,
             "argument": {
               "type": "NewExpression",
-              "start": 388,
-              "end": 489,
               "callee": {
                 "type": "Identifier",
+                "name": "Test262Error",
                 "start": 392,
-                "end": 404,
-                "name": "Test262Error"
+                "end": 404
               },
               "arguments": [
                 {
                   "type": "BinaryExpression",
-                  "start": 405,
-                  "end": 488,
                   "left": {
                     "type": "Literal",
-                    "start": 405,
-                    "end": 464,
                     "value": "#1: String.fromCharCode () returns empty string. Actual: ",
-                    "raw": "'#1: String.fromCharCode () returns empty string. Actual: '"
+                    "raw": "'#1: String.fromCharCode () returns empty string. Actual: '",
+                    "start": 405,
+                    "end": 464
                   },
                   "operator": "+",
                   "right": {
                     "type": "CallExpression",
-                    "start": 467,
-                    "end": 488,
                     "callee": {
                       "type": "MemberExpression",
-                      "start": 467,
-                      "end": 486,
                       "object": {
                         "type": "Identifier",
+                        "name": "String",
                         "start": 467,
-                        "end": 473,
-                        "name": "String"
+                        "end": 473
                       },
                       "property": {
                         "type": "Identifier",
+                        "name": "fromCharCode",
                         "start": 474,
-                        "end": 486,
-                        "name": "fromCharCode"
+                        "end": 486
                       },
                       "optional": false,
-                      "computed": false
+                      "computed": false,
+                      "start": 467,
+                      "end": 486
                     },
                     "arguments": [],
-                    "optional": false
-                  }
+                    "optional": false,
+                    "start": 467,
+                    "end": 488
+                  },
+                  "start": 405,
+                  "end": 488
                 }
-              ]
-            }
+              ],
+              "start": 388,
+              "end": 489
+            },
+            "start": 382,
+            "end": 490
           }
-        ]
+        ],
+        "start": 378,
+        "end": 492
       },
-      "alternate": null
+      "alternate": null,
+      "start": 344,
+      "end": 492
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 575
 }

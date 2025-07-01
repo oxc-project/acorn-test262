@@ -1,138 +1,138 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 379,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 232,
-      "end": 259,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 236,
-          "end": 258,
           "id": {
             "type": "Identifier",
+            "name": "p",
             "start": 236,
-            "end": 237,
-            "name": "p"
+            "end": 237
           },
           "init": {
             "type": "CallExpression",
-            "start": 240,
-            "end": 258,
             "callee": {
               "type": "MemberExpression",
-              "start": 240,
-              "end": 255,
               "object": {
                 "type": "Identifier",
+                "name": "Promise",
                 "start": 240,
-                "end": 247,
-                "name": "Promise"
+                "end": 247
               },
               "property": {
                 "type": "Identifier",
+                "name": "resolve",
                 "start": 248,
-                "end": 255,
-                "name": "resolve"
+                "end": 255
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 240,
+              "end": 255
             },
             "arguments": [
               {
                 "type": "Literal",
-                "start": 256,
-                "end": 257,
                 "value": 3,
-                "raw": "3"
+                "raw": "3",
+                "start": 256,
+                "end": 257
               }
             ],
-            "optional": false
-          }
+            "optional": false,
+            "start": 240,
+            "end": 258
+          },
+          "start": 236,
+          "end": 258
         }
-      ]
+      ],
+      "start": 232,
+      "end": 259
     },
     {
       "type": "ExpressionStatement",
-      "start": 261,
-      "end": 378,
       "expression": {
         "type": "CallExpression",
-        "start": 261,
-        "end": 377,
         "callee": {
           "type": "Identifier",
+          "name": "assert",
           "start": 261,
-          "end": 267,
-          "name": "assert"
+          "end": 267
         },
         "arguments": [
           {
             "type": "UnaryExpression",
-            "start": 271,
-            "end": 302,
             "operator": "!",
             "argument": {
               "type": "UnaryExpression",
-              "start": 272,
-              "end": 302,
               "operator": "!",
               "argument": {
                 "type": "ParenthesizedExpression",
-                "start": 273,
-                "end": 302,
                 "expression": {
                   "type": "BinaryExpression",
-                  "start": 274,
-                  "end": 301,
                   "left": {
                     "type": "MemberExpression",
-                    "start": 274,
-                    "end": 281,
                     "object": {
                       "type": "Identifier",
+                      "name": "p",
                       "start": 274,
-                      "end": 275,
-                      "name": "p"
+                      "end": 275
                     },
                     "property": {
                       "type": "Identifier",
+                      "name": "catch",
                       "start": 276,
-                      "end": 281,
-                      "name": "catch"
+                      "end": 281
                     },
                     "optional": false,
-                    "computed": false
+                    "computed": false,
+                    "start": 274,
+                    "end": 281
                   },
                   "operator": "instanceof",
                   "right": {
                     "type": "Identifier",
+                    "name": "Function",
                     "start": 293,
-                    "end": 301,
-                    "name": "Function"
-                  }
-                }
+                    "end": 301
+                  },
+                  "start": 274,
+                  "end": 301
+                },
+                "start": 273,
+                "end": 302
               },
-              "prefix": true
+              "prefix": true,
+              "start": 272,
+              "end": 302
             },
-            "prefix": true
+            "prefix": true,
+            "start": 271,
+            "end": 302
           },
           {
             "type": "Literal",
-            "start": 306,
-            "end": 375,
             "value": "The value of !!(p.catch instanceof Function) is expected to be true",
-            "raw": "'The value of !!(p.catch instanceof Function) is expected to be true'"
+            "raw": "'The value of !!(p.catch instanceof Function) is expected to be true'",
+            "start": 306,
+            "end": 375
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 261,
+        "end": 377
+      },
+      "start": 261,
+      "end": 378
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 379
 }

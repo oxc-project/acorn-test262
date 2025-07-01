@@ -1,101 +1,101 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 469,
   "body": [
     {
       "type": "ClassDeclaration",
-      "start": 408,
-      "end": 418,
       "decorators": [],
       "id": {
         "type": "Identifier",
+        "name": "C",
         "start": 414,
-        "end": 415,
-        "name": "C"
+        "end": 415
       },
       "superClass": null,
       "body": {
         "type": "ClassBody",
+        "body": [],
         "start": 416,
-        "end": 418,
-        "body": []
-      }
+        "end": 418
+      },
+      "start": 408,
+      "end": 418
     },
     {
       "type": "ExpressionStatement",
-      "start": 420,
-      "end": 468,
       "expression": {
         "type": "CallExpression",
-        "start": 420,
-        "end": 467,
         "callee": {
           "type": "MemberExpression",
-          "start": 420,
-          "end": 433,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 420,
-            "end": 426,
-            "name": "assert"
+            "end": 426
           },
           "property": {
             "type": "Identifier",
+            "name": "throws",
             "start": 427,
-            "end": 433,
-            "name": "throws"
+            "end": 433
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 420,
+          "end": 433
         },
         "arguments": [
           {
             "type": "Identifier",
+            "name": "TypeError",
             "start": 434,
-            "end": 443,
-            "name": "TypeError"
+            "end": 443
           },
           {
             "type": "FunctionExpression",
-            "start": 445,
-            "end": 466,
             "id": null,
             "generator": false,
             "async": false,
             "params": [],
             "body": {
               "type": "BlockStatement",
-              "start": 456,
-              "end": 466,
               "body": [
                 {
                   "type": "ExpressionStatement",
-                  "start": 460,
-                  "end": 464,
                   "expression": {
                     "type": "CallExpression",
-                    "start": 460,
-                    "end": 463,
                     "callee": {
                       "type": "Identifier",
+                      "name": "C",
                       "start": 460,
-                      "end": 461,
-                      "name": "C"
+                      "end": 461
                     },
                     "arguments": [],
-                    "optional": false
-                  }
+                    "optional": false,
+                    "start": 460,
+                    "end": 463
+                  },
+                  "start": 460,
+                  "end": 464
                 }
-              ]
+              ],
+              "start": 456,
+              "end": 466
             },
-            "expression": false
+            "expression": false,
+            "start": 445,
+            "end": 466
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 420,
+        "end": 467
+      },
+      "start": 420,
+      "end": 468
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 469
 }

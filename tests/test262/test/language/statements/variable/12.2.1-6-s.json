@@ -1,67 +1,67 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 401,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 360,
-      "end": 391,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 364,
-          "end": 390,
           "id": {
             "type": "Identifier",
+            "name": "f",
             "start": 364,
-            "end": 365,
-            "name": "f"
+            "end": 365
           },
           "init": {
             "type": "CallExpression",
-            "start": 368,
-            "end": 390,
             "callee": {
               "type": "Identifier",
+              "name": "Function",
               "start": 368,
-              "end": 376,
-              "name": "Function"
+              "end": 376
             },
             "arguments": [
               {
                 "type": "Literal",
-                "start": 377,
-                "end": 389,
                 "value": "eval = 42;",
-                "raw": "'eval = 42;'"
+                "raw": "'eval = 42;'",
+                "start": 377,
+                "end": 389
               }
             ],
-            "optional": false
-          }
+            "optional": false,
+            "start": 368,
+            "end": 390
+          },
+          "start": 364,
+          "end": 390
         }
-      ]
+      ],
+      "start": 360,
+      "end": 391
     },
     {
       "type": "ExpressionStatement",
-      "start": 396,
-      "end": 400,
       "expression": {
         "type": "CallExpression",
-        "start": 396,
-        "end": 399,
         "callee": {
           "type": "Identifier",
+          "name": "f",
           "start": 396,
-          "end": 397,
-          "name": "f"
+          "end": 397
         },
         "arguments": [],
-        "optional": false
-      }
+        "optional": false,
+        "start": 396,
+        "end": 399
+      },
+      "start": 396,
+      "end": 400
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 401
 }

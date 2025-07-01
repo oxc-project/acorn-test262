@@ -1,250 +1,250 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 824,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 300,
-      "end": 366,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 304,
-          "end": 366,
           "id": {
             "type": "Identifier",
+            "name": "__obj",
             "start": 304,
-            "end": 309,
-            "name": "__obj"
+            "end": 309
           },
           "init": {
             "type": "ObjectExpression",
-            "start": 312,
-            "end": 366,
             "properties": [
               {
                 "type": "Property",
-                "start": 316,
-                "end": 364,
                 "kind": "init",
                 "key": {
                   "type": "Identifier",
+                  "name": "toString",
                   "start": 316,
-                  "end": 324,
-                  "name": "toString"
+                  "end": 324
                 },
                 "value": {
                   "type": "FunctionExpression",
-                  "start": 326,
-                  "end": 364,
                   "id": null,
                   "generator": false,
                   "async": false,
                   "params": [],
                   "body": {
                     "type": "BlockStatement",
-                    "start": 337,
-                    "end": 364,
                     "body": [
                       {
                         "type": "ReturnStatement",
-                        "start": 343,
-                        "end": 360,
                         "argument": {
                           "type": "Literal",
-                          "start": 350,
-                          "end": 359,
                           "value": "Ab",
-                          "raw": "\"\\u0041b\""
-                        }
+                          "raw": "\"\\u0041b\"",
+                          "start": 350,
+                          "end": 359
+                        },
+                        "start": 343,
+                        "end": 360
                       }
-                    ]
+                    ],
+                    "start": 337,
+                    "end": 364
                   },
-                  "expression": false
+                  "expression": false,
+                  "start": 326,
+                  "end": 364
                 },
                 "method": false,
                 "shorthand": false,
-                "computed": false
+                "computed": false,
+                "start": 316,
+                "end": 364
               }
-            ]
-          }
+            ],
+            "start": 312,
+            "end": 366
+          },
+          "start": 304,
+          "end": 366
         }
-      ]
+      ],
+      "start": 300,
+      "end": 366
     },
     {
       "type": "ExpressionStatement",
-      "start": 367,
-      "end": 416,
       "expression": {
         "type": "AssignmentExpression",
-        "start": 367,
-        "end": 415,
         "operator": "=",
         "left": {
           "type": "MemberExpression",
-          "start": 367,
-          "end": 384,
           "object": {
             "type": "Identifier",
+            "name": "__obj",
             "start": 367,
-            "end": 372,
-            "name": "__obj"
+            "end": 372
           },
           "property": {
             "type": "Identifier",
+            "name": "toUpperCase",
             "start": 373,
-            "end": 384,
-            "name": "toUpperCase"
+            "end": 384
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 367,
+          "end": 384
         },
         "right": {
           "type": "MemberExpression",
-          "start": 387,
-          "end": 415,
           "object": {
             "type": "MemberExpression",
-            "start": 387,
-            "end": 403,
             "object": {
               "type": "Identifier",
+              "name": "String",
               "start": 387,
-              "end": 393,
-              "name": "String"
+              "end": 393
             },
             "property": {
               "type": "Identifier",
+              "name": "prototype",
               "start": 394,
-              "end": 403,
-              "name": "prototype"
+              "end": 403
             },
             "optional": false,
-            "computed": false
+            "computed": false,
+            "start": 387,
+            "end": 403
           },
           "property": {
             "type": "Identifier",
+            "name": "toUpperCase",
             "start": 404,
-            "end": 415,
-            "name": "toUpperCase"
+            "end": 415
           },
           "optional": false,
-          "computed": false
-        }
-      }
+          "computed": false,
+          "start": 387,
+          "end": 415
+        },
+        "start": 367,
+        "end": 415
+      },
+      "start": 367,
+      "end": 416
     },
     {
       "type": "IfStatement",
-      "start": 507,
-      "end": 741,
       "test": {
         "type": "BinaryExpression",
-        "start": 511,
-        "end": 539,
         "left": {
           "type": "CallExpression",
-          "start": 511,
-          "end": 530,
           "callee": {
             "type": "MemberExpression",
-            "start": 511,
-            "end": 528,
             "object": {
               "type": "Identifier",
+              "name": "__obj",
               "start": 511,
-              "end": 516,
-              "name": "__obj"
+              "end": 516
             },
             "property": {
               "type": "Identifier",
+              "name": "toUpperCase",
               "start": 517,
-              "end": 528,
-              "name": "toUpperCase"
+              "end": 528
             },
             "optional": false,
-            "computed": false
+            "computed": false,
+            "start": 511,
+            "end": 528
           },
           "arguments": [],
-          "optional": false
+          "optional": false,
+          "start": 511,
+          "end": 530
         },
         "operator": "!==",
         "right": {
           "type": "Literal",
-          "start": 535,
-          "end": 539,
           "value": "AB",
-          "raw": "\"AB\""
-        }
+          "raw": "\"AB\"",
+          "start": 535,
+          "end": 539
+        },
+        "start": 511,
+        "end": 539
       },
       "consequent": {
         "type": "BlockStatement",
-        "start": 541,
-        "end": 741,
         "body": [
           {
             "type": "ThrowStatement",
-            "start": 545,
-            "end": 739,
             "argument": {
               "type": "NewExpression",
-              "start": 551,
-              "end": 738,
               "callee": {
                 "type": "Identifier",
+                "name": "Test262Error",
                 "start": 555,
-                "end": 567,
-                "name": "Test262Error"
+                "end": 567
               },
               "arguments": [
                 {
                   "type": "BinaryExpression",
-                  "start": 568,
-                  "end": 737,
                   "left": {
                     "type": "Literal",
-                    "start": 568,
-                    "end": 715,
                     "value": "#1: var __obj = {toString:function(){return \"Ab\";}}; __obj.toUpperCase = String.prototype.toUpperCase; __obj.toUpperCase() ===\"AB\". Actual: ",
-                    "raw": "'#1: var __obj = {toString:function(){return \"\\u0041b\";}}; __obj.toUpperCase = String.prototype.toUpperCase; __obj.toUpperCase() ===\"AB\". Actual: '"
+                    "raw": "'#1: var __obj = {toString:function(){return \"\\u0041b\";}}; __obj.toUpperCase = String.prototype.toUpperCase; __obj.toUpperCase() ===\"AB\". Actual: '",
+                    "start": 568,
+                    "end": 715
                   },
                   "operator": "+",
                   "right": {
                     "type": "CallExpression",
-                    "start": 718,
-                    "end": 737,
                     "callee": {
                       "type": "MemberExpression",
-                      "start": 718,
-                      "end": 735,
                       "object": {
                         "type": "Identifier",
+                        "name": "__obj",
                         "start": 718,
-                        "end": 723,
-                        "name": "__obj"
+                        "end": 723
                       },
                       "property": {
                         "type": "Identifier",
+                        "name": "toUpperCase",
                         "start": 724,
-                        "end": 735,
-                        "name": "toUpperCase"
+                        "end": 735
                       },
                       "optional": false,
-                      "computed": false
+                      "computed": false,
+                      "start": 718,
+                      "end": 735
                     },
                     "arguments": [],
-                    "optional": false
-                  }
+                    "optional": false,
+                    "start": 718,
+                    "end": 737
+                  },
+                  "start": 568,
+                  "end": 737
                 }
-              ]
-            }
+              ],
+              "start": 551,
+              "end": 738
+            },
+            "start": 545,
+            "end": 739
           }
-        ]
+        ],
+        "start": 541,
+        "end": 741
       },
-      "alternate": null
+      "alternate": null,
+      "start": 507,
+      "end": 741
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 824
 }

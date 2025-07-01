@@ -1,99 +1,99 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 356,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 251,
-      "end": 355,
       "expression": {
         "type": "CallExpression",
-        "start": 251,
-        "end": 354,
         "callee": {
           "type": "MemberExpression",
-          "start": 251,
-          "end": 267,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 251,
-            "end": 257,
-            "name": "assert"
+            "end": 257
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 258,
-            "end": 267,
-            "name": "sameValue"
+            "end": 267
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 251,
+          "end": 267
         },
         "arguments": [
           {
             "type": "UnaryExpression",
-            "start": 268,
-            "end": 302,
             "operator": "typeof",
             "argument": {
               "type": "ParenthesizedExpression",
-              "start": 274,
-              "end": 302,
               "expression": {
                 "type": "MemberExpression",
-                "start": 275,
-                "end": 301,
                 "object": {
                   "type": "MemberExpression",
-                  "start": 275,
-                  "end": 289,
                   "object": {
                     "type": "Identifier",
+                    "name": "Date",
                     "start": 275,
-                    "end": 279,
-                    "name": "Date"
+                    "end": 279
                   },
                   "property": {
                     "type": "Identifier",
+                    "name": "prototype",
                     "start": 280,
-                    "end": 289,
-                    "name": "prototype"
+                    "end": 289
                   },
                   "optional": false,
-                  "computed": false
+                  "computed": false,
+                  "start": 275,
+                  "end": 289
                 },
                 "property": {
                   "type": "Identifier",
+                  "name": "toISOString",
                   "start": 290,
-                  "end": 301,
-                  "name": "toISOString"
+                  "end": 301
                 },
                 "optional": false,
-                "computed": false
-              }
+                "computed": false,
+                "start": 275,
+                "end": 301
+              },
+              "start": 274,
+              "end": 302
             },
-            "prefix": true
+            "prefix": true,
+            "start": 268,
+            "end": 302
           },
           {
             "type": "Literal",
-            "start": 304,
-            "end": 314,
             "value": "function",
-            "raw": "\"function\""
+            "raw": "\"function\"",
+            "start": 304,
+            "end": 314
           },
           {
             "type": "Literal",
-            "start": 316,
-            "end": 353,
             "value": "typeof (Date.prototype.toISOString)",
-            "raw": "'typeof (Date.prototype.toISOString)'"
+            "raw": "'typeof (Date.prototype.toISOString)'",
+            "start": 316,
+            "end": 353
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 251,
+        "end": 354
+      },
+      "start": 251,
+      "end": 355
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 356
 }

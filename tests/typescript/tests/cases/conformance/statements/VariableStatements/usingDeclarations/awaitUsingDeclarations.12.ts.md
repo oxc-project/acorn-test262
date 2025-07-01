@@ -2,21 +2,17 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 46,
   "body": [
     {
       "type": "FunctionDeclaration",
-      "start": 0,
-      "end": 46,
       "id": {
         "type": "Identifier",
-        "start": 15,
-        "end": 16,
         "decorators": [],
         "name": "f",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 15,
+        "end": 16
       },
       "generator": false,
       "async": true,
@@ -26,45 +22,49 @@ __ESTREE_TEST__:PASS:
       "returnType": null,
       "body": {
         "type": "BlockStatement",
-        "start": 19,
-        "end": 46,
         "body": [
           {
             "type": "VariableDeclaration",
-            "start": 25,
-            "end": 44,
             "kind": "await using",
             "declarations": [
               {
                 "type": "VariableDeclarator",
-                "start": 37,
-                "end": 43,
                 "id": {
                   "type": "Identifier",
-                  "start": 37,
-                  "end": 38,
                   "decorators": [],
                   "name": "x",
                   "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "start": 37,
+                  "end": 38
                 },
                 "init": {
                   "type": "ObjectExpression",
+                  "properties": [],
                   "start": 41,
-                  "end": 43,
-                  "properties": []
+                  "end": 43
                 },
-                "definite": false
+                "definite": false,
+                "start": 37,
+                "end": 43
               }
             ],
-            "declare": false
+            "declare": false,
+            "start": 25,
+            "end": 44
           }
-        ]
+        ],
+        "start": 19,
+        "end": 46
       },
-      "expression": false
+      "expression": false,
+      "start": 0,
+      "end": 46
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 46
 }
 ```

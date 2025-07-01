@@ -1,95 +1,95 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 520,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 307,
-      "end": 404,
       "kind": "let",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 311,
-          "end": 392,
           "id": {
             "type": "Identifier",
+            "name": "f",
             "start": 311,
-            "end": 312,
-            "name": "f"
+            "end": 312
           },
           "init": {
             "type": "CallExpression",
-            "start": 327,
-            "end": 392,
             "callee": {
               "type": "Identifier",
+              "name": "Function",
               "start": 327,
-              "end": 335,
-              "name": "Function"
+              "end": 335
             },
             "arguments": [
               {
                 "type": "Literal",
-                "start": 336,
-                "end": 339,
                 "value": "a",
-                "raw": "\"a\""
+                "raw": "\"a\"",
+                "start": 336,
+                "end": 339
               },
               {
                 "type": "Literal",
-                "start": 341,
-                "end": 367,
                 "value": " /* a */ b, c /* b */ //",
-                "raw": "\" /* a */ b, c /* b */ //\""
+                "raw": "\" /* a */ b, c /* b */ //\"",
+                "start": 341,
+                "end": 367
               },
               {
                 "type": "Literal",
-                "start": 369,
-                "end": 391,
                 "value": "/* c */ ; /* d */ //",
-                "raw": "\"/* c */ ; /* d */ //\""
+                "raw": "\"/* c */ ; /* d */ //\"",
+                "start": 369,
+                "end": 391
               }
             ],
-            "optional": false
-          }
+            "optional": false,
+            "start": 327,
+            "end": 392
+          },
+          "start": 311,
+          "end": 392
         }
-      ]
+      ],
+      "start": 307,
+      "end": 404
     },
     {
       "type": "ExpressionStatement",
-      "start": 406,
-      "end": 519,
       "expression": {
         "type": "CallExpression",
-        "start": 406,
-        "end": 518,
         "callee": {
           "type": "Identifier",
+          "name": "assertToStringOrNativeFunction",
           "start": 406,
-          "end": 436,
-          "name": "assertToStringOrNativeFunction"
+          "end": 436
         },
         "arguments": [
           {
             "type": "Identifier",
+            "name": "f",
             "start": 437,
-            "end": 438,
-            "name": "f"
+            "end": 438
           },
           {
             "type": "Literal",
-            "start": 440,
-            "end": 517,
             "value": "function anonymous(a, /* a */ b, c /* b */ //\n) {\n/* c */ ; /* d */ //\n}",
-            "raw": "\"function anonymous(a, /* a */ b, c /* b */ //\\n) {\\n/* c */ ; /* d */ //\\n}\""
+            "raw": "\"function anonymous(a, /* a */ b, c /* b */ //\\n) {\\n/* c */ ; /* d */ //\\n}\"",
+            "start": 440,
+            "end": 517
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 406,
+        "end": 518
+      },
+      "start": 406,
+      "end": 519
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 520
 }

@@ -1,107 +1,107 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 379,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 247,
-      "end": 299,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 251,
-          "end": 298,
           "id": {
             "type": "Identifier",
+            "name": "lineTerminatorsStr",
             "start": 251,
-            "end": 269,
-            "name": "lineTerminatorsStr"
+            "end": 269
           },
           "init": {
             "type": "Literal",
-            "start": 272,
-            "end": 298,
             "value": "\n\r  ",
-            "raw": "\"\\u000A\\u000D\\u2028\\u2029\""
-          }
+            "raw": "\"\\u000A\\u000D\\u2028\\u2029\"",
+            "start": 272,
+            "end": 298
+          },
+          "start": 251,
+          "end": 298
         }
-      ]
+      ],
+      "start": 247,
+      "end": 299
     },
     {
       "type": "ExpressionStatement",
-      "start": 301,
-      "end": 378,
       "expression": {
         "type": "CallExpression",
-        "start": 301,
-        "end": 377,
         "callee": {
           "type": "MemberExpression",
-          "start": 301,
-          "end": 317,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 301,
-            "end": 307,
-            "name": "assert"
+            "end": 307
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 308,
-            "end": 317,
-            "name": "sameValue"
+            "end": 317
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 301,
+          "end": 317
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 318,
-            "end": 343,
             "callee": {
               "type": "MemberExpression",
-              "start": 318,
-              "end": 341,
               "object": {
                 "type": "Identifier",
+                "name": "lineTerminatorsStr",
                 "start": 318,
-                "end": 336,
-                "name": "lineTerminatorsStr"
+                "end": 336
               },
               "property": {
                 "type": "Identifier",
+                "name": "trim",
                 "start": 337,
-                "end": 341,
-                "name": "trim"
+                "end": 341
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 318,
+              "end": 341
             },
             "arguments": [],
-            "optional": false
+            "optional": false,
+            "start": 318,
+            "end": 343
           },
           {
             "type": "Literal",
-            "start": 345,
-            "end": 347,
             "value": "",
-            "raw": "\"\""
+            "raw": "\"\"",
+            "start": 345,
+            "end": 347
           },
           {
             "type": "Literal",
-            "start": 349,
-            "end": 376,
             "value": "lineTerminatorsStr.trim()",
-            "raw": "'lineTerminatorsStr.trim()'"
+            "raw": "'lineTerminatorsStr.trim()'",
+            "start": 349,
+            "end": 376
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 301,
+        "end": 377
+      },
+      "start": 301,
+      "end": 378
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 379
 }

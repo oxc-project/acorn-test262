@@ -1,434 +1,434 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 733,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 204,
-      "end": 363,
       "expression": {
         "type": "CallExpression",
-        "start": 204,
-        "end": 362,
         "callee": {
           "type": "MemberExpression",
-          "start": 204,
-          "end": 220,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 204,
-            "end": 210,
-            "name": "assert"
+            "end": 210
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 211,
-            "end": 220,
-            "name": "sameValue"
+            "end": 220
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 204,
+          "end": 220
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 221,
-            "end": 257,
             "callee": {
               "type": "MemberExpression",
-              "start": 221,
-              "end": 231,
               "object": {
                 "type": "Identifier",
+                "name": "Math",
                 "start": 221,
-                "end": 225,
-                "name": "Math"
+                "end": 225
               },
               "property": {
                 "type": "Identifier",
+                "name": "trunc",
                 "start": 226,
-                "end": 231,
-                "name": "trunc"
+                "end": 231
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 221,
+              "end": 231
             },
             "arguments": [
               {
                 "type": "MemberExpression",
-                "start": 232,
-                "end": 256,
                 "object": {
                   "type": "Identifier",
+                  "name": "Number",
                   "start": 232,
-                  "end": 238,
-                  "name": "Number"
+                  "end": 238
                 },
                 "property": {
                   "type": "Identifier",
+                  "name": "NEGATIVE_INFINITY",
                   "start": 239,
-                  "end": 256,
-                  "name": "NEGATIVE_INFINITY"
+                  "end": 256
                 },
                 "optional": false,
-                "computed": false
+                "computed": false,
+                "start": 232,
+                "end": 256
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 221,
+            "end": 257
           },
           {
             "type": "MemberExpression",
-            "start": 259,
-            "end": 283,
             "object": {
               "type": "Identifier",
+              "name": "Number",
               "start": 259,
-              "end": 265,
-              "name": "Number"
+              "end": 265
             },
             "property": {
               "type": "Identifier",
+              "name": "NEGATIVE_INFINITY",
               "start": 266,
-              "end": 283,
-              "name": "NEGATIVE_INFINITY"
+              "end": 283
             },
             "optional": false,
-            "computed": false
+            "computed": false,
+            "start": 259,
+            "end": 283
           },
           {
             "type": "Literal",
-            "start": 287,
-            "end": 361,
             "value": "Math.trunc should produce negative infinity for Number.NEGATIVE_INFINITY",
-            "raw": "\"Math.trunc should produce negative infinity for Number.NEGATIVE_INFINITY\""
+            "raw": "\"Math.trunc should produce negative infinity for Number.NEGATIVE_INFINITY\"",
+            "start": 287,
+            "end": 361
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 204,
+        "end": 362
+      },
+      "start": 204,
+      "end": 363
     },
     {
       "type": "ExpressionStatement",
-      "start": 364,
-      "end": 523,
       "expression": {
         "type": "CallExpression",
-        "start": 364,
-        "end": 522,
         "callee": {
           "type": "MemberExpression",
-          "start": 364,
-          "end": 380,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 364,
-            "end": 370,
-            "name": "assert"
+            "end": 370
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 371,
-            "end": 380,
-            "name": "sameValue"
+            "end": 380
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 364,
+          "end": 380
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 381,
-            "end": 417,
             "callee": {
               "type": "MemberExpression",
-              "start": 381,
-              "end": 391,
               "object": {
                 "type": "Identifier",
+                "name": "Math",
                 "start": 381,
-                "end": 385,
-                "name": "Math"
+                "end": 385
               },
               "property": {
                 "type": "Identifier",
+                "name": "trunc",
                 "start": 386,
-                "end": 391,
-                "name": "trunc"
+                "end": 391
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 381,
+              "end": 391
             },
             "arguments": [
               {
                 "type": "MemberExpression",
-                "start": 392,
-                "end": 416,
                 "object": {
                   "type": "Identifier",
+                  "name": "Number",
                   "start": 392,
-                  "end": 398,
-                  "name": "Number"
+                  "end": 398
                 },
                 "property": {
                   "type": "Identifier",
+                  "name": "POSITIVE_INFINITY",
                   "start": 399,
-                  "end": 416,
-                  "name": "POSITIVE_INFINITY"
+                  "end": 416
                 },
                 "optional": false,
-                "computed": false
+                "computed": false,
+                "start": 392,
+                "end": 416
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 381,
+            "end": 417
           },
           {
             "type": "MemberExpression",
-            "start": 419,
-            "end": 443,
             "object": {
               "type": "Identifier",
+              "name": "Number",
               "start": 419,
-              "end": 425,
-              "name": "Number"
+              "end": 425
             },
             "property": {
               "type": "Identifier",
+              "name": "POSITIVE_INFINITY",
               "start": 426,
-              "end": 443,
-              "name": "POSITIVE_INFINITY"
+              "end": 443
             },
             "optional": false,
-            "computed": false
+            "computed": false,
+            "start": 419,
+            "end": 443
           },
           {
             "type": "Literal",
-            "start": 447,
-            "end": 521,
             "value": "Math.trunc should produce positive infinity for Number.POSITIVE_INFINITY",
-            "raw": "\"Math.trunc should produce positive infinity for Number.POSITIVE_INFINITY\""
+            "raw": "\"Math.trunc should produce positive infinity for Number.POSITIVE_INFINITY\"",
+            "start": 447,
+            "end": 521
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 364,
+        "end": 522
+      },
+      "start": 364,
+      "end": 523
     },
     {
       "type": "ExpressionStatement",
-      "start": 524,
-      "end": 628,
       "expression": {
         "type": "CallExpression",
-        "start": 524,
-        "end": 627,
         "callee": {
           "type": "MemberExpression",
-          "start": 524,
-          "end": 540,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 524,
-            "end": 530,
-            "name": "assert"
+            "end": 530
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 531,
-            "end": 540,
-            "name": "sameValue"
+            "end": 540
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 524,
+          "end": 540
         },
         "arguments": [
           {
             "type": "BinaryExpression",
-            "start": 541,
-            "end": 559,
             "left": {
               "type": "Literal",
-              "start": 541,
-              "end": 542,
               "value": 1,
-              "raw": "1"
+              "raw": "1",
+              "start": 541,
+              "end": 542
             },
             "operator": "/",
             "right": {
               "type": "CallExpression",
-              "start": 545,
-              "end": 559,
               "callee": {
                 "type": "MemberExpression",
-                "start": 545,
-                "end": 555,
                 "object": {
                   "type": "Identifier",
+                  "name": "Math",
                   "start": 545,
-                  "end": 549,
-                  "name": "Math"
+                  "end": 549
                 },
                 "property": {
                   "type": "Identifier",
+                  "name": "trunc",
                   "start": 550,
-                  "end": 555,
-                  "name": "trunc"
+                  "end": 555
                 },
                 "optional": false,
-                "computed": false
+                "computed": false,
+                "start": 545,
+                "end": 555
               },
               "arguments": [
                 {
                   "type": "UnaryExpression",
-                  "start": 556,
-                  "end": 558,
                   "operator": "-",
                   "argument": {
                     "type": "Literal",
-                    "start": 557,
-                    "end": 558,
                     "value": 0,
-                    "raw": "0"
+                    "raw": "0",
+                    "start": 557,
+                    "end": 558
                   },
-                  "prefix": true
+                  "prefix": true,
+                  "start": 556,
+                  "end": 558
                 }
               ],
-              "optional": false
-            }
+              "optional": false,
+              "start": 545,
+              "end": 559
+            },
+            "start": 541,
+            "end": 559
           },
           {
             "type": "MemberExpression",
-            "start": 561,
-            "end": 585,
             "object": {
               "type": "Identifier",
+              "name": "Number",
               "start": 561,
-              "end": 567,
-              "name": "Number"
+              "end": 567
             },
             "property": {
               "type": "Identifier",
+              "name": "NEGATIVE_INFINITY",
               "start": 568,
-              "end": 585,
-              "name": "NEGATIVE_INFINITY"
+              "end": 585
             },
             "optional": false,
-            "computed": false
+            "computed": false,
+            "start": 561,
+            "end": 585
           },
           {
             "type": "Literal",
-            "start": 589,
-            "end": 626,
             "value": "Math.trunc should produce -0 for -0",
-            "raw": "\"Math.trunc should produce -0 for -0\""
+            "raw": "\"Math.trunc should produce -0 for -0\"",
+            "start": 589,
+            "end": 626
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 524,
+        "end": 627
+      },
+      "start": 524,
+      "end": 628
     },
     {
       "type": "ExpressionStatement",
-      "start": 629,
-      "end": 732,
       "expression": {
         "type": "CallExpression",
-        "start": 629,
-        "end": 731,
         "callee": {
           "type": "MemberExpression",
-          "start": 629,
-          "end": 645,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 629,
-            "end": 635,
-            "name": "assert"
+            "end": 635
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 636,
-            "end": 645,
-            "name": "sameValue"
+            "end": 645
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 629,
+          "end": 645
         },
         "arguments": [
           {
             "type": "BinaryExpression",
-            "start": 646,
-            "end": 663,
             "left": {
               "type": "Literal",
-              "start": 646,
-              "end": 647,
               "value": 1,
-              "raw": "1"
+              "raw": "1",
+              "start": 646,
+              "end": 647
             },
             "operator": "/",
             "right": {
               "type": "CallExpression",
-              "start": 650,
-              "end": 663,
               "callee": {
                 "type": "MemberExpression",
-                "start": 650,
-                "end": 660,
                 "object": {
                   "type": "Identifier",
+                  "name": "Math",
                   "start": 650,
-                  "end": 654,
-                  "name": "Math"
+                  "end": 654
                 },
                 "property": {
                   "type": "Identifier",
+                  "name": "trunc",
                   "start": 655,
-                  "end": 660,
-                  "name": "trunc"
+                  "end": 660
                 },
                 "optional": false,
-                "computed": false
+                "computed": false,
+                "start": 650,
+                "end": 660
               },
               "arguments": [
                 {
                   "type": "Literal",
-                  "start": 661,
-                  "end": 662,
                   "value": 0,
-                  "raw": "0"
+                  "raw": "0",
+                  "start": 661,
+                  "end": 662
                 }
               ],
-              "optional": false
-            }
+              "optional": false,
+              "start": 650,
+              "end": 663
+            },
+            "start": 646,
+            "end": 663
           },
           {
             "type": "MemberExpression",
-            "start": 665,
-            "end": 689,
             "object": {
               "type": "Identifier",
+              "name": "Number",
               "start": 665,
-              "end": 671,
-              "name": "Number"
+              "end": 671
             },
             "property": {
               "type": "Identifier",
+              "name": "POSITIVE_INFINITY",
               "start": 672,
-              "end": 689,
-              "name": "POSITIVE_INFINITY"
+              "end": 689
             },
             "optional": false,
-            "computed": false
+            "computed": false,
+            "start": 665,
+            "end": 689
           },
           {
             "type": "Literal",
-            "start": 693,
-            "end": 730,
             "value": "Math.trunc should produce +0 for +0",
-            "raw": "\"Math.trunc should produce +0 for +0\""
+            "raw": "\"Math.trunc should produce +0 for +0\"",
+            "start": 693,
+            "end": 730
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 629,
+        "end": 731
+      },
+      "start": 629,
+      "end": 732
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 733
 }

@@ -1,139 +1,139 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 2027,
   "body": [
     {
       "type": "FunctionDeclaration",
-      "start": 1921,
-      "end": 1971,
       "id": {
         "type": "Identifier",
+        "name": "f",
         "start": 1931,
-        "end": 1932,
-        "name": "f"
+        "end": 1932
       },
       "generator": true,
       "async": false,
       "params": [
         {
           "type": "AssignmentPattern",
-          "start": 1933,
-          "end": 1967,
           "left": {
             "type": "ArrayPattern",
-            "start": 1933,
-            "end": 1962,
             "elements": [
               {
                 "type": "AssignmentPattern",
-                "start": 1935,
-                "end": 1960,
                 "left": {
                   "type": "Identifier",
+                  "name": "x",
                   "start": 1935,
-                  "end": 1936,
-                  "name": "x"
+                  "end": 1936
                 },
                 "right": {
                   "type": "Identifier",
+                  "name": "unresolvableReference",
                   "start": 1939,
-                  "end": 1960,
-                  "name": "unresolvableReference"
-                }
+                  "end": 1960
+                },
+                "start": 1935,
+                "end": 1960
               }
-            ]
+            ],
+            "start": 1933,
+            "end": 1962
           },
           "right": {
             "type": "ArrayExpression",
+            "elements": [],
             "start": 1965,
-            "end": 1967,
-            "elements": []
-          }
+            "end": 1967
+          },
+          "start": 1933,
+          "end": 1967
         }
       ],
       "body": {
         "type": "BlockStatement",
+        "body": [],
         "start": 1969,
-        "end": 1971,
-        "body": []
+        "end": 1971
       },
-      "expression": false
+      "expression": false,
+      "start": 1921,
+      "end": 1971
     },
     {
       "type": "ExpressionStatement",
-      "start": 1973,
-      "end": 2026,
       "expression": {
         "type": "CallExpression",
-        "start": 1973,
-        "end": 2025,
         "callee": {
           "type": "MemberExpression",
-          "start": 1973,
-          "end": 1986,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 1973,
-            "end": 1979,
-            "name": "assert"
+            "end": 1979
           },
           "property": {
             "type": "Identifier",
+            "name": "throws",
             "start": 1980,
-            "end": 1986,
-            "name": "throws"
+            "end": 1986
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 1973,
+          "end": 1986
         },
         "arguments": [
           {
             "type": "Identifier",
+            "name": "ReferenceError",
             "start": 1987,
-            "end": 2001,
-            "name": "ReferenceError"
+            "end": 2001
           },
           {
             "type": "FunctionExpression",
-            "start": 2003,
-            "end": 2024,
             "id": null,
             "generator": false,
             "async": false,
             "params": [],
             "body": {
               "type": "BlockStatement",
-              "start": 2014,
-              "end": 2024,
               "body": [
                 {
                   "type": "ExpressionStatement",
-                  "start": 2018,
-                  "end": 2022,
                   "expression": {
                     "type": "CallExpression",
-                    "start": 2018,
-                    "end": 2021,
                     "callee": {
                       "type": "Identifier",
+                      "name": "f",
                       "start": 2018,
-                      "end": 2019,
-                      "name": "f"
+                      "end": 2019
                     },
                     "arguments": [],
-                    "optional": false
-                  }
+                    "optional": false,
+                    "start": 2018,
+                    "end": 2021
+                  },
+                  "start": 2018,
+                  "end": 2022
                 }
-              ]
+              ],
+              "start": 2014,
+              "end": 2024
             },
-            "expression": false
+            "expression": false,
+            "start": 2003,
+            "end": 2024
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 1973,
+        "end": 2025
+      },
+      "start": 1973,
+      "end": 2026
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 2027
 }

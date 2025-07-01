@@ -1,830 +1,830 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 1706,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 951,
-      "end": 983,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 955,
-          "end": 982,
           "id": {
             "type": "Identifier",
+            "name": "str",
             "start": 955,
-            "end": 958,
-            "name": "str"
+            "end": 958
           },
           "init": {
             "type": "Literal",
-            "start": 961,
-            "end": 982,
             "value": "The future is cool!",
-            "raw": "'The future is cool!'"
-          }
+            "raw": "'The future is cool!'",
+            "start": 961,
+            "end": 982
+          },
+          "start": 955,
+          "end": 982
         }
-      ]
+      ],
+      "start": 951,
+      "end": 983
     },
     {
       "type": "ExpressionStatement",
-      "start": 985,
-      "end": 1045,
       "expression": {
         "type": "CallExpression",
-        "start": 985,
-        "end": 1044,
         "callee": {
           "type": "Identifier",
+          "name": "assert",
           "start": 985,
-          "end": 991,
-          "name": "assert"
+          "end": 991
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 992,
-            "end": 1023,
             "callee": {
               "type": "MemberExpression",
-              "start": 992,
-              "end": 1004,
               "object": {
                 "type": "Identifier",
+                "name": "str",
                 "start": 992,
-                "end": 995,
-                "name": "str"
+                "end": 995
               },
               "property": {
                 "type": "Identifier",
+                "name": "includes",
                 "start": 996,
-                "end": 1004,
-                "name": "includes"
+                "end": 1004
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 992,
+              "end": 1004
             },
             "arguments": [
               {
                 "type": "Literal",
+                "value": "The future",
+                "raw": "'The future'",
                 "start": 1005,
-                "end": 1017,
-                "value": "The future",
-                "raw": "'The future'"
+                "end": 1017
               },
               {
                 "type": "Identifier",
+                "name": "NaN",
                 "start": 1019,
-                "end": 1022,
-                "name": "NaN"
+                "end": 1022
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 992,
+            "end": 1023
           },
           {
             "type": "Literal",
-            "start": 1025,
-            "end": 1043,
             "value": "NaN coerced to 0",
-            "raw": "'NaN coerced to 0'"
+            "raw": "'NaN coerced to 0'",
+            "start": 1025,
+            "end": 1043
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 985,
+        "end": 1044
+      },
+      "start": 985,
+      "end": 1045
     },
     {
       "type": "ExpressionStatement",
-      "start": 1046,
-      "end": 1108,
       "expression": {
         "type": "CallExpression",
-        "start": 1046,
-        "end": 1107,
         "callee": {
           "type": "Identifier",
+          "name": "assert",
           "start": 1046,
-          "end": 1052,
-          "name": "assert"
+          "end": 1052
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 1053,
-            "end": 1085,
             "callee": {
               "type": "MemberExpression",
-              "start": 1053,
-              "end": 1065,
               "object": {
                 "type": "Identifier",
+                "name": "str",
                 "start": 1053,
-                "end": 1056,
-                "name": "str"
+                "end": 1056
               },
               "property": {
                 "type": "Identifier",
+                "name": "includes",
                 "start": 1057,
-                "end": 1065,
-                "name": "includes"
+                "end": 1065
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 1053,
+              "end": 1065
             },
             "arguments": [
               {
                 "type": "Literal",
+                "value": "The future",
+                "raw": "'The future'",
                 "start": 1066,
-                "end": 1078,
-                "value": "The future",
-                "raw": "'The future'"
+                "end": 1078
               },
               {
                 "type": "Literal",
-                "start": 1080,
-                "end": 1084,
                 "value": null,
-                "raw": "null"
+                "raw": "null",
+                "start": 1080,
+                "end": 1084
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 1053,
+            "end": 1085
           },
           {
             "type": "Literal",
-            "start": 1087,
-            "end": 1106,
             "value": "null coerced to 0",
-            "raw": "'null coerced to 0'"
+            "raw": "'null coerced to 0'",
+            "start": 1087,
+            "end": 1106
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 1046,
+        "end": 1107
+      },
+      "start": 1046,
+      "end": 1108
     },
     {
       "type": "ExpressionStatement",
-      "start": 1109,
-      "end": 1173,
       "expression": {
         "type": "CallExpression",
-        "start": 1109,
-        "end": 1172,
         "callee": {
           "type": "Identifier",
+          "name": "assert",
           "start": 1109,
-          "end": 1115,
-          "name": "assert"
+          "end": 1115
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 1116,
-            "end": 1149,
             "callee": {
               "type": "MemberExpression",
-              "start": 1116,
-              "end": 1128,
               "object": {
                 "type": "Identifier",
+                "name": "str",
                 "start": 1116,
-                "end": 1119,
-                "name": "str"
+                "end": 1119
               },
               "property": {
                 "type": "Identifier",
+                "name": "includes",
                 "start": 1120,
-                "end": 1128,
-                "name": "includes"
+                "end": 1128
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 1116,
+              "end": 1128
             },
             "arguments": [
               {
                 "type": "Literal",
+                "value": "The future",
+                "raw": "'The future'",
                 "start": 1129,
-                "end": 1141,
-                "value": "The future",
-                "raw": "'The future'"
+                "end": 1141
               },
               {
                 "type": "Literal",
-                "start": 1143,
-                "end": 1148,
                 "value": false,
-                "raw": "false"
+                "raw": "false",
+                "start": 1143,
+                "end": 1148
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 1116,
+            "end": 1149
           },
           {
             "type": "Literal",
-            "start": 1151,
-            "end": 1171,
             "value": "false coerced to 0",
-            "raw": "'false coerced to 0'"
+            "raw": "'false coerced to 0'",
+            "start": 1151,
+            "end": 1171
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 1109,
+        "end": 1172
+      },
+      "start": 1109,
+      "end": 1173
     },
     {
       "type": "ExpressionStatement",
-      "start": 1174,
-      "end": 1232,
       "expression": {
         "type": "CallExpression",
-        "start": 1174,
-        "end": 1231,
         "callee": {
           "type": "Identifier",
+          "name": "assert",
           "start": 1174,
-          "end": 1180,
-          "name": "assert"
+          "end": 1180
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 1181,
-            "end": 1211,
             "callee": {
               "type": "MemberExpression",
-              "start": 1181,
-              "end": 1193,
               "object": {
                 "type": "Identifier",
+                "name": "str",
                 "start": 1181,
-                "end": 1184,
-                "name": "str"
+                "end": 1184
               },
               "property": {
                 "type": "Identifier",
+                "name": "includes",
                 "start": 1185,
-                "end": 1193,
-                "name": "includes"
+                "end": 1193
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 1181,
+              "end": 1193
             },
             "arguments": [
               {
                 "type": "Literal",
+                "value": "The future",
+                "raw": "'The future'",
                 "start": 1194,
-                "end": 1206,
-                "value": "The future",
-                "raw": "'The future'"
+                "end": 1206
               },
               {
                 "type": "Literal",
-                "start": 1208,
-                "end": 1210,
                 "value": "",
-                "raw": "''"
+                "raw": "''",
+                "start": 1208,
+                "end": 1210
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 1181,
+            "end": 1211
           },
           {
             "type": "Literal",
-            "start": 1213,
-            "end": 1230,
             "value": "\"\" coerced to 0",
-            "raw": "'\"\" coerced to 0'"
+            "raw": "'\"\" coerced to 0'",
+            "start": 1213,
+            "end": 1230
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 1174,
+        "end": 1231
+      },
+      "start": 1174,
+      "end": 1232
     },
     {
       "type": "ExpressionStatement",
-      "start": 1233,
-      "end": 1293,
       "expression": {
         "type": "CallExpression",
-        "start": 1233,
-        "end": 1292,
         "callee": {
           "type": "Identifier",
+          "name": "assert",
           "start": 1233,
-          "end": 1239,
-          "name": "assert"
+          "end": 1239
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 1240,
-            "end": 1271,
             "callee": {
               "type": "MemberExpression",
-              "start": 1240,
-              "end": 1252,
               "object": {
                 "type": "Identifier",
+                "name": "str",
                 "start": 1240,
-                "end": 1243,
-                "name": "str"
+                "end": 1243
               },
               "property": {
                 "type": "Identifier",
+                "name": "includes",
                 "start": 1244,
-                "end": 1252,
-                "name": "includes"
+                "end": 1252
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 1240,
+              "end": 1252
             },
             "arguments": [
               {
                 "type": "Literal",
+                "value": "The future",
+                "raw": "'The future'",
                 "start": 1253,
-                "end": 1265,
-                "value": "The future",
-                "raw": "'The future'"
+                "end": 1265
               },
               {
                 "type": "Literal",
-                "start": 1267,
-                "end": 1270,
                 "value": "0",
-                "raw": "'0'"
+                "raw": "'0'",
+                "start": 1267,
+                "end": 1270
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 1240,
+            "end": 1271
           },
           {
             "type": "Literal",
-            "start": 1273,
-            "end": 1291,
             "value": "\"0\" coerced to 0",
-            "raw": "'\"0\" coerced to 0'"
+            "raw": "'\"0\" coerced to 0'",
+            "start": 1273,
+            "end": 1291
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 1233,
+        "end": 1292
+      },
+      "start": 1233,
+      "end": 1293
     },
     {
       "type": "ExpressionStatement",
-      "start": 1294,
-      "end": 1366,
       "expression": {
         "type": "CallExpression",
-        "start": 1294,
-        "end": 1365,
         "callee": {
           "type": "Identifier",
+          "name": "assert",
           "start": 1294,
-          "end": 1300,
-          "name": "assert"
+          "end": 1300
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 1301,
-            "end": 1338,
             "callee": {
               "type": "MemberExpression",
-              "start": 1301,
-              "end": 1313,
               "object": {
                 "type": "Identifier",
+                "name": "str",
                 "start": 1301,
-                "end": 1304,
-                "name": "str"
+                "end": 1304
               },
               "property": {
                 "type": "Identifier",
+                "name": "includes",
                 "start": 1305,
-                "end": 1313,
-                "name": "includes"
+                "end": 1313
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 1301,
+              "end": 1313
             },
             "arguments": [
               {
                 "type": "Literal",
+                "value": "The future",
+                "raw": "'The future'",
                 "start": 1314,
-                "end": 1326,
-                "value": "The future",
-                "raw": "'The future'"
+                "end": 1326
               },
               {
                 "type": "Identifier",
+                "name": "undefined",
                 "start": 1328,
-                "end": 1337,
-                "name": "undefined"
+                "end": 1337
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 1301,
+            "end": 1338
           },
           {
             "type": "Literal",
-            "start": 1340,
-            "end": 1364,
             "value": "undefined coerced to 0",
-            "raw": "'undefined coerced to 0'"
+            "raw": "'undefined coerced to 0'",
+            "start": 1340,
+            "end": 1364
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 1294,
+        "end": 1365
+      },
+      "start": 1294,
+      "end": 1366
     },
     {
       "type": "ExpressionStatement",
-      "start": 1367,
-      "end": 1427,
       "expression": {
         "type": "CallExpression",
-        "start": 1367,
-        "end": 1426,
         "callee": {
           "type": "Identifier",
+          "name": "assert",
           "start": 1367,
-          "end": 1373,
-          "name": "assert"
+          "end": 1373
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 1374,
-            "end": 1405,
             "callee": {
               "type": "MemberExpression",
-              "start": 1374,
-              "end": 1386,
               "object": {
                 "type": "Identifier",
+                "name": "str",
                 "start": 1374,
-                "end": 1377,
-                "name": "str"
+                "end": 1377
               },
               "property": {
                 "type": "Identifier",
+                "name": "includes",
                 "start": 1378,
-                "end": 1386,
-                "name": "includes"
+                "end": 1386
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 1374,
+              "end": 1386
             },
             "arguments": [
               {
                 "type": "Literal",
-                "start": 1387,
-                "end": 1399,
                 "value": "The future",
-                "raw": "'The future'"
+                "raw": "'The future'",
+                "start": 1387,
+                "end": 1399
               },
               {
                 "type": "Literal",
-                "start": 1401,
-                "end": 1404,
                 "value": 0.4,
-                "raw": "0.4"
+                "raw": "0.4",
+                "start": 1401,
+                "end": 1404
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 1374,
+            "end": 1405
           },
           {
             "type": "Literal",
-            "start": 1407,
-            "end": 1425,
             "value": "0.4 coerced to 0",
-            "raw": "'0.4 coerced to 0'"
+            "raw": "'0.4 coerced to 0'",
+            "start": 1407,
+            "end": 1425
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 1367,
+        "end": 1426
+      },
+      "start": 1367,
+      "end": 1427
     },
     {
       "type": "ExpressionStatement",
-      "start": 1429,
-      "end": 1468,
       "expression": {
         "type": "CallExpression",
-        "start": 1429,
-        "end": 1467,
         "callee": {
           "type": "Identifier",
+          "name": "assert",
           "start": 1429,
-          "end": 1435,
-          "name": "assert"
+          "end": 1435
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 1436,
-            "end": 1466,
             "callee": {
               "type": "MemberExpression",
-              "start": 1436,
-              "end": 1448,
               "object": {
                 "type": "Identifier",
+                "name": "str",
                 "start": 1436,
-                "end": 1439,
-                "name": "str"
+                "end": 1439
               },
               "property": {
                 "type": "Identifier",
+                "name": "includes",
                 "start": 1440,
-                "end": 1448,
-                "name": "includes"
+                "end": 1448
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 1436,
+              "end": 1448
             },
             "arguments": [
               {
                 "type": "Literal",
-                "start": 1449,
-                "end": 1461,
                 "value": "The future",
-                "raw": "'The future'"
+                "raw": "'The future'",
+                "start": 1449,
+                "end": 1461
               },
               {
                 "type": "UnaryExpression",
-                "start": 1463,
-                "end": 1465,
                 "operator": "-",
                 "argument": {
                   "type": "Literal",
-                  "start": 1464,
-                  "end": 1465,
                   "value": 1,
-                  "raw": "1"
+                  "raw": "1",
+                  "start": 1464,
+                  "end": 1465
                 },
-                "prefix": true
+                "prefix": true,
+                "start": 1463,
+                "end": 1465
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 1436,
+            "end": 1466
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 1429,
+        "end": 1467
+      },
+      "start": 1429,
+      "end": 1468
     },
     {
       "type": "ExpressionStatement",
-      "start": 1470,
-      "end": 1549,
       "expression": {
         "type": "CallExpression",
-        "start": 1470,
-        "end": 1548,
         "callee": {
           "type": "MemberExpression",
-          "start": 1470,
-          "end": 1486,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 1470,
-            "end": 1476,
-            "name": "assert"
+            "end": 1476
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 1477,
-            "end": 1486,
-            "name": "sameValue"
+            "end": 1486
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 1470,
+          "end": 1486
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 1487,
-            "end": 1519,
             "callee": {
               "type": "MemberExpression",
-              "start": 1487,
-              "end": 1499,
               "object": {
                 "type": "Identifier",
+                "name": "str",
                 "start": 1487,
-                "end": 1490,
-                "name": "str"
+                "end": 1490
               },
               "property": {
                 "type": "Identifier",
+                "name": "includes",
                 "start": 1491,
-                "end": 1499,
-                "name": "includes"
+                "end": 1499
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 1487,
+              "end": 1499
             },
             "arguments": [
               {
                 "type": "Literal",
+                "value": "The future",
+                "raw": "'The future'",
                 "start": 1500,
-                "end": 1512,
-                "value": "The future",
-                "raw": "'The future'"
+                "end": 1512
               },
               {
                 "type": "Literal",
-                "start": 1514,
-                "end": 1518,
                 "value": true,
-                "raw": "true"
+                "raw": "true",
+                "start": 1514,
+                "end": 1518
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 1487,
+            "end": 1519
           },
           {
             "type": "Literal",
+            "value": false,
+            "raw": "false",
             "start": 1521,
-            "end": 1526,
-            "value": false,
-            "raw": "false"
+            "end": 1526
           },
           {
             "type": "Literal",
-            "start": 1528,
-            "end": 1547,
             "value": "true coerced to 1",
-            "raw": "'true coerced to 1'"
+            "raw": "'true coerced to 1'",
+            "start": 1528,
+            "end": 1547
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 1470,
+        "end": 1548
+      },
+      "start": 1470,
+      "end": 1549
     },
     {
       "type": "ExpressionStatement",
-      "start": 1550,
-      "end": 1627,
       "expression": {
         "type": "CallExpression",
-        "start": 1550,
-        "end": 1626,
         "callee": {
           "type": "MemberExpression",
-          "start": 1550,
-          "end": 1566,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 1550,
-            "end": 1556,
-            "name": "assert"
+            "end": 1556
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 1557,
-            "end": 1566,
-            "name": "sameValue"
+            "end": 1566
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 1550,
+          "end": 1566
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 1567,
-            "end": 1598,
             "callee": {
               "type": "MemberExpression",
-              "start": 1567,
-              "end": 1579,
               "object": {
                 "type": "Identifier",
+                "name": "str",
                 "start": 1567,
-                "end": 1570,
-                "name": "str"
+                "end": 1570
               },
               "property": {
                 "type": "Identifier",
+                "name": "includes",
                 "start": 1571,
-                "end": 1579,
-                "name": "includes"
+                "end": 1579
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 1567,
+              "end": 1579
             },
             "arguments": [
               {
                 "type": "Literal",
-                "start": 1580,
-                "end": 1592,
                 "value": "The future",
-                "raw": "'The future'"
+                "raw": "'The future'",
+                "start": 1580,
+                "end": 1592
               },
               {
                 "type": "Literal",
-                "start": 1594,
-                "end": 1597,
                 "value": "1",
-                "raw": "'1'"
+                "raw": "'1'",
+                "start": 1594,
+                "end": 1597
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 1567,
+            "end": 1598
           },
           {
             "type": "Literal",
-            "start": 1600,
-            "end": 1605,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "start": 1600,
+            "end": 1605
           },
           {
             "type": "Literal",
-            "start": 1607,
-            "end": 1625,
             "value": "\"1\" coerced to 1",
-            "raw": "'\"1\" coerced to 1'"
+            "raw": "'\"1\" coerced to 1'",
+            "start": 1607,
+            "end": 1625
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 1550,
+        "end": 1626
+      },
+      "start": 1550,
+      "end": 1627
     },
     {
       "type": "ExpressionStatement",
-      "start": 1628,
-      "end": 1705,
       "expression": {
         "type": "CallExpression",
-        "start": 1628,
-        "end": 1704,
         "callee": {
           "type": "MemberExpression",
-          "start": 1628,
-          "end": 1644,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 1628,
-            "end": 1634,
-            "name": "assert"
+            "end": 1634
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 1635,
-            "end": 1644,
-            "name": "sameValue"
+            "end": 1644
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 1628,
+          "end": 1644
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 1645,
-            "end": 1676,
             "callee": {
               "type": "MemberExpression",
-              "start": 1645,
-              "end": 1657,
               "object": {
                 "type": "Identifier",
+                "name": "str",
                 "start": 1645,
-                "end": 1648,
-                "name": "str"
+                "end": 1648
               },
               "property": {
                 "type": "Identifier",
+                "name": "includes",
                 "start": 1649,
-                "end": 1657,
-                "name": "includes"
+                "end": 1657
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 1645,
+              "end": 1657
             },
             "arguments": [
               {
                 "type": "Literal",
-                "start": 1658,
-                "end": 1670,
                 "value": "The future",
-                "raw": "'The future'"
+                "raw": "'The future'",
+                "start": 1658,
+                "end": 1670
               },
               {
                 "type": "Literal",
-                "start": 1672,
-                "end": 1675,
                 "value": 1.4,
-                "raw": "1.4"
+                "raw": "1.4",
+                "start": 1672,
+                "end": 1675
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 1645,
+            "end": 1676
           },
           {
             "type": "Literal",
-            "start": 1678,
-            "end": 1683,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "start": 1678,
+            "end": 1683
           },
           {
             "type": "Literal",
-            "start": 1685,
-            "end": 1703,
             "value": "1.4 coerced to 1",
-            "raw": "'1.4 coerced to 1'"
+            "raw": "'1.4 coerced to 1'",
+            "start": 1685,
+            "end": 1703
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 1628,
+        "end": 1704
+      },
+      "start": 1628,
+      "end": 1705
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 1706
 }

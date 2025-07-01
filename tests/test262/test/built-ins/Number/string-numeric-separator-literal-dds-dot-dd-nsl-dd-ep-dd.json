@@ -1,75 +1,75 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 706,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 647,
-      "end": 705,
       "expression": {
         "type": "CallExpression",
-        "start": 647,
-        "end": 704,
         "callee": {
           "type": "MemberExpression",
-          "start": 647,
-          "end": 663,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 647,
-            "end": 653,
-            "name": "assert"
+            "end": 653
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 654,
-            "end": 663,
-            "name": "sameValue"
+            "end": 663
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 647,
+          "end": 663
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 664,
-            "end": 684,
             "callee": {
               "type": "Identifier",
+              "name": "Number",
               "start": 664,
-              "end": 670,
-              "name": "Number"
+              "end": 670
             },
             "arguments": [
               {
                 "type": "Literal",
-                "start": 671,
-                "end": 683,
                 "value": "10.00_01e2",
-                "raw": "\"10.00_01e2\""
+                "raw": "\"10.00_01e2\"",
+                "start": 671,
+                "end": 683
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 664,
+            "end": 684
           },
           {
             "type": "Identifier",
+            "name": "NaN",
             "start": 686,
-            "end": 689,
-            "name": "NaN"
+            "end": 689
           },
           {
             "type": "Literal",
-            "start": 691,
-            "end": 703,
             "value": "10.00_01e2",
-            "raw": "\"10.00_01e2\""
+            "raw": "\"10.00_01e2\"",
+            "start": 691,
+            "end": 703
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 647,
+        "end": 704
+      },
+      "start": 647,
+      "end": 705
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 706
 }

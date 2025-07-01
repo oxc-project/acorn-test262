@@ -2,123 +2,123 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 22,
   "body": [
     {
       "type": "TSInterfaceDeclaration",
-      "start": 0,
-      "end": 21,
       "id": {
         "type": "Identifier",
-        "start": 10,
-        "end": 16,
         "decorators": [],
         "name": "JQuery",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 10,
+        "end": 16
       },
       "typeParameters": null,
       "extends": [],
       "body": {
         "type": "TSInterfaceBody",
+        "body": [],
         "start": 17,
-        "end": 21,
-        "body": []
+        "end": 21
       },
-      "declare": false
+      "declare": false,
+      "start": 0,
+      "end": 21
     }
   ],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 22
 }
 ```
 __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 49,
-  "end": 93,
   "body": [
     {
       "type": "TSModuleDeclaration",
-      "start": 49,
-      "end": 93,
       "id": {
         "type": "Identifier",
-        "start": 59,
-        "end": 63,
         "decorators": [],
         "name": "Test",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 59,
+        "end": 63
       },
       "body": {
         "type": "TSModuleBlock",
-        "start": 64,
-        "end": 93,
         "body": [
           {
             "type": "ExportNamedDeclaration",
-            "start": 70,
-            "end": 91,
             "declaration": {
               "type": "VariableDeclaration",
-              "start": 77,
-              "end": 91,
               "kind": "var",
               "declarations": [
                 {
                   "type": "VariableDeclarator",
-                  "start": 81,
-                  "end": 90,
                   "id": {
                     "type": "Identifier",
-                    "start": 81,
-                    "end": 90,
                     "decorators": [],
                     "name": "x",
                     "optional": false,
                     "typeAnnotation": {
                       "type": "TSTypeAnnotation",
-                      "start": 82,
-                      "end": 90,
                       "typeAnnotation": {
                         "type": "TSTypeReference",
-                        "start": 84,
-                        "end": 90,
                         "typeName": {
                           "type": "Identifier",
-                          "start": 84,
-                          "end": 90,
                           "decorators": [],
                           "name": "JQuery",
                           "optional": false,
-                          "typeAnnotation": null
+                          "typeAnnotation": null,
+                          "start": 84,
+                          "end": 90
                         },
-                        "typeArguments": null
-                      }
-                    }
+                        "typeArguments": null,
+                        "start": 84,
+                        "end": 90
+                      },
+                      "start": 82,
+                      "end": 90
+                    },
+                    "start": 81,
+                    "end": 90
                   },
                   "init": null,
-                  "definite": false
+                  "definite": false,
+                  "start": 81,
+                  "end": 90
                 }
               ],
-              "declare": false
+              "declare": false,
+              "start": 77,
+              "end": 91
             },
             "specifiers": [],
             "source": null,
             "exportKind": "value",
-            "attributes": []
+            "attributes": [],
+            "start": 70,
+            "end": 91
           }
-        ]
+        ],
+        "start": 64,
+        "end": 93
       },
       "kind": "namespace",
       "declare": false,
-      "global": false
+      "global": false,
+      "start": 49,
+      "end": 93
     }
   ],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 49,
+  "end": 93
 }
 ```

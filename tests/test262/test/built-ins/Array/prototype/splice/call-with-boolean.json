@@ -1,219 +1,219 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 495,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 269,
-      "end": 380,
       "expression": {
         "type": "CallExpression",
-        "start": 269,
-        "end": 379,
         "callee": {
           "type": "MemberExpression",
-          "start": 269,
-          "end": 288,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 269,
-            "end": 275,
-            "name": "assert"
+            "end": 275
           },
           "property": {
             "type": "Identifier",
+            "name": "compareArray",
             "start": 276,
-            "end": 288,
-            "name": "compareArray"
+            "end": 288
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 269,
+          "end": 288
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 289,
-            "end": 322,
             "callee": {
               "type": "MemberExpression",
-              "start": 289,
-              "end": 316,
               "object": {
                 "type": "MemberExpression",
-                "start": 289,
-                "end": 311,
                 "object": {
                   "type": "MemberExpression",
-                  "start": 289,
-                  "end": 304,
                   "object": {
                     "type": "Identifier",
+                    "name": "Array",
                     "start": 289,
-                    "end": 294,
-                    "name": "Array"
+                    "end": 294
                   },
                   "property": {
                     "type": "Identifier",
+                    "name": "prototype",
                     "start": 295,
-                    "end": 304,
-                    "name": "prototype"
+                    "end": 304
                   },
                   "optional": false,
-                  "computed": false
+                  "computed": false,
+                  "start": 289,
+                  "end": 304
                 },
                 "property": {
                   "type": "Identifier",
+                  "name": "splice",
                   "start": 305,
-                  "end": 311,
-                  "name": "splice"
+                  "end": 311
                 },
                 "optional": false,
-                "computed": false
+                "computed": false,
+                "start": 289,
+                "end": 311
               },
               "property": {
                 "type": "Identifier",
+                "name": "call",
                 "start": 312,
-                "end": 316,
-                "name": "call"
+                "end": 316
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 289,
+              "end": 316
             },
             "arguments": [
               {
                 "type": "Literal",
-                "start": 317,
-                "end": 321,
                 "value": true,
-                "raw": "true"
+                "raw": "true",
+                "start": 317,
+                "end": 321
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 289,
+            "end": 322
           },
           {
             "type": "ArrayExpression",
+            "elements": [],
             "start": 324,
-            "end": 326,
-            "elements": []
+            "end": 326
           },
           {
             "type": "Literal",
-            "start": 328,
-            "end": 378,
             "value": "Array.prototype.splice.call(true) must return []",
-            "raw": "'Array.prototype.splice.call(true) must return []'"
+            "raw": "'Array.prototype.splice.call(true) must return []'",
+            "start": 328,
+            "end": 378
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 269,
+        "end": 379
+      },
+      "start": 269,
+      "end": 380
     },
     {
       "type": "ExpressionStatement",
-      "start": 381,
-      "end": 494,
       "expression": {
         "type": "CallExpression",
-        "start": 381,
-        "end": 493,
         "callee": {
           "type": "MemberExpression",
-          "start": 381,
-          "end": 400,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 381,
-            "end": 387,
-            "name": "assert"
+            "end": 387
           },
           "property": {
             "type": "Identifier",
+            "name": "compareArray",
             "start": 388,
-            "end": 400,
-            "name": "compareArray"
+            "end": 400
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 381,
+          "end": 400
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 401,
-            "end": 435,
             "callee": {
               "type": "MemberExpression",
-              "start": 401,
-              "end": 428,
               "object": {
                 "type": "MemberExpression",
-                "start": 401,
-                "end": 423,
                 "object": {
                   "type": "MemberExpression",
-                  "start": 401,
-                  "end": 416,
                   "object": {
                     "type": "Identifier",
+                    "name": "Array",
                     "start": 401,
-                    "end": 406,
-                    "name": "Array"
+                    "end": 406
                   },
                   "property": {
                     "type": "Identifier",
+                    "name": "prototype",
                     "start": 407,
-                    "end": 416,
-                    "name": "prototype"
+                    "end": 416
                   },
                   "optional": false,
-                  "computed": false
+                  "computed": false,
+                  "start": 401,
+                  "end": 416
                 },
                 "property": {
                   "type": "Identifier",
+                  "name": "splice",
                   "start": 417,
-                  "end": 423,
-                  "name": "splice"
+                  "end": 423
                 },
                 "optional": false,
-                "computed": false
+                "computed": false,
+                "start": 401,
+                "end": 423
               },
               "property": {
                 "type": "Identifier",
+                "name": "call",
                 "start": 424,
-                "end": 428,
-                "name": "call"
+                "end": 428
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 401,
+              "end": 428
             },
             "arguments": [
               {
                 "type": "Literal",
-                "start": 429,
-                "end": 434,
                 "value": false,
-                "raw": "false"
+                "raw": "false",
+                "start": 429,
+                "end": 434
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 401,
+            "end": 435
           },
           {
             "type": "ArrayExpression",
+            "elements": [],
             "start": 437,
-            "end": 439,
-            "elements": []
+            "end": 439
           },
           {
             "type": "Literal",
-            "start": 441,
-            "end": 492,
             "value": "Array.prototype.splice.call(false) must return []",
-            "raw": "'Array.prototype.splice.call(false) must return []'"
+            "raw": "'Array.prototype.splice.call(false) must return []'",
+            "start": 441,
+            "end": 492
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 381,
+        "end": 493
+      },
+      "start": 381,
+      "end": 494
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 495
 }

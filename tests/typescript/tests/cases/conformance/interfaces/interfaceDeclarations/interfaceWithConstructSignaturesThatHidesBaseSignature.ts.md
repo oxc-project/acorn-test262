@@ -2,284 +2,284 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 151,
   "body": [
     {
       "type": "TSInterfaceDeclaration",
-      "start": 0,
-      "end": 44,
       "id": {
         "type": "Identifier",
-        "start": 10,
-        "end": 13,
         "decorators": [],
         "name": "Foo",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 10,
+        "end": 13
       },
       "typeParameters": null,
       "extends": [],
       "body": {
         "type": "TSInterfaceBody",
-        "start": 14,
-        "end": 44,
         "body": [
           {
             "type": "TSConstructSignatureDeclaration",
-            "start": 20,
-            "end": 42,
             "typeParameters": null,
             "params": [],
             "returnType": {
               "type": "TSTypeAnnotation",
-              "start": 26,
-              "end": 41,
               "typeAnnotation": {
                 "type": "TSTypeLiteral",
-                "start": 28,
-                "end": 41,
                 "members": [
                   {
                     "type": "TSPropertySignature",
-                    "start": 30,
-                    "end": 39,
                     "computed": false,
                     "optional": false,
                     "readonly": false,
                     "key": {
                       "type": "Identifier",
-                      "start": 30,
-                      "end": 31,
                       "decorators": [],
                       "name": "a",
                       "optional": false,
-                      "typeAnnotation": null
+                      "typeAnnotation": null,
+                      "start": 30,
+                      "end": 31
                     },
                     "typeAnnotation": {
                       "type": "TSTypeAnnotation",
-                      "start": 31,
-                      "end": 39,
                       "typeAnnotation": {
                         "type": "TSNumberKeyword",
                         "start": 33,
                         "end": 39
-                      }
+                      },
+                      "start": 31,
+                      "end": 39
                     },
                     "accessibility": null,
-                    "static": false
+                    "static": false,
+                    "start": 30,
+                    "end": 39
                   }
-                ]
-              }
-            }
+                ],
+                "start": 28,
+                "end": 41
+              },
+              "start": 26,
+              "end": 41
+            },
+            "start": 20,
+            "end": 42
           }
-        ]
+        ],
+        "start": 14,
+        "end": 44
       },
-      "declare": false
+      "declare": false,
+      "start": 0,
+      "end": 44
     },
     {
       "type": "TSInterfaceDeclaration",
-      "start": 46,
-      "end": 117,
       "id": {
         "type": "Identifier",
-        "start": 56,
-        "end": 63,
         "decorators": [],
         "name": "Derived",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 56,
+        "end": 63
       },
       "typeParameters": null,
       "extends": [
         {
           "type": "TSInterfaceHeritage",
-          "start": 72,
-          "end": 75,
           "expression": {
             "type": "Identifier",
-            "start": 72,
-            "end": 75,
             "decorators": [],
             "name": "Foo",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 72,
+            "end": 75
           },
-          "typeArguments": null
+          "typeArguments": null,
+          "start": 72,
+          "end": 75
         }
       ],
       "body": {
         "type": "TSInterfaceBody",
-        "start": 76,
-        "end": 117,
         "body": [
           {
             "type": "TSConstructSignatureDeclaration",
-            "start": 82,
-            "end": 115,
             "typeParameters": null,
             "params": [],
             "returnType": {
               "type": "TSTypeAnnotation",
-              "start": 88,
-              "end": 114,
               "typeAnnotation": {
                 "type": "TSTypeLiteral",
-                "start": 90,
-                "end": 114,
                 "members": [
                   {
                     "type": "TSPropertySignature",
-                    "start": 92,
-                    "end": 102,
                     "computed": false,
                     "optional": false,
                     "readonly": false,
                     "key": {
                       "type": "Identifier",
-                      "start": 92,
-                      "end": 93,
                       "decorators": [],
                       "name": "a",
                       "optional": false,
-                      "typeAnnotation": null
+                      "typeAnnotation": null,
+                      "start": 92,
+                      "end": 93
                     },
                     "typeAnnotation": {
                       "type": "TSTypeAnnotation",
-                      "start": 93,
-                      "end": 101,
                       "typeAnnotation": {
                         "type": "TSNumberKeyword",
                         "start": 95,
                         "end": 101
-                      }
+                      },
+                      "start": 93,
+                      "end": 101
                     },
                     "accessibility": null,
-                    "static": false
+                    "static": false,
+                    "start": 92,
+                    "end": 102
                   },
                   {
                     "type": "TSPropertySignature",
-                    "start": 103,
-                    "end": 112,
                     "computed": false,
                     "optional": false,
                     "readonly": false,
                     "key": {
                       "type": "Identifier",
-                      "start": 103,
-                      "end": 104,
                       "decorators": [],
                       "name": "b",
                       "optional": false,
-                      "typeAnnotation": null
+                      "typeAnnotation": null,
+                      "start": 103,
+                      "end": 104
                     },
                     "typeAnnotation": {
                       "type": "TSTypeAnnotation",
-                      "start": 104,
-                      "end": 112,
                       "typeAnnotation": {
                         "type": "TSNumberKeyword",
                         "start": 106,
                         "end": 112
-                      }
+                      },
+                      "start": 104,
+                      "end": 112
                     },
                     "accessibility": null,
-                    "static": false
+                    "static": false,
+                    "start": 103,
+                    "end": 112
                   }
-                ]
-              }
-            }
+                ],
+                "start": 90,
+                "end": 114
+              },
+              "start": 88,
+              "end": 114
+            },
+            "start": 82,
+            "end": 115
           }
-        ]
+        ],
+        "start": 76,
+        "end": 117
       },
-      "declare": false
+      "declare": false,
+      "start": 46,
+      "end": 117
     },
     {
       "type": "VariableDeclaration",
-      "start": 119,
-      "end": 134,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 123,
-          "end": 133,
           "id": {
             "type": "Identifier",
-            "start": 123,
-            "end": 133,
             "decorators": [],
             "name": "d",
             "optional": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
-              "start": 124,
-              "end": 133,
               "typeAnnotation": {
                 "type": "TSTypeReference",
-                "start": 126,
-                "end": 133,
                 "typeName": {
                   "type": "Identifier",
-                  "start": 126,
-                  "end": 133,
                   "decorators": [],
                   "name": "Derived",
                   "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "start": 126,
+                  "end": 133
                 },
-                "typeArguments": null
-              }
-            }
+                "typeArguments": null,
+                "start": 126,
+                "end": 133
+              },
+              "start": 124,
+              "end": 133
+            },
+            "start": 123,
+            "end": 133
           },
           "init": null,
-          "definite": false
+          "definite": false,
+          "start": 123,
+          "end": 133
         }
       ],
-      "declare": false
+      "declare": false,
+      "start": 119,
+      "end": 134
     },
     {
       "type": "VariableDeclaration",
-      "start": 135,
-      "end": 151,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 139,
-          "end": 150,
           "id": {
             "type": "Identifier",
-            "start": 139,
-            "end": 140,
             "decorators": [],
             "name": "r",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 139,
+            "end": 140
           },
           "init": {
             "type": "NewExpression",
-            "start": 143,
-            "end": 150,
             "callee": {
               "type": "Identifier",
-              "start": 147,
-              "end": 148,
               "decorators": [],
               "name": "d",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 147,
+              "end": 148
             },
             "typeArguments": null,
-            "arguments": []
+            "arguments": [],
+            "start": 143,
+            "end": 150
           },
-          "definite": false
+          "definite": false,
+          "start": 139,
+          "end": 150
         }
       ],
-      "declare": false
+      "declare": false,
+      "start": 135,
+      "end": 151
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 151
 }
 ```

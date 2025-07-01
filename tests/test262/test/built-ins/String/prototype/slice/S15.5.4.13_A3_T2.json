@@ -1,305 +1,305 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 907,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 359,
-      "end": 389,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 363,
-          "end": 388,
           "id": {
             "type": "Identifier",
+            "name": "__instance",
             "start": 363,
-            "end": 373,
-            "name": "__instance"
+            "end": 373
           },
           "init": {
             "type": "NewExpression",
-            "start": 376,
-            "end": 388,
             "callee": {
               "type": "Identifier",
+              "name": "Object",
               "start": 380,
-              "end": 386,
-              "name": "Object"
+              "end": 386
             },
-            "arguments": []
-          }
+            "arguments": [],
+            "start": 376,
+            "end": 388
+          },
+          "start": 363,
+          "end": 388
         }
-      ]
+      ],
+      "start": 359,
+      "end": 389
     },
     {
       "type": "ExpressionStatement",
-      "start": 391,
-      "end": 433,
       "expression": {
         "type": "AssignmentExpression",
-        "start": 391,
-        "end": 432,
         "operator": "=",
         "left": {
           "type": "MemberExpression",
-          "start": 391,
-          "end": 407,
           "object": {
             "type": "Identifier",
+            "name": "__instance",
             "start": 391,
-            "end": 401,
-            "name": "__instance"
+            "end": 401
           },
           "property": {
             "type": "Identifier",
+            "name": "slice",
             "start": 402,
-            "end": 407,
-            "name": "slice"
+            "end": 407
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 391,
+          "end": 407
         },
         "right": {
           "type": "MemberExpression",
-          "start": 410,
-          "end": 432,
           "object": {
             "type": "MemberExpression",
-            "start": 410,
-            "end": 426,
             "object": {
               "type": "Identifier",
+              "name": "String",
               "start": 410,
-              "end": 416,
-              "name": "String"
+              "end": 416
             },
             "property": {
               "type": "Identifier",
+              "name": "prototype",
               "start": 417,
-              "end": 426,
-              "name": "prototype"
+              "end": 426
             },
             "optional": false,
-            "computed": false
+            "computed": false,
+            "start": 410,
+            "end": 426
           },
           "property": {
             "type": "Identifier",
+            "name": "slice",
             "start": 427,
-            "end": 432,
-            "name": "slice"
+            "end": 432
           },
           "optional": false,
-          "computed": false
-        }
-      }
+          "computed": false,
+          "start": 410,
+          "end": 432
+        },
+        "start": 391,
+        "end": 432
+      },
+      "start": 391,
+      "end": 433
     },
     {
       "type": "IfStatement",
-      "start": 524,
-      "end": 824,
       "test": {
         "type": "BinaryExpression",
-        "start": 528,
-        "end": 591,
         "left": {
           "type": "CallExpression",
-          "start": 528,
-          "end": 577,
           "callee": {
             "type": "MemberExpression",
-            "start": 528,
-            "end": 544,
             "object": {
               "type": "Identifier",
+              "name": "__instance",
               "start": 528,
-              "end": 538,
-              "name": "__instance"
+              "end": 538
             },
             "property": {
               "type": "Identifier",
+              "name": "slice",
               "start": 539,
-              "end": 544,
-              "name": "slice"
+              "end": 544
             },
             "optional": false,
-            "computed": false
+            "computed": false,
+            "start": 528,
+            "end": 544
           },
           "arguments": [
             {
               "type": "Literal",
-              "start": 545,
-              "end": 546,
               "value": 8,
-              "raw": "8"
+              "raw": "8",
+              "start": 545,
+              "end": 546
             },
             {
               "type": "MemberExpression",
-              "start": 548,
-              "end": 576,
               "object": {
                 "type": "CallExpression",
-                "start": 548,
-                "end": 569,
                 "callee": {
                   "type": "MemberExpression",
-                  "start": 548,
-                  "end": 567,
                   "object": {
                     "type": "Identifier",
+                    "name": "__instance",
                     "start": 548,
-                    "end": 558,
-                    "name": "__instance"
+                    "end": 558
                   },
                   "property": {
                     "type": "Identifier",
+                    "name": "toString",
                     "start": 559,
-                    "end": 567,
-                    "name": "toString"
+                    "end": 567
                   },
                   "optional": false,
-                  "computed": false
+                  "computed": false,
+                  "start": 548,
+                  "end": 567
                 },
                 "arguments": [],
-                "optional": false
+                "optional": false,
+                "start": 548,
+                "end": 569
               },
               "property": {
                 "type": "Identifier",
+                "name": "length",
                 "start": 570,
-                "end": 576,
-                "name": "length"
+                "end": 576
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 548,
+              "end": 576
             }
           ],
-          "optional": false
+          "optional": false,
+          "start": 528,
+          "end": 577
         },
         "operator": "!==",
         "right": {
           "type": "Literal",
-          "start": 582,
-          "end": 591,
           "value": "Object]",
-          "raw": "\"Object]\""
-        }
+          "raw": "\"Object]\"",
+          "start": 582,
+          "end": 591
+        },
+        "start": 528,
+        "end": 591
       },
       "consequent": {
         "type": "BlockStatement",
-        "start": 593,
-        "end": 824,
         "body": [
           {
             "type": "ThrowStatement",
-            "start": 597,
-            "end": 822,
             "argument": {
               "type": "NewExpression",
-              "start": 603,
-              "end": 821,
               "callee": {
                 "type": "Identifier",
+                "name": "Test262Error",
                 "start": 607,
-                "end": 619,
-                "name": "Test262Error"
+                "end": 619
               },
               "arguments": [
                 {
                   "type": "BinaryExpression",
-                  "start": 620,
-                  "end": 820,
                   "left": {
                     "type": "Literal",
-                    "start": 620,
-                    "end": 768,
                     "value": "#1: __instance = new Object(); __instance.slice = String.prototype.slice; __instance.slice(8,__instance.toString().length) === \"Object]\". Actual: ",
-                    "raw": "'#1: __instance = new Object(); __instance.slice = String.prototype.slice; __instance.slice(8,__instance.toString().length) === \"Object]\". Actual: '"
+                    "raw": "'#1: __instance = new Object(); __instance.slice = String.prototype.slice; __instance.slice(8,__instance.toString().length) === \"Object]\". Actual: '",
+                    "start": 620,
+                    "end": 768
                   },
                   "operator": "+",
                   "right": {
                     "type": "CallExpression",
-                    "start": 771,
-                    "end": 820,
                     "callee": {
                       "type": "MemberExpression",
-                      "start": 771,
-                      "end": 787,
                       "object": {
                         "type": "Identifier",
+                        "name": "__instance",
                         "start": 771,
-                        "end": 781,
-                        "name": "__instance"
+                        "end": 781
                       },
                       "property": {
                         "type": "Identifier",
+                        "name": "slice",
                         "start": 782,
-                        "end": 787,
-                        "name": "slice"
+                        "end": 787
                       },
                       "optional": false,
-                      "computed": false
+                      "computed": false,
+                      "start": 771,
+                      "end": 787
                     },
                     "arguments": [
                       {
                         "type": "Literal",
-                        "start": 788,
-                        "end": 789,
                         "value": 8,
-                        "raw": "8"
+                        "raw": "8",
+                        "start": 788,
+                        "end": 789
                       },
                       {
                         "type": "MemberExpression",
-                        "start": 791,
-                        "end": 819,
                         "object": {
                           "type": "CallExpression",
-                          "start": 791,
-                          "end": 812,
                           "callee": {
                             "type": "MemberExpression",
-                            "start": 791,
-                            "end": 810,
                             "object": {
                               "type": "Identifier",
+                              "name": "__instance",
                               "start": 791,
-                              "end": 801,
-                              "name": "__instance"
+                              "end": 801
                             },
                             "property": {
                               "type": "Identifier",
+                              "name": "toString",
                               "start": 802,
-                              "end": 810,
-                              "name": "toString"
+                              "end": 810
                             },
                             "optional": false,
-                            "computed": false
+                            "computed": false,
+                            "start": 791,
+                            "end": 810
                           },
                           "arguments": [],
-                          "optional": false
+                          "optional": false,
+                          "start": 791,
+                          "end": 812
                         },
                         "property": {
                           "type": "Identifier",
+                          "name": "length",
                           "start": 813,
-                          "end": 819,
-                          "name": "length"
+                          "end": 819
                         },
                         "optional": false,
-                        "computed": false
+                        "computed": false,
+                        "start": 791,
+                        "end": 819
                       }
                     ],
-                    "optional": false
-                  }
+                    "optional": false,
+                    "start": 771,
+                    "end": 820
+                  },
+                  "start": 620,
+                  "end": 820
                 }
-              ]
-            }
+              ],
+              "start": 603,
+              "end": 821
+            },
+            "start": 597,
+            "end": 822
           }
-        ]
+        ],
+        "start": 593,
+        "end": 824
       },
-      "alternate": null
+      "alternate": null,
+      "start": 524,
+      "end": 824
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 907
 }

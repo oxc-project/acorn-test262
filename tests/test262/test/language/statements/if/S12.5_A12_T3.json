@@ -1,84 +1,78 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 1109,
   "body": [
     {
       "type": "IfStatement",
-      "start": 304,
-      "end": 445,
       "test": {
         "type": "Literal",
-        "start": 307,
-        "end": 311,
         "value": true,
-        "raw": "true"
+        "raw": "true",
+        "start": 307,
+        "end": 311
       },
       "consequent": {
         "type": "IfStatement",
-        "start": 315,
-        "end": 445,
         "test": {
           "type": "Literal",
-          "start": 319,
-          "end": 324,
           "value": false,
-          "raw": "false"
+          "raw": "false",
+          "start": 319,
+          "end": 324
         },
         "consequent": {
           "type": "ThrowStatement",
-          "start": 330,
-          "end": 432,
           "argument": {
             "type": "NewExpression",
-            "start": 336,
-            "end": 431,
             "callee": {
               "type": "Identifier",
+              "name": "Test262Error",
               "start": 340,
-              "end": 352,
-              "name": "Test262Error"
+              "end": 352
             },
             "arguments": [
               {
                 "type": "Literal",
-                "start": 353,
-                "end": 430,
                 "value": "#1.1: At embedded \"if/else\" constructions engine must select right branches",
-                "raw": "'#1.1: At embedded \"if/else\" constructions engine must select right branches'"
+                "raw": "'#1.1: At embedded \"if/else\" constructions engine must select right branches'",
+                "start": 353,
+                "end": 430
               }
-            ]
-          }
+            ],
+            "start": 336,
+            "end": 431
+          },
+          "start": 330,
+          "end": 432
         },
         "alternate": {
           "type": "EmptyStatement",
           "start": 444,
           "end": 445
-        }
+        },
+        "start": 315,
+        "end": 445
       },
-      "alternate": null
+      "alternate": null,
+      "start": 304,
+      "end": 445
     },
     {
       "type": "IfStatement",
-      "start": 458,
-      "end": 598,
       "test": {
         "type": "Literal",
-        "start": 461,
-        "end": 465,
         "value": true,
-        "raw": "true"
+        "raw": "true",
+        "start": 461,
+        "end": 465
       },
       "consequent": {
         "type": "IfStatement",
-        "start": 469,
-        "end": 598,
         "test": {
           "type": "Literal",
-          "start": 473,
-          "end": 477,
           "value": true,
-          "raw": "true"
+          "raw": "true",
+          "start": 473,
+          "end": 477
         },
         "consequent": {
           "type": "EmptyStatement",
@@ -87,183 +81,189 @@
         },
         "alternate": {
           "type": "ThrowStatement",
-          "start": 496,
-          "end": 598,
           "argument": {
             "type": "NewExpression",
-            "start": 502,
-            "end": 597,
             "callee": {
               "type": "Identifier",
+              "name": "Test262Error",
               "start": 506,
-              "end": 518,
-              "name": "Test262Error"
+              "end": 518
             },
             "arguments": [
               {
                 "type": "Literal",
-                "start": 519,
-                "end": 596,
                 "value": "#2.1: At embedded \"if/else\" constructions engine must select right branches",
-                "raw": "'#2.1: At embedded \"if/else\" constructions engine must select right branches'"
+                "raw": "'#2.1: At embedded \"if/else\" constructions engine must select right branches'",
+                "start": 519,
+                "end": 596
               }
-            ]
-          }
-        }
+            ],
+            "start": 502,
+            "end": 597
+          },
+          "start": 496,
+          "end": 598
+        },
+        "start": 469,
+        "end": 598
       },
-      "alternate": null
+      "alternate": null,
+      "start": 458,
+      "end": 598
     },
     {
       "type": "IfStatement",
-      "start": 611,
-      "end": 853,
       "test": {
         "type": "Literal",
+        "value": false,
+        "raw": "false",
         "start": 614,
-        "end": 619,
-        "value": false,
-        "raw": "false"
+        "end": 619
       },
       "consequent": {
         "type": "IfStatement",
-        "start": 623,
-        "end": 853,
         "test": {
           "type": "Literal",
-          "start": 627,
-          "end": 631,
           "value": true,
-          "raw": "true"
+          "raw": "true",
+          "start": 627,
+          "end": 631
         },
         "consequent": {
           "type": "ThrowStatement",
-          "start": 637,
-          "end": 739,
           "argument": {
             "type": "NewExpression",
-            "start": 643,
-            "end": 738,
             "callee": {
               "type": "Identifier",
+              "name": "Test262Error",
               "start": 647,
-              "end": 659,
-              "name": "Test262Error"
+              "end": 659
             },
             "arguments": [
               {
                 "type": "Literal",
-                "start": 660,
-                "end": 737,
                 "value": "#3.1: At embedded \"if/else\" constructions engine must select right branches",
-                "raw": "'#3.1: At embedded \"if/else\" constructions engine must select right branches'"
+                "raw": "'#3.1: At embedded \"if/else\" constructions engine must select right branches'",
+                "start": 660,
+                "end": 737
               }
-            ]
-          }
+            ],
+            "start": 643,
+            "end": 738
+          },
+          "start": 637,
+          "end": 739
         },
         "alternate": {
           "type": "ThrowStatement",
-          "start": 751,
-          "end": 853,
           "argument": {
             "type": "NewExpression",
-            "start": 757,
-            "end": 852,
             "callee": {
               "type": "Identifier",
+              "name": "Test262Error",
               "start": 761,
-              "end": 773,
-              "name": "Test262Error"
+              "end": 773
             },
             "arguments": [
               {
                 "type": "Literal",
-                "start": 774,
-                "end": 851,
                 "value": "#3.2: At embedded \"if/else\" constructions engine must select right branches",
-                "raw": "'#3.2: At embedded \"if/else\" constructions engine must select right branches'"
+                "raw": "'#3.2: At embedded \"if/else\" constructions engine must select right branches'",
+                "start": 774,
+                "end": 851
               }
-            ]
-          }
-        }
+            ],
+            "start": 757,
+            "end": 852
+          },
+          "start": 751,
+          "end": 853
+        },
+        "start": 623,
+        "end": 853
       },
-      "alternate": null
+      "alternate": null,
+      "start": 611,
+      "end": 853
     },
     {
       "type": "IfStatement",
-      "start": 866,
-      "end": 1108,
       "test": {
         "type": "Literal",
-        "start": 869,
-        "end": 874,
         "value": false,
-        "raw": "false"
+        "raw": "false",
+        "start": 869,
+        "end": 874
       },
       "consequent": {
         "type": "IfStatement",
-        "start": 878,
-        "end": 1108,
         "test": {
           "type": "Literal",
-          "start": 882,
-          "end": 886,
           "value": true,
-          "raw": "true"
+          "raw": "true",
+          "start": 882,
+          "end": 886
         },
         "consequent": {
           "type": "ThrowStatement",
-          "start": 892,
-          "end": 994,
           "argument": {
             "type": "NewExpression",
-            "start": 898,
-            "end": 993,
             "callee": {
               "type": "Identifier",
+              "name": "Test262Error",
               "start": 902,
-              "end": 914,
-              "name": "Test262Error"
+              "end": 914
             },
             "arguments": [
               {
                 "type": "Literal",
-                "start": 915,
-                "end": 992,
                 "value": "#4.1: At embedded \"if/else\" constructions engine must select right branches",
-                "raw": "'#4.1: At embedded \"if/else\" constructions engine must select right branches'"
+                "raw": "'#4.1: At embedded \"if/else\" constructions engine must select right branches'",
+                "start": 915,
+                "end": 992
               }
-            ]
-          }
+            ],
+            "start": 898,
+            "end": 993
+          },
+          "start": 892,
+          "end": 994
         },
         "alternate": {
           "type": "ThrowStatement",
-          "start": 1006,
-          "end": 1108,
           "argument": {
             "type": "NewExpression",
-            "start": 1012,
-            "end": 1107,
             "callee": {
               "type": "Identifier",
+              "name": "Test262Error",
               "start": 1016,
-              "end": 1028,
-              "name": "Test262Error"
+              "end": 1028
             },
             "arguments": [
               {
                 "type": "Literal",
-                "start": 1029,
-                "end": 1106,
                 "value": "#4.2: At embedded \"if/else\" constructions engine must select right branches",
-                "raw": "'#4.2: At embedded \"if/else\" constructions engine must select right branches'"
+                "raw": "'#4.2: At embedded \"if/else\" constructions engine must select right branches'",
+                "start": 1029,
+                "end": 1106
               }
-            ]
-          }
-        }
+            ],
+            "start": 1012,
+            "end": 1107
+          },
+          "start": 1006,
+          "end": 1108
+        },
+        "start": 878,
+        "end": 1108
       },
-      "alternate": null
+      "alternate": null,
+      "start": 866,
+      "end": 1108
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 1109
 }

@@ -2,66 +2,66 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 17,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 0,
-      "end": 17,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 4,
-          "end": 16,
           "id": {
             "type": "ArrayPattern",
-            "start": 4,
-            "end": 7,
             "decorators": [],
             "elements": [
               {
                 "type": "Identifier",
-                "start": 5,
-                "end": 6,
                 "decorators": [],
                 "name": "x",
                 "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "start": 5,
+                "end": 6
               }
             ],
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 4,
+            "end": 7
           },
           "init": {
             "type": "ArrayExpression",
-            "start": 10,
-            "end": 16,
             "elements": [
               {
                 "type": "Literal",
-                "start": 11,
-                "end": 12,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "start": 11,
+                "end": 12
               },
               {
                 "type": "Literal",
-                "start": 14,
-                "end": 15,
                 "value": 2,
-                "raw": "2"
+                "raw": "2",
+                "start": 14,
+                "end": 15
               }
-            ]
+            ],
+            "start": 10,
+            "end": 16
           },
-          "definite": false
+          "definite": false,
+          "start": 4,
+          "end": 16
         }
       ],
-      "declare": false
+      "declare": false,
+      "start": 0,
+      "end": 17
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 17
 }
 ```

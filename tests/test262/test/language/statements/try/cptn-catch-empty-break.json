@@ -1,93 +1,93 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 773,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 604,
-      "end": 731,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 608,
-          "end": 730,
           "id": {
             "type": "Identifier",
+            "name": "completion",
             "start": 608,
-            "end": 618,
-            "name": "completion"
+            "end": 618
           },
           "init": {
             "type": "CallExpression",
-            "start": 621,
-            "end": 730,
             "callee": {
               "type": "Identifier",
+              "name": "eval",
               "start": 621,
-              "end": 625,
-              "name": "eval"
+              "end": 625
             },
             "arguments": [
               {
                 "type": "Literal",
-                "start": 626,
-                "end": 729,
                 "value": "for (var i = 0; i < 2; ++i) { if (i) { try { throw null; } catch (e) { break; } } 'bad completion'; }",
-                "raw": "\"for (var i = 0; i < 2; ++i) { if (i) { try { throw null; } catch (e) { break; } } 'bad completion'; }\""
+                "raw": "\"for (var i = 0; i < 2; ++i) { if (i) { try { throw null; } catch (e) { break; } } 'bad completion'; }\"",
+                "start": 626,
+                "end": 729
               }
             ],
-            "optional": false
-          }
+            "optional": false,
+            "start": 621,
+            "end": 730
+          },
+          "start": 608,
+          "end": 730
         }
-      ]
+      ],
+      "start": 604,
+      "end": 731
     },
     {
       "type": "ExpressionStatement",
-      "start": 732,
-      "end": 772,
       "expression": {
         "type": "CallExpression",
-        "start": 732,
-        "end": 771,
         "callee": {
           "type": "MemberExpression",
-          "start": 732,
-          "end": 748,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 732,
-            "end": 738,
-            "name": "assert"
+            "end": 738
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 739,
-            "end": 748,
-            "name": "sameValue"
+            "end": 748
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 732,
+          "end": 748
         },
         "arguments": [
           {
             "type": "Identifier",
+            "name": "completion",
             "start": 749,
-            "end": 759,
-            "name": "completion"
+            "end": 759
           },
           {
             "type": "Identifier",
+            "name": "undefined",
             "start": 761,
-            "end": 770,
-            "name": "undefined"
+            "end": 770
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 732,
+        "end": 771
+      },
+      "start": 732,
+      "end": 772
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 773
 }

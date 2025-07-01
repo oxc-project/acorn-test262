@@ -2,39 +2,33 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 34,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 0,
-      "end": 13,
       "expression": {
         "type": "Literal",
-        "start": 0,
-        "end": 12,
         "value": "use strict",
-        "raw": "\"use strict\""
+        "raw": "\"use strict\"",
+        "start": 0,
+        "end": 12
       },
-      "directive": "use strict"
+      "directive": "use strict",
+      "start": 0,
+      "end": 13
     },
     {
       "type": "ExportNamedDeclaration",
-      "start": 15,
-      "end": 34,
       "declaration": {
         "type": "ClassDeclaration",
-        "start": 22,
-        "end": 34,
         "decorators": [],
         "id": {
           "type": "Identifier",
-          "start": 28,
-          "end": 31,
           "decorators": [],
           "name": "Foo",
           "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "start": 28,
+          "end": 31
         },
         "typeParameters": null,
         "superClass": null,
@@ -42,20 +36,26 @@ __ESTREE_TEST__:PASS:
         "implements": [],
         "body": {
           "type": "ClassBody",
+          "body": [],
           "start": 32,
-          "end": 34,
-          "body": []
+          "end": 34
         },
         "abstract": false,
-        "declare": false
+        "declare": false,
+        "start": 22,
+        "end": 34
       },
       "specifiers": [],
       "source": null,
       "exportKind": "value",
-      "attributes": []
+      "attributes": [],
+      "start": 15,
+      "end": 34
     }
   ],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 34
 }
 ```

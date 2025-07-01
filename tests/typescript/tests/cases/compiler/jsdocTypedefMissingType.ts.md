@@ -2,99 +2,99 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 42,
-  "end": 206,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 42,
-      "end": 54,
       "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 48,
-          "end": 53,
           "id": {
             "type": "Identifier",
-            "start": 48,
-            "end": 49,
             "decorators": [],
             "name": "t",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 48,
+            "end": 49
           },
           "init": {
             "type": "Literal",
-            "start": 52,
-            "end": 53,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "start": 52,
+            "end": 53
           },
-          "definite": false
+          "definite": false,
+          "start": 48,
+          "end": 53
         }
       ],
-      "declare": false
+      "declare": false,
+      "start": 42,
+      "end": 54
     },
     {
       "type": "VariableDeclaration",
-      "start": 178,
-      "end": 206,
       "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 184,
-          "end": 205,
           "id": {
             "type": "Identifier",
-            "start": 184,
-            "end": 190,
             "decorators": [],
             "name": "person",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 184,
+            "end": 190
           },
           "init": {
             "type": "ObjectExpression",
-            "start": 193,
-            "end": 205,
             "properties": [
               {
                 "type": "Property",
-                "start": 195,
-                "end": 203,
                 "kind": "init",
                 "key": {
                   "type": "Identifier",
-                  "start": 195,
-                  "end": 199,
                   "decorators": [],
                   "name": "name",
                   "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "start": 195,
+                  "end": 199
                 },
                 "value": {
                   "type": "Literal",
-                  "start": 201,
-                  "end": 203,
                   "value": "",
-                  "raw": "\"\""
+                  "raw": "\"\"",
+                  "start": 201,
+                  "end": 203
                 },
                 "method": false,
                 "shorthand": false,
                 "computed": false,
-                "optional": false
+                "optional": false,
+                "start": 195,
+                "end": 203
               }
-            ]
+            ],
+            "start": 193,
+            "end": 205
           },
-          "definite": false
+          "definite": false,
+          "start": 184,
+          "end": 205
         }
       ],
-      "declare": false
+      "declare": false,
+      "start": 178,
+      "end": 206
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 42,
+  "end": 206
 }
 ```

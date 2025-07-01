@@ -2,71 +2,57 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 4,
-  "end": 86,
   "body": [
     {
       "type": "TSModuleDeclaration",
-      "start": 4,
-      "end": 86,
       "id": {
         "type": "Identifier",
-        "start": 19,
-        "end": 21,
         "decorators": [],
         "name": "M1",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 19,
+        "end": 21
       },
       "body": {
         "type": "TSModuleBlock",
-        "start": 22,
-        "end": 86,
         "body": [
           {
             "type": "WhileStatement",
-            "start": 29,
-            "end": 41,
             "test": {
               "type": "Literal",
-              "start": 35,
-              "end": 39,
               "value": true,
-              "raw": "true"
+              "raw": "true",
+              "start": 35,
+              "end": 39
             },
             "body": {
               "type": "EmptyStatement",
               "start": 40,
               "end": 41
-            }
+            },
+            "start": 29,
+            "end": 41
           },
           {
             "type": "ExportNamedDeclaration",
-            "start": 52,
-            "end": 80,
             "declaration": {
               "type": "VariableDeclaration",
-              "start": 59,
-              "end": 80,
               "kind": "var",
               "declarations": [
                 {
                   "type": "VariableDeclarator",
-                  "start": 63,
-                  "end": 79,
                   "id": {
                     "type": "Identifier",
-                    "start": 63,
-                    "end": 65,
                     "decorators": [],
                     "name": "v1",
                     "optional": false,
-                    "typeAnnotation": null
+                    "typeAnnotation": null,
+                    "start": 63,
+                    "end": 65
                   },
                   "init": {
                     "type": "ArrowFunctionExpression",
-                    "start": 68,
-                    "end": 79,
                     "expression": true,
                     "async": false,
                     "typeParameters": null,
@@ -74,32 +60,46 @@ __ESTREE_TEST__:PASS:
                     "returnType": null,
                     "body": {
                       "type": "Literal",
-                      "start": 74,
-                      "end": 79,
                       "value": false,
-                      "raw": "false"
+                      "raw": "false",
+                      "start": 74,
+                      "end": 79
                     },
                     "id": null,
-                    "generator": false
+                    "generator": false,
+                    "start": 68,
+                    "end": 79
                   },
-                  "definite": false
+                  "definite": false,
+                  "start": 63,
+                  "end": 79
                 }
               ],
-              "declare": false
+              "declare": false,
+              "start": 59,
+              "end": 80
             },
             "specifiers": [],
             "source": null,
             "exportKind": "value",
-            "attributes": []
+            "attributes": [],
+            "start": 52,
+            "end": 80
           }
-        ]
+        ],
+        "start": 22,
+        "end": 86
       },
       "kind": "module",
       "declare": true,
-      "global": false
+      "global": false,
+      "start": 4,
+      "end": 86
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 4,
+  "end": 86
 }
 ```

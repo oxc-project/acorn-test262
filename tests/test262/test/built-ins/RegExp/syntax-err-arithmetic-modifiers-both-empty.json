@@ -1,104 +1,104 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 627,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 532,
-      "end": 626,
       "expression": {
         "type": "CallExpression",
-        "start": 532,
-        "end": 625,
         "callee": {
           "type": "MemberExpression",
-          "start": 532,
-          "end": 545,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 532,
-            "end": 538,
-            "name": "assert"
+            "end": 538
           },
           "property": {
             "type": "Identifier",
+            "name": "throws",
             "start": 539,
-            "end": 545,
-            "name": "throws"
+            "end": 545
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 532,
+          "end": 545
         },
         "arguments": [
           {
             "type": "Identifier",
+            "name": "SyntaxError",
             "start": 546,
-            "end": 557,
-            "name": "SyntaxError"
+            "end": 557
           },
           {
             "type": "FunctionExpression",
-            "start": 559,
-            "end": 598,
             "id": null,
             "generator": false,
             "async": false,
             "params": [],
             "body": {
               "type": "BlockStatement",
-              "start": 571,
-              "end": 598,
               "body": [
                 {
                   "type": "ExpressionStatement",
-                  "start": 575,
-                  "end": 596,
                   "expression": {
                     "type": "CallExpression",
-                    "start": 575,
-                    "end": 595,
                     "callee": {
                       "type": "Identifier",
+                      "name": "RegExp",
                       "start": 575,
-                      "end": 581,
-                      "name": "RegExp"
+                      "end": 581
                     },
                     "arguments": [
                       {
                         "type": "Literal",
-                        "start": 582,
-                        "end": 590,
                         "value": "(?-:a)",
-                        "raw": "\"(?-:a)\""
+                        "raw": "\"(?-:a)\"",
+                        "start": 582,
+                        "end": 590
                       },
                       {
                         "type": "Literal",
-                        "start": 592,
-                        "end": 594,
                         "value": "",
-                        "raw": "\"\""
+                        "raw": "\"\"",
+                        "start": 592,
+                        "end": 594
                       }
                     ],
-                    "optional": false
-                  }
+                    "optional": false,
+                    "start": 575,
+                    "end": 595
+                  },
+                  "start": 575,
+                  "end": 596
                 }
-              ]
+              ],
+              "start": 571,
+              "end": 598
             },
-            "expression": false
+            "expression": false,
+            "start": 559,
+            "end": 598
           },
           {
             "type": "Literal",
-            "start": 600,
-            "end": 624,
             "value": "RegExp(\"(?-:a)\", \"\"): ",
-            "raw": "'RegExp(\"(?-:a)\", \"\"): '"
+            "raw": "'RegExp(\"(?-:a)\", \"\"): '",
+            "start": 600,
+            "end": 624
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 532,
+        "end": 625
+      },
+      "start": 532,
+      "end": 626
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 627
 }

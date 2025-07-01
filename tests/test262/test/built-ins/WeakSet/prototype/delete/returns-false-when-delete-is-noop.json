@@ -1,112 +1,112 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 383,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 320,
-      "end": 342,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 324,
-          "end": 341,
           "id": {
             "type": "Identifier",
+            "name": "s",
             "start": 324,
-            "end": 325,
-            "name": "s"
+            "end": 325
           },
           "init": {
             "type": "NewExpression",
-            "start": 328,
-            "end": 341,
             "callee": {
               "type": "Identifier",
+              "name": "WeakSet",
               "start": 332,
-              "end": 339,
-              "name": "WeakSet"
+              "end": 339
             },
-            "arguments": []
-          }
+            "arguments": [],
+            "start": 328,
+            "end": 341
+          },
+          "start": 324,
+          "end": 341
         }
-      ]
+      ],
+      "start": 320,
+      "end": 342
     },
     {
       "type": "ExpressionStatement",
-      "start": 344,
-      "end": 382,
       "expression": {
         "type": "CallExpression",
-        "start": 344,
-        "end": 381,
         "callee": {
           "type": "MemberExpression",
-          "start": 344,
-          "end": 360,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 344,
-            "end": 350,
-            "name": "assert"
+            "end": 350
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 351,
-            "end": 360,
-            "name": "sameValue"
+            "end": 360
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 344,
+          "end": 360
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 361,
-            "end": 373,
             "callee": {
               "type": "MemberExpression",
-              "start": 361,
-              "end": 369,
               "object": {
                 "type": "Identifier",
+                "name": "s",
                 "start": 361,
-                "end": 362,
-                "name": "s"
+                "end": 362
               },
               "property": {
                 "type": "Identifier",
+                "name": "delete",
                 "start": 363,
-                "end": 369,
-                "name": "delete"
+                "end": 369
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 361,
+              "end": 369
             },
             "arguments": [
               {
                 "type": "ObjectExpression",
+                "properties": [],
                 "start": 370,
-                "end": 372,
-                "properties": []
+                "end": 372
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 361,
+            "end": 373
           },
           {
             "type": "Literal",
-            "start": 375,
-            "end": 380,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "start": 375,
+            "end": 380
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 344,
+        "end": 381
+      },
+      "start": 344,
+      "end": 382
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 383
 }

@@ -1,87 +1,87 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 815,
   "body": [
     {
       "type": "ImportDeclaration",
-      "start": 720,
-      "end": 789,
       "specifiers": [
         {
           "type": "ImportSpecifier",
-          "start": 729,
-          "end": 730,
           "imported": {
             "type": "Identifier",
+            "name": "x",
             "start": 729,
-            "end": 730,
-            "name": "x"
+            "end": 730
           },
           "local": {
             "type": "Identifier",
+            "name": "x",
             "start": 729,
-            "end": 730,
-            "name": "x"
-          }
+            "end": 730
+          },
+          "start": 729,
+          "end": 730
         }
       ],
       "source": {
         "type": "Literal",
-        "start": 740,
-        "end": 788,
         "value": "./eval-gtbndng-indirect-trlng-comma_FIXTURE.js",
-        "raw": "'./eval-gtbndng-indirect-trlng-comma_FIXTURE.js'"
+        "raw": "'./eval-gtbndng-indirect-trlng-comma_FIXTURE.js'",
+        "start": 740,
+        "end": 788
       },
       "phase": null,
-      "attributes": []
+      "attributes": [],
+      "start": 720,
+      "end": 789
     },
     {
       "type": "ExpressionStatement",
-      "start": 791,
-      "end": 814,
       "expression": {
         "type": "CallExpression",
-        "start": 791,
-        "end": 813,
         "callee": {
           "type": "MemberExpression",
-          "start": 791,
-          "end": 807,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 791,
-            "end": 797,
-            "name": "assert"
+            "end": 797
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 798,
-            "end": 807,
-            "name": "sameValue"
+            "end": 807
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 791,
+          "end": 807
         },
         "arguments": [
           {
             "type": "Identifier",
+            "name": "x",
             "start": 808,
-            "end": 809,
-            "name": "x"
+            "end": 809
           },
           {
             "type": "Literal",
-            "start": 811,
-            "end": 812,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "start": 811,
+            "end": 812
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 791,
+        "end": 813
+      },
+      "start": 791,
+      "end": 814
     }
   ],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 815
 }

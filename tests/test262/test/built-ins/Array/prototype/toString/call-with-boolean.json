@@ -1,221 +1,221 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 553,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 245,
-      "end": 397,
       "expression": {
         "type": "CallExpression",
-        "start": 245,
-        "end": 396,
         "callee": {
           "type": "MemberExpression",
-          "start": 245,
-          "end": 261,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 245,
-            "end": 251,
-            "name": "assert"
+            "end": 251
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 252,
-            "end": 261,
-            "name": "sameValue"
+            "end": 261
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 245,
+          "end": 261
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 265,
-            "end": 300,
             "callee": {
               "type": "MemberExpression",
-              "start": 265,
-              "end": 294,
               "object": {
                 "type": "MemberExpression",
-                "start": 265,
-                "end": 289,
                 "object": {
                   "type": "MemberExpression",
-                  "start": 265,
-                  "end": 280,
                   "object": {
                     "type": "Identifier",
+                    "name": "Array",
                     "start": 265,
-                    "end": 270,
-                    "name": "Array"
+                    "end": 270
                   },
                   "property": {
                     "type": "Identifier",
+                    "name": "prototype",
                     "start": 271,
-                    "end": 280,
-                    "name": "prototype"
+                    "end": 280
                   },
                   "optional": false,
-                  "computed": false
+                  "computed": false,
+                  "start": 265,
+                  "end": 280
                 },
                 "property": {
                   "type": "Identifier",
+                  "name": "toString",
                   "start": 281,
-                  "end": 289,
-                  "name": "toString"
+                  "end": 289
                 },
                 "optional": false,
-                "computed": false
+                "computed": false,
+                "start": 265,
+                "end": 289
               },
               "property": {
                 "type": "Identifier",
+                "name": "call",
                 "start": 290,
-                "end": 294,
-                "name": "call"
+                "end": 294
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 265,
+              "end": 294
             },
             "arguments": [
               {
                 "type": "Literal",
-                "start": 295,
-                "end": 299,
                 "value": true,
-                "raw": "true"
+                "raw": "true",
+                "start": 295,
+                "end": 299
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 265,
+            "end": 300
           },
           {
             "type": "Literal",
-            "start": 304,
-            "end": 322,
             "value": "[object Boolean]",
-            "raw": "\"[object Boolean]\""
+            "raw": "\"[object Boolean]\"",
+            "start": 304,
+            "end": 322
           },
           {
             "type": "Literal",
-            "start": 326,
-            "end": 394,
             "value": "Array.prototype.toString.call(true) must return \"[object Boolean]\"",
-            "raw": "'Array.prototype.toString.call(true) must return \"[object Boolean]\"'"
+            "raw": "'Array.prototype.toString.call(true) must return \"[object Boolean]\"'",
+            "start": 326,
+            "end": 394
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 245,
+        "end": 396
+      },
+      "start": 245,
+      "end": 397
     },
     {
       "type": "ExpressionStatement",
-      "start": 398,
-      "end": 552,
       "expression": {
         "type": "CallExpression",
-        "start": 398,
-        "end": 551,
         "callee": {
           "type": "MemberExpression",
-          "start": 398,
-          "end": 414,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 398,
-            "end": 404,
-            "name": "assert"
+            "end": 404
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 405,
-            "end": 414,
-            "name": "sameValue"
+            "end": 414
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 398,
+          "end": 414
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 418,
-            "end": 454,
             "callee": {
               "type": "MemberExpression",
-              "start": 418,
-              "end": 447,
               "object": {
                 "type": "MemberExpression",
-                "start": 418,
-                "end": 442,
                 "object": {
                   "type": "MemberExpression",
-                  "start": 418,
-                  "end": 433,
                   "object": {
                     "type": "Identifier",
+                    "name": "Array",
                     "start": 418,
-                    "end": 423,
-                    "name": "Array"
+                    "end": 423
                   },
                   "property": {
                     "type": "Identifier",
+                    "name": "prototype",
                     "start": 424,
-                    "end": 433,
-                    "name": "prototype"
+                    "end": 433
                   },
                   "optional": false,
-                  "computed": false
+                  "computed": false,
+                  "start": 418,
+                  "end": 433
                 },
                 "property": {
                   "type": "Identifier",
+                  "name": "toString",
                   "start": 434,
-                  "end": 442,
-                  "name": "toString"
+                  "end": 442
                 },
                 "optional": false,
-                "computed": false
+                "computed": false,
+                "start": 418,
+                "end": 442
               },
               "property": {
                 "type": "Identifier",
+                "name": "call",
                 "start": 443,
-                "end": 447,
-                "name": "call"
+                "end": 447
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 418,
+              "end": 447
             },
             "arguments": [
               {
                 "type": "Literal",
-                "start": 448,
-                "end": 453,
                 "value": false,
-                "raw": "false"
+                "raw": "false",
+                "start": 448,
+                "end": 453
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 418,
+            "end": 454
           },
           {
             "type": "Literal",
-            "start": 458,
-            "end": 476,
             "value": "[object Boolean]",
-            "raw": "\"[object Boolean]\""
+            "raw": "\"[object Boolean]\"",
+            "start": 458,
+            "end": 476
           },
           {
             "type": "Literal",
-            "start": 480,
-            "end": 549,
             "value": "Array.prototype.toString.call(false) must return \"[object Boolean]\"",
-            "raw": "'Array.prototype.toString.call(false) must return \"[object Boolean]\"'"
+            "raw": "'Array.prototype.toString.call(false) must return \"[object Boolean]\"'",
+            "start": 480,
+            "end": 549
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 398,
+        "end": 551
+      },
+      "start": 398,
+      "end": 552
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 553
 }

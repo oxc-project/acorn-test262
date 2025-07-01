@@ -1,176 +1,176 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 412,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 269,
-      "end": 315,
       "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 275,
-          "end": 314,
           "id": {
             "type": "Identifier",
+            "name": "pym",
             "start": 275,
-            "end": 278,
-            "name": "pym"
+            "end": 278
           },
           "init": {
             "type": "NewExpression",
-            "start": 281,
-            "end": 314,
             "callee": {
               "type": "MemberExpression",
-              "start": 285,
-              "end": 308,
               "object": {
                 "type": "Identifier",
+                "name": "Temporal",
                 "start": 285,
-                "end": 293,
-                "name": "Temporal"
+                "end": 293
               },
               "property": {
                 "type": "Identifier",
+                "name": "PlainYearMonth",
                 "start": 294,
-                "end": 308,
-                "name": "PlainYearMonth"
+                "end": 308
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 285,
+              "end": 308
             },
             "arguments": [
               {
                 "type": "Literal",
-                "start": 309,
-                "end": 310,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "start": 309,
+                "end": 310
               },
               {
                 "type": "Literal",
-                "start": 312,
-                "end": 313,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "start": 312,
+                "end": 313
               }
-            ]
-          }
+            ],
+            "start": 281,
+            "end": 314
+          },
+          "start": 275,
+          "end": 314
         }
-      ]
+      ],
+      "start": 269,
+      "end": 315
     },
     {
       "type": "ExpressionStatement",
-      "start": 317,
-      "end": 411,
       "expression": {
         "type": "CallExpression",
-        "start": 317,
-        "end": 410,
         "callee": {
           "type": "MemberExpression",
-          "start": 317,
-          "end": 333,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 317,
-            "end": 323,
-            "name": "assert"
+            "end": 323
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 324,
-            "end": 333,
-            "name": "sameValue"
+            "end": 333
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 317,
+          "end": 333
         },
         "arguments": [
           {
             "type": "UnaryExpression",
-            "start": 337,
-            "end": 396,
             "operator": "typeof",
             "argument": {
               "type": "CallExpression",
-              "start": 344,
-              "end": 396,
               "callee": {
                 "type": "MemberExpression",
-                "start": 344,
-                "end": 362,
                 "object": {
                   "type": "Identifier",
+                  "name": "pym",
                   "start": 344,
-                  "end": 347,
-                  "name": "pym"
+                  "end": 347
                 },
                 "property": {
                   "type": "Identifier",
+                  "name": "toLocaleString",
                   "start": 348,
-                  "end": 362,
-                  "name": "toLocaleString"
+                  "end": 362
                 },
                 "optional": false,
-                "computed": false
+                "computed": false,
+                "start": 344,
+                "end": 362
               },
               "arguments": [
                 {
                   "type": "Identifier",
+                  "name": "undefined",
                   "start": 363,
-                  "end": 372,
-                  "name": "undefined"
+                  "end": 372
                 },
                 {
                   "type": "ObjectExpression",
-                  "start": 374,
-                  "end": 395,
                   "properties": [
                     {
                       "type": "Property",
-                      "start": 375,
-                      "end": 394,
                       "kind": "init",
                       "key": {
                         "type": "Identifier",
+                        "name": "calendar",
                         "start": 375,
-                        "end": 383,
-                        "name": "calendar"
+                        "end": 383
                       },
                       "value": {
                         "type": "Literal",
-                        "start": 385,
-                        "end": 394,
                         "value": "iso8601",
-                        "raw": "\"iso8601\""
+                        "raw": "\"iso8601\"",
+                        "start": 385,
+                        "end": 394
                       },
                       "method": false,
                       "shorthand": false,
-                      "computed": false
+                      "computed": false,
+                      "start": 375,
+                      "end": 394
                     }
-                  ]
+                  ],
+                  "start": 374,
+                  "end": 395
                 }
               ],
-              "optional": false
+              "optional": false,
+              "start": 344,
+              "end": 396
             },
-            "prefix": true
+            "prefix": true,
+            "start": 337,
+            "end": 396
           },
           {
             "type": "Literal",
-            "start": 400,
-            "end": 408,
             "value": "string",
-            "raw": "\"string\""
+            "raw": "\"string\"",
+            "start": 400,
+            "end": 408
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 317,
+        "end": 410
+      },
+      "start": 317,
+      "end": 411
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 412
 }

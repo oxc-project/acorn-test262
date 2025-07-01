@@ -2,21 +2,17 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 49,
   "body": [
     {
       "type": "TSDeclareFunction",
-      "start": 0,
-      "end": 24,
       "id": {
         "type": "Identifier",
-        "start": 9,
-        "end": 13,
         "decorators": [],
         "name": "data",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 9,
+        "end": 13
       },
       "generator": false,
       "async": false,
@@ -25,29 +21,29 @@ __ESTREE_TEST__:PASS:
       "params": [],
       "returnType": {
         "type": "TSTypeAnnotation",
-        "start": 15,
-        "end": 23,
         "typeAnnotation": {
           "type": "TSStringKeyword",
           "start": 17,
           "end": 23
-        }
+        },
+        "start": 15,
+        "end": 23
       },
       "body": null,
-      "expression": false
+      "expression": false,
+      "start": 0,
+      "end": 24
     },
     {
       "type": "TSDeclareFunction",
-      "start": 25,
-      "end": 49,
       "id": {
         "type": "Identifier",
-        "start": 34,
-        "end": 38,
         "decorators": [],
         "name": "next",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 34,
+        "end": 38
       },
       "generator": false,
       "async": false,
@@ -56,19 +52,23 @@ __ESTREE_TEST__:PASS:
       "params": [],
       "returnType": {
         "type": "TSTypeAnnotation",
-        "start": 40,
-        "end": 48,
         "typeAnnotation": {
           "type": "TSStringKeyword",
           "start": 42,
           "end": 48
-        }
+        },
+        "start": 40,
+        "end": 48
       },
       "body": null,
-      "expression": false
+      "expression": false,
+      "start": 25,
+      "end": 49
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 49
 }
 ```

@@ -2,413 +2,413 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 27,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 0,
-      "end": 26,
       "expression": {
         "type": "AssignmentExpression",
-        "start": 0,
-        "end": 25,
         "operator": "=",
         "left": {
           "type": "MemberExpression",
-          "start": 0,
-          "end": 14,
           "object": {
             "type": "Identifier",
-            "start": 0,
-            "end": 6,
             "decorators": [],
             "name": "module",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 0,
+            "end": 6
           },
           "property": {
             "type": "Identifier",
-            "start": 7,
-            "end": 14,
             "decorators": [],
             "name": "exports",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 7,
+            "end": 14
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 0,
+          "end": 14
         },
         "right": {
           "type": "ObjectExpression",
-          "start": 17,
-          "end": 25,
           "properties": [
             {
               "type": "Property",
-              "start": 19,
-              "end": 23,
               "kind": "init",
               "key": {
                 "type": "Identifier",
-                "start": 19,
-                "end": 20,
                 "decorators": [],
                 "name": "a",
                 "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "start": 19,
+                "end": 20
               },
               "value": {
                 "type": "Literal",
-                "start": 22,
-                "end": 23,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "start": 22,
+                "end": 23
               },
               "method": false,
               "shorthand": false,
               "computed": false,
-              "optional": false
+              "optional": false,
+              "start": 19,
+              "end": 23
             }
-          ]
-        }
+          ],
+          "start": 17,
+          "end": 25
+        },
+        "start": 0,
+        "end": 25
       },
-      "directive": null
+      "directive": null,
+      "start": 0,
+      "end": 26
     }
   ],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 27
 }
 ```
 __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 350,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 0,
-      "end": 37,
       "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 6,
-          "end": 36,
           "id": {
             "type": "Identifier",
-            "start": 6,
-            "end": 11,
             "decorators": [],
             "name": "json0",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 6,
+            "end": 11
           },
           "init": {
             "type": "CallExpression",
-            "start": 14,
-            "end": 36,
             "callee": {
               "type": "Identifier",
-              "start": 14,
-              "end": 21,
               "decorators": [],
               "name": "require",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 14,
+              "end": 21
             },
             "typeArguments": null,
             "arguments": [
               {
                 "type": "Literal",
-                "start": 22,
-                "end": 35,
                 "value": "./json.json",
-                "raw": "\"./json.json\""
+                "raw": "\"./json.json\"",
+                "start": 22,
+                "end": 35
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 14,
+            "end": 36
           },
-          "definite": false
+          "definite": false,
+          "start": 6,
+          "end": 36
         }
       ],
-      "declare": false
+      "declare": false,
+      "start": 0,
+      "end": 37
     },
     {
       "type": "ExpressionStatement",
-      "start": 38,
-      "end": 46,
       "expression": {
         "type": "MemberExpression",
-        "start": 38,
-        "end": 45,
         "object": {
           "type": "Identifier",
-          "start": 38,
-          "end": 43,
           "decorators": [],
           "name": "json0",
           "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "start": 38,
+          "end": 43
         },
         "property": {
           "type": "Identifier",
-          "start": 44,
-          "end": 45,
           "decorators": [],
           "name": "b",
           "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "start": 44,
+          "end": 45
         },
         "optional": false,
-        "computed": false
+        "computed": false,
+        "start": 38,
+        "end": 45
       },
-      "directive": null
+      "directive": null,
+      "start": 38,
+      "end": 46
     },
     {
       "type": "VariableDeclaration",
-      "start": 93,
-      "end": 130,
       "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 99,
-          "end": 129,
           "id": {
             "type": "Identifier",
-            "start": 99,
-            "end": 104,
             "decorators": [],
             "name": "json1",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 99,
+            "end": 104
           },
           "init": {
             "type": "CallExpression",
-            "start": 107,
-            "end": 129,
             "callee": {
               "type": "Identifier",
-              "start": 107,
-              "end": 114,
               "decorators": [],
               "name": "require",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 107,
+              "end": 114
             },
             "typeArguments": null,
             "arguments": [
               {
                 "type": "Literal",
-                "start": 115,
-                "end": 128,
                 "value": "./json.json",
-                "raw": "\"./json.json\""
+                "raw": "\"./json.json\"",
+                "start": 115,
+                "end": 128
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 107,
+            "end": 129
           },
-          "definite": false
+          "definite": false,
+          "start": 99,
+          "end": 129
         }
       ],
-      "declare": false
+      "declare": false,
+      "start": 93,
+      "end": 130
     },
     {
       "type": "ExpressionStatement",
-      "start": 149,
-      "end": 157,
       "expression": {
         "type": "MemberExpression",
-        "start": 149,
-        "end": 156,
         "object": {
           "type": "Identifier",
-          "start": 149,
-          "end": 154,
           "decorators": [],
           "name": "json1",
           "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "start": 149,
+          "end": 154
         },
         "property": {
           "type": "Identifier",
-          "start": 155,
-          "end": 156,
           "decorators": [],
           "name": "b",
           "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "start": 155,
+          "end": 156
         },
         "optional": false,
-        "computed": false
+        "computed": false,
+        "start": 149,
+        "end": 156
       },
-      "directive": null
+      "directive": null,
+      "start": 149,
+      "end": 157
     },
     {
       "type": "VariableDeclaration",
-      "start": 209,
-      "end": 240,
       "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 215,
-          "end": 239,
           "id": {
             "type": "Identifier",
-            "start": 215,
-            "end": 218,
             "decorators": [],
             "name": "js0",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 215,
+            "end": 218
           },
           "init": {
             "type": "CallExpression",
-            "start": 221,
-            "end": 239,
             "callee": {
               "type": "Identifier",
-              "start": 221,
-              "end": 228,
               "decorators": [],
               "name": "require",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 221,
+              "end": 228
             },
             "typeArguments": null,
             "arguments": [
               {
                 "type": "Literal",
-                "start": 229,
-                "end": 238,
                 "value": "./js.js",
-                "raw": "\"./js.js\""
+                "raw": "\"./js.js\"",
+                "start": 229,
+                "end": 238
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 221,
+            "end": 239
           },
-          "definite": false
+          "definite": false,
+          "start": 215,
+          "end": 239
         }
       ],
-      "declare": false
+      "declare": false,
+      "start": 209,
+      "end": 240
     },
     {
       "type": "ExpressionStatement",
-      "start": 241,
-      "end": 249,
       "expression": {
         "type": "MemberExpression",
-        "start": 241,
-        "end": 248,
         "object": {
           "type": "Identifier",
-          "start": 241,
-          "end": 246,
           "decorators": [],
           "name": "json0",
           "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "start": 241,
+          "end": 246
         },
         "property": {
           "type": "Identifier",
-          "start": 247,
-          "end": 248,
           "decorators": [],
           "name": "b",
           "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "start": 247,
+          "end": 248
         },
         "optional": false,
-        "computed": false
+        "computed": false,
+        "start": 241,
+        "end": 248
       },
-      "directive": null
+      "directive": null,
+      "start": 241,
+      "end": 249
     },
     {
       "type": "VariableDeclaration",
-      "start": 296,
-      "end": 327,
       "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 302,
-          "end": 326,
           "id": {
             "type": "Identifier",
-            "start": 302,
-            "end": 305,
             "decorators": [],
             "name": "js1",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 302,
+            "end": 305
           },
           "init": {
             "type": "CallExpression",
-            "start": 308,
-            "end": 326,
             "callee": {
               "type": "Identifier",
-              "start": 308,
-              "end": 315,
               "decorators": [],
               "name": "require",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 308,
+              "end": 315
             },
             "typeArguments": null,
             "arguments": [
               {
                 "type": "Literal",
-                "start": 316,
-                "end": 325,
                 "value": "./js.js",
-                "raw": "\"./js.js\""
+                "raw": "\"./js.js\"",
+                "start": 316,
+                "end": 325
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 308,
+            "end": 326
           },
-          "definite": false
+          "definite": false,
+          "start": 302,
+          "end": 326
         }
       ],
-      "declare": false
+      "declare": false,
+      "start": 296,
+      "end": 327
     },
     {
       "type": "ExpressionStatement",
-      "start": 344,
-      "end": 350,
       "expression": {
         "type": "MemberExpression",
-        "start": 344,
-        "end": 349,
         "object": {
           "type": "Identifier",
-          "start": 344,
-          "end": 347,
           "decorators": [],
           "name": "js1",
           "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "start": 344,
+          "end": 347
         },
         "property": {
           "type": "Identifier",
-          "start": 348,
-          "end": 349,
           "decorators": [],
           "name": "b",
           "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "start": 348,
+          "end": 349
         },
         "optional": false,
-        "computed": false
+        "computed": false,
+        "start": 344,
+        "end": 349
       },
-      "directive": null
+      "directive": null,
+      "start": 344,
+      "end": 350
     }
   ],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 350
 }
 ```

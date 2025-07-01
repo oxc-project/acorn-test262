@@ -1,139 +1,139 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 487,
   "body": [
     {
       "type": "ClassDeclaration",
-      "start": 388,
-      "end": 416,
       "decorators": [],
       "id": {
         "type": "Identifier",
+        "name": "Fn",
         "start": 394,
-        "end": 396,
-        "name": "Fn"
+        "end": 396
       },
       "superClass": {
         "type": "Identifier",
+        "name": "Function",
         "start": 405,
-        "end": 413,
-        "name": "Function"
+        "end": 413
       },
       "body": {
         "type": "ClassBody",
+        "body": [],
         "start": 414,
-        "end": 416,
-        "body": []
-      }
+        "end": 416
+      },
+      "start": 388,
+      "end": 416
     },
     {
       "type": "VariableDeclaration",
-      "start": 418,
-      "end": 455,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 422,
-          "end": 454,
           "id": {
             "type": "Identifier",
+            "name": "fn",
             "start": 422,
-            "end": 424,
-            "name": "fn"
+            "end": 424
           },
           "init": {
             "type": "NewExpression",
-            "start": 427,
-            "end": 454,
             "callee": {
               "type": "Identifier",
+              "name": "Fn",
               "start": 431,
-              "end": 433,
-              "name": "Fn"
+              "end": 433
             },
             "arguments": [
               {
                 "type": "Literal",
-                "start": 434,
-                "end": 437,
                 "value": "a",
-                "raw": "'a'"
+                "raw": "'a'",
+                "start": 434,
+                "end": 437
               },
               {
                 "type": "Literal",
-                "start": 439,
-                "end": 453,
                 "value": "return a * 2",
-                "raw": "'return a * 2'"
+                "raw": "'return a * 2'",
+                "start": 439,
+                "end": 453
               }
-            ]
-          }
+            ],
+            "start": 427,
+            "end": 454
+          },
+          "start": 422,
+          "end": 454
         }
-      ]
+      ],
+      "start": 418,
+      "end": 455
     },
     {
       "type": "ExpressionStatement",
-      "start": 457,
-      "end": 486,
       "expression": {
         "type": "CallExpression",
-        "start": 457,
-        "end": 485,
         "callee": {
           "type": "MemberExpression",
-          "start": 457,
-          "end": 473,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 457,
-            "end": 463,
-            "name": "assert"
+            "end": 463
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 464,
-            "end": 473,
-            "name": "sameValue"
+            "end": 473
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 457,
+          "end": 473
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 474,
-            "end": 480,
             "callee": {
               "type": "Identifier",
+              "name": "fn",
               "start": 474,
-              "end": 476,
-              "name": "fn"
+              "end": 476
             },
             "arguments": [
               {
                 "type": "Literal",
-                "start": 477,
-                "end": 479,
                 "value": 42,
-                "raw": "42"
+                "raw": "42",
+                "start": 477,
+                "end": 479
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 474,
+            "end": 480
           },
           {
             "type": "Literal",
-            "start": 482,
-            "end": 484,
             "value": 84,
-            "raw": "84"
+            "raw": "84",
+            "start": 482,
+            "end": 484
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 457,
+        "end": 485
+      },
+      "start": 457,
+      "end": 486
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 487
 }

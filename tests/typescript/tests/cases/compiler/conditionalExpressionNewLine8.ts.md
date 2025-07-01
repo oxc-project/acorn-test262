@@ -2,113 +2,113 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 39,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 0,
-      "end": 39,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 4,
-          "end": 38,
           "id": {
             "type": "Identifier",
-            "start": 4,
-            "end": 5,
             "decorators": [],
             "name": "v",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 4,
+            "end": 5
           },
           "init": {
             "type": "ConditionalExpression",
-            "start": 8,
-            "end": 38,
             "test": {
               "type": "Identifier",
-              "start": 8,
-              "end": 9,
               "decorators": [],
               "name": "a",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 8,
+              "end": 9
             },
             "consequent": {
               "type": "ConditionalExpression",
-              "start": 15,
-              "end": 24,
               "test": {
                 "type": "Identifier",
-                "start": 15,
-                "end": 16,
                 "decorators": [],
                 "name": "b",
                 "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "start": 15,
+                "end": 16
               },
               "consequent": {
                 "type": "Identifier",
-                "start": 19,
-                "end": 20,
                 "decorators": [],
                 "name": "d",
                 "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "start": 19,
+                "end": 20
               },
               "alternate": {
                 "type": "Identifier",
-                "start": 23,
-                "end": 24,
                 "decorators": [],
                 "name": "e",
                 "optional": false,
-                "typeAnnotation": null
-              }
+                "typeAnnotation": null,
+                "start": 23,
+                "end": 24
+              },
+              "start": 15,
+              "end": 24
             },
             "alternate": {
               "type": "ConditionalExpression",
-              "start": 29,
-              "end": 38,
               "test": {
                 "type": "Identifier",
-                "start": 29,
-                "end": 30,
                 "decorators": [],
                 "name": "c",
                 "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "start": 29,
+                "end": 30
               },
               "consequent": {
                 "type": "Identifier",
-                "start": 33,
-                "end": 34,
                 "decorators": [],
                 "name": "f",
                 "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "start": 33,
+                "end": 34
               },
               "alternate": {
                 "type": "Identifier",
-                "start": 37,
-                "end": 38,
                 "decorators": [],
                 "name": "g",
                 "optional": false,
-                "typeAnnotation": null
-              }
-            }
+                "typeAnnotation": null,
+                "start": 37,
+                "end": 38
+              },
+              "start": 29,
+              "end": 38
+            },
+            "start": 8,
+            "end": 38
           },
-          "definite": false
+          "definite": false,
+          "start": 4,
+          "end": 38
         }
       ],
-      "declare": false
+      "declare": false,
+      "start": 0,
+      "end": 39
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 39
 }
 ```

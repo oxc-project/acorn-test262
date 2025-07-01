@@ -1,183 +1,183 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 771,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 289,
-      "end": 342,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 293,
-          "end": 341,
           "id": {
             "type": "Identifier",
+            "name": "__string",
             "start": 293,
-            "end": 301,
-            "name": "__string"
+            "end": 301
           },
           "init": {
             "type": "NewExpression",
-            "start": 304,
-            "end": 341,
             "callee": {
               "type": "Identifier",
+              "name": "String",
               "start": 308,
-              "end": 314,
-              "name": "String"
+              "end": 314
             },
             "arguments": [
               {
                 "type": "Literal",
-                "start": 315,
-                "end": 340,
                 "value": "this is a string object",
-                "raw": "'this is a string object'"
+                "raw": "'this is a string object'",
+                "start": 315,
+                "end": 340
               }
-            ]
-          }
+            ],
+            "start": 304,
+            "end": 341
+          },
+          "start": 293,
+          "end": 341
         }
-      ]
+      ],
+      "start": 289,
+      "end": 342
     },
     {
       "type": "IfStatement",
-      "start": 433,
-      "end": 688,
       "test": {
         "type": "BinaryExpression",
-        "start": 437,
-        "end": 496,
         "left": {
           "type": "CallExpression",
-          "start": 437,
-          "end": 466,
           "callee": {
             "type": "MemberExpression",
-            "start": 437,
-            "end": 451,
             "object": {
               "type": "Identifier",
+              "name": "__string",
               "start": 437,
-              "end": 445,
-              "name": "__string"
+              "end": 445
             },
             "property": {
               "type": "Identifier",
+              "name": "slice",
               "start": 446,
-              "end": 451,
-              "name": "slice"
+              "end": 451
             },
             "optional": false,
-            "computed": false
+            "computed": false,
+            "start": 437,
+            "end": 451
           },
           "arguments": [
             {
               "type": "Identifier",
+              "name": "NaN",
               "start": 452,
-              "end": 455,
-              "name": "NaN"
+              "end": 455
             },
             {
               "type": "Identifier",
+              "name": "Infinity",
               "start": 457,
-              "end": 465,
-              "name": "Infinity"
+              "end": 465
             }
           ],
-          "optional": false
+          "optional": false,
+          "start": 437,
+          "end": 466
         },
         "operator": "!==",
         "right": {
           "type": "Literal",
-          "start": 471,
-          "end": 496,
           "value": "this is a string object",
-          "raw": "\"this is a string object\""
-        }
+          "raw": "\"this is a string object\"",
+          "start": 471,
+          "end": 496
+        },
+        "start": 437,
+        "end": 496
       },
       "consequent": {
         "type": "BlockStatement",
-        "start": 498,
-        "end": 688,
         "body": [
           {
             "type": "ThrowStatement",
-            "start": 502,
-            "end": 686,
             "argument": {
               "type": "NewExpression",
-              "start": 508,
-              "end": 685,
               "callee": {
                 "type": "Identifier",
+                "name": "Test262Error",
                 "start": 512,
-                "end": 524,
-                "name": "Test262Error"
+                "end": 524
               },
               "arguments": [
                 {
                   "type": "BinaryExpression",
-                  "start": 525,
-                  "end": 684,
                   "left": {
                     "type": "Literal",
-                    "start": 525,
-                    "end": 652,
                     "value": "#1: __string = new String('this is a string object'); __string.slice(NaN, Infinity) === \"this is a string object\". Actual: ",
-                    "raw": "'#1: __string = new String(\\'this is a string object\\'); __string.slice(NaN, Infinity) === \"this is a string object\". Actual: '"
+                    "raw": "'#1: __string = new String(\\'this is a string object\\'); __string.slice(NaN, Infinity) === \"this is a string object\". Actual: '",
+                    "start": 525,
+                    "end": 652
                   },
                   "operator": "+",
                   "right": {
                     "type": "CallExpression",
-                    "start": 655,
-                    "end": 684,
                     "callee": {
                       "type": "MemberExpression",
-                      "start": 655,
-                      "end": 669,
                       "object": {
                         "type": "Identifier",
+                        "name": "__string",
                         "start": 655,
-                        "end": 663,
-                        "name": "__string"
+                        "end": 663
                       },
                       "property": {
                         "type": "Identifier",
+                        "name": "slice",
                         "start": 664,
-                        "end": 669,
-                        "name": "slice"
+                        "end": 669
                       },
                       "optional": false,
-                      "computed": false
+                      "computed": false,
+                      "start": 655,
+                      "end": 669
                     },
                     "arguments": [
                       {
                         "type": "Identifier",
+                        "name": "NaN",
                         "start": 670,
-                        "end": 673,
-                        "name": "NaN"
+                        "end": 673
                       },
                       {
                         "type": "Identifier",
+                        "name": "Infinity",
                         "start": 675,
-                        "end": 683,
-                        "name": "Infinity"
+                        "end": 683
                       }
                     ],
-                    "optional": false
-                  }
+                    "optional": false,
+                    "start": 655,
+                    "end": 684
+                  },
+                  "start": 525,
+                  "end": 684
                 }
-              ]
-            }
+              ],
+              "start": 508,
+              "end": 685
+            },
+            "start": 502,
+            "end": 686
           }
-        ]
+        ],
+        "start": 498,
+        "end": 688
       },
-      "alternate": null
+      "alternate": null,
+      "start": 433,
+      "end": 688
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 771
 }

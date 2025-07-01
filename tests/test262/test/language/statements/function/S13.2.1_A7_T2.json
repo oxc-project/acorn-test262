@@ -1,182 +1,182 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 845,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 463,
-      "end": 522,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 467,
-          "end": 522,
           "id": {
             "type": "Identifier",
+            "name": "__func",
             "start": 467,
-            "end": 473,
-            "name": "__func"
+            "end": 473
           },
           "init": {
             "type": "FunctionExpression",
-            "start": 476,
-            "end": 522,
             "id": null,
             "generator": false,
             "async": false,
             "params": [],
             "body": {
               "type": "BlockStatement",
-              "start": 487,
-              "end": 522,
               "body": [
                 {
                   "type": "VariableDeclaration",
-                  "start": 493,
-                  "end": 506,
                   "kind": "var",
                   "declarations": [
                     {
                       "type": "VariableDeclarator",
-                      "start": 497,
-                      "end": 505,
                       "id": {
                         "type": "Identifier",
+                        "name": "x",
                         "start": 497,
-                        "end": 498,
-                        "name": "x"
+                        "end": 498
                       },
                       "init": {
                         "type": "Literal",
-                        "start": 501,
-                        "end": 505,
                         "value": null,
-                        "raw": "null"
-                      }
+                        "raw": "null",
+                        "start": 501,
+                        "end": 505
+                      },
+                      "start": 497,
+                      "end": 505
                     }
-                  ]
+                  ],
+                  "start": 493,
+                  "end": 506
                 },
                 {
                   "type": "ReturnStatement",
-                  "start": 511,
-                  "end": 520,
                   "argument": {
                     "type": "Identifier",
+                    "name": "x",
                     "start": 518,
-                    "end": 519,
-                    "name": "x"
-                  }
+                    "end": 519
+                  },
+                  "start": 511,
+                  "end": 520
                 }
-              ]
+              ],
+              "start": 487,
+              "end": 522
             },
-            "expression": false
-          }
+            "expression": false,
+            "start": 476,
+            "end": 522
+          },
+          "start": 467,
+          "end": 522
         }
-      ]
+      ],
+      "start": 463,
+      "end": 522
     },
     {
       "type": "TryStatement",
-      "start": 613,
-      "end": 762,
       "block": {
         "type": "BlockStatement",
-        "start": 616,
-        "end": 639,
         "body": [
           {
             "type": "VariableDeclaration",
-            "start": 622,
-            "end": 637,
             "kind": "var",
             "declarations": [
               {
                 "type": "VariableDeclarator",
-                "start": 626,
-                "end": 636,
                 "id": {
                   "type": "Identifier",
+                  "name": "x",
                   "start": 626,
-                  "end": 627,
-                  "name": "x"
+                  "end": 627
                 },
                 "init": {
                   "type": "CallExpression",
-                  "start": 628,
-                  "end": 636,
                   "callee": {
                     "type": "Identifier",
+                    "name": "__func",
                     "start": 628,
-                    "end": 634,
-                    "name": "__func"
+                    "end": 634
                   },
                   "arguments": [],
-                  "optional": false
-                }
+                  "optional": false,
+                  "start": 628,
+                  "end": 636
+                },
+                "start": 626,
+                "end": 636
               }
-            ]
+            ],
+            "start": 622,
+            "end": 637
           }
-        ]
+        ],
+        "start": 616,
+        "end": 639
       },
       "handler": {
         "type": "CatchClause",
-        "start": 640,
-        "end": 762,
         "param": {
           "type": "Identifier",
+          "name": "e",
           "start": 646,
-          "end": 647,
-          "name": "e"
+          "end": 647
         },
         "body": {
           "type": "BlockStatement",
-          "start": 648,
-          "end": 762,
           "body": [
             {
               "type": "ThrowStatement",
-              "start": 654,
-              "end": 760,
               "argument": {
                 "type": "NewExpression",
-                "start": 660,
-                "end": 759,
                 "callee": {
                   "type": "Identifier",
+                  "name": "Test262Error",
                   "start": 664,
-                  "end": 676,
-                  "name": "Test262Error"
+                  "end": 676
                 },
                 "arguments": [
                   {
                     "type": "BinaryExpression",
-                    "start": 677,
-                    "end": 758,
                     "left": {
                       "type": "Literal",
-                      "start": 677,
-                      "end": 756,
                       "value": "#1: var x=__func() does not lead to throwing exception. Actual: exception is ",
-                      "raw": "'#1: var x=__func() does not lead to throwing exception. Actual: exception is '"
+                      "raw": "'#1: var x=__func() does not lead to throwing exception. Actual: exception is '",
+                      "start": 677,
+                      "end": 756
                     },
                     "operator": "+",
                     "right": {
                       "type": "Identifier",
+                      "name": "e",
                       "start": 757,
-                      "end": 758,
-                      "name": "e"
-                    }
+                      "end": 758
+                    },
+                    "start": 677,
+                    "end": 758
                   }
-                ]
-              }
+                ],
+                "start": 660,
+                "end": 759
+              },
+              "start": 654,
+              "end": 760
             }
-          ]
-        }
+          ],
+          "start": 648,
+          "end": 762
+        },
+        "start": 640,
+        "end": 762
       },
-      "finalizer": null
+      "finalizer": null,
+      "start": 613,
+      "end": 762
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 845
 }

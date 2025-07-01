@@ -2,32 +2,24 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 300,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 0,
-      "end": 300,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 4,
-          "end": 299,
           "id": {
             "type": "Identifier",
-            "start": 4,
-            "end": 11,
             "decorators": [],
             "name": "promise",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 4,
+            "end": 11
           },
           "init": {
             "type": "FunctionExpression",
-            "start": 14,
-            "end": 299,
             "id": null,
             "generator": false,
             "async": false,
@@ -36,89 +28,77 @@ __ESTREE_TEST__:PASS:
             "params": [
               {
                 "type": "Identifier",
-                "start": 24,
-                "end": 27,
                 "decorators": [],
                 "name": "obj",
                 "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "start": 24,
+                "end": 27
               }
             ],
             "returnType": null,
             "body": {
               "type": "BlockStatement",
-              "start": 30,
-              "end": 299,
               "body": [
                 {
                   "type": "IfStatement",
-                  "start": 36,
-                  "end": 297,
                   "test": {
                     "type": "LogicalExpression",
-                    "start": 41,
-                    "end": 60,
                     "left": {
                       "type": "Identifier",
-                      "start": 41,
-                      "end": 44,
                       "decorators": [],
                       "name": "top",
                       "optional": false,
-                      "typeAnnotation": null
+                      "typeAnnotation": null,
+                      "start": 41,
+                      "end": 44
                     },
                     "operator": "&&",
                     "right": {
                       "type": "MemberExpression",
-                      "start": 48,
-                      "end": 60,
                       "object": {
                         "type": "Identifier",
-                        "start": 48,
-                        "end": 51,
                         "decorators": [],
                         "name": "top",
                         "optional": false,
-                        "typeAnnotation": null
+                        "typeAnnotation": null,
+                        "start": 48,
+                        "end": 51
                       },
                       "property": {
                         "type": "Identifier",
-                        "start": 52,
-                        "end": 60,
                         "decorators": [],
                         "name": "doScroll",
                         "optional": false,
-                        "typeAnnotation": null
+                        "typeAnnotation": null,
+                        "start": 52,
+                        "end": 60
                       },
                       "optional": false,
-                      "computed": false
-                    }
+                      "computed": false,
+                      "start": 48,
+                      "end": 60
+                    },
+                    "start": 41,
+                    "end": 60
                   },
                   "consequent": {
                     "type": "BlockStatement",
-                    "start": 63,
-                    "end": 297,
                     "body": [
                       {
                         "type": "ExpressionStatement",
-                        "start": 68,
-                        "end": 293,
                         "expression": {
                           "type": "CallExpression",
-                          "start": 68,
-                          "end": 292,
                           "callee": {
                             "type": "FunctionExpression",
-                            "start": 69,
-                            "end": 289,
                             "id": {
                               "type": "Identifier",
-                              "start": 78,
-                              "end": 91,
                               "decorators": [],
                               "name": "doScrollCheck",
                               "optional": false,
-                              "typeAnnotation": null
+                              "typeAnnotation": null,
+                              "start": 78,
+                              "end": 91
                             },
                             "generator": false,
                             "async": false,
@@ -128,197 +108,217 @@ __ESTREE_TEST__:PASS:
                             "returnType": null,
                             "body": {
                               "type": "BlockStatement",
-                              "start": 94,
-                              "end": 289,
                               "body": [
                                 {
                                   "type": "IfStatement",
-                                  "start": 100,
-                                  "end": 284,
                                   "test": {
                                     "type": "Literal",
-                                    "start": 105,
-                                    "end": 110,
                                     "value": false,
-                                    "raw": "false"
+                                    "raw": "false",
+                                    "start": 105,
+                                    "end": 110
                                   },
                                   "consequent": {
                                     "type": "BlockStatement",
-                                    "start": 113,
-                                    "end": 284,
                                     "body": [
                                       {
                                         "type": "TryStatement",
-                                        "start": 121,
-                                        "end": 225,
                                         "block": {
                                           "type": "BlockStatement",
-                                          "start": 125,
-                                          "end": 161,
                                           "body": [
                                             {
                                               "type": "ExpressionStatement",
-                                              "start": 133,
-                                              "end": 154,
                                               "expression": {
                                                 "type": "CallExpression",
-                                                "start": 133,
-                                                "end": 153,
                                                 "callee": {
                                                   "type": "MemberExpression",
-                                                  "start": 133,
-                                                  "end": 145,
                                                   "object": {
                                                     "type": "Identifier",
-                                                    "start": 133,
-                                                    "end": 136,
                                                     "decorators": [],
                                                     "name": "top",
                                                     "optional": false,
-                                                    "typeAnnotation": null
+                                                    "typeAnnotation": null,
+                                                    "start": 133,
+                                                    "end": 136
                                                   },
                                                   "property": {
                                                     "type": "Identifier",
-                                                    "start": 137,
-                                                    "end": 145,
                                                     "decorators": [],
                                                     "name": "doScroll",
                                                     "optional": false,
-                                                    "typeAnnotation": null
+                                                    "typeAnnotation": null,
+                                                    "start": 137,
+                                                    "end": 145
                                                   },
                                                   "optional": false,
-                                                  "computed": false
+                                                  "computed": false,
+                                                  "start": 133,
+                                                  "end": 145
                                                 },
                                                 "typeArguments": null,
                                                 "arguments": [
                                                   {
                                                     "type": "Literal",
-                                                    "start": 146,
-                                                    "end": 152,
                                                     "value": "left",
-                                                    "raw": "\"left\""
+                                                    "raw": "\"left\"",
+                                                    "start": 146,
+                                                    "end": 152
                                                   }
                                                 ],
-                                                "optional": false
+                                                "optional": false,
+                                                "start": 133,
+                                                "end": 153
                                               },
-                                              "directive": null
+                                              "directive": null,
+                                              "start": 133,
+                                              "end": 154
                                             }
-                                          ]
+                                          ],
+                                          "start": 125,
+                                          "end": 161
                                         },
                                         "handler": {
                                           "type": "CatchClause",
-                                          "start": 162,
-                                          "end": 225,
                                           "param": {
                                             "type": "Identifier",
-                                            "start": 168,
-                                            "end": 169,
                                             "decorators": [],
                                             "name": "e",
                                             "optional": false,
-                                            "typeAnnotation": null
+                                            "typeAnnotation": null,
+                                            "start": 168,
+                                            "end": 169
                                           },
                                           "body": {
                                             "type": "BlockStatement",
-                                            "start": 171,
-                                            "end": 225,
                                             "body": [
                                               {
                                                 "type": "ReturnStatement",
-                                                "start": 179,
-                                                "end": 218,
                                                 "argument": {
                                                   "type": "CallExpression",
-                                                  "start": 186,
-                                                  "end": 217,
                                                   "callee": {
                                                     "type": "Identifier",
-                                                    "start": 186,
-                                                    "end": 196,
                                                     "decorators": [],
                                                     "name": "setTimeout",
                                                     "optional": false,
-                                                    "typeAnnotation": null
+                                                    "typeAnnotation": null,
+                                                    "start": 186,
+                                                    "end": 196
                                                   },
                                                   "typeArguments": null,
                                                   "arguments": [
                                                     {
                                                       "type": "Identifier",
-                                                      "start": 198,
-                                                      "end": 211,
                                                       "decorators": [],
                                                       "name": "doScrollCheck",
                                                       "optional": false,
-                                                      "typeAnnotation": null
+                                                      "typeAnnotation": null,
+                                                      "start": 198,
+                                                      "end": 211
                                                     },
                                                     {
                                                       "type": "Literal",
-                                                      "start": 213,
-                                                      "end": 215,
                                                       "value": 50,
-                                                      "raw": "50"
+                                                      "raw": "50",
+                                                      "start": 213,
+                                                      "end": 215
                                                     }
                                                   ],
-                                                  "optional": false
-                                                }
+                                                  "optional": false,
+                                                  "start": 186,
+                                                  "end": 217
+                                                },
+                                                "start": 179,
+                                                "end": 218
                                               }
-                                            ]
-                                          }
+                                            ],
+                                            "start": 171,
+                                            "end": 225
+                                          },
+                                          "start": 162,
+                                          "end": 225
                                         },
-                                        "finalizer": null
+                                        "finalizer": null,
+                                        "start": 121,
+                                        "end": 225
                                       },
                                       {
                                         "type": "ExpressionStatement",
-                                        "start": 268,
-                                        "end": 277,
                                         "expression": {
                                           "type": "CallExpression",
-                                          "start": 268,
-                                          "end": 276,
                                           "callee": {
                                             "type": "Identifier",
-                                            "start": 268,
-                                            "end": 274,
                                             "decorators": [],
                                             "name": "detach",
                                             "optional": false,
-                                            "typeAnnotation": null
+                                            "typeAnnotation": null,
+                                            "start": 268,
+                                            "end": 274
                                           },
                                           "typeArguments": null,
                                           "arguments": [],
-                                          "optional": false
+                                          "optional": false,
+                                          "start": 268,
+                                          "end": 276
                                         },
-                                        "directive": null
+                                        "directive": null,
+                                        "start": 268,
+                                        "end": 277
                                       }
-                                    ]
+                                    ],
+                                    "start": 113,
+                                    "end": 284
                                   },
-                                  "alternate": null
+                                  "alternate": null,
+                                  "start": 100,
+                                  "end": 284
                                 }
-                              ]
+                              ],
+                              "start": 94,
+                              "end": 289
                             },
-                            "expression": false
+                            "expression": false,
+                            "start": 69,
+                            "end": 289
                           },
                           "typeArguments": null,
                           "arguments": [],
-                          "optional": false
+                          "optional": false,
+                          "start": 68,
+                          "end": 292
                         },
-                        "directive": null
+                        "directive": null,
+                        "start": 68,
+                        "end": 293
                       }
-                    ]
+                    ],
+                    "start": 63,
+                    "end": 297
                   },
-                  "alternate": null
+                  "alternate": null,
+                  "start": 36,
+                  "end": 297
                 }
-              ]
+              ],
+              "start": 30,
+              "end": 299
             },
-            "expression": false
+            "expression": false,
+            "start": 14,
+            "end": 299
           },
-          "definite": false
+          "definite": false,
+          "start": 4,
+          "end": 299
         }
       ],
-      "declare": false
+      "declare": false,
+      "start": 0,
+      "end": 300
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 300
 }
 ```

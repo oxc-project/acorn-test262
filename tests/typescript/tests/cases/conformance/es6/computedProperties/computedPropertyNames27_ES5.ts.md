@@ -2,22 +2,18 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 69,
   "body": [
     {
       "type": "ClassDeclaration",
-      "start": 0,
-      "end": 14,
       "decorators": [],
       "id": {
         "type": "Identifier",
-        "start": 6,
-        "end": 10,
         "decorators": [],
         "name": "Base",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 6,
+        "end": 10
       },
       "typeParameters": null,
       "superClass": null,
@@ -25,58 +21,50 @@ __ESTREE_TEST__:PASS:
       "implements": [],
       "body": {
         "type": "ClassBody",
+        "body": [],
         "start": 11,
-        "end": 14,
-        "body": []
+        "end": 14
       },
       "abstract": false,
-      "declare": false
+      "declare": false,
+      "start": 0,
+      "end": 14
     },
     {
       "type": "ClassDeclaration",
-      "start": 15,
-      "end": 69,
       "decorators": [],
       "id": {
         "type": "Identifier",
-        "start": 21,
-        "end": 22,
         "decorators": [],
         "name": "C",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 21,
+        "end": 22
       },
       "typeParameters": null,
       "superClass": {
         "type": "Identifier",
-        "start": 31,
-        "end": 35,
         "decorators": [],
         "name": "Base",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 31,
+        "end": 35
       },
       "superTypeArguments": null,
       "implements": [],
       "body": {
         "type": "ClassBody",
-        "start": 36,
-        "end": 69,
         "body": [
           {
             "type": "MethodDefinition",
-            "start": 42,
-            "end": 67,
             "decorators": [],
             "key": {
               "type": "SequenceExpression",
-              "start": 44,
-              "end": 59,
               "expressions": [
                 {
                   "type": "CallExpression",
-                  "start": 44,
-                  "end": 51,
                   "callee": {
                     "type": "Super",
                     "start": 44,
@@ -84,21 +72,23 @@ __ESTREE_TEST__:PASS:
                   },
                   "typeArguments": null,
                   "arguments": [],
-                  "optional": false
+                  "optional": false,
+                  "start": 44,
+                  "end": 51
                 },
                 {
                   "type": "Literal",
-                  "start": 53,
-                  "end": 59,
                   "value": "prop",
-                  "raw": "\"prop\""
+                  "raw": "\"prop\"",
+                  "start": 53,
+                  "end": 59
                 }
-              ]
+              ],
+              "start": 44,
+              "end": 59
             },
             "value": {
               "type": "FunctionExpression",
-              "start": 61,
-              "end": 67,
               "id": null,
               "generator": false,
               "async": false,
@@ -108,26 +98,36 @@ __ESTREE_TEST__:PASS:
               "returnType": null,
               "body": {
                 "type": "BlockStatement",
+                "body": [],
                 "start": 64,
-                "end": 67,
-                "body": []
+                "end": 67
               },
-              "expression": false
+              "expression": false,
+              "start": 61,
+              "end": 67
             },
             "kind": "method",
             "computed": true,
             "static": false,
             "override": false,
             "optional": false,
-            "accessibility": null
+            "accessibility": null,
+            "start": 42,
+            "end": 67
           }
-        ]
+        ],
+        "start": 36,
+        "end": 69
       },
       "abstract": false,
-      "declare": false
+      "declare": false,
+      "start": 15,
+      "end": 69
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 69
 }
 ```

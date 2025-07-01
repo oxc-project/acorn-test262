@@ -1,388 +1,388 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 992,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 682,
-      "end": 991,
       "expression": {
         "type": "CallExpression",
-        "start": 682,
-        "end": 990,
         "callee": {
           "type": "Identifier",
+          "name": "testWithBigIntTypedArrayConstructors",
           "start": 682,
-          "end": 718,
-          "name": "testWithBigIntTypedArrayConstructors"
+          "end": 718
         },
         "arguments": [
           {
             "type": "FunctionExpression",
-            "start": 719,
-            "end": 989,
             "id": null,
             "generator": false,
             "async": false,
             "params": [
               {
                 "type": "Identifier",
+                "name": "TA",
                 "start": 728,
-                "end": 730,
-                "name": "TA"
+                "end": 730
               }
             ],
             "body": {
               "type": "BlockStatement",
-              "start": 732,
-              "end": 989,
               "body": [
                 {
                   "type": "VariableDeclaration",
-                  "start": 736,
-                  "end": 767,
                   "kind": "var",
                   "declarations": [
                     {
                       "type": "VariableDeclarator",
-                      "start": 740,
-                      "end": 766,
                       "id": {
                         "type": "Identifier",
+                        "name": "bpe",
                         "start": 740,
-                        "end": 743,
-                        "name": "bpe"
+                        "end": 743
                       },
                       "init": {
                         "type": "MemberExpression",
-                        "start": 746,
-                        "end": 766,
                         "object": {
                           "type": "Identifier",
+                          "name": "TA",
                           "start": 746,
-                          "end": 748,
-                          "name": "TA"
+                          "end": 748
                         },
                         "property": {
                           "type": "Identifier",
+                          "name": "BYTES_PER_ELEMENT",
                           "start": 749,
-                          "end": 766,
-                          "name": "BYTES_PER_ELEMENT"
+                          "end": 766
                         },
                         "optional": false,
-                        "computed": false
-                      }
+                        "computed": false,
+                        "start": 746,
+                        "end": 766
+                      },
+                      "start": 740,
+                      "end": 766
                     }
-                  ]
+                  ],
+                  "start": 736,
+                  "end": 767
                 },
                 {
                   "type": "VariableDeclaration",
-                  "start": 771,
-                  "end": 805,
                   "kind": "var",
                   "declarations": [
                     {
                       "type": "VariableDeclarator",
-                      "start": 775,
-                      "end": 804,
                       "id": {
                         "type": "Identifier",
+                        "name": "buffer",
                         "start": 775,
-                        "end": 781,
-                        "name": "buffer"
+                        "end": 781
                       },
                       "init": {
                         "type": "NewExpression",
-                        "start": 784,
-                        "end": 804,
                         "callee": {
                           "type": "Identifier",
+                          "name": "ArrayBuffer",
                           "start": 788,
-                          "end": 799,
-                          "name": "ArrayBuffer"
+                          "end": 799
                         },
                         "arguments": [
                           {
                             "type": "Identifier",
+                            "name": "bpe",
                             "start": 800,
-                            "end": 803,
-                            "name": "bpe"
+                            "end": 803
                           }
-                        ]
-                      }
+                        ],
+                        "start": 784,
+                        "end": 804
+                      },
+                      "start": 775,
+                      "end": 804
                     }
-                  ]
+                  ],
+                  "start": 771,
+                  "end": 805
                 },
                 {
                   "type": "VariableDeclaration",
-                  "start": 809,
-                  "end": 834,
                   "kind": "var",
                   "declarations": [
                     {
                       "type": "VariableDeclarator",
-                      "start": 813,
-                      "end": 833,
                       "id": {
                         "type": "Identifier",
+                        "name": "ta1",
                         "start": 813,
-                        "end": 816,
-                        "name": "ta1"
+                        "end": 816
                       },
                       "init": {
                         "type": "NewExpression",
-                        "start": 819,
-                        "end": 833,
                         "callee": {
                           "type": "Identifier",
+                          "name": "TA",
                           "start": 823,
-                          "end": 825,
-                          "name": "TA"
+                          "end": 825
                         },
                         "arguments": [
                           {
                             "type": "Identifier",
+                            "name": "buffer",
                             "start": 826,
-                            "end": 832,
-                            "name": "buffer"
+                            "end": 832
                           }
-                        ]
-                      }
+                        ],
+                        "start": 819,
+                        "end": 833
+                      },
+                      "start": 813,
+                      "end": 833
                     }
-                  ]
+                  ],
+                  "start": 809,
+                  "end": 834
                 },
                 {
                   "type": "VariableDeclaration",
-                  "start": 837,
-                  "end": 862,
                   "kind": "var",
                   "declarations": [
                     {
                       "type": "VariableDeclarator",
-                      "start": 841,
-                      "end": 861,
                       "id": {
                         "type": "Identifier",
+                        "name": "ta2",
                         "start": 841,
-                        "end": 844,
-                        "name": "ta2"
+                        "end": 844
                       },
                       "init": {
                         "type": "NewExpression",
-                        "start": 847,
-                        "end": 861,
                         "callee": {
                           "type": "Identifier",
+                          "name": "TA",
                           "start": 851,
-                          "end": 853,
-                          "name": "TA"
+                          "end": 853
                         },
                         "arguments": [
                           {
                             "type": "Identifier",
+                            "name": "buffer",
                             "start": 854,
-                            "end": 860,
-                            "name": "buffer"
+                            "end": 860
                           }
-                        ]
-                      }
+                        ],
+                        "start": 847,
+                        "end": 861
+                      },
+                      "start": 841,
+                      "end": 861
                     }
-                  ]
+                  ],
+                  "start": 837,
+                  "end": 862
                 },
                 {
                   "type": "ExpressionStatement",
-                  "start": 866,
-                  "end": 903,
                   "expression": {
                     "type": "CallExpression",
-                    "start": 866,
-                    "end": 902,
                     "callee": {
                       "type": "MemberExpression",
-                      "start": 866,
-                      "end": 882,
                       "object": {
                         "type": "Identifier",
+                        "name": "assert",
                         "start": 866,
-                        "end": 872,
-                        "name": "assert"
+                        "end": 872
                       },
                       "property": {
                         "type": "Identifier",
+                        "name": "sameValue",
                         "start": 873,
-                        "end": 882,
-                        "name": "sameValue"
+                        "end": 882
                       },
                       "optional": false,
-                      "computed": false
+                      "computed": false,
+                      "start": 866,
+                      "end": 882
                     },
                     "arguments": [
                       {
                         "type": "MemberExpression",
-                        "start": 883,
-                        "end": 893,
                         "object": {
                           "type": "Identifier",
+                          "name": "ta1",
                           "start": 883,
-                          "end": 886,
-                          "name": "ta1"
+                          "end": 886
                         },
                         "property": {
                           "type": "Identifier",
+                          "name": "buffer",
                           "start": 887,
-                          "end": 893,
-                          "name": "buffer"
+                          "end": 893
                         },
                         "optional": false,
-                        "computed": false
+                        "computed": false,
+                        "start": 883,
+                        "end": 893
                       },
                       {
                         "type": "Identifier",
+                        "name": "buffer",
                         "start": 895,
-                        "end": 901,
-                        "name": "buffer"
+                        "end": 901
                       }
                     ],
-                    "optional": false
-                  }
+                    "optional": false,
+                    "start": 866,
+                    "end": 902
+                  },
+                  "start": 866,
+                  "end": 903
                 },
                 {
                   "type": "ExpressionStatement",
-                  "start": 906,
-                  "end": 943,
                   "expression": {
                     "type": "CallExpression",
-                    "start": 906,
-                    "end": 942,
                     "callee": {
                       "type": "MemberExpression",
-                      "start": 906,
-                      "end": 922,
                       "object": {
                         "type": "Identifier",
+                        "name": "assert",
                         "start": 906,
-                        "end": 912,
-                        "name": "assert"
+                        "end": 912
                       },
                       "property": {
                         "type": "Identifier",
+                        "name": "sameValue",
                         "start": 913,
-                        "end": 922,
-                        "name": "sameValue"
+                        "end": 922
                       },
                       "optional": false,
-                      "computed": false
+                      "computed": false,
+                      "start": 906,
+                      "end": 922
                     },
                     "arguments": [
                       {
                         "type": "MemberExpression",
-                        "start": 923,
-                        "end": 933,
                         "object": {
                           "type": "Identifier",
+                          "name": "ta2",
                           "start": 923,
-                          "end": 926,
-                          "name": "ta2"
+                          "end": 926
                         },
                         "property": {
                           "type": "Identifier",
+                          "name": "buffer",
                           "start": 927,
-                          "end": 933,
-                          "name": "buffer"
+                          "end": 933
                         },
                         "optional": false,
-                        "computed": false
+                        "computed": false,
+                        "start": 923,
+                        "end": 933
                       },
                       {
                         "type": "Identifier",
+                        "name": "buffer",
                         "start": 935,
-                        "end": 941,
-                        "name": "buffer"
+                        "end": 941
                       }
                     ],
-                    "optional": false
-                  }
+                    "optional": false,
+                    "start": 906,
+                    "end": 942
+                  },
+                  "start": 906,
+                  "end": 943
                 },
                 {
                   "type": "ExpressionStatement",
-                  "start": 946,
-                  "end": 987,
                   "expression": {
                     "type": "CallExpression",
-                    "start": 946,
-                    "end": 986,
                     "callee": {
                       "type": "MemberExpression",
-                      "start": 946,
-                      "end": 962,
                       "object": {
                         "type": "Identifier",
+                        "name": "assert",
                         "start": 946,
-                        "end": 952,
-                        "name": "assert"
+                        "end": 952
                       },
                       "property": {
                         "type": "Identifier",
+                        "name": "sameValue",
                         "start": 953,
-                        "end": 962,
-                        "name": "sameValue"
+                        "end": 962
                       },
                       "optional": false,
-                      "computed": false
+                      "computed": false,
+                      "start": 946,
+                      "end": 962
                     },
                     "arguments": [
                       {
                         "type": "MemberExpression",
-                        "start": 963,
-                        "end": 973,
                         "object": {
                           "type": "Identifier",
+                          "name": "ta1",
                           "start": 963,
-                          "end": 966,
-                          "name": "ta1"
+                          "end": 966
                         },
                         "property": {
                           "type": "Identifier",
+                          "name": "buffer",
                           "start": 967,
-                          "end": 973,
-                          "name": "buffer"
+                          "end": 973
                         },
                         "optional": false,
-                        "computed": false
+                        "computed": false,
+                        "start": 963,
+                        "end": 973
                       },
                       {
                         "type": "MemberExpression",
-                        "start": 975,
-                        "end": 985,
                         "object": {
                           "type": "Identifier",
+                          "name": "ta2",
                           "start": 975,
-                          "end": 978,
-                          "name": "ta2"
+                          "end": 978
                         },
                         "property": {
                           "type": "Identifier",
+                          "name": "buffer",
                           "start": 979,
-                          "end": 985,
-                          "name": "buffer"
+                          "end": 985
                         },
                         "optional": false,
-                        "computed": false
+                        "computed": false,
+                        "start": 975,
+                        "end": 985
                       }
                     ],
-                    "optional": false
-                  }
+                    "optional": false,
+                    "start": 946,
+                    "end": 986
+                  },
+                  "start": 946,
+                  "end": 987
                 }
-              ]
+              ],
+              "start": 732,
+              "end": 989
             },
-            "expression": false
+            "expression": false,
+            "start": 719,
+            "end": 989
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 682,
+        "end": 990
+      },
+      "start": 682,
+      "end": 991
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 992
 }

@@ -2,21 +2,17 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 154,
-  "end": 239,
   "body": [
     {
       "type": "FunctionDeclaration",
-      "start": 154,
-      "end": 186,
       "id": {
         "type": "Identifier",
-        "start": 163,
-        "end": 165,
         "decorators": [],
         "name": "id",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 163,
+        "end": 165
       },
       "generator": false,
       "async": false,
@@ -25,156 +21,160 @@ __ESTREE_TEST__:PASS:
       "params": [
         {
           "type": "Identifier",
-          "start": 166,
-          "end": 167,
           "decorators": [],
           "name": "x",
           "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "start": 166,
+          "end": 167
         }
       ],
       "returnType": null,
       "body": {
         "type": "BlockStatement",
-        "start": 169,
-        "end": 186,
         "body": [
           {
             "type": "ReturnStatement",
-            "start": 175,
-            "end": 184,
             "argument": {
               "type": "Identifier",
-              "start": 182,
-              "end": 183,
               "decorators": [],
               "name": "x",
               "optional": false,
-              "typeAnnotation": null
-            }
+              "typeAnnotation": null,
+              "start": 182,
+              "end": 183
+            },
+            "start": 175,
+            "end": 184
           }
-        ]
+        ],
+        "start": 169,
+        "end": 186
       },
-      "expression": false
+      "expression": false,
+      "start": 154,
+      "end": 186
     },
     {
       "type": "ExportNamedDeclaration",
-      "start": 188,
-      "end": 211,
       "declaration": {
         "type": "VariableDeclaration",
-        "start": 195,
-        "end": 211,
         "kind": "let",
         "declarations": [
           {
             "type": "VariableDeclarator",
-            "start": 199,
-            "end": 210,
             "id": {
               "type": "Identifier",
-              "start": 199,
-              "end": 200,
               "decorators": [],
               "name": "a",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 199,
+              "end": 200
             },
             "init": {
               "type": "CallExpression",
-              "start": 203,
-              "end": 210,
               "callee": {
                 "type": "Identifier",
-                "start": 203,
-                "end": 205,
                 "decorators": [],
                 "name": "id",
                 "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "start": 203,
+                "end": 205
               },
               "typeArguments": null,
               "arguments": [
                 {
                   "type": "Literal",
-                  "start": 206,
-                  "end": 209,
                   "value": 123,
-                  "raw": "123"
+                  "raw": "123",
+                  "start": 206,
+                  "end": 209
                 }
               ],
-              "optional": false
+              "optional": false,
+              "start": 203,
+              "end": 210
             },
-            "definite": false
+            "definite": false,
+            "start": 199,
+            "end": 210
           }
         ],
-        "declare": false
+        "declare": false,
+        "start": 195,
+        "end": 211
       },
       "specifiers": [],
       "source": null,
       "exportKind": "value",
-      "attributes": []
+      "attributes": [],
+      "start": 188,
+      "end": 211
     },
     {
       "type": "ExportNamedDeclaration",
-      "start": 212,
-      "end": 239,
       "declaration": {
         "type": "VariableDeclaration",
-        "start": 219,
-        "end": 239,
         "kind": "let",
         "declarations": [
           {
             "type": "VariableDeclarator",
-            "start": 223,
-            "end": 238,
             "id": {
               "type": "Identifier",
-              "start": 223,
-              "end": 224,
               "decorators": [],
               "name": "b",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 223,
+              "end": 224
             },
             "init": {
               "type": "CallExpression",
-              "start": 227,
-              "end": 238,
               "callee": {
                 "type": "Identifier",
-                "start": 227,
-                "end": 229,
                 "decorators": [],
                 "name": "id",
                 "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "start": 227,
+                "end": 229
               },
               "typeArguments": null,
               "arguments": [
                 {
                   "type": "Literal",
-                  "start": 230,
-                  "end": 237,
                   "value": "hello",
-                  "raw": "\"hello\""
+                  "raw": "\"hello\"",
+                  "start": 230,
+                  "end": 237
                 }
               ],
-              "optional": false
+              "optional": false,
+              "start": 227,
+              "end": 238
             },
-            "definite": false
+            "definite": false,
+            "start": 223,
+            "end": 238
           }
         ],
-        "declare": false
+        "declare": false,
+        "start": 219,
+        "end": 239
       },
       "specifiers": [],
       "source": null,
       "exportKind": "value",
-      "attributes": []
+      "attributes": [],
+      "start": 212,
+      "end": 239
     }
   ],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 154,
+  "end": 239
 }
 ```

@@ -1,217 +1,217 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 578,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 325,
-      "end": 340,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 329,
-          "end": 339,
           "id": {
             "type": "Identifier",
+            "name": "str1",
             "start": 329,
-            "end": 333,
-            "name": "str1"
+            "end": 333
           },
           "init": {
             "type": "Literal",
-            "start": 336,
-            "end": 339,
             "value": "h",
-            "raw": "\"h\""
-          }
+            "raw": "\"h\"",
+            "start": 336,
+            "end": 339
+          },
+          "start": 329,
+          "end": 339
         }
-      ]
+      ],
+      "start": 325,
+      "end": 340
     },
     {
       "type": "VariableDeclaration",
-      "start": 341,
-      "end": 356,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 345,
-          "end": 355,
           "id": {
             "type": "Identifier",
+            "name": "str2",
             "start": 345,
-            "end": 349,
-            "name": "str2"
+            "end": 349
           },
           "init": {
             "type": "Literal",
-            "start": 352,
-            "end": 355,
             "value": "H",
-            "raw": "\"H\""
-          }
+            "raw": "\"H\"",
+            "start": 352,
+            "end": 355
+          },
+          "start": 345,
+          "end": 355
         }
-      ]
+      ],
+      "start": 341,
+      "end": 356
     },
     {
       "type": "IfStatement",
-      "start": 357,
-      "end": 577,
       "test": {
         "type": "BinaryExpression",
-        "start": 361,
-        "end": 415,
         "left": {
           "type": "CallExpression",
-          "start": 361,
-          "end": 385,
           "callee": {
             "type": "MemberExpression",
-            "start": 361,
-            "end": 379,
             "object": {
               "type": "Identifier",
+              "name": "str1",
               "start": 361,
-              "end": 365,
-              "name": "str1"
+              "end": 365
             },
             "property": {
               "type": "Identifier",
+              "name": "localeCompare",
               "start": 366,
-              "end": 379,
-              "name": "localeCompare"
+              "end": 379
             },
             "optional": false,
-            "computed": false
+            "computed": false,
+            "start": 361,
+            "end": 379
           },
           "arguments": [
             {
               "type": "Identifier",
+              "name": "str2",
               "start": 380,
-              "end": 384,
-              "name": "str2"
+              "end": 384
             }
           ],
-          "optional": false
+          "optional": false,
+          "start": 361,
+          "end": 385
         },
         "operator": "!==",
         "right": {
           "type": "UnaryExpression",
-          "start": 390,
-          "end": 415,
           "operator": "-",
           "argument": {
             "type": "CallExpression",
-            "start": 391,
-            "end": 415,
             "callee": {
               "type": "MemberExpression",
-              "start": 391,
-              "end": 409,
               "object": {
                 "type": "Identifier",
+                "name": "str2",
                 "start": 391,
-                "end": 395,
-                "name": "str2"
+                "end": 395
               },
               "property": {
                 "type": "Identifier",
+                "name": "localeCompare",
                 "start": 396,
-                "end": 409,
-                "name": "localeCompare"
+                "end": 409
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 391,
+              "end": 409
             },
             "arguments": [
               {
                 "type": "Identifier",
+                "name": "str1",
                 "start": 410,
-                "end": 414,
-                "name": "str1"
+                "end": 414
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 391,
+            "end": 415
           },
-          "prefix": true
-        }
+          "prefix": true,
+          "start": 390,
+          "end": 415
+        },
+        "start": 361,
+        "end": 415
       },
       "consequent": {
         "type": "BlockStatement",
-        "start": 417,
-        "end": 577,
         "body": [
           {
             "type": "ThrowStatement",
-            "start": 421,
-            "end": 575,
             "argument": {
               "type": "NewExpression",
-              "start": 427,
-              "end": 574,
               "callee": {
                 "type": "Identifier",
+                "name": "Test262Error",
                 "start": 431,
-                "end": 443,
-                "name": "Test262Error"
+                "end": 443
               },
               "arguments": [
                 {
                   "type": "BinaryExpression",
-                  "start": 444,
-                  "end": 573,
                   "left": {
                     "type": "Literal",
-                    "start": 444,
-                    "end": 546,
                     "value": "#1.1: var str1 = \"h\"; var str2 = \"H\"; str1.localeCompare(str2)===-str2.localeCompare(str1). Actual: ",
-                    "raw": "'#1.1: var str1 = \"h\"; var str2 = \"H\"; str1.localeCompare(str2)===-str2.localeCompare(str1). Actual: '"
+                    "raw": "'#1.1: var str1 = \"h\"; var str2 = \"H\"; str1.localeCompare(str2)===-str2.localeCompare(str1). Actual: '",
+                    "start": 444,
+                    "end": 546
                   },
                   "operator": "+",
                   "right": {
                     "type": "CallExpression",
-                    "start": 549,
-                    "end": 573,
                     "callee": {
                       "type": "MemberExpression",
-                      "start": 549,
-                      "end": 567,
                       "object": {
                         "type": "Identifier",
+                        "name": "str1",
                         "start": 549,
-                        "end": 553,
-                        "name": "str1"
+                        "end": 553
                       },
                       "property": {
                         "type": "Identifier",
+                        "name": "localeCompare",
                         "start": 554,
-                        "end": 567,
-                        "name": "localeCompare"
+                        "end": 567
                       },
                       "optional": false,
-                      "computed": false
+                      "computed": false,
+                      "start": 549,
+                      "end": 567
                     },
                     "arguments": [
                       {
                         "type": "Identifier",
+                        "name": "str2",
                         "start": 568,
-                        "end": 572,
-                        "name": "str2"
+                        "end": 572
                       }
                     ],
-                    "optional": false
-                  }
+                    "optional": false,
+                    "start": 549,
+                    "end": 573
+                  },
+                  "start": 444,
+                  "end": 573
                 }
-              ]
-            }
+              ],
+              "start": 427,
+              "end": 574
+            },
+            "start": 421,
+            "end": 575
           }
-        ]
+        ],
+        "start": 417,
+        "end": 577
       },
-      "alternate": null
+      "alternate": null,
+      "start": 357,
+      "end": 577
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 578
 }

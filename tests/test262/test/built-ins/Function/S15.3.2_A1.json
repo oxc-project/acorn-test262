@@ -1,155 +1,155 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 619,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 388,
-      "end": 409,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 392,
-          "end": 408,
           "id": {
             "type": "Identifier",
+            "name": "f",
             "start": 392,
-            "end": 393,
-            "name": "f"
+            "end": 393
           },
           "init": {
             "type": "NewExpression",
-            "start": 396,
-            "end": 408,
             "callee": {
               "type": "Identifier",
+              "name": "Function",
               "start": 400,
-              "end": 408,
-              "name": "Function"
+              "end": 408
             },
-            "arguments": []
-          }
+            "arguments": [],
+            "start": 396,
+            "end": 408
+          },
+          "start": 392,
+          "end": 408
         }
-      ]
+      ],
+      "start": 388,
+      "end": 409
     },
     {
       "type": "ExpressionStatement",
-      "start": 411,
-      "end": 526,
       "expression": {
         "type": "CallExpression",
-        "start": 411,
-        "end": 525,
         "callee": {
           "type": "MemberExpression",
-          "start": 411,
-          "end": 427,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 411,
-            "end": 417,
-            "name": "assert"
+            "end": 417
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 418,
-            "end": 427,
-            "name": "sameValue"
+            "end": 427
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 411,
+          "end": 427
         },
         "arguments": [
           {
             "type": "MemberExpression",
-            "start": 428,
-            "end": 441,
             "object": {
               "type": "Identifier",
+              "name": "f",
               "start": 428,
-              "end": 429,
-              "name": "f"
+              "end": 429
             },
             "property": {
               "type": "Identifier",
+              "name": "constructor",
               "start": 430,
-              "end": 441,
-              "name": "constructor"
+              "end": 441
             },
             "optional": false,
-            "computed": false
+            "computed": false,
+            "start": 428,
+            "end": 441
           },
           {
             "type": "Identifier",
+            "name": "Function",
             "start": 443,
-            "end": 451,
-            "name": "Function"
+            "end": 451
           },
           {
             "type": "Literal",
-            "start": 453,
-            "end": 524,
             "value": "The value of f.constructor is expected to equal the value of Function",
-            "raw": "'The value of f.constructor is expected to equal the value of Function'"
+            "raw": "'The value of f.constructor is expected to equal the value of Function'",
+            "start": 453,
+            "end": 524
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 411,
+        "end": 525
+      },
+      "start": 411,
+      "end": 526
     },
     {
       "type": "ExpressionStatement",
-      "start": 527,
-      "end": 618,
       "expression": {
         "type": "CallExpression",
-        "start": 527,
-        "end": 617,
         "callee": {
           "type": "MemberExpression",
-          "start": 527,
-          "end": 546,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 527,
-            "end": 533,
-            "name": "assert"
+            "end": 533
           },
           "property": {
             "type": "Identifier",
+            "name": "notSameValue",
             "start": 534,
-            "end": 546,
-            "name": "notSameValue"
+            "end": 546
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 527,
+          "end": 546
         },
         "arguments": [
           {
             "type": "Identifier",
+            "name": "f",
             "start": 547,
-            "end": 548,
-            "name": "f"
+            "end": 548
           },
           {
             "type": "Identifier",
+            "name": "undefined",
             "start": 550,
-            "end": 559,
-            "name": "undefined"
+            "end": 559
           },
           {
             "type": "Literal",
-            "start": 561,
-            "end": 616,
             "value": "The value of f is expected to not equal ``undefined``",
-            "raw": "'The value of f is expected to not equal ``undefined``'"
+            "raw": "'The value of f is expected to not equal ``undefined``'",
+            "start": 561,
+            "end": 616
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 527,
+        "end": 617
+      },
+      "start": 527,
+      "end": 618
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 619
 }

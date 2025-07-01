@@ -1,106 +1,106 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 575,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 483,
-      "end": 574,
       "expression": {
         "type": "CallExpression",
-        "start": 483,
-        "end": 573,
         "callee": {
           "type": "MemberExpression",
-          "start": 483,
-          "end": 499,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 483,
-            "end": 489,
-            "name": "assert"
+            "end": 489
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 490,
-            "end": 499,
-            "name": "sameValue"
+            "end": 499
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 483,
+          "end": 499
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 500,
-            "end": 550,
             "callee": {
               "type": "MemberExpression",
-              "start": 500,
-              "end": 521,
               "object": {
                 "type": "Identifier",
+                "name": "Object",
                 "start": 500,
-                "end": 506,
-                "name": "Object"
+                "end": 506
               },
               "property": {
                 "type": "Identifier",
+                "name": "getPrototypeOf",
                 "start": 507,
-                "end": 521,
-                "name": "getPrototypeOf"
+                "end": 521
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 500,
+              "end": 521
             },
             "arguments": [
               {
                 "type": "MemberExpression",
-                "start": 522,
-                "end": 549,
                 "object": {
                   "type": "Identifier",
+                  "name": "Uint8ClampedArray",
                   "start": 522,
-                  "end": 539,
-                  "name": "Uint8ClampedArray"
+                  "end": 539
                 },
                 "property": {
                   "type": "Identifier",
+                  "name": "prototype",
                   "start": 540,
-                  "end": 549,
-                  "name": "prototype"
+                  "end": 549
                 },
                 "optional": false,
-                "computed": false
+                "computed": false,
+                "start": 522,
+                "end": 549
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 500,
+            "end": 550
           },
           {
             "type": "MemberExpression",
-            "start": 552,
-            "end": 572,
             "object": {
               "type": "Identifier",
+              "name": "TypedArray",
               "start": 552,
-              "end": 562,
-              "name": "TypedArray"
+              "end": 562
             },
             "property": {
               "type": "Identifier",
+              "name": "prototype",
               "start": 563,
-              "end": 572,
-              "name": "prototype"
+              "end": 572
             },
             "optional": false,
-            "computed": false
+            "computed": false,
+            "start": 552,
+            "end": 572
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 483,
+        "end": 573
+      },
+      "start": 483,
+      "end": 574
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 575
 }

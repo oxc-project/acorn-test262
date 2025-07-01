@@ -1,323 +1,323 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 1195,
   "body": [
     {
       "type": "ExportAllDeclaration",
-      "start": 722,
-      "end": 782,
       "exported": {
         "type": "Identifier",
+        "name": "default",
         "start": 734,
-        "end": 741,
-        "name": "default"
+        "end": 741
       },
       "source": {
         "type": "Literal",
-        "start": 747,
-        "end": 781,
         "value": "./export-star-as-dflt_FIXTURE.js",
-        "raw": "'./export-star-as-dflt_FIXTURE.js'"
+        "raw": "'./export-star-as-dflt_FIXTURE.js'",
+        "start": 747,
+        "end": 781
       },
-      "attributes": []
+      "attributes": [],
+      "start": 722,
+      "end": 782
     },
     {
       "type": "ImportDeclaration",
-      "start": 783,
-      "end": 827,
       "specifiers": [
         {
           "type": "ImportDefaultSpecifier",
-          "start": 790,
-          "end": 794,
           "local": {
             "type": "Identifier",
+            "name": "Self",
             "start": 790,
-            "end": 794,
-            "name": "Self"
-          }
+            "end": 794
+          },
+          "start": 790,
+          "end": 794
         }
       ],
       "source": {
         "type": "Literal",
-        "start": 800,
-        "end": 826,
         "value": "./export-star-as-dflt.js",
-        "raw": "'./export-star-as-dflt.js'"
+        "raw": "'./export-star-as-dflt.js'",
+        "start": 800,
+        "end": 826
       },
       "phase": null,
-      "attributes": []
+      "attributes": [],
+      "start": 783,
+      "end": 827
     },
     {
       "type": "ImportDeclaration",
-      "start": 828,
-      "end": 888,
       "specifiers": [
         {
           "type": "ImportSpecifier",
-          "start": 837,
-          "end": 853,
           "imported": {
             "type": "Identifier",
+            "name": "default",
             "start": 837,
-            "end": 844,
-            "name": "default"
+            "end": 844
           },
           "local": {
             "type": "Identifier",
+            "name": "named",
             "start": 848,
-            "end": 853,
-            "name": "named"
-          }
+            "end": 853
+          },
+          "start": 837,
+          "end": 853
         }
       ],
       "source": {
         "type": "Literal",
-        "start": 861,
-        "end": 887,
         "value": "./export-star-as-dflt.js",
-        "raw": "'./export-star-as-dflt.js'"
+        "raw": "'./export-star-as-dflt.js'",
+        "start": 861,
+        "end": 887
       },
       "phase": null,
-      "attributes": []
+      "attributes": [],
+      "start": 828,
+      "end": 888
     },
     {
       "type": "ImportDeclaration",
-      "start": 889,
-      "end": 936,
       "specifiers": [
         {
           "type": "ImportNamespaceSpecifier",
-          "start": 896,
-          "end": 903,
           "local": {
             "type": "Identifier",
+            "name": "ns",
             "start": 901,
-            "end": 903,
-            "name": "ns"
-          }
+            "end": 903
+          },
+          "start": 896,
+          "end": 903
         }
       ],
       "source": {
         "type": "Literal",
-        "start": 909,
-        "end": 935,
         "value": "./export-star-as-dflt.js",
-        "raw": "'./export-star-as-dflt.js'"
+        "raw": "'./export-star-as-dflt.js'",
+        "start": 909,
+        "end": 935
       },
       "phase": null,
-      "attributes": []
+      "attributes": [],
+      "start": 889,
+      "end": 936
     },
     {
       "type": "ExpressionStatement",
-      "start": 938,
-      "end": 1017,
       "expression": {
         "type": "CallExpression",
-        "start": 938,
-        "end": 1016,
         "callee": {
           "type": "MemberExpression",
-          "start": 938,
-          "end": 954,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 938,
-            "end": 944,
-            "name": "assert"
+            "end": 944
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 945,
-            "end": 954,
-            "name": "sameValue"
+            "end": 954
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 938,
+          "end": 954
         },
         "arguments": [
           {
             "type": "MemberExpression",
-            "start": 955,
-            "end": 961,
             "object": {
               "type": "Identifier",
+              "name": "Self",
               "start": 955,
-              "end": 959,
-              "name": "Self"
+              "end": 959
             },
             "property": {
               "type": "Identifier",
+              "name": "x",
               "start": 960,
-              "end": 961,
-              "name": "x"
+              "end": 961
             },
             "optional": false,
-            "computed": false
+            "computed": false,
+            "start": 955,
+            "end": 961
           },
           {
             "type": "Literal",
-            "start": 963,
-            "end": 964,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "start": 963,
+            "end": 964
           },
           {
             "type": "Literal",
-            "start": 966,
-            "end": 1015,
             "value": "Module was re-exported under the name `default`",
-            "raw": "'Module was re-exported under the name `default`'"
+            "raw": "'Module was re-exported under the name `default`'",
+            "start": 966,
+            "end": 1015
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 938,
+        "end": 1016
+      },
+      "start": 938,
+      "end": 1017
     },
     {
       "type": "ExpressionStatement",
-      "start": 1018,
-      "end": 1105,
       "expression": {
         "type": "CallExpression",
-        "start": 1018,
-        "end": 1104,
         "callee": {
           "type": "MemberExpression",
-          "start": 1018,
-          "end": 1034,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 1018,
-            "end": 1024,
-            "name": "assert"
+            "end": 1024
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 1025,
-            "end": 1034,
-            "name": "sameValue"
+            "end": 1034
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 1018,
+          "end": 1034
         },
         "arguments": [
           {
             "type": "MemberExpression",
-            "start": 1035,
-            "end": 1042,
             "object": {
               "type": "Identifier",
+              "name": "named",
               "start": 1035,
-              "end": 1040,
-              "name": "named"
+              "end": 1040
             },
             "property": {
               "type": "Identifier",
+              "name": "x",
               "start": 1041,
-              "end": 1042,
-              "name": "x"
+              "end": 1042
             },
             "optional": false,
-            "computed": false
+            "computed": false,
+            "start": 1035,
+            "end": 1042
           },
           {
             "type": "Literal",
-            "start": 1044,
-            "end": 1045,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "start": 1044,
+            "end": 1045
           },
           {
             "type": "Literal",
-            "start": 1047,
-            "end": 1103,
             "value": "named binding was re-exported under the name `default`",
-            "raw": "'named binding was re-exported under the name `default`'"
+            "raw": "'named binding was re-exported under the name `default`'",
+            "start": 1047,
+            "end": 1103
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 1018,
+        "end": 1104
+      },
+      "start": 1018,
+      "end": 1105
     },
     {
       "type": "ExpressionStatement",
-      "start": 1106,
-      "end": 1194,
       "expression": {
         "type": "CallExpression",
-        "start": 1106,
-        "end": 1193,
         "callee": {
           "type": "MemberExpression",
-          "start": 1106,
-          "end": 1122,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 1106,
-            "end": 1112,
-            "name": "assert"
+            "end": 1112
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 1113,
-            "end": 1122,
-            "name": "sameValue"
+            "end": 1122
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 1106,
+          "end": 1122
         },
         "arguments": [
           {
             "type": "MemberExpression",
-            "start": 1123,
-            "end": 1135,
             "object": {
               "type": "MemberExpression",
-              "start": 1123,
-              "end": 1133,
               "object": {
                 "type": "Identifier",
+                "name": "ns",
                 "start": 1123,
-                "end": 1125,
-                "name": "ns"
+                "end": 1125
               },
               "property": {
                 "type": "Identifier",
+                "name": "default",
                 "start": 1126,
-                "end": 1133,
-                "name": "default"
+                "end": 1133
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 1123,
+              "end": 1133
             },
             "property": {
               "type": "Identifier",
+              "name": "x",
               "start": 1134,
-              "end": 1135,
-              "name": "x"
+              "end": 1135
             },
             "optional": false,
-            "computed": false
+            "computed": false,
+            "start": 1123,
+            "end": 1135
           },
           {
             "type": "Literal",
-            "start": 1137,
-            "end": 1138,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "start": 1137,
+            "end": 1138
           },
           {
             "type": "Literal",
-            "start": 1140,
-            "end": 1192,
             "value": "namespace was re-exported under the name `default`",
-            "raw": "'namespace was re-exported under the name `default`'"
+            "raw": "'namespace was re-exported under the name `default`'",
+            "start": 1140,
+            "end": 1192
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 1106,
+        "end": 1193
+      },
+      "start": 1106,
+      "end": 1194
     }
   ],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 1195
 }

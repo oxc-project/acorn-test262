@@ -2,22 +2,18 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 49,
   "body": [
     {
       "type": "ClassDeclaration",
-      "start": 0,
-      "end": 49,
       "decorators": [],
       "id": {
         "type": "Identifier",
-        "start": 6,
-        "end": 7,
         "decorators": [],
         "name": "C",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 6,
+        "end": 7
       },
       "typeParameters": null,
       "superClass": null,
@@ -25,30 +21,26 @@ __ESTREE_TEST__:PASS:
       "implements": [],
       "body": {
         "type": "ClassBody",
-        "start": 8,
-        "end": 49,
         "body": [
           {
             "type": "PropertyDefinition",
-            "start": 14,
-            "end": 28,
             "decorators": [],
             "key": {
               "type": "Literal",
-              "start": 15,
-              "end": 18,
               "value": "a",
-              "raw": "\"a\""
+              "raw": "\"a\"",
+              "start": 15,
+              "end": 18
             },
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
-              "start": 19,
-              "end": 27,
               "typeAnnotation": {
                 "type": "TSStringKeyword",
                 "start": 21,
                 "end": 27
-              }
+              },
+              "start": 19,
+              "end": 27
             },
             "value": null,
             "computed": true,
@@ -58,29 +50,29 @@ __ESTREE_TEST__:PASS:
             "optional": false,
             "definite": false,
             "readonly": false,
-            "accessibility": null
+            "accessibility": null,
+            "start": 14,
+            "end": 28
           },
           {
             "type": "PropertyDefinition",
-            "start": 33,
-            "end": 47,
             "decorators": [],
             "key": {
               "type": "Literal",
-              "start": 34,
-              "end": 37,
               "value": "a",
-              "raw": "\"a\""
+              "raw": "\"a\"",
+              "start": 34,
+              "end": 37
             },
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
-              "start": 38,
-              "end": 46,
               "typeAnnotation": {
                 "type": "TSStringKeyword",
                 "start": 40,
                 "end": 46
-              }
+              },
+              "start": 38,
+              "end": 46
             },
             "value": null,
             "computed": true,
@@ -90,15 +82,23 @@ __ESTREE_TEST__:PASS:
             "optional": false,
             "definite": false,
             "readonly": false,
-            "accessibility": null
+            "accessibility": null,
+            "start": 33,
+            "end": 47
           }
-        ]
+        ],
+        "start": 8,
+        "end": 49
       },
       "abstract": false,
-      "declare": false
+      "declare": false,
+      "start": 0,
+      "end": 49
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 49
 }
 ```

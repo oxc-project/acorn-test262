@@ -1,87 +1,87 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 326,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 265,
-      "end": 325,
       "expression": {
         "type": "CallExpression",
-        "start": 265,
-        "end": 324,
         "callee": {
           "type": "MemberExpression",
-          "start": 265,
-          "end": 281,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 265,
-            "end": 271,
-            "name": "assert"
+            "end": 271
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 272,
-            "end": 281,
-            "name": "sameValue"
+            "end": 281
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 265,
+          "end": 281
         },
         "arguments": [
           {
             "type": "UnaryExpression",
-            "start": 282,
-            "end": 311,
             "operator": "typeof",
             "argument": {
               "type": "MemberExpression",
-              "start": 289,
-              "end": 311,
               "object": {
                 "type": "MemberExpression",
-                "start": 289,
-                "end": 307,
                 "object": {
                   "type": "Identifier",
+                  "name": "Iterator",
                   "start": 289,
-                  "end": 297,
-                  "name": "Iterator"
+                  "end": 297
                 },
                 "property": {
                   "type": "Identifier",
+                  "name": "prototype",
                   "start": 298,
-                  "end": 307,
-                  "name": "prototype"
+                  "end": 307
                 },
                 "optional": false,
-                "computed": false
+                "computed": false,
+                "start": 289,
+                "end": 307
               },
               "property": {
                 "type": "Identifier",
+                "name": "map",
                 "start": 308,
-                "end": 311,
-                "name": "map"
+                "end": 311
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 289,
+              "end": 311
             },
-            "prefix": true
+            "prefix": true,
+            "start": 282,
+            "end": 311
           },
           {
             "type": "Literal",
-            "start": 313,
-            "end": 323,
             "value": "function",
-            "raw": "'function'"
+            "raw": "'function'",
+            "start": 313,
+            "end": 323
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 265,
+        "end": 324
+      },
+      "start": 265,
+      "end": 325
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 326
 }

@@ -1,133 +1,133 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 494,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 373,
-      "end": 395,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 377,
-          "end": 394,
           "id": {
             "type": "Identifier",
+            "name": "s",
             "start": 377,
-            "end": 378,
-            "name": "s"
+            "end": 378
           },
           "init": {
             "type": "NewExpression",
-            "start": 381,
-            "end": 394,
             "callee": {
               "type": "Identifier",
+              "name": "WeakSet",
               "start": 385,
-              "end": 392,
-              "name": "WeakSet"
+              "end": 392
             },
-            "arguments": []
-          }
+            "arguments": [],
+            "start": 381,
+            "end": 394
+          },
+          "start": 377,
+          "end": 394
         }
-      ]
+      ],
+      "start": 373,
+      "end": 395
     },
     {
       "type": "ExpressionStatement",
-      "start": 397,
-      "end": 493,
       "expression": {
         "type": "CallExpression",
-        "start": 397,
-        "end": 492,
         "callee": {
           "type": "MemberExpression",
-          "start": 397,
-          "end": 413,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 397,
-            "end": 403,
-            "name": "assert"
+            "end": 403
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 404,
-            "end": 413,
-            "name": "sameValue"
+            "end": 413
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 397,
+          "end": 413
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 414,
-            "end": 442,
             "callee": {
               "type": "MemberExpression",
-              "start": 414,
-              "end": 419,
               "object": {
                 "type": "Identifier",
+                "name": "s",
                 "start": 414,
-                "end": 415,
-                "name": "s"
+                "end": 415
               },
               "property": {
                 "type": "Identifier",
+                "name": "add",
                 "start": 416,
-                "end": 419,
-                "name": "add"
+                "end": 419
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 414,
+              "end": 419
             },
             "arguments": [
               {
                 "type": "CallExpression",
-                "start": 420,
-                "end": 441,
                 "callee": {
                   "type": "Identifier",
+                  "name": "Symbol",
                   "start": 420,
-                  "end": 426,
-                  "name": "Symbol"
+                  "end": 426
                 },
                 "arguments": [
                   {
                     "type": "Literal",
-                    "start": 427,
-                    "end": 440,
                     "value": "description",
-                    "raw": "'description'"
+                    "raw": "'description'",
+                    "start": 427,
+                    "end": 440
                   }
                 ],
-                "optional": false
+                "optional": false,
+                "start": 420,
+                "end": 441
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 414,
+            "end": 442
           },
           {
             "type": "Identifier",
+            "name": "s",
             "start": 444,
-            "end": 445,
-            "name": "s"
+            "end": 445
           },
           {
             "type": "Literal",
-            "start": 447,
-            "end": 491,
             "value": "`s.add(Symbol(\"description\"))` returns `s`",
-            "raw": "'`s.add(Symbol(\"description\"))` returns `s`'"
+            "raw": "'`s.add(Symbol(\"description\"))` returns `s`'",
+            "start": 447,
+            "end": 491
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 397,
+        "end": 492
+      },
+      "start": 397,
+      "end": 493
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 494
 }

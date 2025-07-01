@@ -2,135 +2,135 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 53,
   "body": [
     {
       "type": "ClassDeclaration",
-      "start": 0,
-      "end": 24,
       "decorators": [],
       "id": {
         "type": "Identifier",
-        "start": 6,
-        "end": 7,
         "decorators": [],
         "name": "C",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 6,
+        "end": 7
       },
       "typeParameters": {
         "type": "TSTypeParameterDeclaration",
-        "start": 7,
-        "end": 10,
         "params": [
           {
             "type": "TSTypeParameter",
-            "start": 8,
-            "end": 9,
             "name": {
               "type": "Identifier",
-              "start": 8,
-              "end": 9,
               "decorators": [],
               "name": "T",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 8,
+              "end": 9
             },
             "constraint": null,
             "default": null,
             "in": false,
             "out": false,
-            "const": false
+            "const": false,
+            "start": 8,
+            "end": 9
           }
-        ]
+        ],
+        "start": 7,
+        "end": 10
       },
       "superClass": {
         "type": "Identifier",
-        "start": 19,
-        "end": 20,
         "decorators": [],
         "name": "T",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 19,
+        "end": 20
       },
       "superTypeArguments": null,
       "implements": [],
       "body": {
         "type": "ClassBody",
+        "body": [],
         "start": 21,
-        "end": 24,
-        "body": []
+        "end": 24
       },
       "abstract": false,
-      "declare": false
+      "declare": false,
+      "start": 0,
+      "end": 24
     },
     {
       "type": "TSInterfaceDeclaration",
-      "start": 25,
-      "end": 53,
       "id": {
         "type": "Identifier",
-        "start": 35,
-        "end": 36,
         "decorators": [],
         "name": "I",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 35,
+        "end": 36
       },
       "typeParameters": {
         "type": "TSTypeParameterDeclaration",
-        "start": 36,
-        "end": 39,
         "params": [
           {
             "type": "TSTypeParameter",
-            "start": 37,
-            "end": 38,
             "name": {
               "type": "Identifier",
-              "start": 37,
-              "end": 38,
               "decorators": [],
               "name": "T",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 37,
+              "end": 38
             },
             "constraint": null,
             "default": null,
             "in": false,
             "out": false,
-            "const": false
+            "const": false,
+            "start": 37,
+            "end": 38
           }
-        ]
+        ],
+        "start": 36,
+        "end": 39
       },
       "extends": [
         {
           "type": "TSInterfaceHeritage",
-          "start": 48,
-          "end": 49,
           "expression": {
             "type": "Identifier",
-            "start": 48,
-            "end": 49,
             "decorators": [],
             "name": "T",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 48,
+            "end": 49
           },
-          "typeArguments": null
+          "typeArguments": null,
+          "start": 48,
+          "end": 49
         }
       ],
       "body": {
         "type": "TSInterfaceBody",
+        "body": [],
         "start": 50,
-        "end": 53,
-        "body": []
+        "end": 53
       },
-      "declare": false
+      "declare": false,
+      "start": 25,
+      "end": 53
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 53
 }
 ```

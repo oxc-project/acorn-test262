@@ -1,467 +1,467 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 2806,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 2174,
-      "end": 2252,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 2178,
-          "end": 2251,
           "id": {
             "type": "Identifier",
+            "name": "str",
             "start": 2178,
-            "end": 2181,
-            "name": "str"
+            "end": 2181
           },
           "init": {
             "type": "Literal",
-            "start": 2184,
-            "end": 2251,
             "value": "Ninguém é igual a ninguém. Todo o ser humano é um estranho ímpar.",
-            "raw": "'Ninguém é igual a ninguém. Todo o ser humano é um estranho ímpar.'"
-          }
+            "raw": "'Ninguém é igual a ninguém. Todo o ser humano é um estranho ímpar.'",
+            "start": 2184,
+            "end": 2251
+          },
+          "start": 2178,
+          "end": 2251
         }
-      ]
+      ],
+      "start": 2174,
+      "end": 2252
     },
     {
       "type": "VariableDeclaration",
-      "start": 2254,
-      "end": 2265,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 2258,
-          "end": 2264,
           "id": {
             "type": "Identifier",
+            "name": "result",
             "start": 2258,
-            "end": 2264,
-            "name": "result"
+            "end": 2264
           },
-          "init": null
+          "init": null,
+          "start": 2258,
+          "end": 2264
         }
-      ]
+      ],
+      "start": 2254,
+      "end": 2265
     },
     {
       "type": "ExpressionStatement",
-      "start": 2267,
-      "end": 2307,
       "expression": {
         "type": "AssignmentExpression",
-        "start": 2267,
-        "end": 2306,
         "operator": "=",
         "left": {
           "type": "Identifier",
+          "name": "result",
           "start": 2267,
-          "end": 2273,
-          "name": "result"
+          "end": 2273
         },
         "right": {
           "type": "CallExpression",
-          "start": 2276,
-          "end": 2306,
           "callee": {
             "type": "MemberExpression",
-            "start": 2276,
-            "end": 2290,
             "object": {
               "type": "Identifier",
+              "name": "str",
               "start": 2276,
-              "end": 2279,
-              "name": "str"
+              "end": 2279
             },
             "property": {
               "type": "Identifier",
+              "name": "replaceAll",
               "start": 2280,
-              "end": 2290,
-              "name": "replaceAll"
+              "end": 2290
             },
             "optional": false,
-            "computed": false
+            "computed": false,
+            "start": 2276,
+            "end": 2290
           },
           "arguments": [
             {
               "type": "Literal",
-              "start": 2291,
-              "end": 2300,
               "value": "ninguém",
-              "raw": "'ninguém'"
+              "raw": "'ninguém'",
+              "start": 2291,
+              "end": 2300
             },
             {
               "type": "Literal",
+              "value": "$",
+              "raw": "'$'",
               "start": 2302,
-              "end": 2305,
-              "value": "$",
-              "raw": "'$'"
+              "end": 2305
             }
           ],
-          "optional": false
-        }
-      }
+          "optional": false,
+          "start": 2276,
+          "end": 2306
+        },
+        "start": 2267,
+        "end": 2306
+      },
+      "start": 2267,
+      "end": 2307
     },
     {
       "type": "ExpressionStatement",
-      "start": 2308,
-      "end": 2396,
       "expression": {
         "type": "CallExpression",
-        "start": 2308,
-        "end": 2395,
         "callee": {
           "type": "MemberExpression",
-          "start": 2308,
-          "end": 2324,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 2308,
-            "end": 2314,
-            "name": "assert"
+            "end": 2314
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 2315,
-            "end": 2324,
-            "name": "sameValue"
+            "end": 2324
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 2308,
+          "end": 2324
         },
         "arguments": [
           {
             "type": "Identifier",
+            "name": "result",
             "start": 2325,
-            "end": 2331,
-            "name": "result"
+            "end": 2331
           },
           {
             "type": "Literal",
-            "start": 2333,
-            "end": 2394,
             "value": "Ninguém é igual a $. Todo o ser humano é um estranho ímpar.",
-            "raw": "'Ninguém é igual a $. Todo o ser humano é um estranho ímpar.'"
+            "raw": "'Ninguém é igual a $. Todo o ser humano é um estranho ímpar.'",
+            "start": 2333,
+            "end": 2394
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 2308,
+        "end": 2395
+      },
+      "start": 2308,
+      "end": 2396
     },
     {
       "type": "ExpressionStatement",
-      "start": 2398,
-      "end": 2432,
       "expression": {
         "type": "AssignmentExpression",
-        "start": 2398,
-        "end": 2431,
         "operator": "=",
         "left": {
           "type": "Identifier",
+          "name": "result",
           "start": 2398,
-          "end": 2404,
-          "name": "result"
+          "end": 2404
         },
         "right": {
           "type": "CallExpression",
-          "start": 2407,
-          "end": 2431,
           "callee": {
             "type": "MemberExpression",
-            "start": 2407,
-            "end": 2421,
             "object": {
               "type": "Identifier",
+              "name": "str",
               "start": 2407,
-              "end": 2410,
-              "name": "str"
+              "end": 2410
             },
             "property": {
               "type": "Identifier",
+              "name": "replaceAll",
               "start": 2411,
-              "end": 2421,
-              "name": "replaceAll"
+              "end": 2421
             },
             "optional": false,
-            "computed": false
+            "computed": false,
+            "start": 2407,
+            "end": 2421
           },
           "arguments": [
             {
               "type": "Literal",
+              "value": "é",
+              "raw": "'é'",
               "start": 2422,
-              "end": 2425,
-              "value": "é",
-              "raw": "'é'"
+              "end": 2425
             },
             {
               "type": "Literal",
-              "start": 2427,
-              "end": 2430,
               "value": "$",
-              "raw": "'$'"
+              "raw": "'$'",
+              "start": 2427,
+              "end": 2430
             }
           ],
-          "optional": false
-        }
-      }
+          "optional": false,
+          "start": 2407,
+          "end": 2431
+        },
+        "start": 2398,
+        "end": 2431
+      },
+      "start": 2398,
+      "end": 2432
     },
     {
       "type": "ExpressionStatement",
-      "start": 2433,
-      "end": 2527,
       "expression": {
         "type": "CallExpression",
-        "start": 2433,
-        "end": 2526,
         "callee": {
           "type": "MemberExpression",
-          "start": 2433,
-          "end": 2449,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 2433,
-            "end": 2439,
-            "name": "assert"
+            "end": 2439
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 2440,
-            "end": 2449,
-            "name": "sameValue"
+            "end": 2449
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 2433,
+          "end": 2449
         },
         "arguments": [
           {
             "type": "Identifier",
+            "name": "result",
             "start": 2450,
-            "end": 2456,
-            "name": "result"
+            "end": 2456
           },
           {
             "type": "Literal",
-            "start": 2458,
-            "end": 2525,
             "value": "Ningu$m $ igual a ningu$m. Todo o ser humano $ um estranho ímpar.",
-            "raw": "'Ningu$m $ igual a ningu$m. Todo o ser humano $ um estranho ímpar.'"
+            "raw": "'Ningu$m $ igual a ningu$m. Todo o ser humano $ um estranho ímpar.'",
+            "start": 2458,
+            "end": 2525
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 2433,
+        "end": 2526
+      },
+      "start": 2433,
+      "end": 2527
     },
     {
       "type": "ExpressionStatement",
-      "start": 2529,
-      "end": 2565,
       "expression": {
         "type": "AssignmentExpression",
-        "start": 2529,
-        "end": 2564,
         "operator": "=",
         "left": {
           "type": "Identifier",
+          "name": "result",
           "start": 2529,
-          "end": 2535,
-          "name": "result"
+          "end": 2535
         },
         "right": {
           "type": "CallExpression",
-          "start": 2538,
-          "end": 2564,
           "callee": {
             "type": "MemberExpression",
-            "start": 2538,
-            "end": 2552,
             "object": {
               "type": "Identifier",
+              "name": "str",
               "start": 2538,
-              "end": 2541,
-              "name": "str"
+              "end": 2541
             },
             "property": {
               "type": "Identifier",
+              "name": "replaceAll",
               "start": 2542,
-              "end": 2552,
-              "name": "replaceAll"
+              "end": 2552
             },
             "optional": false,
-            "computed": false
+            "computed": false,
+            "start": 2538,
+            "end": 2552
           },
           "arguments": [
             {
               "type": "Literal",
-              "start": 2553,
-              "end": 2556,
               "value": "é",
-              "raw": "'é'"
+              "raw": "'é'",
+              "start": 2553,
+              "end": 2556
             },
             {
               "type": "Literal",
-              "start": 2558,
-              "end": 2563,
               "value": "$ -",
-              "raw": "'$ -'"
+              "raw": "'$ -'",
+              "start": 2558,
+              "end": 2563
             }
           ],
-          "optional": false
-        }
-      }
+          "optional": false,
+          "start": 2538,
+          "end": 2564
+        },
+        "start": 2529,
+        "end": 2564
+      },
+      "start": 2529,
+      "end": 2565
     },
     {
       "type": "ExpressionStatement",
-      "start": 2566,
-      "end": 2668,
       "expression": {
         "type": "CallExpression",
-        "start": 2566,
-        "end": 2667,
         "callee": {
           "type": "MemberExpression",
-          "start": 2566,
-          "end": 2582,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 2566,
-            "end": 2572,
-            "name": "assert"
+            "end": 2572
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 2573,
-            "end": 2582,
-            "name": "sameValue"
+            "end": 2582
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 2566,
+          "end": 2582
         },
         "arguments": [
           {
             "type": "Identifier",
+            "name": "result",
             "start": 2583,
-            "end": 2589,
-            "name": "result"
+            "end": 2589
           },
           {
             "type": "Literal",
-            "start": 2591,
-            "end": 2666,
             "value": "Ningu$ -m $ - igual a ningu$ -m. Todo o ser humano $ - um estranho ímpar.",
-            "raw": "'Ningu$ -m $ - igual a ningu$ -m. Todo o ser humano $ - um estranho ímpar.'"
+            "raw": "'Ningu$ -m $ - igual a ningu$ -m. Todo o ser humano $ - um estranho ímpar.'",
+            "start": 2591,
+            "end": 2666
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 2566,
+        "end": 2667
+      },
+      "start": 2566,
+      "end": 2668
     },
     {
       "type": "ExpressionStatement",
-      "start": 2670,
-      "end": 2706,
       "expression": {
         "type": "AssignmentExpression",
-        "start": 2670,
-        "end": 2705,
         "operator": "=",
         "left": {
           "type": "Identifier",
+          "name": "result",
           "start": 2670,
-          "end": 2676,
-          "name": "result"
+          "end": 2676
         },
         "right": {
           "type": "CallExpression",
-          "start": 2679,
-          "end": 2705,
           "callee": {
             "type": "MemberExpression",
-            "start": 2679,
-            "end": 2693,
             "object": {
               "type": "Identifier",
+              "name": "str",
               "start": 2679,
-              "end": 2682,
-              "name": "str"
+              "end": 2682
             },
             "property": {
               "type": "Identifier",
+              "name": "replaceAll",
               "start": 2683,
-              "end": 2693,
-              "name": "replaceAll"
+              "end": 2693
             },
             "optional": false,
-            "computed": false
+            "computed": false,
+            "start": 2679,
+            "end": 2693
           },
           "arguments": [
             {
               "type": "Literal",
-              "start": 2694,
-              "end": 2697,
               "value": "é",
-              "raw": "'é'"
+              "raw": "'é'",
+              "start": 2694,
+              "end": 2697
             },
             {
               "type": "Literal",
-              "start": 2699,
-              "end": 2704,
               "value": "$$$",
-              "raw": "'$$$'"
+              "raw": "'$$$'",
+              "start": 2699,
+              "end": 2704
             }
           ],
-          "optional": false
-        }
-      }
+          "optional": false,
+          "start": 2679,
+          "end": 2705
+        },
+        "start": 2670,
+        "end": 2705
+      },
+      "start": 2670,
+      "end": 2706
     },
     {
       "type": "ExpressionStatement",
-      "start": 2707,
-      "end": 2805,
       "expression": {
         "type": "CallExpression",
-        "start": 2707,
-        "end": 2804,
         "callee": {
           "type": "MemberExpression",
-          "start": 2707,
-          "end": 2723,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 2707,
-            "end": 2713,
-            "name": "assert"
+            "end": 2713
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 2714,
-            "end": 2723,
-            "name": "sameValue"
+            "end": 2723
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 2707,
+          "end": 2723
         },
         "arguments": [
           {
             "type": "Identifier",
+            "name": "result",
             "start": 2724,
-            "end": 2730,
-            "name": "result"
+            "end": 2730
           },
           {
             "type": "Literal",
-            "start": 2732,
-            "end": 2803,
             "value": "Ningu$$m $$ igual a ningu$$m. Todo o ser humano $$ um estranho ímpar.",
-            "raw": "'Ningu$$m $$ igual a ningu$$m. Todo o ser humano $$ um estranho ímpar.'"
+            "raw": "'Ningu$$m $$ igual a ningu$$m. Todo o ser humano $$ um estranho ímpar.'",
+            "start": 2732,
+            "end": 2803
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 2707,
+        "end": 2804
+      },
+      "start": 2707,
+      "end": 2805
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 2806
 }

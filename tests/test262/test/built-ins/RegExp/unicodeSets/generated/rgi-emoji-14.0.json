@@ -1,889 +1,889 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 3657,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 485,
-      "end": 3656,
       "expression": {
         "type": "CallExpression",
-        "start": 485,
-        "end": 3655,
         "callee": {
           "type": "Identifier",
+          "name": "testPropertyOfStrings",
           "start": 485,
-          "end": 506,
-          "name": "testPropertyOfStrings"
+          "end": 506
         },
         "arguments": [
           {
             "type": "ObjectExpression",
-            "start": 507,
-            "end": 3654,
             "properties": [
               {
                 "type": "Property",
-                "start": 511,
-                "end": 538,
                 "kind": "init",
                 "key": {
                   "type": "Identifier",
+                  "name": "regExp",
                   "start": 511,
-                  "end": 517,
-                  "name": "regExp"
+                  "end": 517
                 },
                 "value": {
                   "type": "Literal",
-                  "start": 519,
-                  "end": 538,
                   "value": null,
                   "raw": "/^\\p{RGI_Emoji}+$/v",
                   "regex": {
                     "pattern": "^\\p{RGI_Emoji}+$",
                     "flags": "v"
-                  }
+                  },
+                  "start": 519,
+                  "end": 538
                 },
                 "method": false,
                 "shorthand": false,
-                "computed": false
+                "computed": false,
+                "start": 511,
+                "end": 538
               },
               {
                 "type": "Property",
-                "start": 542,
-                "end": 570,
                 "kind": "init",
                 "key": {
                   "type": "Identifier",
+                  "name": "expression",
                   "start": 542,
-                  "end": 552,
-                  "name": "expression"
+                  "end": 552
                 },
                 "value": {
                   "type": "Literal",
-                  "start": 554,
-                  "end": 570,
                   "value": "\\p{RGI_Emoji}",
-                  "raw": "\"\\\\p{RGI_Emoji}\""
+                  "raw": "\"\\\\p{RGI_Emoji}\"",
+                  "start": 554,
+                  "end": 570
                 },
                 "method": false,
                 "shorthand": false,
-                "computed": false
+                "computed": false,
+                "start": 542,
+                "end": 570
               },
               {
                 "type": "Property",
-                "start": 574,
-                "end": 3651,
                 "kind": "init",
                 "key": {
                   "type": "Identifier",
+                  "name": "matchStrings",
                   "start": 574,
-                  "end": 586,
-                  "name": "matchStrings"
+                  "end": 586
                 },
                 "value": {
                   "type": "ArrayExpression",
-                  "start": 588,
-                  "end": 3651,
                   "elements": [
                     {
                       "type": "Literal",
-                      "start": 594,
-                      "end": 605,
                       "value": "🛝",
-                      "raw": "\"\\u{1F6DD}\""
+                      "raw": "\"\\u{1F6DD}\"",
+                      "start": 594,
+                      "end": 605
                     },
                     {
                       "type": "Literal",
-                      "start": 611,
-                      "end": 622,
                       "value": "🛞",
-                      "raw": "\"\\u{1F6DE}\""
+                      "raw": "\"\\u{1F6DE}\"",
+                      "start": 611,
+                      "end": 622
                     },
                     {
                       "type": "Literal",
-                      "start": 628,
-                      "end": 639,
                       "value": "🛟",
-                      "raw": "\"\\u{1F6DF}\""
+                      "raw": "\"\\u{1F6DF}\"",
+                      "start": 628,
+                      "end": 639
                     },
                     {
                       "type": "Literal",
-                      "start": 645,
-                      "end": 656,
                       "value": "🟰",
-                      "raw": "\"\\u{1F7F0}\""
+                      "raw": "\"\\u{1F7F0}\"",
+                      "start": 645,
+                      "end": 656
                     },
                     {
                       "type": "Literal",
-                      "start": 662,
-                      "end": 682,
                       "value": "🤝🏻",
-                      "raw": "\"\\u{1F91D}\\u{1F3FB}\""
+                      "raw": "\"\\u{1F91D}\\u{1F3FB}\"",
+                      "start": 662,
+                      "end": 682
                     },
                     {
                       "type": "Literal",
-                      "start": 688,
-                      "end": 708,
                       "value": "🤝🏼",
-                      "raw": "\"\\u{1F91D}\\u{1F3FC}\""
+                      "raw": "\"\\u{1F91D}\\u{1F3FC}\"",
+                      "start": 688,
+                      "end": 708
                     },
                     {
                       "type": "Literal",
-                      "start": 714,
-                      "end": 734,
                       "value": "🤝🏽",
-                      "raw": "\"\\u{1F91D}\\u{1F3FD}\""
+                      "raw": "\"\\u{1F91D}\\u{1F3FD}\"",
+                      "start": 714,
+                      "end": 734
                     },
                     {
                       "type": "Literal",
-                      "start": 740,
-                      "end": 760,
                       "value": "🤝🏾",
-                      "raw": "\"\\u{1F91D}\\u{1F3FE}\""
+                      "raw": "\"\\u{1F91D}\\u{1F3FE}\"",
+                      "start": 740,
+                      "end": 760
                     },
                     {
                       "type": "Literal",
-                      "start": 766,
-                      "end": 786,
                       "value": "🤝🏿",
-                      "raw": "\"\\u{1F91D}\\u{1F3FF}\""
+                      "raw": "\"\\u{1F91D}\\u{1F3FF}\"",
+                      "start": 766,
+                      "end": 786
                     },
                     {
                       "type": "Literal",
-                      "start": 792,
-                      "end": 803,
                       "value": "🥹",
-                      "raw": "\"\\u{1F979}\""
+                      "raw": "\"\\u{1F979}\"",
+                      "start": 792,
+                      "end": 803
                     },
                     {
                       "type": "Literal",
-                      "start": 809,
-                      "end": 820,
                       "value": "🧌",
-                      "raw": "\"\\u{1F9CC}\""
+                      "raw": "\"\\u{1F9CC}\"",
+                      "start": 809,
+                      "end": 820
                     },
                     {
                       "type": "Literal",
-                      "start": 826,
-                      "end": 837,
                       "value": "🩻",
-                      "raw": "\"\\u{1FA7B}\""
+                      "raw": "\"\\u{1FA7B}\"",
+                      "start": 826,
+                      "end": 837
                     },
                     {
                       "type": "Literal",
-                      "start": 843,
-                      "end": 854,
                       "value": "🩼",
-                      "raw": "\"\\u{1FA7C}\""
+                      "raw": "\"\\u{1FA7C}\"",
+                      "start": 843,
+                      "end": 854
                     },
                     {
                       "type": "Literal",
-                      "start": 860,
-                      "end": 871,
                       "value": "🪩",
-                      "raw": "\"\\u{1FAA9}\""
+                      "raw": "\"\\u{1FAA9}\"",
+                      "start": 860,
+                      "end": 871
                     },
                     {
                       "type": "Literal",
-                      "start": 877,
-                      "end": 888,
                       "value": "🪪",
-                      "raw": "\"\\u{1FAAA}\""
+                      "raw": "\"\\u{1FAAA}\"",
+                      "start": 877,
+                      "end": 888
                     },
                     {
                       "type": "Literal",
-                      "start": 894,
-                      "end": 905,
                       "value": "🪫",
-                      "raw": "\"\\u{1FAAB}\""
+                      "raw": "\"\\u{1FAAB}\"",
+                      "start": 894,
+                      "end": 905
                     },
                     {
                       "type": "Literal",
-                      "start": 911,
-                      "end": 922,
                       "value": "🪬",
-                      "raw": "\"\\u{1FAAC}\""
+                      "raw": "\"\\u{1FAAC}\"",
+                      "start": 911,
+                      "end": 922
                     },
                     {
                       "type": "Literal",
-                      "start": 928,
-                      "end": 939,
                       "value": "🪷",
-                      "raw": "\"\\u{1FAB7}\""
+                      "raw": "\"\\u{1FAB7}\"",
+                      "start": 928,
+                      "end": 939
                     },
                     {
                       "type": "Literal",
-                      "start": 945,
-                      "end": 956,
                       "value": "🪸",
-                      "raw": "\"\\u{1FAB8}\""
+                      "raw": "\"\\u{1FAB8}\"",
+                      "start": 945,
+                      "end": 956
                     },
                     {
                       "type": "Literal",
-                      "start": 962,
-                      "end": 973,
                       "value": "🪹",
-                      "raw": "\"\\u{1FAB9}\""
+                      "raw": "\"\\u{1FAB9}\"",
+                      "start": 962,
+                      "end": 973
                     },
                     {
                       "type": "Literal",
-                      "start": 979,
-                      "end": 990,
                       "value": "🪺",
-                      "raw": "\"\\u{1FABA}\""
+                      "raw": "\"\\u{1FABA}\"",
+                      "start": 979,
+                      "end": 990
                     },
                     {
                       "type": "Literal",
-                      "start": 996,
-                      "end": 1007,
                       "value": "🫃",
-                      "raw": "\"\\u{1FAC3}\""
+                      "raw": "\"\\u{1FAC3}\"",
+                      "start": 996,
+                      "end": 1007
                     },
                     {
                       "type": "Literal",
-                      "start": 1013,
-                      "end": 1033,
                       "value": "🫃🏻",
-                      "raw": "\"\\u{1FAC3}\\u{1F3FB}\""
+                      "raw": "\"\\u{1FAC3}\\u{1F3FB}\"",
+                      "start": 1013,
+                      "end": 1033
                     },
                     {
                       "type": "Literal",
-                      "start": 1039,
-                      "end": 1059,
                       "value": "🫃🏼",
-                      "raw": "\"\\u{1FAC3}\\u{1F3FC}\""
+                      "raw": "\"\\u{1FAC3}\\u{1F3FC}\"",
+                      "start": 1039,
+                      "end": 1059
                     },
                     {
                       "type": "Literal",
-                      "start": 1065,
-                      "end": 1085,
                       "value": "🫃🏽",
-                      "raw": "\"\\u{1FAC3}\\u{1F3FD}\""
+                      "raw": "\"\\u{1FAC3}\\u{1F3FD}\"",
+                      "start": 1065,
+                      "end": 1085
                     },
                     {
                       "type": "Literal",
-                      "start": 1091,
-                      "end": 1111,
                       "value": "🫃🏾",
-                      "raw": "\"\\u{1FAC3}\\u{1F3FE}\""
+                      "raw": "\"\\u{1FAC3}\\u{1F3FE}\"",
+                      "start": 1091,
+                      "end": 1111
                     },
                     {
                       "type": "Literal",
-                      "start": 1117,
-                      "end": 1137,
                       "value": "🫃🏿",
-                      "raw": "\"\\u{1FAC3}\\u{1F3FF}\""
+                      "raw": "\"\\u{1FAC3}\\u{1F3FF}\"",
+                      "start": 1117,
+                      "end": 1137
                     },
                     {
                       "type": "Literal",
-                      "start": 1143,
-                      "end": 1154,
                       "value": "🫄",
-                      "raw": "\"\\u{1FAC4}\""
+                      "raw": "\"\\u{1FAC4}\"",
+                      "start": 1143,
+                      "end": 1154
                     },
                     {
                       "type": "Literal",
-                      "start": 1160,
-                      "end": 1180,
                       "value": "🫄🏻",
-                      "raw": "\"\\u{1FAC4}\\u{1F3FB}\""
+                      "raw": "\"\\u{1FAC4}\\u{1F3FB}\"",
+                      "start": 1160,
+                      "end": 1180
                     },
                     {
                       "type": "Literal",
-                      "start": 1186,
-                      "end": 1206,
                       "value": "🫄🏼",
-                      "raw": "\"\\u{1FAC4}\\u{1F3FC}\""
+                      "raw": "\"\\u{1FAC4}\\u{1F3FC}\"",
+                      "start": 1186,
+                      "end": 1206
                     },
                     {
                       "type": "Literal",
-                      "start": 1212,
-                      "end": 1232,
                       "value": "🫄🏽",
-                      "raw": "\"\\u{1FAC4}\\u{1F3FD}\""
+                      "raw": "\"\\u{1FAC4}\\u{1F3FD}\"",
+                      "start": 1212,
+                      "end": 1232
                     },
                     {
                       "type": "Literal",
-                      "start": 1238,
-                      "end": 1258,
                       "value": "🫄🏾",
-                      "raw": "\"\\u{1FAC4}\\u{1F3FE}\""
+                      "raw": "\"\\u{1FAC4}\\u{1F3FE}\"",
+                      "start": 1238,
+                      "end": 1258
                     },
                     {
                       "type": "Literal",
-                      "start": 1264,
-                      "end": 1284,
                       "value": "🫄🏿",
-                      "raw": "\"\\u{1FAC4}\\u{1F3FF}\""
+                      "raw": "\"\\u{1FAC4}\\u{1F3FF}\"",
+                      "start": 1264,
+                      "end": 1284
                     },
                     {
                       "type": "Literal",
-                      "start": 1290,
-                      "end": 1301,
                       "value": "🫅",
-                      "raw": "\"\\u{1FAC5}\""
+                      "raw": "\"\\u{1FAC5}\"",
+                      "start": 1290,
+                      "end": 1301
                     },
                     {
                       "type": "Literal",
-                      "start": 1307,
-                      "end": 1327,
                       "value": "🫅🏻",
-                      "raw": "\"\\u{1FAC5}\\u{1F3FB}\""
+                      "raw": "\"\\u{1FAC5}\\u{1F3FB}\"",
+                      "start": 1307,
+                      "end": 1327
                     },
                     {
                       "type": "Literal",
-                      "start": 1333,
-                      "end": 1353,
                       "value": "🫅🏼",
-                      "raw": "\"\\u{1FAC5}\\u{1F3FC}\""
+                      "raw": "\"\\u{1FAC5}\\u{1F3FC}\"",
+                      "start": 1333,
+                      "end": 1353
                     },
                     {
                       "type": "Literal",
-                      "start": 1359,
-                      "end": 1379,
                       "value": "🫅🏽",
-                      "raw": "\"\\u{1FAC5}\\u{1F3FD}\""
+                      "raw": "\"\\u{1FAC5}\\u{1F3FD}\"",
+                      "start": 1359,
+                      "end": 1379
                     },
                     {
                       "type": "Literal",
-                      "start": 1385,
-                      "end": 1405,
                       "value": "🫅🏾",
-                      "raw": "\"\\u{1FAC5}\\u{1F3FE}\""
+                      "raw": "\"\\u{1FAC5}\\u{1F3FE}\"",
+                      "start": 1385,
+                      "end": 1405
                     },
                     {
                       "type": "Literal",
-                      "start": 1411,
-                      "end": 1431,
                       "value": "🫅🏿",
-                      "raw": "\"\\u{1FAC5}\\u{1F3FF}\""
+                      "raw": "\"\\u{1FAC5}\\u{1F3FF}\"",
+                      "start": 1411,
+                      "end": 1431
                     },
                     {
                       "type": "Literal",
-                      "start": 1437,
-                      "end": 1448,
                       "value": "🫗",
-                      "raw": "\"\\u{1FAD7}\""
+                      "raw": "\"\\u{1FAD7}\"",
+                      "start": 1437,
+                      "end": 1448
                     },
                     {
                       "type": "Literal",
-                      "start": 1454,
-                      "end": 1465,
                       "value": "🫘",
-                      "raw": "\"\\u{1FAD8}\""
+                      "raw": "\"\\u{1FAD8}\"",
+                      "start": 1454,
+                      "end": 1465
                     },
                     {
                       "type": "Literal",
-                      "start": 1471,
-                      "end": 1482,
                       "value": "🫙",
-                      "raw": "\"\\u{1FAD9}\""
+                      "raw": "\"\\u{1FAD9}\"",
+                      "start": 1471,
+                      "end": 1482
                     },
                     {
                       "type": "Literal",
-                      "start": 1488,
-                      "end": 1499,
                       "value": "🫠",
-                      "raw": "\"\\u{1FAE0}\""
+                      "raw": "\"\\u{1FAE0}\"",
+                      "start": 1488,
+                      "end": 1499
                     },
                     {
                       "type": "Literal",
-                      "start": 1505,
-                      "end": 1516,
                       "value": "🫡",
-                      "raw": "\"\\u{1FAE1}\""
+                      "raw": "\"\\u{1FAE1}\"",
+                      "start": 1505,
+                      "end": 1516
                     },
                     {
                       "type": "Literal",
-                      "start": 1522,
-                      "end": 1533,
                       "value": "🫢",
-                      "raw": "\"\\u{1FAE2}\""
+                      "raw": "\"\\u{1FAE2}\"",
+                      "start": 1522,
+                      "end": 1533
                     },
                     {
                       "type": "Literal",
-                      "start": 1539,
-                      "end": 1550,
                       "value": "🫣",
-                      "raw": "\"\\u{1FAE3}\""
+                      "raw": "\"\\u{1FAE3}\"",
+                      "start": 1539,
+                      "end": 1550
                     },
                     {
                       "type": "Literal",
-                      "start": 1556,
-                      "end": 1567,
                       "value": "🫤",
-                      "raw": "\"\\u{1FAE4}\""
+                      "raw": "\"\\u{1FAE4}\"",
+                      "start": 1556,
+                      "end": 1567
                     },
                     {
                       "type": "Literal",
-                      "start": 1573,
-                      "end": 1584,
                       "value": "🫥",
-                      "raw": "\"\\u{1FAE5}\""
+                      "raw": "\"\\u{1FAE5}\"",
+                      "start": 1573,
+                      "end": 1584
                     },
                     {
                       "type": "Literal",
-                      "start": 1590,
-                      "end": 1601,
                       "value": "🫦",
-                      "raw": "\"\\u{1FAE6}\""
+                      "raw": "\"\\u{1FAE6}\"",
+                      "start": 1590,
+                      "end": 1601
                     },
                     {
                       "type": "Literal",
-                      "start": 1607,
-                      "end": 1618,
                       "value": "🫧",
-                      "raw": "\"\\u{1FAE7}\""
+                      "raw": "\"\\u{1FAE7}\"",
+                      "start": 1607,
+                      "end": 1618
                     },
                     {
                       "type": "Literal",
-                      "start": 1624,
-                      "end": 1635,
                       "value": "🫰",
-                      "raw": "\"\\u{1FAF0}\""
+                      "raw": "\"\\u{1FAF0}\"",
+                      "start": 1624,
+                      "end": 1635
                     },
                     {
                       "type": "Literal",
-                      "start": 1641,
-                      "end": 1661,
                       "value": "🫰🏻",
-                      "raw": "\"\\u{1FAF0}\\u{1F3FB}\""
+                      "raw": "\"\\u{1FAF0}\\u{1F3FB}\"",
+                      "start": 1641,
+                      "end": 1661
                     },
                     {
                       "type": "Literal",
-                      "start": 1667,
-                      "end": 1687,
                       "value": "🫰🏼",
-                      "raw": "\"\\u{1FAF0}\\u{1F3FC}\""
+                      "raw": "\"\\u{1FAF0}\\u{1F3FC}\"",
+                      "start": 1667,
+                      "end": 1687
                     },
                     {
                       "type": "Literal",
-                      "start": 1693,
-                      "end": 1713,
                       "value": "🫰🏽",
-                      "raw": "\"\\u{1FAF0}\\u{1F3FD}\""
+                      "raw": "\"\\u{1FAF0}\\u{1F3FD}\"",
+                      "start": 1693,
+                      "end": 1713
                     },
                     {
                       "type": "Literal",
-                      "start": 1719,
-                      "end": 1739,
                       "value": "🫰🏾",
-                      "raw": "\"\\u{1FAF0}\\u{1F3FE}\""
+                      "raw": "\"\\u{1FAF0}\\u{1F3FE}\"",
+                      "start": 1719,
+                      "end": 1739
                     },
                     {
                       "type": "Literal",
-                      "start": 1745,
-                      "end": 1765,
                       "value": "🫰🏿",
-                      "raw": "\"\\u{1FAF0}\\u{1F3FF}\""
+                      "raw": "\"\\u{1FAF0}\\u{1F3FF}\"",
+                      "start": 1745,
+                      "end": 1765
                     },
                     {
                       "type": "Literal",
-                      "start": 1771,
-                      "end": 1782,
                       "value": "🫱",
-                      "raw": "\"\\u{1FAF1}\""
+                      "raw": "\"\\u{1FAF1}\"",
+                      "start": 1771,
+                      "end": 1782
                     },
                     {
                       "type": "Literal",
-                      "start": 1788,
-                      "end": 1808,
                       "value": "🫱🏻",
-                      "raw": "\"\\u{1FAF1}\\u{1F3FB}\""
+                      "raw": "\"\\u{1FAF1}\\u{1F3FB}\"",
+                      "start": 1788,
+                      "end": 1808
                     },
                     {
                       "type": "Literal",
-                      "start": 1814,
-                      "end": 1858,
                       "value": "🫱🏻‍🫲🏼",
-                      "raw": "\"\\u{1FAF1}\\u{1F3FB}\\u200D\\u{1FAF2}\\u{1F3FC}\""
+                      "raw": "\"\\u{1FAF1}\\u{1F3FB}\\u200D\\u{1FAF2}\\u{1F3FC}\"",
+                      "start": 1814,
+                      "end": 1858
                     },
                     {
                       "type": "Literal",
-                      "start": 1864,
-                      "end": 1908,
                       "value": "🫱🏻‍🫲🏽",
-                      "raw": "\"\\u{1FAF1}\\u{1F3FB}\\u200D\\u{1FAF2}\\u{1F3FD}\""
+                      "raw": "\"\\u{1FAF1}\\u{1F3FB}\\u200D\\u{1FAF2}\\u{1F3FD}\"",
+                      "start": 1864,
+                      "end": 1908
                     },
                     {
                       "type": "Literal",
-                      "start": 1914,
-                      "end": 1958,
                       "value": "🫱🏻‍🫲🏾",
-                      "raw": "\"\\u{1FAF1}\\u{1F3FB}\\u200D\\u{1FAF2}\\u{1F3FE}\""
+                      "raw": "\"\\u{1FAF1}\\u{1F3FB}\\u200D\\u{1FAF2}\\u{1F3FE}\"",
+                      "start": 1914,
+                      "end": 1958
                     },
                     {
                       "type": "Literal",
-                      "start": 1964,
-                      "end": 2008,
                       "value": "🫱🏻‍🫲🏿",
-                      "raw": "\"\\u{1FAF1}\\u{1F3FB}\\u200D\\u{1FAF2}\\u{1F3FF}\""
+                      "raw": "\"\\u{1FAF1}\\u{1F3FB}\\u200D\\u{1FAF2}\\u{1F3FF}\"",
+                      "start": 1964,
+                      "end": 2008
                     },
                     {
                       "type": "Literal",
-                      "start": 2014,
-                      "end": 2034,
                       "value": "🫱🏼",
-                      "raw": "\"\\u{1FAF1}\\u{1F3FC}\""
+                      "raw": "\"\\u{1FAF1}\\u{1F3FC}\"",
+                      "start": 2014,
+                      "end": 2034
                     },
                     {
                       "type": "Literal",
-                      "start": 2040,
-                      "end": 2084,
                       "value": "🫱🏼‍🫲🏻",
-                      "raw": "\"\\u{1FAF1}\\u{1F3FC}\\u200D\\u{1FAF2}\\u{1F3FB}\""
+                      "raw": "\"\\u{1FAF1}\\u{1F3FC}\\u200D\\u{1FAF2}\\u{1F3FB}\"",
+                      "start": 2040,
+                      "end": 2084
                     },
                     {
                       "type": "Literal",
-                      "start": 2090,
-                      "end": 2134,
                       "value": "🫱🏼‍🫲🏽",
-                      "raw": "\"\\u{1FAF1}\\u{1F3FC}\\u200D\\u{1FAF2}\\u{1F3FD}\""
+                      "raw": "\"\\u{1FAF1}\\u{1F3FC}\\u200D\\u{1FAF2}\\u{1F3FD}\"",
+                      "start": 2090,
+                      "end": 2134
                     },
                     {
                       "type": "Literal",
-                      "start": 2140,
-                      "end": 2184,
                       "value": "🫱🏼‍🫲🏾",
-                      "raw": "\"\\u{1FAF1}\\u{1F3FC}\\u200D\\u{1FAF2}\\u{1F3FE}\""
+                      "raw": "\"\\u{1FAF1}\\u{1F3FC}\\u200D\\u{1FAF2}\\u{1F3FE}\"",
+                      "start": 2140,
+                      "end": 2184
                     },
                     {
                       "type": "Literal",
-                      "start": 2190,
-                      "end": 2234,
                       "value": "🫱🏼‍🫲🏿",
-                      "raw": "\"\\u{1FAF1}\\u{1F3FC}\\u200D\\u{1FAF2}\\u{1F3FF}\""
+                      "raw": "\"\\u{1FAF1}\\u{1F3FC}\\u200D\\u{1FAF2}\\u{1F3FF}\"",
+                      "start": 2190,
+                      "end": 2234
                     },
                     {
                       "type": "Literal",
-                      "start": 2240,
-                      "end": 2260,
                       "value": "🫱🏽",
-                      "raw": "\"\\u{1FAF1}\\u{1F3FD}\""
+                      "raw": "\"\\u{1FAF1}\\u{1F3FD}\"",
+                      "start": 2240,
+                      "end": 2260
                     },
                     {
                       "type": "Literal",
-                      "start": 2266,
-                      "end": 2310,
                       "value": "🫱🏽‍🫲🏻",
-                      "raw": "\"\\u{1FAF1}\\u{1F3FD}\\u200D\\u{1FAF2}\\u{1F3FB}\""
+                      "raw": "\"\\u{1FAF1}\\u{1F3FD}\\u200D\\u{1FAF2}\\u{1F3FB}\"",
+                      "start": 2266,
+                      "end": 2310
                     },
                     {
                       "type": "Literal",
-                      "start": 2316,
-                      "end": 2360,
                       "value": "🫱🏽‍🫲🏼",
-                      "raw": "\"\\u{1FAF1}\\u{1F3FD}\\u200D\\u{1FAF2}\\u{1F3FC}\""
+                      "raw": "\"\\u{1FAF1}\\u{1F3FD}\\u200D\\u{1FAF2}\\u{1F3FC}\"",
+                      "start": 2316,
+                      "end": 2360
                     },
                     {
                       "type": "Literal",
-                      "start": 2366,
-                      "end": 2410,
                       "value": "🫱🏽‍🫲🏾",
-                      "raw": "\"\\u{1FAF1}\\u{1F3FD}\\u200D\\u{1FAF2}\\u{1F3FE}\""
+                      "raw": "\"\\u{1FAF1}\\u{1F3FD}\\u200D\\u{1FAF2}\\u{1F3FE}\"",
+                      "start": 2366,
+                      "end": 2410
                     },
                     {
                       "type": "Literal",
-                      "start": 2416,
-                      "end": 2460,
                       "value": "🫱🏽‍🫲🏿",
-                      "raw": "\"\\u{1FAF1}\\u{1F3FD}\\u200D\\u{1FAF2}\\u{1F3FF}\""
+                      "raw": "\"\\u{1FAF1}\\u{1F3FD}\\u200D\\u{1FAF2}\\u{1F3FF}\"",
+                      "start": 2416,
+                      "end": 2460
                     },
                     {
                       "type": "Literal",
-                      "start": 2466,
-                      "end": 2486,
                       "value": "🫱🏾",
-                      "raw": "\"\\u{1FAF1}\\u{1F3FE}\""
+                      "raw": "\"\\u{1FAF1}\\u{1F3FE}\"",
+                      "start": 2466,
+                      "end": 2486
                     },
                     {
                       "type": "Literal",
-                      "start": 2492,
-                      "end": 2536,
                       "value": "🫱🏾‍🫲🏻",
-                      "raw": "\"\\u{1FAF1}\\u{1F3FE}\\u200D\\u{1FAF2}\\u{1F3FB}\""
+                      "raw": "\"\\u{1FAF1}\\u{1F3FE}\\u200D\\u{1FAF2}\\u{1F3FB}\"",
+                      "start": 2492,
+                      "end": 2536
                     },
                     {
                       "type": "Literal",
-                      "start": 2542,
-                      "end": 2586,
                       "value": "🫱🏾‍🫲🏼",
-                      "raw": "\"\\u{1FAF1}\\u{1F3FE}\\u200D\\u{1FAF2}\\u{1F3FC}\""
+                      "raw": "\"\\u{1FAF1}\\u{1F3FE}\\u200D\\u{1FAF2}\\u{1F3FC}\"",
+                      "start": 2542,
+                      "end": 2586
                     },
                     {
                       "type": "Literal",
-                      "start": 2592,
-                      "end": 2636,
                       "value": "🫱🏾‍🫲🏽",
-                      "raw": "\"\\u{1FAF1}\\u{1F3FE}\\u200D\\u{1FAF2}\\u{1F3FD}\""
+                      "raw": "\"\\u{1FAF1}\\u{1F3FE}\\u200D\\u{1FAF2}\\u{1F3FD}\"",
+                      "start": 2592,
+                      "end": 2636
                     },
                     {
                       "type": "Literal",
-                      "start": 2642,
-                      "end": 2686,
                       "value": "🫱🏾‍🫲🏿",
-                      "raw": "\"\\u{1FAF1}\\u{1F3FE}\\u200D\\u{1FAF2}\\u{1F3FF}\""
+                      "raw": "\"\\u{1FAF1}\\u{1F3FE}\\u200D\\u{1FAF2}\\u{1F3FF}\"",
+                      "start": 2642,
+                      "end": 2686
                     },
                     {
                       "type": "Literal",
-                      "start": 2692,
-                      "end": 2712,
                       "value": "🫱🏿",
-                      "raw": "\"\\u{1FAF1}\\u{1F3FF}\""
+                      "raw": "\"\\u{1FAF1}\\u{1F3FF}\"",
+                      "start": 2692,
+                      "end": 2712
                     },
                     {
                       "type": "Literal",
-                      "start": 2718,
-                      "end": 2762,
                       "value": "🫱🏿‍🫲🏻",
-                      "raw": "\"\\u{1FAF1}\\u{1F3FF}\\u200D\\u{1FAF2}\\u{1F3FB}\""
+                      "raw": "\"\\u{1FAF1}\\u{1F3FF}\\u200D\\u{1FAF2}\\u{1F3FB}\"",
+                      "start": 2718,
+                      "end": 2762
                     },
                     {
                       "type": "Literal",
-                      "start": 2768,
-                      "end": 2812,
                       "value": "🫱🏿‍🫲🏼",
-                      "raw": "\"\\u{1FAF1}\\u{1F3FF}\\u200D\\u{1FAF2}\\u{1F3FC}\""
+                      "raw": "\"\\u{1FAF1}\\u{1F3FF}\\u200D\\u{1FAF2}\\u{1F3FC}\"",
+                      "start": 2768,
+                      "end": 2812
                     },
                     {
                       "type": "Literal",
-                      "start": 2818,
-                      "end": 2862,
                       "value": "🫱🏿‍🫲🏽",
-                      "raw": "\"\\u{1FAF1}\\u{1F3FF}\\u200D\\u{1FAF2}\\u{1F3FD}\""
+                      "raw": "\"\\u{1FAF1}\\u{1F3FF}\\u200D\\u{1FAF2}\\u{1F3FD}\"",
+                      "start": 2818,
+                      "end": 2862
                     },
                     {
                       "type": "Literal",
-                      "start": 2868,
-                      "end": 2912,
                       "value": "🫱🏿‍🫲🏾",
-                      "raw": "\"\\u{1FAF1}\\u{1F3FF}\\u200D\\u{1FAF2}\\u{1F3FE}\""
+                      "raw": "\"\\u{1FAF1}\\u{1F3FF}\\u200D\\u{1FAF2}\\u{1F3FE}\"",
+                      "start": 2868,
+                      "end": 2912
                     },
                     {
                       "type": "Literal",
-                      "start": 2918,
-                      "end": 2929,
                       "value": "🫲",
-                      "raw": "\"\\u{1FAF2}\""
+                      "raw": "\"\\u{1FAF2}\"",
+                      "start": 2918,
+                      "end": 2929
                     },
                     {
                       "type": "Literal",
-                      "start": 2935,
-                      "end": 2955,
                       "value": "🫲🏻",
-                      "raw": "\"\\u{1FAF2}\\u{1F3FB}\""
+                      "raw": "\"\\u{1FAF2}\\u{1F3FB}\"",
+                      "start": 2935,
+                      "end": 2955
                     },
                     {
                       "type": "Literal",
-                      "start": 2961,
-                      "end": 2981,
                       "value": "🫲🏼",
-                      "raw": "\"\\u{1FAF2}\\u{1F3FC}\""
+                      "raw": "\"\\u{1FAF2}\\u{1F3FC}\"",
+                      "start": 2961,
+                      "end": 2981
                     },
                     {
                       "type": "Literal",
-                      "start": 2987,
-                      "end": 3007,
                       "value": "🫲🏽",
-                      "raw": "\"\\u{1FAF2}\\u{1F3FD}\""
+                      "raw": "\"\\u{1FAF2}\\u{1F3FD}\"",
+                      "start": 2987,
+                      "end": 3007
                     },
                     {
                       "type": "Literal",
-                      "start": 3013,
-                      "end": 3033,
                       "value": "🫲🏾",
-                      "raw": "\"\\u{1FAF2}\\u{1F3FE}\""
+                      "raw": "\"\\u{1FAF2}\\u{1F3FE}\"",
+                      "start": 3013,
+                      "end": 3033
                     },
                     {
                       "type": "Literal",
-                      "start": 3039,
-                      "end": 3059,
                       "value": "🫲🏿",
-                      "raw": "\"\\u{1FAF2}\\u{1F3FF}\""
+                      "raw": "\"\\u{1FAF2}\\u{1F3FF}\"",
+                      "start": 3039,
+                      "end": 3059
                     },
                     {
                       "type": "Literal",
-                      "start": 3065,
-                      "end": 3076,
                       "value": "🫳",
-                      "raw": "\"\\u{1FAF3}\""
+                      "raw": "\"\\u{1FAF3}\"",
+                      "start": 3065,
+                      "end": 3076
                     },
                     {
                       "type": "Literal",
-                      "start": 3082,
-                      "end": 3102,
                       "value": "🫳🏻",
-                      "raw": "\"\\u{1FAF3}\\u{1F3FB}\""
+                      "raw": "\"\\u{1FAF3}\\u{1F3FB}\"",
+                      "start": 3082,
+                      "end": 3102
                     },
                     {
                       "type": "Literal",
-                      "start": 3108,
-                      "end": 3128,
                       "value": "🫳🏼",
-                      "raw": "\"\\u{1FAF3}\\u{1F3FC}\""
+                      "raw": "\"\\u{1FAF3}\\u{1F3FC}\"",
+                      "start": 3108,
+                      "end": 3128
                     },
                     {
                       "type": "Literal",
-                      "start": 3134,
-                      "end": 3154,
                       "value": "🫳🏽",
-                      "raw": "\"\\u{1FAF3}\\u{1F3FD}\""
+                      "raw": "\"\\u{1FAF3}\\u{1F3FD}\"",
+                      "start": 3134,
+                      "end": 3154
                     },
                     {
                       "type": "Literal",
-                      "start": 3160,
-                      "end": 3180,
                       "value": "🫳🏾",
-                      "raw": "\"\\u{1FAF3}\\u{1F3FE}\""
+                      "raw": "\"\\u{1FAF3}\\u{1F3FE}\"",
+                      "start": 3160,
+                      "end": 3180
                     },
                     {
                       "type": "Literal",
-                      "start": 3186,
-                      "end": 3206,
                       "value": "🫳🏿",
-                      "raw": "\"\\u{1FAF3}\\u{1F3FF}\""
+                      "raw": "\"\\u{1FAF3}\\u{1F3FF}\"",
+                      "start": 3186,
+                      "end": 3206
                     },
                     {
                       "type": "Literal",
-                      "start": 3212,
-                      "end": 3223,
                       "value": "🫴",
-                      "raw": "\"\\u{1FAF4}\""
+                      "raw": "\"\\u{1FAF4}\"",
+                      "start": 3212,
+                      "end": 3223
                     },
                     {
                       "type": "Literal",
-                      "start": 3229,
-                      "end": 3249,
                       "value": "🫴🏻",
-                      "raw": "\"\\u{1FAF4}\\u{1F3FB}\""
+                      "raw": "\"\\u{1FAF4}\\u{1F3FB}\"",
+                      "start": 3229,
+                      "end": 3249
                     },
                     {
                       "type": "Literal",
-                      "start": 3255,
-                      "end": 3275,
                       "value": "🫴🏼",
-                      "raw": "\"\\u{1FAF4}\\u{1F3FC}\""
+                      "raw": "\"\\u{1FAF4}\\u{1F3FC}\"",
+                      "start": 3255,
+                      "end": 3275
                     },
                     {
                       "type": "Literal",
-                      "start": 3281,
-                      "end": 3301,
                       "value": "🫴🏽",
-                      "raw": "\"\\u{1FAF4}\\u{1F3FD}\""
+                      "raw": "\"\\u{1FAF4}\\u{1F3FD}\"",
+                      "start": 3281,
+                      "end": 3301
                     },
                     {
                       "type": "Literal",
-                      "start": 3307,
-                      "end": 3327,
                       "value": "🫴🏾",
-                      "raw": "\"\\u{1FAF4}\\u{1F3FE}\""
+                      "raw": "\"\\u{1FAF4}\\u{1F3FE}\"",
+                      "start": 3307,
+                      "end": 3327
                     },
                     {
                       "type": "Literal",
-                      "start": 3333,
-                      "end": 3353,
                       "value": "🫴🏿",
-                      "raw": "\"\\u{1FAF4}\\u{1F3FF}\""
+                      "raw": "\"\\u{1FAF4}\\u{1F3FF}\"",
+                      "start": 3333,
+                      "end": 3353
                     },
                     {
                       "type": "Literal",
-                      "start": 3359,
-                      "end": 3370,
                       "value": "🫵",
-                      "raw": "\"\\u{1FAF5}\""
+                      "raw": "\"\\u{1FAF5}\"",
+                      "start": 3359,
+                      "end": 3370
                     },
                     {
                       "type": "Literal",
-                      "start": 3376,
-                      "end": 3396,
                       "value": "🫵🏻",
-                      "raw": "\"\\u{1FAF5}\\u{1F3FB}\""
+                      "raw": "\"\\u{1FAF5}\\u{1F3FB}\"",
+                      "start": 3376,
+                      "end": 3396
                     },
                     {
                       "type": "Literal",
-                      "start": 3402,
-                      "end": 3422,
                       "value": "🫵🏼",
-                      "raw": "\"\\u{1FAF5}\\u{1F3FC}\""
+                      "raw": "\"\\u{1FAF5}\\u{1F3FC}\"",
+                      "start": 3402,
+                      "end": 3422
                     },
                     {
                       "type": "Literal",
-                      "start": 3428,
-                      "end": 3448,
                       "value": "🫵🏽",
-                      "raw": "\"\\u{1FAF5}\\u{1F3FD}\""
+                      "raw": "\"\\u{1FAF5}\\u{1F3FD}\"",
+                      "start": 3428,
+                      "end": 3448
                     },
                     {
                       "type": "Literal",
-                      "start": 3454,
-                      "end": 3474,
                       "value": "🫵🏾",
-                      "raw": "\"\\u{1FAF5}\\u{1F3FE}\""
+                      "raw": "\"\\u{1FAF5}\\u{1F3FE}\"",
+                      "start": 3454,
+                      "end": 3474
                     },
                     {
                       "type": "Literal",
-                      "start": 3480,
-                      "end": 3500,
                       "value": "🫵🏿",
-                      "raw": "\"\\u{1FAF5}\\u{1F3FF}\""
+                      "raw": "\"\\u{1FAF5}\\u{1F3FF}\"",
+                      "start": 3480,
+                      "end": 3500
                     },
                     {
                       "type": "Literal",
-                      "start": 3506,
-                      "end": 3517,
                       "value": "🫶",
-                      "raw": "\"\\u{1FAF6}\""
+                      "raw": "\"\\u{1FAF6}\"",
+                      "start": 3506,
+                      "end": 3517
                     },
                     {
                       "type": "Literal",
-                      "start": 3523,
-                      "end": 3543,
                       "value": "🫶🏻",
-                      "raw": "\"\\u{1FAF6}\\u{1F3FB}\""
+                      "raw": "\"\\u{1FAF6}\\u{1F3FB}\"",
+                      "start": 3523,
+                      "end": 3543
                     },
                     {
                       "type": "Literal",
-                      "start": 3549,
-                      "end": 3569,
                       "value": "🫶🏼",
-                      "raw": "\"\\u{1FAF6}\\u{1F3FC}\""
+                      "raw": "\"\\u{1FAF6}\\u{1F3FC}\"",
+                      "start": 3549,
+                      "end": 3569
                     },
                     {
                       "type": "Literal",
-                      "start": 3575,
-                      "end": 3595,
                       "value": "🫶🏽",
-                      "raw": "\"\\u{1FAF6}\\u{1F3FD}\""
+                      "raw": "\"\\u{1FAF6}\\u{1F3FD}\"",
+                      "start": 3575,
+                      "end": 3595
                     },
                     {
                       "type": "Literal",
-                      "start": 3601,
-                      "end": 3621,
                       "value": "🫶🏾",
-                      "raw": "\"\\u{1FAF6}\\u{1F3FE}\""
+                      "raw": "\"\\u{1FAF6}\\u{1F3FE}\"",
+                      "start": 3601,
+                      "end": 3621
                     },
                     {
                       "type": "Literal",
-                      "start": 3627,
-                      "end": 3647,
                       "value": "🫶🏿",
-                      "raw": "\"\\u{1FAF6}\\u{1F3FF}\""
+                      "raw": "\"\\u{1FAF6}\\u{1F3FF}\"",
+                      "start": 3627,
+                      "end": 3647
                     }
-                  ]
+                  ],
+                  "start": 588,
+                  "end": 3651
                 },
                 "method": false,
                 "shorthand": false,
-                "computed": false
+                "computed": false,
+                "start": 574,
+                "end": 3651
               }
-            ]
+            ],
+            "start": 507,
+            "end": 3654
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 485,
+        "end": 3655
+      },
+      "start": 485,
+      "end": 3656
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 3657
 }

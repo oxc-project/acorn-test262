@@ -2,143 +2,143 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 156,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 0,
-      "end": 43,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 4,
-          "end": 42,
           "id": {
             "type": "Identifier",
-            "start": 4,
-            "end": 5,
             "decorators": [],
             "name": "a",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 4,
+            "end": 5
           },
           "init": {
             "type": "BinaryExpression",
-            "start": 8,
-            "end": 42,
             "left": {
               "type": "Literal",
-              "start": 8,
-              "end": 14,
               "value": "some",
-              "raw": "'some'"
+              "raw": "'some'",
+              "start": 8,
+              "end": 14
             },
             "operator": "+",
             "right": {
               "type": "Literal",
-              "start": 36,
-              "end": 42,
               "value": "text",
-              "raw": "'text'"
-            }
+              "raw": "'text'",
+              "start": 36,
+              "end": 42
+            },
+            "start": 8,
+            "end": 42
           },
-          "definite": false
+          "definite": false,
+          "start": 4,
+          "end": 42
         }
       ],
-      "declare": false
+      "declare": false,
+      "start": 0,
+      "end": 43
     },
     {
       "type": "VariableDeclaration",
-      "start": 45,
-      "end": 91,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 49,
-          "end": 90,
           "id": {
             "type": "Identifier",
-            "start": 49,
-            "end": 50,
             "decorators": [],
             "name": "b",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 49,
+            "end": 50
           },
           "init": {
             "type": "BinaryExpression",
-            "start": 53,
-            "end": 90,
             "left": {
               "type": "Literal",
-              "start": 53,
-              "end": 59,
               "value": "some",
-              "raw": "'some'"
+              "raw": "'some'",
+              "start": 53,
+              "end": 59
             },
             "operator": "+",
             "right": {
               "type": "Literal",
-              "start": 84,
-              "end": 90,
               "value": "text",
-              "raw": "'text'"
-            }
+              "raw": "'text'",
+              "start": 84,
+              "end": 90
+            },
+            "start": 53,
+            "end": 90
           },
-          "definite": false
+          "definite": false,
+          "start": 49,
+          "end": 90
         }
       ],
-      "declare": false
+      "declare": false,
+      "start": 45,
+      "end": 91
     },
     {
       "type": "VariableDeclaration",
-      "start": 93,
-      "end": 156,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 97,
-          "end": 155,
           "id": {
             "type": "Identifier",
-            "start": 97,
-            "end": 98,
             "decorators": [],
             "name": "c",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 97,
+            "end": 98
           },
           "init": {
             "type": "BinaryExpression",
-            "start": 101,
-            "end": 155,
             "left": {
               "type": "Literal",
-              "start": 101,
-              "end": 107,
               "value": "some",
-              "raw": "'some'"
+              "raw": "'some'",
+              "start": 101,
+              "end": 107
             },
             "operator": "+",
             "right": {
               "type": "Literal",
-              "start": 149,
-              "end": 155,
               "value": "text",
-              "raw": "'text'"
-            }
+              "raw": "'text'",
+              "start": 149,
+              "end": 155
+            },
+            "start": 101,
+            "end": 155
           },
-          "definite": false
+          "definite": false,
+          "start": 97,
+          "end": 155
         }
       ],
-      "declare": false
+      "declare": false,
+      "start": 93,
+      "end": 156
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 156
 }
 ```

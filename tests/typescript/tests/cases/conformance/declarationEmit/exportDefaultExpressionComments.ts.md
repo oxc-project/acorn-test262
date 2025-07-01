@@ -2,24 +2,24 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 26,
-  "end": 45,
   "body": [
     {
       "type": "ExportDefaultDeclaration",
-      "start": 26,
-      "end": 45,
       "declaration": {
         "type": "Literal",
-        "start": 41,
-        "end": 45,
         "value": null,
-        "raw": "null"
+        "raw": "null",
+        "start": 41,
+        "end": 45
       },
-      "exportKind": "value"
+      "exportKind": "value",
+      "start": 26,
+      "end": 45
     }
   ],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 26,
+  "end": 45
 }
 ```

@@ -1,121 +1,121 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 705,
   "body": [
     {
       "type": "FunctionDeclaration",
-      "start": 357,
-      "end": 505,
       "id": {
         "type": "Identifier",
+        "name": "f",
         "start": 374,
-        "end": 375,
-        "name": "f"
+        "end": 375
       },
       "generator": false,
       "async": false,
       "params": [
         {
           "type": "AssignmentPattern",
-          "start": 394,
-          "end": 415,
           "left": {
             "type": "Identifier",
+            "name": "a",
             "start": 394,
-            "end": 395,
-            "name": "a"
+            "end": 395
           },
           "right": {
             "type": "Literal",
-            "start": 414,
-            "end": 415,
             "value": 0,
-            "raw": "0"
-          }
+            "raw": "0",
+            "start": 414,
+            "end": 415
+          },
+          "start": 394,
+          "end": 415
         },
         {
           "type": "ObjectPattern",
-          "start": 434,
-          "end": 475,
           "properties": [
             {
               "type": "Property",
-              "start": 444,
-              "end": 465,
               "kind": "init",
               "key": {
                 "type": "Identifier",
+                "name": "b",
                 "start": 444,
-                "end": 445,
-                "name": "b"
+                "end": 445
               },
               "value": {
                 "type": "AssignmentPattern",
-                "start": 444,
-                "end": 465,
                 "left": {
                   "type": "Identifier",
+                  "name": "b",
                   "start": 444,
-                  "end": 445,
-                  "name": "b"
+                  "end": 445
                 },
                 "right": {
                   "type": "Literal",
-                  "start": 464,
-                  "end": 465,
                   "value": 0,
-                  "raw": "0"
-                }
+                  "raw": "0",
+                  "start": 464,
+                  "end": 465
+                },
+                "start": 444,
+                "end": 465
               },
               "method": false,
               "shorthand": true,
-              "computed": false
+              "computed": false,
+              "start": 444,
+              "end": 465
             }
-          ]
+          ],
+          "start": 434,
+          "end": 475
         }
       ],
       "body": {
         "type": "BlockStatement",
+        "body": [],
         "start": 494,
-        "end": 505,
-        "body": []
+        "end": 505
       },
-      "expression": false
+      "expression": false,
+      "start": 357,
+      "end": 505
     },
     {
       "type": "ExpressionStatement",
-      "start": 518,
-      "end": 704,
       "expression": {
         "type": "CallExpression",
-        "start": 518,
-        "end": 703,
         "callee": {
           "type": "Identifier",
+          "name": "assertToStringOrNativeFunction",
           "start": 518,
-          "end": 548,
-          "name": "assertToStringOrNativeFunction"
+          "end": 548
         },
         "arguments": [
           {
             "type": "Identifier",
+            "name": "f",
             "start": 549,
-            "end": 550,
-            "name": "f"
+            "end": 550
           },
           {
             "type": "Literal",
-            "start": 552,
-            "end": 702,
             "value": "function /* a */ f /* b */ ( /* c */ a /* d */ = /* e */ 0 /* f */ , /* g */ { /* h */ b /* i */ = /* j */ 0 /* k */ } /* l */ ) /* m */ { /* n */ }",
-            "raw": "\"function /* a */ f /* b */ ( /* c */ a /* d */ = /* e */ 0 /* f */ , /* g */ { /* h */ b /* i */ = /* j */ 0 /* k */ } /* l */ ) /* m */ { /* n */ }\""
+            "raw": "\"function /* a */ f /* b */ ( /* c */ a /* d */ = /* e */ 0 /* f */ , /* g */ { /* h */ b /* i */ = /* j */ 0 /* k */ } /* l */ ) /* m */ { /* n */ }\"",
+            "start": 552,
+            "end": 702
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 518,
+        "end": 703
+      },
+      "start": 518,
+      "end": 704
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 705
 }

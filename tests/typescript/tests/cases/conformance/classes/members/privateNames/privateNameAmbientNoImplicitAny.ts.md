@@ -2,22 +2,18 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 53,
   "body": [
     {
       "type": "ClassDeclaration",
-      "start": 0,
-      "end": 30,
       "decorators": [],
       "id": {
         "type": "Identifier",
-        "start": 14,
-        "end": 15,
         "decorators": [],
         "name": "A",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 14,
+        "end": 15
       },
       "typeParameters": null,
       "superClass": null,
@@ -25,19 +21,15 @@ __ESTREE_TEST__:PASS:
       "implements": [],
       "body": {
         "type": "ClassBody",
-        "start": 16,
-        "end": 30,
         "body": [
           {
             "type": "PropertyDefinition",
-            "start": 22,
-            "end": 28,
             "decorators": [],
             "key": {
               "type": "PrivateIdentifier",
+              "name": "prop",
               "start": 22,
-              "end": 27,
-              "name": "prop"
+              "end": 27
             },
             "typeAnnotation": null,
             "value": null,
@@ -48,26 +40,30 @@ __ESTREE_TEST__:PASS:
             "optional": false,
             "definite": false,
             "readonly": false,
-            "accessibility": null
+            "accessibility": null,
+            "start": 22,
+            "end": 28
           }
-        ]
+        ],
+        "start": 16,
+        "end": 30
       },
       "abstract": false,
-      "declare": true
+      "declare": true,
+      "start": 0,
+      "end": 30
     },
     {
       "type": "ClassDeclaration",
-      "start": 31,
-      "end": 53,
       "decorators": [],
       "id": {
         "type": "Identifier",
-        "start": 37,
-        "end": 38,
         "decorators": [],
         "name": "B",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 37,
+        "end": 38
       },
       "typeParameters": null,
       "superClass": null,
@@ -75,19 +71,15 @@ __ESTREE_TEST__:PASS:
       "implements": [],
       "body": {
         "type": "ClassBody",
-        "start": 39,
-        "end": 53,
         "body": [
           {
             "type": "PropertyDefinition",
-            "start": 45,
-            "end": 51,
             "decorators": [],
             "key": {
               "type": "PrivateIdentifier",
+              "name": "prop",
               "start": 45,
-              "end": 50,
-              "name": "prop"
+              "end": 50
             },
             "typeAnnotation": null,
             "value": null,
@@ -98,15 +90,23 @@ __ESTREE_TEST__:PASS:
             "optional": false,
             "definite": false,
             "readonly": false,
-            "accessibility": null
+            "accessibility": null,
+            "start": 45,
+            "end": 51
           }
-        ]
+        ],
+        "start": 39,
+        "end": 53
       },
       "abstract": false,
-      "declare": false
+      "declare": false,
+      "start": 31,
+      "end": 53
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 53
 }
 ```

@@ -2,26 +2,20 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 91,
   "body": [
     {
       "type": "ExportNamedDeclaration",
-      "start": 0,
-      "end": 91,
       "declaration": {
         "type": "ClassDeclaration",
-        "start": 7,
-        "end": 91,
         "decorators": [],
         "id": {
           "type": "Identifier",
-          "start": 13,
-          "end": 24,
           "decorators": [],
           "name": "Preferences",
           "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "start": 13,
+          "end": 24
         },
         "typeParameters": null,
         "superClass": null,
@@ -29,30 +23,26 @@ __ESTREE_TEST__:PASS:
         "implements": [],
         "body": {
           "type": "ClassBody",
-          "start": 25,
-          "end": 91,
           "body": [
             {
               "type": "PropertyDefinition",
-              "start": 81,
-              "end": 89,
               "decorators": [],
               "key": {
                 "type": "Identifier",
-                "start": 81,
-                "end": 82,
                 "decorators": [],
                 "name": "a",
                 "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "start": 81,
+                "end": 82
               },
               "typeAnnotation": null,
               "value": {
                 "type": "Literal",
-                "start": 85,
-                "end": 89,
                 "value": "ok",
-                "raw": "'ok'"
+                "raw": "'ok'",
+                "start": 85,
+                "end": 89
               },
               "computed": false,
               "static": false,
@@ -61,20 +51,30 @@ __ESTREE_TEST__:PASS:
               "optional": false,
               "definite": false,
               "readonly": false,
-              "accessibility": null
+              "accessibility": null,
+              "start": 81,
+              "end": 89
             }
-          ]
+          ],
+          "start": 25,
+          "end": 91
         },
         "abstract": false,
-        "declare": false
+        "declare": false,
+        "start": 7,
+        "end": 91
       },
       "specifiers": [],
       "source": null,
       "exportKind": "value",
-      "attributes": []
+      "attributes": [],
+      "start": 0,
+      "end": 91
     }
   ],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 91
 }
 ```

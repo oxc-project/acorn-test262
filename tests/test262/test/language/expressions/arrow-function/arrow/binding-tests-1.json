@@ -1,103 +1,97 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 385,
   "body": [
     {
       "type": "FunctionDeclaration",
-      "start": 214,
-      "end": 263,
       "id": {
         "type": "Identifier",
+        "name": "foo",
         "start": 223,
-        "end": 226,
-        "name": "foo"
+        "end": 226
       },
       "generator": false,
       "async": false,
       "params": [],
       "body": {
         "type": "BlockStatement",
-        "start": 228,
-        "end": 263,
         "body": [
           {
             "type": "ReturnStatement",
-            "start": 235,
-            "end": 259,
             "argument": {
               "type": "CallExpression",
-              "start": 242,
-              "end": 258,
               "callee": {
                 "type": "Identifier",
+                "name": "eval",
                 "start": 242,
-                "end": 246,
-                "name": "eval"
+                "end": 246
               },
               "arguments": [
                 {
                   "type": "Literal",
-                  "start": 247,
-                  "end": 257,
                   "value": "()=>this",
-                  "raw": "\"()=>this\""
+                  "raw": "\"()=>this\"",
+                  "start": 247,
+                  "end": 257
                 }
               ],
-              "optional": false
-            }
+              "optional": false,
+              "start": 242,
+              "end": 258
+            },
+            "start": 235,
+            "end": 259
           }
-        ]
+        ],
+        "start": 228,
+        "end": 263
       },
-      "expression": false
+      "expression": false,
+      "start": 214,
+      "end": 263
     },
     {
       "type": "ExpressionStatement",
-      "start": 267,
-      "end": 383,
       "expression": {
         "type": "CallExpression",
-        "start": 267,
-        "end": 382,
         "callee": {
           "type": "MemberExpression",
-          "start": 267,
-          "end": 283,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 267,
-            "end": 273,
-            "name": "assert"
+            "end": 273
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 274,
-            "end": 283,
-            "name": "sameValue"
+            "end": 283
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 267,
+          "end": 283
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 284,
-            "end": 291,
             "callee": {
               "type": "CallExpression",
-              "start": 284,
-              "end": 289,
               "callee": {
                 "type": "Identifier",
+                "name": "foo",
                 "start": 284,
-                "end": 287,
-                "name": "foo"
+                "end": 287
               },
               "arguments": [],
-              "optional": false
+              "optional": false,
+              "start": 284,
+              "end": 289
             },
             "arguments": [],
-            "optional": false
+            "optional": false,
+            "start": 284,
+            "end": 291
           },
           {
             "type": "ThisExpression",
@@ -106,16 +100,22 @@
           },
           {
             "type": "Literal",
-            "start": 299,
-            "end": 381,
             "value": "This binding initialization was incorrect for arrow capturing this from closure.",
-            "raw": "\"This binding initialization was incorrect for arrow capturing this from closure.\""
+            "raw": "\"This binding initialization was incorrect for arrow capturing this from closure.\"",
+            "start": 299,
+            "end": 381
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 267,
+        "end": 382
+      },
+      "start": 267,
+      "end": 383
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 385
 }

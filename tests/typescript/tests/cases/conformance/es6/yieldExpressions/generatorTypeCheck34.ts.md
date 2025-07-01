@@ -2,21 +2,17 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 76,
   "body": [
     {
       "type": "FunctionDeclaration",
-      "start": 0,
-      "end": 76,
       "id": {
         "type": "Identifier",
-        "start": 10,
-        "end": 11,
         "decorators": [],
         "name": "g",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 10,
+        "end": 11
       },
       "generator": true,
       "async": false,
@@ -26,40 +22,36 @@ __ESTREE_TEST__:PASS:
       "returnType": null,
       "body": {
         "type": "BlockStatement",
-        "start": 14,
-        "end": 76,
         "body": [
           {
             "type": "ExpressionStatement",
-            "start": 20,
-            "end": 28,
             "expression": {
               "type": "YieldExpression",
-              "start": 20,
-              "end": 27,
               "delegate": false,
               "argument": {
                 "type": "Literal",
-                "start": 26,
-                "end": 27,
                 "value": 0,
-                "raw": "0"
-              }
+                "raw": "0",
+                "start": 26,
+                "end": 27
+              },
+              "start": 20,
+              "end": 27
             },
-            "directive": null
+            "directive": null,
+            "start": 20,
+            "end": 28
           },
           {
             "type": "FunctionDeclaration",
-            "start": 33,
-            "end": 74,
             "id": {
               "type": "Identifier",
-              "start": 43,
-              "end": 45,
               "decorators": [],
               "name": "g2",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 43,
+              "end": 45
             },
             "generator": true,
             "async": false,
@@ -69,31 +61,39 @@ __ESTREE_TEST__:PASS:
             "returnType": null,
             "body": {
               "type": "BlockStatement",
-              "start": 48,
-              "end": 74,
               "body": [
                 {
                   "type": "ReturnStatement",
-                  "start": 58,
-                  "end": 68,
                   "argument": {
                     "type": "Literal",
-                    "start": 65,
-                    "end": 67,
                     "value": "",
-                    "raw": "\"\""
-                  }
+                    "raw": "\"\"",
+                    "start": 65,
+                    "end": 67
+                  },
+                  "start": 58,
+                  "end": 68
                 }
-              ]
+              ],
+              "start": 48,
+              "end": 74
             },
-            "expression": false
+            "expression": false,
+            "start": 33,
+            "end": 74
           }
-        ]
+        ],
+        "start": 14,
+        "end": 76
       },
-      "expression": false
+      "expression": false,
+      "start": 0,
+      "end": 76
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 76
 }
 ```

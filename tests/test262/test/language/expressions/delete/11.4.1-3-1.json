@@ -1,68 +1,68 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 391,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 314,
-      "end": 390,
       "expression": {
         "type": "CallExpression",
-        "start": 314,
-        "end": 389,
         "callee": {
           "type": "MemberExpression",
-          "start": 314,
-          "end": 330,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 314,
-            "end": 320,
-            "name": "assert"
+            "end": 320
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 321,
-            "end": 330,
-            "name": "sameValue"
+            "end": 330
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 314,
+          "end": 330
         },
         "arguments": [
           {
             "type": "UnaryExpression",
-            "start": 331,
-            "end": 350,
             "operator": "delete",
             "argument": {
               "type": "Identifier",
+              "name": "unresolvable",
               "start": 338,
-              "end": 350,
-              "name": "unresolvable"
+              "end": 350
             },
-            "prefix": true
+            "prefix": true,
+            "start": 331,
+            "end": 350
           },
           {
             "type": "Literal",
-            "start": 352,
-            "end": 356,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "start": 352,
+            "end": 356
           },
           {
             "type": "Literal",
-            "start": 358,
-            "end": 388,
             "value": "delete unresolvable === true",
-            "raw": "'delete unresolvable === true'"
+            "raw": "'delete unresolvable === true'",
+            "start": 358,
+            "end": 388
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 314,
+        "end": 389
+      },
+      "start": 314,
+      "end": 390
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 391
 }

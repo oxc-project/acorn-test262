@@ -1,140 +1,140 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 528,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 343,
-      "end": 527,
       "expression": {
         "type": "CallExpression",
-        "start": 343,
-        "end": 526,
         "callee": {
           "type": "MemberExpression",
-          "start": 343,
-          "end": 356,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 343,
-            "end": 349,
-            "name": "assert"
+            "end": 349
           },
           "property": {
             "type": "Identifier",
+            "name": "throws",
             "start": 350,
-            "end": 356,
-            "name": "throws"
+            "end": 356
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 343,
+          "end": 356
         },
         "arguments": [
           {
             "type": "Identifier",
+            "name": "TypeError",
             "start": 357,
-            "end": 366,
-            "name": "TypeError"
+            "end": 366
           },
           {
             "type": "FunctionExpression",
-            "start": 368,
-            "end": 439,
             "id": null,
             "generator": false,
             "async": false,
             "params": [],
             "body": {
               "type": "BlockStatement",
-              "start": 379,
-              "end": 439,
               "body": [
                 {
                   "type": "VariableDeclaration",
-                  "start": 383,
-                  "end": 424,
                   "kind": "const",
                   "declarations": [
                     {
                       "type": "VariableDeclarator",
-                      "start": 389,
-                      "end": 423,
                       "id": {
                         "type": "Identifier",
+                        "name": "valueOf",
                         "start": 389,
-                        "end": 396,
-                        "name": "valueOf"
+                        "end": 396
                       },
                       "init": {
                         "type": "MemberExpression",
-                        "start": 399,
-                        "end": 423,
                         "object": {
                           "type": "MemberExpression",
-                          "start": 399,
-                          "end": 415,
                           "object": {
                             "type": "Identifier",
+                            "name": "Object",
                             "start": 399,
-                            "end": 405,
-                            "name": "Object"
+                            "end": 405
                           },
                           "property": {
                             "type": "Identifier",
+                            "name": "prototype",
                             "start": 406,
-                            "end": 415,
-                            "name": "prototype"
+                            "end": 415
                           },
                           "optional": false,
-                          "computed": false
+                          "computed": false,
+                          "start": 399,
+                          "end": 415
                         },
                         "property": {
                           "type": "Identifier",
+                          "name": "valueOf",
                           "start": 416,
-                          "end": 423,
-                          "name": "valueOf"
+                          "end": 423
                         },
                         "optional": false,
-                        "computed": false
-                      }
+                        "computed": false,
+                        "start": 399,
+                        "end": 423
+                      },
+                      "start": 389,
+                      "end": 423
                     }
-                  ]
+                  ],
+                  "start": 383,
+                  "end": 424
                 },
                 {
                   "type": "ExpressionStatement",
-                  "start": 427,
-                  "end": 437,
                   "expression": {
                     "type": "CallExpression",
-                    "start": 427,
-                    "end": 436,
                     "callee": {
                       "type": "Identifier",
+                      "name": "valueOf",
                       "start": 427,
-                      "end": 434,
-                      "name": "valueOf"
+                      "end": 434
                     },
                     "arguments": [],
-                    "optional": false
-                  }
+                    "optional": false,
+                    "start": 427,
+                    "end": 436
+                  },
+                  "start": 427,
+                  "end": 437
                 }
-              ]
+              ],
+              "start": 379,
+              "end": 439
             },
-            "expression": false
+            "expression": false,
+            "start": 368,
+            "end": 439
           },
           {
             "type": "Literal",
-            "start": 441,
-            "end": 525,
             "value": "`const valueOf = Object.prototype.valueOf; valueOf()` throws a TypeError exception",
-            "raw": "'`const valueOf = Object.prototype.valueOf; valueOf()` throws a TypeError exception'"
+            "raw": "'`const valueOf = Object.prototype.valueOf; valueOf()` throws a TypeError exception'",
+            "start": 441,
+            "end": 525
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 343,
+        "end": 526
+      },
+      "start": 343,
+      "end": 527
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 528
 }

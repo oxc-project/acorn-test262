@@ -2,149 +2,149 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 41,
   "body": [
     {
       "type": "ExportNamedDeclaration",
-      "start": 0,
-      "end": 40,
       "declaration": {
         "type": "TSInterfaceDeclaration",
-        "start": 7,
-        "end": 40,
         "id": {
           "type": "Identifier",
-          "start": 17,
-          "end": 18,
           "decorators": [],
           "name": "T",
           "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "start": 17,
+          "end": 18
         },
         "typeParameters": null,
         "extends": [],
         "body": {
           "type": "TSInterfaceBody",
-          "start": 19,
-          "end": 40,
           "body": [
             {
               "type": "TSPropertySignature",
-              "start": 25,
-              "end": 38,
               "computed": false,
               "optional": false,
               "readonly": false,
               "key": {
                 "type": "Identifier",
-                "start": 25,
-                "end": 30,
                 "decorators": [],
                 "name": "value",
                 "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "start": 25,
+                "end": 30
               },
               "typeAnnotation": {
                 "type": "TSTypeAnnotation",
-                "start": 30,
-                "end": 38,
                 "typeAnnotation": {
                   "type": "TSStringKeyword",
                   "start": 32,
                   "end": 38
-                }
+                },
+                "start": 30,
+                "end": 38
               },
               "accessibility": null,
-              "static": false
+              "static": false,
+              "start": 25,
+              "end": 38
             }
-          ]
+          ],
+          "start": 19,
+          "end": 40
         },
-        "declare": false
+        "declare": false,
+        "start": 7,
+        "end": 40
       },
       "specifiers": [],
       "source": null,
       "exportKind": "type",
-      "attributes": []
+      "attributes": [],
+      "start": 0,
+      "end": 40
     }
   ],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 41
 }
 ```
 __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 40,
   "body": [
     {
       "type": "ExportNamedDeclaration",
-      "start": 0,
-      "end": 40,
       "declaration": {
         "type": "VariableDeclaration",
-        "start": 7,
-        "end": 40,
         "kind": "const",
         "declarations": [
           {
             "type": "VariableDeclarator",
-            "start": 13,
-            "end": 39,
             "id": {
               "type": "Identifier",
-              "start": 13,
-              "end": 32,
               "decorators": [],
               "name": "a",
               "optional": false,
               "typeAnnotation": {
                 "type": "TSTypeAnnotation",
-                "start": 14,
-                "end": 32,
                 "typeAnnotation": {
                   "type": "TSImportType",
-                  "start": 16,
-                  "end": 32,
                   "argument": {
                     "type": "TSLiteralType",
-                    "start": 23,
-                    "end": 31,
                     "literal": {
                       "type": "Literal",
-                      "start": 23,
-                      "end": 31,
                       "value": "./test",
-                      "raw": "\"./test\""
-                    }
+                      "raw": "\"./test\"",
+                      "start": 23,
+                      "end": 31
+                    },
+                    "start": 23,
+                    "end": 31
                   },
                   "options": null,
                   "qualifier": null,
-                  "typeArguments": null
-                }
-              }
+                  "typeArguments": null,
+                  "start": 16,
+                  "end": 32
+                },
+                "start": 14,
+                "end": 32
+              },
+              "start": 13,
+              "end": 32
             },
             "init": {
               "type": "Literal",
-              "start": 35,
-              "end": 39,
               "value": null,
-              "raw": "null"
+              "raw": "null",
+              "start": 35,
+              "end": 39
             },
-            "definite": false
+            "definite": false,
+            "start": 13,
+            "end": 39
           }
         ],
-        "declare": false
+        "declare": false,
+        "start": 7,
+        "end": 40
       },
       "specifiers": [],
       "source": null,
       "exportKind": "value",
-      "attributes": []
+      "attributes": [],
+      "start": 0,
+      "end": 40
     }
   ],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 40
 }
 ```

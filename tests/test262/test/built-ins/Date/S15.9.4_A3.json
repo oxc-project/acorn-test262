@@ -1,69 +1,69 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 359,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 276,
-      "end": 358,
       "expression": {
         "type": "CallExpression",
-        "start": 276,
-        "end": 357,
         "callee": {
           "type": "Identifier",
+          "name": "assert",
           "start": 276,
-          "end": 282,
-          "name": "assert"
+          "end": 282
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 283,
-            "end": 309,
             "callee": {
               "type": "MemberExpression",
-              "start": 283,
-              "end": 302,
               "object": {
                 "type": "Identifier",
+                "name": "Date",
                 "start": 283,
-                "end": 287,
-                "name": "Date"
+                "end": 287
               },
               "property": {
                 "type": "Identifier",
+                "name": "hasOwnProperty",
                 "start": 288,
-                "end": 302,
-                "name": "hasOwnProperty"
+                "end": 302
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 283,
+              "end": 302
             },
             "arguments": [
               {
                 "type": "Literal",
-                "start": 303,
-                "end": 308,
                 "value": "UTC",
-                "raw": "\"UTC\""
+                "raw": "\"UTC\"",
+                "start": 303,
+                "end": 308
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 283,
+            "end": 309
           },
           {
             "type": "Literal",
-            "start": 311,
-            "end": 356,
             "value": "Date.hasOwnProperty(\"UTC\") must return true",
-            "raw": "'Date.hasOwnProperty(\"UTC\") must return true'"
+            "raw": "'Date.hasOwnProperty(\"UTC\") must return true'",
+            "start": 311,
+            "end": 356
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 276,
+        "end": 357
+      },
+      "start": 276,
+      "end": 358
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 359
 }

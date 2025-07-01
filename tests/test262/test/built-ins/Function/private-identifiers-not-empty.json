@@ -1,121 +1,121 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 894,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 712,
-      "end": 892,
       "expression": {
         "type": "CallExpression",
-        "start": 712,
-        "end": 891,
         "callee": {
           "type": "MemberExpression",
-          "start": 712,
-          "end": 725,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 712,
-            "end": 718,
-            "name": "assert"
+            "end": 718
           },
           "property": {
             "type": "Identifier",
+            "name": "throws",
             "start": 719,
-            "end": 725,
-            "name": "throws"
+            "end": 725
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 712,
+          "end": 725
         },
         "arguments": [
           {
             "type": "Identifier",
+            "name": "SyntaxError",
             "start": 726,
-            "end": 737,
-            "name": "SyntaxError"
+            "end": 737
           },
           {
             "type": "FunctionExpression",
-            "start": 739,
-            "end": 791,
             "id": null,
             "generator": false,
             "async": false,
             "params": [],
             "body": {
               "type": "BlockStatement",
-              "start": 750,
-              "end": 791,
               "body": [
                 {
                   "type": "VariableDeclaration",
-                  "start": 754,
-                  "end": 765,
                   "kind": "let",
                   "declarations": [
                     {
                       "type": "VariableDeclarator",
-                      "start": 758,
-                      "end": 764,
                       "id": {
                         "type": "Identifier",
+                        "name": "o",
                         "start": 758,
-                        "end": 759,
-                        "name": "o"
+                        "end": 759
                       },
                       "init": {
                         "type": "ObjectExpression",
+                        "properties": [],
                         "start": 762,
-                        "end": 764,
-                        "properties": []
-                      }
+                        "end": 764
+                      },
+                      "start": 758,
+                      "end": 764
                     }
-                  ]
+                  ],
+                  "start": 754,
+                  "end": 765
                 },
                 {
                   "type": "ExpressionStatement",
-                  "start": 768,
-                  "end": 789,
                   "expression": {
                     "type": "NewExpression",
-                    "start": 768,
-                    "end": 788,
                     "callee": {
                       "type": "Identifier",
+                      "name": "Function",
                       "start": 772,
-                      "end": 780,
-                      "name": "Function"
+                      "end": 780
                     },
                     "arguments": [
                       {
                         "type": "Literal",
-                        "start": 781,
-                        "end": 787,
                         "value": "o.#f",
-                        "raw": "\"o.#f\""
+                        "raw": "\"o.#f\"",
+                        "start": 781,
+                        "end": 787
                       }
-                    ]
-                  }
+                    ],
+                    "start": 768,
+                    "end": 788
+                  },
+                  "start": 768,
+                  "end": 789
                 }
-              ]
+              ],
+              "start": 750,
+              "end": 791
             },
-            "expression": false
+            "expression": false,
+            "start": 739,
+            "end": 791
           },
           {
             "type": "Literal",
-            "start": 793,
-            "end": 890,
             "value": "It should be a SyntaxError if AllPrivateIdentifiersValid returns false to dynamic function body",
-            "raw": "'It should be a SyntaxError if AllPrivateIdentifiersValid returns false to dynamic function body'"
+            "raw": "'It should be a SyntaxError if AllPrivateIdentifiersValid returns false to dynamic function body'",
+            "start": 793,
+            "end": 890
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 712,
+        "end": 891
+      },
+      "start": 712,
+      "end": 892
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 894
 }

@@ -1,38 +1,32 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 661,
   "body": [
     {
       "type": "FunctionDeclaration",
-      "start": 381,
-      "end": 495,
       "id": {
         "type": "Identifier",
+        "name": "f",
         "start": 404,
-        "end": 405,
-        "name": "f"
+        "end": 405
       },
       "generator": false,
       "async": true,
       "params": [
         {
           "type": "Identifier",
+          "name": "x",
           "start": 424,
-          "end": 425,
-          "name": "x"
+          "end": 425
         },
         {
           "type": "Identifier",
+          "name": "y",
           "start": 444,
-          "end": 445,
-          "name": "y"
+          "end": 445
         }
       ],
       "body": {
         "type": "BlockStatement",
-        "start": 464,
-        "end": 495,
         "body": [
           {
             "type": "EmptyStatement",
@@ -44,43 +38,49 @@
             "start": 484,
             "end": 485
           }
-        ]
+        ],
+        "start": 464,
+        "end": 495
       },
-      "expression": false
+      "expression": false,
+      "start": 381,
+      "end": 495
     },
     {
       "type": "ExpressionStatement",
-      "start": 508,
-      "end": 660,
       "expression": {
         "type": "CallExpression",
-        "start": 508,
-        "end": 659,
         "callee": {
           "type": "Identifier",
+          "name": "assertToStringOrNativeFunction",
           "start": 508,
-          "end": 538,
-          "name": "assertToStringOrNativeFunction"
+          "end": 538
         },
         "arguments": [
           {
             "type": "Identifier",
+            "name": "f",
             "start": 539,
-            "end": 540,
-            "name": "f"
+            "end": 540
           },
           {
             "type": "Literal",
-            "start": 542,
-            "end": 658,
             "value": "async function /* a */ f /* b */ ( /* c */ x /* d */ , /* e */ y /* f */ ) /* g */ { /* h */ ; /* i */ ; /* j */ }",
-            "raw": "\"async function /* a */ f /* b */ ( /* c */ x /* d */ , /* e */ y /* f */ ) /* g */ { /* h */ ; /* i */ ; /* j */ }\""
+            "raw": "\"async function /* a */ f /* b */ ( /* c */ x /* d */ , /* e */ y /* f */ ) /* g */ { /* h */ ; /* i */ ; /* j */ }\"",
+            "start": 542,
+            "end": 658
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 508,
+        "end": 659
+      },
+      "start": 508,
+      "end": 660
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 661
 }

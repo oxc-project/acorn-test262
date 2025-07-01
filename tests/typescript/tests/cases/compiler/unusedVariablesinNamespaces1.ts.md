@@ -2,70 +2,70 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 65,
   "body": [
     {
       "type": "TSModuleDeclaration",
-      "start": 0,
-      "end": 65,
       "id": {
         "type": "Identifier",
-        "start": 10,
-        "end": 20,
         "decorators": [],
         "name": "Validation",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 10,
+        "end": 20
       },
       "body": {
         "type": "TSModuleBlock",
-        "start": 21,
-        "end": 65,
         "body": [
           {
             "type": "VariableDeclaration",
-            "start": 27,
-            "end": 63,
             "kind": "const",
             "declarations": [
               {
                 "type": "VariableDeclarator",
-                "start": 33,
-                "end": 62,
                 "id": {
                   "type": "Identifier",
-                  "start": 33,
-                  "end": 46,
                   "decorators": [],
                   "name": "lettersRegexp",
                   "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "start": 33,
+                  "end": 46
                 },
                 "init": {
                   "type": "Literal",
-                  "start": 49,
-                  "end": 62,
                   "value": null,
                   "raw": "/^[A-Za-z]+$/",
                   "regex": {
                     "pattern": "^[A-Za-z]+$",
                     "flags": ""
-                  }
+                  },
+                  "start": 49,
+                  "end": 62
                 },
-                "definite": false
+                "definite": false,
+                "start": 33,
+                "end": 62
               }
             ],
-            "declare": false
+            "declare": false,
+            "start": 27,
+            "end": 63
           }
-        ]
+        ],
+        "start": 21,
+        "end": 65
       },
       "kind": "namespace",
       "declare": false,
-      "global": false
+      "global": false,
+      "start": 0,
+      "end": 65
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 65
 }
 ```

@@ -2,40 +2,32 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 64,
   "body": [
     {
       "type": "TSModuleDeclaration",
-      "start": 0,
-      "end": 44,
       "id": {
         "type": "Identifier",
-        "start": 7,
-        "end": 12,
         "decorators": [],
         "name": "_this",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 7,
+        "end": 12
       },
       "body": {
         "type": "TSModuleBlock",
-        "start": 13,
-        "end": 44,
         "body": [
           {
             "type": "ClassDeclaration",
-            "start": 27,
-            "end": 42,
             "decorators": [],
             "id": {
               "type": "Identifier",
-              "start": 33,
-              "end": 34,
               "decorators": [],
               "name": "c",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 33,
+              "end": 34
             },
             "typeParameters": null,
             "superClass": null,
@@ -43,42 +35,42 @@ __ESTREE_TEST__:PASS:
             "implements": [],
             "body": {
               "type": "ClassBody",
+              "body": [],
               "start": 35,
-              "end": 42,
-              "body": []
+              "end": 42
             },
             "abstract": false,
-            "declare": false
+            "declare": false,
+            "start": 27,
+            "end": 42
           }
-        ]
+        ],
+        "start": 13,
+        "end": 44
       },
       "kind": "module",
       "declare": false,
-      "global": false
+      "global": false,
+      "start": 0,
+      "end": 44
     },
     {
       "type": "VariableDeclaration",
-      "start": 45,
-      "end": 64,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 49,
-          "end": 63,
           "id": {
             "type": "Identifier",
-            "start": 49,
-            "end": 50,
             "decorators": [],
             "name": "f",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 49,
+            "end": 50
           },
           "init": {
             "type": "ArrowFunctionExpression",
-            "start": 53,
-            "end": 63,
             "expression": true,
             "async": false,
             "typeParameters": null,
@@ -90,15 +82,23 @@ __ESTREE_TEST__:PASS:
               "end": 63
             },
             "id": null,
-            "generator": false
+            "generator": false,
+            "start": 53,
+            "end": 63
           },
-          "definite": false
+          "definite": false,
+          "start": 49,
+          "end": 63
         }
       ],
-      "declare": false
+      "declare": false,
+      "start": 45,
+      "end": 64
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 64
 }
 ```

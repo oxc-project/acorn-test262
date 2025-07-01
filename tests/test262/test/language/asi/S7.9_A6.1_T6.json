@@ -1,48 +1,48 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 331,
   "body": [
     {
       "type": "ForStatement",
-      "start": 294,
-      "end": 330,
       "init": {
         "type": "Literal",
-        "start": 298,
-        "end": 303,
         "value": false,
-        "raw": "false"
+        "raw": "false",
+        "start": 298,
+        "end": 303
       },
       "test": {
         "type": "Literal",
-        "start": 304,
-        "end": 309,
         "value": false,
-        "raw": "false"
+        "raw": "false",
+        "start": 304,
+        "end": 309
       },
       "update": {
         "type": "Literal",
-        "start": 310,
-        "end": 315,
         "value": false,
-        "raw": "false"
+        "raw": "false",
+        "start": 310,
+        "end": 315
       },
       "body": {
         "type": "BlockStatement",
-        "start": 318,
-        "end": 330,
         "body": [
           {
             "type": "BreakStatement",
+            "label": null,
             "start": 322,
-            "end": 328,
-            "label": null
+            "end": 328
           }
-        ]
-      }
+        ],
+        "start": 318,
+        "end": 330
+      },
+      "start": 294,
+      "end": 330
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 331
 }

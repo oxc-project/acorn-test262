@@ -1,157 +1,157 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 424,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 287,
-      "end": 340,
       "expression": {
         "type": "CallExpression",
-        "start": 287,
-        "end": 339,
         "callee": {
           "type": "Identifier",
+          "name": "assertNativeFunction",
           "start": 287,
-          "end": 307,
-          "name": "assertNativeFunction"
+          "end": 307
         },
         "arguments": [
           {
             "type": "MemberExpression",
-            "start": 308,
-            "end": 338,
             "object": {
               "type": "MemberExpression",
-              "start": 308,
-              "end": 324,
               "object": {
                 "type": "Identifier",
+                "name": "RegExp",
                 "start": 308,
-                "end": 314,
-                "name": "RegExp"
+                "end": 314
               },
               "property": {
                 "type": "Identifier",
+                "name": "prototype",
                 "start": 315,
-                "end": 324,
-                "name": "prototype"
+                "end": 324
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 308,
+              "end": 324
             },
             "property": {
               "type": "MemberExpression",
-              "start": 325,
-              "end": 337,
               "object": {
                 "type": "Identifier",
+                "name": "Symbol",
                 "start": 325,
-                "end": 331,
-                "name": "Symbol"
+                "end": 331
               },
               "property": {
                 "type": "Identifier",
+                "name": "match",
                 "start": 332,
-                "end": 337,
-                "name": "match"
+                "end": 337
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 325,
+              "end": 337
             },
             "optional": false,
-            "computed": true
+            "computed": true,
+            "start": 308,
+            "end": 338
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 287,
+        "end": 339
+      },
+      "start": 287,
+      "end": 340
     },
     {
       "type": "ExpressionStatement",
-      "start": 341,
-      "end": 423,
       "expression": {
         "type": "CallExpression",
-        "start": 341,
-        "end": 422,
         "callee": {
           "type": "Identifier",
+          "name": "assertNativeFunction",
           "start": 341,
-          "end": 361,
-          "name": "assertNativeFunction"
+          "end": 361
         },
         "arguments": [
           {
             "type": "MemberExpression",
-            "start": 362,
-            "end": 421,
             "object": {
               "type": "CallExpression",
-              "start": 362,
-              "end": 417,
               "callee": {
                 "type": "MemberExpression",
-                "start": 362,
-                "end": 393,
                 "object": {
                   "type": "Identifier",
+                  "name": "Object",
                   "start": 362,
-                  "end": 368,
-                  "name": "Object"
+                  "end": 368
                 },
                 "property": {
                   "type": "Identifier",
+                  "name": "getOwnPropertyDescriptor",
                   "start": 369,
-                  "end": 393,
-                  "name": "getOwnPropertyDescriptor"
+                  "end": 393
                 },
                 "optional": false,
-                "computed": false
+                "computed": false,
+                "start": 362,
+                "end": 393
               },
               "arguments": [
                 {
                   "type": "Identifier",
+                  "name": "RegExp",
                   "start": 394,
-                  "end": 400,
-                  "name": "RegExp"
+                  "end": 400
                 },
                 {
                   "type": "MemberExpression",
-                  "start": 402,
-                  "end": 416,
                   "object": {
                     "type": "Identifier",
+                    "name": "Symbol",
                     "start": 402,
-                    "end": 408,
-                    "name": "Symbol"
+                    "end": 408
                   },
                   "property": {
                     "type": "Identifier",
+                    "name": "species",
                     "start": 409,
-                    "end": 416,
-                    "name": "species"
+                    "end": 416
                   },
                   "optional": false,
-                  "computed": false
+                  "computed": false,
+                  "start": 402,
+                  "end": 416
                 }
               ],
-              "optional": false
+              "optional": false,
+              "start": 362,
+              "end": 417
             },
             "property": {
               "type": "Identifier",
+              "name": "get",
               "start": 418,
-              "end": 421,
-              "name": "get"
+              "end": 421
             },
             "optional": false,
-            "computed": false
+            "computed": false,
+            "start": 362,
+            "end": 421
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 341,
+        "end": 422
+      },
+      "start": 341,
+      "end": 423
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 424
 }

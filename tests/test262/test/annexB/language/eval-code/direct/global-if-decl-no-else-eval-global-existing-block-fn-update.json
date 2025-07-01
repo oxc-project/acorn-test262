@@ -1,180 +1,180 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 1737,
   "body": [
     {
       "type": "BlockStatement",
-      "start": 1524,
-      "end": 1580,
       "body": [
         {
           "type": "FunctionDeclaration",
-          "start": 1528,
-          "end": 1578,
           "id": {
             "type": "Identifier",
+            "name": "f",
             "start": 1537,
-            "end": 1538,
-            "name": "f"
+            "end": 1538
           },
           "generator": false,
           "async": false,
           "params": [],
           "body": {
             "type": "BlockStatement",
-            "start": 1541,
-            "end": 1578,
             "body": [
               {
                 "type": "ReturnStatement",
-                "start": 1547,
-                "end": 1574,
                 "argument": {
                   "type": "Literal",
-                  "start": 1554,
-                  "end": 1573,
                   "value": "first declaration",
-                  "raw": "'first declaration'"
-                }
+                  "raw": "'first declaration'",
+                  "start": 1554,
+                  "end": 1573
+                },
+                "start": 1547,
+                "end": 1574
               }
-            ]
+            ],
+            "start": 1541,
+            "end": 1578
           },
-          "expression": false
+          "expression": false,
+          "start": 1528,
+          "end": 1578
         }
-      ]
+      ],
+      "start": 1524,
+      "end": 1580
     },
     {
       "type": "ExpressionStatement",
-      "start": 1582,
-      "end": 1650,
       "expression": {
         "type": "CallExpression",
-        "start": 1582,
-        "end": 1649,
         "callee": {
           "type": "Identifier",
+          "name": "eval",
           "start": 1582,
-          "end": 1586,
-          "name": "eval"
+          "end": 1586
         },
         "arguments": [
           {
             "type": "Literal",
-            "start": 1590,
-            "end": 1647,
             "value": "if (true) function f() { return \"second declaration\"; }",
-            "raw": "'if (true) function f() { return \"second declaration\"; }'"
+            "raw": "'if (true) function f() { return \"second declaration\"; }'",
+            "start": 1590,
+            "end": 1647
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 1582,
+        "end": 1649
+      },
+      "start": 1582,
+      "end": 1650
     },
     {
       "type": "ExpressionStatement",
-      "start": 1652,
-      "end": 1691,
       "expression": {
         "type": "CallExpression",
-        "start": 1652,
-        "end": 1690,
         "callee": {
           "type": "MemberExpression",
-          "start": 1652,
-          "end": 1668,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 1652,
-            "end": 1658,
-            "name": "assert"
+            "end": 1658
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 1659,
-            "end": 1668,
-            "name": "sameValue"
+            "end": 1668
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 1652,
+          "end": 1668
         },
         "arguments": [
           {
             "type": "UnaryExpression",
-            "start": 1669,
-            "end": 1677,
             "operator": "typeof",
             "argument": {
               "type": "Identifier",
+              "name": "f",
               "start": 1676,
-              "end": 1677,
-              "name": "f"
+              "end": 1677
             },
-            "prefix": true
+            "prefix": true,
+            "start": 1669,
+            "end": 1677
           },
           {
             "type": "Literal",
-            "start": 1679,
-            "end": 1689,
             "value": "function",
-            "raw": "'function'"
+            "raw": "'function'",
+            "start": 1679,
+            "end": 1689
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 1652,
+        "end": 1690
+      },
+      "start": 1652,
+      "end": 1691
     },
     {
       "type": "ExpressionStatement",
-      "start": 1692,
-      "end": 1736,
       "expression": {
         "type": "CallExpression",
-        "start": 1692,
-        "end": 1735,
         "callee": {
           "type": "MemberExpression",
-          "start": 1692,
-          "end": 1708,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 1692,
-            "end": 1698,
-            "name": "assert"
+            "end": 1698
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 1699,
-            "end": 1708,
-            "name": "sameValue"
+            "end": 1708
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 1692,
+          "end": 1708
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 1709,
-            "end": 1712,
             "callee": {
               "type": "Identifier",
+              "name": "f",
               "start": 1709,
-              "end": 1710,
-              "name": "f"
+              "end": 1710
             },
             "arguments": [],
-            "optional": false
+            "optional": false,
+            "start": 1709,
+            "end": 1712
           },
           {
             "type": "Literal",
-            "start": 1714,
-            "end": 1734,
             "value": "second declaration",
-            "raw": "'second declaration'"
+            "raw": "'second declaration'",
+            "start": 1714,
+            "end": 1734
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 1692,
+        "end": 1735
+      },
+      "start": 1692,
+      "end": 1736
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 1737
 }

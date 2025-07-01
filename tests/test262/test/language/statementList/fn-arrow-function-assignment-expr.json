@@ -1,52 +1,52 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 1251,
   "body": [
     {
       "type": "FunctionDeclaration",
-      "start": 1225,
-      "end": 1241,
       "id": {
         "type": "Identifier",
+        "name": "fn",
         "start": 1234,
-        "end": 1236,
-        "name": "fn"
+        "end": 1236
       },
       "generator": false,
       "async": false,
       "params": [],
       "body": {
         "type": "BlockStatement",
+        "body": [],
         "start": 1239,
-        "end": 1241,
-        "body": []
+        "end": 1241
       },
-      "expression": false
+      "expression": false,
+      "start": 1225,
+      "end": 1241
     },
     {
       "type": "ExpressionStatement",
-      "start": 1241,
-      "end": 1250,
       "expression": {
         "type": "ArrowFunctionExpression",
-        "start": 1241,
-        "end": 1249,
         "expression": true,
         "async": false,
         "params": [],
         "body": {
           "type": "Literal",
-          "start": 1247,
-          "end": 1249,
           "value": 42,
-          "raw": "42"
+          "raw": "42",
+          "start": 1247,
+          "end": 1249
         },
         "id": null,
-        "generator": false
-      }
+        "generator": false,
+        "start": 1241,
+        "end": 1249
+      },
+      "start": 1241,
+      "end": 1250
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 1251
 }

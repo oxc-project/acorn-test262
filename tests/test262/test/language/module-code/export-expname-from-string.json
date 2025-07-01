@@ -1,137 +1,137 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 586,
   "body": [
     {
       "type": "ImportDeclaration",
-      "start": 425,
-      "end": 483,
       "specifiers": [
         {
           "type": "ImportNamespaceSpecifier",
-          "start": 432,
-          "end": 443,
           "local": {
             "type": "Identifier",
+            "name": "Scouts",
             "start": 437,
-            "end": 443,
-            "name": "Scouts"
-          }
+            "end": 443
+          },
+          "start": 432,
+          "end": 443
         }
       ],
       "source": {
         "type": "Literal",
-        "start": 449,
-        "end": 482,
         "value": "./export-expname-from-string.js",
-        "raw": "\"./export-expname-from-string.js\""
+        "raw": "\"./export-expname-from-string.js\"",
+        "start": 449,
+        "end": 482
       },
       "phase": null,
-      "attributes": []
+      "attributes": [],
+      "start": 425,
+      "end": 483
     },
     {
       "type": "ExportNamedDeclaration",
-      "start": 484,
-      "end": 534,
       "declaration": null,
       "specifiers": [
         {
           "type": "ExportSpecifier",
-          "start": 493,
-          "end": 496,
           "local": {
             "type": "Literal",
-            "start": 493,
-            "end": 496,
             "value": "☿",
-            "raw": "\"☿\""
+            "raw": "\"☿\"",
+            "start": 493,
+            "end": 496
           },
           "exported": {
             "type": "Literal",
-            "start": 493,
-            "end": 496,
             "value": "☿",
-            "raw": "\"☿\""
-          }
+            "raw": "\"☿\"",
+            "start": 493,
+            "end": 496
+          },
+          "start": 493,
+          "end": 496
         }
       ],
       "source": {
         "type": "Literal",
-        "start": 504,
-        "end": 533,
         "value": "./export-expname_FIXTURE.js",
-        "raw": "\"./export-expname_FIXTURE.js\""
+        "raw": "\"./export-expname_FIXTURE.js\"",
+        "start": 504,
+        "end": 533
       },
-      "attributes": []
+      "attributes": [],
+      "start": 484,
+      "end": 534
     },
     {
       "type": "ExpressionStatement",
-      "start": 536,
-      "end": 585,
       "expression": {
         "type": "CallExpression",
-        "start": 536,
-        "end": 584,
         "callee": {
           "type": "MemberExpression",
-          "start": 536,
-          "end": 552,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 536,
-            "end": 542,
-            "name": "assert"
+            "end": 542
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 543,
-            "end": 552,
-            "name": "sameValue"
+            "end": 552
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 536,
+          "end": 552
         },
         "arguments": [
           {
             "type": "UnaryExpression",
-            "start": 553,
-            "end": 571,
             "operator": "typeof",
             "argument": {
               "type": "MemberExpression",
-              "start": 560,
-              "end": 571,
               "object": {
                 "type": "Identifier",
+                "name": "Scouts",
                 "start": 560,
-                "end": 566,
-                "name": "Scouts"
+                "end": 566
               },
               "property": {
                 "type": "Literal",
-                "start": 567,
-                "end": 570,
                 "value": "☿",
-                "raw": "\"☿\""
+                "raw": "\"☿\"",
+                "start": 567,
+                "end": 570
               },
               "optional": false,
-              "computed": true
+              "computed": true,
+              "start": 560,
+              "end": 571
             },
-            "prefix": true
+            "prefix": true,
+            "start": 553,
+            "end": 571
           },
           {
             "type": "Literal",
-            "start": 573,
-            "end": 583,
             "value": "function",
-            "raw": "\"function\""
+            "raw": "\"function\"",
+            "start": 573,
+            "end": 583
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 536,
+        "end": 584
+      },
+      "start": 536,
+      "end": 585
     }
   ],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 586
 }

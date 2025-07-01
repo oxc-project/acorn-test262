@@ -1,31 +1,31 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 940,
   "body": [
     {
       "type": "BlockStatement",
+      "body": [],
       "start": 933,
-      "end": 935,
-      "body": []
+      "end": 935
     },
     {
       "type": "ExpressionStatement",
-      "start": 935,
-      "end": 939,
       "expression": {
         "type": "Literal",
-        "start": 935,
-        "end": 938,
         "value": null,
         "raw": "/1/",
         "regex": {
           "pattern": "1",
           "flags": ""
-        }
-      }
+        },
+        "start": 935,
+        "end": 938
+      },
+      "start": 935,
+      "end": 939
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 940
 }

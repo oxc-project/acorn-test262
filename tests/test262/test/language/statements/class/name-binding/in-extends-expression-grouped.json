@@ -1,98 +1,98 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 305,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 232,
-      "end": 304,
       "expression": {
         "type": "CallExpression",
-        "start": 232,
-        "end": 303,
         "callee": {
           "type": "MemberExpression",
-          "start": 232,
-          "end": 245,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 232,
-            "end": 238,
-            "name": "assert"
+            "end": 238
           },
           "property": {
             "type": "Identifier",
+            "name": "throws",
             "start": 239,
-            "end": 245,
-            "name": "throws"
+            "end": 245
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 232,
+          "end": 245
         },
         "arguments": [
           {
             "type": "Identifier",
+            "name": "ReferenceError",
             "start": 246,
-            "end": 260,
-            "name": "ReferenceError"
+            "end": 260
           },
           {
             "type": "FunctionExpression",
-            "start": 262,
-            "end": 302,
             "id": null,
             "generator": false,
             "async": false,
             "params": [],
             "body": {
               "type": "BlockStatement",
-              "start": 273,
-              "end": 302,
               "body": [
                 {
                   "type": "ExpressionStatement",
-                  "start": 277,
-                  "end": 300,
                   "expression": {
                     "type": "ParenthesizedExpression",
-                    "start": 277,
-                    "end": 299,
                     "expression": {
                       "type": "ClassExpression",
-                      "start": 278,
-                      "end": 298,
                       "decorators": [],
                       "id": {
                         "type": "Identifier",
+                        "name": "x",
                         "start": 284,
-                        "end": 285,
-                        "name": "x"
+                        "end": 285
                       },
                       "superClass": {
                         "type": "Identifier",
+                        "name": "x",
                         "start": 294,
-                        "end": 295,
-                        "name": "x"
+                        "end": 295
                       },
                       "body": {
                         "type": "ClassBody",
+                        "body": [],
                         "start": 296,
-                        "end": 298,
-                        "body": []
-                      }
-                    }
-                  }
+                        "end": 298
+                      },
+                      "start": 278,
+                      "end": 298
+                    },
+                    "start": 277,
+                    "end": 299
+                  },
+                  "start": 277,
+                  "end": 300
                 }
-              ]
+              ],
+              "start": 273,
+              "end": 302
             },
-            "expression": false
+            "expression": false,
+            "start": 262,
+            "end": 302
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 232,
+        "end": 303
+      },
+      "start": 232,
+      "end": 304
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 305
 }

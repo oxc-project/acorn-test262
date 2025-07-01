@@ -1,399 +1,399 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 1133,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 707,
-      "end": 777,
       "expression": {
         "type": "CallExpression",
-        "start": 707,
-        "end": 776,
         "callee": {
           "type": "Identifier",
+          "name": "assert",
           "start": 707,
-          "end": 713,
-          "name": "assert"
+          "end": 713
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 714,
-            "end": 741,
             "callee": {
               "type": "MemberExpression",
-              "start": 714,
-              "end": 731,
               "object": {
                 "type": "Literal",
-                "start": 714,
-                "end": 726,
                 "value": null,
                 "raw": "/[\\u0390]/ui",
                 "regex": {
                   "pattern": "[\\u0390]",
                   "flags": "iu"
-                }
+                },
+                "start": 714,
+                "end": 726
               },
               "property": {
                 "type": "Identifier",
+                "name": "test",
                 "start": 727,
-                "end": 731,
-                "name": "test"
+                "end": 731
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 714,
+              "end": 731
             },
             "arguments": [
               {
                 "type": "Literal",
-                "start": 732,
-                "end": 740,
                 "value": "ΐ",
-                "raw": "\"\\u1fd3\""
+                "raw": "\"\\u1fd3\"",
+                "start": 732,
+                "end": 740
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 714,
+            "end": 741
           },
           {
             "type": "Literal",
-            "start": 743,
-            "end": 775,
             "value": "\\u0390 does not match \\u1fd3",
-            "raw": "\"\\\\u0390 does not match \\\\u1fd3\""
+            "raw": "\"\\\\u0390 does not match \\\\u1fd3\"",
+            "start": 743,
+            "end": 775
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 707,
+        "end": 776
+      },
+      "start": 707,
+      "end": 777
     },
     {
       "type": "ExpressionStatement",
-      "start": 778,
-      "end": 848,
       "expression": {
         "type": "CallExpression",
-        "start": 778,
-        "end": 847,
         "callee": {
           "type": "Identifier",
+          "name": "assert",
           "start": 778,
-          "end": 784,
-          "name": "assert"
+          "end": 784
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 785,
-            "end": 812,
             "callee": {
               "type": "MemberExpression",
-              "start": 785,
-              "end": 802,
               "object": {
                 "type": "Literal",
-                "start": 785,
-                "end": 797,
                 "value": null,
                 "raw": "/[\\u1fd3]/ui",
                 "regex": {
                   "pattern": "[\\u1fd3]",
                   "flags": "iu"
-                }
+                },
+                "start": 785,
+                "end": 797
               },
               "property": {
                 "type": "Identifier",
+                "name": "test",
                 "start": 798,
-                "end": 802,
-                "name": "test"
+                "end": 802
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 785,
+              "end": 802
             },
             "arguments": [
               {
                 "type": "Literal",
-                "start": 803,
-                "end": 811,
                 "value": "ΐ",
-                "raw": "\"\\u0390\""
+                "raw": "\"\\u0390\"",
+                "start": 803,
+                "end": 811
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 785,
+            "end": 812
           },
           {
             "type": "Literal",
-            "start": 814,
-            "end": 846,
             "value": "\\u1fd3 does not match \\u0390",
-            "raw": "\"\\\\u1fd3 does not match \\\\u0390\""
+            "raw": "\"\\\\u1fd3 does not match \\\\u0390\"",
+            "start": 814,
+            "end": 846
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 778,
+        "end": 847
+      },
+      "start": 778,
+      "end": 848
     },
     {
       "type": "ExpressionStatement",
-      "start": 849,
-      "end": 919,
       "expression": {
         "type": "CallExpression",
-        "start": 849,
-        "end": 918,
         "callee": {
           "type": "Identifier",
+          "name": "assert",
           "start": 849,
-          "end": 855,
-          "name": "assert"
+          "end": 855
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 856,
-            "end": 883,
             "callee": {
               "type": "MemberExpression",
-              "start": 856,
-              "end": 873,
               "object": {
                 "type": "Literal",
-                "start": 856,
-                "end": 868,
                 "value": null,
                 "raw": "/[\\u03b0]/ui",
                 "regex": {
                   "pattern": "[\\u03b0]",
                   "flags": "iu"
-                }
+                },
+                "start": 856,
+                "end": 868
               },
               "property": {
                 "type": "Identifier",
+                "name": "test",
                 "start": 869,
-                "end": 873,
-                "name": "test"
+                "end": 873
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 856,
+              "end": 873
             },
             "arguments": [
               {
                 "type": "Literal",
-                "start": 874,
-                "end": 882,
                 "value": "ΰ",
-                "raw": "\"\\u1fe3\""
+                "raw": "\"\\u1fe3\"",
+                "start": 874,
+                "end": 882
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 856,
+            "end": 883
           },
           {
             "type": "Literal",
-            "start": 885,
-            "end": 917,
             "value": "\\u03b0 does not match \\u1fe3",
-            "raw": "\"\\\\u03b0 does not match \\\\u1fe3\""
+            "raw": "\"\\\\u03b0 does not match \\\\u1fe3\"",
+            "start": 885,
+            "end": 917
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 849,
+        "end": 918
+      },
+      "start": 849,
+      "end": 919
     },
     {
       "type": "ExpressionStatement",
-      "start": 920,
-      "end": 990,
       "expression": {
         "type": "CallExpression",
-        "start": 920,
-        "end": 989,
         "callee": {
           "type": "Identifier",
+          "name": "assert",
           "start": 920,
-          "end": 926,
-          "name": "assert"
+          "end": 926
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 927,
-            "end": 954,
             "callee": {
               "type": "MemberExpression",
-              "start": 927,
-              "end": 944,
               "object": {
                 "type": "Literal",
-                "start": 927,
-                "end": 939,
                 "value": null,
                 "raw": "/[\\u1fe3]/ui",
                 "regex": {
                   "pattern": "[\\u1fe3]",
                   "flags": "iu"
-                }
+                },
+                "start": 927,
+                "end": 939
               },
               "property": {
                 "type": "Identifier",
+                "name": "test",
                 "start": 940,
-                "end": 944,
-                "name": "test"
+                "end": 944
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 927,
+              "end": 944
             },
             "arguments": [
               {
                 "type": "Literal",
-                "start": 945,
-                "end": 953,
                 "value": "ΰ",
-                "raw": "\"\\u03b0\""
+                "raw": "\"\\u03b0\"",
+                "start": 945,
+                "end": 953
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 927,
+            "end": 954
           },
           {
             "type": "Literal",
-            "start": 956,
-            "end": 988,
             "value": "\\u1fe3 does not match \\u03b0",
-            "raw": "\"\\\\u1fe3 does not match \\\\u03b0\""
+            "raw": "\"\\\\u1fe3 does not match \\\\u03b0\"",
+            "start": 956,
+            "end": 988
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 920,
+        "end": 989
+      },
+      "start": 920,
+      "end": 990
     },
     {
       "type": "ExpressionStatement",
-      "start": 991,
-      "end": 1061,
       "expression": {
         "type": "CallExpression",
-        "start": 991,
-        "end": 1060,
         "callee": {
           "type": "Identifier",
+          "name": "assert",
           "start": 991,
-          "end": 997,
-          "name": "assert"
+          "end": 997
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 998,
-            "end": 1025,
             "callee": {
               "type": "MemberExpression",
-              "start": 998,
-              "end": 1015,
               "object": {
                 "type": "Literal",
-                "start": 998,
-                "end": 1010,
                 "value": null,
                 "raw": "/[\\ufb05]/ui",
                 "regex": {
                   "pattern": "[\\ufb05]",
                   "flags": "iu"
-                }
+                },
+                "start": 998,
+                "end": 1010
               },
               "property": {
                 "type": "Identifier",
+                "name": "test",
                 "start": 1011,
-                "end": 1015,
-                "name": "test"
+                "end": 1015
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 998,
+              "end": 1015
             },
             "arguments": [
               {
                 "type": "Literal",
-                "start": 1016,
-                "end": 1024,
                 "value": "ﬆ",
-                "raw": "\"\\ufb06\""
+                "raw": "\"\\ufb06\"",
+                "start": 1016,
+                "end": 1024
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 998,
+            "end": 1025
           },
           {
             "type": "Literal",
-            "start": 1027,
-            "end": 1059,
             "value": "\\ufb05 does not match \\ufb06",
-            "raw": "\"\\\\ufb05 does not match \\\\ufb06\""
+            "raw": "\"\\\\ufb05 does not match \\\\ufb06\"",
+            "start": 1027,
+            "end": 1059
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 991,
+        "end": 1060
+      },
+      "start": 991,
+      "end": 1061
     },
     {
       "type": "ExpressionStatement",
-      "start": 1062,
-      "end": 1132,
       "expression": {
         "type": "CallExpression",
-        "start": 1062,
-        "end": 1131,
         "callee": {
           "type": "Identifier",
+          "name": "assert",
           "start": 1062,
-          "end": 1068,
-          "name": "assert"
+          "end": 1068
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 1069,
-            "end": 1096,
             "callee": {
               "type": "MemberExpression",
-              "start": 1069,
-              "end": 1086,
               "object": {
                 "type": "Literal",
-                "start": 1069,
-                "end": 1081,
                 "value": null,
                 "raw": "/[\\ufb06]/ui",
                 "regex": {
                   "pattern": "[\\ufb06]",
                   "flags": "iu"
-                }
+                },
+                "start": 1069,
+                "end": 1081
               },
               "property": {
                 "type": "Identifier",
+                "name": "test",
                 "start": 1082,
-                "end": 1086,
-                "name": "test"
+                "end": 1086
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 1069,
+              "end": 1086
             },
             "arguments": [
               {
                 "type": "Literal",
-                "start": 1087,
-                "end": 1095,
                 "value": "ﬅ",
-                "raw": "\"\\ufb05\""
+                "raw": "\"\\ufb05\"",
+                "start": 1087,
+                "end": 1095
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 1069,
+            "end": 1096
           },
           {
             "type": "Literal",
-            "start": 1098,
-            "end": 1130,
             "value": "\\ufb06 does not match \\ufb05",
-            "raw": "\"\\\\ufb06 does not match \\\\ufb05\""
+            "raw": "\"\\\\ufb06 does not match \\\\ufb05\"",
+            "start": 1098,
+            "end": 1130
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 1062,
+        "end": 1131
+      },
+      "start": 1062,
+      "end": 1132
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 1133
 }

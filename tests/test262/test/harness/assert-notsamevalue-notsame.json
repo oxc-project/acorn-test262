@@ -1,283 +1,283 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 419,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 229,
-      "end": 266,
       "expression": {
         "type": "CallExpression",
-        "start": 229,
-        "end": 265,
         "callee": {
           "type": "MemberExpression",
-          "start": 229,
-          "end": 248,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 229,
-            "end": 235,
-            "name": "assert"
+            "end": 235
           },
           "property": {
             "type": "Identifier",
+            "name": "notSameValue",
             "start": 236,
-            "end": 248,
-            "name": "notSameValue"
+            "end": 248
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 229,
+          "end": 248
         },
         "arguments": [
           {
             "type": "Identifier",
+            "name": "undefined",
             "start": 249,
-            "end": 258,
-            "name": "undefined"
+            "end": 258
           },
           {
             "type": "Literal",
+            "value": null,
+            "raw": "null",
             "start": 260,
-            "end": 264,
-            "value": null,
-            "raw": "null"
+            "end": 264
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 229,
+        "end": 265
+      },
+      "start": 229,
+      "end": 266
     },
     {
       "type": "ExpressionStatement",
-      "start": 267,
-      "end": 304,
       "expression": {
         "type": "CallExpression",
-        "start": 267,
-        "end": 303,
         "callee": {
           "type": "MemberExpression",
-          "start": 267,
-          "end": 286,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 267,
-            "end": 273,
-            "name": "assert"
+            "end": 273
           },
           "property": {
             "type": "Identifier",
+            "name": "notSameValue",
             "start": 274,
-            "end": 286,
-            "name": "notSameValue"
+            "end": 286
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 267,
+          "end": 286
         },
         "arguments": [
           {
             "type": "Literal",
-            "start": 287,
-            "end": 291,
             "value": null,
-            "raw": "null"
+            "raw": "null",
+            "start": 287,
+            "end": 291
           },
           {
             "type": "Identifier",
+            "name": "undefined",
             "start": 293,
-            "end": 302,
-            "name": "undefined"
+            "end": 302
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 267,
+        "end": 303
+      },
+      "start": 267,
+      "end": 304
     },
     {
       "type": "ExpressionStatement",
-      "start": 305,
-      "end": 331,
       "expression": {
         "type": "CallExpression",
-        "start": 305,
-        "end": 330,
         "callee": {
           "type": "MemberExpression",
-          "start": 305,
-          "end": 324,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 305,
-            "end": 311,
-            "name": "assert"
+            "end": 311
           },
           "property": {
             "type": "Identifier",
+            "name": "notSameValue",
             "start": 312,
-            "end": 324,
-            "name": "notSameValue"
+            "end": 324
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 305,
+          "end": 324
         },
         "arguments": [
           {
             "type": "Literal",
+            "value": 0,
+            "raw": "0",
             "start": 325,
-            "end": 326,
-            "value": 0,
-            "raw": "0"
+            "end": 326
           },
           {
             "type": "Literal",
+            "value": 1,
+            "raw": "1",
             "start": 328,
-            "end": 329,
-            "value": 1,
-            "raw": "1"
+            "end": 329
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 305,
+        "end": 330
+      },
+      "start": 305,
+      "end": 331
     },
     {
       "type": "ExpressionStatement",
-      "start": 332,
-      "end": 358,
       "expression": {
         "type": "CallExpression",
-        "start": 332,
-        "end": 357,
         "callee": {
           "type": "MemberExpression",
-          "start": 332,
-          "end": 351,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 332,
-            "end": 338,
-            "name": "assert"
+            "end": 338
           },
           "property": {
             "type": "Identifier",
+            "name": "notSameValue",
             "start": 339,
-            "end": 351,
-            "name": "notSameValue"
+            "end": 351
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 332,
+          "end": 351
         },
         "arguments": [
           {
             "type": "Literal",
-            "start": 352,
-            "end": 353,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "start": 352,
+            "end": 353
           },
           {
             "type": "Literal",
-            "start": 355,
-            "end": 356,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "start": 355,
+            "end": 356
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 332,
+        "end": 357
+      },
+      "start": 332,
+      "end": 358
     },
     {
       "type": "ExpressionStatement",
-      "start": 359,
-      "end": 388,
       "expression": {
         "type": "CallExpression",
-        "start": 359,
-        "end": 387,
         "callee": {
           "type": "MemberExpression",
-          "start": 359,
-          "end": 378,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 359,
-            "end": 365,
-            "name": "assert"
+            "end": 365
           },
           "property": {
             "type": "Identifier",
+            "name": "notSameValue",
             "start": 366,
-            "end": 378,
-            "name": "notSameValue"
+            "end": 378
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 359,
+          "end": 378
         },
         "arguments": [
           {
             "type": "Literal",
-            "start": 379,
-            "end": 381,
             "value": "",
-            "raw": "''"
+            "raw": "''",
+            "start": 379,
+            "end": 381
           },
           {
             "type": "Literal",
-            "start": 383,
-            "end": 386,
             "value": "s",
-            "raw": "'s'"
+            "raw": "'s'",
+            "start": 383,
+            "end": 386
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 359,
+        "end": 387
+      },
+      "start": 359,
+      "end": 388
     },
     {
       "type": "ExpressionStatement",
-      "start": 389,
-      "end": 418,
       "expression": {
         "type": "CallExpression",
-        "start": 389,
-        "end": 417,
         "callee": {
           "type": "MemberExpression",
-          "start": 389,
-          "end": 408,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 389,
-            "end": 395,
-            "name": "assert"
+            "end": 395
           },
           "property": {
             "type": "Identifier",
+            "name": "notSameValue",
             "start": 396,
-            "end": 408,
-            "name": "notSameValue"
+            "end": 408
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 389,
+          "end": 408
         },
         "arguments": [
           {
             "type": "Literal",
-            "start": 409,
-            "end": 412,
             "value": "s",
-            "raw": "'s'"
+            "raw": "'s'",
+            "start": 409,
+            "end": 412
           },
           {
             "type": "Literal",
-            "start": 414,
-            "end": 416,
             "value": "",
-            "raw": "''"
+            "raw": "''",
+            "start": 414,
+            "end": 416
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 389,
+        "end": 417
+      },
+      "start": 389,
+      "end": 418
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 419
 }

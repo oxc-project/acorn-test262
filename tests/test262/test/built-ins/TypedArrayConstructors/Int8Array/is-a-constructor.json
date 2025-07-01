@@ -1,92 +1,92 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 840,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 725,
-      "end": 819,
       "expression": {
         "type": "CallExpression",
-        "start": 725,
-        "end": 818,
         "callee": {
           "type": "MemberExpression",
-          "start": 725,
-          "end": 741,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 725,
-            "end": 731,
-            "name": "assert"
+            "end": 731
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 732,
-            "end": 741,
-            "name": "sameValue"
+            "end": 741
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 725,
+          "end": 741
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 742,
-            "end": 766,
             "callee": {
               "type": "Identifier",
+              "name": "isConstructor",
               "start": 742,
-              "end": 755,
-              "name": "isConstructor"
+              "end": 755
             },
             "arguments": [
               {
                 "type": "Identifier",
+                "name": "Int8Array",
                 "start": 756,
-                "end": 765,
-                "name": "Int8Array"
+                "end": 765
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 742,
+            "end": 766
           },
           {
             "type": "Literal",
-            "start": 768,
-            "end": 772,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "start": 768,
+            "end": 772
           },
           {
             "type": "Literal",
-            "start": 774,
-            "end": 817,
             "value": "isConstructor(Int8Array) must return true",
-            "raw": "'isConstructor(Int8Array) must return true'"
+            "raw": "'isConstructor(Int8Array) must return true'",
+            "start": 774,
+            "end": 817
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 725,
+        "end": 818
+      },
+      "start": 725,
+      "end": 819
     },
     {
       "type": "ExpressionStatement",
-      "start": 820,
-      "end": 836,
       "expression": {
         "type": "NewExpression",
-        "start": 820,
-        "end": 835,
         "callee": {
           "type": "Identifier",
+          "name": "Int8Array",
           "start": 824,
-          "end": 833,
-          "name": "Int8Array"
+          "end": 833
         },
-        "arguments": []
-      }
+        "arguments": [],
+        "start": 820,
+        "end": 835
+      },
+      "start": 820,
+      "end": 836
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 840
 }

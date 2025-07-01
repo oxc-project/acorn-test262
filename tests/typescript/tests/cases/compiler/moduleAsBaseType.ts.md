@@ -2,119 +2,115 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 84,
   "body": [
     {
       "type": "TSModuleDeclaration",
-      "start": 0,
-      "end": 11,
       "id": {
         "type": "Identifier",
-        "start": 7,
-        "end": 8,
         "decorators": [],
         "name": "M",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 7,
+        "end": 8
       },
       "body": {
         "type": "TSModuleBlock",
+        "body": [],
         "start": 9,
-        "end": 11,
-        "body": []
+        "end": 11
       },
       "kind": "module",
       "declare": false,
-      "global": false
+      "global": false,
+      "start": 0,
+      "end": 11
     },
     {
       "type": "ClassDeclaration",
-      "start": 12,
-      "end": 32,
       "decorators": [],
       "id": {
         "type": "Identifier",
-        "start": 18,
-        "end": 19,
         "decorators": [],
         "name": "C",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 18,
+        "end": 19
       },
       "typeParameters": null,
       "superClass": {
         "type": "Identifier",
-        "start": 28,
-        "end": 29,
         "decorators": [],
         "name": "M",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 28,
+        "end": 29
       },
       "superTypeArguments": null,
       "implements": [],
       "body": {
         "type": "ClassBody",
+        "body": [],
         "start": 30,
-        "end": 32,
-        "body": []
+        "end": 32
       },
       "abstract": false,
-      "declare": false
+      "declare": false,
+      "start": 12,
+      "end": 32
     },
     {
       "type": "TSInterfaceDeclaration",
-      "start": 33,
-      "end": 58,
       "id": {
         "type": "Identifier",
-        "start": 43,
-        "end": 44,
         "decorators": [],
         "name": "I",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 43,
+        "end": 44
       },
       "typeParameters": null,
       "extends": [
         {
           "type": "TSInterfaceHeritage",
-          "start": 53,
-          "end": 54,
           "expression": {
             "type": "Identifier",
-            "start": 53,
-            "end": 54,
             "decorators": [],
             "name": "M",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 53,
+            "end": 54
           },
-          "typeArguments": null
+          "typeArguments": null,
+          "start": 53,
+          "end": 54
         }
       ],
       "body": {
         "type": "TSInterfaceBody",
+        "body": [],
         "start": 55,
-        "end": 58,
-        "body": []
+        "end": 58
       },
-      "declare": false
+      "declare": false,
+      "start": 33,
+      "end": 58
     },
     {
       "type": "ClassDeclaration",
-      "start": 59,
-      "end": 84,
       "decorators": [],
       "id": {
         "type": "Identifier",
-        "start": 65,
-        "end": 67,
         "decorators": [],
         "name": "C2",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 65,
+        "end": 67
       },
       "typeParameters": null,
       "superClass": null,
@@ -122,31 +118,35 @@ __ESTREE_TEST__:PASS:
       "implements": [
         {
           "type": "TSClassImplements",
-          "start": 79,
-          "end": 80,
           "expression": {
             "type": "Identifier",
-            "start": 79,
-            "end": 80,
             "decorators": [],
             "name": "M",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 79,
+            "end": 80
           },
-          "typeArguments": null
+          "typeArguments": null,
+          "start": 79,
+          "end": 80
         }
       ],
       "body": {
         "type": "ClassBody",
+        "body": [],
         "start": 81,
-        "end": 84,
-        "body": []
+        "end": 84
       },
       "abstract": false,
-      "declare": false
+      "declare": false,
+      "start": 59,
+      "end": 84
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 84
 }
 ```

@@ -1,80 +1,80 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 922,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 849,
-      "end": 921,
       "expression": {
         "type": "CallExpression",
-        "start": 849,
-        "end": 920,
         "callee": {
           "type": "MemberExpression",
-          "start": 849,
-          "end": 865,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 849,
-            "end": 855,
-            "name": "assert"
+            "end": 855
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 856,
-            "end": 865,
-            "name": "sameValue"
+            "end": 865
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 849,
+          "end": 865
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 866,
-            "end": 876,
             "callee": {
               "type": "MemberExpression",
-              "start": 866,
-              "end": 874,
               "object": {
                 "type": "Identifier",
+                "name": "Date",
                 "start": 866,
-                "end": 870,
-                "name": "Date"
+                "end": 870
               },
               "property": {
                 "type": "Identifier",
+                "name": "UTC",
                 "start": 871,
-                "end": 874,
-                "name": "UTC"
+                "end": 874
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 866,
+              "end": 874
             },
             "arguments": [],
-            "optional": false
+            "optional": false,
+            "start": 866,
+            "end": 876
           },
           {
             "type": "Identifier",
+            "name": "NaN",
             "start": 878,
-            "end": 881,
-            "name": "NaN"
+            "end": 881
           },
           {
             "type": "Literal",
-            "start": 883,
-            "end": 919,
             "value": "missing non-optional year argument",
-            "raw": "'missing non-optional year argument'"
+            "raw": "'missing non-optional year argument'",
+            "start": 883,
+            "end": 919
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 849,
+        "end": 920
+      },
+      "start": 849,
+      "end": 921
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 922
 }

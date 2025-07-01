@@ -1,62 +1,62 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 1147,
   "body": [
     {
       "type": "ClassDeclaration",
-      "start": 1115,
-      "end": 1125,
       "decorators": [],
       "id": {
         "type": "Identifier",
+        "name": "C",
         "start": 1121,
-        "end": 1122,
-        "name": "C"
+        "end": 1122
       },
       "superClass": null,
       "body": {
         "type": "ClassBody",
+        "body": [],
         "start": 1123,
-        "end": 1125,
-        "body": []
-      }
+        "end": 1125
+      },
+      "start": 1115,
+      "end": 1125
     },
     {
       "type": "ExpressionStatement",
-      "start": 1125,
-      "end": 1146,
       "expression": {
         "type": "ArrowFunctionExpression",
-        "start": 1125,
-        "end": 1145,
         "expression": false,
         "async": false,
         "params": [],
         "body": {
           "type": "BlockStatement",
-          "start": 1131,
-          "end": 1145,
           "body": [
             {
               "type": "ReturnStatement",
-              "start": 1133,
-              "end": 1143,
               "argument": {
                 "type": "Literal",
-                "start": 1140,
-                "end": 1142,
                 "value": 42,
-                "raw": "42"
-              }
+                "raw": "42",
+                "start": 1140,
+                "end": 1142
+              },
+              "start": 1133,
+              "end": 1143
             }
-          ]
+          ],
+          "start": 1131,
+          "end": 1145
         },
         "id": null,
-        "generator": false
-      }
+        "generator": false,
+        "start": 1125,
+        "end": 1145
+      },
+      "start": 1125,
+      "end": 1146
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 1147
 }

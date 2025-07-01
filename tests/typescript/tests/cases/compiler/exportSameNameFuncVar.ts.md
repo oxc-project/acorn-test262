@@ -2,65 +2,59 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 42,
   "body": [
     {
       "type": "ExportNamedDeclaration",
-      "start": 0,
-      "end": 18,
       "declaration": {
         "type": "VariableDeclaration",
-        "start": 7,
-        "end": 18,
         "kind": "var",
         "declarations": [
           {
             "type": "VariableDeclarator",
-            "start": 11,
-            "end": 17,
             "id": {
               "type": "Identifier",
-              "start": 11,
-              "end": 12,
               "decorators": [],
               "name": "a",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 11,
+              "end": 12
             },
             "init": {
               "type": "Literal",
-              "start": 15,
-              "end": 17,
               "value": 10,
-              "raw": "10"
+              "raw": "10",
+              "start": 15,
+              "end": 17
             },
-            "definite": false
+            "definite": false,
+            "start": 11,
+            "end": 17
           }
         ],
-        "declare": false
+        "declare": false,
+        "start": 7,
+        "end": 18
       },
       "specifiers": [],
       "source": null,
       "exportKind": "value",
-      "attributes": []
+      "attributes": [],
+      "start": 0,
+      "end": 18
     },
     {
       "type": "ExportNamedDeclaration",
-      "start": 19,
-      "end": 42,
       "declaration": {
         "type": "FunctionDeclaration",
-        "start": 26,
-        "end": 42,
         "id": {
           "type": "Identifier",
-          "start": 35,
-          "end": 36,
           "decorators": [],
           "name": "a",
           "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "start": 35,
+          "end": 36
         },
         "generator": false,
         "async": false,
@@ -70,19 +64,25 @@ __ESTREE_TEST__:PASS:
         "returnType": null,
         "body": {
           "type": "BlockStatement",
+          "body": [],
           "start": 39,
-          "end": 42,
-          "body": []
+          "end": 42
         },
-        "expression": false
+        "expression": false,
+        "start": 26,
+        "end": 42
       },
       "specifiers": [],
       "source": null,
       "exportKind": "value",
-      "attributes": []
+      "attributes": [],
+      "start": 19,
+      "end": 42
     }
   ],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 42
 }
 ```

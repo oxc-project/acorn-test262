@@ -2,142 +2,142 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 69,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 0,
-      "end": 11,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 4,
-          "end": 10,
           "id": {
             "type": "Identifier",
-            "start": 4,
-            "end": 5,
             "decorators": [],
             "name": "C",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 4,
+            "end": 5
           },
           "init": {
             "type": "ArrayExpression",
+            "elements": [],
             "start": 8,
-            "end": 10,
-            "elements": []
+            "end": 10
           },
-          "definite": false
+          "definite": false,
+          "start": 4,
+          "end": 10
         }
       ],
-      "declare": false
+      "declare": false,
+      "start": 0,
+      "end": 11
     },
     {
       "type": "ForInStatement",
-      "start": 12,
-      "end": 69,
       "left": {
         "type": "VariableDeclaration",
-        "start": 17,
-        "end": 22,
         "kind": "var",
         "declarations": [
           {
             "type": "VariableDeclarator",
-            "start": 21,
-            "end": 22,
             "id": {
               "type": "Identifier",
-              "start": 21,
-              "end": 22,
               "decorators": [],
               "name": "a",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 21,
+              "end": 22
             },
             "init": null,
-            "definite": false
+            "definite": false,
+            "start": 21,
+            "end": 22
           }
         ],
-        "declare": false
+        "declare": false,
+        "start": 17,
+        "end": 22
       },
       "right": {
         "type": "Identifier",
-        "start": 26,
-        "end": 27,
         "decorators": [],
         "name": "C",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 26,
+        "end": 27
       },
       "body": {
         "type": "BlockStatement",
-        "start": 29,
-        "end": 69,
         "body": [
           {
             "type": "IfStatement",
-            "start": 35,
-            "end": 67,
             "test": {
               "type": "CallExpression",
-              "start": 39,
-              "end": 58,
               "callee": {
                 "type": "MemberExpression",
-                "start": 39,
-                "end": 55,
                 "object": {
                   "type": "Identifier",
-                  "start": 39,
-                  "end": 40,
                   "decorators": [],
                   "name": "C",
                   "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "start": 39,
+                  "end": 40
                 },
                 "property": {
                   "type": "Identifier",
-                  "start": 41,
-                  "end": 55,
                   "decorators": [],
                   "name": "hasOwnProperty",
                   "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "start": 41,
+                  "end": 55
                 },
                 "optional": false,
-                "computed": false
+                "computed": false,
+                "start": 39,
+                "end": 55
               },
               "typeArguments": null,
               "arguments": [
                 {
                   "type": "Identifier",
-                  "start": 56,
-                  "end": 57,
                   "decorators": [],
                   "name": "a",
                   "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "start": 56,
+                  "end": 57
                 }
               ],
-              "optional": false
+              "optional": false,
+              "start": 39,
+              "end": 58
             },
             "consequent": {
               "type": "BlockStatement",
+              "body": [],
               "start": 60,
-              "end": 67,
-              "body": []
+              "end": 67
             },
-            "alternate": null
+            "alternate": null,
+            "start": 35,
+            "end": 67
           }
-        ]
-      }
+        ],
+        "start": 29,
+        "end": 69
+      },
+      "start": 12,
+      "end": 69
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 69
 }
 ```

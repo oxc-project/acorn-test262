@@ -1,80 +1,80 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 522,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 450,
-      "end": 521,
       "expression": {
         "type": "CallExpression",
-        "start": 450,
-        "end": 520,
         "callee": {
           "type": "MemberExpression",
-          "start": 450,
-          "end": 466,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 450,
-            "end": 456,
-            "name": "assert"
+            "end": 456
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 457,
-            "end": 466,
-            "name": "sameValue"
+            "end": 466
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 450,
+          "end": 466
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 467,
-            "end": 507,
             "callee": {
               "type": "MemberExpression",
-              "start": 467,
-              "end": 488,
               "object": {
                 "type": "Identifier",
+                "name": "Object",
                 "start": 467,
-                "end": 473,
-                "name": "Object"
+                "end": 473
               },
               "property": {
                 "type": "Identifier",
+                "name": "getPrototypeOf",
                 "start": 474,
-                "end": 488,
-                "name": "getPrototypeOf"
+                "end": 488
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 467,
+              "end": 488
             },
             "arguments": [
               {
                 "type": "Identifier",
+                "name": "Uint8ClampedArray",
                 "start": 489,
-                "end": 506,
-                "name": "Uint8ClampedArray"
+                "end": 506
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 467,
+            "end": 507
           },
           {
             "type": "Identifier",
+            "name": "TypedArray",
             "start": 509,
-            "end": 519,
-            "name": "TypedArray"
+            "end": 519
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 450,
+        "end": 520
+      },
+      "start": 450,
+      "end": 521
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 522
 }

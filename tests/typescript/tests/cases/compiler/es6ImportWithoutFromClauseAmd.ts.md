@@ -2,209 +2,209 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 19,
   "body": [
     {
       "type": "ExportNamedDeclaration",
-      "start": 0,
-      "end": 18,
       "declaration": {
         "type": "VariableDeclaration",
-        "start": 7,
-        "end": 18,
         "kind": "var",
         "declarations": [
           {
             "type": "VariableDeclarator",
-            "start": 11,
-            "end": 17,
             "id": {
               "type": "Identifier",
-              "start": 11,
-              "end": 12,
               "decorators": [],
               "name": "a",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 11,
+              "end": 12
             },
             "init": {
               "type": "Literal",
-              "start": 15,
-              "end": 17,
               "value": 10,
-              "raw": "10"
+              "raw": "10",
+              "start": 15,
+              "end": 17
             },
-            "definite": false
+            "definite": false,
+            "start": 11,
+            "end": 17
           }
         ],
-        "declare": false
+        "declare": false,
+        "start": 7,
+        "end": 18
       },
       "specifiers": [],
       "source": null,
       "exportKind": "value",
-      "attributes": []
+      "attributes": [],
+      "start": 0,
+      "end": 18
     }
   ],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 19
 }
 ```
 __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 19,
   "body": [
     {
       "type": "ExportNamedDeclaration",
-      "start": 0,
-      "end": 18,
       "declaration": {
         "type": "VariableDeclaration",
-        "start": 7,
-        "end": 18,
         "kind": "var",
         "declarations": [
           {
             "type": "VariableDeclarator",
-            "start": 11,
-            "end": 17,
             "id": {
               "type": "Identifier",
-              "start": 11,
-              "end": 12,
               "decorators": [],
               "name": "b",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 11,
+              "end": 12
             },
             "init": {
               "type": "Literal",
-              "start": 15,
-              "end": 17,
               "value": 10,
-              "raw": "10"
+              "raw": "10",
+              "start": 15,
+              "end": 17
             },
-            "definite": false
+            "definite": false,
+            "start": 11,
+            "end": 17
           }
         ],
-        "declare": false
+        "declare": false,
+        "start": 7,
+        "end": 18
       },
       "specifiers": [],
       "source": null,
       "exportKind": "value",
-      "attributes": []
+      "attributes": [],
+      "start": 0,
+      "end": 18
     }
   ],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 19
 }
 ```
 __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 110,
   "body": [
     {
       "type": "ImportDeclaration",
-      "start": 0,
-      "end": 41,
       "specifiers": [],
       "source": {
         "type": "Literal",
-        "start": 7,
-        "end": 40,
         "value": "es6ImportWithoutFromClauseAmd_0",
-        "raw": "\"es6ImportWithoutFromClauseAmd_0\""
+        "raw": "\"es6ImportWithoutFromClauseAmd_0\"",
+        "start": 7,
+        "end": 40
       },
       "phase": null,
       "attributes": [],
-      "importKind": "value"
+      "importKind": "value",
+      "start": 0,
+      "end": 41
     },
     {
       "type": "ImportDeclaration",
-      "start": 43,
-      "end": 84,
       "specifiers": [],
       "source": {
         "type": "Literal",
-        "start": 50,
-        "end": 83,
         "value": "es6ImportWithoutFromClauseAmd_2",
-        "raw": "\"es6ImportWithoutFromClauseAmd_2\""
+        "raw": "\"es6ImportWithoutFromClauseAmd_2\"",
+        "start": 50,
+        "end": 83
       },
       "phase": null,
       "attributes": [],
-      "importKind": "value"
+      "importKind": "value",
+      "start": 43,
+      "end": 84
     },
     {
       "type": "VariableDeclaration",
-      "start": 85,
-      "end": 97,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 89,
-          "end": 96,
           "id": {
             "type": "Identifier",
-            "start": 89,
-            "end": 91,
             "decorators": [],
             "name": "_a",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 89,
+            "end": 91
           },
           "init": {
             "type": "Literal",
-            "start": 94,
-            "end": 96,
             "value": 10,
-            "raw": "10"
+            "raw": "10",
+            "start": 94,
+            "end": 96
           },
-          "definite": false
+          "definite": false,
+          "start": 89,
+          "end": 96
         }
       ],
-      "declare": false
+      "declare": false,
+      "start": 85,
+      "end": 97
     },
     {
       "type": "VariableDeclaration",
-      "start": 98,
-      "end": 110,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 102,
-          "end": 109,
           "id": {
             "type": "Identifier",
-            "start": 102,
-            "end": 104,
             "decorators": [],
             "name": "_b",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 102,
+            "end": 104
           },
           "init": {
             "type": "Literal",
-            "start": 107,
-            "end": 109,
             "value": 10,
-            "raw": "10"
+            "raw": "10",
+            "start": 107,
+            "end": 109
           },
-          "definite": false
+          "definite": false,
+          "start": 102,
+          "end": 109
         }
       ],
-      "declare": false
+      "declare": false,
+      "start": 98,
+      "end": 110
     }
   ],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 110
 }
 ```

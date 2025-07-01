@@ -1,93 +1,93 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 528,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 474,
-      "end": 494,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 478,
-          "end": 493,
           "id": {
             "type": "Identifier",
+            "name": "d",
             "start": 478,
-            "end": 479,
-            "name": "d"
+            "end": 479
           },
           "init": {
             "type": "UnaryExpression",
-            "start": 482,
-            "end": 493,
             "operator": "delete",
             "argument": {
               "type": "Identifier",
+              "name": "JSON",
               "start": 489,
-              "end": 493,
-              "name": "JSON"
+              "end": 493
             },
-            "prefix": true
-          }
+            "prefix": true,
+            "start": 482,
+            "end": 493
+          },
+          "start": 478,
+          "end": 493
         }
-      ]
+      ],
+      "start": 474,
+      "end": 494
     },
     {
       "type": "ExpressionStatement",
-      "start": 496,
-      "end": 527,
       "expression": {
         "type": "CallExpression",
-        "start": 496,
-        "end": 526,
         "callee": {
           "type": "MemberExpression",
-          "start": 496,
-          "end": 512,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 496,
-            "end": 502,
-            "name": "assert"
+            "end": 502
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 503,
-            "end": 512,
-            "name": "sameValue"
+            "end": 512
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 496,
+          "end": 512
         },
         "arguments": [
           {
             "type": "Identifier",
+            "name": "d",
             "start": 513,
-            "end": 514,
-            "name": "d"
+            "end": 514
           },
           {
             "type": "Literal",
-            "start": 516,
-            "end": 520,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "start": 516,
+            "end": 520
           },
           {
             "type": "Literal",
-            "start": 522,
-            "end": 525,
             "value": "d",
-            "raw": "'d'"
+            "raw": "'d'",
+            "start": 522,
+            "end": 525
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 496,
+        "end": 526
+      },
+      "start": 496,
+      "end": 527
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 528
 }

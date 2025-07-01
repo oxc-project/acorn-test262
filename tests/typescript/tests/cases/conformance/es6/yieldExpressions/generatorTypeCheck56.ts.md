@@ -2,21 +2,17 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 100,
   "body": [
     {
       "type": "FunctionDeclaration",
-      "start": 0,
-      "end": 100,
       "id": {
         "type": "Identifier",
-        "start": 10,
-        "end": 11,
         "decorators": [],
         "name": "g",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 10,
+        "end": 11
       },
       "generator": true,
       "async": false,
@@ -26,41 +22,33 @@ __ESTREE_TEST__:PASS:
       "returnType": null,
       "body": {
         "type": "BlockStatement",
-        "start": 14,
-        "end": 100,
         "body": [
           {
             "type": "VariableDeclaration",
-            "start": 20,
-            "end": 98,
             "kind": "var",
             "declarations": [
               {
                 "type": "VariableDeclarator",
-                "start": 24,
-                "end": 97,
                 "id": {
                   "type": "Identifier",
-                  "start": 24,
-                  "end": 25,
                   "decorators": [],
                   "name": "x",
                   "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "start": 24,
+                  "end": 25
                 },
                 "init": {
                   "type": "ClassExpression",
-                  "start": 28,
-                  "end": 97,
                   "decorators": [],
                   "id": {
                     "type": "Identifier",
-                    "start": 34,
-                    "end": 35,
                     "decorators": [],
                     "name": "C",
                     "optional": false,
-                    "typeAnnotation": null
+                    "typeAnnotation": null,
+                    "start": 34,
+                    "end": 35
                   },
                   "typeParameters": null,
                   "superClass": null,
@@ -68,31 +56,25 @@ __ESTREE_TEST__:PASS:
                   "implements": [],
                   "body": {
                     "type": "ClassBody",
-                    "start": 36,
-                    "end": 97,
                     "body": [
                       {
                         "type": "MethodDefinition",
-                        "start": 46,
-                        "end": 91,
                         "decorators": [],
                         "key": {
                           "type": "YieldExpression",
-                          "start": 48,
-                          "end": 55,
                           "delegate": false,
                           "argument": {
                             "type": "Literal",
-                            "start": 54,
-                            "end": 55,
                             "value": 0,
-                            "raw": "0"
-                          }
+                            "raw": "0",
+                            "start": 54,
+                            "end": 55
+                          },
+                          "start": 48,
+                          "end": 55
                         },
                         "value": {
                           "type": "FunctionExpression",
-                          "start": 56,
-                          "end": 91,
                           "id": null,
                           "generator": true,
                           "async": false,
@@ -102,55 +84,73 @@ __ESTREE_TEST__:PASS:
                           "returnType": null,
                           "body": {
                             "type": "BlockStatement",
-                            "start": 59,
-                            "end": 91,
                             "body": [
                               {
                                 "type": "ExpressionStatement",
-                                "start": 73,
-                                "end": 81,
                                 "expression": {
                                   "type": "YieldExpression",
-                                  "start": 73,
-                                  "end": 80,
                                   "delegate": false,
                                   "argument": {
                                     "type": "Literal",
-                                    "start": 79,
-                                    "end": 80,
                                     "value": 0,
-                                    "raw": "0"
-                                  }
+                                    "raw": "0",
+                                    "start": 79,
+                                    "end": 80
+                                  },
+                                  "start": 73,
+                                  "end": 80
                                 },
-                                "directive": null
+                                "directive": null,
+                                "start": 73,
+                                "end": 81
                               }
-                            ]
+                            ],
+                            "start": 59,
+                            "end": 91
                           },
-                          "expression": false
+                          "expression": false,
+                          "start": 56,
+                          "end": 91
                         },
                         "kind": "method",
                         "computed": true,
                         "static": false,
                         "override": false,
                         "optional": false,
-                        "accessibility": null
+                        "accessibility": null,
+                        "start": 46,
+                        "end": 91
                       }
-                    ]
+                    ],
+                    "start": 36,
+                    "end": 97
                   },
                   "abstract": false,
-                  "declare": false
+                  "declare": false,
+                  "start": 28,
+                  "end": 97
                 },
-                "definite": false
+                "definite": false,
+                "start": 24,
+                "end": 97
               }
             ],
-            "declare": false
+            "declare": false,
+            "start": 20,
+            "end": 98
           }
-        ]
+        ],
+        "start": 14,
+        "end": 100
       },
-      "expression": false
+      "expression": false,
+      "start": 0,
+      "end": 100
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 100
 }
 ```

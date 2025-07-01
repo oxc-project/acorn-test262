@@ -1,66 +1,66 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 385,
   "body": [
     {
       "type": "ImportDeclaration",
-      "start": 267,
-      "end": 314,
       "specifiers": [],
       "source": {
         "type": "Literal",
-        "start": 274,
-        "end": 313,
         "value": "./module-graphs-parent-tla_FIXTURE.js",
-        "raw": "\"./module-graphs-parent-tla_FIXTURE.js\""
+        "raw": "\"./module-graphs-parent-tla_FIXTURE.js\"",
+        "start": 274,
+        "end": 313
       },
       "phase": null,
-      "attributes": []
+      "attributes": [],
+      "start": 267,
+      "end": 314
     },
     {
       "type": "ExpressionStatement",
-      "start": 315,
-      "end": 374,
       "expression": {
         "type": "AwaitExpression",
-        "start": 315,
-        "end": 373,
         "argument": {
           "type": "ImportExpression",
-          "start": 321,
-          "end": 373,
           "source": {
             "type": "Literal",
-            "start": 328,
-            "end": 372,
             "value": "./module-graphs-grandparent-tla_FIXTURE.js",
-            "raw": "\"./module-graphs-grandparent-tla_FIXTURE.js\""
+            "raw": "\"./module-graphs-grandparent-tla_FIXTURE.js\"",
+            "start": 328,
+            "end": 372
           },
           "options": null,
-          "phase": null
-        }
-      }
+          "phase": null,
+          "start": 321,
+          "end": 373
+        },
+        "start": 315,
+        "end": 373
+      },
+      "start": 315,
+      "end": 374
     },
     {
       "type": "ExpressionStatement",
-      "start": 376,
-      "end": 384,
       "expression": {
         "type": "CallExpression",
-        "start": 376,
-        "end": 383,
         "callee": {
           "type": "Identifier",
+          "name": "$DONE",
           "start": 376,
-          "end": 381,
-          "name": "$DONE"
+          "end": 381
         },
         "arguments": [],
-        "optional": false
-      }
+        "optional": false,
+        "start": 376,
+        "end": 383
+      },
+      "start": 376,
+      "end": 384
     }
   ],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 385
 }

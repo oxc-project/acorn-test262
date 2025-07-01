@@ -2,722 +2,722 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 22,
-  "end": 466,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 22,
-      "end": 41,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 26,
-          "end": 40,
           "id": {
             "type": "Identifier",
-            "start": 26,
-            "end": 35,
             "decorators": [],
             "name": "__proto__",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 26,
+            "end": 35
           },
           "init": {
             "type": "Literal",
-            "start": 38,
-            "end": 40,
             "value": 10,
-            "raw": "10"
+            "raw": "10",
+            "start": 38,
+            "end": 40
           },
-          "definite": false
+          "definite": false,
+          "start": 26,
+          "end": 40
         }
       ],
-      "declare": false
+      "declare": false,
+      "start": 22,
+      "end": 41
     },
     {
       "type": "VariableDeclaration",
-      "start": 42,
-      "end": 73,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 46,
-          "end": 72,
           "id": {
             "type": "Identifier",
-            "start": 46,
-            "end": 47,
             "decorators": [],
             "name": "o",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 46,
+            "end": 47
           },
           "init": {
             "type": "ObjectExpression",
-            "start": 50,
-            "end": 72,
             "properties": [
               {
                 "type": "Property",
-                "start": 56,
-                "end": 70,
                 "kind": "init",
                 "key": {
                   "type": "Literal",
-                  "start": 56,
-                  "end": 67,
                   "value": "__proto__",
-                  "raw": "\"__proto__\""
+                  "raw": "\"__proto__\"",
+                  "start": 56,
+                  "end": 67
                 },
                 "value": {
                   "type": "Literal",
-                  "start": 69,
-                  "end": 70,
                   "value": 0,
-                  "raw": "0"
+                  "raw": "0",
+                  "start": 69,
+                  "end": 70
                 },
                 "method": false,
                 "shorthand": false,
                 "computed": false,
-                "optional": false
+                "optional": false,
+                "start": 56,
+                "end": 70
               }
-            ]
+            ],
+            "start": 50,
+            "end": 72
           },
-          "definite": false
+          "definite": false,
+          "start": 46,
+          "end": 72
         }
       ],
-      "declare": false
+      "declare": false,
+      "start": 42,
+      "end": 73
     },
     {
       "type": "VariableDeclaration",
-      "start": 74,
-      "end": 97,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 78,
-          "end": 96,
           "id": {
             "type": "Identifier",
-            "start": 78,
-            "end": 79,
             "decorators": [],
             "name": "b",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 78,
+            "end": 79
           },
           "init": {
             "type": "MemberExpression",
-            "start": 82,
-            "end": 96,
             "object": {
               "type": "Identifier",
-              "start": 82,
-              "end": 83,
               "decorators": [],
               "name": "o",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 82,
+              "end": 83
             },
             "property": {
               "type": "Literal",
-              "start": 84,
-              "end": 95,
               "value": "__proto__",
-              "raw": "\"__proto__\""
+              "raw": "\"__proto__\"",
+              "start": 84,
+              "end": 95
             },
             "optional": false,
-            "computed": true
+            "computed": true,
+            "start": 82,
+            "end": 96
           },
-          "definite": false
+          "definite": false,
+          "start": 78,
+          "end": 96
         }
       ],
-      "declare": false
+      "declare": false,
+      "start": 74,
+      "end": 97
     },
     {
       "type": "VariableDeclaration",
-      "start": 98,
-      "end": 128,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 102,
-          "end": 127,
           "id": {
             "type": "Identifier",
-            "start": 102,
-            "end": 104,
             "decorators": [],
             "name": "o1",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 102,
+            "end": 104
           },
           "init": {
             "type": "ObjectExpression",
-            "start": 107,
-            "end": 127,
             "properties": [
               {
                 "type": "Property",
-                "start": 113,
-                "end": 125,
                 "kind": "init",
                 "key": {
                   "type": "Identifier",
-                  "start": 113,
-                  "end": 122,
                   "decorators": [],
                   "name": "__proto__",
                   "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "start": 113,
+                  "end": 122
                 },
                 "value": {
                   "type": "Literal",
-                  "start": 124,
-                  "end": 125,
                   "value": 0,
-                  "raw": "0"
+                  "raw": "0",
+                  "start": 124,
+                  "end": 125
                 },
                 "method": false,
                 "shorthand": false,
                 "computed": false,
-                "optional": false
+                "optional": false,
+                "start": 113,
+                "end": 125
               }
-            ]
+            ],
+            "start": 107,
+            "end": 127
           },
-          "definite": false
+          "definite": false,
+          "start": 102,
+          "end": 127
         }
       ],
-      "declare": false
+      "declare": false,
+      "start": 98,
+      "end": 128
     },
     {
       "type": "VariableDeclaration",
-      "start": 129,
-      "end": 154,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 133,
-          "end": 153,
           "id": {
             "type": "Identifier",
-            "start": 133,
-            "end": 135,
             "decorators": [],
             "name": "b1",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 133,
+            "end": 135
           },
           "init": {
             "type": "MemberExpression",
-            "start": 138,
-            "end": 153,
             "object": {
               "type": "Identifier",
-              "start": 138,
-              "end": 140,
               "decorators": [],
               "name": "o1",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 138,
+              "end": 140
             },
             "property": {
               "type": "Literal",
-              "start": 141,
-              "end": 152,
               "value": "__proto__",
-              "raw": "\"__proto__\""
+              "raw": "\"__proto__\"",
+              "start": 141,
+              "end": 152
             },
             "optional": false,
-            "computed": true
+            "computed": true,
+            "start": 138,
+            "end": 153
           },
-          "definite": false
+          "definite": false,
+          "start": 133,
+          "end": 153
         }
       ],
-      "declare": false
+      "declare": false,
+      "start": 129,
+      "end": 154
     },
     {
       "type": "VariableDeclaration",
-      "start": 177,
-      "end": 197,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 181,
-          "end": 196,
           "id": {
             "type": "Identifier",
-            "start": 181,
-            "end": 191,
             "decorators": [],
             "name": "___proto__",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 181,
+            "end": 191
           },
           "init": {
             "type": "Literal",
-            "start": 194,
-            "end": 196,
             "value": 10,
-            "raw": "10"
+            "raw": "10",
+            "start": 194,
+            "end": 196
           },
-          "definite": false
+          "definite": false,
+          "start": 181,
+          "end": 196
         }
       ],
-      "declare": false
+      "declare": false,
+      "start": 177,
+      "end": 197
     },
     {
       "type": "VariableDeclaration",
-      "start": 198,
-      "end": 231,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 202,
-          "end": 230,
           "id": {
             "type": "Identifier",
-            "start": 202,
-            "end": 204,
             "decorators": [],
             "name": "o2",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 202,
+            "end": 204
           },
           "init": {
             "type": "ObjectExpression",
-            "start": 207,
-            "end": 230,
             "properties": [
               {
                 "type": "Property",
-                "start": 213,
-                "end": 228,
                 "kind": "init",
                 "key": {
                   "type": "Literal",
-                  "start": 213,
-                  "end": 225,
                   "value": "___proto__",
-                  "raw": "\"___proto__\""
+                  "raw": "\"___proto__\"",
+                  "start": 213,
+                  "end": 225
                 },
                 "value": {
                   "type": "Literal",
-                  "start": 227,
-                  "end": 228,
                   "value": 0,
-                  "raw": "0"
+                  "raw": "0",
+                  "start": 227,
+                  "end": 228
                 },
                 "method": false,
                 "shorthand": false,
                 "computed": false,
-                "optional": false
+                "optional": false,
+                "start": 213,
+                "end": 228
               }
-            ]
+            ],
+            "start": 207,
+            "end": 230
           },
-          "definite": false
+          "definite": false,
+          "start": 202,
+          "end": 230
         }
       ],
-      "declare": false
+      "declare": false,
+      "start": 198,
+      "end": 231
     },
     {
       "type": "VariableDeclaration",
-      "start": 232,
-      "end": 258,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 236,
-          "end": 257,
           "id": {
             "type": "Identifier",
-            "start": 236,
-            "end": 238,
             "decorators": [],
             "name": "b2",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 236,
+            "end": 238
           },
           "init": {
             "type": "MemberExpression",
-            "start": 241,
-            "end": 257,
             "object": {
               "type": "Identifier",
-              "start": 241,
-              "end": 243,
               "decorators": [],
               "name": "o2",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 241,
+              "end": 243
             },
             "property": {
               "type": "Literal",
-              "start": 244,
-              "end": 256,
               "value": "___proto__",
-              "raw": "\"___proto__\""
+              "raw": "\"___proto__\"",
+              "start": 244,
+              "end": 256
             },
             "optional": false,
-            "computed": true
+            "computed": true,
+            "start": 241,
+            "end": 257
           },
-          "definite": false
+          "definite": false,
+          "start": 236,
+          "end": 257
         }
       ],
-      "declare": false
+      "declare": false,
+      "start": 232,
+      "end": 258
     },
     {
       "type": "VariableDeclaration",
-      "start": 259,
-      "end": 290,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 263,
-          "end": 289,
           "id": {
             "type": "Identifier",
-            "start": 263,
-            "end": 265,
             "decorators": [],
             "name": "o3",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 263,
+            "end": 265
           },
           "init": {
             "type": "ObjectExpression",
-            "start": 268,
-            "end": 289,
             "properties": [
               {
                 "type": "Property",
-                "start": 274,
-                "end": 287,
                 "kind": "init",
                 "key": {
                   "type": "Identifier",
-                  "start": 274,
-                  "end": 284,
                   "decorators": [],
                   "name": "___proto__",
                   "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "start": 274,
+                  "end": 284
                 },
                 "value": {
                   "type": "Literal",
-                  "start": 286,
-                  "end": 287,
                   "value": 0,
-                  "raw": "0"
+                  "raw": "0",
+                  "start": 286,
+                  "end": 287
                 },
                 "method": false,
                 "shorthand": false,
                 "computed": false,
-                "optional": false
+                "optional": false,
+                "start": 274,
+                "end": 287
               }
-            ]
+            ],
+            "start": 268,
+            "end": 289
           },
-          "definite": false
+          "definite": false,
+          "start": 263,
+          "end": 289
         }
       ],
-      "declare": false
+      "declare": false,
+      "start": 259,
+      "end": 290
     },
     {
       "type": "VariableDeclaration",
-      "start": 291,
-      "end": 317,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 295,
-          "end": 316,
           "id": {
             "type": "Identifier",
-            "start": 295,
-            "end": 297,
             "decorators": [],
             "name": "b3",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 295,
+            "end": 297
           },
           "init": {
             "type": "MemberExpression",
-            "start": 300,
-            "end": 316,
             "object": {
               "type": "Identifier",
-              "start": 300,
-              "end": 302,
               "decorators": [],
               "name": "o3",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 300,
+              "end": 302
             },
             "property": {
               "type": "Literal",
-              "start": 303,
-              "end": 315,
               "value": "___proto__",
-              "raw": "\"___proto__\""
+              "raw": "\"___proto__\"",
+              "start": 303,
+              "end": 315
             },
             "optional": false,
-            "computed": true
+            "computed": true,
+            "start": 300,
+            "end": 316
           },
-          "definite": false
+          "definite": false,
+          "start": 295,
+          "end": 316
         }
       ],
-      "declare": false
+      "declare": false,
+      "start": 291,
+      "end": 317
     },
     {
       "type": "VariableDeclaration",
-      "start": 336,
-      "end": 354,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 340,
-          "end": 353,
           "id": {
             "type": "Identifier",
-            "start": 340,
-            "end": 348,
             "decorators": [],
             "name": "_proto__",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 340,
+            "end": 348
           },
           "init": {
             "type": "Literal",
-            "start": 351,
-            "end": 353,
             "value": 10,
-            "raw": "10"
+            "raw": "10",
+            "start": 351,
+            "end": 353
           },
-          "definite": false
+          "definite": false,
+          "start": 340,
+          "end": 353
         }
       ],
-      "declare": false
+      "declare": false,
+      "start": 336,
+      "end": 354
     },
     {
       "type": "VariableDeclaration",
-      "start": 355,
-      "end": 386,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 359,
-          "end": 385,
           "id": {
             "type": "Identifier",
-            "start": 359,
-            "end": 361,
             "decorators": [],
             "name": "o4",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 359,
+            "end": 361
           },
           "init": {
             "type": "ObjectExpression",
-            "start": 364,
-            "end": 385,
             "properties": [
               {
                 "type": "Property",
-                "start": 370,
-                "end": 383,
                 "kind": "init",
                 "key": {
                   "type": "Literal",
-                  "start": 370,
-                  "end": 380,
                   "value": "_proto__",
-                  "raw": "\"_proto__\""
+                  "raw": "\"_proto__\"",
+                  "start": 370,
+                  "end": 380
                 },
                 "value": {
                   "type": "Literal",
-                  "start": 382,
-                  "end": 383,
                   "value": 0,
-                  "raw": "0"
+                  "raw": "0",
+                  "start": 382,
+                  "end": 383
                 },
                 "method": false,
                 "shorthand": false,
                 "computed": false,
-                "optional": false
+                "optional": false,
+                "start": 370,
+                "end": 383
               }
-            ]
+            ],
+            "start": 364,
+            "end": 385
           },
-          "definite": false
+          "definite": false,
+          "start": 359,
+          "end": 385
         }
       ],
-      "declare": false
+      "declare": false,
+      "start": 355,
+      "end": 386
     },
     {
       "type": "VariableDeclaration",
-      "start": 387,
-      "end": 411,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 391,
-          "end": 410,
           "id": {
             "type": "Identifier",
-            "start": 391,
-            "end": 393,
             "decorators": [],
             "name": "b4",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 391,
+            "end": 393
           },
           "init": {
             "type": "MemberExpression",
-            "start": 396,
-            "end": 410,
             "object": {
               "type": "Identifier",
-              "start": 396,
-              "end": 398,
               "decorators": [],
               "name": "o4",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 396,
+              "end": 398
             },
             "property": {
               "type": "Literal",
-              "start": 399,
-              "end": 409,
               "value": "_proto__",
-              "raw": "\"_proto__\""
+              "raw": "\"_proto__\"",
+              "start": 399,
+              "end": 409
             },
             "optional": false,
-            "computed": true
+            "computed": true,
+            "start": 396,
+            "end": 410
           },
-          "definite": false
+          "definite": false,
+          "start": 391,
+          "end": 410
         }
       ],
-      "declare": false
+      "declare": false,
+      "start": 387,
+      "end": 411
     },
     {
       "type": "VariableDeclaration",
-      "start": 412,
-      "end": 441,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 416,
-          "end": 440,
           "id": {
             "type": "Identifier",
-            "start": 416,
-            "end": 418,
             "decorators": [],
             "name": "o5",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 416,
+            "end": 418
           },
           "init": {
             "type": "ObjectExpression",
-            "start": 421,
-            "end": 440,
             "properties": [
               {
                 "type": "Property",
-                "start": 427,
-                "end": 438,
                 "kind": "init",
                 "key": {
                   "type": "Identifier",
-                  "start": 427,
-                  "end": 435,
                   "decorators": [],
                   "name": "_proto__",
                   "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "start": 427,
+                  "end": 435
                 },
                 "value": {
                   "type": "Literal",
-                  "start": 437,
-                  "end": 438,
                   "value": 0,
-                  "raw": "0"
+                  "raw": "0",
+                  "start": 437,
+                  "end": 438
                 },
                 "method": false,
                 "shorthand": false,
                 "computed": false,
-                "optional": false
+                "optional": false,
+                "start": 427,
+                "end": 438
               }
-            ]
+            ],
+            "start": 421,
+            "end": 440
           },
-          "definite": false
+          "definite": false,
+          "start": 416,
+          "end": 440
         }
       ],
-      "declare": false
+      "declare": false,
+      "start": 412,
+      "end": 441
     },
     {
       "type": "VariableDeclaration",
-      "start": 442,
-      "end": 466,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 446,
-          "end": 465,
           "id": {
             "type": "Identifier",
-            "start": 446,
-            "end": 448,
             "decorators": [],
             "name": "b5",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 446,
+            "end": 448
           },
           "init": {
             "type": "MemberExpression",
-            "start": 451,
-            "end": 465,
             "object": {
               "type": "Identifier",
-              "start": 451,
-              "end": 453,
               "decorators": [],
               "name": "o5",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 451,
+              "end": 453
             },
             "property": {
               "type": "Literal",
-              "start": 454,
-              "end": 464,
               "value": "_proto__",
-              "raw": "\"_proto__\""
+              "raw": "\"_proto__\"",
+              "start": 454,
+              "end": 464
             },
             "optional": false,
-            "computed": true
+            "computed": true,
+            "start": 451,
+            "end": 465
           },
-          "definite": false
+          "definite": false,
+          "start": 446,
+          "end": 465
         }
       ],
-      "declare": false
+      "declare": false,
+      "start": 442,
+      "end": 466
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 22,
+  "end": 466
 }
 ```

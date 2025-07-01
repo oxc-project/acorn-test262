@@ -1,55 +1,55 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 1363,
   "body": [
     {
       "type": "FunctionDeclaration",
-      "start": 1301,
-      "end": 1362,
       "id": {
         "type": "Identifier",
+        "name": "fn",
         "start": 1310,
-        "end": 1312,
-        "name": "fn"
+        "end": 1312
       },
       "generator": false,
       "async": false,
       "params": [],
       "body": {
         "type": "BlockStatement",
-        "start": 1315,
-        "end": 1362,
         "body": [
           {
             "type": "ReturnStatement",
-            "start": 1319,
-            "end": 1360,
             "argument": {
               "type": "ImportExpression",
-              "start": 1326,
-              "end": 1359,
               "source": {
                 "type": "Literal",
-                "start": 1333,
-                "end": 1353,
                 "value": "./empty_FIXTURE.js",
-                "raw": "'./empty_FIXTURE.js'"
+                "raw": "'./empty_FIXTURE.js'",
+                "start": 1333,
+                "end": 1353
               },
               "options": {
                 "type": "ObjectExpression",
+                "properties": [],
                 "start": 1355,
-                "end": 1357,
-                "properties": []
+                "end": 1357
               },
-              "phase": null
-            }
+              "phase": null,
+              "start": 1326,
+              "end": 1359
+            },
+            "start": 1319,
+            "end": 1360
           }
-        ]
+        ],
+        "start": 1315,
+        "end": 1362
       },
-      "expression": false
+      "expression": false,
+      "start": 1301,
+      "end": 1362
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 1363
 }

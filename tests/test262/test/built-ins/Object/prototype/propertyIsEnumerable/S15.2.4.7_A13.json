@@ -1,143 +1,143 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 458,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 269,
-      "end": 457,
       "expression": {
         "type": "CallExpression",
-        "start": 269,
-        "end": 456,
         "callee": {
           "type": "MemberExpression",
-          "start": 269,
-          "end": 282,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 269,
-            "end": 275,
-            "name": "assert"
+            "end": 275
           },
           "property": {
             "type": "Identifier",
+            "name": "throws",
             "start": 276,
-            "end": 282,
-            "name": "throws"
+            "end": 282
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 269,
+          "end": 282
         },
         "arguments": [
           {
             "type": "Identifier",
+            "name": "TypeError",
             "start": 283,
-            "end": 292,
-            "name": "TypeError"
+            "end": 292
           },
           {
             "type": "FunctionExpression",
-            "start": 294,
-            "end": 367,
             "id": null,
             "generator": false,
             "async": false,
             "params": [],
             "body": {
               "type": "BlockStatement",
-              "start": 305,
-              "end": 367,
               "body": [
                 {
                   "type": "ExpressionStatement",
-                  "start": 309,
-                  "end": 365,
                   "expression": {
                     "type": "CallExpression",
-                    "start": 309,
-                    "end": 364,
                     "callee": {
                       "type": "MemberExpression",
-                      "start": 309,
-                      "end": 351,
                       "object": {
                         "type": "MemberExpression",
-                        "start": 309,
-                        "end": 346,
                         "object": {
                           "type": "MemberExpression",
-                          "start": 309,
-                          "end": 325,
                           "object": {
                             "type": "Identifier",
+                            "name": "Object",
                             "start": 309,
-                            "end": 315,
-                            "name": "Object"
+                            "end": 315
                           },
                           "property": {
                             "type": "Identifier",
+                            "name": "prototype",
                             "start": 316,
-                            "end": 325,
-                            "name": "prototype"
+                            "end": 325
                           },
                           "optional": false,
-                          "computed": false
+                          "computed": false,
+                          "start": 309,
+                          "end": 325
                         },
                         "property": {
                           "type": "Identifier",
+                          "name": "propertyIsEnumerable",
                           "start": 326,
-                          "end": 346,
-                          "name": "propertyIsEnumerable"
+                          "end": 346
                         },
                         "optional": false,
-                        "computed": false
+                        "computed": false,
+                        "start": 309,
+                        "end": 346
                       },
                       "property": {
                         "type": "Identifier",
+                        "name": "call",
                         "start": 347,
-                        "end": 351,
-                        "name": "call"
+                        "end": 351
                       },
                       "optional": false,
-                      "computed": false
+                      "computed": false,
+                      "start": 309,
+                      "end": 351
                     },
                     "arguments": [
                       {
                         "type": "Literal",
-                        "start": 352,
-                        "end": 356,
                         "value": null,
-                        "raw": "null"
+                        "raw": "null",
+                        "start": 352,
+                        "end": 356
                       },
                       {
                         "type": "Literal",
-                        "start": 358,
-                        "end": 363,
                         "value": "foo",
-                        "raw": "'foo'"
+                        "raw": "'foo'",
+                        "start": 358,
+                        "end": 363
                       }
                     ],
-                    "optional": false
-                  }
+                    "optional": false,
+                    "start": 309,
+                    "end": 364
+                  },
+                  "start": 309,
+                  "end": 365
                 }
-              ]
+              ],
+              "start": 305,
+              "end": 367
             },
-            "expression": false
+            "expression": false,
+            "start": 294,
+            "end": 367
           },
           {
             "type": "Literal",
-            "start": 369,
-            "end": 455,
             "value": "Object.prototype.propertyIsEnumerable.call(null, \"foo\") throws a TypeError exception",
-            "raw": "'Object.prototype.propertyIsEnumerable.call(null, \"foo\") throws a TypeError exception'"
+            "raw": "'Object.prototype.propertyIsEnumerable.call(null, \"foo\") throws a TypeError exception'",
+            "start": 369,
+            "end": 455
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 269,
+        "end": 456
+      },
+      "start": 269,
+      "end": 457
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 458
 }

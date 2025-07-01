@@ -1,75 +1,75 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 362,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 293,
-      "end": 361,
       "expression": {
         "type": "CallExpression",
-        "start": 293,
-        "end": 360,
         "callee": {
           "type": "MemberExpression",
-          "start": 293,
-          "end": 309,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 293,
-            "end": 299,
-            "name": "assert"
+            "end": 299
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 300,
-            "end": 309,
-            "name": "sameValue"
+            "end": 309
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 293,
+          "end": 309
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 310,
-            "end": 322,
             "callee": {
               "type": "Identifier",
+              "name": "parseInt",
               "start": 310,
-              "end": 318,
-              "name": "parseInt"
+              "end": 318
             },
             "arguments": [
               {
                 "type": "Literal",
-                "start": 319,
-                "end": 321,
                 "value": "",
-                "raw": "\"\""
+                "raw": "\"\"",
+                "start": 319,
+                "end": 321
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 310,
+            "end": 322
           },
           {
             "type": "Identifier",
+            "name": "NaN",
             "start": 324,
-            "end": 327,
-            "name": "NaN"
+            "end": 327
           },
           {
             "type": "Literal",
-            "start": 329,
-            "end": 359,
             "value": "parseInt(\"\") must return NaN",
-            "raw": "'parseInt(\"\") must return NaN'"
+            "raw": "'parseInt(\"\") must return NaN'",
+            "start": 329,
+            "end": 359
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 293,
+        "end": 360
+      },
+      "start": 293,
+      "end": 361
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 362
 }

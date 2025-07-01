@@ -1,145 +1,145 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 345,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 221,
-      "end": 247,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 225,
-          "end": 246,
           "id": {
             "type": "Identifier",
+            "name": "dateObj",
             "start": 225,
-            "end": 232,
-            "name": "dateObj"
+            "end": 232
           },
           "init": {
             "type": "NewExpression",
-            "start": 235,
-            "end": 246,
             "callee": {
               "type": "Identifier",
+              "name": "Date",
               "start": 239,
-              "end": 243,
-              "name": "Date"
+              "end": 243
             },
             "arguments": [
               {
                 "type": "Literal",
-                "start": 244,
-                "end": 245,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "start": 244,
+                "end": 245
               }
-            ]
-          }
+            ],
+            "start": 235,
+            "end": 246
+          },
+          "start": 225,
+          "end": 246
         }
-      ]
+      ],
+      "start": 221,
+      "end": 247
     },
     {
       "type": "ExpressionStatement",
-      "start": 249,
-      "end": 272,
       "expression": {
         "type": "CallExpression",
-        "start": 249,
-        "end": 271,
         "callee": {
           "type": "MemberExpression",
-          "start": 249,
-          "end": 262,
           "object": {
             "type": "Identifier",
+            "name": "Object",
             "start": 249,
-            "end": 255,
-            "name": "Object"
+            "end": 255
           },
           "property": {
             "type": "Identifier",
+            "name": "freeze",
             "start": 256,
-            "end": 262,
-            "name": "freeze"
+            "end": 262
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 249,
+          "end": 262
         },
         "arguments": [
           {
             "type": "Identifier",
+            "name": "dateObj",
             "start": 263,
-            "end": 270,
-            "name": "dateObj"
+            "end": 270
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 249,
+        "end": 271
+      },
+      "start": 249,
+      "end": 272
     },
     {
       "type": "ExpressionStatement",
-      "start": 274,
-      "end": 344,
       "expression": {
         "type": "CallExpression",
-        "start": 274,
-        "end": 343,
         "callee": {
           "type": "Identifier",
+          "name": "assert",
           "start": 274,
-          "end": 280,
-          "name": "assert"
+          "end": 280
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 281,
-            "end": 305,
             "callee": {
               "type": "MemberExpression",
-              "start": 281,
-              "end": 296,
               "object": {
                 "type": "Identifier",
+                "name": "Object",
                 "start": 281,
-                "end": 287,
-                "name": "Object"
+                "end": 287
               },
               "property": {
                 "type": "Identifier",
+                "name": "isFrozen",
                 "start": 288,
-                "end": 296,
-                "name": "isFrozen"
+                "end": 296
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 281,
+              "end": 296
             },
             "arguments": [
               {
                 "type": "Identifier",
+                "name": "dateObj",
                 "start": 297,
-                "end": 304,
-                "name": "dateObj"
+                "end": 304
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 281,
+            "end": 305
           },
           {
             "type": "Literal",
-            "start": 307,
-            "end": 342,
             "value": "Object.isFrozen(dateObj) !== true",
-            "raw": "'Object.isFrozen(dateObj) !== true'"
+            "raw": "'Object.isFrozen(dateObj) !== true'",
+            "start": 307,
+            "end": 342
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 274,
+        "end": 343
+      },
+      "start": 274,
+      "end": 344
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 345
 }

@@ -2,117 +2,117 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 35,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 0,
-      "end": 35,
       "expression": {
         "type": "CallExpression",
-        "start": 0,
-        "end": 34,
         "callee": {
           "type": "MemberExpression",
-          "start": 0,
-          "end": 19,
           "object": {
             "type": "ArrayExpression",
-            "start": 0,
-            "end": 15,
             "elements": [
               {
                 "type": "Literal",
-                "start": 1,
-                "end": 4,
                 "value": "a",
-                "raw": "'a'"
+                "raw": "'a'",
+                "start": 1,
+                "end": 4
               },
               {
                 "type": "Literal",
-                "start": 6,
-                "end": 9,
                 "value": "b",
-                "raw": "'b'"
+                "raw": "'b'",
+                "start": 6,
+                "end": 9
               },
               {
                 "type": "Literal",
-                "start": 11,
-                "end": 14,
                 "value": "c",
-                "raw": "'c'"
+                "raw": "'c'",
+                "start": 11,
+                "end": 14
               }
-            ]
+            ],
+            "start": 0,
+            "end": 15
           },
           "property": {
             "type": "Identifier",
-            "start": 16,
-            "end": 19,
             "decorators": [],
             "name": "map",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 16,
+            "end": 19
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 0,
+          "end": 19
         },
         "typeArguments": null,
         "arguments": [
           {
             "type": "ArrowFunctionExpression",
-            "start": 20,
-            "end": 33,
             "expression": true,
             "async": false,
             "typeParameters": null,
             "params": [
               {
                 "type": "Identifier",
-                "start": 20,
-                "end": 21,
                 "decorators": [],
                 "name": "x",
                 "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "start": 20,
+                "end": 21
               }
             ],
             "returnType": null,
             "body": {
               "type": "MemberExpression",
-              "start": 25,
-              "end": 33,
               "object": {
                 "type": "Identifier",
-                "start": 25,
-                "end": 26,
                 "decorators": [],
                 "name": "x",
                 "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "start": 25,
+                "end": 26
               },
               "property": {
                 "type": "Identifier",
-                "start": 27,
-                "end": 33,
                 "decorators": [],
                 "name": "length",
                 "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "start": 27,
+                "end": 33
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 25,
+              "end": 33
             },
             "id": null,
-            "generator": false
+            "generator": false,
+            "start": 20,
+            "end": 33
           }
         ],
-        "optional": false
+        "optional": false,
+        "start": 0,
+        "end": 34
       },
-      "directive": null
+      "directive": null,
+      "start": 0,
+      "end": 35
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 35
 }
 ```

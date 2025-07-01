@@ -2,201 +2,201 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 57,
-  "end": 201,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 57,
-      "end": 83,
       "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 71,
-          "end": 82,
           "id": {
             "type": "Identifier",
-            "start": 71,
-            "end": 82,
             "decorators": [],
             "name": "foo",
             "optional": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
-              "start": 74,
-              "end": 82,
               "typeAnnotation": {
                 "type": "TSStringKeyword",
                 "start": 76,
                 "end": 82
-              }
-            }
+              },
+              "start": 74,
+              "end": 82
+            },
+            "start": 71,
+            "end": 82
           },
           "init": null,
-          "definite": false
+          "definite": false,
+          "start": 71,
+          "end": 82
         }
       ],
-      "declare": true
+      "declare": true,
+      "start": 57,
+      "end": 83
     },
     {
       "type": "IfStatement",
-      "start": 85,
-      "end": 142,
       "test": {
         "type": "BinaryExpression",
-        "start": 89,
-        "end": 114,
         "left": {
           "type": "UnaryExpression",
-          "start": 90,
-          "end": 100,
           "operator": "typeof",
           "argument": {
             "type": "Identifier",
+            "decorators": [],
+            "name": "foo",
+            "optional": false,
+            "typeAnnotation": null,
             "start": 97,
-            "end": 100,
-            "decorators": [],
-            "name": "foo",
-            "optional": false,
-            "typeAnnotation": null
+            "end": 100
           },
-          "prefix": true
+          "prefix": true,
+          "start": 90,
+          "end": 100
         },
         "operator": "===",
         "right": {
           "type": "Literal",
-          "start": 106,
-          "end": 114,
           "value": "string",
-          "raw": "\"string\""
-        }
+          "raw": "\"string\"",
+          "start": 106,
+          "end": 114
+        },
+        "start": 89,
+        "end": 114
       },
       "consequent": {
         "type": "BlockStatement",
-        "start": 116,
-        "end": 126,
         "body": [
           {
             "type": "ExpressionStatement",
-            "start": 120,
-            "end": 124,
             "expression": {
               "type": "Identifier",
-              "start": 120,
-              "end": 123,
               "decorators": [],
               "name": "foo",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 120,
+              "end": 123
             },
-            "directive": null
+            "directive": null,
+            "start": 120,
+            "end": 124
           }
-        ]
+        ],
+        "start": 116,
+        "end": 126
       },
       "alternate": {
         "type": "BlockStatement",
-        "start": 132,
-        "end": 142,
         "body": [
           {
             "type": "ExpressionStatement",
-            "start": 136,
-            "end": 140,
             "expression": {
               "type": "Identifier",
-              "start": 136,
-              "end": 139,
               "decorators": [],
               "name": "foo",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 136,
+              "end": 139
             },
-            "directive": null
+            "directive": null,
+            "start": 136,
+            "end": 140
           }
-        ]
-      }
+        ],
+        "start": 132,
+        "end": 142
+      },
+      "start": 85,
+      "end": 142
     },
     {
       "type": "IfStatement",
-      "start": 144,
-      "end": 201,
       "test": {
         "type": "BinaryExpression",
-        "start": 148,
-        "end": 173,
         "left": {
           "type": "UnaryExpression",
-          "start": 148,
-          "end": 158,
           "operator": "typeof",
           "argument": {
             "type": "Identifier",
-            "start": 155,
-            "end": 158,
             "decorators": [],
             "name": "foo",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 155,
+            "end": 158
           },
-          "prefix": true
+          "prefix": true,
+          "start": 148,
+          "end": 158
         },
         "operator": "===",
         "right": {
           "type": "Literal",
-          "start": 164,
-          "end": 172,
           "value": "string",
-          "raw": "\"string\""
-        }
+          "raw": "\"string\"",
+          "start": 164,
+          "end": 172
+        },
+        "start": 148,
+        "end": 173
       },
       "consequent": {
         "type": "BlockStatement",
-        "start": 175,
-        "end": 185,
         "body": [
           {
             "type": "ExpressionStatement",
-            "start": 179,
-            "end": 183,
             "expression": {
               "type": "Identifier",
-              "start": 179,
-              "end": 182,
               "decorators": [],
               "name": "foo",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 179,
+              "end": 182
             },
-            "directive": null
+            "directive": null,
+            "start": 179,
+            "end": 183
           }
-        ]
+        ],
+        "start": 175,
+        "end": 185
       },
       "alternate": {
         "type": "BlockStatement",
-        "start": 191,
-        "end": 201,
         "body": [
           {
             "type": "ExpressionStatement",
-            "start": 195,
-            "end": 199,
             "expression": {
               "type": "Identifier",
-              "start": 195,
-              "end": 198,
               "decorators": [],
               "name": "foo",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 195,
+              "end": 198
             },
-            "directive": null
+            "directive": null,
+            "start": 195,
+            "end": 199
           }
-        ]
-      }
+        ],
+        "start": 191,
+        "end": 201
+      },
+      "start": 144,
+      "end": 201
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 57,
+  "end": 201
 }
 ```

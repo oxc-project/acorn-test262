@@ -2,51 +2,45 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 48,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 0,
-      "end": 6,
       "expression": {
         "type": "Literal",
-        "start": 0,
-        "end": 6,
         "value": "hey!",
-        "raw": "\"hey!\""
+        "raw": "\"hey!\"",
+        "start": 0,
+        "end": 6
       },
-      "directive": "hey!"
+      "directive": "hey!",
+      "start": 0,
+      "end": 6
     },
     {
       "type": "ExpressionStatement",
-      "start": 7,
-      "end": 21,
       "expression": {
         "type": "Literal",
-        "start": 7,
-        "end": 21,
         "value": " use strict ",
-        "raw": "\" use strict \""
+        "raw": "\" use strict \"",
+        "start": 7,
+        "end": 21
       },
-      "directive": " use strict "
+      "directive": " use strict ",
+      "start": 7,
+      "end": 21
     },
     {
       "type": "ExportNamedDeclaration",
-      "start": 22,
-      "end": 48,
       "declaration": {
         "type": "FunctionDeclaration",
-        "start": 29,
-        "end": 48,
         "id": {
           "type": "Identifier",
-          "start": 38,
-          "end": 39,
           "decorators": [],
           "name": "f",
           "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "start": 38,
+          "end": 39
         },
         "generator": false,
         "async": false,
@@ -56,19 +50,25 @@ __ESTREE_TEST__:PASS:
         "returnType": null,
         "body": {
           "type": "BlockStatement",
+          "body": [],
           "start": 42,
-          "end": 48,
-          "body": []
+          "end": 48
         },
-        "expression": false
+        "expression": false,
+        "start": 29,
+        "end": 48
       },
       "specifiers": [],
       "source": null,
       "exportKind": "value",
-      "attributes": []
+      "attributes": [],
+      "start": 22,
+      "end": 48
     }
   ],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 48
 }
 ```

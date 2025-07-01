@@ -2,164 +2,164 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 77,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 0,
-      "end": 8,
       "kind": "let",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 4,
-          "end": 7,
           "id": {
             "type": "Identifier",
-            "start": 4,
-            "end": 7,
             "decorators": [],
             "name": "foo",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 4,
+            "end": 7
           },
           "init": null,
-          "definite": false
+          "definite": false,
+          "start": 4,
+          "end": 7
         }
       ],
-      "declare": false
+      "declare": false,
+      "start": 0,
+      "end": 8
     },
     {
       "type": "TryStatement",
-      "start": 9,
-      "end": 77,
       "block": {
         "type": "BlockStatement",
-        "start": 13,
-        "end": 61,
         "body": [
           {
             "type": "IfStatement",
-            "start": 16,
-            "end": 59,
             "test": {
               "type": "BinaryExpression",
-              "start": 20,
-              "end": 39,
               "left": {
                 "type": "CallExpression",
-                "start": 20,
-                "end": 33,
                 "callee": {
                   "type": "MemberExpression",
-                  "start": 20,
-                  "end": 31,
                   "object": {
                     "type": "Identifier",
-                    "start": 20,
-                    "end": 24,
                     "decorators": [],
                     "name": "Math",
                     "optional": false,
-                    "typeAnnotation": null
+                    "typeAnnotation": null,
+                    "start": 20,
+                    "end": 24
                   },
                   "property": {
                     "type": "Identifier",
-                    "start": 25,
-                    "end": 31,
                     "decorators": [],
                     "name": "random",
                     "optional": false,
-                    "typeAnnotation": null
+                    "typeAnnotation": null,
+                    "start": 25,
+                    "end": 31
                   },
                   "optional": false,
-                  "computed": false
+                  "computed": false,
+                  "start": 20,
+                  "end": 31
                 },
                 "typeArguments": null,
                 "arguments": [],
-                "optional": false
+                "optional": false,
+                "start": 20,
+                "end": 33
               },
               "operator": ">",
               "right": {
                 "type": "Literal",
-                "start": 36,
-                "end": 39,
                 "value": 0.5,
-                "raw": "0.5"
-              }
+                "raw": "0.5",
+                "start": 36,
+                "end": 39
+              },
+              "start": 20,
+              "end": 39
             },
             "consequent": {
               "type": "BlockStatement",
-              "start": 41,
-              "end": 59,
               "body": [
                 {
                   "type": "ExpressionStatement",
-                  "start": 45,
-                  "end": 56,
                   "expression": {
                     "type": "AssignmentExpression",
-                    "start": 45,
-                    "end": 55,
                     "operator": "=",
                     "left": {
                       "type": "Identifier",
-                      "start": 45,
-                      "end": 48,
                       "decorators": [],
                       "name": "foo",
                       "optional": false,
-                      "typeAnnotation": null
+                      "typeAnnotation": null,
+                      "start": 45,
+                      "end": 48
                     },
                     "right": {
                       "type": "Literal",
-                      "start": 51,
-                      "end": 55,
                       "value": 1234,
-                      "raw": "1234"
-                    }
+                      "raw": "1234",
+                      "start": 51,
+                      "end": 55
+                    },
+                    "start": 45,
+                    "end": 55
                   },
-                  "directive": null
+                  "directive": null,
+                  "start": 45,
+                  "end": 56
                 }
-              ]
+              ],
+              "start": 41,
+              "end": 59
             },
-            "alternate": null
+            "alternate": null,
+            "start": 16,
+            "end": 59
           }
-        ]
+        ],
+        "start": 13,
+        "end": 61
       },
       "handler": {
         "type": "CatchClause",
-        "start": 62,
-        "end": 77,
         "param": null,
         "body": {
           "type": "BlockStatement",
-          "start": 68,
-          "end": 77,
           "body": [
             {
               "type": "ExpressionStatement",
-              "start": 71,
-              "end": 75,
               "expression": {
                 "type": "Identifier",
-                "start": 71,
-                "end": 74,
                 "decorators": [],
                 "name": "foo",
                 "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "start": 71,
+                "end": 74
               },
-              "directive": null
+              "directive": null,
+              "start": 71,
+              "end": 75
             }
-          ]
-        }
+          ],
+          "start": 68,
+          "end": 77
+        },
+        "start": 62,
+        "end": 77
       },
-      "finalizer": null
+      "finalizer": null,
+      "start": 9,
+      "end": 77
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 77
 }
 ```

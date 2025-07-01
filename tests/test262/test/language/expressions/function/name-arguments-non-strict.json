@@ -1,40 +1,40 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 308,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 281,
-      "end": 307,
       "expression": {
         "type": "ParenthesizedExpression",
-        "start": 281,
-        "end": 306,
         "expression": {
           "type": "FunctionExpression",
-          "start": 282,
-          "end": 305,
           "id": {
             "type": "Identifier",
+            "name": "arguments",
             "start": 291,
-            "end": 300,
-            "name": "arguments"
+            "end": 300
           },
           "generator": false,
           "async": false,
           "params": [],
           "body": {
             "type": "BlockStatement",
+            "body": [],
             "start": 303,
-            "end": 305,
-            "body": []
+            "end": 305
           },
-          "expression": false
-        }
-      }
+          "expression": false,
+          "start": 282,
+          "end": 305
+        },
+        "start": 281,
+        "end": 306
+      },
+      "start": 281,
+      "end": 307
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 308
 }

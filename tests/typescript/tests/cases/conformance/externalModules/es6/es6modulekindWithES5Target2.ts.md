@@ -2,26 +2,20 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 72,
   "body": [
     {
       "type": "ExportDefaultDeclaration",
-      "start": 0,
-      "end": 72,
       "declaration": {
         "type": "ClassDeclaration",
-        "start": 15,
-        "end": 72,
         "decorators": [],
         "id": {
           "type": "Identifier",
-          "start": 21,
-          "end": 22,
           "decorators": [],
           "name": "C",
           "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "start": 21,
+          "end": 22
         },
         "typeParameters": null,
         "superClass": null,
@@ -29,30 +23,26 @@ __ESTREE_TEST__:PASS:
         "implements": [],
         "body": {
           "type": "ClassBody",
-          "start": 23,
-          "end": 72,
           "body": [
             {
               "type": "PropertyDefinition",
-              "start": 29,
-              "end": 42,
               "decorators": [],
               "key": {
                 "type": "Identifier",
-                "start": 36,
-                "end": 37,
                 "decorators": [],
                 "name": "s",
                 "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "start": 36,
+                "end": 37
               },
               "typeAnnotation": null,
               "value": {
                 "type": "Literal",
-                "start": 40,
-                "end": 41,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "start": 40,
+                "end": 41
               },
               "computed": false,
               "static": true,
@@ -61,29 +51,29 @@ __ESTREE_TEST__:PASS:
               "optional": false,
               "definite": false,
               "readonly": false,
-              "accessibility": null
+              "accessibility": null,
+              "start": 29,
+              "end": 42
             },
             {
               "type": "PropertyDefinition",
-              "start": 47,
-              "end": 53,
               "decorators": [],
               "key": {
                 "type": "Identifier",
-                "start": 47,
-                "end": 48,
                 "decorators": [],
                 "name": "p",
                 "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "start": 47,
+                "end": 48
               },
               "typeAnnotation": null,
               "value": {
                 "type": "Literal",
-                "start": 51,
-                "end": 52,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "start": 51,
+                "end": 52
               },
               "computed": false,
               "static": false,
@@ -92,26 +82,24 @@ __ESTREE_TEST__:PASS:
               "optional": false,
               "definite": false,
               "readonly": false,
-              "accessibility": null
+              "accessibility": null,
+              "start": 47,
+              "end": 53
             },
             {
               "type": "MethodDefinition",
-              "start": 58,
-              "end": 70,
               "decorators": [],
               "key": {
                 "type": "Identifier",
-                "start": 58,
-                "end": 64,
                 "decorators": [],
                 "name": "method",
                 "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "start": 58,
+                "end": 64
               },
               "value": {
                 "type": "FunctionExpression",
-                "start": 64,
-                "end": 70,
                 "id": null,
                 "generator": false,
                 "async": false,
@@ -121,28 +109,40 @@ __ESTREE_TEST__:PASS:
                 "returnType": null,
                 "body": {
                   "type": "BlockStatement",
+                  "body": [],
                   "start": 67,
-                  "end": 70,
-                  "body": []
+                  "end": 70
                 },
-                "expression": false
+                "expression": false,
+                "start": 64,
+                "end": 70
               },
               "kind": "method",
               "computed": false,
               "static": false,
               "override": false,
               "optional": false,
-              "accessibility": null
+              "accessibility": null,
+              "start": 58,
+              "end": 70
             }
-          ]
+          ],
+          "start": 23,
+          "end": 72
         },
         "abstract": false,
-        "declare": false
+        "declare": false,
+        "start": 15,
+        "end": 72
       },
-      "exportKind": "value"
+      "exportKind": "value",
+      "start": 0,
+      "end": 72
     }
   ],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 72
 }
 ```

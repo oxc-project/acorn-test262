@@ -2,85 +2,79 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 108,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 0,
-      "end": 19,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 12,
-          "end": 18,
           "id": {
             "type": "Identifier",
-            "start": 12,
-            "end": 18,
             "decorators": [],
             "name": "h",
             "optional": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
-              "start": 13,
-              "end": 18,
               "typeAnnotation": {
                 "type": "TSAnyKeyword",
                 "start": 15,
                 "end": 18
-              }
-            }
+              },
+              "start": 13,
+              "end": 18
+            },
+            "start": 12,
+            "end": 18
           },
           "init": null,
-          "definite": false
+          "definite": false,
+          "start": 12,
+          "end": 18
         }
       ],
-      "declare": true
+      "declare": true,
+      "start": 0,
+      "end": 19
     },
     {
       "type": "VariableDeclaration",
-      "start": 20,
-      "end": 42,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 32,
-          "end": 41,
           "id": {
             "type": "Identifier",
-            "start": 32,
-            "end": 41,
             "decorators": [],
             "name": "Frag",
             "optional": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
-              "start": 36,
-              "end": 41,
               "typeAnnotation": {
                 "type": "TSAnyKeyword",
                 "start": 38,
                 "end": 41
-              }
-            }
+              },
+              "start": 36,
+              "end": 41
+            },
+            "start": 32,
+            "end": 41
           },
           "init": null,
-          "definite": false
+          "definite": false,
+          "start": 32,
+          "end": 41
         }
       ],
-      "declare": true
+      "declare": true,
+      "start": 20,
+      "end": 42
     },
     {
       "type": "ExpressionStatement",
-      "start": 44,
-      "end": 50,
       "expression": {
         "type": "JSXFragment",
-        "start": 44,
-        "end": 49,
         "openingFragment": {
           "type": "JSXOpeningFragment",
           "start": 44,
@@ -91,18 +85,18 @@ __ESTREE_TEST__:PASS:
           "type": "JSXClosingFragment",
           "start": 46,
           "end": 49
-        }
+        },
+        "start": 44,
+        "end": 49
       },
-      "directive": null
+      "directive": null,
+      "start": 44,
+      "end": 50
     },
     {
       "type": "ExpressionStatement",
-      "start": 51,
-      "end": 108,
       "expression": {
         "type": "JSXFragment",
-        "start": 51,
-        "end": 107,
         "openingFragment": {
           "type": "JSXOpeningFragment",
           "start": 51,
@@ -111,47 +105,45 @@ __ESTREE_TEST__:PASS:
         "children": [
           {
             "type": "JSXElement",
-            "start": 53,
-            "end": 67,
             "openingElement": {
               "type": "JSXOpeningElement",
-              "start": 53,
-              "end": 59,
               "name": {
                 "type": "JSXIdentifier",
+                "name": "span",
                 "start": 54,
-                "end": 58,
-                "name": "span"
+                "end": 58
               },
               "typeArguments": null,
               "attributes": [],
-              "selfClosing": false
+              "selfClosing": false,
+              "start": 53,
+              "end": 59
             },
             "children": [
               {
                 "type": "JSXText",
-                "start": 59,
-                "end": 60,
                 "value": "1",
-                "raw": "1"
+                "raw": "1",
+                "start": 59,
+                "end": 60
               }
             ],
             "closingElement": {
               "type": "JSXClosingElement",
-              "start": 60,
-              "end": 67,
               "name": {
                 "type": "JSXIdentifier",
+                "name": "span",
                 "start": 62,
-                "end": 66,
-                "name": "span"
-              }
-            }
+                "end": 66
+              },
+              "start": 60,
+              "end": 67
+            },
+            "start": 53,
+            "end": 67
           },
           {
             "type": "JSXFragment",
-            "start": 67,
-            "end": 104,
             "openingFragment": {
               "type": "JSXOpeningFragment",
               "start": 67,
@@ -160,100 +152,108 @@ __ESTREE_TEST__:PASS:
             "children": [
               {
                 "type": "JSXElement",
-                "start": 69,
-                "end": 85,
                 "openingElement": {
                   "type": "JSXOpeningElement",
-                  "start": 69,
-                  "end": 75,
                   "name": {
                     "type": "JSXIdentifier",
+                    "name": "span",
                     "start": 70,
-                    "end": 74,
-                    "name": "span"
+                    "end": 74
                   },
                   "typeArguments": null,
                   "attributes": [],
-                  "selfClosing": false
+                  "selfClosing": false,
+                  "start": 69,
+                  "end": 75
                 },
                 "children": [
                   {
                     "type": "JSXText",
-                    "start": 75,
-                    "end": 78,
                     "value": "2.1",
-                    "raw": "2.1"
+                    "raw": "2.1",
+                    "start": 75,
+                    "end": 78
                   }
                 ],
                 "closingElement": {
                   "type": "JSXClosingElement",
-                  "start": 78,
-                  "end": 85,
                   "name": {
                     "type": "JSXIdentifier",
+                    "name": "span",
                     "start": 80,
-                    "end": 84,
-                    "name": "span"
-                  }
-                }
+                    "end": 84
+                  },
+                  "start": 78,
+                  "end": 85
+                },
+                "start": 69,
+                "end": 85
               },
               {
                 "type": "JSXElement",
-                "start": 85,
-                "end": 101,
                 "openingElement": {
                   "type": "JSXOpeningElement",
-                  "start": 85,
-                  "end": 91,
                   "name": {
                     "type": "JSXIdentifier",
+                    "name": "span",
                     "start": 86,
-                    "end": 90,
-                    "name": "span"
+                    "end": 90
                   },
                   "typeArguments": null,
                   "attributes": [],
-                  "selfClosing": false
+                  "selfClosing": false,
+                  "start": 85,
+                  "end": 91
                 },
                 "children": [
                   {
                     "type": "JSXText",
-                    "start": 91,
-                    "end": 94,
                     "value": "2.2",
-                    "raw": "2.2"
+                    "raw": "2.2",
+                    "start": 91,
+                    "end": 94
                   }
                 ],
                 "closingElement": {
                   "type": "JSXClosingElement",
-                  "start": 94,
-                  "end": 101,
                   "name": {
                     "type": "JSXIdentifier",
+                    "name": "span",
                     "start": 96,
-                    "end": 100,
-                    "name": "span"
-                  }
-                }
+                    "end": 100
+                  },
+                  "start": 94,
+                  "end": 101
+                },
+                "start": 85,
+                "end": 101
               }
             ],
             "closingFragment": {
               "type": "JSXClosingFragment",
               "start": 101,
               "end": 104
-            }
+            },
+            "start": 67,
+            "end": 104
           }
         ],
         "closingFragment": {
           "type": "JSXClosingFragment",
           "start": 104,
           "end": 107
-        }
+        },
+        "start": 51,
+        "end": 107
       },
-      "directive": null
+      "directive": null,
+      "start": 51,
+      "end": 108
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 108
 }
 ```

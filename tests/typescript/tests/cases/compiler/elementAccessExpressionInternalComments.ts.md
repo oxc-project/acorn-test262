@@ -2,69 +2,69 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 6,
-  "end": 154,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 6,
-      "end": 50,
       "expression": {
         "type": "MemberExpression",
-        "start": 6,
-        "end": 43,
         "object": {
           "type": "Identifier",
-          "start": 6,
-          "end": 11,
           "decorators": [],
           "name": "Array",
           "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "start": 6,
+          "end": 11
         },
         "property": {
           "type": "Literal",
-          "start": 25,
-          "end": 35,
           "value": "toString",
-          "raw": "\"toString\""
+          "raw": "\"toString\"",
+          "start": 25,
+          "end": 35
         },
         "optional": false,
-        "computed": true
+        "computed": true,
+        "start": 6,
+        "end": 43
       },
-      "directive": null
+      "directive": null,
+      "start": 6,
+      "end": 50
     },
     {
       "type": "ExpressionStatement",
-      "start": 64,
-      "end": 148,
       "expression": {
         "type": "MemberExpression",
-        "start": 64,
-        "end": 148,
         "object": {
           "type": "Identifier",
-          "start": 64,
-          "end": 69,
           "decorators": [],
           "name": "Array",
           "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "start": 64,
+          "end": 69
         },
         "property": {
           "type": "Literal",
-          "start": 107,
-          "end": 117,
           "value": "toString",
-          "raw": "\"toString\""
+          "raw": "\"toString\"",
+          "start": 107,
+          "end": 117
         },
         "optional": false,
-        "computed": true
+        "computed": true,
+        "start": 64,
+        "end": 148
       },
-      "directive": null
+      "directive": null,
+      "start": 64,
+      "end": 148
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 6,
+  "end": 154
 }
 ```

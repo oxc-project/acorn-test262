@@ -1,92 +1,92 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 849,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 728,
-      "end": 826,
       "expression": {
         "type": "CallExpression",
-        "start": 728,
-        "end": 825,
         "callee": {
           "type": "MemberExpression",
-          "start": 728,
-          "end": 744,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 728,
-            "end": 734,
-            "name": "assert"
+            "end": 734
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 735,
-            "end": 744,
-            "name": "sameValue"
+            "end": 744
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 728,
+          "end": 744
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 745,
-            "end": 771,
             "callee": {
               "type": "Identifier",
+              "name": "isConstructor",
               "start": 745,
-              "end": 758,
-              "name": "isConstructor"
+              "end": 758
             },
             "arguments": [
               {
                 "type": "Identifier",
+                "name": "ArrayBuffer",
                 "start": 759,
-                "end": 770,
-                "name": "ArrayBuffer"
+                "end": 770
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 745,
+            "end": 771
           },
           {
             "type": "Literal",
-            "start": 773,
-            "end": 777,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "start": 773,
+            "end": 777
           },
           {
             "type": "Literal",
-            "start": 779,
-            "end": 824,
             "value": "isConstructor(ArrayBuffer) must return true",
-            "raw": "'isConstructor(ArrayBuffer) must return true'"
+            "raw": "'isConstructor(ArrayBuffer) must return true'",
+            "start": 779,
+            "end": 824
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 728,
+        "end": 825
+      },
+      "start": 728,
+      "end": 826
     },
     {
       "type": "ExpressionStatement",
-      "start": 827,
-      "end": 845,
       "expression": {
         "type": "NewExpression",
-        "start": 827,
-        "end": 844,
         "callee": {
           "type": "Identifier",
+          "name": "ArrayBuffer",
           "start": 831,
-          "end": 842,
-          "name": "ArrayBuffer"
+          "end": 842
         },
-        "arguments": []
-      }
+        "arguments": [],
+        "start": 827,
+        "end": 844
+      },
+      "start": 827,
+      "end": 845
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 849
 }

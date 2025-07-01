@@ -1,93 +1,93 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 933,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 868,
-      "end": 894,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 872,
-          "end": 893,
           "id": {
             "type": "Identifier",
+            "name": "result",
             "start": 872,
-            "end": 878,
-            "name": "result"
+            "end": 878
           },
           "init": {
             "type": "CallExpression",
-            "start": 881,
-            "end": 893,
             "callee": {
               "type": "Identifier",
+              "name": "eval",
               "start": 881,
-              "end": 885,
-              "name": "eval"
+              "end": 885
             },
             "arguments": [
               {
                 "type": "Literal",
-                "start": 886,
-                "end": 892,
                 "value": "{}{}",
-                "raw": "'{}{}'"
+                "raw": "'{}{}'",
+                "start": 886,
+                "end": 892
               }
             ],
-            "optional": false
-          }
+            "optional": false,
+            "start": 881,
+            "end": 893
+          },
+          "start": 872,
+          "end": 893
         }
-      ]
+      ],
+      "start": 868,
+      "end": 894
     },
     {
       "type": "ExpressionStatement",
-      "start": 896,
-      "end": 932,
       "expression": {
         "type": "CallExpression",
-        "start": 896,
-        "end": 931,
         "callee": {
           "type": "MemberExpression",
-          "start": 896,
-          "end": 912,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 896,
-            "end": 902,
-            "name": "assert"
+            "end": 902
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 903,
-            "end": 912,
-            "name": "sameValue"
+            "end": 912
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 896,
+          "end": 912
         },
         "arguments": [
           {
             "type": "Identifier",
+            "name": "result",
             "start": 913,
-            "end": 919,
-            "name": "result"
+            "end": 919
           },
           {
             "type": "Identifier",
+            "name": "undefined",
             "start": 921,
-            "end": 930,
-            "name": "undefined"
+            "end": 930
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 896,
+        "end": 931
+      },
+      "start": 896,
+      "end": 932
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 933
 }

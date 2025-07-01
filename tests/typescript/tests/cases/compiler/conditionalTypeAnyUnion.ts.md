@@ -2,27 +2,21 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 22,
-  "end": 150,
   "body": [
     {
       "type": "TSTypeAliasDeclaration",
-      "start": 22,
-      "end": 68,
       "id": {
         "type": "Identifier",
-        "start": 27,
-        "end": 31,
         "decorators": [],
         "name": "Spec",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 27,
+        "end": 31
       },
       "typeParameters": null,
       "typeAnnotation": {
         "type": "TSConditionalType",
-        "start": 34,
-        "end": 67,
         "checkType": {
           "type": "TSAnyKeyword",
           "start": 34,
@@ -42,40 +36,38 @@ __ESTREE_TEST__:PASS:
           "type": "TSStringKeyword",
           "start": 61,
           "end": 67
-        }
+        },
+        "start": 34,
+        "end": 67
       },
-      "declare": false
+      "declare": false,
+      "start": 22,
+      "end": 68
     },
     {
       "type": "TSTypeAliasDeclaration",
-      "start": 70,
-      "end": 105,
       "id": {
         "type": "Identifier",
-        "start": 75,
-        "end": 83,
         "decorators": [],
         "name": "WithSpec",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 75,
+        "end": 83
       },
       "typeParameters": {
         "type": "TSTypeParameterDeclaration",
-        "start": 83,
-        "end": 101,
         "params": [
           {
             "type": "TSTypeParameter",
-            "start": 84,
-            "end": 100,
             "name": {
               "type": "Identifier",
-              "start": 84,
-              "end": 85,
               "decorators": [],
               "name": "T",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 84,
+              "end": 85
             },
             "constraint": {
               "type": "TSNumberKeyword",
@@ -85,81 +77,89 @@ __ESTREE_TEST__:PASS:
             "default": null,
             "in": false,
             "out": false,
-            "const": false
+            "const": false,
+            "start": 84,
+            "end": 100
           }
-        ]
+        ],
+        "start": 83,
+        "end": 101
       },
       "typeAnnotation": {
         "type": "TSTypeReference",
-        "start": 104,
-        "end": 105,
         "typeName": {
           "type": "Identifier",
-          "start": 104,
-          "end": 105,
           "decorators": [],
           "name": "T",
           "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "start": 104,
+          "end": 105
         },
-        "typeArguments": null
+        "typeArguments": null,
+        "start": 104,
+        "end": 105
       },
-      "declare": false
+      "declare": false,
+      "start": 70,
+      "end": 105
     },
     {
       "type": "TSTypeAliasDeclaration",
-      "start": 107,
-      "end": 130,
       "id": {
         "type": "Identifier",
-        "start": 112,
-        "end": 113,
         "decorators": [],
         "name": "R",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 112,
+        "end": 113
       },
       "typeParameters": null,
       "typeAnnotation": {
         "type": "TSTypeReference",
-        "start": 116,
-        "end": 130,
         "typeName": {
           "type": "Identifier",
-          "start": 116,
-          "end": 124,
           "decorators": [],
           "name": "WithSpec",
           "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "start": 116,
+          "end": 124
         },
         "typeArguments": {
           "type": "TSTypeParameterInstantiation",
-          "start": 124,
-          "end": 130,
           "params": [
             {
               "type": "TSTypeReference",
-              "start": 125,
-              "end": 129,
               "typeName": {
                 "type": "Identifier",
-                "start": 125,
-                "end": 129,
                 "decorators": [],
                 "name": "Spec",
                 "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "start": 125,
+                "end": 129
               },
-              "typeArguments": null
+              "typeArguments": null,
+              "start": 125,
+              "end": 129
             }
-          ]
-        }
+          ],
+          "start": 124,
+          "end": 130
+        },
+        "start": 116,
+        "end": 130
       },
-      "declare": false
+      "declare": false,
+      "start": 107,
+      "end": 130
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 22,
+  "end": 150
 }
 ```

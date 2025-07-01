@@ -1,71 +1,71 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 658,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 612,
-      "end": 657,
       "expression": {
         "type": "CallExpression",
-        "start": 612,
-        "end": 656,
         "callee": {
           "type": "Identifier",
+          "name": "assertNativeFunction",
           "start": 612,
-          "end": 632,
-          "name": "assertNativeFunction"
+          "end": 632
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 633,
-            "end": 655,
             "callee": {
               "type": "MemberExpression",
-              "start": 633,
-              "end": 651,
               "object": {
                 "type": "FunctionExpression",
-                "start": 633,
-                "end": 646,
                 "id": null,
                 "generator": false,
                 "async": false,
                 "params": [],
                 "body": {
                   "type": "BlockStatement",
+                  "body": [],
                   "start": 644,
-                  "end": 646,
-                  "body": []
+                  "end": 646
                 },
-                "expression": false
+                "expression": false,
+                "start": 633,
+                "end": 646
               },
               "property": {
                 "type": "Identifier",
+                "name": "bind",
                 "start": 647,
-                "end": 651,
-                "name": "bind"
+                "end": 651
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 633,
+              "end": 651
             },
             "arguments": [
               {
                 "type": "ObjectExpression",
+                "properties": [],
                 "start": 652,
-                "end": 654,
-                "properties": []
+                "end": 654
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 633,
+            "end": 655
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 612,
+        "end": 656
+      },
+      "start": 612,
+      "end": 657
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 658
 }

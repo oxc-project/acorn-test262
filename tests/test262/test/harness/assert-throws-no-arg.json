@@ -1,298 +1,298 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 561,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 223,
-      "end": 241,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 227,
-          "end": 240,
           "id": {
             "type": "Identifier",
+            "name": "threw",
             "start": 227,
-            "end": 232,
-            "name": "threw"
+            "end": 232
           },
           "init": {
             "type": "Literal",
-            "start": 235,
-            "end": 240,
             "value": false,
-            "raw": "false"
-          }
+            "raw": "false",
+            "start": 235,
+            "end": 240
+          },
+          "start": 227,
+          "end": 240
         }
-      ]
+      ],
+      "start": 223,
+      "end": 241
     },
     {
       "type": "TryStatement",
-      "start": 243,
-      "end": 462,
       "block": {
         "type": "BlockStatement",
-        "start": 247,
-        "end": 269,
         "body": [
           {
             "type": "ExpressionStatement",
-            "start": 251,
-            "end": 267,
             "expression": {
               "type": "CallExpression",
-              "start": 251,
-              "end": 266,
               "callee": {
                 "type": "MemberExpression",
-                "start": 251,
-                "end": 264,
                 "object": {
                   "type": "Identifier",
+                  "name": "assert",
                   "start": 251,
-                  "end": 257,
-                  "name": "assert"
+                  "end": 257
                 },
                 "property": {
                   "type": "Identifier",
+                  "name": "throws",
                   "start": 258,
-                  "end": 264,
-                  "name": "throws"
+                  "end": 264
                 },
                 "optional": false,
-                "computed": false
+                "computed": false,
+                "start": 251,
+                "end": 264
               },
               "arguments": [],
-              "optional": false
-            }
+              "optional": false,
+              "start": 251,
+              "end": 266
+            },
+            "start": 251,
+            "end": 267
           }
-        ]
+        ],
+        "start": 247,
+        "end": 269
       },
       "handler": {
         "type": "CatchClause",
-        "start": 270,
-        "end": 462,
         "param": {
           "type": "Identifier",
+          "name": "err",
           "start": 276,
-          "end": 279,
-          "name": "err"
+          "end": 279
         },
         "body": {
           "type": "BlockStatement",
-          "start": 281,
-          "end": 462,
           "body": [
             {
               "type": "ExpressionStatement",
-              "start": 285,
-              "end": 298,
               "expression": {
                 "type": "AssignmentExpression",
-                "start": 285,
-                "end": 297,
                 "operator": "=",
                 "left": {
                   "type": "Identifier",
+                  "name": "threw",
                   "start": 285,
-                  "end": 290,
-                  "name": "threw"
+                  "end": 290
                 },
                 "right": {
                   "type": "Literal",
-                  "start": 293,
-                  "end": 297,
                   "value": true,
-                  "raw": "true"
-                }
-              }
+                  "raw": "true",
+                  "start": 293,
+                  "end": 297
+                },
+                "start": 285,
+                "end": 297
+              },
+              "start": 285,
+              "end": 298
             },
             {
               "type": "IfStatement",
-              "start": 301,
-              "end": 460,
               "test": {
                 "type": "BinaryExpression",
-                "start": 305,
-                "end": 337,
                 "left": {
                   "type": "MemberExpression",
-                  "start": 305,
-                  "end": 320,
                   "object": {
                     "type": "Identifier",
+                    "name": "err",
                     "start": 305,
-                    "end": 308,
-                    "name": "err"
+                    "end": 308
                   },
                   "property": {
                     "type": "Identifier",
+                    "name": "constructor",
                     "start": 309,
-                    "end": 320,
-                    "name": "constructor"
+                    "end": 320
                   },
                   "optional": false,
-                  "computed": false
+                  "computed": false,
+                  "start": 305,
+                  "end": 320
                 },
                 "operator": "!==",
                 "right": {
                   "type": "Identifier",
+                  "name": "Test262Error",
                   "start": 325,
-                  "end": 337,
-                  "name": "Test262Error"
-                }
+                  "end": 337
+                },
+                "start": 305,
+                "end": 337
               },
               "consequent": {
                 "type": "BlockStatement",
-                "start": 339,
-                "end": 460,
                 "body": [
                   {
                     "type": "ThrowStatement",
-                    "start": 345,
-                    "end": 456,
                     "argument": {
                       "type": "NewExpression",
-                      "start": 351,
-                      "end": 455,
                       "callee": {
                         "type": "Identifier",
+                        "name": "Error",
                         "start": 355,
-                        "end": 360,
-                        "name": "Error"
+                        "end": 360
                       },
                       "arguments": [
                         {
                           "type": "BinaryExpression",
-                          "start": 368,
-                          "end": 449,
                           "left": {
                             "type": "BinaryExpression",
-                            "start": 368,
-                            "end": 425,
                             "left": {
                               "type": "Literal",
-                              "start": 368,
-                              "end": 402,
                               "value": "Expected a Test262Error, but a \"",
-                              "raw": "'Expected a Test262Error, but a \"'"
+                              "raw": "'Expected a Test262Error, but a \"'",
+                              "start": 368,
+                              "end": 402
                             },
                             "operator": "+",
                             "right": {
                               "type": "MemberExpression",
-                              "start": 405,
-                              "end": 425,
                               "object": {
                                 "type": "MemberExpression",
-                                "start": 405,
-                                "end": 420,
                                 "object": {
                                   "type": "Identifier",
+                                  "name": "err",
                                   "start": 405,
-                                  "end": 408,
-                                  "name": "err"
+                                  "end": 408
                                 },
                                 "property": {
                                   "type": "Identifier",
+                                  "name": "constructor",
                                   "start": 409,
-                                  "end": 420,
-                                  "name": "constructor"
+                                  "end": 420
                                 },
                                 "optional": false,
-                                "computed": false
+                                "computed": false,
+                                "start": 405,
+                                "end": 420
                               },
                               "property": {
                                 "type": "Identifier",
+                                "name": "name",
                                 "start": 421,
-                                "end": 425,
-                                "name": "name"
+                                "end": 425
                               },
                               "optional": false,
-                              "computed": false
-                            }
+                              "computed": false,
+                              "start": 405,
+                              "end": 425
+                            },
+                            "start": 368,
+                            "end": 425
                           },
                           "operator": "+",
                           "right": {
                             "type": "Literal",
-                            "start": 434,
-                            "end": 449,
                             "value": "\" was thrown.",
-                            "raw": "'\" was thrown.'"
-                          }
+                            "raw": "'\" was thrown.'",
+                            "start": 434,
+                            "end": 449
+                          },
+                          "start": 368,
+                          "end": 449
                         }
-                      ]
-                    }
+                      ],
+                      "start": 351,
+                      "end": 455
+                    },
+                    "start": 345,
+                    "end": 456
                   }
-                ]
+                ],
+                "start": 339,
+                "end": 460
               },
-              "alternate": null
+              "alternate": null,
+              "start": 301,
+              "end": 460
             }
-          ]
-        }
+          ],
+          "start": 281,
+          "end": 462
+        },
+        "start": 270,
+        "end": 462
       },
-      "finalizer": null
+      "finalizer": null,
+      "start": 243,
+      "end": 462
     },
     {
       "type": "IfStatement",
-      "start": 464,
-      "end": 560,
       "test": {
         "type": "BinaryExpression",
-        "start": 468,
-        "end": 483,
         "left": {
           "type": "Identifier",
+          "name": "threw",
           "start": 468,
-          "end": 473,
-          "name": "threw"
+          "end": 473
         },
         "operator": "===",
         "right": {
           "type": "Literal",
-          "start": 478,
-          "end": 483,
           "value": false,
-          "raw": "false"
-        }
+          "raw": "false",
+          "start": 478,
+          "end": 483
+        },
+        "start": 468,
+        "end": 483
       },
       "consequent": {
         "type": "BlockStatement",
-        "start": 485,
-        "end": 560,
         "body": [
           {
             "type": "ThrowStatement",
-            "start": 489,
-            "end": 558,
             "argument": {
               "type": "NewExpression",
-              "start": 495,
-              "end": 557,
               "callee": {
                 "type": "Identifier",
+                "name": "Error",
                 "start": 499,
-                "end": 504,
-                "name": "Error"
+                "end": 504
               },
               "arguments": [
                 {
                   "type": "Literal",
-                  "start": 505,
-                  "end": 556,
                   "value": "Expected a Test262Error, but no error was thrown.",
-                  "raw": "'Expected a Test262Error, but no error was thrown.'"
+                  "raw": "'Expected a Test262Error, but no error was thrown.'",
+                  "start": 505,
+                  "end": 556
                 }
-              ]
-            }
+              ],
+              "start": 495,
+              "end": 557
+            },
+            "start": 489,
+            "end": 558
           }
-        ]
+        ],
+        "start": 485,
+        "end": 560
       },
-      "alternate": null
+      "alternate": null,
+      "start": 464,
+      "end": 560
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 561
 }

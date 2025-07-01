@@ -2,73 +2,73 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 28,
   "body": [
     {
       "type": "TSModuleDeclaration",
-      "start": 0,
-      "end": 12,
       "id": {
         "type": "Identifier",
-        "start": 7,
-        "end": 8,
         "decorators": [],
         "name": "E",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 7,
+        "end": 8
       },
       "body": {
         "type": "TSModuleBlock",
+        "body": [],
         "start": 9,
-        "end": 12,
-        "body": []
+        "end": 12
       },
       "kind": "module",
       "declare": false,
-      "global": false
+      "global": false,
+      "start": 0,
+      "end": 12
     },
     {
       "type": "TSEnumDeclaration",
-      "start": 14,
-      "end": 28,
       "id": {
         "type": "Identifier",
-        "start": 19,
-        "end": 20,
         "decorators": [],
         "name": "E",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 19,
+        "end": 20
       },
       "body": {
         "type": "TSEnumBody",
-        "start": 21,
-        "end": 28,
         "members": [
           {
             "type": "TSEnumMember",
-            "start": 25,
-            "end": 26,
             "id": {
               "type": "Identifier",
-              "start": 25,
-              "end": 26,
               "decorators": [],
               "name": "A",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 25,
+              "end": 26
             },
             "initializer": null,
-            "computed": false
+            "computed": false,
+            "start": 25,
+            "end": 26
           }
-        ]
+        ],
+        "start": 21,
+        "end": 28
       },
       "const": false,
-      "declare": false
+      "declare": false,
+      "start": 14,
+      "end": 28
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 28
 }
 ```

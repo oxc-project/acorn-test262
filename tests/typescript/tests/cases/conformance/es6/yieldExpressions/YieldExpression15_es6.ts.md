@@ -2,32 +2,24 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 34,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 0,
-      "end": 34,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 4,
-          "end": 34,
           "id": {
             "type": "Identifier",
-            "start": 4,
-            "end": 5,
             "decorators": [],
             "name": "v",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 4,
+            "end": 5
           },
           "init": {
             "type": "ArrowFunctionExpression",
-            "start": 8,
-            "end": 34,
             "expression": false,
             "async": false,
             "typeParameters": null,
@@ -35,42 +27,50 @@ __ESTREE_TEST__:PASS:
             "returnType": null,
             "body": {
               "type": "BlockStatement",
-              "start": 14,
-              "end": 34,
               "body": [
                 {
                   "type": "ExpressionStatement",
-                  "start": 21,
-                  "end": 30,
                   "expression": {
                     "type": "YieldExpression",
-                    "start": 21,
-                    "end": 30,
                     "delegate": false,
                     "argument": {
                       "type": "Identifier",
-                      "start": 27,
-                      "end": 30,
                       "decorators": [],
                       "name": "foo",
                       "optional": false,
-                      "typeAnnotation": null
-                    }
+                      "typeAnnotation": null,
+                      "start": 27,
+                      "end": 30
+                    },
+                    "start": 21,
+                    "end": 30
                   },
-                  "directive": null
+                  "directive": null,
+                  "start": 21,
+                  "end": 30
                 }
-              ]
+              ],
+              "start": 14,
+              "end": 34
             },
             "id": null,
-            "generator": false
+            "generator": false,
+            "start": 8,
+            "end": 34
           },
-          "definite": false
+          "definite": false,
+          "start": 4,
+          "end": 34
         }
       ],
-      "declare": false
+      "declare": false,
+      "start": 0,
+      "end": 34
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 34
 }
 ```

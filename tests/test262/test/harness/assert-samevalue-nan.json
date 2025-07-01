@@ -1,53 +1,53 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 244,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 216,
-      "end": 243,
       "expression": {
         "type": "CallExpression",
-        "start": 216,
-        "end": 242,
         "callee": {
           "type": "MemberExpression",
-          "start": 216,
-          "end": 232,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 216,
-            "end": 222,
-            "name": "assert"
+            "end": 222
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 223,
-            "end": 232,
-            "name": "sameValue"
+            "end": 232
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 216,
+          "end": 232
         },
         "arguments": [
           {
             "type": "Identifier",
+            "name": "NaN",
             "start": 233,
-            "end": 236,
-            "name": "NaN"
+            "end": 236
           },
           {
             "type": "Identifier",
+            "name": "NaN",
             "start": 238,
-            "end": 241,
-            "name": "NaN"
+            "end": 241
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 216,
+        "end": 242
+      },
+      "start": 216,
+      "end": 243
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 244
 }

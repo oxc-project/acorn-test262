@@ -1,92 +1,92 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 852,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 728,
-      "end": 828,
       "expression": {
         "type": "CallExpression",
-        "start": 728,
-        "end": 827,
         "callee": {
           "type": "MemberExpression",
-          "start": 728,
-          "end": 744,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 728,
-            "end": 734,
-            "name": "assert"
+            "end": 734
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 735,
-            "end": 744,
-            "name": "sameValue"
+            "end": 744
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 728,
+          "end": 744
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 745,
-            "end": 772,
             "callee": {
               "type": "Identifier",
+              "name": "isConstructor",
               "start": 745,
-              "end": 758,
-              "name": "isConstructor"
+              "end": 758
             },
             "arguments": [
               {
                 "type": "Identifier",
+                "name": "Float64Array",
                 "start": 759,
-                "end": 771,
-                "name": "Float64Array"
+                "end": 771
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 745,
+            "end": 772
           },
           {
             "type": "Literal",
-            "start": 774,
-            "end": 778,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "start": 774,
+            "end": 778
           },
           {
             "type": "Literal",
-            "start": 780,
-            "end": 826,
             "value": "isConstructor(Float64Array) must return true",
-            "raw": "'isConstructor(Float64Array) must return true'"
+            "raw": "'isConstructor(Float64Array) must return true'",
+            "start": 780,
+            "end": 826
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 728,
+        "end": 827
+      },
+      "start": 728,
+      "end": 828
     },
     {
       "type": "ExpressionStatement",
-      "start": 829,
-      "end": 848,
       "expression": {
         "type": "NewExpression",
-        "start": 829,
-        "end": 847,
         "callee": {
           "type": "Identifier",
+          "name": "Float64Array",
           "start": 833,
-          "end": 845,
-          "name": "Float64Array"
+          "end": 845
         },
-        "arguments": []
-      }
+        "arguments": [],
+        "start": 829,
+        "end": 847
+      },
+      "start": 829,
+      "end": 848
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 852
 }

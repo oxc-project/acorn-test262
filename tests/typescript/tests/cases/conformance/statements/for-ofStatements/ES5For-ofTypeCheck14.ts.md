@@ -2,34 +2,22 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 58,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 0,
-      "end": 31,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 4,
-          "end": 31,
           "id": {
             "type": "Identifier",
-            "start": 4,
-            "end": 31,
             "decorators": [],
             "name": "union",
             "optional": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
-              "start": 9,
-              "end": 31,
               "typeAnnotation": {
                 "type": "TSUnionType",
-                "start": 11,
-                "end": 31,
                 "types": [
                   {
                     "type": "TSStringKeyword",
@@ -38,88 +26,100 @@ __ESTREE_TEST__:PASS:
                   },
                   {
                     "type": "TSTypeReference",
-                    "start": 20,
-                    "end": 31,
                     "typeName": {
                       "type": "Identifier",
-                      "start": 20,
-                      "end": 23,
                       "decorators": [],
                       "name": "Set",
                       "optional": false,
-                      "typeAnnotation": null
+                      "typeAnnotation": null,
+                      "start": 20,
+                      "end": 23
                     },
                     "typeArguments": {
                       "type": "TSTypeParameterInstantiation",
-                      "start": 23,
-                      "end": 31,
                       "params": [
                         {
                           "type": "TSNumberKeyword",
                           "start": 24,
                           "end": 30
                         }
-                      ]
-                    }
+                      ],
+                      "start": 23,
+                      "end": 31
+                    },
+                    "start": 20,
+                    "end": 31
                   }
-                ]
-              }
-            }
+                ],
+                "start": 11,
+                "end": 31
+              },
+              "start": 9,
+              "end": 31
+            },
+            "start": 4,
+            "end": 31
           },
           "init": null,
-          "definite": false
+          "definite": false,
+          "start": 4,
+          "end": 31
         }
       ],
-      "declare": false
+      "declare": false,
+      "start": 0,
+      "end": 31
     },
     {
       "type": "ForOfStatement",
-      "start": 32,
-      "end": 58,
       "await": false,
       "left": {
         "type": "VariableDeclaration",
-        "start": 37,
-        "end": 44,
         "kind": "const",
         "declarations": [
           {
             "type": "VariableDeclarator",
-            "start": 43,
-            "end": 44,
             "id": {
               "type": "Identifier",
-              "start": 43,
-              "end": 44,
               "decorators": [],
               "name": "e",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 43,
+              "end": 44
             },
             "init": null,
-            "definite": false
+            "definite": false,
+            "start": 43,
+            "end": 44
           }
         ],
-        "declare": false
+        "declare": false,
+        "start": 37,
+        "end": 44
       },
       "right": {
         "type": "Identifier",
-        "start": 48,
-        "end": 53,
         "decorators": [],
         "name": "union",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 48,
+        "end": 53
       },
       "body": {
         "type": "BlockStatement",
+        "body": [],
         "start": 55,
-        "end": 58,
-        "body": []
-      }
+        "end": 58
+      },
+      "start": 32,
+      "end": 58
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 58
 }
 ```

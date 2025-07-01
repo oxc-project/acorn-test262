@@ -2,34 +2,34 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 62,
-  "end": 81,
   "body": [
     {
       "type": "ExportDefaultDeclaration",
-      "start": 62,
-      "end": 80,
       "declaration": {
         "type": "ObjectExpression",
+        "properties": [],
         "start": 77,
-        "end": 79,
-        "properties": []
+        "end": 79
       },
-      "exportKind": "value"
+      "exportKind": "value",
+      "start": 62,
+      "end": 80
     }
   ],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 62,
+  "end": 81
 }
 ```
 __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 65,
-  "end": 65,
   "body": [],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 65,
+  "end": 65
 }
 ```

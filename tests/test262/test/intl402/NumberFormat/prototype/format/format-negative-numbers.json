@@ -1,281 +1,281 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 777,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 488,
-      "end": 528,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 492,
-          "end": 527,
           "id": {
             "type": "Identifier",
+            "name": "formatter",
             "start": 492,
-            "end": 501,
-            "name": "formatter"
+            "end": 501
           },
           "init": {
             "type": "NewExpression",
-            "start": 504,
-            "end": 527,
             "callee": {
               "type": "MemberExpression",
-              "start": 508,
-              "end": 525,
               "object": {
                 "type": "Identifier",
+                "name": "Intl",
                 "start": 508,
-                "end": 512,
-                "name": "Intl"
+                "end": 512
               },
               "property": {
                 "type": "Identifier",
+                "name": "NumberFormat",
                 "start": 513,
-                "end": 525,
-                "name": "NumberFormat"
+                "end": 525
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 508,
+              "end": 525
             },
-            "arguments": []
-          }
+            "arguments": [],
+            "start": 504,
+            "end": 527
+          },
+          "start": 492,
+          "end": 527
         }
-      ]
+      ],
+      "start": 488,
+      "end": 528
     },
     {
       "type": "ExpressionStatement",
-      "start": 532,
-      "end": 653,
       "expression": {
         "type": "CallExpression",
-        "start": 532,
-        "end": 652,
         "callee": {
           "type": "MemberExpression",
-          "start": 532,
-          "end": 551,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 532,
-            "end": 538,
-            "name": "assert"
+            "end": 538
           },
           "property": {
             "type": "Identifier",
+            "name": "notSameValue",
             "start": 539,
-            "end": 551,
-            "name": "notSameValue"
+            "end": 551
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 532,
+          "end": 551
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 552,
-            "end": 571,
             "callee": {
               "type": "MemberExpression",
-              "start": 552,
-              "end": 568,
               "object": {
                 "type": "Identifier",
+                "name": "formatter",
                 "start": 552,
-                "end": 561,
-                "name": "formatter"
+                "end": 561
               },
               "property": {
                 "type": "Identifier",
+                "name": "format",
                 "start": 562,
-                "end": 568,
-                "name": "format"
+                "end": 568
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 552,
+              "end": 568
             },
             "arguments": [
               {
                 "type": "Literal",
-                "start": 569,
-                "end": 570,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "start": 569,
+                "end": 570
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 552,
+            "end": 571
           },
           {
             "type": "CallExpression",
-            "start": 573,
-            "end": 593,
             "callee": {
               "type": "MemberExpression",
-              "start": 573,
-              "end": 589,
               "object": {
                 "type": "Identifier",
+                "name": "formatter",
                 "start": 573,
-                "end": 582,
-                "name": "formatter"
+                "end": 582
               },
               "property": {
                 "type": "Identifier",
+                "name": "format",
                 "start": 583,
-                "end": 589,
-                "name": "format"
+                "end": 589
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 573,
+              "end": 589
             },
             "arguments": [
               {
                 "type": "UnaryExpression",
-                "start": 590,
-                "end": 592,
                 "operator": "-",
                 "argument": {
                   "type": "Literal",
-                  "start": 591,
-                  "end": 592,
                   "value": 1,
-                  "raw": "1"
+                  "raw": "1",
+                  "start": 591,
+                  "end": 592
                 },
-                "prefix": true
+                "prefix": true,
+                "start": 590,
+                "end": 592
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 573,
+            "end": 593
           },
           {
             "type": "Literal",
-            "start": 595,
-            "end": 651,
             "value": "Intl.NumberFormat is formatting 1 and -1 the same way.",
-            "raw": "'Intl.NumberFormat is formatting 1 and -1 the same way.'"
+            "raw": "'Intl.NumberFormat is formatting 1 and -1 the same way.'",
+            "start": 595,
+            "end": 651
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 532,
+        "end": 652
+      },
+      "start": 532,
+      "end": 653
     },
     {
       "type": "ExpressionStatement",
-      "start": 655,
-      "end": 776,
       "expression": {
         "type": "CallExpression",
-        "start": 655,
-        "end": 775,
         "callee": {
           "type": "MemberExpression",
-          "start": 655,
-          "end": 674,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 655,
-            "end": 661,
-            "name": "assert"
+            "end": 661
           },
           "property": {
             "type": "Identifier",
+            "name": "notSameValue",
             "start": 662,
-            "end": 674,
-            "name": "notSameValue"
+            "end": 674
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 655,
+          "end": 674
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 675,
-            "end": 694,
             "callee": {
               "type": "MemberExpression",
-              "start": 675,
-              "end": 691,
               "object": {
                 "type": "Identifier",
+                "name": "formatter",
                 "start": 675,
-                "end": 684,
-                "name": "formatter"
+                "end": 684
               },
               "property": {
                 "type": "Identifier",
+                "name": "format",
                 "start": 685,
-                "end": 691,
-                "name": "format"
+                "end": 691
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 675,
+              "end": 691
             },
             "arguments": [
               {
                 "type": "Literal",
-                "start": 692,
-                "end": 693,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "start": 692,
+                "end": 693
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 675,
+            "end": 694
           },
           {
             "type": "CallExpression",
-            "start": 696,
-            "end": 716,
             "callee": {
               "type": "MemberExpression",
-              "start": 696,
-              "end": 712,
               "object": {
                 "type": "Identifier",
+                "name": "formatter",
                 "start": 696,
-                "end": 705,
-                "name": "formatter"
+                "end": 705
               },
               "property": {
                 "type": "Identifier",
+                "name": "format",
                 "start": 706,
-                "end": 712,
-                "name": "format"
+                "end": 712
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 696,
+              "end": 712
             },
             "arguments": [
               {
                 "type": "UnaryExpression",
-                "start": 713,
-                "end": 715,
                 "operator": "-",
                 "argument": {
                   "type": "Literal",
-                  "start": 714,
-                  "end": 715,
                   "value": 0,
-                  "raw": "0"
+                  "raw": "0",
+                  "start": 714,
+                  "end": 715
                 },
-                "prefix": true
+                "prefix": true,
+                "start": 713,
+                "end": 715
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 696,
+            "end": 716
           },
           {
             "type": "Literal",
-            "start": 718,
-            "end": 774,
             "value": "Intl.NumberFormat is formatting 0 and -0 the same way.",
-            "raw": "'Intl.NumberFormat is formatting 0 and -0 the same way.'"
+            "raw": "'Intl.NumberFormat is formatting 0 and -0 the same way.'",
+            "start": 718,
+            "end": 774
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 655,
+        "end": 775
+      },
+      "start": 655,
+      "end": 776
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 777
 }

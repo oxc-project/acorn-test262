@@ -2,495 +2,495 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 76,
-  "end": 450,
   "body": [
     {
       "type": "TSTypeAliasDeclaration",
-      "start": 76,
-      "end": 159,
       "id": {
         "type": "Identifier",
-        "start": 81,
-        "end": 100,
         "decorators": [],
         "name": "BiomePlainLinkProps",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 81,
+        "end": 100
       },
       "typeParameters": null,
       "typeAnnotation": {
         "type": "TSTypeLiteral",
-        "start": 103,
-        "end": 159,
         "members": [
           {
             "type": "TSPropertySignature",
-            "start": 107,
-            "end": 120,
             "computed": false,
             "optional": false,
             "readonly": false,
             "key": {
               "type": "Identifier",
-              "start": 107,
-              "end": 111,
               "decorators": [],
               "name": "href",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 107,
+              "end": 111
             },
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
-              "start": 111,
-              "end": 119,
               "typeAnnotation": {
                 "type": "TSStringKeyword",
                 "start": 113,
                 "end": 119
-              }
+              },
+              "start": 111,
+              "end": 119
             },
             "accessibility": null,
-            "static": false
+            "static": false,
+            "start": 107,
+            "end": 120
           },
           {
             "type": "TSPropertySignature",
-            "start": 123,
-            "end": 157,
             "computed": false,
             "optional": true,
             "readonly": false,
             "key": {
               "type": "Identifier",
-              "start": 123,
-              "end": 130,
               "decorators": [],
               "name": "onClick",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 123,
+              "end": 130
             },
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
-              "start": 131,
-              "end": 156,
               "typeAnnotation": {
                 "type": "TSFunctionType",
-                "start": 133,
-                "end": 156,
                 "typeParameters": null,
                 "params": [
                   {
                     "type": "Identifier",
-                    "start": 134,
-                    "end": 147,
                     "decorators": [],
                     "name": "event",
                     "optional": false,
                     "typeAnnotation": {
                       "type": "TSTypeAnnotation",
-                      "start": 139,
-                      "end": 147,
                       "typeAnnotation": {
                         "type": "TSStringKeyword",
                         "start": 141,
                         "end": 147
-                      }
-                    }
+                      },
+                      "start": 139,
+                      "end": 147
+                    },
+                    "start": 134,
+                    "end": 147
                   }
                 ],
                 "returnType": {
                   "type": "TSTypeAnnotation",
-                  "start": 149,
-                  "end": 156,
                   "typeAnnotation": {
                     "type": "TSVoidKeyword",
                     "start": 152,
                     "end": 156
-                  }
-                }
-              }
+                  },
+                  "start": 149,
+                  "end": 156
+                },
+                "start": 133,
+                "end": 156
+              },
+              "start": 131,
+              "end": 156
             },
             "accessibility": null,
-            "static": false
+            "static": false,
+            "start": 123,
+            "end": 157
           }
-        ]
+        ],
+        "start": 103,
+        "end": 159
       },
-      "declare": false
+      "declare": false,
+      "start": 76,
+      "end": 159
     },
     {
       "type": "TSTypeAliasDeclaration",
-      "start": 161,
-      "end": 241,
       "id": {
         "type": "Identifier",
-        "start": 166,
-        "end": 182,
         "decorators": [],
         "name": "BiomeButtonProps",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 166,
+        "end": 182
       },
       "typeParameters": null,
       "typeAnnotation": {
         "type": "TSTypeLiteral",
-        "start": 185,
-        "end": 241,
         "members": [
           {
             "type": "TSPropertySignature",
-            "start": 189,
-            "end": 202,
             "computed": false,
             "optional": true,
             "readonly": false,
             "key": {
               "type": "Identifier",
-              "start": 189,
-              "end": 193,
               "decorators": [],
               "name": "href",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 189,
+              "end": 193
             },
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
-              "start": 194,
-              "end": 201,
               "typeAnnotation": {
                 "type": "TSNeverKeyword",
                 "start": 196,
                 "end": 201
-              }
+              },
+              "start": 194,
+              "end": 201
             },
             "accessibility": null,
-            "static": false
+            "static": false,
+            "start": 189,
+            "end": 202
           },
           {
             "type": "TSPropertySignature",
-            "start": 205,
-            "end": 239,
             "computed": false,
             "optional": true,
             "readonly": false,
             "key": {
               "type": "Identifier",
-              "start": 205,
-              "end": 212,
               "decorators": [],
               "name": "onClick",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 205,
+              "end": 212
             },
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
-              "start": 213,
-              "end": 238,
               "typeAnnotation": {
                 "type": "TSFunctionType",
-                "start": 215,
-                "end": 238,
                 "typeParameters": null,
                 "params": [
                   {
                     "type": "Identifier",
-                    "start": 216,
-                    "end": 229,
                     "decorators": [],
                     "name": "event",
                     "optional": false,
                     "typeAnnotation": {
                       "type": "TSTypeAnnotation",
-                      "start": 221,
-                      "end": 229,
                       "typeAnnotation": {
                         "type": "TSNumberKeyword",
                         "start": 223,
                         "end": 229
-                      }
-                    }
+                      },
+                      "start": 221,
+                      "end": 229
+                    },
+                    "start": 216,
+                    "end": 229
                   }
                 ],
                 "returnType": {
                   "type": "TSTypeAnnotation",
-                  "start": 231,
-                  "end": 238,
                   "typeAnnotation": {
                     "type": "TSVoidKeyword",
                     "start": 234,
                     "end": 238
-                  }
-                }
-              }
+                  },
+                  "start": 231,
+                  "end": 238
+                },
+                "start": 215,
+                "end": 238
+              },
+              "start": 213,
+              "end": 238
             },
             "accessibility": null,
-            "static": false
+            "static": false,
+            "start": 205,
+            "end": 239
           }
-        ]
+        ],
+        "start": 185,
+        "end": 241
       },
-      "declare": false
+      "declare": false,
+      "start": 161,
+      "end": 241
     },
     {
       "type": "ExportNamedDeclaration",
-      "start": 243,
-      "end": 330,
       "declaration": {
         "type": "TSTypeAliasDeclaration",
-        "start": 250,
-        "end": 330,
         "id": {
           "type": "Identifier",
-          "start": 255,
-          "end": 282,
           "decorators": [],
           "name": "ClickableDiscriminatedUnion",
           "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "start": 255,
+          "end": 282
         },
         "typeParameters": null,
         "typeAnnotation": {
           "type": "TSUnionType",
-          "start": 287,
-          "end": 329,
           "types": [
             {
               "type": "TSTypeReference",
-              "start": 289,
-              "end": 308,
               "typeName": {
                 "type": "Identifier",
-                "start": 289,
-                "end": 308,
                 "decorators": [],
                 "name": "BiomePlainLinkProps",
                 "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "start": 289,
+                "end": 308
               },
-              "typeArguments": null
+              "typeArguments": null,
+              "start": 289,
+              "end": 308
             },
             {
               "type": "TSTypeReference",
-              "start": 313,
-              "end": 329,
               "typeName": {
                 "type": "Identifier",
-                "start": 313,
-                "end": 329,
                 "decorators": [],
                 "name": "BiomeButtonProps",
                 "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "start": 313,
+                "end": 329
               },
-              "typeArguments": null
+              "typeArguments": null,
+              "start": 313,
+              "end": 329
             }
-          ]
+          ],
+          "start": 287,
+          "end": 329
         },
-        "declare": false
+        "declare": false,
+        "start": 250,
+        "end": 330
       },
       "specifiers": [],
       "source": null,
       "exportKind": "type",
-      "attributes": []
+      "attributes": [],
+      "start": 243,
+      "end": 330
     },
     {
       "type": "VariableDeclaration",
-      "start": 332,
-      "end": 450,
       "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 338,
-          "end": 450,
           "id": {
             "type": "Identifier",
-            "start": 338,
-            "end": 369,
             "decorators": [],
             "name": "p3",
             "optional": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
-              "start": 340,
-              "end": 369,
               "typeAnnotation": {
                 "type": "TSTypeReference",
-                "start": 342,
-                "end": 369,
                 "typeName": {
                   "type": "Identifier",
-                  "start": 342,
-                  "end": 369,
                   "decorators": [],
                   "name": "ClickableDiscriminatedUnion",
                   "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "start": 342,
+                  "end": 369
                 },
-                "typeArguments": null
-              }
-            }
+                "typeArguments": null,
+                "start": 342,
+                "end": 369
+              },
+              "start": 340,
+              "end": 369
+            },
+            "start": 338,
+            "end": 369
           },
           "init": {
             "type": "ObjectExpression",
-            "start": 372,
-            "end": 450,
             "properties": [
               {
                 "type": "Property",
-                "start": 376,
-                "end": 403,
                 "kind": "init",
                 "key": {
                   "type": "Identifier",
-                  "start": 376,
-                  "end": 380,
                   "decorators": [],
                   "name": "href",
                   "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "start": 376,
+                  "end": 380
                 },
                 "value": {
                   "type": "TemplateLiteral",
-                  "start": 382,
-                  "end": 403,
                   "quasis": [
                     {
                       "type": "TemplateElement",
-                      "start": 382,
-                      "end": 386,
                       "value": {
                         "raw": "2",
                         "cooked": "2"
                       },
-                      "tail": false
+                      "tail": false,
+                      "start": 382,
+                      "end": 386
                     },
                     {
                       "type": "TemplateElement",
-                      "start": 395,
-                      "end": 403,
                       "value": {
                         "raw": "332132",
                         "cooked": "332132"
                       },
-                      "tail": true
+                      "tail": true,
+                      "start": 395,
+                      "end": 403
                     }
                   ],
                   "expressions": [
                     {
                       "type": "Identifier",
-                      "start": 386,
-                      "end": 395,
                       "decorators": [],
                       "name": "undefined",
                       "optional": false,
-                      "typeAnnotation": null
+                      "typeAnnotation": null,
+                      "start": 386,
+                      "end": 395
                     }
-                  ]
+                  ],
+                  "start": 382,
+                  "end": 403
                 },
                 "method": false,
                 "shorthand": false,
                 "computed": false,
-                "optional": false
+                "optional": false,
+                "start": 376,
+                "end": 403
               },
               {
                 "type": "Property",
-                "start": 407,
-                "end": 447,
                 "kind": "init",
                 "key": {
                   "type": "Identifier",
-                  "start": 407,
-                  "end": 414,
                   "decorators": [],
                   "name": "onClick",
                   "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "start": 407,
+                  "end": 414
                 },
                 "value": {
                   "type": "ArrowFunctionExpression",
-                  "start": 416,
-                  "end": 447,
                   "expression": true,
                   "async": false,
                   "typeParameters": null,
                   "params": [
                     {
                       "type": "Identifier",
-                      "start": 417,
-                      "end": 419,
                       "decorators": [],
                       "name": "ev",
                       "optional": false,
-                      "typeAnnotation": null
+                      "typeAnnotation": null,
+                      "start": 417,
+                      "end": 419
                     }
                   ],
                   "returnType": null,
                   "body": {
                     "type": "CallExpression",
-                    "start": 424,
-                    "end": 447,
                     "callee": {
                       "type": "MemberExpression",
-                      "start": 424,
-                      "end": 435,
                       "object": {
                         "type": "Identifier",
-                        "start": 424,
-                        "end": 431,
                         "decorators": [],
                         "name": "console",
                         "optional": false,
-                        "typeAnnotation": null
+                        "typeAnnotation": null,
+                        "start": 424,
+                        "end": 431
                       },
                       "property": {
                         "type": "Identifier",
-                        "start": 432,
-                        "end": 435,
                         "decorators": [],
                         "name": "log",
                         "optional": false,
-                        "typeAnnotation": null
+                        "typeAnnotation": null,
+                        "start": 432,
+                        "end": 435
                       },
                       "optional": false,
-                      "computed": false
+                      "computed": false,
+                      "start": 424,
+                      "end": 435
                     },
                     "typeArguments": null,
                     "arguments": [
                       {
                         "type": "Literal",
-                        "start": 436,
-                        "end": 442,
                         "value": "@@@@",
-                        "raw": "'@@@@'"
+                        "raw": "'@@@@'",
+                        "start": 436,
+                        "end": 442
                       },
                       {
                         "type": "Identifier",
-                        "start": 444,
-                        "end": 446,
                         "decorators": [],
                         "name": "ev",
                         "optional": false,
-                        "typeAnnotation": null
+                        "typeAnnotation": null,
+                        "start": 444,
+                        "end": 446
                       }
                     ],
-                    "optional": false
+                    "optional": false,
+                    "start": 424,
+                    "end": 447
                   },
                   "id": null,
-                  "generator": false
+                  "generator": false,
+                  "start": 416,
+                  "end": 447
                 },
                 "method": false,
                 "shorthand": false,
                 "computed": false,
-                "optional": false
+                "optional": false,
+                "start": 407,
+                "end": 447
               }
-            ]
+            ],
+            "start": 372,
+            "end": 450
           },
-          "definite": false
+          "definite": false,
+          "start": 338,
+          "end": 450
         }
       ],
-      "declare": false
+      "declare": false,
+      "start": 332,
+      "end": 450
     }
   ],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 76,
+  "end": 450
 }
 ```

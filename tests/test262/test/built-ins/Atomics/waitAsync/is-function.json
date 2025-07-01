@@ -1,81 +1,81 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 365,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 252,
-      "end": 364,
       "expression": {
         "type": "CallExpression",
-        "start": 252,
-        "end": 363,
         "callee": {
           "type": "MemberExpression",
-          "start": 252,
-          "end": 268,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 252,
-            "end": 258,
-            "name": "assert"
+            "end": 258
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 259,
-            "end": 268,
-            "name": "sameValue"
+            "end": 268
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 252,
+          "end": 268
         },
         "arguments": [
           {
             "type": "UnaryExpression",
-            "start": 269,
-            "end": 293,
             "operator": "typeof",
             "argument": {
               "type": "MemberExpression",
-              "start": 276,
-              "end": 293,
               "object": {
                 "type": "Identifier",
+                "name": "Atomics",
                 "start": 276,
-                "end": 283,
-                "name": "Atomics"
+                "end": 283
               },
               "property": {
                 "type": "Identifier",
+                "name": "waitAsync",
                 "start": 284,
-                "end": 293,
-                "name": "waitAsync"
+                "end": 293
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 276,
+              "end": 293
             },
-            "prefix": true
+            "prefix": true,
+            "start": 269,
+            "end": 293
           },
           {
             "type": "Literal",
-            "start": 295,
-            "end": 305,
             "value": "function",
-            "raw": "'function'"
+            "raw": "'function'",
+            "start": 295,
+            "end": 305
           },
           {
             "type": "Literal",
-            "start": 307,
-            "end": 362,
             "value": "The value of `typeof Atomics.waitAsync` is \"function\"",
-            "raw": "'The value of `typeof Atomics.waitAsync` is \"function\"'"
+            "raw": "'The value of `typeof Atomics.waitAsync` is \"function\"'",
+            "start": 307,
+            "end": 362
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 252,
+        "end": 363
+      },
+      "start": 252,
+      "end": 364
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 365
 }

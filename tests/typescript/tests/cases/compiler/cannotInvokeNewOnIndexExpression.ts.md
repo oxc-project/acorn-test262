@@ -2,79 +2,79 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 29,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 0,
-      "end": 29,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 4,
-          "end": 28,
           "id": {
             "type": "Identifier",
-            "start": 4,
-            "end": 15,
             "decorators": [],
             "name": "test",
             "optional": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
-              "start": 8,
-              "end": 15,
               "typeAnnotation": {
                 "type": "TSArrayType",
-                "start": 10,
-                "end": 15,
                 "elementType": {
                   "type": "TSAnyKeyword",
                   "start": 10,
                   "end": 13
-                }
-              }
-            }
+                },
+                "start": 10,
+                "end": 15
+              },
+              "start": 8,
+              "end": 15
+            },
+            "start": 4,
+            "end": 15
           },
           "init": {
             "type": "NewExpression",
-            "start": 18,
-            "end": 28,
             "callee": {
               "type": "MemberExpression",
-              "start": 22,
-              "end": 28,
               "object": {
                 "type": "Identifier",
-                "start": 22,
-                "end": 25,
                 "decorators": [],
                 "name": "any",
                 "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "start": 22,
+                "end": 25
               },
               "property": {
                 "type": "Literal",
-                "start": 26,
-                "end": 27,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "start": 26,
+                "end": 27
               },
               "optional": false,
-              "computed": true
+              "computed": true,
+              "start": 22,
+              "end": 28
             },
             "typeArguments": null,
-            "arguments": []
+            "arguments": [],
+            "start": 18,
+            "end": 28
           },
-          "definite": false
+          "definite": false,
+          "start": 4,
+          "end": 28
         }
       ],
-      "declare": false
+      "declare": false,
+      "start": 0,
+      "end": 29
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 29
 }
 ```

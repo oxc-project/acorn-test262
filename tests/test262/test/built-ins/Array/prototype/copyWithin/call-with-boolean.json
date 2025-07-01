@@ -1,245 +1,245 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 651,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 249,
-      "end": 448,
       "expression": {
         "type": "CallExpression",
-        "start": 249,
-        "end": 447,
         "callee": {
           "type": "MemberExpression",
-          "start": 249,
-          "end": 265,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 249,
-            "end": 255,
-            "name": "assert"
+            "end": 255
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 256,
-            "end": 265,
-            "name": "sameValue"
+            "end": 265
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 249,
+          "end": 265
         },
         "arguments": [
           {
             "type": "BinaryExpression",
-            "start": 269,
-            "end": 325,
             "left": {
               "type": "CallExpression",
-              "start": 269,
-              "end": 306,
               "callee": {
                 "type": "MemberExpression",
-                "start": 269,
-                "end": 300,
                 "object": {
                   "type": "MemberExpression",
-                  "start": 269,
-                  "end": 295,
                   "object": {
                     "type": "MemberExpression",
-                    "start": 269,
-                    "end": 284,
                     "object": {
                       "type": "Identifier",
+                      "name": "Array",
                       "start": 269,
-                      "end": 274,
-                      "name": "Array"
+                      "end": 274
                     },
                     "property": {
                       "type": "Identifier",
+                      "name": "prototype",
                       "start": 275,
-                      "end": 284,
-                      "name": "prototype"
+                      "end": 284
                     },
                     "optional": false,
-                    "computed": false
+                    "computed": false,
+                    "start": 269,
+                    "end": 284
                   },
                   "property": {
                     "type": "Identifier",
+                    "name": "copyWithin",
                     "start": 285,
-                    "end": 295,
-                    "name": "copyWithin"
+                    "end": 295
                   },
                   "optional": false,
-                  "computed": false
+                  "computed": false,
+                  "start": 269,
+                  "end": 295
                 },
                 "property": {
                   "type": "Identifier",
+                  "name": "call",
                   "start": 296,
-                  "end": 300,
-                  "name": "call"
+                  "end": 300
                 },
                 "optional": false,
-                "computed": false
+                "computed": false,
+                "start": 269,
+                "end": 300
               },
               "arguments": [
                 {
                   "type": "Literal",
-                  "start": 301,
-                  "end": 305,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "start": 301,
+                  "end": 305
                 }
               ],
-              "optional": false
+              "optional": false,
+              "start": 269,
+              "end": 306
             },
             "operator": "instanceof",
             "right": {
               "type": "Identifier",
+              "name": "Boolean",
               "start": 318,
-              "end": 325,
-              "name": "Boolean"
-            }
+              "end": 325
+            },
+            "start": 269,
+            "end": 325
           },
           {
             "type": "Literal",
-            "start": 329,
-            "end": 333,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "start": 329,
+            "end": 333
           },
           {
             "type": "Literal",
-            "start": 337,
-            "end": 445,
             "value": "The result of evaluating (Array.prototype.copyWithin.call(true) instanceof Boolean) is expected to be true",
-            "raw": "'The result of evaluating (Array.prototype.copyWithin.call(true) instanceof Boolean) is expected to be true'"
+            "raw": "'The result of evaluating (Array.prototype.copyWithin.call(true) instanceof Boolean) is expected to be true'",
+            "start": 337,
+            "end": 445
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 249,
+        "end": 447
+      },
+      "start": 249,
+      "end": 448
     },
     {
       "type": "ExpressionStatement",
-      "start": 449,
-      "end": 650,
       "expression": {
         "type": "CallExpression",
-        "start": 449,
-        "end": 649,
         "callee": {
           "type": "MemberExpression",
-          "start": 449,
-          "end": 465,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 449,
-            "end": 455,
-            "name": "assert"
+            "end": 455
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 456,
-            "end": 465,
-            "name": "sameValue"
+            "end": 465
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 449,
+          "end": 465
         },
         "arguments": [
           {
             "type": "BinaryExpression",
-            "start": 469,
-            "end": 526,
             "left": {
               "type": "CallExpression",
-              "start": 469,
-              "end": 507,
               "callee": {
                 "type": "MemberExpression",
-                "start": 469,
-                "end": 500,
                 "object": {
                   "type": "MemberExpression",
-                  "start": 469,
-                  "end": 495,
                   "object": {
                     "type": "MemberExpression",
-                    "start": 469,
-                    "end": 484,
                     "object": {
                       "type": "Identifier",
+                      "name": "Array",
                       "start": 469,
-                      "end": 474,
-                      "name": "Array"
+                      "end": 474
                     },
                     "property": {
                       "type": "Identifier",
+                      "name": "prototype",
                       "start": 475,
-                      "end": 484,
-                      "name": "prototype"
+                      "end": 484
                     },
                     "optional": false,
-                    "computed": false
+                    "computed": false,
+                    "start": 469,
+                    "end": 484
                   },
                   "property": {
                     "type": "Identifier",
+                    "name": "copyWithin",
                     "start": 485,
-                    "end": 495,
-                    "name": "copyWithin"
+                    "end": 495
                   },
                   "optional": false,
-                  "computed": false
+                  "computed": false,
+                  "start": 469,
+                  "end": 495
                 },
                 "property": {
                   "type": "Identifier",
+                  "name": "call",
                   "start": 496,
-                  "end": 500,
-                  "name": "call"
+                  "end": 500
                 },
                 "optional": false,
-                "computed": false
+                "computed": false,
+                "start": 469,
+                "end": 500
               },
               "arguments": [
                 {
                   "type": "Literal",
-                  "start": 501,
-                  "end": 506,
                   "value": false,
-                  "raw": "false"
+                  "raw": "false",
+                  "start": 501,
+                  "end": 506
                 }
               ],
-              "optional": false
+              "optional": false,
+              "start": 469,
+              "end": 507
             },
             "operator": "instanceof",
             "right": {
               "type": "Identifier",
+              "name": "Boolean",
               "start": 519,
-              "end": 526,
-              "name": "Boolean"
-            }
+              "end": 526
+            },
+            "start": 469,
+            "end": 526
           },
           {
             "type": "Literal",
-            "start": 530,
-            "end": 534,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "start": 530,
+            "end": 534
           },
           {
             "type": "Literal",
-            "start": 538,
-            "end": 647,
             "value": "The result of evaluating (Array.prototype.copyWithin.call(false) instanceof Boolean) is expected to be true",
-            "raw": "'The result of evaluating (Array.prototype.copyWithin.call(false) instanceof Boolean) is expected to be true'"
+            "raw": "'The result of evaluating (Array.prototype.copyWithin.call(false) instanceof Boolean) is expected to be true'",
+            "start": 538,
+            "end": 647
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 449,
+        "end": 649
+      },
+      "start": 449,
+      "end": 650
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 651
 }

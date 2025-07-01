@@ -1,1883 +1,1883 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 4762,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 1694,
-      "end": 1722,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 1698,
-          "end": 1721,
           "id": {
             "type": "Identifier",
+            "name": "re1",
             "start": 1698,
-            "end": 1701,
-            "name": "re1"
+            "end": 1701
           },
           "init": {
             "type": "Literal",
-            "start": 1704,
-            "end": 1721,
             "value": null,
             "raw": "/(?-s:(?s:^.$))/s",
             "regex": {
               "pattern": "(?-s:(?s:^.$))",
               "flags": "s"
-            }
-          }
+            },
+            "start": 1704,
+            "end": 1721
+          },
+          "start": 1698,
+          "end": 1721
         }
-      ]
+      ],
+      "start": 1694,
+      "end": 1722
     },
     {
       "type": "ExpressionStatement",
-      "start": 1723,
-      "end": 1822,
       "expression": {
         "type": "CallExpression",
-        "start": 1723,
-        "end": 1821,
         "callee": {
           "type": "Identifier",
+          "name": "assert",
           "start": 1723,
-          "end": 1729,
-          "name": "assert"
+          "end": 1729
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 1730,
-            "end": 1743,
             "callee": {
               "type": "MemberExpression",
-              "start": 1730,
-              "end": 1738,
               "object": {
                 "type": "Identifier",
+                "name": "re1",
                 "start": 1730,
-                "end": 1733,
-                "name": "re1"
+                "end": 1733
               },
               "property": {
                 "type": "Identifier",
+                "name": "test",
                 "start": 1734,
-                "end": 1738,
-                "name": "test"
+                "end": 1738
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 1730,
+              "end": 1738
             },
             "arguments": [
               {
                 "type": "Literal",
-                "start": 1739,
-                "end": 1742,
                 "value": "a",
-                "raw": "\"a\""
+                "raw": "\"a\"",
+                "start": 1739,
+                "end": 1742
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 1730,
+            "end": 1743
           },
           {
             "type": "Literal",
+            "value": "Pattern character '.' should match non-line terminators in modified group",
+            "raw": "\"Pattern character '.' should match non-line terminators in modified group\"",
             "start": 1745,
-            "end": 1820,
-            "value": "Pattern character '.' should match non-line terminators in modified group",
-            "raw": "\"Pattern character '.' should match non-line terminators in modified group\""
+            "end": 1820
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 1723,
+        "end": 1821
+      },
+      "start": 1723,
+      "end": 1822
     },
     {
       "type": "ExpressionStatement",
-      "start": 1823,
-      "end": 1922,
       "expression": {
         "type": "CallExpression",
-        "start": 1823,
-        "end": 1921,
         "callee": {
           "type": "Identifier",
+          "name": "assert",
           "start": 1823,
-          "end": 1829,
-          "name": "assert"
+          "end": 1829
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 1830,
-            "end": 1843,
             "callee": {
               "type": "MemberExpression",
-              "start": 1830,
-              "end": 1838,
               "object": {
                 "type": "Identifier",
+                "name": "re1",
                 "start": 1830,
-                "end": 1833,
-                "name": "re1"
+                "end": 1833
               },
               "property": {
                 "type": "Identifier",
+                "name": "test",
                 "start": 1834,
-                "end": 1838,
-                "name": "test"
+                "end": 1838
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 1830,
+              "end": 1838
             },
             "arguments": [
               {
                 "type": "Literal",
-                "start": 1839,
-                "end": 1842,
                 "value": "3",
-                "raw": "\"3\""
+                "raw": "\"3\"",
+                "start": 1839,
+                "end": 1842
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 1830,
+            "end": 1843
           },
           {
             "type": "Literal",
+            "value": "Pattern character '.' should match non-line terminators in modified group",
+            "raw": "\"Pattern character '.' should match non-line terminators in modified group\"",
             "start": 1845,
-            "end": 1920,
-            "value": "Pattern character '.' should match non-line terminators in modified group",
-            "raw": "\"Pattern character '.' should match non-line terminators in modified group\""
+            "end": 1920
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 1823,
+        "end": 1921
+      },
+      "start": 1823,
+      "end": 1922
     },
     {
       "type": "ExpressionStatement",
-      "start": 1923,
-      "end": 2022,
       "expression": {
         "type": "CallExpression",
-        "start": 1923,
-        "end": 2021,
         "callee": {
           "type": "Identifier",
+          "name": "assert",
           "start": 1923,
-          "end": 1929,
-          "name": "assert"
+          "end": 1929
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 1930,
-            "end": 1943,
             "callee": {
               "type": "MemberExpression",
-              "start": 1930,
-              "end": 1938,
               "object": {
                 "type": "Identifier",
+                "name": "re1",
                 "start": 1930,
-                "end": 1933,
-                "name": "re1"
+                "end": 1933
               },
               "property": {
                 "type": "Identifier",
+                "name": "test",
                 "start": 1934,
-                "end": 1938,
-                "name": "test"
+                "end": 1938
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 1930,
+              "end": 1938
             },
             "arguments": [
               {
                 "type": "Literal",
-                "start": 1939,
-                "end": 1942,
                 "value": "π",
-                "raw": "\"π\""
+                "raw": "\"π\"",
+                "start": 1939,
+                "end": 1942
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 1930,
+            "end": 1943
           },
           {
             "type": "Literal",
+            "value": "Pattern character '.' should match non-line terminators in modified group",
+            "raw": "\"Pattern character '.' should match non-line terminators in modified group\"",
             "start": 1945,
-            "end": 2020,
-            "value": "Pattern character '.' should match non-line terminators in modified group",
-            "raw": "\"Pattern character '.' should match non-line terminators in modified group\""
+            "end": 2020
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 1923,
+        "end": 2021
+      },
+      "start": 1923,
+      "end": 2022
     },
     {
       "type": "ExpressionStatement",
-      "start": 2023,
-      "end": 2127,
       "expression": {
         "type": "CallExpression",
-        "start": 2023,
-        "end": 2126,
         "callee": {
           "type": "Identifier",
+          "name": "assert",
           "start": 2023,
-          "end": 2029,
-          "name": "assert"
+          "end": 2029
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 2030,
-            "end": 2048,
             "callee": {
               "type": "MemberExpression",
-              "start": 2030,
-              "end": 2038,
               "object": {
                 "type": "Identifier",
+                "name": "re1",
                 "start": 2030,
-                "end": 2033,
-                "name": "re1"
+                "end": 2033
               },
               "property": {
                 "type": "Identifier",
+                "name": "test",
                 "start": 2034,
-                "end": 2038,
-                "name": "test"
+                "end": 2038
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 2030,
+              "end": 2038
             },
             "arguments": [
               {
                 "type": "Literal",
-                "start": 2039,
-                "end": 2047,
                 "value": "‧",
-                "raw": "\"\\u2027\""
+                "raw": "\"\\u2027\"",
+                "start": 2039,
+                "end": 2047
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 2030,
+            "end": 2048
           },
           {
             "type": "Literal",
+            "value": "Pattern character '.' should match non-line terminators in modified group",
+            "raw": "\"Pattern character '.' should match non-line terminators in modified group\"",
             "start": 2050,
-            "end": 2125,
-            "value": "Pattern character '.' should match non-line terminators in modified group",
-            "raw": "\"Pattern character '.' should match non-line terminators in modified group\""
+            "end": 2125
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 2023,
+        "end": 2126
+      },
+      "start": 2023,
+      "end": 2127
     },
     {
       "type": "ExpressionStatement",
-      "start": 2128,
-      "end": 2232,
       "expression": {
         "type": "CallExpression",
-        "start": 2128,
-        "end": 2231,
         "callee": {
           "type": "Identifier",
+          "name": "assert",
           "start": 2128,
-          "end": 2134,
-          "name": "assert"
+          "end": 2134
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 2135,
-            "end": 2153,
             "callee": {
               "type": "MemberExpression",
-              "start": 2135,
-              "end": 2143,
               "object": {
                 "type": "Identifier",
+                "name": "re1",
                 "start": 2135,
-                "end": 2138,
-                "name": "re1"
+                "end": 2138
               },
               "property": {
                 "type": "Identifier",
+                "name": "test",
                 "start": 2139,
-                "end": 2143,
-                "name": "test"
+                "end": 2143
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 2135,
+              "end": 2143
             },
             "arguments": [
               {
                 "type": "Literal",
-                "start": 2144,
-                "end": 2152,
                 "value": "",
-                "raw": "\"\\u0085\""
+                "raw": "\"\\u0085\"",
+                "start": 2144,
+                "end": 2152
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 2135,
+            "end": 2153
           },
           {
             "type": "Literal",
+            "value": "Pattern character '.' should match non-line terminators in modified group",
+            "raw": "\"Pattern character '.' should match non-line terminators in modified group\"",
             "start": 2155,
-            "end": 2230,
-            "value": "Pattern character '.' should match non-line terminators in modified group",
-            "raw": "\"Pattern character '.' should match non-line terminators in modified group\""
+            "end": 2230
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 2128,
+        "end": 2231
+      },
+      "start": 2128,
+      "end": 2232
     },
     {
       "type": "ExpressionStatement",
-      "start": 2233,
-      "end": 2333,
       "expression": {
         "type": "CallExpression",
-        "start": 2233,
-        "end": 2332,
         "callee": {
           "type": "Identifier",
+          "name": "assert",
           "start": 2233,
-          "end": 2239,
-          "name": "assert"
+          "end": 2239
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 2240,
-            "end": 2254,
             "callee": {
               "type": "MemberExpression",
-              "start": 2240,
-              "end": 2248,
               "object": {
                 "type": "Identifier",
+                "name": "re1",
                 "start": 2240,
-                "end": 2243,
-                "name": "re1"
+                "end": 2243
               },
               "property": {
                 "type": "Identifier",
+                "name": "test",
                 "start": 2244,
-                "end": 2248,
-                "name": "test"
+                "end": 2248
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 2240,
+              "end": 2248
             },
             "arguments": [
               {
                 "type": "Literal",
-                "start": 2249,
-                "end": 2253,
                 "value": "\u000b",
-                "raw": "\"\\v\""
+                "raw": "\"\\v\"",
+                "start": 2249,
+                "end": 2253
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 2240,
+            "end": 2254
           },
           {
             "type": "Literal",
+            "value": "Pattern character '.' should match mon-line terminators in modified group",
+            "raw": "\"Pattern character '.' should match mon-line terminators in modified group\"",
             "start": 2256,
-            "end": 2331,
-            "value": "Pattern character '.' should match mon-line terminators in modified group",
-            "raw": "\"Pattern character '.' should match mon-line terminators in modified group\""
+            "end": 2331
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 2233,
+        "end": 2332
+      },
+      "start": 2233,
+      "end": 2333
     },
     {
       "type": "ExpressionStatement",
-      "start": 2334,
-      "end": 2434,
       "expression": {
         "type": "CallExpression",
-        "start": 2334,
-        "end": 2433,
         "callee": {
           "type": "Identifier",
+          "name": "assert",
           "start": 2334,
-          "end": 2340,
-          "name": "assert"
+          "end": 2340
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 2341,
-            "end": 2355,
             "callee": {
               "type": "MemberExpression",
-              "start": 2341,
-              "end": 2349,
               "object": {
                 "type": "Identifier",
+                "name": "re1",
                 "start": 2341,
-                "end": 2344,
-                "name": "re1"
+                "end": 2344
               },
               "property": {
                 "type": "Identifier",
+                "name": "test",
                 "start": 2345,
-                "end": 2349,
-                "name": "test"
+                "end": 2349
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 2341,
+              "end": 2349
             },
             "arguments": [
               {
                 "type": "Literal",
-                "start": 2350,
-                "end": 2354,
                 "value": "\f",
-                "raw": "\"\\f\""
+                "raw": "\"\\f\"",
+                "start": 2350,
+                "end": 2354
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 2341,
+            "end": 2355
           },
           {
             "type": "Literal",
-            "start": 2357,
-            "end": 2432,
             "value": "Pattern character '.' should match mon-line terminators in modified group",
-            "raw": "\"Pattern character '.' should match mon-line terminators in modified group\""
+            "raw": "\"Pattern character '.' should match mon-line terminators in modified group\"",
+            "start": 2357,
+            "end": 2432
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 2334,
+        "end": 2433
+      },
+      "start": 2334,
+      "end": 2434
     },
     {
       "type": "ExpressionStatement",
-      "start": 2435,
-      "end": 2539,
       "expression": {
         "type": "CallExpression",
-        "start": 2435,
-        "end": 2538,
         "callee": {
           "type": "Identifier",
+          "name": "assert",
           "start": 2435,
-          "end": 2441,
-          "name": "assert"
+          "end": 2441
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 2442,
-            "end": 2460,
             "callee": {
               "type": "MemberExpression",
-              "start": 2442,
-              "end": 2450,
               "object": {
                 "type": "Identifier",
+                "name": "re1",
                 "start": 2442,
-                "end": 2445,
-                "name": "re1"
+                "end": 2445
               },
               "property": {
                 "type": "Identifier",
+                "name": "test",
                 "start": 2446,
-                "end": 2450,
-                "name": "test"
+                "end": 2450
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 2442,
+              "end": 2450
             },
             "arguments": [
               {
                 "type": "Literal",
-                "start": 2451,
-                "end": 2459,
                 "value": "᠎",
-                "raw": "\"\\u180E\""
+                "raw": "\"\\u180E\"",
+                "start": 2451,
+                "end": 2459
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 2442,
+            "end": 2460
           },
           {
             "type": "Literal",
-            "start": 2462,
-            "end": 2537,
             "value": "Pattern character '.' should match non-line terminators in modified group",
-            "raw": "\"Pattern character '.' should match non-line terminators in modified group\""
+            "raw": "\"Pattern character '.' should match non-line terminators in modified group\"",
+            "start": 2462,
+            "end": 2537
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 2435,
+        "end": 2538
+      },
+      "start": 2435,
+      "end": 2539
     },
     {
       "type": "ExpressionStatement",
-      "start": 2540,
-      "end": 2620,
       "expression": {
         "type": "CallExpression",
-        "start": 2540,
-        "end": 2619,
         "callee": {
           "type": "Identifier",
+          "name": "assert",
           "start": 2540,
-          "end": 2546,
-          "name": "assert"
+          "end": 2546
         },
         "arguments": [
           {
             "type": "UnaryExpression",
-            "start": 2547,
-            "end": 2569,
             "operator": "!",
             "argument": {
               "type": "CallExpression",
-              "start": 2548,
-              "end": 2569,
               "callee": {
                 "type": "MemberExpression",
-                "start": 2548,
-                "end": 2556,
                 "object": {
                   "type": "Identifier",
+                  "name": "re1",
                   "start": 2548,
-                  "end": 2551,
-                  "name": "re1"
+                  "end": 2551
                 },
                 "property": {
                   "type": "Identifier",
+                  "name": "test",
                   "start": 2552,
-                  "end": 2556,
-                  "name": "test"
+                  "end": 2556
                 },
                 "optional": false,
-                "computed": false
+                "computed": false,
+                "start": 2548,
+                "end": 2556
               },
               "arguments": [
                 {
                   "type": "Literal",
-                  "start": 2557,
-                  "end": 2568,
                   "value": "𐌀",
-                  "raw": "\"\\u{10300}\""
+                  "raw": "\"\\u{10300}\"",
+                  "start": 2557,
+                  "end": 2568
                 }
               ],
-              "optional": false
+              "optional": false,
+              "start": 2548,
+              "end": 2569
             },
-            "prefix": true
+            "prefix": true,
+            "start": 2547,
+            "end": 2569
           },
           {
             "type": "Literal",
-            "start": 2571,
-            "end": 2618,
             "value": "Supplementary plane not matched by a single .",
-            "raw": "\"Supplementary plane not matched by a single .\""
+            "raw": "\"Supplementary plane not matched by a single .\"",
+            "start": 2571,
+            "end": 2618
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 2540,
+        "end": 2619
+      },
+      "start": 2540,
+      "end": 2620
     },
     {
       "type": "ExpressionStatement",
-      "start": 2621,
-      "end": 2717,
       "expression": {
         "type": "CallExpression",
-        "start": 2621,
-        "end": 2716,
         "callee": {
           "type": "Identifier",
+          "name": "assert",
           "start": 2621,
-          "end": 2627,
-          "name": "assert"
+          "end": 2627
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 2628,
-            "end": 2642,
             "callee": {
               "type": "MemberExpression",
-              "start": 2628,
-              "end": 2636,
               "object": {
                 "type": "Identifier",
+                "name": "re1",
                 "start": 2628,
-                "end": 2631,
-                "name": "re1"
+                "end": 2631
               },
               "property": {
                 "type": "Identifier",
+                "name": "test",
                 "start": 2632,
-                "end": 2636,
-                "name": "test"
+                "end": 2636
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 2628,
+              "end": 2636
             },
             "arguments": [
               {
                 "type": "Literal",
-                "start": 2637,
-                "end": 2641,
                 "value": "\n",
-                "raw": "\"\\n\""
+                "raw": "\"\\n\"",
+                "start": 2637,
+                "end": 2641
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 2628,
+            "end": 2642
           },
           {
             "type": "Literal",
+            "value": "Pattern character '.' should match line terminators in modified group",
+            "raw": "\"Pattern character '.' should match line terminators in modified group\"",
             "start": 2644,
-            "end": 2715,
-            "value": "Pattern character '.' should match line terminators in modified group",
-            "raw": "\"Pattern character '.' should match line terminators in modified group\""
+            "end": 2715
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 2621,
+        "end": 2716
+      },
+      "start": 2621,
+      "end": 2717
     },
     {
       "type": "ExpressionStatement",
-      "start": 2718,
-      "end": 2814,
       "expression": {
         "type": "CallExpression",
-        "start": 2718,
-        "end": 2813,
         "callee": {
           "type": "Identifier",
+          "name": "assert",
           "start": 2718,
-          "end": 2724,
-          "name": "assert"
+          "end": 2724
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 2725,
-            "end": 2739,
             "callee": {
               "type": "MemberExpression",
-              "start": 2725,
-              "end": 2733,
               "object": {
                 "type": "Identifier",
+                "name": "re1",
                 "start": 2725,
-                "end": 2728,
-                "name": "re1"
+                "end": 2728
               },
               "property": {
                 "type": "Identifier",
+                "name": "test",
                 "start": 2729,
-                "end": 2733,
-                "name": "test"
+                "end": 2733
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 2725,
+              "end": 2733
             },
             "arguments": [
               {
                 "type": "Literal",
-                "start": 2734,
-                "end": 2738,
                 "value": "\r",
-                "raw": "\"\\r\""
+                "raw": "\"\\r\"",
+                "start": 2734,
+                "end": 2738
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 2725,
+            "end": 2739
           },
           {
             "type": "Literal",
+            "value": "Pattern character '.' should match line terminators in modified group",
+            "raw": "\"Pattern character '.' should match line terminators in modified group\"",
             "start": 2741,
-            "end": 2812,
-            "value": "Pattern character '.' should match line terminators in modified group",
-            "raw": "\"Pattern character '.' should match line terminators in modified group\""
+            "end": 2812
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 2718,
+        "end": 2813
+      },
+      "start": 2718,
+      "end": 2814
     },
     {
       "type": "ExpressionStatement",
-      "start": 2815,
-      "end": 2915,
       "expression": {
         "type": "CallExpression",
-        "start": 2815,
-        "end": 2914,
         "callee": {
           "type": "Identifier",
+          "name": "assert",
           "start": 2815,
-          "end": 2821,
-          "name": "assert"
+          "end": 2821
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 2822,
-            "end": 2840,
             "callee": {
               "type": "MemberExpression",
-              "start": 2822,
-              "end": 2830,
               "object": {
                 "type": "Identifier",
+                "name": "re1",
                 "start": 2822,
-                "end": 2825,
-                "name": "re1"
+                "end": 2825
               },
               "property": {
                 "type": "Identifier",
+                "name": "test",
                 "start": 2826,
-                "end": 2830,
-                "name": "test"
+                "end": 2830
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 2822,
+              "end": 2830
             },
             "arguments": [
               {
                 "type": "Literal",
-                "start": 2831,
-                "end": 2839,
                 "value": " ",
-                "raw": "\"\\u2028\""
+                "raw": "\"\\u2028\"",
+                "start": 2831,
+                "end": 2839
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 2822,
+            "end": 2840
           },
           {
             "type": "Literal",
+            "value": "Pattern character '.' should match line terminators in modified group",
+            "raw": "\"Pattern character '.' should match line terminators in modified group\"",
             "start": 2842,
-            "end": 2913,
-            "value": "Pattern character '.' should match line terminators in modified group",
-            "raw": "\"Pattern character '.' should match line terminators in modified group\""
+            "end": 2913
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 2815,
+        "end": 2914
+      },
+      "start": 2815,
+      "end": 2915
     },
     {
       "type": "ExpressionStatement",
-      "start": 2916,
-      "end": 3016,
       "expression": {
         "type": "CallExpression",
-        "start": 2916,
-        "end": 3015,
         "callee": {
           "type": "Identifier",
+          "name": "assert",
           "start": 2916,
-          "end": 2922,
-          "name": "assert"
+          "end": 2922
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 2923,
-            "end": 2941,
             "callee": {
               "type": "MemberExpression",
-              "start": 2923,
-              "end": 2931,
               "object": {
                 "type": "Identifier",
+                "name": "re1",
                 "start": 2923,
-                "end": 2926,
-                "name": "re1"
+                "end": 2926
               },
               "property": {
                 "type": "Identifier",
+                "name": "test",
                 "start": 2927,
-                "end": 2931,
-                "name": "test"
+                "end": 2931
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 2923,
+              "end": 2931
             },
             "arguments": [
               {
                 "type": "Literal",
-                "start": 2932,
-                "end": 2940,
                 "value": " ",
-                "raw": "\"\\u2029\""
+                "raw": "\"\\u2029\"",
+                "start": 2932,
+                "end": 2940
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 2923,
+            "end": 2941
           },
           {
             "type": "Literal",
-            "start": 2943,
-            "end": 3014,
             "value": "Pattern character '.' should match line terminators in modified group",
-            "raw": "\"Pattern character '.' should match line terminators in modified group\""
+            "raw": "\"Pattern character '.' should match line terminators in modified group\"",
+            "start": 2943,
+            "end": 3014
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 2916,
+        "end": 3015
+      },
+      "start": 2916,
+      "end": 3016
     },
     {
       "type": "ExpressionStatement",
-      "start": 3017,
-      "end": 3121,
       "expression": {
         "type": "CallExpression",
-        "start": 3017,
-        "end": 3120,
         "callee": {
           "type": "Identifier",
+          "name": "assert",
           "start": 3017,
-          "end": 3023,
-          "name": "assert"
+          "end": 3023
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 3024,
-            "end": 3042,
             "callee": {
               "type": "MemberExpression",
-              "start": 3024,
-              "end": 3032,
               "object": {
                 "type": "Identifier",
+                "name": "re1",
                 "start": 3024,
-                "end": 3027,
-                "name": "re1"
+                "end": 3027
               },
               "property": {
                 "type": "Identifier",
+                "name": "test",
                 "start": 3028,
-                "end": 3032,
-                "name": "test"
+                "end": 3032
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 3024,
+              "end": 3032
             },
             "arguments": [
               {
                 "type": "Literal",
-                "start": 3033,
-                "end": 3041,
                 "value": "\ud800",
-                "raw": "\"\\uD800\""
+                "raw": "\"\\uD800\"",
+                "start": 3033,
+                "end": 3041
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 3024,
+            "end": 3042
           },
           {
             "type": "Literal",
-            "start": 3044,
-            "end": 3119,
             "value": "Pattern character '.' should match non-line terminators in modified group",
-            "raw": "\"Pattern character '.' should match non-line terminators in modified group\""
+            "raw": "\"Pattern character '.' should match non-line terminators in modified group\"",
+            "start": 3044,
+            "end": 3119
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 3017,
+        "end": 3120
+      },
+      "start": 3017,
+      "end": 3121
     },
     {
       "type": "ExpressionStatement",
-      "start": 3122,
-      "end": 3226,
       "expression": {
         "type": "CallExpression",
-        "start": 3122,
-        "end": 3225,
         "callee": {
           "type": "Identifier",
+          "name": "assert",
           "start": 3122,
-          "end": 3128,
-          "name": "assert"
+          "end": 3128
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 3129,
-            "end": 3147,
             "callee": {
               "type": "MemberExpression",
-              "start": 3129,
-              "end": 3137,
               "object": {
                 "type": "Identifier",
+                "name": "re1",
                 "start": 3129,
-                "end": 3132,
-                "name": "re1"
+                "end": 3132
               },
               "property": {
                 "type": "Identifier",
+                "name": "test",
                 "start": 3133,
-                "end": 3137,
-                "name": "test"
+                "end": 3137
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 3129,
+              "end": 3137
             },
             "arguments": [
               {
                 "type": "Literal",
-                "start": 3138,
-                "end": 3146,
                 "value": "\udfff",
-                "raw": "\"\\uDFFF\""
+                "raw": "\"\\uDFFF\"",
+                "start": 3138,
+                "end": 3146
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 3129,
+            "end": 3147
           },
           {
             "type": "Literal",
-            "start": 3149,
-            "end": 3224,
             "value": "Pattern character '.' should match non-line terminators in modified group",
-            "raw": "\"Pattern character '.' should match non-line terminators in modified group\""
+            "raw": "\"Pattern character '.' should match non-line terminators in modified group\"",
+            "start": 3149,
+            "end": 3224
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 3122,
+        "end": 3225
+      },
+      "start": 3122,
+      "end": 3226
     },
     {
       "type": "VariableDeclaration",
-      "start": 3228,
-      "end": 3257,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 3232,
-          "end": 3256,
           "id": {
             "type": "Identifier",
+            "name": "re2",
             "start": 3232,
-            "end": 3235,
-            "name": "re2"
+            "end": 3235
           },
           "init": {
             "type": "Literal",
-            "start": 3238,
-            "end": 3256,
             "value": null,
             "raw": "/(?-s:(?s-:^.$))/s",
             "regex": {
               "pattern": "(?-s:(?s-:^.$))",
               "flags": "s"
-            }
-          }
+            },
+            "start": 3238,
+            "end": 3256
+          },
+          "start": 3232,
+          "end": 3256
         }
-      ]
+      ],
+      "start": 3228,
+      "end": 3257
     },
     {
       "type": "ExpressionStatement",
-      "start": 3258,
-      "end": 3357,
       "expression": {
         "type": "CallExpression",
-        "start": 3258,
-        "end": 3356,
         "callee": {
           "type": "Identifier",
+          "name": "assert",
           "start": 3258,
-          "end": 3264,
-          "name": "assert"
+          "end": 3264
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 3265,
-            "end": 3278,
             "callee": {
               "type": "MemberExpression",
-              "start": 3265,
-              "end": 3273,
               "object": {
                 "type": "Identifier",
+                "name": "re2",
                 "start": 3265,
-                "end": 3268,
-                "name": "re2"
+                "end": 3268
               },
               "property": {
                 "type": "Identifier",
+                "name": "test",
                 "start": 3269,
-                "end": 3273,
-                "name": "test"
+                "end": 3273
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 3265,
+              "end": 3273
             },
             "arguments": [
               {
                 "type": "Literal",
-                "start": 3274,
-                "end": 3277,
                 "value": "a",
-                "raw": "\"a\""
+                "raw": "\"a\"",
+                "start": 3274,
+                "end": 3277
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 3265,
+            "end": 3278
           },
           {
             "type": "Literal",
+            "value": "Pattern character '.' should match non-line terminators in modified group",
+            "raw": "\"Pattern character '.' should match non-line terminators in modified group\"",
             "start": 3280,
-            "end": 3355,
-            "value": "Pattern character '.' should match non-line terminators in modified group",
-            "raw": "\"Pattern character '.' should match non-line terminators in modified group\""
+            "end": 3355
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 3258,
+        "end": 3356
+      },
+      "start": 3258,
+      "end": 3357
     },
     {
       "type": "ExpressionStatement",
-      "start": 3358,
-      "end": 3457,
       "expression": {
         "type": "CallExpression",
-        "start": 3358,
-        "end": 3456,
         "callee": {
           "type": "Identifier",
+          "name": "assert",
           "start": 3358,
-          "end": 3364,
-          "name": "assert"
+          "end": 3364
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 3365,
-            "end": 3378,
             "callee": {
               "type": "MemberExpression",
-              "start": 3365,
-              "end": 3373,
               "object": {
                 "type": "Identifier",
+                "name": "re2",
                 "start": 3365,
-                "end": 3368,
-                "name": "re2"
+                "end": 3368
               },
               "property": {
                 "type": "Identifier",
+                "name": "test",
                 "start": 3369,
-                "end": 3373,
-                "name": "test"
+                "end": 3373
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 3365,
+              "end": 3373
             },
             "arguments": [
               {
                 "type": "Literal",
-                "start": 3374,
-                "end": 3377,
                 "value": "3",
-                "raw": "\"3\""
+                "raw": "\"3\"",
+                "start": 3374,
+                "end": 3377
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 3365,
+            "end": 3378
           },
           {
             "type": "Literal",
+            "value": "Pattern character '.' should match non-line terminators in modified group",
+            "raw": "\"Pattern character '.' should match non-line terminators in modified group\"",
             "start": 3380,
-            "end": 3455,
-            "value": "Pattern character '.' should match non-line terminators in modified group",
-            "raw": "\"Pattern character '.' should match non-line terminators in modified group\""
+            "end": 3455
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 3358,
+        "end": 3456
+      },
+      "start": 3358,
+      "end": 3457
     },
     {
       "type": "ExpressionStatement",
-      "start": 3458,
-      "end": 3557,
       "expression": {
         "type": "CallExpression",
-        "start": 3458,
-        "end": 3556,
         "callee": {
           "type": "Identifier",
+          "name": "assert",
           "start": 3458,
-          "end": 3464,
-          "name": "assert"
+          "end": 3464
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 3465,
-            "end": 3478,
             "callee": {
               "type": "MemberExpression",
-              "start": 3465,
-              "end": 3473,
               "object": {
                 "type": "Identifier",
+                "name": "re2",
                 "start": 3465,
-                "end": 3468,
-                "name": "re2"
+                "end": 3468
               },
               "property": {
                 "type": "Identifier",
+                "name": "test",
                 "start": 3469,
-                "end": 3473,
-                "name": "test"
+                "end": 3473
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 3465,
+              "end": 3473
             },
             "arguments": [
               {
                 "type": "Literal",
-                "start": 3474,
-                "end": 3477,
                 "value": "π",
-                "raw": "\"π\""
+                "raw": "\"π\"",
+                "start": 3474,
+                "end": 3477
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 3465,
+            "end": 3478
           },
           {
             "type": "Literal",
+            "value": "Pattern character '.' should match non-line terminators in modified group",
+            "raw": "\"Pattern character '.' should match non-line terminators in modified group\"",
             "start": 3480,
-            "end": 3555,
-            "value": "Pattern character '.' should match non-line terminators in modified group",
-            "raw": "\"Pattern character '.' should match non-line terminators in modified group\""
+            "end": 3555
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 3458,
+        "end": 3556
+      },
+      "start": 3458,
+      "end": 3557
     },
     {
       "type": "ExpressionStatement",
-      "start": 3558,
-      "end": 3662,
       "expression": {
         "type": "CallExpression",
-        "start": 3558,
-        "end": 3661,
         "callee": {
           "type": "Identifier",
+          "name": "assert",
           "start": 3558,
-          "end": 3564,
-          "name": "assert"
+          "end": 3564
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 3565,
-            "end": 3583,
             "callee": {
               "type": "MemberExpression",
-              "start": 3565,
-              "end": 3573,
               "object": {
                 "type": "Identifier",
+                "name": "re2",
                 "start": 3565,
-                "end": 3568,
-                "name": "re2"
+                "end": 3568
               },
               "property": {
                 "type": "Identifier",
+                "name": "test",
                 "start": 3569,
-                "end": 3573,
-                "name": "test"
+                "end": 3573
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 3565,
+              "end": 3573
             },
             "arguments": [
               {
                 "type": "Literal",
-                "start": 3574,
-                "end": 3582,
                 "value": "‧",
-                "raw": "\"\\u2027\""
+                "raw": "\"\\u2027\"",
+                "start": 3574,
+                "end": 3582
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 3565,
+            "end": 3583
           },
           {
             "type": "Literal",
+            "value": "Pattern character '.' should match non-line terminators in modified group",
+            "raw": "\"Pattern character '.' should match non-line terminators in modified group\"",
             "start": 3585,
-            "end": 3660,
-            "value": "Pattern character '.' should match non-line terminators in modified group",
-            "raw": "\"Pattern character '.' should match non-line terminators in modified group\""
+            "end": 3660
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 3558,
+        "end": 3661
+      },
+      "start": 3558,
+      "end": 3662
     },
     {
       "type": "ExpressionStatement",
-      "start": 3663,
-      "end": 3767,
       "expression": {
         "type": "CallExpression",
-        "start": 3663,
-        "end": 3766,
         "callee": {
           "type": "Identifier",
+          "name": "assert",
           "start": 3663,
-          "end": 3669,
-          "name": "assert"
+          "end": 3669
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 3670,
-            "end": 3688,
             "callee": {
               "type": "MemberExpression",
-              "start": 3670,
-              "end": 3678,
               "object": {
                 "type": "Identifier",
+                "name": "re2",
                 "start": 3670,
-                "end": 3673,
-                "name": "re2"
+                "end": 3673
               },
               "property": {
                 "type": "Identifier",
+                "name": "test",
                 "start": 3674,
-                "end": 3678,
-                "name": "test"
+                "end": 3678
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 3670,
+              "end": 3678
             },
             "arguments": [
               {
                 "type": "Literal",
-                "start": 3679,
-                "end": 3687,
                 "value": "",
-                "raw": "\"\\u0085\""
+                "raw": "\"\\u0085\"",
+                "start": 3679,
+                "end": 3687
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 3670,
+            "end": 3688
           },
           {
             "type": "Literal",
+            "value": "Pattern character '.' should match non-line terminators in modified group",
+            "raw": "\"Pattern character '.' should match non-line terminators in modified group\"",
             "start": 3690,
-            "end": 3765,
-            "value": "Pattern character '.' should match non-line terminators in modified group",
-            "raw": "\"Pattern character '.' should match non-line terminators in modified group\""
+            "end": 3765
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 3663,
+        "end": 3766
+      },
+      "start": 3663,
+      "end": 3767
     },
     {
       "type": "ExpressionStatement",
-      "start": 3768,
-      "end": 3868,
       "expression": {
         "type": "CallExpression",
-        "start": 3768,
-        "end": 3867,
         "callee": {
           "type": "Identifier",
+          "name": "assert",
           "start": 3768,
-          "end": 3774,
-          "name": "assert"
+          "end": 3774
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 3775,
-            "end": 3789,
             "callee": {
               "type": "MemberExpression",
-              "start": 3775,
-              "end": 3783,
               "object": {
                 "type": "Identifier",
+                "name": "re2",
                 "start": 3775,
-                "end": 3778,
-                "name": "re2"
+                "end": 3778
               },
               "property": {
                 "type": "Identifier",
+                "name": "test",
                 "start": 3779,
-                "end": 3783,
-                "name": "test"
+                "end": 3783
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 3775,
+              "end": 3783
             },
             "arguments": [
               {
                 "type": "Literal",
-                "start": 3784,
-                "end": 3788,
                 "value": "\u000b",
-                "raw": "\"\\v\""
+                "raw": "\"\\v\"",
+                "start": 3784,
+                "end": 3788
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 3775,
+            "end": 3789
           },
           {
             "type": "Literal",
+            "value": "Pattern character '.' should match mon-line terminators in modified group",
+            "raw": "\"Pattern character '.' should match mon-line terminators in modified group\"",
             "start": 3791,
-            "end": 3866,
-            "value": "Pattern character '.' should match mon-line terminators in modified group",
-            "raw": "\"Pattern character '.' should match mon-line terminators in modified group\""
+            "end": 3866
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 3768,
+        "end": 3867
+      },
+      "start": 3768,
+      "end": 3868
     },
     {
       "type": "ExpressionStatement",
-      "start": 3869,
-      "end": 3969,
       "expression": {
         "type": "CallExpression",
-        "start": 3869,
-        "end": 3968,
         "callee": {
           "type": "Identifier",
+          "name": "assert",
           "start": 3869,
-          "end": 3875,
-          "name": "assert"
+          "end": 3875
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 3876,
-            "end": 3890,
             "callee": {
               "type": "MemberExpression",
-              "start": 3876,
-              "end": 3884,
               "object": {
                 "type": "Identifier",
+                "name": "re2",
                 "start": 3876,
-                "end": 3879,
-                "name": "re2"
+                "end": 3879
               },
               "property": {
                 "type": "Identifier",
+                "name": "test",
                 "start": 3880,
-                "end": 3884,
-                "name": "test"
+                "end": 3884
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 3876,
+              "end": 3884
             },
             "arguments": [
               {
                 "type": "Literal",
-                "start": 3885,
-                "end": 3889,
                 "value": "\f",
-                "raw": "\"\\f\""
+                "raw": "\"\\f\"",
+                "start": 3885,
+                "end": 3889
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 3876,
+            "end": 3890
           },
           {
             "type": "Literal",
-            "start": 3892,
-            "end": 3967,
             "value": "Pattern character '.' should match mon-line terminators in modified group",
-            "raw": "\"Pattern character '.' should match mon-line terminators in modified group\""
+            "raw": "\"Pattern character '.' should match mon-line terminators in modified group\"",
+            "start": 3892,
+            "end": 3967
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 3869,
+        "end": 3968
+      },
+      "start": 3869,
+      "end": 3969
     },
     {
       "type": "ExpressionStatement",
-      "start": 3970,
-      "end": 4074,
       "expression": {
         "type": "CallExpression",
-        "start": 3970,
-        "end": 4073,
         "callee": {
           "type": "Identifier",
+          "name": "assert",
           "start": 3970,
-          "end": 3976,
-          "name": "assert"
+          "end": 3976
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 3977,
-            "end": 3995,
             "callee": {
               "type": "MemberExpression",
-              "start": 3977,
-              "end": 3985,
               "object": {
                 "type": "Identifier",
+                "name": "re2",
                 "start": 3977,
-                "end": 3980,
-                "name": "re2"
+                "end": 3980
               },
               "property": {
                 "type": "Identifier",
+                "name": "test",
                 "start": 3981,
-                "end": 3985,
-                "name": "test"
+                "end": 3985
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 3977,
+              "end": 3985
             },
             "arguments": [
               {
                 "type": "Literal",
-                "start": 3986,
-                "end": 3994,
                 "value": "᠎",
-                "raw": "\"\\u180E\""
+                "raw": "\"\\u180E\"",
+                "start": 3986,
+                "end": 3994
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 3977,
+            "end": 3995
           },
           {
             "type": "Literal",
-            "start": 3997,
-            "end": 4072,
             "value": "Pattern character '.' should match non-line terminators in modified group",
-            "raw": "\"Pattern character '.' should match non-line terminators in modified group\""
+            "raw": "\"Pattern character '.' should match non-line terminators in modified group\"",
+            "start": 3997,
+            "end": 4072
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 3970,
+        "end": 4073
+      },
+      "start": 3970,
+      "end": 4074
     },
     {
       "type": "ExpressionStatement",
-      "start": 4075,
-      "end": 4155,
       "expression": {
         "type": "CallExpression",
-        "start": 4075,
-        "end": 4154,
         "callee": {
           "type": "Identifier",
+          "name": "assert",
           "start": 4075,
-          "end": 4081,
-          "name": "assert"
+          "end": 4081
         },
         "arguments": [
           {
             "type": "UnaryExpression",
-            "start": 4082,
-            "end": 4104,
             "operator": "!",
             "argument": {
               "type": "CallExpression",
-              "start": 4083,
-              "end": 4104,
               "callee": {
                 "type": "MemberExpression",
-                "start": 4083,
-                "end": 4091,
                 "object": {
                   "type": "Identifier",
+                  "name": "re2",
                   "start": 4083,
-                  "end": 4086,
-                  "name": "re2"
+                  "end": 4086
                 },
                 "property": {
                   "type": "Identifier",
+                  "name": "test",
                   "start": 4087,
-                  "end": 4091,
-                  "name": "test"
+                  "end": 4091
                 },
                 "optional": false,
-                "computed": false
+                "computed": false,
+                "start": 4083,
+                "end": 4091
               },
               "arguments": [
                 {
                   "type": "Literal",
-                  "start": 4092,
-                  "end": 4103,
                   "value": "𐌀",
-                  "raw": "\"\\u{10300}\""
+                  "raw": "\"\\u{10300}\"",
+                  "start": 4092,
+                  "end": 4103
                 }
               ],
-              "optional": false
+              "optional": false,
+              "start": 4083,
+              "end": 4104
             },
-            "prefix": true
+            "prefix": true,
+            "start": 4082,
+            "end": 4104
           },
           {
             "type": "Literal",
-            "start": 4106,
-            "end": 4153,
             "value": "Supplementary plane not matched by a single .",
-            "raw": "\"Supplementary plane not matched by a single .\""
+            "raw": "\"Supplementary plane not matched by a single .\"",
+            "start": 4106,
+            "end": 4153
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 4075,
+        "end": 4154
+      },
+      "start": 4075,
+      "end": 4155
     },
     {
       "type": "ExpressionStatement",
-      "start": 4156,
-      "end": 4252,
       "expression": {
         "type": "CallExpression",
-        "start": 4156,
-        "end": 4251,
         "callee": {
           "type": "Identifier",
+          "name": "assert",
           "start": 4156,
-          "end": 4162,
-          "name": "assert"
+          "end": 4162
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 4163,
-            "end": 4177,
             "callee": {
               "type": "MemberExpression",
-              "start": 4163,
-              "end": 4171,
               "object": {
                 "type": "Identifier",
+                "name": "re2",
                 "start": 4163,
-                "end": 4166,
-                "name": "re2"
+                "end": 4166
               },
               "property": {
                 "type": "Identifier",
+                "name": "test",
                 "start": 4167,
-                "end": 4171,
-                "name": "test"
+                "end": 4171
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 4163,
+              "end": 4171
             },
             "arguments": [
               {
                 "type": "Literal",
-                "start": 4172,
-                "end": 4176,
                 "value": "\n",
-                "raw": "\"\\n\""
+                "raw": "\"\\n\"",
+                "start": 4172,
+                "end": 4176
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 4163,
+            "end": 4177
           },
           {
             "type": "Literal",
+            "value": "Pattern character '.' should match line terminators in modified group",
+            "raw": "\"Pattern character '.' should match line terminators in modified group\"",
             "start": 4179,
-            "end": 4250,
-            "value": "Pattern character '.' should match line terminators in modified group",
-            "raw": "\"Pattern character '.' should match line terminators in modified group\""
+            "end": 4250
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 4156,
+        "end": 4251
+      },
+      "start": 4156,
+      "end": 4252
     },
     {
       "type": "ExpressionStatement",
-      "start": 4253,
-      "end": 4349,
       "expression": {
         "type": "CallExpression",
-        "start": 4253,
-        "end": 4348,
         "callee": {
           "type": "Identifier",
+          "name": "assert",
           "start": 4253,
-          "end": 4259,
-          "name": "assert"
+          "end": 4259
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 4260,
-            "end": 4274,
             "callee": {
               "type": "MemberExpression",
-              "start": 4260,
-              "end": 4268,
               "object": {
                 "type": "Identifier",
+                "name": "re2",
                 "start": 4260,
-                "end": 4263,
-                "name": "re2"
+                "end": 4263
               },
               "property": {
                 "type": "Identifier",
+                "name": "test",
                 "start": 4264,
-                "end": 4268,
-                "name": "test"
+                "end": 4268
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 4260,
+              "end": 4268
             },
             "arguments": [
               {
                 "type": "Literal",
-                "start": 4269,
-                "end": 4273,
                 "value": "\r",
-                "raw": "\"\\r\""
+                "raw": "\"\\r\"",
+                "start": 4269,
+                "end": 4273
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 4260,
+            "end": 4274
           },
           {
             "type": "Literal",
+            "value": "Pattern character '.' should match line terminators in modified group",
+            "raw": "\"Pattern character '.' should match line terminators in modified group\"",
             "start": 4276,
-            "end": 4347,
-            "value": "Pattern character '.' should match line terminators in modified group",
-            "raw": "\"Pattern character '.' should match line terminators in modified group\""
+            "end": 4347
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 4253,
+        "end": 4348
+      },
+      "start": 4253,
+      "end": 4349
     },
     {
       "type": "ExpressionStatement",
-      "start": 4350,
-      "end": 4450,
       "expression": {
         "type": "CallExpression",
-        "start": 4350,
-        "end": 4449,
         "callee": {
           "type": "Identifier",
+          "name": "assert",
           "start": 4350,
-          "end": 4356,
-          "name": "assert"
+          "end": 4356
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 4357,
-            "end": 4375,
             "callee": {
               "type": "MemberExpression",
-              "start": 4357,
-              "end": 4365,
               "object": {
                 "type": "Identifier",
+                "name": "re2",
                 "start": 4357,
-                "end": 4360,
-                "name": "re2"
+                "end": 4360
               },
               "property": {
                 "type": "Identifier",
+                "name": "test",
                 "start": 4361,
-                "end": 4365,
-                "name": "test"
+                "end": 4365
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 4357,
+              "end": 4365
             },
             "arguments": [
               {
                 "type": "Literal",
-                "start": 4366,
-                "end": 4374,
                 "value": " ",
-                "raw": "\"\\u2028\""
+                "raw": "\"\\u2028\"",
+                "start": 4366,
+                "end": 4374
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 4357,
+            "end": 4375
           },
           {
             "type": "Literal",
+            "value": "Pattern character '.' should match line terminators in modified group",
+            "raw": "\"Pattern character '.' should match line terminators in modified group\"",
             "start": 4377,
-            "end": 4448,
-            "value": "Pattern character '.' should match line terminators in modified group",
-            "raw": "\"Pattern character '.' should match line terminators in modified group\""
+            "end": 4448
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 4350,
+        "end": 4449
+      },
+      "start": 4350,
+      "end": 4450
     },
     {
       "type": "ExpressionStatement",
-      "start": 4451,
-      "end": 4551,
       "expression": {
         "type": "CallExpression",
-        "start": 4451,
-        "end": 4550,
         "callee": {
           "type": "Identifier",
+          "name": "assert",
           "start": 4451,
-          "end": 4457,
-          "name": "assert"
+          "end": 4457
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 4458,
-            "end": 4476,
             "callee": {
               "type": "MemberExpression",
-              "start": 4458,
-              "end": 4466,
               "object": {
                 "type": "Identifier",
+                "name": "re2",
                 "start": 4458,
-                "end": 4461,
-                "name": "re2"
+                "end": 4461
               },
               "property": {
                 "type": "Identifier",
+                "name": "test",
                 "start": 4462,
-                "end": 4466,
-                "name": "test"
+                "end": 4466
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 4458,
+              "end": 4466
             },
             "arguments": [
               {
                 "type": "Literal",
-                "start": 4467,
-                "end": 4475,
                 "value": " ",
-                "raw": "\"\\u2029\""
+                "raw": "\"\\u2029\"",
+                "start": 4467,
+                "end": 4475
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 4458,
+            "end": 4476
           },
           {
             "type": "Literal",
-            "start": 4478,
-            "end": 4549,
             "value": "Pattern character '.' should match line terminators in modified group",
-            "raw": "\"Pattern character '.' should match line terminators in modified group\""
+            "raw": "\"Pattern character '.' should match line terminators in modified group\"",
+            "start": 4478,
+            "end": 4549
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 4451,
+        "end": 4550
+      },
+      "start": 4451,
+      "end": 4551
     },
     {
       "type": "ExpressionStatement",
-      "start": 4552,
-      "end": 4656,
       "expression": {
         "type": "CallExpression",
-        "start": 4552,
-        "end": 4655,
         "callee": {
           "type": "Identifier",
+          "name": "assert",
           "start": 4552,
-          "end": 4558,
-          "name": "assert"
+          "end": 4558
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 4559,
-            "end": 4577,
             "callee": {
               "type": "MemberExpression",
-              "start": 4559,
-              "end": 4567,
               "object": {
                 "type": "Identifier",
+                "name": "re2",
                 "start": 4559,
-                "end": 4562,
-                "name": "re2"
+                "end": 4562
               },
               "property": {
                 "type": "Identifier",
+                "name": "test",
                 "start": 4563,
-                "end": 4567,
-                "name": "test"
+                "end": 4567
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 4559,
+              "end": 4567
             },
             "arguments": [
               {
                 "type": "Literal",
-                "start": 4568,
-                "end": 4576,
                 "value": "\ud800",
-                "raw": "\"\\uD800\""
+                "raw": "\"\\uD800\"",
+                "start": 4568,
+                "end": 4576
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 4559,
+            "end": 4577
           },
           {
             "type": "Literal",
-            "start": 4579,
-            "end": 4654,
             "value": "Pattern character '.' should match non-line terminators in modified group",
-            "raw": "\"Pattern character '.' should match non-line terminators in modified group\""
+            "raw": "\"Pattern character '.' should match non-line terminators in modified group\"",
+            "start": 4579,
+            "end": 4654
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 4552,
+        "end": 4655
+      },
+      "start": 4552,
+      "end": 4656
     },
     {
       "type": "ExpressionStatement",
-      "start": 4657,
-      "end": 4761,
       "expression": {
         "type": "CallExpression",
-        "start": 4657,
-        "end": 4760,
         "callee": {
           "type": "Identifier",
+          "name": "assert",
           "start": 4657,
-          "end": 4663,
-          "name": "assert"
+          "end": 4663
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 4664,
-            "end": 4682,
             "callee": {
               "type": "MemberExpression",
-              "start": 4664,
-              "end": 4672,
               "object": {
                 "type": "Identifier",
+                "name": "re2",
                 "start": 4664,
-                "end": 4667,
-                "name": "re2"
+                "end": 4667
               },
               "property": {
                 "type": "Identifier",
+                "name": "test",
                 "start": 4668,
-                "end": 4672,
-                "name": "test"
+                "end": 4672
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 4664,
+              "end": 4672
             },
             "arguments": [
               {
                 "type": "Literal",
-                "start": 4673,
-                "end": 4681,
                 "value": "\udfff",
-                "raw": "\"\\uDFFF\""
+                "raw": "\"\\uDFFF\"",
+                "start": 4673,
+                "end": 4681
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 4664,
+            "end": 4682
           },
           {
             "type": "Literal",
-            "start": 4684,
-            "end": 4759,
             "value": "Pattern character '.' should match non-line terminators in modified group",
-            "raw": "\"Pattern character '.' should match non-line terminators in modified group\""
+            "raw": "\"Pattern character '.' should match non-line terminators in modified group\"",
+            "start": 4684,
+            "end": 4759
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 4657,
+        "end": 4760
+      },
+      "start": 4657,
+      "end": 4761
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 4762
 }

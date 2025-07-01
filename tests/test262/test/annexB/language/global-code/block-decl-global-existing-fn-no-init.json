@@ -1,136 +1,136 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 701,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 557,
-      "end": 600,
       "expression": {
         "type": "CallExpression",
-        "start": 557,
-        "end": 599,
         "callee": {
           "type": "MemberExpression",
-          "start": 557,
-          "end": 573,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 557,
-            "end": 563,
-            "name": "assert"
+            "end": 563
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 564,
-            "end": 573,
-            "name": "sameValue"
+            "end": 573
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 557,
+          "end": 573
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 574,
-            "end": 577,
             "callee": {
               "type": "Identifier",
+              "name": "f",
               "start": 574,
-              "end": 575,
-              "name": "f"
+              "end": 575
             },
             "arguments": [],
-            "optional": false
+            "optional": false,
+            "start": 574,
+            "end": 577
           },
           {
             "type": "Literal",
-            "start": 579,
-            "end": 598,
             "value": "outer declaration",
-            "raw": "'outer declaration'"
+            "raw": "'outer declaration'",
+            "start": 579,
+            "end": 598
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 557,
+        "end": 599
+      },
+      "start": 557,
+      "end": 600
     },
     {
       "type": "BlockStatement",
-      "start": 602,
-      "end": 652,
       "body": [
         {
           "type": "FunctionDeclaration",
-          "start": 606,
-          "end": 650,
           "id": {
             "type": "Identifier",
+            "name": "f",
             "start": 615,
-            "end": 616,
-            "name": "f"
+            "end": 616
           },
           "generator": false,
           "async": false,
           "params": [],
           "body": {
             "type": "BlockStatement",
-            "start": 619,
-            "end": 650,
             "body": [
               {
                 "type": "ReturnStatement",
-                "start": 621,
-                "end": 648,
                 "argument": {
                   "type": "Literal",
-                  "start": 628,
-                  "end": 647,
                   "value": "inner declaration",
-                  "raw": "'inner declaration'"
-                }
+                  "raw": "'inner declaration'",
+                  "start": 628,
+                  "end": 647
+                },
+                "start": 621,
+                "end": 648
               }
-            ]
+            ],
+            "start": 619,
+            "end": 650
           },
-          "expression": false
+          "expression": false,
+          "start": 606,
+          "end": 650
         }
-      ]
+      ],
+      "start": 602,
+      "end": 652
     },
     {
       "type": "FunctionDeclaration",
-      "start": 654,
-      "end": 700,
       "id": {
         "type": "Identifier",
+        "name": "f",
         "start": 663,
-        "end": 664,
-        "name": "f"
+        "end": 664
       },
       "generator": false,
       "async": false,
       "params": [],
       "body": {
         "type": "BlockStatement",
-        "start": 667,
-        "end": 700,
         "body": [
           {
             "type": "ReturnStatement",
-            "start": 671,
-            "end": 698,
             "argument": {
               "type": "Literal",
-              "start": 678,
-              "end": 697,
               "value": "outer declaration",
-              "raw": "'outer declaration'"
-            }
+              "raw": "'outer declaration'",
+              "start": 678,
+              "end": 697
+            },
+            "start": 671,
+            "end": 698
           }
-        ]
+        ],
+        "start": 667,
+        "end": 700
       },
-      "expression": false
+      "expression": false,
+      "start": 654,
+      "end": 700
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 701
 }

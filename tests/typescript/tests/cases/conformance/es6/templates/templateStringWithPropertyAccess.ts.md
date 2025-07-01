@@ -2,96 +2,96 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 28,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 0,
-      "end": 28,
       "expression": {
         "type": "CallExpression",
-        "start": 0,
-        "end": 27,
         "callee": {
           "type": "MemberExpression",
-          "start": 0,
-          "end": 20,
           "object": {
             "type": "TemplateLiteral",
-            "start": 0,
-            "end": 12,
             "quasis": [
               {
                 "type": "TemplateElement",
-                "start": 0,
-                "end": 6,
                 "value": {
                   "raw": "abc",
                   "cooked": "abc"
                 },
-                "tail": false
+                "tail": false,
+                "start": 0,
+                "end": 6
               },
               {
                 "type": "TemplateElement",
-                "start": 7,
-                "end": 12,
                 "value": {
                   "raw": "abc",
                   "cooked": "abc"
                 },
-                "tail": true
+                "tail": true,
+                "start": 7,
+                "end": 12
               }
             ],
             "expressions": [
               {
                 "type": "Literal",
-                "start": 6,
-                "end": 7,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "start": 6,
+                "end": 7
               }
-            ]
+            ],
+            "start": 0,
+            "end": 12
           },
           "property": {
             "type": "Identifier",
-            "start": 13,
-            "end": 20,
             "decorators": [],
             "name": "indexOf",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 13,
+            "end": 20
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 0,
+          "end": 20
         },
         "typeArguments": null,
         "arguments": [
           {
             "type": "TemplateLiteral",
-            "start": 21,
-            "end": 26,
             "quasis": [
               {
                 "type": "TemplateElement",
-                "start": 21,
-                "end": 26,
                 "value": {
                   "raw": "abc",
                   "cooked": "abc"
                 },
-                "tail": true
+                "tail": true,
+                "start": 21,
+                "end": 26
               }
             ],
-            "expressions": []
+            "expressions": [],
+            "start": 21,
+            "end": 26
           }
         ],
-        "optional": false
+        "optional": false,
+        "start": 0,
+        "end": 27
       },
-      "directive": null
+      "directive": null,
+      "start": 0,
+      "end": 28
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 28
 }
 ```

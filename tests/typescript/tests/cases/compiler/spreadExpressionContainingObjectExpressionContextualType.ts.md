@@ -2,65 +2,55 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 17,
-  "end": 195,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 17,
-      "end": 87,
       "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 23,
-          "end": 86,
           "id": {
             "type": "ObjectPattern",
-            "start": 23,
-            "end": 32,
             "decorators": [],
             "properties": [
               {
                 "type": "Property",
-                "start": 25,
-                "end": 30,
                 "kind": "init",
                 "key": {
                   "type": "Identifier",
-                  "start": 25,
-                  "end": 30,
                   "decorators": [],
                   "name": "value",
                   "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "start": 25,
+                  "end": 30
                 },
                 "value": {
                   "type": "Identifier",
-                  "start": 25,
-                  "end": 30,
                   "decorators": [],
                   "name": "value",
                   "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "start": 25,
+                  "end": 30
                 },
                 "method": false,
                 "shorthand": true,
                 "computed": false,
-                "optional": false
+                "optional": false,
+                "start": 25,
+                "end": 30
               }
             ],
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 23,
+            "end": 32
           },
           "init": {
             "type": "CallExpression",
-            "start": 35,
-            "end": 86,
             "callee": {
               "type": "ArrowFunctionExpression",
-              "start": 36,
-              "end": 83,
               "expression": true,
               "async": false,
               "typeParameters": null,
@@ -68,169 +58,165 @@ __ESTREE_TEST__:PASS:
               "returnType": null,
               "body": {
                 "type": "ObjectExpression",
-                "start": 43,
-                "end": 82,
                 "properties": [
                   {
                     "type": "Property",
-                    "start": 47,
-                    "end": 56,
                     "kind": "init",
                     "key": {
                       "type": "Identifier",
-                      "start": 47,
-                      "end": 52,
                       "decorators": [],
                       "name": "value",
                       "optional": false,
-                      "typeAnnotation": null
+                      "typeAnnotation": null,
+                      "start": 47,
+                      "end": 52
                     },
                     "value": {
                       "type": "Literal",
-                      "start": 54,
-                      "end": 56,
                       "value": "",
-                      "raw": "\"\""
+                      "raw": "\"\"",
+                      "start": 54,
+                      "end": 56
                     },
                     "method": false,
                     "shorthand": false,
                     "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "start": 47,
+                    "end": 56
                   },
                   {
                     "type": "SpreadElement",
-                    "start": 60,
-                    "end": 79,
                     "argument": {
                       "type": "ConditionalExpression",
-                      "start": 64,
-                      "end": 78,
                       "test": {
                         "type": "Literal",
-                        "start": 64,
-                        "end": 68,
                         "value": true,
-                        "raw": "true"
+                        "raw": "true",
+                        "start": 64,
+                        "end": 68
                       },
                       "consequent": {
                         "type": "ObjectExpression",
+                        "properties": [],
                         "start": 71,
-                        "end": 73,
-                        "properties": []
+                        "end": 73
                       },
                       "alternate": {
                         "type": "ObjectExpression",
+                        "properties": [],
                         "start": 76,
-                        "end": 78,
-                        "properties": []
-                      }
-                    }
+                        "end": 78
+                      },
+                      "start": 64,
+                      "end": 78
+                    },
+                    "start": 60,
+                    "end": 79
                   }
-                ]
+                ],
+                "start": 43,
+                "end": 82
               },
               "id": null,
-              "generator": false
+              "generator": false,
+              "start": 36,
+              "end": 83
             },
             "typeArguments": null,
             "arguments": [],
-            "optional": false
+            "optional": false,
+            "start": 35,
+            "end": 86
           },
-          "definite": false
+          "definite": false,
+          "start": 23,
+          "end": 86
         }
       ],
-      "declare": false
+      "declare": false,
+      "start": 17,
+      "end": 87
     },
     {
       "type": "VariableDeclaration",
-      "start": 127,
-      "end": 195,
       "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 133,
-          "end": 194,
           "id": {
             "type": "ObjectPattern",
-            "start": 133,
-            "end": 143,
             "decorators": [],
             "properties": [
               {
                 "type": "Property",
-                "start": 135,
-                "end": 141,
                 "kind": "init",
                 "key": {
                   "type": "Identifier",
-                  "start": 135,
-                  "end": 141,
                   "decorators": [],
                   "name": "value2",
                   "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "start": 135,
+                  "end": 141
                 },
                 "value": {
                   "type": "Identifier",
-                  "start": 135,
-                  "end": 141,
                   "decorators": [],
                   "name": "value2",
                   "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "start": 135,
+                  "end": 141
                 },
                 "method": false,
                 "shorthand": true,
                 "computed": false,
-                "optional": false
+                "optional": false,
+                "start": 135,
+                "end": 141
               }
             ],
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 133,
+            "end": 143
           },
           "init": {
             "type": "ObjectExpression",
-            "start": 146,
-            "end": 194,
             "properties": [
               {
                 "type": "Property",
-                "start": 150,
-                "end": 160,
                 "kind": "init",
                 "key": {
                   "type": "Identifier",
-                  "start": 150,
-                  "end": 156,
                   "decorators": [],
                   "name": "value2",
                   "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "start": 150,
+                  "end": 156
                 },
                 "value": {
                   "type": "Literal",
-                  "start": 158,
-                  "end": 160,
                   "value": "",
-                  "raw": "\"\""
+                  "raw": "\"\"",
+                  "start": 158,
+                  "end": 160
                 },
                 "method": false,
                 "shorthand": false,
                 "computed": false,
-                "optional": false
+                "optional": false,
+                "start": 150,
+                "end": 160
               },
               {
                 "type": "SpreadElement",
-                "start": 164,
-                "end": 191,
                 "argument": {
                   "type": "CallExpression",
-                  "start": 167,
-                  "end": 191,
                   "callee": {
                     "type": "ArrowFunctionExpression",
-                    "start": 168,
-                    "end": 188,
                     "expression": true,
                     "async": false,
                     "typeParameters": null,
@@ -238,45 +224,59 @@ __ESTREE_TEST__:PASS:
                     "returnType": null,
                     "body": {
                       "type": "ConditionalExpression",
-                      "start": 174,
-                      "end": 188,
                       "test": {
                         "type": "Literal",
-                        "start": 174,
-                        "end": 178,
                         "value": true,
-                        "raw": "true"
+                        "raw": "true",
+                        "start": 174,
+                        "end": 178
                       },
                       "consequent": {
                         "type": "ObjectExpression",
+                        "properties": [],
                         "start": 181,
-                        "end": 183,
-                        "properties": []
+                        "end": 183
                       },
                       "alternate": {
                         "type": "ObjectExpression",
+                        "properties": [],
                         "start": 186,
-                        "end": 188,
-                        "properties": []
-                      }
+                        "end": 188
+                      },
+                      "start": 174,
+                      "end": 188
                     },
                     "id": null,
-                    "generator": false
+                    "generator": false,
+                    "start": 168,
+                    "end": 188
                   },
                   "typeArguments": null,
                   "arguments": [],
-                  "optional": false
-                }
+                  "optional": false,
+                  "start": 167,
+                  "end": 191
+                },
+                "start": 164,
+                "end": 191
               }
-            ]
+            ],
+            "start": 146,
+            "end": 194
           },
-          "definite": false
+          "definite": false,
+          "start": 133,
+          "end": 194
         }
       ],
-      "declare": false
+      "declare": false,
+      "start": 127,
+      "end": 195
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 17,
+  "end": 195
 }
 ```

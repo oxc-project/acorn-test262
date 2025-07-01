@@ -2,21 +2,17 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 101,
   "body": [
     {
       "type": "FunctionDeclaration",
-      "start": 0,
-      "end": 101,
       "id": {
         "type": "Identifier",
-        "start": 15,
-        "end": 18,
         "decorators": [],
         "name": "foo",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 15,
+        "end": 18
       },
       "generator": false,
       "async": true,
@@ -26,69 +22,73 @@ __ESTREE_TEST__:PASS:
       "returnType": null,
       "body": {
         "type": "BlockStatement",
-        "start": 21,
-        "end": 101,
         "body": [
           {
             "type": "ExpressionStatement",
-            "start": 40,
-            "end": 48,
             "expression": {
               "type": "AwaitExpression",
-              "start": 40,
-              "end": 47,
               "argument": {
                 "type": "Literal",
-                "start": 46,
-                "end": 47,
                 "value": 1,
-                "raw": "1"
-              }
+                "raw": "1",
+                "start": 46,
+                "end": 47
+              },
+              "start": 40,
+              "end": 47
             },
-            "directive": null
+            "directive": null,
+            "start": 40,
+            "end": 48
           },
           {
             "type": "ExpressionStatement",
-            "start": 53,
-            "end": 74,
             "expression": {
               "type": "AwaitExpression",
-              "start": 53,
-              "end": 73,
               "argument": {
                 "type": "Literal",
-                "start": 72,
-                "end": 73,
                 "value": 2,
-                "raw": "2"
-              }
+                "raw": "2",
+                "start": 72,
+                "end": 73
+              },
+              "start": 53,
+              "end": 73
             },
-            "directive": null
+            "directive": null,
+            "start": 53,
+            "end": 74
           },
           {
             "type": "ExpressionStatement",
-            "start": 79,
-            "end": 86,
             "expression": {
               "type": "AwaitExpression",
-              "start": 79,
-              "end": 86,
               "argument": {
                 "type": "Literal",
-                "start": 85,
-                "end": 86,
                 "value": 3,
-                "raw": "3"
-              }
+                "raw": "3",
+                "start": 85,
+                "end": 86
+              },
+              "start": 79,
+              "end": 86
             },
-            "directive": null
+            "directive": null,
+            "start": 79,
+            "end": 86
           }
-        ]
+        ],
+        "start": 21,
+        "end": 101
       },
-      "expression": false
+      "expression": false,
+      "start": 0,
+      "end": 101
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 101
 }
 ```

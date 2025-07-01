@@ -1,43 +1,43 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 267,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 237,
-      "end": 266,
       "expression": {
         "type": "BinaryExpression",
-        "start": 237,
-        "end": 265,
         "left": {
           "type": "Literal",
-          "start": 237,
-          "end": 248,
           "value": "arguments",
-          "raw": "'arguments'"
+          "raw": "'arguments'",
+          "start": 237,
+          "end": 248
         },
         "operator": "in",
         "right": {
           "type": "FunctionExpression",
-          "start": 252,
-          "end": 265,
           "id": null,
           "generator": false,
           "async": false,
           "params": [],
           "body": {
             "type": "BlockStatement",
+            "body": [],
             "start": 263,
-            "end": 265,
-            "body": []
+            "end": 265
           },
-          "expression": false
-        }
-      }
+          "expression": false,
+          "start": 252,
+          "end": 265
+        },
+        "start": 237,
+        "end": 265
+      },
+      "start": 237,
+      "end": 266
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 267
 }

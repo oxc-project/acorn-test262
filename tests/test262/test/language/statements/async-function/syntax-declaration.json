@@ -1,104 +1,104 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 345,
   "body": [
     {
       "type": "FunctionDeclaration",
-      "start": 279,
-      "end": 305,
       "id": {
         "type": "Identifier",
+        "name": "foo",
         "start": 294,
-        "end": 297,
-        "name": "foo"
+        "end": 297
       },
       "generator": false,
       "async": true,
       "params": [],
       "body": {
         "type": "BlockStatement",
+        "body": [],
         "start": 301,
-        "end": 305,
-        "body": []
+        "end": 305
       },
-      "expression": false
+      "expression": false,
+      "start": 279,
+      "end": 305
     },
     {
       "type": "ExpressionStatement",
-      "start": 307,
-      "end": 344,
       "expression": {
         "type": "CallExpression",
-        "start": 307,
-        "end": 344,
         "callee": {
           "type": "MemberExpression",
-          "start": 307,
-          "end": 317,
           "object": {
             "type": "CallExpression",
-            "start": 307,
-            "end": 312,
             "callee": {
               "type": "Identifier",
+              "name": "foo",
               "start": 307,
-              "end": 310,
-              "name": "foo"
+              "end": 310
             },
             "arguments": [],
-            "optional": false
+            "optional": false,
+            "start": 307,
+            "end": 312
           },
           "property": {
             "type": "Identifier",
+            "name": "then",
             "start": 313,
-            "end": 317,
-            "name": "then"
+            "end": 317
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 307,
+          "end": 317
         },
         "arguments": [
           {
             "type": "FunctionExpression",
-            "start": 318,
-            "end": 343,
             "id": null,
             "generator": false,
             "async": false,
             "params": [],
             "body": {
               "type": "BlockStatement",
-              "start": 329,
-              "end": 343,
               "body": [
                 {
                   "type": "ExpressionStatement",
-                  "start": 333,
-                  "end": 341,
                   "expression": {
                     "type": "CallExpression",
-                    "start": 333,
-                    "end": 340,
                     "callee": {
                       "type": "Identifier",
+                      "name": "$DONE",
                       "start": 333,
-                      "end": 338,
-                      "name": "$DONE"
+                      "end": 338
                     },
                     "arguments": [],
-                    "optional": false
-                  }
+                    "optional": false,
+                    "start": 333,
+                    "end": 340
+                  },
+                  "start": 333,
+                  "end": 341
                 }
-              ]
+              ],
+              "start": 329,
+              "end": 343
             },
-            "expression": false
+            "expression": false,
+            "start": 318,
+            "end": 343
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 307,
+        "end": 344
+      },
+      "start": 307,
+      "end": 344
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 345
 }

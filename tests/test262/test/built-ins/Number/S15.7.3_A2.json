@@ -1,69 +1,69 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 379,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 280,
-      "end": 378,
       "expression": {
         "type": "CallExpression",
-        "start": 280,
-        "end": 377,
         "callee": {
           "type": "Identifier",
+          "name": "assert",
           "start": 280,
-          "end": 286,
-          "name": "assert"
+          "end": 286
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 287,
-            "end": 321,
             "callee": {
               "type": "MemberExpression",
-              "start": 287,
-              "end": 308,
               "object": {
                 "type": "Identifier",
+                "name": "Number",
                 "start": 287,
-                "end": 293,
-                "name": "Number"
+                "end": 293
               },
               "property": {
                 "type": "Identifier",
+                "name": "hasOwnProperty",
                 "start": 294,
-                "end": 308,
-                "name": "hasOwnProperty"
+                "end": 308
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 287,
+              "end": 308
             },
             "arguments": [
               {
                 "type": "Literal",
-                "start": 309,
-                "end": 320,
                 "value": "MAX_VALUE",
-                "raw": "\"MAX_VALUE\""
+                "raw": "\"MAX_VALUE\"",
+                "start": 309,
+                "end": 320
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 287,
+            "end": 321
           },
           {
             "type": "Literal",
-            "start": 323,
-            "end": 376,
             "value": "Number.hasOwnProperty(\"MAX_VALUE\") must return true",
-            "raw": "'Number.hasOwnProperty(\"MAX_VALUE\") must return true'"
+            "raw": "'Number.hasOwnProperty(\"MAX_VALUE\") must return true'",
+            "start": 323,
+            "end": 376
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 280,
+        "end": 377
+      },
+      "start": 280,
+      "end": 378
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 379
 }

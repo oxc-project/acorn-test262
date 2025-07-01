@@ -2,91 +2,91 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 54,
-  "end": 108,
   "body": [
     {
       "type": "TSImportEqualsDeclaration",
-      "start": 54,
-      "end": 80,
       "id": {
         "type": "Identifier",
-        "start": 61,
-        "end": 62,
         "decorators": [],
         "name": "a",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 61,
+        "end": 62
       },
       "moduleReference": {
         "type": "TSExternalModuleReference",
-        "start": 65,
-        "end": 79,
         "expression": {
           "type": "Literal",
-          "start": 73,
-          "end": 78,
           "value": "foo",
-          "raw": "\"foo\""
-        }
+          "raw": "\"foo\"",
+          "start": 73,
+          "end": 78
+        },
+        "start": 65,
+        "end": 79
       },
-      "importKind": "value"
+      "importKind": "value",
+      "start": 54,
+      "end": 80
     },
     {
       "type": "VariableDeclaration",
-      "start": 81,
-      "end": 108,
       "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 87,
-          "end": 107,
           "id": {
             "type": "Identifier",
-            "start": 87,
-            "end": 88,
             "decorators": [],
             "name": "p",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 87,
+            "end": 88
           },
           "init": {
             "type": "TSSatisfiesExpression",
-            "start": 91,
-            "end": 107,
             "expression": {
               "type": "Identifier",
-              "start": 91,
-              "end": 92,
               "decorators": [],
               "name": "a",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 91,
+              "end": 92
             },
             "typeAnnotation": {
               "type": "TSTypeReference",
-              "start": 103,
-              "end": 107,
               "typeName": {
                 "type": "Identifier",
-                "start": 103,
-                "end": 107,
                 "decorators": [],
                 "name": "bleh",
                 "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "start": 103,
+                "end": 107
               },
-              "typeArguments": null
-            }
+              "typeArguments": null,
+              "start": 103,
+              "end": 107
+            },
+            "start": 91,
+            "end": 107
           },
-          "definite": false
+          "definite": false,
+          "start": 87,
+          "end": 107
         }
       ],
-      "declare": false
+      "declare": false,
+      "start": 81,
+      "end": 108
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 54,
+  "end": 108
 }
 ```

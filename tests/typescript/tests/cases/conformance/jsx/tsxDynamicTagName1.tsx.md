@@ -2,87 +2,87 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 71,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 0,
-      "end": 21,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 4,
-          "end": 20,
           "id": {
             "type": "Identifier",
-            "start": 4,
-            "end": 13,
             "decorators": [],
             "name": "CustomTag",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 4,
+            "end": 13
           },
           "init": {
             "type": "Literal",
-            "start": 16,
-            "end": 20,
             "value": "h1",
-            "raw": "\"h1\""
+            "raw": "\"h1\"",
+            "start": 16,
+            "end": 20
           },
-          "definite": false
+          "definite": false,
+          "start": 4,
+          "end": 20
         }
       ],
-      "declare": false
+      "declare": false,
+      "start": 0,
+      "end": 21
     },
     {
       "type": "ExpressionStatement",
-      "start": 22,
-      "end": 58,
       "expression": {
         "type": "JSXElement",
-        "start": 22,
-        "end": 58,
         "openingElement": {
           "type": "JSXOpeningElement",
-          "start": 22,
-          "end": 33,
           "name": {
             "type": "JSXIdentifier",
+            "name": "CustomTag",
             "start": 23,
-            "end": 32,
-            "name": "CustomTag"
+            "end": 32
           },
           "typeArguments": null,
           "attributes": [],
-          "selfClosing": false
+          "selfClosing": false,
+          "start": 22,
+          "end": 33
         },
         "children": [
           {
             "type": "JSXText",
-            "start": 33,
-            "end": 46,
             "value": " Hello World ",
-            "raw": " Hello World "
+            "raw": " Hello World ",
+            "start": 33,
+            "end": 46
           }
         ],
         "closingElement": {
           "type": "JSXClosingElement",
-          "start": 46,
-          "end": 58,
           "name": {
             "type": "JSXIdentifier",
+            "name": "CustomTag",
             "start": 48,
-            "end": 57,
-            "name": "CustomTag"
-          }
-        }
+            "end": 57
+          },
+          "start": 46,
+          "end": 58
+        },
+        "start": 22,
+        "end": 58
       },
-      "directive": null
+      "directive": null,
+      "start": 22,
+      "end": 58
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 71
 }
 ```

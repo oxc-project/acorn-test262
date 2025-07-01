@@ -2,17 +2,17 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 6,
   "body": [
     {
       "type": "BreakStatement",
+      "label": null,
       "start": 0,
-      "end": 6,
-      "label": null
+      "end": 6
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 6
 }
 ```

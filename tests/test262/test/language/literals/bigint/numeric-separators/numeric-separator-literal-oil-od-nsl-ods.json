@@ -1,105 +1,105 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 863,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 793,
-      "end": 827,
       "expression": {
         "type": "CallExpression",
-        "start": 793,
-        "end": 826,
         "callee": {
           "type": "MemberExpression",
-          "start": 793,
-          "end": 809,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 793,
-            "end": 799,
-            "name": "assert"
+            "end": 799
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 800,
-            "end": 809,
-            "name": "sameValue"
+            "end": 809
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 793,
+          "end": 809
         },
         "arguments": [
           {
             "type": "Literal",
-            "start": 810,
-            "end": 817,
             "value": null,
             "raw": "0o0_10n",
-            "bigint": "8"
+            "bigint": "8",
+            "start": 810,
+            "end": 817
           },
           {
             "type": "Literal",
-            "start": 819,
-            "end": 825,
             "value": null,
             "raw": "0o010n",
-            "bigint": "8"
+            "bigint": "8",
+            "start": 819,
+            "end": 825
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 793,
+        "end": 826
+      },
+      "start": 793,
+      "end": 827
     },
     {
       "type": "ExpressionStatement",
-      "start": 828,
-      "end": 862,
       "expression": {
         "type": "CallExpression",
-        "start": 828,
-        "end": 861,
         "callee": {
           "type": "MemberExpression",
-          "start": 828,
-          "end": 844,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 828,
-            "end": 834,
-            "name": "assert"
+            "end": 834
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 835,
-            "end": 844,
-            "name": "sameValue"
+            "end": 844
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 828,
+          "end": 844
         },
         "arguments": [
           {
             "type": "Literal",
-            "start": 845,
-            "end": 852,
             "value": null,
             "raw": "0O0_10n",
-            "bigint": "8"
+            "bigint": "8",
+            "start": 845,
+            "end": 852
           },
           {
             "type": "Literal",
-            "start": 854,
-            "end": 860,
             "value": null,
             "raw": "0O010n",
-            "bigint": "8"
+            "bigint": "8",
+            "start": 854,
+            "end": 860
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 828,
+        "end": 861
+      },
+      "start": 828,
+      "end": 862
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 863
 }

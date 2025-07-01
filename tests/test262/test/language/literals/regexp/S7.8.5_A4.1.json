@@ -1,127 +1,127 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 509,
   "body": [
     {
       "type": "IfStatement",
-      "start": 354,
-      "end": 508,
       "test": {
         "type": "BinaryExpression",
-        "start": 358,
-        "end": 393,
         "left": {
           "type": "ParenthesizedExpression",
-          "start": 358,
-          "end": 384,
           "expression": {
             "type": "BinaryExpression",
-            "start": 359,
-            "end": 383,
             "left": {
               "type": "Literal",
-              "start": 359,
-              "end": 365,
               "value": null,
               "raw": "/(?:)/",
               "regex": {
                 "pattern": "(?:)",
                 "flags": ""
-              }
+              },
+              "start": 359,
+              "end": 365
             },
             "operator": "instanceof",
             "right": {
               "type": "Identifier",
+              "name": "RegExp",
               "start": 377,
-              "end": 383,
-              "name": "RegExp"
-            }
-          }
+              "end": 383
+            },
+            "start": 359,
+            "end": 383
+          },
+          "start": 358,
+          "end": 384
         },
         "operator": "!==",
         "right": {
           "type": "Literal",
-          "start": 389,
-          "end": 393,
           "value": true,
-          "raw": "true"
-        }
+          "raw": "true",
+          "start": 389,
+          "end": 393
+        },
+        "start": 358,
+        "end": 393
       },
       "consequent": {
         "type": "BlockStatement",
-        "start": 395,
-        "end": 508,
         "body": [
           {
             "type": "ThrowStatement",
-            "start": 399,
-            "end": 506,
             "argument": {
               "type": "NewExpression",
-              "start": 405,
-              "end": 505,
               "callee": {
                 "type": "Identifier",
+                "name": "Test262Error",
                 "start": 409,
-                "end": 421,
-                "name": "Test262Error"
+                "end": 421
               },
               "arguments": [
                 {
                   "type": "BinaryExpression",
-                  "start": 422,
-                  "end": 504,
                   "left": {
                     "type": "Literal",
-                    "start": 422,
-                    "end": 473,
                     "value": "#1: (/(?:)/ instanceof RegExp) === true. Actual: ",
-                    "raw": "'#1: (/(?:)/ instanceof RegExp) === true. Actual: '"
+                    "raw": "'#1: (/(?:)/ instanceof RegExp) === true. Actual: '",
+                    "start": 422,
+                    "end": 473
                   },
                   "operator": "+",
                   "right": {
                     "type": "ParenthesizedExpression",
-                    "start": 476,
-                    "end": 504,
                     "expression": {
                       "type": "ParenthesizedExpression",
-                      "start": 477,
-                      "end": 503,
                       "expression": {
                         "type": "BinaryExpression",
-                        "start": 478,
-                        "end": 502,
                         "left": {
                           "type": "Literal",
-                          "start": 478,
-                          "end": 484,
                           "value": null,
                           "raw": "/(?:)/",
                           "regex": {
                             "pattern": "(?:)",
                             "flags": ""
-                          }
+                          },
+                          "start": 478,
+                          "end": 484
                         },
                         "operator": "instanceof",
                         "right": {
                           "type": "Identifier",
+                          "name": "RegExp",
                           "start": 496,
-                          "end": 502,
-                          "name": "RegExp"
-                        }
-                      }
-                    }
-                  }
+                          "end": 502
+                        },
+                        "start": 478,
+                        "end": 502
+                      },
+                      "start": 477,
+                      "end": 503
+                    },
+                    "start": 476,
+                    "end": 504
+                  },
+                  "start": 422,
+                  "end": 504
                 }
-              ]
-            }
+              ],
+              "start": 405,
+              "end": 505
+            },
+            "start": 399,
+            "end": 506
           }
-        ]
+        ],
+        "start": 395,
+        "end": 508
       },
-      "alternate": null
+      "alternate": null,
+      "start": 354,
+      "end": 508
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 509
 }

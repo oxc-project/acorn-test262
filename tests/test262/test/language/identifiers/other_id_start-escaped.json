@@ -1,129 +1,129 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 417,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 312,
-      "end": 323,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 316,
-          "end": 322,
           "id": {
             "type": "Identifier",
+            "name": "℘",
             "start": 316,
-            "end": 322,
-            "name": "℘"
+            "end": 322
           },
-          "init": null
+          "init": null,
+          "start": 316,
+          "end": 322
         }
-      ]
+      ],
+      "start": 312,
+      "end": 323
     },
     {
       "type": "VariableDeclaration",
-      "start": 324,
-      "end": 335,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 328,
-          "end": 334,
           "id": {
             "type": "Identifier",
+            "name": "℮",
             "start": 328,
-            "end": 334,
-            "name": "℮"
+            "end": 334
           },
-          "init": null
+          "init": null,
+          "start": 328,
+          "end": 334
         }
-      ]
+      ],
+      "start": 324,
+      "end": 335
     },
     {
       "type": "VariableDeclaration",
-      "start": 336,
-      "end": 347,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 340,
-          "end": 346,
           "id": {
             "type": "Identifier",
+            "name": "゛",
             "start": 340,
-            "end": 346,
-            "name": "゛"
+            "end": 346
           },
-          "init": null
+          "init": null,
+          "start": 340,
+          "end": 346
         }
-      ]
+      ],
+      "start": 336,
+      "end": 347
     },
     {
       "type": "VariableDeclaration",
-      "start": 348,
-      "end": 359,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 352,
-          "end": 358,
           "id": {
             "type": "Identifier",
+            "name": "゜",
             "start": 352,
-            "end": 358,
-            "name": "゜"
+            "end": 358
           },
-          "init": null
+          "init": null,
+          "start": 352,
+          "end": 358
         }
-      ]
+      ],
+      "start": 348,
+      "end": 359
     },
     {
       "type": "VariableDeclaration",
-      "start": 393,
-      "end": 404,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 397,
-          "end": 403,
           "id": {
             "type": "Identifier",
+            "name": "ᢅ",
             "start": 397,
-            "end": 403,
-            "name": "ᢅ"
+            "end": 403
           },
-          "init": null
+          "init": null,
+          "start": 397,
+          "end": 403
         }
-      ]
+      ],
+      "start": 393,
+      "end": 404
     },
     {
       "type": "VariableDeclaration",
-      "start": 405,
-      "end": 416,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 409,
-          "end": 415,
           "id": {
             "type": "Identifier",
+            "name": "ᢆ",
             "start": 409,
-            "end": 415,
-            "name": "ᢆ"
+            "end": 415
           },
-          "init": null
+          "init": null,
+          "start": 409,
+          "end": 415
         }
-      ]
+      ],
+      "start": 405,
+      "end": 416
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 417
 }

@@ -2,21 +2,17 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 116,
   "body": [
     {
       "type": "FunctionDeclaration",
-      "start": 0,
-      "end": 59,
       "id": {
         "type": "Identifier",
-        "start": 9,
-        "end": 12,
         "decorators": [],
         "name": "foo",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 9,
+        "end": 12
       },
       "generator": false,
       "async": false,
@@ -25,91 +21,93 @@ __ESTREE_TEST__:PASS:
       "params": [
         {
           "type": "Identifier",
-          "start": 13,
-          "end": 54,
           "decorators": [],
           "name": "param",
           "optional": false,
           "typeAnnotation": {
             "type": "TSTypeAnnotation",
-            "start": 18,
-            "end": 54,
             "typeAnnotation": {
               "type": "TSArrayType",
-              "start": 20,
-              "end": 54,
               "elementType": {
                 "type": "TSTypeLiteral",
-                "start": 20,
-                "end": 52,
                 "members": [
                   {
                     "type": "TSCallSignatureDeclaration",
-                    "start": 21,
-                    "end": 31,
                     "typeParameters": null,
                     "params": [],
                     "returnType": {
                       "type": "TSTypeAnnotation",
-                      "start": 23,
-                      "end": 30,
                       "typeAnnotation": {
                         "type": "TSNumberKeyword",
                         "start": 24,
                         "end": 30
-                      }
-                    }
+                      },
+                      "start": 23,
+                      "end": 30
+                    },
+                    "start": 21,
+                    "end": 31
                   },
                   {
                     "type": "TSCallSignatureDeclaration",
-                    "start": 32,
-                    "end": 50,
                     "typeParameters": null,
                     "params": [
                       {
                         "type": "Identifier",
-                        "start": 33,
-                        "end": 41,
                         "decorators": [],
                         "name": "i",
                         "optional": false,
                         "typeAnnotation": {
                           "type": "TSTypeAnnotation",
-                          "start": 34,
-                          "end": 41,
                           "typeAnnotation": {
                             "type": "TSNumberKeyword",
                             "start": 35,
                             "end": 41
-                          }
-                        }
+                          },
+                          "start": 34,
+                          "end": 41
+                        },
+                        "start": 33,
+                        "end": 41
                       }
                     ],
                     "returnType": {
                       "type": "TSTypeAnnotation",
-                      "start": 42,
-                      "end": 49,
                       "typeAnnotation": {
                         "type": "TSNumberKeyword",
                         "start": 43,
                         "end": 49
-                      }
-                    }
+                      },
+                      "start": 42,
+                      "end": 49
+                    },
+                    "start": 32,
+                    "end": 50
                   }
-                ]
-              }
-            }
-          }
+                ],
+                "start": 20,
+                "end": 52
+              },
+              "start": 20,
+              "end": 54
+            },
+            "start": 18,
+            "end": 54
+          },
+          "start": 13,
+          "end": 54
         }
       ],
       "returnType": null,
       "body": {
         "type": "BlockStatement",
+        "body": [],
         "start": 56,
-        "end": 59,
-        "body": []
+        "end": 59
       },
-      "expression": false
+      "expression": false,
+      "start": 0,
+      "end": 59
     },
     {
       "type": "EmptyStatement",
@@ -118,32 +116,24 @@ __ESTREE_TEST__:PASS:
     },
     {
       "type": "ExpressionStatement",
-      "start": 61,
-      "end": 116,
       "expression": {
         "type": "CallExpression",
-        "start": 61,
-        "end": 115,
         "callee": {
           "type": "Identifier",
-          "start": 61,
-          "end": 64,
           "decorators": [],
           "name": "foo",
           "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "start": 61,
+          "end": 64
         },
         "typeArguments": null,
         "arguments": [
           {
             "type": "ArrayExpression",
-            "start": 65,
-            "end": 114,
             "elements": [
               {
                 "type": "FunctionExpression",
-                "start": 66,
-                "end": 87,
                 "id": null,
                 "generator": false,
                 "async": false,
@@ -153,29 +143,29 @@ __ESTREE_TEST__:PASS:
                 "returnType": null,
                 "body": {
                   "type": "BlockStatement",
-                  "start": 76,
-                  "end": 87,
                   "body": [
                     {
                       "type": "ReturnStatement",
-                      "start": 77,
-                      "end": 86,
                       "argument": {
                         "type": "Literal",
-                        "start": 84,
-                        "end": 85,
                         "value": 1,
-                        "raw": "1"
-                      }
+                        "raw": "1",
+                        "start": 84,
+                        "end": 85
+                      },
+                      "start": 77,
+                      "end": 86
                     }
-                  ]
+                  ],
+                  "start": 76,
+                  "end": 87
                 },
-                "expression": false
+                "expression": false,
+                "start": 66,
+                "end": 87
               },
               {
                 "type": "FunctionExpression",
-                "start": 89,
-                "end": 113,
                 "id": null,
                 "generator": false,
                 "async": false,
@@ -185,34 +175,44 @@ __ESTREE_TEST__:PASS:
                 "returnType": null,
                 "body": {
                   "type": "BlockStatement",
-                  "start": 99,
-                  "end": 113,
                   "body": [
                     {
                       "type": "ReturnStatement",
-                      "start": 100,
-                      "end": 112,
                       "argument": {
                         "type": "Literal",
-                        "start": 107,
-                        "end": 112,
                         "value": "foo",
-                        "raw": "\"foo\""
-                      }
+                        "raw": "\"foo\"",
+                        "start": 107,
+                        "end": 112
+                      },
+                      "start": 100,
+                      "end": 112
                     }
-                  ]
+                  ],
+                  "start": 99,
+                  "end": 113
                 },
-                "expression": false
+                "expression": false,
+                "start": 89,
+                "end": 113
               }
-            ]
+            ],
+            "start": 65,
+            "end": 114
           }
         ],
-        "optional": false
+        "optional": false,
+        "start": 61,
+        "end": 115
       },
-      "directive": null
+      "directive": null,
+      "start": 61,
+      "end": 116
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 116
 }
 ```

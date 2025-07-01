@@ -1,174 +1,174 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 453,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 286,
-      "end": 452,
       "expression": {
         "type": "CallExpression",
-        "start": 286,
-        "end": 451,
         "callee": {
           "type": "MemberExpression",
-          "start": 286,
-          "end": 299,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 286,
-            "end": 292,
-            "name": "assert"
+            "end": 292
           },
           "property": {
             "type": "Identifier",
+            "name": "throws",
             "start": 293,
-            "end": 299,
-            "name": "throws"
+            "end": 299
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 286,
+          "end": 299
         },
         "arguments": [
           {
             "type": "Identifier",
+            "name": "TypeError",
             "start": 300,
-            "end": 309,
-            "name": "TypeError"
+            "end": 309
           },
           {
             "type": "FunctionExpression",
-            "start": 311,
-            "end": 404,
             "id": null,
             "generator": false,
             "async": false,
             "params": [],
             "body": {
               "type": "BlockStatement",
-              "start": 322,
-              "end": 404,
               "body": [
                 {
                   "type": "VariableDeclaration",
-                  "start": 326,
-                  "end": 361,
                   "kind": "var",
                   "declarations": [
                     {
                       "type": "VariableDeclarator",
-                      "start": 330,
-                      "end": 360,
                       "id": {
                         "type": "Identifier",
+                        "name": "sab",
                         "start": 330,
-                        "end": 333,
-                        "name": "sab"
+                        "end": 333
                       },
                       "init": {
                         "type": "NewExpression",
-                        "start": 336,
-                        "end": 360,
                         "callee": {
                           "type": "Identifier",
+                          "name": "SharedArrayBuffer",
                           "start": 340,
-                          "end": 357,
-                          "name": "SharedArrayBuffer"
+                          "end": 357
                         },
                         "arguments": [
                           {
                             "type": "Literal",
-                            "start": 358,
-                            "end": 359,
                             "value": 0,
-                            "raw": "0"
+                            "raw": "0",
+                            "start": 358,
+                            "end": 359
                           }
-                        ]
-                      }
+                        ],
+                        "start": 336,
+                        "end": 360
+                      },
+                      "start": 330,
+                      "end": 360
                     }
-                  ]
+                  ],
+                  "start": 326,
+                  "end": 361
                 },
                 {
                   "type": "ExpressionStatement",
-                  "start": 364,
-                  "end": 402,
                   "expression": {
                     "type": "CallExpression",
-                    "start": 364,
-                    "end": 401,
                     "callee": {
                       "type": "MemberExpression",
-                      "start": 364,
-                      "end": 396,
                       "object": {
                         "type": "MemberExpression",
-                        "start": 364,
-                        "end": 391,
                         "object": {
                           "type": "MemberExpression",
-                          "start": 364,
-                          "end": 385,
                           "object": {
                             "type": "Identifier",
+                            "name": "ArrayBuffer",
                             "start": 364,
-                            "end": 375,
-                            "name": "ArrayBuffer"
+                            "end": 375
                           },
                           "property": {
                             "type": "Identifier",
+                            "name": "prototype",
                             "start": 376,
-                            "end": 385,
-                            "name": "prototype"
+                            "end": 385
                           },
                           "optional": false,
-                          "computed": false
+                          "computed": false,
+                          "start": 364,
+                          "end": 385
                         },
                         "property": {
                           "type": "Identifier",
+                          "name": "slice",
                           "start": 386,
-                          "end": 391,
-                          "name": "slice"
+                          "end": 391
                         },
                         "optional": false,
-                        "computed": false
+                        "computed": false,
+                        "start": 364,
+                        "end": 391
                       },
                       "property": {
                         "type": "Identifier",
+                        "name": "call",
                         "start": 392,
-                        "end": 396,
-                        "name": "call"
+                        "end": 396
                       },
                       "optional": false,
-                      "computed": false
+                      "computed": false,
+                      "start": 364,
+                      "end": 396
                     },
                     "arguments": [
                       {
                         "type": "Identifier",
+                        "name": "sab",
                         "start": 397,
-                        "end": 400,
-                        "name": "sab"
+                        "end": 400
                       }
                     ],
-                    "optional": false
-                  }
+                    "optional": false,
+                    "start": 364,
+                    "end": 401
+                  },
+                  "start": 364,
+                  "end": 402
                 }
-              ]
+              ],
+              "start": 322,
+              "end": 404
             },
-            "expression": false
+            "expression": false,
+            "start": 311,
+            "end": 404
           },
           {
             "type": "Literal",
-            "start": 406,
-            "end": 450,
             "value": "`this` value cannot be a SharedArrayBuffer",
-            "raw": "\"`this` value cannot be a SharedArrayBuffer\""
+            "raw": "\"`this` value cannot be a SharedArrayBuffer\"",
+            "start": 406,
+            "end": 450
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 286,
+        "end": 451
+      },
+      "start": 286,
+      "end": 452
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 453
 }

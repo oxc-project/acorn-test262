@@ -1,98 +1,92 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 674,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 233,
-      "end": 251,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 237,
-          "end": 250,
           "id": {
             "type": "Identifier",
+            "name": "__JEDI",
             "start": 237,
-            "end": 243,
-            "name": "__JEDI"
+            "end": 243
           },
           "init": {
             "type": "Literal",
-            "start": 244,
-            "end": 250,
             "value": "jedi",
-            "raw": "\"jedi\""
-          }
+            "raw": "\"jedi\"",
+            "start": 244,
+            "end": 250
+          },
+          "start": 237,
+          "end": 250
         }
-      ]
+      ],
+      "start": 233,
+      "end": 251
     },
     {
       "type": "FunctionDeclaration",
-      "start": 253,
-      "end": 356,
       "id": {
         "type": "Identifier",
+        "name": "__FUNC",
         "start": 262,
-        "end": 268,
-        "name": "__FUNC"
+        "end": 268
       },
       "generator": false,
       "async": false,
       "params": [],
       "body": {
         "type": "BlockStatement",
-        "start": 270,
-        "end": 356,
         "body": [
           {
             "type": "FunctionDeclaration",
-            "start": 276,
-            "end": 329,
             "id": {
               "type": "Identifier",
+              "name": "__GUNC",
               "start": 285,
-              "end": 291,
-              "name": "__GUNC"
+              "end": 291
             },
             "generator": false,
             "async": false,
             "params": [],
             "body": {
               "type": "BlockStatement",
-              "start": 293,
-              "end": 329,
               "body": [
                 {
                   "type": "ReturnStatement",
-                  "start": 303,
-                  "end": 323,
                   "argument": {
                     "type": "MemberExpression",
-                    "start": 310,
-                    "end": 322,
                     "object": {
                       "type": "Identifier",
+                      "name": "arguments",
                       "start": 310,
-                      "end": 319,
-                      "name": "arguments"
+                      "end": 319
                     },
                     "property": {
                       "type": "Literal",
-                      "start": 320,
-                      "end": 321,
                       "value": 0,
-                      "raw": "0"
+                      "raw": "0",
+                      "start": 320,
+                      "end": 321
                     },
                     "optional": false,
-                    "computed": true
-                  }
+                    "computed": true,
+                    "start": 310,
+                    "end": 322
+                  },
+                  "start": 303,
+                  "end": 323
                 }
-              ]
+              ],
+              "start": 293,
+              "end": 329
             },
-            "expression": false
+            "expression": false,
+            "start": 276,
+            "end": 329
           },
           {
             "type": "EmptyStatement",
@@ -101,18 +95,22 @@
           },
           {
             "type": "ReturnStatement",
-            "start": 340,
-            "end": 354,
             "argument": {
               "type": "Identifier",
+              "name": "__GUNC",
               "start": 347,
-              "end": 353,
-              "name": "__GUNC"
-            }
+              "end": 353
+            },
+            "start": 340,
+            "end": 354
           }
-        ]
+        ],
+        "start": 270,
+        "end": 356
       },
-      "expression": false
+      "expression": false,
+      "start": 253,
+      "end": 356
     },
     {
       "type": "EmptyStatement",
@@ -121,115 +119,117 @@
     },
     {
       "type": "IfStatement",
-      "start": 448,
-      "end": 591,
       "test": {
         "type": "BinaryExpression",
-        "start": 452,
-        "end": 479,
         "left": {
           "type": "CallExpression",
-          "start": 452,
-          "end": 468,
           "callee": {
             "type": "CallExpression",
-            "start": 452,
-            "end": 460,
             "callee": {
               "type": "Identifier",
+              "name": "__FUNC",
               "start": 452,
-              "end": 458,
-              "name": "__FUNC"
+              "end": 458
             },
             "arguments": [],
-            "optional": false
+            "optional": false,
+            "start": 452,
+            "end": 460
           },
           "arguments": [
             {
               "type": "Identifier",
+              "name": "__JEDI",
               "start": 461,
-              "end": 467,
-              "name": "__JEDI"
+              "end": 467
             }
           ],
-          "optional": false
+          "optional": false,
+          "start": 452,
+          "end": 468
         },
         "operator": "!==",
         "right": {
           "type": "Identifier",
+          "name": "__JEDI",
           "start": 473,
-          "end": 479,
-          "name": "__JEDI"
-        }
+          "end": 479
+        },
+        "start": 452,
+        "end": 479
       },
       "consequent": {
         "type": "BlockStatement",
-        "start": 481,
-        "end": 591,
         "body": [
           {
             "type": "ThrowStatement",
-            "start": 484,
-            "end": 589,
             "argument": {
               "type": "NewExpression",
-              "start": 490,
-              "end": 588,
               "callee": {
                 "type": "Identifier",
+                "name": "Test262Error",
                 "start": 494,
-                "end": 506,
-                "name": "Test262Error"
+                "end": 506
               },
               "arguments": [
                 {
                   "type": "BinaryExpression",
-                  "start": 507,
-                  "end": 587,
                   "left": {
                     "type": "Literal",
-                    "start": 507,
-                    "end": 570,
                     "value": "#1: __FUNC()(__JEDI) === __JEDI. Actual: __FUNC()(__JEDI) ===",
-                    "raw": "'#1: __FUNC()(__JEDI) === __JEDI. Actual: __FUNC()(__JEDI) ==='"
+                    "raw": "'#1: __FUNC()(__JEDI) === __JEDI. Actual: __FUNC()(__JEDI) ==='",
+                    "start": 507,
+                    "end": 570
                   },
                   "operator": "+",
                   "right": {
                     "type": "CallExpression",
-                    "start": 571,
-                    "end": 587,
                     "callee": {
                       "type": "CallExpression",
-                      "start": 571,
-                      "end": 579,
                       "callee": {
                         "type": "Identifier",
+                        "name": "__FUNC",
                         "start": 571,
-                        "end": 577,
-                        "name": "__FUNC"
+                        "end": 577
                       },
                       "arguments": [],
-                      "optional": false
+                      "optional": false,
+                      "start": 571,
+                      "end": 579
                     },
                     "arguments": [
                       {
                         "type": "Identifier",
+                        "name": "__JEDI",
                         "start": 580,
-                        "end": 586,
-                        "name": "__JEDI"
+                        "end": 586
                       }
                     ],
-                    "optional": false
-                  }
+                    "optional": false,
+                    "start": 571,
+                    "end": 587
+                  },
+                  "start": 507,
+                  "end": 587
                 }
-              ]
-            }
+              ],
+              "start": 490,
+              "end": 588
+            },
+            "start": 484,
+            "end": 589
           }
-        ]
+        ],
+        "start": 481,
+        "end": 591
       },
-      "alternate": null
+      "alternate": null,
+      "start": 448,
+      "end": 591
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 674
 }

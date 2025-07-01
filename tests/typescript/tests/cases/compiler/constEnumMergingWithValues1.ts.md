@@ -2,21 +2,17 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 69,
   "body": [
     {
       "type": "FunctionDeclaration",
-      "start": 0,
-      "end": 17,
       "id": {
         "type": "Identifier",
-        "start": 9,
-        "end": 12,
         "decorators": [],
         "name": "foo",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 9,
+        "end": 12
       },
       "generator": false,
       "async": false,
@@ -26,91 +22,95 @@ __ESTREE_TEST__:PASS:
       "returnType": null,
       "body": {
         "type": "BlockStatement",
+        "body": [],
         "start": 15,
-        "end": 17,
-        "body": []
+        "end": 17
       },
-      "expression": false
+      "expression": false,
+      "start": 0,
+      "end": 17
     },
     {
       "type": "TSModuleDeclaration",
-      "start": 18,
-      "end": 55,
       "id": {
         "type": "Identifier",
-        "start": 25,
-        "end": 28,
         "decorators": [],
         "name": "foo",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 25,
+        "end": 28
       },
       "body": {
         "type": "TSModuleBlock",
-        "start": 29,
-        "end": 55,
         "body": [
           {
             "type": "TSEnumDeclaration",
-            "start": 35,
-            "end": 53,
             "id": {
               "type": "Identifier",
-              "start": 46,
-              "end": 47,
               "decorators": [],
               "name": "E",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 46,
+              "end": 47
             },
             "body": {
               "type": "TSEnumBody",
-              "start": 48,
-              "end": 53,
               "members": [
                 {
                   "type": "TSEnumMember",
-                  "start": 50,
-                  "end": 51,
                   "id": {
                     "type": "Identifier",
-                    "start": 50,
-                    "end": 51,
                     "decorators": [],
                     "name": "X",
                     "optional": false,
-                    "typeAnnotation": null
+                    "typeAnnotation": null,
+                    "start": 50,
+                    "end": 51
                   },
                   "initializer": null,
-                  "computed": false
+                  "computed": false,
+                  "start": 50,
+                  "end": 51
                 }
-              ]
+              ],
+              "start": 48,
+              "end": 53
             },
             "const": true,
-            "declare": false
+            "declare": false,
+            "start": 35,
+            "end": 53
           }
-        ]
+        ],
+        "start": 29,
+        "end": 55
       },
       "kind": "module",
       "declare": false,
-      "global": false
+      "global": false,
+      "start": 18,
+      "end": 55
     },
     {
       "type": "TSExportAssignment",
-      "start": 57,
-      "end": 69,
       "expression": {
         "type": "Identifier",
-        "start": 66,
-        "end": 69,
         "decorators": [],
         "name": "foo",
         "optional": false,
-        "typeAnnotation": null
-      }
+        "typeAnnotation": null,
+        "start": 66,
+        "end": 69
+      },
+      "start": 57,
+      "end": 69
     }
   ],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 69
 }
 ```

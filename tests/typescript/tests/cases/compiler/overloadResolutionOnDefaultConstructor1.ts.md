@@ -2,22 +2,18 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 67,
   "body": [
     {
       "type": "ClassDeclaration",
-      "start": 0,
-      "end": 67,
       "decorators": [],
       "id": {
         "type": "Identifier",
-        "start": 6,
-        "end": 9,
         "decorators": [],
         "name": "Bar",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 6,
+        "end": 9
       },
       "typeParameters": null,
       "superClass": null,
@@ -25,27 +21,21 @@ __ESTREE_TEST__:PASS:
       "implements": [],
       "body": {
         "type": "ClassBody",
-        "start": 10,
-        "end": 67,
         "body": [
           {
             "type": "MethodDefinition",
-            "start": 16,
-            "end": 65,
             "decorators": [],
             "key": {
               "type": "Identifier",
-              "start": 23,
-              "end": 28,
               "decorators": [],
               "name": "clone",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 23,
+              "end": 28
             },
             "value": {
               "type": "FunctionExpression",
-              "start": 28,
-              "end": 65,
               "id": null,
               "generator": false,
               "async": false,
@@ -55,56 +45,66 @@ __ESTREE_TEST__:PASS:
               "returnType": null,
               "body": {
                 "type": "BlockStatement",
-                "start": 31,
-                "end": 65,
                 "body": [
                   {
                     "type": "ReturnStatement",
-                    "start": 41,
-                    "end": 59,
                     "argument": {
                       "type": "NewExpression",
-                      "start": 48,
-                      "end": 58,
                       "callee": {
                         "type": "Identifier",
-                        "start": 52,
-                        "end": 55,
                         "decorators": [],
                         "name": "Bar",
                         "optional": false,
-                        "typeAnnotation": null
+                        "typeAnnotation": null,
+                        "start": 52,
+                        "end": 55
                       },
                       "typeArguments": null,
                       "arguments": [
                         {
                           "type": "Literal",
-                          "start": 56,
-                          "end": 57,
                           "value": 0,
-                          "raw": "0"
+                          "raw": "0",
+                          "start": 56,
+                          "end": 57
                         }
-                      ]
-                    }
+                      ],
+                      "start": 48,
+                      "end": 58
+                    },
+                    "start": 41,
+                    "end": 59
                   }
-                ]
+                ],
+                "start": 31,
+                "end": 65
               },
-              "expression": false
+              "expression": false,
+              "start": 28,
+              "end": 65
             },
             "kind": "method",
             "computed": false,
             "static": false,
             "override": false,
             "optional": false,
-            "accessibility": "public"
+            "accessibility": "public",
+            "start": 16,
+            "end": 65
           }
-        ]
+        ],
+        "start": 10,
+        "end": 67
       },
       "abstract": false,
-      "declare": false
+      "declare": false,
+      "start": 0,
+      "end": 67
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 67
 }
 ```

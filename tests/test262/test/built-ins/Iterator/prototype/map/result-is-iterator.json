@@ -1,113 +1,113 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 484,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 366,
-      "end": 483,
       "expression": {
         "type": "CallExpression",
-        "start": 366,
-        "end": 482,
         "callee": {
           "type": "Identifier",
+          "name": "assert",
           "start": 366,
-          "end": 372,
-          "name": "assert"
+          "end": 372
         },
         "arguments": [
           {
             "type": "BinaryExpression",
-            "start": 373,
-            "end": 425,
             "left": {
               "type": "CallExpression",
-              "start": 373,
-              "end": 405,
               "callee": {
                 "type": "MemberExpression",
-                "start": 373,
-                "end": 396,
                 "object": {
                   "type": "CallExpression",
-                  "start": 373,
-                  "end": 392,
                   "callee": {
                     "type": "ParenthesizedExpression",
-                    "start": 373,
-                    "end": 390,
                     "expression": {
                       "type": "FunctionExpression",
-                      "start": 374,
-                      "end": 389,
                       "id": null,
                       "generator": true,
                       "async": false,
                       "params": [],
                       "body": {
                         "type": "BlockStatement",
+                        "body": [],
                         "start": 387,
-                        "end": 389,
-                        "body": []
+                        "end": 389
                       },
-                      "expression": false
-                    }
+                      "expression": false,
+                      "start": 374,
+                      "end": 389
+                    },
+                    "start": 373,
+                    "end": 390
                   },
                   "arguments": [],
-                  "optional": false
+                  "optional": false,
+                  "start": 373,
+                  "end": 392
                 },
                 "property": {
                   "type": "Identifier",
+                  "name": "map",
                   "start": 393,
-                  "end": 396,
-                  "name": "map"
+                  "end": 396
                 },
                 "optional": false,
-                "computed": false
+                "computed": false,
+                "start": 373,
+                "end": 396
               },
               "arguments": [
                 {
                   "type": "ArrowFunctionExpression",
-                  "start": 397,
-                  "end": 404,
                   "expression": true,
                   "async": false,
                   "params": [],
                   "body": {
                     "type": "Literal",
-                    "start": 403,
-                    "end": 404,
                     "value": 0,
-                    "raw": "0"
+                    "raw": "0",
+                    "start": 403,
+                    "end": 404
                   },
                   "id": null,
-                  "generator": false
+                  "generator": false,
+                  "start": 397,
+                  "end": 404
                 }
               ],
-              "optional": false
+              "optional": false,
+              "start": 373,
+              "end": 405
             },
             "operator": "instanceof",
             "right": {
               "type": "Identifier",
+              "name": "Iterator",
               "start": 417,
-              "end": 425,
-              "name": "Iterator"
-            }
+              "end": 425
+            },
+            "start": 373,
+            "end": 425
           },
           {
             "type": "Literal",
-            "start": 427,
-            "end": 481,
             "value": "function*(){}().map(() => 0) must return an Iterator",
-            "raw": "'function*(){}().map(() => 0) must return an Iterator'"
+            "raw": "'function*(){}().map(() => 0) must return an Iterator'",
+            "start": 427,
+            "end": 481
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 366,
+        "end": 482
+      },
+      "start": 366,
+      "end": 483
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 484
 }

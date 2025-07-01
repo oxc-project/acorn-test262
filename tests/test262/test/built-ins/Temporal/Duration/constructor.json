@@ -1,83 +1,83 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 388,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 335,
-      "end": 387,
       "expression": {
         "type": "CallExpression",
-        "start": 335,
-        "end": 386,
         "callee": {
           "type": "MemberExpression",
-          "start": 335,
-          "end": 348,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 335,
-            "end": 341,
-            "name": "assert"
+            "end": 341
           },
           "property": {
             "type": "Identifier",
+            "name": "throws",
             "start": 342,
-            "end": 348,
-            "name": "throws"
+            "end": 348
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 335,
+          "end": 348
         },
         "arguments": [
           {
             "type": "Identifier",
+            "name": "TypeError",
             "start": 349,
-            "end": 358,
-            "name": "TypeError"
+            "end": 358
           },
           {
             "type": "ArrowFunctionExpression",
-            "start": 360,
-            "end": 385,
             "expression": true,
             "async": false,
             "params": [],
             "body": {
               "type": "CallExpression",
-              "start": 366,
-              "end": 385,
               "callee": {
                 "type": "MemberExpression",
-                "start": 366,
-                "end": 383,
                 "object": {
                   "type": "Identifier",
+                  "name": "Temporal",
                   "start": 366,
-                  "end": 374,
-                  "name": "Temporal"
+                  "end": 374
                 },
                 "property": {
                   "type": "Identifier",
+                  "name": "Duration",
                   "start": 375,
-                  "end": 383,
-                  "name": "Duration"
+                  "end": 383
                 },
                 "optional": false,
-                "computed": false
+                "computed": false,
+                "start": 366,
+                "end": 383
               },
               "arguments": [],
-              "optional": false
+              "optional": false,
+              "start": 366,
+              "end": 385
             },
             "id": null,
-            "generator": false
+            "generator": false,
+            "start": 360,
+            "end": 385
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 335,
+        "end": 386
+      },
+      "start": 335,
+      "end": 387
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 388
 }

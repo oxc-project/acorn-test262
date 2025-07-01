@@ -1,474 +1,474 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 1464,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 568,
-      "end": 708,
       "expression": {
         "type": "CallExpression",
-        "start": 568,
-        "end": 707,
         "callee": {
           "type": "MemberExpression",
-          "start": 568,
-          "end": 581,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 568,
-            "end": 574,
-            "name": "assert"
+            "end": 574
           },
           "property": {
             "type": "Identifier",
+            "name": "throws",
             "start": 575,
-            "end": 581,
-            "name": "throws"
+            "end": 581
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 568,
+          "end": 581
         },
         "arguments": [
           {
             "type": "Identifier",
+            "name": "URIError",
             "start": 582,
-            "end": 590,
-            "name": "URIError"
+            "end": 590
           },
           {
             "type": "FunctionExpression",
-            "start": 592,
-            "end": 650,
             "id": {
               "type": "Identifier",
+              "name": "CHECK1",
               "start": 601,
-              "end": 607,
-              "name": "CHECK1"
+              "end": 607
             },
             "generator": false,
             "async": false,
             "params": [],
             "body": {
               "type": "BlockStatement",
-              "start": 610,
-              "end": 650,
               "body": [
                 {
                   "type": "ExpressionStatement",
-                  "start": 616,
-                  "end": 648,
                   "expression": {
                     "type": "CallExpression",
-                    "start": 616,
-                    "end": 647,
                     "callee": {
                       "type": "Identifier",
+                      "name": "decodeURIComponent",
                       "start": 616,
-                      "end": 634,
-                      "name": "decodeURIComponent"
+                      "end": 634
                     },
                     "arguments": [
                       {
                         "type": "Literal",
-                        "start": 635,
-                        "end": 646,
                         "value": "%ED%BF%BF",
-                        "raw": "'%ED%BF%BF'"
+                        "raw": "'%ED%BF%BF'",
+                        "start": 635,
+                        "end": 646
                       }
                     ],
-                    "optional": false
-                  }
+                    "optional": false,
+                    "start": 616,
+                    "end": 647
+                  },
+                  "start": 616,
+                  "end": 648
                 }
-              ]
+              ],
+              "start": 610,
+              "end": 650
             },
-            "expression": false
+            "expression": false,
+            "start": 592,
+            "end": 650
           },
           {
             "type": "Literal",
-            "start": 652,
-            "end": 706,
             "value": "#1: %ED%BF%BF (surrogate pair) should throw URIError",
-            "raw": "'#1: %ED%BF%BF (surrogate pair) should throw URIError'"
+            "raw": "'#1: %ED%BF%BF (surrogate pair) should throw URIError'",
+            "start": 652,
+            "end": 706
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 568,
+        "end": 707
+      },
+      "start": 568,
+      "end": 708
     },
     {
       "type": "ExpressionStatement",
-      "start": 762,
-      "end": 899,
       "expression": {
         "type": "CallExpression",
-        "start": 762,
-        "end": 898,
         "callee": {
           "type": "MemberExpression",
-          "start": 762,
-          "end": 775,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 762,
-            "end": 768,
-            "name": "assert"
+            "end": 768
           },
           "property": {
             "type": "Identifier",
+            "name": "throws",
             "start": 769,
-            "end": 775,
-            "name": "throws"
+            "end": 775
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 762,
+          "end": 775
         },
         "arguments": [
           {
             "type": "Identifier",
+            "name": "URIError",
             "start": 776,
-            "end": 784,
-            "name": "URIError"
+            "end": 784
           },
           {
             "type": "FunctionExpression",
-            "start": 786,
-            "end": 841,
             "id": {
               "type": "Identifier",
+              "name": "CHECK2",
               "start": 795,
-              "end": 801,
-              "name": "CHECK2"
+              "end": 801
             },
             "generator": false,
             "async": false,
             "params": [],
             "body": {
               "type": "BlockStatement",
-              "start": 804,
-              "end": 841,
               "body": [
                 {
                   "type": "ExpressionStatement",
-                  "start": 810,
-                  "end": 839,
                   "expression": {
                     "type": "CallExpression",
-                    "start": 810,
-                    "end": 838,
                     "callee": {
                       "type": "Identifier",
+                      "name": "decodeURIComponent",
                       "start": 810,
-                      "end": 828,
-                      "name": "decodeURIComponent"
+                      "end": 828
                     },
                     "arguments": [
                       {
                         "type": "Literal",
-                        "start": 829,
-                        "end": 837,
                         "value": "%C0%AF",
-                        "raw": "'%C0%AF'"
+                        "raw": "'%C0%AF'",
+                        "start": 829,
+                        "end": 837
                       }
                     ],
-                    "optional": false
-                  }
+                    "optional": false,
+                    "start": 810,
+                    "end": 838
+                  },
+                  "start": 810,
+                  "end": 839
                 }
-              ]
+              ],
+              "start": 804,
+              "end": 841
             },
-            "expression": false
+            "expression": false,
+            "start": 786,
+            "end": 841
           },
           {
             "type": "Literal",
-            "start": 843,
-            "end": 897,
             "value": "#2: %C0%AF (overlong encoding) should throw URIError",
-            "raw": "'#2: %C0%AF (overlong encoding) should throw URIError'"
+            "raw": "'#2: %C0%AF (overlong encoding) should throw URIError'",
+            "start": 843,
+            "end": 897
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 762,
+        "end": 898
+      },
+      "start": 762,
+      "end": 899
     },
     {
       "type": "ExpressionStatement",
-      "start": 949,
-      "end": 1095,
       "expression": {
         "type": "CallExpression",
-        "start": 949,
-        "end": 1094,
         "callee": {
           "type": "MemberExpression",
-          "start": 949,
-          "end": 962,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 949,
-            "end": 955,
-            "name": "assert"
+            "end": 955
           },
           "property": {
             "type": "Identifier",
+            "name": "throws",
             "start": 956,
-            "end": 962,
-            "name": "throws"
+            "end": 962
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 949,
+          "end": 962
         },
         "arguments": [
           {
             "type": "Identifier",
+            "name": "URIError",
             "start": 963,
-            "end": 971,
-            "name": "URIError"
+            "end": 971
           },
           {
             "type": "FunctionExpression",
-            "start": 973,
-            "end": 1031,
             "id": {
               "type": "Identifier",
+              "name": "CHECK3",
               "start": 982,
-              "end": 988,
-              "name": "CHECK3"
+              "end": 988
             },
             "generator": false,
             "async": false,
             "params": [],
             "body": {
               "type": "BlockStatement",
-              "start": 991,
-              "end": 1031,
               "body": [
                 {
                   "type": "ExpressionStatement",
-                  "start": 997,
-                  "end": 1029,
                   "expression": {
                     "type": "CallExpression",
-                    "start": 997,
-                    "end": 1028,
                     "callee": {
                       "type": "Identifier",
+                      "name": "decodeURIComponent",
                       "start": 997,
-                      "end": 1015,
-                      "name": "decodeURIComponent"
+                      "end": 1015
                     },
                     "arguments": [
                       {
                         "type": "Literal",
-                        "start": 1016,
-                        "end": 1027,
                         "value": "%ED%7F%BF",
-                        "raw": "'%ED%7F%BF'"
+                        "raw": "'%ED%7F%BF'",
+                        "start": 1016,
+                        "end": 1027
                       }
                     ],
-                    "optional": false
-                  }
+                    "optional": false,
+                    "start": 997,
+                    "end": 1028
+                  },
+                  "start": 997,
+                  "end": 1029
                 }
-              ]
+              ],
+              "start": 991,
+              "end": 1031
             },
-            "expression": false
+            "expression": false,
+            "start": 973,
+            "end": 1031
           },
           {
             "type": "Literal",
-            "start": 1033,
-            "end": 1093,
             "value": "#3: %ED%7F%BF (invalid continuation) should throw URIError",
-            "raw": "'#3: %ED%7F%BF (invalid continuation) should throw URIError'"
+            "raw": "'#3: %ED%7F%BF (invalid continuation) should throw URIError'",
+            "start": 1033,
+            "end": 1093
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 949,
+        "end": 1094
+      },
+      "start": 949,
+      "end": 1095
     },
     {
       "type": "ExpressionStatement",
-      "start": 1138,
-      "end": 1277,
       "expression": {
         "type": "CallExpression",
-        "start": 1138,
-        "end": 1276,
         "callee": {
           "type": "MemberExpression",
-          "start": 1138,
-          "end": 1151,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 1138,
-            "end": 1144,
-            "name": "assert"
+            "end": 1144
           },
           "property": {
             "type": "Identifier",
+            "name": "throws",
             "start": 1145,
-            "end": 1151,
-            "name": "throws"
+            "end": 1151
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 1138,
+          "end": 1151
         },
         "arguments": [
           {
             "type": "Identifier",
+            "name": "URIError",
             "start": 1152,
-            "end": 1160,
-            "name": "URIError"
+            "end": 1160
           },
           {
             "type": "FunctionExpression",
-            "start": 1162,
-            "end": 1217,
             "id": {
               "type": "Identifier",
+              "name": "CHECK4",
               "start": 1171,
-              "end": 1177,
-              "name": "CHECK4"
+              "end": 1177
             },
             "generator": false,
             "async": false,
             "params": [],
             "body": {
               "type": "BlockStatement",
-              "start": 1180,
-              "end": 1217,
               "body": [
                 {
                   "type": "ExpressionStatement",
-                  "start": 1186,
-                  "end": 1215,
                   "expression": {
                     "type": "CallExpression",
-                    "start": 1186,
-                    "end": 1214,
                     "callee": {
                       "type": "Identifier",
+                      "name": "decodeURIComponent",
                       "start": 1186,
-                      "end": 1204,
-                      "name": "decodeURIComponent"
+                      "end": 1204
                     },
                     "arguments": [
                       {
                         "type": "Literal",
-                        "start": 1205,
-                        "end": 1213,
                         "value": "%ED%BF",
-                        "raw": "'%ED%BF'"
+                        "raw": "'%ED%BF'",
+                        "start": 1205,
+                        "end": 1213
                       }
                     ],
-                    "optional": false
-                  }
+                    "optional": false,
+                    "start": 1186,
+                    "end": 1214
+                  },
+                  "start": 1186,
+                  "end": 1215
                 }
-              ]
+              ],
+              "start": 1180,
+              "end": 1217
             },
-            "expression": false
+            "expression": false,
+            "start": 1162,
+            "end": 1217
           },
           {
             "type": "Literal",
-            "start": 1219,
-            "end": 1275,
             "value": "#4: %ED%BF (incomplete sequence) should throw URIError",
-            "raw": "'#4: %ED%BF (incomplete sequence) should throw URIError'"
+            "raw": "'#4: %ED%BF (incomplete sequence) should throw URIError'",
+            "start": 1219,
+            "end": 1275
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 1138,
+        "end": 1276
+      },
+      "start": 1138,
+      "end": 1277
     },
     {
       "type": "ExpressionStatement",
-      "start": 1320,
-      "end": 1463,
       "expression": {
         "type": "CallExpression",
-        "start": 1320,
-        "end": 1462,
         "callee": {
           "type": "MemberExpression",
-          "start": 1320,
-          "end": 1333,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 1320,
-            "end": 1326,
-            "name": "assert"
+            "end": 1326
           },
           "property": {
             "type": "Identifier",
+            "name": "throws",
             "start": 1327,
-            "end": 1333,
-            "name": "throws"
+            "end": 1333
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 1320,
+          "end": 1333
         },
         "arguments": [
           {
             "type": "Identifier",
+            "name": "URIError",
             "start": 1334,
-            "end": 1342,
-            "name": "URIError"
+            "end": 1342
           },
           {
             "type": "FunctionExpression",
-            "start": 1344,
-            "end": 1405,
             "id": {
               "type": "Identifier",
+              "name": "CHECK5",
               "start": 1353,
-              "end": 1359,
-              "name": "CHECK5"
+              "end": 1359
             },
             "generator": false,
             "async": false,
             "params": [],
             "body": {
               "type": "BlockStatement",
-              "start": 1362,
-              "end": 1405,
               "body": [
                 {
                   "type": "ExpressionStatement",
-                  "start": 1368,
-                  "end": 1403,
                   "expression": {
                     "type": "CallExpression",
-                    "start": 1368,
-                    "end": 1402,
                     "callee": {
                       "type": "Identifier",
+                      "name": "decodeURIComponent",
                       "start": 1368,
-                      "end": 1386,
-                      "name": "decodeURIComponent"
+                      "end": 1386
                     },
                     "arguments": [
                       {
                         "type": "Literal",
-                        "start": 1387,
-                        "end": 1401,
                         "value": "%F4%90%80%80",
-                        "raw": "'%F4%90%80%80'"
+                        "raw": "'%F4%90%80%80'",
+                        "start": 1387,
+                        "end": 1401
                       }
                     ],
-                    "optional": false
-                  }
+                    "optional": false,
+                    "start": 1368,
+                    "end": 1402
+                  },
+                  "start": 1368,
+                  "end": 1403
                 }
-              ]
+              ],
+              "start": 1362,
+              "end": 1405
             },
-            "expression": false
+            "expression": false,
+            "start": 1344,
+            "end": 1405
           },
           {
             "type": "Literal",
-            "start": 1406,
-            "end": 1461,
             "value": "#5: %F4%90%80%80 (out-of-range) should throw URIError",
-            "raw": "'#5: %F4%90%80%80 (out-of-range) should throw URIError'"
+            "raw": "'#5: %F4%90%80%80 (out-of-range) should throw URIError'",
+            "start": 1406,
+            "end": 1461
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 1320,
+        "end": 1462
+      },
+      "start": 1320,
+      "end": 1463
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 1464
 }

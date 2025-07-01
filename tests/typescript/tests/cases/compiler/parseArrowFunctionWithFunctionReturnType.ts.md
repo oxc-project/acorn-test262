@@ -2,120 +2,120 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 43,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 0,
-      "end": 43,
       "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 6,
-          "end": 42,
           "id": {
             "type": "Identifier",
-            "start": 6,
-            "end": 8,
             "decorators": [],
             "name": "fn",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 6,
+            "end": 8
           },
           "init": {
             "type": "ArrowFunctionExpression",
-            "start": 11,
-            "end": 42,
             "expression": true,
             "async": false,
             "typeParameters": {
               "type": "TSTypeParameterDeclaration",
-              "start": 11,
-              "end": 14,
               "params": [
                 {
                   "type": "TSTypeParameter",
-                  "start": 12,
-                  "end": 13,
                   "name": {
                     "type": "Identifier",
-                    "start": 12,
-                    "end": 13,
                     "decorators": [],
                     "name": "T",
                     "optional": false,
-                    "typeAnnotation": null
+                    "typeAnnotation": null,
+                    "start": 12,
+                    "end": 13
                   },
                   "constraint": null,
                   "default": null,
                   "in": false,
                   "out": false,
-                  "const": false
+                  "const": false,
+                  "start": 12,
+                  "end": 13
                 }
-              ]
+              ],
+              "start": 11,
+              "end": 14
             },
             "params": [],
             "returnType": {
               "type": "TSTypeAnnotation",
-              "start": 16,
-              "end": 27,
               "typeAnnotation": {
                 "type": "TSFunctionType",
-                "start": 19,
-                "end": 26,
                 "typeParameters": null,
                 "params": [],
                 "returnType": {
                   "type": "TSTypeAnnotation",
-                  "start": 22,
-                  "end": 26,
                   "typeAnnotation": {
                     "type": "TSTypeReference",
-                    "start": 25,
-                    "end": 26,
                     "typeName": {
                       "type": "Identifier",
-                      "start": 25,
-                      "end": 26,
                       "decorators": [],
                       "name": "T",
                       "optional": false,
-                      "typeAnnotation": null
+                      "typeAnnotation": null,
+                      "start": 25,
+                      "end": 26
                     },
-                    "typeArguments": null
-                  }
-                }
-              }
+                    "typeArguments": null,
+                    "start": 25,
+                    "end": 26
+                  },
+                  "start": 22,
+                  "end": 26
+                },
+                "start": 19,
+                "end": 26
+              },
+              "start": 16,
+              "end": 27
             },
             "body": {
               "type": "TSAsExpression",
-              "start": 31,
-              "end": 42,
               "expression": {
                 "type": "Literal",
-                "start": 31,
-                "end": 35,
                 "value": null,
-                "raw": "null"
+                "raw": "null",
+                "start": 31,
+                "end": 35
               },
               "typeAnnotation": {
                 "type": "TSAnyKeyword",
                 "start": 39,
                 "end": 42
-              }
+              },
+              "start": 31,
+              "end": 42
             },
             "id": null,
-            "generator": false
+            "generator": false,
+            "start": 11,
+            "end": 42
           },
-          "definite": false
+          "definite": false,
+          "start": 6,
+          "end": 42
         }
       ],
-      "declare": false
+      "declare": false,
+      "start": 0,
+      "end": 43
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 43
 }
 ```

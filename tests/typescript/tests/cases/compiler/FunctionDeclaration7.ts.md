@@ -2,39 +2,31 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 31,
   "body": [
     {
       "type": "TSModuleDeclaration",
-      "start": 0,
-      "end": 31,
       "id": {
         "type": "Identifier",
-        "start": 7,
-        "end": 8,
         "decorators": [],
         "name": "M",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 7,
+        "end": 8
       },
       "body": {
         "type": "TSModuleBlock",
-        "start": 9,
-        "end": 31,
         "body": [
           {
             "type": "TSDeclareFunction",
-            "start": 14,
-            "end": 29,
             "id": {
               "type": "Identifier",
-              "start": 23,
-              "end": 26,
               "decorators": [],
               "name": "foo",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 23,
+              "end": 26
             },
             "generator": false,
             "async": false,
@@ -43,16 +35,24 @@ __ESTREE_TEST__:PASS:
             "params": [],
             "returnType": null,
             "body": null,
-            "expression": false
+            "expression": false,
+            "start": 14,
+            "end": 29
           }
-        ]
+        ],
+        "start": 9,
+        "end": 31
       },
       "kind": "module",
       "declare": false,
-      "global": false
+      "global": false,
+      "start": 0,
+      "end": 31
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 31
 }
 ```

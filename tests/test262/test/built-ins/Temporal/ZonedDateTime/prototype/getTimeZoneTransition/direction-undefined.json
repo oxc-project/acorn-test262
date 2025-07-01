@@ -1,253 +1,253 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 571,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 370,
-      "end": 420,
       "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 376,
-          "end": 419,
           "id": {
             "type": "Identifier",
+            "name": "zdt",
             "start": 376,
-            "end": 379,
-            "name": "zdt"
+            "end": 379
           },
           "init": {
             "type": "NewExpression",
-            "start": 382,
-            "end": 419,
             "callee": {
               "type": "MemberExpression",
-              "start": 386,
-              "end": 408,
               "object": {
                 "type": "Identifier",
+                "name": "Temporal",
                 "start": 386,
-                "end": 394,
-                "name": "Temporal"
+                "end": 394
               },
               "property": {
                 "type": "Identifier",
+                "name": "ZonedDateTime",
                 "start": 395,
-                "end": 408,
-                "name": "ZonedDateTime"
+                "end": 408
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 386,
+              "end": 408
             },
             "arguments": [
               {
                 "type": "Literal",
-                "start": 409,
-                "end": 411,
                 "value": null,
                 "raw": "0n",
-                "bigint": "0"
+                "bigint": "0",
+                "start": 409,
+                "end": 411
               },
               {
                 "type": "Literal",
-                "start": 413,
-                "end": 418,
                 "value": "UTC",
-                "raw": "\"UTC\""
+                "raw": "\"UTC\"",
+                "start": 413,
+                "end": 418
               }
-            ]
-          }
+            ],
+            "start": 382,
+            "end": 419
+          },
+          "start": 376,
+          "end": 419
         }
-      ]
+      ],
+      "start": 370,
+      "end": 420
     },
     {
       "type": "ExpressionStatement",
-      "start": 421,
-      "end": 484,
       "expression": {
         "type": "CallExpression",
-        "start": 421,
-        "end": 483,
         "callee": {
           "type": "MemberExpression",
-          "start": 421,
-          "end": 434,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 421,
-            "end": 427,
-            "name": "assert"
+            "end": 427
           },
           "property": {
             "type": "Identifier",
+            "name": "throws",
             "start": 428,
-            "end": 434,
-            "name": "throws"
+            "end": 434
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 421,
+          "end": 434
         },
         "arguments": [
           {
             "type": "Identifier",
+            "name": "RangeError",
             "start": 435,
-            "end": 445,
-            "name": "RangeError"
+            "end": 445
           },
           {
             "type": "ArrowFunctionExpression",
-            "start": 447,
-            "end": 482,
             "expression": true,
             "async": false,
             "params": [],
             "body": {
               "type": "CallExpression",
-              "start": 453,
-              "end": 482,
               "callee": {
                 "type": "MemberExpression",
-                "start": 453,
-                "end": 478,
                 "object": {
                   "type": "Identifier",
+                  "name": "zdt",
                   "start": 453,
-                  "end": 456,
-                  "name": "zdt"
+                  "end": 456
                 },
                 "property": {
                   "type": "Identifier",
+                  "name": "getTimeZoneTransition",
                   "start": 457,
-                  "end": 478,
-                  "name": "getTimeZoneTransition"
+                  "end": 478
                 },
                 "optional": false,
-                "computed": false
+                "computed": false,
+                "start": 453,
+                "end": 478
               },
               "arguments": [
                 {
                   "type": "ObjectExpression",
+                  "properties": [],
                   "start": 479,
-                  "end": 481,
-                  "properties": []
+                  "end": 481
                 }
               ],
-              "optional": false
+              "optional": false,
+              "start": 453,
+              "end": 482
             },
             "id": null,
-            "generator": false
+            "generator": false,
+            "start": 447,
+            "end": 482
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 421,
+        "end": 483
+      },
+      "start": 421,
+      "end": 484
     },
     {
       "type": "ExpressionStatement",
-      "start": 485,
-      "end": 570,
       "expression": {
         "type": "CallExpression",
-        "start": 485,
-        "end": 569,
         "callee": {
           "type": "MemberExpression",
-          "start": 485,
-          "end": 498,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 485,
-            "end": 491,
-            "name": "assert"
+            "end": 491
           },
           "property": {
             "type": "Identifier",
+            "name": "throws",
             "start": 492,
-            "end": 498,
-            "name": "throws"
+            "end": 498
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 485,
+          "end": 498
         },
         "arguments": [
           {
             "type": "Identifier",
+            "name": "RangeError",
             "start": 499,
-            "end": 509,
-            "name": "RangeError"
+            "end": 509
           },
           {
             "type": "ArrowFunctionExpression",
-            "start": 511,
-            "end": 568,
             "expression": true,
             "async": false,
             "params": [],
             "body": {
               "type": "CallExpression",
-              "start": 517,
-              "end": 568,
               "callee": {
                 "type": "MemberExpression",
-                "start": 517,
-                "end": 542,
                 "object": {
                   "type": "Identifier",
+                  "name": "zdt",
                   "start": 517,
-                  "end": 520,
-                  "name": "zdt"
+                  "end": 520
                 },
                 "property": {
                   "type": "Identifier",
+                  "name": "getTimeZoneTransition",
                   "start": 521,
-                  "end": 542,
-                  "name": "getTimeZoneTransition"
+                  "end": 542
                 },
                 "optional": false,
-                "computed": false
+                "computed": false,
+                "start": 517,
+                "end": 542
               },
               "arguments": [
                 {
                   "type": "ObjectExpression",
-                  "start": 543,
-                  "end": 567,
                   "properties": [
                     {
                       "type": "Property",
-                      "start": 545,
-                      "end": 565,
                       "kind": "init",
                       "key": {
                         "type": "Identifier",
+                        "name": "direction",
                         "start": 545,
-                        "end": 554,
-                        "name": "direction"
+                        "end": 554
                       },
                       "value": {
                         "type": "Identifier",
+                        "name": "undefined",
                         "start": 556,
-                        "end": 565,
-                        "name": "undefined"
+                        "end": 565
                       },
                       "method": false,
                       "shorthand": false,
-                      "computed": false
+                      "computed": false,
+                      "start": 545,
+                      "end": 565
                     }
-                  ]
+                  ],
+                  "start": 543,
+                  "end": 567
                 }
               ],
-              "optional": false
+              "optional": false,
+              "start": 517,
+              "end": 568
             },
             "id": null,
-            "generator": false
+            "generator": false,
+            "start": 511,
+            "end": 568
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 485,
+        "end": 569
+      },
+      "start": 485,
+      "end": 570
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 571
 }

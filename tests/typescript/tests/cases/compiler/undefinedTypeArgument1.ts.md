@@ -2,72 +2,72 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 29,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 0,
-      "end": 29,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 4,
-          "end": 28,
           "id": {
             "type": "Identifier",
-            "start": 4,
-            "end": 8,
             "decorators": [],
             "name": "cats",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 4,
+            "end": 8
           },
           "init": {
             "type": "NewExpression",
-            "start": 11,
-            "end": 28,
             "callee": {
               "type": "Identifier",
-              "start": 15,
-              "end": 20,
               "decorators": [],
               "name": "Array",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 15,
+              "end": 20
             },
             "typeArguments": {
               "type": "TSTypeParameterInstantiation",
-              "start": 20,
-              "end": 26,
               "params": [
                 {
                   "type": "TSTypeReference",
-                  "start": 21,
-                  "end": 25,
                   "typeName": {
                     "type": "Identifier",
-                    "start": 21,
-                    "end": 25,
                     "decorators": [],
                     "name": "WAWA",
                     "optional": false,
-                    "typeAnnotation": null
+                    "typeAnnotation": null,
+                    "start": 21,
+                    "end": 25
                   },
-                  "typeArguments": null
+                  "typeArguments": null,
+                  "start": 21,
+                  "end": 25
                 }
-              ]
+              ],
+              "start": 20,
+              "end": 26
             },
-            "arguments": []
+            "arguments": [],
+            "start": 11,
+            "end": 28
           },
-          "definite": false
+          "definite": false,
+          "start": 4,
+          "end": 28
         }
       ],
-      "declare": false
+      "declare": false,
+      "start": 0,
+      "end": 29
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 29
 }
 ```

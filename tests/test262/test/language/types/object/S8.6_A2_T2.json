@@ -1,167 +1,167 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 777,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 294,
-      "end": 307,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 298,
-          "end": 306,
           "id": {
             "type": "Identifier",
+            "name": "__map",
             "start": 298,
-            "end": 303,
-            "name": "__map"
+            "end": 303
           },
           "init": {
             "type": "ObjectExpression",
+            "properties": [],
             "start": 304,
-            "end": 306,
-            "properties": []
-          }
+            "end": 306
+          },
+          "start": 298,
+          "end": 306
         }
-      ]
+      ],
+      "start": 294,
+      "end": 307
     },
     {
       "type": "ExpressionStatement",
-      "start": 398,
-      "end": 433,
       "expression": {
         "type": "CallExpression",
-        "start": 398,
-        "end": 432,
         "callee": {
           "type": "MemberExpression",
-          "start": 398,
-          "end": 414,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 398,
-            "end": 404,
-            "name": "assert"
+            "end": 404
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 405,
-            "end": 414,
-            "name": "sameValue"
+            "end": 414
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 398,
+          "end": 414
         },
         "arguments": [
           {
             "type": "UpdateExpression",
-            "start": 415,
-            "end": 426,
             "operator": "++",
             "prefix": false,
             "argument": {
               "type": "MemberExpression",
-              "start": 415,
-              "end": 424,
               "object": {
                 "type": "Identifier",
+                "name": "__map",
                 "start": 415,
-                "end": 420,
-                "name": "__map"
+                "end": 420
               },
               "property": {
                 "type": "Identifier",
+                "name": "foo",
                 "start": 421,
-                "end": 424,
-                "name": "foo"
+                "end": 424
               },
               "optional": false,
-              "computed": false
-            }
+              "computed": false,
+              "start": 415,
+              "end": 424
+            },
+            "start": 415,
+            "end": 426
           },
           {
             "type": "Identifier",
+            "name": "NaN",
             "start": 428,
-            "end": 431,
-            "name": "NaN"
+            "end": 431
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 398,
+        "end": 432
+      },
+      "start": 398,
+      "end": 433
     },
     {
       "type": "IfStatement",
-      "start": 606,
-      "end": 694,
       "test": {
         "type": "UnaryExpression",
-        "start": 610,
-        "end": 627,
         "operator": "!",
         "argument": {
           "type": "ParenthesizedExpression",
-          "start": 611,
-          "end": 627,
           "expression": {
             "type": "BinaryExpression",
-            "start": 612,
-            "end": 626,
             "left": {
               "type": "Literal",
-              "start": 612,
-              "end": 617,
               "value": "foo",
-              "raw": "\"foo\""
+              "raw": "\"foo\"",
+              "start": 612,
+              "end": 617
             },
             "operator": "in",
             "right": {
               "type": "Identifier",
+              "name": "__map",
               "start": 621,
-              "end": 626,
-              "name": "__map"
-            }
-          }
+              "end": 626
+            },
+            "start": 612,
+            "end": 626
+          },
+          "start": 611,
+          "end": 627
         },
-        "prefix": true
+        "prefix": true,
+        "start": 610,
+        "end": 627
       },
       "consequent": {
         "type": "BlockStatement",
-        "start": 629,
-        "end": 694,
         "body": [
           {
             "type": "ThrowStatement",
-            "start": 633,
-            "end": 692,
             "argument": {
               "type": "NewExpression",
-              "start": 639,
-              "end": 691,
               "callee": {
                 "type": "Identifier",
+                "name": "Test262Error",
                 "start": 643,
-                "end": 655,
-                "name": "Test262Error"
+                "end": 655
               },
               "arguments": [
                 {
                   "type": "Literal",
-                  "start": 656,
-                  "end": 690,
                   "value": "#2: var __map={}; \"foo\" in __map",
-                  "raw": "'#2: var __map={}; \"foo\" in __map'"
+                  "raw": "'#2: var __map={}; \"foo\" in __map'",
+                  "start": 656,
+                  "end": 690
                 }
-              ]
-            }
+              ],
+              "start": 639,
+              "end": 691
+            },
+            "start": 633,
+            "end": 692
           }
-        ]
+        ],
+        "start": 629,
+        "end": 694
       },
-      "alternate": null
+      "alternate": null,
+      "start": 606,
+      "end": 694
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 777
 }

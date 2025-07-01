@@ -2,189 +2,189 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 130,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 0,
-      "end": 39,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 4,
-          "end": 38,
           "id": {
             "type": "Identifier",
-            "start": 4,
-            "end": 8,
             "decorators": [],
             "name": "foge",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 4,
+            "end": 8
           },
           "init": {
             "type": "NewExpression",
-            "start": 11,
-            "end": 38,
             "callee": {
               "type": "Identifier",
-              "start": 15,
-              "end": 32,
               "decorators": [],
               "name": "SharedArrayBuffer",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 15,
+              "end": 32
             },
             "typeArguments": null,
             "arguments": [
               {
                 "type": "Literal",
-                "start": 33,
-                "end": 37,
                 "value": 1024,
-                "raw": "1024"
+                "raw": "1024",
+                "start": 33,
+                "end": 37
               }
-            ]
+            ],
+            "start": 11,
+            "end": 38
           },
-          "definite": false
+          "definite": false,
+          "start": 4,
+          "end": 38
         }
       ],
-      "declare": false
+      "declare": false,
+      "start": 0,
+      "end": 39
     },
     {
       "type": "VariableDeclaration",
-      "start": 40,
-      "end": 81,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 44,
-          "end": 80,
           "id": {
             "type": "Identifier",
-            "start": 44,
-            "end": 53,
             "decorators": [],
             "name": "stringTag",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 44,
+            "end": 53
           },
           "init": {
             "type": "MemberExpression",
-            "start": 56,
-            "end": 80,
             "object": {
               "type": "Identifier",
-              "start": 56,
-              "end": 60,
               "decorators": [],
               "name": "foge",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 56,
+              "end": 60
             },
             "property": {
               "type": "MemberExpression",
-              "start": 61,
-              "end": 79,
               "object": {
                 "type": "Identifier",
-                "start": 61,
-                "end": 67,
                 "decorators": [],
                 "name": "Symbol",
                 "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "start": 61,
+                "end": 67
               },
               "property": {
                 "type": "Identifier",
-                "start": 68,
-                "end": 79,
                 "decorators": [],
                 "name": "toStringTag",
                 "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "start": 68,
+                "end": 79
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 61,
+              "end": 79
             },
             "optional": false,
-            "computed": true
+            "computed": true,
+            "start": 56,
+            "end": 80
           },
-          "definite": false
+          "definite": false,
+          "start": 44,
+          "end": 80
         }
       ],
-      "declare": false
+      "declare": false,
+      "start": 40,
+      "end": 81
     },
     {
       "type": "VariableDeclaration",
-      "start": 82,
-      "end": 130,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 86,
-          "end": 129,
           "id": {
             "type": "Identifier",
-            "start": 86,
-            "end": 93,
             "decorators": [],
             "name": "species",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 86,
+            "end": 93
           },
           "init": {
             "type": "MemberExpression",
-            "start": 96,
-            "end": 129,
             "object": {
               "type": "Identifier",
-              "start": 96,
-              "end": 113,
               "decorators": [],
               "name": "SharedArrayBuffer",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 96,
+              "end": 113
             },
             "property": {
               "type": "MemberExpression",
-              "start": 114,
-              "end": 128,
               "object": {
                 "type": "Identifier",
-                "start": 114,
-                "end": 120,
                 "decorators": [],
                 "name": "Symbol",
                 "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "start": 114,
+                "end": 120
               },
               "property": {
                 "type": "Identifier",
-                "start": 121,
-                "end": 128,
                 "decorators": [],
                 "name": "species",
                 "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "start": 121,
+                "end": 128
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 114,
+              "end": 128
             },
             "optional": false,
-            "computed": true
+            "computed": true,
+            "start": 96,
+            "end": 129
           },
-          "definite": false
+          "definite": false,
+          "start": 86,
+          "end": 129
         }
       ],
-      "declare": false
+      "declare": false,
+      "start": 82,
+      "end": 130
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 130
 }
 ```

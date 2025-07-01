@@ -2,21 +2,17 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 109,
   "body": [
     {
       "type": "FunctionDeclaration",
-      "start": 0,
-      "end": 109,
       "id": {
         "type": "Identifier",
-        "start": 16,
-        "end": 20,
         "decorators": [],
         "name": "test",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 16,
+        "end": 20
       },
       "generator": true,
       "async": true,
@@ -25,136 +21,140 @@ __ESTREE_TEST__:PASS:
       "params": [
         {
           "type": "Identifier",
-          "start": 21,
-          "end": 39,
           "decorators": [],
           "name": "x",
           "optional": false,
           "typeAnnotation": {
             "type": "TSTypeAnnotation",
-            "start": 22,
-            "end": 39,
             "typeAnnotation": {
               "type": "TSTypeReference",
-              "start": 24,
-              "end": 39,
               "typeName": {
                 "type": "Identifier",
-                "start": 24,
-                "end": 31,
                 "decorators": [],
                 "name": "Promise",
                 "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "start": 24,
+                "end": 31
               },
               "typeArguments": {
                 "type": "TSTypeParameterInstantiation",
-                "start": 31,
-                "end": 39,
                 "params": [
                   {
                     "type": "TSNumberKeyword",
                     "start": 32,
                     "end": 38
                   }
-                ]
-              }
-            }
-          }
+                ],
+                "start": 31,
+                "end": 39
+              },
+              "start": 24,
+              "end": 39
+            },
+            "start": 22,
+            "end": 39
+          },
+          "start": 21,
+          "end": 39
         }
       ],
       "returnType": null,
       "body": {
         "type": "BlockStatement",
-        "start": 41,
-        "end": 109,
         "body": [
           {
             "type": "TSEnumDeclaration",
-            "start": 47,
-            "end": 107,
             "id": {
               "type": "Identifier",
-              "start": 52,
-              "end": 53,
               "decorators": [],
               "name": "E",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 52,
+              "end": 53
             },
             "body": {
               "type": "TSEnumBody",
-              "start": 54,
-              "end": 107,
               "members": [
                 {
                   "type": "TSEnumMember",
-                  "start": 64,
-                  "end": 77,
                   "id": {
                     "type": "Identifier",
-                    "start": 64,
-                    "end": 67,
                     "decorators": [],
                     "name": "foo",
                     "optional": false,
-                    "typeAnnotation": null
+                    "typeAnnotation": null,
+                    "start": 64,
+                    "end": 67
                   },
                   "initializer": {
                     "type": "AwaitExpression",
-                    "start": 70,
-                    "end": 77,
                     "argument": {
                       "type": "Identifier",
-                      "start": 76,
-                      "end": 77,
                       "decorators": [],
                       "name": "x",
                       "optional": false,
-                      "typeAnnotation": null
-                    }
+                      "typeAnnotation": null,
+                      "start": 76,
+                      "end": 77
+                    },
+                    "start": 70,
+                    "end": 77
                   },
-                  "computed": false
+                  "computed": false,
+                  "start": 64,
+                  "end": 77
                 },
                 {
                   "type": "TSEnumMember",
-                  "start": 87,
-                  "end": 100,
                   "id": {
                     "type": "Identifier",
-                    "start": 87,
-                    "end": 90,
                     "decorators": [],
                     "name": "baz",
                     "optional": false,
-                    "typeAnnotation": null
+                    "typeAnnotation": null,
+                    "start": 87,
+                    "end": 90
                   },
                   "initializer": {
                     "type": "YieldExpression",
-                    "start": 93,
-                    "end": 100,
                     "delegate": false,
                     "argument": {
                       "type": "Literal",
-                      "start": 99,
-                      "end": 100,
                       "value": 1,
-                      "raw": "1"
-                    }
+                      "raw": "1",
+                      "start": 99,
+                      "end": 100
+                    },
+                    "start": 93,
+                    "end": 100
                   },
-                  "computed": false
+                  "computed": false,
+                  "start": 87,
+                  "end": 100
                 }
-              ]
+              ],
+              "start": 54,
+              "end": 107
             },
             "const": false,
-            "declare": false
+            "declare": false,
+            "start": 47,
+            "end": 107
           }
-        ]
+        ],
+        "start": 41,
+        "end": 109
       },
-      "expression": false
+      "expression": false,
+      "start": 0,
+      "end": 109
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 109
 }
 ```

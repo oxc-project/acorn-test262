@@ -1,978 +1,978 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 2820,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 1659,
-      "end": 1680,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 1663,
-          "end": 1679,
           "id": {
             "type": "Identifier",
+            "name": "re1",
             "start": 1663,
-            "end": 1666,
-            "name": "re1"
+            "end": 1666
           },
           "init": {
             "type": "Literal",
-            "start": 1669,
-            "end": 1679,
             "value": null,
             "raw": "/(?m:es$)/",
             "regex": {
               "pattern": "(?m:es$)",
               "flags": ""
-            }
-          }
+            },
+            "start": 1669,
+            "end": 1679
+          },
+          "start": 1663,
+          "end": 1679
         }
-      ]
+      ],
+      "start": 1659,
+      "end": 1680
     },
     {
       "type": "ExpressionStatement",
-      "start": 1681,
-      "end": 1751,
       "expression": {
         "type": "CallExpression",
-        "start": 1681,
-        "end": 1750,
         "callee": {
           "type": "Identifier",
+          "name": "assert",
           "start": 1681,
-          "end": 1687,
-          "name": "assert"
+          "end": 1687
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 1688,
-            "end": 1705,
             "callee": {
               "type": "MemberExpression",
-              "start": 1688,
-              "end": 1696,
               "object": {
                 "type": "Identifier",
+                "name": "re1",
                 "start": 1688,
-                "end": 1691,
-                "name": "re1"
+                "end": 1691
               },
               "property": {
                 "type": "Identifier",
+                "name": "test",
                 "start": 1692,
-                "end": 1696,
-                "name": "test"
+                "end": 1696
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 1688,
+              "end": 1696
             },
             "arguments": [
               {
                 "type": "Literal",
-                "start": 1697,
-                "end": 1704,
                 "value": "es\ns",
-                "raw": "\"es\\ns\""
+                "raw": "\"es\\ns\"",
+                "start": 1697,
+                "end": 1704
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 1688,
+            "end": 1705
           },
           {
             "type": "Literal",
-            "start": 1707,
-            "end": 1749,
             "value": "$ should match newline in modified group",
-            "raw": "\"$ should match newline in modified group\""
+            "raw": "\"$ should match newline in modified group\"",
+            "start": 1707,
+            "end": 1749
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 1681,
+        "end": 1750
+      },
+      "start": 1681,
+      "end": 1751
     },
     {
       "type": "VariableDeclaration",
-      "start": 1753,
-      "end": 1786,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 1757,
-          "end": 1785,
           "id": {
             "type": "Identifier",
+            "name": "re2",
             "start": 1757,
-            "end": 1760,
-            "name": "re2"
+            "end": 1760
           },
           "init": {
             "type": "NewExpression",
-            "start": 1763,
-            "end": 1785,
             "callee": {
               "type": "Identifier",
+              "name": "RegExp",
               "start": 1767,
-              "end": 1773,
-              "name": "RegExp"
+              "end": 1773
             },
             "arguments": [
               {
                 "type": "Literal",
-                "start": 1774,
-                "end": 1784,
                 "value": "(?m:es$)",
-                "raw": "\"(?m:es$)\""
+                "raw": "\"(?m:es$)\"",
+                "start": 1774,
+                "end": 1784
               }
-            ]
-          }
+            ],
+            "start": 1763,
+            "end": 1785
+          },
+          "start": 1757,
+          "end": 1785
         }
-      ]
+      ],
+      "start": 1753,
+      "end": 1786
     },
     {
       "type": "ExpressionStatement",
-      "start": 1787,
-      "end": 1857,
       "expression": {
         "type": "CallExpression",
-        "start": 1787,
-        "end": 1856,
         "callee": {
           "type": "Identifier",
+          "name": "assert",
           "start": 1787,
-          "end": 1793,
-          "name": "assert"
+          "end": 1793
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 1794,
-            "end": 1811,
             "callee": {
               "type": "MemberExpression",
-              "start": 1794,
-              "end": 1802,
               "object": {
                 "type": "Identifier",
+                "name": "re2",
                 "start": 1794,
-                "end": 1797,
-                "name": "re2"
+                "end": 1797
               },
               "property": {
                 "type": "Identifier",
+                "name": "test",
                 "start": 1798,
-                "end": 1802,
-                "name": "test"
+                "end": 1802
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 1794,
+              "end": 1802
             },
             "arguments": [
               {
                 "type": "Literal",
-                "start": 1803,
-                "end": 1810,
                 "value": "es\ns",
-                "raw": "\"es\\ns\""
+                "raw": "\"es\\ns\"",
+                "start": 1803,
+                "end": 1810
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 1794,
+            "end": 1811
           },
           {
             "type": "Literal",
-            "start": 1813,
-            "end": 1855,
             "value": "$ should match newline in modified group",
-            "raw": "\"$ should match newline in modified group\""
+            "raw": "\"$ should match newline in modified group\"",
+            "start": 1813,
+            "end": 1855
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 1787,
+        "end": 1856
+      },
+      "start": 1787,
+      "end": 1857
     },
     {
       "type": "VariableDeclaration",
-      "start": 1859,
-      "end": 1881,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 1863,
-          "end": 1880,
           "id": {
             "type": "Identifier",
+            "name": "re3",
             "start": 1863,
-            "end": 1866,
-            "name": "re3"
+            "end": 1866
           },
           "init": {
             "type": "Literal",
-            "start": 1869,
-            "end": 1880,
             "value": null,
             "raw": "/(?m-:es$)/",
             "regex": {
               "pattern": "(?m-:es$)",
               "flags": ""
-            }
-          }
+            },
+            "start": 1869,
+            "end": 1880
+          },
+          "start": 1863,
+          "end": 1880
         }
-      ]
+      ],
+      "start": 1859,
+      "end": 1881
     },
     {
       "type": "ExpressionStatement",
-      "start": 1882,
-      "end": 1952,
       "expression": {
         "type": "CallExpression",
-        "start": 1882,
-        "end": 1951,
         "callee": {
           "type": "Identifier",
+          "name": "assert",
           "start": 1882,
-          "end": 1888,
-          "name": "assert"
+          "end": 1888
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 1889,
-            "end": 1906,
             "callee": {
               "type": "MemberExpression",
-              "start": 1889,
-              "end": 1897,
               "object": {
                 "type": "Identifier",
+                "name": "re3",
                 "start": 1889,
-                "end": 1892,
-                "name": "re3"
+                "end": 1892
               },
               "property": {
                 "type": "Identifier",
+                "name": "test",
                 "start": 1893,
-                "end": 1897,
-                "name": "test"
+                "end": 1897
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 1889,
+              "end": 1897
             },
             "arguments": [
               {
                 "type": "Literal",
-                "start": 1898,
-                "end": 1905,
                 "value": "es\ns",
-                "raw": "\"es\\ns\""
+                "raw": "\"es\\ns\"",
+                "start": 1898,
+                "end": 1905
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 1889,
+            "end": 1906
           },
           {
             "type": "Literal",
-            "start": 1908,
-            "end": 1950,
             "value": "$ should match newline in modified group",
-            "raw": "\"$ should match newline in modified group\""
+            "raw": "\"$ should match newline in modified group\"",
+            "start": 1908,
+            "end": 1950
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 1882,
+        "end": 1951
+      },
+      "start": 1882,
+      "end": 1952
     },
     {
       "type": "VariableDeclaration",
-      "start": 1954,
-      "end": 1988,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 1958,
-          "end": 1987,
           "id": {
             "type": "Identifier",
+            "name": "re4",
             "start": 1958,
-            "end": 1961,
-            "name": "re4"
+            "end": 1961
           },
           "init": {
             "type": "NewExpression",
-            "start": 1964,
-            "end": 1987,
             "callee": {
               "type": "Identifier",
+              "name": "RegExp",
               "start": 1968,
-              "end": 1974,
-              "name": "RegExp"
+              "end": 1974
             },
             "arguments": [
               {
                 "type": "Literal",
-                "start": 1975,
-                "end": 1986,
                 "value": "(?m-:es$)",
-                "raw": "\"(?m-:es$)\""
+                "raw": "\"(?m-:es$)\"",
+                "start": 1975,
+                "end": 1986
               }
-            ]
-          }
+            ],
+            "start": 1964,
+            "end": 1987
+          },
+          "start": 1958,
+          "end": 1987
         }
-      ]
+      ],
+      "start": 1954,
+      "end": 1988
     },
     {
       "type": "ExpressionStatement",
-      "start": 1989,
-      "end": 2059,
       "expression": {
         "type": "CallExpression",
-        "start": 1989,
-        "end": 2058,
         "callee": {
           "type": "Identifier",
+          "name": "assert",
           "start": 1989,
-          "end": 1995,
-          "name": "assert"
+          "end": 1995
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 1996,
-            "end": 2013,
             "callee": {
               "type": "MemberExpression",
-              "start": 1996,
-              "end": 2004,
               "object": {
                 "type": "Identifier",
+                "name": "re4",
                 "start": 1996,
-                "end": 1999,
-                "name": "re4"
+                "end": 1999
               },
               "property": {
                 "type": "Identifier",
+                "name": "test",
                 "start": 2000,
-                "end": 2004,
-                "name": "test"
+                "end": 2004
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 1996,
+              "end": 2004
             },
             "arguments": [
               {
                 "type": "Literal",
-                "start": 2005,
-                "end": 2012,
                 "value": "es\ns",
-                "raw": "\"es\\ns\""
+                "raw": "\"es\\ns\"",
+                "start": 2005,
+                "end": 2012
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 1996,
+            "end": 2013
           },
           {
             "type": "Literal",
-            "start": 2015,
-            "end": 2057,
             "value": "$ should match newline in modified group",
-            "raw": "\"$ should match newline in modified group\""
+            "raw": "\"$ should match newline in modified group\"",
+            "start": 2015,
+            "end": 2057
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 1989,
+        "end": 2058
+      },
+      "start": 1989,
+      "end": 2059
     },
     {
       "type": "VariableDeclaration",
-      "start": 2061,
-      "end": 2090,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 2065,
-          "end": 2089,
           "id": {
             "type": "Identifier",
+            "name": "re5",
             "start": 2065,
-            "end": 2068,
-            "name": "re5"
+            "end": 2068
           },
           "init": {
             "type": "Literal",
-            "start": 2071,
-            "end": 2089,
             "value": null,
             "raw": "/^a\\n(?m:^b$)\\nc$/",
             "regex": {
               "pattern": "^a\\n(?m:^b$)\\nc$",
               "flags": ""
-            }
-          }
+            },
+            "start": 2071,
+            "end": 2089
+          },
+          "start": 2065,
+          "end": 2089
         }
-      ]
+      ],
+      "start": 2061,
+      "end": 2090
     },
     {
       "type": "ExpressionStatement",
-      "start": 2091,
-      "end": 2169,
       "expression": {
         "type": "CallExpression",
-        "start": 2091,
-        "end": 2168,
         "callee": {
           "type": "Identifier",
+          "name": "assert",
           "start": 2091,
-          "end": 2097,
-          "name": "assert"
+          "end": 2097
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 2098,
-            "end": 2117,
             "callee": {
               "type": "MemberExpression",
-              "start": 2098,
-              "end": 2106,
               "object": {
                 "type": "Identifier",
+                "name": "re5",
                 "start": 2098,
-                "end": 2101,
-                "name": "re5"
+                "end": 2101
               },
               "property": {
                 "type": "Identifier",
+                "name": "test",
                 "start": 2102,
-                "end": 2106,
-                "name": "test"
+                "end": 2106
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 2098,
+              "end": 2106
             },
             "arguments": [
               {
                 "type": "Literal",
-                "start": 2107,
-                "end": 2116,
                 "value": "a\nb\nc",
-                "raw": "\"a\\nb\\nc\""
+                "raw": "\"a\\nb\\nc\"",
+                "start": 2107,
+                "end": 2116
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 2098,
+            "end": 2117
           },
           {
             "type": "Literal",
-            "start": 2119,
-            "end": 2167,
             "value": "^ and $ should match newline in modified group",
-            "raw": "\"^ and $ should match newline in modified group\""
+            "raw": "\"^ and $ should match newline in modified group\"",
+            "start": 2119,
+            "end": 2167
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 2091,
+        "end": 2168
+      },
+      "start": 2091,
+      "end": 2169
     },
     {
       "type": "ExpressionStatement",
-      "start": 2170,
-      "end": 2254,
       "expression": {
         "type": "CallExpression",
-        "start": 2170,
-        "end": 2253,
         "callee": {
           "type": "Identifier",
+          "name": "assert",
           "start": 2170,
-          "end": 2176,
-          "name": "assert"
+          "end": 2176
         },
         "arguments": [
           {
             "type": "UnaryExpression",
-            "start": 2177,
-            "end": 2199,
             "operator": "!",
             "argument": {
               "type": "CallExpression",
-              "start": 2178,
-              "end": 2199,
               "callee": {
                 "type": "MemberExpression",
-                "start": 2178,
-                "end": 2186,
                 "object": {
                   "type": "Identifier",
+                  "name": "re5",
                   "start": 2178,
-                  "end": 2181,
-                  "name": "re5"
+                  "end": 2181
                 },
                 "property": {
                   "type": "Identifier",
+                  "name": "test",
                   "start": 2182,
-                  "end": 2186,
-                  "name": "test"
+                  "end": 2186
                 },
                 "optional": false,
-                "computed": false
+                "computed": false,
+                "start": 2178,
+                "end": 2186
               },
               "arguments": [
                 {
                   "type": "Literal",
-                  "start": 2187,
-                  "end": 2198,
                   "value": "\na\nb\nc",
-                  "raw": "\"\\na\\nb\\nc\""
+                  "raw": "\"\\na\\nb\\nc\"",
+                  "start": 2187,
+                  "end": 2198
                 }
               ],
-              "optional": false
+              "optional": false,
+              "start": 2178,
+              "end": 2199
             },
-            "prefix": true
+            "prefix": true,
+            "start": 2177,
+            "end": 2199
           },
           {
             "type": "Literal",
-            "start": 2201,
-            "end": 2252,
             "value": "^ should not match newline outside modified group",
-            "raw": "\"^ should not match newline outside modified group\""
+            "raw": "\"^ should not match newline outside modified group\"",
+            "start": 2201,
+            "end": 2252
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 2170,
+        "end": 2253
+      },
+      "start": 2170,
+      "end": 2254
     },
     {
       "type": "ExpressionStatement",
-      "start": 2255,
-      "end": 2339,
       "expression": {
         "type": "CallExpression",
-        "start": 2255,
-        "end": 2338,
         "callee": {
           "type": "Identifier",
+          "name": "assert",
           "start": 2255,
-          "end": 2261,
-          "name": "assert"
+          "end": 2261
         },
         "arguments": [
           {
             "type": "UnaryExpression",
-            "start": 2262,
-            "end": 2284,
             "operator": "!",
             "argument": {
               "type": "CallExpression",
-              "start": 2263,
-              "end": 2284,
               "callee": {
                 "type": "MemberExpression",
-                "start": 2263,
-                "end": 2271,
                 "object": {
                   "type": "Identifier",
+                  "name": "re5",
                   "start": 2263,
-                  "end": 2266,
-                  "name": "re5"
+                  "end": 2266
                 },
                 "property": {
                   "type": "Identifier",
+                  "name": "test",
                   "start": 2267,
-                  "end": 2271,
-                  "name": "test"
+                  "end": 2271
                 },
                 "optional": false,
-                "computed": false
+                "computed": false,
+                "start": 2263,
+                "end": 2271
               },
               "arguments": [
                 {
                   "type": "Literal",
-                  "start": 2272,
-                  "end": 2283,
                   "value": "a\nb\nc\n",
-                  "raw": "\"a\\nb\\nc\\n\""
+                  "raw": "\"a\\nb\\nc\\n\"",
+                  "start": 2272,
+                  "end": 2283
                 }
               ],
-              "optional": false
+              "optional": false,
+              "start": 2263,
+              "end": 2284
             },
-            "prefix": true
+            "prefix": true,
+            "start": 2262,
+            "end": 2284
           },
           {
             "type": "Literal",
-            "start": 2286,
-            "end": 2337,
             "value": "$ should not match newline outside modified group",
-            "raw": "\"$ should not match newline outside modified group\""
+            "raw": "\"$ should not match newline outside modified group\"",
+            "start": 2286,
+            "end": 2337
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 2255,
+        "end": 2338
+      },
+      "start": 2255,
+      "end": 2339
     },
     {
       "type": "ExpressionStatement",
-      "start": 2340,
-      "end": 2432,
       "expression": {
         "type": "CallExpression",
-        "start": 2340,
-        "end": 2431,
         "callee": {
           "type": "Identifier",
+          "name": "assert",
           "start": 2340,
-          "end": 2346,
-          "name": "assert"
+          "end": 2346
         },
         "arguments": [
           {
             "type": "UnaryExpression",
-            "start": 2347,
-            "end": 2371,
             "operator": "!",
             "argument": {
               "type": "CallExpression",
-              "start": 2348,
-              "end": 2371,
               "callee": {
                 "type": "MemberExpression",
-                "start": 2348,
-                "end": 2356,
                 "object": {
                   "type": "Identifier",
+                  "name": "re5",
                   "start": 2348,
-                  "end": 2351,
-                  "name": "re5"
+                  "end": 2351
                 },
                 "property": {
                   "type": "Identifier",
+                  "name": "test",
                   "start": 2352,
-                  "end": 2356,
-                  "name": "test"
+                  "end": 2356
                 },
                 "optional": false,
-                "computed": false
+                "computed": false,
+                "start": 2348,
+                "end": 2356
               },
               "arguments": [
                 {
                   "type": "Literal",
-                  "start": 2357,
-                  "end": 2370,
                   "value": "\na\nb\nc\n",
-                  "raw": "\"\\na\\nb\\nc\\n\""
+                  "raw": "\"\\na\\nb\\nc\\n\"",
+                  "start": 2357,
+                  "end": 2370
                 }
               ],
-              "optional": false
+              "optional": false,
+              "start": 2348,
+              "end": 2371
             },
-            "prefix": true
+            "prefix": true,
+            "start": 2347,
+            "end": 2371
           },
           {
             "type": "Literal",
-            "start": 2373,
-            "end": 2430,
             "value": "^ and $ should not match newline outside modified group",
-            "raw": "\"^ and $ should not match newline outside modified group\""
+            "raw": "\"^ and $ should not match newline outside modified group\"",
+            "start": 2373,
+            "end": 2430
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 2340,
+        "end": 2431
+      },
+      "start": 2340,
+      "end": 2432
     },
     {
       "type": "VariableDeclaration",
-      "start": 2434,
-      "end": 2477,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 2438,
-          "end": 2476,
           "id": {
             "type": "Identifier",
+            "name": "re6",
             "start": 2438,
-            "end": 2441,
-            "name": "re6"
+            "end": 2441
           },
           "init": {
             "type": "NewExpression",
-            "start": 2444,
-            "end": 2476,
             "callee": {
               "type": "Identifier",
+              "name": "RegExp",
               "start": 2448,
-              "end": 2454,
-              "name": "RegExp"
+              "end": 2454
             },
             "arguments": [
               {
                 "type": "Literal",
-                "start": 2455,
-                "end": 2475,
                 "value": "^a\\n(?m:^b$)\\nc$",
-                "raw": "\"^a\\\\n(?m:^b$)\\\\nc$\""
+                "raw": "\"^a\\\\n(?m:^b$)\\\\nc$\"",
+                "start": 2455,
+                "end": 2475
               }
-            ]
-          }
+            ],
+            "start": 2444,
+            "end": 2476
+          },
+          "start": 2438,
+          "end": 2476
         }
-      ]
+      ],
+      "start": 2434,
+      "end": 2477
     },
     {
       "type": "ExpressionStatement",
-      "start": 2478,
-      "end": 2556,
       "expression": {
         "type": "CallExpression",
-        "start": 2478,
-        "end": 2555,
         "callee": {
           "type": "Identifier",
+          "name": "assert",
           "start": 2478,
-          "end": 2484,
-          "name": "assert"
+          "end": 2484
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 2485,
-            "end": 2504,
             "callee": {
               "type": "MemberExpression",
-              "start": 2485,
-              "end": 2493,
               "object": {
                 "type": "Identifier",
+                "name": "re6",
                 "start": 2485,
-                "end": 2488,
-                "name": "re6"
+                "end": 2488
               },
               "property": {
                 "type": "Identifier",
+                "name": "test",
                 "start": 2489,
-                "end": 2493,
-                "name": "test"
+                "end": 2493
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 2485,
+              "end": 2493
             },
             "arguments": [
               {
                 "type": "Literal",
-                "start": 2494,
-                "end": 2503,
                 "value": "a\nb\nc",
-                "raw": "\"a\\nb\\nc\""
+                "raw": "\"a\\nb\\nc\"",
+                "start": 2494,
+                "end": 2503
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 2485,
+            "end": 2504
           },
           {
             "type": "Literal",
-            "start": 2506,
-            "end": 2554,
             "value": "^ and $ should match newline in modified group",
-            "raw": "\"^ and $ should match newline in modified group\""
+            "raw": "\"^ and $ should match newline in modified group\"",
+            "start": 2506,
+            "end": 2554
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 2478,
+        "end": 2555
+      },
+      "start": 2478,
+      "end": 2556
     },
     {
       "type": "ExpressionStatement",
-      "start": 2557,
-      "end": 2641,
       "expression": {
         "type": "CallExpression",
-        "start": 2557,
-        "end": 2640,
         "callee": {
           "type": "Identifier",
+          "name": "assert",
           "start": 2557,
-          "end": 2563,
-          "name": "assert"
+          "end": 2563
         },
         "arguments": [
           {
             "type": "UnaryExpression",
-            "start": 2564,
-            "end": 2586,
             "operator": "!",
             "argument": {
               "type": "CallExpression",
-              "start": 2565,
-              "end": 2586,
               "callee": {
                 "type": "MemberExpression",
-                "start": 2565,
-                "end": 2573,
                 "object": {
                   "type": "Identifier",
+                  "name": "re6",
                   "start": 2565,
-                  "end": 2568,
-                  "name": "re6"
+                  "end": 2568
                 },
                 "property": {
                   "type": "Identifier",
+                  "name": "test",
                   "start": 2569,
-                  "end": 2573,
-                  "name": "test"
+                  "end": 2573
                 },
                 "optional": false,
-                "computed": false
+                "computed": false,
+                "start": 2565,
+                "end": 2573
               },
               "arguments": [
                 {
                   "type": "Literal",
-                  "start": 2574,
-                  "end": 2585,
                   "value": "\na\nb\nc",
-                  "raw": "\"\\na\\nb\\nc\""
+                  "raw": "\"\\na\\nb\\nc\"",
+                  "start": 2574,
+                  "end": 2585
                 }
               ],
-              "optional": false
+              "optional": false,
+              "start": 2565,
+              "end": 2586
             },
-            "prefix": true
+            "prefix": true,
+            "start": 2564,
+            "end": 2586
           },
           {
             "type": "Literal",
-            "start": 2588,
-            "end": 2639,
             "value": "^ should not match newline outside modified group",
-            "raw": "\"^ should not match newline outside modified group\""
+            "raw": "\"^ should not match newline outside modified group\"",
+            "start": 2588,
+            "end": 2639
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 2557,
+        "end": 2640
+      },
+      "start": 2557,
+      "end": 2641
     },
     {
       "type": "ExpressionStatement",
-      "start": 2642,
-      "end": 2726,
       "expression": {
         "type": "CallExpression",
-        "start": 2642,
-        "end": 2725,
         "callee": {
           "type": "Identifier",
+          "name": "assert",
           "start": 2642,
-          "end": 2648,
-          "name": "assert"
+          "end": 2648
         },
         "arguments": [
           {
             "type": "UnaryExpression",
-            "start": 2649,
-            "end": 2671,
             "operator": "!",
             "argument": {
               "type": "CallExpression",
-              "start": 2650,
-              "end": 2671,
               "callee": {
                 "type": "MemberExpression",
-                "start": 2650,
-                "end": 2658,
                 "object": {
                   "type": "Identifier",
+                  "name": "re6",
                   "start": 2650,
-                  "end": 2653,
-                  "name": "re6"
+                  "end": 2653
                 },
                 "property": {
                   "type": "Identifier",
+                  "name": "test",
                   "start": 2654,
-                  "end": 2658,
-                  "name": "test"
+                  "end": 2658
                 },
                 "optional": false,
-                "computed": false
+                "computed": false,
+                "start": 2650,
+                "end": 2658
               },
               "arguments": [
                 {
                   "type": "Literal",
-                  "start": 2659,
-                  "end": 2670,
                   "value": "a\nb\nc\n",
-                  "raw": "\"a\\nb\\nc\\n\""
+                  "raw": "\"a\\nb\\nc\\n\"",
+                  "start": 2659,
+                  "end": 2670
                 }
               ],
-              "optional": false
+              "optional": false,
+              "start": 2650,
+              "end": 2671
             },
-            "prefix": true
+            "prefix": true,
+            "start": 2649,
+            "end": 2671
           },
           {
             "type": "Literal",
-            "start": 2673,
-            "end": 2724,
             "value": "$ should not match newline outside modified group",
-            "raw": "\"$ should not match newline outside modified group\""
+            "raw": "\"$ should not match newline outside modified group\"",
+            "start": 2673,
+            "end": 2724
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 2642,
+        "end": 2725
+      },
+      "start": 2642,
+      "end": 2726
     },
     {
       "type": "ExpressionStatement",
-      "start": 2727,
-      "end": 2819,
       "expression": {
         "type": "CallExpression",
-        "start": 2727,
-        "end": 2818,
         "callee": {
           "type": "Identifier",
+          "name": "assert",
           "start": 2727,
-          "end": 2733,
-          "name": "assert"
+          "end": 2733
         },
         "arguments": [
           {
             "type": "UnaryExpression",
-            "start": 2734,
-            "end": 2758,
             "operator": "!",
             "argument": {
               "type": "CallExpression",
-              "start": 2735,
-              "end": 2758,
               "callee": {
                 "type": "MemberExpression",
-                "start": 2735,
-                "end": 2743,
                 "object": {
                   "type": "Identifier",
+                  "name": "re6",
                   "start": 2735,
-                  "end": 2738,
-                  "name": "re6"
+                  "end": 2738
                 },
                 "property": {
                   "type": "Identifier",
+                  "name": "test",
                   "start": 2739,
-                  "end": 2743,
-                  "name": "test"
+                  "end": 2743
                 },
                 "optional": false,
-                "computed": false
+                "computed": false,
+                "start": 2735,
+                "end": 2743
               },
               "arguments": [
                 {
                   "type": "Literal",
-                  "start": 2744,
-                  "end": 2757,
                   "value": "\na\nb\nc\n",
-                  "raw": "\"\\na\\nb\\nc\\n\""
+                  "raw": "\"\\na\\nb\\nc\\n\"",
+                  "start": 2744,
+                  "end": 2757
                 }
               ],
-              "optional": false
+              "optional": false,
+              "start": 2735,
+              "end": 2758
             },
-            "prefix": true
+            "prefix": true,
+            "start": 2734,
+            "end": 2758
           },
           {
             "type": "Literal",
-            "start": 2760,
-            "end": 2817,
             "value": "^ and $ should not match newline outside modified group",
-            "raw": "\"^ and $ should not match newline outside modified group\""
+            "raw": "\"^ and $ should not match newline outside modified group\"",
+            "start": 2760,
+            "end": 2817
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 2727,
+        "end": 2818
+      },
+      "start": 2727,
+      "end": 2819
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 2820
 }

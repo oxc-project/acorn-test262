@@ -2,148 +2,148 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 73,
   "body": [
     {
       "type": "ExportNamedDeclaration",
-      "start": 0,
-      "end": 45,
       "declaration": {
         "type": "TSModuleDeclaration",
-        "start": 7,
-        "end": 45,
         "id": {
           "type": "Identifier",
-          "start": 14,
-          "end": 17,
           "decorators": [],
           "name": "Baz",
           "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "start": 14,
+          "end": 17
         },
         "body": {
           "type": "TSModuleBlock",
-          "start": 18,
-          "end": 45,
           "body": [
             {
               "type": "ExportNamedDeclaration",
-              "start": 20,
-              "end": 43,
               "declaration": {
                 "type": "VariableDeclaration",
-                "start": 27,
-                "end": 43,
                 "kind": "var",
                 "declarations": [
                   {
                     "type": "VariableDeclarator",
-                    "start": 31,
-                    "end": 42,
                     "id": {
                       "type": "Identifier",
-                      "start": 31,
-                      "end": 32,
                       "decorators": [],
                       "name": "x",
                       "optional": false,
-                      "typeAnnotation": null
+                      "typeAnnotation": null,
+                      "start": 31,
+                      "end": 32
                     },
                     "init": {
                       "type": "Literal",
-                      "start": 35,
-                      "end": 42,
                       "value": "hello",
-                      "raw": "\"hello\""
+                      "raw": "\"hello\"",
+                      "start": 35,
+                      "end": 42
                     },
-                    "definite": false
+                    "definite": false,
+                    "start": 31,
+                    "end": 42
                   }
                 ],
-                "declare": false
+                "declare": false,
+                "start": 27,
+                "end": 43
               },
               "specifiers": [],
               "source": null,
               "exportKind": "value",
-              "attributes": []
+              "attributes": [],
+              "start": 20,
+              "end": 43
             }
-          ]
+          ],
+          "start": 18,
+          "end": 45
         },
         "kind": "module",
         "declare": false,
-        "global": false
+        "global": false,
+        "start": 7,
+        "end": 45
       },
       "specifiers": [],
       "source": null,
       "exportKind": "value",
-      "attributes": []
+      "attributes": [],
+      "start": 0,
+      "end": 45
     },
     {
       "type": "ExpressionStatement",
-      "start": 47,
-      "end": 65,
       "expression": {
         "type": "AssignmentExpression",
-        "start": 47,
-        "end": 64,
         "operator": "=",
         "left": {
           "type": "MemberExpression",
-          "start": 47,
-          "end": 52,
           "object": {
             "type": "Identifier",
-            "start": 47,
-            "end": 50,
             "decorators": [],
             "name": "Baz",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 47,
+            "end": 50
           },
           "property": {
             "type": "Identifier",
-            "start": 51,
-            "end": 52,
             "decorators": [],
             "name": "x",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 51,
+            "end": 52
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 47,
+          "end": 52
         },
         "right": {
           "type": "Literal",
-          "start": 55,
-          "end": 64,
           "value": "goodbye",
-          "raw": "\"goodbye\""
-        }
+          "raw": "\"goodbye\"",
+          "start": 55,
+          "end": 64
+        },
+        "start": 47,
+        "end": 64
       },
-      "directive": null
+      "directive": null,
+      "start": 47,
+      "end": 65
     },
     {
       "type": "ExpressionStatement",
-      "start": 66,
-      "end": 73,
       "expression": {
         "type": "UnaryExpression",
-        "start": 66,
-        "end": 72,
         "operator": "void",
         "argument": {
           "type": "Literal",
-          "start": 71,
-          "end": 72,
           "value": 0,
-          "raw": "0"
+          "raw": "0",
+          "start": 71,
+          "end": 72
         },
-        "prefix": true
+        "prefix": true,
+        "start": 66,
+        "end": 72
       },
-      "directive": null
+      "directive": null,
+      "start": 66,
+      "end": 73
     }
   ],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 73
 }
 ```

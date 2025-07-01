@@ -1,280 +1,280 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 483,
   "body": [
     {
       "type": "FunctionDeclaration",
-      "start": 204,
-      "end": 222,
       "id": {
         "type": "Identifier",
+        "name": "Base",
         "start": 213,
-        "end": 217,
-        "name": "Base"
+        "end": 217
       },
       "generator": false,
       "async": false,
       "params": [],
       "body": {
         "type": "BlockStatement",
+        "body": [],
         "start": 220,
-        "end": 222,
-        "body": []
+        "end": 222
       },
-      "expression": false
+      "expression": false,
+      "start": 204,
+      "end": 222
     },
     {
       "type": "ExpressionStatement",
-      "start": 223,
-      "end": 353,
       "expression": {
         "type": "CallExpression",
-        "start": 223,
-        "end": 352,
         "callee": {
           "type": "MemberExpression",
-          "start": 223,
-          "end": 244,
           "object": {
             "type": "Identifier",
+            "name": "Object",
             "start": 223,
-            "end": 229,
-            "name": "Object"
+            "end": 229
           },
           "property": {
             "type": "Identifier",
+            "name": "defineProperty",
             "start": 230,
-            "end": 244,
-            "name": "defineProperty"
+            "end": 244
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 223,
+          "end": 244
         },
         "arguments": [
           {
             "type": "Identifier",
+            "name": "Base",
             "start": 245,
-            "end": 249,
-            "name": "Base"
+            "end": 249
           },
           {
             "type": "Literal",
-            "start": 251,
-            "end": 260,
             "value": "staticM",
-            "raw": "'staticM'"
+            "raw": "'staticM'",
+            "start": 251,
+            "end": 260
           },
           {
             "type": "ObjectExpression",
-            "start": 262,
-            "end": 351,
             "properties": [
               {
                 "type": "Property",
-                "start": 266,
-                "end": 349,
                 "kind": "init",
                 "key": {
                   "type": "Identifier",
+                  "name": "set",
                   "start": 266,
-                  "end": 269,
-                  "name": "set"
+                  "end": 269
                 },
                 "value": {
                   "type": "FunctionExpression",
-                  "start": 271,
-                  "end": 349,
                   "id": null,
                   "generator": false,
                   "async": false,
                   "params": [],
                   "body": {
                     "type": "BlockStatement",
-                    "start": 282,
-                    "end": 349,
                     "body": [
                       {
                         "type": "ThrowStatement",
-                        "start": 288,
-                        "end": 345,
                         "argument": {
                           "type": "NewExpression",
-                          "start": 294,
-                          "end": 344,
                           "callee": {
                             "type": "Identifier",
+                            "name": "Test262Error",
                             "start": 298,
-                            "end": 310,
-                            "name": "Test262Error"
+                            "end": 310
                           },
                           "arguments": [
                             {
                               "type": "Literal",
-                              "start": 311,
-                              "end": 343,
                               "value": "`Base.staticM` is unreachable.",
-                              "raw": "\"`Base.staticM` is unreachable.\""
+                              "raw": "\"`Base.staticM` is unreachable.\"",
+                              "start": 311,
+                              "end": 343
                             }
-                          ]
-                        }
+                          ],
+                          "start": 294,
+                          "end": 344
+                        },
+                        "start": 288,
+                        "end": 345
                       }
-                    ]
+                    ],
+                    "start": 282,
+                    "end": 349
                   },
-                  "expression": false
+                  "expression": false,
+                  "start": 271,
+                  "end": 349
                 },
                 "method": false,
                 "shorthand": false,
-                "computed": false
+                "computed": false,
+                "start": 266,
+                "end": 349
               }
-            ]
+            ],
+            "start": 262,
+            "end": 351
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 223,
+        "end": 352
+      },
+      "start": 223,
+      "end": 353
     },
     {
       "type": "ClassDeclaration",
-      "start": 355,
-      "end": 418,
       "decorators": [],
       "id": {
         "type": "Identifier",
+        "name": "C",
         "start": 361,
-        "end": 362,
-        "name": "C"
+        "end": 362
       },
       "superClass": {
         "type": "Identifier",
+        "name": "Base",
         "start": 371,
-        "end": 375,
-        "name": "Base"
+        "end": 375
       },
       "body": {
         "type": "ClassBody",
-        "start": 376,
-        "end": 418,
         "body": [
           {
             "type": "MethodDefinition",
-            "start": 380,
-            "end": 416,
             "decorators": [],
             "key": {
               "type": "Identifier",
+              "name": "staticM",
               "start": 387,
-              "end": 394,
-              "name": "staticM"
+              "end": 394
             },
             "value": {
               "type": "FunctionExpression",
-              "start": 394,
-              "end": 416,
               "id": null,
               "generator": false,
               "async": false,
               "params": [],
               "body": {
                 "type": "BlockStatement",
-                "start": 397,
-                "end": 416,
                 "body": [
                   {
                     "type": "ReturnStatement",
-                    "start": 403,
-                    "end": 412,
                     "argument": {
                       "type": "Literal",
-                      "start": 410,
-                      "end": 411,
                       "value": 1,
-                      "raw": "1"
-                    }
+                      "raw": "1",
+                      "start": 410,
+                      "end": 411
+                    },
+                    "start": 403,
+                    "end": 412
                   }
-                ]
+                ],
+                "start": 397,
+                "end": 416
               },
-              "expression": false
+              "expression": false,
+              "start": 394,
+              "end": 416
             },
             "kind": "method",
             "computed": false,
-            "static": true
+            "static": true,
+            "start": 380,
+            "end": 416
           }
-        ]
-      }
+        ],
+        "start": 376,
+        "end": 418
+      },
+      "start": 355,
+      "end": 418
     },
     {
       "type": "ExpressionStatement",
-      "start": 420,
-      "end": 482,
       "expression": {
         "type": "CallExpression",
-        "start": 420,
-        "end": 481,
         "callee": {
           "type": "MemberExpression",
-          "start": 420,
-          "end": 436,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 420,
-            "end": 426,
-            "name": "assert"
+            "end": 426
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 427,
-            "end": 436,
-            "name": "sameValue"
+            "end": 436
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 420,
+          "end": 436
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 437,
-            "end": 448,
             "callee": {
               "type": "MemberExpression",
-              "start": 437,
-              "end": 446,
               "object": {
                 "type": "Identifier",
+                "name": "C",
                 "start": 437,
-                "end": 438,
-                "name": "C"
+                "end": 438
               },
               "property": {
                 "type": "Identifier",
+                "name": "staticM",
                 "start": 439,
-                "end": 446,
-                "name": "staticM"
+                "end": 446
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 437,
+              "end": 446
             },
             "arguments": [],
-            "optional": false
+            "optional": false,
+            "start": 437,
+            "end": 448
           },
           {
             "type": "Literal",
-            "start": 450,
-            "end": 451,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "start": 450,
+            "end": 451
           },
           {
             "type": "Literal",
-            "start": 453,
-            "end": 480,
             "value": "`C.staticM()` returns `1`",
-            "raw": "\"`C.staticM()` returns `1`\""
+            "raw": "\"`C.staticM()` returns `1`\"",
+            "start": 453,
+            "end": 480
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 420,
+        "end": 481
+      },
+      "start": 420,
+      "end": 482
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 483
 }

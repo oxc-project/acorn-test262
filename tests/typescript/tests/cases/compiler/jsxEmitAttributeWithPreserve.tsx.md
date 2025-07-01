@@ -2,85 +2,85 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 35,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 0,
-      "end": 23,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 12,
-          "end": 22,
           "id": {
             "type": "Identifier",
-            "start": 12,
-            "end": 22,
             "decorators": [],
             "name": "React",
             "optional": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
-              "start": 17,
-              "end": 22,
               "typeAnnotation": {
                 "type": "TSAnyKeyword",
                 "start": 19,
                 "end": 22
-              }
-            }
+              },
+              "start": 17,
+              "end": 22
+            },
+            "start": 12,
+            "end": 22
           },
           "init": null,
-          "definite": false
+          "definite": false,
+          "start": 12,
+          "end": 22
         }
       ],
-      "declare": true
+      "declare": true,
+      "start": 0,
+      "end": 23
     },
     {
       "type": "ExpressionStatement",
-      "start": 24,
-      "end": 35,
       "expression": {
         "type": "JSXElement",
-        "start": 24,
-        "end": 35,
         "openingElement": {
           "type": "JSXOpeningElement",
-          "start": 24,
-          "end": 35,
           "name": {
             "type": "JSXIdentifier",
+            "name": "foo",
             "start": 25,
-            "end": 28,
-            "name": "foo"
+            "end": 28
           },
           "typeArguments": null,
           "attributes": [
             {
               "type": "JSXAttribute",
-              "start": 29,
-              "end": 33,
               "name": {
                 "type": "JSXIdentifier",
+                "name": "data",
                 "start": 29,
-                "end": 33,
-                "name": "data"
+                "end": 33
               },
-              "value": null
+              "value": null,
+              "start": 29,
+              "end": 33
             }
           ],
-          "selfClosing": true
+          "selfClosing": true,
+          "start": 24,
+          "end": 35
         },
         "children": [],
-        "closingElement": null
+        "closingElement": null,
+        "start": 24,
+        "end": 35
       },
-      "directive": null
+      "directive": null,
+      "start": 24,
+      "end": 35
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 35
 }
 ```

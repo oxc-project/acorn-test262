@@ -2,157 +2,157 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 4,
-  "end": 147,
   "body": [
     {
       "type": "ExportNamedDeclaration",
-      "start": 4,
-      "end": 147,
       "declaration": {
         "type": "TSEnumDeclaration",
-        "start": 11,
-        "end": 147,
         "id": {
           "type": "Identifier",
-          "start": 16,
-          "end": 30,
           "decorators": [],
           "name": "SignatureFlags",
           "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "start": 16,
+          "end": 30
         },
         "body": {
           "type": "TSEnumBody",
-          "start": 31,
-          "end": 147,
           "members": [
             {
               "type": "TSEnumMember",
-              "start": 41,
-              "end": 49,
               "id": {
                 "type": "Identifier",
-                "start": 41,
-                "end": 45,
                 "decorators": [],
                 "name": "None",
                 "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "start": 41,
+                "end": 45
               },
               "initializer": {
                 "type": "Literal",
-                "start": 48,
-                "end": 49,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "start": 48,
+                "end": 49
               },
-              "computed": false
+              "computed": false,
+              "start": 41,
+              "end": 49
             },
             {
               "type": "TSEnumMember",
-              "start": 59,
-              "end": 72,
               "id": {
                 "type": "Identifier",
-                "start": 59,
-                "end": 68,
                 "decorators": [],
                 "name": "IsIndexer",
                 "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "start": 59,
+                "end": 68
               },
               "initializer": {
                 "type": "Literal",
-                "start": 71,
-                "end": 72,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "start": 71,
+                "end": 72
               },
-              "computed": false
+              "computed": false,
+              "start": 59,
+              "end": 72
             },
             {
               "type": "TSEnumMember",
-              "start": 82,
-              "end": 106,
               "id": {
                 "type": "Identifier",
-                "start": 82,
-                "end": 97,
                 "decorators": [],
                 "name": "IsStringIndexer",
                 "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "start": 82,
+                "end": 97
               },
               "initializer": {
                 "type": "BinaryExpression",
-                "start": 100,
-                "end": 106,
                 "left": {
                   "type": "Literal",
-                  "start": 100,
-                  "end": 101,
                   "value": 1,
-                  "raw": "1"
+                  "raw": "1",
+                  "start": 100,
+                  "end": 101
                 },
                 "operator": "<<",
                 "right": {
                   "type": "Literal",
-                  "start": 105,
-                  "end": 106,
                   "value": 1,
-                  "raw": "1"
-                }
+                  "raw": "1",
+                  "start": 105,
+                  "end": 106
+                },
+                "start": 100,
+                "end": 106
               },
-              "computed": false
+              "computed": false,
+              "start": 82,
+              "end": 106
             },
             {
               "type": "TSEnumMember",
-              "start": 116,
-              "end": 140,
               "id": {
                 "type": "Identifier",
-                "start": 116,
-                "end": 131,
                 "decorators": [],
                 "name": "IsNumberIndexer",
                 "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "start": 116,
+                "end": 131
               },
               "initializer": {
                 "type": "BinaryExpression",
-                "start": 134,
-                "end": 140,
                 "left": {
                   "type": "Literal",
-                  "start": 134,
-                  "end": 135,
                   "value": 1,
-                  "raw": "1"
+                  "raw": "1",
+                  "start": 134,
+                  "end": 135
                 },
                 "operator": "<<",
                 "right": {
                   "type": "Literal",
-                  "start": 139,
-                  "end": 140,
                   "value": 2,
-                  "raw": "2"
-                }
+                  "raw": "2",
+                  "start": 139,
+                  "end": 140
+                },
+                "start": 134,
+                "end": 140
               },
-              "computed": false
+              "computed": false,
+              "start": 116,
+              "end": 140
             }
-          ]
+          ],
+          "start": 31,
+          "end": 147
         },
         "const": false,
-        "declare": false
+        "declare": false,
+        "start": 11,
+        "end": 147
       },
       "specifiers": [],
       "source": null,
       "exportKind": "value",
-      "attributes": []
+      "attributes": [],
+      "start": 4,
+      "end": 147
     }
   ],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 4,
+  "end": 147
 }
 ```

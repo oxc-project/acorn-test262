@@ -1,38 +1,38 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 288,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 279,
-      "end": 287,
       "expression": {
         "type": "BinaryExpression",
-        "start": 279,
-        "end": 287,
         "left": {
           "type": "ParenthesizedExpression",
-          "start": 279,
-          "end": 283,
           "expression": {
             "type": "ObjectExpression",
+            "properties": [],
             "start": 280,
-            "end": 282,
-            "properties": []
-          }
+            "end": 282
+          },
+          "start": 279,
+          "end": 283
         },
         "operator": "*",
         "right": {
           "type": "Literal",
-          "start": 286,
-          "end": 287,
           "value": 1,
-          "raw": "1"
-        }
-      }
+          "raw": "1",
+          "start": 286,
+          "end": 287
+        },
+        "start": 279,
+        "end": 287
+      },
+      "start": 279,
+      "end": 287
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 288
 }

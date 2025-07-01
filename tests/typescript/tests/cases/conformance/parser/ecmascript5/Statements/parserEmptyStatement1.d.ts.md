@@ -2,8 +2,6 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 1,
   "body": [
     {
       "type": "EmptyStatement",
@@ -12,6 +10,8 @@ __ESTREE_TEST__:PASS:
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 1
 }
 ```

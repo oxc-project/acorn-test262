@@ -2,60 +2,60 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 48,
   "body": [
     {
       "type": "ExportDefaultDeclaration",
-      "start": 0,
-      "end": 25,
       "declaration": {
         "type": "Identifier",
-        "start": 15,
-        "end": 24,
         "decorators": [],
         "name": "undefined",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 15,
+        "end": 24
       },
-      "exportKind": "value"
+      "exportKind": "value",
+      "start": 0,
+      "end": 25
     },
     {
       "type": "ExportNamedDeclaration",
-      "start": 26,
-      "end": 48,
       "declaration": {
         "type": "VariableDeclaration",
-        "start": 33,
-        "end": 48,
         "kind": "var",
         "declarations": [
           {
             "type": "VariableDeclarator",
-            "start": 37,
-            "end": 47,
             "id": {
               "type": "Identifier",
-              "start": 37,
-              "end": 47,
               "decorators": [],
               "name": "__esModule",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 37,
+              "end": 47
             },
             "init": null,
-            "definite": false
+            "definite": false,
+            "start": 37,
+            "end": 47
           }
         ],
-        "declare": false
+        "declare": false,
+        "start": 33,
+        "end": 48
       },
       "specifiers": [],
       "source": null,
       "exportKind": "value",
-      "attributes": []
+      "attributes": [],
+      "start": 26,
+      "end": 48
     }
   ],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 48
 }
 ```

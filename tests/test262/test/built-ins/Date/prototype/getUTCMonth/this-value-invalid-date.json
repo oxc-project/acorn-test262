@@ -1,86 +1,86 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 364,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 312,
-      "end": 363,
       "expression": {
         "type": "CallExpression",
-        "start": 312,
-        "end": 362,
         "callee": {
           "type": "MemberExpression",
-          "start": 312,
-          "end": 328,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 312,
-            "end": 318,
-            "name": "assert"
+            "end": 318
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 319,
-            "end": 328,
-            "name": "sameValue"
+            "end": 328
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 312,
+          "end": 328
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 329,
-            "end": 356,
             "callee": {
               "type": "MemberExpression",
-              "start": 329,
-              "end": 354,
               "object": {
                 "type": "NewExpression",
-                "start": 329,
-                "end": 342,
                 "callee": {
                   "type": "Identifier",
+                  "name": "Date",
                   "start": 333,
-                  "end": 337,
-                  "name": "Date"
+                  "end": 337
                 },
                 "arguments": [
                   {
                     "type": "Identifier",
+                    "name": "NaN",
                     "start": 338,
-                    "end": 341,
-                    "name": "NaN"
+                    "end": 341
                   }
-                ]
+                ],
+                "start": 329,
+                "end": 342
               },
               "property": {
                 "type": "Identifier",
+                "name": "getUTCMonth",
                 "start": 343,
-                "end": 354,
-                "name": "getUTCMonth"
+                "end": 354
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 329,
+              "end": 354
             },
             "arguments": [],
-            "optional": false
+            "optional": false,
+            "start": 329,
+            "end": 356
           },
           {
             "type": "Identifier",
+            "name": "NaN",
             "start": 358,
-            "end": 361,
-            "name": "NaN"
+            "end": 361
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 312,
+        "end": 362
+      },
+      "start": 312,
+      "end": 363
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 364
 }

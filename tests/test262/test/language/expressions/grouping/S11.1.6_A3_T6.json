@@ -1,78 +1,78 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 387,
   "body": [
     {
       "type": "IfStatement",
-      "start": 305,
-      "end": 386,
       "test": {
         "type": "BinaryExpression",
-        "start": 309,
-        "end": 328,
         "left": {
           "type": "UnaryExpression",
-          "start": 309,
-          "end": 319,
           "operator": "delete",
           "argument": {
             "type": "ParenthesizedExpression",
-            "start": 316,
-            "end": 319,
             "expression": {
               "type": "Identifier",
+              "name": "x",
               "start": 317,
-              "end": 318,
-              "name": "x"
-            }
+              "end": 318
+            },
+            "start": 316,
+            "end": 319
           },
-          "prefix": true
+          "prefix": true,
+          "start": 309,
+          "end": 319
         },
         "operator": "!==",
         "right": {
           "type": "Literal",
-          "start": 324,
-          "end": 328,
           "value": true,
-          "raw": "true"
-        }
+          "raw": "true",
+          "start": 324,
+          "end": 328
+        },
+        "start": 309,
+        "end": 328
       },
       "consequent": {
         "type": "BlockStatement",
-        "start": 330,
-        "end": 386,
         "body": [
           {
             "type": "ThrowStatement",
-            "start": 334,
-            "end": 384,
             "argument": {
               "type": "NewExpression",
-              "start": 340,
-              "end": 383,
               "callee": {
                 "type": "Identifier",
+                "name": "Test262Error",
                 "start": 344,
-                "end": 356,
-                "name": "Test262Error"
+                "end": 356
               },
               "arguments": [
                 {
                   "type": "Literal",
-                  "start": 357,
-                  "end": 382,
                   "value": "#1: delete (x) === true",
-                  "raw": "'#1: delete (x) === true'"
+                  "raw": "'#1: delete (x) === true'",
+                  "start": 357,
+                  "end": 382
                 }
-              ]
-            }
+              ],
+              "start": 340,
+              "end": 383
+            },
+            "start": 334,
+            "end": 384
           }
-        ]
+        ],
+        "start": 330,
+        "end": 386
       },
-      "alternate": null
+      "alternate": null,
+      "start": 305,
+      "end": 386
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 387
 }

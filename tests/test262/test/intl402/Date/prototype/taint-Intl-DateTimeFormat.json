@@ -1,152 +1,152 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 477,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 339,
-      "end": 381,
       "expression": {
         "type": "CallExpression",
-        "start": 339,
-        "end": 380,
         "callee": {
           "type": "Identifier",
+          "name": "taintDataProperty",
           "start": 339,
-          "end": 356,
-          "name": "taintDataProperty"
+          "end": 356
         },
         "arguments": [
           {
             "type": "Identifier",
+            "name": "Intl",
             "start": 357,
-            "end": 361,
-            "name": "Intl"
+            "end": 361
           },
           {
             "type": "Literal",
-            "start": 363,
-            "end": 379,
             "value": "DateTimeFormat",
-            "raw": "\"DateTimeFormat\""
+            "raw": "\"DateTimeFormat\"",
+            "start": 363,
+            "end": 379
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 339,
+        "end": 380
+      },
+      "start": 339,
+      "end": 381
     },
     {
       "type": "ExpressionStatement",
-      "start": 382,
-      "end": 410,
       "expression": {
         "type": "CallExpression",
-        "start": 382,
-        "end": 409,
         "callee": {
           "type": "MemberExpression",
-          "start": 382,
-          "end": 407,
           "object": {
             "type": "NewExpression",
-            "start": 382,
-            "end": 392,
             "callee": {
               "type": "Identifier",
+              "name": "Date",
               "start": 386,
-              "end": 390,
-              "name": "Date"
+              "end": 390
             },
-            "arguments": []
+            "arguments": [],
+            "start": 382,
+            "end": 392
           },
           "property": {
             "type": "Identifier",
+            "name": "toLocaleString",
             "start": 393,
-            "end": 407,
-            "name": "toLocaleString"
+            "end": 407
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 382,
+          "end": 407
         },
         "arguments": [],
-        "optional": false
-      }
+        "optional": false,
+        "start": 382,
+        "end": 409
+      },
+      "start": 382,
+      "end": 410
     },
     {
       "type": "ExpressionStatement",
-      "start": 411,
-      "end": 443,
       "expression": {
         "type": "CallExpression",
-        "start": 411,
-        "end": 442,
         "callee": {
           "type": "MemberExpression",
-          "start": 411,
-          "end": 440,
           "object": {
             "type": "NewExpression",
-            "start": 411,
-            "end": 421,
             "callee": {
               "type": "Identifier",
+              "name": "Date",
               "start": 415,
-              "end": 419,
-              "name": "Date"
+              "end": 419
             },
-            "arguments": []
+            "arguments": [],
+            "start": 411,
+            "end": 421
           },
           "property": {
             "type": "Identifier",
+            "name": "toLocaleDateString",
             "start": 422,
-            "end": 440,
-            "name": "toLocaleDateString"
+            "end": 440
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 411,
+          "end": 440
         },
         "arguments": [],
-        "optional": false
-      }
+        "optional": false,
+        "start": 411,
+        "end": 442
+      },
+      "start": 411,
+      "end": 443
     },
     {
       "type": "ExpressionStatement",
-      "start": 444,
-      "end": 476,
       "expression": {
         "type": "CallExpression",
-        "start": 444,
-        "end": 475,
         "callee": {
           "type": "MemberExpression",
-          "start": 444,
-          "end": 473,
           "object": {
             "type": "NewExpression",
-            "start": 444,
-            "end": 454,
             "callee": {
               "type": "Identifier",
+              "name": "Date",
               "start": 448,
-              "end": 452,
-              "name": "Date"
+              "end": 452
             },
-            "arguments": []
+            "arguments": [],
+            "start": 444,
+            "end": 454
           },
           "property": {
             "type": "Identifier",
+            "name": "toLocaleTimeString",
             "start": 455,
-            "end": 473,
-            "name": "toLocaleTimeString"
+            "end": 473
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 444,
+          "end": 473
         },
         "arguments": [],
-        "optional": false
-      }
+        "optional": false,
+        "start": 444,
+        "end": 475
+      },
+      "start": 444,
+      "end": 476
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 477
 }

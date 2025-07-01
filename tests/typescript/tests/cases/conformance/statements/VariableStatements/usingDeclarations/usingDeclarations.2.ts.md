@@ -2,72 +2,58 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 87,
   "body": [
     {
       "type": "BlockStatement",
-      "start": 0,
-      "end": 87,
       "body": [
         {
           "type": "VariableDeclaration",
-          "start": 6,
-          "end": 85,
           "kind": "using",
           "declarations": [
             {
               "type": "VariableDeclarator",
-              "start": 12,
-              "end": 42,
               "id": {
                 "type": "Identifier",
-                "start": 12,
-                "end": 14,
                 "decorators": [],
                 "name": "d1",
                 "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "start": 12,
+                "end": 14
               },
               "init": {
                 "type": "ObjectExpression",
-                "start": 17,
-                "end": 42,
                 "properties": [
                   {
                     "type": "Property",
-                    "start": 19,
-                    "end": 40,
                     "kind": "init",
                     "key": {
                       "type": "MemberExpression",
-                      "start": 20,
-                      "end": 34,
                       "object": {
                         "type": "Identifier",
-                        "start": 20,
-                        "end": 26,
                         "decorators": [],
                         "name": "Symbol",
                         "optional": false,
-                        "typeAnnotation": null
+                        "typeAnnotation": null,
+                        "start": 20,
+                        "end": 26
                       },
                       "property": {
                         "type": "Identifier",
-                        "start": 27,
-                        "end": 34,
                         "decorators": [],
                         "name": "dispose",
                         "optional": false,
-                        "typeAnnotation": null
+                        "typeAnnotation": null,
+                        "start": 27,
+                        "end": 34
                       },
                       "optional": false,
-                      "computed": false
+                      "computed": false,
+                      "start": 20,
+                      "end": 34
                     },
                     "value": {
                       "type": "FunctionExpression",
-                      "start": 35,
-                      "end": 40,
                       "id": null,
                       "generator": false,
                       "async": false,
@@ -77,73 +63,73 @@ __ESTREE_TEST__:PASS:
                       "returnType": null,
                       "body": {
                         "type": "BlockStatement",
+                        "body": [],
                         "start": 38,
-                        "end": 40,
-                        "body": []
+                        "end": 40
                       },
-                      "expression": false
+                      "expression": false,
+                      "start": 35,
+                      "end": 40
                     },
                     "method": true,
                     "shorthand": false,
                     "computed": true,
-                    "optional": false
+                    "optional": false,
+                    "start": 19,
+                    "end": 40
                   }
-                ]
+                ],
+                "start": 17,
+                "end": 42
               },
-              "definite": false
+              "definite": false,
+              "start": 12,
+              "end": 42
             },
             {
               "type": "VariableDeclarator",
-              "start": 54,
-              "end": 84,
               "id": {
                 "type": "Identifier",
-                "start": 54,
-                "end": 56,
                 "decorators": [],
                 "name": "d2",
                 "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "start": 54,
+                "end": 56
               },
               "init": {
                 "type": "ObjectExpression",
-                "start": 59,
-                "end": 84,
                 "properties": [
                   {
                     "type": "Property",
-                    "start": 61,
-                    "end": 82,
                     "kind": "init",
                     "key": {
                       "type": "MemberExpression",
-                      "start": 62,
-                      "end": 76,
                       "object": {
                         "type": "Identifier",
-                        "start": 62,
-                        "end": 68,
                         "decorators": [],
                         "name": "Symbol",
                         "optional": false,
-                        "typeAnnotation": null
+                        "typeAnnotation": null,
+                        "start": 62,
+                        "end": 68
                       },
                       "property": {
                         "type": "Identifier",
-                        "start": 69,
-                        "end": 76,
                         "decorators": [],
                         "name": "dispose",
                         "optional": false,
-                        "typeAnnotation": null
+                        "typeAnnotation": null,
+                        "start": 69,
+                        "end": 76
                       },
                       "optional": false,
-                      "computed": false
+                      "computed": false,
+                      "start": 62,
+                      "end": 76
                     },
                     "value": {
                       "type": "FunctionExpression",
-                      "start": 77,
-                      "end": 82,
                       "id": null,
                       "generator": false,
                       "async": false,
@@ -153,28 +139,42 @@ __ESTREE_TEST__:PASS:
                       "returnType": null,
                       "body": {
                         "type": "BlockStatement",
+                        "body": [],
                         "start": 80,
-                        "end": 82,
-                        "body": []
+                        "end": 82
                       },
-                      "expression": false
+                      "expression": false,
+                      "start": 77,
+                      "end": 82
                     },
                     "method": true,
                     "shorthand": false,
                     "computed": true,
-                    "optional": false
+                    "optional": false,
+                    "start": 61,
+                    "end": 82
                   }
-                ]
+                ],
+                "start": 59,
+                "end": 84
               },
-              "definite": false
+              "definite": false,
+              "start": 54,
+              "end": 84
             }
           ],
-          "declare": false
+          "declare": false,
+          "start": 6,
+          "end": 85
         }
-      ]
+      ],
+      "start": 0,
+      "end": 87
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 87
 }
 ```

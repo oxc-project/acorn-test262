@@ -1,113 +1,113 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 319,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 250,
-      "end": 284,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 254,
-          "end": 283,
           "id": {
             "type": "Identifier",
+            "name": "b",
             "start": 254,
-            "end": 255,
-            "name": "b"
+            "end": 255
           },
           "init": {
             "type": "CallExpression",
-            "start": 258,
-            "end": 283,
             "callee": {
               "type": "MemberExpression",
-              "start": 258,
-              "end": 273,
               "object": {
                 "type": "Identifier",
+                "name": "Object",
                 "start": 258,
-                "end": 264,
-                "name": "Object"
+                "end": 264
               },
               "property": {
                 "type": "Identifier",
+                "name": "isFrozen",
                 "start": 265,
-                "end": 273,
-                "name": "isFrozen"
+                "end": 273
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 258,
+              "end": 273
             },
             "arguments": [
               {
                 "type": "Identifier",
+                "name": "URIError",
                 "start": 274,
-                "end": 282,
-                "name": "URIError"
+                "end": 282
               }
             ],
-            "optional": false
-          }
+            "optional": false,
+            "start": 258,
+            "end": 283
+          },
+          "start": 254,
+          "end": 283
         }
-      ]
+      ],
+      "start": 250,
+      "end": 284
     },
     {
       "type": "ExpressionStatement",
-      "start": 286,
-      "end": 318,
       "expression": {
         "type": "CallExpression",
-        "start": 286,
-        "end": 317,
         "callee": {
           "type": "MemberExpression",
-          "start": 286,
-          "end": 302,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 286,
-            "end": 292,
-            "name": "assert"
+            "end": 292
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 293,
-            "end": 302,
-            "name": "sameValue"
+            "end": 302
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 286,
+          "end": 302
         },
         "arguments": [
           {
             "type": "Identifier",
+            "name": "b",
             "start": 303,
-            "end": 304,
-            "name": "b"
+            "end": 304
           },
           {
             "type": "Literal",
-            "start": 306,
-            "end": 311,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "start": 306,
+            "end": 311
           },
           {
             "type": "Literal",
-            "start": 313,
-            "end": 316,
             "value": "b",
-            "raw": "'b'"
+            "raw": "'b'",
+            "start": 313,
+            "end": 316
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 286,
+        "end": 317
+      },
+      "start": 286,
+      "end": 318
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 319
 }

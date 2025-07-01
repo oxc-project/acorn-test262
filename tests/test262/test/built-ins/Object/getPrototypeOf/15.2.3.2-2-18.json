@@ -1,100 +1,100 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 361,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 265,
-      "end": 360,
       "expression": {
         "type": "CallExpression",
-        "start": 265,
-        "end": 359,
         "callee": {
           "type": "MemberExpression",
-          "start": 265,
-          "end": 281,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 265,
-            "end": 271,
-            "name": "assert"
+            "end": 271
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 272,
-            "end": 281,
-            "name": "sameValue"
+            "end": 281
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 265,
+          "end": 281
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 282,
-            "end": 309,
             "callee": {
               "type": "MemberExpression",
-              "start": 282,
-              "end": 303,
               "object": {
                 "type": "Identifier",
+                "name": "Object",
                 "start": 282,
-                "end": 288,
-                "name": "Object"
+                "end": 288
               },
               "property": {
                 "type": "Identifier",
+                "name": "getPrototypeOf",
                 "start": 289,
-                "end": 303,
-                "name": "getPrototypeOf"
+                "end": 303
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 282,
+              "end": 303
             },
             "arguments": [
               {
                 "type": "Identifier",
+                "name": "JSON",
                 "start": 304,
-                "end": 308,
-                "name": "JSON"
+                "end": 308
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 282,
+            "end": 309
           },
           {
             "type": "MemberExpression",
-            "start": 311,
-            "end": 327,
             "object": {
               "type": "Identifier",
+              "name": "Object",
               "start": 311,
-              "end": 317,
-              "name": "Object"
+              "end": 317
             },
             "property": {
               "type": "Identifier",
+              "name": "prototype",
               "start": 318,
-              "end": 327,
-              "name": "prototype"
+              "end": 327
             },
             "optional": false,
-            "computed": false
+            "computed": false,
+            "start": 311,
+            "end": 327
           },
           {
             "type": "Literal",
-            "start": 329,
-            "end": 358,
             "value": "Object.getPrototypeOf(JSON)",
-            "raw": "'Object.getPrototypeOf(JSON)'"
+            "raw": "'Object.getPrototypeOf(JSON)'",
+            "start": 329,
+            "end": 358
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 265,
+        "end": 359
+      },
+      "start": 265,
+      "end": 360
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 361
 }

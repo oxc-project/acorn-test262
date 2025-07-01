@@ -1,35 +1,35 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 1137,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 1033,
-      "end": 1136,
       "expression": {
         "type": "CallExpression",
-        "start": 1033,
-        "end": 1135,
         "callee": {
           "type": "Identifier",
+          "name": "eval",
           "start": 1033,
-          "end": 1037,
-          "name": "eval"
+          "end": 1037
         },
         "arguments": [
           {
             "type": "Literal",
-            "start": 1041,
-            "end": 1133,
             "value": "var f = 123;  assert.sameValue(f, 123);if (true) function f() {  } else function _f() {}",
-            "raw": "'var f = 123;\\\n  assert.sameValue(f, 123);if (true) function f() {  } else function _f() {}'"
+            "raw": "'var f = 123;\\\n  assert.sameValue(f, 123);if (true) function f() {  } else function _f() {}'",
+            "start": 1041,
+            "end": 1133
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 1033,
+        "end": 1135
+      },
+      "start": 1033,
+      "end": 1136
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 1137
 }

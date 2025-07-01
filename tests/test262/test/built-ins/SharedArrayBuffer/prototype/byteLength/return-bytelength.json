@@ -1,203 +1,203 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 454,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 305,
-      "end": 340,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 309,
-          "end": 339,
           "id": {
             "type": "Identifier",
+            "name": "ab1",
             "start": 309,
-            "end": 312,
-            "name": "ab1"
+            "end": 312
           },
           "init": {
             "type": "NewExpression",
-            "start": 315,
-            "end": 339,
             "callee": {
               "type": "Identifier",
+              "name": "SharedArrayBuffer",
               "start": 319,
-              "end": 336,
-              "name": "SharedArrayBuffer"
+              "end": 336
             },
             "arguments": [
               {
                 "type": "Literal",
-                "start": 337,
-                "end": 338,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "start": 337,
+                "end": 338
               }
-            ]
-          }
+            ],
+            "start": 315,
+            "end": 339
+          },
+          "start": 309,
+          "end": 339
         }
-      ]
+      ],
+      "start": 305,
+      "end": 340
     },
     {
       "type": "ExpressionStatement",
-      "start": 341,
-      "end": 377,
       "expression": {
         "type": "CallExpression",
-        "start": 341,
-        "end": 376,
         "callee": {
           "type": "MemberExpression",
-          "start": 341,
-          "end": 357,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 341,
-            "end": 347,
-            "name": "assert"
+            "end": 347
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 348,
-            "end": 357,
-            "name": "sameValue"
+            "end": 357
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 341,
+          "end": 357
         },
         "arguments": [
           {
             "type": "MemberExpression",
-            "start": 358,
-            "end": 372,
             "object": {
               "type": "Identifier",
+              "name": "ab1",
               "start": 358,
-              "end": 361,
-              "name": "ab1"
+              "end": 361
             },
             "property": {
               "type": "Identifier",
+              "name": "byteLength",
               "start": 362,
-              "end": 372,
-              "name": "byteLength"
+              "end": 372
             },
             "optional": false,
-            "computed": false
+            "computed": false,
+            "start": 358,
+            "end": 372
           },
           {
             "type": "Literal",
-            "start": 374,
-            "end": 375,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "start": 374,
+            "end": 375
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 341,
+        "end": 376
+      },
+      "start": 341,
+      "end": 377
     },
     {
       "type": "VariableDeclaration",
-      "start": 379,
-      "end": 415,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 383,
-          "end": 414,
           "id": {
             "type": "Identifier",
+            "name": "ab2",
             "start": 383,
-            "end": 386,
-            "name": "ab2"
+            "end": 386
           },
           "init": {
             "type": "NewExpression",
-            "start": 389,
-            "end": 414,
             "callee": {
               "type": "Identifier",
+              "name": "SharedArrayBuffer",
               "start": 393,
-              "end": 410,
-              "name": "SharedArrayBuffer"
+              "end": 410
             },
             "arguments": [
               {
                 "type": "Literal",
-                "start": 411,
-                "end": 413,
                 "value": 42,
-                "raw": "42"
+                "raw": "42",
+                "start": 411,
+                "end": 413
               }
-            ]
-          }
+            ],
+            "start": 389,
+            "end": 414
+          },
+          "start": 383,
+          "end": 414
         }
-      ]
+      ],
+      "start": 379,
+      "end": 415
     },
     {
       "type": "ExpressionStatement",
-      "start": 416,
-      "end": 453,
       "expression": {
         "type": "CallExpression",
-        "start": 416,
-        "end": 452,
         "callee": {
           "type": "MemberExpression",
-          "start": 416,
-          "end": 432,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 416,
-            "end": 422,
-            "name": "assert"
+            "end": 422
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 423,
-            "end": 432,
-            "name": "sameValue"
+            "end": 432
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 416,
+          "end": 432
         },
         "arguments": [
           {
             "type": "MemberExpression",
-            "start": 433,
-            "end": 447,
             "object": {
               "type": "Identifier",
+              "name": "ab2",
               "start": 433,
-              "end": 436,
-              "name": "ab2"
+              "end": 436
             },
             "property": {
               "type": "Identifier",
+              "name": "byteLength",
               "start": 437,
-              "end": 447,
-              "name": "byteLength"
+              "end": 447
             },
             "optional": false,
-            "computed": false
+            "computed": false,
+            "start": 433,
+            "end": 447
           },
           {
             "type": "Literal",
-            "start": 449,
-            "end": 451,
             "value": 42,
-            "raw": "42"
+            "raw": "42",
+            "start": 449,
+            "end": 451
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 416,
+        "end": 452
+      },
+      "start": 416,
+      "end": 453
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 454
 }

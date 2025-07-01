@@ -1,267 +1,267 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 1170,
   "body": [
     {
       "type": "FunctionDeclaration",
-      "start": 946,
-      "end": 961,
       "id": {
         "type": "Identifier",
+        "name": "$",
         "start": 955,
-        "end": 956,
-        "name": "$"
+        "end": 956
       },
       "generator": false,
       "async": false,
       "params": [],
       "body": {
         "type": "BlockStatement",
+        "body": [],
         "start": 959,
-        "end": 961,
-        "body": []
+        "end": 961
       },
-      "expression": false
+      "expression": false,
+      "start": 946,
+      "end": 961
     },
     {
       "type": "FunctionDeclaration",
-      "start": 962,
-      "end": 977,
       "id": {
         "type": "Identifier",
+        "name": "_",
         "start": 971,
-        "end": 972,
-        "name": "_"
+        "end": 972
       },
       "generator": false,
       "async": false,
       "params": [],
       "body": {
         "type": "BlockStatement",
+        "body": [],
         "start": 975,
-        "end": 977,
-        "body": []
+        "end": 977
       },
-      "expression": false
+      "expression": false,
+      "start": 962,
+      "end": 977
     },
     {
       "type": "FunctionDeclaration",
-      "start": 978,
-      "end": 998,
       "id": {
         "type": "Identifier",
+        "name": "o",
         "start": 987,
-        "end": 993,
-        "name": "o"
+        "end": 993
       },
       "generator": false,
       "async": false,
       "params": [],
       "body": {
         "type": "BlockStatement",
+        "body": [],
         "start": 996,
-        "end": 998,
-        "body": []
+        "end": 998
       },
-      "expression": false
+      "expression": false,
+      "start": 978,
+      "end": 998
     },
     {
       "type": "FunctionDeclaration",
-      "start": 999,
-      "end": 1019,
       "id": {
         "type": "Identifier",
+        "name": "℘",
         "start": 1008,
-        "end": 1014,
-        "name": "℘"
+        "end": 1014
       },
       "generator": false,
       "async": false,
       "params": [],
       "body": {
         "type": "BlockStatement",
+        "body": [],
         "start": 1017,
-        "end": 1019,
-        "body": []
+        "end": 1019
       },
-      "expression": false
+      "expression": false,
+      "start": 999,
+      "end": 1019
     },
     {
       "type": "FunctionDeclaration",
-      "start": 1020,
-      "end": 1046,
       "id": {
         "type": "Identifier",
+        "name": "ZW_‌_NJ",
         "start": 1029,
-        "end": 1041,
-        "name": "ZW_‌_NJ"
+        "end": 1041
       },
       "generator": false,
       "async": false,
       "params": [],
       "body": {
         "type": "BlockStatement",
+        "body": [],
         "start": 1044,
-        "end": 1046,
-        "body": []
+        "end": 1046
       },
-      "expression": false
+      "expression": false,
+      "start": 1020,
+      "end": 1046
     },
     {
       "type": "FunctionDeclaration",
-      "start": 1047,
-      "end": 1072,
       "id": {
         "type": "Identifier",
+        "name": "ZW_‍_J",
         "start": 1056,
-        "end": 1067,
-        "name": "ZW_‍_J"
+        "end": 1067
       },
       "generator": false,
       "async": false,
       "params": [],
       "body": {
         "type": "BlockStatement",
+        "body": [],
         "start": 1070,
-        "end": 1072,
-        "body": []
+        "end": 1072
       },
-      "expression": false
+      "expression": false,
+      "start": 1047,
+      "end": 1072
     },
     {
       "type": "FunctionDeclaration",
-      "start": 1073,
-      "end": 1092,
       "id": {
         "type": "Identifier",
+        "name": "await",
         "start": 1082,
-        "end": 1087,
-        "name": "await"
+        "end": 1087
       },
       "generator": false,
       "async": false,
       "params": [],
       "body": {
         "type": "BlockStatement",
+        "body": [],
         "start": 1090,
-        "end": 1092,
-        "body": []
+        "end": 1092
       },
-      "expression": false
+      "expression": false,
+      "start": 1073,
+      "end": 1092
     },
     {
       "type": "VariableDeclaration",
-      "start": 1096,
-      "end": 1169,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 1100,
-          "end": 1168,
           "id": {
             "type": "Identifier",
+            "name": "C",
             "start": 1100,
-            "end": 1101,
-            "name": "C"
+            "end": 1101
           },
           "init": {
             "type": "ClassExpression",
-            "start": 1104,
-            "end": 1168,
             "decorators": [
               {
                 "type": "Decorator",
-                "start": 1104,
-                "end": 1106,
                 "expression": {
                   "type": "Identifier",
+                  "name": "$",
                   "start": 1105,
-                  "end": 1106,
-                  "name": "$"
-                }
+                  "end": 1106
+                },
+                "start": 1104,
+                "end": 1106
               },
               {
                 "type": "Decorator",
-                "start": 1107,
-                "end": 1109,
                 "expression": {
                   "type": "Identifier",
+                  "name": "_",
                   "start": 1108,
-                  "end": 1109,
-                  "name": "_"
-                }
+                  "end": 1109
+                },
+                "start": 1107,
+                "end": 1109
               },
               {
                 "type": "Decorator",
-                "start": 1110,
-                "end": 1117,
                 "expression": {
                   "type": "Identifier",
+                  "name": "o",
                   "start": 1111,
-                  "end": 1117,
-                  "name": "o"
-                }
+                  "end": 1117
+                },
+                "start": 1110,
+                "end": 1117
               },
               {
                 "type": "Decorator",
-                "start": 1118,
-                "end": 1125,
                 "expression": {
                   "type": "Identifier",
+                  "name": "℘",
                   "start": 1119,
-                  "end": 1125,
-                  "name": "℘"
-                }
+                  "end": 1125
+                },
+                "start": 1118,
+                "end": 1125
               },
               {
                 "type": "Decorator",
-                "start": 1126,
-                "end": 1139,
                 "expression": {
                   "type": "Identifier",
+                  "name": "ZW_‌_NJ",
                   "start": 1127,
-                  "end": 1139,
-                  "name": "ZW_‌_NJ"
-                }
+                  "end": 1139
+                },
+                "start": 1126,
+                "end": 1139
               },
               {
                 "type": "Decorator",
-                "start": 1140,
-                "end": 1152,
                 "expression": {
                   "type": "Identifier",
+                  "name": "ZW_‍_J",
                   "start": 1141,
-                  "end": 1152,
-                  "name": "ZW_‍_J"
-                }
+                  "end": 1152
+                },
+                "start": 1140,
+                "end": 1152
               },
               {
                 "type": "Decorator",
-                "start": 1153,
-                "end": 1159,
                 "expression": {
                   "type": "Identifier",
+                  "name": "await",
                   "start": 1154,
-                  "end": 1159,
-                  "name": "await"
-                }
+                  "end": 1159
+                },
+                "start": 1153,
+                "end": 1159
               }
             ],
             "id": null,
             "superClass": null,
             "body": {
               "type": "ClassBody",
+              "body": [],
               "start": 1166,
-              "end": 1168,
-              "body": []
-            }
-          }
+              "end": 1168
+            },
+            "start": 1104,
+            "end": 1168
+          },
+          "start": 1100,
+          "end": 1168
         }
-      ]
+      ],
+      "start": 1096,
+      "end": 1169
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 1170
 }

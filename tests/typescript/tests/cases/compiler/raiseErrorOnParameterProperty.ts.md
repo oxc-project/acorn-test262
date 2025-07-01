@@ -2,22 +2,18 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 67,
   "body": [
     {
       "type": "ClassDeclaration",
-      "start": 0,
-      "end": 45,
       "decorators": [],
       "id": {
         "type": "Identifier",
-        "start": 6,
-        "end": 8,
         "decorators": [],
         "name": "C1",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 6,
+        "end": 8
       },
       "typeParameters": null,
       "superClass": null,
@@ -25,27 +21,21 @@ __ESTREE_TEST__:PASS:
       "implements": [],
       "body": {
         "type": "ClassBody",
-        "start": 9,
-        "end": 45,
         "body": [
           {
             "type": "MethodDefinition",
-            "start": 13,
-            "end": 43,
             "decorators": [],
             "key": {
               "type": "Identifier",
-              "start": 13,
-              "end": 24,
               "decorators": [],
               "name": "constructor",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 13,
+              "end": 24
             },
             "value": {
               "type": "FunctionExpression",
-              "start": 24,
-              "end": 43,
               "id": null,
               "generator": false,
               "async": false,
@@ -54,114 +44,124 @@ __ESTREE_TEST__:PASS:
               "params": [
                 {
                   "type": "TSParameterProperty",
-                  "start": 25,
-                  "end": 36,
                   "accessibility": "public",
                   "decorators": [],
                   "override": false,
                   "parameter": {
                     "type": "Identifier",
-                    "start": 32,
-                    "end": 36,
                     "decorators": [],
                     "name": "x",
                     "optional": false,
                     "typeAnnotation": {
                       "type": "TSTypeAnnotation",
-                      "start": 33,
-                      "end": 36,
                       "typeAnnotation": {
                         "type": "TSTypeReference",
-                        "start": 35,
-                        "end": 36,
                         "typeName": {
                           "type": "Identifier",
-                          "start": 35,
-                          "end": 36,
                           "decorators": [],
                           "name": "X",
                           "optional": false,
-                          "typeAnnotation": null
+                          "typeAnnotation": null,
+                          "start": 35,
+                          "end": 36
                         },
-                        "typeArguments": null
-                      }
-                    }
+                        "typeArguments": null,
+                        "start": 35,
+                        "end": 36
+                      },
+                      "start": 33,
+                      "end": 36
+                    },
+                    "start": 32,
+                    "end": 36
                   },
                   "readonly": false,
-                  "static": false
+                  "static": false,
+                  "start": 25,
+                  "end": 36
                 }
               ],
               "returnType": null,
               "body": {
                 "type": "BlockStatement",
+                "body": [],
                 "start": 38,
-                "end": 43,
-                "body": []
+                "end": 43
               },
-              "expression": false
+              "expression": false,
+              "start": 24,
+              "end": 43
             },
             "kind": "constructor",
             "computed": false,
             "static": false,
             "override": false,
             "optional": false,
-            "accessibility": null
+            "accessibility": null,
+            "start": 13,
+            "end": 43
           }
-        ]
+        ],
+        "start": 9,
+        "end": 45
       },
       "abstract": false,
-      "declare": false
+      "declare": false,
+      "start": 0,
+      "end": 45
     },
     {
       "type": "VariableDeclaration",
-      "start": 46,
-      "end": 65,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 50,
-          "end": 64,
           "id": {
             "type": "Identifier",
-            "start": 50,
-            "end": 52,
             "decorators": [],
             "name": "c1",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 50,
+            "end": 52
           },
           "init": {
             "type": "NewExpression",
-            "start": 55,
-            "end": 64,
             "callee": {
               "type": "Identifier",
-              "start": 59,
-              "end": 61,
               "decorators": [],
               "name": "C1",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 59,
+              "end": 61
             },
             "typeArguments": null,
             "arguments": [
               {
                 "type": "Literal",
-                "start": 62,
-                "end": 63,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "start": 62,
+                "end": 63
               }
-            ]
+            ],
+            "start": 55,
+            "end": 64
           },
-          "definite": false
+          "definite": false,
+          "start": 50,
+          "end": 64
         }
       ],
-      "declare": false
+      "declare": false,
+      "start": 46,
+      "end": 65
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 67
 }
 ```

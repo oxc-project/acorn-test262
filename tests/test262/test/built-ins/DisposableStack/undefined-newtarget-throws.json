@@ -1,82 +1,82 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 432,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 369,
-      "end": 431,
       "expression": {
         "type": "CallExpression",
-        "start": 369,
-        "end": 430,
         "callee": {
           "type": "MemberExpression",
-          "start": 369,
-          "end": 382,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 369,
-            "end": 375,
-            "name": "assert"
+            "end": 375
           },
           "property": {
             "type": "Identifier",
+            "name": "throws",
             "start": 376,
-            "end": 382,
-            "name": "throws"
+            "end": 382
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 369,
+          "end": 382
         },
         "arguments": [
           {
             "type": "Identifier",
+            "name": "TypeError",
             "start": 383,
-            "end": 392,
-            "name": "TypeError"
+            "end": 392
           },
           {
             "type": "FunctionExpression",
-            "start": 394,
-            "end": 429,
             "id": null,
             "generator": false,
             "async": false,
             "params": [],
             "body": {
               "type": "BlockStatement",
-              "start": 405,
-              "end": 429,
               "body": [
                 {
                   "type": "ExpressionStatement",
-                  "start": 409,
-                  "end": 427,
                   "expression": {
                     "type": "CallExpression",
-                    "start": 409,
-                    "end": 426,
                     "callee": {
                       "type": "Identifier",
+                      "name": "DisposableStack",
                       "start": 409,
-                      "end": 424,
-                      "name": "DisposableStack"
+                      "end": 424
                     },
                     "arguments": [],
-                    "optional": false
-                  }
+                    "optional": false,
+                    "start": 409,
+                    "end": 426
+                  },
+                  "start": 409,
+                  "end": 427
                 }
-              ]
+              ],
+              "start": 405,
+              "end": 429
             },
-            "expression": false
+            "expression": false,
+            "start": 394,
+            "end": 429
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 369,
+        "end": 430
+      },
+      "start": 369,
+      "end": 431
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 432
 }

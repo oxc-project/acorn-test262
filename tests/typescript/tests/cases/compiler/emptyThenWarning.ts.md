@@ -2,126 +2,126 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 55,
   "body": [
     {
       "type": "IfStatement",
-      "start": 0,
-      "end": 6,
       "test": {
         "type": "Literal",
-        "start": 3,
-        "end": 4,
         "value": 1,
-        "raw": "1"
+        "raw": "1",
+        "start": 3,
+        "end": 4
       },
       "consequent": {
         "type": "EmptyStatement",
         "start": 5,
         "end": 6
       },
-      "alternate": null
+      "alternate": null,
+      "start": 0,
+      "end": 6
     },
     {
       "type": "VariableDeclaration",
-      "start": 8,
-      "end": 18,
       "kind": "let",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 12,
-          "end": 17,
           "id": {
             "type": "Identifier",
-            "start": 12,
-            "end": 13,
             "decorators": [],
             "name": "x",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 12,
+            "end": 13
           },
           "init": {
             "type": "Literal",
-            "start": 16,
-            "end": 17,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "start": 16,
+            "end": 17
           },
-          "definite": false
+          "definite": false,
+          "start": 12,
+          "end": 17
         }
       ],
-      "declare": false
+      "declare": false,
+      "start": 8,
+      "end": 18
     },
     {
       "type": "IfStatement",
-      "start": 19,
-      "end": 38,
       "test": {
         "type": "BinaryExpression",
-        "start": 23,
-        "end": 36,
         "left": {
           "type": "Literal",
-          "start": 23,
-          "end": 27,
           "value": true,
-          "raw": "true"
+          "raw": "true",
+          "start": 23,
+          "end": 27
         },
         "operator": "===",
         "right": {
           "type": "Literal",
-          "start": 32,
-          "end": 36,
           "value": true,
-          "raw": "true"
-        }
+          "raw": "true",
+          "start": 32,
+          "end": 36
+        },
+        "start": 23,
+        "end": 36
       },
       "consequent": {
         "type": "EmptyStatement",
         "start": 37,
         "end": 38
       },
-      "alternate": null
+      "alternate": null,
+      "start": 19,
+      "end": 38
     },
     {
       "type": "BlockStatement",
-      "start": 39,
-      "end": 55,
       "body": [
         {
           "type": "ExpressionStatement",
-          "start": 47,
-          "end": 53,
           "expression": {
             "type": "AssignmentExpression",
-            "start": 47,
-            "end": 52,
             "operator": "=",
             "left": {
               "type": "Identifier",
-              "start": 47,
-              "end": 48,
               "decorators": [],
               "name": "x",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 47,
+              "end": 48
             },
             "right": {
               "type": "Literal",
-              "start": 51,
-              "end": 52,
               "value": 1,
-              "raw": "1"
-            }
+              "raw": "1",
+              "start": 51,
+              "end": 52
+            },
+            "start": 47,
+            "end": 52
           },
-          "directive": null
+          "directive": null,
+          "start": 47,
+          "end": 53
         }
-      ]
+      ],
+      "start": 39,
+      "end": 55
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 55
 }
 ```

@@ -2,788 +2,788 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 22,
-  "end": 365,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 22,
-      "end": 34,
       "kind": "let",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 26,
-          "end": 33,
           "id": {
             "type": "Identifier",
-            "start": 26,
-            "end": 27,
             "decorators": [],
             "name": "x",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 26,
+            "end": 27
           },
           "init": {
             "type": "Literal",
-            "start": 30,
-            "end": 33,
             "value": 123,
-            "raw": "123"
+            "raw": "123",
+            "start": 30,
+            "end": 33
           },
-          "definite": false
+          "definite": false,
+          "start": 26,
+          "end": 33
         }
       ],
-      "declare": false
+      "declare": false,
+      "start": 22,
+      "end": 34
     },
     {
       "type": "VariableDeclaration",
-      "start": 35,
-      "end": 365,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 39,
-          "end": 364,
           "id": {
             "type": "Identifier",
-            "start": 39,
-            "end": 40,
             "decorators": [],
             "name": "a",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 39,
+            "end": 40
           },
           "init": {
             "type": "LogicalExpression",
-            "start": 47,
-            "end": 364,
             "left": {
               "type": "LogicalExpression",
-              "start": 47,
-              "end": 339,
               "left": {
                 "type": "LogicalExpression",
-                "start": 47,
-                "end": 314,
                 "left": {
                   "type": "LogicalExpression",
-                  "start": 47,
-                  "end": 289,
                   "left": {
                     "type": "LogicalExpression",
-                    "start": 47,
-                    "end": 264,
                     "left": {
                       "type": "LogicalExpression",
-                      "start": 47,
-                      "end": 239,
                       "left": {
                         "type": "LogicalExpression",
-                        "start": 47,
-                        "end": 214,
                         "left": {
                           "type": "LogicalExpression",
-                          "start": 47,
-                          "end": 189,
                           "left": {
                             "type": "LogicalExpression",
-                            "start": 47,
-                            "end": 164,
                             "left": {
                               "type": "LogicalExpression",
-                              "start": 47,
-                              "end": 139,
                               "left": {
                                 "type": "LogicalExpression",
-                                "start": 47,
-                                "end": 114,
                                 "left": {
                                   "type": "LogicalExpression",
-                                  "start": 47,
-                                  "end": 89,
                                   "left": {
                                     "type": "LogicalExpression",
-                                    "start": 47,
-                                    "end": 64,
                                     "left": {
                                       "type": "Identifier",
-                                      "start": 47,
-                                      "end": 48,
                                       "decorators": [],
                                       "name": "x",
                                       "optional": false,
-                                      "typeAnnotation": null
+                                      "typeAnnotation": null,
+                                      "start": 47,
+                                      "end": 48
                                     },
                                     "operator": "&&",
                                     "right": {
                                       "type": "ArrayExpression",
-                                      "start": 52,
-                                      "end": 64,
                                       "elements": [
                                         {
                                           "type": "Literal",
-                                          "start": 53,
-                                          "end": 54,
                                           "value": 1,
-                                          "raw": "1"
+                                          "raw": "1",
+                                          "start": 53,
+                                          "end": 54
                                         },
                                         {
                                           "type": "Literal",
-                                          "start": 56,
-                                          "end": 57,
                                           "value": 2,
-                                          "raw": "2"
+                                          "raw": "2",
+                                          "start": 56,
+                                          "end": 57
                                         },
                                         {
                                           "type": "Literal",
-                                          "start": 59,
-                                          "end": 60,
                                           "value": 3,
-                                          "raw": "3"
+                                          "raw": "3",
+                                          "start": 59,
+                                          "end": 60
                                         },
                                         {
                                           "type": "Literal",
-                                          "start": 62,
-                                          "end": 63,
                                           "value": 4,
-                                          "raw": "4"
+                                          "raw": "4",
+                                          "start": 62,
+                                          "end": 63
                                         }
-                                      ]
-                                    }
+                                      ],
+                                      "start": 52,
+                                      "end": 64
+                                    },
+                                    "start": 47,
+                                    "end": 64
                                   },
                                   "operator": "||",
                                   "right": {
                                     "type": "LogicalExpression",
-                                    "start": 72,
-                                    "end": 89,
                                     "left": {
                                       "type": "Identifier",
-                                      "start": 72,
-                                      "end": 73,
                                       "decorators": [],
                                       "name": "x",
                                       "optional": false,
-                                      "typeAnnotation": null
+                                      "typeAnnotation": null,
+                                      "start": 72,
+                                      "end": 73
                                     },
                                     "operator": "&&",
                                     "right": {
                                       "type": "ArrayExpression",
-                                      "start": 77,
-                                      "end": 89,
                                       "elements": [
                                         {
                                           "type": "Literal",
-                                          "start": 78,
-                                          "end": 79,
                                           "value": 1,
-                                          "raw": "1"
+                                          "raw": "1",
+                                          "start": 78,
+                                          "end": 79
                                         },
                                         {
                                           "type": "Literal",
-                                          "start": 81,
-                                          "end": 82,
                                           "value": 2,
-                                          "raw": "2"
+                                          "raw": "2",
+                                          "start": 81,
+                                          "end": 82
                                         },
                                         {
                                           "type": "Literal",
-                                          "start": 84,
-                                          "end": 85,
                                           "value": 3,
-                                          "raw": "3"
+                                          "raw": "3",
+                                          "start": 84,
+                                          "end": 85
                                         },
                                         {
                                           "type": "Literal",
-                                          "start": 87,
-                                          "end": 88,
                                           "value": 4,
-                                          "raw": "4"
+                                          "raw": "4",
+                                          "start": 87,
+                                          "end": 88
                                         }
-                                      ]
-                                    }
-                                  }
+                                      ],
+                                      "start": 77,
+                                      "end": 89
+                                    },
+                                    "start": 72,
+                                    "end": 89
+                                  },
+                                  "start": 47,
+                                  "end": 89
                                 },
                                 "operator": "||",
                                 "right": {
                                   "type": "LogicalExpression",
-                                  "start": 97,
-                                  "end": 114,
                                   "left": {
                                     "type": "Identifier",
-                                    "start": 97,
-                                    "end": 98,
                                     "decorators": [],
                                     "name": "x",
                                     "optional": false,
-                                    "typeAnnotation": null
+                                    "typeAnnotation": null,
+                                    "start": 97,
+                                    "end": 98
                                   },
                                   "operator": "&&",
                                   "right": {
                                     "type": "ArrayExpression",
-                                    "start": 102,
-                                    "end": 114,
                                     "elements": [
                                       {
                                         "type": "Literal",
-                                        "start": 103,
-                                        "end": 104,
                                         "value": 1,
-                                        "raw": "1"
+                                        "raw": "1",
+                                        "start": 103,
+                                        "end": 104
                                       },
                                       {
                                         "type": "Literal",
-                                        "start": 106,
-                                        "end": 107,
                                         "value": 2,
-                                        "raw": "2"
+                                        "raw": "2",
+                                        "start": 106,
+                                        "end": 107
                                       },
                                       {
                                         "type": "Literal",
-                                        "start": 109,
-                                        "end": 110,
                                         "value": 3,
-                                        "raw": "3"
+                                        "raw": "3",
+                                        "start": 109,
+                                        "end": 110
                                       },
                                       {
                                         "type": "Literal",
-                                        "start": 112,
-                                        "end": 113,
                                         "value": 4,
-                                        "raw": "4"
+                                        "raw": "4",
+                                        "start": 112,
+                                        "end": 113
                                       }
-                                    ]
-                                  }
-                                }
+                                    ],
+                                    "start": 102,
+                                    "end": 114
+                                  },
+                                  "start": 97,
+                                  "end": 114
+                                },
+                                "start": 47,
+                                "end": 114
                               },
                               "operator": "||",
                               "right": {
                                 "type": "LogicalExpression",
-                                "start": 122,
-                                "end": 139,
                                 "left": {
                                   "type": "Identifier",
-                                  "start": 122,
-                                  "end": 123,
                                   "decorators": [],
                                   "name": "x",
                                   "optional": false,
-                                  "typeAnnotation": null
+                                  "typeAnnotation": null,
+                                  "start": 122,
+                                  "end": 123
                                 },
                                 "operator": "&&",
                                 "right": {
                                   "type": "ArrayExpression",
-                                  "start": 127,
-                                  "end": 139,
                                   "elements": [
                                     {
                                       "type": "Literal",
-                                      "start": 128,
-                                      "end": 129,
                                       "value": 1,
-                                      "raw": "1"
+                                      "raw": "1",
+                                      "start": 128,
+                                      "end": 129
                                     },
                                     {
                                       "type": "Literal",
-                                      "start": 131,
-                                      "end": 132,
                                       "value": 2,
-                                      "raw": "2"
+                                      "raw": "2",
+                                      "start": 131,
+                                      "end": 132
                                     },
                                     {
                                       "type": "Literal",
-                                      "start": 134,
-                                      "end": 135,
                                       "value": 3,
-                                      "raw": "3"
+                                      "raw": "3",
+                                      "start": 134,
+                                      "end": 135
                                     },
                                     {
                                       "type": "Literal",
-                                      "start": 137,
-                                      "end": 138,
                                       "value": 4,
-                                      "raw": "4"
+                                      "raw": "4",
+                                      "start": 137,
+                                      "end": 138
                                     }
-                                  ]
-                                }
-                              }
+                                  ],
+                                  "start": 127,
+                                  "end": 139
+                                },
+                                "start": 122,
+                                "end": 139
+                              },
+                              "start": 47,
+                              "end": 139
                             },
                             "operator": "||",
                             "right": {
                               "type": "LogicalExpression",
-                              "start": 147,
-                              "end": 164,
                               "left": {
                                 "type": "Identifier",
-                                "start": 147,
-                                "end": 148,
                                 "decorators": [],
                                 "name": "x",
                                 "optional": false,
-                                "typeAnnotation": null
+                                "typeAnnotation": null,
+                                "start": 147,
+                                "end": 148
                               },
                               "operator": "&&",
                               "right": {
                                 "type": "ArrayExpression",
-                                "start": 152,
-                                "end": 164,
                                 "elements": [
                                   {
                                     "type": "Literal",
-                                    "start": 153,
-                                    "end": 154,
                                     "value": 1,
-                                    "raw": "1"
+                                    "raw": "1",
+                                    "start": 153,
+                                    "end": 154
                                   },
                                   {
                                     "type": "Literal",
-                                    "start": 156,
-                                    "end": 157,
                                     "value": 2,
-                                    "raw": "2"
+                                    "raw": "2",
+                                    "start": 156,
+                                    "end": 157
                                   },
                                   {
                                     "type": "Literal",
-                                    "start": 159,
-                                    "end": 160,
                                     "value": 3,
-                                    "raw": "3"
+                                    "raw": "3",
+                                    "start": 159,
+                                    "end": 160
                                   },
                                   {
                                     "type": "Literal",
-                                    "start": 162,
-                                    "end": 163,
                                     "value": 4,
-                                    "raw": "4"
+                                    "raw": "4",
+                                    "start": 162,
+                                    "end": 163
                                   }
-                                ]
-                              }
-                            }
+                                ],
+                                "start": 152,
+                                "end": 164
+                              },
+                              "start": 147,
+                              "end": 164
+                            },
+                            "start": 47,
+                            "end": 164
                           },
                           "operator": "||",
                           "right": {
                             "type": "LogicalExpression",
-                            "start": 172,
-                            "end": 189,
                             "left": {
                               "type": "Identifier",
-                              "start": 172,
-                              "end": 173,
                               "decorators": [],
                               "name": "x",
                               "optional": false,
-                              "typeAnnotation": null
+                              "typeAnnotation": null,
+                              "start": 172,
+                              "end": 173
                             },
                             "operator": "&&",
                             "right": {
                               "type": "ArrayExpression",
-                              "start": 177,
-                              "end": 189,
                               "elements": [
                                 {
                                   "type": "Literal",
-                                  "start": 178,
-                                  "end": 179,
                                   "value": 1,
-                                  "raw": "1"
+                                  "raw": "1",
+                                  "start": 178,
+                                  "end": 179
                                 },
                                 {
                                   "type": "Literal",
-                                  "start": 181,
-                                  "end": 182,
                                   "value": 2,
-                                  "raw": "2"
+                                  "raw": "2",
+                                  "start": 181,
+                                  "end": 182
                                 },
                                 {
                                   "type": "Literal",
-                                  "start": 184,
-                                  "end": 185,
                                   "value": 3,
-                                  "raw": "3"
+                                  "raw": "3",
+                                  "start": 184,
+                                  "end": 185
                                 },
                                 {
                                   "type": "Literal",
-                                  "start": 187,
-                                  "end": 188,
                                   "value": 4,
-                                  "raw": "4"
+                                  "raw": "4",
+                                  "start": 187,
+                                  "end": 188
                                 }
-                              ]
-                            }
-                          }
+                              ],
+                              "start": 177,
+                              "end": 189
+                            },
+                            "start": 172,
+                            "end": 189
+                          },
+                          "start": 47,
+                          "end": 189
                         },
                         "operator": "||",
                         "right": {
                           "type": "LogicalExpression",
-                          "start": 197,
-                          "end": 214,
                           "left": {
                             "type": "Identifier",
-                            "start": 197,
-                            "end": 198,
                             "decorators": [],
                             "name": "x",
                             "optional": false,
-                            "typeAnnotation": null
+                            "typeAnnotation": null,
+                            "start": 197,
+                            "end": 198
                           },
                           "operator": "&&",
                           "right": {
                             "type": "ArrayExpression",
-                            "start": 202,
-                            "end": 214,
                             "elements": [
                               {
                                 "type": "Literal",
-                                "start": 203,
-                                "end": 204,
                                 "value": 1,
-                                "raw": "1"
+                                "raw": "1",
+                                "start": 203,
+                                "end": 204
                               },
                               {
                                 "type": "Literal",
-                                "start": 206,
-                                "end": 207,
                                 "value": 2,
-                                "raw": "2"
+                                "raw": "2",
+                                "start": 206,
+                                "end": 207
                               },
                               {
                                 "type": "Literal",
-                                "start": 209,
-                                "end": 210,
                                 "value": 3,
-                                "raw": "3"
+                                "raw": "3",
+                                "start": 209,
+                                "end": 210
                               },
                               {
                                 "type": "Literal",
-                                "start": 212,
-                                "end": 213,
                                 "value": 4,
-                                "raw": "4"
+                                "raw": "4",
+                                "start": 212,
+                                "end": 213
                               }
-                            ]
-                          }
-                        }
+                            ],
+                            "start": 202,
+                            "end": 214
+                          },
+                          "start": 197,
+                          "end": 214
+                        },
+                        "start": 47,
+                        "end": 214
                       },
                       "operator": "||",
                       "right": {
                         "type": "LogicalExpression",
-                        "start": 222,
-                        "end": 239,
                         "left": {
                           "type": "Identifier",
-                          "start": 222,
-                          "end": 223,
                           "decorators": [],
                           "name": "x",
                           "optional": false,
-                          "typeAnnotation": null
+                          "typeAnnotation": null,
+                          "start": 222,
+                          "end": 223
                         },
                         "operator": "&&",
                         "right": {
                           "type": "ArrayExpression",
-                          "start": 227,
-                          "end": 239,
                           "elements": [
                             {
                               "type": "Literal",
-                              "start": 228,
-                              "end": 229,
                               "value": 1,
-                              "raw": "1"
+                              "raw": "1",
+                              "start": 228,
+                              "end": 229
                             },
                             {
                               "type": "Literal",
-                              "start": 231,
-                              "end": 232,
                               "value": 2,
-                              "raw": "2"
+                              "raw": "2",
+                              "start": 231,
+                              "end": 232
                             },
                             {
                               "type": "Literal",
-                              "start": 234,
-                              "end": 235,
                               "value": 3,
-                              "raw": "3"
+                              "raw": "3",
+                              "start": 234,
+                              "end": 235
                             },
                             {
                               "type": "Literal",
-                              "start": 237,
-                              "end": 238,
                               "value": 4,
-                              "raw": "4"
+                              "raw": "4",
+                              "start": 237,
+                              "end": 238
                             }
-                          ]
-                        }
-                      }
+                          ],
+                          "start": 227,
+                          "end": 239
+                        },
+                        "start": 222,
+                        "end": 239
+                      },
+                      "start": 47,
+                      "end": 239
                     },
                     "operator": "||",
                     "right": {
                       "type": "LogicalExpression",
-                      "start": 247,
-                      "end": 264,
                       "left": {
                         "type": "Identifier",
-                        "start": 247,
-                        "end": 248,
                         "decorators": [],
                         "name": "x",
                         "optional": false,
-                        "typeAnnotation": null
+                        "typeAnnotation": null,
+                        "start": 247,
+                        "end": 248
                       },
                       "operator": "&&",
                       "right": {
                         "type": "ArrayExpression",
-                        "start": 252,
-                        "end": 264,
                         "elements": [
                           {
                             "type": "Literal",
-                            "start": 253,
-                            "end": 254,
                             "value": 1,
-                            "raw": "1"
+                            "raw": "1",
+                            "start": 253,
+                            "end": 254
                           },
                           {
                             "type": "Literal",
-                            "start": 256,
-                            "end": 257,
                             "value": 2,
-                            "raw": "2"
+                            "raw": "2",
+                            "start": 256,
+                            "end": 257
                           },
                           {
                             "type": "Literal",
-                            "start": 259,
-                            "end": 260,
                             "value": 3,
-                            "raw": "3"
+                            "raw": "3",
+                            "start": 259,
+                            "end": 260
                           },
                           {
                             "type": "Literal",
-                            "start": 262,
-                            "end": 263,
                             "value": 4,
-                            "raw": "4"
+                            "raw": "4",
+                            "start": 262,
+                            "end": 263
                           }
-                        ]
-                      }
-                    }
+                        ],
+                        "start": 252,
+                        "end": 264
+                      },
+                      "start": 247,
+                      "end": 264
+                    },
+                    "start": 47,
+                    "end": 264
                   },
                   "operator": "||",
                   "right": {
                     "type": "LogicalExpression",
-                    "start": 272,
-                    "end": 289,
                     "left": {
                       "type": "Identifier",
-                      "start": 272,
-                      "end": 273,
                       "decorators": [],
                       "name": "x",
                       "optional": false,
-                      "typeAnnotation": null
+                      "typeAnnotation": null,
+                      "start": 272,
+                      "end": 273
                     },
                     "operator": "&&",
                     "right": {
                       "type": "ArrayExpression",
-                      "start": 277,
-                      "end": 289,
                       "elements": [
                         {
                           "type": "Literal",
-                          "start": 278,
-                          "end": 279,
                           "value": 1,
-                          "raw": "1"
+                          "raw": "1",
+                          "start": 278,
+                          "end": 279
                         },
                         {
                           "type": "Literal",
-                          "start": 281,
-                          "end": 282,
                           "value": 2,
-                          "raw": "2"
+                          "raw": "2",
+                          "start": 281,
+                          "end": 282
                         },
                         {
                           "type": "Literal",
-                          "start": 284,
-                          "end": 285,
                           "value": 3,
-                          "raw": "3"
+                          "raw": "3",
+                          "start": 284,
+                          "end": 285
                         },
                         {
                           "type": "Literal",
-                          "start": 287,
-                          "end": 288,
                           "value": 4,
-                          "raw": "4"
+                          "raw": "4",
+                          "start": 287,
+                          "end": 288
                         }
-                      ]
-                    }
-                  }
+                      ],
+                      "start": 277,
+                      "end": 289
+                    },
+                    "start": 272,
+                    "end": 289
+                  },
+                  "start": 47,
+                  "end": 289
                 },
                 "operator": "||",
                 "right": {
                   "type": "LogicalExpression",
-                  "start": 297,
-                  "end": 314,
                   "left": {
                     "type": "Identifier",
-                    "start": 297,
-                    "end": 298,
                     "decorators": [],
                     "name": "x",
                     "optional": false,
-                    "typeAnnotation": null
+                    "typeAnnotation": null,
+                    "start": 297,
+                    "end": 298
                   },
                   "operator": "&&",
                   "right": {
                     "type": "ArrayExpression",
-                    "start": 302,
-                    "end": 314,
                     "elements": [
                       {
                         "type": "Literal",
-                        "start": 303,
-                        "end": 304,
                         "value": 1,
-                        "raw": "1"
+                        "raw": "1",
+                        "start": 303,
+                        "end": 304
                       },
                       {
                         "type": "Literal",
-                        "start": 306,
-                        "end": 307,
                         "value": 2,
-                        "raw": "2"
+                        "raw": "2",
+                        "start": 306,
+                        "end": 307
                       },
                       {
                         "type": "Literal",
-                        "start": 309,
-                        "end": 310,
                         "value": 3,
-                        "raw": "3"
+                        "raw": "3",
+                        "start": 309,
+                        "end": 310
                       },
                       {
                         "type": "Literal",
-                        "start": 312,
-                        "end": 313,
                         "value": 4,
-                        "raw": "4"
+                        "raw": "4",
+                        "start": 312,
+                        "end": 313
                       }
-                    ]
-                  }
-                }
+                    ],
+                    "start": 302,
+                    "end": 314
+                  },
+                  "start": 297,
+                  "end": 314
+                },
+                "start": 47,
+                "end": 314
               },
               "operator": "||",
               "right": {
                 "type": "LogicalExpression",
-                "start": 322,
-                "end": 339,
                 "left": {
                   "type": "Identifier",
-                  "start": 322,
-                  "end": 323,
                   "decorators": [],
                   "name": "x",
                   "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "start": 322,
+                  "end": 323
                 },
                 "operator": "&&",
                 "right": {
                   "type": "ArrayExpression",
-                  "start": 327,
-                  "end": 339,
                   "elements": [
                     {
                       "type": "Literal",
-                      "start": 328,
-                      "end": 329,
                       "value": 1,
-                      "raw": "1"
+                      "raw": "1",
+                      "start": 328,
+                      "end": 329
                     },
                     {
                       "type": "Literal",
-                      "start": 331,
-                      "end": 332,
                       "value": 2,
-                      "raw": "2"
+                      "raw": "2",
+                      "start": 331,
+                      "end": 332
                     },
                     {
                       "type": "Literal",
-                      "start": 334,
-                      "end": 335,
                       "value": 3,
-                      "raw": "3"
+                      "raw": "3",
+                      "start": 334,
+                      "end": 335
                     },
                     {
                       "type": "Literal",
-                      "start": 337,
-                      "end": 338,
                       "value": 4,
-                      "raw": "4"
+                      "raw": "4",
+                      "start": 337,
+                      "end": 338
                     }
-                  ]
-                }
-              }
+                  ],
+                  "start": 327,
+                  "end": 339
+                },
+                "start": 322,
+                "end": 339
+              },
+              "start": 47,
+              "end": 339
             },
             "operator": "||",
             "right": {
               "type": "LogicalExpression",
-              "start": 347,
-              "end": 364,
               "left": {
                 "type": "Identifier",
-                "start": 347,
-                "end": 348,
                 "decorators": [],
                 "name": "x",
                 "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "start": 347,
+                "end": 348
               },
               "operator": "&&",
               "right": {
                 "type": "ArrayExpression",
-                "start": 352,
-                "end": 364,
                 "elements": [
                   {
                     "type": "Literal",
-                    "start": 353,
-                    "end": 354,
                     "value": 1,
-                    "raw": "1"
+                    "raw": "1",
+                    "start": 353,
+                    "end": 354
                   },
                   {
                     "type": "Literal",
-                    "start": 356,
-                    "end": 357,
                     "value": 2,
-                    "raw": "2"
+                    "raw": "2",
+                    "start": 356,
+                    "end": 357
                   },
                   {
                     "type": "Literal",
-                    "start": 359,
-                    "end": 360,
                     "value": 3,
-                    "raw": "3"
+                    "raw": "3",
+                    "start": 359,
+                    "end": 360
                   },
                   {
                     "type": "Literal",
-                    "start": 362,
-                    "end": 363,
                     "value": 4,
-                    "raw": "4"
+                    "raw": "4",
+                    "start": 362,
+                    "end": 363
                   }
-                ]
-              }
-            }
+                ],
+                "start": 352,
+                "end": 364
+              },
+              "start": 347,
+              "end": 364
+            },
+            "start": 47,
+            "end": 364
           },
-          "definite": false
+          "definite": false,
+          "start": 39,
+          "end": 364
         }
       ],
-      "declare": false
+      "declare": false,
+      "start": 35,
+      "end": 365
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 22,
+  "end": 365
 }
 ```

@@ -2,110 +2,110 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 57,
   "body": [
     {
       "type": "ImportDeclaration",
-      "start": 0,
-      "end": 35,
       "specifiers": [
         {
           "type": "ImportDefaultSpecifier",
-          "start": 7,
-          "end": 11,
           "local": {
             "type": "Identifier",
-            "start": 7,
-            "end": 11,
             "decorators": [],
             "name": "Deps",
             "optional": false,
-            "typeAnnotation": null
-          }
+            "typeAnnotation": null,
+            "start": 7,
+            "end": 11
+          },
+          "start": 7,
+          "end": 11
         },
         {
           "type": "ImportSpecifier",
-          "start": 15,
-          "end": 19,
           "imported": {
             "type": "Identifier",
-            "start": 15,
-            "end": 19,
             "decorators": [],
             "name": "var2",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 15,
+            "end": 19
           },
           "local": {
             "type": "Identifier",
-            "start": 15,
-            "end": 19,
             "decorators": [],
             "name": "var2",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 15,
+            "end": 19
           },
-          "importKind": "value"
+          "importKind": "value",
+          "start": 15,
+          "end": 19
         }
       ],
       "source": {
         "type": "Literal",
-        "start": 27,
-        "end": 34,
         "value": "./dep",
-        "raw": "'./dep'"
+        "raw": "'./dep'",
+        "start": 27,
+        "end": 34
       },
       "phase": null,
       "attributes": [],
-      "importKind": "value"
+      "importKind": "value",
+      "start": 0,
+      "end": 35
     },
     {
       "type": "ExpressionStatement",
-      "start": 36,
-      "end": 46,
       "expression": {
         "type": "UnaryExpression",
-        "start": 36,
-        "end": 45,
         "operator": "void",
         "argument": {
           "type": "Identifier",
-          "start": 41,
-          "end": 45,
           "decorators": [],
           "name": "Deps",
           "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "start": 41,
+          "end": 45
         },
-        "prefix": true
+        "prefix": true,
+        "start": 36,
+        "end": 45
       },
-      "directive": null
+      "directive": null,
+      "start": 36,
+      "end": 46
     },
     {
       "type": "ExpressionStatement",
-      "start": 47,
-      "end": 57,
       "expression": {
         "type": "UnaryExpression",
-        "start": 47,
-        "end": 56,
         "operator": "void",
         "argument": {
           "type": "Identifier",
-          "start": 52,
-          "end": 56,
           "decorators": [],
           "name": "var2",
           "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "start": 52,
+          "end": 56
         },
-        "prefix": true
+        "prefix": true,
+        "start": 47,
+        "end": 56
       },
-      "directive": null
+      "directive": null,
+      "start": 47,
+      "end": 57
     }
   ],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 57
 }
 ```

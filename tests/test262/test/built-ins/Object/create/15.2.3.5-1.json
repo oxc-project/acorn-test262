@@ -1,103 +1,103 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 311,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 249,
-      "end": 310,
       "expression": {
         "type": "CallExpression",
-        "start": 249,
-        "end": 309,
         "callee": {
           "type": "MemberExpression",
-          "start": 249,
-          "end": 262,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 249,
-            "end": 255,
-            "name": "assert"
+            "end": 255
           },
           "property": {
             "type": "Identifier",
+            "name": "throws",
             "start": 256,
-            "end": 262,
-            "name": "throws"
+            "end": 262
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 249,
+          "end": 262
         },
         "arguments": [
           {
             "type": "Identifier",
+            "name": "TypeError",
             "start": 263,
-            "end": 272,
-            "name": "TypeError"
+            "end": 272
           },
           {
             "type": "FunctionExpression",
-            "start": 274,
-            "end": 308,
             "id": null,
             "generator": false,
             "async": false,
             "params": [],
             "body": {
               "type": "BlockStatement",
-              "start": 285,
-              "end": 308,
               "body": [
                 {
                   "type": "ExpressionStatement",
-                  "start": 289,
-                  "end": 306,
                   "expression": {
                     "type": "CallExpression",
-                    "start": 289,
-                    "end": 305,
                     "callee": {
                       "type": "MemberExpression",
-                      "start": 289,
-                      "end": 302,
                       "object": {
                         "type": "Identifier",
+                        "name": "Object",
                         "start": 289,
-                        "end": 295,
-                        "name": "Object"
+                        "end": 295
                       },
                       "property": {
                         "type": "Identifier",
+                        "name": "create",
                         "start": 296,
-                        "end": 302,
-                        "name": "create"
+                        "end": 302
                       },
                       "optional": false,
-                      "computed": false
+                      "computed": false,
+                      "start": 289,
+                      "end": 302
                     },
                     "arguments": [
                       {
                         "type": "Literal",
-                        "start": 303,
-                        "end": 304,
                         "value": 0,
-                        "raw": "0"
+                        "raw": "0",
+                        "start": 303,
+                        "end": 304
                       }
                     ],
-                    "optional": false
-                  }
+                    "optional": false,
+                    "start": 289,
+                    "end": 305
+                  },
+                  "start": 289,
+                  "end": 306
                 }
-              ]
+              ],
+              "start": 285,
+              "end": 308
             },
-            "expression": false
+            "expression": false,
+            "start": 274,
+            "end": 308
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 249,
+        "end": 309
+      },
+      "start": 249,
+      "end": 310
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 311
 }

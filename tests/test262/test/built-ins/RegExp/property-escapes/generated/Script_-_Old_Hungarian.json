@@ -1,708 +1,708 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 1588,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 458,
-      "end": 611,
       "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 464,
-          "end": 610,
           "id": {
             "type": "Identifier",
+            "name": "matchSymbols",
             "start": 464,
-            "end": 476,
-            "name": "matchSymbols"
+            "end": 476
           },
           "init": {
             "type": "CallExpression",
-            "start": 479,
-            "end": 610,
             "callee": {
               "type": "Identifier",
+              "name": "buildString",
               "start": 479,
-              "end": 490,
-              "name": "buildString"
+              "end": 490
             },
             "arguments": [
               {
                 "type": "ObjectExpression",
-                "start": 491,
-                "end": 609,
                 "properties": [
                   {
                     "type": "Property",
-                    "start": 495,
-                    "end": 513,
                     "kind": "init",
                     "key": {
                       "type": "Identifier",
+                      "name": "loneCodePoints",
                       "start": 495,
-                      "end": 509,
-                      "name": "loneCodePoints"
+                      "end": 509
                     },
                     "value": {
                       "type": "ArrayExpression",
+                      "elements": [],
                       "start": 511,
-                      "end": 513,
-                      "elements": []
+                      "end": 513
                     },
                     "method": false,
                     "shorthand": false,
-                    "computed": false
+                    "computed": false,
+                    "start": 495,
+                    "end": 513
                   },
                   {
                     "type": "Property",
-                    "start": 517,
-                    "end": 607,
                     "kind": "init",
                     "key": {
                       "type": "Identifier",
+                      "name": "ranges",
                       "start": 517,
-                      "end": 523,
-                      "name": "ranges"
+                      "end": 523
                     },
                     "value": {
                       "type": "ArrayExpression",
-                      "start": 525,
-                      "end": 607,
                       "elements": [
                         {
                           "type": "ArrayExpression",
-                          "start": 531,
-                          "end": 551,
                           "elements": [
                             {
                               "type": "Literal",
-                              "start": 532,
-                              "end": 540,
                               "value": 68736,
-                              "raw": "0x010C80"
+                              "raw": "0x010C80",
+                              "start": 532,
+                              "end": 540
                             },
                             {
                               "type": "Literal",
-                              "start": 542,
-                              "end": 550,
                               "value": 68786,
-                              "raw": "0x010CB2"
+                              "raw": "0x010CB2",
+                              "start": 542,
+                              "end": 550
                             }
-                          ]
+                          ],
+                          "start": 531,
+                          "end": 551
                         },
                         {
                           "type": "ArrayExpression",
-                          "start": 557,
-                          "end": 577,
                           "elements": [
                             {
                               "type": "Literal",
-                              "start": 558,
-                              "end": 566,
                               "value": 68800,
-                              "raw": "0x010CC0"
+                              "raw": "0x010CC0",
+                              "start": 558,
+                              "end": 566
                             },
                             {
                               "type": "Literal",
-                              "start": 568,
-                              "end": 576,
                               "value": 68850,
-                              "raw": "0x010CF2"
+                              "raw": "0x010CF2",
+                              "start": 568,
+                              "end": 576
                             }
-                          ]
+                          ],
+                          "start": 557,
+                          "end": 577
                         },
                         {
                           "type": "ArrayExpression",
-                          "start": 583,
-                          "end": 603,
                           "elements": [
                             {
                               "type": "Literal",
-                              "start": 584,
-                              "end": 592,
                               "value": 68858,
-                              "raw": "0x010CFA"
+                              "raw": "0x010CFA",
+                              "start": 584,
+                              "end": 592
                             },
                             {
                               "type": "Literal",
-                              "start": 594,
-                              "end": 602,
                               "value": 68863,
-                              "raw": "0x010CFF"
+                              "raw": "0x010CFF",
+                              "start": 594,
+                              "end": 602
                             }
-                          ]
+                          ],
+                          "start": 583,
+                          "end": 603
                         }
-                      ]
+                      ],
+                      "start": 525,
+                      "end": 607
                     },
                     "method": false,
                     "shorthand": false,
-                    "computed": false
+                    "computed": false,
+                    "start": 517,
+                    "end": 607
                   }
-                ]
+                ],
+                "start": 491,
+                "end": 609
               }
             ],
-            "optional": false
-          }
+            "optional": false,
+            "start": 479,
+            "end": 610
+          },
+          "start": 464,
+          "end": 610
         }
-      ]
+      ],
+      "start": 458,
+      "end": 611
     },
     {
       "type": "ExpressionStatement",
-      "start": 612,
-      "end": 715,
       "expression": {
         "type": "CallExpression",
-        "start": 612,
-        "end": 714,
         "callee": {
           "type": "Identifier",
+          "name": "testPropertyEscapes",
           "start": 612,
-          "end": 631,
-          "name": "testPropertyEscapes"
+          "end": 631
         },
         "arguments": [
           {
             "type": "Literal",
-            "start": 635,
-            "end": 665,
             "value": null,
             "raw": "/^\\p{Script=Old_Hungarian}+$/u",
             "regex": {
               "pattern": "^\\p{Script=Old_Hungarian}+$",
               "flags": "u"
-            }
+            },
+            "start": 635,
+            "end": 665
           },
           {
             "type": "Identifier",
+            "name": "matchSymbols",
             "start": 669,
-            "end": 681,
-            "name": "matchSymbols"
+            "end": 681
           },
           {
             "type": "Literal",
-            "start": 685,
-            "end": 712,
             "value": "\\p{Script=Old_Hungarian}",
-            "raw": "\"\\\\p{Script=Old_Hungarian}\""
+            "raw": "\"\\\\p{Script=Old_Hungarian}\"",
+            "start": 685,
+            "end": 712
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 612,
+        "end": 714
+      },
+      "start": 612,
+      "end": 715
     },
     {
       "type": "ExpressionStatement",
-      "start": 716,
-      "end": 801,
       "expression": {
         "type": "CallExpression",
-        "start": 716,
-        "end": 800,
         "callee": {
           "type": "Identifier",
+          "name": "testPropertyEscapes",
           "start": 716,
-          "end": 735,
-          "name": "testPropertyEscapes"
+          "end": 735
         },
         "arguments": [
           {
             "type": "Literal",
-            "start": 739,
-            "end": 760,
             "value": null,
             "raw": "/^\\p{Script=Hung}+$/u",
             "regex": {
               "pattern": "^\\p{Script=Hung}+$",
               "flags": "u"
-            }
+            },
+            "start": 739,
+            "end": 760
           },
           {
             "type": "Identifier",
+            "name": "matchSymbols",
             "start": 764,
-            "end": 776,
-            "name": "matchSymbols"
+            "end": 776
           },
           {
             "type": "Literal",
-            "start": 780,
-            "end": 798,
             "value": "\\p{Script=Hung}",
-            "raw": "\"\\\\p{Script=Hung}\""
+            "raw": "\"\\\\p{Script=Hung}\"",
+            "start": 780,
+            "end": 798
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 716,
+        "end": 800
+      },
+      "start": 716,
+      "end": 801
     },
     {
       "type": "ExpressionStatement",
-      "start": 802,
-      "end": 897,
       "expression": {
         "type": "CallExpression",
-        "start": 802,
-        "end": 896,
         "callee": {
           "type": "Identifier",
+          "name": "testPropertyEscapes",
           "start": 802,
-          "end": 821,
-          "name": "testPropertyEscapes"
+          "end": 821
         },
         "arguments": [
           {
             "type": "Literal",
-            "start": 825,
-            "end": 851,
             "value": null,
             "raw": "/^\\p{sc=Old_Hungarian}+$/u",
             "regex": {
               "pattern": "^\\p{sc=Old_Hungarian}+$",
               "flags": "u"
-            }
+            },
+            "start": 825,
+            "end": 851
           },
           {
             "type": "Identifier",
+            "name": "matchSymbols",
             "start": 855,
-            "end": 867,
-            "name": "matchSymbols"
+            "end": 867
           },
           {
             "type": "Literal",
-            "start": 871,
-            "end": 894,
             "value": "\\p{sc=Old_Hungarian}",
-            "raw": "\"\\\\p{sc=Old_Hungarian}\""
+            "raw": "\"\\\\p{sc=Old_Hungarian}\"",
+            "start": 871,
+            "end": 894
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 802,
+        "end": 896
+      },
+      "start": 802,
+      "end": 897
     },
     {
       "type": "ExpressionStatement",
-      "start": 898,
-      "end": 975,
       "expression": {
         "type": "CallExpression",
-        "start": 898,
-        "end": 974,
         "callee": {
           "type": "Identifier",
+          "name": "testPropertyEscapes",
           "start": 898,
-          "end": 917,
-          "name": "testPropertyEscapes"
+          "end": 917
         },
         "arguments": [
           {
             "type": "Literal",
-            "start": 921,
-            "end": 938,
             "value": null,
             "raw": "/^\\p{sc=Hung}+$/u",
             "regex": {
               "pattern": "^\\p{sc=Hung}+$",
               "flags": "u"
-            }
+            },
+            "start": 921,
+            "end": 938
           },
           {
             "type": "Identifier",
+            "name": "matchSymbols",
             "start": 942,
-            "end": 954,
-            "name": "matchSymbols"
+            "end": 954
           },
           {
             "type": "Literal",
-            "start": 958,
-            "end": 972,
             "value": "\\p{sc=Hung}",
-            "raw": "\"\\\\p{sc=Hung}\""
+            "raw": "\"\\\\p{sc=Hung}\"",
+            "start": 958,
+            "end": 972
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 898,
+        "end": 974
+      },
+      "start": 898,
+      "end": 975
     },
     {
       "type": "VariableDeclaration",
-      "start": 977,
-      "end": 1211,
       "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 983,
-          "end": 1210,
           "id": {
             "type": "Identifier",
+            "name": "nonMatchSymbols",
             "start": 983,
-            "end": 998,
-            "name": "nonMatchSymbols"
+            "end": 998
           },
           "init": {
             "type": "CallExpression",
-            "start": 1001,
-            "end": 1210,
             "callee": {
               "type": "Identifier",
+              "name": "buildString",
               "start": 1001,
-              "end": 1012,
-              "name": "buildString"
+              "end": 1012
             },
             "arguments": [
               {
                 "type": "ObjectExpression",
-                "start": 1013,
-                "end": 1209,
                 "properties": [
                   {
                     "type": "Property",
-                    "start": 1017,
-                    "end": 1035,
                     "kind": "init",
                     "key": {
                       "type": "Identifier",
+                      "name": "loneCodePoints",
                       "start": 1017,
-                      "end": 1031,
-                      "name": "loneCodePoints"
+                      "end": 1031
                     },
                     "value": {
                       "type": "ArrayExpression",
+                      "elements": [],
                       "start": 1033,
-                      "end": 1035,
-                      "elements": []
+                      "end": 1035
                     },
                     "method": false,
                     "shorthand": false,
-                    "computed": false
+                    "computed": false,
+                    "start": 1017,
+                    "end": 1035
                   },
                   {
                     "type": "Property",
-                    "start": 1039,
-                    "end": 1207,
                     "kind": "init",
                     "key": {
                       "type": "Identifier",
+                      "name": "ranges",
                       "start": 1039,
-                      "end": 1045,
-                      "name": "ranges"
+                      "end": 1045
                     },
                     "value": {
                       "type": "ArrayExpression",
-                      "start": 1047,
-                      "end": 1207,
                       "elements": [
                         {
                           "type": "ArrayExpression",
-                          "start": 1053,
-                          "end": 1073,
                           "elements": [
                             {
                               "type": "Literal",
-                              "start": 1054,
-                              "end": 1062,
                               "value": 56320,
-                              "raw": "0x00DC00"
+                              "raw": "0x00DC00",
+                              "start": 1054,
+                              "end": 1062
                             },
                             {
                               "type": "Literal",
-                              "start": 1064,
-                              "end": 1072,
                               "value": 57343,
-                              "raw": "0x00DFFF"
+                              "raw": "0x00DFFF",
+                              "start": 1064,
+                              "end": 1072
                             }
-                          ]
+                          ],
+                          "start": 1053,
+                          "end": 1073
                         },
                         {
                           "type": "ArrayExpression",
-                          "start": 1079,
-                          "end": 1099,
                           "elements": [
                             {
                               "type": "Literal",
-                              "start": 1080,
-                              "end": 1088,
                               "value": 0,
-                              "raw": "0x000000"
+                              "raw": "0x000000",
+                              "start": 1080,
+                              "end": 1088
                             },
                             {
                               "type": "Literal",
-                              "start": 1090,
-                              "end": 1098,
                               "value": 56319,
-                              "raw": "0x00DBFF"
+                              "raw": "0x00DBFF",
+                              "start": 1090,
+                              "end": 1098
                             }
-                          ]
+                          ],
+                          "start": 1079,
+                          "end": 1099
                         },
                         {
                           "type": "ArrayExpression",
-                          "start": 1105,
-                          "end": 1125,
                           "elements": [
                             {
                               "type": "Literal",
-                              "start": 1106,
-                              "end": 1114,
                               "value": 57344,
-                              "raw": "0x00E000"
+                              "raw": "0x00E000",
+                              "start": 1106,
+                              "end": 1114
                             },
                             {
                               "type": "Literal",
-                              "start": 1116,
-                              "end": 1124,
                               "value": 68735,
-                              "raw": "0x010C7F"
+                              "raw": "0x010C7F",
+                              "start": 1116,
+                              "end": 1124
                             }
-                          ]
+                          ],
+                          "start": 1105,
+                          "end": 1125
                         },
                         {
                           "type": "ArrayExpression",
-                          "start": 1131,
-                          "end": 1151,
                           "elements": [
                             {
                               "type": "Literal",
-                              "start": 1132,
-                              "end": 1140,
                               "value": 68787,
-                              "raw": "0x010CB3"
+                              "raw": "0x010CB3",
+                              "start": 1132,
+                              "end": 1140
                             },
                             {
                               "type": "Literal",
-                              "start": 1142,
-                              "end": 1150,
                               "value": 68799,
-                              "raw": "0x010CBF"
+                              "raw": "0x010CBF",
+                              "start": 1142,
+                              "end": 1150
                             }
-                          ]
+                          ],
+                          "start": 1131,
+                          "end": 1151
                         },
                         {
                           "type": "ArrayExpression",
-                          "start": 1157,
-                          "end": 1177,
                           "elements": [
                             {
                               "type": "Literal",
-                              "start": 1158,
-                              "end": 1166,
                               "value": 68851,
-                              "raw": "0x010CF3"
+                              "raw": "0x010CF3",
+                              "start": 1158,
+                              "end": 1166
                             },
                             {
                               "type": "Literal",
-                              "start": 1168,
-                              "end": 1176,
                               "value": 68857,
-                              "raw": "0x010CF9"
+                              "raw": "0x010CF9",
+                              "start": 1168,
+                              "end": 1176
                             }
-                          ]
+                          ],
+                          "start": 1157,
+                          "end": 1177
                         },
                         {
                           "type": "ArrayExpression",
-                          "start": 1183,
-                          "end": 1203,
                           "elements": [
                             {
                               "type": "Literal",
-                              "start": 1184,
-                              "end": 1192,
                               "value": 68864,
-                              "raw": "0x010D00"
+                              "raw": "0x010D00",
+                              "start": 1184,
+                              "end": 1192
                             },
                             {
                               "type": "Literal",
-                              "start": 1194,
-                              "end": 1202,
                               "value": 1114111,
-                              "raw": "0x10FFFF"
+                              "raw": "0x10FFFF",
+                              "start": 1194,
+                              "end": 1202
                             }
-                          ]
+                          ],
+                          "start": 1183,
+                          "end": 1203
                         }
-                      ]
+                      ],
+                      "start": 1047,
+                      "end": 1207
                     },
                     "method": false,
                     "shorthand": false,
-                    "computed": false
+                    "computed": false,
+                    "start": 1039,
+                    "end": 1207
                   }
-                ]
+                ],
+                "start": 1013,
+                "end": 1209
               }
             ],
-            "optional": false
-          }
+            "optional": false,
+            "start": 1001,
+            "end": 1210
+          },
+          "start": 983,
+          "end": 1210
         }
-      ]
+      ],
+      "start": 977,
+      "end": 1211
     },
     {
       "type": "ExpressionStatement",
-      "start": 1212,
-      "end": 1318,
       "expression": {
         "type": "CallExpression",
-        "start": 1212,
-        "end": 1317,
         "callee": {
           "type": "Identifier",
+          "name": "testPropertyEscapes",
           "start": 1212,
-          "end": 1231,
-          "name": "testPropertyEscapes"
+          "end": 1231
         },
         "arguments": [
           {
             "type": "Literal",
-            "start": 1235,
-            "end": 1265,
             "value": null,
             "raw": "/^\\P{Script=Old_Hungarian}+$/u",
             "regex": {
               "pattern": "^\\P{Script=Old_Hungarian}+$",
               "flags": "u"
-            }
+            },
+            "start": 1235,
+            "end": 1265
           },
           {
             "type": "Identifier",
+            "name": "nonMatchSymbols",
             "start": 1269,
-            "end": 1284,
-            "name": "nonMatchSymbols"
+            "end": 1284
           },
           {
             "type": "Literal",
-            "start": 1288,
-            "end": 1315,
             "value": "\\P{Script=Old_Hungarian}",
-            "raw": "\"\\\\P{Script=Old_Hungarian}\""
+            "raw": "\"\\\\P{Script=Old_Hungarian}\"",
+            "start": 1288,
+            "end": 1315
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 1212,
+        "end": 1317
+      },
+      "start": 1212,
+      "end": 1318
     },
     {
       "type": "ExpressionStatement",
-      "start": 1319,
-      "end": 1407,
       "expression": {
         "type": "CallExpression",
-        "start": 1319,
-        "end": 1406,
         "callee": {
           "type": "Identifier",
+          "name": "testPropertyEscapes",
           "start": 1319,
-          "end": 1338,
-          "name": "testPropertyEscapes"
+          "end": 1338
         },
         "arguments": [
           {
             "type": "Literal",
-            "start": 1342,
-            "end": 1363,
             "value": null,
             "raw": "/^\\P{Script=Hung}+$/u",
             "regex": {
               "pattern": "^\\P{Script=Hung}+$",
               "flags": "u"
-            }
+            },
+            "start": 1342,
+            "end": 1363
           },
           {
             "type": "Identifier",
+            "name": "nonMatchSymbols",
             "start": 1367,
-            "end": 1382,
-            "name": "nonMatchSymbols"
+            "end": 1382
           },
           {
             "type": "Literal",
-            "start": 1386,
-            "end": 1404,
             "value": "\\P{Script=Hung}",
-            "raw": "\"\\\\P{Script=Hung}\""
+            "raw": "\"\\\\P{Script=Hung}\"",
+            "start": 1386,
+            "end": 1404
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 1319,
+        "end": 1406
+      },
+      "start": 1319,
+      "end": 1407
     },
     {
       "type": "ExpressionStatement",
-      "start": 1408,
-      "end": 1506,
       "expression": {
         "type": "CallExpression",
-        "start": 1408,
-        "end": 1505,
         "callee": {
           "type": "Identifier",
+          "name": "testPropertyEscapes",
           "start": 1408,
-          "end": 1427,
-          "name": "testPropertyEscapes"
+          "end": 1427
         },
         "arguments": [
           {
             "type": "Literal",
-            "start": 1431,
-            "end": 1457,
             "value": null,
             "raw": "/^\\P{sc=Old_Hungarian}+$/u",
             "regex": {
               "pattern": "^\\P{sc=Old_Hungarian}+$",
               "flags": "u"
-            }
+            },
+            "start": 1431,
+            "end": 1457
           },
           {
             "type": "Identifier",
+            "name": "nonMatchSymbols",
             "start": 1461,
-            "end": 1476,
-            "name": "nonMatchSymbols"
+            "end": 1476
           },
           {
             "type": "Literal",
-            "start": 1480,
-            "end": 1503,
             "value": "\\P{sc=Old_Hungarian}",
-            "raw": "\"\\\\P{sc=Old_Hungarian}\""
+            "raw": "\"\\\\P{sc=Old_Hungarian}\"",
+            "start": 1480,
+            "end": 1503
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 1408,
+        "end": 1505
+      },
+      "start": 1408,
+      "end": 1506
     },
     {
       "type": "ExpressionStatement",
-      "start": 1507,
-      "end": 1587,
       "expression": {
         "type": "CallExpression",
-        "start": 1507,
-        "end": 1586,
         "callee": {
           "type": "Identifier",
+          "name": "testPropertyEscapes",
           "start": 1507,
-          "end": 1526,
-          "name": "testPropertyEscapes"
+          "end": 1526
         },
         "arguments": [
           {
             "type": "Literal",
-            "start": 1530,
-            "end": 1547,
             "value": null,
             "raw": "/^\\P{sc=Hung}+$/u",
             "regex": {
               "pattern": "^\\P{sc=Hung}+$",
               "flags": "u"
-            }
+            },
+            "start": 1530,
+            "end": 1547
           },
           {
             "type": "Identifier",
+            "name": "nonMatchSymbols",
             "start": 1551,
-            "end": 1566,
-            "name": "nonMatchSymbols"
+            "end": 1566
           },
           {
             "type": "Literal",
-            "start": 1570,
-            "end": 1584,
             "value": "\\P{sc=Hung}",
-            "raw": "\"\\\\P{sc=Hung}\""
+            "raw": "\"\\\\P{sc=Hung}\"",
+            "start": 1570,
+            "end": 1584
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 1507,
+        "end": 1586
+      },
+      "start": 1507,
+      "end": 1587
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 1588
 }

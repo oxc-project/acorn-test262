@@ -1,488 +1,488 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 1859,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 392,
-      "end": 405,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 396,
-          "end": 404,
           "id": {
             "type": "Identifier",
+            "name": "__in__do",
             "start": 396,
-            "end": 404,
-            "name": "__in__do"
+            "end": 404
           },
-          "init": null
+          "init": null,
+          "start": 396,
+          "end": 404
         }
-      ]
+      ],
+      "start": 392,
+      "end": 405
     },
     {
       "type": "WhileStatement",
-      "start": 407,
-      "end": 434,
       "test": {
         "type": "Literal",
-        "start": 415,
-        "end": 420,
         "value": false,
-        "raw": "false"
+        "raw": "false",
+        "start": 415,
+        "end": 420
       },
       "body": {
         "type": "ExpressionStatement",
-        "start": 423,
-        "end": 434,
         "expression": {
           "type": "AssignmentExpression",
-          "start": 423,
-          "end": 433,
           "operator": "=",
           "left": {
             "type": "Identifier",
+            "name": "__in__do",
             "start": 423,
-            "end": 431,
-            "name": "__in__do"
+            "end": 431
           },
           "right": {
             "type": "Literal",
-            "start": 432,
-            "end": 433,
             "value": 1,
-            "raw": "1"
-          }
-        }
-      }
+            "raw": "1",
+            "start": 432,
+            "end": 433
+          },
+          "start": 423,
+          "end": 433
+        },
+        "start": 423,
+        "end": 434
+      },
+      "start": 407,
+      "end": 434
     },
     {
       "type": "IfStatement",
-      "start": 525,
-      "end": 613,
       "test": {
         "type": "BinaryExpression",
-        "start": 529,
-        "end": 551,
         "left": {
           "type": "Identifier",
+          "name": "__in__do",
           "start": 529,
-          "end": 537,
-          "name": "__in__do"
+          "end": 537
         },
         "operator": "!==",
         "right": {
           "type": "Identifier",
+          "name": "undefined",
           "start": 542,
-          "end": 551,
-          "name": "undefined"
-        }
+          "end": 551
+        },
+        "start": 529,
+        "end": 551
       },
       "consequent": {
         "type": "BlockStatement",
-        "start": 553,
-        "end": 613,
         "body": [
           {
             "type": "ThrowStatement",
-            "start": 556,
-            "end": 611,
             "argument": {
               "type": "NewExpression",
-              "start": 562,
-              "end": 610,
               "callee": {
                 "type": "Identifier",
+                "name": "Test262Error",
                 "start": 566,
-                "end": 578,
-                "name": "Test262Error"
+                "end": 578
               },
               "arguments": [
                 {
                   "type": "Literal",
-                  "start": 579,
-                  "end": 609,
                   "value": "#1: false evaluates to false",
-                  "raw": "'#1: false evaluates to false'"
+                  "raw": "'#1: false evaluates to false'",
+                  "start": 579,
+                  "end": 609
                 }
-              ]
-            }
+              ],
+              "start": 562,
+              "end": 610
+            },
+            "start": 556,
+            "end": 611
           }
-        ]
+        ],
+        "start": 553,
+        "end": 613
       },
-      "alternate": null
+      "alternate": null,
+      "start": 525,
+      "end": 613
     },
     {
       "type": "WhileStatement",
-      "start": 697,
-      "end": 720,
       "test": {
         "type": "Literal",
-        "start": 705,
-        "end": 706,
         "value": 0,
-        "raw": "0"
+        "raw": "0",
+        "start": 705,
+        "end": 706
       },
       "body": {
         "type": "ExpressionStatement",
-        "start": 709,
-        "end": 720,
         "expression": {
           "type": "AssignmentExpression",
-          "start": 709,
-          "end": 719,
           "operator": "=",
           "left": {
             "type": "Identifier",
+            "name": "__in__do",
             "start": 709,
-            "end": 717,
-            "name": "__in__do"
+            "end": 717
           },
           "right": {
             "type": "Literal",
-            "start": 718,
-            "end": 719,
             "value": 2,
-            "raw": "2"
-          }
-        }
-      }
+            "raw": "2",
+            "start": 718,
+            "end": 719
+          },
+          "start": 709,
+          "end": 719
+        },
+        "start": 709,
+        "end": 720
+      },
+      "start": 697,
+      "end": 720
     },
     {
       "type": "IfStatement",
-      "start": 811,
-      "end": 895,
       "test": {
         "type": "BinaryExpression",
-        "start": 815,
-        "end": 837,
         "left": {
           "type": "Identifier",
+          "name": "__in__do",
           "start": 815,
-          "end": 823,
-          "name": "__in__do"
+          "end": 823
         },
         "operator": "!==",
         "right": {
           "type": "Identifier",
+          "name": "undefined",
           "start": 828,
-          "end": 837,
-          "name": "undefined"
-        }
+          "end": 837
+        },
+        "start": 815,
+        "end": 837
       },
       "consequent": {
         "type": "BlockStatement",
-        "start": 839,
-        "end": 895,
         "body": [
           {
             "type": "ThrowStatement",
-            "start": 842,
-            "end": 893,
             "argument": {
               "type": "NewExpression",
-              "start": 848,
-              "end": 892,
               "callee": {
                 "type": "Identifier",
+                "name": "Test262Error",
                 "start": 852,
-                "end": 864,
-                "name": "Test262Error"
+                "end": 864
               },
               "arguments": [
                 {
                   "type": "Literal",
-                  "start": 865,
-                  "end": 891,
                   "value": "#2: 0 evaluates to false",
-                  "raw": "'#2: 0 evaluates to false'"
+                  "raw": "'#2: 0 evaluates to false'",
+                  "start": 865,
+                  "end": 891
                 }
-              ]
-            }
+              ],
+              "start": 848,
+              "end": 892
+            },
+            "start": 842,
+            "end": 893
           }
-        ]
+        ],
+        "start": 839,
+        "end": 895
       },
-      "alternate": null
+      "alternate": null,
+      "start": 811,
+      "end": 895
     },
     {
       "type": "WhileStatement",
-      "start": 979,
-      "end": 1003,
       "test": {
         "type": "Literal",
-        "start": 987,
-        "end": 989,
         "value": "",
-        "raw": "\"\""
+        "raw": "\"\"",
+        "start": 987,
+        "end": 989
       },
       "body": {
         "type": "ExpressionStatement",
-        "start": 992,
-        "end": 1003,
         "expression": {
           "type": "AssignmentExpression",
-          "start": 992,
-          "end": 1002,
           "operator": "=",
           "left": {
             "type": "Identifier",
+            "name": "__in__do",
             "start": 992,
-            "end": 1000,
-            "name": "__in__do"
+            "end": 1000
           },
           "right": {
             "type": "Literal",
-            "start": 1001,
-            "end": 1002,
             "value": 3,
-            "raw": "3"
-          }
-        }
-      }
+            "raw": "3",
+            "start": 1001,
+            "end": 1002
+          },
+          "start": 992,
+          "end": 1002
+        },
+        "start": 992,
+        "end": 1003
+      },
+      "start": 979,
+      "end": 1003
     },
     {
       "type": "IfStatement",
-      "start": 1094,
-      "end": 1189,
       "test": {
         "type": "BinaryExpression",
-        "start": 1098,
-        "end": 1120,
         "left": {
           "type": "Identifier",
+          "name": "__in__do",
           "start": 1098,
-          "end": 1106,
-          "name": "__in__do"
+          "end": 1106
         },
         "operator": "!==",
         "right": {
           "type": "Identifier",
+          "name": "undefined",
           "start": 1111,
-          "end": 1120,
-          "name": "undefined"
-        }
+          "end": 1120
+        },
+        "start": 1098,
+        "end": 1120
       },
       "consequent": {
         "type": "BlockStatement",
-        "start": 1122,
-        "end": 1189,
         "body": [
           {
             "type": "ThrowStatement",
-            "start": 1125,
-            "end": 1187,
             "argument": {
               "type": "NewExpression",
-              "start": 1131,
-              "end": 1186,
               "callee": {
                 "type": "Identifier",
+                "name": "Test262Error",
                 "start": 1135,
-                "end": 1147,
-                "name": "Test262Error"
+                "end": 1147
               },
               "arguments": [
                 {
                   "type": "Literal",
-                  "start": 1148,
-                  "end": 1185,
                   "value": "#3: empty string evaluates to false",
-                  "raw": "'#3: empty string evaluates to false'"
+                  "raw": "'#3: empty string evaluates to false'",
+                  "start": 1148,
+                  "end": 1185
                 }
-              ]
-            }
+              ],
+              "start": 1131,
+              "end": 1186
+            },
+            "start": 1125,
+            "end": 1187
           }
-        ]
+        ],
+        "start": 1122,
+        "end": 1189
       },
-      "alternate": null
+      "alternate": null,
+      "start": 1094,
+      "end": 1189
     },
     {
       "type": "WhileStatement",
-      "start": 1273,
-      "end": 1299,
       "test": {
         "type": "Literal",
-        "start": 1281,
-        "end": 1285,
         "value": null,
-        "raw": "null"
+        "raw": "null",
+        "start": 1281,
+        "end": 1285
       },
       "body": {
         "type": "ExpressionStatement",
-        "start": 1288,
-        "end": 1299,
         "expression": {
           "type": "AssignmentExpression",
-          "start": 1288,
-          "end": 1298,
           "operator": "=",
           "left": {
             "type": "Identifier",
+            "name": "__in__do",
             "start": 1288,
-            "end": 1296,
-            "name": "__in__do"
+            "end": 1296
           },
           "right": {
             "type": "Literal",
-            "start": 1297,
-            "end": 1298,
             "value": 4,
-            "raw": "4"
-          }
-        }
-      }
+            "raw": "4",
+            "start": 1297,
+            "end": 1298
+          },
+          "start": 1288,
+          "end": 1298
+        },
+        "start": 1288,
+        "end": 1299
+      },
+      "start": 1273,
+      "end": 1299
     },
     {
       "type": "IfStatement",
-      "start": 1390,
-      "end": 1477,
       "test": {
         "type": "BinaryExpression",
-        "start": 1394,
-        "end": 1416,
         "left": {
           "type": "Identifier",
+          "name": "__in__do",
           "start": 1394,
-          "end": 1402,
-          "name": "__in__do"
+          "end": 1402
         },
         "operator": "!==",
         "right": {
           "type": "Identifier",
+          "name": "undefined",
           "start": 1407,
-          "end": 1416,
-          "name": "undefined"
-        }
+          "end": 1416
+        },
+        "start": 1394,
+        "end": 1416
       },
       "consequent": {
         "type": "BlockStatement",
-        "start": 1418,
-        "end": 1477,
         "body": [
           {
             "type": "ThrowStatement",
-            "start": 1421,
-            "end": 1475,
             "argument": {
               "type": "NewExpression",
-              "start": 1427,
-              "end": 1474,
               "callee": {
                 "type": "Identifier",
+                "name": "Test262Error",
                 "start": 1431,
-                "end": 1443,
-                "name": "Test262Error"
+                "end": 1443
               },
               "arguments": [
                 {
                   "type": "Literal",
-                  "start": 1444,
-                  "end": 1473,
                   "value": "#4: null evaluates to false",
-                  "raw": "'#4: null evaluates to false'"
+                  "raw": "'#4: null evaluates to false'",
+                  "start": 1444,
+                  "end": 1473
                 }
-              ]
-            }
+              ],
+              "start": 1427,
+              "end": 1474
+            },
+            "start": 1421,
+            "end": 1475
           }
-        ]
+        ],
+        "start": 1418,
+        "end": 1477
       },
-      "alternate": null
+      "alternate": null,
+      "start": 1390,
+      "end": 1477
     },
     {
       "type": "WhileStatement",
-      "start": 1561,
-      "end": 1593,
       "test": {
         "type": "Identifier",
+        "name": "undefined",
         "start": 1569,
-        "end": 1578,
-        "name": "undefined"
+        "end": 1578
       },
       "body": {
         "type": "ExpressionStatement",
-        "start": 1581,
-        "end": 1593,
         "expression": {
           "type": "AssignmentExpression",
-          "start": 1581,
-          "end": 1592,
           "operator": "=",
           "left": {
             "type": "Identifier",
+            "name": "__in__do",
             "start": 1581,
-            "end": 1589,
-            "name": "__in__do"
+            "end": 1589
           },
           "right": {
             "type": "Literal",
-            "start": 1590,
-            "end": 1592,
             "value": 35,
-            "raw": "35"
-          }
-        }
-      }
+            "raw": "35",
+            "start": 1590,
+            "end": 1592
+          },
+          "start": 1581,
+          "end": 1592
+        },
+        "start": 1581,
+        "end": 1593
+      },
+      "start": 1561,
+      "end": 1593
     },
     {
       "type": "IfStatement",
-      "start": 1684,
-      "end": 1776,
       "test": {
         "type": "BinaryExpression",
-        "start": 1688,
-        "end": 1710,
         "left": {
           "type": "Identifier",
+          "name": "__in__do",
           "start": 1688,
-          "end": 1696,
-          "name": "__in__do"
+          "end": 1696
         },
         "operator": "!==",
         "right": {
           "type": "Identifier",
+          "name": "undefined",
           "start": 1701,
-          "end": 1710,
-          "name": "undefined"
-        }
+          "end": 1710
+        },
+        "start": 1688,
+        "end": 1710
       },
       "consequent": {
         "type": "BlockStatement",
-        "start": 1712,
-        "end": 1776,
         "body": [
           {
             "type": "ThrowStatement",
-            "start": 1715,
-            "end": 1774,
             "argument": {
               "type": "NewExpression",
-              "start": 1721,
-              "end": 1773,
               "callee": {
                 "type": "Identifier",
+                "name": "Test262Error",
                 "start": 1725,
-                "end": 1737,
-                "name": "Test262Error"
+                "end": 1737
               },
               "arguments": [
                 {
                   "type": "Literal",
-                  "start": 1738,
-                  "end": 1772,
                   "value": "#5: undefined evaluates to false",
-                  "raw": "'#5: undefined evaluates to false'"
+                  "raw": "'#5: undefined evaluates to false'",
+                  "start": 1738,
+                  "end": 1772
                 }
-              ]
-            }
+              ],
+              "start": 1721,
+              "end": 1773
+            },
+            "start": 1715,
+            "end": 1774
           }
-        ]
+        ],
+        "start": 1712,
+        "end": 1776
       },
-      "alternate": null
+      "alternate": null,
+      "start": 1684,
+      "end": 1776
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 1859
 }

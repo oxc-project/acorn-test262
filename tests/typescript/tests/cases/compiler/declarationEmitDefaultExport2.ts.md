@@ -2,17 +2,11 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 24,
   "body": [
     {
       "type": "ExportDefaultDeclaration",
-      "start": 0,
-      "end": 24,
       "declaration": {
         "type": "ClassDeclaration",
-        "start": 15,
-        "end": 24,
         "decorators": [],
         "id": null,
         "typeParameters": null,
@@ -21,17 +15,23 @@ __ESTREE_TEST__:PASS:
         "implements": [],
         "body": {
           "type": "ClassBody",
+          "body": [],
           "start": 21,
-          "end": 24,
-          "body": []
+          "end": 24
         },
         "abstract": false,
-        "declare": false
+        "declare": false,
+        "start": 15,
+        "end": 24
       },
-      "exportKind": "value"
+      "exportKind": "value",
+      "start": 0,
+      "end": 24
     }
   ],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 24
 }
 ```

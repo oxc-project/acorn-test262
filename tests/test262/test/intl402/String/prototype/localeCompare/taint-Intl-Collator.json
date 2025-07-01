@@ -1,81 +1,81 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 390,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 329,
-      "end": 365,
       "expression": {
         "type": "CallExpression",
-        "start": 329,
-        "end": 364,
         "callee": {
           "type": "Identifier",
+          "name": "taintDataProperty",
           "start": 329,
-          "end": 346,
-          "name": "taintDataProperty"
+          "end": 346
         },
         "arguments": [
           {
             "type": "Identifier",
+            "name": "Intl",
             "start": 347,
-            "end": 351,
-            "name": "Intl"
+            "end": 351
           },
           {
             "type": "Literal",
-            "start": 353,
-            "end": 363,
             "value": "Collator",
-            "raw": "\"Collator\""
+            "raw": "\"Collator\"",
+            "start": 353,
+            "end": 363
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 329,
+        "end": 364
+      },
+      "start": 329,
+      "end": 365
     },
     {
       "type": "ExpressionStatement",
-      "start": 366,
-      "end": 389,
       "expression": {
         "type": "CallExpression",
-        "start": 366,
-        "end": 388,
         "callee": {
           "type": "MemberExpression",
-          "start": 366,
-          "end": 383,
           "object": {
             "type": "Literal",
-            "start": 366,
-            "end": 369,
             "value": "a",
-            "raw": "\"a\""
+            "raw": "\"a\"",
+            "start": 366,
+            "end": 369
           },
           "property": {
             "type": "Identifier",
+            "name": "localeCompare",
             "start": 370,
-            "end": 383,
-            "name": "localeCompare"
+            "end": 383
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 366,
+          "end": 383
         },
         "arguments": [
           {
             "type": "Literal",
-            "start": 384,
-            "end": 387,
             "value": "b",
-            "raw": "\"b\""
+            "raw": "\"b\"",
+            "start": 384,
+            "end": 387
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 366,
+        "end": 388
+      },
+      "start": 366,
+      "end": 389
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 390
 }

@@ -2,152 +2,142 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 102,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 0,
-      "end": 34,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 4,
-          "end": 33,
           "id": {
             "type": "Identifier",
-            "start": 4,
-            "end": 5,
             "decorators": [],
             "name": "a",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 4,
+            "end": 5
           },
           "init": {
             "type": "BinaryExpression",
-            "start": 8,
-            "end": 33,
             "left": {
               "type": "Literal",
-              "start": 8,
-              "end": 13,
               "value": "foo",
-              "raw": "\"foo\""
+              "raw": "\"foo\"",
+              "start": 8,
+              "end": 13
             },
             "operator": "===",
             "right": {
               "type": "TSAsExpression",
-              "start": 18,
-              "end": 33,
               "expression": {
                 "type": "Literal",
-                "start": 18,
-                "end": 23,
                 "value": "bar",
-                "raw": "\"bar\""
+                "raw": "\"bar\"",
+                "start": 18,
+                "end": 23
               },
               "typeAnnotation": {
                 "type": "TSStringKeyword",
                 "start": 27,
                 "end": 33
-              }
-            }
+              },
+              "start": 18,
+              "end": 33
+            },
+            "start": 8,
+            "end": 33
           },
-          "definite": false
+          "definite": false,
+          "start": 4,
+          "end": 33
         }
       ],
-      "declare": false
+      "declare": false,
+      "start": 0,
+      "end": 34
     },
     {
       "type": "VariableDeclaration",
-      "start": 35,
-      "end": 71,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 39,
-          "end": 70,
           "id": {
             "type": "Identifier",
-            "start": 39,
-            "end": 40,
             "decorators": [],
             "name": "b",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 39,
+            "end": 40
           },
           "init": {
             "type": "BinaryExpression",
-            "start": 43,
-            "end": 70,
             "left": {
               "type": "Literal",
-              "start": 43,
-              "end": 48,
               "value": "foo",
-              "raw": "\"foo\""
+              "raw": "\"foo\"",
+              "start": 43,
+              "end": 48
             },
             "operator": "!==",
             "right": {
               "type": "TSAsExpression",
-              "start": 54,
-              "end": 69,
               "expression": {
                 "type": "Literal",
-                "start": 54,
-                "end": 59,
                 "value": "bar",
-                "raw": "\"bar\""
+                "raw": "\"bar\"",
+                "start": 54,
+                "end": 59
               },
               "typeAnnotation": {
                 "type": "TSStringKeyword",
                 "start": 63,
                 "end": 69
-              }
-            }
+              },
+              "start": 54,
+              "end": 69
+            },
+            "start": 43,
+            "end": 70
           },
-          "definite": false
+          "definite": false,
+          "start": 39,
+          "end": 70
         }
       ],
-      "declare": false
+      "declare": false,
+      "start": 35,
+      "end": 71
     },
     {
       "type": "VariableDeclaration",
-      "start": 72,
-      "end": 102,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 76,
-          "end": 101,
           "id": {
             "type": "Identifier",
-            "start": 76,
-            "end": 77,
             "decorators": [],
             "name": "c",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 76,
+            "end": 77
           },
           "init": {
             "type": "BinaryExpression",
-            "start": 80,
-            "end": 101,
             "left": {
               "type": "Literal",
-              "start": 80,
-              "end": 85,
               "value": "foo",
-              "raw": "\"foo\""
+              "raw": "\"foo\"",
+              "start": 80,
+              "end": 85
             },
             "operator": "==",
             "right": {
               "type": "TSTypeAssertion",
-              "start": 90,
-              "end": 100,
               "typeAnnotation": {
                 "type": "TSAnyKeyword",
                 "start": 91,
@@ -155,20 +145,30 @@ __ESTREE_TEST__:PASS:
               },
               "expression": {
                 "type": "Literal",
-                "start": 95,
-                "end": 100,
                 "value": "bar",
-                "raw": "\"bar\""
-              }
-            }
+                "raw": "\"bar\"",
+                "start": 95,
+                "end": 100
+              },
+              "start": 90,
+              "end": 100
+            },
+            "start": 80,
+            "end": 101
           },
-          "definite": false
+          "definite": false,
+          "start": 76,
+          "end": 101
         }
       ],
-      "declare": false
+      "declare": false,
+      "start": 72,
+      "end": 102
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 102
 }
 ```

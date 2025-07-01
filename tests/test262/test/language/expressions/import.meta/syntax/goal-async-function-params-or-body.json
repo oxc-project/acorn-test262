@@ -1,240 +1,240 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 738,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 449,
-      "end": 500,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 453,
-          "end": 499,
           "id": {
             "type": "Identifier",
+            "name": "AsyncFunction",
             "start": 453,
-            "end": 466,
-            "name": "AsyncFunction"
+            "end": 466
           },
           "init": {
             "type": "MemberExpression",
-            "start": 469,
-            "end": 499,
             "object": {
               "type": "FunctionExpression",
-              "start": 469,
-              "end": 487,
               "id": null,
               "generator": false,
               "async": true,
               "params": [],
               "body": {
                 "type": "BlockStatement",
+                "body": [],
                 "start": 485,
-                "end": 487,
-                "body": []
+                "end": 487
               },
-              "expression": false
+              "expression": false,
+              "start": 469,
+              "end": 487
             },
             "property": {
               "type": "Identifier",
+              "name": "constructor",
               "start": 488,
-              "end": 499,
-              "name": "constructor"
+              "end": 499
             },
             "optional": false,
-            "computed": false
-          }
+            "computed": false,
+            "start": 469,
+            "end": 499
+          },
+          "start": 453,
+          "end": 499
         }
-      ]
+      ],
+      "start": 449,
+      "end": 500
     },
     {
       "type": "ExpressionStatement",
-      "start": 502,
-      "end": 615,
       "expression": {
         "type": "CallExpression",
-        "start": 502,
-        "end": 614,
         "callee": {
           "type": "MemberExpression",
-          "start": 502,
-          "end": 515,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 502,
-            "end": 508,
-            "name": "assert"
+            "end": 508
           },
           "property": {
             "type": "Identifier",
+            "name": "throws",
             "start": 509,
-            "end": 515,
-            "name": "throws"
+            "end": 515
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 502,
+          "end": 515
         },
         "arguments": [
           {
             "type": "Identifier",
+            "name": "SyntaxError",
             "start": 516,
-            "end": 527,
-            "name": "SyntaxError"
+            "end": 527
           },
           {
             "type": "FunctionExpression",
-            "start": 529,
-            "end": 577,
             "id": null,
             "generator": false,
             "async": false,
             "params": [],
             "body": {
               "type": "BlockStatement",
-              "start": 540,
-              "end": 577,
               "body": [
                 {
                   "type": "ExpressionStatement",
-                  "start": 546,
-                  "end": 575,
                   "expression": {
                     "type": "CallExpression",
-                    "start": 546,
-                    "end": 574,
                     "callee": {
                       "type": "Identifier",
+                      "name": "AsyncFunction",
                       "start": 546,
-                      "end": 559,
-                      "name": "AsyncFunction"
+                      "end": 559
                     },
                     "arguments": [
                       {
                         "type": "Literal",
-                        "start": 560,
-                        "end": 573,
                         "value": "import.meta",
-                        "raw": "\"import.meta\""
+                        "raw": "\"import.meta\"",
+                        "start": 560,
+                        "end": 573
                       }
                     ],
-                    "optional": false
-                  }
+                    "optional": false,
+                    "start": 546,
+                    "end": 574
+                  },
+                  "start": 546,
+                  "end": 575
                 }
-              ]
+              ],
+              "start": 540,
+              "end": 577
             },
-            "expression": false
+            "expression": false,
+            "start": 529,
+            "end": 577
           },
           {
             "type": "Literal",
-            "start": 579,
-            "end": 613,
             "value": "import.meta in AsyncFunctionBody",
-            "raw": "\"import.meta in AsyncFunctionBody\""
+            "raw": "\"import.meta in AsyncFunctionBody\"",
+            "start": 579,
+            "end": 613
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 502,
+        "end": 614
+      },
+      "start": 502,
+      "end": 615
     },
     {
       "type": "ExpressionStatement",
-      "start": 617,
-      "end": 737,
       "expression": {
         "type": "CallExpression",
-        "start": 617,
-        "end": 736,
         "callee": {
           "type": "MemberExpression",
-          "start": 617,
-          "end": 630,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 617,
-            "end": 623,
-            "name": "assert"
+            "end": 623
           },
           "property": {
             "type": "Identifier",
+            "name": "throws",
             "start": 624,
-            "end": 630,
-            "name": "throws"
+            "end": 630
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 617,
+          "end": 630
         },
         "arguments": [
           {
             "type": "Identifier",
+            "name": "SyntaxError",
             "start": 631,
-            "end": 642,
-            "name": "SyntaxError"
+            "end": 642
           },
           {
             "type": "FunctionExpression",
-            "start": 644,
-            "end": 700,
             "id": null,
             "generator": false,
             "async": false,
             "params": [],
             "body": {
               "type": "BlockStatement",
-              "start": 655,
-              "end": 700,
               "body": [
                 {
                   "type": "ExpressionStatement",
-                  "start": 661,
-                  "end": 698,
                   "expression": {
                     "type": "CallExpression",
-                    "start": 661,
-                    "end": 697,
                     "callee": {
                       "type": "Identifier",
+                      "name": "AsyncFunction",
                       "start": 661,
-                      "end": 674,
-                      "name": "AsyncFunction"
+                      "end": 674
                     },
                     "arguments": [
                       {
                         "type": "Literal",
-                        "start": 675,
-                        "end": 692,
                         "value": "a = import.meta",
-                        "raw": "\"a = import.meta\""
+                        "raw": "\"a = import.meta\"",
+                        "start": 675,
+                        "end": 692
                       },
                       {
                         "type": "Literal",
-                        "start": 694,
-                        "end": 696,
                         "value": "",
-                        "raw": "\"\""
+                        "raw": "\"\"",
+                        "start": 694,
+                        "end": 696
                       }
                     ],
-                    "optional": false
-                  }
+                    "optional": false,
+                    "start": 661,
+                    "end": 697
+                  },
+                  "start": 661,
+                  "end": 698
                 }
-              ]
+              ],
+              "start": 655,
+              "end": 700
             },
-            "expression": false
+            "expression": false,
+            "start": 644,
+            "end": 700
           },
           {
             "type": "Literal",
-            "start": 702,
-            "end": 735,
             "value": "import.meta in FormalParameters",
-            "raw": "\"import.meta in FormalParameters\""
+            "raw": "\"import.meta in FormalParameters\"",
+            "start": 702,
+            "end": 735
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 617,
+        "end": 736
+      },
+      "start": 617,
+      "end": 737
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 738
 }

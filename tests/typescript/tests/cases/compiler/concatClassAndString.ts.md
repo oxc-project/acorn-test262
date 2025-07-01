@@ -2,22 +2,18 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 58,
-  "end": 79,
   "body": [
     {
       "type": "ClassDeclaration",
-      "start": 58,
-      "end": 69,
       "decorators": [],
       "id": {
         "type": "Identifier",
-        "start": 64,
-        "end": 65,
         "decorators": [],
         "name": "f",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 64,
+        "end": 65
       },
       "typeParameters": null,
       "superClass": null,
@@ -25,43 +21,47 @@ __ESTREE_TEST__:PASS:
       "implements": [],
       "body": {
         "type": "ClassBody",
+        "body": [],
         "start": 66,
-        "end": 69,
-        "body": []
+        "end": 69
       },
       "abstract": false,
-      "declare": false
+      "declare": false,
+      "start": 58,
+      "end": 69
     },
     {
       "type": "ExpressionStatement",
-      "start": 71,
-      "end": 79,
       "expression": {
         "type": "AssignmentExpression",
-        "start": 71,
-        "end": 78,
         "operator": "+=",
         "left": {
           "type": "Identifier",
-          "start": 71,
-          "end": 72,
           "decorators": [],
           "name": "f",
           "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "start": 71,
+          "end": 72
         },
         "right": {
           "type": "Literal",
-          "start": 76,
-          "end": 78,
           "value": "",
-          "raw": "''"
-        }
+          "raw": "''",
+          "start": 76,
+          "end": 78
+        },
+        "start": 71,
+        "end": 78
       },
-      "directive": null
+      "directive": null,
+      "start": 71,
+      "end": 79
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 58,
+  "end": 79
 }
 ```

@@ -1,216 +1,216 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 1548,
   "body": [
     {
       "type": "TryStatement",
-      "start": 1388,
-      "end": 1432,
       "block": {
         "type": "BlockStatement",
-        "start": 1392,
-        "end": 1407,
         "body": [
           {
             "type": "ExpressionStatement",
-            "start": 1396,
-            "end": 1405,
             "expression": {
               "type": "AwaitExpression",
-              "start": 1396,
-              "end": 1404,
               "argument": {
                 "type": "Literal",
-                "start": 1402,
-                "end": 1404,
                 "value": "",
-                "raw": "''"
-              }
-            }
+                "raw": "''",
+                "start": 1402,
+                "end": 1404
+              },
+              "start": 1396,
+              "end": 1404
+            },
+            "start": 1396,
+            "end": 1405
           }
-        ]
+        ],
+        "start": 1392,
+        "end": 1407
       },
       "handler": {
         "type": "CatchClause",
-        "start": 1408,
-        "end": 1432,
         "param": {
           "type": "Identifier",
+          "name": "e",
           "start": 1414,
-          "end": 1415,
-          "name": "e"
+          "end": 1415
         },
         "body": {
           "type": "BlockStatement",
-          "start": 1417,
-          "end": 1432,
           "body": [
             {
               "type": "ExpressionStatement",
-              "start": 1421,
-              "end": 1430,
               "expression": {
                 "type": "AwaitExpression",
-                "start": 1421,
-                "end": 1429,
                 "argument": {
                   "type": "Literal",
-                  "start": 1427,
-                  "end": 1429,
                   "value": "",
-                  "raw": "''"
-                }
-              }
+                  "raw": "''",
+                  "start": 1427,
+                  "end": 1429
+                },
+                "start": 1421,
+                "end": 1429
+              },
+              "start": 1421,
+              "end": 1430
             }
-          ]
-        }
+          ],
+          "start": 1417,
+          "end": 1432
+        },
+        "start": 1408,
+        "end": 1432
       },
-      "finalizer": null
+      "finalizer": null,
+      "start": 1388,
+      "end": 1432
     },
     {
       "type": "TryStatement",
-      "start": 1434,
-      "end": 1477,
       "block": {
         "type": "BlockStatement",
-        "start": 1438,
-        "end": 1453,
         "body": [
           {
             "type": "ExpressionStatement",
-            "start": 1442,
-            "end": 1451,
             "expression": {
               "type": "AwaitExpression",
-              "start": 1442,
-              "end": 1450,
               "argument": {
                 "type": "Literal",
-                "start": 1448,
-                "end": 1450,
                 "value": "",
-                "raw": "''"
-              }
-            }
+                "raw": "''",
+                "start": 1448,
+                "end": 1450
+              },
+              "start": 1442,
+              "end": 1450
+            },
+            "start": 1442,
+            "end": 1451
           }
-        ]
+        ],
+        "start": 1438,
+        "end": 1453
       },
       "handler": null,
       "finalizer": {
         "type": "BlockStatement",
-        "start": 1462,
-        "end": 1477,
         "body": [
           {
             "type": "ExpressionStatement",
-            "start": 1466,
-            "end": 1475,
             "expression": {
               "type": "AwaitExpression",
-              "start": 1466,
-              "end": 1474,
               "argument": {
                 "type": "Literal",
-                "start": 1472,
-                "end": 1474,
                 "value": "",
-                "raw": "''"
-              }
-            }
+                "raw": "''",
+                "start": 1472,
+                "end": 1474
+              },
+              "start": 1466,
+              "end": 1474
+            },
+            "start": 1466,
+            "end": 1475
           }
-        ]
-      }
+        ],
+        "start": 1462,
+        "end": 1477
+      },
+      "start": 1434,
+      "end": 1477
     },
     {
       "type": "TryStatement",
-      "start": 1479,
-      "end": 1547,
       "block": {
         "type": "BlockStatement",
-        "start": 1483,
-        "end": 1498,
         "body": [
           {
             "type": "ExpressionStatement",
-            "start": 1487,
-            "end": 1496,
             "expression": {
               "type": "AwaitExpression",
-              "start": 1487,
-              "end": 1495,
               "argument": {
                 "type": "Literal",
-                "start": 1493,
-                "end": 1495,
                 "value": "",
-                "raw": "''"
-              }
-            }
+                "raw": "''",
+                "start": 1493,
+                "end": 1495
+              },
+              "start": 1487,
+              "end": 1495
+            },
+            "start": 1487,
+            "end": 1496
           }
-        ]
+        ],
+        "start": 1483,
+        "end": 1498
       },
       "handler": {
         "type": "CatchClause",
-        "start": 1499,
-        "end": 1523,
         "param": {
           "type": "Identifier",
+          "name": "e",
           "start": 1505,
-          "end": 1506,
-          "name": "e"
+          "end": 1506
         },
         "body": {
           "type": "BlockStatement",
-          "start": 1508,
-          "end": 1523,
           "body": [
             {
               "type": "ExpressionStatement",
-              "start": 1512,
-              "end": 1521,
               "expression": {
                 "type": "AwaitExpression",
-                "start": 1512,
-                "end": 1520,
                 "argument": {
                   "type": "Literal",
-                  "start": 1518,
-                  "end": 1520,
                   "value": "",
-                  "raw": "''"
-                }
-              }
+                  "raw": "''",
+                  "start": 1518,
+                  "end": 1520
+                },
+                "start": 1512,
+                "end": 1520
+              },
+              "start": 1512,
+              "end": 1521
             }
-          ]
-        }
+          ],
+          "start": 1508,
+          "end": 1523
+        },
+        "start": 1499,
+        "end": 1523
       },
       "finalizer": {
         "type": "BlockStatement",
-        "start": 1532,
-        "end": 1547,
         "body": [
           {
             "type": "ExpressionStatement",
-            "start": 1536,
-            "end": 1545,
             "expression": {
               "type": "AwaitExpression",
-              "start": 1536,
-              "end": 1544,
               "argument": {
                 "type": "Literal",
-                "start": 1542,
-                "end": 1544,
                 "value": "",
-                "raw": "''"
-              }
-            }
+                "raw": "''",
+                "start": 1542,
+                "end": 1544
+              },
+              "start": 1536,
+              "end": 1544
+            },
+            "start": 1536,
+            "end": 1545
           }
-        ]
-      }
+        ],
+        "start": 1532,
+        "end": 1547
+      },
+      "start": 1479,
+      "end": 1547
     }
   ],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 1548
 }

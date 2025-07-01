@@ -1,86 +1,86 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 420,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 281,
-      "end": 419,
       "expression": {
         "type": "CallExpression",
-        "start": 281,
-        "end": 418,
         "callee": {
           "type": "MemberExpression",
-          "start": 281,
-          "end": 297,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 281,
-            "end": 287,
-            "name": "assert"
+            "end": 287
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 288,
-            "end": 297,
-            "name": "sameValue"
+            "end": 297
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 281,
+          "end": 297
         },
         "arguments": [
           {
             "type": "MemberExpression",
-            "start": 301,
-            "end": 327,
             "object": {
               "type": "MemberExpression",
-              "start": 301,
-              "end": 317,
               "object": {
                 "type": "Identifier",
+                "name": "Object",
                 "start": 301,
-                "end": 307,
-                "name": "Object"
+                "end": 307
               },
               "property": {
                 "type": "Identifier",
+                "name": "prototype",
                 "start": 308,
-                "end": 317,
-                "name": "prototype"
+                "end": 317
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 301,
+              "end": 317
             },
             "property": {
               "type": "Identifier",
+              "name": "prototype",
               "start": 318,
-              "end": 327,
-              "name": "prototype"
+              "end": 327
             },
             "optional": false,
-            "computed": false
+            "computed": false,
+            "start": 301,
+            "end": 327
           },
           {
             "type": "Identifier",
+            "name": "undefined",
             "start": 331,
-            "end": 340,
-            "name": "undefined"
+            "end": 340
           },
           {
             "type": "Literal",
-            "start": 344,
-            "end": 416,
             "value": "The value of Object.prototype.prototype is expected to equal undefined",
-            "raw": "'The value of Object.prototype.prototype is expected to equal undefined'"
+            "raw": "'The value of Object.prototype.prototype is expected to equal undefined'",
+            "start": 344,
+            "end": 416
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 281,
+        "end": 418
+      },
+      "start": 281,
+      "end": 419
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 420
 }

@@ -2,22 +2,18 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 270,
   "body": [
     {
       "type": "ClassDeclaration",
-      "start": 0,
-      "end": 270,
       "decorators": [],
       "id": {
         "type": "Identifier",
-        "start": 6,
-        "end": 7,
         "decorators": [],
         "name": "B",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 6,
+        "end": 7
       },
       "typeParameters": null,
       "superClass": null,
@@ -25,28 +21,24 @@ __ESTREE_TEST__:PASS:
       "implements": [],
       "body": {
         "type": "ClassBody",
-        "start": 8,
-        "end": 270,
         "body": [
           {
             "type": "PropertyDefinition",
-            "start": 14,
-            "end": 27,
             "decorators": [],
             "key": {
               "type": "Literal",
-              "start": 14,
-              "end": 21,
               "value": "hello",
-              "raw": "\"hello\""
+              "raw": "\"hello\"",
+              "start": 14,
+              "end": 21
             },
             "typeAnnotation": null,
             "value": {
               "type": "Literal",
-              "start": 24,
-              "end": 26,
               "value": 10,
-              "raw": "10"
+              "raw": "10",
+              "start": 24,
+              "end": 26
             },
             "computed": false,
             "static": false,
@@ -55,27 +47,27 @@ __ESTREE_TEST__:PASS:
             "optional": false,
             "definite": false,
             "readonly": false,
-            "accessibility": null
+            "accessibility": null,
+            "start": 14,
+            "end": 27
           },
           {
             "type": "PropertyDefinition",
-            "start": 32,
-            "end": 48,
             "decorators": [],
             "key": {
               "type": "Literal",
-              "start": 32,
-              "end": 37,
               "value": 6,
-              "raw": "0b110"
+              "raw": "0b110",
+              "start": 32,
+              "end": 37
             },
             "typeAnnotation": null,
             "value": {
               "type": "Literal",
-              "start": 40,
-              "end": 47,
               "value": "world",
-              "raw": "\"world\""
+              "raw": "\"world\"",
+              "start": 40,
+              "end": 47
             },
             "computed": false,
             "static": false,
@@ -84,27 +76,27 @@ __ESTREE_TEST__:PASS:
             "optional": false,
             "definite": false,
             "readonly": false,
-            "accessibility": null
+            "accessibility": null,
+            "start": 32,
+            "end": 48
           },
           {
             "type": "PropertyDefinition",
-            "start": 53,
-            "end": 71,
             "decorators": [],
             "key": {
               "type": "Literal",
-              "start": 53,
-              "end": 60,
               "value": 10076,
-              "raw": "0o23534"
+              "raw": "0o23534",
+              "start": 53,
+              "end": 60
             },
             "typeAnnotation": null,
             "value": {
               "type": "Literal",
-              "start": 63,
-              "end": 70,
               "value": "WORLD",
-              "raw": "\"WORLD\""
+              "raw": "\"WORLD\"",
+              "start": 63,
+              "end": 70
             },
             "computed": false,
             "static": false,
@@ -113,27 +105,27 @@ __ESTREE_TEST__:PASS:
             "optional": false,
             "definite": false,
             "readonly": false,
-            "accessibility": null
+            "accessibility": null,
+            "start": 53,
+            "end": 71
           },
           {
             "type": "PropertyDefinition",
-            "start": 76,
-            "end": 90,
             "decorators": [],
             "key": {
               "type": "Literal",
-              "start": 76,
-              "end": 78,
               "value": 20,
-              "raw": "20"
+              "raw": "20",
+              "start": 76,
+              "end": 78
             },
             "typeAnnotation": null,
             "value": {
               "type": "Literal",
-              "start": 81,
-              "end": 89,
               "value": "twenty",
-              "raw": "\"twenty\""
+              "raw": "\"twenty\"",
+              "start": 81,
+              "end": 89
             },
             "computed": false,
             "static": false,
@@ -142,24 +134,22 @@ __ESTREE_TEST__:PASS:
             "optional": false,
             "definite": false,
             "readonly": false,
-            "accessibility": null
+            "accessibility": null,
+            "start": 76,
+            "end": 90
           },
           {
             "type": "MethodDefinition",
-            "start": 95,
-            "end": 106,
             "decorators": [],
             "key": {
               "type": "Literal",
-              "start": 95,
-              "end": 100,
               "value": "foo",
-              "raw": "\"foo\""
+              "raw": "\"foo\"",
+              "start": 95,
+              "end": 100
             },
             "value": {
               "type": "FunctionExpression",
-              "start": 100,
-              "end": 106,
               "id": null,
               "generator": false,
               "async": false,
@@ -169,35 +159,35 @@ __ESTREE_TEST__:PASS:
               "returnType": null,
               "body": {
                 "type": "BlockStatement",
+                "body": [],
                 "start": 103,
-                "end": 106,
-                "body": []
+                "end": 106
               },
-              "expression": false
+              "expression": false,
+              "start": 100,
+              "end": 106
             },
             "kind": "method",
             "computed": false,
             "static": false,
             "override": false,
             "optional": false,
-            "accessibility": null
+            "accessibility": null,
+            "start": 95,
+            "end": 106
           },
           {
             "type": "MethodDefinition",
-            "start": 111,
-            "end": 122,
             "decorators": [],
             "key": {
               "type": "Literal",
-              "start": 111,
-              "end": 117,
               "value": 14,
-              "raw": "0b1110"
+              "raw": "0b1110",
+              "start": 111,
+              "end": 117
             },
             "value": {
               "type": "FunctionExpression",
-              "start": 117,
-              "end": 122,
               "id": null,
               "generator": false,
               "async": false,
@@ -207,35 +197,35 @@ __ESTREE_TEST__:PASS:
               "returnType": null,
               "body": {
                 "type": "BlockStatement",
+                "body": [],
                 "start": 120,
-                "end": 122,
-                "body": []
+                "end": 122
               },
-              "expression": false
+              "expression": false,
+              "start": 117,
+              "end": 122
             },
             "kind": "method",
             "computed": false,
             "static": false,
             "override": false,
             "optional": false,
-            "accessibility": null
+            "accessibility": null,
+            "start": 111,
+            "end": 122
           },
           {
             "type": "MethodDefinition",
-            "start": 127,
-            "end": 135,
             "decorators": [],
             "key": {
               "type": "Literal",
-              "start": 127,
-              "end": 129,
               "value": 11,
-              "raw": "11"
+              "raw": "11",
+              "start": 127,
+              "end": 129
             },
             "value": {
               "type": "FunctionExpression",
-              "start": 129,
-              "end": 135,
               "id": null,
               "generator": false,
               "async": false,
@@ -245,37 +235,37 @@ __ESTREE_TEST__:PASS:
               "returnType": null,
               "body": {
                 "type": "BlockStatement",
+                "body": [],
                 "start": 132,
-                "end": 135,
-                "body": []
+                "end": 135
               },
-              "expression": false
+              "expression": false,
+              "start": 129,
+              "end": 135
             },
             "kind": "method",
             "computed": false,
             "static": false,
             "override": false,
             "optional": false,
-            "accessibility": null
+            "accessibility": null,
+            "start": 127,
+            "end": 135
           },
           {
             "type": "MethodDefinition",
-            "start": 140,
-            "end": 155,
             "decorators": [],
             "key": {
               "type": "Identifier",
-              "start": 140,
-              "end": 149,
               "decorators": [],
               "name": "interface",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 140,
+              "end": 149
             },
             "value": {
               "type": "FunctionExpression",
-              "start": 149,
-              "end": 155,
               "id": null,
               "generator": false,
               "async": false,
@@ -285,38 +275,40 @@ __ESTREE_TEST__:PASS:
               "returnType": null,
               "body": {
                 "type": "BlockStatement",
+                "body": [],
                 "start": 152,
-                "end": 155,
-                "body": []
+                "end": 155
               },
-              "expression": false
+              "expression": false,
+              "start": 149,
+              "end": 155
             },
             "kind": "method",
             "computed": false,
             "static": false,
             "override": false,
             "optional": false,
-            "accessibility": null
+            "accessibility": null,
+            "start": 140,
+            "end": 155
           },
           {
             "type": "PropertyDefinition",
-            "start": 160,
-            "end": 180,
             "decorators": [],
             "key": {
               "type": "Literal",
-              "start": 167,
-              "end": 171,
               "value": "hi",
-              "raw": "\"hi\""
+              "raw": "\"hi\"",
+              "start": 167,
+              "end": 171
             },
             "typeAnnotation": null,
             "value": {
               "type": "Literal",
-              "start": 174,
-              "end": 179,
               "value": 10000,
-              "raw": "10000"
+              "raw": "10000",
+              "start": 174,
+              "end": 179
             },
             "computed": false,
             "static": true,
@@ -325,27 +317,27 @@ __ESTREE_TEST__:PASS:
             "optional": false,
             "definite": false,
             "readonly": false,
-            "accessibility": null
+            "accessibility": null,
+            "start": 160,
+            "end": 180
           },
           {
             "type": "PropertyDefinition",
-            "start": 185,
-            "end": 210,
             "decorators": [],
             "key": {
               "type": "Literal",
-              "start": 192,
-              "end": 194,
               "value": 22,
-              "raw": "22"
+              "raw": "22",
+              "start": 192,
+              "end": 194
             },
             "typeAnnotation": null,
             "value": {
               "type": "Literal",
-              "start": 197,
-              "end": 209,
               "value": "twenty-two",
-              "raw": "\"twenty-two\""
+              "raw": "\"twenty-two\"",
+              "start": 197,
+              "end": 209
             },
             "computed": false,
             "static": true,
@@ -354,27 +346,27 @@ __ESTREE_TEST__:PASS:
             "optional": false,
             "definite": false,
             "readonly": false,
-            "accessibility": null
+            "accessibility": null,
+            "start": 185,
+            "end": 210
           },
           {
             "type": "PropertyDefinition",
-            "start": 215,
-            "end": 239,
             "decorators": [],
             "key": {
               "type": "Literal",
-              "start": 222,
-              "end": 227,
               "value": 5,
-              "raw": "0b101"
+              "raw": "0b101",
+              "start": 222,
+              "end": 227
             },
             "typeAnnotation": null,
             "value": {
               "type": "Literal",
-              "start": 230,
-              "end": 238,
               "value": "binary",
-              "raw": "\"binary\""
+              "raw": "\"binary\"",
+              "start": 230,
+              "end": 238
             },
             "computed": false,
             "static": true,
@@ -383,27 +375,27 @@ __ESTREE_TEST__:PASS:
             "optional": false,
             "definite": false,
             "readonly": false,
-            "accessibility": null
+            "accessibility": null,
+            "start": 215,
+            "end": 239
           },
           {
             "type": "PropertyDefinition",
-            "start": 244,
-            "end": 268,
             "decorators": [],
             "key": {
               "type": "Literal",
-              "start": 251,
-              "end": 257,
               "value": 1693,
-              "raw": "0o3235"
+              "raw": "0o3235",
+              "start": 251,
+              "end": 257
             },
             "typeAnnotation": null,
             "value": {
               "type": "Literal",
-              "start": 260,
-              "end": 267,
               "value": "octal",
-              "raw": "\"octal\""
+              "raw": "\"octal\"",
+              "start": 260,
+              "end": 267
             },
             "computed": false,
             "static": true,
@@ -412,15 +404,23 @@ __ESTREE_TEST__:PASS:
             "optional": false,
             "definite": false,
             "readonly": false,
-            "accessibility": null
+            "accessibility": null,
+            "start": 244,
+            "end": 268
           }
-        ]
+        ],
+        "start": 8,
+        "end": 270
       },
       "abstract": false,
-      "declare": false
+      "declare": false,
+      "start": 0,
+      "end": 270
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 270
 }
 ```

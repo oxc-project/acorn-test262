@@ -2,21 +2,17 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 77,
   "body": [
     {
       "type": "FunctionDeclaration",
-      "start": 0,
-      "end": 18,
       "id": {
         "type": "Identifier",
-        "start": 9,
-        "end": 13,
         "decorators": [],
         "name": "salt",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 9,
+        "end": 13
       },
       "generator": false,
       "async": false,
@@ -26,105 +22,109 @@ __ESTREE_TEST__:PASS:
       "returnType": null,
       "body": {
         "type": "BlockStatement",
+        "body": [],
         "start": 16,
-        "end": 18,
-        "body": []
+        "end": 18
       },
-      "expression": false
+      "expression": false,
+      "start": 0,
+      "end": 18
     },
     {
       "type": "ExpressionStatement",
-      "start": 19,
-      "end": 43,
       "expression": {
         "type": "CallExpression",
-        "start": 19,
-        "end": 42,
         "callee": {
           "type": "MemberExpression",
-          "start": 19,
-          "end": 29,
           "object": {
             "type": "Identifier",
-            "start": 19,
-            "end": 23,
             "decorators": [],
             "name": "salt",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 19,
+            "end": 23
           },
           "property": {
             "type": "Identifier",
-            "start": 24,
-            "end": 29,
             "decorators": [],
             "name": "apply",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 24,
+            "end": 29
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 19,
+          "end": 29
         },
         "typeArguments": null,
         "arguments": [
           {
             "type": "Literal",
-            "start": 30,
-            "end": 37,
             "value": "hello",
-            "raw": "\"hello\""
+            "raw": "\"hello\"",
+            "start": 30,
+            "end": 37
           },
           {
             "type": "ArrayExpression",
+            "elements": [],
             "start": 39,
-            "end": 41,
-            "elements": []
+            "end": 41
           }
         ],
-        "optional": false
+        "optional": false,
+        "start": 19,
+        "end": 42
       },
-      "directive": null
+      "directive": null,
+      "start": 19,
+      "end": 43
     },
     {
       "type": "ExpressionStatement",
-      "start": 44,
-      "end": 73,
       "expression": {
         "type": "CallExpression",
-        "start": 44,
-        "end": 72,
         "callee": {
           "type": "NewExpression",
-          "start": 45,
-          "end": 69,
           "callee": {
             "type": "Identifier",
-            "start": 49,
-            "end": 57,
             "decorators": [],
             "name": "Function",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 49,
+            "end": 57
           },
           "typeArguments": null,
           "arguments": [
             {
               "type": "Literal",
-              "start": 58,
-              "end": 68,
               "value": "return 5",
-              "raw": "\"return 5\""
+              "raw": "\"return 5\"",
+              "start": 58,
+              "end": 68
             }
-          ]
+          ],
+          "start": 45,
+          "end": 69
         },
         "typeArguments": null,
         "arguments": [],
-        "optional": false
+        "optional": false,
+        "start": 44,
+        "end": 72
       },
-      "directive": null
+      "directive": null,
+      "start": 44,
+      "end": 73
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 77
 }
 ```

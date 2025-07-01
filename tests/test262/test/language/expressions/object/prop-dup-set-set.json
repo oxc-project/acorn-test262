@@ -1,104 +1,104 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 302,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 254,
-      "end": 301,
       "expression": {
         "type": "UnaryExpression",
-        "start": 254,
-        "end": 300,
         "operator": "void",
         "argument": {
           "type": "ObjectExpression",
-          "start": 259,
-          "end": 300,
           "properties": [
             {
               "type": "Property",
-              "start": 263,
-              "end": 278,
               "kind": "set",
               "key": {
                 "type": "Identifier",
+                "name": "foo",
                 "start": 267,
-                "end": 270,
-                "name": "foo"
+                "end": 270
               },
               "value": {
                 "type": "FunctionExpression",
-                "start": 270,
-                "end": 278,
                 "id": null,
                 "generator": false,
                 "async": false,
                 "params": [
                   {
                     "type": "Identifier",
+                    "name": "arg",
                     "start": 271,
-                    "end": 274,
-                    "name": "arg"
+                    "end": 274
                   }
                 ],
                 "body": {
                   "type": "BlockStatement",
+                  "body": [],
                   "start": 276,
-                  "end": 278,
-                  "body": []
+                  "end": 278
                 },
-                "expression": false
+                "expression": false,
+                "start": 270,
+                "end": 278
               },
               "method": false,
               "shorthand": false,
-              "computed": false
+              "computed": false,
+              "start": 263,
+              "end": 278
             },
             {
               "type": "Property",
-              "start": 282,
-              "end": 298,
               "kind": "set",
               "key": {
                 "type": "Identifier",
+                "name": "foo",
                 "start": 286,
-                "end": 289,
-                "name": "foo"
+                "end": 289
               },
               "value": {
                 "type": "FunctionExpression",
-                "start": 289,
-                "end": 298,
                 "id": null,
                 "generator": false,
                 "async": false,
                 "params": [
                   {
                     "type": "Identifier",
+                    "name": "arg1",
                     "start": 290,
-                    "end": 294,
-                    "name": "arg1"
+                    "end": 294
                   }
                 ],
                 "body": {
                   "type": "BlockStatement",
+                  "body": [],
                   "start": 296,
-                  "end": 298,
-                  "body": []
+                  "end": 298
                 },
-                "expression": false
+                "expression": false,
+                "start": 289,
+                "end": 298
               },
               "method": false,
               "shorthand": false,
-              "computed": false
+              "computed": false,
+              "start": 282,
+              "end": 298
             }
-          ]
+          ],
+          "start": 259,
+          "end": 300
         },
-        "prefix": true
-      }
+        "prefix": true,
+        "start": 254,
+        "end": 300
+      },
+      "start": 254,
+      "end": 301
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 302
 }

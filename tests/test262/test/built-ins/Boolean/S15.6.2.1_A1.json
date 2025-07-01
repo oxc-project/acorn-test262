@@ -1,629 +1,629 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 1292,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 372,
-      "end": 487,
       "expression": {
         "type": "CallExpression",
-        "start": 372,
-        "end": 486,
         "callee": {
           "type": "MemberExpression",
-          "start": 372,
-          "end": 388,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 372,
-            "end": 378,
-            "name": "assert"
+            "end": 378
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 379,
-            "end": 388,
-            "name": "sameValue"
+            "end": 388
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 372,
+          "end": 388
         },
         "arguments": [
           {
             "type": "UnaryExpression",
-            "start": 389,
-            "end": 409,
             "operator": "typeof",
             "argument": {
               "type": "NewExpression",
-              "start": 396,
-              "end": 409,
               "callee": {
                 "type": "Identifier",
+                "name": "Boolean",
                 "start": 400,
-                "end": 407,
-                "name": "Boolean"
+                "end": 407
               },
-              "arguments": []
+              "arguments": [],
+              "start": 396,
+              "end": 409
             },
-            "prefix": true
+            "prefix": true,
+            "start": 389,
+            "end": 409
           },
           {
             "type": "Literal",
-            "start": 411,
-            "end": 419,
             "value": "object",
-            "raw": "\"object\""
+            "raw": "\"object\"",
+            "start": 411,
+            "end": 419
           },
           {
             "type": "Literal",
-            "start": 421,
-            "end": 485,
             "value": "The value of `typeof new Boolean()` is expected to be \"object\"",
-            "raw": "'The value of `typeof new Boolean()` is expected to be \"object\"'"
+            "raw": "'The value of `typeof new Boolean()` is expected to be \"object\"'",
+            "start": 421,
+            "end": 485
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 372,
+        "end": 486
+      },
+      "start": 372,
+      "end": 487
     },
     {
       "type": "ExpressionStatement",
-      "start": 488,
-      "end": 590,
       "expression": {
         "type": "CallExpression",
-        "start": 488,
-        "end": 589,
         "callee": {
           "type": "MemberExpression",
-          "start": 488,
-          "end": 507,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 488,
-            "end": 494,
-            "name": "assert"
+            "end": 494
           },
           "property": {
             "type": "Identifier",
+            "name": "notSameValue",
             "start": 495,
-            "end": 507,
-            "name": "notSameValue"
+            "end": 507
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 488,
+          "end": 507
         },
         "arguments": [
           {
             "type": "NewExpression",
-            "start": 508,
-            "end": 521,
             "callee": {
               "type": "Identifier",
+              "name": "Boolean",
               "start": 512,
-              "end": 519,
-              "name": "Boolean"
+              "end": 519
             },
-            "arguments": []
+            "arguments": [],
+            "start": 508,
+            "end": 521
           },
           {
             "type": "Identifier",
+            "name": "undefined",
             "start": 523,
-            "end": 532,
-            "name": "undefined"
+            "end": 532
           },
           {
             "type": "Literal",
-            "start": 534,
-            "end": 588,
             "value": "new Boolean() is expected to not equal ``undefined``",
-            "raw": "'new Boolean() is expected to not equal ``undefined``'"
+            "raw": "'new Boolean() is expected to not equal ``undefined``'",
+            "start": 534,
+            "end": 588
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 488,
+        "end": 589
+      },
+      "start": 488,
+      "end": 590
     },
     {
       "type": "VariableDeclaration",
-      "start": 592,
-      "end": 615,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 596,
-          "end": 614,
           "id": {
             "type": "Identifier",
+            "name": "x3",
             "start": 596,
-            "end": 598,
-            "name": "x3"
+            "end": 598
           },
           "init": {
             "type": "NewExpression",
-            "start": 601,
-            "end": 614,
             "callee": {
               "type": "Identifier",
+              "name": "Boolean",
               "start": 605,
-              "end": 612,
-              "name": "Boolean"
+              "end": 612
             },
-            "arguments": []
-          }
+            "arguments": [],
+            "start": 601,
+            "end": 614
+          },
+          "start": 596,
+          "end": 614
         }
-      ]
+      ],
+      "start": 592,
+      "end": 615
     },
     {
       "type": "ExpressionStatement",
-      "start": 616,
-      "end": 709,
       "expression": {
         "type": "CallExpression",
-        "start": 616,
-        "end": 708,
         "callee": {
           "type": "MemberExpression",
-          "start": 616,
-          "end": 632,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 616,
-            "end": 622,
-            "name": "assert"
+            "end": 622
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 623,
-            "end": 632,
-            "name": "sameValue"
+            "end": 632
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 616,
+          "end": 632
         },
         "arguments": [
           {
             "type": "UnaryExpression",
-            "start": 633,
-            "end": 642,
             "operator": "typeof",
             "argument": {
               "type": "Identifier",
+              "name": "x3",
               "start": 640,
-              "end": 642,
-              "name": "x3"
+              "end": 642
             },
-            "prefix": true
+            "prefix": true,
+            "start": 633,
+            "end": 642
           },
           {
             "type": "Literal",
-            "start": 644,
-            "end": 652,
             "value": "object",
-            "raw": "\"object\""
+            "raw": "\"object\"",
+            "start": 644,
+            "end": 652
           },
           {
             "type": "Literal",
-            "start": 654,
-            "end": 707,
             "value": "The value of `typeof x3` is expected to be \"object\"",
-            "raw": "'The value of `typeof x3` is expected to be \"object\"'"
+            "raw": "'The value of `typeof x3` is expected to be \"object\"'",
+            "start": 654,
+            "end": 707
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 616,
+        "end": 708
+      },
+      "start": 616,
+      "end": 709
     },
     {
       "type": "VariableDeclaration",
-      "start": 711,
-      "end": 734,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 715,
-          "end": 733,
           "id": {
             "type": "Identifier",
+            "name": "x4",
             "start": 715,
-            "end": 717,
-            "name": "x4"
+            "end": 717
           },
           "init": {
             "type": "NewExpression",
-            "start": 720,
-            "end": 733,
             "callee": {
               "type": "Identifier",
+              "name": "Boolean",
               "start": 724,
-              "end": 731,
-              "name": "Boolean"
+              "end": 731
             },
-            "arguments": []
-          }
+            "arguments": [],
+            "start": 720,
+            "end": 733
+          },
+          "start": 715,
+          "end": 733
         }
-      ]
+      ],
+      "start": 711,
+      "end": 734
     },
     {
       "type": "ExpressionStatement",
-      "start": 735,
-      "end": 828,
       "expression": {
         "type": "CallExpression",
-        "start": 735,
-        "end": 827,
         "callee": {
           "type": "MemberExpression",
-          "start": 735,
-          "end": 754,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 735,
-            "end": 741,
-            "name": "assert"
+            "end": 741
           },
           "property": {
             "type": "Identifier",
+            "name": "notSameValue",
             "start": 742,
-            "end": 754,
-            "name": "notSameValue"
+            "end": 754
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 735,
+          "end": 754
         },
         "arguments": [
           {
             "type": "Identifier",
+            "name": "x4",
             "start": 755,
-            "end": 757,
-            "name": "x4"
+            "end": 757
           },
           {
             "type": "Identifier",
+            "name": "undefined",
             "start": 759,
-            "end": 768,
-            "name": "undefined"
+            "end": 768
           },
           {
             "type": "Literal",
-            "start": 770,
-            "end": 826,
             "value": "The value of x4 is expected to not equal ``undefined``",
-            "raw": "'The value of x4 is expected to not equal ``undefined``'"
+            "raw": "'The value of x4 is expected to not equal ``undefined``'",
+            "start": 770,
+            "end": 826
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 735,
+        "end": 827
+      },
+      "start": 735,
+      "end": 828
     },
     {
       "type": "ExpressionStatement",
-      "start": 829,
-      "end": 946,
       "expression": {
         "type": "CallExpression",
-        "start": 829,
-        "end": 945,
         "callee": {
           "type": "MemberExpression",
-          "start": 829,
-          "end": 845,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 829,
-            "end": 835,
-            "name": "assert"
+            "end": 835
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 836,
-            "end": 845,
-            "name": "sameValue"
+            "end": 845
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 829,
+          "end": 845
         },
         "arguments": [
           {
             "type": "UnaryExpression",
-            "start": 846,
-            "end": 867,
             "operator": "typeof",
             "argument": {
               "type": "NewExpression",
-              "start": 853,
-              "end": 867,
               "callee": {
                 "type": "Identifier",
+                "name": "Boolean",
                 "start": 857,
-                "end": 864,
-                "name": "Boolean"
+                "end": 864
               },
               "arguments": [
                 {
                   "type": "Literal",
-                  "start": 865,
-                  "end": 866,
                   "value": 1,
-                  "raw": "1"
+                  "raw": "1",
+                  "start": 865,
+                  "end": 866
                 }
-              ]
+              ],
+              "start": 853,
+              "end": 867
             },
-            "prefix": true
+            "prefix": true,
+            "start": 846,
+            "end": 867
           },
           {
             "type": "Literal",
-            "start": 869,
-            "end": 877,
             "value": "object",
-            "raw": "\"object\""
+            "raw": "\"object\"",
+            "start": 869,
+            "end": 877
           },
           {
             "type": "Literal",
-            "start": 879,
-            "end": 944,
             "value": "The value of `typeof new Boolean(1)` is expected to be \"object\"",
-            "raw": "'The value of `typeof new Boolean(1)` is expected to be \"object\"'"
+            "raw": "'The value of `typeof new Boolean(1)` is expected to be \"object\"'",
+            "start": 879,
+            "end": 944
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 829,
+        "end": 945
+      },
+      "start": 829,
+      "end": 946
     },
     {
       "type": "ExpressionStatement",
-      "start": 947,
-      "end": 1051,
       "expression": {
         "type": "CallExpression",
-        "start": 947,
-        "end": 1050,
         "callee": {
           "type": "MemberExpression",
-          "start": 947,
-          "end": 966,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 947,
-            "end": 953,
-            "name": "assert"
+            "end": 953
           },
           "property": {
             "type": "Identifier",
+            "name": "notSameValue",
             "start": 954,
-            "end": 966,
-            "name": "notSameValue"
+            "end": 966
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 947,
+          "end": 966
         },
         "arguments": [
           {
             "type": "NewExpression",
-            "start": 967,
-            "end": 981,
             "callee": {
               "type": "Identifier",
+              "name": "Boolean",
               "start": 971,
-              "end": 978,
-              "name": "Boolean"
+              "end": 978
             },
             "arguments": [
               {
                 "type": "Literal",
-                "start": 979,
-                "end": 980,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "start": 979,
+                "end": 980
               }
-            ]
+            ],
+            "start": 967,
+            "end": 981
           },
           {
             "type": "Identifier",
+            "name": "undefined",
             "start": 983,
-            "end": 992,
-            "name": "undefined"
+            "end": 992
           },
           {
             "type": "Literal",
-            "start": 994,
-            "end": 1049,
             "value": "new Boolean(1) is expected to not equal ``undefined``",
-            "raw": "'new Boolean(1) is expected to not equal ``undefined``'"
+            "raw": "'new Boolean(1) is expected to not equal ``undefined``'",
+            "start": 994,
+            "end": 1049
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 947,
+        "end": 1050
+      },
+      "start": 947,
+      "end": 1051
     },
     {
       "type": "VariableDeclaration",
-      "start": 1053,
-      "end": 1077,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 1057,
-          "end": 1076,
           "id": {
             "type": "Identifier",
+            "name": "x7",
             "start": 1057,
-            "end": 1059,
-            "name": "x7"
+            "end": 1059
           },
           "init": {
             "type": "NewExpression",
-            "start": 1062,
-            "end": 1076,
             "callee": {
               "type": "Identifier",
+              "name": "Boolean",
               "start": 1066,
-              "end": 1073,
-              "name": "Boolean"
+              "end": 1073
             },
             "arguments": [
               {
                 "type": "Literal",
-                "start": 1074,
-                "end": 1075,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "start": 1074,
+                "end": 1075
               }
-            ]
-          }
+            ],
+            "start": 1062,
+            "end": 1076
+          },
+          "start": 1057,
+          "end": 1076
         }
-      ]
+      ],
+      "start": 1053,
+      "end": 1077
     },
     {
       "type": "ExpressionStatement",
-      "start": 1078,
-      "end": 1171,
       "expression": {
         "type": "CallExpression",
-        "start": 1078,
-        "end": 1170,
         "callee": {
           "type": "MemberExpression",
-          "start": 1078,
-          "end": 1094,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 1078,
-            "end": 1084,
-            "name": "assert"
+            "end": 1084
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 1085,
-            "end": 1094,
-            "name": "sameValue"
+            "end": 1094
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 1078,
+          "end": 1094
         },
         "arguments": [
           {
             "type": "UnaryExpression",
-            "start": 1095,
-            "end": 1104,
             "operator": "typeof",
             "argument": {
               "type": "Identifier",
+              "name": "x7",
               "start": 1102,
-              "end": 1104,
-              "name": "x7"
+              "end": 1104
             },
-            "prefix": true
+            "prefix": true,
+            "start": 1095,
+            "end": 1104
           },
           {
             "type": "Literal",
-            "start": 1106,
-            "end": 1114,
             "value": "object",
-            "raw": "\"object\""
+            "raw": "\"object\"",
+            "start": 1106,
+            "end": 1114
           },
           {
             "type": "Literal",
-            "start": 1116,
-            "end": 1169,
             "value": "The value of `typeof x7` is expected to be \"object\"",
-            "raw": "'The value of `typeof x7` is expected to be \"object\"'"
+            "raw": "'The value of `typeof x7` is expected to be \"object\"'",
+            "start": 1116,
+            "end": 1169
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 1078,
+        "end": 1170
+      },
+      "start": 1078,
+      "end": 1171
     },
     {
       "type": "VariableDeclaration",
-      "start": 1173,
-      "end": 1197,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 1177,
-          "end": 1196,
           "id": {
             "type": "Identifier",
+            "name": "x8",
             "start": 1177,
-            "end": 1179,
-            "name": "x8"
+            "end": 1179
           },
           "init": {
             "type": "NewExpression",
-            "start": 1182,
-            "end": 1196,
             "callee": {
               "type": "Identifier",
+              "name": "Boolean",
               "start": 1186,
-              "end": 1193,
-              "name": "Boolean"
+              "end": 1193
             },
             "arguments": [
               {
                 "type": "Literal",
-                "start": 1194,
-                "end": 1195,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "start": 1194,
+                "end": 1195
               }
-            ]
-          }
+            ],
+            "start": 1182,
+            "end": 1196
+          },
+          "start": 1177,
+          "end": 1196
         }
-      ]
+      ],
+      "start": 1173,
+      "end": 1197
     },
     {
       "type": "ExpressionStatement",
-      "start": 1198,
-      "end": 1291,
       "expression": {
         "type": "CallExpression",
-        "start": 1198,
-        "end": 1290,
         "callee": {
           "type": "MemberExpression",
-          "start": 1198,
-          "end": 1217,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 1198,
-            "end": 1204,
-            "name": "assert"
+            "end": 1204
           },
           "property": {
             "type": "Identifier",
+            "name": "notSameValue",
             "start": 1205,
-            "end": 1217,
-            "name": "notSameValue"
+            "end": 1217
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 1198,
+          "end": 1217
         },
         "arguments": [
           {
             "type": "Identifier",
+            "name": "x8",
             "start": 1218,
-            "end": 1220,
-            "name": "x8"
+            "end": 1220
           },
           {
             "type": "Identifier",
+            "name": "undefined",
             "start": 1222,
-            "end": 1231,
-            "name": "undefined"
+            "end": 1231
           },
           {
             "type": "Literal",
-            "start": 1233,
-            "end": 1289,
             "value": "The value of x8 is expected to not equal ``undefined``",
-            "raw": "'The value of x8 is expected to not equal ``undefined``'"
+            "raw": "'The value of x8 is expected to not equal ``undefined``'",
+            "start": 1233,
+            "end": 1289
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 1198,
+        "end": 1290
+      },
+      "start": 1198,
+      "end": 1291
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 1292
 }

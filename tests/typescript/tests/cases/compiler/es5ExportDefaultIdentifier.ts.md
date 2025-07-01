@@ -2,25 +2,19 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 42,
   "body": [
     {
       "type": "ExportNamedDeclaration",
-      "start": 0,
-      "end": 23,
       "declaration": {
         "type": "FunctionDeclaration",
-        "start": 7,
-        "end": 23,
         "id": {
           "type": "Identifier",
-          "start": 16,
-          "end": 17,
           "decorators": [],
           "name": "f",
           "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "start": 16,
+          "end": 17
         },
         "generator": false,
         "async": false,
@@ -30,34 +24,40 @@ __ESTREE_TEST__:PASS:
         "returnType": null,
         "body": {
           "type": "BlockStatement",
+          "body": [],
           "start": 20,
-          "end": 23,
-          "body": []
+          "end": 23
         },
-        "expression": false
+        "expression": false,
+        "start": 7,
+        "end": 23
       },
       "specifiers": [],
       "source": null,
       "exportKind": "value",
-      "attributes": []
+      "attributes": [],
+      "start": 0,
+      "end": 23
     },
     {
       "type": "ExportDefaultDeclaration",
-      "start": 25,
-      "end": 42,
       "declaration": {
         "type": "Identifier",
-        "start": 40,
-        "end": 41,
         "decorators": [],
         "name": "f",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 40,
+        "end": 41
       },
-      "exportKind": "value"
+      "exportKind": "value",
+      "start": 25,
+      "end": 42
     }
   ],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 42
 }
 ```

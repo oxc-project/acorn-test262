@@ -2,92 +2,92 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 57,
-  "end": 130,
   "body": [
     {
       "type": "IfStatement",
-      "start": 57,
-      "end": 103,
       "test": {
         "type": "Literal",
-        "start": 61,
-        "end": 65,
         "value": true,
-        "raw": "true"
+        "raw": "true",
+        "start": 61,
+        "end": 65
       },
       "consequent": {
         "type": "ExportNamedDeclaration",
-        "start": 67,
-        "end": 103,
         "declaration": {
           "type": "VariableDeclaration",
-          "start": 74,
-          "end": 103,
           "kind": "const",
           "declarations": [
             {
               "type": "VariableDeclarator",
-              "start": 80,
-              "end": 102,
               "id": {
                 "type": "Identifier",
-                "start": 80,
-                "end": 102,
                 "decorators": [],
                 "name": "cssExports",
                 "optional": false,
                 "typeAnnotation": {
                   "type": "TSTypeAnnotation",
-                  "start": 90,
-                  "end": 102,
                   "typeAnnotation": {
                     "type": "TSTypeReference",
-                    "start": 92,
-                    "end": 102,
                     "typeName": {
                       "type": "Identifier",
-                      "start": 92,
-                      "end": 102,
                       "decorators": [],
                       "name": "CssExports",
                       "optional": false,
-                      "typeAnnotation": null
+                      "typeAnnotation": null,
+                      "start": 92,
+                      "end": 102
                     },
-                    "typeArguments": null
-                  }
-                }
+                    "typeArguments": null,
+                    "start": 92,
+                    "end": 102
+                  },
+                  "start": 90,
+                  "end": 102
+                },
+                "start": 80,
+                "end": 102
               },
               "init": null,
-              "definite": false
+              "definite": false,
+              "start": 80,
+              "end": 102
             }
           ],
-          "declare": false
+          "declare": false,
+          "start": 74,
+          "end": 103
         },
         "specifiers": [],
         "source": null,
         "exportKind": "value",
-        "attributes": []
+        "attributes": [],
+        "start": 67,
+        "end": 103
       },
-      "alternate": null
+      "alternate": null,
+      "start": 57,
+      "end": 103
     },
     {
       "type": "ExportDefaultDeclaration",
-      "start": 104,
-      "end": 130,
       "declaration": {
         "type": "Identifier",
-        "start": 119,
-        "end": 129,
         "decorators": [],
         "name": "cssExports",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 119,
+        "end": 129
       },
-      "exportKind": "value"
+      "exportKind": "value",
+      "start": 104,
+      "end": 130
     }
   ],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 57,
+  "end": 130
 }
 ```

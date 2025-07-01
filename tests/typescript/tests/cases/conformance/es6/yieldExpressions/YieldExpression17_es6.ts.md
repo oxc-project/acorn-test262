@@ -2,51 +2,39 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 36,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 0,
-      "end": 36,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 4,
-          "end": 36,
           "id": {
             "type": "Identifier",
-            "start": 4,
-            "end": 5,
             "decorators": [],
             "name": "v",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 4,
+            "end": 5
           },
           "init": {
             "type": "ObjectExpression",
-            "start": 8,
-            "end": 36,
             "properties": [
               {
                 "type": "Property",
-                "start": 10,
-                "end": 34,
                 "kind": "get",
                 "key": {
                   "type": "Identifier",
-                  "start": 14,
-                  "end": 17,
                   "decorators": [],
                   "name": "foo",
                   "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "start": 14,
+                  "end": 17
                 },
                 "value": {
                   "type": "FunctionExpression",
-                  "start": 17,
-                  "end": 34,
                   "id": null,
                   "generator": false,
                   "async": false,
@@ -56,48 +44,60 @@ __ESTREE_TEST__:PASS:
                   "returnType": null,
                   "body": {
                     "type": "BlockStatement",
-                    "start": 20,
-                    "end": 34,
                     "body": [
                       {
                         "type": "ExpressionStatement",
-                        "start": 22,
-                        "end": 32,
                         "expression": {
                           "type": "YieldExpression",
-                          "start": 22,
-                          "end": 31,
                           "delegate": false,
                           "argument": {
                             "type": "Identifier",
-                            "start": 28,
-                            "end": 31,
                             "decorators": [],
                             "name": "foo",
                             "optional": false,
-                            "typeAnnotation": null
-                          }
+                            "typeAnnotation": null,
+                            "start": 28,
+                            "end": 31
+                          },
+                          "start": 22,
+                          "end": 31
                         },
-                        "directive": null
+                        "directive": null,
+                        "start": 22,
+                        "end": 32
                       }
-                    ]
+                    ],
+                    "start": 20,
+                    "end": 34
                   },
-                  "expression": false
+                  "expression": false,
+                  "start": 17,
+                  "end": 34
                 },
                 "method": false,
                 "shorthand": false,
                 "computed": false,
-                "optional": false
+                "optional": false,
+                "start": 10,
+                "end": 34
               }
-            ]
+            ],
+            "start": 8,
+            "end": 36
           },
-          "definite": false
+          "definite": false,
+          "start": 4,
+          "end": 36
         }
       ],
-      "declare": false
+      "declare": false,
+      "start": 0,
+      "end": 36
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 36
 }
 ```

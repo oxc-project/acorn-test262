@@ -1,80 +1,80 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 352,
   "body": [
     {
       "type": "FunctionDeclaration",
-      "start": 280,
-      "end": 315,
       "id": {
         "type": "Identifier",
+        "name": "await",
         "start": 295,
-        "end": 300,
-        "name": "await"
+        "end": 300
       },
       "generator": false,
       "async": true,
       "params": [],
       "body": {
         "type": "BlockStatement",
-        "start": 303,
-        "end": 315,
         "body": [
           {
             "type": "ReturnStatement",
-            "start": 305,
-            "end": 313,
             "argument": {
               "type": "Literal",
-              "start": 312,
-              "end": 313,
               "value": 1,
-              "raw": "1"
-            }
+              "raw": "1",
+              "start": 312,
+              "end": 313
+            },
+            "start": 305,
+            "end": 313
           }
-        ]
+        ],
+        "start": 303,
+        "end": 315
       },
-      "expression": false
+      "expression": false,
+      "start": 280,
+      "end": 315
     },
     {
       "type": "ExpressionStatement",
-      "start": 316,
-      "end": 350,
       "expression": {
         "type": "CallExpression",
-        "start": 316,
-        "end": 349,
         "callee": {
           "type": "Identifier",
+          "name": "assert",
           "start": 316,
-          "end": 322,
-          "name": "assert"
+          "end": 322
         },
         "arguments": [
           {
             "type": "BinaryExpression",
-            "start": 323,
-            "end": 348,
             "left": {
               "type": "Identifier",
+              "name": "await",
               "start": 323,
-              "end": 328,
-              "name": "await"
+              "end": 328
             },
             "operator": "instanceof",
             "right": {
               "type": "Identifier",
+              "name": "Function",
               "start": 340,
-              "end": 348,
-              "name": "Function"
-            }
+              "end": 348
+            },
+            "start": 323,
+            "end": 348
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 316,
+        "end": 349
+      },
+      "start": 316,
+      "end": 350
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 352
 }

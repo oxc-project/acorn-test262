@@ -1,152 +1,152 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 432,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 288,
-      "end": 333,
       "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 294,
-          "end": 333,
           "id": {
             "type": "Identifier",
+            "name": "Subclass",
             "start": 294,
-            "end": 302,
-            "name": "Subclass"
+            "end": 302
           },
           "init": {
             "type": "ClassExpression",
-            "start": 305,
-            "end": 333,
             "decorators": [],
             "id": null,
             "superClass": {
               "type": "Identifier",
+              "name": "SyntaxError",
               "start": 319,
-              "end": 330,
-              "name": "SyntaxError"
+              "end": 330
             },
             "body": {
               "type": "ClassBody",
+              "body": [],
               "start": 331,
-              "end": 333,
-              "body": []
-            }
-          }
+              "end": 333
+            },
+            "start": 305,
+            "end": 333
+          },
+          "start": 294,
+          "end": 333
         }
-      ]
+      ],
+      "start": 288,
+      "end": 333
     },
     {
       "type": "VariableDeclaration",
-      "start": 335,
-      "end": 362,
       "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 341,
-          "end": 361,
           "id": {
             "type": "Identifier",
+            "name": "sub",
             "start": 341,
-            "end": 344,
-            "name": "sub"
+            "end": 344
           },
           "init": {
             "type": "NewExpression",
-            "start": 347,
-            "end": 361,
             "callee": {
               "type": "Identifier",
+              "name": "Subclass",
               "start": 351,
-              "end": 359,
-              "name": "Subclass"
+              "end": 359
             },
-            "arguments": []
-          }
+            "arguments": [],
+            "start": 347,
+            "end": 361
+          },
+          "start": 341,
+          "end": 361
         }
-      ]
+      ],
+      "start": 335,
+      "end": 362
     },
     {
       "type": "ExpressionStatement",
-      "start": 363,
-      "end": 395,
       "expression": {
         "type": "CallExpression",
-        "start": 363,
-        "end": 394,
         "callee": {
           "type": "Identifier",
+          "name": "assert",
           "start": 363,
-          "end": 369,
-          "name": "assert"
+          "end": 369
         },
         "arguments": [
           {
             "type": "BinaryExpression",
-            "start": 370,
-            "end": 393,
             "left": {
               "type": "Identifier",
+              "name": "sub",
               "start": 370,
-              "end": 373,
-              "name": "sub"
+              "end": 373
             },
             "operator": "instanceof",
             "right": {
               "type": "Identifier",
+              "name": "Subclass",
               "start": 385,
-              "end": 393,
-              "name": "Subclass"
-            }
+              "end": 393
+            },
+            "start": 370,
+            "end": 393
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 363,
+        "end": 394
+      },
+      "start": 363,
+      "end": 395
     },
     {
       "type": "ExpressionStatement",
-      "start": 396,
-      "end": 431,
       "expression": {
         "type": "CallExpression",
-        "start": 396,
-        "end": 430,
         "callee": {
           "type": "Identifier",
+          "name": "assert",
           "start": 396,
-          "end": 402,
-          "name": "assert"
+          "end": 402
         },
         "arguments": [
           {
             "type": "BinaryExpression",
-            "start": 403,
-            "end": 429,
             "left": {
               "type": "Identifier",
+              "name": "sub",
               "start": 403,
-              "end": 406,
-              "name": "sub"
+              "end": 406
             },
             "operator": "instanceof",
             "right": {
               "type": "Identifier",
+              "name": "SyntaxError",
               "start": 418,
-              "end": 429,
-              "name": "SyntaxError"
-            }
+              "end": 429
+            },
+            "start": 403,
+            "end": 429
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 396,
+        "end": 430
+      },
+      "start": 396,
+      "end": 431
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 432
 }

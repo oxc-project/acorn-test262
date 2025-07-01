@@ -1,92 +1,92 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 828,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 713,
-      "end": 807,
       "expression": {
         "type": "CallExpression",
-        "start": 713,
-        "end": 806,
         "callee": {
           "type": "MemberExpression",
-          "start": 713,
-          "end": 729,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 713,
-            "end": 719,
-            "name": "assert"
+            "end": 719
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 720,
-            "end": 729,
-            "name": "sameValue"
+            "end": 729
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 713,
+          "end": 729
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 730,
-            "end": 754,
             "callee": {
               "type": "Identifier",
+              "name": "isConstructor",
               "start": 730,
-              "end": 743,
-              "name": "isConstructor"
+              "end": 743
             },
             "arguments": [
               {
                 "type": "Identifier",
+                "name": "TypeError",
                 "start": 744,
-                "end": 753,
-                "name": "TypeError"
+                "end": 753
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 730,
+            "end": 754
           },
           {
             "type": "Literal",
-            "start": 756,
-            "end": 760,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "start": 756,
+            "end": 760
           },
           {
             "type": "Literal",
-            "start": 762,
-            "end": 805,
             "value": "isConstructor(TypeError) must return true",
-            "raw": "'isConstructor(TypeError) must return true'"
+            "raw": "'isConstructor(TypeError) must return true'",
+            "start": 762,
+            "end": 805
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 713,
+        "end": 806
+      },
+      "start": 713,
+      "end": 807
     },
     {
       "type": "ExpressionStatement",
-      "start": 808,
-      "end": 824,
       "expression": {
         "type": "NewExpression",
-        "start": 808,
-        "end": 823,
         "callee": {
           "type": "Identifier",
+          "name": "TypeError",
           "start": 812,
-          "end": 821,
-          "name": "TypeError"
+          "end": 821
         },
-        "arguments": []
-      }
+        "arguments": [],
+        "start": 808,
+        "end": 823
+      },
+      "start": 808,
+      "end": 824
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 828
 }

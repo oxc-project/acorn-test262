@@ -2,93 +2,93 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 42,
   "body": [
     {
       "type": "ImportDeclaration",
-      "start": 0,
-      "end": 24,
       "specifiers": [
         {
           "type": "ImportDefaultSpecifier",
-          "start": 7,
-          "end": 8,
           "local": {
             "type": "Identifier",
-            "start": 7,
-            "end": 8,
             "decorators": [],
             "name": "x",
             "optional": false,
-            "typeAnnotation": null
-          }
+            "typeAnnotation": null,
+            "start": 7,
+            "end": 8
+          },
+          "start": 7,
+          "end": 8
         }
       ],
       "source": {
         "type": "Literal",
-        "start": 14,
-        "end": 24,
         "value": "arglebaz",
-        "raw": "'arglebaz'"
+        "raw": "'arglebaz'",
+        "start": 14,
+        "end": 24
       },
       "phase": null,
       "attributes": [],
-      "importKind": "value"
+      "importKind": "value",
+      "start": 0,
+      "end": 24
     },
     {
       "type": "BlockStatement",
-      "start": 25,
-      "end": 42,
       "body": [
         {
           "type": "ExpressionStatement",
-          "start": 31,
-          "end": 40,
           "expression": {
             "type": "AssignmentExpression",
-            "start": 31,
-            "end": 40,
             "operator": "=",
             "left": {
               "type": "MemberExpression",
-              "start": 31,
-              "end": 36,
               "object": {
                 "type": "Identifier",
-                "start": 31,
-                "end": 32,
                 "decorators": [],
                 "name": "x",
                 "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "start": 31,
+                "end": 32
               },
               "property": {
                 "type": "Identifier",
-                "start": 33,
-                "end": 36,
                 "decorators": [],
                 "name": "bar",
                 "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "start": 33,
+                "end": 36
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 31,
+              "end": 36
             },
             "right": {
               "type": "Literal",
-              "start": 39,
-              "end": 40,
               "value": 1,
-              "raw": "1"
-            }
+              "raw": "1",
+              "start": 39,
+              "end": 40
+            },
+            "start": 31,
+            "end": 40
           },
-          "directive": null
+          "directive": null,
+          "start": 31,
+          "end": 40
         }
-      ]
+      ],
+      "start": 25,
+      "end": 42
     }
   ],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 42
 }
 ```

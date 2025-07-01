@@ -2,32 +2,24 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 26,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 0,
-      "end": 26,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 4,
-          "end": 25,
           "id": {
             "type": "Identifier",
-            "start": 4,
-            "end": 7,
             "decorators": [],
             "name": "foo",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 4,
+            "end": 7
           },
           "init": {
             "type": "ArrowFunctionExpression",
-            "start": 10,
-            "end": 25,
             "expression": true,
             "async": false,
             "typeParameters": null,
@@ -35,23 +27,31 @@ __ESTREE_TEST__:PASS:
             "returnType": null,
             "body": {
               "type": "Identifier",
-              "start": 16,
-              "end": 25,
               "decorators": [],
               "name": "undefined",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 16,
+              "end": 25
             },
             "id": null,
-            "generator": false
+            "generator": false,
+            "start": 10,
+            "end": 25
           },
-          "definite": false
+          "definite": false,
+          "start": 4,
+          "end": 25
         }
       ],
-      "declare": false
+      "declare": false,
+      "start": 0,
+      "end": 26
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 26
 }
 ```

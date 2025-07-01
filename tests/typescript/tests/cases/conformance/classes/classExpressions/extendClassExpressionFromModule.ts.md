@@ -2,22 +2,18 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 24,
   "body": [
     {
       "type": "ClassDeclaration",
-      "start": 0,
-      "end": 9,
       "decorators": [],
       "id": {
         "type": "Identifier",
-        "start": 6,
-        "end": 7,
         "decorators": [],
         "name": "x",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 6,
+        "end": 7
       },
       "typeParameters": null,
       "superClass": null,
@@ -25,136 +21,140 @@ __ESTREE_TEST__:PASS:
       "implements": [],
       "body": {
         "type": "ClassBody",
+        "body": [],
         "start": 7,
-        "end": 9,
-        "body": []
+        "end": 9
       },
       "abstract": false,
-      "declare": false
+      "declare": false,
+      "start": 0,
+      "end": 9
     },
     {
       "type": "TSExportAssignment",
-      "start": 11,
-      "end": 22,
       "expression": {
         "type": "Identifier",
-        "start": 20,
-        "end": 21,
         "decorators": [],
         "name": "x",
         "optional": false,
-        "typeAnnotation": null
-      }
+        "typeAnnotation": null,
+        "start": 20,
+        "end": 21
+      },
+      "start": 11,
+      "end": 22
     }
   ],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 24
 }
 ```
 __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 67,
   "body": [
     {
       "type": "TSImportEqualsDeclaration",
-      "start": 0,
-      "end": 32,
       "id": {
         "type": "Identifier",
-        "start": 7,
-        "end": 11,
         "decorators": [],
         "name": "foo1",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 7,
+        "end": 11
       },
       "moduleReference": {
         "type": "TSExternalModuleReference",
-        "start": 14,
-        "end": 31,
         "expression": {
           "type": "Literal",
-          "start": 22,
-          "end": 30,
           "value": "./foo1",
-          "raw": "'./foo1'"
-        }
+          "raw": "'./foo1'",
+          "start": 22,
+          "end": 30
+        },
+        "start": 14,
+        "end": 31
       },
-      "importKind": "value"
+      "importKind": "value",
+      "start": 0,
+      "end": 32
     },
     {
       "type": "VariableDeclaration",
-      "start": 33,
-      "end": 46,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 37,
-          "end": 45,
           "id": {
             "type": "Identifier",
-            "start": 37,
-            "end": 38,
             "decorators": [],
             "name": "x",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 37,
+            "end": 38
           },
           "init": {
             "type": "Identifier",
-            "start": 41,
-            "end": 45,
             "decorators": [],
             "name": "foo1",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 41,
+            "end": 45
           },
-          "definite": false
+          "definite": false,
+          "start": 37,
+          "end": 45
         }
       ],
-      "declare": false
+      "declare": false,
+      "start": 33,
+      "end": 46
     },
     {
       "type": "ClassDeclaration",
-      "start": 47,
-      "end": 67,
       "decorators": [],
       "id": {
         "type": "Identifier",
-        "start": 53,
-        "end": 54,
         "decorators": [],
         "name": "y",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 53,
+        "end": 54
       },
       "typeParameters": null,
       "superClass": {
         "type": "Identifier",
-        "start": 63,
-        "end": 64,
         "decorators": [],
         "name": "x",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 63,
+        "end": 64
       },
       "superTypeArguments": null,
       "implements": [],
       "body": {
         "type": "ClassBody",
+        "body": [],
         "start": 65,
-        "end": 67,
-        "body": []
+        "end": 67
       },
       "abstract": false,
-      "declare": false
+      "declare": false,
+      "start": 47,
+      "end": 67
     }
   ],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 67
 }
 ```

@@ -2,30 +2,22 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 87,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 0,
-      "end": 32,
       "expression": {
         "type": "ConditionalExpression",
-        "start": 0,
-        "end": 31,
         "test": {
           "type": "Identifier",
-          "start": 0,
-          "end": 1,
           "decorators": [],
           "name": "a",
           "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "start": 0,
+          "end": 1
         },
         "consequent": {
           "type": "ArrowFunctionExpression",
-          "start": 4,
-          "end": 13,
           "expression": true,
           "async": false,
           "typeParameters": null,
@@ -33,88 +25,88 @@ __ESTREE_TEST__:PASS:
           "returnType": null,
           "body": {
             "type": "CallExpression",
-            "start": 10,
-            "end": 13,
             "callee": {
               "type": "Identifier",
-              "start": 10,
-              "end": 11,
               "decorators": [],
               "name": "a",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 10,
+              "end": 11
             },
             "typeArguments": null,
             "arguments": [],
-            "optional": false
+            "optional": false,
+            "start": 10,
+            "end": 13
           },
           "id": null,
-          "generator": false
+          "generator": false,
+          "start": 4,
+          "end": 13
         },
         "alternate": {
           "type": "ArrowFunctionExpression",
-          "start": 16,
-          "end": 31,
           "expression": true,
           "async": false,
           "typeParameters": null,
           "params": [],
           "returnType": {
             "type": "TSTypeAnnotation",
-            "start": 18,
-            "end": 23,
             "typeAnnotation": {
               "type": "TSAnyKeyword",
               "start": 20,
               "end": 23
-            }
+            },
+            "start": 18,
+            "end": 23
           },
           "body": {
             "type": "Literal",
-            "start": 27,
-            "end": 31,
             "value": null,
-            "raw": "null"
+            "raw": "null",
+            "start": 27,
+            "end": 31
           },
           "id": null,
-          "generator": false
-        }
+          "generator": false,
+          "start": 16,
+          "end": 31
+        },
+        "start": 0,
+        "end": 31
       },
-      "directive": null
+      "directive": null,
+      "start": 0,
+      "end": 32
     }
   ],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 87
 }
 ```
 __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 32,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 0,
-      "end": 32,
       "expression": {
         "type": "ConditionalExpression",
-        "start": 0,
-        "end": 31,
         "test": {
           "type": "Identifier",
-          "start": 0,
-          "end": 1,
           "decorators": [],
           "name": "a",
           "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "start": 0,
+          "end": 1
         },
         "consequent": {
           "type": "ArrowFunctionExpression",
-          "start": 4,
-          "end": 13,
           "expression": true,
           "async": false,
           "typeParameters": null,
@@ -122,57 +114,65 @@ __ESTREE_TEST__:PASS:
           "returnType": null,
           "body": {
             "type": "CallExpression",
-            "start": 10,
-            "end": 13,
             "callee": {
               "type": "Identifier",
-              "start": 10,
-              "end": 11,
               "decorators": [],
               "name": "a",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 10,
+              "end": 11
             },
             "typeArguments": null,
             "arguments": [],
-            "optional": false
+            "optional": false,
+            "start": 10,
+            "end": 13
           },
           "id": null,
-          "generator": false
+          "generator": false,
+          "start": 4,
+          "end": 13
         },
         "alternate": {
           "type": "ArrowFunctionExpression",
-          "start": 16,
-          "end": 31,
           "expression": true,
           "async": false,
           "typeParameters": null,
           "params": [],
           "returnType": {
             "type": "TSTypeAnnotation",
-            "start": 18,
-            "end": 23,
             "typeAnnotation": {
               "type": "TSAnyKeyword",
               "start": 20,
               "end": 23
-            }
+            },
+            "start": 18,
+            "end": 23
           },
           "body": {
             "type": "Literal",
-            "start": 27,
-            "end": 31,
             "value": null,
-            "raw": "null"
+            "raw": "null",
+            "start": 27,
+            "end": 31
           },
           "id": null,
-          "generator": false
-        }
+          "generator": false,
+          "start": 16,
+          "end": 31
+        },
+        "start": 0,
+        "end": 31
       },
-      "directive": null
+      "directive": null,
+      "start": 0,
+      "end": 32
     }
   ],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 32
 }
 ```

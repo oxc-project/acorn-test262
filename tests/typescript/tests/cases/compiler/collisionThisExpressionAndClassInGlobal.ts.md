@@ -2,22 +2,18 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 35,
   "body": [
     {
       "type": "ClassDeclaration",
-      "start": 0,
-      "end": 15,
       "decorators": [],
       "id": {
         "type": "Identifier",
-        "start": 6,
-        "end": 11,
         "decorators": [],
         "name": "_this",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 6,
+        "end": 11
       },
       "typeParameters": null,
       "superClass": null,
@@ -25,36 +21,32 @@ __ESTREE_TEST__:PASS:
       "implements": [],
       "body": {
         "type": "ClassBody",
+        "body": [],
         "start": 12,
-        "end": 15,
-        "body": []
+        "end": 15
       },
       "abstract": false,
-      "declare": false
+      "declare": false,
+      "start": 0,
+      "end": 15
     },
     {
       "type": "VariableDeclaration",
-      "start": 16,
-      "end": 35,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 20,
-          "end": 34,
           "id": {
             "type": "Identifier",
-            "start": 20,
-            "end": 21,
             "decorators": [],
             "name": "f",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 20,
+            "end": 21
           },
           "init": {
             "type": "ArrowFunctionExpression",
-            "start": 24,
-            "end": 34,
             "expression": true,
             "async": false,
             "typeParameters": null,
@@ -66,15 +58,23 @@ __ESTREE_TEST__:PASS:
               "end": 34
             },
             "id": null,
-            "generator": false
+            "generator": false,
+            "start": 24,
+            "end": 34
           },
-          "definite": false
+          "definite": false,
+          "start": 20,
+          "end": 34
         }
       ],
-      "declare": false
+      "declare": false,
+      "start": 16,
+      "end": 35
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 35
 }
 ```

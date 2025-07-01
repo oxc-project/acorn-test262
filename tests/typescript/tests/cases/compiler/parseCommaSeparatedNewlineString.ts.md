@@ -2,40 +2,40 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 7,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 0,
-      "end": 7,
       "expression": {
         "type": "SequenceExpression",
-        "start": 1,
-        "end": 6,
         "expressions": [
           {
             "type": "Identifier",
-            "start": 1,
-            "end": 2,
             "decorators": [],
             "name": "a",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 1,
+            "end": 2
           },
           {
             "type": "Literal",
-            "start": 4,
-            "end": 6,
             "value": "",
-            "raw": "''"
+            "raw": "''",
+            "start": 4,
+            "end": 6
           }
-        ]
+        ],
+        "start": 1,
+        "end": 6
       },
-      "directive": null
+      "directive": null,
+      "start": 0,
+      "end": 7
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 7
 }
 ```

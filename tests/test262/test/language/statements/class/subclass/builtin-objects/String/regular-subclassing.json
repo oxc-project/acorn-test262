@@ -1,137 +1,137 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 700,
   "body": [
     {
       "type": "ClassDeclaration",
-      "start": 604,
-      "end": 629,
       "decorators": [],
       "id": {
         "type": "Identifier",
+        "name": "S",
         "start": 610,
-        "end": 611,
-        "name": "S"
+        "end": 611
       },
       "superClass": {
         "type": "Identifier",
+        "name": "String",
         "start": 620,
-        "end": 626,
-        "name": "String"
+        "end": 626
       },
       "body": {
         "type": "ClassBody",
+        "body": [],
         "start": 627,
-        "end": 629,
-        "body": []
-      }
+        "end": 629
+      },
+      "start": 604,
+      "end": 629
     },
     {
       "type": "VariableDeclaration",
-      "start": 631,
-      "end": 658,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 635,
-          "end": 657,
           "id": {
             "type": "Identifier",
+            "name": "s",
             "start": 635,
-            "end": 636,
-            "name": "s"
+            "end": 636
           },
           "init": {
             "type": "NewExpression",
-            "start": 639,
-            "end": 657,
             "callee": {
               "type": "Identifier",
+              "name": "S",
               "start": 643,
-              "end": 644,
-              "name": "S"
+              "end": 644
             },
             "arguments": [
               {
                 "type": "Literal",
-                "start": 645,
-                "end": 656,
                 "value": " test262 ",
-                "raw": "' test262 '"
+                "raw": "' test262 '",
+                "start": 645,
+                "end": 656
               }
-            ]
-          }
+            ],
+            "start": 639,
+            "end": 657
+          },
+          "start": 635,
+          "end": 657
         }
-      ]
+      ],
+      "start": 631,
+      "end": 658
     },
     {
       "type": "ExpressionStatement",
-      "start": 660,
-      "end": 698,
       "expression": {
         "type": "CallExpression",
-        "start": 660,
-        "end": 697,
         "callee": {
           "type": "MemberExpression",
-          "start": 660,
-          "end": 676,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 660,
-            "end": 666,
-            "name": "assert"
+            "end": 666
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 667,
-            "end": 676,
-            "name": "sameValue"
+            "end": 676
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 660,
+          "end": 676
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 677,
-            "end": 685,
             "callee": {
               "type": "MemberExpression",
-              "start": 677,
-              "end": 683,
               "object": {
                 "type": "Identifier",
+                "name": "s",
                 "start": 677,
-                "end": 678,
-                "name": "s"
+                "end": 678
               },
               "property": {
                 "type": "Identifier",
+                "name": "trim",
                 "start": 679,
-                "end": 683,
-                "name": "trim"
+                "end": 683
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 677,
+              "end": 683
             },
             "arguments": [],
-            "optional": false
+            "optional": false,
+            "start": 677,
+            "end": 685
           },
           {
             "type": "Literal",
-            "start": 687,
-            "end": 696,
             "value": "test262",
-            "raw": "'test262'"
+            "raw": "'test262'",
+            "start": 687,
+            "end": 696
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 660,
+        "end": 697
+      },
+      "start": 660,
+      "end": 698
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 700
 }

@@ -1,86 +1,86 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 299,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 221,
-      "end": 298,
       "expression": {
         "type": "CallExpression",
-        "start": 221,
-        "end": 297,
         "callee": {
           "type": "MemberExpression",
-          "start": 221,
-          "end": 237,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 221,
-            "end": 227,
-            "name": "assert"
+            "end": 227
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 228,
-            "end": 237,
-            "name": "sameValue"
+            "end": 237
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 221,
+          "end": 237
         },
         "arguments": [
           {
             "type": "UnaryExpression",
-            "start": 238,
-            "end": 259,
             "operator": "typeof",
             "argument": {
               "type": "ParenthesizedExpression",
-              "start": 244,
-              "end": 259,
               "expression": {
                 "type": "MemberExpression",
-                "start": 245,
-                "end": 258,
                 "object": {
                   "type": "Identifier",
+                  "name": "Object",
                   "start": 245,
-                  "end": 251,
-                  "name": "Object"
+                  "end": 251
                 },
                 "property": {
                   "type": "Identifier",
+                  "name": "create",
                   "start": 252,
-                  "end": 258,
-                  "name": "create"
+                  "end": 258
                 },
                 "optional": false,
-                "computed": false
-              }
+                "computed": false,
+                "start": 245,
+                "end": 258
+              },
+              "start": 244,
+              "end": 259
             },
-            "prefix": true
+            "prefix": true,
+            "start": 238,
+            "end": 259
           },
           {
             "type": "Literal",
-            "start": 261,
-            "end": 271,
             "value": "function",
-            "raw": "\"function\""
+            "raw": "\"function\"",
+            "start": 261,
+            "end": 271
           },
           {
             "type": "Literal",
-            "start": 273,
-            "end": 296,
             "value": "typeof(Object.create)",
-            "raw": "'typeof(Object.create)'"
+            "raw": "'typeof(Object.create)'",
+            "start": 273,
+            "end": 296
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 221,
+        "end": 297
+      },
+      "start": 221,
+      "end": 298
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 299
 }

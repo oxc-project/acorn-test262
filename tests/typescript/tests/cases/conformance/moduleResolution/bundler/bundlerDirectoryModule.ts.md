@@ -2,25 +2,19 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 26,
   "body": [
     {
       "type": "ExportNamedDeclaration",
-      "start": 0,
-      "end": 25,
       "declaration": {
         "type": "FunctionDeclaration",
-        "start": 7,
-        "end": 25,
         "id": {
           "type": "Identifier",
-          "start": 16,
-          "end": 20,
           "decorators": [],
           "name": "test",
           "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "start": 16,
+          "end": 20
         },
         "generator": false,
         "async": false,
@@ -30,45 +24,45 @@ __ESTREE_TEST__:PASS:
         "returnType": null,
         "body": {
           "type": "BlockStatement",
+          "body": [],
           "start": 23,
-          "end": 25,
-          "body": []
+          "end": 25
         },
-        "expression": false
+        "expression": false,
+        "start": 7,
+        "end": 25
       },
       "specifiers": [],
       "source": null,
       "exportKind": "value",
-      "attributes": []
+      "attributes": [],
+      "start": 0,
+      "end": 25
     }
   ],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 26
 }
 ```
 __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 30,
   "body": [
     {
       "type": "ExportNamedDeclaration",
-      "start": 0,
-      "end": 29,
       "declaration": {
         "type": "TSDeclareFunction",
-        "start": 7,
-        "end": 29,
         "id": {
           "type": "Identifier",
-          "start": 16,
-          "end": 20,
           "decorators": [],
           "name": "test",
           "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "start": 16,
+          "end": 20
         },
         "generator": false,
         "async": false,
@@ -77,77 +71,83 @@ __ESTREE_TEST__:PASS:
         "params": [],
         "returnType": {
           "type": "TSTypeAnnotation",
-          "start": 22,
-          "end": 28,
           "typeAnnotation": {
             "type": "TSVoidKeyword",
             "start": 24,
             "end": 28
-          }
+          },
+          "start": 22,
+          "end": 28
         },
         "body": null,
-        "expression": false
+        "expression": false,
+        "start": 7,
+        "end": 29
       },
       "specifiers": [],
       "source": null,
       "exportKind": "value",
-      "attributes": []
+      "attributes": [],
+      "start": 0,
+      "end": 29
     }
   ],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 30
 }
 ```
 __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 30,
   "body": [
     {
       "type": "ImportDeclaration",
-      "start": 0,
-      "end": 30,
       "specifiers": [
         {
           "type": "ImportSpecifier",
-          "start": 9,
-          "end": 13,
           "imported": {
             "type": "Identifier",
-            "start": 9,
-            "end": 13,
             "decorators": [],
             "name": "test",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 9,
+            "end": 13
           },
           "local": {
             "type": "Identifier",
-            "start": 9,
-            "end": 13,
             "decorators": [],
             "name": "test",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 9,
+            "end": 13
           },
-          "importKind": "value"
+          "importKind": "value",
+          "start": 9,
+          "end": 13
         }
       ],
       "source": {
         "type": "Literal",
-        "start": 21,
-        "end": 29,
         "value": "../lib",
-        "raw": "'../lib'"
+        "raw": "'../lib'",
+        "start": 21,
+        "end": 29
       },
       "phase": null,
       "attributes": [],
-      "importKind": "value"
+      "importKind": "value",
+      "start": 0,
+      "end": 30
     }
   ],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 30
 }
 ```

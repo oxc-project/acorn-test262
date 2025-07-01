@@ -1,88 +1,88 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 350,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 314,
-      "end": 349,
       "expression": {
         "type": "UnaryExpression",
-        "start": 314,
-        "end": 348,
         "operator": "void",
         "argument": {
           "type": "ObjectExpression",
-          "start": 319,
-          "end": 348,
           "properties": [
             {
               "type": "Property",
-              "start": 323,
-              "end": 329,
               "kind": "init",
               "key": {
                 "type": "Identifier",
+                "name": "foo",
                 "start": 323,
-                "end": 326,
-                "name": "foo"
+                "end": 326
               },
               "value": {
                 "type": "Literal",
-                "start": 328,
-                "end": 329,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "start": 328,
+                "end": 329
               },
               "method": false,
               "shorthand": false,
-              "computed": false
+              "computed": false,
+              "start": 323,
+              "end": 329
             },
             {
               "type": "Property",
-              "start": 333,
-              "end": 346,
               "kind": "set",
               "key": {
                 "type": "Identifier",
+                "name": "foo",
                 "start": 337,
-                "end": 340,
-                "name": "foo"
+                "end": 340
               },
               "value": {
                 "type": "FunctionExpression",
-                "start": 340,
-                "end": 346,
                 "id": null,
                 "generator": false,
                 "async": false,
                 "params": [
                   {
                     "type": "Identifier",
+                    "name": "x",
                     "start": 341,
-                    "end": 342,
-                    "name": "x"
+                    "end": 342
                   }
                 ],
                 "body": {
                   "type": "BlockStatement",
+                  "body": [],
                   "start": 344,
-                  "end": 346,
-                  "body": []
+                  "end": 346
                 },
-                "expression": false
+                "expression": false,
+                "start": 340,
+                "end": 346
               },
               "method": false,
               "shorthand": false,
-              "computed": false
+              "computed": false,
+              "start": 333,
+              "end": 346
             }
-          ]
+          ],
+          "start": 319,
+          "end": 348
         },
-        "prefix": true
-      }
+        "prefix": true,
+        "start": 314,
+        "end": 348
+      },
+      "start": 314,
+      "end": 349
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 350
 }

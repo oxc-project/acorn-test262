@@ -2,22 +2,18 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 298,
   "body": [
     {
       "type": "ClassDeclaration",
-      "start": 0,
-      "end": 298,
       "decorators": [],
       "id": {
         "type": "Identifier",
-        "start": 6,
-        "end": 14,
         "decorators": [],
         "name": "TestFile",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 6,
+        "end": 14
       },
       "typeParameters": null,
       "superClass": null,
@@ -25,32 +21,28 @@ __ESTREE_TEST__:PASS:
       "implements": [],
       "body": {
         "type": "ClassBody",
-        "start": 15,
-        "end": 298,
         "body": [
           {
             "type": "PropertyDefinition",
-            "start": 21,
-            "end": 34,
             "decorators": [],
             "key": {
               "type": "Identifier",
-              "start": 21,
-              "end": 25,
               "decorators": [],
               "name": "name",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 21,
+              "end": 25
             },
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
-              "start": 25,
-              "end": 33,
               "typeAnnotation": {
                 "type": "TSStringKeyword",
                 "start": 27,
                 "end": 33
-              }
+              },
+              "start": 25,
+              "end": 33
             },
             "value": null,
             "computed": false,
@@ -60,26 +52,24 @@ __ESTREE_TEST__:PASS:
             "optional": false,
             "definite": false,
             "readonly": false,
-            "accessibility": null
+            "accessibility": null,
+            "start": 21,
+            "end": 34
           },
           {
             "type": "MethodDefinition",
-            "start": 39,
-            "end": 296,
             "decorators": [],
             "key": {
               "type": "Identifier",
-              "start": 39,
-              "end": 42,
               "decorators": [],
               "name": "foo",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 39,
+              "end": 42
             },
             "value": {
               "type": "FunctionExpression",
-              "start": 42,
-              "end": 296,
               "id": null,
               "generator": false,
               "async": false,
@@ -88,114 +78,104 @@ __ESTREE_TEST__:PASS:
               "params": [
                 {
                   "type": "Identifier",
-                  "start": 43,
-                  "end": 58,
                   "decorators": [],
                   "name": "message",
                   "optional": false,
                   "typeAnnotation": {
                     "type": "TSTypeAnnotation",
-                    "start": 50,
-                    "end": 58,
                     "typeAnnotation": {
                       "type": "TSStringKeyword",
                       "start": 52,
                       "end": 58
-                    }
-                  }
+                    },
+                    "start": 50,
+                    "end": 58
+                  },
+                  "start": 43,
+                  "end": 58
                 }
               ],
               "returnType": {
                 "type": "TSTypeAnnotation",
-                "start": 59,
-                "end": 73,
                 "typeAnnotation": {
                   "type": "TSFunctionType",
-                  "start": 61,
-                  "end": 73,
                   "typeParameters": null,
                   "params": [],
                   "returnType": {
                     "type": "TSTypeAnnotation",
-                    "start": 64,
-                    "end": 73,
                     "typeAnnotation": {
                       "type": "TSStringKeyword",
                       "start": 67,
                       "end": 73
-                    }
-                  }
-                }
+                    },
+                    "start": 64,
+                    "end": 73
+                  },
+                  "start": 61,
+                  "end": 73
+                },
+                "start": 59,
+                "end": 73
               },
               "body": {
                 "type": "BlockStatement",
-                "start": 74,
-                "end": 296,
                 "body": [
                   {
                     "type": "ReturnStatement",
-                    "start": 84,
-                    "end": 290,
                     "argument": {
                       "type": "ArrowFunctionExpression",
-                      "start": 91,
-                      "end": 289,
                       "expression": true,
                       "async": false,
                       "typeParameters": null,
                       "params": [
                         {
                           "type": "RestElement",
-                          "start": 92,
-                          "end": 106,
                           "decorators": [],
                           "argument": {
                             "type": "Identifier",
-                            "start": 95,
-                            "end": 96,
                             "decorators": [],
                             "name": "x",
                             "optional": false,
-                            "typeAnnotation": null
+                            "typeAnnotation": null,
+                            "start": 95,
+                            "end": 96
                           },
                           "optional": false,
                           "typeAnnotation": {
                             "type": "TSTypeAnnotation",
-                            "start": 96,
-                            "end": 106,
                             "typeAnnotation": {
                               "type": "TSArrayType",
-                              "start": 98,
-                              "end": 106,
                               "elementType": {
                                 "type": "TSStringKeyword",
                                 "start": 98,
                                 "end": 104
-                              }
-                            }
+                              },
+                              "start": 98,
+                              "end": 106
+                            },
+                            "start": 96,
+                            "end": 106
                           },
-                          "value": null
+                          "value": null,
+                          "start": 92,
+                          "end": 106
                         }
                       ],
                       "returnType": null,
                       "body": {
                         "type": "BinaryExpression",
-                        "start": 270,
-                        "end": 289,
                         "left": {
                           "type": "Identifier",
-                          "start": 270,
-                          "end": 277,
                           "decorators": [],
                           "name": "message",
                           "optional": false,
-                          "typeAnnotation": null
+                          "typeAnnotation": null,
+                          "start": 270,
+                          "end": 277
                         },
                         "operator": "+",
                         "right": {
                           "type": "MemberExpression",
-                          "start": 280,
-                          "end": 289,
                           "object": {
                             "type": "ThisExpression",
                             "start": 280,
@@ -203,39 +183,59 @@ __ESTREE_TEST__:PASS:
                           },
                           "property": {
                             "type": "Identifier",
-                            "start": 285,
-                            "end": 289,
                             "decorators": [],
                             "name": "name",
                             "optional": false,
-                            "typeAnnotation": null
+                            "typeAnnotation": null,
+                            "start": 285,
+                            "end": 289
                           },
                           "optional": false,
-                          "computed": false
-                        }
+                          "computed": false,
+                          "start": 280,
+                          "end": 289
+                        },
+                        "start": 270,
+                        "end": 289
                       },
                       "id": null,
-                      "generator": false
-                    }
+                      "generator": false,
+                      "start": 91,
+                      "end": 289
+                    },
+                    "start": 84,
+                    "end": 290
                   }
-                ]
+                ],
+                "start": 74,
+                "end": 296
               },
-              "expression": false
+              "expression": false,
+              "start": 42,
+              "end": 296
             },
             "kind": "method",
             "computed": false,
             "static": false,
             "override": false,
             "optional": false,
-            "accessibility": null
+            "accessibility": null,
+            "start": 39,
+            "end": 296
           }
-        ]
+        ],
+        "start": 15,
+        "end": 298
       },
       "abstract": false,
-      "declare": false
+      "declare": false,
+      "start": 0,
+      "end": 298
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 298
 }
 ```

@@ -2,103 +2,91 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 87,
-  "end": 136,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 87,
-      "end": 135,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 91,
-          "end": 134,
           "id": {
             "type": "Identifier",
-            "start": 91,
-            "end": 92,
             "decorators": [],
             "name": "n",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 91,
+            "end": 92
           },
           "init": {
             "type": "ObjectExpression",
-            "start": 95,
-            "end": 134,
             "properties": [
               {
                 "type": "Property",
-                "start": 97,
-                "end": 104,
                 "kind": "init",
                 "key": {
                   "type": "Identifier",
-                  "start": 97,
-                  "end": 98,
                   "decorators": [],
                   "name": "w",
                   "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "start": 97,
+                  "end": 98
                 },
                 "value": {
                   "type": "Literal",
-                  "start": 100,
-                  "end": 104,
                   "value": null,
-                  "raw": "null"
+                  "raw": "null",
+                  "start": 100,
+                  "end": 104
                 },
                 "method": false,
                 "shorthand": false,
                 "computed": false,
-                "optional": false
+                "optional": false,
+                "start": 97,
+                "end": 104
               },
               {
                 "type": "Property",
-                "start": 106,
-                "end": 111,
                 "kind": "init",
                 "key": {
                   "type": "Identifier",
-                  "start": 106,
-                  "end": 107,
                   "decorators": [],
                   "name": "x",
                   "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "start": 106,
+                  "end": 107
                 },
                 "value": {
                   "type": "Literal",
-                  "start": 109,
-                  "end": 111,
                   "value": "",
-                  "raw": "''"
+                  "raw": "''",
+                  "start": 109,
+                  "end": 111
                 },
                 "method": false,
                 "shorthand": false,
                 "computed": false,
-                "optional": false
+                "optional": false,
+                "start": 106,
+                "end": 111
               },
               {
                 "type": "Property",
-                "start": 113,
-                "end": 125,
                 "kind": "init",
                 "key": {
                   "type": "Identifier",
-                  "start": 113,
-                  "end": 114,
                   "decorators": [],
                   "name": "y",
                   "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "start": 113,
+                  "end": 114
                 },
                 "value": {
                   "type": "ArrowFunctionExpression",
-                  "start": 116,
-                  "end": 125,
                   "expression": false,
                   "async": false,
                   "typeParameters": null,
@@ -106,53 +94,65 @@ __ESTREE_TEST__:PASS:
                   "returnType": null,
                   "body": {
                     "type": "BlockStatement",
+                    "body": [],
                     "start": 122,
-                    "end": 125,
-                    "body": []
+                    "end": 125
                   },
                   "id": null,
-                  "generator": false
+                  "generator": false,
+                  "start": 116,
+                  "end": 125
                 },
                 "method": false,
                 "shorthand": false,
                 "computed": false,
-                "optional": false
+                "optional": false,
+                "start": 113,
+                "end": 125
               },
               {
                 "type": "Property",
-                "start": 127,
-                "end": 132,
                 "kind": "init",
                 "key": {
                   "type": "Identifier",
-                  "start": 127,
-                  "end": 128,
                   "decorators": [],
                   "name": "z",
                   "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "start": 127,
+                  "end": 128
                 },
                 "value": {
                   "type": "Literal",
-                  "start": 130,
-                  "end": 132,
                   "value": 32,
-                  "raw": "32"
+                  "raw": "32",
+                  "start": 130,
+                  "end": 132
                 },
                 "method": false,
                 "shorthand": false,
                 "computed": false,
-                "optional": false
+                "optional": false,
+                "start": 127,
+                "end": 132
               }
-            ]
+            ],
+            "start": 95,
+            "end": 134
           },
-          "definite": false
+          "definite": false,
+          "start": 91,
+          "end": 134
         }
       ],
-      "declare": false
+      "declare": false,
+      "start": 87,
+      "end": 135
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 87,
+  "end": 136
 }
 ```

@@ -2,55 +2,41 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 57,
   "body": [
     {
       "type": "ExportDefaultDeclaration",
-      "start": 0,
-      "end": 57,
       "declaration": {
         "type": "ObjectExpression",
-        "start": 15,
-        "end": 57,
         "properties": [
           {
             "type": "Property",
-            "start": 21,
-            "end": 55,
             "kind": "init",
             "key": {
               "type": "Identifier",
-              "start": 21,
-              "end": 28,
               "decorators": [],
               "name": "methods",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 21,
+              "end": 28
             },
             "value": {
               "type": "ObjectExpression",
-              "start": 30,
-              "end": 55,
               "properties": [
                 {
                   "type": "Property",
-                  "start": 40,
-                  "end": 49,
                   "kind": "init",
                   "key": {
                     "type": "Identifier",
-                    "start": 40,
-                    "end": 43,
                     "decorators": [],
                     "name": "foo",
                     "optional": false,
-                    "typeAnnotation": null
+                    "typeAnnotation": null,
+                    "start": 40,
+                    "end": 43
                   },
                   "value": {
                     "type": "FunctionExpression",
-                    "start": 43,
-                    "end": 49,
                     "id": null,
                     "generator": false,
                     "async": false,
@@ -60,30 +46,44 @@ __ESTREE_TEST__:PASS:
                     "returnType": null,
                     "body": {
                       "type": "BlockStatement",
+                      "body": [],
                       "start": 46,
-                      "end": 49,
-                      "body": []
+                      "end": 49
                     },
-                    "expression": false
+                    "expression": false,
+                    "start": 43,
+                    "end": 49
                   },
                   "method": true,
                   "shorthand": false,
                   "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "start": 40,
+                  "end": 49
                 }
-              ]
+              ],
+              "start": 30,
+              "end": 55
             },
             "method": false,
             "shorthand": false,
             "computed": false,
-            "optional": false
+            "optional": false,
+            "start": 21,
+            "end": 55
           }
-        ]
+        ],
+        "start": 15,
+        "end": 57
       },
-      "exportKind": "value"
+      "exportKind": "value",
+      "start": 0,
+      "end": 57
     }
   ],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 57
 }
 ```

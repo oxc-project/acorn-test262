@@ -1,88 +1,78 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 451,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 255,
-      "end": 287,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 259,
-          "end": 286,
           "id": {
             "type": "Identifier",
+            "name": "objFunction",
             "start": 259,
-            "end": 270,
-            "name": "objFunction"
+            "end": 270
           },
           "init": {
             "type": "FunctionExpression",
-            "start": 273,
-            "end": 286,
             "id": null,
             "generator": false,
             "async": false,
             "params": [],
             "body": {
               "type": "BlockStatement",
+              "body": [],
               "start": 284,
-              "end": 286,
-              "body": []
+              "end": 286
             },
-            "expression": false
-          }
+            "expression": false,
+            "start": 273,
+            "end": 286
+          },
+          "start": 259,
+          "end": 286
         }
-      ]
+      ],
+      "start": 255,
+      "end": 287
     },
     {
       "type": "FunctionDeclaration",
-      "start": 289,
-      "end": 358,
       "id": {
         "type": "Identifier",
+        "name": "callbackfn",
         "start": 298,
-        "end": 308,
-        "name": "callbackfn"
+        "end": 308
       },
       "generator": false,
       "async": false,
       "params": [
         {
           "type": "Identifier",
+          "name": "val",
           "start": 309,
-          "end": 312,
-          "name": "val"
+          "end": 312
         },
         {
           "type": "Identifier",
+          "name": "idx",
           "start": 314,
-          "end": 317,
-          "name": "idx"
+          "end": 317
         },
         {
           "type": "Identifier",
+          "name": "obj",
           "start": 319,
-          "end": 322,
-          "name": "obj"
+          "end": 322
         }
       ],
       "body": {
         "type": "BlockStatement",
-        "start": 324,
-        "end": 358,
         "body": [
           {
             "type": "ReturnStatement",
-            "start": 328,
-            "end": 356,
             "argument": {
               "type": "BinaryExpression",
-              "start": 335,
-              "end": 355,
               "left": {
                 "type": "ThisExpression",
                 "start": 335,
@@ -91,90 +81,100 @@
               "operator": "===",
               "right": {
                 "type": "Identifier",
+                "name": "objFunction",
                 "start": 344,
-                "end": 355,
-                "name": "objFunction"
-              }
-            }
+                "end": 355
+              },
+              "start": 335,
+              "end": 355
+            },
+            "start": 328,
+            "end": 356
           }
-        ]
+        ],
+        "start": 324,
+        "end": 358
       },
-      "expression": false
+      "expression": false,
+      "start": 289,
+      "end": 358
     },
     {
       "type": "ExpressionStatement",
-      "start": 360,
-      "end": 450,
       "expression": {
         "type": "CallExpression",
-        "start": 360,
-        "end": 449,
         "callee": {
           "type": "Identifier",
+          "name": "assert",
           "start": 360,
-          "end": 366,
-          "name": "assert"
+          "end": 366
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 367,
-            "end": 401,
             "callee": {
               "type": "MemberExpression",
-              "start": 367,
-              "end": 376,
               "object": {
                 "type": "ArrayExpression",
-                "start": 367,
-                "end": 371,
                 "elements": [
                   {
                     "type": "Literal",
-                    "start": 368,
-                    "end": 370,
                     "value": 11,
-                    "raw": "11"
+                    "raw": "11",
+                    "start": 368,
+                    "end": 370
                   }
-                ]
+                ],
+                "start": 367,
+                "end": 371
               },
               "property": {
                 "type": "Identifier",
+                "name": "some",
                 "start": 372,
-                "end": 376,
-                "name": "some"
+                "end": 376
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 367,
+              "end": 376
             },
             "arguments": [
               {
                 "type": "Identifier",
+                "name": "callbackfn",
                 "start": 377,
-                "end": 387,
-                "name": "callbackfn"
+                "end": 387
               },
               {
                 "type": "Identifier",
+                "name": "objFunction",
                 "start": 389,
-                "end": 400,
-                "name": "objFunction"
+                "end": 400
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 367,
+            "end": 401
           },
           {
             "type": "Literal",
-            "start": 403,
-            "end": 448,
             "value": "[11].some(callbackfn, objFunction) !== true",
-            "raw": "'[11].some(callbackfn, objFunction) !== true'"
+            "raw": "'[11].some(callbackfn, objFunction) !== true'",
+            "start": 403,
+            "end": 448
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 360,
+        "end": 449
+      },
+      "start": 360,
+      "end": 450
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 451
 }

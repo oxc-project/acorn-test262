@@ -1,48 +1,48 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 260,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 235,
-      "end": 259,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 239,
-          "end": 258,
           "id": {
             "type": "Identifier",
+            "name": "re",
             "start": 239,
-            "end": 241,
-            "name": "re"
+            "end": 241
           },
           "init": {
             "type": "NewExpression",
-            "start": 244,
-            "end": 258,
             "callee": {
               "type": "Identifier",
+              "name": "RegExp",
               "start": 248,
-              "end": 254,
-              "name": "RegExp"
+              "end": 254
             },
             "arguments": [
               {
                 "type": "Literal",
-                "start": 255,
-                "end": 257,
                 "value": "",
-                "raw": "\"\""
+                "raw": "\"\"",
+                "start": 255,
+                "end": 257
               }
-            ]
-          }
+            ],
+            "start": 244,
+            "end": 258
+          },
+          "start": 239,
+          "end": 258
         }
-      ]
+      ],
+      "start": 235,
+      "end": 259
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 260
 }

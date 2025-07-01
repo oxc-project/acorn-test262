@@ -1,222 +1,222 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 568,
   "body": [
     {
       "type": "TryStatement",
-      "start": 275,
-      "end": 567,
       "block": {
         "type": "BlockStatement",
-        "start": 279,
-        "end": 408,
         "body": [
           {
             "type": "ExpressionStatement",
-            "start": 283,
-            "end": 300,
             "expression": {
               "type": "ConditionalExpression",
-              "start": 283,
-              "end": 299,
               "test": {
                 "type": "Identifier",
+                "name": "x",
                 "start": 283,
-                "end": 284,
-                "name": "x"
+                "end": 284
               },
               "consequent": {
                 "type": "Literal",
-                "start": 287,
-                "end": 291,
                 "value": true,
-                "raw": "true"
+                "raw": "true",
+                "start": 287,
+                "end": 291
               },
               "alternate": {
                 "type": "Literal",
-                "start": 294,
-                "end": 299,
                 "value": false,
-                "raw": "false"
-              }
-            }
+                "raw": "false",
+                "start": 294,
+                "end": 299
+              },
+              "start": 283,
+              "end": 299
+            },
+            "start": 283,
+            "end": 300
           },
           {
             "type": "ThrowStatement",
-            "start": 303,
-            "end": 404,
             "argument": {
               "type": "NewExpression",
-              "start": 309,
-              "end": 403,
               "callee": {
                 "type": "Identifier",
+                "name": "Test262Error",
                 "start": 313,
-                "end": 325,
-                "name": "Test262Error"
+                "end": 325
               },
               "arguments": [
                 {
                   "type": "BinaryExpression",
-                  "start": 326,
-                  "end": 402,
                   "left": {
                     "type": "Literal",
-                    "start": 326,
-                    "end": 381,
                     "value": "#1.1: x ? true : false throw ReferenceError. Actual: ",
-                    "raw": "'#1.1: x ? true : false throw ReferenceError. Actual: '"
+                    "raw": "'#1.1: x ? true : false throw ReferenceError. Actual: '",
+                    "start": 326,
+                    "end": 381
                   },
                   "operator": "+",
                   "right": {
                     "type": "ParenthesizedExpression",
-                    "start": 384,
-                    "end": 402,
                     "expression": {
                       "type": "ConditionalExpression",
-                      "start": 385,
-                      "end": 401,
                       "test": {
                         "type": "Identifier",
+                        "name": "x",
                         "start": 385,
-                        "end": 386,
-                        "name": "x"
+                        "end": 386
                       },
                       "consequent": {
                         "type": "Literal",
-                        "start": 389,
-                        "end": 393,
                         "value": true,
-                        "raw": "true"
+                        "raw": "true",
+                        "start": 389,
+                        "end": 393
                       },
                       "alternate": {
                         "type": "Literal",
-                        "start": 396,
-                        "end": 401,
                         "value": false,
-                        "raw": "false"
-                      }
-                    }
-                  }
+                        "raw": "false",
+                        "start": 396,
+                        "end": 401
+                      },
+                      "start": 385,
+                      "end": 401
+                    },
+                    "start": 384,
+                    "end": 402
+                  },
+                  "start": 326,
+                  "end": 402
                 }
-              ]
-            }
+              ],
+              "start": 309,
+              "end": 403
+            },
+            "start": 303,
+            "end": 404
           }
-        ]
+        ],
+        "start": 279,
+        "end": 408
       },
       "handler": {
         "type": "CatchClause",
-        "start": 409,
-        "end": 567,
         "param": {
           "type": "Identifier",
+          "name": "e",
           "start": 416,
-          "end": 417,
-          "name": "e"
+          "end": 417
         },
         "body": {
           "type": "BlockStatement",
-          "start": 419,
-          "end": 567,
           "body": [
             {
               "type": "IfStatement",
-              "start": 423,
-              "end": 565,
               "test": {
                 "type": "BinaryExpression",
-                "start": 427,
-                "end": 465,
                 "left": {
                   "type": "ParenthesizedExpression",
-                  "start": 427,
-                  "end": 456,
                   "expression": {
                     "type": "BinaryExpression",
-                    "start": 428,
-                    "end": 455,
                     "left": {
                       "type": "Identifier",
+                      "name": "e",
                       "start": 428,
-                      "end": 429,
-                      "name": "e"
+                      "end": 429
                     },
                     "operator": "instanceof",
                     "right": {
                       "type": "Identifier",
+                      "name": "ReferenceError",
                       "start": 441,
-                      "end": 455,
-                      "name": "ReferenceError"
-                    }
-                  }
+                      "end": 455
+                    },
+                    "start": 428,
+                    "end": 455
+                  },
+                  "start": 427,
+                  "end": 456
                 },
                 "operator": "!==",
                 "right": {
                   "type": "Literal",
-                  "start": 461,
-                  "end": 465,
                   "value": true,
-                  "raw": "true"
-                }
+                  "raw": "true",
+                  "start": 461,
+                  "end": 465
+                },
+                "start": 427,
+                "end": 465
               },
               "consequent": {
                 "type": "BlockStatement",
-                "start": 467,
-                "end": 565,
                 "body": [
                   {
                     "type": "ThrowStatement",
-                    "start": 473,
-                    "end": 559,
                     "argument": {
                       "type": "NewExpression",
-                      "start": 479,
-                      "end": 558,
                       "callee": {
                         "type": "Identifier",
+                        "name": "Test262Error",
                         "start": 483,
-                        "end": 495,
-                        "name": "Test262Error"
+                        "end": 495
                       },
                       "arguments": [
                         {
                           "type": "BinaryExpression",
-                          "start": 496,
-                          "end": 557,
                           "left": {
                             "type": "Literal",
-                            "start": 496,
-                            "end": 551,
                             "value": "#1.2: x ? true : false throw ReferenceError. Actual: ",
-                            "raw": "'#1.2: x ? true : false throw ReferenceError. Actual: '"
+                            "raw": "'#1.2: x ? true : false throw ReferenceError. Actual: '",
+                            "start": 496,
+                            "end": 551
                           },
                           "operator": "+",
                           "right": {
                             "type": "ParenthesizedExpression",
-                            "start": 554,
-                            "end": 557,
                             "expression": {
                               "type": "Identifier",
+                              "name": "e",
                               "start": 555,
-                              "end": 556,
-                              "name": "e"
-                            }
-                          }
+                              "end": 556
+                            },
+                            "start": 554,
+                            "end": 557
+                          },
+                          "start": 496,
+                          "end": 557
                         }
-                      ]
-                    }
+                      ],
+                      "start": 479,
+                      "end": 558
+                    },
+                    "start": 473,
+                    "end": 559
                   }
-                ]
+                ],
+                "start": 467,
+                "end": 565
               },
-              "alternate": null
+              "alternate": null,
+              "start": 423,
+              "end": 565
             }
-          ]
-        }
+          ],
+          "start": 419,
+          "end": 567
+        },
+        "start": 409,
+        "end": 567
       },
-      "finalizer": null
+      "finalizer": null,
+      "start": 275,
+      "end": 567
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 568
 }

@@ -1,87 +1,87 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 365,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 270,
-      "end": 364,
       "expression": {
         "type": "CallExpression",
-        "start": 270,
-        "end": 363,
         "callee": {
           "type": "MemberExpression",
-          "start": 270,
-          "end": 286,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 270,
-            "end": 276,
-            "name": "assert"
+            "end": 276
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 277,
-            "end": 286,
-            "name": "sameValue"
+            "end": 286
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 270,
+          "end": 286
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 287,
-            "end": 319,
             "callee": {
               "type": "MemberExpression",
-              "start": 287,
-              "end": 308,
               "object": {
                 "type": "Identifier",
+                "name": "Object",
                 "start": 287,
-                "end": 293,
-                "name": "Object"
+                "end": 293
               },
               "property": {
                 "type": "Identifier",
+                "name": "getPrototypeOf",
                 "start": 294,
-                "end": 308,
-                "name": "getPrototypeOf"
+                "end": 308
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 287,
+              "end": 308
             },
             "arguments": [
               {
                 "type": "Identifier",
+                "name": "TypeError",
                 "start": 309,
-                "end": 318,
-                "name": "TypeError"
+                "end": 318
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 287,
+            "end": 319
           },
           {
             "type": "Identifier",
+            "name": "Error",
             "start": 321,
-            "end": 326,
-            "name": "Error"
+            "end": 326
           },
           {
             "type": "Literal",
-            "start": 328,
-            "end": 362,
             "value": "Object.getPrototypeOf(TypeError)",
-            "raw": "'Object.getPrototypeOf(TypeError)'"
+            "raw": "'Object.getPrototypeOf(TypeError)'",
+            "start": 328,
+            "end": 362
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 270,
+        "end": 363
+      },
+      "start": 270,
+      "end": 364
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 365
 }

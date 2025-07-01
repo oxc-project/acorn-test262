@@ -1,140 +1,140 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 305,
   "body": [
     {
       "type": "FunctionDeclaration",
-      "start": 236,
-      "end": 252,
       "id": {
         "type": "Identifier",
+        "name": "g",
         "start": 246,
-        "end": 247,
-        "name": "g"
+        "end": 247
       },
       "generator": true,
       "async": false,
       "params": [],
       "body": {
         "type": "BlockStatement",
+        "body": [],
         "start": 250,
-        "end": 252,
-        "body": []
+        "end": 252
       },
-      "expression": false
+      "expression": false,
+      "start": 236,
+      "end": 252
     },
     {
       "type": "ExpressionStatement",
-      "start": 254,
-      "end": 273,
       "expression": {
         "type": "CallExpression",
-        "start": 254,
-        "end": 272,
         "callee": {
           "type": "MemberExpression",
-          "start": 254,
-          "end": 267,
           "object": {
             "type": "Identifier",
+            "name": "Iterator",
             "start": 254,
-            "end": 262,
-            "name": "Iterator"
+            "end": 262
           },
           "property": {
             "type": "Identifier",
+            "name": "from",
             "start": 263,
-            "end": 267,
-            "name": "from"
+            "end": 267
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 254,
+          "end": 267
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 268,
-            "end": 271,
             "callee": {
               "type": "Identifier",
+              "name": "g",
               "start": 268,
-              "end": 269,
-              "name": "g"
+              "end": 269
             },
             "arguments": [],
-            "optional": false
+            "optional": false,
+            "start": 268,
+            "end": 271
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 254,
+        "end": 272
+      },
+      "start": 254,
+      "end": 273
     },
     {
       "type": "ExpressionStatement",
-      "start": 274,
-      "end": 304,
       "expression": {
         "type": "CallExpression",
-        "start": 274,
-        "end": 303,
         "callee": {
           "type": "MemberExpression",
-          "start": 274,
-          "end": 292,
           "object": {
             "type": "MemberExpression",
-            "start": 274,
-            "end": 287,
             "object": {
               "type": "Identifier",
+              "name": "Iterator",
               "start": 274,
-              "end": 282,
-              "name": "Iterator"
+              "end": 282
             },
             "property": {
               "type": "Identifier",
+              "name": "from",
               "start": 283,
-              "end": 287,
-              "name": "from"
+              "end": 287
             },
             "optional": false,
-            "computed": false
+            "computed": false,
+            "start": 274,
+            "end": 287
           },
           "property": {
             "type": "Identifier",
+            "name": "call",
             "start": 288,
-            "end": 292,
-            "name": "call"
+            "end": 292
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 274,
+          "end": 292
         },
         "arguments": [
           {
             "type": "Literal",
-            "start": 293,
-            "end": 297,
             "value": null,
-            "raw": "null"
+            "raw": "null",
+            "start": 293,
+            "end": 297
           },
           {
             "type": "CallExpression",
-            "start": 299,
-            "end": 302,
             "callee": {
               "type": "Identifier",
+              "name": "g",
               "start": 299,
-              "end": 300,
-              "name": "g"
+              "end": 300
             },
             "arguments": [],
-            "optional": false
+            "optional": false,
+            "start": 299,
+            "end": 302
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 274,
+        "end": 303
+      },
+      "start": 274,
+      "end": 304
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 305
 }

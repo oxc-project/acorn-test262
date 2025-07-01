@@ -2,132 +2,128 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 839,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 0,
-      "end": 37,
       "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 6,
-          "end": 36,
           "id": {
             "type": "Identifier",
-            "start": 6,
-            "end": 14,
             "decorators": [],
             "name": "x",
             "optional": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
-              "start": 7,
-              "end": 14,
               "typeAnnotation": {
                 "type": "TSUnionType",
-                "start": 9,
-                "end": 14,
                 "types": [
                   {
                     "type": "TSLiteralType",
-                    "start": 9,
-                    "end": 10,
                     "literal": {
                       "type": "Literal",
-                      "start": 9,
-                      "end": 10,
                       "value": 0,
-                      "raw": "0"
-                    }
+                      "raw": "0",
+                      "start": 9,
+                      "end": 10
+                    },
+                    "start": 9,
+                    "end": 10
                   },
                   {
                     "type": "TSLiteralType",
-                    "start": 13,
-                    "end": 14,
                     "literal": {
                       "type": "Literal",
-                      "start": 13,
-                      "end": 14,
                       "value": 1,
-                      "raw": "1"
-                    }
+                      "raw": "1",
+                      "start": 13,
+                      "end": 14
+                    },
+                    "start": 13,
+                    "end": 14
                   }
-                ]
-              }
-            }
+                ],
+                "start": 9,
+                "end": 14
+              },
+              "start": 7,
+              "end": 14
+            },
+            "start": 6,
+            "end": 14
           },
           "init": {
             "type": "ConditionalExpression",
-            "start": 17,
-            "end": 36,
             "test": {
               "type": "CallExpression",
-              "start": 17,
-              "end": 30,
               "callee": {
                 "type": "MemberExpression",
-                "start": 17,
-                "end": 28,
                 "object": {
                   "type": "Identifier",
-                  "start": 17,
-                  "end": 21,
                   "decorators": [],
                   "name": "Math",
                   "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "start": 17,
+                  "end": 21
                 },
                 "property": {
                   "type": "Identifier",
-                  "start": 22,
-                  "end": 28,
                   "decorators": [],
                   "name": "random",
                   "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "start": 22,
+                  "end": 28
                 },
                 "optional": false,
-                "computed": false
+                "computed": false,
+                "start": 17,
+                "end": 28
               },
               "typeArguments": null,
               "arguments": [],
-              "optional": false
+              "optional": false,
+              "start": 17,
+              "end": 30
             },
             "consequent": {
               "type": "Literal",
-              "start": 32,
-              "end": 33,
               "value": 0,
-              "raw": "0"
+              "raw": "0",
+              "start": 32,
+              "end": 33
             },
             "alternate": {
               "type": "Literal",
-              "start": 35,
-              "end": 36,
               "value": 1,
-              "raw": "1"
-            }
+              "raw": "1",
+              "start": 35,
+              "end": 36
+            },
+            "start": 17,
+            "end": 36
           },
-          "definite": false
+          "definite": false,
+          "start": 6,
+          "end": 36
         }
       ],
-      "declare": false
+      "declare": false,
+      "start": 0,
+      "end": 37
     },
     {
       "type": "TSDeclareFunction",
-      "start": 38,
-      "end": 89,
       "id": {
         "type": "Identifier",
-        "start": 55,
-        "end": 61,
         "decorators": [],
         "name": "assert",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 55,
+        "end": 61
       },
       "generator": false,
       "async": false,
@@ -136,802 +132,802 @@ __ESTREE_TEST__:PASS:
       "params": [
         {
           "type": "Identifier",
-          "start": 62,
-          "end": 71,
           "decorators": [],
           "name": "n",
           "optional": false,
           "typeAnnotation": {
             "type": "TSTypeAnnotation",
-            "start": 63,
-            "end": 71,
             "typeAnnotation": {
               "type": "TSNumberKeyword",
               "start": 65,
               "end": 71
-            }
-          }
+            },
+            "start": 63,
+            "end": 71
+          },
+          "start": 62,
+          "end": 71
         }
       ],
       "returnType": {
         "type": "TSTypeAnnotation",
-        "start": 72,
-        "end": 88,
         "typeAnnotation": {
           "type": "TSTypePredicate",
-          "start": 74,
-          "end": 88,
           "parameterName": {
             "type": "Identifier",
-            "start": 82,
-            "end": 83,
             "decorators": [],
             "name": "n",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 82,
+            "end": 83
           },
           "asserts": true,
           "typeAnnotation": {
             "type": "TSTypeAnnotation",
-            "start": 87,
-            "end": 88,
             "typeAnnotation": {
               "type": "TSLiteralType",
-              "start": 87,
-              "end": 88,
               "literal": {
                 "type": "Literal",
-                "start": 87,
-                "end": 88,
                 "value": 1,
-                "raw": "1"
-              }
-            }
-          }
-        }
+                "raw": "1",
+                "start": 87,
+                "end": 88
+              },
+              "start": 87,
+              "end": 88
+            },
+            "start": 87,
+            "end": 88
+          },
+          "start": 74,
+          "end": 88
+        },
+        "start": 72,
+        "end": 88
       },
       "body": null,
-      "expression": false
+      "expression": false,
+      "start": 38,
+      "end": 89
     },
     {
       "type": "ExpressionStatement",
-      "start": 90,
-      "end": 100,
       "expression": {
         "type": "CallExpression",
-        "start": 90,
-        "end": 99,
         "callee": {
           "type": "Identifier",
-          "start": 90,
-          "end": 96,
           "decorators": [],
           "name": "assert",
           "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "start": 90,
+          "end": 96
         },
         "typeArguments": null,
         "arguments": [
           {
             "type": "Identifier",
-            "start": 97,
-            "end": 98,
             "decorators": [],
             "name": "x",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 97,
+            "end": 98
           }
         ],
-        "optional": false
+        "optional": false,
+        "start": 90,
+        "end": 99
       },
-      "directive": null
+      "directive": null,
+      "start": 90,
+      "end": 100
     },
     {
       "type": "ExportNamedDeclaration",
-      "start": 101,
-      "end": 169,
       "declaration": {
         "type": "VariableDeclaration",
-        "start": 108,
-        "end": 169,
         "kind": "let",
         "declarations": [
           {
             "type": "VariableDeclarator",
-            "start": 112,
-            "end": 169,
             "id": {
               "type": "Identifier",
-              "start": 112,
-              "end": 113,
               "decorators": [],
               "name": "o",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 112,
+              "end": 113
             },
             "init": {
               "type": "ObjectExpression",
-              "start": 116,
-              "end": 169,
               "properties": [
                 {
                   "type": "Property",
-                  "start": 122,
-                  "end": 128,
                   "kind": "init",
                   "key": {
                     "type": "Identifier",
-                    "start": 123,
-                    "end": 124,
                     "decorators": [],
                     "name": "x",
                     "optional": false,
-                    "typeAnnotation": null
+                    "typeAnnotation": null,
+                    "start": 123,
+                    "end": 124
                   },
                   "value": {
                     "type": "Literal",
-                    "start": 127,
-                    "end": 128,
                     "value": 1,
-                    "raw": "1"
+                    "raw": "1",
+                    "start": 127,
+                    "end": 128
                   },
                   "method": false,
                   "shorthand": false,
                   "computed": true,
-                  "optional": false
+                  "optional": false,
+                  "start": 122,
+                  "end": 128
                 }
-              ]
+              ],
+              "start": 116,
+              "end": 169
             },
-            "definite": false
+            "definite": false,
+            "start": 112,
+            "end": 169
           }
         ],
-        "declare": false
+        "declare": false,
+        "start": 108,
+        "end": 169
       },
       "specifiers": [],
       "source": null,
       "exportKind": "value",
-      "attributes": []
+      "attributes": [],
+      "start": 101,
+      "end": 169
     },
     {
       "type": "VariableDeclaration",
-      "start": 172,
-      "end": 186,
       "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 178,
-          "end": 186,
           "id": {
             "type": "Identifier",
-            "start": 178,
-            "end": 182,
             "decorators": [],
             "name": "y",
             "optional": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
-              "start": 179,
-              "end": 182,
               "typeAnnotation": {
                 "type": "TSLiteralType",
-                "start": 181,
-                "end": 182,
                 "literal": {
                   "type": "Literal",
-                  "start": 181,
-                  "end": 182,
                   "value": 0,
-                  "raw": "0"
-                }
-              }
-            }
+                  "raw": "0",
+                  "start": 181,
+                  "end": 182
+                },
+                "start": 181,
+                "end": 182
+              },
+              "start": 179,
+              "end": 182
+            },
+            "start": 178,
+            "end": 182
           },
           "init": {
             "type": "Literal",
-            "start": 185,
-            "end": 186,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "start": 185,
+            "end": 186
           },
-          "definite": false
+          "definite": false,
+          "start": 178,
+          "end": 186
         }
       ],
-      "declare": false
+      "declare": false,
+      "start": 172,
+      "end": 186
     },
     {
       "type": "ExportNamedDeclaration",
-      "start": 187,
-      "end": 246,
       "declaration": {
         "type": "VariableDeclaration",
-        "start": 194,
-        "end": 246,
         "kind": "let",
         "declarations": [
           {
             "type": "VariableDeclarator",
-            "start": 198,
-            "end": 246,
             "id": {
               "type": "Identifier",
-              "start": 198,
-              "end": 200,
               "decorators": [],
               "name": "o2",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 198,
+              "end": 200
             },
             "init": {
               "type": "ObjectExpression",
-              "start": 203,
-              "end": 246,
               "properties": [
                 {
                   "type": "Property",
-                  "start": 209,
-                  "end": 215,
                   "kind": "init",
                   "key": {
                     "type": "Identifier",
-                    "start": 210,
-                    "end": 211,
                     "decorators": [],
                     "name": "y",
                     "optional": false,
-                    "typeAnnotation": null
+                    "typeAnnotation": null,
+                    "start": 210,
+                    "end": 211
                   },
                   "value": {
                     "type": "Literal",
-                    "start": 214,
-                    "end": 215,
                     "value": 1,
-                    "raw": "1"
+                    "raw": "1",
+                    "start": 214,
+                    "end": 215
                   },
                   "method": false,
                   "shorthand": false,
                   "computed": true,
-                  "optional": false
+                  "optional": false,
+                  "start": 209,
+                  "end": 215
                 }
-              ]
+              ],
+              "start": 203,
+              "end": 246
             },
-            "definite": false
+            "definite": false,
+            "start": 198,
+            "end": 246
           }
         ],
-        "declare": false
+        "declare": false,
+        "start": 194,
+        "end": 246
       },
       "specifiers": [],
       "source": null,
       "exportKind": "value",
-      "attributes": []
+      "attributes": [],
+      "start": 187,
+      "end": 246
     },
     {
       "type": "ExportNamedDeclaration",
-      "start": 267,
-      "end": 293,
       "declaration": {
         "type": "VariableDeclaration",
-        "start": 274,
-        "end": 293,
         "kind": "let",
         "declarations": [
           {
             "type": "VariableDeclarator",
-            "start": 278,
-            "end": 293,
             "id": {
               "type": "Identifier",
-              "start": 278,
-              "end": 280,
               "decorators": [],
               "name": "o3",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 278,
+              "end": 280
             },
             "init": {
               "type": "ObjectExpression",
-              "start": 283,
-              "end": 293,
               "properties": [
                 {
                   "type": "Property",
-                  "start": 285,
-                  "end": 291,
                   "kind": "init",
                   "key": {
                     "type": "Literal",
-                    "start": 286,
-                    "end": 287,
                     "value": 1,
-                    "raw": "1"
+                    "raw": "1",
+                    "start": 286,
+                    "end": 287
                   },
                   "value": {
                     "type": "Literal",
-                    "start": 290,
-                    "end": 291,
                     "value": 1,
-                    "raw": "1"
+                    "raw": "1",
+                    "start": 290,
+                    "end": 291
                   },
                   "method": false,
                   "shorthand": false,
                   "computed": true,
-                  "optional": false
+                  "optional": false,
+                  "start": 285,
+                  "end": 291
                 }
-              ]
+              ],
+              "start": 283,
+              "end": 293
             },
-            "definite": false
+            "definite": false,
+            "start": 278,
+            "end": 293
           }
         ],
-        "declare": false
+        "declare": false,
+        "start": 274,
+        "end": 293
       },
       "specifiers": [],
       "source": null,
       "exportKind": "value",
-      "attributes": []
+      "attributes": [],
+      "start": 267,
+      "end": 293
     },
     {
       "type": "ExportNamedDeclaration",
-      "start": 294,
-      "end": 322,
       "declaration": {
         "type": "VariableDeclaration",
-        "start": 301,
-        "end": 322,
         "kind": "let",
         "declarations": [
           {
             "type": "VariableDeclarator",
-            "start": 305,
-            "end": 322,
             "id": {
               "type": "Identifier",
-              "start": 305,
-              "end": 308,
               "decorators": [],
               "name": "o31",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 305,
+              "end": 308
             },
             "init": {
               "type": "ObjectExpression",
-              "start": 311,
-              "end": 322,
               "properties": [
                 {
                   "type": "Property",
-                  "start": 313,
-                  "end": 320,
                   "kind": "init",
                   "key": {
                     "type": "UnaryExpression",
-                    "start": 314,
-                    "end": 316,
                     "operator": "-",
                     "argument": {
                       "type": "Literal",
-                      "start": 315,
-                      "end": 316,
                       "value": 1,
-                      "raw": "1"
+                      "raw": "1",
+                      "start": 315,
+                      "end": 316
                     },
-                    "prefix": true
+                    "prefix": true,
+                    "start": 314,
+                    "end": 316
                   },
                   "value": {
                     "type": "Literal",
-                    "start": 319,
-                    "end": 320,
                     "value": 1,
-                    "raw": "1"
+                    "raw": "1",
+                    "start": 319,
+                    "end": 320
                   },
                   "method": false,
                   "shorthand": false,
                   "computed": true,
-                  "optional": false
+                  "optional": false,
+                  "start": 313,
+                  "end": 320
                 }
-              ]
+              ],
+              "start": 311,
+              "end": 322
             },
-            "definite": false
+            "definite": false,
+            "start": 305,
+            "end": 322
           }
         ],
-        "declare": false
+        "declare": false,
+        "start": 301,
+        "end": 322
       },
       "specifiers": [],
       "source": null,
       "exportKind": "value",
-      "attributes": []
+      "attributes": [],
+      "start": 294,
+      "end": 322
     },
     {
       "type": "ExportNamedDeclaration",
-      "start": 324,
-      "end": 353,
       "declaration": {
         "type": "VariableDeclaration",
-        "start": 331,
-        "end": 353,
         "kind": "let",
         "declarations": [
           {
             "type": "VariableDeclarator",
-            "start": 335,
-            "end": 353,
             "id": {
               "type": "Identifier",
-              "start": 335,
-              "end": 338,
               "decorators": [],
               "name": "o32",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 335,
+              "end": 338
             },
             "init": {
               "type": "ObjectExpression",
-              "start": 341,
-              "end": 353,
               "properties": [
                 {
                   "type": "Property",
-                  "start": 343,
-                  "end": 351,
                   "kind": "init",
                   "key": {
                     "type": "BinaryExpression",
-                    "start": 344,
-                    "end": 347,
                     "left": {
                       "type": "Literal",
-                      "start": 344,
-                      "end": 345,
                       "value": 1,
-                      "raw": "1"
+                      "raw": "1",
+                      "start": 344,
+                      "end": 345
                     },
                     "operator": "-",
                     "right": {
                       "type": "Literal",
-                      "start": 346,
-                      "end": 347,
                       "value": 1,
-                      "raw": "1"
-                    }
+                      "raw": "1",
+                      "start": 346,
+                      "end": 347
+                    },
+                    "start": 344,
+                    "end": 347
                   },
                   "value": {
                     "type": "Literal",
-                    "start": 350,
-                    "end": 351,
                     "value": 1,
-                    "raw": "1"
+                    "raw": "1",
+                    "start": 350,
+                    "end": 351
                   },
                   "method": false,
                   "shorthand": false,
                   "computed": true,
-                  "optional": false
+                  "optional": false,
+                  "start": 343,
+                  "end": 351
                 }
-              ]
+              ],
+              "start": 341,
+              "end": 353
             },
-            "definite": false
+            "definite": false,
+            "start": 335,
+            "end": 353
           }
         ],
-        "declare": false
+        "declare": false,
+        "start": 331,
+        "end": 353
       },
       "specifiers": [],
       "source": null,
       "exportKind": "value",
-      "attributes": []
+      "attributes": [],
+      "start": 324,
+      "end": 353
     },
     {
       "type": "VariableDeclaration",
-      "start": 372,
-      "end": 389,
       "kind": "let",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 376,
-          "end": 388,
           "id": {
             "type": "Identifier",
-            "start": 376,
-            "end": 377,
             "decorators": [],
             "name": "u",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 376,
+            "end": 377
           },
           "init": {
             "type": "CallExpression",
-            "start": 380,
-            "end": 388,
             "callee": {
               "type": "Identifier",
-              "start": 380,
-              "end": 386,
               "decorators": [],
               "name": "Symbol",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 380,
+              "end": 386
             },
             "typeArguments": null,
             "arguments": [],
-            "optional": false
+            "optional": false,
+            "start": 380,
+            "end": 388
           },
-          "definite": false
+          "definite": false,
+          "start": 376,
+          "end": 388
         }
       ],
-      "declare": false
+      "declare": false,
+      "start": 372,
+      "end": 389
     },
     {
       "type": "ExportNamedDeclaration",
-      "start": 390,
-      "end": 457,
       "declaration": {
         "type": "VariableDeclaration",
-        "start": 397,
-        "end": 457,
         "kind": "let",
         "declarations": [
           {
             "type": "VariableDeclarator",
-            "start": 401,
-            "end": 457,
             "id": {
               "type": "Identifier",
-              "start": 401,
-              "end": 403,
               "decorators": [],
               "name": "o4",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 401,
+              "end": 403
             },
             "init": {
               "type": "ObjectExpression",
-              "start": 406,
-              "end": 457,
               "properties": [
                 {
                   "type": "Property",
-                  "start": 412,
-                  "end": 418,
                   "kind": "init",
                   "key": {
                     "type": "Identifier",
-                    "start": 413,
-                    "end": 414,
                     "decorators": [],
                     "name": "u",
                     "optional": false,
-                    "typeAnnotation": null
+                    "typeAnnotation": null,
+                    "start": 413,
+                    "end": 414
                   },
                   "value": {
                     "type": "Literal",
-                    "start": 417,
-                    "end": 418,
                     "value": 1,
-                    "raw": "1"
+                    "raw": "1",
+                    "start": 417,
+                    "end": 418
                   },
                   "method": false,
                   "shorthand": false,
                   "computed": true,
-                  "optional": false
+                  "optional": false,
+                  "start": 412,
+                  "end": 418
                 }
-              ]
+              ],
+              "start": 406,
+              "end": 457
             },
-            "definite": false
+            "definite": false,
+            "start": 401,
+            "end": 457
           }
         ],
-        "declare": false
+        "declare": false,
+        "start": 397,
+        "end": 457
       },
       "specifiers": [],
       "source": null,
       "exportKind": "value",
-      "attributes": []
+      "attributes": [],
+      "start": 390,
+      "end": 457
     },
     {
       "type": "ExportNamedDeclaration",
-      "start": 459,
-      "end": 512,
       "declaration": {
         "type": "VariableDeclaration",
-        "start": 466,
-        "end": 512,
         "kind": "let",
         "declarations": [
           {
             "type": "VariableDeclarator",
-            "start": 470,
-            "end": 512,
             "id": {
               "type": "Identifier",
-              "start": 470,
-              "end": 472,
               "decorators": [],
               "name": "o5",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 470,
+              "end": 472
             },
             "init": {
               "type": "ObjectExpression",
-              "start": 475,
-              "end": 512,
               "properties": [
                 {
                   "type": "Property",
-                  "start": 481,
-                  "end": 494,
                   "kind": "init",
                   "key": {
                     "type": "CallExpression",
-                    "start": 482,
-                    "end": 490,
                     "callee": {
                       "type": "Identifier",
-                      "start": 482,
-                      "end": 488,
                       "decorators": [],
                       "name": "Symbol",
                       "optional": false,
-                      "typeAnnotation": null
+                      "typeAnnotation": null,
+                      "start": 482,
+                      "end": 488
                     },
                     "typeArguments": null,
                     "arguments": [],
-                    "optional": false
+                    "optional": false,
+                    "start": 482,
+                    "end": 490
                   },
                   "value": {
                     "type": "Literal",
-                    "start": 493,
-                    "end": 494,
                     "value": 1,
-                    "raw": "1"
+                    "raw": "1",
+                    "start": 493,
+                    "end": 494
                   },
                   "method": false,
                   "shorthand": false,
                   "computed": true,
-                  "optional": false
+                  "optional": false,
+                  "start": 481,
+                  "end": 494
                 }
-              ]
+              ],
+              "start": 475,
+              "end": 512
             },
-            "definite": false
+            "definite": false,
+            "start": 470,
+            "end": 512
           }
         ],
-        "declare": false
+        "declare": false,
+        "start": 466,
+        "end": 512
       },
       "specifiers": [],
       "source": null,
       "exportKind": "value",
-      "attributes": []
+      "attributes": [],
+      "start": 459,
+      "end": 512
     },
     {
       "type": "VariableDeclaration",
-      "start": 514,
-      "end": 549,
       "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 520,
-          "end": 548,
           "id": {
             "type": "Identifier",
-            "start": 520,
-            "end": 537,
             "decorators": [],
             "name": "uu",
             "optional": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
-              "start": 522,
-              "end": 537,
               "typeAnnotation": {
                 "type": "TSTypeOperator",
-                "start": 524,
-                "end": 537,
                 "operator": "unique",
                 "typeAnnotation": {
                   "type": "TSSymbolKeyword",
                   "start": 531,
                   "end": 537
-                }
-              }
-            }
+                },
+                "start": 524,
+                "end": 537
+              },
+              "start": 522,
+              "end": 537
+            },
+            "start": 520,
+            "end": 537
           },
           "init": {
             "type": "CallExpression",
-            "start": 540,
-            "end": 548,
             "callee": {
               "type": "Identifier",
-              "start": 540,
-              "end": 546,
               "decorators": [],
               "name": "Symbol",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 540,
+              "end": 546
             },
             "typeArguments": null,
             "arguments": [],
-            "optional": false
+            "optional": false,
+            "start": 540,
+            "end": 548
           },
-          "definite": false
+          "definite": false,
+          "start": 520,
+          "end": 548
         }
       ],
-      "declare": false
+      "declare": false,
+      "start": 514,
+      "end": 549
     },
     {
       "type": "ExportNamedDeclaration",
-      "start": 550,
-      "end": 598,
       "declaration": {
         "type": "VariableDeclaration",
-        "start": 557,
-        "end": 598,
         "kind": "let",
         "declarations": [
           {
             "type": "VariableDeclarator",
-            "start": 561,
-            "end": 598,
             "id": {
               "type": "Identifier",
-              "start": 561,
-              "end": 563,
               "decorators": [],
               "name": "o6",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 561,
+              "end": 563
             },
             "init": {
               "type": "ObjectExpression",
-              "start": 567,
-              "end": 598,
               "properties": [
                 {
                   "type": "Property",
-                  "start": 573,
-                  "end": 580,
                   "kind": "init",
                   "key": {
                     "type": "Identifier",
-                    "start": 574,
-                    "end": 576,
                     "decorators": [],
                     "name": "uu",
                     "optional": false,
-                    "typeAnnotation": null
+                    "typeAnnotation": null,
+                    "start": 574,
+                    "end": 576
                   },
                   "value": {
                     "type": "Literal",
-                    "start": 579,
-                    "end": 580,
                     "value": 1,
-                    "raw": "1"
+                    "raw": "1",
+                    "start": 579,
+                    "end": 580
                   },
                   "method": false,
                   "shorthand": false,
                   "computed": true,
-                  "optional": false
+                  "optional": false,
+                  "start": 573,
+                  "end": 580
                 }
-              ]
+              ],
+              "start": 567,
+              "end": 598
             },
-            "definite": false
+            "definite": false,
+            "start": 561,
+            "end": 598
           }
         ],
-        "declare": false
+        "declare": false,
+        "start": 557,
+        "end": 598
       },
       "specifiers": [],
       "source": null,
       "exportKind": "value",
-      "attributes": []
+      "attributes": [],
+      "start": 550,
+      "end": 598
     },
     {
       "type": "FunctionDeclaration",
-      "start": 601,
-      "end": 633,
       "id": {
         "type": "Identifier",
-        "start": 610,
-        "end": 613,
         "decorators": [],
         "name": "foo",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 610,
+        "end": 613
       },
       "generator": false,
       "async": false,
@@ -940,287 +936,287 @@ __ESTREE_TEST__:PASS:
       "params": [],
       "returnType": {
         "type": "TSTypeAnnotation",
-        "start": 616,
-        "end": 619,
         "typeAnnotation": {
           "type": "TSLiteralType",
-          "start": 618,
-          "end": 619,
           "literal": {
             "type": "Literal",
-            "start": 618,
-            "end": 619,
             "value": 1,
-            "raw": "1"
-          }
-        }
+            "raw": "1",
+            "start": 618,
+            "end": 619
+          },
+          "start": 618,
+          "end": 619
+        },
+        "start": 616,
+        "end": 619
       },
       "body": {
         "type": "BlockStatement",
-        "start": 620,
-        "end": 633,
         "body": [
           {
             "type": "ReturnStatement",
-            "start": 622,
-            "end": 631,
             "argument": {
               "type": "Literal",
-              "start": 629,
-              "end": 630,
               "value": 1,
-              "raw": "1"
-            }
+              "raw": "1",
+              "start": 629,
+              "end": 630
+            },
+            "start": 622,
+            "end": 631
           }
-        ]
+        ],
+        "start": 620,
+        "end": 633
       },
-      "expression": false
+      "expression": false,
+      "start": 601,
+      "end": 633
     },
     {
       "type": "ExportNamedDeclaration",
-      "start": 634,
-      "end": 685,
       "declaration": {
         "type": "VariableDeclaration",
-        "start": 641,
-        "end": 685,
         "kind": "let",
         "declarations": [
           {
             "type": "VariableDeclarator",
-            "start": 645,
-            "end": 684,
             "id": {
               "type": "Identifier",
-              "start": 645,
-              "end": 647,
               "decorators": [],
               "name": "o7",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 645,
+              "end": 647
             },
             "init": {
               "type": "ObjectExpression",
-              "start": 650,
-              "end": 684,
               "properties": [
                 {
                   "type": "Property",
-                  "start": 656,
-                  "end": 666,
                   "kind": "init",
                   "key": {
                     "type": "CallExpression",
-                    "start": 657,
-                    "end": 662,
                     "callee": {
                       "type": "Identifier",
-                      "start": 657,
-                      "end": 660,
                       "decorators": [],
                       "name": "foo",
                       "optional": false,
-                      "typeAnnotation": null
+                      "typeAnnotation": null,
+                      "start": 657,
+                      "end": 660
                     },
                     "typeArguments": null,
                     "arguments": [],
-                    "optional": false
+                    "optional": false,
+                    "start": 657,
+                    "end": 662
                   },
                   "value": {
                     "type": "Literal",
-                    "start": 665,
-                    "end": 666,
                     "value": 1,
-                    "raw": "1"
+                    "raw": "1",
+                    "start": 665,
+                    "end": 666
                   },
                   "method": false,
                   "shorthand": false,
                   "computed": true,
-                  "optional": false
+                  "optional": false,
+                  "start": 656,
+                  "end": 666
                 }
-              ]
+              ],
+              "start": 650,
+              "end": 684
             },
-            "definite": false
+            "definite": false,
+            "start": 645,
+            "end": 684
           }
         ],
-        "declare": false
+        "declare": false,
+        "start": 641,
+        "end": 685
       },
       "specifiers": [],
       "source": null,
       "exportKind": "value",
-      "attributes": []
+      "attributes": [],
+      "start": 634,
+      "end": 685
     },
     {
       "type": "VariableDeclaration",
-      "start": 687,
-      "end": 712,
       "kind": "let",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 691,
-          "end": 712,
           "id": {
             "type": "Identifier",
-            "start": 691,
-            "end": 692,
             "decorators": [],
             "name": "E",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 691,
+            "end": 692
           },
           "init": {
             "type": "TSAsExpression",
-            "start": 695,
-            "end": 712,
             "expression": {
               "type": "ObjectExpression",
-              "start": 695,
-              "end": 703,
               "properties": [
                 {
                   "type": "Property",
-                  "start": 697,
-                  "end": 701,
                   "kind": "init",
                   "key": {
                     "type": "Identifier",
-                    "start": 697,
-                    "end": 698,
                     "decorators": [],
                     "name": "A",
                     "optional": false,
-                    "typeAnnotation": null
+                    "typeAnnotation": null,
+                    "start": 697,
+                    "end": 698
                   },
                   "value": {
                     "type": "Literal",
-                    "start": 700,
-                    "end": 701,
                     "value": 1,
-                    "raw": "1"
+                    "raw": "1",
+                    "start": 700,
+                    "end": 701
                   },
                   "method": false,
                   "shorthand": false,
                   "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "start": 697,
+                  "end": 701
                 }
-              ]
+              ],
+              "start": 695,
+              "end": 703
             },
             "typeAnnotation": {
               "type": "TSTypeReference",
-              "start": 707,
-              "end": 712,
               "typeName": {
                 "type": "Identifier",
-                "start": 707,
-                "end": 712,
                 "decorators": [],
                 "name": "const",
                 "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "start": 707,
+                "end": 712
               },
-              "typeArguments": null
-            }
+              "typeArguments": null,
+              "start": 707,
+              "end": 712
+            },
+            "start": 695,
+            "end": 712
           },
-          "definite": false
+          "definite": false,
+          "start": 691,
+          "end": 712
         }
       ],
-      "declare": false
+      "declare": false,
+      "start": 687,
+      "end": 712
     },
     {
       "type": "ExportNamedDeclaration",
-      "start": 713,
-      "end": 757,
       "declaration": {
         "type": "VariableDeclaration",
-        "start": 720,
-        "end": 757,
         "kind": "const",
         "declarations": [
           {
             "type": "VariableDeclarator",
-            "start": 726,
-            "end": 757,
             "id": {
               "type": "Identifier",
-              "start": 726,
-              "end": 728,
               "decorators": [],
               "name": "o8",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 726,
+              "end": 728
             },
             "init": {
               "type": "ObjectExpression",
-              "start": 731,
-              "end": 757,
               "properties": [
                 {
                   "type": "Property",
-                  "start": 737,
-                  "end": 745,
                   "kind": "init",
                   "key": {
                     "type": "MemberExpression",
-                    "start": 738,
-                    "end": 741,
                     "object": {
                       "type": "Identifier",
-                      "start": 738,
-                      "end": 739,
                       "decorators": [],
                       "name": "E",
                       "optional": false,
-                      "typeAnnotation": null
+                      "typeAnnotation": null,
+                      "start": 738,
+                      "end": 739
                     },
                     "property": {
                       "type": "Identifier",
-                      "start": 740,
-                      "end": 741,
                       "decorators": [],
                       "name": "A",
                       "optional": false,
-                      "typeAnnotation": null
+                      "typeAnnotation": null,
+                      "start": 740,
+                      "end": 741
                     },
                     "optional": false,
-                    "computed": false
+                    "computed": false,
+                    "start": 738,
+                    "end": 741
                   },
                   "value": {
                     "type": "Literal",
-                    "start": 744,
-                    "end": 745,
                     "value": 1,
-                    "raw": "1"
+                    "raw": "1",
+                    "start": 744,
+                    "end": 745
                   },
                   "method": false,
                   "shorthand": false,
                   "computed": true,
-                  "optional": false
+                  "optional": false,
+                  "start": 737,
+                  "end": 745
                 }
-              ]
+              ],
+              "start": 731,
+              "end": 757
             },
-            "definite": false
+            "definite": false,
+            "start": 726,
+            "end": 757
           }
         ],
-        "declare": false
+        "declare": false,
+        "start": 720,
+        "end": 757
       },
       "specifiers": [],
       "source": null,
       "exportKind": "value",
-      "attributes": []
+      "attributes": [],
+      "start": 713,
+      "end": 757
     },
     {
       "type": "FunctionDeclaration",
-      "start": 759,
-      "end": 801,
       "id": {
         "type": "Identifier",
-        "start": 768,
-        "end": 770,
         "decorators": [],
         "name": "ns",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 768,
+        "end": 770
       },
       "generator": false,
       "async": false,
@@ -1230,163 +1226,167 @@ __ESTREE_TEST__:PASS:
       "returnType": null,
       "body": {
         "type": "BlockStatement",
-        "start": 773,
-        "end": 801,
         "body": [
           {
             "type": "ReturnStatement",
-            "start": 775,
-            "end": 799,
             "argument": {
               "type": "TSAsExpression",
-              "start": 782,
-              "end": 799,
               "expression": {
                 "type": "ObjectExpression",
-                "start": 782,
-                "end": 790,
                 "properties": [
                   {
                     "type": "Property",
-                    "start": 784,
-                    "end": 788,
                     "kind": "init",
                     "key": {
                       "type": "Identifier",
-                      "start": 784,
-                      "end": 785,
                       "decorators": [],
                       "name": "v",
                       "optional": false,
-                      "typeAnnotation": null
+                      "typeAnnotation": null,
+                      "start": 784,
+                      "end": 785
                     },
                     "value": {
                       "type": "Literal",
-                      "start": 787,
-                      "end": 788,
                       "value": 0,
-                      "raw": "0"
+                      "raw": "0",
+                      "start": 787,
+                      "end": 788
                     },
                     "method": false,
                     "shorthand": false,
                     "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "start": 784,
+                    "end": 788
                   }
-                ]
+                ],
+                "start": 782,
+                "end": 790
               },
               "typeAnnotation": {
                 "type": "TSTypeReference",
-                "start": 794,
-                "end": 799,
                 "typeName": {
                   "type": "Identifier",
-                  "start": 794,
-                  "end": 799,
                   "decorators": [],
                   "name": "const",
                   "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "start": 794,
+                  "end": 799
                 },
-                "typeArguments": null
-              }
-            }
+                "typeArguments": null,
+                "start": 794,
+                "end": 799
+              },
+              "start": 782,
+              "end": 799
+            },
+            "start": 775,
+            "end": 799
           }
-        ]
+        ],
+        "start": 773,
+        "end": 801
       },
-      "expression": false
+      "expression": false,
+      "start": 759,
+      "end": 801
     },
     {
       "type": "ExportNamedDeclaration",
-      "start": 802,
-      "end": 839,
       "declaration": {
         "type": "VariableDeclaration",
-        "start": 809,
-        "end": 839,
         "kind": "const",
         "declarations": [
           {
             "type": "VariableDeclarator",
-            "start": 815,
-            "end": 839,
             "id": {
               "type": "Identifier",
-              "start": 815,
-              "end": 817,
               "decorators": [],
               "name": "o9",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 815,
+              "end": 817
             },
             "init": {
               "type": "ObjectExpression",
-              "start": 820,
-              "end": 839,
               "properties": [
                 {
                   "type": "Property",
-                  "start": 826,
-                  "end": 837,
                   "kind": "init",
                   "key": {
                     "type": "MemberExpression",
-                    "start": 827,
-                    "end": 833,
                     "object": {
                       "type": "CallExpression",
-                      "start": 827,
-                      "end": 831,
                       "callee": {
                         "type": "Identifier",
-                        "start": 827,
-                        "end": 829,
                         "decorators": [],
                         "name": "ns",
                         "optional": false,
-                        "typeAnnotation": null
+                        "typeAnnotation": null,
+                        "start": 827,
+                        "end": 829
                       },
                       "typeArguments": null,
                       "arguments": [],
-                      "optional": false
+                      "optional": false,
+                      "start": 827,
+                      "end": 831
                     },
                     "property": {
                       "type": "Identifier",
-                      "start": 832,
-                      "end": 833,
                       "decorators": [],
                       "name": "v",
                       "optional": false,
-                      "typeAnnotation": null
+                      "typeAnnotation": null,
+                      "start": 832,
+                      "end": 833
                     },
                     "optional": false,
-                    "computed": false
+                    "computed": false,
+                    "start": 827,
+                    "end": 833
                   },
                   "value": {
                     "type": "Literal",
-                    "start": 836,
-                    "end": 837,
                     "value": 1,
-                    "raw": "1"
+                    "raw": "1",
+                    "start": 836,
+                    "end": 837
                   },
                   "method": false,
                   "shorthand": false,
                   "computed": true,
-                  "optional": false
+                  "optional": false,
+                  "start": 826,
+                  "end": 837
                 }
-              ]
+              ],
+              "start": 820,
+              "end": 839
             },
-            "definite": false
+            "definite": false,
+            "start": 815,
+            "end": 839
           }
         ],
-        "declare": false
+        "declare": false,
+        "start": 809,
+        "end": 839
       },
       "specifiers": [],
       "source": null,
       "exportKind": "value",
-      "attributes": []
+      "attributes": [],
+      "start": 802,
+      "end": 839
     }
   ],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 839
 }
 ```

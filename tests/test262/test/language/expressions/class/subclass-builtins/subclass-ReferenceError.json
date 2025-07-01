@@ -1,152 +1,152 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 447,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 297,
-      "end": 345,
       "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 303,
-          "end": 345,
           "id": {
             "type": "Identifier",
+            "name": "Subclass",
             "start": 303,
-            "end": 311,
-            "name": "Subclass"
+            "end": 311
           },
           "init": {
             "type": "ClassExpression",
-            "start": 314,
-            "end": 345,
             "decorators": [],
             "id": null,
             "superClass": {
               "type": "Identifier",
+              "name": "ReferenceError",
               "start": 328,
-              "end": 342,
-              "name": "ReferenceError"
+              "end": 342
             },
             "body": {
               "type": "ClassBody",
+              "body": [],
               "start": 343,
-              "end": 345,
-              "body": []
-            }
-          }
+              "end": 345
+            },
+            "start": 314,
+            "end": 345
+          },
+          "start": 303,
+          "end": 345
         }
-      ]
+      ],
+      "start": 297,
+      "end": 345
     },
     {
       "type": "VariableDeclaration",
-      "start": 347,
-      "end": 374,
       "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 353,
-          "end": 373,
           "id": {
             "type": "Identifier",
+            "name": "sub",
             "start": 353,
-            "end": 356,
-            "name": "sub"
+            "end": 356
           },
           "init": {
             "type": "NewExpression",
-            "start": 359,
-            "end": 373,
             "callee": {
               "type": "Identifier",
+              "name": "Subclass",
               "start": 363,
-              "end": 371,
-              "name": "Subclass"
+              "end": 371
             },
-            "arguments": []
-          }
+            "arguments": [],
+            "start": 359,
+            "end": 373
+          },
+          "start": 353,
+          "end": 373
         }
-      ]
+      ],
+      "start": 347,
+      "end": 374
     },
     {
       "type": "ExpressionStatement",
-      "start": 375,
-      "end": 407,
       "expression": {
         "type": "CallExpression",
-        "start": 375,
-        "end": 406,
         "callee": {
           "type": "Identifier",
+          "name": "assert",
           "start": 375,
-          "end": 381,
-          "name": "assert"
+          "end": 381
         },
         "arguments": [
           {
             "type": "BinaryExpression",
-            "start": 382,
-            "end": 405,
             "left": {
               "type": "Identifier",
+              "name": "sub",
               "start": 382,
-              "end": 385,
-              "name": "sub"
+              "end": 385
             },
             "operator": "instanceof",
             "right": {
               "type": "Identifier",
+              "name": "Subclass",
               "start": 397,
-              "end": 405,
-              "name": "Subclass"
-            }
+              "end": 405
+            },
+            "start": 382,
+            "end": 405
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 375,
+        "end": 406
+      },
+      "start": 375,
+      "end": 407
     },
     {
       "type": "ExpressionStatement",
-      "start": 408,
-      "end": 446,
       "expression": {
         "type": "CallExpression",
-        "start": 408,
-        "end": 445,
         "callee": {
           "type": "Identifier",
+          "name": "assert",
           "start": 408,
-          "end": 414,
-          "name": "assert"
+          "end": 414
         },
         "arguments": [
           {
             "type": "BinaryExpression",
-            "start": 415,
-            "end": 444,
             "left": {
               "type": "Identifier",
+              "name": "sub",
               "start": 415,
-              "end": 418,
-              "name": "sub"
+              "end": 418
             },
             "operator": "instanceof",
             "right": {
               "type": "Identifier",
+              "name": "ReferenceError",
               "start": 430,
-              "end": 444,
-              "name": "ReferenceError"
-            }
+              "end": 444
+            },
+            "start": 415,
+            "end": 444
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 408,
+        "end": 445
+      },
+      "start": 408,
+      "end": 446
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 447
 }

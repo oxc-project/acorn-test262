@@ -1,240 +1,240 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 731,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 513,
-      "end": 533,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 517,
-          "end": 532,
           "id": {
             "type": "Identifier",
+            "name": "proxyProto",
             "start": 517,
-            "end": 527,
-            "name": "proxyProto"
+            "end": 527
           },
           "init": {
             "type": "ArrayExpression",
+            "elements": [],
             "start": 530,
-            "end": 532,
-            "elements": []
-          }
+            "end": 532
+          },
+          "start": 517,
+          "end": 532
         }
-      ]
+      ],
+      "start": 513,
+      "end": 533
     },
     {
       "type": "VariableDeclaration",
-      "start": 534,
-      "end": 635,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 538,
-          "end": 634,
           "id": {
             "type": "Identifier",
+            "name": "handler",
             "start": 538,
-            "end": 545,
-            "name": "handler"
+            "end": 545
           },
           "init": {
             "type": "CallExpression",
-            "start": 548,
-            "end": 634,
             "callee": {
               "type": "Identifier",
+              "name": "allowProxyTraps",
               "start": 548,
-              "end": 563,
-              "name": "allowProxyTraps"
+              "end": 563
             },
             "arguments": [
               {
                 "type": "ObjectExpression",
-                "start": 564,
-                "end": 633,
                 "properties": [
                   {
                     "type": "Property",
-                    "start": 568,
-                    "end": 630,
                     "kind": "init",
                     "key": {
                       "type": "Identifier",
+                      "name": "getPrototypeOf",
                       "start": 568,
-                      "end": 582,
-                      "name": "getPrototypeOf"
+                      "end": 582
                     },
                     "value": {
                       "type": "FunctionExpression",
-                      "start": 584,
-                      "end": 630,
                       "id": null,
                       "generator": false,
                       "async": false,
                       "params": [
                         {
                           "type": "Identifier",
+                          "name": "_target",
                           "start": 593,
-                          "end": 600,
-                          "name": "_target"
+                          "end": 600
                         }
                       ],
                       "body": {
                         "type": "BlockStatement",
-                        "start": 602,
-                        "end": 630,
                         "body": [
                           {
                             "type": "ReturnStatement",
-                            "start": 608,
-                            "end": 626,
                             "argument": {
                               "type": "Identifier",
+                              "name": "proxyProto",
                               "start": 615,
-                              "end": 625,
-                              "name": "proxyProto"
-                            }
+                              "end": 625
+                            },
+                            "start": 608,
+                            "end": 626
                           }
-                        ]
+                        ],
+                        "start": 602,
+                        "end": 630
                       },
-                      "expression": false
+                      "expression": false,
+                      "start": 584,
+                      "end": 630
                     },
                     "method": false,
                     "shorthand": false,
-                    "computed": false
+                    "computed": false,
+                    "start": 568,
+                    "end": 630
                   }
-                ]
+                ],
+                "start": 564,
+                "end": 633
               }
             ],
-            "optional": false
-          }
+            "optional": false,
+            "start": 548,
+            "end": 634
+          },
+          "start": 538,
+          "end": 634
         }
-      ]
+      ],
+      "start": 534,
+      "end": 635
     },
     {
       "type": "VariableDeclaration",
-      "start": 637,
-      "end": 672,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 641,
-          "end": 671,
           "id": {
             "type": "Identifier",
+            "name": "proxy",
             "start": 641,
-            "end": 646,
-            "name": "proxy"
+            "end": 646
           },
           "init": {
             "type": "NewExpression",
-            "start": 649,
-            "end": 671,
             "callee": {
               "type": "Identifier",
+              "name": "Proxy",
               "start": 653,
-              "end": 658,
-              "name": "Proxy"
+              "end": 658
             },
             "arguments": [
               {
                 "type": "ObjectExpression",
+                "properties": [],
                 "start": 659,
-                "end": 661,
-                "properties": []
+                "end": 661
               },
               {
                 "type": "Identifier",
+                "name": "handler",
                 "start": 663,
-                "end": 670,
-                "name": "handler"
+                "end": 670
               }
-            ]
-          }
+            ],
+            "start": 649,
+            "end": 671
+          },
+          "start": 641,
+          "end": 671
         }
-      ]
+      ],
+      "start": 637,
+      "end": 672
     },
     {
       "type": "ExpressionStatement",
-      "start": 674,
-      "end": 730,
       "expression": {
         "type": "CallExpression",
-        "start": 674,
-        "end": 729,
         "callee": {
           "type": "MemberExpression",
-          "start": 674,
-          "end": 690,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 674,
-            "end": 680,
-            "name": "assert"
+            "end": 680
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 681,
-            "end": 690,
-            "name": "sameValue"
+            "end": 690
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 674,
+          "end": 690
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 691,
-            "end": 722,
             "callee": {
               "type": "MemberExpression",
-              "start": 691,
-              "end": 715,
               "object": {
                 "type": "Identifier",
+                "name": "proxyProto",
                 "start": 691,
-                "end": 701,
-                "name": "proxyProto"
+                "end": 701
               },
               "property": {
                 "type": "Identifier",
+                "name": "isPrototypeOf",
                 "start": 702,
-                "end": 715,
-                "name": "isPrototypeOf"
+                "end": 715
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 691,
+              "end": 715
             },
             "arguments": [
               {
                 "type": "Identifier",
+                "name": "proxy",
                 "start": 716,
-                "end": 721,
-                "name": "proxy"
+                "end": 721
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 691,
+            "end": 722
           },
           {
             "type": "Literal",
-            "start": 724,
-            "end": 728,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "start": 724,
+            "end": 728
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 674,
+        "end": 729
+      },
+      "start": 674,
+      "end": 730
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 731
 }

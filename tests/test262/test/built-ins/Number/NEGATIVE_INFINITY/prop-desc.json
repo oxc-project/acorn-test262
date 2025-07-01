@@ -1,105 +1,105 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 569,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 419,
-      "end": 468,
       "expression": {
         "type": "CallExpression",
-        "start": 419,
-        "end": 467,
         "callee": {
           "type": "Identifier",
+          "name": "verifyNotEnumerable",
           "start": 419,
-          "end": 438,
-          "name": "verifyNotEnumerable"
+          "end": 438
         },
         "arguments": [
           {
             "type": "Identifier",
+            "name": "Number",
             "start": 439,
-            "end": 445,
-            "name": "Number"
+            "end": 445
           },
           {
             "type": "Literal",
+            "value": "NEGATIVE_INFINITY",
+            "raw": "\"NEGATIVE_INFINITY\"",
             "start": 447,
-            "end": 466,
-            "value": "NEGATIVE_INFINITY",
-            "raw": "\"NEGATIVE_INFINITY\""
+            "end": 466
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 419,
+        "end": 467
+      },
+      "start": 419,
+      "end": 468
     },
     {
       "type": "ExpressionStatement",
-      "start": 469,
-      "end": 516,
       "expression": {
         "type": "CallExpression",
-        "start": 469,
-        "end": 515,
         "callee": {
           "type": "Identifier",
+          "name": "verifyNotWritable",
           "start": 469,
-          "end": 486,
-          "name": "verifyNotWritable"
+          "end": 486
         },
         "arguments": [
           {
             "type": "Identifier",
+            "name": "Number",
             "start": 487,
-            "end": 493,
-            "name": "Number"
+            "end": 493
           },
           {
             "type": "Literal",
-            "start": 495,
-            "end": 514,
             "value": "NEGATIVE_INFINITY",
-            "raw": "\"NEGATIVE_INFINITY\""
+            "raw": "\"NEGATIVE_INFINITY\"",
+            "start": 495,
+            "end": 514
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 469,
+        "end": 515
+      },
+      "start": 469,
+      "end": 516
     },
     {
       "type": "ExpressionStatement",
-      "start": 517,
-      "end": 568,
       "expression": {
         "type": "CallExpression",
-        "start": 517,
-        "end": 567,
         "callee": {
           "type": "Identifier",
+          "name": "verifyNotConfigurable",
           "start": 517,
-          "end": 538,
-          "name": "verifyNotConfigurable"
+          "end": 538
         },
         "arguments": [
           {
             "type": "Identifier",
+            "name": "Number",
             "start": 539,
-            "end": 545,
-            "name": "Number"
+            "end": 545
           },
           {
             "type": "Literal",
-            "start": 547,
-            "end": 566,
             "value": "NEGATIVE_INFINITY",
-            "raw": "\"NEGATIVE_INFINITY\""
+            "raw": "\"NEGATIVE_INFINITY\"",
+            "start": 547,
+            "end": 566
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 517,
+        "end": 567
+      },
+      "start": 517,
+      "end": 568
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 569
 }

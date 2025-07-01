@@ -1,36 +1,36 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 932,
   "body": [
     {
       "type": "FunctionDeclaration",
-      "start": 913,
-      "end": 929,
       "id": {
         "type": "Identifier",
+        "name": "fn",
         "start": 922,
-        "end": 924,
-        "name": "fn"
+        "end": 924
       },
       "generator": false,
       "async": false,
       "params": [],
       "body": {
         "type": "BlockStatement",
+        "body": [],
         "start": 927,
-        "end": 929,
-        "body": []
+        "end": 929
       },
-      "expression": false
+      "expression": false,
+      "start": 913,
+      "end": 929
     },
     {
       "type": "BlockStatement",
+      "body": [],
       "start": 929,
-      "end": 931,
-      "body": []
+      "end": 931
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 932
 }

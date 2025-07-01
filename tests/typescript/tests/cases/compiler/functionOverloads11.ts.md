@@ -2,21 +2,17 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 58,
   "body": [
     {
       "type": "TSDeclareFunction",
-      "start": 0,
-      "end": 22,
       "id": {
         "type": "Identifier",
-        "start": 9,
-        "end": 12,
         "decorators": [],
         "name": "foo",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 9,
+        "end": 12
       },
       "generator": false,
       "async": false,
@@ -25,29 +21,29 @@ __ESTREE_TEST__:PASS:
       "params": [],
       "returnType": {
         "type": "TSTypeAnnotation",
-        "start": 14,
-        "end": 21,
         "typeAnnotation": {
           "type": "TSNumberKeyword",
           "start": 15,
           "end": 21
-        }
+        },
+        "start": 14,
+        "end": 21
       },
       "body": null,
-      "expression": false
+      "expression": false,
+      "start": 0,
+      "end": 22
     },
     {
       "type": "FunctionDeclaration",
-      "start": 23,
-      "end": 58,
       "id": {
         "type": "Identifier",
-        "start": 32,
-        "end": 35,
         "decorators": [],
         "name": "foo",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 32,
+        "end": 35
       },
       "generator": false,
       "async": false,
@@ -56,37 +52,41 @@ __ESTREE_TEST__:PASS:
       "params": [],
       "returnType": {
         "type": "TSTypeAnnotation",
-        "start": 37,
-        "end": 44,
         "typeAnnotation": {
           "type": "TSStringKeyword",
           "start": 38,
           "end": 44
-        }
+        },
+        "start": 37,
+        "end": 44
       },
       "body": {
         "type": "BlockStatement",
-        "start": 45,
-        "end": 58,
         "body": [
           {
             "type": "ReturnStatement",
-            "start": 47,
-            "end": 56,
             "argument": {
               "type": "Literal",
-              "start": 54,
-              "end": 56,
               "value": "",
-              "raw": "\"\""
-            }
+              "raw": "\"\"",
+              "start": 54,
+              "end": 56
+            },
+            "start": 47,
+            "end": 56
           }
-        ]
+        ],
+        "start": 45,
+        "end": 58
       },
-      "expression": false
+      "expression": false,
+      "start": 23,
+      "end": 58
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 58
 }
 ```

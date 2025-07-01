@@ -2,34 +2,22 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 85,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 0,
-      "end": 49,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 4,
-          "end": 48,
           "id": {
             "type": "Identifier",
-            "start": 4,
-            "end": 48,
             "decorators": [],
             "name": "union",
             "optional": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
-              "start": 9,
-              "end": 48,
               "typeAnnotation": {
                 "type": "TSUnionType",
-                "start": 11,
-                "end": 48,
                 "types": [
                   {
                     "type": "TSStringKeyword",
@@ -38,110 +26,122 @@ __ESTREE_TEST__:PASS:
                   },
                   {
                     "type": "TSArrayType",
-                    "start": 20,
-                    "end": 28,
                     "elementType": {
                       "type": "TSStringKeyword",
                       "start": 20,
                       "end": 26
-                    }
+                    },
+                    "start": 20,
+                    "end": 28
                   },
                   {
                     "type": "TSArrayType",
-                    "start": 30,
-                    "end": 38,
                     "elementType": {
                       "type": "TSNumberKeyword",
                       "start": 30,
                       "end": 36
-                    }
+                    },
+                    "start": 30,
+                    "end": 38
                   },
                   {
                     "type": "TSArrayType",
-                    "start": 40,
-                    "end": 48,
                     "elementType": {
                       "type": "TSSymbolKeyword",
                       "start": 40,
                       "end": 46
-                    }
+                    },
+                    "start": 40,
+                    "end": 48
                   }
-                ]
-              }
-            }
+                ],
+                "start": 11,
+                "end": 48
+              },
+              "start": 9,
+              "end": 48
+            },
+            "start": 4,
+            "end": 48
           },
           "init": null,
-          "definite": false
+          "definite": false,
+          "start": 4,
+          "end": 48
         }
       ],
-      "declare": false
+      "declare": false,
+      "start": 0,
+      "end": 49
     },
     {
       "type": "VariableDeclaration",
-      "start": 50,
-      "end": 64,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 54,
-          "end": 63,
           "id": {
             "type": "Identifier",
-            "start": 54,
-            "end": 63,
             "decorators": [],
             "name": "v",
             "optional": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
-              "start": 55,
-              "end": 63,
               "typeAnnotation": {
                 "type": "TSSymbolKeyword",
                 "start": 57,
                 "end": 63
-              }
-            }
+              },
+              "start": 55,
+              "end": 63
+            },
+            "start": 54,
+            "end": 63
           },
           "init": null,
-          "definite": false
+          "definite": false,
+          "start": 54,
+          "end": 63
         }
       ],
-      "declare": false
+      "declare": false,
+      "start": 50,
+      "end": 64
     },
     {
       "type": "ForOfStatement",
-      "start": 65,
-      "end": 85,
       "await": false,
       "left": {
         "type": "Identifier",
-        "start": 70,
-        "end": 71,
         "decorators": [],
         "name": "v",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 70,
+        "end": 71
       },
       "right": {
         "type": "Identifier",
-        "start": 75,
-        "end": 80,
         "decorators": [],
         "name": "union",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 75,
+        "end": 80
       },
       "body": {
         "type": "BlockStatement",
+        "body": [],
         "start": 82,
-        "end": 85,
-        "body": []
-      }
+        "end": 85
+      },
+      "start": 65,
+      "end": 85
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 85
 }
 ```

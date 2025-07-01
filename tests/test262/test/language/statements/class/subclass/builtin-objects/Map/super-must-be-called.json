@@ -1,228 +1,228 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 831,
   "body": [
     {
       "type": "ClassDeclaration",
-      "start": 655,
-      "end": 698,
       "decorators": [],
       "id": {
         "type": "Identifier",
+        "name": "M1",
         "start": 661,
-        "end": 663,
-        "name": "M1"
+        "end": 663
       },
       "superClass": {
         "type": "Identifier",
+        "name": "Map",
         "start": 672,
-        "end": 675,
-        "name": "Map"
+        "end": 675
       },
       "body": {
         "type": "ClassBody",
-        "start": 676,
-        "end": 698,
         "body": [
           {
             "type": "MethodDefinition",
-            "start": 680,
-            "end": 696,
             "decorators": [],
             "key": {
               "type": "Identifier",
+              "name": "constructor",
               "start": 680,
-              "end": 691,
-              "name": "constructor"
+              "end": 691
             },
             "value": {
               "type": "FunctionExpression",
-              "start": 691,
-              "end": 696,
               "id": null,
               "generator": false,
               "async": false,
               "params": [],
               "body": {
                 "type": "BlockStatement",
+                "body": [],
                 "start": 694,
-                "end": 696,
-                "body": []
+                "end": 696
               },
-              "expression": false
+              "expression": false,
+              "start": 691,
+              "end": 696
             },
             "kind": "constructor",
             "computed": false,
-            "static": false
+            "static": false,
+            "start": 680,
+            "end": 696
           }
-        ]
-      }
+        ],
+        "start": 676,
+        "end": 698
+      },
+      "start": 655,
+      "end": 698
     },
     {
       "type": "ExpressionStatement",
-      "start": 700,
-      "end": 758,
       "expression": {
         "type": "CallExpression",
-        "start": 700,
-        "end": 757,
         "callee": {
           "type": "MemberExpression",
-          "start": 700,
-          "end": 713,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 700,
-            "end": 706,
-            "name": "assert"
+            "end": 706
           },
           "property": {
             "type": "Identifier",
+            "name": "throws",
             "start": 707,
-            "end": 713,
-            "name": "throws"
+            "end": 713
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 700,
+          "end": 713
         },
         "arguments": [
           {
             "type": "Identifier",
+            "name": "ReferenceError",
             "start": 714,
-            "end": 728,
-            "name": "ReferenceError"
+            "end": 728
           },
           {
             "type": "FunctionExpression",
-            "start": 730,
-            "end": 756,
             "id": null,
             "generator": false,
             "async": false,
             "params": [],
             "body": {
               "type": "BlockStatement",
-              "start": 741,
-              "end": 756,
               "body": [
                 {
                   "type": "ExpressionStatement",
-                  "start": 745,
-                  "end": 754,
                   "expression": {
                     "type": "NewExpression",
-                    "start": 745,
-                    "end": 753,
                     "callee": {
                       "type": "Identifier",
+                      "name": "M1",
                       "start": 749,
-                      "end": 751,
-                      "name": "M1"
+                      "end": 751
                     },
-                    "arguments": []
-                  }
+                    "arguments": [],
+                    "start": 745,
+                    "end": 753
+                  },
+                  "start": 745,
+                  "end": 754
                 }
-              ]
+              ],
+              "start": 741,
+              "end": 756
             },
-            "expression": false
+            "expression": false,
+            "start": 730,
+            "end": 756
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 700,
+        "end": 757
+      },
+      "start": 700,
+      "end": 758
     },
     {
       "type": "ClassDeclaration",
-      "start": 760,
-      "end": 819,
       "decorators": [],
       "id": {
         "type": "Identifier",
+        "name": "M2",
         "start": 766,
-        "end": 768,
-        "name": "M2"
+        "end": 768
       },
       "superClass": {
         "type": "Identifier",
+        "name": "Map",
         "start": 777,
-        "end": 780,
-        "name": "Map"
+        "end": 780
       },
       "body": {
         "type": "ClassBody",
-        "start": 781,
-        "end": 819,
         "body": [
           {
             "type": "MethodDefinition",
-            "start": 785,
-            "end": 817,
             "decorators": [],
             "key": {
               "type": "Identifier",
+              "name": "constructor",
               "start": 785,
-              "end": 796,
-              "name": "constructor"
+              "end": 796
             },
             "value": {
               "type": "FunctionExpression",
-              "start": 796,
-              "end": 817,
               "id": null,
               "generator": false,
               "async": false,
               "params": [],
               "body": {
                 "type": "BlockStatement",
-                "start": 799,
-                "end": 817,
                 "body": [
                   {
                     "type": "ExpressionStatement",
-                    "start": 805,
-                    "end": 813,
                     "expression": {
                       "type": "CallExpression",
-                      "start": 805,
-                      "end": 812,
                       "callee": {
                         "type": "Super",
                         "start": 805,
                         "end": 810
                       },
                       "arguments": [],
-                      "optional": false
-                    }
+                      "optional": false,
+                      "start": 805,
+                      "end": 812
+                    },
+                    "start": 805,
+                    "end": 813
                   }
-                ]
+                ],
+                "start": 799,
+                "end": 817
               },
-              "expression": false
+              "expression": false,
+              "start": 796,
+              "end": 817
             },
             "kind": "constructor",
             "computed": false,
-            "static": false
+            "static": false,
+            "start": 785,
+            "end": 817
           }
-        ]
-      }
+        ],
+        "start": 781,
+        "end": 819
+      },
+      "start": 760,
+      "end": 819
     },
     {
       "type": "ExpressionStatement",
-      "start": 821,
-      "end": 830,
       "expression": {
         "type": "NewExpression",
-        "start": 821,
-        "end": 829,
         "callee": {
           "type": "Identifier",
+          "name": "M2",
           "start": 825,
-          "end": 827,
-          "name": "M2"
+          "end": 827
         },
-        "arguments": []
-      }
+        "arguments": [],
+        "start": 821,
+        "end": 829
+      },
+      "start": 821,
+      "end": 830
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 831
 }

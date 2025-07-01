@@ -2,80 +2,80 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 21,
   "body": [
     {
       "type": "TSModuleDeclaration",
-      "start": 0,
-      "end": 21,
       "id": {
         "type": "Literal",
-        "start": 15,
-        "end": 20,
         "value": "foo",
-        "raw": "\"foo\""
+        "raw": "\"foo\"",
+        "start": 15,
+        "end": 20
       },
       "kind": "module",
       "declare": true,
-      "global": false
+      "global": false,
+      "start": 0,
+      "end": 21
     }
   ],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 21
 }
 ```
 __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 97,
-  "end": 130,
   "body": [
     {
       "type": "TSImportEqualsDeclaration",
-      "start": 97,
-      "end": 125,
       "id": {
         "type": "Identifier",
-        "start": 104,
-        "end": 107,
         "decorators": [],
         "name": "foo",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 104,
+        "end": 107
       },
       "moduleReference": {
         "type": "TSExternalModuleReference",
-        "start": 110,
-        "end": 124,
         "expression": {
           "type": "Literal",
-          "start": 118,
-          "end": 123,
           "value": "foo",
-          "raw": "\"foo\""
-        }
+          "raw": "\"foo\"",
+          "start": 118,
+          "end": 123
+        },
+        "start": 110,
+        "end": 124
       },
-      "importKind": "value"
+      "importKind": "value",
+      "start": 97,
+      "end": 125
     },
     {
       "type": "ExpressionStatement",
-      "start": 126,
-      "end": 130,
       "expression": {
         "type": "Identifier",
-        "start": 126,
-        "end": 129,
         "decorators": [],
         "name": "foo",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 126,
+        "end": 129
       },
-      "directive": null
+      "directive": null,
+      "start": 126,
+      "end": 130
     }
   ],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 97,
+  "end": 130
 }
 ```

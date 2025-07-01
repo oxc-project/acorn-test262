@@ -1,68 +1,68 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 316,
   "body": [
     {
       "type": "ClassDeclaration",
-      "start": 269,
-      "end": 315,
       "decorators": [],
       "id": {
         "type": "Identifier",
+        "name": "C",
         "start": 275,
-        "end": 276,
-        "name": "C"
+        "end": 276
       },
       "superClass": null,
       "body": {
         "type": "ClassBody",
-        "start": 277,
-        "end": 315,
         "body": [
           {
             "type": "MethodDefinition",
-            "start": 281,
-            "end": 313,
             "decorators": [],
             "key": {
               "type": "Literal",
-              "start": 293,
-              "end": 306,
               "value": "constructor",
-              "raw": "'constructor'"
+              "raw": "'constructor'",
+              "start": 293,
+              "end": 306
             },
             "value": {
               "type": "FunctionExpression",
-              "start": 307,
-              "end": 313,
               "id": null,
               "generator": false,
               "async": false,
               "params": [
                 {
                   "type": "Identifier",
+                  "name": "x",
                   "start": 308,
-                  "end": 309,
-                  "name": "x"
+                  "end": 309
                 }
               ],
               "body": {
                 "type": "BlockStatement",
+                "body": [],
                 "start": 311,
-                "end": 313,
-                "body": []
+                "end": 313
               },
-              "expression": false
+              "expression": false,
+              "start": 307,
+              "end": 313
             },
             "kind": "set",
             "computed": true,
-            "static": true
+            "static": true,
+            "start": 281,
+            "end": 313
           }
-        ]
-      }
+        ],
+        "start": 277,
+        "end": 315
+      },
+      "start": 269,
+      "end": 315
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 316
 }

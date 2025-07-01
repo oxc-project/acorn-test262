@@ -2,21 +2,17 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 316,
   "body": [
     {
       "type": "FunctionDeclaration",
-      "start": 0,
-      "end": 28,
       "id": {
         "type": "Identifier",
-        "start": 9,
-        "end": 10,
         "decorators": [],
         "name": "f",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 9,
+        "end": 10
       },
       "generator": false,
       "async": false,
@@ -25,581 +21,585 @@ __ESTREE_TEST__:PASS:
       "params": [
         {
           "type": "RestElement",
-          "start": 11,
-          "end": 22,
           "decorators": [],
           "argument": {
             "type": "Identifier",
-            "start": 14,
-            "end": 15,
             "decorators": [],
             "name": "x",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 14,
+            "end": 15
           },
           "optional": false,
           "typeAnnotation": {
             "type": "TSTypeAnnotation",
-            "start": 15,
-            "end": 22,
             "typeAnnotation": {
               "type": "TSArrayType",
-              "start": 17,
-              "end": 22,
               "elementType": {
                 "type": "TSAnyKeyword",
                 "start": 17,
                 "end": 20
-              }
-            }
+              },
+              "start": 17,
+              "end": 22
+            },
+            "start": 15,
+            "end": 22
           },
-          "value": null
+          "value": null,
+          "start": 11,
+          "end": 22
         }
       ],
       "returnType": null,
       "body": {
         "type": "BlockStatement",
+        "body": [],
         "start": 24,
-        "end": 28,
-        "body": []
+        "end": 28
       },
-      "expression": false
+      "expression": false,
+      "start": 0,
+      "end": 28
     },
     {
       "type": "ExpressionStatement",
-      "start": 30,
-      "end": 316,
       "expression": {
         "type": "TaggedTemplateExpression",
-        "start": 30,
-        "end": 316,
         "tag": {
           "type": "Identifier",
-          "start": 30,
-          "end": 31,
           "decorators": [],
           "name": "f",
           "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "start": 30,
+          "end": 31
         },
         "typeArguments": null,
         "quasi": {
           "type": "TemplateLiteral",
-          "start": 32,
-          "end": 316,
           "quasis": [
             {
               "type": "TemplateElement",
-              "start": 32,
-              "end": 36,
               "value": {
                 "raw": "0",
                 "cooked": "0"
               },
-              "tail": false
+              "tail": false,
+              "start": 32,
+              "end": 36
             },
             {
               "type": "TemplateElement",
-              "start": 41,
-              "end": 45,
               "value": {
                 "raw": "1",
                 "cooked": "1"
               },
-              "tail": false
+              "tail": false,
+              "start": 41,
+              "end": 45
             },
             {
               "type": "TemplateElement",
-              "start": 50,
-              "end": 54,
               "value": {
                 "raw": "2",
                 "cooked": "2"
               },
-              "tail": false
+              "tail": false,
+              "start": 50,
+              "end": 54
             },
             {
               "type": "TemplateElement",
-              "start": 59,
-              "end": 63,
               "value": {
                 "raw": "3",
                 "cooked": "3"
               },
-              "tail": false
+              "tail": false,
+              "start": 59,
+              "end": 63
             },
             {
               "type": "TemplateElement",
-              "start": 68,
-              "end": 72,
               "value": {
                 "raw": "4",
                 "cooked": "4"
               },
-              "tail": false
+              "tail": false,
+              "start": 68,
+              "end": 72
             },
             {
               "type": "TemplateElement",
-              "start": 77,
-              "end": 81,
               "value": {
                 "raw": "5",
                 "cooked": "5"
               },
-              "tail": false
+              "tail": false,
+              "start": 77,
+              "end": 81
             },
             {
               "type": "TemplateElement",
-              "start": 86,
-              "end": 90,
               "value": {
                 "raw": "6",
                 "cooked": "6"
               },
-              "tail": false
+              "tail": false,
+              "start": 86,
+              "end": 90
             },
             {
               "type": "TemplateElement",
-              "start": 95,
-              "end": 99,
               "value": {
                 "raw": "7",
                 "cooked": "7"
               },
-              "tail": false
+              "tail": false,
+              "start": 95,
+              "end": 99
             },
             {
               "type": "TemplateElement",
-              "start": 104,
-              "end": 108,
               "value": {
                 "raw": "8",
                 "cooked": "8"
               },
-              "tail": false
+              "tail": false,
+              "start": 104,
+              "end": 108
             },
             {
               "type": "TemplateElement",
-              "start": 113,
-              "end": 117,
               "value": {
                 "raw": "9",
                 "cooked": "9"
               },
-              "tail": false
+              "tail": false,
+              "start": 113,
+              "end": 117
             },
             {
               "type": "TemplateElement",
-              "start": 122,
-              "end": 127,
               "value": {
                 "raw": "10",
                 "cooked": "10"
               },
-              "tail": false
+              "tail": false,
+              "start": 122,
+              "end": 127
             },
             {
               "type": "TemplateElement",
-              "start": 132,
-              "end": 137,
               "value": {
                 "raw": "11",
                 "cooked": "11"
               },
-              "tail": false
+              "tail": false,
+              "start": 132,
+              "end": 137
             },
             {
               "type": "TemplateElement",
-              "start": 142,
-              "end": 147,
               "value": {
                 "raw": "12",
                 "cooked": "12"
               },
-              "tail": false
+              "tail": false,
+              "start": 142,
+              "end": 147
             },
             {
               "type": "TemplateElement",
-              "start": 152,
-              "end": 157,
               "value": {
                 "raw": "13",
                 "cooked": "13"
               },
-              "tail": false
+              "tail": false,
+              "start": 152,
+              "end": 157
             },
             {
               "type": "TemplateElement",
-              "start": 162,
-              "end": 167,
               "value": {
                 "raw": "14",
                 "cooked": "14"
               },
-              "tail": false
+              "tail": false,
+              "start": 162,
+              "end": 167
             },
             {
               "type": "TemplateElement",
-              "start": 172,
-              "end": 177,
               "value": {
                 "raw": "15",
                 "cooked": "15"
               },
-              "tail": false
+              "tail": false,
+              "start": 172,
+              "end": 177
             },
             {
               "type": "TemplateElement",
-              "start": 182,
-              "end": 187,
               "value": {
                 "raw": "16",
                 "cooked": "16"
               },
-              "tail": false
+              "tail": false,
+              "start": 182,
+              "end": 187
             },
             {
               "type": "TemplateElement",
-              "start": 192,
-              "end": 197,
               "value": {
                 "raw": "17",
                 "cooked": "17"
               },
-              "tail": false
+              "tail": false,
+              "start": 192,
+              "end": 197
             },
             {
               "type": "TemplateElement",
-              "start": 202,
-              "end": 207,
               "value": {
                 "raw": "18",
                 "cooked": "18"
               },
-              "tail": false
+              "tail": false,
+              "start": 202,
+              "end": 207
             },
             {
               "type": "TemplateElement",
-              "start": 212,
-              "end": 217,
               "value": {
                 "raw": "19",
                 "cooked": "19"
               },
-              "tail": false
+              "tail": false,
+              "start": 212,
+              "end": 217
             },
             {
               "type": "TemplateElement",
-              "start": 222,
-              "end": 227,
               "value": {
                 "raw": "20",
                 "cooked": "20"
               },
-              "tail": false
+              "tail": false,
+              "start": 222,
+              "end": 227
             },
             {
               "type": "TemplateElement",
-              "start": 232,
-              "end": 239,
               "value": {
                 "raw": "2028",
                 "cooked": "2028"
               },
-              "tail": false
+              "tail": false,
+              "start": 232,
+              "end": 239
             },
             {
               "type": "TemplateElement",
-              "start": 244,
-              "end": 251,
               "value": {
                 "raw": "2029",
                 "cooked": "2029"
               },
-              "tail": false
+              "tail": false,
+              "start": 244,
+              "end": 251
             },
             {
               "type": "TemplateElement",
-              "start": 256,
-              "end": 263,
               "value": {
                 "raw": "0085",
                 "cooked": "0085"
               },
-              "tail": false
+              "tail": false,
+              "start": 256,
+              "end": 263
             },
             {
               "type": "TemplateElement",
-              "start": 268,
-              "end": 272,
               "value": {
                 "raw": "t",
                 "cooked": "t"
               },
-              "tail": false
+              "tail": false,
+              "start": 268,
+              "end": 272
             },
             {
               "type": "TemplateElement",
-              "start": 277,
-              "end": 281,
               "value": {
                 "raw": "v",
                 "cooked": "v"
               },
-              "tail": false
+              "tail": false,
+              "start": 277,
+              "end": 281
             },
             {
               "type": "TemplateElement",
-              "start": 286,
-              "end": 290,
               "value": {
                 "raw": "f",
                 "cooked": "f"
               },
-              "tail": false
+              "tail": false,
+              "start": 286,
+              "end": 290
             },
             {
               "type": "TemplateElement",
-              "start": 295,
-              "end": 299,
               "value": {
                 "raw": "b",
                 "cooked": "b"
               },
-              "tail": false
+              "tail": false,
+              "start": 295,
+              "end": 299
             },
             {
               "type": "TemplateElement",
-              "start": 304,
-              "end": 308,
               "value": {
                 "raw": "r",
                 "cooked": "r"
               },
-              "tail": false
+              "tail": false,
+              "start": 304,
+              "end": 308
             },
             {
               "type": "TemplateElement",
-              "start": 313,
-              "end": 316,
               "value": {
                 "raw": "n",
                 "cooked": "n"
               },
-              "tail": true
+              "tail": true,
+              "start": 313,
+              "end": 316
             }
           ],
           "expressions": [
             {
               "type": "Literal",
+              "value": " ",
+              "raw": "\" \"",
               "start": 37,
-              "end": 40,
-              "value": " ",
-              "raw": "\" \""
+              "end": 40
             },
             {
               "type": "Literal",
+              "value": " ",
+              "raw": "\" \"",
               "start": 46,
-              "end": 49,
-              "value": " ",
-              "raw": "\" \""
+              "end": 49
             },
             {
               "type": "Literal",
+              "value": " ",
+              "raw": "\" \"",
               "start": 55,
-              "end": 58,
-              "value": " ",
-              "raw": "\" \""
+              "end": 58
             },
             {
               "type": "Literal",
+              "value": " ",
+              "raw": "\" \"",
               "start": 64,
-              "end": 67,
-              "value": " ",
-              "raw": "\" \""
+              "end": 67
             },
             {
               "type": "Literal",
+              "value": " ",
+              "raw": "\" \"",
               "start": 73,
-              "end": 76,
-              "value": " ",
-              "raw": "\" \""
+              "end": 76
             },
             {
               "type": "Literal",
+              "value": " ",
+              "raw": "\" \"",
               "start": 82,
-              "end": 85,
-              "value": " ",
-              "raw": "\" \""
+              "end": 85
             },
             {
               "type": "Literal",
+              "value": " ",
+              "raw": "\" \"",
               "start": 91,
-              "end": 94,
-              "value": " ",
-              "raw": "\" \""
+              "end": 94
             },
             {
               "type": "Literal",
+              "value": " ",
+              "raw": "\" \"",
               "start": 100,
-              "end": 103,
-              "value": " ",
-              "raw": "\" \""
+              "end": 103
             },
             {
               "type": "Literal",
+              "value": " ",
+              "raw": "\" \"",
               "start": 109,
-              "end": 112,
-              "value": " ",
-              "raw": "\" \""
+              "end": 112
             },
             {
               "type": "Literal",
+              "value": " ",
+              "raw": "\" \"",
               "start": 118,
-              "end": 121,
-              "value": " ",
-              "raw": "\" \""
+              "end": 121
             },
             {
               "type": "Literal",
+              "value": " ",
+              "raw": "\" \"",
               "start": 128,
-              "end": 131,
-              "value": " ",
-              "raw": "\" \""
+              "end": 131
             },
             {
               "type": "Literal",
+              "value": " ",
+              "raw": "\" \"",
               "start": 138,
-              "end": 141,
-              "value": " ",
-              "raw": "\" \""
+              "end": 141
             },
             {
               "type": "Literal",
+              "value": " ",
+              "raw": "\" \"",
               "start": 148,
-              "end": 151,
-              "value": " ",
-              "raw": "\" \""
+              "end": 151
             },
             {
               "type": "Literal",
+              "value": " ",
+              "raw": "\" \"",
               "start": 158,
-              "end": 161,
-              "value": " ",
-              "raw": "\" \""
+              "end": 161
             },
             {
               "type": "Literal",
+              "value": " ",
+              "raw": "\" \"",
               "start": 168,
-              "end": 171,
-              "value": " ",
-              "raw": "\" \""
+              "end": 171
             },
             {
               "type": "Literal",
+              "value": " ",
+              "raw": "\" \"",
               "start": 178,
-              "end": 181,
-              "value": " ",
-              "raw": "\" \""
+              "end": 181
             },
             {
               "type": "Literal",
+              "value": " ",
+              "raw": "\" \"",
               "start": 188,
-              "end": 191,
-              "value": " ",
-              "raw": "\" \""
+              "end": 191
             },
             {
               "type": "Literal",
+              "value": " ",
+              "raw": "\" \"",
               "start": 198,
-              "end": 201,
-              "value": " ",
-              "raw": "\" \""
+              "end": 201
             },
             {
               "type": "Literal",
+              "value": " ",
+              "raw": "\" \"",
               "start": 208,
-              "end": 211,
-              "value": " ",
-              "raw": "\" \""
+              "end": 211
             },
             {
               "type": "Literal",
+              "value": " ",
+              "raw": "\" \"",
               "start": 218,
-              "end": 221,
-              "value": " ",
-              "raw": "\" \""
+              "end": 221
             },
             {
               "type": "Literal",
+              "value": " ",
+              "raw": "\" \"",
               "start": 228,
-              "end": 231,
-              "value": " ",
-              "raw": "\" \""
+              "end": 231
             },
             {
               "type": "Literal",
+              "value": " ",
+              "raw": "\" \"",
               "start": 240,
-              "end": 243,
-              "value": " ",
-              "raw": "\" \""
+              "end": 243
             },
             {
               "type": "Literal",
+              "value": " ",
+              "raw": "\" \"",
               "start": 252,
-              "end": 255,
-              "value": " ",
-              "raw": "\" \""
+              "end": 255
             },
             {
               "type": "Literal",
+              "value": " ",
+              "raw": "\" \"",
               "start": 264,
-              "end": 267,
-              "value": " ",
-              "raw": "\" \""
+              "end": 267
             },
             {
               "type": "Literal",
+              "value": " ",
+              "raw": "\" \"",
               "start": 273,
-              "end": 276,
-              "value": " ",
-              "raw": "\" \""
+              "end": 276
             },
             {
               "type": "Literal",
+              "value": " ",
+              "raw": "\" \"",
               "start": 282,
-              "end": 285,
-              "value": " ",
-              "raw": "\" \""
+              "end": 285
             },
             {
               "type": "Literal",
+              "value": " ",
+              "raw": "\" \"",
               "start": 291,
-              "end": 294,
-              "value": " ",
-              "raw": "\" \""
+              "end": 294
             },
             {
               "type": "Literal",
+              "value": " ",
+              "raw": "\" \"",
               "start": 300,
-              "end": 303,
-              "value": " ",
-              "raw": "\" \""
+              "end": 303
             },
             {
               "type": "Literal",
-              "start": 309,
-              "end": 312,
               "value": " ",
-              "raw": "\" \""
+              "raw": "\" \"",
+              "start": 309,
+              "end": 312
             }
-          ]
-        }
+          ],
+          "start": 32,
+          "end": 316
+        },
+        "start": 30,
+        "end": 316
       },
-      "directive": null
+      "directive": null,
+      "start": 30,
+      "end": 316
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 316
 }
 ```

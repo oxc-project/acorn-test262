@@ -1,72 +1,62 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 390,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 286,
-      "end": 297,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 290,
-          "end": 296,
           "id": {
             "type": "Identifier",
+            "name": "o",
             "start": 290,
-            "end": 291,
-            "name": "o"
+            "end": 291
           },
           "init": {
             "type": "ObjectExpression",
+            "properties": [],
             "start": 294,
-            "end": 296,
-            "properties": []
-          }
+            "end": 296
+          },
+          "start": 290,
+          "end": 296
         }
-      ]
+      ],
+      "start": 286,
+      "end": 297
     },
     {
       "type": "FunctionDeclaration",
-      "start": 298,
-      "end": 344,
       "id": {
         "type": "Identifier",
+        "name": "f",
         "start": 307,
-        "end": 308,
-        "name": "f"
+        "end": 308
       },
       "generator": false,
       "async": false,
       "params": [],
       "body": {
         "type": "BlockStatement",
-        "start": 311,
-        "end": 344,
         "body": [
           {
             "type": "ExpressionStatement",
-            "start": 313,
-            "end": 326,
             "expression": {
               "type": "Literal",
-              "start": 313,
-              "end": 325,
               "value": "use strict",
-              "raw": "\"use strict\""
+              "raw": "\"use strict\"",
+              "start": 313,
+              "end": 325
             },
-            "directive": "use strict"
+            "directive": "use strict",
+            "start": 313,
+            "end": 326
           },
           {
             "type": "ReturnStatement",
-            "start": 327,
-            "end": 343,
             "argument": {
               "type": "BinaryExpression",
-              "start": 334,
-              "end": 342,
               "left": {
                 "type": "ThisExpression",
                 "start": 334,
@@ -75,15 +65,23 @@
               "operator": "===",
               "right": {
                 "type": "Identifier",
+                "name": "o",
                 "start": 341,
-                "end": 342,
-                "name": "o"
-              }
-            }
+                "end": 342
+              },
+              "start": 334,
+              "end": 342
+            },
+            "start": 327,
+            "end": 343
           }
-        ]
+        ],
+        "start": 311,
+        "end": 344
       },
-      "expression": false
+      "expression": false,
+      "start": 298,
+      "end": 344
     },
     {
       "type": "EmptyStatement",
@@ -92,64 +90,66 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 347,
-      "end": 389,
       "expression": {
         "type": "CallExpression",
-        "start": 347,
-        "end": 388,
         "callee": {
           "type": "Identifier",
+          "name": "assert",
           "start": 347,
-          "end": 353,
-          "name": "assert"
+          "end": 353
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 354,
-            "end": 364,
             "callee": {
               "type": "MemberExpression",
-              "start": 354,
-              "end": 361,
               "object": {
                 "type": "Identifier",
+                "name": "f",
                 "start": 354,
-                "end": 355,
-                "name": "f"
+                "end": 355
               },
               "property": {
                 "type": "Identifier",
+                "name": "apply",
                 "start": 356,
-                "end": 361,
-                "name": "apply"
+                "end": 361
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 354,
+              "end": 361
             },
             "arguments": [
               {
                 "type": "Identifier",
+                "name": "o",
                 "start": 362,
-                "end": 363,
-                "name": "o"
+                "end": 363
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 354,
+            "end": 364
           },
           {
             "type": "Literal",
-            "start": 366,
-            "end": 387,
             "value": "f.apply(o) !== true",
-            "raw": "'f.apply(o) !== true'"
+            "raw": "'f.apply(o) !== true'",
+            "start": 366,
+            "end": 387
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 347,
+        "end": 388
+      },
+      "start": 347,
+      "end": 389
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 390
 }

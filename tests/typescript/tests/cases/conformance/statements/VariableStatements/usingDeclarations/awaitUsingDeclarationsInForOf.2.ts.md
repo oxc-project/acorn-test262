@@ -2,21 +2,17 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 64,
   "body": [
     {
       "type": "FunctionDeclaration",
-      "start": 0,
-      "end": 64,
       "id": {
         "type": "Identifier",
-        "start": 15,
-        "end": 19,
         "decorators": [],
         "name": "main",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 15,
+        "end": 19
       },
       "generator": false,
       "async": true,
@@ -26,58 +22,62 @@ __ESTREE_TEST__:PASS:
       "returnType": null,
       "body": {
         "type": "BlockStatement",
-        "start": 22,
-        "end": 64,
         "body": [
           {
             "type": "ForOfStatement",
-            "start": 28,
-            "end": 62,
             "await": false,
             "left": {
               "type": "VariableDeclaration",
-              "start": 33,
-              "end": 47,
               "kind": "await using",
               "declarations": [
                 {
                   "type": "VariableDeclarator",
-                  "start": 45,
-                  "end": 47,
                   "id": {
                     "type": "Identifier",
-                    "start": 45,
-                    "end": 47,
                     "decorators": [],
                     "name": "of",
                     "optional": false,
-                    "typeAnnotation": null
+                    "typeAnnotation": null,
+                    "start": 45,
+                    "end": 47
                   },
                   "init": null,
-                  "definite": false
+                  "definite": false,
+                  "start": 45,
+                  "end": 47
                 }
               ],
-              "declare": false
+              "declare": false,
+              "start": 33,
+              "end": 47
             },
             "right": {
               "type": "ArrayExpression",
+              "elements": [],
               "start": 51,
-              "end": 53,
-              "elements": []
+              "end": 53
             },
             "body": {
               "type": "BlockStatement",
+              "body": [],
               "start": 55,
-              "end": 62,
-              "body": []
-            }
+              "end": 62
+            },
+            "start": 28,
+            "end": 62
           }
-        ]
+        ],
+        "start": 22,
+        "end": 64
       },
-      "expression": false
+      "expression": false,
+      "start": 0,
+      "end": 64
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 64
 }
 ```

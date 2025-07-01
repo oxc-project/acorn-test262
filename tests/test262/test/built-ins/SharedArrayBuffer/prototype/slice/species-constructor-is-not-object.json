@@ -1,547 +1,547 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 989,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 383,
-      "end": 426,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 387,
-          "end": 425,
           "id": {
             "type": "Identifier",
+            "name": "arrayBuffer",
             "start": 387,
-            "end": 398,
-            "name": "arrayBuffer"
+            "end": 398
           },
           "init": {
             "type": "NewExpression",
-            "start": 401,
-            "end": 425,
             "callee": {
               "type": "Identifier",
+              "name": "SharedArrayBuffer",
               "start": 405,
-              "end": 422,
-              "name": "SharedArrayBuffer"
+              "end": 422
             },
             "arguments": [
               {
                 "type": "Literal",
-                "start": 423,
-                "end": 424,
                 "value": 8,
-                "raw": "8"
+                "raw": "8",
+                "start": 423,
+                "end": 424
               }
-            ]
-          }
+            ],
+            "start": 401,
+            "end": 425
+          },
+          "start": 387,
+          "end": 425
         }
-      ]
+      ],
+      "start": 383,
+      "end": 426
     },
     {
       "type": "FunctionDeclaration",
-      "start": 428,
-      "end": 475,
       "id": {
         "type": "Identifier",
+        "name": "callSlice",
         "start": 437,
-        "end": 446,
-        "name": "callSlice"
+        "end": 446
       },
       "generator": false,
       "async": false,
       "params": [],
       "body": {
         "type": "BlockStatement",
-        "start": 449,
-        "end": 475,
         "body": [
           {
             "type": "ExpressionStatement",
-            "start": 453,
-            "end": 473,
             "expression": {
               "type": "CallExpression",
-              "start": 453,
-              "end": 472,
               "callee": {
                 "type": "MemberExpression",
-                "start": 453,
-                "end": 470,
                 "object": {
                   "type": "Identifier",
+                  "name": "arrayBuffer",
                   "start": 453,
-                  "end": 464,
-                  "name": "arrayBuffer"
+                  "end": 464
                 },
                 "property": {
                   "type": "Identifier",
+                  "name": "slice",
                   "start": 465,
-                  "end": 470,
-                  "name": "slice"
+                  "end": 470
                 },
                 "optional": false,
-                "computed": false
+                "computed": false,
+                "start": 453,
+                "end": 470
               },
               "arguments": [],
-              "optional": false
-            }
+              "optional": false,
+              "start": 453,
+              "end": 472
+            },
+            "start": 453,
+            "end": 473
           }
-        ]
+        ],
+        "start": 449,
+        "end": 475
       },
-      "expression": false
+      "expression": false,
+      "start": 428,
+      "end": 475
     },
     {
       "type": "ExpressionStatement",
-      "start": 477,
-      "end": 508,
       "expression": {
         "type": "AssignmentExpression",
-        "start": 477,
-        "end": 507,
         "operator": "=",
         "left": {
           "type": "MemberExpression",
-          "start": 477,
-          "end": 500,
           "object": {
             "type": "Identifier",
+            "name": "arrayBuffer",
             "start": 477,
-            "end": 488,
-            "name": "arrayBuffer"
+            "end": 488
           },
           "property": {
             "type": "Identifier",
+            "name": "constructor",
             "start": 489,
-            "end": 500,
-            "name": "constructor"
+            "end": 500
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 477,
+          "end": 500
         },
         "right": {
           "type": "Literal",
-          "start": 503,
-          "end": 507,
           "value": null,
-          "raw": "null"
-        }
-      }
+          "raw": "null",
+          "start": 503,
+          "end": 507
+        },
+        "start": 477,
+        "end": 507
+      },
+      "start": 477,
+      "end": 508
     },
     {
       "type": "ExpressionStatement",
-      "start": 509,
-      "end": 576,
       "expression": {
         "type": "CallExpression",
-        "start": 509,
-        "end": 575,
         "callee": {
           "type": "MemberExpression",
-          "start": 509,
-          "end": 522,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 509,
-            "end": 515,
-            "name": "assert"
+            "end": 515
           },
           "property": {
             "type": "Identifier",
+            "name": "throws",
             "start": 516,
-            "end": 522,
-            "name": "throws"
+            "end": 522
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 509,
+          "end": 522
         },
         "arguments": [
           {
             "type": "Identifier",
+            "name": "TypeError",
             "start": 523,
-            "end": 532,
-            "name": "TypeError"
+            "end": 532
           },
           {
             "type": "Identifier",
+            "name": "callSlice",
             "start": 534,
-            "end": 543,
-            "name": "callSlice"
+            "end": 543
           },
           {
             "type": "Literal",
-            "start": 545,
-            "end": 574,
             "value": "`constructor` value is null",
-            "raw": "\"`constructor` value is null\""
+            "raw": "\"`constructor` value is null\"",
+            "start": 545,
+            "end": 574
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 509,
+        "end": 575
+      },
+      "start": 509,
+      "end": 576
     },
     {
       "type": "ExpressionStatement",
-      "start": 578,
-      "end": 609,
       "expression": {
         "type": "AssignmentExpression",
-        "start": 578,
-        "end": 608,
         "operator": "=",
         "left": {
           "type": "MemberExpression",
-          "start": 578,
-          "end": 601,
           "object": {
             "type": "Identifier",
+            "name": "arrayBuffer",
             "start": 578,
-            "end": 589,
-            "name": "arrayBuffer"
+            "end": 589
           },
           "property": {
             "type": "Identifier",
+            "name": "constructor",
             "start": 590,
-            "end": 601,
-            "name": "constructor"
+            "end": 601
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 578,
+          "end": 601
         },
         "right": {
           "type": "Literal",
-          "start": 604,
-          "end": 608,
           "value": true,
-          "raw": "true"
-        }
-      }
+          "raw": "true",
+          "start": 604,
+          "end": 608
+        },
+        "start": 578,
+        "end": 608
+      },
+      "start": 578,
+      "end": 609
     },
     {
       "type": "ExpressionStatement",
-      "start": 610,
-      "end": 680,
       "expression": {
         "type": "CallExpression",
-        "start": 610,
-        "end": 679,
         "callee": {
           "type": "MemberExpression",
-          "start": 610,
-          "end": 623,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 610,
-            "end": 616,
-            "name": "assert"
+            "end": 616
           },
           "property": {
             "type": "Identifier",
+            "name": "throws",
             "start": 617,
-            "end": 623,
-            "name": "throws"
+            "end": 623
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 610,
+          "end": 623
         },
         "arguments": [
           {
             "type": "Identifier",
+            "name": "TypeError",
             "start": 624,
-            "end": 633,
-            "name": "TypeError"
+            "end": 633
           },
           {
             "type": "Identifier",
+            "name": "callSlice",
             "start": 635,
-            "end": 644,
-            "name": "callSlice"
+            "end": 644
           },
           {
             "type": "Literal",
-            "start": 646,
-            "end": 678,
             "value": "`constructor` value is Boolean",
-            "raw": "\"`constructor` value is Boolean\""
+            "raw": "\"`constructor` value is Boolean\"",
+            "start": 646,
+            "end": 678
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 610,
+        "end": 679
+      },
+      "start": 610,
+      "end": 680
     },
     {
       "type": "ExpressionStatement",
-      "start": 682,
-      "end": 711,
       "expression": {
         "type": "AssignmentExpression",
-        "start": 682,
-        "end": 710,
         "operator": "=",
         "left": {
           "type": "MemberExpression",
-          "start": 682,
-          "end": 705,
           "object": {
             "type": "Identifier",
+            "name": "arrayBuffer",
             "start": 682,
-            "end": 693,
-            "name": "arrayBuffer"
+            "end": 693
           },
           "property": {
             "type": "Identifier",
+            "name": "constructor",
             "start": 694,
-            "end": 705,
-            "name": "constructor"
+            "end": 705
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 682,
+          "end": 705
         },
         "right": {
           "type": "Literal",
-          "start": 708,
-          "end": 710,
           "value": "",
-          "raw": "\"\""
-        }
-      }
+          "raw": "\"\"",
+          "start": 708,
+          "end": 710
+        },
+        "start": 682,
+        "end": 710
+      },
+      "start": 682,
+      "end": 711
     },
     {
       "type": "ExpressionStatement",
-      "start": 712,
-      "end": 781,
       "expression": {
         "type": "CallExpression",
-        "start": 712,
-        "end": 780,
         "callee": {
           "type": "MemberExpression",
-          "start": 712,
-          "end": 725,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 712,
-            "end": 718,
-            "name": "assert"
+            "end": 718
           },
           "property": {
             "type": "Identifier",
+            "name": "throws",
             "start": 719,
-            "end": 725,
-            "name": "throws"
+            "end": 725
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 712,
+          "end": 725
         },
         "arguments": [
           {
             "type": "Identifier",
+            "name": "TypeError",
             "start": 726,
-            "end": 735,
-            "name": "TypeError"
+            "end": 735
           },
           {
             "type": "Identifier",
+            "name": "callSlice",
             "start": 737,
-            "end": 746,
-            "name": "callSlice"
+            "end": 746
           },
           {
             "type": "Literal",
-            "start": 748,
-            "end": 779,
             "value": "`constructor` value is String",
-            "raw": "\"`constructor` value is String\""
+            "raw": "\"`constructor` value is String\"",
+            "start": 748,
+            "end": 779
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 712,
+        "end": 780
+      },
+      "start": 712,
+      "end": 781
     },
     {
       "type": "ExpressionStatement",
-      "start": 783,
-      "end": 818,
       "expression": {
         "type": "AssignmentExpression",
-        "start": 783,
-        "end": 817,
         "operator": "=",
         "left": {
           "type": "MemberExpression",
-          "start": 783,
-          "end": 806,
           "object": {
             "type": "Identifier",
+            "name": "arrayBuffer",
             "start": 783,
-            "end": 794,
-            "name": "arrayBuffer"
+            "end": 794
           },
           "property": {
             "type": "Identifier",
+            "name": "constructor",
             "start": 795,
-            "end": 806,
-            "name": "constructor"
+            "end": 806
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 783,
+          "end": 806
         },
         "right": {
           "type": "CallExpression",
-          "start": 809,
-          "end": 817,
           "callee": {
             "type": "Identifier",
+            "name": "Symbol",
             "start": 809,
-            "end": 815,
-            "name": "Symbol"
+            "end": 815
           },
           "arguments": [],
-          "optional": false
-        }
-      }
+          "optional": false,
+          "start": 809,
+          "end": 817
+        },
+        "start": 783,
+        "end": 817
+      },
+      "start": 783,
+      "end": 818
     },
     {
       "type": "ExpressionStatement",
-      "start": 819,
-      "end": 888,
       "expression": {
         "type": "CallExpression",
-        "start": 819,
-        "end": 887,
         "callee": {
           "type": "MemberExpression",
-          "start": 819,
-          "end": 832,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 819,
-            "end": 825,
-            "name": "assert"
+            "end": 825
           },
           "property": {
             "type": "Identifier",
+            "name": "throws",
             "start": 826,
-            "end": 832,
-            "name": "throws"
+            "end": 832
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 819,
+          "end": 832
         },
         "arguments": [
           {
             "type": "Identifier",
+            "name": "TypeError",
             "start": 833,
-            "end": 842,
-            "name": "TypeError"
+            "end": 842
           },
           {
             "type": "Identifier",
+            "name": "callSlice",
             "start": 844,
-            "end": 853,
-            "name": "callSlice"
+            "end": 853
           },
           {
             "type": "Literal",
-            "start": 855,
-            "end": 886,
             "value": "`constructor` value is Symbol",
-            "raw": "\"`constructor` value is Symbol\""
+            "raw": "\"`constructor` value is Symbol\"",
+            "start": 855,
+            "end": 886
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 819,
+        "end": 887
+      },
+      "start": 819,
+      "end": 888
     },
     {
       "type": "ExpressionStatement",
-      "start": 890,
-      "end": 918,
       "expression": {
         "type": "AssignmentExpression",
-        "start": 890,
-        "end": 917,
         "operator": "=",
         "left": {
           "type": "MemberExpression",
-          "start": 890,
-          "end": 913,
           "object": {
             "type": "Identifier",
+            "name": "arrayBuffer",
             "start": 890,
-            "end": 901,
-            "name": "arrayBuffer"
+            "end": 901
           },
           "property": {
             "type": "Identifier",
+            "name": "constructor",
             "start": 902,
-            "end": 913,
-            "name": "constructor"
+            "end": 913
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 890,
+          "end": 913
         },
         "right": {
           "type": "Literal",
-          "start": 916,
-          "end": 917,
           "value": 1,
-          "raw": "1"
-        }
-      }
+          "raw": "1",
+          "start": 916,
+          "end": 917
+        },
+        "start": 890,
+        "end": 917
+      },
+      "start": 890,
+      "end": 918
     },
     {
       "type": "ExpressionStatement",
-      "start": 919,
-      "end": 988,
       "expression": {
         "type": "CallExpression",
-        "start": 919,
-        "end": 987,
         "callee": {
           "type": "MemberExpression",
-          "start": 919,
-          "end": 932,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 919,
-            "end": 925,
-            "name": "assert"
+            "end": 925
           },
           "property": {
             "type": "Identifier",
+            "name": "throws",
             "start": 926,
-            "end": 932,
-            "name": "throws"
+            "end": 932
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 919,
+          "end": 932
         },
         "arguments": [
           {
             "type": "Identifier",
+            "name": "TypeError",
             "start": 933,
-            "end": 942,
-            "name": "TypeError"
+            "end": 942
           },
           {
             "type": "Identifier",
+            "name": "callSlice",
             "start": 944,
-            "end": 953,
-            "name": "callSlice"
+            "end": 953
           },
           {
             "type": "Literal",
-            "start": 955,
-            "end": 986,
             "value": "`constructor` value is Number",
-            "raw": "\"`constructor` value is Number\""
+            "raw": "\"`constructor` value is Number\"",
+            "start": 955,
+            "end": 986
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 919,
+        "end": 987
+      },
+      "start": 919,
+      "end": 988
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 989
 }

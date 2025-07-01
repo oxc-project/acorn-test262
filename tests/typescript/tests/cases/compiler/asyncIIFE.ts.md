@@ -2,21 +2,17 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 106,
   "body": [
     {
       "type": "FunctionDeclaration",
-      "start": 0,
-      "end": 106,
       "id": {
         "type": "Identifier",
-        "start": 9,
-        "end": 11,
         "decorators": [],
         "name": "f1",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 9,
+        "end": 11
       },
       "generator": false,
       "async": false,
@@ -26,21 +22,13 @@ __ESTREE_TEST__:PASS:
       "returnType": null,
       "body": {
         "type": "BlockStatement",
-        "start": 14,
-        "end": 106,
         "body": [
           {
             "type": "ExpressionStatement",
-            "start": 20,
-            "end": 88,
             "expression": {
               "type": "CallExpression",
-              "start": 20,
-              "end": 87,
               "callee": {
                 "type": "ArrowFunctionExpression",
-                "start": 21,
-                "end": 84,
                 "expression": false,
                 "async": true,
                 "typeParameters": null,
@@ -48,96 +36,108 @@ __ESTREE_TEST__:PASS:
                 "returnType": null,
                 "body": {
                   "type": "BlockStatement",
-                  "start": 33,
-                  "end": 84,
                   "body": [
                     {
                       "type": "ExpressionStatement",
-                      "start": 43,
-                      "end": 51,
                       "expression": {
                         "type": "AwaitExpression",
-                        "start": 43,
-                        "end": 51,
                         "argument": {
                           "type": "Literal",
-                          "start": 49,
-                          "end": 51,
                           "value": 10,
-                          "raw": "10"
-                        }
+                          "raw": "10",
+                          "start": 49,
+                          "end": 51
+                        },
+                        "start": 43,
+                        "end": 51
                       },
-                      "directive": null
+                      "directive": null,
+                      "start": 43,
+                      "end": 51
                     },
                     {
                       "type": "ThrowStatement",
-                      "start": 60,
-                      "end": 78,
                       "argument": {
                         "type": "NewExpression",
-                        "start": 66,
-                        "end": 77,
                         "callee": {
                           "type": "Identifier",
-                          "start": 70,
-                          "end": 75,
                           "decorators": [],
                           "name": "Error",
                           "optional": false,
-                          "typeAnnotation": null
+                          "typeAnnotation": null,
+                          "start": 70,
+                          "end": 75
                         },
                         "typeArguments": null,
-                        "arguments": []
-                      }
+                        "arguments": [],
+                        "start": 66,
+                        "end": 77
+                      },
+                      "start": 60,
+                      "end": 78
                     }
-                  ]
+                  ],
+                  "start": 33,
+                  "end": 84
                 },
                 "id": null,
-                "generator": false
+                "generator": false,
+                "start": 21,
+                "end": 84
               },
               "typeArguments": null,
               "arguments": [],
-              "optional": false
+              "optional": false,
+              "start": 20,
+              "end": 87
             },
-            "directive": null
+            "directive": null,
+            "start": 20,
+            "end": 88
           },
           {
             "type": "VariableDeclaration",
-            "start": 94,
-            "end": 104,
             "kind": "var",
             "declarations": [
               {
                 "type": "VariableDeclarator",
-                "start": 98,
-                "end": 103,
                 "id": {
                   "type": "Identifier",
-                  "start": 98,
-                  "end": 99,
                   "decorators": [],
                   "name": "x",
                   "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "start": 98,
+                  "end": 99
                 },
                 "init": {
                   "type": "Literal",
-                  "start": 102,
-                  "end": 103,
                   "value": 1,
-                  "raw": "1"
+                  "raw": "1",
+                  "start": 102,
+                  "end": 103
                 },
-                "definite": false
+                "definite": false,
+                "start": 98,
+                "end": 103
               }
             ],
-            "declare": false
+            "declare": false,
+            "start": 94,
+            "end": 104
           }
-        ]
+        ],
+        "start": 14,
+        "end": 106
       },
-      "expression": false
+      "expression": false,
+      "start": 0,
+      "end": 106
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 106
 }
 ```

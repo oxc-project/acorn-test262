@@ -2,21 +2,17 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 605,
   "body": [
     {
       "type": "FunctionDeclaration",
-      "start": 0,
-      "end": 605,
       "id": {
         "type": "Identifier",
-        "start": 9,
-        "end": 37,
         "decorators": [],
         "name": "defineCommonExtensionSymbols",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 9,
+        "end": 37
       },
       "generator": false,
       "async": false,
@@ -25,356 +21,360 @@ __ESTREE_TEST__:PASS:
       "params": [
         {
           "type": "Identifier",
-          "start": 38,
-          "end": 48,
           "decorators": [],
           "name": "apiPrivate",
           "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "start": 38,
+          "end": 48
         }
       ],
       "returnType": null,
       "body": {
         "type": "BlockStatement",
-        "start": 50,
-        "end": 605,
         "body": [
           {
             "type": "ExpressionStatement",
-            "start": 82,
-            "end": 603,
             "expression": {
               "type": "AssignmentExpression",
-              "start": 82,
-              "end": 602,
               "operator": "=",
               "left": {
                 "type": "MemberExpression",
-                "start": 82,
-                "end": 99,
                 "object": {
                   "type": "Identifier",
-                  "start": 82,
-                  "end": 92,
                   "decorators": [],
                   "name": "apiPrivate",
                   "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "start": 82,
+                  "end": 92
                 },
                 "property": {
                   "type": "Identifier",
-                  "start": 93,
-                  "end": 99,
                   "decorators": [],
                   "name": "Events",
                   "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "start": 93,
+                  "end": 99
                 },
                 "optional": false,
-                "computed": false
+                "computed": false,
+                "start": 82,
+                "end": 99
               },
               "right": {
                 "type": "ObjectExpression",
-                "start": 102,
-                "end": 602,
                 "properties": [
                   {
                     "type": "Property",
-                    "start": 110,
-                    "end": 142,
                     "kind": "init",
                     "key": {
                       "type": "Identifier",
-                      "start": 110,
-                      "end": 123,
                       "decorators": [],
                       "name": "ButtonClicked",
                       "optional": false,
-                      "typeAnnotation": null
+                      "typeAnnotation": null,
+                      "start": 110,
+                      "end": 123
                     },
                     "value": {
                       "type": "Literal",
-                      "start": 125,
-                      "end": 142,
                       "value": "button-clicked-",
-                      "raw": "'button-clicked-'"
+                      "raw": "'button-clicked-'",
+                      "start": 125,
+                      "end": 142
                     },
                     "method": false,
                     "shorthand": false,
                     "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "start": 110,
+                    "end": 142
                   },
                   {
                     "type": "Property",
-                    "start": 150,
-                    "end": 194,
                     "kind": "init",
                     "key": {
                       "type": "Identifier",
-                      "start": 150,
-                      "end": 169,
                       "decorators": [],
                       "name": "PanelObjectSelected",
                       "optional": false,
-                      "typeAnnotation": null
+                      "typeAnnotation": null,
+                      "start": 150,
+                      "end": 169
                     },
                     "value": {
                       "type": "Literal",
-                      "start": 171,
-                      "end": 194,
                       "value": "panel-objectSelected-",
-                      "raw": "'panel-objectSelected-'"
+                      "raw": "'panel-objectSelected-'",
+                      "start": 171,
+                      "end": 194
                     },
                     "method": false,
                     "shorthand": false,
                     "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "start": 150,
+                    "end": 194
                   },
                   {
                     "type": "Property",
-                    "start": 202,
-                    "end": 252,
                     "kind": "init",
                     "key": {
                       "type": "Identifier",
-                      "start": 202,
-                      "end": 224,
                       "decorators": [],
                       "name": "NetworkRequestFinished",
                       "optional": false,
-                      "typeAnnotation": null
+                      "typeAnnotation": null,
+                      "start": 202,
+                      "end": 224
                     },
                     "value": {
                       "type": "Literal",
-                      "start": 226,
-                      "end": 252,
                       "value": "network-request-finished",
-                      "raw": "'network-request-finished'"
+                      "raw": "'network-request-finished'",
+                      "start": 226,
+                      "end": 252
                     },
                     "method": false,
                     "shorthand": false,
                     "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "start": 202,
+                    "end": 252
                   },
                   {
                     "type": "Property",
-                    "start": 260,
-                    "end": 289,
                     "kind": "init",
                     "key": {
                       "type": "Identifier",
-                      "start": 260,
-                      "end": 272,
                       "decorators": [],
                       "name": "OpenResource",
                       "optional": false,
-                      "typeAnnotation": null
+                      "typeAnnotation": null,
+                      "start": 260,
+                      "end": 272
                     },
                     "value": {
                       "type": "Literal",
-                      "start": 274,
-                      "end": 289,
                       "value": "open-resource",
-                      "raw": "'open-resource'"
+                      "raw": "'open-resource'",
+                      "start": 274,
+                      "end": 289
                     },
                     "method": false,
                     "shorthand": false,
                     "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "start": 260,
+                    "end": 289
                   },
                   {
                     "type": "Property",
-                    "start": 297,
-                    "end": 325,
                     "kind": "init",
                     "key": {
                       "type": "Identifier",
-                      "start": 297,
-                      "end": 308,
                       "decorators": [],
                       "name": "PanelSearch",
                       "optional": false,
-                      "typeAnnotation": null
+                      "typeAnnotation": null,
+                      "start": 297,
+                      "end": 308
                     },
                     "value": {
                       "type": "Literal",
-                      "start": 310,
-                      "end": 325,
                       "value": "panel-search-",
-                      "raw": "'panel-search-'"
+                      "raw": "'panel-search-'",
+                      "start": 310,
+                      "end": 325
                     },
                     "method": false,
                     "shorthand": false,
                     "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "start": 297,
+                    "end": 325
                   },
                   {
                     "type": "Property",
-                    "start": 333,
-                    "end": 377,
                     "kind": "init",
                     "key": {
                       "type": "Identifier",
-                      "start": 333,
-                      "end": 349,
                       "decorators": [],
                       "name": "RecordingStarted",
                       "optional": false,
-                      "typeAnnotation": null
+                      "typeAnnotation": null,
+                      "start": 333,
+                      "end": 349
                     },
                     "value": {
                       "type": "Literal",
-                      "start": 351,
-                      "end": 377,
                       "value": "trace-recording-started-",
-                      "raw": "'trace-recording-started-'"
+                      "raw": "'trace-recording-started-'",
+                      "start": 351,
+                      "end": 377
                     },
                     "method": false,
                     "shorthand": false,
                     "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "start": 333,
+                    "end": 377
                   },
                   {
                     "type": "Property",
-                    "start": 385,
-                    "end": 429,
                     "kind": "init",
                     "key": {
                       "type": "Identifier",
-                      "start": 385,
-                      "end": 401,
                       "decorators": [],
                       "name": "RecordingStopped",
                       "optional": false,
-                      "typeAnnotation": null
+                      "typeAnnotation": null,
+                      "start": 385,
+                      "end": 401
                     },
                     "value": {
                       "type": "Literal",
-                      "start": 403,
-                      "end": 429,
                       "value": "trace-recording-stopped-",
-                      "raw": "'trace-recording-stopped-'"
+                      "raw": "'trace-recording-stopped-'",
+                      "start": 403,
+                      "end": 429
                     },
                     "method": false,
                     "shorthand": false,
                     "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "start": 385,
+                    "end": 429
                   },
                   {
                     "type": "Property",
-                    "start": 437,
-                    "end": 468,
                     "kind": "init",
                     "key": {
                       "type": "Identifier",
-                      "start": 437,
-                      "end": 450,
                       "decorators": [],
                       "name": "ResourceAdded",
                       "optional": false,
-                      "typeAnnotation": null
+                      "typeAnnotation": null,
+                      "start": 437,
+                      "end": 450
                     },
                     "value": {
                       "type": "Literal",
-                      "start": 452,
-                      "end": 468,
                       "value": "resource-added",
-                      "raw": "'resource-added'"
+                      "raw": "'resource-added'",
+                      "start": 452,
+                      "end": 468
                     },
                     "method": false,
                     "shorthand": false,
                     "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "start": 437,
+                    "end": 468
                   },
                   {
                     "type": "Property",
-                    "start": 476,
-                    "end": 530,
                     "kind": "init",
                     "key": {
                       "type": "Identifier",
-                      "start": 476,
-                      "end": 500,
                       "decorators": [],
                       "name": "ResourceContentCommitted",
                       "optional": false,
-                      "typeAnnotation": null
+                      "typeAnnotation": null,
+                      "start": 476,
+                      "end": 500
                     },
                     "value": {
                       "type": "Literal",
-                      "start": 502,
-                      "end": 530,
                       "value": "resource-content-committed",
-                      "raw": "'resource-content-committed'"
+                      "raw": "'resource-content-committed'",
+                      "start": 502,
+                      "end": 530
                     },
                     "method": false,
                     "shorthand": false,
                     "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "start": 476,
+                    "end": 530
                   },
                   {
                     "type": "Property",
-                    "start": 538,
-                    "end": 562,
                     "kind": "init",
                     "key": {
                       "type": "Identifier",
-                      "start": 538,
-                      "end": 547,
                       "decorators": [],
                       "name": "ViewShown",
                       "optional": false,
-                      "typeAnnotation": null
+                      "typeAnnotation": null,
+                      "start": 538,
+                      "end": 547
                     },
                     "value": {
                       "type": "Literal",
-                      "start": 549,
-                      "end": 562,
                       "value": "view-shown-",
-                      "raw": "'view-shown-'"
+                      "raw": "'view-shown-'",
+                      "start": 549,
+                      "end": 562
                     },
                     "method": false,
                     "shorthand": false,
                     "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "start": 538,
+                    "end": 562
                   },
                   {
                     "type": "Property",
-                    "start": 570,
-                    "end": 596,
                     "kind": "init",
                     "key": {
                       "type": "Identifier",
-                      "start": 570,
-                      "end": 580,
                       "decorators": [],
                       "name": "ViewHidden",
                       "optional": false,
-                      "typeAnnotation": null
+                      "typeAnnotation": null,
+                      "start": 570,
+                      "end": 580
                     },
                     "value": {
                       "type": "Literal",
-                      "start": 582,
-                      "end": 596,
                       "value": "view-hidden-",
-                      "raw": "'view-hidden-'"
+                      "raw": "'view-hidden-'",
+                      "start": 582,
+                      "end": 596
                     },
                     "method": false,
                     "shorthand": false,
                     "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "start": 570,
+                    "end": 596
                   }
-                ]
-              }
+                ],
+                "start": 102,
+                "end": 602
+              },
+              "start": 82,
+              "end": 602
             },
-            "directive": null
+            "directive": null,
+            "start": 82,
+            "end": 603
           }
-        ]
+        ],
+        "start": 50,
+        "end": 605
       },
-      "expression": false
+      "expression": false,
+      "start": 0,
+      "end": 605
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 605
 }
 ```

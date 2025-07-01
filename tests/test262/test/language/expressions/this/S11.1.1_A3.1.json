@@ -1,261 +1,261 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 791,
   "body": [
     {
       "type": "FunctionDeclaration",
-      "start": 374,
-      "end": 409,
       "id": {
         "type": "Identifier",
+        "name": "ReturnThis",
         "start": 383,
-        "end": 393,
-        "name": "ReturnThis"
+        "end": 393
       },
       "generator": false,
       "async": false,
       "params": [],
       "body": {
         "type": "BlockStatement",
-        "start": 396,
-        "end": 409,
         "body": [
           {
             "type": "ReturnStatement",
-            "start": 397,
-            "end": 408,
             "argument": {
               "type": "ThisExpression",
               "start": 404,
               "end": 408
-            }
+            },
+            "start": 397,
+            "end": 408
           }
-        ]
+        ],
+        "start": 396,
+        "end": 409
       },
-      "expression": false
+      "expression": false,
+      "start": 374,
+      "end": 409
     },
     {
       "type": "IfStatement",
-      "start": 410,
-      "end": 558,
       "test": {
         "type": "BinaryExpression",
-        "start": 414,
-        "end": 435,
         "left": {
           "type": "CallExpression",
-          "start": 414,
-          "end": 426,
           "callee": {
             "type": "Identifier",
+            "name": "ReturnThis",
             "start": 414,
-            "end": 424,
-            "name": "ReturnThis"
+            "end": 424
           },
           "arguments": [],
-          "optional": false
+          "optional": false,
+          "start": 414,
+          "end": 426
         },
         "operator": "!==",
         "right": {
           "type": "ThisExpression",
           "start": 431,
           "end": 435
-        }
+        },
+        "start": 414,
+        "end": 435
       },
       "consequent": {
         "type": "BlockStatement",
-        "start": 437,
-        "end": 558,
         "body": [
           {
             "type": "ThrowStatement",
-            "start": 441,
-            "end": 556,
             "argument": {
               "type": "NewExpression",
-              "start": 447,
-              "end": 555,
               "callee": {
                 "type": "Identifier",
+                "name": "Test262Error",
                 "start": 451,
-                "end": 463,
-                "name": "Test262Error"
+                "end": 463
               },
               "arguments": [
                 {
                   "type": "BinaryExpression",
-                  "start": 464,
-                  "end": 554,
                   "left": {
                     "type": "Literal",
-                    "start": 464,
-                    "end": 537,
                     "value": "#1: function ReturnThis() {return this} ReturnThis() === this. Actual: ",
-                    "raw": "'#1: function ReturnThis() {return this} ReturnThis() === this. Actual: '"
+                    "raw": "'#1: function ReturnThis() {return this} ReturnThis() === this. Actual: '",
+                    "start": 464,
+                    "end": 537
                   },
                   "operator": "+",
                   "right": {
                     "type": "ParenthesizedExpression",
-                    "start": 540,
-                    "end": 554,
                     "expression": {
                       "type": "CallExpression",
-                      "start": 541,
-                      "end": 553,
                       "callee": {
                         "type": "Identifier",
+                        "name": "ReturnThis",
                         "start": 541,
-                        "end": 551,
-                        "name": "ReturnThis"
+                        "end": 551
                       },
                       "arguments": [],
-                      "optional": false
-                    }
-                  }
+                      "optional": false,
+                      "start": 541,
+                      "end": 553
+                    },
+                    "start": 540,
+                    "end": 554
+                  },
+                  "start": 464,
+                  "end": 554
                 }
-              ]
-            }
+              ],
+              "start": 447,
+              "end": 555
+            },
+            "start": 441,
+            "end": 556
           }
-        ]
+        ],
+        "start": 437,
+        "end": 558
       },
-      "alternate": null
+      "alternate": null,
+      "start": 410,
+      "end": 558
     },
     {
       "type": "FunctionDeclaration",
-      "start": 570,
-      "end": 617,
       "id": {
         "type": "Identifier",
+        "name": "ReturnEvalThis",
         "start": 579,
-        "end": 593,
-        "name": "ReturnEvalThis"
+        "end": 593
       },
       "generator": false,
       "async": false,
       "params": [],
       "body": {
         "type": "BlockStatement",
-        "start": 596,
-        "end": 617,
         "body": [
           {
             "type": "ReturnStatement",
-            "start": 597,
-            "end": 616,
             "argument": {
               "type": "CallExpression",
-              "start": 604,
-              "end": 616,
               "callee": {
                 "type": "Identifier",
+                "name": "eval",
                 "start": 604,
-                "end": 608,
-                "name": "eval"
+                "end": 608
               },
               "arguments": [
                 {
                   "type": "Literal",
-                  "start": 609,
-                  "end": 615,
                   "value": "this",
-                  "raw": "\"this\""
+                  "raw": "\"this\"",
+                  "start": 609,
+                  "end": 615
                 }
               ],
-              "optional": false
-            }
+              "optional": false,
+              "start": 604,
+              "end": 616
+            },
+            "start": 597,
+            "end": 616
           }
-        ]
+        ],
+        "start": 596,
+        "end": 617
       },
-      "expression": false
+      "expression": false,
+      "start": 570,
+      "end": 617
     },
     {
       "type": "IfStatement",
-      "start": 618,
-      "end": 790,
       "test": {
         "type": "BinaryExpression",
-        "start": 622,
-        "end": 647,
         "left": {
           "type": "CallExpression",
-          "start": 622,
-          "end": 638,
           "callee": {
             "type": "Identifier",
+            "name": "ReturnEvalThis",
             "start": 622,
-            "end": 636,
-            "name": "ReturnEvalThis"
+            "end": 636
           },
           "arguments": [],
-          "optional": false
+          "optional": false,
+          "start": 622,
+          "end": 638
         },
         "operator": "!==",
         "right": {
           "type": "ThisExpression",
           "start": 643,
           "end": 647
-        }
+        },
+        "start": 622,
+        "end": 647
       },
       "consequent": {
         "type": "BlockStatement",
-        "start": 649,
-        "end": 790,
         "body": [
           {
             "type": "ThrowStatement",
-            "start": 653,
-            "end": 788,
             "argument": {
               "type": "NewExpression",
-              "start": 659,
-              "end": 787,
               "callee": {
                 "type": "Identifier",
+                "name": "Test262Error",
                 "start": 663,
-                "end": 675,
-                "name": "Test262Error"
+                "end": 675
               },
               "arguments": [
                 {
                   "type": "BinaryExpression",
-                  "start": 676,
-                  "end": 786,
                   "left": {
                     "type": "Literal",
-                    "start": 676,
-                    "end": 765,
                     "value": "#2: function ReturnEvalThis() {return eval(\"this\")} ReturnEvalThis() === this. Actual: ",
-                    "raw": "'#2: function ReturnEvalThis() {return eval(\"this\")} ReturnEvalThis() === this. Actual: '"
+                    "raw": "'#2: function ReturnEvalThis() {return eval(\"this\")} ReturnEvalThis() === this. Actual: '",
+                    "start": 676,
+                    "end": 765
                   },
                   "operator": "+",
                   "right": {
                     "type": "ParenthesizedExpression",
-                    "start": 768,
-                    "end": 786,
                     "expression": {
                       "type": "CallExpression",
-                      "start": 769,
-                      "end": 785,
                       "callee": {
                         "type": "Identifier",
+                        "name": "ReturnEvalThis",
                         "start": 769,
-                        "end": 783,
-                        "name": "ReturnEvalThis"
+                        "end": 783
                       },
                       "arguments": [],
-                      "optional": false
-                    }
-                  }
+                      "optional": false,
+                      "start": 769,
+                      "end": 785
+                    },
+                    "start": 768,
+                    "end": 786
+                  },
+                  "start": 676,
+                  "end": 786
                 }
-              ]
-            }
+              ],
+              "start": 659,
+              "end": 787
+            },
+            "start": 653,
+            "end": 788
           }
-        ]
+        ],
+        "start": 649,
+        "end": 790
       },
-      "alternate": null
+      "alternate": null,
+      "start": 618,
+      "end": 790
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 791
 }

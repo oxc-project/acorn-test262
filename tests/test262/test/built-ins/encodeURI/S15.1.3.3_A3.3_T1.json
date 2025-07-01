@@ -1,81 +1,81 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 339,
   "body": [
     {
       "type": "IfStatement",
-      "start": 243,
-      "end": 338,
       "test": {
         "type": "BinaryExpression",
-        "start": 247,
-        "end": 269,
         "left": {
           "type": "CallExpression",
-          "start": 247,
-          "end": 261,
           "callee": {
             "type": "Identifier",
+            "name": "encodeURI",
             "start": 247,
-            "end": 256,
-            "name": "encodeURI"
+            "end": 256
           },
           "arguments": [
             {
               "type": "Literal",
-              "start": 257,
-              "end": 260,
               "value": "#",
-              "raw": "\"#\""
+              "raw": "\"#\"",
+              "start": 257,
+              "end": 260
             }
           ],
-          "optional": false
+          "optional": false,
+          "start": 247,
+          "end": 261
         },
         "operator": "!==",
         "right": {
           "type": "Literal",
-          "start": 266,
-          "end": 269,
           "value": "#",
-          "raw": "\"#\""
-        }
+          "raw": "\"#\"",
+          "start": 266,
+          "end": 269
+        },
+        "start": 247,
+        "end": 269
       },
       "consequent": {
         "type": "BlockStatement",
-        "start": 271,
-        "end": 338,
         "body": [
           {
             "type": "ThrowStatement",
-            "start": 275,
-            "end": 336,
             "argument": {
               "type": "NewExpression",
-              "start": 281,
-              "end": 335,
               "callee": {
                 "type": "Identifier",
+                "name": "Test262Error",
                 "start": 285,
-                "end": 297,
-                "name": "Test262Error"
+                "end": 297
               },
               "arguments": [
                 {
                   "type": "Literal",
-                  "start": 298,
-                  "end": 334,
                   "value": "#1: unescapedURISet containing \"#\"",
-                  "raw": "'#1: unescapedURISet containing \"#\"'"
+                  "raw": "'#1: unescapedURISet containing \"#\"'",
+                  "start": 298,
+                  "end": 334
                 }
-              ]
-            }
+              ],
+              "start": 281,
+              "end": 335
+            },
+            "start": 275,
+            "end": 336
           }
-        ]
+        ],
+        "start": 271,
+        "end": 338
       },
-      "alternate": null
+      "alternate": null,
+      "start": 243,
+      "end": 338
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 339
 }

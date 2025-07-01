@@ -1,88 +1,88 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 461,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 400,
-      "end": 460,
       "expression": {
         "type": "CallExpression",
-        "start": 400,
-        "end": 459,
         "callee": {
           "type": "MemberExpression",
-          "start": 400,
-          "end": 413,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 400,
-            "end": 406,
-            "name": "assert"
+            "end": 406
           },
           "property": {
             "type": "Identifier",
+            "name": "throws",
             "start": 407,
-            "end": 413,
-            "name": "throws"
+            "end": 413
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 400,
+          "end": 413
         },
         "arguments": [
           {
             "type": "Identifier",
+            "name": "TypeError",
             "start": 414,
-            "end": 423,
-            "name": "TypeError"
+            "end": 423
           },
           {
             "type": "FunctionExpression",
-            "start": 425,
-            "end": 458,
             "id": null,
             "generator": false,
             "async": false,
             "params": [],
             "body": {
               "type": "BlockStatement",
-              "start": 436,
-              "end": 458,
               "body": [
                 {
                   "type": "ExpressionStatement",
-                  "start": 440,
-                  "end": 456,
                   "expression": {
                     "type": "NewExpression",
-                    "start": 440,
-                    "end": 455,
                     "callee": {
                       "type": "Identifier",
+                      "name": "WeakSet",
                       "start": 444,
-                      "end": 451,
-                      "name": "WeakSet"
+                      "end": 451
                     },
                     "arguments": [
                       {
                         "type": "ObjectExpression",
+                        "properties": [],
                         "start": 452,
-                        "end": 454,
-                        "properties": []
+                        "end": 454
                       }
-                    ]
-                  }
+                    ],
+                    "start": 440,
+                    "end": 455
+                  },
+                  "start": 440,
+                  "end": 456
                 }
-              ]
+              ],
+              "start": 436,
+              "end": 458
             },
-            "expression": false
+            "expression": false,
+            "start": 425,
+            "end": 458
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 400,
+        "end": 459
+      },
+      "start": 400,
+      "end": 460
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 461
 }

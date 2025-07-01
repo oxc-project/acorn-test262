@@ -1,241 +1,241 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 455,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 240,
-      "end": 305,
       "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 246,
-          "end": 304,
           "id": {
             "type": "Identifier",
+            "name": "zdt",
             "start": 246,
-            "end": 249,
-            "name": "zdt"
+            "end": 249
           },
           "init": {
             "type": "CallExpression",
-            "start": 252,
-            "end": 304,
             "callee": {
               "type": "MemberExpression",
-              "start": 252,
-              "end": 281,
               "object": {
                 "type": "MemberExpression",
-                "start": 252,
-                "end": 264,
                 "object": {
                   "type": "Identifier",
+                  "name": "Temporal",
                   "start": 252,
-                  "end": 260,
-                  "name": "Temporal"
+                  "end": 260
                 },
                 "property": {
                   "type": "Identifier",
+                  "name": "Now",
                   "start": 261,
-                  "end": 264,
-                  "name": "Now"
+                  "end": 264
                 },
                 "optional": false,
-                "computed": false
+                "computed": false,
+                "start": 252,
+                "end": 264
               },
               "property": {
                 "type": "Identifier",
+                "name": "zonedDateTimeISO",
                 "start": 265,
-                "end": 281,
-                "name": "zonedDateTimeISO"
+                "end": 281
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 252,
+              "end": 281
             },
             "arguments": [
               {
                 "type": "Literal",
-                "start": 282,
-                "end": 303,
                 "value": "America/Los_Angeles",
-                "raw": "\"America/Los_Angeles\""
+                "raw": "\"America/Los_Angeles\"",
+                "start": 282,
+                "end": 303
               }
             ],
-            "optional": false
-          }
+            "optional": false,
+            "start": 252,
+            "end": 304
+          },
+          "start": 246,
+          "end": 304
         }
-      ]
+      ],
+      "start": 240,
+      "end": 305
     },
     {
       "type": "ExpressionStatement",
-      "start": 306,
-      "end": 352,
       "expression": {
         "type": "CallExpression",
-        "start": 306,
-        "end": 351,
         "callee": {
           "type": "Identifier",
+          "name": "assert",
           "start": 306,
-          "end": 312,
-          "name": "assert"
+          "end": 312
         },
         "arguments": [
           {
             "type": "BinaryExpression",
-            "start": 313,
-            "end": 350,
             "left": {
               "type": "Identifier",
+              "name": "zdt",
               "start": 313,
-              "end": 316,
-              "name": "zdt"
+              "end": 316
             },
             "operator": "instanceof",
             "right": {
               "type": "MemberExpression",
-              "start": 328,
-              "end": 350,
               "object": {
                 "type": "Identifier",
+                "name": "Temporal",
                 "start": 328,
-                "end": 336,
-                "name": "Temporal"
+                "end": 336
               },
               "property": {
                 "type": "Identifier",
+                "name": "ZonedDateTime",
                 "start": 337,
-                "end": 350,
-                "name": "ZonedDateTime"
+                "end": 350
               },
               "optional": false,
-              "computed": false
-            }
+              "computed": false,
+              "start": 328,
+              "end": 350
+            },
+            "start": 313,
+            "end": 350
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 306,
+        "end": 351
+      },
+      "start": 306,
+      "end": 352
     },
     {
       "type": "ExpressionStatement",
-      "start": 353,
-      "end": 397,
       "expression": {
         "type": "CallExpression",
-        "start": 353,
-        "end": 396,
         "callee": {
           "type": "MemberExpression",
-          "start": 353,
-          "end": 369,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 353,
-            "end": 359,
-            "name": "assert"
+            "end": 359
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 360,
-            "end": 369,
-            "name": "sameValue"
+            "end": 369
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 353,
+          "end": 369
         },
         "arguments": [
           {
             "type": "MemberExpression",
-            "start": 370,
-            "end": 384,
             "object": {
               "type": "Identifier",
+              "name": "zdt",
               "start": 370,
-              "end": 373,
-              "name": "zdt"
+              "end": 373
             },
             "property": {
               "type": "Identifier",
+              "name": "calendarId",
               "start": 374,
-              "end": 384,
-              "name": "calendarId"
+              "end": 384
             },
             "optional": false,
-            "computed": false
+            "computed": false,
+            "start": 370,
+            "end": 384
           },
           {
             "type": "Literal",
-            "start": 386,
-            "end": 395,
             "value": "iso8601",
-            "raw": "\"iso8601\""
+            "raw": "\"iso8601\"",
+            "start": 386,
+            "end": 395
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 353,
+        "end": 396
+      },
+      "start": 353,
+      "end": 397
     },
     {
       "type": "ExpressionStatement",
-      "start": 398,
-      "end": 454,
       "expression": {
         "type": "CallExpression",
-        "start": 398,
-        "end": 453,
         "callee": {
           "type": "MemberExpression",
-          "start": 398,
-          "end": 414,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 398,
-            "end": 404,
-            "name": "assert"
+            "end": 404
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 405,
-            "end": 414,
-            "name": "sameValue"
+            "end": 414
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 398,
+          "end": 414
         },
         "arguments": [
           {
             "type": "MemberExpression",
-            "start": 415,
-            "end": 429,
             "object": {
               "type": "Identifier",
+              "name": "zdt",
               "start": 415,
-              "end": 418,
-              "name": "zdt"
+              "end": 418
             },
             "property": {
               "type": "Identifier",
+              "name": "timeZoneId",
               "start": 419,
-              "end": 429,
-              "name": "timeZoneId"
+              "end": 429
             },
             "optional": false,
-            "computed": false
+            "computed": false,
+            "start": 415,
+            "end": 429
           },
           {
             "type": "Literal",
-            "start": 431,
-            "end": 452,
             "value": "America/Los_Angeles",
-            "raw": "\"America/Los_Angeles\""
+            "raw": "\"America/Los_Angeles\"",
+            "start": 431,
+            "end": 452
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 398,
+        "end": 453
+      },
+      "start": 398,
+      "end": 454
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 455
 }

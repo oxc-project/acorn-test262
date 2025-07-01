@@ -2,59 +2,49 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 36,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 0,
-      "end": 36,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 4,
-          "end": 35,
           "id": {
             "type": "Identifier",
-            "start": 4,
-            "end": 5,
             "decorators": [],
             "name": "x",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 4,
+            "end": 5
           },
           "init": {
             "type": "TemplateLiteral",
-            "start": 8,
-            "end": 35,
             "quasis": [
               {
                 "type": "TemplateElement",
-                "start": 8,
-                "end": 14,
                 "value": {
                   "raw": "abc",
                   "cooked": "abc"
                 },
-                "tail": false
+                "tail": false,
+                "start": 8,
+                "end": 14
               },
               {
                 "type": "TemplateElement",
-                "start": 30,
-                "end": 35,
                 "value": {
                   "raw": "def",
                   "cooked": "def"
                 },
-                "tail": true
+                "tail": true,
+                "start": 30,
+                "end": 35
               }
             ],
             "expressions": [
               {
                 "type": "TSTypeAssertion",
-                "start": 15,
-                "end": 29,
                 "typeAnnotation": {
                   "type": "TSAnyKeyword",
                   "start": 16,
@@ -62,34 +52,44 @@ __ESTREE_TEST__:PASS:
                 },
                 "expression": {
                   "type": "BinaryExpression",
-                  "start": 21,
-                  "end": 28,
                   "left": {
                     "type": "Literal",
-                    "start": 21,
-                    "end": 23,
                     "value": 10,
-                    "raw": "10"
+                    "raw": "10",
+                    "start": 21,
+                    "end": 23
                   },
                   "operator": "+",
                   "right": {
                     "type": "Literal",
-                    "start": 26,
-                    "end": 28,
                     "value": 10,
-                    "raw": "10"
-                  }
-                }
+                    "raw": "10",
+                    "start": 26,
+                    "end": 28
+                  },
+                  "start": 21,
+                  "end": 28
+                },
+                "start": 15,
+                "end": 29
               }
-            ]
+            ],
+            "start": 8,
+            "end": 35
           },
-          "definite": false
+          "definite": false,
+          "start": 4,
+          "end": 35
         }
       ],
-      "declare": false
+      "declare": false,
+      "start": 0,
+      "end": 36
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 36
 }
 ```

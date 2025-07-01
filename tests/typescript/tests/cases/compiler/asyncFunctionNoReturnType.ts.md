@@ -2,17 +2,11 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 47,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 0,
-      "end": 47,
       "expression": {
         "type": "ArrowFunctionExpression",
-        "start": 0,
-        "end": 47,
         "expression": false,
         "async": true,
         "typeParameters": null,
@@ -20,39 +14,45 @@ __ESTREE_TEST__:PASS:
         "returnType": null,
         "body": {
           "type": "BlockStatement",
-          "start": 12,
-          "end": 47,
           "body": [
             {
               "type": "IfStatement",
-              "start": 18,
-              "end": 45,
               "test": {
                 "type": "Identifier",
-                "start": 22,
-                "end": 28,
                 "decorators": [],
                 "name": "window",
                 "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "start": 22,
+                "end": 28
               },
               "consequent": {
                 "type": "ReturnStatement",
+                "argument": null,
                 "start": 38,
-                "end": 45,
-                "argument": null
+                "end": 45
               },
-              "alternate": null
+              "alternate": null,
+              "start": 18,
+              "end": 45
             }
-          ]
+          ],
+          "start": 12,
+          "end": 47
         },
         "id": null,
-        "generator": false
+        "generator": false,
+        "start": 0,
+        "end": 47
       },
-      "directive": null
+      "directive": null,
+      "start": 0,
+      "end": 47
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 47
 }
 ```

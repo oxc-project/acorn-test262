@@ -2,90 +2,90 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 36,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 0,
-      "end": 18,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 4,
-          "end": 17,
           "id": {
             "type": "Identifier",
-            "start": 4,
-            "end": 12,
             "decorators": [],
             "name": "indexMap",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 4,
+            "end": 12
           },
           "init": {
             "type": "ObjectExpression",
+            "properties": [],
             "start": 15,
-            "end": 17,
-            "properties": []
+            "end": 17
           },
-          "definite": false
+          "definite": false,
+          "start": 4,
+          "end": 17
         }
       ],
-      "declare": false
+      "declare": false,
+      "start": 0,
+      "end": 18
     },
     {
       "type": "ExpressionStatement",
-      "start": 19,
-      "end": 36,
       "expression": {
         "type": "AssignmentExpression",
-        "start": 19,
-        "end": 35,
         "operator": "=",
         "left": {
           "type": "MemberExpression",
-          "start": 19,
-          "end": 31,
           "object": {
             "type": "Identifier",
-            "start": 19,
-            "end": 27,
             "decorators": [],
             "name": "indexMap",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 19,
+            "end": 27
           },
           "property": {
             "type": "UnaryExpression",
-            "start": 28,
-            "end": 30,
             "operator": "-",
             "argument": {
               "type": "Literal",
-              "start": 29,
-              "end": 30,
               "value": 1,
-              "raw": "1"
+              "raw": "1",
+              "start": 29,
+              "end": 30
             },
-            "prefix": true
+            "prefix": true,
+            "start": 28,
+            "end": 30
           },
           "optional": false,
-          "computed": true
+          "computed": true,
+          "start": 19,
+          "end": 31
         },
         "right": {
           "type": "Literal",
-          "start": 34,
-          "end": 35,
           "value": 0,
-          "raw": "0"
-        }
+          "raw": "0",
+          "start": 34,
+          "end": 35
+        },
+        "start": 19,
+        "end": 35
       },
-      "directive": null
+      "directive": null,
+      "start": 19,
+      "end": 36
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 36
 }
 ```

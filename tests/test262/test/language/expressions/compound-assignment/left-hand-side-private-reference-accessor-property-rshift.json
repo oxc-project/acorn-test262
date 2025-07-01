@@ -1,128 +1,110 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 2111,
   "body": [
     {
       "type": "ClassDeclaration",
-      "start": 1627,
-      "end": 1888,
       "decorators": [],
       "id": {
         "type": "Identifier",
+        "name": "C",
         "start": 1633,
-        "end": 1634,
-        "name": "C"
+        "end": 1634
       },
       "superClass": null,
       "body": {
         "type": "ClassBody",
-        "start": 1635,
-        "end": 1888,
         "body": [
           {
             "type": "PropertyDefinition",
-            "start": 1639,
-            "end": 1657,
             "decorators": [],
             "key": {
               "type": "PrivateIdentifier",
+              "name": "setterCalledWith",
               "start": 1639,
-              "end": 1656,
-              "name": "setterCalledWith"
+              "end": 1656
             },
             "value": null,
             "computed": false,
-            "static": false
+            "static": false,
+            "start": 1639,
+            "end": 1657
           },
           {
             "type": "MethodDefinition",
-            "start": 1660,
-            "end": 1697,
             "decorators": [],
             "key": {
               "type": "PrivateIdentifier",
+              "name": "field",
               "start": 1664,
-              "end": 1670,
-              "name": "field"
+              "end": 1670
             },
             "value": {
               "type": "FunctionExpression",
-              "start": 1670,
-              "end": 1697,
               "id": null,
               "generator": false,
               "async": false,
               "params": [],
               "body": {
                 "type": "BlockStatement",
-                "start": 1673,
-                "end": 1697,
                 "body": [
                   {
                     "type": "ReturnStatement",
-                    "start": 1679,
-                    "end": 1693,
                     "argument": {
                       "type": "Literal",
-                      "start": 1686,
-                      "end": 1692,
                       "value": 12,
-                      "raw": "0b1100"
-                    }
+                      "raw": "0b1100",
+                      "start": 1686,
+                      "end": 1692
+                    },
+                    "start": 1679,
+                    "end": 1693
                   }
-                ]
+                ],
+                "start": 1673,
+                "end": 1697
               },
-              "expression": false
+              "expression": false,
+              "start": 1670,
+              "end": 1697
             },
             "kind": "get",
             "computed": false,
-            "static": false
+            "static": false,
+            "start": 1660,
+            "end": 1697
           },
           {
             "type": "MethodDefinition",
-            "start": 1700,
-            "end": 1759,
             "decorators": [],
             "key": {
               "type": "PrivateIdentifier",
+              "name": "field",
               "start": 1704,
-              "end": 1710,
-              "name": "field"
+              "end": 1710
             },
             "value": {
               "type": "FunctionExpression",
-              "start": 1710,
-              "end": 1759,
               "id": null,
               "generator": false,
               "async": false,
               "params": [
                 {
                   "type": "Identifier",
+                  "name": "value",
                   "start": 1711,
-                  "end": 1716,
-                  "name": "value"
+                  "end": 1716
                 }
               ],
               "body": {
                 "type": "BlockStatement",
-                "start": 1718,
-                "end": 1759,
                 "body": [
                   {
                     "type": "ExpressionStatement",
-                    "start": 1724,
-                    "end": 1755,
                     "expression": {
                       "type": "AssignmentExpression",
-                      "start": 1724,
-                      "end": 1754,
                       "operator": "=",
                       "left": {
                         "type": "MemberExpression",
-                        "start": 1724,
-                        "end": 1746,
                         "object": {
                           "type": "ThisExpression",
                           "start": 1724,
@@ -130,66 +112,66 @@
                         },
                         "property": {
                           "type": "PrivateIdentifier",
+                          "name": "setterCalledWith",
                           "start": 1729,
-                          "end": 1746,
-                          "name": "setterCalledWith"
+                          "end": 1746
                         },
                         "optional": false,
-                        "computed": false
+                        "computed": false,
+                        "start": 1724,
+                        "end": 1746
                       },
                       "right": {
                         "type": "Identifier",
+                        "name": "value",
                         "start": 1749,
-                        "end": 1754,
-                        "name": "value"
-                      }
-                    }
+                        "end": 1754
+                      },
+                      "start": 1724,
+                      "end": 1754
+                    },
+                    "start": 1724,
+                    "end": 1755
                   }
-                ]
+                ],
+                "start": 1718,
+                "end": 1759
               },
-              "expression": false
+              "expression": false,
+              "start": 1710,
+              "end": 1759
             },
             "kind": "set",
             "computed": false,
-            "static": false
+            "static": false,
+            "start": 1700,
+            "end": 1759
           },
           {
             "type": "MethodDefinition",
-            "start": 1762,
-            "end": 1819,
             "decorators": [],
             "key": {
               "type": "Identifier",
+              "name": "compoundAssignment",
               "start": 1762,
-              "end": 1780,
-              "name": "compoundAssignment"
+              "end": 1780
             },
             "value": {
               "type": "FunctionExpression",
-              "start": 1780,
-              "end": 1819,
               "id": null,
               "generator": false,
               "async": false,
               "params": [],
               "body": {
                 "type": "BlockStatement",
-                "start": 1783,
-                "end": 1819,
                 "body": [
                   {
                     "type": "ReturnStatement",
-                    "start": 1789,
-                    "end": 1815,
                     "argument": {
                       "type": "AssignmentExpression",
-                      "start": 1796,
-                      "end": 1814,
                       "operator": ">>>=",
                       "left": {
                         "type": "MemberExpression",
-                        "start": 1796,
-                        "end": 1807,
                         "object": {
                           "type": "ThisExpression",
                           "start": 1796,
@@ -197,62 +179,64 @@
                         },
                         "property": {
                           "type": "PrivateIdentifier",
+                          "name": "field",
                           "start": 1801,
-                          "end": 1807,
-                          "name": "field"
+                          "end": 1807
                         },
                         "optional": false,
-                        "computed": false
+                        "computed": false,
+                        "start": 1796,
+                        "end": 1807
                       },
                       "right": {
                         "type": "Literal",
-                        "start": 1813,
-                        "end": 1814,
                         "value": 2,
-                        "raw": "2"
-                      }
-                    }
+                        "raw": "2",
+                        "start": 1813,
+                        "end": 1814
+                      },
+                      "start": 1796,
+                      "end": 1814
+                    },
+                    "start": 1789,
+                    "end": 1815
                   }
-                ]
+                ],
+                "start": 1783,
+                "end": 1819
               },
-              "expression": false
+              "expression": false,
+              "start": 1780,
+              "end": 1819
             },
             "kind": "method",
             "computed": false,
-            "static": false
+            "static": false,
+            "start": 1762,
+            "end": 1819
           },
           {
             "type": "MethodDefinition",
-            "start": 1822,
-            "end": 1886,
             "decorators": [],
             "key": {
               "type": "Identifier",
+              "name": "setterCalledWithValue",
               "start": 1822,
-              "end": 1843,
-              "name": "setterCalledWithValue"
+              "end": 1843
             },
             "value": {
               "type": "FunctionExpression",
-              "start": 1843,
-              "end": 1886,
               "id": null,
               "generator": false,
               "async": false,
               "params": [],
               "body": {
                 "type": "BlockStatement",
-                "start": 1846,
-                "end": 1886,
                 "body": [
                   {
                     "type": "ReturnStatement",
-                    "start": 1852,
-                    "end": 1882,
                     "argument": {
                       "type": "MemberExpression",
-                      "start": 1859,
-                      "end": 1881,
                       "object": {
                         "type": "ThisExpression",
                         "start": 1859,
@@ -260,201 +244,217 @@
                       },
                       "property": {
                         "type": "PrivateIdentifier",
+                        "name": "setterCalledWith",
                         "start": 1864,
-                        "end": 1881,
-                        "name": "setterCalledWith"
+                        "end": 1881
                       },
                       "optional": false,
-                      "computed": false
-                    }
+                      "computed": false,
+                      "start": 1859,
+                      "end": 1881
+                    },
+                    "start": 1852,
+                    "end": 1882
                   }
-                ]
+                ],
+                "start": 1846,
+                "end": 1886
               },
-              "expression": false
+              "expression": false,
+              "start": 1843,
+              "end": 1886
             },
             "kind": "method",
             "computed": false,
-            "static": false
+            "static": false,
+            "start": 1822,
+            "end": 1886
           }
-        ]
-      }
+        ],
+        "start": 1635,
+        "end": 1888
+      },
+      "start": 1627,
+      "end": 1888
     },
     {
       "type": "VariableDeclaration",
-      "start": 1890,
-      "end": 1908,
       "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 1896,
-          "end": 1907,
           "id": {
             "type": "Identifier",
+            "name": "o",
             "start": 1896,
-            "end": 1897,
-            "name": "o"
+            "end": 1897
           },
           "init": {
             "type": "NewExpression",
-            "start": 1900,
-            "end": 1907,
             "callee": {
               "type": "Identifier",
+              "name": "C",
               "start": 1904,
-              "end": 1905,
-              "name": "C"
+              "end": 1905
             },
-            "arguments": []
-          }
+            "arguments": [],
+            "start": 1900,
+            "end": 1907
+          },
+          "start": 1896,
+          "end": 1907
         }
-      ]
+      ],
+      "start": 1890,
+      "end": 1908
     },
     {
       "type": "ExpressionStatement",
-      "start": 1909,
-      "end": 2006,
       "expression": {
         "type": "CallExpression",
-        "start": 1909,
-        "end": 2005,
         "callee": {
           "type": "MemberExpression",
-          "start": 1909,
-          "end": 1925,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 1909,
-            "end": 1915,
-            "name": "assert"
+            "end": 1915
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 1916,
-            "end": 1925,
-            "name": "sameValue"
+            "end": 1925
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 1909,
+          "end": 1925
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 1926,
-            "end": 1948,
             "callee": {
               "type": "MemberExpression",
-              "start": 1926,
-              "end": 1946,
               "object": {
                 "type": "Identifier",
+                "name": "o",
                 "start": 1926,
-                "end": 1927,
-                "name": "o"
+                "end": 1927
               },
               "property": {
                 "type": "Identifier",
+                "name": "compoundAssignment",
                 "start": 1928,
-                "end": 1946,
-                "name": "compoundAssignment"
+                "end": 1946
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 1926,
+              "end": 1946
             },
             "arguments": [],
-            "optional": false
+            "optional": false,
+            "start": 1926,
+            "end": 1948
           },
           {
             "type": "Literal",
-            "start": 1950,
-            "end": 1956,
             "value": 3,
-            "raw": "0b0011"
+            "raw": "0b0011",
+            "start": 1950,
+            "end": 1956
           },
           {
             "type": "Literal",
-            "start": 1958,
-            "end": 2004,
             "value": "The expression should evaluate to the result",
-            "raw": "\"The expression should evaluate to the result\""
+            "raw": "\"The expression should evaluate to the result\"",
+            "start": 1958,
+            "end": 2004
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 1909,
+        "end": 2005
+      },
+      "start": 1909,
+      "end": 2006
     },
     {
       "type": "ExpressionStatement",
-      "start": 2007,
-      "end": 2110,
       "expression": {
         "type": "CallExpression",
-        "start": 2007,
-        "end": 2109,
         "callee": {
           "type": "MemberExpression",
-          "start": 2007,
-          "end": 2023,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 2007,
-            "end": 2013,
-            "name": "assert"
+            "end": 2013
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 2014,
-            "end": 2023,
-            "name": "sameValue"
+            "end": 2023
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 2007,
+          "end": 2023
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 2024,
-            "end": 2049,
             "callee": {
               "type": "MemberExpression",
-              "start": 2024,
-              "end": 2047,
               "object": {
                 "type": "Identifier",
+                "name": "o",
                 "start": 2024,
-                "end": 2025,
-                "name": "o"
+                "end": 2025
               },
               "property": {
                 "type": "Identifier",
+                "name": "setterCalledWithValue",
                 "start": 2026,
-                "end": 2047,
-                "name": "setterCalledWithValue"
+                "end": 2047
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 2024,
+              "end": 2047
             },
             "arguments": [],
-            "optional": false
+            "optional": false,
+            "start": 2024,
+            "end": 2049
           },
           {
             "type": "Literal",
-            "start": 2051,
-            "end": 2057,
             "value": 3,
-            "raw": "0b0011"
+            "raw": "0b0011",
+            "start": 2051,
+            "end": 2057
           },
           {
             "type": "Literal",
-            "start": 2059,
-            "end": 2108,
             "value": "PutValue should call the setter with the result",
-            "raw": "\"PutValue should call the setter with the result\""
+            "raw": "\"PutValue should call the setter with the result\"",
+            "start": 2059,
+            "end": 2108
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 2007,
+        "end": 2109
+      },
+      "start": 2007,
+      "end": 2110
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 2111
 }

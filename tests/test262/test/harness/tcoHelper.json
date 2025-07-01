@@ -1,54 +1,54 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 514,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 471,
-      "end": 513,
       "expression": {
         "type": "CallExpression",
-        "start": 471,
-        "end": 512,
         "callee": {
           "type": "MemberExpression",
-          "start": 471,
-          "end": 487,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 471,
-            "end": 477,
-            "name": "assert"
+            "end": 477
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 478,
-            "end": 487,
-            "name": "sameValue"
+            "end": 487
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 471,
+          "end": 487
         },
         "arguments": [
           {
             "type": "Identifier",
+            "name": "$MAX_ITERATIONS",
             "start": 488,
-            "end": 503,
-            "name": "$MAX_ITERATIONS"
+            "end": 503
           },
           {
             "type": "Literal",
-            "start": 505,
-            "end": 511,
             "value": 100000,
-            "raw": "100000"
+            "raw": "100000",
+            "start": 505,
+            "end": 511
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 471,
+        "end": 512
+      },
+      "start": 471,
+      "end": 513
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 514
 }

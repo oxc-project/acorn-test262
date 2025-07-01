@@ -1,87 +1,87 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 355,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 278,
-      "end": 354,
       "expression": {
         "type": "CallExpression",
-        "start": 278,
-        "end": 353,
         "callee": {
           "type": "MemberExpression",
-          "start": 278,
-          "end": 294,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 278,
-            "end": 284,
-            "name": "assert"
+            "end": 284
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 285,
-            "end": 294,
-            "name": "sameValue"
+            "end": 294
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 278,
+          "end": 294
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 295,
-            "end": 305,
             "callee": {
               "type": "MemberExpression",
-              "start": 295,
-              "end": 303,
               "object": {
                 "type": "Identifier",
+                "name": "Math",
                 "start": 295,
-                "end": 299,
-                "name": "Math"
+                "end": 299
               },
               "property": {
                 "type": "Identifier",
+                "name": "max",
                 "start": 300,
-                "end": 303,
-                "name": "max"
+                "end": 303
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 295,
+              "end": 303
             },
             "arguments": [],
-            "optional": false
+            "optional": false,
+            "start": 295,
+            "end": 305
           },
           {
             "type": "UnaryExpression",
-            "start": 307,
-            "end": 316,
             "operator": "-",
             "argument": {
               "type": "Identifier",
+              "name": "Infinity",
               "start": 308,
-              "end": 316,
-              "name": "Infinity"
+              "end": 316
             },
-            "prefix": true
+            "prefix": true,
+            "start": 307,
+            "end": 316
           },
           {
             "type": "Literal",
-            "start": 318,
-            "end": 352,
             "value": "Math.max() must return -Infinity",
-            "raw": "'Math.max() must return -Infinity'"
+            "raw": "'Math.max() must return -Infinity'",
+            "start": 318,
+            "end": 352
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 278,
+        "end": 353
+      },
+      "start": 278,
+      "end": 354
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 355
 }

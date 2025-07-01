@@ -1,3689 +1,3689 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 12468,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 837,
-      "end": 937,
       "expression": {
         "type": "CallExpression",
-        "start": 837,
-        "end": 936,
         "callee": {
           "type": "MemberExpression",
-          "start": 837,
-          "end": 853,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 837,
-            "end": 843,
-            "name": "assert"
+            "end": 843
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 844,
-            "end": 853,
-            "name": "sameValue"
+            "end": 853
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 837,
+          "end": 853
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 854,
-            "end": 877,
             "callee": {
               "type": "MemberExpression",
-              "start": 854,
-              "end": 867,
               "object": {
                 "type": "Identifier",
+                "name": "RegExp",
                 "start": 854,
-                "end": 860,
-                "name": "RegExp"
+                "end": 860
               },
               "property": {
                 "type": "Identifier",
+                "name": "escape",
                 "start": 861,
-                "end": 867,
-                "name": "escape"
+                "end": 867
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 854,
+              "end": 867
             },
             "arguments": [
               {
                 "type": "Literal",
-                "start": 868,
-                "end": 876,
                 "value": "\ud800",
-                "raw": "'\\uD800'"
+                "raw": "'\\uD800'",
+                "start": 868,
+                "end": 876
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 854,
+            "end": 877
           },
           {
             "type": "Literal",
-            "start": 879,
-            "end": 888,
             "value": "\\ud800",
-            "raw": "'\\\\ud800'"
+            "raw": "'\\\\ud800'",
+            "start": 879,
+            "end": 888
           },
           {
             "type": "Literal",
-            "start": 890,
-            "end": 935,
             "value": "High surrogate \\uD800 is correctly escaped",
-            "raw": "'High surrogate \\\\uD800 is correctly escaped'"
+            "raw": "'High surrogate \\\\uD800 is correctly escaped'",
+            "start": 890,
+            "end": 935
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 837,
+        "end": 936
+      },
+      "start": 837,
+      "end": 937
     },
     {
       "type": "ExpressionStatement",
-      "start": 938,
-      "end": 1038,
       "expression": {
         "type": "CallExpression",
-        "start": 938,
-        "end": 1037,
         "callee": {
           "type": "MemberExpression",
-          "start": 938,
-          "end": 954,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 938,
-            "end": 944,
-            "name": "assert"
+            "end": 944
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 945,
-            "end": 954,
-            "name": "sameValue"
+            "end": 954
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 938,
+          "end": 954
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 955,
-            "end": 978,
             "callee": {
               "type": "MemberExpression",
-              "start": 955,
-              "end": 968,
               "object": {
                 "type": "Identifier",
+                "name": "RegExp",
                 "start": 955,
-                "end": 961,
-                "name": "RegExp"
+                "end": 961
               },
               "property": {
                 "type": "Identifier",
+                "name": "escape",
                 "start": 962,
-                "end": 968,
-                "name": "escape"
+                "end": 968
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 955,
+              "end": 968
             },
             "arguments": [
               {
                 "type": "Literal",
-                "start": 969,
-                "end": 977,
                 "value": "\udbff",
-                "raw": "'\\uDBFF'"
+                "raw": "'\\uDBFF'",
+                "start": 969,
+                "end": 977
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 955,
+            "end": 978
           },
           {
             "type": "Literal",
-            "start": 980,
-            "end": 989,
             "value": "\\udbff",
-            "raw": "'\\\\udbff'"
+            "raw": "'\\\\udbff'",
+            "start": 980,
+            "end": 989
           },
           {
             "type": "Literal",
-            "start": 991,
-            "end": 1036,
             "value": "High surrogate \\uDBFF is correctly escaped",
-            "raw": "'High surrogate \\\\uDBFF is correctly escaped'"
+            "raw": "'High surrogate \\\\uDBFF is correctly escaped'",
+            "start": 991,
+            "end": 1036
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 938,
+        "end": 1037
+      },
+      "start": 938,
+      "end": 1038
     },
     {
       "type": "ExpressionStatement",
-      "start": 1039,
-      "end": 1138,
       "expression": {
         "type": "CallExpression",
-        "start": 1039,
-        "end": 1137,
         "callee": {
           "type": "MemberExpression",
-          "start": 1039,
-          "end": 1055,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 1039,
-            "end": 1045,
-            "name": "assert"
+            "end": 1045
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 1046,
-            "end": 1055,
-            "name": "sameValue"
+            "end": 1055
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 1039,
+          "end": 1055
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 1056,
-            "end": 1079,
             "callee": {
               "type": "MemberExpression",
-              "start": 1056,
-              "end": 1069,
               "object": {
                 "type": "Identifier",
+                "name": "RegExp",
                 "start": 1056,
-                "end": 1062,
-                "name": "RegExp"
+                "end": 1062
               },
               "property": {
                 "type": "Identifier",
+                "name": "escape",
                 "start": 1063,
-                "end": 1069,
-                "name": "escape"
+                "end": 1069
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 1056,
+              "end": 1069
             },
             "arguments": [
               {
                 "type": "Literal",
-                "start": 1070,
-                "end": 1078,
                 "value": "\udc00",
-                "raw": "'\\uDC00'"
+                "raw": "'\\uDC00'",
+                "start": 1070,
+                "end": 1078
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 1056,
+            "end": 1079
           },
           {
             "type": "Literal",
-            "start": 1081,
-            "end": 1090,
             "value": "\\udc00",
-            "raw": "'\\\\udc00'"
+            "raw": "'\\\\udc00'",
+            "start": 1081,
+            "end": 1090
           },
           {
             "type": "Literal",
-            "start": 1092,
-            "end": 1136,
             "value": "Low surrogate \\uDC00 is correctly escaped",
-            "raw": "'Low surrogate \\\\uDC00 is correctly escaped'"
+            "raw": "'Low surrogate \\\\uDC00 is correctly escaped'",
+            "start": 1092,
+            "end": 1136
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 1039,
+        "end": 1137
+      },
+      "start": 1039,
+      "end": 1138
     },
     {
       "type": "ExpressionStatement",
-      "start": 1139,
-      "end": 1238,
       "expression": {
         "type": "CallExpression",
-        "start": 1139,
-        "end": 1237,
         "callee": {
           "type": "MemberExpression",
-          "start": 1139,
-          "end": 1155,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 1139,
-            "end": 1145,
-            "name": "assert"
+            "end": 1145
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 1146,
-            "end": 1155,
-            "name": "sameValue"
+            "end": 1155
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 1139,
+          "end": 1155
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 1156,
-            "end": 1179,
             "callee": {
               "type": "MemberExpression",
-              "start": 1156,
-              "end": 1169,
               "object": {
                 "type": "Identifier",
+                "name": "RegExp",
                 "start": 1156,
-                "end": 1162,
-                "name": "RegExp"
+                "end": 1162
               },
               "property": {
                 "type": "Identifier",
+                "name": "escape",
                 "start": 1163,
-                "end": 1169,
-                "name": "escape"
+                "end": 1169
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 1156,
+              "end": 1169
             },
             "arguments": [
               {
                 "type": "Literal",
-                "start": 1170,
-                "end": 1178,
                 "value": "\udfff",
-                "raw": "'\\uDFFF'"
+                "raw": "'\\uDFFF'",
+                "start": 1170,
+                "end": 1178
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 1156,
+            "end": 1179
           },
           {
             "type": "Literal",
-            "start": 1181,
-            "end": 1190,
             "value": "\\udfff",
-            "raw": "'\\\\udfff'"
+            "raw": "'\\\\udfff'",
+            "start": 1181,
+            "end": 1190
           },
           {
             "type": "Literal",
-            "start": 1192,
-            "end": 1236,
             "value": "Low surrogate \\uDFFF is correctly escaped",
-            "raw": "'Low surrogate \\\\uDFFF is correctly escaped'"
+            "raw": "'Low surrogate \\\\uDFFF is correctly escaped'",
+            "start": 1192,
+            "end": 1236
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 1139,
+        "end": 1237
+      },
+      "start": 1139,
+      "end": 1238
     },
     {
       "type": "VariableDeclaration",
-      "start": 1262,
-      "end": 1390,
       "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 1268,
-          "end": 1389,
           "id": {
             "type": "Identifier",
+            "name": "highSurrogatesGroup1",
             "start": 1268,
-            "end": 1288,
-            "name": "highSurrogatesGroup1"
+            "end": 1288
           },
           "init": {
             "type": "Literal",
-            "start": 1291,
-            "end": 1389,
             "value": "\ud800\ud801\ud802\ud803\ud804\ud805\ud806\ud807\ud808\ud809\ud80a\ud80b\ud80c\ud80d\ud80e\ud80f",
-            "raw": "'\\uD800\\uD801\\uD802\\uD803\\uD804\\uD805\\uD806\\uD807\\uD808\\uD809\\uD80A\\uD80B\\uD80C\\uD80D\\uD80E\\uD80F'"
-          }
+            "raw": "'\\uD800\\uD801\\uD802\\uD803\\uD804\\uD805\\uD806\\uD807\\uD808\\uD809\\uD80A\\uD80B\\uD80C\\uD80D\\uD80E\\uD80F'",
+            "start": 1291,
+            "end": 1389
+          },
+          "start": 1268,
+          "end": 1389
         }
-      ]
+      ],
+      "start": 1262,
+      "end": 1390
     },
     {
       "type": "VariableDeclaration",
-      "start": 1391,
-      "end": 1519,
       "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 1397,
-          "end": 1518,
           "id": {
             "type": "Identifier",
+            "name": "highSurrogatesGroup2",
             "start": 1397,
-            "end": 1417,
-            "name": "highSurrogatesGroup2"
+            "end": 1417
           },
           "init": {
             "type": "Literal",
-            "start": 1420,
-            "end": 1518,
             "value": "\ud810\ud811\ud812\ud813\ud814\ud815\ud816\ud817\ud818\ud819\ud81a\ud81b\ud81c\ud81d\ud81e\ud81f",
-            "raw": "'\\uD810\\uD811\\uD812\\uD813\\uD814\\uD815\\uD816\\uD817\\uD818\\uD819\\uD81A\\uD81B\\uD81C\\uD81D\\uD81E\\uD81F'"
-          }
+            "raw": "'\\uD810\\uD811\\uD812\\uD813\\uD814\\uD815\\uD816\\uD817\\uD818\\uD819\\uD81A\\uD81B\\uD81C\\uD81D\\uD81E\\uD81F'",
+            "start": 1420,
+            "end": 1518
+          },
+          "start": 1397,
+          "end": 1518
         }
-      ]
+      ],
+      "start": 1391,
+      "end": 1519
     },
     {
       "type": "VariableDeclaration",
-      "start": 1520,
-      "end": 1648,
       "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 1526,
-          "end": 1647,
           "id": {
             "type": "Identifier",
+            "name": "highSurrogatesGroup3",
             "start": 1526,
-            "end": 1546,
-            "name": "highSurrogatesGroup3"
+            "end": 1546
           },
           "init": {
             "type": "Literal",
-            "start": 1549,
-            "end": 1647,
             "value": "\ud820\ud821\ud822\ud823\ud824\ud825\ud826\ud827\ud828\ud829\ud82a\ud82b\ud82c\ud82d\ud82e\ud82f",
-            "raw": "'\\uD820\\uD821\\uD822\\uD823\\uD824\\uD825\\uD826\\uD827\\uD828\\uD829\\uD82A\\uD82B\\uD82C\\uD82D\\uD82E\\uD82F'"
-          }
+            "raw": "'\\uD820\\uD821\\uD822\\uD823\\uD824\\uD825\\uD826\\uD827\\uD828\\uD829\\uD82A\\uD82B\\uD82C\\uD82D\\uD82E\\uD82F'",
+            "start": 1549,
+            "end": 1647
+          },
+          "start": 1526,
+          "end": 1647
         }
-      ]
+      ],
+      "start": 1520,
+      "end": 1648
     },
     {
       "type": "VariableDeclaration",
-      "start": 1649,
-      "end": 1777,
       "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 1655,
-          "end": 1776,
           "id": {
             "type": "Identifier",
+            "name": "highSurrogatesGroup4",
             "start": 1655,
-            "end": 1675,
-            "name": "highSurrogatesGroup4"
+            "end": 1675
           },
           "init": {
             "type": "Literal",
-            "start": 1678,
-            "end": 1776,
             "value": "\ud830\ud831\ud832\ud833\ud834\ud835\ud836\ud837\ud838\ud839\ud83a\ud83b\ud83c\ud83d\ud83e\ud83f",
-            "raw": "'\\uD830\\uD831\\uD832\\uD833\\uD834\\uD835\\uD836\\uD837\\uD838\\uD839\\uD83A\\uD83B\\uD83C\\uD83D\\uD83E\\uD83F'"
-          }
+            "raw": "'\\uD830\\uD831\\uD832\\uD833\\uD834\\uD835\\uD836\\uD837\\uD838\\uD839\\uD83A\\uD83B\\uD83C\\uD83D\\uD83E\\uD83F'",
+            "start": 1678,
+            "end": 1776
+          },
+          "start": 1655,
+          "end": 1776
         }
-      ]
+      ],
+      "start": 1649,
+      "end": 1777
     },
     {
       "type": "VariableDeclaration",
-      "start": 1778,
-      "end": 1906,
       "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 1784,
-          "end": 1905,
           "id": {
             "type": "Identifier",
+            "name": "highSurrogatesGroup5",
             "start": 1784,
-            "end": 1804,
-            "name": "highSurrogatesGroup5"
+            "end": 1804
           },
           "init": {
             "type": "Literal",
-            "start": 1807,
-            "end": 1905,
             "value": "\ud840\ud841\ud842\ud843\ud844\ud845\ud846\ud847\ud848\ud849\ud84a\ud84b\ud84c\ud84d\ud84e\ud84f",
-            "raw": "'\\uD840\\uD841\\uD842\\uD843\\uD844\\uD845\\uD846\\uD847\\uD848\\uD849\\uD84A\\uD84B\\uD84C\\uD84D\\uD84E\\uD84F'"
-          }
+            "raw": "'\\uD840\\uD841\\uD842\\uD843\\uD844\\uD845\\uD846\\uD847\\uD848\\uD849\\uD84A\\uD84B\\uD84C\\uD84D\\uD84E\\uD84F'",
+            "start": 1807,
+            "end": 1905
+          },
+          "start": 1784,
+          "end": 1905
         }
-      ]
+      ],
+      "start": 1778,
+      "end": 1906
     },
     {
       "type": "VariableDeclaration",
-      "start": 1907,
-      "end": 2035,
       "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 1913,
-          "end": 2034,
           "id": {
             "type": "Identifier",
+            "name": "highSurrogatesGroup6",
             "start": 1913,
-            "end": 1933,
-            "name": "highSurrogatesGroup6"
+            "end": 1933
           },
           "init": {
             "type": "Literal",
-            "start": 1936,
-            "end": 2034,
             "value": "\ud850\ud851\ud852\ud853\ud854\ud855\ud856\ud857\ud858\ud859\ud85a\ud85b\ud85c\ud85d\ud85e\ud85f",
-            "raw": "'\\uD850\\uD851\\uD852\\uD853\\uD854\\uD855\\uD856\\uD857\\uD858\\uD859\\uD85A\\uD85B\\uD85C\\uD85D\\uD85E\\uD85F'"
-          }
+            "raw": "'\\uD850\\uD851\\uD852\\uD853\\uD854\\uD855\\uD856\\uD857\\uD858\\uD859\\uD85A\\uD85B\\uD85C\\uD85D\\uD85E\\uD85F'",
+            "start": 1936,
+            "end": 2034
+          },
+          "start": 1913,
+          "end": 2034
         }
-      ]
+      ],
+      "start": 1907,
+      "end": 2035
     },
     {
       "type": "VariableDeclaration",
-      "start": 2036,
-      "end": 2164,
       "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 2042,
-          "end": 2163,
           "id": {
             "type": "Identifier",
+            "name": "highSurrogatesGroup7",
             "start": 2042,
-            "end": 2062,
-            "name": "highSurrogatesGroup7"
+            "end": 2062
           },
           "init": {
             "type": "Literal",
-            "start": 2065,
-            "end": 2163,
             "value": "\ud860\ud861\ud862\ud863\ud864\ud865\ud866\ud867\ud868\ud869\ud86a\ud86b\ud86c\ud86d\ud86e\ud86f",
-            "raw": "'\\uD860\\uD861\\uD862\\uD863\\uD864\\uD865\\uD866\\uD867\\uD868\\uD869\\uD86A\\uD86B\\uD86C\\uD86D\\uD86E\\uD86F'"
-          }
+            "raw": "'\\uD860\\uD861\\uD862\\uD863\\uD864\\uD865\\uD866\\uD867\\uD868\\uD869\\uD86A\\uD86B\\uD86C\\uD86D\\uD86E\\uD86F'",
+            "start": 2065,
+            "end": 2163
+          },
+          "start": 2042,
+          "end": 2163
         }
-      ]
+      ],
+      "start": 2036,
+      "end": 2164
     },
     {
       "type": "VariableDeclaration",
-      "start": 2165,
-      "end": 2293,
       "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 2171,
-          "end": 2292,
           "id": {
             "type": "Identifier",
+            "name": "highSurrogatesGroup8",
             "start": 2171,
-            "end": 2191,
-            "name": "highSurrogatesGroup8"
+            "end": 2191
           },
           "init": {
             "type": "Literal",
-            "start": 2194,
-            "end": 2292,
             "value": "\ud870\ud871\ud872\ud873\ud874\ud875\ud876\ud877\ud878\ud879\ud87a\ud87b\ud87c\ud87d\ud87e\ud87f",
-            "raw": "'\\uD870\\uD871\\uD872\\uD873\\uD874\\uD875\\uD876\\uD877\\uD878\\uD879\\uD87A\\uD87B\\uD87C\\uD87D\\uD87E\\uD87F'"
-          }
+            "raw": "'\\uD870\\uD871\\uD872\\uD873\\uD874\\uD875\\uD876\\uD877\\uD878\\uD879\\uD87A\\uD87B\\uD87C\\uD87D\\uD87E\\uD87F'",
+            "start": 2194,
+            "end": 2292
+          },
+          "start": 2171,
+          "end": 2292
         }
-      ]
+      ],
+      "start": 2165,
+      "end": 2293
     },
     {
       "type": "VariableDeclaration",
-      "start": 2294,
-      "end": 2422,
       "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 2300,
-          "end": 2421,
           "id": {
             "type": "Identifier",
+            "name": "highSurrogatesGroup9",
             "start": 2300,
-            "end": 2320,
-            "name": "highSurrogatesGroup9"
+            "end": 2320
           },
           "init": {
             "type": "Literal",
-            "start": 2323,
-            "end": 2421,
             "value": "\ud880\ud881\ud882\ud883\ud884\ud885\ud886\ud887\ud888\ud889\ud88a\ud88b\ud88c\ud88d\ud88e\ud88f",
-            "raw": "'\\uD880\\uD881\\uD882\\uD883\\uD884\\uD885\\uD886\\uD887\\uD888\\uD889\\uD88A\\uD88B\\uD88C\\uD88D\\uD88E\\uD88F'"
-          }
+            "raw": "'\\uD880\\uD881\\uD882\\uD883\\uD884\\uD885\\uD886\\uD887\\uD888\\uD889\\uD88A\\uD88B\\uD88C\\uD88D\\uD88E\\uD88F'",
+            "start": 2323,
+            "end": 2421
+          },
+          "start": 2300,
+          "end": 2421
         }
-      ]
+      ],
+      "start": 2294,
+      "end": 2422
     },
     {
       "type": "VariableDeclaration",
-      "start": 2423,
-      "end": 2552,
       "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 2429,
-          "end": 2551,
           "id": {
             "type": "Identifier",
+            "name": "highSurrogatesGroup10",
             "start": 2429,
-            "end": 2450,
-            "name": "highSurrogatesGroup10"
+            "end": 2450
           },
           "init": {
             "type": "Literal",
-            "start": 2453,
-            "end": 2551,
             "value": "\ud890\ud891\ud892\ud893\ud894\ud895\ud896\ud897\ud898\ud899\ud89a\ud89b\ud89c\ud89d\ud89e\ud89f",
-            "raw": "'\\uD890\\uD891\\uD892\\uD893\\uD894\\uD895\\uD896\\uD897\\uD898\\uD899\\uD89A\\uD89B\\uD89C\\uD89D\\uD89E\\uD89F'"
-          }
+            "raw": "'\\uD890\\uD891\\uD892\\uD893\\uD894\\uD895\\uD896\\uD897\\uD898\\uD899\\uD89A\\uD89B\\uD89C\\uD89D\\uD89E\\uD89F'",
+            "start": 2453,
+            "end": 2551
+          },
+          "start": 2429,
+          "end": 2551
         }
-      ]
+      ],
+      "start": 2423,
+      "end": 2552
     },
     {
       "type": "VariableDeclaration",
-      "start": 2553,
-      "end": 2682,
       "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 2559,
-          "end": 2681,
           "id": {
             "type": "Identifier",
+            "name": "highSurrogatesGroup11",
             "start": 2559,
-            "end": 2580,
-            "name": "highSurrogatesGroup11"
+            "end": 2580
           },
           "init": {
             "type": "Literal",
-            "start": 2583,
-            "end": 2681,
             "value": "\ud8a0\ud8a1\ud8a2\ud8a3\ud8a4\ud8a5\ud8a6\ud8a7\ud8a8\ud8a9\ud8aa\ud8ab\ud8ac\ud8ad\ud8ae\ud8af",
-            "raw": "'\\uD8A0\\uD8A1\\uD8A2\\uD8A3\\uD8A4\\uD8A5\\uD8A6\\uD8A7\\uD8A8\\uD8A9\\uD8AA\\uD8AB\\uD8AC\\uD8AD\\uD8AE\\uD8AF'"
-          }
+            "raw": "'\\uD8A0\\uD8A1\\uD8A2\\uD8A3\\uD8A4\\uD8A5\\uD8A6\\uD8A7\\uD8A8\\uD8A9\\uD8AA\\uD8AB\\uD8AC\\uD8AD\\uD8AE\\uD8AF'",
+            "start": 2583,
+            "end": 2681
+          },
+          "start": 2559,
+          "end": 2681
         }
-      ]
+      ],
+      "start": 2553,
+      "end": 2682
     },
     {
       "type": "VariableDeclaration",
-      "start": 2683,
-      "end": 2812,
       "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 2689,
-          "end": 2811,
           "id": {
             "type": "Identifier",
+            "name": "highSurrogatesGroup12",
             "start": 2689,
-            "end": 2710,
-            "name": "highSurrogatesGroup12"
+            "end": 2710
           },
           "init": {
             "type": "Literal",
-            "start": 2713,
-            "end": 2811,
             "value": "\ud8b0\ud8b1\ud8b2\ud8b3\ud8b4\ud8b5\ud8b6\ud8b7\ud8b8\ud8b9\ud8ba\ud8bb\ud8bc\ud8bd\ud8be\ud8bf",
-            "raw": "'\\uD8B0\\uD8B1\\uD8B2\\uD8B3\\uD8B4\\uD8B5\\uD8B6\\uD8B7\\uD8B8\\uD8B9\\uD8BA\\uD8BB\\uD8BC\\uD8BD\\uD8BE\\uD8BF'"
-          }
+            "raw": "'\\uD8B0\\uD8B1\\uD8B2\\uD8B3\\uD8B4\\uD8B5\\uD8B6\\uD8B7\\uD8B8\\uD8B9\\uD8BA\\uD8BB\\uD8BC\\uD8BD\\uD8BE\\uD8BF'",
+            "start": 2713,
+            "end": 2811
+          },
+          "start": 2689,
+          "end": 2811
         }
-      ]
+      ],
+      "start": 2683,
+      "end": 2812
     },
     {
       "type": "VariableDeclaration",
-      "start": 2813,
-      "end": 2942,
       "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 2819,
-          "end": 2941,
           "id": {
             "type": "Identifier",
+            "name": "highSurrogatesGroup13",
             "start": 2819,
-            "end": 2840,
-            "name": "highSurrogatesGroup13"
+            "end": 2840
           },
           "init": {
             "type": "Literal",
-            "start": 2843,
-            "end": 2941,
             "value": "\ud8c0\ud8c1\ud8c2\ud8c3\ud8c4\ud8c5\ud8c6\ud8c7\ud8c8\ud8c9\ud8ca\ud8cb\ud8cc\ud8cd\ud8ce\ud8cf",
-            "raw": "'\\uD8C0\\uD8C1\\uD8C2\\uD8C3\\uD8C4\\uD8C5\\uD8C6\\uD8C7\\uD8C8\\uD8C9\\uD8CA\\uD8CB\\uD8CC\\uD8CD\\uD8CE\\uD8CF'"
-          }
+            "raw": "'\\uD8C0\\uD8C1\\uD8C2\\uD8C3\\uD8C4\\uD8C5\\uD8C6\\uD8C7\\uD8C8\\uD8C9\\uD8CA\\uD8CB\\uD8CC\\uD8CD\\uD8CE\\uD8CF'",
+            "start": 2843,
+            "end": 2941
+          },
+          "start": 2819,
+          "end": 2941
         }
-      ]
+      ],
+      "start": 2813,
+      "end": 2942
     },
     {
       "type": "VariableDeclaration",
-      "start": 2943,
-      "end": 3072,
       "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 2949,
-          "end": 3071,
           "id": {
             "type": "Identifier",
+            "name": "highSurrogatesGroup14",
             "start": 2949,
-            "end": 2970,
-            "name": "highSurrogatesGroup14"
+            "end": 2970
           },
           "init": {
             "type": "Literal",
-            "start": 2973,
-            "end": 3071,
             "value": "\ud8d0\ud8d1\ud8d2\ud8d3\ud8d4\ud8d5\ud8d6\ud8d7\ud8d8\ud8d9\ud8da\ud8db\ud8dc\ud8dd\ud8de\ud8df",
-            "raw": "'\\uD8D0\\uD8D1\\uD8D2\\uD8D3\\uD8D4\\uD8D5\\uD8D6\\uD8D7\\uD8D8\\uD8D9\\uD8DA\\uD8DB\\uD8DC\\uD8DD\\uD8DE\\uD8DF'"
-          }
+            "raw": "'\\uD8D0\\uD8D1\\uD8D2\\uD8D3\\uD8D4\\uD8D5\\uD8D6\\uD8D7\\uD8D8\\uD8D9\\uD8DA\\uD8DB\\uD8DC\\uD8DD\\uD8DE\\uD8DF'",
+            "start": 2973,
+            "end": 3071
+          },
+          "start": 2949,
+          "end": 3071
         }
-      ]
+      ],
+      "start": 2943,
+      "end": 3072
     },
     {
       "type": "VariableDeclaration",
-      "start": 3073,
-      "end": 3202,
       "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 3079,
-          "end": 3201,
           "id": {
             "type": "Identifier",
+            "name": "highSurrogatesGroup15",
             "start": 3079,
-            "end": 3100,
-            "name": "highSurrogatesGroup15"
+            "end": 3100
           },
           "init": {
             "type": "Literal",
-            "start": 3103,
-            "end": 3201,
             "value": "\ud8e0\ud8e1\ud8e2\ud8e3\ud8e4\ud8e5\ud8e6\ud8e7\ud8e8\ud8e9\ud8ea\ud8eb\ud8ec\ud8ed\ud8ee\ud8ef",
-            "raw": "'\\uD8E0\\uD8E1\\uD8E2\\uD8E3\\uD8E4\\uD8E5\\uD8E6\\uD8E7\\uD8E8\\uD8E9\\uD8EA\\uD8EB\\uD8EC\\uD8ED\\uD8EE\\uD8EF'"
-          }
+            "raw": "'\\uD8E0\\uD8E1\\uD8E2\\uD8E3\\uD8E4\\uD8E5\\uD8E6\\uD8E7\\uD8E8\\uD8E9\\uD8EA\\uD8EB\\uD8EC\\uD8ED\\uD8EE\\uD8EF'",
+            "start": 3103,
+            "end": 3201
+          },
+          "start": 3079,
+          "end": 3201
         }
-      ]
+      ],
+      "start": 3073,
+      "end": 3202
     },
     {
       "type": "VariableDeclaration",
-      "start": 3203,
-      "end": 3332,
       "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 3209,
-          "end": 3331,
           "id": {
             "type": "Identifier",
+            "name": "highSurrogatesGroup16",
             "start": 3209,
-            "end": 3230,
-            "name": "highSurrogatesGroup16"
+            "end": 3230
           },
           "init": {
             "type": "Literal",
-            "start": 3233,
-            "end": 3331,
             "value": "\ud8f0\ud8f1\ud8f2\ud8f3\ud8f4\ud8f5\ud8f6\ud8f7\ud8f8\ud8f9\ud8fa\ud8fb\ud8fc\ud8fd\ud8fe\ud8ff",
-            "raw": "'\\uD8F0\\uD8F1\\uD8F2\\uD8F3\\uD8F4\\uD8F5\\uD8F6\\uD8F7\\uD8F8\\uD8F9\\uD8FA\\uD8FB\\uD8FC\\uD8FD\\uD8FE\\uD8FF'"
-          }
+            "raw": "'\\uD8F0\\uD8F1\\uD8F2\\uD8F3\\uD8F4\\uD8F5\\uD8F6\\uD8F7\\uD8F8\\uD8F9\\uD8FA\\uD8FB\\uD8FC\\uD8FD\\uD8FE\\uD8FF'",
+            "start": 3233,
+            "end": 3331
+          },
+          "start": 3209,
+          "end": 3331
         }
-      ]
+      ],
+      "start": 3203,
+      "end": 3332
     },
     {
       "type": "ExpressionStatement",
-      "start": 3334,
-      "end": 3554,
       "expression": {
         "type": "CallExpression",
-        "start": 3334,
-        "end": 3553,
         "callee": {
           "type": "MemberExpression",
-          "start": 3334,
-          "end": 3350,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 3334,
-            "end": 3340,
-            "name": "assert"
+            "end": 3340
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 3341,
-            "end": 3350,
-            "name": "sameValue"
+            "end": 3350
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 3334,
+          "end": 3350
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 3351,
-            "end": 3386,
             "callee": {
               "type": "MemberExpression",
-              "start": 3351,
-              "end": 3364,
               "object": {
                 "type": "Identifier",
+                "name": "RegExp",
                 "start": 3351,
-                "end": 3357,
-                "name": "RegExp"
+                "end": 3357
               },
               "property": {
                 "type": "Identifier",
+                "name": "escape",
                 "start": 3358,
-                "end": 3364,
-                "name": "escape"
+                "end": 3364
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 3351,
+              "end": 3364
             },
             "arguments": [
               {
                 "type": "Identifier",
+                "name": "highSurrogatesGroup1",
                 "start": 3365,
-                "end": 3385,
-                "name": "highSurrogatesGroup1"
+                "end": 3385
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 3351,
+            "end": 3386
           },
           {
             "type": "Literal",
-            "start": 3389,
-            "end": 3503,
             "value": "\\ud800\\ud801\\ud802\\ud803\\ud804\\ud805\\ud806\\ud807\\ud808\\ud809\\ud80a\\ud80b\\ud80c\\ud80d\\ud80e\\ud80f",
-            "raw": "'\\\\ud800\\\\ud801\\\\ud802\\\\ud803\\\\ud804\\\\ud805\\\\ud806\\\\ud807\\\\ud808\\\\ud809\\\\ud80a\\\\ud80b\\\\ud80c\\\\ud80d\\\\ud80e\\\\ud80f'"
+            "raw": "'\\\\ud800\\\\ud801\\\\ud802\\\\ud803\\\\ud804\\\\ud805\\\\ud806\\\\ud807\\\\ud808\\\\ud809\\\\ud80a\\\\ud80b\\\\ud80c\\\\ud80d\\\\ud80e\\\\ud80f'",
+            "start": 3389,
+            "end": 3503
           },
           {
             "type": "Literal",
-            "start": 3505,
-            "end": 3552,
             "value": "High surrogates group 1 are correctly escaped",
-            "raw": "'High surrogates group 1 are correctly escaped'"
+            "raw": "'High surrogates group 1 are correctly escaped'",
+            "start": 3505,
+            "end": 3552
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 3334,
+        "end": 3553
+      },
+      "start": 3334,
+      "end": 3554
     },
     {
       "type": "ExpressionStatement",
-      "start": 3555,
-      "end": 3775,
       "expression": {
         "type": "CallExpression",
-        "start": 3555,
-        "end": 3774,
         "callee": {
           "type": "MemberExpression",
-          "start": 3555,
-          "end": 3571,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 3555,
-            "end": 3561,
-            "name": "assert"
+            "end": 3561
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 3562,
-            "end": 3571,
-            "name": "sameValue"
+            "end": 3571
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 3555,
+          "end": 3571
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 3572,
-            "end": 3607,
             "callee": {
               "type": "MemberExpression",
-              "start": 3572,
-              "end": 3585,
               "object": {
                 "type": "Identifier",
+                "name": "RegExp",
                 "start": 3572,
-                "end": 3578,
-                "name": "RegExp"
+                "end": 3578
               },
               "property": {
                 "type": "Identifier",
+                "name": "escape",
                 "start": 3579,
-                "end": 3585,
-                "name": "escape"
+                "end": 3585
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 3572,
+              "end": 3585
             },
             "arguments": [
               {
                 "type": "Identifier",
+                "name": "highSurrogatesGroup2",
                 "start": 3586,
-                "end": 3606,
-                "name": "highSurrogatesGroup2"
+                "end": 3606
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 3572,
+            "end": 3607
           },
           {
             "type": "Literal",
-            "start": 3610,
-            "end": 3724,
             "value": "\\ud810\\ud811\\ud812\\ud813\\ud814\\ud815\\ud816\\ud817\\ud818\\ud819\\ud81a\\ud81b\\ud81c\\ud81d\\ud81e\\ud81f",
-            "raw": "'\\\\ud810\\\\ud811\\\\ud812\\\\ud813\\\\ud814\\\\ud815\\\\ud816\\\\ud817\\\\ud818\\\\ud819\\\\ud81a\\\\ud81b\\\\ud81c\\\\ud81d\\\\ud81e\\\\ud81f'"
+            "raw": "'\\\\ud810\\\\ud811\\\\ud812\\\\ud813\\\\ud814\\\\ud815\\\\ud816\\\\ud817\\\\ud818\\\\ud819\\\\ud81a\\\\ud81b\\\\ud81c\\\\ud81d\\\\ud81e\\\\ud81f'",
+            "start": 3610,
+            "end": 3724
           },
           {
             "type": "Literal",
-            "start": 3726,
-            "end": 3773,
             "value": "High surrogates group 2 are correctly escaped",
-            "raw": "'High surrogates group 2 are correctly escaped'"
+            "raw": "'High surrogates group 2 are correctly escaped'",
+            "start": 3726,
+            "end": 3773
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 3555,
+        "end": 3774
+      },
+      "start": 3555,
+      "end": 3775
     },
     {
       "type": "ExpressionStatement",
-      "start": 3776,
-      "end": 3996,
       "expression": {
         "type": "CallExpression",
-        "start": 3776,
-        "end": 3995,
         "callee": {
           "type": "MemberExpression",
-          "start": 3776,
-          "end": 3792,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 3776,
-            "end": 3782,
-            "name": "assert"
+            "end": 3782
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 3783,
-            "end": 3792,
-            "name": "sameValue"
+            "end": 3792
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 3776,
+          "end": 3792
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 3793,
-            "end": 3828,
             "callee": {
               "type": "MemberExpression",
-              "start": 3793,
-              "end": 3806,
               "object": {
                 "type": "Identifier",
+                "name": "RegExp",
                 "start": 3793,
-                "end": 3799,
-                "name": "RegExp"
+                "end": 3799
               },
               "property": {
                 "type": "Identifier",
+                "name": "escape",
                 "start": 3800,
-                "end": 3806,
-                "name": "escape"
+                "end": 3806
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 3793,
+              "end": 3806
             },
             "arguments": [
               {
                 "type": "Identifier",
+                "name": "highSurrogatesGroup3",
                 "start": 3807,
-                "end": 3827,
-                "name": "highSurrogatesGroup3"
+                "end": 3827
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 3793,
+            "end": 3828
           },
           {
             "type": "Literal",
-            "start": 3831,
-            "end": 3945,
             "value": "\\ud820\\ud821\\ud822\\ud823\\ud824\\ud825\\ud826\\ud827\\ud828\\ud829\\ud82a\\ud82b\\ud82c\\ud82d\\ud82e\\ud82f",
-            "raw": "'\\\\ud820\\\\ud821\\\\ud822\\\\ud823\\\\ud824\\\\ud825\\\\ud826\\\\ud827\\\\ud828\\\\ud829\\\\ud82a\\\\ud82b\\\\ud82c\\\\ud82d\\\\ud82e\\\\ud82f'"
+            "raw": "'\\\\ud820\\\\ud821\\\\ud822\\\\ud823\\\\ud824\\\\ud825\\\\ud826\\\\ud827\\\\ud828\\\\ud829\\\\ud82a\\\\ud82b\\\\ud82c\\\\ud82d\\\\ud82e\\\\ud82f'",
+            "start": 3831,
+            "end": 3945
           },
           {
             "type": "Literal",
-            "start": 3947,
-            "end": 3994,
             "value": "High surrogates group 3 are correctly escaped",
-            "raw": "'High surrogates group 3 are correctly escaped'"
+            "raw": "'High surrogates group 3 are correctly escaped'",
+            "start": 3947,
+            "end": 3994
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 3776,
+        "end": 3995
+      },
+      "start": 3776,
+      "end": 3996
     },
     {
       "type": "ExpressionStatement",
-      "start": 3997,
-      "end": 4217,
       "expression": {
         "type": "CallExpression",
-        "start": 3997,
-        "end": 4216,
         "callee": {
           "type": "MemberExpression",
-          "start": 3997,
-          "end": 4013,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 3997,
-            "end": 4003,
-            "name": "assert"
+            "end": 4003
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 4004,
-            "end": 4013,
-            "name": "sameValue"
+            "end": 4013
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 3997,
+          "end": 4013
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 4014,
-            "end": 4049,
             "callee": {
               "type": "MemberExpression",
-              "start": 4014,
-              "end": 4027,
               "object": {
                 "type": "Identifier",
+                "name": "RegExp",
                 "start": 4014,
-                "end": 4020,
-                "name": "RegExp"
+                "end": 4020
               },
               "property": {
                 "type": "Identifier",
+                "name": "escape",
                 "start": 4021,
-                "end": 4027,
-                "name": "escape"
+                "end": 4027
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 4014,
+              "end": 4027
             },
             "arguments": [
               {
                 "type": "Identifier",
+                "name": "highSurrogatesGroup4",
                 "start": 4028,
-                "end": 4048,
-                "name": "highSurrogatesGroup4"
+                "end": 4048
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 4014,
+            "end": 4049
           },
           {
             "type": "Literal",
-            "start": 4052,
-            "end": 4166,
             "value": "\\ud830\\ud831\\ud832\\ud833\\ud834\\ud835\\ud836\\ud837\\ud838\\ud839\\ud83a\\ud83b\\ud83c\\ud83d\\ud83e\\ud83f",
-            "raw": "'\\\\ud830\\\\ud831\\\\ud832\\\\ud833\\\\ud834\\\\ud835\\\\ud836\\\\ud837\\\\ud838\\\\ud839\\\\ud83a\\\\ud83b\\\\ud83c\\\\ud83d\\\\ud83e\\\\ud83f'"
+            "raw": "'\\\\ud830\\\\ud831\\\\ud832\\\\ud833\\\\ud834\\\\ud835\\\\ud836\\\\ud837\\\\ud838\\\\ud839\\\\ud83a\\\\ud83b\\\\ud83c\\\\ud83d\\\\ud83e\\\\ud83f'",
+            "start": 4052,
+            "end": 4166
           },
           {
             "type": "Literal",
-            "start": 4168,
-            "end": 4215,
             "value": "High surrogates group 4 are correctly escaped",
-            "raw": "'High surrogates group 4 are correctly escaped'"
+            "raw": "'High surrogates group 4 are correctly escaped'",
+            "start": 4168,
+            "end": 4215
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 3997,
+        "end": 4216
+      },
+      "start": 3997,
+      "end": 4217
     },
     {
       "type": "ExpressionStatement",
-      "start": 4218,
-      "end": 4438,
       "expression": {
         "type": "CallExpression",
-        "start": 4218,
-        "end": 4437,
         "callee": {
           "type": "MemberExpression",
-          "start": 4218,
-          "end": 4234,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 4218,
-            "end": 4224,
-            "name": "assert"
+            "end": 4224
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 4225,
-            "end": 4234,
-            "name": "sameValue"
+            "end": 4234
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 4218,
+          "end": 4234
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 4235,
-            "end": 4270,
             "callee": {
               "type": "MemberExpression",
-              "start": 4235,
-              "end": 4248,
               "object": {
                 "type": "Identifier",
+                "name": "RegExp",
                 "start": 4235,
-                "end": 4241,
-                "name": "RegExp"
+                "end": 4241
               },
               "property": {
                 "type": "Identifier",
+                "name": "escape",
                 "start": 4242,
-                "end": 4248,
-                "name": "escape"
+                "end": 4248
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 4235,
+              "end": 4248
             },
             "arguments": [
               {
                 "type": "Identifier",
+                "name": "highSurrogatesGroup5",
                 "start": 4249,
-                "end": 4269,
-                "name": "highSurrogatesGroup5"
+                "end": 4269
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 4235,
+            "end": 4270
           },
           {
             "type": "Literal",
-            "start": 4273,
-            "end": 4387,
             "value": "\\ud840\\ud841\\ud842\\ud843\\ud844\\ud845\\ud846\\ud847\\ud848\\ud849\\ud84a\\ud84b\\ud84c\\ud84d\\ud84e\\ud84f",
-            "raw": "'\\\\ud840\\\\ud841\\\\ud842\\\\ud843\\\\ud844\\\\ud845\\\\ud846\\\\ud847\\\\ud848\\\\ud849\\\\ud84a\\\\ud84b\\\\ud84c\\\\ud84d\\\\ud84e\\\\ud84f'"
+            "raw": "'\\\\ud840\\\\ud841\\\\ud842\\\\ud843\\\\ud844\\\\ud845\\\\ud846\\\\ud847\\\\ud848\\\\ud849\\\\ud84a\\\\ud84b\\\\ud84c\\\\ud84d\\\\ud84e\\\\ud84f'",
+            "start": 4273,
+            "end": 4387
           },
           {
             "type": "Literal",
-            "start": 4389,
-            "end": 4436,
             "value": "High surrogates group 5 are correctly escaped",
-            "raw": "'High surrogates group 5 are correctly escaped'"
+            "raw": "'High surrogates group 5 are correctly escaped'",
+            "start": 4389,
+            "end": 4436
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 4218,
+        "end": 4437
+      },
+      "start": 4218,
+      "end": 4438
     },
     {
       "type": "ExpressionStatement",
-      "start": 4439,
-      "end": 4659,
       "expression": {
         "type": "CallExpression",
-        "start": 4439,
-        "end": 4658,
         "callee": {
           "type": "MemberExpression",
-          "start": 4439,
-          "end": 4455,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 4439,
-            "end": 4445,
-            "name": "assert"
+            "end": 4445
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 4446,
-            "end": 4455,
-            "name": "sameValue"
+            "end": 4455
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 4439,
+          "end": 4455
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 4456,
-            "end": 4491,
             "callee": {
               "type": "MemberExpression",
-              "start": 4456,
-              "end": 4469,
               "object": {
                 "type": "Identifier",
+                "name": "RegExp",
                 "start": 4456,
-                "end": 4462,
-                "name": "RegExp"
+                "end": 4462
               },
               "property": {
                 "type": "Identifier",
+                "name": "escape",
                 "start": 4463,
-                "end": 4469,
-                "name": "escape"
+                "end": 4469
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 4456,
+              "end": 4469
             },
             "arguments": [
               {
                 "type": "Identifier",
+                "name": "highSurrogatesGroup6",
                 "start": 4470,
-                "end": 4490,
-                "name": "highSurrogatesGroup6"
+                "end": 4490
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 4456,
+            "end": 4491
           },
           {
             "type": "Literal",
-            "start": 4494,
-            "end": 4608,
             "value": "\\ud850\\ud851\\ud852\\ud853\\ud854\\ud855\\ud856\\ud857\\ud858\\ud859\\ud85a\\ud85b\\ud85c\\ud85d\\ud85e\\ud85f",
-            "raw": "'\\\\ud850\\\\ud851\\\\ud852\\\\ud853\\\\ud854\\\\ud855\\\\ud856\\\\ud857\\\\ud858\\\\ud859\\\\ud85a\\\\ud85b\\\\ud85c\\\\ud85d\\\\ud85e\\\\ud85f'"
+            "raw": "'\\\\ud850\\\\ud851\\\\ud852\\\\ud853\\\\ud854\\\\ud855\\\\ud856\\\\ud857\\\\ud858\\\\ud859\\\\ud85a\\\\ud85b\\\\ud85c\\\\ud85d\\\\ud85e\\\\ud85f'",
+            "start": 4494,
+            "end": 4608
           },
           {
             "type": "Literal",
-            "start": 4610,
-            "end": 4657,
             "value": "High surrogates group 6 are correctly escaped",
-            "raw": "'High surrogates group 6 are correctly escaped'"
+            "raw": "'High surrogates group 6 are correctly escaped'",
+            "start": 4610,
+            "end": 4657
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 4439,
+        "end": 4658
+      },
+      "start": 4439,
+      "end": 4659
     },
     {
       "type": "ExpressionStatement",
-      "start": 4660,
-      "end": 4880,
       "expression": {
         "type": "CallExpression",
-        "start": 4660,
-        "end": 4879,
         "callee": {
           "type": "MemberExpression",
-          "start": 4660,
-          "end": 4676,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 4660,
-            "end": 4666,
-            "name": "assert"
+            "end": 4666
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 4667,
-            "end": 4676,
-            "name": "sameValue"
+            "end": 4676
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 4660,
+          "end": 4676
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 4677,
-            "end": 4712,
             "callee": {
               "type": "MemberExpression",
-              "start": 4677,
-              "end": 4690,
               "object": {
                 "type": "Identifier",
+                "name": "RegExp",
                 "start": 4677,
-                "end": 4683,
-                "name": "RegExp"
+                "end": 4683
               },
               "property": {
                 "type": "Identifier",
+                "name": "escape",
                 "start": 4684,
-                "end": 4690,
-                "name": "escape"
+                "end": 4690
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 4677,
+              "end": 4690
             },
             "arguments": [
               {
                 "type": "Identifier",
+                "name": "highSurrogatesGroup7",
                 "start": 4691,
-                "end": 4711,
-                "name": "highSurrogatesGroup7"
+                "end": 4711
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 4677,
+            "end": 4712
           },
           {
             "type": "Literal",
-            "start": 4715,
-            "end": 4829,
             "value": "\\ud860\\ud861\\ud862\\ud863\\ud864\\ud865\\ud866\\ud867\\ud868\\ud869\\ud86a\\ud86b\\ud86c\\ud86d\\ud86e\\ud86f",
-            "raw": "'\\\\ud860\\\\ud861\\\\ud862\\\\ud863\\\\ud864\\\\ud865\\\\ud866\\\\ud867\\\\ud868\\\\ud869\\\\ud86a\\\\ud86b\\\\ud86c\\\\ud86d\\\\ud86e\\\\ud86f'"
+            "raw": "'\\\\ud860\\\\ud861\\\\ud862\\\\ud863\\\\ud864\\\\ud865\\\\ud866\\\\ud867\\\\ud868\\\\ud869\\\\ud86a\\\\ud86b\\\\ud86c\\\\ud86d\\\\ud86e\\\\ud86f'",
+            "start": 4715,
+            "end": 4829
           },
           {
             "type": "Literal",
-            "start": 4831,
-            "end": 4878,
             "value": "High surrogates group 7 are correctly escaped",
-            "raw": "'High surrogates group 7 are correctly escaped'"
+            "raw": "'High surrogates group 7 are correctly escaped'",
+            "start": 4831,
+            "end": 4878
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 4660,
+        "end": 4879
+      },
+      "start": 4660,
+      "end": 4880
     },
     {
       "type": "ExpressionStatement",
-      "start": 4881,
-      "end": 5101,
       "expression": {
         "type": "CallExpression",
-        "start": 4881,
-        "end": 5100,
         "callee": {
           "type": "MemberExpression",
-          "start": 4881,
-          "end": 4897,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 4881,
-            "end": 4887,
-            "name": "assert"
+            "end": 4887
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 4888,
-            "end": 4897,
-            "name": "sameValue"
+            "end": 4897
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 4881,
+          "end": 4897
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 4898,
-            "end": 4933,
             "callee": {
               "type": "MemberExpression",
-              "start": 4898,
-              "end": 4911,
               "object": {
                 "type": "Identifier",
+                "name": "RegExp",
                 "start": 4898,
-                "end": 4904,
-                "name": "RegExp"
+                "end": 4904
               },
               "property": {
                 "type": "Identifier",
+                "name": "escape",
                 "start": 4905,
-                "end": 4911,
-                "name": "escape"
+                "end": 4911
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 4898,
+              "end": 4911
             },
             "arguments": [
               {
                 "type": "Identifier",
+                "name": "highSurrogatesGroup8",
                 "start": 4912,
-                "end": 4932,
-                "name": "highSurrogatesGroup8"
+                "end": 4932
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 4898,
+            "end": 4933
           },
           {
             "type": "Literal",
-            "start": 4936,
-            "end": 5050,
             "value": "\\ud870\\ud871\\ud872\\ud873\\ud874\\ud875\\ud876\\ud877\\ud878\\ud879\\ud87a\\ud87b\\ud87c\\ud87d\\ud87e\\ud87f",
-            "raw": "'\\\\ud870\\\\ud871\\\\ud872\\\\ud873\\\\ud874\\\\ud875\\\\ud876\\\\ud877\\\\ud878\\\\ud879\\\\ud87a\\\\ud87b\\\\ud87c\\\\ud87d\\\\ud87e\\\\ud87f'"
+            "raw": "'\\\\ud870\\\\ud871\\\\ud872\\\\ud873\\\\ud874\\\\ud875\\\\ud876\\\\ud877\\\\ud878\\\\ud879\\\\ud87a\\\\ud87b\\\\ud87c\\\\ud87d\\\\ud87e\\\\ud87f'",
+            "start": 4936,
+            "end": 5050
           },
           {
             "type": "Literal",
-            "start": 5052,
-            "end": 5099,
             "value": "High surrogates group 8 are correctly escaped",
-            "raw": "'High surrogates group 8 are correctly escaped'"
+            "raw": "'High surrogates group 8 are correctly escaped'",
+            "start": 5052,
+            "end": 5099
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 4881,
+        "end": 5100
+      },
+      "start": 4881,
+      "end": 5101
     },
     {
       "type": "ExpressionStatement",
-      "start": 5102,
-      "end": 5322,
       "expression": {
         "type": "CallExpression",
-        "start": 5102,
-        "end": 5321,
         "callee": {
           "type": "MemberExpression",
-          "start": 5102,
-          "end": 5118,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 5102,
-            "end": 5108,
-            "name": "assert"
+            "end": 5108
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 5109,
-            "end": 5118,
-            "name": "sameValue"
+            "end": 5118
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 5102,
+          "end": 5118
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 5119,
-            "end": 5154,
             "callee": {
               "type": "MemberExpression",
-              "start": 5119,
-              "end": 5132,
               "object": {
                 "type": "Identifier",
+                "name": "RegExp",
                 "start": 5119,
-                "end": 5125,
-                "name": "RegExp"
+                "end": 5125
               },
               "property": {
                 "type": "Identifier",
+                "name": "escape",
                 "start": 5126,
-                "end": 5132,
-                "name": "escape"
+                "end": 5132
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 5119,
+              "end": 5132
             },
             "arguments": [
               {
                 "type": "Identifier",
+                "name": "highSurrogatesGroup9",
                 "start": 5133,
-                "end": 5153,
-                "name": "highSurrogatesGroup9"
+                "end": 5153
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 5119,
+            "end": 5154
           },
           {
             "type": "Literal",
-            "start": 5157,
-            "end": 5271,
             "value": "\\ud880\\ud881\\ud882\\ud883\\ud884\\ud885\\ud886\\ud887\\ud888\\ud889\\ud88a\\ud88b\\ud88c\\ud88d\\ud88e\\ud88f",
-            "raw": "'\\\\ud880\\\\ud881\\\\ud882\\\\ud883\\\\ud884\\\\ud885\\\\ud886\\\\ud887\\\\ud888\\\\ud889\\\\ud88a\\\\ud88b\\\\ud88c\\\\ud88d\\\\ud88e\\\\ud88f'"
+            "raw": "'\\\\ud880\\\\ud881\\\\ud882\\\\ud883\\\\ud884\\\\ud885\\\\ud886\\\\ud887\\\\ud888\\\\ud889\\\\ud88a\\\\ud88b\\\\ud88c\\\\ud88d\\\\ud88e\\\\ud88f'",
+            "start": 5157,
+            "end": 5271
           },
           {
             "type": "Literal",
-            "start": 5273,
-            "end": 5320,
             "value": "High surrogates group 9 are correctly escaped",
-            "raw": "'High surrogates group 9 are correctly escaped'"
+            "raw": "'High surrogates group 9 are correctly escaped'",
+            "start": 5273,
+            "end": 5320
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 5102,
+        "end": 5321
+      },
+      "start": 5102,
+      "end": 5322
     },
     {
       "type": "ExpressionStatement",
-      "start": 5323,
-      "end": 5544,
       "expression": {
         "type": "CallExpression",
-        "start": 5323,
-        "end": 5543,
         "callee": {
           "type": "MemberExpression",
-          "start": 5323,
-          "end": 5339,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 5323,
-            "end": 5329,
-            "name": "assert"
+            "end": 5329
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 5330,
-            "end": 5339,
-            "name": "sameValue"
+            "end": 5339
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 5323,
+          "end": 5339
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 5340,
-            "end": 5376,
             "callee": {
               "type": "MemberExpression",
-              "start": 5340,
-              "end": 5353,
               "object": {
                 "type": "Identifier",
+                "name": "RegExp",
                 "start": 5340,
-                "end": 5346,
-                "name": "RegExp"
+                "end": 5346
               },
               "property": {
                 "type": "Identifier",
+                "name": "escape",
                 "start": 5347,
-                "end": 5353,
-                "name": "escape"
+                "end": 5353
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 5340,
+              "end": 5353
             },
             "arguments": [
               {
                 "type": "Identifier",
+                "name": "highSurrogatesGroup10",
                 "start": 5354,
-                "end": 5375,
-                "name": "highSurrogatesGroup10"
+                "end": 5375
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 5340,
+            "end": 5376
           },
           {
             "type": "Literal",
-            "start": 5378,
-            "end": 5492,
             "value": "\\ud890\\ud891\\ud892\\ud893\\ud894\\ud895\\ud896\\ud897\\ud898\\ud899\\ud89a\\ud89b\\ud89c\\ud89d\\ud89e\\ud89f",
-            "raw": "'\\\\ud890\\\\ud891\\\\ud892\\\\ud893\\\\ud894\\\\ud895\\\\ud896\\\\ud897\\\\ud898\\\\ud899\\\\ud89a\\\\ud89b\\\\ud89c\\\\ud89d\\\\ud89e\\\\ud89f'"
+            "raw": "'\\\\ud890\\\\ud891\\\\ud892\\\\ud893\\\\ud894\\\\ud895\\\\ud896\\\\ud897\\\\ud898\\\\ud899\\\\ud89a\\\\ud89b\\\\ud89c\\\\ud89d\\\\ud89e\\\\ud89f'",
+            "start": 5378,
+            "end": 5492
           },
           {
             "type": "Literal",
-            "start": 5494,
-            "end": 5542,
             "value": "High surrogates group 10 are correctly escaped",
-            "raw": "'High surrogates group 10 are correctly escaped'"
+            "raw": "'High surrogates group 10 are correctly escaped'",
+            "start": 5494,
+            "end": 5542
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 5323,
+        "end": 5543
+      },
+      "start": 5323,
+      "end": 5544
     },
     {
       "type": "ExpressionStatement",
-      "start": 5545,
-      "end": 5766,
       "expression": {
         "type": "CallExpression",
-        "start": 5545,
-        "end": 5765,
         "callee": {
           "type": "MemberExpression",
-          "start": 5545,
-          "end": 5561,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 5545,
-            "end": 5551,
-            "name": "assert"
+            "end": 5551
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 5552,
-            "end": 5561,
-            "name": "sameValue"
+            "end": 5561
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 5545,
+          "end": 5561
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 5562,
-            "end": 5598,
             "callee": {
               "type": "MemberExpression",
-              "start": 5562,
-              "end": 5575,
               "object": {
                 "type": "Identifier",
+                "name": "RegExp",
                 "start": 5562,
-                "end": 5568,
-                "name": "RegExp"
+                "end": 5568
               },
               "property": {
                 "type": "Identifier",
+                "name": "escape",
                 "start": 5569,
-                "end": 5575,
-                "name": "escape"
+                "end": 5575
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 5562,
+              "end": 5575
             },
             "arguments": [
               {
                 "type": "Identifier",
+                "name": "highSurrogatesGroup11",
                 "start": 5576,
-                "end": 5597,
-                "name": "highSurrogatesGroup11"
+                "end": 5597
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 5562,
+            "end": 5598
           },
           {
             "type": "Literal",
-            "start": 5600,
-            "end": 5714,
             "value": "\\ud8a0\\ud8a1\\ud8a2\\ud8a3\\ud8a4\\ud8a5\\ud8a6\\ud8a7\\ud8a8\\ud8a9\\ud8aa\\ud8ab\\ud8ac\\ud8ad\\ud8ae\\ud8af",
-            "raw": "'\\\\ud8a0\\\\ud8a1\\\\ud8a2\\\\ud8a3\\\\ud8a4\\\\ud8a5\\\\ud8a6\\\\ud8a7\\\\ud8a8\\\\ud8a9\\\\ud8aa\\\\ud8ab\\\\ud8ac\\\\ud8ad\\\\ud8ae\\\\ud8af'"
+            "raw": "'\\\\ud8a0\\\\ud8a1\\\\ud8a2\\\\ud8a3\\\\ud8a4\\\\ud8a5\\\\ud8a6\\\\ud8a7\\\\ud8a8\\\\ud8a9\\\\ud8aa\\\\ud8ab\\\\ud8ac\\\\ud8ad\\\\ud8ae\\\\ud8af'",
+            "start": 5600,
+            "end": 5714
           },
           {
             "type": "Literal",
-            "start": 5716,
-            "end": 5764,
             "value": "High surrogates group 11 are correctly escaped",
-            "raw": "'High surrogates group 11 are correctly escaped'"
+            "raw": "'High surrogates group 11 are correctly escaped'",
+            "start": 5716,
+            "end": 5764
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 5545,
+        "end": 5765
+      },
+      "start": 5545,
+      "end": 5766
     },
     {
       "type": "ExpressionStatement",
-      "start": 5767,
-      "end": 5988,
       "expression": {
         "type": "CallExpression",
-        "start": 5767,
-        "end": 5987,
         "callee": {
           "type": "MemberExpression",
-          "start": 5767,
-          "end": 5783,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 5767,
-            "end": 5773,
-            "name": "assert"
+            "end": 5773
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 5774,
-            "end": 5783,
-            "name": "sameValue"
+            "end": 5783
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 5767,
+          "end": 5783
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 5784,
-            "end": 5820,
             "callee": {
               "type": "MemberExpression",
-              "start": 5784,
-              "end": 5797,
               "object": {
                 "type": "Identifier",
+                "name": "RegExp",
                 "start": 5784,
-                "end": 5790,
-                "name": "RegExp"
+                "end": 5790
               },
               "property": {
                 "type": "Identifier",
+                "name": "escape",
                 "start": 5791,
-                "end": 5797,
-                "name": "escape"
+                "end": 5797
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 5784,
+              "end": 5797
             },
             "arguments": [
               {
                 "type": "Identifier",
+                "name": "highSurrogatesGroup12",
                 "start": 5798,
-                "end": 5819,
-                "name": "highSurrogatesGroup12"
+                "end": 5819
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 5784,
+            "end": 5820
           },
           {
             "type": "Literal",
-            "start": 5822,
-            "end": 5936,
             "value": "\\ud8b0\\ud8b1\\ud8b2\\ud8b3\\ud8b4\\ud8b5\\ud8b6\\ud8b7\\ud8b8\\ud8b9\\ud8ba\\ud8bb\\ud8bc\\ud8bd\\ud8be\\ud8bf",
-            "raw": "'\\\\ud8b0\\\\ud8b1\\\\ud8b2\\\\ud8b3\\\\ud8b4\\\\ud8b5\\\\ud8b6\\\\ud8b7\\\\ud8b8\\\\ud8b9\\\\ud8ba\\\\ud8bb\\\\ud8bc\\\\ud8bd\\\\ud8be\\\\ud8bf'"
+            "raw": "'\\\\ud8b0\\\\ud8b1\\\\ud8b2\\\\ud8b3\\\\ud8b4\\\\ud8b5\\\\ud8b6\\\\ud8b7\\\\ud8b8\\\\ud8b9\\\\ud8ba\\\\ud8bb\\\\ud8bc\\\\ud8bd\\\\ud8be\\\\ud8bf'",
+            "start": 5822,
+            "end": 5936
           },
           {
             "type": "Literal",
-            "start": 5938,
-            "end": 5986,
             "value": "High surrogates group 12 are correctly escaped",
-            "raw": "'High surrogates group 12 are correctly escaped'"
+            "raw": "'High surrogates group 12 are correctly escaped'",
+            "start": 5938,
+            "end": 5986
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 5767,
+        "end": 5987
+      },
+      "start": 5767,
+      "end": 5988
     },
     {
       "type": "ExpressionStatement",
-      "start": 5989,
-      "end": 6210,
       "expression": {
         "type": "CallExpression",
-        "start": 5989,
-        "end": 6209,
         "callee": {
           "type": "MemberExpression",
-          "start": 5989,
-          "end": 6005,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 5989,
-            "end": 5995,
-            "name": "assert"
+            "end": 5995
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 5996,
-            "end": 6005,
-            "name": "sameValue"
+            "end": 6005
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 5989,
+          "end": 6005
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 6006,
-            "end": 6042,
             "callee": {
               "type": "MemberExpression",
-              "start": 6006,
-              "end": 6019,
               "object": {
                 "type": "Identifier",
+                "name": "RegExp",
                 "start": 6006,
-                "end": 6012,
-                "name": "RegExp"
+                "end": 6012
               },
               "property": {
                 "type": "Identifier",
+                "name": "escape",
                 "start": 6013,
-                "end": 6019,
-                "name": "escape"
+                "end": 6019
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 6006,
+              "end": 6019
             },
             "arguments": [
               {
                 "type": "Identifier",
+                "name": "highSurrogatesGroup13",
                 "start": 6020,
-                "end": 6041,
-                "name": "highSurrogatesGroup13"
+                "end": 6041
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 6006,
+            "end": 6042
           },
           {
             "type": "Literal",
-            "start": 6044,
-            "end": 6158,
             "value": "\\ud8c0\\ud8c1\\ud8c2\\ud8c3\\ud8c4\\ud8c5\\ud8c6\\ud8c7\\ud8c8\\ud8c9\\ud8ca\\ud8cb\\ud8cc\\ud8cd\\ud8ce\\ud8cf",
-            "raw": "'\\\\ud8c0\\\\ud8c1\\\\ud8c2\\\\ud8c3\\\\ud8c4\\\\ud8c5\\\\ud8c6\\\\ud8c7\\\\ud8c8\\\\ud8c9\\\\ud8ca\\\\ud8cb\\\\ud8cc\\\\ud8cd\\\\ud8ce\\\\ud8cf'"
+            "raw": "'\\\\ud8c0\\\\ud8c1\\\\ud8c2\\\\ud8c3\\\\ud8c4\\\\ud8c5\\\\ud8c6\\\\ud8c7\\\\ud8c8\\\\ud8c9\\\\ud8ca\\\\ud8cb\\\\ud8cc\\\\ud8cd\\\\ud8ce\\\\ud8cf'",
+            "start": 6044,
+            "end": 6158
           },
           {
             "type": "Literal",
-            "start": 6160,
-            "end": 6208,
             "value": "High surrogates group 13 are correctly escaped",
-            "raw": "'High surrogates group 13 are correctly escaped'"
+            "raw": "'High surrogates group 13 are correctly escaped'",
+            "start": 6160,
+            "end": 6208
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 5989,
+        "end": 6209
+      },
+      "start": 5989,
+      "end": 6210
     },
     {
       "type": "ExpressionStatement",
-      "start": 6211,
-      "end": 6432,
       "expression": {
         "type": "CallExpression",
-        "start": 6211,
-        "end": 6431,
         "callee": {
           "type": "MemberExpression",
-          "start": 6211,
-          "end": 6227,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 6211,
-            "end": 6217,
-            "name": "assert"
+            "end": 6217
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 6218,
-            "end": 6227,
-            "name": "sameValue"
+            "end": 6227
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 6211,
+          "end": 6227
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 6228,
-            "end": 6264,
             "callee": {
               "type": "MemberExpression",
-              "start": 6228,
-              "end": 6241,
               "object": {
                 "type": "Identifier",
+                "name": "RegExp",
                 "start": 6228,
-                "end": 6234,
-                "name": "RegExp"
+                "end": 6234
               },
               "property": {
                 "type": "Identifier",
+                "name": "escape",
                 "start": 6235,
-                "end": 6241,
-                "name": "escape"
+                "end": 6241
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 6228,
+              "end": 6241
             },
             "arguments": [
               {
                 "type": "Identifier",
+                "name": "highSurrogatesGroup14",
                 "start": 6242,
-                "end": 6263,
-                "name": "highSurrogatesGroup14"
+                "end": 6263
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 6228,
+            "end": 6264
           },
           {
             "type": "Literal",
-            "start": 6266,
-            "end": 6380,
             "value": "\\ud8d0\\ud8d1\\ud8d2\\ud8d3\\ud8d4\\ud8d5\\ud8d6\\ud8d7\\ud8d8\\ud8d9\\ud8da\\ud8db\\ud8dc\\ud8dd\\ud8de\\ud8df",
-            "raw": "'\\\\ud8d0\\\\ud8d1\\\\ud8d2\\\\ud8d3\\\\ud8d4\\\\ud8d5\\\\ud8d6\\\\ud8d7\\\\ud8d8\\\\ud8d9\\\\ud8da\\\\ud8db\\\\ud8dc\\\\ud8dd\\\\ud8de\\\\ud8df'"
+            "raw": "'\\\\ud8d0\\\\ud8d1\\\\ud8d2\\\\ud8d3\\\\ud8d4\\\\ud8d5\\\\ud8d6\\\\ud8d7\\\\ud8d8\\\\ud8d9\\\\ud8da\\\\ud8db\\\\ud8dc\\\\ud8dd\\\\ud8de\\\\ud8df'",
+            "start": 6266,
+            "end": 6380
           },
           {
             "type": "Literal",
-            "start": 6382,
-            "end": 6430,
             "value": "High surrogates group 14 are correctly escaped",
-            "raw": "'High surrogates group 14 are correctly escaped'"
+            "raw": "'High surrogates group 14 are correctly escaped'",
+            "start": 6382,
+            "end": 6430
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 6211,
+        "end": 6431
+      },
+      "start": 6211,
+      "end": 6432
     },
     {
       "type": "ExpressionStatement",
-      "start": 6433,
-      "end": 6654,
       "expression": {
         "type": "CallExpression",
-        "start": 6433,
-        "end": 6653,
         "callee": {
           "type": "MemberExpression",
-          "start": 6433,
-          "end": 6449,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 6433,
-            "end": 6439,
-            "name": "assert"
+            "end": 6439
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 6440,
-            "end": 6449,
-            "name": "sameValue"
+            "end": 6449
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 6433,
+          "end": 6449
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 6450,
-            "end": 6486,
             "callee": {
               "type": "MemberExpression",
-              "start": 6450,
-              "end": 6463,
               "object": {
                 "type": "Identifier",
+                "name": "RegExp",
                 "start": 6450,
-                "end": 6456,
-                "name": "RegExp"
+                "end": 6456
               },
               "property": {
                 "type": "Identifier",
+                "name": "escape",
                 "start": 6457,
-                "end": 6463,
-                "name": "escape"
+                "end": 6463
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 6450,
+              "end": 6463
             },
             "arguments": [
               {
                 "type": "Identifier",
+                "name": "highSurrogatesGroup15",
                 "start": 6464,
-                "end": 6485,
-                "name": "highSurrogatesGroup15"
+                "end": 6485
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 6450,
+            "end": 6486
           },
           {
             "type": "Literal",
-            "start": 6488,
-            "end": 6602,
             "value": "\\ud8e0\\ud8e1\\ud8e2\\ud8e3\\ud8e4\\ud8e5\\ud8e6\\ud8e7\\ud8e8\\ud8e9\\ud8ea\\ud8eb\\ud8ec\\ud8ed\\ud8ee\\ud8ef",
-            "raw": "'\\\\ud8e0\\\\ud8e1\\\\ud8e2\\\\ud8e3\\\\ud8e4\\\\ud8e5\\\\ud8e6\\\\ud8e7\\\\ud8e8\\\\ud8e9\\\\ud8ea\\\\ud8eb\\\\ud8ec\\\\ud8ed\\\\ud8ee\\\\ud8ef'"
+            "raw": "'\\\\ud8e0\\\\ud8e1\\\\ud8e2\\\\ud8e3\\\\ud8e4\\\\ud8e5\\\\ud8e6\\\\ud8e7\\\\ud8e8\\\\ud8e9\\\\ud8ea\\\\ud8eb\\\\ud8ec\\\\ud8ed\\\\ud8ee\\\\ud8ef'",
+            "start": 6488,
+            "end": 6602
           },
           {
             "type": "Literal",
-            "start": 6604,
-            "end": 6652,
             "value": "High surrogates group 15 are correctly escaped",
-            "raw": "'High surrogates group 15 are correctly escaped'"
+            "raw": "'High surrogates group 15 are correctly escaped'",
+            "start": 6604,
+            "end": 6652
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 6433,
+        "end": 6653
+      },
+      "start": 6433,
+      "end": 6654
     },
     {
       "type": "ExpressionStatement",
-      "start": 6655,
-      "end": 6876,
       "expression": {
         "type": "CallExpression",
-        "start": 6655,
-        "end": 6875,
         "callee": {
           "type": "MemberExpression",
-          "start": 6655,
-          "end": 6671,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 6655,
-            "end": 6661,
-            "name": "assert"
+            "end": 6661
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 6662,
-            "end": 6671,
-            "name": "sameValue"
+            "end": 6671
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 6655,
+          "end": 6671
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 6672,
-            "end": 6708,
             "callee": {
               "type": "MemberExpression",
-              "start": 6672,
-              "end": 6685,
               "object": {
                 "type": "Identifier",
+                "name": "RegExp",
                 "start": 6672,
-                "end": 6678,
-                "name": "RegExp"
+                "end": 6678
               },
               "property": {
                 "type": "Identifier",
+                "name": "escape",
                 "start": 6679,
-                "end": 6685,
-                "name": "escape"
+                "end": 6685
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 6672,
+              "end": 6685
             },
             "arguments": [
               {
                 "type": "Identifier",
+                "name": "highSurrogatesGroup16",
                 "start": 6686,
-                "end": 6707,
-                "name": "highSurrogatesGroup16"
+                "end": 6707
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 6672,
+            "end": 6708
           },
           {
             "type": "Literal",
-            "start": 6710,
-            "end": 6824,
             "value": "\\ud8f0\\ud8f1\\ud8f2\\ud8f3\\ud8f4\\ud8f5\\ud8f6\\ud8f7\\ud8f8\\ud8f9\\ud8fa\\ud8fb\\ud8fc\\ud8fd\\ud8fe\\ud8ff",
-            "raw": "'\\\\ud8f0\\\\ud8f1\\\\ud8f2\\\\ud8f3\\\\ud8f4\\\\ud8f5\\\\ud8f6\\\\ud8f7\\\\ud8f8\\\\ud8f9\\\\ud8fa\\\\ud8fb\\\\ud8fc\\\\ud8fd\\\\ud8fe\\\\ud8ff'"
+            "raw": "'\\\\ud8f0\\\\ud8f1\\\\ud8f2\\\\ud8f3\\\\ud8f4\\\\ud8f5\\\\ud8f6\\\\ud8f7\\\\ud8f8\\\\ud8f9\\\\ud8fa\\\\ud8fb\\\\ud8fc\\\\ud8fd\\\\ud8fe\\\\ud8ff'",
+            "start": 6710,
+            "end": 6824
           },
           {
             "type": "Literal",
-            "start": 6826,
-            "end": 6874,
             "value": "High surrogates group 16 are correctly escaped",
-            "raw": "'High surrogates group 16 are correctly escaped'"
+            "raw": "'High surrogates group 16 are correctly escaped'",
+            "start": 6826,
+            "end": 6874
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 6655,
+        "end": 6875
+      },
+      "start": 6655,
+      "end": 6876
     },
     {
       "type": "VariableDeclaration",
-      "start": 6901,
-      "end": 7028,
       "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 6907,
-          "end": 7027,
           "id": {
             "type": "Identifier",
+            "name": "lowSurrogatesGroup1",
             "start": 6907,
-            "end": 6926,
-            "name": "lowSurrogatesGroup1"
+            "end": 6926
           },
           "init": {
             "type": "Literal",
-            "start": 6929,
-            "end": 7027,
             "value": "\udc00\udc01\udc02\udc03\udc04\udc05\udc06\udc07\udc08\udc09\udc0a\udc0b\udc0c\udc0d\udc0e\udc0f",
-            "raw": "'\\uDC00\\uDC01\\uDC02\\uDC03\\uDC04\\uDC05\\uDC06\\uDC07\\uDC08\\uDC09\\uDC0A\\uDC0B\\uDC0C\\uDC0D\\uDC0E\\uDC0F'"
-          }
+            "raw": "'\\uDC00\\uDC01\\uDC02\\uDC03\\uDC04\\uDC05\\uDC06\\uDC07\\uDC08\\uDC09\\uDC0A\\uDC0B\\uDC0C\\uDC0D\\uDC0E\\uDC0F'",
+            "start": 6929,
+            "end": 7027
+          },
+          "start": 6907,
+          "end": 7027
         }
-      ]
+      ],
+      "start": 6901,
+      "end": 7028
     },
     {
       "type": "VariableDeclaration",
-      "start": 7029,
-      "end": 7156,
       "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 7035,
-          "end": 7155,
           "id": {
             "type": "Identifier",
+            "name": "lowSurrogatesGroup2",
             "start": 7035,
-            "end": 7054,
-            "name": "lowSurrogatesGroup2"
+            "end": 7054
           },
           "init": {
             "type": "Literal",
-            "start": 7057,
-            "end": 7155,
             "value": "\udc10\udc11\udc12\udc13\udc14\udc15\udc16\udc17\udc18\udc19\udc1a\udc1b\udc1c\udc1d\udc1e\udc1f",
-            "raw": "'\\uDC10\\uDC11\\uDC12\\uDC13\\uDC14\\uDC15\\uDC16\\uDC17\\uDC18\\uDC19\\uDC1A\\uDC1B\\uDC1C\\uDC1D\\uDC1E\\uDC1F'"
-          }
+            "raw": "'\\uDC10\\uDC11\\uDC12\\uDC13\\uDC14\\uDC15\\uDC16\\uDC17\\uDC18\\uDC19\\uDC1A\\uDC1B\\uDC1C\\uDC1D\\uDC1E\\uDC1F'",
+            "start": 7057,
+            "end": 7155
+          },
+          "start": 7035,
+          "end": 7155
         }
-      ]
+      ],
+      "start": 7029,
+      "end": 7156
     },
     {
       "type": "VariableDeclaration",
-      "start": 7157,
-      "end": 7284,
       "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 7163,
-          "end": 7283,
           "id": {
             "type": "Identifier",
+            "name": "lowSurrogatesGroup3",
             "start": 7163,
-            "end": 7182,
-            "name": "lowSurrogatesGroup3"
+            "end": 7182
           },
           "init": {
             "type": "Literal",
-            "start": 7185,
-            "end": 7283,
             "value": "\udc20\udc21\udc22\udc23\udc24\udc25\udc26\udc27\udc28\udc29\udc2a\udc2b\udc2c\udc2d\udc2e\udc2f",
-            "raw": "'\\uDC20\\uDC21\\uDC22\\uDC23\\uDC24\\uDC25\\uDC26\\uDC27\\uDC28\\uDC29\\uDC2A\\uDC2B\\uDC2C\\uDC2D\\uDC2E\\uDC2F'"
-          }
+            "raw": "'\\uDC20\\uDC21\\uDC22\\uDC23\\uDC24\\uDC25\\uDC26\\uDC27\\uDC28\\uDC29\\uDC2A\\uDC2B\\uDC2C\\uDC2D\\uDC2E\\uDC2F'",
+            "start": 7185,
+            "end": 7283
+          },
+          "start": 7163,
+          "end": 7283
         }
-      ]
+      ],
+      "start": 7157,
+      "end": 7284
     },
     {
       "type": "VariableDeclaration",
-      "start": 7285,
-      "end": 7412,
       "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 7291,
-          "end": 7411,
           "id": {
             "type": "Identifier",
+            "name": "lowSurrogatesGroup4",
             "start": 7291,
-            "end": 7310,
-            "name": "lowSurrogatesGroup4"
+            "end": 7310
           },
           "init": {
             "type": "Literal",
-            "start": 7313,
-            "end": 7411,
             "value": "\udc30\udc31\udc32\udc33\udc34\udc35\udc36\udc37\udc38\udc39\udc3a\udc3b\udc3c\udc3d\udc3e\udc3f",
-            "raw": "'\\uDC30\\uDC31\\uDC32\\uDC33\\uDC34\\uDC35\\uDC36\\uDC37\\uDC38\\uDC39\\uDC3A\\uDC3B\\uDC3C\\uDC3D\\uDC3E\\uDC3F'"
-          }
+            "raw": "'\\uDC30\\uDC31\\uDC32\\uDC33\\uDC34\\uDC35\\uDC36\\uDC37\\uDC38\\uDC39\\uDC3A\\uDC3B\\uDC3C\\uDC3D\\uDC3E\\uDC3F'",
+            "start": 7313,
+            "end": 7411
+          },
+          "start": 7291,
+          "end": 7411
         }
-      ]
+      ],
+      "start": 7285,
+      "end": 7412
     },
     {
       "type": "VariableDeclaration",
-      "start": 7413,
-      "end": 7540,
       "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 7419,
-          "end": 7539,
           "id": {
             "type": "Identifier",
+            "name": "lowSurrogatesGroup5",
             "start": 7419,
-            "end": 7438,
-            "name": "lowSurrogatesGroup5"
+            "end": 7438
           },
           "init": {
             "type": "Literal",
-            "start": 7441,
-            "end": 7539,
             "value": "\udc40\udc41\udc42\udc43\udc44\udc45\udc46\udc47\udc48\udc49\udc4a\udc4b\udc4c\udc4d\udc4e\udc4f",
-            "raw": "'\\uDC40\\uDC41\\uDC42\\uDC43\\uDC44\\uDC45\\uDC46\\uDC47\\uDC48\\uDC49\\uDC4A\\uDC4B\\uDC4C\\uDC4D\\uDC4E\\uDC4F'"
-          }
+            "raw": "'\\uDC40\\uDC41\\uDC42\\uDC43\\uDC44\\uDC45\\uDC46\\uDC47\\uDC48\\uDC49\\uDC4A\\uDC4B\\uDC4C\\uDC4D\\uDC4E\\uDC4F'",
+            "start": 7441,
+            "end": 7539
+          },
+          "start": 7419,
+          "end": 7539
         }
-      ]
+      ],
+      "start": 7413,
+      "end": 7540
     },
     {
       "type": "VariableDeclaration",
-      "start": 7541,
-      "end": 7668,
       "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 7547,
-          "end": 7667,
           "id": {
             "type": "Identifier",
+            "name": "lowSurrogatesGroup6",
             "start": 7547,
-            "end": 7566,
-            "name": "lowSurrogatesGroup6"
+            "end": 7566
           },
           "init": {
             "type": "Literal",
-            "start": 7569,
-            "end": 7667,
             "value": "\udc50\udc51\udc52\udc53\udc54\udc55\udc56\udc57\udc58\udc59\udc5a\udc5b\udc5c\udc5d\udc5e\udc5f",
-            "raw": "'\\uDC50\\uDC51\\uDC52\\uDC53\\uDC54\\uDC55\\uDC56\\uDC57\\uDC58\\uDC59\\uDC5A\\uDC5B\\uDC5C\\uDC5D\\uDC5E\\uDC5F'"
-          }
+            "raw": "'\\uDC50\\uDC51\\uDC52\\uDC53\\uDC54\\uDC55\\uDC56\\uDC57\\uDC58\\uDC59\\uDC5A\\uDC5B\\uDC5C\\uDC5D\\uDC5E\\uDC5F'",
+            "start": 7569,
+            "end": 7667
+          },
+          "start": 7547,
+          "end": 7667
         }
-      ]
+      ],
+      "start": 7541,
+      "end": 7668
     },
     {
       "type": "VariableDeclaration",
-      "start": 7669,
-      "end": 7796,
       "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 7675,
-          "end": 7795,
           "id": {
             "type": "Identifier",
+            "name": "lowSurrogatesGroup7",
             "start": 7675,
-            "end": 7694,
-            "name": "lowSurrogatesGroup7"
+            "end": 7694
           },
           "init": {
             "type": "Literal",
-            "start": 7697,
-            "end": 7795,
             "value": "\udc60\udc61\udc62\udc63\udc64\udc65\udc66\udc67\udc68\udc69\udc6a\udc6b\udc6c\udc6d\udc6e\udc6f",
-            "raw": "'\\uDC60\\uDC61\\uDC62\\uDC63\\uDC64\\uDC65\\uDC66\\uDC67\\uDC68\\uDC69\\uDC6A\\uDC6B\\uDC6C\\uDC6D\\uDC6E\\uDC6F'"
-          }
+            "raw": "'\\uDC60\\uDC61\\uDC62\\uDC63\\uDC64\\uDC65\\uDC66\\uDC67\\uDC68\\uDC69\\uDC6A\\uDC6B\\uDC6C\\uDC6D\\uDC6E\\uDC6F'",
+            "start": 7697,
+            "end": 7795
+          },
+          "start": 7675,
+          "end": 7795
         }
-      ]
+      ],
+      "start": 7669,
+      "end": 7796
     },
     {
       "type": "VariableDeclaration",
-      "start": 7797,
-      "end": 7924,
       "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 7803,
-          "end": 7923,
           "id": {
             "type": "Identifier",
+            "name": "lowSurrogatesGroup8",
             "start": 7803,
-            "end": 7822,
-            "name": "lowSurrogatesGroup8"
+            "end": 7822
           },
           "init": {
             "type": "Literal",
-            "start": 7825,
-            "end": 7923,
             "value": "\udc70\udc71\udc72\udc73\udc74\udc75\udc76\udc77\udc78\udc79\udc7a\udc7b\udc7c\udc7d\udc7e\udc7f",
-            "raw": "'\\uDC70\\uDC71\\uDC72\\uDC73\\uDC74\\uDC75\\uDC76\\uDC77\\uDC78\\uDC79\\uDC7A\\uDC7B\\uDC7C\\uDC7D\\uDC7E\\uDC7F'"
-          }
+            "raw": "'\\uDC70\\uDC71\\uDC72\\uDC73\\uDC74\\uDC75\\uDC76\\uDC77\\uDC78\\uDC79\\uDC7A\\uDC7B\\uDC7C\\uDC7D\\uDC7E\\uDC7F'",
+            "start": 7825,
+            "end": 7923
+          },
+          "start": 7803,
+          "end": 7923
         }
-      ]
+      ],
+      "start": 7797,
+      "end": 7924
     },
     {
       "type": "VariableDeclaration",
-      "start": 7925,
-      "end": 8052,
       "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 7931,
-          "end": 8051,
           "id": {
             "type": "Identifier",
+            "name": "lowSurrogatesGroup9",
             "start": 7931,
-            "end": 7950,
-            "name": "lowSurrogatesGroup9"
+            "end": 7950
           },
           "init": {
             "type": "Literal",
-            "start": 7953,
-            "end": 8051,
             "value": "\udc80\udc81\udc82\udc83\udc84\udc85\udc86\udc87\udc88\udc89\udc8a\udc8b\udc8c\udc8d\udc8e\udc8f",
-            "raw": "'\\uDC80\\uDC81\\uDC82\\uDC83\\uDC84\\uDC85\\uDC86\\uDC87\\uDC88\\uDC89\\uDC8A\\uDC8B\\uDC8C\\uDC8D\\uDC8E\\uDC8F'"
-          }
+            "raw": "'\\uDC80\\uDC81\\uDC82\\uDC83\\uDC84\\uDC85\\uDC86\\uDC87\\uDC88\\uDC89\\uDC8A\\uDC8B\\uDC8C\\uDC8D\\uDC8E\\uDC8F'",
+            "start": 7953,
+            "end": 8051
+          },
+          "start": 7931,
+          "end": 8051
         }
-      ]
+      ],
+      "start": 7925,
+      "end": 8052
     },
     {
       "type": "VariableDeclaration",
-      "start": 8053,
-      "end": 8181,
       "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 8059,
-          "end": 8180,
           "id": {
             "type": "Identifier",
+            "name": "lowSurrogatesGroup10",
             "start": 8059,
-            "end": 8079,
-            "name": "lowSurrogatesGroup10"
+            "end": 8079
           },
           "init": {
             "type": "Literal",
-            "start": 8082,
-            "end": 8180,
             "value": "\udc90\udc91\udc92\udc93\udc94\udc95\udc96\udc97\udc98\udc99\udc9a\udc9b\udc9c\udc9d\udc9e\udc9f",
-            "raw": "'\\uDC90\\uDC91\\uDC92\\uDC93\\uDC94\\uDC95\\uDC96\\uDC97\\uDC98\\uDC99\\uDC9A\\uDC9B\\uDC9C\\uDC9D\\uDC9E\\uDC9F'"
-          }
+            "raw": "'\\uDC90\\uDC91\\uDC92\\uDC93\\uDC94\\uDC95\\uDC96\\uDC97\\uDC98\\uDC99\\uDC9A\\uDC9B\\uDC9C\\uDC9D\\uDC9E\\uDC9F'",
+            "start": 8082,
+            "end": 8180
+          },
+          "start": 8059,
+          "end": 8180
         }
-      ]
+      ],
+      "start": 8053,
+      "end": 8181
     },
     {
       "type": "VariableDeclaration",
-      "start": 8182,
-      "end": 8310,
       "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 8188,
-          "end": 8309,
           "id": {
             "type": "Identifier",
+            "name": "lowSurrogatesGroup11",
             "start": 8188,
-            "end": 8208,
-            "name": "lowSurrogatesGroup11"
+            "end": 8208
           },
           "init": {
             "type": "Literal",
-            "start": 8211,
-            "end": 8309,
             "value": "\udca0\udca1\udca2\udca3\udca4\udca5\udca6\udca7\udca8\udca9\udcaa\udcab\udcac\udcad\udcae\udcaf",
-            "raw": "'\\uDCA0\\uDCA1\\uDCA2\\uDCA3\\uDCA4\\uDCA5\\uDCA6\\uDCA7\\uDCA8\\uDCA9\\uDCAA\\uDCAB\\uDCAC\\uDCAD\\uDCAE\\uDCAF'"
-          }
+            "raw": "'\\uDCA0\\uDCA1\\uDCA2\\uDCA3\\uDCA4\\uDCA5\\uDCA6\\uDCA7\\uDCA8\\uDCA9\\uDCAA\\uDCAB\\uDCAC\\uDCAD\\uDCAE\\uDCAF'",
+            "start": 8211,
+            "end": 8309
+          },
+          "start": 8188,
+          "end": 8309
         }
-      ]
+      ],
+      "start": 8182,
+      "end": 8310
     },
     {
       "type": "VariableDeclaration",
-      "start": 8311,
-      "end": 8439,
       "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 8317,
-          "end": 8438,
           "id": {
             "type": "Identifier",
+            "name": "lowSurrogatesGroup12",
             "start": 8317,
-            "end": 8337,
-            "name": "lowSurrogatesGroup12"
+            "end": 8337
           },
           "init": {
             "type": "Literal",
-            "start": 8340,
-            "end": 8438,
             "value": "\udcb0\udcb1\udcb2\udcb3\udcb4\udcb5\udcb6\udcb7\udcb8\udcb9\udcba\udcbb\udcbc\udcbd\udcbe\udcbf",
-            "raw": "'\\uDCB0\\uDCB1\\uDCB2\\uDCB3\\uDCB4\\uDCB5\\uDCB6\\uDCB7\\uDCB8\\uDCB9\\uDCBA\\uDCBB\\uDCBC\\uDCBD\\uDCBE\\uDCBF'"
-          }
+            "raw": "'\\uDCB0\\uDCB1\\uDCB2\\uDCB3\\uDCB4\\uDCB5\\uDCB6\\uDCB7\\uDCB8\\uDCB9\\uDCBA\\uDCBB\\uDCBC\\uDCBD\\uDCBE\\uDCBF'",
+            "start": 8340,
+            "end": 8438
+          },
+          "start": 8317,
+          "end": 8438
         }
-      ]
+      ],
+      "start": 8311,
+      "end": 8439
     },
     {
       "type": "VariableDeclaration",
-      "start": 8440,
-      "end": 8568,
       "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 8446,
-          "end": 8567,
           "id": {
             "type": "Identifier",
+            "name": "lowSurrogatesGroup13",
             "start": 8446,
-            "end": 8466,
-            "name": "lowSurrogatesGroup13"
+            "end": 8466
           },
           "init": {
             "type": "Literal",
-            "start": 8469,
-            "end": 8567,
             "value": "\udcc0\udcc1\udcc2\udcc3\udcc4\udcc5\udcc6\udcc7\udcc8\udcc9\udcca\udccb\udccc\udccd\udcce\udccf",
-            "raw": "'\\uDCC0\\uDCC1\\uDCC2\\uDCC3\\uDCC4\\uDCC5\\uDCC6\\uDCC7\\uDCC8\\uDCC9\\uDCCA\\uDCCB\\uDCCC\\uDCCD\\uDCCE\\uDCCF'"
-          }
+            "raw": "'\\uDCC0\\uDCC1\\uDCC2\\uDCC3\\uDCC4\\uDCC5\\uDCC6\\uDCC7\\uDCC8\\uDCC9\\uDCCA\\uDCCB\\uDCCC\\uDCCD\\uDCCE\\uDCCF'",
+            "start": 8469,
+            "end": 8567
+          },
+          "start": 8446,
+          "end": 8567
         }
-      ]
+      ],
+      "start": 8440,
+      "end": 8568
     },
     {
       "type": "VariableDeclaration",
-      "start": 8569,
-      "end": 8697,
       "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 8575,
-          "end": 8696,
           "id": {
             "type": "Identifier",
+            "name": "lowSurrogatesGroup14",
             "start": 8575,
-            "end": 8595,
-            "name": "lowSurrogatesGroup14"
+            "end": 8595
           },
           "init": {
             "type": "Literal",
-            "start": 8598,
-            "end": 8696,
             "value": "\udcd0\udcd1\udcd2\udcd3\udcd4\udcd5\udcd6\udcd7\udcd8\udcd9\udcda\udcdb\udcdc\udcdd\udcde\udcdf",
-            "raw": "'\\uDCD0\\uDCD1\\uDCD2\\uDCD3\\uDCD4\\uDCD5\\uDCD6\\uDCD7\\uDCD8\\uDCD9\\uDCDA\\uDCDB\\uDCDC\\uDCDD\\uDCDE\\uDCDF'"
-          }
+            "raw": "'\\uDCD0\\uDCD1\\uDCD2\\uDCD3\\uDCD4\\uDCD5\\uDCD6\\uDCD7\\uDCD8\\uDCD9\\uDCDA\\uDCDB\\uDCDC\\uDCDD\\uDCDE\\uDCDF'",
+            "start": 8598,
+            "end": 8696
+          },
+          "start": 8575,
+          "end": 8696
         }
-      ]
+      ],
+      "start": 8569,
+      "end": 8697
     },
     {
       "type": "VariableDeclaration",
-      "start": 8698,
-      "end": 8826,
       "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 8704,
-          "end": 8825,
           "id": {
             "type": "Identifier",
+            "name": "lowSurrogatesGroup15",
             "start": 8704,
-            "end": 8724,
-            "name": "lowSurrogatesGroup15"
+            "end": 8724
           },
           "init": {
             "type": "Literal",
-            "start": 8727,
-            "end": 8825,
             "value": "\udce0\udce1\udce2\udce3\udce4\udce5\udce6\udce7\udce8\udce9\udcea\udceb\udcec\udced\udcee\udcef",
-            "raw": "'\\uDCE0\\uDCE1\\uDCE2\\uDCE3\\uDCE4\\uDCE5\\uDCE6\\uDCE7\\uDCE8\\uDCE9\\uDCEA\\uDCEB\\uDCEC\\uDCED\\uDCEE\\uDCEF'"
-          }
+            "raw": "'\\uDCE0\\uDCE1\\uDCE2\\uDCE3\\uDCE4\\uDCE5\\uDCE6\\uDCE7\\uDCE8\\uDCE9\\uDCEA\\uDCEB\\uDCEC\\uDCED\\uDCEE\\uDCEF'",
+            "start": 8727,
+            "end": 8825
+          },
+          "start": 8704,
+          "end": 8825
         }
-      ]
+      ],
+      "start": 8698,
+      "end": 8826
     },
     {
       "type": "VariableDeclaration",
-      "start": 8827,
-      "end": 8955,
       "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 8833,
-          "end": 8954,
           "id": {
             "type": "Identifier",
+            "name": "lowSurrogatesGroup16",
             "start": 8833,
-            "end": 8853,
-            "name": "lowSurrogatesGroup16"
+            "end": 8853
           },
           "init": {
             "type": "Literal",
-            "start": 8856,
-            "end": 8954,
             "value": "\udcf0\udcf1\udcf2\udcf3\udcf4\udcf5\udcf6\udcf7\udcf8\udcf9\udcfa\udcfb\udcfc\udcfd\udcfe\udcff",
-            "raw": "'\\uDCF0\\uDCF1\\uDCF2\\uDCF3\\uDCF4\\uDCF5\\uDCF6\\uDCF7\\uDCF8\\uDCF9\\uDCFA\\uDCFB\\uDCFC\\uDCFD\\uDCFE\\uDCFF'"
-          }
+            "raw": "'\\uDCF0\\uDCF1\\uDCF2\\uDCF3\\uDCF4\\uDCF5\\uDCF6\\uDCF7\\uDCF8\\uDCF9\\uDCFA\\uDCFB\\uDCFC\\uDCFD\\uDCFE\\uDCFF'",
+            "start": 8856,
+            "end": 8954
+          },
+          "start": 8833,
+          "end": 8954
         }
-      ]
+      ],
+      "start": 8827,
+      "end": 8955
     },
     {
       "type": "ExpressionStatement",
-      "start": 8957,
-      "end": 9175,
       "expression": {
         "type": "CallExpression",
-        "start": 8957,
-        "end": 9174,
         "callee": {
           "type": "MemberExpression",
-          "start": 8957,
-          "end": 8973,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 8957,
-            "end": 8963,
-            "name": "assert"
+            "end": 8963
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 8964,
-            "end": 8973,
-            "name": "sameValue"
+            "end": 8973
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 8957,
+          "end": 8973
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 8974,
-            "end": 9008,
             "callee": {
               "type": "MemberExpression",
-              "start": 8974,
-              "end": 8987,
               "object": {
                 "type": "Identifier",
+                "name": "RegExp",
                 "start": 8974,
-                "end": 8980,
-                "name": "RegExp"
+                "end": 8980
               },
               "property": {
                 "type": "Identifier",
+                "name": "escape",
                 "start": 8981,
-                "end": 8987,
-                "name": "escape"
+                "end": 8987
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 8974,
+              "end": 8987
             },
             "arguments": [
               {
                 "type": "Identifier",
+                "name": "lowSurrogatesGroup1",
                 "start": 8988,
-                "end": 9007,
-                "name": "lowSurrogatesGroup1"
+                "end": 9007
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 8974,
+            "end": 9008
           },
           {
             "type": "Literal",
-            "start": 9011,
-            "end": 9125,
             "value": "\\udc00\\udc01\\udc02\\udc03\\udc04\\udc05\\udc06\\udc07\\udc08\\udc09\\udc0a\\udc0b\\udc0c\\udc0d\\udc0e\\udc0f",
-            "raw": "'\\\\udc00\\\\udc01\\\\udc02\\\\udc03\\\\udc04\\\\udc05\\\\udc06\\\\udc07\\\\udc08\\\\udc09\\\\udc0a\\\\udc0b\\\\udc0c\\\\udc0d\\\\udc0e\\\\udc0f'"
+            "raw": "'\\\\udc00\\\\udc01\\\\udc02\\\\udc03\\\\udc04\\\\udc05\\\\udc06\\\\udc07\\\\udc08\\\\udc09\\\\udc0a\\\\udc0b\\\\udc0c\\\\udc0d\\\\udc0e\\\\udc0f'",
+            "start": 9011,
+            "end": 9125
           },
           {
             "type": "Literal",
-            "start": 9127,
-            "end": 9173,
             "value": "Low surrogates group 1 are correctly escaped",
-            "raw": "'Low surrogates group 1 are correctly escaped'"
+            "raw": "'Low surrogates group 1 are correctly escaped'",
+            "start": 9127,
+            "end": 9173
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 8957,
+        "end": 9174
+      },
+      "start": 8957,
+      "end": 9175
     },
     {
       "type": "ExpressionStatement",
-      "start": 9176,
-      "end": 9394,
       "expression": {
         "type": "CallExpression",
-        "start": 9176,
-        "end": 9393,
         "callee": {
           "type": "MemberExpression",
-          "start": 9176,
-          "end": 9192,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 9176,
-            "end": 9182,
-            "name": "assert"
+            "end": 9182
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 9183,
-            "end": 9192,
-            "name": "sameValue"
+            "end": 9192
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 9176,
+          "end": 9192
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 9193,
-            "end": 9227,
             "callee": {
               "type": "MemberExpression",
-              "start": 9193,
-              "end": 9206,
               "object": {
                 "type": "Identifier",
+                "name": "RegExp",
                 "start": 9193,
-                "end": 9199,
-                "name": "RegExp"
+                "end": 9199
               },
               "property": {
                 "type": "Identifier",
+                "name": "escape",
                 "start": 9200,
-                "end": 9206,
-                "name": "escape"
+                "end": 9206
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 9193,
+              "end": 9206
             },
             "arguments": [
               {
                 "type": "Identifier",
+                "name": "lowSurrogatesGroup2",
                 "start": 9207,
-                "end": 9226,
-                "name": "lowSurrogatesGroup2"
+                "end": 9226
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 9193,
+            "end": 9227
           },
           {
             "type": "Literal",
-            "start": 9230,
-            "end": 9344,
             "value": "\\udc10\\udc11\\udc12\\udc13\\udc14\\udc15\\udc16\\udc17\\udc18\\udc19\\udc1a\\udc1b\\udc1c\\udc1d\\udc1e\\udc1f",
-            "raw": "'\\\\udc10\\\\udc11\\\\udc12\\\\udc13\\\\udc14\\\\udc15\\\\udc16\\\\udc17\\\\udc18\\\\udc19\\\\udc1a\\\\udc1b\\\\udc1c\\\\udc1d\\\\udc1e\\\\udc1f'"
+            "raw": "'\\\\udc10\\\\udc11\\\\udc12\\\\udc13\\\\udc14\\\\udc15\\\\udc16\\\\udc17\\\\udc18\\\\udc19\\\\udc1a\\\\udc1b\\\\udc1c\\\\udc1d\\\\udc1e\\\\udc1f'",
+            "start": 9230,
+            "end": 9344
           },
           {
             "type": "Literal",
-            "start": 9346,
-            "end": 9392,
             "value": "Low surrogates group 2 are correctly escaped",
-            "raw": "'Low surrogates group 2 are correctly escaped'"
+            "raw": "'Low surrogates group 2 are correctly escaped'",
+            "start": 9346,
+            "end": 9392
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 9176,
+        "end": 9393
+      },
+      "start": 9176,
+      "end": 9394
     },
     {
       "type": "ExpressionStatement",
-      "start": 9395,
-      "end": 9613,
       "expression": {
         "type": "CallExpression",
-        "start": 9395,
-        "end": 9612,
         "callee": {
           "type": "MemberExpression",
-          "start": 9395,
-          "end": 9411,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 9395,
-            "end": 9401,
-            "name": "assert"
+            "end": 9401
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 9402,
-            "end": 9411,
-            "name": "sameValue"
+            "end": 9411
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 9395,
+          "end": 9411
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 9412,
-            "end": 9446,
             "callee": {
               "type": "MemberExpression",
-              "start": 9412,
-              "end": 9425,
               "object": {
                 "type": "Identifier",
+                "name": "RegExp",
                 "start": 9412,
-                "end": 9418,
-                "name": "RegExp"
+                "end": 9418
               },
               "property": {
                 "type": "Identifier",
+                "name": "escape",
                 "start": 9419,
-                "end": 9425,
-                "name": "escape"
+                "end": 9425
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 9412,
+              "end": 9425
             },
             "arguments": [
               {
                 "type": "Identifier",
+                "name": "lowSurrogatesGroup3",
                 "start": 9426,
-                "end": 9445,
-                "name": "lowSurrogatesGroup3"
+                "end": 9445
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 9412,
+            "end": 9446
           },
           {
             "type": "Literal",
-            "start": 9449,
-            "end": 9563,
             "value": "\\udc20\\udc21\\udc22\\udc23\\udc24\\udc25\\udc26\\udc27\\udc28\\udc29\\udc2a\\udc2b\\udc2c\\udc2d\\udc2e\\udc2f",
-            "raw": "'\\\\udc20\\\\udc21\\\\udc22\\\\udc23\\\\udc24\\\\udc25\\\\udc26\\\\udc27\\\\udc28\\\\udc29\\\\udc2a\\\\udc2b\\\\udc2c\\\\udc2d\\\\udc2e\\\\udc2f'"
+            "raw": "'\\\\udc20\\\\udc21\\\\udc22\\\\udc23\\\\udc24\\\\udc25\\\\udc26\\\\udc27\\\\udc28\\\\udc29\\\\udc2a\\\\udc2b\\\\udc2c\\\\udc2d\\\\udc2e\\\\udc2f'",
+            "start": 9449,
+            "end": 9563
           },
           {
             "type": "Literal",
-            "start": 9565,
-            "end": 9611,
             "value": "Low surrogates group 3 are correctly escaped",
-            "raw": "'Low surrogates group 3 are correctly escaped'"
+            "raw": "'Low surrogates group 3 are correctly escaped'",
+            "start": 9565,
+            "end": 9611
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 9395,
+        "end": 9612
+      },
+      "start": 9395,
+      "end": 9613
     },
     {
       "type": "ExpressionStatement",
-      "start": 9614,
-      "end": 9832,
       "expression": {
         "type": "CallExpression",
-        "start": 9614,
-        "end": 9831,
         "callee": {
           "type": "MemberExpression",
-          "start": 9614,
-          "end": 9630,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 9614,
-            "end": 9620,
-            "name": "assert"
+            "end": 9620
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 9621,
-            "end": 9630,
-            "name": "sameValue"
+            "end": 9630
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 9614,
+          "end": 9630
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 9631,
-            "end": 9665,
             "callee": {
               "type": "MemberExpression",
-              "start": 9631,
-              "end": 9644,
               "object": {
                 "type": "Identifier",
+                "name": "RegExp",
                 "start": 9631,
-                "end": 9637,
-                "name": "RegExp"
+                "end": 9637
               },
               "property": {
                 "type": "Identifier",
+                "name": "escape",
                 "start": 9638,
-                "end": 9644,
-                "name": "escape"
+                "end": 9644
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 9631,
+              "end": 9644
             },
             "arguments": [
               {
                 "type": "Identifier",
+                "name": "lowSurrogatesGroup4",
                 "start": 9645,
-                "end": 9664,
-                "name": "lowSurrogatesGroup4"
+                "end": 9664
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 9631,
+            "end": 9665
           },
           {
             "type": "Literal",
-            "start": 9668,
-            "end": 9782,
             "value": "\\udc30\\udc31\\udc32\\udc33\\udc34\\udc35\\udc36\\udc37\\udc38\\udc39\\udc3a\\udc3b\\udc3c\\udc3d\\udc3e\\udc3f",
-            "raw": "'\\\\udc30\\\\udc31\\\\udc32\\\\udc33\\\\udc34\\\\udc35\\\\udc36\\\\udc37\\\\udc38\\\\udc39\\\\udc3a\\\\udc3b\\\\udc3c\\\\udc3d\\\\udc3e\\\\udc3f'"
+            "raw": "'\\\\udc30\\\\udc31\\\\udc32\\\\udc33\\\\udc34\\\\udc35\\\\udc36\\\\udc37\\\\udc38\\\\udc39\\\\udc3a\\\\udc3b\\\\udc3c\\\\udc3d\\\\udc3e\\\\udc3f'",
+            "start": 9668,
+            "end": 9782
           },
           {
             "type": "Literal",
-            "start": 9784,
-            "end": 9830,
             "value": "Low surrogates group 4 are correctly escaped",
-            "raw": "'Low surrogates group 4 are correctly escaped'"
+            "raw": "'Low surrogates group 4 are correctly escaped'",
+            "start": 9784,
+            "end": 9830
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 9614,
+        "end": 9831
+      },
+      "start": 9614,
+      "end": 9832
     },
     {
       "type": "ExpressionStatement",
-      "start": 9833,
-      "end": 10051,
       "expression": {
         "type": "CallExpression",
-        "start": 9833,
-        "end": 10050,
         "callee": {
           "type": "MemberExpression",
-          "start": 9833,
-          "end": 9849,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 9833,
-            "end": 9839,
-            "name": "assert"
+            "end": 9839
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 9840,
-            "end": 9849,
-            "name": "sameValue"
+            "end": 9849
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 9833,
+          "end": 9849
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 9850,
-            "end": 9884,
             "callee": {
               "type": "MemberExpression",
-              "start": 9850,
-              "end": 9863,
               "object": {
                 "type": "Identifier",
+                "name": "RegExp",
                 "start": 9850,
-                "end": 9856,
-                "name": "RegExp"
+                "end": 9856
               },
               "property": {
                 "type": "Identifier",
+                "name": "escape",
                 "start": 9857,
-                "end": 9863,
-                "name": "escape"
+                "end": 9863
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 9850,
+              "end": 9863
             },
             "arguments": [
               {
                 "type": "Identifier",
+                "name": "lowSurrogatesGroup5",
                 "start": 9864,
-                "end": 9883,
-                "name": "lowSurrogatesGroup5"
+                "end": 9883
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 9850,
+            "end": 9884
           },
           {
             "type": "Literal",
-            "start": 9887,
-            "end": 10001,
             "value": "\\udc40\\udc41\\udc42\\udc43\\udc44\\udc45\\udc46\\udc47\\udc48\\udc49\\udc4a\\udc4b\\udc4c\\udc4d\\udc4e\\udc4f",
-            "raw": "'\\\\udc40\\\\udc41\\\\udc42\\\\udc43\\\\udc44\\\\udc45\\\\udc46\\\\udc47\\\\udc48\\\\udc49\\\\udc4a\\\\udc4b\\\\udc4c\\\\udc4d\\\\udc4e\\\\udc4f'"
+            "raw": "'\\\\udc40\\\\udc41\\\\udc42\\\\udc43\\\\udc44\\\\udc45\\\\udc46\\\\udc47\\\\udc48\\\\udc49\\\\udc4a\\\\udc4b\\\\udc4c\\\\udc4d\\\\udc4e\\\\udc4f'",
+            "start": 9887,
+            "end": 10001
           },
           {
             "type": "Literal",
-            "start": 10003,
-            "end": 10049,
             "value": "Low surrogates group 5 are correctly escaped",
-            "raw": "'Low surrogates group 5 are correctly escaped'"
+            "raw": "'Low surrogates group 5 are correctly escaped'",
+            "start": 10003,
+            "end": 10049
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 9833,
+        "end": 10050
+      },
+      "start": 9833,
+      "end": 10051
     },
     {
       "type": "ExpressionStatement",
-      "start": 10052,
-      "end": 10270,
       "expression": {
         "type": "CallExpression",
-        "start": 10052,
-        "end": 10269,
         "callee": {
           "type": "MemberExpression",
-          "start": 10052,
-          "end": 10068,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 10052,
-            "end": 10058,
-            "name": "assert"
+            "end": 10058
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 10059,
-            "end": 10068,
-            "name": "sameValue"
+            "end": 10068
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 10052,
+          "end": 10068
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 10069,
-            "end": 10103,
             "callee": {
               "type": "MemberExpression",
-              "start": 10069,
-              "end": 10082,
               "object": {
                 "type": "Identifier",
+                "name": "RegExp",
                 "start": 10069,
-                "end": 10075,
-                "name": "RegExp"
+                "end": 10075
               },
               "property": {
                 "type": "Identifier",
+                "name": "escape",
                 "start": 10076,
-                "end": 10082,
-                "name": "escape"
+                "end": 10082
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 10069,
+              "end": 10082
             },
             "arguments": [
               {
                 "type": "Identifier",
+                "name": "lowSurrogatesGroup6",
                 "start": 10083,
-                "end": 10102,
-                "name": "lowSurrogatesGroup6"
+                "end": 10102
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 10069,
+            "end": 10103
           },
           {
             "type": "Literal",
-            "start": 10106,
-            "end": 10220,
             "value": "\\udc50\\udc51\\udc52\\udc53\\udc54\\udc55\\udc56\\udc57\\udc58\\udc59\\udc5a\\udc5b\\udc5c\\udc5d\\udc5e\\udc5f",
-            "raw": "'\\\\udc50\\\\udc51\\\\udc52\\\\udc53\\\\udc54\\\\udc55\\\\udc56\\\\udc57\\\\udc58\\\\udc59\\\\udc5a\\\\udc5b\\\\udc5c\\\\udc5d\\\\udc5e\\\\udc5f'"
+            "raw": "'\\\\udc50\\\\udc51\\\\udc52\\\\udc53\\\\udc54\\\\udc55\\\\udc56\\\\udc57\\\\udc58\\\\udc59\\\\udc5a\\\\udc5b\\\\udc5c\\\\udc5d\\\\udc5e\\\\udc5f'",
+            "start": 10106,
+            "end": 10220
           },
           {
             "type": "Literal",
-            "start": 10222,
-            "end": 10268,
             "value": "Low surrogates group 6 are correctly escaped",
-            "raw": "'Low surrogates group 6 are correctly escaped'"
+            "raw": "'Low surrogates group 6 are correctly escaped'",
+            "start": 10222,
+            "end": 10268
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 10052,
+        "end": 10269
+      },
+      "start": 10052,
+      "end": 10270
     },
     {
       "type": "ExpressionStatement",
-      "start": 10271,
-      "end": 10489,
       "expression": {
         "type": "CallExpression",
-        "start": 10271,
-        "end": 10488,
         "callee": {
           "type": "MemberExpression",
-          "start": 10271,
-          "end": 10287,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 10271,
-            "end": 10277,
-            "name": "assert"
+            "end": 10277
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 10278,
-            "end": 10287,
-            "name": "sameValue"
+            "end": 10287
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 10271,
+          "end": 10287
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 10288,
-            "end": 10322,
             "callee": {
               "type": "MemberExpression",
-              "start": 10288,
-              "end": 10301,
               "object": {
                 "type": "Identifier",
+                "name": "RegExp",
                 "start": 10288,
-                "end": 10294,
-                "name": "RegExp"
+                "end": 10294
               },
               "property": {
                 "type": "Identifier",
+                "name": "escape",
                 "start": 10295,
-                "end": 10301,
-                "name": "escape"
+                "end": 10301
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 10288,
+              "end": 10301
             },
             "arguments": [
               {
                 "type": "Identifier",
+                "name": "lowSurrogatesGroup7",
                 "start": 10302,
-                "end": 10321,
-                "name": "lowSurrogatesGroup7"
+                "end": 10321
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 10288,
+            "end": 10322
           },
           {
             "type": "Literal",
-            "start": 10325,
-            "end": 10439,
             "value": "\\udc60\\udc61\\udc62\\udc63\\udc64\\udc65\\udc66\\udc67\\udc68\\udc69\\udc6a\\udc6b\\udc6c\\udc6d\\udc6e\\udc6f",
-            "raw": "'\\\\udc60\\\\udc61\\\\udc62\\\\udc63\\\\udc64\\\\udc65\\\\udc66\\\\udc67\\\\udc68\\\\udc69\\\\udc6a\\\\udc6b\\\\udc6c\\\\udc6d\\\\udc6e\\\\udc6f'"
+            "raw": "'\\\\udc60\\\\udc61\\\\udc62\\\\udc63\\\\udc64\\\\udc65\\\\udc66\\\\udc67\\\\udc68\\\\udc69\\\\udc6a\\\\udc6b\\\\udc6c\\\\udc6d\\\\udc6e\\\\udc6f'",
+            "start": 10325,
+            "end": 10439
           },
           {
             "type": "Literal",
-            "start": 10441,
-            "end": 10487,
             "value": "Low surrogates group 7 are correctly escaped",
-            "raw": "'Low surrogates group 7 are correctly escaped'"
+            "raw": "'Low surrogates group 7 are correctly escaped'",
+            "start": 10441,
+            "end": 10487
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 10271,
+        "end": 10488
+      },
+      "start": 10271,
+      "end": 10489
     },
     {
       "type": "ExpressionStatement",
-      "start": 10490,
-      "end": 10708,
       "expression": {
         "type": "CallExpression",
-        "start": 10490,
-        "end": 10707,
         "callee": {
           "type": "MemberExpression",
-          "start": 10490,
-          "end": 10506,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 10490,
-            "end": 10496,
-            "name": "assert"
+            "end": 10496
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 10497,
-            "end": 10506,
-            "name": "sameValue"
+            "end": 10506
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 10490,
+          "end": 10506
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 10507,
-            "end": 10541,
             "callee": {
               "type": "MemberExpression",
-              "start": 10507,
-              "end": 10520,
               "object": {
                 "type": "Identifier",
+                "name": "RegExp",
                 "start": 10507,
-                "end": 10513,
-                "name": "RegExp"
+                "end": 10513
               },
               "property": {
                 "type": "Identifier",
+                "name": "escape",
                 "start": 10514,
-                "end": 10520,
-                "name": "escape"
+                "end": 10520
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 10507,
+              "end": 10520
             },
             "arguments": [
               {
                 "type": "Identifier",
+                "name": "lowSurrogatesGroup8",
                 "start": 10521,
-                "end": 10540,
-                "name": "lowSurrogatesGroup8"
+                "end": 10540
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 10507,
+            "end": 10541
           },
           {
             "type": "Literal",
-            "start": 10544,
-            "end": 10658,
             "value": "\\udc70\\udc71\\udc72\\udc73\\udc74\\udc75\\udc76\\udc77\\udc78\\udc79\\udc7a\\udc7b\\udc7c\\udc7d\\udc7e\\udc7f",
-            "raw": "'\\\\udc70\\\\udc71\\\\udc72\\\\udc73\\\\udc74\\\\udc75\\\\udc76\\\\udc77\\\\udc78\\\\udc79\\\\udc7a\\\\udc7b\\\\udc7c\\\\udc7d\\\\udc7e\\\\udc7f'"
+            "raw": "'\\\\udc70\\\\udc71\\\\udc72\\\\udc73\\\\udc74\\\\udc75\\\\udc76\\\\udc77\\\\udc78\\\\udc79\\\\udc7a\\\\udc7b\\\\udc7c\\\\udc7d\\\\udc7e\\\\udc7f'",
+            "start": 10544,
+            "end": 10658
           },
           {
             "type": "Literal",
-            "start": 10660,
-            "end": 10706,
             "value": "Low surrogates group 8 are correctly escaped",
-            "raw": "'Low surrogates group 8 are correctly escaped'"
+            "raw": "'Low surrogates group 8 are correctly escaped'",
+            "start": 10660,
+            "end": 10706
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 10490,
+        "end": 10707
+      },
+      "start": 10490,
+      "end": 10708
     },
     {
       "type": "ExpressionStatement",
-      "start": 10709,
-      "end": 10927,
       "expression": {
         "type": "CallExpression",
-        "start": 10709,
-        "end": 10926,
         "callee": {
           "type": "MemberExpression",
-          "start": 10709,
-          "end": 10725,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 10709,
-            "end": 10715,
-            "name": "assert"
+            "end": 10715
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 10716,
-            "end": 10725,
-            "name": "sameValue"
+            "end": 10725
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 10709,
+          "end": 10725
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 10726,
-            "end": 10760,
             "callee": {
               "type": "MemberExpression",
-              "start": 10726,
-              "end": 10739,
               "object": {
                 "type": "Identifier",
+                "name": "RegExp",
                 "start": 10726,
-                "end": 10732,
-                "name": "RegExp"
+                "end": 10732
               },
               "property": {
                 "type": "Identifier",
+                "name": "escape",
                 "start": 10733,
-                "end": 10739,
-                "name": "escape"
+                "end": 10739
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 10726,
+              "end": 10739
             },
             "arguments": [
               {
                 "type": "Identifier",
+                "name": "lowSurrogatesGroup9",
                 "start": 10740,
-                "end": 10759,
-                "name": "lowSurrogatesGroup9"
+                "end": 10759
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 10726,
+            "end": 10760
           },
           {
             "type": "Literal",
-            "start": 10763,
-            "end": 10877,
             "value": "\\udc80\\udc81\\udc82\\udc83\\udc84\\udc85\\udc86\\udc87\\udc88\\udc89\\udc8a\\udc8b\\udc8c\\udc8d\\udc8e\\udc8f",
-            "raw": "'\\\\udc80\\\\udc81\\\\udc82\\\\udc83\\\\udc84\\\\udc85\\\\udc86\\\\udc87\\\\udc88\\\\udc89\\\\udc8a\\\\udc8b\\\\udc8c\\\\udc8d\\\\udc8e\\\\udc8f'"
+            "raw": "'\\\\udc80\\\\udc81\\\\udc82\\\\udc83\\\\udc84\\\\udc85\\\\udc86\\\\udc87\\\\udc88\\\\udc89\\\\udc8a\\\\udc8b\\\\udc8c\\\\udc8d\\\\udc8e\\\\udc8f'",
+            "start": 10763,
+            "end": 10877
           },
           {
             "type": "Literal",
-            "start": 10879,
-            "end": 10925,
             "value": "Low surrogates group 9 are correctly escaped",
-            "raw": "'Low surrogates group 9 are correctly escaped'"
+            "raw": "'Low surrogates group 9 are correctly escaped'",
+            "start": 10879,
+            "end": 10925
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 10709,
+        "end": 10926
+      },
+      "start": 10709,
+      "end": 10927
     },
     {
       "type": "ExpressionStatement",
-      "start": 10928,
-      "end": 11147,
       "expression": {
         "type": "CallExpression",
-        "start": 10928,
-        "end": 11146,
         "callee": {
           "type": "MemberExpression",
-          "start": 10928,
-          "end": 10944,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 10928,
-            "end": 10934,
-            "name": "assert"
+            "end": 10934
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 10935,
-            "end": 10944,
-            "name": "sameValue"
+            "end": 10944
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 10928,
+          "end": 10944
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 10945,
-            "end": 10980,
             "callee": {
               "type": "MemberExpression",
-              "start": 10945,
-              "end": 10958,
               "object": {
                 "type": "Identifier",
+                "name": "RegExp",
                 "start": 10945,
-                "end": 10951,
-                "name": "RegExp"
+                "end": 10951
               },
               "property": {
                 "type": "Identifier",
+                "name": "escape",
                 "start": 10952,
-                "end": 10958,
-                "name": "escape"
+                "end": 10958
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 10945,
+              "end": 10958
             },
             "arguments": [
               {
                 "type": "Identifier",
+                "name": "lowSurrogatesGroup10",
                 "start": 10959,
-                "end": 10979,
-                "name": "lowSurrogatesGroup10"
+                "end": 10979
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 10945,
+            "end": 10980
           },
           {
             "type": "Literal",
-            "start": 10982,
-            "end": 11096,
             "value": "\\udc90\\udc91\\udc92\\udc93\\udc94\\udc95\\udc96\\udc97\\udc98\\udc99\\udc9a\\udc9b\\udc9c\\udc9d\\udc9e\\udc9f",
-            "raw": "'\\\\udc90\\\\udc91\\\\udc92\\\\udc93\\\\udc94\\\\udc95\\\\udc96\\\\udc97\\\\udc98\\\\udc99\\\\udc9a\\\\udc9b\\\\udc9c\\\\udc9d\\\\udc9e\\\\udc9f'"
+            "raw": "'\\\\udc90\\\\udc91\\\\udc92\\\\udc93\\\\udc94\\\\udc95\\\\udc96\\\\udc97\\\\udc98\\\\udc99\\\\udc9a\\\\udc9b\\\\udc9c\\\\udc9d\\\\udc9e\\\\udc9f'",
+            "start": 10982,
+            "end": 11096
           },
           {
             "type": "Literal",
-            "start": 11098,
-            "end": 11145,
             "value": "Low surrogates group 10 are correctly escaped",
-            "raw": "'Low surrogates group 10 are correctly escaped'"
+            "raw": "'Low surrogates group 10 are correctly escaped'",
+            "start": 11098,
+            "end": 11145
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 10928,
+        "end": 11146
+      },
+      "start": 10928,
+      "end": 11147
     },
     {
       "type": "ExpressionStatement",
-      "start": 11148,
-      "end": 11367,
       "expression": {
         "type": "CallExpression",
-        "start": 11148,
-        "end": 11366,
         "callee": {
           "type": "MemberExpression",
-          "start": 11148,
-          "end": 11164,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 11148,
-            "end": 11154,
-            "name": "assert"
+            "end": 11154
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 11155,
-            "end": 11164,
-            "name": "sameValue"
+            "end": 11164
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 11148,
+          "end": 11164
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 11165,
-            "end": 11200,
             "callee": {
               "type": "MemberExpression",
-              "start": 11165,
-              "end": 11178,
               "object": {
                 "type": "Identifier",
+                "name": "RegExp",
                 "start": 11165,
-                "end": 11171,
-                "name": "RegExp"
+                "end": 11171
               },
               "property": {
                 "type": "Identifier",
+                "name": "escape",
                 "start": 11172,
-                "end": 11178,
-                "name": "escape"
+                "end": 11178
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 11165,
+              "end": 11178
             },
             "arguments": [
               {
                 "type": "Identifier",
+                "name": "lowSurrogatesGroup11",
                 "start": 11179,
-                "end": 11199,
-                "name": "lowSurrogatesGroup11"
+                "end": 11199
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 11165,
+            "end": 11200
           },
           {
             "type": "Literal",
-            "start": 11202,
-            "end": 11316,
             "value": "\\udca0\\udca1\\udca2\\udca3\\udca4\\udca5\\udca6\\udca7\\udca8\\udca9\\udcaa\\udcab\\udcac\\udcad\\udcae\\udcaf",
-            "raw": "'\\\\udca0\\\\udca1\\\\udca2\\\\udca3\\\\udca4\\\\udca5\\\\udca6\\\\udca7\\\\udca8\\\\udca9\\\\udcaa\\\\udcab\\\\udcac\\\\udcad\\\\udcae\\\\udcaf'"
+            "raw": "'\\\\udca0\\\\udca1\\\\udca2\\\\udca3\\\\udca4\\\\udca5\\\\udca6\\\\udca7\\\\udca8\\\\udca9\\\\udcaa\\\\udcab\\\\udcac\\\\udcad\\\\udcae\\\\udcaf'",
+            "start": 11202,
+            "end": 11316
           },
           {
             "type": "Literal",
-            "start": 11318,
-            "end": 11365,
             "value": "Low surrogates group 11 are correctly escaped",
-            "raw": "'Low surrogates group 11 are correctly escaped'"
+            "raw": "'Low surrogates group 11 are correctly escaped'",
+            "start": 11318,
+            "end": 11365
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 11148,
+        "end": 11366
+      },
+      "start": 11148,
+      "end": 11367
     },
     {
       "type": "ExpressionStatement",
-      "start": 11368,
-      "end": 11587,
       "expression": {
         "type": "CallExpression",
-        "start": 11368,
-        "end": 11586,
         "callee": {
           "type": "MemberExpression",
-          "start": 11368,
-          "end": 11384,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 11368,
-            "end": 11374,
-            "name": "assert"
+            "end": 11374
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 11375,
-            "end": 11384,
-            "name": "sameValue"
+            "end": 11384
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 11368,
+          "end": 11384
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 11385,
-            "end": 11420,
             "callee": {
               "type": "MemberExpression",
-              "start": 11385,
-              "end": 11398,
               "object": {
                 "type": "Identifier",
+                "name": "RegExp",
                 "start": 11385,
-                "end": 11391,
-                "name": "RegExp"
+                "end": 11391
               },
               "property": {
                 "type": "Identifier",
+                "name": "escape",
                 "start": 11392,
-                "end": 11398,
-                "name": "escape"
+                "end": 11398
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 11385,
+              "end": 11398
             },
             "arguments": [
               {
                 "type": "Identifier",
+                "name": "lowSurrogatesGroup12",
                 "start": 11399,
-                "end": 11419,
-                "name": "lowSurrogatesGroup12"
+                "end": 11419
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 11385,
+            "end": 11420
           },
           {
             "type": "Literal",
-            "start": 11422,
-            "end": 11536,
             "value": "\\udcb0\\udcb1\\udcb2\\udcb3\\udcb4\\udcb5\\udcb6\\udcb7\\udcb8\\udcb9\\udcba\\udcbb\\udcbc\\udcbd\\udcbe\\udcbf",
-            "raw": "'\\\\udcb0\\\\udcb1\\\\udcb2\\\\udcb3\\\\udcb4\\\\udcb5\\\\udcb6\\\\udcb7\\\\udcb8\\\\udcb9\\\\udcba\\\\udcbb\\\\udcbc\\\\udcbd\\\\udcbe\\\\udcbf'"
+            "raw": "'\\\\udcb0\\\\udcb1\\\\udcb2\\\\udcb3\\\\udcb4\\\\udcb5\\\\udcb6\\\\udcb7\\\\udcb8\\\\udcb9\\\\udcba\\\\udcbb\\\\udcbc\\\\udcbd\\\\udcbe\\\\udcbf'",
+            "start": 11422,
+            "end": 11536
           },
           {
             "type": "Literal",
-            "start": 11538,
-            "end": 11585,
             "value": "Low surrogates group 12 are correctly escaped",
-            "raw": "'Low surrogates group 12 are correctly escaped'"
+            "raw": "'Low surrogates group 12 are correctly escaped'",
+            "start": 11538,
+            "end": 11585
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 11368,
+        "end": 11586
+      },
+      "start": 11368,
+      "end": 11587
     },
     {
       "type": "ExpressionStatement",
-      "start": 11588,
-      "end": 11807,
       "expression": {
         "type": "CallExpression",
-        "start": 11588,
-        "end": 11806,
         "callee": {
           "type": "MemberExpression",
-          "start": 11588,
-          "end": 11604,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 11588,
-            "end": 11594,
-            "name": "assert"
+            "end": 11594
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 11595,
-            "end": 11604,
-            "name": "sameValue"
+            "end": 11604
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 11588,
+          "end": 11604
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 11605,
-            "end": 11640,
             "callee": {
               "type": "MemberExpression",
-              "start": 11605,
-              "end": 11618,
               "object": {
                 "type": "Identifier",
+                "name": "RegExp",
                 "start": 11605,
-                "end": 11611,
-                "name": "RegExp"
+                "end": 11611
               },
               "property": {
                 "type": "Identifier",
+                "name": "escape",
                 "start": 11612,
-                "end": 11618,
-                "name": "escape"
+                "end": 11618
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 11605,
+              "end": 11618
             },
             "arguments": [
               {
                 "type": "Identifier",
+                "name": "lowSurrogatesGroup13",
                 "start": 11619,
-                "end": 11639,
-                "name": "lowSurrogatesGroup13"
+                "end": 11639
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 11605,
+            "end": 11640
           },
           {
             "type": "Literal",
-            "start": 11642,
-            "end": 11756,
             "value": "\\udcc0\\udcc1\\udcc2\\udcc3\\udcc4\\udcc5\\udcc6\\udcc7\\udcc8\\udcc9\\udcca\\udccb\\udccc\\udccd\\udcce\\udccf",
-            "raw": "'\\\\udcc0\\\\udcc1\\\\udcc2\\\\udcc3\\\\udcc4\\\\udcc5\\\\udcc6\\\\udcc7\\\\udcc8\\\\udcc9\\\\udcca\\\\udccb\\\\udccc\\\\udccd\\\\udcce\\\\udccf'"
+            "raw": "'\\\\udcc0\\\\udcc1\\\\udcc2\\\\udcc3\\\\udcc4\\\\udcc5\\\\udcc6\\\\udcc7\\\\udcc8\\\\udcc9\\\\udcca\\\\udccb\\\\udccc\\\\udccd\\\\udcce\\\\udccf'",
+            "start": 11642,
+            "end": 11756
           },
           {
             "type": "Literal",
-            "start": 11758,
-            "end": 11805,
             "value": "Low surrogates group 13 are correctly escaped",
-            "raw": "'Low surrogates group 13 are correctly escaped'"
+            "raw": "'Low surrogates group 13 are correctly escaped'",
+            "start": 11758,
+            "end": 11805
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 11588,
+        "end": 11806
+      },
+      "start": 11588,
+      "end": 11807
     },
     {
       "type": "ExpressionStatement",
-      "start": 11808,
-      "end": 12027,
       "expression": {
         "type": "CallExpression",
-        "start": 11808,
-        "end": 12026,
         "callee": {
           "type": "MemberExpression",
-          "start": 11808,
-          "end": 11824,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 11808,
-            "end": 11814,
-            "name": "assert"
+            "end": 11814
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 11815,
-            "end": 11824,
-            "name": "sameValue"
+            "end": 11824
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 11808,
+          "end": 11824
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 11825,
-            "end": 11860,
             "callee": {
               "type": "MemberExpression",
-              "start": 11825,
-              "end": 11838,
               "object": {
                 "type": "Identifier",
+                "name": "RegExp",
                 "start": 11825,
-                "end": 11831,
-                "name": "RegExp"
+                "end": 11831
               },
               "property": {
                 "type": "Identifier",
+                "name": "escape",
                 "start": 11832,
-                "end": 11838,
-                "name": "escape"
+                "end": 11838
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 11825,
+              "end": 11838
             },
             "arguments": [
               {
                 "type": "Identifier",
+                "name": "lowSurrogatesGroup14",
                 "start": 11839,
-                "end": 11859,
-                "name": "lowSurrogatesGroup14"
+                "end": 11859
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 11825,
+            "end": 11860
           },
           {
             "type": "Literal",
-            "start": 11862,
-            "end": 11976,
             "value": "\\udcd0\\udcd1\\udcd2\\udcd3\\udcd4\\udcd5\\udcd6\\udcd7\\udcd8\\udcd9\\udcda\\udcdb\\udcdc\\udcdd\\udcde\\udcdf",
-            "raw": "'\\\\udcd0\\\\udcd1\\\\udcd2\\\\udcd3\\\\udcd4\\\\udcd5\\\\udcd6\\\\udcd7\\\\udcd8\\\\udcd9\\\\udcda\\\\udcdb\\\\udcdc\\\\udcdd\\\\udcde\\\\udcdf'"
+            "raw": "'\\\\udcd0\\\\udcd1\\\\udcd2\\\\udcd3\\\\udcd4\\\\udcd5\\\\udcd6\\\\udcd7\\\\udcd8\\\\udcd9\\\\udcda\\\\udcdb\\\\udcdc\\\\udcdd\\\\udcde\\\\udcdf'",
+            "start": 11862,
+            "end": 11976
           },
           {
             "type": "Literal",
-            "start": 11978,
-            "end": 12025,
             "value": "Low surrogates group 14 are correctly escaped",
-            "raw": "'Low surrogates group 14 are correctly escaped'"
+            "raw": "'Low surrogates group 14 are correctly escaped'",
+            "start": 11978,
+            "end": 12025
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 11808,
+        "end": 12026
+      },
+      "start": 11808,
+      "end": 12027
     },
     {
       "type": "ExpressionStatement",
-      "start": 12028,
-      "end": 12247,
       "expression": {
         "type": "CallExpression",
-        "start": 12028,
-        "end": 12246,
         "callee": {
           "type": "MemberExpression",
-          "start": 12028,
-          "end": 12044,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 12028,
-            "end": 12034,
-            "name": "assert"
+            "end": 12034
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 12035,
-            "end": 12044,
-            "name": "sameValue"
+            "end": 12044
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 12028,
+          "end": 12044
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 12045,
-            "end": 12080,
             "callee": {
               "type": "MemberExpression",
-              "start": 12045,
-              "end": 12058,
               "object": {
                 "type": "Identifier",
+                "name": "RegExp",
                 "start": 12045,
-                "end": 12051,
-                "name": "RegExp"
+                "end": 12051
               },
               "property": {
                 "type": "Identifier",
+                "name": "escape",
                 "start": 12052,
-                "end": 12058,
-                "name": "escape"
+                "end": 12058
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 12045,
+              "end": 12058
             },
             "arguments": [
               {
                 "type": "Identifier",
+                "name": "lowSurrogatesGroup15",
                 "start": 12059,
-                "end": 12079,
-                "name": "lowSurrogatesGroup15"
+                "end": 12079
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 12045,
+            "end": 12080
           },
           {
             "type": "Literal",
-            "start": 12082,
-            "end": 12196,
             "value": "\\udce0\\udce1\\udce2\\udce3\\udce4\\udce5\\udce6\\udce7\\udce8\\udce9\\udcea\\udceb\\udcec\\udced\\udcee\\udcef",
-            "raw": "'\\\\udce0\\\\udce1\\\\udce2\\\\udce3\\\\udce4\\\\udce5\\\\udce6\\\\udce7\\\\udce8\\\\udce9\\\\udcea\\\\udceb\\\\udcec\\\\udced\\\\udcee\\\\udcef'"
+            "raw": "'\\\\udce0\\\\udce1\\\\udce2\\\\udce3\\\\udce4\\\\udce5\\\\udce6\\\\udce7\\\\udce8\\\\udce9\\\\udcea\\\\udceb\\\\udcec\\\\udced\\\\udcee\\\\udcef'",
+            "start": 12082,
+            "end": 12196
           },
           {
             "type": "Literal",
-            "start": 12198,
-            "end": 12245,
             "value": "Low surrogates group 15 are correctly escaped",
-            "raw": "'Low surrogates group 15 are correctly escaped'"
+            "raw": "'Low surrogates group 15 are correctly escaped'",
+            "start": 12198,
+            "end": 12245
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 12028,
+        "end": 12246
+      },
+      "start": 12028,
+      "end": 12247
     },
     {
       "type": "ExpressionStatement",
-      "start": 12248,
-      "end": 12467,
       "expression": {
         "type": "CallExpression",
-        "start": 12248,
-        "end": 12466,
         "callee": {
           "type": "MemberExpression",
-          "start": 12248,
-          "end": 12264,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 12248,
-            "end": 12254,
-            "name": "assert"
+            "end": 12254
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 12255,
-            "end": 12264,
-            "name": "sameValue"
+            "end": 12264
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 12248,
+          "end": 12264
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 12265,
-            "end": 12300,
             "callee": {
               "type": "MemberExpression",
-              "start": 12265,
-              "end": 12278,
               "object": {
                 "type": "Identifier",
+                "name": "RegExp",
                 "start": 12265,
-                "end": 12271,
-                "name": "RegExp"
+                "end": 12271
               },
               "property": {
                 "type": "Identifier",
+                "name": "escape",
                 "start": 12272,
-                "end": 12278,
-                "name": "escape"
+                "end": 12278
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 12265,
+              "end": 12278
             },
             "arguments": [
               {
                 "type": "Identifier",
+                "name": "lowSurrogatesGroup16",
                 "start": 12279,
-                "end": 12299,
-                "name": "lowSurrogatesGroup16"
+                "end": 12299
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 12265,
+            "end": 12300
           },
           {
             "type": "Literal",
-            "start": 12302,
-            "end": 12416,
             "value": "\\udcf0\\udcf1\\udcf2\\udcf3\\udcf4\\udcf5\\udcf6\\udcf7\\udcf8\\udcf9\\udcfa\\udcfb\\udcfc\\udcfd\\udcfe\\udcff",
-            "raw": "'\\\\udcf0\\\\udcf1\\\\udcf2\\\\udcf3\\\\udcf4\\\\udcf5\\\\udcf6\\\\udcf7\\\\udcf8\\\\udcf9\\\\udcfa\\\\udcfb\\\\udcfc\\\\udcfd\\\\udcfe\\\\udcff'"
+            "raw": "'\\\\udcf0\\\\udcf1\\\\udcf2\\\\udcf3\\\\udcf4\\\\udcf5\\\\udcf6\\\\udcf7\\\\udcf8\\\\udcf9\\\\udcfa\\\\udcfb\\\\udcfc\\\\udcfd\\\\udcfe\\\\udcff'",
+            "start": 12302,
+            "end": 12416
           },
           {
             "type": "Literal",
-            "start": 12418,
-            "end": 12465,
             "value": "Low surrogates group 16 are correctly escaped",
-            "raw": "'Low surrogates group 16 are correctly escaped'"
+            "raw": "'Low surrogates group 16 are correctly escaped'",
+            "start": 12418,
+            "end": 12465
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 12248,
+        "end": 12466
+      },
+      "start": 12248,
+      "end": 12467
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 12468
 }

@@ -2,91 +2,91 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 149,
   "body": [
     {
       "type": "TSModuleDeclaration",
-      "start": 0,
-      "end": 149,
       "id": {
         "type": "Identifier",
-        "start": 15,
-        "end": 19,
         "decorators": [],
         "name": "test",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 15,
+        "end": 19
       },
       "body": {
         "type": "TSModuleBlock",
-        "start": 20,
-        "end": 149,
         "body": [
           {
             "type": "TSModuleDeclaration",
-            "start": 26,
-            "end": 44,
             "id": {
               "type": "Identifier",
-              "start": 33,
-              "end": 40,
               "decorators": [],
               "name": "mstring",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 33,
+              "end": 40
             },
             "body": {
               "type": "TSModuleBlock",
+              "body": [],
               "start": 41,
-              "end": 44,
-              "body": []
+              "end": 44
             },
             "kind": "module",
             "declare": false,
-            "global": false
+            "global": false,
+            "start": 26,
+            "end": 44
           },
           {
             "type": "ExportNamedDeclaration",
-            "start": 116,
-            "end": 147,
             "declaration": {
               "type": "TSImportEqualsDeclaration",
-              "start": 123,
-              "end": 147,
               "id": {
                 "type": "Identifier",
-                "start": 130,
-                "end": 136,
                 "decorators": [],
                 "name": "string",
                 "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "start": 130,
+                "end": 136
               },
               "moduleReference": {
                 "type": "Identifier",
-                "start": 139,
-                "end": 146,
                 "decorators": [],
                 "name": "mstring",
                 "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "start": 139,
+                "end": 146
               },
-              "importKind": "value"
+              "importKind": "value",
+              "start": 123,
+              "end": 147
             },
             "specifiers": [],
             "source": null,
             "exportKind": "value",
-            "attributes": []
+            "attributes": [],
+            "start": 116,
+            "end": 147
           }
-        ]
+        ],
+        "start": 20,
+        "end": 149
       },
       "kind": "module",
       "declare": true,
-      "global": false
+      "global": false,
+      "start": 0,
+      "end": 149
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 149
 }
 ```

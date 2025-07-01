@@ -2,38 +2,38 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 32,
   "body": [
     {
       "type": "TSImportEqualsDeclaration",
-      "start": 0,
-      "end": 31,
       "id": {
         "type": "Identifier",
-        "start": 7,
-        "end": 8,
         "decorators": [],
         "name": "j",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 7,
+        "end": 8
       },
       "moduleReference": {
         "type": "TSExternalModuleReference",
-        "start": 11,
-        "end": 30,
         "expression": {
           "type": "Literal",
-          "start": 19,
-          "end": 29,
           "value": "./j.json",
-          "raw": "\"./j.json\""
-        }
+          "raw": "\"./j.json\"",
+          "start": 19,
+          "end": 29
+        },
+        "start": 11,
+        "end": 30
       },
-      "importKind": "value"
+      "importKind": "value",
+      "start": 0,
+      "end": 31
     }
   ],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 32
 }
 ```

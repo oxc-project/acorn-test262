@@ -1,211 +1,211 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 802,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 612,
-      "end": 649,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 616,
-          "end": 648,
           "id": {
             "type": "Identifier",
+            "name": "handle",
             "start": 616,
-            "end": 622,
-            "name": "handle"
+            "end": 622
           },
           "init": {
             "type": "CallExpression",
-            "start": 625,
-            "end": 648,
             "callee": {
               "type": "MemberExpression",
-              "start": 625,
-              "end": 640,
               "object": {
                 "type": "Identifier",
+                "name": "Proxy",
                 "start": 625,
-                "end": 630,
-                "name": "Proxy"
+                "end": 630
               },
               "property": {
                 "type": "Identifier",
+                "name": "revocable",
                 "start": 631,
-                "end": 640,
-                "name": "revocable"
+                "end": 640
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 625,
+              "end": 640
             },
             "arguments": [
               {
                 "type": "ArrayExpression",
+                "elements": [],
                 "start": 641,
-                "end": 643,
-                "elements": []
+                "end": 643
               },
               {
                 "type": "ObjectExpression",
+                "properties": [],
                 "start": 645,
-                "end": 647,
-                "properties": []
+                "end": 647
               }
             ],
-            "optional": false
-          }
+            "optional": false,
+            "start": 625,
+            "end": 648
+          },
+          "start": 616,
+          "end": 648
         }
-      ]
+      ],
+      "start": 612,
+      "end": 649
     },
     {
       "type": "ExpressionStatement",
-      "start": 651,
-      "end": 667,
       "expression": {
         "type": "CallExpression",
-        "start": 651,
-        "end": 666,
         "callee": {
           "type": "MemberExpression",
-          "start": 651,
-          "end": 664,
           "object": {
             "type": "Identifier",
+            "name": "handle",
             "start": 651,
-            "end": 657,
-            "name": "handle"
+            "end": 657
           },
           "property": {
             "type": "Identifier",
+            "name": "revoke",
             "start": 658,
-            "end": 664,
-            "name": "revoke"
+            "end": 664
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 651,
+          "end": 664
         },
         "arguments": [],
-        "optional": false
-      }
+        "optional": false,
+        "start": 651,
+        "end": 666
+      },
+      "start": 651,
+      "end": 667
     },
     {
       "type": "ExpressionStatement",
-      "start": 669,
-      "end": 801,
       "expression": {
         "type": "CallExpression",
-        "start": 669,
-        "end": 800,
         "callee": {
           "type": "MemberExpression",
-          "start": 669,
-          "end": 682,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 669,
-            "end": 675,
-            "name": "assert"
+            "end": 675
           },
           "property": {
             "type": "Identifier",
+            "name": "throws",
             "start": 676,
-            "end": 682,
-            "name": "throws"
+            "end": 682
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 669,
+          "end": 682
         },
         "arguments": [
           {
             "type": "Identifier",
+            "name": "TypeError",
             "start": 683,
-            "end": 692,
-            "name": "TypeError"
+            "end": 692
           },
           {
             "type": "FunctionExpression",
-            "start": 694,
-            "end": 739,
             "id": null,
             "generator": false,
             "async": false,
             "params": [],
             "body": {
               "type": "BlockStatement",
-              "start": 705,
-              "end": 739,
               "body": [
                 {
                   "type": "ExpressionStatement",
-                  "start": 709,
-                  "end": 737,
                   "expression": {
                     "type": "CallExpression",
-                    "start": 709,
-                    "end": 736,
                     "callee": {
                       "type": "MemberExpression",
-                      "start": 709,
-                      "end": 722,
                       "object": {
                         "type": "Identifier",
+                        "name": "Array",
                         "start": 709,
-                        "end": 714,
-                        "name": "Array"
+                        "end": 714
                       },
                       "property": {
                         "type": "Identifier",
+                        "name": "isArray",
                         "start": 715,
-                        "end": 722,
-                        "name": "isArray"
+                        "end": 722
                       },
                       "optional": false,
-                      "computed": false
+                      "computed": false,
+                      "start": 709,
+                      "end": 722
                     },
                     "arguments": [
                       {
                         "type": "MemberExpression",
-                        "start": 723,
-                        "end": 735,
                         "object": {
                           "type": "Identifier",
+                          "name": "handle",
                           "start": 723,
-                          "end": 729,
-                          "name": "handle"
+                          "end": 729
                         },
                         "property": {
                           "type": "Identifier",
+                          "name": "proxy",
                           "start": 730,
-                          "end": 735,
-                          "name": "proxy"
+                          "end": 735
                         },
                         "optional": false,
-                        "computed": false
+                        "computed": false,
+                        "start": 723,
+                        "end": 735
                       }
                     ],
-                    "optional": false
-                  }
+                    "optional": false,
+                    "start": 709,
+                    "end": 736
+                  },
+                  "start": 709,
+                  "end": 737
                 }
-              ]
+              ],
+              "start": 705,
+              "end": 739
             },
-            "expression": false
+            "expression": false,
+            "start": 694,
+            "end": 739
           },
           {
             "type": "Literal",
-            "start": 741,
-            "end": 799,
             "value": "Array.isArray(handle.proxy) throws a TypeError exception",
-            "raw": "'Array.isArray(handle.proxy) throws a TypeError exception'"
+            "raw": "'Array.isArray(handle.proxy) throws a TypeError exception'",
+            "start": 741,
+            "end": 799
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 669,
+        "end": 800
+      },
+      "start": 669,
+      "end": 801
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 802
 }

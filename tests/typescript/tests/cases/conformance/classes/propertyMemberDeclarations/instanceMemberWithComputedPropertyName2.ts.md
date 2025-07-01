@@ -2,66 +2,62 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 56,
-  "end": 111,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 56,
-      "end": 69,
       "expression": {
         "type": "Literal",
-        "start": 56,
-        "end": 68,
         "value": "use strict",
-        "raw": "\"use strict\""
+        "raw": "\"use strict\"",
+        "start": 56,
+        "end": 68
       },
-      "directive": "use strict"
+      "directive": "use strict",
+      "start": 56,
+      "end": 69
     },
     {
       "type": "VariableDeclaration",
-      "start": 70,
-      "end": 82,
       "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 76,
-          "end": 81,
           "id": {
             "type": "Identifier",
-            "start": 76,
-            "end": 77,
             "decorators": [],
             "name": "x",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 76,
+            "end": 77
           },
           "init": {
             "type": "Literal",
-            "start": 80,
-            "end": 81,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "start": 80,
+            "end": 81
           },
-          "definite": false
+          "definite": false,
+          "start": 76,
+          "end": 81
         }
       ],
-      "declare": false
+      "declare": false,
+      "start": 70,
+      "end": 82
     },
     {
       "type": "ClassDeclaration",
-      "start": 83,
-      "end": 111,
       "decorators": [],
       "id": {
         "type": "Identifier",
-        "start": 89,
-        "end": 90,
         "decorators": [],
         "name": "C",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 89,
+        "end": 90
       },
       "typeParameters": null,
       "superClass": null,
@@ -69,32 +65,28 @@ __ESTREE_TEST__:PASS:
       "implements": [],
       "body": {
         "type": "ClassBody",
-        "start": 91,
-        "end": 111,
         "body": [
           {
             "type": "PropertyDefinition",
-            "start": 97,
-            "end": 109,
             "decorators": [],
             "key": {
               "type": "Identifier",
-              "start": 98,
-              "end": 99,
               "decorators": [],
               "name": "x",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 98,
+              "end": 99
             },
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
-              "start": 100,
-              "end": 108,
               "typeAnnotation": {
                 "type": "TSStringKeyword",
                 "start": 102,
                 "end": 108
-              }
+              },
+              "start": 100,
+              "end": 108
             },
             "value": null,
             "computed": true,
@@ -104,15 +96,23 @@ __ESTREE_TEST__:PASS:
             "optional": false,
             "definite": false,
             "readonly": false,
-            "accessibility": null
+            "accessibility": null,
+            "start": 97,
+            "end": 109
           }
-        ]
+        ],
+        "start": 91,
+        "end": 111
       },
       "abstract": false,
-      "declare": false
+      "declare": false,
+      "start": 83,
+      "end": 111
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 56,
+  "end": 111
 }
 ```

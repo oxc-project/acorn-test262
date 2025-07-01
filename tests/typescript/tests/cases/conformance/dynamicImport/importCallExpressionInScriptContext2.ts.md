@@ -2,25 +2,19 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 40,
   "body": [
     {
       "type": "ExportNamedDeclaration",
-      "start": 0,
-      "end": 39,
       "declaration": {
         "type": "FunctionDeclaration",
-        "start": 7,
-        "end": 39,
         "id": {
           "type": "Identifier",
-          "start": 16,
-          "end": 19,
           "decorators": [],
           "name": "foo",
           "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "start": 16,
+          "end": 19
         },
         "generator": false,
         "async": false,
@@ -30,105 +24,107 @@ __ESTREE_TEST__:PASS:
         "returnType": null,
         "body": {
           "type": "BlockStatement",
-          "start": 22,
-          "end": 39,
           "body": [
             {
               "type": "ReturnStatement",
-              "start": 24,
-              "end": 37,
               "argument": {
                 "type": "Literal",
-                "start": 31,
-                "end": 36,
                 "value": "foo",
-                "raw": "\"foo\""
-              }
+                "raw": "\"foo\"",
+                "start": 31,
+                "end": 36
+              },
+              "start": 24,
+              "end": 37
             }
-          ]
+          ],
+          "start": 22,
+          "end": 39
         },
-        "expression": false
+        "expression": false,
+        "start": 7,
+        "end": 39
       },
       "specifiers": [],
       "source": null,
       "exportKind": "value",
-      "attributes": []
+      "attributes": [],
+      "start": 0,
+      "end": 39
     }
   ],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 40
 }
 ```
 __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 61,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 0,
-      "end": 12,
       "expression": {
         "type": "Literal",
-        "start": 0,
-        "end": 12,
         "value": "use strict",
-        "raw": "\"use strict\""
+        "raw": "\"use strict\"",
+        "start": 0,
+        "end": 12
       },
-      "directive": "use strict"
+      "directive": "use strict",
+      "start": 0,
+      "end": 12
     },
     {
       "type": "VariableDeclaration",
-      "start": 13,
-      "end": 36,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 17,
-          "end": 35,
           "id": {
             "type": "Identifier",
-            "start": 17,
-            "end": 19,
             "decorators": [],
             "name": "p1",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 17,
+            "end": 19
           },
           "init": {
             "type": "ImportExpression",
-            "start": 22,
-            "end": 35,
             "source": {
               "type": "Literal",
-              "start": 29,
-              "end": 34,
               "value": "./0",
-              "raw": "\"./0\""
+              "raw": "\"./0\"",
+              "start": 29,
+              "end": 34
             },
             "options": null,
-            "phase": null
+            "phase": null,
+            "start": 22,
+            "end": 35
           },
-          "definite": false
+          "definite": false,
+          "start": 17,
+          "end": 35
         }
       ],
-      "declare": false
+      "declare": false,
+      "start": 13,
+      "end": 36
     },
     {
       "type": "FunctionDeclaration",
-      "start": 37,
-      "end": 61,
       "id": {
         "type": "Identifier",
-        "start": 46,
-        "end": 55,
         "decorators": [],
         "name": "arguments",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 46,
+        "end": 55
       },
       "generator": false,
       "async": false,
@@ -138,14 +134,18 @@ __ESTREE_TEST__:PASS:
       "returnType": null,
       "body": {
         "type": "BlockStatement",
+        "body": [],
         "start": 58,
-        "end": 61,
-        "body": []
+        "end": 61
       },
-      "expression": false
+      "expression": false,
+      "start": 37,
+      "end": 61
     }
   ],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 61
 }
 ```

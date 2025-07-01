@@ -2,21 +2,17 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 96,
   "body": [
     {
       "type": "TSDeclareFunction",
-      "start": 0,
-      "end": 61,
       "id": {
         "type": "Identifier",
-        "start": 17,
-        "end": 20,
         "decorators": [],
         "name": "dec",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 17,
+        "end": 20
       },
       "generator": false,
       "async": false,
@@ -25,67 +21,67 @@ __ESTREE_TEST__:PASS:
       "params": [
         {
           "type": "Identifier",
-          "start": 21,
-          "end": 32,
           "decorators": [],
           "name": "target",
           "optional": false,
           "typeAnnotation": {
             "type": "TSTypeAnnotation",
-            "start": 27,
-            "end": 32,
             "typeAnnotation": {
               "type": "TSAnyKeyword",
               "start": 29,
               "end": 32
-            }
-          }
+            },
+            "start": 27,
+            "end": 32
+          },
+          "start": 21,
+          "end": 32
         },
         {
           "type": "Identifier",
-          "start": 34,
-          "end": 53,
           "decorators": [],
           "name": "propertyKey",
           "optional": false,
           "typeAnnotation": {
             "type": "TSTypeAnnotation",
-            "start": 45,
-            "end": 53,
             "typeAnnotation": {
               "type": "TSStringKeyword",
               "start": 47,
               "end": 53
-            }
-          }
+            },
+            "start": 45,
+            "end": 53
+          },
+          "start": 34,
+          "end": 53
         }
       ],
       "returnType": {
         "type": "TSTypeAnnotation",
-        "start": 54,
-        "end": 60,
         "typeAnnotation": {
           "type": "TSVoidKeyword",
           "start": 56,
           "end": 60
-        }
+        },
+        "start": 54,
+        "end": 60
       },
       "body": null,
-      "expression": false
+      "expression": false,
+      "start": 0,
+      "end": 61
     },
     {
       "type": "ClassDeclaration",
-      "start": 63,
-      "end": 96,
       "decorators": [],
       "id": {
         "type": "Identifier",
-        "start": 69,
-        "end": 70,
         "decorators": [],
         "name": "C",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 69,
+        "end": 70
       },
       "typeParameters": null,
       "superClass": null,
@@ -93,37 +89,33 @@ __ESTREE_TEST__:PASS:
       "implements": [],
       "body": {
         "type": "ClassBody",
-        "start": 71,
-        "end": 96,
         "body": [
           {
             "type": "PropertyDefinition",
-            "start": 77,
-            "end": 94,
             "decorators": [
               {
                 "type": "Decorator",
-                "start": 77,
-                "end": 81,
                 "expression": {
                   "type": "Identifier",
-                  "start": 78,
-                  "end": 81,
                   "decorators": [],
                   "name": "dec",
                   "optional": false,
-                  "typeAnnotation": null
-                }
+                  "typeAnnotation": null,
+                  "start": 78,
+                  "end": 81
+                },
+                "start": 77,
+                "end": 81
               }
             ],
             "key": {
               "type": "Identifier",
-              "start": 89,
-              "end": 93,
               "decorators": [],
               "name": "prop",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 89,
+              "end": 93
             },
             "typeAnnotation": null,
             "value": null,
@@ -134,15 +126,23 @@ __ESTREE_TEST__:PASS:
             "optional": false,
             "definite": false,
             "readonly": false,
-            "accessibility": "public"
+            "accessibility": "public",
+            "start": 77,
+            "end": 94
           }
-        ]
+        ],
+        "start": 71,
+        "end": 96
       },
       "abstract": false,
-      "declare": false
+      "declare": false,
+      "start": 63,
+      "end": 96
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 96
 }
 ```

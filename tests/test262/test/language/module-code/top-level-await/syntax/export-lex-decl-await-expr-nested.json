@@ -1,227 +1,227 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 2066,
   "body": [
     {
       "type": "ExportNamedDeclaration",
-      "start": 1836,
-      "end": 1949,
       "declaration": {
         "type": "VariableDeclaration",
-        "start": 1843,
-        "end": 1949,
         "kind": "let",
         "declarations": [
           {
             "type": "VariableDeclarator",
-            "start": 1847,
-            "end": 1948,
             "id": {
               "type": "Identifier",
+              "name": "x",
               "start": 1847,
-              "end": 1848,
-              "name": "x"
+              "end": 1848
             },
             "init": {
               "type": "AwaitExpression",
-              "start": 1851,
-              "end": 1948,
               "argument": {
                 "type": "AwaitExpression",
-                "start": 1857,
-                "end": 1948,
                 "argument": {
                   "type": "AwaitExpression",
-                  "start": 1863,
-                  "end": 1948,
                   "argument": {
                     "type": "AwaitExpression",
-                    "start": 1869,
-                    "end": 1948,
                     "argument": {
                       "type": "AwaitExpression",
-                      "start": 1875,
-                      "end": 1948,
                       "argument": {
                         "type": "AwaitExpression",
-                        "start": 1881,
-                        "end": 1948,
                         "argument": {
                           "type": "AwaitExpression",
-                          "start": 1887,
-                          "end": 1948,
                           "argument": {
                             "type": "AwaitExpression",
-                            "start": 1893,
-                            "end": 1948,
                             "argument": {
                               "type": "AwaitExpression",
-                              "start": 1899,
-                              "end": 1948,
                               "argument": {
                                 "type": "AwaitExpression",
-                                "start": 1905,
-                                "end": 1948,
                                 "argument": {
                                   "type": "AwaitExpression",
-                                  "start": 1911,
-                                  "end": 1948,
                                   "argument": {
                                     "type": "AwaitExpression",
-                                    "start": 1917,
-                                    "end": 1948,
                                     "argument": {
                                       "type": "AwaitExpression",
-                                      "start": 1923,
-                                      "end": 1948,
                                       "argument": {
                                         "type": "AwaitExpression",
-                                        "start": 1929,
-                                        "end": 1948,
                                         "argument": {
                                           "type": "AwaitExpression",
-                                          "start": 1935,
-                                          "end": 1948,
                                           "argument": {
                                             "type": "Literal",
-                                            "start": 1941,
-                                            "end": 1948,
                                             "value": "await",
-                                            "raw": "'await'"
-                                          }
-                                        }
-                                      }
-                                    }
-                                  }
-                                }
-                              }
-                            }
-                          }
-                        }
-                      }
-                    }
-                  }
-                }
-              }
-            }
+                                            "raw": "'await'",
+                                            "start": 1941,
+                                            "end": 1948
+                                          },
+                                          "start": 1935,
+                                          "end": 1948
+                                        },
+                                        "start": 1929,
+                                        "end": 1948
+                                      },
+                                      "start": 1923,
+                                      "end": 1948
+                                    },
+                                    "start": 1917,
+                                    "end": 1948
+                                  },
+                                  "start": 1911,
+                                  "end": 1948
+                                },
+                                "start": 1905,
+                                "end": 1948
+                              },
+                              "start": 1899,
+                              "end": 1948
+                            },
+                            "start": 1893,
+                            "end": 1948
+                          },
+                          "start": 1887,
+                          "end": 1948
+                        },
+                        "start": 1881,
+                        "end": 1948
+                      },
+                      "start": 1875,
+                      "end": 1948
+                    },
+                    "start": 1869,
+                    "end": 1948
+                  },
+                  "start": 1863,
+                  "end": 1948
+                },
+                "start": 1857,
+                "end": 1948
+              },
+              "start": 1851,
+              "end": 1948
+            },
+            "start": 1847,
+            "end": 1948
           }
-        ]
+        ],
+        "start": 1843,
+        "end": 1949
       },
       "specifiers": [],
       "source": null,
-      "attributes": []
+      "attributes": [],
+      "start": 1836,
+      "end": 1949
     },
     {
       "type": "ExportNamedDeclaration",
-      "start": 1950,
-      "end": 2065,
       "declaration": {
         "type": "VariableDeclaration",
-        "start": 1957,
-        "end": 2065,
         "kind": "const",
         "declarations": [
           {
             "type": "VariableDeclarator",
-            "start": 1963,
-            "end": 2064,
             "id": {
               "type": "Identifier",
+              "name": "y",
               "start": 1963,
-              "end": 1964,
-              "name": "y"
+              "end": 1964
             },
             "init": {
               "type": "AwaitExpression",
-              "start": 1967,
-              "end": 2064,
               "argument": {
                 "type": "AwaitExpression",
-                "start": 1973,
-                "end": 2064,
                 "argument": {
                   "type": "AwaitExpression",
-                  "start": 1979,
-                  "end": 2064,
                   "argument": {
                     "type": "AwaitExpression",
-                    "start": 1985,
-                    "end": 2064,
                     "argument": {
                       "type": "AwaitExpression",
-                      "start": 1991,
-                      "end": 2064,
                       "argument": {
                         "type": "AwaitExpression",
-                        "start": 1997,
-                        "end": 2064,
                         "argument": {
                           "type": "AwaitExpression",
-                          "start": 2003,
-                          "end": 2064,
                           "argument": {
                             "type": "AwaitExpression",
-                            "start": 2009,
-                            "end": 2064,
                             "argument": {
                               "type": "AwaitExpression",
-                              "start": 2015,
-                              "end": 2064,
                               "argument": {
                                 "type": "AwaitExpression",
-                                "start": 2021,
-                                "end": 2064,
                                 "argument": {
                                   "type": "AwaitExpression",
-                                  "start": 2027,
-                                  "end": 2064,
                                   "argument": {
                                     "type": "AwaitExpression",
-                                    "start": 2033,
-                                    "end": 2064,
                                     "argument": {
                                       "type": "AwaitExpression",
-                                      "start": 2039,
-                                      "end": 2064,
                                       "argument": {
                                         "type": "AwaitExpression",
-                                        "start": 2045,
-                                        "end": 2064,
                                         "argument": {
                                           "type": "AwaitExpression",
-                                          "start": 2051,
-                                          "end": 2064,
                                           "argument": {
                                             "type": "Literal",
-                                            "start": 2057,
-                                            "end": 2064,
                                             "value": "await",
-                                            "raw": "'await'"
-                                          }
-                                        }
-                                      }
-                                    }
-                                  }
-                                }
-                              }
-                            }
-                          }
-                        }
-                      }
-                    }
-                  }
-                }
-              }
-            }
+                                            "raw": "'await'",
+                                            "start": 2057,
+                                            "end": 2064
+                                          },
+                                          "start": 2051,
+                                          "end": 2064
+                                        },
+                                        "start": 2045,
+                                        "end": 2064
+                                      },
+                                      "start": 2039,
+                                      "end": 2064
+                                    },
+                                    "start": 2033,
+                                    "end": 2064
+                                  },
+                                  "start": 2027,
+                                  "end": 2064
+                                },
+                                "start": 2021,
+                                "end": 2064
+                              },
+                              "start": 2015,
+                              "end": 2064
+                            },
+                            "start": 2009,
+                            "end": 2064
+                          },
+                          "start": 2003,
+                          "end": 2064
+                        },
+                        "start": 1997,
+                        "end": 2064
+                      },
+                      "start": 1991,
+                      "end": 2064
+                    },
+                    "start": 1985,
+                    "end": 2064
+                  },
+                  "start": 1979,
+                  "end": 2064
+                },
+                "start": 1973,
+                "end": 2064
+              },
+              "start": 1967,
+              "end": 2064
+            },
+            "start": 1963,
+            "end": 2064
           }
-        ]
+        ],
+        "start": 1957,
+        "end": 2065
       },
       "specifiers": [],
       "source": null,
-      "attributes": []
+      "attributes": [],
+      "start": 1950,
+      "end": 2065
     }
   ],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 2066
 }

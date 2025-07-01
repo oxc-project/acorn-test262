@@ -1,479 +1,479 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 902,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 254,
-      "end": 398,
       "expression": {
         "type": "CallExpression",
-        "start": 254,
-        "end": 397,
         "callee": {
           "type": "MemberExpression",
-          "start": 254,
-          "end": 270,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 254,
-            "end": 260,
-            "name": "assert"
+            "end": 260
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 261,
-            "end": 270,
-            "name": "sameValue"
+            "end": 270
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 254,
+          "end": 270
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 274,
-            "end": 309,
             "callee": {
               "type": "MemberExpression",
-              "start": 274,
-              "end": 304,
               "object": {
                 "type": "MemberExpression",
-                "start": 274,
-                "end": 299,
                 "object": {
                   "type": "MemberExpression",
-                  "start": 274,
-                  "end": 290,
                   "object": {
                     "type": "Identifier",
+                    "name": "Object",
                     "start": 274,
-                    "end": 280,
-                    "name": "Object"
+                    "end": 280
                   },
                   "property": {
                     "type": "Identifier",
+                    "name": "prototype",
                     "start": 281,
-                    "end": 290,
-                    "name": "prototype"
+                    "end": 290
                   },
                   "optional": false,
-                  "computed": false
+                  "computed": false,
+                  "start": 274,
+                  "end": 290
                 },
                 "property": {
                   "type": "Identifier",
+                  "name": "toString",
                   "start": 291,
-                  "end": 299,
-                  "name": "toString"
+                  "end": 299
                 },
                 "optional": false,
-                "computed": false
+                "computed": false,
+                "start": 274,
+                "end": 299
               },
               "property": {
                 "type": "Identifier",
+                "name": "call",
                 "start": 300,
-                "end": 304,
-                "name": "call"
+                "end": 304
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 274,
+              "end": 304
             },
             "arguments": [
               {
                 "type": "Literal",
-                "start": 305,
-                "end": 308,
                 "value": null,
                 "raw": "/./",
                 "regex": {
                   "pattern": ".",
                   "flags": ""
-                }
+                },
+                "start": 305,
+                "end": 308
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 274,
+            "end": 309
           },
           {
             "type": "Literal",
-            "start": 313,
-            "end": 330,
             "value": "[object RegExp]",
-            "raw": "\"[object RegExp]\""
+            "raw": "\"[object RegExp]\"",
+            "start": 313,
+            "end": 330
           },
           {
             "type": "Literal",
-            "start": 334,
-            "end": 395,
             "value": "Object.prototype.toString.call(/./) returns [object RegExp]",
-            "raw": "\"Object.prototype.toString.call(/./) returns [object RegExp]\""
+            "raw": "\"Object.prototype.toString.call(/./) returns [object RegExp]\"",
+            "start": 334,
+            "end": 395
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 254,
+        "end": 397
+      },
+      "start": 254,
+      "end": 398
     },
     {
       "type": "ExpressionStatement",
-      "start": 399,
-      "end": 559,
       "expression": {
         "type": "CallExpression",
-        "start": 399,
-        "end": 558,
         "callee": {
           "type": "MemberExpression",
-          "start": 399,
-          "end": 415,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 399,
-            "end": 405,
-            "name": "assert"
+            "end": 405
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 406,
-            "end": 415,
-            "name": "sameValue"
+            "end": 415
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 399,
+          "end": 415
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 419,
-            "end": 462,
             "callee": {
               "type": "MemberExpression",
-              "start": 419,
-              "end": 449,
               "object": {
                 "type": "MemberExpression",
-                "start": 419,
-                "end": 444,
                 "object": {
                   "type": "MemberExpression",
-                  "start": 419,
-                  "end": 435,
                   "object": {
                     "type": "Identifier",
+                    "name": "Object",
                     "start": 419,
-                    "end": 425,
-                    "name": "Object"
+                    "end": 425
                   },
                   "property": {
                     "type": "Identifier",
+                    "name": "prototype",
                     "start": 426,
-                    "end": 435,
-                    "name": "prototype"
+                    "end": 435
                   },
                   "optional": false,
-                  "computed": false
+                  "computed": false,
+                  "start": 419,
+                  "end": 435
                 },
                 "property": {
                   "type": "Identifier",
+                  "name": "toString",
                   "start": 436,
-                  "end": 444,
-                  "name": "toString"
+                  "end": 444
                 },
                 "optional": false,
-                "computed": false
+                "computed": false,
+                "start": 419,
+                "end": 444
               },
               "property": {
                 "type": "Identifier",
+                "name": "call",
                 "start": 445,
-                "end": 449,
-                "name": "call"
+                "end": 449
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 419,
+              "end": 449
             },
             "arguments": [
               {
                 "type": "CallExpression",
-                "start": 450,
-                "end": 461,
                 "callee": {
                   "type": "Identifier",
+                  "name": "Object",
                   "start": 450,
-                  "end": 456,
-                  "name": "Object"
+                  "end": 456
                 },
                 "arguments": [
                   {
                     "type": "Literal",
-                    "start": 457,
-                    "end": 460,
                     "value": null,
                     "raw": "/./",
                     "regex": {
                       "pattern": ".",
                       "flags": ""
-                    }
+                    },
+                    "start": 457,
+                    "end": 460
                   }
                 ],
-                "optional": false
+                "optional": false,
+                "start": 450,
+                "end": 461
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 419,
+            "end": 462
           },
           {
             "type": "Literal",
-            "start": 466,
-            "end": 483,
             "value": "[object RegExp]",
-            "raw": "\"[object RegExp]\""
+            "raw": "\"[object RegExp]\"",
+            "start": 466,
+            "end": 483
           },
           {
             "type": "Literal",
-            "start": 487,
-            "end": 556,
             "value": "Object.prototype.toString.call(Object(/./)) returns [object RegExp]",
-            "raw": "\"Object.prototype.toString.call(Object(/./)) returns [object RegExp]\""
+            "raw": "\"Object.prototype.toString.call(Object(/./)) returns [object RegExp]\"",
+            "start": 487,
+            "end": 556
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 399,
+        "end": 558
+      },
+      "start": 399,
+      "end": 559
     },
     {
       "type": "ExpressionStatement",
-      "start": 560,
-      "end": 722,
       "expression": {
         "type": "CallExpression",
-        "start": 560,
-        "end": 721,
         "callee": {
           "type": "MemberExpression",
-          "start": 560,
-          "end": 576,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 560,
-            "end": 566,
-            "name": "assert"
+            "end": 566
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 567,
-            "end": 576,
-            "name": "sameValue"
+            "end": 576
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 560,
+          "end": 576
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 580,
-            "end": 624,
             "callee": {
               "type": "MemberExpression",
-              "start": 580,
-              "end": 610,
               "object": {
                 "type": "MemberExpression",
-                "start": 580,
-                "end": 605,
                 "object": {
                   "type": "MemberExpression",
-                  "start": 580,
-                  "end": 596,
                   "object": {
                     "type": "Identifier",
+                    "name": "Object",
                     "start": 580,
-                    "end": 586,
-                    "name": "Object"
+                    "end": 586
                   },
                   "property": {
                     "type": "Identifier",
+                    "name": "prototype",
                     "start": 587,
-                    "end": 596,
-                    "name": "prototype"
+                    "end": 596
                   },
                   "optional": false,
-                  "computed": false
+                  "computed": false,
+                  "start": 580,
+                  "end": 596
                 },
                 "property": {
                   "type": "Identifier",
+                  "name": "toString",
                   "start": 597,
-                  "end": 605,
-                  "name": "toString"
+                  "end": 605
                 },
                 "optional": false,
-                "computed": false
+                "computed": false,
+                "start": 580,
+                "end": 605
               },
               "property": {
                 "type": "Identifier",
+                "name": "call",
                 "start": 606,
-                "end": 610,
-                "name": "call"
+                "end": 610
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 580,
+              "end": 610
             },
             "arguments": [
               {
                 "type": "NewExpression",
-                "start": 611,
-                "end": 623,
                 "callee": {
                   "type": "Identifier",
+                  "name": "RegExp",
                   "start": 615,
-                  "end": 621,
-                  "name": "RegExp"
+                  "end": 621
                 },
-                "arguments": []
+                "arguments": [],
+                "start": 611,
+                "end": 623
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 580,
+            "end": 624
           },
           {
             "type": "Literal",
-            "start": 628,
-            "end": 645,
             "value": "[object RegExp]",
-            "raw": "\"[object RegExp]\""
+            "raw": "\"[object RegExp]\"",
+            "start": 628,
+            "end": 645
           },
           {
             "type": "Literal",
-            "start": 649,
-            "end": 719,
             "value": "Object.prototype.toString.call(new RegExp()) returns [object RegExp]",
-            "raw": "\"Object.prototype.toString.call(new RegExp()) returns [object RegExp]\""
+            "raw": "\"Object.prototype.toString.call(new RegExp()) returns [object RegExp]\"",
+            "start": 649,
+            "end": 719
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 560,
+        "end": 721
+      },
+      "start": 560,
+      "end": 722
     },
     {
       "type": "ExpressionStatement",
-      "start": 723,
-      "end": 901,
       "expression": {
         "type": "CallExpression",
-        "start": 723,
-        "end": 900,
         "callee": {
           "type": "MemberExpression",
-          "start": 723,
-          "end": 739,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 723,
-            "end": 729,
-            "name": "assert"
+            "end": 729
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 730,
-            "end": 739,
-            "name": "sameValue"
+            "end": 739
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 723,
+          "end": 739
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 743,
-            "end": 795,
             "callee": {
               "type": "MemberExpression",
-              "start": 743,
-              "end": 773,
               "object": {
                 "type": "MemberExpression",
-                "start": 743,
-                "end": 768,
                 "object": {
                   "type": "MemberExpression",
-                  "start": 743,
-                  "end": 759,
                   "object": {
                     "type": "Identifier",
+                    "name": "Object",
                     "start": 743,
-                    "end": 749,
-                    "name": "Object"
+                    "end": 749
                   },
                   "property": {
                     "type": "Identifier",
+                    "name": "prototype",
                     "start": 750,
-                    "end": 759,
-                    "name": "prototype"
+                    "end": 759
                   },
                   "optional": false,
-                  "computed": false
+                  "computed": false,
+                  "start": 743,
+                  "end": 759
                 },
                 "property": {
                   "type": "Identifier",
+                  "name": "toString",
                   "start": 760,
-                  "end": 768,
-                  "name": "toString"
+                  "end": 768
                 },
                 "optional": false,
-                "computed": false
+                "computed": false,
+                "start": 743,
+                "end": 768
               },
               "property": {
                 "type": "Identifier",
+                "name": "call",
                 "start": 769,
-                "end": 773,
-                "name": "call"
+                "end": 773
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 743,
+              "end": 773
             },
             "arguments": [
               {
                 "type": "CallExpression",
-                "start": 774,
-                "end": 794,
                 "callee": {
                   "type": "Identifier",
+                  "name": "Object",
                   "start": 774,
-                  "end": 780,
-                  "name": "Object"
+                  "end": 780
                 },
                 "arguments": [
                   {
                     "type": "NewExpression",
-                    "start": 781,
-                    "end": 793,
                     "callee": {
                       "type": "Identifier",
+                      "name": "RegExp",
                       "start": 785,
-                      "end": 791,
-                      "name": "RegExp"
+                      "end": 791
                     },
-                    "arguments": []
+                    "arguments": [],
+                    "start": 781,
+                    "end": 793
                   }
                 ],
-                "optional": false
+                "optional": false,
+                "start": 774,
+                "end": 794
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 743,
+            "end": 795
           },
           {
             "type": "Literal",
-            "start": 799,
-            "end": 816,
             "value": "[object RegExp]",
-            "raw": "\"[object RegExp]\""
+            "raw": "\"[object RegExp]\"",
+            "start": 799,
+            "end": 816
           },
           {
             "type": "Literal",
-            "start": 820,
-            "end": 898,
             "value": "Object.prototype.toString.call(Object(new RegExp())) returns [object RegExp]",
-            "raw": "\"Object.prototype.toString.call(Object(new RegExp())) returns [object RegExp]\""
+            "raw": "\"Object.prototype.toString.call(Object(new RegExp())) returns [object RegExp]\"",
+            "start": 820,
+            "end": 898
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 723,
+        "end": 900
+      },
+      "start": 723,
+      "end": 901
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 902
 }

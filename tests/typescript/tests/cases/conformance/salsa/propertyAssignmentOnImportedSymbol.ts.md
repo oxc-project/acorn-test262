@@ -2,147 +2,147 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 20,
   "body": [
     {
       "type": "ExportNamedDeclaration",
-      "start": 0,
-      "end": 20,
       "declaration": {
         "type": "VariableDeclaration",
-        "start": 7,
-        "end": 20,
         "kind": "var",
         "declarations": [
           {
             "type": "VariableDeclarator",
-            "start": 11,
-            "end": 20,
             "id": {
               "type": "Identifier",
-              "start": 11,
-              "end": 15,
               "decorators": [],
               "name": "hurk",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 11,
+              "end": 15
             },
             "init": {
               "type": "ObjectExpression",
+              "properties": [],
               "start": 18,
-              "end": 20,
-              "properties": []
+              "end": 20
             },
-            "definite": false
+            "definite": false,
+            "start": 11,
+            "end": 20
           }
         ],
-        "declare": false
+        "declare": false,
+        "start": 7,
+        "end": 20
       },
       "specifiers": [],
       "source": null,
       "exportKind": "value",
-      "attributes": []
+      "attributes": [],
+      "start": 0,
+      "end": 20
     }
   ],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 20
 }
 ```
 __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 46,
   "body": [
     {
       "type": "ImportDeclaration",
-      "start": 0,
-      "end": 29,
       "specifiers": [
         {
           "type": "ImportSpecifier",
-          "start": 9,
-          "end": 13,
           "imported": {
             "type": "Identifier",
-            "start": 9,
-            "end": 13,
             "decorators": [],
             "name": "hurk",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 9,
+            "end": 13
           },
           "local": {
             "type": "Identifier",
-            "start": 9,
-            "end": 13,
             "decorators": [],
             "name": "hurk",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 9,
+            "end": 13
           },
-          "importKind": "value"
+          "importKind": "value",
+          "start": 9,
+          "end": 13
         }
       ],
       "source": {
         "type": "Literal",
-        "start": 21,
-        "end": 29,
         "value": "./mod1",
-        "raw": "'./mod1'"
+        "raw": "'./mod1'",
+        "start": 21,
+        "end": 29
       },
       "phase": null,
       "attributes": [],
-      "importKind": "value"
+      "importKind": "value",
+      "start": 0,
+      "end": 29
     },
     {
       "type": "ExpressionStatement",
-      "start": 30,
-      "end": 46,
       "expression": {
         "type": "AssignmentExpression",
-        "start": 30,
-        "end": 46,
         "operator": "=",
         "left": {
           "type": "MemberExpression",
-          "start": 30,
-          "end": 42,
           "object": {
             "type": "Identifier",
-            "start": 30,
-            "end": 34,
             "decorators": [],
             "name": "hurk",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 30,
+            "end": 34
           },
           "property": {
             "type": "Identifier",
-            "start": 35,
-            "end": 42,
             "decorators": [],
             "name": "expando",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 35,
+            "end": 42
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 30,
+          "end": 42
         },
         "right": {
           "type": "Literal",
-          "start": 45,
-          "end": 46,
           "value": 4,
-          "raw": "4"
-        }
+          "raw": "4",
+          "start": 45,
+          "end": 46
+        },
+        "start": 30,
+        "end": 46
       },
-      "directive": null
+      "directive": null,
+      "start": 30,
+      "end": 46
     }
   ],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 46
 }
 ```

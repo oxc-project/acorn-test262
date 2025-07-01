@@ -1,92 +1,90 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 813,
   "body": [
     {
       "type": "WhileStatement",
-      "start": 369,
-      "end": 442,
       "test": {
         "type": "CallExpression",
-        "start": 375,
-        "end": 405,
         "callee": {
           "type": "FunctionExpression",
-          "start": 375,
-          "end": 403,
           "id": {
             "type": "Identifier",
+            "name": "__func",
             "start": 384,
-            "end": 390,
-            "name": "__func"
+            "end": 390
           },
           "generator": false,
           "async": false,
           "params": [],
           "body": {
             "type": "BlockStatement",
-            "start": 392,
-            "end": 403,
             "body": [
               {
                 "type": "ReturnStatement",
-                "start": 393,
-                "end": 402,
                 "argument": {
                   "type": "Literal",
-                  "start": 400,
-                  "end": 401,
                   "value": 1,
-                  "raw": "1"
-                }
+                  "raw": "1",
+                  "start": 400,
+                  "end": 401
+                },
+                "start": 393,
+                "end": 402
               }
-            ]
+            ],
+            "start": 392,
+            "end": 403
           },
-          "expression": false
+          "expression": false,
+          "start": 375,
+          "end": 403
         },
         "arguments": [],
-        "optional": false
+        "optional": false,
+        "start": 375,
+        "end": 405
       },
       "body": {
         "type": "BlockStatement",
-        "start": 406,
-        "end": 442,
         "body": [
           {
             "type": "VariableDeclaration",
-            "start": 412,
-            "end": 430,
             "kind": "var",
             "declarations": [
               {
                 "type": "VariableDeclarator",
-                "start": 416,
-                "end": 429,
                 "id": {
                   "type": "Identifier",
+                  "name": "__reached",
                   "start": 416,
-                  "end": 425,
-                  "name": "__reached"
+                  "end": 425
                 },
                 "init": {
                   "type": "Literal",
-                  "start": 428,
-                  "end": 429,
                   "value": 1,
-                  "raw": "1"
-                }
+                  "raw": "1",
+                  "start": 428,
+                  "end": 429
+                },
+                "start": 416,
+                "end": 429
               }
-            ]
+            ],
+            "start": 412,
+            "end": 430
           },
           {
             "type": "BreakStatement",
+            "label": null,
             "start": 434,
-            "end": 440,
-            "label": null
+            "end": 440
           }
-        ]
-      }
+        ],
+        "start": 406,
+        "end": 442
+      },
+      "start": 369,
+      "end": 442
     },
     {
       "type": "EmptyStatement",
@@ -95,62 +93,64 @@
     },
     {
       "type": "IfStatement",
-      "start": 616,
-      "end": 730,
       "test": {
         "type": "BinaryExpression",
-        "start": 620,
-        "end": 635,
         "left": {
           "type": "Identifier",
+          "name": "__reached",
           "start": 620,
-          "end": 629,
-          "name": "__reached"
+          "end": 629
         },
         "operator": "!==",
         "right": {
           "type": "Literal",
-          "start": 634,
-          "end": 635,
           "value": 1,
-          "raw": "1"
-        }
+          "raw": "1",
+          "start": 634,
+          "end": 635
+        },
+        "start": 620,
+        "end": 635
       },
       "consequent": {
         "type": "BlockStatement",
-        "start": 637,
-        "end": 730,
         "body": [
           {
             "type": "ThrowStatement",
-            "start": 640,
-            "end": 728,
             "argument": {
               "type": "NewExpression",
-              "start": 646,
-              "end": 727,
               "callee": {
                 "type": "Identifier",
+                "name": "Test262Error",
                 "start": 650,
-                "end": 662,
-                "name": "Test262Error"
+                "end": 662
               },
               "arguments": [
                 {
                   "type": "Literal",
-                  "start": 663,
-                  "end": 726,
                   "value": "#2: function expression inside of while expression is allowed",
-                  "raw": "'#2: function expression inside of while expression is allowed'"
+                  "raw": "'#2: function expression inside of while expression is allowed'",
+                  "start": 663,
+                  "end": 726
                 }
-              ]
-            }
+              ],
+              "start": 646,
+              "end": 727
+            },
+            "start": 640,
+            "end": 728
           }
-        ]
+        ],
+        "start": 637,
+        "end": 730
       },
-      "alternate": null
+      "alternate": null,
+      "start": 616,
+      "end": 730
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 813
 }

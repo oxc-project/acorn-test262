@@ -1,150 +1,150 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 444,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 346,
-      "end": 393,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 350,
-          "end": 392,
           "id": {
             "type": "Identifier",
+            "name": "OSymbol",
             "start": 350,
-            "end": 357,
-            "name": "OSymbol"
+            "end": 357
           },
           "init": {
             "type": "MemberExpression",
-            "start": 360,
-            "end": 392,
             "object": {
               "type": "MemberExpression",
-              "start": 360,
-              "end": 385,
               "object": {
                 "type": "CallExpression",
-                "start": 360,
-                "end": 378,
                 "callee": {
                   "type": "MemberExpression",
-                  "start": 360,
-                  "end": 376,
                   "object": {
                     "type": "Identifier",
+                    "name": "$262",
                     "start": 360,
-                    "end": 364,
-                    "name": "$262"
+                    "end": 364
                   },
                   "property": {
                     "type": "Identifier",
+                    "name": "createRealm",
                     "start": 365,
-                    "end": 376,
-                    "name": "createRealm"
+                    "end": 376
                   },
                   "optional": false,
-                  "computed": false
+                  "computed": false,
+                  "start": 360,
+                  "end": 376
                 },
                 "arguments": [],
-                "optional": false
+                "optional": false,
+                "start": 360,
+                "end": 378
               },
               "property": {
                 "type": "Identifier",
+                "name": "global",
                 "start": 379,
-                "end": 385,
-                "name": "global"
+                "end": 385
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 360,
+              "end": 385
             },
             "property": {
               "type": "Identifier",
+              "name": "Symbol",
               "start": 386,
-              "end": 392,
-              "name": "Symbol"
+              "end": 392
             },
             "optional": false,
-            "computed": false
-          }
+            "computed": false,
+            "start": 360,
+            "end": 392
+          },
+          "start": 350,
+          "end": 392
         }
-      ]
+      ],
+      "start": 346,
+      "end": 393
     },
     {
       "type": "ExpressionStatement",
-      "start": 395,
-      "end": 443,
       "expression": {
         "type": "CallExpression",
-        "start": 395,
-        "end": 442,
         "callee": {
           "type": "MemberExpression",
-          "start": 395,
-          "end": 411,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 395,
-            "end": 401,
-            "name": "assert"
+            "end": 401
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 402,
-            "end": 411,
-            "name": "sameValue"
+            "end": 411
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 395,
+          "end": 411
         },
         "arguments": [
           {
             "type": "MemberExpression",
-            "start": 412,
-            "end": 425,
             "object": {
               "type": "Identifier",
+              "name": "Symbol",
               "start": 412,
-              "end": 418,
-              "name": "Symbol"
+              "end": 418
             },
             "property": {
               "type": "Identifier",
+              "name": "search",
               "start": 419,
-              "end": 425,
-              "name": "search"
+              "end": 425
             },
             "optional": false,
-            "computed": false
+            "computed": false,
+            "start": 412,
+            "end": 425
           },
           {
             "type": "MemberExpression",
-            "start": 427,
-            "end": 441,
             "object": {
               "type": "Identifier",
+              "name": "OSymbol",
               "start": 427,
-              "end": 434,
-              "name": "OSymbol"
+              "end": 434
             },
             "property": {
               "type": "Identifier",
+              "name": "search",
               "start": 435,
-              "end": 441,
-              "name": "search"
+              "end": 441
             },
             "optional": false,
-            "computed": false
+            "computed": false,
+            "start": 427,
+            "end": 441
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 395,
+        "end": 442
+      },
+      "start": 395,
+      "end": 443
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 444
 }

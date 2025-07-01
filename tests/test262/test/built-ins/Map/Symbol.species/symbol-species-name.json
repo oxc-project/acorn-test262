@@ -1,151 +1,151 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 524,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 383,
-      "end": 453,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 387,
-          "end": 452,
           "id": {
             "type": "Identifier",
+            "name": "descriptor",
             "start": 387,
-            "end": 397,
-            "name": "descriptor"
+            "end": 397
           },
           "init": {
             "type": "CallExpression",
-            "start": 400,
-            "end": 452,
             "callee": {
               "type": "MemberExpression",
-              "start": 400,
-              "end": 431,
               "object": {
                 "type": "Identifier",
+                "name": "Object",
                 "start": 400,
-                "end": 406,
-                "name": "Object"
+                "end": 406
               },
               "property": {
                 "type": "Identifier",
+                "name": "getOwnPropertyDescriptor",
                 "start": 407,
-                "end": 431,
-                "name": "getOwnPropertyDescriptor"
+                "end": 431
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 400,
+              "end": 431
             },
             "arguments": [
               {
                 "type": "Identifier",
+                "name": "Map",
                 "start": 432,
-                "end": 435,
-                "name": "Map"
+                "end": 435
               },
               {
                 "type": "MemberExpression",
-                "start": 437,
-                "end": 451,
                 "object": {
                   "type": "Identifier",
+                  "name": "Symbol",
                   "start": 437,
-                  "end": 443,
-                  "name": "Symbol"
+                  "end": 443
                 },
                 "property": {
                   "type": "Identifier",
+                  "name": "species",
                   "start": 444,
-                  "end": 451,
-                  "name": "species"
+                  "end": 451
                 },
                 "optional": false,
-                "computed": false
+                "computed": false,
+                "start": 437,
+                "end": 451
               }
             ],
-            "optional": false
-          }
+            "optional": false,
+            "start": 400,
+            "end": 452
+          },
+          "start": 387,
+          "end": 452
         }
-      ]
+      ],
+      "start": 383,
+      "end": 453
     },
     {
       "type": "ExpressionStatement",
-      "start": 455,
-      "end": 523,
       "expression": {
         "type": "CallExpression",
-        "start": 455,
-        "end": 522,
         "callee": {
           "type": "MemberExpression",
-          "start": 455,
-          "end": 471,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 455,
-            "end": 461,
-            "name": "assert"
+            "end": 461
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 462,
-            "end": 471,
-            "name": "sameValue"
+            "end": 471
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 455,
+          "end": 471
         },
         "arguments": [
           {
             "type": "MemberExpression",
-            "start": 475,
-            "end": 494,
             "object": {
               "type": "MemberExpression",
-              "start": 475,
-              "end": 489,
               "object": {
                 "type": "Identifier",
+                "name": "descriptor",
                 "start": 475,
-                "end": 485,
-                "name": "descriptor"
+                "end": 485
               },
               "property": {
                 "type": "Identifier",
+                "name": "get",
                 "start": 486,
-                "end": 489,
-                "name": "get"
+                "end": 489
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 475,
+              "end": 489
             },
             "property": {
               "type": "Identifier",
+              "name": "name",
               "start": 490,
-              "end": 494,
-              "name": "name"
+              "end": 494
             },
             "optional": false,
-            "computed": false
+            "computed": false,
+            "start": 475,
+            "end": 494
           },
           {
             "type": "Literal",
-            "start": 498,
-            "end": 520,
             "value": "get [Symbol.species]",
-            "raw": "'get [Symbol.species]'"
+            "raw": "'get [Symbol.species]'",
+            "start": 498,
+            "end": 520
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 455,
+        "end": 522
+      },
+      "start": 455,
+      "end": 523
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 524
 }

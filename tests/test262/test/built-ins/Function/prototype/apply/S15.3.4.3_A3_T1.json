@@ -1,86 +1,78 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 488,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 332,
-      "end": 378,
       "expression": {
         "type": "CallExpression",
-        "start": 332,
-        "end": 377,
         "callee": {
           "type": "MemberExpression",
-          "start": 332,
-          "end": 375,
           "object": {
             "type": "CallExpression",
-            "start": 332,
-            "end": 369,
             "callee": {
               "type": "Identifier",
+              "name": "Function",
               "start": 332,
-              "end": 340,
-              "name": "Function"
+              "end": 340
             },
             "arguments": [
               {
                 "type": "Literal",
-                "start": 341,
-                "end": 368,
                 "value": "this.field=\"strawberry\"",
-                "raw": "\"this.field=\\\"strawberry\\\"\""
+                "raw": "\"this.field=\\\"strawberry\\\"\"",
+                "start": 341,
+                "end": 368
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 332,
+            "end": 369
           },
           "property": {
             "type": "Identifier",
+            "name": "apply",
             "start": 370,
-            "end": 375,
-            "name": "apply"
+            "end": 375
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 332,
+          "end": 375
         },
         "arguments": [],
-        "optional": false
-      }
+        "optional": false,
+        "start": 332,
+        "end": 377
+      },
+      "start": 332,
+      "end": 378
     },
     {
       "type": "ExpressionStatement",
-      "start": 380,
-      "end": 487,
       "expression": {
         "type": "CallExpression",
-        "start": 380,
-        "end": 486,
         "callee": {
           "type": "MemberExpression",
-          "start": 380,
-          "end": 396,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 380,
-            "end": 386,
-            "name": "assert"
+            "end": 386
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 387,
-            "end": 396,
-            "name": "sameValue"
+            "end": 396
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 380,
+          "end": 396
         },
         "arguments": [
           {
             "type": "MemberExpression",
-            "start": 397,
-            "end": 410,
             "object": {
               "type": "ThisExpression",
               "start": 397,
@@ -88,33 +80,41 @@
             },
             "property": {
               "type": "Literal",
-              "start": 402,
-              "end": 409,
               "value": "field",
-              "raw": "\"field\""
+              "raw": "\"field\"",
+              "start": 402,
+              "end": 409
             },
             "optional": false,
-            "computed": true
+            "computed": true,
+            "start": 397,
+            "end": 410
           },
           {
             "type": "Literal",
-            "start": 412,
-            "end": 424,
             "value": "strawberry",
-            "raw": "\"strawberry\""
+            "raw": "\"strawberry\"",
+            "start": 412,
+            "end": 424
           },
           {
             "type": "Literal",
-            "start": 426,
-            "end": 485,
             "value": "The value of this[\"field\"] is expected to be \"strawberry\"",
-            "raw": "'The value of this[\"field\"] is expected to be \"strawberry\"'"
+            "raw": "'The value of this[\"field\"] is expected to be \"strawberry\"'",
+            "start": 426,
+            "end": 485
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 380,
+        "end": 486
+      },
+      "start": 380,
+      "end": 487
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 488
 }

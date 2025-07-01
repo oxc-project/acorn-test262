@@ -1,105 +1,105 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 343,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 239,
-      "end": 270,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 243,
-          "end": 269,
           "id": {
             "type": "Identifier",
+            "name": "newObj",
             "start": 243,
-            "end": 249,
-            "name": "newObj"
+            "end": 249
           },
           "init": {
             "type": "CallExpression",
-            "start": 252,
-            "end": 269,
             "callee": {
               "type": "MemberExpression",
-              "start": 252,
-              "end": 265,
               "object": {
                 "type": "Identifier",
+                "name": "Object",
                 "start": 252,
-                "end": 258,
-                "name": "Object"
+                "end": 258
               },
               "property": {
                 "type": "Identifier",
+                "name": "create",
                 "start": 259,
-                "end": 265,
-                "name": "create"
+                "end": 265
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 252,
+              "end": 265
             },
             "arguments": [
               {
                 "type": "ObjectExpression",
+                "properties": [],
                 "start": 266,
-                "end": 268,
-                "properties": []
+                "end": 268
               }
             ],
-            "optional": false
-          }
+            "optional": false,
+            "start": 252,
+            "end": 269
+          },
+          "start": 243,
+          "end": 269
         }
-      ]
+      ],
+      "start": 239,
+      "end": 270
     },
     {
       "type": "ExpressionStatement",
-      "start": 272,
-      "end": 342,
       "expression": {
         "type": "CallExpression",
-        "start": 272,
-        "end": 341,
         "callee": {
           "type": "Identifier",
+          "name": "assert",
           "start": 272,
-          "end": 278,
-          "name": "assert"
+          "end": 278
         },
         "arguments": [
           {
             "type": "BinaryExpression",
-            "start": 279,
-            "end": 303,
             "left": {
               "type": "Identifier",
+              "name": "newObj",
               "start": 279,
-              "end": 285,
-              "name": "newObj"
+              "end": 285
             },
             "operator": "instanceof",
             "right": {
               "type": "Identifier",
+              "name": "Object",
               "start": 297,
-              "end": 303,
-              "name": "Object"
-            }
+              "end": 303
+            },
+            "start": 279,
+            "end": 303
           },
           {
             "type": "Literal",
-            "start": 305,
-            "end": 340,
             "value": "newObj instanceof Object !== true",
-            "raw": "'newObj instanceof Object !== true'"
+            "raw": "'newObj instanceof Object !== true'",
+            "start": 305,
+            "end": 340
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 272,
+        "end": 341
+      },
+      "start": 272,
+      "end": 342
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 343
 }

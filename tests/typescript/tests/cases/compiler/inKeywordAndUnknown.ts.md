@@ -2,21 +2,17 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 22,
-  "end": 915,
   "body": [
     {
       "type": "FunctionDeclaration",
-      "start": 22,
-      "end": 223,
       "id": {
         "type": "Identifier",
-        "start": 31,
-        "end": 32,
         "decorators": [],
         "name": "f",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 31,
+        "end": 32
       },
       "generator": false,
       "async": false,
@@ -25,240 +21,240 @@ __ESTREE_TEST__:PASS:
       "params": [
         {
           "type": "Identifier",
-          "start": 33,
-          "end": 38,
           "decorators": [],
           "name": "x",
           "optional": false,
           "typeAnnotation": {
             "type": "TSTypeAnnotation",
-            "start": 34,
-            "end": 38,
             "typeAnnotation": {
               "type": "TSTypeLiteral",
+              "members": [],
               "start": 36,
-              "end": 38,
-              "members": []
-            }
-          }
+              "end": 38
+            },
+            "start": 34,
+            "end": 38
+          },
+          "start": 33,
+          "end": 38
         },
         {
           "type": "Identifier",
-          "start": 40,
-          "end": 50,
           "decorators": [],
           "name": "y",
           "optional": false,
           "typeAnnotation": {
             "type": "TSTypeAnnotation",
-            "start": 41,
-            "end": 50,
             "typeAnnotation": {
               "type": "TSUnknownKeyword",
               "start": 43,
               "end": 50
-            }
-          }
+            },
+            "start": 41,
+            "end": 50
+          },
+          "start": 40,
+          "end": 50
         }
       ],
       "returnType": null,
       "body": {
         "type": "BlockStatement",
-        "start": 52,
-        "end": 223,
         "body": [
           {
             "type": "IfStatement",
-            "start": 58,
-            "end": 98,
             "test": {
               "type": "UnaryExpression",
-              "start": 62,
-              "end": 73,
               "operator": "!",
               "argument": {
                 "type": "BinaryExpression",
-                "start": 64,
-                "end": 72,
                 "left": {
                   "type": "Literal",
-                  "start": 64,
-                  "end": 67,
                   "value": "a",
-                  "raw": "\"a\""
+                  "raw": "\"a\"",
+                  "start": 64,
+                  "end": 67
                 },
                 "operator": "in",
                 "right": {
                   "type": "Identifier",
-                  "start": 71,
-                  "end": 72,
                   "decorators": [],
                   "name": "x",
                   "optional": false,
-                  "typeAnnotation": null
-                }
+                  "typeAnnotation": null,
+                  "start": 71,
+                  "end": 72
+                },
+                "start": 64,
+                "end": 72
               },
-              "prefix": true
+              "prefix": true,
+              "start": 62,
+              "end": 73
             },
             "consequent": {
               "type": "BlockStatement",
-              "start": 75,
-              "end": 98,
               "body": [
                 {
                   "type": "ReturnStatement",
+                  "argument": null,
                   "start": 85,
-                  "end": 92,
-                  "argument": null
+                  "end": 92
                 }
-              ]
+              ],
+              "start": 75,
+              "end": 98
             },
-            "alternate": null
+            "alternate": null,
+            "start": 58,
+            "end": 98
           },
           {
             "type": "ExpressionStatement",
-            "start": 103,
-            "end": 105,
             "expression": {
               "type": "Identifier",
-              "start": 103,
-              "end": 104,
               "decorators": [],
               "name": "x",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 103,
+              "end": 104
             },
-            "directive": null
+            "directive": null,
+            "start": 103,
+            "end": 105
           },
           {
             "type": "IfStatement",
-            "start": 117,
-            "end": 148,
             "test": {
               "type": "UnaryExpression",
-              "start": 121,
-              "end": 123,
               "operator": "!",
               "argument": {
                 "type": "Identifier",
-                "start": 122,
-                "end": 123,
                 "decorators": [],
                 "name": "y",
                 "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "start": 122,
+                "end": 123
               },
-              "prefix": true
+              "prefix": true,
+              "start": 121,
+              "end": 123
             },
             "consequent": {
               "type": "BlockStatement",
-              "start": 125,
-              "end": 148,
               "body": [
                 {
                   "type": "ReturnStatement",
+                  "argument": null,
                   "start": 135,
-                  "end": 142,
-                  "argument": null
+                  "end": 142
                 }
-              ]
+              ],
+              "start": 125,
+              "end": 148
             },
-            "alternate": null
+            "alternate": null,
+            "start": 117,
+            "end": 148
           },
           {
             "type": "ExpressionStatement",
-            "start": 153,
-            "end": 155,
             "expression": {
               "type": "Identifier",
-              "start": 153,
-              "end": 154,
               "decorators": [],
               "name": "y",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 153,
+              "end": 154
             },
-            "directive": null
+            "directive": null,
+            "start": 153,
+            "end": 155
           },
           {
             "type": "IfStatement",
-            "start": 167,
-            "end": 207,
             "test": {
               "type": "UnaryExpression",
-              "start": 171,
-              "end": 182,
               "operator": "!",
               "argument": {
                 "type": "BinaryExpression",
-                "start": 173,
-                "end": 181,
                 "left": {
                   "type": "Literal",
-                  "start": 173,
-                  "end": 176,
                   "value": "a",
-                  "raw": "\"a\""
+                  "raw": "\"a\"",
+                  "start": 173,
+                  "end": 176
                 },
                 "operator": "in",
                 "right": {
                   "type": "Identifier",
-                  "start": 180,
-                  "end": 181,
                   "decorators": [],
                   "name": "y",
                   "optional": false,
-                  "typeAnnotation": null
-                }
+                  "typeAnnotation": null,
+                  "start": 180,
+                  "end": 181
+                },
+                "start": 173,
+                "end": 181
               },
-              "prefix": true
+              "prefix": true,
+              "start": 171,
+              "end": 182
             },
             "consequent": {
               "type": "BlockStatement",
-              "start": 184,
-              "end": 207,
               "body": [
                 {
                   "type": "ReturnStatement",
+                  "argument": null,
                   "start": 194,
-                  "end": 201,
-                  "argument": null
+                  "end": 201
                 }
-              ]
+              ],
+              "start": 184,
+              "end": 207
             },
-            "alternate": null
+            "alternate": null,
+            "start": 167,
+            "end": 207
           },
           {
             "type": "ExpressionStatement",
-            "start": 212,
-            "end": 214,
             "expression": {
               "type": "Identifier",
-              "start": 212,
-              "end": 213,
               "decorators": [],
               "name": "y",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 212,
+              "end": 213
             },
-            "directive": null
+            "directive": null,
+            "start": 212,
+            "end": 214
           }
-        ]
+        ],
+        "start": 52,
+        "end": 223
       },
-      "expression": false
+      "expression": false,
+      "start": 22,
+      "end": 223
     },
     {
       "type": "FunctionDeclaration",
-      "start": 247,
-      "end": 362,
       "id": {
         "type": "Identifier",
-        "start": 256,
-        "end": 267,
         "decorators": [],
         "name": "isHTMLTable",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 256,
+        "end": 267
       },
       "generator": false,
       "async": false,
@@ -267,140 +263,140 @@ __ESTREE_TEST__:PASS:
       "params": [
         {
           "type": "Identifier",
-          "start": 268,
-          "end": 282,
           "decorators": [],
           "name": "table",
           "optional": false,
           "typeAnnotation": {
             "type": "TSTypeAnnotation",
-            "start": 273,
-            "end": 282,
             "typeAnnotation": {
               "type": "TSUnknownKeyword",
               "start": 275,
               "end": 282
-            }
-          }
+            },
+            "start": 273,
+            "end": 282
+          },
+          "start": 268,
+          "end": 282
         }
       ],
       "returnType": {
         "type": "TSTypeAnnotation",
-        "start": 283,
-        "end": 292,
         "typeAnnotation": {
           "type": "TSBooleanKeyword",
           "start": 285,
           "end": 292
-        }
+        },
+        "start": 283,
+        "end": 292
       },
       "body": {
         "type": "BlockStatement",
-        "start": 293,
-        "end": 362,
         "body": [
           {
             "type": "ReturnStatement",
-            "start": 299,
-            "end": 360,
             "argument": {
               "type": "LogicalExpression",
-              "start": 306,
-              "end": 359,
               "left": {
                 "type": "LogicalExpression",
-                "start": 306,
-                "end": 340,
                 "left": {
                   "type": "UnaryExpression",
-                  "start": 306,
-                  "end": 313,
                   "operator": "!",
                   "argument": {
                     "type": "UnaryExpression",
-                    "start": 307,
-                    "end": 313,
                     "operator": "!",
                     "argument": {
                       "type": "Identifier",
-                      "start": 308,
-                      "end": 313,
                       "decorators": [],
                       "name": "table",
                       "optional": false,
-                      "typeAnnotation": null
+                      "typeAnnotation": null,
+                      "start": 308,
+                      "end": 313
                     },
-                    "prefix": true
+                    "prefix": true,
+                    "start": 307,
+                    "end": 313
                   },
-                  "prefix": true
+                  "prefix": true,
+                  "start": 306,
+                  "end": 313
                 },
                 "operator": "&&",
                 "right": {
                   "type": "BinaryExpression",
-                  "start": 317,
-                  "end": 340,
                   "left": {
                     "type": "Identifier",
-                    "start": 317,
-                    "end": 322,
                     "decorators": [],
                     "name": "table",
                     "optional": false,
-                    "typeAnnotation": null
+                    "typeAnnotation": null,
+                    "start": 317,
+                    "end": 322
                   },
                   "operator": "instanceof",
                   "right": {
                     "type": "Identifier",
-                    "start": 334,
-                    "end": 340,
                     "decorators": [],
                     "name": "Object",
                     "optional": false,
-                    "typeAnnotation": null
-                  }
-                }
+                    "typeAnnotation": null,
+                    "start": 334,
+                    "end": 340
+                  },
+                  "start": 317,
+                  "end": 340
+                },
+                "start": 306,
+                "end": 340
               },
               "operator": "&&",
               "right": {
                 "type": "BinaryExpression",
-                "start": 344,
-                "end": 359,
                 "left": {
                   "type": "Literal",
-                  "start": 344,
-                  "end": 350,
                   "value": "html",
-                  "raw": "'html'"
+                  "raw": "'html'",
+                  "start": 344,
+                  "end": 350
                 },
                 "operator": "in",
                 "right": {
                   "type": "Identifier",
-                  "start": 354,
-                  "end": 359,
                   "decorators": [],
                   "name": "table",
                   "optional": false,
-                  "typeAnnotation": null
-                }
-              }
-            }
+                  "typeAnnotation": null,
+                  "start": 354,
+                  "end": 359
+                },
+                "start": 344,
+                "end": 359
+              },
+              "start": 306,
+              "end": 359
+            },
+            "start": 299,
+            "end": 360
           }
-        ]
+        ],
+        "start": 293,
+        "end": 362
       },
-      "expression": false
+      "expression": false,
+      "start": 247,
+      "end": 362
     },
     {
       "type": "FunctionDeclaration",
-      "start": 364,
-      "end": 440,
       "id": {
         "type": "Identifier",
-        "start": 373,
-        "end": 375,
         "decorators": [],
         "name": "f1",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 373,
+        "end": 375
       },
       "generator": false,
       "async": false,
@@ -409,271 +405,271 @@ __ESTREE_TEST__:PASS:
       "params": [
         {
           "type": "Identifier",
-          "start": 376,
-          "end": 386,
           "decorators": [],
           "name": "x",
           "optional": false,
           "typeAnnotation": {
             "type": "TSTypeAnnotation",
-            "start": 377,
-            "end": 386,
             "typeAnnotation": {
               "type": "TSUnknownKeyword",
               "start": 379,
               "end": 386
-            }
-          }
+            },
+            "start": 377,
+            "end": 386
+          },
+          "start": 376,
+          "end": 386
         }
       ],
       "returnType": null,
       "body": {
         "type": "BlockStatement",
-        "start": 388,
-        "end": 440,
         "body": [
           {
             "type": "ReturnStatement",
-            "start": 394,
-            "end": 438,
             "argument": {
               "type": "LogicalExpression",
-              "start": 401,
-              "end": 437,
               "left": {
                 "type": "LogicalExpression",
-                "start": 401,
-                "end": 425,
                 "left": {
                   "type": "Identifier",
-                  "start": 401,
-                  "end": 402,
                   "decorators": [],
                   "name": "x",
                   "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "start": 401,
+                  "end": 402
                 },
                 "operator": "&&",
                 "right": {
                   "type": "BinaryExpression",
-                  "start": 406,
-                  "end": 425,
                   "left": {
                     "type": "Identifier",
-                    "start": 406,
-                    "end": 407,
                     "decorators": [],
                     "name": "x",
                     "optional": false,
-                    "typeAnnotation": null
+                    "typeAnnotation": null,
+                    "start": 406,
+                    "end": 407
                   },
                   "operator": "instanceof",
                   "right": {
                     "type": "Identifier",
-                    "start": 419,
-                    "end": 425,
                     "decorators": [],
                     "name": "Object",
                     "optional": false,
-                    "typeAnnotation": null
-                  }
-                }
+                    "typeAnnotation": null,
+                    "start": 419,
+                    "end": 425
+                  },
+                  "start": 406,
+                  "end": 425
+                },
+                "start": 401,
+                "end": 425
               },
               "operator": "&&",
               "right": {
                 "type": "BinaryExpression",
-                "start": 429,
-                "end": 437,
                 "left": {
                   "type": "Literal",
-                  "start": 429,
-                  "end": 432,
                   "value": "a",
-                  "raw": "'a'"
+                  "raw": "'a'",
+                  "start": 429,
+                  "end": 432
                 },
                 "operator": "in",
                 "right": {
                   "type": "Identifier",
-                  "start": 436,
-                  "end": 437,
                   "decorators": [],
                   "name": "x",
                   "optional": false,
-                  "typeAnnotation": null
-                }
-              }
-            }
+                  "typeAnnotation": null,
+                  "start": 436,
+                  "end": 437
+                },
+                "start": 429,
+                "end": 437
+              },
+              "start": 401,
+              "end": 437
+            },
+            "start": 394,
+            "end": 438
           }
-        ]
+        ],
+        "start": 388,
+        "end": 440
       },
-      "expression": false
+      "expression": false,
+      "start": 364,
+      "end": 440
     },
     {
       "type": "FunctionDeclaration",
-      "start": 442,
-      "end": 515,
       "id": {
         "type": "Identifier",
-        "start": 451,
-        "end": 453,
         "decorators": [],
         "name": "f2",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 451,
+        "end": 453
       },
       "generator": false,
       "async": false,
       "declare": false,
       "typeParameters": {
         "type": "TSTypeParameterDeclaration",
-        "start": 453,
-        "end": 456,
         "params": [
           {
             "type": "TSTypeParameter",
-            "start": 454,
-            "end": 455,
             "name": {
               "type": "Identifier",
-              "start": 454,
-              "end": 455,
               "decorators": [],
               "name": "T",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 454,
+              "end": 455
             },
             "constraint": null,
             "default": null,
             "in": false,
             "out": false,
-            "const": false
+            "const": false,
+            "start": 454,
+            "end": 455
           }
-        ]
+        ],
+        "start": 453,
+        "end": 456
       },
       "params": [
         {
           "type": "Identifier",
-          "start": 457,
-          "end": 461,
           "decorators": [],
           "name": "x",
           "optional": false,
           "typeAnnotation": {
             "type": "TSTypeAnnotation",
-            "start": 458,
-            "end": 461,
             "typeAnnotation": {
               "type": "TSTypeReference",
-              "start": 460,
-              "end": 461,
               "typeName": {
                 "type": "Identifier",
-                "start": 460,
-                "end": 461,
                 "decorators": [],
                 "name": "T",
                 "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "start": 460,
+                "end": 461
               },
-              "typeArguments": null
-            }
-          }
+              "typeArguments": null,
+              "start": 460,
+              "end": 461
+            },
+            "start": 458,
+            "end": 461
+          },
+          "start": 457,
+          "end": 461
         }
       ],
       "returnType": null,
       "body": {
         "type": "BlockStatement",
-        "start": 463,
-        "end": 515,
         "body": [
           {
             "type": "ReturnStatement",
-            "start": 469,
-            "end": 513,
             "argument": {
               "type": "LogicalExpression",
-              "start": 476,
-              "end": 512,
               "left": {
                 "type": "LogicalExpression",
-                "start": 476,
-                "end": 500,
                 "left": {
                   "type": "Identifier",
-                  "start": 476,
-                  "end": 477,
                   "decorators": [],
                   "name": "x",
                   "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "start": 476,
+                  "end": 477
                 },
                 "operator": "&&",
                 "right": {
                   "type": "BinaryExpression",
-                  "start": 481,
-                  "end": 500,
                   "left": {
                     "type": "Identifier",
-                    "start": 481,
-                    "end": 482,
                     "decorators": [],
                     "name": "x",
                     "optional": false,
-                    "typeAnnotation": null
+                    "typeAnnotation": null,
+                    "start": 481,
+                    "end": 482
                   },
                   "operator": "instanceof",
                   "right": {
                     "type": "Identifier",
-                    "start": 494,
-                    "end": 500,
                     "decorators": [],
                     "name": "Object",
                     "optional": false,
-                    "typeAnnotation": null
-                  }
-                }
+                    "typeAnnotation": null,
+                    "start": 494,
+                    "end": 500
+                  },
+                  "start": 481,
+                  "end": 500
+                },
+                "start": 476,
+                "end": 500
               },
               "operator": "&&",
               "right": {
                 "type": "BinaryExpression",
-                "start": 504,
-                "end": 512,
                 "left": {
                   "type": "Literal",
-                  "start": 504,
-                  "end": 507,
                   "value": "a",
-                  "raw": "'a'"
+                  "raw": "'a'",
+                  "start": 504,
+                  "end": 507
                 },
                 "operator": "in",
                 "right": {
                   "type": "Identifier",
-                  "start": 511,
-                  "end": 512,
                   "decorators": [],
                   "name": "x",
                   "optional": false,
-                  "typeAnnotation": null
-                }
-              }
-            }
+                  "typeAnnotation": null,
+                  "start": 511,
+                  "end": 512
+                },
+                "start": 504,
+                "end": 512
+              },
+              "start": 476,
+              "end": 512
+            },
+            "start": 469,
+            "end": 513
           }
-        ]
+        ],
+        "start": 463,
+        "end": 515
       },
-      "expression": false
+      "expression": false,
+      "start": 442,
+      "end": 515
     },
     {
       "type": "FunctionDeclaration",
-      "start": 517,
-      "end": 583,
       "id": {
         "type": "Identifier",
-        "start": 526,
-        "end": 528,
         "decorators": [],
         "name": "f3",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 526,
+        "end": 528
       },
       "generator": false,
       "async": false,
@@ -682,577 +678,573 @@ __ESTREE_TEST__:PASS:
       "params": [
         {
           "type": "Identifier",
-          "start": 529,
-          "end": 534,
           "decorators": [],
           "name": "x",
           "optional": false,
           "typeAnnotation": {
             "type": "TSTypeAnnotation",
-            "start": 530,
-            "end": 534,
             "typeAnnotation": {
               "type": "TSTypeLiteral",
+              "members": [],
               "start": 532,
-              "end": 534,
-              "members": []
-            }
-          }
+              "end": 534
+            },
+            "start": 530,
+            "end": 534
+          },
+          "start": 529,
+          "end": 534
         }
       ],
       "returnType": null,
       "body": {
         "type": "BlockStatement",
-        "start": 536,
-        "end": 583,
         "body": [
           {
             "type": "ReturnStatement",
-            "start": 542,
-            "end": 581,
             "argument": {
               "type": "LogicalExpression",
-              "start": 549,
-              "end": 580,
               "left": {
                 "type": "BinaryExpression",
-                "start": 549,
-                "end": 568,
                 "left": {
                   "type": "Identifier",
-                  "start": 549,
-                  "end": 550,
                   "decorators": [],
                   "name": "x",
                   "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "start": 549,
+                  "end": 550
                 },
                 "operator": "instanceof",
                 "right": {
                   "type": "Identifier",
-                  "start": 562,
-                  "end": 568,
                   "decorators": [],
                   "name": "Object",
                   "optional": false,
-                  "typeAnnotation": null
-                }
+                  "typeAnnotation": null,
+                  "start": 562,
+                  "end": 568
+                },
+                "start": 549,
+                "end": 568
               },
               "operator": "&&",
               "right": {
                 "type": "BinaryExpression",
-                "start": 572,
-                "end": 580,
                 "left": {
                   "type": "Literal",
-                  "start": 572,
-                  "end": 575,
                   "value": "a",
-                  "raw": "'a'"
+                  "raw": "'a'",
+                  "start": 572,
+                  "end": 575
                 },
                 "operator": "in",
                 "right": {
                   "type": "Identifier",
-                  "start": 579,
-                  "end": 580,
                   "decorators": [],
                   "name": "x",
                   "optional": false,
-                  "typeAnnotation": null
-                }
-              }
-            }
+                  "typeAnnotation": null,
+                  "start": 579,
+                  "end": 580
+                },
+                "start": 572,
+                "end": 580
+              },
+              "start": 549,
+              "end": 580
+            },
+            "start": 542,
+            "end": 581
           }
-        ]
+        ],
+        "start": 536,
+        "end": 583
       },
-      "expression": false
+      "expression": false,
+      "start": 517,
+      "end": 583
     },
     {
       "type": "FunctionDeclaration",
-      "start": 585,
-      "end": 664,
       "id": {
         "type": "Identifier",
-        "start": 594,
-        "end": 596,
         "decorators": [],
         "name": "f4",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 594,
+        "end": 596
       },
       "generator": false,
       "async": false,
       "declare": false,
       "typeParameters": {
         "type": "TSTypeParameterDeclaration",
-        "start": 596,
-        "end": 610,
         "params": [
           {
             "type": "TSTypeParameter",
-            "start": 597,
-            "end": 609,
             "name": {
               "type": "Identifier",
-              "start": 597,
-              "end": 598,
               "decorators": [],
               "name": "T",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 597,
+              "end": 598
             },
             "constraint": {
               "type": "TSTypeLiteral",
+              "members": [],
               "start": 607,
-              "end": 609,
-              "members": []
+              "end": 609
             },
             "default": null,
             "in": false,
             "out": false,
-            "const": false
+            "const": false,
+            "start": 597,
+            "end": 609
           }
-        ]
+        ],
+        "start": 596,
+        "end": 610
       },
       "params": [
         {
           "type": "Identifier",
-          "start": 611,
-          "end": 615,
           "decorators": [],
           "name": "x",
           "optional": false,
           "typeAnnotation": {
             "type": "TSTypeAnnotation",
-            "start": 612,
-            "end": 615,
             "typeAnnotation": {
               "type": "TSTypeReference",
-              "start": 614,
-              "end": 615,
               "typeName": {
                 "type": "Identifier",
-                "start": 614,
-                "end": 615,
                 "decorators": [],
                 "name": "T",
                 "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "start": 614,
+                "end": 615
               },
-              "typeArguments": null
-            }
-          }
+              "typeArguments": null,
+              "start": 614,
+              "end": 615
+            },
+            "start": 612,
+            "end": 615
+          },
+          "start": 611,
+          "end": 615
         }
       ],
       "returnType": null,
       "body": {
         "type": "BlockStatement",
-        "start": 617,
-        "end": 664,
         "body": [
           {
             "type": "ReturnStatement",
-            "start": 623,
-            "end": 662,
             "argument": {
               "type": "LogicalExpression",
-              "start": 630,
-              "end": 661,
               "left": {
                 "type": "BinaryExpression",
-                "start": 630,
-                "end": 649,
                 "left": {
                   "type": "Identifier",
-                  "start": 630,
-                  "end": 631,
                   "decorators": [],
                   "name": "x",
                   "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "start": 630,
+                  "end": 631
                 },
                 "operator": "instanceof",
                 "right": {
                   "type": "Identifier",
-                  "start": 643,
-                  "end": 649,
                   "decorators": [],
                   "name": "Object",
                   "optional": false,
-                  "typeAnnotation": null
-                }
+                  "typeAnnotation": null,
+                  "start": 643,
+                  "end": 649
+                },
+                "start": 630,
+                "end": 649
               },
               "operator": "&&",
               "right": {
                 "type": "BinaryExpression",
-                "start": 653,
-                "end": 661,
                 "left": {
                   "type": "Literal",
-                  "start": 653,
-                  "end": 656,
                   "value": "a",
-                  "raw": "'a'"
+                  "raw": "'a'",
+                  "start": 653,
+                  "end": 656
                 },
                 "operator": "in",
                 "right": {
                   "type": "Identifier",
-                  "start": 660,
-                  "end": 661,
                   "decorators": [],
                   "name": "x",
                   "optional": false,
-                  "typeAnnotation": null
-                }
-              }
-            }
+                  "typeAnnotation": null,
+                  "start": 660,
+                  "end": 661
+                },
+                "start": 653,
+                "end": 661
+              },
+              "start": 630,
+              "end": 661
+            },
+            "start": 623,
+            "end": 662
           }
-        ]
+        ],
+        "start": 617,
+        "end": 664
       },
-      "expression": false
+      "expression": false,
+      "start": 585,
+      "end": 664
     },
     {
       "type": "FunctionDeclaration",
-      "start": 666,
-      "end": 739,
       "id": {
         "type": "Identifier",
-        "start": 675,
-        "end": 677,
         "decorators": [],
         "name": "f5",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 675,
+        "end": 677
       },
       "generator": false,
       "async": false,
       "declare": false,
       "typeParameters": {
         "type": "TSTypeParameterDeclaration",
-        "start": 677,
-        "end": 680,
         "params": [
           {
             "type": "TSTypeParameter",
-            "start": 678,
-            "end": 679,
             "name": {
               "type": "Identifier",
-              "start": 678,
-              "end": 679,
               "decorators": [],
               "name": "T",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 678,
+              "end": 679
             },
             "constraint": null,
             "default": null,
             "in": false,
             "out": false,
-            "const": false
+            "const": false,
+            "start": 678,
+            "end": 679
           }
-        ]
+        ],
+        "start": 677,
+        "end": 680
       },
       "params": [
         {
           "type": "Identifier",
-          "start": 681,
-          "end": 690,
           "decorators": [],
           "name": "x",
           "optional": false,
           "typeAnnotation": {
             "type": "TSTypeAnnotation",
-            "start": 682,
-            "end": 690,
             "typeAnnotation": {
               "type": "TSIntersectionType",
-              "start": 684,
-              "end": 690,
               "types": [
                 {
                   "type": "TSTypeReference",
-                  "start": 684,
-                  "end": 685,
                   "typeName": {
                     "type": "Identifier",
-                    "start": 684,
-                    "end": 685,
                     "decorators": [],
                     "name": "T",
                     "optional": false,
-                    "typeAnnotation": null
+                    "typeAnnotation": null,
+                    "start": 684,
+                    "end": 685
                   },
-                  "typeArguments": null
+                  "typeArguments": null,
+                  "start": 684,
+                  "end": 685
                 },
                 {
                   "type": "TSTypeLiteral",
+                  "members": [],
                   "start": 688,
-                  "end": 690,
-                  "members": []
+                  "end": 690
                 }
-              ]
-            }
-          }
+              ],
+              "start": 684,
+              "end": 690
+            },
+            "start": 682,
+            "end": 690
+          },
+          "start": 681,
+          "end": 690
         }
       ],
       "returnType": null,
       "body": {
         "type": "BlockStatement",
-        "start": 692,
-        "end": 739,
         "body": [
           {
             "type": "ReturnStatement",
-            "start": 698,
-            "end": 737,
             "argument": {
               "type": "LogicalExpression",
-              "start": 705,
-              "end": 736,
               "left": {
                 "type": "BinaryExpression",
-                "start": 705,
-                "end": 724,
                 "left": {
                   "type": "Identifier",
-                  "start": 705,
-                  "end": 706,
                   "decorators": [],
                   "name": "x",
                   "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "start": 705,
+                  "end": 706
                 },
                 "operator": "instanceof",
                 "right": {
                   "type": "Identifier",
-                  "start": 718,
-                  "end": 724,
                   "decorators": [],
                   "name": "Object",
                   "optional": false,
-                  "typeAnnotation": null
-                }
+                  "typeAnnotation": null,
+                  "start": 718,
+                  "end": 724
+                },
+                "start": 705,
+                "end": 724
               },
               "operator": "&&",
               "right": {
                 "type": "BinaryExpression",
-                "start": 728,
-                "end": 736,
                 "left": {
                   "type": "Literal",
-                  "start": 728,
-                  "end": 731,
                   "value": "a",
-                  "raw": "'a'"
+                  "raw": "'a'",
+                  "start": 728,
+                  "end": 731
                 },
                 "operator": "in",
                 "right": {
                   "type": "Identifier",
-                  "start": 735,
-                  "end": 736,
                   "decorators": [],
                   "name": "x",
                   "optional": false,
-                  "typeAnnotation": null
-                }
-              }
-            }
+                  "typeAnnotation": null,
+                  "start": 735,
+                  "end": 736
+                },
+                "start": 728,
+                "end": 736
+              },
+              "start": 705,
+              "end": 736
+            },
+            "start": 698,
+            "end": 737
           }
-        ]
+        ],
+        "start": 692,
+        "end": 739
       },
-      "expression": false
+      "expression": false,
+      "start": 666,
+      "end": 739
     },
     {
       "type": "FunctionDeclaration",
-      "start": 741,
-      "end": 825,
       "id": {
         "type": "Identifier",
-        "start": 750,
-        "end": 752,
         "decorators": [],
         "name": "f6",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 750,
+        "end": 752
       },
       "generator": false,
       "async": false,
       "declare": false,
       "typeParameters": {
         "type": "TSTypeParameterDeclaration",
-        "start": 752,
-        "end": 766,
         "params": [
           {
             "type": "TSTypeParameter",
-            "start": 753,
-            "end": 765,
             "name": {
               "type": "Identifier",
-              "start": 753,
-              "end": 754,
               "decorators": [],
               "name": "T",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 753,
+              "end": 754
             },
             "constraint": {
               "type": "TSTypeLiteral",
+              "members": [],
               "start": 763,
-              "end": 765,
-              "members": []
+              "end": 765
             },
             "default": null,
             "in": false,
             "out": false,
-            "const": false
+            "const": false,
+            "start": 753,
+            "end": 765
           }
-        ]
+        ],
+        "start": 752,
+        "end": 766
       },
       "params": [
         {
           "type": "Identifier",
-          "start": 767,
-          "end": 776,
           "decorators": [],
           "name": "x",
           "optional": false,
           "typeAnnotation": {
             "type": "TSTypeAnnotation",
-            "start": 768,
-            "end": 776,
             "typeAnnotation": {
               "type": "TSIntersectionType",
-              "start": 770,
-              "end": 776,
               "types": [
                 {
                   "type": "TSTypeReference",
-                  "start": 770,
-                  "end": 771,
                   "typeName": {
                     "type": "Identifier",
-                    "start": 770,
-                    "end": 771,
                     "decorators": [],
                     "name": "T",
                     "optional": false,
-                    "typeAnnotation": null
+                    "typeAnnotation": null,
+                    "start": 770,
+                    "end": 771
                   },
-                  "typeArguments": null
+                  "typeArguments": null,
+                  "start": 770,
+                  "end": 771
                 },
                 {
                   "type": "TSTypeLiteral",
+                  "members": [],
                   "start": 774,
-                  "end": 776,
-                  "members": []
+                  "end": 776
                 }
-              ]
-            }
-          }
+              ],
+              "start": 770,
+              "end": 776
+            },
+            "start": 768,
+            "end": 776
+          },
+          "start": 767,
+          "end": 776
         }
       ],
       "returnType": null,
       "body": {
         "type": "BlockStatement",
-        "start": 778,
-        "end": 825,
         "body": [
           {
             "type": "ReturnStatement",
-            "start": 784,
-            "end": 823,
             "argument": {
               "type": "LogicalExpression",
-              "start": 791,
-              "end": 822,
               "left": {
                 "type": "BinaryExpression",
-                "start": 791,
-                "end": 810,
                 "left": {
                   "type": "Identifier",
-                  "start": 791,
-                  "end": 792,
                   "decorators": [],
                   "name": "x",
                   "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "start": 791,
+                  "end": 792
                 },
                 "operator": "instanceof",
                 "right": {
                   "type": "Identifier",
-                  "start": 804,
-                  "end": 810,
                   "decorators": [],
                   "name": "Object",
                   "optional": false,
-                  "typeAnnotation": null
-                }
+                  "typeAnnotation": null,
+                  "start": 804,
+                  "end": 810
+                },
+                "start": 791,
+                "end": 810
               },
               "operator": "&&",
               "right": {
                 "type": "BinaryExpression",
-                "start": 814,
-                "end": 822,
                 "left": {
                   "type": "Literal",
-                  "start": 814,
-                  "end": 817,
                   "value": "a",
-                  "raw": "'a'"
+                  "raw": "'a'",
+                  "start": 814,
+                  "end": 817
                 },
                 "operator": "in",
                 "right": {
                   "type": "Identifier",
-                  "start": 821,
-                  "end": 822,
                   "decorators": [],
                   "name": "x",
                   "optional": false,
-                  "typeAnnotation": null
-                }
-              }
-            }
+                  "typeAnnotation": null,
+                  "start": 821,
+                  "end": 822
+                },
+                "start": 814,
+                "end": 822
+              },
+              "start": 791,
+              "end": 822
+            },
+            "start": 784,
+            "end": 823
           }
-        ]
+        ],
+        "start": 778,
+        "end": 825
       },
-      "expression": false
+      "expression": false,
+      "start": 741,
+      "end": 825
     },
     {
       "type": "FunctionDeclaration",
-      "start": 827,
-      "end": 915,
       "id": {
         "type": "Identifier",
-        "start": 836,
-        "end": 838,
         "decorators": [],
         "name": "f7",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 836,
+        "end": 838
       },
       "generator": false,
       "async": false,
       "declare": false,
       "typeParameters": {
         "type": "TSTypeParameterDeclaration",
-        "start": 838,
-        "end": 856,
         "params": [
           {
             "type": "TSTypeParameter",
-            "start": 839,
-            "end": 855,
             "name": {
               "type": "Identifier",
-              "start": 839,
-              "end": 840,
               "decorators": [],
               "name": "T",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 839,
+              "end": 840
             },
             "constraint": {
               "type": "TSObjectKeyword",
@@ -1262,122 +1254,130 @@ __ESTREE_TEST__:PASS:
             "default": null,
             "in": false,
             "out": false,
-            "const": false
+            "const": false,
+            "start": 839,
+            "end": 855
           }
-        ]
+        ],
+        "start": 838,
+        "end": 856
       },
       "params": [
         {
           "type": "Identifier",
-          "start": 857,
-          "end": 866,
           "decorators": [],
           "name": "x",
           "optional": false,
           "typeAnnotation": {
             "type": "TSTypeAnnotation",
-            "start": 858,
-            "end": 866,
             "typeAnnotation": {
               "type": "TSIntersectionType",
-              "start": 860,
-              "end": 866,
               "types": [
                 {
                   "type": "TSTypeReference",
-                  "start": 860,
-                  "end": 861,
                   "typeName": {
                     "type": "Identifier",
-                    "start": 860,
-                    "end": 861,
                     "decorators": [],
                     "name": "T",
                     "optional": false,
-                    "typeAnnotation": null
+                    "typeAnnotation": null,
+                    "start": 860,
+                    "end": 861
                   },
-                  "typeArguments": null
+                  "typeArguments": null,
+                  "start": 860,
+                  "end": 861
                 },
                 {
                   "type": "TSTypeLiteral",
+                  "members": [],
                   "start": 864,
-                  "end": 866,
-                  "members": []
+                  "end": 866
                 }
-              ]
-            }
-          }
+              ],
+              "start": 860,
+              "end": 866
+            },
+            "start": 858,
+            "end": 866
+          },
+          "start": 857,
+          "end": 866
         }
       ],
       "returnType": null,
       "body": {
         "type": "BlockStatement",
-        "start": 868,
-        "end": 915,
         "body": [
           {
             "type": "ReturnStatement",
-            "start": 874,
-            "end": 913,
             "argument": {
               "type": "LogicalExpression",
-              "start": 881,
-              "end": 912,
               "left": {
                 "type": "BinaryExpression",
-                "start": 881,
-                "end": 900,
                 "left": {
                   "type": "Identifier",
-                  "start": 881,
-                  "end": 882,
                   "decorators": [],
                   "name": "x",
                   "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "start": 881,
+                  "end": 882
                 },
                 "operator": "instanceof",
                 "right": {
                   "type": "Identifier",
-                  "start": 894,
-                  "end": 900,
                   "decorators": [],
                   "name": "Object",
                   "optional": false,
-                  "typeAnnotation": null
-                }
+                  "typeAnnotation": null,
+                  "start": 894,
+                  "end": 900
+                },
+                "start": 881,
+                "end": 900
               },
               "operator": "&&",
               "right": {
                 "type": "BinaryExpression",
-                "start": 904,
-                "end": 912,
                 "left": {
                   "type": "Literal",
-                  "start": 904,
-                  "end": 907,
                   "value": "a",
-                  "raw": "'a'"
+                  "raw": "'a'",
+                  "start": 904,
+                  "end": 907
                 },
                 "operator": "in",
                 "right": {
                   "type": "Identifier",
-                  "start": 911,
-                  "end": 912,
                   "decorators": [],
                   "name": "x",
                   "optional": false,
-                  "typeAnnotation": null
-                }
-              }
-            }
+                  "typeAnnotation": null,
+                  "start": 911,
+                  "end": 912
+                },
+                "start": 904,
+                "end": 912
+              },
+              "start": 881,
+              "end": 912
+            },
+            "start": 874,
+            "end": 913
           }
-        ]
+        ],
+        "start": 868,
+        "end": 915
       },
-      "expression": false
+      "expression": false,
+      "start": 827,
+      "end": 915
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 22,
+  "end": 915
 }
 ```

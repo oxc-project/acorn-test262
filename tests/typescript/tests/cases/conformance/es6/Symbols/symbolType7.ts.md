@@ -2,250 +2,250 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 78,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 0,
-      "end": 28,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 4,
-          "end": 27,
           "id": {
             "type": "Identifier",
-            "start": 4,
-            "end": 5,
             "decorators": [],
             "name": "s",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 4,
+            "end": 5
           },
           "init": {
             "type": "CallExpression",
-            "start": 8,
-            "end": 27,
             "callee": {
               "type": "MemberExpression",
-              "start": 8,
-              "end": 18,
               "object": {
                 "type": "Identifier",
-                "start": 8,
-                "end": 14,
                 "decorators": [],
                 "name": "Symbol",
                 "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "start": 8,
+                "end": 14
               },
               "property": {
                 "type": "Identifier",
-                "start": 15,
-                "end": 18,
                 "decorators": [],
                 "name": "for",
                 "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "start": 15,
+                "end": 18
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 8,
+              "end": 18
             },
             "typeArguments": null,
             "arguments": [
               {
                 "type": "Literal",
-                "start": 19,
-                "end": 26,
                 "value": "shift",
-                "raw": "\"shift\""
+                "raw": "\"shift\"",
+                "start": 19,
+                "end": 26
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 8,
+            "end": 27
           },
-          "definite": false
+          "definite": false,
+          "start": 4,
+          "end": 27
         }
       ],
-      "declare": false
+      "declare": false,
+      "start": 0,
+      "end": 28
     },
     {
       "type": "ExpressionStatement",
-      "start": 29,
-      "end": 36,
       "expression": {
         "type": "BinaryExpression",
-        "start": 29,
-        "end": 35,
         "left": {
           "type": "Identifier",
+          "decorators": [],
+          "name": "s",
+          "optional": false,
+          "typeAnnotation": null,
           "start": 29,
-          "end": 30,
-          "decorators": [],
-          "name": "s",
-          "optional": false,
-          "typeAnnotation": null
+          "end": 30
         },
         "operator": "<<",
         "right": {
           "type": "Identifier",
+          "decorators": [],
+          "name": "s",
+          "optional": false,
+          "typeAnnotation": null,
           "start": 34,
-          "end": 35,
-          "decorators": [],
-          "name": "s",
-          "optional": false,
-          "typeAnnotation": null
-        }
+          "end": 35
+        },
+        "start": 29,
+        "end": 35
       },
-      "directive": null
+      "directive": null,
+      "start": 29,
+      "end": 36
     },
     {
       "type": "ExpressionStatement",
-      "start": 37,
-      "end": 44,
       "expression": {
         "type": "BinaryExpression",
-        "start": 37,
-        "end": 43,
         "left": {
           "type": "Identifier",
-          "start": 37,
-          "end": 38,
           "decorators": [],
           "name": "s",
           "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "start": 37,
+          "end": 38
         },
         "operator": "<<",
         "right": {
           "type": "Literal",
+          "value": 0,
+          "raw": "0",
           "start": 42,
-          "end": 43,
-          "value": 0,
-          "raw": "0"
-        }
+          "end": 43
+        },
+        "start": 37,
+        "end": 43
       },
-      "directive": null
+      "directive": null,
+      "start": 37,
+      "end": 44
     },
     {
       "type": "ExpressionStatement",
-      "start": 45,
-      "end": 52,
       "expression": {
         "type": "BinaryExpression",
-        "start": 45,
-        "end": 51,
         "left": {
           "type": "Identifier",
+          "decorators": [],
+          "name": "s",
+          "optional": false,
+          "typeAnnotation": null,
           "start": 45,
-          "end": 46,
-          "decorators": [],
-          "name": "s",
-          "optional": false,
-          "typeAnnotation": null
+          "end": 46
         },
         "operator": ">>",
         "right": {
           "type": "Identifier",
+          "decorators": [],
+          "name": "s",
+          "optional": false,
+          "typeAnnotation": null,
           "start": 50,
-          "end": 51,
-          "decorators": [],
-          "name": "s",
-          "optional": false,
-          "typeAnnotation": null
-        }
+          "end": 51
+        },
+        "start": 45,
+        "end": 51
       },
-      "directive": null
+      "directive": null,
+      "start": 45,
+      "end": 52
     },
     {
       "type": "ExpressionStatement",
-      "start": 53,
-      "end": 60,
       "expression": {
         "type": "BinaryExpression",
-        "start": 53,
-        "end": 59,
         "left": {
           "type": "Identifier",
-          "start": 53,
-          "end": 54,
           "decorators": [],
           "name": "s",
           "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "start": 53,
+          "end": 54
         },
         "operator": ">>",
         "right": {
           "type": "Literal",
-          "start": 58,
-          "end": 59,
           "value": 0,
-          "raw": "0"
-        }
+          "raw": "0",
+          "start": 58,
+          "end": 59
+        },
+        "start": 53,
+        "end": 59
       },
-      "directive": null
+      "directive": null,
+      "start": 53,
+      "end": 60
     },
     {
       "type": "ExpressionStatement",
-      "start": 61,
-      "end": 69,
       "expression": {
         "type": "BinaryExpression",
-        "start": 61,
-        "end": 68,
         "left": {
           "type": "Identifier",
-          "start": 61,
-          "end": 62,
           "decorators": [],
           "name": "s",
           "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "start": 61,
+          "end": 62
         },
         "operator": ">>>",
         "right": {
           "type": "Identifier",
-          "start": 67,
-          "end": 68,
           "decorators": [],
           "name": "s",
           "optional": false,
-          "typeAnnotation": null
-        }
+          "typeAnnotation": null,
+          "start": 67,
+          "end": 68
+        },
+        "start": 61,
+        "end": 68
       },
-      "directive": null
+      "directive": null,
+      "start": 61,
+      "end": 69
     },
     {
       "type": "ExpressionStatement",
-      "start": 70,
-      "end": 78,
       "expression": {
         "type": "BinaryExpression",
-        "start": 70,
-        "end": 77,
         "left": {
           "type": "Identifier",
-          "start": 70,
-          "end": 71,
           "decorators": [],
           "name": "s",
           "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "start": 70,
+          "end": 71
         },
         "operator": ">>>",
         "right": {
           "type": "Literal",
-          "start": 76,
-          "end": 77,
           "value": 0,
-          "raw": "0"
-        }
+          "raw": "0",
+          "start": 76,
+          "end": 77
+        },
+        "start": 70,
+        "end": 77
       },
-      "directive": null
+      "directive": null,
+      "start": 70,
+      "end": 78
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 78
 }
 ```

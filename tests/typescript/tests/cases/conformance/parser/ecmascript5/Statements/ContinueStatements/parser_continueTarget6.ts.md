@@ -2,44 +2,44 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 35,
   "body": [
     {
       "type": "WhileStatement",
-      "start": 0,
-      "end": 35,
       "test": {
         "type": "Literal",
-        "start": 7,
-        "end": 11,
         "value": true,
-        "raw": "true"
+        "raw": "true",
+        "start": 7,
+        "end": 11
       },
       "body": {
         "type": "BlockStatement",
-        "start": 13,
-        "end": 35,
         "body": [
           {
             "type": "ContinueStatement",
-            "start": 17,
-            "end": 33,
             "label": {
               "type": "Identifier",
-              "start": 26,
-              "end": 32,
               "decorators": [],
               "name": "target",
               "optional": false,
-              "typeAnnotation": null
-            }
+              "typeAnnotation": null,
+              "start": 26,
+              "end": 32
+            },
+            "start": 17,
+            "end": 33
           }
-        ]
-      }
+        ],
+        "start": 13,
+        "end": 35
+      },
+      "start": 0,
+      "end": 35
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 35
 }
 ```

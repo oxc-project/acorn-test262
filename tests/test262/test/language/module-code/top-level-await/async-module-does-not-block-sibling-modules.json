@@ -1,120 +1,120 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 502,
   "body": [
     {
       "type": "ImportDeclaration",
-      "start": 365,
-      "end": 404,
       "specifiers": [],
       "source": {
         "type": "Literal",
-        "start": 372,
-        "end": 403,
         "value": "./async-module-tla_FIXTURE.js",
-        "raw": "\"./async-module-tla_FIXTURE.js\""
+        "raw": "\"./async-module-tla_FIXTURE.js\"",
+        "start": 372,
+        "end": 403
       },
       "phase": null,
-      "attributes": []
+      "attributes": [],
+      "start": 365,
+      "end": 404
     },
     {
       "type": "ImportDeclaration",
-      "start": 405,
-      "end": 460,
       "specifiers": [
         {
           "type": "ImportSpecifier",
-          "start": 414,
-          "end": 419,
           "imported": {
             "type": "Identifier",
+            "name": "check",
             "start": 414,
-            "end": 419,
-            "name": "check"
+            "end": 419
           },
           "local": {
             "type": "Identifier",
+            "name": "check",
             "start": 414,
-            "end": 419,
-            "name": "check"
-          }
+            "end": 419
+          },
+          "start": 414,
+          "end": 419
         }
       ],
       "source": {
         "type": "Literal",
-        "start": 427,
-        "end": 459,
         "value": "./async-module-sync_FIXTURE.js",
-        "raw": "\"./async-module-sync_FIXTURE.js\""
+        "raw": "\"./async-module-sync_FIXTURE.js\"",
+        "start": 427,
+        "end": 459
       },
       "phase": null,
-      "attributes": []
+      "attributes": [],
+      "start": 405,
+      "end": 460
     },
     {
       "type": "ExpressionStatement",
-      "start": 461,
-      "end": 492,
       "expression": {
         "type": "CallExpression",
-        "start": 461,
-        "end": 491,
         "callee": {
           "type": "MemberExpression",
-          "start": 461,
-          "end": 477,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 461,
-            "end": 467,
-            "name": "assert"
+            "end": 467
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 468,
-            "end": 477,
-            "name": "sameValue"
+            "end": 477
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 461,
+          "end": 477
         },
         "arguments": [
           {
             "type": "Identifier",
+            "name": "check",
             "start": 478,
-            "end": 483,
-            "name": "check"
+            "end": 483
           },
           {
             "type": "Literal",
-            "start": 485,
-            "end": 490,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "start": 485,
+            "end": 490
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 461,
+        "end": 491
+      },
+      "start": 461,
+      "end": 492
     },
     {
       "type": "ExpressionStatement",
-      "start": 493,
-      "end": 501,
       "expression": {
         "type": "CallExpression",
-        "start": 493,
-        "end": 500,
         "callee": {
           "type": "Identifier",
+          "name": "$DONE",
           "start": 493,
-          "end": 498,
-          "name": "$DONE"
+          "end": 498
         },
         "arguments": [],
-        "optional": false
-      }
+        "optional": false,
+        "start": 493,
+        "end": 500
+      },
+      "start": 493,
+      "end": 501
     }
   ],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 502
 }

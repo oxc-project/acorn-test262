@@ -1,32 +1,32 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 419,
   "body": [
     {
       "type": "LabeledStatement",
-      "start": 409,
-      "end": 418,
       "label": {
         "type": "Identifier",
+        "name": "await",
         "start": 409,
-        "end": 414,
-        "name": "await"
+        "end": 414
       },
       "body": {
         "type": "ExpressionStatement",
-        "start": 416,
-        "end": 418,
         "expression": {
           "type": "Literal",
-          "start": 416,
-          "end": 417,
           "value": 1,
-          "raw": "1"
-        }
-      }
+          "raw": "1",
+          "start": 416,
+          "end": 417
+        },
+        "start": 416,
+        "end": 418
+      },
+      "start": 409,
+      "end": 418
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 419
 }

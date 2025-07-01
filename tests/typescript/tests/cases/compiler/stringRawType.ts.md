@@ -2,119 +2,119 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 49,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 0,
-      "end": 49,
       "expression": {
         "type": "CallExpression",
-        "start": 0,
-        "end": 48,
         "callee": {
           "type": "MemberExpression",
-          "start": 0,
-          "end": 10,
           "object": {
             "type": "Identifier",
-            "start": 0,
-            "end": 6,
             "decorators": [],
             "name": "String",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 0,
+            "end": 6
           },
           "property": {
             "type": "Identifier",
-            "start": 7,
-            "end": 10,
             "decorators": [],
             "name": "raw",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 7,
+            "end": 10
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 0,
+          "end": 10
         },
         "typeArguments": null,
         "arguments": [
           {
             "type": "ObjectExpression",
-            "start": 11,
-            "end": 41,
             "properties": [
               {
                 "type": "Property",
-                "start": 13,
-                "end": 39,
                 "kind": "init",
                 "key": {
                   "type": "Identifier",
-                  "start": 13,
-                  "end": 16,
                   "decorators": [],
                   "name": "raw",
                   "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "start": 13,
+                  "end": 16
                 },
                 "value": {
                   "type": "ArrayExpression",
-                  "start": 18,
-                  "end": 39,
                   "elements": [
                     {
                       "type": "Literal",
-                      "start": 19,
-                      "end": 24,
                       "value": "foo",
-                      "raw": "\"foo\""
+                      "raw": "\"foo\"",
+                      "start": 19,
+                      "end": 24
                     },
                     {
                       "type": "Literal",
-                      "start": 26,
-                      "end": 31,
                       "value": "bar",
-                      "raw": "\"bar\""
+                      "raw": "\"bar\"",
+                      "start": 26,
+                      "end": 31
                     },
                     {
                       "type": "Literal",
-                      "start": 33,
-                      "end": 38,
                       "value": "baz",
-                      "raw": "\"baz\""
+                      "raw": "\"baz\"",
+                      "start": 33,
+                      "end": 38
                     }
-                  ]
+                  ],
+                  "start": 18,
+                  "end": 39
                 },
                 "method": false,
                 "shorthand": false,
                 "computed": false,
-                "optional": false
+                "optional": false,
+                "start": 13,
+                "end": 39
               }
-            ]
+            ],
+            "start": 11,
+            "end": 41
           },
           {
             "type": "Literal",
-            "start": 43,
-            "end": 44,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "start": 43,
+            "end": 44
           },
           {
             "type": "Literal",
-            "start": 46,
-            "end": 47,
             "value": 2,
-            "raw": "2"
+            "raw": "2",
+            "start": 46,
+            "end": 47
           }
         ],
-        "optional": false
+        "optional": false,
+        "start": 0,
+        "end": 48
       },
-      "directive": null
+      "directive": null,
+      "start": 0,
+      "end": 49
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 49
 }
 ```

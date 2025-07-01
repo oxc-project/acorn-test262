@@ -2,32 +2,24 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 56,
-  "end": 95,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 56,
-      "end": 94,
       "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 62,
-          "end": 93,
           "id": {
             "type": "Identifier",
-            "start": 62,
-            "end": 65,
             "decorators": [],
             "name": "foo",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 62,
+            "end": 65
           },
           "init": {
             "type": "FunctionExpression",
-            "start": 68,
-            "end": 93,
             "id": null,
             "generator": false,
             "async": false,
@@ -36,107 +28,115 @@ __ESTREE_TEST__:PASS:
             "params": [
               {
                 "type": "Identifier",
-                "start": 78,
-                "end": 79,
                 "decorators": [],
                 "name": "a",
                 "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "start": 78,
+                "end": 79
               },
               {
                 "type": "Identifier",
-                "start": 81,
-                "end": 82,
                 "decorators": [],
                 "name": "b",
                 "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "start": 81,
+                "end": 82
               },
               {
                 "type": "RestElement",
-                "start": 84,
-                "end": 88,
                 "decorators": [],
                 "argument": {
                   "type": "Identifier",
-                  "start": 87,
-                  "end": 88,
                   "decorators": [],
                   "name": "r",
                   "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "start": 87,
+                  "end": 88
                 },
                 "optional": false,
                 "typeAnnotation": null,
-                "value": null
+                "value": null,
+                "start": 84,
+                "end": 88
               }
             ],
             "returnType": null,
             "body": {
               "type": "BlockStatement",
+              "body": [],
               "start": 90,
-              "end": 93,
-              "body": []
+              "end": 93
             },
-            "expression": false
+            "expression": false,
+            "start": 68,
+            "end": 93
           },
-          "definite": false
+          "definite": false,
+          "start": 62,
+          "end": 93
         }
       ],
-      "declare": false
+      "declare": false,
+      "start": 56,
+      "end": 94
     }
   ],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 56,
+  "end": 95
 }
 ```
 __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 15,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 0,
-      "end": 15,
       "expression": {
         "type": "CallExpression",
-        "start": 0,
-        "end": 14,
         "callee": {
           "type": "Identifier",
-          "start": 0,
-          "end": 3,
           "decorators": [],
           "name": "foo",
           "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "start": 0,
+          "end": 3
         },
         "typeArguments": null,
         "arguments": [
           {
             "type": "Literal",
-            "start": 4,
-            "end": 9,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "start": 4,
+            "end": 9
           },
           {
             "type": "Literal",
-            "start": 11,
-            "end": 13,
             "value": "",
-            "raw": "''"
+            "raw": "''",
+            "start": 11,
+            "end": 13
           }
         ],
-        "optional": false
+        "optional": false,
+        "start": 0,
+        "end": 14
       },
-      "directive": null
+      "directive": null,
+      "start": 0,
+      "end": 15
     }
   ],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 15
 }
 ```

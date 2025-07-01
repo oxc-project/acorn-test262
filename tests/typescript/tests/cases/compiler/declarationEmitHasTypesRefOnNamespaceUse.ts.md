@@ -2,81 +2,77 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 50,
   "body": [
     {
       "type": "TSModuleDeclaration",
-      "start": 0,
-      "end": 50,
       "id": {
         "type": "Identifier",
-        "start": 18,
-        "end": 20,
         "decorators": [],
         "name": "NS",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 18,
+        "end": 20
       },
       "body": {
         "type": "TSModuleBlock",
-        "start": 21,
-        "end": 50,
         "body": [
           {
             "type": "TSInterfaceDeclaration",
-            "start": 27,
-            "end": 48,
             "id": {
               "type": "Identifier",
-              "start": 37,
-              "end": 40,
               "decorators": [],
               "name": "Dep",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 37,
+              "end": 40
             },
             "typeParameters": null,
             "extends": [],
             "body": {
               "type": "TSInterfaceBody",
+              "body": [],
               "start": 41,
-              "end": 48,
-              "body": []
+              "end": 48
             },
-            "declare": false
+            "declare": false,
+            "start": 27,
+            "end": 48
           }
-        ]
+        ],
+        "start": 21,
+        "end": 50
       },
       "kind": "namespace",
       "declare": true,
-      "global": false
+      "global": false,
+      "start": 0,
+      "end": 50
     }
   ],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 50
 }
 ```
 __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 31,
   "body": [
     {
       "type": "ClassDeclaration",
-      "start": 0,
-      "end": 31,
       "decorators": [],
       "id": {
         "type": "Identifier",
-        "start": 6,
-        "end": 9,
         "decorators": [],
         "name": "Src",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 6,
+        "end": 9
       },
       "typeParameters": null,
       "superClass": null,
@@ -84,47 +80,51 @@ __ESTREE_TEST__:PASS:
       "implements": [
         {
           "type": "TSClassImplements",
-          "start": 21,
-          "end": 27,
           "expression": {
             "type": "MemberExpression",
-            "start": 21,
-            "end": 27,
             "object": {
               "type": "Identifier",
-              "start": 21,
-              "end": 23,
               "decorators": [],
               "name": "NS",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 21,
+              "end": 23
             },
             "property": {
               "type": "Identifier",
-              "start": 24,
-              "end": 27,
               "decorators": [],
               "name": "Dep",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 24,
+              "end": 27
             },
             "optional": false,
-            "computed": false
+            "computed": false,
+            "start": 21,
+            "end": 27
           },
-          "typeArguments": null
+          "typeArguments": null,
+          "start": 21,
+          "end": 27
         }
       ],
       "body": {
         "type": "ClassBody",
+        "body": [],
         "start": 28,
-        "end": 31,
-        "body": []
+        "end": 31
       },
       "abstract": false,
-      "declare": false
+      "declare": false,
+      "start": 0,
+      "end": 31
     }
   ],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 31
 }
 ```

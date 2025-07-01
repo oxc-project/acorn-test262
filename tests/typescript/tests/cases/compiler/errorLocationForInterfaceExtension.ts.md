@@ -2,81 +2,81 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 43,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 0,
-      "end": 11,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 4,
-          "end": 10,
           "id": {
             "type": "Identifier",
-            "start": 4,
-            "end": 5,
             "decorators": [],
             "name": "n",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 4,
+            "end": 5
           },
           "init": {
             "type": "Literal",
-            "start": 8,
-            "end": 10,
             "value": "",
-            "raw": "''"
+            "raw": "''",
+            "start": 8,
+            "end": 10
           },
-          "definite": false
+          "definite": false,
+          "start": 4,
+          "end": 10
         }
       ],
-      "declare": false
+      "declare": false,
+      "start": 0,
+      "end": 11
     },
     {
       "type": "TSInterfaceDeclaration",
-      "start": 13,
-      "end": 43,
       "id": {
         "type": "Identifier",
-        "start": 23,
-        "end": 24,
         "decorators": [],
         "name": "x",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 23,
+        "end": 24
       },
       "typeParameters": null,
       "extends": [
         {
           "type": "TSInterfaceHeritage",
-          "start": 33,
-          "end": 39,
           "expression": {
             "type": "Identifier",
-            "start": 33,
-            "end": 39,
             "decorators": [],
             "name": "string",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 33,
+            "end": 39
           },
-          "typeArguments": null
+          "typeArguments": null,
+          "start": 33,
+          "end": 39
         }
       ],
       "body": {
         "type": "TSInterfaceBody",
+        "body": [],
         "start": 40,
-        "end": 43,
-        "body": []
+        "end": 43
       },
-      "declare": false
+      "declare": false,
+      "start": 13,
+      "end": 43
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 43
 }
 ```

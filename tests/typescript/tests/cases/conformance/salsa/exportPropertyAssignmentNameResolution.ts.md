@@ -2,63 +2,55 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 36,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 0,
-      "end": 28,
       "expression": {
         "type": "AssignmentExpression",
-        "start": 0,
-        "end": 28,
         "operator": "=",
         "left": {
           "type": "MemberExpression",
-          "start": 0,
-          "end": 16,
           "object": {
             "type": "MemberExpression",
-            "start": 0,
-            "end": 14,
             "object": {
               "type": "Identifier",
-              "start": 0,
-              "end": 6,
               "decorators": [],
               "name": "module",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 0,
+              "end": 6
             },
             "property": {
               "type": "Identifier",
-              "start": 7,
-              "end": 14,
               "decorators": [],
               "name": "exports",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 7,
+              "end": 14
             },
             "optional": false,
-            "computed": false
+            "computed": false,
+            "start": 0,
+            "end": 14
           },
           "property": {
             "type": "Identifier",
-            "start": 15,
-            "end": 16,
             "decorators": [],
             "name": "D",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 15,
+            "end": 16
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 0,
+          "end": 16
         },
         "right": {
           "type": "ClassExpression",
-          "start": 19,
-          "end": 28,
           "decorators": [],
           "id": null,
           "typeParameters": null,
@@ -67,40 +59,48 @@ __ESTREE_TEST__:PASS:
           "implements": [],
           "body": {
             "type": "ClassBody",
+            "body": [],
             "start": 25,
-            "end": 28,
-            "body": []
+            "end": 28
           },
           "abstract": false,
-          "declare": false
-        }
+          "declare": false,
+          "start": 19,
+          "end": 28
+        },
+        "start": 0,
+        "end": 28
       },
-      "directive": null
+      "directive": null,
+      "start": 0,
+      "end": 28
     },
     {
       "type": "ExpressionStatement",
-      "start": 29,
-      "end": 36,
       "expression": {
         "type": "NewExpression",
-        "start": 29,
-        "end": 36,
         "callee": {
           "type": "Identifier",
-          "start": 33,
-          "end": 34,
           "decorators": [],
           "name": "D",
           "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "start": 33,
+          "end": 34
         },
         "typeArguments": null,
-        "arguments": []
+        "arguments": [],
+        "start": 29,
+        "end": 36
       },
-      "directive": null
+      "directive": null,
+      "start": 29,
+      "end": 36
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 36
 }
 ```

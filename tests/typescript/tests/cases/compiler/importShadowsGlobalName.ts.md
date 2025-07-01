@@ -2,22 +2,18 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 27,
   "body": [
     {
       "type": "ClassDeclaration",
-      "start": 0,
-      "end": 12,
       "decorators": [],
       "id": {
         "type": "Identifier",
-        "start": 6,
-        "end": 9,
         "decorators": [],
         "name": "Foo",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 6,
+        "end": 9
       },
       "typeParameters": null,
       "superClass": null,
@@ -25,117 +21,121 @@ __ESTREE_TEST__:PASS:
       "implements": [],
       "body": {
         "type": "ClassBody",
+        "body": [],
         "start": 10,
-        "end": 12,
-        "body": []
+        "end": 12
       },
       "abstract": false,
-      "declare": false
+      "declare": false,
+      "start": 0,
+      "end": 12
     },
     {
       "type": "TSExportAssignment",
-      "start": 13,
-      "end": 26,
       "expression": {
         "type": "Identifier",
-        "start": 22,
-        "end": 25,
         "decorators": [],
         "name": "Foo",
         "optional": false,
-        "typeAnnotation": null
-      }
+        "typeAnnotation": null,
+        "start": 22,
+        "end": 25
+      },
+      "start": 13,
+      "end": 26
     }
   ],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 27
 }
 ```
 __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 71,
   "body": [
     {
       "type": "TSImportEqualsDeclaration",
-      "start": 0,
-      "end": 30,
       "id": {
         "type": "Identifier",
-        "start": 7,
-        "end": 12,
         "decorators": [],
         "name": "Error",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 7,
+        "end": 12
       },
       "moduleReference": {
         "type": "TSExternalModuleReference",
-        "start": 15,
-        "end": 29,
         "expression": {
           "type": "Literal",
-          "start": 23,
-          "end": 28,
           "value": "Foo",
-          "raw": "'Foo'"
-        }
+          "raw": "'Foo'",
+          "start": 23,
+          "end": 28
+        },
+        "start": 15,
+        "end": 29
       },
-      "importKind": "value"
+      "importKind": "value",
+      "start": 0,
+      "end": 30
     },
     {
       "type": "ClassDeclaration",
-      "start": 31,
-      "end": 57,
       "decorators": [],
       "id": {
         "type": "Identifier",
-        "start": 37,
-        "end": 40,
         "decorators": [],
         "name": "Bar",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 37,
+        "end": 40
       },
       "typeParameters": null,
       "superClass": {
         "type": "Identifier",
-        "start": 49,
-        "end": 54,
         "decorators": [],
         "name": "Error",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 49,
+        "end": 54
       },
       "superTypeArguments": null,
       "implements": [],
       "body": {
         "type": "ClassBody",
+        "body": [],
         "start": 55,
-        "end": 57,
-        "body": []
+        "end": 57
       },
       "abstract": false,
-      "declare": false
+      "declare": false,
+      "start": 31,
+      "end": 57
     },
     {
       "type": "TSExportAssignment",
-      "start": 58,
-      "end": 71,
       "expression": {
         "type": "Identifier",
-        "start": 67,
-        "end": 70,
         "decorators": [],
         "name": "Bar",
         "optional": false,
-        "typeAnnotation": null
-      }
+        "typeAnnotation": null,
+        "start": 67,
+        "end": 70
+      },
+      "start": 58,
+      "end": 71
     }
   ],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 71
 }
 ```

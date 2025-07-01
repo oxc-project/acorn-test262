@@ -1,117 +1,117 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 981,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 904,
-      "end": 979,
       "expression": {
         "type": "CallExpression",
-        "start": 904,
-        "end": 978,
         "callee": {
           "type": "MemberExpression",
-          "start": 904,
-          "end": 917,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 904,
-            "end": 910,
-            "name": "assert"
+            "end": 910
           },
           "property": {
             "type": "Identifier",
+            "name": "throws",
             "start": 911,
-            "end": 917,
-            "name": "throws"
+            "end": 917
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 904,
+          "end": 917
         },
         "arguments": [
           {
             "type": "Identifier",
+            "name": "TypeError",
             "start": 918,
-            "end": 927,
-            "name": "TypeError"
+            "end": 927
           },
           {
             "type": "ArrowFunctionExpression",
-            "start": 929,
-            "end": 977,
             "expression": false,
             "async": false,
             "params": [],
             "body": {
               "type": "BlockStatement",
-              "start": 935,
-              "end": 977,
               "body": [
                 {
                   "type": "VariableDeclaration",
-                  "start": 939,
-                  "end": 975,
                   "kind": "var",
                   "declarations": [
                     {
                       "type": "VariableDeclarator",
-                      "start": 943,
-                      "end": 974,
                       "id": {
                         "type": "Identifier",
+                        "name": "C",
                         "start": 943,
-                        "end": 944,
-                        "name": "C"
+                        "end": 944
                       },
                       "init": {
                         "type": "ClassExpression",
-                        "start": 947,
-                        "end": 974,
                         "decorators": [],
                         "id": null,
                         "superClass": {
                           "type": "ParenthesizedExpression",
-                          "start": 961,
-                          "end": 971,
                           "expression": {
                             "type": "ArrowFunctionExpression",
-                            "start": 962,
-                            "end": 970,
                             "expression": false,
                             "async": false,
                             "params": [],
                             "body": {
                               "type": "BlockStatement",
+                              "body": [],
                               "start": 968,
-                              "end": 970,
-                              "body": []
+                              "end": 970
                             },
                             "id": null,
-                            "generator": false
-                          }
+                            "generator": false,
+                            "start": 962,
+                            "end": 970
+                          },
+                          "start": 961,
+                          "end": 971
                         },
                         "body": {
                           "type": "ClassBody",
+                          "body": [],
                           "start": 972,
-                          "end": 974,
-                          "body": []
-                        }
-                      }
+                          "end": 974
+                        },
+                        "start": 947,
+                        "end": 974
+                      },
+                      "start": 943,
+                      "end": 974
                     }
-                  ]
+                  ],
+                  "start": 939,
+                  "end": 975
                 }
-              ]
+              ],
+              "start": 935,
+              "end": 977
             },
             "id": null,
-            "generator": false
+            "generator": false,
+            "start": 929,
+            "end": 977
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 904,
+        "end": 978
+      },
+      "start": 904,
+      "end": 979
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 981
 }

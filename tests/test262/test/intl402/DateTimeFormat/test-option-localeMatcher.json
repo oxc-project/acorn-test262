@@ -1,118 +1,118 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 399,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 285,
-      "end": 398,
       "expression": {
         "type": "CallExpression",
-        "start": 285,
-        "end": 397,
         "callee": {
           "type": "Identifier",
+          "name": "testOption",
           "start": 285,
-          "end": 295,
-          "name": "testOption"
+          "end": 295
         },
         "arguments": [
           {
             "type": "MemberExpression",
-            "start": 296,
-            "end": 315,
             "object": {
               "type": "Identifier",
+              "name": "Intl",
               "start": 296,
-              "end": 300,
-              "name": "Intl"
+              "end": 300
             },
             "property": {
               "type": "Identifier",
+              "name": "DateTimeFormat",
               "start": 301,
-              "end": 315,
-              "name": "DateTimeFormat"
+              "end": 315
             },
             "optional": false,
-            "computed": false
+            "computed": false,
+            "start": 296,
+            "end": 315
           },
           {
             "type": "Literal",
-            "start": 317,
-            "end": 332,
             "value": "localeMatcher",
-            "raw": "\"localeMatcher\""
+            "raw": "\"localeMatcher\"",
+            "start": 317,
+            "end": 332
           },
           {
             "type": "Literal",
-            "start": 334,
-            "end": 342,
             "value": "string",
-            "raw": "\"string\""
+            "raw": "\"string\"",
+            "start": 334,
+            "end": 342
           },
           {
             "type": "ArrayExpression",
-            "start": 344,
-            "end": 366,
             "elements": [
               {
                 "type": "Literal",
-                "start": 345,
-                "end": 353,
                 "value": "lookup",
-                "raw": "\"lookup\""
+                "raw": "\"lookup\"",
+                "start": 345,
+                "end": 353
               },
               {
                 "type": "Literal",
-                "start": 355,
-                "end": 365,
                 "value": "best fit",
-                "raw": "\"best fit\""
+                "raw": "\"best fit\"",
+                "start": 355,
+                "end": 365
               }
-            ]
+            ],
+            "start": 344,
+            "end": 366
           },
           {
             "type": "Literal",
-            "start": 368,
-            "end": 378,
             "value": "best fit",
-            "raw": "\"best fit\""
+            "raw": "\"best fit\"",
+            "start": 368,
+            "end": 378
           },
           {
             "type": "ObjectExpression",
-            "start": 380,
-            "end": 396,
             "properties": [
               {
                 "type": "Property",
-                "start": 381,
-                "end": 395,
                 "kind": "init",
                 "key": {
                   "type": "Identifier",
+                  "name": "noReturn",
                   "start": 381,
-                  "end": 389,
-                  "name": "noReturn"
+                  "end": 389
                 },
                 "value": {
                   "type": "Literal",
-                  "start": 391,
-                  "end": 395,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "start": 391,
+                  "end": 395
                 },
                 "method": false,
                 "shorthand": false,
-                "computed": false
+                "computed": false,
+                "start": 381,
+                "end": 395
               }
-            ]
+            ],
+            "start": 380,
+            "end": 396
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 285,
+        "end": 397
+      },
+      "start": 285,
+      "end": 398
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 399
 }

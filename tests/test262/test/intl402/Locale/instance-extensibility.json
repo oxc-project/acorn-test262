@@ -1,115 +1,115 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 547,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 412,
-      "end": 546,
       "expression": {
         "type": "CallExpression",
-        "start": 412,
-        "end": 545,
         "callee": {
           "type": "MemberExpression",
-          "start": 412,
-          "end": 428,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 412,
-            "end": 418,
-            "name": "assert"
+            "end": 418
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 419,
-            "end": 428,
-            "name": "sameValue"
+            "end": 428
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 412,
+          "end": 428
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 432,
-            "end": 474,
             "callee": {
               "type": "MemberExpression",
-              "start": 432,
-              "end": 451,
               "object": {
                 "type": "Identifier",
+                "name": "Object",
                 "start": 432,
-                "end": 438,
-                "name": "Object"
+                "end": 438
               },
               "property": {
                 "type": "Identifier",
+                "name": "isExtensible",
                 "start": 439,
-                "end": 451,
-                "name": "isExtensible"
+                "end": 451
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 432,
+              "end": 451
             },
             "arguments": [
               {
                 "type": "NewExpression",
-                "start": 452,
-                "end": 473,
                 "callee": {
                   "type": "MemberExpression",
-                  "start": 456,
-                  "end": 467,
                   "object": {
                     "type": "Identifier",
+                    "name": "Intl",
                     "start": 456,
-                    "end": 460,
-                    "name": "Intl"
+                    "end": 460
                   },
                   "property": {
                     "type": "Identifier",
+                    "name": "Locale",
                     "start": 461,
-                    "end": 467,
-                    "name": "Locale"
+                    "end": 467
                   },
                   "optional": false,
-                  "computed": false
+                  "computed": false,
+                  "start": 456,
+                  "end": 467
                 },
                 "arguments": [
                   {
                     "type": "Literal",
-                    "start": 468,
-                    "end": 472,
                     "value": "en",
-                    "raw": "'en'"
+                    "raw": "'en'",
+                    "start": 468,
+                    "end": 472
                   }
-                ]
+                ],
+                "start": 452,
+                "end": 473
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 432,
+            "end": 474
           },
           {
             "type": "Literal",
-            "start": 478,
-            "end": 482,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "start": 478,
+            "end": 482
           },
           {
             "type": "Literal",
-            "start": 486,
-            "end": 543,
             "value": "Object.isExtensible(new Intl.Locale('en')) returns true",
-            "raw": "\"Object.isExtensible(new Intl.Locale('en')) returns true\""
+            "raw": "\"Object.isExtensible(new Intl.Locale('en')) returns true\"",
+            "start": 486,
+            "end": 543
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 412,
+        "end": 545
+      },
+      "start": 412,
+      "end": 546
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 547
 }

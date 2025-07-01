@@ -2,105 +2,105 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 52,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 0,
-      "end": 11,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 4,
-          "end": 10,
           "id": {
             "type": "Identifier",
-            "start": 4,
-            "end": 5,
             "decorators": [],
             "name": "x",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 4,
+            "end": 5
           },
           "init": {
             "type": "Literal",
-            "start": 8,
-            "end": 10,
             "value": "",
-            "raw": "''"
+            "raw": "''",
+            "start": 8,
+            "end": 10
           },
-          "definite": false
+          "definite": false,
+          "start": 4,
+          "end": 10
         }
       ],
-      "declare": false
+      "declare": false,
+      "start": 0,
+      "end": 11
     },
     {
       "type": "VariableDeclaration",
-      "start": 12,
-      "end": 43,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 16,
-          "end": 42,
           "id": {
             "type": "Identifier",
-            "start": 16,
-            "end": 17,
             "decorators": [],
             "name": "d",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 16,
+            "end": 17
           },
           "init": {
             "type": "CallExpression",
-            "start": 20,
-            "end": 42,
             "callee": {
               "type": "MemberExpression",
-              "start": 20,
-              "end": 31,
               "object": {
                 "type": "Identifier",
-                "start": 20,
-                "end": 21,
                 "decorators": [],
                 "name": "x",
                 "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "start": 20,
+                "end": 21
               },
               "property": {
                 "type": "Literal",
-                "start": 22,
-                "end": 30,
                 "value": "charAt",
-                "raw": "'charAt'"
+                "raw": "'charAt'",
+                "start": 22,
+                "end": 30
               },
               "optional": false,
-              "computed": true
+              "computed": true,
+              "start": 20,
+              "end": 31
             },
             "typeArguments": null,
             "arguments": [
               {
                 "type": "Literal",
-                "start": 32,
-                "end": 41,
                 "value": "invalid",
-                "raw": "'invalid'"
+                "raw": "'invalid'",
+                "start": 32,
+                "end": 41
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 20,
+            "end": 42
           },
-          "definite": false
+          "definite": false,
+          "start": 16,
+          "end": 42
         }
       ],
-      "declare": false
+      "declare": false,
+      "start": 12,
+      "end": 43
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 52
 }
 ```

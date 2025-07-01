@@ -2,26 +2,26 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 3,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 0,
-      "end": 3,
       "expression": {
         "type": "Identifier",
-        "start": 0,
-        "end": 3,
         "decorators": [],
         "name": "let",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 0,
+        "end": 3
       },
-      "directive": null
+      "directive": null,
+      "start": 0,
+      "end": 3
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 3
 }
 ```

@@ -1,1734 +1,1734 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 7519,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 276,
-      "end": 1559,
       "expression": {
         "type": "CallExpression",
-        "start": 276,
-        "end": 1558,
         "callee": {
           "type": "MemberExpression",
-          "start": 276,
-          "end": 292,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 276,
-            "end": 282,
-            "name": "assert"
+            "end": 282
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 283,
-            "end": 292,
-            "name": "sameValue"
+            "end": 292
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 276,
+          "end": 292
         },
         "arguments": [
           {
             "type": "BinaryExpression",
-            "start": 296,
-            "end": 312,
             "left": {
               "type": "Literal",
-              "start": 296,
-              "end": 302,
               "value": null,
               "raw": "0x123n",
-              "bigint": "291"
+              "bigint": "291",
+              "start": 296,
+              "end": 302
             },
             "operator": "**",
             "right": {
               "type": "Literal",
-              "start": 306,
-              "end": 312,
               "value": null,
               "raw": "0x123n",
-              "bigint": "291"
-            }
+              "bigint": "291",
+              "start": 306,
+              "end": 312
+            },
+            "start": 296,
+            "end": 312
           },
           {
             "type": "Literal",
-            "start": 316,
-            "end": 915,
             "value": null,
             "raw": "0x37AA7FAA38F2F6026AABEFE979EA730BA9EA4CB99E2E3F645D515D3BBE2D84BCD89F8A034BADF3E3DC0CF417258371B31F4555DC0883DA96760AB157DB7DFFF5E3E97A3EAAB8328B2B178060B5A5E4C4DD8BC8D66B7F4D9F0E0B1AC3A566FDE0A15EBF8DBDBD0565C5FBDB7C123CF250E271DF5C38BC6746A1327F09C7FB4B96E0EDA45C429799CA80B1DB039692C70DFFE4E66F1D9CAB4270863B09A7918F774D686F685F560FEDC6B7B85CB45DE5EEEF6A5FE2FC8B5037FB421204641909347C91F2DC252F49B8F310E867E56D1CA2E81EE9A3AA568682C7B8B41D709A2E7F8D9A8D8C56D6BE78B6CA8365E362B81A64974C315FB8FA50CED4F7944F28FA3ECA77B8BCB56DC69814328F891E6065D108EEE7B8E695038090CCA10C0E68DD7A36CFAA1C26CDFEC369FBn",
-            "bigint": "983693484619384723221233769764576884330168579405219615249831697652724463326876900643392062566490035183278931241293543503507832583705713613588931102212547599939752402681482637591732291625510074256256330423657207032665153987577788707088375449815379605541803266331282191256522844644836390946334296556372228042171131756406620367921269590300293218106904355369268208751354320601863869632673263053497081796251827606621313326426757602347770850634433706275482598402973283795149715734962968651315669667092962863034388004465506516916492575519381242405333220436117589364212975685031932625882464059631916269437529873755040882698620874623287583678700884215006479131429768685761887725448485960557846083936816147426493103796914448891"
+            "bigint": "983693484619384723221233769764576884330168579405219615249831697652724463326876900643392062566490035183278931241293543503507832583705713613588931102212547599939752402681482637591732291625510074256256330423657207032665153987577788707088375449815379605541803266331282191256522844644836390946334296556372228042171131756406620367921269590300293218106904355369268208751354320601863869632673263053497081796251827606621313326426757602347770850634433706275482598402973283795149715734962968651315669667092962863034388004465506516916492575519381242405333220436117589364212975685031932625882464059631916269437529873755040882698620874623287583678700884215006479131429768685761887725448485960557846083936816147426493103796914448891",
+            "start": 316,
+            "end": 915
           },
           {
             "type": "Literal",
-            "start": 919,
-            "end": 1556,
             "value": "The result of (0x123n ** 0x123n) is 0x37AA7FAA38F2F6026AABEFE979EA730BA9EA4CB99E2E3F645D515D3BBE2D84BCD89F8A034BADF3E3DC0CF417258371B31F4555DC0883DA96760AB157DB7DFFF5E3E97A3EAAB8328B2B178060B5A5E4C4DD8BC8D66B7F4D9F0E0B1AC3A566FDE0A15EBF8DBDBD0565C5FBDB7C123CF250E271DF5C38BC6746A1327F09C7FB4B96E0EDA45C429799CA80B1DB039692C70DFFE4E66F1D9CAB4270863B09A7918F774D686F685F560FEDC6B7B85CB45DE5EEEF6A5FE2FC8B5037FB421204641909347C91F2DC252F49B8F310E867E56D1CA2E81EE9A3AA568682C7B8B41D709A2E7F8D9A8D8C56D6BE78B6CA8365E362B81A64974C315FB8FA50CED4F7944F28FA3ECA77B8BCB56DC69814328F891E6065D108EEE7B8E695038090CCA10C0E68DD7A36CFAA1C26CDFEC369FBn",
-            "raw": "'The result of (0x123n ** 0x123n) is 0x37AA7FAA38F2F6026AABEFE979EA730BA9EA4CB99E2E3F645D515D3BBE2D84BCD89F8A034BADF3E3DC0CF417258371B31F4555DC0883DA96760AB157DB7DFFF5E3E97A3EAAB8328B2B178060B5A5E4C4DD8BC8D66B7F4D9F0E0B1AC3A566FDE0A15EBF8DBDBD0565C5FBDB7C123CF250E271DF5C38BC6746A1327F09C7FB4B96E0EDA45C429799CA80B1DB039692C70DFFE4E66F1D9CAB4270863B09A7918F774D686F685F560FEDC6B7B85CB45DE5EEEF6A5FE2FC8B5037FB421204641909347C91F2DC252F49B8F310E867E56D1CA2E81EE9A3AA568682C7B8B41D709A2E7F8D9A8D8C56D6BE78B6CA8365E362B81A64974C315FB8FA50CED4F7944F28FA3ECA77B8BCB56DC69814328F891E6065D108EEE7B8E695038090CCA10C0E68DD7A36CFAA1C26CDFEC369FBn'"
+            "raw": "'The result of (0x123n ** 0x123n) is 0x37AA7FAA38F2F6026AABEFE979EA730BA9EA4CB99E2E3F645D515D3BBE2D84BCD89F8A034BADF3E3DC0CF417258371B31F4555DC0883DA96760AB157DB7DFFF5E3E97A3EAAB8328B2B178060B5A5E4C4DD8BC8D66B7F4D9F0E0B1AC3A566FDE0A15EBF8DBDBD0565C5FBDB7C123CF250E271DF5C38BC6746A1327F09C7FB4B96E0EDA45C429799CA80B1DB039692C70DFFE4E66F1D9CAB4270863B09A7918F774D686F685F560FEDC6B7B85CB45DE5EEEF6A5FE2FC8B5037FB421204641909347C91F2DC252F49B8F310E867E56D1CA2E81EE9A3AA568682C7B8B41D709A2E7F8D9A8D8C56D6BE78B6CA8365E362B81A64974C315FB8FA50CED4F7944F28FA3ECA77B8BCB56DC69814328F891E6065D108EEE7B8E695038090CCA10C0E68DD7A36CFAA1C26CDFEC369FBn'",
+            "start": 919,
+            "end": 1556
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 276,
+        "end": 1558
+      },
+      "start": 276,
+      "end": 1559
     },
     {
       "type": "ExpressionStatement",
-      "start": 1561,
-      "end": 2694,
       "expression": {
         "type": "CallExpression",
-        "start": 1561,
-        "end": 2693,
         "callee": {
           "type": "MemberExpression",
-          "start": 1561,
-          "end": 1577,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 1561,
-            "end": 1567,
-            "name": "assert"
+            "end": 1567
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 1568,
-            "end": 1577,
-            "name": "sameValue"
+            "end": 1577
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 1561,
+          "end": 1577
         },
         "arguments": [
           {
             "type": "BinaryExpression",
-            "start": 1581,
-            "end": 1596,
             "left": {
               "type": "Literal",
-              "start": 1581,
-              "end": 1587,
               "value": null,
               "raw": "0x123n",
-              "bigint": "291"
+              "bigint": "291",
+              "start": 1581,
+              "end": 1587
             },
             "operator": "**",
             "right": {
               "type": "Literal",
-              "start": 1591,
-              "end": 1596,
               "value": null,
               "raw": "0xFFn",
-              "bigint": "255"
-            }
+              "bigint": "255",
+              "start": 1591,
+              "end": 1596
+            },
+            "start": 1581,
+            "end": 1596
           },
           {
             "type": "Literal",
-            "start": 1600,
-            "end": 2125,
             "value": null,
             "raw": "0x8D5BB75861377EC967BF78FDF39CE51696FBD34722999943F8865938772B517167CD5ED775A78987F5106831F4978E0709032B26ED8F13F814699DB8AB3ACD5CF631F2D8B8B706FCF5EF441AAEE745A795EC5CB86A5E8D87D09F648EFC557B98F73E750FEC9AED061D47806F269CCCDFB6D513912A82AE79B171D76AF6D926BC4F4C4DA43A6EFB4D9D1672E356CC1F74A29AF80D53A8F27592F6191AB9B3D57FA2C435CB2CE8F18A3B3448F88F4BAD3606A9878DA9528B569BADAC0C1EC0B1A2B06CD4C64DEEC940807DFD05C56E3E17ADB1A88EDAF0D67C87C1F871BFB5C47CAE8365FE33538317EE2DF4EE52636CE1BDA9E41C7DA72826E4C097A53BD73D8D697E10D28Bn",
-            "bigint": "19620595815997067158349810211292831910139536015067830266922706521424765877265965530512781071070108803591281548412210764167641524531441079821790711574097542477967447293426682231836030555988092783988120362212265419418777570324026985444799021426308840096805647714011509229931430652181622619073310009701777126982127093086079229640471171505171711659897263315866459093983460788897446114085703141445874423427915314768498667026418249919358073235854270078121599467039376044386406366081330370711072557820396263166550692871661408587291393210630250179168396920291807585615241163483738966583314755149849861302461132033097593759900312039117451"
+            "bigint": "19620595815997067158349810211292831910139536015067830266922706521424765877265965530512781071070108803591281548412210764167641524531441079821790711574097542477967447293426682231836030555988092783988120362212265419418777570324026985444799021426308840096805647714011509229931430652181622619073310009701777126982127093086079229640471171505171711659897263315866459093983460788897446114085703141445874423427915314768498667026418249919358073235854270078121599467039376044386406366081330370711072557820396263166550692871661408587291393210630250179168396920291807585615241163483738966583314755149849861302461132033097593759900312039117451",
+            "start": 1600,
+            "end": 2125
           },
           {
             "type": "Literal",
-            "start": 2129,
-            "end": 2691,
             "value": "The result of (0x123n ** 0xFFn) is 0x8D5BB75861377EC967BF78FDF39CE51696FBD34722999943F8865938772B517167CD5ED775A78987F5106831F4978E0709032B26ED8F13F814699DB8AB3ACD5CF631F2D8B8B706FCF5EF441AAEE745A795EC5CB86A5E8D87D09F648EFC557B98F73E750FEC9AED061D47806F269CCCDFB6D513912A82AE79B171D76AF6D926BC4F4C4DA43A6EFB4D9D1672E356CC1F74A29AF80D53A8F27592F6191AB9B3D57FA2C435CB2CE8F18A3B3448F88F4BAD3606A9878DA9528B569BADAC0C1EC0B1A2B06CD4C64DEEC940807DFD05C56E3E17ADB1A88EDAF0D67C87C1F871BFB5C47CAE8365FE33538317EE2DF4EE52636CE1BDA9E41C7DA72826E4C097A53BD73D8D697E10D28Bn",
-            "raw": "'The result of (0x123n ** 0xFFn) is 0x8D5BB75861377EC967BF78FDF39CE51696FBD34722999943F8865938772B517167CD5ED775A78987F5106831F4978E0709032B26ED8F13F814699DB8AB3ACD5CF631F2D8B8B706FCF5EF441AAEE745A795EC5CB86A5E8D87D09F648EFC557B98F73E750FEC9AED061D47806F269CCCDFB6D513912A82AE79B171D76AF6D926BC4F4C4DA43A6EFB4D9D1672E356CC1F74A29AF80D53A8F27592F6191AB9B3D57FA2C435CB2CE8F18A3B3448F88F4BAD3606A9878DA9528B569BADAC0C1EC0B1A2B06CD4C64DEEC940807DFD05C56E3E17ADB1A88EDAF0D67C87C1F871BFB5C47CAE8365FE33538317EE2DF4EE52636CE1BDA9E41C7DA72826E4C097A53BD73D8D697E10D28Bn'"
+            "raw": "'The result of (0x123n ** 0xFFn) is 0x8D5BB75861377EC967BF78FDF39CE51696FBD34722999943F8865938772B517167CD5ED775A78987F5106831F4978E0709032B26ED8F13F814699DB8AB3ACD5CF631F2D8B8B706FCF5EF441AAEE745A795EC5CB86A5E8D87D09F648EFC557B98F73E750FEC9AED061D47806F269CCCDFB6D513912A82AE79B171D76AF6D926BC4F4C4DA43A6EFB4D9D1672E356CC1F74A29AF80D53A8F27592F6191AB9B3D57FA2C435CB2CE8F18A3B3448F88F4BAD3606A9878DA9528B569BADAC0C1EC0B1A2B06CD4C64DEEC940807DFD05C56E3E17ADB1A88EDAF0D67C87C1F871BFB5C47CAE8365FE33538317EE2DF4EE52636CE1BDA9E41C7DA72826E4C097A53BD73D8D697E10D28Bn'",
+            "start": 2129,
+            "end": 2691
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 1561,
+        "end": 2693
+      },
+      "start": 1561,
+      "end": 2694
     },
     {
       "type": "ExpressionStatement",
-      "start": 2696,
-      "end": 2789,
       "expression": {
         "type": "CallExpression",
-        "start": 2696,
-        "end": 2788,
         "callee": {
           "type": "MemberExpression",
-          "start": 2696,
-          "end": 2712,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 2696,
-            "end": 2702,
-            "name": "assert"
+            "end": 2702
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 2703,
-            "end": 2712,
-            "name": "sameValue"
+            "end": 2712
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 2696,
+          "end": 2712
         },
         "arguments": [
           {
             "type": "BinaryExpression",
-            "start": 2713,
-            "end": 2727,
             "left": {
               "type": "Literal",
-              "start": 2713,
-              "end": 2719,
               "value": null,
               "raw": "0x123n",
-              "bigint": "291"
+              "bigint": "291",
+              "start": 2713,
+              "end": 2719
             },
             "operator": "**",
             "right": {
               "type": "Literal",
-              "start": 2723,
-              "end": 2727,
               "value": null,
               "raw": "0x3n",
-              "bigint": "3"
-            }
+              "bigint": "3",
+              "start": 2723,
+              "end": 2727
+            },
+            "start": 2713,
+            "end": 2727
           },
           {
             "type": "Literal",
-            "start": 2729,
-            "end": 2739,
             "value": null,
             "raw": "0x178027Bn",
-            "bigint": "24642171"
+            "bigint": "24642171",
+            "start": 2729,
+            "end": 2739
           },
           {
             "type": "Literal",
-            "start": 2741,
-            "end": 2787,
             "value": "The result of (0x123n ** 0x3n) is 0x178027Bn",
-            "raw": "'The result of (0x123n ** 0x3n) is 0x178027Bn'"
+            "raw": "'The result of (0x123n ** 0x3n) is 0x178027Bn'",
+            "start": 2741,
+            "end": 2787
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 2696,
+        "end": 2788
+      },
+      "start": 2696,
+      "end": 2789
     },
     {
       "type": "ExpressionStatement",
-      "start": 2790,
-      "end": 2879,
       "expression": {
         "type": "CallExpression",
-        "start": 2790,
-        "end": 2878,
         "callee": {
           "type": "MemberExpression",
-          "start": 2790,
-          "end": 2806,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 2790,
-            "end": 2796,
-            "name": "assert"
+            "end": 2796
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 2797,
-            "end": 2806,
-            "name": "sameValue"
+            "end": 2806
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 2790,
+          "end": 2806
         },
         "arguments": [
           {
             "type": "BinaryExpression",
-            "start": 2807,
-            "end": 2821,
             "left": {
               "type": "Literal",
-              "start": 2807,
-              "end": 2813,
               "value": null,
               "raw": "0x123n",
-              "bigint": "291"
+              "bigint": "291",
+              "start": 2807,
+              "end": 2813
             },
             "operator": "**",
             "right": {
               "type": "Literal",
-              "start": 2817,
-              "end": 2821,
               "value": null,
               "raw": "0x2n",
-              "bigint": "2"
-            }
+              "bigint": "2",
+              "start": 2817,
+              "end": 2821
+            },
+            "start": 2807,
+            "end": 2821
           },
           {
             "type": "Literal",
-            "start": 2823,
-            "end": 2831,
             "value": null,
             "raw": "0x14AC9n",
-            "bigint": "84681"
+            "bigint": "84681",
+            "start": 2823,
+            "end": 2831
           },
           {
             "type": "Literal",
-            "start": 2833,
-            "end": 2877,
             "value": "The result of (0x123n ** 0x2n) is 0x14AC9n",
-            "raw": "'The result of (0x123n ** 0x2n) is 0x14AC9n'"
+            "raw": "'The result of (0x123n ** 0x2n) is 0x14AC9n'",
+            "start": 2833,
+            "end": 2877
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 2790,
+        "end": 2878
+      },
+      "start": 2790,
+      "end": 2879
     },
     {
       "type": "ExpressionStatement",
-      "start": 2880,
-      "end": 2965,
       "expression": {
         "type": "CallExpression",
-        "start": 2880,
-        "end": 2964,
         "callee": {
           "type": "MemberExpression",
-          "start": 2880,
-          "end": 2896,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 2880,
-            "end": 2886,
-            "name": "assert"
+            "end": 2886
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 2887,
-            "end": 2896,
-            "name": "sameValue"
+            "end": 2896
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 2880,
+          "end": 2896
         },
         "arguments": [
           {
             "type": "BinaryExpression",
-            "start": 2897,
-            "end": 2911,
             "left": {
               "type": "Literal",
-              "start": 2897,
-              "end": 2903,
               "value": null,
               "raw": "0x123n",
-              "bigint": "291"
+              "bigint": "291",
+              "start": 2897,
+              "end": 2903
             },
             "operator": "**",
             "right": {
               "type": "Literal",
-              "start": 2907,
-              "end": 2911,
               "value": null,
               "raw": "0x1n",
-              "bigint": "1"
-            }
+              "bigint": "1",
+              "start": 2907,
+              "end": 2911
+            },
+            "start": 2897,
+            "end": 2911
           },
           {
             "type": "Literal",
-            "start": 2913,
-            "end": 2919,
             "value": null,
             "raw": "0x123n",
-            "bigint": "291"
+            "bigint": "291",
+            "start": 2913,
+            "end": 2919
           },
           {
             "type": "Literal",
-            "start": 2921,
-            "end": 2963,
             "value": "The result of (0x123n ** 0x1n) is 0x123n",
-            "raw": "'The result of (0x123n ** 0x1n) is 0x123n'"
+            "raw": "'The result of (0x123n ** 0x1n) is 0x123n'",
+            "start": 2921,
+            "end": 2963
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 2880,
+        "end": 2964
+      },
+      "start": 2880,
+      "end": 2965
     },
     {
       "type": "ExpressionStatement",
-      "start": 2967,
-      "end": 4220,
       "expression": {
         "type": "CallExpression",
-        "start": 2967,
-        "end": 4219,
         "callee": {
           "type": "MemberExpression",
-          "start": 2967,
-          "end": 2983,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 2967,
-            "end": 2973,
-            "name": "assert"
+            "end": 2973
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 2974,
-            "end": 2983,
-            "name": "sameValue"
+            "end": 2983
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 2967,
+          "end": 2983
         },
         "arguments": [
           {
             "type": "BinaryExpression",
-            "start": 2987,
-            "end": 3002,
             "left": {
               "type": "Literal",
-              "start": 2987,
-              "end": 2992,
               "value": null,
               "raw": "0xFFn",
-              "bigint": "255"
+              "bigint": "255",
+              "start": 2987,
+              "end": 2992
             },
             "operator": "**",
             "right": {
               "type": "Literal",
-              "start": 2996,
-              "end": 3002,
               "value": null,
               "raw": "0x123n",
-              "bigint": "291"
-            }
+              "bigint": "291",
+              "start": 2996,
+              "end": 3002
+            },
+            "start": 2987,
+            "end": 3002
           },
           {
             "type": "Literal",
-            "start": 3006,
-            "end": 3591,
             "value": null,
             "raw": "0x51F5CA2E1A36F5FF1ED3D393D76FBC3612B38EB64E00EDAC5E95ADE0D16D0B044C8E9F2B77B3F31AF9159F482205541E9D3BE9D248FF39CE6524874EBCA60E06302E8B505D11EEEEE869C7F801A82B9739C197E6D63A1EB2D29B5AD5EED4773C762106E9F66BFCB6C11450218973C69DED3FE51FF881AD0430675BF54320513EA766117C50C554E86E22A5ACFD8047D5470B4FCBCB9EFC86196CA77C58F1BEB09F76160D641B82E2481BEDAE089207D49FE0FB7DE14B6C4BC82E9C58140746AC8E74C3353AAF5F9CF47ED1F87C52F463C053DB63CD08CC9866EBA274D39B6B357ADADAD4D210167EF7363453D42BC225D90070336861F2D259489D78B7F04B05FE65E29151ADD2B8F4D318011988550CE590DBA4C868AC65AA325051DF613D6C2E22FFn",
-            "bigint": "20099835646972753683517849298905424643144759636638120095800574955774563582072843964572180780310508099045469698287698104030451391334683128750958771610509519842836795998242791226644066774958658467987980743405579313649065905512703991486972973842213820411052388913630372861958701538785524182365783657810759080657234106564352966637824589939733448063148201635355550190695401305522254101844210133860047568465794758599179838804950651464113925733390287401405809423388787410390280218519597253516528457132717524775626757262847634878488732567200189947950958402974881648518496371441775854411369268475969337936572687703432617388054253361738941168072767560927558603021402818498974962579950442886911332607269287109375"
+            "bigint": "20099835646972753683517849298905424643144759636638120095800574955774563582072843964572180780310508099045469698287698104030451391334683128750958771610509519842836795998242791226644066774958658467987980743405579313649065905512703991486972973842213820411052388913630372861958701538785524182365783657810759080657234106564352966637824589939733448063148201635355550190695401305522254101844210133860047568465794758599179838804950651464113925733390287401405809423388787410390280218519597253516528457132717524775626757262847634878488732567200189947950958402974881648518496371441775854411369268475969337936572687703432617388054253361738941168072767560927558603021402818498974962579950442886911332607269287109375",
+            "start": 3006,
+            "end": 3591
           },
           {
             "type": "Literal",
-            "start": 3595,
-            "end": 4217,
             "value": "The result of (0xFFn ** 0x123n) is 0x51F5CA2E1A36F5FF1ED3D393D76FBC3612B38EB64E00EDAC5E95ADE0D16D0B044C8E9F2B77B3F31AF9159F482205541E9D3BE9D248FF39CE6524874EBCA60E06302E8B505D11EEEEE869C7F801A82B9739C197E6D63A1EB2D29B5AD5EED4773C762106E9F66BFCB6C11450218973C69DED3FE51FF881AD0430675BF54320513EA766117C50C554E86E22A5ACFD8047D5470B4FCBCB9EFC86196CA77C58F1BEB09F76160D641B82E2481BEDAE089207D49FE0FB7DE14B6C4BC82E9C58140746AC8E74C3353AAF5F9CF47ED1F87C52F463C053DB63CD08CC9866EBA274D39B6B357ADADAD4D210167EF7363453D42BC225D90070336861F2D259489D78B7F04B05FE65E29151ADD2B8F4D318011988550CE590DBA4C868AC65AA325051DF613D6C2E22FFn",
-            "raw": "'The result of (0xFFn ** 0x123n) is 0x51F5CA2E1A36F5FF1ED3D393D76FBC3612B38EB64E00EDAC5E95ADE0D16D0B044C8E9F2B77B3F31AF9159F482205541E9D3BE9D248FF39CE6524874EBCA60E06302E8B505D11EEEEE869C7F801A82B9739C197E6D63A1EB2D29B5AD5EED4773C762106E9F66BFCB6C11450218973C69DED3FE51FF881AD0430675BF54320513EA766117C50C554E86E22A5ACFD8047D5470B4FCBCB9EFC86196CA77C58F1BEB09F76160D641B82E2481BEDAE089207D49FE0FB7DE14B6C4BC82E9C58140746AC8E74C3353AAF5F9CF47ED1F87C52F463C053DB63CD08CC9866EBA274D39B6B357ADADAD4D210167EF7363453D42BC225D90070336861F2D259489D78B7F04B05FE65E29151ADD2B8F4D318011988550CE590DBA4C868AC65AA325051DF613D6C2E22FFn'"
+            "raw": "'The result of (0xFFn ** 0x123n) is 0x51F5CA2E1A36F5FF1ED3D393D76FBC3612B38EB64E00EDAC5E95ADE0D16D0B044C8E9F2B77B3F31AF9159F482205541E9D3BE9D248FF39CE6524874EBCA60E06302E8B505D11EEEEE869C7F801A82B9739C197E6D63A1EB2D29B5AD5EED4773C762106E9F66BFCB6C11450218973C69DED3FE51FF881AD0430675BF54320513EA766117C50C554E86E22A5ACFD8047D5470B4FCBCB9EFC86196CA77C58F1BEB09F76160D641B82E2481BEDAE089207D49FE0FB7DE14B6C4BC82E9C58140746AC8E74C3353AAF5F9CF47ED1F87C52F463C053DB63CD08CC9866EBA274D39B6B357ADADAD4D210167EF7363453D42BC225D90070336861F2D259489D78B7F04B05FE65E29151ADD2B8F4D318011988550CE590DBA4C868AC65AA325051DF613D6C2E22FFn'",
+            "start": 3595,
+            "end": 4217
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 2967,
+        "end": 4219
+      },
+      "start": 2967,
+      "end": 4220
     },
     {
       "type": "ExpressionStatement",
-      "start": 4222,
-      "end": 5329,
       "expression": {
         "type": "CallExpression",
-        "start": 4222,
-        "end": 5328,
         "callee": {
           "type": "MemberExpression",
-          "start": 4222,
-          "end": 4238,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 4222,
-            "end": 4228,
-            "name": "assert"
+            "end": 4228
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 4229,
-            "end": 4238,
-            "name": "sameValue"
+            "end": 4238
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 4222,
+          "end": 4238
         },
         "arguments": [
           {
             "type": "BinaryExpression",
-            "start": 4242,
-            "end": 4256,
             "left": {
               "type": "Literal",
-              "start": 4242,
-              "end": 4247,
               "value": null,
               "raw": "0xFFn",
-              "bigint": "255"
+              "bigint": "255",
+              "start": 4242,
+              "end": 4247
             },
             "operator": "**",
             "right": {
               "type": "Literal",
-              "start": 4251,
-              "end": 4256,
               "value": null,
               "raw": "0xFFn",
-              "bigint": "255"
-            }
+              "bigint": "255",
+              "start": 4251,
+              "end": 4256
+            },
+            "start": 4242,
+            "end": 4256
           },
           {
             "type": "Literal",
-            "start": 4260,
-            "end": 4773,
             "value": null,
             "raw": "0x5E5C8B0EB95AB08F9D37EF127FC01BD0E33DE52647528396D78D5F8DA31989E67814F6BBA1FB0F0207010FF5F2347B19D5F6598FC91BF5A88F77DAA3D7B382FEC484F3D205C06A34445384C0E7AB0D883788C68C012CB433055EDDA746A48409444EA91147273B79FC3EABB70ECA552AF650C234BB01ED404427F17CDDDD71D08E39EF9C3982E3CE44E670456AA8154C1FDBD9C35947F494636A425C69BF89E9C75AD3B7A0A559AF0F5DA9947C8DEBA64417310713B23E7EF4DE50BB2A3E90BC2AC3DA5201CCA8D6E5DFEA887C4F7A4E92175D9F88BD2779B57F9EB35BE7528F965A06DA0AC41DCB3A34F1D8AB7D8FEE620A94FAA42C395997756B007FFEFFn",
-            "bigint": "46531388344983681457769984555620005635274427815488751368772861643065273360461098097690597702647394229975161523887729348709679192202790820272357752329882392140552515610822058736740145045150003072264722464746837070302159356661765043244993104360887623976285955058200326531849137668562738184397385361179287309286327712528995820702180594566008294593820621769951491324907014215176509758404760451335847252744697820515292329680698271481385779516652518207263143889034764775414387732372812840456880885163361037485452406176311868267428358492408075197688911053603714883403374930891951109790394269793978310190141201019287109375"
+            "bigint": "46531388344983681457769984555620005635274427815488751368772861643065273360461098097690597702647394229975161523887729348709679192202790820272357752329882392140552515610822058736740145045150003072264722464746837070302159356661765043244993104360887623976285955058200326531849137668562738184397385361179287309286327712528995820702180594566008294593820621769951491324907014215176509758404760451335847252744697820515292329680698271481385779516652518207263143889034764775414387732372812840456880885163361037485452406176311868267428358492408075197688911053603714883403374930891951109790394269793978310190141201019287109375",
+            "start": 4260,
+            "end": 4773
           },
           {
             "type": "Literal",
-            "start": 4777,
-            "end": 5326,
             "value": "The result of (0xFFn ** 0xFFn) is 0x5E5C8B0EB95AB08F9D37EF127FC01BD0E33DE52647528396D78D5F8DA31989E67814F6BBA1FB0F0207010FF5F2347B19D5F6598FC91BF5A88F77DAA3D7B382FEC484F3D205C06A34445384C0E7AB0D883788C68C012CB433055EDDA746A48409444EA91147273B79FC3EABB70ECA552AF650C234BB01ED404427F17CDDDD71D08E39EF9C3982E3CE44E670456AA8154C1FDBD9C35947F494636A425C69BF89E9C75AD3B7A0A559AF0F5DA9947C8DEBA64417310713B23E7EF4DE50BB2A3E90BC2AC3DA5201CCA8D6E5DFEA887C4F7A4E92175D9F88BD2779B57F9EB35BE7528F965A06DA0AC41DCB3A34F1D8AB7D8FEE620A94FAA42C395997756B007FFEFFn",
-            "raw": "'The result of (0xFFn ** 0xFFn) is 0x5E5C8B0EB95AB08F9D37EF127FC01BD0E33DE52647528396D78D5F8DA31989E67814F6BBA1FB0F0207010FF5F2347B19D5F6598FC91BF5A88F77DAA3D7B382FEC484F3D205C06A34445384C0E7AB0D883788C68C012CB433055EDDA746A48409444EA91147273B79FC3EABB70ECA552AF650C234BB01ED404427F17CDDDD71D08E39EF9C3982E3CE44E670456AA8154C1FDBD9C35947F494636A425C69BF89E9C75AD3B7A0A559AF0F5DA9947C8DEBA64417310713B23E7EF4DE50BB2A3E90BC2AC3DA5201CCA8D6E5DFEA887C4F7A4E92175D9F88BD2779B57F9EB35BE7528F965A06DA0AC41DCB3A34F1D8AB7D8FEE620A94FAA42C395997756B007FFEFFn'"
+            "raw": "'The result of (0xFFn ** 0xFFn) is 0x5E5C8B0EB95AB08F9D37EF127FC01BD0E33DE52647528396D78D5F8DA31989E67814F6BBA1FB0F0207010FF5F2347B19D5F6598FC91BF5A88F77DAA3D7B382FEC484F3D205C06A34445384C0E7AB0D883788C68C012CB433055EDDA746A48409444EA91147273B79FC3EABB70ECA552AF650C234BB01ED404427F17CDDDD71D08E39EF9C3982E3CE44E670456AA8154C1FDBD9C35947F494636A425C69BF89E9C75AD3B7A0A559AF0F5DA9947C8DEBA64417310713B23E7EF4DE50BB2A3E90BC2AC3DA5201CCA8D6E5DFEA887C4F7A4E92175D9F88BD2779B57F9EB35BE7528F965A06DA0AC41DCB3A34F1D8AB7D8FEE620A94FAA42C395997756B007FFEFFn'",
+            "start": 4777,
+            "end": 5326
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 4222,
+        "end": 5328
+      },
+      "start": 4222,
+      "end": 5329
     },
     {
       "type": "ExpressionStatement",
-      "start": 5331,
-      "end": 5420,
       "expression": {
         "type": "CallExpression",
-        "start": 5331,
-        "end": 5419,
         "callee": {
           "type": "MemberExpression",
-          "start": 5331,
-          "end": 5347,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 5331,
-            "end": 5337,
-            "name": "assert"
+            "end": 5337
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 5338,
-            "end": 5347,
-            "name": "sameValue"
+            "end": 5347
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 5331,
+          "end": 5347
         },
         "arguments": [
           {
             "type": "BinaryExpression",
-            "start": 5348,
-            "end": 5361,
             "left": {
               "type": "Literal",
-              "start": 5348,
-              "end": 5353,
               "value": null,
               "raw": "0xFFn",
-              "bigint": "255"
+              "bigint": "255",
+              "start": 5348,
+              "end": 5353
             },
             "operator": "**",
             "right": {
               "type": "Literal",
-              "start": 5357,
-              "end": 5361,
               "value": null,
               "raw": "0x3n",
-              "bigint": "3"
-            }
+              "bigint": "3",
+              "start": 5357,
+              "end": 5361
+            },
+            "start": 5348,
+            "end": 5361
           },
           {
             "type": "Literal",
-            "start": 5363,
-            "end": 5372,
             "value": null,
             "raw": "0xFD02FFn",
-            "bigint": "16581375"
+            "bigint": "16581375",
+            "start": 5363,
+            "end": 5372
           },
           {
             "type": "Literal",
-            "start": 5374,
-            "end": 5418,
             "value": "The result of (0xFFn ** 0x3n) is 0xFD02FFn",
-            "raw": "'The result of (0xFFn ** 0x3n) is 0xFD02FFn'"
+            "raw": "'The result of (0xFFn ** 0x3n) is 0xFD02FFn'",
+            "start": 5374,
+            "end": 5418
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 5331,
+        "end": 5419
+      },
+      "start": 5331,
+      "end": 5420
     },
     {
       "type": "ExpressionStatement",
-      "start": 5421,
-      "end": 5506,
       "expression": {
         "type": "CallExpression",
-        "start": 5421,
-        "end": 5505,
         "callee": {
           "type": "MemberExpression",
-          "start": 5421,
-          "end": 5437,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 5421,
-            "end": 5427,
-            "name": "assert"
+            "end": 5427
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 5428,
-            "end": 5437,
-            "name": "sameValue"
+            "end": 5437
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 5421,
+          "end": 5437
         },
         "arguments": [
           {
             "type": "BinaryExpression",
-            "start": 5438,
-            "end": 5451,
             "left": {
               "type": "Literal",
-              "start": 5438,
-              "end": 5443,
               "value": null,
               "raw": "0xFFn",
-              "bigint": "255"
+              "bigint": "255",
+              "start": 5438,
+              "end": 5443
             },
             "operator": "**",
             "right": {
               "type": "Literal",
-              "start": 5447,
-              "end": 5451,
               "value": null,
               "raw": "0x2n",
-              "bigint": "2"
-            }
+              "bigint": "2",
+              "start": 5447,
+              "end": 5451
+            },
+            "start": 5438,
+            "end": 5451
           },
           {
             "type": "Literal",
-            "start": 5453,
-            "end": 5460,
             "value": null,
             "raw": "0xFE01n",
-            "bigint": "65025"
+            "bigint": "65025",
+            "start": 5453,
+            "end": 5460
           },
           {
             "type": "Literal",
-            "start": 5462,
-            "end": 5504,
             "value": "The result of (0xFFn ** 0x2n) is 0xFE01n",
-            "raw": "'The result of (0xFFn ** 0x2n) is 0xFE01n'"
+            "raw": "'The result of (0xFFn ** 0x2n) is 0xFE01n'",
+            "start": 5462,
+            "end": 5504
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 5421,
+        "end": 5505
+      },
+      "start": 5421,
+      "end": 5506
     },
     {
       "type": "ExpressionStatement",
-      "start": 5507,
-      "end": 5588,
       "expression": {
         "type": "CallExpression",
-        "start": 5507,
-        "end": 5587,
         "callee": {
           "type": "MemberExpression",
-          "start": 5507,
-          "end": 5523,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 5507,
-            "end": 5513,
-            "name": "assert"
+            "end": 5513
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 5514,
-            "end": 5523,
-            "name": "sameValue"
+            "end": 5523
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 5507,
+          "end": 5523
         },
         "arguments": [
           {
             "type": "BinaryExpression",
-            "start": 5524,
-            "end": 5537,
             "left": {
               "type": "Literal",
-              "start": 5524,
-              "end": 5529,
               "value": null,
               "raw": "0xFFn",
-              "bigint": "255"
+              "bigint": "255",
+              "start": 5524,
+              "end": 5529
             },
             "operator": "**",
             "right": {
               "type": "Literal",
-              "start": 5533,
-              "end": 5537,
               "value": null,
               "raw": "0x1n",
-              "bigint": "1"
-            }
+              "bigint": "1",
+              "start": 5533,
+              "end": 5537
+            },
+            "start": 5524,
+            "end": 5537
           },
           {
             "type": "Literal",
-            "start": 5539,
-            "end": 5544,
             "value": null,
             "raw": "0xFFn",
-            "bigint": "255"
+            "bigint": "255",
+            "start": 5539,
+            "end": 5544
           },
           {
             "type": "Literal",
-            "start": 5546,
-            "end": 5586,
             "value": "The result of (0xFFn ** 0x1n) is 0xFFn",
-            "raw": "'The result of (0xFFn ** 0x1n) is 0xFFn'"
+            "raw": "'The result of (0xFFn ** 0x1n) is 0xFFn'",
+            "start": 5546,
+            "end": 5586
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 5507,
+        "end": 5587
+      },
+      "start": 5507,
+      "end": 5588
     },
     {
       "type": "ExpressionStatement",
-      "start": 5590,
-      "end": 5909,
       "expression": {
         "type": "CallExpression",
-        "start": 5590,
-        "end": 5908,
         "callee": {
           "type": "MemberExpression",
-          "start": 5590,
-          "end": 5606,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 5590,
-            "end": 5596,
-            "name": "assert"
+            "end": 5596
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 5597,
-            "end": 5606,
-            "name": "sameValue"
+            "end": 5606
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 5590,
+          "end": 5606
         },
         "arguments": [
           {
             "type": "BinaryExpression",
-            "start": 5610,
-            "end": 5624,
             "left": {
               "type": "Literal",
-              "start": 5610,
-              "end": 5614,
               "value": null,
               "raw": "0x3n",
-              "bigint": "3"
+              "bigint": "3",
+              "start": 5610,
+              "end": 5614
             },
             "operator": "**",
             "right": {
               "type": "Literal",
-              "start": 5618,
-              "end": 5624,
               "value": null,
               "raw": "0x123n",
-              "bigint": "291"
-            }
+              "bigint": "291",
+              "start": 5618,
+              "end": 5624
+            },
+            "start": 5610,
+            "end": 5624
           },
           {
             "type": "Literal",
-            "start": 5628,
-            "end": 5747,
             "value": null,
             "raw": "0x25609213623D7D6219085CF49D306450BF6519835586C19D3A4F3A2C5F35B44A300C8A76E11708B5495B9C3EE756BBF19E3FD15CE625D3C0539Bn",
-            "bigint": "6954807654249269724702841405379683786336620211621065715159284157819895197759440969049443995106891296461438014560686584505081173234044392347"
+            "bigint": "6954807654249269724702841405379683786336620211621065715159284157819895197759440969049443995106891296461438014560686584505081173234044392347",
+            "start": 5628,
+            "end": 5747
           },
           {
             "type": "Literal",
-            "start": 5751,
-            "end": 5906,
             "value": "The result of (0x3n ** 0x123n) is 0x25609213623D7D6219085CF49D306450BF6519835586C19D3A4F3A2C5F35B44A300C8A76E11708B5495B9C3EE756BBF19E3FD15CE625D3C0539Bn",
-            "raw": "'The result of (0x3n ** 0x123n) is 0x25609213623D7D6219085CF49D306450BF6519835586C19D3A4F3A2C5F35B44A300C8A76E11708B5495B9C3EE756BBF19E3FD15CE625D3C0539Bn'"
+            "raw": "'The result of (0x3n ** 0x123n) is 0x25609213623D7D6219085CF49D306450BF6519835586C19D3A4F3A2C5F35B44A300C8A76E11708B5495B9C3EE756BBF19E3FD15CE625D3C0539Bn'",
+            "start": 5751,
+            "end": 5906
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 5590,
+        "end": 5908
+      },
+      "start": 5590,
+      "end": 5909
     },
     {
       "type": "ExpressionStatement",
-      "start": 5911,
-      "end": 6200,
       "expression": {
         "type": "CallExpression",
-        "start": 5911,
-        "end": 6199,
         "callee": {
           "type": "MemberExpression",
-          "start": 5911,
-          "end": 5927,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 5911,
-            "end": 5917,
-            "name": "assert"
+            "end": 5917
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 5918,
-            "end": 5927,
-            "name": "sameValue"
+            "end": 5927
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 5911,
+          "end": 5927
         },
         "arguments": [
           {
             "type": "BinaryExpression",
-            "start": 5931,
-            "end": 5944,
             "left": {
               "type": "Literal",
-              "start": 5931,
-              "end": 5935,
               "value": null,
               "raw": "0x3n",
-              "bigint": "3"
+              "bigint": "3",
+              "start": 5931,
+              "end": 5935
             },
             "operator": "**",
             "right": {
               "type": "Literal",
-              "start": 5939,
-              "end": 5944,
               "value": null,
               "raw": "0xFFn",
-              "bigint": "255"
-            }
+              "bigint": "255",
+              "start": 5939,
+              "end": 5944
+            },
+            "start": 5931,
+            "end": 5944
           },
           {
             "type": "Literal",
-            "start": 5948,
-            "end": 6053,
             "value": null,
             "raw": "0x11F1B08E87EC42C5D83C3218FC83C41DCFD9F4428F4F92AF1AAA80AA46162B1F71E981273601F4AD1DD4709B5ACA650265A6ABn",
-            "bigint": "46336150792381577588313262263220434371406283602843045997201608143345357543255478647000589718036536507270555180182966478507"
+            "bigint": "46336150792381577588313262263220434371406283602843045997201608143345357543255478647000589718036536507270555180182966478507",
+            "start": 5948,
+            "end": 6053
           },
           {
             "type": "Literal",
-            "start": 6057,
-            "end": 6197,
             "value": "The result of (0x3n ** 0xFFn) is 0x11F1B08E87EC42C5D83C3218FC83C41DCFD9F4428F4F92AF1AAA80AA46162B1F71E981273601F4AD1DD4709B5ACA650265A6ABn",
-            "raw": "'The result of (0x3n ** 0xFFn) is 0x11F1B08E87EC42C5D83C3218FC83C41DCFD9F4428F4F92AF1AAA80AA46162B1F71E981273601F4AD1DD4709B5ACA650265A6ABn'"
+            "raw": "'The result of (0x3n ** 0xFFn) is 0x11F1B08E87EC42C5D83C3218FC83C41DCFD9F4428F4F92AF1AAA80AA46162B1F71E981273601F4AD1DD4709B5ACA650265A6ABn'",
+            "start": 6057,
+            "end": 6197
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 5911,
+        "end": 6199
+      },
+      "start": 5911,
+      "end": 6200
     },
     {
       "type": "ExpressionStatement",
-      "start": 6202,
-      "end": 6281,
       "expression": {
         "type": "CallExpression",
-        "start": 6202,
-        "end": 6280,
         "callee": {
           "type": "MemberExpression",
-          "start": 6202,
-          "end": 6218,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 6202,
-            "end": 6208,
-            "name": "assert"
+            "end": 6208
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 6209,
-            "end": 6218,
-            "name": "sameValue"
+            "end": 6218
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 6202,
+          "end": 6218
         },
         "arguments": [
           {
             "type": "BinaryExpression",
-            "start": 6219,
-            "end": 6231,
             "left": {
               "type": "Literal",
-              "start": 6219,
-              "end": 6223,
               "value": null,
               "raw": "0x3n",
-              "bigint": "3"
+              "bigint": "3",
+              "start": 6219,
+              "end": 6223
             },
             "operator": "**",
             "right": {
               "type": "Literal",
-              "start": 6227,
-              "end": 6231,
               "value": null,
               "raw": "0x3n",
-              "bigint": "3"
-            }
+              "bigint": "3",
+              "start": 6227,
+              "end": 6231
+            },
+            "start": 6219,
+            "end": 6231
           },
           {
             "type": "Literal",
-            "start": 6233,
-            "end": 6238,
             "value": null,
             "raw": "0x1Bn",
-            "bigint": "27"
+            "bigint": "27",
+            "start": 6233,
+            "end": 6238
           },
           {
             "type": "Literal",
-            "start": 6240,
-            "end": 6279,
             "value": "The result of (0x3n ** 0x3n) is 0x1Bn",
-            "raw": "'The result of (0x3n ** 0x3n) is 0x1Bn'"
+            "raw": "'The result of (0x3n ** 0x3n) is 0x1Bn'",
+            "start": 6240,
+            "end": 6279
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 6202,
+        "end": 6280
+      },
+      "start": 6202,
+      "end": 6281
     },
     {
       "type": "ExpressionStatement",
-      "start": 6282,
-      "end": 6359,
       "expression": {
         "type": "CallExpression",
-        "start": 6282,
-        "end": 6358,
         "callee": {
           "type": "MemberExpression",
-          "start": 6282,
-          "end": 6298,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 6282,
-            "end": 6288,
-            "name": "assert"
+            "end": 6288
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 6289,
-            "end": 6298,
-            "name": "sameValue"
+            "end": 6298
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 6282,
+          "end": 6298
         },
         "arguments": [
           {
             "type": "BinaryExpression",
-            "start": 6299,
-            "end": 6311,
             "left": {
               "type": "Literal",
-              "start": 6299,
-              "end": 6303,
               "value": null,
               "raw": "0x3n",
-              "bigint": "3"
+              "bigint": "3",
+              "start": 6299,
+              "end": 6303
             },
             "operator": "**",
             "right": {
               "type": "Literal",
-              "start": 6307,
-              "end": 6311,
               "value": null,
               "raw": "0x2n",
-              "bigint": "2"
-            }
+              "bigint": "2",
+              "start": 6307,
+              "end": 6311
+            },
+            "start": 6299,
+            "end": 6311
           },
           {
             "type": "Literal",
-            "start": 6313,
-            "end": 6317,
             "value": null,
             "raw": "0x9n",
-            "bigint": "9"
+            "bigint": "9",
+            "start": 6313,
+            "end": 6317
           },
           {
             "type": "Literal",
-            "start": 6319,
-            "end": 6357,
             "value": "The result of (0x3n ** 0x2n) is 0x9n",
-            "raw": "'The result of (0x3n ** 0x2n) is 0x9n'"
+            "raw": "'The result of (0x3n ** 0x2n) is 0x9n'",
+            "start": 6319,
+            "end": 6357
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 6282,
+        "end": 6358
+      },
+      "start": 6282,
+      "end": 6359
     },
     {
       "type": "ExpressionStatement",
-      "start": 6360,
-      "end": 6437,
       "expression": {
         "type": "CallExpression",
-        "start": 6360,
-        "end": 6436,
         "callee": {
           "type": "MemberExpression",
-          "start": 6360,
-          "end": 6376,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 6360,
-            "end": 6366,
-            "name": "assert"
+            "end": 6366
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 6367,
-            "end": 6376,
-            "name": "sameValue"
+            "end": 6376
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 6360,
+          "end": 6376
         },
         "arguments": [
           {
             "type": "BinaryExpression",
-            "start": 6377,
-            "end": 6389,
             "left": {
               "type": "Literal",
-              "start": 6377,
-              "end": 6381,
               "value": null,
               "raw": "0x3n",
-              "bigint": "3"
+              "bigint": "3",
+              "start": 6377,
+              "end": 6381
             },
             "operator": "**",
             "right": {
               "type": "Literal",
-              "start": 6385,
-              "end": 6389,
               "value": null,
               "raw": "0x1n",
-              "bigint": "1"
-            }
+              "bigint": "1",
+              "start": 6385,
+              "end": 6389
+            },
+            "start": 6377,
+            "end": 6389
           },
           {
             "type": "Literal",
-            "start": 6391,
-            "end": 6395,
             "value": null,
             "raw": "0x3n",
-            "bigint": "3"
+            "bigint": "3",
+            "start": 6391,
+            "end": 6395
           },
           {
             "type": "Literal",
-            "start": 6397,
-            "end": 6435,
             "value": "The result of (0x3n ** 0x1n) is 0x3n",
-            "raw": "'The result of (0x3n ** 0x1n) is 0x3n'"
+            "raw": "'The result of (0x3n ** 0x1n) is 0x3n'",
+            "start": 6397,
+            "end": 6435
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 6360,
+        "end": 6436
+      },
+      "start": 6360,
+      "end": 6437
     },
     {
       "type": "ExpressionStatement",
-      "start": 6439,
-      "end": 6672,
       "expression": {
         "type": "CallExpression",
-        "start": 6439,
-        "end": 6671,
         "callee": {
           "type": "MemberExpression",
-          "start": 6439,
-          "end": 6455,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 6439,
-            "end": 6445,
-            "name": "assert"
+            "end": 6445
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 6446,
-            "end": 6455,
-            "name": "sameValue"
+            "end": 6455
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 6439,
+          "end": 6455
         },
         "arguments": [
           {
             "type": "BinaryExpression",
-            "start": 6459,
-            "end": 6473,
             "left": {
               "type": "Literal",
-              "start": 6459,
-              "end": 6463,
               "value": null,
               "raw": "0x2n",
-              "bigint": "2"
+              "bigint": "2",
+              "start": 6459,
+              "end": 6463
             },
             "operator": "**",
             "right": {
               "type": "Literal",
-              "start": 6467,
-              "end": 6473,
               "value": null,
               "raw": "0x123n",
-              "bigint": "291"
-            }
+              "bigint": "291",
+              "start": 6467,
+              "end": 6473
+            },
+            "start": 6459,
+            "end": 6473
           },
           {
             "type": "Literal",
-            "start": 6477,
-            "end": 6553,
             "value": null,
             "raw": "0x8000000000000000000000000000000000000000000000000000000000000000000000000n",
-            "bigint": "3978585891278293137243057985174566720803649206378781739523711815145275976100267004264448"
+            "bigint": "3978585891278293137243057985174566720803649206378781739523711815145275976100267004264448",
+            "start": 6477,
+            "end": 6553
           },
           {
             "type": "Literal",
-            "start": 6557,
-            "end": 6669,
             "value": "The result of (0x2n ** 0x123n) is 0x8000000000000000000000000000000000000000000000000000000000000000000000000n",
-            "raw": "'The result of (0x2n ** 0x123n) is 0x8000000000000000000000000000000000000000000000000000000000000000000000000n'"
+            "raw": "'The result of (0x2n ** 0x123n) is 0x8000000000000000000000000000000000000000000000000000000000000000000000000n'",
+            "start": 6557,
+            "end": 6669
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 6439,
+        "end": 6671
+      },
+      "start": 6439,
+      "end": 6672
     },
     {
       "type": "ExpressionStatement",
-      "start": 6674,
-      "end": 6887,
       "expression": {
         "type": "CallExpression",
-        "start": 6674,
-        "end": 6886,
         "callee": {
           "type": "MemberExpression",
-          "start": 6674,
-          "end": 6690,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 6674,
-            "end": 6680,
-            "name": "assert"
+            "end": 6680
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 6681,
-            "end": 6690,
-            "name": "sameValue"
+            "end": 6690
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 6674,
+          "end": 6690
         },
         "arguments": [
           {
             "type": "BinaryExpression",
-            "start": 6694,
-            "end": 6707,
             "left": {
               "type": "Literal",
-              "start": 6694,
-              "end": 6698,
               "value": null,
               "raw": "0x2n",
-              "bigint": "2"
+              "bigint": "2",
+              "start": 6694,
+              "end": 6698
             },
             "operator": "**",
             "right": {
               "type": "Literal",
-              "start": 6702,
-              "end": 6707,
               "value": null,
               "raw": "0xFFn",
-              "bigint": "255"
-            }
+              "bigint": "255",
+              "start": 6702,
+              "end": 6707
+            },
+            "start": 6694,
+            "end": 6707
           },
           {
             "type": "Literal",
-            "start": 6711,
-            "end": 6778,
             "value": null,
             "raw": "0x8000000000000000000000000000000000000000000000000000000000000000n",
-            "bigint": "57896044618658097711785492504343953926634992332820282019728792003956564819968"
+            "bigint": "57896044618658097711785492504343953926634992332820282019728792003956564819968",
+            "start": 6711,
+            "end": 6778
           },
           {
             "type": "Literal",
-            "start": 6782,
-            "end": 6884,
             "value": "The result of (0x2n ** 0xFFn) is 0x8000000000000000000000000000000000000000000000000000000000000000n",
-            "raw": "'The result of (0x2n ** 0xFFn) is 0x8000000000000000000000000000000000000000000000000000000000000000n'"
+            "raw": "'The result of (0x2n ** 0xFFn) is 0x8000000000000000000000000000000000000000000000000000000000000000n'",
+            "start": 6782,
+            "end": 6884
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 6674,
+        "end": 6886
+      },
+      "start": 6674,
+      "end": 6887
     },
     {
       "type": "ExpressionStatement",
-      "start": 6889,
-      "end": 6966,
       "expression": {
         "type": "CallExpression",
-        "start": 6889,
-        "end": 6965,
         "callee": {
           "type": "MemberExpression",
-          "start": 6889,
-          "end": 6905,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 6889,
-            "end": 6895,
-            "name": "assert"
+            "end": 6895
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 6896,
-            "end": 6905,
-            "name": "sameValue"
+            "end": 6905
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 6889,
+          "end": 6905
         },
         "arguments": [
           {
             "type": "BinaryExpression",
-            "start": 6906,
-            "end": 6918,
             "left": {
               "type": "Literal",
-              "start": 6906,
-              "end": 6910,
               "value": null,
               "raw": "0x2n",
-              "bigint": "2"
+              "bigint": "2",
+              "start": 6906,
+              "end": 6910
             },
             "operator": "**",
             "right": {
               "type": "Literal",
-              "start": 6914,
-              "end": 6918,
               "value": null,
               "raw": "0x3n",
-              "bigint": "3"
-            }
+              "bigint": "3",
+              "start": 6914,
+              "end": 6918
+            },
+            "start": 6906,
+            "end": 6918
           },
           {
             "type": "Literal",
-            "start": 6920,
-            "end": 6924,
             "value": null,
             "raw": "0x8n",
-            "bigint": "8"
+            "bigint": "8",
+            "start": 6920,
+            "end": 6924
           },
           {
             "type": "Literal",
-            "start": 6926,
-            "end": 6964,
             "value": "The result of (0x2n ** 0x3n) is 0x8n",
-            "raw": "'The result of (0x2n ** 0x3n) is 0x8n'"
+            "raw": "'The result of (0x2n ** 0x3n) is 0x8n'",
+            "start": 6926,
+            "end": 6964
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 6889,
+        "end": 6965
+      },
+      "start": 6889,
+      "end": 6966
     },
     {
       "type": "ExpressionStatement",
-      "start": 6967,
-      "end": 7044,
       "expression": {
         "type": "CallExpression",
-        "start": 6967,
-        "end": 7043,
         "callee": {
           "type": "MemberExpression",
-          "start": 6967,
-          "end": 6983,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 6967,
-            "end": 6973,
-            "name": "assert"
+            "end": 6973
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 6974,
-            "end": 6983,
-            "name": "sameValue"
+            "end": 6983
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 6967,
+          "end": 6983
         },
         "arguments": [
           {
             "type": "BinaryExpression",
-            "start": 6984,
-            "end": 6996,
             "left": {
               "type": "Literal",
-              "start": 6984,
-              "end": 6988,
               "value": null,
               "raw": "0x2n",
-              "bigint": "2"
+              "bigint": "2",
+              "start": 6984,
+              "end": 6988
             },
             "operator": "**",
             "right": {
               "type": "Literal",
-              "start": 6992,
-              "end": 6996,
               "value": null,
               "raw": "0x2n",
-              "bigint": "2"
-            }
+              "bigint": "2",
+              "start": 6992,
+              "end": 6996
+            },
+            "start": 6984,
+            "end": 6996
           },
           {
             "type": "Literal",
-            "start": 6998,
-            "end": 7002,
             "value": null,
             "raw": "0x4n",
-            "bigint": "4"
+            "bigint": "4",
+            "start": 6998,
+            "end": 7002
           },
           {
             "type": "Literal",
-            "start": 7004,
-            "end": 7042,
             "value": "The result of (0x2n ** 0x2n) is 0x4n",
-            "raw": "'The result of (0x2n ** 0x2n) is 0x4n'"
+            "raw": "'The result of (0x2n ** 0x2n) is 0x4n'",
+            "start": 7004,
+            "end": 7042
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 6967,
+        "end": 7043
+      },
+      "start": 6967,
+      "end": 7044
     },
     {
       "type": "ExpressionStatement",
-      "start": 7045,
-      "end": 7122,
       "expression": {
         "type": "CallExpression",
-        "start": 7045,
-        "end": 7121,
         "callee": {
           "type": "MemberExpression",
-          "start": 7045,
-          "end": 7061,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 7045,
-            "end": 7051,
-            "name": "assert"
+            "end": 7051
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 7052,
-            "end": 7061,
-            "name": "sameValue"
+            "end": 7061
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 7045,
+          "end": 7061
         },
         "arguments": [
           {
             "type": "BinaryExpression",
-            "start": 7062,
-            "end": 7074,
             "left": {
               "type": "Literal",
-              "start": 7062,
-              "end": 7066,
               "value": null,
               "raw": "0x2n",
-              "bigint": "2"
+              "bigint": "2",
+              "start": 7062,
+              "end": 7066
             },
             "operator": "**",
             "right": {
               "type": "Literal",
-              "start": 7070,
-              "end": 7074,
               "value": null,
               "raw": "0x1n",
-              "bigint": "1"
-            }
+              "bigint": "1",
+              "start": 7070,
+              "end": 7074
+            },
+            "start": 7062,
+            "end": 7074
           },
           {
             "type": "Literal",
-            "start": 7076,
-            "end": 7080,
             "value": null,
             "raw": "0x2n",
-            "bigint": "2"
+            "bigint": "2",
+            "start": 7076,
+            "end": 7080
           },
           {
             "type": "Literal",
-            "start": 7082,
-            "end": 7120,
             "value": "The result of (0x2n ** 0x1n) is 0x2n",
-            "raw": "'The result of (0x2n ** 0x1n) is 0x2n'"
+            "raw": "'The result of (0x2n ** 0x1n) is 0x2n'",
+            "start": 7082,
+            "end": 7120
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 7045,
+        "end": 7121
+      },
+      "start": 7045,
+      "end": 7122
     },
     {
       "type": "ExpressionStatement",
-      "start": 7123,
-      "end": 7204,
       "expression": {
         "type": "CallExpression",
-        "start": 7123,
-        "end": 7203,
         "callee": {
           "type": "MemberExpression",
-          "start": 7123,
-          "end": 7139,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 7123,
-            "end": 7129,
-            "name": "assert"
+            "end": 7129
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 7130,
-            "end": 7139,
-            "name": "sameValue"
+            "end": 7139
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 7123,
+          "end": 7139
         },
         "arguments": [
           {
             "type": "BinaryExpression",
-            "start": 7140,
-            "end": 7154,
             "left": {
               "type": "Literal",
-              "start": 7140,
-              "end": 7144,
               "value": null,
               "raw": "0x1n",
-              "bigint": "1"
+              "bigint": "1",
+              "start": 7140,
+              "end": 7144
             },
             "operator": "**",
             "right": {
               "type": "Literal",
-              "start": 7148,
-              "end": 7154,
               "value": null,
               "raw": "0x123n",
-              "bigint": "291"
-            }
+              "bigint": "291",
+              "start": 7148,
+              "end": 7154
+            },
+            "start": 7140,
+            "end": 7154
           },
           {
             "type": "Literal",
-            "start": 7156,
-            "end": 7160,
             "value": null,
             "raw": "0x1n",
-            "bigint": "1"
+            "bigint": "1",
+            "start": 7156,
+            "end": 7160
           },
           {
             "type": "Literal",
-            "start": 7162,
-            "end": 7202,
             "value": "The result of (0x1n ** 0x123n) is 0x1n",
-            "raw": "'The result of (0x1n ** 0x123n) is 0x1n'"
+            "raw": "'The result of (0x1n ** 0x123n) is 0x1n'",
+            "start": 7162,
+            "end": 7202
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 7123,
+        "end": 7203
+      },
+      "start": 7123,
+      "end": 7204
     },
     {
       "type": "ExpressionStatement",
-      "start": 7205,
-      "end": 7284,
       "expression": {
         "type": "CallExpression",
-        "start": 7205,
-        "end": 7283,
         "callee": {
           "type": "MemberExpression",
-          "start": 7205,
-          "end": 7221,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 7205,
-            "end": 7211,
-            "name": "assert"
+            "end": 7211
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 7212,
-            "end": 7221,
-            "name": "sameValue"
+            "end": 7221
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 7205,
+          "end": 7221
         },
         "arguments": [
           {
             "type": "BinaryExpression",
-            "start": 7222,
-            "end": 7235,
             "left": {
               "type": "Literal",
-              "start": 7222,
-              "end": 7226,
               "value": null,
               "raw": "0x1n",
-              "bigint": "1"
+              "bigint": "1",
+              "start": 7222,
+              "end": 7226
             },
             "operator": "**",
             "right": {
               "type": "Literal",
-              "start": 7230,
-              "end": 7235,
               "value": null,
               "raw": "0xFFn",
-              "bigint": "255"
-            }
+              "bigint": "255",
+              "start": 7230,
+              "end": 7235
+            },
+            "start": 7222,
+            "end": 7235
           },
           {
             "type": "Literal",
-            "start": 7237,
-            "end": 7241,
             "value": null,
             "raw": "0x1n",
-            "bigint": "1"
+            "bigint": "1",
+            "start": 7237,
+            "end": 7241
           },
           {
             "type": "Literal",
-            "start": 7243,
-            "end": 7282,
             "value": "The result of (0x1n ** 0xFFn) is 0x1n",
-            "raw": "'The result of (0x1n ** 0xFFn) is 0x1n'"
+            "raw": "'The result of (0x1n ** 0xFFn) is 0x1n'",
+            "start": 7243,
+            "end": 7282
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 7205,
+        "end": 7283
+      },
+      "start": 7205,
+      "end": 7284
     },
     {
       "type": "ExpressionStatement",
-      "start": 7285,
-      "end": 7362,
       "expression": {
         "type": "CallExpression",
-        "start": 7285,
-        "end": 7361,
         "callee": {
           "type": "MemberExpression",
-          "start": 7285,
-          "end": 7301,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 7285,
-            "end": 7291,
-            "name": "assert"
+            "end": 7291
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 7292,
-            "end": 7301,
-            "name": "sameValue"
+            "end": 7301
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 7285,
+          "end": 7301
         },
         "arguments": [
           {
             "type": "BinaryExpression",
-            "start": 7302,
-            "end": 7314,
             "left": {
               "type": "Literal",
-              "start": 7302,
-              "end": 7306,
               "value": null,
               "raw": "0x1n",
-              "bigint": "1"
+              "bigint": "1",
+              "start": 7302,
+              "end": 7306
             },
             "operator": "**",
             "right": {
               "type": "Literal",
-              "start": 7310,
-              "end": 7314,
               "value": null,
               "raw": "0x3n",
-              "bigint": "3"
-            }
+              "bigint": "3",
+              "start": 7310,
+              "end": 7314
+            },
+            "start": 7302,
+            "end": 7314
           },
           {
             "type": "Literal",
-            "start": 7316,
-            "end": 7320,
             "value": null,
             "raw": "0x1n",
-            "bigint": "1"
+            "bigint": "1",
+            "start": 7316,
+            "end": 7320
           },
           {
             "type": "Literal",
-            "start": 7322,
-            "end": 7360,
             "value": "The result of (0x1n ** 0x3n) is 0x1n",
-            "raw": "'The result of (0x1n ** 0x3n) is 0x1n'"
+            "raw": "'The result of (0x1n ** 0x3n) is 0x1n'",
+            "start": 7322,
+            "end": 7360
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 7285,
+        "end": 7361
+      },
+      "start": 7285,
+      "end": 7362
     },
     {
       "type": "ExpressionStatement",
-      "start": 7363,
-      "end": 7440,
       "expression": {
         "type": "CallExpression",
-        "start": 7363,
-        "end": 7439,
         "callee": {
           "type": "MemberExpression",
-          "start": 7363,
-          "end": 7379,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 7363,
-            "end": 7369,
-            "name": "assert"
+            "end": 7369
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 7370,
-            "end": 7379,
-            "name": "sameValue"
+            "end": 7379
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 7363,
+          "end": 7379
         },
         "arguments": [
           {
             "type": "BinaryExpression",
-            "start": 7380,
-            "end": 7392,
             "left": {
               "type": "Literal",
-              "start": 7380,
-              "end": 7384,
               "value": null,
               "raw": "0x1n",
-              "bigint": "1"
+              "bigint": "1",
+              "start": 7380,
+              "end": 7384
             },
             "operator": "**",
             "right": {
               "type": "Literal",
-              "start": 7388,
-              "end": 7392,
               "value": null,
               "raw": "0x2n",
-              "bigint": "2"
-            }
+              "bigint": "2",
+              "start": 7388,
+              "end": 7392
+            },
+            "start": 7380,
+            "end": 7392
           },
           {
             "type": "Literal",
-            "start": 7394,
-            "end": 7398,
             "value": null,
             "raw": "0x1n",
-            "bigint": "1"
+            "bigint": "1",
+            "start": 7394,
+            "end": 7398
           },
           {
             "type": "Literal",
-            "start": 7400,
-            "end": 7438,
             "value": "The result of (0x1n ** 0x2n) is 0x1n",
-            "raw": "'The result of (0x1n ** 0x2n) is 0x1n'"
+            "raw": "'The result of (0x1n ** 0x2n) is 0x1n'",
+            "start": 7400,
+            "end": 7438
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 7363,
+        "end": 7439
+      },
+      "start": 7363,
+      "end": 7440
     },
     {
       "type": "ExpressionStatement",
-      "start": 7441,
-      "end": 7518,
       "expression": {
         "type": "CallExpression",
-        "start": 7441,
-        "end": 7517,
         "callee": {
           "type": "MemberExpression",
-          "start": 7441,
-          "end": 7457,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 7441,
-            "end": 7447,
-            "name": "assert"
+            "end": 7447
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 7448,
-            "end": 7457,
-            "name": "sameValue"
+            "end": 7457
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 7441,
+          "end": 7457
         },
         "arguments": [
           {
             "type": "BinaryExpression",
-            "start": 7458,
-            "end": 7470,
             "left": {
               "type": "Literal",
-              "start": 7458,
-              "end": 7462,
               "value": null,
               "raw": "0x1n",
-              "bigint": "1"
+              "bigint": "1",
+              "start": 7458,
+              "end": 7462
             },
             "operator": "**",
             "right": {
               "type": "Literal",
-              "start": 7466,
-              "end": 7470,
               "value": null,
               "raw": "0x1n",
-              "bigint": "1"
-            }
+              "bigint": "1",
+              "start": 7466,
+              "end": 7470
+            },
+            "start": 7458,
+            "end": 7470
           },
           {
             "type": "Literal",
-            "start": 7472,
-            "end": 7476,
             "value": null,
             "raw": "0x1n",
-            "bigint": "1"
+            "bigint": "1",
+            "start": 7472,
+            "end": 7476
           },
           {
             "type": "Literal",
-            "start": 7478,
-            "end": 7516,
             "value": "The result of (0x1n ** 0x1n) is 0x1n",
-            "raw": "'The result of (0x1n ** 0x1n) is 0x1n'"
+            "raw": "'The result of (0x1n ** 0x1n) is 0x1n'",
+            "start": 7478,
+            "end": 7516
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 7441,
+        "end": 7517
+      },
+      "start": 7441,
+      "end": 7518
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 7519
 }

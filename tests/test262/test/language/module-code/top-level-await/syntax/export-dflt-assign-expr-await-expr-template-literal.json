@@ -1,37 +1,37 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 2080,
   "body": [
     {
       "type": "ExportDefaultDeclaration",
-      "start": 2055,
-      "end": 2079,
       "declaration": {
         "type": "AwaitExpression",
-        "start": 2070,
-        "end": 2078,
         "argument": {
           "type": "TemplateLiteral",
-          "start": 2076,
-          "end": 2078,
           "quasis": [
             {
               "type": "TemplateElement",
-              "start": 2077,
-              "end": 2077,
               "value": {
                 "raw": "",
                 "cooked": ""
               },
-              "tail": true
+              "tail": true,
+              "start": 2077,
+              "end": 2077
             }
           ],
-          "expressions": []
-        }
-      }
+          "expressions": [],
+          "start": 2076,
+          "end": 2078
+        },
+        "start": 2070,
+        "end": 2078
+      },
+      "start": 2055,
+      "end": 2079
     }
   ],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 2080
 }

@@ -1,212 +1,212 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 582,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 359,
-      "end": 472,
       "expression": {
         "type": "CallExpression",
-        "start": 359,
-        "end": 471,
         "callee": {
           "type": "MemberExpression",
-          "start": 359,
-          "end": 375,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 359,
-            "end": 365,
-            "name": "assert"
+            "end": 365
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 366,
-            "end": 375,
-            "name": "sameValue"
+            "end": 375
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 359,
+          "end": 375
         },
         "arguments": [
           {
             "type": "UnaryExpression",
-            "start": 379,
-            "end": 407,
             "operator": "typeof",
             "argument": {
               "type": "MemberExpression",
-              "start": 386,
-              "end": 407,
               "object": {
                 "type": "MemberExpression",
-                "start": 386,
-                "end": 403,
                 "object": {
                   "type": "Identifier",
+                  "name": "WeakMap",
                   "start": 386,
-                  "end": 393,
-                  "name": "WeakMap"
+                  "end": 393
                 },
                 "property": {
                   "type": "Identifier",
+                  "name": "prototype",
                   "start": 394,
-                  "end": 403,
-                  "name": "prototype"
+                  "end": 403
                 },
                 "optional": false,
-                "computed": false
+                "computed": false,
+                "start": 386,
+                "end": 403
               },
               "property": {
                 "type": "Identifier",
+                "name": "set",
                 "start": 404,
-                "end": 407,
-                "name": "set"
+                "end": 407
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 386,
+              "end": 407
             },
-            "prefix": true
+            "prefix": true,
+            "start": 379,
+            "end": 407
           },
           {
             "type": "Literal",
-            "start": 411,
-            "end": 421,
             "value": "function",
-            "raw": "'function'"
+            "raw": "'function'",
+            "start": 411,
+            "end": 421
           },
           {
             "type": "Literal",
-            "start": 425,
-            "end": 469,
             "value": "typeof WeakMap.prototype.set is \"function\"",
-            "raw": "'typeof WeakMap.prototype.set is \"function\"'"
+            "raw": "'typeof WeakMap.prototype.set is \"function\"'",
+            "start": 425,
+            "end": 469
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 359,
+        "end": 471
+      },
+      "start": 359,
+      "end": 472
     },
     {
       "type": "ExpressionStatement",
-      "start": 474,
-      "end": 581,
       "expression": {
         "type": "CallExpression",
-        "start": 474,
-        "end": 580,
         "callee": {
           "type": "Identifier",
+          "name": "verifyProperty",
           "start": 474,
-          "end": 488,
-          "name": "verifyProperty"
+          "end": 488
         },
         "arguments": [
           {
             "type": "MemberExpression",
-            "start": 489,
-            "end": 506,
             "object": {
               "type": "Identifier",
+              "name": "WeakMap",
               "start": 489,
-              "end": 496,
-              "name": "WeakMap"
+              "end": 496
             },
             "property": {
               "type": "Identifier",
+              "name": "prototype",
               "start": 497,
-              "end": 506,
-              "name": "prototype"
+              "end": 506
             },
             "optional": false,
-            "computed": false
+            "computed": false,
+            "start": 489,
+            "end": 506
           },
           {
             "type": "Literal",
-            "start": 508,
-            "end": 513,
             "value": "set",
-            "raw": "'set'"
+            "raw": "'set'",
+            "start": 508,
+            "end": 513
           },
           {
             "type": "ObjectExpression",
-            "start": 515,
-            "end": 579,
             "properties": [
               {
                 "type": "Property",
-                "start": 519,
-                "end": 533,
                 "kind": "init",
                 "key": {
                   "type": "Identifier",
+                  "name": "writable",
                   "start": 519,
-                  "end": 527,
-                  "name": "writable"
+                  "end": 527
                 },
                 "value": {
                   "type": "Literal",
+                  "value": true,
+                  "raw": "true",
                   "start": 529,
-                  "end": 533,
-                  "value": true,
-                  "raw": "true"
+                  "end": 533
                 },
                 "method": false,
                 "shorthand": false,
-                "computed": false
+                "computed": false,
+                "start": 519,
+                "end": 533
               },
               {
                 "type": "Property",
-                "start": 537,
-                "end": 554,
                 "kind": "init",
                 "key": {
                   "type": "Identifier",
+                  "name": "enumerable",
                   "start": 537,
-                  "end": 547,
-                  "name": "enumerable"
+                  "end": 547
                 },
                 "value": {
                   "type": "Literal",
-                  "start": 549,
-                  "end": 554,
                   "value": false,
-                  "raw": "false"
+                  "raw": "false",
+                  "start": 549,
+                  "end": 554
                 },
                 "method": false,
                 "shorthand": false,
-                "computed": false
+                "computed": false,
+                "start": 537,
+                "end": 554
               },
               {
                 "type": "Property",
-                "start": 558,
-                "end": 576,
                 "kind": "init",
                 "key": {
                   "type": "Identifier",
+                  "name": "configurable",
                   "start": 558,
-                  "end": 570,
-                  "name": "configurable"
+                  "end": 570
                 },
                 "value": {
                   "type": "Literal",
-                  "start": 572,
-                  "end": 576,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "start": 572,
+                  "end": 576
                 },
                 "method": false,
                 "shorthand": false,
-                "computed": false
+                "computed": false,
+                "start": 558,
+                "end": 576
               }
-            ]
+            ],
+            "start": 515,
+            "end": 579
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 474,
+        "end": 580
+      },
+      "start": 474,
+      "end": 581
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 582
 }

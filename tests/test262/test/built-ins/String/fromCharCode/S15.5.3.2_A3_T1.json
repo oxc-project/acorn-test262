@@ -1,176 +1,176 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 669,
   "body": [
     {
       "type": "IfStatement",
-      "start": 370,
-      "end": 586,
       "test": {
         "type": "BinaryExpression",
-        "start": 374,
-        "end": 420,
         "left": {
           "type": "CallExpression",
-          "start": 374,
-          "end": 409,
           "callee": {
             "type": "MemberExpression",
-            "start": 374,
-            "end": 393,
             "object": {
               "type": "Identifier",
+              "name": "String",
               "start": 374,
-              "end": 380,
-              "name": "String"
+              "end": 380
             },
             "property": {
               "type": "Identifier",
+              "name": "fromCharCode",
               "start": 381,
-              "end": 393,
-              "name": "fromCharCode"
+              "end": 393
             },
             "optional": false,
-            "computed": false
+            "computed": false,
+            "start": 374,
+            "end": 393
           },
           "arguments": [
             {
               "type": "Literal",
+              "value": 65,
+              "raw": "65",
               "start": 394,
-              "end": 396,
-              "value": 65,
-              "raw": "65"
+              "end": 396
             },
             {
               "type": "Literal",
+              "value": 66,
+              "raw": "66",
               "start": 398,
-              "end": 400,
-              "value": 66,
-              "raw": "66"
+              "end": 400
             },
             {
               "type": "Literal",
+              "value": 66,
+              "raw": "66",
               "start": 402,
-              "end": 404,
-              "value": 66,
-              "raw": "66"
+              "end": 404
             },
             {
               "type": "Literal",
-              "start": 406,
-              "end": 408,
               "value": 65,
-              "raw": "65"
+              "raw": "65",
+              "start": 406,
+              "end": 408
             }
           ],
-          "optional": false
+          "optional": false,
+          "start": 374,
+          "end": 409
         },
         "operator": "!==",
         "right": {
           "type": "Literal",
-          "start": 414,
-          "end": 420,
           "value": "ABBA",
-          "raw": "\"ABBA\""
-        }
+          "raw": "\"ABBA\"",
+          "start": 414,
+          "end": 420
+        },
+        "start": 374,
+        "end": 420
       },
       "consequent": {
         "type": "BlockStatement",
-        "start": 422,
-        "end": 586,
         "body": [
           {
             "type": "ThrowStatement",
-            "start": 426,
-            "end": 584,
             "argument": {
               "type": "NewExpression",
-              "start": 432,
-              "end": 583,
               "callee": {
                 "type": "Identifier",
+                "name": "Test262Error",
                 "start": 436,
-                "end": 448,
-                "name": "Test262Error"
+                "end": 448
               },
               "arguments": [
                 {
                   "type": "BinaryExpression",
-                  "start": 449,
-                  "end": 582,
                   "left": {
                     "type": "Literal",
-                    "start": 449,
-                    "end": 544,
                     "value": "#1: String.fromCharCode(65,66,66,65) === \"ABBA\". Actual: String.fromCharCode(65,66,66,65) ===",
-                    "raw": "'#1: String.fromCharCode(65,66,66,65) === \"ABBA\". Actual: String.fromCharCode(65,66,66,65) ==='"
+                    "raw": "'#1: String.fromCharCode(65,66,66,65) === \"ABBA\". Actual: String.fromCharCode(65,66,66,65) ==='",
+                    "start": 449,
+                    "end": 544
                   },
                   "operator": "+",
                   "right": {
                     "type": "CallExpression",
-                    "start": 547,
-                    "end": 582,
                     "callee": {
                       "type": "MemberExpression",
-                      "start": 547,
-                      "end": 566,
                       "object": {
                         "type": "Identifier",
+                        "name": "String",
                         "start": 547,
-                        "end": 553,
-                        "name": "String"
+                        "end": 553
                       },
                       "property": {
                         "type": "Identifier",
+                        "name": "fromCharCode",
                         "start": 554,
-                        "end": 566,
-                        "name": "fromCharCode"
+                        "end": 566
                       },
                       "optional": false,
-                      "computed": false
+                      "computed": false,
+                      "start": 547,
+                      "end": 566
                     },
                     "arguments": [
                       {
                         "type": "Literal",
+                        "value": 65,
+                        "raw": "65",
                         "start": 567,
-                        "end": 569,
-                        "value": 65,
-                        "raw": "65"
+                        "end": 569
                       },
                       {
                         "type": "Literal",
+                        "value": 66,
+                        "raw": "66",
                         "start": 571,
-                        "end": 573,
-                        "value": 66,
-                        "raw": "66"
+                        "end": 573
                       },
                       {
                         "type": "Literal",
+                        "value": 66,
+                        "raw": "66",
                         "start": 575,
-                        "end": 577,
-                        "value": 66,
-                        "raw": "66"
+                        "end": 577
                       },
                       {
                         "type": "Literal",
-                        "start": 579,
-                        "end": 581,
                         "value": 65,
-                        "raw": "65"
+                        "raw": "65",
+                        "start": 579,
+                        "end": 581
                       }
                     ],
-                    "optional": false
-                  }
+                    "optional": false,
+                    "start": 547,
+                    "end": 582
+                  },
+                  "start": 449,
+                  "end": 582
                 }
-              ]
-            }
+              ],
+              "start": 432,
+              "end": 583
+            },
+            "start": 426,
+            "end": 584
           }
-        ]
+        ],
+        "start": 422,
+        "end": 586
       },
-      "alternate": null
+      "alternate": null,
+      "start": 370,
+      "end": 586
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 669
 }

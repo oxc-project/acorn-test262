@@ -1,50 +1,50 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 1071,
   "body": [
     {
       "type": "FunctionDeclaration",
-      "start": 1039,
-      "end": 1070,
       "id": {
         "type": "Identifier",
+        "name": "fn",
         "start": 1048,
-        "end": 1050,
-        "name": "fn"
+        "end": 1050
       },
       "generator": false,
       "async": false,
       "params": [],
       "body": {
         "type": "BlockStatement",
-        "start": 1053,
-        "end": 1070,
         "body": [
           {
             "type": "ExpressionStatement",
-            "start": 1057,
-            "end": 1068,
             "expression": {
               "type": "ImportExpression",
-              "start": 1057,
-              "end": 1067,
               "source": {
                 "type": "Literal",
-                "start": 1064,
-                "end": 1066,
                 "value": "",
-                "raw": "''"
+                "raw": "''",
+                "start": 1064,
+                "end": 1066
               },
               "options": null,
-              "phase": null
-            }
+              "phase": null,
+              "start": 1057,
+              "end": 1067
+            },
+            "start": 1057,
+            "end": 1068
           }
-        ]
+        ],
+        "start": 1053,
+        "end": 1070
       },
-      "expression": false
+      "expression": false,
+      "start": 1039,
+      "end": 1070
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 1071
 }

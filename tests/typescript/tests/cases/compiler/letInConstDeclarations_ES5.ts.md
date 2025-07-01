@@ -2,124 +2,124 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 58,
-  "end": 113,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 58,
-      "end": 80,
       "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 64,
-          "end": 70,
           "id": {
             "type": "Identifier",
-            "start": 64,
-            "end": 65,
             "decorators": [],
             "name": "x",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 64,
+            "end": 65
           },
           "init": {
             "type": "Literal",
-            "start": 68,
-            "end": 70,
             "value": 50,
-            "raw": "50"
+            "raw": "50",
+            "start": 68,
+            "end": 70
           },
-          "definite": false
+          "definite": false,
+          "start": 64,
+          "end": 70
         },
         {
           "type": "VariableDeclarator",
-          "start": 72,
-          "end": 79,
           "id": {
             "type": "Identifier",
-            "start": 72,
-            "end": 75,
             "decorators": [],
             "name": "let",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 72,
+            "end": 75
           },
           "init": {
             "type": "Literal",
-            "start": 78,
-            "end": 79,
             "value": 5,
-            "raw": "5"
+            "raw": "5",
+            "start": 78,
+            "end": 79
           },
-          "definite": false
+          "definite": false,
+          "start": 72,
+          "end": 79
         }
       ],
-      "declare": false
+      "declare": false,
+      "start": 58,
+      "end": 80
     },
     {
       "type": "BlockStatement",
-      "start": 82,
-      "end": 113,
       "body": [
         {
           "type": "VariableDeclaration",
-          "start": 88,
-          "end": 111,
           "kind": "const",
           "declarations": [
             {
               "type": "VariableDeclarator",
-              "start": 94,
-              "end": 100,
               "id": {
                 "type": "Identifier",
-                "start": 94,
-                "end": 95,
                 "decorators": [],
                 "name": "x",
                 "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "start": 94,
+                "end": 95
               },
               "init": {
                 "type": "Literal",
-                "start": 98,
-                "end": 100,
                 "value": 10,
-                "raw": "10"
+                "raw": "10",
+                "start": 98,
+                "end": 100
               },
-              "definite": false
+              "definite": false,
+              "start": 94,
+              "end": 100
             },
             {
               "type": "VariableDeclarator",
-              "start": 102,
-              "end": 110,
               "id": {
                 "type": "Identifier",
-                "start": 102,
-                "end": 105,
                 "decorators": [],
                 "name": "let",
                 "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "start": 102,
+                "end": 105
               },
               "init": {
                 "type": "Literal",
-                "start": 108,
-                "end": 110,
                 "value": 20,
-                "raw": "20"
+                "raw": "20",
+                "start": 108,
+                "end": 110
               },
-              "definite": false
+              "definite": false,
+              "start": 102,
+              "end": 110
             }
           ],
-          "declare": false
+          "declare": false,
+          "start": 88,
+          "end": 111
         }
-      ]
+      ],
+      "start": 82,
+      "end": 113
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 58,
+  "end": 113
 }
 ```

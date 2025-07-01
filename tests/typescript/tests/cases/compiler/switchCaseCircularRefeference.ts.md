@@ -2,21 +2,17 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 21,
-  "end": 117,
   "body": [
     {
       "type": "FunctionDeclaration",
-      "start": 21,
-      "end": 117,
       "id": {
         "type": "Identifier",
-        "start": 30,
-        "end": 31,
         "decorators": [],
         "name": "f",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 30,
+        "end": 31
       },
       "generator": false,
       "async": false,
@@ -25,217 +21,221 @@ __ESTREE_TEST__:PASS:
       "params": [
         {
           "type": "Identifier",
-          "start": 32,
-          "end": 60,
           "decorators": [],
           "name": "x",
           "optional": false,
           "typeAnnotation": {
             "type": "TSTypeAnnotation",
-            "start": 33,
-            "end": 60,
             "typeAnnotation": {
               "type": "TSUnionType",
-              "start": 35,
-              "end": 60,
               "types": [
                 {
                   "type": "TSTypeLiteral",
-                  "start": 35,
-                  "end": 46,
                   "members": [
                     {
                       "type": "TSPropertySignature",
-                      "start": 36,
-                      "end": 43,
                       "computed": false,
                       "optional": false,
                       "readonly": false,
                       "key": {
                         "type": "Identifier",
-                        "start": 36,
-                        "end": 37,
                         "decorators": [],
                         "name": "a",
                         "optional": false,
-                        "typeAnnotation": null
+                        "typeAnnotation": null,
+                        "start": 36,
+                        "end": 37
                       },
                       "typeAnnotation": {
                         "type": "TSTypeAnnotation",
-                        "start": 37,
-                        "end": 42,
                         "typeAnnotation": {
                           "type": "TSLiteralType",
-                          "start": 39,
-                          "end": 42,
                           "literal": {
                             "type": "Literal",
-                            "start": 39,
-                            "end": 42,
                             "value": "A",
-                            "raw": "\"A\""
-                          }
-                        }
+                            "raw": "\"A\"",
+                            "start": 39,
+                            "end": 42
+                          },
+                          "start": 39,
+                          "end": 42
+                        },
+                        "start": 37,
+                        "end": 42
                       },
                       "accessibility": null,
-                      "static": false
+                      "static": false,
+                      "start": 36,
+                      "end": 43
                     },
                     {
                       "type": "TSPropertySignature",
-                      "start": 44,
-                      "end": 45,
                       "computed": false,
                       "optional": false,
                       "readonly": false,
                       "key": {
                         "type": "Identifier",
-                        "start": 44,
-                        "end": 45,
                         "decorators": [],
                         "name": "b",
                         "optional": false,
-                        "typeAnnotation": null
+                        "typeAnnotation": null,
+                        "start": 44,
+                        "end": 45
                       },
                       "typeAnnotation": null,
                       "accessibility": null,
-                      "static": false
+                      "static": false,
+                      "start": 44,
+                      "end": 45
                     }
-                  ]
+                  ],
+                  "start": 35,
+                  "end": 46
                 },
                 {
                   "type": "TSTypeLiteral",
-                  "start": 49,
-                  "end": 60,
                   "members": [
                     {
                       "type": "TSPropertySignature",
-                      "start": 50,
-                      "end": 57,
                       "computed": false,
                       "optional": false,
                       "readonly": false,
                       "key": {
                         "type": "Identifier",
-                        "start": 50,
-                        "end": 51,
                         "decorators": [],
                         "name": "a",
                         "optional": false,
-                        "typeAnnotation": null
+                        "typeAnnotation": null,
+                        "start": 50,
+                        "end": 51
                       },
                       "typeAnnotation": {
                         "type": "TSTypeAnnotation",
-                        "start": 51,
-                        "end": 56,
                         "typeAnnotation": {
                           "type": "TSLiteralType",
-                          "start": 53,
-                          "end": 56,
                           "literal": {
                             "type": "Literal",
-                            "start": 53,
-                            "end": 56,
                             "value": "C",
-                            "raw": "\"C\""
-                          }
-                        }
+                            "raw": "\"C\"",
+                            "start": 53,
+                            "end": 56
+                          },
+                          "start": 53,
+                          "end": 56
+                        },
+                        "start": 51,
+                        "end": 56
                       },
                       "accessibility": null,
-                      "static": false
+                      "static": false,
+                      "start": 50,
+                      "end": 57
                     },
                     {
                       "type": "TSPropertySignature",
-                      "start": 58,
-                      "end": 59,
                       "computed": false,
                       "optional": false,
                       "readonly": false,
                       "key": {
                         "type": "Identifier",
-                        "start": 58,
-                        "end": 59,
                         "decorators": [],
                         "name": "e",
                         "optional": false,
-                        "typeAnnotation": null
+                        "typeAnnotation": null,
+                        "start": 58,
+                        "end": 59
                       },
                       "typeAnnotation": null,
                       "accessibility": null,
-                      "static": false
+                      "static": false,
+                      "start": 58,
+                      "end": 59
                     }
-                  ]
+                  ],
+                  "start": 49,
+                  "end": 60
                 }
-              ]
-            }
-          }
+              ],
+              "start": 35,
+              "end": 60
+            },
+            "start": 33,
+            "end": 60
+          },
+          "start": 32,
+          "end": 60
         }
       ],
       "returnType": null,
       "body": {
         "type": "BlockStatement",
-        "start": 62,
-        "end": 117,
         "body": [
           {
             "type": "SwitchStatement",
-            "start": 68,
-            "end": 115,
             "discriminant": {
               "type": "MemberExpression",
-              "start": 76,
-              "end": 79,
               "object": {
                 "type": "Identifier",
-                "start": 76,
-                "end": 77,
                 "decorators": [],
                 "name": "x",
                 "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "start": 76,
+                "end": 77
               },
               "property": {
                 "type": "Identifier",
-                "start": 78,
-                "end": 79,
                 "decorators": [],
                 "name": "a",
                 "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "start": 78,
+                "end": 79
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 76,
+              "end": 79
             },
             "cases": [
               {
                 "type": "SwitchCase",
-                "start": 87,
-                "end": 109,
                 "test": {
                   "type": "Identifier",
-                  "start": 92,
-                  "end": 93,
                   "decorators": [],
                   "name": "x",
                   "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "start": 92,
+                  "end": 93
                 },
                 "consequent": [
                   {
                     "type": "BreakStatement",
+                    "label": null,
                     "start": 103,
-                    "end": 109,
-                    "label": null
+                    "end": 109
                   }
-                ]
+                ],
+                "start": 87,
+                "end": 109
               }
-            ]
+            ],
+            "start": 68,
+            "end": 115
           }
-        ]
+        ],
+        "start": 62,
+        "end": 117
       },
-      "expression": false
+      "expression": false,
+      "start": 21,
+      "end": 117
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 21,
+  "end": 117
 }
 ```

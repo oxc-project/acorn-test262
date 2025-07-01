@@ -1,153 +1,153 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 605,
   "body": [
     {
       "type": "IfStatement",
-      "start": 278,
-      "end": 459,
       "test": {
         "type": "BinaryExpression",
-        "start": 282,
-        "end": 347,
         "left": {
           "type": "CallExpression",
-          "start": 282,
-          "end": 316,
           "callee": {
             "type": "Identifier",
+            "name": "eval",
             "start": 282,
-            "end": 286,
-            "name": "eval"
+            "end": 286
           },
           "arguments": [
             {
               "type": "Literal",
-              "start": 287,
-              "end": 315,
               "value": "'\tstr\ting\t'",
-              "raw": "\"'\\u0009str\\u0009ing\\u0009'\""
+              "raw": "\"'\\u0009str\\u0009ing\\u0009'\"",
+              "start": 287,
+              "end": 315
             }
           ],
-          "optional": false
+          "optional": false,
+          "start": 282,
+          "end": 316
         },
         "operator": "!==",
         "right": {
           "type": "Literal",
-          "start": 321,
-          "end": 347,
           "value": "\tstr\ting\t",
-          "raw": "\"\\u0009str\\u0009ing\\u0009\""
-        }
+          "raw": "\"\\u0009str\\u0009ing\\u0009\"",
+          "start": 321,
+          "end": 347
+        },
+        "start": 282,
+        "end": 347
       },
       "consequent": {
         "type": "BlockStatement",
-        "start": 349,
-        "end": 459,
         "body": [
           {
             "type": "ThrowStatement",
-            "start": 353,
-            "end": 457,
             "argument": {
               "type": "NewExpression",
-              "start": 359,
-              "end": 456,
               "callee": {
                 "type": "Identifier",
+                "name": "Test262Error",
                 "start": 363,
-                "end": 375,
-                "name": "Test262Error"
+                "end": 375
               },
               "arguments": [
                 {
                   "type": "Literal",
-                  "start": 376,
-                  "end": 455,
                   "value": "#1: eval(\"'\\u0009str\\u0009ing\\u0009'\") === \"\\u0009str\\u0009ing\\u0009\"",
-                  "raw": "'#1: eval(\"\\'\\\\u0009str\\\\u0009ing\\\\u0009\\'\") === \"\\\\u0009str\\\\u0009ing\\\\u0009\"'"
+                  "raw": "'#1: eval(\"\\'\\\\u0009str\\\\u0009ing\\\\u0009\\'\") === \"\\\\u0009str\\\\u0009ing\\\\u0009\"'",
+                  "start": 376,
+                  "end": 455
                 }
-              ]
-            }
+              ],
+              "start": 359,
+              "end": 456
+            },
+            "start": 353,
+            "end": 457
           }
-        ]
+        ],
+        "start": 349,
+        "end": 459
       },
-      "alternate": null
+      "alternate": null,
+      "start": 278,
+      "end": 459
     },
     {
       "type": "IfStatement",
-      "start": 471,
-      "end": 604,
       "test": {
         "type": "BinaryExpression",
-        "start": 475,
-        "end": 516,
         "left": {
           "type": "CallExpression",
-          "start": 475,
-          "end": 497,
           "callee": {
             "type": "Identifier",
+            "name": "eval",
             "start": 475,
-            "end": 479,
-            "name": "eval"
+            "end": 479
           },
           "arguments": [
             {
               "type": "Literal",
-              "start": 480,
-              "end": 496,
               "value": "'\tstr\ting\t'",
-              "raw": "\"'\\tstr\\ting\\t'\""
+              "raw": "\"'\\tstr\\ting\\t'\"",
+              "start": 480,
+              "end": 496
             }
           ],
-          "optional": false
+          "optional": false,
+          "start": 475,
+          "end": 497
         },
         "operator": "!==",
         "right": {
           "type": "Literal",
-          "start": 502,
-          "end": 516,
           "value": "\tstr\ting\t",
-          "raw": "\"\\tstr\\ting\\t\""
-        }
+          "raw": "\"\\tstr\\ting\\t\"",
+          "start": 502,
+          "end": 516
+        },
+        "start": 475,
+        "end": 516
       },
       "consequent": {
         "type": "BlockStatement",
-        "start": 518,
-        "end": 604,
         "body": [
           {
             "type": "ThrowStatement",
-            "start": 522,
-            "end": 602,
             "argument": {
               "type": "NewExpression",
-              "start": 528,
-              "end": 601,
               "callee": {
                 "type": "Identifier",
+                "name": "Test262Error",
                 "start": 532,
-                "end": 544,
-                "name": "Test262Error"
+                "end": 544
               },
               "arguments": [
                 {
                   "type": "Literal",
-                  "start": 545,
-                  "end": 600,
                   "value": "#2: eval(\"'\\tstr\\ting\\t'\") === \"\\tstr\\ting\\t\"",
-                  "raw": "'#2: eval(\"\\'\\\\tstr\\\\ting\\\\t\\'\") === \"\\\\tstr\\\\ting\\\\t\"'"
+                  "raw": "'#2: eval(\"\\'\\\\tstr\\\\ting\\\\t\\'\") === \"\\\\tstr\\\\ting\\\\t\"'",
+                  "start": 545,
+                  "end": 600
                 }
-              ]
-            }
+              ],
+              "start": 528,
+              "end": 601
+            },
+            "start": 522,
+            "end": 602
           }
-        ]
+        ],
+        "start": 518,
+        "end": 604
       },
-      "alternate": null
+      "alternate": null,
+      "start": 471,
+      "end": 604
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 605
 }

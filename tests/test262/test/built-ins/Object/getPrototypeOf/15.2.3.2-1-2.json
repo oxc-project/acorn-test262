@@ -1,103 +1,103 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 310,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 237,
-      "end": 309,
       "expression": {
         "type": "CallExpression",
-        "start": 237,
-        "end": 308,
         "callee": {
           "type": "MemberExpression",
-          "start": 237,
-          "end": 250,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 237,
-            "end": 243,
-            "name": "assert"
+            "end": 243
           },
           "property": {
             "type": "Identifier",
+            "name": "throws",
             "start": 244,
-            "end": 250,
-            "name": "throws"
+            "end": 250
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 237,
+          "end": 250
         },
         "arguments": [
           {
             "type": "Identifier",
+            "name": "TypeError",
             "start": 251,
-            "end": 260,
-            "name": "TypeError"
+            "end": 260
           },
           {
             "type": "FunctionExpression",
-            "start": 262,
-            "end": 307,
             "id": null,
             "generator": false,
             "async": false,
             "params": [],
             "body": {
               "type": "BlockStatement",
-              "start": 273,
-              "end": 307,
               "body": [
                 {
                   "type": "ExpressionStatement",
-                  "start": 277,
-                  "end": 305,
                   "expression": {
                     "type": "CallExpression",
-                    "start": 277,
-                    "end": 304,
                     "callee": {
                       "type": "MemberExpression",
-                      "start": 277,
-                      "end": 298,
                       "object": {
                         "type": "Identifier",
+                        "name": "Object",
                         "start": 277,
-                        "end": 283,
-                        "name": "Object"
+                        "end": 283
                       },
                       "property": {
                         "type": "Identifier",
+                        "name": "getPrototypeOf",
                         "start": 284,
-                        "end": 298,
-                        "name": "getPrototypeOf"
+                        "end": 298
                       },
                       "optional": false,
-                      "computed": false
+                      "computed": false,
+                      "start": 277,
+                      "end": 298
                     },
                     "arguments": [
                       {
                         "type": "Literal",
-                        "start": 299,
-                        "end": 303,
                         "value": null,
-                        "raw": "null"
+                        "raw": "null",
+                        "start": 299,
+                        "end": 303
                       }
                     ],
-                    "optional": false
-                  }
+                    "optional": false,
+                    "start": 277,
+                    "end": 304
+                  },
+                  "start": 277,
+                  "end": 305
                 }
-              ]
+              ],
+              "start": 273,
+              "end": 307
             },
-            "expression": false
+            "expression": false,
+            "start": 262,
+            "end": 307
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 237,
+        "end": 308
+      },
+      "start": 237,
+      "end": 309
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 310
 }

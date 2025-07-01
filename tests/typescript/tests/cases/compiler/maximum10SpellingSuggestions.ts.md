@@ -2,216 +2,216 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 100,
-  "end": 169,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 100,
-      "end": 109,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 104,
-          "end": 108,
           "id": {
             "type": "Identifier",
-            "start": 104,
-            "end": 108,
             "decorators": [],
             "name": "blob",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 104,
+            "end": 108
           },
           "init": null,
-          "definite": false
+          "definite": false,
+          "start": 104,
+          "end": 108
         }
       ],
-      "declare": false
+      "declare": false,
+      "start": 100,
+      "end": 109
     },
     {
       "type": "ExpressionStatement",
-      "start": 110,
-      "end": 114,
       "expression": {
         "type": "Identifier",
+        "decorators": [],
+        "name": "bob",
+        "optional": false,
+        "typeAnnotation": null,
         "start": 110,
-        "end": 113,
-        "decorators": [],
-        "name": "bob",
-        "optional": false,
-        "typeAnnotation": null
+        "end": 113
       },
-      "directive": null
+      "directive": null,
+      "start": 110,
+      "end": 114
     },
     {
       "type": "ExpressionStatement",
-      "start": 115,
-      "end": 119,
       "expression": {
         "type": "Identifier",
+        "decorators": [],
+        "name": "bob",
+        "optional": false,
+        "typeAnnotation": null,
         "start": 115,
-        "end": 118,
-        "decorators": [],
-        "name": "bob",
-        "optional": false,
-        "typeAnnotation": null
+        "end": 118
       },
-      "directive": null
+      "directive": null,
+      "start": 115,
+      "end": 119
     },
     {
       "type": "ExpressionStatement",
-      "start": 120,
-      "end": 124,
       "expression": {
         "type": "Identifier",
+        "decorators": [],
+        "name": "bob",
+        "optional": false,
+        "typeAnnotation": null,
         "start": 120,
-        "end": 123,
-        "decorators": [],
-        "name": "bob",
-        "optional": false,
-        "typeAnnotation": null
+        "end": 123
       },
-      "directive": null
+      "directive": null,
+      "start": 120,
+      "end": 124
     },
     {
       "type": "ExpressionStatement",
-      "start": 125,
-      "end": 129,
       "expression": {
         "type": "Identifier",
+        "decorators": [],
+        "name": "bob",
+        "optional": false,
+        "typeAnnotation": null,
         "start": 125,
-        "end": 128,
-        "decorators": [],
-        "name": "bob",
-        "optional": false,
-        "typeAnnotation": null
+        "end": 128
       },
-      "directive": null
+      "directive": null,
+      "start": 125,
+      "end": 129
     },
     {
       "type": "ExpressionStatement",
-      "start": 130,
-      "end": 134,
       "expression": {
         "type": "Identifier",
+        "decorators": [],
+        "name": "bob",
+        "optional": false,
+        "typeAnnotation": null,
         "start": 130,
-        "end": 133,
-        "decorators": [],
-        "name": "bob",
-        "optional": false,
-        "typeAnnotation": null
+        "end": 133
       },
-      "directive": null
+      "directive": null,
+      "start": 130,
+      "end": 134
     },
     {
       "type": "ExpressionStatement",
-      "start": 135,
-      "end": 139,
       "expression": {
         "type": "Identifier",
+        "decorators": [],
+        "name": "bob",
+        "optional": false,
+        "typeAnnotation": null,
         "start": 135,
-        "end": 138,
-        "decorators": [],
-        "name": "bob",
-        "optional": false,
-        "typeAnnotation": null
+        "end": 138
       },
-      "directive": null
+      "directive": null,
+      "start": 135,
+      "end": 139
     },
     {
       "type": "ExpressionStatement",
-      "start": 140,
-      "end": 144,
       "expression": {
         "type": "Identifier",
+        "decorators": [],
+        "name": "bob",
+        "optional": false,
+        "typeAnnotation": null,
         "start": 140,
-        "end": 143,
-        "decorators": [],
-        "name": "bob",
-        "optional": false,
-        "typeAnnotation": null
+        "end": 143
       },
-      "directive": null
+      "directive": null,
+      "start": 140,
+      "end": 144
     },
     {
       "type": "ExpressionStatement",
-      "start": 145,
-      "end": 149,
       "expression": {
         "type": "Identifier",
+        "decorators": [],
+        "name": "bob",
+        "optional": false,
+        "typeAnnotation": null,
         "start": 145,
-        "end": 148,
-        "decorators": [],
-        "name": "bob",
-        "optional": false,
-        "typeAnnotation": null
+        "end": 148
       },
-      "directive": null
+      "directive": null,
+      "start": 145,
+      "end": 149
     },
     {
       "type": "ExpressionStatement",
-      "start": 150,
-      "end": 154,
       "expression": {
         "type": "Identifier",
+        "decorators": [],
+        "name": "bob",
+        "optional": false,
+        "typeAnnotation": null,
         "start": 150,
-        "end": 153,
-        "decorators": [],
-        "name": "bob",
-        "optional": false,
-        "typeAnnotation": null
+        "end": 153
       },
-      "directive": null
+      "directive": null,
+      "start": 150,
+      "end": 154
     },
     {
       "type": "ExpressionStatement",
-      "start": 155,
-      "end": 159,
       "expression": {
         "type": "Identifier",
+        "decorators": [],
+        "name": "bob",
+        "optional": false,
+        "typeAnnotation": null,
         "start": 155,
-        "end": 158,
-        "decorators": [],
-        "name": "bob",
-        "optional": false,
-        "typeAnnotation": null
+        "end": 158
       },
-      "directive": null
+      "directive": null,
+      "start": 155,
+      "end": 159
     },
     {
       "type": "ExpressionStatement",
-      "start": 160,
-      "end": 164,
       "expression": {
         "type": "Identifier",
+        "decorators": [],
+        "name": "bob",
+        "optional": false,
+        "typeAnnotation": null,
         "start": 160,
-        "end": 163,
-        "decorators": [],
-        "name": "bob",
-        "optional": false,
-        "typeAnnotation": null
+        "end": 163
       },
-      "directive": null
+      "directive": null,
+      "start": 160,
+      "end": 164
     },
     {
       "type": "ExpressionStatement",
-      "start": 165,
-      "end": 169,
       "expression": {
         "type": "Identifier",
-        "start": 165,
-        "end": 168,
         "decorators": [],
         "name": "bob",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 165,
+        "end": 168
       },
-      "directive": null
+      "directive": null,
+      "start": 165,
+      "end": 169
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 100,
+  "end": 169
 }
 ```

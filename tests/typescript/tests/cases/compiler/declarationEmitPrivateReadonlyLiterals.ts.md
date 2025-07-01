@@ -2,22 +2,18 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 145,
   "body": [
     {
       "type": "ClassDeclaration",
-      "start": 0,
-      "end": 145,
       "decorators": [],
       "id": {
         "type": "Identifier",
-        "start": 6,
-        "end": 9,
         "decorators": [],
         "name": "Foo",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 6,
+        "end": 9
       },
       "typeParameters": null,
       "superClass": null,
@@ -25,30 +21,26 @@ __ESTREE_TEST__:PASS:
       "implements": [],
       "body": {
         "type": "ClassBody",
-        "start": 10,
-        "end": 145,
         "body": [
           {
             "type": "PropertyDefinition",
-            "start": 16,
-            "end": 48,
             "decorators": [],
             "key": {
               "type": "Identifier",
-              "start": 40,
-              "end": 41,
               "decorators": [],
               "name": "A",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 40,
+              "end": 41
             },
             "typeAnnotation": null,
             "value": {
               "type": "Literal",
-              "start": 44,
-              "end": 47,
               "value": "a",
-              "raw": "\"a\""
+              "raw": "\"a\"",
+              "start": 44,
+              "end": 47
             },
             "computed": false,
             "static": true,
@@ -57,29 +49,29 @@ __ESTREE_TEST__:PASS:
             "optional": false,
             "definite": false,
             "readonly": true,
-            "accessibility": "private"
+            "accessibility": "private",
+            "start": 16,
+            "end": 48
           },
           {
             "type": "PropertyDefinition",
-            "start": 53,
-            "end": 78,
             "decorators": [],
             "key": {
               "type": "Identifier",
-              "start": 70,
-              "end": 71,
               "decorators": [],
               "name": "B",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 70,
+              "end": 71
             },
             "typeAnnotation": null,
             "value": {
               "type": "Literal",
-              "start": 74,
-              "end": 77,
               "value": "b",
-              "raw": "\"b\""
+              "raw": "\"b\"",
+              "start": 74,
+              "end": 77
             },
             "computed": false,
             "static": false,
@@ -88,29 +80,29 @@ __ESTREE_TEST__:PASS:
             "optional": false,
             "definite": false,
             "readonly": true,
-            "accessibility": "private"
+            "accessibility": "private",
+            "start": 53,
+            "end": 78
           },
           {
             "type": "PropertyDefinition",
-            "start": 83,
-            "end": 114,
             "decorators": [],
             "key": {
               "type": "Identifier",
-              "start": 107,
-              "end": 108,
               "decorators": [],
               "name": "C",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 107,
+              "end": 108
             },
             "typeAnnotation": null,
             "value": {
               "type": "Literal",
-              "start": 111,
-              "end": 113,
               "value": 42,
-              "raw": "42"
+              "raw": "42",
+              "start": 111,
+              "end": 113
             },
             "computed": false,
             "static": true,
@@ -119,29 +111,29 @@ __ESTREE_TEST__:PASS:
             "optional": false,
             "definite": false,
             "readonly": true,
-            "accessibility": "private"
+            "accessibility": "private",
+            "start": 83,
+            "end": 114
           },
           {
             "type": "PropertyDefinition",
-            "start": 119,
-            "end": 143,
             "decorators": [],
             "key": {
               "type": "Identifier",
-              "start": 136,
-              "end": 137,
               "decorators": [],
               "name": "D",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 136,
+              "end": 137
             },
             "typeAnnotation": null,
             "value": {
               "type": "Literal",
-              "start": 140,
-              "end": 142,
               "value": 42,
-              "raw": "42"
+              "raw": "42",
+              "start": 140,
+              "end": 142
             },
             "computed": false,
             "static": false,
@@ -150,15 +142,23 @@ __ESTREE_TEST__:PASS:
             "optional": false,
             "definite": false,
             "readonly": true,
-            "accessibility": "private"
+            "accessibility": "private",
+            "start": 119,
+            "end": 143
           }
-        ]
+        ],
+        "start": 10,
+        "end": 145
       },
       "abstract": false,
-      "declare": false
+      "declare": false,
+      "start": 0,
+      "end": 145
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 145
 }
 ```

@@ -1,88 +1,88 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 686,
   "body": [
     {
       "type": "ImportDeclaration",
-      "start": 578,
-      "end": 615,
       "specifiers": [
         {
           "type": "ImportDefaultSpecifier",
-          "start": 585,
-          "end": 590,
           "local": {
             "type": "Identifier",
+            "name": "defer",
             "start": 585,
-            "end": 590,
-            "name": "defer"
-          }
+            "end": 590
+          },
+          "start": 585,
+          "end": 590
         }
       ],
       "source": {
         "type": "Literal",
-        "start": 596,
-        "end": 614,
         "value": "./dep_FIXTURE.js",
-        "raw": "\"./dep_FIXTURE.js\""
+        "raw": "\"./dep_FIXTURE.js\"",
+        "start": 596,
+        "end": 614
       },
       "phase": null,
-      "attributes": []
+      "attributes": [],
+      "start": 578,
+      "end": 615
     },
     {
       "type": "ExpressionStatement",
-      "start": 617,
-      "end": 685,
       "expression": {
         "type": "CallExpression",
-        "start": 617,
-        "end": 684,
         "callee": {
           "type": "MemberExpression",
-          "start": 617,
-          "end": 633,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 617,
-            "end": 623,
-            "name": "assert"
+            "end": 623
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 624,
-            "end": 633,
-            "name": "sameValue"
+            "end": 633
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 617,
+          "end": 633
         },
         "arguments": [
           {
             "type": "Identifier",
+            "name": "defer",
             "start": 634,
-            "end": 639,
-            "name": "defer"
+            "end": 639
           },
           {
             "type": "Literal",
-            "start": 641,
-            "end": 642,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "start": 641,
+            "end": 642
           },
           {
             "type": "Literal",
-            "start": 644,
-            "end": 683,
             "value": "`defer` is the default export binding",
-            "raw": "\"`defer` is the default export binding\""
+            "raw": "\"`defer` is the default export binding\"",
+            "start": 644,
+            "end": 683
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 617,
+        "end": 684
+      },
+      "start": 617,
+      "end": 685
     }
   ],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 686
 }

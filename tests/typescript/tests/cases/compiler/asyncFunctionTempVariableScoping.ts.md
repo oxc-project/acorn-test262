@@ -2,146 +2,146 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 57,
-  "end": 105,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 57,
-      "end": 105,
       "expression": {
         "type": "ArrowFunctionExpression",
-        "start": 57,
-        "end": 104,
         "expression": true,
         "async": true,
         "typeParameters": null,
         "params": [
           {
             "type": "ObjectPattern",
-            "start": 64,
-            "end": 85,
             "decorators": [],
             "properties": [
               {
                 "type": "Property",
-                "start": 66,
-                "end": 69,
                 "kind": "init",
                 "key": {
                   "type": "Identifier",
-                  "start": 66,
-                  "end": 69,
                   "decorators": [],
                   "name": "foo",
                   "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "start": 66,
+                  "end": 69
                 },
                 "value": {
                   "type": "Identifier",
-                  "start": 66,
-                  "end": 69,
                   "decorators": [],
                   "name": "foo",
                   "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "start": 66,
+                  "end": 69
                 },
                 "method": false,
                 "shorthand": true,
                 "computed": false,
-                "optional": false
+                "optional": false,
+                "start": 66,
+                "end": 69
               },
               {
                 "type": "Property",
-                "start": 71,
-                "end": 74,
                 "kind": "init",
                 "key": {
                   "type": "Identifier",
-                  "start": 71,
-                  "end": 74,
                   "decorators": [],
                   "name": "bar",
                   "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "start": 71,
+                  "end": 74
                 },
                 "value": {
                   "type": "Identifier",
-                  "start": 71,
-                  "end": 74,
                   "decorators": [],
                   "name": "bar",
                   "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "start": 71,
+                  "end": 74
                 },
                 "method": false,
                 "shorthand": true,
                 "computed": false,
-                "optional": false
+                "optional": false,
+                "start": 71,
+                "end": 74
               },
               {
                 "type": "RestElement",
-                "start": 76,
-                "end": 83,
                 "decorators": [],
                 "argument": {
                   "type": "Identifier",
-                  "start": 79,
-                  "end": 83,
                   "decorators": [],
                   "name": "rest",
                   "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "start": 79,
+                  "end": 83
                 },
                 "optional": false,
                 "typeAnnotation": null,
-                "value": null
+                "value": null,
+                "start": 76,
+                "end": 83
               }
             ],
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 64,
+            "end": 85
           }
         ],
         "returnType": null,
         "body": {
           "type": "CallExpression",
-          "start": 90,
-          "end": 104,
           "callee": {
             "type": "Identifier",
-            "start": 90,
-            "end": 93,
             "decorators": [],
             "name": "bar",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 90,
+            "end": 93
           },
           "typeArguments": null,
           "arguments": [
             {
               "type": "AwaitExpression",
-              "start": 94,
-              "end": 103,
               "argument": {
                 "type": "Identifier",
-                "start": 100,
-                "end": 103,
                 "decorators": [],
                 "name": "foo",
                 "optional": false,
-                "typeAnnotation": null
-              }
+                "typeAnnotation": null,
+                "start": 100,
+                "end": 103
+              },
+              "start": 94,
+              "end": 103
             }
           ],
-          "optional": false
+          "optional": false,
+          "start": 90,
+          "end": 104
         },
         "id": null,
-        "generator": false
+        "generator": false,
+        "start": 57,
+        "end": 104
       },
-      "directive": null
+      "directive": null,
+      "start": 57,
+      "end": 105
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 57,
+  "end": 105
 }
 ```

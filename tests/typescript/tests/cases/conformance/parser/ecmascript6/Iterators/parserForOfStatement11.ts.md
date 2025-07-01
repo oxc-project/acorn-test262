@@ -2,76 +2,76 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 27,
   "body": [
     {
       "type": "ForOfStatement",
-      "start": 0,
-      "end": 27,
       "await": false,
       "left": {
         "type": "VariableDeclaration",
-        "start": 5,
-        "end": 17,
         "kind": "const",
         "declarations": [
           {
             "type": "VariableDeclarator",
-            "start": 11,
-            "end": 17,
             "id": {
               "type": "ArrayPattern",
-              "start": 11,
-              "end": 17,
               "decorators": [],
               "elements": [
                 {
                   "type": "Identifier",
-                  "start": 12,
-                  "end": 13,
                   "decorators": [],
                   "name": "a",
                   "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "start": 12,
+                  "end": 13
                 },
                 {
                   "type": "Identifier",
-                  "start": 15,
-                  "end": 16,
                   "decorators": [],
                   "name": "b",
                   "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "start": 15,
+                  "end": 16
                 }
               ],
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 11,
+              "end": 17
             },
             "init": null,
-            "definite": false
+            "definite": false,
+            "start": 11,
+            "end": 17
           }
         ],
-        "declare": false
+        "declare": false,
+        "start": 5,
+        "end": 17
       },
       "right": {
         "type": "Identifier",
-        "start": 21,
-        "end": 22,
         "decorators": [],
         "name": "X",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 21,
+        "end": 22
       },
       "body": {
         "type": "BlockStatement",
+        "body": [],
         "start": 24,
-        "end": 27,
-        "body": []
-      }
+        "end": 27
+      },
+      "start": 0,
+      "end": 27
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 27
 }
 ```

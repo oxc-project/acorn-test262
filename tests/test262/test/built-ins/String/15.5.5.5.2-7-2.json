@@ -1,121 +1,121 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 487,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 410,
-      "end": 440,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 414,
-          "end": 439,
           "id": {
             "type": "Identifier",
+            "name": "s",
             "start": 414,
-            "end": 415,
-            "name": "s"
+            "end": 415
           },
           "init": {
             "type": "CallExpression",
-            "start": 418,
-            "end": 439,
             "callee": {
               "type": "Identifier",
+              "name": "String",
               "start": 418,
-              "end": 424,
-              "name": "String"
+              "end": 424
             },
             "arguments": [
               {
                 "type": "Literal",
-                "start": 425,
-                "end": 438,
                 "value": "hello world",
-                "raw": "\"hello world\""
+                "raw": "\"hello world\"",
+                "start": 425,
+                "end": 438
               }
             ],
-            "optional": false
-          }
+            "optional": false,
+            "start": 418,
+            "end": 439
+          },
+          "start": 414,
+          "end": 439
         }
-      ]
+      ],
+      "start": 410,
+      "end": 440
     },
     {
       "type": "ExpressionStatement",
-      "start": 442,
-      "end": 486,
       "expression": {
         "type": "CallExpression",
-        "start": 442,
-        "end": 485,
         "callee": {
           "type": "MemberExpression",
-          "start": 442,
-          "end": 458,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 442,
-            "end": 448,
-            "name": "assert"
+            "end": 448
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 449,
-            "end": 458,
-            "name": "sameValue"
+            "end": 458
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 442,
+          "end": 458
         },
         "arguments": [
           {
             "type": "MemberExpression",
-            "start": 459,
-            "end": 464,
             "object": {
               "type": "Identifier",
+              "name": "s",
               "start": 459,
-              "end": 460,
-              "name": "s"
+              "end": 460
             },
             "property": {
               "type": "UnaryExpression",
-              "start": 461,
-              "end": 463,
               "operator": "-",
               "argument": {
                 "type": "Literal",
-                "start": 462,
-                "end": 463,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "start": 462,
+                "end": 463
               },
-              "prefix": true
+              "prefix": true,
+              "start": 461,
+              "end": 463
             },
             "optional": false,
-            "computed": true
+            "computed": true,
+            "start": 459,
+            "end": 464
           },
           {
             "type": "Identifier",
+            "name": "undefined",
             "start": 466,
-            "end": 475,
-            "name": "undefined"
+            "end": 475
           },
           {
             "type": "Literal",
-            "start": 477,
-            "end": 484,
             "value": "s[-1]",
-            "raw": "'s[-1]'"
+            "raw": "'s[-1]'",
+            "start": 477,
+            "end": 484
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 442,
+        "end": 485
+      },
+      "start": 442,
+      "end": 486
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 487
 }

@@ -1,114 +1,114 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 476,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 392,
-      "end": 422,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 396,
-          "end": 421,
           "id": {
             "type": "Identifier",
+            "name": "s",
             "start": 396,
-            "end": 397,
-            "name": "s"
+            "end": 397
           },
           "init": {
             "type": "CallExpression",
-            "start": 400,
-            "end": 421,
             "callee": {
               "type": "Identifier",
+              "name": "String",
               "start": 400,
-              "end": 406,
-              "name": "String"
+              "end": 406
             },
             "arguments": [
               {
                 "type": "Literal",
-                "start": 407,
-                "end": 420,
                 "value": "hello world",
-                "raw": "\"hello world\""
+                "raw": "\"hello world\"",
+                "start": 407,
+                "end": 420
               }
             ],
-            "optional": false
-          }
+            "optional": false,
+            "start": 400,
+            "end": 421
+          },
+          "start": 396,
+          "end": 421
         }
-      ]
+      ],
+      "start": 392,
+      "end": 422
     },
     {
       "type": "ExpressionStatement",
-      "start": 425,
-      "end": 475,
       "expression": {
         "type": "CallExpression",
-        "start": 425,
-        "end": 474,
         "callee": {
           "type": "MemberExpression",
-          "start": 425,
-          "end": 441,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 425,
-            "end": 431,
-            "name": "assert"
+            "end": 431
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 432,
-            "end": 441,
-            "name": "sameValue"
+            "end": 441
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 425,
+          "end": 441
         },
         "arguments": [
           {
             "type": "MemberExpression",
-            "start": 442,
-            "end": 450,
             "object": {
               "type": "Identifier",
+              "name": "s",
               "start": 442,
-              "end": 443,
-              "name": "s"
+              "end": 443
             },
             "property": {
               "type": "Literal",
-              "start": 444,
-              "end": 449,
               "value": "foo",
-              "raw": "\"foo\""
+              "raw": "\"foo\"",
+              "start": 444,
+              "end": 449
             },
             "optional": false,
-            "computed": true
+            "computed": true,
+            "start": 442,
+            "end": 450
           },
           {
             "type": "Identifier",
+            "name": "undefined",
             "start": 452,
-            "end": 461,
-            "name": "undefined"
+            "end": 461
           },
           {
             "type": "Literal",
-            "start": 463,
-            "end": 473,
             "value": "s[\"foo\"]",
-            "raw": "'s[\"foo\"]'"
+            "raw": "'s[\"foo\"]'",
+            "start": 463,
+            "end": 473
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 425,
+        "end": 474
+      },
+      "start": 425,
+      "end": 475
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 476
 }

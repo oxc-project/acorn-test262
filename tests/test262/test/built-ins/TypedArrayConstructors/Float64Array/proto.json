@@ -1,80 +1,80 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 512,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 445,
-      "end": 511,
       "expression": {
         "type": "CallExpression",
-        "start": 445,
-        "end": 510,
         "callee": {
           "type": "MemberExpression",
-          "start": 445,
-          "end": 461,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 445,
-            "end": 451,
-            "name": "assert"
+            "end": 451
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 452,
-            "end": 461,
-            "name": "sameValue"
+            "end": 461
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 445,
+          "end": 461
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 462,
-            "end": 497,
             "callee": {
               "type": "MemberExpression",
-              "start": 462,
-              "end": 483,
               "object": {
                 "type": "Identifier",
+                "name": "Object",
                 "start": 462,
-                "end": 468,
-                "name": "Object"
+                "end": 468
               },
               "property": {
                 "type": "Identifier",
+                "name": "getPrototypeOf",
                 "start": 469,
-                "end": 483,
-                "name": "getPrototypeOf"
+                "end": 483
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 462,
+              "end": 483
             },
             "arguments": [
               {
                 "type": "Identifier",
+                "name": "Float64Array",
                 "start": 484,
-                "end": 496,
-                "name": "Float64Array"
+                "end": 496
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 462,
+            "end": 497
           },
           {
             "type": "Identifier",
+            "name": "TypedArray",
             "start": 499,
-            "end": 509,
-            "name": "TypedArray"
+            "end": 509
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 445,
+        "end": 510
+      },
+      "start": 445,
+      "end": 511
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 512
 }

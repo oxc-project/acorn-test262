@@ -1,93 +1,93 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 1378,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 1118,
-      "end": 1377,
       "expression": {
         "type": "CallExpression",
-        "start": 1118,
-        "end": 1376,
         "callee": {
           "type": "ParenthesizedExpression",
-          "start": 1118,
-          "end": 1126,
           "expression": {
             "type": "SequenceExpression",
-            "start": 1119,
-            "end": 1125,
             "expressions": [
               {
                 "type": "Literal",
-                "start": 1119,
-                "end": 1120,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "start": 1119,
+                "end": 1120
               },
               {
                 "type": "Identifier",
+                "name": "eval",
                 "start": 1121,
-                "end": 1125,
-                "name": "eval"
+                "end": 1125
               }
-            ]
-          }
+            ],
+            "start": 1119,
+            "end": 1125
+          },
+          "start": 1118,
+          "end": 1126
         },
         "arguments": [
           {
             "type": "BinaryExpression",
-            "start": 1130,
-            "end": 1374,
             "left": {
               "type": "BinaryExpression",
-              "start": 1130,
-              "end": 1216,
               "left": {
                 "type": "BinaryExpression",
-                "start": 1130,
-                "end": 1161,
                 "left": {
                   "type": "Literal",
-                  "start": 1130,
-                  "end": 1144,
                   "value": "switch (1) {",
-                  "raw": "'switch (1) {'"
+                  "raw": "'switch (1) {'",
+                  "start": 1130,
+                  "end": 1144
                 },
                 "operator": "+",
                 "right": {
                   "type": "Literal",
-                  "start": 1149,
-                  "end": 1161,
                   "value": "  default:",
-                  "raw": "'  default:'"
-                }
+                  "raw": "'  default:'",
+                  "start": 1149,
+                  "end": 1161
+                },
+                "start": 1130,
+                "end": 1161
               },
               "operator": "+",
               "right": {
                 "type": "Literal",
-                "start": 1166,
-                "end": 1216,
                 "value": "    function f() { return \"inner declaration\"; }",
-                "raw": "'    function f() { return \"inner declaration\"; }'"
-              }
+                "raw": "'    function f() { return \"inner declaration\"; }'",
+                "start": 1166,
+                "end": 1216
+              },
+              "start": 1130,
+              "end": 1216
             },
             "operator": "+",
             "right": {
               "type": "Literal",
-              "start": 1221,
-              "end": 1374,
               "value": "}  assert.sameValue(typeof f, \"function\");  assert.sameValue(f(), \"inner declaration\");    function f() {    return \"outer declaration\";  }",
-              "raw": "'}\\\n  assert.sameValue(typeof f, \"function\");\\\n  assert.sameValue(f(), \"inner declaration\");\\\n  \\\n  function f() {\\\n    return \"outer declaration\";\\\n  }'"
-            }
+              "raw": "'}\\\n  assert.sameValue(typeof f, \"function\");\\\n  assert.sameValue(f(), \"inner declaration\");\\\n  \\\n  function f() {\\\n    return \"outer declaration\";\\\n  }'",
+              "start": 1221,
+              "end": 1374
+            },
+            "start": 1130,
+            "end": 1374
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 1118,
+        "end": 1376
+      },
+      "start": 1118,
+      "end": 1377
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 1378
 }

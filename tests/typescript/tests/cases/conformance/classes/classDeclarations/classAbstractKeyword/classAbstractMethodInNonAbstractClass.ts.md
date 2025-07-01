@@ -2,22 +2,18 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 66,
   "body": [
     {
       "type": "ClassDeclaration",
-      "start": 0,
-      "end": 31,
       "decorators": [],
       "id": {
         "type": "Identifier",
-        "start": 6,
-        "end": 7,
         "decorators": [],
         "name": "A",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 6,
+        "end": 7
       },
       "typeParameters": null,
       "superClass": null,
@@ -25,27 +21,21 @@ __ESTREE_TEST__:PASS:
       "implements": [],
       "body": {
         "type": "ClassBody",
-        "start": 8,
-        "end": 31,
         "body": [
           {
             "type": "TSAbstractMethodDefinition",
-            "start": 14,
-            "end": 29,
             "decorators": [],
             "key": {
               "type": "Identifier",
-              "start": 23,
-              "end": 26,
               "decorators": [],
               "name": "foo",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 23,
+              "end": 26
             },
             "value": {
               "type": "TSEmptyBodyFunctionExpression",
-              "start": 26,
-              "end": 29,
               "id": null,
               "generator": false,
               "async": false,
@@ -54,33 +44,39 @@ __ESTREE_TEST__:PASS:
               "params": [],
               "returnType": null,
               "body": null,
-              "expression": false
+              "expression": false,
+              "start": 26,
+              "end": 29
             },
             "kind": "method",
             "computed": false,
             "static": false,
             "override": false,
             "optional": false,
-            "accessibility": null
+            "accessibility": null,
+            "start": 14,
+            "end": 29
           }
-        ]
+        ],
+        "start": 8,
+        "end": 31
       },
       "abstract": false,
-      "declare": false
+      "declare": false,
+      "start": 0,
+      "end": 31
     },
     {
       "type": "ClassDeclaration",
-      "start": 33,
-      "end": 66,
       "decorators": [],
       "id": {
         "type": "Identifier",
-        "start": 39,
-        "end": 40,
         "decorators": [],
         "name": "B",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 39,
+        "end": 40
       },
       "typeParameters": null,
       "superClass": null,
@@ -88,27 +84,21 @@ __ESTREE_TEST__:PASS:
       "implements": [],
       "body": {
         "type": "ClassBody",
-        "start": 41,
-        "end": 66,
         "body": [
           {
             "type": "TSAbstractMethodDefinition",
-            "start": 47,
-            "end": 64,
             "decorators": [],
             "key": {
               "type": "Identifier",
-              "start": 56,
-              "end": 59,
               "decorators": [],
               "name": "foo",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 56,
+              "end": 59
             },
             "value": {
               "type": "FunctionExpression",
-              "start": 59,
-              "end": 64,
               "id": null,
               "generator": false,
               "async": false,
@@ -118,26 +108,36 @@ __ESTREE_TEST__:PASS:
               "returnType": null,
               "body": {
                 "type": "BlockStatement",
+                "body": [],
                 "start": 62,
-                "end": 64,
-                "body": []
+                "end": 64
               },
-              "expression": false
+              "expression": false,
+              "start": 59,
+              "end": 64
             },
             "kind": "method",
             "computed": false,
             "static": false,
             "override": false,
             "optional": false,
-            "accessibility": null
+            "accessibility": null,
+            "start": 47,
+            "end": 64
           }
-        ]
+        ],
+        "start": 41,
+        "end": 66
       },
       "abstract": false,
-      "declare": false
+      "declare": false,
+      "start": 33,
+      "end": 66
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 66
 }
 ```

@@ -2,98 +2,98 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 55,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 0,
-      "end": 55,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 4,
-          "end": 55,
           "id": {
             "type": "Identifier",
-            "start": 4,
-            "end": 5,
             "decorators": [],
             "name": "x",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 4,
+            "end": 5
           },
           "init": {
             "type": "ObjectExpression",
-            "start": 8,
-            "end": 55,
             "properties": [
               {
                 "type": "Property",
-                "start": 14,
-                "end": 15,
                 "kind": "init",
                 "key": {
                   "type": "Identifier",
-                  "start": 14,
-                  "end": 15,
                   "decorators": [],
                   "name": "x",
                   "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "start": 14,
+                  "end": 15
                 },
                 "value": {
                   "type": "Identifier",
-                  "start": 14,
-                  "end": 15,
                   "decorators": [],
                   "name": "x",
                   "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "start": 14,
+                  "end": 15
                 },
                 "method": false,
                 "shorthand": true,
                 "computed": false,
-                "optional": false
+                "optional": false,
+                "start": 14,
+                "end": 15
               },
               {
                 "type": "Property",
-                "start": 27,
-                "end": 44,
                 "kind": "init",
                 "key": {
                   "type": "Identifier",
-                  "start": 27,
-                  "end": 44,
                   "decorators": [],
                   "name": "undefinedVariable",
                   "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "start": 27,
+                  "end": 44
                 },
                 "value": {
                   "type": "Identifier",
-                  "start": 27,
-                  "end": 44,
                   "decorators": [],
                   "name": "undefinedVariable",
                   "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "start": 27,
+                  "end": 44
                 },
                 "method": false,
                 "shorthand": true,
                 "computed": false,
-                "optional": false
+                "optional": false,
+                "start": 27,
+                "end": 44
               }
-            ]
+            ],
+            "start": 8,
+            "end": 55
           },
-          "definite": false
+          "definite": false,
+          "start": 4,
+          "end": 55
         }
       ],
-      "declare": false
+      "declare": false,
+      "start": 0,
+      "end": 55
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 55
 }
 ```

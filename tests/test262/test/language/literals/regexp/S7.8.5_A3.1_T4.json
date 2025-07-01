@@ -1,339 +1,339 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 746,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 262,
-      "end": 284,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 266,
-          "end": 283,
           "id": {
             "type": "Identifier",
+            "name": "regexp",
             "start": 266,
-            "end": 272,
-            "name": "regexp"
+            "end": 272
           },
           "init": {
             "type": "Literal",
-            "start": 275,
-            "end": 283,
             "value": null,
             "raw": "/(?:)/gi",
             "regex": {
               "pattern": "(?:)",
               "flags": "gi"
-            }
-          }
+            },
+            "start": 275,
+            "end": 283
+          },
+          "start": 266,
+          "end": 283
         }
-      ]
+      ],
+      "start": 262,
+      "end": 284
     },
     {
       "type": "IfStatement",
-      "start": 286,
-      "end": 423,
       "test": {
         "type": "BinaryExpression",
-        "start": 290,
-        "end": 312,
         "left": {
           "type": "MemberExpression",
-          "start": 290,
-          "end": 303,
           "object": {
             "type": "Identifier",
+            "name": "regexp",
             "start": 290,
-            "end": 296,
-            "name": "regexp"
+            "end": 296
           },
           "property": {
             "type": "Identifier",
+            "name": "global",
             "start": 297,
-            "end": 303,
-            "name": "global"
+            "end": 303
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 290,
+          "end": 303
         },
         "operator": "!==",
         "right": {
           "type": "Literal",
+          "value": true,
+          "raw": "true",
           "start": 308,
-          "end": 312,
-          "value": true,
-          "raw": "true"
-        }
+          "end": 312
+        },
+        "start": 290,
+        "end": 312
       },
       "consequent": {
         "type": "BlockStatement",
-        "start": 314,
-        "end": 423,
         "body": [
           {
             "type": "ThrowStatement",
-            "start": 318,
-            "end": 421,
             "argument": {
               "type": "NewExpression",
-              "start": 324,
-              "end": 420,
               "callee": {
                 "type": "Identifier",
+                "name": "Test262Error",
                 "start": 328,
-                "end": 340,
-                "name": "Test262Error"
+                "end": 340
               },
               "arguments": [
                 {
                   "type": "BinaryExpression",
-                  "start": 341,
-                  "end": 419,
                   "left": {
                     "type": "Literal",
-                    "start": 341,
-                    "end": 401,
                     "value": "#1: var regexp = /(?:)/g; regexp.global === true. Actual: ",
-                    "raw": "'#1: var regexp = /(?:)/g; regexp.global === true. Actual: '"
+                    "raw": "'#1: var regexp = /(?:)/g; regexp.global === true. Actual: '",
+                    "start": 341,
+                    "end": 401
                   },
                   "operator": "+",
                   "right": {
                     "type": "ParenthesizedExpression",
-                    "start": 404,
-                    "end": 419,
                     "expression": {
                       "type": "MemberExpression",
-                      "start": 405,
-                      "end": 418,
                       "object": {
                         "type": "Identifier",
+                        "name": "regexp",
                         "start": 405,
-                        "end": 411,
-                        "name": "regexp"
+                        "end": 411
                       },
                       "property": {
                         "type": "Identifier",
+                        "name": "global",
                         "start": 412,
-                        "end": 418,
-                        "name": "global"
+                        "end": 418
                       },
                       "optional": false,
-                      "computed": false
-                    }
-                  }
+                      "computed": false,
+                      "start": 405,
+                      "end": 418
+                    },
+                    "start": 404,
+                    "end": 419
+                  },
+                  "start": 341,
+                  "end": 419
                 }
-              ]
-            }
+              ],
+              "start": 324,
+              "end": 420
+            },
+            "start": 318,
+            "end": 421
           }
-        ]
+        ],
+        "start": 314,
+        "end": 423
       },
-      "alternate": null
+      "alternate": null,
+      "start": 286,
+      "end": 423
     },
     {
       "type": "IfStatement",
-      "start": 436,
-      "end": 585,
       "test": {
         "type": "BinaryExpression",
-        "start": 440,
-        "end": 466,
         "left": {
           "type": "MemberExpression",
-          "start": 440,
-          "end": 457,
           "object": {
             "type": "Identifier",
+            "name": "regexp",
             "start": 440,
-            "end": 446,
-            "name": "regexp"
+            "end": 446
           },
           "property": {
             "type": "Identifier",
+            "name": "ignoreCase",
             "start": 447,
-            "end": 457,
-            "name": "ignoreCase"
+            "end": 457
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 440,
+          "end": 457
         },
         "operator": "!==",
         "right": {
           "type": "Literal",
-          "start": 462,
-          "end": 466,
           "value": true,
-          "raw": "true"
-        }
+          "raw": "true",
+          "start": 462,
+          "end": 466
+        },
+        "start": 440,
+        "end": 466
       },
       "consequent": {
         "type": "BlockStatement",
-        "start": 468,
-        "end": 585,
         "body": [
           {
             "type": "ThrowStatement",
-            "start": 472,
-            "end": 583,
             "argument": {
               "type": "NewExpression",
-              "start": 478,
-              "end": 582,
               "callee": {
                 "type": "Identifier",
+                "name": "Test262Error",
                 "start": 482,
-                "end": 494,
-                "name": "Test262Error"
+                "end": 494
               },
               "arguments": [
                 {
                   "type": "BinaryExpression",
-                  "start": 495,
-                  "end": 581,
                   "left": {
                     "type": "Literal",
-                    "start": 495,
-                    "end": 559,
                     "value": "#2: var regexp = /(?:)/g; regexp.ignoreCase === true. Actual: ",
-                    "raw": "'#2: var regexp = /(?:)/g; regexp.ignoreCase === true. Actual: '"
+                    "raw": "'#2: var regexp = /(?:)/g; regexp.ignoreCase === true. Actual: '",
+                    "start": 495,
+                    "end": 559
                   },
                   "operator": "+",
                   "right": {
                     "type": "ParenthesizedExpression",
-                    "start": 562,
-                    "end": 581,
                     "expression": {
                       "type": "MemberExpression",
-                      "start": 563,
-                      "end": 580,
                       "object": {
                         "type": "Identifier",
+                        "name": "regexp",
                         "start": 563,
-                        "end": 569,
-                        "name": "regexp"
+                        "end": 569
                       },
                       "property": {
                         "type": "Identifier",
+                        "name": "ignoreCase",
                         "start": 570,
-                        "end": 580,
-                        "name": "ignoreCase"
+                        "end": 580
                       },
                       "optional": false,
-                      "computed": false
-                    }
-                  }
+                      "computed": false,
+                      "start": 563,
+                      "end": 580
+                    },
+                    "start": 562,
+                    "end": 581
+                  },
+                  "start": 495,
+                  "end": 581
                 }
-              ]
-            }
+              ],
+              "start": 478,
+              "end": 582
+            },
+            "start": 472,
+            "end": 583
           }
-        ]
+        ],
+        "start": 468,
+        "end": 585
       },
-      "alternate": null
+      "alternate": null,
+      "start": 436,
+      "end": 585
     },
     {
       "type": "IfStatement",
-      "start": 597,
-      "end": 745,
       "test": {
         "type": "BinaryExpression",
-        "start": 601,
-        "end": 627,
         "left": {
           "type": "MemberExpression",
-          "start": 601,
-          "end": 617,
           "object": {
             "type": "Identifier",
+            "name": "regexp",
             "start": 601,
-            "end": 607,
-            "name": "regexp"
+            "end": 607
           },
           "property": {
             "type": "Identifier",
+            "name": "multiline",
             "start": 608,
-            "end": 617,
-            "name": "multiline"
+            "end": 617
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 601,
+          "end": 617
         },
         "operator": "!==",
         "right": {
           "type": "Literal",
-          "start": 622,
-          "end": 627,
           "value": false,
-          "raw": "false"
-        }
+          "raw": "false",
+          "start": 622,
+          "end": 627
+        },
+        "start": 601,
+        "end": 627
       },
       "consequent": {
         "type": "BlockStatement",
-        "start": 629,
-        "end": 745,
         "body": [
           {
             "type": "ThrowStatement",
-            "start": 633,
-            "end": 743,
             "argument": {
               "type": "NewExpression",
-              "start": 639,
-              "end": 742,
               "callee": {
                 "type": "Identifier",
+                "name": "Test262Error",
                 "start": 643,
-                "end": 655,
-                "name": "Test262Error"
+                "end": 655
               },
               "arguments": [
                 {
                   "type": "BinaryExpression",
-                  "start": 656,
-                  "end": 741,
                   "left": {
                     "type": "Literal",
-                    "start": 656,
-                    "end": 720,
                     "value": "#3: var regexp = /(?:)/g; regexp.multiline === false. Actual: ",
-                    "raw": "'#3: var regexp = /(?:)/g; regexp.multiline === false. Actual: '"
+                    "raw": "'#3: var regexp = /(?:)/g; regexp.multiline === false. Actual: '",
+                    "start": 656,
+                    "end": 720
                   },
                   "operator": "+",
                   "right": {
                     "type": "ParenthesizedExpression",
-                    "start": 723,
-                    "end": 741,
                     "expression": {
                       "type": "MemberExpression",
-                      "start": 724,
-                      "end": 740,
                       "object": {
                         "type": "Identifier",
+                        "name": "regexp",
                         "start": 724,
-                        "end": 730,
-                        "name": "regexp"
+                        "end": 730
                       },
                       "property": {
                         "type": "Identifier",
+                        "name": "multiline",
                         "start": 731,
-                        "end": 740,
-                        "name": "multiline"
+                        "end": 740
                       },
                       "optional": false,
-                      "computed": false
-                    }
-                  }
+                      "computed": false,
+                      "start": 724,
+                      "end": 740
+                    },
+                    "start": 723,
+                    "end": 741
+                  },
+                  "start": 656,
+                  "end": 741
                 }
-              ]
-            }
+              ],
+              "start": 639,
+              "end": 742
+            },
+            "start": 633,
+            "end": 743
           }
-        ]
+        ],
+        "start": 629,
+        "end": 745
       },
-      "alternate": null
+      "alternate": null,
+      "start": 597,
+      "end": 745
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 746
 }

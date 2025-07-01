@@ -1,100 +1,100 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 597,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 548,
-      "end": 596,
       "expression": {
         "type": "CallExpression",
-        "start": 548,
-        "end": 595,
         "callee": {
           "type": "MemberExpression",
-          "start": 548,
-          "end": 564,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 548,
-            "end": 554,
-            "name": "assert"
+            "end": 554
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 555,
-            "end": 564,
-            "name": "sameValue"
+            "end": 564
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 548,
+          "end": 564
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 565,
-            "end": 588,
             "callee": {
               "type": "MemberExpression",
-              "start": 565,
-              "end": 583,
               "object": {
                 "type": "Literal",
-                "start": 565,
-                "end": 569,
                 "value": null,
                 "raw": "/a/g",
                 "regex": {
                   "pattern": "a",
                   "flags": "g"
-                }
+                },
+                "start": 565,
+                "end": 569
               },
               "property": {
                 "type": "MemberExpression",
-                "start": 570,
-                "end": 582,
                 "object": {
                   "type": "Identifier",
+                  "name": "Symbol",
                   "start": 570,
-                  "end": 576,
-                  "name": "Symbol"
+                  "end": 576
                 },
                 "property": {
                   "type": "Identifier",
+                  "name": "match",
                   "start": 577,
-                  "end": 582,
-                  "name": "match"
+                  "end": 582
                 },
                 "optional": false,
-                "computed": false
+                "computed": false,
+                "start": 570,
+                "end": 582
               },
               "optional": false,
-              "computed": true
+              "computed": true,
+              "start": 565,
+              "end": 583
             },
             "arguments": [
               {
                 "type": "Literal",
-                "start": 584,
-                "end": 587,
                 "value": "b",
-                "raw": "'b'"
+                "raw": "'b'",
+                "start": 584,
+                "end": 587
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 565,
+            "end": 588
           },
           {
             "type": "Literal",
-            "start": 590,
-            "end": 594,
             "value": null,
-            "raw": "null"
+            "raw": "null",
+            "start": 590,
+            "end": 594
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 548,
+        "end": 595
+      },
+      "start": 548,
+      "end": 596
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 597
 }

@@ -1,136 +1,136 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 383,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 289,
-      "end": 307,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 293,
-          "end": 306,
           "id": {
             "type": "Identifier",
+            "name": "_8_7_2_8",
             "start": 293,
-            "end": 301,
-            "name": "_8_7_2_8"
+            "end": 301
           },
           "init": {
             "type": "ObjectExpression",
+            "properties": [],
             "start": 304,
-            "end": 306,
-            "properties": []
-          }
+            "end": 306
+          },
+          "start": 293,
+          "end": 306
         }
-      ]
+      ],
+      "start": 289,
+      "end": 307
     },
     {
       "type": "ExpressionStatement",
-      "start": 317,
-      "end": 333,
       "expression": {
         "type": "AssignmentExpression",
-        "start": 317,
-        "end": 332,
         "operator": "=",
         "left": {
           "type": "MemberExpression",
-          "start": 317,
-          "end": 327,
           "object": {
             "type": "Identifier",
+            "name": "_8_7_2_8",
             "start": 317,
-            "end": 325,
-            "name": "_8_7_2_8"
+            "end": 325
           },
           "property": {
             "type": "Identifier",
+            "name": "b",
             "start": 326,
-            "end": 327,
-            "name": "b"
+            "end": 327
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 317,
+          "end": 327
         },
         "right": {
           "type": "Literal",
-          "start": 330,
-          "end": 332,
           "value": 11,
-          "raw": "11"
-        }
-      }
+          "raw": "11",
+          "start": 330,
+          "end": 332
+        },
+        "start": 317,
+        "end": 332
+      },
+      "start": 317,
+      "end": 333
     },
     {
       "type": "ExpressionStatement",
-      "start": 335,
-      "end": 382,
       "expression": {
         "type": "CallExpression",
-        "start": 335,
-        "end": 381,
         "callee": {
           "type": "MemberExpression",
-          "start": 335,
-          "end": 351,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 335,
-            "end": 341,
-            "name": "assert"
+            "end": 341
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 342,
-            "end": 351,
-            "name": "sameValue"
+            "end": 351
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 335,
+          "end": 351
         },
         "arguments": [
           {
             "type": "MemberExpression",
-            "start": 352,
-            "end": 362,
             "object": {
               "type": "Identifier",
+              "name": "_8_7_2_8",
               "start": 352,
-              "end": 360,
-              "name": "_8_7_2_8"
+              "end": 360
             },
             "property": {
               "type": "Identifier",
+              "name": "b",
               "start": 361,
-              "end": 362,
-              "name": "b"
+              "end": 362
             },
             "optional": false,
-            "computed": false
+            "computed": false,
+            "start": 352,
+            "end": 362
           },
           {
             "type": "Literal",
-            "start": 364,
-            "end": 366,
             "value": 11,
-            "raw": "11"
+            "raw": "11",
+            "start": 364,
+            "end": 366
           },
           {
             "type": "Literal",
-            "start": 368,
-            "end": 380,
             "value": "_8_7_2_8.b",
-            "raw": "'_8_7_2_8.b'"
+            "raw": "'_8_7_2_8.b'",
+            "start": 368,
+            "end": 380
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 335,
+        "end": 381
+      },
+      "start": 335,
+      "end": 382
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 383
 }

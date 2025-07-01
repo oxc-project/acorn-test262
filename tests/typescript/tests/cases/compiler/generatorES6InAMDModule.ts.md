@@ -2,25 +2,19 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 36,
   "body": [
     {
       "type": "ExportNamedDeclaration",
-      "start": 0,
-      "end": 36,
       "declaration": {
         "type": "FunctionDeclaration",
-        "start": 7,
-        "end": 36,
         "id": {
           "type": "Identifier",
-          "start": 17,
-          "end": 20,
           "decorators": [],
           "name": "foo",
           "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "start": 17,
+          "end": 20
         },
         "generator": true,
         "async": false,
@@ -30,33 +24,39 @@ __ESTREE_TEST__:PASS:
         "returnType": null,
         "body": {
           "type": "BlockStatement",
-          "start": 23,
-          "end": 36,
           "body": [
             {
               "type": "ExpressionStatement",
-              "start": 29,
-              "end": 34,
               "expression": {
                 "type": "YieldExpression",
-                "start": 29,
-                "end": 34,
                 "delegate": false,
-                "argument": null
+                "argument": null,
+                "start": 29,
+                "end": 34
               },
-              "directive": null
+              "directive": null,
+              "start": 29,
+              "end": 34
             }
-          ]
+          ],
+          "start": 23,
+          "end": 36
         },
-        "expression": false
+        "expression": false,
+        "start": 7,
+        "end": 36
       },
       "specifiers": [],
       "source": null,
       "exportKind": "value",
-      "attributes": []
+      "attributes": [],
+      "start": 0,
+      "end": 36
     }
   ],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 36
 }
 ```

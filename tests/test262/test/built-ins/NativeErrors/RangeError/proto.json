@@ -1,80 +1,80 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 400,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 340,
-      "end": 399,
       "expression": {
         "type": "CallExpression",
-        "start": 340,
-        "end": 398,
         "callee": {
           "type": "MemberExpression",
-          "start": 340,
-          "end": 356,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 340,
-            "end": 346,
-            "name": "assert"
+            "end": 346
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 347,
-            "end": 356,
-            "name": "sameValue"
+            "end": 356
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 340,
+          "end": 356
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 357,
-            "end": 390,
             "callee": {
               "type": "MemberExpression",
-              "start": 357,
-              "end": 378,
               "object": {
                 "type": "Identifier",
+                "name": "Object",
                 "start": 357,
-                "end": 363,
-                "name": "Object"
+                "end": 363
               },
               "property": {
                 "type": "Identifier",
+                "name": "getPrototypeOf",
                 "start": 364,
-                "end": 378,
-                "name": "getPrototypeOf"
+                "end": 378
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 357,
+              "end": 378
             },
             "arguments": [
               {
                 "type": "Identifier",
+                "name": "RangeError",
                 "start": 379,
-                "end": 389,
-                "name": "RangeError"
+                "end": 389
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 357,
+            "end": 390
           },
           {
             "type": "Identifier",
+            "name": "Error",
             "start": 392,
-            "end": 397,
-            "name": "Error"
+            "end": 397
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 340,
+        "end": 398
+      },
+      "start": 340,
+      "end": 399
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 400
 }

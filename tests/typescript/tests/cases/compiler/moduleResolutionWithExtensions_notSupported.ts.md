@@ -2,137 +2,137 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 0,
   "body": [],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 0
 }
 ```
 __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 0,
   "body": [],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 0
 }
 ```
 __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 0,
   "body": [],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 0
 }
 ```
 __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 142,
   "body": [
     {
       "type": "ImportDeclaration",
-      "start": 0,
-      "end": 24,
       "specifiers": [
         {
           "type": "ImportDefaultSpecifier",
-          "start": 7,
-          "end": 10,
           "local": {
             "type": "Identifier",
-            "start": 7,
-            "end": 10,
             "decorators": [],
             "name": "tsx",
             "optional": false,
-            "typeAnnotation": null
-          }
+            "typeAnnotation": null,
+            "start": 7,
+            "end": 10
+          },
+          "start": 7,
+          "end": 10
         }
       ],
       "source": {
         "type": "Literal",
-        "start": 16,
-        "end": 23,
         "value": "./tsx",
-        "raw": "\"./tsx\""
+        "raw": "\"./tsx\"",
+        "start": 16,
+        "end": 23
       },
       "phase": null,
       "attributes": [],
-      "importKind": "value"
+      "importKind": "value",
+      "start": 0,
+      "end": 24
     },
     {
       "type": "ImportDeclaration",
-      "start": 41,
-      "end": 65,
       "specifiers": [
         {
           "type": "ImportDefaultSpecifier",
-          "start": 48,
-          "end": 51,
           "local": {
             "type": "Identifier",
-            "start": 48,
-            "end": 51,
             "decorators": [],
             "name": "jsx",
             "optional": false,
-            "typeAnnotation": null
-          }
+            "typeAnnotation": null,
+            "start": 48,
+            "end": 51
+          },
+          "start": 48,
+          "end": 51
         }
       ],
       "source": {
         "type": "Literal",
-        "start": 57,
-        "end": 64,
         "value": "./jsx",
-        "raw": "\"./jsx\""
+        "raw": "\"./jsx\"",
+        "start": 57,
+        "end": 64
       },
       "phase": null,
       "attributes": [],
-      "importKind": "value"
+      "importKind": "value",
+      "start": 41,
+      "end": 65
     },
     {
       "type": "ImportDeclaration",
-      "start": 82,
-      "end": 104,
       "specifiers": [
         {
           "type": "ImportDefaultSpecifier",
-          "start": 89,
-          "end": 91,
           "local": {
             "type": "Identifier",
-            "start": 89,
-            "end": 91,
             "decorators": [],
             "name": "js",
             "optional": false,
-            "typeAnnotation": null
-          }
+            "typeAnnotation": null,
+            "start": 89,
+            "end": 91
+          },
+          "start": 89,
+          "end": 91
         }
       ],
       "source": {
         "type": "Literal",
-        "start": 97,
-        "end": 103,
         "value": "./js",
-        "raw": "\"./js\""
+        "raw": "\"./js\"",
+        "start": 97,
+        "end": 103
       },
       "phase": null,
       "attributes": [],
-      "importKind": "value"
+      "importKind": "value",
+      "start": 82,
+      "end": 104
     }
   ],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 142
 }
 ```

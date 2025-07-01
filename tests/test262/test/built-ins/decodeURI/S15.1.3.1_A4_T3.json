@@ -1,297 +1,297 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 835,
   "body": [
     {
       "type": "IfStatement",
-      "start": 250,
-      "end": 387,
       "test": {
         "type": "BinaryExpression",
-        "start": 254,
-        "end": 323,
         "left": {
           "type": "CallExpression",
-          "start": 254,
-          "end": 292,
           "callee": {
             "type": "Identifier",
+            "name": "decodeURI",
             "start": 254,
-            "end": 263,
-            "name": "decodeURI"
+            "end": 263
           },
           "arguments": [
             {
               "type": "Literal",
-              "start": 264,
-              "end": 291,
               "value": "http://unipro.ru/%0Aabout",
-              "raw": "\"http://unipro.ru/%0Aabout\""
+              "raw": "\"http://unipro.ru/%0Aabout\"",
+              "start": 264,
+              "end": 291
             }
           ],
-          "optional": false
+          "optional": false,
+          "start": 254,
+          "end": 292
         },
         "operator": "!==",
         "right": {
           "type": "Literal",
-          "start": 297,
-          "end": 323,
           "value": "http://unipro.ru/\nabout",
-          "raw": "\"http://unipro.ru/\\nabout\""
-        }
+          "raw": "\"http://unipro.ru/\\nabout\"",
+          "start": 297,
+          "end": 323
+        },
+        "start": 254,
+        "end": 323
       },
       "consequent": {
         "type": "BlockStatement",
-        "start": 325,
-        "end": 387,
         "body": [
           {
             "type": "ThrowStatement",
-            "start": 329,
-            "end": 385,
             "argument": {
               "type": "NewExpression",
-              "start": 335,
-              "end": 384,
               "callee": {
                 "type": "Identifier",
+                "name": "Test262Error",
                 "start": 339,
-                "end": 351,
-                "name": "Test262Error"
+                "end": 351
               },
               "arguments": [
                 {
                   "type": "Literal",
-                  "start": 352,
-                  "end": 383,
                   "value": "#1: http://unipro.ru/%A0about",
-                  "raw": "'#1: http://unipro.ru/%A0about'"
+                  "raw": "'#1: http://unipro.ru/%A0about'",
+                  "start": 352,
+                  "end": 383
                 }
-              ]
-            }
+              ],
+              "start": 335,
+              "end": 384
+            },
+            "start": 329,
+            "end": 385
           }
-        ]
+        ],
+        "start": 325,
+        "end": 387
       },
-      "alternate": null
+      "alternate": null,
+      "start": 250,
+      "end": 387
     },
     {
       "type": "IfStatement",
-      "start": 399,
-      "end": 536,
       "test": {
         "type": "BinaryExpression",
-        "start": 403,
-        "end": 472,
         "left": {
           "type": "CallExpression",
-          "start": 403,
-          "end": 441,
           "callee": {
             "type": "Identifier",
+            "name": "decodeURI",
             "start": 403,
-            "end": 412,
-            "name": "decodeURI"
+            "end": 412
           },
           "arguments": [
             {
               "type": "Literal",
-              "start": 413,
-              "end": 440,
               "value": "http://unipro.ru/%0Babout",
-              "raw": "\"http://unipro.ru/%0Babout\""
+              "raw": "\"http://unipro.ru/%0Babout\"",
+              "start": 413,
+              "end": 440
             }
           ],
-          "optional": false
+          "optional": false,
+          "start": 403,
+          "end": 441
         },
         "operator": "!==",
         "right": {
           "type": "Literal",
-          "start": 446,
-          "end": 472,
           "value": "http://unipro.ru/\u000babout",
-          "raw": "\"http://unipro.ru/\\vabout\""
-        }
+          "raw": "\"http://unipro.ru/\\vabout\"",
+          "start": 446,
+          "end": 472
+        },
+        "start": 403,
+        "end": 472
       },
       "consequent": {
         "type": "BlockStatement",
-        "start": 474,
-        "end": 536,
         "body": [
           {
             "type": "ThrowStatement",
-            "start": 478,
-            "end": 534,
             "argument": {
               "type": "NewExpression",
-              "start": 484,
-              "end": 533,
               "callee": {
                 "type": "Identifier",
+                "name": "Test262Error",
                 "start": 488,
-                "end": 500,
-                "name": "Test262Error"
+                "end": 500
               },
               "arguments": [
                 {
                   "type": "Literal",
-                  "start": 501,
-                  "end": 532,
                   "value": "#2: http://unipro.ru/%0Babout",
-                  "raw": "'#2: http://unipro.ru/%0Babout'"
+                  "raw": "'#2: http://unipro.ru/%0Babout'",
+                  "start": 501,
+                  "end": 532
                 }
-              ]
-            }
+              ],
+              "start": 484,
+              "end": 533
+            },
+            "start": 478,
+            "end": 534
           }
-        ]
+        ],
+        "start": 474,
+        "end": 536
       },
-      "alternate": null
+      "alternate": null,
+      "start": 399,
+      "end": 536
     },
     {
       "type": "IfStatement",
-      "start": 548,
-      "end": 685,
       "test": {
         "type": "BinaryExpression",
-        "start": 552,
-        "end": 621,
         "left": {
           "type": "CallExpression",
-          "start": 552,
-          "end": 590,
           "callee": {
             "type": "Identifier",
+            "name": "decodeURI",
             "start": 552,
-            "end": 561,
-            "name": "decodeURI"
+            "end": 561
           },
           "arguments": [
             {
               "type": "Literal",
-              "start": 562,
-              "end": 589,
               "value": "http://unipro.ru/%0Cabout",
-              "raw": "\"http://unipro.ru/%0Cabout\""
+              "raw": "\"http://unipro.ru/%0Cabout\"",
+              "start": 562,
+              "end": 589
             }
           ],
-          "optional": false
+          "optional": false,
+          "start": 552,
+          "end": 590
         },
         "operator": "!==",
         "right": {
           "type": "Literal",
-          "start": 595,
-          "end": 621,
           "value": "http://unipro.ru/\fabout",
-          "raw": "\"http://unipro.ru/\\fabout\""
-        }
+          "raw": "\"http://unipro.ru/\\fabout\"",
+          "start": 595,
+          "end": 621
+        },
+        "start": 552,
+        "end": 621
       },
       "consequent": {
         "type": "BlockStatement",
-        "start": 623,
-        "end": 685,
         "body": [
           {
             "type": "ThrowStatement",
-            "start": 627,
-            "end": 683,
             "argument": {
               "type": "NewExpression",
-              "start": 633,
-              "end": 682,
               "callee": {
                 "type": "Identifier",
+                "name": "Test262Error",
                 "start": 637,
-                "end": 649,
-                "name": "Test262Error"
+                "end": 649
               },
               "arguments": [
                 {
                   "type": "Literal",
-                  "start": 650,
-                  "end": 681,
                   "value": "#3: http://unipro.ru/%0Cabout",
-                  "raw": "'#3: http://unipro.ru/%0Cabout'"
+                  "raw": "'#3: http://unipro.ru/%0Cabout'",
+                  "start": 650,
+                  "end": 681
                 }
-              ]
-            }
+              ],
+              "start": 633,
+              "end": 682
+            },
+            "start": 627,
+            "end": 683
           }
-        ]
+        ],
+        "start": 623,
+        "end": 685
       },
-      "alternate": null
+      "alternate": null,
+      "start": 548,
+      "end": 685
     },
     {
       "type": "IfStatement",
-      "start": 697,
-      "end": 834,
       "test": {
         "type": "BinaryExpression",
-        "start": 701,
-        "end": 770,
         "left": {
           "type": "CallExpression",
-          "start": 701,
-          "end": 739,
           "callee": {
             "type": "Identifier",
+            "name": "decodeURI",
             "start": 701,
-            "end": 710,
-            "name": "decodeURI"
+            "end": 710
           },
           "arguments": [
             {
               "type": "Literal",
-              "start": 711,
-              "end": 738,
               "value": "http://unipro.ru/%0Dabout",
-              "raw": "\"http://unipro.ru/%0Dabout\""
+              "raw": "\"http://unipro.ru/%0Dabout\"",
+              "start": 711,
+              "end": 738
             }
           ],
-          "optional": false
+          "optional": false,
+          "start": 701,
+          "end": 739
         },
         "operator": "!==",
         "right": {
           "type": "Literal",
-          "start": 744,
-          "end": 770,
           "value": "http://unipro.ru/\rabout",
-          "raw": "\"http://unipro.ru/\\rabout\""
-        }
+          "raw": "\"http://unipro.ru/\\rabout\"",
+          "start": 744,
+          "end": 770
+        },
+        "start": 701,
+        "end": 770
       },
       "consequent": {
         "type": "BlockStatement",
-        "start": 772,
-        "end": 834,
         "body": [
           {
             "type": "ThrowStatement",
-            "start": 776,
-            "end": 832,
             "argument": {
               "type": "NewExpression",
-              "start": 782,
-              "end": 831,
               "callee": {
                 "type": "Identifier",
+                "name": "Test262Error",
                 "start": 786,
-                "end": 798,
-                "name": "Test262Error"
+                "end": 798
               },
               "arguments": [
                 {
                   "type": "Literal",
-                  "start": 799,
-                  "end": 830,
                   "value": "#4: http://unipro.ru/%0Dabout",
-                  "raw": "'#4: http://unipro.ru/%0Dabout'"
+                  "raw": "'#4: http://unipro.ru/%0Dabout'",
+                  "start": 799,
+                  "end": 830
                 }
-              ]
-            }
+              ],
+              "start": 782,
+              "end": 831
+            },
+            "start": 776,
+            "end": 832
           }
-        ]
+        ],
+        "start": 772,
+        "end": 834
       },
-      "alternate": null
+      "alternate": null,
+      "start": 697,
+      "end": 834
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 835
 }

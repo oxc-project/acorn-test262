@@ -1,209 +1,209 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 1296,
   "body": [
     {
       "type": "IfStatement",
-      "start": 372,
-      "end": 449,
       "test": {
         "type": "UnaryExpression",
-        "start": 375,
-        "end": 379,
         "operator": "!",
         "argument": {
           "type": "ParenthesizedExpression",
-          "start": 376,
-          "end": 379,
           "expression": {
             "type": "Literal",
-            "start": 377,
-            "end": 378,
             "value": 1,
-            "raw": "1"
-          }
+            "raw": "1",
+            "start": 377,
+            "end": 378
+          },
+          "start": 376,
+          "end": 379
         },
-        "prefix": true
+        "prefix": true,
+        "start": 375,
+        "end": 379
       },
       "consequent": {
         "type": "ThrowStatement",
-        "start": 382,
-        "end": 449,
         "argument": {
           "type": "NewExpression",
-          "start": 388,
-          "end": 448,
           "callee": {
             "type": "Identifier",
+            "name": "Test262Error",
             "start": 392,
-            "end": 404,
-            "name": "Test262Error"
+            "end": 404
           },
           "arguments": [
             {
               "type": "Literal",
-              "start": 405,
-              "end": 447,
               "value": "#1: 1 in expression is evaluated to true",
-              "raw": "'#1: 1 in expression is evaluated to true'"
+              "raw": "'#1: 1 in expression is evaluated to true'",
+              "start": 405,
+              "end": 447
             }
-          ]
-        }
+          ],
+          "start": 388,
+          "end": 448
+        },
+        "start": 382,
+        "end": 449
       },
-      "alternate": null
+      "alternate": null,
+      "start": 372,
+      "end": 449
     },
     {
       "type": "IfStatement",
-      "start": 622,
-      "end": 705,
       "test": {
         "type": "UnaryExpression",
-        "start": 625,
-        "end": 632,
         "operator": "!",
         "argument": {
           "type": "ParenthesizedExpression",
-          "start": 626,
-          "end": 632,
           "expression": {
             "type": "Literal",
-            "start": 627,
-            "end": 631,
             "value": true,
-            "raw": "true"
-          }
+            "raw": "true",
+            "start": 627,
+            "end": 631
+          },
+          "start": 626,
+          "end": 632
         },
-        "prefix": true
+        "prefix": true,
+        "start": 625,
+        "end": 632
       },
       "consequent": {
         "type": "ThrowStatement",
-        "start": 635,
-        "end": 705,
         "argument": {
           "type": "NewExpression",
-          "start": 641,
-          "end": 704,
           "callee": {
             "type": "Identifier",
+            "name": "Test262Error",
             "start": 645,
-            "end": 657,
-            "name": "Test262Error"
+            "end": 657
           },
           "arguments": [
             {
               "type": "Literal",
-              "start": 658,
-              "end": 703,
               "value": "#2: true in expression is evaluated to true",
-              "raw": "'#2: true in expression is evaluated to true'"
+              "raw": "'#2: true in expression is evaluated to true'",
+              "start": 658,
+              "end": 703
             }
-          ]
-        }
+          ],
+          "start": 641,
+          "end": 704
+        },
+        "start": 635,
+        "end": 705
       },
-      "alternate": null
+      "alternate": null,
+      "start": 622,
+      "end": 705
     },
     {
       "type": "IfStatement",
-      "start": 878,
-      "end": 959,
       "test": {
         "type": "UnaryExpression",
-        "start": 881,
-        "end": 887,
         "operator": "!",
         "argument": {
           "type": "ParenthesizedExpression",
-          "start": 882,
-          "end": 887,
           "expression": {
             "type": "Literal",
-            "start": 883,
-            "end": 886,
             "value": "1",
-            "raw": "\"1\""
-          }
+            "raw": "\"1\"",
+            "start": 883,
+            "end": 886
+          },
+          "start": 882,
+          "end": 887
         },
-        "prefix": true
+        "prefix": true,
+        "start": 881,
+        "end": 887
       },
       "consequent": {
         "type": "ThrowStatement",
-        "start": 890,
-        "end": 959,
         "argument": {
           "type": "NewExpression",
-          "start": 896,
-          "end": 958,
           "callee": {
             "type": "Identifier",
+            "name": "Test262Error",
             "start": 900,
-            "end": 912,
-            "name": "Test262Error"
+            "end": 912
           },
           "arguments": [
             {
               "type": "Literal",
-              "start": 913,
-              "end": 957,
               "value": "#3: \"1\" in expression is evaluated to true",
-              "raw": "'#3: \"1\" in expression is evaluated to true'"
+              "raw": "'#3: \"1\" in expression is evaluated to true'",
+              "start": 913,
+              "end": 957
             }
-          ]
-        }
+          ],
+          "start": 896,
+          "end": 958
+        },
+        "start": 890,
+        "end": 959
       },
-      "alternate": null
+      "alternate": null,
+      "start": 878,
+      "end": 959
     },
     {
       "type": "IfStatement",
-      "start": 1132,
-      "end": 1213,
       "test": {
         "type": "UnaryExpression",
-        "start": 1135,
-        "end": 1141,
         "operator": "!",
         "argument": {
           "type": "ParenthesizedExpression",
-          "start": 1136,
-          "end": 1141,
           "expression": {
             "type": "Literal",
-            "start": 1137,
-            "end": 1140,
             "value": "A",
-            "raw": "\"A\""
-          }
+            "raw": "\"A\"",
+            "start": 1137,
+            "end": 1140
+          },
+          "start": 1136,
+          "end": 1141
         },
-        "prefix": true
+        "prefix": true,
+        "start": 1135,
+        "end": 1141
       },
       "consequent": {
         "type": "ThrowStatement",
-        "start": 1144,
-        "end": 1213,
         "argument": {
           "type": "NewExpression",
-          "start": 1150,
-          "end": 1212,
           "callee": {
             "type": "Identifier",
+            "name": "Test262Error",
             "start": 1154,
-            "end": 1166,
-            "name": "Test262Error"
+            "end": 1166
           },
           "arguments": [
             {
               "type": "Literal",
-              "start": 1167,
-              "end": 1211,
               "value": "#4: \"A\" in expression is evaluated to true",
-              "raw": "'#4: \"A\" in expression is evaluated to true'"
+              "raw": "'#4: \"A\" in expression is evaluated to true'",
+              "start": 1167,
+              "end": 1211
             }
-          ]
-        }
+          ],
+          "start": 1150,
+          "end": 1212
+        },
+        "start": 1144,
+        "end": 1213
       },
-      "alternate": null
+      "alternate": null,
+      "start": 1132,
+      "end": 1213
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 1296
 }

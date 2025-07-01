@@ -2,162 +2,162 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 58,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 0,
-      "end": 58,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 4,
-          "end": 58,
           "id": {
             "type": "Identifier",
-            "start": 4,
-            "end": 5,
             "decorators": [],
             "name": "v",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 4,
+            "end": 5
           },
           "init": {
             "type": "ObjectExpression",
-            "start": 8,
-            "end": 58,
             "properties": [
               {
                 "type": "Property",
-                "start": 12,
-                "end": 20,
                 "kind": "init",
                 "key": {
                   "type": "UnaryExpression",
-                  "start": 13,
-                  "end": 15,
                   "operator": "-",
                   "argument": {
                     "type": "Literal",
-                    "start": 14,
-                    "end": 15,
                     "value": 1,
-                    "raw": "1"
+                    "raw": "1",
+                    "start": 14,
+                    "end": 15
                   },
-                  "prefix": true
+                  "prefix": true,
+                  "start": 13,
+                  "end": 15
                 },
                 "value": {
                   "type": "ObjectExpression",
+                  "properties": [],
                   "start": 18,
-                  "end": 20,
-                  "properties": []
+                  "end": 20
                 },
                 "method": false,
                 "shorthand": false,
                 "computed": true,
-                "optional": false
+                "optional": false,
+                "start": 12,
+                "end": 20
               },
               {
                 "type": "Property",
-                "start": 24,
-                "end": 32,
                 "kind": "init",
                 "key": {
                   "type": "UnaryExpression",
-                  "start": 25,
-                  "end": 27,
                   "operator": "+",
                   "argument": {
                     "type": "Literal",
-                    "start": 26,
-                    "end": 27,
                     "value": 1,
-                    "raw": "1"
+                    "raw": "1",
+                    "start": 26,
+                    "end": 27
                   },
-                  "prefix": true
+                  "prefix": true,
+                  "start": 25,
+                  "end": 27
                 },
                 "value": {
                   "type": "ObjectExpression",
+                  "properties": [],
                   "start": 30,
-                  "end": 32,
-                  "properties": []
+                  "end": 32
                 },
                 "method": false,
                 "shorthand": false,
                 "computed": true,
-                "optional": false
+                "optional": false,
+                "start": 24,
+                "end": 32
               },
               {
                 "type": "Property",
-                "start": 36,
-                "end": 44,
                 "kind": "init",
                 "key": {
                   "type": "UnaryExpression",
-                  "start": 37,
-                  "end": 39,
                   "operator": "~",
                   "argument": {
                     "type": "Literal",
-                    "start": 38,
-                    "end": 39,
                     "value": 1,
-                    "raw": "1"
+                    "raw": "1",
+                    "start": 38,
+                    "end": 39
                   },
-                  "prefix": true
+                  "prefix": true,
+                  "start": 37,
+                  "end": 39
                 },
                 "value": {
                   "type": "ObjectExpression",
+                  "properties": [],
                   "start": 42,
-                  "end": 44,
-                  "properties": []
+                  "end": 44
                 },
                 "method": false,
                 "shorthand": false,
                 "computed": true,
-                "optional": false
+                "optional": false,
+                "start": 36,
+                "end": 44
               },
               {
                 "type": "Property",
-                "start": 48,
-                "end": 56,
                 "kind": "init",
                 "key": {
                   "type": "UnaryExpression",
-                  "start": 49,
-                  "end": 51,
                   "operator": "!",
                   "argument": {
                     "type": "Literal",
-                    "start": 50,
-                    "end": 51,
                     "value": 1,
-                    "raw": "1"
+                    "raw": "1",
+                    "start": 50,
+                    "end": 51
                   },
-                  "prefix": true
+                  "prefix": true,
+                  "start": 49,
+                  "end": 51
                 },
                 "value": {
                   "type": "ObjectExpression",
+                  "properties": [],
                   "start": 54,
-                  "end": 56,
-                  "properties": []
+                  "end": 56
                 },
                 "method": false,
                 "shorthand": false,
                 "computed": true,
-                "optional": false
+                "optional": false,
+                "start": 48,
+                "end": 56
               }
-            ]
+            ],
+            "start": 8,
+            "end": 58
           },
-          "definite": false
+          "definite": false,
+          "start": 4,
+          "end": 58
         }
       ],
-      "declare": false
+      "declare": false,
+      "start": 0,
+      "end": 58
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 58
 }
 ```

@@ -2,21 +2,17 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 112,
   "body": [
     {
       "type": "FunctionDeclaration",
-      "start": 0,
-      "end": 57,
       "id": {
         "type": "Identifier",
-        "start": 9,
-        "end": 28,
         "decorators": [],
         "name": "takeFirstTwoEntries",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 9,
+        "end": 28
       },
       "generator": false,
       "async": false,
@@ -25,181 +21,185 @@ __ESTREE_TEST__:PASS:
       "params": [
         {
           "type": "RestElement",
-          "start": 29,
-          "end": 52,
           "decorators": [],
           "argument": {
             "type": "ArrayPattern",
-            "start": 32,
-            "end": 52,
             "decorators": [],
             "elements": [
               {
                 "type": "ArrayPattern",
-                "start": 33,
-                "end": 41,
                 "decorators": [],
                 "elements": [
                   {
                     "type": "Identifier",
-                    "start": 34,
-                    "end": 36,
                     "decorators": [],
                     "name": "k1",
                     "optional": false,
-                    "typeAnnotation": null
+                    "typeAnnotation": null,
+                    "start": 34,
+                    "end": 36
                   },
                   {
                     "type": "Identifier",
-                    "start": 38,
-                    "end": 40,
                     "decorators": [],
                     "name": "v1",
                     "optional": false,
-                    "typeAnnotation": null
+                    "typeAnnotation": null,
+                    "start": 38,
+                    "end": 40
                   }
                 ],
                 "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "start": 33,
+                "end": 41
               },
               {
                 "type": "ArrayPattern",
-                "start": 43,
-                "end": 51,
                 "decorators": [],
                 "elements": [
                   {
                     "type": "Identifier",
-                    "start": 44,
-                    "end": 46,
                     "decorators": [],
                     "name": "k2",
                     "optional": false,
-                    "typeAnnotation": null
+                    "typeAnnotation": null,
+                    "start": 44,
+                    "end": 46
                   },
                   {
                     "type": "Identifier",
-                    "start": 48,
-                    "end": 50,
                     "decorators": [],
                     "name": "v2",
                     "optional": false,
-                    "typeAnnotation": null
+                    "typeAnnotation": null,
+                    "start": 48,
+                    "end": 50
                   }
                 ],
                 "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "start": 43,
+                "end": 51
               }
             ],
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 32,
+            "end": 52
           },
           "optional": false,
           "typeAnnotation": null,
-          "value": null
+          "value": null,
+          "start": 29,
+          "end": 52
         }
       ],
       "returnType": null,
       "body": {
         "type": "BlockStatement",
+        "body": [],
         "start": 54,
-        "end": 57,
-        "body": []
+        "end": 57
       },
-      "expression": false
+      "expression": false,
+      "start": 0,
+      "end": 57
     },
     {
       "type": "ExpressionStatement",
-      "start": 58,
-      "end": 112,
       "expression": {
         "type": "CallExpression",
-        "start": 58,
-        "end": 111,
         "callee": {
           "type": "Identifier",
-          "start": 58,
-          "end": 77,
           "decorators": [],
           "name": "takeFirstTwoEntries",
           "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "start": 58,
+          "end": 77
         },
         "typeArguments": null,
         "arguments": [
           {
             "type": "NewExpression",
-            "start": 78,
-            "end": 110,
             "callee": {
               "type": "Identifier",
-              "start": 82,
-              "end": 85,
               "decorators": [],
               "name": "Map",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 82,
+              "end": 85
             },
             "typeArguments": null,
             "arguments": [
               {
                 "type": "ArrayExpression",
-                "start": 86,
-                "end": 109,
                 "elements": [
                   {
                     "type": "ArrayExpression",
-                    "start": 87,
-                    "end": 94,
                     "elements": [
                       {
                         "type": "Literal",
-                        "start": 88,
-                        "end": 90,
                         "value": "",
-                        "raw": "\"\""
+                        "raw": "\"\"",
+                        "start": 88,
+                        "end": 90
                       },
                       {
                         "type": "Literal",
-                        "start": 92,
-                        "end": 93,
                         "value": 0,
-                        "raw": "0"
+                        "raw": "0",
+                        "start": 92,
+                        "end": 93
                       }
-                    ]
+                    ],
+                    "start": 87,
+                    "end": 94
                   },
                   {
                     "type": "ArrayExpression",
-                    "start": 96,
-                    "end": 108,
                     "elements": [
                       {
                         "type": "Literal",
-                        "start": 97,
-                        "end": 104,
                         "value": "hello",
-                        "raw": "\"hello\""
+                        "raw": "\"hello\"",
+                        "start": 97,
+                        "end": 104
                       },
                       {
                         "type": "Literal",
-                        "start": 106,
-                        "end": 107,
                         "value": 1,
-                        "raw": "1"
+                        "raw": "1",
+                        "start": 106,
+                        "end": 107
                       }
-                    ]
+                    ],
+                    "start": 96,
+                    "end": 108
                   }
-                ]
+                ],
+                "start": 86,
+                "end": 109
               }
-            ]
+            ],
+            "start": 78,
+            "end": 110
           }
         ],
-        "optional": false
+        "optional": false,
+        "start": 58,
+        "end": 111
       },
-      "directive": null
+      "directive": null,
+      "start": 58,
+      "end": 112
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 112
 }
 ```

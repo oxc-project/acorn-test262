@@ -1,33 +1,33 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 1348,
   "body": [
     {
       "type": "IfStatement",
-      "start": 1331,
-      "end": 1347,
       "test": {
         "type": "AwaitExpression",
-        "start": 1335,
-        "end": 1343,
         "argument": {
           "type": "Literal",
-          "start": 1341,
-          "end": 1343,
           "value": "",
-          "raw": "''"
-        }
+          "raw": "''",
+          "start": 1341,
+          "end": 1343
+        },
+        "start": 1335,
+        "end": 1343
       },
       "consequent": {
         "type": "BlockStatement",
+        "body": [],
         "start": 1345,
-        "end": 1347,
-        "body": []
+        "end": 1347
       },
-      "alternate": null
+      "alternate": null,
+      "start": 1331,
+      "end": 1347
     }
   ],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 1348
 }

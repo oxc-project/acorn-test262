@@ -1,502 +1,502 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 861,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 264,
-      "end": 346,
       "expression": {
         "type": "CallExpression",
-        "start": 264,
-        "end": 345,
         "callee": {
           "type": "MemberExpression",
-          "start": 264,
-          "end": 283,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 264,
-            "end": 270,
-            "name": "assert"
+            "end": 270
           },
           "property": {
             "type": "Identifier",
+            "name": "compareArray",
             "start": 271,
-            "end": 283,
-            "name": "compareArray"
+            "end": 283
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 264,
+          "end": 283
         },
         "arguments": [
           {
             "type": "ArrayExpression",
+            "elements": [
+              null
+            ],
             "start": 284,
-            "end": 287,
-            "elements": [
-              null
-            ]
+            "end": 287
           },
           {
             "type": "ArrayExpression",
-            "start": 289,
-            "end": 292,
             "elements": [
               null
-            ]
+            ],
+            "start": 289,
+            "end": 292
           },
           {
             "type": "Literal",
-            "start": 294,
-            "end": 344,
             "value": "Sparse arrays of the same length are equivalent.",
-            "raw": "'Sparse arrays of the same length are equivalent.'"
+            "raw": "'Sparse arrays of the same length are equivalent.'",
+            "start": 294,
+            "end": 344
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 264,
+        "end": 345
+      },
+      "start": 264,
+      "end": 346
     },
     {
       "type": "ExpressionStatement",
-      "start": 347,
-      "end": 478,
       "expression": {
         "type": "CallExpression",
-        "start": 347,
-        "end": 477,
         "callee": {
           "type": "MemberExpression",
-          "start": 347,
-          "end": 360,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 347,
-            "end": 353,
-            "name": "assert"
+            "end": 353
           },
           "property": {
             "type": "Identifier",
+            "name": "throws",
             "start": 354,
-            "end": 360,
-            "name": "throws"
+            "end": 360
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 347,
+          "end": 360
         },
         "arguments": [
           {
             "type": "Identifier",
+            "name": "Test262Error",
             "start": 361,
-            "end": 373,
-            "name": "Test262Error"
+            "end": 373
           },
           {
             "type": "ArrowFunctionExpression",
-            "start": 375,
-            "end": 418,
             "expression": false,
             "async": false,
             "params": [],
             "body": {
               "type": "BlockStatement",
-              "start": 381,
-              "end": 418,
               "body": [
                 {
                   "type": "ExpressionStatement",
-                  "start": 385,
-                  "end": 416,
                   "expression": {
                     "type": "CallExpression",
-                    "start": 385,
-                    "end": 415,
                     "callee": {
                       "type": "MemberExpression",
-                      "start": 385,
-                      "end": 404,
                       "object": {
                         "type": "Identifier",
+                        "name": "assert",
                         "start": 385,
-                        "end": 391,
-                        "name": "assert"
+                        "end": 391
                       },
                       "property": {
                         "type": "Identifier",
+                        "name": "compareArray",
                         "start": 392,
-                        "end": 404,
-                        "name": "compareArray"
+                        "end": 404
                       },
                       "optional": false,
-                      "computed": false
+                      "computed": false,
+                      "start": 385,
+                      "end": 404
                     },
                     "arguments": [
                       {
                         "type": "ArrayExpression",
+                        "elements": [
+                          null
+                        ],
                         "start": 405,
-                        "end": 408,
-                        "elements": [
-                          null
-                        ]
+                        "end": 408
                       },
                       {
                         "type": "ArrayExpression",
+                        "elements": [
+                          null,
+                          null
+                        ],
                         "start": 410,
-                        "end": 414,
-                        "elements": [
-                          null,
-                          null
-                        ]
+                        "end": 414
                       }
                     ],
-                    "optional": false
-                  }
+                    "optional": false,
+                    "start": 385,
+                    "end": 415
+                  },
+                  "start": 385,
+                  "end": 416
                 }
-              ]
+              ],
+              "start": 381,
+              "end": 418
             },
             "id": null,
-            "generator": false
+            "generator": false,
+            "start": 375,
+            "end": 418
           },
           {
             "type": "Literal",
+            "value": "Sparse arrays of differing lengths are not equivalent.",
+            "raw": "'Sparse arrays of differing lengths are not equivalent.'",
             "start": 420,
-            "end": 476,
-            "value": "Sparse arrays of differing lengths are not equivalent.",
-            "raw": "'Sparse arrays of differing lengths are not equivalent.'"
+            "end": 476
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 347,
+        "end": 477
+      },
+      "start": 347,
+      "end": 478
     },
     {
       "type": "ExpressionStatement",
-      "start": 479,
-      "end": 610,
       "expression": {
         "type": "CallExpression",
-        "start": 479,
-        "end": 609,
         "callee": {
           "type": "MemberExpression",
-          "start": 479,
-          "end": 492,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 479,
-            "end": 485,
-            "name": "assert"
+            "end": 485
           },
           "property": {
             "type": "Identifier",
+            "name": "throws",
             "start": 486,
-            "end": 492,
-            "name": "throws"
+            "end": 492
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 479,
+          "end": 492
         },
         "arguments": [
           {
             "type": "Identifier",
+            "name": "Test262Error",
             "start": 493,
-            "end": 505,
-            "name": "Test262Error"
+            "end": 505
           },
           {
             "type": "ArrowFunctionExpression",
-            "start": 507,
-            "end": 550,
             "expression": false,
             "async": false,
             "params": [],
             "body": {
               "type": "BlockStatement",
-              "start": 513,
-              "end": 550,
               "body": [
                 {
                   "type": "ExpressionStatement",
-                  "start": 517,
-                  "end": 548,
                   "expression": {
                     "type": "CallExpression",
-                    "start": 517,
-                    "end": 547,
                     "callee": {
                       "type": "MemberExpression",
-                      "start": 517,
-                      "end": 536,
                       "object": {
                         "type": "Identifier",
+                        "name": "assert",
                         "start": 517,
-                        "end": 523,
-                        "name": "assert"
+                        "end": 523
                       },
                       "property": {
                         "type": "Identifier",
+                        "name": "compareArray",
                         "start": 524,
-                        "end": 536,
-                        "name": "compareArray"
+                        "end": 536
                       },
                       "optional": false,
-                      "computed": false
+                      "computed": false,
+                      "start": 517,
+                      "end": 536
                     },
                     "arguments": [
                       {
                         "type": "ArrayExpression",
-                        "start": 537,
-                        "end": 541,
                         "elements": [
                           null,
                           null
-                        ]
+                        ],
+                        "start": 537,
+                        "end": 541
                       },
                       {
                         "type": "ArrayExpression",
+                        "elements": [
+                          null
+                        ],
                         "start": 543,
-                        "end": 546,
-                        "elements": [
-                          null
-                        ]
+                        "end": 546
                       }
                     ],
-                    "optional": false
-                  }
+                    "optional": false,
+                    "start": 517,
+                    "end": 547
+                  },
+                  "start": 517,
+                  "end": 548
                 }
-              ]
+              ],
+              "start": 513,
+              "end": 550
             },
             "id": null,
-            "generator": false
+            "generator": false,
+            "start": 507,
+            "end": 550
           },
           {
             "type": "Literal",
-            "start": 552,
-            "end": 608,
             "value": "Sparse arrays of differing lengths are not equivalent.",
-            "raw": "'Sparse arrays of differing lengths are not equivalent.'"
+            "raw": "'Sparse arrays of differing lengths are not equivalent.'",
+            "start": 552,
+            "end": 608
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 479,
+        "end": 609
+      },
+      "start": 479,
+      "end": 610
     },
     {
       "type": "ExpressionStatement",
-      "start": 611,
-      "end": 735,
       "expression": {
         "type": "CallExpression",
-        "start": 611,
-        "end": 734,
         "callee": {
           "type": "MemberExpression",
-          "start": 611,
-          "end": 624,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 611,
-            "end": 617,
-            "name": "assert"
+            "end": 617
           },
           "property": {
             "type": "Identifier",
+            "name": "throws",
             "start": 618,
-            "end": 624,
-            "name": "throws"
+            "end": 624
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 611,
+          "end": 624
         },
         "arguments": [
           {
             "type": "Identifier",
+            "name": "Test262Error",
             "start": 625,
-            "end": 637,
-            "name": "Test262Error"
+            "end": 637
           },
           {
             "type": "ArrowFunctionExpression",
-            "start": 639,
-            "end": 680,
             "expression": false,
             "async": false,
             "params": [],
             "body": {
               "type": "BlockStatement",
-              "start": 645,
-              "end": 680,
               "body": [
                 {
                   "type": "ExpressionStatement",
-                  "start": 649,
-                  "end": 678,
                   "expression": {
                     "type": "CallExpression",
-                    "start": 649,
-                    "end": 677,
                     "callee": {
                       "type": "MemberExpression",
-                      "start": 649,
-                      "end": 668,
                       "object": {
                         "type": "Identifier",
+                        "name": "assert",
                         "start": 649,
-                        "end": 655,
-                        "name": "assert"
+                        "end": 655
                       },
                       "property": {
                         "type": "Identifier",
+                        "name": "compareArray",
                         "start": 656,
-                        "end": 668,
-                        "name": "compareArray"
+                        "end": 668
                       },
                       "optional": false,
-                      "computed": false
+                      "computed": false,
+                      "start": 649,
+                      "end": 668
                     },
                     "arguments": [
                       {
                         "type": "ArrayExpression",
-                        "start": 669,
-                        "end": 672,
                         "elements": [
                           null
-                        ]
+                        ],
+                        "start": 669,
+                        "end": 672
                       },
                       {
                         "type": "ArrayExpression",
+                        "elements": [],
                         "start": 674,
-                        "end": 676,
-                        "elements": []
+                        "end": 676
                       }
                     ],
-                    "optional": false
-                  }
+                    "optional": false,
+                    "start": 649,
+                    "end": 677
+                  },
+                  "start": 649,
+                  "end": 678
                 }
-              ]
+              ],
+              "start": 645,
+              "end": 680
             },
             "id": null,
-            "generator": false
+            "generator": false,
+            "start": 639,
+            "end": 680
           },
           {
             "type": "Literal",
-            "start": 682,
-            "end": 733,
             "value": "Sparse arrays are not equivalent to empty arrays.",
-            "raw": "'Sparse arrays are not equivalent to empty arrays.'"
+            "raw": "'Sparse arrays are not equivalent to empty arrays.'",
+            "start": 682,
+            "end": 733
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 611,
+        "end": 734
+      },
+      "start": 611,
+      "end": 735
     },
     {
       "type": "ExpressionStatement",
-      "start": 736,
-      "end": 860,
       "expression": {
         "type": "CallExpression",
-        "start": 736,
-        "end": 859,
         "callee": {
           "type": "MemberExpression",
-          "start": 736,
-          "end": 749,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 736,
-            "end": 742,
-            "name": "assert"
+            "end": 742
           },
           "property": {
             "type": "Identifier",
+            "name": "throws",
             "start": 743,
-            "end": 749,
-            "name": "throws"
+            "end": 749
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 736,
+          "end": 749
         },
         "arguments": [
           {
             "type": "Identifier",
+            "name": "Test262Error",
             "start": 750,
-            "end": 762,
-            "name": "Test262Error"
+            "end": 762
           },
           {
             "type": "ArrowFunctionExpression",
-            "start": 764,
-            "end": 805,
             "expression": false,
             "async": false,
             "params": [],
             "body": {
               "type": "BlockStatement",
-              "start": 770,
-              "end": 805,
               "body": [
                 {
                   "type": "ExpressionStatement",
-                  "start": 774,
-                  "end": 803,
                   "expression": {
                     "type": "CallExpression",
-                    "start": 774,
-                    "end": 802,
                     "callee": {
                       "type": "MemberExpression",
-                      "start": 774,
-                      "end": 793,
                       "object": {
                         "type": "Identifier",
+                        "name": "assert",
                         "start": 774,
-                        "end": 780,
-                        "name": "assert"
+                        "end": 780
                       },
                       "property": {
                         "type": "Identifier",
+                        "name": "compareArray",
                         "start": 781,
-                        "end": 793,
-                        "name": "compareArray"
+                        "end": 793
                       },
                       "optional": false,
-                      "computed": false
+                      "computed": false,
+                      "start": 774,
+                      "end": 793
                     },
                     "arguments": [
                       {
                         "type": "ArrayExpression",
+                        "elements": [],
                         "start": 794,
-                        "end": 796,
-                        "elements": []
+                        "end": 796
                       },
                       {
                         "type": "ArrayExpression",
-                        "start": 798,
-                        "end": 801,
                         "elements": [
                           null
-                        ]
+                        ],
+                        "start": 798,
+                        "end": 801
                       }
                     ],
-                    "optional": false
-                  }
+                    "optional": false,
+                    "start": 774,
+                    "end": 802
+                  },
+                  "start": 774,
+                  "end": 803
                 }
-              ]
+              ],
+              "start": 770,
+              "end": 805
             },
             "id": null,
-            "generator": false
+            "generator": false,
+            "start": 764,
+            "end": 805
           },
           {
             "type": "Literal",
-            "start": 807,
-            "end": 858,
             "value": "Sparse arrays are not equivalent to empty arrays.",
-            "raw": "'Sparse arrays are not equivalent to empty arrays.'"
+            "raw": "'Sparse arrays are not equivalent to empty arrays.'",
+            "start": 807,
+            "end": 858
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 736,
+        "end": 859
+      },
+      "start": 736,
+      "end": 860
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 861
 }

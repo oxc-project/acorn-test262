@@ -1,112 +1,112 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 447,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 316,
-      "end": 446,
       "expression": {
         "type": "CallExpression",
-        "start": 316,
-        "end": 445,
         "callee": {
           "type": "MemberExpression",
-          "start": 316,
-          "end": 332,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 316,
-            "end": 322,
-            "name": "assert"
+            "end": 322
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 323,
-            "end": 332,
-            "name": "sameValue"
+            "end": 332
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 316,
+          "end": 332
         },
         "arguments": [
           {
             "type": "MemberExpression",
-            "start": 336,
-            "end": 354,
             "object": {
               "type": "MemberExpression",
-              "start": 336,
-              "end": 349,
               "object": {
                 "type": "Identifier",
+                "name": "Set",
                 "start": 336,
-                "end": 339,
-                "name": "Set"
+                "end": 339
               },
               "property": {
                 "type": "Identifier",
+                "name": "prototype",
                 "start": 340,
-                "end": 349,
-                "name": "prototype"
+                "end": 349
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 336,
+              "end": 349
             },
             "property": {
               "type": "Identifier",
+              "name": "keys",
               "start": 350,
-              "end": 354,
-              "name": "keys"
+              "end": 354
             },
             "optional": false,
-            "computed": false
+            "computed": false,
+            "start": 336,
+            "end": 354
           },
           {
             "type": "MemberExpression",
-            "start": 358,
-            "end": 378,
             "object": {
               "type": "MemberExpression",
-              "start": 358,
-              "end": 371,
               "object": {
                 "type": "Identifier",
+                "name": "Set",
                 "start": 358,
-                "end": 361,
-                "name": "Set"
+                "end": 361
               },
               "property": {
                 "type": "Identifier",
+                "name": "prototype",
                 "start": 362,
-                "end": 371,
-                "name": "prototype"
+                "end": 371
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 358,
+              "end": 371
             },
             "property": {
               "type": "Identifier",
+              "name": "values",
               "start": 372,
-              "end": 378,
-              "name": "values"
+              "end": 378
             },
             "optional": false,
-            "computed": false
+            "computed": false,
+            "start": 358,
+            "end": 378
           },
           {
             "type": "Literal",
-            "start": 382,
-            "end": 443,
             "value": "The value of `Set.prototype.keys` is `Set.prototype.values`",
-            "raw": "\"The value of `Set.prototype.keys` is `Set.prototype.values`\""
+            "raw": "\"The value of `Set.prototype.keys` is `Set.prototype.values`\"",
+            "start": 382,
+            "end": 443
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 316,
+        "end": 445
+      },
+      "start": 316,
+      "end": 446
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 447
 }

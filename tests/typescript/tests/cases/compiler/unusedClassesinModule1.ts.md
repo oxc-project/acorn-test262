@@ -2,40 +2,32 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 81,
   "body": [
     {
       "type": "TSModuleDeclaration",
-      "start": 0,
-      "end": 81,
       "id": {
         "type": "Identifier",
-        "start": 7,
-        "end": 8,
         "decorators": [],
         "name": "A",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 7,
+        "end": 8
       },
       "body": {
         "type": "TSModuleBlock",
-        "start": 9,
-        "end": 81,
         "body": [
           {
             "type": "ClassDeclaration",
-            "start": 15,
-            "end": 79,
             "decorators": [],
             "id": {
               "type": "Identifier",
-              "start": 21,
-              "end": 31,
               "decorators": [],
               "name": "Calculator",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 21,
+              "end": 31
             },
             "typeParameters": null,
             "superClass": null,
@@ -43,27 +35,21 @@ __ESTREE_TEST__:PASS:
             "implements": [],
             "body": {
               "type": "ClassBody",
-              "start": 32,
-              "end": 79,
               "body": [
                 {
                   "type": "MethodDefinition",
-                  "start": 42,
-                  "end": 73,
                   "decorators": [],
                   "key": {
                     "type": "Identifier",
-                    "start": 49,
-                    "end": 59,
                     "decorators": [],
                     "name": "handelChar",
                     "optional": false,
-                    "typeAnnotation": null
+                    "typeAnnotation": null,
+                    "start": 49,
+                    "end": 59
                   },
                   "value": {
                     "type": "FunctionExpression",
-                    "start": 59,
-                    "end": 73,
                     "id": null,
                     "generator": false,
                     "async": false,
@@ -73,32 +59,46 @@ __ESTREE_TEST__:PASS:
                     "returnType": null,
                     "body": {
                       "type": "BlockStatement",
+                      "body": [],
                       "start": 62,
-                      "end": 73,
-                      "body": []
+                      "end": 73
                     },
-                    "expression": false
+                    "expression": false,
+                    "start": 59,
+                    "end": 73
                   },
                   "kind": "method",
                   "computed": false,
                   "static": false,
                   "override": false,
                   "optional": false,
-                  "accessibility": "public"
+                  "accessibility": "public",
+                  "start": 42,
+                  "end": 73
                 }
-              ]
+              ],
+              "start": 32,
+              "end": 79
             },
             "abstract": false,
-            "declare": false
+            "declare": false,
+            "start": 15,
+            "end": 79
           }
-        ]
+        ],
+        "start": 9,
+        "end": 81
       },
       "kind": "module",
       "declare": false,
-      "global": false
+      "global": false,
+      "start": 0,
+      "end": 81
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 81
 }
 ```

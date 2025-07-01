@@ -1,253 +1,253 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 674,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 317,
-      "end": 350,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 321,
-          "end": 349,
           "id": {
             "type": "Identifier",
+            "name": "obj",
             "start": 321,
-            "end": 324,
-            "name": "obj"
+            "end": 324
           },
           "init": {
             "type": "NewExpression",
-            "start": 327,
-            "end": 349,
             "callee": {
               "type": "MemberExpression",
-              "start": 331,
-              "end": 347,
               "object": {
                 "type": "Identifier",
+                "name": "Intl",
                 "start": 331,
-                "end": 335,
-                "name": "Intl"
+                "end": 335
               },
               "property": {
                 "type": "Identifier",
+                "name": "PluralRules",
                 "start": 336,
-                "end": 347,
-                "name": "PluralRules"
+                "end": 347
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 331,
+              "end": 347
             },
-            "arguments": []
-          }
+            "arguments": [],
+            "start": 327,
+            "end": 349
+          },
+          "start": 321,
+          "end": 349
         }
-      ]
+      ],
+      "start": 317,
+      "end": 350
     },
     {
       "type": "VariableDeclaration",
-      "start": 352,
-      "end": 401,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 356,
-          "end": 400,
           "id": {
             "type": "Identifier",
+            "name": "actualPrototype",
             "start": 356,
-            "end": 371,
-            "name": "actualPrototype"
+            "end": 371
           },
           "init": {
             "type": "CallExpression",
-            "start": 374,
-            "end": 400,
             "callee": {
               "type": "MemberExpression",
-              "start": 374,
-              "end": 395,
               "object": {
                 "type": "Identifier",
+                "name": "Object",
                 "start": 374,
-                "end": 380,
-                "name": "Object"
+                "end": 380
               },
               "property": {
                 "type": "Identifier",
+                "name": "getPrototypeOf",
                 "start": 381,
-                "end": 395,
-                "name": "getPrototypeOf"
+                "end": 395
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 374,
+              "end": 395
             },
             "arguments": [
               {
                 "type": "Identifier",
+                "name": "obj",
                 "start": 396,
-                "end": 399,
-                "name": "obj"
+                "end": 399
               }
             ],
-            "optional": false
-          }
+            "optional": false,
+            "start": 374,
+            "end": 400
+          },
+          "start": 356,
+          "end": 400
         }
-      ]
+      ],
+      "start": 352,
+      "end": 401
     },
     {
       "type": "ExpressionStatement",
-      "start": 402,
-      "end": 576,
       "expression": {
         "type": "CallExpression",
-        "start": 402,
-        "end": 575,
         "callee": {
           "type": "MemberExpression",
-          "start": 402,
-          "end": 418,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 402,
-            "end": 408,
-            "name": "assert"
+            "end": 408
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 409,
-            "end": 418,
-            "name": "sameValue"
+            "end": 418
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 402,
+          "end": 418
         },
         "arguments": [
           {
             "type": "Identifier",
+            "name": "actualPrototype",
             "start": 419,
-            "end": 434,
-            "name": "actualPrototype"
+            "end": 434
           },
           {
             "type": "MemberExpression",
-            "start": 436,
-            "end": 462,
             "object": {
               "type": "MemberExpression",
-              "start": 436,
-              "end": 452,
               "object": {
                 "type": "Identifier",
+                "name": "Intl",
                 "start": 436,
-                "end": 440,
-                "name": "Intl"
+                "end": 440
               },
               "property": {
                 "type": "Identifier",
+                "name": "PluralRules",
                 "start": 441,
-                "end": 452,
-                "name": "PluralRules"
+                "end": 452
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 436,
+              "end": 452
             },
             "property": {
               "type": "Identifier",
+              "name": "prototype",
               "start": 453,
-              "end": 462,
-              "name": "prototype"
+              "end": 462
             },
             "optional": false,
-            "computed": false
+            "computed": false,
+            "start": 436,
+            "end": 462
           },
           {
             "type": "BinaryExpression",
-            "start": 464,
-            "end": 574,
             "left": {
               "type": "Literal",
-              "start": 464,
-              "end": 556,
               "value": "Prototype of object constructed by Intl.PluralRules isn't Intl.PluralRules.prototype; got ",
-              "raw": "\"Prototype of object constructed by Intl.PluralRules isn't Intl.PluralRules.prototype; got \""
+              "raw": "\"Prototype of object constructed by Intl.PluralRules isn't Intl.PluralRules.prototype; got \"",
+              "start": 464,
+              "end": 556
             },
             "operator": "+",
             "right": {
               "type": "Identifier",
+              "name": "actualPrototype",
               "start": 559,
-              "end": 574,
-              "name": "actualPrototype"
-            }
+              "end": 574
+            },
+            "start": 464,
+            "end": 574
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 402,
+        "end": 575
+      },
+      "start": 402,
+      "end": 576
     },
     {
       "type": "ExpressionStatement",
-      "start": 578,
-      "end": 673,
       "expression": {
         "type": "CallExpression",
-        "start": 578,
-        "end": 672,
         "callee": {
           "type": "Identifier",
+          "name": "assert",
           "start": 578,
-          "end": 584,
-          "name": "assert"
+          "end": 584
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 585,
-            "end": 609,
             "callee": {
               "type": "MemberExpression",
-              "start": 585,
-              "end": 604,
               "object": {
                 "type": "Identifier",
+                "name": "Object",
                 "start": 585,
-                "end": 591,
-                "name": "Object"
+                "end": 591
               },
               "property": {
                 "type": "Identifier",
+                "name": "isExtensible",
                 "start": 592,
-                "end": 604,
-                "name": "isExtensible"
+                "end": 604
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 585,
+              "end": 604
             },
             "arguments": [
               {
                 "type": "Identifier",
+                "name": "obj",
                 "start": 605,
-                "end": 608,
-                "name": "obj"
+                "end": 608
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 585,
+            "end": 609
           },
           {
             "type": "Literal",
-            "start": 611,
-            "end": 671,
             "value": "Object constructed by Intl.PluralRules must be extensible.",
-            "raw": "\"Object constructed by Intl.PluralRules must be extensible.\""
+            "raw": "\"Object constructed by Intl.PluralRules must be extensible.\"",
+            "start": 611,
+            "end": 671
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 578,
+        "end": 672
+      },
+      "start": 578,
+      "end": 673
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 674
 }

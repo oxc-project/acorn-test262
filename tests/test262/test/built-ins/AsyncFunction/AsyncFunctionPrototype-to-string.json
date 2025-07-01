@@ -1,310 +1,310 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 714,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 406,
-      "end": 462,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 410,
-          "end": 461,
           "id": {
             "type": "Identifier",
+            "name": "AsyncFunction",
             "start": 410,
-            "end": 423,
-            "name": "AsyncFunction"
+            "end": 423
           },
           "init": {
             "type": "MemberExpression",
-            "start": 426,
-            "end": 461,
             "object": {
               "type": "FunctionExpression",
-              "start": 426,
-              "end": 449,
               "id": {
                 "type": "Identifier",
+                "name": "foo",
                 "start": 441,
-                "end": 444,
-                "name": "foo"
+                "end": 444
               },
               "generator": false,
               "async": true,
               "params": [],
               "body": {
                 "type": "BlockStatement",
+                "body": [],
                 "start": 447,
-                "end": 449,
-                "body": []
+                "end": 449
               },
-              "expression": false
+              "expression": false,
+              "start": 426,
+              "end": 449
             },
             "property": {
               "type": "Identifier",
+              "name": "constructor",
               "start": 450,
-              "end": 461,
-              "name": "constructor"
+              "end": 461
             },
             "optional": false,
-            "computed": false
-          }
+            "computed": false,
+            "start": 426,
+            "end": 461
+          },
+          "start": 410,
+          "end": 461
         }
-      ]
+      ],
+      "start": 406,
+      "end": 462
     },
     {
       "type": "VariableDeclaration",
-      "start": 463,
-      "end": 497,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 467,
-          "end": 496,
           "id": {
             "type": "Identifier",
+            "name": "AFP",
             "start": 467,
-            "end": 470,
-            "name": "AFP"
+            "end": 470
           },
           "init": {
             "type": "MemberExpression",
-            "start": 473,
-            "end": 496,
             "object": {
               "type": "Identifier",
+              "name": "AsyncFunction",
               "start": 473,
-              "end": 486,
-              "name": "AsyncFunction"
+              "end": 486
             },
             "property": {
               "type": "Identifier",
+              "name": "prototype",
               "start": 487,
-              "end": 496,
-              "name": "prototype"
+              "end": 496
             },
             "optional": false,
-            "computed": false
-          }
+            "computed": false,
+            "start": 473,
+            "end": 496
+          },
+          "start": 467,
+          "end": 496
         }
-      ]
+      ],
+      "start": 463,
+      "end": 497
     },
     {
       "type": "ExpressionStatement",
-      "start": 498,
-      "end": 578,
       "expression": {
         "type": "CallExpression",
-        "start": 498,
-        "end": 577,
         "callee": {
           "type": "MemberExpression",
-          "start": 498,
-          "end": 514,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 498,
-            "end": 504,
-            "name": "assert"
+            "end": 504
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 505,
-            "end": 514,
-            "name": "sameValue"
+            "end": 514
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 498,
+          "end": 514
         },
         "arguments": [
           {
             "type": "MemberExpression",
-            "start": 515,
-            "end": 538,
             "object": {
               "type": "Identifier",
+              "name": "AFP",
               "start": 515,
-              "end": 518,
-              "name": "AFP"
+              "end": 518
             },
             "property": {
               "type": "MemberExpression",
-              "start": 519,
-              "end": 537,
               "object": {
                 "type": "Identifier",
+                "name": "Symbol",
                 "start": 519,
-                "end": 525,
-                "name": "Symbol"
+                "end": 525
               },
               "property": {
                 "type": "Identifier",
+                "name": "toStringTag",
                 "start": 526,
-                "end": 537,
-                "name": "toStringTag"
+                "end": 537
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 519,
+              "end": 537
             },
             "optional": false,
-            "computed": true
+            "computed": true,
+            "start": 515,
+            "end": 538
           },
           {
             "type": "Literal",
-            "start": 540,
-            "end": 555,
             "value": "AsyncFunction",
-            "raw": "\"AsyncFunction\""
+            "raw": "\"AsyncFunction\"",
+            "start": 540,
+            "end": 555
           },
           {
             "type": "Literal",
-            "start": 557,
-            "end": 576,
             "value": "toStringTag value",
-            "raw": "\"toStringTag value\""
+            "raw": "\"toStringTag value\"",
+            "start": 557,
+            "end": 576
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 498,
+        "end": 577
+      },
+      "start": 498,
+      "end": 578
     },
     {
       "type": "ExpressionStatement",
-      "start": 579,
-      "end": 622,
       "expression": {
         "type": "CallExpression",
-        "start": 579,
-        "end": 621,
         "callee": {
           "type": "Identifier",
+          "name": "verifyNotWritable",
           "start": 579,
-          "end": 596,
-          "name": "verifyNotWritable"
+          "end": 596
         },
         "arguments": [
           {
             "type": "Identifier",
+            "name": "AFP",
             "start": 597,
-            "end": 600,
-            "name": "AFP"
+            "end": 600
           },
           {
             "type": "MemberExpression",
-            "start": 602,
-            "end": 620,
             "object": {
               "type": "Identifier",
+              "name": "Symbol",
               "start": 602,
-              "end": 608,
-              "name": "Symbol"
+              "end": 608
             },
             "property": {
               "type": "Identifier",
+              "name": "toStringTag",
               "start": 609,
-              "end": 620,
-              "name": "toStringTag"
+              "end": 620
             },
             "optional": false,
-            "computed": false
+            "computed": false,
+            "start": 602,
+            "end": 620
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 579,
+        "end": 621
+      },
+      "start": 579,
+      "end": 622
     },
     {
       "type": "ExpressionStatement",
-      "start": 623,
-      "end": 668,
       "expression": {
         "type": "CallExpression",
-        "start": 623,
-        "end": 667,
         "callee": {
           "type": "Identifier",
+          "name": "verifyNotEnumerable",
           "start": 623,
-          "end": 642,
-          "name": "verifyNotEnumerable"
+          "end": 642
         },
         "arguments": [
           {
             "type": "Identifier",
+            "name": "AFP",
             "start": 643,
-            "end": 646,
-            "name": "AFP"
+            "end": 646
           },
           {
             "type": "MemberExpression",
-            "start": 648,
-            "end": 666,
             "object": {
               "type": "Identifier",
+              "name": "Symbol",
               "start": 648,
-              "end": 654,
-              "name": "Symbol"
+              "end": 654
             },
             "property": {
               "type": "Identifier",
+              "name": "toStringTag",
               "start": 655,
-              "end": 666,
-              "name": "toStringTag"
+              "end": 666
             },
             "optional": false,
-            "computed": false
+            "computed": false,
+            "start": 648,
+            "end": 666
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 623,
+        "end": 667
+      },
+      "start": 623,
+      "end": 668
     },
     {
       "type": "ExpressionStatement",
-      "start": 669,
-      "end": 713,
       "expression": {
         "type": "CallExpression",
-        "start": 669,
-        "end": 712,
         "callee": {
           "type": "Identifier",
+          "name": "verifyConfigurable",
           "start": 669,
-          "end": 687,
-          "name": "verifyConfigurable"
+          "end": 687
         },
         "arguments": [
           {
             "type": "Identifier",
+            "name": "AFP",
             "start": 688,
-            "end": 691,
-            "name": "AFP"
+            "end": 691
           },
           {
             "type": "MemberExpression",
-            "start": 693,
-            "end": 711,
             "object": {
               "type": "Identifier",
+              "name": "Symbol",
               "start": 693,
-              "end": 699,
-              "name": "Symbol"
+              "end": 699
             },
             "property": {
               "type": "Identifier",
+              "name": "toStringTag",
               "start": 700,
-              "end": 711,
-              "name": "toStringTag"
+              "end": 711
             },
             "optional": false,
-            "computed": false
+            "computed": false,
+            "start": 693,
+            "end": 711
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 669,
+        "end": 712
+      },
+      "start": 669,
+      "end": 713
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 714
 }

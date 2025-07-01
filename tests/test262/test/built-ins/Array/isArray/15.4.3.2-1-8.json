@@ -1,88 +1,88 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 334,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 247,
-      "end": 333,
       "expression": {
         "type": "CallExpression",
-        "start": 247,
-        "end": 332,
         "callee": {
           "type": "MemberExpression",
-          "start": 247,
-          "end": 263,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 247,
-            "end": 253,
-            "name": "assert"
+            "end": 253
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 254,
-            "end": 263,
-            "name": "sameValue"
+            "end": 263
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 247,
+          "end": 263
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 264,
-            "end": 283,
             "callee": {
               "type": "MemberExpression",
-              "start": 264,
-              "end": 277,
               "object": {
                 "type": "Identifier",
+                "name": "Array",
                 "start": 264,
-                "end": 269,
-                "name": "Array"
+                "end": 269
               },
               "property": {
                 "type": "Identifier",
+                "name": "isArray",
                 "start": 270,
-                "end": 277,
-                "name": "isArray"
+                "end": 277
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 264,
+              "end": 277
             },
             "arguments": [
               {
                 "type": "Identifier",
+                "name": "Math",
                 "start": 278,
-                "end": 282,
-                "name": "Math"
+                "end": 282
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 264,
+            "end": 283
           },
           {
             "type": "Literal",
-            "start": 285,
-            "end": 290,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "start": 285,
+            "end": 290
           },
           {
             "type": "Literal",
-            "start": 292,
-            "end": 331,
             "value": "Array.isArray(Math) must return false",
-            "raw": "'Array.isArray(Math) must return false'"
+            "raw": "'Array.isArray(Math) must return false'",
+            "start": 292,
+            "end": 331
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 247,
+        "end": 332
+      },
+      "start": 247,
+      "end": 333
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 334
 }

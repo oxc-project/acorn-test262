@@ -1,28 +1,26 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 370,
   "body": [
     {
       "type": "FunctionDeclaration",
-      "start": 255,
-      "end": 279,
       "id": {
         "type": "Identifier",
+        "name": "foo",
         "start": 270,
-        "end": 273,
-        "name": "foo"
+        "end": 273
       },
       "generator": false,
       "async": true,
       "params": [],
       "body": {
         "type": "BlockStatement",
+        "body": [],
         "start": 276,
-        "end": 279,
-        "body": []
+        "end": 279
       },
-      "expression": false
+      "expression": false,
+      "start": 255,
+      "end": 279
     },
     {
       "type": "EmptyStatement",
@@ -31,81 +29,83 @@
     },
     {
       "type": "VariableDeclaration",
-      "start": 281,
-      "end": 295,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 285,
-          "end": 294,
           "id": {
             "type": "Identifier",
+            "name": "p",
             "start": 285,
-            "end": 286,
-            "name": "p"
+            "end": 286
           },
           "init": {
             "type": "CallExpression",
-            "start": 289,
-            "end": 294,
             "callee": {
               "type": "Identifier",
+              "name": "foo",
               "start": 289,
-              "end": 292,
-              "name": "foo"
+              "end": 292
             },
             "arguments": [],
-            "optional": false
-          }
+            "optional": false,
+            "start": 289,
+            "end": 294
+          },
+          "start": 285,
+          "end": 294
         }
-      ]
+      ],
+      "start": 281,
+      "end": 295
     },
     {
       "type": "ExpressionStatement",
-      "start": 296,
-      "end": 369,
       "expression": {
         "type": "CallExpression",
-        "start": 296,
-        "end": 368,
         "callee": {
           "type": "Identifier",
+          "name": "assert",
           "start": 296,
-          "end": 302,
-          "name": "assert"
+          "end": 302
         },
         "arguments": [
           {
             "type": "BinaryExpression",
-            "start": 303,
-            "end": 323,
             "left": {
               "type": "Identifier",
+              "name": "p",
               "start": 303,
-              "end": 304,
-              "name": "p"
+              "end": 304
             },
             "operator": "instanceof",
             "right": {
               "type": "Identifier",
+              "name": "Promise",
               "start": 316,
-              "end": 323,
-              "name": "Promise"
-            }
+              "end": 323
+            },
+            "start": 303,
+            "end": 323
           },
           {
             "type": "Literal",
-            "start": 325,
-            "end": 367,
             "value": "async functions return promise instances",
-            "raw": "\"async functions return promise instances\""
+            "raw": "\"async functions return promise instances\"",
+            "start": 325,
+            "end": 367
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 296,
+        "end": 368
+      },
+      "start": 296,
+      "end": 369
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 370
 }

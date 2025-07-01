@@ -1,128 +1,128 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 328,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 268,
-      "end": 327,
       "expression": {
         "type": "UnaryExpression",
-        "start": 268,
-        "end": 326,
         "operator": "void",
         "argument": {
           "type": "ObjectExpression",
-          "start": 273,
-          "end": 326,
           "properties": [
             {
               "type": "Property",
-              "start": 277,
-              "end": 289,
               "kind": "get",
               "key": {
                 "type": "Identifier",
+                "name": "foo",
                 "start": 281,
-                "end": 284,
-                "name": "foo"
+                "end": 284
               },
               "value": {
                 "type": "FunctionExpression",
-                "start": 284,
-                "end": 289,
                 "id": null,
                 "generator": false,
                 "async": false,
                 "params": [],
                 "body": {
                   "type": "BlockStatement",
+                  "body": [],
                   "start": 287,
-                  "end": 289,
-                  "body": []
+                  "end": 289
                 },
-                "expression": false
+                "expression": false,
+                "start": 284,
+                "end": 289
               },
               "method": false,
               "shorthand": false,
-              "computed": false
+              "computed": false,
+              "start": 277,
+              "end": 289
             },
             {
               "type": "Property",
-              "start": 293,
-              "end": 308,
               "kind": "set",
               "key": {
                 "type": "Identifier",
+                "name": "foo",
                 "start": 297,
-                "end": 300,
-                "name": "foo"
+                "end": 300
               },
               "value": {
                 "type": "FunctionExpression",
-                "start": 300,
-                "end": 308,
                 "id": null,
                 "generator": false,
                 "async": false,
                 "params": [
                   {
                     "type": "Identifier",
+                    "name": "arg",
                     "start": 301,
-                    "end": 304,
-                    "name": "arg"
+                    "end": 304
                   }
                 ],
                 "body": {
                   "type": "BlockStatement",
+                  "body": [],
                   "start": 306,
-                  "end": 308,
-                  "body": []
+                  "end": 308
                 },
-                "expression": false
+                "expression": false,
+                "start": 300,
+                "end": 308
               },
               "method": false,
               "shorthand": false,
-              "computed": false
+              "computed": false,
+              "start": 293,
+              "end": 308
             },
             {
               "type": "Property",
-              "start": 312,
-              "end": 324,
               "kind": "get",
               "key": {
                 "type": "Identifier",
+                "name": "foo",
                 "start": 316,
-                "end": 319,
-                "name": "foo"
+                "end": 319
               },
               "value": {
                 "type": "FunctionExpression",
-                "start": 319,
-                "end": 324,
                 "id": null,
                 "generator": false,
                 "async": false,
                 "params": [],
                 "body": {
                   "type": "BlockStatement",
+                  "body": [],
                   "start": 322,
-                  "end": 324,
-                  "body": []
+                  "end": 324
                 },
-                "expression": false
+                "expression": false,
+                "start": 319,
+                "end": 324
               },
               "method": false,
               "shorthand": false,
-              "computed": false
+              "computed": false,
+              "start": 312,
+              "end": 324
             }
-          ]
+          ],
+          "start": 273,
+          "end": 326
         },
-        "prefix": true
-      }
+        "prefix": true,
+        "start": 268,
+        "end": 326
+      },
+      "start": 268,
+      "end": 327
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 328
 }

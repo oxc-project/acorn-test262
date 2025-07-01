@@ -1,72 +1,62 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 432,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 307,
-      "end": 318,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 311,
-          "end": 317,
           "id": {
             "type": "Identifier",
+            "name": "o",
             "start": 311,
-            "end": 312,
-            "name": "o"
+            "end": 312
           },
           "init": {
             "type": "ObjectExpression",
+            "properties": [],
             "start": 315,
-            "end": 317,
-            "properties": []
-          }
+            "end": 317
+          },
+          "start": 311,
+          "end": 317
         }
-      ]
+      ],
+      "start": 307,
+      "end": 318
     },
     {
       "type": "FunctionDeclaration",
-      "start": 319,
-      "end": 365,
       "id": {
         "type": "Identifier",
+        "name": "f",
         "start": 328,
-        "end": 329,
-        "name": "f"
+        "end": 329
       },
       "generator": false,
       "async": false,
       "params": [],
       "body": {
         "type": "BlockStatement",
-        "start": 332,
-        "end": 365,
         "body": [
           {
             "type": "ExpressionStatement",
-            "start": 334,
-            "end": 347,
             "expression": {
               "type": "Literal",
-              "start": 334,
-              "end": 346,
               "value": "use strict",
-              "raw": "\"use strict\""
+              "raw": "\"use strict\"",
+              "start": 334,
+              "end": 346
             },
-            "directive": "use strict"
+            "directive": "use strict",
+            "start": 334,
+            "end": 347
           },
           {
             "type": "ReturnStatement",
-            "start": 348,
-            "end": 364,
             "argument": {
               "type": "BinaryExpression",
-              "start": 355,
-              "end": 363,
               "left": {
                 "type": "ThisExpression",
                 "start": 355,
@@ -75,15 +65,23 @@
               "operator": "===",
               "right": {
                 "type": "Identifier",
+                "name": "o",
                 "start": 362,
-                "end": 363,
-                "name": "o"
-              }
-            }
+                "end": 363
+              },
+              "start": 355,
+              "end": 363
+            },
+            "start": 348,
+            "end": 364
           }
-        ]
+        ],
+        "start": 332,
+        "end": 365
       },
-      "expression": false
+      "expression": false,
+      "start": 319,
+      "end": 365
     },
     {
       "type": "EmptyStatement",
@@ -92,82 +90,84 @@
     },
     {
       "type": "IfStatement",
-      "start": 367,
-      "end": 431,
       "test": {
         "type": "UnaryExpression",
-        "start": 371,
-        "end": 386,
         "operator": "!",
         "argument": {
           "type": "ParenthesizedExpression",
-          "start": 373,
-          "end": 386,
           "expression": {
             "type": "CallExpression",
-            "start": 374,
-            "end": 385,
             "callee": {
               "type": "CallExpression",
-              "start": 374,
-              "end": 383,
               "callee": {
                 "type": "MemberExpression",
-                "start": 374,
-                "end": 380,
                 "object": {
                   "type": "Identifier",
+                  "name": "f",
                   "start": 374,
-                  "end": 375,
-                  "name": "f"
+                  "end": 375
                 },
                 "property": {
                   "type": "Identifier",
+                  "name": "bind",
                   "start": 376,
-                  "end": 380,
-                  "name": "bind"
+                  "end": 380
                 },
                 "optional": false,
-                "computed": false
+                "computed": false,
+                "start": 374,
+                "end": 380
               },
               "arguments": [
                 {
                   "type": "Identifier",
+                  "name": "o",
                   "start": 381,
-                  "end": 382,
-                  "name": "o"
+                  "end": 382
                 }
               ],
-              "optional": false
+              "optional": false,
+              "start": 374,
+              "end": 383
             },
             "arguments": [],
-            "optional": false
-          }
+            "optional": false,
+            "start": 374,
+            "end": 385
+          },
+          "start": 373,
+          "end": 386
         },
-        "prefix": true
+        "prefix": true,
+        "start": 371,
+        "end": 386
       },
       "consequent": {
         "type": "BlockStatement",
-        "start": 387,
-        "end": 431,
         "body": [
           {
             "type": "ThrowStatement",
-            "start": 393,
-            "end": 429,
             "argument": {
               "type": "Literal",
-              "start": 399,
-              "end": 428,
               "value": "'this' had incorrect value!",
-              "raw": "\"'this' had incorrect value!\""
-            }
+              "raw": "\"'this' had incorrect value!\"",
+              "start": 399,
+              "end": 428
+            },
+            "start": 393,
+            "end": 429
           }
-        ]
+        ],
+        "start": 387,
+        "end": 431
       },
-      "alternate": null
+      "alternate": null,
+      "start": 367,
+      "end": 431
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 432
 }

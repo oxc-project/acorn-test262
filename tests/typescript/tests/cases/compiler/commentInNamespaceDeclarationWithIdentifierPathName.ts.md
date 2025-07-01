@@ -2,67 +2,59 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 69,
   "body": [
     {
       "type": "TSModuleDeclaration",
-      "start": 0,
-      "end": 69,
       "id": {
         "type": "TSQualifiedName",
-        "start": 10,
-        "end": 24,
         "left": {
           "type": "TSQualifiedName",
-          "start": 10,
-          "end": 18,
           "left": {
             "type": "Identifier",
-            "start": 10,
-            "end": 15,
             "decorators": [],
             "name": "hello",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 10,
+            "end": 15
           },
           "right": {
             "type": "Identifier",
-            "start": 16,
-            "end": 18,
             "decorators": [],
             "name": "hi",
             "optional": false,
-            "typeAnnotation": null
-          }
+            "typeAnnotation": null,
+            "start": 16,
+            "end": 18
+          },
+          "start": 10,
+          "end": 18
         },
         "right": {
           "type": "Identifier",
-          "start": 19,
-          "end": 24,
           "decorators": [],
           "name": "world",
           "optional": false,
-          "typeAnnotation": null
-        }
+          "typeAnnotation": null,
+          "start": 19,
+          "end": 24
+        },
+        "start": 10,
+        "end": 24
       },
       "body": {
         "type": "TSModuleBlock",
-        "start": 25,
-        "end": 69,
         "body": [
           {
             "type": "FunctionDeclaration",
-            "start": 31,
-            "end": 48,
             "id": {
               "type": "Identifier",
-              "start": 40,
-              "end": 43,
               "decorators": [],
               "name": "foo",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 40,
+              "end": 43
             },
             "generator": false,
             "async": false,
@@ -72,20 +64,28 @@ __ESTREE_TEST__:PASS:
             "returnType": null,
             "body": {
               "type": "BlockStatement",
+              "body": [],
               "start": 46,
-              "end": 48,
-              "body": []
+              "end": 48
             },
-            "expression": false
+            "expression": false,
+            "start": 31,
+            "end": 48
           }
-        ]
+        ],
+        "start": 25,
+        "end": 69
       },
       "kind": "namespace",
       "declare": false,
-      "global": false
+      "global": false,
+      "start": 0,
+      "end": 69
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 69
 }
 ```

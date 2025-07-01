@@ -2,22 +2,18 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 46,
   "body": [
     {
       "type": "ClassDeclaration",
-      "start": 0,
-      "end": 46,
       "decorators": [],
       "id": {
         "type": "Identifier",
-        "start": 6,
-        "end": 7,
         "decorators": [],
         "name": "C",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 6,
+        "end": 7
       },
       "typeParameters": null,
       "superClass": null,
@@ -25,48 +21,38 @@ __ESTREE_TEST__:PASS:
       "implements": [],
       "body": {
         "type": "ClassBody",
-        "start": 8,
-        "end": 46,
         "body": [
           {
             "type": "MethodDefinition",
-            "start": 12,
-            "end": 44,
             "decorators": [],
             "key": {
               "type": "Identifier",
-              "start": 19,
-              "end": 20,
               "decorators": [],
               "name": "m",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 19,
+              "end": 20
             },
             "value": {
               "type": "FunctionExpression",
-              "start": 20,
-              "end": 44,
               "id": null,
               "generator": false,
               "async": false,
               "declare": false,
               "typeParameters": {
                 "type": "TSTypeParameterDeclaration",
-                "start": 20,
-                "end": 36,
                 "params": [
                   {
                     "type": "TSTypeParameter",
-                    "start": 21,
-                    "end": 35,
                     "name": {
                       "type": "Identifier",
-                      "start": 21,
-                      "end": 22,
                       "decorators": [],
                       "name": "T",
                       "optional": false,
-                      "typeAnnotation": null
+                      "typeAnnotation": null,
+                      "start": 21,
+                      "end": 22
                     },
                     "constraint": {
                       "type": "TSThisType",
@@ -76,34 +62,48 @@ __ESTREE_TEST__:PASS:
                     "default": null,
                     "in": false,
                     "out": false,
-                    "const": false
+                    "const": false,
+                    "start": 21,
+                    "end": 35
                   }
-                ]
+                ],
+                "start": 20,
+                "end": 36
               },
               "params": [],
               "returnType": null,
               "body": {
                 "type": "BlockStatement",
+                "body": [],
                 "start": 39,
-                "end": 44,
-                "body": []
+                "end": 44
               },
-              "expression": false
+              "expression": false,
+              "start": 20,
+              "end": 44
             },
             "kind": "method",
             "computed": false,
             "static": false,
             "override": false,
             "optional": false,
-            "accessibility": "public"
+            "accessibility": "public",
+            "start": 12,
+            "end": 44
           }
-        ]
+        ],
+        "start": 8,
+        "end": 46
       },
       "abstract": false,
-      "declare": false
+      "declare": false,
+      "start": 0,
+      "end": 46
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 46
 }
 ```

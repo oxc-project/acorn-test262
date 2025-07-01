@@ -2,32 +2,32 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 24,
   "body": [
     {
       "type": "TSModuleDeclaration",
-      "start": 0,
-      "end": 24,
       "id": {
         "type": "Literal",
-        "start": 15,
-        "end": 20,
         "value": "Foo",
-        "raw": "\"Foo\""
+        "raw": "\"Foo\"",
+        "start": 15,
+        "end": 20
       },
       "body": {
         "type": "TSModuleBlock",
+        "body": [],
         "start": 21,
-        "end": 24,
-        "body": []
+        "end": 24
       },
       "kind": "module",
       "declare": true,
-      "global": false
+      "global": false,
+      "start": 0,
+      "end": 24
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 24
 }
 ```

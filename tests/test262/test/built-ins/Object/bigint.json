@@ -1,144 +1,144 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 312,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 230,
-      "end": 267,
       "expression": {
         "type": "CallExpression",
-        "start": 230,
-        "end": 266,
         "callee": {
           "type": "Identifier",
+          "name": "assert",
           "start": 230,
-          "end": 236,
-          "name": "assert"
+          "end": 236
         },
         "arguments": [
           {
             "type": "BinaryExpression",
-            "start": 237,
-            "end": 265,
             "left": {
               "type": "CallExpression",
-              "start": 237,
-              "end": 247,
               "callee": {
                 "type": "Identifier",
+                "name": "Object",
                 "start": 237,
-                "end": 243,
-                "name": "Object"
+                "end": 243
               },
               "arguments": [
                 {
                   "type": "Literal",
-                  "start": 244,
-                  "end": 246,
                   "value": null,
                   "raw": "0n",
-                  "bigint": "0"
+                  "bigint": "0",
+                  "start": 244,
+                  "end": 246
                 }
               ],
-              "optional": false
+              "optional": false,
+              "start": 237,
+              "end": 247
             },
             "operator": "instanceof",
             "right": {
               "type": "Identifier",
+              "name": "BigInt",
               "start": 259,
-              "end": 265,
-              "name": "BigInt"
-            }
+              "end": 265
+            },
+            "start": 237,
+            "end": 265
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 230,
+        "end": 266
+      },
+      "start": 230,
+      "end": 267
     },
     {
       "type": "ExpressionStatement",
-      "start": 268,
-      "end": 311,
       "expression": {
         "type": "CallExpression",
-        "start": 268,
-        "end": 310,
         "callee": {
           "type": "MemberExpression",
-          "start": 268,
-          "end": 284,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 268,
-            "end": 274,
-            "name": "assert"
+            "end": 274
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 275,
-            "end": 284,
-            "name": "sameValue"
+            "end": 284
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 268,
+          "end": 284
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 285,
-            "end": 305,
             "callee": {
               "type": "MemberExpression",
-              "start": 285,
-              "end": 303,
               "object": {
                 "type": "CallExpression",
-                "start": 285,
-                "end": 295,
                 "callee": {
                   "type": "Identifier",
+                  "name": "Object",
                   "start": 285,
-                  "end": 291,
-                  "name": "Object"
+                  "end": 291
                 },
                 "arguments": [
                   {
                     "type": "Literal",
-                    "start": 292,
-                    "end": 294,
                     "value": null,
                     "raw": "0n",
-                    "bigint": "0"
+                    "bigint": "0",
+                    "start": 292,
+                    "end": 294
                   }
                 ],
-                "optional": false
+                "optional": false,
+                "start": 285,
+                "end": 295
               },
               "property": {
                 "type": "Identifier",
+                "name": "valueOf",
                 "start": 296,
-                "end": 303,
-                "name": "valueOf"
+                "end": 303
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 285,
+              "end": 303
             },
             "arguments": [],
-            "optional": false
+            "optional": false,
+            "start": 285,
+            "end": 305
           },
           {
             "type": "Literal",
-            "start": 307,
-            "end": 309,
             "value": null,
             "raw": "0n",
-            "bigint": "0"
+            "bigint": "0",
+            "start": 307,
+            "end": 309
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 268,
+        "end": 310
+      },
+      "start": 268,
+      "end": 311
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 312
 }

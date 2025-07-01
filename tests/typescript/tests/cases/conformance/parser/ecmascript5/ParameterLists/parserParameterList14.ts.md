@@ -2,22 +2,18 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 39,
   "body": [
     {
       "type": "ClassDeclaration",
-      "start": 0,
-      "end": 39,
       "decorators": [],
       "id": {
         "type": "Identifier",
-        "start": 14,
-        "end": 15,
         "decorators": [],
         "name": "C",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 14,
+        "end": 15
       },
       "typeParameters": null,
       "superClass": null,
@@ -25,27 +21,21 @@ __ESTREE_TEST__:PASS:
       "implements": [],
       "body": {
         "type": "ClassBody",
-        "start": 16,
-        "end": 39,
         "body": [
           {
             "type": "MethodDefinition",
-            "start": 20,
-            "end": 37,
             "decorators": [],
             "key": {
               "type": "Identifier",
-              "start": 20,
-              "end": 23,
               "decorators": [],
               "name": "foo",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 20,
+              "end": 23
             },
             "value": {
               "type": "TSEmptyBodyFunctionExpression",
-              "start": 23,
-              "end": 37,
               "id": null,
               "generator": false,
               "async": false,
@@ -54,56 +44,66 @@ __ESTREE_TEST__:PASS:
               "params": [
                 {
                   "type": "AssignmentPattern",
-                  "start": 24,
-                  "end": 29,
                   "decorators": [],
                   "left": {
                     "type": "Identifier",
-                    "start": 24,
-                    "end": 25,
                     "decorators": [],
                     "name": "a",
                     "optional": false,
-                    "typeAnnotation": null
+                    "typeAnnotation": null,
+                    "start": 24,
+                    "end": 25
                   },
                   "right": {
                     "type": "Literal",
-                    "start": 28,
-                    "end": 29,
                     "value": 1,
-                    "raw": "1"
+                    "raw": "1",
+                    "start": 28,
+                    "end": 29
                   },
                   "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "start": 24,
+                  "end": 29
                 }
               ],
               "returnType": {
                 "type": "TSTypeAnnotation",
-                "start": 30,
-                "end": 36,
                 "typeAnnotation": {
                   "type": "TSVoidKeyword",
                   "start": 32,
                   "end": 36
-                }
+                },
+                "start": 30,
+                "end": 36
               },
               "body": null,
-              "expression": false
+              "expression": false,
+              "start": 23,
+              "end": 37
             },
             "kind": "method",
             "computed": false,
             "static": false,
             "override": false,
             "optional": false,
-            "accessibility": null
+            "accessibility": null,
+            "start": 20,
+            "end": 37
           }
-        ]
+        ],
+        "start": 16,
+        "end": 39
       },
       "abstract": false,
-      "declare": true
+      "declare": true,
+      "start": 0,
+      "end": 39
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 39
 }
 ```

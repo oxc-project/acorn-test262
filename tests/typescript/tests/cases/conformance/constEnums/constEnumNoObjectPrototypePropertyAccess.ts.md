@@ -2,488 +2,488 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 57,
-  "end": 304,
   "body": [
     {
       "type": "TSEnumDeclaration",
-      "start": 57,
-      "end": 76,
       "id": {
         "type": "Identifier",
-        "start": 68,
-        "end": 73,
         "decorators": [],
         "name": "Bebra",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 68,
+        "end": 73
       },
       "body": {
         "type": "TSEnumBody",
+        "members": [],
         "start": 74,
-        "end": 76,
-        "members": []
+        "end": 76
       },
       "const": true,
-      "declare": false
+      "declare": false,
+      "start": 57,
+      "end": 76
     },
     {
       "type": "ExpressionStatement",
-      "start": 78,
-      "end": 108,
       "expression": {
         "type": "CallExpression",
-        "start": 78,
-        "end": 108,
         "callee": {
           "type": "MemberExpression",
-          "start": 78,
-          "end": 89,
           "object": {
             "type": "Identifier",
-            "start": 78,
-            "end": 85,
             "decorators": [],
             "name": "console",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 78,
+            "end": 85
           },
           "property": {
             "type": "Identifier",
-            "start": 86,
-            "end": 89,
             "decorators": [],
             "name": "log",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 86,
+            "end": 89
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 78,
+          "end": 89
         },
         "typeArguments": null,
         "arguments": [
           {
             "type": "MemberExpression",
-            "start": 90,
-            "end": 107,
             "object": {
               "type": "Identifier",
-              "start": 90,
-              "end": 95,
               "decorators": [],
               "name": "Bebra",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 90,
+              "end": 95
             },
             "property": {
               "type": "Identifier",
-              "start": 96,
-              "end": 107,
               "decorators": [],
               "name": "constructor",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 96,
+              "end": 107
             },
             "optional": false,
-            "computed": false
+            "computed": false,
+            "start": 90,
+            "end": 107
           }
         ],
-        "optional": false
+        "optional": false,
+        "start": 78,
+        "end": 108
       },
-      "directive": null
+      "directive": null,
+      "start": 78,
+      "end": 108
     },
     {
       "type": "ExpressionStatement",
-      "start": 109,
-      "end": 142,
       "expression": {
         "type": "CallExpression",
-        "start": 109,
-        "end": 142,
         "callee": {
           "type": "MemberExpression",
-          "start": 109,
-          "end": 120,
           "object": {
             "type": "Identifier",
-            "start": 109,
-            "end": 116,
             "decorators": [],
             "name": "console",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 109,
+            "end": 116
           },
           "property": {
             "type": "Identifier",
-            "start": 117,
-            "end": 120,
             "decorators": [],
             "name": "log",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 117,
+            "end": 120
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 109,
+          "end": 120
         },
         "typeArguments": null,
         "arguments": [
           {
             "type": "MemberExpression",
-            "start": 121,
-            "end": 141,
             "object": {
               "type": "Identifier",
-              "start": 121,
-              "end": 126,
               "decorators": [],
               "name": "Bebra",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 121,
+              "end": 126
             },
             "property": {
               "type": "Identifier",
-              "start": 127,
-              "end": 141,
               "decorators": [],
               "name": "hasOwnProperty",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 127,
+              "end": 141
             },
             "optional": false,
-            "computed": false
+            "computed": false,
+            "start": 121,
+            "end": 141
           }
         ],
-        "optional": false
+        "optional": false,
+        "start": 109,
+        "end": 142
       },
-      "directive": null
+      "directive": null,
+      "start": 109,
+      "end": 142
     },
     {
       "type": "ExpressionStatement",
-      "start": 143,
-      "end": 175,
       "expression": {
         "type": "CallExpression",
-        "start": 143,
-        "end": 175,
         "callee": {
           "type": "MemberExpression",
-          "start": 143,
-          "end": 154,
           "object": {
             "type": "Identifier",
-            "start": 143,
-            "end": 150,
             "decorators": [],
             "name": "console",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 143,
+            "end": 150
           },
           "property": {
             "type": "Identifier",
-            "start": 151,
-            "end": 154,
             "decorators": [],
             "name": "log",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 151,
+            "end": 154
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 143,
+          "end": 154
         },
         "typeArguments": null,
         "arguments": [
           {
             "type": "MemberExpression",
-            "start": 155,
-            "end": 174,
             "object": {
               "type": "Identifier",
-              "start": 155,
-              "end": 160,
               "decorators": [],
               "name": "Bebra",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 155,
+              "end": 160
             },
             "property": {
               "type": "Identifier",
-              "start": 161,
-              "end": 174,
               "decorators": [],
               "name": "isPrototypeOf",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 161,
+              "end": 174
             },
             "optional": false,
-            "computed": false
+            "computed": false,
+            "start": 155,
+            "end": 174
           }
         ],
-        "optional": false
+        "optional": false,
+        "start": 143,
+        "end": 175
       },
-      "directive": null
+      "directive": null,
+      "start": 143,
+      "end": 175
     },
     {
       "type": "ExpressionStatement",
-      "start": 176,
-      "end": 215,
       "expression": {
         "type": "CallExpression",
-        "start": 176,
-        "end": 215,
         "callee": {
           "type": "MemberExpression",
-          "start": 176,
-          "end": 187,
           "object": {
             "type": "Identifier",
-            "start": 176,
-            "end": 183,
             "decorators": [],
             "name": "console",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 176,
+            "end": 183
           },
           "property": {
             "type": "Identifier",
-            "start": 184,
-            "end": 187,
             "decorators": [],
             "name": "log",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 184,
+            "end": 187
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 176,
+          "end": 187
         },
         "typeArguments": null,
         "arguments": [
           {
             "type": "MemberExpression",
-            "start": 188,
-            "end": 214,
             "object": {
               "type": "Identifier",
-              "start": 188,
-              "end": 193,
               "decorators": [],
               "name": "Bebra",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 188,
+              "end": 193
             },
             "property": {
               "type": "Identifier",
-              "start": 194,
-              "end": 214,
               "decorators": [],
               "name": "propertyIsEnumerable",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 194,
+              "end": 214
             },
             "optional": false,
-            "computed": false
+            "computed": false,
+            "start": 188,
+            "end": 214
           }
         ],
-        "optional": false
+        "optional": false,
+        "start": 176,
+        "end": 215
       },
-      "directive": null
+      "directive": null,
+      "start": 176,
+      "end": 215
     },
     {
       "type": "ExpressionStatement",
-      "start": 216,
-      "end": 249,
       "expression": {
         "type": "CallExpression",
-        "start": 216,
-        "end": 249,
         "callee": {
           "type": "MemberExpression",
-          "start": 216,
-          "end": 227,
           "object": {
             "type": "Identifier",
-            "start": 216,
-            "end": 223,
             "decorators": [],
             "name": "console",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 216,
+            "end": 223
           },
           "property": {
             "type": "Identifier",
-            "start": 224,
-            "end": 227,
             "decorators": [],
             "name": "log",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 224,
+            "end": 227
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 216,
+          "end": 227
         },
         "typeArguments": null,
         "arguments": [
           {
             "type": "MemberExpression",
-            "start": 228,
-            "end": 248,
             "object": {
               "type": "Identifier",
-              "start": 228,
-              "end": 233,
               "decorators": [],
               "name": "Bebra",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 228,
+              "end": 233
             },
             "property": {
               "type": "Identifier",
-              "start": 234,
-              "end": 248,
               "decorators": [],
               "name": "toLocaleString",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 234,
+              "end": 248
             },
             "optional": false,
-            "computed": false
+            "computed": false,
+            "start": 228,
+            "end": 248
           }
         ],
-        "optional": false
+        "optional": false,
+        "start": 216,
+        "end": 249
       },
-      "directive": null
+      "directive": null,
+      "start": 216,
+      "end": 249
     },
     {
       "type": "ExpressionStatement",
-      "start": 250,
-      "end": 277,
       "expression": {
         "type": "CallExpression",
-        "start": 250,
-        "end": 277,
         "callee": {
           "type": "MemberExpression",
-          "start": 250,
-          "end": 261,
           "object": {
             "type": "Identifier",
-            "start": 250,
-            "end": 257,
             "decorators": [],
             "name": "console",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 250,
+            "end": 257
           },
           "property": {
             "type": "Identifier",
-            "start": 258,
-            "end": 261,
             "decorators": [],
             "name": "log",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 258,
+            "end": 261
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 250,
+          "end": 261
         },
         "typeArguments": null,
         "arguments": [
           {
             "type": "MemberExpression",
-            "start": 262,
-            "end": 276,
             "object": {
               "type": "Identifier",
-              "start": 262,
-              "end": 267,
               "decorators": [],
               "name": "Bebra",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 262,
+              "end": 267
             },
             "property": {
               "type": "Identifier",
-              "start": 268,
-              "end": 276,
               "decorators": [],
               "name": "toString",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 268,
+              "end": 276
             },
             "optional": false,
-            "computed": false
+            "computed": false,
+            "start": 262,
+            "end": 276
           }
         ],
-        "optional": false
+        "optional": false,
+        "start": 250,
+        "end": 277
       },
-      "directive": null
+      "directive": null,
+      "start": 250,
+      "end": 277
     },
     {
       "type": "ExpressionStatement",
-      "start": 278,
-      "end": 304,
       "expression": {
         "type": "CallExpression",
-        "start": 278,
-        "end": 304,
         "callee": {
           "type": "MemberExpression",
-          "start": 278,
-          "end": 289,
           "object": {
             "type": "Identifier",
-            "start": 278,
-            "end": 285,
             "decorators": [],
             "name": "console",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 278,
+            "end": 285
           },
           "property": {
             "type": "Identifier",
-            "start": 286,
-            "end": 289,
             "decorators": [],
             "name": "log",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 286,
+            "end": 289
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 278,
+          "end": 289
         },
         "typeArguments": null,
         "arguments": [
           {
             "type": "MemberExpression",
-            "start": 290,
-            "end": 303,
             "object": {
               "type": "Identifier",
-              "start": 290,
-              "end": 295,
               "decorators": [],
               "name": "Bebra",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 290,
+              "end": 295
             },
             "property": {
               "type": "Identifier",
-              "start": 296,
-              "end": 303,
               "decorators": [],
               "name": "valueOf",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 296,
+              "end": 303
             },
             "optional": false,
-            "computed": false
+            "computed": false,
+            "start": 290,
+            "end": 303
           }
         ],
-        "optional": false
+        "optional": false,
+        "start": 278,
+        "end": 304
       },
-      "directive": null
+      "directive": null,
+      "start": 278,
+      "end": 304
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 57,
+  "end": 304
 }
 ```

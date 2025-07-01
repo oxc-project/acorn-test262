@@ -1,330 +1,330 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 999,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 564,
-      "end": 620,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 568,
-          "end": 619,
           "id": {
             "type": "Identifier",
+            "name": "revocationFunction",
             "start": 568,
-            "end": 586,
-            "name": "revocationFunction"
+            "end": 586
           },
           "init": {
             "type": "MemberExpression",
-            "start": 589,
-            "end": 619,
             "object": {
               "type": "CallExpression",
-              "start": 589,
-              "end": 612,
               "callee": {
                 "type": "MemberExpression",
-                "start": 589,
-                "end": 604,
                 "object": {
                   "type": "Identifier",
+                  "name": "Proxy",
                   "start": 589,
-                  "end": 594,
-                  "name": "Proxy"
+                  "end": 594
                 },
                 "property": {
                   "type": "Identifier",
+                  "name": "revocable",
                   "start": 595,
-                  "end": 604,
-                  "name": "revocable"
+                  "end": 604
                 },
                 "optional": false,
-                "computed": false
+                "computed": false,
+                "start": 589,
+                "end": 604
               },
               "arguments": [
                 {
                   "type": "ObjectExpression",
+                  "properties": [],
                   "start": 605,
-                  "end": 607,
-                  "properties": []
+                  "end": 607
                 },
                 {
                   "type": "ObjectExpression",
+                  "properties": [],
                   "start": 609,
-                  "end": 611,
-                  "properties": []
+                  "end": 611
                 }
               ],
-              "optional": false
+              "optional": false,
+              "start": 589,
+              "end": 612
             },
             "property": {
               "type": "Identifier",
+              "name": "revoke",
               "start": 613,
-              "end": 619,
-              "name": "revoke"
+              "end": 619
             },
             "optional": false,
-            "computed": false
-          }
+            "computed": false,
+            "start": 589,
+            "end": 619
+          },
+          "start": 568,
+          "end": 619
         }
-      ]
+      ],
+      "start": 564,
+      "end": 620
     },
     {
       "type": "ExpressionStatement",
-      "start": 622,
-      "end": 816,
       "expression": {
         "type": "CallExpression",
-        "start": 622,
-        "end": 815,
         "callee": {
           "type": "MemberExpression",
-          "start": 622,
-          "end": 638,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 622,
-            "end": 628,
-            "name": "assert"
+            "end": 628
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 629,
-            "end": 638,
-            "name": "sameValue"
+            "end": 638
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 622,
+          "end": 638
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 642,
-            "end": 711,
             "callee": {
               "type": "MemberExpression",
-              "start": 642,
-              "end": 678,
               "object": {
                 "type": "MemberExpression",
-                "start": 642,
-                "end": 673,
                 "object": {
                   "type": "MemberExpression",
-                  "start": 642,
-                  "end": 658,
                   "object": {
                     "type": "Identifier",
+                    "name": "Object",
                     "start": 642,
-                    "end": 648,
-                    "name": "Object"
+                    "end": 648
                   },
                   "property": {
                     "type": "Identifier",
+                    "name": "prototype",
                     "start": 649,
-                    "end": 658,
-                    "name": "prototype"
+                    "end": 658
                   },
                   "optional": false,
-                  "computed": false
+                  "computed": false,
+                  "start": 642,
+                  "end": 658
                 },
                 "property": {
                   "type": "Identifier",
+                  "name": "hasOwnProperty",
                   "start": 659,
-                  "end": 673,
-                  "name": "hasOwnProperty"
+                  "end": 673
                 },
                 "optional": false,
-                "computed": false
+                "computed": false,
+                "start": 642,
+                "end": 673
               },
               "property": {
                 "type": "Identifier",
+                "name": "call",
                 "start": 674,
-                "end": 678,
-                "name": "call"
+                "end": 678
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 642,
+              "end": 678
             },
             "arguments": [
               {
                 "type": "Identifier",
+                "name": "revocationFunction",
                 "start": 679,
-                "end": 697,
-                "name": "revocationFunction"
+                "end": 697
               },
               {
                 "type": "Literal",
-                "start": 699,
-                "end": 710,
                 "value": "prototype",
-                "raw": "\"prototype\""
+                "raw": "\"prototype\"",
+                "start": 699,
+                "end": 710
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 642,
+            "end": 711
           },
           {
             "type": "Literal",
-            "start": 715,
-            "end": 720,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "start": 715,
+            "end": 720
           },
           {
             "type": "Literal",
-            "start": 724,
-            "end": 813,
             "value": "Object.prototype.hasOwnProperty.call(revocationFunction, \"prototype\") must return false",
-            "raw": "'Object.prototype.hasOwnProperty.call(revocationFunction, \"prototype\") must return false'"
+            "raw": "'Object.prototype.hasOwnProperty.call(revocationFunction, \"prototype\") must return false'",
+            "start": 724,
+            "end": 813
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 622,
+        "end": 815
+      },
+      "start": 622,
+      "end": 816
     },
     {
       "type": "ExpressionStatement",
-      "start": 817,
-      "end": 931,
       "expression": {
         "type": "CallExpression",
-        "start": 817,
-        "end": 930,
         "callee": {
           "type": "MemberExpression",
-          "start": 817,
-          "end": 833,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 817,
-            "end": 823,
-            "name": "assert"
+            "end": 823
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 824,
-            "end": 833,
-            "name": "sameValue"
+            "end": 833
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 817,
+          "end": 833
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 834,
-            "end": 867,
             "callee": {
               "type": "Identifier",
+              "name": "isConstructor",
               "start": 834,
-              "end": 847,
-              "name": "isConstructor"
+              "end": 847
             },
             "arguments": [
               {
                 "type": "Identifier",
+                "name": "revocationFunction",
                 "start": 848,
-                "end": 866,
-                "name": "revocationFunction"
+                "end": 866
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 834,
+            "end": 867
           },
           {
             "type": "Literal",
-            "start": 869,
-            "end": 874,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "start": 869,
+            "end": 874
           },
           {
             "type": "Literal",
-            "start": 876,
-            "end": 929,
             "value": "isConstructor(revocationFunction) must return false",
-            "raw": "'isConstructor(revocationFunction) must return false'"
+            "raw": "'isConstructor(revocationFunction) must return false'",
+            "start": 876,
+            "end": 929
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 817,
+        "end": 930
+      },
+      "start": 817,
+      "end": 931
     },
     {
       "type": "ExpressionStatement",
-      "start": 932,
-      "end": 996,
       "expression": {
         "type": "CallExpression",
-        "start": 932,
-        "end": 995,
         "callee": {
           "type": "MemberExpression",
-          "start": 932,
-          "end": 945,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 932,
-            "end": 938,
-            "name": "assert"
+            "end": 938
           },
           "property": {
             "type": "Identifier",
+            "name": "throws",
             "start": 939,
-            "end": 945,
-            "name": "throws"
+            "end": 945
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 932,
+          "end": 945
         },
         "arguments": [
           {
             "type": "Identifier",
+            "name": "TypeError",
             "start": 946,
-            "end": 955,
-            "name": "TypeError"
+            "end": 955
           },
           {
             "type": "ArrowFunctionExpression",
-            "start": 957,
-            "end": 994,
             "expression": false,
             "async": false,
             "params": [],
             "body": {
               "type": "BlockStatement",
-              "start": 963,
-              "end": 994,
               "body": [
                 {
                   "type": "ExpressionStatement",
-                  "start": 967,
-                  "end": 992,
                   "expression": {
                     "type": "NewExpression",
-                    "start": 967,
-                    "end": 991,
                     "callee": {
                       "type": "Identifier",
+                      "name": "revocationFunction",
                       "start": 971,
-                      "end": 989,
-                      "name": "revocationFunction"
+                      "end": 989
                     },
-                    "arguments": []
-                  }
+                    "arguments": [],
+                    "start": 967,
+                    "end": 991
+                  },
+                  "start": 967,
+                  "end": 992
                 }
-              ]
+              ],
+              "start": 963,
+              "end": 994
             },
             "id": null,
-            "generator": false
+            "generator": false,
+            "start": 957,
+            "end": 994
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 932,
+        "end": 995
+      },
+      "start": 932,
+      "end": 996
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 999
 }

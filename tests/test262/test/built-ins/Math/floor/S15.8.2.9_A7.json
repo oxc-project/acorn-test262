@@ -1,243 +1,243 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 580,
   "body": [
     {
       "type": "ForStatement",
-      "start": 367,
-      "end": 579,
       "init": {
         "type": "VariableDeclaration",
-        "start": 372,
-        "end": 385,
         "kind": "var",
         "declarations": [
           {
             "type": "VariableDeclarator",
-            "start": 376,
-            "end": 385,
             "id": {
               "type": "Identifier",
+              "name": "i",
               "start": 376,
-              "end": 377,
-              "name": "i"
+              "end": 377
             },
             "init": {
               "type": "UnaryExpression",
-              "start": 380,
-              "end": 385,
               "operator": "-",
               "argument": {
                 "type": "Literal",
-                "start": 381,
-                "end": 385,
                 "value": 1000,
-                "raw": "1000"
+                "raw": "1000",
+                "start": 381,
+                "end": 385
               },
-              "prefix": true
-            }
+              "prefix": true,
+              "start": 380,
+              "end": 385
+            },
+            "start": 376,
+            "end": 385
           }
-        ]
+        ],
+        "start": 372,
+        "end": 385
       },
       "test": {
         "type": "BinaryExpression",
-        "start": 387,
-        "end": 395,
         "left": {
           "type": "Identifier",
+          "name": "i",
           "start": 387,
-          "end": 388,
-          "name": "i"
+          "end": 388
         },
         "operator": "<",
         "right": {
           "type": "Literal",
-          "start": 391,
-          "end": 395,
           "value": 1000,
-          "raw": "1000"
-        }
+          "raw": "1000",
+          "start": 391,
+          "end": 395
+        },
+        "start": 387,
+        "end": 395
       },
       "update": {
         "type": "UpdateExpression",
-        "start": 397,
-        "end": 400,
         "operator": "++",
         "prefix": false,
         "argument": {
           "type": "Identifier",
+          "name": "i",
           "start": 397,
-          "end": 398,
-          "name": "i"
-        }
+          "end": 398
+        },
+        "start": 397,
+        "end": 400
       },
       "body": {
         "type": "BlockStatement",
-        "start": 402,
-        "end": 579,
         "body": [
           {
             "type": "VariableDeclaration",
-            "start": 406,
-            "end": 423,
             "kind": "var",
             "declarations": [
               {
                 "type": "VariableDeclarator",
-                "start": 410,
-                "end": 422,
                 "id": {
                   "type": "Identifier",
+                  "name": "x",
                   "start": 410,
-                  "end": 411,
-                  "name": "x"
+                  "end": 411
                 },
                 "init": {
                   "type": "BinaryExpression",
-                  "start": 414,
-                  "end": 422,
                   "left": {
                     "type": "Identifier",
+                    "name": "i",
                     "start": 414,
-                    "end": 415,
-                    "name": "i"
+                    "end": 415
                   },
                   "operator": "/",
                   "right": {
                     "type": "Literal",
-                    "start": 418,
-                    "end": 422,
                     "value": 10,
-                    "raw": "10.0"
-                  }
-                }
+                    "raw": "10.0",
+                    "start": 418,
+                    "end": 422
+                  },
+                  "start": 414,
+                  "end": 422
+                },
+                "start": 410,
+                "end": 422
               }
-            ]
+            ],
+            "start": 406,
+            "end": 423
           },
           {
             "type": "ExpressionStatement",
-            "start": 427,
-            "end": 577,
             "expression": {
               "type": "CallExpression",
-              "start": 427,
-              "end": 576,
               "callee": {
                 "type": "MemberExpression",
-                "start": 427,
-                "end": 443,
                 "object": {
                   "type": "Identifier",
+                  "name": "assert",
                   "start": 427,
-                  "end": 433,
-                  "name": "assert"
+                  "end": 433
                 },
                 "property": {
                   "type": "Identifier",
+                  "name": "sameValue",
                   "start": 434,
-                  "end": 443,
-                  "name": "sameValue"
+                  "end": 443
                 },
                 "optional": false,
-                "computed": false
+                "computed": false,
+                "start": 427,
+                "end": 443
               },
               "arguments": [
                 {
                   "type": "UnaryExpression",
-                  "start": 449,
-                  "end": 463,
                   "operator": "-",
                   "argument": {
                     "type": "CallExpression",
-                    "start": 450,
-                    "end": 463,
                     "callee": {
                       "type": "MemberExpression",
-                      "start": 450,
-                      "end": 459,
                       "object": {
                         "type": "Identifier",
+                        "name": "Math",
                         "start": 450,
-                        "end": 454,
-                        "name": "Math"
+                        "end": 454
                       },
                       "property": {
                         "type": "Identifier",
+                        "name": "ceil",
                         "start": 455,
-                        "end": 459,
-                        "name": "ceil"
+                        "end": 459
                       },
                       "optional": false,
-                      "computed": false
+                      "computed": false,
+                      "start": 450,
+                      "end": 459
                     },
                     "arguments": [
                       {
                         "type": "UnaryExpression",
-                        "start": 460,
-                        "end": 462,
                         "operator": "-",
                         "argument": {
                           "type": "Identifier",
+                          "name": "x",
                           "start": 461,
-                          "end": 462,
-                          "name": "x"
+                          "end": 462
                         },
-                        "prefix": true
+                        "prefix": true,
+                        "start": 460,
+                        "end": 462
                       }
                     ],
-                    "optional": false
+                    "optional": false,
+                    "start": 450,
+                    "end": 463
                   },
-                  "prefix": true
+                  "prefix": true,
+                  "start": 449,
+                  "end": 463
                 },
                 {
                   "type": "CallExpression",
-                  "start": 469,
-                  "end": 482,
                   "callee": {
                     "type": "MemberExpression",
-                    "start": 469,
-                    "end": 479,
                     "object": {
                       "type": "Identifier",
+                      "name": "Math",
                       "start": 469,
-                      "end": 473,
-                      "name": "Math"
+                      "end": 473
                     },
                     "property": {
                       "type": "Identifier",
+                      "name": "floor",
                       "start": 474,
-                      "end": 479,
-                      "name": "floor"
+                      "end": 479
                     },
                     "optional": false,
-                    "computed": false
+                    "computed": false,
+                    "start": 469,
+                    "end": 479
                   },
                   "arguments": [
                     {
                       "type": "Identifier",
+                      "name": "x",
                       "start": 480,
-                      "end": 481,
-                      "name": "x"
+                      "end": 481
                     }
                   ],
-                  "optional": false
+                  "optional": false,
+                  "start": 469,
+                  "end": 482
                 },
                 {
                   "type": "Literal",
-                  "start": 488,
-                  "end": 572,
                   "value": "The value of `-Math.ceil(-x)` must return the same value returned by Math.floor(x)",
-                  "raw": "'The value of `-Math.ceil(-x)` must return the same value returned by Math.floor(x)'"
+                  "raw": "'The value of `-Math.ceil(-x)` must return the same value returned by Math.floor(x)'",
+                  "start": 488,
+                  "end": 572
                 }
               ],
-              "optional": false
-            }
+              "optional": false,
+              "start": 427,
+              "end": 576
+            },
+            "start": 427,
+            "end": 577
           }
-        ]
-      }
+        ],
+        "start": 402,
+        "end": 579
+      },
+      "start": 367,
+      "end": 579
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 580
 }

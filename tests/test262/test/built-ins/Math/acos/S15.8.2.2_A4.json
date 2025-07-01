@@ -1,82 +1,82 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 295,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 260,
-      "end": 294,
       "expression": {
         "type": "CallExpression",
-        "start": 260,
-        "end": 293,
         "callee": {
           "type": "MemberExpression",
-          "start": 260,
-          "end": 276,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 260,
-            "end": 266,
-            "name": "assert"
+            "end": 266
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 267,
-            "end": 276,
-            "name": "sameValue"
+            "end": 276
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 260,
+          "end": 276
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 277,
-            "end": 289,
             "callee": {
               "type": "MemberExpression",
-              "start": 277,
-              "end": 286,
               "object": {
                 "type": "Identifier",
+                "name": "Math",
                 "start": 277,
-                "end": 281,
-                "name": "Math"
+                "end": 281
               },
               "property": {
                 "type": "Identifier",
+                "name": "acos",
                 "start": 282,
-                "end": 286,
-                "name": "acos"
+                "end": 286
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 277,
+              "end": 286
             },
             "arguments": [
               {
                 "type": "Literal",
-                "start": 287,
-                "end": 288,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "start": 287,
+                "end": 288
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 277,
+            "end": 289
           },
           {
             "type": "Literal",
-            "start": 291,
-            "end": 292,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "start": 291,
+            "end": 292
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 260,
+        "end": 293
+      },
+      "start": 260,
+      "end": 294
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 295
 }

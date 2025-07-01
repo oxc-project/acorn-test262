@@ -1,192 +1,192 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 405,
   "body": [
     {
       "type": "FunctionDeclaration",
-      "start": 226,
-      "end": 397,
       "id": {
         "type": "Identifier",
+        "name": "af",
         "start": 235,
-        "end": 237,
-        "name": "af"
+        "end": 237
       },
       "generator": false,
       "async": false,
       "params": [
         {
           "type": "RestElement",
-          "start": 238,
-          "end": 242,
           "argument": {
             "type": "Identifier",
+            "name": "a",
             "start": 241,
-            "end": 242,
-            "name": "a"
-          }
+            "end": 242
+          },
+          "start": 238,
+          "end": 242
         }
       ],
       "body": {
         "type": "BlockStatement",
-        "start": 244,
-        "end": 397,
         "body": [
           {
             "type": "ExpressionStatement",
-            "start": 248,
-            "end": 330,
             "expression": {
               "type": "CallExpression",
-              "start": 248,
-              "end": 329,
               "callee": {
                 "type": "MemberExpression",
-                "start": 248,
-                "end": 264,
                 "object": {
                   "type": "Identifier",
+                  "name": "assert",
                   "start": 248,
-                  "end": 254,
-                  "name": "assert"
+                  "end": 254
                 },
                 "property": {
                   "type": "Identifier",
+                  "name": "sameValue",
                   "start": 255,
-                  "end": 264,
-                  "name": "sameValue"
+                  "end": 264
                 },
                 "optional": false,
-                "computed": false
+                "computed": false,
+                "start": 248,
+                "end": 264
               },
               "arguments": [
                 {
                   "type": "MemberExpression",
-                  "start": 265,
-                  "end": 278,
                   "object": {
                     "type": "Identifier",
+                    "name": "a",
                     "start": 265,
-                    "end": 266,
-                    "name": "a"
+                    "end": 266
                   },
                   "property": {
                     "type": "Identifier",
+                    "name": "constructor",
                     "start": 267,
-                    "end": 278,
-                    "name": "constructor"
+                    "end": 278
                   },
                   "optional": false,
-                  "computed": false
+                  "computed": false,
+                  "start": 265,
+                  "end": 278
                 },
                 {
                   "type": "Identifier",
+                  "name": "Array",
                   "start": 280,
-                  "end": 285,
-                  "name": "Array"
+                  "end": 285
                 },
                 {
                   "type": "Literal",
-                  "start": 287,
-                  "end": 328,
                   "value": "The value of `a.constructor` is `Array`",
-                  "raw": "\"The value of `a.constructor` is `Array`\""
+                  "raw": "\"The value of `a.constructor` is `Array`\"",
+                  "start": 287,
+                  "end": 328
                 }
               ],
-              "optional": false
-            }
+              "optional": false,
+              "start": 248,
+              "end": 329
+            },
+            "start": 248,
+            "end": 330
           },
           {
             "type": "ExpressionStatement",
-            "start": 333,
-            "end": 395,
             "expression": {
               "type": "CallExpression",
-              "start": 333,
-              "end": 394,
               "callee": {
                 "type": "Identifier",
+                "name": "assert",
                 "start": 333,
-                "end": 339,
-                "name": "assert"
+                "end": 339
               },
               "arguments": [
                 {
                   "type": "CallExpression",
-                  "start": 340,
-                  "end": 356,
                   "callee": {
                     "type": "MemberExpression",
-                    "start": 340,
-                    "end": 353,
                     "object": {
                       "type": "Identifier",
+                      "name": "Array",
                       "start": 340,
-                      "end": 345,
-                      "name": "Array"
+                      "end": 345
                     },
                     "property": {
                       "type": "Identifier",
+                      "name": "isArray",
                       "start": 346,
-                      "end": 353,
-                      "name": "isArray"
+                      "end": 353
                     },
                     "optional": false,
-                    "computed": false
+                    "computed": false,
+                    "start": 340,
+                    "end": 353
                   },
                   "arguments": [
                     {
                       "type": "Identifier",
+                      "name": "a",
                       "start": 354,
-                      "end": 355,
-                      "name": "a"
+                      "end": 355
                     }
                   ],
-                  "optional": false
+                  "optional": false,
+                  "start": 340,
+                  "end": 356
                 },
                 {
                   "type": "Literal",
-                  "start": 358,
-                  "end": 393,
                   "value": "`Array.isArray(a)` returns `true`",
-                  "raw": "\"`Array.isArray(a)` returns `true`\""
+                  "raw": "\"`Array.isArray(a)` returns `true`\"",
+                  "start": 358,
+                  "end": 393
                 }
               ],
-              "optional": false
-            }
+              "optional": false,
+              "start": 333,
+              "end": 394
+            },
+            "start": 333,
+            "end": 395
           }
-        ]
+        ],
+        "start": 244,
+        "end": 397
       },
-      "expression": false
+      "expression": false,
+      "start": 226,
+      "end": 397
     },
     {
       "type": "ExpressionStatement",
-      "start": 398,
-      "end": 404,
       "expression": {
         "type": "CallExpression",
-        "start": 398,
-        "end": 403,
         "callee": {
           "type": "Identifier",
+          "name": "af",
           "start": 398,
-          "end": 400,
-          "name": "af"
+          "end": 400
         },
         "arguments": [
           {
             "type": "Literal",
-            "start": 401,
-            "end": 402,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "start": 401,
+            "end": 402
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 398,
+        "end": 403
+      },
+      "start": 398,
+      "end": 404
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 405
 }

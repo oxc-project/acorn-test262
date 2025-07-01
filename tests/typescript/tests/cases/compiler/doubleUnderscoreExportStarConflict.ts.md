@@ -2,67 +2,61 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 42,
   "body": [
     {
       "type": "ExportAllDeclaration",
-      "start": 0,
-      "end": 20,
       "exported": null,
       "source": {
         "type": "Literal",
-        "start": 14,
-        "end": 19,
         "value": "./b",
-        "raw": "\"./b\""
+        "raw": "\"./b\"",
+        "start": 14,
+        "end": 19
       },
       "attributes": [],
-      "exportKind": "value"
+      "exportKind": "value",
+      "start": 0,
+      "end": 20
     },
     {
       "type": "ExportAllDeclaration",
-      "start": 21,
-      "end": 41,
       "exported": null,
       "source": {
         "type": "Literal",
-        "start": 35,
-        "end": 40,
         "value": "./c",
-        "raw": "\"./c\""
+        "raw": "\"./c\"",
+        "start": 35,
+        "end": 40
       },
       "attributes": [],
-      "exportKind": "value"
+      "exportKind": "value",
+      "start": 21,
+      "end": 41
     }
   ],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 42
 }
 ```
 __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 42,
   "body": [
     {
       "type": "ExportNamedDeclaration",
-      "start": 0,
-      "end": 41,
       "declaration": {
         "type": "FunctionDeclaration",
-        "start": 7,
-        "end": 41,
         "id": {
           "type": "Identifier",
-          "start": 16,
-          "end": 21,
           "decorators": [],
           "name": "__foo",
           "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "start": 16,
+          "end": 21
         },
         "generator": false,
         "async": false,
@@ -71,12 +65,8 @@ __ESTREE_TEST__:PASS:
         "params": [],
         "returnType": {
           "type": "TSTypeAnnotation",
-          "start": 23,
-          "end": 38,
           "typeAnnotation": {
             "type": "TSUnionType",
-            "start": 25,
-            "end": 38,
             "types": [
               {
                 "type": "TSNumberKeyword",
@@ -88,50 +78,54 @@ __ESTREE_TEST__:PASS:
                 "start": 34,
                 "end": 38
               }
-            ]
-          }
+            ],
+            "start": 25,
+            "end": 38
+          },
+          "start": 23,
+          "end": 38
         },
         "body": {
           "type": "BlockStatement",
+          "body": [],
           "start": 39,
-          "end": 41,
-          "body": []
+          "end": 41
         },
-        "expression": false
+        "expression": false,
+        "start": 7,
+        "end": 41
       },
       "specifiers": [],
       "source": null,
       "exportKind": "value",
-      "attributes": []
+      "attributes": [],
+      "start": 0,
+      "end": 41
     }
   ],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 42
 }
 ```
 __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 41,
   "body": [
     {
       "type": "ExportNamedDeclaration",
-      "start": 0,
-      "end": 41,
       "declaration": {
         "type": "FunctionDeclaration",
-        "start": 7,
-        "end": 41,
         "id": {
           "type": "Identifier",
-          "start": 16,
-          "end": 21,
           "decorators": [],
           "name": "__foo",
           "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "start": 16,
+          "end": 21
         },
         "generator": false,
         "async": false,
@@ -140,12 +134,8 @@ __ESTREE_TEST__:PASS:
         "params": [],
         "returnType": {
           "type": "TSTypeAnnotation",
-          "start": 23,
-          "end": 38,
           "typeAnnotation": {
             "type": "TSUnionType",
-            "start": 25,
-            "end": 38,
             "types": [
               {
                 "type": "TSStringKeyword",
@@ -157,24 +147,34 @@ __ESTREE_TEST__:PASS:
                 "start": 34,
                 "end": 38
               }
-            ]
-          }
+            ],
+            "start": 25,
+            "end": 38
+          },
+          "start": 23,
+          "end": 38
         },
         "body": {
           "type": "BlockStatement",
+          "body": [],
           "start": 39,
-          "end": 41,
-          "body": []
+          "end": 41
         },
-        "expression": false
+        "expression": false,
+        "start": 7,
+        "end": 41
       },
       "specifiers": [],
       "source": null,
       "exportKind": "value",
-      "attributes": []
+      "attributes": [],
+      "start": 0,
+      "end": 41
     }
   ],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 41
 }
 ```

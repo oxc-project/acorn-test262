@@ -2,272 +2,272 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 190,
   "body": [
     {
       "type": "TSEnumDeclaration",
-      "start": 0,
-      "end": 104,
       "id": {
         "type": "Identifier",
-        "start": 5,
-        "end": 9,
         "decorators": [],
         "name": "days",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 5,
+        "end": 9
       },
       "body": {
         "type": "TSEnumBody",
-        "start": 10,
-        "end": 104,
         "members": [
           {
             "type": "TSEnumMember",
-            "start": 16,
-            "end": 22,
             "id": {
               "type": "Identifier",
-              "start": 16,
-              "end": 22,
               "decorators": [],
               "name": "monday",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 16,
+              "end": 22
             },
             "initializer": null,
-            "computed": false
+            "computed": false,
+            "start": 16,
+            "end": 22
           },
           {
             "type": "TSEnumMember",
-            "start": 28,
-            "end": 35,
             "id": {
               "type": "Identifier",
-              "start": 28,
-              "end": 35,
               "decorators": [],
               "name": "tuesday",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 28,
+              "end": 35
             },
             "initializer": null,
-            "computed": false
+            "computed": false,
+            "start": 28,
+            "end": 35
           },
           {
             "type": "TSEnumMember",
-            "start": 41,
-            "end": 50,
             "id": {
               "type": "Identifier",
-              "start": 41,
-              "end": 50,
               "decorators": [],
               "name": "wednesday",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 41,
+              "end": 50
             },
             "initializer": null,
-            "computed": false
+            "computed": false,
+            "start": 41,
+            "end": 50
           },
           {
             "type": "TSEnumMember",
-            "start": 56,
-            "end": 64,
             "id": {
               "type": "Identifier",
-              "start": 56,
-              "end": 64,
               "decorators": [],
               "name": "thursday",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 56,
+              "end": 64
             },
             "initializer": null,
-            "computed": false
+            "computed": false,
+            "start": 56,
+            "end": 64
           },
           {
             "type": "TSEnumMember",
-            "start": 70,
-            "end": 76,
             "id": {
               "type": "Identifier",
-              "start": 70,
-              "end": 76,
               "decorators": [],
               "name": "friday",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 70,
+              "end": 76
             },
             "initializer": null,
-            "computed": false
+            "computed": false,
+            "start": 70,
+            "end": 76
           },
           {
             "type": "TSEnumMember",
-            "start": 82,
-            "end": 90,
             "id": {
               "type": "Identifier",
-              "start": 82,
-              "end": 90,
               "decorators": [],
               "name": "saturday",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 82,
+              "end": 90
             },
             "initializer": null,
-            "computed": false
+            "computed": false,
+            "start": 82,
+            "end": 90
           },
           {
             "type": "TSEnumMember",
-            "start": 96,
-            "end": 102,
             "id": {
               "type": "Identifier",
-              "start": 96,
-              "end": 102,
               "decorators": [],
               "name": "sunday",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 96,
+              "end": 102
             },
             "initializer": null,
-            "computed": false
+            "computed": false,
+            "start": 96,
+            "end": 102
           }
-        ]
+        ],
+        "start": 10,
+        "end": 104
       },
       "const": false,
-      "declare": false
+      "declare": false,
+      "start": 0,
+      "end": 104
     },
     {
       "type": "VariableDeclaration",
-      "start": 106,
-      "end": 137,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 110,
-          "end": 136,
           "id": {
             "type": "Identifier",
-            "start": 110,
-            "end": 120,
             "decorators": [],
             "name": "weekendDay",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 110,
+            "end": 120
           },
           "init": {
             "type": "MemberExpression",
-            "start": 123,
-            "end": 136,
             "object": {
               "type": "Identifier",
-              "start": 123,
-              "end": 127,
               "decorators": [],
               "name": "days",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 123,
+              "end": 127
             },
             "property": {
               "type": "Identifier",
-              "start": 128,
-              "end": 136,
               "decorators": [],
               "name": "saturday",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 128,
+              "end": 136
             },
             "optional": false,
-            "computed": false
+            "computed": false,
+            "start": 123,
+            "end": 136
           },
-          "definite": false
+          "definite": false,
+          "start": 110,
+          "end": 136
         }
       ],
-      "declare": false
+      "declare": false,
+      "start": 106,
+      "end": 137
     },
     {
       "type": "VariableDeclaration",
-      "start": 138,
-      "end": 161,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 142,
-          "end": 160,
           "id": {
             "type": "Identifier",
-            "start": 142,
-            "end": 153,
             "decorators": [],
             "name": "daysOfMonth",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 142,
+            "end": 153
           },
           "init": {
             "type": "Identifier",
-            "start": 156,
-            "end": 160,
             "decorators": [],
             "name": "days",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 156,
+            "end": 160
           },
-          "definite": false
+          "definite": false,
+          "start": 142,
+          "end": 160
         }
       ],
-      "declare": false
+      "declare": false,
+      "start": 138,
+      "end": 161
     },
     {
       "type": "VariableDeclaration",
-      "start": 162,
-      "end": 190,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 166,
-          "end": 189,
           "id": {
             "type": "Identifier",
-            "start": 166,
-            "end": 189,
             "decorators": [],
             "name": "daysOfYear",
             "optional": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
-              "start": 176,
-              "end": 189,
               "typeAnnotation": {
                 "type": "TSTypeQuery",
-                "start": 178,
-                "end": 189,
                 "exprName": {
                   "type": "Identifier",
-                  "start": 185,
-                  "end": 189,
                   "decorators": [],
                   "name": "days",
                   "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "start": 185,
+                  "end": 189
                 },
-                "typeArguments": null
-              }
-            }
+                "typeArguments": null,
+                "start": 178,
+                "end": 189
+              },
+              "start": 176,
+              "end": 189
+            },
+            "start": 166,
+            "end": 189
           },
           "init": null,
-          "definite": false
+          "definite": false,
+          "start": 166,
+          "end": 189
         }
       ],
-      "declare": false
+      "declare": false,
+      "start": 162,
+      "end": 190
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 190
 }
 ```

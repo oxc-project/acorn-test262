@@ -1,78 +1,78 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 753,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 687,
-      "end": 752,
       "expression": {
         "type": "CallExpression",
-        "start": 687,
-        "end": 751,
         "callee": {
           "type": "MemberExpression",
-          "start": 687,
-          "end": 703,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 687,
-            "end": 693,
-            "name": "assert"
+            "end": 693
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 694,
-            "end": 703,
-            "name": "sameValue"
+            "end": 703
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 687,
+          "end": 703
         },
         "arguments": [
           {
             "type": "BinaryExpression",
-            "start": 704,
-            "end": 712,
             "left": {
               "type": "Literal",
-              "start": 704,
-              "end": 706,
               "value": null,
               "raw": "0n",
-              "bigint": "0"
+              "bigint": "0",
+              "start": 704,
+              "end": 706
             },
             "operator": "**",
             "right": {
               "type": "Literal",
-              "start": 710,
-              "end": 712,
               "value": null,
               "raw": "0n",
-              "bigint": "0"
-            }
+              "bigint": "0",
+              "start": 710,
+              "end": 712
+            },
+            "start": 704,
+            "end": 712
           },
           {
             "type": "Literal",
-            "start": 714,
-            "end": 716,
             "value": null,
             "raw": "1n",
-            "bigint": "1"
+            "bigint": "1",
+            "start": 714,
+            "end": 716
           },
           {
             "type": "Literal",
-            "start": 718,
-            "end": 750,
             "value": "The result of (0n ** 0n) is 1n",
-            "raw": "'The result of (0n ** 0n) is 1n'"
+            "raw": "'The result of (0n ** 0n) is 1n'",
+            "start": 718,
+            "end": 750
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 687,
+        "end": 751
+      },
+      "start": 687,
+      "end": 752
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 753
 }

@@ -1,127 +1,127 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 671,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 550,
-      "end": 608,
       "expression": {
         "type": "CallExpression",
-        "start": 550,
-        "end": 607,
         "callee": {
           "type": "MemberExpression",
-          "start": 550,
-          "end": 566,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 550,
-            "end": 556,
-            "name": "assert"
+            "end": 556
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 557,
-            "end": 566,
-            "name": "sameValue"
+            "end": 566
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 550,
+          "end": 566
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 567,
-            "end": 595,
             "callee": {
               "type": "Identifier",
+              "name": "eval",
               "start": 567,
-              "end": 571,
-              "name": "eval"
+              "end": 571
             },
             "arguments": [
               {
                 "type": "Literal",
-                "start": 572,
-                "end": 594,
                 "value": "1; while (false) { }",
-                "raw": "'1; while (false) { }'"
+                "raw": "'1; while (false) { }'",
+                "start": 572,
+                "end": 594
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 567,
+            "end": 595
           },
           {
             "type": "Identifier",
+            "name": "undefined",
             "start": 597,
-            "end": 606,
-            "name": "undefined"
+            "end": 606
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 550,
+        "end": 607
+      },
+      "start": 550,
+      "end": 608
     },
     {
       "type": "ExpressionStatement",
-      "start": 609,
-      "end": 670,
       "expression": {
         "type": "CallExpression",
-        "start": 609,
-        "end": 669,
         "callee": {
           "type": "MemberExpression",
-          "start": 609,
-          "end": 625,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 609,
-            "end": 615,
-            "name": "assert"
+            "end": 615
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 616,
-            "end": 625,
-            "name": "sameValue"
+            "end": 625
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 609,
+          "end": 625
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 626,
-            "end": 657,
             "callee": {
               "type": "Identifier",
+              "name": "eval",
               "start": 626,
-              "end": 630,
-              "name": "eval"
+              "end": 630
             },
             "arguments": [
               {
                 "type": "Literal",
-                "start": 631,
-                "end": 656,
                 "value": "2; while (false) { 3; }",
-                "raw": "'2; while (false) { 3; }'"
+                "raw": "'2; while (false) { 3; }'",
+                "start": 631,
+                "end": 656
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 626,
+            "end": 657
           },
           {
             "type": "Identifier",
+            "name": "undefined",
             "start": 659,
-            "end": 668,
-            "name": "undefined"
+            "end": 668
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 609,
+        "end": 669
+      },
+      "start": 609,
+      "end": 670
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 671
 }

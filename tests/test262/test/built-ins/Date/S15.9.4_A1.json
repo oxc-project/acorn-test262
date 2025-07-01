@@ -1,69 +1,69 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 383,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 288,
-      "end": 382,
       "expression": {
         "type": "CallExpression",
-        "start": 288,
-        "end": 381,
         "callee": {
           "type": "Identifier",
+          "name": "assert",
           "start": 288,
-          "end": 294,
-          "name": "assert"
+          "end": 294
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 295,
-            "end": 327,
             "callee": {
               "type": "MemberExpression",
-              "start": 295,
-              "end": 314,
               "object": {
                 "type": "Identifier",
+                "name": "Date",
                 "start": 295,
-                "end": 299,
-                "name": "Date"
+                "end": 299
               },
               "property": {
                 "type": "Identifier",
+                "name": "hasOwnProperty",
                 "start": 300,
-                "end": 314,
-                "name": "hasOwnProperty"
+                "end": 314
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 295,
+              "end": 314
             },
             "arguments": [
               {
                 "type": "Literal",
-                "start": 315,
-                "end": 326,
                 "value": "prototype",
-                "raw": "\"prototype\""
+                "raw": "\"prototype\"",
+                "start": 315,
+                "end": 326
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 295,
+            "end": 327
           },
           {
             "type": "Literal",
-            "start": 329,
-            "end": 380,
             "value": "Date.hasOwnProperty(\"prototype\") must return true",
-            "raw": "'Date.hasOwnProperty(\"prototype\") must return true'"
+            "raw": "'Date.hasOwnProperty(\"prototype\") must return true'",
+            "start": 329,
+            "end": 380
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 288,
+        "end": 381
+      },
+      "start": 288,
+      "end": 382
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 383
 }

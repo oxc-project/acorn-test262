@@ -1,169 +1,169 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 558,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 445,
-      "end": 466,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 449,
-          "end": 465,
           "id": {
             "type": "Identifier",
+            "name": "newTarget",
             "start": 449,
-            "end": 458,
-            "name": "newTarget"
+            "end": 458
           },
           "init": {
             "type": "Literal",
-            "start": 461,
-            "end": 465,
             "value": null,
-            "raw": "null"
-          }
+            "raw": "null",
+            "start": 461,
+            "end": 465
+          },
+          "start": 449,
+          "end": 465
         }
-      ]
+      ],
+      "start": 445,
+      "end": 466
     },
     {
       "type": "FunctionDeclaration",
-      "start": 468,
-      "end": 510,
       "id": {
         "type": "Identifier",
+        "name": "f",
         "start": 477,
-        "end": 478,
-        "name": "f"
+        "end": 478
       },
       "generator": false,
       "async": false,
       "params": [],
       "body": {
         "type": "BlockStatement",
-        "start": 481,
-        "end": 510,
         "body": [
           {
             "type": "ExpressionStatement",
-            "start": 485,
-            "end": 508,
             "expression": {
               "type": "AssignmentExpression",
-              "start": 485,
-              "end": 507,
               "operator": "=",
               "left": {
                 "type": "Identifier",
+                "name": "newTarget",
                 "start": 485,
-                "end": 494,
-                "name": "newTarget"
+                "end": 494
               },
               "right": {
                 "type": "MetaProperty",
-                "start": 497,
-                "end": 507,
                 "meta": {
                   "type": "Identifier",
+                  "name": "new",
                   "start": 497,
-                  "end": 500,
-                  "name": "new"
+                  "end": 500
                 },
                 "property": {
                   "type": "Identifier",
+                  "name": "target",
                   "start": 501,
-                  "end": 507,
-                  "name": "target"
-                }
-              }
-            }
+                  "end": 507
+                },
+                "start": 497,
+                "end": 507
+              },
+              "start": 485,
+              "end": 507
+            },
+            "start": 485,
+            "end": 508
           }
-        ]
+        ],
+        "start": 481,
+        "end": 510
       },
-      "expression": false
+      "expression": false,
+      "start": 468,
+      "end": 510
     },
     {
       "type": "ExpressionStatement",
-      "start": 512,
-      "end": 516,
       "expression": {
         "type": "TaggedTemplateExpression",
-        "start": 512,
-        "end": 515,
         "tag": {
           "type": "Identifier",
+          "name": "f",
           "start": 512,
-          "end": 513,
-          "name": "f"
+          "end": 513
         },
         "quasi": {
           "type": "TemplateLiteral",
-          "start": 513,
-          "end": 515,
           "quasis": [
             {
               "type": "TemplateElement",
-              "start": 514,
-              "end": 514,
               "value": {
                 "raw": "",
                 "cooked": ""
               },
-              "tail": true
+              "tail": true,
+              "start": 514,
+              "end": 514
             }
           ],
-          "expressions": []
-        }
-      }
+          "expressions": [],
+          "start": 513,
+          "end": 515
+        },
+        "start": 512,
+        "end": 515
+      },
+      "start": 512,
+      "end": 516
     },
     {
       "type": "ExpressionStatement",
-      "start": 518,
-      "end": 557,
       "expression": {
         "type": "CallExpression",
-        "start": 518,
-        "end": 556,
         "callee": {
           "type": "MemberExpression",
-          "start": 518,
-          "end": 534,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 518,
-            "end": 524,
-            "name": "assert"
+            "end": 524
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 525,
-            "end": 534,
-            "name": "sameValue"
+            "end": 534
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 518,
+          "end": 534
         },
         "arguments": [
           {
             "type": "Identifier",
+            "name": "newTarget",
             "start": 535,
-            "end": 544,
-            "name": "newTarget"
+            "end": 544
           },
           {
             "type": "Identifier",
+            "name": "undefined",
             "start": 546,
-            "end": 555,
-            "name": "undefined"
+            "end": 555
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 518,
+        "end": 556
+      },
+      "start": 518,
+      "end": 557
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 558
 }

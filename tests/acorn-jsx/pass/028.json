@@ -1,63 +1,63 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 16,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 0,
-      "end": 16,
       "expression": {
         "type": "JSXFragment",
-        "start": 0,
-        "end": 16,
         "openingFragment": {
           "type": "JSXOpeningFragment",
-          "start": 0,
-          "end": 2,
           "attributes": [],
-          "selfClosing": false
+          "selfClosing": false,
+          "start": 0,
+          "end": 2
         },
         "children": [
           {
             "type": "JSXElement",
-            "start": 2,
-            "end": 13,
             "openingElement": {
               "type": "JSXOpeningElement",
-              "start": 2,
-              "end": 7,
               "name": {
                 "type": "JSXIdentifier",
+                "name": "div",
                 "start": 3,
-                "end": 6,
-                "name": "div"
+                "end": 6
               },
               "attributes": [],
-              "selfClosing": false
+              "selfClosing": false,
+              "start": 2,
+              "end": 7
             },
             "children": [],
             "closingElement": {
               "type": "JSXClosingElement",
-              "start": 7,
-              "end": 13,
               "name": {
                 "type": "JSXIdentifier",
+                "name": "div",
                 "start": 9,
-                "end": 12,
-                "name": "div"
-              }
-            }
+                "end": 12
+              },
+              "start": 7,
+              "end": 13
+            },
+            "start": 2,
+            "end": 13
           }
         ],
         "closingFragment": {
           "type": "JSXClosingFragment",
           "start": 13,
           "end": 16
-        }
-      }
+        },
+        "start": 0,
+        "end": 16
+      },
+      "start": 0,
+      "end": 16
     }
   ],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 16
 }

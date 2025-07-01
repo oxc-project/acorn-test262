@@ -1,172 +1,170 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 2225,
   "body": [
     {
       "type": "FunctionDeclaration",
-      "start": 2013,
-      "end": 2054,
       "id": {
         "type": "Identifier",
+        "name": "fn",
         "start": 2022,
-        "end": 2024,
-        "name": "fn"
+        "end": 2024
       },
       "generator": false,
       "async": false,
       "params": [],
       "body": {
         "type": "BlockStatement",
-        "start": 2027,
-        "end": 2054,
         "body": [
           {
             "type": "ReturnStatement",
-            "start": 2031,
-            "end": 2052,
             "argument": {
               "type": "FunctionExpression",
-              "start": 2038,
-              "end": 2051,
               "id": null,
               "generator": false,
               "async": false,
               "params": [],
               "body": {
                 "type": "BlockStatement",
+                "body": [],
                 "start": 2049,
-                "end": 2051,
-                "body": []
+                "end": 2051
               },
-              "expression": false
-            }
+              "expression": false,
+              "start": 2038,
+              "end": 2051
+            },
+            "start": 2031,
+            "end": 2052
           }
-        ]
+        ],
+        "start": 2027,
+        "end": 2054
       },
-      "expression": false
+      "expression": false,
+      "start": 2013,
+      "end": 2054
     },
     {
       "type": "ExportNamedDeclaration",
-      "start": 2096,
-      "end": 2223,
       "declaration": {
         "type": "ClassDeclaration",
-        "start": 2103,
-        "end": 2223,
         "decorators": [],
         "id": {
           "type": "Identifier",
+          "name": "C",
           "start": 2109,
-          "end": 2110,
-          "name": "C"
+          "end": 2110
         },
         "superClass": {
           "type": "CallExpression",
-          "start": 2119,
-          "end": 2220,
           "callee": {
             "type": "Identifier",
+            "name": "fn",
             "start": 2119,
-            "end": 2121,
-            "name": "fn"
+            "end": 2121
           },
           "arguments": [
             {
               "type": "AwaitExpression",
-              "start": 2122,
-              "end": 2219,
               "argument": {
                 "type": "AwaitExpression",
-                "start": 2128,
-                "end": 2219,
                 "argument": {
                   "type": "AwaitExpression",
-                  "start": 2134,
-                  "end": 2219,
                   "argument": {
                     "type": "AwaitExpression",
-                    "start": 2140,
-                    "end": 2219,
                     "argument": {
                       "type": "AwaitExpression",
-                      "start": 2146,
-                      "end": 2219,
                       "argument": {
                         "type": "AwaitExpression",
-                        "start": 2152,
-                        "end": 2219,
                         "argument": {
                           "type": "AwaitExpression",
-                          "start": 2158,
-                          "end": 2219,
                           "argument": {
                             "type": "AwaitExpression",
-                            "start": 2164,
-                            "end": 2219,
                             "argument": {
                               "type": "AwaitExpression",
-                              "start": 2170,
-                              "end": 2219,
                               "argument": {
                                 "type": "AwaitExpression",
-                                "start": 2176,
-                                "end": 2219,
                                 "argument": {
                                   "type": "AwaitExpression",
-                                  "start": 2182,
-                                  "end": 2219,
                                   "argument": {
                                     "type": "AwaitExpression",
-                                    "start": 2188,
-                                    "end": 2219,
                                     "argument": {
                                       "type": "AwaitExpression",
-                                      "start": 2194,
-                                      "end": 2219,
                                       "argument": {
                                         "type": "AwaitExpression",
-                                        "start": 2200,
-                                        "end": 2219,
                                         "argument": {
                                           "type": "AwaitExpression",
-                                          "start": 2206,
-                                          "end": 2219,
                                           "argument": {
                                             "type": "Literal",
-                                            "start": 2212,
-                                            "end": 2219,
                                             "value": "await",
-                                            "raw": "'await'"
-                                          }
-                                        }
-                                      }
-                                    }
-                                  }
-                                }
-                              }
-                            }
-                          }
-                        }
-                      }
-                    }
-                  }
-                }
-              }
+                                            "raw": "'await'",
+                                            "start": 2212,
+                                            "end": 2219
+                                          },
+                                          "start": 2206,
+                                          "end": 2219
+                                        },
+                                        "start": 2200,
+                                        "end": 2219
+                                      },
+                                      "start": 2194,
+                                      "end": 2219
+                                    },
+                                    "start": 2188,
+                                    "end": 2219
+                                  },
+                                  "start": 2182,
+                                  "end": 2219
+                                },
+                                "start": 2176,
+                                "end": 2219
+                              },
+                              "start": 2170,
+                              "end": 2219
+                            },
+                            "start": 2164,
+                            "end": 2219
+                          },
+                          "start": 2158,
+                          "end": 2219
+                        },
+                        "start": 2152,
+                        "end": 2219
+                      },
+                      "start": 2146,
+                      "end": 2219
+                    },
+                    "start": 2140,
+                    "end": 2219
+                  },
+                  "start": 2134,
+                  "end": 2219
+                },
+                "start": 2128,
+                "end": 2219
+              },
+              "start": 2122,
+              "end": 2219
             }
           ],
-          "optional": false
+          "optional": false,
+          "start": 2119,
+          "end": 2220
         },
         "body": {
           "type": "ClassBody",
+          "body": [],
           "start": 2221,
-          "end": 2223,
-          "body": []
-        }
+          "end": 2223
+        },
+        "start": 2103,
+        "end": 2223
       },
       "specifiers": [],
       "source": null,
-      "attributes": []
+      "attributes": [],
+      "start": 2096,
+      "end": 2223
     },
     {
       "type": "EmptyStatement",
@@ -175,5 +173,7 @@
     }
   ],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 2225
 }

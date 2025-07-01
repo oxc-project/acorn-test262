@@ -1,118 +1,118 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 462,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 349,
-      "end": 461,
       "expression": {
         "type": "CallExpression",
-        "start": 349,
-        "end": 460,
         "callee": {
           "type": "MemberExpression",
-          "start": 349,
-          "end": 365,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 349,
-            "end": 355,
-            "name": "assert"
+            "end": 355
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 356,
-            "end": 365,
-            "name": "sameValue"
+            "end": 365
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 349,
+          "end": 365
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 366,
-            "end": 409,
             "callee": {
               "type": "MemberExpression",
-              "start": 366,
-              "end": 402,
               "object": {
                 "type": "ArrayExpression",
-                "start": 366,
-                "end": 390,
                 "elements": [
                   {
                     "type": "Literal",
-                    "start": 367,
-                    "end": 372,
                     "value": "abc",
-                    "raw": "\"abc\""
+                    "raw": "\"abc\"",
+                    "start": 367,
+                    "end": 372
                   },
                   {
                     "type": "Literal",
-                    "start": 374,
-                    "end": 378,
                     "value": "ab",
-                    "raw": "\"ab\""
+                    "raw": "\"ab\"",
+                    "start": 374,
+                    "end": 378
                   },
                   {
                     "type": "Literal",
-                    "start": 380,
-                    "end": 385,
                     "value": "bca",
-                    "raw": "\"bca\""
+                    "raw": "\"bca\"",
+                    "start": 380,
+                    "end": 385
                   },
                   {
                     "type": "Literal",
-                    "start": 387,
-                    "end": 389,
                     "value": "",
-                    "raw": "\"\""
+                    "raw": "\"\"",
+                    "start": 387,
+                    "end": 389
                   }
-                ]
+                ],
+                "start": 366,
+                "end": 390
               },
               "property": {
                 "type": "Identifier",
+                "name": "lastIndexOf",
                 "start": 391,
-                "end": 402,
-                "name": "lastIndexOf"
+                "end": 402
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 366,
+              "end": 402
             },
             "arguments": [
               {
                 "type": "Literal",
-                "start": 403,
-                "end": 408,
                 "value": "abc",
-                "raw": "\"abc\""
+                "raw": "\"abc\"",
+                "start": 403,
+                "end": 408
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 366,
+            "end": 409
           },
           {
             "type": "Literal",
-            "start": 411,
-            "end": 412,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "start": 411,
+            "end": 412
           },
           {
             "type": "Literal",
-            "start": 414,
-            "end": 459,
             "value": "[\"abc\", \"ab\", \"bca\", \"\"].lastIndexOf(\"abc\")",
-            "raw": "'[\"abc\", \"ab\", \"bca\", \"\"].lastIndexOf(\"abc\")'"
+            "raw": "'[\"abc\", \"ab\", \"bca\", \"\"].lastIndexOf(\"abc\")'",
+            "start": 414,
+            "end": 459
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 349,
+        "end": 460
+      },
+      "start": 349,
+      "end": 461
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 462
 }

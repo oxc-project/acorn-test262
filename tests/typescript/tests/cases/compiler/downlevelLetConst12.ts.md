@@ -2,332 +2,332 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 171,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 0,
-      "end": 12,
       "expression": {
         "type": "Literal",
-        "start": 0,
-        "end": 12,
         "value": "use strict",
-        "raw": "'use strict'"
+        "raw": "'use strict'",
+        "start": 0,
+        "end": 12
       },
-      "directive": "use strict"
+      "directive": "use strict",
+      "start": 0,
+      "end": 12
     },
     {
       "type": "VariableDeclaration",
-      "start": 58,
-      "end": 66,
       "kind": "let",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 62,
-          "end": 65,
           "id": {
             "type": "Identifier",
-            "start": 62,
-            "end": 65,
             "decorators": [],
             "name": "foo",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 62,
+            "end": 65
           },
           "init": null,
-          "definite": false
+          "definite": false,
+          "start": 62,
+          "end": 65
         }
       ],
-      "declare": false
+      "declare": false,
+      "start": 58,
+      "end": 66
     },
     {
       "type": "VariableDeclaration",
-      "start": 67,
-      "end": 81,
       "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 73,
-          "end": 80,
           "id": {
             "type": "Identifier",
-            "start": 73,
-            "end": 76,
             "decorators": [],
             "name": "bar",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 73,
+            "end": 76
           },
           "init": {
             "type": "Literal",
-            "start": 79,
-            "end": 80,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "start": 79,
+            "end": 80
           },
-          "definite": false
+          "definite": false,
+          "start": 73,
+          "end": 80
         }
       ],
-      "declare": false
+      "declare": false,
+      "start": 67,
+      "end": 81
     },
     {
       "type": "VariableDeclaration",
-      "start": 83,
-      "end": 98,
       "kind": "let",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 87,
-          "end": 97,
           "id": {
             "type": "ArrayPattern",
-            "start": 87,
-            "end": 92,
             "decorators": [],
             "elements": [
               {
                 "type": "Identifier",
-                "start": 88,
-                "end": 91,
                 "decorators": [],
                 "name": "baz",
                 "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "start": 88,
+                "end": 91
               }
             ],
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 87,
+            "end": 92
           },
           "init": {
             "type": "ArrayExpression",
+            "elements": [],
             "start": 95,
-            "end": 97,
-            "elements": []
+            "end": 97
           },
-          "definite": false
+          "definite": false,
+          "start": 87,
+          "end": 97
         }
       ],
-      "declare": false
+      "declare": false,
+      "start": 83,
+      "end": 98
     },
     {
       "type": "VariableDeclaration",
-      "start": 99,
-      "end": 124,
       "kind": "let",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 103,
-          "end": 123,
           "id": {
             "type": "ObjectPattern",
-            "start": 103,
-            "end": 112,
             "decorators": [],
             "properties": [
               {
                 "type": "Property",
-                "start": 104,
-                "end": 111,
                 "kind": "init",
                 "key": {
                   "type": "Identifier",
-                  "start": 104,
-                  "end": 105,
                   "decorators": [],
                   "name": "a",
                   "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "start": 104,
+                  "end": 105
                 },
                 "value": {
                   "type": "Identifier",
-                  "start": 107,
-                  "end": 111,
                   "decorators": [],
                   "name": "baz2",
                   "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "start": 107,
+                  "end": 111
                 },
                 "method": false,
                 "shorthand": false,
                 "computed": false,
-                "optional": false
+                "optional": false,
+                "start": 104,
+                "end": 111
               }
             ],
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 103,
+            "end": 112
           },
           "init": {
             "type": "ObjectExpression",
-            "start": 115,
-            "end": 123,
             "properties": [
               {
                 "type": "Property",
-                "start": 117,
-                "end": 121,
                 "kind": "init",
                 "key": {
                   "type": "Identifier",
-                  "start": 117,
-                  "end": 118,
                   "decorators": [],
                   "name": "a",
                   "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "start": 117,
+                  "end": 118
                 },
                 "value": {
                   "type": "Literal",
-                  "start": 120,
-                  "end": 121,
                   "value": 1,
-                  "raw": "1"
+                  "raw": "1",
+                  "start": 120,
+                  "end": 121
                 },
                 "method": false,
                 "shorthand": false,
                 "computed": false,
-                "optional": false
+                "optional": false,
+                "start": 117,
+                "end": 121
               }
-            ]
+            ],
+            "start": 115,
+            "end": 123
           },
-          "definite": false
+          "definite": false,
+          "start": 103,
+          "end": 123
         }
       ],
-      "declare": false
+      "declare": false,
+      "start": 99,
+      "end": 124
     },
     {
       "type": "VariableDeclaration",
-      "start": 126,
-      "end": 143,
       "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 132,
-          "end": 143,
           "id": {
             "type": "ArrayPattern",
-            "start": 132,
-            "end": 138,
             "decorators": [],
             "elements": [
               {
                 "type": "Identifier",
-                "start": 133,
-                "end": 137,
                 "decorators": [],
                 "name": "baz3",
                 "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "start": 133,
+                "end": 137
               }
             ],
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 132,
+            "end": 138
           },
           "init": {
             "type": "ArrayExpression",
+            "elements": [],
             "start": 141,
-            "end": 143,
-            "elements": []
+            "end": 143
           },
-          "definite": false
+          "definite": false,
+          "start": 132,
+          "end": 143
         }
       ],
-      "declare": false
+      "declare": false,
+      "start": 126,
+      "end": 143
     },
     {
       "type": "VariableDeclaration",
-      "start": 144,
-      "end": 171,
       "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 150,
-          "end": 170,
           "id": {
             "type": "ObjectPattern",
-            "start": 150,
-            "end": 159,
             "decorators": [],
             "properties": [
               {
                 "type": "Property",
-                "start": 151,
-                "end": 158,
                 "kind": "init",
                 "key": {
                   "type": "Identifier",
-                  "start": 151,
-                  "end": 152,
                   "decorators": [],
                   "name": "a",
                   "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "start": 151,
+                  "end": 152
                 },
                 "value": {
                   "type": "Identifier",
-                  "start": 154,
-                  "end": 158,
                   "decorators": [],
                   "name": "baz4",
                   "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "start": 154,
+                  "end": 158
                 },
                 "method": false,
                 "shorthand": false,
                 "computed": false,
-                "optional": false
+                "optional": false,
+                "start": 151,
+                "end": 158
               }
             ],
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 150,
+            "end": 159
           },
           "init": {
             "type": "ObjectExpression",
-            "start": 162,
-            "end": 170,
             "properties": [
               {
                 "type": "Property",
-                "start": 164,
-                "end": 168,
                 "kind": "init",
                 "key": {
                   "type": "Identifier",
-                  "start": 164,
-                  "end": 165,
                   "decorators": [],
                   "name": "a",
                   "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "start": 164,
+                  "end": 165
                 },
                 "value": {
                   "type": "Literal",
-                  "start": 167,
-                  "end": 168,
                   "value": 1,
-                  "raw": "1"
+                  "raw": "1",
+                  "start": 167,
+                  "end": 168
                 },
                 "method": false,
                 "shorthand": false,
                 "computed": false,
-                "optional": false
+                "optional": false,
+                "start": 164,
+                "end": 168
               }
-            ]
+            ],
+            "start": 162,
+            "end": 170
           },
-          "definite": false
+          "definite": false,
+          "start": 150,
+          "end": 170
         }
       ],
-      "declare": false
+      "declare": false,
+      "start": 144,
+      "end": 171
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 171
 }
 ```

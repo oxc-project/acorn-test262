@@ -1,53 +1,53 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 470,
   "body": [
     {
       "type": "FunctionDeclaration",
-      "start": 438,
-      "end": 469,
       "id": {
         "type": "Identifier",
+        "name": "f",
         "start": 447,
-        "end": 448,
-        "name": "f"
+        "end": 448
       },
       "generator": false,
       "async": false,
       "params": [],
       "body": {
         "type": "BlockStatement",
-        "start": 451,
-        "end": 469,
         "body": [
           {
             "type": "ExpressionStatement",
-            "start": 455,
-            "end": 467,
             "expression": {
               "type": "MetaProperty",
-              "start": 455,
-              "end": 466,
               "meta": {
                 "type": "Identifier",
+                "name": "import",
                 "start": 455,
-                "end": 461,
-                "name": "import"
+                "end": 461
               },
               "property": {
                 "type": "Identifier",
+                "name": "meta",
                 "start": 462,
-                "end": 466,
-                "name": "meta"
-              }
-            }
+                "end": 466
+              },
+              "start": 455,
+              "end": 466
+            },
+            "start": 455,
+            "end": 467
           }
-        ]
+        ],
+        "start": 451,
+        "end": 469
       },
-      "expression": false
+      "expression": false,
+      "start": 438,
+      "end": 469
     }
   ],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 470
 }

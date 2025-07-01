@@ -1,293 +1,293 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 905,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 591,
-      "end": 658,
       "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 597,
-          "end": 657,
           "id": {
             "type": "Identifier",
+            "name": "numberingSystems",
             "start": 597,
-            "end": 613,
-            "name": "numberingSystems"
+            "end": 613
           },
           "init": {
             "type": "CallExpression",
-            "start": 616,
-            "end": 657,
             "callee": {
               "type": "MemberExpression",
-              "start": 616,
-              "end": 638,
               "object": {
                 "type": "Identifier",
+                "name": "Intl",
                 "start": 616,
-                "end": 620,
-                "name": "Intl"
+                "end": 620
               },
               "property": {
                 "type": "Identifier",
+                "name": "supportedValuesOf",
                 "start": 621,
-                "end": 638,
-                "name": "supportedValuesOf"
+                "end": 638
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 616,
+              "end": 638
             },
             "arguments": [
               {
                 "type": "Literal",
-                "start": 639,
-                "end": 656,
                 "value": "numberingSystem",
-                "raw": "\"numberingSystem\""
+                "raw": "\"numberingSystem\"",
+                "start": 639,
+                "end": 656
               }
             ],
-            "optional": false
-          }
+            "optional": false,
+            "start": 616,
+            "end": 657
+          },
+          "start": 597,
+          "end": 657
         }
-      ]
+      ],
+      "start": 591,
+      "end": 658
     },
     {
       "type": "ForOfStatement",
-      "start": 660,
-      "end": 904,
       "await": false,
       "left": {
         "type": "VariableDeclaration",
-        "start": 665,
-        "end": 686,
         "kind": "const",
         "declarations": [
           {
             "type": "VariableDeclarator",
-            "start": 671,
-            "end": 686,
             "id": {
               "type": "Identifier",
+              "name": "numberingSystem",
               "start": 671,
-              "end": 686,
-              "name": "numberingSystem"
+              "end": 686
             },
-            "init": null
+            "init": null,
+            "start": 671,
+            "end": 686
           }
-        ]
+        ],
+        "start": 665,
+        "end": 686
       },
       "right": {
         "type": "Identifier",
+        "name": "numberingSystems",
         "start": 690,
-        "end": 706,
-        "name": "numberingSystems"
+        "end": 706
       },
       "body": {
         "type": "BlockStatement",
-        "start": 708,
-        "end": 904,
         "body": [
           {
             "type": "VariableDeclaration",
-            "start": 712,
-            "end": 773,
             "kind": "const",
             "declarations": [
               {
                 "type": "VariableDeclarator",
-                "start": 718,
-                "end": 772,
                 "id": {
                   "type": "Identifier",
+                  "name": "obj",
                   "start": 718,
-                  "end": 721,
-                  "name": "obj"
+                  "end": 721
                 },
                 "init": {
                   "type": "NewExpression",
-                  "start": 724,
-                  "end": 772,
                   "callee": {
                     "type": "MemberExpression",
-                    "start": 728,
-                    "end": 747,
                     "object": {
                       "type": "Identifier",
+                      "name": "Intl",
                       "start": 728,
-                      "end": 732,
-                      "name": "Intl"
+                      "end": 732
                     },
                     "property": {
                       "type": "Identifier",
+                      "name": "DurationFormat",
                       "start": 733,
-                      "end": 747,
-                      "name": "DurationFormat"
+                      "end": 747
                     },
                     "optional": false,
-                    "computed": false
+                    "computed": false,
+                    "start": 728,
+                    "end": 747
                   },
                   "arguments": [
                     {
                       "type": "Literal",
-                      "start": 748,
-                      "end": 752,
                       "value": "en",
-                      "raw": "\"en\""
+                      "raw": "\"en\"",
+                      "start": 748,
+                      "end": 752
                     },
                     {
                       "type": "ObjectExpression",
-                      "start": 754,
-                      "end": 771,
                       "properties": [
                         {
                           "type": "Property",
-                          "start": 755,
-                          "end": 770,
                           "kind": "init",
                           "key": {
                             "type": "Identifier",
+                            "name": "numberingSystem",
                             "start": 755,
-                            "end": 770,
-                            "name": "numberingSystem"
+                            "end": 770
                           },
                           "value": {
                             "type": "Identifier",
+                            "name": "numberingSystem",
                             "start": 755,
-                            "end": 770,
-                            "name": "numberingSystem"
+                            "end": 770
                           },
                           "method": false,
                           "shorthand": true,
-                          "computed": false
+                          "computed": false,
+                          "start": 755,
+                          "end": 770
                         }
-                      ]
+                      ],
+                      "start": 754,
+                      "end": 771
                     }
-                  ]
-                }
+                  ],
+                  "start": 724,
+                  "end": 772
+                },
+                "start": 718,
+                "end": 772
               }
-            ]
+            ],
+            "start": 712,
+            "end": 773
           },
           {
             "type": "ExpressionStatement",
-            "start": 776,
-            "end": 902,
             "expression": {
               "type": "CallExpression",
-              "start": 776,
-              "end": 901,
               "callee": {
                 "type": "MemberExpression",
-                "start": 776,
-                "end": 792,
                 "object": {
                   "type": "Identifier",
+                  "name": "assert",
                   "start": 776,
-                  "end": 782,
-                  "name": "assert"
+                  "end": 782
                 },
                 "property": {
                   "type": "Identifier",
+                  "name": "sameValue",
                   "start": 783,
-                  "end": 792,
-                  "name": "sameValue"
+                  "end": 792
                 },
                 "optional": false,
-                "computed": false
+                "computed": false,
+                "start": 776,
+                "end": 792
               },
               "arguments": [
                 {
                   "type": "MemberExpression",
-                  "start": 793,
-                  "end": 830,
                   "object": {
                     "type": "CallExpression",
-                    "start": 793,
-                    "end": 814,
                     "callee": {
                       "type": "MemberExpression",
-                      "start": 793,
-                      "end": 812,
                       "object": {
                         "type": "Identifier",
+                        "name": "obj",
                         "start": 793,
-                        "end": 796,
-                        "name": "obj"
+                        "end": 796
                       },
                       "property": {
                         "type": "Identifier",
+                        "name": "resolvedOptions",
                         "start": 797,
-                        "end": 812,
-                        "name": "resolvedOptions"
+                        "end": 812
                       },
                       "optional": false,
-                      "computed": false
+                      "computed": false,
+                      "start": 793,
+                      "end": 812
                     },
                     "arguments": [],
-                    "optional": false
+                    "optional": false,
+                    "start": 793,
+                    "end": 814
                   },
                   "property": {
                     "type": "Identifier",
+                    "name": "numberingSystem",
                     "start": 815,
-                    "end": 830,
-                    "name": "numberingSystem"
+                    "end": 830
                   },
                   "optional": false,
-                  "computed": false
+                  "computed": false,
+                  "start": 793,
+                  "end": 830
                 },
                 {
                   "type": "Identifier",
+                  "name": "numberingSystem",
                   "start": 832,
-                  "end": 847,
-                  "name": "numberingSystem"
+                  "end": 847
                 },
                 {
                   "type": "TemplateLiteral",
-                  "start": 849,
-                  "end": 900,
                   "quasis": [
                     {
                       "type": "TemplateElement",
-                      "start": 850,
-                      "end": 850,
                       "value": {
                         "raw": "",
                         "cooked": ""
                       },
-                      "tail": false
+                      "tail": false,
+                      "start": 850,
+                      "end": 850
                     },
                     {
                       "type": "TemplateElement",
-                      "start": 868,
-                      "end": 899,
                       "value": {
                         "raw": " is supported by DurationFormat",
                         "cooked": " is supported by DurationFormat"
                       },
-                      "tail": true
+                      "tail": true,
+                      "start": 868,
+                      "end": 899
                     }
                   ],
                   "expressions": [
                     {
                       "type": "Identifier",
+                      "name": "numberingSystem",
                       "start": 852,
-                      "end": 867,
-                      "name": "numberingSystem"
+                      "end": 867
                     }
-                  ]
+                  ],
+                  "start": 849,
+                  "end": 900
                 }
               ],
-              "optional": false
-            }
+              "optional": false,
+              "start": 776,
+              "end": 901
+            },
+            "start": 776,
+            "end": 902
           }
-        ]
-      }
+        ],
+        "start": 708,
+        "end": 904
+      },
+      "start": 660,
+      "end": 904
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 905
 }

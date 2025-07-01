@@ -1,106 +1,106 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 491,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 372,
-      "end": 391,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 376,
-          "end": 390,
           "id": {
             "type": "Identifier",
+            "name": "my_eval",
             "start": 376,
-            "end": 383,
-            "name": "my_eval"
+            "end": 383
           },
           "init": {
             "type": "Identifier",
+            "name": "eval",
             "start": 386,
-            "end": 390,
-            "name": "eval"
-          }
+            "end": 390
+          },
+          "start": 376,
+          "end": 390
         }
-      ]
+      ],
+      "start": 372,
+      "end": 391
     },
     {
       "type": "ExpressionStatement",
-      "start": 392,
-      "end": 434,
       "expression": {
         "type": "CallExpression",
-        "start": 392,
-        "end": 433,
         "callee": {
           "type": "Identifier",
+          "name": "my_eval",
           "start": 392,
-          "end": 399,
-          "name": "my_eval"
+          "end": 399
         },
         "arguments": [
           {
             "type": "Literal",
-            "start": 400,
-            "end": 432,
             "value": "\"use strict\";\ngNonStrict();",
-            "raw": "\"\\\"use strict\\\";\\ngNonStrict();\""
+            "raw": "\"\\\"use strict\\\";\\ngNonStrict();\"",
+            "start": 400,
+            "end": 432
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 392,
+        "end": 433
+      },
+      "start": 392,
+      "end": 434
     },
     {
       "type": "FunctionDeclaration",
-      "start": 437,
-      "end": 490,
       "id": {
         "type": "Identifier",
+        "name": "gNonStrict",
         "start": 446,
-        "end": 456,
-        "name": "gNonStrict"
+        "end": 456
       },
       "generator": false,
       "async": false,
       "params": [],
       "body": {
         "type": "BlockStatement",
-        "start": 459,
-        "end": 490,
         "body": [
           {
             "type": "ReturnStatement",
-            "start": 463,
-            "end": 488,
             "argument": {
               "type": "MemberExpression",
-              "start": 470,
-              "end": 487,
               "object": {
                 "type": "Identifier",
+                "name": "gNonStrict",
                 "start": 470,
-                "end": 480,
-                "name": "gNonStrict"
+                "end": 480
               },
               "property": {
                 "type": "Identifier",
+                "name": "caller",
                 "start": 481,
-                "end": 487,
-                "name": "caller"
+                "end": 487
               },
               "optional": false,
-              "computed": false
-            }
+              "computed": false,
+              "start": 470,
+              "end": 487
+            },
+            "start": 463,
+            "end": 488
           }
-        ]
+        ],
+        "start": 459,
+        "end": 490
       },
-      "expression": false
+      "expression": false,
+      "start": 437,
+      "end": 490
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 491
 }

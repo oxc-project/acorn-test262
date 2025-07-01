@@ -1,95 +1,75 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 782,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 227,
-      "end": 299,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 231,
-          "end": 298,
           "id": {
             "type": "Identifier",
+            "name": "proto",
             "start": 231,
-            "end": 236,
-            "name": "proto"
+            "end": 236
           },
           "init": {
             "type": "ObjectExpression",
-            "start": 239,
-            "end": 298,
             "properties": [
               {
                 "type": "Property",
-                "start": 243,
-                "end": 249,
                 "kind": "init",
                 "key": {
                   "type": "Identifier",
+                  "name": "_x",
                   "start": 243,
-                  "end": 245,
-                  "name": "_x"
+                  "end": 245
                 },
                 "value": {
                   "type": "Literal",
-                  "start": 247,
-                  "end": 249,
                   "value": 42,
-                  "raw": "42"
+                  "raw": "42",
+                  "start": 247,
+                  "end": 249
                 },
                 "method": false,
                 "shorthand": false,
-                "computed": false
+                "computed": false,
+                "start": 243,
+                "end": 249
               },
               {
                 "type": "Property",
-                "start": 253,
-                "end": 296,
                 "kind": "get",
                 "key": {
                   "type": "Identifier",
+                  "name": "x",
                   "start": 257,
-                  "end": 258,
-                  "name": "x"
+                  "end": 258
                 },
                 "value": {
                   "type": "FunctionExpression",
-                  "start": 258,
-                  "end": 296,
                   "id": null,
                   "generator": false,
                   "async": false,
                   "params": [],
                   "body": {
                     "type": "BlockStatement",
-                    "start": 261,
-                    "end": 296,
                     "body": [
                       {
                         "type": "ReturnStatement",
-                        "start": 267,
-                        "end": 292,
                         "argument": {
                           "type": "BinaryExpression",
-                          "start": 274,
-                          "end": 291,
                           "left": {
                             "type": "Literal",
-                            "start": 274,
-                            "end": 281,
                             "value": "proto",
-                            "raw": "'proto'"
+                            "raw": "'proto'",
+                            "start": 274,
+                            "end": 281
                           },
                           "operator": "+",
                           "right": {
                             "type": "MemberExpression",
-                            "start": 284,
-                            "end": 291,
                             "object": {
                               "type": "ThisExpression",
                               "start": 284,
@@ -97,81 +77,83 @@
                             },
                             "property": {
                               "type": "Identifier",
+                              "name": "_x",
                               "start": 289,
-                              "end": 291,
-                              "name": "_x"
+                              "end": 291
                             },
                             "optional": false,
-                            "computed": false
-                          }
-                        }
+                            "computed": false,
+                            "start": 284,
+                            "end": 291
+                          },
+                          "start": 274,
+                          "end": 291
+                        },
+                        "start": 267,
+                        "end": 292
                       }
-                    ]
+                    ],
+                    "start": 261,
+                    "end": 296
                   },
-                  "expression": false
+                  "expression": false,
+                  "start": 258,
+                  "end": 296
                 },
                 "method": false,
                 "shorthand": false,
-                "computed": false
+                "computed": false,
+                "start": 253,
+                "end": 296
               }
-            ]
-          }
+            ],
+            "start": 239,
+            "end": 298
+          },
+          "start": 231,
+          "end": 298
         }
-      ]
+      ],
+      "start": 227,
+      "end": 299
     },
     {
       "type": "VariableDeclaration",
-      "start": 301,
-      "end": 354,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 305,
-          "end": 353,
           "id": {
             "type": "Identifier",
+            "name": "object",
             "start": 305,
-            "end": 311,
-            "name": "object"
+            "end": 311
           },
           "init": {
             "type": "ObjectExpression",
-            "start": 314,
-            "end": 353,
             "properties": [
               {
                 "type": "Property",
-                "start": 318,
-                "end": 351,
                 "kind": "get",
                 "key": {
                   "type": "Identifier",
+                  "name": "x",
                   "start": 322,
-                  "end": 323,
-                  "name": "x"
+                  "end": 323
                 },
                 "value": {
                   "type": "FunctionExpression",
-                  "start": 323,
-                  "end": 351,
                   "id": null,
                   "generator": false,
                   "async": false,
                   "params": [],
                   "body": {
                     "type": "BlockStatement",
-                    "start": 326,
-                    "end": 351,
                     "body": [
                       {
                         "type": "ReturnStatement",
-                        "start": 332,
-                        "end": 347,
                         "argument": {
                           "type": "MemberExpression",
-                          "start": 339,
-                          "end": 346,
                           "object": {
                             "type": "Super",
                             "start": 339,
@@ -179,294 +161,312 @@
                           },
                           "property": {
                             "type": "Identifier",
+                            "name": "x",
                             "start": 345,
-                            "end": 346,
-                            "name": "x"
+                            "end": 346
                           },
                           "optional": false,
-                          "computed": false
-                        }
+                          "computed": false,
+                          "start": 339,
+                          "end": 346
+                        },
+                        "start": 332,
+                        "end": 347
                       }
-                    ]
+                    ],
+                    "start": 326,
+                    "end": 351
                   },
-                  "expression": false
+                  "expression": false,
+                  "start": 323,
+                  "end": 351
                 },
                 "method": false,
                 "shorthand": false,
-                "computed": false
+                "computed": false,
+                "start": 318,
+                "end": 351
               }
-            ]
-          }
+            ],
+            "start": 314,
+            "end": 353
+          },
+          "start": 305,
+          "end": 353
         }
-      ]
+      ],
+      "start": 301,
+      "end": 354
     },
     {
       "type": "ExpressionStatement",
-      "start": 356,
-      "end": 393,
       "expression": {
         "type": "CallExpression",
-        "start": 356,
-        "end": 392,
         "callee": {
           "type": "MemberExpression",
-          "start": 356,
-          "end": 377,
           "object": {
             "type": "Identifier",
+            "name": "Object",
             "start": 356,
-            "end": 362,
-            "name": "Object"
+            "end": 362
           },
           "property": {
             "type": "Identifier",
+            "name": "setPrototypeOf",
             "start": 363,
-            "end": 377,
-            "name": "setPrototypeOf"
+            "end": 377
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 356,
+          "end": 377
         },
         "arguments": [
           {
             "type": "Identifier",
+            "name": "object",
             "start": 378,
-            "end": 384,
-            "name": "object"
+            "end": 384
           },
           {
             "type": "Identifier",
+            "name": "proto",
             "start": 386,
-            "end": 391,
-            "name": "proto"
+            "end": 391
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 356,
+        "end": 392
+      },
+      "start": 356,
+      "end": 393
     },
     {
       "type": "ExpressionStatement",
-      "start": 395,
-      "end": 532,
       "expression": {
         "type": "CallExpression",
-        "start": 395,
-        "end": 531,
         "callee": {
           "type": "MemberExpression",
-          "start": 395,
-          "end": 411,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 395,
-            "end": 401,
-            "name": "assert"
+            "end": 401
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 402,
-            "end": 411,
-            "name": "sameValue"
+            "end": 411
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 395,
+          "end": 411
         },
         "arguments": [
           {
             "type": "MemberExpression",
-            "start": 412,
-            "end": 420,
             "object": {
               "type": "Identifier",
+              "name": "object",
               "start": 412,
-              "end": 418,
-              "name": "object"
+              "end": 418
             },
             "property": {
               "type": "Identifier",
+              "name": "x",
               "start": 419,
-              "end": 420,
-              "name": "x"
+              "end": 420
             },
             "optional": false,
-            "computed": false
+            "computed": false,
+            "start": 412,
+            "end": 420
           },
           {
             "type": "Literal",
-            "start": 422,
-            "end": 431,
             "value": "proto42",
-            "raw": "'proto42'"
+            "raw": "'proto42'",
+            "start": 422,
+            "end": 431
           },
           {
             "type": "Literal",
-            "start": 433,
-            "end": 530,
             "value": "The value of `object.x` is `'proto42'`, after executing `Object.setPrototypeOf(object, proto);`",
-            "raw": "\"The value of `object.x` is `'proto42'`, after executing `Object.setPrototypeOf(object, proto);`\""
+            "raw": "\"The value of `object.x` is `'proto42'`, after executing `Object.setPrototypeOf(object, proto);`\"",
+            "start": 433,
+            "end": 530
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 395,
+        "end": 531
+      },
+      "start": 395,
+      "end": 532
     },
     {
       "type": "ExpressionStatement",
-      "start": 533,
-      "end": 658,
       "expression": {
         "type": "CallExpression",
-        "start": 533,
-        "end": 657,
         "callee": {
           "type": "MemberExpression",
-          "start": 533,
-          "end": 549,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 533,
-            "end": 539,
-            "name": "assert"
+            "end": 539
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 540,
-            "end": 549,
-            "name": "sameValue"
+            "end": 549
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 533,
+          "end": 549
         },
         "arguments": [
           {
             "type": "MemberExpression",
-            "start": 550,
-            "end": 559,
             "object": {
               "type": "Identifier",
+              "name": "object",
               "start": 550,
-              "end": 556,
-              "name": "object"
+              "end": 556
             },
             "property": {
               "type": "Identifier",
+              "name": "_x",
               "start": 557,
-              "end": 559,
-              "name": "_x"
+              "end": 559
             },
             "optional": false,
-            "computed": false
+            "computed": false,
+            "start": 550,
+            "end": 559
           },
           {
             "type": "Literal",
-            "start": 561,
-            "end": 563,
             "value": 42,
-            "raw": "42"
+            "raw": "42",
+            "start": 561,
+            "end": 563
           },
           {
             "type": "Literal",
-            "start": 565,
-            "end": 656,
             "value": "The value of `object._x` is `42`, after executing `Object.setPrototypeOf(object, proto);`",
-            "raw": "\"The value of `object._x` is `42`, after executing `Object.setPrototypeOf(object, proto);`\""
+            "raw": "\"The value of `object._x` is `42`, after executing `Object.setPrototypeOf(object, proto);`\"",
+            "start": 565,
+            "end": 656
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 533,
+        "end": 657
+      },
+      "start": 533,
+      "end": 658
     },
     {
       "type": "ExpressionStatement",
-      "start": 659,
-      "end": 781,
       "expression": {
         "type": "CallExpression",
-        "start": 659,
-        "end": 780,
         "callee": {
           "type": "MemberExpression",
-          "start": 659,
-          "end": 675,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 659,
-            "end": 665,
-            "name": "assert"
+            "end": 665
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 666,
-            "end": 675,
-            "name": "sameValue"
+            "end": 675
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 659,
+          "end": 675
         },
         "arguments": [
           {
             "type": "MemberExpression",
-            "start": 679,
-            "end": 711,
             "object": {
               "type": "CallExpression",
-              "start": 679,
-              "end": 708,
               "callee": {
                 "type": "MemberExpression",
-                "start": 679,
-                "end": 700,
                 "object": {
                   "type": "Identifier",
+                  "name": "Object",
                   "start": 679,
-                  "end": 685,
-                  "name": "Object"
+                  "end": 685
                 },
                 "property": {
                   "type": "Identifier",
+                  "name": "getPrototypeOf",
                   "start": 686,
-                  "end": 700,
-                  "name": "getPrototypeOf"
+                  "end": 700
                 },
                 "optional": false,
-                "computed": false
+                "computed": false,
+                "start": 679,
+                "end": 700
               },
               "arguments": [
                 {
                   "type": "Identifier",
+                  "name": "object",
                   "start": 701,
-                  "end": 707,
-                  "name": "object"
+                  "end": 707
                 }
               ],
-              "optional": false
+              "optional": false,
+              "start": 679,
+              "end": 708
             },
             "property": {
               "type": "Identifier",
+              "name": "_x",
               "start": 709,
-              "end": 711,
-              "name": "_x"
+              "end": 711
             },
             "optional": false,
-            "computed": false
+            "computed": false,
+            "start": 679,
+            "end": 711
           },
           {
             "type": "Literal",
-            "start": 715,
-            "end": 717,
             "value": 42,
-            "raw": "42"
+            "raw": "42",
+            "start": 715,
+            "end": 717
           },
           {
             "type": "Literal",
-            "start": 721,
-            "end": 778,
             "value": "The value of `Object.getPrototypeOf(object)._x` is `42`",
-            "raw": "\"The value of `Object.getPrototypeOf(object)._x` is `42`\""
+            "raw": "\"The value of `Object.getPrototypeOf(object)._x` is `42`\"",
+            "start": 721,
+            "end": 778
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 659,
+        "end": 780
+      },
+      "start": 659,
+      "end": 781
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 782
 }

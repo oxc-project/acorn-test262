@@ -2,584 +2,574 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 163,
   "body": [
     {
       "type": "TSTypeAliasDeclaration",
-      "start": 0,
-      "end": 55,
       "id": {
         "type": "Identifier",
-        "start": 5,
-        "end": 9,
         "decorators": [],
         "name": "Suit",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 5,
+        "end": 9
       },
       "typeParameters": null,
       "typeAnnotation": {
         "type": "TSUnionType",
-        "start": 12,
-        "end": 54,
         "types": [
           {
             "type": "TSLiteralType",
-            "start": 12,
-            "end": 20,
             "literal": {
               "type": "Literal",
-              "start": 12,
-              "end": 20,
               "value": "Hearts",
-              "raw": "'Hearts'"
-            }
+              "raw": "'Hearts'",
+              "start": 12,
+              "end": 20
+            },
+            "start": 12,
+            "end": 20
           },
           {
             "type": "TSLiteralType",
-            "start": 23,
-            "end": 31,
             "literal": {
               "type": "Literal",
-              "start": 23,
-              "end": 31,
               "value": "Spades",
-              "raw": "'Spades'"
-            }
+              "raw": "'Spades'",
+              "start": 23,
+              "end": 31
+            },
+            "start": 23,
+            "end": 31
           },
           {
             "type": "TSLiteralType",
-            "start": 34,
-            "end": 41,
             "literal": {
               "type": "Literal",
-              "start": 34,
-              "end": 41,
               "value": "Clubs",
-              "raw": "'Clubs'"
-            }
+              "raw": "'Clubs'",
+              "start": 34,
+              "end": 41
+            },
+            "start": 34,
+            "end": 41
           },
           {
             "type": "TSLiteralType",
-            "start": 44,
-            "end": 54,
             "literal": {
               "type": "Literal",
-              "start": 44,
-              "end": 54,
               "value": "Diamonds",
-              "raw": "'Diamonds'"
-            }
+              "raw": "'Diamonds'",
+              "start": 44,
+              "end": 54
+            },
+            "start": 44,
+            "end": 54
           }
-        ]
+        ],
+        "start": 12,
+        "end": 54
       },
-      "declare": false
+      "declare": false,
+      "start": 0,
+      "end": 55
     },
     {
       "type": "TSTypeAliasDeclaration",
-      "start": 56,
-      "end": 139,
       "id": {
         "type": "Identifier",
-        "start": 61,
-        "end": 65,
         "decorators": [],
         "name": "Rank",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 61,
+        "end": 65
       },
       "typeParameters": null,
       "typeAnnotation": {
         "type": "TSUnionType",
-        "start": 68,
-        "end": 138,
         "types": [
           {
             "type": "TSLiteralType",
-            "start": 68,
-            "end": 69,
             "literal": {
               "type": "Literal",
-              "start": 68,
-              "end": 69,
               "value": 0,
-              "raw": "0"
-            }
+              "raw": "0",
+              "start": 68,
+              "end": 69
+            },
+            "start": 68,
+            "end": 69
           },
           {
             "type": "TSLiteralType",
-            "start": 72,
-            "end": 73,
             "literal": {
               "type": "Literal",
-              "start": 72,
-              "end": 73,
               "value": 1,
-              "raw": "1"
-            }
+              "raw": "1",
+              "start": 72,
+              "end": 73
+            },
+            "start": 72,
+            "end": 73
           },
           {
             "type": "TSLiteralType",
-            "start": 76,
-            "end": 77,
             "literal": {
               "type": "Literal",
-              "start": 76,
-              "end": 77,
               "value": 2,
-              "raw": "2"
-            }
+              "raw": "2",
+              "start": 76,
+              "end": 77
+            },
+            "start": 76,
+            "end": 77
           },
           {
             "type": "TSLiteralType",
-            "start": 80,
-            "end": 81,
             "literal": {
               "type": "Literal",
-              "start": 80,
-              "end": 81,
               "value": 3,
-              "raw": "3"
-            }
+              "raw": "3",
+              "start": 80,
+              "end": 81
+            },
+            "start": 80,
+            "end": 81
           },
           {
             "type": "TSLiteralType",
-            "start": 84,
-            "end": 85,
             "literal": {
               "type": "Literal",
-              "start": 84,
-              "end": 85,
               "value": 4,
-              "raw": "4"
-            }
+              "raw": "4",
+              "start": 84,
+              "end": 85
+            },
+            "start": 84,
+            "end": 85
           },
           {
             "type": "TSLiteralType",
-            "start": 88,
-            "end": 89,
             "literal": {
               "type": "Literal",
-              "start": 88,
-              "end": 89,
               "value": 5,
-              "raw": "5"
-            }
+              "raw": "5",
+              "start": 88,
+              "end": 89
+            },
+            "start": 88,
+            "end": 89
           },
           {
             "type": "TSLiteralType",
-            "start": 92,
-            "end": 93,
             "literal": {
               "type": "Literal",
-              "start": 92,
-              "end": 93,
               "value": 6,
-              "raw": "6"
-            }
+              "raw": "6",
+              "start": 92,
+              "end": 93
+            },
+            "start": 92,
+            "end": 93
           },
           {
             "type": "TSLiteralType",
-            "start": 96,
-            "end": 97,
             "literal": {
               "type": "Literal",
-              "start": 96,
-              "end": 97,
               "value": 7,
-              "raw": "7"
-            }
+              "raw": "7",
+              "start": 96,
+              "end": 97
+            },
+            "start": 96,
+            "end": 97
           },
           {
             "type": "TSLiteralType",
-            "start": 100,
-            "end": 101,
             "literal": {
               "type": "Literal",
-              "start": 100,
-              "end": 101,
               "value": 8,
-              "raw": "8"
-            }
+              "raw": "8",
+              "start": 100,
+              "end": 101
+            },
+            "start": 100,
+            "end": 101
           },
           {
             "type": "TSLiteralType",
-            "start": 104,
-            "end": 105,
             "literal": {
               "type": "Literal",
-              "start": 104,
-              "end": 105,
               "value": 9,
-              "raw": "9"
-            }
+              "raw": "9",
+              "start": 104,
+              "end": 105
+            },
+            "start": 104,
+            "end": 105
           },
           {
             "type": "TSLiteralType",
-            "start": 108,
-            "end": 110,
             "literal": {
               "type": "Literal",
-              "start": 108,
-              "end": 110,
               "value": 10,
-              "raw": "10"
-            }
+              "raw": "10",
+              "start": 108,
+              "end": 110
+            },
+            "start": 108,
+            "end": 110
           },
           {
             "type": "TSLiteralType",
-            "start": 113,
-            "end": 119,
             "literal": {
               "type": "Literal",
-              "start": 113,
-              "end": 119,
               "value": "Jack",
-              "raw": "'Jack'"
-            }
+              "raw": "'Jack'",
+              "start": 113,
+              "end": 119
+            },
+            "start": 113,
+            "end": 119
           },
           {
             "type": "TSLiteralType",
-            "start": 122,
-            "end": 129,
             "literal": {
               "type": "Literal",
-              "start": 122,
-              "end": 129,
               "value": "Queen",
-              "raw": "'Queen'"
-            }
+              "raw": "'Queen'",
+              "start": 122,
+              "end": 129
+            },
+            "start": 122,
+            "end": 129
           },
           {
             "type": "TSLiteralType",
-            "start": 132,
-            "end": 138,
             "literal": {
               "type": "Literal",
-              "start": 132,
-              "end": 138,
               "value": "King",
-              "raw": "'King'"
-            }
+              "raw": "'King'",
+              "start": 132,
+              "end": 138
+            },
+            "start": 132,
+            "end": 138
           }
-        ]
+        ],
+        "start": 68,
+        "end": 138
       },
-      "declare": false
+      "declare": false,
+      "start": 56,
+      "end": 139
     },
     {
       "type": "ExportNamedDeclaration",
-      "start": 140,
-      "end": 162,
       "declaration": null,
       "specifiers": [
         {
           "type": "ExportSpecifier",
-          "start": 149,
-          "end": 153,
           "local": {
             "type": "Identifier",
-            "start": 149,
-            "end": 153,
             "decorators": [],
             "name": "Suit",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 149,
+            "end": 153
           },
           "exported": {
             "type": "Identifier",
-            "start": 149,
-            "end": 153,
             "decorators": [],
             "name": "Suit",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 149,
+            "end": 153
           },
-          "exportKind": "value"
+          "exportKind": "value",
+          "start": 149,
+          "end": 153
         },
         {
           "type": "ExportSpecifier",
-          "start": 155,
-          "end": 159,
           "local": {
             "type": "Identifier",
-            "start": 155,
-            "end": 159,
             "decorators": [],
             "name": "Rank",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 155,
+            "end": 159
           },
           "exported": {
             "type": "Identifier",
-            "start": 155,
-            "end": 159,
             "decorators": [],
             "name": "Rank",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 155,
+            "end": 159
           },
-          "exportKind": "value"
+          "exportKind": "value",
+          "start": 155,
+          "end": 159
         }
       ],
       "source": null,
       "exportKind": "value",
-      "attributes": []
+      "attributes": [],
+      "start": 140,
+      "end": 162
     }
   ],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 163
 }
 ```
 __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 97,
   "body": [
     {
       "type": "ImportDeclaration",
-      "start": 0,
-      "end": 37,
       "specifiers": [
         {
           "type": "ImportSpecifier",
-          "start": 9,
-          "end": 13,
           "imported": {
             "type": "Identifier",
-            "start": 9,
-            "end": 13,
             "decorators": [],
             "name": "Suit",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 9,
+            "end": 13
           },
           "local": {
             "type": "Identifier",
-            "start": 9,
-            "end": 13,
             "decorators": [],
             "name": "Suit",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 9,
+            "end": 13
           },
-          "importKind": "value"
+          "importKind": "value",
+          "start": 9,
+          "end": 13
         },
         {
           "type": "ImportSpecifier",
-          "start": 15,
-          "end": 19,
           "imported": {
             "type": "Identifier",
-            "start": 15,
-            "end": 19,
             "decorators": [],
             "name": "Rank",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 15,
+            "end": 19
           },
           "local": {
             "type": "Identifier",
-            "start": 15,
-            "end": 19,
             "decorators": [],
             "name": "Rank",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 15,
+            "end": 19
           },
-          "importKind": "value"
+          "importKind": "value",
+          "start": 15,
+          "end": 19
         }
       ],
       "source": {
         "type": "Literal",
-        "start": 27,
-        "end": 36,
         "value": "./Types",
-        "raw": "'./Types'"
+        "raw": "'./Types'",
+        "start": 27,
+        "end": 36
       },
       "phase": null,
       "attributes": [],
-      "importKind": "value"
+      "importKind": "value",
+      "start": 0,
+      "end": 37
     },
     {
       "type": "ExportDefaultDeclaration",
-      "start": 38,
-      "end": 96,
       "declaration": {
         "type": "ArrowFunctionExpression",
-        "start": 53,
-        "end": 95,
         "expression": true,
         "async": false,
         "typeParameters": null,
         "params": [
           {
             "type": "Identifier",
-            "start": 54,
-            "end": 64,
             "decorators": [],
             "name": "suit",
             "optional": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
-              "start": 58,
-              "end": 64,
               "typeAnnotation": {
                 "type": "TSTypeReference",
-                "start": 60,
-                "end": 64,
                 "typeName": {
                   "type": "Identifier",
-                  "start": 60,
-                  "end": 64,
                   "decorators": [],
                   "name": "Suit",
                   "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "start": 60,
+                  "end": 64
                 },
-                "typeArguments": null
-              }
-            }
+                "typeArguments": null,
+                "start": 60,
+                "end": 64
+              },
+              "start": 58,
+              "end": 64
+            },
+            "start": 54,
+            "end": 64
           },
           {
             "type": "Identifier",
-            "start": 66,
-            "end": 76,
             "decorators": [],
             "name": "rank",
             "optional": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
-              "start": 70,
-              "end": 76,
               "typeAnnotation": {
                 "type": "TSTypeReference",
-                "start": 72,
-                "end": 76,
                 "typeName": {
                   "type": "Identifier",
-                  "start": 72,
-                  "end": 76,
                   "decorators": [],
                   "name": "Rank",
                   "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "start": 72,
+                  "end": 76
                 },
-                "typeArguments": null
-              }
-            }
+                "typeArguments": null,
+                "start": 72,
+                "end": 76
+              },
+              "start": 70,
+              "end": 76
+            },
+            "start": 66,
+            "end": 76
           }
         ],
         "returnType": null,
         "body": {
           "type": "ObjectExpression",
-          "start": 82,
-          "end": 94,
           "properties": [
             {
               "type": "Property",
-              "start": 83,
-              "end": 87,
               "kind": "init",
               "key": {
                 "type": "Identifier",
-                "start": 83,
-                "end": 87,
                 "decorators": [],
                 "name": "suit",
                 "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "start": 83,
+                "end": 87
               },
               "value": {
                 "type": "Identifier",
-                "start": 83,
-                "end": 87,
                 "decorators": [],
                 "name": "suit",
                 "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "start": 83,
+                "end": 87
               },
               "method": false,
               "shorthand": true,
               "computed": false,
-              "optional": false
+              "optional": false,
+              "start": 83,
+              "end": 87
             },
             {
               "type": "Property",
-              "start": 89,
-              "end": 93,
               "kind": "init",
               "key": {
                 "type": "Identifier",
-                "start": 89,
-                "end": 93,
                 "decorators": [],
                 "name": "rank",
                 "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "start": 89,
+                "end": 93
               },
               "value": {
                 "type": "Identifier",
-                "start": 89,
-                "end": 93,
                 "decorators": [],
                 "name": "rank",
                 "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "start": 89,
+                "end": 93
               },
               "method": false,
               "shorthand": true,
               "computed": false,
-              "optional": false
+              "optional": false,
+              "start": 89,
+              "end": 93
             }
-          ]
+          ],
+          "start": 82,
+          "end": 94
         },
         "id": null,
-        "generator": false
+        "generator": false,
+        "start": 53,
+        "end": 95
       },
-      "exportKind": "value"
+      "exportKind": "value",
+      "start": 38,
+      "end": 96
     }
   ],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 97
 }
 ```
 __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 104,
   "body": [
     {
       "type": "ExportNamedDeclaration",
-      "start": 0,
-      "end": 66,
       "declaration": {
         "type": "VariableDeclaration",
-        "start": 7,
-        "end": 66,
         "kind": "let",
         "declarations": [
           {
             "type": "VariableDeclarator",
-            "start": 11,
-            "end": 65,
             "id": {
               "type": "Identifier",
-              "start": 11,
-              "end": 19,
               "decorators": [],
               "name": "lazyCard",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 11,
+              "end": 19
             },
             "init": {
               "type": "ArrowFunctionExpression",
-              "start": 22,
-              "end": 65,
               "expression": true,
               "async": false,
               "typeParameters": null,
@@ -587,170 +577,180 @@ __ESTREE_TEST__:PASS:
               "returnType": null,
               "body": {
                 "type": "CallExpression",
-                "start": 28,
-                "end": 65,
                 "callee": {
                   "type": "MemberExpression",
-                  "start": 28,
-                  "end": 49,
                   "object": {
                     "type": "ImportExpression",
-                    "start": 28,
-                    "end": 44,
                     "source": {
                       "type": "Literal",
-                      "start": 35,
-                      "end": 43,
                       "value": "./Card",
-                      "raw": "'./Card'"
+                      "raw": "'./Card'",
+                      "start": 35,
+                      "end": 43
                     },
                     "options": null,
-                    "phase": null
+                    "phase": null,
+                    "start": 28,
+                    "end": 44
                   },
                   "property": {
                     "type": "Identifier",
-                    "start": 45,
-                    "end": 49,
                     "decorators": [],
                     "name": "then",
                     "optional": false,
-                    "typeAnnotation": null
+                    "typeAnnotation": null,
+                    "start": 45,
+                    "end": 49
                   },
                   "optional": false,
-                  "computed": false
+                  "computed": false,
+                  "start": 28,
+                  "end": 49
                 },
                 "typeArguments": null,
                 "arguments": [
                   {
                     "type": "ArrowFunctionExpression",
-                    "start": 50,
-                    "end": 64,
                     "expression": true,
                     "async": false,
                     "typeParameters": null,
                     "params": [
                       {
                         "type": "Identifier",
-                        "start": 50,
-                        "end": 51,
                         "decorators": [],
                         "name": "a",
                         "optional": false,
-                        "typeAnnotation": null
+                        "typeAnnotation": null,
+                        "start": 50,
+                        "end": 51
                       }
                     ],
                     "returnType": null,
                     "body": {
                       "type": "MemberExpression",
-                      "start": 55,
-                      "end": 64,
                       "object": {
                         "type": "Identifier",
-                        "start": 55,
-                        "end": 56,
                         "decorators": [],
                         "name": "a",
                         "optional": false,
-                        "typeAnnotation": null
+                        "typeAnnotation": null,
+                        "start": 55,
+                        "end": 56
                       },
                       "property": {
                         "type": "Identifier",
-                        "start": 57,
-                        "end": 64,
                         "decorators": [],
                         "name": "default",
                         "optional": false,
-                        "typeAnnotation": null
+                        "typeAnnotation": null,
+                        "start": 57,
+                        "end": 64
                       },
                       "optional": false,
-                      "computed": false
+                      "computed": false,
+                      "start": 55,
+                      "end": 64
                     },
                     "id": null,
-                    "generator": false
+                    "generator": false,
+                    "start": 50,
+                    "end": 64
                   }
                 ],
-                "optional": false
+                "optional": false,
+                "start": 28,
+                "end": 65
               },
               "id": null,
-              "generator": false
+              "generator": false,
+              "start": 22,
+              "end": 65
             },
-            "definite": false
+            "definite": false,
+            "start": 11,
+            "end": 65
           }
         ],
-        "declare": false
+        "declare": false,
+        "start": 7,
+        "end": 66
       },
       "specifiers": [],
       "source": null,
       "exportKind": "value",
-      "attributes": []
+      "attributes": [],
+      "start": 0,
+      "end": 66
     },
     {
       "type": "ExportNamedDeclaration",
-      "start": 67,
-      "end": 104,
       "declaration": null,
       "specifiers": [
         {
           "type": "ExportSpecifier",
-          "start": 76,
-          "end": 80,
           "local": {
             "type": "Identifier",
-            "start": 76,
-            "end": 80,
             "decorators": [],
             "name": "Suit",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 76,
+            "end": 80
           },
           "exported": {
             "type": "Identifier",
-            "start": 76,
-            "end": 80,
             "decorators": [],
             "name": "Suit",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 76,
+            "end": 80
           },
-          "exportKind": "value"
+          "exportKind": "value",
+          "start": 76,
+          "end": 80
         },
         {
           "type": "ExportSpecifier",
-          "start": 82,
-          "end": 86,
           "local": {
             "type": "Identifier",
-            "start": 82,
-            "end": 86,
             "decorators": [],
             "name": "Rank",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 82,
+            "end": 86
           },
           "exported": {
             "type": "Identifier",
-            "start": 82,
-            "end": 86,
             "decorators": [],
             "name": "Rank",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 82,
+            "end": 86
           },
-          "exportKind": "value"
+          "exportKind": "value",
+          "start": 82,
+          "end": 86
         }
       ],
       "source": {
         "type": "Literal",
-        "start": 94,
-        "end": 103,
         "value": "./Types",
-        "raw": "'./Types'"
+        "raw": "'./Types'",
+        "start": 94,
+        "end": 103
       },
       "exportKind": "value",
-      "attributes": []
+      "attributes": [],
+      "start": 67,
+      "end": 104
     }
   ],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 104
 }
 ```

@@ -1,101 +1,101 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 416,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 300,
-      "end": 415,
       "expression": {
         "type": "CallExpression",
-        "start": 300,
-        "end": 414,
         "callee": {
           "type": "MemberExpression",
-          "start": 300,
-          "end": 316,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 300,
-            "end": 306,
-            "name": "assert"
+            "end": 306
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 307,
-            "end": 316,
-            "name": "sameValue"
+            "end": 316
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 300,
+          "end": 316
         },
         "arguments": [
           {
             "type": "UnaryExpression",
-            "start": 320,
-            "end": 352,
             "operator": "typeof",
             "argument": {
               "type": "CallExpression",
-              "start": 327,
-              "end": 352,
               "callee": {
                 "type": "MemberExpression",
-                "start": 327,
-                "end": 350,
                 "object": {
                   "type": "MemberExpression",
-                  "start": 327,
-                  "end": 339,
                   "object": {
                     "type": "Identifier",
+                    "name": "Temporal",
                     "start": 327,
-                    "end": 335,
-                    "name": "Temporal"
+                    "end": 335
                   },
                   "property": {
                     "type": "Identifier",
+                    "name": "Now",
                     "start": 336,
-                    "end": 339,
-                    "name": "Now"
+                    "end": 339
                   },
                   "optional": false,
-                  "computed": false
+                  "computed": false,
+                  "start": 327,
+                  "end": 339
                 },
                 "property": {
                   "type": "Identifier",
+                  "name": "timeZoneId",
                   "start": 340,
-                  "end": 350,
-                  "name": "timeZoneId"
+                  "end": 350
                 },
                 "optional": false,
-                "computed": false
+                "computed": false,
+                "start": 327,
+                "end": 350
               },
               "arguments": [],
-              "optional": false
+              "optional": false,
+              "start": 327,
+              "end": 352
             },
-            "prefix": true
+            "prefix": true,
+            "start": 320,
+            "end": 352
           },
           {
             "type": "Literal",
-            "start": 356,
-            "end": 364,
             "value": "string",
-            "raw": "\"string\""
+            "raw": "\"string\"",
+            "start": 356,
+            "end": 364
           },
           {
             "type": "Literal",
-            "start": 368,
-            "end": 412,
             "value": "Temporal.Now.timeZoneId() returns a string",
-            "raw": "\"Temporal.Now.timeZoneId() returns a string\""
+            "raw": "\"Temporal.Now.timeZoneId() returns a string\"",
+            "start": 368,
+            "end": 412
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 300,
+        "end": 414
+      },
+      "start": 300,
+      "end": 415
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 416
 }

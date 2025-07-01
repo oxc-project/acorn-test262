@@ -2,21 +2,17 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 72,
   "body": [
     {
       "type": "FunctionDeclaration",
-      "start": 0,
-      "end": 42,
       "id": {
         "type": "Identifier",
-        "start": 9,
-        "end": 16,
         "decorators": [],
         "name": "declare",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 9,
+        "end": 16
       },
       "generator": false,
       "async": false,
@@ -25,123 +21,127 @@ __ESTREE_TEST__:PASS:
       "params": [
         {
           "type": "Identifier",
-          "start": 17,
-          "end": 23,
           "decorators": [],
           "name": "x",
           "optional": false,
           "typeAnnotation": {
             "type": "TSTypeAnnotation",
-            "start": 18,
-            "end": 23,
             "typeAnnotation": {
               "type": "TSAnyKeyword",
               "start": 20,
               "end": 23
-            }
-          }
+            },
+            "start": 18,
+            "end": 23
+          },
+          "start": 17,
+          "end": 23
         },
         {
           "type": "RestElement",
-          "start": 25,
-          "end": 37,
           "decorators": [],
           "argument": {
             "type": "Identifier",
-            "start": 28,
-            "end": 30,
             "decorators": [],
             "name": "ys",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 28,
+            "end": 30
           },
           "optional": false,
           "typeAnnotation": {
             "type": "TSTypeAnnotation",
-            "start": 30,
-            "end": 37,
             "typeAnnotation": {
               "type": "TSArrayType",
-              "start": 32,
-              "end": 37,
               "elementType": {
                 "type": "TSAnyKeyword",
                 "start": 32,
                 "end": 35
-              }
-            }
+              },
+              "start": 32,
+              "end": 37
+            },
+            "start": 30,
+            "end": 37
           },
-          "value": null
+          "value": null,
+          "start": 25,
+          "end": 37
         }
       ],
       "returnType": null,
       "body": {
         "type": "BlockStatement",
+        "body": [],
         "start": 39,
-        "end": 42,
-        "body": []
+        "end": 42
       },
-      "expression": false
+      "expression": false,
+      "start": 0,
+      "end": 42
     },
     {
       "type": "ExpressionStatement",
-      "start": 44,
-      "end": 72,
       "expression": {
         "type": "TaggedTemplateExpression",
-        "start": 44,
-        "end": 71,
         "tag": {
           "type": "Identifier",
-          "start": 44,
-          "end": 51,
           "decorators": [],
           "name": "declare",
           "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "start": 44,
+          "end": 51
         },
         "typeArguments": null,
         "quasi": {
           "type": "TemplateLiteral",
-          "start": 52,
-          "end": 71,
           "quasis": [
             {
               "type": "TemplateElement",
-              "start": 52,
-              "end": 61,
               "value": {
                 "raw": "Hello ",
                 "cooked": "Hello "
               },
-              "tail": false
+              "tail": false,
+              "start": 52,
+              "end": 61
             },
             {
               "type": "TemplateElement",
-              "start": 62,
-              "end": 71,
               "value": {
                 "raw": " world!",
                 "cooked": " world!"
               },
-              "tail": true
+              "tail": true,
+              "start": 62,
+              "end": 71
             }
           ],
           "expressions": [
             {
               "type": "Literal",
-              "start": 61,
-              "end": 62,
               "value": 0,
-              "raw": "0"
+              "raw": "0",
+              "start": 61,
+              "end": 62
             }
-          ]
-        }
+          ],
+          "start": 52,
+          "end": 71
+        },
+        "start": 44,
+        "end": 71
       },
-      "directive": null
+      "directive": null,
+      "start": 44,
+      "end": 72
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 72
 }
 ```

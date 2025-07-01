@@ -2,360 +2,360 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 265,
   "body": [
     {
       "type": "ImportDeclaration",
-      "start": 0,
-      "end": 25,
       "specifiers": [
         {
           "type": "ImportNamespaceSpecifier",
-          "start": 7,
-          "end": 14,
           "local": {
             "type": "Identifier",
-            "start": 12,
-            "end": 14,
             "decorators": [],
             "name": "fs",
             "optional": false,
-            "typeAnnotation": null
-          }
+            "typeAnnotation": null,
+            "start": 12,
+            "end": 14
+          },
+          "start": 7,
+          "end": 14
         }
       ],
       "source": {
         "type": "Literal",
-        "start": 20,
-        "end": 24,
         "value": "fs",
-        "raw": "'fs'"
+        "raw": "'fs'",
+        "start": 20,
+        "end": 24
       },
       "phase": null,
       "attributes": [],
-      "importKind": "value"
+      "importKind": "value",
+      "start": 0,
+      "end": 25
     },
     {
       "type": "ImportDeclaration",
-      "start": 26,
-      "end": 74,
       "specifiers": [
         {
           "type": "ImportDefaultSpecifier",
-          "start": 33,
-          "end": 48,
           "local": {
             "type": "Identifier",
-            "start": 33,
-            "end": 48,
             "decorators": [],
             "name": "TruffleContract",
             "optional": false,
-            "typeAnnotation": null
-          }
+            "typeAnnotation": null,
+            "start": 33,
+            "end": 48
+          },
+          "start": 33,
+          "end": 48
         }
       ],
       "source": {
         "type": "Literal",
-        "start": 54,
-        "end": 73,
         "value": "@truffle/contract",
-        "raw": "'@truffle/contract'"
+        "raw": "'@truffle/contract'",
+        "start": 54,
+        "end": 73
       },
       "phase": null,
       "attributes": [],
-      "importKind": "value"
+      "importKind": "value",
+      "start": 26,
+      "end": 74
     },
     {
       "type": "ExpressionStatement",
-      "start": 126,
-      "end": 142,
       "expression": {
         "type": "CallExpression",
-        "start": 126,
-        "end": 141,
         "callee": {
           "type": "MemberExpression",
-          "start": 126,
-          "end": 137,
           "object": {
             "type": "Identifier",
-            "start": 126,
-            "end": 133,
             "decorators": [],
             "name": "console",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 126,
+            "end": 133
           },
           "property": {
             "type": "Identifier",
-            "start": 134,
-            "end": 137,
             "decorators": [],
             "name": "log",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 134,
+            "end": 137
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 126,
+          "end": 137
         },
         "typeArguments": null,
         "arguments": [
           {
             "type": "Identifier",
-            "start": 138,
-            "end": 140,
             "decorators": [],
             "name": "fs",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 138,
+            "end": 140
           }
         ],
-        "optional": false
+        "optional": false,
+        "start": 126,
+        "end": 141
       },
-      "directive": null
+      "directive": null,
+      "start": 126,
+      "end": 142
     },
     {
       "type": "ExpressionStatement",
-      "start": 143,
-      "end": 219,
       "expression": {
         "type": "CallExpression",
-        "start": 143,
-        "end": 218,
         "callee": {
           "type": "MemberExpression",
-          "start": 143,
-          "end": 154,
           "object": {
             "type": "Identifier",
-            "start": 143,
-            "end": 150,
             "decorators": [],
             "name": "console",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 143,
+            "end": 150
           },
           "property": {
             "type": "Identifier",
-            "start": 151,
-            "end": 154,
             "decorators": [],
             "name": "log",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 151,
+            "end": 154
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 143,
+          "end": 154
         },
         "typeArguments": null,
         "arguments": [
           {
             "type": "Literal",
-            "start": 155,
-            "end": 176,
             "value": "TruffleContract is ",
-            "raw": "'TruffleContract is '"
+            "raw": "'TruffleContract is '",
+            "start": 155,
+            "end": 176
           },
           {
             "type": "UnaryExpression",
-            "start": 178,
-            "end": 200,
             "operator": "typeof",
             "argument": {
               "type": "Identifier",
-              "start": 185,
-              "end": 200,
               "decorators": [],
               "name": "TruffleContract",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 185,
+              "end": 200
             },
-            "prefix": true
+            "prefix": true,
+            "start": 178,
+            "end": 200
           },
           {
             "type": "Identifier",
-            "start": 202,
-            "end": 217,
             "decorators": [],
             "name": "TruffleContract",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 202,
+            "end": 217
           }
         ],
-        "optional": false
+        "optional": false,
+        "start": 143,
+        "end": 218
       },
-      "directive": null
+      "directive": null,
+      "start": 143,
+      "end": 219
     }
   ],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 265
 }
 ```
 __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 217,
   "body": [
     {
       "type": "TSModuleDeclaration",
-      "start": 0,
-      "end": 217,
       "id": {
         "type": "Literal",
-        "start": 15,
-        "end": 34,
         "value": "@truffle/contract",
-        "raw": "\"@truffle/contract\""
+        "raw": "\"@truffle/contract\"",
+        "start": 15,
+        "end": 34
       },
       "body": {
         "type": "TSModuleBlock",
-        "start": 35,
-        "end": 217,
         "body": [
           {
             "type": "TSInterfaceDeclaration",
-            "start": 41,
-            "end": 94,
             "id": {
               "type": "Identifier",
-              "start": 51,
-              "end": 65,
               "decorators": [],
               "name": "ContractObject",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 51,
+              "end": 65
             },
             "typeParameters": null,
             "extends": [],
             "body": {
               "type": "TSInterfaceBody",
-              "start": 66,
-              "end": 94,
               "body": [
                 {
                   "type": "TSPropertySignature",
-                  "start": 76,
-                  "end": 88,
                   "computed": false,
                   "optional": false,
                   "readonly": false,
                   "key": {
                     "type": "Identifier",
-                    "start": 76,
-                    "end": 79,
                     "decorators": [],
                     "name": "foo",
                     "optional": false,
-                    "typeAnnotation": null
+                    "typeAnnotation": null,
+                    "start": 76,
+                    "end": 79
                   },
                   "typeAnnotation": {
                     "type": "TSTypeAnnotation",
-                    "start": 79,
-                    "end": 87,
                     "typeAnnotation": {
                       "type": "TSNumberKeyword",
                       "start": 81,
                       "end": 87
-                    }
+                    },
+                    "start": 79,
+                    "end": 87
                   },
                   "accessibility": null,
-                  "static": false
+                  "static": false,
+                  "start": 76,
+                  "end": 88
                 }
-              ]
+              ],
+              "start": 66,
+              "end": 94
             },
-            "declare": false
+            "declare": false,
+            "start": 41,
+            "end": 94
           },
           {
             "type": "TSModuleDeclaration",
-            "start": 99,
-            "end": 179,
             "id": {
               "type": "Identifier",
-              "start": 109,
-              "end": 124,
               "decorators": [],
               "name": "TruffleContract",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 109,
+              "end": 124
             },
             "body": {
               "type": "TSModuleBlock",
-              "start": 125,
-              "end": 179,
               "body": [
                 {
                   "type": "ExportNamedDeclaration",
-                  "start": 135,
-                  "end": 173,
                   "declaration": {
                     "type": "TSTypeAliasDeclaration",
-                    "start": 142,
-                    "end": 173,
                     "id": {
                       "type": "Identifier",
-                      "start": 147,
-                      "end": 155,
                       "decorators": [],
                       "name": "Contract",
                       "optional": false,
-                      "typeAnnotation": null
+                      "typeAnnotation": null,
+                      "start": 147,
+                      "end": 155
                     },
                     "typeParameters": null,
                     "typeAnnotation": {
                       "type": "TSTypeReference",
-                      "start": 158,
-                      "end": 172,
                       "typeName": {
                         "type": "Identifier",
-                        "start": 158,
-                        "end": 172,
                         "decorators": [],
                         "name": "ContractObject",
                         "optional": false,
-                        "typeAnnotation": null
+                        "typeAnnotation": null,
+                        "start": 158,
+                        "end": 172
                       },
-                      "typeArguments": null
+                      "typeArguments": null,
+                      "start": 158,
+                      "end": 172
                     },
-                    "declare": false
+                    "declare": false,
+                    "start": 142,
+                    "end": 173
                   },
                   "specifiers": [],
                   "source": null,
                   "exportKind": "type",
-                  "attributes": []
+                  "attributes": [],
+                  "start": 135,
+                  "end": 173
                 }
-              ]
+              ],
+              "start": 125,
+              "end": 179
             },
             "kind": "namespace",
             "declare": false,
-            "global": false
+            "global": false,
+            "start": 99,
+            "end": 179
           },
           {
             "type": "ExportDefaultDeclaration",
-            "start": 184,
-            "end": 215,
             "declaration": {
               "type": "Identifier",
-              "start": 199,
-              "end": 214,
               "decorators": [],
               "name": "TruffleContract",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 199,
+              "end": 214
             },
-            "exportKind": "value"
+            "exportKind": "value",
+            "start": 184,
+            "end": 215
           }
-        ]
+        ],
+        "start": 35,
+        "end": 217
       },
       "kind": "module",
       "declare": true,
-      "global": false
+      "global": false,
+      "start": 0,
+      "end": 217
     }
   ],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 217
 }
 ```

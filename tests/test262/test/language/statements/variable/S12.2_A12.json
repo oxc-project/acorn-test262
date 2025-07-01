@@ -1,120 +1,120 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 600,
   "body": [
     {
       "type": "TryStatement",
-      "start": 371,
-      "end": 491,
       "block": {
         "type": "BlockStatement",
-        "start": 375,
-        "end": 384,
         "body": [
           {
             "type": "ExpressionStatement",
-            "start": 378,
-            "end": 382,
             "expression": {
               "type": "AssignmentExpression",
-              "start": 378,
-              "end": 381,
               "operator": "=",
               "left": {
                 "type": "Identifier",
+                "name": "x",
                 "start": 378,
-                "end": 379,
-                "name": "x"
+                "end": 379
               },
               "right": {
                 "type": "Identifier",
+                "name": "x",
                 "start": 380,
-                "end": 381,
-                "name": "x"
-              }
-            }
+                "end": 381
+              },
+              "start": 378,
+              "end": 381
+            },
+            "start": 378,
+            "end": 382
           }
-        ]
+        ],
+        "start": 375,
+        "end": 384
       },
       "handler": {
         "type": "CatchClause",
-        "start": 385,
-        "end": 491,
         "param": {
           "type": "Identifier",
+          "name": "e",
           "start": 392,
-          "end": 393,
-          "name": "e"
+          "end": 393
         },
         "body": {
           "type": "BlockStatement",
-          "start": 395,
-          "end": 491,
           "body": [
             {
               "type": "ThrowStatement",
-              "start": 398,
-              "end": 489,
               "argument": {
                 "type": "NewExpression",
-                "start": 404,
-                "end": 488,
                 "callee": {
                   "type": "Identifier",
+                  "name": "Test262Error",
                   "start": 408,
-                  "end": 420,
-                  "name": "Test262Error"
+                  "end": 420
                 },
                 "arguments": [
                   {
                     "type": "Literal",
-                    "start": 421,
-                    "end": 487,
                     "value": "#1: Declaration variable inside \"do-while\" statement is admitted",
-                    "raw": "'#1: Declaration variable inside \"do-while\" statement is admitted'"
+                    "raw": "'#1: Declaration variable inside \"do-while\" statement is admitted'",
+                    "start": 421,
+                    "end": 487
                   }
-                ]
-              }
+                ],
+                "start": 404,
+                "end": 488
+              },
+              "start": 398,
+              "end": 489
             }
-          ]
-        }
+          ],
+          "start": 395,
+          "end": 491
+        },
+        "start": 385,
+        "end": 491
       },
-      "finalizer": null
+      "finalizer": null,
+      "start": 371,
+      "end": 491
     },
     {
       "type": "DoWhileStatement",
-      "start": 575,
-      "end": 599,
       "body": {
         "type": "VariableDeclaration",
-        "start": 578,
-        "end": 584,
         "kind": "var",
         "declarations": [
           {
             "type": "VariableDeclarator",
-            "start": 582,
-            "end": 583,
             "id": {
               "type": "Identifier",
+              "name": "x",
               "start": 582,
-              "end": 583,
-              "name": "x"
+              "end": 583
             },
-            "init": null
+            "init": null,
+            "start": 582,
+            "end": 583
           }
-        ]
+        ],
+        "start": 578,
+        "end": 584
       },
       "test": {
         "type": "Literal",
-        "start": 592,
-        "end": 597,
         "value": false,
-        "raw": "false"
-      }
+        "raw": "false",
+        "start": 592,
+        "end": 597
+      },
+      "start": 575,
+      "end": 599
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 600
 }

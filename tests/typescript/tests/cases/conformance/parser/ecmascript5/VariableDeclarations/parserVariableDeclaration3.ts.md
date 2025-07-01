@@ -2,21 +2,17 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 244,
   "body": [
     {
       "type": "FunctionDeclaration",
-      "start": 0,
-      "end": 244,
       "id": {
         "type": "Identifier",
-        "start": 9,
-        "end": 17,
         "decorators": [],
         "name": "runTests",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 9,
+        "end": 17
       },
       "generator": false,
       "async": false,
@@ -26,257 +22,261 @@ __ESTREE_TEST__:PASS:
       "returnType": null,
       "body": {
         "type": "BlockStatement",
-        "start": 20,
-        "end": 244,
         "body": [
           {
             "type": "VariableDeclaration",
-            "start": 26,
-            "end": 242,
             "kind": "var",
             "declarations": [
               {
                 "type": "VariableDeclarator",
-                "start": 30,
-                "end": 79,
                 "id": {
                   "type": "Identifier",
-                  "start": 30,
-                  "end": 37,
                   "decorators": [],
                   "name": "outfile",
                   "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "start": 30,
+                  "end": 37
                 },
                 "init": {
                   "type": "NewExpression",
-                  "start": 40,
-                  "end": 79,
                   "callee": {
                     "type": "MemberExpression",
-                    "start": 44,
-                    "end": 77,
                     "object": {
                       "type": "MemberExpression",
-                      "start": 44,
-                      "end": 60,
                       "object": {
                         "type": "Identifier",
-                        "start": 44,
-                        "end": 51,
                         "decorators": [],
                         "name": "Harness",
                         "optional": false,
-                        "typeAnnotation": null
+                        "typeAnnotation": null,
+                        "start": 44,
+                        "end": 51
                       },
                       "property": {
                         "type": "Identifier",
-                        "start": 52,
-                        "end": 60,
                         "decorators": [],
                         "name": "Compiler",
                         "optional": false,
-                        "typeAnnotation": null
+                        "typeAnnotation": null,
+                        "start": 52,
+                        "end": 60
                       },
                       "optional": false,
-                      "computed": false
+                      "computed": false,
+                      "start": 44,
+                      "end": 60
                     },
                     "property": {
                       "type": "Identifier",
-                      "start": 61,
-                      "end": 77,
                       "decorators": [],
                       "name": "WriterAggregator",
                       "optional": false,
-                      "typeAnnotation": null
+                      "typeAnnotation": null,
+                      "start": 61,
+                      "end": 77
                     },
                     "optional": false,
-                    "computed": false
+                    "computed": false,
+                    "start": 44,
+                    "end": 77
                   },
                   "typeArguments": null,
-                  "arguments": []
+                  "arguments": [],
+                  "start": 40,
+                  "end": 79
                 },
-                "definite": false
+                "definite": false,
+                "start": 30,
+                "end": 79
               },
               {
                 "type": "VariableDeclarator",
-                "start": 88,
-                "end": 136,
                 "id": {
                   "type": "Identifier",
-                  "start": 88,
-                  "end": 94,
                   "decorators": [],
                   "name": "outerr",
                   "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "start": 88,
+                  "end": 94
                 },
                 "init": {
                   "type": "NewExpression",
-                  "start": 97,
-                  "end": 136,
                   "callee": {
                     "type": "MemberExpression",
-                    "start": 101,
-                    "end": 134,
                     "object": {
                       "type": "MemberExpression",
-                      "start": 101,
-                      "end": 117,
                       "object": {
                         "type": "Identifier",
-                        "start": 101,
-                        "end": 108,
                         "decorators": [],
                         "name": "Harness",
                         "optional": false,
-                        "typeAnnotation": null
+                        "typeAnnotation": null,
+                        "start": 101,
+                        "end": 108
                       },
                       "property": {
                         "type": "Identifier",
-                        "start": 109,
-                        "end": 117,
                         "decorators": [],
                         "name": "Compiler",
                         "optional": false,
-                        "typeAnnotation": null
+                        "typeAnnotation": null,
+                        "start": 109,
+                        "end": 117
                       },
                       "optional": false,
-                      "computed": false
+                      "computed": false,
+                      "start": 101,
+                      "end": 117
                     },
                     "property": {
                       "type": "Identifier",
-                      "start": 118,
-                      "end": 134,
                       "decorators": [],
                       "name": "WriterAggregator",
                       "optional": false,
-                      "typeAnnotation": null
+                      "typeAnnotation": null,
+                      "start": 118,
+                      "end": 134
                     },
                     "optional": false,
-                    "computed": false
+                    "computed": false,
+                    "start": 101,
+                    "end": 134
                   },
                   "typeArguments": null,
-                  "arguments": []
+                  "arguments": [],
+                  "start": 97,
+                  "end": 136
                 },
-                "definite": false
+                "definite": false,
+                "start": 88,
+                "end": 136
               },
               {
                 "type": "VariableDeclarator",
-                "start": 145,
-                "end": 228,
                 "id": {
                   "type": "Identifier",
-                  "start": 145,
-                  "end": 153,
                   "decorators": [],
                   "name": "compiler",
                   "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "start": 145,
+                  "end": 153
                 },
                 "init": {
                   "type": "TSTypeAssertion",
-                  "start": 156,
-                  "end": 228,
                   "typeAnnotation": {
                     "type": "TSTypeReference",
-                    "start": 157,
-                    "end": 186,
                     "typeName": {
                       "type": "TSQualifiedName",
-                      "start": 157,
-                      "end": 186,
                       "left": {
                         "type": "Identifier",
-                        "start": 157,
-                        "end": 167,
                         "decorators": [],
                         "name": "TypeScript",
                         "optional": false,
-                        "typeAnnotation": null
+                        "typeAnnotation": null,
+                        "start": 157,
+                        "end": 167
                       },
                       "right": {
                         "type": "Identifier",
-                        "start": 168,
-                        "end": 186,
                         "decorators": [],
                         "name": "TypeScriptCompiler",
                         "optional": false,
-                        "typeAnnotation": null
-                      }
+                        "typeAnnotation": null,
+                        "start": 168,
+                        "end": 186
+                      },
+                      "start": 157,
+                      "end": 186
                     },
-                    "typeArguments": null
+                    "typeArguments": null,
+                    "start": 157,
+                    "end": 186
                   },
                   "expression": {
                     "type": "NewExpression",
-                    "start": 187,
-                    "end": 228,
                     "callee": {
                       "type": "MemberExpression",
-                      "start": 191,
-                      "end": 220,
                       "object": {
                         "type": "Identifier",
-                        "start": 191,
-                        "end": 201,
                         "decorators": [],
                         "name": "TypeScript",
                         "optional": false,
-                        "typeAnnotation": null
+                        "typeAnnotation": null,
+                        "start": 191,
+                        "end": 201
                       },
                       "property": {
                         "type": "Identifier",
-                        "start": 202,
-                        "end": 220,
                         "decorators": [],
                         "name": "TypeScriptCompiler",
                         "optional": false,
-                        "typeAnnotation": null
+                        "typeAnnotation": null,
+                        "start": 202,
+                        "end": 220
                       },
                       "optional": false,
-                      "computed": false
+                      "computed": false,
+                      "start": 191,
+                      "end": 220
                     },
                     "typeArguments": null,
                     "arguments": [
                       {
                         "type": "Identifier",
-                        "start": 221,
-                        "end": 227,
                         "decorators": [],
                         "name": "outerr",
                         "optional": false,
-                        "typeAnnotation": null
+                        "typeAnnotation": null,
+                        "start": 221,
+                        "end": 227
                       }
-                    ]
-                  }
+                    ],
+                    "start": 187,
+                    "end": 228
+                  },
+                  "start": 156,
+                  "end": 228
                 },
-                "definite": false
+                "definite": false,
+                "start": 145,
+                "end": 228
               },
               {
                 "type": "VariableDeclarator",
-                "start": 237,
-                "end": 241,
                 "id": {
                   "type": "Identifier",
-                  "start": 237,
-                  "end": 241,
                   "decorators": [],
                   "name": "code",
                   "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "start": 237,
+                  "end": 241
                 },
                 "init": null,
-                "definite": false
+                "definite": false,
+                "start": 237,
+                "end": 241
               }
             ],
-            "declare": false
+            "declare": false,
+            "start": 26,
+            "end": 242
           }
-        ]
+        ],
+        "start": 20,
+        "end": 244
       },
-      "expression": false
+      "expression": false,
+      "start": 0,
+      "end": 244
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 244
 }
 ```
