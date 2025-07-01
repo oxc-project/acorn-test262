@@ -101,24 +101,15 @@ function fixMeriyahNode(node) {
   } else if (type === 'ArrowFunctionExpression') {
     // `id` field is not in ESTree spec. Not sure why Acorn includes it.
     if (!Object.hasOwn(node, 'id')) node.id = null;
-  } else if (type === 'PropertyDefinition') {
-    // Property's span should encompass decorators.
-    // What is correct has been a matter of some debate on Babel and TS-ESLint. This matches TS-ESLint.
-    // https://github.com/meriyah/meriyah/issues/416
-    if (node.decorators && node.decorators.length > 0) node.start = node.decorators[0].start;
-  } else if (type === 'MethodDefinition') {
-    // Method's span should encompass decorators.
-    // What is correct has been a matter of some debate on Babel and TS-ESLint. This matches TS-ESLint.
-    // https://github.com/meriyah/meriyah/issues/417
-    if (node.decorators && node.decorators.length > 0) node.start = node.decorators[0].start;
   } else if (type === 'Decorator') {
-    // Wrong `start` for `CallExpression` as decorator.
-    // e.g. `@dec() class C {}` - `CallExpression`'s start should be 1 not 0.
+    // Wrong `start` for `CallExpression` or `MemberExpression` as decorator.
+    // e.g. `@dec() class C {}` - `CallExpression`'s start should be 1 not 4.
+    // e.g. `@x.y class C {}` - `MemberExpression`'s start should be 1 not 2.
     // https://github.com/meriyah/meriyah/issues/420
-    if (node.expression.type === 'CallExpression') node.expression.start = node.expression.callee.start;
-    // Wrong `start` for `MemberExpression` as decorator.
-    // e.g. `@x.y() class C {}` - `MemberExpression`'s start should be 1 not 0.
-    // https://github.com/meriyah/meriyah/issues/420
-    if (node.expression.type === 'MemberExpression') node.expression.start = node.expression.object.start;
+    if (node.expression.type === 'CallExpression') {
+      node.expression.start = node.expression.callee.start;
+    } else if (node.expression.type === 'MemberExpression') {
+      node.expression.start = node.expression.object.start;
+    }
   }
 }
