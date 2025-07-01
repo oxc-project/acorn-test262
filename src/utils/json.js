@@ -44,7 +44,7 @@ export function transformerAcorn(_key, value) {
   const keys = fieldOrders[type];
   if (!keys) return value;
 
-  const reordered = { type, start: value.start, end: value.end };
+  const reordered = { type };
   for (const key of keys) {
     if (key === 'type' || key === 'span') continue;
     if (Object.hasOwn(value, key)) reordered[key] = value[key];
@@ -54,6 +54,8 @@ export function transformerAcorn(_key, value) {
     if (['type', 'start', 'end', 'range'].includes(key) || keys.includes(key)) continue;
     reordered[key] = value[key];
   }
+  reordered.start = value.start;
+  reordered.end = value.end;
   return reordered;
 }
 
@@ -97,10 +99,9 @@ export function transformerTs(_key, value) {
     }
   }
 
-  // Convert `range` field to `start` + `end`
-  const reordered = { type, start: value.range[0], end: value.range[1] };
-
   // Re-order fields
+  const reordered = { type };
+
   const keys = fieldOrders[type];
   if (keys) {
     for (const key of keys) {
@@ -115,6 +116,10 @@ export function transformerTs(_key, value) {
     const { range, loc, ...fields } = value;
     Object.assign(reordered, fields);
   }
+
+  // Convert `range` field to `start` + `end`
+  reordered.start = value.range[0];
+  reordered.end = value.range[1];
 
   return reordered;
 }
