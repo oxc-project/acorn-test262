@@ -16,7 +16,7 @@
     "gen-typescript": "node src/typescript-eslint.js"
   },
   "devDependencies": {
-    "@typescript-eslint/parser": "^8.34.1",
+    "@typescript-eslint/parser": "^8.35.1",
     "acorn": "8.15.0",
     "estree-walker": "^3.0.3",
     "meriyah": "^6.1.4",
