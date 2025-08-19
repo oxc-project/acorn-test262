@@ -6,7 +6,7 @@ import { run } from './utils/run.js';
 
 const disallow = [
   // Meriyah failed to produce syntax error for the following case.
-  "test/annexB/language/expressions/assignmenttargettype/cover-callexpression-and-asyncarrowhead.js"
+  'test/annexB/language/expressions/assignmenttargettype/cover-callexpression-and-asyncarrowhead.js',
 ];
 
 await run({
@@ -14,9 +14,9 @@ await run({
   subDirectory: 'test',
   filter(path) {
     if (disallow.includes(path)) {
-      return false
+      return false;
     }
-    return path.endsWith('.js') && !path.includes('_FIXTURE') && !path.includes('staging')
+    return path.endsWith('.js') && !path.includes('_FIXTURE') && !path.includes('staging');
   },
   transform: transformerAcorn,
   async process(path, code) {
