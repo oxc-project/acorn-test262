@@ -1,0 +1,151 @@
+name: Update Fixtures
+
+permissions: {}
+
+on:
+  workflow_dispatch:
+  schedule:
+    # Run every Monday at 09:00 UTC
+    - cron: '0 9 * * 1'
+
+jobs:
+  update-fixtures:
+    permissions:
+      contents: write # Allow the workflow to commit and push changes
+
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v5
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - uses: oxc-project/setup-node@f42e3bda950c7454575e78ee4eaac880a077700c # v1.0.0
+
+      - name: Install just
+        run: |
+          curl --proto '=https' --tlsv1.2 -sSf https://just.systems/install.sh | bash -s -- --to ~/bin
+          echo "$HOME/bin" >> $GITHUB_PATH
+
+      - name: Get latest commit SHAs
+        id: get-shas
+        run: |
+          # Get latest commit SHA for test262
+          TEST262_SHA=$(curl -s https://api.github.com/repos/tc39/test262/commits/main | jq -r '.sha')
+          if [ "$TEST262_SHA" = "null" ] || [ -z "$TEST262_SHA" ]; then
+            echo "Failed to get test262 SHA, skipping update"
+            exit 1
+          fi
+          echo "test262_sha=$TEST262_SHA" >> $GITHUB_OUTPUT
+
+          # Get latest commit SHA for acorn-jsx
+          ACORN_JSX_SHA=$(curl -s https://api.github.com/repos/acornjs/acorn-jsx/commits/main | jq -r '.sha')
+          if [ "$ACORN_JSX_SHA" = "null" ] || [ -z "$ACORN_JSX_SHA" ]; then
+            echo "Failed to get acorn-jsx SHA, skipping update"
+            exit 1
+          fi
+          echo "acorn_jsx_sha=$ACORN_JSX_SHA" >> $GITHUB_OUTPUT
+
+          # Get latest commit SHA for TypeScript
+          TYPESCRIPT_SHA=$(curl -s https://api.github.com/repos/microsoft/TypeScript/commits/main | jq -r '.sha')
+          if [ "$TYPESCRIPT_SHA" = "null" ] || [ -z "$TYPESCRIPT_SHA" ]; then
+            echo "Failed to get TypeScript SHA, skipping update"
+            exit 1
+          fi
+          echo "typescript_sha=$TYPESCRIPT_SHA" >> $GITHUB_OUTPUT
+
+          echo "Latest SHAs:"
+          echo "test262: $TEST262_SHA"
+          echo "acorn-jsx: $ACORN_JSX_SHA"
+          echo "typescript: $TYPESCRIPT_SHA"
+
+      - name: Check for changes
+        id: check-changes
+        run: |
+          # Get current SHAs from package.json
+          CURRENT_TEST262_SHA=$(grep -o 'clone-test262.*\.git [a-f0-9]*' package.json | grep -o '[a-f0-9]*$')
+          CURRENT_ACORN_JSX_SHA=$(grep -o 'clone-acorn-jsx.*\.git [a-f0-9]*' package.json | grep -o '[a-f0-9]*$')
+          CURRENT_TYPESCRIPT_SHA=$(grep -o 'clone-typescript.*\.git [a-f0-9]*' package.json | grep -o '[a-f0-9]*$')
+
+          echo "Current SHAs:"
+          echo "test262: $CURRENT_TEST262_SHA"
+          echo "acorn-jsx: $CURRENT_ACORN_JSX_SHA"
+          echo "typescript: $CURRENT_TYPESCRIPT_SHA"
+
+          CHANGES_FOUND="false"
+
+          if [ "$CURRENT_TEST262_SHA" != "${{ steps.get-shas.outputs.test262_sha }}" ]; then
+            echo "test262 SHA changed: $CURRENT_TEST262_SHA -> ${{ steps.get-shas.outputs.test262_sha }}"
+            CHANGES_FOUND="true"
+          elif [ "$CURRENT_ACORN_JSX_SHA" != "${{ steps.get-shas.outputs.acorn_jsx_sha }}" ]; then
+            echo "acorn-jsx SHA changed: $CURRENT_ACORN_JSX_SHA -> ${{ steps.get-shas.outputs.acorn_jsx_sha }}"
+            CHANGES_FOUND="true"
+          elif [ "$CURRENT_TYPESCRIPT_SHA" != "${{ steps.get-shas.outputs.typescript_sha }}" ]; then
+            echo "typescript SHA changed: $CURRENT_TYPESCRIPT_SHA -> ${{ steps.get-shas.outputs.typescript_sha }}"
+            CHANGES_FOUND="true"
+          fi
+
+          echo "changes_found=$CHANGES_FOUND" >> $GITHUB_OUTPUT
+
+      - name: Update package.json with new SHAs
+        if: steps.check-changes.outputs.changes_found == 'true'
+        run: |
+          # Update test262 SHA
+          sed -i "s|clone-test262.*\.git [a-f0-9]*|clone-test262\": \"just clone-submodule submodules/test262 https://github.com/tc39/test262.git ${{ steps.get-shas.outputs.test262_sha }}|g" package.json
+
+          # Update acorn-jsx SHA
+          sed -i "s|clone-acorn-jsx.*\.git [a-f0-9]*|clone-acorn-jsx\": \"just clone-submodule submodules/acorn-jsx https://github.com/acornjs/acorn-jsx.git ${{ steps.get-shas.outputs.acorn_jsx_sha }}|g" package.json
+
+          # Update typescript SHA
+          sed -i "s|clone-typescript.*\.git [a-f0-9]*|clone-typescript\": \"just clone-submodule submodules/typescript https://github.com/microsoft/TypeScript.git ${{ steps.get-shas.outputs.typescript_sha }}|g" package.json
+
+          echo "Updated package.json with new SHAs"
+
+      - name: Install dependencies
+        if: steps.check-changes.outputs.changes_found == 'true'
+        run: pnpm install
+
+      - name: Clone repositories
+        if: steps.check-changes.outputs.changes_found == 'true'
+        run: pnpm run init
+
+      - name: Generate fixtures
+        if: steps.check-changes.outputs.changes_found == 'true'
+        run: |
+          echo "Starting fixture generation..."
+          pnpm run start
+          echo "Fixture generation completed"
+
+      - name: Check for generated changes
+        if: steps.check-changes.outputs.changes_found == 'true'
+        id: check-generated
+        run: |
+          if [ -n "$(git status --porcelain)" ]; then
+            echo "has_changes=true" >> $GITHUB_OUTPUT
+            echo "Generated files have changes"
+          else
+            echo "has_changes=false" >> $GITHUB_OUTPUT
+            echo "No changes detected in generated files"
+          fi
+
+      - name: Commit and push changes
+        if: steps.check-changes.outputs.changes_found == 'true' && steps.check-generated.outputs.has_changes == 'true'
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add .
+
+          # Create detailed commit message
+          cat > /tmp/commit_msg << 'EOF'
+          update fixtures
+
+          Updates from automated fixture generation:
+          - test262: ${{ steps.get-shas.outputs.test262_sha }}
+          - acorn-jsx: ${{ steps.get-shas.outputs.acorn_jsx_sha }}
+          - typescript: ${{ steps.get-shas.outputs.typescript_sha }}
+
+          This commit was automatically generated by the update-fixtures workflow.
+          EOF
+
+          git commit -F /tmp/commit_msg
+          git push
