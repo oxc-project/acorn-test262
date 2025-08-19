@@ -35,7 +35,7 @@ A `phase` field is added to `ImportDeclaration` and `ImportExpression` (stage 3 
 
 A non-standard `hashbang` field is added to `Program`.
 
-## Maintainance
+## Maintenance
 
 ### Automated Updates
 
