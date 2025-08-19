@@ -29,6 +29,7 @@ await run({
             jsx: test.sourceType.jsx,
           },
         });
+        // oxlint-disable-next-line no-unused-vars
         const { comments, tokens, ...program } = result.ast;
 
         // TS-ESLint parser has no `unambiguous` option, so emulate it here
@@ -71,8 +72,7 @@ await run({
 
         const json = stringifyWith(program, transformerTs);
         output += '__ESTREE_TEST__:PASS:\n```json\n' + json + '\n```\n';
-      } catch (e) {
-        // output += '__ESTREE_TEST__:FAIL:\n```json\n' + e.message + '\n```\n';
+      } catch {
         return;
       }
     }

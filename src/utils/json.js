@@ -113,6 +113,7 @@ export function transformerTs(_key, value) {
       reordered[key] = value[key];
     }
   } else {
+    // oxlint-disable-next-line no-unused-vars
     const { range, loc, ...fields } = value;
     Object.assign(reordered, fields);
   }

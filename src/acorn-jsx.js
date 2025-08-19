@@ -61,8 +61,6 @@ await run({
           ast,
         },
       ];
-    } catch (err) {
-      // console.log(err);
-    }
+    } catch {}
   },
 });

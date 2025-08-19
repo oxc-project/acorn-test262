@@ -27,7 +27,7 @@ await run({
     let preamble;
     try {
       preamble = YAML.parse(yaml);
-    } catch (err) {
+    } catch {
       // console.log('Cannot parse YAML config');
       return;
     }
@@ -49,7 +49,7 @@ await run({
         // Note: Do not specify `allowAwaitOutsideFunction` option.
         // It defaults to `true` for modules, `false` for scripts, which is what we want.
       });
-    } catch (acornErr) {
+    } catch {
       try {
         ast = meriyahParse(code, {
           module: isModule,
@@ -61,8 +61,7 @@ await run({
           webcompat: true, // I think this enables support for Annex B
           next: true, // Enable parsing decorators and import attributes
         });
-      } catch (meriyahErr) {
-        // console.log(acornErr.message);
+      } catch {
         return;
       }
 
