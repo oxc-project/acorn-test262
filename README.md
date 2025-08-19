@@ -37,6 +37,20 @@ A non-standard `hashbang` field is added to `Program`.
 
 ## Maintainance
 
+### Automated Updates
+
+A GitHub Actions workflow automatically updates fixtures every Monday at 09:00 UTC. The workflow:
+
+1. Fetches the latest commit SHAs from test262, TypeScript, and acorn-jsx repositories
+2. Updates the commit SHAs in `package.json` if they have changed
+3. Runs `pnpm run init` to clone the repositories
+4. Runs `pnpm run start` to generate new fixtures
+5. Commits and pushes changes back to the repository
+
+You can also manually trigger the workflow from the GitHub Actions tab.
+
+### Manual Updates
+
 ```bash
 # Change the commit SHAs in the clone commands, then:
 pnpm run init
@@ -51,7 +65,7 @@ pnpm run gen-test262
 pnpm run clone-acorn-jsx
 pnpm run gen-acorn-jsx
 
-# Acorn JSX only
+# TypeScript only
 pnpm run clone-typescript
 pnpm run gen-typescript
 ```
