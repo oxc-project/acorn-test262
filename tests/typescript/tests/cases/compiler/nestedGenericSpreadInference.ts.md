@@ -382,8 +382,8 @@ __ESTREE_TEST__:PASS:
             "name": "leak",
             "optional": false,
             "typeAnnotation": null,
-            "start": 211,
-            "end": 215
+            "start": 140,
+            "end": 144
           },
           "init": {
             "type": "CallExpression",
@@ -393,8 +393,8 @@ __ESTREE_TEST__:PASS:
               "name": "call",
               "optional": false,
               "typeAnnotation": null,
-              "start": 218,
-              "end": 222
+              "start": 147,
+              "end": 151
             },
             "typeArguments": null,
             "arguments": [
@@ -406,8 +406,8 @@ __ESTREE_TEST__:PASS:
                   "name": "wrap",
                   "optional": false,
                   "typeAnnotation": null,
-                  "start": 223,
-                  "end": 227
+                  "start": 152,
+                  "end": 156
                 },
                 "typeArguments": null,
                 "arguments": [
@@ -426,20 +426,20 @@ __ESTREE_TEST__:PASS:
                             "name": "T",
                             "optional": false,
                             "typeAnnotation": null,
-                            "start": 229,
-                            "end": 230
+                            "start": 158,
+                            "end": 159
                           },
                           "constraint": null,
                           "default": null,
                           "in": false,
                           "out": false,
                           "const": false,
-                          "start": 229,
-                          "end": 230
+                          "start": 158,
+                          "end": 159
                         }
                       ],
-                      "start": 228,
-                      "end": 231
+                      "start": 157,
+                      "end": 160
                     },
                     "params": [
                       {
@@ -457,18 +457,18 @@ __ESTREE_TEST__:PASS:
                               "name": "T",
                               "optional": false,
                               "typeAnnotation": null,
-                              "start": 235,
-                              "end": 236
+                              "start": 164,
+                              "end": 165
                             },
                             "typeArguments": null,
-                            "start": 235,
-                            "end": 236
+                            "start": 164,
+                            "end": 165
                           },
-                          "start": 233,
-                          "end": 236
+                          "start": 162,
+                          "end": 165
                         },
-                        "start": 232,
-                        "end": 236
+                        "start": 161,
+                        "end": 165
                       }
                     ],
                     "returnType": null,
@@ -478,44 +478,44 @@ __ESTREE_TEST__:PASS:
                       "name": "x",
                       "optional": false,
                       "typeAnnotation": null,
-                      "start": 241,
-                      "end": 242
+                      "start": 170,
+                      "end": 171
                     },
                     "id": null,
                     "generator": false,
-                    "start": 228,
-                    "end": 242
+                    "start": 157,
+                    "end": 171
                   }
                 ],
                 "optional": false,
-                "start": 223,
-                "end": 243
+                "start": 152,
+                "end": 172
               },
               {
                 "type": "Literal",
                 "value": 1,
                 "raw": "1",
-                "start": 245,
-                "end": 246
+                "start": 174,
+                "end": 175
               }
             ],
             "optional": false,
-            "start": 218,
-            "end": 247
+            "start": 147,
+            "end": 176
           },
           "definite": false,
-          "start": 211,
-          "end": 247
+          "start": 140,
+          "end": 176
         }
       ],
       "declare": false,
-      "start": 205,
-      "end": 248
+      "start": 134,
+      "end": 177
     }
   ],
   "sourceType": "script",
   "hashbang": null,
   "start": 0,
-  "end": 248
+  "end": 177
 }
 ```

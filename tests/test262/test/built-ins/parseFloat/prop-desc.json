@@ -37,91 +37,18 @@
             "raw": "1",
             "start": 522,
             "end": 523
-          },
-          {
-            "type": "ObjectExpression",
-            "properties": [
-              {
-                "type": "Property",
-                "kind": "init",
-                "key": {
-                  "type": "Identifier",
-                  "name": "writable",
-                  "start": 529,
-                  "end": 537
-                },
-                "value": {
-                  "type": "Literal",
-                  "value": true,
-                  "raw": "true",
-                  "start": 539,
-                  "end": 543
-                },
-                "method": false,
-                "shorthand": false,
-                "computed": false,
-                "start": 529,
-                "end": 543
-              },
-              {
-                "type": "Property",
-                "kind": "init",
-                "key": {
-                  "type": "Identifier",
-                  "name": "enumerable",
-                  "start": 547,
-                  "end": 557
-                },
-                "value": {
-                  "type": "Literal",
-                  "value": false,
-                  "raw": "false",
-                  "start": 559,
-                  "end": 564
-                },
-                "method": false,
-                "shorthand": false,
-                "computed": false,
-                "start": 547,
-                "end": 564
-              },
-              {
-                "type": "Property",
-                "kind": "init",
-                "key": {
-                  "type": "Identifier",
-                  "name": "configurable",
-                  "start": 568,
-                  "end": 580
-                },
-                "value": {
-                  "type": "Literal",
-                  "value": true,
-                  "raw": "true",
-                  "start": 582,
-                  "end": 586
-                },
-                "method": false,
-                "shorthand": false,
-                "computed": false,
-                "start": 568,
-                "end": 586
-              }
-            ],
-            "start": 525,
-            "end": 588
           }
         ],
         "optional": false,
         "start": 455,
-        "end": 589
+        "end": 524
       },
       "start": 455,
-      "end": 590
+      "end": 525
     }
   ],
   "sourceType": "script",
   "hashbang": null,
   "start": 0,
-  "end": 591
+  "end": 526
 }

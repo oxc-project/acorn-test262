@@ -244,9 +244,9 @@
           "type": "VariableDeclarator",
           "id": {
             "type": "Identifier",
-            "name": "resultHebrew",
+            "name": "resultChinese",
             "start": 569,
-            "end": 581
+            "end": 582
           },
           "init": {
             "type": "CallExpression",
@@ -257,30 +257,30 @@
                 "object": {
                   "type": "Identifier",
                   "name": "Temporal",
-                  "start": 584,
-                  "end": 592
+                  "start": 585,
+                  "end": 593
                 },
                 "property": {
                   "type": "Identifier",
                   "name": "PlainMonthDay",
-                  "start": 593,
-                  "end": 606
+                  "start": 594,
+                  "end": 607
                 },
                 "optional": false,
                 "computed": false,
-                "start": 584,
-                "end": 606
+                "start": 585,
+                "end": 607
               },
               "property": {
                 "type": "Identifier",
                 "name": "from",
-                "start": 607,
-                "end": 611
+                "start": 608,
+                "end": 612
               },
               "optional": false,
               "computed": false,
-              "start": 584,
-              "end": 611
+              "start": 585,
+              "end": 612
             },
             "arguments": [
               {
@@ -292,21 +292,21 @@
                     "key": {
                       "type": "Identifier",
                       "name": "era",
-                      "start": 616,
-                      "end": 619
+                      "start": 617,
+                      "end": 620
                     },
                     "value": {
                       "type": "Literal",
                       "value": "foobar",
                       "raw": "\"foobar\"",
-                      "start": 621,
-                      "end": 629
+                      "start": 622,
+                      "end": 630
                     },
                     "method": false,
                     "shorthand": false,
                     "computed": false,
-                    "start": 616,
-                    "end": 629
+                    "start": 617,
+                    "end": 630
                   },
                   {
                     "type": "Property",
@@ -314,21 +314,21 @@
                     "key": {
                       "type": "Identifier",
                       "name": "eraYear",
-                      "start": 633,
-                      "end": 640
+                      "start": 634,
+                      "end": 641
                     },
                     "value": {
                       "type": "Literal",
                       "value": 1,
                       "raw": "1",
-                      "start": 642,
-                      "end": 643
+                      "start": 643,
+                      "end": 644
                     },
                     "method": false,
                     "shorthand": false,
                     "computed": false,
-                    "start": 633,
-                    "end": 643
+                    "start": 634,
+                    "end": 644
                   },
                   {
                     "type": "Property",
@@ -336,21 +336,21 @@
                     "key": {
                       "type": "Identifier",
                       "name": "monthCode",
-                      "start": 647,
-                      "end": 656
+                      "start": 648,
+                      "end": 657
                     },
                     "value": {
                       "type": "Literal",
                       "value": "M01",
                       "raw": "\"M01\"",
-                      "start": 658,
-                      "end": 663
+                      "start": 659,
+                      "end": 664
                     },
                     "method": false,
                     "shorthand": false,
                     "computed": false,
-                    "start": 647,
-                    "end": 663
+                    "start": 648,
+                    "end": 664
                   },
                   {
                     "type": "Property",
@@ -358,21 +358,21 @@
                     "key": {
                       "type": "Identifier",
                       "name": "day",
-                      "start": 667,
-                      "end": 670
+                      "start": 668,
+                      "end": 671
                     },
                     "value": {
                       "type": "Literal",
                       "value": 1,
                       "raw": "1",
-                      "start": 672,
-                      "end": 673
+                      "start": 673,
+                      "end": 674
                     },
                     "method": false,
                     "shorthand": false,
                     "computed": false,
-                    "start": 667,
-                    "end": 673
+                    "start": 668,
+                    "end": 674
                   },
                   {
                     "type": "Property",
@@ -380,37 +380,37 @@
                     "key": {
                       "type": "Identifier",
                       "name": "calendar",
-                      "start": 677,
-                      "end": 685
+                      "start": 678,
+                      "end": 686
                     },
                     "value": {
                       "type": "Literal",
-                      "value": "hebrew",
-                      "raw": "\"hebrew\"",
-                      "start": 687,
-                      "end": 695
+                      "value": "chinese",
+                      "raw": "\"chinese\"",
+                      "start": 688,
+                      "end": 697
                     },
                     "method": false,
                     "shorthand": false,
                     "computed": false,
-                    "start": 677,
-                    "end": 695
+                    "start": 678,
+                    "end": 697
                   }
                 ],
-                "start": 612,
-                "end": 698
+                "start": 613,
+                "end": 700
               }
             ],
             "optional": false,
-            "start": 584,
-            "end": 699
+            "start": 585,
+            "end": 701
           },
           "start": 569,
-          "end": 699
+          "end": 701
         }
       ],
       "start": 563,
-      "end": 700
+      "end": 702
     },
     {
       "type": "ExpressionStatement",
@@ -421,55 +421,55 @@
           "object": {
             "type": "Identifier",
             "name": "TemporalHelpers",
-            "start": 701,
-            "end": 716
+            "start": 703,
+            "end": 718
           },
           "property": {
             "type": "Identifier",
             "name": "assertPlainMonthDay",
-            "start": 717,
-            "end": 736
+            "start": 719,
+            "end": 738
           },
           "optional": false,
           "computed": false,
-          "start": 701,
-          "end": 736
+          "start": 703,
+          "end": 738
         },
         "arguments": [
           {
             "type": "Identifier",
-            "name": "resultHebrew",
-            "start": 737,
-            "end": 749
+            "name": "resultChinese",
+            "start": 739,
+            "end": 752
           },
           {
             "type": "Literal",
             "value": "M01",
             "raw": "\"M01\"",
-            "start": 751,
-            "end": 756
+            "start": 754,
+            "end": 759
           },
           {
             "type": "Literal",
             "value": 1,
             "raw": "1",
-            "start": 758,
-            "end": 759
+            "start": 761,
+            "end": 762
           },
           {
             "type": "Literal",
-            "value": "era and eraYear are ignored for calendar not using eras (Hebrew)",
-            "raw": "\"era and eraYear are ignored for calendar not using eras (Hebrew)\"",
-            "start": 763,
-            "end": 829
+            "value": "era and eraYear are ignored for calendar not using eras (Chinese)",
+            "raw": "\"era and eraYear are ignored for calendar not using eras (Chinese)\"",
+            "start": 766,
+            "end": 833
           }
         ],
         "optional": false,
-        "start": 701,
-        "end": 830
+        "start": 703,
+        "end": 834
       },
-      "start": 701,
-      "end": 831
+      "start": 703,
+      "end": 835
     },
     {
       "type": "ExpressionStatement",
@@ -480,58 +480,58 @@
           "object": {
             "type": "Identifier",
             "name": "assert",
-            "start": 832,
-            "end": 838
+            "start": 836,
+            "end": 842
           },
           "property": {
             "type": "Identifier",
             "name": "sameValue",
-            "start": 839,
-            "end": 848
+            "start": 843,
+            "end": 852
           },
           "optional": false,
           "computed": false,
-          "start": 832,
-          "end": 848
+          "start": 836,
+          "end": 852
         },
         "arguments": [
           {
             "type": "MemberExpression",
             "object": {
               "type": "Identifier",
-              "name": "resultHebrew",
-              "start": 849,
-              "end": 861
+              "name": "resultChinese",
+              "start": 853,
+              "end": 866
             },
             "property": {
               "type": "Identifier",
               "name": "calendarId",
-              "start": 862,
-              "end": 872
+              "start": 867,
+              "end": 877
             },
             "optional": false,
             "computed": false,
-            "start": 849,
-            "end": 872
+            "start": 853,
+            "end": 877
           },
           {
             "type": "Literal",
-            "value": "hebrew",
-            "raw": "\"hebrew\"",
-            "start": 874,
-            "end": 882
+            "value": "chinese",
+            "raw": "\"chinese\"",
+            "start": 879,
+            "end": 888
           }
         ],
         "optional": false,
-        "start": 832,
-        "end": 883
+        "start": 836,
+        "end": 889
       },
-      "start": 832,
-      "end": 884
+      "start": 836,
+      "end": 890
     }
   ],
   "sourceType": "script",
   "hashbang": null,
   "start": 0,
-  "end": 885
+  "end": 891
 }

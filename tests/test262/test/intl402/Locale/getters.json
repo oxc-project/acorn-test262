@@ -10,22 +10,22 @@
           "id": {
             "type": "Identifier",
             "name": "langtag",
-            "start": 1549,
-            "end": 1556
+            "start": 4112,
+            "end": 4119
           },
           "init": {
             "type": "Literal",
-            "value": "de-latn-de-u-ca-gregory-co-phonebk-hc-h23-kf-true-kn-false-nu-latn",
-            "raw": "\"de-latn-de-u-ca-gregory-co-phonebk-hc-h23-kf-true-kn-false-nu-latn\"",
-            "start": 1559,
-            "end": 1627
+            "value": "de-latn-de-fonipa-1996-u-ca-gregory-co-phonebk-hc-h23-kf-true-kn-false-nu-latn",
+            "raw": "\"de-latn-de-fonipa-1996-u-ca-gregory-co-phonebk-hc-h23-kf-true-kn-false-nu-latn\"",
+            "start": 4122,
+            "end": 4202
           },
-          "start": 1549,
-          "end": 1627
+          "start": 4112,
+          "end": 4202
         }
       ],
-      "start": 1545,
-      "end": 1628
+      "start": 4108,
+      "end": 4203
     },
     {
       "type": "VariableDeclaration",
@@ -36,8 +36,8 @@
           "id": {
             "type": "Identifier",
             "name": "loc",
-            "start": 1633,
-            "end": 1636
+            "start": 4208,
+            "end": 4211
           },
           "init": {
             "type": "NewExpression",
@@ -46,37 +46,37 @@
               "object": {
                 "type": "Identifier",
                 "name": "Intl",
-                "start": 1643,
-                "end": 1647
+                "start": 4218,
+                "end": 4222
               },
               "property": {
                 "type": "Identifier",
                 "name": "Locale",
-                "start": 1648,
-                "end": 1654
+                "start": 4223,
+                "end": 4229
               },
               "optional": false,
               "computed": false,
-              "start": 1643,
-              "end": 1654
+              "start": 4218,
+              "end": 4229
             },
             "arguments": [
               {
                 "type": "Identifier",
                 "name": "langtag",
-                "start": 1655,
-                "end": 1662
+                "start": 4230,
+                "end": 4237
               }
             ],
-            "start": 1639,
-            "end": 1663
+            "start": 4214,
+            "end": 4238
           },
-          "start": 1633,
-          "end": 1663
+          "start": 4208,
+          "end": 4238
         }
       ],
-      "start": 1629,
-      "end": 1664
+      "start": 4204,
+      "end": 4239
     },
     {
       "type": "ExpressionStatement",
@@ -87,19 +87,19 @@
           "object": {
             "type": "Identifier",
             "name": "assert",
-            "start": 1666,
-            "end": 1672
+            "start": 4241,
+            "end": 4247
           },
           "property": {
             "type": "Identifier",
             "name": "sameValue",
-            "start": 1673,
-            "end": 1682
+            "start": 4248,
+            "end": 4257
           },
           "optional": false,
           "computed": false,
-          "start": 1666,
-          "end": 1682
+          "start": 4241,
+          "end": 4257
         },
         "arguments": [
           {
@@ -109,39 +109,39 @@
               "object": {
                 "type": "Identifier",
                 "name": "loc",
-                "start": 1683,
-                "end": 1686
+                "start": 4258,
+                "end": 4261
               },
               "property": {
                 "type": "Identifier",
                 "name": "toString",
-                "start": 1687,
-                "end": 1695
+                "start": 4262,
+                "end": 4270
               },
               "optional": false,
               "computed": false,
-              "start": 1683,
-              "end": 1695
+              "start": 4258,
+              "end": 4270
             },
             "arguments": [],
             "optional": false,
-            "start": 1683,
-            "end": 1697
+            "start": 4258,
+            "end": 4272
           },
           {
             "type": "Literal",
-            "value": "de-Latn-DE-u-ca-gregory-co-phonebk-hc-h23-kf-kn-false-nu-latn",
-            "raw": "\"de-Latn-DE-u-ca-gregory-co-phonebk-hc-h23-kf-kn-false-nu-latn\"",
-            "start": 1699,
-            "end": 1762
+            "value": "de-Latn-DE-1996-fonipa-u-ca-gregory-co-phonebk-hc-h23-kf-kn-false-nu-latn",
+            "raw": "\"de-Latn-DE-1996-fonipa-u-ca-gregory-co-phonebk-hc-h23-kf-kn-false-nu-latn\"",
+            "start": 4274,
+            "end": 4349
           }
         ],
         "optional": false,
-        "start": 1666,
-        "end": 1763
+        "start": 4241,
+        "end": 4350
       },
-      "start": 1666,
-      "end": 1764
+      "start": 4241,
+      "end": 4351
     },
     {
       "type": "ExpressionStatement",
@@ -152,19 +152,19 @@
           "object": {
             "type": "Identifier",
             "name": "assert",
-            "start": 1765,
-            "end": 1771
+            "start": 4352,
+            "end": 4358
           },
           "property": {
             "type": "Identifier",
             "name": "sameValue",
-            "start": 1772,
-            "end": 1781
+            "start": 4359,
+            "end": 4368
           },
           "optional": false,
           "computed": false,
-          "start": 1765,
-          "end": 1781
+          "start": 4352,
+          "end": 4368
         },
         "arguments": [
           {
@@ -172,34 +172,34 @@
             "object": {
               "type": "Identifier",
               "name": "loc",
-              "start": 1782,
-              "end": 1785
+              "start": 4369,
+              "end": 4372
             },
             "property": {
               "type": "Identifier",
               "name": "baseName",
-              "start": 1786,
-              "end": 1794
+              "start": 4373,
+              "end": 4381
             },
             "optional": false,
             "computed": false,
-            "start": 1782,
-            "end": 1794
+            "start": 4369,
+            "end": 4381
           },
           {
             "type": "Literal",
-            "value": "de-Latn-DE",
-            "raw": "\"de-Latn-DE\"",
-            "start": 1796,
-            "end": 1808
+            "value": "de-Latn-DE-1996-fonipa",
+            "raw": "\"de-Latn-DE-1996-fonipa\"",
+            "start": 4383,
+            "end": 4407
           }
         ],
         "optional": false,
-        "start": 1765,
-        "end": 1809
+        "start": 4352,
+        "end": 4408
       },
-      "start": 1765,
-      "end": 1810
+      "start": 4352,
+      "end": 4409
     },
     {
       "type": "ExpressionStatement",
@@ -210,19 +210,19 @@
           "object": {
             "type": "Identifier",
             "name": "assert",
-            "start": 1811,
-            "end": 1817
+            "start": 4410,
+            "end": 4416
           },
           "property": {
             "type": "Identifier",
             "name": "sameValue",
-            "start": 1818,
-            "end": 1827
+            "start": 4417,
+            "end": 4426
           },
           "optional": false,
           "computed": false,
-          "start": 1811,
-          "end": 1827
+          "start": 4410,
+          "end": 4426
         },
         "arguments": [
           {
@@ -230,34 +230,34 @@
             "object": {
               "type": "Identifier",
               "name": "loc",
-              "start": 1828,
-              "end": 1831
+              "start": 4427,
+              "end": 4430
             },
             "property": {
               "type": "Identifier",
               "name": "language",
-              "start": 1832,
-              "end": 1840
+              "start": 4431,
+              "end": 4439
             },
             "optional": false,
             "computed": false,
-            "start": 1828,
-            "end": 1840
+            "start": 4427,
+            "end": 4439
           },
           {
             "type": "Literal",
             "value": "de",
             "raw": "\"de\"",
-            "start": 1842,
-            "end": 1846
+            "start": 4441,
+            "end": 4445
           }
         ],
         "optional": false,
-        "start": 1811,
-        "end": 1847
+        "start": 4410,
+        "end": 4446
       },
-      "start": 1811,
-      "end": 1848
+      "start": 4410,
+      "end": 4447
     },
     {
       "type": "ExpressionStatement",
@@ -268,19 +268,19 @@
           "object": {
             "type": "Identifier",
             "name": "assert",
-            "start": 1849,
-            "end": 1855
+            "start": 4448,
+            "end": 4454
           },
           "property": {
             "type": "Identifier",
             "name": "sameValue",
-            "start": 1856,
-            "end": 1865
+            "start": 4455,
+            "end": 4464
           },
           "optional": false,
           "computed": false,
-          "start": 1849,
-          "end": 1865
+          "start": 4448,
+          "end": 4464
         },
         "arguments": [
           {
@@ -288,34 +288,34 @@
             "object": {
               "type": "Identifier",
               "name": "loc",
-              "start": 1866,
-              "end": 1869
+              "start": 4465,
+              "end": 4468
             },
             "property": {
               "type": "Identifier",
               "name": "script",
-              "start": 1870,
-              "end": 1876
+              "start": 4469,
+              "end": 4475
             },
             "optional": false,
             "computed": false,
-            "start": 1866,
-            "end": 1876
+            "start": 4465,
+            "end": 4475
           },
           {
             "type": "Literal",
             "value": "Latn",
             "raw": "\"Latn\"",
-            "start": 1878,
-            "end": 1884
+            "start": 4477,
+            "end": 4483
           }
         ],
         "optional": false,
-        "start": 1849,
-        "end": 1885
+        "start": 4448,
+        "end": 4484
       },
-      "start": 1849,
-      "end": 1886
+      "start": 4448,
+      "end": 4485
     },
     {
       "type": "ExpressionStatement",
@@ -326,19 +326,19 @@
           "object": {
             "type": "Identifier",
             "name": "assert",
-            "start": 1887,
-            "end": 1893
+            "start": 4486,
+            "end": 4492
           },
           "property": {
             "type": "Identifier",
             "name": "sameValue",
-            "start": 1894,
-            "end": 1903
+            "start": 4493,
+            "end": 4502
           },
           "optional": false,
           "computed": false,
-          "start": 1887,
-          "end": 1903
+          "start": 4486,
+          "end": 4502
         },
         "arguments": [
           {
@@ -346,34 +346,34 @@
             "object": {
               "type": "Identifier",
               "name": "loc",
-              "start": 1904,
-              "end": 1907
+              "start": 4503,
+              "end": 4506
             },
             "property": {
               "type": "Identifier",
               "name": "region",
-              "start": 1908,
-              "end": 1914
+              "start": 4507,
+              "end": 4513
             },
             "optional": false,
             "computed": false,
-            "start": 1904,
-            "end": 1914
+            "start": 4503,
+            "end": 4513
           },
           {
             "type": "Literal",
             "value": "DE",
             "raw": "\"DE\"",
-            "start": 1916,
-            "end": 1920
+            "start": 4515,
+            "end": 4519
           }
         ],
         "optional": false,
-        "start": 1887,
-        "end": 1921
+        "start": 4486,
+        "end": 4520
       },
-      "start": 1887,
-      "end": 1922
+      "start": 4486,
+      "end": 4521
     },
     {
       "type": "ExpressionStatement",
@@ -384,19 +384,19 @@
           "object": {
             "type": "Identifier",
             "name": "assert",
-            "start": 1923,
-            "end": 1929
+            "start": 4522,
+            "end": 4528
           },
           "property": {
             "type": "Identifier",
             "name": "sameValue",
-            "start": 1930,
-            "end": 1939
+            "start": 4529,
+            "end": 4538
           },
           "optional": false,
           "computed": false,
-          "start": 1923,
-          "end": 1939
+          "start": 4522,
+          "end": 4538
         },
         "arguments": [
           {
@@ -404,34 +404,92 @@
             "object": {
               "type": "Identifier",
               "name": "loc",
-              "start": 1940,
-              "end": 1943
+              "start": 4539,
+              "end": 4542
+            },
+            "property": {
+              "type": "Identifier",
+              "name": "variants",
+              "start": 4543,
+              "end": 4551
+            },
+            "optional": false,
+            "computed": false,
+            "start": 4539,
+            "end": 4551
+          },
+          {
+            "type": "Literal",
+            "value": "1996-fonipa",
+            "raw": "\"1996-fonipa\"",
+            "start": 4553,
+            "end": 4566
+          }
+        ],
+        "optional": false,
+        "start": 4522,
+        "end": 4567
+      },
+      "start": 4522,
+      "end": 4568
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "MemberExpression",
+          "object": {
+            "type": "Identifier",
+            "name": "assert",
+            "start": 4569,
+            "end": 4575
+          },
+          "property": {
+            "type": "Identifier",
+            "name": "sameValue",
+            "start": 4576,
+            "end": 4585
+          },
+          "optional": false,
+          "computed": false,
+          "start": 4569,
+          "end": 4585
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "object": {
+              "type": "Identifier",
+              "name": "loc",
+              "start": 4586,
+              "end": 4589
             },
             "property": {
               "type": "Identifier",
               "name": "calendar",
-              "start": 1944,
-              "end": 1952
+              "start": 4590,
+              "end": 4598
             },
             "optional": false,
             "computed": false,
-            "start": 1940,
-            "end": 1952
+            "start": 4586,
+            "end": 4598
           },
           {
             "type": "Literal",
             "value": "gregory",
             "raw": "\"gregory\"",
-            "start": 1954,
-            "end": 1963
+            "start": 4600,
+            "end": 4609
           }
         ],
         "optional": false,
-        "start": 1923,
-        "end": 1964
+        "start": 4569,
+        "end": 4610
       },
-      "start": 1923,
-      "end": 1965
+      "start": 4569,
+      "end": 4611
     },
     {
       "type": "ExpressionStatement",
@@ -442,19 +500,19 @@
           "object": {
             "type": "Identifier",
             "name": "assert",
-            "start": 1966,
-            "end": 1972
+            "start": 4612,
+            "end": 4618
           },
           "property": {
             "type": "Identifier",
             "name": "sameValue",
-            "start": 1973,
-            "end": 1982
+            "start": 4619,
+            "end": 4628
           },
           "optional": false,
           "computed": false,
-          "start": 1966,
-          "end": 1982
+          "start": 4612,
+          "end": 4628
         },
         "arguments": [
           {
@@ -462,34 +520,34 @@
             "object": {
               "type": "Identifier",
               "name": "loc",
-              "start": 1983,
-              "end": 1986
+              "start": 4629,
+              "end": 4632
             },
             "property": {
               "type": "Identifier",
               "name": "collation",
-              "start": 1987,
-              "end": 1996
+              "start": 4633,
+              "end": 4642
             },
             "optional": false,
             "computed": false,
-            "start": 1983,
-            "end": 1996
+            "start": 4629,
+            "end": 4642
           },
           {
             "type": "Literal",
             "value": "phonebk",
             "raw": "\"phonebk\"",
-            "start": 1998,
-            "end": 2007
+            "start": 4644,
+            "end": 4653
           }
         ],
         "optional": false,
-        "start": 1966,
-        "end": 2008
+        "start": 4612,
+        "end": 4654
       },
-      "start": 1966,
-      "end": 2009
+      "start": 4612,
+      "end": 4655
     },
     {
       "type": "ExpressionStatement",
@@ -500,19 +558,19 @@
           "object": {
             "type": "Identifier",
             "name": "assert",
-            "start": 2010,
-            "end": 2016
+            "start": 4656,
+            "end": 4662
           },
           "property": {
             "type": "Identifier",
             "name": "sameValue",
-            "start": 2017,
-            "end": 2026
+            "start": 4663,
+            "end": 4672
           },
           "optional": false,
           "computed": false,
-          "start": 2010,
-          "end": 2026
+          "start": 4656,
+          "end": 4672
         },
         "arguments": [
           {
@@ -520,34 +578,34 @@
             "object": {
               "type": "Identifier",
               "name": "loc",
-              "start": 2027,
-              "end": 2030
+              "start": 4673,
+              "end": 4676
             },
             "property": {
               "type": "Identifier",
               "name": "hourCycle",
-              "start": 2031,
-              "end": 2040
+              "start": 4677,
+              "end": 4686
             },
             "optional": false,
             "computed": false,
-            "start": 2027,
-            "end": 2040
+            "start": 4673,
+            "end": 4686
           },
           {
             "type": "Literal",
             "value": "h23",
             "raw": "\"h23\"",
-            "start": 2042,
-            "end": 2047
+            "start": 4688,
+            "end": 4693
           }
         ],
         "optional": false,
-        "start": 2010,
-        "end": 2048
+        "start": 4656,
+        "end": 4694
       },
-      "start": 2010,
-      "end": 2049
+      "start": 4656,
+      "end": 4695
     },
     {
       "type": "IfStatement",
@@ -557,18 +615,18 @@
           "type": "Literal",
           "value": "caseFirst",
           "raw": "\"caseFirst\"",
-          "start": 2054,
-          "end": 2065
+          "start": 4700,
+          "end": 4711
         },
         "operator": "in",
         "right": {
           "type": "Identifier",
           "name": "loc",
-          "start": 2069,
-          "end": 2072
+          "start": 4715,
+          "end": 4718
         },
-        "start": 2054,
-        "end": 2072
+        "start": 4700,
+        "end": 4718
       },
       "consequent": {
         "type": "BlockStatement",
@@ -582,19 +640,19 @@
                 "object": {
                   "type": "Identifier",
                   "name": "assert",
-                  "start": 2080,
-                  "end": 2086
+                  "start": 4726,
+                  "end": 4732
                 },
                 "property": {
                   "type": "Identifier",
                   "name": "sameValue",
-                  "start": 2087,
-                  "end": 2096
+                  "start": 4733,
+                  "end": 4742
                 },
                 "optional": false,
                 "computed": false,
-                "start": 2080,
-                "end": 2096
+                "start": 4726,
+                "end": 4742
               },
               "arguments": [
                 {
@@ -602,42 +660,42 @@
                   "object": {
                     "type": "Identifier",
                     "name": "loc",
-                    "start": 2097,
-                    "end": 2100
+                    "start": 4743,
+                    "end": 4746
                   },
                   "property": {
                     "type": "Identifier",
                     "name": "caseFirst",
-                    "start": 2101,
-                    "end": 2110
+                    "start": 4747,
+                    "end": 4756
                   },
                   "optional": false,
                   "computed": false,
-                  "start": 2097,
-                  "end": 2110
+                  "start": 4743,
+                  "end": 4756
                 },
                 {
                   "type": "Literal",
                   "value": "",
                   "raw": "\"\"",
-                  "start": 2112,
-                  "end": 2114
+                  "start": 4758,
+                  "end": 4760
                 }
               ],
               "optional": false,
-              "start": 2080,
-              "end": 2115
+              "start": 4726,
+              "end": 4761
             },
-            "start": 2080,
-            "end": 2116
+            "start": 4726,
+            "end": 4762
           }
         ],
-        "start": 2074,
-        "end": 2118
+        "start": 4720,
+        "end": 4764
       },
       "alternate": null,
-      "start": 2050,
-      "end": 2118
+      "start": 4696,
+      "end": 4764
     },
     {
       "type": "IfStatement",
@@ -647,18 +705,18 @@
           "type": "Literal",
           "value": "numeric",
           "raw": "\"numeric\"",
-          "start": 2123,
-          "end": 2132
+          "start": 4769,
+          "end": 4778
         },
         "operator": "in",
         "right": {
           "type": "Identifier",
           "name": "loc",
-          "start": 2136,
-          "end": 2139
+          "start": 4782,
+          "end": 4785
         },
-        "start": 2123,
-        "end": 2139
+        "start": 4769,
+        "end": 4785
       },
       "consequent": {
         "type": "BlockStatement",
@@ -672,19 +730,19 @@
                 "object": {
                   "type": "Identifier",
                   "name": "assert",
-                  "start": 2147,
-                  "end": 2153
+                  "start": 4793,
+                  "end": 4799
                 },
                 "property": {
                   "type": "Identifier",
                   "name": "sameValue",
-                  "start": 2154,
-                  "end": 2163
+                  "start": 4800,
+                  "end": 4809
                 },
                 "optional": false,
                 "computed": false,
-                "start": 2147,
-                "end": 2163
+                "start": 4793,
+                "end": 4809
               },
               "arguments": [
                 {
@@ -692,42 +750,42 @@
                   "object": {
                     "type": "Identifier",
                     "name": "loc",
-                    "start": 2164,
-                    "end": 2167
+                    "start": 4810,
+                    "end": 4813
                   },
                   "property": {
                     "type": "Identifier",
                     "name": "numeric",
-                    "start": 2168,
-                    "end": 2175
+                    "start": 4814,
+                    "end": 4821
                   },
                   "optional": false,
                   "computed": false,
-                  "start": 2164,
-                  "end": 2175
+                  "start": 4810,
+                  "end": 4821
                 },
                 {
                   "type": "Literal",
                   "value": false,
                   "raw": "false",
-                  "start": 2177,
-                  "end": 2182
+                  "start": 4823,
+                  "end": 4828
                 }
               ],
               "optional": false,
-              "start": 2147,
-              "end": 2183
+              "start": 4793,
+              "end": 4829
             },
-            "start": 2147,
-            "end": 2184
+            "start": 4793,
+            "end": 4830
           }
         ],
-        "start": 2141,
-        "end": 2186
+        "start": 4787,
+        "end": 4832
       },
       "alternate": null,
-      "start": 2119,
-      "end": 2186
+      "start": 4765,
+      "end": 4832
     },
     {
       "type": "ExpressionStatement",
@@ -738,19 +796,19 @@
           "object": {
             "type": "Identifier",
             "name": "assert",
-            "start": 2187,
-            "end": 2193
+            "start": 4833,
+            "end": 4839
           },
           "property": {
             "type": "Identifier",
             "name": "sameValue",
-            "start": 2194,
-            "end": 2203
+            "start": 4840,
+            "end": 4849
           },
           "optional": false,
           "computed": false,
-          "start": 2187,
-          "end": 2203
+          "start": 4833,
+          "end": 4849
         },
         "arguments": [
           {
@@ -758,34 +816,34 @@
             "object": {
               "type": "Identifier",
               "name": "loc",
-              "start": 2204,
-              "end": 2207
+              "start": 4850,
+              "end": 4853
             },
             "property": {
               "type": "Identifier",
               "name": "numberingSystem",
-              "start": 2208,
-              "end": 2223
+              "start": 4854,
+              "end": 4869
             },
             "optional": false,
             "computed": false,
-            "start": 2204,
-            "end": 2223
+            "start": 4850,
+            "end": 4869
           },
           {
             "type": "Literal",
             "value": "latn",
             "raw": "\"latn\"",
-            "start": 2225,
-            "end": 2231
+            "start": 4871,
+            "end": 4877
           }
         ],
         "optional": false,
-        "start": 2187,
-        "end": 2232
+        "start": 4833,
+        "end": 4878
       },
-      "start": 2187,
-      "end": 2233
+      "start": 4833,
+      "end": 4879
     },
     {
       "type": "VariableDeclaration",
@@ -796,8 +854,8 @@
           "id": {
             "type": "Identifier",
             "name": "loc",
-            "start": 2350,
-            "end": 2353
+            "start": 4996,
+            "end": 4999
           },
           "init": {
             "type": "NewExpression",
@@ -806,26 +864,26 @@
               "object": {
                 "type": "Identifier",
                 "name": "Intl",
-                "start": 2360,
-                "end": 2364
+                "start": 5006,
+                "end": 5010
               },
               "property": {
                 "type": "Identifier",
                 "name": "Locale",
-                "start": 2365,
-                "end": 2371
+                "start": 5011,
+                "end": 5017
               },
               "optional": false,
               "computed": false,
-              "start": 2360,
-              "end": 2371
+              "start": 5006,
+              "end": 5017
             },
             "arguments": [
               {
                 "type": "Identifier",
                 "name": "langtag",
-                "start": 2372,
-                "end": 2379
+                "start": 5018,
+                "end": 5025
               },
               {
                 "type": "ObjectExpression",
@@ -836,21 +894,21 @@
                     "key": {
                       "type": "Identifier",
                       "name": "language",
-                      "start": 2387,
-                      "end": 2395
+                      "start": 5033,
+                      "end": 5041
                     },
                     "value": {
                       "type": "Literal",
                       "value": "ja",
                       "raw": "\"ja\"",
-                      "start": 2397,
-                      "end": 2401
+                      "start": 5043,
+                      "end": 5047
                     },
                     "method": false,
                     "shorthand": false,
                     "computed": false,
-                    "start": 2387,
-                    "end": 2401
+                    "start": 5033,
+                    "end": 5047
                   },
                   {
                     "type": "Property",
@@ -858,21 +916,21 @@
                     "key": {
                       "type": "Identifier",
                       "name": "script",
-                      "start": 2407,
-                      "end": 2413
+                      "start": 5053,
+                      "end": 5059
                     },
                     "value": {
                       "type": "Literal",
                       "value": "jpan",
                       "raw": "\"jpan\"",
-                      "start": 2415,
-                      "end": 2421
+                      "start": 5061,
+                      "end": 5067
                     },
                     "method": false,
                     "shorthand": false,
                     "computed": false,
-                    "start": 2407,
-                    "end": 2421
+                    "start": 5053,
+                    "end": 5067
                   },
                   {
                     "type": "Property",
@@ -880,21 +938,43 @@
                     "key": {
                       "type": "Identifier",
                       "name": "region",
-                      "start": 2427,
-                      "end": 2433
+                      "start": 5073,
+                      "end": 5079
                     },
                     "value": {
                       "type": "Literal",
                       "value": "jp",
                       "raw": "\"jp\"",
-                      "start": 2435,
-                      "end": 2439
+                      "start": 5081,
+                      "end": 5085
                     },
                     "method": false,
                     "shorthand": false,
                     "computed": false,
-                    "start": 2427,
-                    "end": 2439
+                    "start": 5073,
+                    "end": 5085
+                  },
+                  {
+                    "type": "Property",
+                    "kind": "init",
+                    "key": {
+                      "type": "Identifier",
+                      "name": "variants",
+                      "start": 5091,
+                      "end": 5099
+                    },
+                    "value": {
+                      "type": "Literal",
+                      "value": "Hepburn",
+                      "raw": "\"Hepburn\"",
+                      "start": 5101,
+                      "end": 5110
+                    },
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false,
+                    "start": 5091,
+                    "end": 5110
                   },
                   {
                     "type": "Property",
@@ -902,21 +982,21 @@
                     "key": {
                       "type": "Identifier",
                       "name": "calendar",
-                      "start": 2445,
-                      "end": 2453
+                      "start": 5116,
+                      "end": 5124
                     },
                     "value": {
                       "type": "Literal",
                       "value": "japanese",
                       "raw": "\"japanese\"",
-                      "start": 2455,
-                      "end": 2465
+                      "start": 5126,
+                      "end": 5136
                     },
                     "method": false,
                     "shorthand": false,
                     "computed": false,
-                    "start": 2445,
-                    "end": 2465
+                    "start": 5116,
+                    "end": 5136
                   },
                   {
                     "type": "Property",
@@ -924,21 +1004,21 @@
                     "key": {
                       "type": "Identifier",
                       "name": "collation",
-                      "start": 2471,
-                      "end": 2480
+                      "start": 5142,
+                      "end": 5151
                     },
                     "value": {
                       "type": "Literal",
                       "value": "search",
                       "raw": "\"search\"",
-                      "start": 2482,
-                      "end": 2490
+                      "start": 5153,
+                      "end": 5161
                     },
                     "method": false,
                     "shorthand": false,
                     "computed": false,
-                    "start": 2471,
-                    "end": 2490
+                    "start": 5142,
+                    "end": 5161
                   },
                   {
                     "type": "Property",
@@ -946,21 +1026,21 @@
                     "key": {
                       "type": "Identifier",
                       "name": "hourCycle",
-                      "start": 2496,
-                      "end": 2505
+                      "start": 5167,
+                      "end": 5176
                     },
                     "value": {
                       "type": "Literal",
                       "value": "h24",
                       "raw": "\"h24\"",
-                      "start": 2507,
-                      "end": 2512
+                      "start": 5178,
+                      "end": 5183
                     },
                     "method": false,
                     "shorthand": false,
                     "computed": false,
-                    "start": 2496,
-                    "end": 2512
+                    "start": 5167,
+                    "end": 5183
                   },
                   {
                     "type": "Property",
@@ -968,21 +1048,21 @@
                     "key": {
                       "type": "Identifier",
                       "name": "caseFirst",
-                      "start": 2518,
-                      "end": 2527
+                      "start": 5189,
+                      "end": 5198
                     },
                     "value": {
                       "type": "Literal",
                       "value": "false",
                       "raw": "\"false\"",
-                      "start": 2529,
-                      "end": 2536
+                      "start": 5200,
+                      "end": 5207
                     },
                     "method": false,
                     "shorthand": false,
                     "computed": false,
-                    "start": 2518,
-                    "end": 2536
+                    "start": 5189,
+                    "end": 5207
                   },
                   {
                     "type": "Property",
@@ -990,21 +1070,21 @@
                     "key": {
                       "type": "Identifier",
                       "name": "numeric",
-                      "start": 2542,
-                      "end": 2549
+                      "start": 5213,
+                      "end": 5220
                     },
                     "value": {
                       "type": "Literal",
                       "value": "true",
                       "raw": "\"true\"",
-                      "start": 2551,
-                      "end": 2557
+                      "start": 5222,
+                      "end": 5228
                     },
                     "method": false,
                     "shorthand": false,
                     "computed": false,
-                    "start": 2542,
-                    "end": 2557
+                    "start": 5213,
+                    "end": 5228
                   },
                   {
                     "type": "Property",
@@ -1012,36 +1092,36 @@
                     "key": {
                       "type": "Identifier",
                       "name": "numberingSystem",
-                      "start": 2563,
-                      "end": 2578
+                      "start": 5234,
+                      "end": 5249
                     },
                     "value": {
                       "type": "Literal",
                       "value": "jpanfin",
                       "raw": "\"jpanfin\"",
-                      "start": 2580,
-                      "end": 2589
+                      "start": 5251,
+                      "end": 5260
                     },
                     "method": false,
                     "shorthand": false,
                     "computed": false,
-                    "start": 2563,
-                    "end": 2589
+                    "start": 5234,
+                    "end": 5260
                   }
                 ],
-                "start": 2381,
-                "end": 2592
+                "start": 5027,
+                "end": 5263
               }
             ],
-            "start": 2356,
-            "end": 2593
+            "start": 5002,
+            "end": 5264
           },
-          "start": 2350,
-          "end": 2593
+          "start": 4996,
+          "end": 5264
         }
       ],
-      "start": 2346,
-      "end": 2594
+      "start": 4992,
+      "end": 5265
     },
     {
       "type": "ExpressionStatement",
@@ -1052,19 +1132,19 @@
           "object": {
             "type": "Identifier",
             "name": "assert",
-            "start": 2596,
-            "end": 2602
+            "start": 5267,
+            "end": 5273
           },
           "property": {
             "type": "Identifier",
             "name": "sameValue",
-            "start": 2603,
-            "end": 2612
+            "start": 5274,
+            "end": 5283
           },
           "optional": false,
           "computed": false,
-          "start": 2596,
-          "end": 2612
+          "start": 5267,
+          "end": 5283
         },
         "arguments": [
           {
@@ -1074,39 +1154,39 @@
               "object": {
                 "type": "Identifier",
                 "name": "loc",
-                "start": 2613,
-                "end": 2616
+                "start": 5284,
+                "end": 5287
               },
               "property": {
                 "type": "Identifier",
                 "name": "toString",
-                "start": 2617,
-                "end": 2625
+                "start": 5288,
+                "end": 5296
               },
               "optional": false,
               "computed": false,
-              "start": 2613,
-              "end": 2625
+              "start": 5284,
+              "end": 5296
             },
             "arguments": [],
             "optional": false,
-            "start": 2613,
-            "end": 2627
+            "start": 5284,
+            "end": 5298
           },
           {
             "type": "Literal",
-            "value": "ja-Jpan-JP-u-ca-japanese-co-search-hc-h24-kf-false-kn-nu-jpanfin",
-            "raw": "\"ja-Jpan-JP-u-ca-japanese-co-search-hc-h24-kf-false-kn-nu-jpanfin\"",
-            "start": 2629,
-            "end": 2695
+            "value": "ja-Jpan-JP-hepburn-u-ca-japanese-co-search-hc-h24-kf-false-kn-nu-jpanfin",
+            "raw": "\"ja-Jpan-JP-hepburn-u-ca-japanese-co-search-hc-h24-kf-false-kn-nu-jpanfin\"",
+            "start": 5300,
+            "end": 5374
           }
         ],
         "optional": false,
-        "start": 2596,
-        "end": 2696
+        "start": 5267,
+        "end": 5375
       },
-      "start": 2596,
-      "end": 2697
+      "start": 5267,
+      "end": 5376
     },
     {
       "type": "ExpressionStatement",
@@ -1117,19 +1197,19 @@
           "object": {
             "type": "Identifier",
             "name": "assert",
-            "start": 2698,
-            "end": 2704
+            "start": 5377,
+            "end": 5383
           },
           "property": {
             "type": "Identifier",
             "name": "sameValue",
-            "start": 2705,
-            "end": 2714
+            "start": 5384,
+            "end": 5393
           },
           "optional": false,
           "computed": false,
-          "start": 2698,
-          "end": 2714
+          "start": 5377,
+          "end": 5393
         },
         "arguments": [
           {
@@ -1137,34 +1217,34 @@
             "object": {
               "type": "Identifier",
               "name": "loc",
-              "start": 2715,
-              "end": 2718
+              "start": 5394,
+              "end": 5397
             },
             "property": {
               "type": "Identifier",
               "name": "baseName",
-              "start": 2719,
-              "end": 2727
+              "start": 5398,
+              "end": 5406
             },
             "optional": false,
             "computed": false,
-            "start": 2715,
-            "end": 2727
+            "start": 5394,
+            "end": 5406
           },
           {
             "type": "Literal",
-            "value": "ja-Jpan-JP",
-            "raw": "\"ja-Jpan-JP\"",
-            "start": 2729,
-            "end": 2741
+            "value": "ja-Jpan-JP-hepburn",
+            "raw": "\"ja-Jpan-JP-hepburn\"",
+            "start": 5408,
+            "end": 5428
           }
         ],
         "optional": false,
-        "start": 2698,
-        "end": 2742
+        "start": 5377,
+        "end": 5429
       },
-      "start": 2698,
-      "end": 2743
+      "start": 5377,
+      "end": 5430
     },
     {
       "type": "ExpressionStatement",
@@ -1175,19 +1255,19 @@
           "object": {
             "type": "Identifier",
             "name": "assert",
-            "start": 2744,
-            "end": 2750
+            "start": 5431,
+            "end": 5437
           },
           "property": {
             "type": "Identifier",
             "name": "sameValue",
-            "start": 2751,
-            "end": 2760
+            "start": 5438,
+            "end": 5447
           },
           "optional": false,
           "computed": false,
-          "start": 2744,
-          "end": 2760
+          "start": 5431,
+          "end": 5447
         },
         "arguments": [
           {
@@ -1195,34 +1275,34 @@
             "object": {
               "type": "Identifier",
               "name": "loc",
-              "start": 2761,
-              "end": 2764
+              "start": 5448,
+              "end": 5451
             },
             "property": {
               "type": "Identifier",
               "name": "language",
-              "start": 2765,
-              "end": 2773
+              "start": 5452,
+              "end": 5460
             },
             "optional": false,
             "computed": false,
-            "start": 2761,
-            "end": 2773
+            "start": 5448,
+            "end": 5460
           },
           {
             "type": "Literal",
             "value": "ja",
             "raw": "\"ja\"",
-            "start": 2775,
-            "end": 2779
+            "start": 5462,
+            "end": 5466
           }
         ],
         "optional": false,
-        "start": 2744,
-        "end": 2780
+        "start": 5431,
+        "end": 5467
       },
-      "start": 2744,
-      "end": 2781
+      "start": 5431,
+      "end": 5468
     },
     {
       "type": "ExpressionStatement",
@@ -1233,19 +1313,19 @@
           "object": {
             "type": "Identifier",
             "name": "assert",
-            "start": 2782,
-            "end": 2788
+            "start": 5469,
+            "end": 5475
           },
           "property": {
             "type": "Identifier",
             "name": "sameValue",
-            "start": 2789,
-            "end": 2798
+            "start": 5476,
+            "end": 5485
           },
           "optional": false,
           "computed": false,
-          "start": 2782,
-          "end": 2798
+          "start": 5469,
+          "end": 5485
         },
         "arguments": [
           {
@@ -1253,34 +1333,34 @@
             "object": {
               "type": "Identifier",
               "name": "loc",
-              "start": 2799,
-              "end": 2802
+              "start": 5486,
+              "end": 5489
             },
             "property": {
               "type": "Identifier",
               "name": "script",
-              "start": 2803,
-              "end": 2809
+              "start": 5490,
+              "end": 5496
             },
             "optional": false,
             "computed": false,
-            "start": 2799,
-            "end": 2809
+            "start": 5486,
+            "end": 5496
           },
           {
             "type": "Literal",
             "value": "Jpan",
             "raw": "\"Jpan\"",
-            "start": 2811,
-            "end": 2817
+            "start": 5498,
+            "end": 5504
           }
         ],
         "optional": false,
-        "start": 2782,
-        "end": 2818
+        "start": 5469,
+        "end": 5505
       },
-      "start": 2782,
-      "end": 2819
+      "start": 5469,
+      "end": 5506
     },
     {
       "type": "ExpressionStatement",
@@ -1291,19 +1371,19 @@
           "object": {
             "type": "Identifier",
             "name": "assert",
-            "start": 2820,
-            "end": 2826
+            "start": 5507,
+            "end": 5513
           },
           "property": {
             "type": "Identifier",
             "name": "sameValue",
-            "start": 2827,
-            "end": 2836
+            "start": 5514,
+            "end": 5523
           },
           "optional": false,
           "computed": false,
-          "start": 2820,
-          "end": 2836
+          "start": 5507,
+          "end": 5523
         },
         "arguments": [
           {
@@ -1311,34 +1391,34 @@
             "object": {
               "type": "Identifier",
               "name": "loc",
-              "start": 2837,
-              "end": 2840
+              "start": 5524,
+              "end": 5527
             },
             "property": {
               "type": "Identifier",
               "name": "region",
-              "start": 2841,
-              "end": 2847
+              "start": 5528,
+              "end": 5534
             },
             "optional": false,
             "computed": false,
-            "start": 2837,
-            "end": 2847
+            "start": 5524,
+            "end": 5534
           },
           {
             "type": "Literal",
             "value": "JP",
             "raw": "\"JP\"",
-            "start": 2849,
-            "end": 2853
+            "start": 5536,
+            "end": 5540
           }
         ],
         "optional": false,
-        "start": 2820,
-        "end": 2854
+        "start": 5507,
+        "end": 5541
       },
-      "start": 2820,
-      "end": 2855
+      "start": 5507,
+      "end": 5542
     },
     {
       "type": "ExpressionStatement",
@@ -1349,19 +1429,19 @@
           "object": {
             "type": "Identifier",
             "name": "assert",
-            "start": 2856,
-            "end": 2862
+            "start": 5543,
+            "end": 5549
           },
           "property": {
             "type": "Identifier",
             "name": "sameValue",
-            "start": 2863,
-            "end": 2872
+            "start": 5550,
+            "end": 5559
           },
           "optional": false,
           "computed": false,
-          "start": 2856,
-          "end": 2872
+          "start": 5543,
+          "end": 5559
         },
         "arguments": [
           {
@@ -1369,34 +1449,92 @@
             "object": {
               "type": "Identifier",
               "name": "loc",
-              "start": 2873,
-              "end": 2876
+              "start": 5560,
+              "end": 5563
+            },
+            "property": {
+              "type": "Identifier",
+              "name": "variants",
+              "start": 5564,
+              "end": 5572
+            },
+            "optional": false,
+            "computed": false,
+            "start": 5560,
+            "end": 5572
+          },
+          {
+            "type": "Literal",
+            "value": "hepburn",
+            "raw": "\"hepburn\"",
+            "start": 5574,
+            "end": 5583
+          }
+        ],
+        "optional": false,
+        "start": 5543,
+        "end": 5584
+      },
+      "start": 5543,
+      "end": 5585
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "MemberExpression",
+          "object": {
+            "type": "Identifier",
+            "name": "assert",
+            "start": 5586,
+            "end": 5592
+          },
+          "property": {
+            "type": "Identifier",
+            "name": "sameValue",
+            "start": 5593,
+            "end": 5602
+          },
+          "optional": false,
+          "computed": false,
+          "start": 5586,
+          "end": 5602
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "object": {
+              "type": "Identifier",
+              "name": "loc",
+              "start": 5603,
+              "end": 5606
             },
             "property": {
               "type": "Identifier",
               "name": "calendar",
-              "start": 2877,
-              "end": 2885
+              "start": 5607,
+              "end": 5615
             },
             "optional": false,
             "computed": false,
-            "start": 2873,
-            "end": 2885
+            "start": 5603,
+            "end": 5615
           },
           {
             "type": "Literal",
             "value": "japanese",
             "raw": "\"japanese\"",
-            "start": 2887,
-            "end": 2897
+            "start": 5617,
+            "end": 5627
           }
         ],
         "optional": false,
-        "start": 2856,
-        "end": 2898
+        "start": 5586,
+        "end": 5628
       },
-      "start": 2856,
-      "end": 2899
+      "start": 5586,
+      "end": 5629
     },
     {
       "type": "ExpressionStatement",
@@ -1407,19 +1545,19 @@
           "object": {
             "type": "Identifier",
             "name": "assert",
-            "start": 2900,
-            "end": 2906
+            "start": 5630,
+            "end": 5636
           },
           "property": {
             "type": "Identifier",
             "name": "sameValue",
-            "start": 2907,
-            "end": 2916
+            "start": 5637,
+            "end": 5646
           },
           "optional": false,
           "computed": false,
-          "start": 2900,
-          "end": 2916
+          "start": 5630,
+          "end": 5646
         },
         "arguments": [
           {
@@ -1427,34 +1565,34 @@
             "object": {
               "type": "Identifier",
               "name": "loc",
-              "start": 2917,
-              "end": 2920
+              "start": 5647,
+              "end": 5650
             },
             "property": {
               "type": "Identifier",
               "name": "collation",
-              "start": 2921,
-              "end": 2930
+              "start": 5651,
+              "end": 5660
             },
             "optional": false,
             "computed": false,
-            "start": 2917,
-            "end": 2930
+            "start": 5647,
+            "end": 5660
           },
           {
             "type": "Literal",
             "value": "search",
             "raw": "\"search\"",
-            "start": 2932,
-            "end": 2940
+            "start": 5662,
+            "end": 5670
           }
         ],
         "optional": false,
-        "start": 2900,
-        "end": 2941
+        "start": 5630,
+        "end": 5671
       },
-      "start": 2900,
-      "end": 2942
+      "start": 5630,
+      "end": 5672
     },
     {
       "type": "ExpressionStatement",
@@ -1465,19 +1603,19 @@
           "object": {
             "type": "Identifier",
             "name": "assert",
-            "start": 2943,
-            "end": 2949
+            "start": 5673,
+            "end": 5679
           },
           "property": {
             "type": "Identifier",
             "name": "sameValue",
-            "start": 2950,
-            "end": 2959
+            "start": 5680,
+            "end": 5689
           },
           "optional": false,
           "computed": false,
-          "start": 2943,
-          "end": 2959
+          "start": 5673,
+          "end": 5689
         },
         "arguments": [
           {
@@ -1485,34 +1623,34 @@
             "object": {
               "type": "Identifier",
               "name": "loc",
-              "start": 2960,
-              "end": 2963
+              "start": 5690,
+              "end": 5693
             },
             "property": {
               "type": "Identifier",
               "name": "hourCycle",
-              "start": 2964,
-              "end": 2973
+              "start": 5694,
+              "end": 5703
             },
             "optional": false,
             "computed": false,
-            "start": 2960,
-            "end": 2973
+            "start": 5690,
+            "end": 5703
           },
           {
             "type": "Literal",
             "value": "h24",
             "raw": "\"h24\"",
-            "start": 2975,
-            "end": 2980
+            "start": 5705,
+            "end": 5710
           }
         ],
         "optional": false,
-        "start": 2943,
-        "end": 2981
+        "start": 5673,
+        "end": 5711
       },
-      "start": 2943,
-      "end": 2982
+      "start": 5673,
+      "end": 5712
     },
     {
       "type": "IfStatement",
@@ -1522,18 +1660,18 @@
           "type": "Literal",
           "value": "caseFirst",
           "raw": "\"caseFirst\"",
-          "start": 2987,
-          "end": 2998
+          "start": 5717,
+          "end": 5728
         },
         "operator": "in",
         "right": {
           "type": "Identifier",
           "name": "loc",
-          "start": 3002,
-          "end": 3005
+          "start": 5732,
+          "end": 5735
         },
-        "start": 2987,
-        "end": 3005
+        "start": 5717,
+        "end": 5735
       },
       "consequent": {
         "type": "BlockStatement",
@@ -1547,19 +1685,19 @@
                 "object": {
                   "type": "Identifier",
                   "name": "assert",
-                  "start": 3013,
-                  "end": 3019
+                  "start": 5743,
+                  "end": 5749
                 },
                 "property": {
                   "type": "Identifier",
                   "name": "sameValue",
-                  "start": 3020,
-                  "end": 3029
+                  "start": 5750,
+                  "end": 5759
                 },
                 "optional": false,
                 "computed": false,
-                "start": 3013,
-                "end": 3029
+                "start": 5743,
+                "end": 5759
               },
               "arguments": [
                 {
@@ -1567,42 +1705,42 @@
                   "object": {
                     "type": "Identifier",
                     "name": "loc",
-                    "start": 3030,
-                    "end": 3033
+                    "start": 5760,
+                    "end": 5763
                   },
                   "property": {
                     "type": "Identifier",
                     "name": "caseFirst",
-                    "start": 3034,
-                    "end": 3043
+                    "start": 5764,
+                    "end": 5773
                   },
                   "optional": false,
                   "computed": false,
-                  "start": 3030,
-                  "end": 3043
+                  "start": 5760,
+                  "end": 5773
                 },
                 {
                   "type": "Literal",
                   "value": "false",
                   "raw": "\"false\"",
-                  "start": 3045,
-                  "end": 3052
+                  "start": 5775,
+                  "end": 5782
                 }
               ],
               "optional": false,
-              "start": 3013,
-              "end": 3053
+              "start": 5743,
+              "end": 5783
             },
-            "start": 3013,
-            "end": 3054
+            "start": 5743,
+            "end": 5784
           }
         ],
-        "start": 3007,
-        "end": 3056
+        "start": 5737,
+        "end": 5786
       },
       "alternate": null,
-      "start": 2983,
-      "end": 3056
+      "start": 5713,
+      "end": 5786
     },
     {
       "type": "IfStatement",
@@ -1612,18 +1750,18 @@
           "type": "Literal",
           "value": "numeric",
           "raw": "\"numeric\"",
-          "start": 3061,
-          "end": 3070
+          "start": 5791,
+          "end": 5800
         },
         "operator": "in",
         "right": {
           "type": "Identifier",
           "name": "loc",
-          "start": 3074,
-          "end": 3077
+          "start": 5804,
+          "end": 5807
         },
-        "start": 3061,
-        "end": 3077
+        "start": 5791,
+        "end": 5807
       },
       "consequent": {
         "type": "BlockStatement",
@@ -1637,19 +1775,19 @@
                 "object": {
                   "type": "Identifier",
                   "name": "assert",
-                  "start": 3085,
-                  "end": 3091
+                  "start": 5815,
+                  "end": 5821
                 },
                 "property": {
                   "type": "Identifier",
                   "name": "sameValue",
-                  "start": 3092,
-                  "end": 3101
+                  "start": 5822,
+                  "end": 5831
                 },
                 "optional": false,
                 "computed": false,
-                "start": 3085,
-                "end": 3101
+                "start": 5815,
+                "end": 5831
               },
               "arguments": [
                 {
@@ -1657,42 +1795,42 @@
                   "object": {
                     "type": "Identifier",
                     "name": "loc",
-                    "start": 3102,
-                    "end": 3105
+                    "start": 5832,
+                    "end": 5835
                   },
                   "property": {
                     "type": "Identifier",
                     "name": "numeric",
-                    "start": 3106,
-                    "end": 3113
+                    "start": 5836,
+                    "end": 5843
                   },
                   "optional": false,
                   "computed": false,
-                  "start": 3102,
-                  "end": 3113
+                  "start": 5832,
+                  "end": 5843
                 },
                 {
                   "type": "Literal",
                   "value": true,
                   "raw": "true",
-                  "start": 3115,
-                  "end": 3119
+                  "start": 5845,
+                  "end": 5849
                 }
               ],
               "optional": false,
-              "start": 3085,
-              "end": 3120
+              "start": 5815,
+              "end": 5850
             },
-            "start": 3085,
-            "end": 3121
+            "start": 5815,
+            "end": 5851
           }
         ],
-        "start": 3079,
-        "end": 3123
+        "start": 5809,
+        "end": 5853
       },
       "alternate": null,
-      "start": 3057,
-      "end": 3123
+      "start": 5787,
+      "end": 5853
     },
     {
       "type": "ExpressionStatement",
@@ -1703,19 +1841,19 @@
           "object": {
             "type": "Identifier",
             "name": "assert",
-            "start": 3124,
-            "end": 3130
+            "start": 5854,
+            "end": 5860
           },
           "property": {
             "type": "Identifier",
             "name": "sameValue",
-            "start": 3131,
-            "end": 3140
+            "start": 5861,
+            "end": 5870
           },
           "optional": false,
           "computed": false,
-          "start": 3124,
-          "end": 3140
+          "start": 5854,
+          "end": 5870
         },
         "arguments": [
           {
@@ -1723,34 +1861,34 @@
             "object": {
               "type": "Identifier",
               "name": "loc",
-              "start": 3141,
-              "end": 3144
+              "start": 5871,
+              "end": 5874
             },
             "property": {
               "type": "Identifier",
               "name": "numberingSystem",
-              "start": 3145,
-              "end": 3160
+              "start": 5875,
+              "end": 5890
             },
             "optional": false,
             "computed": false,
-            "start": 3141,
-            "end": 3160
+            "start": 5871,
+            "end": 5890
           },
           {
             "type": "Literal",
             "value": "jpanfin",
             "raw": "\"jpanfin\"",
-            "start": 3162,
-            "end": 3171
+            "start": 5892,
+            "end": 5901
           }
         ],
         "optional": false,
-        "start": 3124,
-        "end": 3172
+        "start": 5854,
+        "end": 5902
       },
-      "start": 3124,
-      "end": 3173
+      "start": 5854,
+      "end": 5903
     },
     {
       "type": "VariableDeclaration",
@@ -1761,8 +1899,8 @@
           "id": {
             "type": "Identifier",
             "name": "loc",
-            "start": 3290,
-            "end": 3293
+            "start": 6020,
+            "end": 6023
           },
           "init": {
             "type": "NewExpression",
@@ -1771,26 +1909,26 @@
               "object": {
                 "type": "Identifier",
                 "name": "Intl",
-                "start": 3300,
-                "end": 3304
+                "start": 6030,
+                "end": 6034
               },
               "property": {
                 "type": "Identifier",
                 "name": "Locale",
-                "start": 3305,
-                "end": 3311
+                "start": 6035,
+                "end": 6041
               },
               "optional": false,
               "computed": false,
-              "start": 3300,
-              "end": 3311
+              "start": 6030,
+              "end": 6041
             },
             "arguments": [
               {
                 "type": "Identifier",
                 "name": "langtag",
-                "start": 3312,
-                "end": 3319
+                "start": 6042,
+                "end": 6049
               },
               {
                 "type": "ObjectExpression",
@@ -1801,21 +1939,21 @@
                     "key": {
                       "type": "Identifier",
                       "name": "language",
-                      "start": 3327,
-                      "end": 3335
+                      "start": 6057,
+                      "end": 6065
                     },
                     "value": {
                       "type": "Literal",
                       "value": "fr",
                       "raw": "\"fr\"",
-                      "start": 3337,
-                      "end": 3341
+                      "start": 6067,
+                      "end": 6071
                     },
                     "method": false,
                     "shorthand": false,
                     "computed": false,
-                    "start": 3327,
-                    "end": 3341
+                    "start": 6057,
+                    "end": 6071
                   },
                   {
                     "type": "Property",
@@ -1823,21 +1961,21 @@
                     "key": {
                       "type": "Identifier",
                       "name": "region",
-                      "start": 3347,
-                      "end": 3353
+                      "start": 6077,
+                      "end": 6083
                     },
                     "value": {
                       "type": "Literal",
                       "value": "ca",
                       "raw": "\"ca\"",
-                      "start": 3355,
-                      "end": 3359
+                      "start": 6085,
+                      "end": 6089
                     },
                     "method": false,
                     "shorthand": false,
                     "computed": false,
-                    "start": 3347,
-                    "end": 3359
+                    "start": 6077,
+                    "end": 6089
                   },
                   {
                     "type": "Property",
@@ -1845,21 +1983,21 @@
                     "key": {
                       "type": "Identifier",
                       "name": "collation",
-                      "start": 3365,
-                      "end": 3374
+                      "start": 6095,
+                      "end": 6104
                     },
                     "value": {
                       "type": "Literal",
                       "value": "standard",
                       "raw": "\"standard\"",
-                      "start": 3376,
-                      "end": 3386
+                      "start": 6106,
+                      "end": 6116
                     },
                     "method": false,
                     "shorthand": false,
                     "computed": false,
-                    "start": 3365,
-                    "end": 3386
+                    "start": 6095,
+                    "end": 6116
                   },
                   {
                     "type": "Property",
@@ -1867,36 +2005,36 @@
                     "key": {
                       "type": "Identifier",
                       "name": "hourCycle",
-                      "start": 3392,
-                      "end": 3401
+                      "start": 6122,
+                      "end": 6131
                     },
                     "value": {
                       "type": "Literal",
                       "value": "h11",
                       "raw": "\"h11\"",
-                      "start": 3403,
-                      "end": 3408
+                      "start": 6133,
+                      "end": 6138
                     },
                     "method": false,
                     "shorthand": false,
                     "computed": false,
-                    "start": 3392,
-                    "end": 3408
+                    "start": 6122,
+                    "end": 6138
                   }
                 ],
-                "start": 3321,
-                "end": 3411
+                "start": 6051,
+                "end": 6141
               }
             ],
-            "start": 3296,
-            "end": 3412
+            "start": 6026,
+            "end": 6142
           },
-          "start": 3290,
-          "end": 3412
+          "start": 6020,
+          "end": 6142
         }
       ],
-      "start": 3286,
-      "end": 3413
+      "start": 6016,
+      "end": 6143
     },
     {
       "type": "ExpressionStatement",
@@ -1907,19 +2045,19 @@
           "object": {
             "type": "Identifier",
             "name": "assert",
-            "start": 3415,
-            "end": 3421
+            "start": 6145,
+            "end": 6151
           },
           "property": {
             "type": "Identifier",
             "name": "sameValue",
-            "start": 3422,
-            "end": 3431
+            "start": 6152,
+            "end": 6161
           },
           "optional": false,
           "computed": false,
-          "start": 3415,
-          "end": 3431
+          "start": 6145,
+          "end": 6161
         },
         "arguments": [
           {
@@ -1929,39 +2067,39 @@
               "object": {
                 "type": "Identifier",
                 "name": "loc",
-                "start": 3432,
-                "end": 3435
+                "start": 6162,
+                "end": 6165
               },
               "property": {
                 "type": "Identifier",
                 "name": "toString",
-                "start": 3436,
-                "end": 3444
+                "start": 6166,
+                "end": 6174
               },
               "optional": false,
               "computed": false,
-              "start": 3432,
-              "end": 3444
+              "start": 6162,
+              "end": 6174
             },
             "arguments": [],
             "optional": false,
-            "start": 3432,
-            "end": 3446
+            "start": 6162,
+            "end": 6176
           },
           {
             "type": "Literal",
-            "value": "fr-Latn-CA-u-ca-gregory-co-standard-hc-h11-kf-kn-false-nu-latn",
-            "raw": "\"fr-Latn-CA-u-ca-gregory-co-standard-hc-h11-kf-kn-false-nu-latn\"",
-            "start": 3448,
-            "end": 3512
+            "value": "fr-Latn-CA-1996-fonipa-u-ca-gregory-co-standard-hc-h11-kf-kn-false-nu-latn",
+            "raw": "\"fr-Latn-CA-1996-fonipa-u-ca-gregory-co-standard-hc-h11-kf-kn-false-nu-latn\"",
+            "start": 6178,
+            "end": 6254
           }
         ],
         "optional": false,
-        "start": 3415,
-        "end": 3513
+        "start": 6145,
+        "end": 6255
       },
-      "start": 3415,
-      "end": 3514
+      "start": 6145,
+      "end": 6256
     },
     {
       "type": "ExpressionStatement",
@@ -1972,19 +2110,19 @@
           "object": {
             "type": "Identifier",
             "name": "assert",
-            "start": 3515,
-            "end": 3521
+            "start": 6257,
+            "end": 6263
           },
           "property": {
             "type": "Identifier",
             "name": "sameValue",
-            "start": 3522,
-            "end": 3531
+            "start": 6264,
+            "end": 6273
           },
           "optional": false,
           "computed": false,
-          "start": 3515,
-          "end": 3531
+          "start": 6257,
+          "end": 6273
         },
         "arguments": [
           {
@@ -1992,34 +2130,34 @@
             "object": {
               "type": "Identifier",
               "name": "loc",
-              "start": 3532,
-              "end": 3535
+              "start": 6274,
+              "end": 6277
             },
             "property": {
               "type": "Identifier",
               "name": "baseName",
-              "start": 3536,
-              "end": 3544
+              "start": 6278,
+              "end": 6286
             },
             "optional": false,
             "computed": false,
-            "start": 3532,
-            "end": 3544
+            "start": 6274,
+            "end": 6286
           },
           {
             "type": "Literal",
-            "value": "fr-Latn-CA",
-            "raw": "\"fr-Latn-CA\"",
-            "start": 3546,
-            "end": 3558
+            "value": "fr-Latn-CA-1996-fonipa",
+            "raw": "\"fr-Latn-CA-1996-fonipa\"",
+            "start": 6288,
+            "end": 6312
           }
         ],
         "optional": false,
-        "start": 3515,
-        "end": 3559
+        "start": 6257,
+        "end": 6313
       },
-      "start": 3515,
-      "end": 3560
+      "start": 6257,
+      "end": 6314
     },
     {
       "type": "ExpressionStatement",
@@ -2030,19 +2168,19 @@
           "object": {
             "type": "Identifier",
             "name": "assert",
-            "start": 3561,
-            "end": 3567
+            "start": 6315,
+            "end": 6321
           },
           "property": {
             "type": "Identifier",
             "name": "sameValue",
-            "start": 3568,
-            "end": 3577
+            "start": 6322,
+            "end": 6331
           },
           "optional": false,
           "computed": false,
-          "start": 3561,
-          "end": 3577
+          "start": 6315,
+          "end": 6331
         },
         "arguments": [
           {
@@ -2050,34 +2188,34 @@
             "object": {
               "type": "Identifier",
               "name": "loc",
-              "start": 3578,
-              "end": 3581
+              "start": 6332,
+              "end": 6335
             },
             "property": {
               "type": "Identifier",
               "name": "language",
-              "start": 3582,
-              "end": 3590
+              "start": 6336,
+              "end": 6344
             },
             "optional": false,
             "computed": false,
-            "start": 3578,
-            "end": 3590
+            "start": 6332,
+            "end": 6344
           },
           {
             "type": "Literal",
             "value": "fr",
             "raw": "\"fr\"",
-            "start": 3592,
-            "end": 3596
+            "start": 6346,
+            "end": 6350
           }
         ],
         "optional": false,
-        "start": 3561,
-        "end": 3597
+        "start": 6315,
+        "end": 6351
       },
-      "start": 3561,
-      "end": 3598
+      "start": 6315,
+      "end": 6352
     },
     {
       "type": "ExpressionStatement",
@@ -2088,19 +2226,19 @@
           "object": {
             "type": "Identifier",
             "name": "assert",
-            "start": 3599,
-            "end": 3605
+            "start": 6353,
+            "end": 6359
           },
           "property": {
             "type": "Identifier",
             "name": "sameValue",
-            "start": 3606,
-            "end": 3615
+            "start": 6360,
+            "end": 6369
           },
           "optional": false,
           "computed": false,
-          "start": 3599,
-          "end": 3615
+          "start": 6353,
+          "end": 6369
         },
         "arguments": [
           {
@@ -2108,34 +2246,34 @@
             "object": {
               "type": "Identifier",
               "name": "loc",
-              "start": 3616,
-              "end": 3619
+              "start": 6370,
+              "end": 6373
             },
             "property": {
               "type": "Identifier",
               "name": "script",
-              "start": 3620,
-              "end": 3626
+              "start": 6374,
+              "end": 6380
             },
             "optional": false,
             "computed": false,
-            "start": 3616,
-            "end": 3626
+            "start": 6370,
+            "end": 6380
           },
           {
             "type": "Literal",
             "value": "Latn",
             "raw": "\"Latn\"",
-            "start": 3628,
-            "end": 3634
+            "start": 6382,
+            "end": 6388
           }
         ],
         "optional": false,
-        "start": 3599,
-        "end": 3635
+        "start": 6353,
+        "end": 6389
       },
-      "start": 3599,
-      "end": 3636
+      "start": 6353,
+      "end": 6390
     },
     {
       "type": "ExpressionStatement",
@@ -2146,19 +2284,19 @@
           "object": {
             "type": "Identifier",
             "name": "assert",
-            "start": 3637,
-            "end": 3643
+            "start": 6391,
+            "end": 6397
           },
           "property": {
             "type": "Identifier",
             "name": "sameValue",
-            "start": 3644,
-            "end": 3653
+            "start": 6398,
+            "end": 6407
           },
           "optional": false,
           "computed": false,
-          "start": 3637,
-          "end": 3653
+          "start": 6391,
+          "end": 6407
         },
         "arguments": [
           {
@@ -2166,34 +2304,34 @@
             "object": {
               "type": "Identifier",
               "name": "loc",
-              "start": 3654,
-              "end": 3657
+              "start": 6408,
+              "end": 6411
             },
             "property": {
               "type": "Identifier",
               "name": "region",
-              "start": 3658,
-              "end": 3664
+              "start": 6412,
+              "end": 6418
             },
             "optional": false,
             "computed": false,
-            "start": 3654,
-            "end": 3664
+            "start": 6408,
+            "end": 6418
           },
           {
             "type": "Literal",
             "value": "CA",
             "raw": "\"CA\"",
-            "start": 3666,
-            "end": 3670
+            "start": 6420,
+            "end": 6424
           }
         ],
         "optional": false,
-        "start": 3637,
-        "end": 3671
+        "start": 6391,
+        "end": 6425
       },
-      "start": 3637,
-      "end": 3672
+      "start": 6391,
+      "end": 6426
     },
     {
       "type": "ExpressionStatement",
@@ -2204,19 +2342,19 @@
           "object": {
             "type": "Identifier",
             "name": "assert",
-            "start": 3673,
-            "end": 3679
+            "start": 6427,
+            "end": 6433
           },
           "property": {
             "type": "Identifier",
             "name": "sameValue",
-            "start": 3680,
-            "end": 3689
+            "start": 6434,
+            "end": 6443
           },
           "optional": false,
           "computed": false,
-          "start": 3673,
-          "end": 3689
+          "start": 6427,
+          "end": 6443
         },
         "arguments": [
           {
@@ -2224,34 +2362,92 @@
             "object": {
               "type": "Identifier",
               "name": "loc",
-              "start": 3690,
-              "end": 3693
+              "start": 6444,
+              "end": 6447
+            },
+            "property": {
+              "type": "Identifier",
+              "name": "variants",
+              "start": 6448,
+              "end": 6456
+            },
+            "optional": false,
+            "computed": false,
+            "start": 6444,
+            "end": 6456
+          },
+          {
+            "type": "Literal",
+            "value": "1996-fonipa",
+            "raw": "\"1996-fonipa\"",
+            "start": 6458,
+            "end": 6471
+          }
+        ],
+        "optional": false,
+        "start": 6427,
+        "end": 6472
+      },
+      "start": 6427,
+      "end": 6473
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "MemberExpression",
+          "object": {
+            "type": "Identifier",
+            "name": "assert",
+            "start": 6474,
+            "end": 6480
+          },
+          "property": {
+            "type": "Identifier",
+            "name": "sameValue",
+            "start": 6481,
+            "end": 6490
+          },
+          "optional": false,
+          "computed": false,
+          "start": 6474,
+          "end": 6490
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "object": {
+              "type": "Identifier",
+              "name": "loc",
+              "start": 6491,
+              "end": 6494
             },
             "property": {
               "type": "Identifier",
               "name": "calendar",
-              "start": 3694,
-              "end": 3702
+              "start": 6495,
+              "end": 6503
             },
             "optional": false,
             "computed": false,
-            "start": 3690,
-            "end": 3702
+            "start": 6491,
+            "end": 6503
           },
           {
             "type": "Literal",
             "value": "gregory",
             "raw": "\"gregory\"",
-            "start": 3704,
-            "end": 3713
+            "start": 6505,
+            "end": 6514
           }
         ],
         "optional": false,
-        "start": 3673,
-        "end": 3714
+        "start": 6474,
+        "end": 6515
       },
-      "start": 3673,
-      "end": 3715
+      "start": 6474,
+      "end": 6516
     },
     {
       "type": "ExpressionStatement",
@@ -2262,19 +2458,19 @@
           "object": {
             "type": "Identifier",
             "name": "assert",
-            "start": 3716,
-            "end": 3722
+            "start": 6517,
+            "end": 6523
           },
           "property": {
             "type": "Identifier",
             "name": "sameValue",
-            "start": 3723,
-            "end": 3732
+            "start": 6524,
+            "end": 6533
           },
           "optional": false,
           "computed": false,
-          "start": 3716,
-          "end": 3732
+          "start": 6517,
+          "end": 6533
         },
         "arguments": [
           {
@@ -2282,34 +2478,34 @@
             "object": {
               "type": "Identifier",
               "name": "loc",
-              "start": 3733,
-              "end": 3736
+              "start": 6534,
+              "end": 6537
             },
             "property": {
               "type": "Identifier",
               "name": "collation",
-              "start": 3737,
-              "end": 3746
+              "start": 6538,
+              "end": 6547
             },
             "optional": false,
             "computed": false,
-            "start": 3733,
-            "end": 3746
+            "start": 6534,
+            "end": 6547
           },
           {
             "type": "Literal",
             "value": "standard",
             "raw": "\"standard\"",
-            "start": 3748,
-            "end": 3758
+            "start": 6549,
+            "end": 6559
           }
         ],
         "optional": false,
-        "start": 3716,
-        "end": 3759
+        "start": 6517,
+        "end": 6560
       },
-      "start": 3716,
-      "end": 3760
+      "start": 6517,
+      "end": 6561
     },
     {
       "type": "ExpressionStatement",
@@ -2320,19 +2516,19 @@
           "object": {
             "type": "Identifier",
             "name": "assert",
-            "start": 3761,
-            "end": 3767
+            "start": 6562,
+            "end": 6568
           },
           "property": {
             "type": "Identifier",
             "name": "sameValue",
-            "start": 3768,
-            "end": 3777
+            "start": 6569,
+            "end": 6578
           },
           "optional": false,
           "computed": false,
-          "start": 3761,
-          "end": 3777
+          "start": 6562,
+          "end": 6578
         },
         "arguments": [
           {
@@ -2340,34 +2536,34 @@
             "object": {
               "type": "Identifier",
               "name": "loc",
-              "start": 3778,
-              "end": 3781
+              "start": 6579,
+              "end": 6582
             },
             "property": {
               "type": "Identifier",
               "name": "hourCycle",
-              "start": 3782,
-              "end": 3791
+              "start": 6583,
+              "end": 6592
             },
             "optional": false,
             "computed": false,
-            "start": 3778,
-            "end": 3791
+            "start": 6579,
+            "end": 6592
           },
           {
             "type": "Literal",
             "value": "h11",
             "raw": "\"h11\"",
-            "start": 3793,
-            "end": 3798
+            "start": 6594,
+            "end": 6599
           }
         ],
         "optional": false,
-        "start": 3761,
-        "end": 3799
+        "start": 6562,
+        "end": 6600
       },
-      "start": 3761,
-      "end": 3800
+      "start": 6562,
+      "end": 6601
     },
     {
       "type": "IfStatement",
@@ -2377,18 +2573,18 @@
           "type": "Literal",
           "value": "caseFirst",
           "raw": "\"caseFirst\"",
-          "start": 3805,
-          "end": 3816
+          "start": 6606,
+          "end": 6617
         },
         "operator": "in",
         "right": {
           "type": "Identifier",
           "name": "loc",
-          "start": 3820,
-          "end": 3823
+          "start": 6621,
+          "end": 6624
         },
-        "start": 3805,
-        "end": 3823
+        "start": 6606,
+        "end": 6624
       },
       "consequent": {
         "type": "BlockStatement",
@@ -2402,19 +2598,19 @@
                 "object": {
                   "type": "Identifier",
                   "name": "assert",
-                  "start": 3831,
-                  "end": 3837
+                  "start": 6632,
+                  "end": 6638
                 },
                 "property": {
                   "type": "Identifier",
                   "name": "sameValue",
-                  "start": 3838,
-                  "end": 3847
+                  "start": 6639,
+                  "end": 6648
                 },
                 "optional": false,
                 "computed": false,
-                "start": 3831,
-                "end": 3847
+                "start": 6632,
+                "end": 6648
               },
               "arguments": [
                 {
@@ -2422,42 +2618,42 @@
                   "object": {
                     "type": "Identifier",
                     "name": "loc",
-                    "start": 3848,
-                    "end": 3851
+                    "start": 6649,
+                    "end": 6652
                   },
                   "property": {
                     "type": "Identifier",
                     "name": "caseFirst",
-                    "start": 3852,
-                    "end": 3861
+                    "start": 6653,
+                    "end": 6662
                   },
                   "optional": false,
                   "computed": false,
-                  "start": 3848,
-                  "end": 3861
+                  "start": 6649,
+                  "end": 6662
                 },
                 {
                   "type": "Literal",
                   "value": "",
                   "raw": "\"\"",
-                  "start": 3863,
-                  "end": 3865
+                  "start": 6664,
+                  "end": 6666
                 }
               ],
               "optional": false,
-              "start": 3831,
-              "end": 3866
+              "start": 6632,
+              "end": 6667
             },
-            "start": 3831,
-            "end": 3867
+            "start": 6632,
+            "end": 6668
           }
         ],
-        "start": 3825,
-        "end": 3869
+        "start": 6626,
+        "end": 6670
       },
       "alternate": null,
-      "start": 3801,
-      "end": 3869
+      "start": 6602,
+      "end": 6670
     },
     {
       "type": "IfStatement",
@@ -2467,18 +2663,18 @@
           "type": "Literal",
           "value": "numeric",
           "raw": "\"numeric\"",
-          "start": 3874,
-          "end": 3883
+          "start": 6675,
+          "end": 6684
         },
         "operator": "in",
         "right": {
           "type": "Identifier",
           "name": "loc",
-          "start": 3887,
-          "end": 3890
+          "start": 6688,
+          "end": 6691
         },
-        "start": 3874,
-        "end": 3890
+        "start": 6675,
+        "end": 6691
       },
       "consequent": {
         "type": "BlockStatement",
@@ -2492,19 +2688,19 @@
                 "object": {
                   "type": "Identifier",
                   "name": "assert",
-                  "start": 3898,
-                  "end": 3904
+                  "start": 6699,
+                  "end": 6705
                 },
                 "property": {
                   "type": "Identifier",
                   "name": "sameValue",
-                  "start": 3905,
-                  "end": 3914
+                  "start": 6706,
+                  "end": 6715
                 },
                 "optional": false,
                 "computed": false,
-                "start": 3898,
-                "end": 3914
+                "start": 6699,
+                "end": 6715
               },
               "arguments": [
                 {
@@ -2512,42 +2708,42 @@
                   "object": {
                     "type": "Identifier",
                     "name": "loc",
-                    "start": 3915,
-                    "end": 3918
+                    "start": 6716,
+                    "end": 6719
                   },
                   "property": {
                     "type": "Identifier",
                     "name": "numeric",
-                    "start": 3919,
-                    "end": 3926
+                    "start": 6720,
+                    "end": 6727
                   },
                   "optional": false,
                   "computed": false,
-                  "start": 3915,
-                  "end": 3926
+                  "start": 6716,
+                  "end": 6727
                 },
                 {
                   "type": "Literal",
                   "value": false,
                   "raw": "false",
-                  "start": 3928,
-                  "end": 3933
+                  "start": 6729,
+                  "end": 6734
                 }
               ],
               "optional": false,
-              "start": 3898,
-              "end": 3934
+              "start": 6699,
+              "end": 6735
             },
-            "start": 3898,
-            "end": 3935
+            "start": 6699,
+            "end": 6736
           }
         ],
-        "start": 3892,
-        "end": 3937
+        "start": 6693,
+        "end": 6738
       },
       "alternate": null,
-      "start": 3870,
-      "end": 3937
+      "start": 6671,
+      "end": 6738
     },
     {
       "type": "ExpressionStatement",
@@ -2558,19 +2754,19 @@
           "object": {
             "type": "Identifier",
             "name": "assert",
-            "start": 3938,
-            "end": 3944
+            "start": 6739,
+            "end": 6745
           },
           "property": {
             "type": "Identifier",
             "name": "sameValue",
-            "start": 3945,
-            "end": 3954
+            "start": 6746,
+            "end": 6755
           },
           "optional": false,
           "computed": false,
-          "start": 3938,
-          "end": 3954
+          "start": 6739,
+          "end": 6755
         },
         "arguments": [
           {
@@ -2578,34 +2774,34 @@
             "object": {
               "type": "Identifier",
               "name": "loc",
-              "start": 3955,
-              "end": 3958
+              "start": 6756,
+              "end": 6759
             },
             "property": {
               "type": "Identifier",
               "name": "numberingSystem",
-              "start": 3959,
-              "end": 3974
+              "start": 6760,
+              "end": 6775
             },
             "optional": false,
             "computed": false,
-            "start": 3955,
-            "end": 3974
+            "start": 6756,
+            "end": 6775
           },
           {
             "type": "Literal",
             "value": "latn",
             "raw": "\"latn\"",
-            "start": 3976,
-            "end": 3982
+            "start": 6777,
+            "end": 6783
           }
         ],
         "optional": false,
-        "start": 3938,
-        "end": 3983
+        "start": 6739,
+        "end": 6784
       },
-      "start": 3938,
-      "end": 3984
+      "start": 6739,
+      "end": 6785
     },
     {
       "type": "VariableDeclaration",
@@ -2616,8 +2812,8 @@
           "id": {
             "type": "Identifier",
             "name": "loc",
-            "start": 4062,
-            "end": 4065
+            "start": 6863,
+            "end": 6866
           },
           "init": {
             "type": "NewExpression",
@@ -2626,38 +2822,38 @@
               "object": {
                 "type": "Identifier",
                 "name": "Intl",
-                "start": 4072,
-                "end": 4076
+                "start": 6873,
+                "end": 6877
               },
               "property": {
                 "type": "Identifier",
                 "name": "Locale",
-                "start": 4077,
-                "end": 4083
+                "start": 6878,
+                "end": 6884
               },
               "optional": false,
               "computed": false,
-              "start": 4072,
-              "end": 4083
+              "start": 6873,
+              "end": 6884
             },
             "arguments": [
               {
                 "type": "Literal",
                 "value": "und",
                 "raw": "\"und\"",
-                "start": 4084,
-                "end": 4089
+                "start": 6885,
+                "end": 6890
               }
             ],
-            "start": 4068,
-            "end": 4090
+            "start": 6869,
+            "end": 6891
           },
-          "start": 4062,
-          "end": 4090
+          "start": 6863,
+          "end": 6891
         }
       ],
-      "start": 4058,
-      "end": 4091
+      "start": 6859,
+      "end": 6892
     },
     {
       "type": "ExpressionStatement",
@@ -2668,19 +2864,19 @@
           "object": {
             "type": "Identifier",
             "name": "assert",
-            "start": 4093,
-            "end": 4099
+            "start": 6894,
+            "end": 6900
           },
           "property": {
             "type": "Identifier",
             "name": "sameValue",
-            "start": 4100,
-            "end": 4109
+            "start": 6901,
+            "end": 6910
           },
           "optional": false,
           "computed": false,
-          "start": 4093,
-          "end": 4109
+          "start": 6894,
+          "end": 6910
         },
         "arguments": [
           {
@@ -2690,39 +2886,39 @@
               "object": {
                 "type": "Identifier",
                 "name": "loc",
-                "start": 4110,
-                "end": 4113
+                "start": 6911,
+                "end": 6914
               },
               "property": {
                 "type": "Identifier",
                 "name": "toString",
-                "start": 4114,
-                "end": 4122
+                "start": 6915,
+                "end": 6923
               },
               "optional": false,
               "computed": false,
-              "start": 4110,
-              "end": 4122
+              "start": 6911,
+              "end": 6923
             },
             "arguments": [],
             "optional": false,
-            "start": 4110,
-            "end": 4124
+            "start": 6911,
+            "end": 6925
           },
           {
             "type": "Literal",
             "value": "und",
             "raw": "\"und\"",
-            "start": 4126,
-            "end": 4131
+            "start": 6927,
+            "end": 6932
           }
         ],
         "optional": false,
-        "start": 4093,
-        "end": 4132
+        "start": 6894,
+        "end": 6933
       },
-      "start": 4093,
-      "end": 4133
+      "start": 6894,
+      "end": 6934
     },
     {
       "type": "ExpressionStatement",
@@ -2733,19 +2929,19 @@
           "object": {
             "type": "Identifier",
             "name": "assert",
-            "start": 4134,
-            "end": 4140
+            "start": 6935,
+            "end": 6941
           },
           "property": {
             "type": "Identifier",
             "name": "sameValue",
-            "start": 4141,
-            "end": 4150
+            "start": 6942,
+            "end": 6951
           },
           "optional": false,
           "computed": false,
-          "start": 4134,
-          "end": 4150
+          "start": 6935,
+          "end": 6951
         },
         "arguments": [
           {
@@ -2753,34 +2949,34 @@
             "object": {
               "type": "Identifier",
               "name": "loc",
-              "start": 4151,
-              "end": 4154
+              "start": 6952,
+              "end": 6955
             },
             "property": {
               "type": "Identifier",
               "name": "baseName",
-              "start": 4155,
-              "end": 4163
+              "start": 6956,
+              "end": 6964
             },
             "optional": false,
             "computed": false,
-            "start": 4151,
-            "end": 4163
+            "start": 6952,
+            "end": 6964
           },
           {
             "type": "Literal",
             "value": "und",
             "raw": "\"und\"",
-            "start": 4165,
-            "end": 4170
+            "start": 6966,
+            "end": 6971
           }
         ],
         "optional": false,
-        "start": 4134,
-        "end": 4171
+        "start": 6935,
+        "end": 6972
       },
-      "start": 4134,
-      "end": 4172
+      "start": 6935,
+      "end": 6973
     },
     {
       "type": "ExpressionStatement",
@@ -2791,19 +2987,19 @@
           "object": {
             "type": "Identifier",
             "name": "assert",
-            "start": 4173,
-            "end": 4179
+            "start": 6974,
+            "end": 6980
           },
           "property": {
             "type": "Identifier",
             "name": "sameValue",
-            "start": 4180,
-            "end": 4189
+            "start": 6981,
+            "end": 6990
           },
           "optional": false,
           "computed": false,
-          "start": 4173,
-          "end": 4189
+          "start": 6974,
+          "end": 6990
         },
         "arguments": [
           {
@@ -2811,34 +3007,34 @@
             "object": {
               "type": "Identifier",
               "name": "loc",
-              "start": 4190,
-              "end": 4193
+              "start": 6991,
+              "end": 6994
             },
             "property": {
               "type": "Identifier",
               "name": "language",
-              "start": 4194,
-              "end": 4202
+              "start": 6995,
+              "end": 7003
             },
             "optional": false,
             "computed": false,
-            "start": 4190,
-            "end": 4202
+            "start": 6991,
+            "end": 7003
           },
           {
             "type": "Literal",
             "value": "und",
             "raw": "\"und\"",
-            "start": 4204,
-            "end": 4209
+            "start": 7005,
+            "end": 7010
           }
         ],
         "optional": false,
-        "start": 4173,
-        "end": 4210
+        "start": 6974,
+        "end": 7011
       },
-      "start": 4173,
-      "end": 4211
+      "start": 6974,
+      "end": 7012
     },
     {
       "type": "ExpressionStatement",
@@ -2849,19 +3045,19 @@
           "object": {
             "type": "Identifier",
             "name": "assert",
-            "start": 4212,
-            "end": 4218
+            "start": 7013,
+            "end": 7019
           },
           "property": {
             "type": "Identifier",
             "name": "sameValue",
-            "start": 4219,
-            "end": 4228
+            "start": 7020,
+            "end": 7029
           },
           "optional": false,
           "computed": false,
-          "start": 4212,
-          "end": 4228
+          "start": 7013,
+          "end": 7029
         },
         "arguments": [
           {
@@ -2869,33 +3065,33 @@
             "object": {
               "type": "Identifier",
               "name": "loc",
-              "start": 4229,
-              "end": 4232
+              "start": 7030,
+              "end": 7033
             },
             "property": {
               "type": "Identifier",
               "name": "script",
-              "start": 4233,
-              "end": 4239
+              "start": 7034,
+              "end": 7040
             },
             "optional": false,
             "computed": false,
-            "start": 4229,
-            "end": 4239
+            "start": 7030,
+            "end": 7040
           },
           {
             "type": "Identifier",
             "name": "undefined",
-            "start": 4241,
-            "end": 4250
+            "start": 7042,
+            "end": 7051
           }
         ],
         "optional": false,
-        "start": 4212,
-        "end": 4251
+        "start": 7013,
+        "end": 7052
       },
-      "start": 4212,
-      "end": 4252
+      "start": 7013,
+      "end": 7053
     },
     {
       "type": "ExpressionStatement",
@@ -2906,19 +3102,19 @@
           "object": {
             "type": "Identifier",
             "name": "assert",
-            "start": 4253,
-            "end": 4259
+            "start": 7054,
+            "end": 7060
           },
           "property": {
             "type": "Identifier",
             "name": "sameValue",
-            "start": 4260,
-            "end": 4269
+            "start": 7061,
+            "end": 7070
           },
           "optional": false,
           "computed": false,
-          "start": 4253,
-          "end": 4269
+          "start": 7054,
+          "end": 7070
         },
         "arguments": [
           {
@@ -2926,33 +3122,90 @@
             "object": {
               "type": "Identifier",
               "name": "loc",
-              "start": 4270,
-              "end": 4273
+              "start": 7071,
+              "end": 7074
             },
             "property": {
               "type": "Identifier",
               "name": "region",
-              "start": 4274,
-              "end": 4280
+              "start": 7075,
+              "end": 7081
             },
             "optional": false,
             "computed": false,
-            "start": 4270,
-            "end": 4280
+            "start": 7071,
+            "end": 7081
           },
           {
             "type": "Identifier",
             "name": "undefined",
-            "start": 4282,
-            "end": 4291
+            "start": 7083,
+            "end": 7092
           }
         ],
         "optional": false,
-        "start": 4253,
-        "end": 4292
+        "start": 7054,
+        "end": 7093
       },
-      "start": 4253,
-      "end": 4293
+      "start": 7054,
+      "end": 7094
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "MemberExpression",
+          "object": {
+            "type": "Identifier",
+            "name": "assert",
+            "start": 7095,
+            "end": 7101
+          },
+          "property": {
+            "type": "Identifier",
+            "name": "sameValue",
+            "start": 7102,
+            "end": 7111
+          },
+          "optional": false,
+          "computed": false,
+          "start": 7095,
+          "end": 7111
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "object": {
+              "type": "Identifier",
+              "name": "loc",
+              "start": 7112,
+              "end": 7115
+            },
+            "property": {
+              "type": "Identifier",
+              "name": "variants",
+              "start": 7116,
+              "end": 7124
+            },
+            "optional": false,
+            "computed": false,
+            "start": 7112,
+            "end": 7124
+          },
+          {
+            "type": "Identifier",
+            "name": "undefined",
+            "start": 7126,
+            "end": 7135
+          }
+        ],
+        "optional": false,
+        "start": 7095,
+        "end": 7136
+      },
+      "start": 7095,
+      "end": 7137
     },
     {
       "type": "VariableDeclaration",
@@ -2963,8 +3216,8 @@
           "id": {
             "type": "Identifier",
             "name": "loc",
-            "start": 4299,
-            "end": 4302
+            "start": 7143,
+            "end": 7146
           },
           "init": {
             "type": "NewExpression",
@@ -2973,38 +3226,38 @@
               "object": {
                 "type": "Identifier",
                 "name": "Intl",
-                "start": 4309,
-                "end": 4313
+                "start": 7153,
+                "end": 7157
               },
               "property": {
                 "type": "Identifier",
                 "name": "Locale",
-                "start": 4314,
-                "end": 4320
+                "start": 7158,
+                "end": 7164
               },
               "optional": false,
               "computed": false,
-              "start": 4309,
-              "end": 4320
+              "start": 7153,
+              "end": 7164
             },
             "arguments": [
               {
                 "type": "Literal",
                 "value": "und-US-u-co-emoji",
                 "raw": "\"und-US-u-co-emoji\"",
-                "start": 4321,
-                "end": 4340
+                "start": 7165,
+                "end": 7184
               }
             ],
-            "start": 4305,
-            "end": 4341
+            "start": 7149,
+            "end": 7185
           },
-          "start": 4299,
-          "end": 4341
+          "start": 7143,
+          "end": 7185
         }
       ],
-      "start": 4295,
-      "end": 4342
+      "start": 7139,
+      "end": 7186
     },
     {
       "type": "ExpressionStatement",
@@ -3015,19 +3268,19 @@
           "object": {
             "type": "Identifier",
             "name": "assert",
-            "start": 4344,
-            "end": 4350
+            "start": 7188,
+            "end": 7194
           },
           "property": {
             "type": "Identifier",
             "name": "sameValue",
-            "start": 4351,
-            "end": 4360
+            "start": 7195,
+            "end": 7204
           },
           "optional": false,
           "computed": false,
-          "start": 4344,
-          "end": 4360
+          "start": 7188,
+          "end": 7204
         },
         "arguments": [
           {
@@ -3037,39 +3290,39 @@
               "object": {
                 "type": "Identifier",
                 "name": "loc",
-                "start": 4361,
-                "end": 4364
+                "start": 7205,
+                "end": 7208
               },
               "property": {
                 "type": "Identifier",
                 "name": "toString",
-                "start": 4365,
-                "end": 4373
+                "start": 7209,
+                "end": 7217
               },
               "optional": false,
               "computed": false,
-              "start": 4361,
-              "end": 4373
+              "start": 7205,
+              "end": 7217
             },
             "arguments": [],
             "optional": false,
-            "start": 4361,
-            "end": 4375
+            "start": 7205,
+            "end": 7219
           },
           {
             "type": "Literal",
             "value": "und-US-u-co-emoji",
             "raw": "\"und-US-u-co-emoji\"",
-            "start": 4377,
-            "end": 4396
+            "start": 7221,
+            "end": 7240
           }
         ],
         "optional": false,
-        "start": 4344,
-        "end": 4397
+        "start": 7188,
+        "end": 7241
       },
-      "start": 4344,
-      "end": 4398
+      "start": 7188,
+      "end": 7242
     },
     {
       "type": "ExpressionStatement",
@@ -3080,19 +3333,19 @@
           "object": {
             "type": "Identifier",
             "name": "assert",
-            "start": 4399,
-            "end": 4405
+            "start": 7243,
+            "end": 7249
           },
           "property": {
             "type": "Identifier",
             "name": "sameValue",
-            "start": 4406,
-            "end": 4415
+            "start": 7250,
+            "end": 7259
           },
           "optional": false,
           "computed": false,
-          "start": 4399,
-          "end": 4415
+          "start": 7243,
+          "end": 7259
         },
         "arguments": [
           {
@@ -3100,34 +3353,34 @@
             "object": {
               "type": "Identifier",
               "name": "loc",
-              "start": 4416,
-              "end": 4419
+              "start": 7260,
+              "end": 7263
             },
             "property": {
               "type": "Identifier",
               "name": "baseName",
-              "start": 4420,
-              "end": 4428
+              "start": 7264,
+              "end": 7272
             },
             "optional": false,
             "computed": false,
-            "start": 4416,
-            "end": 4428
+            "start": 7260,
+            "end": 7272
           },
           {
             "type": "Literal",
             "value": "und-US",
             "raw": "\"und-US\"",
-            "start": 4430,
-            "end": 4438
+            "start": 7274,
+            "end": 7282
           }
         ],
         "optional": false,
-        "start": 4399,
-        "end": 4439
+        "start": 7243,
+        "end": 7283
       },
-      "start": 4399,
-      "end": 4440
+      "start": 7243,
+      "end": 7284
     },
     {
       "type": "ExpressionStatement",
@@ -3138,19 +3391,19 @@
           "object": {
             "type": "Identifier",
             "name": "assert",
-            "start": 4441,
-            "end": 4447
+            "start": 7285,
+            "end": 7291
           },
           "property": {
             "type": "Identifier",
             "name": "sameValue",
-            "start": 4448,
-            "end": 4457
+            "start": 7292,
+            "end": 7301
           },
           "optional": false,
           "computed": false,
-          "start": 4441,
-          "end": 4457
+          "start": 7285,
+          "end": 7301
         },
         "arguments": [
           {
@@ -3158,34 +3411,34 @@
             "object": {
               "type": "Identifier",
               "name": "loc",
-              "start": 4458,
-              "end": 4461
+              "start": 7302,
+              "end": 7305
             },
             "property": {
               "type": "Identifier",
               "name": "language",
-              "start": 4462,
-              "end": 4470
+              "start": 7306,
+              "end": 7314
             },
             "optional": false,
             "computed": false,
-            "start": 4458,
-            "end": 4470
+            "start": 7302,
+            "end": 7314
           },
           {
             "type": "Literal",
             "value": "und",
             "raw": "\"und\"",
-            "start": 4472,
-            "end": 4477
+            "start": 7316,
+            "end": 7321
           }
         ],
         "optional": false,
-        "start": 4441,
-        "end": 4478
+        "start": 7285,
+        "end": 7322
       },
-      "start": 4441,
-      "end": 4479
+      "start": 7285,
+      "end": 7323
     },
     {
       "type": "ExpressionStatement",
@@ -3196,19 +3449,19 @@
           "object": {
             "type": "Identifier",
             "name": "assert",
-            "start": 4480,
-            "end": 4486
+            "start": 7324,
+            "end": 7330
           },
           "property": {
             "type": "Identifier",
             "name": "sameValue",
-            "start": 4487,
-            "end": 4496
+            "start": 7331,
+            "end": 7340
           },
           "optional": false,
           "computed": false,
-          "start": 4480,
-          "end": 4496
+          "start": 7324,
+          "end": 7340
         },
         "arguments": [
           {
@@ -3216,33 +3469,33 @@
             "object": {
               "type": "Identifier",
               "name": "loc",
-              "start": 4497,
-              "end": 4500
+              "start": 7341,
+              "end": 7344
             },
             "property": {
               "type": "Identifier",
               "name": "script",
-              "start": 4501,
-              "end": 4507
+              "start": 7345,
+              "end": 7351
             },
             "optional": false,
             "computed": false,
-            "start": 4497,
-            "end": 4507
+            "start": 7341,
+            "end": 7351
           },
           {
             "type": "Identifier",
             "name": "undefined",
-            "start": 4509,
-            "end": 4518
+            "start": 7353,
+            "end": 7362
           }
         ],
         "optional": false,
-        "start": 4480,
-        "end": 4519
+        "start": 7324,
+        "end": 7363
       },
-      "start": 4480,
-      "end": 4520
+      "start": 7324,
+      "end": 7364
     },
     {
       "type": "ExpressionStatement",
@@ -3253,19 +3506,19 @@
           "object": {
             "type": "Identifier",
             "name": "assert",
-            "start": 4521,
-            "end": 4527
+            "start": 7365,
+            "end": 7371
           },
           "property": {
             "type": "Identifier",
             "name": "sameValue",
-            "start": 4528,
-            "end": 4537
+            "start": 7372,
+            "end": 7381
           },
           "optional": false,
           "computed": false,
-          "start": 4521,
-          "end": 4537
+          "start": 7365,
+          "end": 7381
         },
         "arguments": [
           {
@@ -3273,34 +3526,91 @@
             "object": {
               "type": "Identifier",
               "name": "loc",
-              "start": 4538,
-              "end": 4541
+              "start": 7382,
+              "end": 7385
             },
             "property": {
               "type": "Identifier",
               "name": "region",
-              "start": 4542,
-              "end": 4548
+              "start": 7386,
+              "end": 7392
             },
             "optional": false,
             "computed": false,
-            "start": 4538,
-            "end": 4548
+            "start": 7382,
+            "end": 7392
           },
           {
             "type": "Literal",
             "value": "US",
             "raw": "\"US\"",
-            "start": 4550,
-            "end": 4554
+            "start": 7394,
+            "end": 7398
           }
         ],
         "optional": false,
-        "start": 4521,
-        "end": 4555
+        "start": 7365,
+        "end": 7399
       },
-      "start": 4521,
-      "end": 4556
+      "start": 7365,
+      "end": 7400
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "MemberExpression",
+          "object": {
+            "type": "Identifier",
+            "name": "assert",
+            "start": 7401,
+            "end": 7407
+          },
+          "property": {
+            "type": "Identifier",
+            "name": "sameValue",
+            "start": 7408,
+            "end": 7417
+          },
+          "optional": false,
+          "computed": false,
+          "start": 7401,
+          "end": 7417
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "object": {
+              "type": "Identifier",
+              "name": "loc",
+              "start": 7418,
+              "end": 7421
+            },
+            "property": {
+              "type": "Identifier",
+              "name": "variants",
+              "start": 7422,
+              "end": 7430
+            },
+            "optional": false,
+            "computed": false,
+            "start": 7418,
+            "end": 7430
+          },
+          {
+            "type": "Identifier",
+            "name": "undefined",
+            "start": 7432,
+            "end": 7441
+          }
+        ],
+        "optional": false,
+        "start": 7401,
+        "end": 7442
+      },
+      "start": 7401,
+      "end": 7443
     },
     {
       "type": "IfStatement",
@@ -3310,18 +3620,18 @@
           "type": "Literal",
           "value": "collation",
           "raw": "\"collation\"",
-          "start": 4561,
-          "end": 4572
+          "start": 7448,
+          "end": 7459
         },
         "operator": "in",
         "right": {
           "type": "Identifier",
           "name": "loc",
-          "start": 4576,
-          "end": 4579
+          "start": 7463,
+          "end": 7466
         },
-        "start": 4561,
-        "end": 4579
+        "start": 7448,
+        "end": 7466
       },
       "consequent": {
         "type": "BlockStatement",
@@ -3335,19 +3645,19 @@
                 "object": {
                   "type": "Identifier",
                   "name": "assert",
-                  "start": 4587,
-                  "end": 4593
+                  "start": 7474,
+                  "end": 7480
                 },
                 "property": {
                   "type": "Identifier",
                   "name": "sameValue",
-                  "start": 4594,
-                  "end": 4603
+                  "start": 7481,
+                  "end": 7490
                 },
                 "optional": false,
                 "computed": false,
-                "start": 4587,
-                "end": 4603
+                "start": 7474,
+                "end": 7490
               },
               "arguments": [
                 {
@@ -3355,46 +3665,46 @@
                   "object": {
                     "type": "Identifier",
                     "name": "loc",
-                    "start": 4604,
-                    "end": 4607
+                    "start": 7491,
+                    "end": 7494
                   },
                   "property": {
                     "type": "Identifier",
                     "name": "collation",
-                    "start": 4608,
-                    "end": 4617
+                    "start": 7495,
+                    "end": 7504
                   },
                   "optional": false,
                   "computed": false,
-                  "start": 4604,
-                  "end": 4617
+                  "start": 7491,
+                  "end": 7504
                 },
                 {
                   "type": "Literal",
                   "value": "emoji",
                   "raw": "\"emoji\"",
-                  "start": 4619,
-                  "end": 4626
+                  "start": 7506,
+                  "end": 7513
                 }
               ],
               "optional": false,
-              "start": 4587,
-              "end": 4627
+              "start": 7474,
+              "end": 7514
             },
-            "start": 4587,
-            "end": 4628
+            "start": 7474,
+            "end": 7515
           }
         ],
-        "start": 4581,
-        "end": 4630
+        "start": 7468,
+        "end": 7517
       },
       "alternate": null,
-      "start": 4557,
-      "end": 4630
+      "start": 7444,
+      "end": 7517
     }
   ],
   "sourceType": "script",
   "hashbang": null,
   "start": 0,
-  "end": 4631
+  "end": 7518
 }

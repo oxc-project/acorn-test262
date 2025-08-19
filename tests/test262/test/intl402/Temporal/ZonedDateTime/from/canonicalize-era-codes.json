@@ -84,8 +84,8 @@
                     },
                     "value": {
                       "type": "Literal",
-                      "value": "ce",
-                      "raw": "\"ce\"",
+                      "value": "ad",
+                      "raw": "\"ad\"",
                       "start": 322,
                       "end": 326
                     },
@@ -266,25 +266,25 @@
           },
           {
             "type": "Literal",
-            "value": "gregory",
-            "raw": "\"gregory\"",
+            "value": "ce",
+            "raw": "\"ce\"",
             "start": 432,
-            "end": 441
+            "end": 436
           },
           {
             "type": "Literal",
-            "value": "'ce' is accepted as alias for 'gregory'",
-            "raw": "\"'ce' is accepted as alias for 'gregory'\"",
-            "start": 443,
-            "end": 484
+            "value": "'ad' is accepted as alias for 'ce'",
+            "raw": "\"'ad' is accepted as alias for 'ce'\"",
+            "start": 438,
+            "end": 474
           }
         ],
         "optional": false,
         "start": 404,
-        "end": 485
+        "end": 475
       },
       "start": 404,
-      "end": 486
+      "end": 476
     },
     {
       "type": "VariableDeclaration",
@@ -295,8 +295,8 @@
           "id": {
             "type": "Identifier",
             "name": "date2",
-            "start": 494,
-            "end": 499
+            "start": 484,
+            "end": 489
           },
           "init": {
             "type": "CallExpression",
@@ -307,30 +307,30 @@
                 "object": {
                   "type": "Identifier",
                   "name": "Temporal",
-                  "start": 502,
-                  "end": 510
+                  "start": 492,
+                  "end": 500
                 },
                 "property": {
                   "type": "Identifier",
                   "name": "ZonedDateTime",
-                  "start": 511,
-                  "end": 524
+                  "start": 501,
+                  "end": 514
                 },
                 "optional": false,
                 "computed": false,
-                "start": 502,
-                "end": 524
+                "start": 492,
+                "end": 514
               },
               "property": {
                 "type": "Identifier",
                 "name": "from",
-                "start": 525,
-                "end": 529
+                "start": 515,
+                "end": 519
               },
               "optional": false,
               "computed": false,
-              "start": 502,
-              "end": 529
+              "start": 492,
+              "end": 519
             },
             "arguments": [
               {
@@ -342,21 +342,21 @@
                     "key": {
                       "type": "Identifier",
                       "name": "calendar",
-                      "start": 534,
-                      "end": 542
+                      "start": 524,
+                      "end": 532
                     },
                     "value": {
                       "type": "Literal",
                       "value": "gregory",
                       "raw": "\"gregory\"",
-                      "start": 544,
-                      "end": 553
+                      "start": 534,
+                      "end": 543
                     },
                     "method": false,
                     "shorthand": false,
                     "computed": false,
-                    "start": 534,
-                    "end": 553
+                    "start": 524,
+                    "end": 543
                   },
                   {
                     "type": "Property",
@@ -364,21 +364,21 @@
                     "key": {
                       "type": "Identifier",
                       "name": "era",
-                      "start": 557,
-                      "end": 560
+                      "start": 547,
+                      "end": 550
                     },
                     "value": {
                       "type": "Literal",
-                      "value": "bce",
-                      "raw": "\"bce\"",
-                      "start": 562,
-                      "end": 567
+                      "value": "bc",
+                      "raw": "\"bc\"",
+                      "start": 552,
+                      "end": 556
                     },
                     "method": false,
                     "shorthand": false,
                     "computed": false,
-                    "start": 557,
-                    "end": 567
+                    "start": 547,
+                    "end": 556
                   },
                   {
                     "type": "Property",
@@ -386,21 +386,21 @@
                     "key": {
                       "type": "Identifier",
                       "name": "eraYear",
-                      "start": 571,
-                      "end": 578
+                      "start": 560,
+                      "end": 567
                     },
                     "value": {
                       "type": "Literal",
                       "value": 44,
                       "raw": "44",
-                      "start": 580,
-                      "end": 582
+                      "start": 569,
+                      "end": 571
                     },
                     "method": false,
                     "shorthand": false,
                     "computed": false,
-                    "start": 571,
-                    "end": 582
+                    "start": 560,
+                    "end": 571
                   },
                   {
                     "type": "Property",
@@ -408,8 +408,8 @@
                     "key": {
                       "type": "Identifier",
                       "name": "year",
-                      "start": 586,
-                      "end": 590
+                      "start": 575,
+                      "end": 579
                     },
                     "value": {
                       "type": "UnaryExpression",
@@ -418,18 +418,18 @@
                         "type": "Literal",
                         "value": 43,
                         "raw": "43",
-                        "start": 593,
-                        "end": 595
+                        "start": 582,
+                        "end": 584
                       },
                       "prefix": true,
-                      "start": 592,
-                      "end": 595
+                      "start": 581,
+                      "end": 584
                     },
                     "method": false,
                     "shorthand": false,
                     "computed": false,
-                    "start": 586,
-                    "end": 595
+                    "start": 575,
+                    "end": 584
                   },
                   {
                     "type": "Property",
@@ -437,21 +437,21 @@
                     "key": {
                       "type": "Identifier",
                       "name": "month",
-                      "start": 599,
-                      "end": 604
+                      "start": 588,
+                      "end": 593
                     },
                     "value": {
                       "type": "Literal",
                       "value": 3,
                       "raw": "3",
-                      "start": 606,
-                      "end": 607
+                      "start": 595,
+                      "end": 596
                     },
                     "method": false,
                     "shorthand": false,
                     "computed": false,
-                    "start": 599,
-                    "end": 607
+                    "start": 588,
+                    "end": 596
                   },
                   {
                     "type": "Property",
@@ -459,21 +459,21 @@
                     "key": {
                       "type": "Identifier",
                       "name": "day",
-                      "start": 611,
-                      "end": 614
+                      "start": 600,
+                      "end": 603
                     },
                     "value": {
                       "type": "Literal",
                       "value": 15,
                       "raw": "15",
-                      "start": 616,
-                      "end": 618
+                      "start": 605,
+                      "end": 607
                     },
                     "method": false,
                     "shorthand": false,
                     "computed": false,
-                    "start": 611,
-                    "end": 618
+                    "start": 600,
+                    "end": 607
                   },
                   {
                     "type": "Property",
@@ -481,37 +481,37 @@
                     "key": {
                       "type": "Identifier",
                       "name": "timeZone",
-                      "start": 622,
-                      "end": 630
+                      "start": 611,
+                      "end": 619
                     },
                     "value": {
                       "type": "Literal",
                       "value": "Europe/Rome",
                       "raw": "\"Europe/Rome\"",
-                      "start": 632,
-                      "end": 645
+                      "start": 621,
+                      "end": 634
                     },
                     "method": false,
                     "shorthand": false,
                     "computed": false,
-                    "start": 622,
-                    "end": 645
+                    "start": 611,
+                    "end": 634
                   }
                 ],
-                "start": 530,
-                "end": 648
+                "start": 520,
+                "end": 637
               }
             ],
             "optional": false,
-            "start": 502,
-            "end": 649
+            "start": 492,
+            "end": 638
           },
-          "start": 494,
-          "end": 649
+          "start": 484,
+          "end": 638
         }
       ],
-      "start": 488,
-      "end": 650
+      "start": 478,
+      "end": 639
     },
     {
       "type": "ExpressionStatement",
@@ -522,19 +522,19 @@
           "object": {
             "type": "Identifier",
             "name": "assert",
-            "start": 651,
-            "end": 657
+            "start": 640,
+            "end": 646
           },
           "property": {
             "type": "Identifier",
             "name": "sameValue",
-            "start": 658,
-            "end": 667
+            "start": 647,
+            "end": 656
           },
           "optional": false,
           "computed": false,
-          "start": 651,
-          "end": 667
+          "start": 640,
+          "end": 656
         },
         "arguments": [
           {
@@ -542,45 +542,45 @@
             "object": {
               "type": "Identifier",
               "name": "date2",
-              "start": 668,
-              "end": 673
+              "start": 657,
+              "end": 662
             },
             "property": {
               "type": "Identifier",
               "name": "era",
-              "start": 674,
-              "end": 677
+              "start": 663,
+              "end": 666
             },
             "optional": false,
             "computed": false,
+            "start": 657,
+            "end": 666
+          },
+          {
+            "type": "Literal",
+            "value": "bce",
+            "raw": "\"bce\"",
             "start": 668,
-            "end": 677
+            "end": 673
           },
           {
             "type": "Literal",
-            "value": "gregory-inverse",
-            "raw": "\"gregory-inverse\"",
-            "start": 679,
-            "end": 696
-          },
-          {
-            "type": "Literal",
-            "value": "'bce' is accepted as alias for 'gregory-inverse'",
-            "raw": "\"'bce' is accepted as alias for 'gregory-inverse'\"",
-            "start": 698,
-            "end": 748
+            "value": "'bc' is accepted as alias for 'bce'",
+            "raw": "\"'bc' is accepted as alias for 'bce'\"",
+            "start": 675,
+            "end": 712
           }
         ],
         "optional": false,
-        "start": 651,
-        "end": 749
+        "start": 640,
+        "end": 713
       },
-      "start": 651,
-      "end": 750
+      "start": 640,
+      "end": 714
     }
   ],
   "sourceType": "script",
   "hashbang": null,
   "start": 0,
-  "end": 751
+  "end": 715
 }

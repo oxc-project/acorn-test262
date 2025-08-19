@@ -1,0 +1,798 @@
+{
+  "type": "Program",
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "kind": "var",
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "id": {
+            "type": "Identifier",
+            "name": "tests",
+            "start": 291,
+            "end": 296
+          },
+          "init": {
+            "type": "ArrayExpression",
+            "elements": [
+              {
+                "type": "ObjectExpression",
+                "properties": [
+                  {
+                    "type": "Property",
+                    "kind": "init",
+                    "key": {
+                      "type": "Identifier",
+                      "name": "locale",
+                      "start": 498,
+                      "end": 504
+                    },
+                    "value": {
+                      "type": "Literal",
+                      "value": "en-u-kf-lower",
+                      "raw": "\"en-u-kf-lower\"",
+                      "start": 506,
+                      "end": 521
+                    },
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false,
+                    "start": 498,
+                    "end": 521
+                  },
+                  {
+                    "type": "Property",
+                    "kind": "init",
+                    "key": {
+                      "type": "Identifier",
+                      "name": "caseFirst",
+                      "start": 527,
+                      "end": 536
+                    },
+                    "value": {
+                      "type": "Literal",
+                      "value": "upper",
+                      "raw": "\"upper\"",
+                      "start": 538,
+                      "end": 545
+                    },
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false,
+                    "start": 527,
+                    "end": 545
+                  },
+                  {
+                    "type": "Property",
+                    "kind": "init",
+                    "key": {
+                      "type": "Identifier",
+                      "name": "resolved",
+                      "start": 551,
+                      "end": 559
+                    },
+                    "value": {
+                      "type": "ObjectExpression",
+                      "properties": [
+                        {
+                          "type": "Property",
+                          "kind": "init",
+                          "key": {
+                            "type": "Identifier",
+                            "name": "locale",
+                            "start": 569,
+                            "end": 575
+                          },
+                          "value": {
+                            "type": "Literal",
+                            "value": "en",
+                            "raw": "\"en\"",
+                            "start": 577,
+                            "end": 581
+                          },
+                          "method": false,
+                          "shorthand": false,
+                          "computed": false,
+                          "start": 569,
+                          "end": 581
+                        },
+                        {
+                          "type": "Property",
+                          "kind": "init",
+                          "key": {
+                            "type": "Identifier",
+                            "name": "caseFirst",
+                            "start": 589,
+                            "end": 598
+                          },
+                          "value": {
+                            "type": "Literal",
+                            "value": "upper",
+                            "raw": "\"upper\"",
+                            "start": 600,
+                            "end": 607
+                          },
+                          "method": false,
+                          "shorthand": false,
+                          "computed": false,
+                          "start": 589,
+                          "end": 607
+                        }
+                      ],
+                      "start": 561,
+                      "end": 614
+                    },
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false,
+                    "start": 551,
+                    "end": 614
+                  }
+                ],
+                "start": 492,
+                "end": 618
+              },
+              {
+                "type": "ObjectExpression",
+                "properties": [
+                  {
+                    "type": "Property",
+                    "kind": "init",
+                    "key": {
+                      "type": "Identifier",
+                      "name": "locale",
+                      "start": 843,
+                      "end": 849
+                    },
+                    "value": {
+                      "type": "Literal",
+                      "value": "en-u-kf-lower",
+                      "raw": "\"en-u-kf-lower\"",
+                      "start": 851,
+                      "end": 866
+                    },
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false,
+                    "start": 843,
+                    "end": 866
+                  },
+                  {
+                    "type": "Property",
+                    "kind": "init",
+                    "key": {
+                      "type": "Identifier",
+                      "name": "caseFirst",
+                      "start": 872,
+                      "end": 881
+                    },
+                    "value": {
+                      "type": "Literal",
+                      "value": "lower",
+                      "raw": "\"lower\"",
+                      "start": 883,
+                      "end": 890
+                    },
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false,
+                    "start": 872,
+                    "end": 890
+                  },
+                  {
+                    "type": "Property",
+                    "kind": "init",
+                    "key": {
+                      "type": "Identifier",
+                      "name": "resolved",
+                      "start": 896,
+                      "end": 904
+                    },
+                    "value": {
+                      "type": "ObjectExpression",
+                      "properties": [
+                        {
+                          "type": "Property",
+                          "kind": "init",
+                          "key": {
+                            "type": "Identifier",
+                            "name": "locale",
+                            "start": 914,
+                            "end": 920
+                          },
+                          "value": {
+                            "type": "Literal",
+                            "value": "en-u-kf-lower",
+                            "raw": "\"en-u-kf-lower\"",
+                            "start": 922,
+                            "end": 937
+                          },
+                          "method": false,
+                          "shorthand": false,
+                          "computed": false,
+                          "start": 914,
+                          "end": 937
+                        },
+                        {
+                          "type": "Property",
+                          "kind": "init",
+                          "key": {
+                            "type": "Identifier",
+                            "name": "caseFirst",
+                            "start": 945,
+                            "end": 954
+                          },
+                          "value": {
+                            "type": "Literal",
+                            "value": "lower",
+                            "raw": "\"lower\"",
+                            "start": 956,
+                            "end": 963
+                          },
+                          "method": false,
+                          "shorthand": false,
+                          "computed": false,
+                          "start": 945,
+                          "end": 963
+                        }
+                      ],
+                      "start": 906,
+                      "end": 970
+                    },
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false,
+                    "start": 896,
+                    "end": 970
+                  }
+                ],
+                "start": 837,
+                "end": 974
+              }
+            ],
+            "start": 299,
+            "end": 977
+          },
+          "start": 291,
+          "end": 977
+        }
+      ],
+      "start": 287,
+      "end": 978
+    },
+    {
+      "type": "ForOfStatement",
+      "await": false,
+      "left": {
+        "type": "VariableDeclaration",
+        "kind": "var",
+        "declarations": [
+          {
+            "type": "VariableDeclarator",
+            "id": {
+              "type": "ObjectPattern",
+              "properties": [
+                {
+                  "type": "Property",
+                  "kind": "init",
+                  "key": {
+                    "type": "Identifier",
+                    "name": "locale",
+                    "start": 990,
+                    "end": 996
+                  },
+                  "value": {
+                    "type": "Identifier",
+                    "name": "locale",
+                    "start": 990,
+                    "end": 996
+                  },
+                  "method": false,
+                  "shorthand": true,
+                  "computed": false,
+                  "start": 990,
+                  "end": 996
+                },
+                {
+                  "type": "Property",
+                  "kind": "init",
+                  "key": {
+                    "type": "Identifier",
+                    "name": "caseFirst",
+                    "start": 998,
+                    "end": 1007
+                  },
+                  "value": {
+                    "type": "Identifier",
+                    "name": "caseFirst",
+                    "start": 998,
+                    "end": 1007
+                  },
+                  "method": false,
+                  "shorthand": true,
+                  "computed": false,
+                  "start": 998,
+                  "end": 1007
+                },
+                {
+                  "type": "Property",
+                  "kind": "init",
+                  "key": {
+                    "type": "Identifier",
+                    "name": "resolved",
+                    "start": 1009,
+                    "end": 1017
+                  },
+                  "value": {
+                    "type": "Identifier",
+                    "name": "resolved",
+                    "start": 1009,
+                    "end": 1017
+                  },
+                  "method": false,
+                  "shorthand": true,
+                  "computed": false,
+                  "start": 1009,
+                  "end": 1017
+                }
+              ],
+              "start": 989,
+              "end": 1018
+            },
+            "init": null,
+            "start": 989,
+            "end": 1018
+          }
+        ],
+        "start": 985,
+        "end": 1018
+      },
+      "right": {
+        "type": "Identifier",
+        "name": "tests",
+        "start": 1022,
+        "end": 1027
+      },
+      "body": {
+        "type": "BlockStatement",
+        "body": [
+          {
+            "type": "VariableDeclaration",
+            "kind": "var",
+            "declarations": [
+              {
+                "type": "VariableDeclarator",
+                "id": {
+                  "type": "Identifier",
+                  "name": "coll",
+                  "start": 1037,
+                  "end": 1041
+                },
+                "init": {
+                  "type": "NewExpression",
+                  "callee": {
+                    "type": "MemberExpression",
+                    "object": {
+                      "type": "Identifier",
+                      "name": "Intl",
+                      "start": 1048,
+                      "end": 1052
+                    },
+                    "property": {
+                      "type": "Identifier",
+                      "name": "Collator",
+                      "start": 1053,
+                      "end": 1061
+                    },
+                    "optional": false,
+                    "computed": false,
+                    "start": 1048,
+                    "end": 1061
+                  },
+                  "arguments": [
+                    {
+                      "type": "Identifier",
+                      "name": "locale",
+                      "start": 1062,
+                      "end": 1068
+                    },
+                    {
+                      "type": "ObjectExpression",
+                      "properties": [
+                        {
+                          "type": "Property",
+                          "kind": "init",
+                          "key": {
+                            "type": "Identifier",
+                            "name": "caseFirst",
+                            "start": 1071,
+                            "end": 1080
+                          },
+                          "value": {
+                            "type": "Identifier",
+                            "name": "caseFirst",
+                            "start": 1071,
+                            "end": 1080
+                          },
+                          "method": false,
+                          "shorthand": true,
+                          "computed": false,
+                          "start": 1071,
+                          "end": 1080
+                        }
+                      ],
+                      "start": 1070,
+                      "end": 1081
+                    }
+                  ],
+                  "start": 1044,
+                  "end": 1082
+                },
+                "start": 1037,
+                "end": 1082
+              }
+            ],
+            "start": 1033,
+            "end": 1083
+          },
+          {
+            "type": "VariableDeclaration",
+            "kind": "var",
+            "declarations": [
+              {
+                "type": "VariableDeclarator",
+                "id": {
+                  "type": "Identifier",
+                  "name": "resolvedOptions",
+                  "start": 1090,
+                  "end": 1105
+                },
+                "init": {
+                  "type": "CallExpression",
+                  "callee": {
+                    "type": "MemberExpression",
+                    "object": {
+                      "type": "Identifier",
+                      "name": "coll",
+                      "start": 1108,
+                      "end": 1112
+                    },
+                    "property": {
+                      "type": "Identifier",
+                      "name": "resolvedOptions",
+                      "start": 1113,
+                      "end": 1128
+                    },
+                    "optional": false,
+                    "computed": false,
+                    "start": 1108,
+                    "end": 1128
+                  },
+                  "arguments": [],
+                  "optional": false,
+                  "start": 1108,
+                  "end": 1130
+                },
+                "start": 1090,
+                "end": 1130
+              }
+            ],
+            "start": 1086,
+            "end": 1131
+          },
+          {
+            "type": "IfStatement",
+            "test": {
+              "type": "UnaryExpression",
+              "operator": "!",
+              "argument": {
+                "type": "CallExpression",
+                "callee": {
+                  "type": "MemberExpression",
+                  "object": {
+                    "type": "Identifier",
+                    "name": "resolvedOptions",
+                    "start": 1222,
+                    "end": 1237
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "name": "hasOwnProperty",
+                    "start": 1238,
+                    "end": 1252
+                  },
+                  "optional": false,
+                  "computed": false,
+                  "start": 1222,
+                  "end": 1252
+                },
+                "arguments": [
+                  {
+                    "type": "Literal",
+                    "value": "caseFirst",
+                    "raw": "\"caseFirst\"",
+                    "start": 1253,
+                    "end": 1264
+                  }
+                ],
+                "optional": false,
+                "start": 1222,
+                "end": 1265
+              },
+              "prefix": true,
+              "start": 1221,
+              "end": 1265
+            },
+            "consequent": {
+              "type": "BlockStatement",
+              "body": [
+                {
+                  "type": "ContinueStatement",
+                  "label": null,
+                  "start": 1273,
+                  "end": 1282
+                }
+              ],
+              "start": 1267,
+              "end": 1286
+            },
+            "alternate": null,
+            "start": 1217,
+            "end": 1286
+          },
+          {
+            "type": "ExpressionStatement",
+            "expression": {
+              "type": "CallExpression",
+              "callee": {
+                "type": "MemberExpression",
+                "object": {
+                  "type": "Identifier",
+                  "name": "assert",
+                  "start": 1290,
+                  "end": 1296
+                },
+                "property": {
+                  "type": "Identifier",
+                  "name": "sameValue",
+                  "start": 1297,
+                  "end": 1306
+                },
+                "optional": false,
+                "computed": false,
+                "start": 1290,
+                "end": 1306
+              },
+              "arguments": [
+                {
+                  "type": "MemberExpression",
+                  "object": {
+                    "type": "Identifier",
+                    "name": "resolvedOptions",
+                    "start": 1312,
+                    "end": 1327
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "name": "locale",
+                    "start": 1328,
+                    "end": 1334
+                  },
+                  "optional": false,
+                  "computed": false,
+                  "start": 1312,
+                  "end": 1334
+                },
+                {
+                  "type": "MemberExpression",
+                  "object": {
+                    "type": "Identifier",
+                    "name": "resolved",
+                    "start": 1340,
+                    "end": 1348
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "name": "locale",
+                    "start": 1349,
+                    "end": 1355
+                  },
+                  "optional": false,
+                  "computed": false,
+                  "start": 1340,
+                  "end": 1355
+                },
+                {
+                  "type": "TemplateLiteral",
+                  "quasis": [
+                    {
+                      "type": "TemplateElement",
+                      "value": {
+                        "raw": "Resolved locale for locale=",
+                        "cooked": "Resolved locale for locale="
+                      },
+                      "tail": false,
+                      "start": 1362,
+                      "end": 1389
+                    },
+                    {
+                      "type": "TemplateElement",
+                      "value": {
+                        "raw": " with caseFirst=",
+                        "cooked": " with caseFirst="
+                      },
+                      "tail": false,
+                      "start": 1398,
+                      "end": 1414
+                    },
+                    {
+                      "type": "TemplateElement",
+                      "value": {
+                        "raw": "",
+                        "cooked": ""
+                      },
+                      "tail": true,
+                      "start": 1426,
+                      "end": 1426
+                    }
+                  ],
+                  "expressions": [
+                    {
+                      "type": "Identifier",
+                      "name": "locale",
+                      "start": 1391,
+                      "end": 1397
+                    },
+                    {
+                      "type": "Identifier",
+                      "name": "caseFirst",
+                      "start": 1416,
+                      "end": 1425
+                    }
+                  ],
+                  "start": 1361,
+                  "end": 1427
+                }
+              ],
+              "optional": false,
+              "start": 1290,
+              "end": 1431
+            },
+            "start": 1290,
+            "end": 1432
+          },
+          {
+            "type": "ExpressionStatement",
+            "expression": {
+              "type": "CallExpression",
+              "callee": {
+                "type": "MemberExpression",
+                "object": {
+                  "type": "Identifier",
+                  "name": "assert",
+                  "start": 1435,
+                  "end": 1441
+                },
+                "property": {
+                  "type": "Identifier",
+                  "name": "sameValue",
+                  "start": 1442,
+                  "end": 1451
+                },
+                "optional": false,
+                "computed": false,
+                "start": 1435,
+                "end": 1451
+              },
+              "arguments": [
+                {
+                  "type": "MemberExpression",
+                  "object": {
+                    "type": "Identifier",
+                    "name": "resolvedOptions",
+                    "start": 1457,
+                    "end": 1472
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "name": "caseFirst",
+                    "start": 1473,
+                    "end": 1482
+                  },
+                  "optional": false,
+                  "computed": false,
+                  "start": 1457,
+                  "end": 1482
+                },
+                {
+                  "type": "MemberExpression",
+                  "object": {
+                    "type": "Identifier",
+                    "name": "resolved",
+                    "start": 1488,
+                    "end": 1496
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "name": "caseFirst",
+                    "start": 1497,
+                    "end": 1506
+                  },
+                  "optional": false,
+                  "computed": false,
+                  "start": 1488,
+                  "end": 1506
+                },
+                {
+                  "type": "TemplateLiteral",
+                  "quasis": [
+                    {
+                      "type": "TemplateElement",
+                      "value": {
+                        "raw": "Resolved numeric for locale=",
+                        "cooked": "Resolved numeric for locale="
+                      },
+                      "tail": false,
+                      "start": 1513,
+                      "end": 1541
+                    },
+                    {
+                      "type": "TemplateElement",
+                      "value": {
+                        "raw": " with caseFirst=",
+                        "cooked": " with caseFirst="
+                      },
+                      "tail": false,
+                      "start": 1550,
+                      "end": 1566
+                    },
+                    {
+                      "type": "TemplateElement",
+                      "value": {
+                        "raw": "",
+                        "cooked": ""
+                      },
+                      "tail": true,
+                      "start": 1578,
+                      "end": 1578
+                    }
+                  ],
+                  "expressions": [
+                    {
+                      "type": "Identifier",
+                      "name": "locale",
+                      "start": 1543,
+                      "end": 1549
+                    },
+                    {
+                      "type": "Identifier",
+                      "name": "caseFirst",
+                      "start": 1568,
+                      "end": 1577
+                    }
+                  ],
+                  "start": 1512,
+                  "end": 1579
+                }
+              ],
+              "optional": false,
+              "start": 1435,
+              "end": 1583
+            },
+            "start": 1435,
+            "end": 1584
+          }
+        ],
+        "start": 1029,
+        "end": 1586
+      },
+      "start": 980,
+      "end": 1586
+    }
+  ],
+  "sourceType": "script",
+  "hashbang": null,
+  "start": 0,
+  "end": 1587
+}
