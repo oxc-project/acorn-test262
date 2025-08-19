@@ -10,8 +10,8 @@
           "id": {
             "type": "Identifier",
             "name": "BadCtor",
-            "start": 647,
-            "end": 654
+            "start": 643,
+            "end": 650
           },
           "init": {
             "type": "FunctionExpression",
@@ -29,30 +29,30 @@
                     "callee": {
                       "type": "Identifier",
                       "name": "Test262Error",
-                      "start": 682,
-                      "end": 694
+                      "start": 678,
+                      "end": 690
                     },
                     "arguments": [],
-                    "start": 678,
-                    "end": 696
+                    "start": 674,
+                    "end": 692
                   },
-                  "start": 672,
-                  "end": 697
+                  "start": 668,
+                  "end": 693
                 }
               ],
-              "start": 668,
-              "end": 699
+              "start": 664,
+              "end": 695
             },
             "expression": false,
-            "start": 657,
-            "end": 699
+            "start": 653,
+            "end": 695
           },
-          "start": 647,
-          "end": 699
+          "start": 643,
+          "end": 695
         }
       ],
-      "start": 643,
-      "end": 700
+      "start": 639,
+      "end": 696
     },
     {
       "type": "VariableDeclaration",
@@ -63,8 +63,8 @@
           "id": {
             "type": "Identifier",
             "name": "originalSpecies",
-            "start": 705,
-            "end": 720
+            "start": 701,
+            "end": 716
           },
           "init": {
             "type": "CallExpression",
@@ -73,57 +73,57 @@
               "object": {
                 "type": "Identifier",
                 "name": "Object",
-                "start": 723,
-                "end": 729
+                "start": 719,
+                "end": 725
               },
               "property": {
                 "type": "Identifier",
                 "name": "getOwnPropertyDescriptor",
-                "start": 730,
-                "end": 754
+                "start": 726,
+                "end": 750
               },
               "optional": false,
               "computed": false,
-              "start": 723,
-              "end": 754
+              "start": 719,
+              "end": 750
             },
             "arguments": [
               {
                 "type": "Identifier",
                 "name": "Promise",
-                "start": 755,
-                "end": 762
+                "start": 751,
+                "end": 758
               },
               {
                 "type": "MemberExpression",
                 "object": {
                   "type": "Identifier",
                   "name": "Symbol",
-                  "start": 764,
-                  "end": 770
+                  "start": 760,
+                  "end": 766
                 },
                 "property": {
                   "type": "Identifier",
                   "name": "species",
-                  "start": 771,
-                  "end": 778
+                  "start": 767,
+                  "end": 774
                 },
                 "optional": false,
                 "computed": false,
-                "start": 764,
-                "end": 778
+                "start": 760,
+                "end": 774
               }
             ],
             "optional": false,
-            "start": 723,
-            "end": 779
+            "start": 719,
+            "end": 775
           },
-          "start": 705,
-          "end": 779
+          "start": 701,
+          "end": 775
         }
       ],
-      "start": 701,
-      "end": 780
+      "start": 697,
+      "end": 776
     },
     {
       "type": "ExpressionStatement",
@@ -134,45 +134,45 @@
           "object": {
             "type": "Identifier",
             "name": "Object",
-            "start": 782,
-            "end": 788
+            "start": 778,
+            "end": 784
           },
           "property": {
             "type": "Identifier",
             "name": "defineProperty",
-            "start": 789,
-            "end": 803
+            "start": 785,
+            "end": 799
           },
           "optional": false,
           "computed": false,
-          "start": 782,
-          "end": 803
+          "start": 778,
+          "end": 799
         },
         "arguments": [
           {
             "type": "Identifier",
             "name": "Promise",
-            "start": 804,
-            "end": 811
+            "start": 800,
+            "end": 807
           },
           {
             "type": "MemberExpression",
             "object": {
               "type": "Identifier",
               "name": "Symbol",
-              "start": 813,
-              "end": 819
+              "start": 809,
+              "end": 815
             },
             "property": {
               "type": "Identifier",
               "name": "species",
-              "start": 820,
-              "end": 827
+              "start": 816,
+              "end": 823
             },
             "optional": false,
             "computed": false,
-            "start": 813,
-            "end": 827
+            "start": 809,
+            "end": 823
           },
           {
             "type": "ObjectExpression",
@@ -183,32 +183,32 @@
                 "key": {
                   "type": "Identifier",
                   "name": "value",
-                  "start": 833,
-                  "end": 838
+                  "start": 829,
+                  "end": 834
                 },
                 "value": {
                   "type": "Identifier",
                   "name": "BadCtor",
-                  "start": 840,
-                  "end": 847
+                  "start": 836,
+                  "end": 843
                 },
                 "method": false,
                 "shorthand": false,
                 "computed": false,
-                "start": 833,
-                "end": 847
+                "start": 829,
+                "end": 843
               }
             ],
-            "start": 829,
-            "end": 849
+            "start": 825,
+            "end": 845
           }
         ],
         "optional": false,
-        "start": 782,
-        "end": 850
+        "start": 778,
+        "end": 846
       },
-      "start": 782,
-      "end": 851
+      "start": 778,
+      "end": 847
     },
     {
       "type": "TryStatement",
@@ -224,16 +224,16 @@
                 "id": {
                   "type": "Identifier",
                   "name": "p",
-                  "start": 865,
-                  "end": 866
+                  "start": 861,
+                  "end": 862
                 },
                 "init": {
                   "type": "NewExpression",
                   "callee": {
                     "type": "Identifier",
                     "name": "Promise",
-                    "start": 873,
-                    "end": 880
+                    "start": 869,
+                    "end": 876
                   },
                   "arguments": [
                     {
@@ -245,8 +245,8 @@
                         {
                           "type": "Identifier",
                           "name": "resolve",
-                          "start": 890,
-                          "end": 897
+                          "start": 886,
+                          "end": 893
                         }
                       ],
                       "body": {
@@ -259,35 +259,35 @@
                               "callee": {
                                 "type": "Identifier",
                                 "name": "resolve",
-                                "start": 905,
-                                "end": 912
+                                "start": 901,
+                                "end": 908
                               },
                               "arguments": [],
                               "optional": false,
-                              "start": 905,
-                              "end": 914
+                              "start": 901,
+                              "end": 910
                             },
-                            "start": 905,
-                            "end": 915
+                            "start": 901,
+                            "end": 911
                           }
                         ],
-                        "start": 899,
-                        "end": 919
+                        "start": 895,
+                        "end": 915
                       },
                       "expression": false,
-                      "start": 881,
-                      "end": 919
+                      "start": 877,
+                      "end": 915
                     }
                   ],
-                  "start": 869,
-                  "end": 920
+                  "start": 865,
+                  "end": 916
                 },
-                "start": 865,
-                "end": 920
+                "start": 861,
+                "end": 916
               }
             ],
-            "start": 861,
-            "end": 921
+            "start": 857,
+            "end": 917
           },
           {
             "type": "ExpressionStatement",
@@ -298,26 +298,26 @@
                 "object": {
                   "type": "Identifier",
                   "name": "assert",
-                  "start": 925,
-                  "end": 931
+                  "start": 921,
+                  "end": 927
                 },
                 "property": {
                   "type": "Identifier",
                   "name": "throws",
-                  "start": 932,
-                  "end": 938
+                  "start": 928,
+                  "end": 934
                 },
                 "optional": false,
                 "computed": false,
-                "start": 925,
-                "end": 938
+                "start": 921,
+                "end": 934
               },
               "arguments": [
                 {
                   "type": "Identifier",
                   "name": "Test262Error",
-                  "start": 939,
-                  "end": 951
+                  "start": 935,
+                  "end": 947
                 },
                 {
                   "type": "FunctionExpression",
@@ -337,47 +337,47 @@
                             "object": {
                               "type": "Identifier",
                               "name": "p",
-                              "start": 970,
-                              "end": 971
+                              "start": 966,
+                              "end": 967
                             },
                             "property": {
                               "type": "Identifier",
                               "name": "then",
-                              "start": 972,
-                              "end": 976
+                              "start": 968,
+                              "end": 972
                             },
                             "optional": false,
                             "computed": false,
-                            "start": 970,
-                            "end": 976
+                            "start": 966,
+                            "end": 972
                           },
                           "arguments": [],
                           "optional": false,
-                          "start": 970,
-                          "end": 978
+                          "start": 966,
+                          "end": 974
                         },
-                        "start": 970,
-                        "end": 979
+                        "start": 966,
+                        "end": 975
                       }
                     ],
-                    "start": 964,
-                    "end": 983
+                    "start": 960,
+                    "end": 979
                   },
                   "expression": false,
-                  "start": 953,
-                  "end": 983
+                  "start": 949,
+                  "end": 979
                 }
               ],
               "optional": false,
-              "start": 925,
-              "end": 984
+              "start": 921,
+              "end": 980
             },
-            "start": 925,
-            "end": 985
+            "start": 921,
+            "end": 981
           }
         ],
-        "start": 857,
-        "end": 987
+        "start": 853,
+        "end": 983
       },
       "handler": null,
       "finalizer": {
@@ -392,70 +392,70 @@
                 "object": {
                   "type": "Identifier",
                   "name": "Object",
-                  "start": 1000,
-                  "end": 1006
+                  "start": 996,
+                  "end": 1002
                 },
                 "property": {
                   "type": "Identifier",
                   "name": "defineProperty",
-                  "start": 1007,
-                  "end": 1021
+                  "start": 1003,
+                  "end": 1017
                 },
                 "optional": false,
                 "computed": false,
-                "start": 1000,
-                "end": 1021
+                "start": 996,
+                "end": 1017
               },
               "arguments": [
                 {
                   "type": "Identifier",
                   "name": "Promise",
-                  "start": 1022,
-                  "end": 1029
+                  "start": 1018,
+                  "end": 1025
                 },
                 {
                   "type": "MemberExpression",
                   "object": {
                     "type": "Identifier",
                     "name": "Symbol",
-                    "start": 1031,
-                    "end": 1037
+                    "start": 1027,
+                    "end": 1033
                   },
                   "property": {
                     "type": "Identifier",
                     "name": "species",
-                    "start": 1038,
-                    "end": 1045
+                    "start": 1034,
+                    "end": 1041
                   },
                   "optional": false,
                   "computed": false,
-                  "start": 1031,
-                  "end": 1045
+                  "start": 1027,
+                  "end": 1041
                 },
                 {
                   "type": "Identifier",
                   "name": "originalSpecies",
-                  "start": 1047,
-                  "end": 1062
+                  "start": 1043,
+                  "end": 1058
                 }
               ],
               "optional": false,
-              "start": 1000,
-              "end": 1063
+              "start": 996,
+              "end": 1059
             },
-            "start": 1000,
-            "end": 1064
+            "start": 996,
+            "end": 1060
           }
         ],
-        "start": 996,
-        "end": 1066
+        "start": 992,
+        "end": 1062
       },
-      "start": 853,
-      "end": 1066
+      "start": 849,
+      "end": 1062
     }
   ],
   "sourceType": "script",
   "hashbang": null,
   "start": 0,
-  "end": 1067
+  "end": 1063
 }

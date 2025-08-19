@@ -1,0 +1,205 @@
+{
+  "type": "Program",
+  "body": [
+    {
+      "type": "FunctionDeclaration",
+      "id": {
+        "type": "Identifier",
+        "name": "MyError",
+        "start": 393,
+        "end": 400
+      },
+      "generator": false,
+      "async": false,
+      "params": [],
+      "body": {
+        "type": "BlockStatement",
+        "body": [],
+        "start": 403,
+        "end": 405
+      },
+      "expression": false,
+      "start": 384,
+      "end": 405
+    },
+    {
+      "type": "VariableDeclaration",
+      "kind": "var",
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "id": {
+            "type": "Identifier",
+            "name": "index",
+            "start": 411,
+            "end": 416
+          },
+          "init": {
+            "type": "ObjectExpression",
+            "properties": [
+              {
+                "type": "Property",
+                "kind": "init",
+                "key": {
+                  "type": "Identifier",
+                  "name": "valueOf",
+                  "start": 423,
+                  "end": 430
+                },
+                "value": {
+                  "type": "FunctionExpression",
+                  "id": null,
+                  "generator": false,
+                  "async": false,
+                  "params": [],
+                  "body": {
+                    "type": "BlockStatement",
+                    "body": [
+                      {
+                        "type": "ThrowStatement",
+                        "argument": {
+                          "type": "NewExpression",
+                          "callee": {
+                            "type": "Identifier",
+                            "name": "MyError",
+                            "start": 449,
+                            "end": 456
+                          },
+                          "arguments": [],
+                          "start": 445,
+                          "end": 458
+                        },
+                        "start": 439,
+                        "end": 459
+                      }
+                    ],
+                    "start": 433,
+                    "end": 463
+                  },
+                  "expression": false,
+                  "start": 430,
+                  "end": 463
+                },
+                "method": true,
+                "shorthand": false,
+                "computed": false,
+                "start": 423,
+                "end": 463
+              }
+            ],
+            "start": 419,
+            "end": 465
+          },
+          "start": 411,
+          "end": 465
+        }
+      ],
+      "start": 407,
+      "end": 466
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "MemberExpression",
+          "object": {
+            "type": "Identifier",
+            "name": "assert",
+            "start": 468,
+            "end": 474
+          },
+          "property": {
+            "type": "Identifier",
+            "name": "throws",
+            "start": 475,
+            "end": 481
+          },
+          "optional": false,
+          "computed": false,
+          "start": 468,
+          "end": 481
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "name": "MyError",
+            "start": 482,
+            "end": 489
+          },
+          {
+            "type": "FunctionExpression",
+            "id": null,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "expression": {
+                    "type": "CallExpression",
+                    "callee": {
+                      "type": "MemberExpression",
+                      "object": {
+                        "type": "ArrayExpression",
+                        "elements": [],
+                        "start": 506,
+                        "end": 508
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "name": "with",
+                        "start": 509,
+                        "end": 513
+                      },
+                      "optional": false,
+                      "computed": false,
+                      "start": 506,
+                      "end": 513
+                    },
+                    "arguments": [
+                      {
+                        "type": "Identifier",
+                        "name": "index",
+                        "start": 514,
+                        "end": 519
+                      },
+                      {
+                        "type": "Literal",
+                        "value": null,
+                        "raw": "null",
+                        "start": 521,
+                        "end": 525
+                      }
+                    ],
+                    "optional": false,
+                    "start": 506,
+                    "end": 526
+                  },
+                  "start": 506,
+                  "end": 527
+                }
+              ],
+              "start": 502,
+              "end": 529
+            },
+            "expression": false,
+            "start": 491,
+            "end": 529
+          }
+        ],
+        "optional": false,
+        "start": 468,
+        "end": 530
+      },
+      "start": 468,
+      "end": 531
+    }
+  ],
+  "sourceType": "script",
+  "hashbang": null,
+  "start": 0,
+  "end": 532
+}

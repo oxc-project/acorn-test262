@@ -1,0 +1,289 @@
+{
+  "type": "Program",
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "kind": "var",
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "id": {
+            "type": "Identifier",
+            "name": "zeroLength",
+            "start": 716,
+            "end": 726
+          },
+          "init": {
+            "type": "NewExpression",
+            "callee": {
+              "type": "Identifier",
+              "name": "Uint8Array",
+              "start": 733,
+              "end": 743
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "value": 0,
+                "raw": "0",
+                "start": 744,
+                "end": 745
+              }
+            ],
+            "start": 729,
+            "end": 746
+          },
+          "start": 716,
+          "end": 746
+        }
+      ],
+      "start": 712,
+      "end": 747
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "MemberExpression",
+          "object": {
+            "type": "Identifier",
+            "name": "assert",
+            "start": 749,
+            "end": 755
+          },
+          "property": {
+            "type": "Identifier",
+            "name": "throws",
+            "start": 756,
+            "end": 762
+          },
+          "optional": false,
+          "computed": false,
+          "start": 749,
+          "end": 762
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "name": "SyntaxError",
+            "start": 763,
+            "end": 774
+          },
+          {
+            "type": "FunctionExpression",
+            "id": null,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "expression": {
+                    "type": "CallExpression",
+                    "callee": {
+                      "type": "MemberExpression",
+                      "object": {
+                        "type": "Identifier",
+                        "name": "zeroLength",
+                        "start": 791,
+                        "end": 801
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "name": "setFromHex",
+                        "start": 802,
+                        "end": 812
+                      },
+                      "optional": false,
+                      "computed": false,
+                      "start": 791,
+                      "end": 812
+                    },
+                    "arguments": [
+                      {
+                        "type": "Literal",
+                        "value": "1",
+                        "raw": "\"1\"",
+                        "start": 813,
+                        "end": 816
+                      }
+                    ],
+                    "optional": false,
+                    "start": 791,
+                    "end": 817
+                  },
+                  "start": 791,
+                  "end": 817
+                }
+              ],
+              "start": 787,
+              "end": 819
+            },
+            "expression": false,
+            "start": 776,
+            "end": 819
+          },
+          {
+            "type": "Literal",
+            "value": "Uint8Array has length 0",
+            "raw": "\"Uint8Array has length 0\"",
+            "start": 821,
+            "end": 846
+          }
+        ],
+        "optional": false,
+        "start": 749,
+        "end": 847
+      },
+      "start": 749,
+      "end": 848
+    },
+    {
+      "type": "VariableDeclaration",
+      "kind": "var",
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "id": {
+            "type": "Identifier",
+            "name": "nonZeroLength",
+            "start": 855,
+            "end": 868
+          },
+          "init": {
+            "type": "NewExpression",
+            "callee": {
+              "type": "Identifier",
+              "name": "Uint8Array",
+              "start": 875,
+              "end": 885
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "value": 1,
+                "raw": "1",
+                "start": 886,
+                "end": 887
+              }
+            ],
+            "start": 871,
+            "end": 888
+          },
+          "start": 855,
+          "end": 888
+        }
+      ],
+      "start": 851,
+      "end": 889
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "MemberExpression",
+          "object": {
+            "type": "Identifier",
+            "name": "assert",
+            "start": 891,
+            "end": 897
+          },
+          "property": {
+            "type": "Identifier",
+            "name": "throws",
+            "start": 898,
+            "end": 904
+          },
+          "optional": false,
+          "computed": false,
+          "start": 891,
+          "end": 904
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "name": "SyntaxError",
+            "start": 905,
+            "end": 916
+          },
+          {
+            "type": "FunctionExpression",
+            "id": null,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "expression": {
+                    "type": "CallExpression",
+                    "callee": {
+                      "type": "MemberExpression",
+                      "object": {
+                        "type": "Identifier",
+                        "name": "nonZeroLength",
+                        "start": 933,
+                        "end": 946
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "name": "setFromHex",
+                        "start": 947,
+                        "end": 957
+                      },
+                      "optional": false,
+                      "computed": false,
+                      "start": 933,
+                      "end": 957
+                    },
+                    "arguments": [
+                      {
+                        "type": "Literal",
+                        "value": "1",
+                        "raw": "\"1\"",
+                        "start": 958,
+                        "end": 961
+                      }
+                    ],
+                    "optional": false,
+                    "start": 933,
+                    "end": 962
+                  },
+                  "start": 933,
+                  "end": 962
+                }
+              ],
+              "start": 929,
+              "end": 964
+            },
+            "expression": false,
+            "start": 918,
+            "end": 964
+          },
+          {
+            "type": "Literal",
+            "value": "Uint8Array has length >0",
+            "raw": "\"Uint8Array has length >0\"",
+            "start": 966,
+            "end": 992
+          }
+        ],
+        "optional": false,
+        "start": 891,
+        "end": 993
+      },
+      "start": 891,
+      "end": 994
+    }
+  ],
+  "sourceType": "script",
+  "hashbang": null,
+  "start": 0,
+  "end": 995
+}

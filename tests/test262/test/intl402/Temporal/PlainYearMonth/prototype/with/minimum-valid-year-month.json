@@ -191,29 +191,29 @@
           },
           {
             "type": "Literal",
-            "value": "gregory-inverse",
-            "raw": "\"gregory-inverse\"",
+            "value": "bce",
+            "raw": "\"bce\"",
             "start": 513,
-            "end": 530
+            "end": 518
           },
           {
             "type": "Literal",
             "value": 271822,
             "raw": "271822",
-            "start": 532,
-            "end": 538
+            "start": 520,
+            "end": 526
           }
         ],
         "optional": false,
         "start": 385,
-        "end": 539
+        "end": 527
       },
       "start": 385,
-      "end": 540
+      "end": 528
     }
   ],
   "sourceType": "script",
   "hashbang": null,
   "start": 0,
-  "end": 541
+  "end": 529
 }

@@ -146,18 +146,18 @@ __ESTREE_TEST__:PASS:
       "expression": {
         "type": "LogicalExpression",
         "left": {
-          "type": "Identifier",
-          "decorators": [],
-          "name": "a",
-          "optional": false,
-          "typeAnnotation": null,
-          "start": 137,
-          "end": 138
-        },
-        "operator": "??",
-        "right": {
           "type": "LogicalExpression",
           "left": {
+            "type": "Identifier",
+            "decorators": [],
+            "name": "a",
+            "optional": false,
+            "typeAnnotation": null,
+            "start": 137,
+            "end": 138
+          },
+          "operator": "??",
+          "right": {
             "type": "Identifier",
             "decorators": [],
             "name": "b",
@@ -166,17 +166,17 @@ __ESTREE_TEST__:PASS:
             "start": 142,
             "end": 143
           },
-          "operator": "||",
-          "right": {
-            "type": "Identifier",
-            "decorators": [],
-            "name": "c",
-            "optional": false,
-            "typeAnnotation": null,
-            "start": 147,
-            "end": 148
-          },
-          "start": 142,
+          "start": 137,
+          "end": 143
+        },
+        "operator": "||",
+        "right": {
+          "type": "Identifier",
+          "decorators": [],
+          "name": "c",
+          "optional": false,
+          "typeAnnotation": null,
+          "start": 147,
           "end": 148
         },
         "start": 137,

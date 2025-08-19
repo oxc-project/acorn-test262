@@ -1,0 +1,179 @@
+{
+  "type": "Program",
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "MemberExpression",
+          "object": {
+            "type": "Identifier",
+            "name": "assert",
+            "start": 299,
+            "end": 305
+          },
+          "property": {
+            "type": "Identifier",
+            "name": "throws",
+            "start": 306,
+            "end": 312
+          },
+          "optional": false,
+          "computed": false,
+          "start": 299,
+          "end": 312
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "name": "ReferenceError",
+            "start": 313,
+            "end": 327
+          },
+          {
+            "type": "FunctionExpression",
+            "id": null,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "body": [
+                {
+                  "type": "VariableDeclaration",
+                  "kind": "let",
+                  "declarations": [
+                    {
+                      "type": "VariableDeclarator",
+                      "id": {
+                        "type": "Identifier",
+                        "name": "x",
+                        "start": 348,
+                        "end": 349
+                      },
+                      "init": {
+                        "type": "ObjectExpression",
+                        "properties": [
+                          {
+                            "type": "Property",
+                            "kind": "init",
+                            "key": {
+                              "type": "MemberExpression",
+                              "object": {
+                                "type": "Identifier",
+                                "name": "Symbol",
+                                "start": 355,
+                                "end": 361
+                              },
+                              "property": {
+                                "type": "Identifier",
+                                "name": "dispose",
+                                "start": 362,
+                                "end": 369
+                              },
+                              "optional": false,
+                              "computed": false,
+                              "start": 355,
+                              "end": 369
+                            },
+                            "value": {
+                              "type": "FunctionExpression",
+                              "id": null,
+                              "generator": false,
+                              "async": false,
+                              "params": [],
+                              "body": {
+                                "type": "BlockStatement",
+                                "body": [],
+                                "start": 373,
+                                "end": 376
+                              },
+                              "expression": false,
+                              "start": 370,
+                              "end": 376
+                            },
+                            "method": true,
+                            "shorthand": false,
+                            "computed": true,
+                            "start": 354,
+                            "end": 376
+                          }
+                        ],
+                        "start": 352,
+                        "end": 378
+                      },
+                      "start": 348,
+                      "end": 378
+                    }
+                  ],
+                  "start": 344,
+                  "end": 379
+                },
+                {
+                  "type": "ForOfStatement",
+                  "await": false,
+                  "left": {
+                    "type": "VariableDeclaration",
+                    "kind": "using",
+                    "declarations": [
+                      {
+                        "type": "VariableDeclarator",
+                        "id": {
+                          "type": "Identifier",
+                          "name": "x",
+                          "start": 393,
+                          "end": 394
+                        },
+                        "init": null,
+                        "start": 393,
+                        "end": 394
+                      }
+                    ],
+                    "start": 387,
+                    "end": 394
+                  },
+                  "right": {
+                    "type": "ArrayExpression",
+                    "elements": [
+                      {
+                        "type": "Identifier",
+                        "name": "x",
+                        "start": 399,
+                        "end": 400
+                      }
+                    ],
+                    "start": 398,
+                    "end": 401
+                  },
+                  "body": {
+                    "type": "BlockStatement",
+                    "body": [],
+                    "start": 403,
+                    "end": 405
+                  },
+                  "start": 382,
+                  "end": 405
+                }
+              ],
+              "start": 340,
+              "end": 407
+            },
+            "expression": false,
+            "start": 329,
+            "end": 407
+          }
+        ],
+        "optional": false,
+        "start": 299,
+        "end": 408
+      },
+      "start": 299,
+      "end": 409
+    }
+  ],
+  "sourceType": "script",
+  "hashbang": null,
+  "start": 0,
+  "end": 410
+}

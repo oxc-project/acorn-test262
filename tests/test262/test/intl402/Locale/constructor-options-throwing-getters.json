@@ -60,56 +60,63 @@
               },
               {
                 "type": "Literal",
-                "value": "calendar",
-                "raw": "\"calendar\"",
+                "value": "variants",
+                "raw": "\"variants\"",
                 "start": 363,
                 "end": 373
               },
               {
                 "type": "Literal",
+                "value": "calendar",
+                "raw": "\"calendar\"",
+                "start": 377,
+                "end": 387
+              },
+              {
+                "type": "Literal",
                 "value": "collation",
                 "raw": "\"collation\"",
-                "start": 377,
-                "end": 388
+                "start": 391,
+                "end": 402
               },
               {
                 "type": "Literal",
                 "value": "hourCycle",
                 "raw": "\"hourCycle\"",
-                "start": 392,
-                "end": 403
+                "start": 406,
+                "end": 417
               },
               {
                 "type": "Literal",
                 "value": "caseFirst",
                 "raw": "\"caseFirst\"",
-                "start": 407,
-                "end": 418
+                "start": 421,
+                "end": 432
               },
               {
                 "type": "Literal",
                 "value": "numeric",
                 "raw": "\"numeric\"",
-                "start": 422,
-                "end": 431
+                "start": 436,
+                "end": 445
               },
               {
                 "type": "Literal",
                 "value": "numberingSystem",
                 "raw": "\"numberingSystem\"",
-                "start": 435,
-                "end": 452
+                "start": 449,
+                "end": 466
               }
             ],
             "start": 321,
-            "end": 455
+            "end": 469
           },
           "start": 311,
-          "end": 455
+          "end": 469
         }
       ],
       "start": 305,
-      "end": 456
+      "end": 470
     },
     {
       "type": "ForOfStatement",
@@ -123,22 +130,22 @@
             "id": {
               "type": "Identifier",
               "name": "option",
-              "start": 469,
-              "end": 475
+              "start": 483,
+              "end": 489
             },
             "init": null,
-            "start": 469,
-            "end": 475
+            "start": 483,
+            "end": 489
           }
         ],
-        "start": 463,
-        "end": 475
+        "start": 477,
+        "end": 489
       },
       "right": {
         "type": "Identifier",
         "name": "options",
-        "start": 479,
-        "end": 486
+        "start": 493,
+        "end": 500
       },
       "body": {
         "type": "BlockStatement",
@@ -152,26 +159,26 @@
                 "object": {
                   "type": "Identifier",
                   "name": "assert",
-                  "start": 492,
-                  "end": 498
+                  "start": 506,
+                  "end": 512
                 },
                 "property": {
                   "type": "Identifier",
                   "name": "throws",
-                  "start": 499,
-                  "end": 505
+                  "start": 513,
+                  "end": 519
                 },
                 "optional": false,
                 "computed": false,
-                "start": 492,
-                "end": 505
+                "start": 506,
+                "end": 519
               },
               "arguments": [
                 {
                   "type": "Identifier",
                   "name": "CustomError",
-                  "start": 506,
-                  "end": 517
+                  "start": 520,
+                  "end": 531
                 },
                 {
                   "type": "ArrowFunctionExpression",
@@ -190,27 +197,27 @@
                             "object": {
                               "type": "Identifier",
                               "name": "Intl",
-                              "start": 535,
-                              "end": 539
+                              "start": 549,
+                              "end": 553
                             },
                             "property": {
                               "type": "Identifier",
                               "name": "Locale",
-                              "start": 540,
-                              "end": 546
+                              "start": 554,
+                              "end": 560
                             },
                             "optional": false,
                             "computed": false,
-                            "start": 535,
-                            "end": 546
+                            "start": 549,
+                            "end": 560
                           },
                           "arguments": [
                             {
                               "type": "Literal",
                               "value": "en",
                               "raw": "\"en\"",
-                              "start": 547,
-                              "end": 551
+                              "start": 561,
+                              "end": 565
                             },
                             {
                               "type": "ObjectExpression",
@@ -221,8 +228,8 @@
                                   "key": {
                                     "type": "Identifier",
                                     "name": "option",
-                                    "start": 566,
-                                    "end": 572
+                                    "start": 580,
+                                    "end": 586
                                   },
                                   "value": {
                                     "type": "FunctionExpression",
@@ -240,49 +247,49 @@
                                             "callee": {
                                               "type": "Identifier",
                                               "name": "CustomError",
-                                              "start": 596,
-                                              "end": 607
+                                              "start": 610,
+                                              "end": 621
                                             },
                                             "arguments": [],
-                                            "start": 592,
-                                            "end": 609
+                                            "start": 606,
+                                            "end": 623
                                           },
-                                          "start": 586,
-                                          "end": 610
+                                          "start": 600,
+                                          "end": 624
                                         }
                                       ],
-                                      "start": 576,
-                                      "end": 618
+                                      "start": 590,
+                                      "end": 632
                                     },
                                     "expression": false,
-                                    "start": 573,
-                                    "end": 618
+                                    "start": 587,
+                                    "end": 632
                                   },
                                   "method": false,
                                   "shorthand": false,
                                   "computed": true,
-                                  "start": 561,
-                                  "end": 618
+                                  "start": 575,
+                                  "end": 632
                                 }
                               ],
-                              "start": 553,
-                              "end": 624
+                              "start": 567,
+                              "end": 638
                             }
                           ],
-                          "start": 531,
-                          "end": 625
+                          "start": 545,
+                          "end": 639
                         },
-                        "start": 531,
-                        "end": 626
+                        "start": 545,
+                        "end": 640
                       }
                     ],
-                    "start": 525,
-                    "end": 630
+                    "start": 539,
+                    "end": 644
                   },
                   "id": null,
                   "generator": false,
-                  "start": 519,
-                  "end": 630
+                  "start": 533,
+                  "end": 644
                 },
                 {
                   "type": "TemplateLiteral",
@@ -294,8 +301,8 @@
                         "cooked": "new Intl.Locale(\"en\", {get "
                       },
                       "tail": false,
-                      "start": 635,
-                      "end": 662
+                      "start": 649,
+                      "end": 676
                     },
                     {
                       "type": "TemplateElement",
@@ -304,39 +311,39 @@
                         "cooked": "() {throw new CustomError();}}) throws CustomError"
                       },
                       "tail": true,
-                      "start": 671,
-                      "end": 721
+                      "start": 685,
+                      "end": 735
                     }
                   ],
                   "expressions": [
                     {
                       "type": "Identifier",
                       "name": "option",
-                      "start": 664,
-                      "end": 670
+                      "start": 678,
+                      "end": 684
                     }
                   ],
-                  "start": 634,
-                  "end": 722
+                  "start": 648,
+                  "end": 736
                 }
               ],
               "optional": false,
-              "start": 492,
-              "end": 723
+              "start": 506,
+              "end": 737
             },
-            "start": 492,
-            "end": 724
+            "start": 506,
+            "end": 738
           }
         ],
-        "start": 488,
-        "end": 726
+        "start": 502,
+        "end": 740
       },
-      "start": 458,
-      "end": 726
+      "start": 472,
+      "end": 740
     }
   ],
   "sourceType": "script",
   "hashbang": null,
   "start": 0,
-  "end": 727
+  "end": 741
 }
