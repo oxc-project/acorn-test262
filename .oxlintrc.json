@@ -4,10 +4,5 @@
     "unicorn",
     "typescript",
     "oxc"
-  ],
-  "env": {
-    "builtin": true
-  },
-  "globals": {},
-  "ignorePatterns": []
+  ]
 }

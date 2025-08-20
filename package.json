@@ -14,11 +14,13 @@
     "gen-test262": "node src/test262.js",
     "gen-acorn-jsx": "node src/acorn-jsx.js",
     "gen-typescript": "node src/typescript-eslint.js",
-    "lint": "oxlint src"
+    "lint": "oxlint src",
+    "fmt": "dprint fmt"
   },
   "devDependencies": {
     "@typescript-eslint/parser": "^8.35.1",
     "acorn": "8.15.0",
+    "dprint": "^0.50.1",
     "estree-walker": "^3.0.3",
     "meriyah": "^6.1.4",
     "oxlint": "^1.12.0",
