@@ -167,8 +167,8 @@
           },
           {
             "type": "Literal",
-            "value": "empty",
-            "raw": "\"empty\"",
+            "value": "blank",
+            "raw": "\"blank\"",
             "start": 888,
             "end": 895
           }

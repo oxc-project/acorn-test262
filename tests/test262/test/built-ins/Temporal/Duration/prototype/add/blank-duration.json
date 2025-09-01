@@ -1,0 +1,264 @@
+{
+  "type": "Program",
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "kind": "const",
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "id": {
+            "type": "Identifier",
+            "name": "blank1",
+            "start": 284,
+            "end": 290
+          },
+          "init": {
+            "type": "NewExpression",
+            "callee": {
+              "type": "MemberExpression",
+              "object": {
+                "type": "Identifier",
+                "name": "Temporal",
+                "start": 297,
+                "end": 305
+              },
+              "property": {
+                "type": "Identifier",
+                "name": "Duration",
+                "start": 306,
+                "end": 314
+              },
+              "optional": false,
+              "computed": false,
+              "start": 297,
+              "end": 314
+            },
+            "arguments": [],
+            "start": 293,
+            "end": 316
+          },
+          "start": 284,
+          "end": 316
+        }
+      ],
+      "start": 278,
+      "end": 317
+    },
+    {
+      "type": "VariableDeclaration",
+      "kind": "const",
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "id": {
+            "type": "Identifier",
+            "name": "blank2",
+            "start": 324,
+            "end": 330
+          },
+          "init": {
+            "type": "NewExpression",
+            "callee": {
+              "type": "MemberExpression",
+              "object": {
+                "type": "Identifier",
+                "name": "Temporal",
+                "start": 337,
+                "end": 345
+              },
+              "property": {
+                "type": "Identifier",
+                "name": "Duration",
+                "start": 346,
+                "end": 354
+              },
+              "optional": false,
+              "computed": false,
+              "start": 337,
+              "end": 354
+            },
+            "arguments": [],
+            "start": 333,
+            "end": 356
+          },
+          "start": 324,
+          "end": 356
+        }
+      ],
+      "start": 318,
+      "end": 357
+    },
+    {
+      "type": "VariableDeclaration",
+      "kind": "const",
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "id": {
+            "type": "Identifier",
+            "name": "result",
+            "start": 365,
+            "end": 371
+          },
+          "init": {
+            "type": "CallExpression",
+            "callee": {
+              "type": "MemberExpression",
+              "object": {
+                "type": "Identifier",
+                "name": "blank1",
+                "start": 374,
+                "end": 380
+              },
+              "property": {
+                "type": "Identifier",
+                "name": "add",
+                "start": 381,
+                "end": 384
+              },
+              "optional": false,
+              "computed": false,
+              "start": 374,
+              "end": 384
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "name": "blank2",
+                "start": 385,
+                "end": 391
+              }
+            ],
+            "optional": false,
+            "start": 374,
+            "end": 392
+          },
+          "start": 365,
+          "end": 392
+        }
+      ],
+      "start": 359,
+      "end": 393
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "MemberExpression",
+          "object": {
+            "type": "Identifier",
+            "name": "TemporalHelpers",
+            "start": 395,
+            "end": 410
+          },
+          "property": {
+            "type": "Identifier",
+            "name": "assertDuration",
+            "start": 411,
+            "end": 425
+          },
+          "optional": false,
+          "computed": false,
+          "start": 395,
+          "end": 425
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "name": "result",
+            "start": 426,
+            "end": 432
+          },
+          {
+            "type": "Literal",
+            "value": 0,
+            "raw": "0",
+            "start": 434,
+            "end": 435
+          },
+          {
+            "type": "Literal",
+            "value": 0,
+            "raw": "0",
+            "start": 437,
+            "end": 438
+          },
+          {
+            "type": "Literal",
+            "value": 0,
+            "raw": "0",
+            "start": 440,
+            "end": 441
+          },
+          {
+            "type": "Literal",
+            "value": 0,
+            "raw": "0",
+            "start": 443,
+            "end": 444
+          },
+          {
+            "type": "Literal",
+            "value": 0,
+            "raw": "0",
+            "start": 446,
+            "end": 447
+          },
+          {
+            "type": "Literal",
+            "value": 0,
+            "raw": "0",
+            "start": 449,
+            "end": 450
+          },
+          {
+            "type": "Literal",
+            "value": 0,
+            "raw": "0",
+            "start": 452,
+            "end": 453
+          },
+          {
+            "type": "Literal",
+            "value": 0,
+            "raw": "0",
+            "start": 455,
+            "end": 456
+          },
+          {
+            "type": "Literal",
+            "value": 0,
+            "raw": "0",
+            "start": 458,
+            "end": 459
+          },
+          {
+            "type": "Literal",
+            "value": 0,
+            "raw": "0",
+            "start": 461,
+            "end": 462
+          },
+          {
+            "type": "Literal",
+            "value": "result is also blank",
+            "raw": "\"result is also blank\"",
+            "start": 464,
+            "end": 486
+          }
+        ],
+        "optional": false,
+        "start": 395,
+        "end": 487
+      },
+      "start": 395,
+      "end": 488
+    }
+  ],
+  "sourceType": "script",
+  "hashbang": null,
+  "start": 0,
+  "end": 489
+}

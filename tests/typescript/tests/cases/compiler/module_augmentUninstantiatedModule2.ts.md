@@ -4,6 +4,266 @@ __ESTREE_TEST__:PASS:
   "type": "Program",
   "body": [
     {
+      "type": "TSImportEqualsDeclaration",
+      "id": {
+        "type": "Identifier",
+        "decorators": [],
+        "name": "ng",
+        "optional": false,
+        "typeAnnotation": null,
+        "start": 7,
+        "end": 9
+      },
+      "moduleReference": {
+        "type": "TSExternalModuleReference",
+        "expression": {
+          "type": "Literal",
+          "value": "angular",
+          "raw": "\"angular\"",
+          "start": 20,
+          "end": 29
+        },
+        "start": 12,
+        "end": 30
+      },
+      "importKind": "value",
+      "start": 0,
+      "end": 31
+    },
+    {
+      "type": "ImportDeclaration",
+      "specifiers": [],
+      "source": {
+        "type": "Literal",
+        "value": "./moduleAugmentation",
+        "raw": "\"./moduleAugmentation\"",
+        "start": 39,
+        "end": 61
+      },
+      "phase": null,
+      "attributes": [],
+      "importKind": "value",
+      "start": 32,
+      "end": 62
+    },
+    {
+      "type": "VariableDeclaration",
+      "kind": "var",
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "id": {
+            "type": "Identifier",
+            "decorators": [],
+            "name": "x",
+            "optional": false,
+            "typeAnnotation": {
+              "type": "TSTypeAnnotation",
+              "typeAnnotation": {
+                "type": "TSNumberKeyword",
+                "start": 71,
+                "end": 77
+              },
+              "start": 69,
+              "end": 77
+            },
+            "start": 68,
+            "end": 77
+          },
+          "init": {
+            "type": "CallExpression",
+            "callee": {
+              "type": "MemberExpression",
+              "object": {
+                "type": "Identifier",
+                "decorators": [],
+                "name": "ng",
+                "optional": false,
+                "typeAnnotation": null,
+                "start": 80,
+                "end": 82
+              },
+              "property": {
+                "type": "Identifier",
+                "decorators": [],
+                "name": "getNumber",
+                "optional": false,
+                "typeAnnotation": null,
+                "start": 83,
+                "end": 92
+              },
+              "optional": false,
+              "computed": false,
+              "start": 80,
+              "end": 92
+            },
+            "typeArguments": null,
+            "arguments": [],
+            "optional": false,
+            "start": 80,
+            "end": 94
+          },
+          "definite": false,
+          "start": 68,
+          "end": 94
+        }
+      ],
+      "declare": false,
+      "start": 64,
+      "end": 95
+    }
+  ],
+  "sourceType": "module",
+  "hashbang": null,
+  "start": 0,
+  "end": 96
+}
+```
+__ESTREE_TEST__:PASS:
+```json
+{
+  "type": "Program",
+  "body": [
+    {
+      "type": "ImportDeclaration",
+      "specifiers": [
+        {
+          "type": "ImportNamespaceSpecifier",
+          "local": {
+            "type": "Identifier",
+            "decorators": [],
+            "name": "ng",
+            "optional": false,
+            "typeAnnotation": null,
+            "start": 12,
+            "end": 14
+          },
+          "start": 7,
+          "end": 14
+        }
+      ],
+      "source": {
+        "type": "Literal",
+        "value": "angular",
+        "raw": "\"angular\"",
+        "start": 20,
+        "end": 29
+      },
+      "phase": null,
+      "attributes": [],
+      "importKind": "value",
+      "start": 0,
+      "end": 29
+    },
+    {
+      "type": "TSModuleDeclaration",
+      "id": {
+        "type": "Literal",
+        "value": "angular",
+        "raw": "\"angular\"",
+        "start": 45,
+        "end": 54
+      },
+      "body": {
+        "type": "TSModuleBlock",
+        "body": [
+          {
+            "type": "ExportNamedDeclaration",
+            "declaration": {
+              "type": "TSInterfaceDeclaration",
+              "id": {
+                "type": "Identifier",
+                "decorators": [],
+                "name": "IAngularStatic",
+                "optional": false,
+                "typeAnnotation": null,
+                "start": 78,
+                "end": 92
+              },
+              "typeParameters": null,
+              "extends": [],
+              "body": {
+                "type": "TSInterfaceBody",
+                "body": [
+                  {
+                    "type": "TSPropertySignature",
+                    "computed": false,
+                    "optional": false,
+                    "readonly": false,
+                    "key": {
+                      "type": "Identifier",
+                      "decorators": [],
+                      "name": "getNumber",
+                      "optional": false,
+                      "typeAnnotation": null,
+                      "start": 103,
+                      "end": 112
+                    },
+                    "typeAnnotation": {
+                      "type": "TSTypeAnnotation",
+                      "typeAnnotation": {
+                        "type": "TSFunctionType",
+                        "typeParameters": null,
+                        "params": [],
+                        "returnType": {
+                          "type": "TSTypeAnnotation",
+                          "typeAnnotation": {
+                            "type": "TSNumberKeyword",
+                            "start": 120,
+                            "end": 126
+                          },
+                          "start": 117,
+                          "end": 126
+                        },
+                        "start": 114,
+                        "end": 126
+                      },
+                      "start": 112,
+                      "end": 126
+                    },
+                    "accessibility": null,
+                    "static": false,
+                    "start": 103,
+                    "end": 127
+                  }
+                ],
+                "start": 93,
+                "end": 133
+              },
+              "declare": false,
+              "start": 68,
+              "end": 133
+            },
+            "specifiers": [],
+            "source": null,
+            "exportKind": "type",
+            "attributes": [],
+            "start": 61,
+            "end": 133
+          }
+        ],
+        "start": 55,
+        "end": 135
+      },
+      "kind": "module",
+      "declare": true,
+      "global": false,
+      "start": 30,
+      "end": 135
+    }
+  ],
+  "sourceType": "module",
+  "hashbang": null,
+  "start": 0,
+  "end": 136
+}
+```
+__ESTREE_TEST__:PASS:
+```json
+{
+  "type": "Program",
+  "body": [
+    {
       "type": "VariableDeclaration",
       "kind": "var",
       "declarations": [
@@ -268,6 +528,6 @@ __ESTREE_TEST__:PASS:
   "sourceType": "module",
   "hashbang": null,
   "start": 0,
-  "end": 210
+  "end": 209
 }
 ```

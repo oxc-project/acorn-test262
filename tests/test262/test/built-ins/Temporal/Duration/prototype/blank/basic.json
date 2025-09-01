@@ -641,10 +641,74 @@
       },
       "start": 628,
       "end": 663
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "Identifier",
+          "name": "assert",
+          "start": 664,
+          "end": 670
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "object": {
+              "type": "NewExpression",
+              "callee": {
+                "type": "MemberExpression",
+                "object": {
+                  "type": "Identifier",
+                  "name": "Temporal",
+                  "start": 675,
+                  "end": 683
+                },
+                "property": {
+                  "type": "Identifier",
+                  "name": "Duration",
+                  "start": 684,
+                  "end": 692
+                },
+                "optional": false,
+                "computed": false,
+                "start": 675,
+                "end": 692
+              },
+              "arguments": [],
+              "start": 671,
+              "end": 694
+            },
+            "property": {
+              "type": "Identifier",
+              "name": "blank",
+              "start": 695,
+              "end": 700
+            },
+            "optional": false,
+            "computed": false,
+            "start": 671,
+            "end": 700
+          },
+          {
+            "type": "Literal",
+            "value": "created via constructor",
+            "raw": "\"created via constructor\"",
+            "start": 702,
+            "end": 727
+          }
+        ],
+        "optional": false,
+        "start": 664,
+        "end": 728
+      },
+      "start": 664,
+      "end": 729
     }
   ],
   "sourceType": "script",
   "hashbang": null,
   "start": 0,
-  "end": 664
+  "end": 730
 }

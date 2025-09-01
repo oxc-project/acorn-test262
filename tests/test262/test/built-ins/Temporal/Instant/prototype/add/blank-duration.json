@@ -1,0 +1,224 @@
+{
+  "type": "Program",
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "kind": "const",
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "id": {
+            "type": "Identifier",
+            "name": "instant",
+            "start": 252,
+            "end": 259
+          },
+          "init": {
+            "type": "NewExpression",
+            "callee": {
+              "type": "MemberExpression",
+              "object": {
+                "type": "Identifier",
+                "name": "Temporal",
+                "start": 266,
+                "end": 274
+              },
+              "property": {
+                "type": "Identifier",
+                "name": "Instant",
+                "start": 275,
+                "end": 282
+              },
+              "optional": false,
+              "computed": false,
+              "start": 266,
+              "end": 282
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "value": null,
+                "raw": "1n",
+                "bigint": "1",
+                "start": 283,
+                "end": 285
+              }
+            ],
+            "start": 262,
+            "end": 286
+          },
+          "start": 252,
+          "end": 286
+        }
+      ],
+      "start": 246,
+      "end": 287
+    },
+    {
+      "type": "VariableDeclaration",
+      "kind": "const",
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "id": {
+            "type": "Identifier",
+            "name": "blank",
+            "start": 294,
+            "end": 299
+          },
+          "init": {
+            "type": "NewExpression",
+            "callee": {
+              "type": "MemberExpression",
+              "object": {
+                "type": "Identifier",
+                "name": "Temporal",
+                "start": 306,
+                "end": 314
+              },
+              "property": {
+                "type": "Identifier",
+                "name": "Duration",
+                "start": 315,
+                "end": 323
+              },
+              "optional": false,
+              "computed": false,
+              "start": 306,
+              "end": 323
+            },
+            "arguments": [],
+            "start": 302,
+            "end": 325
+          },
+          "start": 294,
+          "end": 325
+        }
+      ],
+      "start": 288,
+      "end": 326
+    },
+    {
+      "type": "VariableDeclaration",
+      "kind": "const",
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "id": {
+            "type": "Identifier",
+            "name": "result",
+            "start": 333,
+            "end": 339
+          },
+          "init": {
+            "type": "CallExpression",
+            "callee": {
+              "type": "MemberExpression",
+              "object": {
+                "type": "Identifier",
+                "name": "instant",
+                "start": 342,
+                "end": 349
+              },
+              "property": {
+                "type": "Identifier",
+                "name": "add",
+                "start": 350,
+                "end": 353
+              },
+              "optional": false,
+              "computed": false,
+              "start": 342,
+              "end": 353
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "name": "blank",
+                "start": 354,
+                "end": 359
+              }
+            ],
+            "optional": false,
+            "start": 342,
+            "end": 360
+          },
+          "start": 333,
+          "end": 360
+        }
+      ],
+      "start": 327,
+      "end": 361
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "MemberExpression",
+          "object": {
+            "type": "Identifier",
+            "name": "assert",
+            "start": 362,
+            "end": 368
+          },
+          "property": {
+            "type": "Identifier",
+            "name": "sameValue",
+            "start": 369,
+            "end": 378
+          },
+          "optional": false,
+          "computed": false,
+          "start": 362,
+          "end": 378
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "object": {
+              "type": "Identifier",
+              "name": "result",
+              "start": 379,
+              "end": 385
+            },
+            "property": {
+              "type": "Identifier",
+              "name": "epochNanoseconds",
+              "start": 386,
+              "end": 402
+            },
+            "optional": false,
+            "computed": false,
+            "start": 379,
+            "end": 402
+          },
+          {
+            "type": "Literal",
+            "value": null,
+            "raw": "1n",
+            "bigint": "1",
+            "start": 404,
+            "end": 406
+          },
+          {
+            "type": "Literal",
+            "value": "result is unchanged",
+            "raw": "\"result is unchanged\"",
+            "start": 408,
+            "end": 429
+          }
+        ],
+        "optional": false,
+        "start": 362,
+        "end": 430
+      },
+      "start": 362,
+      "end": 431
+    }
+  ],
+  "sourceType": "script",
+  "hashbang": null,
+  "start": 0,
+  "end": 432
+}
