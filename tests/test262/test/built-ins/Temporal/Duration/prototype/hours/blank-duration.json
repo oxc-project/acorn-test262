@@ -1,0 +1,111 @@
+{
+  "type": "Program",
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "kind": "const",
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "id": {
+            "type": "Identifier",
+            "name": "blank",
+            "start": 259,
+            "end": 264
+          },
+          "init": {
+            "type": "NewExpression",
+            "callee": {
+              "type": "MemberExpression",
+              "object": {
+                "type": "Identifier",
+                "name": "Temporal",
+                "start": 271,
+                "end": 279
+              },
+              "property": {
+                "type": "Identifier",
+                "name": "Duration",
+                "start": 280,
+                "end": 288
+              },
+              "optional": false,
+              "computed": false,
+              "start": 271,
+              "end": 288
+            },
+            "arguments": [],
+            "start": 267,
+            "end": 290
+          },
+          "start": 259,
+          "end": 290
+        }
+      ],
+      "start": 253,
+      "end": 291
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "MemberExpression",
+          "object": {
+            "type": "Identifier",
+            "name": "assert",
+            "start": 292,
+            "end": 298
+          },
+          "property": {
+            "type": "Identifier",
+            "name": "sameValue",
+            "start": 299,
+            "end": 308
+          },
+          "optional": false,
+          "computed": false,
+          "start": 292,
+          "end": 308
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "object": {
+              "type": "Identifier",
+              "name": "blank",
+              "start": 309,
+              "end": 314
+            },
+            "property": {
+              "type": "Identifier",
+              "name": "hours",
+              "start": 315,
+              "end": 320
+            },
+            "optional": false,
+            "computed": false,
+            "start": 309,
+            "end": 320
+          },
+          {
+            "type": "Literal",
+            "value": 0,
+            "raw": "0",
+            "start": 322,
+            "end": 323
+          }
+        ],
+        "optional": false,
+        "start": 292,
+        "end": 324
+      },
+      "start": 292,
+      "end": 325
+    }
+  ],
+  "sourceType": "script",
+  "hashbang": null,
+  "start": 0,
+  "end": 326
+}

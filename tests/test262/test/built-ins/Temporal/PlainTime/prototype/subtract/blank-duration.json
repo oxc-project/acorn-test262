@@ -1,0 +1,251 @@
+{
+  "type": "Program",
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "kind": "const",
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "id": {
+            "type": "Identifier",
+            "name": "t",
+            "start": 290,
+            "end": 291
+          },
+          "init": {
+            "type": "NewExpression",
+            "callee": {
+              "type": "MemberExpression",
+              "object": {
+                "type": "Identifier",
+                "name": "Temporal",
+                "start": 298,
+                "end": 306
+              },
+              "property": {
+                "type": "Identifier",
+                "name": "PlainTime",
+                "start": 307,
+                "end": 316
+              },
+              "optional": false,
+              "computed": false,
+              "start": 298,
+              "end": 316
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "value": 14,
+                "raw": "14",
+                "start": 317,
+                "end": 319
+              },
+              {
+                "type": "Literal",
+                "value": 1,
+                "raw": "1",
+                "start": 321,
+                "end": 322
+              }
+            ],
+            "start": 294,
+            "end": 323
+          },
+          "start": 290,
+          "end": 323
+        }
+      ],
+      "start": 284,
+      "end": 324
+    },
+    {
+      "type": "VariableDeclaration",
+      "kind": "const",
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "id": {
+            "type": "Identifier",
+            "name": "blank",
+            "start": 331,
+            "end": 336
+          },
+          "init": {
+            "type": "NewExpression",
+            "callee": {
+              "type": "MemberExpression",
+              "object": {
+                "type": "Identifier",
+                "name": "Temporal",
+                "start": 343,
+                "end": 351
+              },
+              "property": {
+                "type": "Identifier",
+                "name": "Duration",
+                "start": 352,
+                "end": 360
+              },
+              "optional": false,
+              "computed": false,
+              "start": 343,
+              "end": 360
+            },
+            "arguments": [],
+            "start": 339,
+            "end": 362
+          },
+          "start": 331,
+          "end": 362
+        }
+      ],
+      "start": 325,
+      "end": 363
+    },
+    {
+      "type": "VariableDeclaration",
+      "kind": "const",
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "id": {
+            "type": "Identifier",
+            "name": "result",
+            "start": 370,
+            "end": 376
+          },
+          "init": {
+            "type": "CallExpression",
+            "callee": {
+              "type": "MemberExpression",
+              "object": {
+                "type": "Identifier",
+                "name": "t",
+                "start": 379,
+                "end": 380
+              },
+              "property": {
+                "type": "Identifier",
+                "name": "subtract",
+                "start": 381,
+                "end": 389
+              },
+              "optional": false,
+              "computed": false,
+              "start": 379,
+              "end": 389
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "name": "blank",
+                "start": 390,
+                "end": 395
+              }
+            ],
+            "optional": false,
+            "start": 379,
+            "end": 396
+          },
+          "start": 370,
+          "end": 396
+        }
+      ],
+      "start": 364,
+      "end": 397
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "MemberExpression",
+          "object": {
+            "type": "Identifier",
+            "name": "TemporalHelpers",
+            "start": 398,
+            "end": 413
+          },
+          "property": {
+            "type": "Identifier",
+            "name": "assertPlainTime",
+            "start": 414,
+            "end": 429
+          },
+          "optional": false,
+          "computed": false,
+          "start": 398,
+          "end": 429
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "name": "result",
+            "start": 430,
+            "end": 436
+          },
+          {
+            "type": "Literal",
+            "value": 14,
+            "raw": "14",
+            "start": 438,
+            "end": 440
+          },
+          {
+            "type": "Literal",
+            "value": 1,
+            "raw": "1",
+            "start": 442,
+            "end": 443
+          },
+          {
+            "type": "Literal",
+            "value": 0,
+            "raw": "0",
+            "start": 445,
+            "end": 446
+          },
+          {
+            "type": "Literal",
+            "value": 0,
+            "raw": "0",
+            "start": 448,
+            "end": 449
+          },
+          {
+            "type": "Literal",
+            "value": 0,
+            "raw": "0",
+            "start": 451,
+            "end": 452
+          },
+          {
+            "type": "Literal",
+            "value": 0,
+            "raw": "0",
+            "start": 454,
+            "end": 455
+          },
+          {
+            "type": "Literal",
+            "value": "result is unchanged",
+            "raw": "\"result is unchanged\"",
+            "start": 457,
+            "end": 478
+          }
+        ],
+        "optional": false,
+        "start": 398,
+        "end": 479
+      },
+      "start": 398,
+      "end": 480
+    }
+  ],
+  "sourceType": "script",
+  "hashbang": null,
+  "start": 0,
+  "end": 481
+}

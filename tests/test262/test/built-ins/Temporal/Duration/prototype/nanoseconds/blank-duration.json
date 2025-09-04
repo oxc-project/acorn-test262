@@ -1,0 +1,111 @@
+{
+  "type": "Program",
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "kind": "const",
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "id": {
+            "type": "Identifier",
+            "name": "blank",
+            "start": 265,
+            "end": 270
+          },
+          "init": {
+            "type": "NewExpression",
+            "callee": {
+              "type": "MemberExpression",
+              "object": {
+                "type": "Identifier",
+                "name": "Temporal",
+                "start": 277,
+                "end": 285
+              },
+              "property": {
+                "type": "Identifier",
+                "name": "Duration",
+                "start": 286,
+                "end": 294
+              },
+              "optional": false,
+              "computed": false,
+              "start": 277,
+              "end": 294
+            },
+            "arguments": [],
+            "start": 273,
+            "end": 296
+          },
+          "start": 265,
+          "end": 296
+        }
+      ],
+      "start": 259,
+      "end": 297
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "MemberExpression",
+          "object": {
+            "type": "Identifier",
+            "name": "assert",
+            "start": 298,
+            "end": 304
+          },
+          "property": {
+            "type": "Identifier",
+            "name": "sameValue",
+            "start": 305,
+            "end": 314
+          },
+          "optional": false,
+          "computed": false,
+          "start": 298,
+          "end": 314
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "object": {
+              "type": "Identifier",
+              "name": "blank",
+              "start": 315,
+              "end": 320
+            },
+            "property": {
+              "type": "Identifier",
+              "name": "nanoseconds",
+              "start": 321,
+              "end": 332
+            },
+            "optional": false,
+            "computed": false,
+            "start": 315,
+            "end": 332
+          },
+          {
+            "type": "Literal",
+            "value": 0,
+            "raw": "0",
+            "start": 334,
+            "end": 335
+          }
+        ],
+        "optional": false,
+        "start": 298,
+        "end": 336
+      },
+      "start": 298,
+      "end": 337
+    }
+  ],
+  "sourceType": "script",
+  "hashbang": null,
+  "start": 0,
+  "end": 338
+}

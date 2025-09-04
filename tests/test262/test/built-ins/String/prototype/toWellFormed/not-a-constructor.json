@@ -10,19 +10,19 @@
           "object": {
             "type": "Identifier",
             "name": "assert",
-            "start": 714,
-            "end": 720
+            "start": 718,
+            "end": 724
           },
           "property": {
             "type": "Identifier",
             "name": "sameValue",
-            "start": 721,
-            "end": 730
+            "start": 725,
+            "end": 734
           },
           "optional": false,
           "computed": false,
-          "start": 714,
-          "end": 730
+          "start": 718,
+          "end": 734
         },
         "arguments": [
           {
@@ -30,8 +30,8 @@
             "callee": {
               "type": "Identifier",
               "name": "isConstructor",
-              "start": 734,
-              "end": 747
+              "start": 738,
+              "end": 751
             },
             "arguments": [
               {
@@ -41,57 +41,57 @@
                   "object": {
                     "type": "Identifier",
                     "name": "String",
-                    "start": 748,
-                    "end": 754
+                    "start": 752,
+                    "end": 758
                   },
                   "property": {
                     "type": "Identifier",
                     "name": "prototype",
-                    "start": 755,
-                    "end": 764
+                    "start": 759,
+                    "end": 768
                   },
                   "optional": false,
                   "computed": false,
-                  "start": 748,
-                  "end": 764
+                  "start": 752,
+                  "end": 768
                 },
                 "property": {
                   "type": "Identifier",
                   "name": "toWellFormed",
-                  "start": 765,
-                  "end": 777
+                  "start": 769,
+                  "end": 781
                 },
                 "optional": false,
                 "computed": false,
-                "start": 748,
-                "end": 777
+                "start": 752,
+                "end": 781
               }
             ],
             "optional": false,
-            "start": 734,
-            "end": 778
+            "start": 738,
+            "end": 782
           },
           {
             "type": "Literal",
             "value": false,
             "raw": "false",
-            "start": 782,
-            "end": 787
+            "start": 786,
+            "end": 791
           },
           {
             "type": "Literal",
             "value": "isConstructor(String.prototype.toWellFormed) must return false",
             "raw": "'isConstructor(String.prototype.toWellFormed) must return false'",
-            "start": 791,
-            "end": 855
+            "start": 795,
+            "end": 859
           }
         ],
         "optional": false,
-        "start": 714,
-        "end": 857
+        "start": 718,
+        "end": 861
       },
-      "start": 714,
-      "end": 858
+      "start": 718,
+      "end": 862
     },
     {
       "type": "ExpressionStatement",
@@ -102,26 +102,26 @@
           "object": {
             "type": "Identifier",
             "name": "assert",
-            "start": 860,
-            "end": 866
+            "start": 864,
+            "end": 870
           },
           "property": {
             "type": "Identifier",
             "name": "throws",
-            "start": 867,
-            "end": 873
+            "start": 871,
+            "end": 877
           },
           "optional": false,
           "computed": false,
-          "start": 860,
-          "end": 873
+          "start": 864,
+          "end": 877
         },
         "arguments": [
           {
             "type": "Identifier",
             "name": "TypeError",
-            "start": 874,
-            "end": 883
+            "start": 878,
+            "end": 887
           },
           {
             "type": "FunctionExpression",
@@ -143,57 +143,57 @@
                         "object": {
                           "type": "Identifier",
                           "name": "String",
-                          "start": 905,
-                          "end": 911
+                          "start": 909,
+                          "end": 915
                         },
                         "property": {
                           "type": "Identifier",
                           "name": "prototype",
-                          "start": 912,
-                          "end": 921
+                          "start": 916,
+                          "end": 925
                         },
                         "optional": false,
                         "computed": false,
-                        "start": 905,
-                        "end": 921
+                        "start": 909,
+                        "end": 925
                       },
                       "property": {
                         "type": "Identifier",
                         "name": "toWellFormed",
-                        "start": 922,
-                        "end": 934
+                        "start": 926,
+                        "end": 938
                       },
                       "optional": false,
                       "computed": false,
-                      "start": 905,
-                      "end": 934
+                      "start": 909,
+                      "end": 938
                     },
                     "arguments": [],
-                    "start": 901,
-                    "end": 936
+                    "start": 905,
+                    "end": 940
                   },
-                  "start": 901,
-                  "end": 937
+                  "start": 905,
+                  "end": 941
                 }
               ],
-              "start": 897,
-              "end": 939
+              "start": 901,
+              "end": 943
             },
             "expression": false,
-            "start": 885,
-            "end": 939
+            "start": 889,
+            "end": 943
           }
         ],
         "optional": false,
-        "start": 860,
-        "end": 940
+        "start": 864,
+        "end": 944
       },
-      "start": 860,
-      "end": 941
+      "start": 864,
+      "end": 945
     }
   ],
   "sourceType": "script",
   "hashbang": null,
   "start": 0,
-  "end": 942
+  "end": 946
 }
