@@ -11,8 +11,8 @@ __ESTREE_TEST__:PASS:
         "name": "M1",
         "optional": false,
         "typeAnnotation": null,
-        "start": 15,
-        "end": 17
+        "start": 18,
+        "end": 20
       },
       "body": {
         "type": "TSModuleBlock",
@@ -34,31 +34,31 @@ __ESTREE_TEST__:PASS:
                       "type": "TSTypeAnnotation",
                       "typeAnnotation": {
                         "type": "TSStringKeyword",
-                        "start": 35,
-                        "end": 41
+                        "start": 38,
+                        "end": 44
                       },
-                      "start": 33,
-                      "end": 41
+                      "start": 36,
+                      "end": 44
                     },
-                    "start": 32,
-                    "end": 41
+                    "start": 35,
+                    "end": 44
                   },
                   "init": null,
                   "definite": false,
-                  "start": 32,
-                  "end": 41
+                  "start": 35,
+                  "end": 44
                 }
               ],
               "declare": false,
-              "start": 28,
-              "end": 42
+              "start": 31,
+              "end": 45
             },
             "specifiers": [],
             "source": null,
             "exportKind": "value",
             "attributes": [],
-            "start": 21,
-            "end": 42
+            "start": 24,
+            "end": 45
           },
           {
             "type": "ExportNamedDeclaration",
@@ -70,8 +70,8 @@ __ESTREE_TEST__:PASS:
                 "name": "b",
                 "optional": false,
                 "typeAnnotation": null,
-                "start": 61,
-                "end": 62
+                "start": 64,
+                "end": 65
               },
               "generator": false,
               "async": false,
@@ -82,33 +82,33 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeAnnotation",
                 "typeAnnotation": {
                   "type": "TSNumberKeyword",
-                  "start": 66,
-                  "end": 72
+                  "start": 69,
+                  "end": 75
                 },
-                "start": 64,
-                "end": 72
+                "start": 67,
+                "end": 75
               },
               "body": null,
               "expression": false,
-              "start": 52,
-              "end": 73
+              "start": 55,
+              "end": 76
             },
             "specifiers": [],
             "source": null,
             "exportKind": "value",
             "attributes": [],
-            "start": 45,
-            "end": 73
+            "start": 48,
+            "end": 76
           }
         ],
-        "start": 18,
-        "end": 75
+        "start": 21,
+        "end": 78
       },
-      "kind": "module",
+      "kind": "namespace",
       "declare": true,
       "global": false,
       "start": 0,
-      "end": 75
+      "end": 78
     },
     {
       "type": "TSExportAssignment",
@@ -118,17 +118,17 @@ __ESTREE_TEST__:PASS:
         "name": "M1",
         "optional": false,
         "typeAnnotation": null,
-        "start": 85,
-        "end": 87
+        "start": 88,
+        "end": 90
       },
-      "start": 76,
-      "end": 88
+      "start": 79,
+      "end": 91
     }
   ],
   "sourceType": "module",
   "hashbang": null,
   "start": 0,
-  "end": 89
+  "end": 92
 }
 ```
 __ESTREE_TEST__:PASS:

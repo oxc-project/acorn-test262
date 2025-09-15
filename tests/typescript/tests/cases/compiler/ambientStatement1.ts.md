@@ -11,8 +11,8 @@ __ESTREE_TEST__:PASS:
         "name": "M1",
         "optional": false,
         "typeAnnotation": null,
-        "start": 19,
-        "end": 21
+        "start": 22,
+        "end": 24
       },
       "body": {
         "type": "TSModuleBlock",
@@ -23,16 +23,16 @@ __ESTREE_TEST__:PASS:
               "type": "Literal",
               "value": true,
               "raw": "true",
-              "start": 35,
-              "end": 39
+              "start": 38,
+              "end": 42
             },
             "body": {
               "type": "EmptyStatement",
-              "start": 40,
-              "end": 41
+              "start": 43,
+              "end": 44
             },
-            "start": 29,
-            "end": 41
+            "start": 32,
+            "end": 44
           },
           {
             "type": "ExportNamedDeclaration",
@@ -48,8 +48,8 @@ __ESTREE_TEST__:PASS:
                     "name": "v1",
                     "optional": false,
                     "typeAnnotation": null,
-                    "start": 63,
-                    "end": 65
+                    "start": 66,
+                    "end": 68
                   },
                   "init": {
                     "type": "ArrowFunctionExpression",
@@ -62,44 +62,44 @@ __ESTREE_TEST__:PASS:
                       "type": "Literal",
                       "value": false,
                       "raw": "false",
-                      "start": 74,
-                      "end": 79
+                      "start": 77,
+                      "end": 82
                     },
                     "id": null,
                     "generator": false,
-                    "start": 68,
-                    "end": 79
+                    "start": 71,
+                    "end": 82
                   },
                   "definite": false,
-                  "start": 63,
-                  "end": 79
+                  "start": 66,
+                  "end": 82
                 }
               ],
               "declare": false,
-              "start": 59,
-              "end": 80
+              "start": 62,
+              "end": 83
             },
             "specifiers": [],
             "source": null,
             "exportKind": "value",
             "attributes": [],
-            "start": 52,
-            "end": 80
+            "start": 55,
+            "end": 83
           }
         ],
-        "start": 22,
-        "end": 86
+        "start": 25,
+        "end": 89
       },
-      "kind": "module",
+      "kind": "namespace",
       "declare": true,
       "global": false,
       "start": 4,
-      "end": 86
+      "end": 89
     }
   ],
   "sourceType": "script",
   "hashbang": null,
   "start": 4,
-  "end": 86
+  "end": 89
 }
 ```

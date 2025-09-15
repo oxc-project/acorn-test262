@@ -11,8 +11,8 @@ __ESTREE_TEST__:PASS:
         "name": "foo",
         "optional": false,
         "typeAnnotation": null,
-        "start": 15,
-        "end": 18
+        "start": 18,
+        "end": 21
       },
       "body": {
         "type": "TSModuleBlock",
@@ -27,8 +27,8 @@ __ESTREE_TEST__:PASS:
                 "name": "x",
                 "optional": false,
                 "typeAnnotation": null,
-                "start": 41,
-                "end": 42
+                "start": 44,
+                "end": 45
               },
               "generator": false,
               "async": false,
@@ -39,33 +39,33 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeAnnotation",
                 "typeAnnotation": {
                   "type": "TSAnyKeyword",
-                  "start": 46,
-                  "end": 49
+                  "start": 49,
+                  "end": 52
                 },
-                "start": 44,
-                "end": 49
+                "start": 47,
+                "end": 52
               },
               "body": null,
               "expression": false,
-              "start": 32,
-              "end": 50
+              "start": 35,
+              "end": 53
             },
             "specifiers": [],
             "source": null,
             "exportKind": "value",
             "attributes": [],
-            "start": 25,
-            "end": 50
+            "start": 28,
+            "end": 53
           }
         ],
-        "start": 19,
-        "end": 52
+        "start": 22,
+        "end": 55
       },
-      "kind": "module",
+      "kind": "namespace",
       "declare": true,
       "global": false,
       "start": 0,
-      "end": 52
+      "end": 55
     },
     {
       "type": "FunctionDeclaration",
@@ -75,8 +75,8 @@ __ESTREE_TEST__:PASS:
         "name": "foo",
         "optional": false,
         "typeAnnotation": null,
-        "start": 62,
-        "end": 65
+        "start": 65,
+        "end": 68
       },
       "generator": false,
       "async": false,
@@ -87,17 +87,17 @@ __ESTREE_TEST__:PASS:
       "body": {
         "type": "BlockStatement",
         "body": [],
-        "start": 69,
-        "end": 72
+        "start": 72,
+        "end": 75
       },
       "expression": false,
-      "start": 53,
-      "end": 72
+      "start": 56,
+      "end": 75
     }
   ],
   "sourceType": "script",
   "hashbang": null,
   "start": 0,
-  "end": 108
+  "end": 111
 }
 ```

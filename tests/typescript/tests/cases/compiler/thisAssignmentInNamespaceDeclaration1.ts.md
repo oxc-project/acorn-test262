@@ -11,8 +11,8 @@ __ESTREE_TEST__:PASS:
         "name": "foo",
         "optional": false,
         "typeAnnotation": null,
-        "start": 7,
-        "end": 10
+        "start": 10,
+        "end": 13
       },
       "body": {
         "type": "TSModuleBlock",
@@ -26,8 +26,8 @@ __ESTREE_TEST__:PASS:
                 "type": "MemberExpression",
                 "object": {
                   "type": "ThisExpression",
-                  "start": 17,
-                  "end": 21
+                  "start": 20,
+                  "end": 24
                 },
                 "property": {
                   "type": "Identifier",
@@ -35,43 +35,43 @@ __ESTREE_TEST__:PASS:
                   "name": "bar",
                   "optional": false,
                   "typeAnnotation": null,
-                  "start": 22,
-                  "end": 25
+                  "start": 25,
+                  "end": 28
                 },
                 "optional": false,
                 "computed": false,
-                "start": 17,
-                "end": 25
+                "start": 20,
+                "end": 28
               },
               "right": {
                 "type": "Literal",
                 "value": 4,
                 "raw": "4",
-                "start": 28,
-                "end": 29
+                "start": 31,
+                "end": 32
               },
-              "start": 17,
-              "end": 29
+              "start": 20,
+              "end": 32
             },
             "directive": null,
-            "start": 17,
-            "end": 30
+            "start": 20,
+            "end": 33
           }
         ],
-        "start": 11,
-        "end": 32
+        "start": 14,
+        "end": 35
       },
-      "kind": "module",
+      "kind": "namespace",
       "declare": false,
       "global": false,
       "start": 0,
-      "end": 32
+      "end": 35
     }
   ],
   "sourceType": "module",
   "hashbang": null,
   "start": 0,
-  "end": 33
+  "end": 36
 }
 ```
 __ESTREE_TEST__:PASS:

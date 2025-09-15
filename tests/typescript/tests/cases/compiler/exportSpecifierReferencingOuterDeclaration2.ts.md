@@ -11,8 +11,8 @@ __ESTREE_TEST__:PASS:
         "name": "X",
         "optional": false,
         "typeAnnotation": null,
-        "start": 15,
-        "end": 16
+        "start": 18,
+        "end": 19
       },
       "body": {
         "type": "TSModuleBlock",
@@ -27,43 +27,43 @@ __ESTREE_TEST__:PASS:
                 "name": "bar",
                 "optional": false,
                 "typeAnnotation": null,
-                "start": 36,
-                "end": 39
+                "start": 39,
+                "end": 42
               },
               "typeParameters": null,
               "extends": [],
               "body": {
                 "type": "TSInterfaceBody",
                 "body": [],
-                "start": 40,
-                "end": 43
+                "start": 43,
+                "end": 46
               },
               "declare": false,
-              "start": 26,
-              "end": 43
+              "start": 29,
+              "end": 46
             },
             "specifiers": [],
             "source": null,
             "exportKind": "type",
             "attributes": [],
-            "start": 19,
-            "end": 43
+            "start": 22,
+            "end": 46
           }
         ],
-        "start": 17,
-        "end": 45
+        "start": 20,
+        "end": 48
       },
-      "kind": "module",
+      "kind": "namespace",
       "declare": true,
       "global": false,
       "start": 0,
-      "end": 45
+      "end": 48
     }
   ],
   "sourceType": "module",
   "hashbang": null,
   "start": 0,
-  "end": 46
+  "end": 49
 }
 ```
 __ESTREE_TEST__:PASS:

@@ -11,8 +11,8 @@ __ESTREE_TEST__:PASS:
         "name": "Test",
         "optional": false,
         "typeAnnotation": null,
-        "start": 7,
-        "end": 11
+        "start": 10,
+        "end": 14
       },
       "body": {
         "type": "TSModuleBlock",
@@ -28,8 +28,8 @@ __ESTREE_TEST__:PASS:
                 "name": "Bug",
                 "optional": false,
                 "typeAnnotation": null,
-                "start": 31,
-                "end": 34
+                "start": 34,
+                "end": 37
               },
               "typeParameters": null,
               "superClass": null,
@@ -47,8 +47,8 @@ __ESTREE_TEST__:PASS:
                       "name": "foo",
                       "optional": false,
                       "typeAnnotation": null,
-                      "start": 52,
-                      "end": 55
+                      "start": 55,
+                      "end": 58
                     },
                     "value": {
                       "type": "FunctionExpression",
@@ -62,21 +62,21 @@ __ESTREE_TEST__:PASS:
                         "type": "TSTypeAnnotation",
                         "typeAnnotation": {
                           "type": "TSStringKeyword",
-                          "start": 58,
-                          "end": 64
+                          "start": 61,
+                          "end": 67
                         },
-                        "start": 57,
-                        "end": 64
+                        "start": 60,
+                        "end": 67
                       },
                       "body": {
                         "type": "BlockStatement",
                         "body": [],
-                        "start": 65,
-                        "end": 76
+                        "start": 68,
+                        "end": 79
                       },
                       "expression": false,
-                      "start": 55,
-                      "end": 76
+                      "start": 58,
+                      "end": 79
                     },
                     "kind": "method",
                     "computed": false,
@@ -84,39 +84,39 @@ __ESTREE_TEST__:PASS:
                     "override": false,
                     "optional": false,
                     "accessibility": "public",
-                    "start": 45,
-                    "end": 76
+                    "start": 48,
+                    "end": 79
                   }
                 ],
-                "start": 35,
-                "end": 82
+                "start": 38,
+                "end": 85
               },
               "abstract": false,
               "declare": false,
-              "start": 25,
-              "end": 82
+              "start": 28,
+              "end": 85
             },
             "specifiers": [],
             "source": null,
             "exportKind": "value",
             "attributes": [],
-            "start": 18,
-            "end": 82
+            "start": 21,
+            "end": 85
           }
         ],
-        "start": 12,
-        "end": 88
+        "start": 15,
+        "end": 91
       },
-      "kind": "module",
+      "kind": "namespace",
       "declare": false,
       "global": false,
       "start": 0,
-      "end": 88
+      "end": 91
     }
   ],
   "sourceType": "script",
   "hashbang": null,
   "start": 0,
-  "end": 88
+  "end": 91
 }
 ```

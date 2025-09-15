@@ -11,8 +11,8 @@ __ESTREE_TEST__:PASS:
         "name": "Foo",
         "optional": false,
         "typeAnnotation": null,
-        "start": 7,
-        "end": 10
+        "start": 10,
+        "end": 13
       },
       "body": {
         "type": "TSModuleBlock",
@@ -26,8 +26,8 @@ __ESTREE_TEST__:PASS:
               "name": "Helper",
               "optional": false,
               "typeAnnotation": null,
-              "start": 24,
-              "end": 30
+              "start": 27,
+              "end": 33
             },
             "typeParameters": null,
             "superClass": null,
@@ -36,13 +36,13 @@ __ESTREE_TEST__:PASS:
             "body": {
               "type": "ClassBody",
               "body": [],
-              "start": 31,
-              "end": 39
+              "start": 34,
+              "end": 42
             },
             "abstract": false,
             "declare": false,
-            "start": 18,
-            "end": 39
+            "start": 21,
+            "end": 42
           },
           {
             "type": "ClassDeclaration",
@@ -53,8 +53,8 @@ __ESTREE_TEST__:PASS:
               "name": "Inner",
               "optional": false,
               "typeAnnotation": null,
-              "start": 55,
-              "end": 60
+              "start": 58,
+              "end": 63
             },
             "typeParameters": null,
             "superClass": null,
@@ -63,13 +63,13 @@ __ESTREE_TEST__:PASS:
             "body": {
               "type": "ClassBody",
               "body": [],
-              "start": 61,
-              "end": 63
+              "start": 64,
+              "end": 66
             },
             "abstract": false,
             "declare": false,
-            "start": 49,
-            "end": 63
+            "start": 52,
+            "end": 66
           },
           {
             "type": "ExportNamedDeclaration",
@@ -85,41 +85,41 @@ __ESTREE_TEST__:PASS:
                     "name": "Outer",
                     "optional": false,
                     "typeAnnotation": null,
-                    "start": 128,
-                    "end": 133
+                    "start": 131,
+                    "end": 136
                   },
                   "init": {
                     "type": "Literal",
                     "value": 0,
                     "raw": "0",
-                    "start": 134,
-                    "end": 135
+                    "start": 137,
+                    "end": 138
                   },
                   "definite": false,
-                  "start": 128,
-                  "end": 135
+                  "start": 131,
+                  "end": 138
                 }
               ],
               "declare": false,
-              "start": 124,
-              "end": 136
+              "start": 127,
+              "end": 139
             },
             "specifiers": [],
             "source": null,
             "exportKind": "value",
             "attributes": [],
-            "start": 117,
-            "end": 136
+            "start": 120,
+            "end": 139
           }
         ],
-        "start": 11,
-        "end": 138
+        "start": 14,
+        "end": 141
       },
-      "kind": "module",
+      "kind": "namespace",
       "declare": false,
       "global": false,
       "start": 0,
-      "end": 138
+      "end": 141
     },
     {
       "type": "TSModuleDeclaration",
@@ -129,8 +129,8 @@ __ESTREE_TEST__:PASS:
         "name": "Foo",
         "optional": false,
         "typeAnnotation": null,
-        "start": 148,
-        "end": 151
+        "start": 154,
+        "end": 157
       },
       "body": {
         "type": "TSModuleBlock",
@@ -144,8 +144,8 @@ __ESTREE_TEST__:PASS:
               "name": "Helper",
               "optional": false,
               "typeAnnotation": null,
-              "start": 199,
-              "end": 205
+              "start": 205,
+              "end": 211
             },
             "typeParameters": null,
             "superClass": null,
@@ -154,28 +154,28 @@ __ESTREE_TEST__:PASS:
             "body": {
               "type": "ClassBody",
               "body": [],
-              "start": 206,
-              "end": 214
+              "start": 212,
+              "end": 220
             },
             "abstract": false,
             "declare": false,
-            "start": 193,
-            "end": 214
+            "start": 199,
+            "end": 220
           }
         ],
-        "start": 152,
-        "end": 314
+        "start": 158,
+        "end": 320
       },
-      "kind": "module",
+      "kind": "namespace",
       "declare": false,
       "global": false,
-      "start": 141,
-      "end": 314
+      "start": 144,
+      "end": 320
     }
   ],
   "sourceType": "script",
   "hashbang": null,
   "start": 0,
-  "end": 314
+  "end": 320
 }
 ```

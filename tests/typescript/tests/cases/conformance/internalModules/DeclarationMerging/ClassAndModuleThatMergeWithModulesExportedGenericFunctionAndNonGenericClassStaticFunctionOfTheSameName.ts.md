@@ -201,8 +201,8 @@ __ESTREE_TEST__:PASS:
         "name": "clodule",
         "optional": false,
         "typeAnnotation": null,
-        "start": 90,
-        "end": 97
+        "start": 93,
+        "end": 100
       },
       "body": {
         "type": "TSModuleBlock",
@@ -217,8 +217,8 @@ __ESTREE_TEST__:PASS:
                 "name": "fn",
                 "optional": false,
                 "typeAnnotation": null,
-                "start": 164,
-                "end": 166
+                "start": 167,
+                "end": 169
               },
               "generator": false,
               "async": false,
@@ -234,20 +234,20 @@ __ESTREE_TEST__:PASS:
                       "name": "T",
                       "optional": false,
                       "typeAnnotation": null,
-                      "start": 167,
-                      "end": 168
+                      "start": 170,
+                      "end": 171
                     },
                     "constraint": null,
                     "default": null,
                     "in": false,
                     "out": false,
                     "const": false,
-                    "start": 167,
-                    "end": 168
+                    "start": 170,
+                    "end": 171
                   }
                 ],
-                "start": 166,
-                "end": 169
+                "start": 169,
+                "end": 172
               },
               "params": [
                 {
@@ -265,18 +265,18 @@ __ESTREE_TEST__:PASS:
                         "name": "T",
                         "optional": false,
                         "typeAnnotation": null,
-                        "start": 173,
-                        "end": 174
+                        "start": 176,
+                        "end": 177
                       },
                       "typeArguments": null,
-                      "start": 173,
-                      "end": 174
+                      "start": 176,
+                      "end": 177
                     },
-                    "start": 171,
-                    "end": 174
+                    "start": 174,
+                    "end": 177
                   },
-                  "start": 170,
-                  "end": 174
+                  "start": 173,
+                  "end": 177
                 },
                 {
                   "type": "Identifier",
@@ -293,18 +293,18 @@ __ESTREE_TEST__:PASS:
                         "name": "T",
                         "optional": false,
                         "typeAnnotation": null,
-                        "start": 179,
-                        "end": 180
+                        "start": 182,
+                        "end": 183
                       },
                       "typeArguments": null,
-                      "start": 179,
-                      "end": 180
+                      "start": 182,
+                      "end": 183
                     },
-                    "start": 177,
-                    "end": 180
+                    "start": 180,
+                    "end": 183
                   },
-                  "start": 176,
-                  "end": 180
+                  "start": 179,
+                  "end": 183
                 }
               ],
               "returnType": {
@@ -317,15 +317,15 @@ __ESTREE_TEST__:PASS:
                     "name": "T",
                     "optional": false,
                     "typeAnnotation": null,
-                    "start": 183,
-                    "end": 184
+                    "start": 186,
+                    "end": 187
                   },
                   "typeArguments": null,
-                  "start": 183,
-                  "end": 184
+                  "start": 186,
+                  "end": 187
                 },
-                "start": 181,
-                "end": 184
+                "start": 184,
+                "end": 187
               },
               "body": {
                 "type": "BlockStatement",
@@ -338,41 +338,41 @@ __ESTREE_TEST__:PASS:
                       "name": "x",
                       "optional": false,
                       "typeAnnotation": null,
-                      "start": 202,
-                      "end": 203
+                      "start": 205,
+                      "end": 206
                     },
-                    "start": 195,
-                    "end": 204
+                    "start": 198,
+                    "end": 207
                   }
                 ],
-                "start": 185,
-                "end": 210
+                "start": 188,
+                "end": 213
               },
               "expression": false,
-              "start": 155,
-              "end": 210
+              "start": 158,
+              "end": 213
             },
             "specifiers": [],
             "source": null,
             "exportKind": "value",
             "attributes": [],
-            "start": 148,
-            "end": 210
+            "start": 151,
+            "end": 213
           }
         ],
-        "start": 98,
-        "end": 212
+        "start": 101,
+        "end": 215
       },
-      "kind": "module",
+      "kind": "namespace",
       "declare": false,
       "global": false,
       "start": 83,
-      "end": 212
+      "end": 215
     }
   ],
   "sourceType": "script",
   "hashbang": null,
   "start": 0,
-  "end": 213
+  "end": 216
 }
 ```

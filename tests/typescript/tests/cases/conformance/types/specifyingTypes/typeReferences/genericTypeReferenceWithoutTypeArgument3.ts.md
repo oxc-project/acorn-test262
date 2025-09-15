@@ -518,8 +518,8 @@ __ESTREE_TEST__:PASS:
         "name": "M",
         "optional": false,
         "typeAnnotation": null,
-        "start": 308,
-        "end": 309
+        "start": 311,
+        "end": 312
       },
       "body": {
         "type": "TSModuleBlock",
@@ -535,8 +535,8 @@ __ESTREE_TEST__:PASS:
                 "name": "E",
                 "optional": false,
                 "typeAnnotation": null,
-                "start": 329,
-                "end": 330
+                "start": 332,
+                "end": 333
               },
               "typeParameters": {
                 "type": "TSTypeParameterDeclaration",
@@ -549,20 +549,20 @@ __ESTREE_TEST__:PASS:
                       "name": "T",
                       "optional": false,
                       "typeAnnotation": null,
-                      "start": 331,
-                      "end": 332
+                      "start": 334,
+                      "end": 335
                     },
                     "constraint": null,
                     "default": null,
                     "in": false,
                     "out": false,
                     "const": false,
-                    "start": 331,
-                    "end": 332
+                    "start": 334,
+                    "end": 335
                   }
                 ],
-                "start": 330,
-                "end": 333
+                "start": 333,
+                "end": 336
               },
               "superClass": null,
               "superTypeArguments": null,
@@ -579,8 +579,8 @@ __ESTREE_TEST__:PASS:
                       "name": "foo",
                       "optional": false,
                       "typeAnnotation": null,
-                      "start": 336,
-                      "end": 339
+                      "start": 339,
+                      "end": 342
                     },
                     "typeAnnotation": {
                       "type": "TSTypeAnnotation",
@@ -592,15 +592,15 @@ __ESTREE_TEST__:PASS:
                           "name": "T",
                           "optional": false,
                           "typeAnnotation": null,
-                          "start": 341,
-                          "end": 342
+                          "start": 344,
+                          "end": 345
                         },
                         "typeArguments": null,
-                        "start": 341,
-                        "end": 342
+                        "start": 344,
+                        "end": 345
                       },
-                      "start": 339,
-                      "end": 342
+                      "start": 342,
+                      "end": 345
                     },
                     "value": null,
                     "computed": false,
@@ -611,34 +611,34 @@ __ESTREE_TEST__:PASS:
                     "definite": false,
                     "readonly": false,
                     "accessibility": null,
-                    "start": 336,
-                    "end": 342
+                    "start": 339,
+                    "end": 345
                   }
                 ],
-                "start": 334,
-                "end": 344
+                "start": 337,
+                "end": 347
               },
               "abstract": false,
               "declare": false,
-              "start": 323,
-              "end": 344
+              "start": 326,
+              "end": 347
             },
             "specifiers": [],
             "source": null,
             "exportKind": "value",
             "attributes": [],
-            "start": 316,
-            "end": 344
+            "start": 319,
+            "end": 347
           }
         ],
-        "start": 310,
-        "end": 346
+        "start": 313,
+        "end": 349
       },
-      "kind": "module",
+      "kind": "namespace",
       "declare": true,
       "global": false,
       "start": 293,
-      "end": 346
+      "end": 349
     },
     {
       "type": "ClassDeclaration",
@@ -649,8 +649,8 @@ __ESTREE_TEST__:PASS:
         "name": "D2",
         "optional": false,
         "typeAnnotation": null,
-        "start": 362,
-        "end": 364
+        "start": 365,
+        "end": 367
       },
       "typeParameters": null,
       "superClass": {
@@ -661,8 +661,8 @@ __ESTREE_TEST__:PASS:
           "name": "M",
           "optional": false,
           "typeAnnotation": null,
-          "start": 373,
-          "end": 374
+          "start": 376,
+          "end": 377
         },
         "property": {
           "type": "Identifier",
@@ -670,26 +670,26 @@ __ESTREE_TEST__:PASS:
           "name": "C",
           "optional": false,
           "typeAnnotation": null,
-          "start": 375,
-          "end": 376
+          "start": 378,
+          "end": 379
         },
         "optional": false,
         "computed": false,
-        "start": 373,
-        "end": 376
+        "start": 376,
+        "end": 379
       },
       "superTypeArguments": null,
       "implements": [],
       "body": {
         "type": "ClassBody",
         "body": [],
-        "start": 377,
-        "end": 380
+        "start": 380,
+        "end": 383
       },
       "abstract": false,
       "declare": true,
-      "start": 348,
-      "end": 380
+      "start": 351,
+      "end": 383
     },
     {
       "type": "ClassDeclaration",
@@ -700,8 +700,8 @@ __ESTREE_TEST__:PASS:
         "name": "D3",
         "optional": false,
         "typeAnnotation": null,
-        "start": 395,
-        "end": 397
+        "start": 398,
+        "end": 400
       },
       "typeParameters": {
         "type": "TSTypeParameterDeclaration",
@@ -714,8 +714,8 @@ __ESTREE_TEST__:PASS:
               "name": "T",
               "optional": false,
               "typeAnnotation": null,
-              "start": 398,
-              "end": 399
+              "start": 401,
+              "end": 402
             },
             "constraint": {
               "type": "TSTypeReference",
@@ -727,8 +727,8 @@ __ESTREE_TEST__:PASS:
                   "name": "M",
                   "optional": false,
                   "typeAnnotation": null,
-                  "start": 408,
-                  "end": 409
+                  "start": 411,
+                  "end": 412
                 },
                 "right": {
                   "type": "Identifier",
@@ -736,26 +736,26 @@ __ESTREE_TEST__:PASS:
                   "name": "E",
                   "optional": false,
                   "typeAnnotation": null,
-                  "start": 410,
-                  "end": 411
+                  "start": 413,
+                  "end": 414
                 },
-                "start": 408,
-                "end": 411
+                "start": 411,
+                "end": 414
               },
               "typeArguments": null,
-              "start": 408,
-              "end": 411
+              "start": 411,
+              "end": 414
             },
             "default": null,
             "in": false,
             "out": false,
             "const": false,
-            "start": 398,
-            "end": 411
+            "start": 401,
+            "end": 414
           }
         ],
-        "start": 397,
-        "end": 412
+        "start": 400,
+        "end": 415
       },
       "superClass": null,
       "superTypeArguments": null,
@@ -763,13 +763,13 @@ __ESTREE_TEST__:PASS:
       "body": {
         "type": "ClassBody",
         "body": [],
-        "start": 413,
-        "end": 416
+        "start": 416,
+        "end": 419
       },
       "abstract": false,
       "declare": true,
-      "start": 381,
-      "end": 416
+      "start": 384,
+      "end": 419
     },
     {
       "type": "TSDeclareFunction",
@@ -779,8 +779,8 @@ __ESTREE_TEST__:PASS:
         "name": "h",
         "optional": false,
         "typeAnnotation": null,
-        "start": 435,
-        "end": 436
+        "start": 438,
+        "end": 439
       },
       "generator": false,
       "async": false,
@@ -796,8 +796,8 @@ __ESTREE_TEST__:PASS:
               "name": "T",
               "optional": false,
               "typeAnnotation": null,
-              "start": 437,
-              "end": 438
+              "start": 440,
+              "end": 441
             },
             "constraint": {
               "type": "TSTypeReference",
@@ -807,23 +807,23 @@ __ESTREE_TEST__:PASS:
                 "name": "C",
                 "optional": false,
                 "typeAnnotation": null,
-                "start": 447,
-                "end": 448
+                "start": 450,
+                "end": 451
               },
               "typeArguments": null,
-              "start": 447,
-              "end": 448
+              "start": 450,
+              "end": 451
             },
             "default": null,
             "in": false,
             "out": false,
             "const": false,
-            "start": 437,
-            "end": 448
+            "start": 440,
+            "end": 451
           }
         ],
-        "start": 436,
-        "end": 449
+        "start": 439,
+        "end": 452
       },
       "params": [
         {
@@ -841,25 +841,25 @@ __ESTREE_TEST__:PASS:
                 "name": "T",
                 "optional": false,
                 "typeAnnotation": null,
-                "start": 453,
-                "end": 454
+                "start": 456,
+                "end": 457
               },
               "typeArguments": null,
-              "start": 453,
-              "end": 454
+              "start": 456,
+              "end": 457
             },
-            "start": 451,
-            "end": 454
+            "start": 454,
+            "end": 457
           },
-          "start": 450,
-          "end": 454
+          "start": 453,
+          "end": 457
         }
       ],
       "returnType": null,
       "body": null,
       "expression": false,
-      "start": 418,
-      "end": 456
+      "start": 421,
+      "end": 459
     },
     {
       "type": "TSDeclareFunction",
@@ -869,8 +869,8 @@ __ESTREE_TEST__:PASS:
         "name": "i",
         "optional": false,
         "typeAnnotation": null,
-        "start": 474,
-        "end": 475
+        "start": 477,
+        "end": 478
       },
       "generator": false,
       "async": false,
@@ -886,8 +886,8 @@ __ESTREE_TEST__:PASS:
               "name": "T",
               "optional": false,
               "typeAnnotation": null,
-              "start": 476,
-              "end": 477
+              "start": 479,
+              "end": 480
             },
             "constraint": {
               "type": "TSTypeReference",
@@ -899,8 +899,8 @@ __ESTREE_TEST__:PASS:
                   "name": "M",
                   "optional": false,
                   "typeAnnotation": null,
-                  "start": 486,
-                  "end": 487
+                  "start": 489,
+                  "end": 490
                 },
                 "right": {
                   "type": "Identifier",
@@ -908,26 +908,26 @@ __ESTREE_TEST__:PASS:
                   "name": "E",
                   "optional": false,
                   "typeAnnotation": null,
-                  "start": 488,
-                  "end": 489
+                  "start": 491,
+                  "end": 492
                 },
-                "start": 486,
-                "end": 489
+                "start": 489,
+                "end": 492
               },
               "typeArguments": null,
-              "start": 486,
-              "end": 489
+              "start": 489,
+              "end": 492
             },
             "default": null,
             "in": false,
             "out": false,
             "const": false,
-            "start": 476,
-            "end": 489
+            "start": 479,
+            "end": 492
           }
         ],
-        "start": 475,
-        "end": 490
+        "start": 478,
+        "end": 493
       },
       "params": [
         {
@@ -945,30 +945,30 @@ __ESTREE_TEST__:PASS:
                 "name": "T",
                 "optional": false,
                 "typeAnnotation": null,
-                "start": 494,
-                "end": 495
+                "start": 497,
+                "end": 498
               },
               "typeArguments": null,
-              "start": 494,
-              "end": 495
+              "start": 497,
+              "end": 498
             },
-            "start": 492,
-            "end": 495
+            "start": 495,
+            "end": 498
           },
-          "start": 491,
-          "end": 495
+          "start": 494,
+          "end": 498
         }
       ],
       "returnType": null,
       "body": null,
       "expression": false,
-      "start": 457,
-      "end": 497
+      "start": 460,
+      "end": 500
     }
   ],
   "sourceType": "script",
   "hashbang": null,
   "start": 92,
-  "end": 497
+  "end": 500
 }
 ```

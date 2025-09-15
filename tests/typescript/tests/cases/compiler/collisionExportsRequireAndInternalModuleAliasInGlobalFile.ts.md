@@ -11,8 +11,8 @@ __ESTREE_TEST__:PASS:
         "name": "mOfGloalFile",
         "optional": false,
         "typeAnnotation": null,
-        "start": 7,
-        "end": 19
+        "start": 10,
+        "end": 22
       },
       "body": {
         "type": "TSModuleBlock",
@@ -28,8 +28,8 @@ __ESTREE_TEST__:PASS:
                 "name": "c",
                 "optional": false,
                 "typeAnnotation": null,
-                "start": 39,
-                "end": 40
+                "start": 42,
+                "end": 43
               },
               "typeParameters": null,
               "superClass": null,
@@ -38,30 +38,30 @@ __ESTREE_TEST__:PASS:
               "body": {
                 "type": "ClassBody",
                 "body": [],
-                "start": 41,
-                "end": 48
+                "start": 44,
+                "end": 51
               },
               "abstract": false,
               "declare": false,
-              "start": 33,
-              "end": 48
+              "start": 36,
+              "end": 51
             },
             "specifiers": [],
             "source": null,
             "exportKind": "value",
             "attributes": [],
-            "start": 26,
-            "end": 48
+            "start": 29,
+            "end": 51
           }
         ],
-        "start": 20,
-        "end": 50
+        "start": 23,
+        "end": 53
       },
-      "kind": "module",
+      "kind": "namespace",
       "declare": false,
       "global": false,
       "start": 0,
-      "end": 50
+      "end": 53
     },
     {
       "type": "TSImportEqualsDeclaration",
@@ -71,8 +71,8 @@ __ESTREE_TEST__:PASS:
         "name": "exports",
         "optional": false,
         "typeAnnotation": null,
-        "start": 58,
-        "end": 65
+        "start": 61,
+        "end": 68
       },
       "moduleReference": {
         "type": "TSQualifiedName",
@@ -82,8 +82,8 @@ __ESTREE_TEST__:PASS:
           "name": "mOfGloalFile",
           "optional": false,
           "typeAnnotation": null,
-          "start": 68,
-          "end": 80
+          "start": 71,
+          "end": 83
         },
         "right": {
           "type": "Identifier",
@@ -91,15 +91,15 @@ __ESTREE_TEST__:PASS:
           "name": "c",
           "optional": false,
           "typeAnnotation": null,
-          "start": 81,
-          "end": 82
+          "start": 84,
+          "end": 85
         },
-        "start": 68,
-        "end": 82
+        "start": 71,
+        "end": 85
       },
       "importKind": "value",
-      "start": 51,
-      "end": 83
+      "start": 54,
+      "end": 86
     },
     {
       "type": "TSImportEqualsDeclaration",
@@ -109,8 +109,8 @@ __ESTREE_TEST__:PASS:
         "name": "require",
         "optional": false,
         "typeAnnotation": null,
-        "start": 91,
-        "end": 98
+        "start": 94,
+        "end": 101
       },
       "moduleReference": {
         "type": "TSQualifiedName",
@@ -120,8 +120,8 @@ __ESTREE_TEST__:PASS:
           "name": "mOfGloalFile",
           "optional": false,
           "typeAnnotation": null,
-          "start": 101,
-          "end": 113
+          "start": 104,
+          "end": 116
         },
         "right": {
           "type": "Identifier",
@@ -129,15 +129,15 @@ __ESTREE_TEST__:PASS:
           "name": "c",
           "optional": false,
           "typeAnnotation": null,
-          "start": 114,
-          "end": 115
+          "start": 117,
+          "end": 118
         },
-        "start": 101,
-        "end": 115
+        "start": 104,
+        "end": 118
       },
       "importKind": "value",
-      "start": 84,
-      "end": 116
+      "start": 87,
+      "end": 119
     },
     {
       "type": "ExpressionStatement",
@@ -149,17 +149,17 @@ __ESTREE_TEST__:PASS:
           "name": "exports",
           "optional": false,
           "typeAnnotation": null,
-          "start": 121,
-          "end": 128
+          "start": 124,
+          "end": 131
         },
         "typeArguments": null,
         "arguments": [],
-        "start": 117,
-        "end": 130
+        "start": 120,
+        "end": 133
       },
       "directive": null,
-      "start": 117,
-      "end": 131
+      "start": 120,
+      "end": 134
     },
     {
       "type": "ExpressionStatement",
@@ -171,17 +171,17 @@ __ESTREE_TEST__:PASS:
           "name": "require",
           "optional": false,
           "typeAnnotation": null,
-          "start": 136,
-          "end": 143
+          "start": 139,
+          "end": 146
         },
         "typeArguments": null,
         "arguments": [],
-        "start": 132,
-        "end": 145
+        "start": 135,
+        "end": 148
       },
       "directive": null,
-      "start": 132,
-      "end": 146
+      "start": 135,
+      "end": 149
     },
     {
       "type": "TSModuleDeclaration",
@@ -191,8 +191,8 @@ __ESTREE_TEST__:PASS:
         "name": "m1",
         "optional": false,
         "typeAnnotation": null,
-        "start": 155,
-        "end": 157
+        "start": 161,
+        "end": 163
       },
       "body": {
         "type": "TSModuleBlock",
@@ -205,8 +205,8 @@ __ESTREE_TEST__:PASS:
               "name": "exports",
               "optional": false,
               "typeAnnotation": null,
-              "start": 171,
-              "end": 178
+              "start": 177,
+              "end": 184
             },
             "moduleReference": {
               "type": "TSQualifiedName",
@@ -216,8 +216,8 @@ __ESTREE_TEST__:PASS:
                 "name": "mOfGloalFile",
                 "optional": false,
                 "typeAnnotation": null,
-                "start": 181,
-                "end": 193
+                "start": 187,
+                "end": 199
               },
               "right": {
                 "type": "Identifier",
@@ -225,15 +225,15 @@ __ESTREE_TEST__:PASS:
                 "name": "c",
                 "optional": false,
                 "typeAnnotation": null,
-                "start": 194,
-                "end": 195
+                "start": 200,
+                "end": 201
               },
-              "start": 181,
-              "end": 195
+              "start": 187,
+              "end": 201
             },
             "importKind": "value",
-            "start": 164,
-            "end": 196
+            "start": 170,
+            "end": 202
           },
           {
             "type": "TSImportEqualsDeclaration",
@@ -243,8 +243,8 @@ __ESTREE_TEST__:PASS:
               "name": "require",
               "optional": false,
               "typeAnnotation": null,
-              "start": 208,
-              "end": 215
+              "start": 214,
+              "end": 221
             },
             "moduleReference": {
               "type": "TSQualifiedName",
@@ -254,8 +254,8 @@ __ESTREE_TEST__:PASS:
                 "name": "mOfGloalFile",
                 "optional": false,
                 "typeAnnotation": null,
-                "start": 218,
-                "end": 230
+                "start": 224,
+                "end": 236
               },
               "right": {
                 "type": "Identifier",
@@ -263,15 +263,15 @@ __ESTREE_TEST__:PASS:
                 "name": "c",
                 "optional": false,
                 "typeAnnotation": null,
-                "start": 231,
-                "end": 232
+                "start": 237,
+                "end": 238
               },
-              "start": 218,
-              "end": 232
+              "start": 224,
+              "end": 238
             },
             "importKind": "value",
-            "start": 201,
-            "end": 233
+            "start": 207,
+            "end": 239
           },
           {
             "type": "ExpressionStatement",
@@ -283,17 +283,17 @@ __ESTREE_TEST__:PASS:
                 "name": "exports",
                 "optional": false,
                 "typeAnnotation": null,
-                "start": 242,
-                "end": 249
+                "start": 248,
+                "end": 255
               },
               "typeArguments": null,
               "arguments": [],
-              "start": 238,
-              "end": 251
+              "start": 244,
+              "end": 257
             },
             "directive": null,
-            "start": 238,
-            "end": 252
+            "start": 244,
+            "end": 258
           },
           {
             "type": "ExpressionStatement",
@@ -305,27 +305,27 @@ __ESTREE_TEST__:PASS:
                 "name": "require",
                 "optional": false,
                 "typeAnnotation": null,
-                "start": 261,
-                "end": 268
+                "start": 267,
+                "end": 274
               },
               "typeArguments": null,
               "arguments": [],
-              "start": 257,
-              "end": 270
+              "start": 263,
+              "end": 276
             },
             "directive": null,
-            "start": 257,
-            "end": 271
+            "start": 263,
+            "end": 277
           }
         ],
-        "start": 158,
-        "end": 273
+        "start": 164,
+        "end": 279
       },
-      "kind": "module",
+      "kind": "namespace",
       "declare": false,
       "global": false,
-      "start": 148,
-      "end": 273
+      "start": 151,
+      "end": 279
     },
     {
       "type": "TSModuleDeclaration",
@@ -335,8 +335,8 @@ __ESTREE_TEST__:PASS:
         "name": "m2",
         "optional": false,
         "typeAnnotation": null,
-        "start": 282,
-        "end": 284
+        "start": 291,
+        "end": 293
       },
       "body": {
         "type": "TSModuleBlock",
@@ -351,8 +351,8 @@ __ESTREE_TEST__:PASS:
                 "name": "exports",
                 "optional": false,
                 "typeAnnotation": null,
-                "start": 305,
-                "end": 312
+                "start": 314,
+                "end": 321
               },
               "moduleReference": {
                 "type": "TSQualifiedName",
@@ -362,8 +362,8 @@ __ESTREE_TEST__:PASS:
                   "name": "mOfGloalFile",
                   "optional": false,
                   "typeAnnotation": null,
-                  "start": 315,
-                  "end": 327
+                  "start": 324,
+                  "end": 336
                 },
                 "right": {
                   "type": "Identifier",
@@ -371,22 +371,22 @@ __ESTREE_TEST__:PASS:
                   "name": "c",
                   "optional": false,
                   "typeAnnotation": null,
-                  "start": 328,
-                  "end": 329
+                  "start": 337,
+                  "end": 338
                 },
-                "start": 315,
-                "end": 329
+                "start": 324,
+                "end": 338
               },
               "importKind": "value",
-              "start": 298,
-              "end": 330
+              "start": 307,
+              "end": 339
             },
             "specifiers": [],
             "source": null,
             "exportKind": "value",
             "attributes": [],
-            "start": 291,
-            "end": 330
+            "start": 300,
+            "end": 339
           },
           {
             "type": "ExportNamedDeclaration",
@@ -398,8 +398,8 @@ __ESTREE_TEST__:PASS:
                 "name": "require",
                 "optional": false,
                 "typeAnnotation": null,
-                "start": 349,
-                "end": 356
+                "start": 358,
+                "end": 365
               },
               "moduleReference": {
                 "type": "TSQualifiedName",
@@ -409,8 +409,8 @@ __ESTREE_TEST__:PASS:
                   "name": "mOfGloalFile",
                   "optional": false,
                   "typeAnnotation": null,
-                  "start": 359,
-                  "end": 371
+                  "start": 368,
+                  "end": 380
                 },
                 "right": {
                   "type": "Identifier",
@@ -418,22 +418,22 @@ __ESTREE_TEST__:PASS:
                   "name": "c",
                   "optional": false,
                   "typeAnnotation": null,
-                  "start": 372,
-                  "end": 373
+                  "start": 381,
+                  "end": 382
                 },
-                "start": 359,
-                "end": 373
+                "start": 368,
+                "end": 382
               },
               "importKind": "value",
-              "start": 342,
-              "end": 374
+              "start": 351,
+              "end": 383
             },
             "specifiers": [],
             "source": null,
             "exportKind": "value",
             "attributes": [],
-            "start": 335,
-            "end": 374
+            "start": 344,
+            "end": 383
           },
           {
             "type": "ExpressionStatement",
@@ -445,17 +445,17 @@ __ESTREE_TEST__:PASS:
                 "name": "exports",
                 "optional": false,
                 "typeAnnotation": null,
-                "start": 383,
-                "end": 390
+                "start": 392,
+                "end": 399
               },
               "typeArguments": null,
               "arguments": [],
-              "start": 379,
-              "end": 392
+              "start": 388,
+              "end": 401
             },
             "directive": null,
-            "start": 379,
-            "end": 393
+            "start": 388,
+            "end": 402
           },
           {
             "type": "ExpressionStatement",
@@ -467,32 +467,32 @@ __ESTREE_TEST__:PASS:
                 "name": "require",
                 "optional": false,
                 "typeAnnotation": null,
-                "start": 402,
-                "end": 409
+                "start": 411,
+                "end": 418
               },
               "typeArguments": null,
               "arguments": [],
-              "start": 398,
-              "end": 411
+              "start": 407,
+              "end": 420
             },
             "directive": null,
-            "start": 398,
-            "end": 412
+            "start": 407,
+            "end": 421
           }
         ],
-        "start": 285,
-        "end": 414
+        "start": 294,
+        "end": 423
       },
-      "kind": "module",
+      "kind": "namespace",
       "declare": false,
       "global": false,
-      "start": 275,
-      "end": 414
+      "start": 281,
+      "end": 423
     }
   ],
   "sourceType": "script",
   "hashbang": null,
   "start": 0,
-  "end": 414
+  "end": 423
 }
 ```

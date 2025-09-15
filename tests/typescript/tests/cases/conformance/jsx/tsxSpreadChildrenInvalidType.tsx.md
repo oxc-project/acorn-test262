@@ -11,8 +11,8 @@ __ESTREE_TEST__:PASS:
         "name": "JSX",
         "optional": false,
         "typeAnnotation": null,
-        "start": 15,
-        "end": 18
+        "start": 18,
+        "end": 21
       },
       "body": {
         "type": "TSModuleBlock",
@@ -25,20 +25,20 @@ __ESTREE_TEST__:PASS:
               "name": "Element",
               "optional": false,
               "typeAnnotation": null,
-              "start": 32,
-              "end": 39
+              "start": 35,
+              "end": 42
             },
             "typeParameters": null,
             "extends": [],
             "body": {
               "type": "TSInterfaceBody",
               "body": [],
-              "start": 40,
-              "end": 43
+              "start": 43,
+              "end": 46
             },
             "declare": false,
-            "start": 22,
-            "end": 43
+            "start": 25,
+            "end": 46
           },
           {
             "type": "TSInterfaceDeclaration",
@@ -48,8 +48,8 @@ __ESTREE_TEST__:PASS:
               "name": "IntrinsicElements",
               "optional": false,
               "typeAnnotation": null,
-              "start": 55,
-              "end": 72
+              "start": 58,
+              "end": 75
             },
             "typeParameters": null,
             "extends": [],
@@ -68,49 +68,49 @@ __ESTREE_TEST__:PASS:
                         "type": "TSTypeAnnotation",
                         "typeAnnotation": {
                           "type": "TSStringKeyword",
-                          "start": 81,
-                          "end": 87
+                          "start": 84,
+                          "end": 90
                         },
-                        "start": 79,
-                        "end": 87
+                        "start": 82,
+                        "end": 90
                       },
-                      "start": 78,
-                      "end": 87
+                      "start": 81,
+                      "end": 90
                     }
                   ],
                   "typeAnnotation": {
                     "type": "TSTypeAnnotation",
                     "typeAnnotation": {
                       "type": "TSAnyKeyword",
-                      "start": 90,
-                      "end": 93
+                      "start": 93,
+                      "end": 96
                     },
-                    "start": 88,
-                    "end": 93
+                    "start": 91,
+                    "end": 96
                   },
                   "readonly": false,
                   "static": false,
                   "accessibility": null,
-                  "start": 77,
-                  "end": 94
+                  "start": 80,
+                  "end": 97
                 }
               ],
-              "start": 73,
-              "end": 97
+              "start": 76,
+              "end": 100
             },
             "declare": false,
-            "start": 45,
-            "end": 97
+            "start": 48,
+            "end": 100
           }
         ],
-        "start": 19,
-        "end": 99
+        "start": 22,
+        "end": 102
       },
-      "kind": "module",
+      "kind": "namespace",
       "declare": true,
       "global": false,
       "start": 0,
-      "end": 99
+      "end": 102
     },
     {
       "type": "VariableDeclaration",
@@ -127,24 +127,24 @@ __ESTREE_TEST__:PASS:
               "type": "TSTypeAnnotation",
               "typeAnnotation": {
                 "type": "TSAnyKeyword",
-                "start": 119,
-                "end": 122
+                "start": 122,
+                "end": 125
               },
-              "start": 117,
-              "end": 122
+              "start": 120,
+              "end": 125
             },
-            "start": 112,
-            "end": 122
+            "start": 115,
+            "end": 125
           },
           "init": null,
           "definite": false,
-          "start": 112,
-          "end": 122
+          "start": 115,
+          "end": 125
         }
       ],
       "declare": true,
-      "start": 100,
-      "end": 123
+      "start": 103,
+      "end": 126
     },
     {
       "type": "TSInterfaceDeclaration",
@@ -154,8 +154,8 @@ __ESTREE_TEST__:PASS:
         "name": "TodoProp",
         "optional": false,
         "typeAnnotation": null,
-        "start": 135,
-        "end": 143
+        "start": 138,
+        "end": 146
       },
       "typeParameters": null,
       "extends": [],
@@ -173,23 +173,23 @@ __ESTREE_TEST__:PASS:
               "name": "id",
               "optional": false,
               "typeAnnotation": null,
-              "start": 150,
-              "end": 152
+              "start": 153,
+              "end": 155
             },
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
               "typeAnnotation": {
                 "type": "TSNumberKeyword",
-                "start": 154,
-                "end": 160
+                "start": 157,
+                "end": 163
               },
-              "start": 152,
-              "end": 160
+              "start": 155,
+              "end": 163
             },
             "accessibility": null,
             "static": false,
-            "start": 150,
-            "end": 161
+            "start": 153,
+            "end": 164
           },
           {
             "type": "TSPropertySignature",
@@ -202,31 +202,31 @@ __ESTREE_TEST__:PASS:
               "name": "todo",
               "optional": false,
               "typeAnnotation": null,
-              "start": 166,
-              "end": 170
+              "start": 169,
+              "end": 173
             },
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
               "typeAnnotation": {
                 "type": "TSStringKeyword",
-                "start": 172,
-                "end": 178
+                "start": 175,
+                "end": 181
               },
-              "start": 170,
-              "end": 178
+              "start": 173,
+              "end": 181
             },
             "accessibility": null,
             "static": false,
-            "start": 166,
-            "end": 179
+            "start": 169,
+            "end": 182
           }
         ],
-        "start": 144,
-        "end": 181
+        "start": 147,
+        "end": 184
       },
       "declare": false,
-      "start": 125,
-      "end": 181
+      "start": 128,
+      "end": 184
     },
     {
       "type": "TSInterfaceDeclaration",
@@ -236,8 +236,8 @@ __ESTREE_TEST__:PASS:
         "name": "TodoListProps",
         "optional": false,
         "typeAnnotation": null,
-        "start": 192,
-        "end": 205
+        "start": 195,
+        "end": 208
       },
       "typeParameters": null,
       "extends": [],
@@ -255,8 +255,8 @@ __ESTREE_TEST__:PASS:
               "name": "todos",
               "optional": false,
               "typeAnnotation": null,
-              "start": 212,
-              "end": 217
+              "start": 215,
+              "end": 220
             },
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
@@ -270,31 +270,31 @@ __ESTREE_TEST__:PASS:
                     "name": "TodoProp",
                     "optional": false,
                     "typeAnnotation": null,
-                    "start": 219,
-                    "end": 227
+                    "start": 222,
+                    "end": 230
                   },
                   "typeArguments": null,
-                  "start": 219,
-                  "end": 227
+                  "start": 222,
+                  "end": 230
                 },
-                "start": 219,
-                "end": 229
+                "start": 222,
+                "end": 232
               },
-              "start": 217,
-              "end": 229
+              "start": 220,
+              "end": 232
             },
             "accessibility": null,
             "static": false,
-            "start": 212,
-            "end": 230
+            "start": 215,
+            "end": 233
           }
         ],
-        "start": 206,
-        "end": 232
+        "start": 209,
+        "end": 235
       },
       "declare": false,
-      "start": 182,
-      "end": 232
+      "start": 185,
+      "end": 235
     },
     {
       "type": "FunctionDeclaration",
@@ -304,8 +304,8 @@ __ESTREE_TEST__:PASS:
         "name": "Todo",
         "optional": false,
         "typeAnnotation": null,
-        "start": 242,
-        "end": 246
+        "start": 245,
+        "end": 249
       },
       "generator": false,
       "async": false,
@@ -333,23 +333,23 @@ __ESTREE_TEST__:PASS:
                     "name": "key",
                     "optional": false,
                     "typeAnnotation": null,
-                    "start": 255,
-                    "end": 258
+                    "start": 258,
+                    "end": 261
                   },
                   "typeAnnotation": {
                     "type": "TSTypeAnnotation",
                     "typeAnnotation": {
                       "type": "TSNumberKeyword",
-                      "start": 260,
-                      "end": 266
+                      "start": 263,
+                      "end": 269
                     },
-                    "start": 258,
-                    "end": 266
+                    "start": 261,
+                    "end": 269
                   },
                   "accessibility": null,
                   "static": false,
-                  "start": 255,
-                  "end": 267
+                  "start": 258,
+                  "end": 270
                 },
                 {
                   "type": "TSPropertySignature",
@@ -362,33 +362,33 @@ __ESTREE_TEST__:PASS:
                     "name": "todo",
                     "optional": false,
                     "typeAnnotation": null,
-                    "start": 268,
-                    "end": 272
+                    "start": 271,
+                    "end": 275
                   },
                   "typeAnnotation": {
                     "type": "TSTypeAnnotation",
                     "typeAnnotation": {
                       "type": "TSStringKeyword",
-                      "start": 274,
-                      "end": 280
+                      "start": 277,
+                      "end": 283
                     },
-                    "start": 272,
-                    "end": 280
+                    "start": 275,
+                    "end": 283
                   },
                   "accessibility": null,
                   "static": false,
-                  "start": 268,
-                  "end": 280
+                  "start": 271,
+                  "end": 283
                 }
               ],
-              "start": 253,
-              "end": 282
+              "start": 256,
+              "end": 285
             },
-            "start": 251,
-            "end": 282
+            "start": 254,
+            "end": 285
           },
-          "start": 247,
-          "end": 282
+          "start": 250,
+          "end": 285
         }
       ],
       "returnType": null,
@@ -404,14 +404,14 @@ __ESTREE_TEST__:PASS:
                 "name": {
                   "type": "JSXIdentifier",
                   "name": "div",
-                  "start": 298,
-                  "end": 301
+                  "start": 301,
+                  "end": 304
                 },
                 "typeArguments": null,
                 "attributes": [],
                 "selfClosing": false,
-                "start": 297,
-                "end": 302
+                "start": 300,
+                "end": 305
               },
               "children": [
                 {
@@ -430,8 +430,8 @@ __ESTREE_TEST__:PASS:
                             "name": "prop",
                             "optional": false,
                             "typeAnnotation": null,
-                            "start": 303,
-                            "end": 307
+                            "start": 306,
+                            "end": 310
                           },
                           "property": {
                             "type": "Identifier",
@@ -439,13 +439,13 @@ __ESTREE_TEST__:PASS:
                             "name": "key",
                             "optional": false,
                             "typeAnnotation": null,
-                            "start": 308,
-                            "end": 311
+                            "start": 311,
+                            "end": 314
                           },
                           "optional": false,
                           "computed": false,
-                          "start": 303,
-                          "end": 311
+                          "start": 306,
+                          "end": 314
                         },
                         "property": {
                           "type": "Identifier",
@@ -453,19 +453,19 @@ __ESTREE_TEST__:PASS:
                           "name": "toString",
                           "optional": false,
                           "typeAnnotation": null,
-                          "start": 312,
-                          "end": 320
+                          "start": 315,
+                          "end": 323
                         },
                         "optional": false,
                         "computed": false,
-                        "start": 303,
-                        "end": 320
+                        "start": 306,
+                        "end": 323
                       },
                       "typeArguments": null,
                       "arguments": [],
                       "optional": false,
-                      "start": 303,
-                      "end": 322
+                      "start": 306,
+                      "end": 325
                     },
                     "operator": "+",
                     "right": {
@@ -476,8 +476,8 @@ __ESTREE_TEST__:PASS:
                         "name": "prop",
                         "optional": false,
                         "typeAnnotation": null,
-                        "start": 325,
-                        "end": 329
+                        "start": 328,
+                        "end": 332
                       },
                       "property": {
                         "type": "Identifier",
@@ -485,19 +485,19 @@ __ESTREE_TEST__:PASS:
                         "name": "todo",
                         "optional": false,
                         "typeAnnotation": null,
-                        "start": 330,
-                        "end": 334
+                        "start": 333,
+                        "end": 337
                       },
                       "optional": false,
                       "computed": false,
-                      "start": 325,
-                      "end": 334
+                      "start": 328,
+                      "end": 337
                     },
-                    "start": 303,
-                    "end": 334
+                    "start": 306,
+                    "end": 337
                   },
-                  "start": 302,
-                  "end": 335
+                  "start": 305,
+                  "end": 338
                 }
               ],
               "closingElement": {
@@ -505,25 +505,25 @@ __ESTREE_TEST__:PASS:
                 "name": {
                   "type": "JSXIdentifier",
                   "name": "div",
-                  "start": 337,
-                  "end": 340
+                  "start": 340,
+                  "end": 343
                 },
-                "start": 335,
-                "end": 341
+                "start": 338,
+                "end": 344
               },
-              "start": 297,
-              "end": 341
+              "start": 300,
+              "end": 344
             },
-            "start": 290,
-            "end": 342
+            "start": 293,
+            "end": 345
           }
         ],
-        "start": 284,
-        "end": 344
+        "start": 287,
+        "end": 347
       },
       "expression": false,
-      "start": 233,
-      "end": 344
+      "start": 236,
+      "end": 347
     },
     {
       "type": "FunctionDeclaration",
@@ -533,8 +533,8 @@ __ESTREE_TEST__:PASS:
         "name": "TodoList",
         "optional": false,
         "typeAnnotation": null,
-        "start": 354,
-        "end": 362
+        "start": 357,
+        "end": 365
       },
       "generator": false,
       "async": false,
@@ -554,8 +554,8 @@ __ESTREE_TEST__:PASS:
                 "name": "todos",
                 "optional": false,
                 "typeAnnotation": null,
-                "start": 365,
-                "end": 370
+                "start": 368,
+                "end": 373
               },
               "value": {
                 "type": "Identifier",
@@ -563,15 +563,15 @@ __ESTREE_TEST__:PASS:
                 "name": "todos",
                 "optional": false,
                 "typeAnnotation": null,
-                "start": 365,
-                "end": 370
+                "start": 368,
+                "end": 373
               },
               "method": false,
               "shorthand": true,
               "computed": false,
               "optional": false,
-              "start": 365,
-              "end": 370
+              "start": 368,
+              "end": 373
             }
           ],
           "optional": false,
@@ -585,18 +585,18 @@ __ESTREE_TEST__:PASS:
                 "name": "TodoListProps",
                 "optional": false,
                 "typeAnnotation": null,
-                "start": 374,
-                "end": 387
+                "start": 377,
+                "end": 390
               },
               "typeArguments": null,
-              "start": 374,
-              "end": 387
+              "start": 377,
+              "end": 390
             },
-            "start": 372,
-            "end": 387
+            "start": 375,
+            "end": 390
           },
-          "start": 363,
-          "end": 387
+          "start": 366,
+          "end": 390
         }
       ],
       "returnType": null,
@@ -612,22 +612,22 @@ __ESTREE_TEST__:PASS:
                 "name": {
                   "type": "JSXIdentifier",
                   "name": "div",
-                  "start": 403,
-                  "end": 406
+                  "start": 406,
+                  "end": 409
                 },
                 "typeArguments": null,
                 "attributes": [],
                 "selfClosing": false,
-                "start": 402,
-                "end": 407
+                "start": 405,
+                "end": 410
               },
               "children": [
                 {
                   "type": "JSXText",
                   "value": "\n        ",
                   "raw": "\n        ",
-                  "start": 407,
-                  "end": 416
+                  "start": 410,
+                  "end": 419
                 },
                 {
                   "type": "JSXSpreadChild",
@@ -638,8 +638,8 @@ __ESTREE_TEST__:PASS:
                       "name": {
                         "type": "JSXIdentifier",
                         "name": "Todo",
-                        "start": 421,
-                        "end": 425
+                        "start": 424,
+                        "end": 428
                       },
                       "typeArguments": null,
                       "attributes": [
@@ -648,8 +648,8 @@ __ESTREE_TEST__:PASS:
                           "name": {
                             "type": "JSXIdentifier",
                             "name": "key",
-                            "start": 426,
-                            "end": 429
+                            "start": 429,
+                            "end": 432
                           },
                           "value": {
                             "type": "JSXExpressionContainer",
@@ -663,20 +663,20 @@ __ESTREE_TEST__:PASS:
                                   "name": "todos",
                                   "optional": false,
                                   "typeAnnotation": null,
-                                  "start": 431,
-                                  "end": 436
+                                  "start": 434,
+                                  "end": 439
                                 },
                                 "property": {
                                   "type": "Literal",
                                   "value": 0,
                                   "raw": "0",
-                                  "start": 437,
-                                  "end": 438
+                                  "start": 440,
+                                  "end": 441
                                 },
                                 "optional": false,
                                 "computed": true,
-                                "start": 431,
-                                "end": 439
+                                "start": 434,
+                                "end": 442
                               },
                               "property": {
                                 "type": "Identifier",
@@ -684,27 +684,27 @@ __ESTREE_TEST__:PASS:
                                 "name": "id",
                                 "optional": false,
                                 "typeAnnotation": null,
-                                "start": 440,
-                                "end": 442
+                                "start": 443,
+                                "end": 445
                               },
                               "optional": false,
                               "computed": false,
-                              "start": 431,
-                              "end": 442
+                              "start": 434,
+                              "end": 445
                             },
-                            "start": 430,
-                            "end": 443
+                            "start": 433,
+                            "end": 446
                           },
-                          "start": 426,
-                          "end": 443
+                          "start": 429,
+                          "end": 446
                         },
                         {
                           "type": "JSXAttribute",
                           "name": {
                             "type": "JSXIdentifier",
                             "name": "todo",
-                            "start": 444,
-                            "end": 448
+                            "start": 447,
+                            "end": 451
                           },
                           "value": {
                             "type": "JSXExpressionContainer",
@@ -718,20 +718,20 @@ __ESTREE_TEST__:PASS:
                                   "name": "todos",
                                   "optional": false,
                                   "typeAnnotation": null,
-                                  "start": 450,
-                                  "end": 455
+                                  "start": 453,
+                                  "end": 458
                                 },
                                 "property": {
                                   "type": "Literal",
                                   "value": 0,
                                   "raw": "0",
-                                  "start": 456,
-                                  "end": 457
+                                  "start": 459,
+                                  "end": 460
                                 },
                                 "optional": false,
                                 "computed": true,
-                                "start": 450,
-                                "end": 458
+                                "start": 453,
+                                "end": 461
                               },
                               "property": {
                                 "type": "Identifier",
@@ -739,39 +739,39 @@ __ESTREE_TEST__:PASS:
                                 "name": "todo",
                                 "optional": false,
                                 "typeAnnotation": null,
-                                "start": 459,
-                                "end": 463
+                                "start": 462,
+                                "end": 466
                               },
                               "optional": false,
                               "computed": false,
-                              "start": 450,
-                              "end": 463
+                              "start": 453,
+                              "end": 466
                             },
-                            "start": 449,
-                            "end": 464
+                            "start": 452,
+                            "end": 467
                           },
-                          "start": 444,
-                          "end": 464
+                          "start": 447,
+                          "end": 467
                         }
                       ],
                       "selfClosing": true,
-                      "start": 420,
-                      "end": 467
+                      "start": 423,
+                      "end": 470
                     },
                     "children": [],
                     "closingElement": null,
-                    "start": 420,
-                    "end": 467
+                    "start": 423,
+                    "end": 470
                   },
-                  "start": 416,
-                  "end": 468
+                  "start": 419,
+                  "end": 471
                 },
                 {
                   "type": "JSXText",
                   "value": "\n    ",
                   "raw": "\n    ",
-                  "start": 468,
-                  "end": 473
+                  "start": 471,
+                  "end": 476
                 }
               ],
               "closingElement": {
@@ -779,25 +779,25 @@ __ESTREE_TEST__:PASS:
                 "name": {
                   "type": "JSXIdentifier",
                   "name": "div",
-                  "start": 475,
-                  "end": 478
+                  "start": 478,
+                  "end": 481
                 },
-                "start": 473,
-                "end": 479
+                "start": 476,
+                "end": 482
               },
-              "start": 402,
-              "end": 479
+              "start": 405,
+              "end": 482
             },
-            "start": 395,
-            "end": 480
+            "start": 398,
+            "end": 483
           }
         ],
-        "start": 389,
-        "end": 482
+        "start": 392,
+        "end": 485
       },
       "expression": false,
-      "start": 345,
-      "end": 482
+      "start": 348,
+      "end": 485
     },
     {
       "type": "FunctionDeclaration",
@@ -807,8 +807,8 @@ __ESTREE_TEST__:PASS:
         "name": "TodoListNoError",
         "optional": false,
         "typeAnnotation": null,
-        "start": 492,
-        "end": 507
+        "start": 495,
+        "end": 510
       },
       "generator": false,
       "async": false,
@@ -828,8 +828,8 @@ __ESTREE_TEST__:PASS:
                 "name": "todos",
                 "optional": false,
                 "typeAnnotation": null,
-                "start": 510,
-                "end": 515
+                "start": 513,
+                "end": 518
               },
               "value": {
                 "type": "Identifier",
@@ -837,15 +837,15 @@ __ESTREE_TEST__:PASS:
                 "name": "todos",
                 "optional": false,
                 "typeAnnotation": null,
-                "start": 510,
-                "end": 515
+                "start": 513,
+                "end": 518
               },
               "method": false,
               "shorthand": true,
               "computed": false,
               "optional": false,
-              "start": 510,
-              "end": 515
+              "start": 513,
+              "end": 518
             }
           ],
           "optional": false,
@@ -859,18 +859,18 @@ __ESTREE_TEST__:PASS:
                 "name": "TodoListProps",
                 "optional": false,
                 "typeAnnotation": null,
-                "start": 519,
-                "end": 532
+                "start": 522,
+                "end": 535
               },
               "typeArguments": null,
-              "start": 519,
-              "end": 532
+              "start": 522,
+              "end": 535
             },
-            "start": 517,
-            "end": 532
+            "start": 520,
+            "end": 535
           },
-          "start": 508,
-          "end": 532
+          "start": 511,
+          "end": 535
         }
       ],
       "returnType": null,
@@ -886,22 +886,22 @@ __ESTREE_TEST__:PASS:
                 "name": {
                   "type": "JSXIdentifier",
                   "name": "div",
-                  "start": 574,
-                  "end": 577
+                  "start": 577,
+                  "end": 580
                 },
                 "typeArguments": null,
                 "attributes": [],
                 "selfClosing": false,
-                "start": 573,
-                "end": 578
+                "start": 576,
+                "end": 581
               },
               "children": [
                 {
                   "type": "JSXText",
                   "value": "\n        ",
                   "raw": "\n        ",
-                  "start": 578,
-                  "end": 587
+                  "start": 581,
+                  "end": 590
                 },
                 {
                   "type": "JSXSpreadChild",
@@ -914,8 +914,8 @@ __ESTREE_TEST__:PASS:
                         "name": {
                           "type": "JSXIdentifier",
                           "name": "Todo",
-                          "start": 593,
-                          "end": 597
+                          "start": 596,
+                          "end": 600
                         },
                         "typeArguments": null,
                         "attributes": [
@@ -924,8 +924,8 @@ __ESTREE_TEST__:PASS:
                             "name": {
                               "type": "JSXIdentifier",
                               "name": "key",
-                              "start": 598,
-                              "end": 601
+                              "start": 601,
+                              "end": 604
                             },
                             "value": {
                               "type": "JSXExpressionContainer",
@@ -939,20 +939,20 @@ __ESTREE_TEST__:PASS:
                                     "name": "todos",
                                     "optional": false,
                                     "typeAnnotation": null,
-                                    "start": 603,
-                                    "end": 608
+                                    "start": 606,
+                                    "end": 611
                                   },
                                   "property": {
                                     "type": "Literal",
                                     "value": 0,
                                     "raw": "0",
-                                    "start": 609,
-                                    "end": 610
+                                    "start": 612,
+                                    "end": 613
                                   },
                                   "optional": false,
                                   "computed": true,
-                                  "start": 603,
-                                  "end": 611
+                                  "start": 606,
+                                  "end": 614
                                 },
                                 "property": {
                                   "type": "Identifier",
@@ -960,27 +960,27 @@ __ESTREE_TEST__:PASS:
                                   "name": "id",
                                   "optional": false,
                                   "typeAnnotation": null,
-                                  "start": 612,
-                                  "end": 614
+                                  "start": 615,
+                                  "end": 617
                                 },
                                 "optional": false,
                                 "computed": false,
-                                "start": 603,
-                                "end": 614
+                                "start": 606,
+                                "end": 617
                               },
-                              "start": 602,
-                              "end": 615
+                              "start": 605,
+                              "end": 618
                             },
-                            "start": 598,
-                            "end": 615
+                            "start": 601,
+                            "end": 618
                           },
                           {
                             "type": "JSXAttribute",
                             "name": {
                               "type": "JSXIdentifier",
                               "name": "todo",
-                              "start": 616,
-                              "end": 620
+                              "start": 619,
+                              "end": 623
                             },
                             "value": {
                               "type": "JSXExpressionContainer",
@@ -994,20 +994,20 @@ __ESTREE_TEST__:PASS:
                                     "name": "todos",
                                     "optional": false,
                                     "typeAnnotation": null,
-                                    "start": 622,
-                                    "end": 627
+                                    "start": 625,
+                                    "end": 630
                                   },
                                   "property": {
                                     "type": "Literal",
                                     "value": 0,
                                     "raw": "0",
-                                    "start": 628,
-                                    "end": 629
+                                    "start": 631,
+                                    "end": 632
                                   },
                                   "optional": false,
                                   "computed": true,
-                                  "start": 622,
-                                  "end": 630
+                                  "start": 625,
+                                  "end": 633
                                 },
                                 "property": {
                                   "type": "Identifier",
@@ -1015,47 +1015,47 @@ __ESTREE_TEST__:PASS:
                                   "name": "todo",
                                   "optional": false,
                                   "typeAnnotation": null,
-                                  "start": 631,
-                                  "end": 635
+                                  "start": 634,
+                                  "end": 638
                                 },
                                 "optional": false,
                                 "computed": false,
-                                "start": 622,
-                                "end": 635
+                                "start": 625,
+                                "end": 638
                               },
-                              "start": 621,
-                              "end": 636
+                              "start": 624,
+                              "end": 639
                             },
-                            "start": 616,
-                            "end": 636
+                            "start": 619,
+                            "end": 639
                           }
                         ],
                         "selfClosing": true,
-                        "start": 592,
-                        "end": 639
+                        "start": 595,
+                        "end": 642
                       },
                       "children": [],
                       "closingElement": null,
-                      "start": 592,
-                      "end": 639
+                      "start": 595,
+                      "end": 642
                     },
                     "typeAnnotation": {
                       "type": "TSAnyKeyword",
-                      "start": 643,
-                      "end": 646
+                      "start": 646,
+                      "end": 649
                     },
-                    "start": 592,
-                    "end": 646
+                    "start": 595,
+                    "end": 649
                   },
-                  "start": 587,
-                  "end": 648
+                  "start": 590,
+                  "end": 651
                 },
                 {
                   "type": "JSXText",
                   "value": "\n    ",
                   "raw": "\n    ",
-                  "start": 648,
-                  "end": 653
+                  "start": 651,
+                  "end": 656
                 }
               ],
               "closingElement": {
@@ -1063,25 +1063,25 @@ __ESTREE_TEST__:PASS:
                 "name": {
                   "type": "JSXIdentifier",
                   "name": "div",
-                  "start": 655,
-                  "end": 658
+                  "start": 658,
+                  "end": 661
                 },
-                "start": 653,
-                "end": 659
+                "start": 656,
+                "end": 662
               },
-              "start": 573,
-              "end": 659
+              "start": 576,
+              "end": 662
             },
-            "start": 566,
-            "end": 660
+            "start": 569,
+            "end": 663
           }
         ],
-        "start": 534,
-        "end": 662
+        "start": 537,
+        "end": 665
       },
       "expression": false,
-      "start": 483,
-      "end": 662
+      "start": 486,
+      "end": 665
     },
     {
       "type": "VariableDeclaration",
@@ -1104,28 +1104,28 @@ __ESTREE_TEST__:PASS:
                   "name": "TodoListProps",
                   "optional": false,
                   "typeAnnotation": null,
-                  "start": 670,
-                  "end": 683
+                  "start": 673,
+                  "end": 686
                 },
                 "typeArguments": null,
-                "start": 670,
-                "end": 683
+                "start": 673,
+                "end": 686
               },
-              "start": 668,
-              "end": 683
+              "start": 671,
+              "end": 686
             },
-            "start": 667,
-            "end": 683
+            "start": 670,
+            "end": 686
           },
           "init": null,
           "definite": false,
-          "start": 667,
-          "end": 683
+          "start": 670,
+          "end": 686
         }
       ],
       "declare": false,
-      "start": 663,
-      "end": 684
+      "start": 666,
+      "end": 687
     },
     {
       "type": "ExpressionStatement",
@@ -1136,8 +1136,8 @@ __ESTREE_TEST__:PASS:
           "name": {
             "type": "JSXIdentifier",
             "name": "TodoList",
-            "start": 690,
-            "end": 698
+            "start": 693,
+            "end": 701
           },
           "typeArguments": null,
           "attributes": [
@@ -1149,30 +1149,30 @@ __ESTREE_TEST__:PASS:
                 "name": "x",
                 "optional": false,
                 "typeAnnotation": null,
-                "start": 703,
-                "end": 704
+                "start": 706,
+                "end": 707
               },
-              "start": 699,
-              "end": 705
+              "start": 702,
+              "end": 708
             }
           ],
           "selfClosing": true,
-          "start": 689,
-          "end": 707
+          "start": 692,
+          "end": 710
         },
         "children": [],
         "closingElement": null,
-        "start": 689,
-        "end": 707
+        "start": 692,
+        "end": 710
       },
       "directive": null,
-      "start": 689,
-      "end": 707
+      "start": 692,
+      "end": 710
     }
   ],
   "sourceType": "script",
   "hashbang": null,
   "start": 0,
-  "end": 707
+  "end": 710
 }
 ```

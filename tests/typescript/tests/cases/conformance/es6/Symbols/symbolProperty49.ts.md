@@ -11,8 +11,8 @@ __ESTREE_TEST__:PASS:
         "name": "M",
         "optional": false,
         "typeAnnotation": null,
-        "start": 7,
-        "end": 8
+        "start": 10,
+        "end": 11
       },
       "body": {
         "type": "TSModuleBlock",
@@ -31,25 +31,25 @@ __ESTREE_TEST__:PASS:
                     "name": "Symbol",
                     "optional": false,
                     "typeAnnotation": null,
-                    "start": 26,
-                    "end": 32
+                    "start": 29,
+                    "end": 35
                   },
                   "init": null,
                   "definite": false,
-                  "start": 26,
-                  "end": 32
+                  "start": 29,
+                  "end": 35
                 }
               ],
               "declare": false,
-              "start": 22,
-              "end": 33
+              "start": 25,
+              "end": 36
             },
             "specifiers": [],
             "source": null,
             "exportKind": "value",
             "attributes": [],
-            "start": 15,
-            "end": 33
+            "start": 18,
+            "end": 36
           },
           {
             "type": "ClassDeclaration",
@@ -60,8 +60,8 @@ __ESTREE_TEST__:PASS:
               "name": "C",
               "optional": false,
               "typeAnnotation": null,
-              "start": 45,
-              "end": 46
+              "start": 48,
+              "end": 49
             },
             "typeParameters": null,
             "superClass": null,
@@ -81,8 +81,8 @@ __ESTREE_TEST__:PASS:
                       "name": "Symbol",
                       "optional": false,
                       "typeAnnotation": null,
-                      "start": 58,
-                      "end": 64
+                      "start": 61,
+                      "end": 67
                     },
                     "property": {
                       "type": "Identifier",
@@ -90,13 +90,13 @@ __ESTREE_TEST__:PASS:
                       "name": "iterator",
                       "optional": false,
                       "typeAnnotation": null,
-                      "start": 65,
-                      "end": 73
+                      "start": 68,
+                      "end": 76
                     },
                     "optional": false,
                     "computed": false,
-                    "start": 58,
-                    "end": 73
+                    "start": 61,
+                    "end": 76
                   },
                   "value": {
                     "type": "FunctionExpression",
@@ -110,12 +110,12 @@ __ESTREE_TEST__:PASS:
                     "body": {
                       "type": "BlockStatement",
                       "body": [],
-                      "start": 77,
-                      "end": 80
+                      "start": 80,
+                      "end": 83
                     },
                     "expression": false,
-                    "start": 74,
-                    "end": 80
+                    "start": 77,
+                    "end": 83
                   },
                   "kind": "method",
                   "computed": true,
@@ -123,32 +123,32 @@ __ESTREE_TEST__:PASS:
                   "override": false,
                   "optional": false,
                   "accessibility": null,
-                  "start": 57,
-                  "end": 80
+                  "start": 60,
+                  "end": 83
                 }
               ],
-              "start": 47,
-              "end": 86
+              "start": 50,
+              "end": 89
             },
             "abstract": false,
             "declare": false,
-            "start": 39,
-            "end": 86
+            "start": 42,
+            "end": 89
           }
         ],
-        "start": 9,
-        "end": 88
+        "start": 12,
+        "end": 91
       },
-      "kind": "module",
+      "kind": "namespace",
       "declare": false,
       "global": false,
       "start": 0,
-      "end": 88
+      "end": 91
     }
   ],
   "sourceType": "script",
   "hashbang": null,
   "start": 0,
-  "end": 88
+  "end": 91
 }
 ```

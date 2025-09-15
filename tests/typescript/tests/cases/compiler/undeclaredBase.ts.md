@@ -11,8 +11,8 @@ __ESTREE_TEST__:PASS:
         "name": "M",
         "optional": false,
         "typeAnnotation": null,
-        "start": 7,
-        "end": 8
+        "start": 10,
+        "end": 11
       },
       "body": {
         "type": "TSModuleBlock",
@@ -28,8 +28,8 @@ __ESTREE_TEST__:PASS:
                 "name": "C",
                 "optional": false,
                 "typeAnnotation": null,
-                "start": 24,
-                "end": 25
+                "start": 27,
+                "end": 28
               },
               "typeParameters": null,
               "superClass": {
@@ -40,8 +40,8 @@ __ESTREE_TEST__:PASS:
                   "name": "M",
                   "optional": false,
                   "typeAnnotation": null,
-                  "start": 34,
-                  "end": 35
+                  "start": 37,
+                  "end": 38
                 },
                 "property": {
                   "type": "Identifier",
@@ -49,48 +49,48 @@ __ESTREE_TEST__:PASS:
                   "name": "I",
                   "optional": false,
                   "typeAnnotation": null,
-                  "start": 36,
-                  "end": 37
+                  "start": 39,
+                  "end": 40
                 },
                 "optional": false,
                 "computed": false,
-                "start": 34,
-                "end": 37
+                "start": 37,
+                "end": 40
               },
               "superTypeArguments": null,
               "implements": [],
               "body": {
                 "type": "ClassBody",
                 "body": [],
-                "start": 38,
-                "end": 41
+                "start": 41,
+                "end": 44
               },
               "abstract": false,
               "declare": false,
-              "start": 18,
-              "end": 41
+              "start": 21,
+              "end": 44
             },
             "specifiers": [],
             "source": null,
             "exportKind": "value",
             "attributes": [],
-            "start": 11,
-            "end": 41
+            "start": 14,
+            "end": 44
           }
         ],
-        "start": 9,
-        "end": 43
+        "start": 12,
+        "end": 46
       },
-      "kind": "module",
+      "kind": "namespace",
       "declare": false,
       "global": false,
       "start": 0,
-      "end": 43
+      "end": 46
     }
   ],
   "sourceType": "script",
   "hashbang": null,
   "start": 0,
-  "end": 44
+  "end": 47
 }
 ```

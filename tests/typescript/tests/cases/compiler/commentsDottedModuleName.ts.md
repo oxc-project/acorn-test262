@@ -15,8 +15,8 @@ __ESTREE_TEST__:PASS:
             "name": "outerModule",
             "optional": false,
             "typeAnnotation": null,
-            "start": 49,
-            "end": 60
+            "start": 52,
+            "end": 63
           },
           "right": {
             "type": "Identifier",
@@ -24,11 +24,11 @@ __ESTREE_TEST__:PASS:
             "name": "InnerModule",
             "optional": false,
             "typeAnnotation": null,
-            "start": 61,
-            "end": 72
+            "start": 64,
+            "end": 75
           },
-          "start": 49,
-          "end": 72
+          "start": 52,
+          "end": 75
         },
         "body": {
           "type": "TSModuleBlock",
@@ -44,8 +44,8 @@ __ESTREE_TEST__:PASS:
                   "name": "b",
                   "optional": false,
                   "typeAnnotation": null,
-                  "start": 116,
-                  "end": 117
+                  "start": 119,
+                  "end": 120
                 },
                 "typeParameters": null,
                 "superClass": null,
@@ -54,42 +54,42 @@ __ESTREE_TEST__:PASS:
                 "body": {
                   "type": "ClassBody",
                   "body": [],
-                  "start": 118,
-                  "end": 125
+                  "start": 121,
+                  "end": 128
                 },
                 "abstract": false,
                 "declare": false,
-                "start": 110,
-                "end": 125
+                "start": 113,
+                "end": 128
               },
               "specifiers": [],
               "source": null,
               "exportKind": "value",
               "attributes": [],
-              "start": 103,
-              "end": 125
+              "start": 106,
+              "end": 128
             }
           ],
-          "start": 73,
-          "end": 127
+          "start": 76,
+          "end": 130
         },
-        "kind": "module",
+        "kind": "namespace",
         "declare": false,
         "global": false,
         "start": 42,
-        "end": 127
+        "end": 130
       },
       "specifiers": [],
       "source": null,
       "exportKind": "value",
       "attributes": [],
       "start": 35,
-      "end": 127
+      "end": 130
     }
   ],
   "sourceType": "module",
   "hashbang": null,
   "start": 35,
-  "end": 127
+  "end": 130
 }
 ```

@@ -139,8 +139,8 @@ __ESTREE_TEST__:PASS:
         "name": "m1",
         "optional": false,
         "typeAnnotation": null,
-        "start": 139,
-        "end": 141
+        "start": 142,
+        "end": 144
       },
       "body": {
         "type": "TSModuleBlock",
@@ -153,8 +153,8 @@ __ESTREE_TEST__:PASS:
               "name": "require",
               "optional": false,
               "typeAnnotation": null,
-              "start": 153,
-              "end": 160
+              "start": 156,
+              "end": 163
             },
             "body": {
               "type": "TSEnumBody",
@@ -167,13 +167,13 @@ __ESTREE_TEST__:PASS:
                     "name": "_thisVal1",
                     "optional": false,
                     "typeAnnotation": null,
-                    "start": 171,
-                    "end": 180
+                    "start": 174,
+                    "end": 183
                   },
                   "initializer": null,
                   "computed": false,
-                  "start": 171,
-                  "end": 180
+                  "start": 174,
+                  "end": 183
                 },
                 {
                   "type": "TSEnumMember",
@@ -183,22 +183,22 @@ __ESTREE_TEST__:PASS:
                     "name": "_thisVal2",
                     "optional": false,
                     "typeAnnotation": null,
-                    "start": 190,
-                    "end": 199
+                    "start": 193,
+                    "end": 202
                   },
                   "initializer": null,
                   "computed": false,
-                  "start": 190,
-                  "end": 199
+                  "start": 193,
+                  "end": 202
                 }
               ],
-              "start": 161,
-              "end": 206
+              "start": 164,
+              "end": 209
             },
             "const": false,
             "declare": false,
-            "start": 148,
-            "end": 206
+            "start": 151,
+            "end": 209
           },
           {
             "type": "TSEnumDeclaration",
@@ -208,8 +208,8 @@ __ESTREE_TEST__:PASS:
               "name": "exports",
               "optional": false,
               "typeAnnotation": null,
-              "start": 216,
-              "end": 223
+              "start": 219,
+              "end": 226
             },
             "body": {
               "type": "TSEnumBody",
@@ -222,13 +222,13 @@ __ESTREE_TEST__:PASS:
                     "name": "_thisVal1",
                     "optional": false,
                     "typeAnnotation": null,
-                    "start": 234,
-                    "end": 243
+                    "start": 237,
+                    "end": 246
                   },
                   "initializer": null,
                   "computed": false,
-                  "start": 234,
-                  "end": 243
+                  "start": 237,
+                  "end": 246
                 },
                 {
                   "type": "TSEnumMember",
@@ -238,32 +238,32 @@ __ESTREE_TEST__:PASS:
                     "name": "_thisVal2",
                     "optional": false,
                     "typeAnnotation": null,
-                    "start": 253,
-                    "end": 262
+                    "start": 256,
+                    "end": 265
                   },
                   "initializer": null,
                   "computed": false,
-                  "start": 253,
-                  "end": 262
+                  "start": 256,
+                  "end": 265
                 }
               ],
-              "start": 224,
-              "end": 269
+              "start": 227,
+              "end": 272
             },
             "const": false,
             "declare": false,
-            "start": 211,
-            "end": 269
+            "start": 214,
+            "end": 272
           }
         ],
-        "start": 142,
-        "end": 271
+        "start": 145,
+        "end": 274
       },
-      "kind": "module",
+      "kind": "namespace",
       "declare": true,
       "global": false,
       "start": 124,
-      "end": 271
+      "end": 274
     },
     {
       "type": "TSModuleDeclaration",
@@ -273,8 +273,8 @@ __ESTREE_TEST__:PASS:
         "name": "m2",
         "optional": false,
         "typeAnnotation": null,
-        "start": 279,
-        "end": 281
+        "start": 285,
+        "end": 287
       },
       "body": {
         "type": "TSModuleBlock",
@@ -289,8 +289,8 @@ __ESTREE_TEST__:PASS:
                 "name": "require",
                 "optional": false,
                 "typeAnnotation": null,
-                "start": 308,
-                "end": 315
+                "start": 314,
+                "end": 321
               },
               "body": {
                 "type": "TSEnumBody",
@@ -303,13 +303,13 @@ __ESTREE_TEST__:PASS:
                       "name": "_thisVal1",
                       "optional": false,
                       "typeAnnotation": null,
-                      "start": 327,
-                      "end": 336
+                      "start": 333,
+                      "end": 342
                     },
                     "initializer": null,
                     "computed": false,
-                    "start": 327,
-                    "end": 336
+                    "start": 333,
+                    "end": 342
                   },
                   {
                     "type": "TSEnumMember",
@@ -319,29 +319,29 @@ __ESTREE_TEST__:PASS:
                       "name": "_thisVal2",
                       "optional": false,
                       "typeAnnotation": null,
-                      "start": 346,
-                      "end": 355
+                      "start": 352,
+                      "end": 361
                     },
                     "initializer": null,
                     "computed": false,
-                    "start": 346,
-                    "end": 355
+                    "start": 352,
+                    "end": 361
                   }
                 ],
-                "start": 316,
-                "end": 362
+                "start": 322,
+                "end": 368
               },
               "const": false,
               "declare": true,
-              "start": 295,
-              "end": 362
+              "start": 301,
+              "end": 368
             },
             "specifiers": [],
             "source": null,
             "exportKind": "type",
             "attributes": [],
-            "start": 288,
-            "end": 362
+            "start": 294,
+            "end": 368
           },
           {
             "type": "ExportNamedDeclaration",
@@ -353,8 +353,8 @@ __ESTREE_TEST__:PASS:
                 "name": "exports",
                 "optional": false,
                 "typeAnnotation": null,
-                "start": 387,
-                "end": 394
+                "start": 393,
+                "end": 400
               },
               "body": {
                 "type": "TSEnumBody",
@@ -367,13 +367,13 @@ __ESTREE_TEST__:PASS:
                       "name": "_thisVal1",
                       "optional": false,
                       "typeAnnotation": null,
-                      "start": 405,
-                      "end": 414
+                      "start": 411,
+                      "end": 420
                     },
                     "initializer": null,
                     "computed": false,
-                    "start": 405,
-                    "end": 414
+                    "start": 411,
+                    "end": 420
                   },
                   {
                     "type": "TSEnumMember",
@@ -383,45 +383,45 @@ __ESTREE_TEST__:PASS:
                       "name": "_thisVal2",
                       "optional": false,
                       "typeAnnotation": null,
-                      "start": 424,
-                      "end": 433
+                      "start": 430,
+                      "end": 439
                     },
                     "initializer": null,
                     "computed": false,
-                    "start": 424,
-                    "end": 433
+                    "start": 430,
+                    "end": 439
                   }
                 ],
-                "start": 395,
-                "end": 440
+                "start": 401,
+                "end": 446
               },
               "const": false,
               "declare": true,
-              "start": 374,
-              "end": 440
+              "start": 380,
+              "end": 446
             },
             "specifiers": [],
             "source": null,
             "exportKind": "type",
             "attributes": [],
-            "start": 367,
-            "end": 440
+            "start": 373,
+            "end": 446
           }
         ],
-        "start": 282,
-        "end": 442
+        "start": 288,
+        "end": 448
       },
-      "kind": "module",
+      "kind": "namespace",
       "declare": false,
       "global": false,
-      "start": 272,
-      "end": 442
+      "start": 275,
+      "end": 448
     }
   ],
   "sourceType": "module",
   "hashbang": null,
   "start": 0,
-  "end": 443
+  "end": 449
 }
 ```
 __ESTREE_TEST__:PASS:
@@ -547,8 +547,8 @@ __ESTREE_TEST__:PASS:
         "name": "m3",
         "optional": false,
         "typeAnnotation": null,
-        "start": 125,
-        "end": 127
+        "start": 128,
+        "end": 130
       },
       "body": {
         "type": "TSModuleBlock",
@@ -561,8 +561,8 @@ __ESTREE_TEST__:PASS:
               "name": "require",
               "optional": false,
               "typeAnnotation": null,
-              "start": 139,
-              "end": 146
+              "start": 142,
+              "end": 149
             },
             "body": {
               "type": "TSEnumBody",
@@ -575,13 +575,13 @@ __ESTREE_TEST__:PASS:
                     "name": "_thisVal1",
                     "optional": false,
                     "typeAnnotation": null,
-                    "start": 157,
-                    "end": 166
+                    "start": 160,
+                    "end": 169
                   },
                   "initializer": null,
                   "computed": false,
-                  "start": 157,
-                  "end": 166
+                  "start": 160,
+                  "end": 169
                 },
                 {
                   "type": "TSEnumMember",
@@ -591,22 +591,22 @@ __ESTREE_TEST__:PASS:
                     "name": "_thisVal2",
                     "optional": false,
                     "typeAnnotation": null,
-                    "start": 176,
-                    "end": 185
+                    "start": 179,
+                    "end": 188
                   },
                   "initializer": null,
                   "computed": false,
-                  "start": 176,
-                  "end": 185
+                  "start": 179,
+                  "end": 188
                 }
               ],
-              "start": 147,
-              "end": 192
+              "start": 150,
+              "end": 195
             },
             "const": false,
             "declare": false,
-            "start": 134,
-            "end": 192
+            "start": 137,
+            "end": 195
           },
           {
             "type": "TSEnumDeclaration",
@@ -616,8 +616,8 @@ __ESTREE_TEST__:PASS:
               "name": "exports",
               "optional": false,
               "typeAnnotation": null,
-              "start": 202,
-              "end": 209
+              "start": 205,
+              "end": 212
             },
             "body": {
               "type": "TSEnumBody",
@@ -630,13 +630,13 @@ __ESTREE_TEST__:PASS:
                     "name": "_thisVal1",
                     "optional": false,
                     "typeAnnotation": null,
-                    "start": 220,
-                    "end": 229
+                    "start": 223,
+                    "end": 232
                   },
                   "initializer": null,
                   "computed": false,
-                  "start": 220,
-                  "end": 229
+                  "start": 223,
+                  "end": 232
                 },
                 {
                   "type": "TSEnumMember",
@@ -646,32 +646,32 @@ __ESTREE_TEST__:PASS:
                     "name": "_thisVal2",
                     "optional": false,
                     "typeAnnotation": null,
-                    "start": 239,
-                    "end": 248
+                    "start": 242,
+                    "end": 251
                   },
                   "initializer": null,
                   "computed": false,
-                  "start": 239,
-                  "end": 248
+                  "start": 242,
+                  "end": 251
                 }
               ],
-              "start": 210,
-              "end": 255
+              "start": 213,
+              "end": 258
             },
             "const": false,
             "declare": false,
-            "start": 197,
-            "end": 255
+            "start": 200,
+            "end": 258
           }
         ],
-        "start": 128,
-        "end": 257
+        "start": 131,
+        "end": 260
       },
-      "kind": "module",
+      "kind": "namespace",
       "declare": true,
       "global": false,
       "start": 110,
-      "end": 257
+      "end": 260
     },
     {
       "type": "TSModuleDeclaration",
@@ -681,8 +681,8 @@ __ESTREE_TEST__:PASS:
         "name": "m4",
         "optional": false,
         "typeAnnotation": null,
-        "start": 265,
-        "end": 267
+        "start": 271,
+        "end": 273
       },
       "body": {
         "type": "TSModuleBlock",
@@ -697,8 +697,8 @@ __ESTREE_TEST__:PASS:
                 "name": "require",
                 "optional": false,
                 "typeAnnotation": null,
-                "start": 294,
-                "end": 301
+                "start": 300,
+                "end": 307
               },
               "body": {
                 "type": "TSEnumBody",
@@ -711,13 +711,13 @@ __ESTREE_TEST__:PASS:
                       "name": "_thisVal1",
                       "optional": false,
                       "typeAnnotation": null,
-                      "start": 312,
-                      "end": 321
+                      "start": 318,
+                      "end": 327
                     },
                     "initializer": null,
                     "computed": false,
-                    "start": 312,
-                    "end": 321
+                    "start": 318,
+                    "end": 327
                   },
                   {
                     "type": "TSEnumMember",
@@ -727,29 +727,29 @@ __ESTREE_TEST__:PASS:
                       "name": "_thisVal2",
                       "optional": false,
                       "typeAnnotation": null,
-                      "start": 331,
-                      "end": 340
+                      "start": 337,
+                      "end": 346
                     },
                     "initializer": null,
                     "computed": false,
-                    "start": 331,
-                    "end": 340
+                    "start": 337,
+                    "end": 346
                   }
                 ],
-                "start": 302,
-                "end": 347
+                "start": 308,
+                "end": 353
               },
               "const": false,
               "declare": true,
-              "start": 281,
-              "end": 347
+              "start": 287,
+              "end": 353
             },
             "specifiers": [],
             "source": null,
             "exportKind": "type",
             "attributes": [],
-            "start": 274,
-            "end": 347
+            "start": 280,
+            "end": 353
           },
           {
             "type": "ExportNamedDeclaration",
@@ -761,8 +761,8 @@ __ESTREE_TEST__:PASS:
                 "name": "exports",
                 "optional": false,
                 "typeAnnotation": null,
-                "start": 372,
-                "end": 379
+                "start": 378,
+                "end": 385
               },
               "body": {
                 "type": "TSEnumBody",
@@ -775,13 +775,13 @@ __ESTREE_TEST__:PASS:
                       "name": "_thisVal1",
                       "optional": false,
                       "typeAnnotation": null,
-                      "start": 390,
-                      "end": 399
+                      "start": 396,
+                      "end": 405
                     },
                     "initializer": null,
                     "computed": false,
-                    "start": 390,
-                    "end": 399
+                    "start": 396,
+                    "end": 405
                   },
                   {
                     "type": "TSEnumMember",
@@ -791,44 +791,44 @@ __ESTREE_TEST__:PASS:
                       "name": "_thisVal2",
                       "optional": false,
                       "typeAnnotation": null,
-                      "start": 409,
-                      "end": 418
+                      "start": 415,
+                      "end": 424
                     },
                     "initializer": null,
                     "computed": false,
-                    "start": 409,
-                    "end": 418
+                    "start": 415,
+                    "end": 424
                   }
                 ],
-                "start": 380,
-                "end": 425
+                "start": 386,
+                "end": 431
               },
               "const": false,
               "declare": true,
-              "start": 359,
-              "end": 425
+              "start": 365,
+              "end": 431
             },
             "specifiers": [],
             "source": null,
             "exportKind": "type",
             "attributes": [],
-            "start": 352,
-            "end": 425
+            "start": 358,
+            "end": 431
           }
         ],
-        "start": 268,
-        "end": 427
+        "start": 274,
+        "end": 433
       },
-      "kind": "module",
+      "kind": "namespace",
       "declare": false,
       "global": false,
-      "start": 258,
-      "end": 427
+      "start": 261,
+      "end": 433
     }
   ],
   "sourceType": "module",
   "hashbang": null,
   "start": 0,
-  "end": 427
+  "end": 433
 }
 ```

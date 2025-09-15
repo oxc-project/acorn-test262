@@ -11,8 +11,8 @@ __ESTREE_TEST__:PASS:
         "name": "A",
         "optional": false,
         "typeAnnotation": null,
-        "start": 7,
-        "end": 8
+        "start": 10,
+        "end": 11
       },
       "body": {
         "type": "TSModuleBlock",
@@ -29,34 +29,34 @@ __ESTREE_TEST__:PASS:
                   "name": "b",
                   "optional": false,
                   "typeAnnotation": null,
-                  "start": 19,
-                  "end": 20
+                  "start": 22,
+                  "end": 23
                 },
                 "init": {
                   "type": "Literal",
                   "value": 1,
                   "raw": "1",
-                  "start": 23,
-                  "end": 24
+                  "start": 26,
+                  "end": 27
                 },
                 "definite": false,
-                "start": 19,
-                "end": 24
+                "start": 22,
+                "end": 27
               }
             ],
             "declare": false,
-            "start": 15,
-            "end": 25
+            "start": 18,
+            "end": 28
           }
         ],
-        "start": 9,
-        "end": 27
+        "start": 12,
+        "end": 30
       },
-      "kind": "module",
+      "kind": "namespace",
       "declare": false,
       "global": false,
       "start": 0,
-      "end": 27
+      "end": 30
     },
     {
       "type": "VariableDeclaration",
@@ -79,33 +79,33 @@ __ESTREE_TEST__:PASS:
                   "name": "A",
                   "optional": false,
                   "typeAnnotation": null,
-                  "start": 36,
-                  "end": 37
+                  "start": 39,
+                  "end": 40
                 },
                 "typeArguments": null,
-                "start": 36,
-                "end": 37
+                "start": 39,
+                "end": 40
               },
-              "start": 34,
-              "end": 37
+              "start": 37,
+              "end": 40
             },
-            "start": 33,
-            "end": 37
+            "start": 36,
+            "end": 40
           },
           "init": null,
           "definite": false,
-          "start": 33,
-          "end": 37
+          "start": 36,
+          "end": 40
         }
       ],
       "declare": false,
-      "start": 29,
-      "end": 38
+      "start": 32,
+      "end": 41
     }
   ],
   "sourceType": "script",
   "hashbang": null,
   "start": 0,
-  "end": 50
+  "end": 53
 }
 ```

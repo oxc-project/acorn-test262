@@ -11,20 +11,20 @@ __ESTREE_TEST__:PASS:
         "name": "ElidedModule",
         "optional": false,
         "typeAnnotation": null,
-        "start": 112,
-        "end": 124
+        "start": 115,
+        "end": 127
       },
       "body": {
         "type": "TSModuleBlock",
         "body": [],
-        "start": 125,
-        "end": 128
+        "start": 128,
+        "end": 131
       },
-      "kind": "module",
+      "kind": "namespace",
       "declare": false,
       "global": false,
       "start": 105,
-      "end": 128
+      "end": 131
     },
     {
       "type": "TSModuleDeclaration",
@@ -34,26 +34,26 @@ __ESTREE_TEST__:PASS:
         "name": "ElidedModule2",
         "optional": false,
         "typeAnnotation": null,
-        "start": 165,
-        "end": 178
+        "start": 171,
+        "end": 184
       },
       "body": {
         "type": "TSModuleBlock",
         "body": [],
-        "start": 179,
-        "end": 182
+        "start": 185,
+        "end": 188
       },
-      "kind": "module",
+      "kind": "namespace",
       "declare": false,
       "global": false,
-      "start": 158,
-      "end": 182
+      "start": 161,
+      "end": 188
     }
   ],
   "sourceType": "module",
   "hashbang": null,
   "start": 105,
-  "end": 183
+  "end": 189
 }
 ```
 __ESTREE_TEST__:PASS:
@@ -69,25 +69,25 @@ __ESTREE_TEST__:PASS:
         "name": "ElidedModule3",
         "optional": false,
         "typeAnnotation": null,
-        "start": 35,
-        "end": 48
+        "start": 38,
+        "end": 51
       },
       "body": {
         "type": "TSModuleBlock",
         "body": [],
-        "start": 49,
-        "end": 52
+        "start": 52,
+        "end": 55
       },
-      "kind": "module",
+      "kind": "namespace",
       "declare": false,
       "global": false,
       "start": 28,
-      "end": 52
+      "end": 55
     }
   ],
   "sourceType": "module",
   "hashbang": null,
   "start": 28,
-  "end": 52
+  "end": 55
 }
 ```

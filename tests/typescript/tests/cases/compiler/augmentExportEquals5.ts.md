@@ -11,8 +11,8 @@ __ESTREE_TEST__:PASS:
         "name": "Express",
         "optional": false,
         "typeAnnotation": null,
-        "start": 15,
-        "end": 22
+        "start": 18,
+        "end": 25
       },
       "body": {
         "type": "TSModuleBlock",
@@ -27,27 +27,27 @@ __ESTREE_TEST__:PASS:
                 "name": "Request",
                 "optional": false,
                 "typeAnnotation": null,
-                "start": 46,
-                "end": 53
+                "start": 49,
+                "end": 56
               },
               "typeParameters": null,
               "extends": [],
               "body": {
                 "type": "TSInterfaceBody",
                 "body": [],
-                "start": 54,
-                "end": 57
+                "start": 57,
+                "end": 60
               },
               "declare": false,
-              "start": 36,
-              "end": 57
+              "start": 39,
+              "end": 60
             },
             "specifiers": [],
             "source": null,
             "exportKind": "type",
             "attributes": [],
-            "start": 29,
-            "end": 57
+            "start": 32,
+            "end": 60
           },
           {
             "type": "ExportNamedDeclaration",
@@ -59,27 +59,27 @@ __ESTREE_TEST__:PASS:
                 "name": "Response",
                 "optional": false,
                 "typeAnnotation": null,
-                "start": 79,
-                "end": 87
+                "start": 82,
+                "end": 90
               },
               "typeParameters": null,
               "extends": [],
               "body": {
                 "type": "TSInterfaceBody",
                 "body": [],
-                "start": 88,
-                "end": 91
+                "start": 91,
+                "end": 94
               },
               "declare": false,
-              "start": 69,
-              "end": 91
+              "start": 72,
+              "end": 94
             },
             "specifiers": [],
             "source": null,
             "exportKind": "type",
             "attributes": [],
-            "start": 62,
-            "end": 91
+            "start": 65,
+            "end": 94
           },
           {
             "type": "ExportNamedDeclaration",
@@ -91,37 +91,37 @@ __ESTREE_TEST__:PASS:
                 "name": "Application",
                 "optional": false,
                 "typeAnnotation": null,
-                "start": 113,
-                "end": 124
+                "start": 116,
+                "end": 127
               },
               "typeParameters": null,
               "extends": [],
               "body": {
                 "type": "TSInterfaceBody",
                 "body": [],
-                "start": 125,
-                "end": 128
+                "start": 128,
+                "end": 131
               },
               "declare": false,
-              "start": 103,
-              "end": 128
+              "start": 106,
+              "end": 131
             },
             "specifiers": [],
             "source": null,
             "exportKind": "type",
             "attributes": [],
-            "start": 96,
-            "end": 128
+            "start": 99,
+            "end": 131
           }
         ],
-        "start": 23,
-        "end": 130
+        "start": 26,
+        "end": 133
       },
-      "kind": "module",
+      "kind": "namespace",
       "declare": true,
       "global": false,
       "start": 0,
-      "end": 130
+      "end": 133
     },
     {
       "type": "TSModuleDeclaration",
@@ -129,8 +129,8 @@ __ESTREE_TEST__:PASS:
         "type": "Literal",
         "value": "express",
         "raw": "\"express\"",
-        "start": 147,
-        "end": 156
+        "start": 150,
+        "end": 159
       },
       "body": {
         "type": "TSModuleBlock",
@@ -143,8 +143,8 @@ __ESTREE_TEST__:PASS:
               "name": "e",
               "optional": false,
               "typeAnnotation": null,
-              "start": 172,
-              "end": 173
+              "start": 175,
+              "end": 176
             },
             "generator": false,
             "async": false,
@@ -163,8 +163,8 @@ __ESTREE_TEST__:PASS:
                     "name": "e",
                     "optional": false,
                     "typeAnnotation": null,
-                    "start": 177,
-                    "end": 178
+                    "start": 180,
+                    "end": 181
                   },
                   "right": {
                     "type": "Identifier",
@@ -172,23 +172,23 @@ __ESTREE_TEST__:PASS:
                     "name": "Express",
                     "optional": false,
                     "typeAnnotation": null,
-                    "start": 179,
-                    "end": 186
+                    "start": 182,
+                    "end": 189
                   },
-                  "start": 177,
-                  "end": 186
+                  "start": 180,
+                  "end": 189
                 },
                 "typeArguments": null,
-                "start": 177,
-                "end": 186
+                "start": 180,
+                "end": 189
               },
-              "start": 175,
-              "end": 186
+              "start": 178,
+              "end": 189
             },
             "body": null,
             "expression": false,
-            "start": 163,
-            "end": 187
+            "start": 166,
+            "end": 190
           },
           {
             "type": "TSModuleDeclaration",
@@ -198,8 +198,8 @@ __ESTREE_TEST__:PASS:
               "name": "e",
               "optional": false,
               "typeAnnotation": null,
-              "start": 202,
-              "end": 203
+              "start": 205,
+              "end": 206
             },
             "body": {
               "type": "TSModuleBlock",
@@ -212,8 +212,8 @@ __ESTREE_TEST__:PASS:
                     "name": "IRoute",
                     "optional": false,
                     "typeAnnotation": null,
-                    "start": 224,
-                    "end": 230
+                    "start": 227,
+                    "end": 233
                   },
                   "typeParameters": null,
                   "extends": [],
@@ -228,8 +228,8 @@ __ESTREE_TEST__:PASS:
                           "name": "all",
                           "optional": false,
                           "typeAnnotation": null,
-                          "start": 245,
-                          "end": 248
+                          "start": 248,
+                          "end": 251
                         },
                         "computed": false,
                         "optional": false,
@@ -245,8 +245,8 @@ __ESTREE_TEST__:PASS:
                               "name": "handler",
                               "optional": false,
                               "typeAnnotation": null,
-                              "start": 252,
-                              "end": 259
+                              "start": 255,
+                              "end": 262
                             },
                             "optional": false,
                             "typeAnnotation": {
@@ -261,22 +261,22 @@ __ESTREE_TEST__:PASS:
                                     "name": "RequestHandler",
                                     "optional": false,
                                     "typeAnnotation": null,
-                                    "start": 261,
-                                    "end": 275
+                                    "start": 264,
+                                    "end": 278
                                   },
                                   "typeArguments": null,
-                                  "start": 261,
-                                  "end": 275
+                                  "start": 264,
+                                  "end": 278
                                 },
-                                "start": 261,
-                                "end": 277
+                                "start": 264,
+                                "end": 280
                               },
-                              "start": 259,
-                              "end": 277
+                              "start": 262,
+                              "end": 280
                             },
                             "value": null,
-                            "start": 249,
-                            "end": 277
+                            "start": 252,
+                            "end": 280
                           }
                         ],
                         "returnType": {
@@ -289,29 +289,29 @@ __ESTREE_TEST__:PASS:
                               "name": "IRoute",
                               "optional": false,
                               "typeAnnotation": null,
-                              "start": 280,
-                              "end": 286
+                              "start": 283,
+                              "end": 289
                             },
                             "typeArguments": null,
-                            "start": 280,
-                            "end": 286
+                            "start": 283,
+                            "end": 289
                           },
-                          "start": 278,
-                          "end": 286
+                          "start": 281,
+                          "end": 289
                         },
                         "accessibility": null,
                         "readonly": false,
                         "static": false,
-                        "start": 245,
-                        "end": 287
+                        "start": 248,
+                        "end": 290
                       }
                     ],
-                    "start": 231,
-                    "end": 297
+                    "start": 234,
+                    "end": 300
                   },
                   "declare": false,
-                  "start": 214,
-                  "end": 297
+                  "start": 217,
+                  "end": 300
                 },
                 {
                   "type": "TSInterfaceDeclaration",
@@ -321,8 +321,8 @@ __ESTREE_TEST__:PASS:
                     "name": "IRouterMatcher",
                     "optional": false,
                     "typeAnnotation": null,
-                    "start": 317,
-                    "end": 331
+                    "start": 320,
+                    "end": 334
                   },
                   "typeParameters": {
                     "type": "TSTypeParameterDeclaration",
@@ -335,20 +335,20 @@ __ESTREE_TEST__:PASS:
                           "name": "T",
                           "optional": false,
                           "typeAnnotation": null,
-                          "start": 332,
-                          "end": 333
+                          "start": 335,
+                          "end": 336
                         },
                         "constraint": null,
                         "default": null,
                         "in": false,
                         "out": false,
                         "const": false,
-                        "start": 332,
-                        "end": 333
+                        "start": 335,
+                        "end": 336
                       }
                     ],
-                    "start": 331,
-                    "end": 334
+                    "start": 334,
+                    "end": 337
                   },
                   "extends": [],
                   "body": {
@@ -370,8 +370,8 @@ __ESTREE_TEST__:PASS:
                                 "types": [
                                   {
                                     "type": "TSStringKeyword",
-                                    "start": 356,
-                                    "end": 362
+                                    "start": 359,
+                                    "end": 365
                                   },
                                   {
                                     "type": "TSTypeReference",
@@ -381,22 +381,22 @@ __ESTREE_TEST__:PASS:
                                       "name": "RegExp",
                                       "optional": false,
                                       "typeAnnotation": null,
-                                      "start": 363,
-                                      "end": 369
+                                      "start": 366,
+                                      "end": 372
                                     },
                                     "typeArguments": null,
-                                    "start": 363,
-                                    "end": 369
+                                    "start": 366,
+                                    "end": 372
                                   }
                                 ],
-                                "start": 356,
-                                "end": 369
+                                "start": 359,
+                                "end": 372
                               },
-                              "start": 354,
-                              "end": 369
+                              "start": 357,
+                              "end": 372
                             },
-                            "start": 350,
-                            "end": 369
+                            "start": 353,
+                            "end": 372
                           },
                           {
                             "type": "RestElement",
@@ -407,8 +407,8 @@ __ESTREE_TEST__:PASS:
                               "name": "handlers",
                               "optional": false,
                               "typeAnnotation": null,
-                              "start": 374,
-                              "end": 382
+                              "start": 377,
+                              "end": 385
                             },
                             "optional": false,
                             "typeAnnotation": {
@@ -423,22 +423,22 @@ __ESTREE_TEST__:PASS:
                                     "name": "RequestHandler",
                                     "optional": false,
                                     "typeAnnotation": null,
-                                    "start": 384,
-                                    "end": 398
+                                    "start": 387,
+                                    "end": 401
                                   },
                                   "typeArguments": null,
-                                  "start": 384,
-                                  "end": 398
+                                  "start": 387,
+                                  "end": 401
                                 },
-                                "start": 384,
-                                "end": 400
+                                "start": 387,
+                                "end": 403
                               },
-                              "start": 382,
-                              "end": 400
+                              "start": 385,
+                              "end": 403
                             },
                             "value": null,
-                            "start": 371,
-                            "end": 400
+                            "start": 374,
+                            "end": 403
                           }
                         ],
                         "returnType": {
@@ -451,26 +451,26 @@ __ESTREE_TEST__:PASS:
                               "name": "T",
                               "optional": false,
                               "typeAnnotation": null,
-                              "start": 403,
-                              "end": 404
+                              "start": 406,
+                              "end": 407
                             },
                             "typeArguments": null,
-                            "start": 403,
-                            "end": 404
+                            "start": 406,
+                            "end": 407
                           },
-                          "start": 401,
-                          "end": 404
+                          "start": 404,
+                          "end": 407
                         },
-                        "start": 349,
-                        "end": 405
+                        "start": 352,
+                        "end": 408
                       }
                     ],
-                    "start": 335,
-                    "end": 415
+                    "start": 338,
+                    "end": 418
                   },
                   "declare": false,
-                  "start": 307,
-                  "end": 415
+                  "start": 310,
+                  "end": 418
                 },
                 {
                   "type": "TSInterfaceDeclaration",
@@ -480,8 +480,8 @@ __ESTREE_TEST__:PASS:
                     "name": "IRouter",
                     "optional": false,
                     "typeAnnotation": null,
-                    "start": 435,
-                    "end": 442
+                    "start": 438,
+                    "end": 445
                   },
                   "typeParameters": {
                     "type": "TSTypeParameterDeclaration",
@@ -494,20 +494,20 @@ __ESTREE_TEST__:PASS:
                           "name": "T",
                           "optional": false,
                           "typeAnnotation": null,
-                          "start": 443,
-                          "end": 444
+                          "start": 446,
+                          "end": 447
                         },
                         "constraint": null,
                         "default": null,
                         "in": false,
                         "out": false,
                         "const": false,
-                        "start": 443,
-                        "end": 444
+                        "start": 446,
+                        "end": 447
                       }
                     ],
-                    "start": 442,
-                    "end": 445
+                    "start": 445,
+                    "end": 448
                   },
                   "extends": [
                     {
@@ -518,12 +518,12 @@ __ESTREE_TEST__:PASS:
                         "name": "RequestHandler",
                         "optional": false,
                         "typeAnnotation": null,
-                        "start": 454,
-                        "end": 468
+                        "start": 457,
+                        "end": 471
                       },
                       "typeArguments": null,
-                      "start": 454,
-                      "end": 468
+                      "start": 457,
+                      "end": 471
                     }
                   ],
                   "body": {
@@ -537,8 +537,8 @@ __ESTREE_TEST__:PASS:
                           "name": "route",
                           "optional": false,
                           "typeAnnotation": null,
-                          "start": 483,
-                          "end": 488
+                          "start": 486,
+                          "end": 491
                         },
                         "computed": false,
                         "optional": false,
@@ -554,14 +554,14 @@ __ESTREE_TEST__:PASS:
                               "type": "TSTypeAnnotation",
                               "typeAnnotation": {
                                 "type": "TSStringKeyword",
-                                "start": 495,
-                                "end": 501
+                                "start": 498,
+                                "end": 504
                               },
-                              "start": 493,
-                              "end": 501
+                              "start": 496,
+                              "end": 504
                             },
-                            "start": 489,
-                            "end": 501
+                            "start": 492,
+                            "end": 504
                           }
                         ],
                         "returnType": {
@@ -574,29 +574,29 @@ __ESTREE_TEST__:PASS:
                               "name": "IRoute",
                               "optional": false,
                               "typeAnnotation": null,
-                              "start": 504,
-                              "end": 510
+                              "start": 507,
+                              "end": 513
                             },
                             "typeArguments": null,
-                            "start": 504,
-                            "end": 510
+                            "start": 507,
+                            "end": 513
                           },
-                          "start": 502,
-                          "end": 510
+                          "start": 505,
+                          "end": 513
                         },
                         "accessibility": null,
                         "readonly": false,
                         "static": false,
-                        "start": 483,
-                        "end": 511
+                        "start": 486,
+                        "end": 514
                       }
                     ],
-                    "start": 469,
-                    "end": 521
+                    "start": 472,
+                    "end": 524
                   },
                   "declare": false,
-                  "start": 425,
-                  "end": 521
+                  "start": 428,
+                  "end": 524
                 },
                 {
                   "type": "ExportNamedDeclaration",
@@ -608,8 +608,8 @@ __ESTREE_TEST__:PASS:
                       "name": "Router",
                       "optional": false,
                       "typeAnnotation": null,
-                      "start": 547,
-                      "end": 553
+                      "start": 550,
+                      "end": 556
                     },
                     "generator": false,
                     "async": false,
@@ -625,14 +625,14 @@ __ESTREE_TEST__:PASS:
                           "type": "TSTypeAnnotation",
                           "typeAnnotation": {
                             "type": "TSAnyKeyword",
-                            "start": 564,
-                            "end": 567
+                            "start": 567,
+                            "end": 570
                           },
-                          "start": 562,
-                          "end": 567
+                          "start": 565,
+                          "end": 570
                         },
-                        "start": 554,
-                        "end": 567
+                        "start": 557,
+                        "end": 570
                       }
                     ],
                     "returnType": {
@@ -645,27 +645,27 @@ __ESTREE_TEST__:PASS:
                           "name": "Router",
                           "optional": false,
                           "typeAnnotation": null,
-                          "start": 570,
-                          "end": 576
+                          "start": 573,
+                          "end": 579
                         },
                         "typeArguments": null,
-                        "start": 570,
-                        "end": 576
+                        "start": 573,
+                        "end": 579
                       },
-                      "start": 568,
-                      "end": 576
+                      "start": 571,
+                      "end": 579
                     },
                     "body": null,
                     "expression": false,
-                    "start": 538,
-                    "end": 577
+                    "start": 541,
+                    "end": 580
                   },
                   "specifiers": [],
                   "source": null,
                   "exportKind": "value",
                   "attributes": [],
-                  "start": 531,
-                  "end": 577
+                  "start": 534,
+                  "end": 580
                 },
                 {
                   "type": "ExportNamedDeclaration",
@@ -677,8 +677,8 @@ __ESTREE_TEST__:PASS:
                       "name": "Router",
                       "optional": false,
                       "typeAnnotation": null,
-                      "start": 604,
-                      "end": 610
+                      "start": 607,
+                      "end": 613
                     },
                     "typeParameters": null,
                     "extends": [
@@ -690,8 +690,8 @@ __ESTREE_TEST__:PASS:
                           "name": "IRouter",
                           "optional": false,
                           "typeAnnotation": null,
-                          "start": 619,
-                          "end": 626
+                          "start": 622,
+                          "end": 629
                         },
                         "typeArguments": {
                           "type": "TSTypeParameterInstantiation",
@@ -704,37 +704,37 @@ __ESTREE_TEST__:PASS:
                                 "name": "Router",
                                 "optional": false,
                                 "typeAnnotation": null,
-                                "start": 627,
-                                "end": 633
+                                "start": 630,
+                                "end": 636
                               },
                               "typeArguments": null,
-                              "start": 627,
-                              "end": 633
+                              "start": 630,
+                              "end": 636
                             }
                           ],
-                          "start": 626,
-                          "end": 634
+                          "start": 629,
+                          "end": 637
                         },
-                        "start": 619,
-                        "end": 634
+                        "start": 622,
+                        "end": 637
                       }
                     ],
                     "body": {
                       "type": "TSInterfaceBody",
                       "body": [],
-                      "start": 635,
-                      "end": 637
+                      "start": 638,
+                      "end": 640
                     },
                     "declare": false,
-                    "start": 594,
-                    "end": 637
+                    "start": 597,
+                    "end": 640
                   },
                   "specifiers": [],
                   "source": null,
                   "exportKind": "type",
                   "attributes": [],
-                  "start": 587,
-                  "end": 637
+                  "start": 590,
+                  "end": 640
                 },
                 {
                   "type": "TSInterfaceDeclaration",
@@ -744,8 +744,8 @@ __ESTREE_TEST__:PASS:
                     "name": "Errback",
                     "optional": false,
                     "typeAnnotation": null,
-                    "start": 657,
-                    "end": 664
+                    "start": 660,
+                    "end": 667
                   },
                   "typeParameters": null,
                   "extends": [],
@@ -771,40 +771,40 @@ __ESTREE_TEST__:PASS:
                                   "name": "Error",
                                   "optional": false,
                                   "typeAnnotation": null,
-                                  "start": 673,
-                                  "end": 678
+                                  "start": 676,
+                                  "end": 681
                                 },
                                 "typeArguments": null,
-                                "start": 673,
-                                "end": 678
+                                "start": 676,
+                                "end": 681
                               },
-                              "start": 671,
-                              "end": 678
+                              "start": 674,
+                              "end": 681
                             },
-                            "start": 668,
-                            "end": 678
+                            "start": 671,
+                            "end": 681
                           }
                         ],
                         "returnType": {
                           "type": "TSTypeAnnotation",
                           "typeAnnotation": {
                             "type": "TSVoidKeyword",
-                            "start": 681,
-                            "end": 685
+                            "start": 684,
+                            "end": 688
                           },
-                          "start": 679,
-                          "end": 685
+                          "start": 682,
+                          "end": 688
                         },
-                        "start": 667,
-                        "end": 686
+                        "start": 670,
+                        "end": 689
                       }
                     ],
-                    "start": 665,
-                    "end": 688
+                    "start": 668,
+                    "end": 691
                   },
                   "declare": false,
-                  "start": 647,
-                  "end": 688
+                  "start": 650,
+                  "end": 691
                 },
                 {
                   "type": "TSInterfaceDeclaration",
@@ -814,8 +814,8 @@ __ESTREE_TEST__:PASS:
                     "name": "Request",
                     "optional": false,
                     "typeAnnotation": null,
-                    "start": 708,
-                    "end": 715
+                    "start": 711,
+                    "end": 718
                   },
                   "typeParameters": null,
                   "extends": [
@@ -829,8 +829,8 @@ __ESTREE_TEST__:PASS:
                           "name": "Express",
                           "optional": false,
                           "typeAnnotation": null,
-                          "start": 724,
-                          "end": 731
+                          "start": 727,
+                          "end": 734
                         },
                         "property": {
                           "type": "Identifier",
@@ -838,17 +838,17 @@ __ESTREE_TEST__:PASS:
                           "name": "Request",
                           "optional": false,
                           "typeAnnotation": null,
-                          "start": 732,
-                          "end": 739
+                          "start": 735,
+                          "end": 742
                         },
                         "optional": false,
                         "computed": false,
-                        "start": 724,
-                        "end": 739
+                        "start": 727,
+                        "end": 742
                       },
                       "typeArguments": null,
-                      "start": 724,
-                      "end": 739
+                      "start": 727,
+                      "end": 742
                     }
                   ],
                   "body": {
@@ -862,8 +862,8 @@ __ESTREE_TEST__:PASS:
                           "name": "get",
                           "optional": false,
                           "typeAnnotation": null,
-                          "start": 755,
-                          "end": 758
+                          "start": 758,
+                          "end": 761
                         },
                         "computed": false,
                         "optional": false,
@@ -879,39 +879,39 @@ __ESTREE_TEST__:PASS:
                               "type": "TSTypeAnnotation",
                               "typeAnnotation": {
                                 "type": "TSStringKeyword",
-                                "start": 766,
-                                "end": 772
+                                "start": 769,
+                                "end": 775
                               },
-                              "start": 764,
-                              "end": 772
+                              "start": 767,
+                              "end": 775
                             },
-                            "start": 760,
-                            "end": 772
+                            "start": 763,
+                            "end": 775
                           }
                         ],
                         "returnType": {
                           "type": "TSTypeAnnotation",
                           "typeAnnotation": {
                             "type": "TSStringKeyword",
-                            "start": 775,
-                            "end": 781
+                            "start": 778,
+                            "end": 784
                           },
-                          "start": 773,
-                          "end": 781
+                          "start": 776,
+                          "end": 784
                         },
                         "accessibility": null,
                         "readonly": false,
                         "static": false,
-                        "start": 755,
-                        "end": 782
+                        "start": 758,
+                        "end": 785
                       }
                     ],
-                    "start": 740,
-                    "end": 792
+                    "start": 743,
+                    "end": 795
                   },
                   "declare": false,
-                  "start": 698,
-                  "end": 792
+                  "start": 701,
+                  "end": 795
                 },
                 {
                   "type": "TSInterfaceDeclaration",
@@ -921,8 +921,8 @@ __ESTREE_TEST__:PASS:
                     "name": "Response",
                     "optional": false,
                     "typeAnnotation": null,
-                    "start": 812,
-                    "end": 820
+                    "start": 815,
+                    "end": 823
                   },
                   "typeParameters": null,
                   "extends": [
@@ -936,8 +936,8 @@ __ESTREE_TEST__:PASS:
                           "name": "Express",
                           "optional": false,
                           "typeAnnotation": null,
-                          "start": 829,
-                          "end": 836
+                          "start": 832,
+                          "end": 839
                         },
                         "property": {
                           "type": "Identifier",
@@ -945,17 +945,17 @@ __ESTREE_TEST__:PASS:
                           "name": "Response",
                           "optional": false,
                           "typeAnnotation": null,
-                          "start": 837,
-                          "end": 845
+                          "start": 840,
+                          "end": 848
                         },
                         "optional": false,
                         "computed": false,
-                        "start": 829,
-                        "end": 845
+                        "start": 832,
+                        "end": 848
                       },
                       "typeArguments": null,
-                      "start": 829,
-                      "end": 845
+                      "start": 832,
+                      "end": 848
                     }
                   ],
                   "body": {
@@ -972,31 +972,31 @@ __ESTREE_TEST__:PASS:
                           "name": "charset",
                           "optional": false,
                           "typeAnnotation": null,
-                          "start": 860,
-                          "end": 867
+                          "start": 863,
+                          "end": 870
                         },
                         "typeAnnotation": {
                           "type": "TSTypeAnnotation",
                           "typeAnnotation": {
                             "type": "TSStringKeyword",
-                            "start": 869,
-                            "end": 875
+                            "start": 872,
+                            "end": 878
                           },
-                          "start": 867,
-                          "end": 875
+                          "start": 870,
+                          "end": 878
                         },
                         "accessibility": null,
                         "static": false,
-                        "start": 860,
-                        "end": 876
+                        "start": 863,
+                        "end": 879
                       }
                     ],
-                    "start": 846,
-                    "end": 886
+                    "start": 849,
+                    "end": 889
                   },
                   "declare": false,
-                  "start": 802,
-                  "end": 886
+                  "start": 805,
+                  "end": 889
                 },
                 {
                   "type": "TSInterfaceDeclaration",
@@ -1006,8 +1006,8 @@ __ESTREE_TEST__:PASS:
                     "name": "ErrorRequestHandler",
                     "optional": false,
                     "typeAnnotation": null,
-                    "start": 906,
-                    "end": 925
+                    "start": 909,
+                    "end": 928
                   },
                   "typeParameters": null,
                   "extends": [],
@@ -1027,14 +1027,14 @@ __ESTREE_TEST__:PASS:
                               "type": "TSTypeAnnotation",
                               "typeAnnotation": {
                                 "type": "TSAnyKeyword",
-                                "start": 946,
-                                "end": 949
+                                "start": 949,
+                                "end": 952
                               },
-                              "start": 944,
-                              "end": 949
+                              "start": 947,
+                              "end": 952
                             },
-                            "start": 941,
-                            "end": 949
+                            "start": 944,
+                            "end": 952
                           },
                           {
                             "type": "Identifier",
@@ -1051,18 +1051,18 @@ __ESTREE_TEST__:PASS:
                                   "name": "Request",
                                   "optional": false,
                                   "typeAnnotation": null,
-                                  "start": 956,
-                                  "end": 963
+                                  "start": 959,
+                                  "end": 966
                                 },
                                 "typeArguments": null,
-                                "start": 956,
-                                "end": 963
+                                "start": 959,
+                                "end": 966
                               },
-                              "start": 954,
-                              "end": 963
+                              "start": 957,
+                              "end": 966
                             },
-                            "start": 951,
-                            "end": 963
+                            "start": 954,
+                            "end": 966
                           },
                           {
                             "type": "Identifier",
@@ -1079,18 +1079,18 @@ __ESTREE_TEST__:PASS:
                                   "name": "Response",
                                   "optional": false,
                                   "typeAnnotation": null,
-                                  "start": 970,
-                                  "end": 978
+                                  "start": 973,
+                                  "end": 981
                                 },
                                 "typeArguments": null,
-                                "start": 970,
-                                "end": 978
+                                "start": 973,
+                                "end": 981
                               },
-                              "start": 968,
-                              "end": 978
+                              "start": 971,
+                              "end": 981
                             },
-                            "start": 965,
-                            "end": 978
+                            "start": 968,
+                            "end": 981
                           },
                           {
                             "type": "Identifier",
@@ -1107,40 +1107,40 @@ __ESTREE_TEST__:PASS:
                                   "name": "Function",
                                   "optional": false,
                                   "typeAnnotation": null,
-                                  "start": 986,
-                                  "end": 994
+                                  "start": 989,
+                                  "end": 997
                                 },
                                 "typeArguments": null,
-                                "start": 986,
-                                "end": 994
+                                "start": 989,
+                                "end": 997
                               },
-                              "start": 984,
-                              "end": 994
+                              "start": 987,
+                              "end": 997
                             },
-                            "start": 980,
-                            "end": 994
+                            "start": 983,
+                            "end": 997
                           }
                         ],
                         "returnType": {
                           "type": "TSTypeAnnotation",
                           "typeAnnotation": {
                             "type": "TSAnyKeyword",
-                            "start": 997,
-                            "end": 1000
+                            "start": 1000,
+                            "end": 1003
                           },
-                          "start": 995,
-                          "end": 1000
+                          "start": 998,
+                          "end": 1003
                         },
-                        "start": 940,
-                        "end": 1001
+                        "start": 943,
+                        "end": 1004
                       }
                     ],
-                    "start": 926,
-                    "end": 1011
+                    "start": 929,
+                    "end": 1014
                   },
                   "declare": false,
-                  "start": 896,
-                  "end": 1011
+                  "start": 899,
+                  "end": 1014
                 },
                 {
                   "type": "TSInterfaceDeclaration",
@@ -1150,8 +1150,8 @@ __ESTREE_TEST__:PASS:
                     "name": "RequestHandler",
                     "optional": false,
                     "typeAnnotation": null,
-                    "start": 1031,
-                    "end": 1045
+                    "start": 1034,
+                    "end": 1048
                   },
                   "typeParameters": null,
                   "extends": [],
@@ -1177,18 +1177,18 @@ __ESTREE_TEST__:PASS:
                                   "name": "Request",
                                   "optional": false,
                                   "typeAnnotation": null,
-                                  "start": 1066,
-                                  "end": 1073
+                                  "start": 1069,
+                                  "end": 1076
                                 },
                                 "typeArguments": null,
-                                "start": 1066,
-                                "end": 1073
+                                "start": 1069,
+                                "end": 1076
                               },
-                              "start": 1064,
-                              "end": 1073
+                              "start": 1067,
+                              "end": 1076
                             },
-                            "start": 1061,
-                            "end": 1073
+                            "start": 1064,
+                            "end": 1076
                           },
                           {
                             "type": "Identifier",
@@ -1205,18 +1205,18 @@ __ESTREE_TEST__:PASS:
                                   "name": "Response",
                                   "optional": false,
                                   "typeAnnotation": null,
-                                  "start": 1080,
-                                  "end": 1088
+                                  "start": 1083,
+                                  "end": 1091
                                 },
                                 "typeArguments": null,
-                                "start": 1080,
-                                "end": 1088
+                                "start": 1083,
+                                "end": 1091
                               },
-                              "start": 1078,
-                              "end": 1088
+                              "start": 1081,
+                              "end": 1091
                             },
-                            "start": 1075,
-                            "end": 1088
+                            "start": 1078,
+                            "end": 1091
                           },
                           {
                             "type": "Identifier",
@@ -1233,40 +1233,40 @@ __ESTREE_TEST__:PASS:
                                   "name": "Function",
                                   "optional": false,
                                   "typeAnnotation": null,
-                                  "start": 1096,
-                                  "end": 1104
+                                  "start": 1099,
+                                  "end": 1107
                                 },
                                 "typeArguments": null,
-                                "start": 1096,
-                                "end": 1104
+                                "start": 1099,
+                                "end": 1107
                               },
-                              "start": 1094,
-                              "end": 1104
+                              "start": 1097,
+                              "end": 1107
                             },
-                            "start": 1090,
-                            "end": 1104
+                            "start": 1093,
+                            "end": 1107
                           }
                         ],
                         "returnType": {
                           "type": "TSTypeAnnotation",
                           "typeAnnotation": {
                             "type": "TSAnyKeyword",
-                            "start": 1107,
-                            "end": 1110
+                            "start": 1110,
+                            "end": 1113
                           },
-                          "start": 1105,
-                          "end": 1110
+                          "start": 1108,
+                          "end": 1113
                         },
-                        "start": 1060,
-                        "end": 1111
+                        "start": 1063,
+                        "end": 1114
                       }
                     ],
-                    "start": 1046,
-                    "end": 1121
+                    "start": 1049,
+                    "end": 1124
                   },
                   "declare": false,
-                  "start": 1021,
-                  "end": 1121
+                  "start": 1024,
+                  "end": 1124
                 },
                 {
                   "type": "TSInterfaceDeclaration",
@@ -1276,8 +1276,8 @@ __ESTREE_TEST__:PASS:
                     "name": "Handler",
                     "optional": false,
                     "typeAnnotation": null,
-                    "start": 1141,
-                    "end": 1148
+                    "start": 1144,
+                    "end": 1151
                   },
                   "typeParameters": null,
                   "extends": [
@@ -1289,23 +1289,23 @@ __ESTREE_TEST__:PASS:
                         "name": "RequestHandler",
                         "optional": false,
                         "typeAnnotation": null,
-                        "start": 1157,
-                        "end": 1171
+                        "start": 1160,
+                        "end": 1174
                       },
                       "typeArguments": null,
-                      "start": 1157,
-                      "end": 1171
+                      "start": 1160,
+                      "end": 1174
                     }
                   ],
                   "body": {
                     "type": "TSInterfaceBody",
                     "body": [],
-                    "start": 1172,
-                    "end": 1174
+                    "start": 1175,
+                    "end": 1177
                   },
                   "declare": false,
-                  "start": 1131,
-                  "end": 1174
+                  "start": 1134,
+                  "end": 1177
                 },
                 {
                   "type": "TSInterfaceDeclaration",
@@ -1315,8 +1315,8 @@ __ESTREE_TEST__:PASS:
                     "name": "RequestParamHandler",
                     "optional": false,
                     "typeAnnotation": null,
-                    "start": 1194,
-                    "end": 1213
+                    "start": 1197,
+                    "end": 1216
                   },
                   "typeParameters": null,
                   "extends": [],
@@ -1342,18 +1342,18 @@ __ESTREE_TEST__:PASS:
                                   "name": "Request",
                                   "optional": false,
                                   "typeAnnotation": null,
-                                  "start": 1234,
-                                  "end": 1241
+                                  "start": 1237,
+                                  "end": 1244
                                 },
                                 "typeArguments": null,
-                                "start": 1234,
-                                "end": 1241
+                                "start": 1237,
+                                "end": 1244
                               },
-                              "start": 1232,
-                              "end": 1241
+                              "start": 1235,
+                              "end": 1244
                             },
-                            "start": 1229,
-                            "end": 1241
+                            "start": 1232,
+                            "end": 1244
                           },
                           {
                             "type": "Identifier",
@@ -1370,18 +1370,18 @@ __ESTREE_TEST__:PASS:
                                   "name": "Response",
                                   "optional": false,
                                   "typeAnnotation": null,
-                                  "start": 1248,
-                                  "end": 1256
+                                  "start": 1251,
+                                  "end": 1259
                                 },
                                 "typeArguments": null,
-                                "start": 1248,
-                                "end": 1256
+                                "start": 1251,
+                                "end": 1259
                               },
-                              "start": 1246,
-                              "end": 1256
+                              "start": 1249,
+                              "end": 1259
                             },
-                            "start": 1243,
-                            "end": 1256
+                            "start": 1246,
+                            "end": 1259
                           },
                           {
                             "type": "Identifier",
@@ -1398,18 +1398,18 @@ __ESTREE_TEST__:PASS:
                                   "name": "Function",
                                   "optional": false,
                                   "typeAnnotation": null,
-                                  "start": 1264,
-                                  "end": 1272
+                                  "start": 1267,
+                                  "end": 1275
                                 },
                                 "typeArguments": null,
-                                "start": 1264,
-                                "end": 1272
+                                "start": 1267,
+                                "end": 1275
                               },
-                              "start": 1262,
-                              "end": 1272
+                              "start": 1265,
+                              "end": 1275
                             },
-                            "start": 1258,
-                            "end": 1272
+                            "start": 1261,
+                            "end": 1275
                           },
                           {
                             "type": "Identifier",
@@ -1420,36 +1420,36 @@ __ESTREE_TEST__:PASS:
                               "type": "TSTypeAnnotation",
                               "typeAnnotation": {
                                 "type": "TSAnyKeyword",
-                                "start": 1281,
-                                "end": 1284
+                                "start": 1284,
+                                "end": 1287
                               },
-                              "start": 1279,
-                              "end": 1284
+                              "start": 1282,
+                              "end": 1287
                             },
-                            "start": 1274,
-                            "end": 1284
+                            "start": 1277,
+                            "end": 1287
                           }
                         ],
                         "returnType": {
                           "type": "TSTypeAnnotation",
                           "typeAnnotation": {
                             "type": "TSAnyKeyword",
-                            "start": 1287,
-                            "end": 1290
+                            "start": 1290,
+                            "end": 1293
                           },
-                          "start": 1285,
-                          "end": 1290
+                          "start": 1288,
+                          "end": 1293
                         },
-                        "start": 1228,
-                        "end": 1291
+                        "start": 1231,
+                        "end": 1294
                       }
                     ],
-                    "start": 1214,
-                    "end": 1301
+                    "start": 1217,
+                    "end": 1304
                   },
                   "declare": false,
-                  "start": 1184,
-                  "end": 1301
+                  "start": 1187,
+                  "end": 1304
                 },
                 {
                   "type": "TSInterfaceDeclaration",
@@ -1459,8 +1459,8 @@ __ESTREE_TEST__:PASS:
                     "name": "Application",
                     "optional": false,
                     "typeAnnotation": null,
-                    "start": 1321,
-                    "end": 1332
+                    "start": 1324,
+                    "end": 1335
                   },
                   "typeParameters": null,
                   "extends": [
@@ -1472,8 +1472,8 @@ __ESTREE_TEST__:PASS:
                         "name": "IRouter",
                         "optional": false,
                         "typeAnnotation": null,
-                        "start": 1341,
-                        "end": 1348
+                        "start": 1344,
+                        "end": 1351
                       },
                       "typeArguments": {
                         "type": "TSTypeParameterInstantiation",
@@ -1486,19 +1486,19 @@ __ESTREE_TEST__:PASS:
                               "name": "Application",
                               "optional": false,
                               "typeAnnotation": null,
-                              "start": 1349,
-                              "end": 1360
+                              "start": 1352,
+                              "end": 1363
                             },
                             "typeArguments": null,
-                            "start": 1349,
-                            "end": 1360
+                            "start": 1352,
+                            "end": 1363
                           }
                         ],
-                        "start": 1348,
-                        "end": 1361
+                        "start": 1351,
+                        "end": 1364
                       },
-                      "start": 1341,
-                      "end": 1361
+                      "start": 1344,
+                      "end": 1364
                     },
                     {
                       "type": "TSInterfaceHeritage",
@@ -1510,8 +1510,8 @@ __ESTREE_TEST__:PASS:
                           "name": "Express",
                           "optional": false,
                           "typeAnnotation": null,
-                          "start": 1363,
-                          "end": 1370
+                          "start": 1366,
+                          "end": 1373
                         },
                         "property": {
                           "type": "Identifier",
@@ -1519,17 +1519,17 @@ __ESTREE_TEST__:PASS:
                           "name": "Application",
                           "optional": false,
                           "typeAnnotation": null,
-                          "start": 1371,
-                          "end": 1382
+                          "start": 1374,
+                          "end": 1385
                         },
                         "optional": false,
                         "computed": false,
-                        "start": 1363,
-                        "end": 1382
+                        "start": 1366,
+                        "end": 1385
                       },
                       "typeArguments": null,
-                      "start": 1363,
-                      "end": 1382
+                      "start": 1366,
+                      "end": 1385
                     }
                   ],
                   "body": {
@@ -1546,31 +1546,31 @@ __ESTREE_TEST__:PASS:
                           "name": "routes",
                           "optional": false,
                           "typeAnnotation": null,
-                          "start": 1397,
-                          "end": 1403
+                          "start": 1400,
+                          "end": 1406
                         },
                         "typeAnnotation": {
                           "type": "TSTypeAnnotation",
                           "typeAnnotation": {
                             "type": "TSAnyKeyword",
-                            "start": 1405,
-                            "end": 1408
+                            "start": 1408,
+                            "end": 1411
                           },
-                          "start": 1403,
-                          "end": 1408
+                          "start": 1406,
+                          "end": 1411
                         },
                         "accessibility": null,
                         "static": false,
-                        "start": 1397,
-                        "end": 1409
+                        "start": 1400,
+                        "end": 1412
                       }
                     ],
-                    "start": 1383,
-                    "end": 1419
+                    "start": 1386,
+                    "end": 1422
                   },
                   "declare": false,
-                  "start": 1311,
-                  "end": 1419
+                  "start": 1314,
+                  "end": 1422
                 },
                 {
                   "type": "TSInterfaceDeclaration",
@@ -1580,8 +1580,8 @@ __ESTREE_TEST__:PASS:
                     "name": "Express",
                     "optional": false,
                     "typeAnnotation": null,
-                    "start": 1439,
-                    "end": 1446
+                    "start": 1442,
+                    "end": 1449
                   },
                   "typeParameters": null,
                   "extends": [
@@ -1593,12 +1593,12 @@ __ESTREE_TEST__:PASS:
                         "name": "Application",
                         "optional": false,
                         "typeAnnotation": null,
-                        "start": 1455,
-                        "end": 1466
+                        "start": 1458,
+                        "end": 1469
                       },
                       "typeArguments": null,
-                      "start": 1455,
-                      "end": 1466
+                      "start": 1458,
+                      "end": 1469
                     }
                   ],
                   "body": {
@@ -1612,8 +1612,8 @@ __ESTREE_TEST__:PASS:
                           "name": "createApplication",
                           "optional": false,
                           "typeAnnotation": null,
-                          "start": 1481,
-                          "end": 1498
+                          "start": 1484,
+                          "end": 1501
                         },
                         "computed": false,
                         "optional": false,
@@ -1630,29 +1630,29 @@ __ESTREE_TEST__:PASS:
                               "name": "Application",
                               "optional": false,
                               "typeAnnotation": null,
-                              "start": 1502,
-                              "end": 1513
+                              "start": 1505,
+                              "end": 1516
                             },
                             "typeArguments": null,
-                            "start": 1502,
-                            "end": 1513
+                            "start": 1505,
+                            "end": 1516
                           },
-                          "start": 1500,
-                          "end": 1513
+                          "start": 1503,
+                          "end": 1516
                         },
                         "accessibility": null,
                         "readonly": false,
                         "static": false,
-                        "start": 1481,
-                        "end": 1514
+                        "start": 1484,
+                        "end": 1517
                       }
                     ],
-                    "start": 1467,
-                    "end": 1524
+                    "start": 1470,
+                    "end": 1527
                   },
                   "declare": false,
-                  "start": 1429,
-                  "end": 1524
+                  "start": 1432,
+                  "end": 1527
                 },
                 {
                   "type": "VariableDeclaration",
@@ -1669,34 +1669,34 @@ __ESTREE_TEST__:PASS:
                           "type": "TSTypeAnnotation",
                           "typeAnnotation": {
                             "type": "TSAnyKeyword",
-                            "start": 1546,
-                            "end": 1549
+                            "start": 1549,
+                            "end": 1552
                           },
-                          "start": 1544,
-                          "end": 1549
+                          "start": 1547,
+                          "end": 1552
                         },
-                        "start": 1538,
-                        "end": 1549
+                        "start": 1541,
+                        "end": 1552
                       },
                       "init": null,
                       "definite": false,
-                      "start": 1538,
-                      "end": 1549
+                      "start": 1541,
+                      "end": 1552
                     }
                   ],
                   "declare": false,
-                  "start": 1534,
-                  "end": 1550
+                  "start": 1537,
+                  "end": 1553
                 }
               ],
-              "start": 204,
-              "end": 1556
+              "start": 207,
+              "end": 1559
             },
             "kind": "namespace",
             "declare": false,
             "global": false,
-            "start": 192,
-            "end": 1556
+            "start": 195,
+            "end": 1559
           },
           {
             "type": "TSExportAssignment",
@@ -1706,27 +1706,27 @@ __ESTREE_TEST__:PASS:
               "name": "e",
               "optional": false,
               "typeAnnotation": null,
-              "start": 1571,
-              "end": 1572
+              "start": 1574,
+              "end": 1575
             },
-            "start": 1562,
-            "end": 1573
+            "start": 1565,
+            "end": 1576
           }
         ],
-        "start": 157,
-        "end": 1575
+        "start": 160,
+        "end": 1578
       },
       "kind": "module",
       "declare": true,
       "global": false,
-      "start": 132,
-      "end": 1575
+      "start": 135,
+      "end": 1578
     }
   ],
   "sourceType": "module",
   "hashbang": null,
   "start": 0,
-  "end": 1576
+  "end": 1579
 }
 ```
 __ESTREE_TEST__:PASS:

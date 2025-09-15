@@ -11,8 +11,8 @@ __ESTREE_TEST__:PASS:
         "name": "mAmbient",
         "optional": false,
         "typeAnnotation": null,
-        "start": 15,
-        "end": 23
+        "start": 18,
+        "end": 26
       },
       "body": {
         "type": "TSModuleBlock",
@@ -25,8 +25,8 @@ __ESTREE_TEST__:PASS:
               "name": "e",
               "optional": false,
               "typeAnnotation": null,
-              "start": 35,
-              "end": 36
+              "start": 38,
+              "end": 39
             },
             "body": {
               "type": "TSEnumBody",
@@ -39,13 +39,13 @@ __ESTREE_TEST__:PASS:
                     "name": "x",
                     "optional": false,
                     "typeAnnotation": null,
-                    "start": 47,
-                    "end": 48
+                    "start": 50,
+                    "end": 51
                   },
                   "initializer": null,
                   "computed": false,
-                  "start": 47,
-                  "end": 48
+                  "start": 50,
+                  "end": 51
                 },
                 {
                   "type": "TSEnumMember",
@@ -55,13 +55,13 @@ __ESTREE_TEST__:PASS:
                     "name": "y",
                     "optional": false,
                     "typeAnnotation": null,
-                    "start": 58,
-                    "end": 59
+                    "start": 61,
+                    "end": 62
                   },
                   "initializer": null,
                   "computed": false,
-                  "start": 58,
-                  "end": 59
+                  "start": 61,
+                  "end": 62
                 },
                 {
                   "type": "TSEnumMember",
@@ -71,37 +71,37 @@ __ESTREE_TEST__:PASS:
                     "name": "z",
                     "optional": false,
                     "typeAnnotation": null,
-                    "start": 69,
-                    "end": 70
+                    "start": 72,
+                    "end": 73
                   },
                   "initializer": null,
                   "computed": false,
-                  "start": 69,
-                  "end": 70
+                  "start": 72,
+                  "end": 73
                 }
               ],
-              "start": 37,
-              "end": 76
+              "start": 40,
+              "end": 79
             },
             "const": false,
             "declare": false,
-            "start": 30,
-            "end": 76
+            "start": 33,
+            "end": 79
           }
         ],
-        "start": 24,
-        "end": 78
+        "start": 27,
+        "end": 81
       },
-      "kind": "module",
+      "kind": "namespace",
       "declare": true,
       "global": false,
       "start": 0,
-      "end": 78
+      "end": 81
     }
   ],
   "sourceType": "script",
   "hashbang": null,
   "start": 0,
-  "end": 78
+  "end": 81
 }
 ```

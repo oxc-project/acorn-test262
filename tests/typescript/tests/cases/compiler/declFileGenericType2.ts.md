@@ -13,8 +13,8 @@ __ESTREE_TEST__:PASS:
           "name": "templa",
           "optional": false,
           "typeAnnotation": null,
-          "start": 15,
-          "end": 21
+          "start": 18,
+          "end": 24
         },
         "right": {
           "type": "Identifier",
@@ -22,11 +22,11 @@ __ESTREE_TEST__:PASS:
           "name": "mvc",
           "optional": false,
           "typeAnnotation": null,
-          "start": 22,
-          "end": 25
+          "start": 25,
+          "end": 28
         },
-        "start": 15,
-        "end": 25
+        "start": 18,
+        "end": 28
       },
       "body": {
         "type": "TSModuleBlock",
@@ -39,30 +39,30 @@ __ESTREE_TEST__:PASS:
               "name": "IModel",
               "optional": false,
               "typeAnnotation": null,
-              "start": 42,
-              "end": 48
+              "start": 45,
+              "end": 51
             },
             "typeParameters": null,
             "extends": [],
             "body": {
               "type": "TSInterfaceBody",
               "body": [],
-              "start": 49,
-              "end": 56
+              "start": 52,
+              "end": 59
             },
             "declare": false,
-            "start": 32,
-            "end": 56
+            "start": 35,
+            "end": 59
           }
         ],
-        "start": 26,
-        "end": 58
+        "start": 29,
+        "end": 61
       },
-      "kind": "module",
+      "kind": "namespace",
       "declare": true,
       "global": false,
       "start": 0,
-      "end": 58
+      "end": 61
     },
     {
       "type": "TSModuleDeclaration",
@@ -74,8 +74,8 @@ __ESTREE_TEST__:PASS:
           "name": "templa",
           "optional": false,
           "typeAnnotation": null,
-          "start": 74,
-          "end": 80
+          "start": 80,
+          "end": 86
         },
         "right": {
           "type": "Identifier",
@@ -83,11 +83,11 @@ __ESTREE_TEST__:PASS:
           "name": "mvc",
           "optional": false,
           "typeAnnotation": null,
-          "start": 81,
-          "end": 84
+          "start": 87,
+          "end": 90
         },
-        "start": 74,
-        "end": 84
+        "start": 80,
+        "end": 90
       },
       "body": {
         "type": "TSModuleBlock",
@@ -100,8 +100,8 @@ __ESTREE_TEST__:PASS:
               "name": "IController",
               "optional": false,
               "typeAnnotation": null,
-              "start": 101,
-              "end": 112
+              "start": 107,
+              "end": 118
             },
             "typeParameters": {
               "type": "TSTypeParameterDeclaration",
@@ -114,8 +114,8 @@ __ESTREE_TEST__:PASS:
                     "name": "ModelType",
                     "optional": false,
                     "typeAnnotation": null,
-                    "start": 113,
-                    "end": 122
+                    "start": 119,
+                    "end": 128
                   },
                   "constraint": {
                     "type": "TSTypeReference",
@@ -129,8 +129,8 @@ __ESTREE_TEST__:PASS:
                           "name": "templa",
                           "optional": false,
                           "typeAnnotation": null,
-                          "start": 131,
-                          "end": 137
+                          "start": 137,
+                          "end": 143
                         },
                         "right": {
                           "type": "Identifier",
@@ -138,11 +138,11 @@ __ESTREE_TEST__:PASS:
                           "name": "mvc",
                           "optional": false,
                           "typeAnnotation": null,
-                          "start": 138,
-                          "end": 141
+                          "start": 144,
+                          "end": 147
                         },
-                        "start": 131,
-                        "end": 141
+                        "start": 137,
+                        "end": 147
                       },
                       "right": {
                         "type": "Identifier",
@@ -150,47 +150,47 @@ __ESTREE_TEST__:PASS:
                         "name": "IModel",
                         "optional": false,
                         "typeAnnotation": null,
-                        "start": 142,
-                        "end": 148
+                        "start": 148,
+                        "end": 154
                       },
-                      "start": 131,
-                      "end": 148
+                      "start": 137,
+                      "end": 154
                     },
                     "typeArguments": null,
-                    "start": 131,
-                    "end": 148
+                    "start": 137,
+                    "end": 154
                   },
                   "default": null,
                   "in": false,
                   "out": false,
                   "const": false,
-                  "start": 113,
-                  "end": 148
+                  "start": 119,
+                  "end": 154
                 }
               ],
-              "start": 112,
-              "end": 149
+              "start": 118,
+              "end": 155
             },
             "extends": [],
             "body": {
               "type": "TSInterfaceBody",
               "body": [],
-              "start": 150,
-              "end": 157
+              "start": 156,
+              "end": 163
             },
             "declare": false,
-            "start": 91,
-            "end": 157
+            "start": 97,
+            "end": 163
           }
         ],
-        "start": 85,
-        "end": 159
+        "start": 91,
+        "end": 165
       },
-      "kind": "module",
+      "kind": "namespace",
       "declare": true,
       "global": false,
-      "start": 59,
-      "end": 159
+      "start": 62,
+      "end": 165
     },
     {
       "type": "TSModuleDeclaration",
@@ -202,8 +202,8 @@ __ESTREE_TEST__:PASS:
           "name": "templa",
           "optional": false,
           "typeAnnotation": null,
-          "start": 175,
-          "end": 181
+          "start": 184,
+          "end": 190
         },
         "right": {
           "type": "Identifier",
@@ -211,11 +211,11 @@ __ESTREE_TEST__:PASS:
           "name": "mvc",
           "optional": false,
           "typeAnnotation": null,
-          "start": 182,
-          "end": 185
+          "start": 191,
+          "end": 194
         },
-        "start": 175,
-        "end": 185
+        "start": 184,
+        "end": 194
       },
       "body": {
         "type": "TSModuleBlock",
@@ -229,8 +229,8 @@ __ESTREE_TEST__:PASS:
               "name": "AbstractController",
               "optional": false,
               "typeAnnotation": null,
-              "start": 198,
-              "end": 216
+              "start": 207,
+              "end": 225
             },
             "typeParameters": {
               "type": "TSTypeParameterDeclaration",
@@ -243,8 +243,8 @@ __ESTREE_TEST__:PASS:
                     "name": "ModelType",
                     "optional": false,
                     "typeAnnotation": null,
-                    "start": 217,
-                    "end": 226
+                    "start": 226,
+                    "end": 235
                   },
                   "constraint": {
                     "type": "TSTypeReference",
@@ -258,8 +258,8 @@ __ESTREE_TEST__:PASS:
                           "name": "templa",
                           "optional": false,
                           "typeAnnotation": null,
-                          "start": 235,
-                          "end": 241
+                          "start": 244,
+                          "end": 250
                         },
                         "right": {
                           "type": "Identifier",
@@ -267,11 +267,11 @@ __ESTREE_TEST__:PASS:
                           "name": "mvc",
                           "optional": false,
                           "typeAnnotation": null,
-                          "start": 242,
-                          "end": 245
+                          "start": 251,
+                          "end": 254
                         },
-                        "start": 235,
-                        "end": 245
+                        "start": 244,
+                        "end": 254
                       },
                       "right": {
                         "type": "Identifier",
@@ -279,26 +279,26 @@ __ESTREE_TEST__:PASS:
                         "name": "IModel",
                         "optional": false,
                         "typeAnnotation": null,
-                        "start": 246,
-                        "end": 252
+                        "start": 255,
+                        "end": 261
                       },
-                      "start": 235,
-                      "end": 252
+                      "start": 244,
+                      "end": 261
                     },
                     "typeArguments": null,
-                    "start": 235,
-                    "end": 252
+                    "start": 244,
+                    "end": 261
                   },
                   "default": null,
                   "in": false,
                   "out": false,
                   "const": false,
-                  "start": 217,
-                  "end": 252
+                  "start": 226,
+                  "end": 261
                 }
               ],
-              "start": 216,
-              "end": 253
+              "start": 225,
+              "end": 262
             },
             "superClass": null,
             "superTypeArguments": null,
@@ -313,8 +313,8 @@ __ESTREE_TEST__:PASS:
                     "name": "mvc",
                     "optional": false,
                     "typeAnnotation": null,
-                    "start": 265,
-                    "end": 268
+                    "start": 274,
+                    "end": 277
                   },
                   "property": {
                     "type": "Identifier",
@@ -322,13 +322,13 @@ __ESTREE_TEST__:PASS:
                     "name": "IController",
                     "optional": false,
                     "typeAnnotation": null,
-                    "start": 269,
-                    "end": 280
+                    "start": 278,
+                    "end": 289
                   },
                   "optional": false,
                   "computed": false,
-                  "start": 265,
-                  "end": 280
+                  "start": 274,
+                  "end": 289
                 },
                 "typeArguments": {
                   "type": "TSTypeParameterInstantiation",
@@ -341,41 +341,41 @@ __ESTREE_TEST__:PASS:
                         "name": "ModelType",
                         "optional": false,
                         "typeAnnotation": null,
-                        "start": 281,
-                        "end": 290
+                        "start": 290,
+                        "end": 299
                       },
                       "typeArguments": null,
-                      "start": 281,
-                      "end": 290
+                      "start": 290,
+                      "end": 299
                     }
                   ],
-                  "start": 280,
-                  "end": 291
+                  "start": 289,
+                  "end": 300
                 },
-                "start": 265,
-                "end": 291
+                "start": 274,
+                "end": 300
               }
             ],
             "body": {
               "type": "ClassBody",
               "body": [],
-              "start": 292,
-              "end": 299
+              "start": 301,
+              "end": 308
             },
             "abstract": false,
             "declare": false,
-            "start": 192,
-            "end": 299
+            "start": 201,
+            "end": 308
           }
         ],
-        "start": 186,
-        "end": 301
+        "start": 195,
+        "end": 310
       },
-      "kind": "module",
+      "kind": "namespace",
       "declare": true,
       "global": false,
-      "start": 160,
-      "end": 301
+      "start": 166,
+      "end": 310
     },
     {
       "type": "TSModuleDeclaration",
@@ -389,8 +389,8 @@ __ESTREE_TEST__:PASS:
             "name": "templa",
             "optional": false,
             "typeAnnotation": null,
-            "start": 317,
-            "end": 323
+            "start": 329,
+            "end": 335
           },
           "right": {
             "type": "Identifier",
@@ -398,11 +398,11 @@ __ESTREE_TEST__:PASS:
             "name": "mvc",
             "optional": false,
             "typeAnnotation": null,
-            "start": 324,
-            "end": 327
+            "start": 336,
+            "end": 339
           },
-          "start": 317,
-          "end": 327
+          "start": 329,
+          "end": 339
         },
         "right": {
           "type": "Identifier",
@@ -410,11 +410,11 @@ __ESTREE_TEST__:PASS:
           "name": "composite",
           "optional": false,
           "typeAnnotation": null,
-          "start": 328,
-          "end": 337
+          "start": 340,
+          "end": 349
         },
-        "start": 317,
-        "end": 337
+        "start": 329,
+        "end": 349
       },
       "body": {
         "type": "TSModuleBlock",
@@ -427,8 +427,8 @@ __ESTREE_TEST__:PASS:
               "name": "ICompositeControllerModel",
               "optional": false,
               "typeAnnotation": null,
-              "start": 354,
-              "end": 379
+              "start": 366,
+              "end": 391
             },
             "typeParameters": null,
             "extends": [
@@ -442,8 +442,8 @@ __ESTREE_TEST__:PASS:
                     "name": "mvc",
                     "optional": false,
                     "typeAnnotation": null,
-                    "start": 388,
-                    "end": 391
+                    "start": 400,
+                    "end": 403
                   },
                   "property": {
                     "type": "Identifier",
@@ -451,17 +451,17 @@ __ESTREE_TEST__:PASS:
                     "name": "IModel",
                     "optional": false,
                     "typeAnnotation": null,
-                    "start": 392,
-                    "end": 398
+                    "start": 404,
+                    "end": 410
                   },
                   "optional": false,
                   "computed": false,
-                  "start": 388,
-                  "end": 398
+                  "start": 400,
+                  "end": 410
                 },
                 "typeArguments": null,
-                "start": 388,
-                "end": 398
+                "start": 400,
+                "end": 410
               }
             ],
             "body": {
@@ -475,8 +475,8 @@ __ESTREE_TEST__:PASS:
                     "name": "getControllers",
                     "optional": false,
                     "typeAnnotation": null,
-                    "start": 409,
-                    "end": 423
+                    "start": 421,
+                    "end": 435
                   },
                   "computed": false,
                   "optional": false,
@@ -497,8 +497,8 @@ __ESTREE_TEST__:PASS:
                             "name": "mvc",
                             "optional": false,
                             "typeAnnotation": null,
-                            "start": 427,
-                            "end": 430
+                            "start": 439,
+                            "end": 442
                           },
                           "right": {
                             "type": "Identifier",
@@ -506,11 +506,11 @@ __ESTREE_TEST__:PASS:
                             "name": "IController",
                             "optional": false,
                             "typeAnnotation": null,
-                            "start": 431,
-                            "end": 442
+                            "start": 443,
+                            "end": 454
                           },
-                          "start": 427,
-                          "end": 442
+                          "start": 439,
+                          "end": 454
                         },
                         "typeArguments": {
                           "type": "TSTypeParameterInstantiation",
@@ -525,8 +525,8 @@ __ESTREE_TEST__:PASS:
                                   "name": "mvc",
                                   "optional": false,
                                   "typeAnnotation": null,
-                                  "start": 443,
-                                  "end": 446
+                                  "start": 455,
+                                  "end": 458
                                 },
                                 "right": {
                                   "type": "Identifier",
@@ -534,52 +534,52 @@ __ESTREE_TEST__:PASS:
                                   "name": "IModel",
                                   "optional": false,
                                   "typeAnnotation": null,
-                                  "start": 447,
-                                  "end": 453
+                                  "start": 459,
+                                  "end": 465
                                 },
-                                "start": 443,
-                                "end": 453
+                                "start": 455,
+                                "end": 465
                               },
                               "typeArguments": null,
-                              "start": 443,
-                              "end": 453
+                              "start": 455,
+                              "end": 465
                             }
                           ],
-                          "start": 442,
-                          "end": 454
+                          "start": 454,
+                          "end": 466
                         },
-                        "start": 427,
-                        "end": 454
+                        "start": 439,
+                        "end": 466
                       },
-                      "start": 427,
-                      "end": 456
+                      "start": 439,
+                      "end": 468
                     },
-                    "start": 425,
-                    "end": 456
+                    "start": 437,
+                    "end": 468
                   },
                   "accessibility": null,
                   "readonly": false,
                   "static": false,
-                  "start": 409,
-                  "end": 457
+                  "start": 421,
+                  "end": 469
                 }
               ],
-              "start": 399,
-              "end": 463
+              "start": 411,
+              "end": 475
             },
             "declare": false,
-            "start": 344,
-            "end": 463
+            "start": 356,
+            "end": 475
           }
         ],
-        "start": 338,
-        "end": 465
+        "start": 350,
+        "end": 477
       },
-      "kind": "module",
+      "kind": "namespace",
       "declare": true,
       "global": false,
-      "start": 302,
-      "end": 465
+      "start": 311,
+      "end": 477
     },
     {
       "type": "TSModuleDeclaration",
@@ -593,8 +593,8 @@ __ESTREE_TEST__:PASS:
             "name": "templa",
             "optional": false,
             "typeAnnotation": null,
-            "start": 473,
-            "end": 479
+            "start": 488,
+            "end": 494
           },
           "right": {
             "type": "Identifier",
@@ -602,11 +602,11 @@ __ESTREE_TEST__:PASS:
             "name": "dom",
             "optional": false,
             "typeAnnotation": null,
-            "start": 480,
-            "end": 483
+            "start": 495,
+            "end": 498
           },
-          "start": 473,
-          "end": 483
+          "start": 488,
+          "end": 498
         },
         "right": {
           "type": "Identifier",
@@ -614,11 +614,11 @@ __ESTREE_TEST__:PASS:
           "name": "mvc",
           "optional": false,
           "typeAnnotation": null,
-          "start": 484,
-          "end": 487
+          "start": 499,
+          "end": 502
         },
-        "start": 473,
-        "end": 487
+        "start": 488,
+        "end": 502
       },
       "body": {
         "type": "TSModuleBlock",
@@ -633,8 +633,8 @@ __ESTREE_TEST__:PASS:
                 "name": "IElementController",
                 "optional": false,
                 "typeAnnotation": null,
-                "start": 511,
-                "end": 529
+                "start": 526,
+                "end": 544
               },
               "typeParameters": {
                 "type": "TSTypeParameterDeclaration",
@@ -647,8 +647,8 @@ __ESTREE_TEST__:PASS:
                       "name": "ModelType",
                       "optional": false,
                       "typeAnnotation": null,
-                      "start": 530,
-                      "end": 539
+                      "start": 545,
+                      "end": 554
                     },
                     "constraint": {
                       "type": "TSTypeReference",
@@ -662,8 +662,8 @@ __ESTREE_TEST__:PASS:
                             "name": "templa",
                             "optional": false,
                             "typeAnnotation": null,
-                            "start": 548,
-                            "end": 554
+                            "start": 563,
+                            "end": 569
                           },
                           "right": {
                             "type": "Identifier",
@@ -671,11 +671,11 @@ __ESTREE_TEST__:PASS:
                             "name": "mvc",
                             "optional": false,
                             "typeAnnotation": null,
-                            "start": 555,
-                            "end": 558
+                            "start": 570,
+                            "end": 573
                           },
-                          "start": 548,
-                          "end": 558
+                          "start": 563,
+                          "end": 573
                         },
                         "right": {
                           "type": "Identifier",
@@ -683,26 +683,26 @@ __ESTREE_TEST__:PASS:
                           "name": "IModel",
                           "optional": false,
                           "typeAnnotation": null,
-                          "start": 559,
-                          "end": 565
+                          "start": 574,
+                          "end": 580
                         },
-                        "start": 548,
-                        "end": 565
+                        "start": 563,
+                        "end": 580
                       },
                       "typeArguments": null,
-                      "start": 548,
-                      "end": 565
+                      "start": 563,
+                      "end": 580
                     },
                     "default": null,
                     "in": false,
                     "out": false,
                     "const": false,
-                    "start": 530,
-                    "end": 565
+                    "start": 545,
+                    "end": 580
                   }
                 ],
-                "start": 529,
-                "end": 566
+                "start": 544,
+                "end": 581
               },
               "extends": [
                 {
@@ -717,8 +717,8 @@ __ESTREE_TEST__:PASS:
                         "name": "templa",
                         "optional": false,
                         "typeAnnotation": null,
-                        "start": 575,
-                        "end": 581
+                        "start": 590,
+                        "end": 596
                       },
                       "property": {
                         "type": "Identifier",
@@ -726,13 +726,13 @@ __ESTREE_TEST__:PASS:
                         "name": "mvc",
                         "optional": false,
                         "typeAnnotation": null,
-                        "start": 582,
-                        "end": 585
+                        "start": 597,
+                        "end": 600
                       },
                       "optional": false,
                       "computed": false,
-                      "start": 575,
-                      "end": 585
+                      "start": 590,
+                      "end": 600
                     },
                     "property": {
                       "type": "Identifier",
@@ -740,13 +740,13 @@ __ESTREE_TEST__:PASS:
                       "name": "IController",
                       "optional": false,
                       "typeAnnotation": null,
-                      "start": 586,
-                      "end": 597
+                      "start": 601,
+                      "end": 612
                     },
                     "optional": false,
                     "computed": false,
-                    "start": 575,
-                    "end": 597
+                    "start": 590,
+                    "end": 612
                   },
                   "typeArguments": {
                     "type": "TSTypeParameterInstantiation",
@@ -759,47 +759,47 @@ __ESTREE_TEST__:PASS:
                           "name": "ModelType",
                           "optional": false,
                           "typeAnnotation": null,
-                          "start": 598,
-                          "end": 607
+                          "start": 613,
+                          "end": 622
                         },
                         "typeArguments": null,
-                        "start": 598,
-                        "end": 607
+                        "start": 613,
+                        "end": 622
                       }
                     ],
-                    "start": 597,
-                    "end": 608
+                    "start": 612,
+                    "end": 623
                   },
-                  "start": 575,
-                  "end": 608
+                  "start": 590,
+                  "end": 623
                 }
               ],
               "body": {
                 "type": "TSInterfaceBody",
                 "body": [],
-                "start": 609,
-                "end": 616
+                "start": 624,
+                "end": 631
               },
               "declare": false,
-              "start": 501,
-              "end": 616
+              "start": 516,
+              "end": 631
             },
             "specifiers": [],
             "source": null,
             "exportKind": "type",
             "attributes": [],
-            "start": 494,
-            "end": 616
+            "start": 509,
+            "end": 631
           }
         ],
-        "start": 488,
-        "end": 618
+        "start": 503,
+        "end": 633
       },
-      "kind": "module",
+      "kind": "namespace",
       "declare": false,
       "global": false,
-      "start": 466,
-      "end": 618
+      "start": 478,
+      "end": 633
     },
     {
       "type": "TSModuleDeclaration",
@@ -813,8 +813,8 @@ __ESTREE_TEST__:PASS:
             "name": "templa",
             "optional": false,
             "typeAnnotation": null,
-            "start": 636,
-            "end": 642
+            "start": 654,
+            "end": 660
           },
           "right": {
             "type": "Identifier",
@@ -822,11 +822,11 @@ __ESTREE_TEST__:PASS:
             "name": "dom",
             "optional": false,
             "typeAnnotation": null,
-            "start": 643,
-            "end": 646
+            "start": 661,
+            "end": 664
           },
-          "start": 636,
-          "end": 646
+          "start": 654,
+          "end": 664
         },
         "right": {
           "type": "Identifier",
@@ -834,11 +834,11 @@ __ESTREE_TEST__:PASS:
           "name": "mvc",
           "optional": false,
           "typeAnnotation": null,
-          "start": 647,
-          "end": 650
+          "start": 665,
+          "end": 668
         },
-        "start": 636,
-        "end": 650
+        "start": 654,
+        "end": 668
       },
       "body": {
         "type": "TSModuleBlock",
@@ -854,8 +854,8 @@ __ESTREE_TEST__:PASS:
                 "name": "AbstractElementController",
                 "optional": false,
                 "typeAnnotation": null,
-                "start": 671,
-                "end": 696
+                "start": 689,
+                "end": 714
               },
               "typeParameters": {
                 "type": "TSTypeParameterDeclaration",
@@ -868,8 +868,8 @@ __ESTREE_TEST__:PASS:
                       "name": "ModelType",
                       "optional": false,
                       "typeAnnotation": null,
-                      "start": 697,
-                      "end": 706
+                      "start": 715,
+                      "end": 724
                     },
                     "constraint": {
                       "type": "TSTypeReference",
@@ -883,8 +883,8 @@ __ESTREE_TEST__:PASS:
                             "name": "templa",
                             "optional": false,
                             "typeAnnotation": null,
-                            "start": 715,
-                            "end": 721
+                            "start": 733,
+                            "end": 739
                           },
                           "right": {
                             "type": "Identifier",
@@ -892,11 +892,11 @@ __ESTREE_TEST__:PASS:
                             "name": "mvc",
                             "optional": false,
                             "typeAnnotation": null,
-                            "start": 722,
-                            "end": 725
+                            "start": 740,
+                            "end": 743
                           },
-                          "start": 715,
-                          "end": 725
+                          "start": 733,
+                          "end": 743
                         },
                         "right": {
                           "type": "Identifier",
@@ -904,26 +904,26 @@ __ESTREE_TEST__:PASS:
                           "name": "IModel",
                           "optional": false,
                           "typeAnnotation": null,
-                          "start": 726,
-                          "end": 732
+                          "start": 744,
+                          "end": 750
                         },
-                        "start": 715,
-                        "end": 732
+                        "start": 733,
+                        "end": 750
                       },
                       "typeArguments": null,
-                      "start": 715,
-                      "end": 732
+                      "start": 733,
+                      "end": 750
                     },
                     "default": null,
                     "in": false,
                     "out": false,
                     "const": false,
-                    "start": 697,
-                    "end": 732
+                    "start": 715,
+                    "end": 750
                   }
                 ],
-                "start": 696,
-                "end": 733
+                "start": 714,
+                "end": 751
               },
               "superClass": {
                 "type": "MemberExpression",
@@ -935,8 +935,8 @@ __ESTREE_TEST__:PASS:
                     "name": "templa",
                     "optional": false,
                     "typeAnnotation": null,
-                    "start": 742,
-                    "end": 748
+                    "start": 760,
+                    "end": 766
                   },
                   "property": {
                     "type": "Identifier",
@@ -944,13 +944,13 @@ __ESTREE_TEST__:PASS:
                     "name": "mvc",
                     "optional": false,
                     "typeAnnotation": null,
-                    "start": 749,
-                    "end": 752
+                    "start": 767,
+                    "end": 770
                   },
                   "optional": false,
                   "computed": false,
-                  "start": 742,
-                  "end": 752
+                  "start": 760,
+                  "end": 770
                 },
                 "property": {
                   "type": "Identifier",
@@ -958,13 +958,13 @@ __ESTREE_TEST__:PASS:
                   "name": "AbstractController",
                   "optional": false,
                   "typeAnnotation": null,
-                  "start": 753,
-                  "end": 771
+                  "start": 771,
+                  "end": 789
                 },
                 "optional": false,
                 "computed": false,
-                "start": 742,
-                "end": 771
+                "start": 760,
+                "end": 789
               },
               "superTypeArguments": {
                 "type": "TSTypeParameterInstantiation",
@@ -977,16 +977,16 @@ __ESTREE_TEST__:PASS:
                       "name": "ModelType",
                       "optional": false,
                       "typeAnnotation": null,
-                      "start": 772,
-                      "end": 781
+                      "start": 790,
+                      "end": 799
                     },
                     "typeArguments": null,
-                    "start": 772,
-                    "end": 781
+                    "start": 790,
+                    "end": 799
                   }
                 ],
-                "start": 771,
-                "end": 782
+                "start": 789,
+                "end": 800
               },
               "implements": [
                 {
@@ -997,8 +997,8 @@ __ESTREE_TEST__:PASS:
                     "name": "IElementController",
                     "optional": false,
                     "typeAnnotation": null,
-                    "start": 794,
-                    "end": 812
+                    "start": 812,
+                    "end": 830
                   },
                   "typeArguments": {
                     "type": "TSTypeParameterInstantiation",
@@ -1011,19 +1011,19 @@ __ESTREE_TEST__:PASS:
                           "name": "ModelType",
                           "optional": false,
                           "typeAnnotation": null,
-                          "start": 813,
-                          "end": 822
+                          "start": 831,
+                          "end": 840
                         },
                         "typeArguments": null,
-                        "start": 813,
-                        "end": 822
+                        "start": 831,
+                        "end": 840
                       }
                     ],
-                    "start": 812,
-                    "end": 823
+                    "start": 830,
+                    "end": 841
                   },
-                  "start": 794,
-                  "end": 823
+                  "start": 812,
+                  "end": 841
                 }
               ],
               "body": {
@@ -1038,8 +1038,8 @@ __ESTREE_TEST__:PASS:
                       "name": "constructor",
                       "optional": false,
                       "typeAnnotation": null,
-                      "start": 834,
-                      "end": 845
+                      "start": 852,
+                      "end": 863
                     },
                     "value": {
                       "type": "FunctionExpression",
@@ -1059,26 +1059,26 @@ __ESTREE_TEST__:PASS:
                               "type": "CallExpression",
                               "callee": {
                                 "type": "Super",
-                                "start": 862,
-                                "end": 867
+                                "start": 880,
+                                "end": 885
                               },
                               "typeArguments": null,
                               "arguments": [],
                               "optional": false,
-                              "start": 862,
-                              "end": 869
+                              "start": 880,
+                              "end": 887
                             },
                             "directive": null,
-                            "start": 862,
-                            "end": 870
+                            "start": 880,
+                            "end": 888
                           }
                         ],
-                        "start": 848,
-                        "end": 880
+                        "start": 866,
+                        "end": 898
                       },
                       "expression": false,
-                      "start": 845,
-                      "end": 880
+                      "start": 863,
+                      "end": 898
                     },
                     "kind": "constructor",
                     "computed": false,
@@ -1086,34 +1086,34 @@ __ESTREE_TEST__:PASS:
                     "override": false,
                     "optional": false,
                     "accessibility": null,
-                    "start": 834,
-                    "end": 880
+                    "start": 852,
+                    "end": 898
                   }
                 ],
-                "start": 824,
-                "end": 886
+                "start": 842,
+                "end": 904
               },
               "abstract": false,
               "declare": false,
-              "start": 665,
-              "end": 886
+              "start": 683,
+              "end": 904
             },
             "specifiers": [],
             "source": null,
             "exportKind": "value",
             "attributes": [],
-            "start": 658,
-            "end": 886
+            "start": 676,
+            "end": 904
           }
         ],
-        "start": 651,
-        "end": 888
+        "start": 669,
+        "end": 906
       },
-      "kind": "module",
+      "kind": "namespace",
       "declare": false,
       "global": false,
-      "start": 629,
-      "end": 888
+      "start": 644,
+      "end": 906
     },
     {
       "type": "TSModuleDeclaration",
@@ -1129,8 +1129,8 @@ __ESTREE_TEST__:PASS:
               "name": "templa",
               "optional": false,
               "typeAnnotation": null,
-              "start": 906,
-              "end": 912
+              "start": 927,
+              "end": 933
             },
             "right": {
               "type": "Identifier",
@@ -1138,11 +1138,11 @@ __ESTREE_TEST__:PASS:
               "name": "dom",
               "optional": false,
               "typeAnnotation": null,
-              "start": 913,
-              "end": 916
+              "start": 934,
+              "end": 937
             },
-            "start": 906,
-            "end": 916
+            "start": 927,
+            "end": 937
           },
           "right": {
             "type": "Identifier",
@@ -1150,11 +1150,11 @@ __ESTREE_TEST__:PASS:
             "name": "mvc",
             "optional": false,
             "typeAnnotation": null,
-            "start": 917,
-            "end": 920
+            "start": 938,
+            "end": 941
           },
-          "start": 906,
-          "end": 920
+          "start": 927,
+          "end": 941
         },
         "right": {
           "type": "Identifier",
@@ -1162,11 +1162,11 @@ __ESTREE_TEST__:PASS:
           "name": "composite",
           "optional": false,
           "typeAnnotation": null,
-          "start": 921,
-          "end": 930
+          "start": 942,
+          "end": 951
         },
-        "start": 906,
-        "end": 930
+        "start": 927,
+        "end": 951
       },
       "body": {
         "type": "TSModuleBlock",
@@ -1182,8 +1182,8 @@ __ESTREE_TEST__:PASS:
                 "name": "AbstractCompositeElementController",
                 "optional": false,
                 "typeAnnotation": null,
-                "start": 950,
-                "end": 984
+                "start": 971,
+                "end": 1005
               },
               "typeParameters": {
                 "type": "TSTypeParameterDeclaration",
@@ -1196,8 +1196,8 @@ __ESTREE_TEST__:PASS:
                       "name": "ModelType",
                       "optional": false,
                       "typeAnnotation": null,
-                      "start": 985,
-                      "end": 994
+                      "start": 1006,
+                      "end": 1015
                     },
                     "constraint": {
                       "type": "TSTypeReference",
@@ -1213,8 +1213,8 @@ __ESTREE_TEST__:PASS:
                               "name": "templa",
                               "optional": false,
                               "typeAnnotation": null,
-                              "start": 1003,
-                              "end": 1009
+                              "start": 1024,
+                              "end": 1030
                             },
                             "right": {
                               "type": "Identifier",
@@ -1222,11 +1222,11 @@ __ESTREE_TEST__:PASS:
                               "name": "mvc",
                               "optional": false,
                               "typeAnnotation": null,
-                              "start": 1010,
-                              "end": 1013
+                              "start": 1031,
+                              "end": 1034
                             },
-                            "start": 1003,
-                            "end": 1013
+                            "start": 1024,
+                            "end": 1034
                           },
                           "right": {
                             "type": "Identifier",
@@ -1234,11 +1234,11 @@ __ESTREE_TEST__:PASS:
                             "name": "composite",
                             "optional": false,
                             "typeAnnotation": null,
-                            "start": 1014,
-                            "end": 1023
+                            "start": 1035,
+                            "end": 1044
                           },
-                          "start": 1003,
-                          "end": 1023
+                          "start": 1024,
+                          "end": 1044
                         },
                         "right": {
                           "type": "Identifier",
@@ -1246,26 +1246,26 @@ __ESTREE_TEST__:PASS:
                           "name": "ICompositeControllerModel",
                           "optional": false,
                           "typeAnnotation": null,
-                          "start": 1024,
-                          "end": 1049
+                          "start": 1045,
+                          "end": 1070
                         },
-                        "start": 1003,
-                        "end": 1049
+                        "start": 1024,
+                        "end": 1070
                       },
                       "typeArguments": null,
-                      "start": 1003,
-                      "end": 1049
+                      "start": 1024,
+                      "end": 1070
                     },
                     "default": null,
                     "in": false,
                     "out": false,
                     "const": false,
-                    "start": 985,
-                    "end": 1049
+                    "start": 1006,
+                    "end": 1070
                   }
                 ],
-                "start": 984,
-                "end": 1050
+                "start": 1005,
+                "end": 1071
               },
               "superClass": {
                 "type": "MemberExpression",
@@ -1279,8 +1279,8 @@ __ESTREE_TEST__:PASS:
                       "name": "templa",
                       "optional": false,
                       "typeAnnotation": null,
-                      "start": 1059,
-                      "end": 1065
+                      "start": 1080,
+                      "end": 1086
                     },
                     "property": {
                       "type": "Identifier",
@@ -1288,13 +1288,13 @@ __ESTREE_TEST__:PASS:
                       "name": "dom",
                       "optional": false,
                       "typeAnnotation": null,
-                      "start": 1066,
-                      "end": 1069
+                      "start": 1087,
+                      "end": 1090
                     },
                     "optional": false,
                     "computed": false,
-                    "start": 1059,
-                    "end": 1069
+                    "start": 1080,
+                    "end": 1090
                   },
                   "property": {
                     "type": "Identifier",
@@ -1302,13 +1302,13 @@ __ESTREE_TEST__:PASS:
                     "name": "mvc",
                     "optional": false,
                     "typeAnnotation": null,
-                    "start": 1070,
-                    "end": 1073
+                    "start": 1091,
+                    "end": 1094
                   },
                   "optional": false,
                   "computed": false,
-                  "start": 1059,
-                  "end": 1073
+                  "start": 1080,
+                  "end": 1094
                 },
                 "property": {
                   "type": "Identifier",
@@ -1316,13 +1316,13 @@ __ESTREE_TEST__:PASS:
                   "name": "AbstractElementController",
                   "optional": false,
                   "typeAnnotation": null,
-                  "start": 1074,
-                  "end": 1099
+                  "start": 1095,
+                  "end": 1120
                 },
                 "optional": false,
                 "computed": false,
-                "start": 1059,
-                "end": 1099
+                "start": 1080,
+                "end": 1120
               },
               "superTypeArguments": {
                 "type": "TSTypeParameterInstantiation",
@@ -1335,16 +1335,16 @@ __ESTREE_TEST__:PASS:
                       "name": "ModelType",
                       "optional": false,
                       "typeAnnotation": null,
-                      "start": 1100,
-                      "end": 1109
+                      "start": 1121,
+                      "end": 1130
                     },
                     "typeArguments": null,
-                    "start": 1100,
-                    "end": 1109
+                    "start": 1121,
+                    "end": 1130
                   }
                 ],
-                "start": 1099,
-                "end": 1110
+                "start": 1120,
+                "end": 1131
               },
               "implements": [],
               "body": {
@@ -1359,8 +1359,8 @@ __ESTREE_TEST__:PASS:
                       "name": "_controllers",
                       "optional": false,
                       "typeAnnotation": null,
-                      "start": 1128,
-                      "end": 1140
+                      "start": 1149,
+                      "end": 1161
                     },
                     "typeAnnotation": {
                       "type": "TSTypeAnnotation",
@@ -1378,8 +1378,8 @@ __ESTREE_TEST__:PASS:
                                 "name": "templa",
                                 "optional": false,
                                 "typeAnnotation": null,
-                                "start": 1142,
-                                "end": 1148
+                                "start": 1163,
+                                "end": 1169
                               },
                               "right": {
                                 "type": "Identifier",
@@ -1387,11 +1387,11 @@ __ESTREE_TEST__:PASS:
                                 "name": "mvc",
                                 "optional": false,
                                 "typeAnnotation": null,
-                                "start": 1149,
-                                "end": 1152
+                                "start": 1170,
+                                "end": 1173
                               },
-                              "start": 1142,
-                              "end": 1152
+                              "start": 1163,
+                              "end": 1173
                             },
                             "right": {
                               "type": "Identifier",
@@ -1399,11 +1399,11 @@ __ESTREE_TEST__:PASS:
                               "name": "IController",
                               "optional": false,
                               "typeAnnotation": null,
-                              "start": 1153,
-                              "end": 1164
+                              "start": 1174,
+                              "end": 1185
                             },
-                            "start": 1142,
-                            "end": 1164
+                            "start": 1163,
+                            "end": 1185
                           },
                           "typeArguments": {
                             "type": "TSTypeParameterInstantiation",
@@ -1420,8 +1420,8 @@ __ESTREE_TEST__:PASS:
                                       "name": "templa",
                                       "optional": false,
                                       "typeAnnotation": null,
-                                      "start": 1165,
-                                      "end": 1171
+                                      "start": 1186,
+                                      "end": 1192
                                     },
                                     "right": {
                                       "type": "Identifier",
@@ -1429,11 +1429,11 @@ __ESTREE_TEST__:PASS:
                                       "name": "mvc",
                                       "optional": false,
                                       "typeAnnotation": null,
-                                      "start": 1172,
-                                      "end": 1175
+                                      "start": 1193,
+                                      "end": 1196
                                     },
-                                    "start": 1165,
-                                    "end": 1175
+                                    "start": 1186,
+                                    "end": 1196
                                   },
                                   "right": {
                                     "type": "Identifier",
@@ -1441,28 +1441,28 @@ __ESTREE_TEST__:PASS:
                                     "name": "IModel",
                                     "optional": false,
                                     "typeAnnotation": null,
-                                    "start": 1176,
-                                    "end": 1182
+                                    "start": 1197,
+                                    "end": 1203
                                   },
-                                  "start": 1165,
-                                  "end": 1182
+                                  "start": 1186,
+                                  "end": 1203
                                 },
                                 "typeArguments": null,
-                                "start": 1165,
-                                "end": 1182
+                                "start": 1186,
+                                "end": 1203
                               }
                             ],
-                            "start": 1164,
-                            "end": 1183
+                            "start": 1185,
+                            "end": 1204
                           },
-                          "start": 1142,
-                          "end": 1183
+                          "start": 1163,
+                          "end": 1204
                         },
-                        "start": 1142,
-                        "end": 1185
+                        "start": 1163,
+                        "end": 1206
                       },
-                      "start": 1140,
-                      "end": 1185
+                      "start": 1161,
+                      "end": 1206
                     },
                     "value": null,
                     "computed": false,
@@ -1473,8 +1473,8 @@ __ESTREE_TEST__:PASS:
                     "definite": false,
                     "readonly": false,
                     "accessibility": "public",
-                    "start": 1121,
-                    "end": 1186
+                    "start": 1142,
+                    "end": 1207
                   },
                   {
                     "type": "MethodDefinition",
@@ -1485,8 +1485,8 @@ __ESTREE_TEST__:PASS:
                       "name": "constructor",
                       "optional": false,
                       "typeAnnotation": null,
-                      "start": 1195,
-                      "end": 1206
+                      "start": 1216,
+                      "end": 1227
                     },
                     "value": {
                       "type": "FunctionExpression",
@@ -1506,18 +1506,18 @@ __ESTREE_TEST__:PASS:
                               "type": "CallExpression",
                               "callee": {
                                 "type": "Super",
-                                "start": 1223,
-                                "end": 1228
+                                "start": 1244,
+                                "end": 1249
                               },
                               "typeArguments": null,
                               "arguments": [],
                               "optional": false,
-                              "start": 1223,
-                              "end": 1230
+                              "start": 1244,
+                              "end": 1251
                             },
                             "directive": null,
-                            "start": 1223,
-                            "end": 1231
+                            "start": 1244,
+                            "end": 1252
                           },
                           {
                             "type": "ExpressionStatement",
@@ -1528,8 +1528,8 @@ __ESTREE_TEST__:PASS:
                                 "type": "MemberExpression",
                                 "object": {
                                   "type": "ThisExpression",
-                                  "start": 1244,
-                                  "end": 1248
+                                  "start": 1265,
+                                  "end": 1269
                                 },
                                 "property": {
                                   "type": "Identifier",
@@ -1537,34 +1537,34 @@ __ESTREE_TEST__:PASS:
                                   "name": "_controllers",
                                   "optional": false,
                                   "typeAnnotation": null,
-                                  "start": 1249,
-                                  "end": 1261
+                                  "start": 1270,
+                                  "end": 1282
                                 },
                                 "optional": false,
                                 "computed": false,
-                                "start": 1244,
-                                "end": 1261
+                                "start": 1265,
+                                "end": 1282
                               },
                               "right": {
                                 "type": "ArrayExpression",
                                 "elements": [],
-                                "start": 1264,
-                                "end": 1266
+                                "start": 1285,
+                                "end": 1287
                               },
-                              "start": 1244,
-                              "end": 1266
+                              "start": 1265,
+                              "end": 1287
                             },
                             "directive": null,
-                            "start": 1244,
-                            "end": 1267
+                            "start": 1265,
+                            "end": 1288
                           }
                         ],
-                        "start": 1209,
-                        "end": 1277
+                        "start": 1230,
+                        "end": 1298
                       },
                       "expression": false,
-                      "start": 1206,
-                      "end": 1277
+                      "start": 1227,
+                      "end": 1298
                     },
                     "kind": "constructor",
                     "computed": false,
@@ -1572,39 +1572,39 @@ __ESTREE_TEST__:PASS:
                     "override": false,
                     "optional": false,
                     "accessibility": null,
-                    "start": 1195,
-                    "end": 1277
+                    "start": 1216,
+                    "end": 1298
                   }
                 ],
-                "start": 1111,
-                "end": 1283
+                "start": 1132,
+                "end": 1304
               },
               "abstract": false,
               "declare": false,
-              "start": 944,
-              "end": 1283
+              "start": 965,
+              "end": 1304
             },
             "specifiers": [],
             "source": null,
             "exportKind": "value",
             "attributes": [],
-            "start": 937,
-            "end": 1283
+            "start": 958,
+            "end": 1304
           }
         ],
-        "start": 931,
-        "end": 1285
+        "start": 952,
+        "end": 1306
       },
-      "kind": "module",
+      "kind": "namespace",
       "declare": false,
       "global": false,
-      "start": 899,
-      "end": 1285
+      "start": 917,
+      "end": 1306
     }
   ],
   "sourceType": "script",
   "hashbang": null,
   "start": 0,
-  "end": 1285
+  "end": 1306
 }
 ```

@@ -11,8 +11,8 @@ __ESTREE_TEST__:PASS:
         "name": "myMod",
         "optional": false,
         "typeAnnotation": null,
-        "start": 7,
-        "end": 12
+        "start": 10,
+        "end": 15
       },
       "body": {
         "type": "TSModuleBlock",
@@ -29,18 +29,18 @@ __ESTREE_TEST__:PASS:
                   "name": "x",
                   "optional": false,
                   "typeAnnotation": null,
-                  "start": 23,
-                  "end": 24
+                  "start": 26,
+                  "end": 27
                 },
                 "init": null,
                 "definite": false,
-                "start": 23,
-                "end": 24
+                "start": 26,
+                "end": 27
               }
             ],
             "declare": false,
-            "start": 19,
-            "end": 25
+            "start": 22,
+            "end": 28
           },
           {
             "type": "ExpressionStatement",
@@ -51,8 +51,8 @@ __ESTREE_TEST__:PASS:
                 "type": "MemberExpression",
                 "object": {
                   "type": "ThisExpression",
-                  "start": 30,
-                  "end": 34
+                  "start": 33,
+                  "end": 37
                 },
                 "property": {
                   "type": "Identifier",
@@ -60,42 +60,42 @@ __ESTREE_TEST__:PASS:
                   "name": "x",
                   "optional": false,
                   "typeAnnotation": null,
-                  "start": 35,
-                  "end": 36
+                  "start": 38,
+                  "end": 39
                 },
                 "optional": false,
                 "computed": false,
-                "start": 30,
-                "end": 36
+                "start": 33,
+                "end": 39
               },
               "right": {
                 "type": "Literal",
                 "value": 5,
                 "raw": "5",
-                "start": 39,
-                "end": 40
+                "start": 42,
+                "end": 43
               },
-              "start": 30,
-              "end": 40
+              "start": 33,
+              "end": 43
             },
             "directive": null,
-            "start": 30,
-            "end": 41
+            "start": 33,
+            "end": 44
           }
         ],
-        "start": 13,
-        "end": 43
+        "start": 16,
+        "end": 46
       },
-      "kind": "module",
+      "kind": "namespace",
       "declare": false,
       "global": false,
       "start": 0,
-      "end": 43
+      "end": 46
     }
   ],
   "sourceType": "script",
   "hashbang": null,
   "start": 0,
-  "end": 43
+  "end": 46
 }
 ```

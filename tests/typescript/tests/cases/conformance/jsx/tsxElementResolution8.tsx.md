@@ -11,8 +11,8 @@ __ESTREE_TEST__:PASS:
         "name": "JSX",
         "optional": false,
         "typeAnnotation": null,
-        "start": 15,
-        "end": 18
+        "start": 18,
+        "end": 21
       },
       "body": {
         "type": "TSModuleBlock",
@@ -25,20 +25,20 @@ __ESTREE_TEST__:PASS:
               "name": "Element",
               "optional": false,
               "typeAnnotation": null,
-              "start": 32,
-              "end": 39
+              "start": 35,
+              "end": 42
             },
             "typeParameters": null,
             "extends": [],
             "body": {
               "type": "TSInterfaceBody",
               "body": [],
-              "start": 40,
-              "end": 43
+              "start": 43,
+              "end": 46
             },
             "declare": false,
-            "start": 22,
-            "end": 43
+            "start": 25,
+            "end": 46
           },
           {
             "type": "TSInterfaceDeclaration",
@@ -48,30 +48,30 @@ __ESTREE_TEST__:PASS:
               "name": "IntrinsicElements",
               "optional": false,
               "typeAnnotation": null,
-              "start": 55,
-              "end": 72
+              "start": 58,
+              "end": 75
             },
             "typeParameters": null,
             "extends": [],
             "body": {
               "type": "TSInterfaceBody",
               "body": [],
-              "start": 73,
-              "end": 76
+              "start": 76,
+              "end": 79
             },
             "declare": false,
-            "start": 45,
-            "end": 76
+            "start": 48,
+            "end": 79
           }
         ],
-        "start": 19,
-        "end": 78
+        "start": 22,
+        "end": 81
       },
-      "kind": "module",
+      "kind": "namespace",
       "declare": true,
       "global": false,
       "start": 0,
-      "end": 78
+      "end": 81
     },
     {
       "type": "VariableDeclaration",
@@ -85,24 +85,24 @@ __ESTREE_TEST__:PASS:
             "name": "Div",
             "optional": false,
             "typeAnnotation": null,
-            "start": 93,
-            "end": 96
+            "start": 96,
+            "end": 99
           },
           "init": {
             "type": "Literal",
             "value": 3,
             "raw": "3",
-            "start": 99,
-            "end": 100
+            "start": 102,
+            "end": 103
           },
           "definite": false,
-          "start": 93,
-          "end": 100
+          "start": 96,
+          "end": 103
         }
       ],
       "declare": false,
-      "start": 89,
-      "end": 101
+      "start": 92,
+      "end": 104
     },
     {
       "type": "ExpressionStatement",
@@ -113,23 +113,23 @@ __ESTREE_TEST__:PASS:
           "name": {
             "type": "JSXIdentifier",
             "name": "Div",
-            "start": 103,
-            "end": 106
+            "start": 106,
+            "end": 109
           },
           "typeArguments": null,
           "attributes": [],
           "selfClosing": true,
-          "start": 102,
-          "end": 109
+          "start": 105,
+          "end": 112
         },
         "children": [],
         "closingElement": null,
-        "start": 102,
-        "end": 109
+        "start": 105,
+        "end": 112
       },
       "directive": null,
-      "start": 102,
-      "end": 110
+      "start": 105,
+      "end": 113
     },
     {
       "type": "FunctionDeclaration",
@@ -139,8 +139,8 @@ __ESTREE_TEST__:PASS:
         "name": "Fact",
         "optional": false,
         "typeAnnotation": null,
-        "start": 127,
-        "end": 131
+        "start": 130,
+        "end": 134
       },
       "generator": false,
       "async": false,
@@ -151,11 +151,11 @@ __ESTREE_TEST__:PASS:
         "type": "TSTypeAnnotation",
         "typeAnnotation": {
           "type": "TSAnyKeyword",
-          "start": 135,
-          "end": 138
+          "start": 138,
+          "end": 141
         },
-        "start": 133,
-        "end": 138
+        "start": 136,
+        "end": 141
       },
       "body": {
         "type": "BlockStatement",
@@ -166,19 +166,19 @@ __ESTREE_TEST__:PASS:
               "type": "Literal",
               "value": null,
               "raw": "null",
-              "start": 148,
-              "end": 152
+              "start": 151,
+              "end": 155
             },
-            "start": 141,
-            "end": 153
+            "start": 144,
+            "end": 156
           }
         ],
-        "start": 139,
-        "end": 155
+        "start": 142,
+        "end": 158
       },
       "expression": false,
-      "start": 118,
-      "end": 155
+      "start": 121,
+      "end": 158
     },
     {
       "type": "ExpressionStatement",
@@ -189,23 +189,23 @@ __ESTREE_TEST__:PASS:
           "name": {
             "type": "JSXIdentifier",
             "name": "Fact",
-            "start": 157,
-            "end": 161
+            "start": 160,
+            "end": 164
           },
           "typeArguments": null,
           "attributes": [],
           "selfClosing": true,
-          "start": 156,
-          "end": 164
+          "start": 159,
+          "end": 167
         },
         "children": [],
         "closingElement": null,
-        "start": 156,
-        "end": 164
+        "start": 159,
+        "end": 167
       },
       "directive": null,
-      "start": 156,
-      "end": 164
+      "start": 159,
+      "end": 167
     },
     {
       "type": "FunctionDeclaration",
@@ -215,8 +215,8 @@ __ESTREE_TEST__:PASS:
         "name": "Fnum",
         "optional": false,
         "typeAnnotation": null,
-        "start": 184,
-        "end": 188
+        "start": 187,
+        "end": 191
       },
       "generator": false,
       "async": false,
@@ -227,11 +227,11 @@ __ESTREE_TEST__:PASS:
         "type": "TSTypeAnnotation",
         "typeAnnotation": {
           "type": "TSNumberKeyword",
-          "start": 192,
-          "end": 198
+          "start": 195,
+          "end": 201
         },
-        "start": 190,
-        "end": 198
+        "start": 193,
+        "end": 201
       },
       "body": {
         "type": "BlockStatement",
@@ -242,19 +242,19 @@ __ESTREE_TEST__:PASS:
               "type": "Literal",
               "value": 42,
               "raw": "42",
-              "start": 207,
-              "end": 209
+              "start": 210,
+              "end": 212
             },
-            "start": 200,
-            "end": 210
+            "start": 203,
+            "end": 213
           }
         ],
-        "start": 198,
-        "end": 212
+        "start": 201,
+        "end": 215
       },
       "expression": false,
-      "start": 175,
-      "end": 212
+      "start": 178,
+      "end": 215
     },
     {
       "type": "ExpressionStatement",
@@ -265,23 +265,23 @@ __ESTREE_TEST__:PASS:
           "name": {
             "type": "JSXIdentifier",
             "name": "Fnum",
-            "start": 214,
-            "end": 218
+            "start": 217,
+            "end": 221
           },
           "typeArguments": null,
           "attributes": [],
           "selfClosing": true,
-          "start": 213,
-          "end": 221
+          "start": 216,
+          "end": 224
         },
         "children": [],
         "closingElement": null,
-        "start": 213,
-        "end": 221
+        "start": 216,
+        "end": 224
       },
       "directive": null,
-      "start": 213,
-      "end": 221
+      "start": 216,
+      "end": 224
     },
     {
       "type": "TSInterfaceDeclaration",
@@ -291,8 +291,8 @@ __ESTREE_TEST__:PASS:
         "name": "Obj1",
         "optional": false,
         "typeAnnotation": null,
-        "start": 233,
-        "end": 237
+        "start": 236,
+        "end": 240
       },
       "typeParameters": null,
       "extends": [],
@@ -308,14 +308,14 @@ __ESTREE_TEST__:PASS:
               "typeAnnotation": {
                 "type": "TSTypeLiteral",
                 "members": [],
-                "start": 248,
-                "end": 250
+                "start": 251,
+                "end": 253
               },
-              "start": 246,
-              "end": 250
+              "start": 249,
+              "end": 253
             },
-            "start": 241,
-            "end": 251
+            "start": 244,
+            "end": 254
           },
           {
             "type": "TSCallSignatureDeclaration",
@@ -325,22 +325,22 @@ __ESTREE_TEST__:PASS:
               "type": "TSTypeAnnotation",
               "typeAnnotation": {
                 "type": "TSNumberKeyword",
-                "start": 257,
-                "end": 263
+                "start": 260,
+                "end": 266
               },
-              "start": 255,
-              "end": 263
+              "start": 258,
+              "end": 266
             },
-            "start": 253,
-            "end": 264
+            "start": 256,
+            "end": 267
           }
         ],
-        "start": 238,
-        "end": 266
+        "start": 241,
+        "end": 269
       },
       "declare": false,
-      "start": 223,
-      "end": 266
+      "start": 226,
+      "end": 269
     },
     {
       "type": "VariableDeclaration",
@@ -363,28 +363,28 @@ __ESTREE_TEST__:PASS:
                   "name": "Obj1",
                   "optional": false,
                   "typeAnnotation": null,
-                  "start": 277,
-                  "end": 281
+                  "start": 280,
+                  "end": 284
                 },
                 "typeArguments": null,
-                "start": 277,
-                "end": 281
+                "start": 280,
+                "end": 284
               },
-              "start": 275,
-              "end": 281
+              "start": 278,
+              "end": 284
             },
-            "start": 271,
-            "end": 281
+            "start": 274,
+            "end": 284
           },
           "init": null,
           "definite": false,
-          "start": 271,
-          "end": 281
+          "start": 274,
+          "end": 284
         }
       ],
       "declare": false,
-      "start": 267,
-      "end": 282
+      "start": 270,
+      "end": 285
     },
     {
       "type": "ExpressionStatement",
@@ -395,23 +395,23 @@ __ESTREE_TEST__:PASS:
           "name": {
             "type": "JSXIdentifier",
             "name": "Obj1",
-            "start": 284,
-            "end": 288
+            "start": 287,
+            "end": 291
           },
           "typeArguments": null,
           "attributes": [],
           "selfClosing": true,
-          "start": 283,
-          "end": 291
+          "start": 286,
+          "end": 294
         },
         "children": [],
         "closingElement": null,
-        "start": 283,
-        "end": 291
+        "start": 286,
+        "end": 294
       },
       "directive": null,
-      "start": 283,
-      "end": 292
+      "start": 286,
+      "end": 295
     },
     {
       "type": "TSInterfaceDeclaration",
@@ -421,8 +421,8 @@ __ESTREE_TEST__:PASS:
         "name": "Obj2",
         "optional": false,
         "typeAnnotation": null,
-        "start": 339,
-        "end": 343
+        "start": 342,
+        "end": 346
       },
       "typeParameters": null,
       "extends": [],
@@ -437,22 +437,22 @@ __ESTREE_TEST__:PASS:
               "type": "TSTypeAnnotation",
               "typeAnnotation": {
                 "type": "TSNumberKeyword",
-                "start": 351,
-                "end": 357
+                "start": 354,
+                "end": 360
               },
-              "start": 349,
-              "end": 357
+              "start": 352,
+              "end": 360
             },
-            "start": 347,
-            "end": 358
+            "start": 350,
+            "end": 361
           }
         ],
-        "start": 344,
-        "end": 360
+        "start": 347,
+        "end": 363
       },
       "declare": false,
-      "start": 329,
-      "end": 360
+      "start": 332,
+      "end": 363
     },
     {
       "type": "VariableDeclaration",
@@ -475,28 +475,28 @@ __ESTREE_TEST__:PASS:
                   "name": "Obj2",
                   "optional": false,
                   "typeAnnotation": null,
-                  "start": 371,
-                  "end": 375
+                  "start": 374,
+                  "end": 378
                 },
                 "typeArguments": null,
-                "start": 371,
-                "end": 375
+                "start": 374,
+                "end": 378
               },
-              "start": 369,
-              "end": 375
+              "start": 372,
+              "end": 378
             },
-            "start": 365,
-            "end": 375
+            "start": 368,
+            "end": 378
           },
           "init": null,
           "definite": false,
-          "start": 365,
-          "end": 375
+          "start": 368,
+          "end": 378
         }
       ],
       "declare": false,
-      "start": 361,
-      "end": 376
+      "start": 364,
+      "end": 379
     },
     {
       "type": "ExpressionStatement",
@@ -507,23 +507,23 @@ __ESTREE_TEST__:PASS:
           "name": {
             "type": "JSXIdentifier",
             "name": "Obj2",
-            "start": 378,
-            "end": 382
+            "start": 381,
+            "end": 385
           },
           "typeArguments": null,
           "attributes": [],
           "selfClosing": true,
-          "start": 377,
-          "end": 385
+          "start": 380,
+          "end": 388
         },
         "children": [],
         "closingElement": null,
-        "start": 377,
-        "end": 385
+        "start": 380,
+        "end": 388
       },
       "directive": null,
-      "start": 377,
-      "end": 386
+      "start": 380,
+      "end": 389
     },
     {
       "type": "TSInterfaceDeclaration",
@@ -533,20 +533,20 @@ __ESTREE_TEST__:PASS:
         "name": "Obj3",
         "optional": false,
         "typeAnnotation": null,
-        "start": 407,
-        "end": 411
+        "start": 410,
+        "end": 414
       },
       "typeParameters": null,
       "extends": [],
       "body": {
         "type": "TSInterfaceBody",
         "body": [],
-        "start": 412,
-        "end": 415
+        "start": 415,
+        "end": 418
       },
       "declare": false,
-      "start": 397,
-      "end": 415
+      "start": 400,
+      "end": 418
     },
     {
       "type": "VariableDeclaration",
@@ -569,28 +569,28 @@ __ESTREE_TEST__:PASS:
                   "name": "Obj3",
                   "optional": false,
                   "typeAnnotation": null,
-                  "start": 426,
-                  "end": 430
+                  "start": 429,
+                  "end": 433
                 },
                 "typeArguments": null,
-                "start": 426,
-                "end": 430
+                "start": 429,
+                "end": 433
               },
-              "start": 424,
-              "end": 430
+              "start": 427,
+              "end": 433
             },
-            "start": 420,
-            "end": 430
+            "start": 423,
+            "end": 433
           },
           "init": null,
           "definite": false,
-          "start": 420,
-          "end": 430
+          "start": 423,
+          "end": 433
         }
       ],
       "declare": false,
-      "start": 416,
-      "end": 431
+      "start": 419,
+      "end": 434
     },
     {
       "type": "ExpressionStatement",
@@ -601,28 +601,28 @@ __ESTREE_TEST__:PASS:
           "name": {
             "type": "JSXIdentifier",
             "name": "Obj3",
-            "start": 433,
-            "end": 437
+            "start": 436,
+            "end": 440
           },
           "typeArguments": null,
           "attributes": [],
           "selfClosing": true,
-          "start": 432,
-          "end": 440
+          "start": 435,
+          "end": 443
         },
         "children": [],
         "closingElement": null,
-        "start": 432,
-        "end": 440
+        "start": 435,
+        "end": 443
       },
       "directive": null,
-      "start": 432,
-      "end": 441
+      "start": 435,
+      "end": 444
     }
   ],
   "sourceType": "script",
   "hashbang": null,
   "start": 0,
-  "end": 450
+  "end": 453
 }
 ```

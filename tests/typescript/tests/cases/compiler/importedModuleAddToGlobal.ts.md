@@ -11,8 +11,8 @@ __ESTREE_TEST__:PASS:
         "name": "A",
         "optional": false,
         "typeAnnotation": null,
-        "start": 144,
-        "end": 145
+        "start": 147,
+        "end": 148
       },
       "body": {
         "type": "TSModuleBlock",
@@ -25,8 +25,8 @@ __ESTREE_TEST__:PASS:
               "name": "b",
               "optional": false,
               "typeAnnotation": null,
-              "start": 159,
-              "end": 160
+              "start": 162,
+              "end": 163
             },
             "moduleReference": {
               "type": "Identifier",
@@ -34,12 +34,12 @@ __ESTREE_TEST__:PASS:
               "name": "B",
               "optional": false,
               "typeAnnotation": null,
-              "start": 163,
-              "end": 164
+              "start": 166,
+              "end": 167
             },
             "importKind": "value",
-            "start": 152,
-            "end": 165
+            "start": 155,
+            "end": 168
           },
           {
             "type": "TSImportEqualsDeclaration",
@@ -49,8 +49,8 @@ __ESTREE_TEST__:PASS:
               "name": "c",
               "optional": false,
               "typeAnnotation": null,
-              "start": 177,
-              "end": 178
+              "start": 180,
+              "end": 181
             },
             "moduleReference": {
               "type": "Identifier",
@@ -58,22 +58,22 @@ __ESTREE_TEST__:PASS:
               "name": "C",
               "optional": false,
               "typeAnnotation": null,
-              "start": 181,
-              "end": 182
+              "start": 184,
+              "end": 185
             },
             "importKind": "value",
-            "start": 170,
-            "end": 183
+            "start": 173,
+            "end": 186
           }
         ],
-        "start": 146,
-        "end": 185
+        "start": 149,
+        "end": 188
       },
-      "kind": "module",
+      "kind": "namespace",
       "declare": false,
       "global": false,
       "start": 137,
-      "end": 185
+      "end": 188
     },
     {
       "type": "TSModuleDeclaration",
@@ -83,8 +83,8 @@ __ESTREE_TEST__:PASS:
         "name": "B",
         "optional": false,
         "typeAnnotation": null,
-        "start": 194,
-        "end": 195
+        "start": 200,
+        "end": 201
       },
       "body": {
         "type": "TSModuleBlock",
@@ -97,8 +97,8 @@ __ESTREE_TEST__:PASS:
               "name": "a",
               "optional": false,
               "typeAnnotation": null,
-              "start": 209,
-              "end": 210
+              "start": 215,
+              "end": 216
             },
             "moduleReference": {
               "type": "Identifier",
@@ -106,12 +106,12 @@ __ESTREE_TEST__:PASS:
               "name": "A",
               "optional": false,
               "typeAnnotation": null,
-              "start": 213,
-              "end": 214
+              "start": 219,
+              "end": 220
             },
             "importKind": "value",
-            "start": 202,
-            "end": 215
+            "start": 208,
+            "end": 221
           },
           {
             "type": "ExportNamedDeclaration",
@@ -124,8 +124,8 @@ __ESTREE_TEST__:PASS:
                 "name": "B",
                 "optional": false,
                 "typeAnnotation": null,
-                "start": 233,
-                "end": 234
+                "start": 239,
+                "end": 240
               },
               "typeParameters": null,
               "superClass": null,
@@ -134,30 +134,30 @@ __ESTREE_TEST__:PASS:
               "body": {
                 "type": "ClassBody",
                 "body": [],
-                "start": 235,
-                "end": 238
+                "start": 241,
+                "end": 244
               },
               "abstract": false,
               "declare": false,
-              "start": 227,
-              "end": 238
+              "start": 233,
+              "end": 244
             },
             "specifiers": [],
             "source": null,
             "exportKind": "value",
             "attributes": [],
-            "start": 220,
-            "end": 238
+            "start": 226,
+            "end": 244
           }
         ],
-        "start": 196,
-        "end": 240
+        "start": 202,
+        "end": 246
       },
-      "kind": "module",
+      "kind": "namespace",
       "declare": false,
       "global": false,
-      "start": 187,
-      "end": 240
+      "start": 190,
+      "end": 246
     },
     {
       "type": "TSModuleDeclaration",
@@ -167,8 +167,8 @@ __ESTREE_TEST__:PASS:
         "name": "C",
         "optional": false,
         "typeAnnotation": null,
-        "start": 249,
-        "end": 250
+        "start": 258,
+        "end": 259
       },
       "body": {
         "type": "TSModuleBlock",
@@ -181,8 +181,8 @@ __ESTREE_TEST__:PASS:
               "name": "a",
               "optional": false,
               "typeAnnotation": null,
-              "start": 264,
-              "end": 265
+              "start": 273,
+              "end": 274
             },
             "moduleReference": {
               "type": "Identifier",
@@ -190,12 +190,12 @@ __ESTREE_TEST__:PASS:
               "name": "A",
               "optional": false,
               "typeAnnotation": null,
-              "start": 268,
-              "end": 269
+              "start": 277,
+              "end": 278
             },
             "importKind": "value",
-            "start": 257,
-            "end": 270
+            "start": 266,
+            "end": 279
           },
           {
             "type": "FunctionDeclaration",
@@ -205,8 +205,8 @@ __ESTREE_TEST__:PASS:
               "name": "hello",
               "optional": false,
               "typeAnnotation": null,
-              "start": 284,
-              "end": 289
+              "start": 293,
+              "end": 298
             },
             "generator": false,
             "async": false,
@@ -225,8 +225,8 @@ __ESTREE_TEST__:PASS:
                     "name": "b",
                     "optional": false,
                     "typeAnnotation": null,
-                    "start": 293,
-                    "end": 294
+                    "start": 302,
+                    "end": 303
                   },
                   "right": {
                     "type": "Identifier",
@@ -234,18 +234,18 @@ __ESTREE_TEST__:PASS:
                     "name": "B",
                     "optional": false,
                     "typeAnnotation": null,
-                    "start": 295,
-                    "end": 296
+                    "start": 304,
+                    "end": 305
                   },
-                  "start": 293,
-                  "end": 296
+                  "start": 302,
+                  "end": 305
                 },
                 "typeArguments": null,
-                "start": 293,
-                "end": 296
+                "start": 302,
+                "end": 305
               },
-              "start": 291,
-              "end": 296
+              "start": 300,
+              "end": 305
             },
             "body": {
               "type": "BlockStatement",
@@ -256,34 +256,34 @@ __ESTREE_TEST__:PASS:
                     "type": "Literal",
                     "value": null,
                     "raw": "null",
-                    "start": 306,
-                    "end": 310
+                    "start": 315,
+                    "end": 319
                   },
-                  "start": 299,
-                  "end": 311
+                  "start": 308,
+                  "end": 320
                 }
               ],
-              "start": 297,
-              "end": 313
+              "start": 306,
+              "end": 322
             },
             "expression": false,
-            "start": 275,
-            "end": 313
+            "start": 284,
+            "end": 322
           }
         ],
-        "start": 251,
-        "end": 315
+        "start": 260,
+        "end": 324
       },
-      "kind": "module",
+      "kind": "namespace",
       "declare": false,
       "global": false,
-      "start": 242,
-      "end": 315
+      "start": 248,
+      "end": 324
     }
   ],
   "sourceType": "script",
   "hashbang": null,
   "start": 137,
-  "end": 315
+  "end": 324
 }
 ```

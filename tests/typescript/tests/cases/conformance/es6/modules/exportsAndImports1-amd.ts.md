@@ -261,8 +261,8 @@ __ESTREE_TEST__:PASS:
         "name": "M",
         "optional": false,
         "typeAnnotation": null,
-        "start": 115,
-        "end": 116
+        "start": 118,
+        "end": 119
       },
       "body": {
         "type": "TSModuleBlock",
@@ -281,35 +281,35 @@ __ESTREE_TEST__:PASS:
                     "name": "x",
                     "optional": false,
                     "typeAnnotation": null,
-                    "start": 134,
-                    "end": 135
+                    "start": 137,
+                    "end": 138
                   },
                   "init": null,
                   "definite": false,
-                  "start": 134,
-                  "end": 135
+                  "start": 137,
+                  "end": 138
                 }
               ],
               "declare": false,
-              "start": 130,
-              "end": 136
+              "start": 133,
+              "end": 139
             },
             "specifiers": [],
             "source": null,
             "exportKind": "value",
             "attributes": [],
-            "start": 123,
-            "end": 136
+            "start": 126,
+            "end": 139
           }
         ],
-        "start": 117,
-        "end": 138
+        "start": 120,
+        "end": 141
       },
-      "kind": "module",
+      "kind": "namespace",
       "declare": false,
       "global": false,
       "start": 108,
-      "end": 138
+      "end": 141
     },
     {
       "type": "TSModuleDeclaration",
@@ -319,8 +319,8 @@ __ESTREE_TEST__:PASS:
         "name": "N",
         "optional": false,
         "typeAnnotation": null,
-        "start": 146,
-        "end": 147
+        "start": 152,
+        "end": 153
       },
       "body": {
         "type": "TSModuleBlock",
@@ -335,37 +335,37 @@ __ESTREE_TEST__:PASS:
                 "name": "I",
                 "optional": false,
                 "typeAnnotation": null,
-                "start": 171,
-                "end": 172
+                "start": 177,
+                "end": 178
               },
               "typeParameters": null,
               "extends": [],
               "body": {
                 "type": "TSInterfaceBody",
                 "body": [],
-                "start": 173,
-                "end": 180
+                "start": 179,
+                "end": 186
               },
               "declare": false,
-              "start": 161,
-              "end": 180
+              "start": 167,
+              "end": 186
             },
             "specifiers": [],
             "source": null,
             "exportKind": "type",
             "attributes": [],
-            "start": 154,
-            "end": 180
+            "start": 160,
+            "end": 186
           }
         ],
-        "start": 148,
-        "end": 182
+        "start": 154,
+        "end": 188
       },
-      "kind": "module",
+      "kind": "namespace",
       "declare": false,
       "global": false,
-      "start": 139,
-      "end": 182
+      "start": 142,
+      "end": 188
     },
     {
       "type": "TSTypeAliasDeclaration",
@@ -375,18 +375,18 @@ __ESTREE_TEST__:PASS:
         "name": "T",
         "optional": false,
         "typeAnnotation": null,
-        "start": 188,
-        "end": 189
+        "start": 194,
+        "end": 195
       },
       "typeParameters": null,
       "typeAnnotation": {
         "type": "TSNumberKeyword",
-        "start": 192,
-        "end": 198
+        "start": 198,
+        "end": 204
       },
       "declare": false,
-      "start": 183,
-      "end": 199
+      "start": 189,
+      "end": 205
     },
     {
       "type": "TSImportEqualsDeclaration",
@@ -396,8 +396,8 @@ __ESTREE_TEST__:PASS:
         "name": "a",
         "optional": false,
         "typeAnnotation": null,
-        "start": 207,
-        "end": 208
+        "start": 213,
+        "end": 214
       },
       "moduleReference": {
         "type": "TSQualifiedName",
@@ -407,8 +407,8 @@ __ESTREE_TEST__:PASS:
           "name": "M",
           "optional": false,
           "typeAnnotation": null,
-          "start": 211,
-          "end": 212
+          "start": 217,
+          "end": 218
         },
         "right": {
           "type": "Identifier",
@@ -416,15 +416,15 @@ __ESTREE_TEST__:PASS:
           "name": "x",
           "optional": false,
           "typeAnnotation": null,
-          "start": 213,
-          "end": 214
+          "start": 219,
+          "end": 220
         },
-        "start": 211,
-        "end": 214
+        "start": 217,
+        "end": 220
       },
       "importKind": "value",
-      "start": 200,
-      "end": 215
+      "start": 206,
+      "end": 221
     },
     {
       "type": "ExportNamedDeclaration",
@@ -438,61 +438,13 @@ __ESTREE_TEST__:PASS:
             "name": "v",
             "optional": false,
             "typeAnnotation": null,
-            "start": 226,
-            "end": 227
-          },
-          "exported": {
-            "type": "Identifier",
-            "decorators": [],
-            "name": "v",
-            "optional": false,
-            "typeAnnotation": null,
-            "start": 226,
-            "end": 227
-          },
-          "exportKind": "value",
-          "start": 226,
-          "end": 227
-        },
-        {
-          "type": "ExportSpecifier",
-          "local": {
-            "type": "Identifier",
-            "decorators": [],
-            "name": "f",
-            "optional": false,
-            "typeAnnotation": null,
-            "start": 229,
-            "end": 230
-          },
-          "exported": {
-            "type": "Identifier",
-            "decorators": [],
-            "name": "f",
-            "optional": false,
-            "typeAnnotation": null,
-            "start": 229,
-            "end": 230
-          },
-          "exportKind": "value",
-          "start": 229,
-          "end": 230
-        },
-        {
-          "type": "ExportSpecifier",
-          "local": {
-            "type": "Identifier",
-            "decorators": [],
-            "name": "C",
-            "optional": false,
-            "typeAnnotation": null,
             "start": 232,
             "end": 233
           },
           "exported": {
             "type": "Identifier",
             "decorators": [],
-            "name": "C",
+            "name": "v",
             "optional": false,
             "typeAnnotation": null,
             "start": 232,
@@ -507,7 +459,7 @@ __ESTREE_TEST__:PASS:
           "local": {
             "type": "Identifier",
             "decorators": [],
-            "name": "I",
+            "name": "f",
             "optional": false,
             "typeAnnotation": null,
             "start": 235,
@@ -516,7 +468,7 @@ __ESTREE_TEST__:PASS:
           "exported": {
             "type": "Identifier",
             "decorators": [],
-            "name": "I",
+            "name": "f",
             "optional": false,
             "typeAnnotation": null,
             "start": 235,
@@ -531,7 +483,7 @@ __ESTREE_TEST__:PASS:
           "local": {
             "type": "Identifier",
             "decorators": [],
-            "name": "E",
+            "name": "C",
             "optional": false,
             "typeAnnotation": null,
             "start": 238,
@@ -540,7 +492,7 @@ __ESTREE_TEST__:PASS:
           "exported": {
             "type": "Identifier",
             "decorators": [],
-            "name": "E",
+            "name": "C",
             "optional": false,
             "typeAnnotation": null,
             "start": 238,
@@ -555,7 +507,7 @@ __ESTREE_TEST__:PASS:
           "local": {
             "type": "Identifier",
             "decorators": [],
-            "name": "D",
+            "name": "I",
             "optional": false,
             "typeAnnotation": null,
             "start": 241,
@@ -564,7 +516,7 @@ __ESTREE_TEST__:PASS:
           "exported": {
             "type": "Identifier",
             "decorators": [],
-            "name": "D",
+            "name": "I",
             "optional": false,
             "typeAnnotation": null,
             "start": 241,
@@ -579,7 +531,7 @@ __ESTREE_TEST__:PASS:
           "local": {
             "type": "Identifier",
             "decorators": [],
-            "name": "M",
+            "name": "E",
             "optional": false,
             "typeAnnotation": null,
             "start": 244,
@@ -588,7 +540,7 @@ __ESTREE_TEST__:PASS:
           "exported": {
             "type": "Identifier",
             "decorators": [],
-            "name": "M",
+            "name": "E",
             "optional": false,
             "typeAnnotation": null,
             "start": 244,
@@ -603,7 +555,7 @@ __ESTREE_TEST__:PASS:
           "local": {
             "type": "Identifier",
             "decorators": [],
-            "name": "N",
+            "name": "D",
             "optional": false,
             "typeAnnotation": null,
             "start": 247,
@@ -612,7 +564,7 @@ __ESTREE_TEST__:PASS:
           "exported": {
             "type": "Identifier",
             "decorators": [],
-            "name": "N",
+            "name": "D",
             "optional": false,
             "typeAnnotation": null,
             "start": 247,
@@ -627,7 +579,7 @@ __ESTREE_TEST__:PASS:
           "local": {
             "type": "Identifier",
             "decorators": [],
-            "name": "T",
+            "name": "M",
             "optional": false,
             "typeAnnotation": null,
             "start": 250,
@@ -636,7 +588,7 @@ __ESTREE_TEST__:PASS:
           "exported": {
             "type": "Identifier",
             "decorators": [],
-            "name": "T",
+            "name": "M",
             "optional": false,
             "typeAnnotation": null,
             "start": 250,
@@ -651,7 +603,7 @@ __ESTREE_TEST__:PASS:
           "local": {
             "type": "Identifier",
             "decorators": [],
-            "name": "a",
+            "name": "N",
             "optional": false,
             "typeAnnotation": null,
             "start": 253,
@@ -660,7 +612,7 @@ __ESTREE_TEST__:PASS:
           "exported": {
             "type": "Identifier",
             "decorators": [],
-            "name": "a",
+            "name": "N",
             "optional": false,
             "typeAnnotation": null,
             "start": 253,
@@ -669,19 +621,67 @@ __ESTREE_TEST__:PASS:
           "exportKind": "value",
           "start": 253,
           "end": 254
+        },
+        {
+          "type": "ExportSpecifier",
+          "local": {
+            "type": "Identifier",
+            "decorators": [],
+            "name": "T",
+            "optional": false,
+            "typeAnnotation": null,
+            "start": 256,
+            "end": 257
+          },
+          "exported": {
+            "type": "Identifier",
+            "decorators": [],
+            "name": "T",
+            "optional": false,
+            "typeAnnotation": null,
+            "start": 256,
+            "end": 257
+          },
+          "exportKind": "value",
+          "start": 256,
+          "end": 257
+        },
+        {
+          "type": "ExportSpecifier",
+          "local": {
+            "type": "Identifier",
+            "decorators": [],
+            "name": "a",
+            "optional": false,
+            "typeAnnotation": null,
+            "start": 259,
+            "end": 260
+          },
+          "exported": {
+            "type": "Identifier",
+            "decorators": [],
+            "name": "a",
+            "optional": false,
+            "typeAnnotation": null,
+            "start": 259,
+            "end": 260
+          },
+          "exportKind": "value",
+          "start": 259,
+          "end": 260
         }
       ],
       "source": null,
       "exportKind": "value",
       "attributes": [],
-      "start": 217,
-      "end": 257
+      "start": 223,
+      "end": 263
     }
   ],
   "sourceType": "module",
   "hashbang": null,
   "start": 0,
-  "end": 258
+  "end": 264
 }
 ```
 __ESTREE_TEST__:PASS:

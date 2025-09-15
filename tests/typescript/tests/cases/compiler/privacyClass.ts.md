@@ -13,8 +13,8 @@ __ESTREE_TEST__:PASS:
           "name": "m1",
           "optional": false,
           "typeAnnotation": null,
-          "start": 14,
-          "end": 16
+          "start": 17,
+          "end": 19
         },
         "body": {
           "type": "TSModuleBlock",
@@ -29,27 +29,27 @@ __ESTREE_TEST__:PASS:
                   "name": "m1_i_public",
                   "optional": false,
                   "typeAnnotation": null,
-                  "start": 40,
-                  "end": 51
+                  "start": 43,
+                  "end": 54
                 },
                 "typeParameters": null,
                 "extends": [],
                 "body": {
                   "type": "TSInterfaceBody",
                   "body": [],
-                  "start": 52,
-                  "end": 59
+                  "start": 55,
+                  "end": 62
                 },
                 "declare": false,
-                "start": 30,
-                "end": 59
+                "start": 33,
+                "end": 62
               },
               "specifiers": [],
               "source": null,
               "exportKind": "type",
               "attributes": [],
-              "start": 23,
-              "end": 59
+              "start": 26,
+              "end": 62
             },
             {
               "type": "TSInterfaceDeclaration",
@@ -59,20 +59,20 @@ __ESTREE_TEST__:PASS:
                 "name": "m1_i_private",
                 "optional": false,
                 "typeAnnotation": null,
-                "start": 75,
-                "end": 87
+                "start": 78,
+                "end": 90
               },
               "typeParameters": null,
               "extends": [],
               "body": {
                 "type": "TSInterfaceBody",
                 "body": [],
-                "start": 88,
-                "end": 95
+                "start": 91,
+                "end": 98
               },
               "declare": false,
-              "start": 65,
-              "end": 95
+              "start": 68,
+              "end": 98
             },
             {
               "type": "ExportNamedDeclaration",
@@ -85,8 +85,8 @@ __ESTREE_TEST__:PASS:
                   "name": "m1_c_public",
                   "optional": false,
                   "typeAnnotation": null,
-                  "start": 114,
-                  "end": 125
+                  "start": 117,
+                  "end": 128
                 },
                 "typeParameters": null,
                 "superClass": null,
@@ -104,8 +104,8 @@ __ESTREE_TEST__:PASS:
                         "name": "f1",
                         "optional": false,
                         "typeAnnotation": null,
-                        "start": 144,
-                        "end": 146
+                        "start": 147,
+                        "end": 149
                       },
                       "value": {
                         "type": "FunctionExpression",
@@ -119,12 +119,12 @@ __ESTREE_TEST__:PASS:
                         "body": {
                           "type": "BlockStatement",
                           "body": [],
-                          "start": 149,
-                          "end": 160
+                          "start": 152,
+                          "end": 163
                         },
                         "expression": false,
-                        "start": 146,
-                        "end": 160
+                        "start": 149,
+                        "end": 163
                       },
                       "kind": "method",
                       "computed": false,
@@ -132,24 +132,24 @@ __ESTREE_TEST__:PASS:
                       "override": false,
                       "optional": false,
                       "accessibility": "private",
-                      "start": 136,
-                      "end": 160
+                      "start": 139,
+                      "end": 163
                     }
                   ],
-                  "start": 126,
-                  "end": 166
+                  "start": 129,
+                  "end": 169
                 },
                 "abstract": false,
                 "declare": false,
-                "start": 108,
-                "end": 166
+                "start": 111,
+                "end": 169
               },
               "specifiers": [],
               "source": null,
               "exportKind": "value",
               "attributes": [],
-              "start": 101,
-              "end": 166
+              "start": 104,
+              "end": 169
             },
             {
               "type": "ClassDeclaration",
@@ -160,8 +160,8 @@ __ESTREE_TEST__:PASS:
                 "name": "m1_c_private",
                 "optional": false,
                 "typeAnnotation": null,
-                "start": 178,
-                "end": 190
+                "start": 181,
+                "end": 193
               },
               "typeParameters": null,
               "superClass": null,
@@ -170,13 +170,13 @@ __ESTREE_TEST__:PASS:
               "body": {
                 "type": "ClassBody",
                 "body": [],
-                "start": 191,
-                "end": 198
+                "start": 194,
+                "end": 201
               },
               "abstract": false,
               "declare": false,
-              "start": 172,
-              "end": 198
+              "start": 175,
+              "end": 201
             },
             {
               "type": "ClassDeclaration",
@@ -187,8 +187,8 @@ __ESTREE_TEST__:PASS:
                 "name": "m1_C1_private",
                 "optional": false,
                 "typeAnnotation": null,
-                "start": 210,
-                "end": 223
+                "start": 213,
+                "end": 226
               },
               "typeParameters": null,
               "superClass": {
@@ -197,21 +197,21 @@ __ESTREE_TEST__:PASS:
                 "name": "m1_c_public",
                 "optional": false,
                 "typeAnnotation": null,
-                "start": 232,
-                "end": 243
+                "start": 235,
+                "end": 246
               },
               "superTypeArguments": null,
               "implements": [],
               "body": {
                 "type": "ClassBody",
                 "body": [],
-                "start": 244,
-                "end": 251
+                "start": 247,
+                "end": 254
               },
               "abstract": false,
               "declare": false,
-              "start": 204,
-              "end": 251
+              "start": 207,
+              "end": 254
             },
             {
               "type": "ClassDeclaration",
@@ -222,8 +222,8 @@ __ESTREE_TEST__:PASS:
                 "name": "m1_C2_private",
                 "optional": false,
                 "typeAnnotation": null,
-                "start": 262,
-                "end": 275
+                "start": 265,
+                "end": 278
               },
               "typeParameters": null,
               "superClass": {
@@ -232,21 +232,21 @@ __ESTREE_TEST__:PASS:
                 "name": "m1_c_private",
                 "optional": false,
                 "typeAnnotation": null,
-                "start": 284,
-                "end": 296
+                "start": 287,
+                "end": 299
               },
               "superTypeArguments": null,
               "implements": [],
               "body": {
                 "type": "ClassBody",
                 "body": [],
-                "start": 297,
-                "end": 304
+                "start": 300,
+                "end": 307
               },
               "abstract": false,
               "declare": false,
-              "start": 256,
-              "end": 304
+              "start": 259,
+              "end": 307
             },
             {
               "type": "ExportNamedDeclaration",
@@ -259,8 +259,8 @@ __ESTREE_TEST__:PASS:
                   "name": "m1_C3_public",
                   "optional": false,
                   "typeAnnotation": null,
-                  "start": 322,
-                  "end": 334
+                  "start": 325,
+                  "end": 337
                 },
                 "typeParameters": null,
                 "superClass": {
@@ -269,28 +269,28 @@ __ESTREE_TEST__:PASS:
                   "name": "m1_c_public",
                   "optional": false,
                   "typeAnnotation": null,
-                  "start": 343,
-                  "end": 354
+                  "start": 346,
+                  "end": 357
                 },
                 "superTypeArguments": null,
                 "implements": [],
                 "body": {
                   "type": "ClassBody",
                   "body": [],
-                  "start": 355,
-                  "end": 362
+                  "start": 358,
+                  "end": 365
                 },
                 "abstract": false,
                 "declare": false,
-                "start": 316,
-                "end": 362
+                "start": 319,
+                "end": 365
               },
               "specifiers": [],
               "source": null,
               "exportKind": "value",
               "attributes": [],
-              "start": 309,
-              "end": 362
+              "start": 312,
+              "end": 365
             },
             {
               "type": "ExportNamedDeclaration",
@@ -303,8 +303,8 @@ __ESTREE_TEST__:PASS:
                   "name": "m1_C4_public",
                   "optional": false,
                   "typeAnnotation": null,
-                  "start": 380,
-                  "end": 392
+                  "start": 383,
+                  "end": 395
                 },
                 "typeParameters": null,
                 "superClass": {
@@ -313,28 +313,28 @@ __ESTREE_TEST__:PASS:
                   "name": "m1_c_private",
                   "optional": false,
                   "typeAnnotation": null,
-                  "start": 401,
-                  "end": 413
+                  "start": 404,
+                  "end": 416
                 },
                 "superTypeArguments": null,
                 "implements": [],
                 "body": {
                   "type": "ClassBody",
                   "body": [],
-                  "start": 414,
-                  "end": 421
+                  "start": 417,
+                  "end": 424
                 },
                 "abstract": false,
                 "declare": false,
-                "start": 374,
-                "end": 421
+                "start": 377,
+                "end": 424
               },
               "specifiers": [],
               "source": null,
               "exportKind": "value",
               "attributes": [],
-              "start": 367,
-              "end": 421
+              "start": 370,
+              "end": 424
             },
             {
               "type": "ClassDeclaration",
@@ -345,8 +345,8 @@ __ESTREE_TEST__:PASS:
                 "name": "m1_C5_private",
                 "optional": false,
                 "typeAnnotation": null,
-                "start": 433,
-                "end": 446
+                "start": 436,
+                "end": 449
               },
               "typeParameters": null,
               "superClass": null,
@@ -360,24 +360,24 @@ __ESTREE_TEST__:PASS:
                     "name": "m1_i_public",
                     "optional": false,
                     "typeAnnotation": null,
-                    "start": 458,
-                    "end": 469
+                    "start": 461,
+                    "end": 472
                   },
                   "typeArguments": null,
-                  "start": 458,
-                  "end": 469
+                  "start": 461,
+                  "end": 472
                 }
               ],
               "body": {
                 "type": "ClassBody",
                 "body": [],
-                "start": 470,
-                "end": 477
+                "start": 473,
+                "end": 480
               },
               "abstract": false,
               "declare": false,
-              "start": 427,
-              "end": 477
+              "start": 430,
+              "end": 480
             },
             {
               "type": "ClassDeclaration",
@@ -388,8 +388,8 @@ __ESTREE_TEST__:PASS:
                 "name": "m1_C6_private",
                 "optional": false,
                 "typeAnnotation": null,
-                "start": 488,
-                "end": 501
+                "start": 491,
+                "end": 504
               },
               "typeParameters": null,
               "superClass": null,
@@ -403,24 +403,24 @@ __ESTREE_TEST__:PASS:
                     "name": "m1_i_private",
                     "optional": false,
                     "typeAnnotation": null,
-                    "start": 513,
-                    "end": 525
+                    "start": 516,
+                    "end": 528
                   },
                   "typeArguments": null,
-                  "start": 513,
-                  "end": 525
+                  "start": 516,
+                  "end": 528
                 }
               ],
               "body": {
                 "type": "ClassBody",
                 "body": [],
-                "start": 526,
-                "end": 533
+                "start": 529,
+                "end": 536
               },
               "abstract": false,
               "declare": false,
-              "start": 482,
-              "end": 533
+              "start": 485,
+              "end": 536
             },
             {
               "type": "ExportNamedDeclaration",
@@ -433,8 +433,8 @@ __ESTREE_TEST__:PASS:
                   "name": "m1_C7_public",
                   "optional": false,
                   "typeAnnotation": null,
-                  "start": 551,
-                  "end": 563
+                  "start": 554,
+                  "end": 566
                 },
                 "typeParameters": null,
                 "superClass": null,
@@ -448,31 +448,31 @@ __ESTREE_TEST__:PASS:
                       "name": "m1_i_public",
                       "optional": false,
                       "typeAnnotation": null,
-                      "start": 575,
-                      "end": 586
+                      "start": 578,
+                      "end": 589
                     },
                     "typeArguments": null,
-                    "start": 575,
-                    "end": 586
+                    "start": 578,
+                    "end": 589
                   }
                 ],
                 "body": {
                   "type": "ClassBody",
                   "body": [],
-                  "start": 587,
-                  "end": 594
+                  "start": 590,
+                  "end": 597
                 },
                 "abstract": false,
                 "declare": false,
-                "start": 545,
-                "end": 594
+                "start": 548,
+                "end": 597
               },
               "specifiers": [],
               "source": null,
               "exportKind": "value",
               "attributes": [],
-              "start": 538,
-              "end": 594
+              "start": 541,
+              "end": 597
             },
             {
               "type": "ExportNamedDeclaration",
@@ -485,8 +485,8 @@ __ESTREE_TEST__:PASS:
                   "name": "m1_C8_public",
                   "optional": false,
                   "typeAnnotation": null,
-                  "start": 612,
-                  "end": 624
+                  "start": 615,
+                  "end": 627
                 },
                 "typeParameters": null,
                 "superClass": null,
@@ -500,31 +500,31 @@ __ESTREE_TEST__:PASS:
                       "name": "m1_i_private",
                       "optional": false,
                       "typeAnnotation": null,
-                      "start": 636,
-                      "end": 648
+                      "start": 639,
+                      "end": 651
                     },
                     "typeArguments": null,
-                    "start": 636,
-                    "end": 648
+                    "start": 639,
+                    "end": 651
                   }
                 ],
                 "body": {
                   "type": "ClassBody",
                   "body": [],
-                  "start": 649,
-                  "end": 656
+                  "start": 652,
+                  "end": 659
                 },
                 "abstract": false,
                 "declare": false,
-                "start": 606,
-                "end": 656
+                "start": 609,
+                "end": 659
               },
               "specifiers": [],
               "source": null,
               "exportKind": "value",
               "attributes": [],
-              "start": 599,
-              "end": 656
+              "start": 602,
+              "end": 659
             },
             {
               "type": "ClassDeclaration",
@@ -535,8 +535,8 @@ __ESTREE_TEST__:PASS:
                 "name": "m1_C9_private",
                 "optional": false,
                 "typeAnnotation": null,
-                "start": 668,
-                "end": 681
+                "start": 671,
+                "end": 684
               },
               "typeParameters": null,
               "superClass": {
@@ -545,8 +545,8 @@ __ESTREE_TEST__:PASS:
                 "name": "m1_c_public",
                 "optional": false,
                 "typeAnnotation": null,
-                "start": 690,
-                "end": 701
+                "start": 693,
+                "end": 704
               },
               "superTypeArguments": null,
               "implements": [
@@ -558,12 +558,12 @@ __ESTREE_TEST__:PASS:
                     "name": "m1_i_private",
                     "optional": false,
                     "typeAnnotation": null,
-                    "start": 713,
-                    "end": 725
+                    "start": 716,
+                    "end": 728
                   },
                   "typeArguments": null,
-                  "start": 713,
-                  "end": 725
+                  "start": 716,
+                  "end": 728
                 },
                 {
                   "type": "TSClassImplements",
@@ -573,24 +573,24 @@ __ESTREE_TEST__:PASS:
                     "name": "m1_i_public",
                     "optional": false,
                     "typeAnnotation": null,
-                    "start": 727,
-                    "end": 738
+                    "start": 730,
+                    "end": 741
                   },
                   "typeArguments": null,
-                  "start": 727,
-                  "end": 738
+                  "start": 730,
+                  "end": 741
                 }
               ],
               "body": {
                 "type": "ClassBody",
                 "body": [],
-                "start": 739,
-                "end": 746
+                "start": 742,
+                "end": 749
               },
               "abstract": false,
               "declare": false,
-              "start": 662,
-              "end": 746
+              "start": 665,
+              "end": 749
             },
             {
               "type": "ClassDeclaration",
@@ -601,8 +601,8 @@ __ESTREE_TEST__:PASS:
                 "name": "m1_C10_private",
                 "optional": false,
                 "typeAnnotation": null,
-                "start": 757,
-                "end": 771
+                "start": 760,
+                "end": 774
               },
               "typeParameters": null,
               "superClass": {
@@ -611,8 +611,8 @@ __ESTREE_TEST__:PASS:
                 "name": "m1_c_private",
                 "optional": false,
                 "typeAnnotation": null,
-                "start": 780,
-                "end": 792
+                "start": 783,
+                "end": 795
               },
               "superTypeArguments": null,
               "implements": [
@@ -624,12 +624,12 @@ __ESTREE_TEST__:PASS:
                     "name": "m1_i_private",
                     "optional": false,
                     "typeAnnotation": null,
-                    "start": 805,
-                    "end": 817
+                    "start": 808,
+                    "end": 820
                   },
                   "typeArguments": null,
-                  "start": 805,
-                  "end": 817
+                  "start": 808,
+                  "end": 820
                 },
                 {
                   "type": "TSClassImplements",
@@ -639,24 +639,24 @@ __ESTREE_TEST__:PASS:
                     "name": "m1_i_public",
                     "optional": false,
                     "typeAnnotation": null,
-                    "start": 819,
-                    "end": 830
+                    "start": 822,
+                    "end": 833
                   },
                   "typeArguments": null,
-                  "start": 819,
-                  "end": 830
+                  "start": 822,
+                  "end": 833
                 }
               ],
               "body": {
                 "type": "ClassBody",
                 "body": [],
-                "start": 831,
-                "end": 838
+                "start": 834,
+                "end": 841
               },
               "abstract": false,
               "declare": false,
-              "start": 751,
-              "end": 838
+              "start": 754,
+              "end": 841
             },
             {
               "type": "ExportNamedDeclaration",
@@ -669,8 +669,8 @@ __ESTREE_TEST__:PASS:
                   "name": "m1_C11_public",
                   "optional": false,
                   "typeAnnotation": null,
-                  "start": 856,
-                  "end": 869
+                  "start": 859,
+                  "end": 872
                 },
                 "typeParameters": null,
                 "superClass": {
@@ -679,8 +679,8 @@ __ESTREE_TEST__:PASS:
                   "name": "m1_c_public",
                   "optional": false,
                   "typeAnnotation": null,
-                  "start": 878,
-                  "end": 889
+                  "start": 881,
+                  "end": 892
                 },
                 "superTypeArguments": null,
                 "implements": [
@@ -692,12 +692,12 @@ __ESTREE_TEST__:PASS:
                       "name": "m1_i_private",
                       "optional": false,
                       "typeAnnotation": null,
-                      "start": 902,
-                      "end": 914
+                      "start": 905,
+                      "end": 917
                     },
                     "typeArguments": null,
-                    "start": 902,
-                    "end": 914
+                    "start": 905,
+                    "end": 917
                   },
                   {
                     "type": "TSClassImplements",
@@ -707,31 +707,31 @@ __ESTREE_TEST__:PASS:
                       "name": "m1_i_public",
                       "optional": false,
                       "typeAnnotation": null,
-                      "start": 916,
-                      "end": 927
+                      "start": 919,
+                      "end": 930
                     },
                     "typeArguments": null,
-                    "start": 916,
-                    "end": 927
+                    "start": 919,
+                    "end": 930
                   }
                 ],
                 "body": {
                   "type": "ClassBody",
                   "body": [],
-                  "start": 928,
-                  "end": 935
+                  "start": 931,
+                  "end": 938
                 },
                 "abstract": false,
                 "declare": false,
-                "start": 850,
-                "end": 935
+                "start": 853,
+                "end": 938
               },
               "specifiers": [],
               "source": null,
               "exportKind": "value",
               "attributes": [],
-              "start": 843,
-              "end": 935
+              "start": 846,
+              "end": 938
             },
             {
               "type": "ExportNamedDeclaration",
@@ -744,8 +744,8 @@ __ESTREE_TEST__:PASS:
                   "name": "m1_C12_public",
                   "optional": false,
                   "typeAnnotation": null,
-                  "start": 953,
-                  "end": 966
+                  "start": 956,
+                  "end": 969
                 },
                 "typeParameters": null,
                 "superClass": {
@@ -754,8 +754,8 @@ __ESTREE_TEST__:PASS:
                   "name": "m1_c_private",
                   "optional": false,
                   "typeAnnotation": null,
-                  "start": 975,
-                  "end": 987
+                  "start": 978,
+                  "end": 990
                 },
                 "superTypeArguments": null,
                 "implements": [
@@ -767,12 +767,12 @@ __ESTREE_TEST__:PASS:
                       "name": "m1_i_private",
                       "optional": false,
                       "typeAnnotation": null,
-                      "start": 1000,
-                      "end": 1012
+                      "start": 1003,
+                      "end": 1015
                     },
                     "typeArguments": null,
-                    "start": 1000,
-                    "end": 1012
+                    "start": 1003,
+                    "end": 1015
                   },
                   {
                     "type": "TSClassImplements",
@@ -782,48 +782,48 @@ __ESTREE_TEST__:PASS:
                       "name": "m1_i_public",
                       "optional": false,
                       "typeAnnotation": null,
-                      "start": 1014,
-                      "end": 1025
+                      "start": 1017,
+                      "end": 1028
                     },
                     "typeArguments": null,
-                    "start": 1014,
-                    "end": 1025
+                    "start": 1017,
+                    "end": 1028
                   }
                 ],
                 "body": {
                   "type": "ClassBody",
                   "body": [],
-                  "start": 1026,
-                  "end": 1033
+                  "start": 1029,
+                  "end": 1036
                 },
                 "abstract": false,
                 "declare": false,
-                "start": 947,
-                "end": 1033
+                "start": 950,
+                "end": 1036
               },
               "specifiers": [],
               "source": null,
               "exportKind": "value",
               "attributes": [],
-              "start": 940,
-              "end": 1033
+              "start": 943,
+              "end": 1036
             }
           ],
-          "start": 17,
-          "end": 1035
+          "start": 20,
+          "end": 1038
         },
-        "kind": "module",
+        "kind": "namespace",
         "declare": false,
         "global": false,
         "start": 7,
-        "end": 1035
+        "end": 1038
       },
       "specifiers": [],
       "source": null,
       "exportKind": "value",
       "attributes": [],
       "start": 0,
-      "end": 1035
+      "end": 1038
     },
     {
       "type": "TSModuleDeclaration",
@@ -833,8 +833,8 @@ __ESTREE_TEST__:PASS:
         "name": "m2",
         "optional": false,
         "typeAnnotation": null,
-        "start": 1045,
-        "end": 1047
+        "start": 1051,
+        "end": 1053
       },
       "body": {
         "type": "TSModuleBlock",
@@ -849,27 +849,27 @@ __ESTREE_TEST__:PASS:
                 "name": "m2_i_public",
                 "optional": false,
                 "typeAnnotation": null,
-                "start": 1071,
-                "end": 1082
+                "start": 1077,
+                "end": 1088
               },
               "typeParameters": null,
               "extends": [],
               "body": {
                 "type": "TSInterfaceBody",
                 "body": [],
-                "start": 1083,
-                "end": 1090
+                "start": 1089,
+                "end": 1096
               },
               "declare": false,
-              "start": 1061,
-              "end": 1090
+              "start": 1067,
+              "end": 1096
             },
             "specifiers": [],
             "source": null,
             "exportKind": "type",
             "attributes": [],
-            "start": 1054,
-            "end": 1090
+            "start": 1060,
+            "end": 1096
           },
           {
             "type": "TSInterfaceDeclaration",
@@ -879,20 +879,20 @@ __ESTREE_TEST__:PASS:
               "name": "m2_i_private",
               "optional": false,
               "typeAnnotation": null,
-              "start": 1106,
-              "end": 1118
+              "start": 1112,
+              "end": 1124
             },
             "typeParameters": null,
             "extends": [],
             "body": {
               "type": "TSInterfaceBody",
               "body": [],
-              "start": 1119,
-              "end": 1126
+              "start": 1125,
+              "end": 1132
             },
             "declare": false,
-            "start": 1096,
-            "end": 1126
+            "start": 1102,
+            "end": 1132
           },
           {
             "type": "ExportNamedDeclaration",
@@ -905,8 +905,8 @@ __ESTREE_TEST__:PASS:
                 "name": "m2_c_public",
                 "optional": false,
                 "typeAnnotation": null,
-                "start": 1145,
-                "end": 1156
+                "start": 1151,
+                "end": 1162
               },
               "typeParameters": null,
               "superClass": null,
@@ -924,8 +924,8 @@ __ESTREE_TEST__:PASS:
                       "name": "f1",
                       "optional": false,
                       "typeAnnotation": null,
-                      "start": 1175,
-                      "end": 1177
+                      "start": 1181,
+                      "end": 1183
                     },
                     "value": {
                       "type": "FunctionExpression",
@@ -939,12 +939,12 @@ __ESTREE_TEST__:PASS:
                       "body": {
                         "type": "BlockStatement",
                         "body": [],
-                        "start": 1180,
-                        "end": 1191
+                        "start": 1186,
+                        "end": 1197
                       },
                       "expression": false,
-                      "start": 1177,
-                      "end": 1191
+                      "start": 1183,
+                      "end": 1197
                     },
                     "kind": "method",
                     "computed": false,
@@ -952,24 +952,24 @@ __ESTREE_TEST__:PASS:
                     "override": false,
                     "optional": false,
                     "accessibility": "private",
-                    "start": 1167,
-                    "end": 1191
+                    "start": 1173,
+                    "end": 1197
                   }
                 ],
-                "start": 1157,
-                "end": 1197
+                "start": 1163,
+                "end": 1203
               },
               "abstract": false,
               "declare": false,
-              "start": 1139,
-              "end": 1197
+              "start": 1145,
+              "end": 1203
             },
             "specifiers": [],
             "source": null,
             "exportKind": "value",
             "attributes": [],
-            "start": 1132,
-            "end": 1197
+            "start": 1138,
+            "end": 1203
           },
           {
             "type": "ClassDeclaration",
@@ -980,8 +980,8 @@ __ESTREE_TEST__:PASS:
               "name": "m2_c_private",
               "optional": false,
               "typeAnnotation": null,
-              "start": 1209,
-              "end": 1221
+              "start": 1215,
+              "end": 1227
             },
             "typeParameters": null,
             "superClass": null,
@@ -990,13 +990,13 @@ __ESTREE_TEST__:PASS:
             "body": {
               "type": "ClassBody",
               "body": [],
-              "start": 1222,
-              "end": 1229
+              "start": 1228,
+              "end": 1235
             },
             "abstract": false,
             "declare": false,
-            "start": 1203,
-            "end": 1229
+            "start": 1209,
+            "end": 1235
           },
           {
             "type": "ClassDeclaration",
@@ -1007,8 +1007,8 @@ __ESTREE_TEST__:PASS:
               "name": "m2_C1_private",
               "optional": false,
               "typeAnnotation": null,
-              "start": 1241,
-              "end": 1254
+              "start": 1247,
+              "end": 1260
             },
             "typeParameters": null,
             "superClass": {
@@ -1017,21 +1017,21 @@ __ESTREE_TEST__:PASS:
               "name": "m2_c_public",
               "optional": false,
               "typeAnnotation": null,
-              "start": 1263,
-              "end": 1274
+              "start": 1269,
+              "end": 1280
             },
             "superTypeArguments": null,
             "implements": [],
             "body": {
               "type": "ClassBody",
               "body": [],
-              "start": 1275,
-              "end": 1282
+              "start": 1281,
+              "end": 1288
             },
             "abstract": false,
             "declare": false,
-            "start": 1235,
-            "end": 1282
+            "start": 1241,
+            "end": 1288
           },
           {
             "type": "ClassDeclaration",
@@ -1042,8 +1042,8 @@ __ESTREE_TEST__:PASS:
               "name": "m2_C2_private",
               "optional": false,
               "typeAnnotation": null,
-              "start": 1293,
-              "end": 1306
+              "start": 1299,
+              "end": 1312
             },
             "typeParameters": null,
             "superClass": {
@@ -1052,21 +1052,21 @@ __ESTREE_TEST__:PASS:
               "name": "m2_c_private",
               "optional": false,
               "typeAnnotation": null,
-              "start": 1315,
-              "end": 1327
+              "start": 1321,
+              "end": 1333
             },
             "superTypeArguments": null,
             "implements": [],
             "body": {
               "type": "ClassBody",
               "body": [],
-              "start": 1328,
-              "end": 1335
+              "start": 1334,
+              "end": 1341
             },
             "abstract": false,
             "declare": false,
-            "start": 1287,
-            "end": 1335
+            "start": 1293,
+            "end": 1341
           },
           {
             "type": "ExportNamedDeclaration",
@@ -1079,8 +1079,8 @@ __ESTREE_TEST__:PASS:
                 "name": "m2_C3_public",
                 "optional": false,
                 "typeAnnotation": null,
-                "start": 1353,
-                "end": 1365
+                "start": 1359,
+                "end": 1371
               },
               "typeParameters": null,
               "superClass": {
@@ -1089,28 +1089,28 @@ __ESTREE_TEST__:PASS:
                 "name": "m2_c_public",
                 "optional": false,
                 "typeAnnotation": null,
-                "start": 1374,
-                "end": 1385
+                "start": 1380,
+                "end": 1391
               },
               "superTypeArguments": null,
               "implements": [],
               "body": {
                 "type": "ClassBody",
                 "body": [],
-                "start": 1386,
-                "end": 1393
+                "start": 1392,
+                "end": 1399
               },
               "abstract": false,
               "declare": false,
-              "start": 1347,
-              "end": 1393
+              "start": 1353,
+              "end": 1399
             },
             "specifiers": [],
             "source": null,
             "exportKind": "value",
             "attributes": [],
-            "start": 1340,
-            "end": 1393
+            "start": 1346,
+            "end": 1399
           },
           {
             "type": "ExportNamedDeclaration",
@@ -1123,8 +1123,8 @@ __ESTREE_TEST__:PASS:
                 "name": "m2_C4_public",
                 "optional": false,
                 "typeAnnotation": null,
-                "start": 1411,
-                "end": 1423
+                "start": 1417,
+                "end": 1429
               },
               "typeParameters": null,
               "superClass": {
@@ -1133,28 +1133,28 @@ __ESTREE_TEST__:PASS:
                 "name": "m2_c_private",
                 "optional": false,
                 "typeAnnotation": null,
-                "start": 1432,
-                "end": 1444
+                "start": 1438,
+                "end": 1450
               },
               "superTypeArguments": null,
               "implements": [],
               "body": {
                 "type": "ClassBody",
                 "body": [],
-                "start": 1445,
-                "end": 1452
+                "start": 1451,
+                "end": 1458
               },
               "abstract": false,
               "declare": false,
-              "start": 1405,
-              "end": 1452
+              "start": 1411,
+              "end": 1458
             },
             "specifiers": [],
             "source": null,
             "exportKind": "value",
             "attributes": [],
-            "start": 1398,
-            "end": 1452
+            "start": 1404,
+            "end": 1458
           },
           {
             "type": "ClassDeclaration",
@@ -1165,8 +1165,8 @@ __ESTREE_TEST__:PASS:
               "name": "m2_C5_private",
               "optional": false,
               "typeAnnotation": null,
-              "start": 1464,
-              "end": 1477
+              "start": 1470,
+              "end": 1483
             },
             "typeParameters": null,
             "superClass": null,
@@ -1180,24 +1180,24 @@ __ESTREE_TEST__:PASS:
                   "name": "m2_i_public",
                   "optional": false,
                   "typeAnnotation": null,
-                  "start": 1489,
-                  "end": 1500
+                  "start": 1495,
+                  "end": 1506
                 },
                 "typeArguments": null,
-                "start": 1489,
-                "end": 1500
+                "start": 1495,
+                "end": 1506
               }
             ],
             "body": {
               "type": "ClassBody",
               "body": [],
-              "start": 1501,
-              "end": 1508
+              "start": 1507,
+              "end": 1514
             },
             "abstract": false,
             "declare": false,
-            "start": 1458,
-            "end": 1508
+            "start": 1464,
+            "end": 1514
           },
           {
             "type": "ClassDeclaration",
@@ -1208,8 +1208,8 @@ __ESTREE_TEST__:PASS:
               "name": "m2_C6_private",
               "optional": false,
               "typeAnnotation": null,
-              "start": 1519,
-              "end": 1532
+              "start": 1525,
+              "end": 1538
             },
             "typeParameters": null,
             "superClass": null,
@@ -1223,24 +1223,24 @@ __ESTREE_TEST__:PASS:
                   "name": "m2_i_private",
                   "optional": false,
                   "typeAnnotation": null,
-                  "start": 1544,
-                  "end": 1556
+                  "start": 1550,
+                  "end": 1562
                 },
                 "typeArguments": null,
-                "start": 1544,
-                "end": 1556
+                "start": 1550,
+                "end": 1562
               }
             ],
             "body": {
               "type": "ClassBody",
               "body": [],
-              "start": 1557,
-              "end": 1564
+              "start": 1563,
+              "end": 1570
             },
             "abstract": false,
             "declare": false,
-            "start": 1513,
-            "end": 1564
+            "start": 1519,
+            "end": 1570
           },
           {
             "type": "ExportNamedDeclaration",
@@ -1253,8 +1253,8 @@ __ESTREE_TEST__:PASS:
                 "name": "m2_C7_public",
                 "optional": false,
                 "typeAnnotation": null,
-                "start": 1582,
-                "end": 1594
+                "start": 1588,
+                "end": 1600
               },
               "typeParameters": null,
               "superClass": null,
@@ -1268,31 +1268,31 @@ __ESTREE_TEST__:PASS:
                     "name": "m2_i_public",
                     "optional": false,
                     "typeAnnotation": null,
-                    "start": 1606,
-                    "end": 1617
+                    "start": 1612,
+                    "end": 1623
                   },
                   "typeArguments": null,
-                  "start": 1606,
-                  "end": 1617
+                  "start": 1612,
+                  "end": 1623
                 }
               ],
               "body": {
                 "type": "ClassBody",
                 "body": [],
-                "start": 1618,
-                "end": 1625
+                "start": 1624,
+                "end": 1631
               },
               "abstract": false,
               "declare": false,
-              "start": 1576,
-              "end": 1625
+              "start": 1582,
+              "end": 1631
             },
             "specifiers": [],
             "source": null,
             "exportKind": "value",
             "attributes": [],
-            "start": 1569,
-            "end": 1625
+            "start": 1575,
+            "end": 1631
           },
           {
             "type": "ExportNamedDeclaration",
@@ -1305,8 +1305,8 @@ __ESTREE_TEST__:PASS:
                 "name": "m2_C8_public",
                 "optional": false,
                 "typeAnnotation": null,
-                "start": 1643,
-                "end": 1655
+                "start": 1649,
+                "end": 1661
               },
               "typeParameters": null,
               "superClass": null,
@@ -1320,31 +1320,31 @@ __ESTREE_TEST__:PASS:
                     "name": "m2_i_private",
                     "optional": false,
                     "typeAnnotation": null,
-                    "start": 1667,
-                    "end": 1679
+                    "start": 1673,
+                    "end": 1685
                   },
                   "typeArguments": null,
-                  "start": 1667,
-                  "end": 1679
+                  "start": 1673,
+                  "end": 1685
                 }
               ],
               "body": {
                 "type": "ClassBody",
                 "body": [],
-                "start": 1680,
-                "end": 1687
+                "start": 1686,
+                "end": 1693
               },
               "abstract": false,
               "declare": false,
-              "start": 1637,
-              "end": 1687
+              "start": 1643,
+              "end": 1693
             },
             "specifiers": [],
             "source": null,
             "exportKind": "value",
             "attributes": [],
-            "start": 1630,
-            "end": 1687
+            "start": 1636,
+            "end": 1693
           },
           {
             "type": "ClassDeclaration",
@@ -1355,8 +1355,8 @@ __ESTREE_TEST__:PASS:
               "name": "m2_C9_private",
               "optional": false,
               "typeAnnotation": null,
-              "start": 1699,
-              "end": 1712
+              "start": 1705,
+              "end": 1718
             },
             "typeParameters": null,
             "superClass": {
@@ -1365,8 +1365,8 @@ __ESTREE_TEST__:PASS:
               "name": "m2_c_public",
               "optional": false,
               "typeAnnotation": null,
-              "start": 1721,
-              "end": 1732
+              "start": 1727,
+              "end": 1738
             },
             "superTypeArguments": null,
             "implements": [
@@ -1378,12 +1378,12 @@ __ESTREE_TEST__:PASS:
                   "name": "m2_i_private",
                   "optional": false,
                   "typeAnnotation": null,
-                  "start": 1744,
-                  "end": 1756
+                  "start": 1750,
+                  "end": 1762
                 },
                 "typeArguments": null,
-                "start": 1744,
-                "end": 1756
+                "start": 1750,
+                "end": 1762
               },
               {
                 "type": "TSClassImplements",
@@ -1393,24 +1393,24 @@ __ESTREE_TEST__:PASS:
                   "name": "m2_i_public",
                   "optional": false,
                   "typeAnnotation": null,
-                  "start": 1758,
-                  "end": 1769
+                  "start": 1764,
+                  "end": 1775
                 },
                 "typeArguments": null,
-                "start": 1758,
-                "end": 1769
+                "start": 1764,
+                "end": 1775
               }
             ],
             "body": {
               "type": "ClassBody",
               "body": [],
-              "start": 1770,
-              "end": 1777
+              "start": 1776,
+              "end": 1783
             },
             "abstract": false,
             "declare": false,
-            "start": 1693,
-            "end": 1777
+            "start": 1699,
+            "end": 1783
           },
           {
             "type": "ClassDeclaration",
@@ -1421,8 +1421,8 @@ __ESTREE_TEST__:PASS:
               "name": "m2_C10_private",
               "optional": false,
               "typeAnnotation": null,
-              "start": 1788,
-              "end": 1802
+              "start": 1794,
+              "end": 1808
             },
             "typeParameters": null,
             "superClass": {
@@ -1431,8 +1431,8 @@ __ESTREE_TEST__:PASS:
               "name": "m2_c_private",
               "optional": false,
               "typeAnnotation": null,
-              "start": 1811,
-              "end": 1823
+              "start": 1817,
+              "end": 1829
             },
             "superTypeArguments": null,
             "implements": [
@@ -1444,12 +1444,12 @@ __ESTREE_TEST__:PASS:
                   "name": "m2_i_private",
                   "optional": false,
                   "typeAnnotation": null,
-                  "start": 1836,
-                  "end": 1848
+                  "start": 1842,
+                  "end": 1854
                 },
                 "typeArguments": null,
-                "start": 1836,
-                "end": 1848
+                "start": 1842,
+                "end": 1854
               },
               {
                 "type": "TSClassImplements",
@@ -1459,24 +1459,24 @@ __ESTREE_TEST__:PASS:
                   "name": "m2_i_public",
                   "optional": false,
                   "typeAnnotation": null,
-                  "start": 1850,
-                  "end": 1861
+                  "start": 1856,
+                  "end": 1867
                 },
                 "typeArguments": null,
-                "start": 1850,
-                "end": 1861
+                "start": 1856,
+                "end": 1867
               }
             ],
             "body": {
               "type": "ClassBody",
               "body": [],
-              "start": 1862,
-              "end": 1869
+              "start": 1868,
+              "end": 1875
             },
             "abstract": false,
             "declare": false,
-            "start": 1782,
-            "end": 1869
+            "start": 1788,
+            "end": 1875
           },
           {
             "type": "ExportNamedDeclaration",
@@ -1489,8 +1489,8 @@ __ESTREE_TEST__:PASS:
                 "name": "m2_C11_public",
                 "optional": false,
                 "typeAnnotation": null,
-                "start": 1887,
-                "end": 1900
+                "start": 1893,
+                "end": 1906
               },
               "typeParameters": null,
               "superClass": {
@@ -1499,8 +1499,8 @@ __ESTREE_TEST__:PASS:
                 "name": "m2_c_public",
                 "optional": false,
                 "typeAnnotation": null,
-                "start": 1909,
-                "end": 1920
+                "start": 1915,
+                "end": 1926
               },
               "superTypeArguments": null,
               "implements": [
@@ -1512,12 +1512,12 @@ __ESTREE_TEST__:PASS:
                     "name": "m2_i_private",
                     "optional": false,
                     "typeAnnotation": null,
-                    "start": 1933,
-                    "end": 1945
+                    "start": 1939,
+                    "end": 1951
                   },
                   "typeArguments": null,
-                  "start": 1933,
-                  "end": 1945
+                  "start": 1939,
+                  "end": 1951
                 },
                 {
                   "type": "TSClassImplements",
@@ -1527,31 +1527,31 @@ __ESTREE_TEST__:PASS:
                     "name": "m2_i_public",
                     "optional": false,
                     "typeAnnotation": null,
-                    "start": 1947,
-                    "end": 1958
+                    "start": 1953,
+                    "end": 1964
                   },
                   "typeArguments": null,
-                  "start": 1947,
-                  "end": 1958
+                  "start": 1953,
+                  "end": 1964
                 }
               ],
               "body": {
                 "type": "ClassBody",
                 "body": [],
-                "start": 1959,
-                "end": 1966
+                "start": 1965,
+                "end": 1972
               },
               "abstract": false,
               "declare": false,
-              "start": 1881,
-              "end": 1966
+              "start": 1887,
+              "end": 1972
             },
             "specifiers": [],
             "source": null,
             "exportKind": "value",
             "attributes": [],
-            "start": 1874,
-            "end": 1966
+            "start": 1880,
+            "end": 1972
           },
           {
             "type": "ExportNamedDeclaration",
@@ -1564,8 +1564,8 @@ __ESTREE_TEST__:PASS:
                 "name": "m2_C12_public",
                 "optional": false,
                 "typeAnnotation": null,
-                "start": 1984,
-                "end": 1997
+                "start": 1990,
+                "end": 2003
               },
               "typeParameters": null,
               "superClass": {
@@ -1574,8 +1574,8 @@ __ESTREE_TEST__:PASS:
                 "name": "m2_c_private",
                 "optional": false,
                 "typeAnnotation": null,
-                "start": 2006,
-                "end": 2018
+                "start": 2012,
+                "end": 2024
               },
               "superTypeArguments": null,
               "implements": [
@@ -1587,12 +1587,12 @@ __ESTREE_TEST__:PASS:
                     "name": "m2_i_private",
                     "optional": false,
                     "typeAnnotation": null,
-                    "start": 2031,
-                    "end": 2043
+                    "start": 2037,
+                    "end": 2049
                   },
                   "typeArguments": null,
-                  "start": 2031,
-                  "end": 2043
+                  "start": 2037,
+                  "end": 2049
                 },
                 {
                   "type": "TSClassImplements",
@@ -1602,41 +1602,41 @@ __ESTREE_TEST__:PASS:
                     "name": "m2_i_public",
                     "optional": false,
                     "typeAnnotation": null,
-                    "start": 2045,
-                    "end": 2056
+                    "start": 2051,
+                    "end": 2062
                   },
                   "typeArguments": null,
-                  "start": 2045,
-                  "end": 2056
+                  "start": 2051,
+                  "end": 2062
                 }
               ],
               "body": {
                 "type": "ClassBody",
                 "body": [],
-                "start": 2057,
-                "end": 2064
+                "start": 2063,
+                "end": 2070
               },
               "abstract": false,
               "declare": false,
-              "start": 1978,
-              "end": 2064
+              "start": 1984,
+              "end": 2070
             },
             "specifiers": [],
             "source": null,
             "exportKind": "value",
             "attributes": [],
-            "start": 1971,
-            "end": 2064
+            "start": 1977,
+            "end": 2070
           }
         ],
-        "start": 1048,
-        "end": 2066
+        "start": 1054,
+        "end": 2072
       },
-      "kind": "module",
+      "kind": "namespace",
       "declare": false,
       "global": false,
-      "start": 1038,
-      "end": 2066
+      "start": 1041,
+      "end": 2072
     },
     {
       "type": "ExportNamedDeclaration",
@@ -1648,27 +1648,27 @@ __ESTREE_TEST__:PASS:
           "name": "glo_i_public",
           "optional": false,
           "typeAnnotation": null,
-          "start": 2085,
-          "end": 2097
+          "start": 2091,
+          "end": 2103
         },
         "typeParameters": null,
         "extends": [],
         "body": {
           "type": "TSInterfaceBody",
           "body": [],
-          "start": 2098,
-          "end": 2101
+          "start": 2104,
+          "end": 2107
         },
         "declare": false,
-        "start": 2075,
-        "end": 2101
+        "start": 2081,
+        "end": 2107
       },
       "specifiers": [],
       "source": null,
       "exportKind": "type",
       "attributes": [],
-      "start": 2068,
-      "end": 2101
+      "start": 2074,
+      "end": 2107
     },
     {
       "type": "TSInterfaceDeclaration",
@@ -1678,20 +1678,20 @@ __ESTREE_TEST__:PASS:
         "name": "glo_i_private",
         "optional": false,
         "typeAnnotation": null,
-        "start": 2113,
-        "end": 2126
+        "start": 2119,
+        "end": 2132
       },
       "typeParameters": null,
       "extends": [],
       "body": {
         "type": "TSInterfaceBody",
         "body": [],
-        "start": 2127,
-        "end": 2130
+        "start": 2133,
+        "end": 2136
       },
       "declare": false,
-      "start": 2103,
-      "end": 2130
+      "start": 2109,
+      "end": 2136
     },
     {
       "type": "ExportNamedDeclaration",
@@ -1704,8 +1704,8 @@ __ESTREE_TEST__:PASS:
           "name": "glo_c_public",
           "optional": false,
           "typeAnnotation": null,
-          "start": 2145,
-          "end": 2157
+          "start": 2151,
+          "end": 2163
         },
         "typeParameters": null,
         "superClass": null,
@@ -1723,8 +1723,8 @@ __ESTREE_TEST__:PASS:
                 "name": "f1",
                 "optional": false,
                 "typeAnnotation": null,
-                "start": 2172,
-                "end": 2174
+                "start": 2178,
+                "end": 2180
               },
               "value": {
                 "type": "FunctionExpression",
@@ -1738,12 +1738,12 @@ __ESTREE_TEST__:PASS:
                 "body": {
                   "type": "BlockStatement",
                   "body": [],
-                  "start": 2177,
-                  "end": 2184
+                  "start": 2183,
+                  "end": 2190
                 },
                 "expression": false,
-                "start": 2174,
-                "end": 2184
+                "start": 2180,
+                "end": 2190
               },
               "kind": "method",
               "computed": false,
@@ -1751,24 +1751,24 @@ __ESTREE_TEST__:PASS:
               "override": false,
               "optional": false,
               "accessibility": "private",
-              "start": 2164,
-              "end": 2184
+              "start": 2170,
+              "end": 2190
             }
           ],
-          "start": 2158,
-          "end": 2186
+          "start": 2164,
+          "end": 2192
         },
         "abstract": false,
         "declare": false,
-        "start": 2139,
-        "end": 2186
+        "start": 2145,
+        "end": 2192
       },
       "specifiers": [],
       "source": null,
       "exportKind": "value",
       "attributes": [],
-      "start": 2132,
-      "end": 2186
+      "start": 2138,
+      "end": 2192
     },
     {
       "type": "ClassDeclaration",
@@ -1779,8 +1779,8 @@ __ESTREE_TEST__:PASS:
         "name": "glo_c_private",
         "optional": false,
         "typeAnnotation": null,
-        "start": 2194,
-        "end": 2207
+        "start": 2200,
+        "end": 2213
       },
       "typeParameters": null,
       "superClass": null,
@@ -1789,13 +1789,13 @@ __ESTREE_TEST__:PASS:
       "body": {
         "type": "ClassBody",
         "body": [],
-        "start": 2208,
-        "end": 2211
+        "start": 2214,
+        "end": 2217
       },
       "abstract": false,
       "declare": false,
-      "start": 2188,
-      "end": 2211
+      "start": 2194,
+      "end": 2217
     },
     {
       "type": "ClassDeclaration",
@@ -1806,8 +1806,8 @@ __ESTREE_TEST__:PASS:
         "name": "glo_C1_private",
         "optional": false,
         "typeAnnotation": null,
-        "start": 2219,
-        "end": 2233
+        "start": 2225,
+        "end": 2239
       },
       "typeParameters": null,
       "superClass": {
@@ -1816,21 +1816,21 @@ __ESTREE_TEST__:PASS:
         "name": "glo_c_public",
         "optional": false,
         "typeAnnotation": null,
-        "start": 2242,
-        "end": 2254
+        "start": 2248,
+        "end": 2260
       },
       "superTypeArguments": null,
       "implements": [],
       "body": {
         "type": "ClassBody",
         "body": [],
-        "start": 2255,
-        "end": 2258
+        "start": 2261,
+        "end": 2264
       },
       "abstract": false,
       "declare": false,
-      "start": 2213,
-      "end": 2258
+      "start": 2219,
+      "end": 2264
     },
     {
       "type": "ClassDeclaration",
@@ -1841,8 +1841,8 @@ __ESTREE_TEST__:PASS:
         "name": "glo_C2_private",
         "optional": false,
         "typeAnnotation": null,
-        "start": 2265,
-        "end": 2279
+        "start": 2271,
+        "end": 2285
       },
       "typeParameters": null,
       "superClass": {
@@ -1851,21 +1851,21 @@ __ESTREE_TEST__:PASS:
         "name": "glo_c_private",
         "optional": false,
         "typeAnnotation": null,
-        "start": 2288,
-        "end": 2301
+        "start": 2294,
+        "end": 2307
       },
       "superTypeArguments": null,
       "implements": [],
       "body": {
         "type": "ClassBody",
         "body": [],
-        "start": 2302,
-        "end": 2305
+        "start": 2308,
+        "end": 2311
       },
       "abstract": false,
       "declare": false,
-      "start": 2259,
-      "end": 2305
+      "start": 2265,
+      "end": 2311
     },
     {
       "type": "ExportNamedDeclaration",
@@ -1878,8 +1878,8 @@ __ESTREE_TEST__:PASS:
           "name": "glo_C3_public",
           "optional": false,
           "typeAnnotation": null,
-          "start": 2319,
-          "end": 2332
+          "start": 2325,
+          "end": 2338
         },
         "typeParameters": null,
         "superClass": {
@@ -1888,28 +1888,28 @@ __ESTREE_TEST__:PASS:
           "name": "glo_c_public",
           "optional": false,
           "typeAnnotation": null,
-          "start": 2341,
-          "end": 2353
+          "start": 2347,
+          "end": 2359
         },
         "superTypeArguments": null,
         "implements": [],
         "body": {
           "type": "ClassBody",
           "body": [],
-          "start": 2354,
-          "end": 2357
+          "start": 2360,
+          "end": 2363
         },
         "abstract": false,
         "declare": false,
-        "start": 2313,
-        "end": 2357
+        "start": 2319,
+        "end": 2363
       },
       "specifiers": [],
       "source": null,
       "exportKind": "value",
       "attributes": [],
-      "start": 2306,
-      "end": 2357
+      "start": 2312,
+      "end": 2363
     },
     {
       "type": "ExportNamedDeclaration",
@@ -1922,8 +1922,8 @@ __ESTREE_TEST__:PASS:
           "name": "glo_C4_public",
           "optional": false,
           "typeAnnotation": null,
-          "start": 2371,
-          "end": 2384
+          "start": 2377,
+          "end": 2390
         },
         "typeParameters": null,
         "superClass": {
@@ -1932,28 +1932,28 @@ __ESTREE_TEST__:PASS:
           "name": "glo_c_private",
           "optional": false,
           "typeAnnotation": null,
-          "start": 2393,
-          "end": 2406
+          "start": 2399,
+          "end": 2412
         },
         "superTypeArguments": null,
         "implements": [],
         "body": {
           "type": "ClassBody",
           "body": [],
-          "start": 2407,
-          "end": 2410
+          "start": 2413,
+          "end": 2416
         },
         "abstract": false,
         "declare": false,
-        "start": 2365,
-        "end": 2410
+        "start": 2371,
+        "end": 2416
       },
       "specifiers": [],
       "source": null,
       "exportKind": "value",
       "attributes": [],
-      "start": 2358,
-      "end": 2410
+      "start": 2364,
+      "end": 2416
     },
     {
       "type": "ClassDeclaration",
@@ -1964,8 +1964,8 @@ __ESTREE_TEST__:PASS:
         "name": "glo_C5_private",
         "optional": false,
         "typeAnnotation": null,
-        "start": 2418,
-        "end": 2432
+        "start": 2424,
+        "end": 2438
       },
       "typeParameters": null,
       "superClass": null,
@@ -1979,24 +1979,24 @@ __ESTREE_TEST__:PASS:
             "name": "glo_i_public",
             "optional": false,
             "typeAnnotation": null,
-            "start": 2444,
-            "end": 2456
+            "start": 2450,
+            "end": 2462
           },
           "typeArguments": null,
-          "start": 2444,
-          "end": 2456
+          "start": 2450,
+          "end": 2462
         }
       ],
       "body": {
         "type": "ClassBody",
         "body": [],
-        "start": 2457,
-        "end": 2460
+        "start": 2463,
+        "end": 2466
       },
       "abstract": false,
       "declare": false,
-      "start": 2412,
-      "end": 2460
+      "start": 2418,
+      "end": 2466
     },
     {
       "type": "ClassDeclaration",
@@ -2007,8 +2007,8 @@ __ESTREE_TEST__:PASS:
         "name": "glo_C6_private",
         "optional": false,
         "typeAnnotation": null,
-        "start": 2467,
-        "end": 2481
+        "start": 2473,
+        "end": 2487
       },
       "typeParameters": null,
       "superClass": null,
@@ -2022,24 +2022,24 @@ __ESTREE_TEST__:PASS:
             "name": "glo_i_private",
             "optional": false,
             "typeAnnotation": null,
-            "start": 2493,
-            "end": 2506
+            "start": 2499,
+            "end": 2512
           },
           "typeArguments": null,
-          "start": 2493,
-          "end": 2506
+          "start": 2499,
+          "end": 2512
         }
       ],
       "body": {
         "type": "ClassBody",
         "body": [],
-        "start": 2507,
-        "end": 2510
+        "start": 2513,
+        "end": 2516
       },
       "abstract": false,
       "declare": false,
-      "start": 2461,
-      "end": 2510
+      "start": 2467,
+      "end": 2516
     },
     {
       "type": "ExportNamedDeclaration",
@@ -2052,8 +2052,8 @@ __ESTREE_TEST__:PASS:
           "name": "glo_C7_public",
           "optional": false,
           "typeAnnotation": null,
-          "start": 2524,
-          "end": 2537
+          "start": 2530,
+          "end": 2543
         },
         "typeParameters": null,
         "superClass": null,
@@ -2067,31 +2067,31 @@ __ESTREE_TEST__:PASS:
               "name": "glo_i_public",
               "optional": false,
               "typeAnnotation": null,
-              "start": 2549,
-              "end": 2561
+              "start": 2555,
+              "end": 2567
             },
             "typeArguments": null,
-            "start": 2549,
-            "end": 2561
+            "start": 2555,
+            "end": 2567
           }
         ],
         "body": {
           "type": "ClassBody",
           "body": [],
-          "start": 2562,
-          "end": 2565
+          "start": 2568,
+          "end": 2571
         },
         "abstract": false,
         "declare": false,
-        "start": 2518,
-        "end": 2565
+        "start": 2524,
+        "end": 2571
       },
       "specifiers": [],
       "source": null,
       "exportKind": "value",
       "attributes": [],
-      "start": 2511,
-      "end": 2565
+      "start": 2517,
+      "end": 2571
     },
     {
       "type": "ExportNamedDeclaration",
@@ -2104,8 +2104,8 @@ __ESTREE_TEST__:PASS:
           "name": "glo_C8_public",
           "optional": false,
           "typeAnnotation": null,
-          "start": 2579,
-          "end": 2592
+          "start": 2585,
+          "end": 2598
         },
         "typeParameters": null,
         "superClass": null,
@@ -2119,31 +2119,31 @@ __ESTREE_TEST__:PASS:
               "name": "glo_i_private",
               "optional": false,
               "typeAnnotation": null,
-              "start": 2604,
-              "end": 2617
+              "start": 2610,
+              "end": 2623
             },
             "typeArguments": null,
-            "start": 2604,
-            "end": 2617
+            "start": 2610,
+            "end": 2623
           }
         ],
         "body": {
           "type": "ClassBody",
           "body": [],
-          "start": 2618,
-          "end": 2621
+          "start": 2624,
+          "end": 2627
         },
         "abstract": false,
         "declare": false,
-        "start": 2573,
-        "end": 2621
+        "start": 2579,
+        "end": 2627
       },
       "specifiers": [],
       "source": null,
       "exportKind": "value",
       "attributes": [],
-      "start": 2566,
-      "end": 2621
+      "start": 2572,
+      "end": 2627
     },
     {
       "type": "ClassDeclaration",
@@ -2154,8 +2154,8 @@ __ESTREE_TEST__:PASS:
         "name": "glo_C9_private",
         "optional": false,
         "typeAnnotation": null,
-        "start": 2629,
-        "end": 2643
+        "start": 2635,
+        "end": 2649
       },
       "typeParameters": null,
       "superClass": {
@@ -2164,8 +2164,8 @@ __ESTREE_TEST__:PASS:
         "name": "glo_c_public",
         "optional": false,
         "typeAnnotation": null,
-        "start": 2652,
-        "end": 2664
+        "start": 2658,
+        "end": 2670
       },
       "superTypeArguments": null,
       "implements": [
@@ -2177,12 +2177,12 @@ __ESTREE_TEST__:PASS:
             "name": "glo_i_private",
             "optional": false,
             "typeAnnotation": null,
-            "start": 2676,
-            "end": 2689
+            "start": 2682,
+            "end": 2695
           },
           "typeArguments": null,
-          "start": 2676,
-          "end": 2689
+          "start": 2682,
+          "end": 2695
         },
         {
           "type": "TSClassImplements",
@@ -2192,24 +2192,24 @@ __ESTREE_TEST__:PASS:
             "name": "glo_i_public",
             "optional": false,
             "typeAnnotation": null,
-            "start": 2691,
-            "end": 2703
+            "start": 2697,
+            "end": 2709
           },
           "typeArguments": null,
-          "start": 2691,
-          "end": 2703
+          "start": 2697,
+          "end": 2709
         }
       ],
       "body": {
         "type": "ClassBody",
         "body": [],
-        "start": 2704,
-        "end": 2707
+        "start": 2710,
+        "end": 2713
       },
       "abstract": false,
       "declare": false,
-      "start": 2623,
-      "end": 2707
+      "start": 2629,
+      "end": 2713
     },
     {
       "type": "ClassDeclaration",
@@ -2220,8 +2220,8 @@ __ESTREE_TEST__:PASS:
         "name": "glo_C10_private",
         "optional": false,
         "typeAnnotation": null,
-        "start": 2714,
-        "end": 2729
+        "start": 2720,
+        "end": 2735
       },
       "typeParameters": null,
       "superClass": {
@@ -2230,8 +2230,8 @@ __ESTREE_TEST__:PASS:
         "name": "glo_c_private",
         "optional": false,
         "typeAnnotation": null,
-        "start": 2738,
-        "end": 2751
+        "start": 2744,
+        "end": 2757
       },
       "superTypeArguments": null,
       "implements": [
@@ -2243,12 +2243,12 @@ __ESTREE_TEST__:PASS:
             "name": "glo_i_private",
             "optional": false,
             "typeAnnotation": null,
-            "start": 2764,
-            "end": 2777
+            "start": 2770,
+            "end": 2783
           },
           "typeArguments": null,
-          "start": 2764,
-          "end": 2777
+          "start": 2770,
+          "end": 2783
         },
         {
           "type": "TSClassImplements",
@@ -2258,24 +2258,24 @@ __ESTREE_TEST__:PASS:
             "name": "glo_i_public",
             "optional": false,
             "typeAnnotation": null,
-            "start": 2779,
-            "end": 2791
+            "start": 2785,
+            "end": 2797
           },
           "typeArguments": null,
-          "start": 2779,
-          "end": 2791
+          "start": 2785,
+          "end": 2797
         }
       ],
       "body": {
         "type": "ClassBody",
         "body": [],
-        "start": 2792,
-        "end": 2795
+        "start": 2798,
+        "end": 2801
       },
       "abstract": false,
       "declare": false,
-      "start": 2708,
-      "end": 2795
+      "start": 2714,
+      "end": 2801
     },
     {
       "type": "ExportNamedDeclaration",
@@ -2288,8 +2288,8 @@ __ESTREE_TEST__:PASS:
           "name": "glo_C11_public",
           "optional": false,
           "typeAnnotation": null,
-          "start": 2809,
-          "end": 2823
+          "start": 2815,
+          "end": 2829
         },
         "typeParameters": null,
         "superClass": {
@@ -2298,8 +2298,8 @@ __ESTREE_TEST__:PASS:
           "name": "glo_c_public",
           "optional": false,
           "typeAnnotation": null,
-          "start": 2832,
-          "end": 2844
+          "start": 2838,
+          "end": 2850
         },
         "superTypeArguments": null,
         "implements": [
@@ -2311,12 +2311,12 @@ __ESTREE_TEST__:PASS:
               "name": "glo_i_private",
               "optional": false,
               "typeAnnotation": null,
-              "start": 2857,
-              "end": 2870
+              "start": 2863,
+              "end": 2876
             },
             "typeArguments": null,
-            "start": 2857,
-            "end": 2870
+            "start": 2863,
+            "end": 2876
           },
           {
             "type": "TSClassImplements",
@@ -2326,31 +2326,31 @@ __ESTREE_TEST__:PASS:
               "name": "glo_i_public",
               "optional": false,
               "typeAnnotation": null,
-              "start": 2872,
-              "end": 2884
+              "start": 2878,
+              "end": 2890
             },
             "typeArguments": null,
-            "start": 2872,
-            "end": 2884
+            "start": 2878,
+            "end": 2890
           }
         ],
         "body": {
           "type": "ClassBody",
           "body": [],
-          "start": 2885,
-          "end": 2888
+          "start": 2891,
+          "end": 2894
         },
         "abstract": false,
         "declare": false,
-        "start": 2803,
-        "end": 2888
+        "start": 2809,
+        "end": 2894
       },
       "specifiers": [],
       "source": null,
       "exportKind": "value",
       "attributes": [],
-      "start": 2796,
-      "end": 2888
+      "start": 2802,
+      "end": 2894
     },
     {
       "type": "ExportNamedDeclaration",
@@ -2363,8 +2363,8 @@ __ESTREE_TEST__:PASS:
           "name": "glo_C12_public",
           "optional": false,
           "typeAnnotation": null,
-          "start": 2902,
-          "end": 2916
+          "start": 2908,
+          "end": 2922
         },
         "typeParameters": null,
         "superClass": {
@@ -2373,8 +2373,8 @@ __ESTREE_TEST__:PASS:
           "name": "glo_c_private",
           "optional": false,
           "typeAnnotation": null,
-          "start": 2925,
-          "end": 2938
+          "start": 2931,
+          "end": 2944
         },
         "superTypeArguments": null,
         "implements": [
@@ -2386,12 +2386,12 @@ __ESTREE_TEST__:PASS:
               "name": "glo_i_private",
               "optional": false,
               "typeAnnotation": null,
-              "start": 2951,
-              "end": 2964
+              "start": 2957,
+              "end": 2970
             },
             "typeArguments": null,
-            "start": 2951,
-            "end": 2964
+            "start": 2957,
+            "end": 2970
           },
           {
             "type": "TSClassImplements",
@@ -2401,36 +2401,36 @@ __ESTREE_TEST__:PASS:
               "name": "glo_i_public",
               "optional": false,
               "typeAnnotation": null,
-              "start": 2966,
-              "end": 2978
+              "start": 2972,
+              "end": 2984
             },
             "typeArguments": null,
-            "start": 2966,
-            "end": 2978
+            "start": 2972,
+            "end": 2984
           }
         ],
         "body": {
           "type": "ClassBody",
           "body": [],
-          "start": 2979,
-          "end": 2982
+          "start": 2985,
+          "end": 2988
         },
         "abstract": false,
         "declare": false,
-        "start": 2896,
-        "end": 2982
+        "start": 2902,
+        "end": 2988
       },
       "specifiers": [],
       "source": null,
       "exportKind": "value",
       "attributes": [],
-      "start": 2889,
-      "end": 2982
+      "start": 2895,
+      "end": 2988
     }
   ],
   "sourceType": "module",
   "hashbang": null,
   "start": 0,
-  "end": 2982
+  "end": 2988
 }
 ```

@@ -11,8 +11,8 @@ __ESTREE_TEST__:PASS:
         "name": "JSX",
         "optional": false,
         "typeAnnotation": null,
-        "start": 15,
-        "end": 18
+        "start": 18,
+        "end": 21
       },
       "body": {
         "type": "TSModuleBlock",
@@ -25,8 +25,8 @@ __ESTREE_TEST__:PASS:
               "name": "ElementAttributesProperty",
               "optional": false,
               "typeAnnotation": null,
-              "start": 33,
-              "end": 58
+              "start": 36,
+              "end": 61
             },
             "typeParameters": null,
             "extends": [],
@@ -44,32 +44,32 @@ __ESTREE_TEST__:PASS:
                     "name": "props",
                     "optional": false,
                     "typeAnnotation": null,
-                    "start": 61,
-                    "end": 66
+                    "start": 64,
+                    "end": 69
                   },
                   "typeAnnotation": null,
                   "accessibility": null,
                   "static": false,
-                  "start": 61,
-                  "end": 67
+                  "start": 64,
+                  "end": 70
                 }
               ],
-              "start": 59,
-              "end": 69
+              "start": 62,
+              "end": 72
             },
             "declare": false,
-            "start": 23,
-            "end": 69
+            "start": 26,
+            "end": 72
           }
         ],
-        "start": 19,
-        "end": 71
+        "start": 22,
+        "end": 74
       },
-      "kind": "module",
+      "kind": "namespace",
       "declare": true,
       "global": false,
       "start": 0,
-      "end": 71
+      "end": 74
     },
     {
       "type": "TSModuleDeclaration",
@@ -79,8 +79,8 @@ __ESTREE_TEST__:PASS:
         "name": "React",
         "optional": false,
         "typeAnnotation": null,
-        "start": 87,
-        "end": 92
+        "start": 93,
+        "end": 98
       },
       "body": {
         "type": "TSModuleBlock",
@@ -94,8 +94,8 @@ __ESTREE_TEST__:PASS:
               "name": "Component",
               "optional": false,
               "typeAnnotation": null,
-              "start": 103,
-              "end": 112
+              "start": 109,
+              "end": 118
             },
             "typeParameters": {
               "type": "TSTypeParameterDeclaration",
@@ -108,16 +108,16 @@ __ESTREE_TEST__:PASS:
                     "name": "T",
                     "optional": false,
                     "typeAnnotation": null,
-                    "start": 113,
-                    "end": 114
+                    "start": 119,
+                    "end": 120
                   },
                   "constraint": null,
                   "default": null,
                   "in": false,
                   "out": false,
                   "const": false,
-                  "start": 113,
-                  "end": 114
+                  "start": 119,
+                  "end": 120
                 },
                 {
                   "type": "TSTypeParameter",
@@ -127,20 +127,20 @@ __ESTREE_TEST__:PASS:
                     "name": "U",
                     "optional": false,
                     "typeAnnotation": null,
-                    "start": 116,
-                    "end": 117
+                    "start": 122,
+                    "end": 123
                   },
                   "constraint": null,
                   "default": null,
                   "in": false,
                   "out": false,
                   "const": false,
-                  "start": 116,
-                  "end": 117
+                  "start": 122,
+                  "end": 123
                 }
               ],
-              "start": 112,
-              "end": 118
+              "start": 118,
+              "end": 124
             },
             "superClass": null,
             "superTypeArguments": null,
@@ -148,23 +148,23 @@ __ESTREE_TEST__:PASS:
             "body": {
               "type": "ClassBody",
               "body": [],
-              "start": 119,
-              "end": 122
+              "start": 125,
+              "end": 128
             },
             "abstract": false,
             "declare": false,
-            "start": 97,
-            "end": 122
+            "start": 103,
+            "end": 128
           }
         ],
-        "start": 93,
-        "end": 124
+        "start": 99,
+        "end": 130
       },
-      "kind": "module",
+      "kind": "namespace",
       "declare": true,
       "global": false,
-      "start": 72,
-      "end": 124
+      "start": 75,
+      "end": 130
     },
     {
       "type": "TSModuleDeclaration",
@@ -172,8 +172,8 @@ __ESTREE_TEST__:PASS:
         "type": "Literal",
         "value": "BaseComponent",
         "raw": "\"BaseComponent\"",
-        "start": 140,
-        "end": 155
+        "start": 146,
+        "end": 161
       },
       "body": {
         "type": "TSModuleBlock",
@@ -201,8 +201,8 @@ __ESTREE_TEST__:PASS:
                           "name": "React",
                           "optional": false,
                           "typeAnnotation": null,
-                          "start": 172,
-                          "end": 177
+                          "start": 178,
+                          "end": 183
                         },
                         "right": {
                           "type": "Identifier",
@@ -210,48 +210,48 @@ __ESTREE_TEST__:PASS:
                           "name": "Component",
                           "optional": false,
                           "typeAnnotation": null,
-                          "start": 178,
-                          "end": 187
+                          "start": 184,
+                          "end": 193
                         },
-                        "start": 172,
-                        "end": 187
+                        "start": 178,
+                        "end": 193
                       },
                       "typeArguments": {
                         "type": "TSTypeParameterInstantiation",
                         "params": [
                           {
                             "type": "TSAnyKeyword",
-                            "start": 188,
-                            "end": 191
+                            "start": 194,
+                            "end": 197
                           },
                           {
                             "type": "TSTypeLiteral",
                             "members": [],
-                            "start": 193,
-                            "end": 195
+                            "start": 199,
+                            "end": 201
                           }
                         ],
-                        "start": 187,
-                        "end": 196
+                        "start": 193,
+                        "end": 202
                       },
-                      "start": 172,
-                      "end": 196
+                      "start": 178,
+                      "end": 202
                     },
-                    "start": 170,
-                    "end": 196
+                    "start": 176,
+                    "end": 202
                   },
-                  "start": 166,
-                  "end": 196
+                  "start": 172,
+                  "end": 202
                 },
                 "init": null,
                 "definite": false,
-                "start": 166,
-                "end": 196
+                "start": 172,
+                "end": 202
               }
             ],
             "declare": false,
-            "start": 162,
-            "end": 197
+            "start": 168,
+            "end": 203
           },
           {
             "type": "TSExportAssignment",
@@ -261,27 +261,27 @@ __ESTREE_TEST__:PASS:
               "name": "base",
               "optional": false,
               "typeAnnotation": null,
-              "start": 211,
-              "end": 215
+              "start": 217,
+              "end": 221
             },
-            "start": 202,
-            "end": 216
+            "start": 208,
+            "end": 222
           }
         ],
-        "start": 156,
-        "end": 218
+        "start": 162,
+        "end": 224
       },
       "kind": "module",
       "declare": true,
       "global": false,
-      "start": 125,
-      "end": 218
+      "start": 131,
+      "end": 224
     }
   ],
   "sourceType": "module",
   "hashbang": null,
   "start": 0,
-  "end": 219
+  "end": 225
 }
 ```
 __ESTREE_TEST__:PASS:

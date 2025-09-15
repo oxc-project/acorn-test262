@@ -11,8 +11,8 @@ __ESTREE_TEST__:PASS:
         "name": "http",
         "optional": false,
         "typeAnnotation": null,
-        "start": 15,
-        "end": 19
+        "start": 18,
+        "end": 22
       },
       "body": {
         "type": "TSModuleBlock",
@@ -27,8 +27,8 @@ __ESTREE_TEST__:PASS:
                 "name": "Server",
                 "optional": false,
                 "typeAnnotation": null,
-                "start": 40,
-                "end": 46
+                "start": 43,
+                "end": 49
               },
               "typeParameters": null,
               "extends": [],
@@ -46,48 +46,48 @@ __ESTREE_TEST__:PASS:
                       "name": "openPort",
                       "optional": false,
                       "typeAnnotation": null,
-                      "start": 49,
-                      "end": 57
+                      "start": 52,
+                      "end": 60
                     },
                     "typeAnnotation": {
                       "type": "TSTypeAnnotation",
                       "typeAnnotation": {
                         "type": "TSNumberKeyword",
-                        "start": 59,
-                        "end": 65
+                        "start": 62,
+                        "end": 68
                       },
-                      "start": 57,
-                      "end": 65
+                      "start": 60,
+                      "end": 68
                     },
                     "accessibility": null,
                     "static": false,
-                    "start": 49,
-                    "end": 66
+                    "start": 52,
+                    "end": 69
                   }
                 ],
-                "start": 47,
-                "end": 68
+                "start": 50,
+                "end": 71
               },
               "declare": false,
-              "start": 30,
-              "end": 68
+              "start": 33,
+              "end": 71
             },
             "specifiers": [],
             "source": null,
             "exportKind": "type",
             "attributes": [],
-            "start": 23,
-            "end": 68
+            "start": 26,
+            "end": 71
           }
         ],
-        "start": 20,
-        "end": 70
+        "start": 23,
+        "end": 73
       },
-      "kind": "module",
+      "kind": "namespace",
       "declare": true,
       "global": false,
       "start": 0,
-      "end": 70
+      "end": 73
     },
     {
       "type": "TSInterfaceDeclaration",
@@ -97,8 +97,8 @@ __ESTREE_TEST__:PASS:
         "name": "server",
         "optional": false,
         "typeAnnotation": null,
-        "start": 82,
-        "end": 88
+        "start": 85,
+        "end": 91
       },
       "typeParameters": null,
       "extends": [],
@@ -121,8 +121,8 @@ __ESTREE_TEST__:PASS:
                     "name": "http",
                     "optional": false,
                     "typeAnnotation": null,
-                    "start": 99,
-                    "end": 103
+                    "start": 102,
+                    "end": 106
                   },
                   "right": {
                     "type": "Identifier",
@@ -130,21 +130,21 @@ __ESTREE_TEST__:PASS:
                     "name": "Server",
                     "optional": false,
                     "typeAnnotation": null,
-                    "start": 104,
-                    "end": 110
+                    "start": 107,
+                    "end": 113
                   },
-                  "start": 99,
-                  "end": 110
+                  "start": 102,
+                  "end": 113
                 },
                 "typeArguments": null,
-                "start": 99,
-                "end": 110
+                "start": 102,
+                "end": 113
               },
-              "start": 97,
-              "end": 110
+              "start": 100,
+              "end": 113
             },
-            "start": 95,
-            "end": 111
+            "start": 98,
+            "end": 114
           },
           {
             "type": "TSPropertySignature",
@@ -157,8 +157,8 @@ __ESTREE_TEST__:PASS:
               "name": "startTime",
               "optional": false,
               "typeAnnotation": null,
-              "start": 116,
-              "end": 125
+              "start": 119,
+              "end": 128
             },
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
@@ -170,28 +170,28 @@ __ESTREE_TEST__:PASS:
                   "name": "Date",
                   "optional": false,
                   "typeAnnotation": null,
-                  "start": 127,
-                  "end": 131
+                  "start": 130,
+                  "end": 134
                 },
                 "typeArguments": null,
-                "start": 127,
-                "end": 131
+                "start": 130,
+                "end": 134
               },
-              "start": 125,
-              "end": 131
+              "start": 128,
+              "end": 134
             },
             "accessibility": null,
             "static": false,
-            "start": 116,
-            "end": 132
+            "start": 119,
+            "end": 135
           }
         ],
-        "start": 89,
-        "end": 134
+        "start": 92,
+        "end": 137
       },
       "declare": false,
-      "start": 72,
-      "end": 134
+      "start": 75,
+      "end": 137
     },
     {
       "type": "VariableDeclaration",
@@ -205,24 +205,24 @@ __ESTREE_TEST__:PASS:
             "name": "x",
             "optional": false,
             "typeAnnotation": null,
-            "start": 141,
-            "end": 142
+            "start": 144,
+            "end": 145
           },
           "init": {
             "type": "Literal",
             "value": 5,
             "raw": "5",
-            "start": 145,
-            "end": 146
+            "start": 148,
+            "end": 149
           },
           "definite": false,
-          "start": 141,
-          "end": 146
+          "start": 144,
+          "end": 149
         }
       ],
       "declare": false,
-      "start": 137,
-      "end": 147
+      "start": 140,
+      "end": 150
     },
     {
       "type": "VariableDeclaration",
@@ -236,8 +236,8 @@ __ESTREE_TEST__:PASS:
             "name": "server",
             "optional": false,
             "typeAnnotation": null,
-            "start": 152,
-            "end": 158
+            "start": 155,
+            "end": 161
           },
           "init": {
             "type": "NewExpression",
@@ -247,22 +247,22 @@ __ESTREE_TEST__:PASS:
               "name": "Date",
               "optional": false,
               "typeAnnotation": null,
-              "start": 165,
-              "end": 169
+              "start": 168,
+              "end": 172
             },
             "typeArguments": null,
             "arguments": [],
-            "start": 161,
-            "end": 171
+            "start": 164,
+            "end": 174
           },
           "definite": false,
-          "start": 152,
-          "end": 171
+          "start": 155,
+          "end": 174
         }
       ],
       "declare": false,
-      "start": 148,
-      "end": 172
+      "start": 151,
+      "end": 175
     },
     {
       "type": "TSExportAssignment",
@@ -272,16 +272,16 @@ __ESTREE_TEST__:PASS:
         "name": "server",
         "optional": false,
         "typeAnnotation": null,
-        "start": 182,
-        "end": 188
+        "start": 185,
+        "end": 191
       },
-      "start": 173,
-      "end": 189
+      "start": 176,
+      "end": 192
     }
   ],
   "sourceType": "module",
   "hashbang": null,
   "start": 0,
-  "end": 191
+  "end": 194
 }
 ```

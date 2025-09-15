@@ -11,8 +11,8 @@ __ESTREE_TEST__:PASS:
         "name": "M",
         "optional": false,
         "typeAnnotation": null,
-        "start": 7,
-        "end": 8
+        "start": 10,
+        "end": 11
       },
       "body": {
         "type": "TSModuleBlock",
@@ -29,8 +29,8 @@ __ESTREE_TEST__:PASS:
                   "name": "f",
                   "optional": false,
                   "typeAnnotation": null,
-                  "start": 16,
-                  "end": 17
+                  "start": 19,
+                  "end": 20
                 },
                 "init": {
                   "type": "ArrowFunctionExpression",
@@ -48,8 +48,8 @@ __ESTREE_TEST__:PASS:
                           "type": "MemberExpression",
                           "object": {
                             "type": "ThisExpression",
-                            "start": 27,
-                            "end": 31
+                            "start": 30,
+                            "end": 34
                           },
                           "property": {
                             "type": "Identifier",
@@ -57,50 +57,50 @@ __ESTREE_TEST__:PASS:
                             "name": "window",
                             "optional": false,
                             "typeAnnotation": null,
-                            "start": 32,
-                            "end": 38
+                            "start": 35,
+                            "end": 41
                           },
                           "optional": false,
                           "computed": false,
-                          "start": 27,
-                          "end": 38
+                          "start": 30,
+                          "end": 41
                         },
                         "directive": null,
-                        "start": 27,
-                        "end": 39
+                        "start": 30,
+                        "end": 42
                       }
                     ],
-                    "start": 26,
-                    "end": 40
+                    "start": 29,
+                    "end": 43
                   },
                   "id": null,
                   "generator": false,
-                  "start": 20,
-                  "end": 40
+                  "start": 23,
+                  "end": 43
                 },
                 "definite": false,
-                "start": 16,
-                "end": 40
+                "start": 19,
+                "end": 43
               }
             ],
             "declare": false,
-            "start": 12,
-            "end": 40
+            "start": 15,
+            "end": 43
           }
         ],
-        "start": 9,
-        "end": 42
+        "start": 12,
+        "end": 45
       },
-      "kind": "module",
+      "kind": "namespace",
       "declare": false,
       "global": false,
       "start": 0,
-      "end": 42
+      "end": 45
     }
   ],
   "sourceType": "script",
   "hashbang": null,
   "start": 0,
-  "end": 42
+  "end": 45
 }
 ```

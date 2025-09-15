@@ -11,8 +11,8 @@ __ESTREE_TEST__:PASS:
         "name": "Tools",
         "optional": false,
         "typeAnnotation": null,
-        "start": 7,
-        "end": 12
+        "start": 10,
+        "end": 15
       },
       "body": {
         "type": "TSModuleBlock",
@@ -28,8 +28,8 @@ __ESTREE_TEST__:PASS:
                 "name": "NullLogger",
                 "optional": false,
                 "typeAnnotation": null,
-                "start": 32,
-                "end": 42
+                "start": 35,
+                "end": 45
               },
               "typeParameters": null,
               "superClass": null,
@@ -38,30 +38,30 @@ __ESTREE_TEST__:PASS:
               "body": {
                 "type": "ClassBody",
                 "body": [],
-                "start": 43,
-                "end": 46
+                "start": 46,
+                "end": 49
               },
               "abstract": false,
               "declare": false,
-              "start": 26,
-              "end": 46
+              "start": 29,
+              "end": 49
             },
             "specifiers": [],
             "source": null,
             "exportKind": "value",
             "attributes": [],
-            "start": 19,
-            "end": 46
+            "start": 22,
+            "end": 49
           }
         ],
-        "start": 13,
-        "end": 48
+        "start": 16,
+        "end": 51
       },
-      "kind": "module",
+      "kind": "namespace",
       "declare": false,
       "global": false,
       "start": 0,
-      "end": 48
+      "end": 51
     },
     {
       "type": "VariableDeclaration",
@@ -75,8 +75,8 @@ __ESTREE_TEST__:PASS:
             "name": "logger",
             "optional": false,
             "typeAnnotation": null,
-            "start": 54,
-            "end": 60
+            "start": 57,
+            "end": 63
           },
           "init": {
             "type": "CallExpression",
@@ -88,8 +88,8 @@ __ESTREE_TEST__:PASS:
                 "name": "Tools",
                 "optional": false,
                 "typeAnnotation": null,
-                "start": 63,
-                "end": 68
+                "start": 66,
+                "end": 71
               },
               "property": {
                 "type": "Identifier",
@@ -97,33 +97,33 @@ __ESTREE_TEST__:PASS:
                 "name": "NullLogger",
                 "optional": false,
                 "typeAnnotation": null,
-                "start": 69,
-                "end": 79
+                "start": 72,
+                "end": 82
               },
               "optional": false,
               "computed": false,
-              "start": 63,
-              "end": 79
+              "start": 66,
+              "end": 82
             },
             "typeArguments": null,
             "arguments": [],
             "optional": false,
-            "start": 63,
-            "end": 81
+            "start": 66,
+            "end": 84
           },
           "definite": false,
-          "start": 54,
-          "end": 81
+          "start": 57,
+          "end": 84
         }
       ],
       "declare": false,
-      "start": 50,
-      "end": 82
+      "start": 53,
+      "end": 85
     }
   ],
   "sourceType": "script",
   "hashbang": null,
   "start": 0,
-  "end": 82
+  "end": 85
 }
 ```

@@ -1591,8 +1591,8 @@ __ESTREE_TEST__:PASS:
         "name": "M",
         "optional": false,
         "typeAnnotation": null,
-        "start": 913,
-        "end": 914
+        "start": 916,
+        "end": 917
       },
       "body": {
         "type": "TSModuleBlock",
@@ -1607,8 +1607,8 @@ __ESTREE_TEST__:PASS:
                 "name": "f1",
                 "optional": false,
                 "typeAnnotation": null,
-                "start": 940,
-                "end": 942
+                "start": 943,
+                "end": 945
               },
               "generator": false,
               "async": true,
@@ -1619,29 +1619,29 @@ __ESTREE_TEST__:PASS:
               "body": {
                 "type": "BlockStatement",
                 "body": [],
-                "start": 945,
-                "end": 948
+                "start": 948,
+                "end": 951
               },
               "expression": false,
-              "start": 925,
-              "end": 948
+              "start": 928,
+              "end": 951
             },
             "specifiers": [],
             "source": null,
             "exportKind": "value",
             "attributes": [],
-            "start": 918,
-            "end": 948
+            "start": 921,
+            "end": 951
           }
         ],
-        "start": 915,
-        "end": 950
+        "start": 918,
+        "end": 953
       },
-      "kind": "module",
+      "kind": "namespace",
       "declare": false,
       "global": false,
       "start": 906,
-      "end": 950
+      "end": 953
     },
     {
       "type": "FunctionDeclaration",
@@ -1651,8 +1651,8 @@ __ESTREE_TEST__:PASS:
         "name": "f14",
         "optional": false,
         "typeAnnotation": null,
-        "start": 967,
-        "end": 970
+        "start": 970,
+        "end": 973
       },
       "generator": false,
       "async": true,
@@ -1671,8 +1671,8 @@ __ESTREE_TEST__:PASS:
               "name": "block",
               "optional": false,
               "typeAnnotation": null,
-              "start": 979,
-              "end": 984
+              "start": 982,
+              "end": 987
             },
             "body": {
               "type": "BlockStatement",
@@ -1685,15 +1685,15 @@ __ESTREE_TEST__:PASS:
                       "type": "Literal",
                       "value": 1,
                       "raw": "1",
-                      "start": 1002,
-                      "end": 1003
+                      "start": 1005,
+                      "end": 1006
                     },
-                    "start": 996,
-                    "end": 1003
+                    "start": 999,
+                    "end": 1006
                   },
                   "directive": null,
-                  "start": 996,
-                  "end": 1004
+                  "start": 999,
+                  "end": 1007
                 },
                 {
                   "type": "BreakStatement",
@@ -1703,31 +1703,31 @@ __ESTREE_TEST__:PASS:
                     "name": "block",
                     "optional": false,
                     "typeAnnotation": null,
-                    "start": 1019,
-                    "end": 1024
+                    "start": 1022,
+                    "end": 1027
                   },
-                  "start": 1013,
-                  "end": 1025
+                  "start": 1016,
+                  "end": 1028
                 }
               ],
-              "start": 986,
-              "end": 1031
+              "start": 989,
+              "end": 1034
             },
-            "start": 979,
-            "end": 1031
+            "start": 982,
+            "end": 1034
           }
         ],
-        "start": 973,
-        "end": 1033
+        "start": 976,
+        "end": 1036
       },
       "expression": false,
-      "start": 952,
-      "end": 1033
+      "start": 955,
+      "end": 1036
     }
   ],
   "sourceType": "script",
   "hashbang": null,
   "start": 0,
-  "end": 1033
+  "end": 1036
 }
 ```

@@ -128,7 +128,7 @@ __ESTREE_TEST__:PASS:
             "typeName": {
               "type": "Identifier",
               "decorators": [],
-              "name": "Float32ArrayConstructor",
+              "name": "Float16ArrayConstructor",
               "optional": false,
               "typeAnnotation": null,
               "start": 296,
@@ -143,7 +143,7 @@ __ESTREE_TEST__:PASS:
             "typeName": {
               "type": "Identifier",
               "decorators": [],
-              "name": "Float64ArrayConstructor",
+              "name": "Float32ArrayConstructor",
               "optional": false,
               "typeAnnotation": null,
               "start": 326,
@@ -158,15 +158,30 @@ __ESTREE_TEST__:PASS:
             "typeName": {
               "type": "Identifier",
               "decorators": [],
-              "name": "BigInt64ArrayConstructor",
+              "name": "Float64ArrayConstructor",
               "optional": false,
               "typeAnnotation": null,
               "start": 356,
-              "end": 380
+              "end": 379
             },
             "typeArguments": null,
             "start": 356,
-            "end": 380
+            "end": 379
+          },
+          {
+            "type": "TSTypeReference",
+            "typeName": {
+              "type": "Identifier",
+              "decorators": [],
+              "name": "BigInt64ArrayConstructor",
+              "optional": false,
+              "typeAnnotation": null,
+              "start": 386,
+              "end": 410
+            },
+            "typeArguments": null,
+            "start": 386,
+            "end": 410
           },
           {
             "type": "TSTypeReference",
@@ -176,20 +191,20 @@ __ESTREE_TEST__:PASS:
               "name": "BigUint64ArrayConstructor",
               "optional": false,
               "typeAnnotation": null,
-              "start": 387,
-              "end": 412
+              "start": 417,
+              "end": 442
             },
             "typeArguments": null,
-            "start": 387,
-            "end": 412
+            "start": 417,
+            "end": 442
           }
         ],
         "start": 90,
-        "end": 412
+        "end": 442
       },
       "declare": false,
       "start": 57,
-      "end": 412
+      "end": 442
     },
     {
       "type": "ExportNamedDeclaration",
@@ -201,8 +216,8 @@ __ESTREE_TEST__:PASS:
           "name": "makeTypedArray",
           "optional": false,
           "typeAnnotation": null,
-          "start": 430,
-          "end": 444
+          "start": 460,
+          "end": 474
         },
         "generator": false,
         "async": false,
@@ -224,18 +239,18 @@ __ESTREE_TEST__:PASS:
                   "name": "ArrayBuffer",
                   "optional": false,
                   "typeAnnotation": null,
-                  "start": 453,
-                  "end": 464
+                  "start": 483,
+                  "end": 494
                 },
                 "typeArguments": null,
-                "start": 453,
-                "end": 464
+                "start": 483,
+                "end": 494
               },
-              "start": 451,
-              "end": 464
+              "start": 481,
+              "end": 494
             },
-            "start": 445,
-            "end": 464
+            "start": 475,
+            "end": 494
           },
           {
             "type": "Identifier",
@@ -252,18 +267,18 @@ __ESTREE_TEST__:PASS:
                   "name": "TypedArrayConstructor",
                   "optional": false,
                   "typeAnnotation": null,
-                  "start": 471,
-                  "end": 492
+                  "start": 501,
+                  "end": 522
                 },
                 "typeArguments": null,
-                "start": 471,
-                "end": 492
+                "start": 501,
+                "end": 522
               },
-              "start": 469,
-              "end": 492
+              "start": 499,
+              "end": 522
             },
-            "start": 466,
-            "end": 492
+            "start": 496,
+            "end": 522
           }
         ],
         "returnType": null,
@@ -280,8 +295,8 @@ __ESTREE_TEST__:PASS:
                   "name": "ctr",
                   "optional": false,
                   "typeAnnotation": null,
-                  "start": 504,
-                  "end": 507
+                  "start": 534,
+                  "end": 537
                 },
                 "typeArguments": null,
                 "arguments": [
@@ -291,16 +306,16 @@ __ESTREE_TEST__:PASS:
                     "name": "buffer",
                     "optional": false,
                     "typeAnnotation": null,
-                    "start": 508,
-                    "end": 514
+                    "start": 538,
+                    "end": 544
                   }
                 ],
-                "start": 500,
-                "end": 515
+                "start": 530,
+                "end": 545
               },
               "directive": null,
-              "start": 500,
-              "end": 516
+              "start": 530,
+              "end": 546
             },
             {
               "type": "ExpressionStatement",
@@ -312,8 +327,8 @@ __ESTREE_TEST__:PASS:
                   "name": "ctr",
                   "optional": false,
                   "typeAnnotation": null,
-                  "start": 525,
-                  "end": 528
+                  "start": 555,
+                  "end": 558
                 },
                 "typeArguments": null,
                 "arguments": [
@@ -323,50 +338,50 @@ __ESTREE_TEST__:PASS:
                     "name": "buffer",
                     "optional": false,
                     "typeAnnotation": null,
-                    "start": 529,
-                    "end": 535
+                    "start": 559,
+                    "end": 565
                   },
                   {
                     "type": "Literal",
                     "value": 0,
                     "raw": "0",
-                    "start": 537,
-                    "end": 538
+                    "start": 567,
+                    "end": 568
                   },
                   {
                     "type": "Literal",
                     "value": 0,
                     "raw": "0",
-                    "start": 540,
-                    "end": 541
+                    "start": 570,
+                    "end": 571
                   }
                 ],
-                "start": 521,
-                "end": 542
+                "start": 551,
+                "end": 572
               },
               "directive": null,
-              "start": 521,
-              "end": 543
+              "start": 551,
+              "end": 573
             }
           ],
-          "start": 494,
-          "end": 545
+          "start": 524,
+          "end": 575
         },
         "expression": false,
-        "start": 421,
-        "end": 545
+        "start": 451,
+        "end": 575
       },
       "specifiers": [],
       "source": null,
       "exportKind": "value",
       "attributes": [],
-      "start": 414,
-      "end": 545
+      "start": 444,
+      "end": 575
     }
   ],
   "sourceType": "module",
   "hashbang": null,
   "start": 57,
-  "end": 545
+  "end": 575
 }
 ```

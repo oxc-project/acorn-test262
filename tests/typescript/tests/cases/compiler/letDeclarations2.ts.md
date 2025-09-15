@@ -11,8 +11,8 @@ __ESTREE_TEST__:PASS:
         "name": "M",
         "optional": false,
         "typeAnnotation": null,
-        "start": 7,
-        "end": 8
+        "start": 10,
+        "end": 11
       },
       "body": {
         "type": "TSModuleBlock",
@@ -29,24 +29,24 @@ __ESTREE_TEST__:PASS:
                   "name": "l1",
                   "optional": false,
                   "typeAnnotation": null,
-                  "start": 19,
-                  "end": 21
+                  "start": 22,
+                  "end": 24
                 },
                 "init": {
                   "type": "Literal",
                   "value": "s",
                   "raw": "\"s\"",
-                  "start": 24,
-                  "end": 27
+                  "start": 27,
+                  "end": 30
                 },
                 "definite": false,
-                "start": 19,
-                "end": 27
+                "start": 22,
+                "end": 30
               }
             ],
             "declare": false,
-            "start": 15,
-            "end": 28
+            "start": 18,
+            "end": 31
           },
           {
             "type": "ExportNamedDeclaration",
@@ -62,46 +62,46 @@ __ESTREE_TEST__:PASS:
                     "name": "l2",
                     "optional": false,
                     "typeAnnotation": null,
-                    "start": 44,
-                    "end": 46
+                    "start": 47,
+                    "end": 49
                   },
                   "init": {
                     "type": "Literal",
                     "value": 0,
                     "raw": "0",
-                    "start": 49,
-                    "end": 50
+                    "start": 52,
+                    "end": 53
                   },
                   "definite": false,
-                  "start": 44,
-                  "end": 50
+                  "start": 47,
+                  "end": 53
                 }
               ],
               "declare": false,
-              "start": 40,
-              "end": 51
+              "start": 43,
+              "end": 54
             },
             "specifiers": [],
             "source": null,
             "exportKind": "value",
             "attributes": [],
-            "start": 33,
-            "end": 51
+            "start": 36,
+            "end": 54
           }
         ],
-        "start": 9,
-        "end": 53
+        "start": 12,
+        "end": 56
       },
-      "kind": "module",
+      "kind": "namespace",
       "declare": false,
       "global": false,
       "start": 0,
-      "end": 53
+      "end": 56
     }
   ],
   "sourceType": "script",
   "hashbang": null,
   "start": 0,
-  "end": 53
+  "end": 56
 }
 ```

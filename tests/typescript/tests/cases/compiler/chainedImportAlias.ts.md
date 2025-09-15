@@ -13,8 +13,8 @@ __ESTREE_TEST__:PASS:
           "name": "m",
           "optional": false,
           "typeAnnotation": null,
-          "start": 14,
-          "end": 15
+          "start": 17,
+          "end": 18
         },
         "body": {
           "type": "TSModuleBlock",
@@ -29,8 +29,8 @@ __ESTREE_TEST__:PASS:
                   "name": "foo",
                   "optional": false,
                   "typeAnnotation": null,
-                  "start": 38,
-                  "end": 41
+                  "start": 41,
+                  "end": 44
                 },
                 "generator": false,
                 "async": false,
@@ -41,42 +41,42 @@ __ESTREE_TEST__:PASS:
                 "body": {
                   "type": "BlockStatement",
                   "body": [],
-                  "start": 44,
-                  "end": 47
+                  "start": 47,
+                  "end": 50
                 },
                 "expression": false,
-                "start": 29,
-                "end": 47
+                "start": 32,
+                "end": 50
               },
               "specifiers": [],
               "source": null,
               "exportKind": "value",
               "attributes": [],
-              "start": 22,
-              "end": 47
+              "start": 25,
+              "end": 50
             }
           ],
-          "start": 16,
-          "end": 49
+          "start": 19,
+          "end": 52
         },
-        "kind": "module",
+        "kind": "namespace",
         "declare": false,
         "global": false,
         "start": 7,
-        "end": 49
+        "end": 52
       },
       "specifiers": [],
       "source": null,
       "exportKind": "value",
       "attributes": [],
       "start": 0,
-      "end": 49
+      "end": 52
     }
   ],
   "sourceType": "module",
   "hashbang": null,
   "start": 0,
-  "end": 50
+  "end": 53
 }
 ```
 __ESTREE_TEST__:PASS:

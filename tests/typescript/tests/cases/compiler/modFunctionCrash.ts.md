@@ -11,8 +11,8 @@ __ESTREE_TEST__:PASS:
         "name": "Q",
         "optional": false,
         "typeAnnotation": null,
-        "start": 15,
-        "end": 16
+        "start": 18,
+        "end": 19
       },
       "body": {
         "type": "TSModuleBlock",
@@ -25,8 +25,8 @@ __ESTREE_TEST__:PASS:
               "name": "f",
               "optional": false,
               "typeAnnotation": null,
-              "start": 32,
-              "end": 33
+              "start": 35,
+              "end": 36
             },
             "generator": false,
             "async": false,
@@ -48,37 +48,37 @@ __ESTREE_TEST__:PASS:
                       "type": "TSTypeAnnotation",
                       "typeAnnotation": {
                         "type": "TSVoidKeyword",
-                        "start": 41,
-                        "end": 45
+                        "start": 44,
+                        "end": 48
                       },
-                      "start": 39,
-                      "end": 45
+                      "start": 42,
+                      "end": 48
                     },
-                    "start": 37,
-                    "end": 45
+                    "start": 40,
+                    "end": 48
                   },
-                  "start": 36,
-                  "end": 45
+                  "start": 39,
+                  "end": 48
                 },
-                "start": 34,
-                "end": 45
+                "start": 37,
+                "end": 48
               }
             ],
             "returnType": null,
             "body": null,
             "expression": false,
-            "start": 23,
-            "end": 47
+            "start": 26,
+            "end": 50
           }
         ],
-        "start": 17,
-        "end": 112
+        "start": 20,
+        "end": 115
       },
-      "kind": "module",
+      "kind": "namespace",
       "declare": true,
       "global": false,
       "start": 0,
-      "end": 112
+      "end": 115
     },
     {
       "type": "ExpressionStatement",
@@ -92,8 +92,8 @@ __ESTREE_TEST__:PASS:
             "name": "Q",
             "optional": false,
             "typeAnnotation": null,
-            "start": 115,
-            "end": 116
+            "start": 118,
+            "end": 119
           },
           "property": {
             "type": "Identifier",
@@ -101,13 +101,13 @@ __ESTREE_TEST__:PASS:
             "name": "f",
             "optional": false,
             "typeAnnotation": null,
-            "start": 117,
-            "end": 118
+            "start": 120,
+            "end": 121
           },
           "optional": false,
           "computed": false,
-          "start": 115,
-          "end": 118
+          "start": 118,
+          "end": 121
         },
         "typeArguments": null,
         "arguments": [
@@ -127,34 +127,34 @@ __ESTREE_TEST__:PASS:
                   "type": "ExpressionStatement",
                   "expression": {
                     "type": "ThisExpression",
-                    "start": 131,
-                    "end": 135
+                    "start": 134,
+                    "end": 138
                   },
                   "directive": null,
-                  "start": 131,
-                  "end": 136
+                  "start": 134,
+                  "end": 139
                 }
               ],
-              "start": 130,
-              "end": 137
+              "start": 133,
+              "end": 140
             },
             "expression": false,
-            "start": 119,
-            "end": 137
+            "start": 122,
+            "end": 140
           }
         ],
         "optional": false,
-        "start": 115,
-        "end": 138
+        "start": 118,
+        "end": 141
       },
       "directive": null,
-      "start": 115,
-      "end": 139
+      "start": 118,
+      "end": 142
     }
   ],
   "sourceType": "script",
   "hashbang": null,
   "start": 0,
-  "end": 139
+  "end": 142
 }
 ```

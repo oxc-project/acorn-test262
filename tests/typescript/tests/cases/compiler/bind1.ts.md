@@ -11,8 +11,8 @@ __ESTREE_TEST__:PASS:
         "name": "M",
         "optional": false,
         "typeAnnotation": null,
-        "start": 7,
-        "end": 8
+        "start": 10,
+        "end": 11
       },
       "body": {
         "type": "TSModuleBlock",
@@ -28,8 +28,8 @@ __ESTREE_TEST__:PASS:
                 "name": "C",
                 "optional": false,
                 "typeAnnotation": null,
-                "start": 28,
-                "end": 29
+                "start": 31,
+                "end": 32
               },
               "typeParameters": null,
               "superClass": null,
@@ -43,46 +43,46 @@ __ESTREE_TEST__:PASS:
                     "name": "I",
                     "optional": false,
                     "typeAnnotation": null,
-                    "start": 41,
-                    "end": 42
+                    "start": 44,
+                    "end": 45
                   },
                   "typeArguments": null,
-                  "start": 41,
-                  "end": 42
+                  "start": 44,
+                  "end": 45
                 }
               ],
               "body": {
                 "type": "ClassBody",
                 "body": [],
-                "start": 43,
-                "end": 45
+                "start": 46,
+                "end": 48
               },
               "abstract": false,
               "declare": false,
-              "start": 22,
-              "end": 45
+              "start": 25,
+              "end": 48
             },
             "specifiers": [],
             "source": null,
             "exportKind": "value",
             "attributes": [],
-            "start": 15,
-            "end": 45
+            "start": 18,
+            "end": 48
           }
         ],
-        "start": 9,
-        "end": 94
+        "start": 12,
+        "end": 97
       },
-      "kind": "module",
+      "kind": "namespace",
       "declare": false,
       "global": false,
       "start": 0,
-      "end": 94
+      "end": 97
     }
   ],
   "sourceType": "script",
   "hashbang": null,
   "start": 0,
-  "end": 95
+  "end": 98
 }
 ```

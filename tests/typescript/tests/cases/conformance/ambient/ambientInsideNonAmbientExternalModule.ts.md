@@ -145,32 +145,32 @@ __ESTREE_TEST__:PASS:
           "name": "M",
           "optional": false,
           "typeAnnotation": null,
-          "start": 126,
-          "end": 127
+          "start": 129,
+          "end": 130
         },
         "body": {
           "type": "TSModuleBlock",
           "body": [],
-          "start": 128,
-          "end": 131
+          "start": 131,
+          "end": 134
         },
-        "kind": "module",
+        "kind": "namespace",
         "declare": true,
         "global": false,
         "start": 111,
-        "end": 131
+        "end": 134
       },
       "specifiers": [],
       "source": null,
       "exportKind": "type",
       "attributes": [],
       "start": 104,
-      "end": 131
+      "end": 134
     }
   ],
   "sourceType": "module",
   "hashbang": null,
   "start": 0,
-  "end": 131
+  "end": 134
 }
 ```

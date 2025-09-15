@@ -167,8 +167,8 @@ __ESTREE_TEST__:PASS:
         "name": "M",
         "optional": false,
         "typeAnnotation": null,
-        "start": 66,
-        "end": 67
+        "start": 69,
+        "end": 70
       },
       "body": {
         "type": "TSModuleBlock",
@@ -183,8 +183,8 @@ __ESTREE_TEST__:PASS:
                 "name": "f",
                 "optional": false,
                 "typeAnnotation": null,
-                "start": 90,
-                "end": 91
+                "start": 93,
+                "end": 94
               },
               "generator": false,
               "async": false,
@@ -206,18 +206,18 @@ __ESTREE_TEST__:PASS:
                         "name": "C",
                         "optional": false,
                         "typeAnnotation": null,
-                        "start": 102,
-                        "end": 103
+                        "start": 105,
+                        "end": 106
                       },
                       "typeArguments": null,
-                      "start": 95,
-                      "end": 103
+                      "start": 98,
+                      "end": 106
                     },
-                    "start": 93,
-                    "end": 103
+                    "start": 96,
+                    "end": 106
                   },
-                  "start": 92,
-                  "end": 103
+                  "start": 95,
+                  "end": 106
                 }
               ],
               "returnType": null,
@@ -234,8 +234,8 @@ __ESTREE_TEST__:PASS:
                         "name": "x",
                         "optional": false,
                         "typeAnnotation": null,
-                        "start": 129,
-                        "end": 130
+                        "start": 132,
+                        "end": 133
                       },
                       "typeArguments": {
                         "type": "TSTypeParameterInstantiation",
@@ -248,53 +248,53 @@ __ESTREE_TEST__:PASS:
                               "name": "x",
                               "optional": false,
                               "typeAnnotation": null,
-                              "start": 138,
-                              "end": 139
+                              "start": 141,
+                              "end": 142
                             },
                             "typeArguments": null,
-                            "start": 131,
-                            "end": 139
+                            "start": 134,
+                            "end": 142
                           }
                         ],
-                        "start": 130,
-                        "end": 140
+                        "start": 133,
+                        "end": 143
                       },
                       "arguments": [],
-                      "start": 125,
-                      "end": 142
+                      "start": 128,
+                      "end": 145
                     },
-                    "start": 118,
-                    "end": 143
+                    "start": 121,
+                    "end": 146
                   }
                 ],
-                "start": 105,
-                "end": 154
+                "start": 108,
+                "end": 157
               },
               "expression": false,
-              "start": 81,
-              "end": 154
+              "start": 84,
+              "end": 157
             },
             "specifiers": [],
             "source": null,
             "exportKind": "value",
             "attributes": [],
-            "start": 74,
-            "end": 154
+            "start": 77,
+            "end": 157
           }
         ],
-        "start": 68,
-        "end": 156
+        "start": 71,
+        "end": 159
       },
-      "kind": "module",
+      "kind": "namespace",
       "declare": false,
       "global": false,
       "start": 59,
-      "end": 156
+      "end": 159
     }
   ],
   "sourceType": "script",
   "hashbang": null,
   "start": 0,
-  "end": 156
+  "end": 159
 }
 ```

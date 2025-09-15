@@ -327,32 +327,32 @@ __ESTREE_TEST__:PASS:
               "name": "M",
               "optional": false,
               "typeAnnotation": null,
-              "start": 277,
-              "end": 278
+              "start": 280,
+              "end": 281
             },
             "body": {
               "type": "TSModuleBlock",
               "body": [],
-              "start": 279,
-              "end": 281
+              "start": 282,
+              "end": 284
             },
-            "kind": "module",
+            "kind": "namespace",
             "declare": false,
             "global": false,
             "start": 270,
-            "end": 281
+            "end": 284
           }
         ],
         "start": 68,
-        "end": 301
+        "end": 304
       },
       "start": 22,
-      "end": 301
+      "end": 304
     }
   ],
   "sourceType": "script",
   "hashbang": null,
   "start": 0,
-  "end": 301
+  "end": 304
 }
 ```

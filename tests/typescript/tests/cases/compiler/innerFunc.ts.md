@@ -101,8 +101,8 @@ __ESTREE_TEST__:PASS:
         "name": "M",
         "optional": false,
         "typeAnnotation": null,
-        "start": 82,
-        "end": 83
+        "start": 85,
+        "end": 86
       },
       "body": {
         "type": "TSModuleBlock",
@@ -117,8 +117,8 @@ __ESTREE_TEST__:PASS:
                 "name": "tungsten",
                 "optional": false,
                 "typeAnnotation": null,
-                "start": 106,
-                "end": 114
+                "start": 109,
+                "end": 117
               },
               "generator": false,
               "async": false,
@@ -137,8 +137,8 @@ __ESTREE_TEST__:PASS:
                       "name": "oxygen",
                       "optional": false,
                       "typeAnnotation": null,
-                      "start": 136,
-                      "end": 142
+                      "start": 139,
+                      "end": 145
                     },
                     "generator": false,
                     "async": false,
@@ -155,24 +155,24 @@ __ESTREE_TEST__:PASS:
                             "type": "Literal",
                             "value": 6,
                             "raw": "6",
-                            "start": 154,
-                            "end": 155
+                            "start": 157,
+                            "end": 158
                           },
-                          "start": 147,
-                          "end": 156
+                          "start": 150,
+                          "end": 159
                         }
                       ],
-                      "start": 145,
-                      "end": 158
+                      "start": 148,
+                      "end": 161
                     },
                     "expression": false,
-                    "start": 127,
-                    "end": 158
+                    "start": 130,
+                    "end": 161
                   },
                   {
                     "type": "EmptyStatement",
-                    "start": 158,
-                    "end": 159
+                    "start": 161,
+                    "end": 162
                   },
                   {
                     "type": "ReturnStatement",
@@ -184,47 +184,47 @@ __ESTREE_TEST__:PASS:
                         "name": "oxygen",
                         "optional": false,
                         "typeAnnotation": null,
-                        "start": 175,
-                        "end": 181
+                        "start": 178,
+                        "end": 184
                       },
                       "typeArguments": null,
                       "arguments": [],
                       "optional": false,
-                      "start": 175,
-                      "end": 183
+                      "start": 178,
+                      "end": 186
                     },
-                    "start": 168,
-                    "end": 184
+                    "start": 171,
+                    "end": 187
                   }
                 ],
-                "start": 117,
-                "end": 190
+                "start": 120,
+                "end": 193
               },
               "expression": false,
-              "start": 97,
-              "end": 190
+              "start": 100,
+              "end": 193
             },
             "specifiers": [],
             "source": null,
             "exportKind": "value",
             "attributes": [],
-            "start": 90,
-            "end": 190
+            "start": 93,
+            "end": 193
           }
         ],
-        "start": 84,
-        "end": 192
+        "start": 87,
+        "end": 195
       },
-      "kind": "module",
+      "kind": "namespace",
       "declare": false,
       "global": false,
       "start": 75,
-      "end": 192
+      "end": 195
     }
   ],
   "sourceType": "script",
   "hashbang": null,
   "start": 0,
-  "end": 192
+  "end": 195
 }
 ```

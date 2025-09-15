@@ -119,25 +119,25 @@ __ESTREE_TEST__:PASS:
         "name": "c5",
         "optional": false,
         "typeAnnotation": null,
-        "start": 55,
-        "end": 57
+        "start": 58,
+        "end": 60
       },
       "body": {
         "type": "TSModuleBlock",
         "body": [],
-        "start": 58,
-        "end": 61
+        "start": 61,
+        "end": 64
       },
-      "kind": "module",
+      "kind": "namespace",
       "declare": false,
       "global": false,
       "start": 48,
-      "end": 61
+      "end": 64
     }
   ],
   "sourceType": "module",
   "hashbang": null,
   "start": 0,
-  "end": 88
+  "end": 91
 }
 ```

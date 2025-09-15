@@ -209,8 +209,8 @@ __ESTREE_TEST__:PASS:
         "name": "Dotted",
         "optional": false,
         "typeAnnotation": null,
-        "start": 161,
-        "end": 167
+        "start": 164,
+        "end": 170
       },
       "body": {
         "type": "TSModuleBlock",
@@ -226,8 +226,8 @@ __ESTREE_TEST__:PASS:
                 "name": "Name",
                 "optional": false,
                 "typeAnnotation": null,
-                "start": 184,
-                "end": 188
+                "start": 187,
+                "end": 191
               },
               "typeParameters": null,
               "superClass": null,
@@ -236,30 +236,30 @@ __ESTREE_TEST__:PASS:
               "body": {
                 "type": "ClassBody",
                 "body": [],
-                "start": 189,
-                "end": 192
+                "start": 192,
+                "end": 195
               },
               "abstract": false,
               "declare": false,
-              "start": 178,
-              "end": 192
+              "start": 181,
+              "end": 195
             },
             "specifiers": [],
             "source": null,
             "exportKind": "value",
             "attributes": [],
-            "start": 171,
-            "end": 192
+            "start": 174,
+            "end": 195
           }
         ],
-        "start": 168,
-        "end": 194
+        "start": 171,
+        "end": 197
       },
-      "kind": "module",
+      "kind": "namespace",
       "declare": false,
       "global": false,
       "start": 154,
-      "end": 194
+      "end": 197
     },
     {
       "type": "VariableDeclaration",
@@ -273,8 +273,8 @@ __ESTREE_TEST__:PASS:
             "name": "a",
             "optional": false,
             "typeAnnotation": null,
-            "start": 260,
-            "end": 261
+            "start": 263,
+            "end": 264
           },
           "init": {
             "type": "JSXElement",
@@ -283,8 +283,8 @@ __ESTREE_TEST__:PASS:
               "name": {
                 "type": "JSXIdentifier",
                 "name": "foundFirst",
-                "start": 265,
-                "end": 275
+                "start": 268,
+                "end": 278
               },
               "typeArguments": null,
               "attributes": [
@@ -293,37 +293,37 @@ __ESTREE_TEST__:PASS:
                   "name": {
                     "type": "JSXIdentifier",
                     "name": "x",
-                    "start": 277,
-                    "end": 278
+                    "start": 280,
+                    "end": 281
                   },
                   "value": {
                     "type": "Literal",
                     "value": "hello",
                     "raw": "\"hello\"",
-                    "start": 279,
-                    "end": 286
+                    "start": 282,
+                    "end": 289
                   },
-                  "start": 277,
-                  "end": 286
+                  "start": 280,
+                  "end": 289
                 }
               ],
               "selfClosing": true,
-              "start": 264,
-              "end": 289
+              "start": 267,
+              "end": 292
             },
             "children": [],
             "closingElement": null,
-            "start": 264,
-            "end": 289
+            "start": 267,
+            "end": 292
           },
           "definite": false,
-          "start": 260,
-          "end": 289
+          "start": 263,
+          "end": 292
         }
       ],
       "declare": false,
-      "start": 256,
-      "end": 290
+      "start": 259,
+      "end": 293
     },
     {
       "type": "VariableDeclaration",
@@ -337,8 +337,8 @@ __ESTREE_TEST__:PASS:
             "name": "b",
             "optional": false,
             "typeAnnotation": null,
-            "start": 295,
-            "end": 296
+            "start": 298,
+            "end": 299
           },
           "init": {
             "type": "JSXElement",
@@ -347,28 +347,28 @@ __ESTREE_TEST__:PASS:
               "name": {
                 "type": "JSXIdentifier",
                 "name": "string_named",
-                "start": 300,
-                "end": 312
+                "start": 303,
+                "end": 315
               },
               "typeArguments": null,
               "attributes": [],
               "selfClosing": true,
-              "start": 299,
-              "end": 315
+              "start": 302,
+              "end": 318
             },
             "children": [],
             "closingElement": null,
-            "start": 299,
-            "end": 315
+            "start": 302,
+            "end": 318
           },
           "definite": false,
-          "start": 295,
-          "end": 315
+          "start": 298,
+          "end": 318
         }
       ],
       "declare": false,
-      "start": 291,
-      "end": 316
+      "start": 294,
+      "end": 319
     },
     {
       "type": "VariableDeclaration",
@@ -382,8 +382,8 @@ __ESTREE_TEST__:PASS:
             "name": "d",
             "optional": false,
             "typeAnnotation": null,
-            "start": 445,
-            "end": 446
+            "start": 448,
+            "end": 449
           },
           "init": {
             "type": "JSXElement",
@@ -392,28 +392,28 @@ __ESTREE_TEST__:PASS:
               "name": {
                 "type": "JSXIdentifier",
                 "name": "Other",
-                "start": 450,
-                "end": 455
+                "start": 453,
+                "end": 458
               },
               "typeArguments": null,
               "attributes": [],
               "selfClosing": true,
-              "start": 449,
-              "end": 458
+              "start": 452,
+              "end": 461
             },
             "children": [],
             "closingElement": null,
-            "start": 449,
-            "end": 458
+            "start": 452,
+            "end": 461
           },
           "definite": false,
-          "start": 445,
-          "end": 458
+          "start": 448,
+          "end": 461
         }
       ],
       "declare": false,
-      "start": 441,
-      "end": 459
+      "start": 444,
+      "end": 462
     },
     {
       "type": "VariableDeclaration",
@@ -427,8 +427,8 @@ __ESTREE_TEST__:PASS:
             "name": "e",
             "optional": false,
             "typeAnnotation": null,
-            "start": 464,
-            "end": 465
+            "start": 467,
+            "end": 468
           },
           "init": {
             "type": "JSXElement",
@@ -439,42 +439,42 @@ __ESTREE_TEST__:PASS:
                 "object": {
                   "type": "JSXIdentifier",
                   "name": "Dotted",
-                  "start": 469,
-                  "end": 475
+                  "start": 472,
+                  "end": 478
                 },
                 "property": {
                   "type": "JSXIdentifier",
                   "name": "Name",
-                  "start": 476,
-                  "end": 480
+                  "start": 479,
+                  "end": 483
                 },
-                "start": 469,
-                "end": 480
+                "start": 472,
+                "end": 483
               },
               "typeArguments": null,
               "attributes": [],
               "selfClosing": true,
-              "start": 468,
-              "end": 483
+              "start": 471,
+              "end": 486
             },
             "children": [],
             "closingElement": null,
-            "start": 468,
-            "end": 483
+            "start": 471,
+            "end": 486
           },
           "definite": false,
-          "start": 464,
-          "end": 483
+          "start": 467,
+          "end": 486
         }
       ],
       "declare": false,
-      "start": 460,
-      "end": 484
+      "start": 463,
+      "end": 487
     }
   ],
   "sourceType": "script",
   "hashbang": null,
   "start": 0,
-  "end": 484
+  "end": 487
 }
 ```

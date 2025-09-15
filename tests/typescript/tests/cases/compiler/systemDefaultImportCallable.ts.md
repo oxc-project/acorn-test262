@@ -11,8 +11,8 @@ __ESTREE_TEST__:PASS:
         "name": "core",
         "optional": false,
         "typeAnnotation": null,
-        "start": 15,
-        "end": 19
+        "start": 18,
+        "end": 22
       },
       "body": {
         "type": "TSModuleBlock",
@@ -41,8 +41,8 @@ __ESTREE_TEST__:PASS:
                             "name": "repeat",
                             "optional": false,
                             "typeAnnotation": null,
-                            "start": 48,
-                            "end": 54
+                            "start": 51,
+                            "end": 57
                           },
                           "computed": false,
                           "optional": false,
@@ -58,14 +58,14 @@ __ESTREE_TEST__:PASS:
                                 "type": "TSTypeAnnotation",
                                 "typeAnnotation": {
                                   "type": "TSStringKeyword",
-                                  "start": 61,
-                                  "end": 67
+                                  "start": 64,
+                                  "end": 70
                                 },
-                                "start": 59,
-                                "end": 67
+                                "start": 62,
+                                "end": 70
                               },
-                              "start": 55,
-                              "end": 67
+                              "start": 58,
+                              "end": 70
                             },
                             {
                               "type": "Identifier",
@@ -76,61 +76,61 @@ __ESTREE_TEST__:PASS:
                                 "type": "TSTypeAnnotation",
                                 "typeAnnotation": {
                                   "type": "TSNumberKeyword",
-                                  "start": 76,
-                                  "end": 82
+                                  "start": 79,
+                                  "end": 85
                                 },
-                                "start": 74,
-                                "end": 82
+                                "start": 77,
+                                "end": 85
                               },
-                              "start": 69,
-                              "end": 82
+                              "start": 72,
+                              "end": 85
                             }
                           ],
                           "returnType": {
                             "type": "TSTypeAnnotation",
                             "typeAnnotation": {
                               "type": "TSStringKeyword",
-                              "start": 85,
-                              "end": 91
+                              "start": 88,
+                              "end": 94
                             },
-                            "start": 83,
-                            "end": 91
+                            "start": 86,
+                            "end": 94
                           },
                           "accessibility": null,
                           "readonly": false,
                           "static": false,
-                          "start": 48,
-                          "end": 92
+                          "start": 51,
+                          "end": 95
                         }
                       ],
-                      "start": 38,
-                      "end": 98
+                      "start": 41,
+                      "end": 101
                     },
-                    "start": 36,
-                    "end": 98
+                    "start": 39,
+                    "end": 101
                   },
-                  "start": 30,
-                  "end": 98
+                  "start": 33,
+                  "end": 101
                 },
                 "init": null,
                 "definite": false,
-                "start": 30,
-                "end": 98
+                "start": 33,
+                "end": 101
               }
             ],
             "declare": false,
-            "start": 26,
-            "end": 99
+            "start": 29,
+            "end": 102
           }
         ],
-        "start": 20,
-        "end": 101
+        "start": 23,
+        "end": 104
       },
-      "kind": "module",
+      "kind": "namespace",
       "declare": true,
       "global": false,
       "start": 0,
-      "end": 101
+      "end": 104
     },
     {
       "type": "TSModuleDeclaration",
@@ -138,8 +138,8 @@ __ESTREE_TEST__:PASS:
         "type": "Literal",
         "value": "core-js/fn/string/repeat",
         "raw": "\"core-js/fn/string/repeat\"",
-        "start": 117,
-        "end": 143
+        "start": 120,
+        "end": 146
       },
       "body": {
         "type": "TSModuleBlock",
@@ -169,8 +169,8 @@ __ESTREE_TEST__:PASS:
                             "name": "core",
                             "optional": false,
                             "typeAnnotation": null,
-                            "start": 169,
-                            "end": 173
+                            "start": 172,
+                            "end": 176
                           },
                           "right": {
                             "type": "Identifier",
@@ -178,11 +178,11 @@ __ESTREE_TEST__:PASS:
                             "name": "String",
                             "optional": false,
                             "typeAnnotation": null,
-                            "start": 174,
-                            "end": 180
+                            "start": 177,
+                            "end": 183
                           },
-                          "start": 169,
-                          "end": 180
+                          "start": 172,
+                          "end": 183
                         },
                         "right": {
                           "type": "Identifier",
@@ -190,31 +190,31 @@ __ESTREE_TEST__:PASS:
                           "name": "repeat",
                           "optional": false,
                           "typeAnnotation": null,
-                          "start": 181,
-                          "end": 187
+                          "start": 184,
+                          "end": 190
                         },
-                        "start": 169,
-                        "end": 187
+                        "start": 172,
+                        "end": 190
                       },
                       "typeArguments": null,
-                      "start": 162,
-                      "end": 187
+                      "start": 165,
+                      "end": 190
                     },
-                    "start": 160,
-                    "end": 187
+                    "start": 163,
+                    "end": 190
                   },
-                  "start": 154,
-                  "end": 187
+                  "start": 157,
+                  "end": 190
                 },
                 "init": null,
                 "definite": false,
-                "start": 154,
-                "end": 187
+                "start": 157,
+                "end": 190
               }
             ],
             "declare": false,
-            "start": 150,
-            "end": 188
+            "start": 153,
+            "end": 191
           },
           {
             "type": "ExportDefaultDeclaration",
@@ -224,28 +224,28 @@ __ESTREE_TEST__:PASS:
               "name": "repeat",
               "optional": false,
               "typeAnnotation": null,
-              "start": 208,
-              "end": 214
+              "start": 211,
+              "end": 217
             },
             "exportKind": "value",
-            "start": 193,
-            "end": 215
+            "start": 196,
+            "end": 218
           }
         ],
-        "start": 144,
-        "end": 217
+        "start": 147,
+        "end": 220
       },
       "kind": "module",
       "declare": true,
       "global": false,
-      "start": 102,
-      "end": 217
+      "start": 105,
+      "end": 220
     }
   ],
   "sourceType": "module",
   "hashbang": null,
   "start": 0,
-  "end": 217
+  "end": 220
 }
 ```
 __ESTREE_TEST__:PASS:

@@ -11,8 +11,8 @@ __ESTREE_TEST__:PASS:
         "name": "Alpha",
         "optional": false,
         "typeAnnotation": null,
-        "start": 7,
-        "end": 12
+        "start": 10,
+        "end": 15
       },
       "body": {
         "type": "TSModuleBlock",
@@ -31,41 +31,41 @@ __ESTREE_TEST__:PASS:
                     "name": "x",
                     "optional": false,
                     "typeAnnotation": null,
-                    "start": 30,
-                    "end": 31
+                    "start": 33,
+                    "end": 34
                   },
                   "init": {
                     "type": "Literal",
                     "value": 100,
                     "raw": "100",
-                    "start": 34,
-                    "end": 37
+                    "start": 37,
+                    "end": 40
                   },
                   "definite": false,
-                  "start": 30,
-                  "end": 37
+                  "start": 33,
+                  "end": 40
                 }
               ],
               "declare": false,
-              "start": 26,
-              "end": 38
+              "start": 29,
+              "end": 41
             },
             "specifiers": [],
             "source": null,
             "exportKind": "value",
             "attributes": [],
-            "start": 19,
-            "end": 38
+            "start": 22,
+            "end": 41
           }
         ],
-        "start": 13,
-        "end": 40
+        "start": 16,
+        "end": 43
       },
-      "kind": "module",
+      "kind": "namespace",
       "declare": false,
       "global": false,
       "start": 0,
-      "end": 40
+      "end": 43
     },
     {
       "type": "ClassDeclaration",
@@ -76,8 +76,8 @@ __ESTREE_TEST__:PASS:
         "name": "Beta",
         "optional": false,
         "typeAnnotation": null,
-        "start": 48,
-        "end": 52
+        "start": 51,
+        "end": 55
       },
       "typeParameters": null,
       "superClass": {
@@ -88,8 +88,8 @@ __ESTREE_TEST__:PASS:
           "name": "Alpha",
           "optional": false,
           "typeAnnotation": null,
-          "start": 61,
-          "end": 66
+          "start": 64,
+          "end": 69
         },
         "property": {
           "type": "Identifier",
@@ -97,31 +97,31 @@ __ESTREE_TEST__:PASS:
           "name": "x",
           "optional": false,
           "typeAnnotation": null,
-          "start": 67,
-          "end": 68
+          "start": 70,
+          "end": 71
         },
         "optional": false,
         "computed": false,
-        "start": 61,
-        "end": 68
+        "start": 64,
+        "end": 71
       },
       "superTypeArguments": null,
       "implements": [],
       "body": {
         "type": "ClassBody",
         "body": [],
-        "start": 69,
-        "end": 72
+        "start": 72,
+        "end": 75
       },
       "abstract": false,
       "declare": false,
-      "start": 42,
-      "end": 72
+      "start": 45,
+      "end": 75
     }
   ],
   "sourceType": "script",
   "hashbang": null,
   "start": 0,
-  "end": 72
+  "end": 75
 }
 ```

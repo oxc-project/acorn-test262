@@ -11,8 +11,8 @@ __ESTREE_TEST__:PASS:
         "name": "JSX",
         "optional": false,
         "typeAnnotation": null,
-        "start": 15,
-        "end": 18
+        "start": 18,
+        "end": 21
       },
       "body": {
         "type": "TSModuleBlock",
@@ -25,20 +25,20 @@ __ESTREE_TEST__:PASS:
               "name": "Element",
               "optional": false,
               "typeAnnotation": null,
-              "start": 32,
-              "end": 39
+              "start": 35,
+              "end": 42
             },
             "typeParameters": null,
             "extends": [],
             "body": {
               "type": "TSInterfaceBody",
               "body": [],
-              "start": 40,
-              "end": 43
+              "start": 43,
+              "end": 46
             },
             "declare": false,
-            "start": 22,
-            "end": 43
+            "start": 25,
+            "end": 46
           },
           {
             "type": "TSInterfaceDeclaration",
@@ -48,30 +48,30 @@ __ESTREE_TEST__:PASS:
               "name": "IntrinsicElements",
               "optional": false,
               "typeAnnotation": null,
-              "start": 55,
-              "end": 72
+              "start": 58,
+              "end": 75
             },
             "typeParameters": null,
             "extends": [],
             "body": {
               "type": "TSInterfaceBody",
               "body": [],
-              "start": 73,
-              "end": 76
+              "start": 76,
+              "end": 79
             },
             "declare": false,
-            "start": 45,
-            "end": 76
+            "start": 48,
+            "end": 79
           }
         ],
-        "start": 19,
-        "end": 78
+        "start": 22,
+        "end": 81
       },
-      "kind": "module",
+      "kind": "namespace",
       "declare": true,
       "global": false,
       "start": 0,
-      "end": 78
+      "end": 81
     },
     {
       "type": "TSModuleDeclaration",
@@ -79,8 +79,8 @@ __ESTREE_TEST__:PASS:
         "type": "Literal",
         "value": "elements1",
         "raw": "'elements1'",
-        "start": 95,
-        "end": 106
+        "start": 98,
+        "end": 109
       },
       "body": {
         "type": "TSModuleBlock",
@@ -94,8 +94,8 @@ __ESTREE_TEST__:PASS:
               "name": "MyElement",
               "optional": false,
               "typeAnnotation": null,
-              "start": 116,
-              "end": 125
+              "start": 119,
+              "end": 128
             },
             "typeParameters": null,
             "superClass": null,
@@ -104,23 +104,23 @@ __ESTREE_TEST__:PASS:
             "body": {
               "type": "ClassBody",
               "body": [],
-              "start": 126,
-              "end": 131
+              "start": 129,
+              "end": 134
             },
             "abstract": false,
             "declare": false,
-            "start": 110,
-            "end": 131
+            "start": 113,
+            "end": 134
           }
         ],
-        "start": 107,
-        "end": 133
+        "start": 110,
+        "end": 136
       },
       "kind": "module",
       "declare": true,
       "global": false,
-      "start": 80,
-      "end": 133
+      "start": 83,
+      "end": 136
     },
     {
       "type": "TSModuleDeclaration",
@@ -128,8 +128,8 @@ __ESTREE_TEST__:PASS:
         "type": "Literal",
         "value": "elements2",
         "raw": "'elements2'",
-        "start": 150,
-        "end": 161
+        "start": 153,
+        "end": 164
       },
       "body": {
         "type": "TSModuleBlock",
@@ -143,8 +143,8 @@ __ESTREE_TEST__:PASS:
               "name": "MyElement",
               "optional": false,
               "typeAnnotation": null,
-              "start": 171,
-              "end": 180
+              "start": 174,
+              "end": 183
             },
             "typeParameters": null,
             "superClass": null,
@@ -153,29 +153,29 @@ __ESTREE_TEST__:PASS:
             "body": {
               "type": "ClassBody",
               "body": [],
-              "start": 181,
-              "end": 186
+              "start": 184,
+              "end": 189
             },
             "abstract": false,
             "declare": false,
-            "start": 165,
-            "end": 186
+            "start": 168,
+            "end": 189
           }
         ],
-        "start": 162,
-        "end": 188
+        "start": 165,
+        "end": 191
       },
       "kind": "module",
       "declare": true,
       "global": false,
-      "start": 135,
-      "end": 188
+      "start": 138,
+      "end": 191
     }
   ],
   "sourceType": "module",
   "hashbang": null,
   "start": 0,
-  "end": 189
+  "end": 192
 }
 ```
 __ESTREE_TEST__:PASS:

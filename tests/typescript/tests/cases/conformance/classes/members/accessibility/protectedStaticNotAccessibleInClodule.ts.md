@@ -107,8 +107,8 @@ __ESTREE_TEST__:PASS:
         "name": "C",
         "optional": false,
         "typeAnnotation": null,
-        "start": 223,
-        "end": 224
+        "start": 226,
+        "end": 227
       },
       "body": {
         "type": "TSModuleBlock",
@@ -127,8 +127,8 @@ __ESTREE_TEST__:PASS:
                     "name": "f",
                     "optional": false,
                     "typeAnnotation": null,
-                    "start": 242,
-                    "end": 243
+                    "start": 245,
+                    "end": 246
                   },
                   "init": {
                     "type": "MemberExpression",
@@ -138,8 +138,8 @@ __ESTREE_TEST__:PASS:
                       "name": "C",
                       "optional": false,
                       "typeAnnotation": null,
-                      "start": 246,
-                      "end": 247
+                      "start": 249,
+                      "end": 250
                     },
                     "property": {
                       "type": "Identifier",
@@ -147,29 +147,29 @@ __ESTREE_TEST__:PASS:
                       "name": "foo",
                       "optional": false,
                       "typeAnnotation": null,
-                      "start": 248,
-                      "end": 251
+                      "start": 251,
+                      "end": 254
                     },
                     "optional": false,
                     "computed": false,
-                    "start": 246,
-                    "end": 251
+                    "start": 249,
+                    "end": 254
                   },
                   "definite": false,
-                  "start": 242,
-                  "end": 251
+                  "start": 245,
+                  "end": 254
                 }
               ],
               "declare": false,
-              "start": 238,
-              "end": 252
+              "start": 241,
+              "end": 255
             },
             "specifiers": [],
             "source": null,
             "exportKind": "value",
             "attributes": [],
-            "start": 231,
-            "end": 252
+            "start": 234,
+            "end": 255
           },
           {
             "type": "ExportNamedDeclaration",
@@ -185,8 +185,8 @@ __ESTREE_TEST__:PASS:
                     "name": "b",
                     "optional": false,
                     "typeAnnotation": null,
-                    "start": 274,
-                    "end": 275
+                    "start": 277,
+                    "end": 278
                   },
                   "init": {
                     "type": "MemberExpression",
@@ -196,8 +196,8 @@ __ESTREE_TEST__:PASS:
                       "name": "C",
                       "optional": false,
                       "typeAnnotation": null,
-                      "start": 278,
-                      "end": 279
+                      "start": 281,
+                      "end": 282
                     },
                     "property": {
                       "type": "Identifier",
@@ -205,44 +205,44 @@ __ESTREE_TEST__:PASS:
                       "name": "bar",
                       "optional": false,
                       "typeAnnotation": null,
-                      "start": 280,
-                      "end": 283
+                      "start": 283,
+                      "end": 286
                     },
                     "optional": false,
                     "computed": false,
-                    "start": 278,
-                    "end": 283
+                    "start": 281,
+                    "end": 286
                   },
                   "definite": false,
-                  "start": 274,
-                  "end": 283
+                  "start": 277,
+                  "end": 286
                 }
               ],
               "declare": false,
-              "start": 270,
-              "end": 284
+              "start": 273,
+              "end": 287
             },
             "specifiers": [],
             "source": null,
             "exportKind": "value",
             "attributes": [],
-            "start": 263,
-            "end": 284
+            "start": 266,
+            "end": 287
           }
         ],
-        "start": 225,
-        "end": 295
+        "start": 228,
+        "end": 298
       },
-      "kind": "module",
+      "kind": "namespace",
       "declare": false,
       "global": false,
       "start": 216,
-      "end": 295
+      "end": 298
     }
   ],
   "sourceType": "script",
   "hashbang": null,
   "start": 138,
-  "end": 295
+  "end": 298
 }
 ```

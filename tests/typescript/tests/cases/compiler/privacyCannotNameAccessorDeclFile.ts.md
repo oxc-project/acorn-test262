@@ -146,8 +146,8 @@ __ESTREE_TEST__:PASS:
                 "name": "SpecializedGlobalWidget",
                 "optional": false,
                 "typeAnnotation": null,
-                "start": 153,
-                "end": 176
+                "start": 156,
+                "end": 179
               },
               "body": {
                 "type": "TSModuleBlock",
@@ -163,8 +163,8 @@ __ESTREE_TEST__:PASS:
                         "name": "Widget4",
                         "optional": false,
                         "typeAnnotation": null,
-                        "start": 200,
-                        "end": 207
+                        "start": 203,
+                        "end": 210
                       },
                       "typeParameters": null,
                       "superClass": null,
@@ -182,18 +182,18 @@ __ESTREE_TEST__:PASS:
                               "name": "name",
                               "optional": false,
                               "typeAnnotation": null,
-                              "start": 222,
-                              "end": 226
+                              "start": 225,
+                              "end": 229
                             },
                             "typeAnnotation": {
                               "type": "TSTypeAnnotation",
                               "typeAnnotation": {
                                 "type": "TSStringKeyword",
-                                "start": 228,
-                                "end": 234
+                                "start": 231,
+                                "end": 237
                               },
-                              "start": 226,
-                              "end": 234
+                              "start": 229,
+                              "end": 237
                             },
                             "value": null,
                             "computed": false,
@@ -204,24 +204,24 @@ __ESTREE_TEST__:PASS:
                             "definite": false,
                             "readonly": false,
                             "accessibility": null,
-                            "start": 222,
-                            "end": 235
+                            "start": 225,
+                            "end": 238
                           }
                         ],
-                        "start": 208,
-                        "end": 245
+                        "start": 211,
+                        "end": 248
                       },
                       "abstract": false,
                       "declare": false,
-                      "start": 194,
-                      "end": 245
+                      "start": 197,
+                      "end": 248
                     },
                     "specifiers": [],
                     "source": null,
                     "exportKind": "value",
                     "attributes": [],
-                    "start": 187,
-                    "end": 245
+                    "start": 190,
+                    "end": 248
                   },
                   {
                     "type": "TSDeclareFunction",
@@ -231,8 +231,8 @@ __ESTREE_TEST__:PASS:
                       "name": "createWidget4",
                       "optional": false,
                       "typeAnnotation": null,
-                      "start": 263,
-                      "end": 276
+                      "start": 266,
+                      "end": 279
                     },
                     "generator": false,
                     "async": false,
@@ -249,53 +249,53 @@ __ESTREE_TEST__:PASS:
                           "name": "Widget4",
                           "optional": false,
                           "typeAnnotation": null,
-                          "start": 280,
-                          "end": 287
+                          "start": 283,
+                          "end": 290
                         },
                         "typeArguments": null,
-                        "start": 280,
-                        "end": 287
+                        "start": 283,
+                        "end": 290
                       },
-                      "start": 278,
-                      "end": 287
+                      "start": 281,
+                      "end": 290
                     },
                     "body": null,
                     "expression": false,
-                    "start": 254,
-                    "end": 288
+                    "start": 257,
+                    "end": 291
                   }
                 ],
-                "start": 177,
-                "end": 294
+                "start": 180,
+                "end": 297
               },
-              "kind": "module",
+              "kind": "namespace",
               "declare": false,
               "global": false,
               "start": 146,
-              "end": 294
+              "end": 297
             },
             "specifiers": [],
             "source": null,
             "exportKind": "value",
             "attributes": [],
             "start": 139,
-            "end": 294
+            "end": 297
           }
         ],
         "start": 31,
-        "end": 296
+        "end": 299
       },
       "kind": "module",
       "declare": true,
       "global": false,
       "start": 0,
-      "end": 296
+      "end": 299
     }
   ],
   "sourceType": "module",
   "hashbang": null,
   "start": 0,
-  "end": 297
+  "end": 300
 }
 ```
 __ESTREE_TEST__:PASS:
@@ -439,8 +439,8 @@ __ESTREE_TEST__:PASS:
           "name": "SpecializedWidget",
           "optional": false,
           "typeAnnotation": null,
-          "start": 120,
-          "end": 137
+          "start": 123,
+          "end": 140
         },
         "body": {
           "type": "TSModuleBlock",
@@ -456,8 +456,8 @@ __ESTREE_TEST__:PASS:
                   "name": "Widget2",
                   "optional": false,
                   "typeAnnotation": null,
-                  "start": 157,
-                  "end": 164
+                  "start": 160,
+                  "end": 167
                 },
                 "typeParameters": null,
                 "superClass": null,
@@ -475,16 +475,16 @@ __ESTREE_TEST__:PASS:
                         "name": "name",
                         "optional": false,
                         "typeAnnotation": null,
-                        "start": 175,
-                        "end": 179
+                        "start": 178,
+                        "end": 182
                       },
                       "typeAnnotation": null,
                       "value": {
                         "type": "Literal",
                         "value": "one",
                         "raw": "'one'",
-                        "start": 182,
-                        "end": 187
+                        "start": 185,
+                        "end": 190
                       },
                       "computed": false,
                       "static": false,
@@ -494,24 +494,24 @@ __ESTREE_TEST__:PASS:
                       "definite": false,
                       "readonly": false,
                       "accessibility": null,
-                      "start": 175,
-                      "end": 188
+                      "start": 178,
+                      "end": 191
                     }
                   ],
-                  "start": 165,
-                  "end": 194
+                  "start": 168,
+                  "end": 197
                 },
                 "abstract": false,
                 "declare": false,
-                "start": 151,
-                "end": 194
+                "start": 154,
+                "end": 197
               },
               "specifiers": [],
               "source": null,
               "exportKind": "value",
               "attributes": [],
-              "start": 144,
-              "end": 194
+              "start": 147,
+              "end": 197
             },
             {
               "type": "ExportNamedDeclaration",
@@ -523,8 +523,8 @@ __ESTREE_TEST__:PASS:
                   "name": "createWidget2",
                   "optional": false,
                   "typeAnnotation": null,
-                  "start": 215,
-                  "end": 228
+                  "start": 218,
+                  "end": 231
                 },
                 "generator": false,
                 "async": false,
@@ -545,54 +545,54 @@ __ESTREE_TEST__:PASS:
                           "name": "Widget2",
                           "optional": false,
                           "typeAnnotation": null,
-                          "start": 252,
-                          "end": 259
+                          "start": 255,
+                          "end": 262
                         },
                         "typeArguments": null,
                         "arguments": [],
-                        "start": 248,
-                        "end": 261
+                        "start": 251,
+                        "end": 264
                       },
-                      "start": 241,
-                      "end": 262
+                      "start": 244,
+                      "end": 265
                     }
                   ],
-                  "start": 231,
-                  "end": 268
+                  "start": 234,
+                  "end": 271
                 },
                 "expression": false,
-                "start": 206,
-                "end": 268
+                "start": 209,
+                "end": 271
               },
               "specifiers": [],
               "source": null,
               "exportKind": "value",
               "attributes": [],
-              "start": 199,
-              "end": 268
+              "start": 202,
+              "end": 271
             }
           ],
-          "start": 138,
-          "end": 270
+          "start": 141,
+          "end": 273
         },
-        "kind": "module",
+        "kind": "namespace",
         "declare": false,
         "global": false,
         "start": 113,
-        "end": 270
+        "end": 273
       },
       "specifiers": [],
       "source": null,
       "exportKind": "value",
       "attributes": [],
       "start": 106,
-      "end": 270
+      "end": 273
     }
   ],
   "sourceType": "module",
   "hashbang": null,
   "start": 0,
-  "end": 271
+  "end": 274
 }
 ```
 __ESTREE_TEST__:PASS:

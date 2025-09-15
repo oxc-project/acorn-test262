@@ -11,8 +11,8 @@ __ESTREE_TEST__:PASS:
         "name": "JSX",
         "optional": false,
         "typeAnnotation": null,
-        "start": 15,
-        "end": 18
+        "start": 18,
+        "end": 21
       },
       "body": {
         "type": "TSModuleBlock",
@@ -25,30 +25,30 @@ __ESTREE_TEST__:PASS:
               "name": "Element",
               "optional": false,
               "typeAnnotation": null,
-              "start": 32,
-              "end": 39
+              "start": 35,
+              "end": 42
             },
             "typeParameters": null,
             "extends": [],
             "body": {
               "type": "TSInterfaceBody",
               "body": [],
-              "start": 40,
-              "end": 43
+              "start": 43,
+              "end": 46
             },
             "declare": false,
-            "start": 22,
-            "end": 43
+            "start": 25,
+            "end": 46
           }
         ],
-        "start": 19,
-        "end": 45
+        "start": 22,
+        "end": 48
       },
-      "kind": "module",
+      "kind": "namespace",
       "declare": true,
       "global": false,
       "start": 0,
-      "end": 45
+      "end": 48
     },
     {
       "type": "ExpressionStatement",
@@ -59,8 +59,8 @@ __ESTREE_TEST__:PASS:
           "name": {
             "type": "JSXIdentifier",
             "name": "div",
-            "start": 72,
-            "end": 75
+            "start": 75,
+            "end": 78
           },
           "typeArguments": null,
           "attributes": [
@@ -69,37 +69,37 @@ __ESTREE_TEST__:PASS:
               "name": {
                 "type": "JSXIdentifier",
                 "name": "n",
-                "start": 76,
-                "end": 77
+                "start": 79,
+                "end": 80
               },
               "value": {
                 "type": "Literal",
                 "value": "x",
                 "raw": "'x'",
-                "start": 78,
-                "end": 81
+                "start": 81,
+                "end": 84
               },
-              "start": 76,
-              "end": 81
+              "start": 79,
+              "end": 84
             }
           ],
           "selfClosing": true,
-          "start": 71,
-          "end": 84
+          "start": 74,
+          "end": 87
         },
         "children": [],
         "closingElement": null,
-        "start": 71,
-        "end": 84
+        "start": 74,
+        "end": 87
       },
       "directive": null,
-      "start": 71,
-      "end": 85
+      "start": 74,
+      "end": 88
     }
   ],
   "sourceType": "script",
   "hashbang": null,
   "start": 0,
-  "end": 85
+  "end": 88
 }
 ```

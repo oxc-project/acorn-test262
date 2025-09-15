@@ -13,8 +13,8 @@ __ESTREE_TEST__:PASS:
           "name": "Baz",
           "optional": false,
           "typeAnnotation": null,
-          "start": 14,
-          "end": 17
+          "start": 17,
+          "end": 20
         },
         "body": {
           "type": "TSModuleBlock",
@@ -33,48 +33,48 @@ __ESTREE_TEST__:PASS:
                       "name": "x",
                       "optional": false,
                       "typeAnnotation": null,
-                      "start": 31,
-                      "end": 32
+                      "start": 34,
+                      "end": 35
                     },
                     "init": {
                       "type": "Literal",
                       "value": "hello",
                       "raw": "\"hello\"",
-                      "start": 35,
-                      "end": 42
+                      "start": 38,
+                      "end": 45
                     },
                     "definite": false,
-                    "start": 31,
-                    "end": 42
+                    "start": 34,
+                    "end": 45
                   }
                 ],
                 "declare": false,
-                "start": 27,
-                "end": 43
+                "start": 30,
+                "end": 46
               },
               "specifiers": [],
               "source": null,
               "exportKind": "value",
               "attributes": [],
-              "start": 20,
-              "end": 43
+              "start": 23,
+              "end": 46
             }
           ],
-          "start": 18,
-          "end": 45
+          "start": 21,
+          "end": 48
         },
-        "kind": "module",
+        "kind": "namespace",
         "declare": false,
         "global": false,
         "start": 7,
-        "end": 45
+        "end": 48
       },
       "specifiers": [],
       "source": null,
       "exportKind": "value",
       "attributes": [],
       "start": 0,
-      "end": 45
+      "end": 48
     },
     {
       "type": "ExpressionStatement",
@@ -89,8 +89,8 @@ __ESTREE_TEST__:PASS:
             "name": "Baz",
             "optional": false,
             "typeAnnotation": null,
-            "start": 47,
-            "end": 50
+            "start": 50,
+            "end": 53
           },
           "property": {
             "type": "Identifier",
@@ -98,27 +98,27 @@ __ESTREE_TEST__:PASS:
             "name": "x",
             "optional": false,
             "typeAnnotation": null,
-            "start": 51,
-            "end": 52
+            "start": 54,
+            "end": 55
           },
           "optional": false,
           "computed": false,
-          "start": 47,
-          "end": 52
+          "start": 50,
+          "end": 55
         },
         "right": {
           "type": "Literal",
           "value": "goodbye",
           "raw": "\"goodbye\"",
-          "start": 55,
-          "end": 64
+          "start": 58,
+          "end": 67
         },
-        "start": 47,
-        "end": 64
+        "start": 50,
+        "end": 67
       },
       "directive": null,
-      "start": 47,
-      "end": 65
+      "start": 50,
+      "end": 68
     },
     {
       "type": "ExpressionStatement",
@@ -129,21 +129,21 @@ __ESTREE_TEST__:PASS:
           "type": "Literal",
           "value": 0,
           "raw": "0",
-          "start": 71,
-          "end": 72
+          "start": 74,
+          "end": 75
         },
         "prefix": true,
-        "start": 66,
-        "end": 72
+        "start": 69,
+        "end": 75
       },
       "directive": null,
-      "start": 66,
-      "end": 73
+      "start": 69,
+      "end": 76
     }
   ],
   "sourceType": "module",
   "hashbang": null,
   "start": 0,
-  "end": 73
+  "end": 76
 }
 ```

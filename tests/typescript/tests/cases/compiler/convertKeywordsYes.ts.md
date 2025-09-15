@@ -6459,8 +6459,8 @@ __ESTREE_TEST__:PASS:
         "name": "bigModule",
         "optional": false,
         "typeAnnotation": null,
-        "start": 4172,
-        "end": 4181
+        "start": 4175,
+        "end": 4184
       },
       "body": {
         "type": "TSModuleBlock",
@@ -6474,8 +6474,8 @@ __ESTREE_TEST__:PASS:
               "name": "constructor",
               "optional": false,
               "typeAnnotation": null,
-              "start": 4194,
-              "end": 4205
+              "start": 4197,
+              "end": 4208
             },
             "typeParameters": null,
             "superClass": null,
@@ -6484,13 +6484,13 @@ __ESTREE_TEST__:PASS:
             "body": {
               "type": "ClassBody",
               "body": [],
-              "start": 4206,
-              "end": 4209
+              "start": 4209,
+              "end": 4212
             },
             "abstract": false,
             "declare": false,
-            "start": 4188,
-            "end": 4209
+            "start": 4191,
+            "end": 4212
           },
           {
             "type": "ClassDeclaration",
@@ -6501,8 +6501,8 @@ __ESTREE_TEST__:PASS:
               "name": "implements",
               "optional": false,
               "typeAnnotation": null,
-              "start": 4220,
-              "end": 4230
+              "start": 4223,
+              "end": 4233
             },
             "typeParameters": null,
             "superClass": null,
@@ -6511,13 +6511,13 @@ __ESTREE_TEST__:PASS:
             "body": {
               "type": "ClassBody",
               "body": [],
-              "start": 4231,
-              "end": 4234
+              "start": 4234,
+              "end": 4237
             },
             "abstract": false,
             "declare": false,
-            "start": 4214,
-            "end": 4234
+            "start": 4217,
+            "end": 4237
           },
           {
             "type": "ClassDeclaration",
@@ -6528,8 +6528,8 @@ __ESTREE_TEST__:PASS:
               "name": "interface",
               "optional": false,
               "typeAnnotation": null,
-              "start": 4245,
-              "end": 4254
+              "start": 4248,
+              "end": 4257
             },
             "typeParameters": null,
             "superClass": null,
@@ -6538,13 +6538,13 @@ __ESTREE_TEST__:PASS:
             "body": {
               "type": "ClassBody",
               "body": [],
-              "start": 4255,
-              "end": 4258
+              "start": 4258,
+              "end": 4261
             },
             "abstract": false,
             "declare": false,
-            "start": 4239,
-            "end": 4258
+            "start": 4242,
+            "end": 4261
           },
           {
             "type": "ClassDeclaration",
@@ -6555,8 +6555,8 @@ __ESTREE_TEST__:PASS:
               "name": "let",
               "optional": false,
               "typeAnnotation": null,
-              "start": 4269,
-              "end": 4272
+              "start": 4272,
+              "end": 4275
             },
             "typeParameters": null,
             "superClass": null,
@@ -6565,13 +6565,13 @@ __ESTREE_TEST__:PASS:
             "body": {
               "type": "ClassBody",
               "body": [],
-              "start": 4273,
-              "end": 4276
+              "start": 4276,
+              "end": 4279
             },
             "abstract": false,
             "declare": false,
-            "start": 4263,
-            "end": 4276
+            "start": 4266,
+            "end": 4279
           },
           {
             "type": "ClassDeclaration",
@@ -6582,8 +6582,8 @@ __ESTREE_TEST__:PASS:
               "name": "module",
               "optional": false,
               "typeAnnotation": null,
-              "start": 4287,
-              "end": 4293
+              "start": 4290,
+              "end": 4296
             },
             "typeParameters": null,
             "superClass": null,
@@ -6592,13 +6592,13 @@ __ESTREE_TEST__:PASS:
             "body": {
               "type": "ClassBody",
               "body": [],
-              "start": 4294,
-              "end": 4297
+              "start": 4297,
+              "end": 4300
             },
             "abstract": false,
             "declare": false,
-            "start": 4281,
-            "end": 4297
+            "start": 4284,
+            "end": 4300
           },
           {
             "type": "ClassDeclaration",
@@ -6609,8 +6609,8 @@ __ESTREE_TEST__:PASS:
               "name": "package",
               "optional": false,
               "typeAnnotation": null,
-              "start": 4308,
-              "end": 4315
+              "start": 4311,
+              "end": 4318
             },
             "typeParameters": null,
             "superClass": null,
@@ -6619,13 +6619,13 @@ __ESTREE_TEST__:PASS:
             "body": {
               "type": "ClassBody",
               "body": [],
-              "start": 4316,
-              "end": 4319
+              "start": 4319,
+              "end": 4322
             },
             "abstract": false,
             "declare": false,
-            "start": 4302,
-            "end": 4319
+            "start": 4305,
+            "end": 4322
           },
           {
             "type": "ClassDeclaration",
@@ -6636,8 +6636,8 @@ __ESTREE_TEST__:PASS:
               "name": "private",
               "optional": false,
               "typeAnnotation": null,
-              "start": 4330,
-              "end": 4337
+              "start": 4333,
+              "end": 4340
             },
             "typeParameters": null,
             "superClass": null,
@@ -6646,13 +6646,13 @@ __ESTREE_TEST__:PASS:
             "body": {
               "type": "ClassBody",
               "body": [],
-              "start": 4338,
-              "end": 4341
+              "start": 4341,
+              "end": 4344
             },
             "abstract": false,
             "declare": false,
-            "start": 4324,
-            "end": 4341
+            "start": 4327,
+            "end": 4344
           },
           {
             "type": "ClassDeclaration",
@@ -6663,8 +6663,8 @@ __ESTREE_TEST__:PASS:
               "name": "protected",
               "optional": false,
               "typeAnnotation": null,
-              "start": 4352,
-              "end": 4361
+              "start": 4355,
+              "end": 4364
             },
             "typeParameters": null,
             "superClass": null,
@@ -6673,13 +6673,13 @@ __ESTREE_TEST__:PASS:
             "body": {
               "type": "ClassBody",
               "body": [],
-              "start": 4362,
-              "end": 4365
+              "start": 4365,
+              "end": 4368
             },
             "abstract": false,
             "declare": false,
-            "start": 4346,
-            "end": 4365
+            "start": 4349,
+            "end": 4368
           },
           {
             "type": "ClassDeclaration",
@@ -6690,8 +6690,8 @@ __ESTREE_TEST__:PASS:
               "name": "public",
               "optional": false,
               "typeAnnotation": null,
-              "start": 4376,
-              "end": 4382
+              "start": 4379,
+              "end": 4385
             },
             "typeParameters": null,
             "superClass": null,
@@ -6700,13 +6700,13 @@ __ESTREE_TEST__:PASS:
             "body": {
               "type": "ClassBody",
               "body": [],
-              "start": 4383,
-              "end": 4386
+              "start": 4386,
+              "end": 4389
             },
             "abstract": false,
             "declare": false,
-            "start": 4370,
-            "end": 4386
+            "start": 4373,
+            "end": 4389
           },
           {
             "type": "ClassDeclaration",
@@ -6717,8 +6717,8 @@ __ESTREE_TEST__:PASS:
               "name": "set",
               "optional": false,
               "typeAnnotation": null,
-              "start": 4397,
-              "end": 4400
+              "start": 4400,
+              "end": 4403
             },
             "typeParameters": null,
             "superClass": null,
@@ -6727,13 +6727,13 @@ __ESTREE_TEST__:PASS:
             "body": {
               "type": "ClassBody",
               "body": [],
-              "start": 4401,
-              "end": 4404
+              "start": 4404,
+              "end": 4407
             },
             "abstract": false,
             "declare": false,
-            "start": 4391,
-            "end": 4404
+            "start": 4394,
+            "end": 4407
           },
           {
             "type": "ClassDeclaration",
@@ -6744,8 +6744,8 @@ __ESTREE_TEST__:PASS:
               "name": "static",
               "optional": false,
               "typeAnnotation": null,
-              "start": 4415,
-              "end": 4421
+              "start": 4418,
+              "end": 4424
             },
             "typeParameters": null,
             "superClass": null,
@@ -6754,13 +6754,13 @@ __ESTREE_TEST__:PASS:
             "body": {
               "type": "ClassBody",
               "body": [],
-              "start": 4422,
-              "end": 4425
+              "start": 4425,
+              "end": 4428
             },
             "abstract": false,
             "declare": false,
-            "start": 4409,
-            "end": 4425
+            "start": 4412,
+            "end": 4428
           },
           {
             "type": "ClassDeclaration",
@@ -6771,8 +6771,8 @@ __ESTREE_TEST__:PASS:
               "name": "get",
               "optional": false,
               "typeAnnotation": null,
-              "start": 4436,
-              "end": 4439
+              "start": 4439,
+              "end": 4442
             },
             "typeParameters": null,
             "superClass": null,
@@ -6781,13 +6781,13 @@ __ESTREE_TEST__:PASS:
             "body": {
               "type": "ClassBody",
               "body": [],
-              "start": 4440,
-              "end": 4443
+              "start": 4443,
+              "end": 4446
             },
             "abstract": false,
             "declare": false,
-            "start": 4430,
-            "end": 4443
+            "start": 4433,
+            "end": 4446
           },
           {
             "type": "ClassDeclaration",
@@ -6798,8 +6798,8 @@ __ESTREE_TEST__:PASS:
               "name": "yield",
               "optional": false,
               "typeAnnotation": null,
-              "start": 4454,
-              "end": 4459
+              "start": 4457,
+              "end": 4462
             },
             "typeParameters": null,
             "superClass": null,
@@ -6808,13 +6808,13 @@ __ESTREE_TEST__:PASS:
             "body": {
               "type": "ClassBody",
               "body": [],
-              "start": 4460,
-              "end": 4463
+              "start": 4463,
+              "end": 4466
             },
             "abstract": false,
             "declare": false,
-            "start": 4448,
-            "end": 4463
+            "start": 4451,
+            "end": 4466
           },
           {
             "type": "ClassDeclaration",
@@ -6825,8 +6825,8 @@ __ESTREE_TEST__:PASS:
               "name": "declare",
               "optional": false,
               "typeAnnotation": null,
-              "start": 4474,
-              "end": 4481
+              "start": 4477,
+              "end": 4484
             },
             "typeParameters": null,
             "superClass": null,
@@ -6835,28 +6835,28 @@ __ESTREE_TEST__:PASS:
             "body": {
               "type": "ClassBody",
               "body": [],
-              "start": 4482,
-              "end": 4485
+              "start": 4485,
+              "end": 4488
             },
             "abstract": false,
             "declare": false,
-            "start": 4468,
-            "end": 4485
+            "start": 4471,
+            "end": 4488
           }
         ],
-        "start": 4182,
-        "end": 4487
+        "start": 4185,
+        "end": 4490
       },
-      "kind": "module",
+      "kind": "namespace",
       "declare": false,
       "global": false,
       "start": 4165,
-      "end": 4487
+      "end": 4490
     }
   ],
   "sourceType": "script",
   "hashbang": null,
   "start": 39,
-  "end": 4487
+  "end": 4490
 }
 ```

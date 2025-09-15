@@ -468,8 +468,8 @@ __ESTREE_TEST__:PASS:
         "name": "M",
         "optional": false,
         "typeAnnotation": null,
-        "start": 301,
-        "end": 302
+        "start": 304,
+        "end": 305
       },
       "body": {
         "type": "TSModuleBlock",
@@ -486,37 +486,37 @@ __ESTREE_TEST__:PASS:
                   "name": "x",
                   "optional": false,
                   "typeAnnotation": null,
-                  "start": 313,
-                  "end": 314
+                  "start": 316,
+                  "end": 317
                 },
                 "init": {
                   "type": "ThisExpression",
-                  "start": 317,
-                  "end": 321
+                  "start": 320,
+                  "end": 324
                 },
                 "definite": false,
-                "start": 313,
-                "end": 321
+                "start": 316,
+                "end": 324
               }
             ],
             "declare": false,
-            "start": 309,
-            "end": 322
+            "start": 312,
+            "end": 325
           }
         ],
-        "start": 303,
-        "end": 324
+        "start": 306,
+        "end": 327
       },
-      "kind": "module",
+      "kind": "namespace",
       "declare": false,
       "global": false,
       "start": 294,
-      "end": 324
+      "end": 327
     }
   ],
   "sourceType": "script",
   "hashbang": null,
   "start": 0,
-  "end": 324
+  "end": 327
 }
 ```

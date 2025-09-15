@@ -15,8 +15,8 @@ __ESTREE_TEST__:PASS:
             "name": "Box2D",
             "optional": false,
             "typeAnnotation": null,
-            "start": 15,
-            "end": 20
+            "start": 18,
+            "end": 23
           },
           "right": {
             "type": "Identifier",
@@ -24,11 +24,11 @@ __ESTREE_TEST__:PASS:
             "name": "Collision",
             "optional": false,
             "typeAnnotation": null,
-            "start": 21,
-            "end": 30
+            "start": 24,
+            "end": 33
           },
-          "start": 15,
-          "end": 30
+          "start": 18,
+          "end": 33
         },
         "right": {
           "type": "Identifier",
@@ -36,11 +36,11 @@ __ESTREE_TEST__:PASS:
           "name": "Shapes",
           "optional": false,
           "typeAnnotation": null,
-          "start": 31,
-          "end": 37
+          "start": 34,
+          "end": 40
         },
-        "start": 15,
-        "end": 37
+        "start": 18,
+        "end": 40
       },
       "body": {
         "type": "TSModuleBlock",
@@ -56,8 +56,8 @@ __ESTREE_TEST__:PASS:
                 "name": "b2CircleShape",
                 "optional": false,
                 "typeAnnotation": null,
-                "start": 57,
-                "end": 70
+                "start": 60,
+                "end": 73
               },
               "typeParameters": null,
               "superClass": {
@@ -66,28 +66,28 @@ __ESTREE_TEST__:PASS:
                 "name": "b2Shape",
                 "optional": false,
                 "typeAnnotation": null,
-                "start": 79,
-                "end": 86
+                "start": 82,
+                "end": 89
               },
               "superTypeArguments": null,
               "implements": [],
               "body": {
                 "type": "ClassBody",
                 "body": [],
-                "start": 87,
-                "end": 94
+                "start": 90,
+                "end": 97
               },
               "abstract": false,
               "declare": false,
-              "start": 51,
-              "end": 94
+              "start": 54,
+              "end": 97
             },
             "specifiers": [],
             "source": null,
             "exportKind": "value",
             "attributes": [],
-            "start": 44,
-            "end": 94
+            "start": 47,
+            "end": 97
           },
           {
             "type": "ExportNamedDeclaration",
@@ -100,8 +100,8 @@ __ESTREE_TEST__:PASS:
                 "name": "b2Shape",
                 "optional": false,
                 "typeAnnotation": null,
-                "start": 112,
-                "end": 119
+                "start": 115,
+                "end": 122
               },
               "typeParameters": null,
               "superClass": {
@@ -116,8 +116,8 @@ __ESTREE_TEST__:PASS:
                       "name": "Box2D",
                       "optional": false,
                       "typeAnnotation": null,
-                      "start": 128,
-                      "end": 133
+                      "start": 131,
+                      "end": 136
                     },
                     "property": {
                       "type": "Identifier",
@@ -125,13 +125,13 @@ __ESTREE_TEST__:PASS:
                       "name": "Collision",
                       "optional": false,
                       "typeAnnotation": null,
-                      "start": 134,
-                      "end": 143
+                      "start": 137,
+                      "end": 146
                     },
                     "optional": false,
                     "computed": false,
-                    "start": 128,
-                    "end": 143
+                    "start": 131,
+                    "end": 146
                   },
                   "property": {
                     "type": "Identifier",
@@ -139,13 +139,13 @@ __ESTREE_TEST__:PASS:
                     "name": "Shapes",
                     "optional": false,
                     "typeAnnotation": null,
-                    "start": 144,
-                    "end": 150
+                    "start": 147,
+                    "end": 153
                   },
                   "optional": false,
                   "computed": false,
-                  "start": 128,
-                  "end": 150
+                  "start": 131,
+                  "end": 153
                 },
                 "property": {
                   "type": "Identifier",
@@ -153,43 +153,43 @@ __ESTREE_TEST__:PASS:
                   "name": "b2CircleShape",
                   "optional": false,
                   "typeAnnotation": null,
-                  "start": 151,
-                  "end": 164
+                  "start": 154,
+                  "end": 167
                 },
                 "optional": false,
                 "computed": false,
-                "start": 128,
-                "end": 164
+                "start": 131,
+                "end": 167
               },
               "superTypeArguments": null,
               "implements": [],
               "body": {
                 "type": "ClassBody",
                 "body": [],
-                "start": 165,
-                "end": 172
+                "start": 168,
+                "end": 175
               },
               "abstract": false,
               "declare": false,
-              "start": 106,
-              "end": 172
+              "start": 109,
+              "end": 175
             },
             "specifiers": [],
             "source": null,
             "exportKind": "value",
             "attributes": [],
-            "start": 99,
-            "end": 172
+            "start": 102,
+            "end": 175
           }
         ],
-        "start": 38,
-        "end": 174
+        "start": 41,
+        "end": 177
       },
-      "kind": "module",
+      "kind": "namespace",
       "declare": true,
       "global": false,
       "start": 0,
-      "end": 174
+      "end": 177
     },
     {
       "type": "TSModuleDeclaration",
@@ -201,8 +201,8 @@ __ESTREE_TEST__:PASS:
           "name": "Box2D",
           "optional": false,
           "typeAnnotation": null,
-          "start": 190,
-          "end": 195
+          "start": 196,
+          "end": 201
         },
         "right": {
           "type": "Identifier",
@@ -210,11 +210,11 @@ __ESTREE_TEST__:PASS:
           "name": "Dynamics",
           "optional": false,
           "typeAnnotation": null,
-          "start": 196,
-          "end": 204
+          "start": 202,
+          "end": 210
         },
-        "start": 190,
-        "end": 204
+        "start": 196,
+        "end": 210
       },
       "body": {
         "type": "TSModuleBlock",
@@ -230,8 +230,8 @@ __ESTREE_TEST__:PASS:
                 "name": "b2ContactListener",
                 "optional": false,
                 "typeAnnotation": null,
-                "start": 224,
-                "end": 241
+                "start": 230,
+                "end": 247
               },
               "typeParameters": null,
               "superClass": {
@@ -246,8 +246,8 @@ __ESTREE_TEST__:PASS:
                       "name": "Box2D",
                       "optional": false,
                       "typeAnnotation": null,
-                      "start": 250,
-                      "end": 255
+                      "start": 256,
+                      "end": 261
                     },
                     "property": {
                       "type": "Identifier",
@@ -255,13 +255,13 @@ __ESTREE_TEST__:PASS:
                       "name": "Collision",
                       "optional": false,
                       "typeAnnotation": null,
-                      "start": 256,
-                      "end": 265
+                      "start": 262,
+                      "end": 271
                     },
                     "optional": false,
                     "computed": false,
-                    "start": 250,
-                    "end": 265
+                    "start": 256,
+                    "end": 271
                   },
                   "property": {
                     "type": "Identifier",
@@ -269,13 +269,13 @@ __ESTREE_TEST__:PASS:
                     "name": "Shapes",
                     "optional": false,
                     "typeAnnotation": null,
-                    "start": 266,
-                    "end": 272
+                    "start": 272,
+                    "end": 278
                   },
                   "optional": false,
                   "computed": false,
-                  "start": 250,
-                  "end": 272
+                  "start": 256,
+                  "end": 278
                 },
                 "property": {
                   "type": "Identifier",
@@ -283,33 +283,33 @@ __ESTREE_TEST__:PASS:
                   "name": "b2Shape",
                   "optional": false,
                   "typeAnnotation": null,
-                  "start": 273,
-                  "end": 280
+                  "start": 279,
+                  "end": 286
                 },
                 "optional": false,
                 "computed": false,
-                "start": 250,
-                "end": 280
+                "start": 256,
+                "end": 286
               },
               "superTypeArguments": null,
               "implements": [],
               "body": {
                 "type": "ClassBody",
                 "body": [],
-                "start": 281,
-                "end": 288
+                "start": 287,
+                "end": 294
               },
               "abstract": false,
               "declare": false,
-              "start": 218,
-              "end": 288
+              "start": 224,
+              "end": 294
             },
             "specifiers": [],
             "source": null,
             "exportKind": "value",
             "attributes": [],
-            "start": 211,
-            "end": 288
+            "start": 217,
+            "end": 294
           },
           {
             "type": "ExportNamedDeclaration",
@@ -322,8 +322,8 @@ __ESTREE_TEST__:PASS:
                 "name": "b2FixtureDef",
                 "optional": false,
                 "typeAnnotation": null,
-                "start": 306,
-                "end": 318
+                "start": 312,
+                "end": 324
               },
               "typeParameters": null,
               "superClass": {
@@ -336,8 +336,8 @@ __ESTREE_TEST__:PASS:
                     "name": "Box2D",
                     "optional": false,
                     "typeAnnotation": null,
-                    "start": 327,
-                    "end": 332
+                    "start": 333,
+                    "end": 338
                   },
                   "property": {
                     "type": "Identifier",
@@ -345,13 +345,13 @@ __ESTREE_TEST__:PASS:
                     "name": "Dynamics",
                     "optional": false,
                     "typeAnnotation": null,
-                    "start": 333,
-                    "end": 341
+                    "start": 339,
+                    "end": 347
                   },
                   "optional": false,
                   "computed": false,
-                  "start": 327,
-                  "end": 341
+                  "start": 333,
+                  "end": 347
                 },
                 "property": {
                   "type": "Identifier",
@@ -359,48 +359,48 @@ __ESTREE_TEST__:PASS:
                   "name": "b2ContactListener",
                   "optional": false,
                   "typeAnnotation": null,
-                  "start": 342,
-                  "end": 359
+                  "start": 348,
+                  "end": 365
                 },
                 "optional": false,
                 "computed": false,
-                "start": 327,
-                "end": 359
+                "start": 333,
+                "end": 365
               },
               "superTypeArguments": null,
               "implements": [],
               "body": {
                 "type": "ClassBody",
                 "body": [],
-                "start": 360,
-                "end": 367
+                "start": 366,
+                "end": 373
               },
               "abstract": false,
               "declare": false,
-              "start": 300,
-              "end": 367
+              "start": 306,
+              "end": 373
             },
             "specifiers": [],
             "source": null,
             "exportKind": "value",
             "attributes": [],
-            "start": 293,
-            "end": 367
+            "start": 299,
+            "end": 373
           }
         ],
-        "start": 205,
-        "end": 369
+        "start": 211,
+        "end": 375
       },
-      "kind": "module",
+      "kind": "namespace",
       "declare": true,
       "global": false,
-      "start": 175,
-      "end": 369
+      "start": 178,
+      "end": 375
     }
   ],
   "sourceType": "script",
   "hashbang": null,
   "start": 0,
-  "end": 369
+  "end": 375
 }
 ```

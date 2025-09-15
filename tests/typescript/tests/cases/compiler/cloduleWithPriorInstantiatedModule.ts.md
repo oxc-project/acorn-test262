@@ -11,8 +11,8 @@ __ESTREE_TEST__:PASS:
         "name": "Moclodule",
         "optional": false,
         "typeAnnotation": null,
-        "start": 45,
-        "end": 54
+        "start": 48,
+        "end": 57
       },
       "body": {
         "type": "TSModuleBlock",
@@ -27,8 +27,8 @@ __ESTREE_TEST__:PASS:
                 "name": "Someinterface",
                 "optional": false,
                 "typeAnnotation": null,
-                "start": 78,
-                "end": 91
+                "start": 81,
+                "end": 94
               },
               "typeParameters": null,
               "extends": [],
@@ -43,8 +43,8 @@ __ESTREE_TEST__:PASS:
                       "name": "foo",
                       "optional": false,
                       "typeAnnotation": null,
-                      "start": 102,
-                      "end": 105
+                      "start": 105,
+                      "end": 108
                     },
                     "computed": false,
                     "optional": false,
@@ -55,32 +55,32 @@ __ESTREE_TEST__:PASS:
                       "type": "TSTypeAnnotation",
                       "typeAnnotation": {
                         "type": "TSVoidKeyword",
-                        "start": 109,
-                        "end": 113
+                        "start": 112,
+                        "end": 116
                       },
-                      "start": 107,
-                      "end": 113
+                      "start": 110,
+                      "end": 116
                     },
                     "accessibility": null,
                     "readonly": false,
                     "static": false,
-                    "start": 102,
-                    "end": 114
+                    "start": 105,
+                    "end": 117
                   }
                 ],
-                "start": 92,
-                "end": 120
+                "start": 95,
+                "end": 123
               },
               "declare": false,
-              "start": 68,
-              "end": 120
+              "start": 71,
+              "end": 123
             },
             "specifiers": [],
             "source": null,
             "exportKind": "type",
             "attributes": [],
-            "start": 61,
-            "end": 120
+            "start": 64,
+            "end": 123
           },
           {
             "type": "VariableDeclaration",
@@ -94,34 +94,34 @@ __ESTREE_TEST__:PASS:
                   "name": "x",
                   "optional": false,
                   "typeAnnotation": null,
-                  "start": 129,
-                  "end": 130
+                  "start": 132,
+                  "end": 133
                 },
                 "init": {
                   "type": "Literal",
                   "value": 10,
                   "raw": "10",
-                  "start": 133,
-                  "end": 135
+                  "start": 136,
+                  "end": 138
                 },
                 "definite": false,
-                "start": 129,
-                "end": 135
+                "start": 132,
+                "end": 138
               }
             ],
             "declare": false,
-            "start": 125,
-            "end": 136
+            "start": 128,
+            "end": 139
           }
         ],
-        "start": 55,
-        "end": 138
+        "start": 58,
+        "end": 141
       },
-      "kind": "module",
+      "kind": "namespace",
       "declare": false,
       "global": false,
       "start": 38,
-      "end": 138
+      "end": 141
     },
     {
       "type": "ClassDeclaration",
@@ -132,8 +132,8 @@ __ESTREE_TEST__:PASS:
         "name": "Moclodule",
         "optional": false,
         "typeAnnotation": null,
-        "start": 146,
-        "end": 155
+        "start": 149,
+        "end": 158
       },
       "typeParameters": null,
       "superClass": null,
@@ -142,13 +142,13 @@ __ESTREE_TEST__:PASS:
       "body": {
         "type": "ClassBody",
         "body": [],
-        "start": 156,
-        "end": 159
+        "start": 159,
+        "end": 162
       },
       "abstract": false,
       "declare": false,
-      "start": 140,
-      "end": 159
+      "start": 143,
+      "end": 162
     },
     {
       "type": "TSModuleDeclaration",
@@ -158,8 +158,8 @@ __ESTREE_TEST__:PASS:
         "name": "Moclodule",
         "optional": false,
         "typeAnnotation": null,
-        "start": 192,
-        "end": 201
+        "start": 198,
+        "end": 207
       },
       "body": {
         "type": "TSModuleBlock",
@@ -175,8 +175,8 @@ __ESTREE_TEST__:PASS:
                 "name": "Manager",
                 "optional": false,
                 "typeAnnotation": null,
-                "start": 221,
-                "end": 228
+                "start": 227,
+                "end": 234
               },
               "typeParameters": null,
               "superClass": null,
@@ -185,35 +185,35 @@ __ESTREE_TEST__:PASS:
               "body": {
                 "type": "ClassBody",
                 "body": [],
-                "start": 229,
-                "end": 236
+                "start": 235,
+                "end": 242
               },
               "abstract": false,
               "declare": false,
-              "start": 215,
-              "end": 236
+              "start": 221,
+              "end": 242
             },
             "specifiers": [],
             "source": null,
             "exportKind": "value",
             "attributes": [],
-            "start": 208,
-            "end": 236
+            "start": 214,
+            "end": 242
           }
         ],
-        "start": 202,
-        "end": 238
+        "start": 208,
+        "end": 244
       },
-      "kind": "module",
+      "kind": "namespace",
       "declare": false,
       "global": false,
-      "start": 185,
-      "end": 238
+      "start": 188,
+      "end": 244
     }
   ],
   "sourceType": "script",
   "hashbang": null,
   "start": 38,
-  "end": 238
+  "end": 244
 }
 ```

@@ -5,7 +5,7 @@ __ESTREE_TEST__:PASS:
   "body": [],
   "sourceType": "script",
   "hashbang": null,
-  "start": 7437,
-  "end": 7437
+  "start": 7440,
+  "end": 7440
 }
 ```

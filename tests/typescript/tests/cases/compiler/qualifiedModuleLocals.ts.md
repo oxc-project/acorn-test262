@@ -11,8 +11,8 @@ __ESTREE_TEST__:PASS:
         "name": "A",
         "optional": false,
         "typeAnnotation": null,
-        "start": 7,
-        "end": 8
+        "start": 10,
+        "end": 11
       },
       "body": {
         "type": "TSModuleBlock",
@@ -25,8 +25,8 @@ __ESTREE_TEST__:PASS:
               "name": "b",
               "optional": false,
               "typeAnnotation": null,
-              "start": 23,
-              "end": 24
+              "start": 26,
+              "end": 27
             },
             "generator": false,
             "async": false,
@@ -37,12 +37,12 @@ __ESTREE_TEST__:PASS:
             "body": {
               "type": "BlockStatement",
               "body": [],
-              "start": 27,
-              "end": 29
+              "start": 30,
+              "end": 32
             },
             "expression": false,
-            "start": 14,
-            "end": 29
+            "start": 17,
+            "end": 32
           },
           {
             "type": "ExportNamedDeclaration",
@@ -54,8 +54,8 @@ __ESTREE_TEST__:PASS:
                 "name": "a",
                 "optional": false,
                 "typeAnnotation": null,
-                "start": 49,
-                "end": 50
+                "start": 52,
+                "end": 53
               },
               "generator": false,
               "async": false,
@@ -78,8 +78,8 @@ __ESTREE_TEST__:PASS:
                           "name": "A",
                           "optional": false,
                           "typeAnnotation": null,
-                          "start": 55,
-                          "end": 56
+                          "start": 58,
+                          "end": 59
                         },
                         "property": {
                           "type": "Identifier",
@@ -87,48 +87,48 @@ __ESTREE_TEST__:PASS:
                           "name": "b",
                           "optional": false,
                           "typeAnnotation": null,
-                          "start": 57,
-                          "end": 58
+                          "start": 60,
+                          "end": 61
                         },
                         "optional": false,
                         "computed": false,
-                        "start": 55,
-                        "end": 58
+                        "start": 58,
+                        "end": 61
                       },
                       "typeArguments": null,
                       "arguments": [],
                       "optional": false,
-                      "start": 55,
-                      "end": 60
+                      "start": 58,
+                      "end": 63
                     },
                     "directive": null,
-                    "start": 55,
-                    "end": 61
+                    "start": 58,
+                    "end": 64
                   }
                 ],
-                "start": 52,
-                "end": 64
+                "start": 55,
+                "end": 67
               },
               "expression": false,
-              "start": 40,
-              "end": 64
+              "start": 43,
+              "end": 67
             },
             "specifiers": [],
             "source": null,
             "exportKind": "value",
             "attributes": [],
-            "start": 33,
-            "end": 64
+            "start": 36,
+            "end": 67
           }
         ],
-        "start": 9,
-        "end": 111
+        "start": 12,
+        "end": 114
       },
-      "kind": "module",
+      "kind": "namespace",
       "declare": false,
       "global": false,
       "start": 0,
-      "end": 111
+      "end": 114
     },
     {
       "type": "ExpressionStatement",
@@ -142,8 +142,8 @@ __ESTREE_TEST__:PASS:
             "name": "A",
             "optional": false,
             "typeAnnotation": null,
-            "start": 113,
-            "end": 114
+            "start": 116,
+            "end": 117
           },
           "property": {
             "type": "Identifier",
@@ -151,28 +151,28 @@ __ESTREE_TEST__:PASS:
             "name": "a",
             "optional": false,
             "typeAnnotation": null,
-            "start": 115,
-            "end": 116
+            "start": 118,
+            "end": 119
           },
           "optional": false,
           "computed": false,
-          "start": 113,
-          "end": 116
+          "start": 116,
+          "end": 119
         },
         "typeArguments": null,
         "arguments": [],
         "optional": false,
-        "start": 113,
-        "end": 118
+        "start": 116,
+        "end": 121
       },
       "directive": null,
-      "start": 113,
-      "end": 119
+      "start": 116,
+      "end": 122
     }
   ],
   "sourceType": "script",
   "hashbang": null,
   "start": 0,
-  "end": 119
+  "end": 122
 }
 ```

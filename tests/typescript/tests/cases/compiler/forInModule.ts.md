@@ -11,8 +11,8 @@ __ESTREE_TEST__:PASS:
         "name": "Foo",
         "optional": false,
         "typeAnnotation": null,
-        "start": 7,
-        "end": 10
+        "start": 10,
+        "end": 13
       },
       "body": {
         "type": "TSModuleBlock",
@@ -31,24 +31,24 @@ __ESTREE_TEST__:PASS:
                     "name": "i",
                     "optional": false,
                     "typeAnnotation": null,
-                    "start": 23,
-                    "end": 24
+                    "start": 26,
+                    "end": 27
                   },
                   "init": {
                     "type": "Literal",
                     "value": 0,
                     "raw": "0",
-                    "start": 27,
-                    "end": 28
+                    "start": 30,
+                    "end": 31
                   },
                   "definite": false,
-                  "start": 23,
-                  "end": 28
+                  "start": 26,
+                  "end": 31
                 }
               ],
               "declare": false,
-              "start": 19,
-              "end": 28
+              "start": 22,
+              "end": 31
             },
             "test": {
               "type": "BinaryExpression",
@@ -58,19 +58,19 @@ __ESTREE_TEST__:PASS:
                 "name": "i",
                 "optional": false,
                 "typeAnnotation": null,
-                "start": 30,
-                "end": 31
+                "start": 33,
+                "end": 34
               },
               "operator": "<",
               "right": {
                 "type": "Literal",
                 "value": 1,
                 "raw": "1",
-                "start": 34,
-                "end": 35
+                "start": 37,
+                "end": 38
               },
-              "start": 30,
-              "end": 35
+              "start": 33,
+              "end": 38
             },
             "update": {
               "type": "UpdateExpression",
@@ -82,11 +82,11 @@ __ESTREE_TEST__:PASS:
                 "name": "i",
                 "optional": false,
                 "typeAnnotation": null,
-                "start": 37,
-                "end": 38
+                "start": 40,
+                "end": 41
               },
-              "start": 37,
-              "end": 40
+              "start": 40,
+              "end": 43
             },
             "body": {
               "type": "BlockStatement",
@@ -101,8 +101,8 @@ __ESTREE_TEST__:PASS:
                       "name": "i",
                       "optional": false,
                       "typeAnnotation": null,
-                      "start": 46,
-                      "end": 47
+                      "start": 49,
+                      "end": 50
                     },
                     "operator": "+",
                     "right": {
@@ -111,37 +111,37 @@ __ESTREE_TEST__:PASS:
                       "name": "i",
                       "optional": false,
                       "typeAnnotation": null,
-                      "start": 48,
-                      "end": 49
+                      "start": 51,
+                      "end": 52
                     },
-                    "start": 46,
-                    "end": 49
+                    "start": 49,
+                    "end": 52
                   },
                   "directive": null,
-                  "start": 46,
-                  "end": 50
+                  "start": 49,
+                  "end": 53
                 }
               ],
-              "start": 42,
-              "end": 53
+              "start": 45,
+              "end": 56
             },
-            "start": 14,
-            "end": 53
+            "start": 17,
+            "end": 56
           }
         ],
-        "start": 11,
-        "end": 55
+        "start": 14,
+        "end": 58
       },
-      "kind": "module",
+      "kind": "namespace",
       "declare": false,
       "global": false,
       "start": 0,
-      "end": 55
+      "end": 58
     }
   ],
   "sourceType": "script",
   "hashbang": null,
   "start": 0,
-  "end": 55
+  "end": 58
 }
 ```

@@ -141,8 +141,8 @@ __ESTREE_TEST__:PASS:
         "name": "Foo",
         "optional": false,
         "typeAnnotation": null,
-        "start": 104,
-        "end": 107
+        "start": 107,
+        "end": 110
       },
       "body": {
         "type": "TSModuleBlock",
@@ -159,24 +159,24 @@ __ESTREE_TEST__:PASS:
                   "name": "x",
                   "optional": false,
                   "typeAnnotation": null,
-                  "start": 118,
-                  "end": 119
+                  "start": 121,
+                  "end": 122
                 },
                 "init": {
                   "type": "Literal",
                   "value": "test1",
                   "raw": "\"test1\"",
-                  "start": 122,
-                  "end": 129
+                  "start": 125,
+                  "end": 132
                 },
                 "definite": false,
-                "start": 118,
-                "end": 129
+                "start": 121,
+                "end": 132
               }
             ],
             "declare": false,
-            "start": 114,
-            "end": 130
+            "start": 117,
+            "end": 133
           },
           {
             "type": "VariableDeclaration",
@@ -190,24 +190,24 @@ __ESTREE_TEST__:PASS:
                   "name": "y",
                   "optional": false,
                   "typeAnnotation": null,
-                  "start": 139,
-                  "end": 140
+                  "start": 142,
+                  "end": 143
                 },
                 "init": {
                   "type": "Literal",
                   "value": "test 2isn't this a lot of fun",
                   "raw": "\"test 2\\\nisn't this a lot of fun\"",
-                  "start": 143,
-                  "end": 176
+                  "start": 146,
+                  "end": 179
                 },
                 "definite": false,
-                "start": 139,
-                "end": 176
+                "start": 142,
+                "end": 179
               }
             ],
             "declare": false,
-            "start": 135,
-            "end": 177
+            "start": 138,
+            "end": 180
           },
           {
             "type": "VariableDeclaration",
@@ -221,8 +221,8 @@ __ESTREE_TEST__:PASS:
                   "name": "z",
                   "optional": false,
                   "typeAnnotation": null,
-                  "start": 186,
-                  "end": 187
+                  "start": 189,
+                  "end": 190
                 },
                 "init": {
                   "type": "MemberExpression",
@@ -232,8 +232,8 @@ __ESTREE_TEST__:PASS:
                     "name": "window",
                     "optional": false,
                     "typeAnnotation": null,
-                    "start": 190,
-                    "end": 196
+                    "start": 193,
+                    "end": 199
                   },
                   "property": {
                     "type": "Identifier",
@@ -241,37 +241,37 @@ __ESTREE_TEST__:PASS:
                     "name": "document",
                     "optional": false,
                     "typeAnnotation": null,
-                    "start": 197,
-                    "end": 205
+                    "start": 200,
+                    "end": 208
                   },
                   "optional": false,
                   "computed": false,
-                  "start": 190,
-                  "end": 205
+                  "start": 193,
+                  "end": 208
                 },
                 "definite": false,
-                "start": 186,
-                "end": 205
+                "start": 189,
+                "end": 208
               }
             ],
             "declare": false,
-            "start": 182,
-            "end": 206
+            "start": 185,
+            "end": 209
           }
         ],
-        "start": 108,
-        "end": 208
+        "start": 111,
+        "end": 211
       },
-      "kind": "module",
+      "kind": "namespace",
       "declare": false,
       "global": false,
       "start": 97,
-      "end": 208
+      "end": 211
     }
   ],
   "sourceType": "script",
   "hashbang": null,
   "start": 0,
-  "end": 208
+  "end": 211
 }
 ```

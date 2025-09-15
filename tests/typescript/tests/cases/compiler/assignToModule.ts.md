@@ -11,20 +11,20 @@ __ESTREE_TEST__:PASS:
         "name": "A",
         "optional": false,
         "typeAnnotation": null,
-        "start": 7,
-        "end": 8
+        "start": 10,
+        "end": 11
       },
       "body": {
         "type": "TSModuleBlock",
         "body": [],
-        "start": 9,
-        "end": 11
+        "start": 12,
+        "end": 14
       },
-      "kind": "module",
+      "kind": "namespace",
       "declare": false,
       "global": false,
       "start": 0,
-      "end": 11
+      "end": 14
     },
     {
       "type": "ExpressionStatement",
@@ -37,8 +37,8 @@ __ESTREE_TEST__:PASS:
           "name": "A",
           "optional": false,
           "typeAnnotation": null,
-          "start": 12,
-          "end": 13
+          "start": 15,
+          "end": 16
         },
         "right": {
           "type": "Identifier",
@@ -46,20 +46,20 @@ __ESTREE_TEST__:PASS:
           "name": "undefined",
           "optional": false,
           "typeAnnotation": null,
-          "start": 16,
-          "end": 25
+          "start": 19,
+          "end": 28
         },
-        "start": 12,
-        "end": 25
+        "start": 15,
+        "end": 28
       },
       "directive": null,
-      "start": 12,
-      "end": 26
+      "start": 15,
+      "end": 29
     }
   ],
   "sourceType": "script",
   "hashbang": null,
   "start": 0,
-  "end": 41
+  "end": 44
 }
 ```

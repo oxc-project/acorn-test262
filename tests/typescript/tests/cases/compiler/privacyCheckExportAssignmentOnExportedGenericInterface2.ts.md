@@ -214,8 +214,8 @@ __ESTREE_TEST__:PASS:
         "name": "Foo",
         "optional": false,
         "typeAnnotation": null,
-        "start": 107,
-        "end": 110
+        "start": 110,
+        "end": 113
       },
       "body": {
         "type": "TSModuleBlock",
@@ -234,46 +234,46 @@ __ESTREE_TEST__:PASS:
                     "name": "x",
                     "optional": false,
                     "typeAnnotation": null,
-                    "start": 128,
-                    "end": 129
+                    "start": 131,
+                    "end": 132
                   },
                   "init": {
                     "type": "Literal",
                     "value": "hello",
                     "raw": "\"hello\"",
-                    "start": 132,
-                    "end": 139
+                    "start": 135,
+                    "end": 142
                   },
                   "definite": false,
-                  "start": 128,
-                  "end": 139
+                  "start": 131,
+                  "end": 142
                 }
               ],
               "declare": false,
-              "start": 124,
-              "end": 140
+              "start": 127,
+              "end": 143
             },
             "specifiers": [],
             "source": null,
             "exportKind": "value",
             "attributes": [],
-            "start": 117,
-            "end": 140
+            "start": 120,
+            "end": 143
           }
         ],
-        "start": 111,
-        "end": 142
+        "start": 114,
+        "end": 145
       },
-      "kind": "module",
+      "kind": "namespace",
       "declare": false,
       "global": false,
       "start": 100,
-      "end": 142
+      "end": 145
     }
   ],
   "sourceType": "module",
   "hashbang": null,
   "start": 0,
-  "end": 142
+  "end": 145
 }
 ```

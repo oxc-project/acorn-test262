@@ -70,8 +70,8 @@ __ESTREE_TEST__:PASS:
         "name": "Clod",
         "optional": false,
         "typeAnnotation": null,
-        "start": 42,
-        "end": 46
+        "start": 45,
+        "end": 49
       },
       "body": {
         "type": "TSModuleBlock",
@@ -88,8 +88,8 @@ __ESTREE_TEST__:PASS:
                   "name": "p",
                   "optional": false,
                   "typeAnnotation": null,
-                  "start": 57,
-                  "end": 58
+                  "start": 60,
+                  "end": 61
                 },
                 "init": {
                   "type": "Identifier",
@@ -97,32 +97,32 @@ __ESTREE_TEST__:PASS:
                   "name": "x",
                   "optional": false,
                   "typeAnnotation": null,
-                  "start": 61,
-                  "end": 62
+                  "start": 64,
+                  "end": 65
                 },
                 "definite": false,
-                "start": 57,
-                "end": 62
+                "start": 60,
+                "end": 65
               }
             ],
             "declare": false,
-            "start": 53,
-            "end": 63
+            "start": 56,
+            "end": 66
           }
         ],
-        "start": 47,
-        "end": 90
+        "start": 50,
+        "end": 93
       },
-      "kind": "module",
+      "kind": "namespace",
       "declare": false,
       "global": false,
       "start": 35,
-      "end": 90
+      "end": 93
     }
   ],
   "sourceType": "script",
   "hashbang": null,
   "start": 0,
-  "end": 90
+  "end": 93
 }
 ```

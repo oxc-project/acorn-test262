@@ -11,8 +11,8 @@ __ESTREE_TEST__:PASS:
         "name": "A",
         "optional": false,
         "typeAnnotation": null,
-        "start": 7,
-        "end": 8
+        "start": 10,
+        "end": 11
       },
       "body": {
         "type": "TSModuleBlock",
@@ -26,8 +26,8 @@ __ESTREE_TEST__:PASS:
               "name": "Calculator",
               "optional": false,
               "typeAnnotation": null,
-              "start": 21,
-              "end": 31
+              "start": 24,
+              "end": 34
             },
             "typeParameters": null,
             "superClass": null,
@@ -45,8 +45,8 @@ __ESTREE_TEST__:PASS:
                     "name": "handelChar",
                     "optional": false,
                     "typeAnnotation": null,
-                    "start": 49,
-                    "end": 59
+                    "start": 52,
+                    "end": 62
                   },
                   "value": {
                     "type": "FunctionExpression",
@@ -60,12 +60,12 @@ __ESTREE_TEST__:PASS:
                     "body": {
                       "type": "BlockStatement",
                       "body": [],
-                      "start": 62,
-                      "end": 73
+                      "start": 65,
+                      "end": 76
                     },
                     "expression": false,
-                    "start": 59,
-                    "end": 73
+                    "start": 62,
+                    "end": 76
                   },
                   "kind": "method",
                   "computed": false,
@@ -73,32 +73,32 @@ __ESTREE_TEST__:PASS:
                   "override": false,
                   "optional": false,
                   "accessibility": "public",
-                  "start": 42,
-                  "end": 73
+                  "start": 45,
+                  "end": 76
                 }
               ],
-              "start": 32,
-              "end": 79
+              "start": 35,
+              "end": 82
             },
             "abstract": false,
             "declare": false,
-            "start": 15,
-            "end": 79
+            "start": 18,
+            "end": 82
           }
         ],
-        "start": 9,
-        "end": 81
+        "start": 12,
+        "end": 84
       },
-      "kind": "module",
+      "kind": "namespace",
       "declare": false,
       "global": false,
       "start": 0,
-      "end": 81
+      "end": 84
     }
   ],
   "sourceType": "script",
   "hashbang": null,
   "start": 0,
-  "end": 81
+  "end": 84
 }
 ```

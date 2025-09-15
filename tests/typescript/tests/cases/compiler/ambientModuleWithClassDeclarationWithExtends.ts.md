@@ -11,8 +11,8 @@ __ESTREE_TEST__:PASS:
         "name": "foo",
         "optional": false,
         "typeAnnotation": null,
-        "start": 15,
-        "end": 18
+        "start": 18,
+        "end": 21
       },
       "body": {
         "type": "TSModuleBlock",
@@ -26,8 +26,8 @@ __ESTREE_TEST__:PASS:
               "name": "A",
               "optional": false,
               "typeAnnotation": null,
-              "start": 31,
-              "end": 32
+              "start": 34,
+              "end": 35
             },
             "typeParameters": null,
             "superClass": null,
@@ -36,13 +36,13 @@ __ESTREE_TEST__:PASS:
             "body": {
               "type": "ClassBody",
               "body": [],
-              "start": 33,
-              "end": 36
+              "start": 36,
+              "end": 39
             },
             "abstract": false,
             "declare": false,
-            "start": 25,
-            "end": 36
+            "start": 28,
+            "end": 39
           },
           {
             "type": "ClassDeclaration",
@@ -53,8 +53,8 @@ __ESTREE_TEST__:PASS:
               "name": "B",
               "optional": false,
               "typeAnnotation": null,
-              "start": 47,
-              "end": 48
+              "start": 50,
+              "end": 51
             },
             "typeParameters": null,
             "superClass": {
@@ -63,36 +63,36 @@ __ESTREE_TEST__:PASS:
               "name": "A",
               "optional": false,
               "typeAnnotation": null,
-              "start": 57,
-              "end": 58
+              "start": 60,
+              "end": 61
             },
             "superTypeArguments": null,
             "implements": [],
             "body": {
               "type": "ClassBody",
               "body": [],
-              "start": 59,
-              "end": 62
+              "start": 62,
+              "end": 65
             },
             "abstract": false,
             "declare": false,
-            "start": 41,
-            "end": 62
+            "start": 44,
+            "end": 65
           }
         ],
-        "start": 19,
-        "end": 64
+        "start": 22,
+        "end": 67
       },
-      "kind": "module",
+      "kind": "namespace",
       "declare": true,
       "global": false,
       "start": 0,
-      "end": 64
+      "end": 67
     }
   ],
   "sourceType": "script",
   "hashbang": null,
   "start": 0,
-  "end": 64
+  "end": 67
 }
 ```

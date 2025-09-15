@@ -50,8 +50,8 @@ __ESTREE_TEST__:PASS:
         "name": "Bar",
         "optional": false,
         "typeAnnotation": null,
-        "start": 48,
-        "end": 51
+        "start": 51,
+        "end": 54
       },
       "body": {
         "type": "TSModuleBlock",
@@ -64,27 +64,27 @@ __ESTREE_TEST__:PASS:
               "name": "bar",
               "optional": false,
               "typeAnnotation": null,
-              "start": 71,
-              "end": 74
+              "start": 74,
+              "end": 77
             },
             "exportKind": "value",
-            "start": 56,
-            "end": 75
+            "start": 59,
+            "end": 78
           }
         ],
-        "start": 52,
-        "end": 77
+        "start": 55,
+        "end": 80
       },
-      "kind": "module",
+      "kind": "namespace",
       "declare": false,
       "global": false,
       "start": 41,
-      "end": 77
+      "end": 80
     }
   ],
   "sourceType": "script",
   "hashbang": null,
   "start": 0,
-  "end": 77
+  "end": 80
 }
 ```

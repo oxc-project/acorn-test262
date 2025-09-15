@@ -329,8 +329,8 @@ __ESTREE_TEST__:PASS:
         "name": "ng",
         "optional": false,
         "typeAnnotation": null,
-        "start": 51,
-        "end": 53
+        "start": 54,
+        "end": 56
       },
       "body": {
         "type": "TSModuleBlock",
@@ -345,8 +345,8 @@ __ESTREE_TEST__:PASS:
                 "name": "IModule",
                 "optional": false,
                 "typeAnnotation": null,
-                "start": 76,
-                "end": 83
+                "start": 79,
+                "end": 86
               },
               "typeParameters": null,
               "extends": [],
@@ -364,38 +364,38 @@ __ESTREE_TEST__:PASS:
                       "name": "name",
                       "optional": false,
                       "typeAnnotation": null,
-                      "start": 92,
-                      "end": 96
+                      "start": 95,
+                      "end": 99
                     },
                     "typeAnnotation": {
                       "type": "TSTypeAnnotation",
                       "typeAnnotation": {
                         "type": "TSStringKeyword",
-                        "start": 98,
-                        "end": 104
+                        "start": 101,
+                        "end": 107
                       },
-                      "start": 96,
-                      "end": 104
+                      "start": 99,
+                      "end": 107
                     },
                     "accessibility": null,
                     "static": false,
-                    "start": 92,
-                    "end": 105
+                    "start": 95,
+                    "end": 108
                   }
                 ],
-                "start": 84,
-                "end": 110
+                "start": 87,
+                "end": 113
               },
               "declare": false,
-              "start": 66,
-              "end": 110
+              "start": 69,
+              "end": 113
             },
             "specifiers": [],
             "source": null,
             "exportKind": "type",
             "attributes": [],
-            "start": 59,
-            "end": 110
+            "start": 62,
+            "end": 113
           },
           {
             "type": "ExportNamedDeclaration",
@@ -407,8 +407,8 @@ __ESTREE_TEST__:PASS:
                 "name": "IAngularStatic",
                 "optional": false,
                 "typeAnnotation": null,
-                "start": 132,
-                "end": 146
+                "start": 135,
+                "end": 149
               },
               "typeParameters": null,
               "extends": [],
@@ -426,8 +426,8 @@ __ESTREE_TEST__:PASS:
                       "name": "module",
                       "optional": false,
                       "typeAnnotation": null,
-                      "start": 156,
-                      "end": 162
+                      "start": 159,
+                      "end": 165
                     },
                     "typeAnnotation": {
                       "type": "TSTypeAnnotation",
@@ -444,14 +444,14 @@ __ESTREE_TEST__:PASS:
                               "type": "TSTypeAnnotation",
                               "typeAnnotation": {
                                 "type": "TSStringKeyword",
-                                "start": 168,
-                                "end": 174
+                                "start": 171,
+                                "end": 177
                               },
-                              "start": 166,
-                              "end": 174
+                              "start": 169,
+                              "end": 177
                             },
-                            "start": 165,
-                            "end": 174
+                            "start": 168,
+                            "end": 177
                           }
                         ],
                         "returnType": {
@@ -464,51 +464,51 @@ __ESTREE_TEST__:PASS:
                               "name": "IModule",
                               "optional": false,
                               "typeAnnotation": null,
-                              "start": 179,
-                              "end": 186
+                              "start": 182,
+                              "end": 189
                             },
                             "typeArguments": null,
-                            "start": 179,
-                            "end": 186
+                            "start": 182,
+                            "end": 189
                           },
-                          "start": 176,
-                          "end": 186
+                          "start": 179,
+                          "end": 189
                         },
-                        "start": 164,
-                        "end": 186
+                        "start": 167,
+                        "end": 189
                       },
-                      "start": 162,
-                      "end": 186
+                      "start": 165,
+                      "end": 189
                     },
                     "accessibility": null,
                     "static": false,
-                    "start": 156,
-                    "end": 187
+                    "start": 159,
+                    "end": 190
                   }
                 ],
-                "start": 147,
-                "end": 192
+                "start": 150,
+                "end": 195
               },
               "declare": false,
-              "start": 122,
-              "end": 192
+              "start": 125,
+              "end": 195
             },
             "specifiers": [],
             "source": null,
             "exportKind": "type",
             "attributes": [],
-            "start": 115,
-            "end": 192
+            "start": 118,
+            "end": 195
           }
         ],
-        "start": 54,
-        "end": 194
+        "start": 57,
+        "end": 197
       },
-      "kind": "module",
+      "kind": "namespace",
       "declare": true,
       "global": false,
       "start": 36,
-      "end": 194
+      "end": 197
     },
     {
       "type": "TSExportAssignment",
@@ -518,16 +518,16 @@ __ESTREE_TEST__:PASS:
         "name": "ng",
         "optional": false,
         "typeAnnotation": null,
-        "start": 205,
-        "end": 207
+        "start": 208,
+        "end": 210
       },
-      "start": 196,
-      "end": 208
+      "start": 199,
+      "end": 211
     }
   ],
   "sourceType": "module",
   "hashbang": null,
   "start": 0,
-  "end": 209
+  "end": 212
 }
 ```

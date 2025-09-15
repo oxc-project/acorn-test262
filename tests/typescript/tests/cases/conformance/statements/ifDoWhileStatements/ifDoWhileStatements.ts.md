@@ -645,8 +645,8 @@ __ESTREE_TEST__:PASS:
         "name": "M",
         "optional": false,
         "typeAnnotation": null,
-        "start": 311,
-        "end": 312
+        "start": 314,
+        "end": 315
       },
       "body": {
         "type": "TSModuleBlock",
@@ -662,8 +662,8 @@ __ESTREE_TEST__:PASS:
                 "name": "A",
                 "optional": false,
                 "typeAnnotation": null,
-                "start": 332,
-                "end": 333
+                "start": 335,
+                "end": 336
               },
               "typeParameters": null,
               "superClass": null,
@@ -681,18 +681,18 @@ __ESTREE_TEST__:PASS:
                       "name": "name",
                       "optional": false,
                       "typeAnnotation": null,
-                      "start": 344,
-                      "end": 348
+                      "start": 347,
+                      "end": 351
                     },
                     "typeAnnotation": {
                       "type": "TSTypeAnnotation",
                       "typeAnnotation": {
                         "type": "TSStringKeyword",
-                        "start": 350,
-                        "end": 356
+                        "start": 353,
+                        "end": 359
                       },
-                      "start": 348,
-                      "end": 356
+                      "start": 351,
+                      "end": 359
                     },
                     "value": null,
                     "computed": false,
@@ -703,24 +703,24 @@ __ESTREE_TEST__:PASS:
                     "definite": false,
                     "readonly": false,
                     "accessibility": null,
-                    "start": 344,
-                    "end": 357
+                    "start": 347,
+                    "end": 360
                   }
                 ],
-                "start": 334,
-                "end": 363
+                "start": 337,
+                "end": 366
               },
               "abstract": false,
               "declare": false,
-              "start": 326,
-              "end": 363
+              "start": 329,
+              "end": 366
             },
             "specifiers": [],
             "source": null,
             "exportKind": "value",
             "attributes": [],
-            "start": 319,
-            "end": 363
+            "start": 322,
+            "end": 366
           },
           {
             "type": "ExportNamedDeclaration",
@@ -732,8 +732,8 @@ __ESTREE_TEST__:PASS:
                 "name": "F2",
                 "optional": false,
                 "typeAnnotation": null,
-                "start": 385,
-                "end": 387
+                "start": 388,
+                "end": 390
               },
               "generator": false,
               "async": false,
@@ -749,25 +749,25 @@ __ESTREE_TEST__:PASS:
                     "type": "TSTypeAnnotation",
                     "typeAnnotation": {
                       "type": "TSNumberKeyword",
-                      "start": 391,
-                      "end": 397
+                      "start": 394,
+                      "end": 400
                     },
-                    "start": 389,
-                    "end": 397
+                    "start": 392,
+                    "end": 400
                   },
-                  "start": 388,
-                  "end": 397
+                  "start": 391,
+                  "end": 400
                 }
               ],
               "returnType": {
                 "type": "TSTypeAnnotation",
                 "typeAnnotation": {
                   "type": "TSStringKeyword",
-                  "start": 400,
-                  "end": 406
+                  "start": 403,
+                  "end": 409
                 },
-                "start": 398,
-                "end": 406
+                "start": 401,
+                "end": 409
               },
               "body": {
                 "type": "BlockStatement",
@@ -784,8 +784,8 @@ __ESTREE_TEST__:PASS:
                           "name": "x",
                           "optional": false,
                           "typeAnnotation": null,
-                          "start": 416,
-                          "end": 417
+                          "start": 419,
+                          "end": 420
                         },
                         "property": {
                           "type": "Identifier",
@@ -793,47 +793,47 @@ __ESTREE_TEST__:PASS:
                           "name": "toString",
                           "optional": false,
                           "typeAnnotation": null,
-                          "start": 418,
-                          "end": 426
+                          "start": 421,
+                          "end": 429
                         },
                         "optional": false,
                         "computed": false,
-                        "start": 416,
-                        "end": 426
+                        "start": 419,
+                        "end": 429
                       },
                       "typeArguments": null,
                       "arguments": [],
                       "optional": false,
-                      "start": 416,
-                      "end": 428
+                      "start": 419,
+                      "end": 431
                     },
-                    "start": 409,
-                    "end": 429
+                    "start": 412,
+                    "end": 432
                   }
                 ],
-                "start": 407,
-                "end": 431
+                "start": 410,
+                "end": 434
               },
               "expression": false,
-              "start": 376,
-              "end": 431
+              "start": 379,
+              "end": 434
             },
             "specifiers": [],
             "source": null,
             "exportKind": "value",
             "attributes": [],
-            "start": 369,
-            "end": 431
+            "start": 372,
+            "end": 434
           }
         ],
-        "start": 313,
-        "end": 433
+        "start": 316,
+        "end": 436
       },
-      "kind": "module",
+      "kind": "namespace",
       "declare": false,
       "global": false,
       "start": 304,
-      "end": 433
+      "end": 436
     },
     {
       "type": "TSModuleDeclaration",
@@ -843,8 +843,8 @@ __ESTREE_TEST__:PASS:
         "name": "N",
         "optional": false,
         "typeAnnotation": null,
-        "start": 442,
-        "end": 443
+        "start": 448,
+        "end": 449
       },
       "body": {
         "type": "TSModuleBlock",
@@ -860,8 +860,8 @@ __ESTREE_TEST__:PASS:
                 "name": "A",
                 "optional": false,
                 "typeAnnotation": null,
-                "start": 463,
-                "end": 464
+                "start": 469,
+                "end": 470
               },
               "typeParameters": null,
               "superClass": null,
@@ -879,18 +879,18 @@ __ESTREE_TEST__:PASS:
                       "name": "id",
                       "optional": false,
                       "typeAnnotation": null,
-                      "start": 475,
-                      "end": 477
+                      "start": 481,
+                      "end": 483
                     },
                     "typeAnnotation": {
                       "type": "TSTypeAnnotation",
                       "typeAnnotation": {
                         "type": "TSNumberKeyword",
-                        "start": 479,
-                        "end": 485
+                        "start": 485,
+                        "end": 491
                       },
-                      "start": 477,
-                      "end": 485
+                      "start": 483,
+                      "end": 491
                     },
                     "value": null,
                     "computed": false,
@@ -901,24 +901,24 @@ __ESTREE_TEST__:PASS:
                     "definite": false,
                     "readonly": false,
                     "accessibility": null,
-                    "start": 475,
-                    "end": 486
+                    "start": 481,
+                    "end": 492
                   }
                 ],
-                "start": 465,
-                "end": 492
+                "start": 471,
+                "end": 498
               },
               "abstract": false,
               "declare": false,
-              "start": 457,
-              "end": 492
+              "start": 463,
+              "end": 498
             },
             "specifiers": [],
             "source": null,
             "exportKind": "value",
             "attributes": [],
-            "start": 450,
-            "end": 492
+            "start": 456,
+            "end": 498
           },
           {
             "type": "ExportNamedDeclaration",
@@ -930,8 +930,8 @@ __ESTREE_TEST__:PASS:
                 "name": "F2",
                 "optional": false,
                 "typeAnnotation": null,
-                "start": 514,
-                "end": 516
+                "start": 520,
+                "end": 522
               },
               "generator": false,
               "async": false,
@@ -947,25 +947,25 @@ __ESTREE_TEST__:PASS:
                     "type": "TSTypeAnnotation",
                     "typeAnnotation": {
                       "type": "TSNumberKeyword",
-                      "start": 520,
-                      "end": 526
+                      "start": 526,
+                      "end": 532
                     },
-                    "start": 518,
-                    "end": 526
+                    "start": 524,
+                    "end": 532
                   },
-                  "start": 517,
-                  "end": 526
+                  "start": 523,
+                  "end": 532
                 }
               ],
               "returnType": {
                 "type": "TSTypeAnnotation",
                 "typeAnnotation": {
                   "type": "TSStringKeyword",
-                  "start": 529,
-                  "end": 535
+                  "start": 535,
+                  "end": 541
                 },
-                "start": 527,
-                "end": 535
+                "start": 533,
+                "end": 541
               },
               "body": {
                 "type": "BlockStatement",
@@ -982,8 +982,8 @@ __ESTREE_TEST__:PASS:
                           "name": "x",
                           "optional": false,
                           "typeAnnotation": null,
-                          "start": 545,
-                          "end": 546
+                          "start": 551,
+                          "end": 552
                         },
                         "property": {
                           "type": "Identifier",
@@ -991,47 +991,47 @@ __ESTREE_TEST__:PASS:
                           "name": "toString",
                           "optional": false,
                           "typeAnnotation": null,
-                          "start": 547,
-                          "end": 555
+                          "start": 553,
+                          "end": 561
                         },
                         "optional": false,
                         "computed": false,
-                        "start": 545,
-                        "end": 555
+                        "start": 551,
+                        "end": 561
                       },
                       "typeArguments": null,
                       "arguments": [],
                       "optional": false,
-                      "start": 545,
-                      "end": 557
+                      "start": 551,
+                      "end": 563
                     },
-                    "start": 538,
-                    "end": 558
+                    "start": 544,
+                    "end": 564
                   }
                 ],
-                "start": 536,
-                "end": 560
+                "start": 542,
+                "end": 566
               },
               "expression": false,
-              "start": 505,
-              "end": 560
+              "start": 511,
+              "end": 566
             },
             "specifiers": [],
             "source": null,
             "exportKind": "value",
             "attributes": [],
-            "start": 498,
-            "end": 560
+            "start": 504,
+            "end": 566
           }
         ],
-        "start": 444,
-        "end": 562
+        "start": 450,
+        "end": 568
       },
-      "kind": "module",
+      "kind": "namespace",
       "declare": false,
       "global": false,
-      "start": 435,
-      "end": 562
+      "start": 438,
+      "end": 568
     },
     {
       "type": "IfStatement",
@@ -1039,18 +1039,18 @@ __ESTREE_TEST__:PASS:
         "type": "Literal",
         "value": true,
         "raw": "true",
-        "start": 580,
-        "end": 584
-      },
-      "consequent": {
-        "type": "BlockStatement",
-        "body": [],
         "start": 586,
-        "end": 589
+        "end": 590
+      },
+      "consequent": {
+        "type": "BlockStatement",
+        "body": [],
+        "start": 592,
+        "end": 595
       },
       "alternate": null,
-      "start": 576,
-      "end": 589
+      "start": 582,
+      "end": 595
     },
     {
       "type": "WhileStatement",
@@ -1058,35 +1058,35 @@ __ESTREE_TEST__:PASS:
         "type": "Literal",
         "value": true,
         "raw": "true",
-        "start": 597,
-        "end": 601
-      },
-      "body": {
-        "type": "BlockStatement",
-        "body": [],
         "start": 603,
-        "end": 606
+        "end": 607
       },
-      "start": 590,
-      "end": 606
+      "body": {
+        "type": "BlockStatement",
+        "body": [],
+        "start": 609,
+        "end": 612
+      },
+      "start": 596,
+      "end": 612
     },
     {
       "type": "DoWhileStatement",
       "body": {
         "type": "BlockStatement",
         "body": [],
-        "start": 610,
-        "end": 613
+        "start": 616,
+        "end": 619
       },
       "test": {
         "type": "Literal",
         "value": true,
         "raw": "true",
-        "start": 619,
-        "end": 623
+        "start": 625,
+        "end": 629
       },
-      "start": 607,
-      "end": 624
+      "start": 613,
+      "end": 630
     },
     {
       "type": "IfStatement",
@@ -1094,18 +1094,18 @@ __ESTREE_TEST__:PASS:
         "type": "Literal",
         "value": null,
         "raw": "null",
-        "start": 630,
-        "end": 634
-      },
-      "consequent": {
-        "type": "BlockStatement",
-        "body": [],
         "start": 636,
-        "end": 639
+        "end": 640
+      },
+      "consequent": {
+        "type": "BlockStatement",
+        "body": [],
+        "start": 642,
+        "end": 645
       },
       "alternate": null,
-      "start": 626,
-      "end": 639
+      "start": 632,
+      "end": 645
     },
     {
       "type": "WhileStatement",
@@ -1113,35 +1113,35 @@ __ESTREE_TEST__:PASS:
         "type": "Literal",
         "value": null,
         "raw": "null",
-        "start": 647,
-        "end": 651
-      },
-      "body": {
-        "type": "BlockStatement",
-        "body": [],
         "start": 653,
-        "end": 656
+        "end": 657
       },
-      "start": 640,
-      "end": 656
+      "body": {
+        "type": "BlockStatement",
+        "body": [],
+        "start": 659,
+        "end": 662
+      },
+      "start": 646,
+      "end": 662
     },
     {
       "type": "DoWhileStatement",
       "body": {
         "type": "BlockStatement",
         "body": [],
-        "start": 660,
-        "end": 663
+        "start": 666,
+        "end": 669
       },
       "test": {
         "type": "Literal",
         "value": null,
         "raw": "null",
-        "start": 669,
-        "end": 673
+        "start": 675,
+        "end": 679
       },
-      "start": 657,
-      "end": 674
+      "start": 663,
+      "end": 680
     },
     {
       "type": "IfStatement",
@@ -1151,18 +1151,18 @@ __ESTREE_TEST__:PASS:
         "name": "undefined",
         "optional": false,
         "typeAnnotation": null,
-        "start": 680,
-        "end": 689
+        "start": 686,
+        "end": 695
       },
       "consequent": {
         "type": "BlockStatement",
         "body": [],
-        "start": 691,
-        "end": 694
+        "start": 697,
+        "end": 700
       },
       "alternate": null,
-      "start": 676,
-      "end": 694
+      "start": 682,
+      "end": 700
     },
     {
       "type": "WhileStatement",
@@ -1172,25 +1172,25 @@ __ESTREE_TEST__:PASS:
         "name": "undefined",
         "optional": false,
         "typeAnnotation": null,
-        "start": 702,
-        "end": 711
+        "start": 708,
+        "end": 717
       },
       "body": {
         "type": "BlockStatement",
         "body": [],
-        "start": 713,
-        "end": 716
+        "start": 719,
+        "end": 722
       },
-      "start": 695,
-      "end": 716
+      "start": 701,
+      "end": 722
     },
     {
       "type": "DoWhileStatement",
       "body": {
         "type": "BlockStatement",
         "body": [],
-        "start": 720,
-        "end": 723
+        "start": 726,
+        "end": 729
       },
       "test": {
         "type": "Identifier",
@@ -1198,11 +1198,11 @@ __ESTREE_TEST__:PASS:
         "name": "undefined",
         "optional": false,
         "typeAnnotation": null,
-        "start": 729,
-        "end": 738
+        "start": 735,
+        "end": 744
       },
-      "start": 717,
-      "end": 739
+      "start": 723,
+      "end": 745
     },
     {
       "type": "IfStatement",
@@ -1210,18 +1210,18 @@ __ESTREE_TEST__:PASS:
         "type": "Literal",
         "value": 0,
         "raw": "0.0",
-        "start": 745,
-        "end": 748
+        "start": 751,
+        "end": 754
       },
       "consequent": {
         "type": "BlockStatement",
         "body": [],
-        "start": 750,
-        "end": 753
+        "start": 756,
+        "end": 759
       },
       "alternate": null,
-      "start": 741,
-      "end": 753
+      "start": 747,
+      "end": 759
     },
     {
       "type": "WhileStatement",
@@ -1229,35 +1229,35 @@ __ESTREE_TEST__:PASS:
         "type": "Literal",
         "value": 0,
         "raw": "0.0",
-        "start": 761,
-        "end": 764
+        "start": 767,
+        "end": 770
       },
       "body": {
         "type": "BlockStatement",
         "body": [],
-        "start": 766,
-        "end": 769
+        "start": 772,
+        "end": 775
       },
-      "start": 754,
-      "end": 769
+      "start": 760,
+      "end": 775
     },
     {
       "type": "DoWhileStatement",
       "body": {
         "type": "BlockStatement",
         "body": [],
-        "start": 773,
-        "end": 776
+        "start": 779,
+        "end": 782
       },
       "test": {
         "type": "Literal",
         "value": 0,
         "raw": "0.0",
-        "start": 782,
-        "end": 785
+        "start": 788,
+        "end": 791
       },
-      "start": 770,
-      "end": 786
+      "start": 776,
+      "end": 792
     },
     {
       "type": "IfStatement",
@@ -1265,18 +1265,18 @@ __ESTREE_TEST__:PASS:
         "type": "Literal",
         "value": "a string",
         "raw": "'a string'",
-        "start": 792,
-        "end": 802
+        "start": 798,
+        "end": 808
       },
       "consequent": {
         "type": "BlockStatement",
         "body": [],
-        "start": 804,
-        "end": 807
+        "start": 810,
+        "end": 813
       },
       "alternate": null,
-      "start": 788,
-      "end": 807
+      "start": 794,
+      "end": 813
     },
     {
       "type": "WhileStatement",
@@ -1284,35 +1284,35 @@ __ESTREE_TEST__:PASS:
         "type": "Literal",
         "value": "a string",
         "raw": "'a string'",
-        "start": 815,
-        "end": 825
+        "start": 821,
+        "end": 831
       },
       "body": {
         "type": "BlockStatement",
         "body": [],
-        "start": 827,
-        "end": 830
+        "start": 833,
+        "end": 836
       },
-      "start": 808,
-      "end": 830
+      "start": 814,
+      "end": 836
     },
     {
       "type": "DoWhileStatement",
       "body": {
         "type": "BlockStatement",
         "body": [],
-        "start": 834,
-        "end": 837
+        "start": 840,
+        "end": 843
       },
       "test": {
         "type": "Literal",
         "value": "a string",
         "raw": "'a string'",
-        "start": 843,
-        "end": 853
+        "start": 849,
+        "end": 859
       },
-      "start": 831,
-      "end": 854
+      "start": 837,
+      "end": 860
     },
     {
       "type": "IfStatement",
@@ -1320,18 +1320,18 @@ __ESTREE_TEST__:PASS:
         "type": "Literal",
         "value": "",
         "raw": "''",
-        "start": 860,
-        "end": 862
+        "start": 866,
+        "end": 868
       },
       "consequent": {
         "type": "BlockStatement",
         "body": [],
-        "start": 864,
-        "end": 867
+        "start": 870,
+        "end": 873
       },
       "alternate": null,
-      "start": 856,
-      "end": 867
+      "start": 862,
+      "end": 873
     },
     {
       "type": "WhileStatement",
@@ -1339,35 +1339,35 @@ __ESTREE_TEST__:PASS:
         "type": "Literal",
         "value": "",
         "raw": "''",
-        "start": 875,
-        "end": 877
+        "start": 881,
+        "end": 883
       },
       "body": {
         "type": "BlockStatement",
         "body": [],
-        "start": 879,
-        "end": 882
+        "start": 885,
+        "end": 888
       },
-      "start": 868,
-      "end": 882
+      "start": 874,
+      "end": 888
     },
     {
       "type": "DoWhileStatement",
       "body": {
         "type": "BlockStatement",
         "body": [],
-        "start": 886,
-        "end": 889
+        "start": 892,
+        "end": 895
       },
       "test": {
         "type": "Literal",
         "value": "",
         "raw": "''",
-        "start": 895,
-        "end": 897
+        "start": 901,
+        "end": 903
       },
-      "start": 883,
-      "end": 898
+      "start": 889,
+      "end": 904
     },
     {
       "type": "IfStatement",
@@ -1379,18 +1379,18 @@ __ESTREE_TEST__:PASS:
           "pattern": "[a-z]",
           "flags": ""
         },
-        "start": 904,
-        "end": 911
+        "start": 910,
+        "end": 917
       },
       "consequent": {
         "type": "BlockStatement",
         "body": [],
-        "start": 913,
-        "end": 916
+        "start": 919,
+        "end": 922
       },
       "alternate": null,
-      "start": 900,
-      "end": 916
+      "start": 906,
+      "end": 922
     },
     {
       "type": "WhileStatement",
@@ -1402,25 +1402,25 @@ __ESTREE_TEST__:PASS:
           "pattern": "[a-z]",
           "flags": ""
         },
-        "start": 924,
-        "end": 931
+        "start": 930,
+        "end": 937
       },
       "body": {
         "type": "BlockStatement",
         "body": [],
-        "start": 933,
-        "end": 936
+        "start": 939,
+        "end": 942
       },
-      "start": 917,
-      "end": 936
+      "start": 923,
+      "end": 942
     },
     {
       "type": "DoWhileStatement",
       "body": {
         "type": "BlockStatement",
         "body": [],
-        "start": 940,
-        "end": 943
+        "start": 946,
+        "end": 949
       },
       "test": {
         "type": "Literal",
@@ -1430,63 +1430,63 @@ __ESTREE_TEST__:PASS:
           "pattern": "[a-z]",
           "flags": ""
         },
-        "start": 949,
-        "end": 956
+        "start": 955,
+        "end": 962
       },
-      "start": 937,
-      "end": 957
+      "start": 943,
+      "end": 963
     },
     {
       "type": "IfStatement",
       "test": {
         "type": "ArrayExpression",
         "elements": [],
-        "start": 963,
-        "end": 965
+        "start": 969,
+        "end": 971
       },
       "consequent": {
         "type": "BlockStatement",
         "body": [],
-        "start": 967,
-        "end": 970
+        "start": 973,
+        "end": 976
       },
       "alternate": null,
-      "start": 959,
-      "end": 970
+      "start": 965,
+      "end": 976
     },
     {
       "type": "WhileStatement",
       "test": {
         "type": "ArrayExpression",
         "elements": [],
-        "start": 978,
-        "end": 980
+        "start": 984,
+        "end": 986
       },
       "body": {
         "type": "BlockStatement",
         "body": [],
-        "start": 982,
-        "end": 985
+        "start": 988,
+        "end": 991
       },
-      "start": 971,
-      "end": 985
+      "start": 977,
+      "end": 991
     },
     {
       "type": "DoWhileStatement",
       "body": {
         "type": "BlockStatement",
         "body": [],
-        "start": 989,
-        "end": 992
+        "start": 995,
+        "end": 998
       },
       "test": {
         "type": "ArrayExpression",
         "elements": [],
-        "start": 998,
-        "end": 1000
+        "start": 1004,
+        "end": 1006
       },
-      "start": 986,
-      "end": 1001
+      "start": 992,
+      "end": 1007
     },
     {
       "type": "IfStatement",
@@ -1497,29 +1497,29 @@ __ESTREE_TEST__:PASS:
             "type": "Literal",
             "value": 1,
             "raw": "1",
-            "start": 1008,
-            "end": 1009
+            "start": 1014,
+            "end": 1015
           },
           {
             "type": "Literal",
             "value": 2,
             "raw": "2",
-            "start": 1011,
-            "end": 1012
+            "start": 1017,
+            "end": 1018
           }
         ],
-        "start": 1007,
-        "end": 1013
+        "start": 1013,
+        "end": 1019
       },
       "consequent": {
         "type": "BlockStatement",
         "body": [],
-        "start": 1015,
-        "end": 1018
+        "start": 1021,
+        "end": 1024
       },
       "alternate": null,
-      "start": 1003,
-      "end": 1018
+      "start": 1009,
+      "end": 1024
     },
     {
       "type": "WhileStatement",
@@ -1530,36 +1530,36 @@ __ESTREE_TEST__:PASS:
             "type": "Literal",
             "value": 1,
             "raw": "1",
-            "start": 1027,
-            "end": 1028
+            "start": 1033,
+            "end": 1034
           },
           {
             "type": "Literal",
             "value": 2,
             "raw": "2",
-            "start": 1030,
-            "end": 1031
+            "start": 1036,
+            "end": 1037
           }
         ],
-        "start": 1026,
-        "end": 1032
+        "start": 1032,
+        "end": 1038
       },
       "body": {
         "type": "BlockStatement",
         "body": [],
-        "start": 1034,
-        "end": 1037
+        "start": 1040,
+        "end": 1043
       },
-      "start": 1019,
-      "end": 1037
+      "start": 1025,
+      "end": 1043
     },
     {
       "type": "DoWhileStatement",
       "body": {
         "type": "BlockStatement",
         "body": [],
-        "start": 1041,
-        "end": 1044
+        "start": 1047,
+        "end": 1050
       },
       "test": {
         "type": "ArrayExpression",
@@ -1568,74 +1568,74 @@ __ESTREE_TEST__:PASS:
             "type": "Literal",
             "value": 1,
             "raw": "1",
-            "start": 1051,
-            "end": 1052
+            "start": 1057,
+            "end": 1058
           },
           {
             "type": "Literal",
             "value": 2,
             "raw": "2",
-            "start": 1054,
-            "end": 1055
+            "start": 1060,
+            "end": 1061
           }
         ],
-        "start": 1050,
-        "end": 1056
+        "start": 1056,
+        "end": 1062
       },
-      "start": 1038,
-      "end": 1057
+      "start": 1044,
+      "end": 1063
     },
     {
       "type": "IfStatement",
       "test": {
         "type": "ObjectExpression",
         "properties": [],
-        "start": 1063,
-        "end": 1065
+        "start": 1069,
+        "end": 1071
       },
       "consequent": {
         "type": "BlockStatement",
         "body": [],
-        "start": 1067,
-        "end": 1070
+        "start": 1073,
+        "end": 1076
       },
       "alternate": null,
-      "start": 1059,
-      "end": 1070
+      "start": 1065,
+      "end": 1076
     },
     {
       "type": "WhileStatement",
       "test": {
         "type": "ObjectExpression",
         "properties": [],
-        "start": 1078,
-        "end": 1080
+        "start": 1084,
+        "end": 1086
       },
       "body": {
         "type": "BlockStatement",
         "body": [],
-        "start": 1082,
-        "end": 1085
+        "start": 1088,
+        "end": 1091
       },
-      "start": 1071,
-      "end": 1085
+      "start": 1077,
+      "end": 1091
     },
     {
       "type": "DoWhileStatement",
       "body": {
         "type": "BlockStatement",
         "body": [],
-        "start": 1089,
-        "end": 1092
+        "start": 1095,
+        "end": 1098
       },
       "test": {
         "type": "ObjectExpression",
         "properties": [],
-        "start": 1098,
-        "end": 1100
+        "start": 1104,
+        "end": 1106
       },
-      "start": 1086,
-      "end": 1101
+      "start": 1092,
+      "end": 1107
     },
     {
       "type": "IfStatement",
@@ -1649,32 +1649,6 @@ __ESTREE_TEST__:PASS:
               "type": "Identifier",
               "decorators": [],
               "name": "x",
-              "optional": false,
-              "typeAnnotation": null,
-              "start": 1109,
-              "end": 1110
-            },
-            "value": {
-              "type": "Literal",
-              "value": 1,
-              "raw": "1",
-              "start": 1112,
-              "end": 1113
-            },
-            "method": false,
-            "shorthand": false,
-            "computed": false,
-            "optional": false,
-            "start": 1109,
-            "end": 1113
-          },
-          {
-            "type": "Property",
-            "kind": "init",
-            "key": {
-              "type": "Identifier",
-              "decorators": [],
-              "name": "y",
               "optional": false,
               "typeAnnotation": null,
               "start": 1115,
@@ -1682,31 +1656,57 @@ __ESTREE_TEST__:PASS:
             },
             "value": {
               "type": "Literal",
-              "value": "a",
-              "raw": "'a'",
+              "value": 1,
+              "raw": "1",
               "start": 1118,
-              "end": 1121
+              "end": 1119
             },
             "method": false,
             "shorthand": false,
             "computed": false,
             "optional": false,
             "start": 1115,
-            "end": 1121
+            "end": 1119
+          },
+          {
+            "type": "Property",
+            "kind": "init",
+            "key": {
+              "type": "Identifier",
+              "decorators": [],
+              "name": "y",
+              "optional": false,
+              "typeAnnotation": null,
+              "start": 1121,
+              "end": 1122
+            },
+            "value": {
+              "type": "Literal",
+              "value": "a",
+              "raw": "'a'",
+              "start": 1124,
+              "end": 1127
+            },
+            "method": false,
+            "shorthand": false,
+            "computed": false,
+            "optional": false,
+            "start": 1121,
+            "end": 1127
           }
         ],
-        "start": 1107,
-        "end": 1123
+        "start": 1113,
+        "end": 1129
       },
       "consequent": {
         "type": "BlockStatement",
         "body": [],
-        "start": 1125,
-        "end": 1128
+        "start": 1131,
+        "end": 1134
       },
       "alternate": null,
-      "start": 1103,
-      "end": 1128
+      "start": 1109,
+      "end": 1134
     },
     {
       "type": "WhileStatement",
@@ -1720,32 +1720,6 @@ __ESTREE_TEST__:PASS:
               "type": "Identifier",
               "decorators": [],
               "name": "x",
-              "optional": false,
-              "typeAnnotation": null,
-              "start": 1138,
-              "end": 1139
-            },
-            "value": {
-              "type": "Literal",
-              "value": 1,
-              "raw": "1",
-              "start": 1141,
-              "end": 1142
-            },
-            "method": false,
-            "shorthand": false,
-            "computed": false,
-            "optional": false,
-            "start": 1138,
-            "end": 1142
-          },
-          {
-            "type": "Property",
-            "kind": "init",
-            "key": {
-              "type": "Identifier",
-              "decorators": [],
-              "name": "y",
               "optional": false,
               "typeAnnotation": null,
               "start": 1144,
@@ -1753,38 +1727,64 @@ __ESTREE_TEST__:PASS:
             },
             "value": {
               "type": "Literal",
-              "value": "a",
-              "raw": "'a'",
+              "value": 1,
+              "raw": "1",
               "start": 1147,
-              "end": 1150
+              "end": 1148
             },
             "method": false,
             "shorthand": false,
             "computed": false,
             "optional": false,
             "start": 1144,
-            "end": 1150
+            "end": 1148
+          },
+          {
+            "type": "Property",
+            "kind": "init",
+            "key": {
+              "type": "Identifier",
+              "decorators": [],
+              "name": "y",
+              "optional": false,
+              "typeAnnotation": null,
+              "start": 1150,
+              "end": 1151
+            },
+            "value": {
+              "type": "Literal",
+              "value": "a",
+              "raw": "'a'",
+              "start": 1153,
+              "end": 1156
+            },
+            "method": false,
+            "shorthand": false,
+            "computed": false,
+            "optional": false,
+            "start": 1150,
+            "end": 1156
           }
         ],
-        "start": 1136,
-        "end": 1152
+        "start": 1142,
+        "end": 1158
       },
       "body": {
         "type": "BlockStatement",
         "body": [],
-        "start": 1154,
-        "end": 1157
+        "start": 1160,
+        "end": 1163
       },
-      "start": 1129,
-      "end": 1157
+      "start": 1135,
+      "end": 1163
     },
     {
       "type": "DoWhileStatement",
       "body": {
         "type": "BlockStatement",
         "body": [],
-        "start": 1161,
-        "end": 1164
+        "start": 1167,
+        "end": 1170
       },
       "test": {
         "type": "ObjectExpression",
@@ -1798,22 +1798,22 @@ __ESTREE_TEST__:PASS:
               "name": "x",
               "optional": false,
               "typeAnnotation": null,
-              "start": 1172,
-              "end": 1173
+              "start": 1178,
+              "end": 1179
             },
             "value": {
               "type": "Literal",
               "value": 1,
               "raw": "1",
-              "start": 1175,
-              "end": 1176
+              "start": 1181,
+              "end": 1182
             },
             "method": false,
             "shorthand": false,
             "computed": false,
             "optional": false,
-            "start": 1172,
-            "end": 1176
+            "start": 1178,
+            "end": 1182
           },
           {
             "type": "Property",
@@ -1824,29 +1824,29 @@ __ESTREE_TEST__:PASS:
               "name": "y",
               "optional": false,
               "typeAnnotation": null,
-              "start": 1178,
-              "end": 1179
+              "start": 1184,
+              "end": 1185
             },
             "value": {
               "type": "Literal",
               "value": "a",
               "raw": "'a'",
-              "start": 1181,
-              "end": 1184
+              "start": 1187,
+              "end": 1190
             },
             "method": false,
             "shorthand": false,
             "computed": false,
             "optional": false,
-            "start": 1178,
-            "end": 1184
+            "start": 1184,
+            "end": 1190
           }
         ],
-        "start": 1170,
-        "end": 1186
+        "start": 1176,
+        "end": 1192
       },
-      "start": 1158,
-      "end": 1187
+      "start": 1164,
+      "end": 1193
     },
     {
       "type": "IfStatement",
@@ -1861,23 +1861,23 @@ __ESTREE_TEST__:PASS:
           "type": "Literal",
           "value": 43,
           "raw": "43",
-          "start": 1199,
-          "end": 1201
+          "start": 1205,
+          "end": 1207
         },
         "id": null,
         "generator": false,
-        "start": 1193,
-        "end": 1201
+        "start": 1199,
+        "end": 1207
       },
       "consequent": {
         "type": "BlockStatement",
         "body": [],
-        "start": 1203,
-        "end": 1206
+        "start": 1209,
+        "end": 1212
       },
       "alternate": null,
-      "start": 1189,
-      "end": 1206
+      "start": 1195,
+      "end": 1212
     },
     {
       "type": "WhileStatement",
@@ -1892,30 +1892,30 @@ __ESTREE_TEST__:PASS:
           "type": "Literal",
           "value": 43,
           "raw": "43",
-          "start": 1220,
-          "end": 1222
+          "start": 1226,
+          "end": 1228
         },
         "id": null,
         "generator": false,
-        "start": 1214,
-        "end": 1222
+        "start": 1220,
+        "end": 1228
       },
       "body": {
         "type": "BlockStatement",
         "body": [],
-        "start": 1224,
-        "end": 1227
+        "start": 1230,
+        "end": 1233
       },
-      "start": 1207,
-      "end": 1227
+      "start": 1213,
+      "end": 1233
     },
     {
       "type": "DoWhileStatement",
       "body": {
         "type": "BlockStatement",
         "body": [],
-        "start": 1231,
-        "end": 1234
+        "start": 1237,
+        "end": 1240
       },
       "test": {
         "type": "ArrowFunctionExpression",
@@ -1928,16 +1928,16 @@ __ESTREE_TEST__:PASS:
           "type": "Literal",
           "value": 43,
           "raw": "43",
-          "start": 1246,
-          "end": 1248
+          "start": 1252,
+          "end": 1254
         },
         "id": null,
         "generator": false,
-        "start": 1240,
-        "end": 1248
+        "start": 1246,
+        "end": 1254
       },
-      "start": 1228,
-      "end": 1249
+      "start": 1234,
+      "end": 1255
     },
     {
       "type": "IfStatement",
@@ -1949,23 +1949,23 @@ __ESTREE_TEST__:PASS:
           "name": "C",
           "optional": false,
           "typeAnnotation": null,
-          "start": 1259,
-          "end": 1260
+          "start": 1265,
+          "end": 1266
         },
         "typeArguments": null,
         "arguments": [],
-        "start": 1255,
-        "end": 1262
+        "start": 1261,
+        "end": 1268
       },
       "consequent": {
         "type": "BlockStatement",
         "body": [],
-        "start": 1264,
-        "end": 1267
+        "start": 1270,
+        "end": 1273
       },
       "alternate": null,
-      "start": 1251,
-      "end": 1267
+      "start": 1257,
+      "end": 1273
     },
     {
       "type": "WhileStatement",
@@ -1977,30 +1977,30 @@ __ESTREE_TEST__:PASS:
           "name": "C",
           "optional": false,
           "typeAnnotation": null,
-          "start": 1279,
-          "end": 1280
+          "start": 1285,
+          "end": 1286
         },
         "typeArguments": null,
         "arguments": [],
-        "start": 1275,
-        "end": 1282
+        "start": 1281,
+        "end": 1288
       },
       "body": {
         "type": "BlockStatement",
         "body": [],
-        "start": 1284,
-        "end": 1287
+        "start": 1290,
+        "end": 1293
       },
-      "start": 1268,
-      "end": 1287
+      "start": 1274,
+      "end": 1293
     },
     {
       "type": "DoWhileStatement",
       "body": {
         "type": "BlockStatement",
         "body": [],
-        "start": 1291,
-        "end": 1294
+        "start": 1297,
+        "end": 1300
       },
       "test": {
         "type": "NewExpression",
@@ -2010,16 +2010,16 @@ __ESTREE_TEST__:PASS:
           "name": "C",
           "optional": false,
           "typeAnnotation": null,
-          "start": 1304,
-          "end": 1305
+          "start": 1310,
+          "end": 1311
         },
         "typeArguments": null,
         "arguments": [],
-        "start": 1300,
-        "end": 1307
+        "start": 1306,
+        "end": 1313
       },
-      "start": 1288,
-      "end": 1308
+      "start": 1294,
+      "end": 1314
     },
     {
       "type": "IfStatement",
@@ -2031,8 +2031,8 @@ __ESTREE_TEST__:PASS:
           "name": "D",
           "optional": false,
           "typeAnnotation": null,
-          "start": 1318,
-          "end": 1319
+          "start": 1324,
+          "end": 1325
         },
         "typeArguments": {
           "type": "TSTypeParameterInstantiation",
@@ -2045,30 +2045,30 @@ __ESTREE_TEST__:PASS:
                 "name": "C",
                 "optional": false,
                 "typeAnnotation": null,
-                "start": 1320,
-                "end": 1321
+                "start": 1326,
+                "end": 1327
               },
               "typeArguments": null,
-              "start": 1320,
-              "end": 1321
+              "start": 1326,
+              "end": 1327
             }
           ],
-          "start": 1319,
-          "end": 1322
+          "start": 1325,
+          "end": 1328
         },
         "arguments": [],
-        "start": 1314,
-        "end": 1324
+        "start": 1320,
+        "end": 1330
       },
       "consequent": {
         "type": "BlockStatement",
         "body": [],
-        "start": 1326,
-        "end": 1329
+        "start": 1332,
+        "end": 1335
       },
       "alternate": null,
-      "start": 1310,
-      "end": 1329
+      "start": 1316,
+      "end": 1335
     },
     {
       "type": "WhileStatement",
@@ -2080,8 +2080,8 @@ __ESTREE_TEST__:PASS:
           "name": "D",
           "optional": false,
           "typeAnnotation": null,
-          "start": 1341,
-          "end": 1342
+          "start": 1347,
+          "end": 1348
         },
         "typeArguments": {
           "type": "TSTypeParameterInstantiation",
@@ -2094,37 +2094,37 @@ __ESTREE_TEST__:PASS:
                 "name": "C",
                 "optional": false,
                 "typeAnnotation": null,
-                "start": 1343,
-                "end": 1344
+                "start": 1349,
+                "end": 1350
               },
               "typeArguments": null,
-              "start": 1343,
-              "end": 1344
+              "start": 1349,
+              "end": 1350
             }
           ],
-          "start": 1342,
-          "end": 1345
+          "start": 1348,
+          "end": 1351
         },
         "arguments": [],
-        "start": 1337,
-        "end": 1347
+        "start": 1343,
+        "end": 1353
       },
       "body": {
         "type": "BlockStatement",
         "body": [],
-        "start": 1349,
-        "end": 1352
+        "start": 1355,
+        "end": 1358
       },
-      "start": 1330,
-      "end": 1352
+      "start": 1336,
+      "end": 1358
     },
     {
       "type": "DoWhileStatement",
       "body": {
         "type": "BlockStatement",
         "body": [],
-        "start": 1356,
-        "end": 1359
+        "start": 1362,
+        "end": 1365
       },
       "test": {
         "type": "NewExpression",
@@ -2134,8 +2134,8 @@ __ESTREE_TEST__:PASS:
           "name": "D",
           "optional": false,
           "typeAnnotation": null,
-          "start": 1369,
-          "end": 1370
+          "start": 1375,
+          "end": 1376
         },
         "typeArguments": {
           "type": "TSTypeParameterInstantiation",
@@ -2148,23 +2148,23 @@ __ESTREE_TEST__:PASS:
                 "name": "C",
                 "optional": false,
                 "typeAnnotation": null,
-                "start": 1371,
-                "end": 1372
+                "start": 1377,
+                "end": 1378
               },
               "typeArguments": null,
-              "start": 1371,
-              "end": 1372
+              "start": 1377,
+              "end": 1378
             }
           ],
-          "start": 1370,
-          "end": 1373
+          "start": 1376,
+          "end": 1379
         },
         "arguments": [],
-        "start": 1365,
-        "end": 1375
+        "start": 1371,
+        "end": 1381
       },
-      "start": 1353,
-      "end": 1376
+      "start": 1359,
+      "end": 1382
     },
     {
       "type": "VariableDeclaration",
@@ -2178,24 +2178,24 @@ __ESTREE_TEST__:PASS:
             "name": "a",
             "optional": false,
             "typeAnnotation": null,
-            "start": 1396,
-            "end": 1397
+            "start": 1402,
+            "end": 1403
           },
           "init": {
             "type": "Literal",
             "value": true,
             "raw": "true",
-            "start": 1400,
-            "end": 1404
+            "start": 1406,
+            "end": 1410
           },
           "definite": false,
-          "start": 1396,
-          "end": 1404
+          "start": 1402,
+          "end": 1410
         }
       ],
       "declare": false,
-      "start": 1392,
-      "end": 1405
+      "start": 1398,
+      "end": 1411
     },
     {
       "type": "IfStatement",
@@ -2205,18 +2205,18 @@ __ESTREE_TEST__:PASS:
         "name": "a",
         "optional": false,
         "typeAnnotation": null,
-        "start": 1410,
-        "end": 1411
+        "start": 1416,
+        "end": 1417
       },
       "consequent": {
         "type": "BlockStatement",
         "body": [],
-        "start": 1413,
-        "end": 1416
+        "start": 1419,
+        "end": 1422
       },
       "alternate": null,
-      "start": 1406,
-      "end": 1416
+      "start": 1412,
+      "end": 1422
     },
     {
       "type": "WhileStatement",
@@ -2226,25 +2226,25 @@ __ESTREE_TEST__:PASS:
         "name": "a",
         "optional": false,
         "typeAnnotation": null,
-        "start": 1424,
-        "end": 1425
+        "start": 1430,
+        "end": 1431
       },
       "body": {
         "type": "BlockStatement",
         "body": [],
-        "start": 1427,
-        "end": 1430
+        "start": 1433,
+        "end": 1436
       },
-      "start": 1417,
-      "end": 1430
+      "start": 1423,
+      "end": 1436
     },
     {
       "type": "DoWhileStatement",
       "body": {
         "type": "BlockStatement",
         "body": [],
-        "start": 1434,
-        "end": 1437
+        "start": 1440,
+        "end": 1443
       },
       "test": {
         "type": "Identifier",
@@ -2252,11 +2252,11 @@ __ESTREE_TEST__:PASS:
         "name": "a",
         "optional": false,
         "typeAnnotation": null,
-        "start": 1443,
-        "end": 1444
+        "start": 1449,
+        "end": 1450
       },
-      "start": 1431,
-      "end": 1445
+      "start": 1437,
+      "end": 1451
     },
     {
       "type": "VariableDeclaration",
@@ -2270,24 +2270,24 @@ __ESTREE_TEST__:PASS:
             "name": "b",
             "optional": false,
             "typeAnnotation": null,
-            "start": 1451,
-            "end": 1452
+            "start": 1457,
+            "end": 1458
           },
           "init": {
             "type": "Literal",
             "value": null,
             "raw": "null",
-            "start": 1455,
-            "end": 1459
+            "start": 1461,
+            "end": 1465
           },
           "definite": false,
-          "start": 1451,
-          "end": 1459
+          "start": 1457,
+          "end": 1465
         }
       ],
       "declare": false,
-      "start": 1447,
-      "end": 1460
+      "start": 1453,
+      "end": 1466
     },
     {
       "type": "IfStatement",
@@ -2297,18 +2297,18 @@ __ESTREE_TEST__:PASS:
         "name": "b",
         "optional": false,
         "typeAnnotation": null,
-        "start": 1465,
-        "end": 1466
+        "start": 1471,
+        "end": 1472
       },
       "consequent": {
         "type": "BlockStatement",
         "body": [],
-        "start": 1468,
-        "end": 1471
+        "start": 1474,
+        "end": 1477
       },
       "alternate": null,
-      "start": 1461,
-      "end": 1471
+      "start": 1467,
+      "end": 1477
     },
     {
       "type": "WhileStatement",
@@ -2318,25 +2318,25 @@ __ESTREE_TEST__:PASS:
         "name": "b",
         "optional": false,
         "typeAnnotation": null,
-        "start": 1479,
-        "end": 1480
+        "start": 1485,
+        "end": 1486
       },
       "body": {
         "type": "BlockStatement",
         "body": [],
-        "start": 1482,
-        "end": 1485
+        "start": 1488,
+        "end": 1491
       },
-      "start": 1472,
-      "end": 1485
+      "start": 1478,
+      "end": 1491
     },
     {
       "type": "DoWhileStatement",
       "body": {
         "type": "BlockStatement",
         "body": [],
-        "start": 1489,
-        "end": 1492
+        "start": 1495,
+        "end": 1498
       },
       "test": {
         "type": "Identifier",
@@ -2344,11 +2344,11 @@ __ESTREE_TEST__:PASS:
         "name": "b",
         "optional": false,
         "typeAnnotation": null,
-        "start": 1498,
-        "end": 1499
+        "start": 1504,
+        "end": 1505
       },
-      "start": 1486,
-      "end": 1500
+      "start": 1492,
+      "end": 1506
     },
     {
       "type": "VariableDeclaration",
@@ -2362,8 +2362,8 @@ __ESTREE_TEST__:PASS:
             "name": "c",
             "optional": false,
             "typeAnnotation": null,
-            "start": 1506,
-            "end": 1507
+            "start": 1512,
+            "end": 1513
           },
           "init": {
             "type": "Identifier",
@@ -2371,17 +2371,17 @@ __ESTREE_TEST__:PASS:
             "name": "undefined",
             "optional": false,
             "typeAnnotation": null,
-            "start": 1510,
-            "end": 1519
+            "start": 1516,
+            "end": 1525
           },
           "definite": false,
-          "start": 1506,
-          "end": 1519
+          "start": 1512,
+          "end": 1525
         }
       ],
       "declare": false,
-      "start": 1502,
-      "end": 1520
+      "start": 1508,
+      "end": 1526
     },
     {
       "type": "IfStatement",
@@ -2391,18 +2391,18 @@ __ESTREE_TEST__:PASS:
         "name": "c",
         "optional": false,
         "typeAnnotation": null,
-        "start": 1525,
-        "end": 1526
+        "start": 1531,
+        "end": 1532
       },
       "consequent": {
         "type": "BlockStatement",
         "body": [],
-        "start": 1528,
-        "end": 1531
+        "start": 1534,
+        "end": 1537
       },
       "alternate": null,
-      "start": 1521,
-      "end": 1531
+      "start": 1527,
+      "end": 1537
     },
     {
       "type": "WhileStatement",
@@ -2412,25 +2412,25 @@ __ESTREE_TEST__:PASS:
         "name": "c",
         "optional": false,
         "typeAnnotation": null,
-        "start": 1539,
-        "end": 1540
+        "start": 1545,
+        "end": 1546
       },
       "body": {
         "type": "BlockStatement",
         "body": [],
-        "start": 1542,
-        "end": 1545
+        "start": 1548,
+        "end": 1551
       },
-      "start": 1532,
-      "end": 1545
+      "start": 1538,
+      "end": 1551
     },
     {
       "type": "DoWhileStatement",
       "body": {
         "type": "BlockStatement",
         "body": [],
-        "start": 1549,
-        "end": 1552
+        "start": 1555,
+        "end": 1558
       },
       "test": {
         "type": "Identifier",
@@ -2438,11 +2438,11 @@ __ESTREE_TEST__:PASS:
         "name": "c",
         "optional": false,
         "typeAnnotation": null,
-        "start": 1558,
-        "end": 1559
+        "start": 1564,
+        "end": 1565
       },
-      "start": 1546,
-      "end": 1560
+      "start": 1552,
+      "end": 1566
     },
     {
       "type": "VariableDeclaration",
@@ -2456,24 +2456,24 @@ __ESTREE_TEST__:PASS:
             "name": "d",
             "optional": false,
             "typeAnnotation": null,
-            "start": 1566,
-            "end": 1567
+            "start": 1572,
+            "end": 1573
           },
           "init": {
             "type": "Literal",
             "value": 0,
             "raw": "0.0",
-            "start": 1570,
-            "end": 1573
+            "start": 1576,
+            "end": 1579
           },
           "definite": false,
-          "start": 1566,
-          "end": 1573
+          "start": 1572,
+          "end": 1579
         }
       ],
       "declare": false,
-      "start": 1562,
-      "end": 1574
+      "start": 1568,
+      "end": 1580
     },
     {
       "type": "IfStatement",
@@ -2483,18 +2483,18 @@ __ESTREE_TEST__:PASS:
         "name": "d",
         "optional": false,
         "typeAnnotation": null,
-        "start": 1579,
-        "end": 1580
+        "start": 1585,
+        "end": 1586
       },
       "consequent": {
         "type": "BlockStatement",
         "body": [],
-        "start": 1582,
-        "end": 1585
+        "start": 1588,
+        "end": 1591
       },
       "alternate": null,
-      "start": 1575,
-      "end": 1585
+      "start": 1581,
+      "end": 1591
     },
     {
       "type": "WhileStatement",
@@ -2504,25 +2504,25 @@ __ESTREE_TEST__:PASS:
         "name": "d",
         "optional": false,
         "typeAnnotation": null,
-        "start": 1593,
-        "end": 1594
+        "start": 1599,
+        "end": 1600
       },
       "body": {
         "type": "BlockStatement",
         "body": [],
-        "start": 1596,
-        "end": 1599
+        "start": 1602,
+        "end": 1605
       },
-      "start": 1586,
-      "end": 1599
+      "start": 1592,
+      "end": 1605
     },
     {
       "type": "DoWhileStatement",
       "body": {
         "type": "BlockStatement",
         "body": [],
-        "start": 1603,
-        "end": 1606
+        "start": 1609,
+        "end": 1612
       },
       "test": {
         "type": "Identifier",
@@ -2530,11 +2530,11 @@ __ESTREE_TEST__:PASS:
         "name": "d",
         "optional": false,
         "typeAnnotation": null,
-        "start": 1612,
-        "end": 1613
+        "start": 1618,
+        "end": 1619
       },
-      "start": 1600,
-      "end": 1614
+      "start": 1606,
+      "end": 1620
     },
     {
       "type": "VariableDeclaration",
@@ -2548,24 +2548,24 @@ __ESTREE_TEST__:PASS:
             "name": "e",
             "optional": false,
             "typeAnnotation": null,
-            "start": 1620,
-            "end": 1621
+            "start": 1626,
+            "end": 1627
           },
           "init": {
             "type": "Literal",
             "value": "a string",
             "raw": "'a string'",
-            "start": 1624,
-            "end": 1634
+            "start": 1630,
+            "end": 1640
           },
           "definite": false,
-          "start": 1620,
-          "end": 1634
+          "start": 1626,
+          "end": 1640
         }
       ],
       "declare": false,
-      "start": 1616,
-      "end": 1635
+      "start": 1622,
+      "end": 1641
     },
     {
       "type": "IfStatement",
@@ -2575,18 +2575,18 @@ __ESTREE_TEST__:PASS:
         "name": "e",
         "optional": false,
         "typeAnnotation": null,
-        "start": 1640,
-        "end": 1641
+        "start": 1646,
+        "end": 1647
       },
       "consequent": {
         "type": "BlockStatement",
         "body": [],
-        "start": 1643,
-        "end": 1646
+        "start": 1649,
+        "end": 1652
       },
       "alternate": null,
-      "start": 1636,
-      "end": 1646
+      "start": 1642,
+      "end": 1652
     },
     {
       "type": "WhileStatement",
@@ -2596,25 +2596,25 @@ __ESTREE_TEST__:PASS:
         "name": "e",
         "optional": false,
         "typeAnnotation": null,
-        "start": 1654,
-        "end": 1655
+        "start": 1660,
+        "end": 1661
       },
       "body": {
         "type": "BlockStatement",
         "body": [],
-        "start": 1657,
-        "end": 1660
+        "start": 1663,
+        "end": 1666
       },
-      "start": 1647,
-      "end": 1660
+      "start": 1653,
+      "end": 1666
     },
     {
       "type": "DoWhileStatement",
       "body": {
         "type": "BlockStatement",
         "body": [],
-        "start": 1664,
-        "end": 1667
+        "start": 1670,
+        "end": 1673
       },
       "test": {
         "type": "Identifier",
@@ -2622,11 +2622,11 @@ __ESTREE_TEST__:PASS:
         "name": "e",
         "optional": false,
         "typeAnnotation": null,
-        "start": 1673,
-        "end": 1674
+        "start": 1679,
+        "end": 1680
       },
-      "start": 1661,
-      "end": 1675
+      "start": 1667,
+      "end": 1681
     },
     {
       "type": "VariableDeclaration",
@@ -2640,24 +2640,24 @@ __ESTREE_TEST__:PASS:
             "name": "f",
             "optional": false,
             "typeAnnotation": null,
-            "start": 1681,
-            "end": 1682
+            "start": 1687,
+            "end": 1688
           },
           "init": {
             "type": "Literal",
             "value": "",
             "raw": "''",
-            "start": 1685,
-            "end": 1687
+            "start": 1691,
+            "end": 1693
           },
           "definite": false,
-          "start": 1681,
-          "end": 1687
+          "start": 1687,
+          "end": 1693
         }
       ],
       "declare": false,
-      "start": 1677,
-      "end": 1688
+      "start": 1683,
+      "end": 1694
     },
     {
       "type": "IfStatement",
@@ -2667,18 +2667,18 @@ __ESTREE_TEST__:PASS:
         "name": "f",
         "optional": false,
         "typeAnnotation": null,
-        "start": 1693,
-        "end": 1694
+        "start": 1699,
+        "end": 1700
       },
       "consequent": {
         "type": "BlockStatement",
         "body": [],
-        "start": 1696,
-        "end": 1699
+        "start": 1702,
+        "end": 1705
       },
       "alternate": null,
-      "start": 1689,
-      "end": 1699
+      "start": 1695,
+      "end": 1705
     },
     {
       "type": "WhileStatement",
@@ -2688,25 +2688,25 @@ __ESTREE_TEST__:PASS:
         "name": "f",
         "optional": false,
         "typeAnnotation": null,
-        "start": 1707,
-        "end": 1708
+        "start": 1713,
+        "end": 1714
       },
       "body": {
         "type": "BlockStatement",
         "body": [],
-        "start": 1710,
-        "end": 1713
+        "start": 1716,
+        "end": 1719
       },
-      "start": 1700,
-      "end": 1713
+      "start": 1706,
+      "end": 1719
     },
     {
       "type": "DoWhileStatement",
       "body": {
         "type": "BlockStatement",
         "body": [],
-        "start": 1717,
-        "end": 1720
+        "start": 1723,
+        "end": 1726
       },
       "test": {
         "type": "Identifier",
@@ -2714,11 +2714,11 @@ __ESTREE_TEST__:PASS:
         "name": "f",
         "optional": false,
         "typeAnnotation": null,
-        "start": 1726,
-        "end": 1727
+        "start": 1732,
+        "end": 1733
       },
-      "start": 1714,
-      "end": 1728
+      "start": 1720,
+      "end": 1734
     },
     {
       "type": "VariableDeclaration",
@@ -2732,8 +2732,8 @@ __ESTREE_TEST__:PASS:
             "name": "g",
             "optional": false,
             "typeAnnotation": null,
-            "start": 1734,
-            "end": 1735
+            "start": 1740,
+            "end": 1741
           },
           "init": {
             "type": "Literal",
@@ -2743,17 +2743,17 @@ __ESTREE_TEST__:PASS:
               "pattern": "[a-z]",
               "flags": ""
             },
-            "start": 1738,
-            "end": 1745
+            "start": 1744,
+            "end": 1751
           },
           "definite": false,
-          "start": 1734,
-          "end": 1745
+          "start": 1740,
+          "end": 1751
         }
       ],
       "declare": false,
-      "start": 1730,
-      "end": 1745
+      "start": 1736,
+      "end": 1751
     },
     {
       "type": "IfStatement",
@@ -2763,18 +2763,18 @@ __ESTREE_TEST__:PASS:
         "name": "g",
         "optional": false,
         "typeAnnotation": null,
-        "start": 1750,
-        "end": 1751
+        "start": 1756,
+        "end": 1757
       },
       "consequent": {
         "type": "BlockStatement",
         "body": [],
-        "start": 1753,
-        "end": 1756
+        "start": 1759,
+        "end": 1762
       },
       "alternate": null,
-      "start": 1746,
-      "end": 1756
+      "start": 1752,
+      "end": 1762
     },
     {
       "type": "WhileStatement",
@@ -2784,25 +2784,25 @@ __ESTREE_TEST__:PASS:
         "name": "g",
         "optional": false,
         "typeAnnotation": null,
-        "start": 1764,
-        "end": 1765
+        "start": 1770,
+        "end": 1771
       },
       "body": {
         "type": "BlockStatement",
         "body": [],
-        "start": 1767,
-        "end": 1770
+        "start": 1773,
+        "end": 1776
       },
-      "start": 1757,
-      "end": 1770
+      "start": 1763,
+      "end": 1776
     },
     {
       "type": "DoWhileStatement",
       "body": {
         "type": "BlockStatement",
         "body": [],
-        "start": 1774,
-        "end": 1777
+        "start": 1780,
+        "end": 1783
       },
       "test": {
         "type": "Identifier",
@@ -2810,11 +2810,11 @@ __ESTREE_TEST__:PASS:
         "name": "g",
         "optional": false,
         "typeAnnotation": null,
-        "start": 1783,
-        "end": 1784
+        "start": 1789,
+        "end": 1790
       },
-      "start": 1771,
-      "end": 1785
+      "start": 1777,
+      "end": 1791
     },
     {
       "type": "VariableDeclaration",
@@ -2828,23 +2828,23 @@ __ESTREE_TEST__:PASS:
             "name": "h",
             "optional": false,
             "typeAnnotation": null,
-            "start": 1791,
-            "end": 1792
+            "start": 1797,
+            "end": 1798
           },
           "init": {
             "type": "ArrayExpression",
             "elements": [],
-            "start": 1795,
-            "end": 1797
+            "start": 1801,
+            "end": 1803
           },
           "definite": false,
-          "start": 1791,
-          "end": 1797
+          "start": 1797,
+          "end": 1803
         }
       ],
       "declare": false,
-      "start": 1787,
-      "end": 1798
+      "start": 1793,
+      "end": 1804
     },
     {
       "type": "IfStatement",
@@ -2854,18 +2854,18 @@ __ESTREE_TEST__:PASS:
         "name": "h",
         "optional": false,
         "typeAnnotation": null,
-        "start": 1803,
-        "end": 1804
+        "start": 1809,
+        "end": 1810
       },
       "consequent": {
         "type": "BlockStatement",
         "body": [],
-        "start": 1806,
-        "end": 1809
+        "start": 1812,
+        "end": 1815
       },
       "alternate": null,
-      "start": 1799,
-      "end": 1809
+      "start": 1805,
+      "end": 1815
     },
     {
       "type": "WhileStatement",
@@ -2875,25 +2875,25 @@ __ESTREE_TEST__:PASS:
         "name": "h",
         "optional": false,
         "typeAnnotation": null,
-        "start": 1817,
-        "end": 1818
+        "start": 1823,
+        "end": 1824
       },
       "body": {
         "type": "BlockStatement",
         "body": [],
-        "start": 1820,
-        "end": 1823
+        "start": 1826,
+        "end": 1829
       },
-      "start": 1810,
-      "end": 1823
+      "start": 1816,
+      "end": 1829
     },
     {
       "type": "DoWhileStatement",
       "body": {
         "type": "BlockStatement",
         "body": [],
-        "start": 1827,
-        "end": 1830
+        "start": 1833,
+        "end": 1836
       },
       "test": {
         "type": "Identifier",
@@ -2901,11 +2901,11 @@ __ESTREE_TEST__:PASS:
         "name": "h",
         "optional": false,
         "typeAnnotation": null,
-        "start": 1836,
-        "end": 1837
+        "start": 1842,
+        "end": 1843
       },
-      "start": 1824,
-      "end": 1838
+      "start": 1830,
+      "end": 1844
     },
     {
       "type": "VariableDeclaration",
@@ -2919,8 +2919,8 @@ __ESTREE_TEST__:PASS:
             "name": "i",
             "optional": false,
             "typeAnnotation": null,
-            "start": 1844,
-            "end": 1845
+            "start": 1850,
+            "end": 1851
           },
           "init": {
             "type": "ArrayExpression",
@@ -2929,28 +2929,28 @@ __ESTREE_TEST__:PASS:
                 "type": "Literal",
                 "value": 1,
                 "raw": "1",
-                "start": 1849,
-                "end": 1850
+                "start": 1855,
+                "end": 1856
               },
               {
                 "type": "Literal",
                 "value": 2,
                 "raw": "2",
-                "start": 1852,
-                "end": 1853
+                "start": 1858,
+                "end": 1859
               }
             ],
-            "start": 1848,
-            "end": 1854
+            "start": 1854,
+            "end": 1860
           },
           "definite": false,
-          "start": 1844,
-          "end": 1854
+          "start": 1850,
+          "end": 1860
         }
       ],
       "declare": false,
-      "start": 1840,
-      "end": 1855
+      "start": 1846,
+      "end": 1861
     },
     {
       "type": "IfStatement",
@@ -2960,18 +2960,18 @@ __ESTREE_TEST__:PASS:
         "name": "i",
         "optional": false,
         "typeAnnotation": null,
-        "start": 1860,
-        "end": 1861
+        "start": 1866,
+        "end": 1867
       },
       "consequent": {
         "type": "BlockStatement",
         "body": [],
-        "start": 1863,
-        "end": 1866
+        "start": 1869,
+        "end": 1872
       },
       "alternate": null,
-      "start": 1856,
-      "end": 1866
+      "start": 1862,
+      "end": 1872
     },
     {
       "type": "WhileStatement",
@@ -2981,25 +2981,25 @@ __ESTREE_TEST__:PASS:
         "name": "i",
         "optional": false,
         "typeAnnotation": null,
-        "start": 1874,
-        "end": 1875
+        "start": 1880,
+        "end": 1881
       },
       "body": {
         "type": "BlockStatement",
         "body": [],
-        "start": 1877,
-        "end": 1880
+        "start": 1883,
+        "end": 1886
       },
-      "start": 1867,
-      "end": 1880
+      "start": 1873,
+      "end": 1886
     },
     {
       "type": "DoWhileStatement",
       "body": {
         "type": "BlockStatement",
         "body": [],
-        "start": 1884,
-        "end": 1887
+        "start": 1890,
+        "end": 1893
       },
       "test": {
         "type": "Identifier",
@@ -3007,11 +3007,11 @@ __ESTREE_TEST__:PASS:
         "name": "i",
         "optional": false,
         "typeAnnotation": null,
-        "start": 1893,
-        "end": 1894
+        "start": 1899,
+        "end": 1900
       },
-      "start": 1881,
-      "end": 1895
+      "start": 1887,
+      "end": 1901
     },
     {
       "type": "VariableDeclaration",
@@ -3025,23 +3025,23 @@ __ESTREE_TEST__:PASS:
             "name": "j",
             "optional": false,
             "typeAnnotation": null,
-            "start": 1901,
-            "end": 1902
+            "start": 1907,
+            "end": 1908
           },
           "init": {
             "type": "ObjectExpression",
             "properties": [],
-            "start": 1905,
-            "end": 1907
+            "start": 1911,
+            "end": 1913
           },
           "definite": false,
-          "start": 1901,
-          "end": 1907
+          "start": 1907,
+          "end": 1913
         }
       ],
       "declare": false,
-      "start": 1897,
-      "end": 1908
+      "start": 1903,
+      "end": 1914
     },
     {
       "type": "IfStatement",
@@ -3051,18 +3051,18 @@ __ESTREE_TEST__:PASS:
         "name": "j",
         "optional": false,
         "typeAnnotation": null,
-        "start": 1913,
-        "end": 1914
+        "start": 1919,
+        "end": 1920
       },
       "consequent": {
         "type": "BlockStatement",
         "body": [],
-        "start": 1916,
-        "end": 1919
+        "start": 1922,
+        "end": 1925
       },
       "alternate": null,
-      "start": 1909,
-      "end": 1919
+      "start": 1915,
+      "end": 1925
     },
     {
       "type": "WhileStatement",
@@ -3072,25 +3072,25 @@ __ESTREE_TEST__:PASS:
         "name": "j",
         "optional": false,
         "typeAnnotation": null,
-        "start": 1927,
-        "end": 1928
+        "start": 1933,
+        "end": 1934
       },
       "body": {
         "type": "BlockStatement",
         "body": [],
-        "start": 1930,
-        "end": 1933
+        "start": 1936,
+        "end": 1939
       },
-      "start": 1920,
-      "end": 1933
+      "start": 1926,
+      "end": 1939
     },
     {
       "type": "DoWhileStatement",
       "body": {
         "type": "BlockStatement",
         "body": [],
-        "start": 1937,
-        "end": 1940
+        "start": 1943,
+        "end": 1946
       },
       "test": {
         "type": "Identifier",
@@ -3098,11 +3098,11 @@ __ESTREE_TEST__:PASS:
         "name": "j",
         "optional": false,
         "typeAnnotation": null,
-        "start": 1946,
-        "end": 1947
+        "start": 1952,
+        "end": 1953
       },
-      "start": 1934,
-      "end": 1948
+      "start": 1940,
+      "end": 1954
     },
     {
       "type": "VariableDeclaration",
@@ -3116,8 +3116,8 @@ __ESTREE_TEST__:PASS:
             "name": "k",
             "optional": false,
             "typeAnnotation": null,
-            "start": 1954,
-            "end": 1955
+            "start": 1960,
+            "end": 1961
           },
           "init": {
             "type": "ObjectExpression",
@@ -3131,22 +3131,22 @@ __ESTREE_TEST__:PASS:
                   "name": "x",
                   "optional": false,
                   "typeAnnotation": null,
-                  "start": 1960,
-                  "end": 1961
+                  "start": 1966,
+                  "end": 1967
                 },
                 "value": {
                   "type": "Literal",
                   "value": 1,
                   "raw": "1",
-                  "start": 1963,
-                  "end": 1964
+                  "start": 1969,
+                  "end": 1970
                 },
                 "method": false,
                 "shorthand": false,
                 "computed": false,
                 "optional": false,
-                "start": 1960,
-                "end": 1964
+                "start": 1966,
+                "end": 1970
               },
               {
                 "type": "Property",
@@ -3157,35 +3157,35 @@ __ESTREE_TEST__:PASS:
                   "name": "y",
                   "optional": false,
                   "typeAnnotation": null,
-                  "start": 1966,
-                  "end": 1967
+                  "start": 1972,
+                  "end": 1973
                 },
                 "value": {
                   "type": "Literal",
                   "value": "a",
                   "raw": "'a'",
-                  "start": 1969,
-                  "end": 1972
+                  "start": 1975,
+                  "end": 1978
                 },
                 "method": false,
                 "shorthand": false,
                 "computed": false,
                 "optional": false,
-                "start": 1966,
-                "end": 1972
+                "start": 1972,
+                "end": 1978
               }
             ],
-            "start": 1958,
-            "end": 1974
+            "start": 1964,
+            "end": 1980
           },
           "definite": false,
-          "start": 1954,
-          "end": 1974
+          "start": 1960,
+          "end": 1980
         }
       ],
       "declare": false,
-      "start": 1950,
-      "end": 1975
+      "start": 1956,
+      "end": 1981
     },
     {
       "type": "IfStatement",
@@ -3195,18 +3195,18 @@ __ESTREE_TEST__:PASS:
         "name": "k",
         "optional": false,
         "typeAnnotation": null,
-        "start": 1980,
-        "end": 1981
+        "start": 1986,
+        "end": 1987
       },
       "consequent": {
         "type": "BlockStatement",
         "body": [],
-        "start": 1983,
-        "end": 1986
+        "start": 1989,
+        "end": 1992
       },
       "alternate": null,
-      "start": 1976,
-      "end": 1986
+      "start": 1982,
+      "end": 1992
     },
     {
       "type": "WhileStatement",
@@ -3216,25 +3216,25 @@ __ESTREE_TEST__:PASS:
         "name": "k",
         "optional": false,
         "typeAnnotation": null,
-        "start": 1994,
-        "end": 1995
+        "start": 2000,
+        "end": 2001
       },
       "body": {
         "type": "BlockStatement",
         "body": [],
-        "start": 1997,
-        "end": 2000
+        "start": 2003,
+        "end": 2006
       },
-      "start": 1987,
-      "end": 2000
+      "start": 1993,
+      "end": 2006
     },
     {
       "type": "DoWhileStatement",
       "body": {
         "type": "BlockStatement",
         "body": [],
-        "start": 2004,
-        "end": 2007
+        "start": 2010,
+        "end": 2013
       },
       "test": {
         "type": "Identifier",
@@ -3242,11 +3242,11 @@ __ESTREE_TEST__:PASS:
         "name": "k",
         "optional": false,
         "typeAnnotation": null,
-        "start": 2013,
-        "end": 2014
+        "start": 2019,
+        "end": 2020
       },
-      "start": 2001,
-      "end": 2015
+      "start": 2007,
+      "end": 2021
     },
     {
       "type": "FunctionDeclaration",
@@ -3256,8 +3256,8 @@ __ESTREE_TEST__:PASS:
         "name": "fn",
         "optional": false,
         "typeAnnotation": null,
-        "start": 2026,
-        "end": 2028
+        "start": 2032,
+        "end": 2034
       },
       "generator": false,
       "async": false,
@@ -3273,14 +3273,14 @@ __ESTREE_TEST__:PASS:
             "type": "TSTypeAnnotation",
             "typeAnnotation": {
               "type": "TSStringKeyword",
-              "start": 2033,
-              "end": 2039
+              "start": 2039,
+              "end": 2045
             },
-            "start": 2031,
-            "end": 2039
+            "start": 2037,
+            "end": 2045
           },
-          "start": 2029,
-          "end": 2039
+          "start": 2035,
+          "end": 2045
         }
       ],
       "returnType": {
@@ -3293,15 +3293,15 @@ __ESTREE_TEST__:PASS:
             "name": "I",
             "optional": false,
             "typeAnnotation": null,
-            "start": 2042,
-            "end": 2043
+            "start": 2048,
+            "end": 2049
           },
           "typeArguments": null,
-          "start": 2042,
-          "end": 2043
+          "start": 2048,
+          "end": 2049
         },
-        "start": 2040,
-        "end": 2043
+        "start": 2046,
+        "end": 2049
       },
       "body": {
         "type": "BlockStatement",
@@ -3312,19 +3312,19 @@ __ESTREE_TEST__:PASS:
               "type": "Literal",
               "value": null,
               "raw": "null",
-              "start": 2053,
-              "end": 2057
+              "start": 2059,
+              "end": 2063
             },
-            "start": 2046,
-            "end": 2058
+            "start": 2052,
+            "end": 2064
           }
         ],
-        "start": 2044,
-        "end": 2060
+        "start": 2050,
+        "end": 2066
       },
       "expression": false,
-      "start": 2017,
-      "end": 2060
+      "start": 2023,
+      "end": 2066
     },
     {
       "type": "IfStatement",
@@ -3336,24 +3336,24 @@ __ESTREE_TEST__:PASS:
           "name": "fn",
           "optional": false,
           "typeAnnotation": null,
-          "start": 2065,
-          "end": 2067
+          "start": 2071,
+          "end": 2073
         },
         "typeArguments": null,
         "arguments": [],
         "optional": false,
-        "start": 2065,
-        "end": 2069
-      },
-      "consequent": {
-        "type": "BlockStatement",
-        "body": [],
         "start": 2071,
-        "end": 2074
+        "end": 2075
+      },
+      "consequent": {
+        "type": "BlockStatement",
+        "body": [],
+        "start": 2077,
+        "end": 2080
       },
       "alternate": null,
-      "start": 2061,
-      "end": 2074
+      "start": 2067,
+      "end": 2080
     },
     {
       "type": "WhileStatement",
@@ -3365,31 +3365,31 @@ __ESTREE_TEST__:PASS:
           "name": "fn",
           "optional": false,
           "typeAnnotation": null,
-          "start": 2082,
-          "end": 2084
+          "start": 2088,
+          "end": 2090
         },
         "typeArguments": null,
         "arguments": [],
         "optional": false,
-        "start": 2082,
-        "end": 2086
+        "start": 2088,
+        "end": 2092
       },
       "body": {
         "type": "BlockStatement",
         "body": [],
-        "start": 2088,
-        "end": 2091
+        "start": 2094,
+        "end": 2097
       },
-      "start": 2075,
-      "end": 2091
+      "start": 2081,
+      "end": 2097
     },
     {
       "type": "DoWhileStatement",
       "body": {
         "type": "BlockStatement",
         "body": [],
-        "start": 2095,
-        "end": 2098
+        "start": 2101,
+        "end": 2104
       },
       "test": {
         "type": "CallExpression",
@@ -3399,17 +3399,17 @@ __ESTREE_TEST__:PASS:
           "name": "fn",
           "optional": false,
           "typeAnnotation": null,
-          "start": 2104,
-          "end": 2106
+          "start": 2110,
+          "end": 2112
         },
         "typeArguments": null,
         "arguments": [],
         "optional": false,
-        "start": 2104,
-        "end": 2108
+        "start": 2110,
+        "end": 2114
       },
-      "start": 2092,
-      "end": 2109
+      "start": 2098,
+      "end": 2115
     },
     {
       "type": "IfStatement",
@@ -3419,18 +3419,18 @@ __ESTREE_TEST__:PASS:
         "name": "fn",
         "optional": false,
         "typeAnnotation": null,
-        "start": 2115,
-        "end": 2117
+        "start": 2121,
+        "end": 2123
       },
       "consequent": {
         "type": "BlockStatement",
         "body": [],
-        "start": 2119,
-        "end": 2122
+        "start": 2125,
+        "end": 2128
       },
       "alternate": null,
-      "start": 2111,
-      "end": 2122
+      "start": 2117,
+      "end": 2128
     },
     {
       "type": "WhileStatement",
@@ -3440,25 +3440,25 @@ __ESTREE_TEST__:PASS:
         "name": "fn",
         "optional": false,
         "typeAnnotation": null,
-        "start": 2130,
-        "end": 2132
+        "start": 2136,
+        "end": 2138
       },
       "body": {
         "type": "BlockStatement",
         "body": [],
-        "start": 2134,
-        "end": 2137
+        "start": 2140,
+        "end": 2143
       },
-      "start": 2123,
-      "end": 2137
+      "start": 2129,
+      "end": 2143
     },
     {
       "type": "DoWhileStatement",
       "body": {
         "type": "BlockStatement",
         "body": [],
-        "start": 2141,
-        "end": 2144
+        "start": 2147,
+        "end": 2150
       },
       "test": {
         "type": "Identifier",
@@ -3466,16 +3466,16 @@ __ESTREE_TEST__:PASS:
         "name": "fn",
         "optional": false,
         "typeAnnotation": null,
-        "start": 2150,
-        "end": 2152
+        "start": 2156,
+        "end": 2158
       },
-      "start": 2138,
-      "end": 2153
+      "start": 2144,
+      "end": 2159
     }
   ],
   "sourceType": "script",
   "hashbang": null,
   "start": 0,
-  "end": 2155
+  "end": 2161
 }
 ```

@@ -11,8 +11,8 @@ __ESTREE_TEST__:PASS:
         "name": "Foo",
         "optional": false,
         "typeAnnotation": null,
-        "start": 7,
-        "end": 10
+        "start": 10,
+        "end": 13
       },
       "body": {
         "type": "TSModuleBlock",
@@ -31,41 +31,41 @@ __ESTREE_TEST__:PASS:
                     "name": "answer",
                     "optional": false,
                     "typeAnnotation": null,
-                    "start": 25,
-                    "end": 31
+                    "start": 28,
+                    "end": 34
                   },
                   "init": {
                     "type": "Literal",
                     "value": 42,
                     "raw": "42",
-                    "start": 34,
-                    "end": 36
+                    "start": 37,
+                    "end": 39
                   },
                   "definite": false,
-                  "start": 25,
-                  "end": 36
+                  "start": 28,
+                  "end": 39
                 }
               ],
               "declare": false,
-              "start": 21,
-              "end": 37
+              "start": 24,
+              "end": 40
             },
             "specifiers": [],
             "source": null,
             "exportKind": "value",
             "attributes": [],
-            "start": 14,
-            "end": 37
+            "start": 17,
+            "end": 40
           }
         ],
-        "start": 11,
-        "end": 39
+        "start": 14,
+        "end": 42
       },
-      "kind": "module",
+      "kind": "namespace",
       "declare": false,
       "global": false,
       "start": 0,
-      "end": 39
+      "end": 42
     },
     {
       "type": "TSExportAssignment",
@@ -75,17 +75,17 @@ __ESTREE_TEST__:PASS:
         "name": "Foo",
         "optional": false,
         "typeAnnotation": null,
-        "start": 49,
-        "end": 52
+        "start": 52,
+        "end": 55
       },
-      "start": 40,
-      "end": 53
+      "start": 43,
+      "end": 56
     }
   ],
   "sourceType": "module",
   "hashbang": null,
   "start": 0,
-  "end": 54
+  "end": 57
 }
 ```
 __ESTREE_TEST__:PASS:

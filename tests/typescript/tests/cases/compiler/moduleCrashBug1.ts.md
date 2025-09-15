@@ -11,8 +11,8 @@ __ESTREE_TEST__:PASS:
         "name": "_modes",
         "optional": false,
         "typeAnnotation": null,
-        "start": 7,
-        "end": 13
+        "start": 10,
+        "end": 16
       },
       "body": {
         "type": "TSModuleBlock",
@@ -27,27 +27,27 @@ __ESTREE_TEST__:PASS:
                 "name": "IMode",
                 "optional": false,
                 "typeAnnotation": null,
-                "start": 34,
-                "end": 39
+                "start": 37,
+                "end": 42
               },
               "typeParameters": null,
               "extends": [],
               "body": {
                 "type": "TSInterfaceBody",
                 "body": [],
-                "start": 40,
-                "end": 47
+                "start": 43,
+                "end": 50
               },
               "declare": false,
-              "start": 24,
-              "end": 47
+              "start": 27,
+              "end": 50
             },
             "specifiers": [],
             "source": null,
             "exportKind": "type",
             "attributes": [],
-            "start": 17,
-            "end": 47
+            "start": 20,
+            "end": 50
           },
           {
             "type": "ClassDeclaration",
@@ -58,8 +58,8 @@ __ESTREE_TEST__:PASS:
               "name": "Mode",
               "optional": false,
               "typeAnnotation": null,
-              "start": 57,
-              "end": 61
+              "start": 60,
+              "end": 64
             },
             "typeParameters": null,
             "superClass": null,
@@ -68,23 +68,23 @@ __ESTREE_TEST__:PASS:
             "body": {
               "type": "ClassBody",
               "body": [],
-              "start": 62,
-              "end": 69
+              "start": 65,
+              "end": 72
             },
             "abstract": false,
             "declare": false,
-            "start": 51,
-            "end": 69
+            "start": 54,
+            "end": 72
           }
         ],
-        "start": 14,
-        "end": 71
+        "start": 17,
+        "end": 74
       },
-      "kind": "module",
+      "kind": "namespace",
       "declare": false,
       "global": false,
       "start": 0,
-      "end": 71
+      "end": 74
     },
     {
       "type": "TSModuleDeclaration",
@@ -94,8 +94,8 @@ __ESTREE_TEST__:PASS:
         "name": "editor",
         "optional": false,
         "typeAnnotation": null,
-        "start": 157,
-        "end": 163
+        "start": 163,
+        "end": 169
       },
       "body": {
         "type": "TSModuleBlock",
@@ -108,8 +108,8 @@ __ESTREE_TEST__:PASS:
               "name": "modes",
               "optional": false,
               "typeAnnotation": null,
-              "start": 174,
-              "end": 179
+              "start": 180,
+              "end": 185
             },
             "moduleReference": {
               "type": "Identifier",
@@ -117,22 +117,22 @@ __ESTREE_TEST__:PASS:
               "name": "_modes",
               "optional": false,
               "typeAnnotation": null,
-              "start": 182,
-              "end": 188
+              "start": 188,
+              "end": 194
             },
             "importKind": "value",
-            "start": 167,
-            "end": 189
+            "start": 173,
+            "end": 195
           }
         ],
-        "start": 164,
-        "end": 192
+        "start": 170,
+        "end": 198
       },
-      "kind": "module",
+      "kind": "namespace",
       "declare": false,
       "global": false,
-      "start": 150,
-      "end": 192
+      "start": 153,
+      "end": 198
     },
     {
       "type": "VariableDeclaration",
@@ -155,33 +155,33 @@ __ESTREE_TEST__:PASS:
                   "name": "_modes",
                   "optional": false,
                   "typeAnnotation": null,
-                  "start": 202,
-                  "end": 208
+                  "start": 208,
+                  "end": 214
                 },
                 "typeArguments": null,
-                "start": 202,
-                "end": 208
+                "start": 208,
+                "end": 214
               },
-              "start": 200,
-              "end": 208
+              "start": 206,
+              "end": 214
             },
-            "start": 198,
-            "end": 208
+            "start": 204,
+            "end": 214
           },
           "init": null,
           "definite": false,
-          "start": 198,
-          "end": 208
+          "start": 204,
+          "end": 214
         }
       ],
       "declare": false,
-      "start": 194,
-      "end": 209
+      "start": 200,
+      "end": 215
     }
   ],
   "sourceType": "script",
   "hashbang": null,
   "start": 0,
-  "end": 211
+  "end": 217
 }
 ```

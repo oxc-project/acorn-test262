@@ -11,8 +11,8 @@ __ESTREE_TEST__:PASS:
         "name": "M",
         "optional": false,
         "typeAnnotation": null,
-        "start": 7,
-        "end": 8
+        "start": 10,
+        "end": 11
       },
       "body": {
         "type": "TSModuleBlock",
@@ -22,8 +22,8 @@ __ESTREE_TEST__:PASS:
             "block": {
               "type": "BlockStatement",
               "body": [],
-              "start": 17,
-              "end": 22
+              "start": 20,
+              "end": 25
             },
             "handler": {
               "type": "CatchClause",
@@ -33,31 +33,31 @@ __ESTREE_TEST__:PASS:
                 "name": "e",
                 "optional": false,
                 "typeAnnotation": null,
-                "start": 32,
-                "end": 33
+                "start": 35,
+                "end": 36
               },
               "body": {
                 "type": "BlockStatement",
                 "body": [],
-                "start": 35,
-                "end": 40
+                "start": 38,
+                "end": 43
               },
-              "start": 25,
-              "end": 40
+              "start": 28,
+              "end": 43
             },
             "finalizer": null,
-            "start": 13,
-            "end": 40
+            "start": 16,
+            "end": 43
           }
         ],
-        "start": 9,
-        "end": 42
+        "start": 12,
+        "end": 45
       },
-      "kind": "module",
+      "kind": "namespace",
       "declare": false,
       "global": false,
       "start": 0,
-      "end": 42
+      "end": 45
     },
     {
       "type": "VariableDeclaration",
@@ -71,8 +71,8 @@ __ESTREE_TEST__:PASS:
             "name": "v",
             "optional": false,
             "typeAnnotation": null,
-            "start": 47,
-            "end": 48
+            "start": 50,
+            "end": 51
           },
           "init": {
             "type": "Identifier",
@@ -80,22 +80,22 @@ __ESTREE_TEST__:PASS:
             "name": "M",
             "optional": false,
             "typeAnnotation": null,
-            "start": 51,
-            "end": 52
+            "start": 54,
+            "end": 55
           },
           "definite": false,
-          "start": 47,
-          "end": 52
+          "start": 50,
+          "end": 55
         }
       ],
       "declare": false,
-      "start": 43,
-      "end": 53
+      "start": 46,
+      "end": 56
     }
   ],
   "sourceType": "script",
   "hashbang": null,
   "start": 0,
-  "end": 53
+  "end": 56
 }
 ```

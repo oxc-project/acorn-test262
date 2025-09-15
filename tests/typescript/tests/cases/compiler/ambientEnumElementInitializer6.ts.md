@@ -11,8 +11,8 @@ __ESTREE_TEST__:PASS:
         "name": "M",
         "optional": false,
         "typeAnnotation": null,
-        "start": 15,
-        "end": 16
+        "start": 18,
+        "end": 19
       },
       "body": {
         "type": "TSModuleBlock",
@@ -25,8 +25,8 @@ __ESTREE_TEST__:PASS:
               "name": "E",
               "optional": false,
               "typeAnnotation": null,
-              "start": 28,
-              "end": 29
+              "start": 31,
+              "end": 32
             },
             "body": {
               "type": "TSEnumBody",
@@ -39,43 +39,43 @@ __ESTREE_TEST__:PASS:
                     "name": "e",
                     "optional": false,
                     "typeAnnotation": null,
-                    "start": 40,
-                    "end": 41
+                    "start": 43,
+                    "end": 44
                   },
                   "initializer": {
                     "type": "Literal",
                     "value": 3,
                     "raw": "3",
-                    "start": 44,
-                    "end": 45
+                    "start": 47,
+                    "end": 48
                   },
                   "computed": false,
-                  "start": 40,
-                  "end": 45
+                  "start": 43,
+                  "end": 48
                 }
               ],
-              "start": 30,
-              "end": 51
+              "start": 33,
+              "end": 54
             },
             "const": false,
             "declare": false,
-            "start": 23,
-            "end": 51
+            "start": 26,
+            "end": 54
           }
         ],
-        "start": 17,
-        "end": 53
+        "start": 20,
+        "end": 56
       },
-      "kind": "module",
+      "kind": "namespace",
       "declare": true,
       "global": false,
       "start": 0,
-      "end": 53
+      "end": 56
     }
   ],
   "sourceType": "script",
   "hashbang": null,
   "start": 0,
-  "end": 53
+  "end": 56
 }
 ```

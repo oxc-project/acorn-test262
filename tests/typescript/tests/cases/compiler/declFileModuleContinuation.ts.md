@@ -13,8 +13,8 @@ __ESTREE_TEST__:PASS:
           "name": "A",
           "optional": false,
           "typeAnnotation": null,
-          "start": 7,
-          "end": 8
+          "start": 10,
+          "end": 11
         },
         "right": {
           "type": "Identifier",
@@ -22,11 +22,11 @@ __ESTREE_TEST__:PASS:
           "name": "C",
           "optional": false,
           "typeAnnotation": null,
-          "start": 9,
-          "end": 10
+          "start": 12,
+          "end": 13
         },
-        "start": 7,
-        "end": 10
+        "start": 10,
+        "end": 13
       },
       "body": {
         "type": "TSModuleBlock",
@@ -41,37 +41,37 @@ __ESTREE_TEST__:PASS:
                 "name": "Z",
                 "optional": false,
                 "typeAnnotation": null,
-                "start": 34,
-                "end": 35
+                "start": 37,
+                "end": 38
               },
               "typeParameters": null,
               "extends": [],
               "body": {
                 "type": "TSInterfaceBody",
                 "body": [],
-                "start": 36,
-                "end": 43
+                "start": 39,
+                "end": 46
               },
               "declare": false,
-              "start": 24,
-              "end": 43
+              "start": 27,
+              "end": 46
             },
             "specifiers": [],
             "source": null,
             "exportKind": "type",
             "attributes": [],
-            "start": 17,
-            "end": 43
+            "start": 20,
+            "end": 46
           }
         ],
-        "start": 11,
-        "end": 45
+        "start": 14,
+        "end": 48
       },
-      "kind": "module",
+      "kind": "namespace",
       "declare": false,
       "global": false,
       "start": 0,
-      "end": 45
+      "end": 48
     },
     {
       "type": "TSModuleDeclaration",
@@ -85,8 +85,8 @@ __ESTREE_TEST__:PASS:
             "name": "A",
             "optional": false,
             "typeAnnotation": null,
-            "start": 54,
-            "end": 55
+            "start": 60,
+            "end": 61
           },
           "right": {
             "type": "Identifier",
@@ -94,11 +94,11 @@ __ESTREE_TEST__:PASS:
             "name": "B",
             "optional": false,
             "typeAnnotation": null,
-            "start": 56,
-            "end": 57
+            "start": 62,
+            "end": 63
           },
-          "start": 54,
-          "end": 57
+          "start": 60,
+          "end": 63
         },
         "right": {
           "type": "Identifier",
@@ -106,11 +106,11 @@ __ESTREE_TEST__:PASS:
           "name": "C",
           "optional": false,
           "typeAnnotation": null,
-          "start": 58,
-          "end": 59
+          "start": 64,
+          "end": 65
         },
-        "start": 54,
-        "end": 59
+        "start": 60,
+        "end": 65
       },
       "body": {
         "type": "TSModuleBlock",
@@ -126,8 +126,8 @@ __ESTREE_TEST__:PASS:
                 "name": "W",
                 "optional": false,
                 "typeAnnotation": null,
-                "start": 79,
-                "end": 80
+                "start": 85,
+                "end": 86
               },
               "typeParameters": null,
               "superClass": null,
@@ -145,8 +145,8 @@ __ESTREE_TEST__:PASS:
                         "name": "A",
                         "optional": false,
                         "typeAnnotation": null,
-                        "start": 92,
-                        "end": 93
+                        "start": 98,
+                        "end": 99
                       },
                       "property": {
                         "type": "Identifier",
@@ -154,13 +154,13 @@ __ESTREE_TEST__:PASS:
                         "name": "C",
                         "optional": false,
                         "typeAnnotation": null,
-                        "start": 94,
-                        "end": 95
+                        "start": 100,
+                        "end": 101
                       },
                       "optional": false,
                       "computed": false,
-                      "start": 92,
-                      "end": 95
+                      "start": 98,
+                      "end": 101
                     },
                     "property": {
                       "type": "Identifier",
@@ -168,51 +168,51 @@ __ESTREE_TEST__:PASS:
                       "name": "Z",
                       "optional": false,
                       "typeAnnotation": null,
-                      "start": 96,
-                      "end": 97
+                      "start": 102,
+                      "end": 103
                     },
                     "optional": false,
                     "computed": false,
-                    "start": 92,
-                    "end": 97
+                    "start": 98,
+                    "end": 103
                   },
                   "typeArguments": null,
-                  "start": 92,
-                  "end": 97
+                  "start": 98,
+                  "end": 103
                 }
               ],
               "body": {
                 "type": "ClassBody",
                 "body": [],
-                "start": 98,
-                "end": 105
+                "start": 104,
+                "end": 111
               },
               "abstract": false,
               "declare": false,
-              "start": 73,
-              "end": 105
+              "start": 79,
+              "end": 111
             },
             "specifiers": [],
             "source": null,
             "exportKind": "value",
             "attributes": [],
-            "start": 66,
-            "end": 105
+            "start": 72,
+            "end": 111
           }
         ],
-        "start": 60,
-        "end": 107
+        "start": 66,
+        "end": 113
       },
-      "kind": "module",
+      "kind": "namespace",
       "declare": false,
       "global": false,
-      "start": 47,
-      "end": 107
+      "start": 50,
+      "end": 113
     }
   ],
   "sourceType": "script",
   "hashbang": null,
   "start": 0,
-  "end": 107
+  "end": 113
 }
 ```

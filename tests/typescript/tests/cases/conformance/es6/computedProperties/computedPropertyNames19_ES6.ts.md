@@ -11,8 +11,8 @@ __ESTREE_TEST__:PASS:
         "name": "M",
         "optional": false,
         "typeAnnotation": null,
-        "start": 7,
-        "end": 8
+        "start": 10,
+        "end": 11
       },
       "body": {
         "type": "TSModuleBlock",
@@ -29,8 +29,8 @@ __ESTREE_TEST__:PASS:
                   "name": "obj",
                   "optional": false,
                   "typeAnnotation": null,
-                  "start": 19,
-                  "end": 22
+                  "start": 22,
+                  "end": 25
                 },
                 "init": {
                   "type": "ObjectExpression",
@@ -42,8 +42,8 @@ __ESTREE_TEST__:PASS:
                         "type": "MemberExpression",
                         "object": {
                           "type": "ThisExpression",
-                          "start": 36,
-                          "end": 40
+                          "start": 39,
+                          "end": 43
                         },
                         "property": {
                           "type": "Identifier",
@@ -51,55 +51,55 @@ __ESTREE_TEST__:PASS:
                           "name": "bar",
                           "optional": false,
                           "typeAnnotation": null,
-                          "start": 41,
-                          "end": 44
+                          "start": 44,
+                          "end": 47
                         },
                         "optional": false,
                         "computed": false,
-                        "start": 36,
-                        "end": 44
+                        "start": 39,
+                        "end": 47
                       },
                       "value": {
                         "type": "Literal",
                         "value": 0,
                         "raw": "0",
-                        "start": 47,
-                        "end": 48
+                        "start": 50,
+                        "end": 51
                       },
                       "method": false,
                       "shorthand": false,
                       "computed": true,
                       "optional": false,
-                      "start": 35,
-                      "end": 48
+                      "start": 38,
+                      "end": 51
                     }
                   ],
-                  "start": 25,
-                  "end": 54
+                  "start": 28,
+                  "end": 57
                 },
                 "definite": false,
-                "start": 19,
-                "end": 54
+                "start": 22,
+                "end": 57
               }
             ],
             "declare": false,
-            "start": 15,
-            "end": 54
+            "start": 18,
+            "end": 57
           }
         ],
-        "start": 9,
-        "end": 56
+        "start": 12,
+        "end": 59
       },
-      "kind": "module",
+      "kind": "namespace",
       "declare": false,
       "global": false,
       "start": 0,
-      "end": 56
+      "end": 59
     }
   ],
   "sourceType": "script",
   "hashbang": null,
   "start": 0,
-  "end": 56
+  "end": 59
 }
 ```

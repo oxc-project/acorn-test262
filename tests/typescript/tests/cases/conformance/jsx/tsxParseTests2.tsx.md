@@ -11,8 +11,8 @@ __ESTREE_TEST__:PASS:
         "name": "JSX",
         "optional": false,
         "typeAnnotation": null,
-        "start": 15,
-        "end": 18
+        "start": 18,
+        "end": 21
       },
       "body": {
         "type": "TSModuleBlock",
@@ -25,20 +25,20 @@ __ESTREE_TEST__:PASS:
               "name": "Element",
               "optional": false,
               "typeAnnotation": null,
-              "start": 32,
-              "end": 39
+              "start": 35,
+              "end": 42
             },
             "typeParameters": null,
             "extends": [],
             "body": {
               "type": "TSInterfaceBody",
               "body": [],
-              "start": 40,
-              "end": 43
+              "start": 43,
+              "end": 46
             },
             "declare": false,
-            "start": 22,
-            "end": 43
+            "start": 25,
+            "end": 46
           },
           {
             "type": "TSInterfaceDeclaration",
@@ -48,8 +48,8 @@ __ESTREE_TEST__:PASS:
               "name": "IntrinsicElements",
               "optional": false,
               "typeAnnotation": null,
-              "start": 55,
-              "end": 72
+              "start": 58,
+              "end": 75
             },
             "typeParameters": null,
             "extends": [],
@@ -67,14 +67,14 @@ __ESTREE_TEST__:PASS:
                     "name": "div",
                     "optional": false,
                     "typeAnnotation": null,
-                    "start": 75,
-                    "end": 78
+                    "start": 78,
+                    "end": 81
                   },
                   "typeAnnotation": null,
                   "accessibility": null,
                   "static": false,
-                  "start": 75,
-                  "end": 79
+                  "start": 78,
+                  "end": 82
                 },
                 {
                   "type": "TSPropertySignature",
@@ -87,32 +87,32 @@ __ESTREE_TEST__:PASS:
                     "name": "span",
                     "optional": false,
                     "typeAnnotation": null,
-                    "start": 80,
-                    "end": 84
+                    "start": 83,
+                    "end": 87
                   },
                   "typeAnnotation": null,
                   "accessibility": null,
                   "static": false,
-                  "start": 80,
-                  "end": 85
+                  "start": 83,
+                  "end": 88
                 }
               ],
-              "start": 73,
-              "end": 87
+              "start": 76,
+              "end": 90
             },
             "declare": false,
-            "start": 45,
-            "end": 87
+            "start": 48,
+            "end": 90
           }
         ],
-        "start": 19,
-        "end": 89
+        "start": 22,
+        "end": 92
       },
-      "kind": "module",
+      "kind": "namespace",
       "declare": true,
       "global": false,
       "start": 0,
-      "end": 89
+      "end": 92
     },
     {
       "type": "VariableDeclaration",
@@ -126,8 +126,8 @@ __ESTREE_TEST__:PASS:
             "name": "x",
             "optional": false,
             "typeAnnotation": null,
-            "start": 95,
-            "end": 96
+            "start": 98,
+            "end": 99
           },
           "init": {
             "type": "JSXElement",
@@ -136,14 +136,14 @@ __ESTREE_TEST__:PASS:
               "name": {
                 "type": "JSXIdentifier",
                 "name": "div",
-                "start": 104,
-                "end": 107
+                "start": 107,
+                "end": 110
               },
               "typeArguments": null,
               "attributes": [],
               "selfClosing": false,
-              "start": 99,
-              "end": 108
+              "start": 102,
+              "end": 111
             },
             "children": [],
             "closingElement": {
@@ -151,28 +151,28 @@ __ESTREE_TEST__:PASS:
               "name": {
                 "type": "JSXIdentifier",
                 "name": "div",
-                "start": 110,
-                "end": 113
+                "start": 113,
+                "end": 116
               },
-              "start": 108,
-              "end": 114
+              "start": 111,
+              "end": 117
             },
-            "start": 99,
-            "end": 114
+            "start": 102,
+            "end": 117
           },
           "definite": false,
-          "start": 95,
-          "end": 114
+          "start": 98,
+          "end": 117
         }
       ],
       "declare": false,
-      "start": 91,
-      "end": 115
+      "start": 94,
+      "end": 118
     }
   ],
   "sourceType": "script",
   "hashbang": null,
   "start": 0,
-  "end": 115
+  "end": 118
 }
 ```
