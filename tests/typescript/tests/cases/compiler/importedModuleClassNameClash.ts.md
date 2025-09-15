@@ -37,27 +37,27 @@ __ESTREE_TEST__:PASS:
           "name": "m1",
           "optional": false,
           "typeAnnotation": null,
-          "start": 33,
-          "end": 35
+          "start": 36,
+          "end": 38
         },
         "body": {
           "type": "TSModuleBlock",
           "body": [],
-          "start": 36,
-          "end": 39
+          "start": 39,
+          "end": 42
         },
-        "kind": "module",
+        "kind": "namespace",
         "declare": false,
         "global": false,
         "start": 26,
-        "end": 39
+        "end": 42
       },
       "specifiers": [],
       "source": null,
       "exportKind": "value",
       "attributes": [],
       "start": 19,
-      "end": 39
+      "end": 42
     },
     {
       "type": "ClassDeclaration",
@@ -68,8 +68,8 @@ __ESTREE_TEST__:PASS:
         "name": "foo",
         "optional": false,
         "typeAnnotation": null,
-        "start": 48,
-        "end": 51
+        "start": 51,
+        "end": 54
       },
       "typeParameters": null,
       "superClass": null,
@@ -78,18 +78,18 @@ __ESTREE_TEST__:PASS:
       "body": {
         "type": "ClassBody",
         "body": [],
-        "start": 52,
-        "end": 55
+        "start": 55,
+        "end": 58
       },
       "abstract": false,
       "declare": false,
-      "start": 42,
-      "end": 55
+      "start": 45,
+      "end": 58
     }
   ],
   "sourceType": "module",
   "hashbang": null,
   "start": 0,
-  "end": 55
+  "end": 58
 }
 ```

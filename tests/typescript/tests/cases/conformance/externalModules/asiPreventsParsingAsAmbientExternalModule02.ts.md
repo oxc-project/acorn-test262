@@ -79,8 +79,8 @@ __ESTREE_TEST__:PASS:
         "name": "container",
         "optional": false,
         "typeAnnotation": null,
-        "start": 49,
-        "end": 58
+        "start": 52,
+        "end": 61
       },
       "body": {
         "type": "TSModuleBlock",
@@ -93,12 +93,12 @@ __ESTREE_TEST__:PASS:
               "name": "declare",
               "optional": false,
               "typeAnnotation": null,
-              "start": 65,
-              "end": 72
+              "start": 68,
+              "end": 75
             },
             "directive": null,
-            "start": 65,
-            "end": 72
+            "start": 68,
+            "end": 75
           },
           {
             "type": "ExpressionStatement",
@@ -108,12 +108,12 @@ __ESTREE_TEST__:PASS:
               "name": "module",
               "optional": false,
               "typeAnnotation": null,
-              "start": 128,
-              "end": 134
+              "start": 131,
+              "end": 137
             },
             "directive": null,
-            "start": 128,
-            "end": 134
+            "start": 131,
+            "end": 137
           },
           {
             "type": "ExpressionStatement",
@@ -121,33 +121,33 @@ __ESTREE_TEST__:PASS:
               "type": "Literal",
               "value": "my external module",
               "raw": "\"my external module\"",
-              "start": 190,
-              "end": 210
+              "start": 193,
+              "end": 213
             },
             "directive": null,
-            "start": 190,
-            "end": 210
+            "start": 193,
+            "end": 213
           },
           {
             "type": "BlockStatement",
             "body": [],
-            "start": 242,
-            "end": 245
+            "start": 245,
+            "end": 248
           }
         ],
-        "start": 59,
-        "end": 290
+        "start": 62,
+        "end": 293
       },
-      "kind": "module",
+      "kind": "namespace",
       "declare": false,
       "global": false,
       "start": 42,
-      "end": 290
+      "end": 293
     }
   ],
   "sourceType": "script",
   "hashbang": null,
   "start": 0,
-  "end": 290
+  "end": 293
 }
 ```

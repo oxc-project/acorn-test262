@@ -171,8 +171,8 @@ __ESTREE_TEST__:PASS:
         "name": "farboo",
         "optional": false,
         "typeAnnotation": null,
-        "start": 137,
-        "end": 143
+        "start": 140,
+        "end": 146
       },
       "body": {
         "type": "TSModuleBlock",
@@ -194,41 +194,41 @@ __ESTREE_TEST__:PASS:
                       "type": "TSTypeAnnotation",
                       "typeAnnotation": {
                         "type": "TSNumberKeyword",
-                        "start": 162,
-                        "end": 168
+                        "start": 165,
+                        "end": 171
                       },
-                      "start": 160,
-                      "end": 168
+                      "start": 163,
+                      "end": 171
                     },
-                    "start": 159,
-                    "end": 168
+                    "start": 162,
+                    "end": 171
                   },
                   "init": null,
                   "definite": false,
-                  "start": 159,
-                  "end": 168
+                  "start": 162,
+                  "end": 171
                 }
               ],
               "declare": false,
-              "start": 153,
-              "end": 169
+              "start": 156,
+              "end": 172
             },
             "specifiers": [],
             "source": null,
             "exportKind": "value",
             "attributes": [],
-            "start": 146,
-            "end": 169
+            "start": 149,
+            "end": 172
           }
         ],
-        "start": 144,
-        "end": 171
+        "start": 147,
+        "end": 174
       },
-      "kind": "module",
+      "kind": "namespace",
       "declare": true,
       "global": false,
       "start": 122,
-      "end": 171
+      "end": 174
     },
     {
       "type": "ExpressionStatement",
@@ -238,17 +238,17 @@ __ESTREE_TEST__:PASS:
         "name": "faroo",
         "optional": false,
         "typeAnnotation": null,
-        "start": 172,
-        "end": 177
+        "start": 175,
+        "end": 180
       },
       "directive": null,
-      "start": 172,
-      "end": 178
+      "start": 175,
+      "end": 181
     }
   ],
   "sourceType": "script",
   "hashbang": null,
   "start": 0,
-  "end": 178
+  "end": 181
 }
 ```

@@ -131,8 +131,8 @@ __ESTREE_TEST__:PASS:
         "name": "B",
         "optional": false,
         "typeAnnotation": null,
-        "start": 185,
-        "end": 186
+        "start": 188,
+        "end": 189
       },
       "body": {
         "type": "TSModuleBlock",
@@ -148,8 +148,8 @@ __ESTREE_TEST__:PASS:
                 "name": "C",
                 "optional": false,
                 "typeAnnotation": null,
-                "start": 206,
-                "end": 207
+                "start": 209,
+                "end": 210
               },
               "typeParameters": null,
               "superClass": null,
@@ -158,30 +158,30 @@ __ESTREE_TEST__:PASS:
               "body": {
                 "type": "ClassBody",
                 "body": [],
-                "start": 208,
-                "end": 246
+                "start": 211,
+                "end": 249
               },
               "abstract": false,
               "declare": false,
-              "start": 200,
-              "end": 246
+              "start": 203,
+              "end": 249
             },
             "specifiers": [],
             "source": null,
             "exportKind": "value",
             "attributes": [],
-            "start": 193,
-            "end": 246
+            "start": 196,
+            "end": 249
           }
         ],
-        "start": 187,
-        "end": 248
+        "start": 190,
+        "end": 251
       },
-      "kind": "module",
+      "kind": "namespace",
       "declare": true,
       "global": false,
       "start": 170,
-      "end": 248
+      "end": 251
     },
     {
       "type": "ExpressionStatement",
@@ -195,8 +195,8 @@ __ESTREE_TEST__:PASS:
             "name": "B",
             "optional": false,
             "typeAnnotation": null,
-            "start": 253,
-            "end": 254
+            "start": 256,
+            "end": 257
           },
           "property": {
             "type": "Identifier",
@@ -204,27 +204,27 @@ __ESTREE_TEST__:PASS:
             "name": "C",
             "optional": false,
             "typeAnnotation": null,
-            "start": 255,
-            "end": 256
+            "start": 258,
+            "end": 259
           },
           "optional": false,
           "computed": false,
-          "start": 253,
-          "end": 256
+          "start": 256,
+          "end": 259
         },
         "typeArguments": null,
         "arguments": [],
-        "start": 249,
-        "end": 258
+        "start": 252,
+        "end": 261
       },
       "directive": null,
-      "start": 249,
-      "end": 259
+      "start": 252,
+      "end": 262
     }
   ],
   "sourceType": "script",
   "hashbang": null,
   "start": 0,
-  "end": 260
+  "end": 263
 }
 ```

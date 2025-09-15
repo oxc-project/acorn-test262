@@ -50,8 +50,8 @@ __ESTREE_TEST__:PASS:
         "name": "D",
         "optional": false,
         "typeAnnotation": null,
-        "start": 7,
-        "end": 8
+        "start": 10,
+        "end": 11
       },
       "body": {
         "type": "TSModuleBlock",
@@ -70,41 +70,41 @@ __ESTREE_TEST__:PASS:
                     "name": "y",
                     "optional": false,
                     "typeAnnotation": null,
-                    "start": 26,
-                    "end": 27
+                    "start": 29,
+                    "end": 30
                   },
                   "init": {
                     "type": "Literal",
                     "value": "hi",
                     "raw": "\"hi\"",
-                    "start": 30,
-                    "end": 34
+                    "start": 33,
+                    "end": 37
                   },
                   "definite": false,
-                  "start": 26,
-                  "end": 34
+                  "start": 29,
+                  "end": 37
                 }
               ],
               "declare": false,
-              "start": 22,
-              "end": 35
+              "start": 25,
+              "end": 38
             },
             "specifiers": [],
             "source": null,
             "exportKind": "value",
             "attributes": [],
-            "start": 15,
-            "end": 35
+            "start": 18,
+            "end": 38
           }
         ],
-        "start": 9,
-        "end": 37
+        "start": 12,
+        "end": 40
       },
-      "kind": "module",
+      "kind": "namespace",
       "declare": false,
       "global": false,
       "start": 0,
-      "end": 37
+      "end": 40
     },
     {
       "type": "ExpressionStatement",
@@ -116,8 +116,8 @@ __ESTREE_TEST__:PASS:
           "name": "D",
           "optional": false,
           "typeAnnotation": null,
-          "start": 38,
-          "end": 39
+          "start": 41,
+          "end": 42
         },
         "property": {
           "type": "Identifier",
@@ -125,22 +125,22 @@ __ESTREE_TEST__:PASS:
           "name": "y",
           "optional": false,
           "typeAnnotation": null,
-          "start": 40,
-          "end": 41
+          "start": 43,
+          "end": 44
         },
         "optional": false,
         "computed": false,
-        "start": 38,
-        "end": 41
+        "start": 41,
+        "end": 44
       },
       "directive": null,
-      "start": 38,
-      "end": 42
+      "start": 41,
+      "end": 45
     }
   ],
   "sourceType": "module",
   "hashbang": null,
   "start": 0,
-  "end": 42
+  "end": 45
 }
 ```

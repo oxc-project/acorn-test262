@@ -152,8 +152,8 @@ __ESTREE_TEST__:PASS:
         "name": "A",
         "optional": false,
         "typeAnnotation": null,
-        "start": 82,
-        "end": 83
+        "start": 85,
+        "end": 86
       },
       "body": {
         "type": "TSModuleBlock",
@@ -168,37 +168,37 @@ __ESTREE_TEST__:PASS:
                 "name": "B",
                 "optional": false,
                 "typeAnnotation": null,
-                "start": 107,
-                "end": 108
+                "start": 110,
+                "end": 111
               },
               "typeParameters": null,
               "extends": [],
               "body": {
                 "type": "TSInterfaceBody",
                 "body": [],
-                "start": 109,
-                "end": 112
+                "start": 112,
+                "end": 115
               },
               "declare": false,
-              "start": 97,
-              "end": 112
+              "start": 100,
+              "end": 115
             },
             "specifiers": [],
             "source": null,
             "exportKind": "type",
             "attributes": [],
-            "start": 90,
-            "end": 112
+            "start": 93,
+            "end": 115
           }
         ],
-        "start": 84,
-        "end": 114
+        "start": 87,
+        "end": 117
       },
-      "kind": "module",
+      "kind": "namespace",
       "declare": false,
       "global": false,
       "start": 75,
-      "end": 114
+      "end": 117
     },
     {
       "type": "TSExportAssignment",
@@ -208,16 +208,16 @@ __ESTREE_TEST__:PASS:
         "name": "A",
         "optional": false,
         "typeAnnotation": null,
-        "start": 125,
-        "end": 126
+        "start": 128,
+        "end": 129
       },
-      "start": 116,
-      "end": 126
+      "start": 119,
+      "end": 129
     }
   ],
   "sourceType": "module",
   "hashbang": null,
   "start": 0,
-  "end": 126
+  "end": 129
 }
 ```

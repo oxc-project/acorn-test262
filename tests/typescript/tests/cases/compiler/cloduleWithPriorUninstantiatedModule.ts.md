@@ -11,8 +11,8 @@ __ESTREE_TEST__:PASS:
         "name": "Moclodule",
         "optional": false,
         "typeAnnotation": null,
-        "start": 47,
-        "end": 56
+        "start": 50,
+        "end": 59
       },
       "body": {
         "type": "TSModuleBlock",
@@ -27,8 +27,8 @@ __ESTREE_TEST__:PASS:
                 "name": "Someinterface",
                 "optional": false,
                 "typeAnnotation": null,
-                "start": 80,
-                "end": 93
+                "start": 83,
+                "end": 96
               },
               "typeParameters": null,
               "extends": [],
@@ -43,8 +43,8 @@ __ESTREE_TEST__:PASS:
                       "name": "foo",
                       "optional": false,
                       "typeAnnotation": null,
-                      "start": 104,
-                      "end": 107
+                      "start": 107,
+                      "end": 110
                     },
                     "computed": false,
                     "optional": false,
@@ -55,42 +55,42 @@ __ESTREE_TEST__:PASS:
                       "type": "TSTypeAnnotation",
                       "typeAnnotation": {
                         "type": "TSVoidKeyword",
-                        "start": 111,
-                        "end": 115
+                        "start": 114,
+                        "end": 118
                       },
-                      "start": 109,
-                      "end": 115
+                      "start": 112,
+                      "end": 118
                     },
                     "accessibility": null,
                     "readonly": false,
                     "static": false,
-                    "start": 104,
-                    "end": 116
+                    "start": 107,
+                    "end": 119
                   }
                 ],
-                "start": 94,
-                "end": 122
+                "start": 97,
+                "end": 125
               },
               "declare": false,
-              "start": 70,
-              "end": 122
+              "start": 73,
+              "end": 125
             },
             "specifiers": [],
             "source": null,
             "exportKind": "type",
             "attributes": [],
-            "start": 63,
-            "end": 122
+            "start": 66,
+            "end": 125
           }
         ],
-        "start": 57,
-        "end": 124
+        "start": 60,
+        "end": 127
       },
-      "kind": "module",
+      "kind": "namespace",
       "declare": false,
       "global": false,
       "start": 40,
-      "end": 124
+      "end": 127
     },
     {
       "type": "ClassDeclaration",
@@ -101,8 +101,8 @@ __ESTREE_TEST__:PASS:
         "name": "Moclodule",
         "optional": false,
         "typeAnnotation": null,
-        "start": 132,
-        "end": 141
+        "start": 135,
+        "end": 144
       },
       "typeParameters": null,
       "superClass": null,
@@ -111,13 +111,13 @@ __ESTREE_TEST__:PASS:
       "body": {
         "type": "ClassBody",
         "body": [],
-        "start": 142,
-        "end": 145
+        "start": 145,
+        "end": 148
       },
       "abstract": false,
       "declare": false,
-      "start": 126,
-      "end": 145
+      "start": 129,
+      "end": 148
     },
     {
       "type": "TSModuleDeclaration",
@@ -127,8 +127,8 @@ __ESTREE_TEST__:PASS:
         "name": "Moclodule",
         "optional": false,
         "typeAnnotation": null,
-        "start": 178,
-        "end": 187
+        "start": 184,
+        "end": 193
       },
       "body": {
         "type": "TSModuleBlock",
@@ -144,8 +144,8 @@ __ESTREE_TEST__:PASS:
                 "name": "Manager",
                 "optional": false,
                 "typeAnnotation": null,
-                "start": 207,
-                "end": 214
+                "start": 213,
+                "end": 220
               },
               "typeParameters": null,
               "superClass": null,
@@ -154,35 +154,35 @@ __ESTREE_TEST__:PASS:
               "body": {
                 "type": "ClassBody",
                 "body": [],
-                "start": 215,
-                "end": 222
+                "start": 221,
+                "end": 228
               },
               "abstract": false,
               "declare": false,
-              "start": 201,
-              "end": 222
+              "start": 207,
+              "end": 228
             },
             "specifiers": [],
             "source": null,
             "exportKind": "value",
             "attributes": [],
-            "start": 194,
-            "end": 222
+            "start": 200,
+            "end": 228
           }
         ],
-        "start": 188,
-        "end": 224
+        "start": 194,
+        "end": 230
       },
-      "kind": "module",
+      "kind": "namespace",
       "declare": false,
       "global": false,
-      "start": 171,
-      "end": 224
+      "start": 174,
+      "end": 230
     }
   ],
   "sourceType": "script",
   "hashbang": null,
   "start": 40,
-  "end": 224
+  "end": 230
 }
 ```

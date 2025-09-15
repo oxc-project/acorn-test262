@@ -11,8 +11,8 @@ __ESTREE_TEST__:PASS:
         "name": "JSX",
         "optional": false,
         "typeAnnotation": null,
-        "start": 15,
-        "end": 18
+        "start": 18,
+        "end": 21
       },
       "body": {
         "type": "TSModuleBlock",
@@ -25,20 +25,20 @@ __ESTREE_TEST__:PASS:
               "name": "Element",
               "optional": false,
               "typeAnnotation": null,
-              "start": 32,
-              "end": 39
+              "start": 35,
+              "end": 42
             },
             "typeParameters": null,
             "extends": [],
             "body": {
               "type": "TSInterfaceBody",
               "body": [],
-              "start": 40,
-              "end": 43
+              "start": 43,
+              "end": 46
             },
             "declare": false,
-            "start": 22,
-            "end": 43
+            "start": 25,
+            "end": 46
           },
           {
             "type": "TSInterfaceDeclaration",
@@ -48,8 +48,8 @@ __ESTREE_TEST__:PASS:
               "name": "IntrinsicElements",
               "optional": false,
               "typeAnnotation": null,
-              "start": 55,
-              "end": 72
+              "start": 58,
+              "end": 75
             },
             "typeParameters": null,
             "extends": [],
@@ -68,49 +68,49 @@ __ESTREE_TEST__:PASS:
                         "type": "TSTypeAnnotation",
                         "typeAnnotation": {
                           "type": "TSStringKeyword",
-                          "start": 84,
-                          "end": 90
+                          "start": 87,
+                          "end": 93
                         },
-                        "start": 82,
-                        "end": 90
+                        "start": 85,
+                        "end": 93
                       },
-                      "start": 81,
-                      "end": 90
+                      "start": 84,
+                      "end": 93
                     }
                   ],
                   "typeAnnotation": {
                     "type": "TSTypeAnnotation",
                     "typeAnnotation": {
                       "type": "TSAnyKeyword",
-                      "start": 93,
-                      "end": 96
+                      "start": 96,
+                      "end": 99
                     },
-                    "start": 91,
-                    "end": 96
+                    "start": 94,
+                    "end": 99
                   },
                   "readonly": false,
                   "static": false,
                   "accessibility": null,
-                  "start": 80,
-                  "end": 97
+                  "start": 83,
+                  "end": 100
                 }
               ],
-              "start": 73,
-              "end": 100
+              "start": 76,
+              "end": 103
             },
             "declare": false,
-            "start": 45,
-            "end": 100
+            "start": 48,
+            "end": 103
           }
         ],
-        "start": 19,
-        "end": 102
+        "start": 22,
+        "end": 105
       },
-      "kind": "module",
+      "kind": "namespace",
       "declare": true,
       "global": false,
       "start": 0,
-      "end": 102
+      "end": 105
     },
     {
       "type": "ExpressionStatement",
@@ -121,23 +121,23 @@ __ESTREE_TEST__:PASS:
           "name": {
             "type": "JSXIdentifier",
             "name": "div",
-            "start": 111,
-            "end": 114
+            "start": 114,
+            "end": 117
           },
           "typeArguments": null,
           "attributes": [],
           "selfClosing": true,
-          "start": 110,
-          "end": 117
+          "start": 113,
+          "end": 120
         },
         "children": [],
         "closingElement": null,
-        "start": 110,
-        "end": 117
+        "start": 113,
+        "end": 120
       },
       "directive": null,
-      "start": 110,
-      "end": 118
+      "start": 113,
+      "end": 121
     },
     {
       "type": "ExpressionStatement",
@@ -148,28 +148,28 @@ __ESTREE_TEST__:PASS:
           "name": {
             "type": "JSXIdentifier",
             "name": "span",
-            "start": 127,
-            "end": 131
+            "start": 130,
+            "end": 134
           },
           "typeArguments": null,
           "attributes": [],
           "selfClosing": true,
-          "start": 126,
-          "end": 134
+          "start": 129,
+          "end": 137
         },
         "children": [],
         "closingElement": null,
-        "start": 126,
-        "end": 134
+        "start": 129,
+        "end": 137
       },
       "directive": null,
-      "start": 126,
-      "end": 135
+      "start": 129,
+      "end": 138
     }
   ],
   "sourceType": "script",
   "hashbang": null,
   "start": 0,
-  "end": 135
+  "end": 138
 }
 ```

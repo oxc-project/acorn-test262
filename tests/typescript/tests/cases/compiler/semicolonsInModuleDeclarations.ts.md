@@ -11,8 +11,8 @@ __ESTREE_TEST__:PASS:
         "name": "ambiModule",
         "optional": false,
         "typeAnnotation": null,
-        "start": 15,
-        "end": 25
+        "start": 18,
+        "end": 28
       },
       "body": {
         "type": "TSModuleBlock",
@@ -27,32 +27,32 @@ __ESTREE_TEST__:PASS:
                 "name": "i1",
                 "optional": false,
                 "typeAnnotation": null,
-                "start": 48,
-                "end": 50
+                "start": 51,
+                "end": 53
               },
               "typeParameters": null,
               "extends": [],
               "body": {
                 "type": "TSInterfaceBody",
                 "body": [],
-                "start": 51,
-                "end": 54
+                "start": 54,
+                "end": 57
               },
               "declare": false,
-              "start": 38,
-              "end": 54
+              "start": 41,
+              "end": 57
             },
             "specifiers": [],
             "source": null,
             "exportKind": "type",
             "attributes": [],
-            "start": 31,
-            "end": 54
+            "start": 34,
+            "end": 57
           },
           {
             "type": "EmptyStatement",
-            "start": 54,
-            "end": 55
+            "start": 57,
+            "end": 58
           },
           {
             "type": "ExportNamedDeclaration",
@@ -64,37 +64,37 @@ __ESTREE_TEST__:PASS:
                 "name": "i2",
                 "optional": false,
                 "typeAnnotation": null,
-                "start": 76,
-                "end": 78
+                "start": 79,
+                "end": 81
               },
               "typeParameters": null,
               "extends": [],
               "body": {
                 "type": "TSInterfaceBody",
                 "body": [],
-                "start": 79,
-                "end": 82
+                "start": 82,
+                "end": 85
               },
               "declare": false,
-              "start": 66,
-              "end": 82
+              "start": 69,
+              "end": 85
             },
             "specifiers": [],
             "source": null,
             "exportKind": "type",
             "attributes": [],
-            "start": 59,
-            "end": 82
+            "start": 62,
+            "end": 85
           }
         ],
-        "start": 26,
-        "end": 84
+        "start": 29,
+        "end": 87
       },
-      "kind": "module",
+      "kind": "namespace",
       "declare": true,
       "global": false,
       "start": 0,
-      "end": 84
+      "end": 87
     },
     {
       "type": "VariableDeclaration",
@@ -119,8 +119,8 @@ __ESTREE_TEST__:PASS:
                     "name": "ambiModule",
                     "optional": false,
                     "typeAnnotation": null,
-                    "start": 94,
-                    "end": 104
+                    "start": 97,
+                    "end": 107
                   },
                   "right": {
                     "type": "Identifier",
@@ -128,31 +128,31 @@ __ESTREE_TEST__:PASS:
                     "name": "i1",
                     "optional": false,
                     "typeAnnotation": null,
-                    "start": 105,
-                    "end": 107
+                    "start": 108,
+                    "end": 110
                   },
-                  "start": 94,
-                  "end": 107
+                  "start": 97,
+                  "end": 110
                 },
                 "typeArguments": null,
-                "start": 94,
-                "end": 107
+                "start": 97,
+                "end": 110
               },
-              "start": 92,
-              "end": 107
+              "start": 95,
+              "end": 110
             },
-            "start": 90,
-            "end": 107
+            "start": 93,
+            "end": 110
           },
           "init": null,
           "definite": false,
-          "start": 90,
-          "end": 107
+          "start": 93,
+          "end": 110
         }
       ],
       "declare": false,
-      "start": 86,
-      "end": 108
+      "start": 89,
+      "end": 111
     },
     {
       "type": "VariableDeclaration",
@@ -177,8 +177,8 @@ __ESTREE_TEST__:PASS:
                     "name": "ambiModule",
                     "optional": false,
                     "typeAnnotation": null,
-                    "start": 117,
-                    "end": 127
+                    "start": 120,
+                    "end": 130
                   },
                   "right": {
                     "type": "Identifier",
@@ -186,36 +186,36 @@ __ESTREE_TEST__:PASS:
                     "name": "i2",
                     "optional": false,
                     "typeAnnotation": null,
-                    "start": 128,
-                    "end": 130
+                    "start": 131,
+                    "end": 133
                   },
-                  "start": 117,
-                  "end": 130
+                  "start": 120,
+                  "end": 133
                 },
                 "typeArguments": null,
-                "start": 117,
-                "end": 130
+                "start": 120,
+                "end": 133
               },
-              "start": 115,
-              "end": 130
+              "start": 118,
+              "end": 133
             },
-            "start": 113,
-            "end": 130
+            "start": 116,
+            "end": 133
           },
           "init": null,
           "definite": false,
-          "start": 113,
-          "end": 130
+          "start": 116,
+          "end": 133
         }
       ],
       "declare": false,
-      "start": 109,
-      "end": 131
+      "start": 112,
+      "end": 134
     }
   ],
   "sourceType": "script",
   "hashbang": null,
   "start": 0,
-  "end": 131
+  "end": 134
 }
 ```

@@ -11,8 +11,8 @@ __ESTREE_TEST__:PASS:
         "name": "M",
         "optional": false,
         "typeAnnotation": null,
-        "start": 146,
-        "end": 147
+        "start": 149,
+        "end": 150
       },
       "body": {
         "type": "TSModuleBlock",
@@ -25,8 +25,8 @@ __ESTREE_TEST__:PASS:
               "name": "fn1",
               "optional": false,
               "typeAnnotation": null,
-              "start": 163,
-              "end": 166
+              "start": 166,
+              "end": 169
             },
             "generator": false,
             "async": false,
@@ -37,12 +37,12 @@ __ESTREE_TEST__:PASS:
             "body": {
               "type": "BlockStatement",
               "body": [],
-              "start": 169,
-              "end": 172
+              "start": 172,
+              "end": 175
             },
             "expression": false,
-            "start": 154,
-            "end": 172
+            "start": 157,
+            "end": 175
           },
           {
             "type": "VariableDeclaration",
@@ -56,18 +56,18 @@ __ESTREE_TEST__:PASS:
                   "name": "fn1",
                   "optional": false,
                   "typeAnnotation": null,
-                  "start": 181,
-                  "end": 184
+                  "start": 184,
+                  "end": 187
                 },
                 "init": null,
                 "definite": false,
-                "start": 181,
-                "end": 184
+                "start": 184,
+                "end": 187
               }
             ],
             "declare": false,
-            "start": 177,
-            "end": 185
+            "start": 180,
+            "end": 188
           },
           {
             "type": "VariableDeclaration",
@@ -81,18 +81,18 @@ __ESTREE_TEST__:PASS:
                   "name": "fn2",
                   "optional": false,
                   "typeAnnotation": null,
-                  "start": 195,
-                  "end": 198
+                  "start": 198,
+                  "end": 201
                 },
                 "init": null,
                 "definite": false,
-                "start": 195,
-                "end": 198
+                "start": 198,
+                "end": 201
               }
             ],
             "declare": false,
-            "start": 191,
-            "end": 199
+            "start": 194,
+            "end": 202
           },
           {
             "type": "FunctionDeclaration",
@@ -102,8 +102,8 @@ __ESTREE_TEST__:PASS:
               "name": "fn2",
               "optional": false,
               "typeAnnotation": null,
-              "start": 213,
-              "end": 216
+              "start": 216,
+              "end": 219
             },
             "generator": false,
             "async": false,
@@ -114,22 +114,22 @@ __ESTREE_TEST__:PASS:
             "body": {
               "type": "BlockStatement",
               "body": [],
-              "start": 219,
-              "end": 222
+              "start": 222,
+              "end": 225
             },
             "expression": false,
-            "start": 204,
-            "end": 222
+            "start": 207,
+            "end": 225
           }
         ],
-        "start": 148,
-        "end": 224
+        "start": 151,
+        "end": 227
       },
-      "kind": "module",
+      "kind": "namespace",
       "declare": false,
       "global": false,
       "start": 139,
-      "end": 224
+      "end": 227
     },
     {
       "type": "FunctionDeclaration",
@@ -139,8 +139,8 @@ __ESTREE_TEST__:PASS:
         "name": "fn3",
         "optional": false,
         "typeAnnotation": null,
-        "start": 235,
-        "end": 238
+        "start": 238,
+        "end": 241
       },
       "generator": false,
       "async": false,
@@ -151,12 +151,12 @@ __ESTREE_TEST__:PASS:
       "body": {
         "type": "BlockStatement",
         "body": [],
-        "start": 241,
-        "end": 244
+        "start": 244,
+        "end": 247
       },
       "expression": false,
-      "start": 226,
-      "end": 244
+      "start": 229,
+      "end": 247
     },
     {
       "type": "VariableDeclaration",
@@ -170,18 +170,18 @@ __ESTREE_TEST__:PASS:
             "name": "fn3",
             "optional": false,
             "typeAnnotation": null,
-            "start": 249,
-            "end": 252
+            "start": 252,
+            "end": 255
           },
           "init": null,
           "definite": false,
-          "start": 249,
-          "end": 252
+          "start": 252,
+          "end": 255
         }
       ],
       "declare": false,
-      "start": 245,
-      "end": 253
+      "start": 248,
+      "end": 256
     },
     {
       "type": "FunctionDeclaration",
@@ -191,8 +191,8 @@ __ESTREE_TEST__:PASS:
         "name": "func",
         "optional": false,
         "typeAnnotation": null,
-        "start": 264,
-        "end": 268
+        "start": 267,
+        "end": 271
       },
       "generator": false,
       "async": false,
@@ -215,18 +215,18 @@ __ESTREE_TEST__:PASS:
                   "name": "fn4",
                   "optional": false,
                   "typeAnnotation": null,
-                  "start": 281,
-                  "end": 284
+                  "start": 284,
+                  "end": 287
                 },
                 "init": null,
                 "definite": false,
-                "start": 281,
-                "end": 284
+                "start": 284,
+                "end": 287
               }
             ],
             "declare": false,
-            "start": 277,
-            "end": 285
+            "start": 280,
+            "end": 288
           },
           {
             "type": "FunctionDeclaration",
@@ -236,8 +236,8 @@ __ESTREE_TEST__:PASS:
               "name": "fn4",
               "optional": false,
               "typeAnnotation": null,
-              "start": 299,
-              "end": 302
+              "start": 302,
+              "end": 305
             },
             "generator": false,
             "async": false,
@@ -248,12 +248,12 @@ __ESTREE_TEST__:PASS:
             "body": {
               "type": "BlockStatement",
               "body": [],
-              "start": 305,
-              "end": 308
+              "start": 308,
+              "end": 311
             },
             "expression": false,
-            "start": 290,
-            "end": 308
+            "start": 293,
+            "end": 311
           },
           {
             "type": "FunctionDeclaration",
@@ -263,8 +263,8 @@ __ESTREE_TEST__:PASS:
               "name": "fn5",
               "optional": false,
               "typeAnnotation": null,
-              "start": 323,
-              "end": 326
+              "start": 326,
+              "end": 329
             },
             "generator": false,
             "async": false,
@@ -275,12 +275,12 @@ __ESTREE_TEST__:PASS:
             "body": {
               "type": "BlockStatement",
               "body": [],
-              "start": 329,
-              "end": 332
+              "start": 332,
+              "end": 335
             },
             "expression": false,
-            "start": 314,
-            "end": 332
+            "start": 317,
+            "end": 335
           },
           {
             "type": "VariableDeclaration",
@@ -294,26 +294,26 @@ __ESTREE_TEST__:PASS:
                   "name": "fn5",
                   "optional": false,
                   "typeAnnotation": null,
-                  "start": 341,
-                  "end": 344
+                  "start": 344,
+                  "end": 347
                 },
                 "init": null,
                 "definite": false,
-                "start": 341,
-                "end": 344
+                "start": 344,
+                "end": 347
               }
             ],
             "declare": false,
-            "start": 337,
-            "end": 345
+            "start": 340,
+            "end": 348
           }
         ],
-        "start": 271,
-        "end": 347
+        "start": 274,
+        "end": 350
       },
       "expression": false,
-      "start": 255,
-      "end": 347
+      "start": 258,
+      "end": 350
     },
     {
       "type": "TSDeclareFunction",
@@ -323,8 +323,8 @@ __ESTREE_TEST__:PASS:
         "name": "over",
         "optional": false,
         "typeAnnotation": null,
-        "start": 358,
-        "end": 362
+        "start": 361,
+        "end": 365
       },
       "generator": false,
       "async": false,
@@ -334,8 +334,8 @@ __ESTREE_TEST__:PASS:
       "returnType": null,
       "body": null,
       "expression": false,
-      "start": 349,
-      "end": 365
+      "start": 352,
+      "end": 368
     },
     {
       "type": "FunctionDeclaration",
@@ -345,8 +345,8 @@ __ESTREE_TEST__:PASS:
         "name": "overrr",
         "optional": false,
         "typeAnnotation": null,
-        "start": 375,
-        "end": 381
+        "start": 378,
+        "end": 384
       },
       "generator": false,
       "async": false,
@@ -357,17 +357,17 @@ __ESTREE_TEST__:PASS:
       "body": {
         "type": "BlockStatement",
         "body": [],
-        "start": 384,
-        "end": 388
+        "start": 387,
+        "end": 391
       },
       "expression": false,
-      "start": 366,
-      "end": 388
+      "start": 369,
+      "end": 391
     }
   ],
   "sourceType": "script",
   "hashbang": null,
   "start": 139,
-  "end": 388
+  "end": 391
 }
 ```

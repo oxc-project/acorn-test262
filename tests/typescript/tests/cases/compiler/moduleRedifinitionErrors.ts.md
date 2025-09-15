@@ -38,25 +38,25 @@ __ESTREE_TEST__:PASS:
         "name": "A",
         "optional": false,
         "typeAnnotation": null,
-        "start": 19,
-        "end": 20
+        "start": 22,
+        "end": 23
       },
       "body": {
         "type": "TSModuleBlock",
         "body": [],
-        "start": 21,
-        "end": 24
+        "start": 24,
+        "end": 27
       },
-      "kind": "module",
+      "kind": "namespace",
       "declare": false,
       "global": false,
       "start": 12,
-      "end": 24
+      "end": 27
     }
   ],
   "sourceType": "script",
   "hashbang": null,
   "start": 0,
-  "end": 24
+  "end": 27
 }
 ```

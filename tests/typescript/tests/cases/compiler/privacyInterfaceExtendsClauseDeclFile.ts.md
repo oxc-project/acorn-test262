@@ -13,8 +13,8 @@ __ESTREE_TEST__:PASS:
           "name": "publicModule",
           "optional": false,
           "typeAnnotation": null,
-          "start": 14,
-          "end": 26
+          "start": 17,
+          "end": 29
         },
         "body": {
           "type": "TSModuleBlock",
@@ -29,27 +29,27 @@ __ESTREE_TEST__:PASS:
                   "name": "publicInterfaceInPublicModule",
                   "optional": false,
                   "typeAnnotation": null,
-                  "start": 50,
-                  "end": 79
+                  "start": 53,
+                  "end": 82
                 },
                 "typeParameters": null,
                 "extends": [],
                 "body": {
                   "type": "TSInterfaceBody",
                   "body": [],
-                  "start": 80,
-                  "end": 87
+                  "start": 83,
+                  "end": 90
                 },
                 "declare": false,
-                "start": 40,
-                "end": 87
+                "start": 43,
+                "end": 90
               },
               "specifiers": [],
               "source": null,
               "exportKind": "type",
               "attributes": [],
-              "start": 33,
-              "end": 87
+              "start": 36,
+              "end": 90
             },
             {
               "type": "TSInterfaceDeclaration",
@@ -59,20 +59,20 @@ __ESTREE_TEST__:PASS:
                 "name": "privateInterfaceInPublicModule",
                 "optional": false,
                 "typeAnnotation": null,
-                "start": 103,
-                "end": 133
+                "start": 106,
+                "end": 136
               },
               "typeParameters": null,
               "extends": [],
               "body": {
                 "type": "TSInterfaceBody",
                 "body": [],
-                "start": 134,
-                "end": 141
+                "start": 137,
+                "end": 144
               },
               "declare": false,
-              "start": 93,
-              "end": 141
+              "start": 96,
+              "end": 144
             },
             {
               "type": "TSInterfaceDeclaration",
@@ -82,8 +82,8 @@ __ESTREE_TEST__:PASS:
                 "name": "privateInterfaceImplementingPublicInterfaceInModule",
                 "optional": false,
                 "typeAnnotation": null,
-                "start": 157,
-                "end": 208
+                "start": 160,
+                "end": 211
               },
               "typeParameters": null,
               "extends": [
@@ -95,23 +95,23 @@ __ESTREE_TEST__:PASS:
                     "name": "publicInterfaceInPublicModule",
                     "optional": false,
                     "typeAnnotation": null,
-                    "start": 217,
-                    "end": 246
+                    "start": 220,
+                    "end": 249
                   },
                   "typeArguments": null,
-                  "start": 217,
-                  "end": 246
+                  "start": 220,
+                  "end": 249
                 }
               ],
               "body": {
                 "type": "TSInterfaceBody",
                 "body": [],
-                "start": 247,
-                "end": 254
+                "start": 250,
+                "end": 257
               },
               "declare": false,
-              "start": 147,
-              "end": 254
+              "start": 150,
+              "end": 257
             },
             {
               "type": "TSInterfaceDeclaration",
@@ -121,8 +121,8 @@ __ESTREE_TEST__:PASS:
                 "name": "privateInterfaceImplementingPrivateInterfaceInModule",
                 "optional": false,
                 "typeAnnotation": null,
-                "start": 269,
-                "end": 321
+                "start": 272,
+                "end": 324
               },
               "typeParameters": null,
               "extends": [
@@ -134,23 +134,23 @@ __ESTREE_TEST__:PASS:
                     "name": "privateInterfaceInPublicModule",
                     "optional": false,
                     "typeAnnotation": null,
-                    "start": 330,
-                    "end": 360
+                    "start": 333,
+                    "end": 363
                   },
                   "typeArguments": null,
-                  "start": 330,
-                  "end": 360
+                  "start": 333,
+                  "end": 363
                 }
               ],
               "body": {
                 "type": "TSInterfaceBody",
                 "body": [],
-                "start": 361,
-                "end": 368
+                "start": 364,
+                "end": 371
               },
               "declare": false,
-              "start": 259,
-              "end": 368
+              "start": 262,
+              "end": 371
             },
             {
               "type": "ExportNamedDeclaration",
@@ -162,8 +162,8 @@ __ESTREE_TEST__:PASS:
                   "name": "publicInterfaceImplementingPublicInterfaceInModule",
                   "optional": false,
                   "typeAnnotation": null,
-                  "start": 390,
-                  "end": 440
+                  "start": 393,
+                  "end": 443
                 },
                 "typeParameters": null,
                 "extends": [
@@ -175,30 +175,30 @@ __ESTREE_TEST__:PASS:
                       "name": "publicInterfaceInPublicModule",
                       "optional": false,
                       "typeAnnotation": null,
-                      "start": 449,
-                      "end": 478
+                      "start": 452,
+                      "end": 481
                     },
                     "typeArguments": null,
-                    "start": 449,
-                    "end": 478
+                    "start": 452,
+                    "end": 481
                   }
                 ],
                 "body": {
                   "type": "TSInterfaceBody",
                   "body": [],
-                  "start": 479,
-                  "end": 486
+                  "start": 482,
+                  "end": 489
                 },
                 "declare": false,
-                "start": 380,
-                "end": 486
+                "start": 383,
+                "end": 489
               },
               "specifiers": [],
               "source": null,
               "exportKind": "type",
               "attributes": [],
-              "start": 373,
-              "end": 486
+              "start": 376,
+              "end": 489
             },
             {
               "type": "ExportNamedDeclaration",
@@ -210,8 +210,8 @@ __ESTREE_TEST__:PASS:
                   "name": "publicInterfaceImplementingPrivateInterfaceInModule",
                   "optional": false,
                   "typeAnnotation": null,
-                  "start": 508,
-                  "end": 559
+                  "start": 511,
+                  "end": 562
                 },
                 "typeParameters": null,
                 "extends": [
@@ -223,30 +223,30 @@ __ESTREE_TEST__:PASS:
                       "name": "privateInterfaceInPublicModule",
                       "optional": false,
                       "typeAnnotation": null,
-                      "start": 568,
-                      "end": 598
+                      "start": 571,
+                      "end": 601
                     },
                     "typeArguments": null,
-                    "start": 568,
-                    "end": 598
+                    "start": 571,
+                    "end": 601
                   }
                 ],
                 "body": {
                   "type": "TSInterfaceBody",
                   "body": [],
-                  "start": 599,
-                  "end": 622
+                  "start": 602,
+                  "end": 625
                 },
                 "declare": false,
-                "start": 498,
-                "end": 622
+                "start": 501,
+                "end": 625
               },
               "specifiers": [],
               "source": null,
               "exportKind": "type",
               "attributes": [],
-              "start": 491,
-              "end": 622
+              "start": 494,
+              "end": 625
             },
             {
               "type": "TSInterfaceDeclaration",
@@ -256,8 +256,8 @@ __ESTREE_TEST__:PASS:
                 "name": "privateInterfaceImplementingFromPrivateModuleInterface",
                 "optional": false,
                 "typeAnnotation": null,
-                "start": 638,
-                "end": 692
+                "start": 641,
+                "end": 695
               },
               "typeParameters": null,
               "extends": [
@@ -271,8 +271,8 @@ __ESTREE_TEST__:PASS:
                       "name": "privateModule",
                       "optional": false,
                       "typeAnnotation": null,
-                      "start": 701,
-                      "end": 714
+                      "start": 704,
+                      "end": 717
                     },
                     "property": {
                       "type": "Identifier",
@@ -280,28 +280,28 @@ __ESTREE_TEST__:PASS:
                       "name": "publicInterfaceInPrivateModule",
                       "optional": false,
                       "typeAnnotation": null,
-                      "start": 715,
-                      "end": 745
+                      "start": 718,
+                      "end": 748
                     },
                     "optional": false,
                     "computed": false,
-                    "start": 701,
-                    "end": 745
+                    "start": 704,
+                    "end": 748
                   },
                   "typeArguments": null,
-                  "start": 701,
-                  "end": 745
+                  "start": 704,
+                  "end": 748
                 }
               ],
               "body": {
                 "type": "TSInterfaceBody",
                 "body": [],
-                "start": 746,
-                "end": 753
+                "start": 749,
+                "end": 756
               },
               "declare": false,
-              "start": 628,
-              "end": 753
+              "start": 631,
+              "end": 756
             },
             {
               "type": "ExportNamedDeclaration",
@@ -313,8 +313,8 @@ __ESTREE_TEST__:PASS:
                   "name": "publicInterfaceImplementingFromPrivateModuleInterface",
                   "optional": false,
                   "typeAnnotation": null,
-                  "start": 775,
-                  "end": 828
+                  "start": 778,
+                  "end": 831
                 },
                 "typeParameters": null,
                 "extends": [
@@ -328,8 +328,8 @@ __ESTREE_TEST__:PASS:
                         "name": "privateModule",
                         "optional": false,
                         "typeAnnotation": null,
-                        "start": 837,
-                        "end": 850
+                        "start": 840,
+                        "end": 853
                       },
                       "property": {
                         "type": "Identifier",
@@ -337,35 +337,35 @@ __ESTREE_TEST__:PASS:
                         "name": "publicInterfaceInPrivateModule",
                         "optional": false,
                         "typeAnnotation": null,
-                        "start": 851,
-                        "end": 881
+                        "start": 854,
+                        "end": 884
                       },
                       "optional": false,
                       "computed": false,
-                      "start": 837,
-                      "end": 881
+                      "start": 840,
+                      "end": 884
                     },
                     "typeArguments": null,
-                    "start": 837,
-                    "end": 881
+                    "start": 840,
+                    "end": 884
                   }
                 ],
                 "body": {
                   "type": "TSInterfaceBody",
                   "body": [],
-                  "start": 882,
-                  "end": 905
+                  "start": 885,
+                  "end": 908
                 },
                 "declare": false,
-                "start": 765,
-                "end": 905
+                "start": 768,
+                "end": 908
               },
               "specifiers": [],
               "source": null,
               "exportKind": "type",
               "attributes": [],
-              "start": 758,
-              "end": 905
+              "start": 761,
+              "end": 908
             },
             {
               "type": "ExportNamedDeclaration",
@@ -377,8 +377,8 @@ __ESTREE_TEST__:PASS:
                   "name": "publicInterfaceImplementingPrivateAndPublicInterface",
                   "optional": false,
                   "typeAnnotation": null,
-                  "start": 928,
-                  "end": 980
+                  "start": 931,
+                  "end": 983
                 },
                 "typeParameters": null,
                 "extends": [
@@ -390,12 +390,12 @@ __ESTREE_TEST__:PASS:
                       "name": "privateInterfaceInPublicModule",
                       "optional": false,
                       "typeAnnotation": null,
-                      "start": 989,
-                      "end": 1019
+                      "start": 992,
+                      "end": 1022
                     },
                     "typeArguments": null,
-                    "start": 989,
-                    "end": 1019
+                    "start": 992,
+                    "end": 1022
                   },
                   {
                     "type": "TSInterfaceHeritage",
@@ -405,47 +405,47 @@ __ESTREE_TEST__:PASS:
                       "name": "publicInterfaceInPublicModule",
                       "optional": false,
                       "typeAnnotation": null,
-                      "start": 1021,
-                      "end": 1050
+                      "start": 1024,
+                      "end": 1053
                     },
                     "typeArguments": null,
-                    "start": 1021,
-                    "end": 1050
+                    "start": 1024,
+                    "end": 1053
                   }
                 ],
                 "body": {
                   "type": "TSInterfaceBody",
                   "body": [],
-                  "start": 1051,
-                  "end": 1074
+                  "start": 1054,
+                  "end": 1077
                 },
                 "declare": false,
-                "start": 918,
-                "end": 1074
+                "start": 921,
+                "end": 1077
               },
               "specifiers": [],
               "source": null,
               "exportKind": "type",
               "attributes": [],
-              "start": 911,
-              "end": 1074
+              "start": 914,
+              "end": 1077
             }
           ],
-          "start": 27,
-          "end": 1076
+          "start": 30,
+          "end": 1079
         },
-        "kind": "module",
+        "kind": "namespace",
         "declare": false,
         "global": false,
         "start": 7,
-        "end": 1076
+        "end": 1079
       },
       "specifiers": [],
       "source": null,
       "exportKind": "value",
       "attributes": [],
       "start": 0,
-      "end": 1076
+      "end": 1079
     },
     {
       "type": "TSModuleDeclaration",
@@ -455,8 +455,8 @@ __ESTREE_TEST__:PASS:
         "name": "privateModule",
         "optional": false,
         "typeAnnotation": null,
-        "start": 1085,
-        "end": 1098
+        "start": 1091,
+        "end": 1104
       },
       "body": {
         "type": "TSModuleBlock",
@@ -471,27 +471,27 @@ __ESTREE_TEST__:PASS:
                 "name": "publicInterfaceInPrivateModule",
                 "optional": false,
                 "typeAnnotation": null,
-                "start": 1122,
-                "end": 1152
+                "start": 1128,
+                "end": 1158
               },
               "typeParameters": null,
               "extends": [],
               "body": {
                 "type": "TSInterfaceBody",
                 "body": [],
-                "start": 1153,
-                "end": 1161
+                "start": 1159,
+                "end": 1167
               },
               "declare": false,
-              "start": 1112,
-              "end": 1161
+              "start": 1118,
+              "end": 1167
             },
             "specifiers": [],
             "source": null,
             "exportKind": "type",
             "attributes": [],
-            "start": 1105,
-            "end": 1161
+            "start": 1111,
+            "end": 1167
           },
           {
             "type": "TSInterfaceDeclaration",
@@ -501,20 +501,20 @@ __ESTREE_TEST__:PASS:
               "name": "privateInterfaceInPrivateModule",
               "optional": false,
               "typeAnnotation": null,
-              "start": 1177,
-              "end": 1208
+              "start": 1183,
+              "end": 1214
             },
             "typeParameters": null,
             "extends": [],
             "body": {
               "type": "TSInterfaceBody",
               "body": [],
-              "start": 1209,
-              "end": 1216
+              "start": 1215,
+              "end": 1222
             },
             "declare": false,
-            "start": 1167,
-            "end": 1216
+            "start": 1173,
+            "end": 1222
           },
           {
             "type": "TSInterfaceDeclaration",
@@ -524,8 +524,8 @@ __ESTREE_TEST__:PASS:
               "name": "privateInterfaceImplementingPublicInterfaceInModule",
               "optional": false,
               "typeAnnotation": null,
-              "start": 1232,
-              "end": 1283
+              "start": 1238,
+              "end": 1289
             },
             "typeParameters": null,
             "extends": [
@@ -537,23 +537,23 @@ __ESTREE_TEST__:PASS:
                   "name": "publicInterfaceInPrivateModule",
                   "optional": false,
                   "typeAnnotation": null,
-                  "start": 1292,
-                  "end": 1322
+                  "start": 1298,
+                  "end": 1328
                 },
                 "typeArguments": null,
-                "start": 1292,
-                "end": 1322
+                "start": 1298,
+                "end": 1328
               }
             ],
             "body": {
               "type": "TSInterfaceBody",
               "body": [],
-              "start": 1323,
-              "end": 1330
+              "start": 1329,
+              "end": 1336
             },
             "declare": false,
-            "start": 1222,
-            "end": 1330
+            "start": 1228,
+            "end": 1336
           },
           {
             "type": "TSInterfaceDeclaration",
@@ -563,8 +563,8 @@ __ESTREE_TEST__:PASS:
               "name": "privateInterfaceImplementingPrivateInterfaceInModule",
               "optional": false,
               "typeAnnotation": null,
-              "start": 1345,
-              "end": 1397
+              "start": 1351,
+              "end": 1403
             },
             "typeParameters": null,
             "extends": [
@@ -576,23 +576,23 @@ __ESTREE_TEST__:PASS:
                   "name": "privateInterfaceInPrivateModule",
                   "optional": false,
                   "typeAnnotation": null,
-                  "start": 1406,
-                  "end": 1437
+                  "start": 1412,
+                  "end": 1443
                 },
                 "typeArguments": null,
-                "start": 1406,
-                "end": 1437
+                "start": 1412,
+                "end": 1443
               }
             ],
             "body": {
               "type": "TSInterfaceBody",
               "body": [],
-              "start": 1438,
-              "end": 1445
+              "start": 1444,
+              "end": 1451
             },
             "declare": false,
-            "start": 1335,
-            "end": 1445
+            "start": 1341,
+            "end": 1451
           },
           {
             "type": "ExportNamedDeclaration",
@@ -604,8 +604,8 @@ __ESTREE_TEST__:PASS:
                 "name": "publicInterfaceImplementingPublicInterfaceInModule",
                 "optional": false,
                 "typeAnnotation": null,
-                "start": 1467,
-                "end": 1517
+                "start": 1473,
+                "end": 1523
               },
               "typeParameters": null,
               "extends": [
@@ -617,30 +617,30 @@ __ESTREE_TEST__:PASS:
                     "name": "publicInterfaceInPrivateModule",
                     "optional": false,
                     "typeAnnotation": null,
-                    "start": 1526,
-                    "end": 1556
+                    "start": 1532,
+                    "end": 1562
                   },
                   "typeArguments": null,
-                  "start": 1526,
-                  "end": 1556
+                  "start": 1532,
+                  "end": 1562
                 }
               ],
               "body": {
                 "type": "TSInterfaceBody",
                 "body": [],
-                "start": 1557,
-                "end": 1564
+                "start": 1563,
+                "end": 1570
               },
               "declare": false,
-              "start": 1457,
-              "end": 1564
+              "start": 1463,
+              "end": 1570
             },
             "specifiers": [],
             "source": null,
             "exportKind": "type",
             "attributes": [],
-            "start": 1450,
-            "end": 1564
+            "start": 1456,
+            "end": 1570
           },
           {
             "type": "ExportNamedDeclaration",
@@ -652,8 +652,8 @@ __ESTREE_TEST__:PASS:
                 "name": "publicInterfaceImplementingPrivateInterfaceInModule",
                 "optional": false,
                 "typeAnnotation": null,
-                "start": 1586,
-                "end": 1637
+                "start": 1592,
+                "end": 1643
               },
               "typeParameters": null,
               "extends": [
@@ -665,30 +665,30 @@ __ESTREE_TEST__:PASS:
                     "name": "privateInterfaceInPrivateModule",
                     "optional": false,
                     "typeAnnotation": null,
-                    "start": 1646,
-                    "end": 1677
+                    "start": 1652,
+                    "end": 1683
                   },
                   "typeArguments": null,
-                  "start": 1646,
-                  "end": 1677
+                  "start": 1652,
+                  "end": 1683
                 }
               ],
               "body": {
                 "type": "TSInterfaceBody",
                 "body": [],
-                "start": 1678,
-                "end": 1685
+                "start": 1684,
+                "end": 1691
               },
               "declare": false,
-              "start": 1576,
-              "end": 1685
+              "start": 1582,
+              "end": 1691
             },
             "specifiers": [],
             "source": null,
             "exportKind": "type",
             "attributes": [],
-            "start": 1569,
-            "end": 1685
+            "start": 1575,
+            "end": 1691
           },
           {
             "type": "TSInterfaceDeclaration",
@@ -698,8 +698,8 @@ __ESTREE_TEST__:PASS:
               "name": "privateInterfaceImplementingFromPrivateModuleInterface",
               "optional": false,
               "typeAnnotation": null,
-              "start": 1701,
-              "end": 1755
+              "start": 1707,
+              "end": 1761
             },
             "typeParameters": null,
             "extends": [
@@ -713,8 +713,8 @@ __ESTREE_TEST__:PASS:
                     "name": "privateModule",
                     "optional": false,
                     "typeAnnotation": null,
-                    "start": 1764,
-                    "end": 1777
+                    "start": 1770,
+                    "end": 1783
                   },
                   "property": {
                     "type": "Identifier",
@@ -722,28 +722,28 @@ __ESTREE_TEST__:PASS:
                     "name": "publicInterfaceInPrivateModule",
                     "optional": false,
                     "typeAnnotation": null,
-                    "start": 1778,
-                    "end": 1808
+                    "start": 1784,
+                    "end": 1814
                   },
                   "optional": false,
                   "computed": false,
-                  "start": 1764,
-                  "end": 1808
+                  "start": 1770,
+                  "end": 1814
                 },
                 "typeArguments": null,
-                "start": 1764,
-                "end": 1808
+                "start": 1770,
+                "end": 1814
               }
             ],
             "body": {
               "type": "TSInterfaceBody",
               "body": [],
-              "start": 1809,
-              "end": 1816
+              "start": 1815,
+              "end": 1822
             },
             "declare": false,
-            "start": 1691,
-            "end": 1816
+            "start": 1697,
+            "end": 1822
           },
           {
             "type": "ExportNamedDeclaration",
@@ -755,8 +755,8 @@ __ESTREE_TEST__:PASS:
                 "name": "publicInterfaceImplementingFromPrivateModuleInterface",
                 "optional": false,
                 "typeAnnotation": null,
-                "start": 1838,
-                "end": 1891
+                "start": 1844,
+                "end": 1897
               },
               "typeParameters": null,
               "extends": [
@@ -770,8 +770,8 @@ __ESTREE_TEST__:PASS:
                       "name": "privateModule",
                       "optional": false,
                       "typeAnnotation": null,
-                      "start": 1900,
-                      "end": 1913
+                      "start": 1906,
+                      "end": 1919
                     },
                     "property": {
                       "type": "Identifier",
@@ -779,45 +779,45 @@ __ESTREE_TEST__:PASS:
                       "name": "publicInterfaceInPrivateModule",
                       "optional": false,
                       "typeAnnotation": null,
-                      "start": 1914,
-                      "end": 1944
+                      "start": 1920,
+                      "end": 1950
                     },
                     "optional": false,
                     "computed": false,
-                    "start": 1900,
-                    "end": 1944
+                    "start": 1906,
+                    "end": 1950
                   },
                   "typeArguments": null,
-                  "start": 1900,
-                  "end": 1944
+                  "start": 1906,
+                  "end": 1950
                 }
               ],
               "body": {
                 "type": "TSInterfaceBody",
                 "body": [],
-                "start": 1945,
-                "end": 1952
+                "start": 1951,
+                "end": 1958
               },
               "declare": false,
-              "start": 1828,
-              "end": 1952
+              "start": 1834,
+              "end": 1958
             },
             "specifiers": [],
             "source": null,
             "exportKind": "type",
             "attributes": [],
-            "start": 1821,
-            "end": 1952
+            "start": 1827,
+            "end": 1958
           }
         ],
-        "start": 1099,
-        "end": 1954
+        "start": 1105,
+        "end": 1960
       },
-      "kind": "module",
+      "kind": "namespace",
       "declare": false,
       "global": false,
-      "start": 1078,
-      "end": 1954
+      "start": 1081,
+      "end": 1960
     },
     {
       "type": "ExportNamedDeclaration",
@@ -829,27 +829,27 @@ __ESTREE_TEST__:PASS:
           "name": "publicInterface",
           "optional": false,
           "typeAnnotation": null,
-          "start": 1973,
-          "end": 1988
+          "start": 1979,
+          "end": 1994
         },
         "typeParameters": null,
         "extends": [],
         "body": {
           "type": "TSInterfaceBody",
           "body": [],
-          "start": 1989,
-          "end": 1993
+          "start": 1995,
+          "end": 1999
         },
         "declare": false,
-        "start": 1963,
-        "end": 1993
+        "start": 1969,
+        "end": 1999
       },
       "specifiers": [],
       "source": null,
       "exportKind": "type",
       "attributes": [],
-      "start": 1956,
-      "end": 1993
+      "start": 1962,
+      "end": 1999
     },
     {
       "type": "TSInterfaceDeclaration",
@@ -859,20 +859,20 @@ __ESTREE_TEST__:PASS:
         "name": "privateInterface",
         "optional": false,
         "typeAnnotation": null,
-        "start": 2005,
-        "end": 2021
+        "start": 2011,
+        "end": 2027
       },
       "typeParameters": null,
       "extends": [],
       "body": {
         "type": "TSInterfaceBody",
         "body": [],
-        "start": 2022,
-        "end": 2025
+        "start": 2028,
+        "end": 2031
       },
       "declare": false,
-      "start": 1995,
-      "end": 2025
+      "start": 2001,
+      "end": 2031
     },
     {
       "type": "TSInterfaceDeclaration",
@@ -882,8 +882,8 @@ __ESTREE_TEST__:PASS:
         "name": "privateInterfaceImplementingPublicInterface",
         "optional": false,
         "typeAnnotation": null,
-        "start": 2037,
-        "end": 2080
+        "start": 2043,
+        "end": 2086
       },
       "typeParameters": null,
       "extends": [
@@ -895,23 +895,23 @@ __ESTREE_TEST__:PASS:
             "name": "publicInterface",
             "optional": false,
             "typeAnnotation": null,
-            "start": 2089,
-            "end": 2104
+            "start": 2095,
+            "end": 2110
           },
           "typeArguments": null,
-          "start": 2089,
-          "end": 2104
+          "start": 2095,
+          "end": 2110
         }
       ],
       "body": {
         "type": "TSInterfaceBody",
         "body": [],
-        "start": 2105,
-        "end": 2108
+        "start": 2111,
+        "end": 2114
       },
       "declare": false,
-      "start": 2027,
-      "end": 2108
+      "start": 2033,
+      "end": 2114
     },
     {
       "type": "TSInterfaceDeclaration",
@@ -921,8 +921,8 @@ __ESTREE_TEST__:PASS:
         "name": "privateInterfaceImplementingPrivateInterfaceInModule",
         "optional": false,
         "typeAnnotation": null,
-        "start": 2119,
-        "end": 2171
+        "start": 2125,
+        "end": 2177
       },
       "typeParameters": null,
       "extends": [
@@ -934,23 +934,23 @@ __ESTREE_TEST__:PASS:
             "name": "privateInterface",
             "optional": false,
             "typeAnnotation": null,
-            "start": 2180,
-            "end": 2196
+            "start": 2186,
+            "end": 2202
           },
           "typeArguments": null,
-          "start": 2180,
-          "end": 2196
+          "start": 2186,
+          "end": 2202
         }
       ],
       "body": {
         "type": "TSInterfaceBody",
         "body": [],
-        "start": 2197,
-        "end": 2200
+        "start": 2203,
+        "end": 2206
       },
       "declare": false,
-      "start": 2109,
-      "end": 2200
+      "start": 2115,
+      "end": 2206
     },
     {
       "type": "ExportNamedDeclaration",
@@ -962,8 +962,8 @@ __ESTREE_TEST__:PASS:
           "name": "publicInterfaceImplementingPublicInterface",
           "optional": false,
           "typeAnnotation": null,
-          "start": 2218,
-          "end": 2260
+          "start": 2224,
+          "end": 2266
         },
         "typeParameters": null,
         "extends": [
@@ -975,30 +975,30 @@ __ESTREE_TEST__:PASS:
               "name": "publicInterface",
               "optional": false,
               "typeAnnotation": null,
-              "start": 2269,
-              "end": 2284
+              "start": 2275,
+              "end": 2290
             },
             "typeArguments": null,
-            "start": 2269,
-            "end": 2284
+            "start": 2275,
+            "end": 2290
           }
         ],
         "body": {
           "type": "TSInterfaceBody",
           "body": [],
-          "start": 2285,
-          "end": 2288
+          "start": 2291,
+          "end": 2294
         },
         "declare": false,
-        "start": 2208,
-        "end": 2288
+        "start": 2214,
+        "end": 2294
       },
       "specifiers": [],
       "source": null,
       "exportKind": "type",
       "attributes": [],
-      "start": 2201,
-      "end": 2288
+      "start": 2207,
+      "end": 2294
     },
     {
       "type": "ExportNamedDeclaration",
@@ -1010,8 +1010,8 @@ __ESTREE_TEST__:PASS:
           "name": "publicInterfaceImplementingPrivateInterface",
           "optional": false,
           "typeAnnotation": null,
-          "start": 2306,
-          "end": 2349
+          "start": 2312,
+          "end": 2355
         },
         "typeParameters": null,
         "extends": [
@@ -1023,30 +1023,30 @@ __ESTREE_TEST__:PASS:
               "name": "privateInterface",
               "optional": false,
               "typeAnnotation": null,
-              "start": 2358,
-              "end": 2374
+              "start": 2364,
+              "end": 2380
             },
             "typeArguments": null,
-            "start": 2358,
-            "end": 2374
+            "start": 2364,
+            "end": 2380
           }
         ],
         "body": {
           "type": "TSInterfaceBody",
           "body": [],
-          "start": 2375,
-          "end": 2394
+          "start": 2381,
+          "end": 2400
         },
         "declare": false,
-        "start": 2296,
-        "end": 2394
+        "start": 2302,
+        "end": 2400
       },
       "specifiers": [],
       "source": null,
       "exportKind": "type",
       "attributes": [],
-      "start": 2289,
-      "end": 2394
+      "start": 2295,
+      "end": 2400
     },
     {
       "type": "TSInterfaceDeclaration",
@@ -1056,8 +1056,8 @@ __ESTREE_TEST__:PASS:
         "name": "privateInterfaceImplementingFromPrivateModuleInterface",
         "optional": false,
         "typeAnnotation": null,
-        "start": 2406,
-        "end": 2460
+        "start": 2412,
+        "end": 2466
       },
       "typeParameters": null,
       "extends": [
@@ -1071,8 +1071,8 @@ __ESTREE_TEST__:PASS:
               "name": "privateModule",
               "optional": false,
               "typeAnnotation": null,
-              "start": 2469,
-              "end": 2482
+              "start": 2475,
+              "end": 2488
             },
             "property": {
               "type": "Identifier",
@@ -1080,28 +1080,28 @@ __ESTREE_TEST__:PASS:
               "name": "publicInterfaceInPrivateModule",
               "optional": false,
               "typeAnnotation": null,
-              "start": 2483,
-              "end": 2513
+              "start": 2489,
+              "end": 2519
             },
             "optional": false,
             "computed": false,
-            "start": 2469,
-            "end": 2513
+            "start": 2475,
+            "end": 2519
           },
           "typeArguments": null,
-          "start": 2469,
-          "end": 2513
+          "start": 2475,
+          "end": 2519
         }
       ],
       "body": {
         "type": "TSInterfaceBody",
         "body": [],
-        "start": 2514,
-        "end": 2517
+        "start": 2520,
+        "end": 2523
       },
       "declare": false,
-      "start": 2396,
-      "end": 2517
+      "start": 2402,
+      "end": 2523
     },
     {
       "type": "ExportNamedDeclaration",
@@ -1113,8 +1113,8 @@ __ESTREE_TEST__:PASS:
           "name": "publicInterfaceImplementingFromPrivateModuleInterface",
           "optional": false,
           "typeAnnotation": null,
-          "start": 2535,
-          "end": 2588
+          "start": 2541,
+          "end": 2594
         },
         "typeParameters": null,
         "extends": [
@@ -1128,8 +1128,8 @@ __ESTREE_TEST__:PASS:
                 "name": "privateModule",
                 "optional": false,
                 "typeAnnotation": null,
-                "start": 2597,
-                "end": 2610
+                "start": 2603,
+                "end": 2616
               },
               "property": {
                 "type": "Identifier",
@@ -1137,41 +1137,41 @@ __ESTREE_TEST__:PASS:
                 "name": "publicInterfaceInPrivateModule",
                 "optional": false,
                 "typeAnnotation": null,
-                "start": 2611,
-                "end": 2641
+                "start": 2617,
+                "end": 2647
               },
               "optional": false,
               "computed": false,
-              "start": 2597,
-              "end": 2641
+              "start": 2603,
+              "end": 2647
             },
             "typeArguments": null,
-            "start": 2597,
-            "end": 2641
+            "start": 2603,
+            "end": 2647
           }
         ],
         "body": {
           "type": "TSInterfaceBody",
           "body": [],
-          "start": 2642,
-          "end": 2661
+          "start": 2648,
+          "end": 2667
         },
         "declare": false,
-        "start": 2525,
-        "end": 2661
+        "start": 2531,
+        "end": 2667
       },
       "specifiers": [],
       "source": null,
       "exportKind": "type",
       "attributes": [],
-      "start": 2518,
-      "end": 2661
+      "start": 2524,
+      "end": 2667
     }
   ],
   "sourceType": "module",
   "hashbang": null,
   "start": 0,
-  "end": 2662
+  "end": 2668
 }
 ```
 __ESTREE_TEST__:PASS:
@@ -1187,8 +1187,8 @@ __ESTREE_TEST__:PASS:
         "name": "publicModuleInGlobal",
         "optional": false,
         "typeAnnotation": null,
-        "start": 7,
-        "end": 27
+        "start": 10,
+        "end": 30
       },
       "body": {
         "type": "TSModuleBlock",
@@ -1203,27 +1203,27 @@ __ESTREE_TEST__:PASS:
                 "name": "publicInterfaceInPublicModule",
                 "optional": false,
                 "typeAnnotation": null,
-                "start": 51,
-                "end": 80
+                "start": 54,
+                "end": 83
               },
               "typeParameters": null,
               "extends": [],
               "body": {
                 "type": "TSInterfaceBody",
                 "body": [],
-                "start": 81,
-                "end": 88
+                "start": 84,
+                "end": 91
               },
               "declare": false,
-              "start": 41,
-              "end": 88
+              "start": 44,
+              "end": 91
             },
             "specifiers": [],
             "source": null,
             "exportKind": "type",
             "attributes": [],
-            "start": 34,
-            "end": 88
+            "start": 37,
+            "end": 91
           },
           {
             "type": "TSInterfaceDeclaration",
@@ -1233,20 +1233,20 @@ __ESTREE_TEST__:PASS:
               "name": "privateInterfaceInPublicModule",
               "optional": false,
               "typeAnnotation": null,
-              "start": 104,
-              "end": 134
+              "start": 107,
+              "end": 137
             },
             "typeParameters": null,
             "extends": [],
             "body": {
               "type": "TSInterfaceBody",
               "body": [],
-              "start": 135,
-              "end": 142
+              "start": 138,
+              "end": 145
             },
             "declare": false,
-            "start": 94,
-            "end": 142
+            "start": 97,
+            "end": 145
           },
           {
             "type": "TSInterfaceDeclaration",
@@ -1256,8 +1256,8 @@ __ESTREE_TEST__:PASS:
               "name": "privateInterfaceImplementingPublicInterfaceInModule",
               "optional": false,
               "typeAnnotation": null,
-              "start": 158,
-              "end": 209
+              "start": 161,
+              "end": 212
             },
             "typeParameters": null,
             "extends": [
@@ -1269,23 +1269,23 @@ __ESTREE_TEST__:PASS:
                   "name": "publicInterfaceInPublicModule",
                   "optional": false,
                   "typeAnnotation": null,
-                  "start": 218,
-                  "end": 247
+                  "start": 221,
+                  "end": 250
                 },
                 "typeArguments": null,
-                "start": 218,
-                "end": 247
+                "start": 221,
+                "end": 250
               }
             ],
             "body": {
               "type": "TSInterfaceBody",
               "body": [],
-              "start": 248,
-              "end": 255
+              "start": 251,
+              "end": 258
             },
             "declare": false,
-            "start": 148,
-            "end": 255
+            "start": 151,
+            "end": 258
           },
           {
             "type": "TSInterfaceDeclaration",
@@ -1295,8 +1295,8 @@ __ESTREE_TEST__:PASS:
               "name": "privateInterfaceImplementingPrivateInterfaceInModule",
               "optional": false,
               "typeAnnotation": null,
-              "start": 270,
-              "end": 322
+              "start": 273,
+              "end": 325
             },
             "typeParameters": null,
             "extends": [
@@ -1308,23 +1308,23 @@ __ESTREE_TEST__:PASS:
                   "name": "privateInterfaceInPublicModule",
                   "optional": false,
                   "typeAnnotation": null,
-                  "start": 331,
-                  "end": 361
+                  "start": 334,
+                  "end": 364
                 },
                 "typeArguments": null,
-                "start": 331,
-                "end": 361
+                "start": 334,
+                "end": 364
               }
             ],
             "body": {
               "type": "TSInterfaceBody",
               "body": [],
-              "start": 362,
-              "end": 369
+              "start": 365,
+              "end": 372
             },
             "declare": false,
-            "start": 260,
-            "end": 369
+            "start": 263,
+            "end": 372
           },
           {
             "type": "ExportNamedDeclaration",
@@ -1336,8 +1336,8 @@ __ESTREE_TEST__:PASS:
                 "name": "publicInterfaceImplementingPublicInterfaceInModule",
                 "optional": false,
                 "typeAnnotation": null,
-                "start": 391,
-                "end": 441
+                "start": 394,
+                "end": 444
               },
               "typeParameters": null,
               "extends": [
@@ -1349,30 +1349,30 @@ __ESTREE_TEST__:PASS:
                     "name": "publicInterfaceInPublicModule",
                     "optional": false,
                     "typeAnnotation": null,
-                    "start": 450,
-                    "end": 479
+                    "start": 453,
+                    "end": 482
                   },
                   "typeArguments": null,
-                  "start": 450,
-                  "end": 479
+                  "start": 453,
+                  "end": 482
                 }
               ],
               "body": {
                 "type": "TSInterfaceBody",
                 "body": [],
-                "start": 480,
-                "end": 487
+                "start": 483,
+                "end": 490
               },
               "declare": false,
-              "start": 381,
-              "end": 487
+              "start": 384,
+              "end": 490
             },
             "specifiers": [],
             "source": null,
             "exportKind": "type",
             "attributes": [],
-            "start": 374,
-            "end": 487
+            "start": 377,
+            "end": 490
           },
           {
             "type": "ExportNamedDeclaration",
@@ -1384,8 +1384,8 @@ __ESTREE_TEST__:PASS:
                 "name": "publicInterfaceImplementingPrivateInterfaceInModule",
                 "optional": false,
                 "typeAnnotation": null,
-                "start": 509,
-                "end": 560
+                "start": 512,
+                "end": 563
               },
               "typeParameters": null,
               "extends": [
@@ -1397,40 +1397,40 @@ __ESTREE_TEST__:PASS:
                     "name": "privateInterfaceInPublicModule",
                     "optional": false,
                     "typeAnnotation": null,
-                    "start": 569,
-                    "end": 599
+                    "start": 572,
+                    "end": 602
                   },
                   "typeArguments": null,
-                  "start": 569,
-                  "end": 599
+                  "start": 572,
+                  "end": 602
                 }
               ],
               "body": {
                 "type": "TSInterfaceBody",
                 "body": [],
-                "start": 600,
-                "end": 623
+                "start": 603,
+                "end": 626
               },
               "declare": false,
-              "start": 499,
-              "end": 623
+              "start": 502,
+              "end": 626
             },
             "specifiers": [],
             "source": null,
             "exportKind": "type",
             "attributes": [],
-            "start": 492,
-            "end": 623
+            "start": 495,
+            "end": 626
           }
         ],
-        "start": 28,
-        "end": 625
+        "start": 31,
+        "end": 628
       },
-      "kind": "module",
+      "kind": "namespace",
       "declare": false,
       "global": false,
       "start": 0,
-      "end": 625
+      "end": 628
     },
     {
       "type": "TSInterfaceDeclaration",
@@ -1440,20 +1440,20 @@ __ESTREE_TEST__:PASS:
         "name": "publicInterfaceInGlobal",
         "optional": false,
         "typeAnnotation": null,
-        "start": 636,
-        "end": 659
+        "start": 639,
+        "end": 662
       },
       "typeParameters": null,
       "extends": [],
       "body": {
         "type": "TSInterfaceBody",
         "body": [],
-        "start": 660,
-        "end": 663
+        "start": 663,
+        "end": 666
       },
       "declare": false,
-      "start": 626,
-      "end": 663
+      "start": 629,
+      "end": 666
     },
     {
       "type": "TSInterfaceDeclaration",
@@ -1463,8 +1463,8 @@ __ESTREE_TEST__:PASS:
         "name": "publicInterfaceImplementingPublicInterfaceInGlobal",
         "optional": false,
         "typeAnnotation": null,
-        "start": 674,
-        "end": 724
+        "start": 677,
+        "end": 727
       },
       "typeParameters": null,
       "extends": [
@@ -1476,28 +1476,28 @@ __ESTREE_TEST__:PASS:
             "name": "publicInterfaceInGlobal",
             "optional": false,
             "typeAnnotation": null,
-            "start": 733,
-            "end": 756
+            "start": 736,
+            "end": 759
           },
           "typeArguments": null,
-          "start": 733,
-          "end": 756
+          "start": 736,
+          "end": 759
         }
       ],
       "body": {
         "type": "TSInterfaceBody",
         "body": [],
-        "start": 757,
-        "end": 760
+        "start": 760,
+        "end": 763
       },
       "declare": false,
-      "start": 664,
-      "end": 760
+      "start": 667,
+      "end": 763
     }
   ],
   "sourceType": "module",
   "hashbang": null,
   "start": 0,
-  "end": 760
+  "end": 763
 }
 ```

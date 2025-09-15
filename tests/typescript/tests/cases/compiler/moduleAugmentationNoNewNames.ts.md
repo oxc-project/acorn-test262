@@ -590,36 +590,36 @@ __ESTREE_TEST__:PASS:
               "name": "Z",
               "optional": false,
               "typeAnnotation": null,
-              "start": 314,
-              "end": 315
+              "start": 317,
+              "end": 318
             },
             "body": {
               "type": "TSModuleBlock",
               "body": [],
-              "start": 316,
-              "end": 318
+              "start": 319,
+              "end": 321
             },
-            "kind": "module",
+            "kind": "namespace",
             "declare": false,
             "global": false,
             "start": 307,
-            "end": 318
+            "end": 321
           }
         ],
         "start": 123,
-        "end": 320
+        "end": 323
       },
       "kind": "module",
       "declare": true,
       "global": false,
       "start": 93,
-      "end": 320
+      "end": 323
     }
   ],
   "sourceType": "module",
   "hashbang": null,
   "start": 0,
-  "end": 321
+  "end": 324
 }
 ```
 __ESTREE_TEST__:PASS:

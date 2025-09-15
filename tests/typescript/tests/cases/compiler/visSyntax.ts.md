@@ -11,8 +11,8 @@ __ESTREE_TEST__:PASS:
         "name": "M",
         "optional": false,
         "typeAnnotation": null,
-        "start": 7,
-        "end": 8
+        "start": 10,
+        "end": 11
       },
       "body": {
         "type": "TSModuleBlock",
@@ -28,8 +28,8 @@ __ESTREE_TEST__:PASS:
                 "name": "C",
                 "optional": false,
                 "typeAnnotation": null,
-                "start": 28,
-                "end": 29
+                "start": 31,
+                "end": 32
               },
               "typeParameters": null,
               "superClass": null,
@@ -38,20 +38,20 @@ __ESTREE_TEST__:PASS:
               "body": {
                 "type": "ClassBody",
                 "body": [],
-                "start": 30,
-                "end": 37
+                "start": 33,
+                "end": 40
               },
               "abstract": false,
               "declare": false,
-              "start": 22,
-              "end": 37
+              "start": 25,
+              "end": 40
             },
             "specifiers": [],
             "source": null,
             "exportKind": "value",
             "attributes": [],
-            "start": 15,
-            "end": 37
+            "start": 18,
+            "end": 40
           },
           {
             "type": "ExportNamedDeclaration",
@@ -63,27 +63,27 @@ __ESTREE_TEST__:PASS:
                 "name": "I",
                 "optional": false,
                 "typeAnnotation": null,
-                "start": 60,
-                "end": 61
+                "start": 63,
+                "end": 64
               },
               "typeParameters": null,
               "extends": [],
               "body": {
                 "type": "TSInterfaceBody",
                 "body": [],
-                "start": 62,
-                "end": 71
+                "start": 65,
+                "end": 74
               },
               "declare": false,
-              "start": 50,
-              "end": 71
+              "start": 53,
+              "end": 74
             },
             "specifiers": [],
             "source": null,
             "exportKind": "type",
             "attributes": [],
-            "start": 43,
-            "end": 71
+            "start": 46,
+            "end": 74
           },
           {
             "type": "ExportNamedDeclaration",
@@ -99,46 +99,46 @@ __ESTREE_TEST__:PASS:
                     "name": "x",
                     "optional": false,
                     "typeAnnotation": null,
-                    "start": 88,
-                    "end": 89
+                    "start": 91,
+                    "end": 92
                   },
                   "init": {
                     "type": "Literal",
                     "value": 10,
                     "raw": "10",
-                    "start": 90,
-                    "end": 92
+                    "start": 93,
+                    "end": 95
                   },
                   "definite": false,
-                  "start": 88,
-                  "end": 92
+                  "start": 91,
+                  "end": 95
                 }
               ],
               "declare": false,
-              "start": 84,
-              "end": 93
+              "start": 87,
+              "end": 96
             },
             "specifiers": [],
             "source": null,
             "exportKind": "value",
             "attributes": [],
-            "start": 77,
-            "end": 93
+            "start": 80,
+            "end": 96
           }
         ],
-        "start": 9,
-        "end": 95
+        "start": 12,
+        "end": 98
       },
-      "kind": "module",
+      "kind": "namespace",
       "declare": false,
       "global": false,
       "start": 0,
-      "end": 95
+      "end": 98
     }
   ],
   "sourceType": "script",
   "hashbang": null,
   "start": 0,
-  "end": 95
+  "end": 98
 }
 ```

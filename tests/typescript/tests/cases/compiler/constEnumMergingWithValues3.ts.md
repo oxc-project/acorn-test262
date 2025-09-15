@@ -50,8 +50,8 @@ __ESTREE_TEST__:PASS:
         "name": "foo",
         "optional": false,
         "typeAnnotation": null,
-        "start": 22,
-        "end": 25
+        "start": 25,
+        "end": 28
       },
       "body": {
         "type": "TSModuleBlock",
@@ -64,8 +64,8 @@ __ESTREE_TEST__:PASS:
               "name": "E",
               "optional": false,
               "typeAnnotation": null,
-              "start": 43,
-              "end": 44
+              "start": 46,
+              "end": 47
             },
             "body": {
               "type": "TSEnumBody",
@@ -78,32 +78,32 @@ __ESTREE_TEST__:PASS:
                     "name": "X",
                     "optional": false,
                     "typeAnnotation": null,
-                    "start": 47,
-                    "end": 48
+                    "start": 50,
+                    "end": 51
                   },
                   "initializer": null,
                   "computed": false,
-                  "start": 47,
-                  "end": 48
+                  "start": 50,
+                  "end": 51
                 }
               ],
-              "start": 45,
-              "end": 50
+              "start": 48,
+              "end": 53
             },
             "const": true,
             "declare": false,
-            "start": 32,
-            "end": 50
+            "start": 35,
+            "end": 53
           }
         ],
-        "start": 26,
-        "end": 52
+        "start": 29,
+        "end": 55
       },
-      "kind": "module",
+      "kind": "namespace",
       "declare": false,
       "global": false,
       "start": 15,
-      "end": 52
+      "end": 55
     },
     {
       "type": "TSExportAssignment",
@@ -113,16 +113,16 @@ __ESTREE_TEST__:PASS:
         "name": "foo",
         "optional": false,
         "typeAnnotation": null,
-        "start": 63,
-        "end": 66
+        "start": 66,
+        "end": 69
       },
-      "start": 54,
-      "end": 66
+      "start": 57,
+      "end": 69
     }
   ],
   "sourceType": "module",
   "hashbang": null,
   "start": 0,
-  "end": 66
+  "end": 69
 }
 ```

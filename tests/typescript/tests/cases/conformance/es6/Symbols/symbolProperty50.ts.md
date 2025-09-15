@@ -11,8 +11,8 @@ __ESTREE_TEST__:PASS:
         "name": "M",
         "optional": false,
         "typeAnnotation": null,
-        "start": 7,
-        "end": 8
+        "start": 10,
+        "end": 11
       },
       "body": {
         "type": "TSModuleBlock",
@@ -25,20 +25,20 @@ __ESTREE_TEST__:PASS:
               "name": "Symbol",
               "optional": false,
               "typeAnnotation": null,
-              "start": 25,
-              "end": 31
+              "start": 28,
+              "end": 34
             },
             "typeParameters": null,
             "extends": [],
             "body": {
               "type": "TSInterfaceBody",
               "body": [],
-              "start": 32,
-              "end": 35
+              "start": 35,
+              "end": 38
             },
             "declare": false,
-            "start": 15,
-            "end": 35
+            "start": 18,
+            "end": 38
           },
           {
             "type": "ClassDeclaration",
@@ -49,8 +49,8 @@ __ESTREE_TEST__:PASS:
               "name": "C",
               "optional": false,
               "typeAnnotation": null,
-              "start": 47,
-              "end": 48
+              "start": 50,
+              "end": 51
             },
             "typeParameters": null,
             "superClass": null,
@@ -70,8 +70,8 @@ __ESTREE_TEST__:PASS:
                       "name": "Symbol",
                       "optional": false,
                       "typeAnnotation": null,
-                      "start": 60,
-                      "end": 66
+                      "start": 63,
+                      "end": 69
                     },
                     "property": {
                       "type": "Identifier",
@@ -79,13 +79,13 @@ __ESTREE_TEST__:PASS:
                       "name": "iterator",
                       "optional": false,
                       "typeAnnotation": null,
-                      "start": 67,
-                      "end": 75
+                      "start": 70,
+                      "end": 78
                     },
                     "optional": false,
                     "computed": false,
-                    "start": 60,
-                    "end": 75
+                    "start": 63,
+                    "end": 78
                   },
                   "value": {
                     "type": "FunctionExpression",
@@ -99,12 +99,12 @@ __ESTREE_TEST__:PASS:
                     "body": {
                       "type": "BlockStatement",
                       "body": [],
-                      "start": 79,
-                      "end": 82
+                      "start": 82,
+                      "end": 85
                     },
                     "expression": false,
-                    "start": 76,
-                    "end": 82
+                    "start": 79,
+                    "end": 85
                   },
                   "kind": "method",
                   "computed": true,
@@ -112,32 +112,32 @@ __ESTREE_TEST__:PASS:
                   "override": false,
                   "optional": false,
                   "accessibility": null,
-                  "start": 59,
-                  "end": 82
+                  "start": 62,
+                  "end": 85
                 }
               ],
-              "start": 49,
-              "end": 88
+              "start": 52,
+              "end": 91
             },
             "abstract": false,
             "declare": false,
-            "start": 41,
-            "end": 88
+            "start": 44,
+            "end": 91
           }
         ],
-        "start": 9,
-        "end": 90
+        "start": 12,
+        "end": 93
       },
-      "kind": "module",
+      "kind": "namespace",
       "declare": false,
       "global": false,
       "start": 0,
-      "end": 90
+      "end": 93
     }
   ],
   "sourceType": "script",
   "hashbang": null,
   "start": 0,
-  "end": 90
+  "end": 93
 }
 ```

@@ -45,8 +45,8 @@ __ESTREE_TEST__:PASS:
           "name": "Shapes",
           "optional": false,
           "typeAnnotation": null,
-          "start": 42,
-          "end": 48
+          "start": 45,
+          "end": 51
         },
         "body": {
           "type": "TSModuleBlock",
@@ -62,8 +62,8 @@ __ESTREE_TEST__:PASS:
                   "name": "Point",
                   "optional": false,
                   "typeAnnotation": null,
-                  "start": 69,
-                  "end": 74
+                  "start": 72,
+                  "end": 77
                 },
                 "typeParameters": null,
                 "superClass": null,
@@ -77,54 +77,54 @@ __ESTREE_TEST__:PASS:
                       "name": "IPoint",
                       "optional": false,
                       "typeAnnotation": null,
-                      "start": 86,
-                      "end": 92
+                      "start": 89,
+                      "end": 95
                     },
                     "typeArguments": null,
-                    "start": 86,
-                    "end": 92
+                    "start": 89,
+                    "end": 95
                   }
                 ],
                 "body": {
                   "type": "ClassBody",
                   "body": [],
-                  "start": 93,
-                  "end": 95
+                  "start": 96,
+                  "end": 98
                 },
                 "abstract": false,
                 "declare": false,
-                "start": 63,
-                "end": 95
+                "start": 66,
+                "end": 98
               },
               "specifiers": [],
               "source": null,
               "exportKind": "value",
               "attributes": [],
-              "start": 56,
-              "end": 95
+              "start": 59,
+              "end": 98
             }
           ],
-          "start": 49,
-          "end": 98
+          "start": 52,
+          "end": 101
         },
-        "kind": "module",
+        "kind": "namespace",
         "declare": false,
         "global": false,
         "start": 35,
-        "end": 98
+        "end": 101
       },
       "specifiers": [],
       "source": null,
       "exportKind": "value",
       "attributes": [],
       "start": 28,
-      "end": 98
+      "end": 101
     }
   ],
   "sourceType": "module",
   "hashbang": null,
   "start": 0,
-  "end": 99
+  "end": 102
 }
 ```
 __ESTREE_TEST__:PASS:
@@ -134,7 +134,7 @@ __ESTREE_TEST__:PASS:
   "body": [],
   "sourceType": "module",
   "hashbang": null,
-  "start": 122,
-  "end": 122
+  "start": 125,
+  "end": 125
 }
 ```

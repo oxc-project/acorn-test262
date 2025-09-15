@@ -13,8 +13,8 @@ __ESTREE_TEST__:PASS:
           "name": "publicModule",
           "optional": false,
           "typeAnnotation": null,
-          "start": 14,
-          "end": 26
+          "start": 17,
+          "end": 29
         },
         "body": {
           "type": "TSModuleBlock",
@@ -29,27 +29,27 @@ __ESTREE_TEST__:PASS:
                   "name": "publicInterfaceInPublicModule",
                   "optional": false,
                   "typeAnnotation": null,
-                  "start": 50,
-                  "end": 79
+                  "start": 53,
+                  "end": 82
                 },
                 "typeParameters": null,
                 "extends": [],
                 "body": {
                   "type": "TSInterfaceBody",
                   "body": [],
-                  "start": 80,
-                  "end": 87
+                  "start": 83,
+                  "end": 90
                 },
                 "declare": false,
-                "start": 40,
-                "end": 87
+                "start": 43,
+                "end": 90
               },
               "specifiers": [],
               "source": null,
               "exportKind": "type",
               "attributes": [],
-              "start": 33,
-              "end": 87
+              "start": 36,
+              "end": 90
             },
             {
               "type": "TSInterfaceDeclaration",
@@ -59,20 +59,20 @@ __ESTREE_TEST__:PASS:
                 "name": "privateInterfaceInPublicModule",
                 "optional": false,
                 "typeAnnotation": null,
-                "start": 103,
-                "end": 133
+                "start": 106,
+                "end": 136
               },
               "typeParameters": null,
               "extends": [],
               "body": {
                 "type": "TSInterfaceBody",
                 "body": [],
-                "start": 134,
-                "end": 141
+                "start": 137,
+                "end": 144
               },
               "declare": false,
-              "start": 93,
-              "end": 141
+              "start": 96,
+              "end": 144
             },
             {
               "type": "ClassDeclaration",
@@ -83,8 +83,8 @@ __ESTREE_TEST__:PASS:
                 "name": "privateClassImplementingPublicInterfaceInModule",
                 "optional": false,
                 "typeAnnotation": null,
-                "start": 153,
-                "end": 200
+                "start": 156,
+                "end": 203
               },
               "typeParameters": null,
               "superClass": null,
@@ -98,24 +98,24 @@ __ESTREE_TEST__:PASS:
                     "name": "publicInterfaceInPublicModule",
                     "optional": false,
                     "typeAnnotation": null,
-                    "start": 212,
-                    "end": 241
+                    "start": 215,
+                    "end": 244
                   },
                   "typeArguments": null,
-                  "start": 212,
-                  "end": 241
+                  "start": 215,
+                  "end": 244
                 }
               ],
               "body": {
                 "type": "ClassBody",
                 "body": [],
-                "start": 242,
-                "end": 249
+                "start": 245,
+                "end": 252
               },
               "abstract": false,
               "declare": false,
-              "start": 147,
-              "end": 249
+              "start": 150,
+              "end": 252
             },
             {
               "type": "ClassDeclaration",
@@ -126,8 +126,8 @@ __ESTREE_TEST__:PASS:
                 "name": "privateClassImplementingPrivateInterfaceInModule",
                 "optional": false,
                 "typeAnnotation": null,
-                "start": 260,
-                "end": 308
+                "start": 263,
+                "end": 311
               },
               "typeParameters": null,
               "superClass": null,
@@ -141,24 +141,24 @@ __ESTREE_TEST__:PASS:
                     "name": "privateInterfaceInPublicModule",
                     "optional": false,
                     "typeAnnotation": null,
-                    "start": 320,
-                    "end": 350
+                    "start": 323,
+                    "end": 353
                   },
                   "typeArguments": null,
-                  "start": 320,
-                  "end": 350
+                  "start": 323,
+                  "end": 353
                 }
               ],
               "body": {
                 "type": "ClassBody",
                 "body": [],
-                "start": 351,
-                "end": 358
+                "start": 354,
+                "end": 361
               },
               "abstract": false,
               "declare": false,
-              "start": 254,
-              "end": 358
+              "start": 257,
+              "end": 361
             },
             {
               "type": "ExportNamedDeclaration",
@@ -171,8 +171,8 @@ __ESTREE_TEST__:PASS:
                   "name": "publicClassImplementingPublicInterfaceInModule",
                   "optional": false,
                   "typeAnnotation": null,
-                  "start": 376,
-                  "end": 422
+                  "start": 379,
+                  "end": 425
                 },
                 "typeParameters": null,
                 "superClass": null,
@@ -186,31 +186,31 @@ __ESTREE_TEST__:PASS:
                       "name": "publicInterfaceInPublicModule",
                       "optional": false,
                       "typeAnnotation": null,
-                      "start": 434,
-                      "end": 463
+                      "start": 437,
+                      "end": 466
                     },
                     "typeArguments": null,
-                    "start": 434,
-                    "end": 463
+                    "start": 437,
+                    "end": 466
                   }
                 ],
                 "body": {
                   "type": "ClassBody",
                   "body": [],
-                  "start": 464,
-                  "end": 471
+                  "start": 467,
+                  "end": 474
                 },
                 "abstract": false,
                 "declare": false,
-                "start": 370,
-                "end": 471
+                "start": 373,
+                "end": 474
               },
               "specifiers": [],
               "source": null,
               "exportKind": "value",
               "attributes": [],
-              "start": 363,
-              "end": 471
+              "start": 366,
+              "end": 474
             },
             {
               "type": "ExportNamedDeclaration",
@@ -223,8 +223,8 @@ __ESTREE_TEST__:PASS:
                   "name": "publicClassImplementingPrivateInterfaceInModule",
                   "optional": false,
                   "typeAnnotation": null,
-                  "start": 489,
-                  "end": 536
+                  "start": 492,
+                  "end": 539
                 },
                 "typeParameters": null,
                 "superClass": null,
@@ -238,31 +238,31 @@ __ESTREE_TEST__:PASS:
                       "name": "privateInterfaceInPublicModule",
                       "optional": false,
                       "typeAnnotation": null,
-                      "start": 548,
-                      "end": 578
+                      "start": 551,
+                      "end": 581
                     },
                     "typeArguments": null,
-                    "start": 548,
-                    "end": 578
+                    "start": 551,
+                    "end": 581
                   }
                 ],
                 "body": {
                   "type": "ClassBody",
                   "body": [],
-                  "start": 579,
-                  "end": 602
+                  "start": 582,
+                  "end": 605
                 },
                 "abstract": false,
                 "declare": false,
-                "start": 483,
-                "end": 602
+                "start": 486,
+                "end": 605
               },
               "specifiers": [],
               "source": null,
               "exportKind": "value",
               "attributes": [],
-              "start": 476,
-              "end": 602
+              "start": 479,
+              "end": 605
             },
             {
               "type": "ClassDeclaration",
@@ -273,8 +273,8 @@ __ESTREE_TEST__:PASS:
                 "name": "privateClassImplementingFromPrivateModuleInterface",
                 "optional": false,
                 "typeAnnotation": null,
-                "start": 614,
-                "end": 664
+                "start": 617,
+                "end": 667
               },
               "typeParameters": null,
               "superClass": null,
@@ -290,8 +290,8 @@ __ESTREE_TEST__:PASS:
                       "name": "privateModule",
                       "optional": false,
                       "typeAnnotation": null,
-                      "start": 676,
-                      "end": 689
+                      "start": 679,
+                      "end": 692
                     },
                     "property": {
                       "type": "Identifier",
@@ -299,29 +299,29 @@ __ESTREE_TEST__:PASS:
                       "name": "publicInterfaceInPrivateModule",
                       "optional": false,
                       "typeAnnotation": null,
-                      "start": 690,
-                      "end": 720
+                      "start": 693,
+                      "end": 723
                     },
                     "optional": false,
                     "computed": false,
-                    "start": 676,
-                    "end": 720
+                    "start": 679,
+                    "end": 723
                   },
                   "typeArguments": null,
-                  "start": 676,
-                  "end": 720
+                  "start": 679,
+                  "end": 723
                 }
               ],
               "body": {
                 "type": "ClassBody",
                 "body": [],
-                "start": 721,
-                "end": 728
+                "start": 724,
+                "end": 731
               },
               "abstract": false,
               "declare": false,
-              "start": 608,
-              "end": 728
+              "start": 611,
+              "end": 731
             },
             {
               "type": "ExportNamedDeclaration",
@@ -334,8 +334,8 @@ __ESTREE_TEST__:PASS:
                   "name": "publicClassImplementingFromPrivateModuleInterface",
                   "optional": false,
                   "typeAnnotation": null,
-                  "start": 746,
-                  "end": 795
+                  "start": 749,
+                  "end": 798
                 },
                 "typeParameters": null,
                 "superClass": null,
@@ -351,8 +351,8 @@ __ESTREE_TEST__:PASS:
                         "name": "privateModule",
                         "optional": false,
                         "typeAnnotation": null,
-                        "start": 807,
-                        "end": 820
+                        "start": 810,
+                        "end": 823
                       },
                       "property": {
                         "type": "Identifier",
@@ -360,36 +360,36 @@ __ESTREE_TEST__:PASS:
                         "name": "publicInterfaceInPrivateModule",
                         "optional": false,
                         "typeAnnotation": null,
-                        "start": 821,
-                        "end": 851
+                        "start": 824,
+                        "end": 854
                       },
                       "optional": false,
                       "computed": false,
-                      "start": 807,
-                      "end": 851
+                      "start": 810,
+                      "end": 854
                     },
                     "typeArguments": null,
-                    "start": 807,
-                    "end": 851
+                    "start": 810,
+                    "end": 854
                   }
                 ],
                 "body": {
                   "type": "ClassBody",
                   "body": [],
-                  "start": 852,
-                  "end": 875
+                  "start": 855,
+                  "end": 878
                 },
                 "abstract": false,
                 "declare": false,
-                "start": 740,
-                "end": 875
+                "start": 743,
+                "end": 878
               },
               "specifiers": [],
               "source": null,
               "exportKind": "value",
               "attributes": [],
-              "start": 733,
-              "end": 875
+              "start": 736,
+              "end": 878
             },
             {
               "type": "ExportNamedDeclaration",
@@ -402,8 +402,8 @@ __ESTREE_TEST__:PASS:
                   "name": "publicClassImplementingPrivateAndPublicInterface",
                   "optional": false,
                   "typeAnnotation": null,
-                  "start": 894,
-                  "end": 942
+                  "start": 897,
+                  "end": 945
                 },
                 "typeParameters": null,
                 "superClass": null,
@@ -417,12 +417,12 @@ __ESTREE_TEST__:PASS:
                       "name": "privateInterfaceInPublicModule",
                       "optional": false,
                       "typeAnnotation": null,
-                      "start": 954,
-                      "end": 984
+                      "start": 957,
+                      "end": 987
                     },
                     "typeArguments": null,
-                    "start": 954,
-                    "end": 984
+                    "start": 957,
+                    "end": 987
                   },
                   {
                     "type": "TSClassImplements",
@@ -432,48 +432,48 @@ __ESTREE_TEST__:PASS:
                       "name": "publicInterfaceInPublicModule",
                       "optional": false,
                       "typeAnnotation": null,
-                      "start": 986,
-                      "end": 1015
+                      "start": 989,
+                      "end": 1018
                     },
                     "typeArguments": null,
-                    "start": 986,
-                    "end": 1015
+                    "start": 989,
+                    "end": 1018
                   }
                 ],
                 "body": {
                   "type": "ClassBody",
                   "body": [],
-                  "start": 1016,
-                  "end": 1039
+                  "start": 1019,
+                  "end": 1042
                 },
                 "abstract": false,
                 "declare": false,
-                "start": 888,
-                "end": 1039
+                "start": 891,
+                "end": 1042
               },
               "specifiers": [],
               "source": null,
               "exportKind": "value",
               "attributes": [],
-              "start": 881,
-              "end": 1039
+              "start": 884,
+              "end": 1042
             }
           ],
-          "start": 27,
-          "end": 1041
+          "start": 30,
+          "end": 1044
         },
-        "kind": "module",
+        "kind": "namespace",
         "declare": false,
         "global": false,
         "start": 7,
-        "end": 1041
+        "end": 1044
       },
       "specifiers": [],
       "source": null,
       "exportKind": "value",
       "attributes": [],
       "start": 0,
-      "end": 1041
+      "end": 1044
     },
     {
       "type": "TSModuleDeclaration",
@@ -483,8 +483,8 @@ __ESTREE_TEST__:PASS:
         "name": "privateModule",
         "optional": false,
         "typeAnnotation": null,
-        "start": 1050,
-        "end": 1063
+        "start": 1056,
+        "end": 1069
       },
       "body": {
         "type": "TSModuleBlock",
@@ -499,27 +499,27 @@ __ESTREE_TEST__:PASS:
                 "name": "publicInterfaceInPrivateModule",
                 "optional": false,
                 "typeAnnotation": null,
-                "start": 1087,
-                "end": 1117
+                "start": 1093,
+                "end": 1123
               },
               "typeParameters": null,
               "extends": [],
               "body": {
                 "type": "TSInterfaceBody",
                 "body": [],
-                "start": 1118,
-                "end": 1126
+                "start": 1124,
+                "end": 1132
               },
               "declare": false,
-              "start": 1077,
-              "end": 1126
+              "start": 1083,
+              "end": 1132
             },
             "specifiers": [],
             "source": null,
             "exportKind": "type",
             "attributes": [],
-            "start": 1070,
-            "end": 1126
+            "start": 1076,
+            "end": 1132
           },
           {
             "type": "TSInterfaceDeclaration",
@@ -529,20 +529,20 @@ __ESTREE_TEST__:PASS:
               "name": "privateInterfaceInPrivateModule",
               "optional": false,
               "typeAnnotation": null,
-              "start": 1142,
-              "end": 1173
+              "start": 1148,
+              "end": 1179
             },
             "typeParameters": null,
             "extends": [],
             "body": {
               "type": "TSInterfaceBody",
               "body": [],
-              "start": 1174,
-              "end": 1181
+              "start": 1180,
+              "end": 1187
             },
             "declare": false,
-            "start": 1132,
-            "end": 1181
+            "start": 1138,
+            "end": 1187
           },
           {
             "type": "ClassDeclaration",
@@ -553,8 +553,8 @@ __ESTREE_TEST__:PASS:
               "name": "privateClassImplementingPublicInterfaceInModule",
               "optional": false,
               "typeAnnotation": null,
-              "start": 1193,
-              "end": 1240
+              "start": 1199,
+              "end": 1246
             },
             "typeParameters": null,
             "superClass": null,
@@ -568,24 +568,24 @@ __ESTREE_TEST__:PASS:
                   "name": "publicInterfaceInPrivateModule",
                   "optional": false,
                   "typeAnnotation": null,
-                  "start": 1252,
-                  "end": 1282
+                  "start": 1258,
+                  "end": 1288
                 },
                 "typeArguments": null,
-                "start": 1252,
-                "end": 1282
+                "start": 1258,
+                "end": 1288
               }
             ],
             "body": {
               "type": "ClassBody",
               "body": [],
-              "start": 1283,
-              "end": 1290
+              "start": 1289,
+              "end": 1296
             },
             "abstract": false,
             "declare": false,
-            "start": 1187,
-            "end": 1290
+            "start": 1193,
+            "end": 1296
           },
           {
             "type": "ClassDeclaration",
@@ -596,8 +596,8 @@ __ESTREE_TEST__:PASS:
               "name": "privateClassImplementingPrivateInterfaceInModule",
               "optional": false,
               "typeAnnotation": null,
-              "start": 1301,
-              "end": 1349
+              "start": 1307,
+              "end": 1355
             },
             "typeParameters": null,
             "superClass": null,
@@ -611,24 +611,24 @@ __ESTREE_TEST__:PASS:
                   "name": "privateInterfaceInPrivateModule",
                   "optional": false,
                   "typeAnnotation": null,
-                  "start": 1361,
-                  "end": 1392
+                  "start": 1367,
+                  "end": 1398
                 },
                 "typeArguments": null,
-                "start": 1361,
-                "end": 1392
+                "start": 1367,
+                "end": 1398
               }
             ],
             "body": {
               "type": "ClassBody",
               "body": [],
-              "start": 1393,
-              "end": 1400
+              "start": 1399,
+              "end": 1406
             },
             "abstract": false,
             "declare": false,
-            "start": 1295,
-            "end": 1400
+            "start": 1301,
+            "end": 1406
           },
           {
             "type": "ExportNamedDeclaration",
@@ -641,8 +641,8 @@ __ESTREE_TEST__:PASS:
                 "name": "publicClassImplementingPublicInterfaceInModule",
                 "optional": false,
                 "typeAnnotation": null,
-                "start": 1418,
-                "end": 1464
+                "start": 1424,
+                "end": 1470
               },
               "typeParameters": null,
               "superClass": null,
@@ -656,31 +656,31 @@ __ESTREE_TEST__:PASS:
                     "name": "publicInterfaceInPrivateModule",
                     "optional": false,
                     "typeAnnotation": null,
-                    "start": 1476,
-                    "end": 1506
+                    "start": 1482,
+                    "end": 1512
                   },
                   "typeArguments": null,
-                  "start": 1476,
-                  "end": 1506
+                  "start": 1482,
+                  "end": 1512
                 }
               ],
               "body": {
                 "type": "ClassBody",
                 "body": [],
-                "start": 1507,
-                "end": 1514
+                "start": 1513,
+                "end": 1520
               },
               "abstract": false,
               "declare": false,
-              "start": 1412,
-              "end": 1514
+              "start": 1418,
+              "end": 1520
             },
             "specifiers": [],
             "source": null,
             "exportKind": "value",
             "attributes": [],
-            "start": 1405,
-            "end": 1514
+            "start": 1411,
+            "end": 1520
           },
           {
             "type": "ExportNamedDeclaration",
@@ -693,8 +693,8 @@ __ESTREE_TEST__:PASS:
                 "name": "publicClassImplementingPrivateInterfaceInModule",
                 "optional": false,
                 "typeAnnotation": null,
-                "start": 1532,
-                "end": 1579
+                "start": 1538,
+                "end": 1585
               },
               "typeParameters": null,
               "superClass": null,
@@ -708,31 +708,31 @@ __ESTREE_TEST__:PASS:
                     "name": "privateInterfaceInPrivateModule",
                     "optional": false,
                     "typeAnnotation": null,
-                    "start": 1591,
-                    "end": 1622
+                    "start": 1597,
+                    "end": 1628
                   },
                   "typeArguments": null,
-                  "start": 1591,
-                  "end": 1622
+                  "start": 1597,
+                  "end": 1628
                 }
               ],
               "body": {
                 "type": "ClassBody",
                 "body": [],
-                "start": 1623,
-                "end": 1631
+                "start": 1629,
+                "end": 1637
               },
               "abstract": false,
               "declare": false,
-              "start": 1526,
-              "end": 1631
+              "start": 1532,
+              "end": 1637
             },
             "specifiers": [],
             "source": null,
             "exportKind": "value",
             "attributes": [],
-            "start": 1519,
-            "end": 1631
+            "start": 1525,
+            "end": 1637
           },
           {
             "type": "ClassDeclaration",
@@ -743,8 +743,8 @@ __ESTREE_TEST__:PASS:
               "name": "privateClassImplementingFromPrivateModuleInterface",
               "optional": false,
               "typeAnnotation": null,
-              "start": 1643,
-              "end": 1693
+              "start": 1649,
+              "end": 1699
             },
             "typeParameters": null,
             "superClass": null,
@@ -760,8 +760,8 @@ __ESTREE_TEST__:PASS:
                     "name": "privateModule",
                     "optional": false,
                     "typeAnnotation": null,
-                    "start": 1705,
-                    "end": 1718
+                    "start": 1711,
+                    "end": 1724
                   },
                   "property": {
                     "type": "Identifier",
@@ -769,29 +769,29 @@ __ESTREE_TEST__:PASS:
                     "name": "publicInterfaceInPrivateModule",
                     "optional": false,
                     "typeAnnotation": null,
-                    "start": 1719,
-                    "end": 1749
+                    "start": 1725,
+                    "end": 1755
                   },
                   "optional": false,
                   "computed": false,
-                  "start": 1705,
-                  "end": 1749
+                  "start": 1711,
+                  "end": 1755
                 },
                 "typeArguments": null,
-                "start": 1705,
-                "end": 1749
+                "start": 1711,
+                "end": 1755
               }
             ],
             "body": {
               "type": "ClassBody",
               "body": [],
-              "start": 1750,
-              "end": 1757
+              "start": 1756,
+              "end": 1763
             },
             "abstract": false,
             "declare": false,
-            "start": 1637,
-            "end": 1757
+            "start": 1643,
+            "end": 1763
           },
           {
             "type": "ExportNamedDeclaration",
@@ -804,8 +804,8 @@ __ESTREE_TEST__:PASS:
                 "name": "publicClassImplementingFromPrivateModuleInterface",
                 "optional": false,
                 "typeAnnotation": null,
-                "start": 1775,
-                "end": 1824
+                "start": 1781,
+                "end": 1830
               },
               "typeParameters": null,
               "superClass": null,
@@ -821,8 +821,8 @@ __ESTREE_TEST__:PASS:
                       "name": "privateModule",
                       "optional": false,
                       "typeAnnotation": null,
-                      "start": 1836,
-                      "end": 1849
+                      "start": 1842,
+                      "end": 1855
                     },
                     "property": {
                       "type": "Identifier",
@@ -830,46 +830,46 @@ __ESTREE_TEST__:PASS:
                       "name": "publicInterfaceInPrivateModule",
                       "optional": false,
                       "typeAnnotation": null,
-                      "start": 1850,
-                      "end": 1880
+                      "start": 1856,
+                      "end": 1886
                     },
                     "optional": false,
                     "computed": false,
-                    "start": 1836,
-                    "end": 1880
+                    "start": 1842,
+                    "end": 1886
                   },
                   "typeArguments": null,
-                  "start": 1836,
-                  "end": 1880
+                  "start": 1842,
+                  "end": 1886
                 }
               ],
               "body": {
                 "type": "ClassBody",
                 "body": [],
-                "start": 1881,
-                "end": 1888
+                "start": 1887,
+                "end": 1894
               },
               "abstract": false,
               "declare": false,
-              "start": 1769,
-              "end": 1888
+              "start": 1775,
+              "end": 1894
             },
             "specifiers": [],
             "source": null,
             "exportKind": "value",
             "attributes": [],
-            "start": 1762,
-            "end": 1888
+            "start": 1768,
+            "end": 1894
           }
         ],
-        "start": 1064,
-        "end": 1890
+        "start": 1070,
+        "end": 1896
       },
-      "kind": "module",
+      "kind": "namespace",
       "declare": false,
       "global": false,
-      "start": 1043,
-      "end": 1890
+      "start": 1046,
+      "end": 1896
     },
     {
       "type": "ExportNamedDeclaration",
@@ -881,27 +881,27 @@ __ESTREE_TEST__:PASS:
           "name": "publicInterface",
           "optional": false,
           "typeAnnotation": null,
-          "start": 1909,
-          "end": 1924
+          "start": 1915,
+          "end": 1930
         },
         "typeParameters": null,
         "extends": [],
         "body": {
           "type": "TSInterfaceBody",
           "body": [],
-          "start": 1925,
-          "end": 1929
+          "start": 1931,
+          "end": 1935
         },
         "declare": false,
-        "start": 1899,
-        "end": 1929
+        "start": 1905,
+        "end": 1935
       },
       "specifiers": [],
       "source": null,
       "exportKind": "type",
       "attributes": [],
-      "start": 1892,
-      "end": 1929
+      "start": 1898,
+      "end": 1935
     },
     {
       "type": "TSInterfaceDeclaration",
@@ -911,20 +911,20 @@ __ESTREE_TEST__:PASS:
         "name": "privateInterface",
         "optional": false,
         "typeAnnotation": null,
-        "start": 1941,
-        "end": 1957
+        "start": 1947,
+        "end": 1963
       },
       "typeParameters": null,
       "extends": [],
       "body": {
         "type": "TSInterfaceBody",
         "body": [],
-        "start": 1958,
-        "end": 1961
+        "start": 1964,
+        "end": 1967
       },
       "declare": false,
-      "start": 1931,
-      "end": 1961
+      "start": 1937,
+      "end": 1967
     },
     {
       "type": "ClassDeclaration",
@@ -935,8 +935,8 @@ __ESTREE_TEST__:PASS:
         "name": "privateClassImplementingPublicInterface",
         "optional": false,
         "typeAnnotation": null,
-        "start": 1969,
-        "end": 2008
+        "start": 1975,
+        "end": 2014
       },
       "typeParameters": null,
       "superClass": null,
@@ -950,24 +950,24 @@ __ESTREE_TEST__:PASS:
             "name": "publicInterface",
             "optional": false,
             "typeAnnotation": null,
-            "start": 2020,
-            "end": 2035
+            "start": 2026,
+            "end": 2041
           },
           "typeArguments": null,
-          "start": 2020,
-          "end": 2035
+          "start": 2026,
+          "end": 2041
         }
       ],
       "body": {
         "type": "ClassBody",
         "body": [],
-        "start": 2036,
-        "end": 2039
+        "start": 2042,
+        "end": 2045
       },
       "abstract": false,
       "declare": false,
-      "start": 1963,
-      "end": 2039
+      "start": 1969,
+      "end": 2045
     },
     {
       "type": "ClassDeclaration",
@@ -978,8 +978,8 @@ __ESTREE_TEST__:PASS:
         "name": "privateClassImplementingPrivateInterfaceInModule",
         "optional": false,
         "typeAnnotation": null,
-        "start": 2046,
-        "end": 2094
+        "start": 2052,
+        "end": 2100
       },
       "typeParameters": null,
       "superClass": null,
@@ -993,24 +993,24 @@ __ESTREE_TEST__:PASS:
             "name": "privateInterface",
             "optional": false,
             "typeAnnotation": null,
-            "start": 2106,
-            "end": 2122
+            "start": 2112,
+            "end": 2128
           },
           "typeArguments": null,
-          "start": 2106,
-          "end": 2122
+          "start": 2112,
+          "end": 2128
         }
       ],
       "body": {
         "type": "ClassBody",
         "body": [],
-        "start": 2123,
-        "end": 2126
+        "start": 2129,
+        "end": 2132
       },
       "abstract": false,
       "declare": false,
-      "start": 2040,
-      "end": 2126
+      "start": 2046,
+      "end": 2132
     },
     {
       "type": "ExportNamedDeclaration",
@@ -1023,8 +1023,8 @@ __ESTREE_TEST__:PASS:
           "name": "publicClassImplementingPublicInterface",
           "optional": false,
           "typeAnnotation": null,
-          "start": 2140,
-          "end": 2178
+          "start": 2146,
+          "end": 2184
         },
         "typeParameters": null,
         "superClass": null,
@@ -1038,31 +1038,31 @@ __ESTREE_TEST__:PASS:
               "name": "publicInterface",
               "optional": false,
               "typeAnnotation": null,
-              "start": 2190,
-              "end": 2205
+              "start": 2196,
+              "end": 2211
             },
             "typeArguments": null,
-            "start": 2190,
-            "end": 2205
+            "start": 2196,
+            "end": 2211
           }
         ],
         "body": {
           "type": "ClassBody",
           "body": [],
-          "start": 2206,
-          "end": 2209
+          "start": 2212,
+          "end": 2215
         },
         "abstract": false,
         "declare": false,
-        "start": 2134,
-        "end": 2209
+        "start": 2140,
+        "end": 2215
       },
       "specifiers": [],
       "source": null,
       "exportKind": "value",
       "attributes": [],
-      "start": 2127,
-      "end": 2209
+      "start": 2133,
+      "end": 2215
     },
     {
       "type": "ExportNamedDeclaration",
@@ -1075,8 +1075,8 @@ __ESTREE_TEST__:PASS:
           "name": "publicClassImplementingPrivateInterface",
           "optional": false,
           "typeAnnotation": null,
-          "start": 2223,
-          "end": 2262
+          "start": 2229,
+          "end": 2268
         },
         "typeParameters": null,
         "superClass": null,
@@ -1090,31 +1090,31 @@ __ESTREE_TEST__:PASS:
               "name": "privateInterface",
               "optional": false,
               "typeAnnotation": null,
-              "start": 2274,
-              "end": 2290
+              "start": 2280,
+              "end": 2296
             },
             "typeArguments": null,
-            "start": 2274,
-            "end": 2290
+            "start": 2280,
+            "end": 2296
           }
         ],
         "body": {
           "type": "ClassBody",
           "body": [],
-          "start": 2291,
-          "end": 2310
+          "start": 2297,
+          "end": 2316
         },
         "abstract": false,
         "declare": false,
-        "start": 2217,
-        "end": 2310
+        "start": 2223,
+        "end": 2316
       },
       "specifiers": [],
       "source": null,
       "exportKind": "value",
       "attributes": [],
-      "start": 2210,
-      "end": 2310
+      "start": 2216,
+      "end": 2316
     },
     {
       "type": "ClassDeclaration",
@@ -1125,8 +1125,8 @@ __ESTREE_TEST__:PASS:
         "name": "privateClassImplementingFromPrivateModuleInterface",
         "optional": false,
         "typeAnnotation": null,
-        "start": 2318,
-        "end": 2368
+        "start": 2324,
+        "end": 2374
       },
       "typeParameters": null,
       "superClass": null,
@@ -1142,8 +1142,8 @@ __ESTREE_TEST__:PASS:
               "name": "privateModule",
               "optional": false,
               "typeAnnotation": null,
-              "start": 2380,
-              "end": 2393
+              "start": 2386,
+              "end": 2399
             },
             "property": {
               "type": "Identifier",
@@ -1151,29 +1151,29 @@ __ESTREE_TEST__:PASS:
               "name": "publicInterfaceInPrivateModule",
               "optional": false,
               "typeAnnotation": null,
-              "start": 2394,
-              "end": 2424
+              "start": 2400,
+              "end": 2430
             },
             "optional": false,
             "computed": false,
-            "start": 2380,
-            "end": 2424
+            "start": 2386,
+            "end": 2430
           },
           "typeArguments": null,
-          "start": 2380,
-          "end": 2424
+          "start": 2386,
+          "end": 2430
         }
       ],
       "body": {
         "type": "ClassBody",
         "body": [],
-        "start": 2425,
-        "end": 2428
+        "start": 2431,
+        "end": 2434
       },
       "abstract": false,
       "declare": false,
-      "start": 2312,
-      "end": 2428
+      "start": 2318,
+      "end": 2434
     },
     {
       "type": "ExportNamedDeclaration",
@@ -1186,8 +1186,8 @@ __ESTREE_TEST__:PASS:
           "name": "publicClassImplementingFromPrivateModuleInterface",
           "optional": false,
           "typeAnnotation": null,
-          "start": 2442,
-          "end": 2491
+          "start": 2448,
+          "end": 2497
         },
         "typeParameters": null,
         "superClass": null,
@@ -1203,8 +1203,8 @@ __ESTREE_TEST__:PASS:
                 "name": "privateModule",
                 "optional": false,
                 "typeAnnotation": null,
-                "start": 2503,
-                "end": 2516
+                "start": 2509,
+                "end": 2522
               },
               "property": {
                 "type": "Identifier",
@@ -1212,42 +1212,42 @@ __ESTREE_TEST__:PASS:
                 "name": "publicInterfaceInPrivateModule",
                 "optional": false,
                 "typeAnnotation": null,
-                "start": 2517,
-                "end": 2547
+                "start": 2523,
+                "end": 2553
               },
               "optional": false,
               "computed": false,
-              "start": 2503,
-              "end": 2547
+              "start": 2509,
+              "end": 2553
             },
             "typeArguments": null,
-            "start": 2503,
-            "end": 2547
+            "start": 2509,
+            "end": 2553
           }
         ],
         "body": {
           "type": "ClassBody",
           "body": [],
-          "start": 2548,
-          "end": 2567
+          "start": 2554,
+          "end": 2573
         },
         "abstract": false,
         "declare": false,
-        "start": 2436,
-        "end": 2567
+        "start": 2442,
+        "end": 2573
       },
       "specifiers": [],
       "source": null,
       "exportKind": "value",
       "attributes": [],
-      "start": 2429,
-      "end": 2567
+      "start": 2435,
+      "end": 2573
     }
   ],
   "sourceType": "module",
   "hashbang": null,
   "start": 0,
-  "end": 2568
+  "end": 2574
 }
 ```
 __ESTREE_TEST__:PASS:
@@ -1263,8 +1263,8 @@ __ESTREE_TEST__:PASS:
         "name": "publicModuleInGlobal",
         "optional": false,
         "typeAnnotation": null,
-        "start": 7,
-        "end": 27
+        "start": 10,
+        "end": 30
       },
       "body": {
         "type": "TSModuleBlock",
@@ -1279,27 +1279,27 @@ __ESTREE_TEST__:PASS:
                 "name": "publicInterfaceInPublicModule",
                 "optional": false,
                 "typeAnnotation": null,
-                "start": 51,
-                "end": 80
+                "start": 54,
+                "end": 83
               },
               "typeParameters": null,
               "extends": [],
               "body": {
                 "type": "TSInterfaceBody",
                 "body": [],
-                "start": 81,
-                "end": 88
+                "start": 84,
+                "end": 91
               },
               "declare": false,
-              "start": 41,
-              "end": 88
+              "start": 44,
+              "end": 91
             },
             "specifiers": [],
             "source": null,
             "exportKind": "type",
             "attributes": [],
-            "start": 34,
-            "end": 88
+            "start": 37,
+            "end": 91
           },
           {
             "type": "TSInterfaceDeclaration",
@@ -1309,20 +1309,20 @@ __ESTREE_TEST__:PASS:
               "name": "privateInterfaceInPublicModule",
               "optional": false,
               "typeAnnotation": null,
-              "start": 104,
-              "end": 134
+              "start": 107,
+              "end": 137
             },
             "typeParameters": null,
             "extends": [],
             "body": {
               "type": "TSInterfaceBody",
               "body": [],
-              "start": 135,
-              "end": 142
+              "start": 138,
+              "end": 145
             },
             "declare": false,
-            "start": 94,
-            "end": 142
+            "start": 97,
+            "end": 145
           },
           {
             "type": "ClassDeclaration",
@@ -1333,8 +1333,8 @@ __ESTREE_TEST__:PASS:
               "name": "privateClassImplementingPublicInterfaceInModule",
               "optional": false,
               "typeAnnotation": null,
-              "start": 154,
-              "end": 201
+              "start": 157,
+              "end": 204
             },
             "typeParameters": null,
             "superClass": null,
@@ -1348,24 +1348,24 @@ __ESTREE_TEST__:PASS:
                   "name": "publicInterfaceInPublicModule",
                   "optional": false,
                   "typeAnnotation": null,
-                  "start": 213,
-                  "end": 242
+                  "start": 216,
+                  "end": 245
                 },
                 "typeArguments": null,
-                "start": 213,
-                "end": 242
+                "start": 216,
+                "end": 245
               }
             ],
             "body": {
               "type": "ClassBody",
               "body": [],
-              "start": 243,
-              "end": 250
+              "start": 246,
+              "end": 253
             },
             "abstract": false,
             "declare": false,
-            "start": 148,
-            "end": 250
+            "start": 151,
+            "end": 253
           },
           {
             "type": "ClassDeclaration",
@@ -1376,8 +1376,8 @@ __ESTREE_TEST__:PASS:
               "name": "privateClassImplementingPrivateInterfaceInModule",
               "optional": false,
               "typeAnnotation": null,
-              "start": 261,
-              "end": 309
+              "start": 264,
+              "end": 312
             },
             "typeParameters": null,
             "superClass": null,
@@ -1391,24 +1391,24 @@ __ESTREE_TEST__:PASS:
                   "name": "privateInterfaceInPublicModule",
                   "optional": false,
                   "typeAnnotation": null,
-                  "start": 321,
-                  "end": 351
+                  "start": 324,
+                  "end": 354
                 },
                 "typeArguments": null,
-                "start": 321,
-                "end": 351
+                "start": 324,
+                "end": 354
               }
             ],
             "body": {
               "type": "ClassBody",
               "body": [],
-              "start": 352,
-              "end": 359
+              "start": 355,
+              "end": 362
             },
             "abstract": false,
             "declare": false,
-            "start": 255,
-            "end": 359
+            "start": 258,
+            "end": 362
           },
           {
             "type": "ExportNamedDeclaration",
@@ -1421,8 +1421,8 @@ __ESTREE_TEST__:PASS:
                 "name": "publicClassImplementingPublicInterfaceInModule",
                 "optional": false,
                 "typeAnnotation": null,
-                "start": 377,
-                "end": 423
+                "start": 380,
+                "end": 426
               },
               "typeParameters": null,
               "superClass": null,
@@ -1436,31 +1436,31 @@ __ESTREE_TEST__:PASS:
                     "name": "publicInterfaceInPublicModule",
                     "optional": false,
                     "typeAnnotation": null,
-                    "start": 435,
-                    "end": 464
+                    "start": 438,
+                    "end": 467
                   },
                   "typeArguments": null,
-                  "start": 435,
-                  "end": 464
+                  "start": 438,
+                  "end": 467
                 }
               ],
               "body": {
                 "type": "ClassBody",
                 "body": [],
-                "start": 465,
-                "end": 472
+                "start": 468,
+                "end": 475
               },
               "abstract": false,
               "declare": false,
-              "start": 371,
-              "end": 472
+              "start": 374,
+              "end": 475
             },
             "specifiers": [],
             "source": null,
             "exportKind": "value",
             "attributes": [],
-            "start": 364,
-            "end": 472
+            "start": 367,
+            "end": 475
           },
           {
             "type": "ExportNamedDeclaration",
@@ -1473,8 +1473,8 @@ __ESTREE_TEST__:PASS:
                 "name": "publicClassImplementingPrivateInterfaceInModule",
                 "optional": false,
                 "typeAnnotation": null,
-                "start": 490,
-                "end": 537
+                "start": 493,
+                "end": 540
               },
               "typeParameters": null,
               "superClass": null,
@@ -1488,41 +1488,41 @@ __ESTREE_TEST__:PASS:
                     "name": "privateInterfaceInPublicModule",
                     "optional": false,
                     "typeAnnotation": null,
-                    "start": 549,
-                    "end": 579
+                    "start": 552,
+                    "end": 582
                   },
                   "typeArguments": null,
-                  "start": 549,
-                  "end": 579
+                  "start": 552,
+                  "end": 582
                 }
               ],
               "body": {
                 "type": "ClassBody",
                 "body": [],
-                "start": 580,
-                "end": 603
+                "start": 583,
+                "end": 606
               },
               "abstract": false,
               "declare": false,
-              "start": 484,
-              "end": 603
+              "start": 487,
+              "end": 606
             },
             "specifiers": [],
             "source": null,
             "exportKind": "value",
             "attributes": [],
-            "start": 477,
-            "end": 603
+            "start": 480,
+            "end": 606
           }
         ],
-        "start": 28,
-        "end": 605
+        "start": 31,
+        "end": 608
       },
-      "kind": "module",
+      "kind": "namespace",
       "declare": false,
       "global": false,
       "start": 0,
-      "end": 605
+      "end": 608
     },
     {
       "type": "TSInterfaceDeclaration",
@@ -1532,20 +1532,20 @@ __ESTREE_TEST__:PASS:
         "name": "publicInterfaceInGlobal",
         "optional": false,
         "typeAnnotation": null,
-        "start": 616,
-        "end": 639
+        "start": 619,
+        "end": 642
       },
       "typeParameters": null,
       "extends": [],
       "body": {
         "type": "TSInterfaceBody",
         "body": [],
-        "start": 640,
-        "end": 643
+        "start": 643,
+        "end": 646
       },
       "declare": false,
-      "start": 606,
-      "end": 643
+      "start": 609,
+      "end": 646
     },
     {
       "type": "ClassDeclaration",
@@ -1556,8 +1556,8 @@ __ESTREE_TEST__:PASS:
         "name": "publicClassImplementingPublicInterfaceInGlobal",
         "optional": false,
         "typeAnnotation": null,
-        "start": 650,
-        "end": 696
+        "start": 653,
+        "end": 699
       },
       "typeParameters": null,
       "superClass": null,
@@ -1571,29 +1571,29 @@ __ESTREE_TEST__:PASS:
             "name": "publicInterfaceInGlobal",
             "optional": false,
             "typeAnnotation": null,
-            "start": 708,
-            "end": 731
+            "start": 711,
+            "end": 734
           },
           "typeArguments": null,
-          "start": 708,
-          "end": 731
+          "start": 711,
+          "end": 734
         }
       ],
       "body": {
         "type": "ClassBody",
         "body": [],
-        "start": 732,
-        "end": 735
+        "start": 735,
+        "end": 738
       },
       "abstract": false,
       "declare": false,
-      "start": 644,
-      "end": 735
+      "start": 647,
+      "end": 738
     }
   ],
   "sourceType": "module",
   "hashbang": null,
   "start": 0,
-  "end": 735
+  "end": 738
 }
 ```

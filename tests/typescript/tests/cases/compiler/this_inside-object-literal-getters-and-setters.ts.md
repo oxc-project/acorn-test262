@@ -11,8 +11,8 @@ __ESTREE_TEST__:PASS:
         "name": "ObjectLiteral",
         "optional": false,
         "typeAnnotation": null,
-        "start": 7,
-        "end": 20
+        "start": 10,
+        "end": 23
       },
       "body": {
         "type": "TSModuleBlock",
@@ -29,8 +29,8 @@ __ESTREE_TEST__:PASS:
                   "name": "ThisInObjectLiteral",
                   "optional": false,
                   "typeAnnotation": null,
-                  "start": 31,
-                  "end": 50
+                  "start": 34,
+                  "end": 53
                 },
                 "init": {
                   "type": "ObjectExpression",
@@ -44,22 +44,22 @@ __ESTREE_TEST__:PASS:
                         "name": "_foo",
                         "optional": false,
                         "typeAnnotation": null,
-                        "start": 63,
-                        "end": 67
+                        "start": 66,
+                        "end": 70
                       },
                       "value": {
                         "type": "Literal",
                         "value": "1",
                         "raw": "'1'",
-                        "start": 69,
-                        "end": 72
+                        "start": 72,
+                        "end": 75
                       },
                       "method": false,
                       "shorthand": false,
                       "computed": false,
                       "optional": false,
-                      "start": 63,
-                      "end": 72
+                      "start": 66,
+                      "end": 75
                     },
                     {
                       "type": "Property",
@@ -70,8 +70,8 @@ __ESTREE_TEST__:PASS:
                         "name": "foo",
                         "optional": false,
                         "typeAnnotation": null,
-                        "start": 86,
-                        "end": 89
+                        "start": 89,
+                        "end": 92
                       },
                       "value": {
                         "type": "FunctionExpression",
@@ -85,11 +85,11 @@ __ESTREE_TEST__:PASS:
                           "type": "TSTypeAnnotation",
                           "typeAnnotation": {
                             "type": "TSStringKeyword",
-                            "start": 93,
-                            "end": 99
+                            "start": 96,
+                            "end": 102
                           },
-                          "start": 91,
-                          "end": 99
+                          "start": 94,
+                          "end": 102
                         },
                         "body": {
                           "type": "BlockStatement",
@@ -100,8 +100,8 @@ __ESTREE_TEST__:PASS:
                                 "type": "MemberExpression",
                                 "object": {
                                   "type": "ThisExpression",
-                                  "start": 121,
-                                  "end": 125
+                                  "start": 124,
+                                  "end": 128
                                 },
                                 "property": {
                                   "type": "Identifier",
@@ -109,31 +109,31 @@ __ESTREE_TEST__:PASS:
                                   "name": "_foo",
                                   "optional": false,
                                   "typeAnnotation": null,
-                                  "start": 126,
-                                  "end": 130
+                                  "start": 129,
+                                  "end": 133
                                 },
                                 "optional": false,
                                 "computed": false,
-                                "start": 121,
-                                "end": 130
+                                "start": 124,
+                                "end": 133
                               },
-                              "start": 114,
-                              "end": 131
+                              "start": 117,
+                              "end": 134
                             }
                           ],
-                          "start": 100,
-                          "end": 141
+                          "start": 103,
+                          "end": 144
                         },
                         "expression": false,
-                        "start": 89,
-                        "end": 141
+                        "start": 92,
+                        "end": 144
                       },
                       "method": false,
                       "shorthand": false,
                       "computed": false,
                       "optional": false,
-                      "start": 82,
-                      "end": 141
+                      "start": 85,
+                      "end": 144
                     },
                     {
                       "type": "Property",
@@ -144,8 +144,8 @@ __ESTREE_TEST__:PASS:
                         "name": "foo",
                         "optional": false,
                         "typeAnnotation": null,
-                        "start": 155,
-                        "end": 158
+                        "start": 158,
+                        "end": 161
                       },
                       "value": {
                         "type": "FunctionExpression",
@@ -164,14 +164,14 @@ __ESTREE_TEST__:PASS:
                               "type": "TSTypeAnnotation",
                               "typeAnnotation": {
                                 "type": "TSStringKeyword",
-                                "start": 166,
-                                "end": 172
+                                "start": 169,
+                                "end": 175
                               },
-                              "start": 164,
-                              "end": 172
+                              "start": 167,
+                              "end": 175
                             },
-                            "start": 159,
-                            "end": 172
+                            "start": 162,
+                            "end": 175
                           }
                         ],
                         "returnType": null,
@@ -187,8 +187,8 @@ __ESTREE_TEST__:PASS:
                                   "type": "MemberExpression",
                                   "object": {
                                     "type": "ThisExpression",
-                                    "start": 188,
-                                    "end": 192
+                                    "start": 191,
+                                    "end": 195
                                   },
                                   "property": {
                                     "type": "Identifier",
@@ -196,13 +196,13 @@ __ESTREE_TEST__:PASS:
                                     "name": "_foo",
                                     "optional": false,
                                     "typeAnnotation": null,
-                                    "start": 193,
-                                    "end": 197
+                                    "start": 196,
+                                    "end": 200
                                   },
                                   "optional": false,
                                   "computed": false,
-                                  "start": 188,
-                                  "end": 197
+                                  "start": 191,
+                                  "end": 200
                                 },
                                 "right": {
                                   "type": "Identifier",
@@ -210,30 +210,30 @@ __ESTREE_TEST__:PASS:
                                   "name": "value",
                                   "optional": false,
                                   "typeAnnotation": null,
-                                  "start": 200,
-                                  "end": 205
+                                  "start": 203,
+                                  "end": 208
                                 },
-                                "start": 188,
-                                "end": 205
+                                "start": 191,
+                                "end": 208
                               },
                               "directive": null,
-                              "start": 188,
-                              "end": 206
+                              "start": 191,
+                              "end": 209
                             }
                           ],
-                          "start": 174,
-                          "end": 216
+                          "start": 177,
+                          "end": 219
                         },
                         "expression": false,
-                        "start": 158,
-                        "end": 216
+                        "start": 161,
+                        "end": 219
                       },
                       "method": false,
                       "shorthand": false,
                       "computed": false,
                       "optional": false,
-                      "start": 151,
-                      "end": 216
+                      "start": 154,
+                      "end": 219
                     },
                     {
                       "type": "Property",
@@ -244,8 +244,8 @@ __ESTREE_TEST__:PASS:
                         "name": "test",
                         "optional": false,
                         "typeAnnotation": null,
-                        "start": 226,
-                        "end": 230
+                        "start": 229,
+                        "end": 233
                       },
                       "value": {
                         "type": "FunctionExpression",
@@ -265,8 +265,8 @@ __ESTREE_TEST__:PASS:
                                 "type": "MemberExpression",
                                 "object": {
                                   "type": "ThisExpression",
-                                  "start": 265,
-                                  "end": 269
+                                  "start": 268,
+                                  "end": 272
                                 },
                                 "property": {
                                   "type": "Identifier",
@@ -274,59 +274,59 @@ __ESTREE_TEST__:PASS:
                                   "name": "_foo",
                                   "optional": false,
                                   "typeAnnotation": null,
-                                  "start": 270,
-                                  "end": 274
+                                  "start": 273,
+                                  "end": 277
                                 },
                                 "optional": false,
                                 "computed": false,
-                                "start": 265,
-                                "end": 274
+                                "start": 268,
+                                "end": 277
                               },
-                              "start": 258,
-                              "end": 275
+                              "start": 261,
+                              "end": 278
                             }
                           ],
-                          "start": 244,
-                          "end": 285
+                          "start": 247,
+                          "end": 288
                         },
                         "expression": false,
-                        "start": 232,
-                        "end": 285
+                        "start": 235,
+                        "end": 288
                       },
                       "method": false,
                       "shorthand": false,
                       "computed": false,
                       "optional": false,
-                      "start": 226,
-                      "end": 285
+                      "start": 229,
+                      "end": 288
                     }
                   ],
-                  "start": 53,
-                  "end": 291
+                  "start": 56,
+                  "end": 294
                 },
                 "definite": false,
-                "start": 31,
-                "end": 291
+                "start": 34,
+                "end": 294
               }
             ],
             "declare": false,
-            "start": 27,
-            "end": 291
+            "start": 30,
+            "end": 294
           }
         ],
-        "start": 21,
-        "end": 293
+        "start": 24,
+        "end": 296
       },
-      "kind": "module",
+      "kind": "namespace",
       "declare": false,
       "global": false,
       "start": 0,
-      "end": 293
+      "end": 296
     }
   ],
   "sourceType": "script",
   "hashbang": null,
   "start": 0,
-  "end": 294
+  "end": 297
 }
 ```

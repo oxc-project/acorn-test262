@@ -11,8 +11,8 @@ __ESTREE_TEST__:PASS:
         "name": "A",
         "optional": false,
         "typeAnnotation": null,
-        "start": 35,
-        "end": 36
+        "start": 38,
+        "end": 39
       },
       "body": {
         "type": "TSModuleBlock",
@@ -26,8 +26,8 @@ __ESTREE_TEST__:PASS:
               "name": "C",
               "optional": false,
               "typeAnnotation": null,
-              "start": 49,
-              "end": 50
+              "start": 52,
+              "end": 53
             },
             "typeParameters": null,
             "superClass": null,
@@ -45,8 +45,8 @@ __ESTREE_TEST__:PASS:
                     "name": "constructor",
                     "optional": false,
                     "typeAnnotation": null,
-                    "start": 61,
-                    "end": 72
+                    "start": 64,
+                    "end": 75
                   },
                   "value": {
                     "type": "FunctionExpression",
@@ -71,31 +71,31 @@ __ESTREE_TEST__:PASS:
                             "typeAnnotation": {
                               "type": "TSTypeLiteral",
                               "members": [],
-                              "start": 83,
-                              "end": 85
+                              "start": 86,
+                              "end": 88
                             },
-                            "start": 81,
-                            "end": 85
+                            "start": 84,
+                            "end": 88
                           },
-                          "start": 80,
-                          "end": 85
+                          "start": 83,
+                          "end": 88
                         },
                         "readonly": false,
                         "static": false,
-                        "start": 73,
-                        "end": 85
+                        "start": 76,
+                        "end": 88
                       }
                     ],
                     "returnType": null,
                     "body": {
                       "type": "BlockStatement",
                       "body": [],
-                      "start": 87,
-                      "end": 90
+                      "start": 90,
+                      "end": 93
                     },
                     "expression": false,
-                    "start": 72,
-                    "end": 90
+                    "start": 75,
+                    "end": 93
                   },
                   "kind": "constructor",
                   "computed": false,
@@ -103,32 +103,32 @@ __ESTREE_TEST__:PASS:
                   "override": false,
                   "optional": false,
                   "accessibility": null,
-                  "start": 61,
-                  "end": 90
+                  "start": 64,
+                  "end": 93
                 }
               ],
-              "start": 51,
-              "end": 96
+              "start": 54,
+              "end": 99
             },
             "abstract": false,
             "declare": false,
-            "start": 43,
-            "end": 96
+            "start": 46,
+            "end": 99
           }
         ],
-        "start": 37,
-        "end": 98
+        "start": 40,
+        "end": 101
       },
-      "kind": "module",
+      "kind": "namespace",
       "declare": false,
       "global": false,
       "start": 28,
-      "end": 98
+      "end": 101
     }
   ],
   "sourceType": "script",
   "hashbang": null,
   "start": 28,
-  "end": 98
+  "end": 101
 }
 ```

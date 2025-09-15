@@ -11,8 +11,8 @@ __ESTREE_TEST__:PASS:
         "name": "App",
         "optional": false,
         "typeAnnotation": null,
-        "start": 7,
-        "end": 10
+        "start": 10,
+        "end": 13
       },
       "body": {
         "type": "TSModuleBlock",
@@ -27,8 +27,8 @@ __ESTREE_TEST__:PASS:
                 "name": "Services",
                 "optional": false,
                 "typeAnnotation": null,
-                "start": 31,
-                "end": 39
+                "start": 37,
+                "end": 45
               },
               "body": {
                 "type": "TSModuleBlock",
@@ -44,8 +44,8 @@ __ESTREE_TEST__:PASS:
                         "name": "UserServices",
                         "optional": false,
                         "typeAnnotation": null,
-                        "start": 63,
-                        "end": 75
+                        "start": 69,
+                        "end": 81
                       },
                       "typeParameters": null,
                       "superClass": null,
@@ -63,8 +63,8 @@ __ESTREE_TEST__:PASS:
                               "name": "getUserName",
                               "optional": false,
                               "typeAnnotation": null,
-                              "start": 97,
-                              "end": 108
+                              "start": 103,
+                              "end": 114
                             },
                             "value": {
                               "type": "FunctionExpression",
@@ -78,11 +78,11 @@ __ESTREE_TEST__:PASS:
                                 "type": "TSTypeAnnotation",
                                 "typeAnnotation": {
                                   "type": "TSStringKeyword",
-                                  "start": 112,
-                                  "end": 118
+                                  "start": 118,
+                                  "end": 124
                                 },
-                                "start": 110,
-                                "end": 118
+                                "start": 116,
+                                "end": 124
                               },
                               "body": {
                                 "type": "BlockStatement",
@@ -93,19 +93,19 @@ __ESTREE_TEST__:PASS:
                                       "type": "Literal",
                                       "value": "Bill Gates",
                                       "raw": "\"Bill Gates\"",
-                                      "start": 144,
-                                      "end": 156
+                                      "start": 150,
+                                      "end": 162
                                     },
-                                    "start": 137,
-                                    "end": 157
+                                    "start": 143,
+                                    "end": 163
                                   }
                                 ],
-                                "start": 119,
-                                "end": 171
+                                "start": 125,
+                                "end": 177
                               },
                               "expression": false,
-                              "start": 108,
-                              "end": 171
+                              "start": 114,
+                              "end": 177
                             },
                             "kind": "method",
                             "computed": false,
@@ -113,51 +113,51 @@ __ESTREE_TEST__:PASS:
                             "override": false,
                             "optional": false,
                             "accessibility": "public",
-                            "start": 90,
-                            "end": 171
+                            "start": 96,
+                            "end": 177
                           }
                         ],
-                        "start": 76,
-                        "end": 181
+                        "start": 82,
+                        "end": 187
                       },
                       "abstract": false,
                       "declare": false,
-                      "start": 57,
-                      "end": 181
+                      "start": 63,
+                      "end": 187
                     },
                     "specifiers": [],
                     "source": null,
                     "exportKind": "value",
                     "attributes": [],
-                    "start": 50,
-                    "end": 181
+                    "start": 56,
+                    "end": 187
                   }
                 ],
-                "start": 40,
-                "end": 187
+                "start": 46,
+                "end": 193
               },
-              "kind": "module",
+              "kind": "namespace",
               "declare": false,
               "global": false,
-              "start": 24,
-              "end": 187
+              "start": 27,
+              "end": 193
             },
             "specifiers": [],
             "source": null,
             "exportKind": "value",
             "attributes": [],
-            "start": 17,
-            "end": 187
+            "start": 20,
+            "end": 193
           }
         ],
-        "start": 11,
-        "end": 189
+        "start": 14,
+        "end": 195
       },
-      "kind": "module",
+      "kind": "namespace",
       "declare": false,
       "global": false,
       "start": 0,
-      "end": 189
+      "end": 195
     },
     {
       "type": "TSImportEqualsDeclaration",
@@ -167,8 +167,8 @@ __ESTREE_TEST__:PASS:
         "name": "Mod",
         "optional": false,
         "typeAnnotation": null,
-        "start": 198,
-        "end": 201
+        "start": 204,
+        "end": 207
       },
       "moduleReference": {
         "type": "Identifier",
@@ -176,12 +176,12 @@ __ESTREE_TEST__:PASS:
         "name": "App",
         "optional": false,
         "typeAnnotation": null,
-        "start": 204,
-        "end": 207
+        "start": 210,
+        "end": 213
       },
       "importKind": "value",
-      "start": 191,
-      "end": 208
+      "start": 197,
+      "end": 214
     },
     {
       "type": "TSExportAssignment",
@@ -191,17 +191,17 @@ __ESTREE_TEST__:PASS:
         "name": "Mod",
         "optional": false,
         "typeAnnotation": null,
-        "start": 218,
-        "end": 221
+        "start": 224,
+        "end": 227
       },
-      "start": 209,
-      "end": 222
+      "start": 215,
+      "end": 228
     }
   ],
   "sourceType": "module",
   "hashbang": null,
   "start": 0,
-  "end": 223
+  "end": 229
 }
 ```
 __ESTREE_TEST__:PASS:

@@ -11,8 +11,8 @@ __ESTREE_TEST__:PASS:
         "name": "EM",
         "optional": false,
         "typeAnnotation": null,
-        "start": 15,
-        "end": 17
+        "start": 18,
+        "end": 20
       },
       "body": {
         "type": "TSModuleBlock",
@@ -28,8 +28,8 @@ __ESTREE_TEST__:PASS:
                 "name": "Position",
                 "optional": false,
                 "typeAnnotation": null,
-                "start": 34,
-                "end": 42
+                "start": 37,
+                "end": 45
               },
               "typeParameters": null,
               "superClass": null,
@@ -38,20 +38,20 @@ __ESTREE_TEST__:PASS:
               "body": {
                 "type": "ClassBody",
                 "body": [],
-                "start": 43,
-                "end": 46
+                "start": 46,
+                "end": 49
               },
               "abstract": false,
               "declare": false,
-              "start": 28,
-              "end": 46
+              "start": 31,
+              "end": 49
             },
             "specifiers": [],
             "source": null,
             "exportKind": "value",
             "attributes": [],
-            "start": 21,
-            "end": 46
+            "start": 24,
+            "end": 49
           },
           {
             "type": "ExportNamedDeclaration",
@@ -64,8 +64,8 @@ __ESTREE_TEST__:PASS:
                 "name": "EC",
                 "optional": false,
                 "typeAnnotation": null,
-                "start": 62,
-                "end": 64
+                "start": 65,
+                "end": 67
               },
               "typeParameters": null,
               "superClass": null,
@@ -83,8 +83,8 @@ __ESTREE_TEST__:PASS:
                       "name": "getPosition",
                       "optional": false,
                       "typeAnnotation": null,
-                      "start": 76,
-                      "end": 87
+                      "start": 79,
+                      "end": 90
                     },
                     "value": {
                       "type": "TSEmptyBodyFunctionExpression",
@@ -106,8 +106,8 @@ __ESTREE_TEST__:PASS:
                               "name": "EM",
                               "optional": false,
                               "typeAnnotation": null,
-                              "start": 92,
-                              "end": 94
+                              "start": 95,
+                              "end": 97
                             },
                             "right": {
                               "type": "Identifier",
@@ -115,23 +115,23 @@ __ESTREE_TEST__:PASS:
                               "name": "Position",
                               "optional": false,
                               "typeAnnotation": null,
-                              "start": 95,
-                              "end": 103
+                              "start": 98,
+                              "end": 106
                             },
-                            "start": 92,
-                            "end": 103
+                            "start": 95,
+                            "end": 106
                           },
                           "typeArguments": null,
-                          "start": 92,
-                          "end": 103
+                          "start": 95,
+                          "end": 106
                         },
-                        "start": 90,
-                        "end": 103
+                        "start": 93,
+                        "end": 106
                       },
                       "body": null,
                       "expression": false,
-                      "start": 87,
-                      "end": 104
+                      "start": 90,
+                      "end": 107
                     },
                     "kind": "method",
                     "computed": false,
@@ -139,34 +139,34 @@ __ESTREE_TEST__:PASS:
                     "override": false,
                     "optional": false,
                     "accessibility": "public",
-                    "start": 69,
-                    "end": 104
+                    "start": 72,
+                    "end": 107
                   }
                 ],
-                "start": 65,
-                "end": 107
+                "start": 68,
+                "end": 110
               },
               "abstract": false,
               "declare": false,
-              "start": 56,
-              "end": 107
+              "start": 59,
+              "end": 110
             },
             "specifiers": [],
             "source": null,
             "exportKind": "value",
             "attributes": [],
-            "start": 49,
-            "end": 107
+            "start": 52,
+            "end": 110
           }
         ],
-        "start": 18,
-        "end": 109
+        "start": 21,
+        "end": 112
       },
-      "kind": "module",
+      "kind": "namespace",
       "declare": true,
       "global": false,
       "start": 0,
-      "end": 109
+      "end": 112
     },
     {
       "type": "VariableDeclaration",
@@ -191,8 +191,8 @@ __ESTREE_TEST__:PASS:
                     "name": "EM",
                     "optional": false,
                     "typeAnnotation": null,
-                    "start": 117,
-                    "end": 119
+                    "start": 120,
+                    "end": 122
                   },
                   "right": {
                     "type": "Identifier",
@@ -200,31 +200,31 @@ __ESTREE_TEST__:PASS:
                     "name": "Position",
                     "optional": false,
                     "typeAnnotation": null,
-                    "start": 120,
-                    "end": 128
+                    "start": 123,
+                    "end": 131
                   },
-                  "start": 117,
-                  "end": 128
+                  "start": 120,
+                  "end": 131
                 },
                 "typeArguments": null,
-                "start": 117,
-                "end": 128
+                "start": 120,
+                "end": 131
               },
-              "start": 116,
-              "end": 128
+              "start": 119,
+              "end": 131
             },
-            "start": 115,
-            "end": 128
+            "start": 118,
+            "end": 131
           },
           "init": null,
           "definite": false,
-          "start": 115,
-          "end": 128
+          "start": 118,
+          "end": 131
         }
       ],
       "declare": false,
-      "start": 111,
-      "end": 129
+      "start": 114,
+      "end": 132
     },
     {
       "type": "VariableDeclaration",
@@ -249,8 +249,8 @@ __ESTREE_TEST__:PASS:
                     "name": "EM",
                     "optional": false,
                     "typeAnnotation": null,
-                    "start": 137,
-                    "end": 139
+                    "start": 140,
+                    "end": 142
                   },
                   "right": {
                     "type": "Identifier",
@@ -258,21 +258,21 @@ __ESTREE_TEST__:PASS:
                     "name": "EC",
                     "optional": false,
                     "typeAnnotation": null,
-                    "start": 140,
-                    "end": 142
+                    "start": 143,
+                    "end": 145
                   },
-                  "start": 137,
-                  "end": 142
+                  "start": 140,
+                  "end": 145
                 },
                 "typeArguments": null,
-                "start": 137,
-                "end": 142
+                "start": 140,
+                "end": 145
               },
-              "start": 136,
-              "end": 142
+              "start": 139,
+              "end": 145
             },
-            "start": 134,
-            "end": 142
+            "start": 137,
+            "end": 145
           },
           "init": {
             "type": "NewExpression",
@@ -284,8 +284,8 @@ __ESTREE_TEST__:PASS:
                 "name": "EM",
                 "optional": false,
                 "typeAnnotation": null,
-                "start": 149,
-                "end": 151
+                "start": 152,
+                "end": 154
               },
               "property": {
                 "type": "Identifier",
@@ -293,27 +293,27 @@ __ESTREE_TEST__:PASS:
                 "name": "EC",
                 "optional": false,
                 "typeAnnotation": null,
-                "start": 152,
-                "end": 154
+                "start": 155,
+                "end": 157
               },
               "optional": false,
               "computed": false,
-              "start": 149,
-              "end": 154
+              "start": 152,
+              "end": 157
             },
             "typeArguments": null,
             "arguments": [],
-            "start": 145,
-            "end": 156
+            "start": 148,
+            "end": 159
           },
           "definite": false,
-          "start": 134,
-          "end": 156
+          "start": 137,
+          "end": 159
         }
       ],
       "declare": false,
-      "start": 130,
-      "end": 157
+      "start": 133,
+      "end": 160
     },
     {
       "type": "ExpressionStatement",
@@ -326,8 +326,8 @@ __ESTREE_TEST__:PASS:
           "name": "x",
           "optional": false,
           "typeAnnotation": null,
-          "start": 159,
-          "end": 160
+          "start": 162,
+          "end": 163
         },
         "right": {
           "type": "CallExpression",
@@ -339,8 +339,8 @@ __ESTREE_TEST__:PASS:
               "name": "ec",
               "optional": false,
               "typeAnnotation": null,
-              "start": 163,
-              "end": 165
+              "start": 166,
+              "end": 168
             },
             "property": {
               "type": "Identifier",
@@ -348,31 +348,31 @@ __ESTREE_TEST__:PASS:
               "name": "getPosition",
               "optional": false,
               "typeAnnotation": null,
-              "start": 166,
-              "end": 177
+              "start": 169,
+              "end": 180
             },
             "optional": false,
             "computed": false,
-            "start": 163,
-            "end": 177
+            "start": 166,
+            "end": 180
           },
           "typeArguments": null,
           "arguments": [],
           "optional": false,
-          "start": 163,
-          "end": 179
+          "start": 166,
+          "end": 182
         },
-        "start": 159,
-        "end": 179
+        "start": 162,
+        "end": 182
       },
       "directive": null,
-      "start": 159,
-      "end": 180
+      "start": 162,
+      "end": 183
     }
   ],
   "sourceType": "script",
   "hashbang": null,
   "start": 0,
-  "end": 180
+  "end": 183
 }
 ```

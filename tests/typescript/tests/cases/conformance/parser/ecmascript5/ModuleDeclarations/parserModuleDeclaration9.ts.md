@@ -15,8 +15,8 @@ __ESTREE_TEST__:PASS:
             "name": "a",
             "optional": false,
             "typeAnnotation": null,
-            "start": 7,
-            "end": 8
+            "start": 10,
+            "end": 11
           },
           "right": {
             "type": "Identifier",
@@ -24,11 +24,11 @@ __ESTREE_TEST__:PASS:
             "name": "number",
             "optional": false,
             "typeAnnotation": null,
-            "start": 9,
-            "end": 15
+            "start": 12,
+            "end": 18
           },
-          "start": 7,
-          "end": 15
+          "start": 10,
+          "end": 18
         },
         "right": {
           "type": "Identifier",
@@ -36,28 +36,28 @@ __ESTREE_TEST__:PASS:
           "name": "b",
           "optional": false,
           "typeAnnotation": null,
-          "start": 16,
-          "end": 17
+          "start": 19,
+          "end": 20
         },
-        "start": 7,
-        "end": 17
+        "start": 10,
+        "end": 20
       },
       "body": {
         "type": "TSModuleBlock",
         "body": [],
-        "start": 18,
-        "end": 21
+        "start": 21,
+        "end": 24
       },
-      "kind": "module",
+      "kind": "namespace",
       "declare": false,
       "global": false,
       "start": 0,
-      "end": 21
+      "end": 24
     }
   ],
   "sourceType": "script",
   "hashbang": null,
   "start": 0,
-  "end": 21
+  "end": 24
 }
 ```

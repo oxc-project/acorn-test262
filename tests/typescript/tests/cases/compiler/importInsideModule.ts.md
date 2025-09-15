@@ -65,8 +65,8 @@ __ESTREE_TEST__:PASS:
           "name": "myModule",
           "optional": false,
           "typeAnnotation": null,
-          "start": 14,
-          "end": 22
+          "start": 17,
+          "end": 25
         },
         "body": {
           "type": "TSModuleBlock",
@@ -79,8 +79,8 @@ __ESTREE_TEST__:PASS:
                 "name": "foo",
                 "optional": false,
                 "typeAnnotation": null,
-                "start": 36,
-                "end": 39
+                "start": 39,
+                "end": 42
               },
               "moduleReference": {
                 "type": "TSExternalModuleReference",
@@ -88,15 +88,15 @@ __ESTREE_TEST__:PASS:
                   "type": "Literal",
                   "value": "importInsideModule_file1",
                   "raw": "\"importInsideModule_file1\"",
-                  "start": 50,
-                  "end": 76
+                  "start": 53,
+                  "end": 79
                 },
-                "start": 42,
-                "end": 77
+                "start": 45,
+                "end": 80
               },
               "importKind": "value",
-              "start": 29,
-              "end": 78
+              "start": 32,
+              "end": 81
             },
             {
               "type": "VariableDeclaration",
@@ -110,8 +110,8 @@ __ESTREE_TEST__:PASS:
                     "name": "a",
                     "optional": false,
                     "typeAnnotation": null,
-                    "start": 87,
-                    "end": 88
+                    "start": 90,
+                    "end": 91
                   },
                   "init": {
                     "type": "MemberExpression",
@@ -121,8 +121,8 @@ __ESTREE_TEST__:PASS:
                       "name": "foo",
                       "optional": false,
                       "typeAnnotation": null,
-                      "start": 91,
-                      "end": 94
+                      "start": 94,
+                      "end": 97
                     },
                     "property": {
                       "type": "Identifier",
@@ -130,44 +130,44 @@ __ESTREE_TEST__:PASS:
                       "name": "x",
                       "optional": false,
                       "typeAnnotation": null,
-                      "start": 95,
-                      "end": 96
+                      "start": 98,
+                      "end": 99
                     },
                     "optional": false,
                     "computed": false,
-                    "start": 91,
-                    "end": 96
+                    "start": 94,
+                    "end": 99
                   },
                   "definite": false,
-                  "start": 87,
-                  "end": 96
+                  "start": 90,
+                  "end": 99
                 }
               ],
               "declare": false,
-              "start": 83,
-              "end": 97
+              "start": 86,
+              "end": 100
             }
           ],
-          "start": 23,
-          "end": 99
+          "start": 26,
+          "end": 102
         },
-        "kind": "module",
+        "kind": "namespace",
         "declare": false,
         "global": false,
         "start": 7,
-        "end": 99
+        "end": 102
       },
       "specifiers": [],
       "source": null,
       "exportKind": "value",
       "attributes": [],
       "start": 0,
-      "end": 99
+      "end": 102
     }
   ],
   "sourceType": "module",
   "hashbang": null,
   "start": 0,
-  "end": 99
+  "end": 102
 }
 ```

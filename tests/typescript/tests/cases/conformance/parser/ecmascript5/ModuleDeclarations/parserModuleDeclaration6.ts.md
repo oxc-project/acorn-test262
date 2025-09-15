@@ -11,25 +11,25 @@ __ESTREE_TEST__:PASS:
         "name": "number",
         "optional": false,
         "typeAnnotation": null,
-        "start": 7,
-        "end": 13
+        "start": 10,
+        "end": 16
       },
       "body": {
         "type": "TSModuleBlock",
         "body": [],
-        "start": 14,
-        "end": 17
+        "start": 17,
+        "end": 20
       },
-      "kind": "module",
+      "kind": "namespace",
       "declare": false,
       "global": false,
       "start": 0,
-      "end": 17
+      "end": 20
     }
   ],
   "sourceType": "script",
   "hashbang": null,
   "start": 0,
-  "end": 17
+  "end": 20
 }
 ```

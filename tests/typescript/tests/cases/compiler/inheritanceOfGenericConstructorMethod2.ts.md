@@ -11,8 +11,8 @@ __ESTREE_TEST__:PASS:
         "name": "M",
         "optional": false,
         "typeAnnotation": null,
-        "start": 7,
-        "end": 8
+        "start": 10,
+        "end": 11
       },
       "body": {
         "type": "TSModuleBlock",
@@ -28,8 +28,8 @@ __ESTREE_TEST__:PASS:
                 "name": "C1",
                 "optional": false,
                 "typeAnnotation": null,
-                "start": 27,
-                "end": 29
+                "start": 30,
+                "end": 32
               },
               "typeParameters": null,
               "superClass": null,
@@ -38,20 +38,20 @@ __ESTREE_TEST__:PASS:
               "body": {
                 "type": "ClassBody",
                 "body": [],
-                "start": 30,
-                "end": 33
+                "start": 33,
+                "end": 36
               },
               "abstract": false,
               "declare": false,
-              "start": 21,
-              "end": 33
+              "start": 24,
+              "end": 36
             },
             "specifiers": [],
             "source": null,
             "exportKind": "value",
             "attributes": [],
-            "start": 14,
-            "end": 33
+            "start": 17,
+            "end": 36
           },
           {
             "type": "ExportNamedDeclaration",
@@ -64,8 +64,8 @@ __ESTREE_TEST__:PASS:
                 "name": "C2",
                 "optional": false,
                 "typeAnnotation": null,
-                "start": 50,
-                "end": 52
+                "start": 53,
+                "end": 55
               },
               "typeParameters": {
                 "type": "TSTypeParameterDeclaration",
@@ -78,20 +78,20 @@ __ESTREE_TEST__:PASS:
                       "name": "T",
                       "optional": false,
                       "typeAnnotation": null,
-                      "start": 53,
-                      "end": 54
+                      "start": 56,
+                      "end": 57
                     },
                     "constraint": null,
                     "default": null,
                     "in": false,
                     "out": false,
                     "const": false,
-                    "start": 53,
-                    "end": 54
+                    "start": 56,
+                    "end": 57
                   }
                 ],
-                "start": 52,
-                "end": 55
+                "start": 55,
+                "end": 58
               },
               "superClass": null,
               "superTypeArguments": null,
@@ -99,30 +99,30 @@ __ESTREE_TEST__:PASS:
               "body": {
                 "type": "ClassBody",
                 "body": [],
-                "start": 56,
-                "end": 59
+                "start": 59,
+                "end": 62
               },
               "abstract": false,
               "declare": false,
-              "start": 44,
-              "end": 59
+              "start": 47,
+              "end": 62
             },
             "specifiers": [],
             "source": null,
             "exportKind": "value",
             "attributes": [],
-            "start": 37,
-            "end": 59
+            "start": 40,
+            "end": 62
           }
         ],
-        "start": 9,
-        "end": 61
+        "start": 12,
+        "end": 64
       },
-      "kind": "module",
+      "kind": "namespace",
       "declare": false,
       "global": false,
       "start": 0,
-      "end": 61
+      "end": 64
     },
     {
       "type": "TSModuleDeclaration",
@@ -132,8 +132,8 @@ __ESTREE_TEST__:PASS:
         "name": "N",
         "optional": false,
         "typeAnnotation": null,
-        "start": 69,
-        "end": 70
+        "start": 75,
+        "end": 76
       },
       "body": {
         "type": "TSModuleBlock",
@@ -149,8 +149,8 @@ __ESTREE_TEST__:PASS:
                 "name": "D1",
                 "optional": false,
                 "typeAnnotation": null,
-                "start": 89,
-                "end": 91
+                "start": 95,
+                "end": 97
               },
               "typeParameters": null,
               "superClass": {
@@ -161,8 +161,8 @@ __ESTREE_TEST__:PASS:
                   "name": "M",
                   "optional": false,
                   "typeAnnotation": null,
-                  "start": 100,
-                  "end": 101
+                  "start": 106,
+                  "end": 107
                 },
                 "property": {
                   "type": "Identifier",
@@ -170,33 +170,33 @@ __ESTREE_TEST__:PASS:
                   "name": "C1",
                   "optional": false,
                   "typeAnnotation": null,
-                  "start": 102,
-                  "end": 104
+                  "start": 108,
+                  "end": 110
                 },
                 "optional": false,
                 "computed": false,
-                "start": 100,
-                "end": 104
+                "start": 106,
+                "end": 110
               },
               "superTypeArguments": null,
               "implements": [],
               "body": {
                 "type": "ClassBody",
                 "body": [],
-                "start": 105,
-                "end": 108
+                "start": 111,
+                "end": 114
               },
               "abstract": false,
               "declare": false,
-              "start": 83,
-              "end": 108
+              "start": 89,
+              "end": 114
             },
             "specifiers": [],
             "source": null,
             "exportKind": "value",
             "attributes": [],
-            "start": 76,
-            "end": 108
+            "start": 82,
+            "end": 114
           },
           {
             "type": "ExportNamedDeclaration",
@@ -209,8 +209,8 @@ __ESTREE_TEST__:PASS:
                 "name": "D2",
                 "optional": false,
                 "typeAnnotation": null,
-                "start": 125,
-                "end": 127
+                "start": 131,
+                "end": 133
               },
               "typeParameters": {
                 "type": "TSTypeParameterDeclaration",
@@ -223,20 +223,20 @@ __ESTREE_TEST__:PASS:
                       "name": "T",
                       "optional": false,
                       "typeAnnotation": null,
-                      "start": 128,
-                      "end": 129
+                      "start": 134,
+                      "end": 135
                     },
                     "constraint": null,
                     "default": null,
                     "in": false,
                     "out": false,
                     "const": false,
-                    "start": 128,
-                    "end": 129
+                    "start": 134,
+                    "end": 135
                   }
                 ],
-                "start": 127,
-                "end": 130
+                "start": 133,
+                "end": 136
               },
               "superClass": {
                 "type": "MemberExpression",
@@ -246,8 +246,8 @@ __ESTREE_TEST__:PASS:
                   "name": "M",
                   "optional": false,
                   "typeAnnotation": null,
-                  "start": 139,
-                  "end": 140
+                  "start": 145,
+                  "end": 146
                 },
                 "property": {
                   "type": "Identifier",
@@ -255,13 +255,13 @@ __ESTREE_TEST__:PASS:
                   "name": "C2",
                   "optional": false,
                   "typeAnnotation": null,
-                  "start": 141,
-                  "end": 143
+                  "start": 147,
+                  "end": 149
                 },
                 "optional": false,
                 "computed": false,
-                "start": 139,
-                "end": 143
+                "start": 145,
+                "end": 149
               },
               "superTypeArguments": {
                 "type": "TSTypeParameterInstantiation",
@@ -274,45 +274,45 @@ __ESTREE_TEST__:PASS:
                       "name": "T",
                       "optional": false,
                       "typeAnnotation": null,
-                      "start": 144,
-                      "end": 145
+                      "start": 150,
+                      "end": 151
                     },
                     "typeArguments": null,
-                    "start": 144,
-                    "end": 145
+                    "start": 150,
+                    "end": 151
                   }
                 ],
-                "start": 143,
-                "end": 146
+                "start": 149,
+                "end": 152
               },
               "implements": [],
               "body": {
                 "type": "ClassBody",
                 "body": [],
-                "start": 147,
-                "end": 150
+                "start": 153,
+                "end": 156
               },
               "abstract": false,
               "declare": false,
-              "start": 119,
-              "end": 150
+              "start": 125,
+              "end": 156
             },
             "specifiers": [],
             "source": null,
             "exportKind": "value",
             "attributes": [],
-            "start": 112,
-            "end": 150
+            "start": 118,
+            "end": 156
           }
         ],
-        "start": 71,
-        "end": 152
+        "start": 77,
+        "end": 158
       },
-      "kind": "module",
+      "kind": "namespace",
       "declare": false,
       "global": false,
-      "start": 62,
-      "end": 152
+      "start": 65,
+      "end": 158
     },
     {
       "type": "VariableDeclaration",
@@ -326,8 +326,8 @@ __ESTREE_TEST__:PASS:
             "name": "c",
             "optional": false,
             "typeAnnotation": null,
-            "start": 158,
-            "end": 159
+            "start": 164,
+            "end": 165
           },
           "init": {
             "type": "NewExpression",
@@ -339,8 +339,8 @@ __ESTREE_TEST__:PASS:
                 "name": "M",
                 "optional": false,
                 "typeAnnotation": null,
-                "start": 166,
-                "end": 167
+                "start": 172,
+                "end": 173
               },
               "property": {
                 "type": "Identifier",
@@ -348,38 +348,38 @@ __ESTREE_TEST__:PASS:
                 "name": "C2",
                 "optional": false,
                 "typeAnnotation": null,
-                "start": 168,
-                "end": 170
+                "start": 174,
+                "end": 176
               },
               "optional": false,
               "computed": false,
-              "start": 166,
-              "end": 170
+              "start": 172,
+              "end": 176
             },
             "typeArguments": {
               "type": "TSTypeParameterInstantiation",
               "params": [
                 {
                   "type": "TSNumberKeyword",
-                  "start": 171,
-                  "end": 177
+                  "start": 177,
+                  "end": 183
                 }
               ],
-              "start": 170,
-              "end": 178
+              "start": 176,
+              "end": 184
             },
             "arguments": [],
-            "start": 162,
-            "end": 180
+            "start": 168,
+            "end": 186
           },
           "definite": false,
-          "start": 158,
-          "end": 180
+          "start": 164,
+          "end": 186
         }
       ],
       "declare": false,
-      "start": 154,
-      "end": 181
+      "start": 160,
+      "end": 187
     },
     {
       "type": "VariableDeclaration",
@@ -393,8 +393,8 @@ __ESTREE_TEST__:PASS:
             "name": "n",
             "optional": false,
             "typeAnnotation": null,
-            "start": 198,
-            "end": 199
+            "start": 204,
+            "end": 205
           },
           "init": {
             "type": "NewExpression",
@@ -406,8 +406,8 @@ __ESTREE_TEST__:PASS:
                 "name": "N",
                 "optional": false,
                 "typeAnnotation": null,
-                "start": 206,
-                "end": 207
+                "start": 212,
+                "end": 213
               },
               "property": {
                 "type": "Identifier",
@@ -415,27 +415,27 @@ __ESTREE_TEST__:PASS:
                 "name": "D1",
                 "optional": false,
                 "typeAnnotation": null,
-                "start": 208,
-                "end": 210
+                "start": 214,
+                "end": 216
               },
               "optional": false,
               "computed": false,
-              "start": 206,
-              "end": 210
+              "start": 212,
+              "end": 216
             },
             "typeArguments": null,
             "arguments": [],
-            "start": 202,
-            "end": 212
+            "start": 208,
+            "end": 218
           },
           "definite": false,
-          "start": 198,
-          "end": 212
+          "start": 204,
+          "end": 218
         }
       ],
       "declare": false,
-      "start": 194,
-      "end": 213
+      "start": 200,
+      "end": 219
     },
     {
       "type": "VariableDeclaration",
@@ -449,8 +449,8 @@ __ESTREE_TEST__:PASS:
             "name": "n2",
             "optional": false,
             "typeAnnotation": null,
-            "start": 230,
-            "end": 232
+            "start": 236,
+            "end": 238
           },
           "init": {
             "type": "NewExpression",
@@ -462,8 +462,8 @@ __ESTREE_TEST__:PASS:
                 "name": "N",
                 "optional": false,
                 "typeAnnotation": null,
-                "start": 239,
-                "end": 240
+                "start": 245,
+                "end": 246
               },
               "property": {
                 "type": "Identifier",
@@ -471,38 +471,38 @@ __ESTREE_TEST__:PASS:
                 "name": "D2",
                 "optional": false,
                 "typeAnnotation": null,
-                "start": 241,
-                "end": 243
+                "start": 247,
+                "end": 249
               },
               "optional": false,
               "computed": false,
-              "start": 239,
-              "end": 243
+              "start": 245,
+              "end": 249
             },
             "typeArguments": {
               "type": "TSTypeParameterInstantiation",
               "params": [
                 {
                   "type": "TSNumberKeyword",
-                  "start": 244,
-                  "end": 250
+                  "start": 250,
+                  "end": 256
                 }
               ],
-              "start": 243,
-              "end": 251
+              "start": 249,
+              "end": 257
             },
             "arguments": [],
-            "start": 235,
-            "end": 253
+            "start": 241,
+            "end": 259
           },
           "definite": false,
-          "start": 230,
-          "end": 253
+          "start": 236,
+          "end": 259
         }
       ],
       "declare": false,
-      "start": 226,
-      "end": 254
+      "start": 232,
+      "end": 260
     },
     {
       "type": "VariableDeclaration",
@@ -516,8 +516,8 @@ __ESTREE_TEST__:PASS:
             "name": "n3",
             "optional": false,
             "typeAnnotation": null,
-            "start": 268,
-            "end": 270
+            "start": 274,
+            "end": 276
           },
           "init": {
             "type": "NewExpression",
@@ -529,8 +529,8 @@ __ESTREE_TEST__:PASS:
                 "name": "N",
                 "optional": false,
                 "typeAnnotation": null,
-                "start": 277,
-                "end": 278
+                "start": 283,
+                "end": 284
               },
               "property": {
                 "type": "Identifier",
@@ -538,32 +538,32 @@ __ESTREE_TEST__:PASS:
                 "name": "D2",
                 "optional": false,
                 "typeAnnotation": null,
-                "start": 279,
-                "end": 281
+                "start": 285,
+                "end": 287
               },
               "optional": false,
               "computed": false,
-              "start": 277,
-              "end": 281
+              "start": 283,
+              "end": 287
             },
             "typeArguments": null,
             "arguments": [],
-            "start": 273,
-            "end": 283
+            "start": 279,
+            "end": 289
           },
           "definite": false,
-          "start": 268,
-          "end": 283
+          "start": 274,
+          "end": 289
         }
       ],
       "declare": false,
-      "start": 264,
-      "end": 284
+      "start": 270,
+      "end": 290
     }
   ],
   "sourceType": "script",
   "hashbang": null,
   "start": 0,
-  "end": 305
+  "end": 311
 }
 ```

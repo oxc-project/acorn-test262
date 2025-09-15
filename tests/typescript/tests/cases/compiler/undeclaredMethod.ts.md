@@ -11,8 +11,8 @@ __ESTREE_TEST__:PASS:
         "name": "M",
         "optional": false,
         "typeAnnotation": null,
-        "start": 7,
-        "end": 8
+        "start": 10,
+        "end": 11
       },
       "body": {
         "type": "TSModuleBlock",
@@ -28,8 +28,8 @@ __ESTREE_TEST__:PASS:
                 "name": "C",
                 "optional": false,
                 "typeAnnotation": null,
-                "start": 28,
-                "end": 29
+                "start": 31,
+                "end": 32
               },
               "typeParameters": null,
               "superClass": null,
@@ -47,8 +47,8 @@ __ESTREE_TEST__:PASS:
                       "name": "salt",
                       "optional": false,
                       "typeAnnotation": null,
-                      "start": 47,
-                      "end": 51
+                      "start": 50,
+                      "end": 54
                     },
                     "value": {
                       "type": "FunctionExpression",
@@ -62,12 +62,12 @@ __ESTREE_TEST__:PASS:
                       "body": {
                         "type": "BlockStatement",
                         "body": [],
-                        "start": 54,
-                        "end": 56
+                        "start": 57,
+                        "end": 59
                       },
                       "expression": false,
-                      "start": 51,
-                      "end": 56
+                      "start": 54,
+                      "end": 59
                     },
                     "kind": "method",
                     "computed": false,
@@ -75,34 +75,34 @@ __ESTREE_TEST__:PASS:
                     "override": false,
                     "optional": false,
                     "accessibility": "public",
-                    "start": 40,
-                    "end": 56
+                    "start": 43,
+                    "end": 59
                   }
                 ],
-                "start": 30,
-                "end": 62
+                "start": 33,
+                "end": 65
               },
               "abstract": false,
               "declare": false,
-              "start": 22,
-              "end": 62
+              "start": 25,
+              "end": 65
             },
             "specifiers": [],
             "source": null,
             "exportKind": "value",
             "attributes": [],
-            "start": 15,
-            "end": 62
+            "start": 18,
+            "end": 65
           }
         ],
-        "start": 9,
-        "end": 64
+        "start": 12,
+        "end": 67
       },
-      "kind": "module",
+      "kind": "namespace",
       "declare": false,
       "global": false,
       "start": 0,
-      "end": 64
+      "end": 67
     },
     {
       "type": "VariableDeclaration",
@@ -127,8 +127,8 @@ __ESTREE_TEST__:PASS:
                     "name": "M",
                     "optional": false,
                     "typeAnnotation": null,
-                    "start": 72,
-                    "end": 73
+                    "start": 75,
+                    "end": 76
                   },
                   "right": {
                     "type": "Identifier",
@@ -136,21 +136,21 @@ __ESTREE_TEST__:PASS:
                     "name": "C",
                     "optional": false,
                     "typeAnnotation": null,
-                    "start": 74,
-                    "end": 75
+                    "start": 77,
+                    "end": 78
                   },
-                  "start": 72,
-                  "end": 75
+                  "start": 75,
+                  "end": 78
                 },
                 "typeArguments": null,
-                "start": 72,
-                "end": 75
+                "start": 75,
+                "end": 78
               },
-              "start": 71,
-              "end": 75
+              "start": 74,
+              "end": 78
             },
-            "start": 70,
-            "end": 75
+            "start": 73,
+            "end": 78
           },
           "init": {
             "type": "NewExpression",
@@ -162,8 +162,8 @@ __ESTREE_TEST__:PASS:
                 "name": "M",
                 "optional": false,
                 "typeAnnotation": null,
-                "start": 82,
-                "end": 83
+                "start": 85,
+                "end": 86
               },
               "property": {
                 "type": "Identifier",
@@ -171,27 +171,27 @@ __ESTREE_TEST__:PASS:
                 "name": "C",
                 "optional": false,
                 "typeAnnotation": null,
-                "start": 84,
-                "end": 85
+                "start": 87,
+                "end": 88
               },
               "optional": false,
               "computed": false,
-              "start": 82,
-              "end": 85
+              "start": 85,
+              "end": 88
             },
             "typeArguments": null,
             "arguments": [],
-            "start": 78,
-            "end": 87
+            "start": 81,
+            "end": 90
           },
           "definite": false,
-          "start": 70,
-          "end": 87
+          "start": 73,
+          "end": 90
         }
       ],
       "declare": false,
-      "start": 66,
-      "end": 88
+      "start": 69,
+      "end": 91
     },
     {
       "type": "ExpressionStatement",
@@ -205,8 +205,8 @@ __ESTREE_TEST__:PASS:
             "name": "c",
             "optional": false,
             "typeAnnotation": null,
-            "start": 90,
-            "end": 91
+            "start": 93,
+            "end": 94
           },
           "property": {
             "type": "Identifier",
@@ -214,23 +214,23 @@ __ESTREE_TEST__:PASS:
             "name": "salt",
             "optional": false,
             "typeAnnotation": null,
-            "start": 92,
-            "end": 96
+            "start": 95,
+            "end": 99
           },
           "optional": false,
           "computed": false,
-          "start": 90,
-          "end": 96
+          "start": 93,
+          "end": 99
         },
         "typeArguments": null,
         "arguments": [],
         "optional": false,
-        "start": 90,
-        "end": 98
+        "start": 93,
+        "end": 101
       },
       "directive": null,
-      "start": 90,
-      "end": 99
+      "start": 93,
+      "end": 102
     },
     {
       "type": "ExpressionStatement",
@@ -244,8 +244,8 @@ __ESTREE_TEST__:PASS:
             "name": "c",
             "optional": false,
             "typeAnnotation": null,
-            "start": 108,
-            "end": 109
+            "start": 111,
+            "end": 112
           },
           "property": {
             "type": "Identifier",
@@ -253,28 +253,28 @@ __ESTREE_TEST__:PASS:
             "name": "saltbar",
             "optional": false,
             "typeAnnotation": null,
-            "start": 110,
-            "end": 117
+            "start": 113,
+            "end": 120
           },
           "optional": false,
           "computed": false,
-          "start": 108,
-          "end": 117
+          "start": 111,
+          "end": 120
         },
         "typeArguments": null,
         "arguments": [],
         "optional": false,
-        "start": 108,
-        "end": 119
+        "start": 111,
+        "end": 122
       },
       "directive": null,
-      "start": 108,
-      "end": 120
+      "start": 111,
+      "end": 123
     }
   ],
   "sourceType": "script",
   "hashbang": null,
   "start": 0,
-  "end": 130
+  "end": 133
 }
 ```

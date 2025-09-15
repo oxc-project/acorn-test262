@@ -530,20 +530,20 @@ __ESTREE_TEST__:PASS:
         "name": "e6",
         "optional": false,
         "typeAnnotation": null,
-        "start": 449,
-        "end": 451
+        "start": 452,
+        "end": 454
       },
       "body": {
         "type": "TSModuleBlock",
         "body": [],
-        "start": 452,
-        "end": 455
+        "start": 455,
+        "end": 458
       },
-      "kind": "module",
+      "kind": "namespace",
       "declare": false,
       "global": false,
       "start": 442,
-      "end": 455
+      "end": 458
     },
     {
       "type": "TSEnumDeclaration",
@@ -553,8 +553,8 @@ __ESTREE_TEST__:PASS:
         "name": "e6a",
         "optional": false,
         "typeAnnotation": null,
-        "start": 468,
-        "end": 471
+        "start": 471,
+        "end": 474
       },
       "body": {
         "type": "TSEnumBody",
@@ -567,22 +567,22 @@ __ESTREE_TEST__:PASS:
               "name": "One",
               "optional": false,
               "typeAnnotation": null,
-              "start": 474,
-              "end": 477
+              "start": 477,
+              "end": 480
             },
             "initializer": null,
             "computed": false,
-            "start": 474,
-            "end": 477
+            "start": 477,
+            "end": 480
           }
         ],
-        "start": 472,
-        "end": 479
+        "start": 475,
+        "end": 482
       },
       "const": false,
       "declare": false,
-      "start": 463,
-      "end": 479
+      "start": 466,
+      "end": 482
     },
     {
       "type": "TSModuleDeclaration",
@@ -592,8 +592,8 @@ __ESTREE_TEST__:PASS:
         "name": "e6a",
         "optional": false,
         "typeAnnotation": null,
-        "start": 487,
-        "end": 490
+        "start": 493,
+        "end": 496
       },
       "body": {
         "type": "TSModuleBlock",
@@ -610,34 +610,34 @@ __ESTREE_TEST__:PASS:
                   "name": "y",
                   "optional": false,
                   "typeAnnotation": null,
-                  "start": 497,
-                  "end": 498
+                  "start": 503,
+                  "end": 504
                 },
                 "init": {
                   "type": "Literal",
                   "value": 2,
                   "raw": "2",
-                  "start": 501,
-                  "end": 502
+                  "start": 507,
+                  "end": 508
                 },
                 "definite": false,
-                "start": 497,
-                "end": 502
+                "start": 503,
+                "end": 508
               }
             ],
             "declare": false,
-            "start": 493,
-            "end": 503
+            "start": 499,
+            "end": 509
           }
         ],
-        "start": 491,
-        "end": 505
+        "start": 497,
+        "end": 511
       },
-      "kind": "module",
+      "kind": "namespace",
       "declare": false,
       "global": false,
-      "start": 480,
-      "end": 505
+      "start": 483,
+      "end": 511
     },
     {
       "type": "TSEnumDeclaration",
@@ -647,8 +647,8 @@ __ESTREE_TEST__:PASS:
         "name": "e6b",
         "optional": false,
         "typeAnnotation": null,
-        "start": 531,
-        "end": 534
+        "start": 537,
+        "end": 540
       },
       "body": {
         "type": "TSEnumBody",
@@ -661,22 +661,22 @@ __ESTREE_TEST__:PASS:
               "name": "One",
               "optional": false,
               "typeAnnotation": null,
-              "start": 537,
-              "end": 540
+              "start": 543,
+              "end": 546
             },
             "initializer": null,
             "computed": false,
-            "start": 537,
-            "end": 540
+            "start": 543,
+            "end": 546
           }
         ],
-        "start": 535,
-        "end": 542
+        "start": 541,
+        "end": 548
       },
       "const": false,
       "declare": false,
-      "start": 526,
-      "end": 542
+      "start": 532,
+      "end": 548
     },
     {
       "type": "TSModuleDeclaration",
@@ -686,8 +686,8 @@ __ESTREE_TEST__:PASS:
         "name": "e6b",
         "optional": false,
         "typeAnnotation": null,
-        "start": 550,
-        "end": 553
+        "start": 559,
+        "end": 562
       },
       "body": {
         "type": "TSModuleBlock",
@@ -706,46 +706,46 @@ __ESTREE_TEST__:PASS:
                     "name": "y",
                     "optional": false,
                     "typeAnnotation": null,
-                    "start": 567,
-                    "end": 568
+                    "start": 576,
+                    "end": 577
                   },
                   "init": {
                     "type": "Literal",
                     "value": 2,
                     "raw": "2",
-                    "start": 571,
-                    "end": 572
+                    "start": 580,
+                    "end": 581
                   },
                   "definite": false,
-                  "start": 567,
-                  "end": 572
+                  "start": 576,
+                  "end": 581
                 }
               ],
               "declare": false,
-              "start": 563,
-              "end": 573
+              "start": 572,
+              "end": 582
             },
             "specifiers": [],
             "source": null,
             "exportKind": "value",
             "attributes": [],
-            "start": 556,
-            "end": 573
+            "start": 565,
+            "end": 582
           }
         ],
-        "start": 554,
-        "end": 575
+        "start": 563,
+        "end": 584
       },
-      "kind": "module",
+      "kind": "namespace",
       "declare": false,
       "global": false,
-      "start": 543,
-      "end": 575
+      "start": 549,
+      "end": 584
     }
   ],
   "sourceType": "script",
   "hashbang": null,
   "start": 17,
-  "end": 708
+  "end": 717
 }
 ```

@@ -222,8 +222,8 @@ __ESTREE_TEST__:PASS:
               "name": "X",
               "optional": false,
               "typeAnnotation": null,
-              "start": 207,
-              "end": 208
+              "start": 210,
+              "end": 211
             },
             "body": {
               "type": "TSModuleBlock",
@@ -240,8 +240,8 @@ __ESTREE_TEST__:PASS:
                         "name": "inner",
                         "optional": false,
                         "typeAnnotation": null,
-                        "start": 224,
-                        "end": 229
+                        "start": 227,
+                        "end": 232
                       },
                       "init": {
                         "type": "Identifier",
@@ -249,42 +249,42 @@ __ESTREE_TEST__:PASS:
                         "name": "outer",
                         "optional": false,
                         "typeAnnotation": null,
-                        "start": 232,
-                        "end": 237
+                        "start": 235,
+                        "end": 240
                       },
                       "definite": false,
-                      "start": 224,
-                      "end": 237
+                      "start": 227,
+                      "end": 240
                     }
                   ],
                   "declare": false,
-                  "start": 220,
-                  "end": 238
+                  "start": 223,
+                  "end": 241
                 }
               ],
-              "start": 209,
-              "end": 275
+              "start": 212,
+              "end": 278
             },
-            "kind": "module",
+            "kind": "namespace",
             "declare": false,
             "global": false,
             "start": 200,
-            "end": 275
+            "end": 278
           }
         ],
         "start": 10,
-        "end": 278
+        "end": 281
       },
       "kind": "module",
       "declare": false,
       "global": false,
       "start": 0,
-      "end": 278
+      "end": 281
     }
   ],
   "sourceType": "script",
   "hashbang": null,
   "start": 0,
-  "end": 279
+  "end": 282
 }
 ```

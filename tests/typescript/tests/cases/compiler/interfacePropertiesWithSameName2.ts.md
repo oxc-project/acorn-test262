@@ -303,8 +303,8 @@ __ESTREE_TEST__:PASS:
         "name": "MoversAndShakers",
         "optional": false,
         "typeAnnotation": null,
-        "start": 241,
-        "end": 257
+        "start": 244,
+        "end": 260
       },
       "body": {
         "type": "TSModuleBlock",
@@ -320,8 +320,8 @@ __ESTREE_TEST__:PASS:
                 "name": "Mover",
                 "optional": false,
                 "typeAnnotation": null,
-                "start": 277,
-                "end": 282
+                "start": 280,
+                "end": 285
               },
               "typeParameters": null,
               "superClass": null,
@@ -339,8 +339,8 @@ __ESTREE_TEST__:PASS:
                       "name": "move",
                       "optional": false,
                       "typeAnnotation": null,
-                      "start": 293,
-                      "end": 297
+                      "start": 296,
+                      "end": 300
                     },
                     "value": {
                       "type": "TSEmptyBodyFunctionExpression",
@@ -354,16 +354,16 @@ __ESTREE_TEST__:PASS:
                         "type": "TSTypeAnnotation",
                         "typeAnnotation": {
                           "type": "TSVoidKeyword",
-                          "start": 301,
-                          "end": 305
+                          "start": 304,
+                          "end": 308
                         },
-                        "start": 299,
-                        "end": 305
+                        "start": 302,
+                        "end": 308
                       },
                       "body": null,
                       "expression": false,
-                      "start": 297,
-                      "end": 306
+                      "start": 300,
+                      "end": 309
                     },
                     "kind": "method",
                     "computed": false,
@@ -371,8 +371,8 @@ __ESTREE_TEST__:PASS:
                     "override": false,
                     "optional": false,
                     "accessibility": null,
-                    "start": 293,
-                    "end": 306
+                    "start": 296,
+                    "end": 309
                   },
                   {
                     "type": "MethodDefinition",
@@ -383,8 +383,8 @@ __ESTREE_TEST__:PASS:
                       "name": "getStatus",
                       "optional": false,
                       "typeAnnotation": null,
-                      "start": 315,
-                      "end": 324
+                      "start": 318,
+                      "end": 327
                     },
                     "value": {
                       "type": "TSEmptyBodyFunctionExpression",
@@ -410,35 +410,35 @@ __ESTREE_TEST__:PASS:
                                 "name": "speed",
                                 "optional": false,
                                 "typeAnnotation": null,
-                                "start": 330,
-                                "end": 335
+                                "start": 333,
+                                "end": 338
                               },
                               "typeAnnotation": {
                                 "type": "TSTypeAnnotation",
                                 "typeAnnotation": {
                                   "type": "TSNumberKeyword",
-                                  "start": 337,
-                                  "end": 343
+                                  "start": 340,
+                                  "end": 346
                                 },
-                                "start": 335,
-                                "end": 343
+                                "start": 338,
+                                "end": 346
                               },
                               "accessibility": null,
                               "static": false,
-                              "start": 330,
-                              "end": 344
+                              "start": 333,
+                              "end": 347
                             }
                           ],
-                          "start": 328,
-                          "end": 346
+                          "start": 331,
+                          "end": 349
                         },
-                        "start": 326,
-                        "end": 346
+                        "start": 329,
+                        "end": 349
                       },
                       "body": null,
                       "expression": false,
-                      "start": 324,
-                      "end": 347
+                      "start": 327,
+                      "end": 350
                     },
                     "kind": "method",
                     "computed": false,
@@ -446,24 +446,24 @@ __ESTREE_TEST__:PASS:
                     "override": false,
                     "optional": false,
                     "accessibility": null,
-                    "start": 315,
-                    "end": 347
+                    "start": 318,
+                    "end": 350
                   }
                 ],
-                "start": 283,
-                "end": 353
+                "start": 286,
+                "end": 356
               },
               "abstract": false,
               "declare": false,
-              "start": 271,
-              "end": 353
+              "start": 274,
+              "end": 356
             },
             "specifiers": [],
             "source": null,
             "exportKind": "value",
             "attributes": [],
-            "start": 264,
-            "end": 353
+            "start": 267,
+            "end": 356
           },
           {
             "type": "ExportNamedDeclaration",
@@ -475,8 +475,8 @@ __ESTREE_TEST__:PASS:
                 "name": "Shaker",
                 "optional": false,
                 "typeAnnotation": null,
-                "start": 375,
-                "end": 381
+                "start": 378,
+                "end": 384
               },
               "typeParameters": null,
               "extends": [],
@@ -491,8 +491,8 @@ __ESTREE_TEST__:PASS:
                       "name": "shake",
                       "optional": false,
                       "typeAnnotation": null,
-                      "start": 392,
-                      "end": 397
+                      "start": 395,
+                      "end": 400
                     },
                     "computed": false,
                     "optional": false,
@@ -503,17 +503,17 @@ __ESTREE_TEST__:PASS:
                       "type": "TSTypeAnnotation",
                       "typeAnnotation": {
                         "type": "TSVoidKeyword",
-                        "start": 401,
-                        "end": 405
+                        "start": 404,
+                        "end": 408
                       },
-                      "start": 399,
-                      "end": 405
+                      "start": 402,
+                      "end": 408
                     },
                     "accessibility": null,
                     "readonly": false,
                     "static": false,
-                    "start": 392,
-                    "end": 406
+                    "start": 395,
+                    "end": 409
                   },
                   {
                     "type": "TSMethodSignature",
@@ -523,8 +523,8 @@ __ESTREE_TEST__:PASS:
                       "name": "getStatus",
                       "optional": false,
                       "typeAnnotation": null,
-                      "start": 415,
-                      "end": 424
+                      "start": 418,
+                      "end": 427
                     },
                     "computed": false,
                     "optional": false,
@@ -547,61 +547,61 @@ __ESTREE_TEST__:PASS:
                               "name": "frequency",
                               "optional": false,
                               "typeAnnotation": null,
-                              "start": 430,
-                              "end": 439
+                              "start": 433,
+                              "end": 442
                             },
                             "typeAnnotation": {
                               "type": "TSTypeAnnotation",
                               "typeAnnotation": {
                                 "type": "TSNumberKeyword",
-                                "start": 441,
-                                "end": 447
+                                "start": 444,
+                                "end": 450
                               },
-                              "start": 439,
-                              "end": 447
+                              "start": 442,
+                              "end": 450
                             },
                             "accessibility": null,
                             "static": false,
-                            "start": 430,
-                            "end": 448
+                            "start": 433,
+                            "end": 451
                           }
                         ],
-                        "start": 428,
-                        "end": 450
+                        "start": 431,
+                        "end": 453
                       },
-                      "start": 426,
-                      "end": 450
+                      "start": 429,
+                      "end": 453
                     },
                     "accessibility": null,
                     "readonly": false,
                     "static": false,
-                    "start": 415,
-                    "end": 451
+                    "start": 418,
+                    "end": 454
                   }
                 ],
-                "start": 382,
-                "end": 457
+                "start": 385,
+                "end": 460
               },
               "declare": false,
-              "start": 365,
-              "end": 457
+              "start": 368,
+              "end": 460
             },
             "specifiers": [],
             "source": null,
             "exportKind": "type",
             "attributes": [],
-            "start": 358,
-            "end": 457
+            "start": 361,
+            "end": 460
           }
         ],
-        "start": 258,
-        "end": 459
+        "start": 261,
+        "end": 462
       },
-      "kind": "module",
+      "kind": "namespace",
       "declare": true,
       "global": false,
       "start": 226,
-      "end": 459
+      "end": 462
     },
     {
       "type": "TSInterfaceDeclaration",
@@ -611,8 +611,8 @@ __ESTREE_TEST__:PASS:
         "name": "MoverShaker2",
         "optional": false,
         "typeAnnotation": null,
-        "start": 471,
-        "end": 483
+        "start": 474,
+        "end": 486
       },
       "typeParameters": null,
       "extends": [
@@ -626,8 +626,8 @@ __ESTREE_TEST__:PASS:
               "name": "MoversAndShakers",
               "optional": false,
               "typeAnnotation": null,
-              "start": 492,
-              "end": 508
+              "start": 495,
+              "end": 511
             },
             "property": {
               "type": "Identifier",
@@ -635,17 +635,17 @@ __ESTREE_TEST__:PASS:
               "name": "Mover",
               "optional": false,
               "typeAnnotation": null,
-              "start": 509,
-              "end": 514
+              "start": 512,
+              "end": 517
             },
             "optional": false,
             "computed": false,
-            "start": 492,
-            "end": 514
+            "start": 495,
+            "end": 517
           },
           "typeArguments": null,
-          "start": 492,
-          "end": 514
+          "start": 495,
+          "end": 517
         },
         {
           "type": "TSInterfaceHeritage",
@@ -657,8 +657,8 @@ __ESTREE_TEST__:PASS:
               "name": "MoversAndShakers",
               "optional": false,
               "typeAnnotation": null,
-              "start": 516,
-              "end": 532
+              "start": 519,
+              "end": 535
             },
             "property": {
               "type": "Identifier",
@@ -666,28 +666,28 @@ __ESTREE_TEST__:PASS:
               "name": "Shaker",
               "optional": false,
               "typeAnnotation": null,
-              "start": 533,
-              "end": 539
+              "start": 536,
+              "end": 542
             },
             "optional": false,
             "computed": false,
-            "start": 516,
-            "end": 539
+            "start": 519,
+            "end": 542
           },
           "typeArguments": null,
-          "start": 516,
-          "end": 539
+          "start": 519,
+          "end": 542
         }
       ],
       "body": {
         "type": "TSInterfaceBody",
         "body": [],
-        "start": 540,
-        "end": 543
+        "start": 543,
+        "end": 546
       },
       "declare": false,
-      "start": 461,
-      "end": 543
+      "start": 464,
+      "end": 546
     },
     {
       "type": "TSInterfaceDeclaration",
@@ -697,8 +697,8 @@ __ESTREE_TEST__:PASS:
         "name": "MoverShaker3",
         "optional": false,
         "typeAnnotation": null,
-        "start": 564,
-        "end": 576
+        "start": 567,
+        "end": 579
       },
       "typeParameters": null,
       "extends": [
@@ -712,8 +712,8 @@ __ESTREE_TEST__:PASS:
               "name": "MoversAndShakers",
               "optional": false,
               "typeAnnotation": null,
-              "start": 585,
-              "end": 601
+              "start": 588,
+              "end": 604
             },
             "property": {
               "type": "Identifier",
@@ -721,17 +721,17 @@ __ESTREE_TEST__:PASS:
               "name": "Mover",
               "optional": false,
               "typeAnnotation": null,
-              "start": 602,
-              "end": 607
+              "start": 605,
+              "end": 610
             },
             "optional": false,
             "computed": false,
-            "start": 585,
-            "end": 607
+            "start": 588,
+            "end": 610
           },
           "typeArguments": null,
-          "start": 585,
-          "end": 607
+          "start": 588,
+          "end": 610
         },
         {
           "type": "TSInterfaceHeritage",
@@ -743,8 +743,8 @@ __ESTREE_TEST__:PASS:
               "name": "MoversAndShakers",
               "optional": false,
               "typeAnnotation": null,
-              "start": 609,
-              "end": 625
+              "start": 612,
+              "end": 628
             },
             "property": {
               "type": "Identifier",
@@ -752,17 +752,17 @@ __ESTREE_TEST__:PASS:
               "name": "Shaker",
               "optional": false,
               "typeAnnotation": null,
-              "start": 626,
-              "end": 632
+              "start": 629,
+              "end": 635
             },
             "optional": false,
             "computed": false,
-            "start": 609,
-            "end": 632
+            "start": 612,
+            "end": 635
           },
           "typeArguments": null,
-          "start": 609,
-          "end": 632
+          "start": 612,
+          "end": 635
         }
       ],
       "body": {
@@ -776,8 +776,8 @@ __ESTREE_TEST__:PASS:
               "name": "getStatus",
               "optional": false,
               "typeAnnotation": null,
-              "start": 639,
-              "end": 648
+              "start": 642,
+              "end": 651
             },
             "computed": false,
             "optional": false,
@@ -800,23 +800,23 @@ __ESTREE_TEST__:PASS:
                       "name": "speed",
                       "optional": false,
                       "typeAnnotation": null,
-                      "start": 654,
-                      "end": 659
+                      "start": 657,
+                      "end": 662
                     },
                     "typeAnnotation": {
                       "type": "TSTypeAnnotation",
                       "typeAnnotation": {
                         "type": "TSNumberKeyword",
-                        "start": 661,
-                        "end": 667
+                        "start": 664,
+                        "end": 670
                       },
-                      "start": 659,
-                      "end": 667
+                      "start": 662,
+                      "end": 670
                     },
                     "accessibility": null,
                     "static": false,
-                    "start": 654,
-                    "end": 668
+                    "start": 657,
+                    "end": 671
                   },
                   {
                     "type": "TSPropertySignature",
@@ -829,49 +829,49 @@ __ESTREE_TEST__:PASS:
                       "name": "frequency",
                       "optional": false,
                       "typeAnnotation": null,
-                      "start": 669,
-                      "end": 678
+                      "start": 672,
+                      "end": 681
                     },
                     "typeAnnotation": {
                       "type": "TSTypeAnnotation",
                       "typeAnnotation": {
                         "type": "TSNumberKeyword",
-                        "start": 680,
-                        "end": 686
+                        "start": 683,
+                        "end": 689
                       },
-                      "start": 678,
-                      "end": 686
+                      "start": 681,
+                      "end": 689
                     },
                     "accessibility": null,
                     "static": false,
-                    "start": 669,
-                    "end": 687
+                    "start": 672,
+                    "end": 690
                   }
                 ],
-                "start": 652,
-                "end": 689
+                "start": 655,
+                "end": 692
               },
-              "start": 650,
-              "end": 689
+              "start": 653,
+              "end": 692
             },
             "accessibility": null,
             "readonly": false,
             "static": false,
-            "start": 639,
-            "end": 690
+            "start": 642,
+            "end": 693
           }
         ],
-        "start": 633,
-        "end": 758
+        "start": 636,
+        "end": 761
       },
       "declare": false,
-      "start": 554,
-      "end": 758
+      "start": 557,
+      "end": 761
     }
   ],
   "sourceType": "script",
   "hashbang": null,
   "start": 0,
-  "end": 758
+  "end": 761
 }
 ```

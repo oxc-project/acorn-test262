@@ -11,8 +11,8 @@ __ESTREE_TEST__:PASS:
         "name": "M",
         "optional": false,
         "typeAnnotation": null,
-        "start": 7,
-        "end": 8
+        "start": 10,
+        "end": 11
       },
       "body": {
         "type": "TSModuleBlock",
@@ -25,26 +25,26 @@ __ESTREE_TEST__:PASS:
               "name": "A",
               "optional": false,
               "typeAnnotation": null,
-              "start": 24,
-              "end": 25
+              "start": 27,
+              "end": 28
             },
-            "start": 15,
-            "end": 26
+            "start": 18,
+            "end": 29
           }
         ],
-        "start": 9,
-        "end": 28
+        "start": 12,
+        "end": 31
       },
-      "kind": "module",
+      "kind": "namespace",
       "declare": false,
       "global": false,
       "start": 0,
-      "end": 28
+      "end": 31
     }
   ],
   "sourceType": "script",
   "hashbang": null,
   "start": 0,
-  "end": 28
+  "end": 31
 }
 ```

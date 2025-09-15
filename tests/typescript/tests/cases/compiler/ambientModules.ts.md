@@ -13,8 +13,8 @@ __ESTREE_TEST__:PASS:
           "name": "Foo",
           "optional": false,
           "typeAnnotation": null,
-          "start": 15,
-          "end": 18
+          "start": 18,
+          "end": 21
         },
         "right": {
           "type": "Identifier",
@@ -22,11 +22,11 @@ __ESTREE_TEST__:PASS:
           "name": "Bar",
           "optional": false,
           "typeAnnotation": null,
-          "start": 19,
-          "end": 22
+          "start": 22,
+          "end": 25
         },
-        "start": 15,
-        "end": 22
+        "start": 18,
+        "end": 25
       },
       "body": {
         "type": "TSModuleBlock",
@@ -45,40 +45,40 @@ __ESTREE_TEST__:PASS:
                     "name": "foo",
                     "optional": false,
                     "typeAnnotation": null,
-                    "start": 36,
-                    "end": 39
+                    "start": 39,
+                    "end": 42
                   },
                   "init": null,
                   "definite": false,
-                  "start": 36,
-                  "end": 39
+                  "start": 39,
+                  "end": 42
                 }
               ],
               "declare": false,
-              "start": 32,
-              "end": 40
+              "start": 35,
+              "end": 43
             },
             "specifiers": [],
             "source": null,
             "exportKind": "value",
             "attributes": [],
-            "start": 25,
-            "end": 40
+            "start": 28,
+            "end": 43
           }
         ],
-        "start": 23,
-        "end": 42
+        "start": 26,
+        "end": 45
       },
-      "kind": "module",
+      "kind": "namespace",
       "declare": true,
       "global": false,
       "start": 0,
-      "end": 42
+      "end": 45
     },
     {
       "type": "EmptyStatement",
-      "start": 42,
-      "end": 43
+      "start": 45,
+      "end": 46
     },
     {
       "type": "ExpressionStatement",
@@ -95,8 +95,8 @@ __ESTREE_TEST__:PASS:
               "name": "Foo",
               "optional": false,
               "typeAnnotation": null,
-              "start": 44,
-              "end": 47
+              "start": 47,
+              "end": 50
             },
             "property": {
               "type": "Identifier",
@@ -104,13 +104,13 @@ __ESTREE_TEST__:PASS:
               "name": "Bar",
               "optional": false,
               "typeAnnotation": null,
-              "start": 48,
-              "end": 51
+              "start": 51,
+              "end": 54
             },
             "optional": false,
             "computed": false,
-            "start": 44,
-            "end": 51
+            "start": 47,
+            "end": 54
           },
           "property": {
             "type": "Identifier",
@@ -118,32 +118,32 @@ __ESTREE_TEST__:PASS:
             "name": "foo",
             "optional": false,
             "typeAnnotation": null,
-            "start": 52,
-            "end": 55
+            "start": 55,
+            "end": 58
           },
           "optional": false,
           "computed": false,
-          "start": 44,
-          "end": 55
+          "start": 47,
+          "end": 58
         },
         "right": {
           "type": "Literal",
           "value": 5,
           "raw": "5",
-          "start": 58,
-          "end": 59
+          "start": 61,
+          "end": 62
         },
-        "start": 44,
-        "end": 59
+        "start": 47,
+        "end": 62
       },
       "directive": null,
-      "start": 44,
-      "end": 60
+      "start": 47,
+      "end": 63
     }
   ],
   "sourceType": "script",
   "hashbang": null,
   "start": 0,
-  "end": 61
+  "end": 64
 }
 ```

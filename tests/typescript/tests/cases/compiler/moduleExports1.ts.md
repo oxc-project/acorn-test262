@@ -17,8 +17,8 @@ __ESTREE_TEST__:PASS:
               "name": "TypeScript",
               "optional": false,
               "typeAnnotation": null,
-              "start": 14,
-              "end": 24
+              "start": 17,
+              "end": 27
             },
             "right": {
               "type": "Identifier",
@@ -26,11 +26,11 @@ __ESTREE_TEST__:PASS:
               "name": "Strasse",
               "optional": false,
               "typeAnnotation": null,
-              "start": 25,
-              "end": 32
+              "start": 28,
+              "end": 35
             },
-            "start": 14,
-            "end": 32
+            "start": 17,
+            "end": 35
           },
           "right": {
             "type": "Identifier",
@@ -38,11 +38,11 @@ __ESTREE_TEST__:PASS:
             "name": "Street",
             "optional": false,
             "typeAnnotation": null,
-            "start": 33,
-            "end": 39
+            "start": 36,
+            "end": 42
           },
-          "start": 14,
-          "end": 39
+          "start": 17,
+          "end": 42
         },
         "body": {
           "type": "TSModuleBlock",
@@ -58,8 +58,8 @@ __ESTREE_TEST__:PASS:
                   "name": "Rue",
                   "optional": false,
                   "typeAnnotation": null,
-                  "start": 56,
-                  "end": 59
+                  "start": 59,
+                  "end": 62
                 },
                 "typeParameters": null,
                 "superClass": null,
@@ -77,18 +77,18 @@ __ESTREE_TEST__:PASS:
                         "name": "address",
                         "optional": false,
                         "typeAnnotation": null,
-                        "start": 71,
-                        "end": 78
+                        "start": 74,
+                        "end": 81
                       },
                       "typeAnnotation": {
                         "type": "TSTypeAnnotation",
                         "typeAnnotation": {
                           "type": "TSStringKeyword",
-                          "start": 79,
-                          "end": 85
+                          "start": 82,
+                          "end": 88
                         },
-                        "start": 78,
-                        "end": 85
+                        "start": 81,
+                        "end": 88
                       },
                       "value": null,
                       "computed": false,
@@ -99,41 +99,41 @@ __ESTREE_TEST__:PASS:
                       "definite": false,
                       "readonly": false,
                       "accessibility": "public",
-                      "start": 64,
-                      "end": 86
+                      "start": 67,
+                      "end": 89
                     }
                   ],
-                  "start": 60,
-                  "end": 89
+                  "start": 63,
+                  "end": 92
                 },
                 "abstract": false,
                 "declare": false,
-                "start": 50,
-                "end": 89
+                "start": 53,
+                "end": 92
               },
               "specifiers": [],
               "source": null,
               "exportKind": "value",
               "attributes": [],
-              "start": 43,
-              "end": 89
+              "start": 46,
+              "end": 92
             }
           ],
-          "start": 40,
-          "end": 92
+          "start": 43,
+          "end": 95
         },
-        "kind": "module",
+        "kind": "namespace",
         "declare": false,
         "global": false,
         "start": 7,
-        "end": 92
+        "end": 95
       },
       "specifiers": [],
       "source": null,
       "exportKind": "value",
       "attributes": [],
       "start": 0,
-      "end": 92
+      "end": 95
     },
     {
       "type": "VariableDeclaration",
@@ -147,8 +147,8 @@ __ESTREE_TEST__:PASS:
             "name": "rue",
             "optional": false,
             "typeAnnotation": null,
-            "start": 98,
-            "end": 101
+            "start": 101,
+            "end": 104
           },
           "init": {
             "type": "NewExpression",
@@ -164,8 +164,8 @@ __ESTREE_TEST__:PASS:
                     "name": "TypeScript",
                     "optional": false,
                     "typeAnnotation": null,
-                    "start": 108,
-                    "end": 118
+                    "start": 111,
+                    "end": 121
                   },
                   "property": {
                     "type": "Identifier",
@@ -173,13 +173,13 @@ __ESTREE_TEST__:PASS:
                     "name": "Strasse",
                     "optional": false,
                     "typeAnnotation": null,
-                    "start": 119,
-                    "end": 126
+                    "start": 122,
+                    "end": 129
                   },
                   "optional": false,
                   "computed": false,
-                  "start": 108,
-                  "end": 126
+                  "start": 111,
+                  "end": 129
                 },
                 "property": {
                   "type": "Identifier",
@@ -187,13 +187,13 @@ __ESTREE_TEST__:PASS:
                   "name": "Street",
                   "optional": false,
                   "typeAnnotation": null,
-                  "start": 127,
-                  "end": 133
+                  "start": 130,
+                  "end": 136
                 },
                 "optional": false,
                 "computed": false,
-                "start": 108,
-                "end": 133
+                "start": 111,
+                "end": 136
               },
               "property": {
                 "type": "Identifier",
@@ -201,27 +201,27 @@ __ESTREE_TEST__:PASS:
                 "name": "Rue",
                 "optional": false,
                 "typeAnnotation": null,
-                "start": 134,
-                "end": 137
+                "start": 137,
+                "end": 140
               },
               "optional": false,
               "computed": false,
-              "start": 108,
-              "end": 137
+              "start": 111,
+              "end": 140
             },
             "typeArguments": null,
             "arguments": [],
-            "start": 104,
-            "end": 139
+            "start": 107,
+            "end": 142
           },
           "definite": false,
-          "start": 98,
-          "end": 139
+          "start": 101,
+          "end": 142
         }
       ],
       "declare": false,
-      "start": 94,
-      "end": 140
+      "start": 97,
+      "end": 143
     },
     {
       "type": "ExpressionStatement",
@@ -236,8 +236,8 @@ __ESTREE_TEST__:PASS:
             "name": "rue",
             "optional": false,
             "typeAnnotation": null,
-            "start": 142,
-            "end": 145
+            "start": 145,
+            "end": 148
           },
           "property": {
             "type": "Identifier",
@@ -245,27 +245,27 @@ __ESTREE_TEST__:PASS:
             "name": "address",
             "optional": false,
             "typeAnnotation": null,
-            "start": 146,
-            "end": 153
+            "start": 149,
+            "end": 156
           },
           "optional": false,
           "computed": false,
-          "start": 142,
-          "end": 153
+          "start": 145,
+          "end": 156
         },
         "right": {
           "type": "Literal",
           "value": "1 Main Street",
           "raw": "\"1 Main Street\"",
-          "start": 156,
-          "end": 171
+          "start": 159,
+          "end": 174
         },
-        "start": 142,
-        "end": 171
+        "start": 145,
+        "end": 174
       },
       "directive": null,
-      "start": 142,
-      "end": 172
+      "start": 145,
+      "end": 175
     },
     {
       "type": "ExpressionStatement",
@@ -276,16 +276,16 @@ __ESTREE_TEST__:PASS:
           "type": "Literal",
           "value": 0,
           "raw": "0",
-          "start": 179,
-          "end": 180
+          "start": 182,
+          "end": 183
         },
         "prefix": true,
-        "start": 174,
-        "end": 180
+        "start": 177,
+        "end": 183
       },
       "directive": null,
-      "start": 174,
-      "end": 181
+      "start": 177,
+      "end": 184
     },
     {
       "type": "IfStatement",
@@ -300,8 +300,8 @@ __ESTREE_TEST__:PASS:
             "name": "module",
             "optional": false,
             "typeAnnotation": null,
-            "start": 188,
-            "end": 194
+            "start": 191,
+            "end": 197
           },
           "property": {
             "type": "Identifier",
@@ -309,17 +309,17 @@ __ESTREE_TEST__:PASS:
             "name": "exports",
             "optional": false,
             "typeAnnotation": null,
-            "start": 195,
-            "end": 202
+            "start": 198,
+            "end": 205
           },
           "optional": false,
           "computed": false,
-          "start": 188,
-          "end": 202
+          "start": 191,
+          "end": 205
         },
         "prefix": true,
-        "start": 187,
-        "end": 202
+        "start": 190,
+        "end": 205
       },
       "consequent": {
         "type": "ExpressionStatement",
@@ -334,8 +334,8 @@ __ESTREE_TEST__:PASS:
               "name": "module",
               "optional": false,
               "typeAnnotation": null,
-              "start": 204,
-              "end": 210
+              "start": 207,
+              "end": 213
             },
             "property": {
               "type": "Identifier",
@@ -343,36 +343,36 @@ __ESTREE_TEST__:PASS:
               "name": "exports",
               "optional": false,
               "typeAnnotation": null,
-              "start": 211,
-              "end": 218
+              "start": 214,
+              "end": 221
             },
             "optional": false,
             "computed": false,
-            "start": 204,
-            "end": 218
+            "start": 207,
+            "end": 221
           },
           "right": {
             "type": "Literal",
             "value": "",
             "raw": "\"\"",
-            "start": 221,
-            "end": 223
+            "start": 224,
+            "end": 226
           },
-          "start": 204,
-          "end": 223
+          "start": 207,
+          "end": 226
         },
         "directive": null,
-        "start": 204,
-        "end": 224
+        "start": 207,
+        "end": 227
       },
       "alternate": null,
-      "start": 183,
-      "end": 224
+      "start": 186,
+      "end": 227
     }
   ],
   "sourceType": "module",
   "hashbang": null,
   "start": 0,
-  "end": 224
+  "end": 227
 }
 ```

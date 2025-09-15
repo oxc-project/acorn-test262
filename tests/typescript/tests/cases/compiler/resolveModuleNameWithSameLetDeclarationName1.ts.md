@@ -11,8 +11,8 @@ __ESTREE_TEST__:PASS:
         "name": "foo",
         "optional": false,
         "typeAnnotation": null,
-        "start": 15,
-        "end": 18
+        "start": 18,
+        "end": 21
       },
       "body": {
         "type": "TSModuleBlock",
@@ -25,30 +25,30 @@ __ESTREE_TEST__:PASS:
               "name": "Bar",
               "optional": false,
               "typeAnnotation": null,
-              "start": 36,
-              "end": 39
+              "start": 39,
+              "end": 42
             },
             "typeParameters": null,
             "extends": [],
             "body": {
               "type": "TSInterfaceBody",
               "body": [],
-              "start": 40,
-              "end": 48
+              "start": 43,
+              "end": 51
             },
             "declare": false,
-            "start": 26,
-            "end": 48
+            "start": 29,
+            "end": 51
           }
         ],
-        "start": 19,
-        "end": 50
+        "start": 22,
+        "end": 53
       },
-      "kind": "module",
+      "kind": "namespace",
       "declare": true,
       "global": false,
       "start": 0,
-      "end": 50
+      "end": 53
     },
     {
       "type": "VariableDeclaration",
@@ -73,8 +73,8 @@ __ESTREE_TEST__:PASS:
                     "name": "foo",
                     "optional": false,
                     "typeAnnotation": null,
-                    "start": 61,
-                    "end": 64
+                    "start": 64,
+                    "end": 67
                   },
                   "right": {
                     "type": "Identifier",
@@ -82,36 +82,36 @@ __ESTREE_TEST__:PASS:
                     "name": "Bar",
                     "optional": false,
                     "typeAnnotation": null,
-                    "start": 65,
-                    "end": 68
+                    "start": 68,
+                    "end": 71
                   },
-                  "start": 61,
-                  "end": 68
+                  "start": 64,
+                  "end": 71
                 },
                 "typeArguments": null,
-                "start": 61,
-                "end": 68
+                "start": 64,
+                "end": 71
               },
-              "start": 59,
-              "end": 68
+              "start": 62,
+              "end": 71
             },
-            "start": 56,
-            "end": 68
+            "start": 59,
+            "end": 71
           },
           "init": null,
           "definite": false,
-          "start": 56,
-          "end": 68
+          "start": 59,
+          "end": 71
         }
       ],
       "declare": false,
-      "start": 52,
-      "end": 69
+      "start": 55,
+      "end": 72
     }
   ],
   "sourceType": "script",
   "hashbang": null,
   "start": 0,
-  "end": 70
+  "end": 73
 }
 ```

@@ -11,8 +11,8 @@ __ESTREE_TEST__:PASS:
         "name": "JSX",
         "optional": false,
         "typeAnnotation": null,
-        "start": 15,
-        "end": 18
+        "start": 18,
+        "end": 21
       },
       "body": {
         "type": "TSModuleBlock",
@@ -25,20 +25,20 @@ __ESTREE_TEST__:PASS:
               "name": "Element",
               "optional": false,
               "typeAnnotation": null,
-              "start": 32,
-              "end": 39
+              "start": 35,
+              "end": 42
             },
             "typeParameters": null,
             "extends": [],
             "body": {
               "type": "TSInterfaceBody",
               "body": [],
-              "start": 40,
-              "end": 43
+              "start": 43,
+              "end": 46
             },
             "declare": false,
-            "start": 22,
-            "end": 43
+            "start": 25,
+            "end": 46
           },
           {
             "type": "TSInterfaceDeclaration",
@@ -48,8 +48,8 @@ __ESTREE_TEST__:PASS:
               "name": "IntrinsicElements",
               "optional": false,
               "typeAnnotation": null,
-              "start": 55,
-              "end": 72
+              "start": 58,
+              "end": 75
             },
             "typeParameters": null,
             "extends": [],
@@ -67,14 +67,14 @@ __ESTREE_TEST__:PASS:
                     "name": "div",
                     "optional": false,
                     "typeAnnotation": null,
-                    "start": 75,
-                    "end": 78
+                    "start": 78,
+                    "end": 81
                   },
                   "typeAnnotation": null,
                   "accessibility": null,
                   "static": false,
-                  "start": 75,
-                  "end": 79
+                  "start": 78,
+                  "end": 82
                 },
                 {
                   "type": "TSPropertySignature",
@@ -87,32 +87,32 @@ __ESTREE_TEST__:PASS:
                     "name": "span",
                     "optional": false,
                     "typeAnnotation": null,
-                    "start": 80,
-                    "end": 84
+                    "start": 83,
+                    "end": 87
                   },
                   "typeAnnotation": null,
                   "accessibility": null,
                   "static": false,
-                  "start": 80,
-                  "end": 85
+                  "start": 83,
+                  "end": 88
                 }
               ],
-              "start": 73,
-              "end": 87
+              "start": 76,
+              "end": 90
             },
             "declare": false,
-            "start": 45,
-            "end": 87
+            "start": 48,
+            "end": 90
           }
         ],
-        "start": 19,
-        "end": 89
+        "start": 22,
+        "end": 92
       },
-      "kind": "module",
+      "kind": "namespace",
       "declare": true,
       "global": false,
       "start": 0,
-      "end": 89
+      "end": 92
     },
     {
       "type": "VariableDeclaration",
@@ -126,8 +126,8 @@ __ESTREE_TEST__:PASS:
             "name": "x",
             "optional": false,
             "typeAnnotation": null,
-            "start": 95,
-            "end": 96
+            "start": 98,
+            "end": 99
           },
           "init": {
             "type": "JSXElement",
@@ -136,14 +136,14 @@ __ESTREE_TEST__:PASS:
               "name": {
                 "type": "JSXIdentifier",
                 "name": "div",
-                "start": 100,
-                "end": 103
+                "start": 103,
+                "end": 106
               },
               "typeArguments": null,
               "attributes": [],
               "selfClosing": false,
-              "start": 99,
-              "end": 104
+              "start": 102,
+              "end": 107
             },
             "children": [
               {
@@ -153,14 +153,14 @@ __ESTREE_TEST__:PASS:
                   "name": {
                     "type": "JSXIdentifier",
                     "name": "div",
-                    "start": 105,
-                    "end": 108
+                    "start": 108,
+                    "end": 111
                   },
                   "typeArguments": null,
                   "attributes": [],
                   "selfClosing": false,
-                  "start": 104,
-                  "end": 109
+                  "start": 107,
+                  "end": 112
                 },
                 "children": [
                   {
@@ -170,14 +170,14 @@ __ESTREE_TEST__:PASS:
                       "name": {
                         "type": "JSXIdentifier",
                         "name": "span",
-                        "start": 110,
-                        "end": 114
+                        "start": 113,
+                        "end": 117
                       },
                       "typeArguments": null,
                       "attributes": [],
                       "selfClosing": false,
-                      "start": 109,
-                      "end": 115
+                      "start": 112,
+                      "end": 118
                     },
                     "children": [
                       {
@@ -187,14 +187,14 @@ __ESTREE_TEST__:PASS:
                           "name": {
                             "type": "JSXIdentifier",
                             "name": "div",
-                            "start": 116,
-                            "end": 119
+                            "start": 119,
+                            "end": 122
                           },
                           "typeArguments": null,
                           "attributes": [],
                           "selfClosing": false,
-                          "start": 115,
-                          "end": 120
+                          "start": 118,
+                          "end": 123
                         },
                         "children": [],
                         "closingElement": {
@@ -202,14 +202,14 @@ __ESTREE_TEST__:PASS:
                           "name": {
                             "type": "JSXIdentifier",
                             "name": "div",
-                            "start": 122,
-                            "end": 125
+                            "start": 125,
+                            "end": 128
                           },
-                          "start": 120,
-                          "end": 126
+                          "start": 123,
+                          "end": 129
                         },
-                        "start": 115,
-                        "end": 126
+                        "start": 118,
+                        "end": 129
                       }
                     ],
                     "closingElement": {
@@ -217,14 +217,14 @@ __ESTREE_TEST__:PASS:
                       "name": {
                         "type": "JSXIdentifier",
                         "name": "span",
-                        "start": 128,
-                        "end": 132
+                        "start": 131,
+                        "end": 135
                       },
-                      "start": 126,
-                      "end": 133
+                      "start": 129,
+                      "end": 136
                     },
-                    "start": 109,
-                    "end": 133
+                    "start": 112,
+                    "end": 136
                   }
                 ],
                 "closingElement": {
@@ -232,14 +232,14 @@ __ESTREE_TEST__:PASS:
                   "name": {
                     "type": "JSXIdentifier",
                     "name": "div",
-                    "start": 135,
-                    "end": 138
+                    "start": 138,
+                    "end": 141
                   },
-                  "start": 133,
-                  "end": 139
+                  "start": 136,
+                  "end": 142
                 },
-                "start": 104,
-                "end": 139
+                "start": 107,
+                "end": 142
               }
             ],
             "closingElement": {
@@ -247,28 +247,28 @@ __ESTREE_TEST__:PASS:
               "name": {
                 "type": "JSXIdentifier",
                 "name": "div",
-                "start": 141,
-                "end": 144
+                "start": 144,
+                "end": 147
               },
-              "start": 139,
-              "end": 145
+              "start": 142,
+              "end": 148
             },
-            "start": 99,
-            "end": 145
+            "start": 102,
+            "end": 148
           },
           "definite": false,
-          "start": 95,
-          "end": 145
+          "start": 98,
+          "end": 148
         }
       ],
       "declare": false,
-      "start": 91,
-      "end": 146
+      "start": 94,
+      "end": 149
     }
   ],
   "sourceType": "script",
   "hashbang": null,
   "start": 0,
-  "end": 146
+  "end": 149
 }
 ```

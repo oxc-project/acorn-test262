@@ -11,8 +11,8 @@ __ESTREE_TEST__:PASS:
         "name": "M",
         "optional": false,
         "typeAnnotation": null,
-        "start": 7,
-        "end": 8
+        "start": 10,
+        "end": 11
       },
       "body": {
         "type": "TSModuleBlock",
@@ -28,8 +28,8 @@ __ESTREE_TEST__:PASS:
                 "name": "C",
                 "optional": false,
                 "typeAnnotation": null,
-                "start": 28,
-                "end": 29
+                "start": 31,
+                "end": 32
               },
               "typeParameters": null,
               "superClass": null,
@@ -38,30 +38,30 @@ __ESTREE_TEST__:PASS:
               "body": {
                 "type": "ClassBody",
                 "body": [],
-                "start": 30,
-                "end": 33
+                "start": 33,
+                "end": 36
               },
               "abstract": false,
               "declare": false,
-              "start": 22,
-              "end": 33
+              "start": 25,
+              "end": 36
             },
             "specifiers": [],
             "source": null,
             "exportKind": "value",
             "attributes": [],
-            "start": 15,
-            "end": 33
+            "start": 18,
+            "end": 36
           }
         ],
-        "start": 9,
-        "end": 35
+        "start": 12,
+        "end": 38
       },
-      "kind": "module",
+      "kind": "namespace",
       "declare": false,
       "global": false,
       "start": 0,
-      "end": 35
+      "end": 38
     },
     {
       "type": "TSModuleDeclaration",
@@ -71,8 +71,8 @@ __ESTREE_TEST__:PASS:
         "name": "M",
         "optional": false,
         "typeAnnotation": null,
-        "start": 43,
-        "end": 44
+        "start": 49,
+        "end": 50
       },
       "body": {
         "type": "TSModuleBlock",
@@ -92,24 +92,24 @@ __ESTREE_TEST__:PASS:
                       "name": "M",
                       "optional": false,
                       "typeAnnotation": null,
-                      "start": 65,
-                      "end": 66
+                      "start": 71,
+                      "end": 72
                     },
                     "init": {
                       "type": "Literal",
                       "value": 0,
                       "raw": "0",
-                      "start": 69,
-                      "end": 70
+                      "start": 75,
+                      "end": 76
                     },
                     "definite": false,
-                    "start": 65,
-                    "end": 70
+                    "start": 71,
+                    "end": 76
                   }
                 ],
                 "declare": false,
-                "start": 61,
-                "end": 71
+                "start": 67,
+                "end": 77
               },
               {
                 "type": "ExpressionStatement",
@@ -121,36 +121,36 @@ __ESTREE_TEST__:PASS:
                     "name": "C",
                     "optional": false,
                     "typeAnnotation": null,
-                    "start": 84,
-                    "end": 85
+                    "start": 90,
+                    "end": 91
                   },
                   "typeArguments": null,
                   "arguments": [],
-                  "start": 80,
-                  "end": 87
+                  "start": 86,
+                  "end": 93
                 },
                 "directive": null,
-                "start": 80,
-                "end": 88
+                "start": 86,
+                "end": 94
               }
             ],
-            "start": 51,
-            "end": 94
+            "start": 57,
+            "end": 100
           }
         ],
-        "start": 45,
-        "end": 96
+        "start": 51,
+        "end": 102
       },
-      "kind": "module",
+      "kind": "namespace",
       "declare": false,
       "global": false,
-      "start": 36,
-      "end": 96
+      "start": 39,
+      "end": 102
     }
   ],
   "sourceType": "script",
   "hashbang": null,
   "start": 0,
-  "end": 96
+  "end": 102
 }
 ```

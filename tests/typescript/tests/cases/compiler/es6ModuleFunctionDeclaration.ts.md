@@ -122,8 +122,8 @@ __ESTREE_TEST__:PASS:
           "name": "m1",
           "optional": false,
           "typeAnnotation": null,
-          "start": 76,
-          "end": 78
+          "start": 79,
+          "end": 81
         },
         "body": {
           "type": "TSModuleBlock",
@@ -138,8 +138,8 @@ __ESTREE_TEST__:PASS:
                   "name": "foo3",
                   "optional": false,
                   "typeAnnotation": null,
-                  "start": 101,
-                  "end": 105
+                  "start": 104,
+                  "end": 108
                 },
                 "generator": false,
                 "async": false,
@@ -150,19 +150,19 @@ __ESTREE_TEST__:PASS:
                 "body": {
                   "type": "BlockStatement",
                   "body": [],
-                  "start": 108,
-                  "end": 115
+                  "start": 111,
+                  "end": 118
                 },
                 "expression": false,
-                "start": 92,
-                "end": 115
+                "start": 95,
+                "end": 118
               },
               "specifiers": [],
               "source": null,
               "exportKind": "value",
               "attributes": [],
-              "start": 85,
-              "end": 115
+              "start": 88,
+              "end": 118
             },
             {
               "type": "FunctionDeclaration",
@@ -172,8 +172,8 @@ __ESTREE_TEST__:PASS:
                 "name": "foo4",
                 "optional": false,
                 "typeAnnotation": null,
-                "start": 129,
-                "end": 133
+                "start": 132,
+                "end": 136
               },
               "generator": false,
               "async": false,
@@ -184,12 +184,12 @@ __ESTREE_TEST__:PASS:
               "body": {
                 "type": "BlockStatement",
                 "body": [],
-                "start": 136,
-                "end": 143
+                "start": 139,
+                "end": 146
               },
               "expression": false,
-              "start": 120,
-              "end": 143
+              "start": 123,
+              "end": 146
             },
             {
               "type": "ExpressionStatement",
@@ -201,18 +201,18 @@ __ESTREE_TEST__:PASS:
                   "name": "foo",
                   "optional": false,
                   "typeAnnotation": null,
-                  "start": 148,
-                  "end": 151
+                  "start": 151,
+                  "end": 154
                 },
                 "typeArguments": null,
                 "arguments": [],
                 "optional": false,
-                "start": 148,
-                "end": 153
+                "start": 151,
+                "end": 156
               },
               "directive": null,
-              "start": 148,
-              "end": 154
+              "start": 151,
+              "end": 157
             },
             {
               "type": "ExpressionStatement",
@@ -224,18 +224,18 @@ __ESTREE_TEST__:PASS:
                   "name": "foo2",
                   "optional": false,
                   "typeAnnotation": null,
-                  "start": 159,
-                  "end": 163
+                  "start": 162,
+                  "end": 166
                 },
                 "typeArguments": null,
                 "arguments": [],
                 "optional": false,
-                "start": 159,
-                "end": 165
+                "start": 162,
+                "end": 168
               },
               "directive": null,
-              "start": 159,
-              "end": 166
+              "start": 162,
+              "end": 169
             },
             {
               "type": "ExpressionStatement",
@@ -247,18 +247,18 @@ __ESTREE_TEST__:PASS:
                   "name": "foo3",
                   "optional": false,
                   "typeAnnotation": null,
-                  "start": 171,
-                  "end": 175
+                  "start": 174,
+                  "end": 178
                 },
                 "typeArguments": null,
                 "arguments": [],
                 "optional": false,
-                "start": 171,
-                "end": 177
+                "start": 174,
+                "end": 180
               },
               "directive": null,
-              "start": 171,
-              "end": 178
+              "start": 174,
+              "end": 181
             },
             {
               "type": "ExpressionStatement",
@@ -270,35 +270,35 @@ __ESTREE_TEST__:PASS:
                   "name": "foo4",
                   "optional": false,
                   "typeAnnotation": null,
-                  "start": 183,
-                  "end": 187
+                  "start": 186,
+                  "end": 190
                 },
                 "typeArguments": null,
                 "arguments": [],
                 "optional": false,
-                "start": 183,
-                "end": 189
+                "start": 186,
+                "end": 192
               },
               "directive": null,
-              "start": 183,
-              "end": 190
+              "start": 186,
+              "end": 193
             }
           ],
-          "start": 79,
-          "end": 192
+          "start": 82,
+          "end": 195
         },
-        "kind": "module",
+        "kind": "namespace",
         "declare": false,
         "global": false,
         "start": 69,
-        "end": 192
+        "end": 195
       },
       "specifiers": [],
       "source": null,
       "exportKind": "value",
       "attributes": [],
       "start": 62,
-      "end": 192
+      "end": 195
     },
     {
       "type": "TSModuleDeclaration",
@@ -308,8 +308,8 @@ __ESTREE_TEST__:PASS:
         "name": "m2",
         "optional": false,
         "typeAnnotation": null,
-        "start": 200,
-        "end": 202
+        "start": 206,
+        "end": 208
       },
       "body": {
         "type": "TSModuleBlock",
@@ -324,8 +324,8 @@ __ESTREE_TEST__:PASS:
                 "name": "foo3",
                 "optional": false,
                 "typeAnnotation": null,
-                "start": 225,
-                "end": 229
+                "start": 231,
+                "end": 235
               },
               "generator": false,
               "async": false,
@@ -336,19 +336,19 @@ __ESTREE_TEST__:PASS:
               "body": {
                 "type": "BlockStatement",
                 "body": [],
-                "start": 232,
-                "end": 239
+                "start": 238,
+                "end": 245
               },
               "expression": false,
-              "start": 216,
-              "end": 239
+              "start": 222,
+              "end": 245
             },
             "specifiers": [],
             "source": null,
             "exportKind": "value",
             "attributes": [],
-            "start": 209,
-            "end": 239
+            "start": 215,
+            "end": 245
           },
           {
             "type": "FunctionDeclaration",
@@ -358,8 +358,8 @@ __ESTREE_TEST__:PASS:
               "name": "foo4",
               "optional": false,
               "typeAnnotation": null,
-              "start": 253,
-              "end": 257
+              "start": 259,
+              "end": 263
             },
             "generator": false,
             "async": false,
@@ -370,12 +370,12 @@ __ESTREE_TEST__:PASS:
             "body": {
               "type": "BlockStatement",
               "body": [],
-              "start": 260,
-              "end": 267
+              "start": 266,
+              "end": 273
             },
             "expression": false,
-            "start": 244,
-            "end": 267
+            "start": 250,
+            "end": 273
           },
           {
             "type": "ExpressionStatement",
@@ -387,18 +387,18 @@ __ESTREE_TEST__:PASS:
                 "name": "foo",
                 "optional": false,
                 "typeAnnotation": null,
-                "start": 272,
-                "end": 275
+                "start": 278,
+                "end": 281
               },
               "typeArguments": null,
               "arguments": [],
               "optional": false,
-              "start": 272,
-              "end": 277
+              "start": 278,
+              "end": 283
             },
             "directive": null,
-            "start": 272,
-            "end": 278
+            "start": 278,
+            "end": 284
           },
           {
             "type": "ExpressionStatement",
@@ -410,18 +410,18 @@ __ESTREE_TEST__:PASS:
                 "name": "foo2",
                 "optional": false,
                 "typeAnnotation": null,
-                "start": 283,
-                "end": 287
+                "start": 289,
+                "end": 293
               },
               "typeArguments": null,
               "arguments": [],
               "optional": false,
-              "start": 283,
-              "end": 289
+              "start": 289,
+              "end": 295
             },
             "directive": null,
-            "start": 283,
-            "end": 290
+            "start": 289,
+            "end": 296
           },
           {
             "type": "ExpressionStatement",
@@ -433,18 +433,18 @@ __ESTREE_TEST__:PASS:
                 "name": "foo3",
                 "optional": false,
                 "typeAnnotation": null,
-                "start": 295,
-                "end": 299
+                "start": 301,
+                "end": 305
               },
               "typeArguments": null,
               "arguments": [],
               "optional": false,
-              "start": 295,
-              "end": 301
+              "start": 301,
+              "end": 307
             },
             "directive": null,
-            "start": 295,
-            "end": 302
+            "start": 301,
+            "end": 308
           },
           {
             "type": "ExpressionStatement",
@@ -456,18 +456,18 @@ __ESTREE_TEST__:PASS:
                 "name": "foo4",
                 "optional": false,
                 "typeAnnotation": null,
-                "start": 307,
-                "end": 311
+                "start": 313,
+                "end": 317
               },
               "typeArguments": null,
               "arguments": [],
               "optional": false,
-              "start": 307,
-              "end": 313
+              "start": 313,
+              "end": 319
             },
             "directive": null,
-            "start": 307,
-            "end": 314
+            "start": 313,
+            "end": 320
           },
           {
             "type": "ExpressionStatement",
@@ -481,8 +481,8 @@ __ESTREE_TEST__:PASS:
                   "name": "m1",
                   "optional": false,
                   "typeAnnotation": null,
-                  "start": 319,
-                  "end": 321
+                  "start": 325,
+                  "end": 327
                 },
                 "property": {
                   "type": "Identifier",
@@ -490,38 +490,38 @@ __ESTREE_TEST__:PASS:
                   "name": "foo3",
                   "optional": false,
                   "typeAnnotation": null,
-                  "start": 322,
-                  "end": 326
+                  "start": 328,
+                  "end": 332
                 },
                 "optional": false,
                 "computed": false,
-                "start": 319,
-                "end": 326
+                "start": 325,
+                "end": 332
               },
               "typeArguments": null,
               "arguments": [],
               "optional": false,
-              "start": 319,
-              "end": 328
+              "start": 325,
+              "end": 334
             },
             "directive": null,
-            "start": 319,
-            "end": 329
+            "start": 325,
+            "end": 335
           }
         ],
-        "start": 203,
-        "end": 331
+        "start": 209,
+        "end": 337
       },
-      "kind": "module",
+      "kind": "namespace",
       "declare": false,
       "global": false,
-      "start": 193,
-      "end": 331
+      "start": 196,
+      "end": 337
     }
   ],
   "sourceType": "module",
   "hashbang": null,
   "start": 0,
-  "end": 331
+  "end": 337
 }
 ```

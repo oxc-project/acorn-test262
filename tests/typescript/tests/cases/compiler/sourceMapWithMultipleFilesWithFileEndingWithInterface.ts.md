@@ -11,8 +11,8 @@ __ESTREE_TEST__:PASS:
         "name": "M",
         "optional": false,
         "typeAnnotation": null,
-        "start": 7,
-        "end": 8
+        "start": 10,
+        "end": 11
       },
       "body": {
         "type": "TSModuleBlock",
@@ -31,41 +31,41 @@ __ESTREE_TEST__:PASS:
                     "name": "X",
                     "optional": false,
                     "typeAnnotation": null,
-                    "start": 26,
-                    "end": 27
+                    "start": 29,
+                    "end": 30
                   },
                   "init": {
                     "type": "Literal",
                     "value": 1,
                     "raw": "1",
-                    "start": 30,
-                    "end": 31
+                    "start": 33,
+                    "end": 34
                   },
                   "definite": false,
-                  "start": 26,
-                  "end": 31
+                  "start": 29,
+                  "end": 34
                 }
               ],
               "declare": false,
-              "start": 22,
-              "end": 32
+              "start": 25,
+              "end": 35
             },
             "specifiers": [],
             "source": null,
             "exportKind": "value",
             "attributes": [],
-            "start": 15,
-            "end": 32
+            "start": 18,
+            "end": 35
           }
         ],
-        "start": 9,
-        "end": 34
+        "start": 12,
+        "end": 37
       },
-      "kind": "module",
+      "kind": "namespace",
       "declare": false,
       "global": false,
       "start": 0,
-      "end": 34
+      "end": 37
     },
     {
       "type": "TSInterfaceDeclaration",
@@ -75,8 +75,8 @@ __ESTREE_TEST__:PASS:
         "name": "Navigator",
         "optional": false,
         "typeAnnotation": null,
-        "start": 45,
-        "end": 54
+        "start": 48,
+        "end": 57
       },
       "typeParameters": null,
       "extends": [],
@@ -91,8 +91,8 @@ __ESTREE_TEST__:PASS:
               "name": "getGamepads",
               "optional": false,
               "typeAnnotation": null,
-              "start": 61,
-              "end": 72
+              "start": 64,
+              "end": 75
             },
             "computed": false,
             "optional": false,
@@ -108,31 +108,31 @@ __ESTREE_TEST__:PASS:
                   "type": "TSTypeAnnotation",
                   "typeAnnotation": {
                     "type": "TSAnyKeyword",
-                    "start": 80,
-                    "end": 83
+                    "start": 83,
+                    "end": 86
                   },
-                  "start": 78,
-                  "end": 83
+                  "start": 81,
+                  "end": 86
                 },
-                "start": 73,
-                "end": 83
+                "start": 76,
+                "end": 86
               }
             ],
             "returnType": {
               "type": "TSTypeAnnotation",
               "typeAnnotation": {
                 "type": "TSAnyKeyword",
-                "start": 86,
-                "end": 89
+                "start": 89,
+                "end": 92
               },
-              "start": 84,
-              "end": 89
+              "start": 87,
+              "end": 92
             },
             "accessibility": null,
             "readonly": false,
             "static": false,
-            "start": 61,
-            "end": 90
+            "start": 64,
+            "end": 93
           },
           {
             "type": "TSMethodSignature",
@@ -142,8 +142,8 @@ __ESTREE_TEST__:PASS:
               "name": "webkitGetGamepads",
               "optional": false,
               "typeAnnotation": null,
-              "start": 95,
-              "end": 112
+              "start": 98,
+              "end": 115
             },
             "computed": false,
             "optional": false,
@@ -159,31 +159,31 @@ __ESTREE_TEST__:PASS:
                   "type": "TSTypeAnnotation",
                   "typeAnnotation": {
                     "type": "TSAnyKeyword",
-                    "start": 120,
-                    "end": 123
+                    "start": 123,
+                    "end": 126
                   },
-                  "start": 118,
-                  "end": 123
+                  "start": 121,
+                  "end": 126
                 },
-                "start": 113,
-                "end": 123
+                "start": 116,
+                "end": 126
               }
             ],
             "returnType": {
               "type": "TSTypeAnnotation",
               "typeAnnotation": {
                 "type": "TSAnyKeyword",
-                "start": 126,
-                "end": 129
+                "start": 129,
+                "end": 132
               },
-              "start": 124,
-              "end": 129
+              "start": 127,
+              "end": 132
             },
             "accessibility": null,
             "readonly": false,
             "static": false,
-            "start": 95,
-            "end": 129
+            "start": 98,
+            "end": 132
           },
           {
             "type": "TSMethodSignature",
@@ -193,8 +193,8 @@ __ESTREE_TEST__:PASS:
               "name": "msGetGamepads",
               "optional": false,
               "typeAnnotation": null,
-              "start": 134,
-              "end": 147
+              "start": 137,
+              "end": 150
             },
             "computed": false,
             "optional": false,
@@ -210,31 +210,31 @@ __ESTREE_TEST__:PASS:
                   "type": "TSTypeAnnotation",
                   "typeAnnotation": {
                     "type": "TSAnyKeyword",
-                    "start": 155,
-                    "end": 158
+                    "start": 158,
+                    "end": 161
                   },
-                  "start": 153,
-                  "end": 158
+                  "start": 156,
+                  "end": 161
                 },
-                "start": 148,
-                "end": 158
+                "start": 151,
+                "end": 161
               }
             ],
             "returnType": {
               "type": "TSTypeAnnotation",
               "typeAnnotation": {
                 "type": "TSAnyKeyword",
-                "start": 161,
-                "end": 164
+                "start": 164,
+                "end": 167
               },
-              "start": 159,
-              "end": 164
+              "start": 162,
+              "end": 167
             },
             "accessibility": null,
             "readonly": false,
             "static": false,
-            "start": 134,
-            "end": 165
+            "start": 137,
+            "end": 168
           },
           {
             "type": "TSMethodSignature",
@@ -244,8 +244,8 @@ __ESTREE_TEST__:PASS:
               "name": "webkitGamepads",
               "optional": false,
               "typeAnnotation": null,
-              "start": 170,
-              "end": 184
+              "start": 173,
+              "end": 187
             },
             "computed": false,
             "optional": false,
@@ -261,45 +261,45 @@ __ESTREE_TEST__:PASS:
                   "type": "TSTypeAnnotation",
                   "typeAnnotation": {
                     "type": "TSAnyKeyword",
-                    "start": 192,
-                    "end": 195
+                    "start": 195,
+                    "end": 198
                   },
-                  "start": 190,
-                  "end": 195
+                  "start": 193,
+                  "end": 198
                 },
-                "start": 185,
-                "end": 195
+                "start": 188,
+                "end": 198
               }
             ],
             "returnType": {
               "type": "TSTypeAnnotation",
               "typeAnnotation": {
                 "type": "TSAnyKeyword",
-                "start": 198,
-                "end": 201
+                "start": 201,
+                "end": 204
               },
-              "start": 196,
-              "end": 201
+              "start": 199,
+              "end": 204
             },
             "accessibility": null,
             "readonly": false,
             "static": false,
-            "start": 170,
-            "end": 202
+            "start": 173,
+            "end": 205
           }
         ],
-        "start": 55,
-        "end": 204
+        "start": 58,
+        "end": 207
       },
       "declare": false,
-      "start": 35,
-      "end": 204
+      "start": 38,
+      "end": 207
     }
   ],
   "sourceType": "module",
   "hashbang": null,
   "start": 0,
-  "end": 205
+  "end": 208
 }
 ```
 __ESTREE_TEST__:PASS:
@@ -315,8 +315,8 @@ __ESTREE_TEST__:PASS:
         "name": "m1",
         "optional": false,
         "typeAnnotation": null,
-        "start": 7,
-        "end": 9
+        "start": 10,
+        "end": 12
       },
       "body": {
         "type": "TSModuleBlock",
@@ -332,8 +332,8 @@ __ESTREE_TEST__:PASS:
                 "name": "c1",
                 "optional": false,
                 "typeAnnotation": null,
-                "start": 29,
-                "end": 31
+                "start": 32,
+                "end": 34
               },
               "typeParameters": null,
               "superClass": null,
@@ -342,35 +342,35 @@ __ESTREE_TEST__:PASS:
               "body": {
                 "type": "ClassBody",
                 "body": [],
-                "start": 32,
-                "end": 39
+                "start": 35,
+                "end": 42
               },
               "abstract": false,
               "declare": false,
-              "start": 23,
-              "end": 39
+              "start": 26,
+              "end": 42
             },
             "specifiers": [],
             "source": null,
             "exportKind": "value",
             "attributes": [],
-            "start": 16,
-            "end": 39
+            "start": 19,
+            "end": 42
           }
         ],
-        "start": 10,
-        "end": 41
+        "start": 13,
+        "end": 44
       },
-      "kind": "module",
+      "kind": "namespace",
       "declare": false,
       "global": false,
       "start": 0,
-      "end": 41
+      "end": 44
     }
   ],
   "sourceType": "module",
   "hashbang": null,
   "start": 0,
-  "end": 41
+  "end": 44
 }
 ```

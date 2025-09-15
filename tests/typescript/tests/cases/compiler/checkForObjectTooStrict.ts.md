@@ -11,8 +11,8 @@ __ESTREE_TEST__:PASS:
         "name": "Foo",
         "optional": false,
         "typeAnnotation": null,
-        "start": 7,
-        "end": 10
+        "start": 10,
+        "end": 13
       },
       "body": {
         "type": "TSModuleBlock",
@@ -28,8 +28,8 @@ __ESTREE_TEST__:PASS:
                 "name": "Object",
                 "optional": false,
                 "typeAnnotation": null,
-                "start": 31,
-                "end": 37
+                "start": 34,
+                "end": 40
               },
               "typeParameters": null,
               "superClass": null,
@@ -38,30 +38,30 @@ __ESTREE_TEST__:PASS:
               "body": {
                 "type": "ClassBody",
                 "body": [],
-                "start": 38,
-                "end": 46
+                "start": 41,
+                "end": 49
               },
               "abstract": false,
               "declare": false,
-              "start": 25,
-              "end": 46
+              "start": 28,
+              "end": 49
             },
             "specifiers": [],
             "source": null,
             "exportKind": "value",
             "attributes": [],
-            "start": 18,
-            "end": 46
+            "start": 21,
+            "end": 49
           }
         ],
-        "start": 11,
-        "end": 49
+        "start": 14,
+        "end": 52
       },
-      "kind": "module",
+      "kind": "namespace",
       "declare": false,
       "global": false,
       "start": 0,
-      "end": 49
+      "end": 52
     },
     {
       "type": "ClassDeclaration",
@@ -72,8 +72,8 @@ __ESTREE_TEST__:PASS:
         "name": "Bar",
         "optional": false,
         "typeAnnotation": null,
-        "start": 60,
-        "end": 63
+        "start": 63,
+        "end": 66
       },
       "typeParameters": null,
       "superClass": {
@@ -84,8 +84,8 @@ __ESTREE_TEST__:PASS:
           "name": "Foo",
           "optional": false,
           "typeAnnotation": null,
-          "start": 72,
-          "end": 75
+          "start": 75,
+          "end": 78
         },
         "property": {
           "type": "Identifier",
@@ -93,13 +93,13 @@ __ESTREE_TEST__:PASS:
           "name": "Object",
           "optional": false,
           "typeAnnotation": null,
-          "start": 76,
-          "end": 82
+          "start": 79,
+          "end": 85
         },
         "optional": false,
         "computed": false,
-        "start": 72,
-        "end": 82
+        "start": 75,
+        "end": 85
       },
       "superTypeArguments": null,
       "implements": [],
@@ -115,8 +115,8 @@ __ESTREE_TEST__:PASS:
               "name": "constructor",
               "optional": false,
               "typeAnnotation": null,
-              "start": 105,
-              "end": 116
+              "start": 108,
+              "end": 119
             },
             "value": {
               "type": "FunctionExpression",
@@ -136,26 +136,26 @@ __ESTREE_TEST__:PASS:
                       "type": "CallExpression",
                       "callee": {
                         "type": "Super",
-                        "start": 131,
-                        "end": 136
+                        "start": 134,
+                        "end": 139
                       },
                       "typeArguments": null,
                       "arguments": [],
                       "optional": false,
-                      "start": 131,
-                      "end": 138
+                      "start": 134,
+                      "end": 141
                     },
                     "directive": null,
-                    "start": 131,
-                    "end": 139
+                    "start": 134,
+                    "end": 142
                   }
                 ],
-                "start": 120,
-                "end": 146
+                "start": 123,
+                "end": 149
               },
               "expression": false,
-              "start": 117,
-              "end": 146
+              "start": 120,
+              "end": 149
             },
             "kind": "constructor",
             "computed": false,
@@ -163,17 +163,17 @@ __ESTREE_TEST__:PASS:
             "override": false,
             "optional": false,
             "accessibility": null,
-            "start": 105,
-            "end": 146
+            "start": 108,
+            "end": 149
           }
         ],
-        "start": 83,
-        "end": 149
+        "start": 86,
+        "end": 152
       },
       "abstract": false,
       "declare": false,
-      "start": 54,
-      "end": 149
+      "start": 57,
+      "end": 152
     },
     {
       "type": "ClassDeclaration",
@@ -184,8 +184,8 @@ __ESTREE_TEST__:PASS:
         "name": "Baz",
         "optional": false,
         "typeAnnotation": null,
-        "start": 158,
-        "end": 161
+        "start": 161,
+        "end": 164
       },
       "typeParameters": null,
       "superClass": {
@@ -194,8 +194,8 @@ __ESTREE_TEST__:PASS:
         "name": "Object",
         "optional": false,
         "typeAnnotation": null,
-        "start": 170,
-        "end": 176
+        "start": 173,
+        "end": 179
       },
       "superTypeArguments": null,
       "implements": [],
@@ -211,8 +211,8 @@ __ESTREE_TEST__:PASS:
               "name": "constructor",
               "optional": false,
               "typeAnnotation": null,
-              "start": 184,
-              "end": 195
+              "start": 187,
+              "end": 198
             },
             "value": {
               "type": "FunctionExpression",
@@ -232,26 +232,26 @@ __ESTREE_TEST__:PASS:
                       "type": "CallExpression",
                       "callee": {
                         "type": "Super",
-                        "start": 232,
-                        "end": 237
+                        "start": 235,
+                        "end": 240
                       },
                       "typeArguments": null,
                       "arguments": [],
                       "optional": false,
-                      "start": 232,
-                      "end": 239
+                      "start": 235,
+                      "end": 242
                     },
                     "directive": null,
-                    "start": 232,
-                    "end": 240
+                    "start": 235,
+                    "end": 243
                   }
                 ],
-                "start": 199,
-                "end": 247
+                "start": 202,
+                "end": 250
               },
               "expression": false,
-              "start": 196,
-              "end": 247
+              "start": 199,
+              "end": 250
             },
             "kind": "constructor",
             "computed": false,
@@ -259,22 +259,22 @@ __ESTREE_TEST__:PASS:
             "override": false,
             "optional": false,
             "accessibility": null,
-            "start": 184,
-            "end": 247
+            "start": 187,
+            "end": 250
           }
         ],
-        "start": 177,
-        "end": 250
+        "start": 180,
+        "end": 253
       },
       "abstract": false,
       "declare": false,
-      "start": 152,
-      "end": 250
+      "start": 155,
+      "end": 253
     }
   ],
   "sourceType": "script",
   "hashbang": null,
   "start": 0,
-  "end": 250
+  "end": 253
 }
 ```

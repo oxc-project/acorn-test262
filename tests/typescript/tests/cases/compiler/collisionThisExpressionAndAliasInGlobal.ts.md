@@ -11,8 +11,8 @@ __ESTREE_TEST__:PASS:
         "name": "a",
         "optional": false,
         "typeAnnotation": null,
-        "start": 7,
-        "end": 8
+        "start": 10,
+        "end": 11
       },
       "body": {
         "type": "TSModuleBlock",
@@ -31,41 +31,41 @@ __ESTREE_TEST__:PASS:
                     "name": "b",
                     "optional": false,
                     "typeAnnotation": null,
-                    "start": 26,
-                    "end": 27
+                    "start": 29,
+                    "end": 30
                   },
                   "init": {
                     "type": "Literal",
                     "value": 10,
                     "raw": "10",
-                    "start": 30,
-                    "end": 32
+                    "start": 33,
+                    "end": 35
                   },
                   "definite": false,
-                  "start": 26,
-                  "end": 32
+                  "start": 29,
+                  "end": 35
                 }
               ],
               "declare": false,
-              "start": 22,
-              "end": 33
+              "start": 25,
+              "end": 36
             },
             "specifiers": [],
             "source": null,
             "exportKind": "value",
             "attributes": [],
-            "start": 15,
-            "end": 33
+            "start": 18,
+            "end": 36
           }
         ],
-        "start": 9,
-        "end": 35
+        "start": 12,
+        "end": 38
       },
-      "kind": "module",
+      "kind": "namespace",
       "declare": false,
       "global": false,
       "start": 0,
-      "end": 35
+      "end": 38
     },
     {
       "type": "VariableDeclaration",
@@ -79,8 +79,8 @@ __ESTREE_TEST__:PASS:
             "name": "f",
             "optional": false,
             "typeAnnotation": null,
-            "start": 40,
-            "end": 41
+            "start": 43,
+            "end": 44
           },
           "init": {
             "type": "ArrowFunctionExpression",
@@ -91,22 +91,22 @@ __ESTREE_TEST__:PASS:
             "returnType": null,
             "body": {
               "type": "ThisExpression",
-              "start": 50,
-              "end": 54
+              "start": 53,
+              "end": 57
             },
             "id": null,
             "generator": false,
-            "start": 44,
-            "end": 54
+            "start": 47,
+            "end": 57
           },
           "definite": false,
-          "start": 40,
-          "end": 54
+          "start": 43,
+          "end": 57
         }
       ],
       "declare": false,
-      "start": 36,
-      "end": 55
+      "start": 39,
+      "end": 58
     },
     {
       "type": "TSImportEqualsDeclaration",
@@ -116,8 +116,8 @@ __ESTREE_TEST__:PASS:
         "name": "_this",
         "optional": false,
         "typeAnnotation": null,
-        "start": 63,
-        "end": 68
+        "start": 66,
+        "end": 71
       },
       "moduleReference": {
         "type": "Identifier",
@@ -125,17 +125,17 @@ __ESTREE_TEST__:PASS:
         "name": "a",
         "optional": false,
         "typeAnnotation": null,
-        "start": 71,
-        "end": 72
+        "start": 74,
+        "end": 75
       },
       "importKind": "value",
-      "start": 56,
-      "end": 73
+      "start": 59,
+      "end": 76
     }
   ],
   "sourceType": "script",
   "hashbang": null,
   "start": 0,
-  "end": 82
+  "end": 85
 }
 ```

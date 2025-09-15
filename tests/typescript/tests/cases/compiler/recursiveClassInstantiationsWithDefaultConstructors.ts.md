@@ -11,8 +11,8 @@ __ESTREE_TEST__:PASS:
         "name": "TypeScript2",
         "optional": false,
         "typeAnnotation": null,
-        "start": 7,
-        "end": 18
+        "start": 10,
+        "end": 21
       },
       "body": {
         "type": "TSModuleBlock",
@@ -28,8 +28,8 @@ __ESTREE_TEST__:PASS:
                 "name": "MemberName",
                 "optional": false,
                 "typeAnnotation": null,
-                "start": 38,
-                "end": 48
+                "start": 41,
+                "end": 51
               },
               "typeParameters": null,
               "superClass": null,
@@ -47,25 +47,25 @@ __ESTREE_TEST__:PASS:
                       "name": "prefix",
                       "optional": false,
                       "typeAnnotation": null,
-                      "start": 66,
-                      "end": 72
+                      "start": 69,
+                      "end": 75
                     },
                     "typeAnnotation": {
                       "type": "TSTypeAnnotation",
                       "typeAnnotation": {
                         "type": "TSStringKeyword",
-                        "start": 74,
-                        "end": 80
+                        "start": 77,
+                        "end": 83
                       },
-                      "start": 72,
-                      "end": 80
+                      "start": 75,
+                      "end": 83
                     },
                     "value": {
                       "type": "Literal",
                       "value": "",
                       "raw": "\"\"",
-                      "start": 83,
-                      "end": 85
+                      "start": 86,
+                      "end": 88
                     },
                     "computed": false,
                     "static": false,
@@ -75,24 +75,24 @@ __ESTREE_TEST__:PASS:
                     "definite": false,
                     "readonly": false,
                     "accessibility": "public",
-                    "start": 59,
-                    "end": 86
+                    "start": 62,
+                    "end": 89
                   }
                 ],
-                "start": 49,
-                "end": 92
+                "start": 52,
+                "end": 95
               },
               "abstract": false,
               "declare": false,
-              "start": 32,
-              "end": 92
+              "start": 35,
+              "end": 95
             },
             "specifiers": [],
             "source": null,
             "exportKind": "value",
             "attributes": [],
-            "start": 25,
-            "end": 92
+            "start": 28,
+            "end": 95
           },
           {
             "type": "ExportNamedDeclaration",
@@ -105,8 +105,8 @@ __ESTREE_TEST__:PASS:
                 "name": "MemberNameArray",
                 "optional": false,
                 "typeAnnotation": null,
-                "start": 110,
-                "end": 125
+                "start": 113,
+                "end": 128
               },
               "typeParameters": null,
               "superClass": {
@@ -115,38 +115,38 @@ __ESTREE_TEST__:PASS:
                 "name": "MemberName",
                 "optional": false,
                 "typeAnnotation": null,
-                "start": 134,
-                "end": 144
+                "start": 137,
+                "end": 147
               },
               "superTypeArguments": null,
               "implements": [],
               "body": {
                 "type": "ClassBody",
                 "body": [],
-                "start": 145,
-                "end": 152
+                "start": 148,
+                "end": 155
               },
               "abstract": false,
               "declare": false,
-              "start": 104,
-              "end": 152
+              "start": 107,
+              "end": 155
             },
             "specifiers": [],
             "source": null,
             "exportKind": "value",
             "attributes": [],
-            "start": 97,
-            "end": 152
+            "start": 100,
+            "end": 155
           }
         ],
-        "start": 19,
-        "end": 154
+        "start": 22,
+        "end": 157
       },
-      "kind": "module",
+      "kind": "namespace",
       "declare": false,
       "global": false,
       "start": 0,
-      "end": 154
+      "end": 157
     },
     {
       "type": "VariableDeclaration",
@@ -160,8 +160,8 @@ __ESTREE_TEST__:PASS:
             "name": "a",
             "optional": false,
             "typeAnnotation": null,
-            "start": 160,
-            "end": 161
+            "start": 163,
+            "end": 164
           },
           "init": {
             "type": "NewExpression",
@@ -173,8 +173,8 @@ __ESTREE_TEST__:PASS:
                 "name": "TypeScript2",
                 "optional": false,
                 "typeAnnotation": null,
-                "start": 168,
-                "end": 179
+                "start": 171,
+                "end": 182
               },
               "property": {
                 "type": "Identifier",
@@ -182,32 +182,32 @@ __ESTREE_TEST__:PASS:
                 "name": "MemberNameArray",
                 "optional": false,
                 "typeAnnotation": null,
-                "start": 180,
-                "end": 195
+                "start": 183,
+                "end": 198
               },
               "optional": false,
               "computed": false,
-              "start": 168,
-              "end": 195
+              "start": 171,
+              "end": 198
             },
             "typeArguments": null,
             "arguments": [],
-            "start": 164,
-            "end": 197
+            "start": 167,
+            "end": 200
           },
           "definite": false,
-          "start": 160,
-          "end": 197
+          "start": 163,
+          "end": 200
         }
       ],
       "declare": false,
-      "start": 156,
-      "end": 197
+      "start": 159,
+      "end": 200
     }
   ],
   "sourceType": "script",
   "hashbang": null,
   "start": 0,
-  "end": 197
+  "end": 200
 }
 ```

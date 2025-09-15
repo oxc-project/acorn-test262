@@ -45,8 +45,8 @@ __ESTREE_TEST__:PASS:
         "name": "myMod",
         "optional": false,
         "typeAnnotation": null,
-        "start": 27,
-        "end": 32
+        "start": 30,
+        "end": 35
       },
       "body": {
         "type": "TSModuleBlock",
@@ -63,18 +63,18 @@ __ESTREE_TEST__:PASS:
                   "name": "myFn",
                   "optional": false,
                   "typeAnnotation": null,
-                  "start": 43,
-                  "end": 47
+                  "start": 46,
+                  "end": 50
                 },
                 "init": null,
                 "definite": false,
-                "start": 43,
-                "end": 47
+                "start": 46,
+                "end": 50
               }
             ],
             "declare": false,
-            "start": 39,
-            "end": 48
+            "start": 42,
+            "end": 51
           },
           {
             "type": "FunctionDeclaration",
@@ -84,8 +84,8 @@ __ESTREE_TEST__:PASS:
               "name": "myFn",
               "optional": false,
               "typeAnnotation": null,
-              "start": 62,
-              "end": 66
+              "start": 65,
+              "end": 69
             },
             "generator": false,
             "async": false,
@@ -96,27 +96,27 @@ __ESTREE_TEST__:PASS:
             "body": {
               "type": "BlockStatement",
               "body": [],
-              "start": 69,
-              "end": 73
+              "start": 72,
+              "end": 76
             },
             "expression": false,
-            "start": 53,
-            "end": 73
+            "start": 56,
+            "end": 76
           }
         ],
-        "start": 33,
-        "end": 75
+        "start": 36,
+        "end": 78
       },
-      "kind": "module",
+      "kind": "namespace",
       "declare": false,
       "global": false,
       "start": 20,
-      "end": 75
+      "end": 78
     }
   ],
   "sourceType": "script",
   "hashbang": null,
   "start": 0,
-  "end": 75
+  "end": 78
 }
 ```

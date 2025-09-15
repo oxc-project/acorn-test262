@@ -11,8 +11,8 @@ __ESTREE_TEST__:PASS:
         "name": "M",
         "optional": false,
         "typeAnnotation": null,
-        "start": 7,
-        "end": 8
+        "start": 10,
+        "end": 11
       },
       "body": {
         "type": "TSModuleBlock",
@@ -31,35 +31,35 @@ __ESTREE_TEST__:PASS:
                     "name": "x",
                     "optional": false,
                     "typeAnnotation": null,
-                    "start": 23,
-                    "end": 24
+                    "start": 26,
+                    "end": 27
                   },
                   "init": null,
                   "definite": false,
-                  "start": 23,
-                  "end": 24
+                  "start": 26,
+                  "end": 27
                 }
               ],
               "declare": false,
-              "start": 19,
-              "end": 25
+              "start": 22,
+              "end": 28
             },
             "specifiers": [],
             "source": null,
             "exportKind": "value",
             "attributes": [],
-            "start": 12,
-            "end": 25
+            "start": 15,
+            "end": 28
           }
         ],
-        "start": 9,
-        "end": 27
+        "start": 12,
+        "end": 30
       },
-      "kind": "module",
+      "kind": "namespace",
       "declare": false,
       "global": false,
       "start": 0,
-      "end": 27
+      "end": 30
     },
     {
       "type": "TSExportAssignment",
@@ -69,17 +69,17 @@ __ESTREE_TEST__:PASS:
         "name": "M",
         "optional": false,
         "typeAnnotation": null,
-        "start": 38,
-        "end": 39
+        "start": 41,
+        "end": 42
       },
-      "start": 29,
-      "end": 40
+      "start": 32,
+      "end": 43
     }
   ],
   "sourceType": "module",
   "hashbang": null,
   "start": 0,
-  "end": 41
+  "end": 44
 }
 ```
 __ESTREE_TEST__:PASS:

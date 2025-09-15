@@ -358,8 +358,8 @@ __ESTREE_TEST__:PASS:
         "name": "M",
         "optional": false,
         "typeAnnotation": null,
-        "start": 369,
-        "end": 370
+        "start": 372,
+        "end": 373
       },
       "body": {
         "type": "TSModuleBlock",
@@ -376,32 +376,32 @@ __ESTREE_TEST__:PASS:
                   "name": "x",
                   "optional": false,
                   "typeAnnotation": null,
-                  "start": 413,
-                  "end": 414
+                  "start": 416,
+                  "end": 417
                 },
                 "init": {
                   "type": "ThisExpression",
-                  "start": 417,
-                  "end": 421
+                  "start": 420,
+                  "end": 424
                 },
                 "definite": false,
-                "start": 413,
-                "end": 421
+                "start": 416,
+                "end": 424
               }
             ],
             "declare": false,
-            "start": 409,
-            "end": 422
+            "start": 412,
+            "end": 425
           }
         ],
-        "start": 371,
-        "end": 433
+        "start": 374,
+        "end": 436
       },
-      "kind": "module",
+      "kind": "namespace",
       "declare": false,
       "global": false,
       "start": 362,
-      "end": 433
+      "end": 436
     },
     {
       "type": "FunctionDeclaration",
@@ -411,8 +411,8 @@ __ESTREE_TEST__:PASS:
         "name": "genericFunc",
         "optional": false,
         "typeAnnotation": null,
-        "start": 558,
-        "end": 569
+        "start": 561,
+        "end": 572
       },
       "generator": false,
       "async": false,
@@ -428,20 +428,20 @@ __ESTREE_TEST__:PASS:
               "name": "T",
               "optional": false,
               "typeAnnotation": null,
-              "start": 570,
-              "end": 571
+              "start": 573,
+              "end": 574
             },
             "constraint": null,
             "default": null,
             "in": false,
             "out": false,
             "const": false,
-            "start": 570,
-            "end": 571
+            "start": 573,
+            "end": 574
           }
         ],
-        "start": 569,
-        "end": 572
+        "start": 572,
+        "end": 575
       },
       "params": [
         {
@@ -459,30 +459,30 @@ __ESTREE_TEST__:PASS:
                 "name": "T",
                 "optional": false,
                 "typeAnnotation": null,
-                "start": 576,
-                "end": 577
+                "start": 579,
+                "end": 580
               },
               "typeArguments": null,
-              "start": 576,
-              "end": 577
+              "start": 579,
+              "end": 580
             },
-            "start": 574,
-            "end": 577
+            "start": 577,
+            "end": 580
           },
-          "start": 573,
-          "end": 577
+          "start": 576,
+          "end": 580
         }
       ],
       "returnType": null,
       "body": {
         "type": "BlockStatement",
         "body": [],
-        "start": 579,
-        "end": 582
+        "start": 582,
+        "end": 585
       },
       "expression": false,
-      "start": 549,
-      "end": 582
+      "start": 552,
+      "end": 585
     },
     {
       "type": "ExpressionStatement",
@@ -494,20 +494,20 @@ __ESTREE_TEST__:PASS:
           "name": "genericFunc",
           "optional": false,
           "typeAnnotation": null,
-          "start": 583,
-          "end": 594
+          "start": 586,
+          "end": 597
         },
         "typeArguments": {
           "type": "TSTypeParameterInstantiation",
           "params": [
             {
               "type": "TSThisType",
-              "start": 595,
-              "end": 599
+              "start": 598,
+              "end": 602
             }
           ],
-          "start": 594,
-          "end": 600
+          "start": 597,
+          "end": 603
         },
         "arguments": [
           {
@@ -516,17 +516,17 @@ __ESTREE_TEST__:PASS:
             "name": "undefined",
             "optional": false,
             "typeAnnotation": null,
-            "start": 601,
-            "end": 610
+            "start": 604,
+            "end": 613
           }
         ],
         "optional": false,
-        "start": 583,
-        "end": 611
+        "start": 586,
+        "end": 614
       },
       "directive": null,
-      "start": 583,
-      "end": 612
+      "start": 586,
+      "end": 615
     },
     {
       "type": "ClassDeclaration",
@@ -537,27 +537,27 @@ __ESTREE_TEST__:PASS:
         "name": "ErrClass3",
         "optional": false,
         "typeAnnotation": null,
-        "start": 643,
-        "end": 652
+        "start": 646,
+        "end": 655
       },
       "typeParameters": null,
       "superClass": {
         "type": "ThisExpression",
-        "start": 661,
-        "end": 665
+        "start": 664,
+        "end": 668
       },
       "superTypeArguments": null,
       "implements": [],
       "body": {
         "type": "ClassBody",
         "body": [],
-        "start": 666,
-        "end": 670
+        "start": 669,
+        "end": 673
       },
       "abstract": false,
       "declare": false,
-      "start": 637,
-      "end": 670
+      "start": 640,
+      "end": 673
     },
     {
       "type": "TSEnumDeclaration",
@@ -567,8 +567,8 @@ __ESTREE_TEST__:PASS:
         "name": "SomeEnum",
         "optional": false,
         "typeAnnotation": null,
-        "start": 711,
-        "end": 719
+        "start": 714,
+        "end": 722
       },
       "body": {
         "type": "TSEnumBody",
@@ -581,17 +581,17 @@ __ESTREE_TEST__:PASS:
               "name": "A",
               "optional": false,
               "typeAnnotation": null,
-              "start": 726,
-              "end": 727
+              "start": 729,
+              "end": 730
             },
             "initializer": {
               "type": "ThisExpression",
-              "start": 730,
-              "end": 734
+              "start": 733,
+              "end": 737
             },
             "computed": false,
-            "start": 726,
-            "end": 734
+            "start": 729,
+            "end": 737
           },
           {
             "type": "TSEnumMember",
@@ -601,15 +601,15 @@ __ESTREE_TEST__:PASS:
               "name": "B",
               "optional": false,
               "typeAnnotation": null,
-              "start": 765,
-              "end": 766
+              "start": 768,
+              "end": 769
             },
             "initializer": {
               "type": "MemberExpression",
               "object": {
                 "type": "ThisExpression",
-                "start": 769,
-                "end": 773
+                "start": 772,
+                "end": 776
               },
               "property": {
                 "type": "Identifier",
@@ -617,31 +617,31 @@ __ESTREE_TEST__:PASS:
                 "name": "spaaaace",
                 "optional": false,
                 "typeAnnotation": null,
-                "start": 774,
-                "end": 782
+                "start": 777,
+                "end": 785
               },
               "optional": false,
               "computed": false,
-              "start": 769,
-              "end": 782
+              "start": 772,
+              "end": 785
             },
             "computed": false,
-            "start": 765,
-            "end": 782
+            "start": 768,
+            "end": 785
           }
         ],
-        "start": 720,
-        "end": 814
+        "start": 723,
+        "end": 817
       },
       "const": false,
       "declare": false,
-      "start": 706,
-      "end": 814
+      "start": 709,
+      "end": 817
     }
   ],
   "sourceType": "script",
   "hashbang": null,
   "start": 0,
-  "end": 815
+  "end": 818
 }
 ```

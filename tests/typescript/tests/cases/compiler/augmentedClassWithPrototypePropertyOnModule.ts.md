@@ -11,8 +11,8 @@ __ESTREE_TEST__:PASS:
         "name": "m",
         "optional": false,
         "typeAnnotation": null,
-        "start": 15,
-        "end": 16
+        "start": 18,
+        "end": 19
       },
       "body": {
         "type": "TSModuleBlock",
@@ -29,18 +29,18 @@ __ESTREE_TEST__:PASS:
                   "name": "f",
                   "optional": false,
                   "typeAnnotation": null,
-                  "start": 27,
-                  "end": 28
+                  "start": 30,
+                  "end": 31
                 },
                 "init": null,
                 "definite": false,
-                "start": 27,
-                "end": 28
+                "start": 30,
+                "end": 31
               }
             ],
             "declare": false,
-            "start": 23,
-            "end": 29
+            "start": 26,
+            "end": 32
           },
           {
             "type": "VariableDeclaration",
@@ -54,28 +54,28 @@ __ESTREE_TEST__:PASS:
                   "name": "prototype",
                   "optional": false,
                   "typeAnnotation": null,
-                  "start": 38,
-                  "end": 47
+                  "start": 41,
+                  "end": 50
                 },
                 "init": null,
                 "definite": false,
-                "start": 38,
-                "end": 47
+                "start": 41,
+                "end": 50
               }
             ],
             "declare": false,
-            "start": 34,
-            "end": 48
+            "start": 37,
+            "end": 51
           }
         ],
-        "start": 17,
-        "end": 126
+        "start": 20,
+        "end": 129
       },
-      "kind": "module",
+      "kind": "namespace",
       "declare": true,
       "global": false,
       "start": 0,
-      "end": 126
+      "end": 129
     },
     {
       "type": "ClassDeclaration",
@@ -86,8 +86,8 @@ __ESTREE_TEST__:PASS:
         "name": "m",
         "optional": false,
         "typeAnnotation": null,
-        "start": 141,
-        "end": 142
+        "start": 144,
+        "end": 145
       },
       "typeParameters": null,
       "superClass": null,
@@ -96,18 +96,18 @@ __ESTREE_TEST__:PASS:
       "body": {
         "type": "ClassBody",
         "body": [],
-        "start": 143,
-        "end": 146
+        "start": 146,
+        "end": 149
       },
       "abstract": false,
       "declare": true,
-      "start": 127,
-      "end": 146
+      "start": 130,
+      "end": 149
     }
   ],
   "sourceType": "script",
   "hashbang": null,
   "start": 0,
-  "end": 146
+  "end": 149
 }
 ```

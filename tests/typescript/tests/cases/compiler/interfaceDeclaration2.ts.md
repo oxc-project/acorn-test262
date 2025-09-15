@@ -34,20 +34,20 @@ __ESTREE_TEST__:PASS:
         "name": "I1",
         "optional": false,
         "typeAnnotation": null,
-        "start": 24,
-        "end": 26
+        "start": 27,
+        "end": 29
       },
       "body": {
         "type": "TSModuleBlock",
         "body": [],
-        "start": 27,
-        "end": 30
+        "start": 30,
+        "end": 33
       },
-      "kind": "module",
+      "kind": "namespace",
       "declare": false,
       "global": false,
       "start": 17,
-      "end": 30
+      "end": 33
     },
     {
       "type": "TSInterfaceDeclaration",
@@ -57,20 +57,20 @@ __ESTREE_TEST__:PASS:
         "name": "I2",
         "optional": false,
         "typeAnnotation": null,
-        "start": 42,
-        "end": 44
+        "start": 45,
+        "end": 47
       },
       "typeParameters": null,
       "extends": [],
       "body": {
         "type": "TSInterfaceBody",
         "body": [],
-        "start": 45,
-        "end": 48
+        "start": 48,
+        "end": 51
       },
       "declare": false,
-      "start": 32,
-      "end": 48
+      "start": 35,
+      "end": 51
     },
     {
       "type": "ClassDeclaration",
@@ -81,8 +81,8 @@ __ESTREE_TEST__:PASS:
         "name": "I2",
         "optional": false,
         "typeAnnotation": null,
-        "start": 55,
-        "end": 57
+        "start": 58,
+        "end": 60
       },
       "typeParameters": null,
       "superClass": null,
@@ -91,13 +91,13 @@ __ESTREE_TEST__:PASS:
       "body": {
         "type": "ClassBody",
         "body": [],
-        "start": 58,
-        "end": 61
+        "start": 61,
+        "end": 64
       },
       "abstract": false,
       "declare": false,
-      "start": 49,
-      "end": 61
+      "start": 52,
+      "end": 64
     },
     {
       "type": "TSInterfaceDeclaration",
@@ -107,20 +107,20 @@ __ESTREE_TEST__:PASS:
         "name": "I3",
         "optional": false,
         "typeAnnotation": null,
-        "start": 73,
-        "end": 75
+        "start": 76,
+        "end": 78
       },
       "typeParameters": null,
       "extends": [],
       "body": {
         "type": "TSInterfaceBody",
         "body": [],
-        "start": 76,
-        "end": 79
+        "start": 79,
+        "end": 82
       },
       "declare": false,
-      "start": 63,
-      "end": 79
+      "start": 66,
+      "end": 82
     },
     {
       "type": "FunctionDeclaration",
@@ -130,8 +130,8 @@ __ESTREE_TEST__:PASS:
         "name": "I3",
         "optional": false,
         "typeAnnotation": null,
-        "start": 89,
-        "end": 91
+        "start": 92,
+        "end": 94
       },
       "generator": false,
       "async": false,
@@ -142,12 +142,12 @@ __ESTREE_TEST__:PASS:
       "body": {
         "type": "BlockStatement",
         "body": [],
-        "start": 94,
-        "end": 97
+        "start": 97,
+        "end": 100
       },
       "expression": false,
-      "start": 80,
-      "end": 97
+      "start": 83,
+      "end": 100
     },
     {
       "type": "TSInterfaceDeclaration",
@@ -157,20 +157,20 @@ __ESTREE_TEST__:PASS:
         "name": "I4",
         "optional": false,
         "typeAnnotation": null,
-        "start": 109,
-        "end": 111
+        "start": 112,
+        "end": 114
       },
       "typeParameters": null,
       "extends": [],
       "body": {
         "type": "TSInterfaceBody",
         "body": [],
-        "start": 112,
-        "end": 115
+        "start": 115,
+        "end": 118
       },
       "declare": false,
-      "start": 99,
-      "end": 115
+      "start": 102,
+      "end": 118
     },
     {
       "type": "VariableDeclaration",
@@ -187,29 +187,29 @@ __ESTREE_TEST__:PASS:
               "type": "TSTypeAnnotation",
               "typeAnnotation": {
                 "type": "TSNumberKeyword",
-                "start": 123,
-                "end": 129
+                "start": 126,
+                "end": 132
               },
-              "start": 122,
-              "end": 129
+              "start": 125,
+              "end": 132
             },
-            "start": 120,
-            "end": 129
+            "start": 123,
+            "end": 132
           },
           "init": null,
           "definite": false,
-          "start": 120,
-          "end": 129
+          "start": 123,
+          "end": 132
         }
       ],
       "declare": false,
-      "start": 116,
-      "end": 130
+      "start": 119,
+      "end": 133
     }
   ],
   "sourceType": "script",
   "hashbang": null,
   "start": 0,
-  "end": 131
+  "end": 134
 }
 ```

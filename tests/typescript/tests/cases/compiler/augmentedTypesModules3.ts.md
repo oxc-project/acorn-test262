@@ -11,20 +11,20 @@ __ESTREE_TEST__:PASS:
         "name": "m3",
         "optional": false,
         "typeAnnotation": null,
-        "start": 30,
-        "end": 32
+        "start": 33,
+        "end": 35
       },
       "body": {
         "type": "TSModuleBlock",
         "body": [],
-        "start": 33,
-        "end": 36
+        "start": 36,
+        "end": 39
       },
-      "kind": "module",
+      "kind": "namespace",
       "declare": false,
       "global": false,
       "start": 23,
-      "end": 36
+      "end": 39
     },
     {
       "type": "ClassDeclaration",
@@ -35,8 +35,8 @@ __ESTREE_TEST__:PASS:
         "name": "m3",
         "optional": false,
         "typeAnnotation": null,
-        "start": 43,
-        "end": 45
+        "start": 46,
+        "end": 48
       },
       "typeParameters": null,
       "superClass": null,
@@ -45,13 +45,13 @@ __ESTREE_TEST__:PASS:
       "body": {
         "type": "ClassBody",
         "body": [],
-        "start": 46,
-        "end": 49
+        "start": 49,
+        "end": 52
       },
       "abstract": false,
       "declare": false,
-      "start": 37,
-      "end": 49
+      "start": 40,
+      "end": 52
     },
     {
       "type": "TSModuleDeclaration",
@@ -61,8 +61,8 @@ __ESTREE_TEST__:PASS:
         "name": "m3a",
         "optional": false,
         "typeAnnotation": null,
-        "start": 101,
-        "end": 104
+        "start": 107,
+        "end": 110
       },
       "body": {
         "type": "TSModuleBlock",
@@ -79,34 +79,34 @@ __ESTREE_TEST__:PASS:
                   "name": "y",
                   "optional": false,
                   "typeAnnotation": null,
-                  "start": 111,
-                  "end": 112
+                  "start": 117,
+                  "end": 118
                 },
                 "init": {
                   "type": "Literal",
                   "value": 2,
                   "raw": "2",
-                  "start": 115,
-                  "end": 116
+                  "start": 121,
+                  "end": 122
                 },
                 "definite": false,
-                "start": 111,
-                "end": 116
+                "start": 117,
+                "end": 122
               }
             ],
             "declare": false,
-            "start": 107,
-            "end": 117
+            "start": 113,
+            "end": 123
           }
         ],
-        "start": 105,
-        "end": 119
+        "start": 111,
+        "end": 125
       },
-      "kind": "module",
+      "kind": "namespace",
       "declare": false,
       "global": false,
-      "start": 94,
-      "end": 119
+      "start": 97,
+      "end": 125
     },
     {
       "type": "ClassDeclaration",
@@ -117,8 +117,8 @@ __ESTREE_TEST__:PASS:
         "name": "m3a",
         "optional": false,
         "typeAnnotation": null,
-        "start": 126,
-        "end": 129
+        "start": 132,
+        "end": 135
       },
       "typeParameters": null,
       "superClass": null,
@@ -136,8 +136,8 @@ __ESTREE_TEST__:PASS:
               "name": "foo",
               "optional": false,
               "typeAnnotation": null,
-              "start": 132,
-              "end": 135
+              "start": 138,
+              "end": 141
             },
             "value": {
               "type": "FunctionExpression",
@@ -151,12 +151,12 @@ __ESTREE_TEST__:PASS:
               "body": {
                 "type": "BlockStatement",
                 "body": [],
-                "start": 138,
-                "end": 141
+                "start": 144,
+                "end": 147
               },
               "expression": false,
-              "start": 135,
-              "end": 141
+              "start": 141,
+              "end": 147
             },
             "kind": "method",
             "computed": false,
@@ -164,22 +164,22 @@ __ESTREE_TEST__:PASS:
             "override": false,
             "optional": false,
             "accessibility": null,
-            "start": 132,
-            "end": 141
+            "start": 138,
+            "end": 147
           }
         ],
-        "start": 130,
-        "end": 143
+        "start": 136,
+        "end": 149
       },
       "abstract": false,
       "declare": false,
-      "start": 120,
-      "end": 143
+      "start": 126,
+      "end": 149
     }
   ],
   "sourceType": "script",
   "hashbang": null,
   "start": 23,
-  "end": 203
+  "end": 209
 }
 ```

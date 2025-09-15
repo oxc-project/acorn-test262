@@ -69,8 +69,8 @@ __ESTREE_TEST__:PASS:
         "name": "fn",
         "optional": false,
         "typeAnnotation": null,
-        "start": 42,
-        "end": 44
+        "start": 45,
+        "end": 47
       },
       "body": {
         "type": "TSModuleBlock",
@@ -89,46 +89,46 @@ __ESTREE_TEST__:PASS:
                     "name": "n",
                     "optional": false,
                     "typeAnnotation": null,
-                    "start": 62,
-                    "end": 63
+                    "start": 65,
+                    "end": 66
                   },
                   "init": {
                     "type": "Literal",
                     "value": 1,
                     "raw": "1",
-                    "start": 66,
-                    "end": 67
+                    "start": 69,
+                    "end": 70
                   },
                   "definite": false,
-                  "start": 62,
-                  "end": 67
+                  "start": 65,
+                  "end": 70
                 }
               ],
               "declare": false,
-              "start": 58,
-              "end": 68
+              "start": 61,
+              "end": 71
             },
             "specifiers": [],
             "source": null,
             "exportKind": "value",
             "attributes": [],
-            "start": 51,
-            "end": 68
+            "start": 54,
+            "end": 71
           }
         ],
-        "start": 45,
-        "end": 70
+        "start": 48,
+        "end": 73
       },
-      "kind": "module",
+      "kind": "namespace",
       "declare": false,
       "global": false,
       "start": 35,
-      "end": 70
+      "end": 73
     }
   ],
   "sourceType": "script",
   "hashbang": null,
   "start": 0,
-  "end": 70
+  "end": 73
 }
 ```

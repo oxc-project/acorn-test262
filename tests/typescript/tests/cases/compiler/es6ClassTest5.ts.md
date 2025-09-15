@@ -164,20 +164,20 @@ __ESTREE_TEST__:PASS:
         "name": "C2T5",
         "optional": false,
         "typeAnnotation": null,
-        "start": 107,
-        "end": 111
+        "start": 110,
+        "end": 114
       },
       "body": {
         "type": "TSModuleBlock",
         "body": [],
-        "start": 112,
-        "end": 114
+        "start": 115,
+        "end": 117
       },
-      "kind": "module",
+      "kind": "namespace",
       "declare": false,
       "global": false,
       "start": 100,
-      "end": 114
+      "end": 117
     },
     {
       "type": "ClassDeclaration",
@@ -188,8 +188,8 @@ __ESTREE_TEST__:PASS:
         "name": "bigClass",
         "optional": false,
         "typeAnnotation": null,
-        "start": 123,
-        "end": 131
+        "start": 126,
+        "end": 134
       },
       "typeParameters": null,
       "superClass": null,
@@ -207,16 +207,16 @@ __ESTREE_TEST__:PASS:
               "name": "break",
               "optional": false,
               "typeAnnotation": null,
-              "start": 146,
-              "end": 151
+              "start": 149,
+              "end": 154
             },
             "typeAnnotation": null,
             "value": {
               "type": "Literal",
               "value": 1,
               "raw": "1",
-              "start": 154,
-              "end": 155
+              "start": 157,
+              "end": 158
             },
             "computed": false,
             "static": false,
@@ -226,22 +226,22 @@ __ESTREE_TEST__:PASS:
             "definite": false,
             "readonly": false,
             "accessibility": "public",
-            "start": 139,
-            "end": 156
+            "start": 142,
+            "end": 159
           }
         ],
-        "start": 132,
-        "end": 158
+        "start": 135,
+        "end": 161
       },
       "abstract": false,
       "declare": false,
-      "start": 116,
-      "end": 158
+      "start": 119,
+      "end": 161
     }
   ],
   "sourceType": "script",
   "hashbang": null,
   "start": 0,
-  "end": 158
+  "end": 161
 }
 ```

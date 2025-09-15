@@ -312,8 +312,8 @@ __ESTREE_TEST__:PASS:
         "name": "Color",
         "optional": false,
         "typeAnnotation": null,
-        "start": 163,
-        "end": 168
+        "start": 166,
+        "end": 171
       },
       "body": {
         "type": "TSModuleBlock",
@@ -341,45 +341,45 @@ __ESTREE_TEST__:PASS:
                           "name": "NamedColors",
                           "optional": false,
                           "typeAnnotation": null,
-                          "start": 199,
-                          "end": 210
+                          "start": 202,
+                          "end": 213
                         },
                         "typeArguments": null,
-                        "start": 199,
-                        "end": 210
+                        "start": 202,
+                        "end": 213
                       },
-                      "start": 197,
-                      "end": 210
+                      "start": 200,
+                      "end": 213
                     },
-                    "start": 186,
-                    "end": 210
+                    "start": 189,
+                    "end": 213
                   },
                   "init": null,
                   "definite": false,
-                  "start": 186,
-                  "end": 210
+                  "start": 189,
+                  "end": 213
                 }
               ],
               "declare": false,
-              "start": 182,
-              "end": 211
+              "start": 185,
+              "end": 214
             },
             "specifiers": [],
             "source": null,
             "exportKind": "value",
             "attributes": [],
-            "start": 175,
-            "end": 211
+            "start": 178,
+            "end": 214
           }
         ],
-        "start": 169,
-        "end": 213
+        "start": 172,
+        "end": 216
       },
-      "kind": "module",
+      "kind": "namespace",
       "declare": false,
       "global": false,
       "start": 156,
-      "end": 213
+      "end": 216
     },
     {
       "type": "VariableDeclaration",
@@ -393,8 +393,8 @@ __ESTREE_TEST__:PASS:
             "name": "a",
             "optional": false,
             "typeAnnotation": null,
-            "start": 218,
-            "end": 219
+            "start": 221,
+            "end": 222
           },
           "init": {
             "type": "MemberExpression",
@@ -406,8 +406,8 @@ __ESTREE_TEST__:PASS:
                 "name": "Color",
                 "optional": false,
                 "typeAnnotation": null,
-                "start": 222,
-                "end": 227
+                "start": 225,
+                "end": 230
               },
               "property": {
                 "type": "Identifier",
@@ -415,34 +415,34 @@ __ESTREE_TEST__:PASS:
                 "name": "namedColors",
                 "optional": false,
                 "typeAnnotation": null,
-                "start": 228,
-                "end": 239
+                "start": 231,
+                "end": 242
               },
               "optional": false,
               "computed": false,
-              "start": 222,
-              "end": 239
+              "start": 225,
+              "end": 242
             },
             "property": {
               "type": "Literal",
               "value": "azure",
               "raw": "\"azure\"",
-              "start": 240,
-              "end": 247
+              "start": 243,
+              "end": 250
             },
             "optional": false,
             "computed": true,
-            "start": 222,
-            "end": 248
+            "start": 225,
+            "end": 251
           },
           "definite": false,
-          "start": 218,
-          "end": 248
+          "start": 221,
+          "end": 251
         }
       ],
       "declare": false,
-      "start": 214,
-      "end": 249
+      "start": 217,
+      "end": 252
     },
     {
       "type": "VariableDeclaration",
@@ -456,8 +456,8 @@ __ESTREE_TEST__:PASS:
             "name": "a",
             "optional": false,
             "typeAnnotation": null,
-            "start": 254,
-            "end": 255
+            "start": 257,
+            "end": 258
           },
           "init": {
             "type": "MemberExpression",
@@ -469,8 +469,8 @@ __ESTREE_TEST__:PASS:
                 "name": "Color",
                 "optional": false,
                 "typeAnnotation": null,
-                "start": 258,
-                "end": 263
+                "start": 261,
+                "end": 266
               },
               "property": {
                 "type": "Identifier",
@@ -478,13 +478,13 @@ __ESTREE_TEST__:PASS:
                 "name": "namedColors",
                 "optional": false,
                 "typeAnnotation": null,
-                "start": 264,
-                "end": 275
+                "start": 267,
+                "end": 278
               },
               "optional": false,
               "computed": false,
-              "start": 258,
-              "end": 275
+              "start": 261,
+              "end": 278
             },
             "property": {
               "type": "Identifier",
@@ -492,22 +492,22 @@ __ESTREE_TEST__:PASS:
               "name": "blue",
               "optional": false,
               "typeAnnotation": null,
-              "start": 276,
-              "end": 280
+              "start": 279,
+              "end": 283
             },
             "optional": false,
             "computed": false,
-            "start": 258,
-            "end": 280
+            "start": 261,
+            "end": 283
           },
           "definite": false,
-          "start": 254,
-          "end": 280
+          "start": 257,
+          "end": 283
         }
       ],
       "declare": false,
-      "start": 250,
-      "end": 281
+      "start": 253,
+      "end": 284
     },
     {
       "type": "VariableDeclaration",
@@ -521,8 +521,8 @@ __ESTREE_TEST__:PASS:
             "name": "a",
             "optional": false,
             "typeAnnotation": null,
-            "start": 306,
-            "end": 307
+            "start": 309,
+            "end": 310
           },
           "init": {
             "type": "MemberExpression",
@@ -534,8 +534,8 @@ __ESTREE_TEST__:PASS:
                 "name": "Color",
                 "optional": false,
                 "typeAnnotation": null,
-                "start": 310,
-                "end": 315
+                "start": 313,
+                "end": 318
               },
               "property": {
                 "type": "Identifier",
@@ -543,39 +543,39 @@ __ESTREE_TEST__:PASS:
                 "name": "namedColors",
                 "optional": false,
                 "typeAnnotation": null,
-                "start": 316,
-                "end": 327
+                "start": 319,
+                "end": 330
               },
               "optional": false,
               "computed": false,
-              "start": 310,
-              "end": 327
+              "start": 313,
+              "end": 330
             },
             "property": {
               "type": "Literal",
               "value": "pale blue",
               "raw": "\"pale blue\"",
-              "start": 328,
-              "end": 339
+              "start": 331,
+              "end": 342
             },
             "optional": false,
             "computed": true,
-            "start": 310,
-            "end": 340
+            "start": 313,
+            "end": 343
           },
           "definite": false,
-          "start": 306,
-          "end": 340
+          "start": 309,
+          "end": 343
         }
       ],
       "declare": false,
-      "start": 302,
-      "end": 341
+      "start": 305,
+      "end": 344
     }
   ],
   "sourceType": "script",
   "hashbang": null,
   "start": 0,
-  "end": 361
+  "end": 364
 }
 ```

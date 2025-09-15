@@ -11,8 +11,8 @@ __ESTREE_TEST__:PASS:
         "name": "test",
         "optional": false,
         "typeAnnotation": null,
-        "start": 15,
-        "end": 19
+        "start": 18,
+        "end": 22
       },
       "body": {
         "type": "TSModuleBlock",
@@ -25,20 +25,20 @@ __ESTREE_TEST__:PASS:
               "name": "mi_string",
               "optional": false,
               "typeAnnotation": null,
-              "start": 36,
-              "end": 45
+              "start": 39,
+              "end": 48
             },
             "typeParameters": null,
             "extends": [],
             "body": {
               "type": "TSInterfaceBody",
               "body": [],
-              "start": 46,
-              "end": 49
+              "start": 49,
+              "end": 52
             },
             "declare": false,
-            "start": 26,
-            "end": 49
+            "start": 29,
+            "end": 52
           },
           {
             "type": "TSModuleDeclaration",
@@ -48,20 +48,20 @@ __ESTREE_TEST__:PASS:
               "name": "mi_string",
               "optional": false,
               "typeAnnotation": null,
-              "start": 61,
-              "end": 70
+              "start": 67,
+              "end": 76
             },
             "body": {
               "type": "TSModuleBlock",
               "body": [],
-              "start": 71,
-              "end": 74
+              "start": 77,
+              "end": 80
             },
-            "kind": "module",
+            "kind": "namespace",
             "declare": false,
             "global": false,
-            "start": 54,
-            "end": 74
+            "start": 57,
+            "end": 80
           },
           {
             "type": "TSImportEqualsDeclaration",
@@ -71,8 +71,8 @@ __ESTREE_TEST__:PASS:
               "name": "string",
               "optional": false,
               "typeAnnotation": null,
-              "start": 191,
-              "end": 197
+              "start": 197,
+              "end": 203
             },
             "moduleReference": {
               "type": "Identifier",
@@ -80,27 +80,27 @@ __ESTREE_TEST__:PASS:
               "name": "mi_string",
               "optional": false,
               "typeAnnotation": null,
-              "start": 200,
-              "end": 209
+              "start": 206,
+              "end": 215
             },
             "importKind": "value",
-            "start": 184,
-            "end": 210
+            "start": 190,
+            "end": 216
           }
         ],
-        "start": 20,
-        "end": 212
+        "start": 23,
+        "end": 218
       },
-      "kind": "module",
+      "kind": "namespace",
       "declare": true,
       "global": false,
       "start": 0,
-      "end": 212
+      "end": 218
     }
   ],
   "sourceType": "script",
   "hashbang": null,
   "start": 0,
-  "end": 212
+  "end": 218
 }
 ```

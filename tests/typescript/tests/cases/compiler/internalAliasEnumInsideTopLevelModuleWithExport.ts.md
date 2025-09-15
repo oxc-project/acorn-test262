@@ -13,8 +13,8 @@ __ESTREE_TEST__:PASS:
           "name": "a",
           "optional": false,
           "typeAnnotation": null,
-          "start": 14,
-          "end": 15
+          "start": 17,
+          "end": 18
         },
         "body": {
           "type": "TSModuleBlock",
@@ -29,8 +29,8 @@ __ESTREE_TEST__:PASS:
                   "name": "weekend",
                   "optional": false,
                   "typeAnnotation": null,
-                  "start": 34,
-                  "end": 41
+                  "start": 37,
+                  "end": 44
                 },
                 "body": {
                   "type": "TSEnumBody",
@@ -43,13 +43,13 @@ __ESTREE_TEST__:PASS:
                         "name": "Friday",
                         "optional": false,
                         "typeAnnotation": null,
-                        "start": 52,
-                        "end": 58
+                        "start": 55,
+                        "end": 61
                       },
                       "initializer": null,
                       "computed": false,
-                      "start": 52,
-                      "end": 58
+                      "start": 55,
+                      "end": 61
                     },
                     {
                       "type": "TSEnumMember",
@@ -59,13 +59,13 @@ __ESTREE_TEST__:PASS:
                         "name": "Saturday",
                         "optional": false,
                         "typeAnnotation": null,
-                        "start": 68,
-                        "end": 76
+                        "start": 71,
+                        "end": 79
                       },
                       "initializer": null,
                       "computed": false,
-                      "start": 68,
-                      "end": 76
+                      "start": 71,
+                      "end": 79
                     },
                     {
                       "type": "TSEnumMember",
@@ -75,46 +75,46 @@ __ESTREE_TEST__:PASS:
                         "name": "Sunday",
                         "optional": false,
                         "typeAnnotation": null,
-                        "start": 86,
-                        "end": 92
+                        "start": 89,
+                        "end": 95
                       },
                       "initializer": null,
                       "computed": false,
-                      "start": 86,
-                      "end": 92
+                      "start": 89,
+                      "end": 95
                     }
                   ],
-                  "start": 42,
-                  "end": 98
+                  "start": 45,
+                  "end": 101
                 },
                 "const": false,
                 "declare": false,
-                "start": 29,
-                "end": 98
+                "start": 32,
+                "end": 101
               },
               "specifiers": [],
               "source": null,
               "exportKind": "value",
               "attributes": [],
-              "start": 22,
-              "end": 98
+              "start": 25,
+              "end": 101
             }
           ],
-          "start": 16,
-          "end": 100
+          "start": 19,
+          "end": 103
         },
-        "kind": "module",
+        "kind": "namespace",
         "declare": false,
         "global": false,
         "start": 7,
-        "end": 100
+        "end": 103
       },
       "specifiers": [],
       "source": null,
       "exportKind": "value",
       "attributes": [],
       "start": 0,
-      "end": 100
+      "end": 103
     },
     {
       "type": "ExportNamedDeclaration",
@@ -126,8 +126,8 @@ __ESTREE_TEST__:PASS:
           "name": "b",
           "optional": false,
           "typeAnnotation": null,
-          "start": 116,
-          "end": 117
+          "start": 119,
+          "end": 120
         },
         "moduleReference": {
           "type": "TSQualifiedName",
@@ -137,8 +137,8 @@ __ESTREE_TEST__:PASS:
             "name": "a",
             "optional": false,
             "typeAnnotation": null,
-            "start": 120,
-            "end": 121
+            "start": 123,
+            "end": 124
           },
           "right": {
             "type": "Identifier",
@@ -146,22 +146,22 @@ __ESTREE_TEST__:PASS:
             "name": "weekend",
             "optional": false,
             "typeAnnotation": null,
-            "start": 122,
-            "end": 129
+            "start": 125,
+            "end": 132
           },
-          "start": 120,
-          "end": 129
+          "start": 123,
+          "end": 132
         },
         "importKind": "value",
-        "start": 109,
-        "end": 130
+        "start": 112,
+        "end": 133
       },
       "specifiers": [],
       "source": null,
       "exportKind": "value",
       "attributes": [],
-      "start": 102,
-      "end": 130
+      "start": 105,
+      "end": 133
     },
     {
       "type": "ExportNamedDeclaration",
@@ -186,18 +186,18 @@ __ESTREE_TEST__:PASS:
                     "name": "b",
                     "optional": false,
                     "typeAnnotation": null,
-                    "start": 148,
-                    "end": 149
+                    "start": 151,
+                    "end": 152
                   },
                   "typeArguments": null,
-                  "start": 148,
-                  "end": 149
+                  "start": 151,
+                  "end": 152
                 },
-                "start": 146,
-                "end": 149
+                "start": 149,
+                "end": 152
               },
-              "start": 142,
-              "end": 149
+              "start": 145,
+              "end": 152
             },
             "init": {
               "type": "MemberExpression",
@@ -207,8 +207,8 @@ __ESTREE_TEST__:PASS:
                 "name": "b",
                 "optional": false,
                 "typeAnnotation": null,
-                "start": 152,
-                "end": 153
+                "start": 155,
+                "end": 156
               },
               "property": {
                 "type": "Identifier",
@@ -216,34 +216,34 @@ __ESTREE_TEST__:PASS:
                 "name": "Sunday",
                 "optional": false,
                 "typeAnnotation": null,
-                "start": 154,
-                "end": 160
+                "start": 157,
+                "end": 163
               },
               "optional": false,
               "computed": false,
-              "start": 152,
-              "end": 160
+              "start": 155,
+              "end": 163
             },
             "definite": false,
-            "start": 142,
-            "end": 160
+            "start": 145,
+            "end": 163
           }
         ],
         "declare": false,
-        "start": 138,
-        "end": 161
+        "start": 141,
+        "end": 164
       },
       "specifiers": [],
       "source": null,
       "exportKind": "value",
       "attributes": [],
-      "start": 131,
-      "end": 161
+      "start": 134,
+      "end": 164
     }
   ],
   "sourceType": "module",
   "hashbang": null,
   "start": 0,
-  "end": 161
+  "end": 164
 }
 ```

@@ -177,8 +177,8 @@ __ESTREE_TEST__:PASS:
         "name": "D",
         "optional": false,
         "typeAnnotation": null,
-        "start": 258,
-        "end": 259
+        "start": 261,
+        "end": 262
       },
       "body": {
         "type": "TSModuleBlock",
@@ -197,8 +197,8 @@ __ESTREE_TEST__:PASS:
                     "name": "y",
                     "optional": false,
                     "typeAnnotation": null,
-                    "start": 277,
-                    "end": 278
+                    "start": 280,
+                    "end": 281
                   },
                   "init": {
                     "type": "MemberExpression",
@@ -208,8 +208,8 @@ __ESTREE_TEST__:PASS:
                       "name": "D",
                       "optional": false,
                       "typeAnnotation": null,
-                      "start": 281,
-                      "end": 282
+                      "start": 284,
+                      "end": 285
                     },
                     "property": {
                       "type": "Identifier",
@@ -217,44 +217,44 @@ __ESTREE_TEST__:PASS:
                       "name": "bar",
                       "optional": false,
                       "typeAnnotation": null,
-                      "start": 283,
-                      "end": 286
+                      "start": 286,
+                      "end": 289
                     },
                     "optional": false,
                     "computed": false,
-                    "start": 281,
-                    "end": 286
+                    "start": 284,
+                    "end": 289
                   },
                   "definite": false,
-                  "start": 277,
-                  "end": 286
+                  "start": 280,
+                  "end": 289
                 }
               ],
               "declare": false,
-              "start": 273,
-              "end": 287
+              "start": 276,
+              "end": 290
             },
             "specifiers": [],
             "source": null,
             "exportKind": "value",
             "attributes": [],
-            "start": 266,
-            "end": 287
+            "start": 269,
+            "end": 290
           }
         ],
-        "start": 260,
-        "end": 298
+        "start": 263,
+        "end": 301
       },
-      "kind": "module",
+      "kind": "namespace",
       "declare": false,
       "global": false,
       "start": 251,
-      "end": 298
+      "end": 301
     }
   ],
   "sourceType": "script",
   "hashbang": null,
   "start": 138,
-  "end": 298
+  "end": 301
 }
 ```

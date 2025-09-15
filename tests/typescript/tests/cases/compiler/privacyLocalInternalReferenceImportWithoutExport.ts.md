@@ -11,8 +11,8 @@ __ESTREE_TEST__:PASS:
         "name": "m_private",
         "optional": false,
         "typeAnnotation": null,
-        "start": 27,
-        "end": 36
+        "start": 30,
+        "end": 39
       },
       "body": {
         "type": "TSModuleBlock",
@@ -28,8 +28,8 @@ __ESTREE_TEST__:PASS:
                 "name": "c_private",
                 "optional": false,
                 "typeAnnotation": null,
-                "start": 56,
-                "end": 65
+                "start": 59,
+                "end": 68
               },
               "typeParameters": null,
               "superClass": null,
@@ -38,20 +38,20 @@ __ESTREE_TEST__:PASS:
               "body": {
                 "type": "ClassBody",
                 "body": [],
-                "start": 66,
-                "end": 73
+                "start": 69,
+                "end": 76
               },
               "abstract": false,
               "declare": false,
-              "start": 50,
-              "end": 73
+              "start": 53,
+              "end": 76
             },
             "specifiers": [],
             "source": null,
             "exportKind": "value",
             "attributes": [],
-            "start": 43,
-            "end": 73
+            "start": 46,
+            "end": 76
           },
           {
             "type": "ExportNamedDeclaration",
@@ -63,8 +63,8 @@ __ESTREE_TEST__:PASS:
                 "name": "e_private",
                 "optional": false,
                 "typeAnnotation": null,
-                "start": 90,
-                "end": 99
+                "start": 93,
+                "end": 102
               },
               "body": {
                 "type": "TSEnumBody",
@@ -77,13 +77,13 @@ __ESTREE_TEST__:PASS:
                       "name": "Happy",
                       "optional": false,
                       "typeAnnotation": null,
-                      "start": 110,
-                      "end": 115
+                      "start": 113,
+                      "end": 118
                     },
                     "initializer": null,
                     "computed": false,
-                    "start": 110,
-                    "end": 115
+                    "start": 113,
+                    "end": 118
                   },
                   {
                     "type": "TSEnumMember",
@@ -93,29 +93,29 @@ __ESTREE_TEST__:PASS:
                       "name": "Grumpy",
                       "optional": false,
                       "typeAnnotation": null,
-                      "start": 125,
-                      "end": 131
+                      "start": 128,
+                      "end": 134
                     },
                     "initializer": null,
                     "computed": false,
-                    "start": 125,
-                    "end": 131
+                    "start": 128,
+                    "end": 134
                   }
                 ],
-                "start": 100,
-                "end": 137
+                "start": 103,
+                "end": 140
               },
               "const": false,
               "declare": false,
-              "start": 85,
-              "end": 137
+              "start": 88,
+              "end": 140
             },
             "specifiers": [],
             "source": null,
             "exportKind": "value",
             "attributes": [],
-            "start": 78,
-            "end": 137
+            "start": 81,
+            "end": 140
           },
           {
             "type": "ExportNamedDeclaration",
@@ -127,8 +127,8 @@ __ESTREE_TEST__:PASS:
                 "name": "f_private",
                 "optional": false,
                 "typeAnnotation": null,
-                "start": 158,
-                "end": 167
+                "start": 161,
+                "end": 170
               },
               "generator": false,
               "async": false,
@@ -149,31 +149,31 @@ __ESTREE_TEST__:PASS:
                         "name": "c_private",
                         "optional": false,
                         "typeAnnotation": null,
-                        "start": 191,
-                        "end": 200
+                        "start": 194,
+                        "end": 203
                       },
                       "typeArguments": null,
                       "arguments": [],
-                      "start": 187,
-                      "end": 202
+                      "start": 190,
+                      "end": 205
                     },
-                    "start": 180,
-                    "end": 203
+                    "start": 183,
+                    "end": 206
                   }
                 ],
-                "start": 170,
-                "end": 209
+                "start": 173,
+                "end": 212
               },
               "expression": false,
-              "start": 149,
-              "end": 209
+              "start": 152,
+              "end": 212
             },
             "specifiers": [],
             "source": null,
             "exportKind": "value",
             "attributes": [],
-            "start": 142,
-            "end": 209
+            "start": 145,
+            "end": 212
           },
           {
             "type": "ExportNamedDeclaration",
@@ -189,8 +189,8 @@ __ESTREE_TEST__:PASS:
                     "name": "v_private",
                     "optional": false,
                     "typeAnnotation": null,
-                    "start": 225,
-                    "end": 234
+                    "start": 228,
+                    "end": 237
                   },
                   "init": {
                     "type": "NewExpression",
@@ -200,29 +200,29 @@ __ESTREE_TEST__:PASS:
                       "name": "c_private",
                       "optional": false,
                       "typeAnnotation": null,
-                      "start": 241,
-                      "end": 250
+                      "start": 244,
+                      "end": 253
                     },
                     "typeArguments": null,
                     "arguments": [],
-                    "start": 237,
-                    "end": 252
+                    "start": 240,
+                    "end": 255
                   },
                   "definite": false,
-                  "start": 225,
-                  "end": 252
+                  "start": 228,
+                  "end": 255
                 }
               ],
               "declare": false,
-              "start": 221,
-              "end": 253
+              "start": 224,
+              "end": 256
             },
             "specifiers": [],
             "source": null,
             "exportKind": "value",
             "attributes": [],
-            "start": 214,
-            "end": 253
+            "start": 217,
+            "end": 256
           },
           {
             "type": "ExportNamedDeclaration",
@@ -234,27 +234,27 @@ __ESTREE_TEST__:PASS:
                 "name": "i_private",
                 "optional": false,
                 "typeAnnotation": null,
-                "start": 275,
-                "end": 284
+                "start": 278,
+                "end": 287
               },
               "typeParameters": null,
               "extends": [],
               "body": {
                 "type": "TSInterfaceBody",
                 "body": [],
-                "start": 285,
-                "end": 292
+                "start": 288,
+                "end": 295
               },
               "declare": false,
-              "start": 265,
-              "end": 292
+              "start": 268,
+              "end": 295
             },
             "specifiers": [],
             "source": null,
             "exportKind": "type",
             "attributes": [],
-            "start": 258,
-            "end": 292
+            "start": 261,
+            "end": 295
           },
           {
             "type": "ExportNamedDeclaration",
@@ -266,8 +266,8 @@ __ESTREE_TEST__:PASS:
                 "name": "mi_private",
                 "optional": false,
                 "typeAnnotation": null,
-                "start": 311,
-                "end": 321
+                "start": 317,
+                "end": 327
               },
               "body": {
                 "type": "TSModuleBlock",
@@ -283,8 +283,8 @@ __ESTREE_TEST__:PASS:
                         "name": "c",
                         "optional": false,
                         "typeAnnotation": null,
-                        "start": 345,
-                        "end": 346
+                        "start": 351,
+                        "end": 352
                       },
                       "typeParameters": null,
                       "superClass": null,
@@ -293,37 +293,37 @@ __ESTREE_TEST__:PASS:
                       "body": {
                         "type": "ClassBody",
                         "body": [],
-                        "start": 347,
-                        "end": 358
+                        "start": 353,
+                        "end": 364
                       },
                       "abstract": false,
                       "declare": false,
-                      "start": 339,
-                      "end": 358
+                      "start": 345,
+                      "end": 364
                     },
                     "specifiers": [],
                     "source": null,
                     "exportKind": "value",
                     "attributes": [],
-                    "start": 332,
-                    "end": 358
+                    "start": 338,
+                    "end": 364
                   }
                 ],
-                "start": 322,
-                "end": 364
+                "start": 328,
+                "end": 370
               },
-              "kind": "module",
+              "kind": "namespace",
               "declare": false,
               "global": false,
-              "start": 304,
-              "end": 364
+              "start": 307,
+              "end": 370
             },
             "specifiers": [],
             "source": null,
             "exportKind": "value",
             "attributes": [],
-            "start": 297,
-            "end": 364
+            "start": 300,
+            "end": 370
           },
           {
             "type": "ExportNamedDeclaration",
@@ -335,8 +335,8 @@ __ESTREE_TEST__:PASS:
                 "name": "mu_private",
                 "optional": false,
                 "typeAnnotation": null,
-                "start": 383,
-                "end": 393
+                "start": 392,
+                "end": 402
               },
               "body": {
                 "type": "TSModuleBlock",
@@ -351,54 +351,54 @@ __ESTREE_TEST__:PASS:
                         "name": "i",
                         "optional": false,
                         "typeAnnotation": null,
-                        "start": 421,
-                        "end": 422
+                        "start": 430,
+                        "end": 431
                       },
                       "typeParameters": null,
                       "extends": [],
                       "body": {
                         "type": "TSInterfaceBody",
                         "body": [],
-                        "start": 423,
-                        "end": 434
+                        "start": 432,
+                        "end": 443
                       },
                       "declare": false,
-                      "start": 411,
-                      "end": 434
+                      "start": 420,
+                      "end": 443
                     },
                     "specifiers": [],
                     "source": null,
                     "exportKind": "type",
                     "attributes": [],
-                    "start": 404,
-                    "end": 434
+                    "start": 413,
+                    "end": 443
                   }
                 ],
-                "start": 394,
-                "end": 440
+                "start": 403,
+                "end": 449
               },
-              "kind": "module",
+              "kind": "namespace",
               "declare": false,
               "global": false,
-              "start": 376,
-              "end": 440
+              "start": 382,
+              "end": 449
             },
             "specifiers": [],
             "source": null,
             "exportKind": "value",
             "attributes": [],
-            "start": 369,
-            "end": 440
+            "start": 375,
+            "end": 449
           }
         ],
-        "start": 37,
-        "end": 442
+        "start": 40,
+        "end": 451
       },
-      "kind": "module",
+      "kind": "namespace",
       "declare": false,
       "global": false,
       "start": 20,
-      "end": 442
+      "end": 451
     },
     {
       "type": "ExportNamedDeclaration",
@@ -410,8 +410,8 @@ __ESTREE_TEST__:PASS:
           "name": "m_public",
           "optional": false,
           "typeAnnotation": null,
-          "start": 477,
-          "end": 485
+          "start": 489,
+          "end": 497
         },
         "body": {
           "type": "TSModuleBlock",
@@ -427,8 +427,8 @@ __ESTREE_TEST__:PASS:
                   "name": "c_public",
                   "optional": false,
                   "typeAnnotation": null,
-                  "start": 505,
-                  "end": 513
+                  "start": 517,
+                  "end": 525
                 },
                 "typeParameters": null,
                 "superClass": null,
@@ -437,20 +437,20 @@ __ESTREE_TEST__:PASS:
                 "body": {
                   "type": "ClassBody",
                   "body": [],
-                  "start": 514,
-                  "end": 521
+                  "start": 526,
+                  "end": 533
                 },
                 "abstract": false,
                 "declare": false,
-                "start": 499,
-                "end": 521
+                "start": 511,
+                "end": 533
               },
               "specifiers": [],
               "source": null,
               "exportKind": "value",
               "attributes": [],
-              "start": 492,
-              "end": 521
+              "start": 504,
+              "end": 533
             },
             {
               "type": "ExportNamedDeclaration",
@@ -462,8 +462,8 @@ __ESTREE_TEST__:PASS:
                   "name": "e_public",
                   "optional": false,
                   "typeAnnotation": null,
-                  "start": 538,
-                  "end": 546
+                  "start": 550,
+                  "end": 558
                 },
                 "body": {
                   "type": "TSEnumBody",
@@ -476,13 +476,13 @@ __ESTREE_TEST__:PASS:
                         "name": "Happy",
                         "optional": false,
                         "typeAnnotation": null,
-                        "start": 557,
-                        "end": 562
+                        "start": 569,
+                        "end": 574
                       },
                       "initializer": null,
                       "computed": false,
-                      "start": 557,
-                      "end": 562
+                      "start": 569,
+                      "end": 574
                     },
                     {
                       "type": "TSEnumMember",
@@ -492,29 +492,29 @@ __ESTREE_TEST__:PASS:
                         "name": "Grumpy",
                         "optional": false,
                         "typeAnnotation": null,
-                        "start": 572,
-                        "end": 578
+                        "start": 584,
+                        "end": 590
                       },
                       "initializer": null,
                       "computed": false,
-                      "start": 572,
-                      "end": 578
+                      "start": 584,
+                      "end": 590
                     }
                   ],
-                  "start": 547,
-                  "end": 584
+                  "start": 559,
+                  "end": 596
                 },
                 "const": false,
                 "declare": false,
-                "start": 533,
-                "end": 584
+                "start": 545,
+                "end": 596
               },
               "specifiers": [],
               "source": null,
               "exportKind": "value",
               "attributes": [],
-              "start": 526,
-              "end": 584
+              "start": 538,
+              "end": 596
             },
             {
               "type": "ExportNamedDeclaration",
@@ -526,8 +526,8 @@ __ESTREE_TEST__:PASS:
                   "name": "f_public",
                   "optional": false,
                   "typeAnnotation": null,
-                  "start": 605,
-                  "end": 613
+                  "start": 617,
+                  "end": 625
                 },
                 "generator": false,
                 "async": false,
@@ -548,31 +548,31 @@ __ESTREE_TEST__:PASS:
                           "name": "c_public",
                           "optional": false,
                           "typeAnnotation": null,
-                          "start": 637,
-                          "end": 645
+                          "start": 649,
+                          "end": 657
                         },
                         "typeArguments": null,
                         "arguments": [],
-                        "start": 633,
-                        "end": 647
+                        "start": 645,
+                        "end": 659
                       },
-                      "start": 626,
-                      "end": 648
+                      "start": 638,
+                      "end": 660
                     }
                   ],
-                  "start": 616,
-                  "end": 654
+                  "start": 628,
+                  "end": 666
                 },
                 "expression": false,
-                "start": 596,
-                "end": 654
+                "start": 608,
+                "end": 666
               },
               "specifiers": [],
               "source": null,
               "exportKind": "value",
               "attributes": [],
-              "start": 589,
-              "end": 654
+              "start": 601,
+              "end": 666
             },
             {
               "type": "ExportNamedDeclaration",
@@ -588,31 +588,31 @@ __ESTREE_TEST__:PASS:
                       "name": "v_public",
                       "optional": false,
                       "typeAnnotation": null,
-                      "start": 670,
-                      "end": 678
+                      "start": 682,
+                      "end": 690
                     },
                     "init": {
                       "type": "Literal",
                       "value": 10,
                       "raw": "10",
-                      "start": 681,
-                      "end": 683
+                      "start": 693,
+                      "end": 695
                     },
                     "definite": false,
-                    "start": 670,
-                    "end": 683
+                    "start": 682,
+                    "end": 695
                   }
                 ],
                 "declare": false,
-                "start": 666,
-                "end": 684
+                "start": 678,
+                "end": 696
               },
               "specifiers": [],
               "source": null,
               "exportKind": "value",
               "attributes": [],
-              "start": 659,
-              "end": 684
+              "start": 671,
+              "end": 696
             },
             {
               "type": "ExportNamedDeclaration",
@@ -624,27 +624,27 @@ __ESTREE_TEST__:PASS:
                   "name": "i_public",
                   "optional": false,
                   "typeAnnotation": null,
-                  "start": 706,
-                  "end": 714
+                  "start": 718,
+                  "end": 726
                 },
                 "typeParameters": null,
                 "extends": [],
                 "body": {
                   "type": "TSInterfaceBody",
                   "body": [],
-                  "start": 715,
-                  "end": 722
+                  "start": 727,
+                  "end": 734
                 },
                 "declare": false,
-                "start": 696,
-                "end": 722
+                "start": 708,
+                "end": 734
               },
               "specifiers": [],
               "source": null,
               "exportKind": "type",
               "attributes": [],
-              "start": 689,
-              "end": 722
+              "start": 701,
+              "end": 734
             },
             {
               "type": "ExportNamedDeclaration",
@@ -656,8 +656,8 @@ __ESTREE_TEST__:PASS:
                   "name": "mi_public",
                   "optional": false,
                   "typeAnnotation": null,
-                  "start": 741,
-                  "end": 750
+                  "start": 756,
+                  "end": 765
                 },
                 "body": {
                   "type": "TSModuleBlock",
@@ -673,8 +673,8 @@ __ESTREE_TEST__:PASS:
                           "name": "c",
                           "optional": false,
                           "typeAnnotation": null,
-                          "start": 774,
-                          "end": 775
+                          "start": 789,
+                          "end": 790
                         },
                         "typeParameters": null,
                         "superClass": null,
@@ -683,37 +683,37 @@ __ESTREE_TEST__:PASS:
                         "body": {
                           "type": "ClassBody",
                           "body": [],
-                          "start": 776,
-                          "end": 787
+                          "start": 791,
+                          "end": 802
                         },
                         "abstract": false,
                         "declare": false,
-                        "start": 768,
-                        "end": 787
+                        "start": 783,
+                        "end": 802
                       },
                       "specifiers": [],
                       "source": null,
                       "exportKind": "value",
                       "attributes": [],
-                      "start": 761,
-                      "end": 787
+                      "start": 776,
+                      "end": 802
                     }
                   ],
-                  "start": 751,
-                  "end": 793
+                  "start": 766,
+                  "end": 808
                 },
-                "kind": "module",
+                "kind": "namespace",
                 "declare": false,
                 "global": false,
-                "start": 734,
-                "end": 793
+                "start": 746,
+                "end": 808
               },
               "specifiers": [],
               "source": null,
               "exportKind": "value",
               "attributes": [],
-              "start": 727,
-              "end": 793
+              "start": 739,
+              "end": 808
             },
             {
               "type": "ExportNamedDeclaration",
@@ -725,8 +725,8 @@ __ESTREE_TEST__:PASS:
                   "name": "mu_public",
                   "optional": false,
                   "typeAnnotation": null,
-                  "start": 812,
-                  "end": 821
+                  "start": 830,
+                  "end": 839
                 },
                 "body": {
                   "type": "TSModuleBlock",
@@ -741,61 +741,61 @@ __ESTREE_TEST__:PASS:
                           "name": "i",
                           "optional": false,
                           "typeAnnotation": null,
-                          "start": 849,
-                          "end": 850
+                          "start": 867,
+                          "end": 868
                         },
                         "typeParameters": null,
                         "extends": [],
                         "body": {
                           "type": "TSInterfaceBody",
                           "body": [],
-                          "start": 851,
-                          "end": 862
+                          "start": 869,
+                          "end": 880
                         },
                         "declare": false,
-                        "start": 839,
-                        "end": 862
+                        "start": 857,
+                        "end": 880
                       },
                       "specifiers": [],
                       "source": null,
                       "exportKind": "type",
                       "attributes": [],
-                      "start": 832,
-                      "end": 862
+                      "start": 850,
+                      "end": 880
                     }
                   ],
-                  "start": 822,
-                  "end": 868
+                  "start": 840,
+                  "end": 886
                 },
-                "kind": "module",
+                "kind": "namespace",
                 "declare": false,
                 "global": false,
-                "start": 805,
-                "end": 868
+                "start": 820,
+                "end": 886
               },
               "specifiers": [],
               "source": null,
               "exportKind": "value",
               "attributes": [],
-              "start": 798,
-              "end": 868
+              "start": 813,
+              "end": 886
             }
           ],
-          "start": 486,
-          "end": 870
+          "start": 498,
+          "end": 888
         },
-        "kind": "module",
+        "kind": "namespace",
         "declare": false,
         "global": false,
-        "start": 470,
-        "end": 870
+        "start": 479,
+        "end": 888
       },
       "specifiers": [],
       "source": null,
       "exportKind": "value",
       "attributes": [],
-      "start": 463,
-      "end": 870
+      "start": 472,
+      "end": 888
     },
     {
       "type": "ExportNamedDeclaration",
@@ -807,8 +807,8 @@ __ESTREE_TEST__:PASS:
           "name": "import_public",
           "optional": false,
           "typeAnnotation": null,
-          "start": 886,
-          "end": 899
+          "start": 907,
+          "end": 920
         },
         "body": {
           "type": "TSModuleBlock",
@@ -821,8 +821,8 @@ __ESTREE_TEST__:PASS:
                 "name": "im_private_c_private",
                 "optional": false,
                 "typeAnnotation": null,
-                "start": 967,
-                "end": 987
+                "start": 988,
+                "end": 1008
               },
               "moduleReference": {
                 "type": "TSQualifiedName",
@@ -832,8 +832,8 @@ __ESTREE_TEST__:PASS:
                   "name": "m_private",
                   "optional": false,
                   "typeAnnotation": null,
-                  "start": 990,
-                  "end": 999
+                  "start": 1011,
+                  "end": 1020
                 },
                 "right": {
                   "type": "Identifier",
@@ -841,15 +841,15 @@ __ESTREE_TEST__:PASS:
                   "name": "c_private",
                   "optional": false,
                   "typeAnnotation": null,
-                  "start": 1000,
-                  "end": 1009
+                  "start": 1021,
+                  "end": 1030
                 },
-                "start": 990,
-                "end": 1009
+                "start": 1011,
+                "end": 1030
               },
               "importKind": "value",
-              "start": 960,
-              "end": 1010
+              "start": 981,
+              "end": 1031
             },
             {
               "type": "TSImportEqualsDeclaration",
@@ -859,8 +859,8 @@ __ESTREE_TEST__:PASS:
                 "name": "im_private_e_private",
                 "optional": false,
                 "typeAnnotation": null,
-                "start": 1022,
-                "end": 1042
+                "start": 1043,
+                "end": 1063
               },
               "moduleReference": {
                 "type": "TSQualifiedName",
@@ -870,8 +870,8 @@ __ESTREE_TEST__:PASS:
                   "name": "m_private",
                   "optional": false,
                   "typeAnnotation": null,
-                  "start": 1045,
-                  "end": 1054
+                  "start": 1066,
+                  "end": 1075
                 },
                 "right": {
                   "type": "Identifier",
@@ -879,15 +879,15 @@ __ESTREE_TEST__:PASS:
                   "name": "e_private",
                   "optional": false,
                   "typeAnnotation": null,
-                  "start": 1055,
-                  "end": 1064
+                  "start": 1076,
+                  "end": 1085
                 },
-                "start": 1045,
-                "end": 1064
+                "start": 1066,
+                "end": 1085
               },
               "importKind": "value",
-              "start": 1015,
-              "end": 1065
+              "start": 1036,
+              "end": 1086
             },
             {
               "type": "TSImportEqualsDeclaration",
@@ -897,8 +897,8 @@ __ESTREE_TEST__:PASS:
                 "name": "im_private_f_private",
                 "optional": false,
                 "typeAnnotation": null,
-                "start": 1077,
-                "end": 1097
+                "start": 1098,
+                "end": 1118
               },
               "moduleReference": {
                 "type": "TSQualifiedName",
@@ -908,8 +908,8 @@ __ESTREE_TEST__:PASS:
                   "name": "m_private",
                   "optional": false,
                   "typeAnnotation": null,
-                  "start": 1100,
-                  "end": 1109
+                  "start": 1121,
+                  "end": 1130
                 },
                 "right": {
                   "type": "Identifier",
@@ -917,15 +917,15 @@ __ESTREE_TEST__:PASS:
                   "name": "f_private",
                   "optional": false,
                   "typeAnnotation": null,
-                  "start": 1110,
-                  "end": 1119
+                  "start": 1131,
+                  "end": 1140
                 },
-                "start": 1100,
-                "end": 1119
+                "start": 1121,
+                "end": 1140
               },
               "importKind": "value",
-              "start": 1070,
-              "end": 1120
+              "start": 1091,
+              "end": 1141
             },
             {
               "type": "TSImportEqualsDeclaration",
@@ -935,8 +935,8 @@ __ESTREE_TEST__:PASS:
                 "name": "im_private_v_private",
                 "optional": false,
                 "typeAnnotation": null,
-                "start": 1132,
-                "end": 1152
+                "start": 1153,
+                "end": 1173
               },
               "moduleReference": {
                 "type": "TSQualifiedName",
@@ -946,8 +946,8 @@ __ESTREE_TEST__:PASS:
                   "name": "m_private",
                   "optional": false,
                   "typeAnnotation": null,
-                  "start": 1155,
-                  "end": 1164
+                  "start": 1176,
+                  "end": 1185
                 },
                 "right": {
                   "type": "Identifier",
@@ -955,15 +955,15 @@ __ESTREE_TEST__:PASS:
                   "name": "v_private",
                   "optional": false,
                   "typeAnnotation": null,
-                  "start": 1165,
-                  "end": 1174
+                  "start": 1186,
+                  "end": 1195
                 },
-                "start": 1155,
-                "end": 1174
+                "start": 1176,
+                "end": 1195
               },
               "importKind": "value",
-              "start": 1125,
-              "end": 1175
+              "start": 1146,
+              "end": 1196
             },
             {
               "type": "TSImportEqualsDeclaration",
@@ -973,8 +973,8 @@ __ESTREE_TEST__:PASS:
                 "name": "im_private_i_private",
                 "optional": false,
                 "typeAnnotation": null,
-                "start": 1187,
-                "end": 1207
+                "start": 1208,
+                "end": 1228
               },
               "moduleReference": {
                 "type": "TSQualifiedName",
@@ -984,8 +984,8 @@ __ESTREE_TEST__:PASS:
                   "name": "m_private",
                   "optional": false,
                   "typeAnnotation": null,
-                  "start": 1210,
-                  "end": 1219
+                  "start": 1231,
+                  "end": 1240
                 },
                 "right": {
                   "type": "Identifier",
@@ -993,15 +993,15 @@ __ESTREE_TEST__:PASS:
                   "name": "i_private",
                   "optional": false,
                   "typeAnnotation": null,
-                  "start": 1220,
-                  "end": 1229
+                  "start": 1241,
+                  "end": 1250
                 },
-                "start": 1210,
-                "end": 1229
+                "start": 1231,
+                "end": 1250
               },
               "importKind": "value",
-              "start": 1180,
-              "end": 1230
+              "start": 1201,
+              "end": 1251
             },
             {
               "type": "TSImportEqualsDeclaration",
@@ -1011,8 +1011,8 @@ __ESTREE_TEST__:PASS:
                 "name": "im_private_mi_private",
                 "optional": false,
                 "typeAnnotation": null,
-                "start": 1242,
-                "end": 1263
+                "start": 1263,
+                "end": 1284
               },
               "moduleReference": {
                 "type": "TSQualifiedName",
@@ -1022,8 +1022,8 @@ __ESTREE_TEST__:PASS:
                   "name": "m_private",
                   "optional": false,
                   "typeAnnotation": null,
-                  "start": 1266,
-                  "end": 1275
+                  "start": 1287,
+                  "end": 1296
                 },
                 "right": {
                   "type": "Identifier",
@@ -1031,15 +1031,15 @@ __ESTREE_TEST__:PASS:
                   "name": "mi_private",
                   "optional": false,
                   "typeAnnotation": null,
-                  "start": 1276,
-                  "end": 1286
+                  "start": 1297,
+                  "end": 1307
                 },
-                "start": 1266,
-                "end": 1286
+                "start": 1287,
+                "end": 1307
               },
               "importKind": "value",
-              "start": 1235,
-              "end": 1287
+              "start": 1256,
+              "end": 1308
             },
             {
               "type": "TSImportEqualsDeclaration",
@@ -1049,8 +1049,8 @@ __ESTREE_TEST__:PASS:
                 "name": "im_private_mu_private",
                 "optional": false,
                 "typeAnnotation": null,
-                "start": 1299,
-                "end": 1320
+                "start": 1320,
+                "end": 1341
               },
               "moduleReference": {
                 "type": "TSQualifiedName",
@@ -1060,8 +1060,8 @@ __ESTREE_TEST__:PASS:
                   "name": "m_private",
                   "optional": false,
                   "typeAnnotation": null,
-                  "start": 1323,
-                  "end": 1332
+                  "start": 1344,
+                  "end": 1353
                 },
                 "right": {
                   "type": "Identifier",
@@ -1069,15 +1069,15 @@ __ESTREE_TEST__:PASS:
                   "name": "mu_private",
                   "optional": false,
                   "typeAnnotation": null,
-                  "start": 1333,
-                  "end": 1343
+                  "start": 1354,
+                  "end": 1364
                 },
-                "start": 1323,
-                "end": 1343
+                "start": 1344,
+                "end": 1364
               },
               "importKind": "value",
-              "start": 1292,
-              "end": 1344
+              "start": 1313,
+              "end": 1365
             },
             {
               "type": "VariableDeclaration",
@@ -1091,8 +1091,8 @@ __ESTREE_TEST__:PASS:
                     "name": "privateUse_im_private_c_private",
                     "optional": false,
                     "typeAnnotation": null,
-                    "start": 1382,
-                    "end": 1413
+                    "start": 1403,
+                    "end": 1434
                   },
                   "init": {
                     "type": "NewExpression",
@@ -1102,22 +1102,22 @@ __ESTREE_TEST__:PASS:
                       "name": "im_private_c_private",
                       "optional": false,
                       "typeAnnotation": null,
-                      "start": 1420,
-                      "end": 1440
+                      "start": 1441,
+                      "end": 1461
                     },
                     "typeArguments": null,
                     "arguments": [],
-                    "start": 1416,
-                    "end": 1442
+                    "start": 1437,
+                    "end": 1463
                   },
                   "definite": false,
-                  "start": 1382,
-                  "end": 1442
+                  "start": 1403,
+                  "end": 1463
                 }
               ],
               "declare": false,
-              "start": 1378,
-              "end": 1443
+              "start": 1399,
+              "end": 1464
             },
             {
               "type": "ExportNamedDeclaration",
@@ -1133,8 +1133,8 @@ __ESTREE_TEST__:PASS:
                       "name": "publicUse_im_private_c_private",
                       "optional": false,
                       "typeAnnotation": null,
-                      "start": 1459,
-                      "end": 1489
+                      "start": 1480,
+                      "end": 1510
                     },
                     "init": {
                       "type": "NewExpression",
@@ -1144,29 +1144,29 @@ __ESTREE_TEST__:PASS:
                         "name": "im_private_c_private",
                         "optional": false,
                         "typeAnnotation": null,
-                        "start": 1496,
-                        "end": 1516
+                        "start": 1517,
+                        "end": 1537
                       },
                       "typeArguments": null,
                       "arguments": [],
-                      "start": 1492,
-                      "end": 1518
+                      "start": 1513,
+                      "end": 1539
                     },
                     "definite": false,
-                    "start": 1459,
-                    "end": 1518
+                    "start": 1480,
+                    "end": 1539
                   }
                 ],
                 "declare": false,
-                "start": 1455,
-                "end": 1519
+                "start": 1476,
+                "end": 1540
               },
               "specifiers": [],
               "source": null,
               "exportKind": "value",
               "attributes": [],
-              "start": 1448,
-              "end": 1519
+              "start": 1469,
+              "end": 1540
             },
             {
               "type": "VariableDeclaration",
@@ -1180,8 +1180,8 @@ __ESTREE_TEST__:PASS:
                     "name": "privateUse_im_private_e_private",
                     "optional": false,
                     "typeAnnotation": null,
-                    "start": 1528,
-                    "end": 1559
+                    "start": 1549,
+                    "end": 1580
                   },
                   "init": {
                     "type": "MemberExpression",
@@ -1191,8 +1191,8 @@ __ESTREE_TEST__:PASS:
                       "name": "im_private_e_private",
                       "optional": false,
                       "typeAnnotation": null,
-                      "start": 1562,
-                      "end": 1582
+                      "start": 1583,
+                      "end": 1603
                     },
                     "property": {
                       "type": "Identifier",
@@ -1200,22 +1200,22 @@ __ESTREE_TEST__:PASS:
                       "name": "Happy",
                       "optional": false,
                       "typeAnnotation": null,
-                      "start": 1583,
-                      "end": 1588
+                      "start": 1604,
+                      "end": 1609
                     },
                     "optional": false,
                     "computed": false,
-                    "start": 1562,
-                    "end": 1588
+                    "start": 1583,
+                    "end": 1609
                   },
                   "definite": false,
-                  "start": 1528,
-                  "end": 1588
+                  "start": 1549,
+                  "end": 1609
                 }
               ],
               "declare": false,
-              "start": 1524,
-              "end": 1589
+              "start": 1545,
+              "end": 1610
             },
             {
               "type": "ExportNamedDeclaration",
@@ -1231,8 +1231,8 @@ __ESTREE_TEST__:PASS:
                       "name": "publicUse_im_private_e_private",
                       "optional": false,
                       "typeAnnotation": null,
-                      "start": 1605,
-                      "end": 1635
+                      "start": 1626,
+                      "end": 1656
                     },
                     "init": {
                       "type": "MemberExpression",
@@ -1242,8 +1242,8 @@ __ESTREE_TEST__:PASS:
                         "name": "im_private_e_private",
                         "optional": false,
                         "typeAnnotation": null,
-                        "start": 1638,
-                        "end": 1658
+                        "start": 1659,
+                        "end": 1679
                       },
                       "property": {
                         "type": "Identifier",
@@ -1251,29 +1251,29 @@ __ESTREE_TEST__:PASS:
                         "name": "Grumpy",
                         "optional": false,
                         "typeAnnotation": null,
-                        "start": 1659,
-                        "end": 1665
+                        "start": 1680,
+                        "end": 1686
                       },
                       "optional": false,
                       "computed": false,
-                      "start": 1638,
-                      "end": 1665
+                      "start": 1659,
+                      "end": 1686
                     },
                     "definite": false,
-                    "start": 1605,
-                    "end": 1665
+                    "start": 1626,
+                    "end": 1686
                   }
                 ],
                 "declare": false,
-                "start": 1601,
-                "end": 1666
+                "start": 1622,
+                "end": 1687
               },
               "specifiers": [],
               "source": null,
               "exportKind": "value",
               "attributes": [],
-              "start": 1594,
-              "end": 1666
+              "start": 1615,
+              "end": 1687
             },
             {
               "type": "VariableDeclaration",
@@ -1287,8 +1287,8 @@ __ESTREE_TEST__:PASS:
                     "name": "privateUse_im_private_f_private",
                     "optional": false,
                     "typeAnnotation": null,
-                    "start": 1675,
-                    "end": 1706
+                    "start": 1696,
+                    "end": 1727
                   },
                   "init": {
                     "type": "CallExpression",
@@ -1298,23 +1298,23 @@ __ESTREE_TEST__:PASS:
                       "name": "im_private_f_private",
                       "optional": false,
                       "typeAnnotation": null,
-                      "start": 1709,
-                      "end": 1729
+                      "start": 1730,
+                      "end": 1750
                     },
                     "typeArguments": null,
                     "arguments": [],
                     "optional": false,
-                    "start": 1709,
-                    "end": 1731
+                    "start": 1730,
+                    "end": 1752
                   },
                   "definite": false,
-                  "start": 1675,
-                  "end": 1731
+                  "start": 1696,
+                  "end": 1752
                 }
               ],
               "declare": false,
-              "start": 1671,
-              "end": 1732
+              "start": 1692,
+              "end": 1753
             },
             {
               "type": "ExportNamedDeclaration",
@@ -1330,8 +1330,8 @@ __ESTREE_TEST__:PASS:
                       "name": "publicUse_im_private_f_private",
                       "optional": false,
                       "typeAnnotation": null,
-                      "start": 1748,
-                      "end": 1778
+                      "start": 1769,
+                      "end": 1799
                     },
                     "init": {
                       "type": "CallExpression",
@@ -1341,30 +1341,30 @@ __ESTREE_TEST__:PASS:
                         "name": "im_private_f_private",
                         "optional": false,
                         "typeAnnotation": null,
-                        "start": 1781,
-                        "end": 1801
+                        "start": 1802,
+                        "end": 1822
                       },
                       "typeArguments": null,
                       "arguments": [],
                       "optional": false,
-                      "start": 1781,
-                      "end": 1803
+                      "start": 1802,
+                      "end": 1824
                     },
                     "definite": false,
-                    "start": 1748,
-                    "end": 1803
+                    "start": 1769,
+                    "end": 1824
                   }
                 ],
                 "declare": false,
-                "start": 1744,
-                "end": 1804
+                "start": 1765,
+                "end": 1825
               },
               "specifiers": [],
               "source": null,
               "exportKind": "value",
               "attributes": [],
-              "start": 1737,
-              "end": 1804
+              "start": 1758,
+              "end": 1825
             },
             {
               "type": "VariableDeclaration",
@@ -1378,8 +1378,8 @@ __ESTREE_TEST__:PASS:
                     "name": "privateUse_im_private_v_private",
                     "optional": false,
                     "typeAnnotation": null,
-                    "start": 1813,
-                    "end": 1844
+                    "start": 1834,
+                    "end": 1865
                   },
                   "init": {
                     "type": "Identifier",
@@ -1387,17 +1387,17 @@ __ESTREE_TEST__:PASS:
                     "name": "im_private_v_private",
                     "optional": false,
                     "typeAnnotation": null,
-                    "start": 1847,
-                    "end": 1867
+                    "start": 1868,
+                    "end": 1888
                   },
                   "definite": false,
-                  "start": 1813,
-                  "end": 1867
+                  "start": 1834,
+                  "end": 1888
                 }
               ],
               "declare": false,
-              "start": 1809,
-              "end": 1868
+              "start": 1830,
+              "end": 1889
             },
             {
               "type": "ExportNamedDeclaration",
@@ -1413,8 +1413,8 @@ __ESTREE_TEST__:PASS:
                       "name": "publicUse_im_private_v_private",
                       "optional": false,
                       "typeAnnotation": null,
-                      "start": 1884,
-                      "end": 1914
+                      "start": 1905,
+                      "end": 1935
                     },
                     "init": {
                       "type": "Identifier",
@@ -1422,24 +1422,24 @@ __ESTREE_TEST__:PASS:
                       "name": "im_private_v_private",
                       "optional": false,
                       "typeAnnotation": null,
-                      "start": 1917,
-                      "end": 1937
+                      "start": 1938,
+                      "end": 1958
                     },
                     "definite": false,
-                    "start": 1884,
-                    "end": 1937
+                    "start": 1905,
+                    "end": 1958
                   }
                 ],
                 "declare": false,
-                "start": 1880,
-                "end": 1938
+                "start": 1901,
+                "end": 1959
               },
               "specifiers": [],
               "source": null,
               "exportKind": "value",
               "attributes": [],
-              "start": 1873,
-              "end": 1938
+              "start": 1894,
+              "end": 1959
             },
             {
               "type": "VariableDeclaration",
@@ -1462,28 +1462,28 @@ __ESTREE_TEST__:PASS:
                           "name": "im_private_i_private",
                           "optional": false,
                           "typeAnnotation": null,
-                          "start": 1980,
-                          "end": 2000
+                          "start": 2001,
+                          "end": 2021
                         },
                         "typeArguments": null,
-                        "start": 1980,
-                        "end": 2000
+                        "start": 2001,
+                        "end": 2021
                       },
-                      "start": 1978,
-                      "end": 2000
+                      "start": 1999,
+                      "end": 2021
                     },
-                    "start": 1947,
-                    "end": 2000
+                    "start": 1968,
+                    "end": 2021
                   },
                   "init": null,
                   "definite": false,
-                  "start": 1947,
-                  "end": 2000
+                  "start": 1968,
+                  "end": 2021
                 }
               ],
               "declare": false,
-              "start": 1943,
-              "end": 2001
+              "start": 1964,
+              "end": 2022
             },
             {
               "type": "ExportNamedDeclaration",
@@ -1508,35 +1508,35 @@ __ESTREE_TEST__:PASS:
                             "name": "im_private_i_private",
                             "optional": false,
                             "typeAnnotation": null,
-                            "start": 2049,
-                            "end": 2069
+                            "start": 2070,
+                            "end": 2090
                           },
                           "typeArguments": null,
-                          "start": 2049,
-                          "end": 2069
+                          "start": 2070,
+                          "end": 2090
                         },
-                        "start": 2047,
-                        "end": 2069
+                        "start": 2068,
+                        "end": 2090
                       },
-                      "start": 2017,
-                      "end": 2069
+                      "start": 2038,
+                      "end": 2090
                     },
                     "init": null,
                     "definite": false,
-                    "start": 2017,
-                    "end": 2069
+                    "start": 2038,
+                    "end": 2090
                   }
                 ],
                 "declare": false,
-                "start": 2013,
-                "end": 2070
+                "start": 2034,
+                "end": 2091
               },
               "specifiers": [],
               "source": null,
               "exportKind": "value",
               "attributes": [],
-              "start": 2006,
-              "end": 2070
+              "start": 2027,
+              "end": 2091
             },
             {
               "type": "VariableDeclaration",
@@ -1550,8 +1550,8 @@ __ESTREE_TEST__:PASS:
                     "name": "privateUse_im_private_mi_private",
                     "optional": false,
                     "typeAnnotation": null,
-                    "start": 2079,
-                    "end": 2111
+                    "start": 2100,
+                    "end": 2132
                   },
                   "init": {
                     "type": "NewExpression",
@@ -1563,8 +1563,8 @@ __ESTREE_TEST__:PASS:
                         "name": "im_private_mi_private",
                         "optional": false,
                         "typeAnnotation": null,
-                        "start": 2118,
-                        "end": 2139
+                        "start": 2139,
+                        "end": 2160
                       },
                       "property": {
                         "type": "Identifier",
@@ -1572,27 +1572,27 @@ __ESTREE_TEST__:PASS:
                         "name": "c",
                         "optional": false,
                         "typeAnnotation": null,
-                        "start": 2140,
-                        "end": 2141
+                        "start": 2161,
+                        "end": 2162
                       },
                       "optional": false,
                       "computed": false,
-                      "start": 2118,
-                      "end": 2141
+                      "start": 2139,
+                      "end": 2162
                     },
                     "typeArguments": null,
                     "arguments": [],
-                    "start": 2114,
-                    "end": 2143
+                    "start": 2135,
+                    "end": 2164
                   },
                   "definite": false,
-                  "start": 2079,
-                  "end": 2143
+                  "start": 2100,
+                  "end": 2164
                 }
               ],
               "declare": false,
-              "start": 2075,
-              "end": 2144
+              "start": 2096,
+              "end": 2165
             },
             {
               "type": "ExportNamedDeclaration",
@@ -1608,8 +1608,8 @@ __ESTREE_TEST__:PASS:
                       "name": "publicUse_im_private_mi_private",
                       "optional": false,
                       "typeAnnotation": null,
-                      "start": 2160,
-                      "end": 2191
+                      "start": 2181,
+                      "end": 2212
                     },
                     "init": {
                       "type": "NewExpression",
@@ -1621,8 +1621,8 @@ __ESTREE_TEST__:PASS:
                           "name": "im_private_mi_private",
                           "optional": false,
                           "typeAnnotation": null,
-                          "start": 2198,
-                          "end": 2219
+                          "start": 2219,
+                          "end": 2240
                         },
                         "property": {
                           "type": "Identifier",
@@ -1630,34 +1630,34 @@ __ESTREE_TEST__:PASS:
                           "name": "c",
                           "optional": false,
                           "typeAnnotation": null,
-                          "start": 2220,
-                          "end": 2221
+                          "start": 2241,
+                          "end": 2242
                         },
                         "optional": false,
                         "computed": false,
-                        "start": 2198,
-                        "end": 2221
+                        "start": 2219,
+                        "end": 2242
                       },
                       "typeArguments": null,
                       "arguments": [],
-                      "start": 2194,
-                      "end": 2223
+                      "start": 2215,
+                      "end": 2244
                     },
                     "definite": false,
-                    "start": 2160,
-                    "end": 2223
+                    "start": 2181,
+                    "end": 2244
                   }
                 ],
                 "declare": false,
-                "start": 2156,
-                "end": 2224
+                "start": 2177,
+                "end": 2245
               },
               "specifiers": [],
               "source": null,
               "exportKind": "value",
               "attributes": [],
-              "start": 2149,
-              "end": 2224
+              "start": 2170,
+              "end": 2245
             },
             {
               "type": "VariableDeclaration",
@@ -1682,8 +1682,8 @@ __ESTREE_TEST__:PASS:
                             "name": "im_private_mu_private",
                             "optional": false,
                             "typeAnnotation": null,
-                            "start": 2267,
-                            "end": 2288
+                            "start": 2288,
+                            "end": 2309
                           },
                           "right": {
                             "type": "Identifier",
@@ -1691,31 +1691,31 @@ __ESTREE_TEST__:PASS:
                             "name": "i",
                             "optional": false,
                             "typeAnnotation": null,
-                            "start": 2289,
-                            "end": 2290
+                            "start": 2310,
+                            "end": 2311
                           },
-                          "start": 2267,
-                          "end": 2290
+                          "start": 2288,
+                          "end": 2311
                         },
                         "typeArguments": null,
-                        "start": 2267,
-                        "end": 2290
+                        "start": 2288,
+                        "end": 2311
                       },
-                      "start": 2265,
-                      "end": 2290
+                      "start": 2286,
+                      "end": 2311
                     },
-                    "start": 2233,
-                    "end": 2290
+                    "start": 2254,
+                    "end": 2311
                   },
                   "init": null,
                   "definite": false,
-                  "start": 2233,
-                  "end": 2290
+                  "start": 2254,
+                  "end": 2311
                 }
               ],
               "declare": false,
-              "start": 2229,
-              "end": 2291
+              "start": 2250,
+              "end": 2312
             },
             {
               "type": "ExportNamedDeclaration",
@@ -1742,8 +1742,8 @@ __ESTREE_TEST__:PASS:
                               "name": "im_private_mu_private",
                               "optional": false,
                               "typeAnnotation": null,
-                              "start": 2340,
-                              "end": 2361
+                              "start": 2361,
+                              "end": 2382
                             },
                             "right": {
                               "type": "Identifier",
@@ -1751,38 +1751,38 @@ __ESTREE_TEST__:PASS:
                               "name": "i",
                               "optional": false,
                               "typeAnnotation": null,
-                              "start": 2362,
-                              "end": 2363
+                              "start": 2383,
+                              "end": 2384
                             },
-                            "start": 2340,
-                            "end": 2363
+                            "start": 2361,
+                            "end": 2384
                           },
                           "typeArguments": null,
-                          "start": 2340,
-                          "end": 2363
+                          "start": 2361,
+                          "end": 2384
                         },
-                        "start": 2338,
-                        "end": 2363
+                        "start": 2359,
+                        "end": 2384
                       },
-                      "start": 2307,
-                      "end": 2363
+                      "start": 2328,
+                      "end": 2384
                     },
                     "init": null,
                     "definite": false,
-                    "start": 2307,
-                    "end": 2363
+                    "start": 2328,
+                    "end": 2384
                   }
                 ],
                 "declare": false,
-                "start": 2303,
-                "end": 2364
+                "start": 2324,
+                "end": 2385
               },
               "specifiers": [],
               "source": null,
               "exportKind": "value",
               "attributes": [],
-              "start": 2296,
-              "end": 2364
+              "start": 2317,
+              "end": 2385
             },
             {
               "type": "TSImportEqualsDeclaration",
@@ -1792,8 +1792,8 @@ __ESTREE_TEST__:PASS:
                 "name": "im_private_c_public",
                 "optional": false,
                 "typeAnnotation": null,
-                "start": 2431,
-                "end": 2450
+                "start": 2452,
+                "end": 2471
               },
               "moduleReference": {
                 "type": "TSQualifiedName",
@@ -1803,8 +1803,8 @@ __ESTREE_TEST__:PASS:
                   "name": "m_public",
                   "optional": false,
                   "typeAnnotation": null,
-                  "start": 2453,
-                  "end": 2461
+                  "start": 2474,
+                  "end": 2482
                 },
                 "right": {
                   "type": "Identifier",
@@ -1812,15 +1812,15 @@ __ESTREE_TEST__:PASS:
                   "name": "c_public",
                   "optional": false,
                   "typeAnnotation": null,
-                  "start": 2462,
-                  "end": 2470
+                  "start": 2483,
+                  "end": 2491
                 },
-                "start": 2453,
-                "end": 2470
+                "start": 2474,
+                "end": 2491
               },
               "importKind": "value",
-              "start": 2424,
-              "end": 2471
+              "start": 2445,
+              "end": 2492
             },
             {
               "type": "TSImportEqualsDeclaration",
@@ -1830,8 +1830,8 @@ __ESTREE_TEST__:PASS:
                 "name": "im_private_e_public",
                 "optional": false,
                 "typeAnnotation": null,
-                "start": 2483,
-                "end": 2502
+                "start": 2504,
+                "end": 2523
               },
               "moduleReference": {
                 "type": "TSQualifiedName",
@@ -1841,8 +1841,8 @@ __ESTREE_TEST__:PASS:
                   "name": "m_public",
                   "optional": false,
                   "typeAnnotation": null,
-                  "start": 2505,
-                  "end": 2513
+                  "start": 2526,
+                  "end": 2534
                 },
                 "right": {
                   "type": "Identifier",
@@ -1850,15 +1850,15 @@ __ESTREE_TEST__:PASS:
                   "name": "e_public",
                   "optional": false,
                   "typeAnnotation": null,
-                  "start": 2514,
-                  "end": 2522
+                  "start": 2535,
+                  "end": 2543
                 },
-                "start": 2505,
-                "end": 2522
+                "start": 2526,
+                "end": 2543
               },
               "importKind": "value",
-              "start": 2476,
-              "end": 2523
+              "start": 2497,
+              "end": 2544
             },
             {
               "type": "TSImportEqualsDeclaration",
@@ -1868,8 +1868,8 @@ __ESTREE_TEST__:PASS:
                 "name": "im_private_f_public",
                 "optional": false,
                 "typeAnnotation": null,
-                "start": 2535,
-                "end": 2554
+                "start": 2556,
+                "end": 2575
               },
               "moduleReference": {
                 "type": "TSQualifiedName",
@@ -1879,8 +1879,8 @@ __ESTREE_TEST__:PASS:
                   "name": "m_public",
                   "optional": false,
                   "typeAnnotation": null,
-                  "start": 2557,
-                  "end": 2565
+                  "start": 2578,
+                  "end": 2586
                 },
                 "right": {
                   "type": "Identifier",
@@ -1888,15 +1888,15 @@ __ESTREE_TEST__:PASS:
                   "name": "f_public",
                   "optional": false,
                   "typeAnnotation": null,
-                  "start": 2566,
-                  "end": 2574
+                  "start": 2587,
+                  "end": 2595
                 },
-                "start": 2557,
-                "end": 2574
+                "start": 2578,
+                "end": 2595
               },
               "importKind": "value",
-              "start": 2528,
-              "end": 2575
+              "start": 2549,
+              "end": 2596
             },
             {
               "type": "TSImportEqualsDeclaration",
@@ -1906,8 +1906,8 @@ __ESTREE_TEST__:PASS:
                 "name": "im_private_v_public",
                 "optional": false,
                 "typeAnnotation": null,
-                "start": 2587,
-                "end": 2606
+                "start": 2608,
+                "end": 2627
               },
               "moduleReference": {
                 "type": "TSQualifiedName",
@@ -1917,8 +1917,8 @@ __ESTREE_TEST__:PASS:
                   "name": "m_public",
                   "optional": false,
                   "typeAnnotation": null,
-                  "start": 2609,
-                  "end": 2617
+                  "start": 2630,
+                  "end": 2638
                 },
                 "right": {
                   "type": "Identifier",
@@ -1926,15 +1926,15 @@ __ESTREE_TEST__:PASS:
                   "name": "v_public",
                   "optional": false,
                   "typeAnnotation": null,
-                  "start": 2618,
-                  "end": 2626
+                  "start": 2639,
+                  "end": 2647
                 },
-                "start": 2609,
-                "end": 2626
+                "start": 2630,
+                "end": 2647
               },
               "importKind": "value",
-              "start": 2580,
-              "end": 2627
+              "start": 2601,
+              "end": 2648
             },
             {
               "type": "TSImportEqualsDeclaration",
@@ -1944,8 +1944,8 @@ __ESTREE_TEST__:PASS:
                 "name": "im_private_i_public",
                 "optional": false,
                 "typeAnnotation": null,
-                "start": 2639,
-                "end": 2658
+                "start": 2660,
+                "end": 2679
               },
               "moduleReference": {
                 "type": "TSQualifiedName",
@@ -1955,8 +1955,8 @@ __ESTREE_TEST__:PASS:
                   "name": "m_public",
                   "optional": false,
                   "typeAnnotation": null,
-                  "start": 2661,
-                  "end": 2669
+                  "start": 2682,
+                  "end": 2690
                 },
                 "right": {
                   "type": "Identifier",
@@ -1964,15 +1964,15 @@ __ESTREE_TEST__:PASS:
                   "name": "i_public",
                   "optional": false,
                   "typeAnnotation": null,
-                  "start": 2670,
-                  "end": 2678
+                  "start": 2691,
+                  "end": 2699
                 },
-                "start": 2661,
-                "end": 2678
+                "start": 2682,
+                "end": 2699
               },
               "importKind": "value",
-              "start": 2632,
-              "end": 2679
+              "start": 2653,
+              "end": 2700
             },
             {
               "type": "TSImportEqualsDeclaration",
@@ -1982,8 +1982,8 @@ __ESTREE_TEST__:PASS:
                 "name": "im_private_mi_public",
                 "optional": false,
                 "typeAnnotation": null,
-                "start": 2691,
-                "end": 2711
+                "start": 2712,
+                "end": 2732
               },
               "moduleReference": {
                 "type": "TSQualifiedName",
@@ -1993,8 +1993,8 @@ __ESTREE_TEST__:PASS:
                   "name": "m_public",
                   "optional": false,
                   "typeAnnotation": null,
-                  "start": 2714,
-                  "end": 2722
+                  "start": 2735,
+                  "end": 2743
                 },
                 "right": {
                   "type": "Identifier",
@@ -2002,15 +2002,15 @@ __ESTREE_TEST__:PASS:
                   "name": "mi_public",
                   "optional": false,
                   "typeAnnotation": null,
-                  "start": 2723,
-                  "end": 2732
+                  "start": 2744,
+                  "end": 2753
                 },
-                "start": 2714,
-                "end": 2732
+                "start": 2735,
+                "end": 2753
               },
               "importKind": "value",
-              "start": 2684,
-              "end": 2733
+              "start": 2705,
+              "end": 2754
             },
             {
               "type": "TSImportEqualsDeclaration",
@@ -2020,8 +2020,8 @@ __ESTREE_TEST__:PASS:
                 "name": "im_private_mu_public",
                 "optional": false,
                 "typeAnnotation": null,
-                "start": 2745,
-                "end": 2765
+                "start": 2766,
+                "end": 2786
               },
               "moduleReference": {
                 "type": "TSQualifiedName",
@@ -2031,8 +2031,8 @@ __ESTREE_TEST__:PASS:
                   "name": "m_public",
                   "optional": false,
                   "typeAnnotation": null,
-                  "start": 2768,
-                  "end": 2776
+                  "start": 2789,
+                  "end": 2797
                 },
                 "right": {
                   "type": "Identifier",
@@ -2040,15 +2040,15 @@ __ESTREE_TEST__:PASS:
                   "name": "mu_public",
                   "optional": false,
                   "typeAnnotation": null,
-                  "start": 2777,
-                  "end": 2786
+                  "start": 2798,
+                  "end": 2807
                 },
-                "start": 2768,
-                "end": 2786
+                "start": 2789,
+                "end": 2807
               },
               "importKind": "value",
-              "start": 2738,
-              "end": 2787
+              "start": 2759,
+              "end": 2808
             },
             {
               "type": "VariableDeclaration",
@@ -2062,8 +2062,8 @@ __ESTREE_TEST__:PASS:
                     "name": "privateUse_im_private_c_public",
                     "optional": false,
                     "typeAnnotation": null,
-                    "start": 2825,
-                    "end": 2855
+                    "start": 2846,
+                    "end": 2876
                   },
                   "init": {
                     "type": "NewExpression",
@@ -2073,22 +2073,22 @@ __ESTREE_TEST__:PASS:
                       "name": "im_private_c_public",
                       "optional": false,
                       "typeAnnotation": null,
-                      "start": 2862,
-                      "end": 2881
+                      "start": 2883,
+                      "end": 2902
                     },
                     "typeArguments": null,
                     "arguments": [],
-                    "start": 2858,
-                    "end": 2883
+                    "start": 2879,
+                    "end": 2904
                   },
                   "definite": false,
-                  "start": 2825,
-                  "end": 2883
+                  "start": 2846,
+                  "end": 2904
                 }
               ],
               "declare": false,
-              "start": 2821,
-              "end": 2884
+              "start": 2842,
+              "end": 2905
             },
             {
               "type": "ExportNamedDeclaration",
@@ -2104,8 +2104,8 @@ __ESTREE_TEST__:PASS:
                       "name": "publicUse_im_private_c_public",
                       "optional": false,
                       "typeAnnotation": null,
-                      "start": 2900,
-                      "end": 2929
+                      "start": 2921,
+                      "end": 2950
                     },
                     "init": {
                       "type": "NewExpression",
@@ -2115,29 +2115,29 @@ __ESTREE_TEST__:PASS:
                         "name": "im_private_c_public",
                         "optional": false,
                         "typeAnnotation": null,
-                        "start": 2936,
-                        "end": 2955
+                        "start": 2957,
+                        "end": 2976
                       },
                       "typeArguments": null,
                       "arguments": [],
-                      "start": 2932,
-                      "end": 2957
+                      "start": 2953,
+                      "end": 2978
                     },
                     "definite": false,
-                    "start": 2900,
-                    "end": 2957
+                    "start": 2921,
+                    "end": 2978
                   }
                 ],
                 "declare": false,
-                "start": 2896,
-                "end": 2958
+                "start": 2917,
+                "end": 2979
               },
               "specifiers": [],
               "source": null,
               "exportKind": "value",
               "attributes": [],
-              "start": 2889,
-              "end": 2958
+              "start": 2910,
+              "end": 2979
             },
             {
               "type": "VariableDeclaration",
@@ -2151,8 +2151,8 @@ __ESTREE_TEST__:PASS:
                     "name": "privateUse_im_private_e_public",
                     "optional": false,
                     "typeAnnotation": null,
-                    "start": 2967,
-                    "end": 2997
+                    "start": 2988,
+                    "end": 3018
                   },
                   "init": {
                     "type": "MemberExpression",
@@ -2162,8 +2162,8 @@ __ESTREE_TEST__:PASS:
                       "name": "im_private_e_public",
                       "optional": false,
                       "typeAnnotation": null,
-                      "start": 3000,
-                      "end": 3019
+                      "start": 3021,
+                      "end": 3040
                     },
                     "property": {
                       "type": "Identifier",
@@ -2171,22 +2171,22 @@ __ESTREE_TEST__:PASS:
                       "name": "Happy",
                       "optional": false,
                       "typeAnnotation": null,
-                      "start": 3020,
-                      "end": 3025
+                      "start": 3041,
+                      "end": 3046
                     },
                     "optional": false,
                     "computed": false,
-                    "start": 3000,
-                    "end": 3025
+                    "start": 3021,
+                    "end": 3046
                   },
                   "definite": false,
-                  "start": 2967,
-                  "end": 3025
+                  "start": 2988,
+                  "end": 3046
                 }
               ],
               "declare": false,
-              "start": 2963,
-              "end": 3026
+              "start": 2984,
+              "end": 3047
             },
             {
               "type": "ExportNamedDeclaration",
@@ -2202,8 +2202,8 @@ __ESTREE_TEST__:PASS:
                       "name": "publicUse_im_private_e_public",
                       "optional": false,
                       "typeAnnotation": null,
-                      "start": 3042,
-                      "end": 3071
+                      "start": 3063,
+                      "end": 3092
                     },
                     "init": {
                       "type": "MemberExpression",
@@ -2213,8 +2213,8 @@ __ESTREE_TEST__:PASS:
                         "name": "im_private_e_public",
                         "optional": false,
                         "typeAnnotation": null,
-                        "start": 3074,
-                        "end": 3093
+                        "start": 3095,
+                        "end": 3114
                       },
                       "property": {
                         "type": "Identifier",
@@ -2222,29 +2222,29 @@ __ESTREE_TEST__:PASS:
                         "name": "Grumpy",
                         "optional": false,
                         "typeAnnotation": null,
-                        "start": 3094,
-                        "end": 3100
+                        "start": 3115,
+                        "end": 3121
                       },
                       "optional": false,
                       "computed": false,
-                      "start": 3074,
-                      "end": 3100
+                      "start": 3095,
+                      "end": 3121
                     },
                     "definite": false,
-                    "start": 3042,
-                    "end": 3100
+                    "start": 3063,
+                    "end": 3121
                   }
                 ],
                 "declare": false,
-                "start": 3038,
-                "end": 3101
+                "start": 3059,
+                "end": 3122
               },
               "specifiers": [],
               "source": null,
               "exportKind": "value",
               "attributes": [],
-              "start": 3031,
-              "end": 3101
+              "start": 3052,
+              "end": 3122
             },
             {
               "type": "VariableDeclaration",
@@ -2258,8 +2258,8 @@ __ESTREE_TEST__:PASS:
                     "name": "privateUse_im_private_f_public",
                     "optional": false,
                     "typeAnnotation": null,
-                    "start": 3110,
-                    "end": 3140
+                    "start": 3131,
+                    "end": 3161
                   },
                   "init": {
                     "type": "CallExpression",
@@ -2269,23 +2269,23 @@ __ESTREE_TEST__:PASS:
                       "name": "im_private_f_public",
                       "optional": false,
                       "typeAnnotation": null,
-                      "start": 3143,
-                      "end": 3162
+                      "start": 3164,
+                      "end": 3183
                     },
                     "typeArguments": null,
                     "arguments": [],
                     "optional": false,
-                    "start": 3143,
-                    "end": 3164
+                    "start": 3164,
+                    "end": 3185
                   },
                   "definite": false,
-                  "start": 3110,
-                  "end": 3164
+                  "start": 3131,
+                  "end": 3185
                 }
               ],
               "declare": false,
-              "start": 3106,
-              "end": 3165
+              "start": 3127,
+              "end": 3186
             },
             {
               "type": "ExportNamedDeclaration",
@@ -2301,8 +2301,8 @@ __ESTREE_TEST__:PASS:
                       "name": "publicUse_im_private_f_public",
                       "optional": false,
                       "typeAnnotation": null,
-                      "start": 3181,
-                      "end": 3210
+                      "start": 3202,
+                      "end": 3231
                     },
                     "init": {
                       "type": "CallExpression",
@@ -2312,30 +2312,30 @@ __ESTREE_TEST__:PASS:
                         "name": "im_private_f_public",
                         "optional": false,
                         "typeAnnotation": null,
-                        "start": 3213,
-                        "end": 3232
+                        "start": 3234,
+                        "end": 3253
                       },
                       "typeArguments": null,
                       "arguments": [],
                       "optional": false,
-                      "start": 3213,
-                      "end": 3234
+                      "start": 3234,
+                      "end": 3255
                     },
                     "definite": false,
-                    "start": 3181,
-                    "end": 3234
+                    "start": 3202,
+                    "end": 3255
                   }
                 ],
                 "declare": false,
-                "start": 3177,
-                "end": 3235
+                "start": 3198,
+                "end": 3256
               },
               "specifiers": [],
               "source": null,
               "exportKind": "value",
               "attributes": [],
-              "start": 3170,
-              "end": 3235
+              "start": 3191,
+              "end": 3256
             },
             {
               "type": "VariableDeclaration",
@@ -2349,8 +2349,8 @@ __ESTREE_TEST__:PASS:
                     "name": "privateUse_im_private_v_public",
                     "optional": false,
                     "typeAnnotation": null,
-                    "start": 3244,
-                    "end": 3274
+                    "start": 3265,
+                    "end": 3295
                   },
                   "init": {
                     "type": "Identifier",
@@ -2358,17 +2358,17 @@ __ESTREE_TEST__:PASS:
                     "name": "im_private_v_public",
                     "optional": false,
                     "typeAnnotation": null,
-                    "start": 3277,
-                    "end": 3296
+                    "start": 3298,
+                    "end": 3317
                   },
                   "definite": false,
-                  "start": 3244,
-                  "end": 3296
+                  "start": 3265,
+                  "end": 3317
                 }
               ],
               "declare": false,
-              "start": 3240,
-              "end": 3297
+              "start": 3261,
+              "end": 3318
             },
             {
               "type": "ExportNamedDeclaration",
@@ -2384,8 +2384,8 @@ __ESTREE_TEST__:PASS:
                       "name": "publicUse_im_private_v_public",
                       "optional": false,
                       "typeAnnotation": null,
-                      "start": 3313,
-                      "end": 3342
+                      "start": 3334,
+                      "end": 3363
                     },
                     "init": {
                       "type": "Identifier",
@@ -2393,24 +2393,24 @@ __ESTREE_TEST__:PASS:
                       "name": "im_private_v_public",
                       "optional": false,
                       "typeAnnotation": null,
-                      "start": 3345,
-                      "end": 3364
+                      "start": 3366,
+                      "end": 3385
                     },
                     "definite": false,
-                    "start": 3313,
-                    "end": 3364
+                    "start": 3334,
+                    "end": 3385
                   }
                 ],
                 "declare": false,
-                "start": 3309,
-                "end": 3365
+                "start": 3330,
+                "end": 3386
               },
               "specifiers": [],
               "source": null,
               "exportKind": "value",
               "attributes": [],
-              "start": 3302,
-              "end": 3365
+              "start": 3323,
+              "end": 3386
             },
             {
               "type": "VariableDeclaration",
@@ -2433,28 +2433,28 @@ __ESTREE_TEST__:PASS:
                           "name": "im_private_i_public",
                           "optional": false,
                           "typeAnnotation": null,
-                          "start": 3406,
-                          "end": 3425
+                          "start": 3427,
+                          "end": 3446
                         },
                         "typeArguments": null,
-                        "start": 3406,
-                        "end": 3425
+                        "start": 3427,
+                        "end": 3446
                       },
-                      "start": 3404,
-                      "end": 3425
+                      "start": 3425,
+                      "end": 3446
                     },
-                    "start": 3374,
-                    "end": 3425
+                    "start": 3395,
+                    "end": 3446
                   },
                   "init": null,
                   "definite": false,
-                  "start": 3374,
-                  "end": 3425
+                  "start": 3395,
+                  "end": 3446
                 }
               ],
               "declare": false,
-              "start": 3370,
-              "end": 3426
+              "start": 3391,
+              "end": 3447
             },
             {
               "type": "ExportNamedDeclaration",
@@ -2479,35 +2479,35 @@ __ESTREE_TEST__:PASS:
                             "name": "im_private_i_public",
                             "optional": false,
                             "typeAnnotation": null,
-                            "start": 3473,
-                            "end": 3492
+                            "start": 3494,
+                            "end": 3513
                           },
                           "typeArguments": null,
-                          "start": 3473,
-                          "end": 3492
+                          "start": 3494,
+                          "end": 3513
                         },
-                        "start": 3471,
-                        "end": 3492
+                        "start": 3492,
+                        "end": 3513
                       },
-                      "start": 3442,
-                      "end": 3492
+                      "start": 3463,
+                      "end": 3513
                     },
                     "init": null,
                     "definite": false,
-                    "start": 3442,
-                    "end": 3492
+                    "start": 3463,
+                    "end": 3513
                   }
                 ],
                 "declare": false,
-                "start": 3438,
-                "end": 3493
+                "start": 3459,
+                "end": 3514
               },
               "specifiers": [],
               "source": null,
               "exportKind": "value",
               "attributes": [],
-              "start": 3431,
-              "end": 3493
+              "start": 3452,
+              "end": 3514
             },
             {
               "type": "VariableDeclaration",
@@ -2521,8 +2521,8 @@ __ESTREE_TEST__:PASS:
                     "name": "privateUse_im_private_mi_public",
                     "optional": false,
                     "typeAnnotation": null,
-                    "start": 3502,
-                    "end": 3533
+                    "start": 3523,
+                    "end": 3554
                   },
                   "init": {
                     "type": "NewExpression",
@@ -2534,8 +2534,8 @@ __ESTREE_TEST__:PASS:
                         "name": "im_private_mi_public",
                         "optional": false,
                         "typeAnnotation": null,
-                        "start": 3540,
-                        "end": 3560
+                        "start": 3561,
+                        "end": 3581
                       },
                       "property": {
                         "type": "Identifier",
@@ -2543,27 +2543,27 @@ __ESTREE_TEST__:PASS:
                         "name": "c",
                         "optional": false,
                         "typeAnnotation": null,
-                        "start": 3561,
-                        "end": 3562
+                        "start": 3582,
+                        "end": 3583
                       },
                       "optional": false,
                       "computed": false,
-                      "start": 3540,
-                      "end": 3562
+                      "start": 3561,
+                      "end": 3583
                     },
                     "typeArguments": null,
                     "arguments": [],
-                    "start": 3536,
-                    "end": 3564
+                    "start": 3557,
+                    "end": 3585
                   },
                   "definite": false,
-                  "start": 3502,
-                  "end": 3564
+                  "start": 3523,
+                  "end": 3585
                 }
               ],
               "declare": false,
-              "start": 3498,
-              "end": 3565
+              "start": 3519,
+              "end": 3586
             },
             {
               "type": "ExportNamedDeclaration",
@@ -2579,8 +2579,8 @@ __ESTREE_TEST__:PASS:
                       "name": "publicUse_im_private_mi_public",
                       "optional": false,
                       "typeAnnotation": null,
-                      "start": 3581,
-                      "end": 3611
+                      "start": 3602,
+                      "end": 3632
                     },
                     "init": {
                       "type": "NewExpression",
@@ -2592,8 +2592,8 @@ __ESTREE_TEST__:PASS:
                           "name": "im_private_mi_public",
                           "optional": false,
                           "typeAnnotation": null,
-                          "start": 3618,
-                          "end": 3638
+                          "start": 3639,
+                          "end": 3659
                         },
                         "property": {
                           "type": "Identifier",
@@ -2601,34 +2601,34 @@ __ESTREE_TEST__:PASS:
                           "name": "c",
                           "optional": false,
                           "typeAnnotation": null,
-                          "start": 3639,
-                          "end": 3640
+                          "start": 3660,
+                          "end": 3661
                         },
                         "optional": false,
                         "computed": false,
-                        "start": 3618,
-                        "end": 3640
+                        "start": 3639,
+                        "end": 3661
                       },
                       "typeArguments": null,
                       "arguments": [],
-                      "start": 3614,
-                      "end": 3642
+                      "start": 3635,
+                      "end": 3663
                     },
                     "definite": false,
-                    "start": 3581,
-                    "end": 3642
+                    "start": 3602,
+                    "end": 3663
                   }
                 ],
                 "declare": false,
-                "start": 3577,
-                "end": 3643
+                "start": 3598,
+                "end": 3664
               },
               "specifiers": [],
               "source": null,
               "exportKind": "value",
               "attributes": [],
-              "start": 3570,
-              "end": 3643
+              "start": 3591,
+              "end": 3664
             },
             {
               "type": "VariableDeclaration",
@@ -2653,8 +2653,8 @@ __ESTREE_TEST__:PASS:
                             "name": "im_private_mu_public",
                             "optional": false,
                             "typeAnnotation": null,
-                            "start": 3685,
-                            "end": 3705
+                            "start": 3706,
+                            "end": 3726
                           },
                           "right": {
                             "type": "Identifier",
@@ -2662,31 +2662,31 @@ __ESTREE_TEST__:PASS:
                             "name": "i",
                             "optional": false,
                             "typeAnnotation": null,
-                            "start": 3706,
-                            "end": 3707
+                            "start": 3727,
+                            "end": 3728
                           },
-                          "start": 3685,
-                          "end": 3707
+                          "start": 3706,
+                          "end": 3728
                         },
                         "typeArguments": null,
-                        "start": 3685,
-                        "end": 3707
+                        "start": 3706,
+                        "end": 3728
                       },
-                      "start": 3683,
-                      "end": 3707
+                      "start": 3704,
+                      "end": 3728
                     },
-                    "start": 3652,
-                    "end": 3707
+                    "start": 3673,
+                    "end": 3728
                   },
                   "init": null,
                   "definite": false,
-                  "start": 3652,
-                  "end": 3707
+                  "start": 3673,
+                  "end": 3728
                 }
               ],
               "declare": false,
-              "start": 3648,
-              "end": 3708
+              "start": 3669,
+              "end": 3729
             },
             {
               "type": "ExportNamedDeclaration",
@@ -2713,8 +2713,8 @@ __ESTREE_TEST__:PASS:
                               "name": "im_private_mu_public",
                               "optional": false,
                               "typeAnnotation": null,
-                              "start": 3756,
-                              "end": 3776
+                              "start": 3777,
+                              "end": 3797
                             },
                             "right": {
                               "type": "Identifier",
@@ -2722,55 +2722,55 @@ __ESTREE_TEST__:PASS:
                               "name": "i",
                               "optional": false,
                               "typeAnnotation": null,
-                              "start": 3777,
-                              "end": 3778
+                              "start": 3798,
+                              "end": 3799
                             },
-                            "start": 3756,
-                            "end": 3778
+                            "start": 3777,
+                            "end": 3799
                           },
                           "typeArguments": null,
-                          "start": 3756,
-                          "end": 3778
+                          "start": 3777,
+                          "end": 3799
                         },
-                        "start": 3754,
-                        "end": 3778
+                        "start": 3775,
+                        "end": 3799
                       },
-                      "start": 3724,
-                      "end": 3778
+                      "start": 3745,
+                      "end": 3799
                     },
                     "init": null,
                     "definite": false,
-                    "start": 3724,
-                    "end": 3778
+                    "start": 3745,
+                    "end": 3799
                   }
                 ],
                 "declare": false,
-                "start": 3720,
-                "end": 3779
+                "start": 3741,
+                "end": 3800
               },
               "specifiers": [],
               "source": null,
               "exportKind": "value",
               "attributes": [],
-              "start": 3713,
-              "end": 3779
+              "start": 3734,
+              "end": 3800
             }
           ],
-          "start": 900,
-          "end": 3781
+          "start": 921,
+          "end": 3802
         },
-        "kind": "module",
+        "kind": "namespace",
         "declare": false,
         "global": false,
-        "start": 879,
-        "end": 3781
+        "start": 897,
+        "end": 3802
       },
       "specifiers": [],
       "source": null,
       "exportKind": "value",
       "attributes": [],
-      "start": 872,
-      "end": 3781
+      "start": 890,
+      "end": 3802
     },
     {
       "type": "TSModuleDeclaration",
@@ -2780,8 +2780,8 @@ __ESTREE_TEST__:PASS:
         "name": "import_private",
         "optional": false,
         "typeAnnotation": null,
-        "start": 3790,
-        "end": 3804
+        "start": 3814,
+        "end": 3828
       },
       "body": {
         "type": "TSModuleBlock",
@@ -2794,8 +2794,8 @@ __ESTREE_TEST__:PASS:
               "name": "im_private_c_private",
               "optional": false,
               "typeAnnotation": null,
-              "start": 3872,
-              "end": 3892
+              "start": 3896,
+              "end": 3916
             },
             "moduleReference": {
               "type": "TSQualifiedName",
@@ -2805,8 +2805,8 @@ __ESTREE_TEST__:PASS:
                 "name": "m_private",
                 "optional": false,
                 "typeAnnotation": null,
-                "start": 3895,
-                "end": 3904
+                "start": 3919,
+                "end": 3928
               },
               "right": {
                 "type": "Identifier",
@@ -2814,15 +2814,15 @@ __ESTREE_TEST__:PASS:
                 "name": "c_private",
                 "optional": false,
                 "typeAnnotation": null,
-                "start": 3905,
-                "end": 3914
+                "start": 3929,
+                "end": 3938
               },
-              "start": 3895,
-              "end": 3914
+              "start": 3919,
+              "end": 3938
             },
             "importKind": "value",
-            "start": 3865,
-            "end": 3915
+            "start": 3889,
+            "end": 3939
           },
           {
             "type": "TSImportEqualsDeclaration",
@@ -2832,8 +2832,8 @@ __ESTREE_TEST__:PASS:
               "name": "im_private_e_private",
               "optional": false,
               "typeAnnotation": null,
-              "start": 3927,
-              "end": 3947
+              "start": 3951,
+              "end": 3971
             },
             "moduleReference": {
               "type": "TSQualifiedName",
@@ -2843,8 +2843,8 @@ __ESTREE_TEST__:PASS:
                 "name": "m_private",
                 "optional": false,
                 "typeAnnotation": null,
-                "start": 3950,
-                "end": 3959
+                "start": 3974,
+                "end": 3983
               },
               "right": {
                 "type": "Identifier",
@@ -2852,15 +2852,15 @@ __ESTREE_TEST__:PASS:
                 "name": "e_private",
                 "optional": false,
                 "typeAnnotation": null,
-                "start": 3960,
-                "end": 3969
+                "start": 3984,
+                "end": 3993
               },
-              "start": 3950,
-              "end": 3969
+              "start": 3974,
+              "end": 3993
             },
             "importKind": "value",
-            "start": 3920,
-            "end": 3970
+            "start": 3944,
+            "end": 3994
           },
           {
             "type": "TSImportEqualsDeclaration",
@@ -2870,8 +2870,8 @@ __ESTREE_TEST__:PASS:
               "name": "im_private_f_private",
               "optional": false,
               "typeAnnotation": null,
-              "start": 3982,
-              "end": 4002
+              "start": 4006,
+              "end": 4026
             },
             "moduleReference": {
               "type": "TSQualifiedName",
@@ -2881,8 +2881,8 @@ __ESTREE_TEST__:PASS:
                 "name": "m_private",
                 "optional": false,
                 "typeAnnotation": null,
-                "start": 4005,
-                "end": 4014
+                "start": 4029,
+                "end": 4038
               },
               "right": {
                 "type": "Identifier",
@@ -2890,15 +2890,15 @@ __ESTREE_TEST__:PASS:
                 "name": "f_private",
                 "optional": false,
                 "typeAnnotation": null,
-                "start": 4015,
-                "end": 4024
+                "start": 4039,
+                "end": 4048
               },
-              "start": 4005,
-              "end": 4024
+              "start": 4029,
+              "end": 4048
             },
             "importKind": "value",
-            "start": 3975,
-            "end": 4025
+            "start": 3999,
+            "end": 4049
           },
           {
             "type": "TSImportEqualsDeclaration",
@@ -2908,8 +2908,8 @@ __ESTREE_TEST__:PASS:
               "name": "im_private_v_private",
               "optional": false,
               "typeAnnotation": null,
-              "start": 4037,
-              "end": 4057
+              "start": 4061,
+              "end": 4081
             },
             "moduleReference": {
               "type": "TSQualifiedName",
@@ -2919,8 +2919,8 @@ __ESTREE_TEST__:PASS:
                 "name": "m_private",
                 "optional": false,
                 "typeAnnotation": null,
-                "start": 4060,
-                "end": 4069
+                "start": 4084,
+                "end": 4093
               },
               "right": {
                 "type": "Identifier",
@@ -2928,15 +2928,15 @@ __ESTREE_TEST__:PASS:
                 "name": "v_private",
                 "optional": false,
                 "typeAnnotation": null,
-                "start": 4070,
-                "end": 4079
+                "start": 4094,
+                "end": 4103
               },
-              "start": 4060,
-              "end": 4079
+              "start": 4084,
+              "end": 4103
             },
             "importKind": "value",
-            "start": 4030,
-            "end": 4080
+            "start": 4054,
+            "end": 4104
           },
           {
             "type": "TSImportEqualsDeclaration",
@@ -2946,8 +2946,8 @@ __ESTREE_TEST__:PASS:
               "name": "im_private_i_private",
               "optional": false,
               "typeAnnotation": null,
-              "start": 4092,
-              "end": 4112
+              "start": 4116,
+              "end": 4136
             },
             "moduleReference": {
               "type": "TSQualifiedName",
@@ -2957,8 +2957,8 @@ __ESTREE_TEST__:PASS:
                 "name": "m_private",
                 "optional": false,
                 "typeAnnotation": null,
-                "start": 4115,
-                "end": 4124
+                "start": 4139,
+                "end": 4148
               },
               "right": {
                 "type": "Identifier",
@@ -2966,15 +2966,15 @@ __ESTREE_TEST__:PASS:
                 "name": "i_private",
                 "optional": false,
                 "typeAnnotation": null,
-                "start": 4125,
-                "end": 4134
+                "start": 4149,
+                "end": 4158
               },
-              "start": 4115,
-              "end": 4134
+              "start": 4139,
+              "end": 4158
             },
             "importKind": "value",
-            "start": 4085,
-            "end": 4135
+            "start": 4109,
+            "end": 4159
           },
           {
             "type": "TSImportEqualsDeclaration",
@@ -2984,8 +2984,8 @@ __ESTREE_TEST__:PASS:
               "name": "im_private_mi_private",
               "optional": false,
               "typeAnnotation": null,
-              "start": 4147,
-              "end": 4168
+              "start": 4171,
+              "end": 4192
             },
             "moduleReference": {
               "type": "TSQualifiedName",
@@ -2995,8 +2995,8 @@ __ESTREE_TEST__:PASS:
                 "name": "m_private",
                 "optional": false,
                 "typeAnnotation": null,
-                "start": 4171,
-                "end": 4180
+                "start": 4195,
+                "end": 4204
               },
               "right": {
                 "type": "Identifier",
@@ -3004,15 +3004,15 @@ __ESTREE_TEST__:PASS:
                 "name": "mi_private",
                 "optional": false,
                 "typeAnnotation": null,
-                "start": 4181,
-                "end": 4191
+                "start": 4205,
+                "end": 4215
               },
-              "start": 4171,
-              "end": 4191
+              "start": 4195,
+              "end": 4215
             },
             "importKind": "value",
-            "start": 4140,
-            "end": 4192
+            "start": 4164,
+            "end": 4216
           },
           {
             "type": "TSImportEqualsDeclaration",
@@ -3022,8 +3022,8 @@ __ESTREE_TEST__:PASS:
               "name": "im_private_mu_private",
               "optional": false,
               "typeAnnotation": null,
-              "start": 4204,
-              "end": 4225
+              "start": 4228,
+              "end": 4249
             },
             "moduleReference": {
               "type": "TSQualifiedName",
@@ -3033,8 +3033,8 @@ __ESTREE_TEST__:PASS:
                 "name": "m_private",
                 "optional": false,
                 "typeAnnotation": null,
-                "start": 4228,
-                "end": 4237
+                "start": 4252,
+                "end": 4261
               },
               "right": {
                 "type": "Identifier",
@@ -3042,15 +3042,15 @@ __ESTREE_TEST__:PASS:
                 "name": "mu_private",
                 "optional": false,
                 "typeAnnotation": null,
-                "start": 4238,
-                "end": 4248
+                "start": 4262,
+                "end": 4272
               },
-              "start": 4228,
-              "end": 4248
+              "start": 4252,
+              "end": 4272
             },
             "importKind": "value",
-            "start": 4197,
-            "end": 4249
+            "start": 4221,
+            "end": 4273
           },
           {
             "type": "VariableDeclaration",
@@ -3064,8 +3064,8 @@ __ESTREE_TEST__:PASS:
                   "name": "privateUse_im_private_c_private",
                   "optional": false,
                   "typeAnnotation": null,
-                  "start": 4287,
-                  "end": 4318
+                  "start": 4311,
+                  "end": 4342
                 },
                 "init": {
                   "type": "NewExpression",
@@ -3075,22 +3075,22 @@ __ESTREE_TEST__:PASS:
                     "name": "im_private_c_private",
                     "optional": false,
                     "typeAnnotation": null,
-                    "start": 4325,
-                    "end": 4345
+                    "start": 4349,
+                    "end": 4369
                   },
                   "typeArguments": null,
                   "arguments": [],
-                  "start": 4321,
-                  "end": 4347
+                  "start": 4345,
+                  "end": 4371
                 },
                 "definite": false,
-                "start": 4287,
-                "end": 4347
+                "start": 4311,
+                "end": 4371
               }
             ],
             "declare": false,
-            "start": 4283,
-            "end": 4348
+            "start": 4307,
+            "end": 4372
           },
           {
             "type": "ExportNamedDeclaration",
@@ -3106,8 +3106,8 @@ __ESTREE_TEST__:PASS:
                     "name": "publicUse_im_private_c_private",
                     "optional": false,
                     "typeAnnotation": null,
-                    "start": 4364,
-                    "end": 4394
+                    "start": 4388,
+                    "end": 4418
                   },
                   "init": {
                     "type": "NewExpression",
@@ -3117,29 +3117,29 @@ __ESTREE_TEST__:PASS:
                       "name": "im_private_c_private",
                       "optional": false,
                       "typeAnnotation": null,
-                      "start": 4401,
-                      "end": 4421
+                      "start": 4425,
+                      "end": 4445
                     },
                     "typeArguments": null,
                     "arguments": [],
-                    "start": 4397,
-                    "end": 4423
+                    "start": 4421,
+                    "end": 4447
                   },
                   "definite": false,
-                  "start": 4364,
-                  "end": 4423
+                  "start": 4388,
+                  "end": 4447
                 }
               ],
               "declare": false,
-              "start": 4360,
-              "end": 4424
+              "start": 4384,
+              "end": 4448
             },
             "specifiers": [],
             "source": null,
             "exportKind": "value",
             "attributes": [],
-            "start": 4353,
-            "end": 4424
+            "start": 4377,
+            "end": 4448
           },
           {
             "type": "VariableDeclaration",
@@ -3153,8 +3153,8 @@ __ESTREE_TEST__:PASS:
                   "name": "privateUse_im_private_e_private",
                   "optional": false,
                   "typeAnnotation": null,
-                  "start": 4433,
-                  "end": 4464
+                  "start": 4457,
+                  "end": 4488
                 },
                 "init": {
                   "type": "MemberExpression",
@@ -3164,8 +3164,8 @@ __ESTREE_TEST__:PASS:
                     "name": "im_private_e_private",
                     "optional": false,
                     "typeAnnotation": null,
-                    "start": 4467,
-                    "end": 4487
+                    "start": 4491,
+                    "end": 4511
                   },
                   "property": {
                     "type": "Identifier",
@@ -3173,22 +3173,22 @@ __ESTREE_TEST__:PASS:
                     "name": "Happy",
                     "optional": false,
                     "typeAnnotation": null,
-                    "start": 4488,
-                    "end": 4493
+                    "start": 4512,
+                    "end": 4517
                   },
                   "optional": false,
                   "computed": false,
-                  "start": 4467,
-                  "end": 4493
+                  "start": 4491,
+                  "end": 4517
                 },
                 "definite": false,
-                "start": 4433,
-                "end": 4493
+                "start": 4457,
+                "end": 4517
               }
             ],
             "declare": false,
-            "start": 4429,
-            "end": 4494
+            "start": 4453,
+            "end": 4518
           },
           {
             "type": "ExportNamedDeclaration",
@@ -3204,8 +3204,8 @@ __ESTREE_TEST__:PASS:
                     "name": "publicUse_im_private_e_private",
                     "optional": false,
                     "typeAnnotation": null,
-                    "start": 4510,
-                    "end": 4540
+                    "start": 4534,
+                    "end": 4564
                   },
                   "init": {
                     "type": "MemberExpression",
@@ -3215,8 +3215,8 @@ __ESTREE_TEST__:PASS:
                       "name": "im_private_e_private",
                       "optional": false,
                       "typeAnnotation": null,
-                      "start": 4543,
-                      "end": 4563
+                      "start": 4567,
+                      "end": 4587
                     },
                     "property": {
                       "type": "Identifier",
@@ -3224,29 +3224,29 @@ __ESTREE_TEST__:PASS:
                       "name": "Grumpy",
                       "optional": false,
                       "typeAnnotation": null,
-                      "start": 4564,
-                      "end": 4570
+                      "start": 4588,
+                      "end": 4594
                     },
                     "optional": false,
                     "computed": false,
-                    "start": 4543,
-                    "end": 4570
+                    "start": 4567,
+                    "end": 4594
                   },
                   "definite": false,
-                  "start": 4510,
-                  "end": 4570
+                  "start": 4534,
+                  "end": 4594
                 }
               ],
               "declare": false,
-              "start": 4506,
-              "end": 4571
+              "start": 4530,
+              "end": 4595
             },
             "specifiers": [],
             "source": null,
             "exportKind": "value",
             "attributes": [],
-            "start": 4499,
-            "end": 4571
+            "start": 4523,
+            "end": 4595
           },
           {
             "type": "VariableDeclaration",
@@ -3260,8 +3260,8 @@ __ESTREE_TEST__:PASS:
                   "name": "privateUse_im_private_f_private",
                   "optional": false,
                   "typeAnnotation": null,
-                  "start": 4580,
-                  "end": 4611
+                  "start": 4604,
+                  "end": 4635
                 },
                 "init": {
                   "type": "CallExpression",
@@ -3271,23 +3271,23 @@ __ESTREE_TEST__:PASS:
                     "name": "im_private_f_private",
                     "optional": false,
                     "typeAnnotation": null,
-                    "start": 4614,
-                    "end": 4634
+                    "start": 4638,
+                    "end": 4658
                   },
                   "typeArguments": null,
                   "arguments": [],
                   "optional": false,
-                  "start": 4614,
-                  "end": 4636
+                  "start": 4638,
+                  "end": 4660
                 },
                 "definite": false,
-                "start": 4580,
-                "end": 4636
+                "start": 4604,
+                "end": 4660
               }
             ],
             "declare": false,
-            "start": 4576,
-            "end": 4637
+            "start": 4600,
+            "end": 4661
           },
           {
             "type": "ExportNamedDeclaration",
@@ -3303,8 +3303,8 @@ __ESTREE_TEST__:PASS:
                     "name": "publicUse_im_private_f_private",
                     "optional": false,
                     "typeAnnotation": null,
-                    "start": 4653,
-                    "end": 4683
+                    "start": 4677,
+                    "end": 4707
                   },
                   "init": {
                     "type": "CallExpression",
@@ -3314,30 +3314,30 @@ __ESTREE_TEST__:PASS:
                       "name": "im_private_f_private",
                       "optional": false,
                       "typeAnnotation": null,
-                      "start": 4686,
-                      "end": 4706
+                      "start": 4710,
+                      "end": 4730
                     },
                     "typeArguments": null,
                     "arguments": [],
                     "optional": false,
-                    "start": 4686,
-                    "end": 4708
+                    "start": 4710,
+                    "end": 4732
                   },
                   "definite": false,
-                  "start": 4653,
-                  "end": 4708
+                  "start": 4677,
+                  "end": 4732
                 }
               ],
               "declare": false,
-              "start": 4649,
-              "end": 4709
+              "start": 4673,
+              "end": 4733
             },
             "specifiers": [],
             "source": null,
             "exportKind": "value",
             "attributes": [],
-            "start": 4642,
-            "end": 4709
+            "start": 4666,
+            "end": 4733
           },
           {
             "type": "VariableDeclaration",
@@ -3351,8 +3351,8 @@ __ESTREE_TEST__:PASS:
                   "name": "privateUse_im_private_v_private",
                   "optional": false,
                   "typeAnnotation": null,
-                  "start": 4718,
-                  "end": 4749
+                  "start": 4742,
+                  "end": 4773
                 },
                 "init": {
                   "type": "Identifier",
@@ -3360,17 +3360,17 @@ __ESTREE_TEST__:PASS:
                   "name": "im_private_v_private",
                   "optional": false,
                   "typeAnnotation": null,
-                  "start": 4752,
-                  "end": 4772
+                  "start": 4776,
+                  "end": 4796
                 },
                 "definite": false,
-                "start": 4718,
-                "end": 4772
+                "start": 4742,
+                "end": 4796
               }
             ],
             "declare": false,
-            "start": 4714,
-            "end": 4773
+            "start": 4738,
+            "end": 4797
           },
           {
             "type": "ExportNamedDeclaration",
@@ -3386,8 +3386,8 @@ __ESTREE_TEST__:PASS:
                     "name": "publicUse_im_private_v_private",
                     "optional": false,
                     "typeAnnotation": null,
-                    "start": 4789,
-                    "end": 4819
+                    "start": 4813,
+                    "end": 4843
                   },
                   "init": {
                     "type": "Identifier",
@@ -3395,24 +3395,24 @@ __ESTREE_TEST__:PASS:
                     "name": "im_private_v_private",
                     "optional": false,
                     "typeAnnotation": null,
-                    "start": 4822,
-                    "end": 4842
+                    "start": 4846,
+                    "end": 4866
                   },
                   "definite": false,
-                  "start": 4789,
-                  "end": 4842
+                  "start": 4813,
+                  "end": 4866
                 }
               ],
               "declare": false,
-              "start": 4785,
-              "end": 4843
+              "start": 4809,
+              "end": 4867
             },
             "specifiers": [],
             "source": null,
             "exportKind": "value",
             "attributes": [],
-            "start": 4778,
-            "end": 4843
+            "start": 4802,
+            "end": 4867
           },
           {
             "type": "VariableDeclaration",
@@ -3435,28 +3435,28 @@ __ESTREE_TEST__:PASS:
                         "name": "im_private_i_private",
                         "optional": false,
                         "typeAnnotation": null,
-                        "start": 4885,
-                        "end": 4905
+                        "start": 4909,
+                        "end": 4929
                       },
                       "typeArguments": null,
-                      "start": 4885,
-                      "end": 4905
+                      "start": 4909,
+                      "end": 4929
                     },
-                    "start": 4883,
-                    "end": 4905
+                    "start": 4907,
+                    "end": 4929
                   },
-                  "start": 4852,
-                  "end": 4905
+                  "start": 4876,
+                  "end": 4929
                 },
                 "init": null,
                 "definite": false,
-                "start": 4852,
-                "end": 4905
+                "start": 4876,
+                "end": 4929
               }
             ],
             "declare": false,
-            "start": 4848,
-            "end": 4906
+            "start": 4872,
+            "end": 4930
           },
           {
             "type": "ExportNamedDeclaration",
@@ -3481,35 +3481,35 @@ __ESTREE_TEST__:PASS:
                           "name": "im_private_i_private",
                           "optional": false,
                           "typeAnnotation": null,
-                          "start": 4954,
-                          "end": 4974
+                          "start": 4978,
+                          "end": 4998
                         },
                         "typeArguments": null,
-                        "start": 4954,
-                        "end": 4974
+                        "start": 4978,
+                        "end": 4998
                       },
-                      "start": 4952,
-                      "end": 4974
+                      "start": 4976,
+                      "end": 4998
                     },
-                    "start": 4922,
-                    "end": 4974
+                    "start": 4946,
+                    "end": 4998
                   },
                   "init": null,
                   "definite": false,
-                  "start": 4922,
-                  "end": 4974
+                  "start": 4946,
+                  "end": 4998
                 }
               ],
               "declare": false,
-              "start": 4918,
-              "end": 4975
+              "start": 4942,
+              "end": 4999
             },
             "specifiers": [],
             "source": null,
             "exportKind": "value",
             "attributes": [],
-            "start": 4911,
-            "end": 4975
+            "start": 4935,
+            "end": 4999
           },
           {
             "type": "VariableDeclaration",
@@ -3523,8 +3523,8 @@ __ESTREE_TEST__:PASS:
                   "name": "privateUse_im_private_mi_private",
                   "optional": false,
                   "typeAnnotation": null,
-                  "start": 4984,
-                  "end": 5016
+                  "start": 5008,
+                  "end": 5040
                 },
                 "init": {
                   "type": "NewExpression",
@@ -3536,8 +3536,8 @@ __ESTREE_TEST__:PASS:
                       "name": "im_private_mi_private",
                       "optional": false,
                       "typeAnnotation": null,
-                      "start": 5023,
-                      "end": 5044
+                      "start": 5047,
+                      "end": 5068
                     },
                     "property": {
                       "type": "Identifier",
@@ -3545,27 +3545,27 @@ __ESTREE_TEST__:PASS:
                       "name": "c",
                       "optional": false,
                       "typeAnnotation": null,
-                      "start": 5045,
-                      "end": 5046
+                      "start": 5069,
+                      "end": 5070
                     },
                     "optional": false,
                     "computed": false,
-                    "start": 5023,
-                    "end": 5046
+                    "start": 5047,
+                    "end": 5070
                   },
                   "typeArguments": null,
                   "arguments": [],
-                  "start": 5019,
-                  "end": 5048
+                  "start": 5043,
+                  "end": 5072
                 },
                 "definite": false,
-                "start": 4984,
-                "end": 5048
+                "start": 5008,
+                "end": 5072
               }
             ],
             "declare": false,
-            "start": 4980,
-            "end": 5049
+            "start": 5004,
+            "end": 5073
           },
           {
             "type": "ExportNamedDeclaration",
@@ -3581,8 +3581,8 @@ __ESTREE_TEST__:PASS:
                     "name": "publicUse_im_private_mi_private",
                     "optional": false,
                     "typeAnnotation": null,
-                    "start": 5065,
-                    "end": 5096
+                    "start": 5089,
+                    "end": 5120
                   },
                   "init": {
                     "type": "NewExpression",
@@ -3594,8 +3594,8 @@ __ESTREE_TEST__:PASS:
                         "name": "im_private_mi_private",
                         "optional": false,
                         "typeAnnotation": null,
-                        "start": 5103,
-                        "end": 5124
+                        "start": 5127,
+                        "end": 5148
                       },
                       "property": {
                         "type": "Identifier",
@@ -3603,34 +3603,34 @@ __ESTREE_TEST__:PASS:
                         "name": "c",
                         "optional": false,
                         "typeAnnotation": null,
-                        "start": 5125,
-                        "end": 5126
+                        "start": 5149,
+                        "end": 5150
                       },
                       "optional": false,
                       "computed": false,
-                      "start": 5103,
-                      "end": 5126
+                      "start": 5127,
+                      "end": 5150
                     },
                     "typeArguments": null,
                     "arguments": [],
-                    "start": 5099,
-                    "end": 5128
+                    "start": 5123,
+                    "end": 5152
                   },
                   "definite": false,
-                  "start": 5065,
-                  "end": 5128
+                  "start": 5089,
+                  "end": 5152
                 }
               ],
               "declare": false,
-              "start": 5061,
-              "end": 5129
+              "start": 5085,
+              "end": 5153
             },
             "specifiers": [],
             "source": null,
             "exportKind": "value",
             "attributes": [],
-            "start": 5054,
-            "end": 5129
+            "start": 5078,
+            "end": 5153
           },
           {
             "type": "VariableDeclaration",
@@ -3655,8 +3655,8 @@ __ESTREE_TEST__:PASS:
                           "name": "im_private_mu_private",
                           "optional": false,
                           "typeAnnotation": null,
-                          "start": 5172,
-                          "end": 5193
+                          "start": 5196,
+                          "end": 5217
                         },
                         "right": {
                           "type": "Identifier",
@@ -3664,31 +3664,31 @@ __ESTREE_TEST__:PASS:
                           "name": "i",
                           "optional": false,
                           "typeAnnotation": null,
-                          "start": 5194,
-                          "end": 5195
+                          "start": 5218,
+                          "end": 5219
                         },
-                        "start": 5172,
-                        "end": 5195
+                        "start": 5196,
+                        "end": 5219
                       },
                       "typeArguments": null,
-                      "start": 5172,
-                      "end": 5195
+                      "start": 5196,
+                      "end": 5219
                     },
-                    "start": 5170,
-                    "end": 5195
+                    "start": 5194,
+                    "end": 5219
                   },
-                  "start": 5138,
-                  "end": 5195
+                  "start": 5162,
+                  "end": 5219
                 },
                 "init": null,
                 "definite": false,
-                "start": 5138,
-                "end": 5195
+                "start": 5162,
+                "end": 5219
               }
             ],
             "declare": false,
-            "start": 5134,
-            "end": 5196
+            "start": 5158,
+            "end": 5220
           },
           {
             "type": "ExportNamedDeclaration",
@@ -3715,8 +3715,8 @@ __ESTREE_TEST__:PASS:
                             "name": "im_private_mu_private",
                             "optional": false,
                             "typeAnnotation": null,
-                            "start": 5245,
-                            "end": 5266
+                            "start": 5269,
+                            "end": 5290
                           },
                           "right": {
                             "type": "Identifier",
@@ -3724,38 +3724,38 @@ __ESTREE_TEST__:PASS:
                             "name": "i",
                             "optional": false,
                             "typeAnnotation": null,
-                            "start": 5267,
-                            "end": 5268
+                            "start": 5291,
+                            "end": 5292
                           },
-                          "start": 5245,
-                          "end": 5268
+                          "start": 5269,
+                          "end": 5292
                         },
                         "typeArguments": null,
-                        "start": 5245,
-                        "end": 5268
+                        "start": 5269,
+                        "end": 5292
                       },
-                      "start": 5243,
-                      "end": 5268
+                      "start": 5267,
+                      "end": 5292
                     },
-                    "start": 5212,
-                    "end": 5268
+                    "start": 5236,
+                    "end": 5292
                   },
                   "init": null,
                   "definite": false,
-                  "start": 5212,
-                  "end": 5268
+                  "start": 5236,
+                  "end": 5292
                 }
               ],
               "declare": false,
-              "start": 5208,
-              "end": 5269
+              "start": 5232,
+              "end": 5293
             },
             "specifiers": [],
             "source": null,
             "exportKind": "value",
             "attributes": [],
-            "start": 5201,
-            "end": 5269
+            "start": 5225,
+            "end": 5293
           },
           {
             "type": "TSImportEqualsDeclaration",
@@ -3765,8 +3765,8 @@ __ESTREE_TEST__:PASS:
               "name": "im_private_c_public",
               "optional": false,
               "typeAnnotation": null,
-              "start": 5334,
-              "end": 5353
+              "start": 5358,
+              "end": 5377
             },
             "moduleReference": {
               "type": "TSQualifiedName",
@@ -3776,8 +3776,8 @@ __ESTREE_TEST__:PASS:
                 "name": "m_public",
                 "optional": false,
                 "typeAnnotation": null,
-                "start": 5356,
-                "end": 5364
+                "start": 5380,
+                "end": 5388
               },
               "right": {
                 "type": "Identifier",
@@ -3785,15 +3785,15 @@ __ESTREE_TEST__:PASS:
                 "name": "c_public",
                 "optional": false,
                 "typeAnnotation": null,
-                "start": 5365,
-                "end": 5373
+                "start": 5389,
+                "end": 5397
               },
-              "start": 5356,
-              "end": 5373
+              "start": 5380,
+              "end": 5397
             },
             "importKind": "value",
-            "start": 5327,
-            "end": 5374
+            "start": 5351,
+            "end": 5398
           },
           {
             "type": "TSImportEqualsDeclaration",
@@ -3803,8 +3803,8 @@ __ESTREE_TEST__:PASS:
               "name": "im_private_e_public",
               "optional": false,
               "typeAnnotation": null,
-              "start": 5386,
-              "end": 5405
+              "start": 5410,
+              "end": 5429
             },
             "moduleReference": {
               "type": "TSQualifiedName",
@@ -3814,8 +3814,8 @@ __ESTREE_TEST__:PASS:
                 "name": "m_public",
                 "optional": false,
                 "typeAnnotation": null,
-                "start": 5408,
-                "end": 5416
+                "start": 5432,
+                "end": 5440
               },
               "right": {
                 "type": "Identifier",
@@ -3823,15 +3823,15 @@ __ESTREE_TEST__:PASS:
                 "name": "e_public",
                 "optional": false,
                 "typeAnnotation": null,
-                "start": 5417,
-                "end": 5425
+                "start": 5441,
+                "end": 5449
               },
-              "start": 5408,
-              "end": 5425
+              "start": 5432,
+              "end": 5449
             },
             "importKind": "value",
-            "start": 5379,
-            "end": 5426
+            "start": 5403,
+            "end": 5450
           },
           {
             "type": "TSImportEqualsDeclaration",
@@ -3841,8 +3841,8 @@ __ESTREE_TEST__:PASS:
               "name": "im_private_f_public",
               "optional": false,
               "typeAnnotation": null,
-              "start": 5438,
-              "end": 5457
+              "start": 5462,
+              "end": 5481
             },
             "moduleReference": {
               "type": "TSQualifiedName",
@@ -3852,8 +3852,8 @@ __ESTREE_TEST__:PASS:
                 "name": "m_public",
                 "optional": false,
                 "typeAnnotation": null,
-                "start": 5460,
-                "end": 5468
+                "start": 5484,
+                "end": 5492
               },
               "right": {
                 "type": "Identifier",
@@ -3861,15 +3861,15 @@ __ESTREE_TEST__:PASS:
                 "name": "f_public",
                 "optional": false,
                 "typeAnnotation": null,
-                "start": 5469,
-                "end": 5477
+                "start": 5493,
+                "end": 5501
               },
-              "start": 5460,
-              "end": 5477
+              "start": 5484,
+              "end": 5501
             },
             "importKind": "value",
-            "start": 5431,
-            "end": 5478
+            "start": 5455,
+            "end": 5502
           },
           {
             "type": "TSImportEqualsDeclaration",
@@ -3879,8 +3879,8 @@ __ESTREE_TEST__:PASS:
               "name": "im_private_v_public",
               "optional": false,
               "typeAnnotation": null,
-              "start": 5490,
-              "end": 5509
+              "start": 5514,
+              "end": 5533
             },
             "moduleReference": {
               "type": "TSQualifiedName",
@@ -3890,8 +3890,8 @@ __ESTREE_TEST__:PASS:
                 "name": "m_public",
                 "optional": false,
                 "typeAnnotation": null,
-                "start": 5512,
-                "end": 5520
+                "start": 5536,
+                "end": 5544
               },
               "right": {
                 "type": "Identifier",
@@ -3899,15 +3899,15 @@ __ESTREE_TEST__:PASS:
                 "name": "v_public",
                 "optional": false,
                 "typeAnnotation": null,
-                "start": 5521,
-                "end": 5529
+                "start": 5545,
+                "end": 5553
               },
-              "start": 5512,
-              "end": 5529
+              "start": 5536,
+              "end": 5553
             },
             "importKind": "value",
-            "start": 5483,
-            "end": 5530
+            "start": 5507,
+            "end": 5554
           },
           {
             "type": "TSImportEqualsDeclaration",
@@ -3917,8 +3917,8 @@ __ESTREE_TEST__:PASS:
               "name": "im_private_i_public",
               "optional": false,
               "typeAnnotation": null,
-              "start": 5542,
-              "end": 5561
+              "start": 5566,
+              "end": 5585
             },
             "moduleReference": {
               "type": "TSQualifiedName",
@@ -3928,8 +3928,8 @@ __ESTREE_TEST__:PASS:
                 "name": "m_public",
                 "optional": false,
                 "typeAnnotation": null,
-                "start": 5564,
-                "end": 5572
+                "start": 5588,
+                "end": 5596
               },
               "right": {
                 "type": "Identifier",
@@ -3937,15 +3937,15 @@ __ESTREE_TEST__:PASS:
                 "name": "i_public",
                 "optional": false,
                 "typeAnnotation": null,
-                "start": 5573,
-                "end": 5581
+                "start": 5597,
+                "end": 5605
               },
-              "start": 5564,
-              "end": 5581
+              "start": 5588,
+              "end": 5605
             },
             "importKind": "value",
-            "start": 5535,
-            "end": 5582
+            "start": 5559,
+            "end": 5606
           },
           {
             "type": "TSImportEqualsDeclaration",
@@ -3955,8 +3955,8 @@ __ESTREE_TEST__:PASS:
               "name": "im_private_mi_public",
               "optional": false,
               "typeAnnotation": null,
-              "start": 5594,
-              "end": 5614
+              "start": 5618,
+              "end": 5638
             },
             "moduleReference": {
               "type": "TSQualifiedName",
@@ -3966,8 +3966,8 @@ __ESTREE_TEST__:PASS:
                 "name": "m_public",
                 "optional": false,
                 "typeAnnotation": null,
-                "start": 5617,
-                "end": 5625
+                "start": 5641,
+                "end": 5649
               },
               "right": {
                 "type": "Identifier",
@@ -3975,15 +3975,15 @@ __ESTREE_TEST__:PASS:
                 "name": "mi_public",
                 "optional": false,
                 "typeAnnotation": null,
-                "start": 5626,
-                "end": 5635
+                "start": 5650,
+                "end": 5659
               },
-              "start": 5617,
-              "end": 5635
+              "start": 5641,
+              "end": 5659
             },
             "importKind": "value",
-            "start": 5587,
-            "end": 5636
+            "start": 5611,
+            "end": 5660
           },
           {
             "type": "TSImportEqualsDeclaration",
@@ -3993,8 +3993,8 @@ __ESTREE_TEST__:PASS:
               "name": "im_private_mu_public",
               "optional": false,
               "typeAnnotation": null,
-              "start": 5648,
-              "end": 5668
+              "start": 5672,
+              "end": 5692
             },
             "moduleReference": {
               "type": "TSQualifiedName",
@@ -4004,8 +4004,8 @@ __ESTREE_TEST__:PASS:
                 "name": "m_public",
                 "optional": false,
                 "typeAnnotation": null,
-                "start": 5671,
-                "end": 5679
+                "start": 5695,
+                "end": 5703
               },
               "right": {
                 "type": "Identifier",
@@ -4013,15 +4013,15 @@ __ESTREE_TEST__:PASS:
                 "name": "mu_public",
                 "optional": false,
                 "typeAnnotation": null,
-                "start": 5680,
-                "end": 5689
+                "start": 5704,
+                "end": 5713
               },
-              "start": 5671,
-              "end": 5689
+              "start": 5695,
+              "end": 5713
             },
             "importKind": "value",
-            "start": 5641,
-            "end": 5690
+            "start": 5665,
+            "end": 5714
           },
           {
             "type": "VariableDeclaration",
@@ -4035,8 +4035,8 @@ __ESTREE_TEST__:PASS:
                   "name": "privateUse_im_private_c_public",
                   "optional": false,
                   "typeAnnotation": null,
-                  "start": 5728,
-                  "end": 5758
+                  "start": 5752,
+                  "end": 5782
                 },
                 "init": {
                   "type": "NewExpression",
@@ -4046,22 +4046,22 @@ __ESTREE_TEST__:PASS:
                     "name": "im_private_c_public",
                     "optional": false,
                     "typeAnnotation": null,
-                    "start": 5765,
-                    "end": 5784
+                    "start": 5789,
+                    "end": 5808
                   },
                   "typeArguments": null,
                   "arguments": [],
-                  "start": 5761,
-                  "end": 5786
+                  "start": 5785,
+                  "end": 5810
                 },
                 "definite": false,
-                "start": 5728,
-                "end": 5786
+                "start": 5752,
+                "end": 5810
               }
             ],
             "declare": false,
-            "start": 5724,
-            "end": 5787
+            "start": 5748,
+            "end": 5811
           },
           {
             "type": "ExportNamedDeclaration",
@@ -4077,8 +4077,8 @@ __ESTREE_TEST__:PASS:
                     "name": "publicUse_im_private_c_public",
                     "optional": false,
                     "typeAnnotation": null,
-                    "start": 5803,
-                    "end": 5832
+                    "start": 5827,
+                    "end": 5856
                   },
                   "init": {
                     "type": "NewExpression",
@@ -4088,29 +4088,29 @@ __ESTREE_TEST__:PASS:
                       "name": "im_private_c_public",
                       "optional": false,
                       "typeAnnotation": null,
-                      "start": 5839,
-                      "end": 5858
+                      "start": 5863,
+                      "end": 5882
                     },
                     "typeArguments": null,
                     "arguments": [],
-                    "start": 5835,
-                    "end": 5860
+                    "start": 5859,
+                    "end": 5884
                   },
                   "definite": false,
-                  "start": 5803,
-                  "end": 5860
+                  "start": 5827,
+                  "end": 5884
                 }
               ],
               "declare": false,
-              "start": 5799,
-              "end": 5861
+              "start": 5823,
+              "end": 5885
             },
             "specifiers": [],
             "source": null,
             "exportKind": "value",
             "attributes": [],
-            "start": 5792,
-            "end": 5861
+            "start": 5816,
+            "end": 5885
           },
           {
             "type": "VariableDeclaration",
@@ -4124,8 +4124,8 @@ __ESTREE_TEST__:PASS:
                   "name": "privateUse_im_private_e_public",
                   "optional": false,
                   "typeAnnotation": null,
-                  "start": 5870,
-                  "end": 5900
+                  "start": 5894,
+                  "end": 5924
                 },
                 "init": {
                   "type": "MemberExpression",
@@ -4135,8 +4135,8 @@ __ESTREE_TEST__:PASS:
                     "name": "im_private_e_public",
                     "optional": false,
                     "typeAnnotation": null,
-                    "start": 5903,
-                    "end": 5922
+                    "start": 5927,
+                    "end": 5946
                   },
                   "property": {
                     "type": "Identifier",
@@ -4144,22 +4144,22 @@ __ESTREE_TEST__:PASS:
                     "name": "Happy",
                     "optional": false,
                     "typeAnnotation": null,
-                    "start": 5923,
-                    "end": 5928
+                    "start": 5947,
+                    "end": 5952
                   },
                   "optional": false,
                   "computed": false,
-                  "start": 5903,
-                  "end": 5928
+                  "start": 5927,
+                  "end": 5952
                 },
                 "definite": false,
-                "start": 5870,
-                "end": 5928
+                "start": 5894,
+                "end": 5952
               }
             ],
             "declare": false,
-            "start": 5866,
-            "end": 5929
+            "start": 5890,
+            "end": 5953
           },
           {
             "type": "ExportNamedDeclaration",
@@ -4175,8 +4175,8 @@ __ESTREE_TEST__:PASS:
                     "name": "publicUse_im_private_e_public",
                     "optional": false,
                     "typeAnnotation": null,
-                    "start": 5945,
-                    "end": 5974
+                    "start": 5969,
+                    "end": 5998
                   },
                   "init": {
                     "type": "MemberExpression",
@@ -4186,8 +4186,8 @@ __ESTREE_TEST__:PASS:
                       "name": "im_private_e_public",
                       "optional": false,
                       "typeAnnotation": null,
-                      "start": 5977,
-                      "end": 5996
+                      "start": 6001,
+                      "end": 6020
                     },
                     "property": {
                       "type": "Identifier",
@@ -4195,29 +4195,29 @@ __ESTREE_TEST__:PASS:
                       "name": "Grumpy",
                       "optional": false,
                       "typeAnnotation": null,
-                      "start": 5997,
-                      "end": 6003
+                      "start": 6021,
+                      "end": 6027
                     },
                     "optional": false,
                     "computed": false,
-                    "start": 5977,
-                    "end": 6003
+                    "start": 6001,
+                    "end": 6027
                   },
                   "definite": false,
-                  "start": 5945,
-                  "end": 6003
+                  "start": 5969,
+                  "end": 6027
                 }
               ],
               "declare": false,
-              "start": 5941,
-              "end": 6004
+              "start": 5965,
+              "end": 6028
             },
             "specifiers": [],
             "source": null,
             "exportKind": "value",
             "attributes": [],
-            "start": 5934,
-            "end": 6004
+            "start": 5958,
+            "end": 6028
           },
           {
             "type": "VariableDeclaration",
@@ -4231,8 +4231,8 @@ __ESTREE_TEST__:PASS:
                   "name": "privateUse_im_private_f_public",
                   "optional": false,
                   "typeAnnotation": null,
-                  "start": 6013,
-                  "end": 6043
+                  "start": 6037,
+                  "end": 6067
                 },
                 "init": {
                   "type": "CallExpression",
@@ -4242,23 +4242,23 @@ __ESTREE_TEST__:PASS:
                     "name": "im_private_f_public",
                     "optional": false,
                     "typeAnnotation": null,
-                    "start": 6046,
-                    "end": 6065
+                    "start": 6070,
+                    "end": 6089
                   },
                   "typeArguments": null,
                   "arguments": [],
                   "optional": false,
-                  "start": 6046,
-                  "end": 6067
+                  "start": 6070,
+                  "end": 6091
                 },
                 "definite": false,
-                "start": 6013,
-                "end": 6067
+                "start": 6037,
+                "end": 6091
               }
             ],
             "declare": false,
-            "start": 6009,
-            "end": 6068
+            "start": 6033,
+            "end": 6092
           },
           {
             "type": "ExportNamedDeclaration",
@@ -4274,8 +4274,8 @@ __ESTREE_TEST__:PASS:
                     "name": "publicUse_im_private_f_public",
                     "optional": false,
                     "typeAnnotation": null,
-                    "start": 6084,
-                    "end": 6113
+                    "start": 6108,
+                    "end": 6137
                   },
                   "init": {
                     "type": "CallExpression",
@@ -4285,30 +4285,30 @@ __ESTREE_TEST__:PASS:
                       "name": "im_private_f_public",
                       "optional": false,
                       "typeAnnotation": null,
-                      "start": 6116,
-                      "end": 6135
+                      "start": 6140,
+                      "end": 6159
                     },
                     "typeArguments": null,
                     "arguments": [],
                     "optional": false,
-                    "start": 6116,
-                    "end": 6137
+                    "start": 6140,
+                    "end": 6161
                   },
                   "definite": false,
-                  "start": 6084,
-                  "end": 6137
+                  "start": 6108,
+                  "end": 6161
                 }
               ],
               "declare": false,
-              "start": 6080,
-              "end": 6138
+              "start": 6104,
+              "end": 6162
             },
             "specifiers": [],
             "source": null,
             "exportKind": "value",
             "attributes": [],
-            "start": 6073,
-            "end": 6138
+            "start": 6097,
+            "end": 6162
           },
           {
             "type": "VariableDeclaration",
@@ -4322,8 +4322,8 @@ __ESTREE_TEST__:PASS:
                   "name": "privateUse_im_private_v_public",
                   "optional": false,
                   "typeAnnotation": null,
-                  "start": 6147,
-                  "end": 6177
+                  "start": 6171,
+                  "end": 6201
                 },
                 "init": {
                   "type": "Identifier",
@@ -4331,17 +4331,17 @@ __ESTREE_TEST__:PASS:
                   "name": "im_private_v_public",
                   "optional": false,
                   "typeAnnotation": null,
-                  "start": 6180,
-                  "end": 6199
+                  "start": 6204,
+                  "end": 6223
                 },
                 "definite": false,
-                "start": 6147,
-                "end": 6199
+                "start": 6171,
+                "end": 6223
               }
             ],
             "declare": false,
-            "start": 6143,
-            "end": 6200
+            "start": 6167,
+            "end": 6224
           },
           {
             "type": "ExportNamedDeclaration",
@@ -4357,8 +4357,8 @@ __ESTREE_TEST__:PASS:
                     "name": "publicUse_im_private_v_public",
                     "optional": false,
                     "typeAnnotation": null,
-                    "start": 6216,
-                    "end": 6245
+                    "start": 6240,
+                    "end": 6269
                   },
                   "init": {
                     "type": "Identifier",
@@ -4366,24 +4366,24 @@ __ESTREE_TEST__:PASS:
                     "name": "im_private_v_public",
                     "optional": false,
                     "typeAnnotation": null,
-                    "start": 6248,
-                    "end": 6267
+                    "start": 6272,
+                    "end": 6291
                   },
                   "definite": false,
-                  "start": 6216,
-                  "end": 6267
+                  "start": 6240,
+                  "end": 6291
                 }
               ],
               "declare": false,
-              "start": 6212,
-              "end": 6268
+              "start": 6236,
+              "end": 6292
             },
             "specifiers": [],
             "source": null,
             "exportKind": "value",
             "attributes": [],
-            "start": 6205,
-            "end": 6268
+            "start": 6229,
+            "end": 6292
           },
           {
             "type": "VariableDeclaration",
@@ -4406,28 +4406,28 @@ __ESTREE_TEST__:PASS:
                         "name": "im_private_i_public",
                         "optional": false,
                         "typeAnnotation": null,
-                        "start": 6309,
-                        "end": 6328
+                        "start": 6333,
+                        "end": 6352
                       },
                       "typeArguments": null,
-                      "start": 6309,
-                      "end": 6328
+                      "start": 6333,
+                      "end": 6352
                     },
-                    "start": 6307,
-                    "end": 6328
+                    "start": 6331,
+                    "end": 6352
                   },
-                  "start": 6277,
-                  "end": 6328
+                  "start": 6301,
+                  "end": 6352
                 },
                 "init": null,
                 "definite": false,
-                "start": 6277,
-                "end": 6328
+                "start": 6301,
+                "end": 6352
               }
             ],
             "declare": false,
-            "start": 6273,
-            "end": 6329
+            "start": 6297,
+            "end": 6353
           },
           {
             "type": "ExportNamedDeclaration",
@@ -4452,35 +4452,35 @@ __ESTREE_TEST__:PASS:
                           "name": "im_private_i_public",
                           "optional": false,
                           "typeAnnotation": null,
-                          "start": 6376,
-                          "end": 6395
+                          "start": 6400,
+                          "end": 6419
                         },
                         "typeArguments": null,
-                        "start": 6376,
-                        "end": 6395
+                        "start": 6400,
+                        "end": 6419
                       },
-                      "start": 6374,
-                      "end": 6395
+                      "start": 6398,
+                      "end": 6419
                     },
-                    "start": 6345,
-                    "end": 6395
+                    "start": 6369,
+                    "end": 6419
                   },
                   "init": null,
                   "definite": false,
-                  "start": 6345,
-                  "end": 6395
+                  "start": 6369,
+                  "end": 6419
                 }
               ],
               "declare": false,
-              "start": 6341,
-              "end": 6396
+              "start": 6365,
+              "end": 6420
             },
             "specifiers": [],
             "source": null,
             "exportKind": "value",
             "attributes": [],
-            "start": 6334,
-            "end": 6396
+            "start": 6358,
+            "end": 6420
           },
           {
             "type": "VariableDeclaration",
@@ -4494,8 +4494,8 @@ __ESTREE_TEST__:PASS:
                   "name": "privateUse_im_private_mi_public",
                   "optional": false,
                   "typeAnnotation": null,
-                  "start": 6405,
-                  "end": 6436
+                  "start": 6429,
+                  "end": 6460
                 },
                 "init": {
                   "type": "NewExpression",
@@ -4507,8 +4507,8 @@ __ESTREE_TEST__:PASS:
                       "name": "im_private_mi_public",
                       "optional": false,
                       "typeAnnotation": null,
-                      "start": 6443,
-                      "end": 6463
+                      "start": 6467,
+                      "end": 6487
                     },
                     "property": {
                       "type": "Identifier",
@@ -4516,27 +4516,27 @@ __ESTREE_TEST__:PASS:
                       "name": "c",
                       "optional": false,
                       "typeAnnotation": null,
-                      "start": 6464,
-                      "end": 6465
+                      "start": 6488,
+                      "end": 6489
                     },
                     "optional": false,
                     "computed": false,
-                    "start": 6443,
-                    "end": 6465
+                    "start": 6467,
+                    "end": 6489
                   },
                   "typeArguments": null,
                   "arguments": [],
-                  "start": 6439,
-                  "end": 6467
+                  "start": 6463,
+                  "end": 6491
                 },
                 "definite": false,
-                "start": 6405,
-                "end": 6467
+                "start": 6429,
+                "end": 6491
               }
             ],
             "declare": false,
-            "start": 6401,
-            "end": 6468
+            "start": 6425,
+            "end": 6492
           },
           {
             "type": "ExportNamedDeclaration",
@@ -4552,8 +4552,8 @@ __ESTREE_TEST__:PASS:
                     "name": "publicUse_im_private_mi_public",
                     "optional": false,
                     "typeAnnotation": null,
-                    "start": 6484,
-                    "end": 6514
+                    "start": 6508,
+                    "end": 6538
                   },
                   "init": {
                     "type": "NewExpression",
@@ -4565,8 +4565,8 @@ __ESTREE_TEST__:PASS:
                         "name": "im_private_mi_public",
                         "optional": false,
                         "typeAnnotation": null,
-                        "start": 6521,
-                        "end": 6541
+                        "start": 6545,
+                        "end": 6565
                       },
                       "property": {
                         "type": "Identifier",
@@ -4574,34 +4574,34 @@ __ESTREE_TEST__:PASS:
                         "name": "c",
                         "optional": false,
                         "typeAnnotation": null,
-                        "start": 6542,
-                        "end": 6543
+                        "start": 6566,
+                        "end": 6567
                       },
                       "optional": false,
                       "computed": false,
-                      "start": 6521,
-                      "end": 6543
+                      "start": 6545,
+                      "end": 6567
                     },
                     "typeArguments": null,
                     "arguments": [],
-                    "start": 6517,
-                    "end": 6545
+                    "start": 6541,
+                    "end": 6569
                   },
                   "definite": false,
-                  "start": 6484,
-                  "end": 6545
+                  "start": 6508,
+                  "end": 6569
                 }
               ],
               "declare": false,
-              "start": 6480,
-              "end": 6546
+              "start": 6504,
+              "end": 6570
             },
             "specifiers": [],
             "source": null,
             "exportKind": "value",
             "attributes": [],
-            "start": 6473,
-            "end": 6546
+            "start": 6497,
+            "end": 6570
           },
           {
             "type": "VariableDeclaration",
@@ -4626,8 +4626,8 @@ __ESTREE_TEST__:PASS:
                           "name": "im_private_mu_public",
                           "optional": false,
                           "typeAnnotation": null,
-                          "start": 6588,
-                          "end": 6608
+                          "start": 6612,
+                          "end": 6632
                         },
                         "right": {
                           "type": "Identifier",
@@ -4635,31 +4635,31 @@ __ESTREE_TEST__:PASS:
                           "name": "i",
                           "optional": false,
                           "typeAnnotation": null,
-                          "start": 6609,
-                          "end": 6610
+                          "start": 6633,
+                          "end": 6634
                         },
-                        "start": 6588,
-                        "end": 6610
+                        "start": 6612,
+                        "end": 6634
                       },
                       "typeArguments": null,
-                      "start": 6588,
-                      "end": 6610
+                      "start": 6612,
+                      "end": 6634
                     },
-                    "start": 6586,
-                    "end": 6610
+                    "start": 6610,
+                    "end": 6634
                   },
-                  "start": 6555,
-                  "end": 6610
+                  "start": 6579,
+                  "end": 6634
                 },
                 "init": null,
                 "definite": false,
-                "start": 6555,
-                "end": 6610
+                "start": 6579,
+                "end": 6634
               }
             ],
             "declare": false,
-            "start": 6551,
-            "end": 6611
+            "start": 6575,
+            "end": 6635
           },
           {
             "type": "ExportNamedDeclaration",
@@ -4686,8 +4686,8 @@ __ESTREE_TEST__:PASS:
                             "name": "im_private_mu_public",
                             "optional": false,
                             "typeAnnotation": null,
-                            "start": 6659,
-                            "end": 6679
+                            "start": 6683,
+                            "end": 6703
                           },
                           "right": {
                             "type": "Identifier",
@@ -4695,53 +4695,53 @@ __ESTREE_TEST__:PASS:
                             "name": "i",
                             "optional": false,
                             "typeAnnotation": null,
-                            "start": 6680,
-                            "end": 6681
+                            "start": 6704,
+                            "end": 6705
                           },
-                          "start": 6659,
-                          "end": 6681
+                          "start": 6683,
+                          "end": 6705
                         },
                         "typeArguments": null,
-                        "start": 6659,
-                        "end": 6681
+                        "start": 6683,
+                        "end": 6705
                       },
-                      "start": 6657,
-                      "end": 6681
+                      "start": 6681,
+                      "end": 6705
                     },
-                    "start": 6627,
-                    "end": 6681
+                    "start": 6651,
+                    "end": 6705
                   },
                   "init": null,
                   "definite": false,
-                  "start": 6627,
-                  "end": 6681
+                  "start": 6651,
+                  "end": 6705
                 }
               ],
               "declare": false,
-              "start": 6623,
-              "end": 6682
+              "start": 6647,
+              "end": 6706
             },
             "specifiers": [],
             "source": null,
             "exportKind": "value",
             "attributes": [],
-            "start": 6616,
-            "end": 6682
+            "start": 6640,
+            "end": 6706
           }
         ],
-        "start": 3805,
-        "end": 6684
+        "start": 3829,
+        "end": 6708
       },
-      "kind": "module",
+      "kind": "namespace",
       "declare": false,
       "global": false,
-      "start": 3783,
-      "end": 6684
+      "start": 3804,
+      "end": 6708
     }
   ],
   "sourceType": "module",
   "hashbang": null,
   "start": 20,
-  "end": 6684
+  "end": 6708
 }
 ```

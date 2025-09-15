@@ -53,8 +53,8 @@ __ESTREE_TEST__:PASS:
             "name": "Microsoft",
             "optional": false,
             "typeAnnotation": null,
-            "start": 82,
-            "end": 91
+            "start": 85,
+            "end": 94
           },
           "right": {
             "type": "Identifier",
@@ -62,11 +62,11 @@ __ESTREE_TEST__:PASS:
             "name": "PeopleAtWork",
             "optional": false,
             "typeAnnotation": null,
-            "start": 92,
-            "end": 104
+            "start": 95,
+            "end": 107
           },
-          "start": 82,
-          "end": 104
+          "start": 85,
+          "end": 107
         },
         "right": {
           "type": "Identifier",
@@ -74,11 +74,11 @@ __ESTREE_TEST__:PASS:
           "name": "Model",
           "optional": false,
           "typeAnnotation": null,
-          "start": 105,
-          "end": 110
+          "start": 108,
+          "end": 113
         },
-        "start": 82,
-        "end": 110
+        "start": 85,
+        "end": 113
       },
       "body": {
         "type": "TSModuleBlock",
@@ -94,8 +94,8 @@ __ESTREE_TEST__:PASS:
                 "name": "_Person",
                 "optional": false,
                 "typeAnnotation": null,
-                "start": 130,
-                "end": 137
+                "start": 133,
+                "end": 140
               },
               "typeParameters": null,
               "superClass": null,
@@ -113,8 +113,8 @@ __ESTREE_TEST__:PASS:
                       "name": "populate",
                       "optional": false,
                       "typeAnnotation": null,
-                      "start": 155,
-                      "end": 163
+                      "start": 158,
+                      "end": 166
                     },
                     "value": {
                       "type": "FunctionExpression",
@@ -133,14 +133,14 @@ __ESTREE_TEST__:PASS:
                             "type": "TSTypeAnnotation",
                             "typeAnnotation": {
                               "type": "TSAnyKeyword",
-                              "start": 169,
-                              "end": 172
+                              "start": 172,
+                              "end": 175
                             },
-                            "start": 167,
-                            "end": 172
+                            "start": 170,
+                            "end": 175
                           },
-                          "start": 164,
-                          "end": 172
+                          "start": 167,
+                          "end": 175
                         }
                       ],
                       "returnType": null,
@@ -159,8 +159,8 @@ __ESTREE_TEST__:PASS:
                                   "name": "res",
                                   "optional": false,
                                   "typeAnnotation": null,
-                                  "start": 192,
-                                  "end": 195
+                                  "start": 195,
+                                  "end": 198
                                 },
                                 "init": {
                                   "type": "MemberExpression",
@@ -170,8 +170,8 @@ __ESTREE_TEST__:PASS:
                                     "name": "Model",
                                     "optional": false,
                                     "typeAnnotation": null,
-                                    "start": 198,
-                                    "end": 203
+                                    "start": 201,
+                                    "end": 206
                                   },
                                   "property": {
                                     "type": "Identifier",
@@ -179,30 +179,30 @@ __ESTREE_TEST__:PASS:
                                     "name": "KnockoutExtentions",
                                     "optional": false,
                                     "typeAnnotation": null,
-                                    "start": 204,
-                                    "end": 222
+                                    "start": 207,
+                                    "end": 225
                                   },
                                   "optional": false,
                                   "computed": false,
-                                  "start": 198,
-                                  "end": 222
+                                  "start": 201,
+                                  "end": 225
                                 },
                                 "definite": false,
-                                "start": 192,
-                                "end": 222
+                                "start": 195,
+                                "end": 225
                               }
                             ],
                             "declare": false,
-                            "start": 188,
-                            "end": 223
+                            "start": 191,
+                            "end": 226
                           }
                         ],
-                        "start": 174,
-                        "end": 233
+                        "start": 177,
+                        "end": 236
                       },
                       "expression": false,
-                      "start": 163,
-                      "end": 233
+                      "start": 166,
+                      "end": 236
                     },
                     "kind": "method",
                     "computed": false,
@@ -210,40 +210,40 @@ __ESTREE_TEST__:PASS:
                     "override": false,
                     "optional": false,
                     "accessibility": "public",
-                    "start": 148,
-                    "end": 233
+                    "start": 151,
+                    "end": 236
                   }
                 ],
-                "start": 138,
-                "end": 239
+                "start": 141,
+                "end": 242
               },
               "abstract": false,
               "declare": false,
-              "start": 124,
-              "end": 239
+              "start": 127,
+              "end": 242
             },
             "specifiers": [],
             "source": null,
             "exportKind": "value",
             "attributes": [],
-            "start": 117,
-            "end": 239
+            "start": 120,
+            "end": 242
           }
         ],
-        "start": 111,
-        "end": 241
+        "start": 114,
+        "end": 244
       },
-      "kind": "module",
+      "kind": "namespace",
       "declare": false,
       "global": false,
       "start": 75,
-      "end": 241
+      "end": 244
     }
   ],
   "sourceType": "module",
   "hashbang": null,
   "start": 61,
-  "end": 242
+  "end": 245
 }
 ```
 __ESTREE_TEST__:PASS:
@@ -297,8 +297,8 @@ __ESTREE_TEST__:PASS:
             "name": "Microsoft",
             "optional": false,
             "typeAnnotation": null,
-            "start": 153,
-            "end": 162
+            "start": 156,
+            "end": 165
           },
           "right": {
             "type": "Identifier",
@@ -306,11 +306,11 @@ __ESTREE_TEST__:PASS:
             "name": "PeopleAtWork",
             "optional": false,
             "typeAnnotation": null,
-            "start": 163,
-            "end": 175
+            "start": 166,
+            "end": 178
           },
-          "start": 153,
-          "end": 175
+          "start": 156,
+          "end": 178
         },
         "right": {
           "type": "Identifier",
@@ -318,11 +318,11 @@ __ESTREE_TEST__:PASS:
           "name": "Model",
           "optional": false,
           "typeAnnotation": null,
-          "start": 176,
-          "end": 181
+          "start": 179,
+          "end": 184
         },
-        "start": 153,
-        "end": 181
+        "start": 156,
+        "end": 184
       },
       "body": {
         "type": "TSModuleBlock",
@@ -338,8 +338,8 @@ __ESTREE_TEST__:PASS:
                 "name": "KnockoutExtentions",
                 "optional": false,
                 "typeAnnotation": null,
-                "start": 201,
-                "end": 219
+                "start": 204,
+                "end": 222
               },
               "typeParameters": null,
               "superClass": null,
@@ -348,35 +348,35 @@ __ESTREE_TEST__:PASS:
               "body": {
                 "type": "ClassBody",
                 "body": [],
-                "start": 220,
-                "end": 227
+                "start": 223,
+                "end": 230
               },
               "abstract": false,
               "declare": false,
-              "start": 195,
-              "end": 227
+              "start": 198,
+              "end": 230
             },
             "specifiers": [],
             "source": null,
             "exportKind": "value",
             "attributes": [],
-            "start": 188,
-            "end": 227
+            "start": 191,
+            "end": 230
           }
         ],
-        "start": 182,
-        "end": 229
+        "start": 185,
+        "end": 232
       },
-      "kind": "module",
+      "kind": "namespace",
       "declare": false,
       "global": false,
       "start": 146,
-      "end": 229
+      "end": 232
     }
   ],
   "sourceType": "module",
   "hashbang": null,
   "start": 122,
-  "end": 229
+  "end": 232
 }
 ```

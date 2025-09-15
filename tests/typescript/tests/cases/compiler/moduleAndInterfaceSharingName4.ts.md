@@ -11,8 +11,8 @@ __ESTREE_TEST__:PASS:
         "name": "D3",
         "optional": false,
         "typeAnnotation": null,
-        "start": 15,
-        "end": 17
+        "start": 18,
+        "end": 20
       },
       "body": {
         "type": "TSModuleBlock",
@@ -42,8 +42,8 @@ __ESTREE_TEST__:PASS:
                             "name": "D3",
                             "optional": false,
                             "typeAnnotation": null,
-                            "start": 31,
-                            "end": 33
+                            "start": 34,
+                            "end": 36
                           },
                           "right": {
                             "type": "Identifier",
@@ -51,11 +51,11 @@ __ESTREE_TEST__:PASS:
                             "name": "Color",
                             "optional": false,
                             "typeAnnotation": null,
-                            "start": 34,
-                            "end": 39
+                            "start": 37,
+                            "end": 42
                           },
-                          "start": 31,
-                          "end": 39
+                          "start": 34,
+                          "end": 42
                         },
                         "right": {
                           "type": "Identifier",
@@ -63,31 +63,31 @@ __ESTREE_TEST__:PASS:
                           "name": "Color",
                           "optional": false,
                           "typeAnnotation": null,
-                          "start": 40,
-                          "end": 45
+                          "start": 43,
+                          "end": 48
                         },
-                        "start": 31,
-                        "end": 45
+                        "start": 34,
+                        "end": 48
                       },
                       "typeArguments": null,
-                      "start": 31,
-                      "end": 45
+                      "start": 34,
+                      "end": 48
                     },
-                    "start": 29,
-                    "end": 45
+                    "start": 32,
+                    "end": 48
                   },
-                  "start": 28,
-                  "end": 45
+                  "start": 31,
+                  "end": 48
                 },
                 "init": null,
                 "definite": false,
-                "start": 28,
-                "end": 45
+                "start": 31,
+                "end": 48
               }
             ],
             "declare": false,
-            "start": 24,
-            "end": 46
+            "start": 27,
+            "end": 49
           },
           {
             "type": "TSModuleDeclaration",
@@ -97,8 +97,8 @@ __ESTREE_TEST__:PASS:
               "name": "Color",
               "optional": false,
               "typeAnnotation": null,
-              "start": 59,
-              "end": 64
+              "start": 65,
+              "end": 70
             },
             "body": {
               "type": "TSModuleBlock",
@@ -113,8 +113,8 @@ __ESTREE_TEST__:PASS:
                       "name": "Color",
                       "optional": false,
                       "typeAnnotation": null,
-                      "start": 92,
-                      "end": 97
+                      "start": 98,
+                      "end": 103
                     },
                     "typeParameters": null,
                     "extends": [],
@@ -132,8 +132,8 @@ __ESTREE_TEST__:PASS:
                             "name": "darker",
                             "optional": false,
                             "typeAnnotation": null,
-                            "start": 112,
-                            "end": 118
+                            "start": 118,
+                            "end": 124
                           },
                           "typeAnnotation": {
                             "type": "TSTypeAnnotation",
@@ -145,60 +145,60 @@ __ESTREE_TEST__:PASS:
                                 "name": "Color",
                                 "optional": false,
                                 "typeAnnotation": null,
-                                "start": 120,
-                                "end": 125
+                                "start": 126,
+                                "end": 131
                               },
                               "typeArguments": null,
-                              "start": 120,
-                              "end": 125
+                              "start": 126,
+                              "end": 131
                             },
-                            "start": 118,
-                            "end": 125
+                            "start": 124,
+                            "end": 131
                           },
                           "accessibility": null,
                           "static": false,
-                          "start": 112,
-                          "end": 126
+                          "start": 118,
+                          "end": 132
                         }
                       ],
-                      "start": 98,
-                      "end": 136
+                      "start": 104,
+                      "end": 142
                     },
                     "declare": false,
-                    "start": 82,
-                    "end": 136
+                    "start": 88,
+                    "end": 142
                   },
                   "specifiers": [],
                   "source": null,
                   "exportKind": "type",
                   "attributes": [],
-                  "start": 75,
-                  "end": 136
+                  "start": 81,
+                  "end": 142
                 }
               ],
-              "start": 65,
-              "end": 142
+              "start": 71,
+              "end": 148
             },
-            "kind": "module",
+            "kind": "namespace",
             "declare": false,
             "global": false,
-            "start": 52,
-            "end": 142
+            "start": 55,
+            "end": 148
           }
         ],
-        "start": 18,
-        "end": 144
+        "start": 21,
+        "end": 150
       },
-      "kind": "module",
+      "kind": "namespace",
       "declare": true,
       "global": false,
       "start": 0,
-      "end": 144
+      "end": 150
     }
   ],
   "sourceType": "script",
   "hashbang": null,
   "start": 0,
-  "end": 144
+  "end": 150
 }
 ```

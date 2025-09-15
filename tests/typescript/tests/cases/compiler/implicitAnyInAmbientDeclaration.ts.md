@@ -11,8 +11,8 @@ __ESTREE_TEST__:PASS:
         "name": "Test",
         "optional": false,
         "typeAnnotation": null,
-        "start": 7,
-        "end": 11
+        "start": 10,
+        "end": 14
       },
       "body": {
         "type": "TSModuleBlock",
@@ -26,8 +26,8 @@ __ESTREE_TEST__:PASS:
               "name": "C",
               "optional": false,
               "typeAnnotation": null,
-              "start": 32,
-              "end": 33
+              "start": 35,
+              "end": 36
             },
             "typeParameters": null,
             "superClass": null,
@@ -45,8 +45,8 @@ __ESTREE_TEST__:PASS:
                     "name": "publicMember",
                     "optional": false,
                     "typeAnnotation": null,
-                    "start": 51,
-                    "end": 63
+                    "start": 54,
+                    "end": 66
                   },
                   "typeAnnotation": null,
                   "value": null,
@@ -58,8 +58,8 @@ __ESTREE_TEST__:PASS:
                   "definite": false,
                   "readonly": false,
                   "accessibility": "public",
-                  "start": 44,
-                  "end": 64
+                  "start": 47,
+                  "end": 67
                 },
                 {
                   "type": "PropertyDefinition",
@@ -70,8 +70,8 @@ __ESTREE_TEST__:PASS:
                     "name": "privateMember",
                     "optional": false,
                     "typeAnnotation": null,
-                    "start": 109,
-                    "end": 122
+                    "start": 112,
+                    "end": 125
                   },
                   "typeAnnotation": null,
                   "value": null,
@@ -83,8 +83,8 @@ __ESTREE_TEST__:PASS:
                   "definite": false,
                   "readonly": false,
                   "accessibility": "private",
-                  "start": 101,
-                  "end": 123
+                  "start": 104,
+                  "end": 126
                 },
                 {
                   "type": "MethodDefinition",
@@ -95,8 +95,8 @@ __ESTREE_TEST__:PASS:
                     "name": "publicFunction",
                     "optional": false,
                     "typeAnnotation": null,
-                    "start": 172,
-                    "end": 186
+                    "start": 175,
+                    "end": 189
                   },
                   "value": {
                     "type": "TSEmptyBodyFunctionExpression",
@@ -112,15 +112,15 @@ __ESTREE_TEST__:PASS:
                         "name": "x",
                         "optional": false,
                         "typeAnnotation": null,
-                        "start": 187,
-                        "end": 188
+                        "start": 190,
+                        "end": 191
                       }
                     ],
                     "returnType": null,
                     "body": null,
                     "expression": false,
-                    "start": 186,
-                    "end": 190
+                    "start": 189,
+                    "end": 193
                   },
                   "kind": "method",
                   "computed": false,
@@ -128,8 +128,8 @@ __ESTREE_TEST__:PASS:
                   "override": false,
                   "optional": false,
                   "accessibility": "public",
-                  "start": 165,
-                  "end": 190
+                  "start": 168,
+                  "end": 193
                 },
                 {
                   "type": "MethodDefinition",
@@ -140,8 +140,8 @@ __ESTREE_TEST__:PASS:
                     "name": "privateFunction",
                     "optional": false,
                     "typeAnnotation": null,
-                    "start": 235,
-                    "end": 250
+                    "start": 238,
+                    "end": 253
                   },
                   "value": {
                     "type": "TSEmptyBodyFunctionExpression",
@@ -157,15 +157,15 @@ __ESTREE_TEST__:PASS:
                         "name": "privateParam",
                         "optional": false,
                         "typeAnnotation": null,
-                        "start": 251,
-                        "end": 263
+                        "start": 254,
+                        "end": 266
                       }
                     ],
                     "returnType": null,
                     "body": null,
                     "expression": false,
-                    "start": 250,
-                    "end": 265
+                    "start": 253,
+                    "end": 268
                   },
                   "kind": "method",
                   "computed": false,
@@ -173,8 +173,8 @@ __ESTREE_TEST__:PASS:
                   "override": false,
                   "optional": false,
                   "accessibility": "private",
-                  "start": 227,
-                  "end": 265
+                  "start": 230,
+                  "end": 268
                 },
                 {
                   "type": "MethodDefinition",
@@ -185,8 +185,8 @@ __ESTREE_TEST__:PASS:
                     "name": "constructor",
                     "optional": false,
                     "typeAnnotation": null,
-                    "start": 314,
-                    "end": 325
+                    "start": 317,
+                    "end": 328
                   },
                   "value": {
                     "type": "TSEmptyBodyFunctionExpression",
@@ -202,15 +202,15 @@ __ESTREE_TEST__:PASS:
                         "name": "privateParam",
                         "optional": false,
                         "typeAnnotation": null,
-                        "start": 326,
-                        "end": 338
+                        "start": 329,
+                        "end": 341
                       }
                     ],
                     "returnType": null,
                     "body": null,
                     "expression": false,
-                    "start": 325,
-                    "end": 340
+                    "start": 328,
+                    "end": 343
                   },
                   "kind": "constructor",
                   "computed": false,
@@ -218,32 +218,32 @@ __ESTREE_TEST__:PASS:
                   "override": false,
                   "optional": false,
                   "accessibility": "private",
-                  "start": 306,
-                  "end": 340
+                  "start": 309,
+                  "end": 343
                 }
               ],
-              "start": 34,
-              "end": 346
+              "start": 37,
+              "end": 349
             },
             "abstract": false,
             "declare": true,
-            "start": 18,
-            "end": 346
+            "start": 21,
+            "end": 349
           }
         ],
-        "start": 12,
-        "end": 348
+        "start": 15,
+        "end": 351
       },
-      "kind": "module",
+      "kind": "namespace",
       "declare": false,
       "global": false,
       "start": 0,
-      "end": 348
+      "end": 351
     }
   ],
   "sourceType": "script",
   "hashbang": null,
   "start": 0,
-  "end": 348
+  "end": 351
 }
 ```

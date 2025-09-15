@@ -13,8 +13,8 @@ __ESTREE_TEST__:PASS:
           "name": "TypeScript",
           "optional": false,
           "typeAnnotation": null,
-          "start": 22,
-          "end": 32
+          "start": 25,
+          "end": 35
         },
         "body": {
           "type": "TSModuleBlock",
@@ -28,8 +28,8 @@ __ESTREE_TEST__:PASS:
                 "name": "PullSymbol",
                 "optional": false,
                 "typeAnnotation": null,
-                "start": 43,
-                "end": 53
+                "start": 46,
+                "end": 56
               },
               "typeParameters": null,
               "superClass": null,
@@ -38,13 +38,13 @@ __ESTREE_TEST__:PASS:
               "body": {
                 "type": "ClassBody",
                 "body": [],
-                "start": 54,
-                "end": 57
+                "start": 57,
+                "end": 60
               },
               "abstract": false,
               "declare": false,
-              "start": 37,
-              "end": 57
+              "start": 40,
+              "end": 60
             },
             {
               "type": "ClassDeclaration",
@@ -55,8 +55,8 @@ __ESTREE_TEST__:PASS:
                 "name": "PullSignatureSymbol",
                 "optional": false,
                 "typeAnnotation": null,
-                "start": 66,
-                "end": 85
+                "start": 69,
+                "end": 88
               },
               "typeParameters": {
                 "type": "TSTypeParameterDeclaration",
@@ -69,16 +69,16 @@ __ESTREE_TEST__:PASS:
                       "name": "A",
                       "optional": false,
                       "typeAnnotation": null,
-                      "start": 87,
-                      "end": 88
+                      "start": 90,
+                      "end": 91
                     },
                     "constraint": null,
                     "default": null,
                     "in": false,
                     "out": false,
                     "const": false,
-                    "start": 87,
-                    "end": 88
+                    "start": 90,
+                    "end": 91
                   },
                   {
                     "type": "TSTypeParameter",
@@ -88,16 +88,16 @@ __ESTREE_TEST__:PASS:
                       "name": "B",
                       "optional": false,
                       "typeAnnotation": null,
-                      "start": 89,
-                      "end": 90
+                      "start": 92,
+                      "end": 93
                     },
                     "constraint": null,
                     "default": null,
                     "in": false,
                     "out": false,
                     "const": false,
-                    "start": 89,
-                    "end": 90
+                    "start": 92,
+                    "end": 93
                   },
                   {
                     "type": "TSTypeParameter",
@@ -107,20 +107,20 @@ __ESTREE_TEST__:PASS:
                       "name": "C",
                       "optional": false,
                       "typeAnnotation": null,
-                      "start": 91,
-                      "end": 92
+                      "start": 94,
+                      "end": 95
                     },
                     "constraint": null,
                     "default": null,
                     "in": false,
                     "out": false,
                     "const": false,
-                    "start": 91,
-                    "end": 92
+                    "start": 94,
+                    "end": 95
                   }
                 ],
-                "start": 86,
-                "end": 93
+                "start": 89,
+                "end": 96
               },
               "superClass": {
                 "type": "Identifier",
@@ -128,8 +128,8 @@ __ESTREE_TEST__:PASS:
                 "name": "PullSymbol",
                 "optional": false,
                 "typeAnnotation": null,
-                "start": 102,
-                "end": 112
+                "start": 105,
+                "end": 115
               },
               "superTypeArguments": null,
               "implements": [],
@@ -145,8 +145,8 @@ __ESTREE_TEST__:PASS:
                       "name": "addSpecialization",
                       "optional": false,
                       "typeAnnotation": null,
-                      "start": 124,
-                      "end": 141
+                      "start": 127,
+                      "end": 144
                     },
                     "value": {
                       "type": "TSEmptyBodyFunctionExpression",
@@ -165,16 +165,16 @@ __ESTREE_TEST__:PASS:
                               "name": "A",
                               "optional": false,
                               "typeAnnotation": null,
-                              "start": 142,
-                              "end": 143
+                              "start": 145,
+                              "end": 146
                             },
                             "constraint": null,
                             "default": null,
                             "in": false,
                             "out": false,
                             "const": false,
-                            "start": 142,
-                            "end": 143
+                            "start": 145,
+                            "end": 146
                           },
                           {
                             "type": "TSTypeParameter",
@@ -184,16 +184,16 @@ __ESTREE_TEST__:PASS:
                               "name": "B",
                               "optional": false,
                               "typeAnnotation": null,
-                              "start": 144,
-                              "end": 145
+                              "start": 147,
+                              "end": 148
                             },
                             "constraint": null,
                             "default": null,
                             "in": false,
                             "out": false,
                             "const": false,
-                            "start": 144,
-                            "end": 145
+                            "start": 147,
+                            "end": 148
                           },
                           {
                             "type": "TSTypeParameter",
@@ -203,20 +203,20 @@ __ESTREE_TEST__:PASS:
                               "name": "C",
                               "optional": false,
                               "typeAnnotation": null,
-                              "start": 146,
-                              "end": 147
+                              "start": 149,
+                              "end": 150
                             },
                             "constraint": null,
                             "default": null,
                             "in": false,
                             "out": false,
                             "const": false,
-                            "start": 146,
-                            "end": 147
+                            "start": 149,
+                            "end": 150
                           }
                         ],
-                        "start": 141,
-                        "end": 148
+                        "start": 144,
+                        "end": 151
                       },
                       "params": [
                         {
@@ -234,8 +234,8 @@ __ESTREE_TEST__:PASS:
                                 "name": "PullSignatureSymbol",
                                 "optional": false,
                                 "typeAnnotation": null,
-                                "start": 160,
-                                "end": 179
+                                "start": 163,
+                                "end": 182
                               },
                               "typeArguments": {
                                 "type": "TSTypeParameterInstantiation",
@@ -248,12 +248,12 @@ __ESTREE_TEST__:PASS:
                                       "name": "A",
                                       "optional": false,
                                       "typeAnnotation": null,
-                                      "start": 180,
-                                      "end": 181
+                                      "start": 183,
+                                      "end": 184
                                     },
                                     "typeArguments": null,
-                                    "start": 180,
-                                    "end": 181
+                                    "start": 183,
+                                    "end": 184
                                   },
                                   {
                                     "type": "TSTypeReference",
@@ -263,12 +263,12 @@ __ESTREE_TEST__:PASS:
                                       "name": "B",
                                       "optional": false,
                                       "typeAnnotation": null,
-                                      "start": 182,
-                                      "end": 183
+                                      "start": 185,
+                                      "end": 186
                                     },
                                     "typeArguments": null,
-                                    "start": 182,
-                                    "end": 183
+                                    "start": 185,
+                                    "end": 186
                                   },
                                   {
                                     "type": "TSTypeReference",
@@ -278,25 +278,25 @@ __ESTREE_TEST__:PASS:
                                       "name": "C",
                                       "optional": false,
                                       "typeAnnotation": null,
-                                      "start": 184,
-                                      "end": 185
+                                      "start": 187,
+                                      "end": 188
                                     },
                                     "typeArguments": null,
-                                    "start": 184,
-                                    "end": 185
+                                    "start": 187,
+                                    "end": 188
                                   }
                                 ],
-                                "start": 179,
-                                "end": 186
+                                "start": 182,
+                                "end": 189
                               },
-                              "start": 160,
-                              "end": 186
+                              "start": 163,
+                              "end": 189
                             },
-                            "start": 158,
-                            "end": 186
+                            "start": 161,
+                            "end": 189
                           },
-                          "start": 149,
-                          "end": 186
+                          "start": 152,
+                          "end": 189
                         },
                         {
                           "type": "Identifier",
@@ -315,58 +315,58 @@ __ESTREE_TEST__:PASS:
                                   "name": "PullTypeSymbol",
                                   "optional": false,
                                   "typeAnnotation": null,
-                                  "start": 203,
-                                  "end": 217
+                                  "start": 206,
+                                  "end": 220
                                 },
                                 "typeArguments": {
                                   "type": "TSTypeParameterInstantiation",
                                   "params": [
                                     {
                                       "type": "TSAnyKeyword",
-                                      "start": 218,
-                                      "end": 221
+                                      "start": 221,
+                                      "end": 224
                                     },
                                     {
                                       "type": "TSAnyKeyword",
-                                      "start": 222,
-                                      "end": 225
+                                      "start": 225,
+                                      "end": 228
                                     },
                                     {
                                       "type": "TSAnyKeyword",
-                                      "start": 226,
-                                      "end": 229
+                                      "start": 229,
+                                      "end": 232
                                     }
                                   ],
-                                  "start": 217,
-                                  "end": 230
+                                  "start": 220,
+                                  "end": 233
                                 },
-                                "start": 203,
-                                "end": 230
+                                "start": 206,
+                                "end": 233
                               },
-                              "start": 203,
-                              "end": 232
+                              "start": 206,
+                              "end": 235
                             },
-                            "start": 201,
-                            "end": 232
+                            "start": 204,
+                            "end": 235
                           },
-                          "start": 188,
-                          "end": 232
+                          "start": 191,
+                          "end": 235
                         }
                       ],
                       "returnType": {
                         "type": "TSTypeAnnotation",
                         "typeAnnotation": {
                           "type": "TSVoidKeyword",
-                          "start": 235,
-                          "end": 239
+                          "start": 238,
+                          "end": 242
                         },
-                        "start": 233,
-                        "end": 239
+                        "start": 236,
+                        "end": 242
                       },
                       "body": null,
                       "expression": false,
-                      "start": 141,
-                      "end": 240
+                      "start": 144,
+                      "end": 243
                     },
                     "kind": "method",
                     "computed": false,
@@ -374,17 +374,17 @@ __ESTREE_TEST__:PASS:
                     "override": false,
                     "optional": false,
                     "accessibility": "public",
-                    "start": 117,
-                    "end": 240
+                    "start": 120,
+                    "end": 243
                   }
                 ],
-                "start": 113,
-                "end": 244
+                "start": 116,
+                "end": 247
               },
               "abstract": false,
               "declare": false,
-              "start": 60,
-              "end": 244
+              "start": 63,
+              "end": 247
             },
             {
               "type": "ClassDeclaration",
@@ -395,8 +395,8 @@ __ESTREE_TEST__:PASS:
                 "name": "PullTypeSymbol",
                 "optional": false,
                 "typeAnnotation": null,
-                "start": 253,
-                "end": 267
+                "start": 256,
+                "end": 270
               },
               "typeParameters": {
                 "type": "TSTypeParameterDeclaration",
@@ -409,16 +409,16 @@ __ESTREE_TEST__:PASS:
                       "name": "A",
                       "optional": false,
                       "typeAnnotation": null,
-                      "start": 269,
-                      "end": 270
+                      "start": 272,
+                      "end": 273
                     },
                     "constraint": null,
                     "default": null,
                     "in": false,
                     "out": false,
                     "const": false,
-                    "start": 269,
-                    "end": 270
+                    "start": 272,
+                    "end": 273
                   },
                   {
                     "type": "TSTypeParameter",
@@ -428,16 +428,16 @@ __ESTREE_TEST__:PASS:
                       "name": "B",
                       "optional": false,
                       "typeAnnotation": null,
-                      "start": 271,
-                      "end": 272
+                      "start": 274,
+                      "end": 275
                     },
                     "constraint": null,
                     "default": null,
                     "in": false,
                     "out": false,
                     "const": false,
-                    "start": 271,
-                    "end": 272
+                    "start": 274,
+                    "end": 275
                   },
                   {
                     "type": "TSTypeParameter",
@@ -447,20 +447,20 @@ __ESTREE_TEST__:PASS:
                       "name": "C",
                       "optional": false,
                       "typeAnnotation": null,
-                      "start": 273,
-                      "end": 274
+                      "start": 276,
+                      "end": 277
                     },
                     "constraint": null,
                     "default": null,
                     "in": false,
                     "out": false,
                     "const": false,
-                    "start": 273,
-                    "end": 274
+                    "start": 276,
+                    "end": 277
                   }
                 ],
-                "start": 268,
-                "end": 275
+                "start": 271,
+                "end": 278
               },
               "superClass": {
                 "type": "Identifier",
@@ -468,8 +468,8 @@ __ESTREE_TEST__:PASS:
                 "name": "PullSymbol",
                 "optional": false,
                 "typeAnnotation": null,
-                "start": 284,
-                "end": 294
+                "start": 287,
+                "end": 297
               },
               "superTypeArguments": null,
               "implements": [],
@@ -485,8 +485,8 @@ __ESTREE_TEST__:PASS:
                       "name": "findTypeParameter",
                       "optional": false,
                       "typeAnnotation": null,
-                      "start": 308,
-                      "end": 325
+                      "start": 311,
+                      "end": 328
                     },
                     "value": {
                       "type": "TSEmptyBodyFunctionExpression",
@@ -505,16 +505,16 @@ __ESTREE_TEST__:PASS:
                               "name": "A",
                               "optional": false,
                               "typeAnnotation": null,
-                              "start": 326,
-                              "end": 327
+                              "start": 329,
+                              "end": 330
                             },
                             "constraint": null,
                             "default": null,
                             "in": false,
                             "out": false,
                             "const": false,
-                            "start": 326,
-                            "end": 327
+                            "start": 329,
+                            "end": 330
                           },
                           {
                             "type": "TSTypeParameter",
@@ -524,16 +524,16 @@ __ESTREE_TEST__:PASS:
                               "name": "B",
                               "optional": false,
                               "typeAnnotation": null,
-                              "start": 328,
-                              "end": 329
+                              "start": 331,
+                              "end": 332
                             },
                             "constraint": null,
                             "default": null,
                             "in": false,
                             "out": false,
                             "const": false,
-                            "start": 328,
-                            "end": 329
+                            "start": 331,
+                            "end": 332
                           },
                           {
                             "type": "TSTypeParameter",
@@ -543,20 +543,20 @@ __ESTREE_TEST__:PASS:
                               "name": "C",
                               "optional": false,
                               "typeAnnotation": null,
-                              "start": 330,
-                              "end": 331
+                              "start": 333,
+                              "end": 334
                             },
                             "constraint": null,
                             "default": null,
                             "in": false,
                             "out": false,
                             "const": false,
-                            "start": 330,
-                            "end": 331
+                            "start": 333,
+                            "end": 334
                           }
                         ],
-                        "start": 325,
-                        "end": 332
+                        "start": 328,
+                        "end": 335
                       },
                       "params": [
                         {
@@ -568,14 +568,14 @@ __ESTREE_TEST__:PASS:
                             "type": "TSTypeAnnotation",
                             "typeAnnotation": {
                               "type": "TSStringKeyword",
-                              "start": 339,
-                              "end": 345
+                              "start": 342,
+                              "end": 348
                             },
-                            "start": 337,
-                            "end": 345
+                            "start": 340,
+                            "end": 348
                           },
-                          "start": 333,
-                          "end": 345
+                          "start": 336,
+                          "end": 348
                         }
                       ],
                       "returnType": {
@@ -588,8 +588,8 @@ __ESTREE_TEST__:PASS:
                             "name": "PullTypeParameterSymbol",
                             "optional": false,
                             "typeAnnotation": null,
-                            "start": 348,
-                            "end": 371
+                            "start": 351,
+                            "end": 374
                           },
                           "typeArguments": {
                             "type": "TSTypeParameterInstantiation",
@@ -602,12 +602,12 @@ __ESTREE_TEST__:PASS:
                                   "name": "A",
                                   "optional": false,
                                   "typeAnnotation": null,
-                                  "start": 372,
-                                  "end": 373
+                                  "start": 375,
+                                  "end": 376
                                 },
                                 "typeArguments": null,
-                                "start": 372,
-                                "end": 373
+                                "start": 375,
+                                "end": 376
                               },
                               {
                                 "type": "TSTypeReference",
@@ -617,12 +617,12 @@ __ESTREE_TEST__:PASS:
                                   "name": "B",
                                   "optional": false,
                                   "typeAnnotation": null,
-                                  "start": 374,
-                                  "end": 375
+                                  "start": 377,
+                                  "end": 378
                                 },
                                 "typeArguments": null,
-                                "start": 374,
-                                "end": 375
+                                "start": 377,
+                                "end": 378
                               },
                               {
                                 "type": "TSTypeReference",
@@ -632,27 +632,27 @@ __ESTREE_TEST__:PASS:
                                   "name": "C",
                                   "optional": false,
                                   "typeAnnotation": null,
-                                  "start": 376,
-                                  "end": 377
+                                  "start": 379,
+                                  "end": 380
                                 },
                                 "typeArguments": null,
-                                "start": 376,
-                                "end": 377
+                                "start": 379,
+                                "end": 380
                               }
                             ],
-                            "start": 371,
-                            "end": 378
+                            "start": 374,
+                            "end": 381
                           },
-                          "start": 348,
-                          "end": 378
+                          "start": 351,
+                          "end": 381
                         },
-                        "start": 346,
-                        "end": 378
+                        "start": 349,
+                        "end": 381
                       },
                       "body": null,
                       "expression": false,
-                      "start": 325,
-                      "end": 379
+                      "start": 328,
+                      "end": 382
                     },
                     "kind": "method",
                     "computed": false,
@@ -660,17 +660,17 @@ __ESTREE_TEST__:PASS:
                     "override": false,
                     "optional": false,
                     "accessibility": "public",
-                    "start": 301,
-                    "end": 379
+                    "start": 304,
+                    "end": 382
                   }
                 ],
-                "start": 295,
-                "end": 383
+                "start": 298,
+                "end": 386
               },
               "abstract": false,
               "declare": false,
-              "start": 247,
-              "end": 383
+              "start": 250,
+              "end": 386
             },
             {
               "type": "ClassDeclaration",
@@ -681,8 +681,8 @@ __ESTREE_TEST__:PASS:
                 "name": "PullTypeParameterSymbol",
                 "optional": false,
                 "typeAnnotation": null,
-                "start": 392,
-                "end": 415
+                "start": 395,
+                "end": 418
               },
               "typeParameters": {
                 "type": "TSTypeParameterDeclaration",
@@ -695,16 +695,16 @@ __ESTREE_TEST__:PASS:
                       "name": "A",
                       "optional": false,
                       "typeAnnotation": null,
-                      "start": 417,
-                      "end": 418
+                      "start": 420,
+                      "end": 421
                     },
                     "constraint": null,
                     "default": null,
                     "in": false,
                     "out": false,
                     "const": false,
-                    "start": 417,
-                    "end": 418
+                    "start": 420,
+                    "end": 421
                   },
                   {
                     "type": "TSTypeParameter",
@@ -714,16 +714,16 @@ __ESTREE_TEST__:PASS:
                       "name": "B",
                       "optional": false,
                       "typeAnnotation": null,
-                      "start": 419,
-                      "end": 420
+                      "start": 422,
+                      "end": 423
                     },
                     "constraint": null,
                     "default": null,
                     "in": false,
                     "out": false,
                     "const": false,
-                    "start": 419,
-                    "end": 420
+                    "start": 422,
+                    "end": 423
                   },
                   {
                     "type": "TSTypeParameter",
@@ -733,20 +733,20 @@ __ESTREE_TEST__:PASS:
                       "name": "C",
                       "optional": false,
                       "typeAnnotation": null,
-                      "start": 421,
-                      "end": 422
+                      "start": 424,
+                      "end": 425
                     },
                     "constraint": null,
                     "default": null,
                     "in": false,
                     "out": false,
                     "const": false,
-                    "start": 421,
-                    "end": 422
+                    "start": 424,
+                    "end": 425
                   }
                 ],
-                "start": 416,
-                "end": 423
+                "start": 419,
+                "end": 426
               },
               "superClass": {
                 "type": "Identifier",
@@ -754,43 +754,43 @@ __ESTREE_TEST__:PASS:
                 "name": "PullTypeSymbol",
                 "optional": false,
                 "typeAnnotation": null,
-                "start": 432,
-                "end": 446
+                "start": 435,
+                "end": 449
               },
               "superTypeArguments": null,
               "implements": [],
               "body": {
                 "type": "ClassBody",
                 "body": [],
-                "start": 447,
-                "end": 452
+                "start": 450,
+                "end": 455
               },
               "abstract": false,
               "declare": false,
-              "start": 386,
-              "end": 452
+              "start": 389,
+              "end": 455
             }
           ],
-          "start": 33,
-          "end": 454
+          "start": 36,
+          "end": 457
         },
-        "kind": "module",
+        "kind": "namespace",
         "declare": true,
         "global": false,
         "start": 7,
-        "end": 454
+        "end": 457
       },
       "specifiers": [],
       "source": null,
       "exportKind": "type",
       "attributes": [],
       "start": 0,
-      "end": 454
+      "end": 457
     }
   ],
   "sourceType": "module",
   "hashbang": null,
   "start": 0,
-  "end": 456
+  "end": 459
 }
 ```

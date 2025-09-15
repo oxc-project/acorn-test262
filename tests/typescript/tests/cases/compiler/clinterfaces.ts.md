@@ -11,8 +11,8 @@ __ESTREE_TEST__:PASS:
         "name": "M",
         "optional": false,
         "typeAnnotation": null,
-        "start": 7,
-        "end": 8
+        "start": 10,
+        "end": 11
       },
       "body": {
         "type": "TSModuleBlock",
@@ -26,8 +26,8 @@ __ESTREE_TEST__:PASS:
               "name": "C",
               "optional": false,
               "typeAnnotation": null,
-              "start": 21,
-              "end": 22
+              "start": 24,
+              "end": 25
             },
             "typeParameters": null,
             "superClass": null,
@@ -36,13 +36,13 @@ __ESTREE_TEST__:PASS:
             "body": {
               "type": "ClassBody",
               "body": [],
-              "start": 23,
-              "end": 26
+              "start": 26,
+              "end": 29
             },
             "abstract": false,
             "declare": false,
-            "start": 15,
-            "end": 26
+            "start": 18,
+            "end": 29
           },
           {
             "type": "TSInterfaceDeclaration",
@@ -52,20 +52,20 @@ __ESTREE_TEST__:PASS:
               "name": "C",
               "optional": false,
               "typeAnnotation": null,
-              "start": 41,
-              "end": 42
+              "start": 44,
+              "end": 45
             },
             "typeParameters": null,
             "extends": [],
             "body": {
               "type": "TSInterfaceBody",
               "body": [],
-              "start": 43,
-              "end": 46
+              "start": 46,
+              "end": 49
             },
             "declare": false,
-            "start": 31,
-            "end": 46
+            "start": 34,
+            "end": 49
           },
           {
             "type": "TSInterfaceDeclaration",
@@ -75,20 +75,20 @@ __ESTREE_TEST__:PASS:
               "name": "D",
               "optional": false,
               "typeAnnotation": null,
-              "start": 61,
-              "end": 62
+              "start": 64,
+              "end": 65
             },
             "typeParameters": null,
             "extends": [],
             "body": {
               "type": "TSInterfaceBody",
               "body": [],
-              "start": 63,
-              "end": 66
+              "start": 66,
+              "end": 69
             },
             "declare": false,
-            "start": 51,
-            "end": 66
+            "start": 54,
+            "end": 69
           },
           {
             "type": "ClassDeclaration",
@@ -99,8 +99,8 @@ __ESTREE_TEST__:PASS:
               "name": "D",
               "optional": false,
               "typeAnnotation": null,
-              "start": 77,
-              "end": 78
+              "start": 80,
+              "end": 81
             },
             "typeParameters": null,
             "superClass": null,
@@ -109,23 +109,23 @@ __ESTREE_TEST__:PASS:
             "body": {
               "type": "ClassBody",
               "body": [],
-              "start": 79,
-              "end": 82
+              "start": 82,
+              "end": 85
             },
             "abstract": false,
             "declare": false,
-            "start": 71,
-            "end": 82
+            "start": 74,
+            "end": 85
           }
         ],
-        "start": 9,
-        "end": 84
+        "start": 12,
+        "end": 87
       },
-      "kind": "module",
+      "kind": "namespace",
       "declare": false,
       "global": false,
       "start": 0,
-      "end": 84
+      "end": 87
     },
     {
       "type": "TSInterfaceDeclaration",
@@ -135,35 +135,35 @@ __ESTREE_TEST__:PASS:
         "name": "Foo",
         "optional": false,
         "typeAnnotation": null,
-        "start": 96,
-        "end": 99
-      },
-      "typeParameters": {
-        "type": "TSTypeParameterDeclaration",
-        "params": [
-          {
-            "type": "TSTypeParameter",
-            "name": {
-              "type": "Identifier",
-              "decorators": [],
-              "name": "T",
-              "optional": false,
-              "typeAnnotation": null,
-              "start": 100,
-              "end": 101
-            },
-            "constraint": null,
-            "default": null,
-            "in": false,
-            "out": false,
-            "const": false,
-            "start": 100,
-            "end": 101
-          }
-        ],
         "start": 99,
         "end": 102
       },
+      "typeParameters": {
+        "type": "TSTypeParameterDeclaration",
+        "params": [
+          {
+            "type": "TSTypeParameter",
+            "name": {
+              "type": "Identifier",
+              "decorators": [],
+              "name": "T",
+              "optional": false,
+              "typeAnnotation": null,
+              "start": 103,
+              "end": 104
+            },
+            "constraint": null,
+            "default": null,
+            "in": false,
+            "out": false,
+            "const": false,
+            "start": 103,
+            "end": 104
+          }
+        ],
+        "start": 102,
+        "end": 105
+      },
       "extends": [],
       "body": {
         "type": "TSInterfaceBody",
@@ -179,31 +179,31 @@ __ESTREE_TEST__:PASS:
               "name": "a",
               "optional": false,
               "typeAnnotation": null,
-              "start": 109,
-              "end": 110
+              "start": 112,
+              "end": 113
             },
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
               "typeAnnotation": {
                 "type": "TSStringKeyword",
-                "start": 112,
-                "end": 118
+                "start": 115,
+                "end": 121
               },
-              "start": 110,
-              "end": 118
+              "start": 113,
+              "end": 121
             },
             "accessibility": null,
             "static": false,
-            "start": 109,
-            "end": 119
+            "start": 112,
+            "end": 122
           }
         ],
-        "start": 103,
-        "end": 121
+        "start": 106,
+        "end": 124
       },
       "declare": false,
-      "start": 86,
-      "end": 121
+      "start": 89,
+      "end": 124
     },
     {
       "type": "ClassDeclaration",
@@ -214,8 +214,8 @@ __ESTREE_TEST__:PASS:
         "name": "Foo",
         "optional": false,
         "typeAnnotation": null,
-        "start": 129,
-        "end": 132
+        "start": 132,
+        "end": 135
       },
       "typeParameters": {
         "type": "TSTypeParameterDeclaration",
@@ -228,20 +228,20 @@ __ESTREE_TEST__:PASS:
               "name": "T",
               "optional": false,
               "typeAnnotation": null,
-              "start": 133,
-              "end": 134
+              "start": 136,
+              "end": 137
             },
             "constraint": null,
             "default": null,
             "in": false,
             "out": false,
             "const": false,
-            "start": 133,
-            "end": 134
+            "start": 136,
+            "end": 137
           }
         ],
-        "start": 132,
-        "end": 135
+        "start": 135,
+        "end": 138
       },
       "superClass": null,
       "superTypeArguments": null,
@@ -258,18 +258,18 @@ __ESTREE_TEST__:PASS:
               "name": "b",
               "optional": false,
               "typeAnnotation": null,
-              "start": 141,
-              "end": 142
+              "start": 144,
+              "end": 145
             },
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
               "typeAnnotation": {
                 "type": "TSNumberKeyword",
-                "start": 144,
-                "end": 150
+                "start": 147,
+                "end": 153
               },
-              "start": 142,
-              "end": 150
+              "start": 145,
+              "end": 153
             },
             "value": null,
             "computed": false,
@@ -280,17 +280,17 @@ __ESTREE_TEST__:PASS:
             "definite": false,
             "readonly": false,
             "accessibility": null,
-            "start": 141,
-            "end": 151
+            "start": 144,
+            "end": 154
           }
         ],
-        "start": 135,
-        "end": 153
+        "start": 138,
+        "end": 156
       },
       "abstract": false,
       "declare": false,
-      "start": 123,
-      "end": 153
+      "start": 126,
+      "end": 156
     },
     {
       "type": "ClassDeclaration",
@@ -301,8 +301,8 @@ __ESTREE_TEST__:PASS:
         "name": "Bar",
         "optional": false,
         "typeAnnotation": null,
-        "start": 161,
-        "end": 164
+        "start": 164,
+        "end": 167
       },
       "typeParameters": {
         "type": "TSTypeParameterDeclaration",
@@ -315,20 +315,20 @@ __ESTREE_TEST__:PASS:
               "name": "T",
               "optional": false,
               "typeAnnotation": null,
-              "start": 165,
-              "end": 166
+              "start": 168,
+              "end": 169
             },
             "constraint": null,
             "default": null,
             "in": false,
             "out": false,
             "const": false,
-            "start": 165,
-            "end": 166
+            "start": 168,
+            "end": 169
           }
         ],
-        "start": 164,
-        "end": 167
+        "start": 167,
+        "end": 170
       },
       "superClass": null,
       "superTypeArguments": null,
@@ -345,18 +345,18 @@ __ESTREE_TEST__:PASS:
               "name": "b",
               "optional": false,
               "typeAnnotation": null,
-              "start": 173,
-              "end": 174
+              "start": 176,
+              "end": 177
             },
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
               "typeAnnotation": {
                 "type": "TSNumberKeyword",
-                "start": 176,
-                "end": 182
+                "start": 179,
+                "end": 185
               },
-              "start": 174,
-              "end": 182
+              "start": 177,
+              "end": 185
             },
             "value": null,
             "computed": false,
@@ -367,17 +367,17 @@ __ESTREE_TEST__:PASS:
             "definite": false,
             "readonly": false,
             "accessibility": null,
-            "start": 173,
-            "end": 183
+            "start": 176,
+            "end": 186
           }
         ],
-        "start": 167,
-        "end": 185
+        "start": 170,
+        "end": 188
       },
       "abstract": false,
       "declare": false,
-      "start": 155,
-      "end": 185
+      "start": 158,
+      "end": 188
     },
     {
       "type": "TSInterfaceDeclaration",
@@ -387,8 +387,8 @@ __ESTREE_TEST__:PASS:
         "name": "Bar",
         "optional": false,
         "typeAnnotation": null,
-        "start": 197,
-        "end": 200
+        "start": 200,
+        "end": 203
       },
       "typeParameters": {
         "type": "TSTypeParameterDeclaration",
@@ -401,20 +401,20 @@ __ESTREE_TEST__:PASS:
               "name": "T",
               "optional": false,
               "typeAnnotation": null,
-              "start": 201,
-              "end": 202
+              "start": 204,
+              "end": 205
             },
             "constraint": null,
             "default": null,
             "in": false,
             "out": false,
             "const": false,
-            "start": 201,
-            "end": 202
+            "start": 204,
+            "end": 205
           }
         ],
-        "start": 200,
-        "end": 203
+        "start": 203,
+        "end": 206
       },
       "extends": [],
       "body": {
@@ -431,31 +431,31 @@ __ESTREE_TEST__:PASS:
               "name": "a",
               "optional": false,
               "typeAnnotation": null,
-              "start": 210,
-              "end": 211
+              "start": 213,
+              "end": 214
             },
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
               "typeAnnotation": {
                 "type": "TSStringKeyword",
-                "start": 213,
-                "end": 219
+                "start": 216,
+                "end": 222
               },
-              "start": 211,
-              "end": 219
+              "start": 214,
+              "end": 222
             },
             "accessibility": null,
             "static": false,
-            "start": 210,
-            "end": 220
+            "start": 213,
+            "end": 223
           }
         ],
-        "start": 204,
-        "end": 222
+        "start": 207,
+        "end": 225
       },
       "declare": false,
-      "start": 187,
-      "end": 222
+      "start": 190,
+      "end": 225
     },
     {
       "type": "TSExportAssignment",
@@ -465,16 +465,16 @@ __ESTREE_TEST__:PASS:
         "name": "Foo",
         "optional": false,
         "typeAnnotation": null,
-        "start": 233,
-        "end": 236
+        "start": 236,
+        "end": 239
       },
-      "start": 224,
-      "end": 237
+      "start": 227,
+      "end": 240
     }
   ],
   "sourceType": "module",
   "hashbang": null,
   "start": 0,
-  "end": 237
+  "end": 240
 }
 ```

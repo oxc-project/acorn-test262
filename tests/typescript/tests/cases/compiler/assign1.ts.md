@@ -11,8 +11,8 @@ __ESTREE_TEST__:PASS:
         "name": "M",
         "optional": false,
         "typeAnnotation": null,
-        "start": 7,
-        "end": 8
+        "start": 10,
+        "end": 11
       },
       "body": {
         "type": "TSModuleBlock",
@@ -25,8 +25,8 @@ __ESTREE_TEST__:PASS:
               "name": "I",
               "optional": false,
               "typeAnnotation": null,
-              "start": 25,
-              "end": 26
+              "start": 28,
+              "end": 29
             },
             "typeParameters": null,
             "extends": [],
@@ -44,23 +44,23 @@ __ESTREE_TEST__:PASS:
                     "name": "salt",
                     "optional": false,
                     "typeAnnotation": null,
-                    "start": 37,
-                    "end": 41
+                    "start": 40,
+                    "end": 44
                   },
                   "typeAnnotation": {
                     "type": "TSTypeAnnotation",
                     "typeAnnotation": {
                       "type": "TSNumberKeyword",
-                      "start": 42,
-                      "end": 48
+                      "start": 45,
+                      "end": 51
                     },
-                    "start": 41,
-                    "end": 48
+                    "start": 44,
+                    "end": 51
                   },
                   "accessibility": null,
                   "static": false,
-                  "start": 37,
-                  "end": 49
+                  "start": 40,
+                  "end": 52
                 },
                 {
                   "type": "TSPropertySignature",
@@ -73,31 +73,31 @@ __ESTREE_TEST__:PASS:
                     "name": "pepper",
                     "optional": false,
                     "typeAnnotation": null,
-                    "start": 58,
-                    "end": 64
+                    "start": 61,
+                    "end": 67
                   },
                   "typeAnnotation": {
                     "type": "TSTypeAnnotation",
                     "typeAnnotation": {
                       "type": "TSNumberKeyword",
-                      "start": 65,
-                      "end": 71
+                      "start": 68,
+                      "end": 74
                     },
-                    "start": 64,
-                    "end": 71
+                    "start": 67,
+                    "end": 74
                   },
                   "accessibility": null,
                   "static": false,
-                  "start": 58,
-                  "end": 72
+                  "start": 61,
+                  "end": 75
                 }
               ],
-              "start": 27,
-              "end": 78
+              "start": 30,
+              "end": 81
             },
             "declare": false,
-            "start": 15,
-            "end": 78
+            "start": 18,
+            "end": 81
           },
           {
             "type": "VariableDeclaration",
@@ -120,18 +120,18 @@ __ESTREE_TEST__:PASS:
                         "name": "I",
                         "optional": false,
                         "typeAnnotation": null,
-                        "start": 90,
-                        "end": 91
+                        "start": 93,
+                        "end": 94
                       },
                       "typeArguments": null,
-                      "start": 90,
-                      "end": 91
+                      "start": 93,
+                      "end": 94
                     },
-                    "start": 89,
-                    "end": 91
+                    "start": 92,
+                    "end": 94
                   },
-                  "start": 88,
-                  "end": 91
+                  "start": 91,
+                  "end": 94
                 },
                 "init": {
                   "type": "ObjectExpression",
@@ -145,22 +145,22 @@ __ESTREE_TEST__:PASS:
                         "name": "salt",
                         "optional": false,
                         "typeAnnotation": null,
-                        "start": 93,
-                        "end": 97
+                        "start": 96,
+                        "end": 100
                       },
                       "value": {
                         "type": "Literal",
                         "value": 2,
                         "raw": "2",
-                        "start": 98,
-                        "end": 99
+                        "start": 101,
+                        "end": 102
                       },
                       "method": false,
                       "shorthand": false,
                       "computed": false,
                       "optional": false,
-                      "start": 93,
-                      "end": 99
+                      "start": 96,
+                      "end": 102
                     },
                     {
                       "type": "Property",
@@ -171,50 +171,50 @@ __ESTREE_TEST__:PASS:
                         "name": "pepper",
                         "optional": false,
                         "typeAnnotation": null,
-                        "start": 100,
-                        "end": 106
+                        "start": 103,
+                        "end": 109
                       },
                       "value": {
                         "type": "Literal",
                         "value": 0,
                         "raw": "0",
-                        "start": 107,
-                        "end": 108
+                        "start": 110,
+                        "end": 111
                       },
                       "method": false,
                       "shorthand": false,
                       "computed": false,
                       "optional": false,
-                      "start": 100,
-                      "end": 108
+                      "start": 103,
+                      "end": 111
                     }
                   ],
-                  "start": 92,
-                  "end": 109
+                  "start": 95,
+                  "end": 112
                 },
                 "definite": false,
-                "start": 88,
-                "end": 109
+                "start": 91,
+                "end": 112
               }
             ],
             "declare": false,
-            "start": 84,
-            "end": 110
+            "start": 87,
+            "end": 113
           }
         ],
-        "start": 9,
-        "end": 112
+        "start": 12,
+        "end": 115
       },
-      "kind": "module",
+      "kind": "namespace",
       "declare": false,
       "global": false,
       "start": 0,
-      "end": 112
+      "end": 115
     }
   ],
   "sourceType": "script",
   "hashbang": null,
   "start": 0,
-  "end": 112
+  "end": 115
 }
 ```

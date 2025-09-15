@@ -11,8 +11,8 @@ __ESTREE_TEST__:PASS:
         "name": "M",
         "optional": false,
         "typeAnnotation": null,
-        "start": 7,
-        "end": 8
+        "start": 10,
+        "end": 11
       },
       "body": {
         "type": "TSModuleBlock",
@@ -28,8 +28,8 @@ __ESTREE_TEST__:PASS:
                 "name": "C",
                 "optional": false,
                 "typeAnnotation": null,
-                "start": 28,
-                "end": 29
+                "start": 31,
+                "end": 32
               },
               "typeParameters": null,
               "superClass": null,
@@ -38,20 +38,20 @@ __ESTREE_TEST__:PASS:
               "body": {
                 "type": "ClassBody",
                 "body": [],
-                "start": 30,
-                "end": 37
+                "start": 33,
+                "end": 40
               },
               "abstract": false,
               "declare": false,
-              "start": 22,
-              "end": 37
+              "start": 25,
+              "end": 40
             },
             "specifiers": [],
             "source": null,
             "exportKind": "value",
             "attributes": [],
-            "start": 15,
-            "end": 37
+            "start": 18,
+            "end": 40
           },
           {
             "type": "ClassDeclaration",
@@ -62,8 +62,8 @@ __ESTREE_TEST__:PASS:
               "name": "D",
               "optional": false,
               "typeAnnotation": null,
-              "start": 49,
-              "end": 50
+              "start": 52,
+              "end": 53
             },
             "typeParameters": null,
             "superClass": {
@@ -74,8 +74,8 @@ __ESTREE_TEST__:PASS:
                 "name": "M",
                 "optional": false,
                 "typeAnnotation": null,
-                "start": 59,
-                "end": 60
+                "start": 62,
+                "end": 63
               },
               "property": {
                 "type": "Identifier",
@@ -83,41 +83,41 @@ __ESTREE_TEST__:PASS:
                 "name": "C",
                 "optional": false,
                 "typeAnnotation": null,
-                "start": 61,
-                "end": 62
+                "start": 64,
+                "end": 65
               },
               "optional": false,
               "computed": false,
-              "start": 59,
-              "end": 62
+              "start": 62,
+              "end": 65
             },
             "superTypeArguments": null,
             "implements": [],
             "body": {
               "type": "ClassBody",
               "body": [],
-              "start": 63,
-              "end": 70
+              "start": 66,
+              "end": 73
             },
             "abstract": false,
             "declare": false,
-            "start": 43,
-            "end": 70
+            "start": 46,
+            "end": 73
           }
         ],
-        "start": 9,
-        "end": 72
+        "start": 12,
+        "end": 75
       },
-      "kind": "module",
+      "kind": "namespace",
       "declare": false,
       "global": false,
       "start": 0,
-      "end": 72
+      "end": 75
     }
   ],
   "sourceType": "script",
   "hashbang": null,
   "start": 0,
-  "end": 72
+  "end": 75
 }
 ```

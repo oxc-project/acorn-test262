@@ -42,8 +42,8 @@ __ESTREE_TEST__:PASS:
         "name": "foo",
         "optional": false,
         "typeAnnotation": null,
-        "start": 37,
-        "end": 40
+        "start": 40,
+        "end": 43
       },
       "body": {
         "type": "TSModuleBlock",
@@ -56,8 +56,8 @@ __ESTREE_TEST__:PASS:
               "name": "bar",
               "optional": false,
               "typeAnnotation": null,
-              "start": 60,
-              "end": 63
+              "start": 63,
+              "end": 66
             },
             "generator": false,
             "async": false,
@@ -68,22 +68,22 @@ __ESTREE_TEST__:PASS:
             "body": {
               "type": "BlockStatement",
               "body": [],
-              "start": 66,
-              "end": 69
+              "start": 69,
+              "end": 72
             },
             "expression": false,
-            "start": 51,
-            "end": 69
+            "start": 54,
+            "end": 72
           }
         ],
-        "start": 41,
-        "end": 71
+        "start": 44,
+        "end": 74
       },
-      "kind": "module",
+      "kind": "namespace",
       "declare": false,
       "global": false,
       "start": 30,
-      "end": 71
+      "end": 74
     },
     {
       "type": "TSModuleDeclaration",
@@ -93,25 +93,25 @@ __ESTREE_TEST__:PASS:
         "name": "empty",
         "optional": false,
         "typeAnnotation": null,
-        "start": 90,
-        "end": 95
+        "start": 96,
+        "end": 101
       },
       "body": {
         "type": "TSModuleBlock",
         "body": [],
-        "start": 96,
-        "end": 99
+        "start": 102,
+        "end": 105
       },
-      "kind": "module",
+      "kind": "namespace",
       "declare": false,
       "global": false,
-      "start": 83,
-      "end": 99
+      "start": 86,
+      "end": 105
     }
   ],
   "sourceType": "script",
   "hashbang": null,
   "start": 8,
-  "end": 110
+  "end": 116
 }
 ```

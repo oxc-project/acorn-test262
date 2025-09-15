@@ -11,20 +11,20 @@ __ESTREE_TEST__:PASS:
         "name": "E",
         "optional": false,
         "typeAnnotation": null,
-        "start": 7,
-        "end": 8
+        "start": 10,
+        "end": 11
       },
       "body": {
         "type": "TSModuleBlock",
         "body": [],
-        "start": 9,
-        "end": 12
+        "start": 12,
+        "end": 15
       },
-      "kind": "module",
+      "kind": "namespace",
       "declare": false,
       "global": false,
       "start": 0,
-      "end": 12
+      "end": 15
     },
     {
       "type": "TSEnumDeclaration",
@@ -34,8 +34,8 @@ __ESTREE_TEST__:PASS:
         "name": "E",
         "optional": false,
         "typeAnnotation": null,
-        "start": 19,
-        "end": 20
+        "start": 22,
+        "end": 23
       },
       "body": {
         "type": "TSEnumBody",
@@ -48,27 +48,27 @@ __ESTREE_TEST__:PASS:
               "name": "A",
               "optional": false,
               "typeAnnotation": null,
-              "start": 25,
-              "end": 26
+              "start": 28,
+              "end": 29
             },
             "initializer": null,
             "computed": false,
-            "start": 25,
-            "end": 26
+            "start": 28,
+            "end": 29
           }
         ],
-        "start": 21,
-        "end": 28
+        "start": 24,
+        "end": 31
       },
       "const": false,
       "declare": false,
-      "start": 14,
-      "end": 28
+      "start": 17,
+      "end": 31
     }
   ],
   "sourceType": "script",
   "hashbang": null,
   "start": 0,
-  "end": 28
+  "end": 31
 }
 ```

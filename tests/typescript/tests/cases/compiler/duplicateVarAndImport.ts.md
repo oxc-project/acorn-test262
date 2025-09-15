@@ -36,20 +36,20 @@ __ESTREE_TEST__:PASS:
         "name": "M",
         "optional": false,
         "typeAnnotation": null,
-        "start": 60,
-        "end": 61
+        "start": 63,
+        "end": 64
       },
       "body": {
         "type": "TSModuleBlock",
         "body": [],
-        "start": 62,
-        "end": 65
+        "start": 65,
+        "end": 68
       },
-      "kind": "module",
+      "kind": "namespace",
       "declare": false,
       "global": false,
       "start": 53,
-      "end": 65
+      "end": 68
     },
     {
       "type": "TSImportEqualsDeclaration",
@@ -59,8 +59,8 @@ __ESTREE_TEST__:PASS:
         "name": "a",
         "optional": false,
         "typeAnnotation": null,
-        "start": 73,
-        "end": 74
+        "start": 76,
+        "end": 77
       },
       "moduleReference": {
         "type": "Identifier",
@@ -68,17 +68,17 @@ __ESTREE_TEST__:PASS:
         "name": "M",
         "optional": false,
         "typeAnnotation": null,
-        "start": 77,
-        "end": 78
+        "start": 80,
+        "end": 81
       },
       "importKind": "value",
-      "start": 66,
-      "end": 79
+      "start": 69,
+      "end": 82
     }
   ],
   "sourceType": "script",
   "hashbang": null,
   "start": 46,
-  "end": 79
+  "end": 82
 }
 ```

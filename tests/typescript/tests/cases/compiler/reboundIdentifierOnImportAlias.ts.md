@@ -11,8 +11,8 @@ __ESTREE_TEST__:PASS:
         "name": "Foo",
         "optional": false,
         "typeAnnotation": null,
-        "start": 7,
-        "end": 10
+        "start": 10,
+        "end": 13
       },
       "body": {
         "type": "TSModuleBlock",
@@ -31,41 +31,41 @@ __ESTREE_TEST__:PASS:
                     "name": "x",
                     "optional": false,
                     "typeAnnotation": null,
-                    "start": 28,
-                    "end": 29
+                    "start": 31,
+                    "end": 32
                   },
                   "init": {
                     "type": "Literal",
                     "value": "hello",
                     "raw": "\"hello\"",
-                    "start": 32,
-                    "end": 39
+                    "start": 35,
+                    "end": 42
                   },
                   "definite": false,
-                  "start": 28,
-                  "end": 39
+                  "start": 31,
+                  "end": 42
                 }
               ],
               "declare": false,
-              "start": 24,
-              "end": 40
+              "start": 27,
+              "end": 43
             },
             "specifiers": [],
             "source": null,
             "exportKind": "value",
             "attributes": [],
-            "start": 17,
-            "end": 40
+            "start": 20,
+            "end": 43
           }
         ],
-        "start": 11,
-        "end": 42
+        "start": 14,
+        "end": 45
       },
-      "kind": "module",
+      "kind": "namespace",
       "declare": false,
       "global": false,
       "start": 0,
-      "end": 42
+      "end": 45
     },
     {
       "type": "TSModuleDeclaration",
@@ -75,8 +75,8 @@ __ESTREE_TEST__:PASS:
         "name": "Bar",
         "optional": false,
         "typeAnnotation": null,
-        "start": 50,
-        "end": 53
+        "start": 56,
+        "end": 59
       },
       "body": {
         "type": "TSModuleBlock",
@@ -93,24 +93,24 @@ __ESTREE_TEST__:PASS:
                   "name": "Foo",
                   "optional": false,
                   "typeAnnotation": null,
-                  "start": 64,
-                  "end": 67
+                  "start": 70,
+                  "end": 73
                 },
                 "init": {
                   "type": "Literal",
                   "value": 1,
                   "raw": "1",
-                  "start": 70,
-                  "end": 71
+                  "start": 76,
+                  "end": 77
                 },
                 "definite": false,
-                "start": 64,
-                "end": 71
+                "start": 70,
+                "end": 77
               }
             ],
             "declare": false,
-            "start": 60,
-            "end": 72
+            "start": 66,
+            "end": 78
           },
           {
             "type": "TSImportEqualsDeclaration",
@@ -120,8 +120,8 @@ __ESTREE_TEST__:PASS:
               "name": "F",
               "optional": false,
               "typeAnnotation": null,
-              "start": 84,
-              "end": 85
+              "start": 90,
+              "end": 91
             },
             "moduleReference": {
               "type": "Identifier",
@@ -129,27 +129,27 @@ __ESTREE_TEST__:PASS:
               "name": "Foo",
               "optional": false,
               "typeAnnotation": null,
-              "start": 88,
-              "end": 91
+              "start": 94,
+              "end": 97
             },
             "importKind": "value",
-            "start": 77,
-            "end": 92
+            "start": 83,
+            "end": 98
           }
         ],
-        "start": 54,
-        "end": 94
+        "start": 60,
+        "end": 100
       },
-      "kind": "module",
+      "kind": "namespace",
       "declare": false,
       "global": false,
-      "start": 43,
-      "end": 94
+      "start": 46,
+      "end": 100
     }
   ],
   "sourceType": "script",
   "hashbang": null,
   "start": 0,
-  "end": 94
+  "end": 100
 }
 ```

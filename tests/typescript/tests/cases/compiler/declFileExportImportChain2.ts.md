@@ -11,8 +11,8 @@ __ESTREE_TEST__:PASS:
         "name": "m1",
         "optional": false,
         "typeAnnotation": null,
-        "start": 7,
-        "end": 9
+        "start": 10,
+        "end": 12
       },
       "body": {
         "type": "TSModuleBlock",
@@ -27,8 +27,8 @@ __ESTREE_TEST__:PASS:
                 "name": "m2",
                 "optional": false,
                 "typeAnnotation": null,
-                "start": 30,
-                "end": 32
+                "start": 36,
+                "end": 38
               },
               "body": {
                 "type": "TSModuleBlock",
@@ -44,8 +44,8 @@ __ESTREE_TEST__:PASS:
                         "name": "c1",
                         "optional": false,
                         "typeAnnotation": null,
-                        "start": 56,
-                        "end": 58
+                        "start": 62,
+                        "end": 64
                       },
                       "typeParameters": null,
                       "superClass": null,
@@ -54,47 +54,47 @@ __ESTREE_TEST__:PASS:
                       "body": {
                         "type": "ClassBody",
                         "body": [],
-                        "start": 59,
-                        "end": 70
+                        "start": 65,
+                        "end": 76
                       },
                       "abstract": false,
                       "declare": false,
-                      "start": 50,
-                      "end": 70
+                      "start": 56,
+                      "end": 76
                     },
                     "specifiers": [],
                     "source": null,
                     "exportKind": "value",
                     "attributes": [],
-                    "start": 43,
-                    "end": 70
+                    "start": 49,
+                    "end": 76
                   }
                 ],
-                "start": 33,
-                "end": 76
+                "start": 39,
+                "end": 82
               },
-              "kind": "module",
+              "kind": "namespace",
               "declare": false,
               "global": false,
-              "start": 23,
-              "end": 76
+              "start": 26,
+              "end": 82
             },
             "specifiers": [],
             "source": null,
             "exportKind": "value",
             "attributes": [],
-            "start": 16,
-            "end": 76
+            "start": 19,
+            "end": 82
           }
         ],
-        "start": 10,
-        "end": 78
+        "start": 13,
+        "end": 84
       },
-      "kind": "module",
+      "kind": "namespace",
       "declare": false,
       "global": false,
       "start": 0,
-      "end": 78
+      "end": 84
     },
     {
       "type": "TSExportAssignment",
@@ -104,17 +104,17 @@ __ESTREE_TEST__:PASS:
         "name": "m1",
         "optional": false,
         "typeAnnotation": null,
-        "start": 88,
-        "end": 90
+        "start": 94,
+        "end": 96
       },
-      "start": 79,
-      "end": 91
+      "start": 85,
+      "end": 97
     }
   ],
   "sourceType": "module",
   "hashbang": null,
   "start": 0,
-  "end": 92
+  "end": 98
 }
 ```
 __ESTREE_TEST__:PASS:

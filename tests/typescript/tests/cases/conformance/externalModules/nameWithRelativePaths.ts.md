@@ -126,8 +126,8 @@ __ESTREE_TEST__:PASS:
           "name": "M2",
           "optional": false,
           "typeAnnotation": null,
-          "start": 14,
-          "end": 16
+          "start": 17,
+          "end": 19
         },
         "body": {
           "type": "TSModuleBlock",
@@ -146,54 +146,54 @@ __ESTREE_TEST__:PASS:
                       "name": "x",
                       "optional": false,
                       "typeAnnotation": null,
-                      "start": 31,
-                      "end": 32
+                      "start": 34,
+                      "end": 35
                     },
                     "init": {
                       "type": "Literal",
                       "value": true,
                       "raw": "true",
-                      "start": 35,
-                      "end": 39
+                      "start": 38,
+                      "end": 42
                     },
                     "definite": false,
-                    "start": 31,
-                    "end": 39
+                    "start": 34,
+                    "end": 42
                   }
                 ],
                 "declare": false,
-                "start": 27,
-                "end": 40
+                "start": 30,
+                "end": 43
               },
               "specifiers": [],
               "source": null,
               "exportKind": "value",
               "attributes": [],
-              "start": 20,
-              "end": 40
+              "start": 23,
+              "end": 43
             }
           ],
-          "start": 17,
-          "end": 42
+          "start": 20,
+          "end": 45
         },
-        "kind": "module",
+        "kind": "namespace",
         "declare": false,
         "global": false,
         "start": 7,
-        "end": 42
+        "end": 45
       },
       "specifiers": [],
       "source": null,
       "exportKind": "value",
       "attributes": [],
       "start": 0,
-      "end": 42
+      "end": 45
     }
   ],
   "sourceType": "module",
   "hashbang": null,
   "start": 0,
-  "end": 43
+  "end": 46
 }
 ```
 __ESTREE_TEST__:PASS:

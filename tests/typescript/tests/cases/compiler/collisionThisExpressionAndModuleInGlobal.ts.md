@@ -11,8 +11,8 @@ __ESTREE_TEST__:PASS:
         "name": "_this",
         "optional": false,
         "typeAnnotation": null,
-        "start": 7,
-        "end": 12
+        "start": 10,
+        "end": 15
       },
       "body": {
         "type": "TSModuleBlock",
@@ -26,8 +26,8 @@ __ESTREE_TEST__:PASS:
               "name": "c",
               "optional": false,
               "typeAnnotation": null,
-              "start": 33,
-              "end": 34
+              "start": 36,
+              "end": 37
             },
             "typeParameters": null,
             "superClass": null,
@@ -36,23 +36,23 @@ __ESTREE_TEST__:PASS:
             "body": {
               "type": "ClassBody",
               "body": [],
-              "start": 35,
-              "end": 42
+              "start": 38,
+              "end": 45
             },
             "abstract": false,
             "declare": false,
-            "start": 27,
-            "end": 42
+            "start": 30,
+            "end": 45
           }
         ],
-        "start": 13,
-        "end": 44
+        "start": 16,
+        "end": 47
       },
-      "kind": "module",
+      "kind": "namespace",
       "declare": false,
       "global": false,
       "start": 0,
-      "end": 44
+      "end": 47
     },
     {
       "type": "VariableDeclaration",
@@ -66,8 +66,8 @@ __ESTREE_TEST__:PASS:
             "name": "f",
             "optional": false,
             "typeAnnotation": null,
-            "start": 49,
-            "end": 50
+            "start": 52,
+            "end": 53
           },
           "init": {
             "type": "ArrowFunctionExpression",
@@ -78,27 +78,27 @@ __ESTREE_TEST__:PASS:
             "returnType": null,
             "body": {
               "type": "ThisExpression",
-              "start": 59,
-              "end": 63
+              "start": 62,
+              "end": 66
             },
             "id": null,
             "generator": false,
-            "start": 53,
-            "end": 63
+            "start": 56,
+            "end": 66
           },
           "definite": false,
-          "start": 49,
-          "end": 63
+          "start": 52,
+          "end": 66
         }
       ],
       "declare": false,
-      "start": 45,
-      "end": 64
+      "start": 48,
+      "end": 67
     }
   ],
   "sourceType": "script",
   "hashbang": null,
   "start": 0,
-  "end": 64
+  "end": 67
 }
 ```

@@ -79,20 +79,20 @@ __ESTREE_TEST__:PASS:
         "name": "c5",
         "optional": false,
         "typeAnnotation": null,
-        "start": 58,
-        "end": 60
+        "start": 61,
+        "end": 63
       },
       "body": {
         "type": "TSModuleBlock",
         "body": [],
-        "start": 61,
-        "end": 64
+        "start": 64,
+        "end": 67
       },
-      "kind": "module",
+      "kind": "namespace",
       "declare": false,
       "global": false,
       "start": 51,
-      "end": 64
+      "end": 67
     },
     {
       "type": "ClassDeclaration",
@@ -103,8 +103,8 @@ __ESTREE_TEST__:PASS:
         "name": "c5a",
         "optional": false,
         "typeAnnotation": null,
-        "start": 88,
-        "end": 91
+        "start": 91,
+        "end": 94
       },
       "typeParameters": null,
       "superClass": null,
@@ -122,8 +122,8 @@ __ESTREE_TEST__:PASS:
               "name": "foo",
               "optional": false,
               "typeAnnotation": null,
-              "start": 101,
-              "end": 104
+              "start": 104,
+              "end": 107
             },
             "value": {
               "type": "FunctionExpression",
@@ -137,12 +137,12 @@ __ESTREE_TEST__:PASS:
               "body": {
                 "type": "BlockStatement",
                 "body": [],
-                "start": 107,
-                "end": 110
+                "start": 110,
+                "end": 113
               },
               "expression": false,
-              "start": 104,
-              "end": 110
+              "start": 107,
+              "end": 113
             },
             "kind": "method",
             "computed": false,
@@ -150,17 +150,17 @@ __ESTREE_TEST__:PASS:
             "override": false,
             "optional": false,
             "accessibility": "public",
-            "start": 94,
-            "end": 110
+            "start": 97,
+            "end": 113
           }
         ],
-        "start": 92,
-        "end": 112
+        "start": 95,
+        "end": 115
       },
       "abstract": false,
       "declare": false,
-      "start": 82,
-      "end": 112
+      "start": 85,
+      "end": 115
     },
     {
       "type": "TSModuleDeclaration",
@@ -170,8 +170,8 @@ __ESTREE_TEST__:PASS:
         "name": "c5a",
         "optional": false,
         "typeAnnotation": null,
-        "start": 120,
-        "end": 123
+        "start": 126,
+        "end": 129
       },
       "body": {
         "type": "TSModuleBlock",
@@ -188,34 +188,34 @@ __ESTREE_TEST__:PASS:
                   "name": "y",
                   "optional": false,
                   "typeAnnotation": null,
-                  "start": 130,
-                  "end": 131
+                  "start": 136,
+                  "end": 137
                 },
                 "init": {
                   "type": "Literal",
                   "value": 2,
                   "raw": "2",
-                  "start": 134,
-                  "end": 135
+                  "start": 140,
+                  "end": 141
                 },
                 "definite": false,
-                "start": 130,
-                "end": 135
+                "start": 136,
+                "end": 141
               }
             ],
             "declare": false,
-            "start": 126,
-            "end": 136
+            "start": 132,
+            "end": 142
           }
         ],
-        "start": 124,
-        "end": 138
+        "start": 130,
+        "end": 144
       },
-      "kind": "module",
+      "kind": "namespace",
       "declare": false,
       "global": false,
-      "start": 113,
-      "end": 138
+      "start": 116,
+      "end": 144
     },
     {
       "type": "ClassDeclaration",
@@ -226,8 +226,8 @@ __ESTREE_TEST__:PASS:
         "name": "c5b",
         "optional": false,
         "typeAnnotation": null,
-        "start": 162,
-        "end": 165
+        "start": 168,
+        "end": 171
       },
       "typeParameters": null,
       "superClass": null,
@@ -245,8 +245,8 @@ __ESTREE_TEST__:PASS:
               "name": "foo",
               "optional": false,
               "typeAnnotation": null,
-              "start": 175,
-              "end": 178
+              "start": 181,
+              "end": 184
             },
             "value": {
               "type": "FunctionExpression",
@@ -260,12 +260,12 @@ __ESTREE_TEST__:PASS:
               "body": {
                 "type": "BlockStatement",
                 "body": [],
-                "start": 181,
-                "end": 184
+                "start": 187,
+                "end": 190
               },
               "expression": false,
-              "start": 178,
-              "end": 184
+              "start": 184,
+              "end": 190
             },
             "kind": "method",
             "computed": false,
@@ -273,17 +273,17 @@ __ESTREE_TEST__:PASS:
             "override": false,
             "optional": false,
             "accessibility": "public",
-            "start": 168,
-            "end": 184
+            "start": 174,
+            "end": 190
           }
         ],
-        "start": 166,
-        "end": 186
+        "start": 172,
+        "end": 192
       },
       "abstract": false,
       "declare": false,
-      "start": 156,
-      "end": 186
+      "start": 162,
+      "end": 192
     },
     {
       "type": "TSModuleDeclaration",
@@ -293,8 +293,8 @@ __ESTREE_TEST__:PASS:
         "name": "c5b",
         "optional": false,
         "typeAnnotation": null,
-        "start": 194,
-        "end": 197
+        "start": 203,
+        "end": 206
       },
       "body": {
         "type": "TSModuleBlock",
@@ -313,41 +313,41 @@ __ESTREE_TEST__:PASS:
                     "name": "y",
                     "optional": false,
                     "typeAnnotation": null,
-                    "start": 211,
-                    "end": 212
+                    "start": 220,
+                    "end": 221
                   },
                   "init": {
                     "type": "Literal",
                     "value": 2,
                     "raw": "2",
-                    "start": 215,
-                    "end": 216
+                    "start": 224,
+                    "end": 225
                   },
                   "definite": false,
-                  "start": 211,
-                  "end": 216
+                  "start": 220,
+                  "end": 225
                 }
               ],
               "declare": false,
-              "start": 207,
-              "end": 217
+              "start": 216,
+              "end": 226
             },
             "specifiers": [],
             "source": null,
             "exportKind": "value",
             "attributes": [],
-            "start": 200,
-            "end": 217
+            "start": 209,
+            "end": 226
           }
         ],
-        "start": 198,
-        "end": 219
+        "start": 207,
+        "end": 228
       },
-      "kind": "module",
+      "kind": "namespace",
       "declare": false,
       "global": false,
-      "start": 187,
-      "end": 219
+      "start": 193,
+      "end": 228
     },
     {
       "type": "ClassDeclaration",
@@ -358,8 +358,8 @@ __ESTREE_TEST__:PASS:
         "name": "c5c",
         "optional": false,
         "typeAnnotation": null,
-        "start": 266,
-        "end": 269
+        "start": 275,
+        "end": 278
       },
       "typeParameters": null,
       "superClass": null,
@@ -377,8 +377,8 @@ __ESTREE_TEST__:PASS:
               "name": "foo",
               "optional": false,
               "typeAnnotation": null,
-              "start": 279,
-              "end": 282
+              "start": 288,
+              "end": 291
             },
             "value": {
               "type": "FunctionExpression",
@@ -392,12 +392,12 @@ __ESTREE_TEST__:PASS:
               "body": {
                 "type": "BlockStatement",
                 "body": [],
-                "start": 285,
-                "end": 288
+                "start": 294,
+                "end": 297
               },
               "expression": false,
-              "start": 282,
-              "end": 288
+              "start": 291,
+              "end": 297
             },
             "kind": "method",
             "computed": false,
@@ -405,22 +405,22 @@ __ESTREE_TEST__:PASS:
             "override": false,
             "optional": false,
             "accessibility": "public",
-            "start": 272,
-            "end": 288
+            "start": 281,
+            "end": 297
           }
         ],
-        "start": 270,
-        "end": 290
+        "start": 279,
+        "end": 299
       },
       "abstract": false,
       "declare": false,
-      "start": 260,
-      "end": 290
+      "start": 269,
+      "end": 299
     }
   ],
   "sourceType": "script",
   "hashbang": null,
   "start": 21,
-  "end": 318
+  "end": 327
 }
 ```

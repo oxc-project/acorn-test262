@@ -13,32 +13,32 @@ __ESTREE_TEST__:PASS:
           "name": "M",
           "optional": false,
           "typeAnnotation": null,
-          "start": 108,
-          "end": 109
+          "start": 111,
+          "end": 112
         },
         "body": {
           "type": "TSModuleBlock",
           "body": [],
-          "start": 110,
-          "end": 113
+          "start": 113,
+          "end": 116
         },
-        "kind": "module",
+        "kind": "namespace",
         "declare": false,
         "global": false,
         "start": 101,
-        "end": 113
+        "end": 116
       },
       "specifiers": [],
       "source": null,
       "exportKind": "value",
       "attributes": [],
       "start": 94,
-      "end": 113
+      "end": 116
     }
   ],
   "sourceType": "module",
   "hashbang": null,
   "start": 94,
-  "end": 113
+  "end": 116
 }
 ```

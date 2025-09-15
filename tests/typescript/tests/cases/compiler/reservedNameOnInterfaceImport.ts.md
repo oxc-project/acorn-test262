@@ -11,8 +11,8 @@ __ESTREE_TEST__:PASS:
         "name": "test",
         "optional": false,
         "typeAnnotation": null,
-        "start": 15,
-        "end": 19
+        "start": 18,
+        "end": 22
       },
       "body": {
         "type": "TSModuleBlock",
@@ -25,20 +25,20 @@ __ESTREE_TEST__:PASS:
               "name": "istring",
               "optional": false,
               "typeAnnotation": null,
-              "start": 36,
-              "end": 43
+              "start": 39,
+              "end": 46
             },
             "typeParameters": null,
             "extends": [],
             "body": {
               "type": "TSInterfaceBody",
               "body": [],
-              "start": 44,
-              "end": 47
+              "start": 47,
+              "end": 50
             },
             "declare": false,
-            "start": 26,
-            "end": 47
+            "start": 29,
+            "end": 50
           },
           {
             "type": "TSImportEqualsDeclaration",
@@ -48,8 +48,8 @@ __ESTREE_TEST__:PASS:
               "name": "string",
               "optional": false,
               "typeAnnotation": null,
-              "start": 156,
-              "end": 162
+              "start": 159,
+              "end": 165
             },
             "moduleReference": {
               "type": "TSQualifiedName",
@@ -59,8 +59,8 @@ __ESTREE_TEST__:PASS:
                 "name": "test",
                 "optional": false,
                 "typeAnnotation": null,
-                "start": 165,
-                "end": 169
+                "start": 168,
+                "end": 172
               },
               "right": {
                 "type": "Identifier",
@@ -68,30 +68,30 @@ __ESTREE_TEST__:PASS:
                 "name": "istring",
                 "optional": false,
                 "typeAnnotation": null,
-                "start": 170,
-                "end": 177
+                "start": 173,
+                "end": 180
               },
-              "start": 165,
-              "end": 177
+              "start": 168,
+              "end": 180
             },
             "importKind": "value",
-            "start": 149,
-            "end": 178
+            "start": 152,
+            "end": 181
           }
         ],
-        "start": 20,
-        "end": 180
+        "start": 23,
+        "end": 183
       },
-      "kind": "module",
+      "kind": "namespace",
       "declare": true,
       "global": false,
       "start": 0,
-      "end": 180
+      "end": 183
     }
   ],
   "sourceType": "script",
   "hashbang": null,
   "start": 0,
-  "end": 180
+  "end": 183
 }
 ```

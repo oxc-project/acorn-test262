@@ -13,8 +13,8 @@ __ESTREE_TEST__:PASS:
           "name": "ConstEnumOnlyModule",
           "optional": false,
           "typeAnnotation": null,
-          "start": 14,
-          "end": 33
+          "start": 17,
+          "end": 36
         },
         "body": {
           "type": "TSModuleBlock",
@@ -29,8 +29,8 @@ __ESTREE_TEST__:PASS:
                   "name": "ConstFooEnum",
                   "optional": false,
                   "typeAnnotation": null,
-                  "start": 56,
-                  "end": 68
+                  "start": 59,
+                  "end": 71
                 },
                 "body": {
                   "type": "TSEnumBody",
@@ -43,13 +43,13 @@ __ESTREE_TEST__:PASS:
                         "name": "Some",
                         "optional": false,
                         "typeAnnotation": null,
-                        "start": 75,
-                        "end": 79
+                        "start": 78,
+                        "end": 82
                       },
                       "initializer": null,
                       "computed": false,
-                      "start": 75,
-                      "end": 79
+                      "start": 78,
+                      "end": 82
                     },
                     {
                       "type": "TSEnumMember",
@@ -59,13 +59,13 @@ __ESTREE_TEST__:PASS:
                         "name": "Values",
                         "optional": false,
                         "typeAnnotation": null,
-                        "start": 85,
-                        "end": 91
+                        "start": 88,
+                        "end": 94
                       },
                       "initializer": null,
                       "computed": false,
-                      "start": 85,
-                      "end": 91
+                      "start": 88,
+                      "end": 94
                     },
                     {
                       "type": "TSEnumMember",
@@ -75,52 +75,52 @@ __ESTREE_TEST__:PASS:
                         "name": "Here",
                         "optional": false,
                         "typeAnnotation": null,
-                        "start": 97,
-                        "end": 101
+                        "start": 100,
+                        "end": 104
                       },
                       "initializer": null,
                       "computed": false,
-                      "start": 97,
-                      "end": 101
+                      "start": 100,
+                      "end": 104
                     }
                   ],
-                  "start": 69,
-                  "end": 105
+                  "start": 72,
+                  "end": 108
                 },
                 "const": true,
                 "declare": false,
-                "start": 45,
-                "end": 105
+                "start": 48,
+                "end": 108
               },
               "specifiers": [],
               "source": null,
               "exportKind": "value",
               "attributes": [],
-              "start": 38,
-              "end": 105
+              "start": 41,
+              "end": 108
             }
           ],
-          "start": 34,
-          "end": 107
+          "start": 37,
+          "end": 110
         },
-        "kind": "module",
+        "kind": "namespace",
         "declare": false,
         "global": false,
         "start": 7,
-        "end": 107
+        "end": 110
       },
       "specifiers": [],
       "source": null,
       "exportKind": "value",
       "attributes": [],
       "start": 0,
-      "end": 107
+      "end": 110
     }
   ],
   "sourceType": "module",
   "hashbang": null,
   "start": 0,
-  "end": 108
+  "end": 111
 }
 ```
 __ESTREE_TEST__:PASS:

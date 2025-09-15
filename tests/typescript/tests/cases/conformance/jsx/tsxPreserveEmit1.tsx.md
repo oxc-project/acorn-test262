@@ -81,8 +81,8 @@ __ESTREE_TEST__:PASS:
         "name": "ReactRouter",
         "optional": false,
         "typeAnnotation": null,
-        "start": 69,
-        "end": 80
+        "start": 72,
+        "end": 83
       },
       "body": {
         "type": "TSModuleBlock",
@@ -102,24 +102,24 @@ __ESTREE_TEST__:PASS:
                     "type": "TSTypeAnnotation",
                     "typeAnnotation": {
                       "type": "TSAnyKeyword",
-                      "start": 95,
-                      "end": 98
+                      "start": 98,
+                      "end": 101
                     },
-                    "start": 93,
-                    "end": 98
+                    "start": 96,
+                    "end": 101
                   },
-                  "start": 88,
-                  "end": 98
+                  "start": 91,
+                  "end": 101
                 },
                 "init": null,
                 "definite": false,
-                "start": 88,
-                "end": 98
+                "start": 91,
+                "end": 101
               }
             ],
             "declare": false,
-            "start": 84,
-            "end": 99
+            "start": 87,
+            "end": 102
           },
           {
             "type": "TSInterfaceDeclaration",
@@ -129,30 +129,30 @@ __ESTREE_TEST__:PASS:
               "name": "Thing",
               "optional": false,
               "typeAnnotation": null,
-              "start": 111,
-              "end": 116
+              "start": 114,
+              "end": 119
             },
             "typeParameters": null,
             "extends": [],
             "body": {
               "type": "TSInterfaceBody",
               "body": [],
-              "start": 117,
-              "end": 120
+              "start": 120,
+              "end": 123
             },
             "declare": false,
-            "start": 101,
-            "end": 120
+            "start": 104,
+            "end": 123
           }
         ],
-        "start": 81,
-        "end": 122
+        "start": 84,
+        "end": 125
       },
-      "kind": "module",
+      "kind": "namespace",
       "declare": true,
       "global": false,
       "start": 54,
-      "end": 122
+      "end": 125
     },
     {
       "type": "TSModuleDeclaration",
@@ -160,8 +160,8 @@ __ESTREE_TEST__:PASS:
         "type": "Literal",
         "value": "react-router",
         "raw": "'react-router'",
-        "start": 138,
-        "end": 152
+        "start": 141,
+        "end": 155
       },
       "body": {
         "type": "TSModuleBlock",
@@ -174,27 +174,27 @@ __ESTREE_TEST__:PASS:
               "name": "ReactRouter",
               "optional": false,
               "typeAnnotation": null,
-              "start": 165,
-              "end": 176
+              "start": 168,
+              "end": 179
             },
-            "start": 156,
-            "end": 177
+            "start": 159,
+            "end": 180
           }
         ],
-        "start": 153,
-        "end": 179
+        "start": 156,
+        "end": 182
       },
       "kind": "module",
       "declare": true,
       "global": false,
-      "start": 123,
-      "end": 179
+      "start": 126,
+      "end": 182
     }
   ],
   "sourceType": "module",
   "hashbang": null,
   "start": 0,
-  "end": 180
+  "end": 183
 }
 ```
 __ESTREE_TEST__:PASS:
@@ -347,8 +347,8 @@ __ESTREE_TEST__:PASS:
         "name": "M",
         "optional": false,
         "typeAnnotation": null,
-        "start": 205,
-        "end": 206
+        "start": 208,
+        "end": 209
       },
       "body": {
         "type": "TSModuleBlock",
@@ -370,41 +370,41 @@ __ESTREE_TEST__:PASS:
                       "type": "TSTypeAnnotation",
                       "typeAnnotation": {
                         "type": "TSAnyKeyword",
-                        "start": 224,
-                        "end": 227
+                        "start": 227,
+                        "end": 230
                       },
-                      "start": 222,
-                      "end": 227
+                      "start": 225,
+                      "end": 230
                     },
-                    "start": 221,
-                    "end": 227
+                    "start": 224,
+                    "end": 230
                   },
                   "init": null,
                   "definite": false,
-                  "start": 221,
-                  "end": 227
+                  "start": 224,
+                  "end": 230
                 }
               ],
               "declare": false,
-              "start": 217,
-              "end": 228
+              "start": 220,
+              "end": 231
             },
             "specifiers": [],
             "source": null,
             "exportKind": "value",
             "attributes": [],
-            "start": 210,
-            "end": 228
+            "start": 213,
+            "end": 231
           }
         ],
-        "start": 207,
-        "end": 230
+        "start": 210,
+        "end": 233
       },
-      "kind": "module",
+      "kind": "namespace",
       "declare": false,
       "global": false,
       "start": 198,
-      "end": 230
+      "end": 233
     },
     {
       "type": "TSModuleDeclaration",
@@ -414,8 +414,8 @@ __ESTREE_TEST__:PASS:
         "name": "M",
         "optional": false,
         "typeAnnotation": null,
-        "start": 238,
-        "end": 239
+        "start": 244,
+        "end": 245
       },
       "body": {
         "type": "TSModuleBlock",
@@ -432,8 +432,8 @@ __ESTREE_TEST__:PASS:
                   "name": "y",
                   "optional": false,
                   "typeAnnotation": null,
-                  "start": 302,
-                  "end": 303
+                  "start": 308,
+                  "end": 309
                 },
                 "init": {
                   "type": "JSXElement",
@@ -442,14 +442,14 @@ __ESTREE_TEST__:PASS:
                     "name": {
                       "type": "JSXIdentifier",
                       "name": "X",
-                      "start": 307,
-                      "end": 308
+                      "start": 313,
+                      "end": 314
                     },
                     "typeArguments": null,
                     "attributes": [],
                     "selfClosing": false,
-                    "start": 306,
-                    "end": 309
+                    "start": 312,
+                    "end": 315
                   },
                   "children": [],
                   "closingElement": {
@@ -457,38 +457,38 @@ __ESTREE_TEST__:PASS:
                     "name": {
                       "type": "JSXIdentifier",
                       "name": "X",
-                      "start": 311,
-                      "end": 312
+                      "start": 317,
+                      "end": 318
                     },
-                    "start": 309,
-                    "end": 313
+                    "start": 315,
+                    "end": 319
                   },
-                  "start": 306,
-                  "end": 313
+                  "start": 312,
+                  "end": 319
                 },
                 "definite": false,
-                "start": 302,
-                "end": 313
+                "start": 308,
+                "end": 319
               }
             ],
             "declare": false,
-            "start": 298,
-            "end": 314
+            "start": 304,
+            "end": 320
           }
         ],
-        "start": 240,
-        "end": 316
+        "start": 246,
+        "end": 322
       },
-      "kind": "module",
+      "kind": "namespace",
       "declare": false,
       "global": false,
-      "start": 231,
-      "end": 316
+      "start": 234,
+      "end": 322
     }
   ],
   "sourceType": "module",
   "hashbang": null,
   "start": 57,
-  "end": 316
+  "end": 322
 }
 ```

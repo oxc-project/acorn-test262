@@ -83,8 +83,8 @@ __ESTREE_TEST__:PASS:
         "name": "m1",
         "optional": false,
         "typeAnnotation": null,
-        "start": 57,
-        "end": 59
+        "start": 60,
+        "end": 62
       },
       "body": {
         "type": "TSModuleBlock",
@@ -98,8 +98,8 @@ __ESTREE_TEST__:PASS:
               "name": "require",
               "optional": false,
               "typeAnnotation": null,
-              "start": 72,
-              "end": 79
+              "start": 75,
+              "end": 82
             },
             "typeParameters": null,
             "superClass": null,
@@ -108,13 +108,13 @@ __ESTREE_TEST__:PASS:
             "body": {
               "type": "ClassBody",
               "body": [],
-              "start": 80,
-              "end": 87
+              "start": 83,
+              "end": 90
             },
             "abstract": false,
             "declare": false,
-            "start": 66,
-            "end": 87
+            "start": 69,
+            "end": 90
           },
           {
             "type": "ClassDeclaration",
@@ -125,8 +125,8 @@ __ESTREE_TEST__:PASS:
               "name": "exports",
               "optional": false,
               "typeAnnotation": null,
-              "start": 98,
-              "end": 105
+              "start": 101,
+              "end": 108
             },
             "typeParameters": null,
             "superClass": null,
@@ -135,23 +135,23 @@ __ESTREE_TEST__:PASS:
             "body": {
               "type": "ClassBody",
               "body": [],
-              "start": 106,
-              "end": 113
+              "start": 109,
+              "end": 116
             },
             "abstract": false,
             "declare": false,
-            "start": 92,
-            "end": 113
+            "start": 95,
+            "end": 116
           }
         ],
-        "start": 60,
-        "end": 115
+        "start": 63,
+        "end": 118
       },
-      "kind": "module",
+      "kind": "namespace",
       "declare": false,
       "global": false,
       "start": 50,
-      "end": 115
+      "end": 118
     },
     {
       "type": "TSModuleDeclaration",
@@ -161,8 +161,8 @@ __ESTREE_TEST__:PASS:
         "name": "m2",
         "optional": false,
         "typeAnnotation": null,
-        "start": 123,
-        "end": 125
+        "start": 129,
+        "end": 131
       },
       "body": {
         "type": "TSModuleBlock",
@@ -178,8 +178,8 @@ __ESTREE_TEST__:PASS:
                 "name": "require",
                 "optional": false,
                 "typeAnnotation": null,
-                "start": 145,
-                "end": 152
+                "start": 151,
+                "end": 158
               },
               "typeParameters": null,
               "superClass": null,
@@ -188,20 +188,20 @@ __ESTREE_TEST__:PASS:
               "body": {
                 "type": "ClassBody",
                 "body": [],
-                "start": 153,
-                "end": 160
+                "start": 159,
+                "end": 166
               },
               "abstract": false,
               "declare": false,
-              "start": 139,
-              "end": 160
+              "start": 145,
+              "end": 166
             },
             "specifiers": [],
             "source": null,
             "exportKind": "value",
             "attributes": [],
-            "start": 132,
-            "end": 160
+            "start": 138,
+            "end": 166
           },
           {
             "type": "ExportNamedDeclaration",
@@ -214,8 +214,8 @@ __ESTREE_TEST__:PASS:
                 "name": "exports",
                 "optional": false,
                 "typeAnnotation": null,
-                "start": 178,
-                "end": 185
+                "start": 184,
+                "end": 191
               },
               "typeParameters": null,
               "superClass": null,
@@ -224,36 +224,36 @@ __ESTREE_TEST__:PASS:
               "body": {
                 "type": "ClassBody",
                 "body": [],
-                "start": 186,
-                "end": 193
+                "start": 192,
+                "end": 199
               },
               "abstract": false,
               "declare": false,
-              "start": 172,
-              "end": 193
+              "start": 178,
+              "end": 199
             },
             "specifiers": [],
             "source": null,
             "exportKind": "value",
             "attributes": [],
-            "start": 165,
-            "end": 193
+            "start": 171,
+            "end": 199
           }
         ],
-        "start": 126,
-        "end": 195
+        "start": 132,
+        "end": 201
       },
-      "kind": "module",
+      "kind": "namespace",
       "declare": false,
       "global": false,
-      "start": 116,
-      "end": 195
+      "start": 119,
+      "end": 201
     }
   ],
   "sourceType": "module",
   "hashbang": null,
   "start": 0,
-  "end": 196
+  "end": 202
 }
 ```
 __ESTREE_TEST__:PASS:
@@ -323,8 +323,8 @@ __ESTREE_TEST__:PASS:
         "name": "m3",
         "optional": false,
         "typeAnnotation": null,
-        "start": 43,
-        "end": 45
+        "start": 46,
+        "end": 48
       },
       "body": {
         "type": "TSModuleBlock",
@@ -338,8 +338,8 @@ __ESTREE_TEST__:PASS:
               "name": "require",
               "optional": false,
               "typeAnnotation": null,
-              "start": 58,
-              "end": 65
+              "start": 61,
+              "end": 68
             },
             "typeParameters": null,
             "superClass": null,
@@ -348,13 +348,13 @@ __ESTREE_TEST__:PASS:
             "body": {
               "type": "ClassBody",
               "body": [],
-              "start": 66,
-              "end": 73
+              "start": 69,
+              "end": 76
             },
             "abstract": false,
             "declare": false,
-            "start": 52,
-            "end": 73
+            "start": 55,
+            "end": 76
           },
           {
             "type": "ClassDeclaration",
@@ -365,8 +365,8 @@ __ESTREE_TEST__:PASS:
               "name": "exports",
               "optional": false,
               "typeAnnotation": null,
-              "start": 84,
-              "end": 91
+              "start": 87,
+              "end": 94
             },
             "typeParameters": null,
             "superClass": null,
@@ -375,23 +375,23 @@ __ESTREE_TEST__:PASS:
             "body": {
               "type": "ClassBody",
               "body": [],
-              "start": 92,
-              "end": 99
+              "start": 95,
+              "end": 102
             },
             "abstract": false,
             "declare": false,
-            "start": 78,
-            "end": 99
+            "start": 81,
+            "end": 102
           }
         ],
-        "start": 46,
-        "end": 101
+        "start": 49,
+        "end": 104
       },
-      "kind": "module",
+      "kind": "namespace",
       "declare": false,
       "global": false,
       "start": 36,
-      "end": 101
+      "end": 104
     },
     {
       "type": "TSModuleDeclaration",
@@ -401,8 +401,8 @@ __ESTREE_TEST__:PASS:
         "name": "m4",
         "optional": false,
         "typeAnnotation": null,
-        "start": 109,
-        "end": 111
+        "start": 115,
+        "end": 117
       },
       "body": {
         "type": "TSModuleBlock",
@@ -418,8 +418,8 @@ __ESTREE_TEST__:PASS:
                 "name": "require",
                 "optional": false,
                 "typeAnnotation": null,
-                "start": 131,
-                "end": 138
+                "start": 137,
+                "end": 144
               },
               "typeParameters": null,
               "superClass": null,
@@ -428,20 +428,20 @@ __ESTREE_TEST__:PASS:
               "body": {
                 "type": "ClassBody",
                 "body": [],
-                "start": 139,
-                "end": 146
+                "start": 145,
+                "end": 152
               },
               "abstract": false,
               "declare": false,
-              "start": 125,
-              "end": 146
+              "start": 131,
+              "end": 152
             },
             "specifiers": [],
             "source": null,
             "exportKind": "value",
             "attributes": [],
-            "start": 118,
-            "end": 146
+            "start": 124,
+            "end": 152
           },
           {
             "type": "ExportNamedDeclaration",
@@ -454,8 +454,8 @@ __ESTREE_TEST__:PASS:
                 "name": "exports",
                 "optional": false,
                 "typeAnnotation": null,
-                "start": 164,
-                "end": 171
+                "start": 170,
+                "end": 177
               },
               "typeParameters": null,
               "superClass": null,
@@ -464,35 +464,35 @@ __ESTREE_TEST__:PASS:
               "body": {
                 "type": "ClassBody",
                 "body": [],
-                "start": 172,
-                "end": 179
+                "start": 178,
+                "end": 185
               },
               "abstract": false,
               "declare": false,
-              "start": 158,
-              "end": 179
+              "start": 164,
+              "end": 185
             },
             "specifiers": [],
             "source": null,
             "exportKind": "value",
             "attributes": [],
-            "start": 151,
-            "end": 179
+            "start": 157,
+            "end": 185
           }
         ],
-        "start": 112,
-        "end": 181
+        "start": 118,
+        "end": 187
       },
-      "kind": "module",
+      "kind": "namespace",
       "declare": false,
       "global": false,
-      "start": 102,
-      "end": 181
+      "start": 105,
+      "end": 187
     }
   ],
   "sourceType": "module",
   "hashbang": null,
   "start": 0,
-  "end": 181
+  "end": 187
 }
 ```

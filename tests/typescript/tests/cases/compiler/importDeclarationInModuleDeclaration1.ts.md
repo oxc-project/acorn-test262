@@ -11,8 +11,8 @@ __ESTREE_TEST__:PASS:
         "name": "m2",
         "optional": false,
         "typeAnnotation": null,
-        "start": 7,
-        "end": 9
+        "start": 10,
+        "end": 12
       },
       "body": {
         "type": "TSModuleBlock",
@@ -25,8 +25,8 @@ __ESTREE_TEST__:PASS:
               "name": "m3",
               "optional": false,
               "typeAnnotation": null,
-              "start": 23,
-              "end": 25
+              "start": 26,
+              "end": 28
             },
             "moduleReference": {
               "type": "TSExternalModuleReference",
@@ -34,30 +34,30 @@ __ESTREE_TEST__:PASS:
                 "type": "Literal",
                 "value": "use_glo_M1_public",
                 "raw": "\"use_glo_M1_public\"",
-                "start": 36,
-                "end": 55
+                "start": 39,
+                "end": 58
               },
-              "start": 28,
-              "end": 56
+              "start": 31,
+              "end": 59
             },
             "importKind": "value",
-            "start": 16,
-            "end": 57
+            "start": 19,
+            "end": 60
           }
         ],
-        "start": 10,
-        "end": 59
+        "start": 13,
+        "end": 62
       },
-      "kind": "module",
+      "kind": "namespace",
       "declare": false,
       "global": false,
       "start": 0,
-      "end": 59
+      "end": 62
     }
   ],
   "sourceType": "script",
   "hashbang": null,
   "start": 0,
-  "end": 59
+  "end": 62
 }
 ```

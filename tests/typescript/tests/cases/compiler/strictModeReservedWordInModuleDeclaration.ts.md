@@ -24,20 +24,20 @@ __ESTREE_TEST__:PASS:
         "name": "public",
         "optional": false,
         "typeAnnotation": null,
-        "start": 20,
-        "end": 26
+        "start": 23,
+        "end": 29
       },
       "body": {
         "type": "TSModuleBlock",
         "body": [],
-        "start": 27,
-        "end": 30
+        "start": 30,
+        "end": 33
       },
-      "kind": "module",
+      "kind": "namespace",
       "declare": false,
       "global": false,
       "start": 13,
-      "end": 30
+      "end": 33
     },
     {
       "type": "TSModuleDeclaration",
@@ -47,20 +47,20 @@ __ESTREE_TEST__:PASS:
         "name": "private",
         "optional": false,
         "typeAnnotation": null,
-        "start": 38,
-        "end": 45
+        "start": 44,
+        "end": 51
       },
       "body": {
         "type": "TSModuleBlock",
         "body": [],
-        "start": 46,
-        "end": 49
+        "start": 52,
+        "end": 55
       },
-      "kind": "module",
+      "kind": "namespace",
       "declare": false,
       "global": false,
-      "start": 31,
-      "end": 49
+      "start": 34,
+      "end": 55
     },
     {
       "type": "TSModuleDeclaration",
@@ -72,8 +72,8 @@ __ESTREE_TEST__:PASS:
           "name": "public",
           "optional": false,
           "typeAnnotation": null,
-          "start": 57,
-          "end": 63
+          "start": 66,
+          "end": 72
         },
         "right": {
           "type": "Identifier",
@@ -81,23 +81,23 @@ __ESTREE_TEST__:PASS:
           "name": "whatever",
           "optional": false,
           "typeAnnotation": null,
-          "start": 64,
-          "end": 72
+          "start": 73,
+          "end": 81
         },
-        "start": 57,
-        "end": 72
+        "start": 66,
+        "end": 81
       },
       "body": {
         "type": "TSModuleBlock",
         "body": [],
-        "start": 73,
-        "end": 76
+        "start": 82,
+        "end": 85
       },
-      "kind": "module",
+      "kind": "namespace",
       "declare": false,
       "global": false,
-      "start": 50,
-      "end": 76
+      "start": 56,
+      "end": 85
     },
     {
       "type": "TSModuleDeclaration",
@@ -111,8 +111,8 @@ __ESTREE_TEST__:PASS:
             "name": "private",
             "optional": false,
             "typeAnnotation": null,
-            "start": 84,
-            "end": 91
+            "start": 96,
+            "end": 103
           },
           "right": {
             "type": "Identifier",
@@ -120,11 +120,11 @@ __ESTREE_TEST__:PASS:
             "name": "public",
             "optional": false,
             "typeAnnotation": null,
-            "start": 92,
-            "end": 98
+            "start": 104,
+            "end": 110
           },
-          "start": 84,
-          "end": 98
+          "start": 96,
+          "end": 110
         },
         "right": {
           "type": "Identifier",
@@ -132,28 +132,28 @@ __ESTREE_TEST__:PASS:
           "name": "foo",
           "optional": false,
           "typeAnnotation": null,
-          "start": 99,
-          "end": 102
+          "start": 111,
+          "end": 114
         },
-        "start": 84,
-        "end": 102
+        "start": 96,
+        "end": 114
       },
       "body": {
         "type": "TSModuleBlock",
         "body": [],
-        "start": 103,
-        "end": 106
+        "start": 115,
+        "end": 118
       },
-      "kind": "module",
+      "kind": "namespace",
       "declare": false,
       "global": false,
-      "start": 77,
-      "end": 106
+      "start": 86,
+      "end": 118
     }
   ],
   "sourceType": "script",
   "hashbang": null,
   "start": 0,
-  "end": 106
+  "end": 118
 }
 ```

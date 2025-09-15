@@ -54,8 +54,8 @@ __ESTREE_TEST__:PASS:
         "name": "ModuleEnum",
         "optional": false,
         "typeAnnotation": null,
-        "start": 95,
-        "end": 105
+        "start": 98,
+        "end": 108
       },
       "body": {
         "type": "TSModuleBlock",
@@ -68,8 +68,8 @@ __ESTREE_TEST__:PASS:
               "name": "EnumInModule",
               "optional": false,
               "typeAnnotation": null,
-              "start": 117,
-              "end": 129
+              "start": 120,
+              "end": 132
             },
             "body": {
               "type": "TSEnumBody",
@@ -82,41 +82,41 @@ __ESTREE_TEST__:PASS:
                     "name": "WasADifferentError",
                     "optional": false,
                     "typeAnnotation": null,
-                    "start": 140,
-                    "end": 158
+                    "start": 143,
+                    "end": 161
                   },
                   "initializer": {
                     "type": "ThisExpression",
-                    "start": 161,
-                    "end": 165
+                    "start": 164,
+                    "end": 168
                   },
                   "computed": false,
-                  "start": 140,
-                  "end": 165
+                  "start": 143,
+                  "end": 168
                 }
               ],
-              "start": 130,
-              "end": 218
+              "start": 133,
+              "end": 221
             },
             "const": false,
             "declare": false,
-            "start": 112,
-            "end": 218
+            "start": 115,
+            "end": 221
           }
         ],
-        "start": 106,
-        "end": 220
+        "start": 109,
+        "end": 223
       },
-      "kind": "module",
+      "kind": "namespace",
       "declare": false,
       "global": false,
       "start": 88,
-      "end": 220
+      "end": 223
     }
   ],
   "sourceType": "script",
   "hashbang": null,
   "start": 0,
-  "end": 220
+  "end": 223
 }
 ```

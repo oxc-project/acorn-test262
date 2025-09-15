@@ -407,23 +407,23 @@ __ESTREE_TEST__:PASS:
           "name": "M",
           "optional": false,
           "typeAnnotation": null,
-          "start": 227,
-          "end": 228
+          "start": 230,
+          "end": 231
         },
         "body": {
           "type": "TSModuleBlock",
           "body": [],
-          "start": 229,
-          "end": 232
+          "start": 232,
+          "end": 235
         },
-        "kind": "module",
+        "kind": "namespace",
         "declare": false,
         "global": false,
         "start": 220,
-        "end": 232
+        "end": 235
       },
       "start": 213,
-      "end": 232
+      "end": 235
     },
     {
       "type": "LabeledStatement",
@@ -433,8 +433,8 @@ __ESTREE_TEST__:PASS:
         "name": "label",
         "optional": false,
         "typeAnnotation": null,
-        "start": 233,
-        "end": 238
+        "start": 236,
+        "end": 241
       },
       "body": {
         "type": "TSModuleDeclaration",
@@ -444,23 +444,23 @@ __ESTREE_TEST__:PASS:
           "name": "N",
           "optional": false,
           "typeAnnotation": null,
-          "start": 250,
-          "end": 251
+          "start": 253,
+          "end": 254
         },
         "body": {
           "type": "TSModuleBlock",
           "body": [],
-          "start": 252,
-          "end": 254
+          "start": 255,
+          "end": 257
         },
         "kind": "namespace",
         "declare": false,
         "global": false,
-        "start": 240,
-        "end": 254
+        "start": 243,
+        "end": 257
       },
-      "start": 233,
-      "end": 254
+      "start": 236,
+      "end": 257
     },
     {
       "type": "LabeledStatement",
@@ -470,8 +470,8 @@ __ESTREE_TEST__:PASS:
         "name": "label",
         "optional": false,
         "typeAnnotation": null,
-        "start": 255,
-        "end": 260
+        "start": 258,
+        "end": 263
       },
       "body": {
         "type": "TSTypeAliasDeclaration",
@@ -481,27 +481,27 @@ __ESTREE_TEST__:PASS:
           "name": "T",
           "optional": false,
           "typeAnnotation": null,
-          "start": 267,
-          "end": 268
+          "start": 270,
+          "end": 271
         },
         "typeParameters": null,
         "typeAnnotation": {
           "type": "TSTypeLiteral",
           "members": [],
-          "start": 271,
-          "end": 273
+          "start": 274,
+          "end": 276
         },
         "declare": false,
-        "start": 262,
-        "end": 273
+        "start": 265,
+        "end": 276
       },
-      "start": 255,
-      "end": 273
+      "start": 258,
+      "end": 276
     }
   ],
   "sourceType": "script",
   "hashbang": null,
   "start": 0,
-  "end": 273
+  "end": 276
 }
 ```

@@ -11,8 +11,8 @@ __ESTREE_TEST__:PASS:
         "name": "M",
         "optional": false,
         "typeAnnotation": null,
-        "start": 7,
-        "end": 8
+        "start": 10,
+        "end": 11
       },
       "body": {
         "type": "TSModuleBlock",
@@ -25,8 +25,8 @@ __ESTREE_TEST__:PASS:
               "name": "N",
               "optional": false,
               "typeAnnotation": null,
-              "start": 22,
-              "end": 23
+              "start": 28,
+              "end": 29
             },
             "body": {
               "type": "TSModuleBlock",
@@ -40,8 +40,8 @@ __ESTREE_TEST__:PASS:
                     "name": "C",
                     "optional": false,
                     "typeAnnotation": null,
-                    "start": 40,
-                    "end": 41
+                    "start": 46,
+                    "end": 47
                   },
                   "typeParameters": null,
                   "superClass": null,
@@ -50,23 +50,23 @@ __ESTREE_TEST__:PASS:
                   "body": {
                     "type": "ClassBody",
                     "body": [],
-                    "start": 42,
-                    "end": 53
+                    "start": 48,
+                    "end": 59
                   },
                   "abstract": false,
                   "declare": false,
-                  "start": 34,
-                  "end": 53
+                  "start": 40,
+                  "end": 59
                 }
               ],
-              "start": 24,
-              "end": 68
+              "start": 30,
+              "end": 74
             },
-            "kind": "module",
+            "kind": "namespace",
             "declare": false,
             "global": false,
-            "start": 15,
-            "end": 68
+            "start": 18,
+            "end": 74
           },
           {
             "type": "TSImportEqualsDeclaration",
@@ -76,8 +76,8 @@ __ESTREE_TEST__:PASS:
               "name": "R",
               "optional": false,
               "typeAnnotation": null,
-              "start": 80,
-              "end": 81
+              "start": 86,
+              "end": 87
             },
             "moduleReference": {
               "type": "Identifier",
@@ -85,12 +85,12 @@ __ESTREE_TEST__:PASS:
               "name": "N",
               "optional": false,
               "typeAnnotation": null,
-              "start": 84,
-              "end": 85
+              "start": 90,
+              "end": 91
             },
             "importKind": "value",
-            "start": 73,
-            "end": 86
+            "start": 79,
+            "end": 92
           },
           {
             "type": "ExportNamedDeclaration",
@@ -102,8 +102,8 @@ __ESTREE_TEST__:PASS:
                 "name": "X",
                 "optional": false,
                 "typeAnnotation": null,
-                "start": 105,
-                "end": 106
+                "start": 111,
+                "end": 112
               },
               "moduleReference": {
                 "type": "Identifier",
@@ -111,34 +111,34 @@ __ESTREE_TEST__:PASS:
                 "name": "R",
                 "optional": false,
                 "typeAnnotation": null,
-                "start": 109,
-                "end": 110
+                "start": 115,
+                "end": 116
               },
               "importKind": "value",
-              "start": 98,
-              "end": 111
+              "start": 104,
+              "end": 117
             },
             "specifiers": [],
             "source": null,
             "exportKind": "value",
             "attributes": [],
-            "start": 91,
-            "end": 111
+            "start": 97,
+            "end": 117
           }
         ],
-        "start": 9,
-        "end": 113
+        "start": 12,
+        "end": 119
       },
-      "kind": "module",
+      "kind": "namespace",
       "declare": false,
       "global": false,
       "start": 0,
-      "end": 113
+      "end": 119
     }
   ],
   "sourceType": "script",
   "hashbang": null,
   "start": 0,
-  "end": 113
+  "end": 119
 }
 ```

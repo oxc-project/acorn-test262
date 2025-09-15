@@ -203,8 +203,8 @@ __ESTREE_TEST__:PASS:
           "name": "M1",
           "optional": false,
           "typeAnnotation": null,
-          "start": 118,
-          "end": 120
+          "start": 121,
+          "end": 123
         },
         "body": {
           "type": "TSModuleBlock",
@@ -219,8 +219,8 @@ __ESTREE_TEST__:PASS:
                   "name": "I2",
                   "optional": false,
                   "typeAnnotation": null,
-                  "start": 141,
-                  "end": 143
+                  "start": 144,
+                  "end": 146
                 },
                 "typeParameters": null,
                 "extends": [],
@@ -238,55 +238,55 @@ __ESTREE_TEST__:PASS:
                         "name": "foo",
                         "optional": false,
                         "typeAnnotation": null,
-                        "start": 148,
-                        "end": 151
+                        "start": 151,
+                        "end": 154
                       },
                       "typeAnnotation": {
                         "type": "TSTypeAnnotation",
                         "typeAnnotation": {
                           "type": "TSStringKeyword",
-                          "start": 153,
-                          "end": 159
+                          "start": 156,
+                          "end": 162
                         },
-                        "start": 151,
-                        "end": 159
+                        "start": 154,
+                        "end": 162
                       },
                       "accessibility": null,
                       "static": false,
-                      "start": 148,
-                      "end": 160
+                      "start": 151,
+                      "end": 163
                     }
                   ],
-                  "start": 144,
-                  "end": 163
+                  "start": 147,
+                  "end": 166
                 },
                 "declare": false,
-                "start": 131,
-                "end": 163
+                "start": 134,
+                "end": 166
               },
               "specifiers": [],
               "source": null,
               "exportKind": "type",
               "attributes": [],
-              "start": 124,
-              "end": 163
+              "start": 127,
+              "end": 166
             }
           ],
-          "start": 121,
-          "end": 165
+          "start": 124,
+          "end": 168
         },
-        "kind": "module",
+        "kind": "namespace",
         "declare": false,
         "global": false,
         "start": 111,
-        "end": 165
+        "end": 168
       },
       "specifiers": [],
       "source": null,
       "exportKind": "value",
       "attributes": [],
       "start": 104,
-      "end": 165
+      "end": 168
     },
     {
       "type": "ExportNamedDeclaration",
@@ -298,8 +298,8 @@ __ESTREE_TEST__:PASS:
           "name": "E1",
           "optional": false,
           "typeAnnotation": null,
-          "start": 179,
-          "end": 181
+          "start": 182,
+          "end": 184
         },
         "body": {
           "type": "TSEnumBody",
@@ -312,13 +312,13 @@ __ESTREE_TEST__:PASS:
                 "name": "A",
                 "optional": false,
                 "typeAnnotation": null,
-                "start": 185,
-                "end": 186
+                "start": 188,
+                "end": 189
               },
               "initializer": null,
               "computed": false,
-              "start": 185,
-              "end": 186
+              "start": 188,
+              "end": 189
             },
             {
               "type": "TSEnumMember",
@@ -328,13 +328,13 @@ __ESTREE_TEST__:PASS:
                 "name": "B",
                 "optional": false,
                 "typeAnnotation": null,
-                "start": 187,
-                "end": 188
+                "start": 190,
+                "end": 191
               },
               "initializer": null,
               "computed": false,
-              "start": 187,
-              "end": 188
+              "start": 190,
+              "end": 191
             },
             {
               "type": "TSEnumMember",
@@ -344,35 +344,35 @@ __ESTREE_TEST__:PASS:
                 "name": "C",
                 "optional": false,
                 "typeAnnotation": null,
-                "start": 189,
-                "end": 190
+                "start": 192,
+                "end": 193
               },
               "initializer": null,
               "computed": false,
-              "start": 189,
-              "end": 190
+              "start": 192,
+              "end": 193
             }
           ],
-          "start": 182,
-          "end": 192
+          "start": 185,
+          "end": 195
         },
         "const": false,
         "declare": false,
-        "start": 174,
-        "end": 192
+        "start": 177,
+        "end": 195
       },
       "specifiers": [],
       "source": null,
       "exportKind": "value",
       "attributes": [],
-      "start": 167,
-      "end": 192
+      "start": 170,
+      "end": 195
     }
   ],
   "sourceType": "module",
   "hashbang": null,
   "start": 0,
-  "end": 193
+  "end": 196
 }
 ```
 __ESTREE_TEST__:PASS:

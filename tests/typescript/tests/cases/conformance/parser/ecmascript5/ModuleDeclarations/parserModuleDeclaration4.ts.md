@@ -11,8 +11,8 @@ __ESTREE_TEST__:PASS:
         "name": "M",
         "optional": false,
         "typeAnnotation": null,
-        "start": 7,
-        "end": 8
+        "start": 10,
+        "end": 11
       },
       "body": {
         "type": "TSModuleBlock",
@@ -25,8 +25,8 @@ __ESTREE_TEST__:PASS:
               "name": "M1",
               "optional": false,
               "typeAnnotation": null,
-              "start": 28,
-              "end": 30
+              "start": 34,
+              "end": 36
             },
             "body": {
               "type": "TSModuleBlock",
@@ -39,45 +39,45 @@ __ESTREE_TEST__:PASS:
                     "name": "M2",
                     "optional": false,
                     "typeAnnotation": null,
-                    "start": 44,
-                    "end": 46
+                    "start": 53,
+                    "end": 55
                   },
                   "body": {
                     "type": "TSModuleBlock",
                     "body": [],
-                    "start": 47,
-                    "end": 54
+                    "start": 56,
+                    "end": 63
                   },
-                  "kind": "module",
+                  "kind": "namespace",
                   "declare": false,
                   "global": false,
-                  "start": 37,
-                  "end": 54
+                  "start": 43,
+                  "end": 63
                 }
               ],
-              "start": 31,
-              "end": 58
+              "start": 37,
+              "end": 67
             },
-            "kind": "module",
+            "kind": "namespace",
             "declare": true,
             "global": false,
-            "start": 13,
-            "end": 58
+            "start": 16,
+            "end": 67
           }
         ],
-        "start": 9,
-        "end": 60
+        "start": 12,
+        "end": 69
       },
-      "kind": "module",
+      "kind": "namespace",
       "declare": false,
       "global": false,
       "start": 0,
-      "end": 60
+      "end": 69
     }
   ],
   "sourceType": "script",
   "hashbang": null,
   "start": 0,
-  "end": 60
+  "end": 69
 }
 ```

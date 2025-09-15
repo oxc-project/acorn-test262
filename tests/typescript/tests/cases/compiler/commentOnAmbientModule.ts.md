@@ -11,8 +11,8 @@ __ESTREE_TEST__:PASS:
         "name": "C",
         "optional": false,
         "typeAnnotation": null,
-        "start": 112,
-        "end": 113
+        "start": 115,
+        "end": 116
       },
       "body": {
         "type": "TSModuleBlock",
@@ -25,8 +25,8 @@ __ESTREE_TEST__:PASS:
               "name": "foo",
               "optional": false,
               "typeAnnotation": null,
-              "start": 129,
-              "end": 132
+              "start": 132,
+              "end": 135
             },
             "generator": false,
             "async": false,
@@ -36,18 +36,18 @@ __ESTREE_TEST__:PASS:
             "returnType": null,
             "body": null,
             "expression": false,
-            "start": 120,
-            "end": 135
+            "start": 123,
+            "end": 138
           }
         ],
-        "start": 114,
-        "end": 137
+        "start": 117,
+        "end": 140
       },
-      "kind": "module",
+      "kind": "namespace",
       "declare": true,
       "global": false,
       "start": 97,
-      "end": 137
+      "end": 140
     },
     {
       "type": "TSModuleDeclaration",
@@ -57,8 +57,8 @@ __ESTREE_TEST__:PASS:
         "name": "D",
         "optional": false,
         "typeAnnotation": null,
-        "start": 182,
-        "end": 183
+        "start": 188,
+        "end": 189
       },
       "body": {
         "type": "TSModuleBlock",
@@ -72,8 +72,8 @@ __ESTREE_TEST__:PASS:
               "name": "bar",
               "optional": false,
               "typeAnnotation": null,
-              "start": 196,
-              "end": 199
+              "start": 202,
+              "end": 205
             },
             "typeParameters": null,
             "superClass": null,
@@ -82,29 +82,29 @@ __ESTREE_TEST__:PASS:
             "body": {
               "type": "ClassBody",
               "body": [],
-              "start": 200,
-              "end": 203
+              "start": 206,
+              "end": 209
             },
             "abstract": false,
             "declare": false,
-            "start": 190,
-            "end": 203
+            "start": 196,
+            "end": 209
           }
         ],
-        "start": 184,
-        "end": 205
+        "start": 190,
+        "end": 211
       },
-      "kind": "module",
+      "kind": "namespace",
       "declare": true,
       "global": false,
-      "start": 167,
-      "end": 205
+      "start": 170,
+      "end": 211
     }
   ],
   "sourceType": "module",
   "hashbang": null,
   "start": 97,
-  "end": 206
+  "end": 212
 }
 ```
 __ESTREE_TEST__:PASS:
@@ -120,8 +120,8 @@ __ESTREE_TEST__:PASS:
         "name": "E",
         "optional": false,
         "typeAnnotation": null,
-        "start": 43,
-        "end": 44
+        "start": 46,
+        "end": 47
       },
       "body": {
         "type": "TSModuleBlock",
@@ -135,8 +135,8 @@ __ESTREE_TEST__:PASS:
               "name": "foobar",
               "optional": false,
               "typeAnnotation": null,
-              "start": 57,
-              "end": 63
+              "start": 60,
+              "end": 66
             },
             "typeParameters": null,
             "superClass": {
@@ -147,8 +147,8 @@ __ESTREE_TEST__:PASS:
                 "name": "D",
                 "optional": false,
                 "typeAnnotation": null,
-                "start": 72,
-                "end": 73
+                "start": 75,
+                "end": 76
               },
               "property": {
                 "type": "Identifier",
@@ -156,13 +156,13 @@ __ESTREE_TEST__:PASS:
                 "name": "bar",
                 "optional": false,
                 "typeAnnotation": null,
-                "start": 74,
-                "end": 77
+                "start": 77,
+                "end": 80
               },
               "optional": false,
               "computed": false,
-              "start": 72,
-              "end": 77
+              "start": 75,
+              "end": 80
             },
             "superTypeArguments": null,
             "implements": [],
@@ -178,8 +178,8 @@ __ESTREE_TEST__:PASS:
                     "name": "foo",
                     "optional": false,
                     "typeAnnotation": null,
-                    "start": 88,
-                    "end": 91
+                    "start": 91,
+                    "end": 94
                   },
                   "value": {
                     "type": "TSEmptyBodyFunctionExpression",
@@ -192,8 +192,8 @@ __ESTREE_TEST__:PASS:
                     "returnType": null,
                     "body": null,
                     "expression": false,
-                    "start": 91,
-                    "end": 94
+                    "start": 94,
+                    "end": 97
                   },
                   "kind": "method",
                   "computed": false,
@@ -201,32 +201,32 @@ __ESTREE_TEST__:PASS:
                   "override": false,
                   "optional": false,
                   "accessibility": null,
-                  "start": 88,
-                  "end": 94
+                  "start": 91,
+                  "end": 97
                 }
               ],
-              "start": 78,
-              "end": 100
+              "start": 81,
+              "end": 103
             },
             "abstract": false,
             "declare": false,
-            "start": 51,
-            "end": 100
+            "start": 54,
+            "end": 103
           }
         ],
-        "start": 45,
-        "end": 102
+        "start": 48,
+        "end": 105
       },
-      "kind": "module",
+      "kind": "namespace",
       "declare": true,
       "global": false,
       "start": 28,
-      "end": 102
+      "end": 105
     }
   ],
   "sourceType": "module",
   "hashbang": null,
   "start": 28,
-  "end": 102
+  "end": 105
 }
 ```

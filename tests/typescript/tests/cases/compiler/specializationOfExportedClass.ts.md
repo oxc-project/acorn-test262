@@ -11,8 +11,8 @@ __ESTREE_TEST__:PASS:
         "name": "M",
         "optional": false,
         "typeAnnotation": null,
-        "start": 7,
-        "end": 8
+        "start": 10,
+        "end": 11
       },
       "body": {
         "type": "TSModuleBlock",
@@ -28,8 +28,8 @@ __ESTREE_TEST__:PASS:
                 "name": "C",
                 "optional": false,
                 "typeAnnotation": null,
-                "start": 25,
-                "end": 26
+                "start": 28,
+                "end": 29
               },
               "typeParameters": {
                 "type": "TSTypeParameterDeclaration",
@@ -42,20 +42,20 @@ __ESTREE_TEST__:PASS:
                       "name": "T",
                       "optional": false,
                       "typeAnnotation": null,
-                      "start": 27,
-                      "end": 28
+                      "start": 30,
+                      "end": 31
                     },
                     "constraint": null,
                     "default": null,
                     "in": false,
                     "out": false,
                     "const": false,
-                    "start": 27,
-                    "end": 28
+                    "start": 30,
+                    "end": 31
                   }
                 ],
-                "start": 26,
-                "end": 29
+                "start": 29,
+                "end": 32
               },
               "superClass": null,
               "superTypeArguments": null,
@@ -63,30 +63,30 @@ __ESTREE_TEST__:PASS:
               "body": {
                 "type": "ClassBody",
                 "body": [],
-                "start": 30,
-                "end": 33
+                "start": 33,
+                "end": 36
               },
               "abstract": false,
               "declare": false,
-              "start": 19,
-              "end": 33
+              "start": 22,
+              "end": 36
             },
             "specifiers": [],
             "source": null,
             "exportKind": "value",
             "attributes": [],
-            "start": 12,
-            "end": 33
+            "start": 15,
+            "end": 36
           }
         ],
-        "start": 9,
-        "end": 36
+        "start": 12,
+        "end": 39
       },
-      "kind": "module",
+      "kind": "namespace",
       "declare": false,
       "global": false,
       "start": 0,
-      "end": 36
+      "end": 39
     },
     {
       "type": "VariableDeclaration",
@@ -100,8 +100,8 @@ __ESTREE_TEST__:PASS:
             "name": "x",
             "optional": false,
             "typeAnnotation": null,
-            "start": 43,
-            "end": 44
+            "start": 46,
+            "end": 47
           },
           "init": {
             "type": "NewExpression",
@@ -113,8 +113,8 @@ __ESTREE_TEST__:PASS:
                 "name": "M",
                 "optional": false,
                 "typeAnnotation": null,
-                "start": 51,
-                "end": 52
+                "start": 54,
+                "end": 55
               },
               "property": {
                 "type": "Identifier",
@@ -122,43 +122,43 @@ __ESTREE_TEST__:PASS:
                 "name": "C",
                 "optional": false,
                 "typeAnnotation": null,
-                "start": 53,
-                "end": 54
+                "start": 56,
+                "end": 57
               },
               "optional": false,
               "computed": false,
-              "start": 51,
-              "end": 54
+              "start": 54,
+              "end": 57
             },
             "typeArguments": {
               "type": "TSTypeParameterInstantiation",
               "params": [
                 {
                   "type": "TSStringKeyword",
-                  "start": 55,
-                  "end": 61
+                  "start": 58,
+                  "end": 64
                 }
               ],
-              "start": 54,
-              "end": 62
+              "start": 57,
+              "end": 65
             },
             "arguments": [],
-            "start": 47,
-            "end": 64
+            "start": 50,
+            "end": 67
           },
           "definite": false,
-          "start": 43,
-          "end": 64
+          "start": 46,
+          "end": 67
         }
       ],
       "declare": false,
-      "start": 39,
-      "end": 65
+      "start": 42,
+      "end": 68
     }
   ],
   "sourceType": "script",
   "hashbang": null,
   "start": 0,
-  "end": 65
+  "end": 68
 }
 ```

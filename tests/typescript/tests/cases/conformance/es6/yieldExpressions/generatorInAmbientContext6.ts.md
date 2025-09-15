@@ -11,8 +11,8 @@ __ESTREE_TEST__:PASS:
         "name": "M",
         "optional": false,
         "typeAnnotation": null,
-        "start": 7,
-        "end": 8
+        "start": 10,
+        "end": 11
       },
       "body": {
         "type": "TSModuleBlock",
@@ -27,8 +27,8 @@ __ESTREE_TEST__:PASS:
                 "name": "generator",
                 "optional": false,
                 "typeAnnotation": null,
-                "start": 32,
-                "end": 41
+                "start": 35,
+                "end": 44
               },
               "generator": true,
               "async": false,
@@ -39,43 +39,43 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeAnnotation",
                 "typeAnnotation": {
                   "type": "TSAnyKeyword",
-                  "start": 45,
-                  "end": 48
+                  "start": 48,
+                  "end": 51
                 },
-                "start": 43,
-                "end": 48
+                "start": 46,
+                "end": 51
               },
               "body": {
                 "type": "BlockStatement",
                 "body": [],
-                "start": 49,
-                "end": 52
+                "start": 52,
+                "end": 55
               },
               "expression": false,
-              "start": 22,
-              "end": 52
+              "start": 25,
+              "end": 55
             },
             "specifiers": [],
             "source": null,
             "exportKind": "value",
             "attributes": [],
-            "start": 15,
-            "end": 52
+            "start": 18,
+            "end": 55
           }
         ],
-        "start": 9,
-        "end": 54
+        "start": 12,
+        "end": 57
       },
-      "kind": "module",
+      "kind": "namespace",
       "declare": false,
       "global": false,
       "start": 0,
-      "end": 54
+      "end": 57
     }
   ],
   "sourceType": "script",
   "hashbang": null,
   "start": 0,
-  "end": 54
+  "end": 57
 }
 ```

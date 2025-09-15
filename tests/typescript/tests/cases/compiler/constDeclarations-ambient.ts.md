@@ -154,8 +154,8 @@ __ESTREE_TEST__:PASS:
         "name": "M",
         "optional": false,
         "typeAnnotation": null,
-        "start": 120,
-        "end": 121
+        "start": 123,
+        "end": 124
       },
       "body": {
         "type": "TSModuleBlock",
@@ -172,18 +172,18 @@ __ESTREE_TEST__:PASS:
                   "name": "c6",
                   "optional": false,
                   "typeAnnotation": null,
-                  "start": 134,
-                  "end": 136
+                  "start": 137,
+                  "end": 139
                 },
                 "init": null,
                 "definite": false,
-                "start": 134,
-                "end": 136
+                "start": 137,
+                "end": 139
               }
             ],
             "declare": false,
-            "start": 128,
-            "end": 137
+            "start": 131,
+            "end": 140
           },
           {
             "type": "VariableDeclaration",
@@ -200,39 +200,39 @@ __ESTREE_TEST__:PASS:
                     "type": "TSTypeAnnotation",
                     "typeAnnotation": {
                       "type": "TSNumberKeyword",
-                      "start": 152,
-                      "end": 158
+                      "start": 155,
+                      "end": 161
                     },
-                    "start": 150,
-                    "end": 158
+                    "start": 153,
+                    "end": 161
                   },
-                  "start": 148,
-                  "end": 158
+                  "start": 151,
+                  "end": 161
                 },
                 "init": null,
                 "definite": false,
-                "start": 148,
-                "end": 158
+                "start": 151,
+                "end": 161
               }
             ],
             "declare": false,
-            "start": 142,
-            "end": 159
+            "start": 145,
+            "end": 162
           }
         ],
-        "start": 122,
-        "end": 161
+        "start": 125,
+        "end": 164
       },
-      "kind": "module",
+      "kind": "namespace",
       "declare": true,
       "global": false,
       "start": 105,
-      "end": 161
+      "end": 164
     }
   ],
   "sourceType": "script",
   "hashbang": null,
   "start": 12,
-  "end": 161
+  "end": 164
 }
 ```
