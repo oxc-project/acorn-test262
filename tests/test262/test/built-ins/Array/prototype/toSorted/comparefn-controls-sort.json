@@ -1,0 +1,1039 @@
+{
+  "type": "Program",
+  "body": [
+    {
+      "type": "FunctionDeclaration",
+      "id": {
+        "type": "Identifier",
+        "name": "numericCompare",
+        "start": 626,
+        "end": 640
+      },
+      "generator": false,
+      "async": false,
+      "params": [
+        {
+          "type": "Identifier",
+          "name": "a",
+          "start": 641,
+          "end": 642
+        },
+        {
+          "type": "Identifier",
+          "name": "b",
+          "start": 644,
+          "end": 645
+        }
+      ],
+      "body": {
+        "type": "BlockStatement",
+        "body": [
+          {
+            "type": "ReturnStatement",
+            "argument": {
+              "type": "BinaryExpression",
+              "left": {
+                "type": "Identifier",
+                "name": "a",
+                "start": 660,
+                "end": 661
+              },
+              "operator": "-",
+              "right": {
+                "type": "Identifier",
+                "name": "b",
+                "start": 664,
+                "end": 665
+              },
+              "start": 660,
+              "end": 665
+            },
+            "start": 653,
+            "end": 666
+          }
+        ],
+        "start": 647,
+        "end": 668
+      },
+      "expression": false,
+      "start": 617,
+      "end": 668
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "MemberExpression",
+          "object": {
+            "type": "Identifier",
+            "name": "assert",
+            "start": 670,
+            "end": 676
+          },
+          "property": {
+            "type": "Identifier",
+            "name": "compareArray",
+            "start": 677,
+            "end": 689
+          },
+          "optional": false,
+          "computed": false,
+          "start": 670,
+          "end": 689
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "callee": {
+              "type": "MemberExpression",
+              "object": {
+                "type": "ArrayExpression",
+                "elements": [
+                  {
+                    "type": "Literal",
+                    "value": 1,
+                    "raw": "1",
+                    "start": 691,
+                    "end": 692
+                  },
+                  {
+                    "type": "Literal",
+                    "value": 2,
+                    "raw": "2",
+                    "start": 694,
+                    "end": 695
+                  },
+                  {
+                    "type": "Literal",
+                    "value": 3,
+                    "raw": "3",
+                    "start": 697,
+                    "end": 698
+                  },
+                  {
+                    "type": "Literal",
+                    "value": 4,
+                    "raw": "4",
+                    "start": 700,
+                    "end": 701
+                  }
+                ],
+                "start": 690,
+                "end": 702
+              },
+              "property": {
+                "type": "Identifier",
+                "name": "toSorted",
+                "start": 703,
+                "end": 711
+              },
+              "optional": false,
+              "computed": false,
+              "start": 690,
+              "end": 711
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "name": "numericCompare",
+                "start": 712,
+                "end": 726
+              }
+            ],
+            "optional": false,
+            "start": 690,
+            "end": 727
+          },
+          {
+            "type": "ArrayExpression",
+            "elements": [
+              {
+                "type": "Literal",
+                "value": 1,
+                "raw": "1",
+                "start": 730,
+                "end": 731
+              },
+              {
+                "type": "Literal",
+                "value": 2,
+                "raw": "2",
+                "start": 733,
+                "end": 734
+              },
+              {
+                "type": "Literal",
+                "value": 3,
+                "raw": "3",
+                "start": 736,
+                "end": 737
+              },
+              {
+                "type": "Literal",
+                "value": 4,
+                "raw": "4",
+                "start": 739,
+                "end": 740
+              }
+            ],
+            "start": 729,
+            "end": 741
+          }
+        ],
+        "optional": false,
+        "start": 670,
+        "end": 742
+      },
+      "start": 670,
+      "end": 743
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "MemberExpression",
+          "object": {
+            "type": "Identifier",
+            "name": "assert",
+            "start": 744,
+            "end": 750
+          },
+          "property": {
+            "type": "Identifier",
+            "name": "compareArray",
+            "start": 751,
+            "end": 763
+          },
+          "optional": false,
+          "computed": false,
+          "start": 744,
+          "end": 763
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "callee": {
+              "type": "MemberExpression",
+              "object": {
+                "type": "ArrayExpression",
+                "elements": [
+                  {
+                    "type": "Literal",
+                    "value": 4,
+                    "raw": "4",
+                    "start": 765,
+                    "end": 766
+                  },
+                  {
+                    "type": "Literal",
+                    "value": 3,
+                    "raw": "3",
+                    "start": 768,
+                    "end": 769
+                  },
+                  {
+                    "type": "Literal",
+                    "value": 2,
+                    "raw": "2",
+                    "start": 771,
+                    "end": 772
+                  },
+                  {
+                    "type": "Literal",
+                    "value": 1,
+                    "raw": "1",
+                    "start": 774,
+                    "end": 775
+                  }
+                ],
+                "start": 764,
+                "end": 776
+              },
+              "property": {
+                "type": "Identifier",
+                "name": "toSorted",
+                "start": 777,
+                "end": 785
+              },
+              "optional": false,
+              "computed": false,
+              "start": 764,
+              "end": 785
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "name": "numericCompare",
+                "start": 786,
+                "end": 800
+              }
+            ],
+            "optional": false,
+            "start": 764,
+            "end": 801
+          },
+          {
+            "type": "ArrayExpression",
+            "elements": [
+              {
+                "type": "Literal",
+                "value": 1,
+                "raw": "1",
+                "start": 804,
+                "end": 805
+              },
+              {
+                "type": "Literal",
+                "value": 2,
+                "raw": "2",
+                "start": 807,
+                "end": 808
+              },
+              {
+                "type": "Literal",
+                "value": 3,
+                "raw": "3",
+                "start": 810,
+                "end": 811
+              },
+              {
+                "type": "Literal",
+                "value": 4,
+                "raw": "4",
+                "start": 813,
+                "end": 814
+              }
+            ],
+            "start": 803,
+            "end": 815
+          }
+        ],
+        "optional": false,
+        "start": 744,
+        "end": 816
+      },
+      "start": 744,
+      "end": 817
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "MemberExpression",
+          "object": {
+            "type": "Identifier",
+            "name": "assert",
+            "start": 818,
+            "end": 824
+          },
+          "property": {
+            "type": "Identifier",
+            "name": "compareArray",
+            "start": 825,
+            "end": 837
+          },
+          "optional": false,
+          "computed": false,
+          "start": 818,
+          "end": 837
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "callee": {
+              "type": "MemberExpression",
+              "object": {
+                "type": "ArrayExpression",
+                "elements": [
+                  {
+                    "type": "Literal",
+                    "value": 333,
+                    "raw": "333",
+                    "start": 844,
+                    "end": 847
+                  },
+                  {
+                    "type": "Literal",
+                    "value": 33,
+                    "raw": "33",
+                    "start": 849,
+                    "end": 851
+                  },
+                  {
+                    "type": "Literal",
+                    "value": 3,
+                    "raw": "3",
+                    "start": 853,
+                    "end": 854
+                  },
+                  {
+                    "type": "Literal",
+                    "value": 222,
+                    "raw": "222",
+                    "start": 856,
+                    "end": 859
+                  },
+                  {
+                    "type": "Literal",
+                    "value": 22,
+                    "raw": "22",
+                    "start": 861,
+                    "end": 863
+                  },
+                  {
+                    "type": "Literal",
+                    "value": 2,
+                    "raw": "2",
+                    "start": 865,
+                    "end": 866
+                  },
+                  {
+                    "type": "Literal",
+                    "value": 111,
+                    "raw": "111",
+                    "start": 868,
+                    "end": 871
+                  },
+                  {
+                    "type": "Literal",
+                    "value": 11,
+                    "raw": "11",
+                    "start": 873,
+                    "end": 875
+                  },
+                  {
+                    "type": "Literal",
+                    "value": 1,
+                    "raw": "1",
+                    "start": 877,
+                    "end": 878
+                  }
+                ],
+                "start": 843,
+                "end": 879
+              },
+              "property": {
+                "type": "Identifier",
+                "name": "toSorted",
+                "start": 880,
+                "end": 888
+              },
+              "optional": false,
+              "computed": false,
+              "start": 843,
+              "end": 888
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "name": "numericCompare",
+                "start": 889,
+                "end": 903
+              }
+            ],
+            "optional": false,
+            "start": 843,
+            "end": 904
+          },
+          {
+            "type": "ArrayExpression",
+            "elements": [
+              {
+                "type": "Literal",
+                "value": 1,
+                "raw": "1",
+                "start": 911,
+                "end": 912
+              },
+              {
+                "type": "Literal",
+                "value": 2,
+                "raw": "2",
+                "start": 914,
+                "end": 915
+              },
+              {
+                "type": "Literal",
+                "value": 3,
+                "raw": "3",
+                "start": 917,
+                "end": 918
+              },
+              {
+                "type": "Literal",
+                "value": 11,
+                "raw": "11",
+                "start": 920,
+                "end": 922
+              },
+              {
+                "type": "Literal",
+                "value": 22,
+                "raw": "22",
+                "start": 924,
+                "end": 926
+              },
+              {
+                "type": "Literal",
+                "value": 33,
+                "raw": "33",
+                "start": 928,
+                "end": 930
+              },
+              {
+                "type": "Literal",
+                "value": 111,
+                "raw": "111",
+                "start": 932,
+                "end": 935
+              },
+              {
+                "type": "Literal",
+                "value": 222,
+                "raw": "222",
+                "start": 937,
+                "end": 940
+              },
+              {
+                "type": "Literal",
+                "value": 333,
+                "raw": "333",
+                "start": 942,
+                "end": 945
+              }
+            ],
+            "start": 910,
+            "end": 946
+          }
+        ],
+        "optional": false,
+        "start": 818,
+        "end": 947
+      },
+      "start": 818,
+      "end": 948
+    },
+    {
+      "type": "FunctionDeclaration",
+      "id": {
+        "type": "Identifier",
+        "name": "reverseNumericCompare",
+        "start": 959,
+        "end": 980
+      },
+      "generator": false,
+      "async": false,
+      "params": [
+        {
+          "type": "Identifier",
+          "name": "a",
+          "start": 981,
+          "end": 982
+        },
+        {
+          "type": "Identifier",
+          "name": "b",
+          "start": 984,
+          "end": 985
+        }
+      ],
+      "body": {
+        "type": "BlockStatement",
+        "body": [
+          {
+            "type": "ReturnStatement",
+            "argument": {
+              "type": "BinaryExpression",
+              "left": {
+                "type": "Identifier",
+                "name": "b",
+                "start": 1000,
+                "end": 1001
+              },
+              "operator": "-",
+              "right": {
+                "type": "Identifier",
+                "name": "a",
+                "start": 1004,
+                "end": 1005
+              },
+              "start": 1000,
+              "end": 1005
+            },
+            "start": 993,
+            "end": 1006
+          }
+        ],
+        "start": 987,
+        "end": 1008
+      },
+      "expression": false,
+      "start": 950,
+      "end": 1008
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "MemberExpression",
+          "object": {
+            "type": "Identifier",
+            "name": "assert",
+            "start": 1010,
+            "end": 1016
+          },
+          "property": {
+            "type": "Identifier",
+            "name": "compareArray",
+            "start": 1017,
+            "end": 1029
+          },
+          "optional": false,
+          "computed": false,
+          "start": 1010,
+          "end": 1029
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "callee": {
+              "type": "MemberExpression",
+              "object": {
+                "type": "ArrayExpression",
+                "elements": [
+                  {
+                    "type": "Literal",
+                    "value": 1,
+                    "raw": "1",
+                    "start": 1031,
+                    "end": 1032
+                  },
+                  {
+                    "type": "Literal",
+                    "value": 2,
+                    "raw": "2",
+                    "start": 1034,
+                    "end": 1035
+                  },
+                  {
+                    "type": "Literal",
+                    "value": 3,
+                    "raw": "3",
+                    "start": 1037,
+                    "end": 1038
+                  },
+                  {
+                    "type": "Literal",
+                    "value": 4,
+                    "raw": "4",
+                    "start": 1040,
+                    "end": 1041
+                  }
+                ],
+                "start": 1030,
+                "end": 1042
+              },
+              "property": {
+                "type": "Identifier",
+                "name": "toSorted",
+                "start": 1043,
+                "end": 1051
+              },
+              "optional": false,
+              "computed": false,
+              "start": 1030,
+              "end": 1051
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "name": "reverseNumericCompare",
+                "start": 1052,
+                "end": 1073
+              }
+            ],
+            "optional": false,
+            "start": 1030,
+            "end": 1074
+          },
+          {
+            "type": "ArrayExpression",
+            "elements": [
+              {
+                "type": "Literal",
+                "value": 4,
+                "raw": "4",
+                "start": 1077,
+                "end": 1078
+              },
+              {
+                "type": "Literal",
+                "value": 3,
+                "raw": "3",
+                "start": 1080,
+                "end": 1081
+              },
+              {
+                "type": "Literal",
+                "value": 2,
+                "raw": "2",
+                "start": 1083,
+                "end": 1084
+              },
+              {
+                "type": "Literal",
+                "value": 1,
+                "raw": "1",
+                "start": 1086,
+                "end": 1087
+              }
+            ],
+            "start": 1076,
+            "end": 1088
+          }
+        ],
+        "optional": false,
+        "start": 1010,
+        "end": 1089
+      },
+      "start": 1010,
+      "end": 1090
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "MemberExpression",
+          "object": {
+            "type": "Identifier",
+            "name": "assert",
+            "start": 1091,
+            "end": 1097
+          },
+          "property": {
+            "type": "Identifier",
+            "name": "compareArray",
+            "start": 1098,
+            "end": 1110
+          },
+          "optional": false,
+          "computed": false,
+          "start": 1091,
+          "end": 1110
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "callee": {
+              "type": "MemberExpression",
+              "object": {
+                "type": "ArrayExpression",
+                "elements": [
+                  {
+                    "type": "Literal",
+                    "value": 4,
+                    "raw": "4",
+                    "start": 1112,
+                    "end": 1113
+                  },
+                  {
+                    "type": "Literal",
+                    "value": 3,
+                    "raw": "3",
+                    "start": 1115,
+                    "end": 1116
+                  },
+                  {
+                    "type": "Literal",
+                    "value": 2,
+                    "raw": "2",
+                    "start": 1118,
+                    "end": 1119
+                  },
+                  {
+                    "type": "Literal",
+                    "value": 1,
+                    "raw": "1",
+                    "start": 1121,
+                    "end": 1122
+                  }
+                ],
+                "start": 1111,
+                "end": 1123
+              },
+              "property": {
+                "type": "Identifier",
+                "name": "toSorted",
+                "start": 1124,
+                "end": 1132
+              },
+              "optional": false,
+              "computed": false,
+              "start": 1111,
+              "end": 1132
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "name": "reverseNumericCompare",
+                "start": 1133,
+                "end": 1154
+              }
+            ],
+            "optional": false,
+            "start": 1111,
+            "end": 1155
+          },
+          {
+            "type": "ArrayExpression",
+            "elements": [
+              {
+                "type": "Literal",
+                "value": 4,
+                "raw": "4",
+                "start": 1158,
+                "end": 1159
+              },
+              {
+                "type": "Literal",
+                "value": 3,
+                "raw": "3",
+                "start": 1161,
+                "end": 1162
+              },
+              {
+                "type": "Literal",
+                "value": 2,
+                "raw": "2",
+                "start": 1164,
+                "end": 1165
+              },
+              {
+                "type": "Literal",
+                "value": 1,
+                "raw": "1",
+                "start": 1167,
+                "end": 1168
+              }
+            ],
+            "start": 1157,
+            "end": 1169
+          }
+        ],
+        "optional": false,
+        "start": 1091,
+        "end": 1170
+      },
+      "start": 1091,
+      "end": 1171
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "MemberExpression",
+          "object": {
+            "type": "Identifier",
+            "name": "assert",
+            "start": 1172,
+            "end": 1178
+          },
+          "property": {
+            "type": "Identifier",
+            "name": "compareArray",
+            "start": 1179,
+            "end": 1191
+          },
+          "optional": false,
+          "computed": false,
+          "start": 1172,
+          "end": 1191
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "callee": {
+              "type": "MemberExpression",
+              "object": {
+                "type": "ArrayExpression",
+                "elements": [
+                  {
+                    "type": "Literal",
+                    "value": 333,
+                    "raw": "333",
+                    "start": 1198,
+                    "end": 1201
+                  },
+                  {
+                    "type": "Literal",
+                    "value": 33,
+                    "raw": "33",
+                    "start": 1203,
+                    "end": 1205
+                  },
+                  {
+                    "type": "Literal",
+                    "value": 3,
+                    "raw": "3",
+                    "start": 1207,
+                    "end": 1208
+                  },
+                  {
+                    "type": "Literal",
+                    "value": 222,
+                    "raw": "222",
+                    "start": 1210,
+                    "end": 1213
+                  },
+                  {
+                    "type": "Literal",
+                    "value": 22,
+                    "raw": "22",
+                    "start": 1215,
+                    "end": 1217
+                  },
+                  {
+                    "type": "Literal",
+                    "value": 2,
+                    "raw": "2",
+                    "start": 1219,
+                    "end": 1220
+                  },
+                  {
+                    "type": "Literal",
+                    "value": 111,
+                    "raw": "111",
+                    "start": 1222,
+                    "end": 1225
+                  },
+                  {
+                    "type": "Literal",
+                    "value": 11,
+                    "raw": "11",
+                    "start": 1227,
+                    "end": 1229
+                  },
+                  {
+                    "type": "Literal",
+                    "value": 1,
+                    "raw": "1",
+                    "start": 1231,
+                    "end": 1232
+                  }
+                ],
+                "start": 1197,
+                "end": 1233
+              },
+              "property": {
+                "type": "Identifier",
+                "name": "toSorted",
+                "start": 1234,
+                "end": 1242
+              },
+              "optional": false,
+              "computed": false,
+              "start": 1197,
+              "end": 1242
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "name": "reverseNumericCompare",
+                "start": 1243,
+                "end": 1264
+              }
+            ],
+            "optional": false,
+            "start": 1197,
+            "end": 1265
+          },
+          {
+            "type": "ArrayExpression",
+            "elements": [
+              {
+                "type": "Literal",
+                "value": 333,
+                "raw": "333",
+                "start": 1272,
+                "end": 1275
+              },
+              {
+                "type": "Literal",
+                "value": 222,
+                "raw": "222",
+                "start": 1277,
+                "end": 1280
+              },
+              {
+                "type": "Literal",
+                "value": 111,
+                "raw": "111",
+                "start": 1282,
+                "end": 1285
+              },
+              {
+                "type": "Literal",
+                "value": 33,
+                "raw": "33",
+                "start": 1287,
+                "end": 1289
+              },
+              {
+                "type": "Literal",
+                "value": 22,
+                "raw": "22",
+                "start": 1291,
+                "end": 1293
+              },
+              {
+                "type": "Literal",
+                "value": 11,
+                "raw": "11",
+                "start": 1295,
+                "end": 1297
+              },
+              {
+                "type": "Literal",
+                "value": 3,
+                "raw": "3",
+                "start": 1299,
+                "end": 1300
+              },
+              {
+                "type": "Literal",
+                "value": 2,
+                "raw": "2",
+                "start": 1302,
+                "end": 1303
+              },
+              {
+                "type": "Literal",
+                "value": 1,
+                "raw": "1",
+                "start": 1305,
+                "end": 1306
+              }
+            ],
+            "start": 1271,
+            "end": 1307
+          }
+        ],
+        "optional": false,
+        "start": 1172,
+        "end": 1308
+      },
+      "start": 1172,
+      "end": 1309
+    }
+  ],
+  "sourceType": "script",
+  "hashbang": null,
+  "start": 0,
+  "end": 1310
+}
