@@ -1,0 +1,143 @@
+{
+  "type": "Program",
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "kind": "var",
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "id": {
+            "type": "Identifier",
+            "name": "locales",
+            "start": 508,
+            "end": 515
+          },
+          "init": {
+            "type": "ArrayExpression",
+            "elements": [
+              {
+                "type": "Literal",
+                "value": "en-US",
+                "raw": "\"en-US\"",
+                "start": 522,
+                "end": 529
+              },
+              {
+                "type": "Literal",
+                "value": "this is not a valid locale",
+                "raw": "\"this is not a valid locale\"",
+                "start": 533,
+                "end": 561
+              }
+            ],
+            "start": 518,
+            "end": 564
+          },
+          "start": 508,
+          "end": 564
+        }
+      ],
+      "start": 504,
+      "end": 565
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "MemberExpression",
+          "object": {
+            "type": "Identifier",
+            "name": "assert",
+            "start": 567,
+            "end": 573
+          },
+          "property": {
+            "type": "Identifier",
+            "name": "throws",
+            "start": 574,
+            "end": 580
+          },
+          "optional": false,
+          "computed": false,
+          "start": 567,
+          "end": 580
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "name": "RangeError",
+            "start": 581,
+            "end": 591
+          },
+          {
+            "type": "FunctionExpression",
+            "id": null,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "expression": {
+                    "type": "CallExpression",
+                    "callee": {
+                      "type": "MemberExpression",
+                      "object": {
+                        "type": "Literal",
+                        "value": "",
+                        "raw": "\"\"",
+                        "start": 608,
+                        "end": 610
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "name": "toLocaleLowerCase",
+                        "start": 611,
+                        "end": 628
+                      },
+                      "optional": false,
+                      "computed": false,
+                      "start": 608,
+                      "end": 628
+                    },
+                    "arguments": [
+                      {
+                        "type": "Identifier",
+                        "name": "locales",
+                        "start": 629,
+                        "end": 636
+                      }
+                    ],
+                    "optional": false,
+                    "start": 608,
+                    "end": 637
+                  },
+                  "start": 608,
+                  "end": 638
+                }
+              ],
+              "start": 604,
+              "end": 640
+            },
+            "expression": false,
+            "start": 593,
+            "end": 640
+          }
+        ],
+        "optional": false,
+        "start": 567,
+        "end": 641
+      },
+      "start": 567,
+      "end": 642
+    }
+  ],
+  "sourceType": "script",
+  "hashbang": null,
+  "start": 0,
+  "end": 643
+}
