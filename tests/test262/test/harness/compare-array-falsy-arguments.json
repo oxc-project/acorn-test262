@@ -358,18 +358,18 @@
           },
           {
             "type": "Literal",
-            "value": "Actual argument shouldn't be nullish. ",
-            "raw": "\"Actual argument shouldn't be nullish. \"",
+            "value": "Actual argument [undefined] shouldn't be primitive. ",
+            "raw": "\"Actual argument [undefined] shouldn't be primitive. \"",
             "start": 612,
-            "end": 652
+            "end": 666
           }
         ],
         "optional": false,
         "start": 570,
-        "end": 653
+        "end": 667
       },
       "start": 570,
-      "end": 654
+      "end": 668
     },
     {
       "type": "ExpressionStatement",
@@ -378,8 +378,8 @@
         "callee": {
           "type": "Identifier",
           "name": "assertThrows",
-          "start": 655,
-          "end": 667
+          "start": 669,
+          "end": 681
         },
         "arguments": [
           {
@@ -394,58 +394,58 @@
                 "object": {
                   "type": "Identifier",
                   "name": "assert",
-                  "start": 674,
-                  "end": 680
+                  "start": 688,
+                  "end": 694
                 },
                 "property": {
                   "type": "Identifier",
                   "name": "compareArray",
-                  "start": 681,
-                  "end": 693
+                  "start": 695,
+                  "end": 707
                 },
                 "optional": false,
                 "computed": false,
-                "start": 674,
-                "end": 693
+                "start": 688,
+                "end": 707
               },
               "arguments": [
                 {
                   "type": "Literal",
                   "value": null,
                   "raw": "null",
-                  "start": 694,
-                  "end": 698
+                  "start": 708,
+                  "end": 712
                 },
                 {
                   "type": "ArrayExpression",
                   "elements": [],
-                  "start": 700,
-                  "end": 702
+                  "start": 714,
+                  "end": 716
                 }
               ],
               "optional": false,
-              "start": 674,
-              "end": 703
+              "start": 688,
+              "end": 717
             },
             "id": null,
             "generator": false,
-            "start": 668,
-            "end": 703
+            "start": 682,
+            "end": 717
           },
           {
             "type": "Literal",
-            "value": "Actual argument shouldn't be nullish. ",
-            "raw": "\"Actual argument shouldn't be nullish. \"",
-            "start": 705,
-            "end": 745
+            "value": "Actual argument [null] shouldn't be primitive. ",
+            "raw": "\"Actual argument [null] shouldn't be primitive. \"",
+            "start": 719,
+            "end": 768
           }
         ],
         "optional": false,
-        "start": 655,
-        "end": 746
+        "start": 669,
+        "end": 769
       },
-      "start": 655,
-      "end": 747
+      "start": 669,
+      "end": 770
     },
     {
       "type": "ExpressionStatement",
@@ -454,8 +454,8 @@
         "callee": {
           "type": "Identifier",
           "name": "assertThrows",
-          "start": 748,
-          "end": 760
+          "start": 771,
+          "end": 783
         },
         "arguments": [
           {
@@ -470,65 +470,65 @@
                 "object": {
                   "type": "Identifier",
                   "name": "assert",
-                  "start": 767,
-                  "end": 773
+                  "start": 790,
+                  "end": 796
                 },
                 "property": {
                   "type": "Identifier",
                   "name": "compareArray",
-                  "start": 774,
-                  "end": 786
+                  "start": 797,
+                  "end": 809
                 },
                 "optional": false,
                 "computed": false,
-                "start": 767,
-                "end": 786
+                "start": 790,
+                "end": 809
               },
               "arguments": [
                 {
                   "type": "Literal",
                   "value": null,
                   "raw": "null",
-                  "start": 787,
-                  "end": 791
+                  "start": 810,
+                  "end": 814
                 },
                 {
                   "type": "ArrayExpression",
                   "elements": [],
-                  "start": 793,
-                  "end": 795
+                  "start": 816,
+                  "end": 818
                 },
                 {
                   "type": "Literal",
                   "value": "foo",
                   "raw": "\"foo\"",
-                  "start": 797,
-                  "end": 802
+                  "start": 820,
+                  "end": 825
                 }
               ],
               "optional": false,
-              "start": 767,
-              "end": 803
+              "start": 790,
+              "end": 826
             },
             "id": null,
             "generator": false,
-            "start": 761,
-            "end": 803
+            "start": 784,
+            "end": 826
           },
           {
             "type": "Literal",
-            "value": "Actual argument shouldn't be nullish. foo",
-            "raw": "\"Actual argument shouldn't be nullish. foo\"",
-            "start": 805,
-            "end": 848
+            "value": "Actual argument [null] shouldn't be primitive. foo",
+            "raw": "\"Actual argument [null] shouldn't be primitive. foo\"",
+            "start": 828,
+            "end": 880
           }
         ],
         "optional": false,
-        "start": 748,
-        "end": 849
+        "start": 771,
+        "end": 881
       },
-      "start": 748,
-      "end": 850
+      "start": 771,
+      "end": 882
     },
     {
       "type": "ExpressionStatement",
@@ -537,8 +537,8 @@
         "callee": {
           "type": "Identifier",
           "name": "assertThrows",
-          "start": 852,
-          "end": 864
+          "start": 884,
+          "end": 896
         },
         "arguments": [
           {
@@ -553,51 +553,51 @@
                 "object": {
                   "type": "Identifier",
                   "name": "assert",
-                  "start": 871,
-                  "end": 877
+                  "start": 903,
+                  "end": 909
                 },
                 "property": {
                   "type": "Identifier",
                   "name": "compareArray",
-                  "start": 878,
-                  "end": 890
+                  "start": 910,
+                  "end": 922
                 },
                 "optional": false,
                 "computed": false,
-                "start": 871,
-                "end": 890
+                "start": 903,
+                "end": 922
               },
               "arguments": [
                 {
                   "type": "ArrayExpression",
                   "elements": [],
-                  "start": 891,
-                  "end": 893
+                  "start": 923,
+                  "end": 925
                 }
               ],
               "optional": false,
-              "start": 871,
-              "end": 894
+              "start": 903,
+              "end": 926
             },
             "id": null,
             "generator": false,
-            "start": 865,
-            "end": 894
+            "start": 897,
+            "end": 926
           },
           {
             "type": "Literal",
-            "value": "Expected argument shouldn't be nullish. ",
-            "raw": "\"Expected argument shouldn't be nullish. \"",
-            "start": 896,
-            "end": 938
+            "value": "Expected argument [undefined] shouldn't be primitive. ",
+            "raw": "\"Expected argument [undefined] shouldn't be primitive. \"",
+            "start": 928,
+            "end": 984
           }
         ],
         "optional": false,
-        "start": 852,
-        "end": 939
+        "start": 884,
+        "end": 985
       },
-      "start": 852,
-      "end": 940
+      "start": 884,
+      "end": 986
     },
     {
       "type": "ExpressionStatement",
@@ -606,8 +606,8 @@
         "callee": {
           "type": "Identifier",
           "name": "assertThrows",
-          "start": 941,
-          "end": 953
+          "start": 987,
+          "end": 999
         },
         "arguments": [
           {
@@ -622,68 +622,68 @@
                 "object": {
                   "type": "Identifier",
                   "name": "assert",
-                  "start": 960,
-                  "end": 966
+                  "start": 1006,
+                  "end": 1012
                 },
                 "property": {
                   "type": "Identifier",
                   "name": "compareArray",
-                  "start": 967,
-                  "end": 979
+                  "start": 1013,
+                  "end": 1025
                 },
                 "optional": false,
                 "computed": false,
-                "start": 960,
-                "end": 979
+                "start": 1006,
+                "end": 1025
               },
               "arguments": [
                 {
                   "type": "ArrayExpression",
                   "elements": [],
-                  "start": 980,
-                  "end": 982
+                  "start": 1026,
+                  "end": 1028
                 },
                 {
                   "type": "Identifier",
                   "name": "undefined",
-                  "start": 984,
-                  "end": 993
+                  "start": 1030,
+                  "end": 1039
                 },
                 {
                   "type": "Literal",
                   "value": "foo",
                   "raw": "\"foo\"",
-                  "start": 995,
-                  "end": 1000
+                  "start": 1041,
+                  "end": 1046
                 }
               ],
               "optional": false,
-              "start": 960,
-              "end": 1001
+              "start": 1006,
+              "end": 1047
             },
             "id": null,
             "generator": false,
-            "start": 954,
-            "end": 1001
+            "start": 1000,
+            "end": 1047
           },
           {
             "type": "Literal",
-            "value": "Expected argument shouldn't be nullish. foo",
-            "raw": "\"Expected argument shouldn't be nullish. foo\"",
-            "start": 1003,
-            "end": 1048
+            "value": "Expected argument [undefined] shouldn't be primitive. foo",
+            "raw": "\"Expected argument [undefined] shouldn't be primitive. foo\"",
+            "start": 1049,
+            "end": 1108
           }
         ],
         "optional": false,
-        "start": 941,
-        "end": 1049
+        "start": 987,
+        "end": 1109
       },
-      "start": 941,
-      "end": 1050
+      "start": 987,
+      "end": 1110
     }
   ],
   "sourceType": "script",
   "hashbang": null,
   "start": 0,
-  "end": 1051
+  "end": 1111
 }
