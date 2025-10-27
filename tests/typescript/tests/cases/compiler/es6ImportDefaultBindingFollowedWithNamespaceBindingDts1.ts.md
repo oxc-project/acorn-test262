@@ -91,16 +91,16 @@ __ESTREE_TEST__:PASS:
       ],
       "source": {
         "type": "Literal",
-        "value": "server",
-        "raw": "\"server\"",
+        "value": "./server",
+        "raw": "\"./server\"",
         "start": 50,
-        "end": 58
+        "end": 60
       },
       "phase": null,
       "attributes": [],
       "importKind": "value",
       "start": 0,
-      "end": 59
+      "end": 61
     },
     {
       "type": "ExportNamedDeclaration",
@@ -116,8 +116,8 @@ __ESTREE_TEST__:PASS:
               "name": "x",
               "optional": false,
               "typeAnnotation": null,
-              "start": 71,
-              "end": 72
+              "start": 73,
+              "end": 74
             },
             "init": {
               "type": "NewExpression",
@@ -127,34 +127,34 @@ __ESTREE_TEST__:PASS:
                 "name": "defaultBinding",
                 "optional": false,
                 "typeAnnotation": null,
-                "start": 79,
-                "end": 93
+                "start": 81,
+                "end": 95
               },
               "typeArguments": null,
               "arguments": [],
-              "start": 75,
-              "end": 95
+              "start": 77,
+              "end": 97
             },
             "definite": false,
-            "start": 71,
-            "end": 95
+            "start": 73,
+            "end": 97
           }
         ],
         "declare": false,
-        "start": 67,
-        "end": 96
+        "start": 69,
+        "end": 98
       },
       "specifiers": [],
       "source": null,
       "exportKind": "value",
       "attributes": [],
-      "start": 60,
-      "end": 96
+      "start": 62,
+      "end": 98
     }
   ],
   "sourceType": "module",
   "hashbang": null,
   "start": 0,
-  "end": 96
+  "end": 98
 }
 ```

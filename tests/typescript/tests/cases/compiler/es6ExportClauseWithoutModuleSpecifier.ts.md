@@ -259,15 +259,15 @@ __ESTREE_TEST__:PASS:
       ],
       "source": {
         "type": "Literal",
-        "value": "server",
-        "raw": "\"server\"",
+        "value": "./server",
+        "raw": "\"./server\"",
         "start": 18,
-        "end": 26
+        "end": 28
       },
       "exportKind": "value",
       "attributes": [],
       "start": 0,
-      "end": 27
+      "end": 29
     },
     {
       "type": "ExportNamedDeclaration",
@@ -281,8 +281,8 @@ __ESTREE_TEST__:PASS:
             "name": "c",
             "optional": false,
             "typeAnnotation": null,
-            "start": 37,
-            "end": 38
+            "start": 39,
+            "end": 40
           },
           "exported": {
             "type": "Identifier",
@@ -290,25 +290,25 @@ __ESTREE_TEST__:PASS:
             "name": "c2",
             "optional": false,
             "typeAnnotation": null,
-            "start": 42,
-            "end": 44
+            "start": 44,
+            "end": 46
           },
           "exportKind": "value",
-          "start": 37,
-          "end": 44
+          "start": 39,
+          "end": 46
         }
       ],
       "source": {
         "type": "Literal",
-        "value": "server",
-        "raw": "\"server\"",
-        "start": 52,
-        "end": 60
+        "value": "./server",
+        "raw": "\"./server\"",
+        "start": 54,
+        "end": 64
       },
       "exportKind": "value",
       "attributes": [],
-      "start": 28,
-      "end": 61
+      "start": 30,
+      "end": 65
     },
     {
       "type": "ExportNamedDeclaration",
@@ -322,8 +322,8 @@ __ESTREE_TEST__:PASS:
             "name": "i",
             "optional": false,
             "typeAnnotation": null,
-            "start": 71,
-            "end": 72
+            "start": 75,
+            "end": 76
           },
           "exported": {
             "type": "Identifier",
@@ -331,12 +331,12 @@ __ESTREE_TEST__:PASS:
             "name": "i",
             "optional": false,
             "typeAnnotation": null,
-            "start": 71,
-            "end": 72
+            "start": 75,
+            "end": 76
           },
           "exportKind": "value",
-          "start": 71,
-          "end": 72
+          "start": 75,
+          "end": 76
         },
         {
           "type": "ExportSpecifier",
@@ -346,8 +346,8 @@ __ESTREE_TEST__:PASS:
             "name": "m",
             "optional": false,
             "typeAnnotation": null,
-            "start": 74,
-            "end": 75
+            "start": 78,
+            "end": 79
           },
           "exported": {
             "type": "Identifier",
@@ -355,25 +355,25 @@ __ESTREE_TEST__:PASS:
             "name": "instantiatedModule",
             "optional": false,
             "typeAnnotation": null,
-            "start": 79,
-            "end": 97
+            "start": 83,
+            "end": 101
           },
           "exportKind": "value",
-          "start": 74,
-          "end": 97
+          "start": 78,
+          "end": 101
         }
       ],
       "source": {
         "type": "Literal",
-        "value": "server",
-        "raw": "\"server\"",
-        "start": 105,
-        "end": 113
+        "value": "./server",
+        "raw": "\"./server\"",
+        "start": 109,
+        "end": 119
       },
       "exportKind": "value",
       "attributes": [],
-      "start": 62,
-      "end": 114
+      "start": 66,
+      "end": 120
     },
     {
       "type": "ExportNamedDeclaration",
@@ -387,8 +387,8 @@ __ESTREE_TEST__:PASS:
             "name": "uninstantiated",
             "optional": false,
             "typeAnnotation": null,
-            "start": 124,
-            "end": 138
+            "start": 130,
+            "end": 144
           },
           "exported": {
             "type": "Identifier",
@@ -396,25 +396,25 @@ __ESTREE_TEST__:PASS:
             "name": "uninstantiated",
             "optional": false,
             "typeAnnotation": null,
-            "start": 124,
-            "end": 138
+            "start": 130,
+            "end": 144
           },
           "exportKind": "value",
-          "start": 124,
-          "end": 138
+          "start": 130,
+          "end": 144
         }
       ],
       "source": {
         "type": "Literal",
-        "value": "server",
-        "raw": "\"server\"",
-        "start": 146,
-        "end": 154
+        "value": "./server",
+        "raw": "\"./server\"",
+        "start": 152,
+        "end": 162
       },
       "exportKind": "value",
       "attributes": [],
-      "start": 115,
-      "end": 155
+      "start": 121,
+      "end": 163
     },
     {
       "type": "ExportNamedDeclaration",
@@ -428,8 +428,8 @@ __ESTREE_TEST__:PASS:
             "name": "x",
             "optional": false,
             "typeAnnotation": null,
-            "start": 165,
-            "end": 166
+            "start": 173,
+            "end": 174
           },
           "exported": {
             "type": "Identifier",
@@ -437,30 +437,30 @@ __ESTREE_TEST__:PASS:
             "name": "x",
             "optional": false,
             "typeAnnotation": null,
-            "start": 165,
-            "end": 166
+            "start": 173,
+            "end": 174
           },
           "exportKind": "value",
-          "start": 165,
-          "end": 166
+          "start": 173,
+          "end": 174
         }
       ],
       "source": {
         "type": "Literal",
-        "value": "server",
-        "raw": "\"server\"",
-        "start": 174,
-        "end": 182
+        "value": "./server",
+        "raw": "\"./server\"",
+        "start": 182,
+        "end": 192
       },
       "exportKind": "value",
       "attributes": [],
-      "start": 156,
-      "end": 183
+      "start": 164,
+      "end": 193
     }
   ],
   "sourceType": "module",
   "hashbang": null,
   "start": 0,
-  "end": 183
+  "end": 193
 }
 ```

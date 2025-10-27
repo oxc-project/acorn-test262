@@ -81,16 +81,16 @@ __ESTREE_TEST__:PASS:
       ],
       "source": {
         "type": "Literal",
-        "value": "es6ImportDefaultBinding_0",
-        "raw": "\"es6ImportDefaultBinding_0\"",
+        "value": "./es6ImportDefaultBinding_0",
+        "raw": "\"./es6ImportDefaultBinding_0\"",
         "start": 27,
-        "end": 54
+        "end": 56
       },
       "phase": null,
       "attributes": [],
       "importKind": "value",
       "start": 0,
-      "end": 55
+      "end": 57
     },
     {
       "type": "VariableDeclaration",
@@ -104,8 +104,8 @@ __ESTREE_TEST__:PASS:
             "name": "x",
             "optional": false,
             "typeAnnotation": null,
-            "start": 60,
-            "end": 61
+            "start": 62,
+            "end": 63
           },
           "init": {
             "type": "Identifier",
@@ -113,17 +113,17 @@ __ESTREE_TEST__:PASS:
             "name": "defaultBinding",
             "optional": false,
             "typeAnnotation": null,
-            "start": 64,
-            "end": 78
+            "start": 66,
+            "end": 80
           },
           "definite": false,
-          "start": 60,
-          "end": 78
+          "start": 62,
+          "end": 80
         }
       ],
       "declare": false,
-      "start": 56,
-      "end": 79
+      "start": 58,
+      "end": 81
     },
     {
       "type": "ImportDeclaration",
@@ -136,30 +136,30 @@ __ESTREE_TEST__:PASS:
             "name": "defaultBinding2",
             "optional": false,
             "typeAnnotation": null,
-            "start": 87,
-            "end": 102
+            "start": 89,
+            "end": 104
           },
-          "start": 87,
-          "end": 102
+          "start": 89,
+          "end": 104
         }
       ],
       "source": {
         "type": "Literal",
-        "value": "es6ImportDefaultBinding_0",
-        "raw": "\"es6ImportDefaultBinding_0\"",
-        "start": 108,
-        "end": 135
+        "value": "./es6ImportDefaultBinding_0",
+        "raw": "\"./es6ImportDefaultBinding_0\"",
+        "start": 110,
+        "end": 139
       },
       "phase": null,
       "attributes": [],
       "importKind": "value",
-      "start": 80,
-      "end": 136
+      "start": 82,
+      "end": 140
     }
   ],
   "sourceType": "module",
   "hashbang": null,
   "start": 0,
-  "end": 191
+  "end": 195
 }
 ```

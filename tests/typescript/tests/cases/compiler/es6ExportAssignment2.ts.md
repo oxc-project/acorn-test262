@@ -80,21 +80,21 @@ __ESTREE_TEST__:PASS:
       ],
       "source": {
         "type": "Literal",
-        "value": "a",
-        "raw": "\"a\"",
+        "value": "./a",
+        "raw": "\"./a\"",
         "start": 19,
-        "end": 22
+        "end": 24
       },
       "phase": null,
       "attributes": [],
       "importKind": "value",
       "start": 0,
-      "end": 23
+      "end": 25
     }
   ],
   "sourceType": "module",
   "hashbang": null,
   "start": 0,
-  "end": 23
+  "end": 25
 }
 ```

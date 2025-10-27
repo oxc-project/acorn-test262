@@ -81,16 +81,16 @@ __ESTREE_TEST__:PASS:
       ],
       "source": {
         "type": "Literal",
-        "value": "server",
-        "raw": "\"server\"",
+        "value": "./server",
+        "raw": "\"./server\"",
         "start": 34,
-        "end": 42
+        "end": 44
       },
       "phase": null,
       "attributes": [],
       "importKind": "value",
       "start": 0,
-      "end": 43
+      "end": 45
     },
     {
       "type": "ExportNamedDeclaration",
@@ -106,8 +106,8 @@ __ESTREE_TEST__:PASS:
               "name": "x",
               "optional": false,
               "typeAnnotation": null,
-              "start": 55,
-              "end": 56
+              "start": 57,
+              "end": 58
             },
             "init": {
               "type": "Identifier",
@@ -115,24 +115,24 @@ __ESTREE_TEST__:PASS:
               "name": "defaultBinding",
               "optional": false,
               "typeAnnotation": null,
-              "start": 59,
-              "end": 73
+              "start": 61,
+              "end": 75
             },
             "definite": false,
-            "start": 55,
-            "end": 73
+            "start": 57,
+            "end": 75
           }
         ],
         "declare": false,
-        "start": 51,
-        "end": 74
+        "start": 53,
+        "end": 76
       },
       "specifiers": [],
       "source": null,
       "exportKind": "value",
       "attributes": [],
-      "start": 44,
-      "end": 74
+      "start": 46,
+      "end": 76
     },
     {
       "type": "ImportDeclaration",
@@ -145,30 +145,30 @@ __ESTREE_TEST__:PASS:
             "name": "defaultBinding2",
             "optional": false,
             "typeAnnotation": null,
-            "start": 89,
-            "end": 104
+            "start": 91,
+            "end": 106
           },
-          "start": 89,
-          "end": 104
+          "start": 91,
+          "end": 106
         }
       ],
       "source": {
         "type": "Literal",
-        "value": "server",
-        "raw": "\"server\"",
-        "start": 110,
-        "end": 118
+        "value": "./server",
+        "raw": "\"./server\"",
+        "start": 112,
+        "end": 122
       },
       "phase": null,
       "attributes": [],
       "importKind": "value",
-      "start": 75,
-      "end": 119
+      "start": 77,
+      "end": 123
     }
   ],
   "sourceType": "module",
   "hashbang": null,
   "start": 0,
-  "end": 137
+  "end": 141
 }
 ```

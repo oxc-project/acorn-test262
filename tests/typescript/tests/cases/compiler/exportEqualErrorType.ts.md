@@ -375,17 +375,17 @@ __ESTREE_TEST__:PASS:
         "type": "TSExternalModuleReference",
         "expression": {
           "type": "Literal",
-          "value": "exportEqualErrorType_0",
-          "raw": "'exportEqualErrorType_0'",
+          "value": "./exportEqualErrorType_0",
+          "raw": "'./exportEqualErrorType_0'",
           "start": 74,
-          "end": 98
+          "end": 100
         },
         "start": 66,
-        "end": 99
+        "end": 101
       },
       "importKind": "value",
       "start": 49,
-      "end": 100
+      "end": 102
     },
     {
       "type": "ExpressionStatement",
@@ -401,14 +401,14 @@ __ESTREE_TEST__:PASS:
               "name": "connect",
               "optional": false,
               "typeAnnotation": null,
-              "start": 101,
-              "end": 108
+              "start": 103,
+              "end": 110
             },
             "typeArguments": null,
             "arguments": [],
             "optional": false,
-            "start": 101,
-            "end": 110
+            "start": 103,
+            "end": 112
           },
           "property": {
             "type": "Identifier",
@@ -416,13 +416,13 @@ __ESTREE_TEST__:PASS:
             "name": "use",
             "optional": false,
             "typeAnnotation": null,
-            "start": 111,
-            "end": 114
+            "start": 113,
+            "end": 116
           },
           "optional": false,
           "computed": false,
-          "start": 101,
-          "end": 114
+          "start": 103,
+          "end": 116
         },
         "typeArguments": null,
         "arguments": [
@@ -436,8 +436,8 @@ __ESTREE_TEST__:PASS:
                 "name": "connect",
                 "optional": false,
                 "typeAnnotation": null,
-                "start": 115,
-                "end": 122
+                "start": 117,
+                "end": 124
               },
               "property": {
                 "type": "Identifier",
@@ -445,13 +445,13 @@ __ESTREE_TEST__:PASS:
                 "name": "static",
                 "optional": false,
                 "typeAnnotation": null,
-                "start": 123,
-                "end": 129
+                "start": 125,
+                "end": 131
               },
               "optional": false,
               "computed": false,
-              "start": 115,
-              "end": 129
+              "start": 117,
+              "end": 131
             },
             "typeArguments": null,
             "arguments": [
@@ -459,27 +459,27 @@ __ESTREE_TEST__:PASS:
                 "type": "Literal",
                 "value": "foo",
                 "raw": "'foo'",
-                "start": 130,
-                "end": 135
+                "start": 132,
+                "end": 137
               }
             ],
             "optional": false,
-            "start": 115,
-            "end": 136
+            "start": 117,
+            "end": 138
           }
         ],
         "optional": false,
-        "start": 101,
-        "end": 137
+        "start": 103,
+        "end": 139
       },
       "directive": null,
-      "start": 101,
-      "end": 138
+      "start": 103,
+      "end": 140
     }
   ],
   "sourceType": "module",
   "hashbang": null,
   "start": 49,
-  "end": 213
+  "end": 215
 }
 ```

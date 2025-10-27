@@ -158,17 +158,17 @@ __ESTREE_TEST__:PASS:
         "type": "TSExternalModuleReference",
         "expression": {
           "type": "Literal",
-          "value": "staticInstanceResolution5_0",
-          "raw": "'staticInstanceResolution5_0'",
+          "value": "./staticInstanceResolution5_0",
+          "raw": "'./staticInstanceResolution5_0'",
           "start": 23,
-          "end": 52
+          "end": 54
         },
         "start": 15,
-        "end": 53
+        "end": 55
       },
       "importKind": "value",
       "start": 0,
-      "end": 54
+      "end": 56
     },
     {
       "type": "VariableDeclaration",
@@ -182,8 +182,8 @@ __ESTREE_TEST__:PASS:
             "name": "x",
             "optional": false,
             "typeAnnotation": null,
-            "start": 88,
-            "end": 89
+            "start": 90,
+            "end": 91
           },
           "init": {
             "type": "ArrowFunctionExpression",
@@ -206,40 +206,40 @@ __ESTREE_TEST__:PASS:
                       "name": "WinJS",
                       "optional": false,
                       "typeAnnotation": null,
-                      "start": 97,
-                      "end": 102
+                      "start": 99,
+                      "end": 104
                     },
                     "typeArguments": null,
-                    "start": 97,
-                    "end": 102
+                    "start": 99,
+                    "end": 104
                   },
-                  "start": 95,
-                  "end": 102
+                  "start": 97,
+                  "end": 104
                 },
-                "start": 93,
-                "end": 102
+                "start": 95,
+                "end": 104
               }
             ],
             "returnType": null,
             "body": {
               "type": "BlockStatement",
               "body": [],
-              "start": 107,
-              "end": 110
+              "start": 109,
+              "end": 112
             },
             "id": null,
             "generator": false,
-            "start": 92,
-            "end": 110
+            "start": 94,
+            "end": 112
           },
           "definite": false,
-          "start": 88,
-          "end": 110
+          "start": 90,
+          "end": 112
         }
       ],
       "declare": false,
-      "start": 84,
-      "end": 111
+      "start": 86,
+      "end": 113
     },
     {
       "type": "VariableDeclaration",
@@ -253,8 +253,8 @@ __ESTREE_TEST__:PASS:
             "name": "y",
             "optional": false,
             "typeAnnotation": null,
-            "start": 116,
-            "end": 117
+            "start": 118,
+            "end": 119
           },
           "init": {
             "type": "FunctionExpression",
@@ -279,39 +279,39 @@ __ESTREE_TEST__:PASS:
                       "name": "WinJS",
                       "optional": false,
                       "typeAnnotation": null,
-                      "start": 134,
-                      "end": 139
+                      "start": 136,
+                      "end": 141
                     },
                     "typeArguments": null,
-                    "start": 134,
-                    "end": 139
+                    "start": 136,
+                    "end": 141
                   },
-                  "start": 132,
-                  "end": 139
+                  "start": 134,
+                  "end": 141
                 },
-                "start": 130,
-                "end": 139
+                "start": 132,
+                "end": 141
               }
             ],
             "returnType": null,
             "body": {
               "type": "BlockStatement",
               "body": [],
-              "start": 141,
-              "end": 144
+              "start": 143,
+              "end": 146
             },
             "expression": false,
-            "start": 120,
-            "end": 144
+            "start": 122,
+            "end": 146
           },
           "definite": false,
-          "start": 116,
-          "end": 144
+          "start": 118,
+          "end": 146
         }
       ],
       "declare": false,
-      "start": 112,
-      "end": 144
+      "start": 114,
+      "end": 146
     },
     {
       "type": "FunctionDeclaration",
@@ -321,8 +321,8 @@ __ESTREE_TEST__:PASS:
         "name": "z",
         "optional": false,
         "typeAnnotation": null,
-        "start": 154,
-        "end": 155
+        "start": 156,
+        "end": 157
       },
       "generator": false,
       "async": false,
@@ -344,35 +344,35 @@ __ESTREE_TEST__:PASS:
                 "name": "WinJS",
                 "optional": false,
                 "typeAnnotation": null,
-                "start": 160,
-                "end": 165
+                "start": 162,
+                "end": 167
               },
               "typeArguments": null,
-              "start": 160,
-              "end": 165
+              "start": 162,
+              "end": 167
             },
-            "start": 158,
-            "end": 165
+            "start": 160,
+            "end": 167
           },
-          "start": 156,
-          "end": 165
+          "start": 158,
+          "end": 167
         }
       ],
       "returnType": null,
       "body": {
         "type": "BlockStatement",
         "body": [],
-        "start": 167,
-        "end": 170
+        "start": 169,
+        "end": 172
       },
       "expression": false,
-      "start": 145,
-      "end": 170
+      "start": 147,
+      "end": 172
     }
   ],
   "sourceType": "module",
   "hashbang": null,
   "start": 0,
-  "end": 170
+  "end": 172
 }
 ```

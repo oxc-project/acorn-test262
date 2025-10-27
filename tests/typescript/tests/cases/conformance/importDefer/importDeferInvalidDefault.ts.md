@@ -116,16 +116,16 @@ __ESTREE_TEST__:PASS:
       ],
       "source": {
         "type": "Literal",
-        "value": "a",
-        "raw": "\"a\"",
+        "value": "./a",
+        "raw": "\"./a\"",
         "start": 22,
-        "end": 25
+        "end": 27
       },
       "phase": null,
       "attributes": [],
       "importKind": "value",
       "start": 0,
-      "end": 26
+      "end": 28
     },
     {
       "type": "ExpressionStatement",
@@ -137,23 +137,23 @@ __ESTREE_TEST__:PASS:
           "name": "foo",
           "optional": false,
           "typeAnnotation": null,
-          "start": 28,
-          "end": 31
+          "start": 30,
+          "end": 33
         },
         "typeArguments": null,
         "arguments": [],
         "optional": false,
-        "start": 28,
-        "end": 33
+        "start": 30,
+        "end": 35
       },
       "directive": null,
-      "start": 28,
-      "end": 34
+      "start": 30,
+      "end": 36
     }
   ],
   "sourceType": "module",
   "hashbang": null,
   "start": 0,
-  "end": 34
+  "end": 36
 }
 ```

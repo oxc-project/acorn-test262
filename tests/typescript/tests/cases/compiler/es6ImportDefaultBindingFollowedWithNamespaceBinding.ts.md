@@ -89,16 +89,16 @@ __ESTREE_TEST__:PASS:
       ],
       "source": {
         "type": "Literal",
-        "value": "es6ImportDefaultBindingFollowedWithNamespaceBinding_0",
-        "raw": "\"es6ImportDefaultBindingFollowedWithNamespaceBinding_0\"",
+        "value": "./es6ImportDefaultBindingFollowedWithNamespaceBinding_0",
+        "raw": "\"./es6ImportDefaultBindingFollowedWithNamespaceBinding_0\"",
         "start": 51,
-        "end": 106
+        "end": 108
       },
       "phase": null,
       "attributes": [],
       "importKind": "value",
       "start": 0,
-      "end": 107
+      "end": 109
     },
     {
       "type": "VariableDeclaration",
@@ -115,14 +115,14 @@ __ESTREE_TEST__:PASS:
               "type": "TSTypeAnnotation",
               "typeAnnotation": {
                 "type": "TSNumberKeyword",
-                "start": 115,
-                "end": 121
+                "start": 117,
+                "end": 123
               },
-              "start": 113,
-              "end": 121
+              "start": 115,
+              "end": 123
             },
-            "start": 112,
-            "end": 121
+            "start": 114,
+            "end": 123
           },
           "init": {
             "type": "MemberExpression",
@@ -132,8 +132,8 @@ __ESTREE_TEST__:PASS:
               "name": "nameSpaceBinding",
               "optional": false,
               "typeAnnotation": null,
-              "start": 124,
-              "end": 140
+              "start": 126,
+              "end": 142
             },
             "property": {
               "type": "Identifier",
@@ -141,27 +141,27 @@ __ESTREE_TEST__:PASS:
               "name": "a",
               "optional": false,
               "typeAnnotation": null,
-              "start": 141,
-              "end": 142
+              "start": 143,
+              "end": 144
             },
             "optional": false,
             "computed": false,
-            "start": 124,
-            "end": 142
+            "start": 126,
+            "end": 144
           },
           "definite": false,
-          "start": 112,
-          "end": 142
+          "start": 114,
+          "end": 144
         }
       ],
       "declare": false,
-      "start": 108,
-      "end": 143
+      "start": 110,
+      "end": 145
     }
   ],
   "sourceType": "module",
   "hashbang": null,
   "start": 0,
-  "end": 143
+  "end": 145
 }
 ```
