@@ -177,17 +177,17 @@ __ESTREE_TEST__:PASS:
         "type": "TSExternalModuleReference",
         "expression": {
           "type": "Literal",
-          "value": "helloInterface",
-          "raw": "\"helloInterface\"",
+          "value": "./helloInterface",
+          "raw": "\"./helloInterface\"",
           "start": 32,
-          "end": 48
+          "end": 50
         },
         "start": 24,
-        "end": 49
+        "end": 51
       },
       "importKind": "value",
       "start": 0,
-      "end": 50
+      "end": 52
     },
     {
       "type": "TSImportEqualsDeclaration",
@@ -197,24 +197,24 @@ __ESTREE_TEST__:PASS:
         "name": "HelloNamespace",
         "optional": false,
         "typeAnnotation": null,
-        "start": 58,
-        "end": 72
+        "start": 60,
+        "end": 74
       },
       "moduleReference": {
         "type": "TSExternalModuleReference",
         "expression": {
           "type": "Literal",
-          "value": "helloNamespace",
-          "raw": "\"helloNamespace\"",
-          "start": 83,
-          "end": 99
+          "value": "./helloNamespace",
+          "raw": "\"./helloNamespace\"",
+          "start": 85,
+          "end": 103
         },
-        "start": 75,
-        "end": 100
+        "start": 77,
+        "end": 104
       },
       "importKind": "value",
-      "start": 51,
-      "end": 101
+      "start": 53,
+      "end": 105
     },
     {
       "type": "ExpressionStatement",
@@ -226,8 +226,8 @@ __ESTREE_TEST__:PASS:
           "name": "HelloInterface",
           "optional": false,
           "typeAnnotation": null,
-          "start": 103,
-          "end": 117
+          "start": 107,
+          "end": 121
         },
         "property": {
           "type": "Identifier",
@@ -235,17 +235,17 @@ __ESTREE_TEST__:PASS:
           "name": "world",
           "optional": false,
           "typeAnnotation": null,
-          "start": 118,
-          "end": 123
+          "start": 122,
+          "end": 127
         },
         "optional": false,
         "computed": false,
-        "start": 103,
-        "end": 123
+        "start": 107,
+        "end": 127
       },
       "directive": null,
-      "start": 103,
-      "end": 124
+      "start": 107,
+      "end": 128
     },
     {
       "type": "ExpressionStatement",
@@ -257,8 +257,8 @@ __ESTREE_TEST__:PASS:
           "name": "HelloNamespace",
           "optional": false,
           "typeAnnotation": null,
-          "start": 125,
-          "end": 139
+          "start": 129,
+          "end": 143
         },
         "property": {
           "type": "Identifier",
@@ -266,22 +266,22 @@ __ESTREE_TEST__:PASS:
           "name": "world",
           "optional": false,
           "typeAnnotation": null,
-          "start": 140,
-          "end": 145
+          "start": 144,
+          "end": 149
         },
         "optional": false,
         "computed": false,
-        "start": 125,
-        "end": 145
+        "start": 129,
+        "end": 149
       },
       "directive": null,
-      "start": 125,
-      "end": 146
+      "start": 129,
+      "end": 150
     }
   ],
   "sourceType": "module",
   "hashbang": null,
   "start": 0,
-  "end": 146
+  "end": 150
 }
 ```

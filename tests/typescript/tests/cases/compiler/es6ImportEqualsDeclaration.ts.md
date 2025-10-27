@@ -75,22 +75,22 @@ __ESTREE_TEST__:PASS:
         "type": "TSExternalModuleReference",
         "expression": {
           "type": "Literal",
-          "value": "server",
-          "raw": "\"server\"",
+          "value": "./server",
+          "raw": "\"./server\"",
           "start": 19,
-          "end": 27
+          "end": 29
         },
         "start": 11,
-        "end": 28
+        "end": 30
       },
       "importKind": "value",
       "start": 0,
-      "end": 29
+      "end": 31
     }
   ],
   "sourceType": "module",
   "hashbang": null,
   "start": 0,
-  "end": 29
+  "end": 31
 }
 ```

@@ -236,17 +236,17 @@ __ESTREE_TEST__:PASS:
         "type": "TSExternalModuleReference",
         "expression": {
           "type": "Literal",
-          "value": "recursiveExportAssignmentAndFindAliasedType2_moduleB",
-          "raw": "\"recursiveExportAssignmentAndFindAliasedType2_moduleB\"",
+          "value": "./recursiveExportAssignmentAndFindAliasedType2_moduleB",
+          "raw": "\"./recursiveExportAssignmentAndFindAliasedType2_moduleB\"",
           "start": 145,
-          "end": 199
+          "end": 201
         },
         "start": 137,
-        "end": 200
+        "end": 202
       },
       "importKind": "value",
       "start": 121,
-      "end": 201
+      "end": 203
     },
     {
       "type": "ExportNamedDeclaration",
@@ -271,40 +271,40 @@ __ESTREE_TEST__:PASS:
                     "name": "ClassB",
                     "optional": false,
                     "typeAnnotation": null,
-                    "start": 216,
-                    "end": 222
+                    "start": 218,
+                    "end": 224
                   },
                   "typeArguments": null,
-                  "start": 216,
-                  "end": 222
+                  "start": 218,
+                  "end": 224
                 },
-                "start": 214,
-                "end": 222
+                "start": 216,
+                "end": 224
               },
-              "start": 213,
-              "end": 222
+              "start": 215,
+              "end": 224
             },
             "init": null,
             "definite": false,
-            "start": 213,
-            "end": 222
+            "start": 215,
+            "end": 224
           }
         ],
         "declare": false,
-        "start": 209,
-        "end": 223
+        "start": 211,
+        "end": 225
       },
       "specifiers": [],
       "source": null,
       "exportKind": "value",
       "attributes": [],
-      "start": 202,
-      "end": 223
+      "start": 204,
+      "end": 225
     }
   ],
   "sourceType": "module",
   "hashbang": null,
   "start": 84,
-  "end": 260
+  "end": 262
 }
 ```

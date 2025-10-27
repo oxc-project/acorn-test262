@@ -95,16 +95,16 @@ __ESTREE_TEST__:PASS:
       ],
       "source": {
         "type": "Literal",
-        "value": "es6ImportDefaultBindingFollowedWithNamespaceBinding_0",
-        "raw": "\"es6ImportDefaultBindingFollowedWithNamespaceBinding_0\"",
+        "value": "./es6ImportDefaultBindingFollowedWithNamespaceBinding_0",
+        "raw": "\"./es6ImportDefaultBindingFollowedWithNamespaceBinding_0\"",
         "start": 51,
-        "end": 106
+        "end": 108
       },
       "phase": null,
       "attributes": [],
       "importKind": "value",
       "start": 0,
-      "end": 107
+      "end": 109
     },
     {
       "type": "VariableDeclaration",
@@ -121,14 +121,14 @@ __ESTREE_TEST__:PASS:
               "type": "TSTypeAnnotation",
               "typeAnnotation": {
                 "type": "TSNumberKeyword",
-                "start": 115,
-                "end": 121
+                "start": 117,
+                "end": 123
               },
-              "start": 113,
-              "end": 121
+              "start": 115,
+              "end": 123
             },
-            "start": 112,
-            "end": 121
+            "start": 114,
+            "end": 123
           },
           "init": {
             "type": "Identifier",
@@ -136,22 +136,22 @@ __ESTREE_TEST__:PASS:
             "name": "defaultBinding",
             "optional": false,
             "typeAnnotation": null,
-            "start": 124,
-            "end": 138
+            "start": 126,
+            "end": 140
           },
           "definite": false,
-          "start": 112,
-          "end": 138
+          "start": 114,
+          "end": 140
         }
       ],
       "declare": false,
-      "start": 108,
-      "end": 139
+      "start": 110,
+      "end": 141
     }
   ],
   "sourceType": "module",
   "hashbang": null,
   "start": 0,
-  "end": 139
+  "end": 141
 }
 ```

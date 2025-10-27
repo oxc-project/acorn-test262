@@ -95,16 +95,16 @@ __ESTREE_TEST__:PASS:
       ],
       "source": {
         "type": "Literal",
-        "value": "server",
-        "raw": "\"server\"",
+        "value": "./server",
+        "raw": "\"./server\"",
         "start": 58,
-        "end": 66
+        "end": 68
       },
       "phase": null,
       "attributes": [],
       "importKind": "value",
       "start": 0,
-      "end": 67
+      "end": 69
     },
     {
       "type": "ExportNamedDeclaration",
@@ -123,14 +123,14 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeAnnotation",
                 "typeAnnotation": {
                   "type": "TSNumberKeyword",
-                  "start": 82,
-                  "end": 88
+                  "start": 84,
+                  "end": 90
                 },
-                "start": 80,
-                "end": 88
+                "start": 82,
+                "end": 90
               },
-              "start": 79,
-              "end": 88
+              "start": 81,
+              "end": 90
             },
             "init": {
               "type": "Identifier",
@@ -138,29 +138,29 @@ __ESTREE_TEST__:PASS:
               "name": "defaultBinding",
               "optional": false,
               "typeAnnotation": null,
-              "start": 91,
-              "end": 105
+              "start": 93,
+              "end": 107
             },
             "definite": false,
-            "start": 79,
-            "end": 105
+            "start": 81,
+            "end": 107
           }
         ],
         "declare": false,
-        "start": 75,
-        "end": 106
+        "start": 77,
+        "end": 108
       },
       "specifiers": [],
       "source": null,
       "exportKind": "value",
       "attributes": [],
-      "start": 68,
-      "end": 106
+      "start": 70,
+      "end": 108
     }
   ],
   "sourceType": "module",
   "hashbang": null,
   "start": 0,
-  "end": 106
+  "end": 108
 }
 ```

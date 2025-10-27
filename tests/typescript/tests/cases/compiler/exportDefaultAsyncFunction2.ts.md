@@ -250,16 +250,16 @@ __ESTREE_TEST__:PASS:
       ],
       "source": {
         "type": "Literal",
-        "value": "asyncawait",
-        "raw": "'asyncawait'",
+        "value": "./asyncawait",
+        "raw": "'./asyncawait'",
         "start": 29,
-        "end": 41
+        "end": 43
       },
       "phase": null,
       "attributes": [],
       "importKind": "value",
       "start": 0,
-      "end": 42
+      "end": 44
     },
     {
       "type": "ExportDefaultDeclaration",
@@ -271,8 +271,8 @@ __ESTREE_TEST__:PASS:
           "name": "async",
           "optional": false,
           "typeAnnotation": null,
-          "start": 58,
-          "end": 63
+          "start": 60,
+          "end": 65
         },
         "typeArguments": null,
         "arguments": [
@@ -291,8 +291,8 @@ __ESTREE_TEST__:PASS:
                 "name": "await",
                 "optional": false,
                 "typeAnnotation": null,
-                "start": 70,
-                "end": 75
+                "start": 72,
+                "end": 77
               },
               "typeArguments": null,
               "arguments": [
@@ -306,8 +306,8 @@ __ESTREE_TEST__:PASS:
                       "name": "Promise",
                       "optional": false,
                       "typeAnnotation": null,
-                      "start": 76,
-                      "end": 83
+                      "start": 78,
+                      "end": 85
                     },
                     "property": {
                       "type": "Identifier",
@@ -315,13 +315,13 @@ __ESTREE_TEST__:PASS:
                       "name": "resolve",
                       "optional": false,
                       "typeAnnotation": null,
-                      "start": 84,
-                      "end": 91
+                      "start": 86,
+                      "end": 93
                     },
                     "optional": false,
                     "computed": false,
-                    "start": 76,
-                    "end": 91
+                    "start": 78,
+                    "end": 93
                   },
                   "typeArguments": null,
                   "arguments": [
@@ -329,38 +329,38 @@ __ESTREE_TEST__:PASS:
                       "type": "Literal",
                       "value": 1,
                       "raw": "1",
-                      "start": 92,
-                      "end": 93
+                      "start": 94,
+                      "end": 95
                     }
                   ],
                   "optional": false,
-                  "start": 76,
-                  "end": 94
+                  "start": 78,
+                  "end": 96
                 }
               ],
               "optional": false,
-              "start": 70,
-              "end": 95
+              "start": 72,
+              "end": 97
             },
             "id": null,
             "generator": false,
-            "start": 64,
-            "end": 95
+            "start": 66,
+            "end": 97
           }
         ],
         "optional": false,
-        "start": 58,
-        "end": 96
+        "start": 60,
+        "end": 98
       },
       "exportKind": "value",
-      "start": 43,
-      "end": 97
+      "start": 45,
+      "end": 99
     }
   ],
   "sourceType": "module",
   "hashbang": null,
   "start": 0,
-  "end": 98
+  "end": 100
 }
 ```
 __ESTREE_TEST__:PASS:
@@ -471,16 +471,16 @@ __ESTREE_TEST__:PASS:
       ],
       "source": {
         "type": "Literal",
-        "value": "asyncawait",
-        "raw": "'asyncawait'",
+        "value": "./asyncawait",
+        "raw": "'./asyncawait'",
         "start": 29,
-        "end": 41
+        "end": 43
       },
       "phase": null,
       "attributes": [],
       "importKind": "value",
       "start": 0,
-      "end": 42
+      "end": 44
     },
     {
       "type": "ExportDefaultDeclaration",
@@ -492,35 +492,35 @@ __ESTREE_TEST__:PASS:
           "name": "async",
           "optional": false,
           "typeAnnotation": null,
-          "start": 58,
-          "end": 63
+          "start": 60,
+          "end": 65
         },
         "typeArguments": {
           "type": "TSTypeParameterInstantiation",
           "params": [
             {
               "type": "TSNumberKeyword",
-              "start": 64,
-              "end": 70
+              "start": 66,
+              "end": 72
             }
           ],
-          "start": 63,
-          "end": 71
+          "start": 65,
+          "end": 73
         },
         "arguments": [],
         "optional": false,
-        "start": 58,
-        "end": 73
+        "start": 60,
+        "end": 75
       },
       "exportKind": "value",
-      "start": 43,
-      "end": 74
+      "start": 45,
+      "end": 76
     }
   ],
   "sourceType": "module",
   "hashbang": null,
   "start": 0,
-  "end": 75
+  "end": 77
 }
 ```
 __ESTREE_TEST__:PASS:
@@ -582,16 +582,16 @@ __ESTREE_TEST__:PASS:
       ],
       "source": {
         "type": "Literal",
-        "value": "asyncawait",
-        "raw": "'asyncawait'",
+        "value": "./asyncawait",
+        "raw": "'./asyncawait'",
         "start": 29,
-        "end": 41
+        "end": 43
       },
       "phase": null,
       "attributes": [],
       "importKind": "value",
       "start": 0,
-      "end": 42
+      "end": 44
     },
     {
       "type": "ExportDefaultDeclaration",
@@ -601,18 +601,18 @@ __ESTREE_TEST__:PASS:
         "name": "async",
         "optional": false,
         "typeAnnotation": null,
-        "start": 59,
-        "end": 64
+        "start": 61,
+        "end": 66
       },
       "exportKind": "value",
-      "start": 44,
-      "end": 65
+      "start": 46,
+      "end": 67
     }
   ],
   "sourceType": "module",
   "hashbang": null,
   "start": 0,
-  "end": 66
+  "end": 68
 }
 ```
 __ESTREE_TEST__:PASS:
@@ -674,16 +674,16 @@ __ESTREE_TEST__:PASS:
       ],
       "source": {
         "type": "Literal",
-        "value": "asyncawait",
-        "raw": "'asyncawait'",
+        "value": "./asyncawait",
+        "raw": "'./asyncawait'",
         "start": 29,
-        "end": 41
+        "end": 43
       },
       "phase": null,
       "attributes": [],
       "importKind": "value",
       "start": 0,
-      "end": 42
+      "end": 44
     },
     {
       "type": "ExportDefaultDeclaration",
@@ -693,12 +693,12 @@ __ESTREE_TEST__:PASS:
         "name": "async",
         "optional": false,
         "typeAnnotation": null,
-        "start": 59,
-        "end": 64
+        "start": 61,
+        "end": 66
       },
       "exportKind": "value",
-      "start": 44,
-      "end": 64
+      "start": 46,
+      "end": 66
     },
     {
       "type": "ExportNamedDeclaration",
@@ -710,8 +710,8 @@ __ESTREE_TEST__:PASS:
           "name": "foo",
           "optional": false,
           "typeAnnotation": null,
-          "start": 82,
-          "end": 85
+          "start": 84,
+          "end": 87
         },
         "generator": false,
         "async": false,
@@ -722,24 +722,24 @@ __ESTREE_TEST__:PASS:
         "body": {
           "type": "BlockStatement",
           "body": [],
-          "start": 88,
-          "end": 91
+          "start": 90,
+          "end": 93
         },
         "expression": false,
-        "start": 73,
-        "end": 91
+        "start": 75,
+        "end": 93
       },
       "specifiers": [],
       "source": null,
       "exportKind": "value",
       "attributes": [],
-      "start": 66,
-      "end": 91
+      "start": 68,
+      "end": 93
     }
   ],
   "sourceType": "module",
   "hashbang": null,
   "start": 0,
-  "end": 91
+  "end": 93
 }
 ```
