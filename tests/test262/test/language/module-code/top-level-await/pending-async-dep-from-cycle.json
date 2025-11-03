@@ -1,0 +1,165 @@
+{
+  "type": "Program",
+  "body": [
+    {
+      "type": "ImportDeclaration",
+      "specifiers": [],
+      "source": {
+        "type": "Literal",
+        "value": "./pending-async-dep-from-cycle_setup_FIXTURE.js",
+        "raw": "\"./pending-async-dep-from-cycle_setup_FIXTURE.js\"",
+        "start": 2848,
+        "end": 2897
+      },
+      "phase": null,
+      "attributes": [],
+      "start": 2841,
+      "end": 2898
+    },
+    {
+      "type": "ImportDeclaration",
+      "specifiers": [],
+      "source": {
+        "type": "Literal",
+        "value": "./pending-async-dep-from-cycle_cycle-root_FIXTURE.js",
+        "raw": "\"./pending-async-dep-from-cycle_cycle-root_FIXTURE.js\"",
+        "start": 2906,
+        "end": 2960
+      },
+      "phase": null,
+      "attributes": [],
+      "start": 2899,
+      "end": 2961
+    },
+    {
+      "type": "ImportDeclaration",
+      "specifiers": [],
+      "source": {
+        "type": "Literal",
+        "value": "./pending-async-dep-from-cycle_import-cycle-leaf_FIXTURE.js",
+        "raw": "\"./pending-async-dep-from-cycle_import-cycle-leaf_FIXTURE.js\"",
+        "start": 2969,
+        "end": 3030
+      },
+      "phase": null,
+      "attributes": [],
+      "start": 2962,
+      "end": 3031
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "MemberExpression",
+          "object": {
+            "type": "Identifier",
+            "name": "assert",
+            "start": 3033,
+            "end": 3039
+          },
+          "property": {
+            "type": "Identifier",
+            "name": "compareArray",
+            "start": 3040,
+            "end": 3052
+          },
+          "optional": false,
+          "computed": false,
+          "start": 3033,
+          "end": 3052
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "object": {
+              "type": "Identifier",
+              "name": "globalThis",
+              "start": 3053,
+              "end": 3063
+            },
+            "property": {
+              "type": "Identifier",
+              "name": "logs",
+              "start": 3064,
+              "end": 3068
+            },
+            "optional": false,
+            "computed": false,
+            "start": 3053,
+            "end": 3068
+          },
+          {
+            "type": "ArrayExpression",
+            "elements": [
+              {
+                "type": "Literal",
+                "value": "cycle leaf start",
+                "raw": "\"cycle leaf start\"",
+                "start": 3074,
+                "end": 3092
+              },
+              {
+                "type": "Literal",
+                "value": "cycle leaf end",
+                "raw": "\"cycle leaf end\"",
+                "start": 3096,
+                "end": 3112
+              },
+              {
+                "type": "Literal",
+                "value": "cycle root start",
+                "raw": "\"cycle root start\"",
+                "start": 3116,
+                "end": 3134
+              },
+              {
+                "type": "Literal",
+                "value": "cycle root end",
+                "raw": "\"cycle root end\"",
+                "start": 3228,
+                "end": 3244
+              },
+              {
+                "type": "Literal",
+                "value": "importer of cycle leaf",
+                "raw": "\"importer of cycle leaf\"",
+                "start": 3248,
+                "end": 3272
+              }
+            ],
+            "start": 3070,
+            "end": 3274
+          }
+        ],
+        "optional": false,
+        "start": 3033,
+        "end": 3275
+      },
+      "start": 3033,
+      "end": 3276
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "Identifier",
+          "name": "$DONE",
+          "start": 3278,
+          "end": 3283
+        },
+        "arguments": [],
+        "optional": false,
+        "start": 3278,
+        "end": 3285
+      },
+      "start": 3278,
+      "end": 3286
+    }
+  ],
+  "sourceType": "module",
+  "hashbang": null,
+  "start": 0,
+  "end": 3287
+}

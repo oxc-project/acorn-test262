@@ -1,0 +1,337 @@
+{
+  "type": "Program",
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "kind": "const",
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "id": {
+            "type": "Identifier",
+            "name": "requiredCalendars",
+            "start": 1388,
+            "end": 1405
+          },
+          "init": {
+            "type": "ArrayExpression",
+            "elements": [
+              {
+                "type": "Literal",
+                "value": "buddhist",
+                "raw": "\"buddhist\"",
+                "start": 1412,
+                "end": 1422
+              },
+              {
+                "type": "Literal",
+                "value": "chinese",
+                "raw": "\"chinese\"",
+                "start": 1426,
+                "end": 1435
+              },
+              {
+                "type": "Literal",
+                "value": "coptic",
+                "raw": "\"coptic\"",
+                "start": 1439,
+                "end": 1447
+              },
+              {
+                "type": "Literal",
+                "value": "dangi",
+                "raw": "\"dangi\"",
+                "start": 1451,
+                "end": 1458
+              },
+              {
+                "type": "Literal",
+                "value": "ethioaa",
+                "raw": "\"ethioaa\"",
+                "start": 1462,
+                "end": 1471
+              },
+              {
+                "type": "Literal",
+                "value": "ethiopic",
+                "raw": "\"ethiopic\"",
+                "start": 1475,
+                "end": 1485
+              },
+              {
+                "type": "Literal",
+                "value": "ethiopic-amete-alem",
+                "raw": "\"ethiopic-amete-alem\"",
+                "start": 1489,
+                "end": 1510
+              },
+              {
+                "type": "Literal",
+                "value": "gregory",
+                "raw": "\"gregory\"",
+                "start": 1514,
+                "end": 1523
+              },
+              {
+                "type": "Literal",
+                "value": "hebrew",
+                "raw": "\"hebrew\"",
+                "start": 1527,
+                "end": 1535
+              },
+              {
+                "type": "Literal",
+                "value": "indian",
+                "raw": "\"indian\"",
+                "start": 1539,
+                "end": 1547
+              },
+              {
+                "type": "Literal",
+                "value": "islamic-civil",
+                "raw": "\"islamic-civil\"",
+                "start": 1551,
+                "end": 1566
+              },
+              {
+                "type": "Literal",
+                "value": "islamic-tbla",
+                "raw": "\"islamic-tbla\"",
+                "start": 1570,
+                "end": 1584
+              },
+              {
+                "type": "Literal",
+                "value": "islamic-umalqura",
+                "raw": "\"islamic-umalqura\"",
+                "start": 1588,
+                "end": 1606
+              },
+              {
+                "type": "Literal",
+                "value": "islamicc",
+                "raw": "\"islamicc\"",
+                "start": 1610,
+                "end": 1620
+              },
+              {
+                "type": "Literal",
+                "value": "iso8601",
+                "raw": "\"iso8601\"",
+                "start": 1624,
+                "end": 1633
+              },
+              {
+                "type": "Literal",
+                "value": "japanese",
+                "raw": "\"japanese\"",
+                "start": 1637,
+                "end": 1647
+              },
+              {
+                "type": "Literal",
+                "value": "persian",
+                "raw": "\"persian\"",
+                "start": 1651,
+                "end": 1660
+              },
+              {
+                "type": "Literal",
+                "value": "roc",
+                "raw": "\"roc\"",
+                "start": 1664,
+                "end": 1669
+              }
+            ],
+            "start": 1408,
+            "end": 1671
+          },
+          "start": 1388,
+          "end": 1671
+        }
+      ],
+      "start": 1382,
+      "end": 1671
+    },
+    {
+      "type": "VariableDeclaration",
+      "kind": "const",
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "id": {
+            "type": "Identifier",
+            "name": "supportedCalendars",
+            "start": 1679,
+            "end": 1697
+          },
+          "init": {
+            "type": "CallExpression",
+            "callee": {
+              "type": "MemberExpression",
+              "object": {
+                "type": "Identifier",
+                "name": "Intl",
+                "start": 1700,
+                "end": 1704
+              },
+              "property": {
+                "type": "Identifier",
+                "name": "supportedValuesOf",
+                "start": 1705,
+                "end": 1722
+              },
+              "optional": false,
+              "computed": false,
+              "start": 1700,
+              "end": 1722
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "value": "calendar",
+                "raw": "\"calendar\"",
+                "start": 1723,
+                "end": 1733
+              }
+            ],
+            "optional": false,
+            "start": 1700,
+            "end": 1734
+          },
+          "start": 1679,
+          "end": 1734
+        }
+      ],
+      "start": 1673,
+      "end": 1735
+    },
+    {
+      "type": "ForOfStatement",
+      "await": false,
+      "left": {
+        "type": "VariableDeclaration",
+        "kind": "const",
+        "declarations": [
+          {
+            "type": "VariableDeclarator",
+            "id": {
+              "type": "Identifier",
+              "name": "calendar",
+              "start": 1747,
+              "end": 1755
+            },
+            "init": null,
+            "start": 1747,
+            "end": 1755
+          }
+        ],
+        "start": 1741,
+        "end": 1755
+      },
+      "right": {
+        "type": "Identifier",
+        "name": "requiredCalendars",
+        "start": 1759,
+        "end": 1776
+      },
+      "body": {
+        "type": "BlockStatement",
+        "body": [
+          {
+            "type": "ExpressionStatement",
+            "expression": {
+              "type": "CallExpression",
+              "callee": {
+                "type": "Identifier",
+                "name": "assert",
+                "start": 1782,
+                "end": 1788
+              },
+              "arguments": [
+                {
+                  "type": "CallExpression",
+                  "callee": {
+                    "type": "MemberExpression",
+                    "object": {
+                      "type": "Identifier",
+                      "name": "supportedCalendars",
+                      "start": 1789,
+                      "end": 1807
+                    },
+                    "property": {
+                      "type": "Identifier",
+                      "name": "includes",
+                      "start": 1808,
+                      "end": 1816
+                    },
+                    "optional": false,
+                    "computed": false,
+                    "start": 1789,
+                    "end": 1816
+                  },
+                  "arguments": [
+                    {
+                      "type": "Identifier",
+                      "name": "calendar",
+                      "start": 1817,
+                      "end": 1825
+                    }
+                  ],
+                  "optional": false,
+                  "start": 1789,
+                  "end": 1826
+                },
+                {
+                  "type": "BinaryExpression",
+                  "left": {
+                    "type": "BinaryExpression",
+                    "left": {
+                      "type": "Literal",
+                      "value": "Required calendar: ",
+                      "raw": "\"Required calendar: \"",
+                      "start": 1828,
+                      "end": 1849
+                    },
+                    "operator": "+",
+                    "right": {
+                      "type": "Identifier",
+                      "name": "calendar",
+                      "start": 1852,
+                      "end": 1860
+                    },
+                    "start": 1828,
+                    "end": 1860
+                  },
+                  "operator": "+",
+                  "right": {
+                    "type": "Literal",
+                    "value": " must be supported",
+                    "raw": "\" must be supported\"",
+                    "start": 1863,
+                    "end": 1883
+                  },
+                  "start": 1828,
+                  "end": 1883
+                }
+              ],
+              "optional": false,
+              "start": 1782,
+              "end": 1884
+            },
+            "start": 1782,
+            "end": 1885
+          }
+        ],
+        "start": 1778,
+        "end": 1887
+      },
+      "start": 1736,
+      "end": 1887
+    }
+  ],
+  "sourceType": "script",
+  "hashbang": null,
+  "start": 0,
+  "end": 1888
+}

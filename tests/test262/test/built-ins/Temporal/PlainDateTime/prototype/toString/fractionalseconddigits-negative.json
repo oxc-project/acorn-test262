@@ -1,0 +1,182 @@
+{
+  "type": "Program",
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "kind": "const",
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "id": {
+            "type": "Identifier",
+            "name": "pdt",
+            "start": 324,
+            "end": 327
+          },
+          "init": {
+            "type": "NewExpression",
+            "callee": {
+              "type": "MemberExpression",
+              "object": {
+                "type": "Identifier",
+                "name": "Temporal",
+                "start": 334,
+                "end": 342
+              },
+              "property": {
+                "type": "Identifier",
+                "name": "PlainDateTime",
+                "start": 343,
+                "end": 356
+              },
+              "optional": false,
+              "computed": false,
+              "start": 334,
+              "end": 356
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "value": 1938,
+                "raw": "1938",
+                "start": 357,
+                "end": 361
+              },
+              {
+                "type": "Literal",
+                "value": 4,
+                "raw": "4",
+                "start": 363,
+                "end": 364
+              },
+              {
+                "type": "Literal",
+                "value": 24,
+                "raw": "24",
+                "start": 366,
+                "end": 368
+              },
+              {
+                "type": "Literal",
+                "value": 22,
+                "raw": "22",
+                "start": 370,
+                "end": 372
+              },
+              {
+                "type": "Literal",
+                "value": 13,
+                "raw": "13",
+                "start": 374,
+                "end": 376
+              },
+              {
+                "type": "Literal",
+                "value": 19,
+                "raw": "19",
+                "start": 378,
+                "end": 380
+              },
+              {
+                "type": "Literal",
+                "value": 999,
+                "raw": "999",
+                "start": 382,
+                "end": 385
+              },
+              {
+                "type": "Literal",
+                "value": 999,
+                "raw": "999",
+                "start": 387,
+                "end": 390
+              }
+            ],
+            "start": 330,
+            "end": 391
+          },
+          "start": 324,
+          "end": 391
+        }
+      ],
+      "start": 318,
+      "end": 392
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "MemberExpression",
+          "object": {
+            "type": "Identifier",
+            "name": "assert",
+            "start": 393,
+            "end": 399
+          },
+          "property": {
+            "type": "Identifier",
+            "name": "sameValue",
+            "start": 400,
+            "end": 409
+          },
+          "optional": false,
+          "computed": false,
+          "start": 393,
+          "end": 409
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "callee": {
+              "type": "MemberExpression",
+              "object": {
+                "type": "Identifier",
+                "name": "pdt",
+                "start": 410,
+                "end": 413
+              },
+              "property": {
+                "type": "Identifier",
+                "name": "toString",
+                "start": 414,
+                "end": 422
+              },
+              "optional": false,
+              "computed": false,
+              "start": 410,
+              "end": 422
+            },
+            "arguments": [],
+            "optional": false,
+            "start": 410,
+            "end": 424
+          },
+          {
+            "type": "Literal",
+            "value": "1938-04-24T22:13:19.999999",
+            "raw": "\"1938-04-24T22:13:19.999999\"",
+            "start": 426,
+            "end": 454
+          },
+          {
+            "type": "Literal",
+            "value": "epoch milliseconds should be rounded down to compute seconds",
+            "raw": "\"epoch milliseconds should be rounded down to compute seconds\"",
+            "start": 473,
+            "end": 535
+          }
+        ],
+        "optional": false,
+        "start": 393,
+        "end": 536
+      },
+      "start": 393,
+      "end": 537
+    }
+  ],
+  "sourceType": "script",
+  "hashbang": null,
+  "start": 0,
+  "end": 538
+}
