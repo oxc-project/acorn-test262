@@ -1,0 +1,1152 @@
+{
+  "type": "Program",
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "kind": "var",
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "id": {
+            "type": "Identifier",
+            "name": "u8",
+            "start": 881,
+            "end": 883
+          },
+          "init": {
+            "type": "NewExpression",
+            "callee": {
+              "type": "Identifier",
+              "name": "Uint8Array",
+              "start": 890,
+              "end": 900
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "value": 3,
+                "raw": "3",
+                "start": 901,
+                "end": 902
+              }
+            ],
+            "start": 886,
+            "end": 903
+          },
+          "start": 881,
+          "end": 903
+        }
+      ],
+      "start": 877,
+      "end": 904
+    },
+    {
+      "type": "ForOfStatement",
+      "await": false,
+      "left": {
+        "type": "VariableDeclaration",
+        "kind": "var",
+        "declarations": [
+          {
+            "type": "VariableDeclarator",
+            "id": {
+              "type": "Identifier",
+              "name": "invalid",
+              "start": 962,
+              "end": 969
+            },
+            "init": null,
+            "start": 962,
+            "end": 969
+          }
+        ],
+        "start": 958,
+        "end": 969
+      },
+      "right": {
+        "type": "ArrayExpression",
+        "elements": [
+          {
+            "type": "Literal",
+            "value": "#",
+            "raw": "\"#\"",
+            "start": 977,
+            "end": 980
+          },
+          {
+            "type": "Literal",
+            "value": "a#",
+            "raw": "\"a#\"",
+            "start": 984,
+            "end": 988
+          },
+          {
+            "type": "Literal",
+            "value": "aa#",
+            "raw": "\"aa#\"",
+            "start": 992,
+            "end": 997
+          },
+          {
+            "type": "Literal",
+            "value": "aaa#",
+            "raw": "\"aaa#\"",
+            "start": 1001,
+            "end": 1007
+          }
+        ],
+        "start": 973,
+        "end": 1010
+      },
+      "body": {
+        "type": "BlockStatement",
+        "body": [
+          {
+            "type": "ForOfStatement",
+            "await": false,
+            "left": {
+              "type": "VariableDeclaration",
+              "kind": "var",
+              "declarations": [
+                {
+                  "type": "VariableDeclarator",
+                  "id": {
+                    "type": "Identifier",
+                    "name": "lastChunkHandling",
+                    "start": 1025,
+                    "end": 1042
+                  },
+                  "init": null,
+                  "start": 1025,
+                  "end": 1042
+                }
+              ],
+              "start": 1021,
+              "end": 1042
+            },
+            "right": {
+              "type": "ArrayExpression",
+              "elements": [
+                {
+                  "type": "Literal",
+                  "value": "loose",
+                  "raw": "\"loose\"",
+                  "start": 1047,
+                  "end": 1054
+                },
+                {
+                  "type": "Literal",
+                  "value": "strict",
+                  "raw": "\"strict\"",
+                  "start": 1056,
+                  "end": 1064
+                },
+                {
+                  "type": "Literal",
+                  "value": "stop-before-partial",
+                  "raw": "\"stop-before-partial\"",
+                  "start": 1066,
+                  "end": 1087
+                }
+              ],
+              "start": 1046,
+              "end": 1088
+            },
+            "body": {
+              "type": "BlockStatement",
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "expression": {
+                    "type": "CallExpression",
+                    "callee": {
+                      "type": "MemberExpression",
+                      "object": {
+                        "type": "Identifier",
+                        "name": "assert",
+                        "start": 1096,
+                        "end": 1102
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "name": "throws",
+                        "start": 1103,
+                        "end": 1109
+                      },
+                      "optional": false,
+                      "computed": false,
+                      "start": 1096,
+                      "end": 1109
+                    },
+                    "arguments": [
+                      {
+                        "type": "Identifier",
+                        "name": "SyntaxError",
+                        "start": 1110,
+                        "end": 1121
+                      },
+                      {
+                        "type": "FunctionExpression",
+                        "id": null,
+                        "generator": false,
+                        "async": false,
+                        "params": [],
+                        "body": {
+                          "type": "BlockStatement",
+                          "body": [
+                            {
+                              "type": "ExpressionStatement",
+                              "expression": {
+                                "type": "CallExpression",
+                                "callee": {
+                                  "type": "MemberExpression",
+                                  "object": {
+                                    "type": "Identifier",
+                                    "name": "u8",
+                                    "start": 1142,
+                                    "end": 1144
+                                  },
+                                  "property": {
+                                    "type": "Identifier",
+                                    "name": "setFromBase64",
+                                    "start": 1145,
+                                    "end": 1158
+                                  },
+                                  "optional": false,
+                                  "computed": false,
+                                  "start": 1142,
+                                  "end": 1158
+                                },
+                                "arguments": [
+                                  {
+                                    "type": "Identifier",
+                                    "name": "invalid",
+                                    "start": 1159,
+                                    "end": 1166
+                                  },
+                                  {
+                                    "type": "ObjectExpression",
+                                    "properties": [
+                                      {
+                                        "type": "Property",
+                                        "kind": "init",
+                                        "key": {
+                                          "type": "Identifier",
+                                          "name": "lastChunkHandling",
+                                          "start": 1169,
+                                          "end": 1186
+                                        },
+                                        "value": {
+                                          "type": "Identifier",
+                                          "name": "lastChunkHandling",
+                                          "start": 1169,
+                                          "end": 1186
+                                        },
+                                        "method": false,
+                                        "shorthand": true,
+                                        "computed": false,
+                                        "start": 1169,
+                                        "end": 1186
+                                      }
+                                    ],
+                                    "start": 1168,
+                                    "end": 1187
+                                  }
+                                ],
+                                "optional": false,
+                                "start": 1142,
+                                "end": 1188
+                              },
+                              "start": 1142,
+                              "end": 1189
+                            }
+                          ],
+                          "start": 1134,
+                          "end": 1195
+                        },
+                        "expression": false,
+                        "start": 1123,
+                        "end": 1195
+                      },
+                      {
+                        "type": "TemplateLiteral",
+                        "quasis": [
+                          {
+                            "type": "TemplateElement",
+                            "value": {
+                              "raw": "\"",
+                              "cooked": "\""
+                            },
+                            "tail": false,
+                            "start": 1198,
+                            "end": 1199
+                          },
+                          {
+                            "type": "TemplateElement",
+                            "value": {
+                              "raw": "\" is rejected with lastChunkHandling=\"",
+                              "cooked": "\" is rejected with lastChunkHandling=\""
+                            },
+                            "tail": false,
+                            "start": 1209,
+                            "end": 1247
+                          },
+                          {
+                            "type": "TemplateElement",
+                            "value": {
+                              "raw": "\"",
+                              "cooked": "\""
+                            },
+                            "tail": true,
+                            "start": 1267,
+                            "end": 1268
+                          }
+                        ],
+                        "expressions": [
+                          {
+                            "type": "Identifier",
+                            "name": "invalid",
+                            "start": 1201,
+                            "end": 1208
+                          },
+                          {
+                            "type": "Identifier",
+                            "name": "lastChunkHandling",
+                            "start": 1249,
+                            "end": 1266
+                          }
+                        ],
+                        "start": 1197,
+                        "end": 1269
+                      }
+                    ],
+                    "optional": false,
+                    "start": 1096,
+                    "end": 1270
+                  },
+                  "start": 1096,
+                  "end": 1271
+                }
+              ],
+              "start": 1090,
+              "end": 1275
+            },
+            "start": 1016,
+            "end": 1275
+          }
+        ],
+        "start": 1012,
+        "end": 1277
+      },
+      "start": 953,
+      "end": 1277
+    },
+    {
+      "type": "ForOfStatement",
+      "await": false,
+      "left": {
+        "type": "VariableDeclaration",
+        "kind": "var",
+        "declarations": [
+          {
+            "type": "VariableDeclarator",
+            "id": {
+              "type": "Identifier",
+              "name": "valid",
+              "start": 1337,
+              "end": 1342
+            },
+            "init": null,
+            "start": 1337,
+            "end": 1342
+          }
+        ],
+        "start": 1333,
+        "end": 1342
+      },
+      "right": {
+        "type": "ArrayExpression",
+        "elements": [
+          {
+            "type": "Literal",
+            "value": "aaaa#",
+            "raw": "\"aaaa#\"",
+            "start": 1350,
+            "end": 1357
+          },
+          {
+            "type": "Literal",
+            "value": "aaaaa#",
+            "raw": "\"aaaaa#\"",
+            "start": 1361,
+            "end": 1369
+          },
+          {
+            "type": "Literal",
+            "value": "aaaaaa#",
+            "raw": "\"aaaaaa#\"",
+            "start": 1373,
+            "end": 1382
+          },
+          {
+            "type": "Literal",
+            "value": "aaaaaaa#",
+            "raw": "\"aaaaaaa#\"",
+            "start": 1386,
+            "end": 1396
+          },
+          {
+            "type": "Literal",
+            "value": "aaaaaaaa#",
+            "raw": "\"aaaaaaaa#\"",
+            "start": 1400,
+            "end": 1411
+          }
+        ],
+        "start": 1346,
+        "end": 1414
+      },
+      "body": {
+        "type": "BlockStatement",
+        "body": [
+          {
+            "type": "ForOfStatement",
+            "await": false,
+            "left": {
+              "type": "VariableDeclaration",
+              "kind": "var",
+              "declarations": [
+                {
+                  "type": "VariableDeclarator",
+                  "id": {
+                    "type": "Identifier",
+                    "name": "lastChunkHandling",
+                    "start": 1429,
+                    "end": 1446
+                  },
+                  "init": null,
+                  "start": 1429,
+                  "end": 1446
+                }
+              ],
+              "start": 1425,
+              "end": 1446
+            },
+            "right": {
+              "type": "ArrayExpression",
+              "elements": [
+                {
+                  "type": "Literal",
+                  "value": "loose",
+                  "raw": "\"loose\"",
+                  "start": 1451,
+                  "end": 1458
+                },
+                {
+                  "type": "Literal",
+                  "value": "strict",
+                  "raw": "\"strict\"",
+                  "start": 1460,
+                  "end": 1468
+                },
+                {
+                  "type": "Literal",
+                  "value": "stop-before-partial",
+                  "raw": "\"stop-before-partial\"",
+                  "start": 1470,
+                  "end": 1491
+                }
+              ],
+              "start": 1450,
+              "end": 1492
+            },
+            "body": {
+              "type": "BlockStatement",
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "expression": {
+                    "type": "CallExpression",
+                    "callee": {
+                      "type": "MemberExpression",
+                      "object": {
+                        "type": "Identifier",
+                        "name": "u8",
+                        "start": 1520,
+                        "end": 1522
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "name": "fill",
+                        "start": 1523,
+                        "end": 1527
+                      },
+                      "optional": false,
+                      "computed": false,
+                      "start": 1520,
+                      "end": 1527
+                    },
+                    "arguments": [
+                      {
+                        "type": "Literal",
+                        "value": 0,
+                        "raw": "0",
+                        "start": 1528,
+                        "end": 1529
+                      }
+                    ],
+                    "optional": false,
+                    "start": 1520,
+                    "end": 1530
+                  },
+                  "start": 1520,
+                  "end": 1531
+                },
+                {
+                  "type": "VariableDeclaration",
+                  "kind": "var",
+                  "declarations": [
+                    {
+                      "type": "VariableDeclarator",
+                      "id": {
+                        "type": "Identifier",
+                        "name": "result",
+                        "start": 1541,
+                        "end": 1547
+                      },
+                      "init": {
+                        "type": "CallExpression",
+                        "callee": {
+                          "type": "MemberExpression",
+                          "object": {
+                            "type": "Identifier",
+                            "name": "u8",
+                            "start": 1550,
+                            "end": 1552
+                          },
+                          "property": {
+                            "type": "Identifier",
+                            "name": "setFromBase64",
+                            "start": 1553,
+                            "end": 1566
+                          },
+                          "optional": false,
+                          "computed": false,
+                          "start": 1550,
+                          "end": 1566
+                        },
+                        "arguments": [
+                          {
+                            "type": "Identifier",
+                            "name": "valid",
+                            "start": 1567,
+                            "end": 1572
+                          },
+                          {
+                            "type": "ObjectExpression",
+                            "properties": [
+                              {
+                                "type": "Property",
+                                "kind": "init",
+                                "key": {
+                                  "type": "Identifier",
+                                  "name": "lastChunkHandling",
+                                  "start": 1575,
+                                  "end": 1592
+                                },
+                                "value": {
+                                  "type": "Identifier",
+                                  "name": "lastChunkHandling",
+                                  "start": 1575,
+                                  "end": 1592
+                                },
+                                "method": false,
+                                "shorthand": true,
+                                "computed": false,
+                                "start": 1575,
+                                "end": 1592
+                              }
+                            ],
+                            "start": 1574,
+                            "end": 1593
+                          }
+                        ],
+                        "optional": false,
+                        "start": 1550,
+                        "end": 1594
+                      },
+                      "start": 1541,
+                      "end": 1594
+                    }
+                  ],
+                  "start": 1537,
+                  "end": 1595
+                },
+                {
+                  "type": "ExpressionStatement",
+                  "expression": {
+                    "type": "CallExpression",
+                    "callee": {
+                      "type": "MemberExpression",
+                      "object": {
+                        "type": "Identifier",
+                        "name": "assert",
+                        "start": 1600,
+                        "end": 1606
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "name": "sameValue",
+                        "start": 1607,
+                        "end": 1616
+                      },
+                      "optional": false,
+                      "computed": false,
+                      "start": 1600,
+                      "end": 1616
+                    },
+                    "arguments": [
+                      {
+                        "type": "MemberExpression",
+                        "object": {
+                          "type": "Identifier",
+                          "name": "result",
+                          "start": 1624,
+                          "end": 1630
+                        },
+                        "property": {
+                          "type": "Identifier",
+                          "name": "read",
+                          "start": 1631,
+                          "end": 1635
+                        },
+                        "optional": false,
+                        "computed": false,
+                        "start": 1624,
+                        "end": 1635
+                      },
+                      {
+                        "type": "Literal",
+                        "value": 4,
+                        "raw": "4",
+                        "start": 1643,
+                        "end": 1644
+                      },
+                      {
+                        "type": "TemplateLiteral",
+                        "quasis": [
+                          {
+                            "type": "TemplateElement",
+                            "value": {
+                              "raw": "Read for \"",
+                              "cooked": "Read for \""
+                            },
+                            "tail": false,
+                            "start": 1653,
+                            "end": 1663
+                          },
+                          {
+                            "type": "TemplateElement",
+                            "value": {
+                              "raw": "\" with lastChunkHandling=\"",
+                              "cooked": "\" with lastChunkHandling=\""
+                            },
+                            "tail": false,
+                            "start": 1671,
+                            "end": 1697
+                          },
+                          {
+                            "type": "TemplateElement",
+                            "value": {
+                              "raw": "\"",
+                              "cooked": "\""
+                            },
+                            "tail": true,
+                            "start": 1717,
+                            "end": 1718
+                          }
+                        ],
+                        "expressions": [
+                          {
+                            "type": "Identifier",
+                            "name": "valid",
+                            "start": 1665,
+                            "end": 1670
+                          },
+                          {
+                            "type": "Identifier",
+                            "name": "lastChunkHandling",
+                            "start": 1699,
+                            "end": 1716
+                          }
+                        ],
+                        "start": 1652,
+                        "end": 1719
+                      }
+                    ],
+                    "optional": false,
+                    "start": 1600,
+                    "end": 1725
+                  },
+                  "start": 1600,
+                  "end": 1726
+                },
+                {
+                  "type": "ExpressionStatement",
+                  "expression": {
+                    "type": "CallExpression",
+                    "callee": {
+                      "type": "MemberExpression",
+                      "object": {
+                        "type": "Identifier",
+                        "name": "assert",
+                        "start": 1731,
+                        "end": 1737
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "name": "sameValue",
+                        "start": 1738,
+                        "end": 1747
+                      },
+                      "optional": false,
+                      "computed": false,
+                      "start": 1731,
+                      "end": 1747
+                    },
+                    "arguments": [
+                      {
+                        "type": "MemberExpression",
+                        "object": {
+                          "type": "Identifier",
+                          "name": "result",
+                          "start": 1755,
+                          "end": 1761
+                        },
+                        "property": {
+                          "type": "Identifier",
+                          "name": "written",
+                          "start": 1762,
+                          "end": 1769
+                        },
+                        "optional": false,
+                        "computed": false,
+                        "start": 1755,
+                        "end": 1769
+                      },
+                      {
+                        "type": "Literal",
+                        "value": 3,
+                        "raw": "3",
+                        "start": 1777,
+                        "end": 1778
+                      },
+                      {
+                        "type": "TemplateLiteral",
+                        "quasis": [
+                          {
+                            "type": "TemplateElement",
+                            "value": {
+                              "raw": "Write for \"",
+                              "cooked": "Write for \""
+                            },
+                            "tail": false,
+                            "start": 1787,
+                            "end": 1798
+                          },
+                          {
+                            "type": "TemplateElement",
+                            "value": {
+                              "raw": "\" with lastChunkHandling=\"",
+                              "cooked": "\" with lastChunkHandling=\""
+                            },
+                            "tail": false,
+                            "start": 1806,
+                            "end": 1832
+                          },
+                          {
+                            "type": "TemplateElement",
+                            "value": {
+                              "raw": "\"",
+                              "cooked": "\""
+                            },
+                            "tail": true,
+                            "start": 1852,
+                            "end": 1853
+                          }
+                        ],
+                        "expressions": [
+                          {
+                            "type": "Identifier",
+                            "name": "valid",
+                            "start": 1800,
+                            "end": 1805
+                          },
+                          {
+                            "type": "Identifier",
+                            "name": "lastChunkHandling",
+                            "start": 1834,
+                            "end": 1851
+                          }
+                        ],
+                        "start": 1786,
+                        "end": 1854
+                      }
+                    ],
+                    "optional": false,
+                    "start": 1731,
+                    "end": 1860
+                  },
+                  "start": 1731,
+                  "end": 1861
+                },
+                {
+                  "type": "ExpressionStatement",
+                  "expression": {
+                    "type": "CallExpression",
+                    "callee": {
+                      "type": "MemberExpression",
+                      "object": {
+                        "type": "Identifier",
+                        "name": "assert",
+                        "start": 1866,
+                        "end": 1872
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "name": "sameValue",
+                        "start": 1873,
+                        "end": 1882
+                      },
+                      "optional": false,
+                      "computed": false,
+                      "start": 1866,
+                      "end": 1882
+                    },
+                    "arguments": [
+                      {
+                        "type": "MemberExpression",
+                        "object": {
+                          "type": "Identifier",
+                          "name": "u8",
+                          "start": 1890,
+                          "end": 1892
+                        },
+                        "property": {
+                          "type": "Literal",
+                          "value": 0,
+                          "raw": "0",
+                          "start": 1893,
+                          "end": 1894
+                        },
+                        "optional": false,
+                        "computed": true,
+                        "start": 1890,
+                        "end": 1895
+                      },
+                      {
+                        "type": "Literal",
+                        "value": 105,
+                        "raw": "0x69",
+                        "start": 1903,
+                        "end": 1907
+                      },
+                      {
+                        "type": "TemplateLiteral",
+                        "quasis": [
+                          {
+                            "type": "TemplateElement",
+                            "value": {
+                              "raw": "Index=0 for \"",
+                              "cooked": "Index=0 for \""
+                            },
+                            "tail": false,
+                            "start": 1916,
+                            "end": 1929
+                          },
+                          {
+                            "type": "TemplateElement",
+                            "value": {
+                              "raw": "\" with lastChunkHandling=\"",
+                              "cooked": "\" with lastChunkHandling=\""
+                            },
+                            "tail": false,
+                            "start": 1937,
+                            "end": 1963
+                          },
+                          {
+                            "type": "TemplateElement",
+                            "value": {
+                              "raw": "\"",
+                              "cooked": "\""
+                            },
+                            "tail": true,
+                            "start": 1983,
+                            "end": 1984
+                          }
+                        ],
+                        "expressions": [
+                          {
+                            "type": "Identifier",
+                            "name": "valid",
+                            "start": 1931,
+                            "end": 1936
+                          },
+                          {
+                            "type": "Identifier",
+                            "name": "lastChunkHandling",
+                            "start": 1965,
+                            "end": 1982
+                          }
+                        ],
+                        "start": 1915,
+                        "end": 1985
+                      }
+                    ],
+                    "optional": false,
+                    "start": 1866,
+                    "end": 1991
+                  },
+                  "start": 1866,
+                  "end": 1992
+                },
+                {
+                  "type": "ExpressionStatement",
+                  "expression": {
+                    "type": "CallExpression",
+                    "callee": {
+                      "type": "MemberExpression",
+                      "object": {
+                        "type": "Identifier",
+                        "name": "assert",
+                        "start": 1997,
+                        "end": 2003
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "name": "sameValue",
+                        "start": 2004,
+                        "end": 2013
+                      },
+                      "optional": false,
+                      "computed": false,
+                      "start": 1997,
+                      "end": 2013
+                    },
+                    "arguments": [
+                      {
+                        "type": "MemberExpression",
+                        "object": {
+                          "type": "Identifier",
+                          "name": "u8",
+                          "start": 2021,
+                          "end": 2023
+                        },
+                        "property": {
+                          "type": "Literal",
+                          "value": 1,
+                          "raw": "1",
+                          "start": 2024,
+                          "end": 2025
+                        },
+                        "optional": false,
+                        "computed": true,
+                        "start": 2021,
+                        "end": 2026
+                      },
+                      {
+                        "type": "Literal",
+                        "value": 166,
+                        "raw": "0xa6",
+                        "start": 2034,
+                        "end": 2038
+                      },
+                      {
+                        "type": "TemplateLiteral",
+                        "quasis": [
+                          {
+                            "type": "TemplateElement",
+                            "value": {
+                              "raw": "Index=1 for \"",
+                              "cooked": "Index=1 for \""
+                            },
+                            "tail": false,
+                            "start": 2047,
+                            "end": 2060
+                          },
+                          {
+                            "type": "TemplateElement",
+                            "value": {
+                              "raw": "\" with lastChunkHandling=\"",
+                              "cooked": "\" with lastChunkHandling=\""
+                            },
+                            "tail": false,
+                            "start": 2068,
+                            "end": 2094
+                          },
+                          {
+                            "type": "TemplateElement",
+                            "value": {
+                              "raw": "\"",
+                              "cooked": "\""
+                            },
+                            "tail": true,
+                            "start": 2114,
+                            "end": 2115
+                          }
+                        ],
+                        "expressions": [
+                          {
+                            "type": "Identifier",
+                            "name": "valid",
+                            "start": 2062,
+                            "end": 2067
+                          },
+                          {
+                            "type": "Identifier",
+                            "name": "lastChunkHandling",
+                            "start": 2096,
+                            "end": 2113
+                          }
+                        ],
+                        "start": 2046,
+                        "end": 2116
+                      }
+                    ],
+                    "optional": false,
+                    "start": 1997,
+                    "end": 2122
+                  },
+                  "start": 1997,
+                  "end": 2123
+                },
+                {
+                  "type": "ExpressionStatement",
+                  "expression": {
+                    "type": "CallExpression",
+                    "callee": {
+                      "type": "MemberExpression",
+                      "object": {
+                        "type": "Identifier",
+                        "name": "assert",
+                        "start": 2128,
+                        "end": 2134
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "name": "sameValue",
+                        "start": 2135,
+                        "end": 2144
+                      },
+                      "optional": false,
+                      "computed": false,
+                      "start": 2128,
+                      "end": 2144
+                    },
+                    "arguments": [
+                      {
+                        "type": "MemberExpression",
+                        "object": {
+                          "type": "Identifier",
+                          "name": "u8",
+                          "start": 2152,
+                          "end": 2154
+                        },
+                        "property": {
+                          "type": "Literal",
+                          "value": 2,
+                          "raw": "2",
+                          "start": 2155,
+                          "end": 2156
+                        },
+                        "optional": false,
+                        "computed": true,
+                        "start": 2152,
+                        "end": 2157
+                      },
+                      {
+                        "type": "Literal",
+                        "value": 154,
+                        "raw": "0x9a",
+                        "start": 2165,
+                        "end": 2169
+                      },
+                      {
+                        "type": "TemplateLiteral",
+                        "quasis": [
+                          {
+                            "type": "TemplateElement",
+                            "value": {
+                              "raw": "Index=2 for \"",
+                              "cooked": "Index=2 for \""
+                            },
+                            "tail": false,
+                            "start": 2178,
+                            "end": 2191
+                          },
+                          {
+                            "type": "TemplateElement",
+                            "value": {
+                              "raw": "\" with lastChunkHandling=\"",
+                              "cooked": "\" with lastChunkHandling=\""
+                            },
+                            "tail": false,
+                            "start": 2199,
+                            "end": 2225
+                          },
+                          {
+                            "type": "TemplateElement",
+                            "value": {
+                              "raw": "\"",
+                              "cooked": "\""
+                            },
+                            "tail": true,
+                            "start": 2245,
+                            "end": 2246
+                          }
+                        ],
+                        "expressions": [
+                          {
+                            "type": "Identifier",
+                            "name": "valid",
+                            "start": 2193,
+                            "end": 2198
+                          },
+                          {
+                            "type": "Identifier",
+                            "name": "lastChunkHandling",
+                            "start": 2227,
+                            "end": 2244
+                          }
+                        ],
+                        "start": 2177,
+                        "end": 2247
+                      }
+                    ],
+                    "optional": false,
+                    "start": 2128,
+                    "end": 2253
+                  },
+                  "start": 2128,
+                  "end": 2254
+                }
+              ],
+              "start": 1494,
+              "end": 2258
+            },
+            "start": 1420,
+            "end": 2258
+          }
+        ],
+        "start": 1416,
+        "end": 2260
+      },
+      "start": 1328,
+      "end": 2260
+    }
+  ],
+  "sourceType": "script",
+  "hashbang": null,
+  "start": 0,
+  "end": 2261
+}

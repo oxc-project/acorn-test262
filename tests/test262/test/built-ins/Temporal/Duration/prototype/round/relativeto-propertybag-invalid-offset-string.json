@@ -531,12 +531,12 @@
                           {
                             "type": "TemplateElement",
                             "value": {
-                              "raw": " is not a valid offset string",
-                              "cooked": " is not a valid offset string"
+                              "raw": "\" is not a valid offset string",
+                              "cooked": "\" is not a valid offset string"
                             },
                             "tail": true,
                             "start": 895,
-                            "end": 924
+                            "end": 925
                           }
                         ],
                         "expressions": [
@@ -548,36 +548,36 @@
                           }
                         ],
                         "start": 884,
-                        "end": 925
+                        "end": 926
                       }
                     ],
                     "optional": false,
                     "start": 743,
-                    "end": 929
+                    "end": 930
                   },
                   "start": 743,
-                  "end": 930
+                  "end": 931
                 }
               ],
               "start": 664,
-              "end": 932
+              "end": 933
             },
             "id": null,
             "generator": false,
             "start": 652,
-            "end": 932
+            "end": 933
           }
         ],
         "optional": false,
         "start": 633,
-        "end": 933
+        "end": 934
       },
       "start": 633,
-      "end": 934
+      "end": 935
     }
   ],
   "sourceType": "script",
   "hashbang": null,
   "start": 0,
-  "end": 935
+  "end": 936
 }

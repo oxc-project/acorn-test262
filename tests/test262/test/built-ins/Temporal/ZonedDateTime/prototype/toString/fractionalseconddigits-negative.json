@@ -1,0 +1,148 @@
+{
+  "type": "Program",
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "kind": "const",
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "id": {
+            "type": "Identifier",
+            "name": "zdt",
+            "start": 332,
+            "end": 335
+          },
+          "init": {
+            "type": "NewExpression",
+            "callee": {
+              "type": "MemberExpression",
+              "object": {
+                "type": "Identifier",
+                "name": "Temporal",
+                "start": 342,
+                "end": 350
+              },
+              "property": {
+                "type": "Identifier",
+                "name": "ZonedDateTime",
+                "start": 351,
+                "end": 364
+              },
+              "optional": false,
+              "computed": false,
+              "start": 342,
+              "end": 364
+            },
+            "arguments": [
+              {
+                "type": "UnaryExpression",
+                "operator": "-",
+                "argument": {
+                  "type": "Literal",
+                  "value": null,
+                  "raw": "1000000000000001000n",
+                  "bigint": "1000000000000001000",
+                  "start": 366,
+                  "end": 386
+                },
+                "prefix": true,
+                "start": 365,
+                "end": 386
+              },
+              {
+                "type": "Literal",
+                "value": "UTC",
+                "raw": "\"UTC\"",
+                "start": 388,
+                "end": 393
+              }
+            ],
+            "start": 338,
+            "end": 394
+          },
+          "start": 332,
+          "end": 394
+        }
+      ],
+      "start": 326,
+      "end": 395
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "MemberExpression",
+          "object": {
+            "type": "Identifier",
+            "name": "assert",
+            "start": 396,
+            "end": 402
+          },
+          "property": {
+            "type": "Identifier",
+            "name": "sameValue",
+            "start": 403,
+            "end": 412
+          },
+          "optional": false,
+          "computed": false,
+          "start": 396,
+          "end": 412
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "callee": {
+              "type": "MemberExpression",
+              "object": {
+                "type": "Identifier",
+                "name": "zdt",
+                "start": 413,
+                "end": 416
+              },
+              "property": {
+                "type": "Identifier",
+                "name": "toString",
+                "start": 417,
+                "end": 425
+              },
+              "optional": false,
+              "computed": false,
+              "start": 413,
+              "end": 425
+            },
+            "arguments": [],
+            "optional": false,
+            "start": 413,
+            "end": 427
+          },
+          {
+            "type": "Literal",
+            "value": "1938-04-24T22:13:19.999999+00:00[UTC]",
+            "raw": "\"1938-04-24T22:13:19.999999+00:00[UTC]\"",
+            "start": 429,
+            "end": 468
+          },
+          {
+            "type": "Literal",
+            "value": "epoch milliseconds should be rounded down to compute seconds",
+            "raw": "\"epoch milliseconds should be rounded down to compute seconds\"",
+            "start": 487,
+            "end": 549
+          }
+        ],
+        "optional": false,
+        "start": 396,
+        "end": 550
+      },
+      "start": 396,
+      "end": 551
+    }
+  ],
+  "sourceType": "script",
+  "hashbang": null,
+  "start": 0,
+  "end": 552
+}
