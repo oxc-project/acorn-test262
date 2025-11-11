@@ -1,0 +1,35 @@
+{
+  "type": "Program",
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "kind": "using",
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "id": {
+            "type": "Identifier",
+            "name": "x",
+            "start": 701,
+            "end": 702
+          },
+          "init": {
+            "type": "Literal",
+            "value": null,
+            "raw": "null",
+            "start": 705,
+            "end": 709
+          },
+          "start": 701,
+          "end": 709
+        }
+      ],
+      "start": 695,
+      "end": 710
+    }
+  ],
+  "sourceType": "module",
+  "hashbang": null,
+  "start": 0,
+  "end": 711
+}

@@ -1,0 +1,861 @@
+{
+  "type": "Program",
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "kind": "const",
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "id": {
+            "type": "Identifier",
+            "name": "availableCalendars",
+            "start": 959,
+            "end": 977
+          },
+          "init": {
+            "type": "ArrayExpression",
+            "elements": [
+              {
+                "type": "Literal",
+                "value": "buddhist",
+                "raw": "\"buddhist\"",
+                "start": 984,
+                "end": 994
+              },
+              {
+                "type": "Literal",
+                "value": "chinese",
+                "raw": "\"chinese\"",
+                "start": 997,
+                "end": 1006
+              },
+              {
+                "type": "Literal",
+                "value": "coptic",
+                "raw": "\"coptic\"",
+                "start": 1009,
+                "end": 1017
+              },
+              {
+                "type": "Literal",
+                "value": "dangi",
+                "raw": "\"dangi\"",
+                "start": 1020,
+                "end": 1027
+              },
+              {
+                "type": "Literal",
+                "value": "ethioaa",
+                "raw": "\"ethioaa\"",
+                "start": 1030,
+                "end": 1039
+              },
+              {
+                "type": "Literal",
+                "value": "ethiopic",
+                "raw": "\"ethiopic\"",
+                "start": 1042,
+                "end": 1052
+              },
+              {
+                "type": "Literal",
+                "value": "gregory",
+                "raw": "\"gregory\"",
+                "start": 1055,
+                "end": 1064
+              },
+              {
+                "type": "Literal",
+                "value": "hebrew",
+                "raw": "\"hebrew\"",
+                "start": 1067,
+                "end": 1075
+              },
+              {
+                "type": "Literal",
+                "value": "indian",
+                "raw": "\"indian\"",
+                "start": 1078,
+                "end": 1086
+              },
+              {
+                "type": "Literal",
+                "value": "islamic-civil",
+                "raw": "\"islamic-civil\"",
+                "start": 1089,
+                "end": 1104
+              },
+              {
+                "type": "Literal",
+                "value": "islamic-tbla",
+                "raw": "\"islamic-tbla\"",
+                "start": 1107,
+                "end": 1121
+              },
+              {
+                "type": "Literal",
+                "value": "islamic-umalqura",
+                "raw": "\"islamic-umalqura\"",
+                "start": 1124,
+                "end": 1142
+              },
+              {
+                "type": "Literal",
+                "value": "iso8601",
+                "raw": "\"iso8601\"",
+                "start": 1145,
+                "end": 1154
+              },
+              {
+                "type": "Literal",
+                "value": "japanese",
+                "raw": "\"japanese\"",
+                "start": 1157,
+                "end": 1167
+              },
+              {
+                "type": "Literal",
+                "value": "persian",
+                "raw": "\"persian\"",
+                "start": 1170,
+                "end": 1179
+              },
+              {
+                "type": "Literal",
+                "value": "roc",
+                "raw": "\"roc\"",
+                "start": 1182,
+                "end": 1187
+              }
+            ],
+            "start": 980,
+            "end": 1190
+          },
+          "start": 959,
+          "end": 1190
+        }
+      ],
+      "start": 953,
+      "end": 1191
+    },
+    {
+      "type": "VariableDeclaration",
+      "kind": "const",
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "id": {
+            "type": "Identifier",
+            "name": "islamic",
+            "start": 1199,
+            "end": 1206
+          },
+          "init": {
+            "type": "NewExpression",
+            "callee": {
+              "type": "MemberExpression",
+              "object": {
+                "type": "Identifier",
+                "name": "Intl",
+                "start": 1213,
+                "end": 1217
+              },
+              "property": {
+                "type": "Identifier",
+                "name": "DateTimeFormat",
+                "start": 1218,
+                "end": 1232
+              },
+              "optional": false,
+              "computed": false,
+              "start": 1213,
+              "end": 1232
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "value": "en",
+                "raw": "\"en\"",
+                "start": 1233,
+                "end": 1237
+              },
+              {
+                "type": "ObjectExpression",
+                "properties": [
+                  {
+                    "type": "Property",
+                    "kind": "init",
+                    "key": {
+                      "type": "Identifier",
+                      "name": "calendar",
+                      "start": 1241,
+                      "end": 1249
+                    },
+                    "value": {
+                      "type": "Literal",
+                      "value": "islamic",
+                      "raw": "\"islamic\"",
+                      "start": 1251,
+                      "end": 1260
+                    },
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false,
+                    "start": 1241,
+                    "end": 1260
+                  }
+                ],
+                "start": 1239,
+                "end": 1262
+              }
+            ],
+            "start": 1209,
+            "end": 1263
+          },
+          "start": 1199,
+          "end": 1263
+        }
+      ],
+      "start": 1193,
+      "end": 1264
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "MemberExpression",
+          "object": {
+            "type": "Identifier",
+            "name": "assert",
+            "start": 1265,
+            "end": 1271
+          },
+          "property": {
+            "type": "Identifier",
+            "name": "sameValue",
+            "start": 1272,
+            "end": 1281
+          },
+          "optional": false,
+          "computed": false,
+          "start": 1265,
+          "end": 1281
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "callee": {
+              "type": "MemberExpression",
+              "object": {
+                "type": "Identifier",
+                "name": "availableCalendars",
+                "start": 1282,
+                "end": 1300
+              },
+              "property": {
+                "type": "Identifier",
+                "name": "includes",
+                "start": 1301,
+                "end": 1309
+              },
+              "optional": false,
+              "computed": false,
+              "start": 1282,
+              "end": 1309
+            },
+            "arguments": [
+              {
+                "type": "MemberExpression",
+                "object": {
+                  "type": "CallExpression",
+                  "callee": {
+                    "type": "MemberExpression",
+                    "object": {
+                      "type": "Identifier",
+                      "name": "islamic",
+                      "start": 1310,
+                      "end": 1317
+                    },
+                    "property": {
+                      "type": "Identifier",
+                      "name": "resolvedOptions",
+                      "start": 1318,
+                      "end": 1333
+                    },
+                    "optional": false,
+                    "computed": false,
+                    "start": 1310,
+                    "end": 1333
+                  },
+                  "arguments": [],
+                  "optional": false,
+                  "start": 1310,
+                  "end": 1335
+                },
+                "property": {
+                  "type": "Identifier",
+                  "name": "calendar",
+                  "start": 1336,
+                  "end": 1344
+                },
+                "optional": false,
+                "computed": false,
+                "start": 1310,
+                "end": 1344
+              }
+            ],
+            "optional": false,
+            "start": 1282,
+            "end": 1345
+          },
+          {
+            "type": "Literal",
+            "value": true,
+            "raw": "true",
+            "start": 1347,
+            "end": 1351
+          },
+          {
+            "type": "Literal",
+            "value": "no valid fallback for 'islamic' calendar option",
+            "raw": "\"no valid fallback for 'islamic' calendar option\"",
+            "start": 1353,
+            "end": 1402
+          }
+        ],
+        "optional": false,
+        "start": 1265,
+        "end": 1403
+      },
+      "start": 1265,
+      "end": 1404
+    },
+    {
+      "type": "VariableDeclaration",
+      "kind": "const",
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "id": {
+            "type": "Identifier",
+            "name": "islamicRgsa",
+            "start": 1412,
+            "end": 1423
+          },
+          "init": {
+            "type": "NewExpression",
+            "callee": {
+              "type": "MemberExpression",
+              "object": {
+                "type": "Identifier",
+                "name": "Intl",
+                "start": 1431,
+                "end": 1435
+              },
+              "property": {
+                "type": "Identifier",
+                "name": "DateTimeFormat",
+                "start": 1436,
+                "end": 1450
+              },
+              "optional": false,
+              "computed": false,
+              "start": 1431,
+              "end": 1450
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "value": "en",
+                "raw": "\"en\"",
+                "start": 1451,
+                "end": 1455
+              },
+              {
+                "type": "ObjectExpression",
+                "properties": [
+                  {
+                    "type": "Property",
+                    "kind": "init",
+                    "key": {
+                      "type": "Identifier",
+                      "name": "calendar",
+                      "start": 1459,
+                      "end": 1467
+                    },
+                    "value": {
+                      "type": "Literal",
+                      "value": "islamic-rgsa",
+                      "raw": "\"islamic-rgsa\"",
+                      "start": 1469,
+                      "end": 1483
+                    },
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false,
+                    "start": 1459,
+                    "end": 1483
+                  }
+                ],
+                "start": 1457,
+                "end": 1485
+              }
+            ],
+            "start": 1427,
+            "end": 1486
+          },
+          "start": 1412,
+          "end": 1486
+        }
+      ],
+      "start": 1406,
+      "end": 1487
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "MemberExpression",
+          "object": {
+            "type": "Identifier",
+            "name": "assert",
+            "start": 1488,
+            "end": 1494
+          },
+          "property": {
+            "type": "Identifier",
+            "name": "sameValue",
+            "start": 1495,
+            "end": 1504
+          },
+          "optional": false,
+          "computed": false,
+          "start": 1488,
+          "end": 1504
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "callee": {
+              "type": "MemberExpression",
+              "object": {
+                "type": "Identifier",
+                "name": "availableCalendars",
+                "start": 1505,
+                "end": 1523
+              },
+              "property": {
+                "type": "Identifier",
+                "name": "includes",
+                "start": 1524,
+                "end": 1532
+              },
+              "optional": false,
+              "computed": false,
+              "start": 1505,
+              "end": 1532
+            },
+            "arguments": [
+              {
+                "type": "MemberExpression",
+                "object": {
+                  "type": "CallExpression",
+                  "callee": {
+                    "type": "MemberExpression",
+                    "object": {
+                      "type": "Identifier",
+                      "name": "islamicRgsa",
+                      "start": 1533,
+                      "end": 1544
+                    },
+                    "property": {
+                      "type": "Identifier",
+                      "name": "resolvedOptions",
+                      "start": 1545,
+                      "end": 1560
+                    },
+                    "optional": false,
+                    "computed": false,
+                    "start": 1533,
+                    "end": 1560
+                  },
+                  "arguments": [],
+                  "optional": false,
+                  "start": 1533,
+                  "end": 1562
+                },
+                "property": {
+                  "type": "Identifier",
+                  "name": "calendar",
+                  "start": 1563,
+                  "end": 1571
+                },
+                "optional": false,
+                "computed": false,
+                "start": 1533,
+                "end": 1571
+              }
+            ],
+            "optional": false,
+            "start": 1505,
+            "end": 1572
+          },
+          {
+            "type": "Literal",
+            "value": true,
+            "raw": "true",
+            "start": 1574,
+            "end": 1578
+          },
+          {
+            "type": "Literal",
+            "value": "no valid fallback for 'islamic-rgsa' calendar option",
+            "raw": "\"no valid fallback for 'islamic-rgsa' calendar option\"",
+            "start": 1580,
+            "end": 1634
+          }
+        ],
+        "optional": false,
+        "start": 1488,
+        "end": 1635
+      },
+      "start": 1488,
+      "end": 1636
+    },
+    {
+      "type": "VariableDeclaration",
+      "kind": "const",
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "id": {
+            "type": "Identifier",
+            "name": "islamicUExtension",
+            "start": 1644,
+            "end": 1661
+          },
+          "init": {
+            "type": "NewExpression",
+            "callee": {
+              "type": "MemberExpression",
+              "object": {
+                "type": "Identifier",
+                "name": "Intl",
+                "start": 1668,
+                "end": 1672
+              },
+              "property": {
+                "type": "Identifier",
+                "name": "DateTimeFormat",
+                "start": 1673,
+                "end": 1687
+              },
+              "optional": false,
+              "computed": false,
+              "start": 1668,
+              "end": 1687
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "value": "en-u-ca-islamic",
+                "raw": "\"en-u-ca-islamic\"",
+                "start": 1688,
+                "end": 1705
+              }
+            ],
+            "start": 1664,
+            "end": 1706
+          },
+          "start": 1644,
+          "end": 1706
+        }
+      ],
+      "start": 1638,
+      "end": 1707
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "MemberExpression",
+          "object": {
+            "type": "Identifier",
+            "name": "assert",
+            "start": 1708,
+            "end": 1714
+          },
+          "property": {
+            "type": "Identifier",
+            "name": "sameValue",
+            "start": 1715,
+            "end": 1724
+          },
+          "optional": false,
+          "computed": false,
+          "start": 1708,
+          "end": 1724
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "callee": {
+              "type": "MemberExpression",
+              "object": {
+                "type": "Identifier",
+                "name": "availableCalendars",
+                "start": 1725,
+                "end": 1743
+              },
+              "property": {
+                "type": "Identifier",
+                "name": "includes",
+                "start": 1744,
+                "end": 1752
+              },
+              "optional": false,
+              "computed": false,
+              "start": 1725,
+              "end": 1752
+            },
+            "arguments": [
+              {
+                "type": "MemberExpression",
+                "object": {
+                  "type": "CallExpression",
+                  "callee": {
+                    "type": "MemberExpression",
+                    "object": {
+                      "type": "Identifier",
+                      "name": "islamicUExtension",
+                      "start": 1753,
+                      "end": 1770
+                    },
+                    "property": {
+                      "type": "Identifier",
+                      "name": "resolvedOptions",
+                      "start": 1771,
+                      "end": 1786
+                    },
+                    "optional": false,
+                    "computed": false,
+                    "start": 1753,
+                    "end": 1786
+                  },
+                  "arguments": [],
+                  "optional": false,
+                  "start": 1753,
+                  "end": 1788
+                },
+                "property": {
+                  "type": "Identifier",
+                  "name": "calendar",
+                  "start": 1789,
+                  "end": 1797
+                },
+                "optional": false,
+                "computed": false,
+                "start": 1753,
+                "end": 1797
+              }
+            ],
+            "optional": false,
+            "start": 1725,
+            "end": 1798
+          },
+          {
+            "type": "Literal",
+            "value": true,
+            "raw": "true",
+            "start": 1800,
+            "end": 1804
+          },
+          {
+            "type": "Literal",
+            "value": "no valid fallback for 'islamic' calendar u extension",
+            "raw": "\"no valid fallback for 'islamic' calendar u extension\"",
+            "start": 1806,
+            "end": 1860
+          }
+        ],
+        "optional": false,
+        "start": 1708,
+        "end": 1861
+      },
+      "start": 1708,
+      "end": 1862
+    },
+    {
+      "type": "VariableDeclaration",
+      "kind": "const",
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "id": {
+            "type": "Identifier",
+            "name": "islamicRgsaUExtension",
+            "start": 1870,
+            "end": 1891
+          },
+          "init": {
+            "type": "NewExpression",
+            "callee": {
+              "type": "MemberExpression",
+              "object": {
+                "type": "Identifier",
+                "name": "Intl",
+                "start": 1898,
+                "end": 1902
+              },
+              "property": {
+                "type": "Identifier",
+                "name": "DateTimeFormat",
+                "start": 1903,
+                "end": 1917
+              },
+              "optional": false,
+              "computed": false,
+              "start": 1898,
+              "end": 1917
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "value": "en-u-ca-islamic-rgsa",
+                "raw": "\"en-u-ca-islamic-rgsa\"",
+                "start": 1918,
+                "end": 1940
+              }
+            ],
+            "start": 1894,
+            "end": 1941
+          },
+          "start": 1870,
+          "end": 1941
+        }
+      ],
+      "start": 1864,
+      "end": 1942
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "MemberExpression",
+          "object": {
+            "type": "Identifier",
+            "name": "assert",
+            "start": 1943,
+            "end": 1949
+          },
+          "property": {
+            "type": "Identifier",
+            "name": "sameValue",
+            "start": 1950,
+            "end": 1959
+          },
+          "optional": false,
+          "computed": false,
+          "start": 1943,
+          "end": 1959
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "callee": {
+              "type": "MemberExpression",
+              "object": {
+                "type": "Identifier",
+                "name": "availableCalendars",
+                "start": 1960,
+                "end": 1978
+              },
+              "property": {
+                "type": "Identifier",
+                "name": "includes",
+                "start": 1979,
+                "end": 1987
+              },
+              "optional": false,
+              "computed": false,
+              "start": 1960,
+              "end": 1987
+            },
+            "arguments": [
+              {
+                "type": "MemberExpression",
+                "object": {
+                  "type": "CallExpression",
+                  "callee": {
+                    "type": "MemberExpression",
+                    "object": {
+                      "type": "Identifier",
+                      "name": "islamicRgsaUExtension",
+                      "start": 1988,
+                      "end": 2009
+                    },
+                    "property": {
+                      "type": "Identifier",
+                      "name": "resolvedOptions",
+                      "start": 2010,
+                      "end": 2025
+                    },
+                    "optional": false,
+                    "computed": false,
+                    "start": 1988,
+                    "end": 2025
+                  },
+                  "arguments": [],
+                  "optional": false,
+                  "start": 1988,
+                  "end": 2027
+                },
+                "property": {
+                  "type": "Identifier",
+                  "name": "calendar",
+                  "start": 2028,
+                  "end": 2036
+                },
+                "optional": false,
+                "computed": false,
+                "start": 1988,
+                "end": 2036
+              }
+            ],
+            "optional": false,
+            "start": 1960,
+            "end": 2037
+          },
+          {
+            "type": "Literal",
+            "value": true,
+            "raw": "true",
+            "start": 2039,
+            "end": 2043
+          },
+          {
+            "type": "Literal",
+            "value": "no valid fallback for 'islamic-rgsa' calendar u extension",
+            "raw": "\"no valid fallback for 'islamic-rgsa' calendar u extension\"",
+            "start": 2045,
+            "end": 2104
+          }
+        ],
+        "optional": false,
+        "start": 1943,
+        "end": 2105
+      },
+      "start": 1943,
+      "end": 2106
+    }
+  ],
+  "sourceType": "script",
+  "hashbang": null,
+  "start": 0,
+  "end": 2107
+}

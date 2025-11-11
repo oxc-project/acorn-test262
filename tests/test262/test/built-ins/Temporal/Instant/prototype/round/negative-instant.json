@@ -1,0 +1,1559 @@
+{
+  "type": "Program",
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "kind": "const",
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "id": {
+            "type": "Identifier",
+            "name": "instance",
+            "start": 332,
+            "end": 340
+          },
+          "init": {
+            "type": "NewExpression",
+            "callee": {
+              "type": "MemberExpression",
+              "object": {
+                "type": "Identifier",
+                "name": "Temporal",
+                "start": 347,
+                "end": 355
+              },
+              "property": {
+                "type": "Identifier",
+                "name": "Instant",
+                "start": 356,
+                "end": 363
+              },
+              "optional": false,
+              "computed": false,
+              "start": 347,
+              "end": 363
+            },
+            "arguments": [
+              {
+                "type": "UnaryExpression",
+                "operator": "-",
+                "argument": {
+                  "type": "Literal",
+                  "value": null,
+                  "raw": "1000000000000000000n",
+                  "bigint": "1000000000000000000",
+                  "start": 365,
+                  "end": 385
+                },
+                "prefix": true,
+                "start": 364,
+                "end": 385
+              }
+            ],
+            "start": 343,
+            "end": 386
+          },
+          "start": 332,
+          "end": 386
+        }
+      ],
+      "start": 326,
+      "end": 387
+    },
+    {
+      "type": "VariableDeclaration",
+      "kind": "const",
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "id": {
+            "type": "Identifier",
+            "name": "roundedDown",
+            "start": 419,
+            "end": 430
+          },
+          "init": {
+            "type": "UnaryExpression",
+            "operator": "-",
+            "argument": {
+              "type": "Literal",
+              "value": null,
+              "raw": "1000000800000000000n",
+              "bigint": "1000000800000000000",
+              "start": 434,
+              "end": 454
+            },
+            "prefix": true,
+            "start": 433,
+            "end": 454
+          },
+          "start": 419,
+          "end": 454
+        }
+      ],
+      "start": 413,
+      "end": 455
+    },
+    {
+      "type": "VariableDeclaration",
+      "kind": "const",
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "id": {
+            "type": "Identifier",
+            "name": "roundedUp",
+            "start": 486,
+            "end": 495
+          },
+          "init": {
+            "type": "UnaryExpression",
+            "operator": "-",
+            "argument": {
+              "type": "Literal",
+              "value": null,
+              "raw": "999997200000000000n",
+              "bigint": "999997200000000000",
+              "start": 499,
+              "end": 518
+            },
+            "prefix": true,
+            "start": 498,
+            "end": 518
+          },
+          "start": 486,
+          "end": 518
+        }
+      ],
+      "start": 480,
+      "end": 519
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "MemberExpression",
+          "object": {
+            "type": "Identifier",
+            "name": "assert",
+            "start": 545,
+            "end": 551
+          },
+          "property": {
+            "type": "Identifier",
+            "name": "sameValue",
+            "start": 552,
+            "end": 561
+          },
+          "optional": false,
+          "computed": false,
+          "start": 545,
+          "end": 561
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "object": {
+              "type": "CallExpression",
+              "callee": {
+                "type": "MemberExpression",
+                "object": {
+                  "type": "Identifier",
+                  "name": "instance",
+                  "start": 565,
+                  "end": 573
+                },
+                "property": {
+                  "type": "Identifier",
+                  "name": "round",
+                  "start": 574,
+                  "end": 579
+                },
+                "optional": false,
+                "computed": false,
+                "start": 565,
+                "end": 579
+              },
+              "arguments": [
+                {
+                  "type": "ObjectExpression",
+                  "properties": [
+                    {
+                      "type": "Property",
+                      "kind": "init",
+                      "key": {
+                        "type": "Identifier",
+                        "name": "smallestUnit",
+                        "start": 582,
+                        "end": 594
+                      },
+                      "value": {
+                        "type": "Literal",
+                        "value": "hour",
+                        "raw": "\"hour\"",
+                        "start": 596,
+                        "end": 602
+                      },
+                      "method": false,
+                      "shorthand": false,
+                      "computed": false,
+                      "start": 582,
+                      "end": 602
+                    },
+                    {
+                      "type": "Property",
+                      "kind": "init",
+                      "key": {
+                        "type": "Identifier",
+                        "name": "roundingIncrement",
+                        "start": 604,
+                        "end": 621
+                      },
+                      "value": {
+                        "type": "Literal",
+                        "value": 1,
+                        "raw": "1",
+                        "start": 623,
+                        "end": 624
+                      },
+                      "method": false,
+                      "shorthand": false,
+                      "computed": false,
+                      "start": 604,
+                      "end": 624
+                    },
+                    {
+                      "type": "Property",
+                      "kind": "init",
+                      "key": {
+                        "type": "Identifier",
+                        "name": "roundingMode",
+                        "start": 626,
+                        "end": 638
+                      },
+                      "value": {
+                        "type": "Literal",
+                        "value": "halfCeil",
+                        "raw": "\"halfCeil\"",
+                        "start": 640,
+                        "end": 650
+                      },
+                      "method": false,
+                      "shorthand": false,
+                      "computed": false,
+                      "start": 626,
+                      "end": 650
+                    }
+                  ],
+                  "start": 580,
+                  "end": 652
+                }
+              ],
+              "optional": false,
+              "start": 565,
+              "end": 653
+            },
+            "property": {
+              "type": "Identifier",
+              "name": "epochNanoseconds",
+              "start": 654,
+              "end": 670
+            },
+            "optional": false,
+            "computed": false,
+            "start": 565,
+            "end": 670
+          },
+          {
+            "type": "Identifier",
+            "name": "roundedDown",
+            "start": 674,
+            "end": 685
+          },
+          {
+            "type": "Literal",
+            "value": "Rounding with halfCeil rounds to the closest hour",
+            "raw": "\"Rounding with halfCeil rounds to the closest hour\"",
+            "start": 689,
+            "end": 740
+          }
+        ],
+        "optional": false,
+        "start": 545,
+        "end": 742
+      },
+      "start": 545,
+      "end": 743
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "MemberExpression",
+          "object": {
+            "type": "Identifier",
+            "name": "assert",
+            "start": 745,
+            "end": 751
+          },
+          "property": {
+            "type": "Identifier",
+            "name": "sameValue",
+            "start": 752,
+            "end": 761
+          },
+          "optional": false,
+          "computed": false,
+          "start": 745,
+          "end": 761
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "object": {
+              "type": "CallExpression",
+              "callee": {
+                "type": "MemberExpression",
+                "object": {
+                  "type": "Identifier",
+                  "name": "instance",
+                  "start": 765,
+                  "end": 773
+                },
+                "property": {
+                  "type": "Identifier",
+                  "name": "round",
+                  "start": 774,
+                  "end": 779
+                },
+                "optional": false,
+                "computed": false,
+                "start": 765,
+                "end": 779
+              },
+              "arguments": [
+                {
+                  "type": "ObjectExpression",
+                  "properties": [
+                    {
+                      "type": "Property",
+                      "kind": "init",
+                      "key": {
+                        "type": "Identifier",
+                        "name": "smallestUnit",
+                        "start": 782,
+                        "end": 794
+                      },
+                      "value": {
+                        "type": "Literal",
+                        "value": "hour",
+                        "raw": "\"hour\"",
+                        "start": 796,
+                        "end": 802
+                      },
+                      "method": false,
+                      "shorthand": false,
+                      "computed": false,
+                      "start": 782,
+                      "end": 802
+                    },
+                    {
+                      "type": "Property",
+                      "kind": "init",
+                      "key": {
+                        "type": "Identifier",
+                        "name": "roundingIncrement",
+                        "start": 804,
+                        "end": 821
+                      },
+                      "value": {
+                        "type": "Literal",
+                        "value": 1,
+                        "raw": "1",
+                        "start": 823,
+                        "end": 824
+                      },
+                      "method": false,
+                      "shorthand": false,
+                      "computed": false,
+                      "start": 804,
+                      "end": 824
+                    },
+                    {
+                      "type": "Property",
+                      "kind": "init",
+                      "key": {
+                        "type": "Identifier",
+                        "name": "roundingMode",
+                        "start": 826,
+                        "end": 838
+                      },
+                      "value": {
+                        "type": "Literal",
+                        "value": "halfFloor",
+                        "raw": "\"halfFloor\"",
+                        "start": 840,
+                        "end": 851
+                      },
+                      "method": false,
+                      "shorthand": false,
+                      "computed": false,
+                      "start": 826,
+                      "end": 851
+                    }
+                  ],
+                  "start": 780,
+                  "end": 853
+                }
+              ],
+              "optional": false,
+              "start": 765,
+              "end": 854
+            },
+            "property": {
+              "type": "Identifier",
+              "name": "epochNanoseconds",
+              "start": 855,
+              "end": 871
+            },
+            "optional": false,
+            "computed": false,
+            "start": 765,
+            "end": 871
+          },
+          {
+            "type": "Identifier",
+            "name": "roundedDown",
+            "start": 875,
+            "end": 886
+          },
+          {
+            "type": "Literal",
+            "value": "Rounding with halfFloor rounds to the closest hour",
+            "raw": "\"Rounding with halfFloor rounds to the closest hour\"",
+            "start": 890,
+            "end": 942
+          }
+        ],
+        "optional": false,
+        "start": 745,
+        "end": 944
+      },
+      "start": 745,
+      "end": 945
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "MemberExpression",
+          "object": {
+            "type": "Identifier",
+            "name": "assert",
+            "start": 947,
+            "end": 953
+          },
+          "property": {
+            "type": "Identifier",
+            "name": "sameValue",
+            "start": 954,
+            "end": 963
+          },
+          "optional": false,
+          "computed": false,
+          "start": 947,
+          "end": 963
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "object": {
+              "type": "CallExpression",
+              "callee": {
+                "type": "MemberExpression",
+                "object": {
+                  "type": "Identifier",
+                  "name": "instance",
+                  "start": 967,
+                  "end": 975
+                },
+                "property": {
+                  "type": "Identifier",
+                  "name": "round",
+                  "start": 976,
+                  "end": 981
+                },
+                "optional": false,
+                "computed": false,
+                "start": 967,
+                "end": 981
+              },
+              "arguments": [
+                {
+                  "type": "ObjectExpression",
+                  "properties": [
+                    {
+                      "type": "Property",
+                      "kind": "init",
+                      "key": {
+                        "type": "Identifier",
+                        "name": "smallestUnit",
+                        "start": 984,
+                        "end": 996
+                      },
+                      "value": {
+                        "type": "Literal",
+                        "value": "hour",
+                        "raw": "\"hour\"",
+                        "start": 998,
+                        "end": 1004
+                      },
+                      "method": false,
+                      "shorthand": false,
+                      "computed": false,
+                      "start": 984,
+                      "end": 1004
+                    },
+                    {
+                      "type": "Property",
+                      "kind": "init",
+                      "key": {
+                        "type": "Identifier",
+                        "name": "roundingIncrement",
+                        "start": 1006,
+                        "end": 1023
+                      },
+                      "value": {
+                        "type": "Literal",
+                        "value": 1,
+                        "raw": "1",
+                        "start": 1025,
+                        "end": 1026
+                      },
+                      "method": false,
+                      "shorthand": false,
+                      "computed": false,
+                      "start": 1006,
+                      "end": 1026
+                    },
+                    {
+                      "type": "Property",
+                      "kind": "init",
+                      "key": {
+                        "type": "Identifier",
+                        "name": "roundingMode",
+                        "start": 1028,
+                        "end": 1040
+                      },
+                      "value": {
+                        "type": "Literal",
+                        "value": "halfExpand",
+                        "raw": "\"halfExpand\"",
+                        "start": 1042,
+                        "end": 1054
+                      },
+                      "method": false,
+                      "shorthand": false,
+                      "computed": false,
+                      "start": 1028,
+                      "end": 1054
+                    }
+                  ],
+                  "start": 982,
+                  "end": 1056
+                }
+              ],
+              "optional": false,
+              "start": 967,
+              "end": 1057
+            },
+            "property": {
+              "type": "Identifier",
+              "name": "epochNanoseconds",
+              "start": 1058,
+              "end": 1074
+            },
+            "optional": false,
+            "computed": false,
+            "start": 967,
+            "end": 1074
+          },
+          {
+            "type": "Identifier",
+            "name": "roundedDown",
+            "start": 1078,
+            "end": 1089
+          },
+          {
+            "type": "Literal",
+            "value": "Rounding with halfExpand rounds to the closest hour",
+            "raw": "\"Rounding with halfExpand rounds to the closest hour\"",
+            "start": 1093,
+            "end": 1146
+          }
+        ],
+        "optional": false,
+        "start": 947,
+        "end": 1148
+      },
+      "start": 947,
+      "end": 1149
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "MemberExpression",
+          "object": {
+            "type": "Identifier",
+            "name": "assert",
+            "start": 1151,
+            "end": 1157
+          },
+          "property": {
+            "type": "Identifier",
+            "name": "sameValue",
+            "start": 1158,
+            "end": 1167
+          },
+          "optional": false,
+          "computed": false,
+          "start": 1151,
+          "end": 1167
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "object": {
+              "type": "CallExpression",
+              "callee": {
+                "type": "MemberExpression",
+                "object": {
+                  "type": "Identifier",
+                  "name": "instance",
+                  "start": 1171,
+                  "end": 1179
+                },
+                "property": {
+                  "type": "Identifier",
+                  "name": "round",
+                  "start": 1180,
+                  "end": 1185
+                },
+                "optional": false,
+                "computed": false,
+                "start": 1171,
+                "end": 1185
+              },
+              "arguments": [
+                {
+                  "type": "ObjectExpression",
+                  "properties": [
+                    {
+                      "type": "Property",
+                      "kind": "init",
+                      "key": {
+                        "type": "Identifier",
+                        "name": "smallestUnit",
+                        "start": 1188,
+                        "end": 1200
+                      },
+                      "value": {
+                        "type": "Literal",
+                        "value": "hour",
+                        "raw": "\"hour\"",
+                        "start": 1202,
+                        "end": 1208
+                      },
+                      "method": false,
+                      "shorthand": false,
+                      "computed": false,
+                      "start": 1188,
+                      "end": 1208
+                    },
+                    {
+                      "type": "Property",
+                      "kind": "init",
+                      "key": {
+                        "type": "Identifier",
+                        "name": "roundingIncrement",
+                        "start": 1210,
+                        "end": 1227
+                      },
+                      "value": {
+                        "type": "Literal",
+                        "value": 1,
+                        "raw": "1",
+                        "start": 1229,
+                        "end": 1230
+                      },
+                      "method": false,
+                      "shorthand": false,
+                      "computed": false,
+                      "start": 1210,
+                      "end": 1230
+                    },
+                    {
+                      "type": "Property",
+                      "kind": "init",
+                      "key": {
+                        "type": "Identifier",
+                        "name": "roundingMode",
+                        "start": 1232,
+                        "end": 1244
+                      },
+                      "value": {
+                        "type": "Literal",
+                        "value": "halfTrunc",
+                        "raw": "\"halfTrunc\"",
+                        "start": 1246,
+                        "end": 1257
+                      },
+                      "method": false,
+                      "shorthand": false,
+                      "computed": false,
+                      "start": 1232,
+                      "end": 1257
+                    }
+                  ],
+                  "start": 1186,
+                  "end": 1259
+                }
+              ],
+              "optional": false,
+              "start": 1171,
+              "end": 1260
+            },
+            "property": {
+              "type": "Identifier",
+              "name": "epochNanoseconds",
+              "start": 1261,
+              "end": 1277
+            },
+            "optional": false,
+            "computed": false,
+            "start": 1171,
+            "end": 1277
+          },
+          {
+            "type": "Identifier",
+            "name": "roundedDown",
+            "start": 1281,
+            "end": 1292
+          },
+          {
+            "type": "Literal",
+            "value": "Rounding with halfTrunc rounds to the closest hour",
+            "raw": "\"Rounding with halfTrunc rounds to the closest hour\"",
+            "start": 1296,
+            "end": 1348
+          }
+        ],
+        "optional": false,
+        "start": 1151,
+        "end": 1350
+      },
+      "start": 1151,
+      "end": 1351
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "MemberExpression",
+          "object": {
+            "type": "Identifier",
+            "name": "assert",
+            "start": 1353,
+            "end": 1359
+          },
+          "property": {
+            "type": "Identifier",
+            "name": "sameValue",
+            "start": 1360,
+            "end": 1369
+          },
+          "optional": false,
+          "computed": false,
+          "start": 1353,
+          "end": 1369
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "object": {
+              "type": "CallExpression",
+              "callee": {
+                "type": "MemberExpression",
+                "object": {
+                  "type": "Identifier",
+                  "name": "instance",
+                  "start": 1373,
+                  "end": 1381
+                },
+                "property": {
+                  "type": "Identifier",
+                  "name": "round",
+                  "start": 1382,
+                  "end": 1387
+                },
+                "optional": false,
+                "computed": false,
+                "start": 1373,
+                "end": 1387
+              },
+              "arguments": [
+                {
+                  "type": "ObjectExpression",
+                  "properties": [
+                    {
+                      "type": "Property",
+                      "kind": "init",
+                      "key": {
+                        "type": "Identifier",
+                        "name": "smallestUnit",
+                        "start": 1390,
+                        "end": 1402
+                      },
+                      "value": {
+                        "type": "Literal",
+                        "value": "hour",
+                        "raw": "\"hour\"",
+                        "start": 1404,
+                        "end": 1410
+                      },
+                      "method": false,
+                      "shorthand": false,
+                      "computed": false,
+                      "start": 1390,
+                      "end": 1410
+                    },
+                    {
+                      "type": "Property",
+                      "kind": "init",
+                      "key": {
+                        "type": "Identifier",
+                        "name": "roundingIncrement",
+                        "start": 1412,
+                        "end": 1429
+                      },
+                      "value": {
+                        "type": "Literal",
+                        "value": 1,
+                        "raw": "1",
+                        "start": 1431,
+                        "end": 1432
+                      },
+                      "method": false,
+                      "shorthand": false,
+                      "computed": false,
+                      "start": 1412,
+                      "end": 1432
+                    },
+                    {
+                      "type": "Property",
+                      "kind": "init",
+                      "key": {
+                        "type": "Identifier",
+                        "name": "roundingMode",
+                        "start": 1434,
+                        "end": 1446
+                      },
+                      "value": {
+                        "type": "Literal",
+                        "value": "halfEven",
+                        "raw": "\"halfEven\"",
+                        "start": 1448,
+                        "end": 1458
+                      },
+                      "method": false,
+                      "shorthand": false,
+                      "computed": false,
+                      "start": 1434,
+                      "end": 1458
+                    }
+                  ],
+                  "start": 1388,
+                  "end": 1460
+                }
+              ],
+              "optional": false,
+              "start": 1373,
+              "end": 1461
+            },
+            "property": {
+              "type": "Identifier",
+              "name": "epochNanoseconds",
+              "start": 1462,
+              "end": 1478
+            },
+            "optional": false,
+            "computed": false,
+            "start": 1373,
+            "end": 1478
+          },
+          {
+            "type": "Identifier",
+            "name": "roundedDown",
+            "start": 1482,
+            "end": 1493
+          },
+          {
+            "type": "Literal",
+            "value": "Rounding with halfEven rounds to the closest hour",
+            "raw": "\"Rounding with halfEven rounds to the closest hour\"",
+            "start": 1497,
+            "end": 1548
+          }
+        ],
+        "optional": false,
+        "start": 1353,
+        "end": 1550
+      },
+      "start": 1353,
+      "end": 1551
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "MemberExpression",
+          "object": {
+            "type": "Identifier",
+            "name": "assert",
+            "start": 1553,
+            "end": 1559
+          },
+          "property": {
+            "type": "Identifier",
+            "name": "sameValue",
+            "start": 1560,
+            "end": 1569
+          },
+          "optional": false,
+          "computed": false,
+          "start": 1553,
+          "end": 1569
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "object": {
+              "type": "CallExpression",
+              "callee": {
+                "type": "MemberExpression",
+                "object": {
+                  "type": "Identifier",
+                  "name": "instance",
+                  "start": 1573,
+                  "end": 1581
+                },
+                "property": {
+                  "type": "Identifier",
+                  "name": "round",
+                  "start": 1582,
+                  "end": 1587
+                },
+                "optional": false,
+                "computed": false,
+                "start": 1573,
+                "end": 1587
+              },
+              "arguments": [
+                {
+                  "type": "ObjectExpression",
+                  "properties": [
+                    {
+                      "type": "Property",
+                      "kind": "init",
+                      "key": {
+                        "type": "Identifier",
+                        "name": "smallestUnit",
+                        "start": 1590,
+                        "end": 1602
+                      },
+                      "value": {
+                        "type": "Literal",
+                        "value": "hour",
+                        "raw": "\"hour\"",
+                        "start": 1604,
+                        "end": 1610
+                      },
+                      "method": false,
+                      "shorthand": false,
+                      "computed": false,
+                      "start": 1590,
+                      "end": 1610
+                    },
+                    {
+                      "type": "Property",
+                      "kind": "init",
+                      "key": {
+                        "type": "Identifier",
+                        "name": "roundingIncrement",
+                        "start": 1612,
+                        "end": 1629
+                      },
+                      "value": {
+                        "type": "Literal",
+                        "value": 1,
+                        "raw": "1",
+                        "start": 1631,
+                        "end": 1632
+                      },
+                      "method": false,
+                      "shorthand": false,
+                      "computed": false,
+                      "start": 1612,
+                      "end": 1632
+                    },
+                    {
+                      "type": "Property",
+                      "kind": "init",
+                      "key": {
+                        "type": "Identifier",
+                        "name": "roundingMode",
+                        "start": 1634,
+                        "end": 1646
+                      },
+                      "value": {
+                        "type": "Literal",
+                        "value": "ceil",
+                        "raw": "\"ceil\"",
+                        "start": 1648,
+                        "end": 1654
+                      },
+                      "method": false,
+                      "shorthand": false,
+                      "computed": false,
+                      "start": 1634,
+                      "end": 1654
+                    }
+                  ],
+                  "start": 1588,
+                  "end": 1656
+                }
+              ],
+              "optional": false,
+              "start": 1573,
+              "end": 1657
+            },
+            "property": {
+              "type": "Identifier",
+              "name": "epochNanoseconds",
+              "start": 1658,
+              "end": 1674
+            },
+            "optional": false,
+            "computed": false,
+            "start": 1573,
+            "end": 1674
+          },
+          {
+            "type": "Identifier",
+            "name": "roundedUp",
+            "start": 1678,
+            "end": 1687
+          },
+          {
+            "type": "Literal",
+            "value": "Rounding with ceil rounds to the next hour",
+            "raw": "\"Rounding with ceil rounds to the next hour\"",
+            "start": 1691,
+            "end": 1735
+          }
+        ],
+        "optional": false,
+        "start": 1553,
+        "end": 1737
+      },
+      "start": 1553,
+      "end": 1738
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "MemberExpression",
+          "object": {
+            "type": "Identifier",
+            "name": "assert",
+            "start": 1740,
+            "end": 1746
+          },
+          "property": {
+            "type": "Identifier",
+            "name": "sameValue",
+            "start": 1747,
+            "end": 1756
+          },
+          "optional": false,
+          "computed": false,
+          "start": 1740,
+          "end": 1756
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "object": {
+              "type": "CallExpression",
+              "callee": {
+                "type": "MemberExpression",
+                "object": {
+                  "type": "Identifier",
+                  "name": "instance",
+                  "start": 1760,
+                  "end": 1768
+                },
+                "property": {
+                  "type": "Identifier",
+                  "name": "round",
+                  "start": 1769,
+                  "end": 1774
+                },
+                "optional": false,
+                "computed": false,
+                "start": 1760,
+                "end": 1774
+              },
+              "arguments": [
+                {
+                  "type": "ObjectExpression",
+                  "properties": [
+                    {
+                      "type": "Property",
+                      "kind": "init",
+                      "key": {
+                        "type": "Identifier",
+                        "name": "smallestUnit",
+                        "start": 1777,
+                        "end": 1789
+                      },
+                      "value": {
+                        "type": "Literal",
+                        "value": "hour",
+                        "raw": "\"hour\"",
+                        "start": 1791,
+                        "end": 1797
+                      },
+                      "method": false,
+                      "shorthand": false,
+                      "computed": false,
+                      "start": 1777,
+                      "end": 1797
+                    },
+                    {
+                      "type": "Property",
+                      "kind": "init",
+                      "key": {
+                        "type": "Identifier",
+                        "name": "roundingIncrement",
+                        "start": 1799,
+                        "end": 1816
+                      },
+                      "value": {
+                        "type": "Literal",
+                        "value": 1,
+                        "raw": "1",
+                        "start": 1818,
+                        "end": 1819
+                      },
+                      "method": false,
+                      "shorthand": false,
+                      "computed": false,
+                      "start": 1799,
+                      "end": 1819
+                    },
+                    {
+                      "type": "Property",
+                      "kind": "init",
+                      "key": {
+                        "type": "Identifier",
+                        "name": "roundingMode",
+                        "start": 1821,
+                        "end": 1833
+                      },
+                      "value": {
+                        "type": "Literal",
+                        "value": "floor",
+                        "raw": "\"floor\"",
+                        "start": 1835,
+                        "end": 1842
+                      },
+                      "method": false,
+                      "shorthand": false,
+                      "computed": false,
+                      "start": 1821,
+                      "end": 1842
+                    }
+                  ],
+                  "start": 1775,
+                  "end": 1844
+                }
+              ],
+              "optional": false,
+              "start": 1760,
+              "end": 1845
+            },
+            "property": {
+              "type": "Identifier",
+              "name": "epochNanoseconds",
+              "start": 1846,
+              "end": 1862
+            },
+            "optional": false,
+            "computed": false,
+            "start": 1760,
+            "end": 1862
+          },
+          {
+            "type": "Identifier",
+            "name": "roundedDown",
+            "start": 1866,
+            "end": 1877
+          },
+          {
+            "type": "Literal",
+            "value": "Rounding with floor rounds to the closest hour",
+            "raw": "\"Rounding with floor rounds to the closest hour\"",
+            "start": 1881,
+            "end": 1929
+          }
+        ],
+        "optional": false,
+        "start": 1740,
+        "end": 1931
+      },
+      "start": 1740,
+      "end": 1932
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "MemberExpression",
+          "object": {
+            "type": "Identifier",
+            "name": "assert",
+            "start": 1934,
+            "end": 1940
+          },
+          "property": {
+            "type": "Identifier",
+            "name": "sameValue",
+            "start": 1941,
+            "end": 1950
+          },
+          "optional": false,
+          "computed": false,
+          "start": 1934,
+          "end": 1950
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "object": {
+              "type": "CallExpression",
+              "callee": {
+                "type": "MemberExpression",
+                "object": {
+                  "type": "Identifier",
+                  "name": "instance",
+                  "start": 1954,
+                  "end": 1962
+                },
+                "property": {
+                  "type": "Identifier",
+                  "name": "round",
+                  "start": 1963,
+                  "end": 1968
+                },
+                "optional": false,
+                "computed": false,
+                "start": 1954,
+                "end": 1968
+              },
+              "arguments": [
+                {
+                  "type": "ObjectExpression",
+                  "properties": [
+                    {
+                      "type": "Property",
+                      "kind": "init",
+                      "key": {
+                        "type": "Identifier",
+                        "name": "smallestUnit",
+                        "start": 1971,
+                        "end": 1983
+                      },
+                      "value": {
+                        "type": "Literal",
+                        "value": "hour",
+                        "raw": "\"hour\"",
+                        "start": 1985,
+                        "end": 1991
+                      },
+                      "method": false,
+                      "shorthand": false,
+                      "computed": false,
+                      "start": 1971,
+                      "end": 1991
+                    },
+                    {
+                      "type": "Property",
+                      "kind": "init",
+                      "key": {
+                        "type": "Identifier",
+                        "name": "roundingIncrement",
+                        "start": 1993,
+                        "end": 2010
+                      },
+                      "value": {
+                        "type": "Literal",
+                        "value": 1,
+                        "raw": "1",
+                        "start": 2012,
+                        "end": 2013
+                      },
+                      "method": false,
+                      "shorthand": false,
+                      "computed": false,
+                      "start": 1993,
+                      "end": 2013
+                    },
+                    {
+                      "type": "Property",
+                      "kind": "init",
+                      "key": {
+                        "type": "Identifier",
+                        "name": "roundingMode",
+                        "start": 2015,
+                        "end": 2027
+                      },
+                      "value": {
+                        "type": "Literal",
+                        "value": "expand",
+                        "raw": "\"expand\"",
+                        "start": 2029,
+                        "end": 2037
+                      },
+                      "method": false,
+                      "shorthand": false,
+                      "computed": false,
+                      "start": 2015,
+                      "end": 2037
+                    }
+                  ],
+                  "start": 1969,
+                  "end": 2039
+                }
+              ],
+              "optional": false,
+              "start": 1954,
+              "end": 2040
+            },
+            "property": {
+              "type": "Identifier",
+              "name": "epochNanoseconds",
+              "start": 2041,
+              "end": 2057
+            },
+            "optional": false,
+            "computed": false,
+            "start": 1954,
+            "end": 2057
+          },
+          {
+            "type": "Identifier",
+            "name": "roundedUp",
+            "start": 2061,
+            "end": 2070
+          },
+          {
+            "type": "Literal",
+            "value": "Rounding with expand rounds to the next hour",
+            "raw": "\"Rounding with expand rounds to the next hour\"",
+            "start": 2074,
+            "end": 2120
+          }
+        ],
+        "optional": false,
+        "start": 1934,
+        "end": 2122
+      },
+      "start": 1934,
+      "end": 2123
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "MemberExpression",
+          "object": {
+            "type": "Identifier",
+            "name": "assert",
+            "start": 2125,
+            "end": 2131
+          },
+          "property": {
+            "type": "Identifier",
+            "name": "sameValue",
+            "start": 2132,
+            "end": 2141
+          },
+          "optional": false,
+          "computed": false,
+          "start": 2125,
+          "end": 2141
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "object": {
+              "type": "CallExpression",
+              "callee": {
+                "type": "MemberExpression",
+                "object": {
+                  "type": "Identifier",
+                  "name": "instance",
+                  "start": 2145,
+                  "end": 2153
+                },
+                "property": {
+                  "type": "Identifier",
+                  "name": "round",
+                  "start": 2154,
+                  "end": 2159
+                },
+                "optional": false,
+                "computed": false,
+                "start": 2145,
+                "end": 2159
+              },
+              "arguments": [
+                {
+                  "type": "ObjectExpression",
+                  "properties": [
+                    {
+                      "type": "Property",
+                      "kind": "init",
+                      "key": {
+                        "type": "Identifier",
+                        "name": "smallestUnit",
+                        "start": 2162,
+                        "end": 2174
+                      },
+                      "value": {
+                        "type": "Literal",
+                        "value": "hour",
+                        "raw": "\"hour\"",
+                        "start": 2176,
+                        "end": 2182
+                      },
+                      "method": false,
+                      "shorthand": false,
+                      "computed": false,
+                      "start": 2162,
+                      "end": 2182
+                    },
+                    {
+                      "type": "Property",
+                      "kind": "init",
+                      "key": {
+                        "type": "Identifier",
+                        "name": "roundingIncrement",
+                        "start": 2184,
+                        "end": 2201
+                      },
+                      "value": {
+                        "type": "Literal",
+                        "value": 1,
+                        "raw": "1",
+                        "start": 2203,
+                        "end": 2204
+                      },
+                      "method": false,
+                      "shorthand": false,
+                      "computed": false,
+                      "start": 2184,
+                      "end": 2204
+                    },
+                    {
+                      "type": "Property",
+                      "kind": "init",
+                      "key": {
+                        "type": "Identifier",
+                        "name": "roundingMode",
+                        "start": 2206,
+                        "end": 2218
+                      },
+                      "value": {
+                        "type": "Literal",
+                        "value": "trunc",
+                        "raw": "\"trunc\"",
+                        "start": 2220,
+                        "end": 2227
+                      },
+                      "method": false,
+                      "shorthand": false,
+                      "computed": false,
+                      "start": 2206,
+                      "end": 2227
+                    }
+                  ],
+                  "start": 2160,
+                  "end": 2229
+                }
+              ],
+              "optional": false,
+              "start": 2145,
+              "end": 2230
+            },
+            "property": {
+              "type": "Identifier",
+              "name": "epochNanoseconds",
+              "start": 2231,
+              "end": 2247
+            },
+            "optional": false,
+            "computed": false,
+            "start": 2145,
+            "end": 2247
+          },
+          {
+            "type": "Identifier",
+            "name": "roundedDown",
+            "start": 2251,
+            "end": 2262
+          },
+          {
+            "type": "Literal",
+            "value": "Rounding with trunc rounds to the closest hour",
+            "raw": "\"Rounding with trunc rounds to the closest hour\"",
+            "start": 2266,
+            "end": 2314
+          }
+        ],
+        "optional": false,
+        "start": 2125,
+        "end": 2316
+      },
+      "start": 2125,
+      "end": 2317
+    }
+  ],
+  "sourceType": "script",
+  "hashbang": null,
+  "start": 0,
+  "end": 2318
+}

@@ -1,0 +1,271 @@
+{
+  "type": "Program",
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "kind": "using",
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "id": {
+            "type": "Identifier",
+            "name": "z",
+            "start": 307,
+            "end": 308
+          },
+          "init": {
+            "type": "Literal",
+            "value": null,
+            "raw": "null",
+            "start": 311,
+            "end": 315
+          },
+          "start": 307,
+          "end": 315
+        }
+      ],
+      "start": 301,
+      "end": 316
+    },
+    {
+      "type": "BlockStatement",
+      "body": [
+        {
+          "type": "VariableDeclaration",
+          "kind": "using",
+          "declarations": [
+            {
+              "type": "VariableDeclarator",
+              "id": {
+                "type": "Identifier",
+                "name": "z",
+                "start": 343,
+                "end": 344
+              },
+              "init": {
+                "type": "Identifier",
+                "name": "undefined",
+                "start": 347,
+                "end": 356
+              },
+              "start": 343,
+              "end": 356
+            }
+          ],
+          "start": 337,
+          "end": 357
+        }
+      ],
+      "start": 333,
+      "end": 359
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "MemberExpression",
+          "object": {
+            "type": "Identifier",
+            "name": "assert",
+            "start": 361,
+            "end": 367
+          },
+          "property": {
+            "type": "Identifier",
+            "name": "sameValue",
+            "start": 368,
+            "end": 377
+          },
+          "optional": false,
+          "computed": false,
+          "start": 361,
+          "end": 377
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "name": "z",
+            "start": 378,
+            "end": 379
+          },
+          {
+            "type": "Literal",
+            "value": null,
+            "raw": "null",
+            "start": 381,
+            "end": 385
+          }
+        ],
+        "optional": false,
+        "start": 361,
+        "end": 386
+      },
+      "start": 361,
+      "end": 387
+    },
+    {
+      "type": "IfStatement",
+      "test": {
+        "type": "Literal",
+        "value": true,
+        "raw": "true",
+        "start": 393,
+        "end": 397
+      },
+      "consequent": {
+        "type": "BlockStatement",
+        "body": [
+          {
+            "type": "VariableDeclaration",
+            "kind": "const",
+            "declarations": [
+              {
+                "type": "VariableDeclarator",
+                "id": {
+                  "type": "Identifier",
+                  "name": "obj",
+                  "start": 409,
+                  "end": 412
+                },
+                "init": {
+                  "type": "ObjectExpression",
+                  "properties": [
+                    {
+                      "type": "Property",
+                      "kind": "init",
+                      "key": {
+                        "type": "MemberExpression",
+                        "object": {
+                          "type": "Identifier",
+                          "name": "Symbol",
+                          "start": 418,
+                          "end": 424
+                        },
+                        "property": {
+                          "type": "Identifier",
+                          "name": "dispose",
+                          "start": 425,
+                          "end": 432
+                        },
+                        "optional": false,
+                        "computed": false,
+                        "start": 418,
+                        "end": 432
+                      },
+                      "value": {
+                        "type": "FunctionExpression",
+                        "id": null,
+                        "generator": false,
+                        "async": false,
+                        "params": [],
+                        "body": {
+                          "type": "BlockStatement",
+                          "body": [],
+                          "start": 436,
+                          "end": 439
+                        },
+                        "expression": false,
+                        "start": 433,
+                        "end": 439
+                      },
+                      "method": true,
+                      "shorthand": false,
+                      "computed": true,
+                      "start": 417,
+                      "end": 439
+                    }
+                  ],
+                  "start": 415,
+                  "end": 441
+                },
+                "start": 409,
+                "end": 441
+              }
+            ],
+            "start": 403,
+            "end": 442
+          },
+          {
+            "type": "VariableDeclaration",
+            "kind": "using",
+            "declarations": [
+              {
+                "type": "VariableDeclarator",
+                "id": {
+                  "type": "Identifier",
+                  "name": "z",
+                  "start": 451,
+                  "end": 452
+                },
+                "init": {
+                  "type": "Identifier",
+                  "name": "obj",
+                  "start": 455,
+                  "end": 458
+                },
+                "start": 451,
+                "end": 458
+              }
+            ],
+            "start": 445,
+            "end": 459
+          },
+          {
+            "type": "ExpressionStatement",
+            "expression": {
+              "type": "CallExpression",
+              "callee": {
+                "type": "MemberExpression",
+                "object": {
+                  "type": "Identifier",
+                  "name": "assert",
+                  "start": 462,
+                  "end": 468
+                },
+                "property": {
+                  "type": "Identifier",
+                  "name": "sameValue",
+                  "start": 469,
+                  "end": 478
+                },
+                "optional": false,
+                "computed": false,
+                "start": 462,
+                "end": 478
+              },
+              "arguments": [
+                {
+                  "type": "Identifier",
+                  "name": "z",
+                  "start": 479,
+                  "end": 480
+                },
+                {
+                  "type": "Identifier",
+                  "name": "obj",
+                  "start": 482,
+                  "end": 485
+                }
+              ],
+              "optional": false,
+              "start": 462,
+              "end": 486
+            },
+            "start": 462,
+            "end": 487
+          }
+        ],
+        "start": 399,
+        "end": 489
+      },
+      "alternate": null,
+      "start": 389,
+      "end": 489
+    }
+  ],
+  "sourceType": "module",
+  "hashbang": null,
+  "start": 0,
+  "end": 490
+}
