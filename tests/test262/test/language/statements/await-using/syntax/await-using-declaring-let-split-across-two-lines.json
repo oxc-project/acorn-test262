@@ -1,0 +1,162 @@
+{
+  "type": "Program",
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "Identifier",
+          "name": "asyncTest",
+          "start": 463,
+          "end": 472
+        },
+        "arguments": [
+          {
+            "type": "FunctionExpression",
+            "id": null,
+            "generator": false,
+            "async": true,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "expression": {
+                    "type": "AwaitExpression",
+                    "argument": {
+                      "type": "Identifier",
+                      "name": "using",
+                      "start": 501,
+                      "end": 506
+                    },
+                    "start": 495,
+                    "end": 506
+                  },
+                  "start": 495,
+                  "end": 506
+                },
+                {
+                  "type": "ExpressionStatement",
+                  "expression": {
+                    "type": "AssignmentExpression",
+                    "operator": "=",
+                    "left": {
+                      "type": "Identifier",
+                      "name": "let",
+                      "start": 509,
+                      "end": 512
+                    },
+                    "right": {
+                      "type": "Literal",
+                      "value": "irrelevant initializer",
+                      "raw": "\"irrelevant initializer\"",
+                      "start": 515,
+                      "end": 539
+                    },
+                    "start": 509,
+                    "end": 539
+                  },
+                  "start": 509,
+                  "end": 540
+                },
+                {
+                  "type": "ExpressionStatement",
+                  "expression": {
+                    "type": "CallExpression",
+                    "callee": {
+                      "type": "Identifier",
+                      "name": "assert",
+                      "start": 544,
+                      "end": 550
+                    },
+                    "arguments": [
+                      {
+                        "type": "BinaryExpression",
+                        "left": {
+                          "type": "UnaryExpression",
+                          "operator": "typeof",
+                          "argument": {
+                            "type": "Identifier",
+                            "name": "let",
+                            "start": 558,
+                            "end": 561
+                          },
+                          "prefix": true,
+                          "start": 551,
+                          "end": 561
+                        },
+                        "operator": "===",
+                        "right": {
+                          "type": "Literal",
+                          "value": "string",
+                          "raw": "\"string\"",
+                          "start": 566,
+                          "end": 574
+                        },
+                        "start": 551,
+                        "end": 574
+                      }
+                    ],
+                    "optional": false,
+                    "start": 544,
+                    "end": 575
+                  },
+                  "start": 544,
+                  "end": 576
+                },
+                {
+                  "type": "VariableDeclaration",
+                  "kind": "var",
+                  "declarations": [
+                    {
+                      "type": "VariableDeclarator",
+                      "id": {
+                        "type": "Identifier",
+                        "name": "using",
+                        "start": 583,
+                        "end": 588
+                      },
+                      "init": null,
+                      "start": 583,
+                      "end": 588
+                    },
+                    {
+                      "type": "VariableDeclarator",
+                      "id": {
+                        "type": "Identifier",
+                        "name": "let",
+                        "start": 590,
+                        "end": 593
+                      },
+                      "init": null,
+                      "start": 590,
+                      "end": 593
+                    }
+                  ],
+                  "start": 579,
+                  "end": 594
+                }
+              ],
+              "start": 491,
+              "end": 596
+            },
+            "expression": false,
+            "start": 473,
+            "end": 596
+          }
+        ],
+        "optional": false,
+        "start": 463,
+        "end": 597
+      },
+      "start": 463,
+      "end": 598
+    }
+  ],
+  "sourceType": "script",
+  "hashbang": null,
+  "start": 0,
+  "end": 599
+}

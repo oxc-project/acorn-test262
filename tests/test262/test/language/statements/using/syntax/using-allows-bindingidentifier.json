@@ -1,0 +1,42 @@
+{
+  "type": "Program",
+  "body": [
+    {
+      "type": "BlockStatement",
+      "body": [
+        {
+          "type": "VariableDeclaration",
+          "kind": "using",
+          "declarations": [
+            {
+              "type": "VariableDeclarator",
+              "id": {
+                "type": "Identifier",
+                "name": "x",
+                "start": 318,
+                "end": 319
+              },
+              "init": {
+                "type": "Literal",
+                "value": null,
+                "raw": "null",
+                "start": 322,
+                "end": 326
+              },
+              "start": 318,
+              "end": 326
+            }
+          ],
+          "start": 312,
+          "end": 327
+        }
+      ],
+      "start": 308,
+      "end": 329
+    }
+  ],
+  "sourceType": "script",
+  "hashbang": null,
+  "start": 0,
+  "end": 330
+}
