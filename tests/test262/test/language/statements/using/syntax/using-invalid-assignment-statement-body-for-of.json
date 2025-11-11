@@ -1,0 +1,179 @@
+{
+  "type": "Program",
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "MemberExpression",
+          "object": {
+            "type": "Identifier",
+            "name": "assert",
+            "start": 426,
+            "end": 432
+          },
+          "property": {
+            "type": "Identifier",
+            "name": "throws",
+            "start": 433,
+            "end": 439
+          },
+          "optional": false,
+          "computed": false,
+          "start": 426,
+          "end": 439
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "name": "TypeError",
+            "start": 440,
+            "end": 449
+          },
+          {
+            "type": "FunctionExpression",
+            "id": null,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "body": [
+                {
+                  "type": "ForOfStatement",
+                  "await": false,
+                  "left": {
+                    "type": "VariableDeclaration",
+                    "kind": "using",
+                    "declarations": [
+                      {
+                        "type": "VariableDeclarator",
+                        "id": {
+                          "type": "Identifier",
+                          "name": "x",
+                          "start": 477,
+                          "end": 478
+                        },
+                        "init": null,
+                        "start": 477,
+                        "end": 478
+                      }
+                    ],
+                    "start": 471,
+                    "end": 478
+                  },
+                  "right": {
+                    "type": "ArrayExpression",
+                    "elements": [
+                      {
+                        "type": "Literal",
+                        "value": null,
+                        "raw": "null",
+                        "start": 483,
+                        "end": 487
+                      }
+                    ],
+                    "start": 482,
+                    "end": 488
+                  },
+                  "body": {
+                    "type": "BlockStatement",
+                    "body": [
+                      {
+                        "type": "ExpressionStatement",
+                        "expression": {
+                          "type": "AssignmentExpression",
+                          "operator": "=",
+                          "left": {
+                            "type": "Identifier",
+                            "name": "x",
+                            "start": 492,
+                            "end": 493
+                          },
+                          "right": {
+                            "type": "ObjectExpression",
+                            "properties": [
+                              {
+                                "type": "Property",
+                                "kind": "init",
+                                "key": {
+                                  "type": "MemberExpression",
+                                  "object": {
+                                    "type": "Identifier",
+                                    "name": "Symbol",
+                                    "start": 499,
+                                    "end": 505
+                                  },
+                                  "property": {
+                                    "type": "Identifier",
+                                    "name": "dispose",
+                                    "start": 506,
+                                    "end": 513
+                                  },
+                                  "optional": false,
+                                  "computed": false,
+                                  "start": 499,
+                                  "end": 513
+                                },
+                                "value": {
+                                  "type": "FunctionExpression",
+                                  "id": null,
+                                  "generator": false,
+                                  "async": false,
+                                  "params": [],
+                                  "body": {
+                                    "type": "BlockStatement",
+                                    "body": [],
+                                    "start": 517,
+                                    "end": 520
+                                  },
+                                  "expression": false,
+                                  "start": 514,
+                                  "end": 520
+                                },
+                                "method": true,
+                                "shorthand": false,
+                                "computed": true,
+                                "start": 498,
+                                "end": 520
+                              }
+                            ],
+                            "start": 496,
+                            "end": 522
+                          },
+                          "start": 492,
+                          "end": 522
+                        },
+                        "start": 492,
+                        "end": 523
+                      }
+                    ],
+                    "start": 490,
+                    "end": 525
+                  },
+                  "start": 466,
+                  "end": 525
+                }
+              ],
+              "start": 462,
+              "end": 527
+            },
+            "expression": false,
+            "start": 451,
+            "end": 527
+          }
+        ],
+        "optional": false,
+        "start": 426,
+        "end": 528
+      },
+      "start": 426,
+      "end": 529
+    }
+  ],
+  "sourceType": "script",
+  "hashbang": null,
+  "start": 0,
+  "end": 530
+}

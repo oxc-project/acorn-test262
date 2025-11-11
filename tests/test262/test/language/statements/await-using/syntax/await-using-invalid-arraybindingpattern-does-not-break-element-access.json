@@ -1,0 +1,117 @@
+{
+  "type": "Program",
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "kind": "var",
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "id": {
+            "type": "Identifier",
+            "name": "using",
+            "start": 356,
+            "end": 361
+          },
+          "init": {
+            "type": "ArrayExpression",
+            "elements": [],
+            "start": 364,
+            "end": 366
+          },
+          "start": 356,
+          "end": 366
+        },
+        {
+          "type": "VariableDeclarator",
+          "id": {
+            "type": "Identifier",
+            "name": "x",
+            "start": 368,
+            "end": 369
+          },
+          "init": {
+            "type": "Literal",
+            "value": 0,
+            "raw": "0",
+            "start": 372,
+            "end": 373
+          },
+          "start": 368,
+          "end": 373
+        }
+      ],
+      "start": 352,
+      "end": 374
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "Identifier",
+          "name": "asyncTest",
+          "start": 376,
+          "end": 385
+        },
+        "arguments": [
+          {
+            "type": "FunctionExpression",
+            "id": null,
+            "generator": false,
+            "async": true,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "expression": {
+                    "type": "AwaitExpression",
+                    "argument": {
+                      "type": "MemberExpression",
+                      "object": {
+                        "type": "Identifier",
+                        "name": "using",
+                        "start": 414,
+                        "end": 419
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "name": "x",
+                        "start": 420,
+                        "end": 421
+                      },
+                      "optional": false,
+                      "computed": true,
+                      "start": 414,
+                      "end": 422
+                    },
+                    "start": 408,
+                    "end": 422
+                  },
+                  "start": 408,
+                  "end": 423
+                }
+              ],
+              "start": 404,
+              "end": 425
+            },
+            "expression": false,
+            "start": 386,
+            "end": 425
+          }
+        ],
+        "optional": false,
+        "start": 376,
+        "end": 426
+      },
+      "start": 376,
+      "end": 427
+    }
+  ],
+  "sourceType": "script",
+  "hashbang": null,
+  "start": 0,
+  "end": 428
+}

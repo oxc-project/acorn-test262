@@ -1,0 +1,547 @@
+{
+  "type": "Program",
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "kind": "const",
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "id": {
+            "type": "Identifier",
+            "name": "calendarEraAliases",
+            "start": 302,
+            "end": 320
+          },
+          "init": {
+            "type": "ArrayExpression",
+            "elements": [
+              {
+                "type": "ObjectExpression",
+                "properties": [
+                  {
+                    "type": "Property",
+                    "kind": "init",
+                    "key": {
+                      "type": "Identifier",
+                      "name": "calendar",
+                      "start": 329,
+                      "end": 337
+                    },
+                    "value": {
+                      "type": "Literal",
+                      "value": "japanese",
+                      "raw": "\"japanese\"",
+                      "start": 339,
+                      "end": 349
+                    },
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false,
+                    "start": 329,
+                    "end": 349
+                  },
+                  {
+                    "type": "Property",
+                    "kind": "init",
+                    "key": {
+                      "type": "Identifier",
+                      "name": "canonicalizedEra",
+                      "start": 351,
+                      "end": 367
+                    },
+                    "value": {
+                      "type": "Literal",
+                      "value": "ce",
+                      "raw": "\"ce\"",
+                      "start": 369,
+                      "end": 373
+                    },
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false,
+                    "start": 351,
+                    "end": 373
+                  },
+                  {
+                    "type": "Property",
+                    "kind": "init",
+                    "key": {
+                      "type": "Identifier",
+                      "name": "alias",
+                      "start": 375,
+                      "end": 380
+                    },
+                    "value": {
+                      "type": "Literal",
+                      "value": "ad",
+                      "raw": "\"ad\"",
+                      "start": 382,
+                      "end": 386
+                    },
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false,
+                    "start": 375,
+                    "end": 386
+                  }
+                ],
+                "start": 327,
+                "end": 388
+              },
+              {
+                "type": "ObjectExpression",
+                "properties": [
+                  {
+                    "type": "Property",
+                    "kind": "init",
+                    "key": {
+                      "type": "Identifier",
+                      "name": "calendar",
+                      "start": 394,
+                      "end": 402
+                    },
+                    "value": {
+                      "type": "Literal",
+                      "value": "japanese",
+                      "raw": "\"japanese\"",
+                      "start": 404,
+                      "end": 414
+                    },
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false,
+                    "start": 394,
+                    "end": 414
+                  },
+                  {
+                    "type": "Property",
+                    "kind": "init",
+                    "key": {
+                      "type": "Identifier",
+                      "name": "canonicalizedEra",
+                      "start": 416,
+                      "end": 432
+                    },
+                    "value": {
+                      "type": "Literal",
+                      "value": "bce",
+                      "raw": "\"bce\"",
+                      "start": 434,
+                      "end": 439
+                    },
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false,
+                    "start": 416,
+                    "end": 439
+                  },
+                  {
+                    "type": "Property",
+                    "kind": "init",
+                    "key": {
+                      "type": "Identifier",
+                      "name": "alias",
+                      "start": 441,
+                      "end": 446
+                    },
+                    "value": {
+                      "type": "Literal",
+                      "value": "bc",
+                      "raw": "\"bc\"",
+                      "start": 448,
+                      "end": 452
+                    },
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false,
+                    "start": 441,
+                    "end": 452
+                  }
+                ],
+                "start": 392,
+                "end": 454
+              }
+            ],
+            "start": 323,
+            "end": 456
+          },
+          "start": 302,
+          "end": 456
+        }
+      ],
+      "start": 296,
+      "end": 457
+    },
+    {
+      "type": "ForOfStatement",
+      "await": false,
+      "left": {
+        "type": "VariableDeclaration",
+        "kind": "const",
+        "declarations": [
+          {
+            "type": "VariableDeclarator",
+            "id": {
+              "type": "Identifier",
+              "name": "calendarEraAlias",
+              "start": 471,
+              "end": 487
+            },
+            "init": null,
+            "start": 471,
+            "end": 487
+          }
+        ],
+        "start": 465,
+        "end": 487
+      },
+      "right": {
+        "type": "Identifier",
+        "name": "calendarEraAliases",
+        "start": 491,
+        "end": 509
+      },
+      "body": {
+        "type": "BlockStatement",
+        "body": [
+          {
+            "type": "VariableDeclaration",
+            "kind": "const",
+            "declarations": [
+              {
+                "type": "VariableDeclarator",
+                "id": {
+                  "type": "Identifier",
+                  "name": "calendar",
+                  "start": 521,
+                  "end": 529
+                },
+                "init": {
+                  "type": "CallExpression",
+                  "callee": {
+                    "type": "MemberExpression",
+                    "object": {
+                      "type": "MemberExpression",
+                      "object": {
+                        "type": "Identifier",
+                        "name": "Temporal",
+                        "start": 532,
+                        "end": 540
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "name": "PlainYearMonth",
+                        "start": 541,
+                        "end": 555
+                      },
+                      "optional": false,
+                      "computed": false,
+                      "start": 532,
+                      "end": 555
+                    },
+                    "property": {
+                      "type": "Identifier",
+                      "name": "from",
+                      "start": 556,
+                      "end": 560
+                    },
+                    "optional": false,
+                    "computed": false,
+                    "start": 532,
+                    "end": 560
+                  },
+                  "arguments": [
+                    {
+                      "type": "ObjectExpression",
+                      "properties": [
+                        {
+                          "type": "Property",
+                          "kind": "init",
+                          "key": {
+                            "type": "Identifier",
+                            "name": "calendar",
+                            "start": 567,
+                            "end": 575
+                          },
+                          "value": {
+                            "type": "MemberExpression",
+                            "object": {
+                              "type": "Identifier",
+                              "name": "calendarEraAlias",
+                              "start": 577,
+                              "end": 593
+                            },
+                            "property": {
+                              "type": "Identifier",
+                              "name": "calendar",
+                              "start": 594,
+                              "end": 602
+                            },
+                            "optional": false,
+                            "computed": false,
+                            "start": 577,
+                            "end": 602
+                          },
+                          "method": false,
+                          "shorthand": false,
+                          "computed": false,
+                          "start": 567,
+                          "end": 602
+                        },
+                        {
+                          "type": "Property",
+                          "kind": "init",
+                          "key": {
+                            "type": "Identifier",
+                            "name": "era",
+                            "start": 608,
+                            "end": 611
+                          },
+                          "value": {
+                            "type": "MemberExpression",
+                            "object": {
+                              "type": "Identifier",
+                              "name": "calendarEraAlias",
+                              "start": 613,
+                              "end": 629
+                            },
+                            "property": {
+                              "type": "Identifier",
+                              "name": "alias",
+                              "start": 630,
+                              "end": 635
+                            },
+                            "optional": false,
+                            "computed": false,
+                            "start": 613,
+                            "end": 635
+                          },
+                          "method": false,
+                          "shorthand": false,
+                          "computed": false,
+                          "start": 608,
+                          "end": 635
+                        },
+                        {
+                          "type": "Property",
+                          "kind": "init",
+                          "key": {
+                            "type": "Identifier",
+                            "name": "eraYear",
+                            "start": 641,
+                            "end": 648
+                          },
+                          "value": {
+                            "type": "Literal",
+                            "value": 1,
+                            "raw": "1",
+                            "start": 650,
+                            "end": 651
+                          },
+                          "method": false,
+                          "shorthand": false,
+                          "computed": false,
+                          "start": 641,
+                          "end": 651
+                        },
+                        {
+                          "type": "Property",
+                          "kind": "init",
+                          "key": {
+                            "type": "Identifier",
+                            "name": "month",
+                            "start": 657,
+                            "end": 662
+                          },
+                          "value": {
+                            "type": "Literal",
+                            "value": 1,
+                            "raw": "1",
+                            "start": 664,
+                            "end": 665
+                          },
+                          "method": false,
+                          "shorthand": false,
+                          "computed": false,
+                          "start": 657,
+                          "end": 665
+                        },
+                        {
+                          "type": "Property",
+                          "kind": "init",
+                          "key": {
+                            "type": "Identifier",
+                            "name": "day",
+                            "start": 671,
+                            "end": 674
+                          },
+                          "value": {
+                            "type": "Literal",
+                            "value": 1,
+                            "raw": "1",
+                            "start": 676,
+                            "end": 677
+                          },
+                          "method": false,
+                          "shorthand": false,
+                          "computed": false,
+                          "start": 671,
+                          "end": 677
+                        }
+                      ],
+                      "start": 561,
+                      "end": 681
+                    }
+                  ],
+                  "optional": false,
+                  "start": 532,
+                  "end": 682
+                },
+                "start": 521,
+                "end": 682
+              }
+            ],
+            "start": 515,
+            "end": 683
+          },
+          {
+            "type": "ExpressionStatement",
+            "expression": {
+              "type": "CallExpression",
+              "callee": {
+                "type": "MemberExpression",
+                "object": {
+                  "type": "Identifier",
+                  "name": "assert",
+                  "start": 686,
+                  "end": 692
+                },
+                "property": {
+                  "type": "Identifier",
+                  "name": "sameValue",
+                  "start": 693,
+                  "end": 702
+                },
+                "optional": false,
+                "computed": false,
+                "start": 686,
+                "end": 702
+              },
+              "arguments": [
+                {
+                  "type": "MemberExpression",
+                  "object": {
+                    "type": "Identifier",
+                    "name": "calendar",
+                    "start": 703,
+                    "end": 711
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "name": "era",
+                    "start": 712,
+                    "end": 715
+                  },
+                  "optional": false,
+                  "computed": false,
+                  "start": 703,
+                  "end": 715
+                },
+                {
+                  "type": "MemberExpression",
+                  "object": {
+                    "type": "Identifier",
+                    "name": "calendarEraAlias",
+                    "start": 717,
+                    "end": 733
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "name": "canonicalizedEra",
+                    "start": 734,
+                    "end": 750
+                  },
+                  "optional": false,
+                  "computed": false,
+                  "start": 717,
+                  "end": 750
+                },
+                {
+                  "type": "BinaryExpression",
+                  "left": {
+                    "type": "BinaryExpression",
+                    "left": {
+                      "type": "MemberExpression",
+                      "object": {
+                        "type": "Identifier",
+                        "name": "calendar",
+                        "start": 752,
+                        "end": 760
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "name": "era",
+                        "start": 761,
+                        "end": 764
+                      },
+                      "optional": false,
+                      "computed": false,
+                      "start": 752,
+                      "end": 764
+                    },
+                    "operator": "+",
+                    "right": {
+                      "type": "Literal",
+                      "value": " should canonicalize to ",
+                      "raw": "\" should canonicalize to \"",
+                      "start": 767,
+                      "end": 793
+                    },
+                    "start": 752,
+                    "end": 793
+                  },
+                  "operator": "+",
+                  "right": {
+                    "type": "MemberExpression",
+                    "object": {
+                      "type": "Identifier",
+                      "name": "calendarEraAlias",
+                      "start": 796,
+                      "end": 812
+                    },
+                    "property": {
+                      "type": "Identifier",
+                      "name": "canonicalizedEra",
+                      "start": 813,
+                      "end": 829
+                    },
+                    "optional": false,
+                    "computed": false,
+                    "start": 796,
+                    "end": 829
+                  },
+                  "start": 752,
+                  "end": 829
+                }
+              ],
+              "optional": false,
+              "start": 686,
+              "end": 830
+            },
+            "start": 686,
+            "end": 830
+          }
+        ],
+        "start": 511,
+        "end": 832
+      },
+      "start": 460,
+      "end": 832
+    }
+  ],
+  "sourceType": "script",
+  "hashbang": null,
+  "start": 0,
+  "end": 833
+}
