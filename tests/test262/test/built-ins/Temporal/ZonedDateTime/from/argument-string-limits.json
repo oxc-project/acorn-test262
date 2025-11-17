@@ -204,43 +204,42 @@
                               "end": 1006
                             },
                             "value": {
-                              "type": "Literal",
-                              "value": "use",
-                              "raw": "\"use\"",
-                              "start": 1008,
-                              "end": 1013
+                              "type": "Identifier",
+                              "name": "offset",
+                              "start": 1000,
+                              "end": 1006
                             },
                             "method": false,
-                            "shorthand": false,
+                            "shorthand": true,
                             "computed": false,
                             "start": 1000,
-                            "end": 1013
+                            "end": 1006
                           }
                         ],
                         "start": 998,
-                        "end": 1015
+                        "end": 1008
                       }
                     ],
                     "optional": false,
                     "start": 965,
-                    "end": 1016
+                    "end": 1009
                   },
                   "start": 965,
-                  "end": 1017
+                  "end": 1010
                 }
               ],
               "start": 959,
-              "end": 1021
+              "end": 1014
             },
             "start": 909,
-            "end": 1021
+            "end": 1014
           }
         ],
         "start": 905,
-        "end": 1023
+        "end": 1016
       },
       "start": 865,
-      "end": 1023
+      "end": 1016
     },
     {
       "type": "VariableDeclaration",
@@ -251,8 +250,8 @@
           "id": {
             "type": "Identifier",
             "name": "validStringsForOffsetPreferReject",
-            "start": 1224,
-            "end": 1257
+            "start": 1217,
+            "end": 1250
           },
           "init": {
             "type": "ArrayExpression",
@@ -261,40 +260,40 @@
                 "type": "Literal",
                 "value": "-271821-04-20T00:00Z[UTC]",
                 "raw": "\"-271821-04-20T00:00Z[UTC]\"",
-                "start": 1264,
-                "end": 1291
+                "start": 1257,
+                "end": 1284
               },
               {
                 "type": "Literal",
                 "value": "+275760-09-13T00:00Z[UTC]",
                 "raw": "\"+275760-09-13T00:00Z[UTC]\"",
-                "start": 1295,
-                "end": 1322
+                "start": 1288,
+                "end": 1315
               },
               {
                 "type": "Literal",
                 "value": "+275760-09-13T01:00+01:00[+01:00]",
                 "raw": "\"+275760-09-13T01:00+01:00[+01:00]\"",
-                "start": 1326,
-                "end": 1361
+                "start": 1319,
+                "end": 1354
               },
               {
                 "type": "Literal",
                 "value": "+275760-09-13T23:59+23:59[+23:59]",
                 "raw": "\"+275760-09-13T23:59+23:59[+23:59]\"",
-                "start": 1365,
-                "end": 1400
+                "start": 1358,
+                "end": 1393
               }
             ],
-            "start": 1260,
-            "end": 1403
+            "start": 1253,
+            "end": 1396
           },
-          "start": 1224,
-          "end": 1403
+          "start": 1217,
+          "end": 1396
         }
       ],
-      "start": 1218,
-      "end": 1404
+      "start": 1211,
+      "end": 1397
     },
     {
       "type": "VariableDeclaration",
@@ -305,8 +304,8 @@
           "id": {
             "type": "Identifier",
             "name": "invalidStringsForOffsetPreferReject",
-            "start": 1412,
-            "end": 1447
+            "start": 1405,
+            "end": 1440
           },
           "init": {
             "type": "ArrayExpression",
@@ -315,26 +314,26 @@
                 "type": "Literal",
                 "value": "-271821-04-19T23:00-01:00[-01:00]",
                 "raw": "\"-271821-04-19T23:00-01:00[-01:00]\"",
-                "start": 1454,
-                "end": 1489
+                "start": 1447,
+                "end": 1482
               },
               {
                 "type": "Literal",
                 "value": "-271821-04-19T00:00:01-23:59[-23:59]",
                 "raw": "\"-271821-04-19T00:00:01-23:59[-23:59]\"",
-                "start": 1493,
-                "end": 1531
+                "start": 1486,
+                "end": 1524
               }
             ],
-            "start": 1450,
-            "end": 1534
+            "start": 1443,
+            "end": 1527
           },
-          "start": 1412,
-          "end": 1534
+          "start": 1405,
+          "end": 1527
         }
       ],
-      "start": 1406,
-      "end": 1535
+      "start": 1399,
+      "end": 1528
     },
     {
       "type": "ForOfStatement",
@@ -348,16 +347,16 @@
             "id": {
               "type": "Identifier",
               "name": "offset",
-              "start": 1548,
-              "end": 1554
+              "start": 1541,
+              "end": 1547
             },
             "init": null,
-            "start": 1548,
-            "end": 1554
+            "start": 1541,
+            "end": 1547
           }
         ],
-        "start": 1542,
-        "end": 1554
+        "start": 1535,
+        "end": 1547
       },
       "right": {
         "type": "ArrayExpression",
@@ -366,19 +365,19 @@
             "type": "Literal",
             "value": "prefer",
             "raw": "\"prefer\"",
-            "start": 1559,
-            "end": 1567
+            "start": 1552,
+            "end": 1560
           },
           {
             "type": "Literal",
             "value": "reject",
             "raw": "\"reject\"",
-            "start": 1569,
-            "end": 1577
+            "start": 1562,
+            "end": 1570
           }
         ],
-        "start": 1558,
-        "end": 1578
+        "start": 1551,
+        "end": 1571
       },
       "body": {
         "type": "BlockStatement",
@@ -395,22 +394,22 @@
                   "id": {
                     "type": "Identifier",
                     "name": "arg",
-                    "start": 1595,
-                    "end": 1598
+                    "start": 1588,
+                    "end": 1591
                   },
                   "init": null,
-                  "start": 1595,
-                  "end": 1598
+                  "start": 1588,
+                  "end": 1591
                 }
               ],
-              "start": 1589,
-              "end": 1598
+              "start": 1582,
+              "end": 1591
             },
             "right": {
               "type": "Identifier",
               "name": "validStringsForOffsetPreferReject",
-              "start": 1602,
-              "end": 1635
+              "start": 1595,
+              "end": 1628
             },
             "body": {
               "type": "BlockStatement",
@@ -426,37 +425,37 @@
                         "object": {
                           "type": "Identifier",
                           "name": "Temporal",
-                          "start": 1643,
-                          "end": 1651
+                          "start": 1636,
+                          "end": 1644
                         },
                         "property": {
                           "type": "Identifier",
                           "name": "ZonedDateTime",
-                          "start": 1652,
-                          "end": 1665
+                          "start": 1645,
+                          "end": 1658
                         },
                         "optional": false,
                         "computed": false,
-                        "start": 1643,
-                        "end": 1665
+                        "start": 1636,
+                        "end": 1658
                       },
                       "property": {
                         "type": "Identifier",
                         "name": "from",
-                        "start": 1666,
-                        "end": 1670
+                        "start": 1659,
+                        "end": 1663
                       },
                       "optional": false,
                       "computed": false,
-                      "start": 1643,
-                      "end": 1670
+                      "start": 1636,
+                      "end": 1663
                     },
                     "arguments": [
                       {
                         "type": "Identifier",
                         "name": "arg",
-                        "start": 1671,
-                        "end": 1674
+                        "start": 1664,
+                        "end": 1667
                       },
                       {
                         "type": "ObjectExpression",
@@ -467,39 +466,39 @@
                             "key": {
                               "type": "Identifier",
                               "name": "offset",
-                              "start": 1678,
-                              "end": 1684
+                              "start": 1671,
+                              "end": 1677
                             },
                             "value": {
                               "type": "Identifier",
                               "name": "offset",
-                              "start": 1678,
-                              "end": 1684
+                              "start": 1671,
+                              "end": 1677
                             },
                             "method": false,
                             "shorthand": true,
                             "computed": false,
-                            "start": 1678,
-                            "end": 1684
+                            "start": 1671,
+                            "end": 1677
                           }
                         ],
-                        "start": 1676,
-                        "end": 1686
+                        "start": 1669,
+                        "end": 1679
                       }
                     ],
                     "optional": false,
-                    "start": 1643,
-                    "end": 1687
+                    "start": 1636,
+                    "end": 1680
                   },
-                  "start": 1643,
-                  "end": 1688
+                  "start": 1636,
+                  "end": 1681
                 }
               ],
-              "start": 1637,
-              "end": 1692
+              "start": 1630,
+              "end": 1685
             },
-            "start": 1584,
-            "end": 1692
+            "start": 1577,
+            "end": 1685
           },
           {
             "type": "ForOfStatement",
@@ -513,22 +512,22 @@
                   "id": {
                     "type": "Identifier",
                     "name": "arg",
-                    "start": 1707,
-                    "end": 1710
+                    "start": 1700,
+                    "end": 1703
                   },
                   "init": null,
-                  "start": 1707,
-                  "end": 1710
+                  "start": 1700,
+                  "end": 1703
                 }
               ],
-              "start": 1701,
-              "end": 1710
+              "start": 1694,
+              "end": 1703
             },
             "right": {
               "type": "Identifier",
               "name": "invalidStringsForOffsetPreferReject",
-              "start": 1714,
-              "end": 1749
+              "start": 1707,
+              "end": 1742
             },
             "body": {
               "type": "BlockStatement",
@@ -542,26 +541,26 @@
                       "object": {
                         "type": "Identifier",
                         "name": "assert",
-                        "start": 1757,
-                        "end": 1763
+                        "start": 1750,
+                        "end": 1756
                       },
                       "property": {
                         "type": "Identifier",
                         "name": "throws",
-                        "start": 1764,
-                        "end": 1770
+                        "start": 1757,
+                        "end": 1763
                       },
                       "optional": false,
                       "computed": false,
-                      "start": 1757,
-                      "end": 1770
+                      "start": 1750,
+                      "end": 1763
                     },
                     "arguments": [
                       {
                         "type": "Identifier",
                         "name": "RangeError",
-                        "start": 1778,
-                        "end": 1788
+                        "start": 1771,
+                        "end": 1781
                       },
                       {
                         "type": "ArrowFunctionExpression",
@@ -577,37 +576,37 @@
                               "object": {
                                 "type": "Identifier",
                                 "name": "Temporal",
-                                "start": 1802,
-                                "end": 1810
+                                "start": 1795,
+                                "end": 1803
                               },
                               "property": {
                                 "type": "Identifier",
                                 "name": "ZonedDateTime",
-                                "start": 1811,
-                                "end": 1824
+                                "start": 1804,
+                                "end": 1817
                               },
                               "optional": false,
                               "computed": false,
-                              "start": 1802,
-                              "end": 1824
+                              "start": 1795,
+                              "end": 1817
                             },
                             "property": {
                               "type": "Identifier",
                               "name": "from",
-                              "start": 1825,
-                              "end": 1829
+                              "start": 1818,
+                              "end": 1822
                             },
                             "optional": false,
                             "computed": false,
-                            "start": 1802,
-                            "end": 1829
+                            "start": 1795,
+                            "end": 1822
                           },
                           "arguments": [
                             {
                               "type": "Identifier",
                               "name": "arg",
-                              "start": 1830,
-                              "end": 1833
+                              "start": 1823,
+                              "end": 1826
                             },
                             {
                               "type": "ObjectExpression",
@@ -618,34 +617,34 @@
                                   "key": {
                                     "type": "Identifier",
                                     "name": "offset",
-                                    "start": 1837,
-                                    "end": 1843
+                                    "start": 1830,
+                                    "end": 1836
                                   },
                                   "value": {
                                     "type": "Identifier",
                                     "name": "offset",
-                                    "start": 1837,
-                                    "end": 1843
+                                    "start": 1830,
+                                    "end": 1836
                                   },
                                   "method": false,
                                   "shorthand": true,
                                   "computed": false,
-                                  "start": 1837,
-                                  "end": 1843
+                                  "start": 1830,
+                                  "end": 1836
                                 }
                               ],
-                              "start": 1835,
-                              "end": 1845
+                              "start": 1828,
+                              "end": 1838
                             }
                           ],
                           "optional": false,
-                          "start": 1802,
-                          "end": 1846
+                          "start": 1795,
+                          "end": 1839
                         },
                         "id": null,
                         "generator": false,
-                        "start": 1796,
-                        "end": 1846
+                        "start": 1789,
+                        "end": 1839
                       },
                       {
                         "type": "TemplateLiteral",
@@ -657,8 +656,8 @@
                               "cooked": "wall-clock time of \""
                             },
                             "tail": false,
-                            "start": 1855,
-                            "end": 1875
+                            "start": 1848,
+                            "end": 1868
                           },
                           {
                             "type": "TemplateElement",
@@ -667,8 +666,8 @@
                               "cooked": "\" is outside the representable range of ZonedDateTime (offset="
                             },
                             "tail": false,
-                            "start": 1881,
-                            "end": 1943
+                            "start": 1874,
+                            "end": 1936
                           },
                           {
                             "type": "TemplateElement",
@@ -677,48 +676,48 @@
                               "cooked": ")"
                             },
                             "tail": true,
-                            "start": 1952,
-                            "end": 1953
+                            "start": 1945,
+                            "end": 1946
                           }
                         ],
                         "expressions": [
                           {
                             "type": "Identifier",
                             "name": "arg",
-                            "start": 1877,
-                            "end": 1880
+                            "start": 1870,
+                            "end": 1873
                           },
                           {
                             "type": "Identifier",
                             "name": "offset",
-                            "start": 1945,
-                            "end": 1951
+                            "start": 1938,
+                            "end": 1944
                           }
                         ],
-                        "start": 1854,
-                        "end": 1954
+                        "start": 1847,
+                        "end": 1947
                       }
                     ],
                     "optional": false,
-                    "start": 1757,
-                    "end": 1960
+                    "start": 1750,
+                    "end": 1953
                   },
-                  "start": 1757,
-                  "end": 1961
+                  "start": 1750,
+                  "end": 1954
                 }
               ],
-              "start": 1751,
-              "end": 1965
+              "start": 1744,
+              "end": 1958
             },
-            "start": 1696,
-            "end": 1965
+            "start": 1689,
+            "end": 1958
           }
         ],
-        "start": 1580,
-        "end": 1967
+        "start": 1573,
+        "end": 1960
       },
-      "start": 1537,
-      "end": 1967
+      "start": 1530,
+      "end": 1960
     },
     {
       "type": "VariableDeclaration",
@@ -729,8 +728,8 @@
           "id": {
             "type": "Identifier",
             "name": "invalidStrings",
-            "start": 1975,
-            "end": 1989
+            "start": 1968,
+            "end": 1982
           },
           "init": {
             "type": "ArrayExpression",
@@ -739,54 +738,54 @@
                 "type": "Literal",
                 "value": "-271821-04-19T23:59:59.999999999Z[UTC]",
                 "raw": "\"-271821-04-19T23:59:59.999999999Z[UTC]\"",
-                "start": 1996,
-                "end": 2036
+                "start": 1989,
+                "end": 2029
               },
               {
                 "type": "Literal",
                 "value": "-271821-04-19T23:00-00:59[-00:59]",
                 "raw": "\"-271821-04-19T23:00-00:59[-00:59]\"",
-                "start": 2040,
-                "end": 2075
+                "start": 2033,
+                "end": 2068
               },
               {
                 "type": "Literal",
                 "value": "-271821-04-19T00:00:00-23:59[-23:59]",
                 "raw": "\"-271821-04-19T00:00:00-23:59[-23:59]\"",
-                "start": 2079,
-                "end": 2117
+                "start": 2072,
+                "end": 2110
               },
               {
                 "type": "Literal",
                 "value": "+275760-09-13T00:00:00.000000001Z[UTC]",
                 "raw": "\"+275760-09-13T00:00:00.000000001Z[UTC]\"",
-                "start": 2121,
-                "end": 2161
+                "start": 2114,
+                "end": 2154
               },
               {
                 "type": "Literal",
                 "value": "+275760-09-13T01:00+00:59[+00:59]",
                 "raw": "\"+275760-09-13T01:00+00:59[+00:59]\"",
-                "start": 2165,
-                "end": 2200
+                "start": 2158,
+                "end": 2193
               },
               {
                 "type": "Literal",
                 "value": "+275760-09-14T00:00+23:59[+23:59]",
                 "raw": "\"+275760-09-14T00:00+23:59[+23:59]\"",
-                "start": 2204,
-                "end": 2239
+                "start": 2197,
+                "end": 2232
               }
             ],
-            "start": 1992,
-            "end": 2242
+            "start": 1985,
+            "end": 2235
           },
-          "start": 1975,
-          "end": 2242
+          "start": 1968,
+          "end": 2235
         }
       ],
-      "start": 1969,
-      "end": 2243
+      "start": 1962,
+      "end": 2236
     },
     {
       "type": "ForOfStatement",
@@ -800,16 +799,16 @@
             "id": {
               "type": "Identifier",
               "name": "offset",
-              "start": 2256,
-              "end": 2262
+              "start": 2249,
+              "end": 2255
             },
             "init": null,
-            "start": 2256,
-            "end": 2262
+            "start": 2249,
+            "end": 2255
           }
         ],
-        "start": 2250,
-        "end": 2262
+        "start": 2243,
+        "end": 2255
       },
       "right": {
         "type": "ArrayExpression",
@@ -818,33 +817,33 @@
             "type": "Literal",
             "value": "use",
             "raw": "\"use\"",
-            "start": 2267,
-            "end": 2272
+            "start": 2260,
+            "end": 2265
           },
           {
             "type": "Literal",
             "value": "ignore",
             "raw": "\"ignore\"",
-            "start": 2274,
-            "end": 2282
+            "start": 2267,
+            "end": 2275
           },
           {
             "type": "Literal",
             "value": "prefer",
             "raw": "\"prefer\"",
-            "start": 2284,
-            "end": 2292
+            "start": 2277,
+            "end": 2285
           },
           {
             "type": "Literal",
             "value": "reject",
             "raw": "\"reject\"",
-            "start": 2294,
-            "end": 2302
+            "start": 2287,
+            "end": 2295
           }
         ],
-        "start": 2266,
-        "end": 2303
+        "start": 2259,
+        "end": 2296
       },
       "body": {
         "type": "BlockStatement",
@@ -861,22 +860,22 @@
                   "id": {
                     "type": "Identifier",
                     "name": "arg",
-                    "start": 2320,
-                    "end": 2323
+                    "start": 2313,
+                    "end": 2316
                   },
                   "init": null,
-                  "start": 2320,
-                  "end": 2323
+                  "start": 2313,
+                  "end": 2316
                 }
               ],
-              "start": 2314,
-              "end": 2323
+              "start": 2307,
+              "end": 2316
             },
             "right": {
               "type": "Identifier",
               "name": "invalidStrings",
-              "start": 2327,
-              "end": 2341
+              "start": 2320,
+              "end": 2334
             },
             "body": {
               "type": "BlockStatement",
@@ -890,26 +889,26 @@
                       "object": {
                         "type": "Identifier",
                         "name": "assert",
-                        "start": 2349,
-                        "end": 2355
+                        "start": 2342,
+                        "end": 2348
                       },
                       "property": {
                         "type": "Identifier",
                         "name": "throws",
-                        "start": 2356,
-                        "end": 2362
+                        "start": 2349,
+                        "end": 2355
                       },
                       "optional": false,
                       "computed": false,
-                      "start": 2349,
-                      "end": 2362
+                      "start": 2342,
+                      "end": 2355
                     },
                     "arguments": [
                       {
                         "type": "Identifier",
                         "name": "RangeError",
-                        "start": 2370,
-                        "end": 2380
+                        "start": 2363,
+                        "end": 2373
                       },
                       {
                         "type": "ArrowFunctionExpression",
@@ -925,37 +924,37 @@
                               "object": {
                                 "type": "Identifier",
                                 "name": "Temporal",
-                                "start": 2394,
-                                "end": 2402
+                                "start": 2387,
+                                "end": 2395
                               },
                               "property": {
                                 "type": "Identifier",
                                 "name": "ZonedDateTime",
-                                "start": 2403,
-                                "end": 2416
+                                "start": 2396,
+                                "end": 2409
                               },
                               "optional": false,
                               "computed": false,
-                              "start": 2394,
-                              "end": 2416
+                              "start": 2387,
+                              "end": 2409
                             },
                             "property": {
                               "type": "Identifier",
                               "name": "from",
-                              "start": 2417,
-                              "end": 2421
+                              "start": 2410,
+                              "end": 2414
                             },
                             "optional": false,
                             "computed": false,
-                            "start": 2394,
-                            "end": 2421
+                            "start": 2387,
+                            "end": 2414
                           },
                           "arguments": [
                             {
                               "type": "Identifier",
                               "name": "arg",
-                              "start": 2422,
-                              "end": 2425
+                              "start": 2415,
+                              "end": 2418
                             },
                             {
                               "type": "ObjectExpression",
@@ -966,34 +965,34 @@
                                   "key": {
                                     "type": "Identifier",
                                     "name": "offset",
-                                    "start": 2429,
-                                    "end": 2435
+                                    "start": 2422,
+                                    "end": 2428
                                   },
                                   "value": {
                                     "type": "Identifier",
                                     "name": "offset",
-                                    "start": 2429,
-                                    "end": 2435
+                                    "start": 2422,
+                                    "end": 2428
                                   },
                                   "method": false,
                                   "shorthand": true,
                                   "computed": false,
-                                  "start": 2429,
-                                  "end": 2435
+                                  "start": 2422,
+                                  "end": 2428
                                 }
                               ],
-                              "start": 2427,
-                              "end": 2437
+                              "start": 2420,
+                              "end": 2430
                             }
                           ],
                           "optional": false,
-                          "start": 2394,
-                          "end": 2438
+                          "start": 2387,
+                          "end": 2431
                         },
                         "id": null,
                         "generator": false,
-                        "start": 2388,
-                        "end": 2438
+                        "start": 2381,
+                        "end": 2431
                       },
                       {
                         "type": "TemplateLiteral",
@@ -1005,8 +1004,8 @@
                               "cooked": "\""
                             },
                             "tail": false,
-                            "start": 2447,
-                            "end": 2448
+                            "start": 2440,
+                            "end": 2441
                           },
                           {
                             "type": "TemplateElement",
@@ -1015,8 +1014,8 @@
                               "cooked": "\" is outside the representable range of ZonedDateTime (offset="
                             },
                             "tail": false,
-                            "start": 2454,
-                            "end": 2516
+                            "start": 2447,
+                            "end": 2509
                           },
                           {
                             "type": "TemplateElement",
@@ -1025,52 +1024,52 @@
                               "cooked": ")"
                             },
                             "tail": true,
-                            "start": 2525,
-                            "end": 2526
+                            "start": 2518,
+                            "end": 2519
                           }
                         ],
                         "expressions": [
                           {
                             "type": "Identifier",
                             "name": "arg",
-                            "start": 2450,
-                            "end": 2453
+                            "start": 2443,
+                            "end": 2446
                           },
                           {
                             "type": "Identifier",
                             "name": "offset",
-                            "start": 2518,
-                            "end": 2524
+                            "start": 2511,
+                            "end": 2517
                           }
                         ],
-                        "start": 2446,
-                        "end": 2527
+                        "start": 2439,
+                        "end": 2520
                       }
                     ],
                     "optional": false,
-                    "start": 2349,
-                    "end": 2533
+                    "start": 2342,
+                    "end": 2526
                   },
-                  "start": 2349,
-                  "end": 2534
+                  "start": 2342,
+                  "end": 2527
                 }
               ],
-              "start": 2343,
-              "end": 2538
+              "start": 2336,
+              "end": 2531
             },
-            "start": 2309,
-            "end": 2538
+            "start": 2302,
+            "end": 2531
           }
         ],
-        "start": 2305,
-        "end": 2540
+        "start": 2298,
+        "end": 2533
       },
-      "start": 2245,
-      "end": 2540
+      "start": 2238,
+      "end": 2533
     }
   ],
   "sourceType": "script",
   "hashbang": null,
   "start": 0,
-  "end": 2541
+  "end": 2534
 }
