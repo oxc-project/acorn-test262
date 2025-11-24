@@ -1,0 +1,186 @@
+{
+  "type": "Program",
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "kind": "const",
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "id": {
+            "type": "Identifier",
+            "name": "zdt",
+            "start": 385,
+            "end": 388
+          },
+          "init": {
+            "type": "NewExpression",
+            "callee": {
+              "type": "MemberExpression",
+              "object": {
+                "type": "Identifier",
+                "name": "Temporal",
+                "start": 395,
+                "end": 403
+              },
+              "property": {
+                "type": "Identifier",
+                "name": "ZonedDateTime",
+                "start": 404,
+                "end": 417
+              },
+              "optional": false,
+              "computed": false,
+              "start": 395,
+              "end": 417
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "value": null,
+                "raw": "0n",
+                "bigint": "0",
+                "start": 418,
+                "end": 420
+              },
+              {
+                "type": "Literal",
+                "value": "UTC",
+                "raw": "\"UTC\"",
+                "start": 422,
+                "end": 427
+              }
+            ],
+            "start": 391,
+            "end": 428
+          },
+          "start": 385,
+          "end": 428
+        }
+      ],
+      "start": 379,
+      "end": 429
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "Identifier",
+          "name": "assert",
+          "start": 431,
+          "end": 437
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "callee": {
+              "type": "MemberExpression",
+              "object": {
+                "type": "CallExpression",
+                "callee": {
+                  "type": "MemberExpression",
+                  "object": {
+                    "type": "Identifier",
+                    "name": "zdt",
+                    "start": 438,
+                    "end": 441
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "name": "toLocaleString",
+                    "start": 442,
+                    "end": 456
+                  },
+                  "optional": false,
+                  "computed": false,
+                  "start": 438,
+                  "end": 456
+                },
+                "arguments": [
+                  {
+                    "type": "Literal",
+                    "value": "en",
+                    "raw": "\"en\"",
+                    "start": 457,
+                    "end": 461
+                  },
+                  {
+                    "type": "ObjectExpression",
+                    "properties": [
+                      {
+                        "type": "Property",
+                        "kind": "init",
+                        "key": {
+                          "type": "Identifier",
+                          "name": "era",
+                          "start": 465,
+                          "end": 468
+                        },
+                        "value": {
+                          "type": "Literal",
+                          "value": "narrow",
+                          "raw": "\"narrow\"",
+                          "start": 470,
+                          "end": 478
+                        },
+                        "method": false,
+                        "shorthand": false,
+                        "computed": false,
+                        "start": 465,
+                        "end": 478
+                      }
+                    ],
+                    "start": 463,
+                    "end": 480
+                  }
+                ],
+                "optional": false,
+                "start": 438,
+                "end": 481
+              },
+              "property": {
+                "type": "Identifier",
+                "name": "startsWith",
+                "start": 482,
+                "end": 492
+              },
+              "optional": false,
+              "computed": false,
+              "start": 438,
+              "end": 492
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "value": "1",
+                "raw": "\"1\"",
+                "start": 493,
+                "end": 496
+              }
+            ],
+            "optional": false,
+            "start": 438,
+            "end": 497
+          },
+          {
+            "type": "Literal",
+            "value": "toLocaleString on a ZonedDateTime with era option should work",
+            "raw": "\"toLocaleString on a ZonedDateTime with era option should work\"",
+            "start": 499,
+            "end": 562
+          }
+        ],
+        "optional": false,
+        "start": 431,
+        "end": 563
+      },
+      "start": 431,
+      "end": 564
+    }
+  ],
+  "sourceType": "script",
+  "hashbang": null,
+  "start": 0,
+  "end": 565
+}

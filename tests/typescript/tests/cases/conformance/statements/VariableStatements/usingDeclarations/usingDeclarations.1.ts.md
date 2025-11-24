@@ -2585,99 +2585,106 @@ __ESTREE_TEST__:PASS:
           },
           "consequent": [
             {
-              "type": "VariableDeclaration",
-              "kind": "using",
-              "declarations": [
+              "type": "BlockStatement",
+              "body": [
                 {
-                  "type": "VariableDeclarator",
-                  "id": {
-                    "type": "Identifier",
-                    "decorators": [],
-                    "name": "d20",
-                    "optional": false,
-                    "typeAnnotation": null,
-                    "start": 1534,
-                    "end": 1537
-                  },
-                  "init": {
-                    "type": "ObjectExpression",
-                    "properties": [
-                      {
-                        "type": "Property",
-                        "kind": "init",
-                        "key": {
-                          "type": "MemberExpression",
-                          "object": {
-                            "type": "Identifier",
-                            "decorators": [],
-                            "name": "Symbol",
-                            "optional": false,
-                            "typeAnnotation": null,
-                            "start": 1543,
-                            "end": 1549
-                          },
-                          "property": {
-                            "type": "Identifier",
-                            "decorators": [],
-                            "name": "dispose",
-                            "optional": false,
-                            "typeAnnotation": null,
-                            "start": 1550,
-                            "end": 1557
-                          },
-                          "optional": false,
-                          "computed": false,
-                          "start": 1543,
-                          "end": 1557
-                        },
-                        "value": {
-                          "type": "FunctionExpression",
-                          "id": null,
-                          "generator": false,
-                          "async": false,
-                          "declare": false,
-                          "typeParameters": null,
-                          "params": [],
-                          "returnType": null,
-                          "body": {
-                            "type": "BlockStatement",
-                            "body": [],
-                            "start": 1561,
-                            "end": 1563
-                          },
-                          "expression": false,
-                          "start": 1558,
-                          "end": 1563
-                        },
-                        "method": true,
-                        "shorthand": false,
-                        "computed": true,
+                  "type": "VariableDeclaration",
+                  "kind": "using",
+                  "declarations": [
+                    {
+                      "type": "VariableDeclarator",
+                      "id": {
+                        "type": "Identifier",
+                        "decorators": [],
+                        "name": "d20",
                         "optional": false,
+                        "typeAnnotation": null,
+                        "start": 1536,
+                        "end": 1539
+                      },
+                      "init": {
+                        "type": "ObjectExpression",
+                        "properties": [
+                          {
+                            "type": "Property",
+                            "kind": "init",
+                            "key": {
+                              "type": "MemberExpression",
+                              "object": {
+                                "type": "Identifier",
+                                "decorators": [],
+                                "name": "Symbol",
+                                "optional": false,
+                                "typeAnnotation": null,
+                                "start": 1545,
+                                "end": 1551
+                              },
+                              "property": {
+                                "type": "Identifier",
+                                "decorators": [],
+                                "name": "dispose",
+                                "optional": false,
+                                "typeAnnotation": null,
+                                "start": 1552,
+                                "end": 1559
+                              },
+                              "optional": false,
+                              "computed": false,
+                              "start": 1545,
+                              "end": 1559
+                            },
+                            "value": {
+                              "type": "FunctionExpression",
+                              "id": null,
+                              "generator": false,
+                              "async": false,
+                              "declare": false,
+                              "typeParameters": null,
+                              "params": [],
+                              "returnType": null,
+                              "body": {
+                                "type": "BlockStatement",
+                                "body": [],
+                                "start": 1563,
+                                "end": 1565
+                              },
+                              "expression": false,
+                              "start": 1560,
+                              "end": 1565
+                            },
+                            "method": true,
+                            "shorthand": false,
+                            "computed": true,
+                            "optional": false,
+                            "start": 1544,
+                            "end": 1565
+                          }
+                        ],
                         "start": 1542,
-                        "end": 1563
-                      }
-                    ],
-                    "start": 1540,
-                    "end": 1565
-                  },
-                  "definite": false,
-                  "start": 1534,
-                  "end": 1565
+                        "end": 1567
+                      },
+                      "definite": false,
+                      "start": 1536,
+                      "end": 1567
+                    }
+                  ],
+                  "declare": false,
+                  "start": 1530,
+                  "end": 1568
+                },
+                {
+                  "type": "BreakStatement",
+                  "label": null,
+                  "start": 1577,
+                  "end": 1583
                 }
               ],
-              "declare": false,
-              "start": 1528,
-              "end": 1566
-            },
-            {
-              "type": "BreakStatement",
-              "label": null,
-              "start": 1575,
-              "end": 1581
+              "start": 1520,
+              "end": 1589
             }
           ],
           "start": 1512,
-          "end": 1581
+          "end": 1589
         },
         {
           "type": "SwitchCase",
@@ -2685,108 +2692,215 @@ __ESTREE_TEST__:PASS:
             "type": "Literal",
             "value": 1,
             "raw": "1",
-            "start": 1592,
-            "end": 1593
+            "start": 1600,
+            "end": 1601
           },
           "consequent": [
             {
-              "type": "VariableDeclaration",
-              "kind": "using",
-              "declarations": [
+              "type": "BlockStatement",
+              "body": [
                 {
-                  "type": "VariableDeclarator",
-                  "id": {
-                    "type": "Identifier",
-                    "decorators": [],
-                    "name": "d21",
-                    "optional": false,
-                    "typeAnnotation": null,
-                    "start": 1609,
-                    "end": 1612
-                  },
-                  "init": {
-                    "type": "ObjectExpression",
-                    "properties": [
-                      {
-                        "type": "Property",
-                        "kind": "init",
-                        "key": {
-                          "type": "MemberExpression",
-                          "object": {
-                            "type": "Identifier",
-                            "decorators": [],
-                            "name": "Symbol",
-                            "optional": false,
-                            "typeAnnotation": null,
-                            "start": 1618,
-                            "end": 1624
-                          },
-                          "property": {
-                            "type": "Identifier",
-                            "decorators": [],
-                            "name": "dispose",
-                            "optional": false,
-                            "typeAnnotation": null,
-                            "start": 1625,
-                            "end": 1632
-                          },
-                          "optional": false,
-                          "computed": false,
-                          "start": 1618,
-                          "end": 1632
-                        },
-                        "value": {
-                          "type": "FunctionExpression",
-                          "id": null,
-                          "generator": false,
-                          "async": false,
-                          "declare": false,
-                          "typeParameters": null,
-                          "params": [],
-                          "returnType": null,
-                          "body": {
-                            "type": "BlockStatement",
-                            "body": [],
-                            "start": 1636,
-                            "end": 1638
-                          },
-                          "expression": false,
-                          "start": 1633,
-                          "end": 1638
-                        },
-                        "method": true,
-                        "shorthand": false,
-                        "computed": true,
+                  "type": "VariableDeclaration",
+                  "kind": "using",
+                  "declarations": [
+                    {
+                      "type": "VariableDeclarator",
+                      "id": {
+                        "type": "Identifier",
+                        "decorators": [],
+                        "name": "d21",
                         "optional": false,
-                        "start": 1617,
-                        "end": 1638
-                      }
-                    ],
-                    "start": 1615,
-                    "end": 1640
-                  },
-                  "definite": false,
-                  "start": 1609,
-                  "end": 1640
+                        "typeAnnotation": null,
+                        "start": 1619,
+                        "end": 1622
+                      },
+                      "init": {
+                        "type": "ObjectExpression",
+                        "properties": [
+                          {
+                            "type": "Property",
+                            "kind": "init",
+                            "key": {
+                              "type": "MemberExpression",
+                              "object": {
+                                "type": "Identifier",
+                                "decorators": [],
+                                "name": "Symbol",
+                                "optional": false,
+                                "typeAnnotation": null,
+                                "start": 1628,
+                                "end": 1634
+                              },
+                              "property": {
+                                "type": "Identifier",
+                                "decorators": [],
+                                "name": "dispose",
+                                "optional": false,
+                                "typeAnnotation": null,
+                                "start": 1635,
+                                "end": 1642
+                              },
+                              "optional": false,
+                              "computed": false,
+                              "start": 1628,
+                              "end": 1642
+                            },
+                            "value": {
+                              "type": "FunctionExpression",
+                              "id": null,
+                              "generator": false,
+                              "async": false,
+                              "declare": false,
+                              "typeParameters": null,
+                              "params": [],
+                              "returnType": null,
+                              "body": {
+                                "type": "BlockStatement",
+                                "body": [],
+                                "start": 1646,
+                                "end": 1648
+                              },
+                              "expression": false,
+                              "start": 1643,
+                              "end": 1648
+                            },
+                            "method": true,
+                            "shorthand": false,
+                            "computed": true,
+                            "optional": false,
+                            "start": 1627,
+                            "end": 1648
+                          }
+                        ],
+                        "start": 1625,
+                        "end": 1650
+                      },
+                      "definite": false,
+                      "start": 1619,
+                      "end": 1650
+                    }
+                  ],
+                  "declare": false,
+                  "start": 1613,
+                  "end": 1651
+                },
+                {
+                  "type": "BreakStatement",
+                  "label": null,
+                  "start": 1660,
+                  "end": 1666
                 }
               ],
-              "declare": false,
               "start": 1603,
-              "end": 1641
-            },
-            {
-              "type": "BreakStatement",
-              "label": null,
-              "start": 1650,
-              "end": 1656
+              "end": 1672
             }
           ],
-          "start": 1587,
-          "end": 1656
+          "start": 1595,
+          "end": 1672
+        },
+        {
+          "type": "SwitchCase",
+          "test": null,
+          "consequent": [
+            {
+              "type": "BlockStatement",
+              "body": [
+                {
+                  "type": "VariableDeclaration",
+                  "kind": "using",
+                  "declarations": [
+                    {
+                      "type": "VariableDeclarator",
+                      "id": {
+                        "type": "Identifier",
+                        "decorators": [],
+                        "name": "d22",
+                        "optional": false,
+                        "typeAnnotation": null,
+                        "start": 1703,
+                        "end": 1706
+                      },
+                      "init": {
+                        "type": "ObjectExpression",
+                        "properties": [
+                          {
+                            "type": "Property",
+                            "kind": "init",
+                            "key": {
+                              "type": "MemberExpression",
+                              "object": {
+                                "type": "Identifier",
+                                "decorators": [],
+                                "name": "Symbol",
+                                "optional": false,
+                                "typeAnnotation": null,
+                                "start": 1712,
+                                "end": 1718
+                              },
+                              "property": {
+                                "type": "Identifier",
+                                "decorators": [],
+                                "name": "dispose",
+                                "optional": false,
+                                "typeAnnotation": null,
+                                "start": 1719,
+                                "end": 1726
+                              },
+                              "optional": false,
+                              "computed": false,
+                              "start": 1712,
+                              "end": 1726
+                            },
+                            "value": {
+                              "type": "FunctionExpression",
+                              "id": null,
+                              "generator": false,
+                              "async": false,
+                              "declare": false,
+                              "typeParameters": null,
+                              "params": [],
+                              "returnType": null,
+                              "body": {
+                                "type": "BlockStatement",
+                                "body": [],
+                                "start": 1730,
+                                "end": 1732
+                              },
+                              "expression": false,
+                              "start": 1727,
+                              "end": 1732
+                            },
+                            "method": true,
+                            "shorthand": false,
+                            "computed": true,
+                            "optional": false,
+                            "start": 1711,
+                            "end": 1732
+                          }
+                        ],
+                        "start": 1709,
+                        "end": 1734
+                      },
+                      "definite": false,
+                      "start": 1703,
+                      "end": 1734
+                    }
+                  ],
+                  "declare": false,
+                  "start": 1697,
+                  "end": 1735
+                }
+              ],
+              "start": 1687,
+              "end": 1741
+            }
+          ],
+          "start": 1678,
+          "end": 1741
         }
       ],
       "start": 1483,
-      "end": 1658
+      "end": 1743
     },
     {
       "type": "IfStatement",
@@ -2794,8 +2908,8 @@ __ESTREE_TEST__:PASS:
         "type": "Literal",
         "value": true,
         "raw": "true",
-        "start": 1664,
-        "end": 1668
+        "start": 1749,
+        "end": 1753
       },
       "consequent": {
         "type": "SwitchStatement",
@@ -2803,8 +2917,8 @@ __ESTREE_TEST__:PASS:
           "type": "Literal",
           "value": 0,
           "raw": "0",
-          "start": 1682,
-          "end": 1683
+          "start": 1767,
+          "end": 1768
         },
         "cases": [
           {
@@ -2813,112 +2927,219 @@ __ESTREE_TEST__:PASS:
               "type": "Literal",
               "value": 0,
               "raw": "0",
-              "start": 1700,
-              "end": 1701
+              "start": 1785,
+              "end": 1786
             },
             "consequent": [
               {
-                "type": "VariableDeclaration",
-                "kind": "using",
-                "declarations": [
+                "type": "BlockStatement",
+                "body": [
                   {
-                    "type": "VariableDeclarator",
-                    "id": {
-                      "type": "Identifier",
-                      "decorators": [],
-                      "name": "d22",
-                      "optional": false,
-                      "typeAnnotation": null,
-                      "start": 1721,
-                      "end": 1724
-                    },
-                    "init": {
-                      "type": "ObjectExpression",
-                      "properties": [
-                        {
-                          "type": "Property",
-                          "kind": "init",
-                          "key": {
-                            "type": "MemberExpression",
-                            "object": {
-                              "type": "Identifier",
-                              "decorators": [],
-                              "name": "Symbol",
-                              "optional": false,
-                              "typeAnnotation": null,
-                              "start": 1730,
-                              "end": 1736
-                            },
-                            "property": {
-                              "type": "Identifier",
-                              "decorators": [],
-                              "name": "dispose",
-                              "optional": false,
-                              "typeAnnotation": null,
-                              "start": 1737,
-                              "end": 1744
-                            },
-                            "optional": false,
-                            "computed": false,
-                            "start": 1730,
-                            "end": 1744
-                          },
-                          "value": {
-                            "type": "FunctionExpression",
-                            "id": null,
-                            "generator": false,
-                            "async": false,
-                            "declare": false,
-                            "typeParameters": null,
-                            "params": [],
-                            "returnType": null,
-                            "body": {
-                              "type": "BlockStatement",
-                              "body": [],
-                              "start": 1748,
-                              "end": 1750
-                            },
-                            "expression": false,
-                            "start": 1745,
-                            "end": 1750
-                          },
-                          "method": true,
-                          "shorthand": false,
-                          "computed": true,
+                    "type": "VariableDeclaration",
+                    "kind": "using",
+                    "declarations": [
+                      {
+                        "type": "VariableDeclarator",
+                        "id": {
+                          "type": "Identifier",
+                          "decorators": [],
+                          "name": "d23",
                           "optional": false,
-                          "start": 1729,
-                          "end": 1750
-                        }
-                      ],
-                      "start": 1727,
-                      "end": 1752
-                    },
-                    "definite": false,
-                    "start": 1721,
-                    "end": 1752
+                          "typeAnnotation": null,
+                          "start": 1808,
+                          "end": 1811
+                        },
+                        "init": {
+                          "type": "ObjectExpression",
+                          "properties": [
+                            {
+                              "type": "Property",
+                              "kind": "init",
+                              "key": {
+                                "type": "MemberExpression",
+                                "object": {
+                                  "type": "Identifier",
+                                  "decorators": [],
+                                  "name": "Symbol",
+                                  "optional": false,
+                                  "typeAnnotation": null,
+                                  "start": 1817,
+                                  "end": 1823
+                                },
+                                "property": {
+                                  "type": "Identifier",
+                                  "decorators": [],
+                                  "name": "dispose",
+                                  "optional": false,
+                                  "typeAnnotation": null,
+                                  "start": 1824,
+                                  "end": 1831
+                                },
+                                "optional": false,
+                                "computed": false,
+                                "start": 1817,
+                                "end": 1831
+                              },
+                              "value": {
+                                "type": "FunctionExpression",
+                                "id": null,
+                                "generator": false,
+                                "async": false,
+                                "declare": false,
+                                "typeParameters": null,
+                                "params": [],
+                                "returnType": null,
+                                "body": {
+                                  "type": "BlockStatement",
+                                  "body": [],
+                                  "start": 1835,
+                                  "end": 1837
+                                },
+                                "expression": false,
+                                "start": 1832,
+                                "end": 1837
+                              },
+                              "method": true,
+                              "shorthand": false,
+                              "computed": true,
+                              "optional": false,
+                              "start": 1816,
+                              "end": 1837
+                            }
+                          ],
+                          "start": 1814,
+                          "end": 1839
+                        },
+                        "definite": false,
+                        "start": 1808,
+                        "end": 1839
+                      }
+                    ],
+                    "declare": false,
+                    "start": 1802,
+                    "end": 1840
+                  },
+                  {
+                    "type": "BreakStatement",
+                    "label": null,
+                    "start": 1853,
+                    "end": 1859
                   }
                 ],
-                "declare": false,
-                "start": 1715,
-                "end": 1753
-              },
-              {
-                "type": "BreakStatement",
-                "label": null,
-                "start": 1766,
-                "end": 1772
+                "start": 1788,
+                "end": 1869
               }
             ],
-            "start": 1695,
-            "end": 1772
+            "start": 1780,
+            "end": 1869
+          },
+          {
+            "type": "SwitchCase",
+            "test": null,
+            "consequent": [
+              {
+                "type": "BlockStatement",
+                "body": [
+                  {
+                    "type": "VariableDeclaration",
+                    "kind": "using",
+                    "declarations": [
+                      {
+                        "type": "VariableDeclarator",
+                        "id": {
+                          "type": "Identifier",
+                          "decorators": [],
+                          "name": "d24",
+                          "optional": false,
+                          "typeAnnotation": null,
+                          "start": 1908,
+                          "end": 1911
+                        },
+                        "init": {
+                          "type": "ObjectExpression",
+                          "properties": [
+                            {
+                              "type": "Property",
+                              "kind": "init",
+                              "key": {
+                                "type": "MemberExpression",
+                                "object": {
+                                  "type": "Identifier",
+                                  "decorators": [],
+                                  "name": "Symbol",
+                                  "optional": false,
+                                  "typeAnnotation": null,
+                                  "start": 1917,
+                                  "end": 1923
+                                },
+                                "property": {
+                                  "type": "Identifier",
+                                  "decorators": [],
+                                  "name": "dispose",
+                                  "optional": false,
+                                  "typeAnnotation": null,
+                                  "start": 1924,
+                                  "end": 1931
+                                },
+                                "optional": false,
+                                "computed": false,
+                                "start": 1917,
+                                "end": 1931
+                              },
+                              "value": {
+                                "type": "FunctionExpression",
+                                "id": null,
+                                "generator": false,
+                                "async": false,
+                                "declare": false,
+                                "typeParameters": null,
+                                "params": [],
+                                "returnType": null,
+                                "body": {
+                                  "type": "BlockStatement",
+                                  "body": [],
+                                  "start": 1935,
+                                  "end": 1937
+                                },
+                                "expression": false,
+                                "start": 1932,
+                                "end": 1937
+                              },
+                              "method": true,
+                              "shorthand": false,
+                              "computed": true,
+                              "optional": false,
+                              "start": 1916,
+                              "end": 1937
+                            }
+                          ],
+                          "start": 1914,
+                          "end": 1939
+                        },
+                        "definite": false,
+                        "start": 1908,
+                        "end": 1939
+                      }
+                    ],
+                    "declare": false,
+                    "start": 1902,
+                    "end": 1940
+                  }
+                ],
+                "start": 1888,
+                "end": 1950
+              }
+            ],
+            "start": 1879,
+            "end": 1950
           }
         ],
-        "start": 1674,
-        "end": 1778
+        "start": 1759,
+        "end": 1956
       },
       "alternate": null,
-      "start": 1660,
-      "end": 1778
+      "start": 1745,
+      "end": 1956
     },
     {
       "type": "TryStatement",
@@ -2934,11 +3155,11 @@ __ESTREE_TEST__:PASS:
                 "id": {
                   "type": "Identifier",
                   "decorators": [],
-                  "name": "d23",
+                  "name": "d25",
                   "optional": false,
                   "typeAnnotation": null,
-                  "start": 1796,
-                  "end": 1799
+                  "start": 1974,
+                  "end": 1977
                 },
                 "init": {
                   "type": "ObjectExpression",
@@ -2954,8 +3175,8 @@ __ESTREE_TEST__:PASS:
                           "name": "Symbol",
                           "optional": false,
                           "typeAnnotation": null,
-                          "start": 1805,
-                          "end": 1811
+                          "start": 1983,
+                          "end": 1989
                         },
                         "property": {
                           "type": "Identifier",
@@ -2963,13 +3184,13 @@ __ESTREE_TEST__:PASS:
                           "name": "dispose",
                           "optional": false,
                           "typeAnnotation": null,
-                          "start": 1812,
-                          "end": 1819
+                          "start": 1990,
+                          "end": 1997
                         },
                         "optional": false,
                         "computed": false,
-                        "start": 1805,
-                        "end": 1819
+                        "start": 1983,
+                        "end": 1997
                       },
                       "value": {
                         "type": "FunctionExpression",
@@ -2983,36 +3204,36 @@ __ESTREE_TEST__:PASS:
                         "body": {
                           "type": "BlockStatement",
                           "body": [],
-                          "start": 1823,
-                          "end": 1825
+                          "start": 2001,
+                          "end": 2003
                         },
                         "expression": false,
-                        "start": 1820,
-                        "end": 1825
+                        "start": 1998,
+                        "end": 2003
                       },
                       "method": true,
                       "shorthand": false,
                       "computed": true,
                       "optional": false,
-                      "start": 1804,
-                      "end": 1825
+                      "start": 1982,
+                      "end": 2003
                     }
                   ],
-                  "start": 1802,
-                  "end": 1827
+                  "start": 1980,
+                  "end": 2005
                 },
                 "definite": false,
-                "start": 1796,
-                "end": 1827
+                "start": 1974,
+                "end": 2005
               }
             ],
             "declare": false,
-            "start": 1790,
-            "end": 1828
+            "start": 1968,
+            "end": 2006
           }
         ],
-        "start": 1784,
-        "end": 1830
+        "start": 1962,
+        "end": 2008
       },
       "handler": {
         "type": "CatchClause",
@@ -3029,11 +3250,11 @@ __ESTREE_TEST__:PASS:
                   "id": {
                     "type": "Identifier",
                     "decorators": [],
-                    "name": "d24",
+                    "name": "d26",
                     "optional": false,
                     "typeAnnotation": null,
-                    "start": 1849,
-                    "end": 1852
+                    "start": 2027,
+                    "end": 2030
                   },
                   "init": {
                     "type": "ObjectExpression",
@@ -3049,8 +3270,8 @@ __ESTREE_TEST__:PASS:
                             "name": "Symbol",
                             "optional": false,
                             "typeAnnotation": null,
-                            "start": 1858,
-                            "end": 1864
+                            "start": 2036,
+                            "end": 2042
                           },
                           "property": {
                             "type": "Identifier",
@@ -3058,13 +3279,13 @@ __ESTREE_TEST__:PASS:
                             "name": "dispose",
                             "optional": false,
                             "typeAnnotation": null,
-                            "start": 1865,
-                            "end": 1872
+                            "start": 2043,
+                            "end": 2050
                           },
                           "optional": false,
                           "computed": false,
-                          "start": 1858,
-                          "end": 1872
+                          "start": 2036,
+                          "end": 2050
                         },
                         "value": {
                           "type": "FunctionExpression",
@@ -3078,237 +3299,41 @@ __ESTREE_TEST__:PASS:
                           "body": {
                             "type": "BlockStatement",
                             "body": [],
-                            "start": 1876,
-                            "end": 1878
+                            "start": 2054,
+                            "end": 2056
                           },
                           "expression": false,
-                          "start": 1873,
-                          "end": 1878
+                          "start": 2051,
+                          "end": 2056
                         },
                         "method": true,
                         "shorthand": false,
                         "computed": true,
                         "optional": false,
-                        "start": 1857,
-                        "end": 1878
+                        "start": 2035,
+                        "end": 2056
                       }
                     ],
-                    "start": 1855,
-                    "end": 1880
+                    "start": 2033,
+                    "end": 2058
                   },
                   "definite": false,
-                  "start": 1849,
-                  "end": 1880
+                  "start": 2027,
+                  "end": 2058
                 }
               ],
               "declare": false,
-              "start": 1843,
-              "end": 1881
+              "start": 2021,
+              "end": 2059
             }
           ],
-          "start": 1837,
-          "end": 1883
+          "start": 2015,
+          "end": 2061
         },
-        "start": 1831,
-        "end": 1883
+        "start": 2009,
+        "end": 2061
       },
       "finalizer": {
-        "type": "BlockStatement",
-        "body": [
-          {
-            "type": "VariableDeclaration",
-            "kind": "using",
-            "declarations": [
-              {
-                "type": "VariableDeclarator",
-                "id": {
-                  "type": "Identifier",
-                  "decorators": [],
-                  "name": "d25",
-                  "optional": false,
-                  "typeAnnotation": null,
-                  "start": 1904,
-                  "end": 1907
-                },
-                "init": {
-                  "type": "ObjectExpression",
-                  "properties": [
-                    {
-                      "type": "Property",
-                      "kind": "init",
-                      "key": {
-                        "type": "MemberExpression",
-                        "object": {
-                          "type": "Identifier",
-                          "decorators": [],
-                          "name": "Symbol",
-                          "optional": false,
-                          "typeAnnotation": null,
-                          "start": 1913,
-                          "end": 1919
-                        },
-                        "property": {
-                          "type": "Identifier",
-                          "decorators": [],
-                          "name": "dispose",
-                          "optional": false,
-                          "typeAnnotation": null,
-                          "start": 1920,
-                          "end": 1927
-                        },
-                        "optional": false,
-                        "computed": false,
-                        "start": 1913,
-                        "end": 1927
-                      },
-                      "value": {
-                        "type": "FunctionExpression",
-                        "id": null,
-                        "generator": false,
-                        "async": false,
-                        "declare": false,
-                        "typeParameters": null,
-                        "params": [],
-                        "returnType": null,
-                        "body": {
-                          "type": "BlockStatement",
-                          "body": [],
-                          "start": 1931,
-                          "end": 1933
-                        },
-                        "expression": false,
-                        "start": 1928,
-                        "end": 1933
-                      },
-                      "method": true,
-                      "shorthand": false,
-                      "computed": true,
-                      "optional": false,
-                      "start": 1912,
-                      "end": 1933
-                    }
-                  ],
-                  "start": 1910,
-                  "end": 1935
-                },
-                "definite": false,
-                "start": 1904,
-                "end": 1935
-              }
-            ],
-            "declare": false,
-            "start": 1898,
-            "end": 1936
-          }
-        ],
-        "start": 1892,
-        "end": 1938
-      },
-      "start": 1780,
-      "end": 1938
-    },
-    {
-      "type": "IfStatement",
-      "test": {
-        "type": "Literal",
-        "value": true,
-        "raw": "true",
-        "start": 1944,
-        "end": 1948
-      },
-      "consequent": {
-        "type": "BlockStatement",
-        "body": [
-          {
-            "type": "VariableDeclaration",
-            "kind": "using",
-            "declarations": [
-              {
-                "type": "VariableDeclarator",
-                "id": {
-                  "type": "Identifier",
-                  "decorators": [],
-                  "name": "d26",
-                  "optional": false,
-                  "typeAnnotation": null,
-                  "start": 1962,
-                  "end": 1965
-                },
-                "init": {
-                  "type": "ObjectExpression",
-                  "properties": [
-                    {
-                      "type": "Property",
-                      "kind": "init",
-                      "key": {
-                        "type": "MemberExpression",
-                        "object": {
-                          "type": "Identifier",
-                          "decorators": [],
-                          "name": "Symbol",
-                          "optional": false,
-                          "typeAnnotation": null,
-                          "start": 1971,
-                          "end": 1977
-                        },
-                        "property": {
-                          "type": "Identifier",
-                          "decorators": [],
-                          "name": "dispose",
-                          "optional": false,
-                          "typeAnnotation": null,
-                          "start": 1978,
-                          "end": 1985
-                        },
-                        "optional": false,
-                        "computed": false,
-                        "start": 1971,
-                        "end": 1985
-                      },
-                      "value": {
-                        "type": "FunctionExpression",
-                        "id": null,
-                        "generator": false,
-                        "async": false,
-                        "declare": false,
-                        "typeParameters": null,
-                        "params": [],
-                        "returnType": null,
-                        "body": {
-                          "type": "BlockStatement",
-                          "body": [],
-                          "start": 1989,
-                          "end": 1991
-                        },
-                        "expression": false,
-                        "start": 1986,
-                        "end": 1991
-                      },
-                      "method": true,
-                      "shorthand": false,
-                      "computed": true,
-                      "optional": false,
-                      "start": 1970,
-                      "end": 1991
-                    }
-                  ],
-                  "start": 1968,
-                  "end": 1993
-                },
-                "definite": false,
-                "start": 1962,
-                "end": 1993
-              }
-            ],
-            "declare": false,
-            "start": 1956,
-            "end": 1994
-          }
-        ],
-        "start": 1950,
-        "end": 1996
-      },
-      "alternate": {
         "type": "BlockStatement",
         "body": [
           {
@@ -3323,8 +3348,8 @@ __ESTREE_TEST__:PASS:
                   "name": "d27",
                   "optional": false,
                   "typeAnnotation": null,
-                  "start": 2014,
-                  "end": 2017
+                  "start": 2082,
+                  "end": 2085
                 },
                 "init": {
                   "type": "ObjectExpression",
@@ -3340,8 +3365,8 @@ __ESTREE_TEST__:PASS:
                           "name": "Symbol",
                           "optional": false,
                           "typeAnnotation": null,
-                          "start": 2023,
-                          "end": 2029
+                          "start": 2091,
+                          "end": 2097
                         },
                         "property": {
                           "type": "Identifier",
@@ -3349,13 +3374,13 @@ __ESTREE_TEST__:PASS:
                           "name": "dispose",
                           "optional": false,
                           "typeAnnotation": null,
-                          "start": 2030,
-                          "end": 2037
+                          "start": 2098,
+                          "end": 2105
                         },
                         "optional": false,
                         "computed": false,
-                        "start": 2023,
-                        "end": 2037
+                        "start": 2091,
+                        "end": 2105
                       },
                       "value": {
                         "type": "FunctionExpression",
@@ -3369,50 +3394,50 @@ __ESTREE_TEST__:PASS:
                         "body": {
                           "type": "BlockStatement",
                           "body": [],
-                          "start": 2041,
-                          "end": 2043
+                          "start": 2109,
+                          "end": 2111
                         },
                         "expression": false,
-                        "start": 2038,
-                        "end": 2043
+                        "start": 2106,
+                        "end": 2111
                       },
                       "method": true,
                       "shorthand": false,
                       "computed": true,
                       "optional": false,
-                      "start": 2022,
-                      "end": 2043
+                      "start": 2090,
+                      "end": 2111
                     }
                   ],
-                  "start": 2020,
-                  "end": 2045
+                  "start": 2088,
+                  "end": 2113
                 },
                 "definite": false,
-                "start": 2014,
-                "end": 2045
+                "start": 2082,
+                "end": 2113
               }
             ],
             "declare": false,
-            "start": 2008,
-            "end": 2046
+            "start": 2076,
+            "end": 2114
           }
         ],
-        "start": 2002,
-        "end": 2048
+        "start": 2070,
+        "end": 2116
       },
-      "start": 1940,
-      "end": 2048
+      "start": 1958,
+      "end": 2116
     },
     {
-      "type": "WhileStatement",
+      "type": "IfStatement",
       "test": {
         "type": "Literal",
         "value": true,
         "raw": "true",
-        "start": 2057,
-        "end": 2061
+        "start": 2122,
+        "end": 2126
       },
-      "body": {
+      "consequent": {
         "type": "BlockStatement",
         "body": [
           {
@@ -3427,8 +3452,8 @@ __ESTREE_TEST__:PASS:
                   "name": "d28",
                   "optional": false,
                   "typeAnnotation": null,
-                  "start": 2075,
-                  "end": 2078
+                  "start": 2140,
+                  "end": 2143
                 },
                 "init": {
                   "type": "ObjectExpression",
@@ -3444,8 +3469,8 @@ __ESTREE_TEST__:PASS:
                           "name": "Symbol",
                           "optional": false,
                           "typeAnnotation": null,
-                          "start": 2084,
-                          "end": 2090
+                          "start": 2149,
+                          "end": 2155
                         },
                         "property": {
                           "type": "Identifier",
@@ -3453,13 +3478,13 @@ __ESTREE_TEST__:PASS:
                           "name": "dispose",
                           "optional": false,
                           "typeAnnotation": null,
-                          "start": 2091,
-                          "end": 2098
+                          "start": 2156,
+                          "end": 2163
                         },
                         "optional": false,
                         "computed": false,
-                        "start": 2084,
-                        "end": 2098
+                        "start": 2149,
+                        "end": 2163
                       },
                       "value": {
                         "type": "FunctionExpression",
@@ -3473,45 +3498,241 @@ __ESTREE_TEST__:PASS:
                         "body": {
                           "type": "BlockStatement",
                           "body": [],
-                          "start": 2102,
-                          "end": 2104
+                          "start": 2167,
+                          "end": 2169
                         },
                         "expression": false,
-                        "start": 2099,
-                        "end": 2104
+                        "start": 2164,
+                        "end": 2169
                       },
                       "method": true,
                       "shorthand": false,
                       "computed": true,
                       "optional": false,
-                      "start": 2083,
-                      "end": 2104
+                      "start": 2148,
+                      "end": 2169
                     }
                   ],
-                  "start": 2081,
-                  "end": 2106
+                  "start": 2146,
+                  "end": 2171
                 },
                 "definite": false,
-                "start": 2075,
-                "end": 2106
+                "start": 2140,
+                "end": 2171
               }
             ],
             "declare": false,
-            "start": 2069,
-            "end": 2107
+            "start": 2134,
+            "end": 2172
+          }
+        ],
+        "start": 2128,
+        "end": 2174
+      },
+      "alternate": {
+        "type": "BlockStatement",
+        "body": [
+          {
+            "type": "VariableDeclaration",
+            "kind": "using",
+            "declarations": [
+              {
+                "type": "VariableDeclarator",
+                "id": {
+                  "type": "Identifier",
+                  "decorators": [],
+                  "name": "d29",
+                  "optional": false,
+                  "typeAnnotation": null,
+                  "start": 2192,
+                  "end": 2195
+                },
+                "init": {
+                  "type": "ObjectExpression",
+                  "properties": [
+                    {
+                      "type": "Property",
+                      "kind": "init",
+                      "key": {
+                        "type": "MemberExpression",
+                        "object": {
+                          "type": "Identifier",
+                          "decorators": [],
+                          "name": "Symbol",
+                          "optional": false,
+                          "typeAnnotation": null,
+                          "start": 2201,
+                          "end": 2207
+                        },
+                        "property": {
+                          "type": "Identifier",
+                          "decorators": [],
+                          "name": "dispose",
+                          "optional": false,
+                          "typeAnnotation": null,
+                          "start": 2208,
+                          "end": 2215
+                        },
+                        "optional": false,
+                        "computed": false,
+                        "start": 2201,
+                        "end": 2215
+                      },
+                      "value": {
+                        "type": "FunctionExpression",
+                        "id": null,
+                        "generator": false,
+                        "async": false,
+                        "declare": false,
+                        "typeParameters": null,
+                        "params": [],
+                        "returnType": null,
+                        "body": {
+                          "type": "BlockStatement",
+                          "body": [],
+                          "start": 2219,
+                          "end": 2221
+                        },
+                        "expression": false,
+                        "start": 2216,
+                        "end": 2221
+                      },
+                      "method": true,
+                      "shorthand": false,
+                      "computed": true,
+                      "optional": false,
+                      "start": 2200,
+                      "end": 2221
+                    }
+                  ],
+                  "start": 2198,
+                  "end": 2223
+                },
+                "definite": false,
+                "start": 2192,
+                "end": 2223
+              }
+            ],
+            "declare": false,
+            "start": 2186,
+            "end": 2224
+          }
+        ],
+        "start": 2180,
+        "end": 2226
+      },
+      "start": 2118,
+      "end": 2226
+    },
+    {
+      "type": "WhileStatement",
+      "test": {
+        "type": "Literal",
+        "value": true,
+        "raw": "true",
+        "start": 2235,
+        "end": 2239
+      },
+      "body": {
+        "type": "BlockStatement",
+        "body": [
+          {
+            "type": "VariableDeclaration",
+            "kind": "using",
+            "declarations": [
+              {
+                "type": "VariableDeclarator",
+                "id": {
+                  "type": "Identifier",
+                  "decorators": [],
+                  "name": "d30",
+                  "optional": false,
+                  "typeAnnotation": null,
+                  "start": 2253,
+                  "end": 2256
+                },
+                "init": {
+                  "type": "ObjectExpression",
+                  "properties": [
+                    {
+                      "type": "Property",
+                      "kind": "init",
+                      "key": {
+                        "type": "MemberExpression",
+                        "object": {
+                          "type": "Identifier",
+                          "decorators": [],
+                          "name": "Symbol",
+                          "optional": false,
+                          "typeAnnotation": null,
+                          "start": 2262,
+                          "end": 2268
+                        },
+                        "property": {
+                          "type": "Identifier",
+                          "decorators": [],
+                          "name": "dispose",
+                          "optional": false,
+                          "typeAnnotation": null,
+                          "start": 2269,
+                          "end": 2276
+                        },
+                        "optional": false,
+                        "computed": false,
+                        "start": 2262,
+                        "end": 2276
+                      },
+                      "value": {
+                        "type": "FunctionExpression",
+                        "id": null,
+                        "generator": false,
+                        "async": false,
+                        "declare": false,
+                        "typeParameters": null,
+                        "params": [],
+                        "returnType": null,
+                        "body": {
+                          "type": "BlockStatement",
+                          "body": [],
+                          "start": 2280,
+                          "end": 2282
+                        },
+                        "expression": false,
+                        "start": 2277,
+                        "end": 2282
+                      },
+                      "method": true,
+                      "shorthand": false,
+                      "computed": true,
+                      "optional": false,
+                      "start": 2261,
+                      "end": 2282
+                    }
+                  ],
+                  "start": 2259,
+                  "end": 2284
+                },
+                "definite": false,
+                "start": 2253,
+                "end": 2284
+              }
+            ],
+            "declare": false,
+            "start": 2247,
+            "end": 2285
           },
           {
             "type": "BreakStatement",
             "label": null,
-            "start": 2112,
-            "end": 2118
+            "start": 2290,
+            "end": 2296
           }
         ],
-        "start": 2063,
-        "end": 2120
+        "start": 2241,
+        "end": 2298
       },
-      "start": 2050,
-      "end": 2120
+      "start": 2228,
+      "end": 2298
     },
     {
       "type": "DoWhileStatement",
@@ -3527,11 +3748,11 @@ __ESTREE_TEST__:PASS:
                 "id": {
                   "type": "Identifier",
                   "decorators": [],
-                  "name": "d29",
+                  "name": "d31",
                   "optional": false,
                   "typeAnnotation": null,
-                  "start": 2137,
-                  "end": 2140
+                  "start": 2315,
+                  "end": 2318
                 },
                 "init": {
                   "type": "ObjectExpression",
@@ -3547,8 +3768,8 @@ __ESTREE_TEST__:PASS:
                           "name": "Symbol",
                           "optional": false,
                           "typeAnnotation": null,
-                          "start": 2146,
-                          "end": 2152
+                          "start": 2324,
+                          "end": 2330
                         },
                         "property": {
                           "type": "Identifier",
@@ -3556,13 +3777,13 @@ __ESTREE_TEST__:PASS:
                           "name": "dispose",
                           "optional": false,
                           "typeAnnotation": null,
-                          "start": 2153,
-                          "end": 2160
+                          "start": 2331,
+                          "end": 2338
                         },
                         "optional": false,
                         "computed": false,
-                        "start": 2146,
-                        "end": 2160
+                        "start": 2324,
+                        "end": 2338
                       },
                       "value": {
                         "type": "FunctionExpression",
@@ -3576,52 +3797,52 @@ __ESTREE_TEST__:PASS:
                         "body": {
                           "type": "BlockStatement",
                           "body": [],
-                          "start": 2164,
-                          "end": 2166
+                          "start": 2342,
+                          "end": 2344
                         },
                         "expression": false,
-                        "start": 2161,
-                        "end": 2166
+                        "start": 2339,
+                        "end": 2344
                       },
                       "method": true,
                       "shorthand": false,
                       "computed": true,
                       "optional": false,
-                      "start": 2145,
-                      "end": 2166
+                      "start": 2323,
+                      "end": 2344
                     }
                   ],
-                  "start": 2143,
-                  "end": 2168
+                  "start": 2321,
+                  "end": 2346
                 },
                 "definite": false,
-                "start": 2137,
-                "end": 2168
+                "start": 2315,
+                "end": 2346
               }
             ],
             "declare": false,
-            "start": 2131,
-            "end": 2169
+            "start": 2309,
+            "end": 2347
           },
           {
             "type": "BreakStatement",
             "label": null,
-            "start": 2174,
-            "end": 2180
+            "start": 2352,
+            "end": 2358
           }
         ],
-        "start": 2125,
-        "end": 2182
+        "start": 2303,
+        "end": 2360
       },
       "test": {
         "type": "Literal",
         "value": true,
         "raw": "true",
-        "start": 2190,
-        "end": 2194
+        "start": 2368,
+        "end": 2372
       },
-      "start": 2122,
-      "end": 2196
+      "start": 2300,
+      "end": 2374
     },
     {
       "type": "ForStatement",
@@ -3640,11 +3861,11 @@ __ESTREE_TEST__:PASS:
                 "id": {
                   "type": "Identifier",
                   "decorators": [],
-                  "name": "d30",
+                  "name": "d32",
                   "optional": false,
                   "typeAnnotation": null,
-                  "start": 2219,
-                  "end": 2222
+                  "start": 2397,
+                  "end": 2400
                 },
                 "init": {
                   "type": "ObjectExpression",
@@ -3660,8 +3881,8 @@ __ESTREE_TEST__:PASS:
                           "name": "Symbol",
                           "optional": false,
                           "typeAnnotation": null,
-                          "start": 2228,
-                          "end": 2234
+                          "start": 2406,
+                          "end": 2412
                         },
                         "property": {
                           "type": "Identifier",
@@ -3669,13 +3890,13 @@ __ESTREE_TEST__:PASS:
                           "name": "dispose",
                           "optional": false,
                           "typeAnnotation": null,
-                          "start": 2235,
-                          "end": 2242
+                          "start": 2413,
+                          "end": 2420
                         },
                         "optional": false,
                         "computed": false,
-                        "start": 2228,
-                        "end": 2242
+                        "start": 2406,
+                        "end": 2420
                       },
                       "value": {
                         "type": "FunctionExpression",
@@ -3689,45 +3910,45 @@ __ESTREE_TEST__:PASS:
                         "body": {
                           "type": "BlockStatement",
                           "body": [],
-                          "start": 2246,
-                          "end": 2248
+                          "start": 2424,
+                          "end": 2426
                         },
                         "expression": false,
-                        "start": 2243,
-                        "end": 2248
+                        "start": 2421,
+                        "end": 2426
                       },
                       "method": true,
                       "shorthand": false,
                       "computed": true,
                       "optional": false,
-                      "start": 2227,
-                      "end": 2248
+                      "start": 2405,
+                      "end": 2426
                     }
                   ],
-                  "start": 2225,
-                  "end": 2250
+                  "start": 2403,
+                  "end": 2428
                 },
                 "definite": false,
-                "start": 2219,
-                "end": 2250
+                "start": 2397,
+                "end": 2428
               }
             ],
             "declare": false,
-            "start": 2213,
-            "end": 2251
+            "start": 2391,
+            "end": 2429
           },
           {
             "type": "BreakStatement",
             "label": null,
-            "start": 2256,
-            "end": 2262
+            "start": 2434,
+            "end": 2440
           }
         ],
-        "start": 2207,
-        "end": 2264
+        "start": 2385,
+        "end": 2442
       },
-      "start": 2198,
-      "end": 2264
+      "start": 2376,
+      "end": 2442
     },
     {
       "type": "ForInStatement",
@@ -3743,24 +3964,24 @@ __ESTREE_TEST__:PASS:
               "name": "x",
               "optional": false,
               "typeAnnotation": null,
-              "start": 2277,
-              "end": 2278
+              "start": 2455,
+              "end": 2456
             },
             "init": null,
             "definite": false,
-            "start": 2277,
-            "end": 2278
+            "start": 2455,
+            "end": 2456
           }
         ],
         "declare": false,
-        "start": 2271,
-        "end": 2278
+        "start": 2449,
+        "end": 2456
       },
       "right": {
         "type": "ObjectExpression",
         "properties": [],
-        "start": 2282,
-        "end": 2284
+        "start": 2460,
+        "end": 2462
       },
       "body": {
         "type": "BlockStatement",
@@ -3774,11 +3995,11 @@ __ESTREE_TEST__:PASS:
                 "id": {
                   "type": "Identifier",
                   "decorators": [],
-                  "name": "d31",
+                  "name": "d33",
                   "optional": false,
                   "typeAnnotation": null,
-                  "start": 2298,
-                  "end": 2301
+                  "start": 2476,
+                  "end": 2479
                 },
                 "init": {
                   "type": "ObjectExpression",
@@ -3794,8 +4015,8 @@ __ESTREE_TEST__:PASS:
                           "name": "Symbol",
                           "optional": false,
                           "typeAnnotation": null,
-                          "start": 2307,
-                          "end": 2313
+                          "start": 2485,
+                          "end": 2491
                         },
                         "property": {
                           "type": "Identifier",
@@ -3803,13 +4024,13 @@ __ESTREE_TEST__:PASS:
                           "name": "dispose",
                           "optional": false,
                           "typeAnnotation": null,
-                          "start": 2314,
-                          "end": 2321
+                          "start": 2492,
+                          "end": 2499
                         },
                         "optional": false,
                         "computed": false,
-                        "start": 2307,
-                        "end": 2321
+                        "start": 2485,
+                        "end": 2499
                       },
                       "value": {
                         "type": "FunctionExpression",
@@ -3823,39 +4044,39 @@ __ESTREE_TEST__:PASS:
                         "body": {
                           "type": "BlockStatement",
                           "body": [],
-                          "start": 2325,
-                          "end": 2327
+                          "start": 2503,
+                          "end": 2505
                         },
                         "expression": false,
-                        "start": 2322,
-                        "end": 2327
+                        "start": 2500,
+                        "end": 2505
                       },
                       "method": true,
                       "shorthand": false,
                       "computed": true,
                       "optional": false,
-                      "start": 2306,
-                      "end": 2327
+                      "start": 2484,
+                      "end": 2505
                     }
                   ],
-                  "start": 2304,
-                  "end": 2329
+                  "start": 2482,
+                  "end": 2507
                 },
                 "definite": false,
-                "start": 2298,
-                "end": 2329
+                "start": 2476,
+                "end": 2507
               }
             ],
             "declare": false,
-            "start": 2292,
-            "end": 2330
+            "start": 2470,
+            "end": 2508
           }
         ],
-        "start": 2286,
-        "end": 2332
+        "start": 2464,
+        "end": 2510
       },
-      "start": 2266,
-      "end": 2332
+      "start": 2444,
+      "end": 2510
     },
     {
       "type": "ForOfStatement",
@@ -3872,24 +4093,24 @@ __ESTREE_TEST__:PASS:
               "name": "x",
               "optional": false,
               "typeAnnotation": null,
-              "start": 2345,
-              "end": 2346
+              "start": 2523,
+              "end": 2524
             },
             "init": null,
             "definite": false,
-            "start": 2345,
-            "end": 2346
+            "start": 2523,
+            "end": 2524
           }
         ],
         "declare": false,
-        "start": 2339,
-        "end": 2346
+        "start": 2517,
+        "end": 2524
       },
       "right": {
         "type": "ArrayExpression",
         "elements": [],
-        "start": 2350,
-        "end": 2352
+        "start": 2528,
+        "end": 2530
       },
       "body": {
         "type": "BlockStatement",
@@ -3903,11 +4124,11 @@ __ESTREE_TEST__:PASS:
                 "id": {
                   "type": "Identifier",
                   "decorators": [],
-                  "name": "d32",
+                  "name": "d34",
                   "optional": false,
                   "typeAnnotation": null,
-                  "start": 2366,
-                  "end": 2369
+                  "start": 2544,
+                  "end": 2547
                 },
                 "init": {
                   "type": "ObjectExpression",
@@ -3923,8 +4144,8 @@ __ESTREE_TEST__:PASS:
                           "name": "Symbol",
                           "optional": false,
                           "typeAnnotation": null,
-                          "start": 2375,
-                          "end": 2381
+                          "start": 2553,
+                          "end": 2559
                         },
                         "property": {
                           "type": "Identifier",
@@ -3932,13 +4153,13 @@ __ESTREE_TEST__:PASS:
                           "name": "dispose",
                           "optional": false,
                           "typeAnnotation": null,
-                          "start": 2382,
-                          "end": 2389
+                          "start": 2560,
+                          "end": 2567
                         },
                         "optional": false,
                         "computed": false,
-                        "start": 2375,
-                        "end": 2389
+                        "start": 2553,
+                        "end": 2567
                       },
                       "value": {
                         "type": "FunctionExpression",
@@ -3952,39 +4173,39 @@ __ESTREE_TEST__:PASS:
                         "body": {
                           "type": "BlockStatement",
                           "body": [],
-                          "start": 2393,
-                          "end": 2395
+                          "start": 2571,
+                          "end": 2573
                         },
                         "expression": false,
-                        "start": 2390,
-                        "end": 2395
+                        "start": 2568,
+                        "end": 2573
                       },
                       "method": true,
                       "shorthand": false,
                       "computed": true,
                       "optional": false,
-                      "start": 2374,
-                      "end": 2395
+                      "start": 2552,
+                      "end": 2573
                     }
                   ],
-                  "start": 2372,
-                  "end": 2397
+                  "start": 2550,
+                  "end": 2575
                 },
                 "definite": false,
-                "start": 2366,
-                "end": 2397
+                "start": 2544,
+                "end": 2575
               }
             ],
             "declare": false,
-            "start": 2360,
-            "end": 2398
+            "start": 2538,
+            "end": 2576
           }
         ],
-        "start": 2354,
-        "end": 2400
+        "start": 2532,
+        "end": 2578
       },
-      "start": 2334,
-      "end": 2400
+      "start": 2512,
+      "end": 2578
     },
     {
       "type": "ExportNamedDeclaration",
@@ -3993,13 +4214,13 @@ __ESTREE_TEST__:PASS:
       "source": null,
       "exportKind": "value",
       "attributes": [],
-      "start": 2402,
-      "end": 2412
+      "start": 2580,
+      "end": 2590
     }
   ],
   "sourceType": "module",
   "hashbang": null,
   "start": 0,
-  "end": 2412
+  "end": 2590
 }
 ```

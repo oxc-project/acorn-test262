@@ -1,0 +1,192 @@
+{
+  "type": "Program",
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "kind": "const",
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "id": {
+            "type": "Identifier",
+            "name": "date",
+            "start": 385,
+            "end": 389
+          },
+          "init": {
+            "type": "NewExpression",
+            "callee": {
+              "type": "MemberExpression",
+              "object": {
+                "type": "Identifier",
+                "name": "Temporal",
+                "start": 396,
+                "end": 404
+              },
+              "property": {
+                "type": "Identifier",
+                "name": "PlainMonthDay",
+                "start": 405,
+                "end": 418
+              },
+              "optional": false,
+              "computed": false,
+              "start": 396,
+              "end": 418
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "value": 5,
+                "raw": "5",
+                "start": 419,
+                "end": 420
+              },
+              {
+                "type": "Literal",
+                "value": 2,
+                "raw": "2",
+                "start": 422,
+                "end": 423
+              },
+              {
+                "type": "Literal",
+                "value": "gregory",
+                "raw": "\"gregory\"",
+                "start": 425,
+                "end": 434
+              }
+            ],
+            "start": 392,
+            "end": 435
+          },
+          "start": 385,
+          "end": 435
+        }
+      ],
+      "start": 379,
+      "end": 436
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "Identifier",
+          "name": "assert",
+          "start": 438,
+          "end": 444
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "callee": {
+              "type": "MemberExpression",
+              "object": {
+                "type": "CallExpression",
+                "callee": {
+                  "type": "MemberExpression",
+                  "object": {
+                    "type": "Identifier",
+                    "name": "date",
+                    "start": 445,
+                    "end": 449
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "name": "toLocaleString",
+                    "start": 450,
+                    "end": 464
+                  },
+                  "optional": false,
+                  "computed": false,
+                  "start": 445,
+                  "end": 464
+                },
+                "arguments": [
+                  {
+                    "type": "Literal",
+                    "value": "en",
+                    "raw": "\"en\"",
+                    "start": 465,
+                    "end": 469
+                  },
+                  {
+                    "type": "ObjectExpression",
+                    "properties": [
+                      {
+                        "type": "Property",
+                        "kind": "init",
+                        "key": {
+                          "type": "Identifier",
+                          "name": "era",
+                          "start": 473,
+                          "end": 476
+                        },
+                        "value": {
+                          "type": "Literal",
+                          "value": "narrow",
+                          "raw": "\"narrow\"",
+                          "start": 478,
+                          "end": 486
+                        },
+                        "method": false,
+                        "shorthand": false,
+                        "computed": false,
+                        "start": 473,
+                        "end": 486
+                      }
+                    ],
+                    "start": 471,
+                    "end": 488
+                  }
+                ],
+                "optional": false,
+                "start": 445,
+                "end": 489
+              },
+              "property": {
+                "type": "Identifier",
+                "name": "startsWith",
+                "start": 490,
+                "end": 500
+              },
+              "optional": false,
+              "computed": false,
+              "start": 445,
+              "end": 500
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "value": "5",
+                "raw": "\"5\"",
+                "start": 501,
+                "end": 504
+              }
+            ],
+            "optional": false,
+            "start": 445,
+            "end": 505
+          },
+          {
+            "type": "Literal",
+            "value": "toLocaleString on a PlainMonthDay with era option should work",
+            "raw": "\"toLocaleString on a PlainMonthDay with era option should work\"",
+            "start": 507,
+            "end": 570
+          }
+        ],
+        "optional": false,
+        "start": 438,
+        "end": 571
+      },
+      "start": 438,
+      "end": 572
+    }
+  ],
+  "sourceType": "script",
+  "hashbang": null,
+  "start": 0,
+  "end": 573
+}
