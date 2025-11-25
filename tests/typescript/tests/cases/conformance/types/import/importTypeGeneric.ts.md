@@ -257,21 +257,7 @@ __ESTREE_TEST__:PASS:
           "type": "TSTypeAnnotation",
           "typeAnnotation": {
             "type": "TSImportType",
-            "argument": {
-              "type": "TSTypeReference",
-              "typeName": {
-                "type": "Identifier",
-                "decorators": [],
-                "name": "T",
-                "optional": false,
-                "typeAnnotation": null,
-                "start": 66,
-                "end": 67
-              },
-              "typeArguments": null,
-              "start": 66,
-              "end": 67
-            },
+            "source": null,
             "options": null,
             "qualifier": {
               "type": "Identifier",
@@ -439,21 +425,7 @@ __ESTREE_TEST__:PASS:
             "type": "TSIndexedAccessType",
             "objectType": {
               "type": "TSImportType",
-              "argument": {
-                "type": "TSTypeReference",
-                "typeName": {
-                  "type": "Identifier",
-                  "decorators": [],
-                  "name": "T",
-                  "optional": false,
-                  "typeAnnotation": null,
-                  "start": 178,
-                  "end": 179
-                },
-                "typeArguments": null,
-                "start": 178,
-                "end": 179
-              },
+              "source": null,
               "options": null,
               "qualifier": {
                 "type": "Identifier",

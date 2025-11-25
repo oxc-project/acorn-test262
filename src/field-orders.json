@@ -106,7 +106,7 @@
   "TSExternalModuleReference": ["expression"],
   "TSFunctionType": ["typeParameters", "params", "returnType"],
   "TSImportEqualsDeclaration": ["id", "moduleReference", "importKind"],
-  "TSImportType": ["argument", "options", "qualifier", "typeArguments"],
+  "TSImportType": ["source", "options", "qualifier", "typeArguments"],
   "TSIndexSignature": ["parameters", "typeAnnotation", "readonly", "static", "accessibility"],
   "TSIndexedAccessType": ["objectType", "indexType"],
   "TSInferType": ["typeParameter"],

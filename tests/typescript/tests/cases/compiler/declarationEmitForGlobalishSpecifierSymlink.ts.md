@@ -428,15 +428,10 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeAnnotation",
                 "typeAnnotation": {
                   "type": "TSImportType",
-                  "argument": {
-                    "type": "TSLiteralType",
-                    "literal": {
-                      "type": "Literal",
-                      "value": "typescript-fsa",
-                      "raw": "\"typescript-fsa\"",
-                      "start": 23,
-                      "end": 39
-                    },
+                  "source": {
+                    "type": "Literal",
+                    "value": "typescript-fsa",
+                    "raw": "\"typescript-fsa\"",
                     "start": 23,
                     "end": 39
                   },

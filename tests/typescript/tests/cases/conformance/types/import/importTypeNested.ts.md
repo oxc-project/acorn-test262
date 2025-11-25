@@ -118,34 +118,7 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeAnnotation",
                 "typeAnnotation": {
                   "type": "TSImportType",
-                  "argument": {
-                    "type": "TSImportType",
-                    "argument": {
-                      "type": "TSLiteralType",
-                      "literal": {
-                        "type": "Literal",
-                        "value": "./a",
-                        "raw": "\"./a\"",
-                        "start": 30,
-                        "end": 35
-                      },
-                      "start": 30,
-                      "end": 35
-                    },
-                    "options": null,
-                    "qualifier": {
-                      "type": "Identifier",
-                      "decorators": [],
-                      "name": "LookAt",
-                      "optional": false,
-                      "typeAnnotation": null,
-                      "start": 37,
-                      "end": 43
-                    },
-                    "typeArguments": null,
-                    "start": 23,
-                    "end": 43
-                  },
+                  "source": null,
                   "options": null,
                   "qualifier": {
                     "type": "Identifier",

@@ -163,15 +163,10 @@ __ESTREE_TEST__:PASS:
         "typeParameters": null,
         "typeAnnotation": {
           "type": "TSImportType",
-          "argument": {
-            "type": "TSLiteralType",
-            "literal": {
-              "type": "Literal",
-              "value": "./inner",
-              "raw": "'./inner'",
-              "start": 31,
-              "end": 40
-            },
+          "source": {
+            "type": "Literal",
+            "value": "./inner",
+            "raw": "'./inner'",
             "start": 31,
             "end": 40
           },
@@ -216,15 +211,10 @@ __ESTREE_TEST__:PASS:
         "typeParameters": null,
         "typeAnnotation": {
           "type": "TSImportType",
-          "argument": {
-            "type": "TSLiteralType",
-            "literal": {
-              "type": "Literal",
-              "value": "./inner",
-              "raw": "'./inner'",
-              "start": 79,
-              "end": 88
-            },
+          "source": {
+            "type": "Literal",
+            "value": "./inner",
+            "raw": "'./inner'",
             "start": 79,
             "end": 88
           },

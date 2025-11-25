@@ -1330,15 +1330,10 @@ __ESTREE_TEST__:PASS:
                                 "type": "TSTypeAnnotation",
                                 "typeAnnotation": {
                                   "type": "TSImportType",
-                                  "argument": {
-                                    "type": "TSLiteralType",
-                                    "literal": {
-                                      "type": "Literal",
-                                      "value": "./middleware",
-                                      "raw": "\"./middleware\"",
-                                      "start": 345,
-                                      "end": 359
-                                    },
+                                  "source": {
+                                    "type": "Literal",
+                                    "value": "./middleware",
+                                    "raw": "\"./middleware\"",
                                     "start": 345,
                                     "end": 359
                                   },
@@ -1660,15 +1655,10 @@ __ESTREE_TEST__:PASS:
                             "type": "TSTypeAnnotation",
                             "typeAnnotation": {
                               "type": "TSImportType",
-                              "argument": {
-                                "type": "TSLiteralType",
-                                "literal": {
-                                  "type": "Literal",
-                                  "value": "./middleware",
-                                  "raw": "\"./middleware\"",
-                                  "start": 653,
-                                  "end": 667
-                                },
+                              "source": {
+                                "type": "Literal",
+                                "value": "./middleware",
+                                "raw": "\"./middleware\"",
                                 "start": 653,
                                 "end": 667
                               },

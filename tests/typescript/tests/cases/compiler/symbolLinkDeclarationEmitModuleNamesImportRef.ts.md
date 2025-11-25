@@ -22,15 +22,10 @@ __ESTREE_TEST__:PASS:
                   "type": "TSArrayType",
                   "elementType": {
                     "type": "TSImportType",
-                    "argument": {
-                      "type": "TSLiteralType",
-                      "literal": {
-                        "type": "Literal",
-                        "value": "styled-components",
-                        "raw": "\"styled-components\"",
-                        "start": 36,
-                        "end": 55
-                      },
+                    "source": {
+                      "type": "Literal",
+                      "value": "styled-components",
+                      "raw": "\"styled-components\"",
                       "start": 36,
                       "end": 55
                     },

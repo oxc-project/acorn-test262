@@ -842,15 +842,10 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeAnnotation",
                 "typeAnnotation": {
                   "type": "TSImportType",
-                  "argument": {
-                    "type": "TSLiteralType",
-                    "literal": {
-                      "type": "Literal",
-                      "value": "./foo",
-                      "raw": "\"./foo\"",
-                      "start": 23,
-                      "end": 30
-                    },
+                  "source": {
+                    "type": "Literal",
+                    "value": "./foo",
+                    "raw": "\"./foo\"",
                     "start": 23,
                     "end": 30
                   },
@@ -1052,15 +1047,10 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeAnnotation",
                 "typeAnnotation": {
                   "type": "TSImportType",
-                  "argument": {
-                    "type": "TSLiteralType",
-                    "literal": {
-                      "type": "Literal",
-                      "value": "./foo2",
-                      "raw": "\"./foo2\"",
-                      "start": 99,
-                      "end": 107
-                    },
+                  "source": {
+                    "type": "Literal",
+                    "value": "./foo2",
+                    "raw": "\"./foo2\"",
                     "start": 99,
                     "end": 107
                   },
@@ -1569,15 +1559,10 @@ __ESTREE_TEST__:PASS:
                   "type": "TSTypeQuery",
                   "exprName": {
                     "type": "TSImportType",
-                    "argument": {
-                      "type": "TSLiteralType",
-                      "literal": {
-                        "type": "Literal",
-                        "value": "./foo2",
-                        "raw": "\"./foo2\"",
-                        "start": 306,
-                        "end": 314
-                      },
+                    "source": {
+                      "type": "Literal",
+                      "value": "./foo2",
+                      "raw": "\"./foo2\"",
                       "start": 306,
                       "end": 314
                     },

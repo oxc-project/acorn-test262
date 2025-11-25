@@ -20,15 +20,10 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeQuery",
                 "exprName": {
                   "type": "TSImportType",
-                  "argument": {
-                    "type": "TSLiteralType",
-                    "literal": {
-                      "type": "Literal",
-                      "value": "./lib/index.js",
-                      "raw": "\"./lib/index.js\"",
-                      "start": 49,
-                      "end": 65
-                    },
+                  "source": {
+                    "type": "Literal",
+                    "value": "./lib/index.js",
+                    "raw": "\"./lib/index.js\"",
                     "start": 49,
                     "end": 65
                   },

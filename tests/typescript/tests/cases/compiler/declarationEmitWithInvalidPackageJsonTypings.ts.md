@@ -383,15 +383,10 @@ __ESTREE_TEST__:PASS:
                                 "type": "TSTypeQuery",
                                 "exprName": {
                                   "type": "TSImportType",
-                                  "argument": {
-                                    "type": "TSLiteralType",
-                                    "literal": {
-                                      "type": "Literal",
-                                      "value": "csv-parse",
-                                      "raw": "\"csv-parse\"",
-                                      "start": 223,
-                                      "end": 234
-                                    },
+                                  "source": {
+                                    "type": "Literal",
+                                    "value": "csv-parse",
+                                    "raw": "\"csv-parse\"",
                                     "start": 223,
                                     "end": 234
                                   },

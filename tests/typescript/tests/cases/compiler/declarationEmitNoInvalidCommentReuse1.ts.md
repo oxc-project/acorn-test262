@@ -115,15 +115,10 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeAnnotation",
                 "typeAnnotation": {
                   "type": "TSImportType",
-                  "argument": {
-                    "type": "TSLiteralType",
-                    "literal": {
-                      "type": "Literal",
-                      "value": "./id",
-                      "raw": "\"./id\"",
-                      "start": 36,
-                      "end": 42
-                    },
+                  "source": {
+                    "type": "Literal",
+                    "value": "./id",
+                    "raw": "\"./id\"",
                     "start": 36,
                     "end": 42
                   },
@@ -161,15 +156,10 @@ __ESTREE_TEST__:PASS:
                               "type": "TSTypeAnnotation",
                               "typeAnnotation": {
                                 "type": "TSImportType",
-                                "argument": {
-                                  "type": "TSLiteralType",
-                                  "literal": {
-                                    "type": "Literal",
-                                    "value": "./id",
-                                    "raw": "\"./id\"",
-                                    "start": 65,
-                                    "end": 71
-                                  },
+                                "source": {
+                                  "type": "Literal",
+                                  "value": "./id",
+                                  "raw": "\"./id\"",
                                   "start": 65,
                                   "end": 71
                                 },

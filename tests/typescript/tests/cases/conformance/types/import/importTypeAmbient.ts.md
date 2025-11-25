@@ -136,15 +136,10 @@ __ESTREE_TEST__:PASS:
               "type": "TSTypeAnnotation",
               "typeAnnotation": {
                 "type": "TSImportType",
-                "argument": {
-                  "type": "TSLiteralType",
-                  "literal": {
-                    "type": "Literal",
-                    "value": "foo",
-                    "raw": "\"foo\"",
-                    "start": 127,
-                    "end": 132
-                  },
+                "source": {
+                  "type": "Literal",
+                  "value": "foo",
+                  "raw": "\"foo\"",
                   "start": 127,
                   "end": 132
                 },
@@ -641,15 +636,10 @@ __ESTREE_TEST__:PASS:
               "type": "TSTypeAnnotation",
               "typeAnnotation": {
                 "type": "TSImportType",
-                "argument": {
-                  "type": "TSLiteralType",
-                  "literal": {
-                    "type": "Literal",
-                    "value": "foo2",
-                    "raw": "\"foo2\"",
-                    "start": 482,
-                    "end": 488
-                  },
+                "source": {
+                  "type": "Literal",
+                  "value": "foo2",
+                  "raw": "\"foo2\"",
                   "start": 482,
                   "end": 488
                 },
@@ -982,15 +972,10 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeQuery",
                 "exprName": {
                   "type": "TSImportType",
-                  "argument": {
-                    "type": "TSLiteralType",
-                    "literal": {
-                      "type": "Literal",
-                      "value": "foo2",
-                      "raw": "\"foo2\"",
-                      "start": 633,
-                      "end": 639
-                    },
+                  "source": {
+                    "type": "Literal",
+                    "value": "foo2",
+                    "raw": "\"foo2\"",
                     "start": 633,
                     "end": 639
                   },

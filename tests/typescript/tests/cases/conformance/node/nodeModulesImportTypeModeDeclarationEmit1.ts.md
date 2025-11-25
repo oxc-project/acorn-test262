@@ -110,15 +110,10 @@ __ESTREE_TEST__:PASS:
           "types": [
             {
               "type": "TSImportType",
-              "argument": {
-                "type": "TSLiteralType",
-                "literal": {
-                  "type": "Literal",
-                  "value": "pkg",
-                  "raw": "\"pkg\"",
-                  "start": 42,
-                  "end": 47
-                },
+              "source": {
+                "type": "Literal",
+                "value": "pkg",
+                "raw": "\"pkg\"",
                 "start": 42,
                 "end": 47
               },
@@ -194,15 +189,10 @@ __ESTREE_TEST__:PASS:
             },
             {
               "type": "TSImportType",
-              "argument": {
-                "type": "TSLiteralType",
-                "literal": {
-                  "type": "Literal",
-                  "value": "pkg",
-                  "raw": "\"pkg\"",
-                  "start": 123,
-                  "end": 128
-                },
+              "source": {
+                "type": "Literal",
+                "value": "pkg",
+                "raw": "\"pkg\"",
                 "start": 123,
                 "end": 128
               },
@@ -329,15 +319,10 @@ __ESTREE_TEST__:PASS:
               },
               "typeAnnotation": {
                 "type": "TSImportType",
-                "argument": {
-                  "type": "TSLiteralType",
-                  "literal": {
-                    "type": "Literal",
-                    "value": "pkg",
-                    "raw": "\"pkg\"",
-                    "start": 231,
-                    "end": 236
-                  },
+                "source": {
+                  "type": "Literal",
+                  "value": "pkg",
+                  "raw": "\"pkg\"",
                   "start": 231,
                   "end": 236
                 },
@@ -468,15 +453,10 @@ __ESTREE_TEST__:PASS:
               },
               "typeAnnotation": {
                 "type": "TSImportType",
-                "argument": {
-                  "type": "TSLiteralType",
-                  "literal": {
-                    "type": "Literal",
-                    "value": "pkg",
-                    "raw": "\"pkg\"",
-                    "start": 341,
-                    "end": 346
-                  },
+                "source": {
+                  "type": "Literal",
+                  "value": "pkg",
+                  "raw": "\"pkg\"",
                   "start": 341,
                   "end": 346
                 },

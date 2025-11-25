@@ -143,15 +143,10 @@ __ESTREE_TEST__:PASS:
         "type": "TSTypeQuery",
         "exprName": {
           "type": "TSImportType",
-          "argument": {
-            "type": "TSLiteralType",
-            "literal": {
-              "type": "Literal",
-              "value": "foo",
-              "raw": "\"foo\"",
-              "start": 29,
-              "end": 34
-            },
+          "source": {
+            "type": "Literal",
+            "value": "foo",
+            "raw": "\"foo\"",
             "start": 29,
             "end": 34
           },
@@ -193,15 +188,10 @@ __ESTREE_TEST__:PASS:
         "type": "TSTypeQuery",
         "exprName": {
           "type": "TSImportType",
-          "argument": {
-            "type": "TSLiteralType",
-            "literal": {
-              "type": "Literal",
-              "value": "foo",
-              "raw": "\"foo\"",
-              "start": 67,
-              "end": 72
-            },
+          "source": {
+            "type": "Literal",
+            "value": "foo",
+            "raw": "\"foo\"",
             "start": 67,
             "end": 72
           },
@@ -299,15 +289,10 @@ __ESTREE_TEST__:PASS:
         "type": "TSTypeQuery",
         "exprName": {
           "type": "TSImportType",
-          "argument": {
-            "type": "TSLiteralType",
-            "literal": {
-              "type": "Literal",
-              "value": "foo",
-              "raw": "\"foo\"",
-              "start": 151,
-              "end": 156
-            },
+          "source": {
+            "type": "Literal",
+            "value": "foo",
+            "raw": "\"foo\"",
             "start": 151,
             "end": 156
           },
@@ -405,15 +390,10 @@ __ESTREE_TEST__:PASS:
         "type": "TSTypeQuery",
         "exprName": {
           "type": "TSImportType",
-          "argument": {
-            "type": "TSLiteralType",
-            "literal": {
-              "type": "Literal",
-              "value": "./other",
-              "raw": "\"./other\"",
-              "start": 329,
-              "end": 338
-            },
+          "source": {
+            "type": "Literal",
+            "value": "./other",
+            "raw": "\"./other\"",
             "start": 329,
             "end": 338
           },
@@ -511,15 +491,10 @@ __ESTREE_TEST__:PASS:
         "type": "TSTypeQuery",
         "exprName": {
           "type": "TSImportType",
-          "argument": {
-            "type": "TSLiteralType",
-            "literal": {
-              "type": "Literal",
-              "value": "./other",
-              "raw": "\"./other\"",
-              "start": 425,
-              "end": 434
-            },
+          "source": {
+            "type": "Literal",
+            "value": "./other",
+            "raw": "\"./other\"",
             "start": 425,
             "end": 434
           },

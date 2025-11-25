@@ -182,15 +182,10 @@ __ESTREE_TEST__:PASS:
       "typeParameters": null,
       "typeAnnotation": {
         "type": "TSImportType",
-        "argument": {
-          "type": "TSLiteralType",
-          "literal": {
-            "type": "Literal",
-            "value": "./foo",
-            "raw": "\"./foo\"",
-            "start": 19,
-            "end": 26
-          },
+        "source": {
+          "type": "Literal",
+          "value": "./foo",
+          "raw": "\"./foo\"",
           "start": 19,
           "end": 26
         },

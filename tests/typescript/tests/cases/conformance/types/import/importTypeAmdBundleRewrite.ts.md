@@ -99,15 +99,10 @@ __ESTREE_TEST__:PASS:
               "type": "TSTypeAnnotation",
               "typeAnnotation": {
                 "type": "TSImportType",
-                "argument": {
-                  "type": "TSLiteralType",
-                  "literal": {
-                    "type": "Literal",
-                    "value": "./b/c",
-                    "raw": "\"./b/c\"",
-                    "start": 16,
-                    "end": 23
-                  },
+                "source": {
+                  "type": "Literal",
+                  "value": "./b/c",
+                  "raw": "\"./b/c\"",
                   "start": 16,
                   "end": 23
                 },
@@ -239,15 +234,10 @@ __ESTREE_TEST__:PASS:
                   "type": "TSTypeQuery",
                   "exprName": {
                     "type": "TSImportType",
-                    "argument": {
-                      "type": "TSLiteralType",
-                      "literal": {
-                        "type": "Literal",
-                        "value": "./a/inner",
-                        "raw": "\"./a/inner\"",
-                        "start": 23,
-                        "end": 34
-                      },
+                    "source": {
+                      "type": "Literal",
+                      "value": "./a/inner",
+                      "raw": "\"./a/inner\"",
                       "start": 23,
                       "end": 34
                     },
