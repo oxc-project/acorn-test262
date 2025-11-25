@@ -1,25 +1,25 @@
-import fs from 'node:fs/promises';
-import { dirname, join as pathJoin } from 'node:path';
-import { stringifyWith } from './json.js';
+import fs from "node:fs/promises";
+import { dirname, join as pathJoin } from "node:path";
+import { stringifyWith } from "./json.js";
 
-const ROOT_DIR_PATH = pathJoin(import.meta.dirname, '../../');
-const SUBMODULES_DIR_PATH = pathJoin(ROOT_DIR_PATH, 'submodules');
-const OUTPUTS_DIR_PATH = pathJoin(ROOT_DIR_PATH, 'tests');
+const ROOT_DIR_PATH = pathJoin(import.meta.dirname, "../../");
+const SUBMODULES_DIR_PATH = pathJoin(ROOT_DIR_PATH, "submodules");
+const OUTPUTS_DIR_PATH = pathJoin(ROOT_DIR_PATH, "tests");
 
 const { stdout } = process;
 
 // Generate outputs
 export async function run({ submodule, subDirectory, filter, transform, process }) {
-  console.log('> Generating:', submodule);
+  console.log("> Generating:", submodule);
 
   const fixturesRootPath = pathJoin(SUBMODULES_DIR_PATH, submodule);
   const outputsDirPath = pathJoin(OUTPUTS_DIR_PATH, submodule);
 
   // Find all files in fixtures dir
-  const files = await fs.readdir(
-    pathJoin(fixturesRootPath, subDirectory),
-    { recursive: true, withFileTypes: true },
-  );
+  const files = await fs.readdir(pathJoin(fixturesRootPath, subDirectory), {
+    recursive: true,
+    withFileTypes: true,
+  });
 
   const trimLen = fixturesRootPath.length + 1;
   const fixturePaths = [];
@@ -39,7 +39,7 @@ export async function run({ submodule, subDirectory, filter, transform, process 
   for (const [index, fixturePath] of fixturePaths.entries()) {
     stdout.write(`\r${index + 1} / ${fixturePaths.length}`);
 
-    const code = await fs.readFile(pathJoin(fixturesRootPath, fixturePath), 'utf8');
+    const code = await fs.readFile(pathJoin(fixturesRootPath, fixturePath), "utf8");
     const outputs = await process(fixturePath, code);
     if (!outputs) {
       parseFailCount++;
