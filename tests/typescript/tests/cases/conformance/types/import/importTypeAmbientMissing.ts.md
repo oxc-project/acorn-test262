@@ -136,15 +136,10 @@ __ESTREE_TEST__:PASS:
               "type": "TSTypeAnnotation",
               "typeAnnotation": {
                 "type": "TSImportType",
-                "argument": {
-                  "type": "TSLiteralType",
-                  "literal": {
-                    "type": "Literal",
-                    "value": "fo",
-                    "raw": "\"fo\"",
-                    "start": 127,
-                    "end": 131
-                  },
+                "source": {
+                  "type": "Literal",
+                  "value": "fo",
+                  "raw": "\"fo\"",
                   "start": 127,
                   "end": 131
                 },

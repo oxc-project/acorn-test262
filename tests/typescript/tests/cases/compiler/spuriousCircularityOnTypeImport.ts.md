@@ -463,15 +463,10 @@ __ESTREE_TEST__:PASS:
                                 },
                                 "constraint": {
                                   "type": "TSImportType",
-                                  "argument": {
-                                    "type": "TSLiteralType",
-                                    "literal": {
-                                      "type": "Literal",
-                                      "value": "./types",
-                                      "raw": "'./types'",
-                                      "start": 198,
-                                      "end": 207
-                                    },
+                                  "source": {
+                                    "type": "Literal",
+                                    "value": "./types",
+                                    "raw": "'./types'",
                                     "start": 198,
                                     "end": 207
                                   },

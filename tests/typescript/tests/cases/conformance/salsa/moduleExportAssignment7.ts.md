@@ -1035,15 +1035,10 @@ __ESTREE_TEST__:PASS:
             "type": "TSTypeAnnotation",
             "typeAnnotation": {
               "type": "TSImportType",
-              "argument": {
-                "type": "TSLiteralType",
-                "literal": {
-                  "type": "Literal",
-                  "value": "./mod",
-                  "raw": "'./mod'",
-                  "start": 30,
-                  "end": 37
-                },
+              "source": {
+                "type": "Literal",
+                "value": "./mod",
+                "raw": "'./mod'",
                 "start": 30,
                 "end": 37
               },
@@ -1076,15 +1071,10 @@ __ESTREE_TEST__:PASS:
             "type": "TSTypeAnnotation",
             "typeAnnotation": {
               "type": "TSImportType",
-              "argument": {
-                "type": "TSLiteralType",
-                "literal": {
-                  "type": "Literal",
-                  "value": "./mod",
-                  "raw": "'./mod'",
-                  "start": 60,
-                  "end": 67
-                },
+              "source": {
+                "type": "Literal",
+                "value": "./mod",
+                "raw": "'./mod'",
                 "start": 60,
                 "end": 67
               },
@@ -1117,15 +1107,10 @@ __ESTREE_TEST__:PASS:
             "type": "TSTypeAnnotation",
             "typeAnnotation": {
               "type": "TSImportType",
-              "argument": {
-                "type": "TSLiteralType",
-                "literal": {
-                  "type": "Literal",
-                  "value": "./mod",
-                  "raw": "'./mod'",
-                  "start": 97,
-                  "end": 104
-                },
+              "source": {
+                "type": "Literal",
+                "value": "./mod",
+                "raw": "'./mod'",
                 "start": 97,
                 "end": 104
               },
@@ -1158,15 +1143,10 @@ __ESTREE_TEST__:PASS:
             "type": "TSTypeAnnotation",
             "typeAnnotation": {
               "type": "TSImportType",
-              "argument": {
-                "type": "TSLiteralType",
-                "literal": {
-                  "type": "Literal",
-                  "value": "./mod",
-                  "raw": "'./mod'",
-                  "start": 125,
-                  "end": 132
-                },
+              "source": {
+                "type": "Literal",
+                "value": "./mod",
+                "raw": "'./mod'",
                 "start": 125,
                 "end": 132
               },
@@ -1199,15 +1179,10 @@ __ESTREE_TEST__:PASS:
             "type": "TSTypeAnnotation",
             "typeAnnotation": {
               "type": "TSImportType",
-              "argument": {
-                "type": "TSLiteralType",
-                "literal": {
-                  "type": "Literal",
-                  "value": "./mod",
-                  "raw": "'./mod'",
-                  "start": 153,
-                  "end": 160
-                },
+              "source": {
+                "type": "Literal",
+                "value": "./mod",
+                "raw": "'./mod'",
                 "start": 153,
                 "end": 160
               },
@@ -1240,15 +1215,10 @@ __ESTREE_TEST__:PASS:
             "type": "TSTypeAnnotation",
             "typeAnnotation": {
               "type": "TSImportType",
-              "argument": {
-                "type": "TSLiteralType",
-                "literal": {
-                  "type": "Literal",
-                  "value": "./mod",
-                  "raw": "'./mod'",
-                  "start": 181,
-                  "end": 188
-                },
+              "source": {
+                "type": "Literal",
+                "value": "./mod",
+                "raw": "'./mod'",
                 "start": 181,
                 "end": 188
               },
@@ -1281,15 +1251,10 @@ __ESTREE_TEST__:PASS:
             "type": "TSTypeAnnotation",
             "typeAnnotation": {
               "type": "TSImportType",
-              "argument": {
-                "type": "TSLiteralType",
-                "literal": {
-                  "type": "Literal",
-                  "value": "./mod",
-                  "raw": "'./mod'",
-                  "start": 209,
-                  "end": 216
-                },
+              "source": {
+                "type": "Literal",
+                "value": "./mod",
+                "raw": "'./mod'",
                 "start": 209,
                 "end": 216
               },
@@ -1537,15 +1502,10 @@ __ESTREE_TEST__:PASS:
               "type": "TSTypeQuery",
               "exprName": {
                 "type": "TSImportType",
-                "argument": {
-                  "type": "TSLiteralType",
-                  "literal": {
-                    "type": "Literal",
-                    "value": "./mod",
-                    "raw": "'./mod'",
-                    "start": 328,
-                    "end": 335
-                  },
+                "source": {
+                  "type": "Literal",
+                  "value": "./mod",
+                  "raw": "'./mod'",
                   "start": 328,
                   "end": 335
                 },
@@ -1584,15 +1544,10 @@ __ESTREE_TEST__:PASS:
               "type": "TSTypeQuery",
               "exprName": {
                 "type": "TSImportType",
-                "argument": {
-                  "type": "TSLiteralType",
-                  "literal": {
-                    "type": "Literal",
-                    "value": "./mod",
-                    "raw": "'./mod'",
-                    "start": 365,
-                    "end": 372
-                  },
+                "source": {
+                  "type": "Literal",
+                  "value": "./mod",
+                  "raw": "'./mod'",
                   "start": 365,
                   "end": 372
                 },
@@ -1631,15 +1586,10 @@ __ESTREE_TEST__:PASS:
               "type": "TSTypeQuery",
               "exprName": {
                 "type": "TSImportType",
-                "argument": {
-                  "type": "TSLiteralType",
-                  "literal": {
-                    "type": "Literal",
-                    "value": "./mod",
-                    "raw": "'./mod'",
-                    "start": 409,
-                    "end": 416
-                  },
+                "source": {
+                  "type": "Literal",
+                  "value": "./mod",
+                  "raw": "'./mod'",
                   "start": 409,
                   "end": 416
                 },
@@ -1678,15 +1628,10 @@ __ESTREE_TEST__:PASS:
               "type": "TSTypeQuery",
               "exprName": {
                 "type": "TSImportType",
-                "argument": {
-                  "type": "TSLiteralType",
-                  "literal": {
-                    "type": "Literal",
-                    "value": "./mod",
-                    "raw": "'./mod'",
-                    "start": 444,
-                    "end": 451
-                  },
+                "source": {
+                  "type": "Literal",
+                  "value": "./mod",
+                  "raw": "'./mod'",
                   "start": 444,
                   "end": 451
                 },
@@ -1725,15 +1670,10 @@ __ESTREE_TEST__:PASS:
               "type": "TSTypeQuery",
               "exprName": {
                 "type": "TSImportType",
-                "argument": {
-                  "type": "TSLiteralType",
-                  "literal": {
-                    "type": "Literal",
-                    "value": "./mod",
-                    "raw": "'./mod'",
-                    "start": 479,
-                    "end": 486
-                  },
+                "source": {
+                  "type": "Literal",
+                  "value": "./mod",
+                  "raw": "'./mod'",
                   "start": 479,
                   "end": 486
                 },
@@ -1772,15 +1712,10 @@ __ESTREE_TEST__:PASS:
               "type": "TSTypeQuery",
               "exprName": {
                 "type": "TSImportType",
-                "argument": {
-                  "type": "TSLiteralType",
-                  "literal": {
-                    "type": "Literal",
-                    "value": "./mod",
-                    "raw": "'./mod'",
-                    "start": 514,
-                    "end": 521
-                  },
+                "source": {
+                  "type": "Literal",
+                  "value": "./mod",
+                  "raw": "'./mod'",
                   "start": 514,
                   "end": 521
                 },
@@ -1819,15 +1754,10 @@ __ESTREE_TEST__:PASS:
               "type": "TSTypeQuery",
               "exprName": {
                 "type": "TSImportType",
-                "argument": {
-                  "type": "TSLiteralType",
-                  "literal": {
-                    "type": "Literal",
-                    "value": "./mod",
-                    "raw": "'./mod'",
-                    "start": 549,
-                    "end": 556
-                  },
+                "source": {
+                  "type": "Literal",
+                  "value": "./mod",
+                  "raw": "'./mod'",
                   "start": 549,
                   "end": 556
                 },

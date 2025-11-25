@@ -269,15 +269,10 @@ __ESTREE_TEST__:PASS:
                                 "type": "TSTypeAnnotation",
                                 "typeAnnotation": {
                                   "type": "TSImportType",
-                                  "argument": {
-                                    "type": "TSLiteralType",
-                                    "literal": {
-                                      "type": "Literal",
-                                      "value": "../projA",
-                                      "raw": "\"../projA\"",
-                                      "start": 46,
-                                      "end": 56
-                                    },
+                                  "source": {
+                                    "type": "Literal",
+                                    "value": "../projA",
+                                    "raw": "\"../projA\"",
                                     "start": 46,
                                     "end": 56
                                   },

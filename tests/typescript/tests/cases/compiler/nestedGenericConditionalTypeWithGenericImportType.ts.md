@@ -148,15 +148,10 @@ __ESTREE_TEST__:PASS:
           },
           "trueType": {
             "type": "TSImportType",
-            "argument": {
-              "type": "TSLiteralType",
-              "literal": {
-                "type": "Literal",
-                "value": "./name",
-                "raw": "\"./name\"",
-                "start": 79,
-                "end": 87
-              },
+            "source": {
+              "type": "Literal",
+              "value": "./name",
+              "raw": "\"./name\"",
               "start": 79,
               "end": 87
             },

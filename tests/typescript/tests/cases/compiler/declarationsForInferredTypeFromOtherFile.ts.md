@@ -73,15 +73,10 @@ __ESTREE_TEST__:PASS:
           "type": "TSTypeAnnotation",
           "typeAnnotation": {
             "type": "TSImportType",
-            "argument": {
-              "type": "TSLiteralType",
-              "literal": {
-                "type": "Literal",
-                "value": "./file1",
-                "raw": "\"./file1\"",
-                "start": 30,
-                "end": 39
-              },
+            "source": {
+              "type": "Literal",
+              "value": "./file1",
+              "raw": "\"./file1\"",
               "start": 30,
               "end": 39
             },

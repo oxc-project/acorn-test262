@@ -19,15 +19,10 @@ __ESTREE_TEST__:PASS:
         "typeParameters": null,
         "typeAnnotation": {
           "type": "TSImportType",
-          "argument": {
-            "type": "TSLiteralType",
-            "literal": {
-              "type": "Literal",
-              "value": "../types/types.js",
-              "raw": "'../types/types.js'",
-              "start": 37,
-              "end": 56
-            },
+          "source": {
+            "type": "Literal",
+            "value": "../types/types.js",
+            "raw": "'../types/types.js'",
             "start": 37,
             "end": 56
           },

@@ -547,15 +547,10 @@ __ESTREE_TEST__:PASS:
         "type": "TSTypeQuery",
         "exprName": {
           "type": "TSImportType",
-          "argument": {
-            "type": "TSLiteralType",
-            "literal": {
-              "type": "Literal",
-              "value": "./input.js",
-              "raw": "'./input.js'",
-              "start": 24,
-              "end": 36
-            },
+          "source": {
+            "type": "Literal",
+            "value": "./input.js",
+            "raw": "'./input.js'",
             "start": 24,
             "end": 36
           },
@@ -597,15 +592,10 @@ __ESTREE_TEST__:PASS:
         "type": "TSTypeQuery",
         "exprName": {
           "type": "TSImportType",
-          "argument": {
-            "type": "TSLiteralType",
-            "literal": {
-              "type": "Literal",
-              "value": "./input.js",
-              "raw": "'./input.js'",
-              "start": 74,
-              "end": 86
-            },
+          "source": {
+            "type": "Literal",
+            "value": "./input.js",
+            "raw": "'./input.js'",
             "start": 74,
             "end": 86
           },

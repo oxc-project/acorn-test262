@@ -34,15 +34,10 @@ __ESTREE_TEST__:PASS:
                       "type": "TSTypeQuery",
                       "exprName": {
                         "type": "TSImportType",
-                        "argument": {
-                          "type": "TSLiteralType",
-                          "literal": {
-                            "type": "Literal",
-                            "value": "./module",
-                            "raw": "\"./module\"",
-                            "start": 48,
-                            "end": 58
-                          },
+                        "source": {
+                          "type": "Literal",
+                          "value": "./module",
+                          "raw": "\"./module\"",
                           "start": 48,
                           "end": 58
                         },

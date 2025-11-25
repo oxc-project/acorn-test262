@@ -94,15 +94,10 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeAnnotation",
                 "typeAnnotation": {
                   "type": "TSImportType",
-                  "argument": {
-                    "type": "TSLiteralType",
-                    "literal": {
-                      "type": "Literal",
-                      "value": "./test",
-                      "raw": "\"./test\"",
-                      "start": 23,
-                      "end": 31
-                    },
+                  "source": {
+                    "type": "Literal",
+                    "value": "./test",
+                    "raw": "\"./test\"",
                     "start": 23,
                     "end": 31
                   },

@@ -129,15 +129,10 @@ __ESTREE_TEST__:PASS:
         "type": "TSTypeQuery",
         "exprName": {
           "type": "TSImportType",
-          "argument": {
-            "type": "TSLiteralType",
-            "literal": {
-              "type": "Literal",
-              "value": "./module.mts",
-              "raw": "\"./module.mts\"",
-              "start": 207,
-              "end": 221
-            },
+          "source": {
+            "type": "Literal",
+            "value": "./module.mts",
+            "raw": "\"./module.mts\"",
             "start": 207,
             "end": 221
           },
@@ -171,15 +166,10 @@ __ESTREE_TEST__:PASS:
         "type": "TSTypeQuery",
         "exprName": {
           "type": "TSImportType",
-          "argument": {
-            "type": "TSLiteralType",
-            "literal": {
-              "type": "Literal",
-              "value": "./module.mts",
-              "raw": "\"./module.mts\"",
-              "start": 248,
-              "end": 262
-            },
+          "source": {
+            "type": "Literal",
+            "value": "./module.mts",
+            "raw": "\"./module.mts\"",
             "start": 248,
             "end": 262
           },
@@ -269,15 +259,10 @@ __ESTREE_TEST__:PASS:
         "type": "TSTypeQuery",
         "exprName": {
           "type": "TSImportType",
-          "argument": {
-            "type": "TSLiteralType",
-            "literal": {
-              "type": "Literal",
-              "value": "./module.mts",
-              "raw": "\"./module.mts\"",
-              "start": 332,
-              "end": 346
-            },
+          "source": {
+            "type": "Literal",
+            "value": "./module.mts",
+            "raw": "\"./module.mts\"",
             "start": 332,
             "end": 346
           },

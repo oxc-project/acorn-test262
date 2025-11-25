@@ -116,15 +116,10 @@ __ESTREE_TEST__:PASS:
                                   "params": [
                                     {
                                       "type": "TSImportType",
-                                      "argument": {
-                                        "type": "TSLiteralType",
-                                        "literal": {
-                                          "type": "Literal",
-                                          "value": "./types.js",
-                                          "raw": "\"./types.js\"",
-                                          "start": 120,
-                                          "end": 132
-                                        },
+                                      "source": {
+                                        "type": "Literal",
+                                        "value": "./types.js",
+                                        "raw": "\"./types.js\"",
                                         "start": 120,
                                         "end": 132
                                       },

@@ -234,15 +234,10 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeAnnotation",
                 "typeAnnotation": {
                   "type": "TSImportType",
-                  "argument": {
-                    "type": "TSLiteralType",
-                    "literal": {
-                      "type": "Literal",
-                      "value": "url",
-                      "raw": "\"url\"",
-                      "start": 56,
-                      "end": 61
-                    },
+                  "source": {
+                    "type": "Literal",
+                    "value": "url",
+                    "raw": "\"url\"",
                     "start": 56,
                     "end": 61
                   },

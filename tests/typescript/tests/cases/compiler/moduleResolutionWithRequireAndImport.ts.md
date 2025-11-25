@@ -106,15 +106,10 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeQuery",
                 "exprName": {
                   "type": "TSImportType",
-                  "argument": {
-                    "type": "TSLiteralType",
-                    "literal": {
-                      "type": "Literal",
-                      "value": "./other",
-                      "raw": "'./other'",
-                      "start": 51,
-                      "end": 60
-                    },
+                  "source": {
+                    "type": "Literal",
+                    "value": "./other",
+                    "raw": "'./other'",
                     "start": 51,
                     "end": 60
                   },

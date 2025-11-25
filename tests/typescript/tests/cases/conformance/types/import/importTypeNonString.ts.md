@@ -20,49 +20,7 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeAnnotation",
                 "typeAnnotation": {
                   "type": "TSImportType",
-                  "argument": {
-                    "type": "TSTypeLiteral",
-                    "members": [
-                      {
-                        "type": "TSPropertySignature",
-                        "computed": false,
-                        "optional": false,
-                        "readonly": false,
-                        "key": {
-                          "type": "Identifier",
-                          "decorators": [],
-                          "name": "x",
-                          "optional": false,
-                          "typeAnnotation": null,
-                          "start": 24,
-                          "end": 25
-                        },
-                        "typeAnnotation": {
-                          "type": "TSTypeAnnotation",
-                          "typeAnnotation": {
-                            "type": "TSLiteralType",
-                            "literal": {
-                              "type": "Literal",
-                              "value": 12,
-                              "raw": "12",
-                              "start": 27,
-                              "end": 29
-                            },
-                            "start": 27,
-                            "end": 29
-                          },
-                          "start": 25,
-                          "end": 29
-                        },
-                        "accessibility": null,
-                        "static": false,
-                        "start": 24,
-                        "end": 29
-                      }
-                    ],
-                    "start": 23,
-                    "end": 30
-                  },
+                  "source": null,
                   "options": null,
                   "qualifier": null,
                   "typeArguments": null,
