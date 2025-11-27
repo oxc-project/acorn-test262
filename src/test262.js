@@ -108,15 +108,5 @@ function fixMeriyahNode(node) {
   } else if (type === "ArrowFunctionExpression") {
     // `id` field is not in ESTree spec. Not sure why Acorn includes it.
     if (!Object.hasOwn(node, "id")) node.id = null;
-  } else if (type === "Decorator") {
-    // Wrong `start` for `CallExpression` or `MemberExpression` as decorator.
-    // e.g. `@dec() class C {}` - `CallExpression`'s start should be 1 not 4.
-    // e.g. `@x.y class C {}` - `MemberExpression`'s start should be 1 not 2.
-    // https://github.com/meriyah/meriyah/issues/420
-    if (node.expression.type === "CallExpression") {
-      node.expression.start = node.expression.callee.start;
-    } else if (node.expression.type === "MemberExpression") {
-      node.expression.start = node.expression.object.start;
-    }
   }
 }
