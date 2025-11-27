@@ -1,5 +1,5 @@
 import fs from "node:fs/promises";
-import { dirname, join as pathJoin } from "node:path";
+import { dirname, join as pathJoin, sep as pathSep } from "node:path";
 import { stringifyWith } from "./json.js";
 
 const ROOT_DIR_PATH = pathJoin(import.meta.dirname, "../../");
@@ -7,6 +7,8 @@ const SUBMODULES_DIR_PATH = pathJoin(ROOT_DIR_PATH, "submodules");
 const OUTPUTS_DIR_PATH = pathJoin(ROOT_DIR_PATH, "tests");
 
 const { stdout } = process;
+
+const conformPath = pathSep === "\\" ? (path) => path.replace(/\\/g, "/") : (path) => path;
 
 // Generate outputs
 export async function run({ submodule, subDirectory, filter, transform, process }) {
@@ -82,6 +84,7 @@ export async function run({ submodule, subDirectory, filter, transform, process 
  * Get paths of fixtures in a submodule to process.
  *
  * Returns an array of paths relative to the submodule directory (`fixturesRootPath`).
+ * Paths use forward slashes, even on Windows.
  *
  * @param {string} fixturesRootPath - Full path to root of the submodule
  * @param {string} subDirectory - Relative path to the directory in submodule containing fixtures
@@ -101,7 +104,7 @@ async function getFixturePaths(fixturesRootPath, subDirectory, filter) {
   for (const file of files) {
     if (!file.isFile()) continue;
 
-    const path = pathJoin(file.parentPath.slice(trimLen), file.name);
+    const path = conformPath(pathJoin(file.parentPath.slice(trimLen), file.name));
     if (!filter || filter(path)) fixturePaths.push(path);
   }
 
@@ -112,6 +115,7 @@ async function getFixturePaths(fixturesRootPath, subDirectory, filter) {
  * Get paths of output files in the output directory for a submodule.
  *
  * Returns an array of paths relative to the output directory (`outputsDirPath`).
+ * Paths use forward slashes, even on Windows.
  *
  * @param {string} outputsDirPath - Full path to the root of output directory for submodule
  * @returns {Array<string>} List of output paths relative to the output directory
@@ -124,7 +128,7 @@ async function getOutputPaths(outputsDirPath) {
   for (const file of files) {
     if (!file.isFile()) continue;
 
-    const path = pathJoin(file.parentPath.slice(trimLen), file.name);
+    const path = conformPath(pathJoin(file.parentPath.slice(trimLen), file.name));
     outputPaths.push(path);
   }
 

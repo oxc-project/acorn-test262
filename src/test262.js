@@ -4,8 +4,8 @@ import YAML from "yaml";
 import { transformerAcorn } from "./utils/json.js";
 import { run } from "./utils/run.js";
 
-const disallow = [
-  // Meriyah failed to produce syntax error for the following case.
+const DISALLOW = [
+  // Meriyah fails to produce syntax error for this case
   "test/annexB/language/expressions/assignmenttargettype/cover-callexpression-and-asyncarrowhead.js",
 ];
 
@@ -13,10 +13,12 @@ await run({
   submodule: "test262",
   subDirectory: "test",
   filter(path) {
-    if (disallow.includes(path)) {
-      return false;
-    }
-    return path.endsWith(".js") && !path.includes("_FIXTURE") && !path.includes("staging");
+    return (
+      !DISALLOW.includes(path) &&
+      path.endsWith(".js") &&
+      !path.endsWith("_FIXTURE.js") &&
+      !path.includes("/staging/")
+    );
   },
   transform: transformerAcorn,
   async process(path, code) {
