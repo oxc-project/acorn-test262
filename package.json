@@ -21,7 +21,7 @@
     "@typescript-eslint/parser": "^8.48.0",
     "acorn": "^8.15.0",
     "estree-walker": "^3.0.3",
-    "meriyah": "^6.1.4",
+    "meriyah": "^7.0.0",
     "oxfmt": "^0.15.0",
     "oxlint": "^1.30.0",
     "yaml": "^2.8.1"
