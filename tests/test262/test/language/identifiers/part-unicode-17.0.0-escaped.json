@@ -1,0 +1,29 @@
+{
+  "type": "Program",
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "kind": "var",
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "id": {
+            "type": "Identifier",
+            "name": "_᫏᫐᫑᫒᫓᫔᫕᫖᫗᫘᫙᫚᫛᫜᫝᫠᫡᫢᫣᫤᫥᫦᫧᫨᫩᫪᫫𐻺𐻻𑭠𑭡𑭢𑭣𑭤𑭥𑭦𑭧𑷠𑷡𑷢𑷣𑷤𑷥𑷦𑷧𑷨𑷩𞛣𞛦𞛮𞛯𞛵",
+            "start": 470,
+            "end": 858
+          },
+          "init": null,
+          "start": 470,
+          "end": 858
+        }
+      ],
+      "start": 466,
+      "end": 859
+    }
+  ],
+  "sourceType": "script",
+  "hashbang": null,
+  "start": 0,
+  "end": 860
+}

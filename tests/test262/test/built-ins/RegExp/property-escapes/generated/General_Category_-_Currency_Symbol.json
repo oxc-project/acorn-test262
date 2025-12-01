@@ -232,8 +232,8 @@
                             },
                             {
                               "type": "Literal",
-                              "value": 8384,
-                              "raw": "0x0020C0",
+                              "value": 8385,
+                              "raw": "0x0020C1",
                               "start": 830,
                               "end": 838
                             }
@@ -923,8 +923,8 @@
                           "elements": [
                             {
                               "type": "Literal",
-                              "value": 8385,
-                              "raw": "0x0020C1",
+                              "value": 8386,
+                              "raw": "0x0020C2",
                               "start": 1908,
                               "end": 1916
                             },

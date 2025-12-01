@@ -11,11 +11,11 @@
           "pattern": "\\p{Script_Extensions=Unknown}",
           "flags": "u"
         },
-        "start": 430,
-        "end": 462
+        "start": 429,
+        "end": 461
       },
-      "start": 430,
-      "end": 463
+      "start": 429,
+      "end": 462
     },
     {
       "type": "ExpressionStatement",
@@ -27,11 +27,11 @@
           "pattern": "\\p{Script_Extensions=Zzzz}",
           "flags": "u"
         },
-        "start": 464,
-        "end": 493
+        "start": 463,
+        "end": 492
       },
-      "start": 464,
-      "end": 494
+      "start": 463,
+      "end": 493
     },
     {
       "type": "ExpressionStatement",
@@ -43,11 +43,11 @@
           "pattern": "\\p{scx=Unknown}",
           "flags": "u"
         },
-        "start": 495,
-        "end": 513
+        "start": 494,
+        "end": 512
       },
-      "start": 495,
-      "end": 514
+      "start": 494,
+      "end": 513
     },
     {
       "type": "ExpressionStatement",
@@ -59,15 +59,15 @@
           "pattern": "\\p{scx=Zzzz}",
           "flags": "u"
         },
-        "start": 515,
-        "end": 530
+        "start": 514,
+        "end": 529
       },
-      "start": 515,
-      "end": 531
+      "start": 514,
+      "end": 530
     }
   ],
   "sourceType": "script",
   "hashbang": null,
   "start": 0,
-  "end": 532
+  "end": 531
 }

@@ -2,316 +2,359 @@
   "type": "Program",
   "body": [
     {
-      "type": "ExpressionStatement",
-      "expression": {
-        "type": "CallExpression",
-        "callee": {
-          "type": "MemberExpression",
-          "object": {
+      "type": "VariableDeclaration",
+      "kind": "const",
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "id": {
             "type": "Identifier",
-            "name": "assert",
-            "start": 369,
-            "end": 375
+            "name": "nonIsoCalendars",
+            "start": 395,
+            "end": 410
           },
-          "property": {
-            "type": "Identifier",
-            "name": "sameValue",
-            "start": 376,
-            "end": 385
-          },
-          "optional": false,
-          "computed": false,
-          "start": 369,
-          "end": 385
-        },
-        "arguments": [
-          {
-            "type": "MemberExpression",
-            "object": {
-              "type": "NewExpression",
-              "callee": {
-                "type": "MemberExpression",
-                "object": {
-                  "type": "Identifier",
-                  "name": "Temporal",
-                  "start": 393,
-                  "end": 401
-                },
-                "property": {
-                  "type": "Identifier",
-                  "name": "PlainDateTime",
-                  "start": 402,
-                  "end": 415
-                },
-                "optional": false,
-                "computed": false,
-                "start": 393,
-                "end": 415
+          "init": {
+            "type": "ArrayExpression",
+            "elements": [
+              {
+                "type": "Literal",
+                "value": "buddhist",
+                "raw": "\"buddhist\"",
+                "start": 417,
+                "end": 427
               },
-              "arguments": [
-                {
-                  "type": "Literal",
-                  "value": 2024,
-                  "raw": "2024",
-                  "start": 416,
-                  "end": 420
-                },
-                {
-                  "type": "Literal",
-                  "value": 1,
-                  "raw": "1",
-                  "start": 422,
-                  "end": 423
-                },
-                {
-                  "type": "Literal",
-                  "value": 1,
-                  "raw": "1",
-                  "start": 425,
-                  "end": 426
-                },
-                {
-                  "type": "Literal",
-                  "value": 12,
-                  "raw": "12",
-                  "start": 428,
-                  "end": 430
-                },
-                {
-                  "type": "Literal",
-                  "value": 34,
-                  "raw": "34",
-                  "start": 432,
-                  "end": 434
-                },
-                {
-                  "type": "Literal",
-                  "value": 56,
-                  "raw": "56",
-                  "start": 436,
-                  "end": 438
-                },
-                {
-                  "type": "Literal",
-                  "value": 987,
-                  "raw": "987",
-                  "start": 440,
-                  "end": 443
-                },
-                {
-                  "type": "Literal",
-                  "value": 654,
-                  "raw": "654",
-                  "start": 445,
-                  "end": 448
-                },
-                {
-                  "type": "Literal",
-                  "value": 321,
-                  "raw": "321",
-                  "start": 450,
-                  "end": 453
-                },
-                {
-                  "type": "Literal",
-                  "value": "gregory",
-                  "raw": "\"gregory\"",
-                  "start": 455,
-                  "end": 464
-                }
-              ],
-              "start": 389,
-              "end": 465
-            },
-            "property": {
-              "type": "Identifier",
-              "name": "yearOfWeek",
-              "start": 466,
-              "end": 476
-            },
-            "optional": false,
-            "computed": false,
-            "start": 389,
-            "end": 476
+              {
+                "type": "Literal",
+                "value": "chinese",
+                "raw": "\"chinese\"",
+                "start": 431,
+                "end": 440
+              },
+              {
+                "type": "Literal",
+                "value": "coptic",
+                "raw": "\"coptic\"",
+                "start": 444,
+                "end": 452
+              },
+              {
+                "type": "Literal",
+                "value": "dangi",
+                "raw": "\"dangi\"",
+                "start": 456,
+                "end": 463
+              },
+              {
+                "type": "Literal",
+                "value": "ethioaa",
+                "raw": "\"ethioaa\"",
+                "start": 467,
+                "end": 476
+              },
+              {
+                "type": "Literal",
+                "value": "ethiopic",
+                "raw": "\"ethiopic\"",
+                "start": 480,
+                "end": 490
+              },
+              {
+                "type": "Literal",
+                "value": "gregory",
+                "raw": "\"gregory\"",
+                "start": 494,
+                "end": 503
+              },
+              {
+                "type": "Literal",
+                "value": "hebrew",
+                "raw": "\"hebrew\"",
+                "start": 507,
+                "end": 515
+              },
+              {
+                "type": "Literal",
+                "value": "indian",
+                "raw": "\"indian\"",
+                "start": 519,
+                "end": 527
+              },
+              {
+                "type": "Literal",
+                "value": "islamic-civil",
+                "raw": "\"islamic-civil\"",
+                "start": 531,
+                "end": 546
+              },
+              {
+                "type": "Literal",
+                "value": "islamic-tbla",
+                "raw": "\"islamic-tbla\"",
+                "start": 550,
+                "end": 564
+              },
+              {
+                "type": "Literal",
+                "value": "islamic-umalqura",
+                "raw": "\"islamic-umalqura\"",
+                "start": 568,
+                "end": 586
+              },
+              {
+                "type": "Literal",
+                "value": "japanese",
+                "raw": "\"japanese\"",
+                "start": 590,
+                "end": 600
+              },
+              {
+                "type": "Literal",
+                "value": "persian",
+                "raw": "\"persian\"",
+                "start": 604,
+                "end": 613
+              },
+              {
+                "type": "Literal",
+                "value": "roc",
+                "raw": "\"roc\"",
+                "start": 617,
+                "end": 622
+              }
+            ],
+            "start": 413,
+            "end": 624
           },
-          {
-            "type": "Identifier",
-            "name": "undefined",
-            "start": 480,
-            "end": 489
-          },
-          {
-            "type": "Literal",
-            "value": "Gregorian calendar does not provide week numbers",
-            "raw": "\"Gregorian calendar does not provide week numbers\"",
-            "start": 493,
-            "end": 543
-          }
-        ],
-        "optional": false,
-        "start": 369,
-        "end": 545
-      },
-      "start": 369,
-      "end": 546
+          "start": 395,
+          "end": 624
+        }
+      ],
+      "start": 389,
+      "end": 625
     },
     {
-      "type": "ExpressionStatement",
-      "expression": {
-        "type": "CallExpression",
-        "callee": {
-          "type": "MemberExpression",
-          "object": {
-            "type": "Identifier",
-            "name": "assert",
-            "start": 548,
-            "end": 554
-          },
-          "property": {
-            "type": "Identifier",
-            "name": "sameValue",
-            "start": 555,
-            "end": 564
-          },
-          "optional": false,
-          "computed": false,
-          "start": 548,
-          "end": 564
-        },
-        "arguments": [
+      "type": "ForOfStatement",
+      "await": false,
+      "left": {
+        "type": "VariableDeclaration",
+        "kind": "const",
+        "declarations": [
           {
-            "type": "MemberExpression",
-            "object": {
-              "type": "NewExpression",
+            "type": "VariableDeclarator",
+            "id": {
+              "type": "Identifier",
+              "name": "calendar",
+              "start": 638,
+              "end": 646
+            },
+            "init": null,
+            "start": 638,
+            "end": 646
+          }
+        ],
+        "start": 632,
+        "end": 646
+      },
+      "right": {
+        "type": "Identifier",
+        "name": "nonIsoCalendars",
+        "start": 650,
+        "end": 665
+      },
+      "body": {
+        "type": "BlockStatement",
+        "body": [
+          {
+            "type": "ExpressionStatement",
+            "expression": {
+              "type": "CallExpression",
               "callee": {
                 "type": "MemberExpression",
                 "object": {
                   "type": "Identifier",
-                  "name": "Temporal",
-                  "start": 572,
-                  "end": 580
+                  "name": "assert",
+                  "start": 671,
+                  "end": 677
                 },
                 "property": {
                   "type": "Identifier",
-                  "name": "PlainDateTime",
-                  "start": 581,
-                  "end": 594
+                  "name": "sameValue",
+                  "start": 678,
+                  "end": 687
                 },
                 "optional": false,
                 "computed": false,
-                "start": 572,
-                "end": 594
+                "start": 671,
+                "end": 687
               },
               "arguments": [
                 {
-                  "type": "Literal",
-                  "value": 2024,
-                  "raw": "2024",
-                  "start": 595,
-                  "end": 599
+                  "type": "MemberExpression",
+                  "object": {
+                    "type": "NewExpression",
+                    "callee": {
+                      "type": "MemberExpression",
+                      "object": {
+                        "type": "Identifier",
+                        "name": "Temporal",
+                        "start": 697,
+                        "end": 705
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "name": "PlainDateTime",
+                        "start": 706,
+                        "end": 719
+                      },
+                      "optional": false,
+                      "computed": false,
+                      "start": 697,
+                      "end": 719
+                    },
+                    "arguments": [
+                      {
+                        "type": "Literal",
+                        "value": 2024,
+                        "raw": "2024",
+                        "start": 720,
+                        "end": 724
+                      },
+                      {
+                        "type": "Literal",
+                        "value": 1,
+                        "raw": "1",
+                        "start": 726,
+                        "end": 727
+                      },
+                      {
+                        "type": "Literal",
+                        "value": 1,
+                        "raw": "1",
+                        "start": 729,
+                        "end": 730
+                      },
+                      {
+                        "type": "Literal",
+                        "value": 12,
+                        "raw": "12",
+                        "start": 732,
+                        "end": 734
+                      },
+                      {
+                        "type": "Literal",
+                        "value": 34,
+                        "raw": "34",
+                        "start": 736,
+                        "end": 738
+                      },
+                      {
+                        "type": "Literal",
+                        "value": 56,
+                        "raw": "56",
+                        "start": 740,
+                        "end": 742
+                      },
+                      {
+                        "type": "Literal",
+                        "value": 987,
+                        "raw": "987",
+                        "start": 744,
+                        "end": 747
+                      },
+                      {
+                        "type": "Literal",
+                        "value": 654,
+                        "raw": "654",
+                        "start": 749,
+                        "end": 752
+                      },
+                      {
+                        "type": "Literal",
+                        "value": 321,
+                        "raw": "321",
+                        "start": 754,
+                        "end": 757
+                      },
+                      {
+                        "type": "Identifier",
+                        "name": "calendar",
+                        "start": 759,
+                        "end": 767
+                      }
+                    ],
+                    "start": 693,
+                    "end": 768
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "name": "yearOfWeek",
+                    "start": 769,
+                    "end": 779
+                  },
+                  "optional": false,
+                  "computed": false,
+                  "start": 693,
+                  "end": 779
                 },
                 {
-                  "type": "Literal",
-                  "value": 1,
-                  "raw": "1",
-                  "start": 601,
-                  "end": 602
+                  "type": "Identifier",
+                  "name": "undefined",
+                  "start": 785,
+                  "end": 794
                 },
                 {
-                  "type": "Literal",
-                  "value": 1,
-                  "raw": "1",
-                  "start": 604,
-                  "end": 605
-                },
-                {
-                  "type": "Literal",
-                  "value": 12,
-                  "raw": "12",
-                  "start": 607,
-                  "end": 609
-                },
-                {
-                  "type": "Literal",
-                  "value": 34,
-                  "raw": "34",
-                  "start": 611,
-                  "end": 613
-                },
-                {
-                  "type": "Literal",
-                  "value": 56,
-                  "raw": "56",
-                  "start": 615,
-                  "end": 617
-                },
-                {
-                  "type": "Literal",
-                  "value": 987,
-                  "raw": "987",
-                  "start": 619,
-                  "end": 622
-                },
-                {
-                  "type": "Literal",
-                  "value": 654,
-                  "raw": "654",
-                  "start": 624,
-                  "end": 627
-                },
-                {
-                  "type": "Literal",
-                  "value": 321,
-                  "raw": "321",
-                  "start": 629,
-                  "end": 632
-                },
-                {
-                  "type": "Literal",
-                  "value": "hebrew",
-                  "raw": "\"hebrew\"",
-                  "start": 634,
-                  "end": 642
+                  "type": "TemplateLiteral",
+                  "quasis": [
+                    {
+                      "type": "TemplateElement",
+                      "value": {
+                        "raw": "",
+                        "cooked": ""
+                      },
+                      "tail": false,
+                      "start": 801,
+                      "end": 801
+                    },
+                    {
+                      "type": "TemplateElement",
+                      "value": {
+                        "raw": " does not provide week numbers",
+                        "cooked": " does not provide week numbers"
+                      },
+                      "tail": true,
+                      "start": 812,
+                      "end": 842
+                    }
+                  ],
+                  "expressions": [
+                    {
+                      "type": "Identifier",
+                      "name": "calendar",
+                      "start": 803,
+                      "end": 811
+                    }
+                  ],
+                  "start": 800,
+                  "end": 843
                 }
               ],
-              "start": 568,
-              "end": 643
+              "optional": false,
+              "start": 671,
+              "end": 847
             },
-            "property": {
-              "type": "Identifier",
-              "name": "yearOfWeek",
-              "start": 644,
-              "end": 654
-            },
-            "optional": false,
-            "computed": false,
-            "start": 568,
-            "end": 654
-          },
-          {
-            "type": "Identifier",
-            "name": "undefined",
-            "start": 658,
-            "end": 667
-          },
-          {
-            "type": "Literal",
-            "value": "Hebrew calendar does not provide week numbers",
-            "raw": "\"Hebrew calendar does not provide week numbers\"",
             "start": 671,
-            "end": 718
+            "end": 848
           }
         ],
-        "optional": false,
-        "start": 548,
-        "end": 720
+        "start": 667,
+        "end": 850
       },
-      "start": 548,
-      "end": 721
+      "start": 627,
+      "end": 850
     }
   ],
   "sourceType": "script",
   "hashbang": null,
   "start": 0,
-  "end": 722
+  "end": 851
 }

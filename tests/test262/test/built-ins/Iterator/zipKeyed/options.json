@@ -1,0 +1,381 @@
+{
+  "type": "Program",
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "kind": "var",
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "id": {
+            "type": "Identifier",
+            "name": "validOptions",
+            "start": 615,
+            "end": 627
+          },
+          "init": {
+            "type": "ArrayExpression",
+            "elements": [
+              {
+                "type": "Identifier",
+                "name": "undefined",
+                "start": 634,
+                "end": 643
+              },
+              {
+                "type": "ObjectExpression",
+                "properties": [],
+                "start": 647,
+                "end": 649
+              }
+            ],
+            "start": 630,
+            "end": 652
+          },
+          "start": 615,
+          "end": 652
+        }
+      ],
+      "start": 611,
+      "end": 653
+    },
+    {
+      "type": "VariableDeclaration",
+      "kind": "var",
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "id": {
+            "type": "Identifier",
+            "name": "invalidOptions",
+            "start": 659,
+            "end": 673
+          },
+          "init": {
+            "type": "ArrayExpression",
+            "elements": [
+              {
+                "type": "Literal",
+                "value": null,
+                "raw": "null",
+                "start": 680,
+                "end": 684
+              },
+              {
+                "type": "Literal",
+                "value": true,
+                "raw": "true",
+                "start": 688,
+                "end": 692
+              },
+              {
+                "type": "Literal",
+                "value": "",
+                "raw": "\"\"",
+                "start": 696,
+                "end": 698
+              },
+              {
+                "type": "CallExpression",
+                "callee": {
+                  "type": "Identifier",
+                  "name": "Symbol",
+                  "start": 702,
+                  "end": 708
+                },
+                "arguments": [],
+                "optional": false,
+                "start": 702,
+                "end": 710
+              },
+              {
+                "type": "Literal",
+                "value": 0,
+                "raw": "0",
+                "start": 714,
+                "end": 715
+              },
+              {
+                "type": "Literal",
+                "value": null,
+                "raw": "0n",
+                "bigint": "0",
+                "start": 719,
+                "end": 721
+              }
+            ],
+            "start": 676,
+            "end": 724
+          },
+          "start": 659,
+          "end": 724
+        }
+      ],
+      "start": 655,
+      "end": 725
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "MemberExpression",
+          "object": {
+            "type": "Identifier",
+            "name": "Iterator",
+            "start": 773,
+            "end": 781
+          },
+          "property": {
+            "type": "Identifier",
+            "name": "zipKeyed",
+            "start": 782,
+            "end": 790
+          },
+          "optional": false,
+          "computed": false,
+          "start": 773,
+          "end": 790
+        },
+        "arguments": [
+          {
+            "type": "ObjectExpression",
+            "properties": [],
+            "start": 791,
+            "end": 793
+          }
+        ],
+        "optional": false,
+        "start": 773,
+        "end": 794
+      },
+      "start": 773,
+      "end": 795
+    },
+    {
+      "type": "ForOfStatement",
+      "await": false,
+      "left": {
+        "type": "VariableDeclaration",
+        "kind": "var",
+        "declarations": [
+          {
+            "type": "VariableDeclarator",
+            "id": {
+              "type": "Identifier",
+              "name": "options",
+              "start": 847,
+              "end": 854
+            },
+            "init": null,
+            "start": 847,
+            "end": 854
+          }
+        ],
+        "start": 843,
+        "end": 854
+      },
+      "right": {
+        "type": "Identifier",
+        "name": "validOptions",
+        "start": 858,
+        "end": 870
+      },
+      "body": {
+        "type": "BlockStatement",
+        "body": [
+          {
+            "type": "ExpressionStatement",
+            "expression": {
+              "type": "CallExpression",
+              "callee": {
+                "type": "MemberExpression",
+                "object": {
+                  "type": "Identifier",
+                  "name": "Iterator",
+                  "start": 876,
+                  "end": 884
+                },
+                "property": {
+                  "type": "Identifier",
+                  "name": "zipKeyed",
+                  "start": 885,
+                  "end": 893
+                },
+                "optional": false,
+                "computed": false,
+                "start": 876,
+                "end": 893
+              },
+              "arguments": [
+                {
+                  "type": "ObjectExpression",
+                  "properties": [],
+                  "start": 894,
+                  "end": 896
+                },
+                {
+                  "type": "Identifier",
+                  "name": "options",
+                  "start": 898,
+                  "end": 905
+                }
+              ],
+              "optional": false,
+              "start": 876,
+              "end": 906
+            },
+            "start": 876,
+            "end": 907
+          }
+        ],
+        "start": 872,
+        "end": 909
+      },
+      "start": 838,
+      "end": 909
+    },
+    {
+      "type": "ForOfStatement",
+      "await": false,
+      "left": {
+        "type": "VariableDeclaration",
+        "kind": "var",
+        "declarations": [
+          {
+            "type": "VariableDeclarator",
+            "id": {
+              "type": "Identifier",
+              "name": "options",
+              "start": 969,
+              "end": 976
+            },
+            "init": null,
+            "start": 969,
+            "end": 976
+          }
+        ],
+        "start": 965,
+        "end": 976
+      },
+      "right": {
+        "type": "Identifier",
+        "name": "invalidOptions",
+        "start": 980,
+        "end": 994
+      },
+      "body": {
+        "type": "BlockStatement",
+        "body": [
+          {
+            "type": "ExpressionStatement",
+            "expression": {
+              "type": "CallExpression",
+              "callee": {
+                "type": "MemberExpression",
+                "object": {
+                  "type": "Identifier",
+                  "name": "assert",
+                  "start": 1000,
+                  "end": 1006
+                },
+                "property": {
+                  "type": "Identifier",
+                  "name": "throws",
+                  "start": 1007,
+                  "end": 1013
+                },
+                "optional": false,
+                "computed": false,
+                "start": 1000,
+                "end": 1013
+              },
+              "arguments": [
+                {
+                  "type": "Identifier",
+                  "name": "TypeError",
+                  "start": 1014,
+                  "end": 1023
+                },
+                {
+                  "type": "FunctionExpression",
+                  "id": null,
+                  "generator": false,
+                  "async": false,
+                  "params": [],
+                  "body": {
+                    "type": "BlockStatement",
+                    "body": [
+                      {
+                        "type": "ExpressionStatement",
+                        "expression": {
+                          "type": "CallExpression",
+                          "callee": {
+                            "type": "MemberExpression",
+                            "object": {
+                              "type": "Identifier",
+                              "name": "Iterator",
+                              "start": 1042,
+                              "end": 1050
+                            },
+                            "property": {
+                              "type": "Identifier",
+                              "name": "zipKeyed",
+                              "start": 1051,
+                              "end": 1059
+                            },
+                            "optional": false,
+                            "computed": false,
+                            "start": 1042,
+                            "end": 1059
+                          },
+                          "arguments": [
+                            {
+                              "type": "ObjectExpression",
+                              "properties": [],
+                              "start": 1060,
+                              "end": 1062
+                            },
+                            {
+                              "type": "Identifier",
+                              "name": "options",
+                              "start": 1064,
+                              "end": 1071
+                            }
+                          ],
+                          "optional": false,
+                          "start": 1042,
+                          "end": 1072
+                        },
+                        "start": 1042,
+                        "end": 1073
+                      }
+                    ],
+                    "start": 1036,
+                    "end": 1077
+                  },
+                  "expression": false,
+                  "start": 1025,
+                  "end": 1077
+                }
+              ],
+              "optional": false,
+              "start": 1000,
+              "end": 1078
+            },
+            "start": 1000,
+            "end": 1079
+          }
+        ],
+        "start": 996,
+        "end": 1081
+      },
+      "start": 960,
+      "end": 1081
+    }
+  ],
+  "sourceType": "script",
+  "hashbang": null,
+  "start": 0,
+  "end": 1082
+}

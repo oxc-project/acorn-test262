@@ -1,0 +1,113 @@
+{
+  "type": "Program",
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "MemberExpression",
+          "object": {
+            "type": "Identifier",
+            "name": "assert",
+            "start": 329,
+            "end": 335
+          },
+          "property": {
+            "type": "Identifier",
+            "name": "sameValue",
+            "start": 336,
+            "end": 345
+          },
+          "optional": false,
+          "computed": false,
+          "start": 329,
+          "end": 345
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "callee": {
+              "type": "MemberExpression",
+              "object": {
+                "type": "Identifier",
+                "name": "Object",
+                "start": 349,
+                "end": 355
+              },
+              "property": {
+                "type": "Identifier",
+                "name": "getPrototypeOf",
+                "start": 356,
+                "end": 370
+              },
+              "optional": false,
+              "computed": false,
+              "start": 349,
+              "end": 370
+            },
+            "arguments": [
+              {
+                "type": "MemberExpression",
+                "object": {
+                  "type": "Identifier",
+                  "name": "Iterator",
+                  "start": 371,
+                  "end": 379
+                },
+                "property": {
+                  "type": "Identifier",
+                  "name": "zipKeyed",
+                  "start": 380,
+                  "end": 388
+                },
+                "optional": false,
+                "computed": false,
+                "start": 371,
+                "end": 388
+              }
+            ],
+            "optional": false,
+            "start": 349,
+            "end": 389
+          },
+          {
+            "type": "MemberExpression",
+            "object": {
+              "type": "Identifier",
+              "name": "Function",
+              "start": 393,
+              "end": 401
+            },
+            "property": {
+              "type": "Identifier",
+              "name": "prototype",
+              "start": 402,
+              "end": 411
+            },
+            "optional": false,
+            "computed": false,
+            "start": 393,
+            "end": 411
+          },
+          {
+            "type": "Literal",
+            "value": "Object.getPrototypeOf(Iterator.zipKeyed) must return the value of Function.prototype",
+            "raw": "\"Object.getPrototypeOf(Iterator.zipKeyed) must return the value of Function.prototype\"",
+            "start": 415,
+            "end": 501
+          }
+        ],
+        "optional": false,
+        "start": 329,
+        "end": 503
+      },
+      "start": 329,
+      "end": 504
+    }
+  ],
+  "sourceType": "script",
+  "hashbang": null,
+  "start": 0,
+  "end": 505
+}

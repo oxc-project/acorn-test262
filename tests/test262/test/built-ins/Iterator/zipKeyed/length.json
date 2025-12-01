@@ -1,0 +1,149 @@
+{
+  "type": "Program",
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "Identifier",
+          "name": "verifyProperty",
+          "start": 529,
+          "end": 543
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "object": {
+              "type": "Identifier",
+              "name": "Iterator",
+              "start": 544,
+              "end": 552
+            },
+            "property": {
+              "type": "Identifier",
+              "name": "zipKeyed",
+              "start": 553,
+              "end": 561
+            },
+            "optional": false,
+            "computed": false,
+            "start": 544,
+            "end": 561
+          },
+          {
+            "type": "Literal",
+            "value": "length",
+            "raw": "\"length\"",
+            "start": 563,
+            "end": 571
+          },
+          {
+            "type": "ObjectExpression",
+            "properties": [
+              {
+                "type": "Property",
+                "kind": "init",
+                "key": {
+                  "type": "Identifier",
+                  "name": "value",
+                  "start": 577,
+                  "end": 582
+                },
+                "value": {
+                  "type": "Literal",
+                  "value": 1,
+                  "raw": "1",
+                  "start": 584,
+                  "end": 585
+                },
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "start": 577,
+                "end": 585
+              },
+              {
+                "type": "Property",
+                "kind": "init",
+                "key": {
+                  "type": "Identifier",
+                  "name": "writable",
+                  "start": 589,
+                  "end": 597
+                },
+                "value": {
+                  "type": "Literal",
+                  "value": false,
+                  "raw": "false",
+                  "start": 599,
+                  "end": 604
+                },
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "start": 589,
+                "end": 604
+              },
+              {
+                "type": "Property",
+                "kind": "init",
+                "key": {
+                  "type": "Identifier",
+                  "name": "enumerable",
+                  "start": 608,
+                  "end": 618
+                },
+                "value": {
+                  "type": "Literal",
+                  "value": false,
+                  "raw": "false",
+                  "start": 620,
+                  "end": 625
+                },
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "start": 608,
+                "end": 625
+              },
+              {
+                "type": "Property",
+                "kind": "init",
+                "key": {
+                  "type": "Identifier",
+                  "name": "configurable",
+                  "start": 629,
+                  "end": 641
+                },
+                "value": {
+                  "type": "Literal",
+                  "value": true,
+                  "raw": "true",
+                  "start": 643,
+                  "end": 647
+                },
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "start": 629,
+                "end": 647
+              }
+            ],
+            "start": 573,
+            "end": 650
+          }
+        ],
+        "optional": false,
+        "start": 529,
+        "end": 651
+      },
+      "start": 529,
+      "end": 652
+    }
+  ],
+  "sourceType": "script",
+  "hashbang": null,
+  "start": 0,
+  "end": 653
+}

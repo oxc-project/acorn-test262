@@ -1,0 +1,202 @@
+{
+  "type": "Program",
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "kind": "const",
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "id": {
+            "type": "Identifier",
+            "name": "calendar",
+            "start": 294,
+            "end": 302
+          },
+          "init": {
+            "type": "Literal",
+            "value": "islamic-rgsa",
+            "raw": "\"islamic-rgsa\"",
+            "start": 305,
+            "end": 319
+          },
+          "start": 294,
+          "end": 319
+        }
+      ],
+      "start": 288,
+      "end": 320
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "MemberExpression",
+          "object": {
+            "type": "Identifier",
+            "name": "assert",
+            "start": 322,
+            "end": 328
+          },
+          "property": {
+            "type": "Identifier",
+            "name": "throws",
+            "start": 329,
+            "end": 335
+          },
+          "optional": false,
+          "computed": false,
+          "start": 322,
+          "end": 335
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "name": "RangeError",
+            "start": 336,
+            "end": 346
+          },
+          {
+            "type": "ArrowFunctionExpression",
+            "expression": true,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "CallExpression",
+              "callee": {
+                "type": "MemberExpression",
+                "object": {
+                  "type": "MemberExpression",
+                  "object": {
+                    "type": "Identifier",
+                    "name": "Temporal",
+                    "start": 356,
+                    "end": 364
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "name": "PlainYearMonth",
+                    "start": 365,
+                    "end": 379
+                  },
+                  "optional": false,
+                  "computed": false,
+                  "start": 356,
+                  "end": 379
+                },
+                "property": {
+                  "type": "Identifier",
+                  "name": "from",
+                  "start": 380,
+                  "end": 384
+                },
+                "optional": false,
+                "computed": false,
+                "start": 356,
+                "end": 384
+              },
+              "arguments": [
+                {
+                  "type": "ObjectExpression",
+                  "properties": [
+                    {
+                      "type": "Property",
+                      "kind": "init",
+                      "key": {
+                        "type": "Identifier",
+                        "name": "year",
+                        "start": 386,
+                        "end": 390
+                      },
+                      "value": {
+                        "type": "Literal",
+                        "value": 1500,
+                        "raw": "1500",
+                        "start": 392,
+                        "end": 396
+                      },
+                      "method": false,
+                      "shorthand": false,
+                      "computed": false,
+                      "start": 386,
+                      "end": 396
+                    },
+                    {
+                      "type": "Property",
+                      "kind": "init",
+                      "key": {
+                        "type": "Identifier",
+                        "name": "month",
+                        "start": 398,
+                        "end": 403
+                      },
+                      "value": {
+                        "type": "Literal",
+                        "value": 1,
+                        "raw": "1",
+                        "start": 405,
+                        "end": 406
+                      },
+                      "method": false,
+                      "shorthand": false,
+                      "computed": false,
+                      "start": 398,
+                      "end": 406
+                    },
+                    {
+                      "type": "Property",
+                      "kind": "init",
+                      "key": {
+                        "type": "Identifier",
+                        "name": "calendar",
+                        "start": 408,
+                        "end": 416
+                      },
+                      "value": {
+                        "type": "Identifier",
+                        "name": "calendar",
+                        "start": 408,
+                        "end": 416
+                      },
+                      "method": false,
+                      "shorthand": true,
+                      "computed": false,
+                      "start": 408,
+                      "end": 416
+                    }
+                  ],
+                  "start": 385,
+                  "end": 417
+                }
+              ],
+              "optional": false,
+              "start": 356,
+              "end": 418
+            },
+            "id": null,
+            "generator": false,
+            "start": 348,
+            "end": 418
+          },
+          {
+            "type": "Literal",
+            "value": "fallback for calendar ID 'islamic-rgsa' only supported in Intl.DateTimeFormat constructor, not Temporal",
+            "raw": "\"fallback for calendar ID 'islamic-rgsa' only supported in Intl.DateTimeFormat constructor, not Temporal\"",
+            "start": 422,
+            "end": 527
+          }
+        ],
+        "optional": false,
+        "start": 322,
+        "end": 529
+      },
+      "start": 322,
+      "end": 530
+    }
+  ],
+  "sourceType": "script",
+  "hashbang": null,
+  "start": 0,
+  "end": 531
+}

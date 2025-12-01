@@ -1,0 +1,198 @@
+{
+  "type": "Program",
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "kind": "var",
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "id": {
+            "type": "Identifier",
+            "name": "iter",
+            "start": 390,
+            "end": 394
+          },
+          "init": {
+            "type": "CallExpression",
+            "callee": {
+              "type": "MemberExpression",
+              "object": {
+                "type": "Identifier",
+                "name": "Iterator",
+                "start": 397,
+                "end": 405
+              },
+              "property": {
+                "type": "Identifier",
+                "name": "zip",
+                "start": 406,
+                "end": 409
+              },
+              "optional": false,
+              "computed": false,
+              "start": 397,
+              "end": 409
+            },
+            "arguments": [
+              {
+                "type": "ArrayExpression",
+                "elements": [],
+                "start": 410,
+                "end": 412
+              }
+            ],
+            "optional": false,
+            "start": 397,
+            "end": 413
+          },
+          "start": 390,
+          "end": 413
+        }
+      ],
+      "start": 386,
+      "end": 414
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "Identifier",
+          "name": "assert",
+          "start": 415,
+          "end": 421
+        },
+        "arguments": [
+          {
+            "type": "BinaryExpression",
+            "left": {
+              "type": "Identifier",
+              "name": "iter",
+              "start": 422,
+              "end": 426
+            },
+            "operator": "instanceof",
+            "right": {
+              "type": "Identifier",
+              "name": "Iterator",
+              "start": 438,
+              "end": 446
+            },
+            "start": 422,
+            "end": 446
+          },
+          {
+            "type": "Literal",
+            "value": "Iterator.zip([]) must return an Iterator",
+            "raw": "\"Iterator.zip([]) must return an Iterator\"",
+            "start": 448,
+            "end": 490
+          }
+        ],
+        "optional": false,
+        "start": 415,
+        "end": 491
+      },
+      "start": 415,
+      "end": 492
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "MemberExpression",
+          "object": {
+            "type": "Identifier",
+            "name": "assert",
+            "start": 494,
+            "end": 500
+          },
+          "property": {
+            "type": "Identifier",
+            "name": "sameValue",
+            "start": 501,
+            "end": 510
+          },
+          "optional": false,
+          "computed": false,
+          "start": 494,
+          "end": 510
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "callee": {
+              "type": "MemberExpression",
+              "object": {
+                "type": "Identifier",
+                "name": "Object",
+                "start": 514,
+                "end": 520
+              },
+              "property": {
+                "type": "Identifier",
+                "name": "getPrototypeOf",
+                "start": 521,
+                "end": 535
+              },
+              "optional": false,
+              "computed": false,
+              "start": 514,
+              "end": 535
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "name": "iter",
+                "start": 536,
+                "end": 540
+              }
+            ],
+            "optional": false,
+            "start": 514,
+            "end": 541
+          },
+          {
+            "type": "CallExpression",
+            "callee": {
+              "type": "Identifier",
+              "name": "getWellKnownIntrinsicObject",
+              "start": 545,
+              "end": 572
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "value": "%IteratorHelperPrototype%",
+                "raw": "\"%IteratorHelperPrototype%\"",
+                "start": 573,
+                "end": 600
+              }
+            ],
+            "optional": false,
+            "start": 545,
+            "end": 601
+          },
+          {
+            "type": "Literal",
+            "value": "[[Prototype]] is %IteratorHelperPrototype%",
+            "raw": "\"[[Prototype]] is %IteratorHelperPrototype%\"",
+            "start": 605,
+            "end": 649
+          }
+        ],
+        "optional": false,
+        "start": 494,
+        "end": 651
+      },
+      "start": 494,
+      "end": 652
+    }
+  ],
+  "sourceType": "script",
+  "hashbang": null,
+  "start": 0,
+  "end": 653
+}
