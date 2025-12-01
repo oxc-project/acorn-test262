@@ -1,0 +1,101 @@
+{
+  "type": "Program",
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "MemberExpression",
+          "object": {
+            "type": "Identifier",
+            "name": "assert",
+            "start": 442,
+            "end": 448
+          },
+          "property": {
+            "type": "Identifier",
+            "name": "throws",
+            "start": 449,
+            "end": 455
+          },
+          "optional": false,
+          "computed": false,
+          "start": 442,
+          "end": 455
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "name": "TypeError",
+            "start": 456,
+            "end": 465
+          },
+          {
+            "type": "ArrowFunctionExpression",
+            "expression": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "expression": {
+                    "type": "NewExpression",
+                    "callee": {
+                      "type": "MemberExpression",
+                      "object": {
+                        "type": "Identifier",
+                        "name": "Iterator",
+                        "start": 481,
+                        "end": 489
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "name": "zip",
+                        "start": 490,
+                        "end": 493
+                      },
+                      "optional": false,
+                      "computed": false,
+                      "start": 481,
+                      "end": 493
+                    },
+                    "arguments": [
+                      {
+                        "type": "ArrayExpression",
+                        "elements": [],
+                        "start": 494,
+                        "end": 496
+                      }
+                    ],
+                    "start": 477,
+                    "end": 497
+                  },
+                  "start": 477,
+                  "end": 498
+                }
+              ],
+              "start": 473,
+              "end": 500
+            },
+            "id": null,
+            "generator": false,
+            "start": 467,
+            "end": 500
+          }
+        ],
+        "optional": false,
+        "start": 442,
+        "end": 501
+      },
+      "start": 442,
+      "end": 502
+    }
+  ],
+  "sourceType": "script",
+  "hashbang": null,
+  "start": 0,
+  "end": 503
+}

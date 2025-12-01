@@ -309,7 +309,7 @@
                 "kind": "init",
                 "key": {
                   "type": "Identifier",
-                  "name": "year2100",
+                  "name": "year2050",
                   "start": 539,
                   "end": 547
                 },
@@ -327,8 +327,8 @@
                       },
                       "value": {
                         "type": "Literal",
-                        "value": 2099,
-                        "raw": "2099",
+                        "value": 2049,
+                        "raw": "2049",
                         "start": 561,
                         "end": 565
                       },

@@ -527,7 +527,7 @@
                 "kind": "init",
                 "key": {
                   "type": "Identifier",
-                  "name": "year2100",
+                  "name": "year2050",
                   "start": 694,
                   "end": 702
                 },
@@ -568,8 +568,8 @@
                   "arguments": [
                     {
                       "type": "Literal",
-                      "value": "2100-01-01",
-                      "raw": "\"2100-01-01\"",
+                      "value": "2050-01-01",
+                      "raw": "\"2050-01-01\"",
                       "start": 728,
                       "end": 740
                     }

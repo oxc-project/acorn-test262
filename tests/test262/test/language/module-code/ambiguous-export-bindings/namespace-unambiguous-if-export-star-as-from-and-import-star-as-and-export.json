@@ -1,0 +1,122 @@
+{
+  "type": "Program",
+  "body": [
+    {
+      "type": "ExportAllDeclaration",
+      "exported": null,
+      "source": {
+        "type": "Literal",
+        "value": "./namespace-export-star-as-from-1_FIXTURE.js",
+        "raw": "\"./namespace-export-star-as-from-1_FIXTURE.js\"",
+        "start": 3926,
+        "end": 3972
+      },
+      "attributes": [],
+      "start": 3912,
+      "end": 3973
+    },
+    {
+      "type": "ExportAllDeclaration",
+      "exported": null,
+      "source": {
+        "type": "Literal",
+        "value": "./namespace-import-star-as-and-export-1_FIXTURE.js",
+        "raw": "\"./namespace-import-star-as-and-export-1_FIXTURE.js\"",
+        "start": 3988,
+        "end": 4040
+      },
+      "attributes": [],
+      "start": 3974,
+      "end": 4041
+    },
+    {
+      "type": "ImportDeclaration",
+      "specifiers": [
+        {
+          "type": "ImportSpecifier",
+          "imported": {
+            "type": "Identifier",
+            "name": "foo",
+            "start": 4052,
+            "end": 4055
+          },
+          "local": {
+            "type": "Identifier",
+            "name": "foo",
+            "start": 4052,
+            "end": 4055
+          },
+          "start": 4052,
+          "end": 4055
+        }
+      ],
+      "source": {
+        "type": "Literal",
+        "value": "./namespace-unambiguous-if-import-star-as-and-export.js",
+        "raw": "'./namespace-unambiguous-if-import-star-as-and-export.js'",
+        "start": 4063,
+        "end": 4120
+      },
+      "phase": null,
+      "attributes": [],
+      "start": 4043,
+      "end": 4121
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "MemberExpression",
+          "object": {
+            "type": "Identifier",
+            "name": "assert",
+            "start": 4123,
+            "end": 4129
+          },
+          "property": {
+            "type": "Identifier",
+            "name": "sameValue",
+            "start": 4130,
+            "end": 4139
+          },
+          "optional": false,
+          "computed": false,
+          "start": 4123,
+          "end": 4139
+        },
+        "arguments": [
+          {
+            "type": "UnaryExpression",
+            "operator": "typeof",
+            "argument": {
+              "type": "Identifier",
+              "name": "foo",
+              "start": 4147,
+              "end": 4150
+            },
+            "prefix": true,
+            "start": 4140,
+            "end": 4150
+          },
+          {
+            "type": "Literal",
+            "value": "object",
+            "raw": "'object'",
+            "start": 4152,
+            "end": 4160
+          }
+        ],
+        "optional": false,
+        "start": 4123,
+        "end": 4161
+      },
+      "start": 4123,
+      "end": 4162
+    }
+  ],
+  "sourceType": "module",
+  "hashbang": null,
+  "start": 0,
+  "end": 4163
+}

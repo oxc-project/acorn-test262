@@ -1,0 +1,1228 @@
+{
+  "type": "Program",
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "MemberExpression",
+          "object": {
+            "type": "Identifier",
+            "name": "assert",
+            "start": 567,
+            "end": 573
+          },
+          "property": {
+            "type": "Identifier",
+            "name": "throws",
+            "start": 574,
+            "end": 580
+          },
+          "optional": false,
+          "computed": false,
+          "start": 567,
+          "end": 580
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "name": "TypeError",
+            "start": 584,
+            "end": 593
+          },
+          {
+            "type": "ArrowFunctionExpression",
+            "expression": true,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "CallExpression",
+              "callee": {
+                "type": "MemberExpression",
+                "object": {
+                  "type": "MemberExpression",
+                  "object": {
+                    "type": "Identifier",
+                    "name": "Temporal",
+                    "start": 603,
+                    "end": 611
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "name": "PlainMonthDay",
+                    "start": 612,
+                    "end": 625
+                  },
+                  "optional": false,
+                  "computed": false,
+                  "start": 603,
+                  "end": 625
+                },
+                "property": {
+                  "type": "Identifier",
+                  "name": "from",
+                  "start": 626,
+                  "end": 630
+                },
+                "optional": false,
+                "computed": false,
+                "start": 603,
+                "end": 630
+              },
+              "arguments": [
+                {
+                  "type": "ObjectExpression",
+                  "properties": [
+                    {
+                      "type": "Property",
+                      "kind": "init",
+                      "key": {
+                        "type": "Identifier",
+                        "name": "calendar",
+                        "start": 633,
+                        "end": 641
+                      },
+                      "value": {
+                        "type": "Literal",
+                        "value": "islamic-civil",
+                        "raw": "\"islamic-civil\"",
+                        "start": 643,
+                        "end": 658
+                      },
+                      "method": false,
+                      "shorthand": false,
+                      "computed": false,
+                      "start": 633,
+                      "end": 658
+                    },
+                    {
+                      "type": "Property",
+                      "kind": "init",
+                      "key": {
+                        "type": "Identifier",
+                        "name": "monthCode",
+                        "start": 660,
+                        "end": 669
+                      },
+                      "value": {
+                        "type": "Literal",
+                        "value": "M04",
+                        "raw": "\"M04\"",
+                        "start": 671,
+                        "end": 676
+                      },
+                      "method": false,
+                      "shorthand": false,
+                      "computed": false,
+                      "start": 660,
+                      "end": 676
+                    },
+                    {
+                      "type": "Property",
+                      "kind": "init",
+                      "key": {
+                        "type": "Identifier",
+                        "name": "month",
+                        "start": 678,
+                        "end": 683
+                      },
+                      "value": {
+                        "type": "Literal",
+                        "value": 5,
+                        "raw": "5",
+                        "start": 685,
+                        "end": 686
+                      },
+                      "method": false,
+                      "shorthand": false,
+                      "computed": false,
+                      "start": 678,
+                      "end": 686
+                    },
+                    {
+                      "type": "Property",
+                      "kind": "init",
+                      "key": {
+                        "type": "Identifier",
+                        "name": "day",
+                        "start": 688,
+                        "end": 691
+                      },
+                      "value": {
+                        "type": "Literal",
+                        "value": 1,
+                        "raw": "1",
+                        "start": 693,
+                        "end": 694
+                      },
+                      "method": false,
+                      "shorthand": false,
+                      "computed": false,
+                      "start": 688,
+                      "end": 694
+                    }
+                  ],
+                  "start": 631,
+                  "end": 696
+                }
+              ],
+              "optional": false,
+              "start": 603,
+              "end": 697
+            },
+            "id": null,
+            "generator": false,
+            "start": 597,
+            "end": 697
+          },
+          {
+            "type": "Literal",
+            "value": "Missing year throws TypeError before month/monthCode conflict throws RangeError",
+            "raw": "\"Missing year throws TypeError before month/monthCode conflict throws RangeError\"",
+            "start": 701,
+            "end": 782
+          }
+        ],
+        "optional": false,
+        "start": 567,
+        "end": 784
+      },
+      "start": 567,
+      "end": 785
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "MemberExpression",
+          "object": {
+            "type": "Identifier",
+            "name": "assert",
+            "start": 859,
+            "end": 865
+          },
+          "property": {
+            "type": "Identifier",
+            "name": "throws",
+            "start": 866,
+            "end": 872
+          },
+          "optional": false,
+          "computed": false,
+          "start": 859,
+          "end": 872
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "name": "TypeError",
+            "start": 876,
+            "end": 885
+          },
+          {
+            "type": "ArrowFunctionExpression",
+            "expression": true,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "CallExpression",
+              "callee": {
+                "type": "MemberExpression",
+                "object": {
+                  "type": "MemberExpression",
+                  "object": {
+                    "type": "Identifier",
+                    "name": "Temporal",
+                    "start": 895,
+                    "end": 903
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "name": "PlainMonthDay",
+                    "start": 904,
+                    "end": 917
+                  },
+                  "optional": false,
+                  "computed": false,
+                  "start": 895,
+                  "end": 917
+                },
+                "property": {
+                  "type": "Identifier",
+                  "name": "from",
+                  "start": 918,
+                  "end": 922
+                },
+                "optional": false,
+                "computed": false,
+                "start": 895,
+                "end": 922
+              },
+              "arguments": [
+                {
+                  "type": "ObjectExpression",
+                  "properties": [
+                    {
+                      "type": "Property",
+                      "kind": "init",
+                      "key": {
+                        "type": "Identifier",
+                        "name": "calendar",
+                        "start": 925,
+                        "end": 933
+                      },
+                      "value": {
+                        "type": "Literal",
+                        "value": "islamic-civil",
+                        "raw": "\"islamic-civil\"",
+                        "start": 935,
+                        "end": 950
+                      },
+                      "method": false,
+                      "shorthand": false,
+                      "computed": false,
+                      "start": 925,
+                      "end": 950
+                    },
+                    {
+                      "type": "Property",
+                      "kind": "init",
+                      "key": {
+                        "type": "Identifier",
+                        "name": "year",
+                        "start": 952,
+                        "end": 956
+                      },
+                      "value": {
+                        "type": "Literal",
+                        "value": 1445,
+                        "raw": "1445",
+                        "start": 958,
+                        "end": 962
+                      },
+                      "method": false,
+                      "shorthand": false,
+                      "computed": false,
+                      "start": 952,
+                      "end": 962
+                    },
+                    {
+                      "type": "Property",
+                      "kind": "init",
+                      "key": {
+                        "type": "Identifier",
+                        "name": "day",
+                        "start": 964,
+                        "end": 967
+                      },
+                      "value": {
+                        "type": "Literal",
+                        "value": 32,
+                        "raw": "32",
+                        "start": 969,
+                        "end": 971
+                      },
+                      "method": false,
+                      "shorthand": false,
+                      "computed": false,
+                      "start": 964,
+                      "end": 971
+                    }
+                  ],
+                  "start": 923,
+                  "end": 973
+                },
+                {
+                  "type": "ObjectExpression",
+                  "properties": [
+                    {
+                      "type": "Property",
+                      "kind": "init",
+                      "key": {
+                        "type": "Identifier",
+                        "name": "overflow",
+                        "start": 977,
+                        "end": 985
+                      },
+                      "value": {
+                        "type": "Literal",
+                        "value": "reject",
+                        "raw": "\"reject\"",
+                        "start": 987,
+                        "end": 995
+                      },
+                      "method": false,
+                      "shorthand": false,
+                      "computed": false,
+                      "start": 977,
+                      "end": 995
+                    }
+                  ],
+                  "start": 975,
+                  "end": 997
+                }
+              ],
+              "optional": false,
+              "start": 895,
+              "end": 998
+            },
+            "id": null,
+            "generator": false,
+            "start": 889,
+            "end": 998
+          },
+          {
+            "type": "Literal",
+            "value": "Missing monthCode/month throws TypeError before out-of-range day throws RangeError",
+            "raw": "\"Missing monthCode/month throws TypeError before out-of-range day throws RangeError\"",
+            "start": 1002,
+            "end": 1086
+          }
+        ],
+        "optional": false,
+        "start": 859,
+        "end": 1088
+      },
+      "start": 859,
+      "end": 1089
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "MemberExpression",
+          "object": {
+            "type": "Identifier",
+            "name": "assert",
+            "start": 1164,
+            "end": 1170
+          },
+          "property": {
+            "type": "Identifier",
+            "name": "throws",
+            "start": 1171,
+            "end": 1177
+          },
+          "optional": false,
+          "computed": false,
+          "start": 1164,
+          "end": 1177
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "name": "TypeError",
+            "start": 1181,
+            "end": 1190
+          },
+          {
+            "type": "ArrowFunctionExpression",
+            "expression": true,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "CallExpression",
+              "callee": {
+                "type": "MemberExpression",
+                "object": {
+                  "type": "MemberExpression",
+                  "object": {
+                    "type": "Identifier",
+                    "name": "Temporal",
+                    "start": 1200,
+                    "end": 1208
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "name": "PlainMonthDay",
+                    "start": 1209,
+                    "end": 1222
+                  },
+                  "optional": false,
+                  "computed": false,
+                  "start": 1200,
+                  "end": 1222
+                },
+                "property": {
+                  "type": "Identifier",
+                  "name": "from",
+                  "start": 1223,
+                  "end": 1227
+                },
+                "optional": false,
+                "computed": false,
+                "start": 1200,
+                "end": 1227
+              },
+              "arguments": [
+                {
+                  "type": "ObjectExpression",
+                  "properties": [
+                    {
+                      "type": "Property",
+                      "kind": "init",
+                      "key": {
+                        "type": "Identifier",
+                        "name": "calendar",
+                        "start": 1230,
+                        "end": 1238
+                      },
+                      "value": {
+                        "type": "Literal",
+                        "value": "islamic-civil",
+                        "raw": "\"islamic-civil\"",
+                        "start": 1240,
+                        "end": 1255
+                      },
+                      "method": false,
+                      "shorthand": false,
+                      "computed": false,
+                      "start": 1230,
+                      "end": 1255
+                    },
+                    {
+                      "type": "Property",
+                      "kind": "init",
+                      "key": {
+                        "type": "Identifier",
+                        "name": "year",
+                        "start": 1257,
+                        "end": 1261
+                      },
+                      "value": {
+                        "type": "Literal",
+                        "value": 1445,
+                        "raw": "1445",
+                        "start": 1263,
+                        "end": 1267
+                      },
+                      "method": false,
+                      "shorthand": false,
+                      "computed": false,
+                      "start": 1257,
+                      "end": 1267
+                    },
+                    {
+                      "type": "Property",
+                      "kind": "init",
+                      "key": {
+                        "type": "Identifier",
+                        "name": "monthCode",
+                        "start": 1269,
+                        "end": 1278
+                      },
+                      "value": {
+                        "type": "Literal",
+                        "value": "M04",
+                        "raw": "\"M04\"",
+                        "start": 1280,
+                        "end": 1285
+                      },
+                      "method": false,
+                      "shorthand": false,
+                      "computed": false,
+                      "start": 1269,
+                      "end": 1285
+                    },
+                    {
+                      "type": "Property",
+                      "kind": "init",
+                      "key": {
+                        "type": "Identifier",
+                        "name": "month",
+                        "start": 1287,
+                        "end": 1292
+                      },
+                      "value": {
+                        "type": "Literal",
+                        "value": 5,
+                        "raw": "5",
+                        "start": 1294,
+                        "end": 1295
+                      },
+                      "method": false,
+                      "shorthand": false,
+                      "computed": false,
+                      "start": 1287,
+                      "end": 1295
+                    }
+                  ],
+                  "start": 1228,
+                  "end": 1297
+                }
+              ],
+              "optional": false,
+              "start": 1200,
+              "end": 1298
+            },
+            "id": null,
+            "generator": false,
+            "start": 1194,
+            "end": 1298
+          },
+          {
+            "type": "Literal",
+            "value": "Missing day throws TypeError before month/monthCode conflict throws RangeError",
+            "raw": "\"Missing day throws TypeError before month/monthCode conflict throws RangeError\"",
+            "start": 1302,
+            "end": 1382
+          }
+        ],
+        "optional": false,
+        "start": 1164,
+        "end": 1384
+      },
+      "start": 1164,
+      "end": 1385
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "MemberExpression",
+          "object": {
+            "type": "Identifier",
+            "name": "assert",
+            "start": 1463,
+            "end": 1469
+          },
+          "property": {
+            "type": "Identifier",
+            "name": "throws",
+            "start": 1470,
+            "end": 1476
+          },
+          "optional": false,
+          "computed": false,
+          "start": 1463,
+          "end": 1476
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "name": "TypeError",
+            "start": 1480,
+            "end": 1489
+          },
+          {
+            "type": "ArrowFunctionExpression",
+            "expression": true,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "CallExpression",
+              "callee": {
+                "type": "MemberExpression",
+                "object": {
+                  "type": "MemberExpression",
+                  "object": {
+                    "type": "Identifier",
+                    "name": "Temporal",
+                    "start": 1499,
+                    "end": 1507
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "name": "PlainMonthDay",
+                    "start": 1508,
+                    "end": 1521
+                  },
+                  "optional": false,
+                  "computed": false,
+                  "start": 1499,
+                  "end": 1521
+                },
+                "property": {
+                  "type": "Identifier",
+                  "name": "from",
+                  "start": 1522,
+                  "end": 1526
+                },
+                "optional": false,
+                "computed": false,
+                "start": 1499,
+                "end": 1526
+              },
+              "arguments": [
+                {
+                  "type": "ObjectExpression",
+                  "properties": [
+                    {
+                      "type": "Property",
+                      "kind": "init",
+                      "key": {
+                        "type": "Identifier",
+                        "name": "calendar",
+                        "start": 1529,
+                        "end": 1537
+                      },
+                      "value": {
+                        "type": "Literal",
+                        "value": "islamic-civil",
+                        "raw": "\"islamic-civil\"",
+                        "start": 1539,
+                        "end": 1554
+                      },
+                      "method": false,
+                      "shorthand": false,
+                      "computed": false,
+                      "start": 1529,
+                      "end": 1554
+                    },
+                    {
+                      "type": "Property",
+                      "kind": "init",
+                      "key": {
+                        "type": "Identifier",
+                        "name": "year",
+                        "start": 1556,
+                        "end": 1560
+                      },
+                      "value": {
+                        "type": "Identifier",
+                        "name": "undefined",
+                        "start": 1562,
+                        "end": 1571
+                      },
+                      "method": false,
+                      "shorthand": false,
+                      "computed": false,
+                      "start": 1556,
+                      "end": 1571
+                    },
+                    {
+                      "type": "Property",
+                      "kind": "init",
+                      "key": {
+                        "type": "Identifier",
+                        "name": "monthCode",
+                        "start": 1573,
+                        "end": 1582
+                      },
+                      "value": {
+                        "type": "Literal",
+                        "value": "M04",
+                        "raw": "\"M04\"",
+                        "start": 1584,
+                        "end": 1589
+                      },
+                      "method": false,
+                      "shorthand": false,
+                      "computed": false,
+                      "start": 1573,
+                      "end": 1589
+                    },
+                    {
+                      "type": "Property",
+                      "kind": "init",
+                      "key": {
+                        "type": "Identifier",
+                        "name": "month",
+                        "start": 1591,
+                        "end": 1596
+                      },
+                      "value": {
+                        "type": "Literal",
+                        "value": 5,
+                        "raw": "5",
+                        "start": 1598,
+                        "end": 1599
+                      },
+                      "method": false,
+                      "shorthand": false,
+                      "computed": false,
+                      "start": 1591,
+                      "end": 1599
+                    },
+                    {
+                      "type": "Property",
+                      "kind": "init",
+                      "key": {
+                        "type": "Identifier",
+                        "name": "day",
+                        "start": 1601,
+                        "end": 1604
+                      },
+                      "value": {
+                        "type": "Literal",
+                        "value": 1,
+                        "raw": "1",
+                        "start": 1606,
+                        "end": 1607
+                      },
+                      "method": false,
+                      "shorthand": false,
+                      "computed": false,
+                      "start": 1601,
+                      "end": 1607
+                    }
+                  ],
+                  "start": 1527,
+                  "end": 1609
+                }
+              ],
+              "optional": false,
+              "start": 1499,
+              "end": 1610
+            },
+            "id": null,
+            "generator": false,
+            "start": 1493,
+            "end": 1610
+          },
+          {
+            "type": "Literal",
+            "value": "undefined year throws TypeError before month/monthCode conflict throws RangeError",
+            "raw": "\"undefined year throws TypeError before month/monthCode conflict throws RangeError\"",
+            "start": 1614,
+            "end": 1697
+          }
+        ],
+        "optional": false,
+        "start": 1463,
+        "end": 1699
+      },
+      "start": 1463,
+      "end": 1700
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "MemberExpression",
+          "object": {
+            "type": "Identifier",
+            "name": "assert",
+            "start": 1776,
+            "end": 1782
+          },
+          "property": {
+            "type": "Identifier",
+            "name": "throws",
+            "start": 1783,
+            "end": 1789
+          },
+          "optional": false,
+          "computed": false,
+          "start": 1776,
+          "end": 1789
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "name": "RangeError",
+            "start": 1793,
+            "end": 1803
+          },
+          {
+            "type": "ArrowFunctionExpression",
+            "expression": true,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "CallExpression",
+              "callee": {
+                "type": "MemberExpression",
+                "object": {
+                  "type": "MemberExpression",
+                  "object": {
+                    "type": "Identifier",
+                    "name": "Temporal",
+                    "start": 1813,
+                    "end": 1821
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "name": "PlainMonthDay",
+                    "start": 1822,
+                    "end": 1835
+                  },
+                  "optional": false,
+                  "computed": false,
+                  "start": 1813,
+                  "end": 1835
+                },
+                "property": {
+                  "type": "Identifier",
+                  "name": "from",
+                  "start": 1836,
+                  "end": 1840
+                },
+                "optional": false,
+                "computed": false,
+                "start": 1813,
+                "end": 1840
+              },
+              "arguments": [
+                {
+                  "type": "ObjectExpression",
+                  "properties": [
+                    {
+                      "type": "Property",
+                      "kind": "init",
+                      "key": {
+                        "type": "Identifier",
+                        "name": "calendar",
+                        "start": 1843,
+                        "end": 1851
+                      },
+                      "value": {
+                        "type": "Literal",
+                        "value": "islamic-civil",
+                        "raw": "\"islamic-civil\"",
+                        "start": 1853,
+                        "end": 1868
+                      },
+                      "method": false,
+                      "shorthand": false,
+                      "computed": false,
+                      "start": 1843,
+                      "end": 1868
+                    },
+                    {
+                      "type": "Property",
+                      "kind": "init",
+                      "key": {
+                        "type": "Identifier",
+                        "name": "year",
+                        "start": 1870,
+                        "end": 1874
+                      },
+                      "value": {
+                        "type": "Literal",
+                        "value": 1445,
+                        "raw": "1445",
+                        "start": 1876,
+                        "end": 1880
+                      },
+                      "method": false,
+                      "shorthand": false,
+                      "computed": false,
+                      "start": 1870,
+                      "end": 1880
+                    },
+                    {
+                      "type": "Property",
+                      "kind": "init",
+                      "key": {
+                        "type": "Identifier",
+                        "name": "monthCode",
+                        "start": 1882,
+                        "end": 1891
+                      },
+                      "value": {
+                        "type": "Literal",
+                        "value": "M04",
+                        "raw": "\"M04\"",
+                        "start": 1893,
+                        "end": 1898
+                      },
+                      "method": false,
+                      "shorthand": false,
+                      "computed": false,
+                      "start": 1882,
+                      "end": 1898
+                    },
+                    {
+                      "type": "Property",
+                      "kind": "init",
+                      "key": {
+                        "type": "Identifier",
+                        "name": "month",
+                        "start": 1900,
+                        "end": 1905
+                      },
+                      "value": {
+                        "type": "Literal",
+                        "value": 5,
+                        "raw": "5",
+                        "start": 1907,
+                        "end": 1908
+                      },
+                      "method": false,
+                      "shorthand": false,
+                      "computed": false,
+                      "start": 1900,
+                      "end": 1908
+                    },
+                    {
+                      "type": "Property",
+                      "kind": "init",
+                      "key": {
+                        "type": "Identifier",
+                        "name": "day",
+                        "start": 1910,
+                        "end": 1913
+                      },
+                      "value": {
+                        "type": "Literal",
+                        "value": 1,
+                        "raw": "1",
+                        "start": 1915,
+                        "end": 1916
+                      },
+                      "method": false,
+                      "shorthand": false,
+                      "computed": false,
+                      "start": 1910,
+                      "end": 1916
+                    }
+                  ],
+                  "start": 1841,
+                  "end": 1918
+                }
+              ],
+              "optional": false,
+              "start": 1813,
+              "end": 1919
+            },
+            "id": null,
+            "generator": false,
+            "start": 1807,
+            "end": 1919
+          },
+          {
+            "type": "Literal",
+            "value": "month/monthCode conflict throws RangeError when all required fields present",
+            "raw": "\"month/monthCode conflict throws RangeError when all required fields present\"",
+            "start": 1923,
+            "end": 2000
+          }
+        ],
+        "optional": false,
+        "start": 1776,
+        "end": 2002
+      },
+      "start": 1776,
+      "end": 2003
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "MemberExpression",
+          "object": {
+            "type": "Identifier",
+            "name": "assert",
+            "start": 2005,
+            "end": 2011
+          },
+          "property": {
+            "type": "Identifier",
+            "name": "throws",
+            "start": 2012,
+            "end": 2018
+          },
+          "optional": false,
+          "computed": false,
+          "start": 2005,
+          "end": 2018
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "name": "RangeError",
+            "start": 2022,
+            "end": 2032
+          },
+          {
+            "type": "ArrowFunctionExpression",
+            "expression": true,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "CallExpression",
+              "callee": {
+                "type": "MemberExpression",
+                "object": {
+                  "type": "MemberExpression",
+                  "object": {
+                    "type": "Identifier",
+                    "name": "Temporal",
+                    "start": 2042,
+                    "end": 2050
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "name": "PlainMonthDay",
+                    "start": 2051,
+                    "end": 2064
+                  },
+                  "optional": false,
+                  "computed": false,
+                  "start": 2042,
+                  "end": 2064
+                },
+                "property": {
+                  "type": "Identifier",
+                  "name": "from",
+                  "start": 2065,
+                  "end": 2069
+                },
+                "optional": false,
+                "computed": false,
+                "start": 2042,
+                "end": 2069
+              },
+              "arguments": [
+                {
+                  "type": "ObjectExpression",
+                  "properties": [
+                    {
+                      "type": "Property",
+                      "kind": "init",
+                      "key": {
+                        "type": "Identifier",
+                        "name": "calendar",
+                        "start": 2072,
+                        "end": 2080
+                      },
+                      "value": {
+                        "type": "Literal",
+                        "value": "islamic-civil",
+                        "raw": "\"islamic-civil\"",
+                        "start": 2082,
+                        "end": 2097
+                      },
+                      "method": false,
+                      "shorthand": false,
+                      "computed": false,
+                      "start": 2072,
+                      "end": 2097
+                    },
+                    {
+                      "type": "Property",
+                      "kind": "init",
+                      "key": {
+                        "type": "Identifier",
+                        "name": "year",
+                        "start": 2099,
+                        "end": 2103
+                      },
+                      "value": {
+                        "type": "Literal",
+                        "value": 1445,
+                        "raw": "1445",
+                        "start": 2105,
+                        "end": 2109
+                      },
+                      "method": false,
+                      "shorthand": false,
+                      "computed": false,
+                      "start": 2099,
+                      "end": 2109
+                    },
+                    {
+                      "type": "Property",
+                      "kind": "init",
+                      "key": {
+                        "type": "Identifier",
+                        "name": "monthCode",
+                        "start": 2111,
+                        "end": 2120
+                      },
+                      "value": {
+                        "type": "Literal",
+                        "value": "M01",
+                        "raw": "\"M01\"",
+                        "start": 2122,
+                        "end": 2127
+                      },
+                      "method": false,
+                      "shorthand": false,
+                      "computed": false,
+                      "start": 2111,
+                      "end": 2127
+                    },
+                    {
+                      "type": "Property",
+                      "kind": "init",
+                      "key": {
+                        "type": "Identifier",
+                        "name": "day",
+                        "start": 2129,
+                        "end": 2132
+                      },
+                      "value": {
+                        "type": "Literal",
+                        "value": 32,
+                        "raw": "32",
+                        "start": 2134,
+                        "end": 2136
+                      },
+                      "method": false,
+                      "shorthand": false,
+                      "computed": false,
+                      "start": 2129,
+                      "end": 2136
+                    }
+                  ],
+                  "start": 2070,
+                  "end": 2138
+                },
+                {
+                  "type": "ObjectExpression",
+                  "properties": [
+                    {
+                      "type": "Property",
+                      "kind": "init",
+                      "key": {
+                        "type": "Identifier",
+                        "name": "overflow",
+                        "start": 2142,
+                        "end": 2150
+                      },
+                      "value": {
+                        "type": "Literal",
+                        "value": "reject",
+                        "raw": "\"reject\"",
+                        "start": 2152,
+                        "end": 2160
+                      },
+                      "method": false,
+                      "shorthand": false,
+                      "computed": false,
+                      "start": 2142,
+                      "end": 2160
+                    }
+                  ],
+                  "start": 2140,
+                  "end": 2162
+                }
+              ],
+              "optional": false,
+              "start": 2042,
+              "end": 2163
+            },
+            "id": null,
+            "generator": false,
+            "start": 2036,
+            "end": 2163
+          },
+          {
+            "type": "Literal",
+            "value": "Out-of-range day throws RangeError when all required fields present",
+            "raw": "\"Out-of-range day throws RangeError when all required fields present\"",
+            "start": 2167,
+            "end": 2236
+          }
+        ],
+        "optional": false,
+        "start": 2005,
+        "end": 2238
+      },
+      "start": 2005,
+      "end": 2239
+    }
+  ],
+  "sourceType": "script",
+  "hashbang": null,
+  "start": 0,
+  "end": 2240
+}

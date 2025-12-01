@@ -1,0 +1,1246 @@
+{
+  "type": "Program",
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "Identifier",
+          "name": "testPropertyOfStrings",
+          "start": 485,
+          "end": 506
+        },
+        "arguments": [
+          {
+            "type": "ObjectExpression",
+            "properties": [
+              {
+                "type": "Property",
+                "kind": "init",
+                "key": {
+                  "type": "Identifier",
+                  "name": "regExp",
+                  "start": 511,
+                  "end": 517
+                },
+                "value": {
+                  "type": "Literal",
+                  "value": null,
+                  "raw": "/^\\p{RGI_Emoji}+$/v",
+                  "regex": {
+                    "pattern": "^\\p{RGI_Emoji}+$",
+                    "flags": "v"
+                  },
+                  "start": 519,
+                  "end": 538
+                },
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "start": 511,
+                "end": 538
+              },
+              {
+                "type": "Property",
+                "kind": "init",
+                "key": {
+                  "type": "Identifier",
+                  "name": "expression",
+                  "start": 542,
+                  "end": 552
+                },
+                "value": {
+                  "type": "Literal",
+                  "value": "\\p{RGI_Emoji}",
+                  "raw": "\"\\\\p{RGI_Emoji}\"",
+                  "start": 554,
+                  "end": 570
+                },
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "start": 542,
+                "end": 570
+              },
+              {
+                "type": "Property",
+                "kind": "init",
+                "key": {
+                  "type": "Identifier",
+                  "name": "matchStrings",
+                  "start": 574,
+                  "end": 586
+                },
+                "value": {
+                  "type": "ArrayExpression",
+                  "elements": [
+                    {
+                      "type": "Literal",
+                      "value": "👨🏻‍🐰‍👨🏼",
+                      "raw": "\"\\u{1F468}\\u{1F3FB}\\u200D\\u{1F430}\\u200D\\u{1F468}\\u{1F3FC}\"",
+                      "start": 594,
+                      "end": 653
+                    },
+                    {
+                      "type": "Literal",
+                      "value": "👨🏻‍🐰‍👨🏽",
+                      "raw": "\"\\u{1F468}\\u{1F3FB}\\u200D\\u{1F430}\\u200D\\u{1F468}\\u{1F3FD}\"",
+                      "start": 659,
+                      "end": 718
+                    },
+                    {
+                      "type": "Literal",
+                      "value": "👨🏻‍🐰‍👨🏾",
+                      "raw": "\"\\u{1F468}\\u{1F3FB}\\u200D\\u{1F430}\\u200D\\u{1F468}\\u{1F3FE}\"",
+                      "start": 724,
+                      "end": 783
+                    },
+                    {
+                      "type": "Literal",
+                      "value": "👨🏻‍🐰‍👨🏿",
+                      "raw": "\"\\u{1F468}\\u{1F3FB}\\u200D\\u{1F430}\\u200D\\u{1F468}\\u{1F3FF}\"",
+                      "start": 789,
+                      "end": 848
+                    },
+                    {
+                      "type": "Literal",
+                      "value": "👨🏻‍🫯‍👨🏼",
+                      "raw": "\"\\u{1F468}\\u{1F3FB}\\u200D\\u{1FAEF}\\u200D\\u{1F468}\\u{1F3FC}\"",
+                      "start": 854,
+                      "end": 913
+                    },
+                    {
+                      "type": "Literal",
+                      "value": "👨🏻‍🫯‍👨🏽",
+                      "raw": "\"\\u{1F468}\\u{1F3FB}\\u200D\\u{1FAEF}\\u200D\\u{1F468}\\u{1F3FD}\"",
+                      "start": 919,
+                      "end": 978
+                    },
+                    {
+                      "type": "Literal",
+                      "value": "👨🏻‍🫯‍👨🏾",
+                      "raw": "\"\\u{1F468}\\u{1F3FB}\\u200D\\u{1FAEF}\\u200D\\u{1F468}\\u{1F3FE}\"",
+                      "start": 984,
+                      "end": 1043
+                    },
+                    {
+                      "type": "Literal",
+                      "value": "👨🏻‍🫯‍👨🏿",
+                      "raw": "\"\\u{1F468}\\u{1F3FB}\\u200D\\u{1FAEF}\\u200D\\u{1F468}\\u{1F3FF}\"",
+                      "start": 1049,
+                      "end": 1108
+                    },
+                    {
+                      "type": "Literal",
+                      "value": "👨🏼‍🐰‍👨🏻",
+                      "raw": "\"\\u{1F468}\\u{1F3FC}\\u200D\\u{1F430}\\u200D\\u{1F468}\\u{1F3FB}\"",
+                      "start": 1114,
+                      "end": 1173
+                    },
+                    {
+                      "type": "Literal",
+                      "value": "👨🏼‍🐰‍👨🏽",
+                      "raw": "\"\\u{1F468}\\u{1F3FC}\\u200D\\u{1F430}\\u200D\\u{1F468}\\u{1F3FD}\"",
+                      "start": 1179,
+                      "end": 1238
+                    },
+                    {
+                      "type": "Literal",
+                      "value": "👨🏼‍🐰‍👨🏾",
+                      "raw": "\"\\u{1F468}\\u{1F3FC}\\u200D\\u{1F430}\\u200D\\u{1F468}\\u{1F3FE}\"",
+                      "start": 1244,
+                      "end": 1303
+                    },
+                    {
+                      "type": "Literal",
+                      "value": "👨🏼‍🐰‍👨🏿",
+                      "raw": "\"\\u{1F468}\\u{1F3FC}\\u200D\\u{1F430}\\u200D\\u{1F468}\\u{1F3FF}\"",
+                      "start": 1309,
+                      "end": 1368
+                    },
+                    {
+                      "type": "Literal",
+                      "value": "👨🏼‍🫯‍👨🏻",
+                      "raw": "\"\\u{1F468}\\u{1F3FC}\\u200D\\u{1FAEF}\\u200D\\u{1F468}\\u{1F3FB}\"",
+                      "start": 1374,
+                      "end": 1433
+                    },
+                    {
+                      "type": "Literal",
+                      "value": "👨🏼‍🫯‍👨🏽",
+                      "raw": "\"\\u{1F468}\\u{1F3FC}\\u200D\\u{1FAEF}\\u200D\\u{1F468}\\u{1F3FD}\"",
+                      "start": 1439,
+                      "end": 1498
+                    },
+                    {
+                      "type": "Literal",
+                      "value": "👨🏼‍🫯‍👨🏾",
+                      "raw": "\"\\u{1F468}\\u{1F3FC}\\u200D\\u{1FAEF}\\u200D\\u{1F468}\\u{1F3FE}\"",
+                      "start": 1504,
+                      "end": 1563
+                    },
+                    {
+                      "type": "Literal",
+                      "value": "👨🏼‍🫯‍👨🏿",
+                      "raw": "\"\\u{1F468}\\u{1F3FC}\\u200D\\u{1FAEF}\\u200D\\u{1F468}\\u{1F3FF}\"",
+                      "start": 1569,
+                      "end": 1628
+                    },
+                    {
+                      "type": "Literal",
+                      "value": "👨🏽‍🐰‍👨🏻",
+                      "raw": "\"\\u{1F468}\\u{1F3FD}\\u200D\\u{1F430}\\u200D\\u{1F468}\\u{1F3FB}\"",
+                      "start": 1634,
+                      "end": 1693
+                    },
+                    {
+                      "type": "Literal",
+                      "value": "👨🏽‍🐰‍👨🏼",
+                      "raw": "\"\\u{1F468}\\u{1F3FD}\\u200D\\u{1F430}\\u200D\\u{1F468}\\u{1F3FC}\"",
+                      "start": 1699,
+                      "end": 1758
+                    },
+                    {
+                      "type": "Literal",
+                      "value": "👨🏽‍🐰‍👨🏾",
+                      "raw": "\"\\u{1F468}\\u{1F3FD}\\u200D\\u{1F430}\\u200D\\u{1F468}\\u{1F3FE}\"",
+                      "start": 1764,
+                      "end": 1823
+                    },
+                    {
+                      "type": "Literal",
+                      "value": "👨🏽‍🐰‍👨🏿",
+                      "raw": "\"\\u{1F468}\\u{1F3FD}\\u200D\\u{1F430}\\u200D\\u{1F468}\\u{1F3FF}\"",
+                      "start": 1829,
+                      "end": 1888
+                    },
+                    {
+                      "type": "Literal",
+                      "value": "👨🏽‍🫯‍👨🏻",
+                      "raw": "\"\\u{1F468}\\u{1F3FD}\\u200D\\u{1FAEF}\\u200D\\u{1F468}\\u{1F3FB}\"",
+                      "start": 1894,
+                      "end": 1953
+                    },
+                    {
+                      "type": "Literal",
+                      "value": "👨🏽‍🫯‍👨🏼",
+                      "raw": "\"\\u{1F468}\\u{1F3FD}\\u200D\\u{1FAEF}\\u200D\\u{1F468}\\u{1F3FC}\"",
+                      "start": 1959,
+                      "end": 2018
+                    },
+                    {
+                      "type": "Literal",
+                      "value": "👨🏽‍🫯‍👨🏾",
+                      "raw": "\"\\u{1F468}\\u{1F3FD}\\u200D\\u{1FAEF}\\u200D\\u{1F468}\\u{1F3FE}\"",
+                      "start": 2024,
+                      "end": 2083
+                    },
+                    {
+                      "type": "Literal",
+                      "value": "👨🏽‍🫯‍👨🏿",
+                      "raw": "\"\\u{1F468}\\u{1F3FD}\\u200D\\u{1FAEF}\\u200D\\u{1F468}\\u{1F3FF}\"",
+                      "start": 2089,
+                      "end": 2148
+                    },
+                    {
+                      "type": "Literal",
+                      "value": "👨🏾‍🐰‍👨🏻",
+                      "raw": "\"\\u{1F468}\\u{1F3FE}\\u200D\\u{1F430}\\u200D\\u{1F468}\\u{1F3FB}\"",
+                      "start": 2154,
+                      "end": 2213
+                    },
+                    {
+                      "type": "Literal",
+                      "value": "👨🏾‍🐰‍👨🏼",
+                      "raw": "\"\\u{1F468}\\u{1F3FE}\\u200D\\u{1F430}\\u200D\\u{1F468}\\u{1F3FC}\"",
+                      "start": 2219,
+                      "end": 2278
+                    },
+                    {
+                      "type": "Literal",
+                      "value": "👨🏾‍🐰‍👨🏽",
+                      "raw": "\"\\u{1F468}\\u{1F3FE}\\u200D\\u{1F430}\\u200D\\u{1F468}\\u{1F3FD}\"",
+                      "start": 2284,
+                      "end": 2343
+                    },
+                    {
+                      "type": "Literal",
+                      "value": "👨🏾‍🐰‍👨🏿",
+                      "raw": "\"\\u{1F468}\\u{1F3FE}\\u200D\\u{1F430}\\u200D\\u{1F468}\\u{1F3FF}\"",
+                      "start": 2349,
+                      "end": 2408
+                    },
+                    {
+                      "type": "Literal",
+                      "value": "👨🏾‍🫯‍👨🏻",
+                      "raw": "\"\\u{1F468}\\u{1F3FE}\\u200D\\u{1FAEF}\\u200D\\u{1F468}\\u{1F3FB}\"",
+                      "start": 2414,
+                      "end": 2473
+                    },
+                    {
+                      "type": "Literal",
+                      "value": "👨🏾‍🫯‍👨🏼",
+                      "raw": "\"\\u{1F468}\\u{1F3FE}\\u200D\\u{1FAEF}\\u200D\\u{1F468}\\u{1F3FC}\"",
+                      "start": 2479,
+                      "end": 2538
+                    },
+                    {
+                      "type": "Literal",
+                      "value": "👨🏾‍🫯‍👨🏽",
+                      "raw": "\"\\u{1F468}\\u{1F3FE}\\u200D\\u{1FAEF}\\u200D\\u{1F468}\\u{1F3FD}\"",
+                      "start": 2544,
+                      "end": 2603
+                    },
+                    {
+                      "type": "Literal",
+                      "value": "👨🏾‍🫯‍👨🏿",
+                      "raw": "\"\\u{1F468}\\u{1F3FE}\\u200D\\u{1FAEF}\\u200D\\u{1F468}\\u{1F3FF}\"",
+                      "start": 2609,
+                      "end": 2668
+                    },
+                    {
+                      "type": "Literal",
+                      "value": "👨🏿‍🐰‍👨🏻",
+                      "raw": "\"\\u{1F468}\\u{1F3FF}\\u200D\\u{1F430}\\u200D\\u{1F468}\\u{1F3FB}\"",
+                      "start": 2674,
+                      "end": 2733
+                    },
+                    {
+                      "type": "Literal",
+                      "value": "👨🏿‍🐰‍👨🏼",
+                      "raw": "\"\\u{1F468}\\u{1F3FF}\\u200D\\u{1F430}\\u200D\\u{1F468}\\u{1F3FC}\"",
+                      "start": 2739,
+                      "end": 2798
+                    },
+                    {
+                      "type": "Literal",
+                      "value": "👨🏿‍🐰‍👨🏽",
+                      "raw": "\"\\u{1F468}\\u{1F3FF}\\u200D\\u{1F430}\\u200D\\u{1F468}\\u{1F3FD}\"",
+                      "start": 2804,
+                      "end": 2863
+                    },
+                    {
+                      "type": "Literal",
+                      "value": "👨🏿‍🐰‍👨🏾",
+                      "raw": "\"\\u{1F468}\\u{1F3FF}\\u200D\\u{1F430}\\u200D\\u{1F468}\\u{1F3FE}\"",
+                      "start": 2869,
+                      "end": 2928
+                    },
+                    {
+                      "type": "Literal",
+                      "value": "👨🏿‍🫯‍👨🏻",
+                      "raw": "\"\\u{1F468}\\u{1F3FF}\\u200D\\u{1FAEF}\\u200D\\u{1F468}\\u{1F3FB}\"",
+                      "start": 2934,
+                      "end": 2993
+                    },
+                    {
+                      "type": "Literal",
+                      "value": "👨🏿‍🫯‍👨🏼",
+                      "raw": "\"\\u{1F468}\\u{1F3FF}\\u200D\\u{1FAEF}\\u200D\\u{1F468}\\u{1F3FC}\"",
+                      "start": 2999,
+                      "end": 3058
+                    },
+                    {
+                      "type": "Literal",
+                      "value": "👨🏿‍🫯‍👨🏽",
+                      "raw": "\"\\u{1F468}\\u{1F3FF}\\u200D\\u{1FAEF}\\u200D\\u{1F468}\\u{1F3FD}\"",
+                      "start": 3064,
+                      "end": 3123
+                    },
+                    {
+                      "type": "Literal",
+                      "value": "👨🏿‍🫯‍👨🏾",
+                      "raw": "\"\\u{1F468}\\u{1F3FF}\\u200D\\u{1FAEF}\\u200D\\u{1F468}\\u{1F3FE}\"",
+                      "start": 3129,
+                      "end": 3188
+                    },
+                    {
+                      "type": "Literal",
+                      "value": "👩🏻‍🐰‍👩🏼",
+                      "raw": "\"\\u{1F469}\\u{1F3FB}\\u200D\\u{1F430}\\u200D\\u{1F469}\\u{1F3FC}\"",
+                      "start": 3194,
+                      "end": 3253
+                    },
+                    {
+                      "type": "Literal",
+                      "value": "👩🏻‍🐰‍👩🏽",
+                      "raw": "\"\\u{1F469}\\u{1F3FB}\\u200D\\u{1F430}\\u200D\\u{1F469}\\u{1F3FD}\"",
+                      "start": 3259,
+                      "end": 3318
+                    },
+                    {
+                      "type": "Literal",
+                      "value": "👩🏻‍🐰‍👩🏾",
+                      "raw": "\"\\u{1F469}\\u{1F3FB}\\u200D\\u{1F430}\\u200D\\u{1F469}\\u{1F3FE}\"",
+                      "start": 3324,
+                      "end": 3383
+                    },
+                    {
+                      "type": "Literal",
+                      "value": "👩🏻‍🐰‍👩🏿",
+                      "raw": "\"\\u{1F469}\\u{1F3FB}\\u200D\\u{1F430}\\u200D\\u{1F469}\\u{1F3FF}\"",
+                      "start": 3389,
+                      "end": 3448
+                    },
+                    {
+                      "type": "Literal",
+                      "value": "👩🏻‍🫯‍👩🏼",
+                      "raw": "\"\\u{1F469}\\u{1F3FB}\\u200D\\u{1FAEF}\\u200D\\u{1F469}\\u{1F3FC}\"",
+                      "start": 3454,
+                      "end": 3513
+                    },
+                    {
+                      "type": "Literal",
+                      "value": "👩🏻‍🫯‍👩🏽",
+                      "raw": "\"\\u{1F469}\\u{1F3FB}\\u200D\\u{1FAEF}\\u200D\\u{1F469}\\u{1F3FD}\"",
+                      "start": 3519,
+                      "end": 3578
+                    },
+                    {
+                      "type": "Literal",
+                      "value": "👩🏻‍🫯‍👩🏾",
+                      "raw": "\"\\u{1F469}\\u{1F3FB}\\u200D\\u{1FAEF}\\u200D\\u{1F469}\\u{1F3FE}\"",
+                      "start": 3584,
+                      "end": 3643
+                    },
+                    {
+                      "type": "Literal",
+                      "value": "👩🏻‍🫯‍👩🏿",
+                      "raw": "\"\\u{1F469}\\u{1F3FB}\\u200D\\u{1FAEF}\\u200D\\u{1F469}\\u{1F3FF}\"",
+                      "start": 3649,
+                      "end": 3708
+                    },
+                    {
+                      "type": "Literal",
+                      "value": "👩🏼‍🐰‍👩🏻",
+                      "raw": "\"\\u{1F469}\\u{1F3FC}\\u200D\\u{1F430}\\u200D\\u{1F469}\\u{1F3FB}\"",
+                      "start": 3714,
+                      "end": 3773
+                    },
+                    {
+                      "type": "Literal",
+                      "value": "👩🏼‍🐰‍👩🏽",
+                      "raw": "\"\\u{1F469}\\u{1F3FC}\\u200D\\u{1F430}\\u200D\\u{1F469}\\u{1F3FD}\"",
+                      "start": 3779,
+                      "end": 3838
+                    },
+                    {
+                      "type": "Literal",
+                      "value": "👩🏼‍🐰‍👩🏾",
+                      "raw": "\"\\u{1F469}\\u{1F3FC}\\u200D\\u{1F430}\\u200D\\u{1F469}\\u{1F3FE}\"",
+                      "start": 3844,
+                      "end": 3903
+                    },
+                    {
+                      "type": "Literal",
+                      "value": "👩🏼‍🐰‍👩🏿",
+                      "raw": "\"\\u{1F469}\\u{1F3FC}\\u200D\\u{1F430}\\u200D\\u{1F469}\\u{1F3FF}\"",
+                      "start": 3909,
+                      "end": 3968
+                    },
+                    {
+                      "type": "Literal",
+                      "value": "👩🏼‍🫯‍👩🏻",
+                      "raw": "\"\\u{1F469}\\u{1F3FC}\\u200D\\u{1FAEF}\\u200D\\u{1F469}\\u{1F3FB}\"",
+                      "start": 3974,
+                      "end": 4033
+                    },
+                    {
+                      "type": "Literal",
+                      "value": "👩🏼‍🫯‍👩🏽",
+                      "raw": "\"\\u{1F469}\\u{1F3FC}\\u200D\\u{1FAEF}\\u200D\\u{1F469}\\u{1F3FD}\"",
+                      "start": 4039,
+                      "end": 4098
+                    },
+                    {
+                      "type": "Literal",
+                      "value": "👩🏼‍🫯‍👩🏾",
+                      "raw": "\"\\u{1F469}\\u{1F3FC}\\u200D\\u{1FAEF}\\u200D\\u{1F469}\\u{1F3FE}\"",
+                      "start": 4104,
+                      "end": 4163
+                    },
+                    {
+                      "type": "Literal",
+                      "value": "👩🏼‍🫯‍👩🏿",
+                      "raw": "\"\\u{1F469}\\u{1F3FC}\\u200D\\u{1FAEF}\\u200D\\u{1F469}\\u{1F3FF}\"",
+                      "start": 4169,
+                      "end": 4228
+                    },
+                    {
+                      "type": "Literal",
+                      "value": "👩🏽‍🐰‍👩🏻",
+                      "raw": "\"\\u{1F469}\\u{1F3FD}\\u200D\\u{1F430}\\u200D\\u{1F469}\\u{1F3FB}\"",
+                      "start": 4234,
+                      "end": 4293
+                    },
+                    {
+                      "type": "Literal",
+                      "value": "👩🏽‍🐰‍👩🏼",
+                      "raw": "\"\\u{1F469}\\u{1F3FD}\\u200D\\u{1F430}\\u200D\\u{1F469}\\u{1F3FC}\"",
+                      "start": 4299,
+                      "end": 4358
+                    },
+                    {
+                      "type": "Literal",
+                      "value": "👩🏽‍🐰‍👩🏾",
+                      "raw": "\"\\u{1F469}\\u{1F3FD}\\u200D\\u{1F430}\\u200D\\u{1F469}\\u{1F3FE}\"",
+                      "start": 4364,
+                      "end": 4423
+                    },
+                    {
+                      "type": "Literal",
+                      "value": "👩🏽‍🐰‍👩🏿",
+                      "raw": "\"\\u{1F469}\\u{1F3FD}\\u200D\\u{1F430}\\u200D\\u{1F469}\\u{1F3FF}\"",
+                      "start": 4429,
+                      "end": 4488
+                    },
+                    {
+                      "type": "Literal",
+                      "value": "👩🏽‍🫯‍👩🏻",
+                      "raw": "\"\\u{1F469}\\u{1F3FD}\\u200D\\u{1FAEF}\\u200D\\u{1F469}\\u{1F3FB}\"",
+                      "start": 4494,
+                      "end": 4553
+                    },
+                    {
+                      "type": "Literal",
+                      "value": "👩🏽‍🫯‍👩🏼",
+                      "raw": "\"\\u{1F469}\\u{1F3FD}\\u200D\\u{1FAEF}\\u200D\\u{1F469}\\u{1F3FC}\"",
+                      "start": 4559,
+                      "end": 4618
+                    },
+                    {
+                      "type": "Literal",
+                      "value": "👩🏽‍🫯‍👩🏾",
+                      "raw": "\"\\u{1F469}\\u{1F3FD}\\u200D\\u{1FAEF}\\u200D\\u{1F469}\\u{1F3FE}\"",
+                      "start": 4624,
+                      "end": 4683
+                    },
+                    {
+                      "type": "Literal",
+                      "value": "👩🏽‍🫯‍👩🏿",
+                      "raw": "\"\\u{1F469}\\u{1F3FD}\\u200D\\u{1FAEF}\\u200D\\u{1F469}\\u{1F3FF}\"",
+                      "start": 4689,
+                      "end": 4748
+                    },
+                    {
+                      "type": "Literal",
+                      "value": "👩🏾‍🐰‍👩🏻",
+                      "raw": "\"\\u{1F469}\\u{1F3FE}\\u200D\\u{1F430}\\u200D\\u{1F469}\\u{1F3FB}\"",
+                      "start": 4754,
+                      "end": 4813
+                    },
+                    {
+                      "type": "Literal",
+                      "value": "👩🏾‍🐰‍👩🏼",
+                      "raw": "\"\\u{1F469}\\u{1F3FE}\\u200D\\u{1F430}\\u200D\\u{1F469}\\u{1F3FC}\"",
+                      "start": 4819,
+                      "end": 4878
+                    },
+                    {
+                      "type": "Literal",
+                      "value": "👩🏾‍🐰‍👩🏽",
+                      "raw": "\"\\u{1F469}\\u{1F3FE}\\u200D\\u{1F430}\\u200D\\u{1F469}\\u{1F3FD}\"",
+                      "start": 4884,
+                      "end": 4943
+                    },
+                    {
+                      "type": "Literal",
+                      "value": "👩🏾‍🐰‍👩🏿",
+                      "raw": "\"\\u{1F469}\\u{1F3FE}\\u200D\\u{1F430}\\u200D\\u{1F469}\\u{1F3FF}\"",
+                      "start": 4949,
+                      "end": 5008
+                    },
+                    {
+                      "type": "Literal",
+                      "value": "👩🏾‍🫯‍👩🏻",
+                      "raw": "\"\\u{1F469}\\u{1F3FE}\\u200D\\u{1FAEF}\\u200D\\u{1F469}\\u{1F3FB}\"",
+                      "start": 5014,
+                      "end": 5073
+                    },
+                    {
+                      "type": "Literal",
+                      "value": "👩🏾‍🫯‍👩🏼",
+                      "raw": "\"\\u{1F469}\\u{1F3FE}\\u200D\\u{1FAEF}\\u200D\\u{1F469}\\u{1F3FC}\"",
+                      "start": 5079,
+                      "end": 5138
+                    },
+                    {
+                      "type": "Literal",
+                      "value": "👩🏾‍🫯‍👩🏽",
+                      "raw": "\"\\u{1F469}\\u{1F3FE}\\u200D\\u{1FAEF}\\u200D\\u{1F469}\\u{1F3FD}\"",
+                      "start": 5144,
+                      "end": 5203
+                    },
+                    {
+                      "type": "Literal",
+                      "value": "👩🏾‍🫯‍👩🏿",
+                      "raw": "\"\\u{1F469}\\u{1F3FE}\\u200D\\u{1FAEF}\\u200D\\u{1F469}\\u{1F3FF}\"",
+                      "start": 5209,
+                      "end": 5268
+                    },
+                    {
+                      "type": "Literal",
+                      "value": "👩🏿‍🐰‍👩🏻",
+                      "raw": "\"\\u{1F469}\\u{1F3FF}\\u200D\\u{1F430}\\u200D\\u{1F469}\\u{1F3FB}\"",
+                      "start": 5274,
+                      "end": 5333
+                    },
+                    {
+                      "type": "Literal",
+                      "value": "👩🏿‍🐰‍👩🏼",
+                      "raw": "\"\\u{1F469}\\u{1F3FF}\\u200D\\u{1F430}\\u200D\\u{1F469}\\u{1F3FC}\"",
+                      "start": 5339,
+                      "end": 5398
+                    },
+                    {
+                      "type": "Literal",
+                      "value": "👩🏿‍🐰‍👩🏽",
+                      "raw": "\"\\u{1F469}\\u{1F3FF}\\u200D\\u{1F430}\\u200D\\u{1F469}\\u{1F3FD}\"",
+                      "start": 5404,
+                      "end": 5463
+                    },
+                    {
+                      "type": "Literal",
+                      "value": "👩🏿‍🐰‍👩🏾",
+                      "raw": "\"\\u{1F469}\\u{1F3FF}\\u200D\\u{1F430}\\u200D\\u{1F469}\\u{1F3FE}\"",
+                      "start": 5469,
+                      "end": 5528
+                    },
+                    {
+                      "type": "Literal",
+                      "value": "👩🏿‍🫯‍👩🏻",
+                      "raw": "\"\\u{1F469}\\u{1F3FF}\\u200D\\u{1FAEF}\\u200D\\u{1F469}\\u{1F3FB}\"",
+                      "start": 5534,
+                      "end": 5593
+                    },
+                    {
+                      "type": "Literal",
+                      "value": "👩🏿‍🫯‍👩🏼",
+                      "raw": "\"\\u{1F469}\\u{1F3FF}\\u200D\\u{1FAEF}\\u200D\\u{1F469}\\u{1F3FC}\"",
+                      "start": 5599,
+                      "end": 5658
+                    },
+                    {
+                      "type": "Literal",
+                      "value": "👩🏿‍🫯‍👩🏽",
+                      "raw": "\"\\u{1F469}\\u{1F3FF}\\u200D\\u{1FAEF}\\u200D\\u{1F469}\\u{1F3FD}\"",
+                      "start": 5664,
+                      "end": 5723
+                    },
+                    {
+                      "type": "Literal",
+                      "value": "👩🏿‍🫯‍👩🏾",
+                      "raw": "\"\\u{1F469}\\u{1F3FF}\\u200D\\u{1FAEF}\\u200D\\u{1F469}\\u{1F3FE}\"",
+                      "start": 5729,
+                      "end": 5788
+                    },
+                    {
+                      "type": "Literal",
+                      "value": "👯🏻",
+                      "raw": "\"\\u{1F46F}\\u{1F3FB}\"",
+                      "start": 5794,
+                      "end": 5814
+                    },
+                    {
+                      "type": "Literal",
+                      "value": "👯🏻‍♀️",
+                      "raw": "\"\\u{1F46F}\\u{1F3FB}\\u200D\\u2640\\uFE0F\"",
+                      "start": 5820,
+                      "end": 5858
+                    },
+                    {
+                      "type": "Literal",
+                      "value": "👯🏻‍♂️",
+                      "raw": "\"\\u{1F46F}\\u{1F3FB}\\u200D\\u2642\\uFE0F\"",
+                      "start": 5864,
+                      "end": 5902
+                    },
+                    {
+                      "type": "Literal",
+                      "value": "👯🏼",
+                      "raw": "\"\\u{1F46F}\\u{1F3FC}\"",
+                      "start": 5908,
+                      "end": 5928
+                    },
+                    {
+                      "type": "Literal",
+                      "value": "👯🏼‍♀️",
+                      "raw": "\"\\u{1F46F}\\u{1F3FC}\\u200D\\u2640\\uFE0F\"",
+                      "start": 5934,
+                      "end": 5972
+                    },
+                    {
+                      "type": "Literal",
+                      "value": "👯🏼‍♂️",
+                      "raw": "\"\\u{1F46F}\\u{1F3FC}\\u200D\\u2642\\uFE0F\"",
+                      "start": 5978,
+                      "end": 6016
+                    },
+                    {
+                      "type": "Literal",
+                      "value": "👯🏽",
+                      "raw": "\"\\u{1F46F}\\u{1F3FD}\"",
+                      "start": 6022,
+                      "end": 6042
+                    },
+                    {
+                      "type": "Literal",
+                      "value": "👯🏽‍♀️",
+                      "raw": "\"\\u{1F46F}\\u{1F3FD}\\u200D\\u2640\\uFE0F\"",
+                      "start": 6048,
+                      "end": 6086
+                    },
+                    {
+                      "type": "Literal",
+                      "value": "👯🏽‍♂️",
+                      "raw": "\"\\u{1F46F}\\u{1F3FD}\\u200D\\u2642\\uFE0F\"",
+                      "start": 6092,
+                      "end": 6130
+                    },
+                    {
+                      "type": "Literal",
+                      "value": "👯🏾",
+                      "raw": "\"\\u{1F46F}\\u{1F3FE}\"",
+                      "start": 6136,
+                      "end": 6156
+                    },
+                    {
+                      "type": "Literal",
+                      "value": "👯🏾‍♀️",
+                      "raw": "\"\\u{1F46F}\\u{1F3FE}\\u200D\\u2640\\uFE0F\"",
+                      "start": 6162,
+                      "end": 6200
+                    },
+                    {
+                      "type": "Literal",
+                      "value": "👯🏾‍♂️",
+                      "raw": "\"\\u{1F46F}\\u{1F3FE}\\u200D\\u2642\\uFE0F\"",
+                      "start": 6206,
+                      "end": 6244
+                    },
+                    {
+                      "type": "Literal",
+                      "value": "👯🏿",
+                      "raw": "\"\\u{1F46F}\\u{1F3FF}\"",
+                      "start": 6250,
+                      "end": 6270
+                    },
+                    {
+                      "type": "Literal",
+                      "value": "👯🏿‍♀️",
+                      "raw": "\"\\u{1F46F}\\u{1F3FF}\\u200D\\u2640\\uFE0F\"",
+                      "start": 6276,
+                      "end": 6314
+                    },
+                    {
+                      "type": "Literal",
+                      "value": "👯🏿‍♂️",
+                      "raw": "\"\\u{1F46F}\\u{1F3FF}\\u200D\\u2642\\uFE0F\"",
+                      "start": 6320,
+                      "end": 6358
+                    },
+                    {
+                      "type": "Literal",
+                      "value": "🛘",
+                      "raw": "\"\\u{1F6D8}\"",
+                      "start": 6364,
+                      "end": 6375
+                    },
+                    {
+                      "type": "Literal",
+                      "value": "🤼🏻",
+                      "raw": "\"\\u{1F93C}\\u{1F3FB}\"",
+                      "start": 6381,
+                      "end": 6401
+                    },
+                    {
+                      "type": "Literal",
+                      "value": "🤼🏻‍♀️",
+                      "raw": "\"\\u{1F93C}\\u{1F3FB}\\u200D\\u2640\\uFE0F\"",
+                      "start": 6407,
+                      "end": 6445
+                    },
+                    {
+                      "type": "Literal",
+                      "value": "🤼🏻‍♂️",
+                      "raw": "\"\\u{1F93C}\\u{1F3FB}\\u200D\\u2642\\uFE0F\"",
+                      "start": 6451,
+                      "end": 6489
+                    },
+                    {
+                      "type": "Literal",
+                      "value": "🤼🏼",
+                      "raw": "\"\\u{1F93C}\\u{1F3FC}\"",
+                      "start": 6495,
+                      "end": 6515
+                    },
+                    {
+                      "type": "Literal",
+                      "value": "🤼🏼‍♀️",
+                      "raw": "\"\\u{1F93C}\\u{1F3FC}\\u200D\\u2640\\uFE0F\"",
+                      "start": 6521,
+                      "end": 6559
+                    },
+                    {
+                      "type": "Literal",
+                      "value": "🤼🏼‍♂️",
+                      "raw": "\"\\u{1F93C}\\u{1F3FC}\\u200D\\u2642\\uFE0F\"",
+                      "start": 6565,
+                      "end": 6603
+                    },
+                    {
+                      "type": "Literal",
+                      "value": "🤼🏽",
+                      "raw": "\"\\u{1F93C}\\u{1F3FD}\"",
+                      "start": 6609,
+                      "end": 6629
+                    },
+                    {
+                      "type": "Literal",
+                      "value": "🤼🏽‍♀️",
+                      "raw": "\"\\u{1F93C}\\u{1F3FD}\\u200D\\u2640\\uFE0F\"",
+                      "start": 6635,
+                      "end": 6673
+                    },
+                    {
+                      "type": "Literal",
+                      "value": "🤼🏽‍♂️",
+                      "raw": "\"\\u{1F93C}\\u{1F3FD}\\u200D\\u2642\\uFE0F\"",
+                      "start": 6679,
+                      "end": 6717
+                    },
+                    {
+                      "type": "Literal",
+                      "value": "🤼🏾",
+                      "raw": "\"\\u{1F93C}\\u{1F3FE}\"",
+                      "start": 6723,
+                      "end": 6743
+                    },
+                    {
+                      "type": "Literal",
+                      "value": "🤼🏾‍♀️",
+                      "raw": "\"\\u{1F93C}\\u{1F3FE}\\u200D\\u2640\\uFE0F\"",
+                      "start": 6749,
+                      "end": 6787
+                    },
+                    {
+                      "type": "Literal",
+                      "value": "🤼🏾‍♂️",
+                      "raw": "\"\\u{1F93C}\\u{1F3FE}\\u200D\\u2642\\uFE0F\"",
+                      "start": 6793,
+                      "end": 6831
+                    },
+                    {
+                      "type": "Literal",
+                      "value": "🤼🏿",
+                      "raw": "\"\\u{1F93C}\\u{1F3FF}\"",
+                      "start": 6837,
+                      "end": 6857
+                    },
+                    {
+                      "type": "Literal",
+                      "value": "🤼🏿‍♀️",
+                      "raw": "\"\\u{1F93C}\\u{1F3FF}\\u200D\\u2640\\uFE0F\"",
+                      "start": 6863,
+                      "end": 6901
+                    },
+                    {
+                      "type": "Literal",
+                      "value": "🤼🏿‍♂️",
+                      "raw": "\"\\u{1F93C}\\u{1F3FF}\\u200D\\u2642\\uFE0F\"",
+                      "start": 6907,
+                      "end": 6945
+                    },
+                    {
+                      "type": "Literal",
+                      "value": "🧑‍🩰",
+                      "raw": "\"\\u{1F9D1}\\u200D\\u{1FA70}\"",
+                      "start": 6951,
+                      "end": 6977
+                    },
+                    {
+                      "type": "Literal",
+                      "value": "🧑🏻‍🐰‍🧑🏼",
+                      "raw": "\"\\u{1F9D1}\\u{1F3FB}\\u200D\\u{1F430}\\u200D\\u{1F9D1}\\u{1F3FC}\"",
+                      "start": 6983,
+                      "end": 7042
+                    },
+                    {
+                      "type": "Literal",
+                      "value": "🧑🏻‍🐰‍🧑🏽",
+                      "raw": "\"\\u{1F9D1}\\u{1F3FB}\\u200D\\u{1F430}\\u200D\\u{1F9D1}\\u{1F3FD}\"",
+                      "start": 7048,
+                      "end": 7107
+                    },
+                    {
+                      "type": "Literal",
+                      "value": "🧑🏻‍🐰‍🧑🏾",
+                      "raw": "\"\\u{1F9D1}\\u{1F3FB}\\u200D\\u{1F430}\\u200D\\u{1F9D1}\\u{1F3FE}\"",
+                      "start": 7113,
+                      "end": 7172
+                    },
+                    {
+                      "type": "Literal",
+                      "value": "🧑🏻‍🐰‍🧑🏿",
+                      "raw": "\"\\u{1F9D1}\\u{1F3FB}\\u200D\\u{1F430}\\u200D\\u{1F9D1}\\u{1F3FF}\"",
+                      "start": 7178,
+                      "end": 7237
+                    },
+                    {
+                      "type": "Literal",
+                      "value": "🧑🏻‍🩰",
+                      "raw": "\"\\u{1F9D1}\\u{1F3FB}\\u200D\\u{1FA70}\"",
+                      "start": 7243,
+                      "end": 7278
+                    },
+                    {
+                      "type": "Literal",
+                      "value": "🧑🏻‍🫯‍🧑🏼",
+                      "raw": "\"\\u{1F9D1}\\u{1F3FB}\\u200D\\u{1FAEF}\\u200D\\u{1F9D1}\\u{1F3FC}\"",
+                      "start": 7284,
+                      "end": 7343
+                    },
+                    {
+                      "type": "Literal",
+                      "value": "🧑🏻‍🫯‍🧑🏽",
+                      "raw": "\"\\u{1F9D1}\\u{1F3FB}\\u200D\\u{1FAEF}\\u200D\\u{1F9D1}\\u{1F3FD}\"",
+                      "start": 7349,
+                      "end": 7408
+                    },
+                    {
+                      "type": "Literal",
+                      "value": "🧑🏻‍🫯‍🧑🏾",
+                      "raw": "\"\\u{1F9D1}\\u{1F3FB}\\u200D\\u{1FAEF}\\u200D\\u{1F9D1}\\u{1F3FE}\"",
+                      "start": 7414,
+                      "end": 7473
+                    },
+                    {
+                      "type": "Literal",
+                      "value": "🧑🏻‍🫯‍🧑🏿",
+                      "raw": "\"\\u{1F9D1}\\u{1F3FB}\\u200D\\u{1FAEF}\\u200D\\u{1F9D1}\\u{1F3FF}\"",
+                      "start": 7479,
+                      "end": 7538
+                    },
+                    {
+                      "type": "Literal",
+                      "value": "🧑🏼‍🐰‍🧑🏻",
+                      "raw": "\"\\u{1F9D1}\\u{1F3FC}\\u200D\\u{1F430}\\u200D\\u{1F9D1}\\u{1F3FB}\"",
+                      "start": 7544,
+                      "end": 7603
+                    },
+                    {
+                      "type": "Literal",
+                      "value": "🧑🏼‍🐰‍🧑🏽",
+                      "raw": "\"\\u{1F9D1}\\u{1F3FC}\\u200D\\u{1F430}\\u200D\\u{1F9D1}\\u{1F3FD}\"",
+                      "start": 7609,
+                      "end": 7668
+                    },
+                    {
+                      "type": "Literal",
+                      "value": "🧑🏼‍🐰‍🧑🏾",
+                      "raw": "\"\\u{1F9D1}\\u{1F3FC}\\u200D\\u{1F430}\\u200D\\u{1F9D1}\\u{1F3FE}\"",
+                      "start": 7674,
+                      "end": 7733
+                    },
+                    {
+                      "type": "Literal",
+                      "value": "🧑🏼‍🐰‍🧑🏿",
+                      "raw": "\"\\u{1F9D1}\\u{1F3FC}\\u200D\\u{1F430}\\u200D\\u{1F9D1}\\u{1F3FF}\"",
+                      "start": 7739,
+                      "end": 7798
+                    },
+                    {
+                      "type": "Literal",
+                      "value": "🧑🏼‍🩰",
+                      "raw": "\"\\u{1F9D1}\\u{1F3FC}\\u200D\\u{1FA70}\"",
+                      "start": 7804,
+                      "end": 7839
+                    },
+                    {
+                      "type": "Literal",
+                      "value": "🧑🏼‍🫯‍🧑🏻",
+                      "raw": "\"\\u{1F9D1}\\u{1F3FC}\\u200D\\u{1FAEF}\\u200D\\u{1F9D1}\\u{1F3FB}\"",
+                      "start": 7845,
+                      "end": 7904
+                    },
+                    {
+                      "type": "Literal",
+                      "value": "🧑🏼‍🫯‍🧑🏽",
+                      "raw": "\"\\u{1F9D1}\\u{1F3FC}\\u200D\\u{1FAEF}\\u200D\\u{1F9D1}\\u{1F3FD}\"",
+                      "start": 7910,
+                      "end": 7969
+                    },
+                    {
+                      "type": "Literal",
+                      "value": "🧑🏼‍🫯‍🧑🏾",
+                      "raw": "\"\\u{1F9D1}\\u{1F3FC}\\u200D\\u{1FAEF}\\u200D\\u{1F9D1}\\u{1F3FE}\"",
+                      "start": 7975,
+                      "end": 8034
+                    },
+                    {
+                      "type": "Literal",
+                      "value": "🧑🏼‍🫯‍🧑🏿",
+                      "raw": "\"\\u{1F9D1}\\u{1F3FC}\\u200D\\u{1FAEF}\\u200D\\u{1F9D1}\\u{1F3FF}\"",
+                      "start": 8040,
+                      "end": 8099
+                    },
+                    {
+                      "type": "Literal",
+                      "value": "🧑🏽‍🐰‍🧑🏻",
+                      "raw": "\"\\u{1F9D1}\\u{1F3FD}\\u200D\\u{1F430}\\u200D\\u{1F9D1}\\u{1F3FB}\"",
+                      "start": 8105,
+                      "end": 8164
+                    },
+                    {
+                      "type": "Literal",
+                      "value": "🧑🏽‍🐰‍🧑🏼",
+                      "raw": "\"\\u{1F9D1}\\u{1F3FD}\\u200D\\u{1F430}\\u200D\\u{1F9D1}\\u{1F3FC}\"",
+                      "start": 8170,
+                      "end": 8229
+                    },
+                    {
+                      "type": "Literal",
+                      "value": "🧑🏽‍🐰‍🧑🏾",
+                      "raw": "\"\\u{1F9D1}\\u{1F3FD}\\u200D\\u{1F430}\\u200D\\u{1F9D1}\\u{1F3FE}\"",
+                      "start": 8235,
+                      "end": 8294
+                    },
+                    {
+                      "type": "Literal",
+                      "value": "🧑🏽‍🐰‍🧑🏿",
+                      "raw": "\"\\u{1F9D1}\\u{1F3FD}\\u200D\\u{1F430}\\u200D\\u{1F9D1}\\u{1F3FF}\"",
+                      "start": 8300,
+                      "end": 8359
+                    },
+                    {
+                      "type": "Literal",
+                      "value": "🧑🏽‍🩰",
+                      "raw": "\"\\u{1F9D1}\\u{1F3FD}\\u200D\\u{1FA70}\"",
+                      "start": 8365,
+                      "end": 8400
+                    },
+                    {
+                      "type": "Literal",
+                      "value": "🧑🏽‍🫯‍🧑🏻",
+                      "raw": "\"\\u{1F9D1}\\u{1F3FD}\\u200D\\u{1FAEF}\\u200D\\u{1F9D1}\\u{1F3FB}\"",
+                      "start": 8406,
+                      "end": 8465
+                    },
+                    {
+                      "type": "Literal",
+                      "value": "🧑🏽‍🫯‍🧑🏼",
+                      "raw": "\"\\u{1F9D1}\\u{1F3FD}\\u200D\\u{1FAEF}\\u200D\\u{1F9D1}\\u{1F3FC}\"",
+                      "start": 8471,
+                      "end": 8530
+                    },
+                    {
+                      "type": "Literal",
+                      "value": "🧑🏽‍🫯‍🧑🏾",
+                      "raw": "\"\\u{1F9D1}\\u{1F3FD}\\u200D\\u{1FAEF}\\u200D\\u{1F9D1}\\u{1F3FE}\"",
+                      "start": 8536,
+                      "end": 8595
+                    },
+                    {
+                      "type": "Literal",
+                      "value": "🧑🏽‍🫯‍🧑🏿",
+                      "raw": "\"\\u{1F9D1}\\u{1F3FD}\\u200D\\u{1FAEF}\\u200D\\u{1F9D1}\\u{1F3FF}\"",
+                      "start": 8601,
+                      "end": 8660
+                    },
+                    {
+                      "type": "Literal",
+                      "value": "🧑🏾‍🐰‍🧑🏻",
+                      "raw": "\"\\u{1F9D1}\\u{1F3FE}\\u200D\\u{1F430}\\u200D\\u{1F9D1}\\u{1F3FB}\"",
+                      "start": 8666,
+                      "end": 8725
+                    },
+                    {
+                      "type": "Literal",
+                      "value": "🧑🏾‍🐰‍🧑🏼",
+                      "raw": "\"\\u{1F9D1}\\u{1F3FE}\\u200D\\u{1F430}\\u200D\\u{1F9D1}\\u{1F3FC}\"",
+                      "start": 8731,
+                      "end": 8790
+                    },
+                    {
+                      "type": "Literal",
+                      "value": "🧑🏾‍🐰‍🧑🏽",
+                      "raw": "\"\\u{1F9D1}\\u{1F3FE}\\u200D\\u{1F430}\\u200D\\u{1F9D1}\\u{1F3FD}\"",
+                      "start": 8796,
+                      "end": 8855
+                    },
+                    {
+                      "type": "Literal",
+                      "value": "🧑🏾‍🐰‍🧑🏿",
+                      "raw": "\"\\u{1F9D1}\\u{1F3FE}\\u200D\\u{1F430}\\u200D\\u{1F9D1}\\u{1F3FF}\"",
+                      "start": 8861,
+                      "end": 8920
+                    },
+                    {
+                      "type": "Literal",
+                      "value": "🧑🏾‍🩰",
+                      "raw": "\"\\u{1F9D1}\\u{1F3FE}\\u200D\\u{1FA70}\"",
+                      "start": 8926,
+                      "end": 8961
+                    },
+                    {
+                      "type": "Literal",
+                      "value": "🧑🏾‍🫯‍🧑🏻",
+                      "raw": "\"\\u{1F9D1}\\u{1F3FE}\\u200D\\u{1FAEF}\\u200D\\u{1F9D1}\\u{1F3FB}\"",
+                      "start": 8967,
+                      "end": 9026
+                    },
+                    {
+                      "type": "Literal",
+                      "value": "🧑🏾‍🫯‍🧑🏼",
+                      "raw": "\"\\u{1F9D1}\\u{1F3FE}\\u200D\\u{1FAEF}\\u200D\\u{1F9D1}\\u{1F3FC}\"",
+                      "start": 9032,
+                      "end": 9091
+                    },
+                    {
+                      "type": "Literal",
+                      "value": "🧑🏾‍🫯‍🧑🏽",
+                      "raw": "\"\\u{1F9D1}\\u{1F3FE}\\u200D\\u{1FAEF}\\u200D\\u{1F9D1}\\u{1F3FD}\"",
+                      "start": 9097,
+                      "end": 9156
+                    },
+                    {
+                      "type": "Literal",
+                      "value": "🧑🏾‍🫯‍🧑🏿",
+                      "raw": "\"\\u{1F9D1}\\u{1F3FE}\\u200D\\u{1FAEF}\\u200D\\u{1F9D1}\\u{1F3FF}\"",
+                      "start": 9162,
+                      "end": 9221
+                    },
+                    {
+                      "type": "Literal",
+                      "value": "🧑🏿‍🐰‍🧑🏻",
+                      "raw": "\"\\u{1F9D1}\\u{1F3FF}\\u200D\\u{1F430}\\u200D\\u{1F9D1}\\u{1F3FB}\"",
+                      "start": 9227,
+                      "end": 9286
+                    },
+                    {
+                      "type": "Literal",
+                      "value": "🧑🏿‍🐰‍🧑🏼",
+                      "raw": "\"\\u{1F9D1}\\u{1F3FF}\\u200D\\u{1F430}\\u200D\\u{1F9D1}\\u{1F3FC}\"",
+                      "start": 9292,
+                      "end": 9351
+                    },
+                    {
+                      "type": "Literal",
+                      "value": "🧑🏿‍🐰‍🧑🏽",
+                      "raw": "\"\\u{1F9D1}\\u{1F3FF}\\u200D\\u{1F430}\\u200D\\u{1F9D1}\\u{1F3FD}\"",
+                      "start": 9357,
+                      "end": 9416
+                    },
+                    {
+                      "type": "Literal",
+                      "value": "🧑🏿‍🐰‍🧑🏾",
+                      "raw": "\"\\u{1F9D1}\\u{1F3FF}\\u200D\\u{1F430}\\u200D\\u{1F9D1}\\u{1F3FE}\"",
+                      "start": 9422,
+                      "end": 9481
+                    },
+                    {
+                      "type": "Literal",
+                      "value": "🧑🏿‍🩰",
+                      "raw": "\"\\u{1F9D1}\\u{1F3FF}\\u200D\\u{1FA70}\"",
+                      "start": 9487,
+                      "end": 9522
+                    },
+                    {
+                      "type": "Literal",
+                      "value": "🧑🏿‍🫯‍🧑🏻",
+                      "raw": "\"\\u{1F9D1}\\u{1F3FF}\\u200D\\u{1FAEF}\\u200D\\u{1F9D1}\\u{1F3FB}\"",
+                      "start": 9528,
+                      "end": 9587
+                    },
+                    {
+                      "type": "Literal",
+                      "value": "🧑🏿‍🫯‍🧑🏼",
+                      "raw": "\"\\u{1F9D1}\\u{1F3FF}\\u200D\\u{1FAEF}\\u200D\\u{1F9D1}\\u{1F3FC}\"",
+                      "start": 9593,
+                      "end": 9652
+                    },
+                    {
+                      "type": "Literal",
+                      "value": "🧑🏿‍🫯‍🧑🏽",
+                      "raw": "\"\\u{1F9D1}\\u{1F3FF}\\u200D\\u{1FAEF}\\u200D\\u{1F9D1}\\u{1F3FD}\"",
+                      "start": 9658,
+                      "end": 9717
+                    },
+                    {
+                      "type": "Literal",
+                      "value": "🧑🏿‍🫯‍🧑🏾",
+                      "raw": "\"\\u{1F9D1}\\u{1F3FF}\\u200D\\u{1FAEF}\\u200D\\u{1F9D1}\\u{1F3FE}\"",
+                      "start": 9723,
+                      "end": 9782
+                    },
+                    {
+                      "type": "Literal",
+                      "value": "🪊",
+                      "raw": "\"\\u{1FA8A}\"",
+                      "start": 9788,
+                      "end": 9799
+                    },
+                    {
+                      "type": "Literal",
+                      "value": "🪎",
+                      "raw": "\"\\u{1FA8E}\"",
+                      "start": 9805,
+                      "end": 9816
+                    },
+                    {
+                      "type": "Literal",
+                      "value": "🫈",
+                      "raw": "\"\\u{1FAC8}\"",
+                      "start": 9822,
+                      "end": 9833
+                    },
+                    {
+                      "type": "Literal",
+                      "value": "🫍",
+                      "raw": "\"\\u{1FACD}\"",
+                      "start": 9839,
+                      "end": 9850
+                    },
+                    {
+                      "type": "Literal",
+                      "value": "🫪",
+                      "raw": "\"\\u{1FAEA}\"",
+                      "start": 9856,
+                      "end": 9867
+                    },
+                    {
+                      "type": "Literal",
+                      "value": "🫯",
+                      "raw": "\"\\u{1FAEF}\"",
+                      "start": 9873,
+                      "end": 9884
+                    }
+                  ],
+                  "start": 588,
+                  "end": 9888
+                },
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "start": 574,
+                "end": 9888
+              }
+            ],
+            "start": 507,
+            "end": 9891
+          }
+        ],
+        "optional": false,
+        "start": 485,
+        "end": 9892
+      },
+      "start": 485,
+      "end": 9893
+    }
+  ],
+  "sourceType": "script",
+  "hashbang": null,
+  "start": 0,
+  "end": 9894
+}

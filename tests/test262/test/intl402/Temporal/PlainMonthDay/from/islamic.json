@@ -1,0 +1,224 @@
+{
+  "type": "Program",
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "kind": "const",
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "id": {
+            "type": "Identifier",
+            "name": "calendar",
+            "start": 288,
+            "end": 296
+          },
+          "init": {
+            "type": "Literal",
+            "value": "islamic",
+            "raw": "\"islamic\"",
+            "start": 299,
+            "end": 308
+          },
+          "start": 288,
+          "end": 308
+        }
+      ],
+      "start": 282,
+      "end": 309
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "MemberExpression",
+          "object": {
+            "type": "Identifier",
+            "name": "assert",
+            "start": 311,
+            "end": 317
+          },
+          "property": {
+            "type": "Identifier",
+            "name": "throws",
+            "start": 318,
+            "end": 324
+          },
+          "optional": false,
+          "computed": false,
+          "start": 311,
+          "end": 324
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "name": "RangeError",
+            "start": 325,
+            "end": 335
+          },
+          {
+            "type": "ArrowFunctionExpression",
+            "expression": true,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "CallExpression",
+              "callee": {
+                "type": "MemberExpression",
+                "object": {
+                  "type": "MemberExpression",
+                  "object": {
+                    "type": "Identifier",
+                    "name": "Temporal",
+                    "start": 345,
+                    "end": 353
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "name": "PlainMonthDay",
+                    "start": 354,
+                    "end": 367
+                  },
+                  "optional": false,
+                  "computed": false,
+                  "start": 345,
+                  "end": 367
+                },
+                "property": {
+                  "type": "Identifier",
+                  "name": "from",
+                  "start": 368,
+                  "end": 372
+                },
+                "optional": false,
+                "computed": false,
+                "start": 345,
+                "end": 372
+              },
+              "arguments": [
+                {
+                  "type": "ObjectExpression",
+                  "properties": [
+                    {
+                      "type": "Property",
+                      "kind": "init",
+                      "key": {
+                        "type": "Identifier",
+                        "name": "year",
+                        "start": 374,
+                        "end": 378
+                      },
+                      "value": {
+                        "type": "Literal",
+                        "value": 1500,
+                        "raw": "1500",
+                        "start": 380,
+                        "end": 384
+                      },
+                      "method": false,
+                      "shorthand": false,
+                      "computed": false,
+                      "start": 374,
+                      "end": 384
+                    },
+                    {
+                      "type": "Property",
+                      "kind": "init",
+                      "key": {
+                        "type": "Identifier",
+                        "name": "month",
+                        "start": 386,
+                        "end": 391
+                      },
+                      "value": {
+                        "type": "Literal",
+                        "value": 1,
+                        "raw": "1",
+                        "start": 393,
+                        "end": 394
+                      },
+                      "method": false,
+                      "shorthand": false,
+                      "computed": false,
+                      "start": 386,
+                      "end": 394
+                    },
+                    {
+                      "type": "Property",
+                      "kind": "init",
+                      "key": {
+                        "type": "Identifier",
+                        "name": "day",
+                        "start": 396,
+                        "end": 399
+                      },
+                      "value": {
+                        "type": "Literal",
+                        "value": 1,
+                        "raw": "1",
+                        "start": 401,
+                        "end": 402
+                      },
+                      "method": false,
+                      "shorthand": false,
+                      "computed": false,
+                      "start": 396,
+                      "end": 402
+                    },
+                    {
+                      "type": "Property",
+                      "kind": "init",
+                      "key": {
+                        "type": "Identifier",
+                        "name": "calendar",
+                        "start": 404,
+                        "end": 412
+                      },
+                      "value": {
+                        "type": "Identifier",
+                        "name": "calendar",
+                        "start": 404,
+                        "end": 412
+                      },
+                      "method": false,
+                      "shorthand": true,
+                      "computed": false,
+                      "start": 404,
+                      "end": 412
+                    }
+                  ],
+                  "start": 373,
+                  "end": 413
+                }
+              ],
+              "optional": false,
+              "start": 345,
+              "end": 414
+            },
+            "id": null,
+            "generator": false,
+            "start": 337,
+            "end": 414
+          },
+          {
+            "type": "Literal",
+            "value": "fallback for calendar ID 'islamic' only supported in Intl.DateTimeFormat constructor, not Temporal",
+            "raw": "\"fallback for calendar ID 'islamic' only supported in Intl.DateTimeFormat constructor, not Temporal\"",
+            "start": 418,
+            "end": 518
+          }
+        ],
+        "optional": false,
+        "start": 311,
+        "end": 520
+      },
+      "start": 311,
+      "end": 521
+    }
+  ],
+  "sourceType": "script",
+  "hashbang": null,
+  "start": 0,
+  "end": 522
+}

@@ -1,0 +1,115 @@
+{
+  "type": "Program",
+  "body": [
+    {
+      "type": "ExportAllDeclaration",
+      "exported": null,
+      "source": {
+        "type": "Literal",
+        "value": "./import-and-export-propagates-binding_export-from_FIXTURE.js",
+        "raw": "\"./import-and-export-propagates-binding_export-from_FIXTURE.js\"",
+        "start": 3991,
+        "end": 4054
+      },
+      "attributes": [],
+      "start": 3977,
+      "end": 4055
+    },
+    {
+      "type": "ExportAllDeclaration",
+      "exported": null,
+      "source": {
+        "type": "Literal",
+        "value": "./import-and-export-propagates-binding_import-and-export_FIXTURE.js",
+        "raw": "\"./import-and-export-propagates-binding_import-and-export_FIXTURE.js\"",
+        "start": 4070,
+        "end": 4139
+      },
+      "attributes": [],
+      "start": 4056,
+      "end": 4140
+    },
+    {
+      "type": "ImportDeclaration",
+      "specifiers": [
+        {
+          "type": "ImportSpecifier",
+          "imported": {
+            "type": "Identifier",
+            "name": "foo",
+            "start": 4151,
+            "end": 4154
+          },
+          "local": {
+            "type": "Identifier",
+            "name": "foo",
+            "start": 4151,
+            "end": 4154
+          },
+          "start": 4151,
+          "end": 4154
+        }
+      ],
+      "source": {
+        "type": "Literal",
+        "value": "./import-and-export-propagates-binding.js",
+        "raw": "'./import-and-export-propagates-binding.js'",
+        "start": 4162,
+        "end": 4205
+      },
+      "phase": null,
+      "attributes": [],
+      "start": 4142,
+      "end": 4206
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "MemberExpression",
+          "object": {
+            "type": "Identifier",
+            "name": "assert",
+            "start": 4208,
+            "end": 4214
+          },
+          "property": {
+            "type": "Identifier",
+            "name": "sameValue",
+            "start": 4215,
+            "end": 4224
+          },
+          "optional": false,
+          "computed": false,
+          "start": 4208,
+          "end": 4224
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "name": "foo",
+            "start": 4225,
+            "end": 4228
+          },
+          {
+            "type": "Literal",
+            "value": 2,
+            "raw": "2",
+            "start": 4230,
+            "end": 4231
+          }
+        ],
+        "optional": false,
+        "start": 4208,
+        "end": 4232
+      },
+      "start": 4208,
+      "end": 4233
+    }
+  ],
+  "sourceType": "module",
+  "hashbang": null,
+  "start": 0,
+  "end": 4234
+}

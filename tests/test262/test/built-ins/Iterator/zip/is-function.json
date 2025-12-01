@@ -1,0 +1,81 @@
+{
+  "type": "Program",
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "MemberExpression",
+          "object": {
+            "type": "Identifier",
+            "name": "assert",
+            "start": 247,
+            "end": 253
+          },
+          "property": {
+            "type": "Identifier",
+            "name": "sameValue",
+            "start": 254,
+            "end": 263
+          },
+          "optional": false,
+          "computed": false,
+          "start": 247,
+          "end": 263
+        },
+        "arguments": [
+          {
+            "type": "UnaryExpression",
+            "operator": "typeof",
+            "argument": {
+              "type": "MemberExpression",
+              "object": {
+                "type": "Identifier",
+                "name": "Iterator",
+                "start": 274,
+                "end": 282
+              },
+              "property": {
+                "type": "Identifier",
+                "name": "zip",
+                "start": 283,
+                "end": 286
+              },
+              "optional": false,
+              "computed": false,
+              "start": 274,
+              "end": 286
+            },
+            "prefix": true,
+            "start": 267,
+            "end": 286
+          },
+          {
+            "type": "Literal",
+            "value": "function",
+            "raw": "\"function\"",
+            "start": 290,
+            "end": 300
+          },
+          {
+            "type": "Literal",
+            "value": "The value of `typeof Iterator.zip` is 'function'",
+            "raw": "\"The value of `typeof Iterator.zip` is 'function'\"",
+            "start": 304,
+            "end": 354
+          }
+        ],
+        "optional": false,
+        "start": 247,
+        "end": 356
+      },
+      "start": 247,
+      "end": 357
+    }
+  ],
+  "sourceType": "script",
+  "hashbang": null,
+  "start": 0,
+  "end": 358
+}

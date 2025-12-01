@@ -1,0 +1,81 @@
+{
+  "type": "Program",
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "MemberExpression",
+          "object": {
+            "type": "Identifier",
+            "name": "assert",
+            "start": 257,
+            "end": 263
+          },
+          "property": {
+            "type": "Identifier",
+            "name": "sameValue",
+            "start": 264,
+            "end": 273
+          },
+          "optional": false,
+          "computed": false,
+          "start": 257,
+          "end": 273
+        },
+        "arguments": [
+          {
+            "type": "UnaryExpression",
+            "operator": "typeof",
+            "argument": {
+              "type": "MemberExpression",
+              "object": {
+                "type": "Identifier",
+                "name": "Iterator",
+                "start": 284,
+                "end": 292
+              },
+              "property": {
+                "type": "Identifier",
+                "name": "zipKeyed",
+                "start": 293,
+                "end": 301
+              },
+              "optional": false,
+              "computed": false,
+              "start": 284,
+              "end": 301
+            },
+            "prefix": true,
+            "start": 277,
+            "end": 301
+          },
+          {
+            "type": "Literal",
+            "value": "function",
+            "raw": "\"function\"",
+            "start": 305,
+            "end": 315
+          },
+          {
+            "type": "Literal",
+            "value": "The value of `typeof Iterator.zipKeyed` is 'function'",
+            "raw": "\"The value of `typeof Iterator.zipKeyed` is 'function'\"",
+            "start": 319,
+            "end": 374
+          }
+        ],
+        "optional": false,
+        "start": 257,
+        "end": 376
+      },
+      "start": 257,
+      "end": 377
+    }
+  ],
+  "sourceType": "script",
+  "hashbang": null,
+  "start": 0,
+  "end": 378
+}

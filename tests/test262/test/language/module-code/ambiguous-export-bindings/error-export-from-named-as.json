@@ -1,0 +1,60 @@
+{
+  "type": "Program",
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "Identifier",
+          "name": "$DONOTEVALUATE",
+          "start": 1557,
+          "end": 1571
+        },
+        "arguments": [],
+        "optional": false,
+        "start": 1557,
+        "end": 1573
+      },
+      "start": 1557,
+      "end": 1574
+    },
+    {
+      "type": "ExportNamedDeclaration",
+      "declaration": null,
+      "specifiers": [
+        {
+          "type": "ExportSpecifier",
+          "local": {
+            "type": "Identifier",
+            "name": "x",
+            "start": 1585,
+            "end": 1586
+          },
+          "exported": {
+            "type": "Identifier",
+            "name": "y",
+            "start": 1590,
+            "end": 1591
+          },
+          "start": 1585,
+          "end": 1591
+        }
+      ],
+      "source": {
+        "type": "Literal",
+        "value": "./error-export-from-named_FIXTURE.js",
+        "raw": "'./error-export-from-named_FIXTURE.js'",
+        "start": 1599,
+        "end": 1637
+      },
+      "attributes": [],
+      "start": 1576,
+      "end": 1638
+    }
+  ],
+  "sourceType": "module",
+  "hashbang": null,
+  "start": 0,
+  "end": 1639
+}
