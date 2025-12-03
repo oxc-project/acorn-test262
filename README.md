@@ -1,4 +1,6 @@
-# [acorn] output for [test262]
+# ESTree Conformance Test Suite
+
+This repository provides ESTree AST conformance test fixtures generated from multiple sources including test262, TypeScript, and acorn-jsx test suites.
 
 Acorn is run with:
 
