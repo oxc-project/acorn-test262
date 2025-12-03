@@ -15,10 +15,14 @@ jobs:
 
     runs-on: ubuntu-latest
 
+    outputs:
+      test262_sha: ${{ steps.get-shas.outputs.test262_sha }}
+      typescript_sha: ${{ steps.get-shas.outputs.typescript_sha }}
+      acorn_jsx_sha: ${{ steps.get-shas.outputs.acorn_jsx_sha }}
+      has_changes: ${{ steps.check-generated.outputs.has_changes }}
+
     steps:
-      - uses: actions/checkout@1af3b93b6815bc44a9784bd300feb67ff0d1eeb3 # v6.0.0
-        with:
-          token: ${{ secrets.GITHUB_TOKEN }}
+      - uses: taiki-e/checkout-action@b13d20b7cda4e2f325ef19895128f7ff735c0b3d # v1.3.1
 
       - uses: oxc-project/setup-node@141eb77546de6702f92d320926403fe3f9f6a6f2 # v1.0.5
 
@@ -61,6 +65,10 @@ jobs:
 
       - name: Check for changes
         id: check-changes
+        env:
+          LATEST_TEST262_SHA: ${{ steps.get-shas.outputs.test262_sha }}
+          LATEST_ACORN_JSX_SHA: ${{ steps.get-shas.outputs.acorn_jsx_sha }}
+          LATEST_TYPESCRIPT_SHA: ${{ steps.get-shas.outputs.typescript_sha }}
         run: |
           # Get current SHAs from package.json
           CURRENT_TEST262_SHA=$(grep -o 'clone-test262.*\.git [a-f0-9]*' package.json | grep -o '[a-f0-9]*$')
@@ -74,14 +82,14 @@ jobs:
 
           CHANGES_FOUND="false"
 
-          if [ "$CURRENT_TEST262_SHA" != "${{ steps.get-shas.outputs.test262_sha }}" ]; then
-            echo "test262 SHA changed: $CURRENT_TEST262_SHA -> ${{ steps.get-shas.outputs.test262_sha }}"
+          if [ "$CURRENT_TEST262_SHA" != "$LATEST_TEST262_SHA" ]; then
+            echo "test262 SHA changed: $CURRENT_TEST262_SHA -> $LATEST_TEST262_SHA"
             CHANGES_FOUND="true"
-          elif [ "$CURRENT_ACORN_JSX_SHA" != "${{ steps.get-shas.outputs.acorn_jsx_sha }}" ]; then
-            echo "acorn-jsx SHA changed: $CURRENT_ACORN_JSX_SHA -> ${{ steps.get-shas.outputs.acorn_jsx_sha }}"
+          elif [ "$CURRENT_ACORN_JSX_SHA" != "$LATEST_ACORN_JSX_SHA" ]; then
+            echo "acorn-jsx SHA changed: $CURRENT_ACORN_JSX_SHA -> $LATEST_ACORN_JSX_SHA"
             CHANGES_FOUND="true"
-          elif [ "$CURRENT_TYPESCRIPT_SHA" != "${{ steps.get-shas.outputs.typescript_sha }}" ]; then
-            echo "typescript SHA changed: $CURRENT_TYPESCRIPT_SHA -> ${{ steps.get-shas.outputs.typescript_sha }}"
+          elif [ "$CURRENT_TYPESCRIPT_SHA" != "$LATEST_TYPESCRIPT_SHA" ]; then
+            echo "typescript SHA changed: $CURRENT_TYPESCRIPT_SHA -> $LATEST_TYPESCRIPT_SHA"
             CHANGES_FOUND="true"
           fi
 
@@ -89,15 +97,19 @@ jobs:
 
       - name: Update package.json with new SHAs
         if: steps.check-changes.outputs.changes_found == 'true'
+        env:
+          LATEST_TEST262_SHA: ${{ steps.get-shas.outputs.test262_sha }}
+          LATEST_ACORN_JSX_SHA: ${{ steps.get-shas.outputs.acorn_jsx_sha }}
+          LATEST_TYPESCRIPT_SHA: ${{ steps.get-shas.outputs.typescript_sha }}
         run: |
           # Update test262 SHA
-          sed -i "s|clone-test262.*\.git [a-f0-9]*|clone-test262\": \"just clone-submodule submodules/test262 https://github.com/tc39/test262.git ${{ steps.get-shas.outputs.test262_sha }}|g" package.json
+          sed -i "s|clone-test262.*\.git [a-f0-9]*|clone-test262\": \"just clone-submodule submodules/test262 https://github.com/tc39/test262.git $LATEST_TEST262_SHA|g" package.json
 
           # Update acorn-jsx SHA
-          sed -i "s|clone-acorn-jsx.*\.git [a-f0-9]*|clone-acorn-jsx\": \"just clone-submodule submodules/acorn-jsx https://github.com/acornjs/acorn-jsx.git ${{ steps.get-shas.outputs.acorn_jsx_sha }}|g" package.json
+          sed -i "s|clone-acorn-jsx.*\.git [a-f0-9]*|clone-acorn-jsx\": \"just clone-submodule submodules/acorn-jsx https://github.com/acornjs/acorn-jsx.git $LATEST_ACORN_JSX_SHA|g" package.json
 
           # Update typescript SHA
-          sed -i "s|clone-typescript.*\.git [a-f0-9]*|clone-typescript\": \"just clone-submodule submodules/typescript https://github.com/microsoft/TypeScript.git ${{ steps.get-shas.outputs.typescript_sha }}|g" package.json
+          sed -i "s|clone-typescript.*\.git [a-f0-9]*|clone-typescript\": \"just clone-submodule submodules/typescript https://github.com/microsoft/TypeScript.git $LATEST_TYPESCRIPT_SHA|g" package.json
 
           echo "Updated package.json with new SHAs"
 
@@ -139,3 +151,13 @@ jobs:
           branch-suffix: timestamp
           base: main
           assignees: Boshen
+
+  # Trigger oxc workflow with the updated SHAs
+  trigger-oxc-update:
+    needs: update-fixtures
+    if: needs.update-fixtures.outputs.has_changes == 'true'
+    uses: oxc-project/oxc/.github/workflows/update_submodules.yml@main
+    with:
+      test262_sha: ${{ needs.update-fixtures.outputs.test262_sha }}
+      typescript_sha: ${{ needs.update-fixtures.outputs.typescript_sha }}
+      acorn_jsx_sha: ${{ needs.update-fixtures.outputs.acorn_jsx_sha }}
