@@ -15,12 +15,6 @@ jobs:
 
     runs-on: ubuntu-latest
 
-    outputs:
-      test262_sha: ${{ steps.get-shas.outputs.test262_sha }}
-      typescript_sha: ${{ steps.get-shas.outputs.typescript_sha }}
-      acorn_jsx_sha: ${{ steps.get-shas.outputs.acorn_jsx_sha }}
-      has_changes: ${{ steps.check-generated.outputs.has_changes }}
-
     steps:
       - uses: taiki-e/checkout-action@b13d20b7cda4e2f325ef19895128f7ff735c0b3d # v1.3.1
 
@@ -151,13 +145,3 @@ jobs:
           branch-suffix: timestamp
           base: main
           assignees: Boshen
-
-  # Trigger oxc workflow with the updated SHAs
-  trigger-oxc-update:
-    needs: update-fixtures
-    if: needs.update-fixtures.outputs.has_changes == 'true'
-    uses: oxc-project/oxc/.github/workflows/update_submodules.yml@main
-    with:
-      test262_sha: ${{ needs.update-fixtures.outputs.test262_sha }}
-      typescript_sha: ${{ needs.update-fixtures.outputs.typescript_sha }}
-      acorn_jsx_sha: ${{ needs.update-fixtures.outputs.acorn_jsx_sha }}
