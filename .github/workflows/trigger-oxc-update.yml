@@ -1,0 +1,103 @@
+name: Trigger OXC Update
+
+permissions: {}
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - 'package.json'
+
+jobs:
+  check-and-trigger:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+
+    outputs:
+      test262_sha: ${{ steps.extract-shas.outputs.test262_sha }}
+      typescript_sha: ${{ steps.extract-shas.outputs.typescript_sha }}
+      acorn_jsx_sha: ${{ steps.extract-shas.outputs.acorn_jsx_sha }}
+      estree_conformance_sha: ${{ steps.get-current-sha.outputs.estree_conformance_sha }}
+      shas_changed: ${{ steps.check-changes.outputs.shas_changed }}
+
+    steps:
+      - uses: actions/checkout@1af3b93b6815bc44a9784bd300feb67ff0d1eeb3 # v6.0.0
+        with:
+          fetch-depth: 2
+          persist-credentials: false
+
+      - name: Extract commit SHAs from package.json
+        id: extract-shas
+        run: |
+          # Extract the 3 commit SHAs from package.json
+          TEST262_SHA=$(grep -o 'clone-test262.*\.git [a-f0-9]*' package.json | grep -o '[a-f0-9]*$')
+          ACORN_JSX_SHA=$(grep -o 'clone-acorn-jsx.*\.git [a-f0-9]*' package.json | grep -o '[a-f0-9]*$')
+          TYPESCRIPT_SHA=$(grep -o 'clone-typescript.*\.git [a-f0-9]*' package.json | grep -o '[a-f0-9]*$')
+
+          echo "test262_sha=$TEST262_SHA" >> $GITHUB_OUTPUT
+          echo "acorn_jsx_sha=$ACORN_JSX_SHA" >> $GITHUB_OUTPUT
+          echo "typescript_sha=$TYPESCRIPT_SHA" >> $GITHUB_OUTPUT
+
+          echo "Extracted SHAs:"
+          echo "  test262: $TEST262_SHA"
+          echo "  acorn-jsx: $ACORN_JSX_SHA"
+          echo "  typescript: $TYPESCRIPT_SHA"
+
+      - name: Get current commit SHA
+        id: get-current-sha
+        run: |
+          CURRENT_SHA=$(git rev-parse HEAD)
+          echo "estree_conformance_sha=$CURRENT_SHA" >> $GITHUB_OUTPUT
+          echo "Current estree-conformance SHA: $CURRENT_SHA"
+
+      - name: Check if SHAs changed in this commit
+        id: check-changes
+        env:
+          CURRENT_TEST262_SHA: ${{ steps.extract-shas.outputs.test262_sha }}
+          CURRENT_ACORN_JSX_SHA: ${{ steps.extract-shas.outputs.acorn_jsx_sha }}
+          CURRENT_TYPESCRIPT_SHA: ${{ steps.extract-shas.outputs.typescript_sha }}
+        run: |
+          # Get the previous commit
+          PREV_COMMIT=$(git rev-parse HEAD^)
+
+          # Extract SHAs from previous commit
+          git show $PREV_COMMIT:package.json > /tmp/prev-package.json
+
+          PREV_TEST262_SHA=$(grep -o 'clone-test262.*\.git [a-f0-9]*' /tmp/prev-package.json | grep -o '[a-f0-9]*$' || echo "")
+          PREV_ACORN_JSX_SHA=$(grep -o 'clone-acorn-jsx.*\.git [a-f0-9]*' /tmp/prev-package.json | grep -o '[a-f0-9]*$' || echo "")
+          PREV_TYPESCRIPT_SHA=$(grep -o 'clone-typescript.*\.git [a-f0-9]*' /tmp/prev-package.json | grep -o '[a-f0-9]*$' || echo "")
+
+          CHANGED="false"
+
+          if [ "$PREV_TEST262_SHA" != "$CURRENT_TEST262_SHA" ]; then
+            echo "test262 SHA changed: $PREV_TEST262_SHA -> $CURRENT_TEST262_SHA"
+            CHANGED="true"
+          fi
+
+          if [ "$PREV_ACORN_JSX_SHA" != "$CURRENT_ACORN_JSX_SHA" ]; then
+            echo "acorn-jsx SHA changed: $PREV_ACORN_JSX_SHA -> $CURRENT_ACORN_JSX_SHA"
+            CHANGED="true"
+          fi
+
+          if [ "$PREV_TYPESCRIPT_SHA" != "$CURRENT_TYPESCRIPT_SHA" ]; then
+            echo "typescript SHA changed: $PREV_TYPESCRIPT_SHA -> $CURRENT_TYPESCRIPT_SHA"
+            CHANGED="true"
+          fi
+
+          echo "shas_changed=$CHANGED" >> $GITHUB_OUTPUT
+
+  # Trigger oxc workflow with the extracted SHAs
+  trigger-oxc-update:
+    needs: check-and-trigger
+    if: needs.check-and-trigger.outputs.shas_changed == 'true'
+    uses: oxc-project/oxc/.github/workflows/update_submodules.yml@main
+    permissions:
+      contents: write
+      pull-requests: write
+    with:
+      test262_sha: ${{ needs.check-and-trigger.outputs.test262_sha }}
+      typescript_sha: ${{ needs.check-and-trigger.outputs.typescript_sha }}
+      acorn_jsx_sha: ${{ needs.check-and-trigger.outputs.acorn_jsx_sha }}
+      estree_conformance_sha: ${{ needs.check-and-trigger.outputs.estree_conformance_sha }}
