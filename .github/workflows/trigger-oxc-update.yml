@@ -100,12 +100,20 @@ jobs:
   trigger-oxc-update:
     needs: check-and-trigger
     if: needs.check-and-trigger.outputs.shas_changed == 'true'
-    uses: oxc-project/oxc/.github/workflows/update_submodules.yml@main
+    runs-on: ubuntu-latest
     permissions:
-      contents: write
-      pull-requests: write
-    with:
-      test262_sha: ${{ needs.check-and-trigger.outputs.test262_sha }}
-      typescript_sha: ${{ needs.check-and-trigger.outputs.typescript_sha }}
-      acorn_jsx_sha: ${{ needs.check-and-trigger.outputs.acorn_jsx_sha }}
-      estree_conformance_sha: ${{ needs.check-and-trigger.outputs.estree_conformance_sha }}
+      contents: read
+    steps:
+      - name: Trigger oxc update_submodules workflow
+        uses: benc-uk/workflow-dispatch@e2e5e9a103e331dad343f381a29e654aea3cf8fc # v1.2.4
+        with:
+          repo: oxc-project/oxc
+          workflow: update_submodules.yml
+          token: ${{ secrets.OXC_BOT_PAT }}
+          ref: main
+          inputs: |
+            {
+              "test262_sha": "${{ needs.check-and-trigger.outputs.test262_sha }}",
+              "typescript_sha": "${{ needs.check-and-trigger.outputs.typescript_sha }}",
+              "estree_conformance_sha": "${{ needs.check-and-trigger.outputs.estree_conformance_sha }}"
+            }
