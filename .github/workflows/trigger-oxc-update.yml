@@ -8,6 +8,7 @@ on:
       - main
     paths:
       - 'package.json'
+  workflow_dispatch:
 
 jobs:
   check-and-trigger:
@@ -59,6 +60,13 @@ jobs:
           CURRENT_ACORN_JSX_SHA: ${{ steps.extract-shas.outputs.acorn_jsx_sha }}
           CURRENT_TYPESCRIPT_SHA: ${{ steps.extract-shas.outputs.typescript_sha }}
         run: |
+          # If manually triggered, always set as changed
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            echo "Manually triggered - will trigger oxc update with latest SHAs"
+            echo "shas_changed=true" >> $GITHUB_OUTPUT
+            exit 0
+          fi
+
           # Get the previous commit
           PREV_COMMIT=$(git rev-parse HEAD^)
 
