@@ -107,4 +107,5 @@ jobs:
     with:
       test262_sha: ${{ needs.check-and-trigger.outputs.test262_sha }}
       typescript_sha: ${{ needs.check-and-trigger.outputs.typescript_sha }}
+      acorn_jsx_sha: ${{ needs.check-and-trigger.outputs.acorn_jsx_sha }}
       estree_conformance_sha: ${{ needs.check-and-trigger.outputs.estree_conformance_sha }}
