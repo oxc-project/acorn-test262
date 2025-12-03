@@ -11,17 +11,10 @@ on:
   workflow_dispatch:
 
 jobs:
-  check-and-trigger:
+  trigger-oxc-update:
     runs-on: ubuntu-latest
     permissions:
       contents: read
-
-    outputs:
-      test262_sha: ${{ steps.extract-shas.outputs.test262_sha }}
-      typescript_sha: ${{ steps.extract-shas.outputs.typescript_sha }}
-      acorn_jsx_sha: ${{ steps.extract-shas.outputs.acorn_jsx_sha }}
-      estree_conformance_sha: ${{ steps.get-current-sha.outputs.estree_conformance_sha }}
-      shas_changed: ${{ steps.check-changes.outputs.shas_changed }}
 
     steps:
       - uses: actions/checkout@1af3b93b6815bc44a9784bd300feb67ff0d1eeb3 # v6.0.0
@@ -96,15 +89,8 @@ jobs:
 
           echo "shas_changed=$CHANGED" >> $GITHUB_OUTPUT
 
-  # Trigger oxc workflow with the extracted SHAs
-  trigger-oxc-update:
-    needs: check-and-trigger
-    if: needs.check-and-trigger.outputs.shas_changed == 'true'
-    runs-on: ubuntu-latest
-    permissions:
-      contents: read
-    steps:
       - name: Trigger oxc update_submodules workflow
+        if: steps.check-changes.outputs.shas_changed == 'true'
         uses: benc-uk/workflow-dispatch@e2e5e9a103e331dad343f381a29e654aea3cf8fc # v1.2.4
         with:
           repo: oxc-project/oxc
@@ -113,7 +99,7 @@ jobs:
           ref: main
           inputs: |
             {
-              "test262_sha": "${{ needs.check-and-trigger.outputs.test262_sha }}",
-              "typescript_sha": "${{ needs.check-and-trigger.outputs.typescript_sha }}",
-              "estree_conformance_sha": "${{ needs.check-and-trigger.outputs.estree_conformance_sha }}"
+              "test262_sha": "${{ steps.extract-shas.outputs.test262_sha }}",
+              "typescript_sha": "${{ steps.extract-shas.outputs.typescript_sha }}",
+              "estree_conformance_sha": "${{ steps.get-current-sha.outputs.estree_conformance_sha }}"
             }
