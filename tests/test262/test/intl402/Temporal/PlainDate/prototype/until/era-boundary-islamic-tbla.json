@@ -1266,25 +1266,18 @@
                       },
                       {
                         "type": "Literal",
-                        "value": 0,
-                        "raw": "0",
-                        "start": 1189,
-                        "end": 1190
-                      },
-                      {
-                        "type": "Literal",
                         "value": "108mo  from 5 BH to 5 AH (no year 0)",
                         "raw": "\"108mo  from 5 BH to 5 AH (no year 0)\"",
-                        "start": 1192,
-                        "end": 1230
+                        "start": 1189,
+                        "end": 1227
                       }
                     ],
                     "start": 1174,
-                    "end": 1231
+                    "end": 1228
                   }
                 ],
                 "start": 1099,
-                "end": 1236
+                "end": 1233
               },
               {
                 "type": "ArrayExpression",
@@ -1292,14 +1285,14 @@
                   {
                     "type": "Identifier",
                     "name": "ah5",
-                    "start": 1246,
-                    "end": 1249
+                    "start": 1243,
+                    "end": 1246
                   },
                   {
                     "type": "Identifier",
                     "name": "bh5",
-                    "start": 1251,
-                    "end": 1254
+                    "start": 1248,
+                    "end": 1251
                   },
                   {
                     "type": "ArrayExpression",
@@ -1311,11 +1304,18 @@
                           "type": "Literal",
                           "value": 9,
                           "raw": "9",
-                          "start": 1262,
-                          "end": 1263
+                          "start": 1259,
+                          "end": 1260
                         },
                         "prefix": true,
-                        "start": 1261,
+                        "start": 1258,
+                        "end": 1260
+                      },
+                      {
+                        "type": "Literal",
+                        "value": 0,
+                        "raw": "0",
+                        "start": 1262,
                         "end": 1263
                       },
                       {
@@ -1334,21 +1334,14 @@
                       },
                       {
                         "type": "Literal",
-                        "value": 0,
-                        "raw": "0",
-                        "start": 1271,
-                        "end": 1272
-                      },
-                      {
-                        "type": "Literal",
                         "value": "-9y backwards  from 5 BH to 5 AH (no year 0)",
                         "raw": "\"-9y backwards  from 5 BH to 5 AH (no year 0)\"",
-                        "start": 1274,
-                        "end": 1320
+                        "start": 1271,
+                        "end": 1317
                       }
                     ],
-                    "start": 1260,
-                    "end": 1321
+                    "start": 1257,
+                    "end": 1318
                   },
                   {
                     "type": "ArrayExpression",
@@ -1357,8 +1350,8 @@
                         "type": "Literal",
                         "value": 0,
                         "raw": "0",
-                        "start": 1328,
-                        "end": 1329
+                        "start": 1325,
+                        "end": 1326
                       },
                       {
                         "type": "UnaryExpression",
@@ -1367,11 +1360,18 @@
                           "type": "Literal",
                           "value": 108,
                           "raw": "108",
-                          "start": 1332,
-                          "end": 1335
+                          "start": 1329,
+                          "end": 1332
                         },
                         "prefix": true,
-                        "start": 1331,
+                        "start": 1328,
+                        "end": 1332
+                      },
+                      {
+                        "type": "Literal",
+                        "value": 0,
+                        "raw": "0",
+                        "start": 1334,
                         "end": 1335
                       },
                       {
@@ -1383,32 +1383,18 @@
                       },
                       {
                         "type": "Literal",
-                        "value": 0,
-                        "raw": "0",
-                        "start": 1340,
-                        "end": 1341
-                      },
-                      {
-                        "type": "Literal",
-                        "value": 0,
-                        "raw": "0",
-                        "start": 1343,
-                        "end": 1344
-                      },
-                      {
-                        "type": "Literal",
                         "value": "-108mo backwards  from 5 BH to 5 AH (no year 0)",
                         "raw": "\"-108mo backwards  from 5 BH to 5 AH (no year 0)\"",
-                        "start": 1346,
-                        "end": 1395
+                        "start": 1340,
+                        "end": 1389
                       }
                     ],
-                    "start": 1327,
-                    "end": 1396
+                    "start": 1324,
+                    "end": 1390
                   }
                 ],
-                "start": 1240,
-                "end": 1401
+                "start": 1237,
+                "end": 1395
               },
               {
                 "type": "ArrayExpression",
@@ -1416,14 +1402,14 @@
                   {
                     "type": "Identifier",
                     "name": "bh1",
-                    "start": 1431,
-                    "end": 1434
+                    "start": 1425,
+                    "end": 1428
                   },
                   {
                     "type": "Identifier",
                     "name": "ah1",
-                    "start": 1436,
-                    "end": 1439
+                    "start": 1430,
+                    "end": 1433
                   },
                   {
                     "type": "ArrayExpression",
@@ -1432,6 +1418,20 @@
                         "type": "Literal",
                         "value": 1,
                         "raw": "1",
+                        "start": 1440,
+                        "end": 1441
+                      },
+                      {
+                        "type": "Literal",
+                        "value": 0,
+                        "raw": "0",
+                        "start": 1443,
+                        "end": 1444
+                      },
+                      {
+                        "type": "Literal",
+                        "value": 0,
+                        "raw": "0",
                         "start": 1446,
                         "end": 1447
                       },
@@ -1444,28 +1444,14 @@
                       },
                       {
                         "type": "Literal",
-                        "value": 0,
-                        "raw": "0",
-                        "start": 1452,
-                        "end": 1453
-                      },
-                      {
-                        "type": "Literal",
-                        "value": 0,
-                        "raw": "0",
-                        "start": 1455,
-                        "end": 1456
-                      },
-                      {
-                        "type": "Literal",
                         "value": "1y from 1 BH to 1 AH",
                         "raw": "\"1y from 1 BH to 1 AH\"",
-                        "start": 1458,
-                        "end": 1480
+                        "start": 1452,
+                        "end": 1474
                       }
                     ],
-                    "start": 1445,
-                    "end": 1481
+                    "start": 1439,
+                    "end": 1475
                   },
                   {
                     "type": "ArrayExpression",
@@ -1474,44 +1460,44 @@
                         "type": "Literal",
                         "value": 0,
                         "raw": "0",
-                        "start": 1488,
-                        "end": 1489
+                        "start": 1482,
+                        "end": 1483
                       },
                       {
                         "type": "Literal",
                         "value": 12,
                         "raw": "12",
-                        "start": 1491,
+                        "start": 1485,
+                        "end": 1487
+                      },
+                      {
+                        "type": "Literal",
+                        "value": 0,
+                        "raw": "0",
+                        "start": 1489,
+                        "end": 1490
+                      },
+                      {
+                        "type": "Literal",
+                        "value": 0,
+                        "raw": "0",
+                        "start": 1492,
                         "end": 1493
-                      },
-                      {
-                        "type": "Literal",
-                        "value": 0,
-                        "raw": "0",
-                        "start": 1495,
-                        "end": 1496
-                      },
-                      {
-                        "type": "Literal",
-                        "value": 0,
-                        "raw": "0",
-                        "start": 1498,
-                        "end": 1499
                       },
                       {
                         "type": "Literal",
                         "value": "12mo from 1 BH to 1 AH",
                         "raw": "\"12mo from 1 BH to 1 AH\"",
-                        "start": 1501,
-                        "end": 1525
+                        "start": 1495,
+                        "end": 1519
                       }
                     ],
-                    "start": 1487,
-                    "end": 1526
+                    "start": 1481,
+                    "end": 1520
                   }
                 ],
-                "start": 1425,
-                "end": 1531
+                "start": 1419,
+                "end": 1525
               },
               {
                 "type": "ArrayExpression",
@@ -1519,14 +1505,14 @@
                   {
                     "type": "Identifier",
                     "name": "ah1",
-                    "start": 1541,
-                    "end": 1544
+                    "start": 1535,
+                    "end": 1538
                   },
                   {
                     "type": "Identifier",
                     "name": "bh1",
-                    "start": 1546,
-                    "end": 1549
+                    "start": 1540,
+                    "end": 1543
                   },
                   {
                     "type": "ArrayExpression",
@@ -1538,11 +1524,25 @@
                           "type": "Literal",
                           "value": 1,
                           "raw": "1",
-                          "start": 1557,
-                          "end": 1558
+                          "start": 1551,
+                          "end": 1552
                         },
                         "prefix": true,
-                        "start": 1556,
+                        "start": 1550,
+                        "end": 1552
+                      },
+                      {
+                        "type": "Literal",
+                        "value": 0,
+                        "raw": "0",
+                        "start": 1554,
+                        "end": 1555
+                      },
+                      {
+                        "type": "Literal",
+                        "value": 0,
+                        "raw": "0",
+                        "start": 1557,
                         "end": 1558
                       },
                       {
@@ -1554,28 +1554,14 @@
                       },
                       {
                         "type": "Literal",
-                        "value": 0,
-                        "raw": "0",
-                        "start": 1563,
-                        "end": 1564
-                      },
-                      {
-                        "type": "Literal",
-                        "value": 0,
-                        "raw": "0",
-                        "start": 1566,
-                        "end": 1567
-                      },
-                      {
-                        "type": "Literal",
                         "value": "-1y backwards from 1 BH to 1 AH",
                         "raw": "\"-1y backwards from 1 BH to 1 AH\"",
-                        "start": 1569,
-                        "end": 1602
+                        "start": 1563,
+                        "end": 1596
                       }
                     ],
-                    "start": 1555,
-                    "end": 1603
+                    "start": 1549,
+                    "end": 1597
                   },
                   {
                     "type": "ArrayExpression",
@@ -1584,8 +1570,8 @@
                         "type": "Literal",
                         "value": 0,
                         "raw": "0",
-                        "start": 1610,
-                        "end": 1611
+                        "start": 1604,
+                        "end": 1605
                       },
                       {
                         "type": "UnaryExpression",
@@ -1594,41 +1580,41 @@
                           "type": "Literal",
                           "value": 12,
                           "raw": "12",
-                          "start": 1614,
-                          "end": 1616
+                          "start": 1608,
+                          "end": 1610
                         },
                         "prefix": true,
-                        "start": 1613,
+                        "start": 1607,
+                        "end": 1610
+                      },
+                      {
+                        "type": "Literal",
+                        "value": 0,
+                        "raw": "0",
+                        "start": 1612,
+                        "end": 1613
+                      },
+                      {
+                        "type": "Literal",
+                        "value": 0,
+                        "raw": "0",
+                        "start": 1615,
                         "end": 1616
-                      },
-                      {
-                        "type": "Literal",
-                        "value": 0,
-                        "raw": "0",
-                        "start": 1618,
-                        "end": 1619
-                      },
-                      {
-                        "type": "Literal",
-                        "value": 0,
-                        "raw": "0",
-                        "start": 1621,
-                        "end": 1622
                       },
                       {
                         "type": "Literal",
                         "value": "-12mo backwards from 1 BH to 1 AH",
                         "raw": "\"-12mo backwards from 1 BH to 1 AH\"",
-                        "start": 1624,
-                        "end": 1659
+                        "start": 1618,
+                        "end": 1653
                       }
                     ],
-                    "start": 1609,
-                    "end": 1660
+                    "start": 1603,
+                    "end": 1654
                   }
                 ],
-                "start": 1535,
-                "end": 1665
+                "start": 1529,
+                "end": 1659
               },
               {
                 "type": "ArrayExpression",
@@ -1636,14 +1622,14 @@
                   {
                     "type": "Identifier",
                     "name": "bh2",
-                    "start": 1675,
-                    "end": 1678
+                    "start": 1669,
+                    "end": 1672
                   },
                   {
                     "type": "Identifier",
                     "name": "ah2",
-                    "start": 1680,
-                    "end": 1683
+                    "start": 1674,
+                    "end": 1677
                   },
                   {
                     "type": "ArrayExpression",
@@ -1652,40 +1638,40 @@
                         "type": "Literal",
                         "value": 2,
                         "raw": "2",
-                        "start": 1690,
-                        "end": 1691
+                        "start": 1684,
+                        "end": 1685
                       },
                       {
                         "type": "Literal",
                         "value": 1,
                         "raw": "1",
+                        "start": 1687,
+                        "end": 1688
+                      },
+                      {
+                        "type": "Literal",
+                        "value": 0,
+                        "raw": "0",
+                        "start": 1690,
+                        "end": 1691
+                      },
+                      {
+                        "type": "Literal",
+                        "value": 0,
+                        "raw": "0",
                         "start": 1693,
                         "end": 1694
                       },
                       {
                         "type": "Literal",
-                        "value": 0,
-                        "raw": "0",
-                        "start": 1696,
-                        "end": 1697
-                      },
-                      {
-                        "type": "Literal",
-                        "value": 0,
-                        "raw": "0",
-                        "start": 1699,
-                        "end": 1700
-                      },
-                      {
-                        "type": "Literal",
                         "value": "2y 1mo from 2 BH Dec to 2 AH Jan",
                         "raw": "\"2y 1mo from 2 BH Dec to 2 AH Jan\"",
-                        "start": 1702,
-                        "end": 1736
+                        "start": 1696,
+                        "end": 1730
                       }
                     ],
-                    "start": 1689,
-                    "end": 1737
+                    "start": 1683,
+                    "end": 1731
                   },
                   {
                     "type": "ArrayExpression",
@@ -1694,44 +1680,44 @@
                         "type": "Literal",
                         "value": 0,
                         "raw": "0",
-                        "start": 1744,
-                        "end": 1745
+                        "start": 1738,
+                        "end": 1739
                       },
                       {
                         "type": "Literal",
                         "value": 25,
                         "raw": "25",
-                        "start": 1747,
+                        "start": 1741,
+                        "end": 1743
+                      },
+                      {
+                        "type": "Literal",
+                        "value": 0,
+                        "raw": "0",
+                        "start": 1745,
+                        "end": 1746
+                      },
+                      {
+                        "type": "Literal",
+                        "value": 0,
+                        "raw": "0",
+                        "start": 1748,
                         "end": 1749
-                      },
-                      {
-                        "type": "Literal",
-                        "value": 0,
-                        "raw": "0",
-                        "start": 1751,
-                        "end": 1752
-                      },
-                      {
-                        "type": "Literal",
-                        "value": 0,
-                        "raw": "0",
-                        "start": 1754,
-                        "end": 1755
                       },
                       {
                         "type": "Literal",
                         "value": "25mo from 2 BH Dec to 2 AH Jan",
                         "raw": "\"25mo from 2 BH Dec to 2 AH Jan\"",
-                        "start": 1757,
-                        "end": 1789
+                        "start": 1751,
+                        "end": 1783
                       }
                     ],
-                    "start": 1743,
-                    "end": 1790
+                    "start": 1737,
+                    "end": 1784
                   }
                 ],
-                "start": 1669,
-                "end": 1795
+                "start": 1663,
+                "end": 1789
               },
               {
                 "type": "ArrayExpression",
@@ -1739,14 +1725,14 @@
                   {
                     "type": "Identifier",
                     "name": "ah2",
-                    "start": 1805,
-                    "end": 1808
+                    "start": 1799,
+                    "end": 1802
                   },
                   {
                     "type": "Identifier",
                     "name": "bh2",
-                    "start": 1810,
-                    "end": 1813
+                    "start": 1804,
+                    "end": 1807
                   },
                   {
                     "type": "ArrayExpression",
@@ -1758,12 +1744,12 @@
                           "type": "Literal",
                           "value": 2,
                           "raw": "2",
-                          "start": 1821,
-                          "end": 1822
+                          "start": 1815,
+                          "end": 1816
                         },
                         "prefix": true,
-                        "start": 1820,
-                        "end": 1822
+                        "start": 1814,
+                        "end": 1816
                       },
                       {
                         "type": "UnaryExpression",
@@ -1772,37 +1758,37 @@
                           "type": "Literal",
                           "value": 1,
                           "raw": "1",
-                          "start": 1825,
-                          "end": 1826
+                          "start": 1819,
+                          "end": 1820
                         },
                         "prefix": true,
-                        "start": 1824,
+                        "start": 1818,
+                        "end": 1820
+                      },
+                      {
+                        "type": "Literal",
+                        "value": 0,
+                        "raw": "0",
+                        "start": 1822,
+                        "end": 1823
+                      },
+                      {
+                        "type": "Literal",
+                        "value": 0,
+                        "raw": "0",
+                        "start": 1825,
                         "end": 1826
-                      },
-                      {
-                        "type": "Literal",
-                        "value": 0,
-                        "raw": "0",
-                        "start": 1828,
-                        "end": 1829
-                      },
-                      {
-                        "type": "Literal",
-                        "value": 0,
-                        "raw": "0",
-                        "start": 1831,
-                        "end": 1832
                       },
                       {
                         "type": "Literal",
                         "value": "-2y -1mo backwards from 2 BH Dec to 2 AH Jan",
                         "raw": "\"-2y -1mo backwards from 2 BH Dec to 2 AH Jan\"",
-                        "start": 1834,
-                        "end": 1880
+                        "start": 1828,
+                        "end": 1874
                       }
                     ],
-                    "start": 1819,
-                    "end": 1881
+                    "start": 1813,
+                    "end": 1875
                   },
                   {
                     "type": "ArrayExpression",
@@ -1811,8 +1797,8 @@
                         "type": "Literal",
                         "value": 0,
                         "raw": "0",
-                        "start": 1888,
-                        "end": 1889
+                        "start": 1882,
+                        "end": 1883
                       },
                       {
                         "type": "UnaryExpression",
@@ -1821,52 +1807,52 @@
                           "type": "Literal",
                           "value": 25,
                           "raw": "25",
-                          "start": 1892,
-                          "end": 1894
+                          "start": 1886,
+                          "end": 1888
                         },
                         "prefix": true,
-                        "start": 1891,
+                        "start": 1885,
+                        "end": 1888
+                      },
+                      {
+                        "type": "Literal",
+                        "value": 0,
+                        "raw": "0",
+                        "start": 1890,
+                        "end": 1891
+                      },
+                      {
+                        "type": "Literal",
+                        "value": 0,
+                        "raw": "0",
+                        "start": 1893,
                         "end": 1894
-                      },
-                      {
-                        "type": "Literal",
-                        "value": 0,
-                        "raw": "0",
-                        "start": 1896,
-                        "end": 1897
-                      },
-                      {
-                        "type": "Literal",
-                        "value": 0,
-                        "raw": "0",
-                        "start": 1899,
-                        "end": 1900
                       },
                       {
                         "type": "Literal",
                         "value": "-25mo backwards from 2 BH Dec to 2 AH Jan",
                         "raw": "\"-25mo backwards from 2 BH Dec to 2 AH Jan\"",
-                        "start": 1902,
-                        "end": 1945
+                        "start": 1896,
+                        "end": 1939
                       }
                     ],
-                    "start": 1887,
-                    "end": 1946
+                    "start": 1881,
+                    "end": 1940
                   }
                 ],
-                "start": 1799,
-                "end": 1951
+                "start": 1793,
+                "end": 1945
               }
             ],
             "start": 1072,
-            "end": 1954
+            "end": 1948
           },
           "start": 1064,
-          "end": 1954
+          "end": 1948
         }
       ],
       "start": 1058,
-      "end": 1955
+      "end": 1949
     },
     {
       "type": "ForOfStatement",
@@ -1883,44 +1869,44 @@
                 {
                   "type": "Identifier",
                   "name": "one",
-                  "start": 1969,
-                  "end": 1972
+                  "start": 1963,
+                  "end": 1966
                 },
                 {
                   "type": "Identifier",
                   "name": "two",
-                  "start": 1974,
-                  "end": 1977
+                  "start": 1968,
+                  "end": 1971
                 },
                 {
                   "type": "Identifier",
                   "name": "yearsTest",
-                  "start": 1979,
-                  "end": 1988
+                  "start": 1973,
+                  "end": 1982
                 },
                 {
                   "type": "Identifier",
                   "name": "monthsTest",
-                  "start": 1990,
-                  "end": 2000
+                  "start": 1984,
+                  "end": 1994
                 }
               ],
-              "start": 1968,
-              "end": 2001
+              "start": 1962,
+              "end": 1995
             },
             "init": null,
-            "start": 1968,
-            "end": 2001
+            "start": 1962,
+            "end": 1995
           }
         ],
-        "start": 1962,
-        "end": 2001
+        "start": 1956,
+        "end": 1995
       },
       "right": {
         "type": "Identifier",
         "name": "tests",
-        "start": 2005,
-        "end": 2010
+        "start": 1999,
+        "end": 2004
       },
       "body": {
         "type": "BlockStatement",
@@ -1937,49 +1923,49 @@
                     {
                       "type": "Identifier",
                       "name": "years",
-                      "start": 2021,
-                      "end": 2026
+                      "start": 2015,
+                      "end": 2020
                     },
                     {
                       "type": "Identifier",
                       "name": "months",
-                      "start": 2028,
-                      "end": 2034
+                      "start": 2022,
+                      "end": 2028
                     },
                     {
                       "type": "Identifier",
                       "name": "weeks",
-                      "start": 2036,
-                      "end": 2041
+                      "start": 2030,
+                      "end": 2035
                     },
                     {
                       "type": "Identifier",
                       "name": "days",
-                      "start": 2043,
-                      "end": 2047
+                      "start": 2037,
+                      "end": 2041
                     },
                     {
                       "type": "Identifier",
                       "name": "descr",
-                      "start": 2049,
-                      "end": 2054
+                      "start": 2043,
+                      "end": 2048
                     }
                   ],
-                  "start": 2020,
-                  "end": 2055
+                  "start": 2014,
+                  "end": 2049
                 },
                 "init": {
                   "type": "Identifier",
                   "name": "yearsTest",
-                  "start": 2058,
-                  "end": 2067
+                  "start": 2052,
+                  "end": 2061
                 },
-                "start": 2020,
-                "end": 2067
+                "start": 2014,
+                "end": 2061
               }
             ],
-            "start": 2016,
-            "end": 2068
+            "start": 2010,
+            "end": 2062
           },
           {
             "type": "VariableDeclaration",
@@ -1990,8 +1976,8 @@
                 "id": {
                   "type": "Identifier",
                   "name": "result",
-                  "start": 2075,
-                  "end": 2081
+                  "start": 2069,
+                  "end": 2075
                 },
                 "init": {
                   "type": "CallExpression",
@@ -2000,26 +1986,26 @@
                     "object": {
                       "type": "Identifier",
                       "name": "one",
-                      "start": 2084,
-                      "end": 2087
+                      "start": 2078,
+                      "end": 2081
                     },
                     "property": {
                       "type": "Identifier",
                       "name": "until",
-                      "start": 2088,
-                      "end": 2093
+                      "start": 2082,
+                      "end": 2087
                     },
                     "optional": false,
                     "computed": false,
-                    "start": 2084,
-                    "end": 2093
+                    "start": 2078,
+                    "end": 2087
                   },
                   "arguments": [
                     {
                       "type": "Identifier",
                       "name": "two",
-                      "start": 2094,
-                      "end": 2097
+                      "start": 2088,
+                      "end": 2091
                     },
                     {
                       "type": "ObjectExpression",
@@ -2030,37 +2016,37 @@
                           "key": {
                             "type": "Identifier",
                             "name": "largestUnit",
-                            "start": 2101,
-                            "end": 2112
+                            "start": 2095,
+                            "end": 2106
                           },
                           "value": {
                             "type": "Literal",
                             "value": "years",
                             "raw": "\"years\"",
-                            "start": 2114,
-                            "end": 2121
+                            "start": 2108,
+                            "end": 2115
                           },
                           "method": false,
                           "shorthand": false,
                           "computed": false,
-                          "start": 2101,
-                          "end": 2121
+                          "start": 2095,
+                          "end": 2115
                         }
                       ],
-                      "start": 2099,
-                      "end": 2123
+                      "start": 2093,
+                      "end": 2117
                     }
                   ],
                   "optional": false,
-                  "start": 2084,
-                  "end": 2124
+                  "start": 2078,
+                  "end": 2118
                 },
-                "start": 2075,
-                "end": 2124
+                "start": 2069,
+                "end": 2118
               }
             ],
-            "start": 2071,
-            "end": 2125
+            "start": 2065,
+            "end": 2119
           },
           {
             "type": "ExpressionStatement",
@@ -2071,49 +2057,63 @@
                 "object": {
                   "type": "Identifier",
                   "name": "TemporalHelpers",
-                  "start": 2128,
-                  "end": 2143
+                  "start": 2122,
+                  "end": 2137
                 },
                 "property": {
                   "type": "Identifier",
                   "name": "assertDuration",
-                  "start": 2144,
-                  "end": 2158
+                  "start": 2138,
+                  "end": 2152
                 },
                 "optional": false,
                 "computed": false,
-                "start": 2128,
-                "end": 2158
+                "start": 2122,
+                "end": 2152
               },
               "arguments": [
                 {
                   "type": "Identifier",
                   "name": "result",
-                  "start": 2159,
-                  "end": 2165
+                  "start": 2153,
+                  "end": 2159
                 },
                 {
                   "type": "Identifier",
                   "name": "years",
-                  "start": 2167,
-                  "end": 2172
+                  "start": 2161,
+                  "end": 2166
                 },
                 {
                   "type": "Identifier",
                   "name": "months",
-                  "start": 2174,
-                  "end": 2180
+                  "start": 2168,
+                  "end": 2174
                 },
                 {
                   "type": "Identifier",
                   "name": "weeks",
-                  "start": 2182,
-                  "end": 2187
+                  "start": 2176,
+                  "end": 2181
                 },
                 {
                   "type": "Identifier",
                   "name": "days",
+                  "start": 2183,
+                  "end": 2187
+                },
+                {
+                  "type": "Literal",
+                  "value": 0,
+                  "raw": "0",
                   "start": 2189,
+                  "end": 2190
+                },
+                {
+                  "type": "Literal",
+                  "value": 0,
+                  "raw": "0",
+                  "start": 2192,
                   "end": 2193
                 },
                 {
@@ -2145,32 +2145,18 @@
                   "end": 2205
                 },
                 {
-                  "type": "Literal",
-                  "value": 0,
-                  "raw": "0",
-                  "start": 2207,
-                  "end": 2208
-                },
-                {
-                  "type": "Literal",
-                  "value": 0,
-                  "raw": "0",
-                  "start": 2210,
-                  "end": 2211
-                },
-                {
                   "type": "Identifier",
                   "name": "descr",
-                  "start": 2213,
-                  "end": 2218
+                  "start": 2207,
+                  "end": 2212
                 }
               ],
               "optional": false,
-              "start": 2128,
-              "end": 2219
+              "start": 2122,
+              "end": 2213
             },
-            "start": 2128,
-            "end": 2220
+            "start": 2122,
+            "end": 2214
           },
           {
             "type": "ExpressionStatement",
@@ -2183,48 +2169,48 @@
                   {
                     "type": "Identifier",
                     "name": "years",
-                    "start": 2225,
-                    "end": 2230
+                    "start": 2219,
+                    "end": 2224
                   },
                   {
                     "type": "Identifier",
                     "name": "months",
-                    "start": 2232,
-                    "end": 2238
+                    "start": 2226,
+                    "end": 2232
                   },
                   {
                     "type": "Identifier",
                     "name": "weeks",
-                    "start": 2240,
-                    "end": 2245
+                    "start": 2234,
+                    "end": 2239
                   },
                   {
                     "type": "Identifier",
                     "name": "days",
-                    "start": 2247,
-                    "end": 2251
+                    "start": 2241,
+                    "end": 2245
                   },
                   {
                     "type": "Identifier",
                     "name": "descr",
-                    "start": 2253,
-                    "end": 2258
+                    "start": 2247,
+                    "end": 2252
                   }
                 ],
-                "start": 2224,
-                "end": 2259
+                "start": 2218,
+                "end": 2253
               },
               "right": {
                 "type": "Identifier",
                 "name": "monthsTest",
-                "start": 2262,
-                "end": 2272
+                "start": 2256,
+                "end": 2266
               },
-              "start": 2224,
-              "end": 2272
+              "start": 2218,
+              "end": 2266
             },
-            "start": 2224,
-            "end": 2273
+            "start": 2218,
+            "end": 2267
           },
           {
             "type": "ExpressionStatement",
@@ -2234,8 +2220,8 @@
               "left": {
                 "type": "Identifier",
                 "name": "result",
-                "start": 2276,
-                "end": 2282
+                "start": 2270,
+                "end": 2276
               },
               "right": {
                 "type": "CallExpression",
@@ -2244,26 +2230,26 @@
                   "object": {
                     "type": "Identifier",
                     "name": "one",
-                    "start": 2285,
-                    "end": 2288
+                    "start": 2279,
+                    "end": 2282
                   },
                   "property": {
                     "type": "Identifier",
                     "name": "until",
-                    "start": 2289,
-                    "end": 2294
+                    "start": 2283,
+                    "end": 2288
                   },
                   "optional": false,
                   "computed": false,
-                  "start": 2285,
-                  "end": 2294
+                  "start": 2279,
+                  "end": 2288
                 },
                 "arguments": [
                   {
                     "type": "Identifier",
                     "name": "two",
-                    "start": 2295,
-                    "end": 2298
+                    "start": 2289,
+                    "end": 2292
                   },
                   {
                     "type": "ObjectExpression",
@@ -2274,36 +2260,36 @@
                         "key": {
                           "type": "Identifier",
                           "name": "largestUnit",
-                          "start": 2302,
-                          "end": 2313
+                          "start": 2296,
+                          "end": 2307
                         },
                         "value": {
                           "type": "Literal",
                           "value": "months",
                           "raw": "\"months\"",
-                          "start": 2315,
-                          "end": 2323
+                          "start": 2309,
+                          "end": 2317
                         },
                         "method": false,
                         "shorthand": false,
                         "computed": false,
-                        "start": 2302,
-                        "end": 2323
+                        "start": 2296,
+                        "end": 2317
                       }
                     ],
-                    "start": 2300,
-                    "end": 2325
+                    "start": 2294,
+                    "end": 2319
                   }
                 ],
                 "optional": false,
-                "start": 2285,
-                "end": 2326
+                "start": 2279,
+                "end": 2320
               },
-              "start": 2276,
-              "end": 2326
+              "start": 2270,
+              "end": 2320
             },
-            "start": 2276,
-            "end": 2327
+            "start": 2270,
+            "end": 2321
           },
           {
             "type": "ExpressionStatement",
@@ -2314,49 +2300,63 @@
                 "object": {
                   "type": "Identifier",
                   "name": "TemporalHelpers",
-                  "start": 2330,
-                  "end": 2345
+                  "start": 2324,
+                  "end": 2339
                 },
                 "property": {
                   "type": "Identifier",
                   "name": "assertDuration",
-                  "start": 2346,
-                  "end": 2360
+                  "start": 2340,
+                  "end": 2354
                 },
                 "optional": false,
                 "computed": false,
-                "start": 2330,
-                "end": 2360
+                "start": 2324,
+                "end": 2354
               },
               "arguments": [
                 {
                   "type": "Identifier",
                   "name": "result",
-                  "start": 2361,
-                  "end": 2367
+                  "start": 2355,
+                  "end": 2361
                 },
                 {
                   "type": "Identifier",
                   "name": "years",
-                  "start": 2369,
-                  "end": 2374
+                  "start": 2363,
+                  "end": 2368
                 },
                 {
                   "type": "Identifier",
                   "name": "months",
-                  "start": 2376,
-                  "end": 2382
+                  "start": 2370,
+                  "end": 2376
                 },
                 {
                   "type": "Identifier",
                   "name": "weeks",
-                  "start": 2384,
-                  "end": 2389
+                  "start": 2378,
+                  "end": 2383
                 },
                 {
                   "type": "Identifier",
                   "name": "days",
+                  "start": 2385,
+                  "end": 2389
+                },
+                {
+                  "type": "Literal",
+                  "value": 0,
+                  "raw": "0",
                   "start": 2391,
+                  "end": 2392
+                },
+                {
+                  "type": "Literal",
+                  "value": 0,
+                  "raw": "0",
+                  "start": 2394,
                   "end": 2395
                 },
                 {
@@ -2388,32 +2388,18 @@
                   "end": 2407
                 },
                 {
-                  "type": "Literal",
-                  "value": 0,
-                  "raw": "0",
-                  "start": 2409,
-                  "end": 2410
-                },
-                {
-                  "type": "Literal",
-                  "value": 0,
-                  "raw": "0",
-                  "start": 2412,
-                  "end": 2413
-                },
-                {
                   "type": "Identifier",
                   "name": "descr",
-                  "start": 2415,
-                  "end": 2420
+                  "start": 2409,
+                  "end": 2414
                 }
               ],
               "optional": false,
-              "start": 2330,
-              "end": 2421
+              "start": 2324,
+              "end": 2415
             },
-            "start": 2330,
-            "end": 2422
+            "start": 2324,
+            "end": 2416
           },
           {
             "type": "VariableDeclaration",
@@ -2424,8 +2410,8 @@
                 "id": {
                   "type": "Identifier",
                   "name": "oneISO",
-                  "start": 2432,
-                  "end": 2438
+                  "start": 2426,
+                  "end": 2432
                 },
                 "init": {
                   "type": "CallExpression",
@@ -2434,39 +2420,39 @@
                     "object": {
                       "type": "Identifier",
                       "name": "one",
-                      "start": 2441,
-                      "end": 2444
+                      "start": 2435,
+                      "end": 2438
                     },
                     "property": {
                       "type": "Identifier",
                       "name": "withCalendar",
-                      "start": 2445,
-                      "end": 2457
+                      "start": 2439,
+                      "end": 2451
                     },
                     "optional": false,
                     "computed": false,
-                    "start": 2441,
-                    "end": 2457
+                    "start": 2435,
+                    "end": 2451
                   },
                   "arguments": [
                     {
                       "type": "Literal",
                       "value": "iso8601",
                       "raw": "\"iso8601\"",
-                      "start": 2458,
-                      "end": 2467
+                      "start": 2452,
+                      "end": 2461
                     }
                   ],
                   "optional": false,
-                  "start": 2441,
-                  "end": 2468
+                  "start": 2435,
+                  "end": 2462
                 },
-                "start": 2432,
-                "end": 2468
+                "start": 2426,
+                "end": 2462
               }
             ],
-            "start": 2426,
-            "end": 2469
+            "start": 2420,
+            "end": 2463
           },
           {
             "type": "VariableDeclaration",
@@ -2477,8 +2463,8 @@
                 "id": {
                   "type": "Identifier",
                   "name": "twoISO",
-                  "start": 2478,
-                  "end": 2484
+                  "start": 2472,
+                  "end": 2478
                 },
                 "init": {
                   "type": "CallExpression",
@@ -2487,39 +2473,39 @@
                     "object": {
                       "type": "Identifier",
                       "name": "two",
-                      "start": 2487,
-                      "end": 2490
+                      "start": 2481,
+                      "end": 2484
                     },
                     "property": {
                       "type": "Identifier",
                       "name": "withCalendar",
-                      "start": 2491,
-                      "end": 2503
+                      "start": 2485,
+                      "end": 2497
                     },
                     "optional": false,
                     "computed": false,
-                    "start": 2487,
-                    "end": 2503
+                    "start": 2481,
+                    "end": 2497
                   },
                   "arguments": [
                     {
                       "type": "Literal",
                       "value": "iso8601",
                       "raw": "\"iso8601\"",
-                      "start": 2504,
-                      "end": 2513
+                      "start": 2498,
+                      "end": 2507
                     }
                   ],
                   "optional": false,
-                  "start": 2487,
-                  "end": 2514
+                  "start": 2481,
+                  "end": 2508
                 },
-                "start": 2478,
-                "end": 2514
+                "start": 2472,
+                "end": 2508
               }
             ],
-            "start": 2472,
-            "end": 2515
+            "start": 2466,
+            "end": 2509
           },
           {
             "type": "VariableDeclaration",
@@ -2530,8 +2516,8 @@
                 "id": {
                   "type": "Identifier",
                   "name": "resultWeeks",
-                  "start": 2525,
-                  "end": 2536
+                  "start": 2519,
+                  "end": 2530
                 },
                 "init": {
                   "type": "CallExpression",
@@ -2540,26 +2526,26 @@
                     "object": {
                       "type": "Identifier",
                       "name": "one",
-                      "start": 2539,
-                      "end": 2542
+                      "start": 2533,
+                      "end": 2536
                     },
                     "property": {
                       "type": "Identifier",
                       "name": "until",
-                      "start": 2543,
-                      "end": 2548
+                      "start": 2537,
+                      "end": 2542
                     },
                     "optional": false,
                     "computed": false,
-                    "start": 2539,
-                    "end": 2548
+                    "start": 2533,
+                    "end": 2542
                   },
                   "arguments": [
                     {
                       "type": "Identifier",
                       "name": "two",
-                      "start": 2549,
-                      "end": 2552
+                      "start": 2543,
+                      "end": 2546
                     },
                     {
                       "type": "ObjectExpression",
@@ -2570,37 +2556,37 @@
                           "key": {
                             "type": "Identifier",
                             "name": "largestUnit",
-                            "start": 2556,
-                            "end": 2567
+                            "start": 2550,
+                            "end": 2561
                           },
                           "value": {
                             "type": "Literal",
                             "value": "weeks",
                             "raw": "\"weeks\"",
-                            "start": 2569,
-                            "end": 2576
+                            "start": 2563,
+                            "end": 2570
                           },
                           "method": false,
                           "shorthand": false,
                           "computed": false,
-                          "start": 2556,
-                          "end": 2576
+                          "start": 2550,
+                          "end": 2570
                         }
                       ],
-                      "start": 2554,
-                      "end": 2578
+                      "start": 2548,
+                      "end": 2572
                     }
                   ],
                   "optional": false,
-                  "start": 2539,
-                  "end": 2579
+                  "start": 2533,
+                  "end": 2573
                 },
-                "start": 2525,
-                "end": 2579
+                "start": 2519,
+                "end": 2573
               }
             ],
-            "start": 2519,
-            "end": 2580
+            "start": 2513,
+            "end": 2574
           },
           {
             "type": "VariableDeclaration",
@@ -2611,8 +2597,8 @@
                 "id": {
                   "type": "Identifier",
                   "name": "resultWeeksISO",
-                  "start": 2589,
-                  "end": 2603
+                  "start": 2583,
+                  "end": 2597
                 },
                 "init": {
                   "type": "CallExpression",
@@ -2621,26 +2607,26 @@
                     "object": {
                       "type": "Identifier",
                       "name": "oneISO",
-                      "start": 2606,
-                      "end": 2612
+                      "start": 2600,
+                      "end": 2606
                     },
                     "property": {
                       "type": "Identifier",
                       "name": "until",
-                      "start": 2613,
-                      "end": 2618
+                      "start": 2607,
+                      "end": 2612
                     },
                     "optional": false,
                     "computed": false,
-                    "start": 2606,
-                    "end": 2618
+                    "start": 2600,
+                    "end": 2612
                   },
                   "arguments": [
                     {
                       "type": "Identifier",
                       "name": "twoISO",
-                      "start": 2619,
-                      "end": 2625
+                      "start": 2613,
+                      "end": 2619
                     },
                     {
                       "type": "ObjectExpression",
@@ -2651,37 +2637,37 @@
                           "key": {
                             "type": "Identifier",
                             "name": "largestUnit",
-                            "start": 2629,
-                            "end": 2640
+                            "start": 2623,
+                            "end": 2634
                           },
                           "value": {
                             "type": "Literal",
                             "value": "weeks",
                             "raw": "\"weeks\"",
-                            "start": 2642,
-                            "end": 2649
+                            "start": 2636,
+                            "end": 2643
                           },
                           "method": false,
                           "shorthand": false,
                           "computed": false,
-                          "start": 2629,
-                          "end": 2649
+                          "start": 2623,
+                          "end": 2643
                         }
                       ],
-                      "start": 2627,
-                      "end": 2651
+                      "start": 2621,
+                      "end": 2645
                     }
                   ],
                   "optional": false,
-                  "start": 2606,
-                  "end": 2652
+                  "start": 2600,
+                  "end": 2646
                 },
-                "start": 2589,
-                "end": 2652
+                "start": 2583,
+                "end": 2646
               }
             ],
-            "start": 2583,
-            "end": 2653
+            "start": 2577,
+            "end": 2647
           },
           {
             "type": "ExpressionStatement",
@@ -2692,32 +2678,32 @@
                 "object": {
                   "type": "Identifier",
                   "name": "TemporalHelpers",
-                  "start": 2656,
-                  "end": 2671
+                  "start": 2650,
+                  "end": 2665
                 },
                 "property": {
                   "type": "Identifier",
                   "name": "assertDurationsEqual",
-                  "start": 2672,
-                  "end": 2692
+                  "start": 2666,
+                  "end": 2686
                 },
                 "optional": false,
                 "computed": false,
-                "start": 2656,
-                "end": 2692
+                "start": 2650,
+                "end": 2686
               },
               "arguments": [
                 {
                   "type": "Identifier",
                   "name": "resultWeeks",
-                  "start": 2693,
-                  "end": 2704
+                  "start": 2687,
+                  "end": 2698
                 },
                 {
                   "type": "Identifier",
                   "name": "resultWeeksISO",
-                  "start": 2706,
-                  "end": 2720
+                  "start": 2700,
+                  "end": 2714
                 },
                 {
                   "type": "TemplateLiteral",
@@ -2729,8 +2715,8 @@
                         "cooked": ""
                       },
                       "tail": false,
-                      "start": 2727,
-                      "end": 2727
+                      "start": 2721,
+                      "end": 2721
                     },
                     {
                       "type": "TemplateElement",
@@ -2739,8 +2725,8 @@
                         "cooked": "-"
                       },
                       "tail": false,
-                      "start": 2738,
-                      "end": 2739
+                      "start": 2732,
+                      "end": 2733
                     },
                     {
                       "type": "TemplateElement",
@@ -2749,8 +2735,8 @@
                         "cooked": "-"
                       },
                       "tail": false,
-                      "start": 2755,
-                      "end": 2756
+                      "start": 2749,
+                      "end": 2750
                     },
                     {
                       "type": "TemplateElement",
@@ -2759,8 +2745,8 @@
                         "cooked": " : "
                       },
                       "tail": false,
-                      "start": 2766,
-                      "end": 2769
+                      "start": 2760,
+                      "end": 2763
                     },
                     {
                       "type": "TemplateElement",
@@ -2769,8 +2755,8 @@
                         "cooked": "-"
                       },
                       "tail": false,
-                      "start": 2780,
-                      "end": 2781
+                      "start": 2774,
+                      "end": 2775
                     },
                     {
                       "type": "TemplateElement",
@@ -2779,8 +2765,8 @@
                         "cooked": "-"
                       },
                       "tail": false,
-                      "start": 2797,
-                      "end": 2798
+                      "start": 2791,
+                      "end": 2792
                     },
                     {
                       "type": "TemplateElement",
@@ -2789,8 +2775,8 @@
                         "cooked": " largestUnit weeks"
                       },
                       "tail": true,
-                      "start": 2808,
-                      "end": 2826
+                      "start": 2802,
+                      "end": 2820
                     }
                   ],
                   "expressions": [
@@ -2799,126 +2785,126 @@
                       "object": {
                         "type": "Identifier",
                         "name": "one",
-                        "start": 2729,
-                        "end": 2732
+                        "start": 2723,
+                        "end": 2726
                       },
                       "property": {
                         "type": "Identifier",
                         "name": "year",
-                        "start": 2733,
-                        "end": 2737
+                        "start": 2727,
+                        "end": 2731
                       },
                       "optional": false,
                       "computed": false,
-                      "start": 2729,
-                      "end": 2737
+                      "start": 2723,
+                      "end": 2731
                     },
                     {
                       "type": "MemberExpression",
                       "object": {
                         "type": "Identifier",
                         "name": "one",
-                        "start": 2741,
-                        "end": 2744
+                        "start": 2735,
+                        "end": 2738
                       },
                       "property": {
                         "type": "Identifier",
                         "name": "monthCode",
-                        "start": 2745,
-                        "end": 2754
+                        "start": 2739,
+                        "end": 2748
                       },
                       "optional": false,
                       "computed": false,
-                      "start": 2741,
-                      "end": 2754
+                      "start": 2735,
+                      "end": 2748
                     },
                     {
                       "type": "MemberExpression",
                       "object": {
                         "type": "Identifier",
                         "name": "one",
-                        "start": 2758,
-                        "end": 2761
+                        "start": 2752,
+                        "end": 2755
                       },
                       "property": {
                         "type": "Identifier",
                         "name": "day",
-                        "start": 2762,
-                        "end": 2765
+                        "start": 2756,
+                        "end": 2759
                       },
                       "optional": false,
                       "computed": false,
-                      "start": 2758,
-                      "end": 2765
+                      "start": 2752,
+                      "end": 2759
                     },
                     {
                       "type": "MemberExpression",
                       "object": {
                         "type": "Identifier",
                         "name": "two",
-                        "start": 2771,
-                        "end": 2774
+                        "start": 2765,
+                        "end": 2768
                       },
                       "property": {
                         "type": "Identifier",
                         "name": "year",
-                        "start": 2775,
-                        "end": 2779
+                        "start": 2769,
+                        "end": 2773
                       },
                       "optional": false,
                       "computed": false,
-                      "start": 2771,
-                      "end": 2779
+                      "start": 2765,
+                      "end": 2773
                     },
                     {
                       "type": "MemberExpression",
                       "object": {
                         "type": "Identifier",
                         "name": "two",
-                        "start": 2783,
-                        "end": 2786
+                        "start": 2777,
+                        "end": 2780
                       },
                       "property": {
                         "type": "Identifier",
                         "name": "monthCode",
-                        "start": 2787,
-                        "end": 2796
+                        "start": 2781,
+                        "end": 2790
                       },
                       "optional": false,
                       "computed": false,
-                      "start": 2783,
-                      "end": 2796
+                      "start": 2777,
+                      "end": 2790
                     },
                     {
                       "type": "MemberExpression",
                       "object": {
                         "type": "Identifier",
                         "name": "two",
-                        "start": 2800,
-                        "end": 2803
+                        "start": 2794,
+                        "end": 2797
                       },
                       "property": {
                         "type": "Identifier",
                         "name": "day",
-                        "start": 2804,
-                        "end": 2807
+                        "start": 2798,
+                        "end": 2801
                       },
                       "optional": false,
                       "computed": false,
-                      "start": 2800,
-                      "end": 2807
+                      "start": 2794,
+                      "end": 2801
                     }
                   ],
-                  "start": 2726,
-                  "end": 2827
+                  "start": 2720,
+                  "end": 2821
                 }
               ],
               "optional": false,
-              "start": 2656,
-              "end": 2828
+              "start": 2650,
+              "end": 2822
             },
-            "start": 2656,
-            "end": 2829
+            "start": 2650,
+            "end": 2823
           },
           {
             "type": "VariableDeclaration",
@@ -2929,8 +2915,8 @@
                 "id": {
                   "type": "Identifier",
                   "name": "resultDays",
-                  "start": 2839,
-                  "end": 2849
+                  "start": 2833,
+                  "end": 2843
                 },
                 "init": {
                   "type": "CallExpression",
@@ -2939,38 +2925,38 @@
                     "object": {
                       "type": "Identifier",
                       "name": "one",
-                      "start": 2852,
-                      "end": 2855
+                      "start": 2846,
+                      "end": 2849
                     },
                     "property": {
                       "type": "Identifier",
                       "name": "until",
-                      "start": 2856,
-                      "end": 2861
+                      "start": 2850,
+                      "end": 2855
                     },
                     "optional": false,
                     "computed": false,
-                    "start": 2852,
-                    "end": 2861
+                    "start": 2846,
+                    "end": 2855
                   },
                   "arguments": [
                     {
                       "type": "Identifier",
                       "name": "two",
-                      "start": 2862,
-                      "end": 2865
+                      "start": 2856,
+                      "end": 2859
                     }
                   ],
                   "optional": false,
-                  "start": 2852,
-                  "end": 2866
+                  "start": 2846,
+                  "end": 2860
                 },
-                "start": 2839,
-                "end": 2866
+                "start": 2833,
+                "end": 2860
               }
             ],
-            "start": 2833,
-            "end": 2867
+            "start": 2827,
+            "end": 2861
           },
           {
             "type": "VariableDeclaration",
@@ -2981,8 +2967,8 @@
                 "id": {
                   "type": "Identifier",
                   "name": "resultDaysISO",
-                  "start": 2876,
-                  "end": 2889
+                  "start": 2870,
+                  "end": 2883
                 },
                 "init": {
                   "type": "CallExpression",
@@ -2991,38 +2977,38 @@
                     "object": {
                       "type": "Identifier",
                       "name": "oneISO",
-                      "start": 2892,
-                      "end": 2898
+                      "start": 2886,
+                      "end": 2892
                     },
                     "property": {
                       "type": "Identifier",
                       "name": "until",
-                      "start": 2899,
-                      "end": 2904
+                      "start": 2893,
+                      "end": 2898
                     },
                     "optional": false,
                     "computed": false,
-                    "start": 2892,
-                    "end": 2904
+                    "start": 2886,
+                    "end": 2898
                   },
                   "arguments": [
                     {
                       "type": "Identifier",
                       "name": "twoISO",
-                      "start": 2905,
-                      "end": 2911
+                      "start": 2899,
+                      "end": 2905
                     }
                   ],
                   "optional": false,
-                  "start": 2892,
-                  "end": 2912
+                  "start": 2886,
+                  "end": 2906
                 },
-                "start": 2876,
-                "end": 2912
+                "start": 2870,
+                "end": 2906
               }
             ],
-            "start": 2870,
-            "end": 2913
+            "start": 2864,
+            "end": 2907
           },
           {
             "type": "ExpressionStatement",
@@ -3033,32 +3019,32 @@
                 "object": {
                   "type": "Identifier",
                   "name": "TemporalHelpers",
-                  "start": 2916,
-                  "end": 2931
+                  "start": 2910,
+                  "end": 2925
                 },
                 "property": {
                   "type": "Identifier",
                   "name": "assertDurationsEqual",
-                  "start": 2932,
-                  "end": 2952
+                  "start": 2926,
+                  "end": 2946
                 },
                 "optional": false,
                 "computed": false,
-                "start": 2916,
-                "end": 2952
+                "start": 2910,
+                "end": 2946
               },
               "arguments": [
                 {
                   "type": "Identifier",
                   "name": "resultDays",
-                  "start": 2953,
-                  "end": 2963
+                  "start": 2947,
+                  "end": 2957
                 },
                 {
                   "type": "Identifier",
                   "name": "resultDaysISO",
-                  "start": 2965,
-                  "end": 2978
+                  "start": 2959,
+                  "end": 2972
                 },
                 {
                   "type": "TemplateLiteral",
@@ -3070,8 +3056,8 @@
                         "cooked": ""
                       },
                       "tail": false,
-                      "start": 2985,
-                      "end": 2985
+                      "start": 2979,
+                      "end": 2979
                     },
                     {
                       "type": "TemplateElement",
@@ -3080,8 +3066,8 @@
                         "cooked": "-"
                       },
                       "tail": false,
-                      "start": 2996,
-                      "end": 2997
+                      "start": 2990,
+                      "end": 2991
                     },
                     {
                       "type": "TemplateElement",
@@ -3090,8 +3076,8 @@
                         "cooked": "-"
                       },
                       "tail": false,
-                      "start": 3013,
-                      "end": 3014
+                      "start": 3007,
+                      "end": 3008
                     },
                     {
                       "type": "TemplateElement",
@@ -3100,8 +3086,8 @@
                         "cooked": " : "
                       },
                       "tail": false,
-                      "start": 3024,
-                      "end": 3027
+                      "start": 3018,
+                      "end": 3021
                     },
                     {
                       "type": "TemplateElement",
@@ -3110,8 +3096,8 @@
                         "cooked": "-"
                       },
                       "tail": false,
-                      "start": 3038,
-                      "end": 3039
+                      "start": 3032,
+                      "end": 3033
                     },
                     {
                       "type": "TemplateElement",
@@ -3120,8 +3106,8 @@
                         "cooked": "-"
                       },
                       "tail": false,
-                      "start": 3055,
-                      "end": 3056
+                      "start": 3049,
+                      "end": 3050
                     },
                     {
                       "type": "TemplateElement",
@@ -3130,8 +3116,8 @@
                         "cooked": " largestUnit days"
                       },
                       "tail": true,
-                      "start": 3066,
-                      "end": 3083
+                      "start": 3060,
+                      "end": 3077
                     }
                   ],
                   "expressions": [
@@ -3140,137 +3126,137 @@
                       "object": {
                         "type": "Identifier",
                         "name": "one",
-                        "start": 2987,
-                        "end": 2990
+                        "start": 2981,
+                        "end": 2984
                       },
                       "property": {
                         "type": "Identifier",
                         "name": "year",
-                        "start": 2991,
-                        "end": 2995
+                        "start": 2985,
+                        "end": 2989
                       },
                       "optional": false,
                       "computed": false,
-                      "start": 2987,
-                      "end": 2995
+                      "start": 2981,
+                      "end": 2989
                     },
                     {
                       "type": "MemberExpression",
                       "object": {
                         "type": "Identifier",
                         "name": "one",
-                        "start": 2999,
-                        "end": 3002
+                        "start": 2993,
+                        "end": 2996
                       },
                       "property": {
                         "type": "Identifier",
                         "name": "monthCode",
-                        "start": 3003,
-                        "end": 3012
+                        "start": 2997,
+                        "end": 3006
                       },
                       "optional": false,
                       "computed": false,
-                      "start": 2999,
-                      "end": 3012
+                      "start": 2993,
+                      "end": 3006
                     },
                     {
                       "type": "MemberExpression",
                       "object": {
                         "type": "Identifier",
                         "name": "one",
-                        "start": 3016,
-                        "end": 3019
+                        "start": 3010,
+                        "end": 3013
                       },
                       "property": {
                         "type": "Identifier",
                         "name": "day",
-                        "start": 3020,
-                        "end": 3023
+                        "start": 3014,
+                        "end": 3017
                       },
                       "optional": false,
                       "computed": false,
-                      "start": 3016,
-                      "end": 3023
+                      "start": 3010,
+                      "end": 3017
                     },
                     {
                       "type": "MemberExpression",
                       "object": {
                         "type": "Identifier",
                         "name": "two",
-                        "start": 3029,
-                        "end": 3032
+                        "start": 3023,
+                        "end": 3026
                       },
                       "property": {
                         "type": "Identifier",
                         "name": "year",
-                        "start": 3033,
-                        "end": 3037
+                        "start": 3027,
+                        "end": 3031
                       },
                       "optional": false,
                       "computed": false,
-                      "start": 3029,
-                      "end": 3037
+                      "start": 3023,
+                      "end": 3031
                     },
                     {
                       "type": "MemberExpression",
                       "object": {
                         "type": "Identifier",
                         "name": "two",
-                        "start": 3041,
-                        "end": 3044
+                        "start": 3035,
+                        "end": 3038
                       },
                       "property": {
                         "type": "Identifier",
                         "name": "monthCode",
-                        "start": 3045,
-                        "end": 3054
+                        "start": 3039,
+                        "end": 3048
                       },
                       "optional": false,
                       "computed": false,
-                      "start": 3041,
-                      "end": 3054
+                      "start": 3035,
+                      "end": 3048
                     },
                     {
                       "type": "MemberExpression",
                       "object": {
                         "type": "Identifier",
                         "name": "two",
-                        "start": 3058,
-                        "end": 3061
+                        "start": 3052,
+                        "end": 3055
                       },
                       "property": {
                         "type": "Identifier",
                         "name": "day",
-                        "start": 3062,
-                        "end": 3065
+                        "start": 3056,
+                        "end": 3059
                       },
                       "optional": false,
                       "computed": false,
-                      "start": 3058,
-                      "end": 3065
+                      "start": 3052,
+                      "end": 3059
                     }
                   ],
-                  "start": 2984,
-                  "end": 3084
+                  "start": 2978,
+                  "end": 3078
                 }
               ],
               "optional": false,
-              "start": 2916,
-              "end": 3085
+              "start": 2910,
+              "end": 3079
             },
-            "start": 2916,
-            "end": 3086
+            "start": 2910,
+            "end": 3080
           }
         ],
-        "start": 2012,
-        "end": 3088
+        "start": 2006,
+        "end": 3082
       },
-      "start": 1957,
-      "end": 3088
+      "start": 1951,
+      "end": 3082
     }
   ],
   "sourceType": "script",
   "hashbang": null,
   "start": 0,
-  "end": 3089
+  "end": 3083
 }

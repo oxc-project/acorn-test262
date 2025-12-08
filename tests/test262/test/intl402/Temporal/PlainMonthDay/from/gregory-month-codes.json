@@ -44,21 +44,42 @@
                   "kind": "init",
                   "key": {
                     "type": "Identifier",
-                    "name": "monthCode",
+                    "name": "month",
                     "start": 462,
-                    "end": 471
+                    "end": 467
                   },
                   "value": {
                     "type": "Identifier",
-                    "name": "monthCode",
+                    "name": "month",
                     "start": 462,
-                    "end": 471
+                    "end": 467
                   },
                   "method": false,
                   "shorthand": true,
                   "computed": false,
                   "start": 462,
-                  "end": 471
+                  "end": 467
+                },
+                {
+                  "type": "Property",
+                  "kind": "init",
+                  "key": {
+                    "type": "Identifier",
+                    "name": "monthCode",
+                    "start": 469,
+                    "end": 478
+                  },
+                  "value": {
+                    "type": "Identifier",
+                    "name": "monthCode",
+                    "start": 469,
+                    "end": 478
+                  },
+                  "method": false,
+                  "shorthand": true,
+                  "computed": false,
+                  "start": 469,
+                  "end": 478
                 },
                 {
                   "type": "Property",
@@ -66,51 +87,51 @@
                   "key": {
                     "type": "Identifier",
                     "name": "daysInMonth",
-                    "start": 473,
-                    "end": 484
+                    "start": 480,
+                    "end": 491
                   },
                   "value": {
                     "type": "Identifier",
                     "name": "daysInMonth",
-                    "start": 473,
-                    "end": 484
+                    "start": 480,
+                    "end": 491
                   },
                   "method": false,
                   "shorthand": true,
                   "computed": false,
-                  "start": 473,
-                  "end": 484
+                  "start": 480,
+                  "end": 491
                 }
               ],
               "start": 460,
-              "end": 486
+              "end": 493
             },
             "init": null,
             "start": 460,
-            "end": 486
+            "end": 493
           }
         ],
         "start": 454,
-        "end": 486
+        "end": 493
       },
       "right": {
         "type": "MemberExpression",
         "object": {
           "type": "Identifier",
           "name": "TemporalHelpers",
-          "start": 490,
-          "end": 505
+          "start": 497,
+          "end": 512
         },
         "property": {
           "type": "Identifier",
           "name": "ISOMonths",
-          "start": 506,
-          "end": 515
+          "start": 513,
+          "end": 522
         },
         "optional": false,
         "computed": false,
-        "start": 490,
-        "end": 515
+        "start": 497,
+        "end": 522
       },
       "body": {
         "type": "BlockStatement",
@@ -124,8 +145,8 @@
                 "id": {
                   "type": "Identifier",
                   "name": "pmd",
-                  "start": 571,
-                  "end": 574
+                  "start": 578,
+                  "end": 581
                 },
                 "init": {
                   "type": "CallExpression",
@@ -136,30 +157,30 @@
                       "object": {
                         "type": "Identifier",
                         "name": "Temporal",
-                        "start": 577,
-                        "end": 585
+                        "start": 584,
+                        "end": 592
                       },
                       "property": {
                         "type": "Identifier",
                         "name": "PlainMonthDay",
-                        "start": 586,
-                        "end": 599
+                        "start": 593,
+                        "end": 606
                       },
                       "optional": false,
                       "computed": false,
-                      "start": 577,
-                      "end": 599
+                      "start": 584,
+                      "end": 606
                     },
                     "property": {
                       "type": "Identifier",
                       "name": "from",
-                      "start": 600,
-                      "end": 604
+                      "start": 607,
+                      "end": 611
                     },
                     "optional": false,
                     "computed": false,
-                    "start": 577,
-                    "end": 604
+                    "start": 584,
+                    "end": 611
                   },
                   "arguments": [
                     {
@@ -171,20 +192,20 @@
                           "key": {
                             "type": "Identifier",
                             "name": "calendar",
-                            "start": 607,
-                            "end": 615
+                            "start": 614,
+                            "end": 622
                           },
                           "value": {
                             "type": "Identifier",
                             "name": "calendar",
-                            "start": 607,
-                            "end": 615
+                            "start": 614,
+                            "end": 622
                           },
                           "method": false,
                           "shorthand": true,
                           "computed": false,
-                          "start": 607,
-                          "end": 615
+                          "start": 614,
+                          "end": 622
                         },
                         {
                           "type": "Property",
@@ -192,20 +213,20 @@
                           "key": {
                             "type": "Identifier",
                             "name": "monthCode",
-                            "start": 617,
-                            "end": 626
+                            "start": 624,
+                            "end": 633
                           },
                           "value": {
                             "type": "Identifier",
                             "name": "monthCode",
-                            "start": 617,
-                            "end": 626
+                            "start": 624,
+                            "end": 633
                           },
                           "method": false,
                           "shorthand": true,
                           "computed": false,
-                          "start": 617,
-                          "end": 626
+                          "start": 624,
+                          "end": 633
                         },
                         {
                           "type": "Property",
@@ -213,37 +234,37 @@
                           "key": {
                             "type": "Identifier",
                             "name": "day",
-                            "start": 628,
-                            "end": 631
+                            "start": 635,
+                            "end": 638
                           },
                           "value": {
                             "type": "Literal",
                             "value": 1,
                             "raw": "1",
-                            "start": 633,
-                            "end": 634
+                            "start": 640,
+                            "end": 641
                           },
                           "method": false,
                           "shorthand": false,
                           "computed": false,
-                          "start": 628,
-                          "end": 634
+                          "start": 635,
+                          "end": 641
                         }
                       ],
-                      "start": 605,
-                      "end": 636
+                      "start": 612,
+                      "end": 643
                     }
                   ],
                   "optional": false,
-                  "start": 577,
-                  "end": 637
+                  "start": 584,
+                  "end": 644
                 },
-                "start": 571,
-                "end": 637
+                "start": 578,
+                "end": 644
               }
             ],
-            "start": 565,
-            "end": 638
+            "start": 572,
+            "end": 645
           },
           {
             "type": "ExpressionStatement",
@@ -254,39 +275,39 @@
                 "object": {
                   "type": "Identifier",
                   "name": "TemporalHelpers",
-                  "start": 641,
-                  "end": 656
+                  "start": 648,
+                  "end": 663
                 },
                 "property": {
                   "type": "Identifier",
                   "name": "assertPlainMonthDay",
-                  "start": 657,
-                  "end": 676
+                  "start": 664,
+                  "end": 683
                 },
                 "optional": false,
                 "computed": false,
-                "start": 641,
-                "end": 676
+                "start": 648,
+                "end": 683
               },
               "arguments": [
                 {
                   "type": "Identifier",
                   "name": "pmd",
-                  "start": 677,
-                  "end": 680
+                  "start": 684,
+                  "end": 687
                 },
                 {
                   "type": "Identifier",
                   "name": "monthCode",
-                  "start": 682,
-                  "end": 691
+                  "start": 689,
+                  "end": 698
                 },
                 {
                   "type": "Literal",
                   "value": 1,
                   "raw": "1",
-                  "start": 693,
-                  "end": 694
+                  "start": 700,
+                  "end": 701
                 },
                 {
                   "type": "TemplateLiteral",
@@ -298,8 +319,8 @@
                         "cooked": "monthCode "
                       },
                       "tail": false,
-                      "start": 697,
-                      "end": 707
+                      "start": 704,
+                      "end": 714
                     },
                     {
                       "type": "TemplateElement",
@@ -308,28 +329,28 @@
                         "cooked": " should be preserved"
                       },
                       "tail": true,
-                      "start": 719,
-                      "end": 739
+                      "start": 726,
+                      "end": 746
                     }
                   ],
                   "expressions": [
                     {
                       "type": "Identifier",
                       "name": "monthCode",
-                      "start": 709,
-                      "end": 718
+                      "start": 716,
+                      "end": 725
                     }
                   ],
-                  "start": 696,
-                  "end": 740
+                  "start": 703,
+                  "end": 747
                 }
               ],
               "optional": false,
-              "start": 641,
-              "end": 741
+              "start": 648,
+              "end": 748
             },
-            "start": 641,
-            "end": 742
+            "start": 648,
+            "end": 749
           },
           {
             "type": "VariableDeclaration",
@@ -339,9 +360,9 @@
                 "type": "VariableDeclarator",
                 "id": {
                   "type": "Identifier",
-                  "name": "pmdMax",
-                  "start": 828,
-                  "end": 834
+                  "name": "pmdMonth",
+                  "start": 799,
+                  "end": 807
                 },
                 "init": {
                   "type": "CallExpression",
@@ -352,30 +373,30 @@
                       "object": {
                         "type": "Identifier",
                         "name": "Temporal",
-                        "start": 837,
-                        "end": 845
+                        "start": 810,
+                        "end": 818
                       },
                       "property": {
                         "type": "Identifier",
                         "name": "PlainMonthDay",
-                        "start": 846,
-                        "end": 859
+                        "start": 819,
+                        "end": 832
                       },
                       "optional": false,
                       "computed": false,
-                      "start": 837,
-                      "end": 859
+                      "start": 810,
+                      "end": 832
                     },
                     "property": {
                       "type": "Identifier",
                       "name": "from",
-                      "start": 860,
-                      "end": 864
+                      "start": 833,
+                      "end": 837
                     },
                     "optional": false,
                     "computed": false,
-                    "start": 837,
-                    "end": 864
+                    "start": 810,
+                    "end": 837
                   },
                   "arguments": [
                     {
@@ -387,41 +408,63 @@
                           "key": {
                             "type": "Identifier",
                             "name": "calendar",
-                            "start": 867,
-                            "end": 875
+                            "start": 840,
+                            "end": 848
                           },
                           "value": {
                             "type": "Identifier",
                             "name": "calendar",
-                            "start": 867,
-                            "end": 875
+                            "start": 840,
+                            "end": 848
                           },
                           "method": false,
                           "shorthand": true,
                           "computed": false,
-                          "start": 867,
-                          "end": 875
+                          "start": 840,
+                          "end": 848
                         },
                         {
                           "type": "Property",
                           "kind": "init",
                           "key": {
                             "type": "Identifier",
-                            "name": "monthCode",
-                            "start": 877,
-                            "end": 886
+                            "name": "year",
+                            "start": 850,
+                            "end": 854
+                          },
+                          "value": {
+                            "type": "Literal",
+                            "value": 1972,
+                            "raw": "1972",
+                            "start": 856,
+                            "end": 860
+                          },
+                          "method": false,
+                          "shorthand": false,
+                          "computed": false,
+                          "start": 850,
+                          "end": 860
+                        },
+                        {
+                          "type": "Property",
+                          "kind": "init",
+                          "key": {
+                            "type": "Identifier",
+                            "name": "month",
+                            "start": 862,
+                            "end": 867
                           },
                           "value": {
                             "type": "Identifier",
-                            "name": "monthCode",
-                            "start": 877,
-                            "end": 886
+                            "name": "month",
+                            "start": 862,
+                            "end": 867
                           },
                           "method": false,
                           "shorthand": true,
                           "computed": false,
-                          "start": 877,
-                          "end": 886
+                          "start": 862,
+                          "end": 867
                         },
                         {
                           "type": "Property",
@@ -429,36 +472,37 @@
                           "key": {
                             "type": "Identifier",
                             "name": "day",
-                            "start": 888,
-                            "end": 891
+                            "start": 869,
+                            "end": 872
                           },
                           "value": {
-                            "type": "Identifier",
-                            "name": "daysInMonth",
-                            "start": 893,
-                            "end": 904
+                            "type": "Literal",
+                            "value": 1,
+                            "raw": "1",
+                            "start": 874,
+                            "end": 875
                           },
                           "method": false,
                           "shorthand": false,
                           "computed": false,
-                          "start": 888,
-                          "end": 904
+                          "start": 869,
+                          "end": 875
                         }
                       ],
-                      "start": 865,
-                      "end": 906
+                      "start": 838,
+                      "end": 877
                     }
                   ],
                   "optional": false,
-                  "start": 837,
-                  "end": 907
+                  "start": 810,
+                  "end": 878
                 },
-                "start": 828,
-                "end": 907
+                "start": 799,
+                "end": 878
               }
             ],
-            "start": 822,
-            "end": 908
+            "start": 793,
+            "end": 879
           },
           {
             "type": "ExpressionStatement",
@@ -469,38 +513,269 @@
                 "object": {
                   "type": "Identifier",
                   "name": "TemporalHelpers",
-                  "start": 911,
-                  "end": 926
+                  "start": 882,
+                  "end": 897
                 },
                 "property": {
                   "type": "Identifier",
                   "name": "assertPlainMonthDay",
-                  "start": 927,
-                  "end": 946
+                  "start": 898,
+                  "end": 917
                 },
                 "optional": false,
                 "computed": false,
-                "start": 911,
-                "end": 946
+                "start": 882,
+                "end": 917
+              },
+              "arguments": [
+                {
+                  "type": "Identifier",
+                  "name": "pmdMonth",
+                  "start": 918,
+                  "end": 926
+                },
+                {
+                  "type": "Identifier",
+                  "name": "monthCode",
+                  "start": 928,
+                  "end": 937
+                },
+                {
+                  "type": "Literal",
+                  "value": 1,
+                  "raw": "1",
+                  "start": 939,
+                  "end": 940
+                },
+                {
+                  "type": "TemplateLiteral",
+                  "quasis": [
+                    {
+                      "type": "TemplateElement",
+                      "value": {
+                        "raw": "Equivalent monthCode ",
+                        "cooked": "Equivalent monthCode "
+                      },
+                      "tail": false,
+                      "start": 943,
+                      "end": 964
+                    },
+                    {
+                      "type": "TemplateElement",
+                      "value": {
+                        "raw": " and month ",
+                        "cooked": " and month "
+                      },
+                      "tail": false,
+                      "start": 976,
+                      "end": 987
+                    },
+                    {
+                      "type": "TemplateElement",
+                      "value": {
+                        "raw": " are resolved to the same PlainMonthDay",
+                        "cooked": " are resolved to the same PlainMonthDay"
+                      },
+                      "tail": true,
+                      "start": 995,
+                      "end": 1034
+                    }
+                  ],
+                  "expressions": [
+                    {
+                      "type": "Identifier",
+                      "name": "monthCode",
+                      "start": 966,
+                      "end": 975
+                    },
+                    {
+                      "type": "Identifier",
+                      "name": "month",
+                      "start": 989,
+                      "end": 994
+                    }
+                  ],
+                  "start": 942,
+                  "end": 1035
+                }
+              ],
+              "optional": false,
+              "start": 882,
+              "end": 1036
+            },
+            "start": 882,
+            "end": 1037
+          },
+          {
+            "type": "VariableDeclaration",
+            "kind": "const",
+            "declarations": [
+              {
+                "type": "VariableDeclarator",
+                "id": {
+                  "type": "Identifier",
+                  "name": "pmdMax",
+                  "start": 1123,
+                  "end": 1129
+                },
+                "init": {
+                  "type": "CallExpression",
+                  "callee": {
+                    "type": "MemberExpression",
+                    "object": {
+                      "type": "MemberExpression",
+                      "object": {
+                        "type": "Identifier",
+                        "name": "Temporal",
+                        "start": 1132,
+                        "end": 1140
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "name": "PlainMonthDay",
+                        "start": 1141,
+                        "end": 1154
+                      },
+                      "optional": false,
+                      "computed": false,
+                      "start": 1132,
+                      "end": 1154
+                    },
+                    "property": {
+                      "type": "Identifier",
+                      "name": "from",
+                      "start": 1155,
+                      "end": 1159
+                    },
+                    "optional": false,
+                    "computed": false,
+                    "start": 1132,
+                    "end": 1159
+                  },
+                  "arguments": [
+                    {
+                      "type": "ObjectExpression",
+                      "properties": [
+                        {
+                          "type": "Property",
+                          "kind": "init",
+                          "key": {
+                            "type": "Identifier",
+                            "name": "calendar",
+                            "start": 1162,
+                            "end": 1170
+                          },
+                          "value": {
+                            "type": "Identifier",
+                            "name": "calendar",
+                            "start": 1162,
+                            "end": 1170
+                          },
+                          "method": false,
+                          "shorthand": true,
+                          "computed": false,
+                          "start": 1162,
+                          "end": 1170
+                        },
+                        {
+                          "type": "Property",
+                          "kind": "init",
+                          "key": {
+                            "type": "Identifier",
+                            "name": "monthCode",
+                            "start": 1172,
+                            "end": 1181
+                          },
+                          "value": {
+                            "type": "Identifier",
+                            "name": "monthCode",
+                            "start": 1172,
+                            "end": 1181
+                          },
+                          "method": false,
+                          "shorthand": true,
+                          "computed": false,
+                          "start": 1172,
+                          "end": 1181
+                        },
+                        {
+                          "type": "Property",
+                          "kind": "init",
+                          "key": {
+                            "type": "Identifier",
+                            "name": "day",
+                            "start": 1183,
+                            "end": 1186
+                          },
+                          "value": {
+                            "type": "Identifier",
+                            "name": "daysInMonth",
+                            "start": 1188,
+                            "end": 1199
+                          },
+                          "method": false,
+                          "shorthand": false,
+                          "computed": false,
+                          "start": 1183,
+                          "end": 1199
+                        }
+                      ],
+                      "start": 1160,
+                      "end": 1201
+                    }
+                  ],
+                  "optional": false,
+                  "start": 1132,
+                  "end": 1202
+                },
+                "start": 1123,
+                "end": 1202
+              }
+            ],
+            "start": 1117,
+            "end": 1203
+          },
+          {
+            "type": "ExpressionStatement",
+            "expression": {
+              "type": "CallExpression",
+              "callee": {
+                "type": "MemberExpression",
+                "object": {
+                  "type": "Identifier",
+                  "name": "TemporalHelpers",
+                  "start": 1206,
+                  "end": 1221
+                },
+                "property": {
+                  "type": "Identifier",
+                  "name": "assertPlainMonthDay",
+                  "start": 1222,
+                  "end": 1241
+                },
+                "optional": false,
+                "computed": false,
+                "start": 1206,
+                "end": 1241
               },
               "arguments": [
                 {
                   "type": "Identifier",
                   "name": "pmdMax",
-                  "start": 947,
-                  "end": 953
+                  "start": 1242,
+                  "end": 1248
                 },
                 {
                   "type": "Identifier",
                   "name": "monthCode",
-                  "start": 955,
-                  "end": 964
+                  "start": 1250,
+                  "end": 1259
                 },
                 {
                   "type": "Identifier",
                   "name": "daysInMonth",
-                  "start": 966,
-                  "end": 977
+                  "start": 1261,
+                  "end": 1272
                 },
                 {
                   "type": "TemplateLiteral",
@@ -512,8 +787,8 @@
                         "cooked": ""
                       },
                       "tail": false,
-                      "start": 980,
-                      "end": 980
+                      "start": 1275,
+                      "end": 1275
                     },
                     {
                       "type": "TemplateElement",
@@ -522,8 +797,8 @@
                         "cooked": " with day "
                       },
                       "tail": false,
-                      "start": 992,
-                      "end": 1002
+                      "start": 1287,
+                      "end": 1297
                     },
                     {
                       "type": "TemplateElement",
@@ -532,34 +807,34 @@
                         "cooked": " should be valid"
                       },
                       "tail": true,
-                      "start": 1016,
-                      "end": 1032
+                      "start": 1311,
+                      "end": 1327
                     }
                   ],
                   "expressions": [
                     {
                       "type": "Identifier",
                       "name": "monthCode",
-                      "start": 982,
-                      "end": 991
+                      "start": 1277,
+                      "end": 1286
                     },
                     {
                       "type": "Identifier",
                       "name": "daysInMonth",
-                      "start": 1004,
-                      "end": 1015
+                      "start": 1299,
+                      "end": 1310
                     }
                   ],
-                  "start": 979,
-                  "end": 1033
+                  "start": 1274,
+                  "end": 1328
                 }
               ],
               "optional": false,
-              "start": 911,
-              "end": 1034
+              "start": 1206,
+              "end": 1329
             },
-            "start": 911,
-            "end": 1035
+            "start": 1206,
+            "end": 1330
           },
           {
             "type": "VariableDeclaration",
@@ -570,8 +845,8 @@
                 "id": {
                   "type": "Identifier",
                   "name": "constrained",
-                  "start": 1074,
-                  "end": 1085
+                  "start": 1369,
+                  "end": 1380
                 },
                 "init": {
                   "type": "CallExpression",
@@ -582,30 +857,30 @@
                       "object": {
                         "type": "Identifier",
                         "name": "Temporal",
-                        "start": 1088,
-                        "end": 1096
+                        "start": 1383,
+                        "end": 1391
                       },
                       "property": {
                         "type": "Identifier",
                         "name": "PlainMonthDay",
-                        "start": 1097,
-                        "end": 1110
+                        "start": 1392,
+                        "end": 1405
                       },
                       "optional": false,
                       "computed": false,
-                      "start": 1088,
-                      "end": 1110
+                      "start": 1383,
+                      "end": 1405
                     },
                     "property": {
                       "type": "Identifier",
                       "name": "from",
-                      "start": 1111,
-                      "end": 1115
+                      "start": 1406,
+                      "end": 1410
                     },
                     "optional": false,
                     "computed": false,
-                    "start": 1088,
-                    "end": 1115
+                    "start": 1383,
+                    "end": 1410
                   },
                   "arguments": [
                     {
@@ -617,20 +892,20 @@
                           "key": {
                             "type": "Identifier",
                             "name": "calendar",
-                            "start": 1123,
-                            "end": 1131
+                            "start": 1418,
+                            "end": 1426
                           },
                           "value": {
                             "type": "Identifier",
                             "name": "calendar",
-                            "start": 1123,
-                            "end": 1131
+                            "start": 1418,
+                            "end": 1426
                           },
                           "method": false,
                           "shorthand": true,
                           "computed": false,
-                          "start": 1123,
-                          "end": 1131
+                          "start": 1418,
+                          "end": 1426
                         },
                         {
                           "type": "Property",
@@ -638,20 +913,20 @@
                           "key": {
                             "type": "Identifier",
                             "name": "monthCode",
-                            "start": 1133,
-                            "end": 1142
+                            "start": 1428,
+                            "end": 1437
                           },
                           "value": {
                             "type": "Identifier",
                             "name": "monthCode",
-                            "start": 1133,
-                            "end": 1142
+                            "start": 1428,
+                            "end": 1437
                           },
                           "method": false,
                           "shorthand": true,
                           "computed": false,
-                          "start": 1133,
-                          "end": 1142
+                          "start": 1428,
+                          "end": 1437
                         },
                         {
                           "type": "Property",
@@ -659,37 +934,37 @@
                           "key": {
                             "type": "Identifier",
                             "name": "day",
-                            "start": 1144,
-                            "end": 1147
+                            "start": 1439,
+                            "end": 1442
                           },
                           "value": {
                             "type": "BinaryExpression",
                             "left": {
                               "type": "Identifier",
                               "name": "daysInMonth",
-                              "start": 1149,
-                              "end": 1160
+                              "start": 1444,
+                              "end": 1455
                             },
                             "operator": "+",
                             "right": {
                               "type": "Literal",
                               "value": 1,
                               "raw": "1",
-                              "start": 1163,
-                              "end": 1164
+                              "start": 1458,
+                              "end": 1459
                             },
-                            "start": 1149,
-                            "end": 1164
+                            "start": 1444,
+                            "end": 1459
                           },
                           "method": false,
                           "shorthand": false,
                           "computed": false,
-                          "start": 1144,
-                          "end": 1164
+                          "start": 1439,
+                          "end": 1459
                         }
                       ],
-                      "start": 1121,
-                      "end": 1166
+                      "start": 1416,
+                      "end": 1461
                     },
                     {
                       "type": "ObjectExpression",
@@ -700,37 +975,37 @@
                           "key": {
                             "type": "Identifier",
                             "name": "overflow",
-                            "start": 1174,
-                            "end": 1182
+                            "start": 1469,
+                            "end": 1477
                           },
                           "value": {
                             "type": "Literal",
                             "value": "constrain",
                             "raw": "\"constrain\"",
-                            "start": 1184,
-                            "end": 1195
+                            "start": 1479,
+                            "end": 1490
                           },
                           "method": false,
                           "shorthand": false,
                           "computed": false,
-                          "start": 1174,
-                          "end": 1195
+                          "start": 1469,
+                          "end": 1490
                         }
                       ],
-                      "start": 1172,
-                      "end": 1197
+                      "start": 1467,
+                      "end": 1492
                     }
                   ],
                   "optional": false,
-                  "start": 1088,
-                  "end": 1201
+                  "start": 1383,
+                  "end": 1496
                 },
-                "start": 1074,
-                "end": 1201
+                "start": 1369,
+                "end": 1496
               }
             ],
-            "start": 1068,
-            "end": 1202
+            "start": 1363,
+            "end": 1497
           },
           {
             "type": "ExpressionStatement",
@@ -741,38 +1016,38 @@
                 "object": {
                   "type": "Identifier",
                   "name": "TemporalHelpers",
-                  "start": 1205,
-                  "end": 1220
+                  "start": 1500,
+                  "end": 1515
                 },
                 "property": {
                   "type": "Identifier",
                   "name": "assertPlainMonthDay",
-                  "start": 1221,
-                  "end": 1240
+                  "start": 1516,
+                  "end": 1535
                 },
                 "optional": false,
                 "computed": false,
-                "start": 1205,
-                "end": 1240
+                "start": 1500,
+                "end": 1535
               },
               "arguments": [
                 {
                   "type": "Identifier",
                   "name": "constrained",
-                  "start": 1241,
-                  "end": 1252
+                  "start": 1536,
+                  "end": 1547
                 },
                 {
                   "type": "Identifier",
                   "name": "monthCode",
-                  "start": 1254,
-                  "end": 1263
+                  "start": 1549,
+                  "end": 1558
                 },
                 {
                   "type": "Identifier",
                   "name": "daysInMonth",
-                  "start": 1265,
-                  "end": 1276
+                  "start": 1560,
+                  "end": 1571
                 },
                 {
                   "type": "TemplateLiteral",
@@ -784,8 +1059,8 @@
                         "cooked": "day "
                       },
                       "tail": false,
-                      "start": 1279,
-                      "end": 1283
+                      "start": 1574,
+                      "end": 1578
                     },
                     {
                       "type": "TemplateElement",
@@ -794,8 +1069,8 @@
                         "cooked": " should be constrained to "
                       },
                       "tail": false,
-                      "start": 1301,
-                      "end": 1327
+                      "start": 1596,
+                      "end": 1622
                     },
                     {
                       "type": "TemplateElement",
@@ -804,8 +1079,8 @@
                         "cooked": " for "
                       },
                       "tail": false,
-                      "start": 1341,
-                      "end": 1346
+                      "start": 1636,
+                      "end": 1641
                     },
                     {
                       "type": "TemplateElement",
@@ -814,8 +1089,8 @@
                         "cooked": ""
                       },
                       "tail": true,
-                      "start": 1358,
-                      "end": 1358
+                      "start": 1653,
+                      "end": 1653
                     }
                   ],
                   "expressions": [
@@ -824,43 +1099,43 @@
                       "left": {
                         "type": "Identifier",
                         "name": "daysInMonth",
-                        "start": 1285,
-                        "end": 1296
+                        "start": 1580,
+                        "end": 1591
                       },
                       "operator": "+",
                       "right": {
                         "type": "Literal",
                         "value": 1,
                         "raw": "1",
-                        "start": 1299,
-                        "end": 1300
+                        "start": 1594,
+                        "end": 1595
                       },
-                      "start": 1285,
-                      "end": 1300
+                      "start": 1580,
+                      "end": 1595
                     },
                     {
                       "type": "Identifier",
                       "name": "daysInMonth",
-                      "start": 1329,
-                      "end": 1340
+                      "start": 1624,
+                      "end": 1635
                     },
                     {
                       "type": "Identifier",
                       "name": "monthCode",
-                      "start": 1348,
-                      "end": 1357
+                      "start": 1643,
+                      "end": 1652
                     }
                   ],
-                  "start": 1278,
-                  "end": 1359
+                  "start": 1573,
+                  "end": 1654
                 }
               ],
               "optional": false,
-              "start": 1205,
-              "end": 1360
+              "start": 1500,
+              "end": 1655
             },
-            "start": 1205,
-            "end": 1361
+            "start": 1500,
+            "end": 1656
           },
           {
             "type": "ExpressionStatement",
@@ -871,26 +1146,26 @@
                 "object": {
                   "type": "Identifier",
                   "name": "assert",
-                  "start": 1391,
-                  "end": 1397
+                  "start": 1686,
+                  "end": 1692
                 },
                 "property": {
                   "type": "Identifier",
                   "name": "throws",
-                  "start": 1398,
-                  "end": 1404
+                  "start": 1693,
+                  "end": 1699
                 },
                 "optional": false,
                 "computed": false,
-                "start": 1391,
-                "end": 1404
+                "start": 1686,
+                "end": 1699
               },
               "arguments": [
                 {
                   "type": "Identifier",
                   "name": "RangeError",
-                  "start": 1405,
-                  "end": 1415
+                  "start": 1700,
+                  "end": 1710
                 },
                 {
                   "type": "ArrowFunctionExpression",
@@ -911,30 +1186,30 @@
                               "object": {
                                 "type": "Identifier",
                                 "name": "Temporal",
-                                "start": 1429,
-                                "end": 1437
+                                "start": 1724,
+                                "end": 1732
                               },
                               "property": {
                                 "type": "Identifier",
                                 "name": "PlainMonthDay",
-                                "start": 1438,
-                                "end": 1451
+                                "start": 1733,
+                                "end": 1746
                               },
                               "optional": false,
                               "computed": false,
-                              "start": 1429,
-                              "end": 1451
+                              "start": 1724,
+                              "end": 1746
                             },
                             "property": {
                               "type": "Identifier",
                               "name": "from",
-                              "start": 1452,
-                              "end": 1456
+                              "start": 1747,
+                              "end": 1751
                             },
                             "optional": false,
                             "computed": false,
-                            "start": 1429,
-                            "end": 1456
+                            "start": 1724,
+                            "end": 1751
                           },
                           "arguments": [
                             {
@@ -946,20 +1221,20 @@
                                   "key": {
                                     "type": "Identifier",
                                     "name": "calendar",
-                                    "start": 1459,
-                                    "end": 1467
+                                    "start": 1754,
+                                    "end": 1762
                                   },
                                   "value": {
                                     "type": "Identifier",
                                     "name": "calendar",
-                                    "start": 1459,
-                                    "end": 1467
+                                    "start": 1754,
+                                    "end": 1762
                                   },
                                   "method": false,
                                   "shorthand": true,
                                   "computed": false,
-                                  "start": 1459,
-                                  "end": 1467
+                                  "start": 1754,
+                                  "end": 1762
                                 },
                                 {
                                   "type": "Property",
@@ -967,20 +1242,20 @@
                                   "key": {
                                     "type": "Identifier",
                                     "name": "monthCode",
-                                    "start": 1469,
-                                    "end": 1478
+                                    "start": 1764,
+                                    "end": 1773
                                   },
                                   "value": {
                                     "type": "Identifier",
                                     "name": "monthCode",
-                                    "start": 1469,
-                                    "end": 1478
+                                    "start": 1764,
+                                    "end": 1773
                                   },
                                   "method": false,
                                   "shorthand": true,
                                   "computed": false,
-                                  "start": 1469,
-                                  "end": 1478
+                                  "start": 1764,
+                                  "end": 1773
                                 },
                                 {
                                   "type": "Property",
@@ -988,37 +1263,37 @@
                                   "key": {
                                     "type": "Identifier",
                                     "name": "day",
-                                    "start": 1480,
-                                    "end": 1483
+                                    "start": 1775,
+                                    "end": 1778
                                   },
                                   "value": {
                                     "type": "BinaryExpression",
                                     "left": {
                                       "type": "Identifier",
                                       "name": "daysInMonth",
-                                      "start": 1485,
-                                      "end": 1496
+                                      "start": 1780,
+                                      "end": 1791
                                     },
                                     "operator": "+",
                                     "right": {
                                       "type": "Literal",
                                       "value": 1,
                                       "raw": "1",
-                                      "start": 1499,
-                                      "end": 1500
+                                      "start": 1794,
+                                      "end": 1795
                                     },
-                                    "start": 1485,
-                                    "end": 1500
+                                    "start": 1780,
+                                    "end": 1795
                                   },
                                   "method": false,
                                   "shorthand": false,
                                   "computed": false,
-                                  "start": 1480,
-                                  "end": 1500
+                                  "start": 1775,
+                                  "end": 1795
                                 }
                               ],
-                              "start": 1457,
-                              "end": 1502
+                              "start": 1752,
+                              "end": 1797
                             },
                             {
                               "type": "ObjectExpression",
@@ -1029,42 +1304,42 @@
                                   "key": {
                                     "type": "Identifier",
                                     "name": "overflow",
-                                    "start": 1506,
-                                    "end": 1514
+                                    "start": 1801,
+                                    "end": 1809
                                   },
                                   "value": {
                                     "type": "Literal",
                                     "value": "reject",
                                     "raw": "\"reject\"",
-                                    "start": 1516,
-                                    "end": 1524
+                                    "start": 1811,
+                                    "end": 1819
                                   },
                                   "method": false,
                                   "shorthand": false,
                                   "computed": false,
-                                  "start": 1506,
-                                  "end": 1524
+                                  "start": 1801,
+                                  "end": 1819
                                 }
                               ],
-                              "start": 1504,
-                              "end": 1526
+                              "start": 1799,
+                              "end": 1821
                             }
                           ],
                           "optional": false,
-                          "start": 1429,
-                          "end": 1527
+                          "start": 1724,
+                          "end": 1822
                         },
-                        "start": 1429,
-                        "end": 1528
+                        "start": 1724,
+                        "end": 1823
                       }
                     ],
-                    "start": 1423,
-                    "end": 1532
+                    "start": 1718,
+                    "end": 1827
                   },
                   "id": null,
                   "generator": false,
-                  "start": 1417,
-                  "end": 1532
+                  "start": 1712,
+                  "end": 1827
                 },
                 {
                   "type": "TemplateLiteral",
@@ -1076,8 +1351,8 @@
                         "cooked": ""
                       },
                       "tail": false,
-                      "start": 1535,
-                      "end": 1535
+                      "start": 1830,
+                      "end": 1830
                     },
                     {
                       "type": "TemplateElement",
@@ -1086,8 +1361,8 @@
                         "cooked": " with day "
                       },
                       "tail": false,
-                      "start": 1547,
-                      "end": 1557
+                      "start": 1842,
+                      "end": 1852
                     },
                     {
                       "type": "TemplateElement",
@@ -1096,58 +1371,58 @@
                         "cooked": " should throw with reject overflow"
                       },
                       "tail": true,
-                      "start": 1575,
-                      "end": 1609
+                      "start": 1870,
+                      "end": 1904
                     }
                   ],
                   "expressions": [
                     {
                       "type": "Identifier",
                       "name": "monthCode",
-                      "start": 1537,
-                      "end": 1546
+                      "start": 1832,
+                      "end": 1841
                     },
                     {
                       "type": "BinaryExpression",
                       "left": {
                         "type": "Identifier",
                         "name": "daysInMonth",
-                        "start": 1559,
-                        "end": 1570
+                        "start": 1854,
+                        "end": 1865
                       },
                       "operator": "+",
                       "right": {
                         "type": "Literal",
                         "value": 1,
                         "raw": "1",
-                        "start": 1573,
-                        "end": 1574
+                        "start": 1868,
+                        "end": 1869
                       },
-                      "start": 1559,
-                      "end": 1574
+                      "start": 1854,
+                      "end": 1869
                     }
                   ],
-                  "start": 1534,
-                  "end": 1610
+                  "start": 1829,
+                  "end": 1905
                 }
               ],
               "optional": false,
-              "start": 1391,
-              "end": 1611
+              "start": 1686,
+              "end": 1906
             },
-            "start": 1391,
-            "end": 1612
+            "start": 1686,
+            "end": 1907
           }
         ],
-        "start": 517,
-        "end": 1614
+        "start": 524,
+        "end": 1909
       },
       "start": 449,
-      "end": 1614
+      "end": 1909
     }
   ],
   "sourceType": "script",
   "hashbang": null,
   "start": 0,
-  "end": 1615
+  "end": 1910
 }

@@ -1,0 +1,237 @@
+{
+  "type": "Program",
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "MemberExpression",
+          "object": {
+            "type": "Identifier",
+            "name": "TemporalHelpers",
+            "start": 351,
+            "end": 366
+          },
+          "property": {
+            "type": "Identifier",
+            "name": "assertPlainDate",
+            "start": 367,
+            "end": 382
+          },
+          "optional": false,
+          "computed": false,
+          "start": 351,
+          "end": 382
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "callee": {
+              "type": "MemberExpression",
+              "object": {
+                "type": "MemberExpression",
+                "object": {
+                  "type": "Identifier",
+                  "name": "Temporal",
+                  "start": 386,
+                  "end": 394
+                },
+                "property": {
+                  "type": "Identifier",
+                  "name": "PlainDate",
+                  "start": 395,
+                  "end": 404
+                },
+                "optional": false,
+                "computed": false,
+                "start": 386,
+                "end": 404
+              },
+              "property": {
+                "type": "Identifier",
+                "name": "from",
+                "start": 405,
+                "end": 409
+              },
+              "optional": false,
+              "computed": false,
+              "start": 386,
+              "end": 409
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "value": "2000-01-01",
+                "raw": "\"2000-01-01\"",
+                "start": 410,
+                "end": 422
+              }
+            ],
+            "optional": false,
+            "start": 386,
+            "end": 423
+          },
+          {
+            "type": "Literal",
+            "value": 2000,
+            "raw": "2000",
+            "start": 427,
+            "end": 431
+          },
+          {
+            "type": "Literal",
+            "value": 1,
+            "raw": "1",
+            "start": 433,
+            "end": 434
+          },
+          {
+            "type": "Literal",
+            "value": "M01",
+            "raw": "\"M01\"",
+            "start": 436,
+            "end": 441
+          },
+          {
+            "type": "Literal",
+            "value": 1,
+            "raw": "1",
+            "start": 443,
+            "end": 444
+          },
+          {
+            "type": "Literal",
+            "value": "created from string 2000-01-01",
+            "raw": "\"created from string 2000-01-01\"",
+            "start": 448,
+            "end": 480
+          }
+        ],
+        "optional": false,
+        "start": 351,
+        "end": 481
+      },
+      "start": 351,
+      "end": 482
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "MemberExpression",
+          "object": {
+            "type": "Identifier",
+            "name": "TemporalHelpers",
+            "start": 484,
+            "end": 499
+          },
+          "property": {
+            "type": "Identifier",
+            "name": "assertPlainDate",
+            "start": 500,
+            "end": 515
+          },
+          "optional": false,
+          "computed": false,
+          "start": 484,
+          "end": 515
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "callee": {
+              "type": "MemberExpression",
+              "object": {
+                "type": "MemberExpression",
+                "object": {
+                  "type": "Identifier",
+                  "name": "Temporal",
+                  "start": 519,
+                  "end": 527
+                },
+                "property": {
+                  "type": "Identifier",
+                  "name": "PlainDate",
+                  "start": 528,
+                  "end": 537
+                },
+                "optional": false,
+                "computed": false,
+                "start": 519,
+                "end": 537
+              },
+              "property": {
+                "type": "Identifier",
+                "name": "from",
+                "start": 538,
+                "end": 542
+              },
+              "optional": false,
+              "computed": false,
+              "start": 519,
+              "end": 542
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "value": "0001-01-01",
+                "raw": "\"0001-01-01\"",
+                "start": 543,
+                "end": 555
+              }
+            ],
+            "optional": false,
+            "start": 519,
+            "end": 556
+          },
+          {
+            "type": "Literal",
+            "value": 1,
+            "raw": "1",
+            "start": 560,
+            "end": 561
+          },
+          {
+            "type": "Literal",
+            "value": 1,
+            "raw": "1",
+            "start": 563,
+            "end": 564
+          },
+          {
+            "type": "Literal",
+            "value": "M01",
+            "raw": "\"M01\"",
+            "start": 566,
+            "end": 571
+          },
+          {
+            "type": "Literal",
+            "value": 1,
+            "raw": "1",
+            "start": 573,
+            "end": 574
+          },
+          {
+            "type": "Literal",
+            "value": "created from string 0001-01-01",
+            "raw": "\"created from string 0001-01-01\"",
+            "start": 578,
+            "end": 610
+          }
+        ],
+        "optional": false,
+        "start": 484,
+        "end": 611
+      },
+      "start": 484,
+      "end": 612
+    }
+  ],
+  "sourceType": "script",
+  "hashbang": null,
+  "start": 0,
+  "end": 613
+}

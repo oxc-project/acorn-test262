@@ -1,0 +1,1325 @@
+{
+  "type": "Program",
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "kind": "const",
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "id": {
+            "type": "Identifier",
+            "name": "calendar",
+            "start": 339,
+            "end": 347
+          },
+          "init": {
+            "type": "Literal",
+            "value": "hebrew",
+            "raw": "\"hebrew\"",
+            "start": 350,
+            "end": 358
+          },
+          "start": 339,
+          "end": 358
+        }
+      ],
+      "start": 333,
+      "end": 359
+    },
+    {
+      "type": "VariableDeclaration",
+      "kind": "const",
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "id": {
+            "type": "Identifier",
+            "name": "options",
+            "start": 366,
+            "end": 373
+          },
+          "init": {
+            "type": "ObjectExpression",
+            "properties": [
+              {
+                "type": "Property",
+                "kind": "init",
+                "key": {
+                  "type": "Identifier",
+                  "name": "overflow",
+                  "start": 378,
+                  "end": 386
+                },
+                "value": {
+                  "type": "Literal",
+                  "value": "reject",
+                  "raw": "\"reject\"",
+                  "start": 388,
+                  "end": 396
+                },
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "start": 378,
+                "end": 396
+              }
+            ],
+            "start": 376,
+            "end": 398
+          },
+          "start": 366,
+          "end": 398
+        }
+      ],
+      "start": 360,
+      "end": 399
+    },
+    {
+      "type": "VariableDeclaration",
+      "kind": "const",
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "id": {
+            "type": "Identifier",
+            "name": "leapYear",
+            "start": 407,
+            "end": 415
+          },
+          "init": {
+            "type": "Literal",
+            "value": 5784,
+            "raw": "5784",
+            "start": 418,
+            "end": 422
+          },
+          "start": 407,
+          "end": 422
+        }
+      ],
+      "start": 401,
+      "end": 423
+    },
+    {
+      "type": "VariableDeclaration",
+      "kind": "const",
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "id": {
+            "type": "Identifier",
+            "name": "monthLengths5784",
+            "start": 430,
+            "end": 446
+          },
+          "init": {
+            "type": "ArrayExpression",
+            "elements": [
+              {
+                "type": "Identifier",
+                "name": "undefined",
+                "start": 453,
+                "end": 462
+              },
+              {
+                "type": "ArrayExpression",
+                "elements": [
+                  {
+                    "type": "Literal",
+                    "value": "M01",
+                    "raw": "\"M01\"",
+                    "start": 467,
+                    "end": 472
+                  },
+                  {
+                    "type": "Literal",
+                    "value": 30,
+                    "raw": "30",
+                    "start": 474,
+                    "end": 476
+                  }
+                ],
+                "start": 466,
+                "end": 477
+              },
+              {
+                "type": "ArrayExpression",
+                "elements": [
+                  {
+                    "type": "Literal",
+                    "value": "M02",
+                    "raw": "\"M02\"",
+                    "start": 482,
+                    "end": 487
+                  },
+                  {
+                    "type": "Literal",
+                    "value": 29,
+                    "raw": "29",
+                    "start": 489,
+                    "end": 491
+                  }
+                ],
+                "start": 481,
+                "end": 492
+              },
+              {
+                "type": "ArrayExpression",
+                "elements": [
+                  {
+                    "type": "Literal",
+                    "value": "M03",
+                    "raw": "\"M03\"",
+                    "start": 497,
+                    "end": 502
+                  },
+                  {
+                    "type": "Literal",
+                    "value": 29,
+                    "raw": "29",
+                    "start": 504,
+                    "end": 506
+                  }
+                ],
+                "start": 496,
+                "end": 507
+              },
+              {
+                "type": "ArrayExpression",
+                "elements": [
+                  {
+                    "type": "Literal",
+                    "value": "M04",
+                    "raw": "\"M04\"",
+                    "start": 512,
+                    "end": 517
+                  },
+                  {
+                    "type": "Literal",
+                    "value": 29,
+                    "raw": "29",
+                    "start": 519,
+                    "end": 521
+                  }
+                ],
+                "start": 511,
+                "end": 522
+              },
+              {
+                "type": "ArrayExpression",
+                "elements": [
+                  {
+                    "type": "Literal",
+                    "value": "M05",
+                    "raw": "\"M05\"",
+                    "start": 527,
+                    "end": 532
+                  },
+                  {
+                    "type": "Literal",
+                    "value": 30,
+                    "raw": "30",
+                    "start": 534,
+                    "end": 536
+                  }
+                ],
+                "start": 526,
+                "end": 537
+              },
+              {
+                "type": "ArrayExpression",
+                "elements": [
+                  {
+                    "type": "Literal",
+                    "value": "M05L",
+                    "raw": "\"M05L\"",
+                    "start": 542,
+                    "end": 548
+                  },
+                  {
+                    "type": "Literal",
+                    "value": 30,
+                    "raw": "30",
+                    "start": 550,
+                    "end": 552
+                  }
+                ],
+                "start": 541,
+                "end": 553
+              },
+              {
+                "type": "ArrayExpression",
+                "elements": [
+                  {
+                    "type": "Literal",
+                    "value": "M06",
+                    "raw": "\"M06\"",
+                    "start": 558,
+                    "end": 563
+                  },
+                  {
+                    "type": "Literal",
+                    "value": 29,
+                    "raw": "29",
+                    "start": 565,
+                    "end": 567
+                  }
+                ],
+                "start": 557,
+                "end": 568
+              },
+              {
+                "type": "ArrayExpression",
+                "elements": [
+                  {
+                    "type": "Literal",
+                    "value": "M07",
+                    "raw": "\"M07\"",
+                    "start": 573,
+                    "end": 578
+                  },
+                  {
+                    "type": "Literal",
+                    "value": 30,
+                    "raw": "30",
+                    "start": 580,
+                    "end": 582
+                  }
+                ],
+                "start": 572,
+                "end": 583
+              },
+              {
+                "type": "ArrayExpression",
+                "elements": [
+                  {
+                    "type": "Literal",
+                    "value": "M08",
+                    "raw": "\"M08\"",
+                    "start": 588,
+                    "end": 593
+                  },
+                  {
+                    "type": "Literal",
+                    "value": 29,
+                    "raw": "29",
+                    "start": 595,
+                    "end": 597
+                  }
+                ],
+                "start": 587,
+                "end": 598
+              },
+              {
+                "type": "ArrayExpression",
+                "elements": [
+                  {
+                    "type": "Literal",
+                    "value": "M09",
+                    "raw": "\"M09\"",
+                    "start": 603,
+                    "end": 608
+                  },
+                  {
+                    "type": "Literal",
+                    "value": 30,
+                    "raw": "30",
+                    "start": 610,
+                    "end": 612
+                  }
+                ],
+                "start": 602,
+                "end": 613
+              },
+              {
+                "type": "ArrayExpression",
+                "elements": [
+                  {
+                    "type": "Literal",
+                    "value": "M10",
+                    "raw": "\"M10\"",
+                    "start": 618,
+                    "end": 623
+                  },
+                  {
+                    "type": "Literal",
+                    "value": 29,
+                    "raw": "29",
+                    "start": 625,
+                    "end": 627
+                  }
+                ],
+                "start": 617,
+                "end": 628
+              },
+              {
+                "type": "ArrayExpression",
+                "elements": [
+                  {
+                    "type": "Literal",
+                    "value": "M11",
+                    "raw": "\"M11\"",
+                    "start": 633,
+                    "end": 638
+                  },
+                  {
+                    "type": "Literal",
+                    "value": 30,
+                    "raw": "30",
+                    "start": 640,
+                    "end": 642
+                  }
+                ],
+                "start": 632,
+                "end": 643
+              },
+              {
+                "type": "ArrayExpression",
+                "elements": [
+                  {
+                    "type": "Literal",
+                    "value": "M12",
+                    "raw": "\"M12\"",
+                    "start": 648,
+                    "end": 653
+                  },
+                  {
+                    "type": "Literal",
+                    "value": 29,
+                    "raw": "29",
+                    "start": 655,
+                    "end": 657
+                  }
+                ],
+                "start": 647,
+                "end": 658
+              }
+            ],
+            "start": 449,
+            "end": 660
+          },
+          "start": 430,
+          "end": 660
+        }
+      ],
+      "start": 424,
+      "end": 661
+    },
+    {
+      "type": "ForStatement",
+      "init": {
+        "type": "VariableDeclaration",
+        "kind": "let",
+        "declarations": [
+          {
+            "type": "VariableDeclarator",
+            "id": {
+              "type": "Identifier",
+              "name": "month",
+              "start": 672,
+              "end": 677
+            },
+            "init": {
+              "type": "Literal",
+              "value": 1,
+              "raw": "1",
+              "start": 680,
+              "end": 681
+            },
+            "start": 672,
+            "end": 681
+          }
+        ],
+        "start": 668,
+        "end": 681
+      },
+      "test": {
+        "type": "BinaryExpression",
+        "left": {
+          "type": "Identifier",
+          "name": "month",
+          "start": 683,
+          "end": 688
+        },
+        "operator": "<",
+        "right": {
+          "type": "Literal",
+          "value": 14,
+          "raw": "14",
+          "start": 691,
+          "end": 693
+        },
+        "start": 683,
+        "end": 693
+      },
+      "update": {
+        "type": "UpdateExpression",
+        "operator": "++",
+        "prefix": false,
+        "argument": {
+          "type": "Identifier",
+          "name": "month",
+          "start": 695,
+          "end": 700
+        },
+        "start": 695,
+        "end": 702
+      },
+      "body": {
+        "type": "BlockStatement",
+        "body": [
+          {
+            "type": "VariableDeclaration",
+            "kind": "const",
+            "declarations": [
+              {
+                "type": "VariableDeclarator",
+                "id": {
+                  "type": "ArrayPattern",
+                  "elements": [
+                    {
+                      "type": "Identifier",
+                      "name": "monthCode",
+                      "start": 715,
+                      "end": 724
+                    },
+                    {
+                      "type": "Identifier",
+                      "name": "day",
+                      "start": 726,
+                      "end": 729
+                    }
+                  ],
+                  "start": 714,
+                  "end": 730
+                },
+                "init": {
+                  "type": "MemberExpression",
+                  "object": {
+                    "type": "Identifier",
+                    "name": "monthLengths5784",
+                    "start": 733,
+                    "end": 749
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "name": "month",
+                    "start": 750,
+                    "end": 755
+                  },
+                  "optional": false,
+                  "computed": true,
+                  "start": 733,
+                  "end": 756
+                },
+                "start": 714,
+                "end": 756
+              }
+            ],
+            "start": 708,
+            "end": 757
+          },
+          {
+            "type": "VariableDeclaration",
+            "kind": "const",
+            "declarations": [
+              {
+                "type": "VariableDeclarator",
+                "id": {
+                  "type": "Identifier",
+                  "name": "startOfMonth",
+                  "start": 767,
+                  "end": 779
+                },
+                "init": {
+                  "type": "CallExpression",
+                  "callee": {
+                    "type": "MemberExpression",
+                    "object": {
+                      "type": "MemberExpression",
+                      "object": {
+                        "type": "Identifier",
+                        "name": "Temporal",
+                        "start": 782,
+                        "end": 790
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "name": "ZonedDateTime",
+                        "start": 791,
+                        "end": 804
+                      },
+                      "optional": false,
+                      "computed": false,
+                      "start": 782,
+                      "end": 804
+                    },
+                    "property": {
+                      "type": "Identifier",
+                      "name": "from",
+                      "start": 805,
+                      "end": 809
+                    },
+                    "optional": false,
+                    "computed": false,
+                    "start": 782,
+                    "end": 809
+                  },
+                  "arguments": [
+                    {
+                      "type": "ObjectExpression",
+                      "properties": [
+                        {
+                          "type": "Property",
+                          "kind": "init",
+                          "key": {
+                            "type": "Identifier",
+                            "name": "year",
+                            "start": 812,
+                            "end": 816
+                          },
+                          "value": {
+                            "type": "Identifier",
+                            "name": "leapYear",
+                            "start": 818,
+                            "end": 826
+                          },
+                          "method": false,
+                          "shorthand": false,
+                          "computed": false,
+                          "start": 812,
+                          "end": 826
+                        },
+                        {
+                          "type": "Property",
+                          "kind": "init",
+                          "key": {
+                            "type": "Identifier",
+                            "name": "month",
+                            "start": 828,
+                            "end": 833
+                          },
+                          "value": {
+                            "type": "Identifier",
+                            "name": "month",
+                            "start": 828,
+                            "end": 833
+                          },
+                          "method": false,
+                          "shorthand": true,
+                          "computed": false,
+                          "start": 828,
+                          "end": 833
+                        },
+                        {
+                          "type": "Property",
+                          "kind": "init",
+                          "key": {
+                            "type": "Identifier",
+                            "name": "day",
+                            "start": 835,
+                            "end": 838
+                          },
+                          "value": {
+                            "type": "Literal",
+                            "value": 1,
+                            "raw": "1",
+                            "start": 840,
+                            "end": 841
+                          },
+                          "method": false,
+                          "shorthand": false,
+                          "computed": false,
+                          "start": 835,
+                          "end": 841
+                        },
+                        {
+                          "type": "Property",
+                          "kind": "init",
+                          "key": {
+                            "type": "Identifier",
+                            "name": "hour",
+                            "start": 843,
+                            "end": 847
+                          },
+                          "value": {
+                            "type": "Literal",
+                            "value": 12,
+                            "raw": "12",
+                            "start": 849,
+                            "end": 851
+                          },
+                          "method": false,
+                          "shorthand": false,
+                          "computed": false,
+                          "start": 843,
+                          "end": 851
+                        },
+                        {
+                          "type": "Property",
+                          "kind": "init",
+                          "key": {
+                            "type": "Identifier",
+                            "name": "minute",
+                            "start": 853,
+                            "end": 859
+                          },
+                          "value": {
+                            "type": "Literal",
+                            "value": 34,
+                            "raw": "34",
+                            "start": 861,
+                            "end": 863
+                          },
+                          "method": false,
+                          "shorthand": false,
+                          "computed": false,
+                          "start": 853,
+                          "end": 863
+                        },
+                        {
+                          "type": "Property",
+                          "kind": "init",
+                          "key": {
+                            "type": "Identifier",
+                            "name": "timeZone",
+                            "start": 865,
+                            "end": 873
+                          },
+                          "value": {
+                            "type": "Literal",
+                            "value": "UTC",
+                            "raw": "\"UTC\"",
+                            "start": 875,
+                            "end": 880
+                          },
+                          "method": false,
+                          "shorthand": false,
+                          "computed": false,
+                          "start": 865,
+                          "end": 880
+                        },
+                        {
+                          "type": "Property",
+                          "kind": "init",
+                          "key": {
+                            "type": "Identifier",
+                            "name": "calendar",
+                            "start": 882,
+                            "end": 890
+                          },
+                          "value": {
+                            "type": "Identifier",
+                            "name": "calendar",
+                            "start": 882,
+                            "end": 890
+                          },
+                          "method": false,
+                          "shorthand": true,
+                          "computed": false,
+                          "start": 882,
+                          "end": 890
+                        }
+                      ],
+                      "start": 810,
+                      "end": 892
+                    },
+                    {
+                      "type": "Identifier",
+                      "name": "options",
+                      "start": 894,
+                      "end": 901
+                    }
+                  ],
+                  "optional": false,
+                  "start": 782,
+                  "end": 902
+                },
+                "start": 767,
+                "end": 902
+              }
+            ],
+            "start": 761,
+            "end": 903
+          },
+          {
+            "type": "ExpressionStatement",
+            "expression": {
+              "type": "CallExpression",
+              "callee": {
+                "type": "MemberExpression",
+                "object": {
+                  "type": "Identifier",
+                  "name": "TemporalHelpers",
+                  "start": 906,
+                  "end": 921
+                },
+                "property": {
+                  "type": "Identifier",
+                  "name": "assertPlainDateTime",
+                  "start": 922,
+                  "end": 941
+                },
+                "optional": false,
+                "computed": false,
+                "start": 906,
+                "end": 941
+              },
+              "arguments": [
+                {
+                  "type": "CallExpression",
+                  "callee": {
+                    "type": "MemberExpression",
+                    "object": {
+                      "type": "Identifier",
+                      "name": "startOfMonth",
+                      "start": 947,
+                      "end": 959
+                    },
+                    "property": {
+                      "type": "Identifier",
+                      "name": "toPlainDateTime",
+                      "start": 960,
+                      "end": 975
+                    },
+                    "optional": false,
+                    "computed": false,
+                    "start": 947,
+                    "end": 975
+                  },
+                  "arguments": [],
+                  "optional": false,
+                  "start": 947,
+                  "end": 977
+                },
+                {
+                  "type": "Identifier",
+                  "name": "leapYear",
+                  "start": 983,
+                  "end": 991
+                },
+                {
+                  "type": "Identifier",
+                  "name": "month",
+                  "start": 993,
+                  "end": 998
+                },
+                {
+                  "type": "Identifier",
+                  "name": "monthCode",
+                  "start": 1000,
+                  "end": 1009
+                },
+                {
+                  "type": "Literal",
+                  "value": 1,
+                  "raw": "1",
+                  "start": 1011,
+                  "end": 1012
+                },
+                {
+                  "type": "Literal",
+                  "value": 12,
+                  "raw": "12",
+                  "start": 1014,
+                  "end": 1016
+                },
+                {
+                  "type": "Literal",
+                  "value": 34,
+                  "raw": "34",
+                  "start": 1018,
+                  "end": 1020
+                },
+                {
+                  "type": "Literal",
+                  "value": 0,
+                  "raw": "0",
+                  "start": 1022,
+                  "end": 1023
+                },
+                {
+                  "type": "Literal",
+                  "value": 0,
+                  "raw": "0",
+                  "start": 1025,
+                  "end": 1026
+                },
+                {
+                  "type": "Literal",
+                  "value": 0,
+                  "raw": "0",
+                  "start": 1028,
+                  "end": 1029
+                },
+                {
+                  "type": "Literal",
+                  "value": 0,
+                  "raw": "0",
+                  "start": 1031,
+                  "end": 1032
+                },
+                {
+                  "type": "TemplateLiteral",
+                  "quasis": [
+                    {
+                      "type": "TemplateElement",
+                      "value": {
+                        "raw": "Start of month ",
+                        "cooked": "Start of month "
+                      },
+                      "tail": false,
+                      "start": 1039,
+                      "end": 1054
+                    },
+                    {
+                      "type": "TemplateElement",
+                      "value": {
+                        "raw": " in leap year",
+                        "cooked": " in leap year"
+                      },
+                      "tail": true,
+                      "start": 1066,
+                      "end": 1079
+                    }
+                  ],
+                  "expressions": [
+                    {
+                      "type": "Identifier",
+                      "name": "monthCode",
+                      "start": 1056,
+                      "end": 1065
+                    }
+                  ],
+                  "start": 1038,
+                  "end": 1080
+                },
+                {
+                  "type": "Literal",
+                  "value": "am",
+                  "raw": "\"am\"",
+                  "start": 1086,
+                  "end": 1090
+                },
+                {
+                  "type": "Identifier",
+                  "name": "leapYear",
+                  "start": 1092,
+                  "end": 1100
+                }
+              ],
+              "optional": false,
+              "start": 906,
+              "end": 1104
+            },
+            "start": 906,
+            "end": 1105
+          },
+          {
+            "type": "VariableDeclaration",
+            "kind": "const",
+            "declarations": [
+              {
+                "type": "VariableDeclarator",
+                "id": {
+                  "type": "Identifier",
+                  "name": "endOfMonth",
+                  "start": 1115,
+                  "end": 1125
+                },
+                "init": {
+                  "type": "CallExpression",
+                  "callee": {
+                    "type": "MemberExpression",
+                    "object": {
+                      "type": "MemberExpression",
+                      "object": {
+                        "type": "Identifier",
+                        "name": "Temporal",
+                        "start": 1128,
+                        "end": 1136
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "name": "ZonedDateTime",
+                        "start": 1137,
+                        "end": 1150
+                      },
+                      "optional": false,
+                      "computed": false,
+                      "start": 1128,
+                      "end": 1150
+                    },
+                    "property": {
+                      "type": "Identifier",
+                      "name": "from",
+                      "start": 1151,
+                      "end": 1155
+                    },
+                    "optional": false,
+                    "computed": false,
+                    "start": 1128,
+                    "end": 1155
+                  },
+                  "arguments": [
+                    {
+                      "type": "ObjectExpression",
+                      "properties": [
+                        {
+                          "type": "Property",
+                          "kind": "init",
+                          "key": {
+                            "type": "Identifier",
+                            "name": "year",
+                            "start": 1158,
+                            "end": 1162
+                          },
+                          "value": {
+                            "type": "Identifier",
+                            "name": "leapYear",
+                            "start": 1164,
+                            "end": 1172
+                          },
+                          "method": false,
+                          "shorthand": false,
+                          "computed": false,
+                          "start": 1158,
+                          "end": 1172
+                        },
+                        {
+                          "type": "Property",
+                          "kind": "init",
+                          "key": {
+                            "type": "Identifier",
+                            "name": "month",
+                            "start": 1174,
+                            "end": 1179
+                          },
+                          "value": {
+                            "type": "Identifier",
+                            "name": "month",
+                            "start": 1174,
+                            "end": 1179
+                          },
+                          "method": false,
+                          "shorthand": true,
+                          "computed": false,
+                          "start": 1174,
+                          "end": 1179
+                        },
+                        {
+                          "type": "Property",
+                          "kind": "init",
+                          "key": {
+                            "type": "Identifier",
+                            "name": "day",
+                            "start": 1181,
+                            "end": 1184
+                          },
+                          "value": {
+                            "type": "Identifier",
+                            "name": "day",
+                            "start": 1181,
+                            "end": 1184
+                          },
+                          "method": false,
+                          "shorthand": true,
+                          "computed": false,
+                          "start": 1181,
+                          "end": 1184
+                        },
+                        {
+                          "type": "Property",
+                          "kind": "init",
+                          "key": {
+                            "type": "Identifier",
+                            "name": "hour",
+                            "start": 1186,
+                            "end": 1190
+                          },
+                          "value": {
+                            "type": "Literal",
+                            "value": 12,
+                            "raw": "12",
+                            "start": 1192,
+                            "end": 1194
+                          },
+                          "method": false,
+                          "shorthand": false,
+                          "computed": false,
+                          "start": 1186,
+                          "end": 1194
+                        },
+                        {
+                          "type": "Property",
+                          "kind": "init",
+                          "key": {
+                            "type": "Identifier",
+                            "name": "minute",
+                            "start": 1196,
+                            "end": 1202
+                          },
+                          "value": {
+                            "type": "Literal",
+                            "value": 34,
+                            "raw": "34",
+                            "start": 1204,
+                            "end": 1206
+                          },
+                          "method": false,
+                          "shorthand": false,
+                          "computed": false,
+                          "start": 1196,
+                          "end": 1206
+                        },
+                        {
+                          "type": "Property",
+                          "kind": "init",
+                          "key": {
+                            "type": "Identifier",
+                            "name": "timeZone",
+                            "start": 1208,
+                            "end": 1216
+                          },
+                          "value": {
+                            "type": "Literal",
+                            "value": "UTC",
+                            "raw": "\"UTC\"",
+                            "start": 1218,
+                            "end": 1223
+                          },
+                          "method": false,
+                          "shorthand": false,
+                          "computed": false,
+                          "start": 1208,
+                          "end": 1223
+                        },
+                        {
+                          "type": "Property",
+                          "kind": "init",
+                          "key": {
+                            "type": "Identifier",
+                            "name": "calendar",
+                            "start": 1225,
+                            "end": 1233
+                          },
+                          "value": {
+                            "type": "Identifier",
+                            "name": "calendar",
+                            "start": 1225,
+                            "end": 1233
+                          },
+                          "method": false,
+                          "shorthand": true,
+                          "computed": false,
+                          "start": 1225,
+                          "end": 1233
+                        }
+                      ],
+                      "start": 1156,
+                      "end": 1235
+                    },
+                    {
+                      "type": "Identifier",
+                      "name": "options",
+                      "start": 1237,
+                      "end": 1244
+                    }
+                  ],
+                  "optional": false,
+                  "start": 1128,
+                  "end": 1245
+                },
+                "start": 1115,
+                "end": 1245
+              }
+            ],
+            "start": 1109,
+            "end": 1246
+          },
+          {
+            "type": "ExpressionStatement",
+            "expression": {
+              "type": "CallExpression",
+              "callee": {
+                "type": "MemberExpression",
+                "object": {
+                  "type": "Identifier",
+                  "name": "TemporalHelpers",
+                  "start": 1249,
+                  "end": 1264
+                },
+                "property": {
+                  "type": "Identifier",
+                  "name": "assertPlainDateTime",
+                  "start": 1265,
+                  "end": 1284
+                },
+                "optional": false,
+                "computed": false,
+                "start": 1249,
+                "end": 1284
+              },
+              "arguments": [
+                {
+                  "type": "CallExpression",
+                  "callee": {
+                    "type": "MemberExpression",
+                    "object": {
+                      "type": "Identifier",
+                      "name": "endOfMonth",
+                      "start": 1290,
+                      "end": 1300
+                    },
+                    "property": {
+                      "type": "Identifier",
+                      "name": "toPlainDateTime",
+                      "start": 1301,
+                      "end": 1316
+                    },
+                    "optional": false,
+                    "computed": false,
+                    "start": 1290,
+                    "end": 1316
+                  },
+                  "arguments": [],
+                  "optional": false,
+                  "start": 1290,
+                  "end": 1318
+                },
+                {
+                  "type": "Identifier",
+                  "name": "leapYear",
+                  "start": 1324,
+                  "end": 1332
+                },
+                {
+                  "type": "Identifier",
+                  "name": "month",
+                  "start": 1334,
+                  "end": 1339
+                },
+                {
+                  "type": "Identifier",
+                  "name": "monthCode",
+                  "start": 1341,
+                  "end": 1350
+                },
+                {
+                  "type": "Identifier",
+                  "name": "day",
+                  "start": 1352,
+                  "end": 1355
+                },
+                {
+                  "type": "Literal",
+                  "value": 12,
+                  "raw": "12",
+                  "start": 1357,
+                  "end": 1359
+                },
+                {
+                  "type": "Literal",
+                  "value": 34,
+                  "raw": "34",
+                  "start": 1361,
+                  "end": 1363
+                },
+                {
+                  "type": "Literal",
+                  "value": 0,
+                  "raw": "0",
+                  "start": 1365,
+                  "end": 1366
+                },
+                {
+                  "type": "Literal",
+                  "value": 0,
+                  "raw": "0",
+                  "start": 1368,
+                  "end": 1369
+                },
+                {
+                  "type": "Literal",
+                  "value": 0,
+                  "raw": "0",
+                  "start": 1371,
+                  "end": 1372
+                },
+                {
+                  "type": "Literal",
+                  "value": 0,
+                  "raw": "0",
+                  "start": 1374,
+                  "end": 1375
+                },
+                {
+                  "type": "TemplateLiteral",
+                  "quasis": [
+                    {
+                      "type": "TemplateElement",
+                      "value": {
+                        "raw": "End of month ",
+                        "cooked": "End of month "
+                      },
+                      "tail": false,
+                      "start": 1382,
+                      "end": 1395
+                    },
+                    {
+                      "type": "TemplateElement",
+                      "value": {
+                        "raw": " in leap year",
+                        "cooked": " in leap year"
+                      },
+                      "tail": true,
+                      "start": 1407,
+                      "end": 1420
+                    }
+                  ],
+                  "expressions": [
+                    {
+                      "type": "Identifier",
+                      "name": "monthCode",
+                      "start": 1397,
+                      "end": 1406
+                    }
+                  ],
+                  "start": 1381,
+                  "end": 1421
+                },
+                {
+                  "type": "Literal",
+                  "value": "am",
+                  "raw": "\"am\"",
+                  "start": 1427,
+                  "end": 1431
+                },
+                {
+                  "type": "Identifier",
+                  "name": "leapYear",
+                  "start": 1433,
+                  "end": 1441
+                }
+              ],
+              "optional": false,
+              "start": 1249,
+              "end": 1445
+            },
+            "start": 1249,
+            "end": 1446
+          }
+        ],
+        "start": 704,
+        "end": 1448
+      },
+      "start": 663,
+      "end": 1448
+    }
+  ],
+  "sourceType": "script",
+  "hashbang": null,
+  "start": 0,
+  "end": 1450
+}

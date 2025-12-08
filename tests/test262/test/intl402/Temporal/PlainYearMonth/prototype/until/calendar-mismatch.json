@@ -1,0 +1,236 @@
+{
+  "type": "Program",
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "kind": "const",
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "id": {
+            "type": "Identifier",
+            "name": "plainYearMonth1",
+            "start": 280,
+            "end": 295
+          },
+          "init": {
+            "type": "NewExpression",
+            "callee": {
+              "type": "MemberExpression",
+              "object": {
+                "type": "Identifier",
+                "name": "Temporal",
+                "start": 302,
+                "end": 310
+              },
+              "property": {
+                "type": "Identifier",
+                "name": "PlainYearMonth",
+                "start": 311,
+                "end": 325
+              },
+              "optional": false,
+              "computed": false,
+              "start": 302,
+              "end": 325
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "value": 2000,
+                "raw": "2000",
+                "start": 326,
+                "end": 330
+              },
+              {
+                "type": "Literal",
+                "value": 1,
+                "raw": "1",
+                "start": 332,
+                "end": 333
+              },
+              {
+                "type": "Literal",
+                "value": "gregory",
+                "raw": "\"gregory\"",
+                "start": 335,
+                "end": 344
+              },
+              {
+                "type": "Literal",
+                "value": 1,
+                "raw": "1",
+                "start": 346,
+                "end": 347
+              }
+            ],
+            "start": 298,
+            "end": 348
+          },
+          "start": 280,
+          "end": 348
+        }
+      ],
+      "start": 274,
+      "end": 349
+    },
+    {
+      "type": "VariableDeclaration",
+      "kind": "const",
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "id": {
+            "type": "Identifier",
+            "name": "plainYearMonth2",
+            "start": 356,
+            "end": 371
+          },
+          "init": {
+            "type": "NewExpression",
+            "callee": {
+              "type": "MemberExpression",
+              "object": {
+                "type": "Identifier",
+                "name": "Temporal",
+                "start": 378,
+                "end": 386
+              },
+              "property": {
+                "type": "Identifier",
+                "name": "PlainYearMonth",
+                "start": 387,
+                "end": 401
+              },
+              "optional": false,
+              "computed": false,
+              "start": 378,
+              "end": 401
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "value": 2000,
+                "raw": "2000",
+                "start": 402,
+                "end": 406
+              },
+              {
+                "type": "Literal",
+                "value": 1,
+                "raw": "1",
+                "start": 408,
+                "end": 409
+              },
+              {
+                "type": "Literal",
+                "value": "japanese",
+                "raw": "\"japanese\"",
+                "start": 411,
+                "end": 421
+              },
+              {
+                "type": "Literal",
+                "value": 1,
+                "raw": "1",
+                "start": 423,
+                "end": 424
+              }
+            ],
+            "start": 374,
+            "end": 425
+          },
+          "start": 356,
+          "end": 425
+        }
+      ],
+      "start": 350,
+      "end": 426
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "MemberExpression",
+          "object": {
+            "type": "Identifier",
+            "name": "assert",
+            "start": 427,
+            "end": 433
+          },
+          "property": {
+            "type": "Identifier",
+            "name": "throws",
+            "start": 434,
+            "end": 440
+          },
+          "optional": false,
+          "computed": false,
+          "start": 427,
+          "end": 440
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "name": "RangeError",
+            "start": 441,
+            "end": 451
+          },
+          {
+            "type": "ArrowFunctionExpression",
+            "expression": true,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "CallExpression",
+              "callee": {
+                "type": "MemberExpression",
+                "object": {
+                  "type": "Identifier",
+                  "name": "plainYearMonth1",
+                  "start": 459,
+                  "end": 474
+                },
+                "property": {
+                  "type": "Identifier",
+                  "name": "until",
+                  "start": 475,
+                  "end": 480
+                },
+                "optional": false,
+                "computed": false,
+                "start": 459,
+                "end": 480
+              },
+              "arguments": [
+                {
+                  "type": "Identifier",
+                  "name": "plainYearMonth2",
+                  "start": 481,
+                  "end": 496
+                }
+              ],
+              "optional": false,
+              "start": 459,
+              "end": 497
+            },
+            "id": null,
+            "generator": false,
+            "start": 453,
+            "end": 497
+          }
+        ],
+        "optional": false,
+        "start": 427,
+        "end": 498
+      },
+      "start": 427,
+      "end": 499
+    }
+  ],
+  "sourceType": "script",
+  "hashbang": null,
+  "start": 0,
+  "end": 500
+}

@@ -506,8 +506,8 @@
                     "operator": "-",
                     "argument": {
                       "type": "Literal",
-                      "value": 271814,
-                      "raw": "271814",
+                      "value": 271823,
+                      "raw": "271823",
                       "start": 1009,
                       "end": 1015
                     },
@@ -559,8 +559,8 @@
                   },
                   {
                     "type": "Literal",
-                    "value": 275767,
-                    "raw": "275767",
+                    "value": 275747,
+                    "raw": "275747",
                     "start": 1046,
                     "end": 1052
                   },
@@ -594,8 +594,8 @@
                   },
                   {
                     "type": "Literal",
-                    "value": 275767,
-                    "raw": "275767",
+                    "value": 275747,
+                    "raw": "275747",
                     "start": 1074,
                     "end": 1080
                   }
