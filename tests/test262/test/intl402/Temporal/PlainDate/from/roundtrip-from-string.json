@@ -1,0 +1,2985 @@
+{
+  "type": "Program",
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "kind": "const",
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "id": {
+            "type": "Identifier",
+            "name": "year2000Cases",
+            "start": 357,
+            "end": 370
+          },
+          "init": {
+            "type": "ArrayExpression",
+            "elements": [
+              {
+                "type": "ArrayExpression",
+                "elements": [
+                  {
+                    "type": "Literal",
+                    "value": "buddhist",
+                    "raw": "\"buddhist\"",
+                    "start": 378,
+                    "end": 388
+                  },
+                  {
+                    "type": "Literal",
+                    "value": 2543,
+                    "raw": "2543",
+                    "start": 390,
+                    "end": 394
+                  },
+                  {
+                    "type": "Literal",
+                    "value": 1,
+                    "raw": "1",
+                    "start": 396,
+                    "end": 397
+                  },
+                  {
+                    "type": "Literal",
+                    "value": "M01",
+                    "raw": "\"M01\"",
+                    "start": 399,
+                    "end": 404
+                  },
+                  {
+                    "type": "Literal",
+                    "value": 1,
+                    "raw": "1",
+                    "start": 406,
+                    "end": 407
+                  },
+                  {
+                    "type": "Literal",
+                    "value": "be",
+                    "raw": "\"be\"",
+                    "start": 409,
+                    "end": 413
+                  },
+                  {
+                    "type": "Literal",
+                    "value": 2543,
+                    "raw": "2543",
+                    "start": 415,
+                    "end": 419
+                  }
+                ],
+                "start": 377,
+                "end": 420
+              },
+              {
+                "type": "ArrayExpression",
+                "elements": [
+                  {
+                    "type": "Literal",
+                    "value": "chinese",
+                    "raw": "\"chinese\"",
+                    "start": 425,
+                    "end": 434
+                  },
+                  {
+                    "type": "Literal",
+                    "value": 1999,
+                    "raw": "1999",
+                    "start": 436,
+                    "end": 440
+                  },
+                  {
+                    "type": "Literal",
+                    "value": 11,
+                    "raw": "11",
+                    "start": 442,
+                    "end": 444
+                  },
+                  {
+                    "type": "Literal",
+                    "value": "M11",
+                    "raw": "\"M11\"",
+                    "start": 446,
+                    "end": 451
+                  },
+                  {
+                    "type": "Literal",
+                    "value": 25,
+                    "raw": "25",
+                    "start": 453,
+                    "end": 455
+                  },
+                  {
+                    "type": "Identifier",
+                    "name": "undefined",
+                    "start": 457,
+                    "end": 466
+                  },
+                  {
+                    "type": "Identifier",
+                    "name": "undefined",
+                    "start": 468,
+                    "end": 477
+                  }
+                ],
+                "start": 424,
+                "end": 478
+              },
+              {
+                "type": "ArrayExpression",
+                "elements": [
+                  {
+                    "type": "Literal",
+                    "value": "coptic",
+                    "raw": "\"coptic\"",
+                    "start": 483,
+                    "end": 491
+                  },
+                  {
+                    "type": "Literal",
+                    "value": 1716,
+                    "raw": "1716",
+                    "start": 493,
+                    "end": 497
+                  },
+                  {
+                    "type": "Literal",
+                    "value": 4,
+                    "raw": "4",
+                    "start": 499,
+                    "end": 500
+                  },
+                  {
+                    "type": "Literal",
+                    "value": "M04",
+                    "raw": "\"M04\"",
+                    "start": 502,
+                    "end": 507
+                  },
+                  {
+                    "type": "Literal",
+                    "value": 22,
+                    "raw": "22",
+                    "start": 509,
+                    "end": 511
+                  },
+                  {
+                    "type": "Literal",
+                    "value": "am",
+                    "raw": "\"am\"",
+                    "start": 513,
+                    "end": 517
+                  },
+                  {
+                    "type": "Literal",
+                    "value": 1716,
+                    "raw": "1716",
+                    "start": 519,
+                    "end": 523
+                  }
+                ],
+                "start": 482,
+                "end": 524
+              },
+              {
+                "type": "ArrayExpression",
+                "elements": [
+                  {
+                    "type": "Literal",
+                    "value": "dangi",
+                    "raw": "\"dangi\"",
+                    "start": 529,
+                    "end": 536
+                  },
+                  {
+                    "type": "Literal",
+                    "value": 1999,
+                    "raw": "1999",
+                    "start": 538,
+                    "end": 542
+                  },
+                  {
+                    "type": "Literal",
+                    "value": 11,
+                    "raw": "11",
+                    "start": 544,
+                    "end": 546
+                  },
+                  {
+                    "type": "Literal",
+                    "value": "M11",
+                    "raw": "\"M11\"",
+                    "start": 548,
+                    "end": 553
+                  },
+                  {
+                    "type": "Literal",
+                    "value": 25,
+                    "raw": "25",
+                    "start": 555,
+                    "end": 557
+                  },
+                  {
+                    "type": "Identifier",
+                    "name": "undefined",
+                    "start": 559,
+                    "end": 568
+                  },
+                  {
+                    "type": "Identifier",
+                    "name": "undefined",
+                    "start": 570,
+                    "end": 579
+                  }
+                ],
+                "start": 528,
+                "end": 580
+              },
+              {
+                "type": "ArrayExpression",
+                "elements": [
+                  {
+                    "type": "Literal",
+                    "value": "ethioaa",
+                    "raw": "\"ethioaa\"",
+                    "start": 585,
+                    "end": 594
+                  },
+                  {
+                    "type": "Literal",
+                    "value": 7492,
+                    "raw": "7492",
+                    "start": 596,
+                    "end": 600
+                  },
+                  {
+                    "type": "Literal",
+                    "value": 4,
+                    "raw": "4",
+                    "start": 602,
+                    "end": 603
+                  },
+                  {
+                    "type": "Literal",
+                    "value": "M04",
+                    "raw": "\"M04\"",
+                    "start": 605,
+                    "end": 610
+                  },
+                  {
+                    "type": "Literal",
+                    "value": 22,
+                    "raw": "22",
+                    "start": 612,
+                    "end": 614
+                  },
+                  {
+                    "type": "Literal",
+                    "value": "aa",
+                    "raw": "\"aa\"",
+                    "start": 616,
+                    "end": 620
+                  },
+                  {
+                    "type": "Literal",
+                    "value": 7492,
+                    "raw": "7492",
+                    "start": 622,
+                    "end": 626
+                  }
+                ],
+                "start": 584,
+                "end": 627
+              },
+              {
+                "type": "ArrayExpression",
+                "elements": [
+                  {
+                    "type": "Literal",
+                    "value": "ethiopic",
+                    "raw": "\"ethiopic\"",
+                    "start": 632,
+                    "end": 642
+                  },
+                  {
+                    "type": "Literal",
+                    "value": 1992,
+                    "raw": "1992",
+                    "start": 644,
+                    "end": 648
+                  },
+                  {
+                    "type": "Literal",
+                    "value": 4,
+                    "raw": "4",
+                    "start": 650,
+                    "end": 651
+                  },
+                  {
+                    "type": "Literal",
+                    "value": "M04",
+                    "raw": "\"M04\"",
+                    "start": 653,
+                    "end": 658
+                  },
+                  {
+                    "type": "Literal",
+                    "value": 22,
+                    "raw": "22",
+                    "start": 660,
+                    "end": 662
+                  },
+                  {
+                    "type": "Literal",
+                    "value": "am",
+                    "raw": "\"am\"",
+                    "start": 664,
+                    "end": 668
+                  },
+                  {
+                    "type": "Literal",
+                    "value": 1992,
+                    "raw": "1992",
+                    "start": 670,
+                    "end": 674
+                  }
+                ],
+                "start": 631,
+                "end": 675
+              },
+              {
+                "type": "ArrayExpression",
+                "elements": [
+                  {
+                    "type": "Literal",
+                    "value": "gregory",
+                    "raw": "\"gregory\"",
+                    "start": 680,
+                    "end": 689
+                  },
+                  {
+                    "type": "Literal",
+                    "value": 2000,
+                    "raw": "2000",
+                    "start": 691,
+                    "end": 695
+                  },
+                  {
+                    "type": "Literal",
+                    "value": 1,
+                    "raw": "1",
+                    "start": 697,
+                    "end": 698
+                  },
+                  {
+                    "type": "Literal",
+                    "value": "M01",
+                    "raw": "\"M01\"",
+                    "start": 700,
+                    "end": 705
+                  },
+                  {
+                    "type": "Literal",
+                    "value": 1,
+                    "raw": "1",
+                    "start": 707,
+                    "end": 708
+                  },
+                  {
+                    "type": "Literal",
+                    "value": "ce",
+                    "raw": "\"ce\"",
+                    "start": 710,
+                    "end": 714
+                  },
+                  {
+                    "type": "Literal",
+                    "value": 2000,
+                    "raw": "2000",
+                    "start": 716,
+                    "end": 720
+                  }
+                ],
+                "start": 679,
+                "end": 721
+              },
+              {
+                "type": "ArrayExpression",
+                "elements": [
+                  {
+                    "type": "Literal",
+                    "value": "hebrew",
+                    "raw": "\"hebrew\"",
+                    "start": 726,
+                    "end": 734
+                  },
+                  {
+                    "type": "Literal",
+                    "value": 5760,
+                    "raw": "5760",
+                    "start": 736,
+                    "end": 740
+                  },
+                  {
+                    "type": "Literal",
+                    "value": 4,
+                    "raw": "4",
+                    "start": 742,
+                    "end": 743
+                  },
+                  {
+                    "type": "Literal",
+                    "value": "M04",
+                    "raw": "\"M04\"",
+                    "start": 745,
+                    "end": 750
+                  },
+                  {
+                    "type": "Literal",
+                    "value": 23,
+                    "raw": "23",
+                    "start": 752,
+                    "end": 754
+                  },
+                  {
+                    "type": "Literal",
+                    "value": "am",
+                    "raw": "\"am\"",
+                    "start": 756,
+                    "end": 760
+                  },
+                  {
+                    "type": "Literal",
+                    "value": 5760,
+                    "raw": "5760",
+                    "start": 762,
+                    "end": 766
+                  }
+                ],
+                "start": 725,
+                "end": 767
+              },
+              {
+                "type": "ArrayExpression",
+                "elements": [
+                  {
+                    "type": "Literal",
+                    "value": "indian",
+                    "raw": "\"indian\"",
+                    "start": 772,
+                    "end": 780
+                  },
+                  {
+                    "type": "Literal",
+                    "value": 1921,
+                    "raw": "1921",
+                    "start": 782,
+                    "end": 786
+                  },
+                  {
+                    "type": "Literal",
+                    "value": 10,
+                    "raw": "10",
+                    "start": 788,
+                    "end": 790
+                  },
+                  {
+                    "type": "Literal",
+                    "value": "M10",
+                    "raw": "\"M10\"",
+                    "start": 792,
+                    "end": 797
+                  },
+                  {
+                    "type": "Literal",
+                    "value": 11,
+                    "raw": "11",
+                    "start": 799,
+                    "end": 801
+                  },
+                  {
+                    "type": "Literal",
+                    "value": "shaka",
+                    "raw": "\"shaka\"",
+                    "start": 803,
+                    "end": 810
+                  },
+                  {
+                    "type": "Literal",
+                    "value": 1921,
+                    "raw": "1921",
+                    "start": 812,
+                    "end": 816
+                  }
+                ],
+                "start": 771,
+                "end": 817
+              },
+              {
+                "type": "ArrayExpression",
+                "elements": [
+                  {
+                    "type": "Literal",
+                    "value": "islamic-civil",
+                    "raw": "\"islamic-civil\"",
+                    "start": 822,
+                    "end": 837
+                  },
+                  {
+                    "type": "Literal",
+                    "value": 1420,
+                    "raw": "1420",
+                    "start": 839,
+                    "end": 843
+                  },
+                  {
+                    "type": "Literal",
+                    "value": 9,
+                    "raw": "9",
+                    "start": 845,
+                    "end": 846
+                  },
+                  {
+                    "type": "Literal",
+                    "value": "M09",
+                    "raw": "\"M09\"",
+                    "start": 848,
+                    "end": 853
+                  },
+                  {
+                    "type": "Literal",
+                    "value": 24,
+                    "raw": "24",
+                    "start": 855,
+                    "end": 857
+                  },
+                  {
+                    "type": "Literal",
+                    "value": "ah",
+                    "raw": "\"ah\"",
+                    "start": 859,
+                    "end": 863
+                  },
+                  {
+                    "type": "Literal",
+                    "value": 1420,
+                    "raw": "1420",
+                    "start": 865,
+                    "end": 869
+                  }
+                ],
+                "start": 821,
+                "end": 870
+              },
+              {
+                "type": "ArrayExpression",
+                "elements": [
+                  {
+                    "type": "Literal",
+                    "value": "islamic-tbla",
+                    "raw": "\"islamic-tbla\"",
+                    "start": 875,
+                    "end": 889
+                  },
+                  {
+                    "type": "Literal",
+                    "value": 1420,
+                    "raw": "1420",
+                    "start": 891,
+                    "end": 895
+                  },
+                  {
+                    "type": "Literal",
+                    "value": 9,
+                    "raw": "9",
+                    "start": 897,
+                    "end": 898
+                  },
+                  {
+                    "type": "Literal",
+                    "value": "M09",
+                    "raw": "\"M09\"",
+                    "start": 900,
+                    "end": 905
+                  },
+                  {
+                    "type": "Literal",
+                    "value": 25,
+                    "raw": "25",
+                    "start": 907,
+                    "end": 909
+                  },
+                  {
+                    "type": "Literal",
+                    "value": "ah",
+                    "raw": "\"ah\"",
+                    "start": 911,
+                    "end": 915
+                  },
+                  {
+                    "type": "Literal",
+                    "value": 1420,
+                    "raw": "1420",
+                    "start": 917,
+                    "end": 921
+                  }
+                ],
+                "start": 874,
+                "end": 922
+              },
+              {
+                "type": "ArrayExpression",
+                "elements": [
+                  {
+                    "type": "Literal",
+                    "value": "islamic-umalqura",
+                    "raw": "\"islamic-umalqura\"",
+                    "start": 927,
+                    "end": 945
+                  },
+                  {
+                    "type": "Literal",
+                    "value": 1420,
+                    "raw": "1420",
+                    "start": 947,
+                    "end": 951
+                  },
+                  {
+                    "type": "Literal",
+                    "value": 9,
+                    "raw": "9",
+                    "start": 953,
+                    "end": 954
+                  },
+                  {
+                    "type": "Literal",
+                    "value": "M09",
+                    "raw": "\"M09\"",
+                    "start": 956,
+                    "end": 961
+                  },
+                  {
+                    "type": "Literal",
+                    "value": 24,
+                    "raw": "24",
+                    "start": 963,
+                    "end": 965
+                  },
+                  {
+                    "type": "Literal",
+                    "value": "ah",
+                    "raw": "\"ah\"",
+                    "start": 967,
+                    "end": 971
+                  },
+                  {
+                    "type": "Literal",
+                    "value": 1420,
+                    "raw": "1420",
+                    "start": 973,
+                    "end": 977
+                  }
+                ],
+                "start": 926,
+                "end": 978
+              },
+              {
+                "type": "ArrayExpression",
+                "elements": [
+                  {
+                    "type": "Literal",
+                    "value": "japanese",
+                    "raw": "\"japanese\"",
+                    "start": 983,
+                    "end": 993
+                  },
+                  {
+                    "type": "Literal",
+                    "value": 2000,
+                    "raw": "2000",
+                    "start": 995,
+                    "end": 999
+                  },
+                  {
+                    "type": "Literal",
+                    "value": 1,
+                    "raw": "1",
+                    "start": 1001,
+                    "end": 1002
+                  },
+                  {
+                    "type": "Literal",
+                    "value": "M01",
+                    "raw": "\"M01\"",
+                    "start": 1004,
+                    "end": 1009
+                  },
+                  {
+                    "type": "Literal",
+                    "value": 1,
+                    "raw": "1",
+                    "start": 1011,
+                    "end": 1012
+                  },
+                  {
+                    "type": "Literal",
+                    "value": "heisei",
+                    "raw": "\"heisei\"",
+                    "start": 1014,
+                    "end": 1022
+                  },
+                  {
+                    "type": "Literal",
+                    "value": 12,
+                    "raw": "12",
+                    "start": 1024,
+                    "end": 1026
+                  }
+                ],
+                "start": 982,
+                "end": 1027
+              },
+              {
+                "type": "ArrayExpression",
+                "elements": [
+                  {
+                    "type": "Literal",
+                    "value": "persian",
+                    "raw": "\"persian\"",
+                    "start": 1032,
+                    "end": 1041
+                  },
+                  {
+                    "type": "Literal",
+                    "value": 1378,
+                    "raw": "1378",
+                    "start": 1043,
+                    "end": 1047
+                  },
+                  {
+                    "type": "Literal",
+                    "value": 10,
+                    "raw": "10",
+                    "start": 1049,
+                    "end": 1051
+                  },
+                  {
+                    "type": "Literal",
+                    "value": "M10",
+                    "raw": "\"M10\"",
+                    "start": 1053,
+                    "end": 1058
+                  },
+                  {
+                    "type": "Literal",
+                    "value": 11,
+                    "raw": "11",
+                    "start": 1060,
+                    "end": 1062
+                  },
+                  {
+                    "type": "Literal",
+                    "value": "ap",
+                    "raw": "\"ap\"",
+                    "start": 1064,
+                    "end": 1068
+                  },
+                  {
+                    "type": "Literal",
+                    "value": 1378,
+                    "raw": "1378",
+                    "start": 1070,
+                    "end": 1074
+                  }
+                ],
+                "start": 1031,
+                "end": 1075
+              },
+              {
+                "type": "ArrayExpression",
+                "elements": [
+                  {
+                    "type": "Literal",
+                    "value": "roc",
+                    "raw": "\"roc\"",
+                    "start": 1080,
+                    "end": 1085
+                  },
+                  {
+                    "type": "Literal",
+                    "value": 89,
+                    "raw": "89",
+                    "start": 1087,
+                    "end": 1089
+                  },
+                  {
+                    "type": "Literal",
+                    "value": 1,
+                    "raw": "1",
+                    "start": 1091,
+                    "end": 1092
+                  },
+                  {
+                    "type": "Literal",
+                    "value": "M01",
+                    "raw": "\"M01\"",
+                    "start": 1094,
+                    "end": 1099
+                  },
+                  {
+                    "type": "Literal",
+                    "value": 1,
+                    "raw": "1",
+                    "start": 1101,
+                    "end": 1102
+                  },
+                  {
+                    "type": "Literal",
+                    "value": "roc",
+                    "raw": "\"roc\"",
+                    "start": 1104,
+                    "end": 1109
+                  },
+                  {
+                    "type": "Literal",
+                    "value": 89,
+                    "raw": "89",
+                    "start": 1111,
+                    "end": 1113
+                  }
+                ],
+                "start": 1079,
+                "end": 1114
+              }
+            ],
+            "start": 373,
+            "end": 1117
+          },
+          "start": 357,
+          "end": 1117
+        }
+      ],
+      "start": 351,
+      "end": 1118
+    },
+    {
+      "type": "ForOfStatement",
+      "await": false,
+      "left": {
+        "type": "VariableDeclaration",
+        "kind": "const",
+        "declarations": [
+          {
+            "type": "VariableDeclarator",
+            "id": {
+              "type": "ArrayPattern",
+              "elements": [
+                {
+                  "type": "Identifier",
+                  "name": "calendar",
+                  "start": 1132,
+                  "end": 1140
+                },
+                {
+                  "type": "Identifier",
+                  "name": "year",
+                  "start": 1142,
+                  "end": 1146
+                },
+                {
+                  "type": "Identifier",
+                  "name": "month",
+                  "start": 1148,
+                  "end": 1153
+                },
+                {
+                  "type": "Identifier",
+                  "name": "monthCode",
+                  "start": 1155,
+                  "end": 1164
+                },
+                {
+                  "type": "Identifier",
+                  "name": "day",
+                  "start": 1166,
+                  "end": 1169
+                },
+                {
+                  "type": "Identifier",
+                  "name": "era",
+                  "start": 1171,
+                  "end": 1174
+                },
+                {
+                  "type": "Identifier",
+                  "name": "eraYear",
+                  "start": 1176,
+                  "end": 1183
+                },
+                {
+                  "type": "Identifier",
+                  "name": "descr",
+                  "start": 1185,
+                  "end": 1190
+                }
+              ],
+              "start": 1131,
+              "end": 1191
+            },
+            "init": null,
+            "start": 1131,
+            "end": 1191
+          }
+        ],
+        "start": 1125,
+        "end": 1191
+      },
+      "right": {
+        "type": "Identifier",
+        "name": "year2000Cases",
+        "start": 1195,
+        "end": 1208
+      },
+      "body": {
+        "type": "BlockStatement",
+        "body": [
+          {
+            "type": "VariableDeclaration",
+            "kind": "const",
+            "declarations": [
+              {
+                "type": "VariableDeclarator",
+                "id": {
+                  "type": "Identifier",
+                  "name": "string",
+                  "start": 1220,
+                  "end": 1226
+                },
+                "init": {
+                  "type": "TemplateLiteral",
+                  "quasis": [
+                    {
+                      "type": "TemplateElement",
+                      "value": {
+                        "raw": "2000-01-01[u-ca=",
+                        "cooked": "2000-01-01[u-ca="
+                      },
+                      "tail": false,
+                      "start": 1230,
+                      "end": 1246
+                    },
+                    {
+                      "type": "TemplateElement",
+                      "value": {
+                        "raw": "]",
+                        "cooked": "]"
+                      },
+                      "tail": true,
+                      "start": 1257,
+                      "end": 1258
+                    }
+                  ],
+                  "expressions": [
+                    {
+                      "type": "Identifier",
+                      "name": "calendar",
+                      "start": 1248,
+                      "end": 1256
+                    }
+                  ],
+                  "start": 1229,
+                  "end": 1259
+                },
+                "start": 1220,
+                "end": 1259
+              }
+            ],
+            "start": 1214,
+            "end": 1260
+          },
+          {
+            "type": "VariableDeclaration",
+            "kind": "const",
+            "declarations": [
+              {
+                "type": "VariableDeclarator",
+                "id": {
+                  "type": "Identifier",
+                  "name": "dateFromString",
+                  "start": 1269,
+                  "end": 1283
+                },
+                "init": {
+                  "type": "CallExpression",
+                  "callee": {
+                    "type": "MemberExpression",
+                    "object": {
+                      "type": "MemberExpression",
+                      "object": {
+                        "type": "Identifier",
+                        "name": "Temporal",
+                        "start": 1286,
+                        "end": 1294
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "name": "PlainDate",
+                        "start": 1295,
+                        "end": 1304
+                      },
+                      "optional": false,
+                      "computed": false,
+                      "start": 1286,
+                      "end": 1304
+                    },
+                    "property": {
+                      "type": "Identifier",
+                      "name": "from",
+                      "start": 1305,
+                      "end": 1309
+                    },
+                    "optional": false,
+                    "computed": false,
+                    "start": 1286,
+                    "end": 1309
+                  },
+                  "arguments": [
+                    {
+                      "type": "Identifier",
+                      "name": "string",
+                      "start": 1310,
+                      "end": 1316
+                    }
+                  ],
+                  "optional": false,
+                  "start": 1286,
+                  "end": 1317
+                },
+                "start": 1269,
+                "end": 1317
+              }
+            ],
+            "start": 1263,
+            "end": 1318
+          },
+          {
+            "type": "ExpressionStatement",
+            "expression": {
+              "type": "CallExpression",
+              "callee": {
+                "type": "MemberExpression",
+                "object": {
+                  "type": "Identifier",
+                  "name": "TemporalHelpers",
+                  "start": 1321,
+                  "end": 1336
+                },
+                "property": {
+                  "type": "Identifier",
+                  "name": "assertPlainDate",
+                  "start": 1337,
+                  "end": 1352
+                },
+                "optional": false,
+                "computed": false,
+                "start": 1321,
+                "end": 1352
+              },
+              "arguments": [
+                {
+                  "type": "Identifier",
+                  "name": "dateFromString",
+                  "start": 1358,
+                  "end": 1372
+                },
+                {
+                  "type": "Identifier",
+                  "name": "year",
+                  "start": 1378,
+                  "end": 1382
+                },
+                {
+                  "type": "Identifier",
+                  "name": "month",
+                  "start": 1384,
+                  "end": 1389
+                },
+                {
+                  "type": "Identifier",
+                  "name": "monthCode",
+                  "start": 1391,
+                  "end": 1400
+                },
+                {
+                  "type": "Identifier",
+                  "name": "day",
+                  "start": 1402,
+                  "end": 1405
+                },
+                {
+                  "type": "TemplateLiteral",
+                  "quasis": [
+                    {
+                      "type": "TemplateElement",
+                      "value": {
+                        "raw": "",
+                        "cooked": ""
+                      },
+                      "tail": false,
+                      "start": 1412,
+                      "end": 1412
+                    },
+                    {
+                      "type": "TemplateElement",
+                      "value": {
+                        "raw": " - created from string ",
+                        "cooked": " - created from string "
+                      },
+                      "tail": false,
+                      "start": 1420,
+                      "end": 1443
+                    },
+                    {
+                      "type": "TemplateElement",
+                      "value": {
+                        "raw": "",
+                        "cooked": ""
+                      },
+                      "tail": true,
+                      "start": 1452,
+                      "end": 1452
+                    }
+                  ],
+                  "expressions": [
+                    {
+                      "type": "Identifier",
+                      "name": "descr",
+                      "start": 1414,
+                      "end": 1419
+                    },
+                    {
+                      "type": "Identifier",
+                      "name": "string",
+                      "start": 1445,
+                      "end": 1451
+                    }
+                  ],
+                  "start": 1411,
+                  "end": 1453
+                },
+                {
+                  "type": "Identifier",
+                  "name": "era",
+                  "start": 1459,
+                  "end": 1462
+                },
+                {
+                  "type": "Identifier",
+                  "name": "eraYear",
+                  "start": 1464,
+                  "end": 1471
+                }
+              ],
+              "optional": false,
+              "start": 1321,
+              "end": 1472
+            },
+            "start": 1321,
+            "end": 1473
+          }
+        ],
+        "start": 1210,
+        "end": 1475
+      },
+      "start": 1120,
+      "end": 1475
+    },
+    {
+      "type": "VariableDeclaration",
+      "kind": "const",
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "id": {
+            "type": "Identifier",
+            "name": "year1Cases",
+            "start": 1483,
+            "end": 1493
+          },
+          "init": {
+            "type": "ArrayExpression",
+            "elements": [
+              {
+                "type": "ArrayExpression",
+                "elements": [
+                  {
+                    "type": "Literal",
+                    "value": "buddhist",
+                    "raw": "\"buddhist\"",
+                    "start": 1501,
+                    "end": 1511
+                  },
+                  {
+                    "type": "Literal",
+                    "value": 544,
+                    "raw": "544",
+                    "start": 1513,
+                    "end": 1516
+                  },
+                  {
+                    "type": "Literal",
+                    "value": 1,
+                    "raw": "1",
+                    "start": 1518,
+                    "end": 1519
+                  },
+                  {
+                    "type": "Literal",
+                    "value": "M01",
+                    "raw": "\"M01\"",
+                    "start": 1521,
+                    "end": 1526
+                  },
+                  {
+                    "type": "Literal",
+                    "value": 1,
+                    "raw": "1",
+                    "start": 1528,
+                    "end": 1529
+                  },
+                  {
+                    "type": "Literal",
+                    "value": "be",
+                    "raw": "\"be\"",
+                    "start": 1531,
+                    "end": 1535
+                  },
+                  {
+                    "type": "Literal",
+                    "value": 544,
+                    "raw": "544",
+                    "start": 1537,
+                    "end": 1540
+                  }
+                ],
+                "start": 1500,
+                "end": 1541
+              },
+              {
+                "type": "ArrayExpression",
+                "elements": [
+                  {
+                    "type": "Literal",
+                    "value": "coptic",
+                    "raw": "\"coptic\"",
+                    "start": 1632,
+                    "end": 1640
+                  },
+                  {
+                    "type": "UnaryExpression",
+                    "operator": "-",
+                    "argument": {
+                      "type": "Literal",
+                      "value": 283,
+                      "raw": "283",
+                      "start": 1643,
+                      "end": 1646
+                    },
+                    "prefix": true,
+                    "start": 1642,
+                    "end": 1646
+                  },
+                  {
+                    "type": "Literal",
+                    "value": 5,
+                    "raw": "5",
+                    "start": 1648,
+                    "end": 1649
+                  },
+                  {
+                    "type": "Literal",
+                    "value": "M05",
+                    "raw": "\"M05\"",
+                    "start": 1651,
+                    "end": 1656
+                  },
+                  {
+                    "type": "Literal",
+                    "value": 8,
+                    "raw": "8",
+                    "start": 1658,
+                    "end": 1659
+                  },
+                  {
+                    "type": "Literal",
+                    "value": "am",
+                    "raw": "\"am\"",
+                    "start": 1661,
+                    "end": 1665
+                  },
+                  {
+                    "type": "UnaryExpression",
+                    "operator": "-",
+                    "argument": {
+                      "type": "Literal",
+                      "value": 283,
+                      "raw": "283",
+                      "start": 1668,
+                      "end": 1671
+                    },
+                    "prefix": true,
+                    "start": 1667,
+                    "end": 1671
+                  }
+                ],
+                "start": 1631,
+                "end": 1672
+              },
+              {
+                "type": "ArrayExpression",
+                "elements": [
+                  {
+                    "type": "Literal",
+                    "value": "ethioaa",
+                    "raw": "\"ethioaa\"",
+                    "start": 1761,
+                    "end": 1770
+                  },
+                  {
+                    "type": "Literal",
+                    "value": 5493,
+                    "raw": "5493",
+                    "start": 1772,
+                    "end": 1776
+                  },
+                  {
+                    "type": "Literal",
+                    "value": 5,
+                    "raw": "5",
+                    "start": 1778,
+                    "end": 1779
+                  },
+                  {
+                    "type": "Literal",
+                    "value": "M05",
+                    "raw": "\"M05\"",
+                    "start": 1781,
+                    "end": 1786
+                  },
+                  {
+                    "type": "Literal",
+                    "value": 8,
+                    "raw": "8",
+                    "start": 1788,
+                    "end": 1789
+                  },
+                  {
+                    "type": "Literal",
+                    "value": "aa",
+                    "raw": "\"aa\"",
+                    "start": 1791,
+                    "end": 1795
+                  },
+                  {
+                    "type": "Literal",
+                    "value": 5493,
+                    "raw": "5493",
+                    "start": 1797,
+                    "end": 1801
+                  }
+                ],
+                "start": 1760,
+                "end": 1802
+              },
+              {
+                "type": "ArrayExpression",
+                "elements": [
+                  {
+                    "type": "Literal",
+                    "value": "ethiopic",
+                    "raw": "\"ethiopic\"",
+                    "start": 1807,
+                    "end": 1817
+                  },
+                  {
+                    "type": "UnaryExpression",
+                    "operator": "-",
+                    "argument": {
+                      "type": "Literal",
+                      "value": 7,
+                      "raw": "7",
+                      "start": 1820,
+                      "end": 1821
+                    },
+                    "prefix": true,
+                    "start": 1819,
+                    "end": 1821
+                  },
+                  {
+                    "type": "Literal",
+                    "value": 5,
+                    "raw": "5",
+                    "start": 1823,
+                    "end": 1824
+                  },
+                  {
+                    "type": "Literal",
+                    "value": "M05",
+                    "raw": "\"M05\"",
+                    "start": 1826,
+                    "end": 1831
+                  },
+                  {
+                    "type": "Literal",
+                    "value": 8,
+                    "raw": "8",
+                    "start": 1833,
+                    "end": 1834
+                  },
+                  {
+                    "type": "Literal",
+                    "value": "aa",
+                    "raw": "\"aa\"",
+                    "start": 1836,
+                    "end": 1840
+                  },
+                  {
+                    "type": "Literal",
+                    "value": 5493,
+                    "raw": "5493",
+                    "start": 1842,
+                    "end": 1846
+                  }
+                ],
+                "start": 1806,
+                "end": 1847
+              },
+              {
+                "type": "ArrayExpression",
+                "elements": [
+                  {
+                    "type": "Literal",
+                    "value": "gregory",
+                    "raw": "\"gregory\"",
+                    "start": 1852,
+                    "end": 1861
+                  },
+                  {
+                    "type": "Literal",
+                    "value": 1,
+                    "raw": "1",
+                    "start": 1863,
+                    "end": 1864
+                  },
+                  {
+                    "type": "Literal",
+                    "value": 1,
+                    "raw": "1",
+                    "start": 1866,
+                    "end": 1867
+                  },
+                  {
+                    "type": "Literal",
+                    "value": "M01",
+                    "raw": "\"M01\"",
+                    "start": 1869,
+                    "end": 1874
+                  },
+                  {
+                    "type": "Literal",
+                    "value": 1,
+                    "raw": "1",
+                    "start": 1876,
+                    "end": 1877
+                  },
+                  {
+                    "type": "Literal",
+                    "value": "ce",
+                    "raw": "\"ce\"",
+                    "start": 1879,
+                    "end": 1883
+                  },
+                  {
+                    "type": "Literal",
+                    "value": 1,
+                    "raw": "1",
+                    "start": 1885,
+                    "end": 1886
+                  }
+                ],
+                "start": 1851,
+                "end": 1887
+              },
+              {
+                "type": "ArrayExpression",
+                "elements": [
+                  {
+                    "type": "Literal",
+                    "value": "hebrew",
+                    "raw": "\"hebrew\"",
+                    "start": 1892,
+                    "end": 1900
+                  },
+                  {
+                    "type": "Literal",
+                    "value": 3761,
+                    "raw": "3761",
+                    "start": 1902,
+                    "end": 1906
+                  },
+                  {
+                    "type": "Literal",
+                    "value": 4,
+                    "raw": "4",
+                    "start": 1908,
+                    "end": 1909
+                  },
+                  {
+                    "type": "Literal",
+                    "value": "M04",
+                    "raw": "\"M04\"",
+                    "start": 1911,
+                    "end": 1916
+                  },
+                  {
+                    "type": "Literal",
+                    "value": 18,
+                    "raw": "18",
+                    "start": 1918,
+                    "end": 1920
+                  },
+                  {
+                    "type": "Literal",
+                    "value": "am",
+                    "raw": "\"am\"",
+                    "start": 1922,
+                    "end": 1926
+                  },
+                  {
+                    "type": "Literal",
+                    "value": 3761,
+                    "raw": "3761",
+                    "start": 1928,
+                    "end": 1932
+                  }
+                ],
+                "start": 1891,
+                "end": 1933
+              },
+              {
+                "type": "ArrayExpression",
+                "elements": [
+                  {
+                    "type": "Literal",
+                    "value": "indian",
+                    "raw": "\"indian\"",
+                    "start": 1938,
+                    "end": 1946
+                  },
+                  {
+                    "type": "UnaryExpression",
+                    "operator": "-",
+                    "argument": {
+                      "type": "Literal",
+                      "value": 78,
+                      "raw": "78",
+                      "start": 1949,
+                      "end": 1951
+                    },
+                    "prefix": true,
+                    "start": 1948,
+                    "end": 1951
+                  },
+                  {
+                    "type": "Literal",
+                    "value": 10,
+                    "raw": "10",
+                    "start": 1953,
+                    "end": 1955
+                  },
+                  {
+                    "type": "Literal",
+                    "value": "M10",
+                    "raw": "\"M10\"",
+                    "start": 1957,
+                    "end": 1962
+                  },
+                  {
+                    "type": "Literal",
+                    "value": 11,
+                    "raw": "11",
+                    "start": 1964,
+                    "end": 1966
+                  },
+                  {
+                    "type": "Literal",
+                    "value": "shaka",
+                    "raw": "\"shaka\"",
+                    "start": 1968,
+                    "end": 1975
+                  },
+                  {
+                    "type": "UnaryExpression",
+                    "operator": "-",
+                    "argument": {
+                      "type": "Literal",
+                      "value": 78,
+                      "raw": "78",
+                      "start": 1978,
+                      "end": 1980
+                    },
+                    "prefix": true,
+                    "start": 1977,
+                    "end": 1980
+                  }
+                ],
+                "start": 1937,
+                "end": 1981
+              },
+              {
+                "type": "ArrayExpression",
+                "elements": [
+                  {
+                    "type": "Literal",
+                    "value": "islamic-civil",
+                    "raw": "\"islamic-civil\"",
+                    "start": 1986,
+                    "end": 2001
+                  },
+                  {
+                    "type": "UnaryExpression",
+                    "operator": "-",
+                    "argument": {
+                      "type": "Literal",
+                      "value": 640,
+                      "raw": "640",
+                      "start": 2004,
+                      "end": 2007
+                    },
+                    "prefix": true,
+                    "start": 2003,
+                    "end": 2007
+                  },
+                  {
+                    "type": "Literal",
+                    "value": 5,
+                    "raw": "5",
+                    "start": 2009,
+                    "end": 2010
+                  },
+                  {
+                    "type": "Literal",
+                    "value": "M05",
+                    "raw": "\"M05\"",
+                    "start": 2012,
+                    "end": 2017
+                  },
+                  {
+                    "type": "Literal",
+                    "value": 18,
+                    "raw": "18",
+                    "start": 2019,
+                    "end": 2021
+                  },
+                  {
+                    "type": "Literal",
+                    "value": "bh",
+                    "raw": "\"bh\"",
+                    "start": 2023,
+                    "end": 2027
+                  },
+                  {
+                    "type": "Literal",
+                    "value": 641,
+                    "raw": "641",
+                    "start": 2029,
+                    "end": 2032
+                  }
+                ],
+                "start": 1985,
+                "end": 2033
+              },
+              {
+                "type": "ArrayExpression",
+                "elements": [
+                  {
+                    "type": "Literal",
+                    "value": "islamic-tbla",
+                    "raw": "\"islamic-tbla\"",
+                    "start": 2038,
+                    "end": 2052
+                  },
+                  {
+                    "type": "UnaryExpression",
+                    "operator": "-",
+                    "argument": {
+                      "type": "Literal",
+                      "value": 640,
+                      "raw": "640",
+                      "start": 2055,
+                      "end": 2058
+                    },
+                    "prefix": true,
+                    "start": 2054,
+                    "end": 2058
+                  },
+                  {
+                    "type": "Literal",
+                    "value": 5,
+                    "raw": "5",
+                    "start": 2060,
+                    "end": 2061
+                  },
+                  {
+                    "type": "Literal",
+                    "value": "M05",
+                    "raw": "\"M05\"",
+                    "start": 2063,
+                    "end": 2068
+                  },
+                  {
+                    "type": "Literal",
+                    "value": 19,
+                    "raw": "19",
+                    "start": 2070,
+                    "end": 2072
+                  },
+                  {
+                    "type": "Literal",
+                    "value": "bh",
+                    "raw": "\"bh\"",
+                    "start": 2074,
+                    "end": 2078
+                  },
+                  {
+                    "type": "Literal",
+                    "value": 641,
+                    "raw": "641",
+                    "start": 2080,
+                    "end": 2083
+                  }
+                ],
+                "start": 2037,
+                "end": 2084
+              },
+              {
+                "type": "ArrayExpression",
+                "elements": [
+                  {
+                    "type": "Literal",
+                    "value": "islamic-umalqura",
+                    "raw": "\"islamic-umalqura\"",
+                    "start": 2089,
+                    "end": 2107
+                  },
+                  {
+                    "type": "UnaryExpression",
+                    "operator": "-",
+                    "argument": {
+                      "type": "Literal",
+                      "value": 640,
+                      "raw": "640",
+                      "start": 2110,
+                      "end": 2113
+                    },
+                    "prefix": true,
+                    "start": 2109,
+                    "end": 2113
+                  },
+                  {
+                    "type": "Literal",
+                    "value": 5,
+                    "raw": "5",
+                    "start": 2115,
+                    "end": 2116
+                  },
+                  {
+                    "type": "Literal",
+                    "value": "M05",
+                    "raw": "\"M05\"",
+                    "start": 2118,
+                    "end": 2123
+                  },
+                  {
+                    "type": "Literal",
+                    "value": 18,
+                    "raw": "18",
+                    "start": 2125,
+                    "end": 2127
+                  },
+                  {
+                    "type": "Literal",
+                    "value": "bh",
+                    "raw": "\"bh\"",
+                    "start": 2129,
+                    "end": 2133
+                  },
+                  {
+                    "type": "Literal",
+                    "value": 641,
+                    "raw": "641",
+                    "start": 2135,
+                    "end": 2138
+                  }
+                ],
+                "start": 2088,
+                "end": 2139
+              },
+              {
+                "type": "ArrayExpression",
+                "elements": [
+                  {
+                    "type": "Literal",
+                    "value": "japanese",
+                    "raw": "\"japanese\"",
+                    "start": 2144,
+                    "end": 2154
+                  },
+                  {
+                    "type": "Literal",
+                    "value": 1,
+                    "raw": "1",
+                    "start": 2156,
+                    "end": 2157
+                  },
+                  {
+                    "type": "Literal",
+                    "value": 1,
+                    "raw": "1",
+                    "start": 2159,
+                    "end": 2160
+                  },
+                  {
+                    "type": "Literal",
+                    "value": "M01",
+                    "raw": "\"M01\"",
+                    "start": 2162,
+                    "end": 2167
+                  },
+                  {
+                    "type": "Literal",
+                    "value": 1,
+                    "raw": "1",
+                    "start": 2169,
+                    "end": 2170
+                  },
+                  {
+                    "type": "Literal",
+                    "value": "ce",
+                    "raw": "\"ce\"",
+                    "start": 2172,
+                    "end": 2176
+                  },
+                  {
+                    "type": "Literal",
+                    "value": 1,
+                    "raw": "1",
+                    "start": 2178,
+                    "end": 2179
+                  }
+                ],
+                "start": 2143,
+                "end": 2180
+              },
+              {
+                "type": "ArrayExpression",
+                "elements": [
+                  {
+                    "type": "Literal",
+                    "value": "persian",
+                    "raw": "\"persian\"",
+                    "start": 2185,
+                    "end": 2194
+                  },
+                  {
+                    "type": "UnaryExpression",
+                    "operator": "-",
+                    "argument": {
+                      "type": "Literal",
+                      "value": 621,
+                      "raw": "621",
+                      "start": 2197,
+                      "end": 2200
+                    },
+                    "prefix": true,
+                    "start": 2196,
+                    "end": 2200
+                  },
+                  {
+                    "type": "Literal",
+                    "value": 10,
+                    "raw": "10",
+                    "start": 2202,
+                    "end": 2204
+                  },
+                  {
+                    "type": "Literal",
+                    "value": "M10",
+                    "raw": "\"M10\"",
+                    "start": 2206,
+                    "end": 2211
+                  },
+                  {
+                    "type": "Literal",
+                    "value": 11,
+                    "raw": "11",
+                    "start": 2213,
+                    "end": 2215
+                  },
+                  {
+                    "type": "Literal",
+                    "value": "ap",
+                    "raw": "\"ap\"",
+                    "start": 2217,
+                    "end": 2221
+                  },
+                  {
+                    "type": "UnaryExpression",
+                    "operator": "-",
+                    "argument": {
+                      "type": "Literal",
+                      "value": 621,
+                      "raw": "621",
+                      "start": 2224,
+                      "end": 2227
+                    },
+                    "prefix": true,
+                    "start": 2223,
+                    "end": 2227
+                  }
+                ],
+                "start": 2184,
+                "end": 2228
+              },
+              {
+                "type": "ArrayExpression",
+                "elements": [
+                  {
+                    "type": "Literal",
+                    "value": "roc",
+                    "raw": "\"roc\"",
+                    "start": 2233,
+                    "end": 2238
+                  },
+                  {
+                    "type": "UnaryExpression",
+                    "operator": "-",
+                    "argument": {
+                      "type": "Literal",
+                      "value": 1910,
+                      "raw": "1910",
+                      "start": 2241,
+                      "end": 2245
+                    },
+                    "prefix": true,
+                    "start": 2240,
+                    "end": 2245
+                  },
+                  {
+                    "type": "Literal",
+                    "value": 1,
+                    "raw": "1",
+                    "start": 2247,
+                    "end": 2248
+                  },
+                  {
+                    "type": "Literal",
+                    "value": "M01",
+                    "raw": "\"M01\"",
+                    "start": 2250,
+                    "end": 2255
+                  },
+                  {
+                    "type": "Literal",
+                    "value": 1,
+                    "raw": "1",
+                    "start": 2257,
+                    "end": 2258
+                  },
+                  {
+                    "type": "Literal",
+                    "value": "broc",
+                    "raw": "\"broc\"",
+                    "start": 2260,
+                    "end": 2266
+                  },
+                  {
+                    "type": "Literal",
+                    "value": 1911,
+                    "raw": "1911",
+                    "start": 2268,
+                    "end": 2272
+                  }
+                ],
+                "start": 2232,
+                "end": 2273
+              }
+            ],
+            "start": 1496,
+            "end": 2276
+          },
+          "start": 1483,
+          "end": 2276
+        }
+      ],
+      "start": 1477,
+      "end": 2277
+    },
+    {
+      "type": "ForOfStatement",
+      "await": false,
+      "left": {
+        "type": "VariableDeclaration",
+        "kind": "const",
+        "declarations": [
+          {
+            "type": "VariableDeclarator",
+            "id": {
+              "type": "ArrayPattern",
+              "elements": [
+                {
+                  "type": "Identifier",
+                  "name": "calendar",
+                  "start": 2291,
+                  "end": 2299
+                },
+                {
+                  "type": "Identifier",
+                  "name": "year",
+                  "start": 2301,
+                  "end": 2305
+                },
+                {
+                  "type": "Identifier",
+                  "name": "month",
+                  "start": 2307,
+                  "end": 2312
+                },
+                {
+                  "type": "Identifier",
+                  "name": "monthCode",
+                  "start": 2314,
+                  "end": 2323
+                },
+                {
+                  "type": "Identifier",
+                  "name": "day",
+                  "start": 2325,
+                  "end": 2328
+                },
+                {
+                  "type": "Identifier",
+                  "name": "era",
+                  "start": 2330,
+                  "end": 2333
+                },
+                {
+                  "type": "Identifier",
+                  "name": "eraYear",
+                  "start": 2335,
+                  "end": 2342
+                },
+                {
+                  "type": "Identifier",
+                  "name": "descr",
+                  "start": 2344,
+                  "end": 2349
+                }
+              ],
+              "start": 2290,
+              "end": 2350
+            },
+            "init": null,
+            "start": 2290,
+            "end": 2350
+          }
+        ],
+        "start": 2284,
+        "end": 2350
+      },
+      "right": {
+        "type": "Identifier",
+        "name": "year1Cases",
+        "start": 2354,
+        "end": 2364
+      },
+      "body": {
+        "type": "BlockStatement",
+        "body": [
+          {
+            "type": "VariableDeclaration",
+            "kind": "const",
+            "declarations": [
+              {
+                "type": "VariableDeclarator",
+                "id": {
+                  "type": "Identifier",
+                  "name": "string",
+                  "start": 2376,
+                  "end": 2382
+                },
+                "init": {
+                  "type": "TemplateLiteral",
+                  "quasis": [
+                    {
+                      "type": "TemplateElement",
+                      "value": {
+                        "raw": "0001-01-01[u-ca=",
+                        "cooked": "0001-01-01[u-ca="
+                      },
+                      "tail": false,
+                      "start": 2386,
+                      "end": 2402
+                    },
+                    {
+                      "type": "TemplateElement",
+                      "value": {
+                        "raw": "]",
+                        "cooked": "]"
+                      },
+                      "tail": true,
+                      "start": 2413,
+                      "end": 2414
+                    }
+                  ],
+                  "expressions": [
+                    {
+                      "type": "Identifier",
+                      "name": "calendar",
+                      "start": 2404,
+                      "end": 2412
+                    }
+                  ],
+                  "start": 2385,
+                  "end": 2415
+                },
+                "start": 2376,
+                "end": 2415
+              }
+            ],
+            "start": 2370,
+            "end": 2416
+          },
+          {
+            "type": "VariableDeclaration",
+            "kind": "const",
+            "declarations": [
+              {
+                "type": "VariableDeclarator",
+                "id": {
+                  "type": "Identifier",
+                  "name": "dateFromString",
+                  "start": 2425,
+                  "end": 2439
+                },
+                "init": {
+                  "type": "CallExpression",
+                  "callee": {
+                    "type": "MemberExpression",
+                    "object": {
+                      "type": "MemberExpression",
+                      "object": {
+                        "type": "Identifier",
+                        "name": "Temporal",
+                        "start": 2442,
+                        "end": 2450
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "name": "PlainDate",
+                        "start": 2451,
+                        "end": 2460
+                      },
+                      "optional": false,
+                      "computed": false,
+                      "start": 2442,
+                      "end": 2460
+                    },
+                    "property": {
+                      "type": "Identifier",
+                      "name": "from",
+                      "start": 2461,
+                      "end": 2465
+                    },
+                    "optional": false,
+                    "computed": false,
+                    "start": 2442,
+                    "end": 2465
+                  },
+                  "arguments": [
+                    {
+                      "type": "Identifier",
+                      "name": "string",
+                      "start": 2466,
+                      "end": 2472
+                    }
+                  ],
+                  "optional": false,
+                  "start": 2442,
+                  "end": 2473
+                },
+                "start": 2425,
+                "end": 2473
+              }
+            ],
+            "start": 2419,
+            "end": 2474
+          },
+          {
+            "type": "ExpressionStatement",
+            "expression": {
+              "type": "CallExpression",
+              "callee": {
+                "type": "MemberExpression",
+                "object": {
+                  "type": "Identifier",
+                  "name": "TemporalHelpers",
+                  "start": 2477,
+                  "end": 2492
+                },
+                "property": {
+                  "type": "Identifier",
+                  "name": "assertPlainDate",
+                  "start": 2493,
+                  "end": 2508
+                },
+                "optional": false,
+                "computed": false,
+                "start": 2477,
+                "end": 2508
+              },
+              "arguments": [
+                {
+                  "type": "Identifier",
+                  "name": "dateFromString",
+                  "start": 2514,
+                  "end": 2528
+                },
+                {
+                  "type": "Identifier",
+                  "name": "year",
+                  "start": 2534,
+                  "end": 2538
+                },
+                {
+                  "type": "Identifier",
+                  "name": "month",
+                  "start": 2540,
+                  "end": 2545
+                },
+                {
+                  "type": "Identifier",
+                  "name": "monthCode",
+                  "start": 2547,
+                  "end": 2556
+                },
+                {
+                  "type": "Identifier",
+                  "name": "day",
+                  "start": 2558,
+                  "end": 2561
+                },
+                {
+                  "type": "TemplateLiteral",
+                  "quasis": [
+                    {
+                      "type": "TemplateElement",
+                      "value": {
+                        "raw": "",
+                        "cooked": ""
+                      },
+                      "tail": false,
+                      "start": 2568,
+                      "end": 2568
+                    },
+                    {
+                      "type": "TemplateElement",
+                      "value": {
+                        "raw": " - created from string ",
+                        "cooked": " - created from string "
+                      },
+                      "tail": false,
+                      "start": 2576,
+                      "end": 2599
+                    },
+                    {
+                      "type": "TemplateElement",
+                      "value": {
+                        "raw": "",
+                        "cooked": ""
+                      },
+                      "tail": true,
+                      "start": 2608,
+                      "end": 2608
+                    }
+                  ],
+                  "expressions": [
+                    {
+                      "type": "Identifier",
+                      "name": "descr",
+                      "start": 2570,
+                      "end": 2575
+                    },
+                    {
+                      "type": "Identifier",
+                      "name": "string",
+                      "start": 2601,
+                      "end": 2607
+                    }
+                  ],
+                  "start": 2567,
+                  "end": 2609
+                },
+                {
+                  "type": "Identifier",
+                  "name": "era",
+                  "start": 2615,
+                  "end": 2618
+                },
+                {
+                  "type": "Identifier",
+                  "name": "eraYear",
+                  "start": 2620,
+                  "end": 2627
+                }
+              ],
+              "optional": false,
+              "start": 2477,
+              "end": 2628
+            },
+            "start": 2477,
+            "end": 2629
+          }
+        ],
+        "start": 2366,
+        "end": 2631
+      },
+      "start": 2279,
+      "end": 2631
+    },
+    {
+      "type": "VariableDeclaration",
+      "kind": "const",
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "id": {
+            "type": "Identifier",
+            "name": "additionalCases",
+            "start": 2737,
+            "end": 2752
+          },
+          "init": {
+            "type": "ArrayExpression",
+            "elements": [
+              {
+                "type": "ArrayExpression",
+                "elements": [
+                  {
+                    "type": "Literal",
+                    "value": "2004-03-21[u-ca=indian]",
+                    "raw": "\"2004-03-21[u-ca=indian]\"",
+                    "start": 2760,
+                    "end": 2785
+                  },
+                  {
+                    "type": "Literal",
+                    "value": 1926,
+                    "raw": "1926",
+                    "start": 2787,
+                    "end": 2791
+                  },
+                  {
+                    "type": "Literal",
+                    "value": 1,
+                    "raw": "1",
+                    "start": 2793,
+                    "end": 2794
+                  },
+                  {
+                    "type": "Literal",
+                    "value": "M01",
+                    "raw": "\"M01\"",
+                    "start": 2796,
+                    "end": 2801
+                  },
+                  {
+                    "type": "Literal",
+                    "value": 1,
+                    "raw": "1",
+                    "start": 2803,
+                    "end": 2804
+                  },
+                  {
+                    "type": "Literal",
+                    "value": "shaka",
+                    "raw": "\"shaka\"",
+                    "start": 2806,
+                    "end": 2813
+                  },
+                  {
+                    "type": "Literal",
+                    "value": 1926,
+                    "raw": "1926",
+                    "start": 2815,
+                    "end": 2819
+                  },
+                  {
+                    "type": "Literal",
+                    "value": "first day of leap year",
+                    "raw": "\"first day of leap year\"",
+                    "start": 2821,
+                    "end": 2845
+                  }
+                ],
+                "start": 2759,
+                "end": 2846
+              },
+              {
+                "type": "ArrayExpression",
+                "elements": [
+                  {
+                    "type": "Literal",
+                    "value": "2005-03-22[u-ca=indian]",
+                    "raw": "\"2005-03-22[u-ca=indian]\"",
+                    "start": 2851,
+                    "end": 2876
+                  },
+                  {
+                    "type": "Literal",
+                    "value": 1927,
+                    "raw": "1927",
+                    "start": 2878,
+                    "end": 2882
+                  },
+                  {
+                    "type": "Literal",
+                    "value": 1,
+                    "raw": "1",
+                    "start": 2884,
+                    "end": 2885
+                  },
+                  {
+                    "type": "Literal",
+                    "value": "M01",
+                    "raw": "\"M01\"",
+                    "start": 2887,
+                    "end": 2892
+                  },
+                  {
+                    "type": "Literal",
+                    "value": 1,
+                    "raw": "1",
+                    "start": 2894,
+                    "end": 2895
+                  },
+                  {
+                    "type": "Literal",
+                    "value": "shaka",
+                    "raw": "\"shaka\"",
+                    "start": 2897,
+                    "end": 2904
+                  },
+                  {
+                    "type": "Literal",
+                    "value": 1927,
+                    "raw": "1927",
+                    "start": 2906,
+                    "end": 2910
+                  },
+                  {
+                    "type": "Literal",
+                    "value": "first day of common year",
+                    "raw": "\"first day of common year\"",
+                    "start": 2912,
+                    "end": 2938
+                  }
+                ],
+                "start": 2850,
+                "end": 2939
+              },
+              {
+                "type": "ArrayExpression",
+                "elements": [
+                  {
+                    "type": "Literal",
+                    "value": "2006-07-25[u-ca=islamic-umalqura]",
+                    "raw": "\"2006-07-25[u-ca=islamic-umalqura]\"",
+                    "start": 2944,
+                    "end": 2979
+                  },
+                  {
+                    "type": "Literal",
+                    "value": 1427,
+                    "raw": "1427",
+                    "start": 2981,
+                    "end": 2985
+                  },
+                  {
+                    "type": "Literal",
+                    "value": 6,
+                    "raw": "6",
+                    "start": 2987,
+                    "end": 2988
+                  },
+                  {
+                    "type": "Literal",
+                    "value": "M06",
+                    "raw": "\"M06\"",
+                    "start": 2990,
+                    "end": 2995
+                  },
+                  {
+                    "type": "Literal",
+                    "value": 29,
+                    "raw": "29",
+                    "start": 2997,
+                    "end": 2999
+                  },
+                  {
+                    "type": "Literal",
+                    "value": "ah",
+                    "raw": "\"ah\"",
+                    "start": 3001,
+                    "end": 3005
+                  },
+                  {
+                    "type": "Literal",
+                    "value": 1427,
+                    "raw": "1427",
+                    "start": 3007,
+                    "end": 3011
+                  },
+                  {
+                    "type": "Literal",
+                    "value": "ICU4C/ICU4X discrepancy",
+                    "raw": "\"ICU4C/ICU4X discrepancy\"",
+                    "start": 3013,
+                    "end": 3038
+                  }
+                ],
+                "start": 2943,
+                "end": 3039
+              },
+              {
+                "type": "ArrayExpression",
+                "elements": [
+                  {
+                    "type": "Literal",
+                    "value": "2025-04-19[u-ca=persian]",
+                    "raw": "\"2025-04-19[u-ca=persian]\"",
+                    "start": 3044,
+                    "end": 3070
+                  },
+                  {
+                    "type": "Literal",
+                    "value": 1404,
+                    "raw": "1404",
+                    "start": 3072,
+                    "end": 3076
+                  },
+                  {
+                    "type": "Literal",
+                    "value": 1,
+                    "raw": "1",
+                    "start": 3078,
+                    "end": 3079
+                  },
+                  {
+                    "type": "Literal",
+                    "value": "M01",
+                    "raw": "\"M01\"",
+                    "start": 3081,
+                    "end": 3086
+                  },
+                  {
+                    "type": "Literal",
+                    "value": 30,
+                    "raw": "30",
+                    "start": 3088,
+                    "end": 3090
+                  },
+                  {
+                    "type": "Literal",
+                    "value": "ap",
+                    "raw": "\"ap\"",
+                    "start": 3092,
+                    "end": 3096
+                  },
+                  {
+                    "type": "Literal",
+                    "value": 1404,
+                    "raw": "1404",
+                    "start": 3098,
+                    "end": 3102
+                  },
+                  {
+                    "type": "Literal",
+                    "value": "ICU4C/ICU4X discrepancy",
+                    "raw": "\"ICU4C/ICU4X discrepancy\"",
+                    "start": 3104,
+                    "end": 3129
+                  }
+                ],
+                "start": 3043,
+                "end": 3130
+              },
+              {
+                "type": "ArrayExpression",
+                "elements": [
+                  {
+                    "type": "Literal",
+                    "value": "2046-10-30[u-ca=hebrew]",
+                    "raw": "\"2046-10-30[u-ca=hebrew]\"",
+                    "start": 3135,
+                    "end": 3160
+                  },
+                  {
+                    "type": "Literal",
+                    "value": 5807,
+                    "raw": "5807",
+                    "start": 3162,
+                    "end": 3166
+                  },
+                  {
+                    "type": "Literal",
+                    "value": 1,
+                    "raw": "1",
+                    "start": 3168,
+                    "end": 3169
+                  },
+                  {
+                    "type": "Literal",
+                    "value": "M01",
+                    "raw": "\"M01\"",
+                    "start": 3171,
+                    "end": 3176
+                  },
+                  {
+                    "type": "Literal",
+                    "value": 30,
+                    "raw": "30",
+                    "start": 3178,
+                    "end": 3180
+                  },
+                  {
+                    "type": "Literal",
+                    "value": "am",
+                    "raw": "\"am\"",
+                    "start": 3182,
+                    "end": 3186
+                  },
+                  {
+                    "type": "Literal",
+                    "value": 5807,
+                    "raw": "5807",
+                    "start": 3188,
+                    "end": 3192
+                  },
+                  {
+                    "type": "Literal",
+                    "value": "ICU4C/ICU4X discrepancy",
+                    "raw": "\"ICU4C/ICU4X discrepancy\"",
+                    "start": 3194,
+                    "end": 3219
+                  }
+                ],
+                "start": 3134,
+                "end": 3220
+              }
+            ],
+            "start": 2755,
+            "end": 3223
+          },
+          "start": 2737,
+          "end": 3223
+        }
+      ],
+      "start": 2731,
+      "end": 3224
+    },
+    {
+      "type": "ForOfStatement",
+      "await": false,
+      "left": {
+        "type": "VariableDeclaration",
+        "kind": "const",
+        "declarations": [
+          {
+            "type": "VariableDeclarator",
+            "id": {
+              "type": "ArrayPattern",
+              "elements": [
+                {
+                  "type": "Identifier",
+                  "name": "string",
+                  "start": 3238,
+                  "end": 3244
+                },
+                {
+                  "type": "Identifier",
+                  "name": "year",
+                  "start": 3246,
+                  "end": 3250
+                },
+                {
+                  "type": "Identifier",
+                  "name": "month",
+                  "start": 3252,
+                  "end": 3257
+                },
+                {
+                  "type": "Identifier",
+                  "name": "monthCode",
+                  "start": 3259,
+                  "end": 3268
+                },
+                {
+                  "type": "Identifier",
+                  "name": "day",
+                  "start": 3270,
+                  "end": 3273
+                },
+                {
+                  "type": "Identifier",
+                  "name": "era",
+                  "start": 3275,
+                  "end": 3278
+                },
+                {
+                  "type": "Identifier",
+                  "name": "eraYear",
+                  "start": 3280,
+                  "end": 3287
+                },
+                {
+                  "type": "Identifier",
+                  "name": "descr",
+                  "start": 3289,
+                  "end": 3294
+                }
+              ],
+              "start": 3237,
+              "end": 3295
+            },
+            "init": null,
+            "start": 3237,
+            "end": 3295
+          }
+        ],
+        "start": 3231,
+        "end": 3295
+      },
+      "right": {
+        "type": "Identifier",
+        "name": "additionalCases",
+        "start": 3299,
+        "end": 3314
+      },
+      "body": {
+        "type": "BlockStatement",
+        "body": [
+          {
+            "type": "VariableDeclaration",
+            "kind": "const",
+            "declarations": [
+              {
+                "type": "VariableDeclarator",
+                "id": {
+                  "type": "Identifier",
+                  "name": "dateFromString",
+                  "start": 3326,
+                  "end": 3340
+                },
+                "init": {
+                  "type": "CallExpression",
+                  "callee": {
+                    "type": "MemberExpression",
+                    "object": {
+                      "type": "MemberExpression",
+                      "object": {
+                        "type": "Identifier",
+                        "name": "Temporal",
+                        "start": 3343,
+                        "end": 3351
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "name": "PlainDate",
+                        "start": 3352,
+                        "end": 3361
+                      },
+                      "optional": false,
+                      "computed": false,
+                      "start": 3343,
+                      "end": 3361
+                    },
+                    "property": {
+                      "type": "Identifier",
+                      "name": "from",
+                      "start": 3362,
+                      "end": 3366
+                    },
+                    "optional": false,
+                    "computed": false,
+                    "start": 3343,
+                    "end": 3366
+                  },
+                  "arguments": [
+                    {
+                      "type": "Identifier",
+                      "name": "string",
+                      "start": 3367,
+                      "end": 3373
+                    }
+                  ],
+                  "optional": false,
+                  "start": 3343,
+                  "end": 3374
+                },
+                "start": 3326,
+                "end": 3374
+              }
+            ],
+            "start": 3320,
+            "end": 3375
+          },
+          {
+            "type": "ExpressionStatement",
+            "expression": {
+              "type": "CallExpression",
+              "callee": {
+                "type": "MemberExpression",
+                "object": {
+                  "type": "Identifier",
+                  "name": "TemporalHelpers",
+                  "start": 3378,
+                  "end": 3393
+                },
+                "property": {
+                  "type": "Identifier",
+                  "name": "assertPlainDate",
+                  "start": 3394,
+                  "end": 3409
+                },
+                "optional": false,
+                "computed": false,
+                "start": 3378,
+                "end": 3409
+              },
+              "arguments": [
+                {
+                  "type": "Identifier",
+                  "name": "dateFromString",
+                  "start": 3415,
+                  "end": 3429
+                },
+                {
+                  "type": "Identifier",
+                  "name": "year",
+                  "start": 3435,
+                  "end": 3439
+                },
+                {
+                  "type": "Identifier",
+                  "name": "month",
+                  "start": 3441,
+                  "end": 3446
+                },
+                {
+                  "type": "Identifier",
+                  "name": "monthCode",
+                  "start": 3448,
+                  "end": 3457
+                },
+                {
+                  "type": "Identifier",
+                  "name": "day",
+                  "start": 3459,
+                  "end": 3462
+                },
+                {
+                  "type": "TemplateLiteral",
+                  "quasis": [
+                    {
+                      "type": "TemplateElement",
+                      "value": {
+                        "raw": "",
+                        "cooked": ""
+                      },
+                      "tail": false,
+                      "start": 3469,
+                      "end": 3469
+                    },
+                    {
+                      "type": "TemplateElement",
+                      "value": {
+                        "raw": " - created from string ",
+                        "cooked": " - created from string "
+                      },
+                      "tail": false,
+                      "start": 3477,
+                      "end": 3500
+                    },
+                    {
+                      "type": "TemplateElement",
+                      "value": {
+                        "raw": "",
+                        "cooked": ""
+                      },
+                      "tail": true,
+                      "start": 3509,
+                      "end": 3509
+                    }
+                  ],
+                  "expressions": [
+                    {
+                      "type": "Identifier",
+                      "name": "descr",
+                      "start": 3471,
+                      "end": 3476
+                    },
+                    {
+                      "type": "Identifier",
+                      "name": "string",
+                      "start": 3502,
+                      "end": 3508
+                    }
+                  ],
+                  "start": 3468,
+                  "end": 3510
+                },
+                {
+                  "type": "Identifier",
+                  "name": "era",
+                  "start": 3516,
+                  "end": 3519
+                },
+                {
+                  "type": "Identifier",
+                  "name": "eraYear",
+                  "start": 3521,
+                  "end": 3528
+                }
+              ],
+              "optional": false,
+              "start": 3378,
+              "end": 3529
+            },
+            "start": 3378,
+            "end": 3530
+          }
+        ],
+        "start": 3316,
+        "end": 3532
+      },
+      "start": 3226,
+      "end": 3532
+    }
+  ],
+  "sourceType": "script",
+  "hashbang": null,
+  "start": 0,
+  "end": 3533
+}
