@@ -6,7 +6,7 @@ on:
   workflow_dispatch:
   schedule:
     # Run every Monday at 09:00 UTC
-    - cron: '0 9 * * 1'
+    - cron: "0 9 * * 1"
 
 jobs:
   update-fixtures:

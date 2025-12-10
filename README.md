@@ -15,9 +15,9 @@ allowReturnOutsideFunction: true,
 Negative errors are filtered out.
 Files producing the following errors are ignored:
 
-* Invalid regular expression flag.
-* Unexpected token (possibility a stage 3 feature).
-* Cannot parse YAML from Test262 fixture comment.
+- Invalid regular expression flag.
+- Unexpected token (possibility a stage 3 feature).
+- Cannot parse YAML from Test262 fixture comment.
 
 `RegExp`s and `BigInt`s are serialized as `null`, because JSON does not support `BigInt`s, and
 serializes `RegExp`s as `{}` (not useful).
