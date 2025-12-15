@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "author": "Boshen",
   "license": "MIT",
-  "main": "index.mjs",
   "type": "module",
+  "main": "index.mjs",
   "scripts": {
     "init": "pnpm run '/^clone-*/'",
     "clone-test262": "just clone-submodule submodules/test262 https://github.com/tc39/test262.git 7dd5f97e955977edfb60d8e0a4d5f34ff8b838ca",
@@ -22,7 +22,7 @@
     "acorn": "^8.15.0",
     "estree-walker": "^3.0.3",
     "meriyah": "^7.0.0",
-    "oxfmt": "^0.17.0",
+    "oxfmt": "^0.18.0",
     "oxlint": "^1.30.0",
     "yaml": "^2.8.1"
   },
