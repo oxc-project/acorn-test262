@@ -11,8 +11,8 @@ __ESTREE_TEST__:PASS:
         "name": "M",
         "optional": false,
         "typeAnnotation": null,
-        "start": 7,
-        "end": 8
+        "start": 10,
+        "end": 11
       },
       "body": {
         "type": "TSModuleBlock",
@@ -25,8 +25,8 @@ __ESTREE_TEST__:PASS:
               "name": "A",
               "optional": false,
               "typeAnnotation": null,
-              "start": 26,
-              "end": 27
+              "start": 29,
+              "end": 30
             },
             "moduleReference": {
               "type": "Identifier",
@@ -34,12 +34,12 @@ __ESTREE_TEST__:PASS:
               "name": "B",
               "optional": false,
               "typeAnnotation": null,
-              "start": 30,
-              "end": 31
+              "start": 33,
+              "end": 34
             },
             "importKind": "value",
-            "start": 19,
-            "end": 32
+            "start": 22,
+            "end": 35
           },
           {
             "type": "TSImportEqualsDeclaration",
@@ -49,8 +49,8 @@ __ESTREE_TEST__:PASS:
               "name": "B",
               "optional": false,
               "typeAnnotation": null,
-              "start": 46,
-              "end": 47
+              "start": 49,
+              "end": 50
             },
             "moduleReference": {
               "type": "Identifier",
@@ -58,27 +58,27 @@ __ESTREE_TEST__:PASS:
               "name": "A",
               "optional": false,
               "typeAnnotation": null,
-              "start": 50,
-              "end": 51
+              "start": 53,
+              "end": 54
             },
             "importKind": "value",
-            "start": 39,
-            "end": 52
+            "start": 42,
+            "end": 55
           }
         ],
-        "start": 11,
-        "end": 56
+        "start": 14,
+        "end": 59
       },
-      "kind": "module",
+      "kind": "namespace",
       "declare": false,
       "global": false,
       "start": 0,
-      "end": 56
+      "end": 59
     }
   ],
   "sourceType": "script",
   "hashbang": null,
   "start": 0,
-  "end": 56
+  "end": 59
 }
 ```

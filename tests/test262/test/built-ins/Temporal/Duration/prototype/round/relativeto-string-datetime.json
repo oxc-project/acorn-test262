@@ -1569,10 +1569,166 @@
       },
       "start": 1828,
       "end": 1998
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "AssignmentExpression",
+        "operator": "=",
+        "left": {
+          "type": "Identifier",
+          "name": "relativeTo",
+          "start": 2000,
+          "end": 2010
+        },
+        "right": {
+          "type": "Literal",
+          "value": "2025-01-01T00:00:00+00:0000",
+          "raw": "\"2025-01-01T00:00:00+00:0000\"",
+          "start": 2013,
+          "end": 2042
+        },
+        "start": 2000,
+        "end": 2042
+      },
+      "start": 2000,
+      "end": 2043
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "MemberExpression",
+          "object": {
+            "type": "Identifier",
+            "name": "assert",
+            "start": 2044,
+            "end": 2050
+          },
+          "property": {
+            "type": "Identifier",
+            "name": "throws",
+            "start": 2051,
+            "end": 2057
+          },
+          "optional": false,
+          "computed": false,
+          "start": 2044,
+          "end": 2057
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "name": "RangeError",
+            "start": 2058,
+            "end": 2068
+          },
+          {
+            "type": "ArrowFunctionExpression",
+            "expression": true,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "CallExpression",
+              "callee": {
+                "type": "MemberExpression",
+                "object": {
+                  "type": "Identifier",
+                  "name": "instance",
+                  "start": 2076,
+                  "end": 2084
+                },
+                "property": {
+                  "type": "Identifier",
+                  "name": "round",
+                  "start": 2085,
+                  "end": 2090
+                },
+                "optional": false,
+                "computed": false,
+                "start": 2076,
+                "end": 2090
+              },
+              "arguments": [
+                {
+                  "type": "ObjectExpression",
+                  "properties": [
+                    {
+                      "type": "Property",
+                      "kind": "init",
+                      "key": {
+                        "type": "Identifier",
+                        "name": "largestUnit",
+                        "start": 2093,
+                        "end": 2104
+                      },
+                      "value": {
+                        "type": "Literal",
+                        "value": "years",
+                        "raw": "\"years\"",
+                        "start": 2106,
+                        "end": 2113
+                      },
+                      "method": false,
+                      "shorthand": false,
+                      "computed": false,
+                      "start": 2093,
+                      "end": 2113
+                    },
+                    {
+                      "type": "Property",
+                      "kind": "init",
+                      "key": {
+                        "type": "Identifier",
+                        "name": "relativeTo",
+                        "start": 2115,
+                        "end": 2125
+                      },
+                      "value": {
+                        "type": "Identifier",
+                        "name": "relativeTo",
+                        "start": 2115,
+                        "end": 2125
+                      },
+                      "method": false,
+                      "shorthand": true,
+                      "computed": false,
+                      "start": 2115,
+                      "end": 2125
+                    }
+                  ],
+                  "start": 2091,
+                  "end": 2127
+                }
+              ],
+              "optional": false,
+              "start": 2076,
+              "end": 2128
+            },
+            "id": null,
+            "generator": false,
+            "start": 2070,
+            "end": 2128
+          },
+          {
+            "type": "Literal",
+            "value": "date-time with offset like 00:0000 shouldn't parse",
+            "raw": "\"date-time with offset like 00:0000 shouldn't parse\"",
+            "start": 2130,
+            "end": 2182
+          }
+        ],
+        "optional": false,
+        "start": 2044,
+        "end": 2183
+      },
+      "start": 2044,
+      "end": 2184
     }
   ],
   "sourceType": "script",
   "hashbang": null,
   "start": 0,
-  "end": 1999
+  "end": 2185
 }

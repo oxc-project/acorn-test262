@@ -11,8 +11,8 @@ __ESTREE_TEST__:PASS:
         "name": "Variables",
         "optional": false,
         "typeAnnotation": null,
-        "start": 7,
-        "end": 16
+        "start": 10,
+        "end": 19
       },
       "body": {
         "type": "TSModuleBlock",
@@ -29,8 +29,8 @@ __ESTREE_TEST__:PASS:
                   "name": "x",
                   "optional": false,
                   "typeAnnotation": null,
-                  "start": 26,
-                  "end": 27
+                  "start": 29,
+                  "end": 30
                 },
                 "init": {
                   "type": "FunctionExpression",
@@ -40,8 +40,8 @@ __ESTREE_TEST__:PASS:
                     "name": "bar",
                     "optional": false,
                     "typeAnnotation": null,
-                    "start": 39,
-                    "end": 42
+                    "start": 42,
+                    "end": 45
                   },
                   "generator": false,
                   "async": false,
@@ -54,8 +54,8 @@ __ESTREE_TEST__:PASS:
                       "name": "a",
                       "optional": false,
                       "typeAnnotation": null,
-                      "start": 43,
-                      "end": 44
+                      "start": 46,
+                      "end": 47
                     },
                     {
                       "type": "Identifier",
@@ -63,8 +63,8 @@ __ESTREE_TEST__:PASS:
                       "name": "b",
                       "optional": false,
                       "typeAnnotation": null,
-                      "start": 46,
-                      "end": 47
+                      "start": 49,
+                      "end": 50
                     },
                     {
                       "type": "Identifier",
@@ -72,29 +72,29 @@ __ESTREE_TEST__:PASS:
                       "name": "c",
                       "optional": false,
                       "typeAnnotation": null,
-                      "start": 49,
-                      "end": 50
+                      "start": 52,
+                      "end": 53
                     }
                   ],
                   "returnType": null,
                   "body": {
                     "type": "BlockStatement",
                     "body": [],
-                    "start": 52,
-                    "end": 59
+                    "start": 55,
+                    "end": 62
                   },
                   "expression": false,
-                  "start": 30,
-                  "end": 59
+                  "start": 33,
+                  "end": 62
                 },
                 "definite": false,
-                "start": 26,
-                "end": 59
+                "start": 29,
+                "end": 62
               }
             ],
             "declare": false,
-            "start": 22,
-            "end": 59
+            "start": 25,
+            "end": 62
           },
           {
             "type": "ExpressionStatement",
@@ -106,8 +106,8 @@ __ESTREE_TEST__:PASS:
                 "name": "x",
                 "optional": false,
                 "typeAnnotation": null,
-                "start": 64,
-                "end": 65
+                "start": 67,
+                "end": 68
               },
               "typeArguments": null,
               "arguments": [
@@ -115,46 +115,46 @@ __ESTREE_TEST__:PASS:
                   "type": "Literal",
                   "value": 1,
                   "raw": "1",
-                  "start": 66,
-                  "end": 67
-                },
-                {
-                  "type": "Literal",
-                  "value": 2,
-                  "raw": "2",
                   "start": 69,
                   "end": 70
                 },
                 {
                   "type": "Literal",
-                  "value": 3,
-                  "raw": "3",
+                  "value": 2,
+                  "raw": "2",
                   "start": 72,
                   "end": 73
+                },
+                {
+                  "type": "Literal",
+                  "value": 3,
+                  "raw": "3",
+                  "start": 75,
+                  "end": 76
                 }
               ],
               "optional": false,
-              "start": 64,
-              "end": 74
+              "start": 67,
+              "end": 77
             },
             "directive": null,
-            "start": 64,
-            "end": 75
+            "start": 67,
+            "end": 78
           }
         ],
-        "start": 16,
-        "end": 77
+        "start": 19,
+        "end": 80
       },
-      "kind": "module",
+      "kind": "namespace",
       "declare": false,
       "global": false,
       "start": 0,
-      "end": 77
+      "end": 80
     }
   ],
   "sourceType": "script",
   "hashbang": null,
   "start": 0,
-  "end": 77
+  "end": 80
 }
 ```

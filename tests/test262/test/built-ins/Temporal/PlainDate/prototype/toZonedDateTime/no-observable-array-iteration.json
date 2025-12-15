@@ -1,0 +1,357 @@
+{
+  "type": "Program",
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "kind": "const",
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "id": {
+            "type": "Identifier",
+            "name": "arrayPrototypeSymbolIteratorOriginal",
+            "start": 376,
+            "end": 412
+          },
+          "init": {
+            "type": "MemberExpression",
+            "object": {
+              "type": "MemberExpression",
+              "object": {
+                "type": "Identifier",
+                "name": "Array",
+                "start": 415,
+                "end": 420
+              },
+              "property": {
+                "type": "Identifier",
+                "name": "prototype",
+                "start": 421,
+                "end": 430
+              },
+              "optional": false,
+              "computed": false,
+              "start": 415,
+              "end": 430
+            },
+            "property": {
+              "type": "MemberExpression",
+              "object": {
+                "type": "Identifier",
+                "name": "Symbol",
+                "start": 431,
+                "end": 437
+              },
+              "property": {
+                "type": "Identifier",
+                "name": "iterator",
+                "start": 438,
+                "end": 446
+              },
+              "optional": false,
+              "computed": false,
+              "start": 431,
+              "end": 446
+            },
+            "optional": false,
+            "computed": true,
+            "start": 415,
+            "end": 447
+          },
+          "start": 376,
+          "end": 447
+        }
+      ],
+      "start": 370,
+      "end": 448
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "AssignmentExpression",
+        "operator": "=",
+        "left": {
+          "type": "MemberExpression",
+          "object": {
+            "type": "MemberExpression",
+            "object": {
+              "type": "Identifier",
+              "name": "Array",
+              "start": 449,
+              "end": 454
+            },
+            "property": {
+              "type": "Identifier",
+              "name": "prototype",
+              "start": 455,
+              "end": 464
+            },
+            "optional": false,
+            "computed": false,
+            "start": 449,
+            "end": 464
+          },
+          "property": {
+            "type": "MemberExpression",
+            "object": {
+              "type": "Identifier",
+              "name": "Symbol",
+              "start": 465,
+              "end": 471
+            },
+            "property": {
+              "type": "Identifier",
+              "name": "iterator",
+              "start": 472,
+              "end": 480
+            },
+            "optional": false,
+            "computed": false,
+            "start": 465,
+            "end": 480
+          },
+          "optional": false,
+          "computed": true,
+          "start": 449,
+          "end": 481
+        },
+        "right": {
+          "type": "FunctionExpression",
+          "id": {
+            "type": "Identifier",
+            "name": "arrayIterator",
+            "start": 493,
+            "end": 506
+          },
+          "generator": false,
+          "async": false,
+          "params": [],
+          "body": {
+            "type": "BlockStatement",
+            "body": [
+              {
+                "type": "ThrowStatement",
+                "argument": {
+                  "type": "NewExpression",
+                  "callee": {
+                    "type": "Identifier",
+                    "name": "Test262Error",
+                    "start": 523,
+                    "end": 535
+                  },
+                  "arguments": [
+                    {
+                      "type": "Literal",
+                      "value": "Array should not be iterated",
+                      "raw": "\"Array should not be iterated\"",
+                      "start": 536,
+                      "end": 566
+                    }
+                  ],
+                  "start": 519,
+                  "end": 567
+                },
+                "start": 513,
+                "end": 568
+              }
+            ],
+            "start": 509,
+            "end": 570
+          },
+          "expression": false,
+          "start": 484,
+          "end": 570
+        },
+        "start": 449,
+        "end": 570
+      },
+      "start": 449,
+      "end": 570
+    },
+    {
+      "type": "VariableDeclaration",
+      "kind": "let",
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "id": {
+            "type": "Identifier",
+            "name": "pd",
+            "start": 576,
+            "end": 578
+          },
+          "init": {
+            "type": "NewExpression",
+            "callee": {
+              "type": "MemberExpression",
+              "object": {
+                "type": "Identifier",
+                "name": "Temporal",
+                "start": 585,
+                "end": 593
+              },
+              "property": {
+                "type": "Identifier",
+                "name": "PlainDate",
+                "start": 594,
+                "end": 603
+              },
+              "optional": false,
+              "computed": false,
+              "start": 585,
+              "end": 603
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "value": 2000,
+                "raw": "2000",
+                "start": 604,
+                "end": 608
+              },
+              {
+                "type": "Literal",
+                "value": 1,
+                "raw": "1",
+                "start": 610,
+                "end": 611
+              },
+              {
+                "type": "Literal",
+                "value": 1,
+                "raw": "1",
+                "start": 613,
+                "end": 614
+              }
+            ],
+            "start": 581,
+            "end": 615
+          },
+          "start": 576,
+          "end": 615
+        }
+      ],
+      "start": 572,
+      "end": 616
+    },
+    {
+      "type": "VariableDeclaration",
+      "kind": "let",
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "id": {
+            "type": "Identifier",
+            "name": "zdt",
+            "start": 621,
+            "end": 624
+          },
+          "init": {
+            "type": "CallExpression",
+            "callee": {
+              "type": "MemberExpression",
+              "object": {
+                "type": "Identifier",
+                "name": "pd",
+                "start": 627,
+                "end": 629
+              },
+              "property": {
+                "type": "Identifier",
+                "name": "toZonedDateTime",
+                "start": 630,
+                "end": 645
+              },
+              "optional": false,
+              "computed": false,
+              "start": 627,
+              "end": 645
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "value": "UTC",
+                "raw": "\"UTC\"",
+                "start": 646,
+                "end": 651
+              }
+            ],
+            "optional": false,
+            "start": 627,
+            "end": 652
+          },
+          "start": 621,
+          "end": 652
+        }
+      ],
+      "start": 617,
+      "end": 653
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "AssignmentExpression",
+        "operator": "=",
+        "left": {
+          "type": "MemberExpression",
+          "object": {
+            "type": "MemberExpression",
+            "object": {
+              "type": "Identifier",
+              "name": "Array",
+              "start": 655,
+              "end": 660
+            },
+            "property": {
+              "type": "Identifier",
+              "name": "prototype",
+              "start": 661,
+              "end": 670
+            },
+            "optional": false,
+            "computed": false,
+            "start": 655,
+            "end": 670
+          },
+          "property": {
+            "type": "MemberExpression",
+            "object": {
+              "type": "Identifier",
+              "name": "Symbol",
+              "start": 671,
+              "end": 677
+            },
+            "property": {
+              "type": "Identifier",
+              "name": "iterator",
+              "start": 678,
+              "end": 686
+            },
+            "optional": false,
+            "computed": false,
+            "start": 671,
+            "end": 686
+          },
+          "optional": false,
+          "computed": true,
+          "start": 655,
+          "end": 687
+        },
+        "right": {
+          "type": "Identifier",
+          "name": "arrayPrototypeSymbolIteratorOriginal",
+          "start": 690,
+          "end": 726
+        },
+        "start": 655,
+        "end": 726
+      },
+      "start": 655,
+      "end": 727
+    }
+  ],
+  "sourceType": "script",
+  "hashbang": null,
+  "start": 0,
+  "end": 728
+}
