@@ -41,30 +41,30 @@ __ESTREE_TEST__:PASS:
         "left": {
           "type": "Identifier",
           "decorators": [],
-          "name": "namespace",
+          "name": "module",
           "optional": false,
           "typeAnnotation": null,
           "start": 17,
-          "end": 26
+          "end": 23
         },
         "operator": "in",
         "right": {
           "type": "ObjectExpression",
           "properties": [],
-          "start": 30,
-          "end": 32
+          "start": 27,
+          "end": 29
         },
         "start": 17,
-        "end": 32
+        "end": 29
       },
       "directive": null,
       "start": 17,
-      "end": 32
+      "end": 29
     }
   ],
   "sourceType": "script",
   "hashbang": null,
   "start": 0,
-  "end": 32
+  "end": 29
 }
 ```

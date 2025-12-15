@@ -156,8 +156,8 @@ __ESTREE_TEST__:PASS:
         "name": "$",
         "optional": false,
         "typeAnnotation": null,
-        "start": 112,
-        "end": 113
+        "start": 115,
+        "end": 116
       },
       "body": {
         "type": "TSModuleBlock",
@@ -172,27 +172,27 @@ __ESTREE_TEST__:PASS:
                 "name": "AjaxSettings",
                 "optional": false,
                 "typeAnnotation": null,
-                "start": 137,
-                "end": 149
+                "start": 140,
+                "end": 152
               },
               "typeParameters": null,
               "extends": [],
               "body": {
                 "type": "TSInterfaceBody",
                 "body": [],
-                "start": 150,
-                "end": 157
+                "start": 153,
+                "end": 160
               },
               "declare": false,
-              "start": 127,
-              "end": 157
+              "start": 130,
+              "end": 160
             },
             "specifiers": [],
             "source": null,
             "exportKind": "type",
             "attributes": [],
-            "start": 120,
-            "end": 157
+            "start": 123,
+            "end": 160
           },
           {
             "type": "ExportNamedDeclaration",
@@ -204,8 +204,8 @@ __ESTREE_TEST__:PASS:
                 "name": "ajax",
                 "optional": false,
                 "typeAnnotation": null,
-                "start": 178,
-                "end": 182
+                "start": 181,
+                "end": 185
               },
               "generator": false,
               "async": false,
@@ -227,47 +227,47 @@ __ESTREE_TEST__:PASS:
                         "name": "AjaxSettings",
                         "optional": false,
                         "typeAnnotation": null,
-                        "start": 192,
-                        "end": 204
+                        "start": 195,
+                        "end": 207
                       },
                       "typeArguments": null,
-                      "start": 192,
-                      "end": 204
+                      "start": 195,
+                      "end": 207
                     },
-                    "start": 190,
-                    "end": 204
+                    "start": 193,
+                    "end": 207
                   },
-                  "start": 183,
-                  "end": 204
+                  "start": 186,
+                  "end": 207
                 }
               ],
               "returnType": null,
               "body": {
                 "type": "BlockStatement",
                 "body": [],
-                "start": 206,
-                "end": 209
+                "start": 209,
+                "end": 212
               },
               "expression": false,
-              "start": 169,
-              "end": 209
+              "start": 172,
+              "end": 212
             },
             "specifiers": [],
             "source": null,
             "exportKind": "value",
             "attributes": [],
-            "start": 162,
-            "end": 209
+            "start": 165,
+            "end": 212
           }
         ],
-        "start": 114,
-        "end": 213
+        "start": 117,
+        "end": 216
       },
-      "kind": "module",
+      "kind": "namespace",
       "declare": false,
       "global": false,
       "start": 105,
-      "end": 213
+      "end": 216
     },
     {
       "type": "VariableDeclaration",
@@ -290,18 +290,18 @@ __ESTREE_TEST__:PASS:
                   "name": "$",
                   "optional": false,
                   "typeAnnotation": null,
-                  "start": 224,
-                  "end": 225
+                  "start": 227,
+                  "end": 228
                 },
                 "typeArguments": null,
-                "start": 224,
-                "end": 225
+                "start": 227,
+                "end": 228
               },
-              "start": 222,
-              "end": 225
+              "start": 225,
+              "end": 228
             },
-            "start": 220,
-            "end": 225
+            "start": 223,
+            "end": 228
           },
           "init": {
             "type": "CallExpression",
@@ -315,8 +315,8 @@ __ESTREE_TEST__:PASS:
                   "name": "$",
                   "optional": false,
                   "typeAnnotation": null,
-                  "start": 228,
-                  "end": 229
+                  "start": 231,
+                  "end": 232
                 },
                 "typeArguments": null,
                 "arguments": [
@@ -324,13 +324,13 @@ __ESTREE_TEST__:PASS:
                     "type": "Literal",
                     "value": ".foo",
                     "raw": "'.foo'",
-                    "start": 230,
-                    "end": 236
+                    "start": 233,
+                    "end": 239
                   }
                 ],
                 "optional": false,
-                "start": 228,
-                "end": 237
+                "start": 231,
+                "end": 240
               },
               "property": {
                 "type": "Identifier",
@@ -338,13 +338,13 @@ __ESTREE_TEST__:PASS:
                 "name": "addClass",
                 "optional": false,
                 "typeAnnotation": null,
-                "start": 238,
-                "end": 246
+                "start": 241,
+                "end": 249
               },
               "optional": false,
               "computed": false,
-              "start": 228,
-              "end": 246
+              "start": 231,
+              "end": 249
             },
             "typeArguments": null,
             "arguments": [
@@ -352,27 +352,27 @@ __ESTREE_TEST__:PASS:
                 "type": "Literal",
                 "value": "bar",
                 "raw": "'bar'",
-                "start": 247,
-                "end": 252
+                "start": 250,
+                "end": 255
               }
             ],
             "optional": false,
-            "start": 228,
-            "end": 253
+            "start": 231,
+            "end": 256
           },
           "definite": false,
-          "start": 220,
-          "end": 253
+          "start": 223,
+          "end": 256
         }
       ],
       "declare": false,
-      "start": 216,
-      "end": 254
+      "start": 219,
+      "end": 257
     }
   ],
   "sourceType": "script",
   "hashbang": null,
   "start": 2,
-  "end": 254
+  "end": 257
 }
 ```

@@ -11,8 +11,8 @@ __ESTREE_TEST__:PASS:
         "name": "Midori",
         "optional": false,
         "typeAnnotation": null,
-        "start": 9,
-        "end": 15
+        "start": 12,
+        "end": 18
       },
       "body": {
         "type": "TSModuleBlock",
@@ -23,8 +23,8 @@ __ESTREE_TEST__:PASS:
               "type": "Literal",
               "value": false,
               "raw": "false",
-              "start": 26,
-              "end": 31
+              "start": 29,
+              "end": 34
             },
             "consequent": {
               "type": "BlockStatement",
@@ -37,8 +37,8 @@ __ESTREE_TEST__:PASS:
                     "name": "Foo",
                     "optional": false,
                     "typeAnnotation": null,
-                    "start": 52,
-                    "end": 55
+                    "start": 55,
+                    "end": 58
                   },
                   "generator": false,
                   "async": false,
@@ -51,43 +51,43 @@ __ESTREE_TEST__:PASS:
                       "name": "src",
                       "optional": false,
                       "typeAnnotation": null,
-                      "start": 56,
-                      "end": 59
+                      "start": 59,
+                      "end": 62
                     }
                   ],
                   "returnType": null,
                   "body": {
                     "type": "BlockStatement",
                     "body": [],
-                    "start": 69,
-                    "end": 80
+                    "start": 72,
+                    "end": 83
                   },
                   "expression": false,
-                  "start": 43,
-                  "end": 80
+                  "start": 46,
+                  "end": 83
                 }
               ],
-              "start": 33,
-              "end": 86
+              "start": 36,
+              "end": 89
             },
             "alternate": null,
-            "start": 22,
-            "end": 86
+            "start": 25,
+            "end": 89
           }
         ],
-        "start": 16,
-        "end": 88
+        "start": 19,
+        "end": 91
       },
-      "kind": "module",
+      "kind": "namespace",
       "declare": false,
       "global": false,
       "start": 2,
-      "end": 88
+      "end": 91
     }
   ],
   "sourceType": "script",
   "hashbang": null,
   "start": 2,
-  "end": 88
+  "end": 91
 }
 ```

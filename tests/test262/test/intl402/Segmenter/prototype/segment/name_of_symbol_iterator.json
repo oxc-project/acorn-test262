@@ -1,0 +1,170 @@
+{
+  "type": "Program",
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "kind": "let",
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "id": {
+            "type": "Identifier",
+            "name": "ss",
+            "start": 301,
+            "end": 303
+          },
+          "init": {
+            "type": "MemberExpression",
+            "object": {
+              "type": "MemberExpression",
+              "object": {
+                "type": "CallExpression",
+                "callee": {
+                  "type": "MemberExpression",
+                  "object": {
+                    "type": "ParenthesizedExpression",
+                    "expression": {
+                      "type": "NewExpression",
+                      "callee": {
+                        "type": "MemberExpression",
+                        "object": {
+                          "type": "Identifier",
+                          "name": "Intl",
+                          "start": 311,
+                          "end": 315
+                        },
+                        "property": {
+                          "type": "Identifier",
+                          "name": "Segmenter",
+                          "start": 316,
+                          "end": 325
+                        },
+                        "optional": false,
+                        "computed": false,
+                        "start": 311,
+                        "end": 325
+                      },
+                      "arguments": [],
+                      "start": 307,
+                      "end": 327
+                    },
+                    "start": 306,
+                    "end": 328
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "name": "segment",
+                    "start": 329,
+                    "end": 336
+                  },
+                  "optional": false,
+                  "computed": false,
+                  "start": 306,
+                  "end": 336
+                },
+                "arguments": [
+                  {
+                    "type": "Literal",
+                    "value": "123",
+                    "raw": "\"123\"",
+                    "start": 337,
+                    "end": 342
+                  }
+                ],
+                "optional": false,
+                "start": 306,
+                "end": 343
+              },
+              "property": {
+                "type": "MemberExpression",
+                "object": {
+                  "type": "Identifier",
+                  "name": "Symbol",
+                  "start": 344,
+                  "end": 350
+                },
+                "property": {
+                  "type": "Identifier",
+                  "name": "iterator",
+                  "start": 351,
+                  "end": 359
+                },
+                "optional": false,
+                "computed": false,
+                "start": 344,
+                "end": 359
+              },
+              "optional": false,
+              "computed": true,
+              "start": 306,
+              "end": 360
+            },
+            "property": {
+              "type": "Identifier",
+              "name": "name",
+              "start": 361,
+              "end": 365
+            },
+            "optional": false,
+            "computed": false,
+            "start": 306,
+            "end": 365
+          },
+          "start": 301,
+          "end": 365
+        }
+      ],
+      "start": 297,
+      "end": 366
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "MemberExpression",
+          "object": {
+            "type": "Identifier",
+            "name": "assert",
+            "start": 367,
+            "end": 373
+          },
+          "property": {
+            "type": "Identifier",
+            "name": "sameValue",
+            "start": 374,
+            "end": 383
+          },
+          "optional": false,
+          "computed": false,
+          "start": 367,
+          "end": 383
+        },
+        "arguments": [
+          {
+            "type": "Literal",
+            "value": "[Symbol.iterator]",
+            "raw": "\"[Symbol.iterator]\"",
+            "start": 384,
+            "end": 403
+          },
+          {
+            "type": "Identifier",
+            "name": "ss",
+            "start": 405,
+            "end": 407
+          }
+        ],
+        "optional": false,
+        "start": 367,
+        "end": 408
+      },
+      "start": 367,
+      "end": 409
+    }
+  ],
+  "sourceType": "script",
+  "hashbang": null,
+  "start": 0,
+  "end": 410
+}

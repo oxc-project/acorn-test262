@@ -1254,10 +1254,166 @@
       },
       "start": 1554,
       "end": 1716
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "AssignmentExpression",
+        "operator": "=",
+        "left": {
+          "type": "Identifier",
+          "name": "relativeTo",
+          "start": 1718,
+          "end": 1728
+        },
+        "right": {
+          "type": "Literal",
+          "value": "2025-01-01T00:00:00+00:0000",
+          "raw": "\"2025-01-01T00:00:00+00:0000\"",
+          "start": 1731,
+          "end": 1760
+        },
+        "start": 1718,
+        "end": 1760
+      },
+      "start": 1718,
+      "end": 1761
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "MemberExpression",
+          "object": {
+            "type": "Identifier",
+            "name": "assert",
+            "start": 1762,
+            "end": 1768
+          },
+          "property": {
+            "type": "Identifier",
+            "name": "throws",
+            "start": 1769,
+            "end": 1775
+          },
+          "optional": false,
+          "computed": false,
+          "start": 1762,
+          "end": 1775
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "name": "RangeError",
+            "start": 1776,
+            "end": 1786
+          },
+          {
+            "type": "ArrowFunctionExpression",
+            "expression": true,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "CallExpression",
+              "callee": {
+                "type": "MemberExpression",
+                "object": {
+                  "type": "Identifier",
+                  "name": "instance",
+                  "start": 1794,
+                  "end": 1802
+                },
+                "property": {
+                  "type": "Identifier",
+                  "name": "total",
+                  "start": 1803,
+                  "end": 1808
+                },
+                "optional": false,
+                "computed": false,
+                "start": 1794,
+                "end": 1808
+              },
+              "arguments": [
+                {
+                  "type": "ObjectExpression",
+                  "properties": [
+                    {
+                      "type": "Property",
+                      "kind": "init",
+                      "key": {
+                        "type": "Identifier",
+                        "name": "unit",
+                        "start": 1811,
+                        "end": 1815
+                      },
+                      "value": {
+                        "type": "Literal",
+                        "value": "days",
+                        "raw": "\"days\"",
+                        "start": 1817,
+                        "end": 1823
+                      },
+                      "method": false,
+                      "shorthand": false,
+                      "computed": false,
+                      "start": 1811,
+                      "end": 1823
+                    },
+                    {
+                      "type": "Property",
+                      "kind": "init",
+                      "key": {
+                        "type": "Identifier",
+                        "name": "relativeTo",
+                        "start": 1825,
+                        "end": 1835
+                      },
+                      "value": {
+                        "type": "Identifier",
+                        "name": "relativeTo",
+                        "start": 1825,
+                        "end": 1835
+                      },
+                      "method": false,
+                      "shorthand": true,
+                      "computed": false,
+                      "start": 1825,
+                      "end": 1835
+                    }
+                  ],
+                  "start": 1809,
+                  "end": 1837
+                }
+              ],
+              "optional": false,
+              "start": 1794,
+              "end": 1838
+            },
+            "id": null,
+            "generator": false,
+            "start": 1788,
+            "end": 1838
+          },
+          {
+            "type": "Literal",
+            "value": "date-time with offset like 00:0000 shouldn't parse",
+            "raw": "\"date-time with offset like 00:0000 shouldn't parse\"",
+            "start": 1840,
+            "end": 1892
+          }
+        ],
+        "optional": false,
+        "start": 1762,
+        "end": 1893
+      },
+      "start": 1762,
+      "end": 1894
     }
   ],
   "sourceType": "script",
   "hashbang": null,
   "start": 0,
-  "end": 1717
+  "end": 1895
 }
