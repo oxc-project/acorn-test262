@@ -1,0 +1,142 @@
+[
+  {
+    "type": "Identifier",
+    "value": "assert",
+    "start": 212,
+    "end": 218,
+    "range": [
+      212,
+      218
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 218,
+    "end": 219,
+    "range": [
+      218,
+      219
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "sameValue",
+    "start": 219,
+    "end": 228,
+    "range": [
+      219,
+      228
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 228,
+    "end": 229,
+    "range": [
+      228,
+      229
+    ]
+  },
+  {
+    "type": "Keyword",
+    "value": "typeof",
+    "start": 232,
+    "end": 238,
+    "range": [
+      232,
+      238
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "Promise",
+    "start": 239,
+    "end": 246,
+    "range": [
+      239,
+      246
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 246,
+    "end": 247,
+    "range": [
+      246,
+      247
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "reject",
+    "start": 247,
+    "end": 253,
+    "range": [
+      247,
+      253
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 253,
+    "end": 254,
+    "range": [
+      253,
+      254
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"function\"",
+    "start": 257,
+    "end": 267,
+    "range": [
+      257,
+      267
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 267,
+    "end": 268,
+    "range": [
+      267,
+      268
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'The value of `typeof Promise.reject` is expected to be \"function\"'",
+    "start": 271,
+    "end": 338,
+    "range": [
+      271,
+      338
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 339,
+    "end": 340,
+    "range": [
+      339,
+      340
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 340,
+    "end": 341,
+    "range": [
+      340,
+      341
+    ]
+  }
+]

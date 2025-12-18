@@ -1,0 +1,292 @@
+[
+  {
+    "type": "Identifier",
+    "value": "verifyProperty",
+    "start": 771,
+    "end": 785,
+    "range": [
+      771,
+      785
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 785,
+    "end": 786,
+    "range": [
+      785,
+      786
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "TypedArray",
+    "start": 786,
+    "end": 796,
+    "range": [
+      786,
+      796
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 796,
+    "end": 797,
+    "range": [
+      796,
+      797
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "prototype",
+    "start": 797,
+    "end": 806,
+    "range": [
+      797,
+      806
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 806,
+    "end": 807,
+    "range": [
+      806,
+      807
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "slice",
+    "start": 807,
+    "end": 812,
+    "range": [
+      807,
+      812
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 812,
+    "end": 813,
+    "range": [
+      812,
+      813
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"name\"",
+    "start": 814,
+    "end": 820,
+    "range": [
+      814,
+      820
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 820,
+    "end": 821,
+    "range": [
+      820,
+      821
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "{",
+    "start": 822,
+    "end": 823,
+    "range": [
+      822,
+      823
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "value",
+    "start": 826,
+    "end": 831,
+    "range": [
+      826,
+      831
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ":",
+    "start": 831,
+    "end": 832,
+    "range": [
+      831,
+      832
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"slice\"",
+    "start": 833,
+    "end": 840,
+    "range": [
+      833,
+      840
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 840,
+    "end": 841,
+    "range": [
+      840,
+      841
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "writable",
+    "start": 844,
+    "end": 852,
+    "range": [
+      844,
+      852
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ":",
+    "start": 852,
+    "end": 853,
+    "range": [
+      852,
+      853
+    ]
+  },
+  {
+    "type": "Boolean",
+    "value": "false",
+    "start": 854,
+    "end": 859,
+    "range": [
+      854,
+      859
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 859,
+    "end": 860,
+    "range": [
+      859,
+      860
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "enumerable",
+    "start": 863,
+    "end": 873,
+    "range": [
+      863,
+      873
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ":",
+    "start": 873,
+    "end": 874,
+    "range": [
+      873,
+      874
+    ]
+  },
+  {
+    "type": "Boolean",
+    "value": "false",
+    "start": 875,
+    "end": 880,
+    "range": [
+      875,
+      880
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 880,
+    "end": 881,
+    "range": [
+      880,
+      881
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "configurable",
+    "start": 884,
+    "end": 896,
+    "range": [
+      884,
+      896
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ":",
+    "start": 896,
+    "end": 897,
+    "range": [
+      896,
+      897
+    ]
+  },
+  {
+    "type": "Boolean",
+    "value": "true",
+    "start": 898,
+    "end": 902,
+    "range": [
+      898,
+      902
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "}",
+    "start": 903,
+    "end": 904,
+    "range": [
+      903,
+      904
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 904,
+    "end": 905,
+    "range": [
+      904,
+      905
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 905,
+    "end": 906,
+    "range": [
+      905,
+      906
+    ]
+  }
+]

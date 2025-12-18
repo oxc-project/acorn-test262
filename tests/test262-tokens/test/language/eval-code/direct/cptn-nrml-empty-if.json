@@ -1,0 +1,232 @@
+[
+  {
+    "type": "Keyword",
+    "value": "if",
+    "start": 317,
+    "end": 319,
+    "range": [
+      317,
+      319
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 320,
+    "end": 321,
+    "range": [
+      320,
+      321
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "eval",
+    "start": 321,
+    "end": 325,
+    "range": [
+      321,
+      325
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 325,
+    "end": 326,
+    "range": [
+      325,
+      326
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"if (false) ;\"",
+    "start": 326,
+    "end": 340,
+    "range": [
+      326,
+      340
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 340,
+    "end": 341,
+    "range": [
+      340,
+      341
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "!==",
+    "start": 342,
+    "end": 345,
+    "range": [
+      342,
+      345
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "undefined",
+    "start": 346,
+    "end": 355,
+    "range": [
+      346,
+      355
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 355,
+    "end": 356,
+    "range": [
+      355,
+      356
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "{",
+    "start": 357,
+    "end": 358,
+    "range": [
+      357,
+      358
+    ]
+  },
+  {
+    "type": "Keyword",
+    "value": "throw",
+    "start": 361,
+    "end": 366,
+    "range": [
+      361,
+      366
+    ]
+  },
+  {
+    "type": "Keyword",
+    "value": "new",
+    "start": 367,
+    "end": 370,
+    "range": [
+      367,
+      370
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "Test262Error",
+    "start": 371,
+    "end": 383,
+    "range": [
+      371,
+      383
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 383,
+    "end": 384,
+    "range": [
+      383,
+      384
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'#1: eval(\"if (false) ;\") === undefined. Actual: '",
+    "start": 384,
+    "end": 434,
+    "range": [
+      384,
+      434
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "+",
+    "start": 435,
+    "end": 436,
+    "range": [
+      435,
+      436
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "eval",
+    "start": 437,
+    "end": 441,
+    "range": [
+      437,
+      441
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 441,
+    "end": 442,
+    "range": [
+      441,
+      442
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"if (false) ;\"",
+    "start": 442,
+    "end": 456,
+    "range": [
+      442,
+      456
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 456,
+    "end": 457,
+    "range": [
+      456,
+      457
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 457,
+    "end": 458,
+    "range": [
+      457,
+      458
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 458,
+    "end": 459,
+    "range": [
+      458,
+      459
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "}",
+    "start": 460,
+    "end": 461,
+    "range": [
+      460,
+      461
+    ]
+  }
+]

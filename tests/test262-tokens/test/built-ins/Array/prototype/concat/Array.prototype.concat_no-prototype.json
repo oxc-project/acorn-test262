@@ -1,0 +1,182 @@
+[
+  {
+    "type": "Identifier",
+    "value": "assert",
+    "start": 267,
+    "end": 273,
+    "range": [
+      267,
+      273
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 273,
+    "end": 274,
+    "range": [
+      273,
+      274
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "sameValue",
+    "start": 274,
+    "end": 283,
+    "range": [
+      274,
+      283
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 283,
+    "end": 284,
+    "range": [
+      283,
+      284
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "Array",
+    "start": 287,
+    "end": 292,
+    "range": [
+      287,
+      292
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 292,
+    "end": 293,
+    "range": [
+      292,
+      293
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "prototype",
+    "start": 293,
+    "end": 302,
+    "range": [
+      293,
+      302
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 302,
+    "end": 303,
+    "range": [
+      302,
+      303
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "concat",
+    "start": 303,
+    "end": 309,
+    "range": [
+      303,
+      309
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 309,
+    "end": 310,
+    "range": [
+      309,
+      310
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "prototype",
+    "start": 310,
+    "end": 319,
+    "range": [
+      310,
+      319
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 319,
+    "end": 320,
+    "range": [
+      319,
+      320
+    ]
+  },
+  {
+    "type": "Keyword",
+    "value": "void",
+    "start": 323,
+    "end": 327,
+    "range": [
+      323,
+      327
+    ]
+  },
+  {
+    "type": "Numeric",
+    "value": "0",
+    "start": 328,
+    "end": 329,
+    "range": [
+      328,
+      329
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 329,
+    "end": 330,
+    "range": [
+      329,
+      330
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'The value of Array.prototype.concat.prototype is expected to be void 0'",
+    "start": 333,
+    "end": 405,
+    "range": [
+      333,
+      405
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 406,
+    "end": 407,
+    "range": [
+      406,
+      407
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 407,
+    "end": 408,
+    "range": [
+      407,
+      408
+    ]
+  }
+]

@@ -1,0 +1,482 @@
+[
+  {
+    "type": "Identifier",
+    "value": "assert",
+    "start": 747,
+    "end": 753,
+    "range": [
+      747,
+      753
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 753,
+    "end": 754,
+    "range": [
+      753,
+      754
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "sameValue",
+    "start": 754,
+    "end": 763,
+    "range": [
+      754,
+      763
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 763,
+    "end": 764,
+    "range": [
+      763,
+      764
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "eval",
+    "start": 764,
+    "end": 768,
+    "range": [
+      764,
+      768
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 768,
+    "end": 769,
+    "range": [
+      768,
+      769
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'1; while (true) { break; }'",
+    "start": 769,
+    "end": 797,
+    "range": [
+      769,
+      797
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 797,
+    "end": 798,
+    "range": [
+      797,
+      798
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 798,
+    "end": 799,
+    "range": [
+      798,
+      799
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "undefined",
+    "start": 800,
+    "end": 809,
+    "range": [
+      800,
+      809
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 809,
+    "end": 810,
+    "range": [
+      809,
+      810
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 810,
+    "end": 811,
+    "range": [
+      810,
+      811
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "assert",
+    "start": 812,
+    "end": 818,
+    "range": [
+      812,
+      818
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 818,
+    "end": 819,
+    "range": [
+      818,
+      819
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "sameValue",
+    "start": 819,
+    "end": 828,
+    "range": [
+      819,
+      828
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 828,
+    "end": 829,
+    "range": [
+      828,
+      829
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "eval",
+    "start": 829,
+    "end": 833,
+    "range": [
+      829,
+      833
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 833,
+    "end": 834,
+    "range": [
+      833,
+      834
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'2; while (true) { 3; break; }'",
+    "start": 834,
+    "end": 865,
+    "range": [
+      834,
+      865
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 865,
+    "end": 866,
+    "range": [
+      865,
+      866
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 866,
+    "end": 867,
+    "range": [
+      866,
+      867
+    ]
+  },
+  {
+    "type": "Numeric",
+    "value": "3",
+    "start": 868,
+    "end": 869,
+    "range": [
+      868,
+      869
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 869,
+    "end": 870,
+    "range": [
+      869,
+      870
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 870,
+    "end": 871,
+    "range": [
+      870,
+      871
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "assert",
+    "start": 873,
+    "end": 879,
+    "range": [
+      873,
+      879
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 879,
+    "end": 880,
+    "range": [
+      879,
+      880
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "sameValue",
+    "start": 880,
+    "end": 889,
+    "range": [
+      880,
+      889
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 889,
+    "end": 890,
+    "range": [
+      889,
+      890
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "eval",
+    "start": 893,
+    "end": 897,
+    "range": [
+      893,
+      897
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 897,
+    "end": 898,
+    "range": [
+      897,
+      898
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'4; outer: do { while (true) { continue outer; } } while (false)'",
+    "start": 898,
+    "end": 963,
+    "range": [
+      898,
+      963
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 963,
+    "end": 964,
+    "range": [
+      963,
+      964
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 964,
+    "end": 965,
+    "range": [
+      964,
+      965
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "undefined",
+    "start": 968,
+    "end": 977,
+    "range": [
+      968,
+      977
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 978,
+    "end": 979,
+    "range": [
+      978,
+      979
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 979,
+    "end": 980,
+    "range": [
+      979,
+      980
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "assert",
+    "start": 981,
+    "end": 987,
+    "range": [
+      981,
+      987
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 987,
+    "end": 988,
+    "range": [
+      987,
+      988
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "sameValue",
+    "start": 988,
+    "end": 997,
+    "range": [
+      988,
+      997
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 997,
+    "end": 998,
+    "range": [
+      997,
+      998
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "eval",
+    "start": 1001,
+    "end": 1005,
+    "range": [
+      1001,
+      1005
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 1005,
+    "end": 1006,
+    "range": [
+      1005,
+      1006
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'5; outer: do { while (true) { 6; continue outer; } } while (false)'",
+    "start": 1006,
+    "end": 1074,
+    "range": [
+      1006,
+      1074
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 1074,
+    "end": 1075,
+    "range": [
+      1074,
+      1075
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 1075,
+    "end": 1076,
+    "range": [
+      1075,
+      1076
+    ]
+  },
+  {
+    "type": "Numeric",
+    "value": "6",
+    "start": 1077,
+    "end": 1078,
+    "range": [
+      1077,
+      1078
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 1079,
+    "end": 1080,
+    "range": [
+      1079,
+      1080
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 1080,
+    "end": 1081,
+    "range": [
+      1080,
+      1081
+    ]
+  }
+]

@@ -1,0 +1,532 @@
+[
+  {
+    "type": "Keyword",
+    "value": "var",
+    "start": 329,
+    "end": 332,
+    "range": [
+      329,
+      332
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "__re",
+    "start": 333,
+    "end": 337,
+    "range": [
+      333,
+      337
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "=",
+    "start": 338,
+    "end": 339,
+    "range": [
+      338,
+      339
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "RegExp",
+    "start": 340,
+    "end": 346,
+    "range": [
+      340,
+      346
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 346,
+    "end": 347,
+    "range": [
+      346,
+      347
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "prototype",
+    "start": 347,
+    "end": 356,
+    "range": [
+      347,
+      356
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 356,
+    "end": 357,
+    "range": [
+      356,
+      357
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "assert",
+    "start": 359,
+    "end": 365,
+    "range": [
+      359,
+      365
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 365,
+    "end": 366,
+    "range": [
+      365,
+      366
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "sameValue",
+    "start": 366,
+    "end": 375,
+    "range": [
+      366,
+      375
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 375,
+    "end": 376,
+    "range": [
+      375,
+      376
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "__re",
+    "start": 376,
+    "end": 380,
+    "range": [
+      376,
+      380
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 380,
+    "end": 381,
+    "range": [
+      380,
+      381
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "hasOwnProperty",
+    "start": 381,
+    "end": 395,
+    "range": [
+      381,
+      395
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 395,
+    "end": 396,
+    "range": [
+      395,
+      396
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'ignoreCase'",
+    "start": 396,
+    "end": 408,
+    "range": [
+      396,
+      408
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 408,
+    "end": 409,
+    "range": [
+      408,
+      409
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 409,
+    "end": 410,
+    "range": [
+      409,
+      410
+    ]
+  },
+  {
+    "type": "Boolean",
+    "value": "true",
+    "start": 411,
+    "end": 415,
+    "range": [
+      411,
+      415
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 415,
+    "end": 416,
+    "range": [
+      415,
+      416
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'__re.hasOwnProperty(\\'ignoreCase\\') must return true'",
+    "start": 417,
+    "end": 471,
+    "range": [
+      417,
+      471
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 471,
+    "end": 472,
+    "range": [
+      471,
+      472
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 472,
+    "end": 473,
+    "range": [
+      472,
+      473
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "assert",
+    "start": 474,
+    "end": 480,
+    "range": [
+      474,
+      480
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 480,
+    "end": 481,
+    "range": [
+      480,
+      481
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "sameValue",
+    "start": 481,
+    "end": 490,
+    "range": [
+      481,
+      490
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 490,
+    "end": 491,
+    "range": [
+      490,
+      491
+    ]
+  },
+  {
+    "type": "Keyword",
+    "value": "delete",
+    "start": 491,
+    "end": 497,
+    "range": [
+      491,
+      497
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "__re",
+    "start": 498,
+    "end": 502,
+    "range": [
+      498,
+      502
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 502,
+    "end": 503,
+    "range": [
+      502,
+      503
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "ignoreCase",
+    "start": 503,
+    "end": 513,
+    "range": [
+      503,
+      513
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 513,
+    "end": 514,
+    "range": [
+      513,
+      514
+    ]
+  },
+  {
+    "type": "Boolean",
+    "value": "true",
+    "start": 515,
+    "end": 519,
+    "range": [
+      515,
+      519
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 519,
+    "end": 520,
+    "range": [
+      519,
+      520
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'The value of `delete __re.ignoreCase` is expected to be true'",
+    "start": 521,
+    "end": 583,
+    "range": [
+      521,
+      583
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 583,
+    "end": 584,
+    "range": [
+      583,
+      584
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 584,
+    "end": 585,
+    "range": [
+      584,
+      585
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "assert",
+    "start": 586,
+    "end": 592,
+    "range": [
+      586,
+      592
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 592,
+    "end": 593,
+    "range": [
+      592,
+      593
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "sameValue",
+    "start": 593,
+    "end": 602,
+    "range": [
+      593,
+      602
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 602,
+    "end": 603,
+    "range": [
+      602,
+      603
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "__re",
+    "start": 603,
+    "end": 607,
+    "range": [
+      603,
+      607
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 607,
+    "end": 608,
+    "range": [
+      607,
+      608
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "hasOwnProperty",
+    "start": 608,
+    "end": 622,
+    "range": [
+      608,
+      622
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 622,
+    "end": 623,
+    "range": [
+      622,
+      623
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'ignoreCase'",
+    "start": 623,
+    "end": 635,
+    "range": [
+      623,
+      635
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 635,
+    "end": 636,
+    "range": [
+      635,
+      636
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 636,
+    "end": 637,
+    "range": [
+      636,
+      637
+    ]
+  },
+  {
+    "type": "Boolean",
+    "value": "false",
+    "start": 638,
+    "end": 643,
+    "range": [
+      638,
+      643
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 643,
+    "end": 644,
+    "range": [
+      643,
+      644
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'__re.hasOwnProperty(\\'ignoreCase\\') must return false'",
+    "start": 645,
+    "end": 700,
+    "range": [
+      645,
+      700
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 700,
+    "end": 701,
+    "range": [
+      700,
+      701
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 701,
+    "end": 702,
+    "range": [
+      701,
+      702
+    ]
+  }
+]

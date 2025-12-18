@@ -1,0 +1,152 @@
+[
+  {
+    "type": "Identifier",
+    "value": "assert",
+    "start": 264,
+    "end": 270,
+    "range": [
+      264,
+      270
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 270,
+    "end": 271,
+    "range": [
+      270,
+      271
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "sameValue",
+    "start": 271,
+    "end": 280,
+    "range": [
+      271,
+      280
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 280,
+    "end": 281,
+    "range": [
+      280,
+      281
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"abc\\0\\u0000\"",
+    "start": 281,
+    "end": 294,
+    "range": [
+      281,
+      294
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 294,
+    "end": 295,
+    "range": [
+      294,
+      295
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "trim",
+    "start": 295,
+    "end": 299,
+    "range": [
+      295,
+      299
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 299,
+    "end": 300,
+    "range": [
+      299,
+      300
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 300,
+    "end": 301,
+    "range": [
+      300,
+      301
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 301,
+    "end": 302,
+    "range": [
+      301,
+      302
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"abc\\0\\u0000\"",
+    "start": 303,
+    "end": 316,
+    "range": [
+      303,
+      316
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 316,
+    "end": 317,
+    "range": [
+      316,
+      317
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'\"abc\\0\\u0000\".trim()'",
+    "start": 318,
+    "end": 340,
+    "range": [
+      318,
+      340
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 340,
+    "end": 341,
+    "range": [
+      340,
+      341
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 341,
+    "end": 342,
+    "range": [
+      341,
+      342
+    ]
+  }
+]

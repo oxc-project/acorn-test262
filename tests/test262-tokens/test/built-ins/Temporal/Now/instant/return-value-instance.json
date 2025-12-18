@@ -1,0 +1,202 @@
+[
+  {
+    "type": "Keyword",
+    "value": "const",
+    "start": 246,
+    "end": 251,
+    "range": [
+      246,
+      251
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "instant",
+    "start": 252,
+    "end": 259,
+    "range": [
+      252,
+      259
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "=",
+    "start": 260,
+    "end": 261,
+    "range": [
+      260,
+      261
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "Temporal",
+    "start": 262,
+    "end": 270,
+    "range": [
+      262,
+      270
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 270,
+    "end": 271,
+    "range": [
+      270,
+      271
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "Now",
+    "start": 271,
+    "end": 274,
+    "range": [
+      271,
+      274
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 274,
+    "end": 275,
+    "range": [
+      274,
+      275
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "instant",
+    "start": 275,
+    "end": 282,
+    "range": [
+      275,
+      282
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 282,
+    "end": 283,
+    "range": [
+      282,
+      283
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 283,
+    "end": 284,
+    "range": [
+      283,
+      284
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 284,
+    "end": 285,
+    "range": [
+      284,
+      285
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "assert",
+    "start": 286,
+    "end": 292,
+    "range": [
+      286,
+      292
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 292,
+    "end": 293,
+    "range": [
+      292,
+      293
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "instant",
+    "start": 293,
+    "end": 300,
+    "range": [
+      293,
+      300
+    ]
+  },
+  {
+    "type": "Keyword",
+    "value": "instanceof",
+    "start": 301,
+    "end": 311,
+    "range": [
+      301,
+      311
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "Temporal",
+    "start": 312,
+    "end": 320,
+    "range": [
+      312,
+      320
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 320,
+    "end": 321,
+    "range": [
+      320,
+      321
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "Instant",
+    "start": 321,
+    "end": 328,
+    "range": [
+      321,
+      328
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 328,
+    "end": 329,
+    "range": [
+      328,
+      329
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 329,
+    "end": 330,
+    "range": [
+      329,
+      330
+    ]
+  }
+]

@@ -1,0 +1,172 @@
+[
+  {
+    "type": "Identifier",
+    "value": "assert",
+    "start": 343,
+    "end": 349,
+    "range": [
+      343,
+      349
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 349,
+    "end": 350,
+    "range": [
+      349,
+      350
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "sameValue",
+    "start": 350,
+    "end": 359,
+    "range": [
+      350,
+      359
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 359,
+    "end": 360,
+    "range": [
+      359,
+      360
+    ]
+  },
+  {
+    "type": "Keyword",
+    "value": "new",
+    "start": 360,
+    "end": 363,
+    "range": [
+      360,
+      363
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "Date",
+    "start": 364,
+    "end": 368,
+    "range": [
+      364,
+      368
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 368,
+    "end": 369,
+    "range": [
+      368,
+      369
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "NaN",
+    "start": 369,
+    "end": 372,
+    "range": [
+      369,
+      372
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 372,
+    "end": 373,
+    "range": [
+      372,
+      373
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 373,
+    "end": 374,
+    "range": [
+      373,
+      374
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "toUTCString",
+    "start": 374,
+    "end": 385,
+    "range": [
+      374,
+      385
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 385,
+    "end": 386,
+    "range": [
+      385,
+      386
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 386,
+    "end": 387,
+    "range": [
+      386,
+      387
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 387,
+    "end": 388,
+    "range": [
+      387,
+      388
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"Invalid Date\"",
+    "start": 389,
+    "end": 403,
+    "range": [
+      389,
+      403
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 403,
+    "end": 404,
+    "range": [
+      403,
+      404
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 404,
+    "end": 405,
+    "range": [
+      404,
+      405
+    ]
+  }
+]

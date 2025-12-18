@@ -1,0 +1,182 @@
+[
+  {
+    "type": "Identifier",
+    "value": "assert",
+    "start": 566,
+    "end": 572,
+    "range": [
+      566,
+      572
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 572,
+    "end": 573,
+    "range": [
+      572,
+      573
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "sameValue",
+    "start": 573,
+    "end": 582,
+    "range": [
+      573,
+      582
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 582,
+    "end": 583,
+    "range": [
+      582,
+      583
+    ]
+  },
+  {
+    "type": "Numeric",
+    "value": "0x01_0",
+    "start": 583,
+    "end": 589,
+    "range": [
+      583,
+      589
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 589,
+    "end": 590,
+    "range": [
+      589,
+      590
+    ]
+  },
+  {
+    "type": "Numeric",
+    "value": "0x010",
+    "start": 591,
+    "end": 596,
+    "range": [
+      591,
+      596
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 596,
+    "end": 597,
+    "range": [
+      596,
+      597
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 597,
+    "end": 598,
+    "range": [
+      597,
+      598
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "assert",
+    "start": 599,
+    "end": 605,
+    "range": [
+      599,
+      605
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 605,
+    "end": 606,
+    "range": [
+      605,
+      606
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "sameValue",
+    "start": 606,
+    "end": 615,
+    "range": [
+      606,
+      615
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 615,
+    "end": 616,
+    "range": [
+      615,
+      616
+    ]
+  },
+  {
+    "type": "Numeric",
+    "value": "0X01_0",
+    "start": 616,
+    "end": 622,
+    "range": [
+      616,
+      622
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 622,
+    "end": 623,
+    "range": [
+      622,
+      623
+    ]
+  },
+  {
+    "type": "Numeric",
+    "value": "0X010",
+    "start": 624,
+    "end": 629,
+    "range": [
+      624,
+      629
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 629,
+    "end": 630,
+    "range": [
+      629,
+      630
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 630,
+    "end": 631,
+    "range": [
+      630,
+      631
+    ]
+  }
+]

@@ -1,0 +1,712 @@
+[
+  {
+    "type": "Keyword",
+    "value": "var",
+    "start": 350,
+    "end": 353,
+    "range": [
+      350,
+      353
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "str",
+    "start": 354,
+    "end": 357,
+    "range": [
+      354,
+      357
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "=",
+    "start": 358,
+    "end": 359,
+    "range": [
+      358,
+      359
+    ]
+  },
+  {
+    "type": "String",
+    "value": "''",
+    "start": 360,
+    "end": 362,
+    "range": [
+      360,
+      362
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 362,
+    "end": 363,
+    "range": [
+      362,
+      363
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "assert",
+    "start": 365,
+    "end": 371,
+    "range": [
+      365,
+      371
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 371,
+    "end": 372,
+    "range": [
+      371,
+      372
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "sameValue",
+    "start": 372,
+    "end": 381,
+    "range": [
+      372,
+      381
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 381,
+    "end": 382,
+    "range": [
+      381,
+      382
+    ]
+  },
+  {
+    "type": "Keyword",
+    "value": "typeof",
+    "start": 382,
+    "end": 388,
+    "range": [
+      382,
+      388
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "str",
+    "start": 389,
+    "end": 392,
+    "range": [
+      389,
+      392
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 392,
+    "end": 393,
+    "range": [
+      392,
+      393
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'string'",
+    "start": 394,
+    "end": 402,
+    "range": [
+      394,
+      402
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 402,
+    "end": 403,
+    "range": [
+      402,
+      403
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'The value of `typeof str` is expected to be \"string\"'",
+    "start": 404,
+    "end": 458,
+    "range": [
+      404,
+      458
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 458,
+    "end": 459,
+    "range": [
+      458,
+      459
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 459,
+    "end": 460,
+    "range": [
+      459,
+      460
+    ]
+  },
+  {
+    "type": "Keyword",
+    "value": "var",
+    "start": 462,
+    "end": 465,
+    "range": [
+      462,
+      465
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "n_obj",
+    "start": 466,
+    "end": 471,
+    "range": [
+      466,
+      471
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "=",
+    "start": 472,
+    "end": 473,
+    "range": [
+      472,
+      473
+    ]
+  },
+  {
+    "type": "Keyword",
+    "value": "new",
+    "start": 474,
+    "end": 477,
+    "range": [
+      474,
+      477
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "Object",
+    "start": 478,
+    "end": 484,
+    "range": [
+      478,
+      484
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 484,
+    "end": 485,
+    "range": [
+      484,
+      485
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "str",
+    "start": 485,
+    "end": 488,
+    "range": [
+      485,
+      488
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 488,
+    "end": 489,
+    "range": [
+      488,
+      489
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 489,
+    "end": 490,
+    "range": [
+      489,
+      490
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "assert",
+    "start": 492,
+    "end": 498,
+    "range": [
+      492,
+      498
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 498,
+    "end": 499,
+    "range": [
+      498,
+      499
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "sameValue",
+    "start": 499,
+    "end": 508,
+    "range": [
+      499,
+      508
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 508,
+    "end": 509,
+    "range": [
+      508,
+      509
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "n_obj",
+    "start": 509,
+    "end": 514,
+    "range": [
+      509,
+      514
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 514,
+    "end": 515,
+    "range": [
+      514,
+      515
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "constructor",
+    "start": 515,
+    "end": 526,
+    "range": [
+      515,
+      526
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 526,
+    "end": 527,
+    "range": [
+      526,
+      527
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "String",
+    "start": 528,
+    "end": 534,
+    "range": [
+      528,
+      534
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 534,
+    "end": 535,
+    "range": [
+      534,
+      535
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'The value of n_obj.constructor is expected to equal the value of String'",
+    "start": 536,
+    "end": 609,
+    "range": [
+      536,
+      609
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 609,
+    "end": 610,
+    "range": [
+      609,
+      610
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 610,
+    "end": 611,
+    "range": [
+      610,
+      611
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "assert",
+    "start": 612,
+    "end": 618,
+    "range": [
+      612,
+      618
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 618,
+    "end": 619,
+    "range": [
+      618,
+      619
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "sameValue",
+    "start": 619,
+    "end": 628,
+    "range": [
+      619,
+      628
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 628,
+    "end": 629,
+    "range": [
+      628,
+      629
+    ]
+  },
+  {
+    "type": "Keyword",
+    "value": "typeof",
+    "start": 629,
+    "end": 635,
+    "range": [
+      629,
+      635
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "n_obj",
+    "start": 636,
+    "end": 641,
+    "range": [
+      636,
+      641
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 641,
+    "end": 642,
+    "range": [
+      641,
+      642
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'object'",
+    "start": 643,
+    "end": 651,
+    "range": [
+      643,
+      651
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 651,
+    "end": 652,
+    "range": [
+      651,
+      652
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'The value of `typeof n_obj` is expected to be \"object\"'",
+    "start": 653,
+    "end": 709,
+    "range": [
+      653,
+      709
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 709,
+    "end": 710,
+    "range": [
+      709,
+      710
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 710,
+    "end": 711,
+    "range": [
+      710,
+      711
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "assert",
+    "start": 712,
+    "end": 718,
+    "range": [
+      712,
+      718
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 718,
+    "end": 719,
+    "range": [
+      718,
+      719
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "n_obj",
+    "start": 719,
+    "end": 724,
+    "range": [
+      719,
+      724
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "==",
+    "start": 725,
+    "end": 727,
+    "range": [
+      725,
+      727
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "str",
+    "start": 728,
+    "end": 731,
+    "range": [
+      728,
+      731
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 731,
+    "end": 732,
+    "range": [
+      731,
+      732
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'The result of evaluating (n_obj == str) is expected to be true'",
+    "start": 733,
+    "end": 797,
+    "range": [
+      733,
+      797
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 797,
+    "end": 798,
+    "range": [
+      797,
+      798
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 798,
+    "end": 799,
+    "range": [
+      798,
+      799
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "assert",
+    "start": 800,
+    "end": 806,
+    "range": [
+      800,
+      806
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 806,
+    "end": 807,
+    "range": [
+      806,
+      807
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "notSameValue",
+    "start": 807,
+    "end": 819,
+    "range": [
+      807,
+      819
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 819,
+    "end": 820,
+    "range": [
+      819,
+      820
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "n_obj",
+    "start": 820,
+    "end": 825,
+    "range": [
+      820,
+      825
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 825,
+    "end": 826,
+    "range": [
+      825,
+      826
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "str",
+    "start": 827,
+    "end": 830,
+    "range": [
+      827,
+      830
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 830,
+    "end": 831,
+    "range": [
+      830,
+      831
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'The value of n_obj is expected to not equal the value of `str`'",
+    "start": 832,
+    "end": 896,
+    "range": [
+      832,
+      896
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 896,
+    "end": 897,
+    "range": [
+      896,
+      897
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 897,
+    "end": 898,
+    "range": [
+      897,
+      898
+    ]
+  }
+]

@@ -1,0 +1,872 @@
+[
+  {
+    "type": "Keyword",
+    "value": "import",
+    "start": 678,
+    "end": 684,
+    "range": [
+      678,
+      684
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "{",
+    "start": 685,
+    "end": 686,
+    "range": [
+      685,
+      686
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "}",
+    "start": 686,
+    "end": 687,
+    "range": [
+      686,
+      687
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "from",
+    "start": 688,
+    "end": 692,
+    "range": [
+      688,
+      692
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'./eval-rqstd-once_FIXTURE.js'",
+    "start": 693,
+    "end": 723,
+    "range": [
+      693,
+      723
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 723,
+    "end": 724,
+    "range": [
+      723,
+      724
+    ]
+  },
+  {
+    "type": "Keyword",
+    "value": "import",
+    "start": 725,
+    "end": 731,
+    "range": [
+      725,
+      731
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'./eval-rqstd-once_FIXTURE.js'",
+    "start": 732,
+    "end": 762,
+    "range": [
+      732,
+      762
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 762,
+    "end": 763,
+    "range": [
+      762,
+      763
+    ]
+  },
+  {
+    "type": "Keyword",
+    "value": "import",
+    "start": 764,
+    "end": 770,
+    "range": [
+      764,
+      770
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "*",
+    "start": 771,
+    "end": 772,
+    "range": [
+      771,
+      772
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "as",
+    "start": 773,
+    "end": 775,
+    "range": [
+      773,
+      775
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "ns1",
+    "start": 776,
+    "end": 779,
+    "range": [
+      776,
+      779
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "from",
+    "start": 780,
+    "end": 784,
+    "range": [
+      780,
+      784
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'./eval-rqstd-once_FIXTURE.js'",
+    "start": 785,
+    "end": 815,
+    "range": [
+      785,
+      815
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 815,
+    "end": 816,
+    "range": [
+      815,
+      816
+    ]
+  },
+  {
+    "type": "Keyword",
+    "value": "import",
+    "start": 817,
+    "end": 823,
+    "range": [
+      817,
+      823
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "dflt1",
+    "start": 824,
+    "end": 829,
+    "range": [
+      824,
+      829
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "from",
+    "start": 830,
+    "end": 834,
+    "range": [
+      830,
+      834
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'./eval-rqstd-once_FIXTURE.js'",
+    "start": 835,
+    "end": 865,
+    "range": [
+      835,
+      865
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 865,
+    "end": 866,
+    "range": [
+      865,
+      866
+    ]
+  },
+  {
+    "type": "Keyword",
+    "value": "export",
+    "start": 867,
+    "end": 873,
+    "range": [
+      867,
+      873
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "{",
+    "start": 874,
+    "end": 875,
+    "range": [
+      874,
+      875
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "}",
+    "start": 875,
+    "end": 876,
+    "range": [
+      875,
+      876
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "from",
+    "start": 877,
+    "end": 881,
+    "range": [
+      877,
+      881
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'./eval-rqstd-once_FIXTURE.js'",
+    "start": 882,
+    "end": 912,
+    "range": [
+      882,
+      912
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 912,
+    "end": 913,
+    "range": [
+      912,
+      913
+    ]
+  },
+  {
+    "type": "Keyword",
+    "value": "import",
+    "start": 914,
+    "end": 920,
+    "range": [
+      914,
+      920
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "dflt2",
+    "start": 921,
+    "end": 926,
+    "range": [
+      921,
+      926
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 926,
+    "end": 927,
+    "range": [
+      926,
+      927
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "{",
+    "start": 928,
+    "end": 929,
+    "range": [
+      928,
+      929
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "}",
+    "start": 929,
+    "end": 930,
+    "range": [
+      929,
+      930
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "from",
+    "start": 931,
+    "end": 935,
+    "range": [
+      931,
+      935
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'./eval-rqstd-once_FIXTURE.js'",
+    "start": 936,
+    "end": 966,
+    "range": [
+      936,
+      966
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 966,
+    "end": 967,
+    "range": [
+      966,
+      967
+    ]
+  },
+  {
+    "type": "Keyword",
+    "value": "export",
+    "start": 968,
+    "end": 974,
+    "range": [
+      968,
+      974
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "*",
+    "start": 975,
+    "end": 976,
+    "range": [
+      975,
+      976
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "from",
+    "start": 977,
+    "end": 981,
+    "range": [
+      977,
+      981
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'./eval-rqstd-once_FIXTURE.js'",
+    "start": 982,
+    "end": 1012,
+    "range": [
+      982,
+      1012
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 1012,
+    "end": 1013,
+    "range": [
+      1012,
+      1013
+    ]
+  },
+  {
+    "type": "Keyword",
+    "value": "export",
+    "start": 1014,
+    "end": 1020,
+    "range": [
+      1014,
+      1020
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "*",
+    "start": 1021,
+    "end": 1022,
+    "range": [
+      1021,
+      1022
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "as",
+    "start": 1023,
+    "end": 1025,
+    "range": [
+      1023,
+      1025
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "ns2",
+    "start": 1026,
+    "end": 1029,
+    "range": [
+      1026,
+      1029
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "from",
+    "start": 1030,
+    "end": 1034,
+    "range": [
+      1030,
+      1034
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'./eval-rqstd-once_FIXTURE.js'",
+    "start": 1035,
+    "end": 1065,
+    "range": [
+      1035,
+      1065
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 1065,
+    "end": 1066,
+    "range": [
+      1065,
+      1066
+    ]
+  },
+  {
+    "type": "Keyword",
+    "value": "export",
+    "start": 1067,
+    "end": 1073,
+    "range": [
+      1067,
+      1073
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "*",
+    "start": 1074,
+    "end": 1075,
+    "range": [
+      1074,
+      1075
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "as",
+    "start": 1076,
+    "end": 1078,
+    "range": [
+      1076,
+      1078
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "class",
+    "start": 1079,
+    "end": 1084,
+    "range": [
+      1079,
+      1084
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "from",
+    "start": 1085,
+    "end": 1089,
+    "range": [
+      1085,
+      1089
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'./eval-rqstd-once_FIXTURE.js'",
+    "start": 1090,
+    "end": 1120,
+    "range": [
+      1090,
+      1120
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 1120,
+    "end": 1121,
+    "range": [
+      1120,
+      1121
+    ]
+  },
+  {
+    "type": "Keyword",
+    "value": "import",
+    "start": 1122,
+    "end": 1128,
+    "range": [
+      1122,
+      1128
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "dflt3",
+    "start": 1129,
+    "end": 1134,
+    "range": [
+      1129,
+      1134
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 1134,
+    "end": 1135,
+    "range": [
+      1134,
+      1135
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "*",
+    "start": 1136,
+    "end": 1137,
+    "range": [
+      1136,
+      1137
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "as",
+    "start": 1138,
+    "end": 1140,
+    "range": [
+      1138,
+      1140
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "ns3",
+    "start": 1141,
+    "end": 1144,
+    "range": [
+      1141,
+      1144
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "from",
+    "start": 1145,
+    "end": 1149,
+    "range": [
+      1145,
+      1149
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'./eval-rqstd-once_FIXTURE.js'",
+    "start": 1150,
+    "end": 1180,
+    "range": [
+      1150,
+      1180
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 1180,
+    "end": 1181,
+    "range": [
+      1180,
+      1181
+    ]
+  },
+  {
+    "type": "Keyword",
+    "value": "export",
+    "start": 1182,
+    "end": 1188,
+    "range": [
+      1182,
+      1188
+    ]
+  },
+  {
+    "type": "Keyword",
+    "value": "default",
+    "start": 1189,
+    "end": 1196,
+    "range": [
+      1189,
+      1196
+    ]
+  },
+  {
+    "type": "Null",
+    "value": "null",
+    "start": 1197,
+    "end": 1201,
+    "range": [
+      1197,
+      1201
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 1201,
+    "end": 1202,
+    "range": [
+      1201,
+      1202
+    ]
+  },
+  {
+    "type": "Keyword",
+    "value": "var",
+    "start": 1204,
+    "end": 1207,
+    "range": [
+      1204,
+      1207
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "global",
+    "start": 1208,
+    "end": 1214,
+    "range": [
+      1208,
+      1214
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "=",
+    "start": 1215,
+    "end": 1216,
+    "range": [
+      1215,
+      1216
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "fnGlobalObject",
+    "start": 1217,
+    "end": 1231,
+    "range": [
+      1217,
+      1231
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 1231,
+    "end": 1232,
+    "range": [
+      1231,
+      1232
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 1232,
+    "end": 1233,
+    "range": [
+      1232,
+      1233
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 1233,
+    "end": 1234,
+    "range": [
+      1233,
+      1234
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "assert",
+    "start": 1236,
+    "end": 1242,
+    "range": [
+      1236,
+      1242
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 1242,
+    "end": 1243,
+    "range": [
+      1242,
+      1243
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "sameValue",
+    "start": 1243,
+    "end": 1252,
+    "range": [
+      1243,
+      1252
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 1252,
+    "end": 1253,
+    "range": [
+      1252,
+      1253
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "global",
+    "start": 1253,
+    "end": 1259,
+    "range": [
+      1253,
+      1259
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 1259,
+    "end": 1260,
+    "range": [
+      1259,
+      1260
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "test262",
+    "start": 1260,
+    "end": 1267,
+    "range": [
+      1260,
+      1267
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 1267,
+    "end": 1268,
+    "range": [
+      1267,
+      1268
+    ]
+  },
+  {
+    "type": "Numeric",
+    "value": "262",
+    "start": 1269,
+    "end": 1272,
+    "range": [
+      1269,
+      1272
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 1272,
+    "end": 1273,
+    "range": [
+      1272,
+      1273
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'global property was defined'",
+    "start": 1274,
+    "end": 1303,
+    "range": [
+      1274,
+      1303
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 1303,
+    "end": 1304,
+    "range": [
+      1303,
+      1304
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 1304,
+    "end": 1305,
+    "range": [
+      1304,
+      1305
+    ]
+  }
+]

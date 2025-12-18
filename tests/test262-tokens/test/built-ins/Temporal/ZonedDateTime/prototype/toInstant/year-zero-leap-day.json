@@ -1,0 +1,632 @@
+[
+  {
+    "type": "Keyword",
+    "value": "var",
+    "start": 276,
+    "end": 279,
+    "range": [
+      276,
+      279
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "zdt",
+    "start": 280,
+    "end": 283,
+    "range": [
+      280,
+      283
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "=",
+    "start": 284,
+    "end": 285,
+    "range": [
+      284,
+      285
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "Temporal",
+    "start": 286,
+    "end": 294,
+    "range": [
+      286,
+      294
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 294,
+    "end": 295,
+    "range": [
+      294,
+      295
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "ZonedDateTime",
+    "start": 295,
+    "end": 308,
+    "range": [
+      295,
+      308
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 308,
+    "end": 309,
+    "range": [
+      308,
+      309
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "from",
+    "start": 309,
+    "end": 313,
+    "range": [
+      309,
+      313
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 313,
+    "end": 314,
+    "range": [
+      313,
+      314
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"0000-02-29T00:00-00:01[-00:01]\"",
+    "start": 314,
+    "end": 346,
+    "range": [
+      314,
+      346
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 346,
+    "end": 347,
+    "range": [
+      346,
+      347
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 347,
+    "end": 348,
+    "range": [
+      347,
+      348
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "TemporalHelpers",
+    "start": 349,
+    "end": 364,
+    "range": [
+      349,
+      364
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 364,
+    "end": 365,
+    "range": [
+      364,
+      365
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "assertInstantsEqual",
+    "start": 365,
+    "end": 384,
+    "range": [
+      365,
+      384
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 384,
+    "end": 385,
+    "range": [
+      384,
+      385
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "zdt",
+    "start": 390,
+    "end": 393,
+    "range": [
+      390,
+      393
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 393,
+    "end": 394,
+    "range": [
+      393,
+      394
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "toInstant",
+    "start": 394,
+    "end": 403,
+    "range": [
+      394,
+      403
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 403,
+    "end": 404,
+    "range": [
+      403,
+      404
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 404,
+    "end": 405,
+    "range": [
+      404,
+      405
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 405,
+    "end": 406,
+    "range": [
+      405,
+      406
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "Temporal",
+    "start": 411,
+    "end": 419,
+    "range": [
+      411,
+      419
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 419,
+    "end": 420,
+    "range": [
+      419,
+      420
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "Instant",
+    "start": 420,
+    "end": 427,
+    "range": [
+      420,
+      427
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 427,
+    "end": 428,
+    "range": [
+      427,
+      428
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "from",
+    "start": 428,
+    "end": 432,
+    "range": [
+      428,
+      432
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 432,
+    "end": 433,
+    "range": [
+      432,
+      433
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"0000-02-29T00:01:00Z\"",
+    "start": 433,
+    "end": 455,
+    "range": [
+      433,
+      455
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 455,
+    "end": 456,
+    "range": [
+      455,
+      456
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 456,
+    "end": 457,
+    "range": [
+      456,
+      457
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 457,
+    "end": 458,
+    "range": [
+      457,
+      458
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "zdt",
+    "start": 460,
+    "end": 463,
+    "range": [
+      460,
+      463
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "=",
+    "start": 464,
+    "end": 465,
+    "range": [
+      464,
+      465
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "Temporal",
+    "start": 466,
+    "end": 474,
+    "range": [
+      466,
+      474
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 474,
+    "end": 475,
+    "range": [
+      474,
+      475
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "ZonedDateTime",
+    "start": 475,
+    "end": 488,
+    "range": [
+      475,
+      488
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 488,
+    "end": 489,
+    "range": [
+      488,
+      489
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "from",
+    "start": 489,
+    "end": 493,
+    "range": [
+      489,
+      493
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 493,
+    "end": 494,
+    "range": [
+      493,
+      494
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"+000000-02-29T00:00-00:01[-00:01]\"",
+    "start": 494,
+    "end": 529,
+    "range": [
+      494,
+      529
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 529,
+    "end": 530,
+    "range": [
+      529,
+      530
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 530,
+    "end": 531,
+    "range": [
+      530,
+      531
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "TemporalHelpers",
+    "start": 532,
+    "end": 547,
+    "range": [
+      532,
+      547
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 547,
+    "end": 548,
+    "range": [
+      547,
+      548
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "assertInstantsEqual",
+    "start": 548,
+    "end": 567,
+    "range": [
+      548,
+      567
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 567,
+    "end": 568,
+    "range": [
+      567,
+      568
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "zdt",
+    "start": 573,
+    "end": 576,
+    "range": [
+      573,
+      576
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 576,
+    "end": 577,
+    "range": [
+      576,
+      577
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "toInstant",
+    "start": 577,
+    "end": 586,
+    "range": [
+      577,
+      586
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 586,
+    "end": 587,
+    "range": [
+      586,
+      587
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 587,
+    "end": 588,
+    "range": [
+      587,
+      588
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 588,
+    "end": 589,
+    "range": [
+      588,
+      589
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "Temporal",
+    "start": 594,
+    "end": 602,
+    "range": [
+      594,
+      602
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 602,
+    "end": 603,
+    "range": [
+      602,
+      603
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "Instant",
+    "start": 603,
+    "end": 610,
+    "range": [
+      603,
+      610
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 610,
+    "end": 611,
+    "range": [
+      610,
+      611
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "from",
+    "start": 611,
+    "end": 615,
+    "range": [
+      611,
+      615
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 615,
+    "end": 616,
+    "range": [
+      615,
+      616
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"0000-02-29T00:01:00Z\"",
+    "start": 616,
+    "end": 638,
+    "range": [
+      616,
+      638
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 638,
+    "end": 639,
+    "range": [
+      638,
+      639
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 639,
+    "end": 640,
+    "range": [
+      639,
+      640
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 640,
+    "end": 641,
+    "range": [
+      640,
+      641
+    ]
+  }
+]

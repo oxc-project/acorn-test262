@@ -1,0 +1,542 @@
+[
+  {
+    "type": "Keyword",
+    "value": "function",
+    "start": 296,
+    "end": 304,
+    "range": [
+      296,
+      304
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "fakeObjectKeys",
+    "start": 305,
+    "end": 319,
+    "range": [
+      305,
+      319
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 319,
+    "end": 320,
+    "range": [
+      319,
+      320
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 320,
+    "end": 321,
+    "range": [
+      320,
+      321
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "{",
+    "start": 322,
+    "end": 323,
+    "range": [
+      322,
+      323
+    ]
+  },
+  {
+    "type": "Keyword",
+    "value": "throw",
+    "start": 326,
+    "end": 331,
+    "range": [
+      326,
+      331
+    ]
+  },
+  {
+    "type": "Keyword",
+    "value": "new",
+    "start": 332,
+    "end": 335,
+    "range": [
+      332,
+      335
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "Test262Error",
+    "start": 336,
+    "end": 348,
+    "range": [
+      336,
+      348
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 348,
+    "end": 349,
+    "range": [
+      348,
+      349
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'The overriden version of Object.keys was called!'",
+    "start": 349,
+    "end": 399,
+    "range": [
+      349,
+      399
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 399,
+    "end": 400,
+    "range": [
+      399,
+      400
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 400,
+    "end": 401,
+    "range": [
+      400,
+      401
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "}",
+    "start": 402,
+    "end": 403,
+    "range": [
+      402,
+      403
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "Object",
+    "start": 405,
+    "end": 411,
+    "range": [
+      405,
+      411
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 411,
+    "end": 412,
+    "range": [
+      411,
+      412
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "keys",
+    "start": 412,
+    "end": 416,
+    "range": [
+      412,
+      416
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "=",
+    "start": 417,
+    "end": 418,
+    "range": [
+      417,
+      418
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "fakeObjectKeys",
+    "start": 419,
+    "end": 433,
+    "range": [
+      419,
+      433
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 433,
+    "end": 434,
+    "range": [
+      433,
+      434
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "assert",
+    "start": 436,
+    "end": 442,
+    "range": [
+      436,
+      442
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 442,
+    "end": 443,
+    "range": [
+      442,
+      443
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "sameValue",
+    "start": 443,
+    "end": 452,
+    "range": [
+      443,
+      452
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 452,
+    "end": 453,
+    "range": [
+      452,
+      453
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "Object",
+    "start": 453,
+    "end": 459,
+    "range": [
+      453,
+      459
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 459,
+    "end": 460,
+    "range": [
+      459,
+      460
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "keys",
+    "start": 460,
+    "end": 464,
+    "range": [
+      460,
+      464
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 464,
+    "end": 465,
+    "range": [
+      464,
+      465
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "fakeObjectKeys",
+    "start": 466,
+    "end": 480,
+    "range": [
+      466,
+      480
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 480,
+    "end": 481,
+    "range": [
+      480,
+      481
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'Sanity check failed: could not modify the global Object.keys'",
+    "start": 482,
+    "end": 544,
+    "range": [
+      482,
+      544
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 544,
+    "end": 545,
+    "range": [
+      544,
+      545
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 545,
+    "end": 546,
+    "range": [
+      545,
+      546
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "assert",
+    "start": 547,
+    "end": 553,
+    "range": [
+      547,
+      553
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 553,
+    "end": 554,
+    "range": [
+      553,
+      554
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "sameValue",
+    "start": 554,
+    "end": 563,
+    "range": [
+      554,
+      563
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 563,
+    "end": 564,
+    "range": [
+      563,
+      564
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "Object",
+    "start": 564,
+    "end": 570,
+    "range": [
+      564,
+      570
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 570,
+    "end": 571,
+    "range": [
+      570,
+      571
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "entries",
+    "start": 571,
+    "end": 578,
+    "range": [
+      571,
+      578
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 578,
+    "end": 579,
+    "range": [
+      578,
+      579
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "{",
+    "start": 579,
+    "end": 580,
+    "range": [
+      579,
+      580
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "a",
+    "start": 583,
+    "end": 584,
+    "range": [
+      583,
+      584
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ":",
+    "start": 584,
+    "end": 585,
+    "range": [
+      584,
+      585
+    ]
+  },
+  {
+    "type": "Numeric",
+    "value": "1",
+    "start": 586,
+    "end": 587,
+    "range": [
+      586,
+      587
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "}",
+    "start": 588,
+    "end": 589,
+    "range": [
+      588,
+      589
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 589,
+    "end": 590,
+    "range": [
+      589,
+      590
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 590,
+    "end": 591,
+    "range": [
+      590,
+      591
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "length",
+    "start": 591,
+    "end": 597,
+    "range": [
+      591,
+      597
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 597,
+    "end": 598,
+    "range": [
+      597,
+      598
+    ]
+  },
+  {
+    "type": "Numeric",
+    "value": "1",
+    "start": 599,
+    "end": 600,
+    "range": [
+      599,
+      600
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 600,
+    "end": 601,
+    "range": [
+      600,
+      601
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'Expected object with 1 key to have 1 entry'",
+    "start": 602,
+    "end": 646,
+    "range": [
+      602,
+      646
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 646,
+    "end": 647,
+    "range": [
+      646,
+      647
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 647,
+    "end": 648,
+    "range": [
+      647,
+      648
+    ]
+  }
+]

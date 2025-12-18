@@ -1,0 +1,372 @@
+[
+  {
+    "type": "Keyword",
+    "value": "try",
+    "start": 272,
+    "end": 275,
+    "range": [
+      272,
+      275
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "{",
+    "start": 276,
+    "end": 277,
+    "range": [
+      276,
+      277
+    ]
+  },
+  {
+    "type": "Keyword",
+    "value": "throw",
+    "start": 282,
+    "end": 287,
+    "range": [
+      282,
+      287
+    ]
+  },
+  {
+    "type": "Keyword",
+    "value": "new",
+    "start": 288,
+    "end": 291,
+    "range": [
+      288,
+      291
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "Test262Error",
+    "start": 292,
+    "end": 304,
+    "range": [
+      292,
+      304
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 304,
+    "end": 305,
+    "range": [
+      304,
+      305
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'#1.1: new RegExp(\"a????\") throw SyntaxError. Actual: '",
+    "start": 305,
+    "end": 360,
+    "range": [
+      305,
+      360
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "+",
+    "start": 361,
+    "end": 362,
+    "range": [
+      361,
+      362
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 363,
+    "end": 364,
+    "range": [
+      363,
+      364
+    ]
+  },
+  {
+    "type": "Keyword",
+    "value": "new",
+    "start": 364,
+    "end": 367,
+    "range": [
+      364,
+      367
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "RegExp",
+    "start": 368,
+    "end": 374,
+    "range": [
+      368,
+      374
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 374,
+    "end": 375,
+    "range": [
+      374,
+      375
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"a????\"",
+    "start": 375,
+    "end": 382,
+    "range": [
+      375,
+      382
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 382,
+    "end": 383,
+    "range": [
+      382,
+      383
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 383,
+    "end": 384,
+    "range": [
+      383,
+      384
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 384,
+    "end": 385,
+    "range": [
+      384,
+      385
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 385,
+    "end": 386,
+    "range": [
+      385,
+      386
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "}",
+    "start": 387,
+    "end": 388,
+    "range": [
+      387,
+      388
+    ]
+  },
+  {
+    "type": "Keyword",
+    "value": "catch",
+    "start": 389,
+    "end": 394,
+    "range": [
+      389,
+      394
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 395,
+    "end": 396,
+    "range": [
+      395,
+      396
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "e",
+    "start": 396,
+    "end": 397,
+    "range": [
+      396,
+      397
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 397,
+    "end": 398,
+    "range": [
+      397,
+      398
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "{",
+    "start": 399,
+    "end": 400,
+    "range": [
+      399,
+      400
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "assert",
+    "start": 403,
+    "end": 409,
+    "range": [
+      403,
+      409
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 409,
+    "end": 410,
+    "range": [
+      409,
+      410
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "sameValue",
+    "start": 410,
+    "end": 419,
+    "range": [
+      410,
+      419
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 419,
+    "end": 420,
+    "range": [
+      419,
+      420
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "e",
+    "start": 425,
+    "end": 426,
+    "range": [
+      425,
+      426
+    ]
+  },
+  {
+    "type": "Keyword",
+    "value": "instanceof",
+    "start": 427,
+    "end": 437,
+    "range": [
+      427,
+      437
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "SyntaxError",
+    "start": 438,
+    "end": 449,
+    "range": [
+      438,
+      449
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 449,
+    "end": 450,
+    "range": [
+      449,
+      450
+    ]
+  },
+  {
+    "type": "Boolean",
+    "value": "true",
+    "start": 455,
+    "end": 459,
+    "range": [
+      455,
+      459
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 459,
+    "end": 460,
+    "range": [
+      459,
+      460
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'The result of evaluating (e instanceof SyntaxError) is expected to be true'",
+    "start": 465,
+    "end": 541,
+    "range": [
+      465,
+      541
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 544,
+    "end": 545,
+    "range": [
+      544,
+      545
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 545,
+    "end": 546,
+    "range": [
+      545,
+      546
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "}",
+    "start": 547,
+    "end": 548,
+    "range": [
+      547,
+      548
+    ]
+  }
+]

@@ -1,0 +1,52 @@
+[
+  {
+    "type": "Identifier",
+    "value": "eval",
+    "start": 1161,
+    "end": 1165,
+    "range": [
+      1161,
+      1165
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 1165,
+    "end": 1166,
+    "range": [
+      1165,
+      1166
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'var global = fnGlobalObject();\\\n  assert.sameValue(f, undefined, \"binding is initialized to `undefined`\");\\\n  \\\n  verifyProperty(global, \"f\", {\\\n    enumerable: true,\\\n    writable: true,\\\n    configurable: true\\\n  });if (false) function _f() {} else function f() {  }'",
+    "start": 1169,
+    "end": 1439,
+    "range": [
+      1169,
+      1439
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 1440,
+    "end": 1441,
+    "range": [
+      1440,
+      1441
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 1441,
+    "end": 1442,
+    "range": [
+      1441,
+      1442
+    ]
+  }
+]

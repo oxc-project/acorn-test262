@@ -1,0 +1,132 @@
+[
+  {
+    "type": "Identifier",
+    "value": "assert",
+    "start": 266,
+    "end": 272,
+    "range": [
+      266,
+      272
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 272,
+    "end": 273,
+    "range": [
+      272,
+      273
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "sameValue",
+    "start": 273,
+    "end": 282,
+    "range": [
+      273,
+      282
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 282,
+    "end": 283,
+    "range": [
+      282,
+      283
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "Error",
+    "start": 283,
+    "end": 288,
+    "range": [
+      283,
+      288
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 288,
+    "end": 289,
+    "range": [
+      288,
+      289
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "isError",
+    "start": 289,
+    "end": 296,
+    "range": [
+      289,
+      296
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 296,
+    "end": 297,
+    "range": [
+      296,
+      297
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "name",
+    "start": 297,
+    "end": 301,
+    "range": [
+      297,
+      301
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 301,
+    "end": 302,
+    "range": [
+      301,
+      302
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'isError'",
+    "start": 303,
+    "end": 312,
+    "range": [
+      303,
+      312
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 312,
+    "end": 313,
+    "range": [
+      312,
+      313
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 313,
+    "end": 314,
+    "range": [
+      313,
+      314
+    ]
+  }
+]

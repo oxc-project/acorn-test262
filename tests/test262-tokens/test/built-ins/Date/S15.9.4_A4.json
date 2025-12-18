@@ -1,0 +1,142 @@
+[
+  {
+    "type": "Identifier",
+    "value": "assert",
+    "start": 355,
+    "end": 361,
+    "range": [
+      355,
+      361
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 361,
+    "end": 362,
+    "range": [
+      361,
+      362
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "Function",
+    "start": 362,
+    "end": 370,
+    "range": [
+      362,
+      370
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 370,
+    "end": 371,
+    "range": [
+      370,
+      371
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "prototype",
+    "start": 371,
+    "end": 380,
+    "range": [
+      371,
+      380
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 380,
+    "end": 381,
+    "range": [
+      380,
+      381
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "isPrototypeOf",
+    "start": 381,
+    "end": 394,
+    "range": [
+      381,
+      394
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 394,
+    "end": 395,
+    "range": [
+      394,
+      395
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "Date",
+    "start": 395,
+    "end": 399,
+    "range": [
+      395,
+      399
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 399,
+    "end": 400,
+    "range": [
+      399,
+      400
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 400,
+    "end": 401,
+    "range": [
+      400,
+      401
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'Function.prototype.isPrototypeOf(Date) must return true'",
+    "start": 402,
+    "end": 459,
+    "range": [
+      402,
+      459
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 459,
+    "end": 460,
+    "range": [
+      459,
+      460
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 460,
+    "end": 461,
+    "range": [
+      460,
+      461
+    ]
+  }
+]

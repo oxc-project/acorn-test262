@@ -1,0 +1,672 @@
+[
+  {
+    "type": "Keyword",
+    "value": "var",
+    "start": 294,
+    "end": 297,
+    "range": [
+      294,
+      297
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "__instance",
+    "start": 298,
+    "end": 308,
+    "range": [
+      298,
+      308
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "=",
+    "start": 309,
+    "end": 310,
+    "range": [
+      309,
+      310
+    ]
+  },
+  {
+    "type": "Keyword",
+    "value": "new",
+    "start": 311,
+    "end": 314,
+    "range": [
+      311,
+      314
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "Array",
+    "start": 315,
+    "end": 320,
+    "range": [
+      315,
+      320
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 320,
+    "end": 321,
+    "range": [
+      320,
+      321
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'new'",
+    "start": 321,
+    "end": 326,
+    "range": [
+      321,
+      326
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 326,
+    "end": 327,
+    "range": [
+      326,
+      327
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'zoo'",
+    "start": 328,
+    "end": 333,
+    "range": [
+      328,
+      333
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 333,
+    "end": 334,
+    "range": [
+      333,
+      334
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'revue'",
+    "start": 335,
+    "end": 342,
+    "range": [
+      335,
+      342
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 342,
+    "end": 343,
+    "range": [
+      342,
+      343
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 343,
+    "end": 344,
+    "range": [
+      343,
+      344
+    ]
+  },
+  {
+    "type": "Keyword",
+    "value": "if",
+    "start": 435,
+    "end": 437,
+    "range": [
+      435,
+      437
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 438,
+    "end": 439,
+    "range": [
+      438,
+      439
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "__instance",
+    "start": 439,
+    "end": 449,
+    "range": [
+      439,
+      449
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 449,
+    "end": 450,
+    "range": [
+      449,
+      450
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "lastIndexOf",
+    "start": 450,
+    "end": 461,
+    "range": [
+      450,
+      461
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 461,
+    "end": 462,
+    "range": [
+      461,
+      462
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'new'",
+    "start": 462,
+    "end": 467,
+    "range": [
+      462,
+      467
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 467,
+    "end": 468,
+    "range": [
+      467,
+      468
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "!==",
+    "start": 469,
+    "end": 472,
+    "range": [
+      469,
+      472
+    ]
+  },
+  {
+    "type": "Numeric",
+    "value": "0",
+    "start": 473,
+    "end": 474,
+    "range": [
+      473,
+      474
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 474,
+    "end": 475,
+    "range": [
+      474,
+      475
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "{",
+    "start": 476,
+    "end": 477,
+    "range": [
+      476,
+      477
+    ]
+  },
+  {
+    "type": "Keyword",
+    "value": "throw",
+    "start": 480,
+    "end": 485,
+    "range": [
+      480,
+      485
+    ]
+  },
+  {
+    "type": "Keyword",
+    "value": "new",
+    "start": 486,
+    "end": 489,
+    "range": [
+      486,
+      489
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "Test262Error",
+    "start": 490,
+    "end": 502,
+    "range": [
+      490,
+      502
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 502,
+    "end": 503,
+    "range": [
+      502,
+      503
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'#1: __instance = new Array(\\'new\\',\\'zoo\\',\\'revue\\'); __instance.lastIndexOf(\\'new\\') === 0. Actual: '",
+    "start": 503,
+    "end": 607,
+    "range": [
+      503,
+      607
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "+",
+    "start": 608,
+    "end": 609,
+    "range": [
+      608,
+      609
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "__instance",
+    "start": 610,
+    "end": 620,
+    "range": [
+      610,
+      620
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 620,
+    "end": 621,
+    "range": [
+      620,
+      621
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "lastIndexOf",
+    "start": 621,
+    "end": 632,
+    "range": [
+      621,
+      632
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 632,
+    "end": 633,
+    "range": [
+      632,
+      633
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'new'",
+    "start": 633,
+    "end": 638,
+    "range": [
+      633,
+      638
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 638,
+    "end": 639,
+    "range": [
+      638,
+      639
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 639,
+    "end": 640,
+    "range": [
+      639,
+      640
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 640,
+    "end": 641,
+    "range": [
+      640,
+      641
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "}",
+    "start": 642,
+    "end": 643,
+    "range": [
+      642,
+      643
+    ]
+  },
+  {
+    "type": "Keyword",
+    "value": "if",
+    "start": 816,
+    "end": 818,
+    "range": [
+      816,
+      818
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 819,
+    "end": 820,
+    "range": [
+      819,
+      820
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "__instance",
+    "start": 820,
+    "end": 830,
+    "range": [
+      820,
+      830
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 830,
+    "end": 831,
+    "range": [
+      830,
+      831
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "lastIndexOf",
+    "start": 831,
+    "end": 842,
+    "range": [
+      831,
+      842
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 842,
+    "end": 843,
+    "range": [
+      842,
+      843
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'zoo'",
+    "start": 843,
+    "end": 848,
+    "range": [
+      843,
+      848
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 848,
+    "end": 849,
+    "range": [
+      848,
+      849
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "!==",
+    "start": 850,
+    "end": 853,
+    "range": [
+      850,
+      853
+    ]
+  },
+  {
+    "type": "Numeric",
+    "value": "1",
+    "start": 854,
+    "end": 855,
+    "range": [
+      854,
+      855
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 855,
+    "end": 856,
+    "range": [
+      855,
+      856
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "{",
+    "start": 857,
+    "end": 858,
+    "range": [
+      857,
+      858
+    ]
+  },
+  {
+    "type": "Keyword",
+    "value": "throw",
+    "start": 861,
+    "end": 866,
+    "range": [
+      861,
+      866
+    ]
+  },
+  {
+    "type": "Keyword",
+    "value": "new",
+    "start": 867,
+    "end": 870,
+    "range": [
+      867,
+      870
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "Test262Error",
+    "start": 871,
+    "end": 883,
+    "range": [
+      871,
+      883
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 883,
+    "end": 884,
+    "range": [
+      883,
+      884
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'#2: __instance = new Array(\\'new\\',\\'zoo\\',\\'revue\\'); __instance.lastIndexOf(\\'zoo\\') === 1. Actual: '",
+    "start": 884,
+    "end": 988,
+    "range": [
+      884,
+      988
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "+",
+    "start": 989,
+    "end": 990,
+    "range": [
+      989,
+      990
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "__instance",
+    "start": 991,
+    "end": 1001,
+    "range": [
+      991,
+      1001
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 1001,
+    "end": 1002,
+    "range": [
+      1001,
+      1002
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "lastIndexOf",
+    "start": 1002,
+    "end": 1013,
+    "range": [
+      1002,
+      1013
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 1013,
+    "end": 1014,
+    "range": [
+      1013,
+      1014
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'zoo'",
+    "start": 1014,
+    "end": 1019,
+    "range": [
+      1014,
+      1019
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 1019,
+    "end": 1020,
+    "range": [
+      1019,
+      1020
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 1020,
+    "end": 1021,
+    "range": [
+      1020,
+      1021
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 1021,
+    "end": 1022,
+    "range": [
+      1021,
+      1022
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "}",
+    "start": 1023,
+    "end": 1024,
+    "range": [
+      1023,
+      1024
+    ]
+  }
+]

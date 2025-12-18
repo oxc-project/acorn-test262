@@ -1,0 +1,186 @@
+[
+  {
+    "type": "Keyword",
+    "value": "var",
+    "start": 398,
+    "end": 401,
+    "range": [
+      398,
+      401
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "__executed",
+    "start": 402,
+    "end": 412,
+    "range": [
+      402,
+      412
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "=",
+    "start": 413,
+    "end": 414,
+    "range": [
+      413,
+      414
+    ]
+  },
+  {
+    "type": "RegularExpression",
+    "value": "/^m/",
+    "regex": {
+      "flags": "",
+      "pattern": "^m"
+    },
+    "start": 415,
+    "end": 419,
+    "range": [
+      415,
+      419
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 419,
+    "end": 420,
+    "range": [
+      419,
+      420
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "test",
+    "start": 420,
+    "end": 424,
+    "range": [
+      420,
+      424
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 424,
+    "end": 425,
+    "range": [
+      424,
+      425
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"pairs\\nmakes\\tdouble\"",
+    "start": 425,
+    "end": 447,
+    "range": [
+      425,
+      447
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 447,
+    "end": 448,
+    "range": [
+      447,
+      448
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 448,
+    "end": 449,
+    "range": [
+      448,
+      449
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "assert",
+    "start": 451,
+    "end": 457,
+    "range": [
+      451,
+      457
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 457,
+    "end": 458,
+    "range": [
+      457,
+      458
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "!",
+    "start": 458,
+    "end": 459,
+    "range": [
+      458,
+      459
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "__executed",
+    "start": 459,
+    "end": 469,
+    "range": [
+      459,
+      469
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 469,
+    "end": 470,
+    "range": [
+      469,
+      470
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'The value of !__executed is expected to be true'",
+    "start": 471,
+    "end": 520,
+    "range": [
+      471,
+      520
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 520,
+    "end": 521,
+    "range": [
+      520,
+      521
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 521,
+    "end": 522,
+    "range": [
+      521,
+      522
+    ]
+  }
+]

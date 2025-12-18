@@ -1,0 +1,72 @@
+[
+  {
+    "type": "Keyword",
+    "value": "throw",
+    "start": 1144,
+    "end": 1149,
+    "range": [
+      1144,
+      1149
+    ]
+  },
+  {
+    "type": "Keyword",
+    "value": "new",
+    "start": 1150,
+    "end": 1153,
+    "range": [
+      1150,
+      1153
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "EvalError",
+    "start": 1154,
+    "end": 1163,
+    "range": [
+      1154,
+      1163
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 1163,
+    "end": 1164,
+    "range": [
+      1163,
+      1164
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"This is not in a comment\"",
+    "start": 1164,
+    "end": 1190,
+    "range": [
+      1164,
+      1190
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 1190,
+    "end": 1191,
+    "range": [
+      1190,
+      1191
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 1191,
+    "end": 1192,
+    "range": [
+      1191,
+      1192
+    ]
+  }
+]

@@ -1,0 +1,322 @@
+[
+  {
+    "type": "Keyword",
+    "value": "function",
+    "start": 227,
+    "end": 235,
+    "range": [
+      227,
+      235
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "_10_5_7_b_2_fun",
+    "start": 236,
+    "end": 251,
+    "range": [
+      236,
+      251
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 251,
+    "end": 252,
+    "range": [
+      251,
+      252
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 252,
+    "end": 253,
+    "range": [
+      252,
+      253
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "{",
+    "start": 254,
+    "end": 255,
+    "range": [
+      254,
+      255
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "arguments",
+    "start": 260,
+    "end": 269,
+    "range": [
+      260,
+      269
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "[",
+    "start": 269,
+    "end": 270,
+    "range": [
+      269,
+      270
+    ]
+  },
+  {
+    "type": "Numeric",
+    "value": "7",
+    "start": 270,
+    "end": 271,
+    "range": [
+      270,
+      271
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "]",
+    "start": 271,
+    "end": 272,
+    "range": [
+      271,
+      272
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "=",
+    "start": 273,
+    "end": 274,
+    "range": [
+      273,
+      274
+    ]
+  },
+  {
+    "type": "Numeric",
+    "value": "12",
+    "start": 275,
+    "end": 277,
+    "range": [
+      275,
+      277
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 277,
+    "end": 278,
+    "range": [
+      277,
+      278
+    ]
+  },
+  {
+    "type": "Keyword",
+    "value": "return",
+    "start": 283,
+    "end": 289,
+    "range": [
+      283,
+      289
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "arguments",
+    "start": 290,
+    "end": 299,
+    "range": [
+      290,
+      299
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "[",
+    "start": 299,
+    "end": 300,
+    "range": [
+      299,
+      300
+    ]
+  },
+  {
+    "type": "Numeric",
+    "value": "7",
+    "start": 300,
+    "end": 301,
+    "range": [
+      300,
+      301
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "]",
+    "start": 301,
+    "end": 302,
+    "range": [
+      301,
+      302
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "===",
+    "start": 303,
+    "end": 306,
+    "range": [
+      303,
+      306
+    ]
+  },
+  {
+    "type": "Numeric",
+    "value": "12",
+    "start": 307,
+    "end": 309,
+    "range": [
+      307,
+      309
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 309,
+    "end": 310,
+    "range": [
+      309,
+      310
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "}",
+    "start": 311,
+    "end": 312,
+    "range": [
+      311,
+      312
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 312,
+    "end": 313,
+    "range": [
+      312,
+      313
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "assert",
+    "start": 315,
+    "end": 321,
+    "range": [
+      315,
+      321
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 321,
+    "end": 322,
+    "range": [
+      321,
+      322
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "_10_5_7_b_2_fun",
+    "start": 322,
+    "end": 337,
+    "range": [
+      322,
+      337
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 337,
+    "end": 338,
+    "range": [
+      337,
+      338
+    ]
+  },
+  {
+    "type": "Numeric",
+    "value": "30",
+    "start": 338,
+    "end": 340,
+    "range": [
+      338,
+      340
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 340,
+    "end": 341,
+    "range": [
+      340,
+      341
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 341,
+    "end": 342,
+    "range": [
+      341,
+      342
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'_10_5_7_b_2_fun(30) !== true'",
+    "start": 343,
+    "end": 373,
+    "range": [
+      343,
+      373
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 373,
+    "end": 374,
+    "range": [
+      373,
+      374
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 374,
+    "end": 375,
+    "range": [
+      374,
+      375
+    ]
+  }
+]

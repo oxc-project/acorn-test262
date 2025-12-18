@@ -1,0 +1,212 @@
+[
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 751,
+    "end": 752,
+    "range": [
+      751,
+      752
+    ]
+  },
+  {
+    "type": "Keyword",
+    "value": "function",
+    "start": 752,
+    "end": 760,
+    "range": [
+      752,
+      760
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 760,
+    "end": 761,
+    "range": [
+      760,
+      761
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 761,
+    "end": 762,
+    "range": [
+      761,
+      762
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "{",
+    "start": 763,
+    "end": 764,
+    "range": [
+      763,
+      764
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "eval",
+    "start": 767,
+    "end": 771,
+    "range": [
+      767,
+      771
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 771,
+    "end": 772,
+    "range": [
+      771,
+      772
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'assert.throws(ReferenceError, function() {\\\n      f;\\\n    }, \"An initialized binding is not created prior to evaluation\");\\\n    assert.sameValue(\\\n      typeof f,\\\n      \"undefined\",\\\n      \"An uninitialized binding is not created prior to evaluation\"\\\n    );\\\n    \\\n    switch (0) {\\\n      default:\\\n        let f;switch (1) {'",
+    "start": 777,
+    "end": 1106,
+    "range": [
+      777,
+      1106
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "+",
+    "start": 1107,
+    "end": 1108,
+    "range": [
+      1107,
+      1108
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'  default:'",
+    "start": 1113,
+    "end": 1125,
+    "range": [
+      1113,
+      1125
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "+",
+    "start": 1126,
+    "end": 1127,
+    "range": [
+      1126,
+      1127
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'    function f() {  }'",
+    "start": 1132,
+    "end": 1155,
+    "range": [
+      1132,
+      1155
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "+",
+    "start": 1156,
+    "end": 1157,
+    "range": [
+      1156,
+      1157
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'}\\\n    }\\\n    \\\n    assert.throws(ReferenceError, function() {\\\n      f;\\\n    }, \"An initialized binding is not created following evaluation\");\\\n    assert.sameValue(\\\n      typeof f,\\\n      \"undefined\",\\\n      \"An uninitialized binding is not created following evaluation\"\\\n    );'",
+    "start": 1162,
+    "end": 1445,
+    "range": [
+      1162,
+      1445
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 1448,
+    "end": 1449,
+    "range": [
+      1448,
+      1449
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 1449,
+    "end": 1450,
+    "range": [
+      1449,
+      1450
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "}",
+    "start": 1451,
+    "end": 1452,
+    "range": [
+      1451,
+      1452
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 1452,
+    "end": 1453,
+    "range": [
+      1452,
+      1453
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 1453,
+    "end": 1454,
+    "range": [
+      1453,
+      1454
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 1454,
+    "end": 1455,
+    "range": [
+      1454,
+      1455
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 1455,
+    "end": 1456,
+    "range": [
+      1455,
+      1456
+    ]
+  }
+]

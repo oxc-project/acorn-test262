@@ -1,0 +1,342 @@
+[
+  {
+    "type": "Keyword",
+    "value": "export",
+    "start": 998,
+    "end": 1004,
+    "range": [
+      998,
+      1004
+    ]
+  },
+  {
+    "type": "Keyword",
+    "value": "default",
+    "start": 1005,
+    "end": 1012,
+    "range": [
+      1005,
+      1012
+    ]
+  },
+  {
+    "type": "Keyword",
+    "value": "class",
+    "start": 1013,
+    "end": 1018,
+    "range": [
+      1013,
+      1018
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "{",
+    "start": 1019,
+    "end": 1020,
+    "range": [
+      1019,
+      1020
+    ]
+  },
+  {
+    "type": "Keyword",
+    "value": "static",
+    "start": 1021,
+    "end": 1027,
+    "range": [
+      1021,
+      1027
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "name",
+    "start": 1028,
+    "end": 1032,
+    "range": [
+      1028,
+      1032
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 1032,
+    "end": 1033,
+    "range": [
+      1032,
+      1033
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 1033,
+    "end": 1034,
+    "range": [
+      1033,
+      1034
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "{",
+    "start": 1035,
+    "end": 1036,
+    "range": [
+      1035,
+      1036
+    ]
+  },
+  {
+    "type": "Keyword",
+    "value": "return",
+    "start": 1037,
+    "end": 1043,
+    "range": [
+      1037,
+      1043
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'name method'",
+    "start": 1044,
+    "end": 1057,
+    "range": [
+      1044,
+      1057
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 1057,
+    "end": 1058,
+    "range": [
+      1057,
+      1058
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "}",
+    "start": 1059,
+    "end": 1060,
+    "range": [
+      1059,
+      1060
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "}",
+    "start": 1061,
+    "end": 1062,
+    "range": [
+      1061,
+      1062
+    ]
+  },
+  {
+    "type": "Keyword",
+    "value": "import",
+    "start": 1063,
+    "end": 1069,
+    "range": [
+      1063,
+      1069
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "C",
+    "start": 1070,
+    "end": 1071,
+    "range": [
+      1070,
+      1071
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "from",
+    "start": 1072,
+    "end": 1076,
+    "range": [
+      1072,
+      1076
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'./eval-export-dflt-cls-name-meth.js'",
+    "start": 1077,
+    "end": 1114,
+    "range": [
+      1077,
+      1114
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 1114,
+    "end": 1115,
+    "range": [
+      1114,
+      1115
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "assert",
+    "start": 1117,
+    "end": 1123,
+    "range": [
+      1117,
+      1123
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 1123,
+    "end": 1124,
+    "range": [
+      1123,
+      1124
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "sameValue",
+    "start": 1124,
+    "end": 1133,
+    "range": [
+      1124,
+      1133
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 1133,
+    "end": 1134,
+    "range": [
+      1133,
+      1134
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "C",
+    "start": 1137,
+    "end": 1138,
+    "range": [
+      1137,
+      1138
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 1138,
+    "end": 1139,
+    "range": [
+      1138,
+      1139
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "name",
+    "start": 1139,
+    "end": 1143,
+    "range": [
+      1139,
+      1143
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 1143,
+    "end": 1144,
+    "range": [
+      1143,
+      1144
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 1144,
+    "end": 1145,
+    "range": [
+      1144,
+      1145
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 1145,
+    "end": 1146,
+    "range": [
+      1145,
+      1146
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'name method'",
+    "start": 1147,
+    "end": 1160,
+    "range": [
+      1147,
+      1160
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 1160,
+    "end": 1161,
+    "range": [
+      1160,
+      1161
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'`name` property is not over-written'",
+    "start": 1162,
+    "end": 1199,
+    "range": [
+      1162,
+      1199
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 1200,
+    "end": 1201,
+    "range": [
+      1200,
+      1201
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 1201,
+    "end": 1202,
+    "range": [
+      1201,
+      1202
+    ]
+  }
+]

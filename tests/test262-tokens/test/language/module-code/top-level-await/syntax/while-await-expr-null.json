@@ -1,0 +1,92 @@
+[
+  {
+    "type": "Keyword",
+    "value": "while",
+    "start": 1225,
+    "end": 1230,
+    "range": [
+      1225,
+      1230
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 1231,
+    "end": 1232,
+    "range": [
+      1231,
+      1232
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "await",
+    "start": 1232,
+    "end": 1237,
+    "range": [
+      1232,
+      1237
+    ]
+  },
+  {
+    "type": "Null",
+    "value": "null",
+    "start": 1238,
+    "end": 1242,
+    "range": [
+      1238,
+      1242
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 1242,
+    "end": 1243,
+    "range": [
+      1242,
+      1243
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "{",
+    "start": 1244,
+    "end": 1245,
+    "range": [
+      1244,
+      1245
+    ]
+  },
+  {
+    "type": "Keyword",
+    "value": "break",
+    "start": 1246,
+    "end": 1251,
+    "range": [
+      1246,
+      1251
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 1251,
+    "end": 1252,
+    "range": [
+      1251,
+      1252
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "}",
+    "start": 1253,
+    "end": 1254,
+    "range": [
+      1253,
+      1254
+    ]
+  }
+]

@@ -1,0 +1,142 @@
+[
+  {
+    "type": "Keyword",
+    "value": "const",
+    "start": 609,
+    "end": 614,
+    "range": [
+      609,
+      614
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "constBinding",
+    "start": 615,
+    "end": 627,
+    "range": [
+      615,
+      627
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "=",
+    "start": 628,
+    "end": 629,
+    "range": [
+      628,
+      629
+    ]
+  },
+  {
+    "type": "Numeric",
+    "value": "89",
+    "start": 630,
+    "end": 632,
+    "range": [
+      630,
+      632
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 632,
+    "end": 633,
+    "range": [
+      632,
+      633
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "assert",
+    "start": 634,
+    "end": 640,
+    "range": [
+      634,
+      640
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 640,
+    "end": 641,
+    "range": [
+      640,
+      641
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "sameValue",
+    "start": 641,
+    "end": 650,
+    "range": [
+      641,
+      650
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 650,
+    "end": 651,
+    "range": [
+      650,
+      651
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "constBinding",
+    "start": 651,
+    "end": 663,
+    "range": [
+      651,
+      663
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 663,
+    "end": 664,
+    "range": [
+      663,
+      664
+    ]
+  },
+  {
+    "type": "Numeric",
+    "value": "89",
+    "start": 665,
+    "end": 667,
+    "range": [
+      665,
+      667
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 667,
+    "end": 668,
+    "range": [
+      667,
+      668
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 668,
+    "end": 669,
+    "range": [
+      668,
+      669
+    ]
+  }
+]

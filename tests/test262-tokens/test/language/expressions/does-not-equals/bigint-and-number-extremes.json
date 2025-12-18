@@ -1,0 +1,1522 @@
+[
+  {
+    "type": "Identifier",
+    "value": "assert",
+    "start": 498,
+    "end": 504,
+    "range": [
+      498,
+      504
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 504,
+    "end": 505,
+    "range": [
+      504,
+      505
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "sameValue",
+    "start": 505,
+    "end": 514,
+    "range": [
+      505,
+      514
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 514,
+    "end": 515,
+    "range": [
+      514,
+      515
+    ]
+  },
+  {
+    "type": "Numeric",
+    "value": "1n",
+    "start": 515,
+    "end": 517,
+    "range": [
+      515,
+      517
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "!=",
+    "start": 518,
+    "end": 520,
+    "range": [
+      518,
+      520
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "Number",
+    "start": 521,
+    "end": 527,
+    "range": [
+      521,
+      527
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 527,
+    "end": 528,
+    "range": [
+      527,
+      528
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "MAX_VALUE",
+    "start": 528,
+    "end": 537,
+    "range": [
+      528,
+      537
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 537,
+    "end": 538,
+    "range": [
+      537,
+      538
+    ]
+  },
+  {
+    "type": "Boolean",
+    "value": "true",
+    "start": 539,
+    "end": 543,
+    "range": [
+      539,
+      543
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 543,
+    "end": 544,
+    "range": [
+      543,
+      544
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'The result of (1n != Number.MAX_VALUE) is true'",
+    "start": 545,
+    "end": 593,
+    "range": [
+      545,
+      593
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 593,
+    "end": 594,
+    "range": [
+      593,
+      594
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 594,
+    "end": 595,
+    "range": [
+      594,
+      595
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "assert",
+    "start": 596,
+    "end": 602,
+    "range": [
+      596,
+      602
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 602,
+    "end": 603,
+    "range": [
+      602,
+      603
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "sameValue",
+    "start": 603,
+    "end": 612,
+    "range": [
+      603,
+      612
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 612,
+    "end": 613,
+    "range": [
+      612,
+      613
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "Number",
+    "start": 613,
+    "end": 619,
+    "range": [
+      613,
+      619
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 619,
+    "end": 620,
+    "range": [
+      619,
+      620
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "MAX_VALUE",
+    "start": 620,
+    "end": 629,
+    "range": [
+      620,
+      629
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "!=",
+    "start": 630,
+    "end": 632,
+    "range": [
+      630,
+      632
+    ]
+  },
+  {
+    "type": "Numeric",
+    "value": "1n",
+    "start": 633,
+    "end": 635,
+    "range": [
+      633,
+      635
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 635,
+    "end": 636,
+    "range": [
+      635,
+      636
+    ]
+  },
+  {
+    "type": "Boolean",
+    "value": "true",
+    "start": 637,
+    "end": 641,
+    "range": [
+      637,
+      641
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 641,
+    "end": 642,
+    "range": [
+      641,
+      642
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'The result of (Number.MAX_VALUE != 1n) is true'",
+    "start": 643,
+    "end": 691,
+    "range": [
+      643,
+      691
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 691,
+    "end": 692,
+    "range": [
+      691,
+      692
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 692,
+    "end": 693,
+    "range": [
+      692,
+      693
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "assert",
+    "start": 694,
+    "end": 700,
+    "range": [
+      694,
+      700
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 700,
+    "end": 701,
+    "range": [
+      700,
+      701
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "sameValue",
+    "start": 701,
+    "end": 710,
+    "range": [
+      701,
+      710
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 710,
+    "end": 711,
+    "range": [
+      710,
+      711
+    ]
+  },
+  {
+    "type": "Numeric",
+    "value": "1n",
+    "start": 711,
+    "end": 713,
+    "range": [
+      711,
+      713
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "!=",
+    "start": 714,
+    "end": 716,
+    "range": [
+      714,
+      716
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "-",
+    "start": 717,
+    "end": 718,
+    "range": [
+      717,
+      718
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "Number",
+    "start": 718,
+    "end": 724,
+    "range": [
+      718,
+      724
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 724,
+    "end": 725,
+    "range": [
+      724,
+      725
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "MAX_VALUE",
+    "start": 725,
+    "end": 734,
+    "range": [
+      725,
+      734
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 734,
+    "end": 735,
+    "range": [
+      734,
+      735
+    ]
+  },
+  {
+    "type": "Boolean",
+    "value": "true",
+    "start": 736,
+    "end": 740,
+    "range": [
+      736,
+      740
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 740,
+    "end": 741,
+    "range": [
+      740,
+      741
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'The result of (1n != -Number.MAX_VALUE) is true'",
+    "start": 742,
+    "end": 791,
+    "range": [
+      742,
+      791
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 791,
+    "end": 792,
+    "range": [
+      791,
+      792
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 792,
+    "end": 793,
+    "range": [
+      792,
+      793
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "assert",
+    "start": 794,
+    "end": 800,
+    "range": [
+      794,
+      800
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 800,
+    "end": 801,
+    "range": [
+      800,
+      801
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "sameValue",
+    "start": 801,
+    "end": 810,
+    "range": [
+      801,
+      810
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 810,
+    "end": 811,
+    "range": [
+      810,
+      811
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "-",
+    "start": 811,
+    "end": 812,
+    "range": [
+      811,
+      812
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "Number",
+    "start": 812,
+    "end": 818,
+    "range": [
+      812,
+      818
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 818,
+    "end": 819,
+    "range": [
+      818,
+      819
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "MAX_VALUE",
+    "start": 819,
+    "end": 828,
+    "range": [
+      819,
+      828
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "!=",
+    "start": 829,
+    "end": 831,
+    "range": [
+      829,
+      831
+    ]
+  },
+  {
+    "type": "Numeric",
+    "value": "1n",
+    "start": 832,
+    "end": 834,
+    "range": [
+      832,
+      834
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 834,
+    "end": 835,
+    "range": [
+      834,
+      835
+    ]
+  },
+  {
+    "type": "Boolean",
+    "value": "true",
+    "start": 836,
+    "end": 840,
+    "range": [
+      836,
+      840
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 840,
+    "end": 841,
+    "range": [
+      840,
+      841
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'The result of (-Number.MAX_VALUE != 1n) is true'",
+    "start": 842,
+    "end": 891,
+    "range": [
+      842,
+      891
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 891,
+    "end": 892,
+    "range": [
+      891,
+      892
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 892,
+    "end": 893,
+    "range": [
+      892,
+      893
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "assert",
+    "start": 895,
+    "end": 901,
+    "range": [
+      895,
+      901
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 901,
+    "end": 902,
+    "range": [
+      901,
+      902
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "sameValue",
+    "start": 902,
+    "end": 911,
+    "range": [
+      902,
+      911
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 911,
+    "end": 912,
+    "range": [
+      911,
+      912
+    ]
+  },
+  {
+    "type": "Numeric",
+    "value": "0xfffffffffffff7ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffn",
+    "start": 915,
+    "end": 1174,
+    "range": [
+      915,
+      1174
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "!=",
+    "start": 1175,
+    "end": 1177,
+    "range": [
+      1175,
+      1177
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "Number",
+    "start": 1178,
+    "end": 1184,
+    "range": [
+      1178,
+      1184
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 1184,
+    "end": 1185,
+    "range": [
+      1184,
+      1185
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "MAX_VALUE",
+    "start": 1185,
+    "end": 1194,
+    "range": [
+      1185,
+      1194
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 1194,
+    "end": 1195,
+    "range": [
+      1194,
+      1195
+    ]
+  },
+  {
+    "type": "Boolean",
+    "value": "true",
+    "start": 1198,
+    "end": 1202,
+    "range": [
+      1198,
+      1202
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 1202,
+    "end": 1203,
+    "range": [
+      1202,
+      1203
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'The result of (0xfffffffffffff7ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffn != Number.MAX_VALUE) is true'",
+    "start": 1206,
+    "end": 1511,
+    "range": [
+      1206,
+      1511
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 1512,
+    "end": 1513,
+    "range": [
+      1512,
+      1513
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 1513,
+    "end": 1514,
+    "range": [
+      1513,
+      1514
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "assert",
+    "start": 1516,
+    "end": 1522,
+    "range": [
+      1516,
+      1522
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 1522,
+    "end": 1523,
+    "range": [
+      1522,
+      1523
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "sameValue",
+    "start": 1523,
+    "end": 1532,
+    "range": [
+      1523,
+      1532
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 1532,
+    "end": 1533,
+    "range": [
+      1532,
+      1533
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "Number",
+    "start": 1536,
+    "end": 1542,
+    "range": [
+      1536,
+      1542
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 1542,
+    "end": 1543,
+    "range": [
+      1542,
+      1543
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "MAX_VALUE",
+    "start": 1543,
+    "end": 1552,
+    "range": [
+      1543,
+      1552
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "!=",
+    "start": 1553,
+    "end": 1555,
+    "range": [
+      1553,
+      1555
+    ]
+  },
+  {
+    "type": "Numeric",
+    "value": "0xfffffffffffff7ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffn",
+    "start": 1556,
+    "end": 1815,
+    "range": [
+      1556,
+      1815
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 1815,
+    "end": 1816,
+    "range": [
+      1815,
+      1816
+    ]
+  },
+  {
+    "type": "Boolean",
+    "value": "true",
+    "start": 1819,
+    "end": 1823,
+    "range": [
+      1819,
+      1823
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 1823,
+    "end": 1824,
+    "range": [
+      1823,
+      1824
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'The result of (Number.MAX_VALUE != 0xfffffffffffff7ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffn) is true'",
+    "start": 1827,
+    "end": 2132,
+    "range": [
+      1827,
+      2132
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 2133,
+    "end": 2134,
+    "range": [
+      2133,
+      2134
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 2134,
+    "end": 2135,
+    "range": [
+      2134,
+      2135
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "assert",
+    "start": 2137,
+    "end": 2143,
+    "range": [
+      2137,
+      2143
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 2143,
+    "end": 2144,
+    "range": [
+      2143,
+      2144
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "sameValue",
+    "start": 2144,
+    "end": 2153,
+    "range": [
+      2144,
+      2153
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 2153,
+    "end": 2154,
+    "range": [
+      2153,
+      2154
+    ]
+  },
+  {
+    "type": "Numeric",
+    "value": "0xfffffffffffff800000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000n",
+    "start": 2157,
+    "end": 2416,
+    "range": [
+      2157,
+      2416
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "!=",
+    "start": 2417,
+    "end": 2419,
+    "range": [
+      2417,
+      2419
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "Number",
+    "start": 2420,
+    "end": 2426,
+    "range": [
+      2420,
+      2426
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 2426,
+    "end": 2427,
+    "range": [
+      2426,
+      2427
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "MAX_VALUE",
+    "start": 2427,
+    "end": 2436,
+    "range": [
+      2427,
+      2436
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 2436,
+    "end": 2437,
+    "range": [
+      2436,
+      2437
+    ]
+  },
+  {
+    "type": "Boolean",
+    "value": "false",
+    "start": 2440,
+    "end": 2445,
+    "range": [
+      2440,
+      2445
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 2445,
+    "end": 2446,
+    "range": [
+      2445,
+      2446
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'The result of (0xfffffffffffff800000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000n != Number.MAX_VALUE) is false'",
+    "start": 2449,
+    "end": 2755,
+    "range": [
+      2449,
+      2755
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 2756,
+    "end": 2757,
+    "range": [
+      2756,
+      2757
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 2757,
+    "end": 2758,
+    "range": [
+      2757,
+      2758
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "assert",
+    "start": 2760,
+    "end": 2766,
+    "range": [
+      2760,
+      2766
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 2766,
+    "end": 2767,
+    "range": [
+      2766,
+      2767
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "sameValue",
+    "start": 2767,
+    "end": 2776,
+    "range": [
+      2767,
+      2776
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 2776,
+    "end": 2777,
+    "range": [
+      2776,
+      2777
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "Number",
+    "start": 2780,
+    "end": 2786,
+    "range": [
+      2780,
+      2786
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 2786,
+    "end": 2787,
+    "range": [
+      2786,
+      2787
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "MAX_VALUE",
+    "start": 2787,
+    "end": 2796,
+    "range": [
+      2787,
+      2796
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "!=",
+    "start": 2797,
+    "end": 2799,
+    "range": [
+      2797,
+      2799
+    ]
+  },
+  {
+    "type": "Numeric",
+    "value": "0xfffffffffffff800000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000n",
+    "start": 2800,
+    "end": 3059,
+    "range": [
+      2800,
+      3059
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 3059,
+    "end": 3060,
+    "range": [
+      3059,
+      3060
+    ]
+  },
+  {
+    "type": "Boolean",
+    "value": "false",
+    "start": 3063,
+    "end": 3068,
+    "range": [
+      3063,
+      3068
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 3068,
+    "end": 3069,
+    "range": [
+      3068,
+      3069
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'The result of (Number.MAX_VALUE != 0xfffffffffffff800000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000n) is false'",
+    "start": 3072,
+    "end": 3378,
+    "range": [
+      3072,
+      3378
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 3379,
+    "end": 3380,
+    "range": [
+      3379,
+      3380
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 3380,
+    "end": 3381,
+    "range": [
+      3380,
+      3381
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "assert",
+    "start": 3383,
+    "end": 3389,
+    "range": [
+      3383,
+      3389
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 3389,
+    "end": 3390,
+    "range": [
+      3389,
+      3390
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "sameValue",
+    "start": 3390,
+    "end": 3399,
+    "range": [
+      3390,
+      3399
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 3399,
+    "end": 3400,
+    "range": [
+      3399,
+      3400
+    ]
+  },
+  {
+    "type": "Numeric",
+    "value": "0xfffffffffffff800000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001n",
+    "start": 3403,
+    "end": 3662,
+    "range": [
+      3403,
+      3662
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "!=",
+    "start": 3663,
+    "end": 3665,
+    "range": [
+      3663,
+      3665
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "Number",
+    "start": 3666,
+    "end": 3672,
+    "range": [
+      3666,
+      3672
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 3672,
+    "end": 3673,
+    "range": [
+      3672,
+      3673
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "MAX_VALUE",
+    "start": 3673,
+    "end": 3682,
+    "range": [
+      3673,
+      3682
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 3682,
+    "end": 3683,
+    "range": [
+      3682,
+      3683
+    ]
+  },
+  {
+    "type": "Boolean",
+    "value": "true",
+    "start": 3686,
+    "end": 3690,
+    "range": [
+      3686,
+      3690
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 3690,
+    "end": 3691,
+    "range": [
+      3690,
+      3691
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'The result of (0xfffffffffffff800000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001n != Number.MAX_VALUE) is true'",
+    "start": 3694,
+    "end": 3999,
+    "range": [
+      3694,
+      3999
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 4000,
+    "end": 4001,
+    "range": [
+      4000,
+      4001
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 4001,
+    "end": 4002,
+    "range": [
+      4001,
+      4002
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "assert",
+    "start": 4004,
+    "end": 4010,
+    "range": [
+      4004,
+      4010
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 4010,
+    "end": 4011,
+    "range": [
+      4010,
+      4011
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "sameValue",
+    "start": 4011,
+    "end": 4020,
+    "range": [
+      4011,
+      4020
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 4020,
+    "end": 4021,
+    "range": [
+      4020,
+      4021
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "Number",
+    "start": 4024,
+    "end": 4030,
+    "range": [
+      4024,
+      4030
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 4030,
+    "end": 4031,
+    "range": [
+      4030,
+      4031
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "MAX_VALUE",
+    "start": 4031,
+    "end": 4040,
+    "range": [
+      4031,
+      4040
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "!=",
+    "start": 4041,
+    "end": 4043,
+    "range": [
+      4041,
+      4043
+    ]
+  },
+  {
+    "type": "Numeric",
+    "value": "0xfffffffffffff800000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001n",
+    "start": 4044,
+    "end": 4303,
+    "range": [
+      4044,
+      4303
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 4303,
+    "end": 4304,
+    "range": [
+      4303,
+      4304
+    ]
+  },
+  {
+    "type": "Boolean",
+    "value": "true",
+    "start": 4307,
+    "end": 4311,
+    "range": [
+      4307,
+      4311
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 4311,
+    "end": 4312,
+    "range": [
+      4311,
+      4312
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'The result of (Number.MAX_VALUE != 0xfffffffffffff800000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001n) is true'",
+    "start": 4315,
+    "end": 4620,
+    "range": [
+      4315,
+      4620
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 4621,
+    "end": 4622,
+    "range": [
+      4621,
+      4622
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 4622,
+    "end": 4623,
+    "range": [
+      4622,
+      4623
+    ]
+  }
+]

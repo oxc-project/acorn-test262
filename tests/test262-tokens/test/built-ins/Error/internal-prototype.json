@@ -1,0 +1,422 @@
+[
+  {
+    "type": "Identifier",
+    "value": "assert",
+    "start": 298,
+    "end": 304,
+    "range": [
+      298,
+      304
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 304,
+    "end": 305,
+    "range": [
+      304,
+      305
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "sameValue",
+    "start": 305,
+    "end": 314,
+    "range": [
+      305,
+      314
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 314,
+    "end": 315,
+    "range": [
+      314,
+      315
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "Function",
+    "start": 318,
+    "end": 326,
+    "range": [
+      318,
+      326
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 326,
+    "end": 327,
+    "range": [
+      326,
+      327
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "prototype",
+    "start": 327,
+    "end": 336,
+    "range": [
+      327,
+      336
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 336,
+    "end": 337,
+    "range": [
+      336,
+      337
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "isPrototypeOf",
+    "start": 337,
+    "end": 350,
+    "range": [
+      337,
+      350
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 350,
+    "end": 351,
+    "range": [
+      350,
+      351
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "Error",
+    "start": 351,
+    "end": 356,
+    "range": [
+      351,
+      356
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 356,
+    "end": 357,
+    "range": [
+      356,
+      357
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 357,
+    "end": 358,
+    "range": [
+      357,
+      358
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 358,
+    "end": 359,
+    "range": [
+      358,
+      359
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "constructor",
+    "start": 359,
+    "end": 370,
+    "range": [
+      359,
+      370
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 370,
+    "end": 371,
+    "range": [
+      370,
+      371
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 371,
+    "end": 372,
+    "range": [
+      371,
+      372
+    ]
+  },
+  {
+    "type": "Boolean",
+    "value": "true",
+    "start": 375,
+    "end": 379,
+    "range": [
+      375,
+      379
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 379,
+    "end": 380,
+    "range": [
+      379,
+      380
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'Function.prototype.isPrototypeOf(err1.constructor) returns true'",
+    "start": 383,
+    "end": 448,
+    "range": [
+      383,
+      448
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 449,
+    "end": 450,
+    "range": [
+      449,
+      450
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 450,
+    "end": 451,
+    "range": [
+      450,
+      451
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "assert",
+    "start": 453,
+    "end": 459,
+    "range": [
+      453,
+      459
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 459,
+    "end": 460,
+    "range": [
+      459,
+      460
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "sameValue",
+    "start": 460,
+    "end": 469,
+    "range": [
+      460,
+      469
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 469,
+    "end": 470,
+    "range": [
+      469,
+      470
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "Function",
+    "start": 473,
+    "end": 481,
+    "range": [
+      473,
+      481
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 481,
+    "end": 482,
+    "range": [
+      481,
+      482
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "prototype",
+    "start": 482,
+    "end": 491,
+    "range": [
+      482,
+      491
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 491,
+    "end": 492,
+    "range": [
+      491,
+      492
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "isPrototypeOf",
+    "start": 492,
+    "end": 505,
+    "range": [
+      492,
+      505
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 505,
+    "end": 506,
+    "range": [
+      505,
+      506
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "Error",
+    "start": 506,
+    "end": 511,
+    "range": [
+      506,
+      511
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 511,
+    "end": 512,
+    "range": [
+      511,
+      512
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "constructor",
+    "start": 512,
+    "end": 523,
+    "range": [
+      512,
+      523
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 523,
+    "end": 524,
+    "range": [
+      523,
+      524
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 524,
+    "end": 525,
+    "range": [
+      524,
+      525
+    ]
+  },
+  {
+    "type": "Boolean",
+    "value": "true",
+    "start": 528,
+    "end": 532,
+    "range": [
+      528,
+      532
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 532,
+    "end": 533,
+    "range": [
+      532,
+      533
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'Function.prototype.isPrototypeOf(Error.constructor) returns true'",
+    "start": 536,
+    "end": 602,
+    "range": [
+      536,
+      602
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 603,
+    "end": 604,
+    "range": [
+      603,
+      604
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 604,
+    "end": 605,
+    "range": [
+      604,
+      605
+    ]
+  }
+]

@@ -1,0 +1,1922 @@
+[
+  {
+    "type": "Identifier",
+    "value": "assert",
+    "start": 239,
+    "end": 245,
+    "range": [
+      239,
+      245
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 245,
+    "end": 246,
+    "range": [
+      245,
+      246
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "sameValue",
+    "start": 246,
+    "end": 255,
+    "range": [
+      246,
+      255
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 255,
+    "end": 256,
+    "range": [
+      255,
+      256
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "parseInt",
+    "start": 256,
+    "end": 264,
+    "range": [
+      256,
+      264
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 264,
+    "end": 265,
+    "range": [
+      264,
+      265
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"0\"",
+    "start": 265,
+    "end": 268,
+    "range": [
+      265,
+      268
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 268,
+    "end": 269,
+    "range": [
+      268,
+      269
+    ]
+  },
+  {
+    "type": "Numeric",
+    "value": "1",
+    "start": 270,
+    "end": 271,
+    "range": [
+      270,
+      271
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 271,
+    "end": 272,
+    "range": [
+      271,
+      272
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 272,
+    "end": 273,
+    "range": [
+      272,
+      273
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "NaN",
+    "start": 274,
+    "end": 277,
+    "range": [
+      274,
+      277
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 277,
+    "end": 278,
+    "range": [
+      277,
+      278
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'parseInt(\"0\", 1) must return NaN'",
+    "start": 279,
+    "end": 313,
+    "range": [
+      279,
+      313
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 313,
+    "end": 314,
+    "range": [
+      313,
+      314
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 314,
+    "end": 315,
+    "range": [
+      314,
+      315
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "assert",
+    "start": 316,
+    "end": 322,
+    "range": [
+      316,
+      322
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 322,
+    "end": 323,
+    "range": [
+      322,
+      323
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "sameValue",
+    "start": 323,
+    "end": 332,
+    "range": [
+      323,
+      332
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 332,
+    "end": 333,
+    "range": [
+      332,
+      333
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "parseInt",
+    "start": 333,
+    "end": 341,
+    "range": [
+      333,
+      341
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 341,
+    "end": 342,
+    "range": [
+      341,
+      342
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"1\"",
+    "start": 342,
+    "end": 345,
+    "range": [
+      342,
+      345
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 345,
+    "end": 346,
+    "range": [
+      345,
+      346
+    ]
+  },
+  {
+    "type": "Numeric",
+    "value": "1",
+    "start": 347,
+    "end": 348,
+    "range": [
+      347,
+      348
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 348,
+    "end": 349,
+    "range": [
+      348,
+      349
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 349,
+    "end": 350,
+    "range": [
+      349,
+      350
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "NaN",
+    "start": 351,
+    "end": 354,
+    "range": [
+      351,
+      354
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 354,
+    "end": 355,
+    "range": [
+      354,
+      355
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'parseInt(\"1\", 1) must return NaN'",
+    "start": 356,
+    "end": 390,
+    "range": [
+      356,
+      390
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 390,
+    "end": 391,
+    "range": [
+      390,
+      391
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 391,
+    "end": 392,
+    "range": [
+      391,
+      392
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "assert",
+    "start": 393,
+    "end": 399,
+    "range": [
+      393,
+      399
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 399,
+    "end": 400,
+    "range": [
+      399,
+      400
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "sameValue",
+    "start": 400,
+    "end": 409,
+    "range": [
+      400,
+      409
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 409,
+    "end": 410,
+    "range": [
+      409,
+      410
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "parseInt",
+    "start": 410,
+    "end": 418,
+    "range": [
+      410,
+      418
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 418,
+    "end": 419,
+    "range": [
+      418,
+      419
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"2\"",
+    "start": 419,
+    "end": 422,
+    "range": [
+      419,
+      422
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 422,
+    "end": 423,
+    "range": [
+      422,
+      423
+    ]
+  },
+  {
+    "type": "Numeric",
+    "value": "1",
+    "start": 424,
+    "end": 425,
+    "range": [
+      424,
+      425
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 425,
+    "end": 426,
+    "range": [
+      425,
+      426
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 426,
+    "end": 427,
+    "range": [
+      426,
+      427
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "NaN",
+    "start": 428,
+    "end": 431,
+    "range": [
+      428,
+      431
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 431,
+    "end": 432,
+    "range": [
+      431,
+      432
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'parseInt(\"2\", 1) must return NaN'",
+    "start": 433,
+    "end": 467,
+    "range": [
+      433,
+      467
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 467,
+    "end": 468,
+    "range": [
+      467,
+      468
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 468,
+    "end": 469,
+    "range": [
+      468,
+      469
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "assert",
+    "start": 470,
+    "end": 476,
+    "range": [
+      470,
+      476
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 476,
+    "end": 477,
+    "range": [
+      476,
+      477
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "sameValue",
+    "start": 477,
+    "end": 486,
+    "range": [
+      477,
+      486
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 486,
+    "end": 487,
+    "range": [
+      486,
+      487
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "parseInt",
+    "start": 487,
+    "end": 495,
+    "range": [
+      487,
+      495
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 495,
+    "end": 496,
+    "range": [
+      495,
+      496
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"3\"",
+    "start": 496,
+    "end": 499,
+    "range": [
+      496,
+      499
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 499,
+    "end": 500,
+    "range": [
+      499,
+      500
+    ]
+  },
+  {
+    "type": "Numeric",
+    "value": "1",
+    "start": 501,
+    "end": 502,
+    "range": [
+      501,
+      502
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 502,
+    "end": 503,
+    "range": [
+      502,
+      503
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 503,
+    "end": 504,
+    "range": [
+      503,
+      504
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "NaN",
+    "start": 505,
+    "end": 508,
+    "range": [
+      505,
+      508
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 508,
+    "end": 509,
+    "range": [
+      508,
+      509
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'parseInt(\"3\", 1) must return NaN'",
+    "start": 510,
+    "end": 544,
+    "range": [
+      510,
+      544
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 544,
+    "end": 545,
+    "range": [
+      544,
+      545
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 545,
+    "end": 546,
+    "range": [
+      545,
+      546
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "assert",
+    "start": 547,
+    "end": 553,
+    "range": [
+      547,
+      553
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 553,
+    "end": 554,
+    "range": [
+      553,
+      554
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "sameValue",
+    "start": 554,
+    "end": 563,
+    "range": [
+      554,
+      563
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 563,
+    "end": 564,
+    "range": [
+      563,
+      564
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "parseInt",
+    "start": 564,
+    "end": 572,
+    "range": [
+      564,
+      572
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 572,
+    "end": 573,
+    "range": [
+      572,
+      573
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"4\"",
+    "start": 573,
+    "end": 576,
+    "range": [
+      573,
+      576
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 576,
+    "end": 577,
+    "range": [
+      576,
+      577
+    ]
+  },
+  {
+    "type": "Numeric",
+    "value": "1",
+    "start": 578,
+    "end": 579,
+    "range": [
+      578,
+      579
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 579,
+    "end": 580,
+    "range": [
+      579,
+      580
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 580,
+    "end": 581,
+    "range": [
+      580,
+      581
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "NaN",
+    "start": 582,
+    "end": 585,
+    "range": [
+      582,
+      585
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 585,
+    "end": 586,
+    "range": [
+      585,
+      586
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'parseInt(\"4\", 1) must return NaN'",
+    "start": 587,
+    "end": 621,
+    "range": [
+      587,
+      621
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 621,
+    "end": 622,
+    "range": [
+      621,
+      622
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 622,
+    "end": 623,
+    "range": [
+      622,
+      623
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "assert",
+    "start": 624,
+    "end": 630,
+    "range": [
+      624,
+      630
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 630,
+    "end": 631,
+    "range": [
+      630,
+      631
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "sameValue",
+    "start": 631,
+    "end": 640,
+    "range": [
+      631,
+      640
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 640,
+    "end": 641,
+    "range": [
+      640,
+      641
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "parseInt",
+    "start": 641,
+    "end": 649,
+    "range": [
+      641,
+      649
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 649,
+    "end": 650,
+    "range": [
+      649,
+      650
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"5\"",
+    "start": 650,
+    "end": 653,
+    "range": [
+      650,
+      653
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 653,
+    "end": 654,
+    "range": [
+      653,
+      654
+    ]
+  },
+  {
+    "type": "Numeric",
+    "value": "1",
+    "start": 655,
+    "end": 656,
+    "range": [
+      655,
+      656
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 656,
+    "end": 657,
+    "range": [
+      656,
+      657
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 657,
+    "end": 658,
+    "range": [
+      657,
+      658
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "NaN",
+    "start": 659,
+    "end": 662,
+    "range": [
+      659,
+      662
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 662,
+    "end": 663,
+    "range": [
+      662,
+      663
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'parseInt(\"5\", 1) must return NaN'",
+    "start": 664,
+    "end": 698,
+    "range": [
+      664,
+      698
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 698,
+    "end": 699,
+    "range": [
+      698,
+      699
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 699,
+    "end": 700,
+    "range": [
+      699,
+      700
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "assert",
+    "start": 701,
+    "end": 707,
+    "range": [
+      701,
+      707
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 707,
+    "end": 708,
+    "range": [
+      707,
+      708
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "sameValue",
+    "start": 708,
+    "end": 717,
+    "range": [
+      708,
+      717
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 717,
+    "end": 718,
+    "range": [
+      717,
+      718
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "parseInt",
+    "start": 718,
+    "end": 726,
+    "range": [
+      718,
+      726
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 726,
+    "end": 727,
+    "range": [
+      726,
+      727
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"6\"",
+    "start": 727,
+    "end": 730,
+    "range": [
+      727,
+      730
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 730,
+    "end": 731,
+    "range": [
+      730,
+      731
+    ]
+  },
+  {
+    "type": "Numeric",
+    "value": "1",
+    "start": 732,
+    "end": 733,
+    "range": [
+      732,
+      733
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 733,
+    "end": 734,
+    "range": [
+      733,
+      734
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 734,
+    "end": 735,
+    "range": [
+      734,
+      735
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "NaN",
+    "start": 736,
+    "end": 739,
+    "range": [
+      736,
+      739
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 739,
+    "end": 740,
+    "range": [
+      739,
+      740
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'parseInt(\"6\", 1) must return NaN'",
+    "start": 741,
+    "end": 775,
+    "range": [
+      741,
+      775
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 775,
+    "end": 776,
+    "range": [
+      775,
+      776
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 776,
+    "end": 777,
+    "range": [
+      776,
+      777
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "assert",
+    "start": 778,
+    "end": 784,
+    "range": [
+      778,
+      784
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 784,
+    "end": 785,
+    "range": [
+      784,
+      785
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "sameValue",
+    "start": 785,
+    "end": 794,
+    "range": [
+      785,
+      794
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 794,
+    "end": 795,
+    "range": [
+      794,
+      795
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "parseInt",
+    "start": 795,
+    "end": 803,
+    "range": [
+      795,
+      803
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 803,
+    "end": 804,
+    "range": [
+      803,
+      804
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"7\"",
+    "start": 804,
+    "end": 807,
+    "range": [
+      804,
+      807
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 807,
+    "end": 808,
+    "range": [
+      807,
+      808
+    ]
+  },
+  {
+    "type": "Numeric",
+    "value": "1",
+    "start": 809,
+    "end": 810,
+    "range": [
+      809,
+      810
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 810,
+    "end": 811,
+    "range": [
+      810,
+      811
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 811,
+    "end": 812,
+    "range": [
+      811,
+      812
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "NaN",
+    "start": 813,
+    "end": 816,
+    "range": [
+      813,
+      816
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 816,
+    "end": 817,
+    "range": [
+      816,
+      817
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'parseInt(\"7\", 1) must return NaN'",
+    "start": 818,
+    "end": 852,
+    "range": [
+      818,
+      852
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 852,
+    "end": 853,
+    "range": [
+      852,
+      853
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 853,
+    "end": 854,
+    "range": [
+      853,
+      854
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "assert",
+    "start": 855,
+    "end": 861,
+    "range": [
+      855,
+      861
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 861,
+    "end": 862,
+    "range": [
+      861,
+      862
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "sameValue",
+    "start": 862,
+    "end": 871,
+    "range": [
+      862,
+      871
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 871,
+    "end": 872,
+    "range": [
+      871,
+      872
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "parseInt",
+    "start": 872,
+    "end": 880,
+    "range": [
+      872,
+      880
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 880,
+    "end": 881,
+    "range": [
+      880,
+      881
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"8\"",
+    "start": 881,
+    "end": 884,
+    "range": [
+      881,
+      884
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 884,
+    "end": 885,
+    "range": [
+      884,
+      885
+    ]
+  },
+  {
+    "type": "Numeric",
+    "value": "1",
+    "start": 886,
+    "end": 887,
+    "range": [
+      886,
+      887
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 887,
+    "end": 888,
+    "range": [
+      887,
+      888
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 888,
+    "end": 889,
+    "range": [
+      888,
+      889
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "NaN",
+    "start": 890,
+    "end": 893,
+    "range": [
+      890,
+      893
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 893,
+    "end": 894,
+    "range": [
+      893,
+      894
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'parseInt(\"8\", 1) must return NaN'",
+    "start": 895,
+    "end": 929,
+    "range": [
+      895,
+      929
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 929,
+    "end": 930,
+    "range": [
+      929,
+      930
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 930,
+    "end": 931,
+    "range": [
+      930,
+      931
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "assert",
+    "start": 932,
+    "end": 938,
+    "range": [
+      932,
+      938
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 938,
+    "end": 939,
+    "range": [
+      938,
+      939
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "sameValue",
+    "start": 939,
+    "end": 948,
+    "range": [
+      939,
+      948
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 948,
+    "end": 949,
+    "range": [
+      948,
+      949
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "parseInt",
+    "start": 949,
+    "end": 957,
+    "range": [
+      949,
+      957
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 957,
+    "end": 958,
+    "range": [
+      957,
+      958
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"9\"",
+    "start": 958,
+    "end": 961,
+    "range": [
+      958,
+      961
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 961,
+    "end": 962,
+    "range": [
+      961,
+      962
+    ]
+  },
+  {
+    "type": "Numeric",
+    "value": "1",
+    "start": 963,
+    "end": 964,
+    "range": [
+      963,
+      964
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 964,
+    "end": 965,
+    "range": [
+      964,
+      965
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 965,
+    "end": 966,
+    "range": [
+      965,
+      966
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "NaN",
+    "start": 967,
+    "end": 970,
+    "range": [
+      967,
+      970
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 970,
+    "end": 971,
+    "range": [
+      970,
+      971
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'parseInt(\"9\", 1) must return NaN'",
+    "start": 972,
+    "end": 1006,
+    "range": [
+      972,
+      1006
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 1006,
+    "end": 1007,
+    "range": [
+      1006,
+      1007
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 1007,
+    "end": 1008,
+    "range": [
+      1007,
+      1008
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "assert",
+    "start": 1009,
+    "end": 1015,
+    "range": [
+      1009,
+      1015
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 1015,
+    "end": 1016,
+    "range": [
+      1015,
+      1016
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "sameValue",
+    "start": 1016,
+    "end": 1025,
+    "range": [
+      1016,
+      1025
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 1025,
+    "end": 1026,
+    "range": [
+      1025,
+      1026
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "parseInt",
+    "start": 1026,
+    "end": 1034,
+    "range": [
+      1026,
+      1034
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 1034,
+    "end": 1035,
+    "range": [
+      1034,
+      1035
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"10\"",
+    "start": 1035,
+    "end": 1039,
+    "range": [
+      1035,
+      1039
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 1039,
+    "end": 1040,
+    "range": [
+      1039,
+      1040
+    ]
+  },
+  {
+    "type": "Numeric",
+    "value": "1",
+    "start": 1041,
+    "end": 1042,
+    "range": [
+      1041,
+      1042
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 1042,
+    "end": 1043,
+    "range": [
+      1042,
+      1043
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 1043,
+    "end": 1044,
+    "range": [
+      1043,
+      1044
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "NaN",
+    "start": 1045,
+    "end": 1048,
+    "range": [
+      1045,
+      1048
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 1048,
+    "end": 1049,
+    "range": [
+      1048,
+      1049
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'parseInt(\"10\", 1) must return NaN'",
+    "start": 1050,
+    "end": 1085,
+    "range": [
+      1050,
+      1085
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 1085,
+    "end": 1086,
+    "range": [
+      1085,
+      1086
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 1086,
+    "end": 1087,
+    "range": [
+      1086,
+      1087
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "assert",
+    "start": 1088,
+    "end": 1094,
+    "range": [
+      1088,
+      1094
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 1094,
+    "end": 1095,
+    "range": [
+      1094,
+      1095
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "sameValue",
+    "start": 1095,
+    "end": 1104,
+    "range": [
+      1095,
+      1104
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 1104,
+    "end": 1105,
+    "range": [
+      1104,
+      1105
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "parseInt",
+    "start": 1105,
+    "end": 1113,
+    "range": [
+      1105,
+      1113
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 1113,
+    "end": 1114,
+    "range": [
+      1113,
+      1114
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"11\"",
+    "start": 1114,
+    "end": 1118,
+    "range": [
+      1114,
+      1118
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 1118,
+    "end": 1119,
+    "range": [
+      1118,
+      1119
+    ]
+  },
+  {
+    "type": "Numeric",
+    "value": "1",
+    "start": 1120,
+    "end": 1121,
+    "range": [
+      1120,
+      1121
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 1121,
+    "end": 1122,
+    "range": [
+      1121,
+      1122
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 1122,
+    "end": 1123,
+    "range": [
+      1122,
+      1123
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "NaN",
+    "start": 1124,
+    "end": 1127,
+    "range": [
+      1124,
+      1127
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 1127,
+    "end": 1128,
+    "range": [
+      1127,
+      1128
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'parseInt(\"11\", 1) must return NaN'",
+    "start": 1129,
+    "end": 1164,
+    "range": [
+      1129,
+      1164
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 1164,
+    "end": 1165,
+    "range": [
+      1164,
+      1165
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 1165,
+    "end": 1166,
+    "range": [
+      1165,
+      1166
+    ]
+  }
+]

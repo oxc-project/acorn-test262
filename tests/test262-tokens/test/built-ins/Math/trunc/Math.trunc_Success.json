@@ -1,0 +1,162 @@
+[
+  {
+    "type": "Identifier",
+    "value": "assert",
+    "start": 246,
+    "end": 252,
+    "range": [
+      246,
+      252
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 252,
+    "end": 253,
+    "range": [
+      252,
+      253
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "sameValue",
+    "start": 253,
+    "end": 262,
+    "range": [
+      253,
+      262
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 262,
+    "end": 263,
+    "range": [
+      262,
+      263
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "Math",
+    "start": 263,
+    "end": 267,
+    "range": [
+      263,
+      267
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 267,
+    "end": 268,
+    "range": [
+      267,
+      268
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "trunc",
+    "start": 268,
+    "end": 273,
+    "range": [
+      268,
+      273
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 273,
+    "end": 274,
+    "range": [
+      273,
+      274
+    ]
+  },
+  {
+    "type": "Numeric",
+    "value": "4578.584949",
+    "start": 274,
+    "end": 285,
+    "range": [
+      274,
+      285
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 285,
+    "end": 286,
+    "range": [
+      285,
+      286
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 286,
+    "end": 287,
+    "range": [
+      286,
+      287
+    ]
+  },
+  {
+    "type": "Numeric",
+    "value": "4578",
+    "start": 288,
+    "end": 292,
+    "range": [
+      288,
+      292
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 292,
+    "end": 293,
+    "range": [
+      292,
+      293
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'Math.trunc(4578.584949)'",
+    "start": 294,
+    "end": 319,
+    "range": [
+      294,
+      319
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 319,
+    "end": 320,
+    "range": [
+      319,
+      320
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 320,
+    "end": 321,
+    "range": [
+      320,
+      321
+    ]
+  }
+]

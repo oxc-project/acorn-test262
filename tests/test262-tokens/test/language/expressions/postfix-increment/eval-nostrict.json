@@ -1,0 +1,32 @@
+[
+  {
+    "type": "Identifier",
+    "value": "eval",
+    "start": 793,
+    "end": 797,
+    "range": [
+      793,
+      797
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "++",
+    "start": 797,
+    "end": 799,
+    "range": [
+      797,
+      799
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 799,
+    "end": 800,
+    "range": [
+      799,
+      800
+    ]
+  }
+]

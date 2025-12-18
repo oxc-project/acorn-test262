@@ -1,0 +1,462 @@
+[
+  {
+    "type": "Identifier",
+    "value": "assert",
+    "start": 570,
+    "end": 576,
+    "range": [
+      570,
+      576
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 576,
+    "end": 577,
+    "range": [
+      576,
+      577
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "throws",
+    "start": 577,
+    "end": 583,
+    "range": [
+      577,
+      583
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 583,
+    "end": 584,
+    "range": [
+      583,
+      584
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "TypeError",
+    "start": 584,
+    "end": 593,
+    "range": [
+      584,
+      593
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 593,
+    "end": 594,
+    "range": [
+      593,
+      594
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 595,
+    "end": 596,
+    "range": [
+      595,
+      596
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 596,
+    "end": 597,
+    "range": [
+      596,
+      597
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "=>",
+    "start": 598,
+    "end": 600,
+    "range": [
+      598,
+      600
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "{",
+    "start": 601,
+    "end": 602,
+    "range": [
+      601,
+      602
+    ]
+  },
+  {
+    "type": "Keyword",
+    "value": "new",
+    "start": 605,
+    "end": 608,
+    "range": [
+      605,
+      608
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "Temporal",
+    "start": 609,
+    "end": 617,
+    "range": [
+      609,
+      617
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 617,
+    "end": 618,
+    "range": [
+      617,
+      618
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "Duration",
+    "start": 618,
+    "end": 626,
+    "range": [
+      618,
+      626
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 626,
+    "end": 627,
+    "range": [
+      626,
+      627
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "prototype",
+    "start": 627,
+    "end": 636,
+    "range": [
+      627,
+      636
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 636,
+    "end": 637,
+    "range": [
+      636,
+      637
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "subtract",
+    "start": 637,
+    "end": 645,
+    "range": [
+      637,
+      645
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 645,
+    "end": 646,
+    "range": [
+      645,
+      646
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 646,
+    "end": 647,
+    "range": [
+      646,
+      647
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 647,
+    "end": 648,
+    "range": [
+      647,
+      648
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "}",
+    "start": 649,
+    "end": 650,
+    "range": [
+      649,
+      650
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 650,
+    "end": 651,
+    "range": [
+      650,
+      651
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"Calling as constructor\"",
+    "start": 652,
+    "end": 676,
+    "range": [
+      652,
+      676
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 676,
+    "end": 677,
+    "range": [
+      676,
+      677
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 677,
+    "end": 678,
+    "range": [
+      677,
+      678
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "assert",
+    "start": 680,
+    "end": 686,
+    "range": [
+      680,
+      686
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 686,
+    "end": 687,
+    "range": [
+      686,
+      687
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "sameValue",
+    "start": 687,
+    "end": 696,
+    "range": [
+      687,
+      696
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 696,
+    "end": 697,
+    "range": [
+      696,
+      697
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "isConstructor",
+    "start": 697,
+    "end": 710,
+    "range": [
+      697,
+      710
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 710,
+    "end": 711,
+    "range": [
+      710,
+      711
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "Temporal",
+    "start": 711,
+    "end": 719,
+    "range": [
+      711,
+      719
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 719,
+    "end": 720,
+    "range": [
+      719,
+      720
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "Duration",
+    "start": 720,
+    "end": 728,
+    "range": [
+      720,
+      728
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 728,
+    "end": 729,
+    "range": [
+      728,
+      729
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "prototype",
+    "start": 729,
+    "end": 738,
+    "range": [
+      729,
+      738
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 738,
+    "end": 739,
+    "range": [
+      738,
+      739
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "subtract",
+    "start": 739,
+    "end": 747,
+    "range": [
+      739,
+      747
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 747,
+    "end": 748,
+    "range": [
+      747,
+      748
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 748,
+    "end": 749,
+    "range": [
+      748,
+      749
+    ]
+  },
+  {
+    "type": "Boolean",
+    "value": "false",
+    "start": 750,
+    "end": 755,
+    "range": [
+      750,
+      755
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 755,
+    "end": 756,
+    "range": [
+      755,
+      756
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"isConstructor(Temporal.Duration.prototype.subtract)\"",
+    "start": 759,
+    "end": 812,
+    "range": [
+      759,
+      812
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 812,
+    "end": 813,
+    "range": [
+      812,
+      813
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 813,
+    "end": 814,
+    "range": [
+      813,
+      814
+    ]
+  }
+]

@@ -1,0 +1,182 @@
+[
+  {
+    "type": "Identifier",
+    "value": "assert",
+    "start": 275,
+    "end": 281,
+    "range": [
+      275,
+      281
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 281,
+    "end": 282,
+    "range": [
+      281,
+      282
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "sameValue",
+    "start": 282,
+    "end": 291,
+    "range": [
+      282,
+      291
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 291,
+    "end": 292,
+    "range": [
+      291,
+      292
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'word'",
+    "start": 292,
+    "end": 298,
+    "range": [
+      292,
+      298
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 298,
+    "end": 299,
+    "range": [
+      298,
+      299
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "includes",
+    "start": 299,
+    "end": 307,
+    "range": [
+      299,
+      307
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 307,
+    "end": 308,
+    "range": [
+      307,
+      308
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'a'",
+    "start": 308,
+    "end": 311,
+    "range": [
+      308,
+      311
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 311,
+    "end": 312,
+    "range": [
+      311,
+      312
+    ]
+  },
+  {
+    "type": "Numeric",
+    "value": "0",
+    "start": 313,
+    "end": 314,
+    "range": [
+      313,
+      314
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 314,
+    "end": 315,
+    "range": [
+      314,
+      315
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 315,
+    "end": 316,
+    "range": [
+      315,
+      316
+    ]
+  },
+  {
+    "type": "Boolean",
+    "value": "false",
+    "start": 317,
+    "end": 322,
+    "range": [
+      317,
+      322
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 322,
+    "end": 323,
+    "range": [
+      322,
+      323
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'\"word\".includes(\"a\", 0)'",
+    "start": 324,
+    "end": 349,
+    "range": [
+      324,
+      349
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 349,
+    "end": 350,
+    "range": [
+      349,
+      350
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 350,
+    "end": 351,
+    "range": [
+      350,
+      351
+    ]
+  }
+]

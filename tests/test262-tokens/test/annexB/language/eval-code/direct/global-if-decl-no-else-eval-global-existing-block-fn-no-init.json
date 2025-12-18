@@ -1,0 +1,52 @@
+[
+  {
+    "type": "Identifier",
+    "value": "eval",
+    "start": 1024,
+    "end": 1028,
+    "range": [
+      1024,
+      1028
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 1028,
+    "end": 1029,
+    "range": [
+      1028,
+      1029
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'assert.sameValue(f, undefined);\\\n  \\\n  {\\\n    function f() {}\\\n  }if (true) function f() {  }'",
+    "start": 1032,
+    "end": 1127,
+    "range": [
+      1032,
+      1127
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 1128,
+    "end": 1129,
+    "range": [
+      1128,
+      1129
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 1129,
+    "end": 1130,
+    "range": [
+      1129,
+      1130
+    ]
+  }
+]

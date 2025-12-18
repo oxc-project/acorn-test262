@@ -1,0 +1,92 @@
+[
+  {
+    "type": "Identifier",
+    "value": "assert",
+    "start": 471,
+    "end": 477,
+    "range": [
+      471,
+      477
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 477,
+    "end": 478,
+    "range": [
+      477,
+      478
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "sameValue",
+    "start": 478,
+    "end": 487,
+    "range": [
+      478,
+      487
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 487,
+    "end": 488,
+    "range": [
+      487,
+      488
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "$MAX_ITERATIONS",
+    "start": 488,
+    "end": 503,
+    "range": [
+      488,
+      503
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 503,
+    "end": 504,
+    "range": [
+      503,
+      504
+    ]
+  },
+  {
+    "type": "Numeric",
+    "value": "100000",
+    "start": 505,
+    "end": 511,
+    "range": [
+      505,
+      511
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 511,
+    "end": 512,
+    "range": [
+      511,
+      512
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 512,
+    "end": 513,
+    "range": [
+      512,
+      513
+    ]
+  }
+]

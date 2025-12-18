@@ -1,0 +1,212 @@
+[
+  {
+    "type": "Identifier",
+    "value": "assert",
+    "start": 219,
+    "end": 225,
+    "range": [
+      219,
+      225
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 225,
+    "end": 226,
+    "range": [
+      225,
+      226
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "sameValue",
+    "start": 226,
+    "end": 235,
+    "range": [
+      226,
+      235
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 235,
+    "end": 236,
+    "range": [
+      235,
+      236
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "Object",
+    "start": 239,
+    "end": 245,
+    "range": [
+      239,
+      245
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 245,
+    "end": 246,
+    "range": [
+      245,
+      246
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "getPrototypeOf",
+    "start": 246,
+    "end": 260,
+    "range": [
+      246,
+      260
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 260,
+    "end": 261,
+    "range": [
+      260,
+      261
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "Symbol",
+    "start": 261,
+    "end": 267,
+    "range": [
+      261,
+      267
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 267,
+    "end": 268,
+    "range": [
+      267,
+      268
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'66'",
+    "start": 268,
+    "end": 272,
+    "range": [
+      268,
+      272
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 272,
+    "end": 273,
+    "range": [
+      272,
+      273
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 273,
+    "end": 274,
+    "range": [
+      273,
+      274
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 274,
+    "end": 275,
+    "range": [
+      274,
+      275
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "Symbol",
+    "start": 278,
+    "end": 284,
+    "range": [
+      278,
+      284
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 284,
+    "end": 285,
+    "range": [
+      284,
+      285
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "prototype",
+    "start": 285,
+    "end": 294,
+    "range": [
+      285,
+      294
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 294,
+    "end": 295,
+    "range": [
+      294,
+      295
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"`Object.getPrototypeOf(Symbol('66'))` returns `Symbol.prototype`\"",
+    "start": 298,
+    "end": 364,
+    "range": [
+      298,
+      364
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 365,
+    "end": 366,
+    "range": [
+      365,
+      366
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 366,
+    "end": 367,
+    "range": [
+      366,
+      367
+    ]
+  }
+]

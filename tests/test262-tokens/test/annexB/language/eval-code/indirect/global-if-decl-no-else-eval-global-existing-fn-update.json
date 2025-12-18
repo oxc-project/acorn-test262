@@ -1,0 +1,92 @@
+[
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 1542,
+    "end": 1543,
+    "range": [
+      1542,
+      1543
+    ]
+  },
+  {
+    "type": "Numeric",
+    "value": "0",
+    "start": 1543,
+    "end": 1544,
+    "range": [
+      1543,
+      1544
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 1544,
+    "end": 1545,
+    "range": [
+      1544,
+      1545
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "eval",
+    "start": 1545,
+    "end": 1549,
+    "range": [
+      1545,
+      1549
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 1549,
+    "end": 1550,
+    "range": [
+      1549,
+      1550
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 1550,
+    "end": 1551,
+    "range": [
+      1550,
+      1551
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'if (true) function f() { return \"inner declaration\"; }assert.sameValue(typeof f, \"function\");\\\n  assert.sameValue(f(), \"inner declaration\");\\\n  \\\n  function f() {\\\n    return \"outer declaration\";\\\n  }'",
+    "start": 1554,
+    "end": 1756,
+    "range": [
+      1554,
+      1756
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 1757,
+    "end": 1758,
+    "range": [
+      1757,
+      1758
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 1758,
+    "end": 1759,
+    "range": [
+      1758,
+      1759
+    ]
+  }
+]

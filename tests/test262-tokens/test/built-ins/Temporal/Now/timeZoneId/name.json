@@ -1,0 +1,422 @@
+[
+  {
+    "type": "Identifier",
+    "value": "assert",
+    "start": 694,
+    "end": 700,
+    "range": [
+      694,
+      700
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 700,
+    "end": 701,
+    "range": [
+      700,
+      701
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "sameValue",
+    "start": 701,
+    "end": 710,
+    "range": [
+      701,
+      710
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 710,
+    "end": 711,
+    "range": [
+      710,
+      711
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "Temporal",
+    "start": 714,
+    "end": 722,
+    "range": [
+      714,
+      722
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 722,
+    "end": 723,
+    "range": [
+      722,
+      723
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "Now",
+    "start": 723,
+    "end": 726,
+    "range": [
+      723,
+      726
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 726,
+    "end": 727,
+    "range": [
+      726,
+      727
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "timeZoneId",
+    "start": 727,
+    "end": 737,
+    "range": [
+      727,
+      737
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 737,
+    "end": 738,
+    "range": [
+      737,
+      738
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "name",
+    "start": 738,
+    "end": 742,
+    "range": [
+      738,
+      742
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 742,
+    "end": 743,
+    "range": [
+      742,
+      743
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'timeZoneId'",
+    "start": 746,
+    "end": 758,
+    "range": [
+      746,
+      758
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 758,
+    "end": 759,
+    "range": [
+      758,
+      759
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'The value of Temporal.Now.timeZoneId.name is expected to be \"timeZoneId\"'",
+    "start": 762,
+    "end": 836,
+    "range": [
+      762,
+      836
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 837,
+    "end": 838,
+    "range": [
+      837,
+      838
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 838,
+    "end": 839,
+    "range": [
+      838,
+      839
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "verifyProperty",
+    "start": 841,
+    "end": 855,
+    "range": [
+      841,
+      855
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 855,
+    "end": 856,
+    "range": [
+      855,
+      856
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "Temporal",
+    "start": 856,
+    "end": 864,
+    "range": [
+      856,
+      864
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 864,
+    "end": 865,
+    "range": [
+      864,
+      865
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "Now",
+    "start": 865,
+    "end": 868,
+    "range": [
+      865,
+      868
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 868,
+    "end": 869,
+    "range": [
+      868,
+      869
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "timeZoneId",
+    "start": 869,
+    "end": 879,
+    "range": [
+      869,
+      879
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 879,
+    "end": 880,
+    "range": [
+      879,
+      880
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'name'",
+    "start": 881,
+    "end": 887,
+    "range": [
+      881,
+      887
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 887,
+    "end": 888,
+    "range": [
+      887,
+      888
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "{",
+    "start": 889,
+    "end": 890,
+    "range": [
+      889,
+      890
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "enumerable",
+    "start": 893,
+    "end": 903,
+    "range": [
+      893,
+      903
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ":",
+    "start": 903,
+    "end": 904,
+    "range": [
+      903,
+      904
+    ]
+  },
+  {
+    "type": "Boolean",
+    "value": "false",
+    "start": 905,
+    "end": 910,
+    "range": [
+      905,
+      910
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 910,
+    "end": 911,
+    "range": [
+      910,
+      911
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "writable",
+    "start": 914,
+    "end": 922,
+    "range": [
+      914,
+      922
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ":",
+    "start": 922,
+    "end": 923,
+    "range": [
+      922,
+      923
+    ]
+  },
+  {
+    "type": "Boolean",
+    "value": "false",
+    "start": 924,
+    "end": 929,
+    "range": [
+      924,
+      929
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 929,
+    "end": 930,
+    "range": [
+      929,
+      930
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "configurable",
+    "start": 933,
+    "end": 945,
+    "range": [
+      933,
+      945
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ":",
+    "start": 945,
+    "end": 946,
+    "range": [
+      945,
+      946
+    ]
+  },
+  {
+    "type": "Boolean",
+    "value": "true",
+    "start": 947,
+    "end": 951,
+    "range": [
+      947,
+      951
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "}",
+    "start": 952,
+    "end": 953,
+    "range": [
+      952,
+      953
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 953,
+    "end": 954,
+    "range": [
+      953,
+      954
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 954,
+    "end": 955,
+    "range": [
+      954,
+      955
+    ]
+  }
+]

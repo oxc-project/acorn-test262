@@ -1,0 +1,52 @@
+[
+  {
+    "type": "Keyword",
+    "value": "var",
+    "start": 347,
+    "end": 350,
+    "range": [
+      347,
+      350
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "abstract",
+    "start": 351,
+    "end": 359,
+    "range": [
+      351,
+      359
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "=",
+    "start": 360,
+    "end": 361,
+    "range": [
+      360,
+      361
+    ]
+  },
+  {
+    "type": "Numeric",
+    "value": "1",
+    "start": 362,
+    "end": 363,
+    "range": [
+      362,
+      363
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 363,
+    "end": 364,
+    "range": [
+      363,
+      364
+    ]
+  }
+]

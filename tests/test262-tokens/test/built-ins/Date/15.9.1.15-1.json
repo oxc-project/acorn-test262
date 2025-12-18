@@ -1,0 +1,412 @@
+[
+  {
+    "type": "Keyword",
+    "value": "var",
+    "start": 348,
+    "end": 351,
+    "range": [
+      348,
+      351
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "result",
+    "start": 352,
+    "end": 358,
+    "range": [
+      352,
+      358
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "=",
+    "start": 359,
+    "end": 360,
+    "range": [
+      359,
+      360
+    ]
+  },
+  {
+    "type": "Boolean",
+    "value": "false",
+    "start": 361,
+    "end": 366,
+    "range": [
+      361,
+      366
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 366,
+    "end": 367,
+    "range": [
+      366,
+      367
+    ]
+  },
+  {
+    "type": "Keyword",
+    "value": "var",
+    "start": 368,
+    "end": 371,
+    "range": [
+      368,
+      371
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "expectedDateTimeStr",
+    "start": 372,
+    "end": 391,
+    "range": [
+      372,
+      391
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "=",
+    "start": 392,
+    "end": 393,
+    "range": [
+      392,
+      393
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"1970-01-01T00:00:00.000Z\"",
+    "start": 394,
+    "end": 420,
+    "range": [
+      394,
+      420
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 420,
+    "end": 421,
+    "range": [
+      420,
+      421
+    ]
+  },
+  {
+    "type": "Keyword",
+    "value": "var",
+    "start": 422,
+    "end": 425,
+    "range": [
+      422,
+      425
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "dateObj",
+    "start": 426,
+    "end": 433,
+    "range": [
+      426,
+      433
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "=",
+    "start": 434,
+    "end": 435,
+    "range": [
+      434,
+      435
+    ]
+  },
+  {
+    "type": "Keyword",
+    "value": "new",
+    "start": 436,
+    "end": 439,
+    "range": [
+      436,
+      439
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "Date",
+    "start": 440,
+    "end": 444,
+    "range": [
+      440,
+      444
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 444,
+    "end": 445,
+    "range": [
+      444,
+      445
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"1970\"",
+    "start": 445,
+    "end": 451,
+    "range": [
+      445,
+      451
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 451,
+    "end": 452,
+    "range": [
+      451,
+      452
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 452,
+    "end": 453,
+    "range": [
+      452,
+      453
+    ]
+  },
+  {
+    "type": "Keyword",
+    "value": "var",
+    "start": 454,
+    "end": 457,
+    "range": [
+      454,
+      457
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "dateStr",
+    "start": 458,
+    "end": 465,
+    "range": [
+      458,
+      465
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "=",
+    "start": 466,
+    "end": 467,
+    "range": [
+      466,
+      467
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "dateObj",
+    "start": 468,
+    "end": 475,
+    "range": [
+      468,
+      475
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 475,
+    "end": 476,
+    "range": [
+      475,
+      476
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "toISOString",
+    "start": 476,
+    "end": 487,
+    "range": [
+      476,
+      487
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 487,
+    "end": 488,
+    "range": [
+      487,
+      488
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 488,
+    "end": 489,
+    "range": [
+      488,
+      489
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 489,
+    "end": 490,
+    "range": [
+      489,
+      490
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "result",
+    "start": 491,
+    "end": 497,
+    "range": [
+      491,
+      497
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "=",
+    "start": 498,
+    "end": 499,
+    "range": [
+      498,
+      499
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "dateStr",
+    "start": 500,
+    "end": 507,
+    "range": [
+      500,
+      507
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "===",
+    "start": 508,
+    "end": 511,
+    "range": [
+      508,
+      511
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "expectedDateTimeStr",
+    "start": 512,
+    "end": 531,
+    "range": [
+      512,
+      531
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 531,
+    "end": 532,
+    "range": [
+      531,
+      532
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "assert",
+    "start": 534,
+    "end": 540,
+    "range": [
+      534,
+      540
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 540,
+    "end": 541,
+    "range": [
+      540,
+      541
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "result",
+    "start": 541,
+    "end": 547,
+    "range": [
+      541,
+      547
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 547,
+    "end": 548,
+    "range": [
+      547,
+      548
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'result !== true'",
+    "start": 549,
+    "end": 566,
+    "range": [
+      549,
+      566
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 566,
+    "end": 567,
+    "range": [
+      566,
+      567
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 567,
+    "end": 568,
+    "range": [
+      567,
+      568
+    ]
+  }
+]

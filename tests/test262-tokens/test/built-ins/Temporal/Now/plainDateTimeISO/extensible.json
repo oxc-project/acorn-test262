@@ -1,0 +1,162 @@
+[
+  {
+    "type": "Identifier",
+    "value": "assert",
+    "start": 270,
+    "end": 276,
+    "range": [
+      270,
+      276
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 276,
+    "end": 277,
+    "range": [
+      276,
+      277
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "Object",
+    "start": 280,
+    "end": 286,
+    "range": [
+      280,
+      286
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 286,
+    "end": 287,
+    "range": [
+      286,
+      287
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "isExtensible",
+    "start": 287,
+    "end": 299,
+    "range": [
+      287,
+      299
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 299,
+    "end": 300,
+    "range": [
+      299,
+      300
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "Temporal",
+    "start": 300,
+    "end": 308,
+    "range": [
+      300,
+      308
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 308,
+    "end": 309,
+    "range": [
+      308,
+      309
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "Now",
+    "start": 309,
+    "end": 312,
+    "range": [
+      309,
+      312
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 312,
+    "end": 313,
+    "range": [
+      312,
+      313
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "plainDateTimeISO",
+    "start": 313,
+    "end": 329,
+    "range": [
+      313,
+      329
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 329,
+    "end": 330,
+    "range": [
+      329,
+      330
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 330,
+    "end": 331,
+    "range": [
+      330,
+      331
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'Object.isExtensible(Temporal.Now.plainDateTimeISO) must return true'",
+    "start": 334,
+    "end": 403,
+    "range": [
+      334,
+      403
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 404,
+    "end": 405,
+    "range": [
+      404,
+      405
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 405,
+    "end": 406,
+    "range": [
+      405,
+      406
+    ]
+  }
+]

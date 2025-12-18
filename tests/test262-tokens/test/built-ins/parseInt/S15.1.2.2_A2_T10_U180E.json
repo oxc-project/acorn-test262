@@ -1,0 +1,552 @@
+[
+  {
+    "type": "Keyword",
+    "value": "var",
+    "start": 848,
+    "end": 851,
+    "range": [
+      848,
+      851
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "mongolianVowelSeparator",
+    "start": 852,
+    "end": 875,
+    "range": [
+      852,
+      875
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "=",
+    "start": 876,
+    "end": 877,
+    "range": [
+      876,
+      877
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"\\u180E\"",
+    "start": 878,
+    "end": 886,
+    "range": [
+      878,
+      886
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 886,
+    "end": 887,
+    "range": [
+      886,
+      887
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "assert",
+    "start": 889,
+    "end": 895,
+    "range": [
+      889,
+      895
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 895,
+    "end": 896,
+    "range": [
+      895,
+      896
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "sameValue",
+    "start": 896,
+    "end": 905,
+    "range": [
+      896,
+      905
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 905,
+    "end": 906,
+    "range": [
+      905,
+      906
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "parseInt",
+    "start": 906,
+    "end": 914,
+    "range": [
+      906,
+      914
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 914,
+    "end": 915,
+    "range": [
+      914,
+      915
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "mongolianVowelSeparator",
+    "start": 915,
+    "end": 938,
+    "range": [
+      915,
+      938
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "+",
+    "start": 939,
+    "end": 940,
+    "range": [
+      939,
+      940
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"1\"",
+    "start": 941,
+    "end": 944,
+    "range": [
+      941,
+      944
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 944,
+    "end": 945,
+    "range": [
+      944,
+      945
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 945,
+    "end": 946,
+    "range": [
+      945,
+      946
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "NaN",
+    "start": 947,
+    "end": 950,
+    "range": [
+      947,
+      950
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 950,
+    "end": 951,
+    "range": [
+      950,
+      951
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'parseInt(mongolianVowelSeparator + \"1\") must return NaN'",
+    "start": 952,
+    "end": 1009,
+    "range": [
+      952,
+      1009
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 1009,
+    "end": 1010,
+    "range": [
+      1009,
+      1010
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 1010,
+    "end": 1011,
+    "range": [
+      1010,
+      1011
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "assert",
+    "start": 1012,
+    "end": 1018,
+    "range": [
+      1012,
+      1018
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 1018,
+    "end": 1019,
+    "range": [
+      1018,
+      1019
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "sameValue",
+    "start": 1019,
+    "end": 1028,
+    "range": [
+      1019,
+      1028
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 1028,
+    "end": 1029,
+    "range": [
+      1028,
+      1029
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "parseInt",
+    "start": 1029,
+    "end": 1037,
+    "range": [
+      1029,
+      1037
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 1037,
+    "end": 1038,
+    "range": [
+      1037,
+      1038
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "mongolianVowelSeparator",
+    "start": 1038,
+    "end": 1061,
+    "range": [
+      1038,
+      1061
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "+",
+    "start": 1062,
+    "end": 1063,
+    "range": [
+      1062,
+      1063
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "mongolianVowelSeparator",
+    "start": 1064,
+    "end": 1087,
+    "range": [
+      1064,
+      1087
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "+",
+    "start": 1088,
+    "end": 1089,
+    "range": [
+      1088,
+      1089
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "mongolianVowelSeparator",
+    "start": 1090,
+    "end": 1113,
+    "range": [
+      1090,
+      1113
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "+",
+    "start": 1114,
+    "end": 1115,
+    "range": [
+      1114,
+      1115
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"1\"",
+    "start": 1116,
+    "end": 1119,
+    "range": [
+      1116,
+      1119
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 1119,
+    "end": 1120,
+    "range": [
+      1119,
+      1120
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 1120,
+    "end": 1121,
+    "range": [
+      1120,
+      1121
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "NaN",
+    "start": 1122,
+    "end": 1125,
+    "range": [
+      1122,
+      1125
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 1125,
+    "end": 1126,
+    "range": [
+      1125,
+      1126
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'parseInt( mongolianVowelSeparator + mongolianVowelSeparator + mongolianVowelSeparator + \"1\" ) must return NaN'",
+    "start": 1127,
+    "end": 1238,
+    "range": [
+      1127,
+      1238
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 1238,
+    "end": 1239,
+    "range": [
+      1238,
+      1239
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 1239,
+    "end": 1240,
+    "range": [
+      1239,
+      1240
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "assert",
+    "start": 1241,
+    "end": 1247,
+    "range": [
+      1241,
+      1247
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 1247,
+    "end": 1248,
+    "range": [
+      1247,
+      1248
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "sameValue",
+    "start": 1248,
+    "end": 1257,
+    "range": [
+      1248,
+      1257
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 1257,
+    "end": 1258,
+    "range": [
+      1257,
+      1258
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "parseInt",
+    "start": 1258,
+    "end": 1266,
+    "range": [
+      1258,
+      1266
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 1266,
+    "end": 1267,
+    "range": [
+      1266,
+      1267
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "mongolianVowelSeparator",
+    "start": 1267,
+    "end": 1290,
+    "range": [
+      1267,
+      1290
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 1290,
+    "end": 1291,
+    "range": [
+      1290,
+      1291
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 1291,
+    "end": 1292,
+    "range": [
+      1291,
+      1292
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "NaN",
+    "start": 1293,
+    "end": 1296,
+    "range": [
+      1293,
+      1296
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 1296,
+    "end": 1297,
+    "range": [
+      1296,
+      1297
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'parseInt(\"\\\\\"\\\\\\\\u180E\\\\\"\") must return NaN'",
+    "start": 1298,
+    "end": 1343,
+    "range": [
+      1298,
+      1343
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 1343,
+    "end": 1344,
+    "range": [
+      1343,
+      1344
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 1344,
+    "end": 1345,
+    "range": [
+      1344,
+      1345
+    ]
+  }
+]

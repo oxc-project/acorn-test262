@@ -1,0 +1,746 @@
+[
+  {
+    "type": "Identifier",
+    "value": "assert",
+    "start": 707,
+    "end": 713,
+    "range": [
+      707,
+      713
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 713,
+    "end": 714,
+    "range": [
+      713,
+      714
+    ]
+  },
+  {
+    "type": "RegularExpression",
+    "value": "/[\\u0390]/ui",
+    "regex": {
+      "flags": "ui",
+      "pattern": "[\\u0390]"
+    },
+    "start": 714,
+    "end": 726,
+    "range": [
+      714,
+      726
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 726,
+    "end": 727,
+    "range": [
+      726,
+      727
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "test",
+    "start": 727,
+    "end": 731,
+    "range": [
+      727,
+      731
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 731,
+    "end": 732,
+    "range": [
+      731,
+      732
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"\\u1fd3\"",
+    "start": 732,
+    "end": 740,
+    "range": [
+      732,
+      740
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 740,
+    "end": 741,
+    "range": [
+      740,
+      741
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 741,
+    "end": 742,
+    "range": [
+      741,
+      742
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"\\\\u0390 does not match \\\\u1fd3\"",
+    "start": 743,
+    "end": 775,
+    "range": [
+      743,
+      775
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 775,
+    "end": 776,
+    "range": [
+      775,
+      776
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 776,
+    "end": 777,
+    "range": [
+      776,
+      777
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "assert",
+    "start": 778,
+    "end": 784,
+    "range": [
+      778,
+      784
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 784,
+    "end": 785,
+    "range": [
+      784,
+      785
+    ]
+  },
+  {
+    "type": "RegularExpression",
+    "value": "/[\\u1fd3]/ui",
+    "regex": {
+      "flags": "ui",
+      "pattern": "[\\u1fd3]"
+    },
+    "start": 785,
+    "end": 797,
+    "range": [
+      785,
+      797
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 797,
+    "end": 798,
+    "range": [
+      797,
+      798
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "test",
+    "start": 798,
+    "end": 802,
+    "range": [
+      798,
+      802
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 802,
+    "end": 803,
+    "range": [
+      802,
+      803
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"\\u0390\"",
+    "start": 803,
+    "end": 811,
+    "range": [
+      803,
+      811
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 811,
+    "end": 812,
+    "range": [
+      811,
+      812
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 812,
+    "end": 813,
+    "range": [
+      812,
+      813
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"\\\\u1fd3 does not match \\\\u0390\"",
+    "start": 814,
+    "end": 846,
+    "range": [
+      814,
+      846
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 846,
+    "end": 847,
+    "range": [
+      846,
+      847
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 847,
+    "end": 848,
+    "range": [
+      847,
+      848
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "assert",
+    "start": 849,
+    "end": 855,
+    "range": [
+      849,
+      855
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 855,
+    "end": 856,
+    "range": [
+      855,
+      856
+    ]
+  },
+  {
+    "type": "RegularExpression",
+    "value": "/[\\u03b0]/ui",
+    "regex": {
+      "flags": "ui",
+      "pattern": "[\\u03b0]"
+    },
+    "start": 856,
+    "end": 868,
+    "range": [
+      856,
+      868
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 868,
+    "end": 869,
+    "range": [
+      868,
+      869
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "test",
+    "start": 869,
+    "end": 873,
+    "range": [
+      869,
+      873
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 873,
+    "end": 874,
+    "range": [
+      873,
+      874
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"\\u1fe3\"",
+    "start": 874,
+    "end": 882,
+    "range": [
+      874,
+      882
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 882,
+    "end": 883,
+    "range": [
+      882,
+      883
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 883,
+    "end": 884,
+    "range": [
+      883,
+      884
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"\\\\u03b0 does not match \\\\u1fe3\"",
+    "start": 885,
+    "end": 917,
+    "range": [
+      885,
+      917
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 917,
+    "end": 918,
+    "range": [
+      917,
+      918
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 918,
+    "end": 919,
+    "range": [
+      918,
+      919
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "assert",
+    "start": 920,
+    "end": 926,
+    "range": [
+      920,
+      926
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 926,
+    "end": 927,
+    "range": [
+      926,
+      927
+    ]
+  },
+  {
+    "type": "RegularExpression",
+    "value": "/[\\u1fe3]/ui",
+    "regex": {
+      "flags": "ui",
+      "pattern": "[\\u1fe3]"
+    },
+    "start": 927,
+    "end": 939,
+    "range": [
+      927,
+      939
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 939,
+    "end": 940,
+    "range": [
+      939,
+      940
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "test",
+    "start": 940,
+    "end": 944,
+    "range": [
+      940,
+      944
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 944,
+    "end": 945,
+    "range": [
+      944,
+      945
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"\\u03b0\"",
+    "start": 945,
+    "end": 953,
+    "range": [
+      945,
+      953
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 953,
+    "end": 954,
+    "range": [
+      953,
+      954
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 954,
+    "end": 955,
+    "range": [
+      954,
+      955
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"\\\\u1fe3 does not match \\\\u03b0\"",
+    "start": 956,
+    "end": 988,
+    "range": [
+      956,
+      988
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 988,
+    "end": 989,
+    "range": [
+      988,
+      989
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 989,
+    "end": 990,
+    "range": [
+      989,
+      990
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "assert",
+    "start": 991,
+    "end": 997,
+    "range": [
+      991,
+      997
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 997,
+    "end": 998,
+    "range": [
+      997,
+      998
+    ]
+  },
+  {
+    "type": "RegularExpression",
+    "value": "/[\\ufb05]/ui",
+    "regex": {
+      "flags": "ui",
+      "pattern": "[\\ufb05]"
+    },
+    "start": 998,
+    "end": 1010,
+    "range": [
+      998,
+      1010
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 1010,
+    "end": 1011,
+    "range": [
+      1010,
+      1011
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "test",
+    "start": 1011,
+    "end": 1015,
+    "range": [
+      1011,
+      1015
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 1015,
+    "end": 1016,
+    "range": [
+      1015,
+      1016
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"\\ufb06\"",
+    "start": 1016,
+    "end": 1024,
+    "range": [
+      1016,
+      1024
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 1024,
+    "end": 1025,
+    "range": [
+      1024,
+      1025
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 1025,
+    "end": 1026,
+    "range": [
+      1025,
+      1026
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"\\\\ufb05 does not match \\\\ufb06\"",
+    "start": 1027,
+    "end": 1059,
+    "range": [
+      1027,
+      1059
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 1059,
+    "end": 1060,
+    "range": [
+      1059,
+      1060
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 1060,
+    "end": 1061,
+    "range": [
+      1060,
+      1061
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "assert",
+    "start": 1062,
+    "end": 1068,
+    "range": [
+      1062,
+      1068
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 1068,
+    "end": 1069,
+    "range": [
+      1068,
+      1069
+    ]
+  },
+  {
+    "type": "RegularExpression",
+    "value": "/[\\ufb06]/ui",
+    "regex": {
+      "flags": "ui",
+      "pattern": "[\\ufb06]"
+    },
+    "start": 1069,
+    "end": 1081,
+    "range": [
+      1069,
+      1081
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 1081,
+    "end": 1082,
+    "range": [
+      1081,
+      1082
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "test",
+    "start": 1082,
+    "end": 1086,
+    "range": [
+      1082,
+      1086
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 1086,
+    "end": 1087,
+    "range": [
+      1086,
+      1087
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"\\ufb05\"",
+    "start": 1087,
+    "end": 1095,
+    "range": [
+      1087,
+      1095
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 1095,
+    "end": 1096,
+    "range": [
+      1095,
+      1096
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 1096,
+    "end": 1097,
+    "range": [
+      1096,
+      1097
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"\\\\ufb06 does not match \\\\ufb05\"",
+    "start": 1098,
+    "end": 1130,
+    "range": [
+      1098,
+      1130
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 1130,
+    "end": 1131,
+    "range": [
+      1130,
+      1131
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 1131,
+    "end": 1132,
+    "range": [
+      1131,
+      1132
+    ]
+  }
+]

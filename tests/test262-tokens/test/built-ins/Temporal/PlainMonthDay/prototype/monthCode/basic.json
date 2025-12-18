@@ -1,0 +1,242 @@
+[
+  {
+    "type": "Keyword",
+    "value": "const",
+    "start": 261,
+    "end": 266,
+    "range": [
+      261,
+      266
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "md",
+    "start": 267,
+    "end": 269,
+    "range": [
+      267,
+      269
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "=",
+    "start": 270,
+    "end": 271,
+    "range": [
+      270,
+      271
+    ]
+  },
+  {
+    "type": "Keyword",
+    "value": "new",
+    "start": 272,
+    "end": 275,
+    "range": [
+      272,
+      275
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "Temporal",
+    "start": 276,
+    "end": 284,
+    "range": [
+      276,
+      284
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 284,
+    "end": 285,
+    "range": [
+      284,
+      285
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "PlainMonthDay",
+    "start": 285,
+    "end": 298,
+    "range": [
+      285,
+      298
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 298,
+    "end": 299,
+    "range": [
+      298,
+      299
+    ]
+  },
+  {
+    "type": "Numeric",
+    "value": "1",
+    "start": 299,
+    "end": 300,
+    "range": [
+      299,
+      300
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 300,
+    "end": 301,
+    "range": [
+      300,
+      301
+    ]
+  },
+  {
+    "type": "Numeric",
+    "value": "15",
+    "start": 302,
+    "end": 304,
+    "range": [
+      302,
+      304
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 304,
+    "end": 305,
+    "range": [
+      304,
+      305
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 305,
+    "end": 306,
+    "range": [
+      305,
+      306
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "assert",
+    "start": 307,
+    "end": 313,
+    "range": [
+      307,
+      313
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 313,
+    "end": 314,
+    "range": [
+      313,
+      314
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "sameValue",
+    "start": 314,
+    "end": 323,
+    "range": [
+      314,
+      323
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 323,
+    "end": 324,
+    "range": [
+      323,
+      324
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "md",
+    "start": 324,
+    "end": 326,
+    "range": [
+      324,
+      326
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 326,
+    "end": 327,
+    "range": [
+      326,
+      327
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "monthCode",
+    "start": 327,
+    "end": 336,
+    "range": [
+      327,
+      336
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 336,
+    "end": 337,
+    "range": [
+      336,
+      337
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"M01\"",
+    "start": 338,
+    "end": 343,
+    "range": [
+      338,
+      343
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 343,
+    "end": 344,
+    "range": [
+      343,
+      344
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 344,
+    "end": 345,
+    "range": [
+      344,
+      345
+    ]
+  }
+]

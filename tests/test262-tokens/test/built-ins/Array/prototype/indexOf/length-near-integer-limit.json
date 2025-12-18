@@ -1,0 +1,702 @@
+[
+  {
+    "type": "Keyword",
+    "value": "var",
+    "start": 762,
+    "end": 765,
+    "range": [
+      762,
+      765
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "el",
+    "start": 766,
+    "end": 768,
+    "range": [
+      766,
+      768
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "=",
+    "start": 769,
+    "end": 770,
+    "range": [
+      769,
+      770
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "{",
+    "start": 771,
+    "end": 772,
+    "range": [
+      771,
+      772
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "}",
+    "start": 772,
+    "end": 773,
+    "range": [
+      772,
+      773
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 773,
+    "end": 774,
+    "range": [
+      773,
+      774
+    ]
+  },
+  {
+    "type": "Keyword",
+    "value": "var",
+    "start": 775,
+    "end": 778,
+    "range": [
+      775,
+      778
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "elIndex",
+    "start": 779,
+    "end": 786,
+    "range": [
+      779,
+      786
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "=",
+    "start": 787,
+    "end": 788,
+    "range": [
+      787,
+      788
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "Number",
+    "start": 789,
+    "end": 795,
+    "range": [
+      789,
+      795
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 795,
+    "end": 796,
+    "range": [
+      795,
+      796
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "MAX_SAFE_INTEGER",
+    "start": 796,
+    "end": 812,
+    "range": [
+      796,
+      812
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "-",
+    "start": 813,
+    "end": 814,
+    "range": [
+      813,
+      814
+    ]
+  },
+  {
+    "type": "Numeric",
+    "value": "1",
+    "start": 815,
+    "end": 816,
+    "range": [
+      815,
+      816
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 816,
+    "end": 817,
+    "range": [
+      816,
+      817
+    ]
+  },
+  {
+    "type": "Keyword",
+    "value": "var",
+    "start": 818,
+    "end": 821,
+    "range": [
+      818,
+      821
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "fromIndex",
+    "start": 822,
+    "end": 831,
+    "range": [
+      822,
+      831
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "=",
+    "start": 832,
+    "end": 833,
+    "range": [
+      832,
+      833
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "Number",
+    "start": 834,
+    "end": 840,
+    "range": [
+      834,
+      840
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 840,
+    "end": 841,
+    "range": [
+      840,
+      841
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "MAX_SAFE_INTEGER",
+    "start": 841,
+    "end": 857,
+    "range": [
+      841,
+      857
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "-",
+    "start": 858,
+    "end": 859,
+    "range": [
+      858,
+      859
+    ]
+  },
+  {
+    "type": "Numeric",
+    "value": "3",
+    "start": 860,
+    "end": 861,
+    "range": [
+      860,
+      861
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 861,
+    "end": 862,
+    "range": [
+      861,
+      862
+    ]
+  },
+  {
+    "type": "Keyword",
+    "value": "var",
+    "start": 863,
+    "end": 866,
+    "range": [
+      863,
+      866
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "arrayLike",
+    "start": 867,
+    "end": 876,
+    "range": [
+      867,
+      876
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "=",
+    "start": 877,
+    "end": 878,
+    "range": [
+      877,
+      878
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "{",
+    "start": 879,
+    "end": 880,
+    "range": [
+      879,
+      880
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "length",
+    "start": 883,
+    "end": 889,
+    "range": [
+      883,
+      889
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ":",
+    "start": 889,
+    "end": 890,
+    "range": [
+      889,
+      890
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "Number",
+    "start": 891,
+    "end": 897,
+    "range": [
+      891,
+      897
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 897,
+    "end": 898,
+    "range": [
+      897,
+      898
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "MAX_SAFE_INTEGER",
+    "start": 898,
+    "end": 914,
+    "range": [
+      898,
+      914
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 914,
+    "end": 915,
+    "range": [
+      914,
+      915
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "}",
+    "start": 916,
+    "end": 917,
+    "range": [
+      916,
+      917
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 917,
+    "end": 918,
+    "range": [
+      917,
+      918
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "arrayLike",
+    "start": 920,
+    "end": 929,
+    "range": [
+      920,
+      929
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "[",
+    "start": 929,
+    "end": 930,
+    "range": [
+      929,
+      930
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "elIndex",
+    "start": 930,
+    "end": 937,
+    "range": [
+      930,
+      937
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "]",
+    "start": 937,
+    "end": 938,
+    "range": [
+      937,
+      938
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "=",
+    "start": 939,
+    "end": 940,
+    "range": [
+      939,
+      940
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "el",
+    "start": 941,
+    "end": 943,
+    "range": [
+      941,
+      943
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 943,
+    "end": 944,
+    "range": [
+      943,
+      944
+    ]
+  },
+  {
+    "type": "Keyword",
+    "value": "var",
+    "start": 946,
+    "end": 949,
+    "range": [
+      946,
+      949
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "res",
+    "start": 950,
+    "end": 953,
+    "range": [
+      950,
+      953
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "=",
+    "start": 954,
+    "end": 955,
+    "range": [
+      954,
+      955
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "Array",
+    "start": 956,
+    "end": 961,
+    "range": [
+      956,
+      961
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 961,
+    "end": 962,
+    "range": [
+      961,
+      962
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "prototype",
+    "start": 962,
+    "end": 971,
+    "range": [
+      962,
+      971
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 971,
+    "end": 972,
+    "range": [
+      971,
+      972
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "indexOf",
+    "start": 972,
+    "end": 979,
+    "range": [
+      972,
+      979
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 979,
+    "end": 980,
+    "range": [
+      979,
+      980
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "call",
+    "start": 980,
+    "end": 984,
+    "range": [
+      980,
+      984
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 984,
+    "end": 985,
+    "range": [
+      984,
+      985
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "arrayLike",
+    "start": 985,
+    "end": 994,
+    "range": [
+      985,
+      994
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 994,
+    "end": 995,
+    "range": [
+      994,
+      995
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "el",
+    "start": 996,
+    "end": 998,
+    "range": [
+      996,
+      998
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 998,
+    "end": 999,
+    "range": [
+      998,
+      999
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "fromIndex",
+    "start": 1000,
+    "end": 1009,
+    "range": [
+      1000,
+      1009
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 1009,
+    "end": 1010,
+    "range": [
+      1009,
+      1010
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 1010,
+    "end": 1011,
+    "range": [
+      1010,
+      1011
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "assert",
+    "start": 1013,
+    "end": 1019,
+    "range": [
+      1013,
+      1019
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 1019,
+    "end": 1020,
+    "range": [
+      1019,
+      1020
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "sameValue",
+    "start": 1020,
+    "end": 1029,
+    "range": [
+      1020,
+      1029
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 1029,
+    "end": 1030,
+    "range": [
+      1029,
+      1030
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "res",
+    "start": 1030,
+    "end": 1033,
+    "range": [
+      1030,
+      1033
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 1033,
+    "end": 1034,
+    "range": [
+      1033,
+      1034
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "elIndex",
+    "start": 1035,
+    "end": 1042,
+    "range": [
+      1035,
+      1042
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 1042,
+    "end": 1043,
+    "range": [
+      1042,
+      1043
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 1043,
+    "end": 1044,
+    "range": [
+      1043,
+      1044
+    ]
+  }
+]

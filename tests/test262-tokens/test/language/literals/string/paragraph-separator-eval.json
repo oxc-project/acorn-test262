@@ -1,0 +1,122 @@
+[
+  {
+    "type": "Identifier",
+    "value": "assert",
+    "start": 507,
+    "end": 513,
+    "range": [
+      507,
+      513
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 513,
+    "end": 514,
+    "range": [
+      513,
+      514
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "sameValue",
+    "start": 514,
+    "end": 523,
+    "range": [
+      514,
+      523
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 523,
+    "end": 524,
+    "range": [
+      523,
+      524
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "eval",
+    "start": 524,
+    "end": 528,
+    "range": [
+      524,
+      528
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 528,
+    "end": 529,
+    "range": [
+      528,
+      529
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"'\\u2029'\"",
+    "start": 529,
+    "end": 539,
+    "range": [
+      529,
+      539
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 539,
+    "end": 540,
+    "range": [
+      539,
+      540
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 540,
+    "end": 541,
+    "range": [
+      540,
+      541
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"\\u2029\"",
+    "start": 542,
+    "end": 550,
+    "range": [
+      542,
+      550
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 550,
+    "end": 551,
+    "range": [
+      550,
+      551
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 551,
+    "end": 552,
+    "range": [
+      551,
+      552
+    ]
+  }
+]

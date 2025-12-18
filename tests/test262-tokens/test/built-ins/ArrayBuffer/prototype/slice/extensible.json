@@ -1,0 +1,142 @@
+[
+  {
+    "type": "Identifier",
+    "value": "assert",
+    "start": 458,
+    "end": 464,
+    "range": [
+      458,
+      464
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 464,
+    "end": 465,
+    "range": [
+      464,
+      465
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "Object",
+    "start": 465,
+    "end": 471,
+    "range": [
+      465,
+      471
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 471,
+    "end": 472,
+    "range": [
+      471,
+      472
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "isExtensible",
+    "start": 472,
+    "end": 484,
+    "range": [
+      472,
+      484
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 484,
+    "end": 485,
+    "range": [
+      484,
+      485
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "ArrayBuffer",
+    "start": 485,
+    "end": 496,
+    "range": [
+      485,
+      496
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 496,
+    "end": 497,
+    "range": [
+      496,
+      497
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "prototype",
+    "start": 497,
+    "end": 506,
+    "range": [
+      497,
+      506
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 506,
+    "end": 507,
+    "range": [
+      506,
+      507
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "slice",
+    "start": 507,
+    "end": 512,
+    "range": [
+      507,
+      512
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 512,
+    "end": 513,
+    "range": [
+      512,
+      513
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 513,
+    "end": 514,
+    "range": [
+      513,
+      514
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 514,
+    "end": 515,
+    "range": [
+      514,
+      515
+    ]
+  }
+]

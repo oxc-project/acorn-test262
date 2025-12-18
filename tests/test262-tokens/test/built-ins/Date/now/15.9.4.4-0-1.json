@@ -1,0 +1,142 @@
+[
+  {
+    "type": "Identifier",
+    "value": "assert",
+    "start": 215,
+    "end": 221,
+    "range": [
+      215,
+      221
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 221,
+    "end": 222,
+    "range": [
+      221,
+      222
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "sameValue",
+    "start": 222,
+    "end": 231,
+    "range": [
+      222,
+      231
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 231,
+    "end": 232,
+    "range": [
+      231,
+      232
+    ]
+  },
+  {
+    "type": "Keyword",
+    "value": "typeof",
+    "start": 232,
+    "end": 238,
+    "range": [
+      232,
+      238
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "Date",
+    "start": 239,
+    "end": 243,
+    "range": [
+      239,
+      243
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 243,
+    "end": 244,
+    "range": [
+      243,
+      244
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "now",
+    "start": 244,
+    "end": 247,
+    "range": [
+      244,
+      247
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 247,
+    "end": 248,
+    "range": [
+      247,
+      248
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"function\"",
+    "start": 249,
+    "end": 259,
+    "range": [
+      249,
+      259
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 259,
+    "end": 260,
+    "range": [
+      259,
+      260
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'typeof Date.now'",
+    "start": 261,
+    "end": 278,
+    "range": [
+      261,
+      278
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 278,
+    "end": 279,
+    "range": [
+      278,
+      279
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 279,
+    "end": 280,
+    "range": [
+      279,
+      280
+    ]
+  }
+]

@@ -1,0 +1,802 @@
+[
+  {
+    "type": "Keyword",
+    "value": "if",
+    "start": 374,
+    "end": 376,
+    "range": [
+      374,
+      376
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 377,
+    "end": 378,
+    "range": [
+      377,
+      378
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"Hello, WoRlD!\"",
+    "start": 378,
+    "end": 393,
+    "range": [
+      378,
+      393
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 393,
+    "end": 394,
+    "range": [
+      393,
+      394
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "toLowerCase",
+    "start": 394,
+    "end": 405,
+    "range": [
+      394,
+      405
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 405,
+    "end": 406,
+    "range": [
+      405,
+      406
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 406,
+    "end": 407,
+    "range": [
+      406,
+      407
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "!==",
+    "start": 408,
+    "end": 411,
+    "range": [
+      408,
+      411
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"hello, world!\"",
+    "start": 412,
+    "end": 427,
+    "range": [
+      412,
+      427
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 427,
+    "end": 428,
+    "range": [
+      427,
+      428
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "{",
+    "start": 429,
+    "end": 430,
+    "range": [
+      429,
+      430
+    ]
+  },
+  {
+    "type": "Keyword",
+    "value": "throw",
+    "start": 433,
+    "end": 438,
+    "range": [
+      433,
+      438
+    ]
+  },
+  {
+    "type": "Keyword",
+    "value": "new",
+    "start": 439,
+    "end": 442,
+    "range": [
+      439,
+      442
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "Test262Error",
+    "start": 443,
+    "end": 455,
+    "range": [
+      443,
+      455
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 455,
+    "end": 456,
+    "range": [
+      455,
+      456
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'#1: \"Hello, WoRlD!\".toLowerCase() === \"hello, world!\". Actual: '",
+    "start": 456,
+    "end": 521,
+    "range": [
+      456,
+      521
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "+",
+    "start": 522,
+    "end": 523,
+    "range": [
+      522,
+      523
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 524,
+    "end": 525,
+    "range": [
+      524,
+      525
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"Hello, WoRlD!\"",
+    "start": 525,
+    "end": 540,
+    "range": [
+      525,
+      540
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 540,
+    "end": 541,
+    "range": [
+      540,
+      541
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "toLowerCase",
+    "start": 541,
+    "end": 552,
+    "range": [
+      541,
+      552
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 552,
+    "end": 553,
+    "range": [
+      552,
+      553
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 553,
+    "end": 554,
+    "range": [
+      553,
+      554
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 554,
+    "end": 555,
+    "range": [
+      554,
+      555
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 555,
+    "end": 556,
+    "range": [
+      555,
+      556
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 556,
+    "end": 557,
+    "range": [
+      556,
+      557
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "}",
+    "start": 558,
+    "end": 559,
+    "range": [
+      558,
+      559
+    ]
+  },
+  {
+    "type": "Keyword",
+    "value": "if",
+    "start": 732,
+    "end": 734,
+    "range": [
+      732,
+      734
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 735,
+    "end": 736,
+    "range": [
+      735,
+      736
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"Hello, WoRlD!\"",
+    "start": 736,
+    "end": 751,
+    "range": [
+      736,
+      751
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 751,
+    "end": 752,
+    "range": [
+      751,
+      752
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "toLowerCase",
+    "start": 752,
+    "end": 763,
+    "range": [
+      752,
+      763
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 763,
+    "end": 764,
+    "range": [
+      763,
+      764
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 764,
+    "end": 765,
+    "range": [
+      764,
+      765
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "!==",
+    "start": 766,
+    "end": 769,
+    "range": [
+      766,
+      769
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "String",
+    "start": 770,
+    "end": 776,
+    "range": [
+      770,
+      776
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 776,
+    "end": 777,
+    "range": [
+      776,
+      777
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"hello, world!\"",
+    "start": 777,
+    "end": 792,
+    "range": [
+      777,
+      792
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 792,
+    "end": 793,
+    "range": [
+      792,
+      793
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 793,
+    "end": 794,
+    "range": [
+      793,
+      794
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "{",
+    "start": 795,
+    "end": 796,
+    "range": [
+      795,
+      796
+    ]
+  },
+  {
+    "type": "Keyword",
+    "value": "throw",
+    "start": 799,
+    "end": 804,
+    "range": [
+      799,
+      804
+    ]
+  },
+  {
+    "type": "Keyword",
+    "value": "new",
+    "start": 805,
+    "end": 808,
+    "range": [
+      805,
+      808
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "Test262Error",
+    "start": 809,
+    "end": 821,
+    "range": [
+      809,
+      821
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 821,
+    "end": 822,
+    "range": [
+      821,
+      822
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'#2: \"Hello, WoRlD!\".toLowerCase() === String(\"hello, world!\"). Actual: '",
+    "start": 822,
+    "end": 895,
+    "range": [
+      822,
+      895
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "+",
+    "start": 896,
+    "end": 897,
+    "range": [
+      896,
+      897
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 898,
+    "end": 899,
+    "range": [
+      898,
+      899
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"Hello, WoRlD!\"",
+    "start": 899,
+    "end": 914,
+    "range": [
+      899,
+      914
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 914,
+    "end": 915,
+    "range": [
+      914,
+      915
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "toLowerCase",
+    "start": 915,
+    "end": 926,
+    "range": [
+      915,
+      926
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 926,
+    "end": 927,
+    "range": [
+      926,
+      927
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 927,
+    "end": 928,
+    "range": [
+      927,
+      928
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 928,
+    "end": 929,
+    "range": [
+      928,
+      929
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 929,
+    "end": 930,
+    "range": [
+      929,
+      930
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 930,
+    "end": 931,
+    "range": [
+      930,
+      931
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "}",
+    "start": 932,
+    "end": 933,
+    "range": [
+      932,
+      933
+    ]
+  },
+  {
+    "type": "Keyword",
+    "value": "if",
+    "start": 1106,
+    "end": 1108,
+    "range": [
+      1106,
+      1108
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 1109,
+    "end": 1110,
+    "range": [
+      1109,
+      1110
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"Hello, WoRlD!\"",
+    "start": 1110,
+    "end": 1125,
+    "range": [
+      1110,
+      1125
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 1125,
+    "end": 1126,
+    "range": [
+      1125,
+      1126
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "toLowerCase",
+    "start": 1126,
+    "end": 1137,
+    "range": [
+      1126,
+      1137
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 1137,
+    "end": 1138,
+    "range": [
+      1137,
+      1138
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 1138,
+    "end": 1139,
+    "range": [
+      1138,
+      1139
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "===",
+    "start": 1140,
+    "end": 1143,
+    "range": [
+      1140,
+      1143
+    ]
+  },
+  {
+    "type": "Keyword",
+    "value": "new",
+    "start": 1144,
+    "end": 1147,
+    "range": [
+      1144,
+      1147
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "String",
+    "start": 1148,
+    "end": 1154,
+    "range": [
+      1148,
+      1154
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 1154,
+    "end": 1155,
+    "range": [
+      1154,
+      1155
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"hello, world!\"",
+    "start": 1155,
+    "end": 1170,
+    "range": [
+      1155,
+      1170
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 1170,
+    "end": 1171,
+    "range": [
+      1170,
+      1171
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 1171,
+    "end": 1172,
+    "range": [
+      1171,
+      1172
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "{",
+    "start": 1173,
+    "end": 1174,
+    "range": [
+      1173,
+      1174
+    ]
+  },
+  {
+    "type": "Keyword",
+    "value": "throw",
+    "start": 1177,
+    "end": 1182,
+    "range": [
+      1177,
+      1182
+    ]
+  },
+  {
+    "type": "Keyword",
+    "value": "new",
+    "start": 1183,
+    "end": 1186,
+    "range": [
+      1183,
+      1186
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "Test262Error",
+    "start": 1187,
+    "end": 1199,
+    "range": [
+      1187,
+      1199
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 1199,
+    "end": 1200,
+    "range": [
+      1199,
+      1200
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'#3: \"Hello, WoRlD!\".toLowerCase() !== new String(\"hello, world!\")'",
+    "start": 1200,
+    "end": 1267,
+    "range": [
+      1200,
+      1267
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 1267,
+    "end": 1268,
+    "range": [
+      1267,
+      1268
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 1268,
+    "end": 1269,
+    "range": [
+      1268,
+      1269
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "}",
+    "start": 1270,
+    "end": 1271,
+    "range": [
+      1270,
+      1271
+    ]
+  }
+]

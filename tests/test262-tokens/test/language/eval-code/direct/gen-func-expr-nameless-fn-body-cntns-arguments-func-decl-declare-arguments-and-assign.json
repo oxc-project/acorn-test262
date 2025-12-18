@@ -1,0 +1,562 @@
+[
+  {
+    "type": "Identifier",
+    "value": "assert",
+    "start": 471,
+    "end": 477,
+    "range": [
+      471,
+      477
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 477,
+    "end": 478,
+    "range": [
+      477,
+      478
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "sameValue",
+    "start": 478,
+    "end": 487,
+    "range": [
+      478,
+      487
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 487,
+    "end": 488,
+    "range": [
+      487,
+      488
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"arguments\"",
+    "start": 488,
+    "end": 499,
+    "range": [
+      488,
+      499
+    ]
+  },
+  {
+    "type": "Keyword",
+    "value": "in",
+    "start": 500,
+    "end": 502,
+    "range": [
+      500,
+      502
+    ]
+  },
+  {
+    "type": "Keyword",
+    "value": "this",
+    "start": 503,
+    "end": 507,
+    "range": [
+      503,
+      507
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 507,
+    "end": 508,
+    "range": [
+      507,
+      508
+    ]
+  },
+  {
+    "type": "Boolean",
+    "value": "false",
+    "start": 509,
+    "end": 514,
+    "range": [
+      509,
+      514
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 514,
+    "end": 515,
+    "range": [
+      514,
+      515
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"No global 'arguments' binding\"",
+    "start": 516,
+    "end": 547,
+    "range": [
+      516,
+      547
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 547,
+    "end": 548,
+    "range": [
+      547,
+      548
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 548,
+    "end": 549,
+    "range": [
+      548,
+      549
+    ]
+  },
+  {
+    "type": "Keyword",
+    "value": "let",
+    "start": 551,
+    "end": 554,
+    "range": [
+      551,
+      554
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "f",
+    "start": 555,
+    "end": 556,
+    "range": [
+      555,
+      556
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "=",
+    "start": 557,
+    "end": 558,
+    "range": [
+      557,
+      558
+    ]
+  },
+  {
+    "type": "Keyword",
+    "value": "function",
+    "start": 559,
+    "end": 567,
+    "range": [
+      559,
+      567
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "*",
+    "start": 568,
+    "end": 569,
+    "range": [
+      568,
+      569
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 570,
+    "end": 571,
+    "range": [
+      570,
+      571
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "p",
+    "start": 571,
+    "end": 572,
+    "range": [
+      571,
+      572
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "=",
+    "start": 573,
+    "end": 574,
+    "range": [
+      573,
+      574
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "eval",
+    "start": 575,
+    "end": 579,
+    "range": [
+      575,
+      579
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 579,
+    "end": 580,
+    "range": [
+      579,
+      580
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"var arguments = 'param'\"",
+    "start": 580,
+    "end": 605,
+    "range": [
+      580,
+      605
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 605,
+    "end": 606,
+    "range": [
+      605,
+      606
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 606,
+    "end": 607,
+    "range": [
+      606,
+      607
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "{",
+    "start": 608,
+    "end": 609,
+    "range": [
+      608,
+      609
+    ]
+  },
+  {
+    "type": "Keyword",
+    "value": "function",
+    "start": 612,
+    "end": 620,
+    "range": [
+      612,
+      620
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "arguments",
+    "start": 621,
+    "end": 630,
+    "range": [
+      621,
+      630
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 630,
+    "end": 631,
+    "range": [
+      630,
+      631
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 631,
+    "end": 632,
+    "range": [
+      631,
+      632
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "{",
+    "start": 633,
+    "end": 634,
+    "range": [
+      633,
+      634
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "}",
+    "start": 634,
+    "end": 635,
+    "range": [
+      634,
+      635
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "}",
+    "start": 636,
+    "end": 637,
+    "range": [
+      636,
+      637
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "assert",
+    "start": 638,
+    "end": 644,
+    "range": [
+      638,
+      644
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 644,
+    "end": 645,
+    "range": [
+      644,
+      645
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "throws",
+    "start": 645,
+    "end": 651,
+    "range": [
+      645,
+      651
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 651,
+    "end": 652,
+    "range": [
+      651,
+      652
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "SyntaxError",
+    "start": 652,
+    "end": 663,
+    "range": [
+      652,
+      663
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 663,
+    "end": 664,
+    "range": [
+      663,
+      664
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "f",
+    "start": 665,
+    "end": 666,
+    "range": [
+      665,
+      666
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 666,
+    "end": 667,
+    "range": [
+      666,
+      667
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 667,
+    "end": 668,
+    "range": [
+      667,
+      668
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "assert",
+    "start": 671,
+    "end": 677,
+    "range": [
+      671,
+      677
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 677,
+    "end": 678,
+    "range": [
+      677,
+      678
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "sameValue",
+    "start": 678,
+    "end": 687,
+    "range": [
+      678,
+      687
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 687,
+    "end": 688,
+    "range": [
+      687,
+      688
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"arguments\"",
+    "start": 688,
+    "end": 699,
+    "range": [
+      688,
+      699
+    ]
+  },
+  {
+    "type": "Keyword",
+    "value": "in",
+    "start": 700,
+    "end": 702,
+    "range": [
+      700,
+      702
+    ]
+  },
+  {
+    "type": "Keyword",
+    "value": "this",
+    "start": 703,
+    "end": 707,
+    "range": [
+      703,
+      707
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 707,
+    "end": 708,
+    "range": [
+      707,
+      708
+    ]
+  },
+  {
+    "type": "Boolean",
+    "value": "false",
+    "start": 709,
+    "end": 714,
+    "range": [
+      709,
+      714
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 714,
+    "end": 715,
+    "range": [
+      714,
+      715
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"No global 'arguments' binding\"",
+    "start": 716,
+    "end": 747,
+    "range": [
+      716,
+      747
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 747,
+    "end": 748,
+    "range": [
+      747,
+      748
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 748,
+    "end": 749,
+    "range": [
+      748,
+      749
+    ]
+  }
+]

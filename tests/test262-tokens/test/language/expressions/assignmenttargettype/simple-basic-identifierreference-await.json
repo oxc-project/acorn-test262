@@ -1,0 +1,92 @@
+[
+  {
+    "type": "Keyword",
+    "value": "var",
+    "start": 306,
+    "end": 309,
+    "range": [
+      306,
+      309
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "await",
+    "start": 310,
+    "end": 315,
+    "range": [
+      310,
+      315
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "=",
+    "start": 316,
+    "end": 317,
+    "range": [
+      316,
+      317
+    ]
+  },
+  {
+    "type": "Numeric",
+    "value": "0",
+    "start": 318,
+    "end": 319,
+    "range": [
+      318,
+      319
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 319,
+    "end": 320,
+    "range": [
+      319,
+      320
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "await",
+    "start": 323,
+    "end": 328,
+    "range": [
+      323,
+      328
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "=",
+    "start": 329,
+    "end": 330,
+    "range": [
+      329,
+      330
+    ]
+  },
+  {
+    "type": "Numeric",
+    "value": "1",
+    "start": 331,
+    "end": 332,
+    "range": [
+      331,
+      332
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 332,
+    "end": 333,
+    "range": [
+      332,
+      333
+    ]
+  }
+]

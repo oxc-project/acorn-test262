@@ -1,0 +1,202 @@
+[
+  {
+    "type": "Identifier",
+    "value": "assert",
+    "start": 305,
+    "end": 311,
+    "range": [
+      305,
+      311
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 311,
+    "end": 312,
+    "range": [
+      311,
+      312
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "sameValue",
+    "start": 312,
+    "end": 321,
+    "range": [
+      312,
+      321
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 321,
+    "end": 322,
+    "range": [
+      321,
+      322
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "String",
+    "start": 322,
+    "end": 328,
+    "range": [
+      322,
+      328
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 328,
+    "end": 329,
+    "range": [
+      328,
+      329
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "prototype",
+    "start": 329,
+    "end": 338,
+    "range": [
+      329,
+      338
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 338,
+    "end": 339,
+    "range": [
+      338,
+      339
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "trim",
+    "start": 339,
+    "end": 343,
+    "range": [
+      339,
+      343
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 343,
+    "end": 344,
+    "range": [
+      343,
+      344
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "call",
+    "start": 344,
+    "end": 348,
+    "range": [
+      344,
+      348
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 348,
+    "end": 349,
+    "range": [
+      348,
+      349
+    ]
+  },
+  {
+    "type": "Numeric",
+    "value": "10000000000000000000000",
+    "start": 349,
+    "end": 372,
+    "range": [
+      349,
+      372
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 372,
+    "end": 373,
+    "range": [
+      372,
+      373
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 373,
+    "end": 374,
+    "range": [
+      373,
+      374
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"1e+22\"",
+    "start": 375,
+    "end": 382,
+    "range": [
+      375,
+      382
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 382,
+    "end": 383,
+    "range": [
+      382,
+      383
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'String.prototype.trim.call(10000000000000000000000)'",
+    "start": 384,
+    "end": 437,
+    "range": [
+      384,
+      437
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 437,
+    "end": 438,
+    "range": [
+      437,
+      438
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 438,
+    "end": 439,
+    "range": [
+      438,
+      439
+    ]
+  }
+]

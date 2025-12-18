@@ -1,0 +1,292 @@
+[
+  {
+    "type": "Identifier",
+    "value": "verifyProperty",
+    "start": 327,
+    "end": 341,
+    "range": [
+      327,
+      341
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 341,
+    "end": 342,
+    "range": [
+      341,
+      342
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "DataView",
+    "start": 342,
+    "end": 350,
+    "range": [
+      342,
+      350
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 350,
+    "end": 351,
+    "range": [
+      350,
+      351
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "prototype",
+    "start": 351,
+    "end": 360,
+    "range": [
+      351,
+      360
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 360,
+    "end": 361,
+    "range": [
+      360,
+      361
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "getBigUint64",
+    "start": 361,
+    "end": 373,
+    "range": [
+      361,
+      373
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 373,
+    "end": 374,
+    "range": [
+      373,
+      374
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"length\"",
+    "start": 375,
+    "end": 383,
+    "range": [
+      375,
+      383
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 383,
+    "end": 384,
+    "range": [
+      383,
+      384
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "{",
+    "start": 385,
+    "end": 386,
+    "range": [
+      385,
+      386
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "value",
+    "start": 389,
+    "end": 394,
+    "range": [
+      389,
+      394
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ":",
+    "start": 394,
+    "end": 395,
+    "range": [
+      394,
+      395
+    ]
+  },
+  {
+    "type": "Numeric",
+    "value": "1",
+    "start": 396,
+    "end": 397,
+    "range": [
+      396,
+      397
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 397,
+    "end": 398,
+    "range": [
+      397,
+      398
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "writable",
+    "start": 401,
+    "end": 409,
+    "range": [
+      401,
+      409
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ":",
+    "start": 409,
+    "end": 410,
+    "range": [
+      409,
+      410
+    ]
+  },
+  {
+    "type": "Boolean",
+    "value": "false",
+    "start": 411,
+    "end": 416,
+    "range": [
+      411,
+      416
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 416,
+    "end": 417,
+    "range": [
+      416,
+      417
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "enumerable",
+    "start": 420,
+    "end": 430,
+    "range": [
+      420,
+      430
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ":",
+    "start": 430,
+    "end": 431,
+    "range": [
+      430,
+      431
+    ]
+  },
+  {
+    "type": "Boolean",
+    "value": "false",
+    "start": 432,
+    "end": 437,
+    "range": [
+      432,
+      437
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 437,
+    "end": 438,
+    "range": [
+      437,
+      438
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "configurable",
+    "start": 441,
+    "end": 453,
+    "range": [
+      441,
+      453
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ":",
+    "start": 453,
+    "end": 454,
+    "range": [
+      453,
+      454
+    ]
+  },
+  {
+    "type": "Boolean",
+    "value": "true",
+    "start": 455,
+    "end": 459,
+    "range": [
+      455,
+      459
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "}",
+    "start": 460,
+    "end": 461,
+    "range": [
+      460,
+      461
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 461,
+    "end": 462,
+    "range": [
+      461,
+      462
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 462,
+    "end": 463,
+    "range": [
+      462,
+      463
+    ]
+  }
+]

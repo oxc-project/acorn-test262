@@ -1,0 +1,62 @@
+[
+  {
+    "type": "Keyword",
+    "value": "throw",
+    "start": 826,
+    "end": 831,
+    "range": [
+      826,
+      831
+    ]
+  },
+  {
+    "type": "Keyword",
+    "value": "new",
+    "start": 832,
+    "end": 835,
+    "range": [
+      832,
+      835
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "Test262Error",
+    "start": 836,
+    "end": 848,
+    "range": [
+      836,
+      848
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 848,
+    "end": 849,
+    "range": [
+      848,
+      849
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 849,
+    "end": 850,
+    "range": [
+      849,
+      850
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 850,
+    "end": 851,
+    "range": [
+      850,
+      851
+    ]
+  }
+]

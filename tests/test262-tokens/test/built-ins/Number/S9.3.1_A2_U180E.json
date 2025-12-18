@@ -1,0 +1,212 @@
+[
+  {
+    "type": "Identifier",
+    "value": "assert",
+    "start": 829,
+    "end": 835,
+    "range": [
+      829,
+      835
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 835,
+    "end": 836,
+    "range": [
+      835,
+      836
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "sameValue",
+    "start": 836,
+    "end": 845,
+    "range": [
+      836,
+      845
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 845,
+    "end": 846,
+    "range": [
+      845,
+      846
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "Number",
+    "start": 846,
+    "end": 852,
+    "range": [
+      846,
+      852
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 852,
+    "end": 853,
+    "range": [
+      852,
+      853
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'\\u180E'",
+    "start": 853,
+    "end": 861,
+    "range": [
+      853,
+      861
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 861,
+    "end": 862,
+    "range": [
+      861,
+      862
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 862,
+    "end": 863,
+    "range": [
+      862,
+      863
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "NaN",
+    "start": 864,
+    "end": 867,
+    "range": [
+      864,
+      867
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 867,
+    "end": 868,
+    "range": [
+      867,
+      868
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'Number(\"\\\\u180E\") === NaN. Actual: '",
+    "start": 869,
+    "end": 906,
+    "range": [
+      869,
+      906
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "+",
+    "start": 907,
+    "end": 908,
+    "range": [
+      907,
+      908
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 909,
+    "end": 910,
+    "range": [
+      909,
+      910
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "Number",
+    "start": 910,
+    "end": 916,
+    "range": [
+      910,
+      916
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 916,
+    "end": 917,
+    "range": [
+      916,
+      917
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"\\u180E\"",
+    "start": 917,
+    "end": 925,
+    "range": [
+      917,
+      925
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 925,
+    "end": 926,
+    "range": [
+      925,
+      926
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 926,
+    "end": 927,
+    "range": [
+      926,
+      927
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 927,
+    "end": 928,
+    "range": [
+      927,
+      928
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 928,
+    "end": 929,
+    "range": [
+      928,
+      929
+    ]
+  }
+]

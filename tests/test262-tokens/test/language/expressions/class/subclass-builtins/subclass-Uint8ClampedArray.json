@@ -1,0 +1,302 @@
+[
+  {
+    "type": "Keyword",
+    "value": "const",
+    "start": 348,
+    "end": 353,
+    "range": [
+      348,
+      353
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "Subclass",
+    "start": 354,
+    "end": 362,
+    "range": [
+      354,
+      362
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "=",
+    "start": 363,
+    "end": 364,
+    "range": [
+      363,
+      364
+    ]
+  },
+  {
+    "type": "Keyword",
+    "value": "class",
+    "start": 365,
+    "end": 370,
+    "range": [
+      365,
+      370
+    ]
+  },
+  {
+    "type": "Keyword",
+    "value": "extends",
+    "start": 371,
+    "end": 378,
+    "range": [
+      371,
+      378
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "Uint8ClampedArray",
+    "start": 379,
+    "end": 396,
+    "range": [
+      379,
+      396
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "{",
+    "start": 397,
+    "end": 398,
+    "range": [
+      397,
+      398
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "}",
+    "start": 398,
+    "end": 399,
+    "range": [
+      398,
+      399
+    ]
+  },
+  {
+    "type": "Keyword",
+    "value": "const",
+    "start": 401,
+    "end": 406,
+    "range": [
+      401,
+      406
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "sub",
+    "start": 407,
+    "end": 410,
+    "range": [
+      407,
+      410
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "=",
+    "start": 411,
+    "end": 412,
+    "range": [
+      411,
+      412
+    ]
+  },
+  {
+    "type": "Keyword",
+    "value": "new",
+    "start": 413,
+    "end": 416,
+    "range": [
+      413,
+      416
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "Subclass",
+    "start": 417,
+    "end": 425,
+    "range": [
+      417,
+      425
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 425,
+    "end": 426,
+    "range": [
+      425,
+      426
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 426,
+    "end": 427,
+    "range": [
+      426,
+      427
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 427,
+    "end": 428,
+    "range": [
+      427,
+      428
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "assert",
+    "start": 429,
+    "end": 435,
+    "range": [
+      429,
+      435
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 435,
+    "end": 436,
+    "range": [
+      435,
+      436
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "sub",
+    "start": 436,
+    "end": 439,
+    "range": [
+      436,
+      439
+    ]
+  },
+  {
+    "type": "Keyword",
+    "value": "instanceof",
+    "start": 440,
+    "end": 450,
+    "range": [
+      440,
+      450
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "Subclass",
+    "start": 451,
+    "end": 459,
+    "range": [
+      451,
+      459
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 459,
+    "end": 460,
+    "range": [
+      459,
+      460
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 460,
+    "end": 461,
+    "range": [
+      460,
+      461
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "assert",
+    "start": 462,
+    "end": 468,
+    "range": [
+      462,
+      468
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 468,
+    "end": 469,
+    "range": [
+      468,
+      469
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "sub",
+    "start": 469,
+    "end": 472,
+    "range": [
+      469,
+      472
+    ]
+  },
+  {
+    "type": "Keyword",
+    "value": "instanceof",
+    "start": 473,
+    "end": 483,
+    "range": [
+      473,
+      483
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "Uint8ClampedArray",
+    "start": 484,
+    "end": 501,
+    "range": [
+      484,
+      501
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 501,
+    "end": 502,
+    "range": [
+      501,
+      502
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 502,
+    "end": 503,
+    "range": [
+      502,
+      503
+    ]
+  }
+]

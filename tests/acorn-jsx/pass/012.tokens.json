@@ -1,0 +1,72 @@
+[
+  {
+    "type": "Punctuator",
+    "value": "<",
+    "start": 0,
+    "end": 1,
+    "range": [
+      0,
+      1
+    ]
+  },
+  {
+    "type": "JSXIdentifier",
+    "value": "日本語",
+    "start": 1,
+    "end": 4,
+    "range": [
+      1,
+      4
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ">",
+    "start": 4,
+    "end": 5,
+    "range": [
+      4,
+      5
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "<",
+    "start": 5,
+    "end": 6,
+    "range": [
+      5,
+      6
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "/",
+    "start": 6,
+    "end": 7,
+    "range": [
+      6,
+      7
+    ]
+  },
+  {
+    "type": "JSXIdentifier",
+    "value": "日本語",
+    "start": 7,
+    "end": 10,
+    "range": [
+      7,
+      10
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ">",
+    "start": 10,
+    "end": 11,
+    "range": [
+      10,
+      11
+    ]
+  }
+]

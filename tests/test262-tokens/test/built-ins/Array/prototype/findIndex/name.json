@@ -1,0 +1,292 @@
+[
+  {
+    "type": "Identifier",
+    "value": "verifyProperty",
+    "start": 404,
+    "end": 418,
+    "range": [
+      404,
+      418
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 418,
+    "end": 419,
+    "range": [
+      418,
+      419
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "Array",
+    "start": 419,
+    "end": 424,
+    "range": [
+      419,
+      424
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 424,
+    "end": 425,
+    "range": [
+      424,
+      425
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "prototype",
+    "start": 425,
+    "end": 434,
+    "range": [
+      425,
+      434
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 434,
+    "end": 435,
+    "range": [
+      434,
+      435
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "findIndex",
+    "start": 435,
+    "end": 444,
+    "range": [
+      435,
+      444
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 444,
+    "end": 445,
+    "range": [
+      444,
+      445
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"name\"",
+    "start": 446,
+    "end": 452,
+    "range": [
+      446,
+      452
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 452,
+    "end": 453,
+    "range": [
+      452,
+      453
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "{",
+    "start": 454,
+    "end": 455,
+    "range": [
+      454,
+      455
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "value",
+    "start": 458,
+    "end": 463,
+    "range": [
+      458,
+      463
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ":",
+    "start": 463,
+    "end": 464,
+    "range": [
+      463,
+      464
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"findIndex\"",
+    "start": 465,
+    "end": 476,
+    "range": [
+      465,
+      476
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 476,
+    "end": 477,
+    "range": [
+      476,
+      477
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "writable",
+    "start": 480,
+    "end": 488,
+    "range": [
+      480,
+      488
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ":",
+    "start": 488,
+    "end": 489,
+    "range": [
+      488,
+      489
+    ]
+  },
+  {
+    "type": "Boolean",
+    "value": "false",
+    "start": 490,
+    "end": 495,
+    "range": [
+      490,
+      495
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 495,
+    "end": 496,
+    "range": [
+      495,
+      496
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "enumerable",
+    "start": 499,
+    "end": 509,
+    "range": [
+      499,
+      509
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ":",
+    "start": 509,
+    "end": 510,
+    "range": [
+      509,
+      510
+    ]
+  },
+  {
+    "type": "Boolean",
+    "value": "false",
+    "start": 511,
+    "end": 516,
+    "range": [
+      511,
+      516
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 516,
+    "end": 517,
+    "range": [
+      516,
+      517
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "configurable",
+    "start": 520,
+    "end": 532,
+    "range": [
+      520,
+      532
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ":",
+    "start": 532,
+    "end": 533,
+    "range": [
+      532,
+      533
+    ]
+  },
+  {
+    "type": "Boolean",
+    "value": "true",
+    "start": 534,
+    "end": 538,
+    "range": [
+      534,
+      538
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "}",
+    "start": 539,
+    "end": 540,
+    "range": [
+      539,
+      540
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 540,
+    "end": 541,
+    "range": [
+      540,
+      541
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 541,
+    "end": 542,
+    "range": [
+      541,
+      542
+    ]
+  }
+]

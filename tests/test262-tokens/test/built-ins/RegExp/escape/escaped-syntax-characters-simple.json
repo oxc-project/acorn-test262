@@ -1,0 +1,2242 @@
+[
+  {
+    "type": "Identifier",
+    "value": "assert",
+    "start": 414,
+    "end": 420,
+    "range": [
+      414,
+      420
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 420,
+    "end": 421,
+    "range": [
+      420,
+      421
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "sameValue",
+    "start": 421,
+    "end": 430,
+    "range": [
+      421,
+      430
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 430,
+    "end": 431,
+    "range": [
+      430,
+      431
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "RegExp",
+    "start": 431,
+    "end": 437,
+    "range": [
+      431,
+      437
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 437,
+    "end": 438,
+    "range": [
+      437,
+      438
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "escape",
+    "start": 438,
+    "end": 444,
+    "range": [
+      438,
+      444
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 444,
+    "end": 445,
+    "range": [
+      444,
+      445
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'.'",
+    "start": 445,
+    "end": 448,
+    "range": [
+      445,
+      448
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 448,
+    "end": 449,
+    "range": [
+      448,
+      449
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 449,
+    "end": 450,
+    "range": [
+      449,
+      450
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'\\\\.'",
+    "start": 451,
+    "end": 456,
+    "range": [
+      451,
+      456
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 456,
+    "end": 457,
+    "range": [
+      456,
+      457
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'dot character is escaped correctly'",
+    "start": 458,
+    "end": 494,
+    "range": [
+      458,
+      494
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 494,
+    "end": 495,
+    "range": [
+      494,
+      495
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 495,
+    "end": 496,
+    "range": [
+      495,
+      496
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "assert",
+    "start": 497,
+    "end": 503,
+    "range": [
+      497,
+      503
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 503,
+    "end": 504,
+    "range": [
+      503,
+      504
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "sameValue",
+    "start": 504,
+    "end": 513,
+    "range": [
+      504,
+      513
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 513,
+    "end": 514,
+    "range": [
+      513,
+      514
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "RegExp",
+    "start": 514,
+    "end": 520,
+    "range": [
+      514,
+      520
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 520,
+    "end": 521,
+    "range": [
+      520,
+      521
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "escape",
+    "start": 521,
+    "end": 527,
+    "range": [
+      521,
+      527
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 527,
+    "end": 528,
+    "range": [
+      527,
+      528
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'*'",
+    "start": 528,
+    "end": 531,
+    "range": [
+      528,
+      531
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 531,
+    "end": 532,
+    "range": [
+      531,
+      532
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 532,
+    "end": 533,
+    "range": [
+      532,
+      533
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'\\\\*'",
+    "start": 534,
+    "end": 539,
+    "range": [
+      534,
+      539
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 539,
+    "end": 540,
+    "range": [
+      539,
+      540
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'asterisk character is escaped correctly'",
+    "start": 541,
+    "end": 582,
+    "range": [
+      541,
+      582
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 582,
+    "end": 583,
+    "range": [
+      582,
+      583
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 583,
+    "end": 584,
+    "range": [
+      583,
+      584
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "assert",
+    "start": 585,
+    "end": 591,
+    "range": [
+      585,
+      591
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 591,
+    "end": 592,
+    "range": [
+      591,
+      592
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "sameValue",
+    "start": 592,
+    "end": 601,
+    "range": [
+      592,
+      601
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 601,
+    "end": 602,
+    "range": [
+      601,
+      602
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "RegExp",
+    "start": 602,
+    "end": 608,
+    "range": [
+      602,
+      608
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 608,
+    "end": 609,
+    "range": [
+      608,
+      609
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "escape",
+    "start": 609,
+    "end": 615,
+    "range": [
+      609,
+      615
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 615,
+    "end": 616,
+    "range": [
+      615,
+      616
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'+'",
+    "start": 616,
+    "end": 619,
+    "range": [
+      616,
+      619
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 619,
+    "end": 620,
+    "range": [
+      619,
+      620
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 620,
+    "end": 621,
+    "range": [
+      620,
+      621
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'\\\\+'",
+    "start": 622,
+    "end": 627,
+    "range": [
+      622,
+      627
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 627,
+    "end": 628,
+    "range": [
+      627,
+      628
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'plus character is escaped correctly'",
+    "start": 629,
+    "end": 666,
+    "range": [
+      629,
+      666
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 666,
+    "end": 667,
+    "range": [
+      666,
+      667
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 667,
+    "end": 668,
+    "range": [
+      667,
+      668
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "assert",
+    "start": 669,
+    "end": 675,
+    "range": [
+      669,
+      675
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 675,
+    "end": 676,
+    "range": [
+      675,
+      676
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "sameValue",
+    "start": 676,
+    "end": 685,
+    "range": [
+      676,
+      685
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 685,
+    "end": 686,
+    "range": [
+      685,
+      686
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "RegExp",
+    "start": 686,
+    "end": 692,
+    "range": [
+      686,
+      692
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 692,
+    "end": 693,
+    "range": [
+      692,
+      693
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "escape",
+    "start": 693,
+    "end": 699,
+    "range": [
+      693,
+      699
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 699,
+    "end": 700,
+    "range": [
+      699,
+      700
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'?'",
+    "start": 700,
+    "end": 703,
+    "range": [
+      700,
+      703
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 703,
+    "end": 704,
+    "range": [
+      703,
+      704
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 704,
+    "end": 705,
+    "range": [
+      704,
+      705
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'\\\\?'",
+    "start": 706,
+    "end": 711,
+    "range": [
+      706,
+      711
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 711,
+    "end": 712,
+    "range": [
+      711,
+      712
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'question mark character is escaped correctly'",
+    "start": 713,
+    "end": 759,
+    "range": [
+      713,
+      759
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 759,
+    "end": 760,
+    "range": [
+      759,
+      760
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 760,
+    "end": 761,
+    "range": [
+      760,
+      761
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "assert",
+    "start": 762,
+    "end": 768,
+    "range": [
+      762,
+      768
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 768,
+    "end": 769,
+    "range": [
+      768,
+      769
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "sameValue",
+    "start": 769,
+    "end": 778,
+    "range": [
+      769,
+      778
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 778,
+    "end": 779,
+    "range": [
+      778,
+      779
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "RegExp",
+    "start": 779,
+    "end": 785,
+    "range": [
+      779,
+      785
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 785,
+    "end": 786,
+    "range": [
+      785,
+      786
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "escape",
+    "start": 786,
+    "end": 792,
+    "range": [
+      786,
+      792
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 792,
+    "end": 793,
+    "range": [
+      792,
+      793
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'^'",
+    "start": 793,
+    "end": 796,
+    "range": [
+      793,
+      796
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 796,
+    "end": 797,
+    "range": [
+      796,
+      797
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 797,
+    "end": 798,
+    "range": [
+      797,
+      798
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'\\\\^'",
+    "start": 799,
+    "end": 804,
+    "range": [
+      799,
+      804
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 804,
+    "end": 805,
+    "range": [
+      804,
+      805
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'caret character is escaped correctly'",
+    "start": 806,
+    "end": 844,
+    "range": [
+      806,
+      844
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 844,
+    "end": 845,
+    "range": [
+      844,
+      845
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 845,
+    "end": 846,
+    "range": [
+      845,
+      846
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "assert",
+    "start": 847,
+    "end": 853,
+    "range": [
+      847,
+      853
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 853,
+    "end": 854,
+    "range": [
+      853,
+      854
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "sameValue",
+    "start": 854,
+    "end": 863,
+    "range": [
+      854,
+      863
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 863,
+    "end": 864,
+    "range": [
+      863,
+      864
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "RegExp",
+    "start": 864,
+    "end": 870,
+    "range": [
+      864,
+      870
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 870,
+    "end": 871,
+    "range": [
+      870,
+      871
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "escape",
+    "start": 871,
+    "end": 877,
+    "range": [
+      871,
+      877
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 877,
+    "end": 878,
+    "range": [
+      877,
+      878
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'$'",
+    "start": 878,
+    "end": 881,
+    "range": [
+      878,
+      881
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 881,
+    "end": 882,
+    "range": [
+      881,
+      882
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 882,
+    "end": 883,
+    "range": [
+      882,
+      883
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'\\\\$'",
+    "start": 884,
+    "end": 889,
+    "range": [
+      884,
+      889
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 889,
+    "end": 890,
+    "range": [
+      889,
+      890
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'dollar character is escaped correctly'",
+    "start": 891,
+    "end": 930,
+    "range": [
+      891,
+      930
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 930,
+    "end": 931,
+    "range": [
+      930,
+      931
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 931,
+    "end": 932,
+    "range": [
+      931,
+      932
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "assert",
+    "start": 933,
+    "end": 939,
+    "range": [
+      933,
+      939
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 939,
+    "end": 940,
+    "range": [
+      939,
+      940
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "sameValue",
+    "start": 940,
+    "end": 949,
+    "range": [
+      940,
+      949
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 949,
+    "end": 950,
+    "range": [
+      949,
+      950
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "RegExp",
+    "start": 950,
+    "end": 956,
+    "range": [
+      950,
+      956
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 956,
+    "end": 957,
+    "range": [
+      956,
+      957
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "escape",
+    "start": 957,
+    "end": 963,
+    "range": [
+      957,
+      963
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 963,
+    "end": 964,
+    "range": [
+      963,
+      964
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'|'",
+    "start": 964,
+    "end": 967,
+    "range": [
+      964,
+      967
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 967,
+    "end": 968,
+    "range": [
+      967,
+      968
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 968,
+    "end": 969,
+    "range": [
+      968,
+      969
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'\\\\|'",
+    "start": 970,
+    "end": 975,
+    "range": [
+      970,
+      975
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 975,
+    "end": 976,
+    "range": [
+      975,
+      976
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'pipe character is escaped correctly'",
+    "start": 977,
+    "end": 1014,
+    "range": [
+      977,
+      1014
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 1014,
+    "end": 1015,
+    "range": [
+      1014,
+      1015
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 1015,
+    "end": 1016,
+    "range": [
+      1015,
+      1016
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "assert",
+    "start": 1017,
+    "end": 1023,
+    "range": [
+      1017,
+      1023
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 1023,
+    "end": 1024,
+    "range": [
+      1023,
+      1024
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "sameValue",
+    "start": 1024,
+    "end": 1033,
+    "range": [
+      1024,
+      1033
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 1033,
+    "end": 1034,
+    "range": [
+      1033,
+      1034
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "RegExp",
+    "start": 1034,
+    "end": 1040,
+    "range": [
+      1034,
+      1040
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 1040,
+    "end": 1041,
+    "range": [
+      1040,
+      1041
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "escape",
+    "start": 1041,
+    "end": 1047,
+    "range": [
+      1041,
+      1047
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 1047,
+    "end": 1048,
+    "range": [
+      1047,
+      1048
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'('",
+    "start": 1048,
+    "end": 1051,
+    "range": [
+      1048,
+      1051
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 1051,
+    "end": 1052,
+    "range": [
+      1051,
+      1052
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 1052,
+    "end": 1053,
+    "range": [
+      1052,
+      1053
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'\\\\('",
+    "start": 1054,
+    "end": 1059,
+    "range": [
+      1054,
+      1059
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 1059,
+    "end": 1060,
+    "range": [
+      1059,
+      1060
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'open parenthesis character is escaped correctly'",
+    "start": 1061,
+    "end": 1110,
+    "range": [
+      1061,
+      1110
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 1110,
+    "end": 1111,
+    "range": [
+      1110,
+      1111
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 1111,
+    "end": 1112,
+    "range": [
+      1111,
+      1112
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "assert",
+    "start": 1113,
+    "end": 1119,
+    "range": [
+      1113,
+      1119
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 1119,
+    "end": 1120,
+    "range": [
+      1119,
+      1120
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "sameValue",
+    "start": 1120,
+    "end": 1129,
+    "range": [
+      1120,
+      1129
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 1129,
+    "end": 1130,
+    "range": [
+      1129,
+      1130
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "RegExp",
+    "start": 1130,
+    "end": 1136,
+    "range": [
+      1130,
+      1136
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 1136,
+    "end": 1137,
+    "range": [
+      1136,
+      1137
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "escape",
+    "start": 1137,
+    "end": 1143,
+    "range": [
+      1137,
+      1143
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 1143,
+    "end": 1144,
+    "range": [
+      1143,
+      1144
+    ]
+  },
+  {
+    "type": "String",
+    "value": "')'",
+    "start": 1144,
+    "end": 1147,
+    "range": [
+      1144,
+      1147
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 1147,
+    "end": 1148,
+    "range": [
+      1147,
+      1148
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 1148,
+    "end": 1149,
+    "range": [
+      1148,
+      1149
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'\\\\)'",
+    "start": 1150,
+    "end": 1155,
+    "range": [
+      1150,
+      1155
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 1155,
+    "end": 1156,
+    "range": [
+      1155,
+      1156
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'close parenthesis character is escaped correctly'",
+    "start": 1157,
+    "end": 1207,
+    "range": [
+      1157,
+      1207
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 1207,
+    "end": 1208,
+    "range": [
+      1207,
+      1208
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 1208,
+    "end": 1209,
+    "range": [
+      1208,
+      1209
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "assert",
+    "start": 1210,
+    "end": 1216,
+    "range": [
+      1210,
+      1216
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 1216,
+    "end": 1217,
+    "range": [
+      1216,
+      1217
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "sameValue",
+    "start": 1217,
+    "end": 1226,
+    "range": [
+      1217,
+      1226
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 1226,
+    "end": 1227,
+    "range": [
+      1226,
+      1227
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "RegExp",
+    "start": 1227,
+    "end": 1233,
+    "range": [
+      1227,
+      1233
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 1233,
+    "end": 1234,
+    "range": [
+      1233,
+      1234
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "escape",
+    "start": 1234,
+    "end": 1240,
+    "range": [
+      1234,
+      1240
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 1240,
+    "end": 1241,
+    "range": [
+      1240,
+      1241
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'['",
+    "start": 1241,
+    "end": 1244,
+    "range": [
+      1241,
+      1244
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 1244,
+    "end": 1245,
+    "range": [
+      1244,
+      1245
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 1245,
+    "end": 1246,
+    "range": [
+      1245,
+      1246
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'\\\\['",
+    "start": 1247,
+    "end": 1252,
+    "range": [
+      1247,
+      1252
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 1252,
+    "end": 1253,
+    "range": [
+      1252,
+      1253
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'open bracket character is escaped correctly'",
+    "start": 1254,
+    "end": 1299,
+    "range": [
+      1254,
+      1299
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 1299,
+    "end": 1300,
+    "range": [
+      1299,
+      1300
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 1300,
+    "end": 1301,
+    "range": [
+      1300,
+      1301
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "assert",
+    "start": 1302,
+    "end": 1308,
+    "range": [
+      1302,
+      1308
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 1308,
+    "end": 1309,
+    "range": [
+      1308,
+      1309
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "sameValue",
+    "start": 1309,
+    "end": 1318,
+    "range": [
+      1309,
+      1318
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 1318,
+    "end": 1319,
+    "range": [
+      1318,
+      1319
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "RegExp",
+    "start": 1319,
+    "end": 1325,
+    "range": [
+      1319,
+      1325
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 1325,
+    "end": 1326,
+    "range": [
+      1325,
+      1326
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "escape",
+    "start": 1326,
+    "end": 1332,
+    "range": [
+      1326,
+      1332
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 1332,
+    "end": 1333,
+    "range": [
+      1332,
+      1333
+    ]
+  },
+  {
+    "type": "String",
+    "value": "']'",
+    "start": 1333,
+    "end": 1336,
+    "range": [
+      1333,
+      1336
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 1336,
+    "end": 1337,
+    "range": [
+      1336,
+      1337
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 1337,
+    "end": 1338,
+    "range": [
+      1337,
+      1338
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'\\\\]'",
+    "start": 1339,
+    "end": 1344,
+    "range": [
+      1339,
+      1344
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 1344,
+    "end": 1345,
+    "range": [
+      1344,
+      1345
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'close bracket character is escaped correctly'",
+    "start": 1346,
+    "end": 1392,
+    "range": [
+      1346,
+      1392
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 1392,
+    "end": 1393,
+    "range": [
+      1392,
+      1393
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 1393,
+    "end": 1394,
+    "range": [
+      1393,
+      1394
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "assert",
+    "start": 1395,
+    "end": 1401,
+    "range": [
+      1395,
+      1401
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 1401,
+    "end": 1402,
+    "range": [
+      1401,
+      1402
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "sameValue",
+    "start": 1402,
+    "end": 1411,
+    "range": [
+      1402,
+      1411
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 1411,
+    "end": 1412,
+    "range": [
+      1411,
+      1412
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "RegExp",
+    "start": 1412,
+    "end": 1418,
+    "range": [
+      1412,
+      1418
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 1418,
+    "end": 1419,
+    "range": [
+      1418,
+      1419
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "escape",
+    "start": 1419,
+    "end": 1425,
+    "range": [
+      1419,
+      1425
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 1425,
+    "end": 1426,
+    "range": [
+      1425,
+      1426
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'{'",
+    "start": 1426,
+    "end": 1429,
+    "range": [
+      1426,
+      1429
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 1429,
+    "end": 1430,
+    "range": [
+      1429,
+      1430
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 1430,
+    "end": 1431,
+    "range": [
+      1430,
+      1431
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'\\\\{'",
+    "start": 1432,
+    "end": 1437,
+    "range": [
+      1432,
+      1437
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 1437,
+    "end": 1438,
+    "range": [
+      1437,
+      1438
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'open brace character is escaped correctly'",
+    "start": 1439,
+    "end": 1482,
+    "range": [
+      1439,
+      1482
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 1482,
+    "end": 1483,
+    "range": [
+      1482,
+      1483
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 1483,
+    "end": 1484,
+    "range": [
+      1483,
+      1484
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "assert",
+    "start": 1485,
+    "end": 1491,
+    "range": [
+      1485,
+      1491
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 1491,
+    "end": 1492,
+    "range": [
+      1491,
+      1492
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "sameValue",
+    "start": 1492,
+    "end": 1501,
+    "range": [
+      1492,
+      1501
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 1501,
+    "end": 1502,
+    "range": [
+      1501,
+      1502
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "RegExp",
+    "start": 1502,
+    "end": 1508,
+    "range": [
+      1502,
+      1508
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 1508,
+    "end": 1509,
+    "range": [
+      1508,
+      1509
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "escape",
+    "start": 1509,
+    "end": 1515,
+    "range": [
+      1509,
+      1515
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 1515,
+    "end": 1516,
+    "range": [
+      1515,
+      1516
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'}'",
+    "start": 1516,
+    "end": 1519,
+    "range": [
+      1516,
+      1519
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 1519,
+    "end": 1520,
+    "range": [
+      1519,
+      1520
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 1520,
+    "end": 1521,
+    "range": [
+      1520,
+      1521
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'\\\\}'",
+    "start": 1522,
+    "end": 1527,
+    "range": [
+      1522,
+      1527
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 1527,
+    "end": 1528,
+    "range": [
+      1527,
+      1528
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'close brace character is escaped correctly'",
+    "start": 1529,
+    "end": 1573,
+    "range": [
+      1529,
+      1573
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 1573,
+    "end": 1574,
+    "range": [
+      1573,
+      1574
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 1574,
+    "end": 1575,
+    "range": [
+      1574,
+      1575
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "assert",
+    "start": 1576,
+    "end": 1582,
+    "range": [
+      1576,
+      1582
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 1582,
+    "end": 1583,
+    "range": [
+      1582,
+      1583
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "sameValue",
+    "start": 1583,
+    "end": 1592,
+    "range": [
+      1583,
+      1592
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 1592,
+    "end": 1593,
+    "range": [
+      1592,
+      1593
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "RegExp",
+    "start": 1593,
+    "end": 1599,
+    "range": [
+      1593,
+      1599
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 1599,
+    "end": 1600,
+    "range": [
+      1599,
+      1600
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "escape",
+    "start": 1600,
+    "end": 1606,
+    "range": [
+      1600,
+      1606
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 1606,
+    "end": 1607,
+    "range": [
+      1606,
+      1607
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'\\\\'",
+    "start": 1607,
+    "end": 1611,
+    "range": [
+      1607,
+      1611
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 1611,
+    "end": 1612,
+    "range": [
+      1611,
+      1612
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 1612,
+    "end": 1613,
+    "range": [
+      1612,
+      1613
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'\\\\\\\\'",
+    "start": 1614,
+    "end": 1620,
+    "range": [
+      1614,
+      1620
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 1620,
+    "end": 1621,
+    "range": [
+      1620,
+      1621
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'backslash character is escaped correctly'",
+    "start": 1622,
+    "end": 1664,
+    "range": [
+      1622,
+      1664
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 1664,
+    "end": 1665,
+    "range": [
+      1664,
+      1665
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 1665,
+    "end": 1666,
+    "range": [
+      1665,
+      1666
+    ]
+  }
+]

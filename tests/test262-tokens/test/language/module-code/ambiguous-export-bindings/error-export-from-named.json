@@ -1,0 +1,112 @@
+[
+  {
+    "type": "Identifier",
+    "value": "$DONOTEVALUATE",
+    "start": 1557,
+    "end": 1571,
+    "range": [
+      1557,
+      1571
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 1571,
+    "end": 1572,
+    "range": [
+      1571,
+      1572
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 1572,
+    "end": 1573,
+    "range": [
+      1572,
+      1573
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 1573,
+    "end": 1574,
+    "range": [
+      1573,
+      1574
+    ]
+  },
+  {
+    "type": "Keyword",
+    "value": "export",
+    "start": 1576,
+    "end": 1582,
+    "range": [
+      1576,
+      1582
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "{",
+    "start": 1583,
+    "end": 1584,
+    "range": [
+      1583,
+      1584
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "x",
+    "start": 1585,
+    "end": 1586,
+    "range": [
+      1585,
+      1586
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "}",
+    "start": 1587,
+    "end": 1588,
+    "range": [
+      1587,
+      1588
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "from",
+    "start": 1589,
+    "end": 1593,
+    "range": [
+      1589,
+      1593
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'./error-export-from-named_FIXTURE.js'",
+    "start": 1594,
+    "end": 1632,
+    "range": [
+      1594,
+      1632
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 1632,
+    "end": 1633,
+    "range": [
+      1632,
+      1633
+    ]
+  }
+]

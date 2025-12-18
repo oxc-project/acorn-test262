@@ -1,0 +1,272 @@
+[
+  {
+    "type": "Keyword",
+    "value": "var",
+    "start": 317,
+    "end": 320,
+    "range": [
+      317,
+      320
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "obj",
+    "start": 321,
+    "end": 324,
+    "range": [
+      321,
+      324
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "=",
+    "start": 325,
+    "end": 326,
+    "range": [
+      325,
+      326
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "Function",
+    "start": 327,
+    "end": 335,
+    "range": [
+      327,
+      335
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 335,
+    "end": 336,
+    "range": [
+      335,
+      336
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 336,
+    "end": 337,
+    "range": [
+      336,
+      337
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 337,
+    "end": 338,
+    "range": [
+      337,
+      338
+    ]
+  },
+  {
+    "type": "Keyword",
+    "value": "new",
+    "start": 340,
+    "end": 343,
+    "range": [
+      340,
+      343
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "Function",
+    "start": 344,
+    "end": 352,
+    "range": [
+      344,
+      352
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 352,
+    "end": 353,
+    "range": [
+      352,
+      353
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"this.touched= true; return this;\"",
+    "start": 353,
+    "end": 387,
+    "range": [
+      353,
+      387
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 387,
+    "end": 388,
+    "range": [
+      387,
+      388
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 388,
+    "end": 389,
+    "range": [
+      388,
+      389
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "apply",
+    "start": 389,
+    "end": 394,
+    "range": [
+      389,
+      394
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 394,
+    "end": 395,
+    "range": [
+      394,
+      395
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "obj",
+    "start": 395,
+    "end": 398,
+    "range": [
+      395,
+      398
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 398,
+    "end": 399,
+    "range": [
+      398,
+      399
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 399,
+    "end": 400,
+    "range": [
+      399,
+      400
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "assert",
+    "start": 402,
+    "end": 408,
+    "range": [
+      402,
+      408
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 408,
+    "end": 409,
+    "range": [
+      408,
+      409
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "obj",
+    "start": 409,
+    "end": 412,
+    "range": [
+      409,
+      412
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 412,
+    "end": 413,
+    "range": [
+      412,
+      413
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "touched",
+    "start": 413,
+    "end": 420,
+    "range": [
+      413,
+      420
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 420,
+    "end": 421,
+    "range": [
+      420,
+      421
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'The value of obj.touched is expected to be true'",
+    "start": 422,
+    "end": 471,
+    "range": [
+      422,
+      471
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 471,
+    "end": 472,
+    "range": [
+      471,
+      472
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 472,
+    "end": 473,
+    "range": [
+      472,
+      473
+    ]
+  }
+]

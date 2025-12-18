@@ -1,0 +1,92 @@
+[
+  {
+    "type": "Keyword",
+    "value": "export",
+    "start": 2233,
+    "end": 2239,
+    "range": [
+      2233,
+      2239
+    ]
+  },
+  {
+    "type": "Keyword",
+    "value": "default",
+    "start": 2240,
+    "end": 2247,
+    "range": [
+      2240,
+      2247
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "await",
+    "start": 2248,
+    "end": 2253,
+    "range": [
+      2248,
+      2253
+    ]
+  },
+  {
+    "type": "Keyword",
+    "value": "function",
+    "start": 2254,
+    "end": 2262,
+    "range": [
+      2254,
+      2262
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 2262,
+    "end": 2263,
+    "range": [
+      2262,
+      2263
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 2263,
+    "end": 2264,
+    "range": [
+      2263,
+      2264
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "{",
+    "start": 2265,
+    "end": 2266,
+    "range": [
+      2265,
+      2266
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "}",
+    "start": 2266,
+    "end": 2267,
+    "range": [
+      2266,
+      2267
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 2267,
+    "end": 2268,
+    "range": [
+      2267,
+      2268
+    ]
+  }
+]

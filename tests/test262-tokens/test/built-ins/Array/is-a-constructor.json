@@ -1,0 +1,192 @@
+[
+  {
+    "type": "Identifier",
+    "value": "assert",
+    "start": 693,
+    "end": 699,
+    "range": [
+      693,
+      699
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 699,
+    "end": 700,
+    "range": [
+      699,
+      700
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "sameValue",
+    "start": 700,
+    "end": 709,
+    "range": [
+      700,
+      709
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 709,
+    "end": 710,
+    "range": [
+      709,
+      710
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "isConstructor",
+    "start": 710,
+    "end": 723,
+    "range": [
+      710,
+      723
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 723,
+    "end": 724,
+    "range": [
+      723,
+      724
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "Array",
+    "start": 724,
+    "end": 729,
+    "range": [
+      724,
+      729
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 729,
+    "end": 730,
+    "range": [
+      729,
+      730
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 730,
+    "end": 731,
+    "range": [
+      730,
+      731
+    ]
+  },
+  {
+    "type": "Boolean",
+    "value": "true",
+    "start": 732,
+    "end": 736,
+    "range": [
+      732,
+      736
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 736,
+    "end": 737,
+    "range": [
+      736,
+      737
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'isConstructor(Array) must return true'",
+    "start": 738,
+    "end": 777,
+    "range": [
+      738,
+      777
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 777,
+    "end": 778,
+    "range": [
+      777,
+      778
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 778,
+    "end": 779,
+    "range": [
+      778,
+      779
+    ]
+  },
+  {
+    "type": "Keyword",
+    "value": "new",
+    "start": 780,
+    "end": 783,
+    "range": [
+      780,
+      783
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "Array",
+    "start": 784,
+    "end": 789,
+    "range": [
+      784,
+      789
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 789,
+    "end": 790,
+    "range": [
+      789,
+      790
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 790,
+    "end": 791,
+    "range": [
+      790,
+      791
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 791,
+    "end": 792,
+    "range": [
+      791,
+      792
+    ]
+  }
+]

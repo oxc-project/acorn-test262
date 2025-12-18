@@ -1,0 +1,370 @@
+[
+  {
+    "type": "Identifier",
+    "value": "assert",
+    "start": 706,
+    "end": 712,
+    "range": [
+      706,
+      712
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 712,
+    "end": 713,
+    "range": [
+      712,
+      713
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "sameValue",
+    "start": 713,
+    "end": 722,
+    "range": [
+      713,
+      722
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 722,
+    "end": 723,
+    "range": [
+      722,
+      723
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"\\u180E\"",
+    "start": 723,
+    "end": 731,
+    "range": [
+      723,
+      731
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 731,
+    "end": 732,
+    "range": [
+      731,
+      732
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "replace",
+    "start": 732,
+    "end": 739,
+    "range": [
+      732,
+      739
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 739,
+    "end": 740,
+    "range": [
+      739,
+      740
+    ]
+  },
+  {
+    "type": "RegularExpression",
+    "value": "/\\s+/g",
+    "regex": {
+      "flags": "g",
+      "pattern": "\\s+"
+    },
+    "start": 740,
+    "end": 746,
+    "range": [
+      740,
+      746
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 746,
+    "end": 747,
+    "range": [
+      746,
+      747
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"42\"",
+    "start": 748,
+    "end": 752,
+    "range": [
+      748,
+      752
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 752,
+    "end": 753,
+    "range": [
+      752,
+      753
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 753,
+    "end": 754,
+    "range": [
+      753,
+      754
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"\\u180E\"",
+    "start": 755,
+    "end": 763,
+    "range": [
+      755,
+      763
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 763,
+    "end": 764,
+    "range": [
+      763,
+      764
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"\\\\s should not match U+180E\"",
+    "start": 765,
+    "end": 794,
+    "range": [
+      765,
+      794
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 794,
+    "end": 795,
+    "range": [
+      794,
+      795
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 795,
+    "end": 796,
+    "range": [
+      795,
+      796
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "assert",
+    "start": 797,
+    "end": 803,
+    "range": [
+      797,
+      803
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 803,
+    "end": 804,
+    "range": [
+      803,
+      804
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "sameValue",
+    "start": 804,
+    "end": 813,
+    "range": [
+      804,
+      813
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 813,
+    "end": 814,
+    "range": [
+      813,
+      814
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"\\u180E\"",
+    "start": 814,
+    "end": 822,
+    "range": [
+      814,
+      822
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 822,
+    "end": 823,
+    "range": [
+      822,
+      823
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "replace",
+    "start": 823,
+    "end": 830,
+    "range": [
+      823,
+      830
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 830,
+    "end": 831,
+    "range": [
+      830,
+      831
+    ]
+  },
+  {
+    "type": "RegularExpression",
+    "value": "/\\S+/g",
+    "regex": {
+      "flags": "g",
+      "pattern": "\\S+"
+    },
+    "start": 831,
+    "end": 837,
+    "range": [
+      831,
+      837
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 837,
+    "end": 838,
+    "range": [
+      837,
+      838
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"42\"",
+    "start": 839,
+    "end": 843,
+    "range": [
+      839,
+      843
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 843,
+    "end": 844,
+    "range": [
+      843,
+      844
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 844,
+    "end": 845,
+    "range": [
+      844,
+      845
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"42\"",
+    "start": 846,
+    "end": 850,
+    "range": [
+      846,
+      850
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 850,
+    "end": 851,
+    "range": [
+      850,
+      851
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"\\\\S matches U+180E\"",
+    "start": 852,
+    "end": 872,
+    "range": [
+      852,
+      872
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 872,
+    "end": 873,
+    "range": [
+      872,
+      873
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 873,
+    "end": 874,
+    "range": [
+      873,
+      874
+    ]
+  }
+]

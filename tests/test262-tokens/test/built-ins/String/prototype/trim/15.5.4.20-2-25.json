@@ -1,0 +1,202 @@
+[
+  {
+    "type": "Identifier",
+    "value": "assert",
+    "start": 292,
+    "end": 298,
+    "range": [
+      292,
+      298
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 298,
+    "end": 299,
+    "range": [
+      298,
+      299
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "sameValue",
+    "start": 299,
+    "end": 308,
+    "range": [
+      299,
+      308
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 308,
+    "end": 309,
+    "range": [
+      308,
+      309
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "String",
+    "start": 309,
+    "end": 315,
+    "range": [
+      309,
+      315
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 315,
+    "end": 316,
+    "range": [
+      315,
+      316
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "prototype",
+    "start": 316,
+    "end": 325,
+    "range": [
+      316,
+      325
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 325,
+    "end": 326,
+    "range": [
+      325,
+      326
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "trim",
+    "start": 326,
+    "end": 330,
+    "range": [
+      326,
+      330
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 330,
+    "end": 331,
+    "range": [
+      330,
+      331
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "call",
+    "start": 331,
+    "end": 335,
+    "range": [
+      331,
+      335
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 335,
+    "end": 336,
+    "range": [
+      335,
+      336
+    ]
+  },
+  {
+    "type": "Numeric",
+    "value": "123.456",
+    "start": 336,
+    "end": 343,
+    "range": [
+      336,
+      343
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 343,
+    "end": 344,
+    "range": [
+      343,
+      344
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 344,
+    "end": 345,
+    "range": [
+      344,
+      345
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"123.456\"",
+    "start": 346,
+    "end": 355,
+    "range": [
+      346,
+      355
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 355,
+    "end": 356,
+    "range": [
+      355,
+      356
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'String.prototype.trim.call(123.456)'",
+    "start": 357,
+    "end": 394,
+    "range": [
+      357,
+      394
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 394,
+    "end": 395,
+    "range": [
+      394,
+      395
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 395,
+    "end": 396,
+    "range": [
+      395,
+      396
+    ]
+  }
+]

@@ -1,0 +1,192 @@
+[
+  {
+    "type": "Identifier",
+    "value": "assert",
+    "start": 730,
+    "end": 736,
+    "range": [
+      730,
+      736
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 736,
+    "end": 737,
+    "range": [
+      736,
+      737
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "sameValue",
+    "start": 737,
+    "end": 746,
+    "range": [
+      737,
+      746
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 746,
+    "end": 747,
+    "range": [
+      746,
+      747
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "isConstructor",
+    "start": 747,
+    "end": 760,
+    "range": [
+      747,
+      760
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 760,
+    "end": 761,
+    "range": [
+      760,
+      761
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "BigUint64Array",
+    "start": 761,
+    "end": 775,
+    "range": [
+      761,
+      775
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 775,
+    "end": 776,
+    "range": [
+      775,
+      776
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 776,
+    "end": 777,
+    "range": [
+      776,
+      777
+    ]
+  },
+  {
+    "type": "Boolean",
+    "value": "true",
+    "start": 778,
+    "end": 782,
+    "range": [
+      778,
+      782
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 782,
+    "end": 783,
+    "range": [
+      782,
+      783
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'isConstructor(BigUint64Array) must return true'",
+    "start": 784,
+    "end": 832,
+    "range": [
+      784,
+      832
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 832,
+    "end": 833,
+    "range": [
+      832,
+      833
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 833,
+    "end": 834,
+    "range": [
+      833,
+      834
+    ]
+  },
+  {
+    "type": "Keyword",
+    "value": "new",
+    "start": 835,
+    "end": 838,
+    "range": [
+      835,
+      838
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "BigUint64Array",
+    "start": 839,
+    "end": 853,
+    "range": [
+      839,
+      853
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 853,
+    "end": 854,
+    "range": [
+      853,
+      854
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 854,
+    "end": 855,
+    "range": [
+      854,
+      855
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 855,
+    "end": 856,
+    "range": [
+      855,
+      856
+    ]
+  }
+]

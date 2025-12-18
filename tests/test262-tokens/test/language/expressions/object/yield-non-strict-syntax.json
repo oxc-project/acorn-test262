@@ -1,0 +1,122 @@
+[
+  {
+    "type": "Keyword",
+    "value": "var",
+    "start": 250,
+    "end": 253,
+    "range": [
+      250,
+      253
+    ]
+  },
+  {
+    "type": "Keyword",
+    "value": "yield",
+    "start": 254,
+    "end": 259,
+    "range": [
+      254,
+      259
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "=",
+    "start": 260,
+    "end": 261,
+    "range": [
+      260,
+      261
+    ]
+  },
+  {
+    "type": "Numeric",
+    "value": "1",
+    "start": 262,
+    "end": 263,
+    "range": [
+      262,
+      263
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 263,
+    "end": 264,
+    "range": [
+      263,
+      264
+    ]
+  },
+  {
+    "type": "Keyword",
+    "value": "var",
+    "start": 265,
+    "end": 268,
+    "range": [
+      265,
+      268
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "object",
+    "start": 269,
+    "end": 275,
+    "range": [
+      269,
+      275
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "=",
+    "start": 276,
+    "end": 277,
+    "range": [
+      276,
+      277
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "{",
+    "start": 278,
+    "end": 279,
+    "range": [
+      278,
+      279
+    ]
+  },
+  {
+    "type": "Keyword",
+    "value": "yield",
+    "start": 279,
+    "end": 284,
+    "range": [
+      279,
+      284
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "}",
+    "start": 284,
+    "end": 285,
+    "range": [
+      284,
+      285
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 285,
+    "end": 286,
+    "range": [
+      285,
+      286
+    ]
+  }
+]

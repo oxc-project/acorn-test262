@@ -1,0 +1,132 @@
+[
+  {
+    "type": "Keyword",
+    "value": "if",
+    "start": 1294,
+    "end": 1296,
+    "range": [
+      1294,
+      1296
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 1297,
+    "end": 1298,
+    "range": [
+      1297,
+      1298
+    ]
+  },
+  {
+    "type": "Boolean",
+    "value": "false",
+    "start": 1298,
+    "end": 1303,
+    "range": [
+      1298,
+      1303
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 1303,
+    "end": 1304,
+    "range": [
+      1303,
+      1304
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "{",
+    "start": 1305,
+    "end": 1306,
+    "range": [
+      1305,
+      1306
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "}",
+    "start": 1308,
+    "end": 1309,
+    "range": [
+      1308,
+      1309
+    ]
+  },
+  {
+    "type": "Keyword",
+    "value": "else",
+    "start": 1310,
+    "end": 1314,
+    "range": [
+      1310,
+      1314
+    ]
+  },
+  {
+    "type": "Keyword",
+    "value": "import",
+    "start": 1315,
+    "end": 1321,
+    "range": [
+      1315,
+      1321
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 1321,
+    "end": 1322,
+    "range": [
+      1321,
+      1322
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'./empty_FIXTURE.js'",
+    "start": 1322,
+    "end": 1342,
+    "range": [
+      1322,
+      1342
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 1342,
+    "end": 1343,
+    "range": [
+      1342,
+      1343
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 1343,
+    "end": 1344,
+    "range": [
+      1343,
+      1344
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 1344,
+    "end": 1345,
+    "range": [
+      1344,
+      1345
+    ]
+  }
+]

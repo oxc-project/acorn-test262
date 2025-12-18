@@ -1,0 +1,292 @@
+[
+  {
+    "type": "Identifier",
+    "value": "verifyProperty",
+    "start": 814,
+    "end": 828,
+    "range": [
+      814,
+      828
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 828,
+    "end": 829,
+    "range": [
+      828,
+      829
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "TypedArray",
+    "start": 829,
+    "end": 839,
+    "range": [
+      829,
+      839
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 839,
+    "end": 840,
+    "range": [
+      839,
+      840
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "prototype",
+    "start": 840,
+    "end": 849,
+    "range": [
+      840,
+      849
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 849,
+    "end": 850,
+    "range": [
+      849,
+      850
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "lastIndexOf",
+    "start": 850,
+    "end": 861,
+    "range": [
+      850,
+      861
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 861,
+    "end": 862,
+    "range": [
+      861,
+      862
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"name\"",
+    "start": 863,
+    "end": 869,
+    "range": [
+      863,
+      869
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 869,
+    "end": 870,
+    "range": [
+      869,
+      870
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "{",
+    "start": 871,
+    "end": 872,
+    "range": [
+      871,
+      872
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "value",
+    "start": 875,
+    "end": 880,
+    "range": [
+      875,
+      880
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ":",
+    "start": 880,
+    "end": 881,
+    "range": [
+      880,
+      881
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"lastIndexOf\"",
+    "start": 882,
+    "end": 895,
+    "range": [
+      882,
+      895
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 895,
+    "end": 896,
+    "range": [
+      895,
+      896
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "writable",
+    "start": 899,
+    "end": 907,
+    "range": [
+      899,
+      907
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ":",
+    "start": 907,
+    "end": 908,
+    "range": [
+      907,
+      908
+    ]
+  },
+  {
+    "type": "Boolean",
+    "value": "false",
+    "start": 909,
+    "end": 914,
+    "range": [
+      909,
+      914
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 914,
+    "end": 915,
+    "range": [
+      914,
+      915
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "enumerable",
+    "start": 918,
+    "end": 928,
+    "range": [
+      918,
+      928
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ":",
+    "start": 928,
+    "end": 929,
+    "range": [
+      928,
+      929
+    ]
+  },
+  {
+    "type": "Boolean",
+    "value": "false",
+    "start": 930,
+    "end": 935,
+    "range": [
+      930,
+      935
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 935,
+    "end": 936,
+    "range": [
+      935,
+      936
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "configurable",
+    "start": 939,
+    "end": 951,
+    "range": [
+      939,
+      951
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ":",
+    "start": 951,
+    "end": 952,
+    "range": [
+      951,
+      952
+    ]
+  },
+  {
+    "type": "Boolean",
+    "value": "true",
+    "start": 953,
+    "end": 957,
+    "range": [
+      953,
+      957
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "}",
+    "start": 958,
+    "end": 959,
+    "range": [
+      958,
+      959
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 959,
+    "end": 960,
+    "range": [
+      959,
+      960
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 960,
+    "end": 961,
+    "range": [
+      960,
+      961
+    ]
+  }
+]

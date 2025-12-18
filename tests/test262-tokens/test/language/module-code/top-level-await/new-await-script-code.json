@@ -1,0 +1,162 @@
+[
+  {
+    "type": "Keyword",
+    "value": "class",
+    "start": 252,
+    "end": 257,
+    "range": [
+      252,
+      257
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "await",
+    "start": 258,
+    "end": 263,
+    "range": [
+      258,
+      263
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "{",
+    "start": 264,
+    "end": 265,
+    "range": [
+      264,
+      265
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "}",
+    "start": 265,
+    "end": 266,
+    "range": [
+      265,
+      266
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "assert",
+    "start": 268,
+    "end": 274,
+    "range": [
+      268,
+      274
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 274,
+    "end": 275,
+    "range": [
+      274,
+      275
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "sameValue",
+    "start": 275,
+    "end": 284,
+    "range": [
+      275,
+      284
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 284,
+    "end": 285,
+    "range": [
+      284,
+      285
+    ]
+  },
+  {
+    "type": "Keyword",
+    "value": "new",
+    "start": 285,
+    "end": 288,
+    "range": [
+      285,
+      288
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "await",
+    "start": 289,
+    "end": 294,
+    "range": [
+      289,
+      294
+    ]
+  },
+  {
+    "type": "Keyword",
+    "value": "instanceof",
+    "start": 295,
+    "end": 305,
+    "range": [
+      295,
+      305
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "await",
+    "start": 306,
+    "end": 311,
+    "range": [
+      306,
+      311
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 311,
+    "end": 312,
+    "range": [
+      311,
+      312
+    ]
+  },
+  {
+    "type": "Boolean",
+    "value": "true",
+    "start": 313,
+    "end": 317,
+    "range": [
+      313,
+      317
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 317,
+    "end": 318,
+    "range": [
+      317,
+      318
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 318,
+    "end": 319,
+    "range": [
+      318,
+      319
+    ]
+  }
+]

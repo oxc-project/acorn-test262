@@ -1,0 +1,422 @@
+[
+  {
+    "type": "Keyword",
+    "value": "const",
+    "start": 237,
+    "end": 242,
+    "range": [
+      237,
+      242
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "result",
+    "start": 243,
+    "end": 249,
+    "range": [
+      243,
+      249
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "=",
+    "start": 250,
+    "end": 251,
+    "range": [
+      250,
+      251
+    ]
+  },
+  {
+    "type": "Keyword",
+    "value": "new",
+    "start": 252,
+    "end": 255,
+    "range": [
+      252,
+      255
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "Temporal",
+    "start": 256,
+    "end": 264,
+    "range": [
+      256,
+      264
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 264,
+    "end": 265,
+    "range": [
+      264,
+      265
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "PlainDateTime",
+    "start": 265,
+    "end": 278,
+    "range": [
+      265,
+      278
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 278,
+    "end": 279,
+    "range": [
+      278,
+      279
+    ]
+  },
+  {
+    "type": "Numeric",
+    "value": "2024",
+    "start": 279,
+    "end": 283,
+    "range": [
+      279,
+      283
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 283,
+    "end": 284,
+    "range": [
+      283,
+      284
+    ]
+  },
+  {
+    "type": "Numeric",
+    "value": "7",
+    "start": 285,
+    "end": 286,
+    "range": [
+      285,
+      286
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 286,
+    "end": 287,
+    "range": [
+      286,
+      287
+    ]
+  },
+  {
+    "type": "Numeric",
+    "value": "2",
+    "start": 288,
+    "end": 289,
+    "range": [
+      288,
+      289
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 289,
+    "end": 290,
+    "range": [
+      289,
+      290
+    ]
+  },
+  {
+    "type": "Numeric",
+    "value": "12",
+    "start": 291,
+    "end": 293,
+    "range": [
+      291,
+      293
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 293,
+    "end": 294,
+    "range": [
+      293,
+      294
+    ]
+  },
+  {
+    "type": "Numeric",
+    "value": "34",
+    "start": 295,
+    "end": 297,
+    "range": [
+      295,
+      297
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 297,
+    "end": 298,
+    "range": [
+      297,
+      298
+    ]
+  },
+  {
+    "type": "Numeric",
+    "value": "56",
+    "start": 299,
+    "end": 301,
+    "range": [
+      299,
+      301
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 301,
+    "end": 302,
+    "range": [
+      301,
+      302
+    ]
+  },
+  {
+    "type": "Numeric",
+    "value": "987",
+    "start": 303,
+    "end": 306,
+    "range": [
+      303,
+      306
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 306,
+    "end": 307,
+    "range": [
+      306,
+      307
+    ]
+  },
+  {
+    "type": "Numeric",
+    "value": "654",
+    "start": 308,
+    "end": 311,
+    "range": [
+      308,
+      311
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 311,
+    "end": 312,
+    "range": [
+      311,
+      312
+    ]
+  },
+  {
+    "type": "Numeric",
+    "value": "321",
+    "start": 313,
+    "end": 316,
+    "range": [
+      313,
+      316
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 316,
+    "end": 317,
+    "range": [
+      316,
+      317
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"islamicc\"",
+    "start": 318,
+    "end": 328,
+    "range": [
+      318,
+      328
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 328,
+    "end": 329,
+    "range": [
+      328,
+      329
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 329,
+    "end": 330,
+    "range": [
+      329,
+      330
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "assert",
+    "start": 331,
+    "end": 337,
+    "range": [
+      331,
+      337
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 337,
+    "end": 338,
+    "range": [
+      337,
+      338
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "sameValue",
+    "start": 338,
+    "end": 347,
+    "range": [
+      338,
+      347
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 347,
+    "end": 348,
+    "range": [
+      347,
+      348
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "result",
+    "start": 348,
+    "end": 354,
+    "range": [
+      348,
+      354
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 354,
+    "end": 355,
+    "range": [
+      354,
+      355
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "calendarId",
+    "start": 355,
+    "end": 365,
+    "range": [
+      355,
+      365
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 365,
+    "end": 366,
+    "range": [
+      365,
+      366
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"islamic-civil\"",
+    "start": 367,
+    "end": 382,
+    "range": [
+      367,
+      382
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 382,
+    "end": 383,
+    "range": [
+      382,
+      383
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"calendar ID is canonicalized\"",
+    "start": 384,
+    "end": 414,
+    "range": [
+      384,
+      414
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 414,
+    "end": 415,
+    "range": [
+      414,
+      415
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 415,
+    "end": 416,
+    "range": [
+      415,
+      416
+    ]
+  }
+]

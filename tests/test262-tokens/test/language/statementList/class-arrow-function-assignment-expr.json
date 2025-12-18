@@ -1,0 +1,92 @@
+[
+  {
+    "type": "Keyword",
+    "value": "class",
+    "start": 1126,
+    "end": 1131,
+    "range": [
+      1126,
+      1131
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "C",
+    "start": 1132,
+    "end": 1133,
+    "range": [
+      1132,
+      1133
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "{",
+    "start": 1134,
+    "end": 1135,
+    "range": [
+      1134,
+      1135
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "}",
+    "start": 1135,
+    "end": 1136,
+    "range": [
+      1135,
+      1136
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 1136,
+    "end": 1137,
+    "range": [
+      1136,
+      1137
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 1137,
+    "end": 1138,
+    "range": [
+      1137,
+      1138
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "=>",
+    "start": 1139,
+    "end": 1141,
+    "range": [
+      1139,
+      1141
+    ]
+  },
+  {
+    "type": "Numeric",
+    "value": "42",
+    "start": 1142,
+    "end": 1144,
+    "range": [
+      1142,
+      1144
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 1144,
+    "end": 1145,
+    "range": [
+      1144,
+      1145
+    ]
+  }
+]

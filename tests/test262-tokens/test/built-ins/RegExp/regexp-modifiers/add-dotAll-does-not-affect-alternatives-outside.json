@@ -1,0 +1,1390 @@
+[
+  {
+    "type": "Keyword",
+    "value": "var",
+    "start": 1665,
+    "end": 1668,
+    "range": [
+      1665,
+      1668
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "re1",
+    "start": 1669,
+    "end": 1672,
+    "range": [
+      1669,
+      1672
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "=",
+    "start": 1673,
+    "end": 1674,
+    "range": [
+      1673,
+      1674
+    ]
+  },
+  {
+    "type": "RegularExpression",
+    "value": "/a.a|b.b|(?s:c.c)|d.d|e.e/",
+    "regex": {
+      "flags": "",
+      "pattern": "a.a|b.b|(?s:c.c)|d.d|e.e"
+    },
+    "start": 1675,
+    "end": 1701,
+    "range": [
+      1675,
+      1701
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 1701,
+    "end": 1702,
+    "range": [
+      1701,
+      1702
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "assert",
+    "start": 1703,
+    "end": 1709,
+    "range": [
+      1703,
+      1709
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 1709,
+    "end": 1710,
+    "range": [
+      1709,
+      1710
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "!",
+    "start": 1710,
+    "end": 1711,
+    "range": [
+      1710,
+      1711
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "re1",
+    "start": 1711,
+    "end": 1714,
+    "range": [
+      1711,
+      1714
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 1714,
+    "end": 1715,
+    "range": [
+      1714,
+      1715
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "test",
+    "start": 1715,
+    "end": 1719,
+    "range": [
+      1715,
+      1719
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 1719,
+    "end": 1720,
+    "range": [
+      1719,
+      1720
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"a\\na\"",
+    "start": 1720,
+    "end": 1726,
+    "range": [
+      1720,
+      1726
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 1726,
+    "end": 1727,
+    "range": [
+      1726,
+      1727
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 1727,
+    "end": 1728,
+    "range": [
+      1727,
+      1728
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"Alternative `a.a` should not match newline\"",
+    "start": 1729,
+    "end": 1773,
+    "range": [
+      1729,
+      1773
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 1773,
+    "end": 1774,
+    "range": [
+      1773,
+      1774
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 1774,
+    "end": 1775,
+    "range": [
+      1774,
+      1775
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "assert",
+    "start": 1776,
+    "end": 1782,
+    "range": [
+      1776,
+      1782
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 1782,
+    "end": 1783,
+    "range": [
+      1782,
+      1783
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "!",
+    "start": 1783,
+    "end": 1784,
+    "range": [
+      1783,
+      1784
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "re1",
+    "start": 1784,
+    "end": 1787,
+    "range": [
+      1784,
+      1787
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 1787,
+    "end": 1788,
+    "range": [
+      1787,
+      1788
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "test",
+    "start": 1788,
+    "end": 1792,
+    "range": [
+      1788,
+      1792
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 1792,
+    "end": 1793,
+    "range": [
+      1792,
+      1793
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"b\\nb\"",
+    "start": 1793,
+    "end": 1799,
+    "range": [
+      1793,
+      1799
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 1799,
+    "end": 1800,
+    "range": [
+      1799,
+      1800
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 1800,
+    "end": 1801,
+    "range": [
+      1800,
+      1801
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"Alternative `b.b` should not match newline\"",
+    "start": 1802,
+    "end": 1846,
+    "range": [
+      1802,
+      1846
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 1846,
+    "end": 1847,
+    "range": [
+      1846,
+      1847
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 1847,
+    "end": 1848,
+    "range": [
+      1847,
+      1848
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "assert",
+    "start": 1849,
+    "end": 1855,
+    "range": [
+      1849,
+      1855
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 1855,
+    "end": 1856,
+    "range": [
+      1855,
+      1856
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "re1",
+    "start": 1856,
+    "end": 1859,
+    "range": [
+      1856,
+      1859
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 1859,
+    "end": 1860,
+    "range": [
+      1859,
+      1860
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "test",
+    "start": 1860,
+    "end": 1864,
+    "range": [
+      1860,
+      1864
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 1864,
+    "end": 1865,
+    "range": [
+      1864,
+      1865
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"c\\nc\"",
+    "start": 1865,
+    "end": 1871,
+    "range": [
+      1865,
+      1871
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 1871,
+    "end": 1872,
+    "range": [
+      1871,
+      1872
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 1872,
+    "end": 1873,
+    "range": [
+      1872,
+      1873
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"Alternative `(?s:c.c)` should match newline in modified group\"",
+    "start": 1874,
+    "end": 1937,
+    "range": [
+      1874,
+      1937
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 1937,
+    "end": 1938,
+    "range": [
+      1937,
+      1938
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 1938,
+    "end": 1939,
+    "range": [
+      1938,
+      1939
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "assert",
+    "start": 1940,
+    "end": 1946,
+    "range": [
+      1940,
+      1946
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 1946,
+    "end": 1947,
+    "range": [
+      1946,
+      1947
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "!",
+    "start": 1947,
+    "end": 1948,
+    "range": [
+      1947,
+      1948
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "re1",
+    "start": 1948,
+    "end": 1951,
+    "range": [
+      1948,
+      1951
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 1951,
+    "end": 1952,
+    "range": [
+      1951,
+      1952
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "test",
+    "start": 1952,
+    "end": 1956,
+    "range": [
+      1952,
+      1956
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 1956,
+    "end": 1957,
+    "range": [
+      1956,
+      1957
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"d\\nd\"",
+    "start": 1957,
+    "end": 1963,
+    "range": [
+      1957,
+      1963
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 1963,
+    "end": 1964,
+    "range": [
+      1963,
+      1964
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 1964,
+    "end": 1965,
+    "range": [
+      1964,
+      1965
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"Alternative `d.d` should not match newline\"",
+    "start": 1966,
+    "end": 2010,
+    "range": [
+      1966,
+      2010
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 2010,
+    "end": 2011,
+    "range": [
+      2010,
+      2011
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 2011,
+    "end": 2012,
+    "range": [
+      2011,
+      2012
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "assert",
+    "start": 2013,
+    "end": 2019,
+    "range": [
+      2013,
+      2019
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 2019,
+    "end": 2020,
+    "range": [
+      2019,
+      2020
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "!",
+    "start": 2020,
+    "end": 2021,
+    "range": [
+      2020,
+      2021
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "re1",
+    "start": 2021,
+    "end": 2024,
+    "range": [
+      2021,
+      2024
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 2024,
+    "end": 2025,
+    "range": [
+      2024,
+      2025
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "test",
+    "start": 2025,
+    "end": 2029,
+    "range": [
+      2025,
+      2029
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 2029,
+    "end": 2030,
+    "range": [
+      2029,
+      2030
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"e\\ne\"",
+    "start": 2030,
+    "end": 2036,
+    "range": [
+      2030,
+      2036
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 2036,
+    "end": 2037,
+    "range": [
+      2036,
+      2037
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 2037,
+    "end": 2038,
+    "range": [
+      2037,
+      2038
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"Alternative `e.e` should not match newline\"",
+    "start": 2039,
+    "end": 2083,
+    "range": [
+      2039,
+      2083
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 2083,
+    "end": 2084,
+    "range": [
+      2083,
+      2084
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 2084,
+    "end": 2085,
+    "range": [
+      2084,
+      2085
+    ]
+  },
+  {
+    "type": "Keyword",
+    "value": "var",
+    "start": 2087,
+    "end": 2090,
+    "range": [
+      2087,
+      2090
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "re2",
+    "start": 2091,
+    "end": 2094,
+    "range": [
+      2091,
+      2094
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "=",
+    "start": 2095,
+    "end": 2096,
+    "range": [
+      2095,
+      2096
+    ]
+  },
+  {
+    "type": "RegularExpression",
+    "value": "/(a.a)|(?:b.b)|(?s:c.c)|(?:d.d)|(e.e)/",
+    "regex": {
+      "flags": "",
+      "pattern": "(a.a)|(?:b.b)|(?s:c.c)|(?:d.d)|(e.e)"
+    },
+    "start": 2097,
+    "end": 2135,
+    "range": [
+      2097,
+      2135
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 2135,
+    "end": 2136,
+    "range": [
+      2135,
+      2136
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "assert",
+    "start": 2137,
+    "end": 2143,
+    "range": [
+      2137,
+      2143
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 2143,
+    "end": 2144,
+    "range": [
+      2143,
+      2144
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "!",
+    "start": 2144,
+    "end": 2145,
+    "range": [
+      2144,
+      2145
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "re2",
+    "start": 2145,
+    "end": 2148,
+    "range": [
+      2145,
+      2148
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 2148,
+    "end": 2149,
+    "range": [
+      2148,
+      2149
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "test",
+    "start": 2149,
+    "end": 2153,
+    "range": [
+      2149,
+      2153
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 2153,
+    "end": 2154,
+    "range": [
+      2153,
+      2154
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"a\\na\"",
+    "start": 2154,
+    "end": 2160,
+    "range": [
+      2154,
+      2160
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 2160,
+    "end": 2161,
+    "range": [
+      2160,
+      2161
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 2161,
+    "end": 2162,
+    "range": [
+      2161,
+      2162
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"Alternative `(a.a)` should not match newline\"",
+    "start": 2163,
+    "end": 2209,
+    "range": [
+      2163,
+      2209
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 2209,
+    "end": 2210,
+    "range": [
+      2209,
+      2210
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 2210,
+    "end": 2211,
+    "range": [
+      2210,
+      2211
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "assert",
+    "start": 2212,
+    "end": 2218,
+    "range": [
+      2212,
+      2218
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 2218,
+    "end": 2219,
+    "range": [
+      2218,
+      2219
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "!",
+    "start": 2219,
+    "end": 2220,
+    "range": [
+      2219,
+      2220
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "re2",
+    "start": 2220,
+    "end": 2223,
+    "range": [
+      2220,
+      2223
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 2223,
+    "end": 2224,
+    "range": [
+      2223,
+      2224
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "test",
+    "start": 2224,
+    "end": 2228,
+    "range": [
+      2224,
+      2228
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 2228,
+    "end": 2229,
+    "range": [
+      2228,
+      2229
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"b\\nb\"",
+    "start": 2229,
+    "end": 2235,
+    "range": [
+      2229,
+      2235
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 2235,
+    "end": 2236,
+    "range": [
+      2235,
+      2236
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 2236,
+    "end": 2237,
+    "range": [
+      2236,
+      2237
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"Alternative `(?:b.b)` should not match newline\"",
+    "start": 2238,
+    "end": 2286,
+    "range": [
+      2238,
+      2286
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 2286,
+    "end": 2287,
+    "range": [
+      2286,
+      2287
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 2287,
+    "end": 2288,
+    "range": [
+      2287,
+      2288
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "assert",
+    "start": 2289,
+    "end": 2295,
+    "range": [
+      2289,
+      2295
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 2295,
+    "end": 2296,
+    "range": [
+      2295,
+      2296
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "re2",
+    "start": 2296,
+    "end": 2299,
+    "range": [
+      2296,
+      2299
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 2299,
+    "end": 2300,
+    "range": [
+      2299,
+      2300
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "test",
+    "start": 2300,
+    "end": 2304,
+    "range": [
+      2300,
+      2304
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 2304,
+    "end": 2305,
+    "range": [
+      2304,
+      2305
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"c\\nc\"",
+    "start": 2305,
+    "end": 2311,
+    "range": [
+      2305,
+      2311
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 2311,
+    "end": 2312,
+    "range": [
+      2311,
+      2312
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 2312,
+    "end": 2313,
+    "range": [
+      2312,
+      2313
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"Alternative `(?s:c.c)` should match newline in modified group\"",
+    "start": 2314,
+    "end": 2377,
+    "range": [
+      2314,
+      2377
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 2377,
+    "end": 2378,
+    "range": [
+      2377,
+      2378
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 2378,
+    "end": 2379,
+    "range": [
+      2378,
+      2379
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "assert",
+    "start": 2380,
+    "end": 2386,
+    "range": [
+      2380,
+      2386
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 2386,
+    "end": 2387,
+    "range": [
+      2386,
+      2387
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "!",
+    "start": 2387,
+    "end": 2388,
+    "range": [
+      2387,
+      2388
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "re2",
+    "start": 2388,
+    "end": 2391,
+    "range": [
+      2388,
+      2391
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 2391,
+    "end": 2392,
+    "range": [
+      2391,
+      2392
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "test",
+    "start": 2392,
+    "end": 2396,
+    "range": [
+      2392,
+      2396
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 2396,
+    "end": 2397,
+    "range": [
+      2396,
+      2397
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"d\\nd\"",
+    "start": 2397,
+    "end": 2403,
+    "range": [
+      2397,
+      2403
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 2403,
+    "end": 2404,
+    "range": [
+      2403,
+      2404
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 2404,
+    "end": 2405,
+    "range": [
+      2404,
+      2405
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"Alternative `(?:d.d)` should not match newline\"",
+    "start": 2406,
+    "end": 2454,
+    "range": [
+      2406,
+      2454
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 2454,
+    "end": 2455,
+    "range": [
+      2454,
+      2455
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 2455,
+    "end": 2456,
+    "range": [
+      2455,
+      2456
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "assert",
+    "start": 2457,
+    "end": 2463,
+    "range": [
+      2457,
+      2463
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 2463,
+    "end": 2464,
+    "range": [
+      2463,
+      2464
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "!",
+    "start": 2464,
+    "end": 2465,
+    "range": [
+      2464,
+      2465
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "re2",
+    "start": 2465,
+    "end": 2468,
+    "range": [
+      2465,
+      2468
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 2468,
+    "end": 2469,
+    "range": [
+      2468,
+      2469
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "test",
+    "start": 2469,
+    "end": 2473,
+    "range": [
+      2469,
+      2473
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 2473,
+    "end": 2474,
+    "range": [
+      2473,
+      2474
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"e\\ne\"",
+    "start": 2474,
+    "end": 2480,
+    "range": [
+      2474,
+      2480
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 2480,
+    "end": 2481,
+    "range": [
+      2480,
+      2481
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 2481,
+    "end": 2482,
+    "range": [
+      2481,
+      2482
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"Alternative `(e.e)` should not match newline\"",
+    "start": 2483,
+    "end": 2529,
+    "range": [
+      2483,
+      2529
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 2529,
+    "end": 2530,
+    "range": [
+      2529,
+      2530
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 2530,
+    "end": 2531,
+    "range": [
+      2530,
+      2531
+    ]
+  }
+]

@@ -1,0 +1,1012 @@
+[
+  {
+    "type": "Keyword",
+    "value": "const",
+    "start": 245,
+    "end": 250,
+    "range": [
+      245,
+      250
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "invalidStrings",
+    "start": 251,
+    "end": 265,
+    "range": [
+      251,
+      265
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "=",
+    "start": 266,
+    "end": 267,
+    "range": [
+      266,
+      267
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "[",
+    "start": 268,
+    "end": 269,
+    "range": [
+      268,
+      269
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "[",
+    "start": 272,
+    "end": 273,
+    "range": [
+      272,
+      273
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"00:00[U-CA=iso8601]\"",
+    "start": 273,
+    "end": 294,
+    "range": [
+      273,
+      294
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 294,
+    "end": 295,
+    "range": [
+      294,
+      295
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"invalid capitalized key, time-only\"",
+    "start": 296,
+    "end": 332,
+    "range": [
+      296,
+      332
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "]",
+    "start": 332,
+    "end": 333,
+    "range": [
+      332,
+      333
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 333,
+    "end": 334,
+    "range": [
+      333,
+      334
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "[",
+    "start": 337,
+    "end": 338,
+    "range": [
+      337,
+      338
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"T00:00[U-CA=iso8601]\"",
+    "start": 338,
+    "end": 360,
+    "range": [
+      338,
+      360
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 360,
+    "end": 361,
+    "range": [
+      360,
+      361
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"invalid capitalized key, time designator\"",
+    "start": 362,
+    "end": 404,
+    "range": [
+      362,
+      404
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "]",
+    "start": 404,
+    "end": 405,
+    "range": [
+      404,
+      405
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 405,
+    "end": 406,
+    "range": [
+      405,
+      406
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "[",
+    "start": 409,
+    "end": 410,
+    "range": [
+      409,
+      410
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"1970-01-01T00:00[U-CA=iso8601]\"",
+    "start": 410,
+    "end": 442,
+    "range": [
+      410,
+      442
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 442,
+    "end": 443,
+    "range": [
+      442,
+      443
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"invalid capitalized key\"",
+    "start": 444,
+    "end": 469,
+    "range": [
+      444,
+      469
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "]",
+    "start": 469,
+    "end": 470,
+    "range": [
+      469,
+      470
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 470,
+    "end": 471,
+    "range": [
+      470,
+      471
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "[",
+    "start": 474,
+    "end": 475,
+    "range": [
+      474,
+      475
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"00:00[u-CA=iso8601]\"",
+    "start": 475,
+    "end": 496,
+    "range": [
+      475,
+      496
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 496,
+    "end": 497,
+    "range": [
+      496,
+      497
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"invalid partially-capitalized key, time-only\"",
+    "start": 498,
+    "end": 544,
+    "range": [
+      498,
+      544
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "]",
+    "start": 544,
+    "end": 545,
+    "range": [
+      544,
+      545
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 545,
+    "end": 546,
+    "range": [
+      545,
+      546
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "[",
+    "start": 549,
+    "end": 550,
+    "range": [
+      549,
+      550
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"T00:00[u-CA=iso8601]\"",
+    "start": 550,
+    "end": 572,
+    "range": [
+      550,
+      572
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 572,
+    "end": 573,
+    "range": [
+      572,
+      573
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"invalid partially-capitalized key, time designator\"",
+    "start": 574,
+    "end": 626,
+    "range": [
+      574,
+      626
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "]",
+    "start": 626,
+    "end": 627,
+    "range": [
+      626,
+      627
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 627,
+    "end": 628,
+    "range": [
+      627,
+      628
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "[",
+    "start": 631,
+    "end": 632,
+    "range": [
+      631,
+      632
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"1970-01-01T00:00[u-CA=iso8601]\"",
+    "start": 632,
+    "end": 664,
+    "range": [
+      632,
+      664
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 664,
+    "end": 665,
+    "range": [
+      664,
+      665
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"invalid partially-capitalized key\"",
+    "start": 666,
+    "end": 701,
+    "range": [
+      666,
+      701
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "]",
+    "start": 701,
+    "end": 702,
+    "range": [
+      701,
+      702
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 702,
+    "end": 703,
+    "range": [
+      702,
+      703
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "[",
+    "start": 706,
+    "end": 707,
+    "range": [
+      706,
+      707
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"00:00[FOO=bar]\"",
+    "start": 707,
+    "end": 723,
+    "range": [
+      707,
+      723
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 723,
+    "end": 724,
+    "range": [
+      723,
+      724
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"invalid capitalized unrecognized key, time-only\"",
+    "start": 725,
+    "end": 774,
+    "range": [
+      725,
+      774
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "]",
+    "start": 774,
+    "end": 775,
+    "range": [
+      774,
+      775
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 775,
+    "end": 776,
+    "range": [
+      775,
+      776
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "[",
+    "start": 779,
+    "end": 780,
+    "range": [
+      779,
+      780
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"T00:00[FOO=bar]\"",
+    "start": 780,
+    "end": 797,
+    "range": [
+      780,
+      797
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 797,
+    "end": 798,
+    "range": [
+      797,
+      798
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"invalid capitalized unrecognized key, time designator\"",
+    "start": 799,
+    "end": 854,
+    "range": [
+      799,
+      854
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "]",
+    "start": 854,
+    "end": 855,
+    "range": [
+      854,
+      855
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 855,
+    "end": 856,
+    "range": [
+      855,
+      856
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "[",
+    "start": 859,
+    "end": 860,
+    "range": [
+      859,
+      860
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"1970-01-01T00:00[FOO=bar]\"",
+    "start": 860,
+    "end": 887,
+    "range": [
+      860,
+      887
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 887,
+    "end": 888,
+    "range": [
+      887,
+      888
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"invalid capitalized unrecognized key\"",
+    "start": 889,
+    "end": 927,
+    "range": [
+      889,
+      927
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "]",
+    "start": 927,
+    "end": 928,
+    "range": [
+      927,
+      928
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 928,
+    "end": 929,
+    "range": [
+      928,
+      929
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "]",
+    "start": 930,
+    "end": 931,
+    "range": [
+      930,
+      931
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 931,
+    "end": 932,
+    "range": [
+      931,
+      932
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "invalidStrings",
+    "start": 934,
+    "end": 948,
+    "range": [
+      934,
+      948
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 948,
+    "end": 949,
+    "range": [
+      948,
+      949
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "forEach",
+    "start": 949,
+    "end": 956,
+    "range": [
+      949,
+      956
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 956,
+    "end": 957,
+    "range": [
+      956,
+      957
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 957,
+    "end": 958,
+    "range": [
+      957,
+      958
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "[",
+    "start": 958,
+    "end": 959,
+    "range": [
+      958,
+      959
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "arg",
+    "start": 959,
+    "end": 962,
+    "range": [
+      959,
+      962
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 962,
+    "end": 963,
+    "range": [
+      962,
+      963
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "descr",
+    "start": 964,
+    "end": 969,
+    "range": [
+      964,
+      969
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "]",
+    "start": 969,
+    "end": 970,
+    "range": [
+      969,
+      970
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 970,
+    "end": 971,
+    "range": [
+      970,
+      971
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "=>",
+    "start": 972,
+    "end": 974,
+    "range": [
+      972,
+      974
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "{",
+    "start": 975,
+    "end": 976,
+    "range": [
+      975,
+      976
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "assert",
+    "start": 979,
+    "end": 985,
+    "range": [
+      979,
+      985
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 985,
+    "end": 986,
+    "range": [
+      985,
+      986
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "throws",
+    "start": 986,
+    "end": 992,
+    "range": [
+      986,
+      992
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 992,
+    "end": 993,
+    "range": [
+      992,
+      993
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "RangeError",
+    "start": 998,
+    "end": 1008,
+    "range": [
+      998,
+      1008
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 1008,
+    "end": 1009,
+    "range": [
+      1008,
+      1009
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 1014,
+    "end": 1015,
+    "range": [
+      1014,
+      1015
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 1015,
+    "end": 1016,
+    "range": [
+      1015,
+      1016
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "=>",
+    "start": 1017,
+    "end": 1019,
+    "range": [
+      1017,
+      1019
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "Temporal",
+    "start": 1020,
+    "end": 1028,
+    "range": [
+      1020,
+      1028
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 1028,
+    "end": 1029,
+    "range": [
+      1028,
+      1029
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "PlainTime",
+    "start": 1029,
+    "end": 1038,
+    "range": [
+      1029,
+      1038
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 1038,
+    "end": 1039,
+    "range": [
+      1038,
+      1039
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "from",
+    "start": 1039,
+    "end": 1043,
+    "range": [
+      1039,
+      1043
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 1043,
+    "end": 1044,
+    "range": [
+      1043,
+      1044
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "arg",
+    "start": 1044,
+    "end": 1047,
+    "range": [
+      1044,
+      1047
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 1047,
+    "end": 1048,
+    "range": [
+      1047,
+      1048
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 1048,
+    "end": 1049,
+    "range": [
+      1048,
+      1049
+    ]
+  },
+  {
+    "type": "Template",
+    "value": "`annotation keys must be lowercase: ${",
+    "start": 1054,
+    "end": 1092,
+    "range": [
+      1054,
+      1092
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "arg",
+    "start": 1092,
+    "end": 1095,
+    "range": [
+      1092,
+      1095
+    ]
+  },
+  {
+    "type": "Template",
+    "value": "} - ${",
+    "start": 1095,
+    "end": 1101,
+    "range": [
+      1095,
+      1101
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "descr",
+    "start": 1101,
+    "end": 1106,
+    "range": [
+      1101,
+      1106
+    ]
+  },
+  {
+    "type": "Template",
+    "value": "}`",
+    "start": 1106,
+    "end": 1108,
+    "range": [
+      1106,
+      1108
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 1111,
+    "end": 1112,
+    "range": [
+      1111,
+      1112
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 1112,
+    "end": 1113,
+    "range": [
+      1112,
+      1113
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "}",
+    "start": 1114,
+    "end": 1115,
+    "range": [
+      1114,
+      1115
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 1115,
+    "end": 1116,
+    "range": [
+      1115,
+      1116
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 1116,
+    "end": 1117,
+    "range": [
+      1116,
+      1117
+    ]
+  }
+]

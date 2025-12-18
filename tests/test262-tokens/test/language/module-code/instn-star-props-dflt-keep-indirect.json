@@ -1,0 +1,182 @@
+[
+  {
+    "type": "Keyword",
+    "value": "import",
+    "start": 1044,
+    "end": 1050,
+    "range": [
+      1044,
+      1050
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "*",
+    "start": 1051,
+    "end": 1052,
+    "range": [
+      1051,
+      1052
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "as",
+    "start": 1053,
+    "end": 1055,
+    "range": [
+      1053,
+      1055
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "ns",
+    "start": 1056,
+    "end": 1058,
+    "range": [
+      1056,
+      1058
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "from",
+    "start": 1059,
+    "end": 1063,
+    "range": [
+      1059,
+      1063
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'./instn-star-props-dflt-keep-indirect-reexport_FIXTURE.js'",
+    "start": 1064,
+    "end": 1123,
+    "range": [
+      1064,
+      1123
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 1123,
+    "end": 1124,
+    "range": [
+      1123,
+      1124
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "assert",
+    "start": 1126,
+    "end": 1132,
+    "range": [
+      1126,
+      1132
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 1132,
+    "end": 1133,
+    "range": [
+      1132,
+      1133
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "sameValue",
+    "start": 1133,
+    "end": 1142,
+    "range": [
+      1133,
+      1142
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 1142,
+    "end": 1143,
+    "range": [
+      1142,
+      1143
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'default'",
+    "start": 1143,
+    "end": 1152,
+    "range": [
+      1143,
+      1152
+    ]
+  },
+  {
+    "type": "Keyword",
+    "value": "in",
+    "start": 1153,
+    "end": 1155,
+    "range": [
+      1153,
+      1155
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "ns",
+    "start": 1156,
+    "end": 1158,
+    "range": [
+      1156,
+      1158
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 1158,
+    "end": 1159,
+    "range": [
+      1158,
+      1159
+    ]
+  },
+  {
+    "type": "Boolean",
+    "value": "true",
+    "start": 1160,
+    "end": 1164,
+    "range": [
+      1160,
+      1164
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 1164,
+    "end": 1165,
+    "range": [
+      1164,
+      1165
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 1165,
+    "end": 1166,
+    "range": [
+      1165,
+      1166
+    ]
+  }
+]

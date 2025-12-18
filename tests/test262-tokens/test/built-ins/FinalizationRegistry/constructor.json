@@ -1,0 +1,122 @@
+[
+  {
+    "type": "Identifier",
+    "value": "assert",
+    "start": 401,
+    "end": 407,
+    "range": [
+      401,
+      407
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 407,
+    "end": 408,
+    "range": [
+      407,
+      408
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "sameValue",
+    "start": 408,
+    "end": 417,
+    "range": [
+      408,
+      417
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 417,
+    "end": 418,
+    "range": [
+      417,
+      418
+    ]
+  },
+  {
+    "type": "Keyword",
+    "value": "typeof",
+    "start": 421,
+    "end": 427,
+    "range": [
+      421,
+      427
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "FinalizationRegistry",
+    "start": 428,
+    "end": 448,
+    "range": [
+      428,
+      448
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 448,
+    "end": 449,
+    "range": [
+      448,
+      449
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'function'",
+    "start": 450,
+    "end": 460,
+    "range": [
+      450,
+      460
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 460,
+    "end": 461,
+    "range": [
+      460,
+      461
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'typeof FinalizationRegistry is function'",
+    "start": 464,
+    "end": 505,
+    "range": [
+      464,
+      505
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 506,
+    "end": 507,
+    "range": [
+      506,
+      507
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 507,
+    "end": 508,
+    "range": [
+      507,
+      508
+    ]
+  }
+]

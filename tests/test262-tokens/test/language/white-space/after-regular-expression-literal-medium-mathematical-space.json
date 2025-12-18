@@ -1,0 +1,26 @@
+[
+  {
+    "type": "RegularExpression",
+    "value": "/x/g",
+    "regex": {
+      "flags": "g",
+      "pattern": "x"
+    },
+    "start": 1824,
+    "end": 1828,
+    "range": [
+      1824,
+      1828
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 1829,
+    "end": 1830,
+    "range": [
+      1829,
+      1830
+    ]
+  }
+]

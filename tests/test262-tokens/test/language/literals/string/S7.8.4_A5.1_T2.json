@@ -1,0 +1,152 @@
+[
+  {
+    "type": "Keyword",
+    "value": "if",
+    "start": 232,
+    "end": 234,
+    "range": [
+      232,
+      234
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 235,
+    "end": 236,
+    "range": [
+      235,
+      236
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"\\u0000\"",
+    "start": 236,
+    "end": 244,
+    "range": [
+      236,
+      244
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "!==",
+    "start": 245,
+    "end": 248,
+    "range": [
+      245,
+      248
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"\\0\"",
+    "start": 249,
+    "end": 253,
+    "range": [
+      249,
+      253
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 253,
+    "end": 254,
+    "range": [
+      253,
+      254
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "{",
+    "start": 255,
+    "end": 256,
+    "range": [
+      255,
+      256
+    ]
+  },
+  {
+    "type": "Keyword",
+    "value": "throw",
+    "start": 259,
+    "end": 264,
+    "range": [
+      259,
+      264
+    ]
+  },
+  {
+    "type": "Keyword",
+    "value": "new",
+    "start": 265,
+    "end": 268,
+    "range": [
+      265,
+      268
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "Test262Error",
+    "start": 269,
+    "end": 281,
+    "range": [
+      269,
+      281
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 281,
+    "end": 282,
+    "range": [
+      281,
+      282
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'#1: \"\\\\u0000\" === \"\\\\0\"'",
+    "start": 282,
+    "end": 307,
+    "range": [
+      282,
+      307
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 307,
+    "end": 308,
+    "range": [
+      307,
+      308
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 308,
+    "end": 309,
+    "range": [
+      308,
+      309
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "}",
+    "start": 310,
+    "end": 311,
+    "range": [
+      310,
+      311
+    ]
+  }
+]

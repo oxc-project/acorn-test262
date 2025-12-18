@@ -1,0 +1,152 @@
+[
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 1083,
+    "end": 1084,
+    "range": [
+      1083,
+      1084
+    ]
+  },
+  {
+    "type": "Numeric",
+    "value": "0",
+    "start": 1084,
+    "end": 1085,
+    "range": [
+      1084,
+      1085
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 1085,
+    "end": 1086,
+    "range": [
+      1085,
+      1086
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "eval",
+    "start": 1086,
+    "end": 1090,
+    "range": [
+      1086,
+      1090
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 1090,
+    "end": 1091,
+    "range": [
+      1090,
+      1091
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 1091,
+    "end": 1092,
+    "range": [
+      1091,
+      1092
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'switch (1) {'",
+    "start": 1095,
+    "end": 1109,
+    "range": [
+      1095,
+      1109
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "+",
+    "start": 1110,
+    "end": 1111,
+    "range": [
+      1110,
+      1111
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'  case 1:'",
+    "start": 1114,
+    "end": 1125,
+    "range": [
+      1114,
+      1125
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "+",
+    "start": 1126,
+    "end": 1127,
+    "range": [
+      1126,
+      1127
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'    function f() { return \"declaration\"; }'",
+    "start": 1130,
+    "end": 1174,
+    "range": [
+      1130,
+      1174
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "+",
+    "start": 1175,
+    "end": 1176,
+    "range": [
+      1175,
+      1176
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'}\\\n  assert.sameValue(typeof f, \"function\");\\\n  assert.sameValue(f(), \"declaration\");'",
+    "start": 1179,
+    "end": 1266,
+    "range": [
+      1179,
+      1266
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 1267,
+    "end": 1268,
+    "range": [
+      1267,
+      1268
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 1268,
+    "end": 1269,
+    "range": [
+      1268,
+      1269
+    ]
+  }
+]

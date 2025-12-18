@@ -1,0 +1,132 @@
+[
+  {
+    "type": "Keyword",
+    "value": "var",
+    "start": 1210,
+    "end": 1213,
+    "range": [
+      1210,
+      1213
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "result",
+    "start": 1214,
+    "end": 1220,
+    "range": [
+      1214,
+      1220
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "=",
+    "start": 1221,
+    "end": 1222,
+    "range": [
+      1221,
+      1222
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "eval",
+    "start": 1223,
+    "end": 1227,
+    "range": [
+      1223,
+      1227
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 1227,
+    "end": 1228,
+    "range": [
+      1227,
+      1228
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'{length: 3000}() => { return 42; };'",
+    "start": 1228,
+    "end": 1265,
+    "range": [
+      1228,
+      1265
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 1265,
+    "end": 1266,
+    "range": [
+      1265,
+      1266
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 1266,
+    "end": 1267,
+    "range": [
+      1266,
+      1267
+    ]
+  },
+  {
+    "type": "Keyword",
+    "value": "var",
+    "start": 1322,
+    "end": 1325,
+    "range": [
+      1322,
+      1325
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "expected",
+    "start": 1326,
+    "end": 1334,
+    "range": [
+      1326,
+      1334
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "=",
+    "start": 1335,
+    "end": 1336,
+    "range": [
+      1335,
+      1336
+    ]
+  },
+  {
+    "type": "Numeric",
+    "value": "3000",
+    "start": 1337,
+    "end": 1341,
+    "range": [
+      1337,
+      1341
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 1341,
+    "end": 1342,
+    "range": [
+      1341,
+      1342
+    ]
+  }
+]

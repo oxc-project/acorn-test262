@@ -1,0 +1,42 @@
+[
+  {
+    "type": "Keyword",
+    "value": "void",
+    "start": 1132,
+    "end": 1136,
+    "range": [
+      1132,
+      1136
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "await",
+    "start": 1137,
+    "end": 1142,
+    "range": [
+      1137,
+      1142
+    ]
+  },
+  {
+    "type": "Numeric",
+    "value": "1",
+    "start": 1143,
+    "end": 1144,
+    "range": [
+      1143,
+      1144
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 1144,
+    "end": 1145,
+    "range": [
+      1144,
+      1145
+    ]
+  }
+]

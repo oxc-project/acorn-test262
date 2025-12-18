@@ -1,0 +1,142 @@
+[
+  {
+    "type": "Identifier",
+    "value": "assert",
+    "start": 271,
+    "end": 277,
+    "range": [
+      271,
+      277
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 277,
+    "end": 278,
+    "range": [
+      277,
+      278
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "sameValue",
+    "start": 278,
+    "end": 287,
+    "range": [
+      278,
+      287
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 287,
+    "end": 288,
+    "range": [
+      287,
+      288
+    ]
+  },
+  {
+    "type": "Keyword",
+    "value": "typeof",
+    "start": 288,
+    "end": 294,
+    "range": [
+      288,
+      294
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "Iterator",
+    "start": 295,
+    "end": 303,
+    "range": [
+      295,
+      303
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 303,
+    "end": 304,
+    "range": [
+      303,
+      304
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "prototype",
+    "start": 304,
+    "end": 313,
+    "range": [
+      304,
+      313
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 313,
+    "end": 314,
+    "range": [
+      313,
+      314
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "reduce",
+    "start": 314,
+    "end": 320,
+    "range": [
+      314,
+      320
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 320,
+    "end": 321,
+    "range": [
+      320,
+      321
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'function'",
+    "start": 322,
+    "end": 332,
+    "range": [
+      322,
+      332
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 332,
+    "end": 333,
+    "range": [
+      332,
+      333
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 333,
+    "end": 334,
+    "range": [
+      333,
+      334
+    ]
+  }
+]

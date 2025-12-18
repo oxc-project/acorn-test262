@@ -1,0 +1,146 @@
+[
+  {
+    "type": "Identifier",
+    "value": "assert",
+    "start": 1050,
+    "end": 1056,
+    "range": [
+      1050,
+      1056
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 1056,
+    "end": 1057,
+    "range": [
+      1056,
+      1057
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "sameValue",
+    "start": 1057,
+    "end": 1066,
+    "range": [
+      1057,
+      1066
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 1066,
+    "end": 1067,
+    "range": [
+      1066,
+      1067
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"abcdbc\"",
+    "start": 1067,
+    "end": 1075,
+    "range": [
+      1067,
+      1075
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 1075,
+    "end": 1076,
+    "range": [
+      1075,
+      1076
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "match",
+    "start": 1076,
+    "end": 1081,
+    "range": [
+      1076,
+      1081
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 1081,
+    "end": 1082,
+    "range": [
+      1081,
+      1082
+    ]
+  },
+  {
+    "type": "RegularExpression",
+    "value": "/(?<=([abc]+)).\\1/",
+    "regex": {
+      "flags": "",
+      "pattern": "(?<=([abc]+)).\\1"
+    },
+    "start": 1082,
+    "end": 1100,
+    "range": [
+      1082,
+      1100
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 1100,
+    "end": 1101,
+    "range": [
+      1100,
+      1101
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 1101,
+    "end": 1102,
+    "range": [
+      1101,
+      1102
+    ]
+  },
+  {
+    "type": "Null",
+    "value": "null",
+    "start": 1103,
+    "end": 1107,
+    "range": [
+      1103,
+      1107
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 1107,
+    "end": 1108,
+    "range": [
+      1107,
+      1108
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 1108,
+    "end": 1109,
+    "range": [
+      1108,
+      1109
+    ]
+  }
+]

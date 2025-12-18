@@ -1,0 +1,56 @@
+[
+  {
+    "type": "Keyword",
+    "value": "export",
+    "start": 2054,
+    "end": 2060,
+    "range": [
+      2054,
+      2060
+    ]
+  },
+  {
+    "type": "Keyword",
+    "value": "default",
+    "start": 2061,
+    "end": 2068,
+    "range": [
+      2061,
+      2068
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "await",
+    "start": 2069,
+    "end": 2074,
+    "range": [
+      2069,
+      2074
+    ]
+  },
+  {
+    "type": "RegularExpression",
+    "value": "/1/",
+    "regex": {
+      "flags": "",
+      "pattern": "1"
+    },
+    "start": 2075,
+    "end": 2078,
+    "range": [
+      2075,
+      2078
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 2078,
+    "end": 2079,
+    "range": [
+      2078,
+      2079
+    ]
+  }
+]

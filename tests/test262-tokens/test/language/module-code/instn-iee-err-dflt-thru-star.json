@@ -1,0 +1,112 @@
+[
+  {
+    "type": "Identifier",
+    "value": "$DONOTEVALUATE",
+    "start": 911,
+    "end": 925,
+    "range": [
+      911,
+      925
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 925,
+    "end": 926,
+    "range": [
+      925,
+      926
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 926,
+    "end": 927,
+    "range": [
+      926,
+      927
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 927,
+    "end": 928,
+    "range": [
+      927,
+      928
+    ]
+  },
+  {
+    "type": "Keyword",
+    "value": "export",
+    "start": 930,
+    "end": 936,
+    "range": [
+      930,
+      936
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "{",
+    "start": 937,
+    "end": 938,
+    "range": [
+      937,
+      938
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "default",
+    "start": 939,
+    "end": 946,
+    "range": [
+      939,
+      946
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "}",
+    "start": 947,
+    "end": 948,
+    "range": [
+      947,
+      948
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "from",
+    "start": 949,
+    "end": 953,
+    "range": [
+      949,
+      953
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'./instn-iee-err-dflt-thru-star-int_FIXTURE.js'",
+    "start": 954,
+    "end": 1001,
+    "range": [
+      954,
+      1001
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 1001,
+    "end": 1002,
+    "range": [
+      1001,
+      1002
+    ]
+  }
+]

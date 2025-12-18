@@ -1,0 +1,2852 @@
+[
+  {
+    "type": "Keyword",
+    "value": "const",
+    "start": 291,
+    "end": 296,
+    "range": [
+      291,
+      296
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "testCases",
+    "start": 297,
+    "end": 306,
+    "range": [
+      297,
+      306
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "=",
+    "start": 307,
+    "end": 308,
+    "range": [
+      307,
+      308
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "[",
+    "start": 309,
+    "end": 310,
+    "range": [
+      309,
+      310
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"Africa/Asmera\"",
+    "start": 313,
+    "end": 328,
+    "range": [
+      313,
+      328
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 328,
+    "end": 329,
+    "range": [
+      328,
+      329
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"Africa/Timbuktu\"",
+    "start": 382,
+    "end": 399,
+    "range": [
+      382,
+      399
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 399,
+    "end": 400,
+    "range": [
+      399,
+      400
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"America/Argentina/ComodRivadavia\"",
+    "start": 455,
+    "end": 489,
+    "range": [
+      455,
+      489
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 489,
+    "end": 490,
+    "range": [
+      489,
+      490
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"America/Atka\"",
+    "start": 570,
+    "end": 584,
+    "range": [
+      570,
+      584
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 584,
+    "end": 585,
+    "range": [
+      584,
+      585
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"America/Buenos_Aires\"",
+    "start": 637,
+    "end": 659,
+    "range": [
+      637,
+      659
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 659,
+    "end": 660,
+    "range": [
+      659,
+      660
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"America/Catamarca\"",
+    "start": 728,
+    "end": 747,
+    "range": [
+      728,
+      747
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 747,
+    "end": 748,
+    "range": [
+      747,
+      748
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"America/Coral_Harbour\"",
+    "start": 813,
+    "end": 836,
+    "range": [
+      813,
+      836
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 836,
+    "end": 837,
+    "range": [
+      836,
+      837
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"America/Cordoba\"",
+    "start": 898,
+    "end": 915,
+    "range": [
+      898,
+      915
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 915,
+    "end": 916,
+    "range": [
+      915,
+      916
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"America/Ensenada\"",
+    "start": 979,
+    "end": 997,
+    "range": [
+      979,
+      997
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 997,
+    "end": 998,
+    "range": [
+      997,
+      998
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"America/Fort_Wayne\"",
+    "start": 1054,
+    "end": 1074,
+    "range": [
+      1054,
+      1074
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 1074,
+    "end": 1075,
+    "range": [
+      1074,
+      1075
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"America/Godthab\"",
+    "start": 1141,
+    "end": 1158,
+    "range": [
+      1141,
+      1158
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 1158,
+    "end": 1159,
+    "range": [
+      1158,
+      1159
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"America/Indianapolis\"",
+    "start": 1214,
+    "end": 1236,
+    "range": [
+      1214,
+      1236
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 1236,
+    "end": 1237,
+    "range": [
+      1236,
+      1237
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"America/Jujuy\"",
+    "start": 1305,
+    "end": 1320,
+    "range": [
+      1305,
+      1320
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 1320,
+    "end": 1321,
+    "range": [
+      1320,
+      1321
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"America/Knox_IN\"",
+    "start": 1374,
+    "end": 1391,
+    "range": [
+      1374,
+      1391
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 1391,
+    "end": 1392,
+    "range": [
+      1391,
+      1392
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"America/Louisville\"",
+    "start": 1447,
+    "end": 1467,
+    "range": [
+      1447,
+      1467
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 1467,
+    "end": 1468,
+    "range": [
+      1467,
+      1468
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"America/Mendoza\"",
+    "start": 1534,
+    "end": 1551,
+    "range": [
+      1534,
+      1551
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 1551,
+    "end": 1552,
+    "range": [
+      1551,
+      1552
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"America/Montreal\"",
+    "start": 1615,
+    "end": 1633,
+    "range": [
+      1615,
+      1633
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 1633,
+    "end": 1634,
+    "range": [
+      1633,
+      1634
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"America/Porto_Acre\"",
+    "start": 1690,
+    "end": 1710,
+    "range": [
+      1690,
+      1710
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 1710,
+    "end": 1711,
+    "range": [
+      1710,
+      1711
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"America/Rosario\"",
+    "start": 1769,
+    "end": 1786,
+    "range": [
+      1769,
+      1786
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 1786,
+    "end": 1787,
+    "range": [
+      1786,
+      1787
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"America/Santa_Isabel\"",
+    "start": 1850,
+    "end": 1872,
+    "range": [
+      1850,
+      1872
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 1872,
+    "end": 1873,
+    "range": [
+      1872,
+      1873
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"America/Shiprock\"",
+    "start": 1933,
+    "end": 1951,
+    "range": [
+      1933,
+      1951
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 1951,
+    "end": 1952,
+    "range": [
+      1951,
+      1952
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"America/Virgin\"",
+    "start": 2008,
+    "end": 2024,
+    "range": [
+      2008,
+      2024
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 2024,
+    "end": 2025,
+    "range": [
+      2024,
+      2025
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"Antarctica/South_Pole\"",
+    "start": 2079,
+    "end": 2102,
+    "range": [
+      2079,
+      2102
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 2102,
+    "end": 2103,
+    "range": [
+      2102,
+      2103
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"Asia/Ashkhabad\"",
+    "start": 2164,
+    "end": 2180,
+    "range": [
+      2164,
+      2180
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 2180,
+    "end": 2181,
+    "range": [
+      2180,
+      2181
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"Asia/Calcutta\"",
+    "start": 2235,
+    "end": 2250,
+    "range": [
+      2235,
+      2250
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 2250,
+    "end": 2251,
+    "range": [
+      2250,
+      2251
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"Asia/Chongqing\"",
+    "start": 2304,
+    "end": 2320,
+    "range": [
+      2304,
+      2320
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 2320,
+    "end": 2321,
+    "range": [
+      2320,
+      2321
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"Asia/Chungking\"",
+    "start": 2375,
+    "end": 2391,
+    "range": [
+      2375,
+      2391
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 2391,
+    "end": 2392,
+    "range": [
+      2391,
+      2392
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"Asia/Dacca\"",
+    "start": 2446,
+    "end": 2458,
+    "range": [
+      2446,
+      2458
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 2458,
+    "end": 2459,
+    "range": [
+      2458,
+      2459
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"Asia/Harbin\"",
+    "start": 2509,
+    "end": 2522,
+    "range": [
+      2509,
+      2522
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 2522,
+    "end": 2523,
+    "range": [
+      2522,
+      2523
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"Asia/Kashgar\"",
+    "start": 2574,
+    "end": 2588,
+    "range": [
+      2574,
+      2588
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 2588,
+    "end": 2589,
+    "range": [
+      2588,
+      2589
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"Asia/Katmandu\"",
+    "start": 2641,
+    "end": 2656,
+    "range": [
+      2641,
+      2656
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 2656,
+    "end": 2657,
+    "range": [
+      2656,
+      2657
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"Asia/Macao\"",
+    "start": 2710,
+    "end": 2722,
+    "range": [
+      2710,
+      2722
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 2722,
+    "end": 2723,
+    "range": [
+      2722,
+      2723
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"Asia/Rangoon\"",
+    "start": 2773,
+    "end": 2787,
+    "range": [
+      2773,
+      2787
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 2787,
+    "end": 2788,
+    "range": [
+      2787,
+      2788
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"Asia/Saigon\"",
+    "start": 2840,
+    "end": 2853,
+    "range": [
+      2840,
+      2853
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 2853,
+    "end": 2854,
+    "range": [
+      2853,
+      2854
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"Asia/Tel_Aviv\"",
+    "start": 2905,
+    "end": 2920,
+    "range": [
+      2905,
+      2920
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 2920,
+    "end": 2921,
+    "range": [
+      2920,
+      2921
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"Asia/Thimbu\"",
+    "start": 2974,
+    "end": 2987,
+    "range": [
+      2974,
+      2987
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 2987,
+    "end": 2988,
+    "range": [
+      2987,
+      2988
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"Asia/Ujung_Pandang\"",
+    "start": 3039,
+    "end": 3059,
+    "range": [
+      3039,
+      3059
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 3059,
+    "end": 3060,
+    "range": [
+      3059,
+      3060
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"Asia/Ulan_Bator\"",
+    "start": 3118,
+    "end": 3135,
+    "range": [
+      3118,
+      3135
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 3135,
+    "end": 3136,
+    "range": [
+      3135,
+      3136
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"Atlantic/Faeroe\"",
+    "start": 3191,
+    "end": 3208,
+    "range": [
+      3191,
+      3208
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 3208,
+    "end": 3209,
+    "range": [
+      3208,
+      3209
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"Atlantic/Jan_Mayen\"",
+    "start": 3264,
+    "end": 3284,
+    "range": [
+      3264,
+      3284
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 3284,
+    "end": 3285,
+    "range": [
+      3284,
+      3285
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"Australia/ACT\"",
+    "start": 3343,
+    "end": 3358,
+    "range": [
+      3343,
+      3358
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 3358,
+    "end": 3359,
+    "range": [
+      3358,
+      3359
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"Australia/Canberra\"",
+    "start": 3412,
+    "end": 3432,
+    "range": [
+      3412,
+      3432
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 3432,
+    "end": 3433,
+    "range": [
+      3432,
+      3433
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"Australia/Currie\"",
+    "start": 3491,
+    "end": 3509,
+    "range": [
+      3491,
+      3509
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 3509,
+    "end": 3510,
+    "range": [
+      3509,
+      3510
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"Australia/LHI\"",
+    "start": 3566,
+    "end": 3581,
+    "range": [
+      3566,
+      3581
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 3581,
+    "end": 3582,
+    "range": [
+      3581,
+      3582
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"Australia/NSW\"",
+    "start": 3635,
+    "end": 3650,
+    "range": [
+      3635,
+      3650
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 3650,
+    "end": 3651,
+    "range": [
+      3650,
+      3651
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"Australia/North\"",
+    "start": 3704,
+    "end": 3721,
+    "range": [
+      3704,
+      3721
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 3721,
+    "end": 3722,
+    "range": [
+      3721,
+      3722
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"Australia/Queensland\"",
+    "start": 3777,
+    "end": 3799,
+    "range": [
+      3777,
+      3799
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 3799,
+    "end": 3800,
+    "range": [
+      3799,
+      3800
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"Australia/South\"",
+    "start": 3860,
+    "end": 3877,
+    "range": [
+      3860,
+      3877
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 3877,
+    "end": 3878,
+    "range": [
+      3877,
+      3878
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"Australia/Tasmania\"",
+    "start": 3933,
+    "end": 3953,
+    "range": [
+      3933,
+      3953
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 3953,
+    "end": 3954,
+    "range": [
+      3953,
+      3954
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"Australia/Victoria\"",
+    "start": 4012,
+    "end": 4032,
+    "range": [
+      4012,
+      4032
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 4032,
+    "end": 4033,
+    "range": [
+      4032,
+      4033
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"Australia/West\"",
+    "start": 4091,
+    "end": 4107,
+    "range": [
+      4091,
+      4107
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 4107,
+    "end": 4108,
+    "range": [
+      4107,
+      4108
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"Australia/Yancowinna\"",
+    "start": 4162,
+    "end": 4184,
+    "range": [
+      4162,
+      4184
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 4184,
+    "end": 4185,
+    "range": [
+      4184,
+      4185
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"Brazil/Acre\"",
+    "start": 4245,
+    "end": 4258,
+    "range": [
+      4245,
+      4258
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 4258,
+    "end": 4259,
+    "range": [
+      4258,
+      4259
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"Brazil/DeNoronha\"",
+    "start": 4310,
+    "end": 4328,
+    "range": [
+      4310,
+      4328
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 4328,
+    "end": 4329,
+    "range": [
+      4328,
+      4329
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"Brazil/East\"",
+    "start": 4385,
+    "end": 4398,
+    "range": [
+      4385,
+      4398
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 4398,
+    "end": 4399,
+    "range": [
+      4398,
+      4399
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"Brazil/West\"",
+    "start": 4450,
+    "end": 4463,
+    "range": [
+      4450,
+      4463
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 4463,
+    "end": 4464,
+    "range": [
+      4463,
+      4464
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"Canada/Atlantic\"",
+    "start": 4515,
+    "end": 4532,
+    "range": [
+      4515,
+      4532
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 4532,
+    "end": 4533,
+    "range": [
+      4532,
+      4533
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"Canada/Central\"",
+    "start": 4588,
+    "end": 4604,
+    "range": [
+      4588,
+      4604
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 4604,
+    "end": 4605,
+    "range": [
+      4604,
+      4605
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"Canada/Eastern\"",
+    "start": 4659,
+    "end": 4675,
+    "range": [
+      4659,
+      4675
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 4675,
+    "end": 4676,
+    "range": [
+      4675,
+      4676
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"Canada/Mountain\"",
+    "start": 4730,
+    "end": 4747,
+    "range": [
+      4730,
+      4747
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 4747,
+    "end": 4748,
+    "range": [
+      4747,
+      4748
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"Canada/Newfoundland\"",
+    "start": 4803,
+    "end": 4824,
+    "range": [
+      4803,
+      4824
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 4824,
+    "end": 4825,
+    "range": [
+      4824,
+      4825
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"Canada/Pacific\"",
+    "start": 4884,
+    "end": 4900,
+    "range": [
+      4884,
+      4900
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 4900,
+    "end": 4901,
+    "range": [
+      4900,
+      4901
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"Canada/Saskatchewan\"",
+    "start": 4955,
+    "end": 4976,
+    "range": [
+      4955,
+      4976
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 4976,
+    "end": 4977,
+    "range": [
+      4976,
+      4977
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"Canada/Yukon\"",
+    "start": 5036,
+    "end": 5050,
+    "range": [
+      5036,
+      5050
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 5050,
+    "end": 5051,
+    "range": [
+      5050,
+      5051
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"Chile/Continental\"",
+    "start": 5103,
+    "end": 5122,
+    "range": [
+      5103,
+      5122
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 5122,
+    "end": 5123,
+    "range": [
+      5122,
+      5123
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"Chile/EasterIsland\"",
+    "start": 5180,
+    "end": 5200,
+    "range": [
+      5180,
+      5200
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 5200,
+    "end": 5201,
+    "range": [
+      5200,
+      5201
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"Cuba\"",
+    "start": 5259,
+    "end": 5265,
+    "range": [
+      5259,
+      5265
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 5265,
+    "end": 5266,
+    "range": [
+      5265,
+      5266
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"Egypt\"",
+    "start": 5310,
+    "end": 5317,
+    "range": [
+      5310,
+      5317
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 5317,
+    "end": 5318,
+    "range": [
+      5317,
+      5318
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"Eire\"",
+    "start": 5363,
+    "end": 5369,
+    "range": [
+      5363,
+      5369
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 5369,
+    "end": 5370,
+    "range": [
+      5369,
+      5370
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"Etc/UCT\"",
+    "start": 5414,
+    "end": 5423,
+    "range": [
+      5414,
+      5423
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 5423,
+    "end": 5424,
+    "range": [
+      5423,
+      5424
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"Europe/Belfast\"",
+    "start": 5471,
+    "end": 5487,
+    "range": [
+      5471,
+      5487
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 5487,
+    "end": 5488,
+    "range": [
+      5487,
+      5488
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"Europe/Kiev\"",
+    "start": 5542,
+    "end": 5555,
+    "range": [
+      5542,
+      5555
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 5555,
+    "end": 5556,
+    "range": [
+      5555,
+      5556
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"Europe/Tiraspol\"",
+    "start": 5607,
+    "end": 5624,
+    "range": [
+      5607,
+      5624
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 5624,
+    "end": 5625,
+    "range": [
+      5624,
+      5625
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"GB\"",
+    "start": 5680,
+    "end": 5684,
+    "range": [
+      5680,
+      5684
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 5684,
+    "end": 5685,
+    "range": [
+      5684,
+      5685
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"GB-Eire\"",
+    "start": 5727,
+    "end": 5736,
+    "range": [
+      5727,
+      5736
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 5736,
+    "end": 5737,
+    "range": [
+      5736,
+      5737
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"GMT+0\"",
+    "start": 5784,
+    "end": 5791,
+    "range": [
+      5784,
+      5791
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 5791,
+    "end": 5792,
+    "range": [
+      5791,
+      5792
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"GMT-0\"",
+    "start": 5837,
+    "end": 5844,
+    "range": [
+      5837,
+      5844
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 5844,
+    "end": 5845,
+    "range": [
+      5844,
+      5845
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"GMT0\"",
+    "start": 5890,
+    "end": 5896,
+    "range": [
+      5890,
+      5896
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 5896,
+    "end": 5897,
+    "range": [
+      5896,
+      5897
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"Greenwich\"",
+    "start": 5941,
+    "end": 5952,
+    "range": [
+      5941,
+      5952
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 5952,
+    "end": 5953,
+    "range": [
+      5952,
+      5953
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"Hongkong\"",
+    "start": 6002,
+    "end": 6012,
+    "range": [
+      6002,
+      6012
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 6012,
+    "end": 6013,
+    "range": [
+      6012,
+      6013
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"Iceland\"",
+    "start": 6061,
+    "end": 6070,
+    "range": [
+      6061,
+      6070
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 6070,
+    "end": 6071,
+    "range": [
+      6070,
+      6071
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"Iran\"",
+    "start": 6118,
+    "end": 6124,
+    "range": [
+      6118,
+      6124
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 6124,
+    "end": 6125,
+    "range": [
+      6124,
+      6125
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"Israel\"",
+    "start": 6169,
+    "end": 6177,
+    "range": [
+      6169,
+      6177
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 6177,
+    "end": 6178,
+    "range": [
+      6177,
+      6178
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"Jamaica\"",
+    "start": 6224,
+    "end": 6233,
+    "range": [
+      6224,
+      6233
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 6233,
+    "end": 6234,
+    "range": [
+      6233,
+      6234
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"Japan\"",
+    "start": 6281,
+    "end": 6288,
+    "range": [
+      6281,
+      6288
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 6288,
+    "end": 6289,
+    "range": [
+      6288,
+      6289
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"Kwajalein\"",
+    "start": 6334,
+    "end": 6345,
+    "range": [
+      6334,
+      6345
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 6345,
+    "end": 6346,
+    "range": [
+      6345,
+      6346
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"Libya\"",
+    "start": 6395,
+    "end": 6402,
+    "range": [
+      6395,
+      6402
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 6402,
+    "end": 6403,
+    "range": [
+      6402,
+      6403
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"Mexico/BajaNorte\"",
+    "start": 6448,
+    "end": 6466,
+    "range": [
+      6448,
+      6466
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 6466,
+    "end": 6467,
+    "range": [
+      6466,
+      6467
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"Mexico/BajaSur\"",
+    "start": 6523,
+    "end": 6539,
+    "range": [
+      6523,
+      6539
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 6539,
+    "end": 6540,
+    "range": [
+      6539,
+      6540
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"Mexico/General\"",
+    "start": 6594,
+    "end": 6610,
+    "range": [
+      6594,
+      6610
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 6610,
+    "end": 6611,
+    "range": [
+      6610,
+      6611
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"NZ\"",
+    "start": 6665,
+    "end": 6669,
+    "range": [
+      6665,
+      6669
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 6669,
+    "end": 6670,
+    "range": [
+      6669,
+      6670
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"NZ-CHAT\"",
+    "start": 6712,
+    "end": 6721,
+    "range": [
+      6712,
+      6721
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 6721,
+    "end": 6722,
+    "range": [
+      6721,
+      6722
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"Navajo\"",
+    "start": 6769,
+    "end": 6777,
+    "range": [
+      6769,
+      6777
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 6777,
+    "end": 6778,
+    "range": [
+      6777,
+      6778
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"PRC\"",
+    "start": 6824,
+    "end": 6829,
+    "range": [
+      6824,
+      6829
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 6829,
+    "end": 6830,
+    "range": [
+      6829,
+      6830
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"Pacific/Enderbury\"",
+    "start": 6873,
+    "end": 6892,
+    "range": [
+      6873,
+      6892
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 6892,
+    "end": 6893,
+    "range": [
+      6892,
+      6893
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"Pacific/Johnston\"",
+    "start": 6950,
+    "end": 6968,
+    "range": [
+      6950,
+      6968
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 6968,
+    "end": 6969,
+    "range": [
+      6968,
+      6969
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"Pacific/Ponape\"",
+    "start": 7025,
+    "end": 7041,
+    "range": [
+      7025,
+      7041
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 7041,
+    "end": 7042,
+    "range": [
+      7041,
+      7042
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"Pacific/Samoa\"",
+    "start": 7096,
+    "end": 7111,
+    "range": [
+      7096,
+      7111
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 7111,
+    "end": 7112,
+    "range": [
+      7111,
+      7112
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"Pacific/Truk\"",
+    "start": 7165,
+    "end": 7179,
+    "range": [
+      7165,
+      7179
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 7179,
+    "end": 7180,
+    "range": [
+      7179,
+      7180
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"Pacific/Yap\"",
+    "start": 7232,
+    "end": 7245,
+    "range": [
+      7232,
+      7245
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 7245,
+    "end": 7246,
+    "range": [
+      7245,
+      7246
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"Poland\"",
+    "start": 7297,
+    "end": 7305,
+    "range": [
+      7297,
+      7305
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 7305,
+    "end": 7306,
+    "range": [
+      7305,
+      7306
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"Portugal\"",
+    "start": 7352,
+    "end": 7362,
+    "range": [
+      7352,
+      7362
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 7362,
+    "end": 7363,
+    "range": [
+      7362,
+      7363
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"ROC\"",
+    "start": 7411,
+    "end": 7416,
+    "range": [
+      7411,
+      7416
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 7416,
+    "end": 7417,
+    "range": [
+      7416,
+      7417
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"ROK\"",
+    "start": 7460,
+    "end": 7465,
+    "range": [
+      7460,
+      7465
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 7465,
+    "end": 7466,
+    "range": [
+      7465,
+      7466
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"Singapore\"",
+    "start": 7509,
+    "end": 7520,
+    "range": [
+      7509,
+      7520
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 7520,
+    "end": 7521,
+    "range": [
+      7520,
+      7521
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"Turkey\"",
+    "start": 7570,
+    "end": 7578,
+    "range": [
+      7570,
+      7578
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 7578,
+    "end": 7579,
+    "range": [
+      7578,
+      7579
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"UCT\"",
+    "start": 7625,
+    "end": 7630,
+    "range": [
+      7625,
+      7630
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 7630,
+    "end": 7631,
+    "range": [
+      7630,
+      7631
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"US/Alaska\"",
+    "start": 7674,
+    "end": 7685,
+    "range": [
+      7674,
+      7685
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 7685,
+    "end": 7686,
+    "range": [
+      7685,
+      7686
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"US/Aleutian\"",
+    "start": 7735,
+    "end": 7748,
+    "range": [
+      7735,
+      7748
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 7748,
+    "end": 7749,
+    "range": [
+      7748,
+      7749
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"US/Arizona\"",
+    "start": 7800,
+    "end": 7812,
+    "range": [
+      7800,
+      7812
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 7812,
+    "end": 7813,
+    "range": [
+      7812,
+      7813
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"US/Central\"",
+    "start": 7863,
+    "end": 7875,
+    "range": [
+      7863,
+      7875
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 7875,
+    "end": 7876,
+    "range": [
+      7875,
+      7876
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"US/East-Indiana\"",
+    "start": 7926,
+    "end": 7943,
+    "range": [
+      7926,
+      7943
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 7943,
+    "end": 7944,
+    "range": [
+      7943,
+      7944
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"US/Eastern\"",
+    "start": 8007,
+    "end": 8019,
+    "range": [
+      8007,
+      8019
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 8019,
+    "end": 8020,
+    "range": [
+      8019,
+      8020
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"US/Hawaii\"",
+    "start": 8070,
+    "end": 8081,
+    "range": [
+      8070,
+      8081
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 8081,
+    "end": 8082,
+    "range": [
+      8081,
+      8082
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"US/Indiana-Starke\"",
+    "start": 8131,
+    "end": 8150,
+    "range": [
+      8131,
+      8150
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 8150,
+    "end": 8151,
+    "range": [
+      8150,
+      8151
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"US/Michigan\"",
+    "start": 8208,
+    "end": 8221,
+    "range": [
+      8208,
+      8221
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 8221,
+    "end": 8222,
+    "range": [
+      8221,
+      8222
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"US/Mountain\"",
+    "start": 8273,
+    "end": 8286,
+    "range": [
+      8273,
+      8286
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 8286,
+    "end": 8287,
+    "range": [
+      8286,
+      8287
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"US/Pacific\"",
+    "start": 8338,
+    "end": 8350,
+    "range": [
+      8338,
+      8350
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 8350,
+    "end": 8351,
+    "range": [
+      8350,
+      8351
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"US/Samoa\"",
+    "start": 8401,
+    "end": 8411,
+    "range": [
+      8401,
+      8411
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 8411,
+    "end": 8412,
+    "range": [
+      8411,
+      8412
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"UTC\"",
+    "start": 8460,
+    "end": 8465,
+    "range": [
+      8460,
+      8465
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 8465,
+    "end": 8466,
+    "range": [
+      8465,
+      8466
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"Universal\"",
+    "start": 8509,
+    "end": 8520,
+    "range": [
+      8509,
+      8520
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 8520,
+    "end": 8521,
+    "range": [
+      8520,
+      8521
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"W-SU\"",
+    "start": 8570,
+    "end": 8576,
+    "range": [
+      8570,
+      8576
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 8576,
+    "end": 8577,
+    "range": [
+      8576,
+      8577
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"Zulu\"",
+    "start": 8621,
+    "end": 8627,
+    "range": [
+      8621,
+      8627
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 8627,
+    "end": 8628,
+    "range": [
+      8627,
+      8628
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "]",
+    "start": 8670,
+    "end": 8671,
+    "range": [
+      8670,
+      8671
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 8671,
+    "end": 8672,
+    "range": [
+      8671,
+      8672
+    ]
+  },
+  {
+    "type": "Keyword",
+    "value": "for",
+    "start": 8674,
+    "end": 8677,
+    "range": [
+      8674,
+      8677
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 8678,
+    "end": 8679,
+    "range": [
+      8678,
+      8679
+    ]
+  },
+  {
+    "type": "Keyword",
+    "value": "let",
+    "start": 8679,
+    "end": 8682,
+    "range": [
+      8679,
+      8682
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "id",
+    "start": 8683,
+    "end": 8685,
+    "range": [
+      8683,
+      8685
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "of",
+    "start": 8686,
+    "end": 8688,
+    "range": [
+      8686,
+      8688
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "testCases",
+    "start": 8689,
+    "end": 8698,
+    "range": [
+      8689,
+      8698
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 8698,
+    "end": 8699,
+    "range": [
+      8698,
+      8699
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "{",
+    "start": 8700,
+    "end": 8701,
+    "range": [
+      8700,
+      8701
+    ]
+  },
+  {
+    "type": "Keyword",
+    "value": "const",
+    "start": 8704,
+    "end": 8709,
+    "range": [
+      8704,
+      8709
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "instance",
+    "start": 8710,
+    "end": 8718,
+    "range": [
+      8710,
+      8718
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "=",
+    "start": 8719,
+    "end": 8720,
+    "range": [
+      8719,
+      8720
+    ]
+  },
+  {
+    "type": "Keyword",
+    "value": "new",
+    "start": 8721,
+    "end": 8724,
+    "range": [
+      8721,
+      8724
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "Temporal",
+    "start": 8725,
+    "end": 8733,
+    "range": [
+      8725,
+      8733
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 8733,
+    "end": 8734,
+    "range": [
+      8733,
+      8734
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "ZonedDateTime",
+    "start": 8734,
+    "end": 8747,
+    "range": [
+      8734,
+      8747
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 8747,
+    "end": 8748,
+    "range": [
+      8747,
+      8748
+    ]
+  },
+  {
+    "type": "Numeric",
+    "value": "0n",
+    "start": 8748,
+    "end": 8750,
+    "range": [
+      8748,
+      8750
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 8750,
+    "end": 8751,
+    "range": [
+      8750,
+      8751
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "id",
+    "start": 8752,
+    "end": 8754,
+    "range": [
+      8752,
+      8754
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 8754,
+    "end": 8755,
+    "range": [
+      8754,
+      8755
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 8755,
+    "end": 8756,
+    "range": [
+      8755,
+      8756
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "assert",
+    "start": 8759,
+    "end": 8765,
+    "range": [
+      8759,
+      8765
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 8765,
+    "end": 8766,
+    "range": [
+      8765,
+      8766
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "sameValue",
+    "start": 8766,
+    "end": 8775,
+    "range": [
+      8766,
+      8775
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 8775,
+    "end": 8776,
+    "range": [
+      8775,
+      8776
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "instance",
+    "start": 8776,
+    "end": 8784,
+    "range": [
+      8776,
+      8784
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 8784,
+    "end": 8785,
+    "range": [
+      8784,
+      8785
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "timeZoneId",
+    "start": 8785,
+    "end": 8795,
+    "range": [
+      8785,
+      8795
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 8795,
+    "end": 8796,
+    "range": [
+      8795,
+      8796
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "id",
+    "start": 8797,
+    "end": 8799,
+    "range": [
+      8797,
+      8799
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 8799,
+    "end": 8800,
+    "range": [
+      8799,
+      8800
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 8800,
+    "end": 8801,
+    "range": [
+      8800,
+      8801
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "}",
+    "start": 8802,
+    "end": 8803,
+    "range": [
+      8802,
+      8803
+    ]
+  }
+]

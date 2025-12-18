@@ -1,0 +1,112 @@
+[
+  {
+    "type": "Identifier",
+    "value": "eval",
+    "start": 1136,
+    "end": 1140,
+    "range": [
+      1136,
+      1140
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 1140,
+    "end": 1141,
+    "range": [
+      1140,
+      1141
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'assert.throws(ReferenceError, function() {\\\n    f;\\\n  }, \"An initialized binding is not created prior to evaluation\");\\\n  assert.sameValue(\\\n    typeof f,\\\n    \"undefined\",\\\n    \"An uninitialized binding is not created prior to evaluation\"\\\n  );\\\n  \\\n  try {\\\n    throw {};\\\n  } catch ({ f }) {switch (1) {'",
+    "start": 1144,
+    "end": 1452,
+    "range": [
+      1144,
+      1452
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "+",
+    "start": 1453,
+    "end": 1454,
+    "range": [
+      1453,
+      1454
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'  case 1:'",
+    "start": 1457,
+    "end": 1468,
+    "range": [
+      1457,
+      1468
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "+",
+    "start": 1469,
+    "end": 1470,
+    "range": [
+      1469,
+      1470
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'    function f() {  }'",
+    "start": 1473,
+    "end": 1496,
+    "range": [
+      1473,
+      1496
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "+",
+    "start": 1497,
+    "end": 1498,
+    "range": [
+      1497,
+      1498
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'}\\\n  }\\\n  \\\n  assert.throws(ReferenceError, function() {\\\n    f;\\\n  }, \"An initialized binding is not created following evaluation\");\\\n  assert.sameValue(\\\n    typeof f,\\\n    \"undefined\",\\\n    \"An uninitialized binding is not created following evaluation\"\\\n  );'",
+    "start": 1501,
+    "end": 1764,
+    "range": [
+      1501,
+      1764
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 1765,
+    "end": 1766,
+    "range": [
+      1765,
+      1766
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 1766,
+    "end": 1767,
+    "range": [
+      1766,
+      1767
+    ]
+  }
+]

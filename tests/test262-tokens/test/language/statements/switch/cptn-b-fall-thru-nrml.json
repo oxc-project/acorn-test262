@@ -1,0 +1,422 @@
+[
+  {
+    "type": "Identifier",
+    "value": "assert",
+    "start": 2154,
+    "end": 2160,
+    "range": [
+      2154,
+      2160
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 2160,
+    "end": 2161,
+    "range": [
+      2160,
+      2161
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "sameValue",
+    "start": 2161,
+    "end": 2170,
+    "range": [
+      2161,
+      2170
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 2170,
+    "end": 2171,
+    "range": [
+      2170,
+      2171
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "eval",
+    "start": 2174,
+    "end": 2178,
+    "range": [
+      2174,
+      2178
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 2178,
+    "end": 2179,
+    "range": [
+      2178,
+      2179
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'1; switch (\"a\") { default: case \"a\": 2; case \"b\": 3; }'",
+    "start": 2179,
+    "end": 2235,
+    "range": [
+      2179,
+      2235
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 2235,
+    "end": 2236,
+    "range": [
+      2235,
+      2236
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 2236,
+    "end": 2237,
+    "range": [
+      2236,
+      2237
+    ]
+  },
+  {
+    "type": "Numeric",
+    "value": "3",
+    "start": 2240,
+    "end": 2241,
+    "range": [
+      2240,
+      2241
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 2241,
+    "end": 2242,
+    "range": [
+      2241,
+      2242
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'Non-empty value replaces previous non-empty value'",
+    "start": 2245,
+    "end": 2296,
+    "range": [
+      2245,
+      2296
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 2297,
+    "end": 2298,
+    "range": [
+      2297,
+      2298
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 2298,
+    "end": 2299,
+    "range": [
+      2298,
+      2299
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "assert",
+    "start": 2300,
+    "end": 2306,
+    "range": [
+      2300,
+      2306
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 2306,
+    "end": 2307,
+    "range": [
+      2306,
+      2307
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "sameValue",
+    "start": 2307,
+    "end": 2316,
+    "range": [
+      2307,
+      2316
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 2316,
+    "end": 2317,
+    "range": [
+      2316,
+      2317
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "eval",
+    "start": 2320,
+    "end": 2324,
+    "range": [
+      2320,
+      2324
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 2324,
+    "end": 2325,
+    "range": [
+      2324,
+      2325
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'4; switch (\"a\") { default: case \"a\": case \"b\": 5; }'",
+    "start": 2325,
+    "end": 2378,
+    "range": [
+      2325,
+      2378
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 2378,
+    "end": 2379,
+    "range": [
+      2378,
+      2379
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 2379,
+    "end": 2380,
+    "range": [
+      2379,
+      2380
+    ]
+  },
+  {
+    "type": "Numeric",
+    "value": "5",
+    "start": 2383,
+    "end": 2384,
+    "range": [
+      2383,
+      2384
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 2384,
+    "end": 2385,
+    "range": [
+      2384,
+      2385
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'Non-empty value replaces empty value'",
+    "start": 2388,
+    "end": 2426,
+    "range": [
+      2388,
+      2426
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 2427,
+    "end": 2428,
+    "range": [
+      2427,
+      2428
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 2428,
+    "end": 2429,
+    "range": [
+      2428,
+      2429
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "assert",
+    "start": 2430,
+    "end": 2436,
+    "range": [
+      2430,
+      2436
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 2436,
+    "end": 2437,
+    "range": [
+      2436,
+      2437
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "sameValue",
+    "start": 2437,
+    "end": 2446,
+    "range": [
+      2437,
+      2446
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 2446,
+    "end": 2447,
+    "range": [
+      2446,
+      2447
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "eval",
+    "start": 2450,
+    "end": 2454,
+    "range": [
+      2450,
+      2454
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 2454,
+    "end": 2455,
+    "range": [
+      2454,
+      2455
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'6; switch (\"a\") { default: case \"a\": 7; case \"b\": }'",
+    "start": 2455,
+    "end": 2508,
+    "range": [
+      2455,
+      2508
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 2508,
+    "end": 2509,
+    "range": [
+      2508,
+      2509
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 2509,
+    "end": 2510,
+    "range": [
+      2509,
+      2510
+    ]
+  },
+  {
+    "type": "Numeric",
+    "value": "7",
+    "start": 2513,
+    "end": 2514,
+    "range": [
+      2513,
+      2514
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 2514,
+    "end": 2515,
+    "range": [
+      2514,
+      2515
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'Empty value does not replace previous non-empty value'",
+    "start": 2518,
+    "end": 2573,
+    "range": [
+      2518,
+      2573
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 2574,
+    "end": 2575,
+    "range": [
+      2574,
+      2575
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 2575,
+    "end": 2576,
+    "range": [
+      2575,
+      2576
+    ]
+  }
+]

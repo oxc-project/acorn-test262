@@ -1,0 +1,52 @@
+[
+  {
+    "type": "Identifier",
+    "value": "eval",
+    "start": 1032,
+    "end": 1036,
+    "range": [
+      1032,
+      1036
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 1036,
+    "end": 1037,
+    "range": [
+      1036,
+      1037
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'assert.sameValue(f(), \"outer declaration\");if (true) function f() { return \"inner declaration\"; } else function _f() {}function f() {\\\n    return \"outer declaration\";\\\n  }'",
+    "start": 1040,
+    "end": 1213,
+    "range": [
+      1040,
+      1213
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 1214,
+    "end": 1215,
+    "range": [
+      1214,
+      1215
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 1215,
+    "end": 1216,
+    "range": [
+      1215,
+      1216
+    ]
+  }
+]

@@ -1,0 +1,52 @@
+[
+  {
+    "type": "Identifier",
+    "value": "Function",
+    "start": 846,
+    "end": 854,
+    "range": [
+      846,
+      854
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 854,
+    "end": 855,
+    "range": [
+      854,
+      855
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"-->\"",
+    "start": 855,
+    "end": 860,
+    "range": [
+      855,
+      860
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 860,
+    "end": 861,
+    "range": [
+      860,
+      861
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 861,
+    "end": 862,
+    "range": [
+      861,
+      862
+    ]
+  }
+]

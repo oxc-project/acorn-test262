@@ -1,0 +1,92 @@
+[
+  {
+    "type": "Keyword",
+    "value": "if",
+    "start": 1332,
+    "end": 1334,
+    "range": [
+      1332,
+      1334
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 1335,
+    "end": 1336,
+    "range": [
+      1335,
+      1336
+    ]
+  },
+  {
+    "type": "Boolean",
+    "value": "true",
+    "start": 1336,
+    "end": 1340,
+    "range": [
+      1336,
+      1340
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 1340,
+    "end": 1341,
+    "range": [
+      1340,
+      1341
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "{",
+    "start": 1342,
+    "end": 1343,
+    "range": [
+      1342,
+      1343
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "await",
+    "start": 1346,
+    "end": 1351,
+    "range": [
+      1346,
+      1351
+    ]
+  },
+  {
+    "type": "Numeric",
+    "value": "1",
+    "start": 1352,
+    "end": 1353,
+    "range": [
+      1352,
+      1353
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 1353,
+    "end": 1354,
+    "range": [
+      1353,
+      1354
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "}",
+    "start": 1355,
+    "end": 1356,
+    "range": [
+      1355,
+      1356
+    ]
+  }
+]

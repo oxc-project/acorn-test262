@@ -1,0 +1,142 @@
+[
+  {
+    "type": "Identifier",
+    "value": "assert",
+    "start": 214,
+    "end": 220,
+    "range": [
+      214,
+      220
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 220,
+    "end": 221,
+    "range": [
+      220,
+      221
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "sameValue",
+    "start": 221,
+    "end": 230,
+    "range": [
+      221,
+      230
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 230,
+    "end": 231,
+    "range": [
+      230,
+      231
+    ]
+  },
+  {
+    "type": "Keyword",
+    "value": "typeof",
+    "start": 234,
+    "end": 240,
+    "range": [
+      234,
+      240
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "Promise",
+    "start": 241,
+    "end": 248,
+    "range": [
+      241,
+      248
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 248,
+    "end": 249,
+    "range": [
+      248,
+      249
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "resolve",
+    "start": 249,
+    "end": 256,
+    "range": [
+      249,
+      256
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 256,
+    "end": 257,
+    "range": [
+      256,
+      257
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"function\"",
+    "start": 260,
+    "end": 270,
+    "range": [
+      260,
+      270
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 270,
+    "end": 271,
+    "range": [
+      270,
+      271
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'The value of `typeof Promise.resolve` is expected to be \"function\"'",
+    "start": 274,
+    "end": 342,
+    "range": [
+      274,
+      342
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 343,
+    "end": 344,
+    "range": [
+      343,
+      344
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 344,
+    "end": 345,
+    "range": [
+      344,
+      345
+    ]
+  }
+]

@@ -1,0 +1,1392 @@
+[
+  {
+    "type": "Keyword",
+    "value": "var",
+    "start": 2098,
+    "end": 2101,
+    "range": [
+      2098,
+      2101
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "vals",
+    "start": 2102,
+    "end": 2106,
+    "range": [
+      2102,
+      2106
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "=",
+    "start": 2107,
+    "end": 2108,
+    "range": [
+      2107,
+      2108
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "[",
+    "start": 2109,
+    "end": 2110,
+    "range": [
+      2109,
+      2110
+    ]
+  },
+  {
+    "type": "Numeric",
+    "value": "18446744073709551618n",
+    "start": 2113,
+    "end": 2134,
+    "range": [
+      2113,
+      2134
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 2134,
+    "end": 2135,
+    "range": [
+      2134,
+      2135
+    ]
+  },
+  {
+    "type": "Numeric",
+    "value": "9223372036854775810n",
+    "start": 2156,
+    "end": 2176,
+    "range": [
+      2156,
+      2176
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 2176,
+    "end": 2177,
+    "range": [
+      2176,
+      2177
+    ]
+  },
+  {
+    "type": "Numeric",
+    "value": "2n",
+    "start": 2198,
+    "end": 2200,
+    "range": [
+      2198,
+      2200
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 2200,
+    "end": 2201,
+    "range": [
+      2200,
+      2201
+    ]
+  },
+  {
+    "type": "Numeric",
+    "value": "0n",
+    "start": 2204,
+    "end": 2206,
+    "range": [
+      2204,
+      2206
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 2206,
+    "end": 2207,
+    "range": [
+      2206,
+      2207
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "-",
+    "start": 2210,
+    "end": 2211,
+    "range": [
+      2210,
+      2211
+    ]
+  },
+  {
+    "type": "Numeric",
+    "value": "2n",
+    "start": 2211,
+    "end": 2213,
+    "range": [
+      2211,
+      2213
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 2213,
+    "end": 2214,
+    "range": [
+      2213,
+      2214
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "-",
+    "start": 2217,
+    "end": 2218,
+    "range": [
+      2217,
+      2218
+    ]
+  },
+  {
+    "type": "Numeric",
+    "value": "9223372036854775810n",
+    "start": 2218,
+    "end": 2238,
+    "range": [
+      2218,
+      2238
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 2238,
+    "end": 2239,
+    "range": [
+      2238,
+      2239
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "-",
+    "start": 2263,
+    "end": 2264,
+    "range": [
+      2263,
+      2264
+    ]
+  },
+  {
+    "type": "Numeric",
+    "value": "18446744073709551618n",
+    "start": 2264,
+    "end": 2285,
+    "range": [
+      2264,
+      2285
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 2285,
+    "end": 2286,
+    "range": [
+      2285,
+      2286
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "]",
+    "start": 2308,
+    "end": 2309,
+    "range": [
+      2308,
+      2309
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 2309,
+    "end": 2310,
+    "range": [
+      2309,
+      2310
+    ]
+  },
+  {
+    "type": "Keyword",
+    "value": "var",
+    "start": 2312,
+    "end": 2315,
+    "range": [
+      2312,
+      2315
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "typedArray",
+    "start": 2316,
+    "end": 2326,
+    "range": [
+      2316,
+      2326
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "=",
+    "start": 2327,
+    "end": 2328,
+    "range": [
+      2327,
+      2328
+    ]
+  },
+  {
+    "type": "Keyword",
+    "value": "new",
+    "start": 2329,
+    "end": 2332,
+    "range": [
+      2329,
+      2332
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "BigUint64Array",
+    "start": 2333,
+    "end": 2347,
+    "range": [
+      2333,
+      2347
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 2347,
+    "end": 2348,
+    "range": [
+      2347,
+      2348
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "vals",
+    "start": 2348,
+    "end": 2352,
+    "range": [
+      2348,
+      2352
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 2352,
+    "end": 2353,
+    "range": [
+      2352,
+      2353
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "length",
+    "start": 2353,
+    "end": 2359,
+    "range": [
+      2353,
+      2359
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 2359,
+    "end": 2360,
+    "range": [
+      2359,
+      2360
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 2360,
+    "end": 2361,
+    "range": [
+      2360,
+      2361
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "typedArray",
+    "start": 2362,
+    "end": 2372,
+    "range": [
+      2362,
+      2372
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 2372,
+    "end": 2373,
+    "range": [
+      2372,
+      2373
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "set",
+    "start": 2373,
+    "end": 2376,
+    "range": [
+      2373,
+      2376
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 2376,
+    "end": 2377,
+    "range": [
+      2376,
+      2377
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "vals",
+    "start": 2377,
+    "end": 2381,
+    "range": [
+      2377,
+      2381
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 2381,
+    "end": 2382,
+    "range": [
+      2381,
+      2382
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 2382,
+    "end": 2383,
+    "range": [
+      2382,
+      2383
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "assert",
+    "start": 2385,
+    "end": 2391,
+    "range": [
+      2385,
+      2391
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 2391,
+    "end": 2392,
+    "range": [
+      2391,
+      2392
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "sameValue",
+    "start": 2392,
+    "end": 2401,
+    "range": [
+      2392,
+      2401
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 2401,
+    "end": 2402,
+    "range": [
+      2401,
+      2402
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "typedArray",
+    "start": 2402,
+    "end": 2412,
+    "range": [
+      2402,
+      2412
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "[",
+    "start": 2412,
+    "end": 2413,
+    "range": [
+      2412,
+      2413
+    ]
+  },
+  {
+    "type": "Numeric",
+    "value": "0",
+    "start": 2413,
+    "end": 2414,
+    "range": [
+      2413,
+      2414
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "]",
+    "start": 2414,
+    "end": 2415,
+    "range": [
+      2414,
+      2415
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 2415,
+    "end": 2416,
+    "range": [
+      2415,
+      2416
+    ]
+  },
+  {
+    "type": "Numeric",
+    "value": "2n",
+    "start": 2417,
+    "end": 2419,
+    "range": [
+      2417,
+      2419
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 2419,
+    "end": 2420,
+    "range": [
+      2419,
+      2420
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"ToBigUint64(2n ** 64n + 2n) => 2n\"",
+    "start": 2438,
+    "end": 2473,
+    "range": [
+      2438,
+      2473
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 2473,
+    "end": 2474,
+    "range": [
+      2473,
+      2474
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 2474,
+    "end": 2475,
+    "range": [
+      2474,
+      2475
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "assert",
+    "start": 2477,
+    "end": 2483,
+    "range": [
+      2477,
+      2483
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 2483,
+    "end": 2484,
+    "range": [
+      2483,
+      2484
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "sameValue",
+    "start": 2484,
+    "end": 2493,
+    "range": [
+      2484,
+      2493
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 2493,
+    "end": 2494,
+    "range": [
+      2493,
+      2494
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "typedArray",
+    "start": 2494,
+    "end": 2504,
+    "range": [
+      2494,
+      2504
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "[",
+    "start": 2504,
+    "end": 2505,
+    "range": [
+      2504,
+      2505
+    ]
+  },
+  {
+    "type": "Numeric",
+    "value": "1",
+    "start": 2505,
+    "end": 2506,
+    "range": [
+      2505,
+      2506
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "]",
+    "start": 2506,
+    "end": 2507,
+    "range": [
+      2506,
+      2507
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 2507,
+    "end": 2508,
+    "range": [
+      2507,
+      2508
+    ]
+  },
+  {
+    "type": "Numeric",
+    "value": "9223372036854775810n",
+    "start": 2509,
+    "end": 2529,
+    "range": [
+      2509,
+      2529
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 2529,
+    "end": 2530,
+    "range": [
+      2529,
+      2530
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"ToBigUint64(2n ** 63n + 2n) => 9223372036854775810\"",
+    "start": 2566,
+    "end": 2618,
+    "range": [
+      2566,
+      2618
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 2618,
+    "end": 2619,
+    "range": [
+      2618,
+      2619
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 2619,
+    "end": 2620,
+    "range": [
+      2619,
+      2620
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "assert",
+    "start": 2622,
+    "end": 2628,
+    "range": [
+      2622,
+      2628
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 2628,
+    "end": 2629,
+    "range": [
+      2628,
+      2629
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "sameValue",
+    "start": 2629,
+    "end": 2638,
+    "range": [
+      2629,
+      2638
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 2638,
+    "end": 2639,
+    "range": [
+      2638,
+      2639
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "typedArray",
+    "start": 2639,
+    "end": 2649,
+    "range": [
+      2639,
+      2649
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "[",
+    "start": 2649,
+    "end": 2650,
+    "range": [
+      2649,
+      2650
+    ]
+  },
+  {
+    "type": "Numeric",
+    "value": "2",
+    "start": 2650,
+    "end": 2651,
+    "range": [
+      2650,
+      2651
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "]",
+    "start": 2651,
+    "end": 2652,
+    "range": [
+      2651,
+      2652
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 2652,
+    "end": 2653,
+    "range": [
+      2652,
+      2653
+    ]
+  },
+  {
+    "type": "Numeric",
+    "value": "2n",
+    "start": 2654,
+    "end": 2656,
+    "range": [
+      2654,
+      2656
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 2656,
+    "end": 2657,
+    "range": [
+      2656,
+      2657
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"ToBigUint64(2n) => 2n\"",
+    "start": 2675,
+    "end": 2698,
+    "range": [
+      2675,
+      2698
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 2698,
+    "end": 2699,
+    "range": [
+      2698,
+      2699
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 2699,
+    "end": 2700,
+    "range": [
+      2699,
+      2700
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "assert",
+    "start": 2702,
+    "end": 2708,
+    "range": [
+      2702,
+      2708
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 2708,
+    "end": 2709,
+    "range": [
+      2708,
+      2709
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "sameValue",
+    "start": 2709,
+    "end": 2718,
+    "range": [
+      2709,
+      2718
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 2718,
+    "end": 2719,
+    "range": [
+      2718,
+      2719
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "typedArray",
+    "start": 2719,
+    "end": 2729,
+    "range": [
+      2719,
+      2729
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "[",
+    "start": 2729,
+    "end": 2730,
+    "range": [
+      2729,
+      2730
+    ]
+  },
+  {
+    "type": "Numeric",
+    "value": "3",
+    "start": 2730,
+    "end": 2731,
+    "range": [
+      2730,
+      2731
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "]",
+    "start": 2731,
+    "end": 2732,
+    "range": [
+      2731,
+      2732
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 2732,
+    "end": 2733,
+    "range": [
+      2732,
+      2733
+    ]
+  },
+  {
+    "type": "Numeric",
+    "value": "0n",
+    "start": 2734,
+    "end": 2736,
+    "range": [
+      2734,
+      2736
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 2736,
+    "end": 2737,
+    "range": [
+      2736,
+      2737
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"ToBigUint64(0n) => 0n\"",
+    "start": 2755,
+    "end": 2778,
+    "range": [
+      2755,
+      2778
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 2778,
+    "end": 2779,
+    "range": [
+      2778,
+      2779
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 2779,
+    "end": 2780,
+    "range": [
+      2779,
+      2780
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "assert",
+    "start": 2782,
+    "end": 2788,
+    "range": [
+      2782,
+      2788
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 2788,
+    "end": 2789,
+    "range": [
+      2788,
+      2789
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "sameValue",
+    "start": 2789,
+    "end": 2798,
+    "range": [
+      2789,
+      2798
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 2798,
+    "end": 2799,
+    "range": [
+      2798,
+      2799
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "typedArray",
+    "start": 2799,
+    "end": 2809,
+    "range": [
+      2799,
+      2809
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "[",
+    "start": 2809,
+    "end": 2810,
+    "range": [
+      2809,
+      2810
+    ]
+  },
+  {
+    "type": "Numeric",
+    "value": "4",
+    "start": 2810,
+    "end": 2811,
+    "range": [
+      2810,
+      2811
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "]",
+    "start": 2811,
+    "end": 2812,
+    "range": [
+      2811,
+      2812
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 2812,
+    "end": 2813,
+    "range": [
+      2812,
+      2813
+    ]
+  },
+  {
+    "type": "Numeric",
+    "value": "18446744073709551614n",
+    "start": 2814,
+    "end": 2835,
+    "range": [
+      2814,
+      2835
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 2835,
+    "end": 2836,
+    "range": [
+      2835,
+      2836
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"ToBigUint64( -2n) => 18446744073709551614n\"",
+    "start": 2872,
+    "end": 2916,
+    "range": [
+      2872,
+      2916
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 2916,
+    "end": 2917,
+    "range": [
+      2916,
+      2917
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 2917,
+    "end": 2918,
+    "range": [
+      2917,
+      2918
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "assert",
+    "start": 2920,
+    "end": 2926,
+    "range": [
+      2920,
+      2926
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 2926,
+    "end": 2927,
+    "range": [
+      2926,
+      2927
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "sameValue",
+    "start": 2927,
+    "end": 2936,
+    "range": [
+      2927,
+      2936
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 2936,
+    "end": 2937,
+    "range": [
+      2936,
+      2937
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "typedArray",
+    "start": 2937,
+    "end": 2947,
+    "range": [
+      2937,
+      2947
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "[",
+    "start": 2947,
+    "end": 2948,
+    "range": [
+      2947,
+      2948
+    ]
+  },
+  {
+    "type": "Numeric",
+    "value": "5",
+    "start": 2948,
+    "end": 2949,
+    "range": [
+      2948,
+      2949
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "]",
+    "start": 2949,
+    "end": 2950,
+    "range": [
+      2949,
+      2950
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 2950,
+    "end": 2951,
+    "range": [
+      2950,
+      2951
+    ]
+  },
+  {
+    "type": "Numeric",
+    "value": "9223372036854775806n",
+    "start": 2952,
+    "end": 2972,
+    "range": [
+      2952,
+      2972
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 2972,
+    "end": 2973,
+    "range": [
+      2972,
+      2973
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"ToBigUint64( -(2n ** 63n) - 2n) => 9223372036854775806n\"",
+    "start": 3009,
+    "end": 3066,
+    "range": [
+      3009,
+      3066
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 3066,
+    "end": 3067,
+    "range": [
+      3066,
+      3067
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 3067,
+    "end": 3068,
+    "range": [
+      3067,
+      3068
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "assert",
+    "start": 3070,
+    "end": 3076,
+    "range": [
+      3070,
+      3076
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 3076,
+    "end": 3077,
+    "range": [
+      3076,
+      3077
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "sameValue",
+    "start": 3077,
+    "end": 3086,
+    "range": [
+      3077,
+      3086
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 3086,
+    "end": 3087,
+    "range": [
+      3086,
+      3087
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "typedArray",
+    "start": 3087,
+    "end": 3097,
+    "range": [
+      3087,
+      3097
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "[",
+    "start": 3097,
+    "end": 3098,
+    "range": [
+      3097,
+      3098
+    ]
+  },
+  {
+    "type": "Numeric",
+    "value": "6",
+    "start": 3098,
+    "end": 3099,
+    "range": [
+      3098,
+      3099
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "]",
+    "start": 3099,
+    "end": 3100,
+    "range": [
+      3099,
+      3100
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 3100,
+    "end": 3101,
+    "range": [
+      3100,
+      3101
+    ]
+  },
+  {
+    "type": "Numeric",
+    "value": "18446744073709551614n",
+    "start": 3102,
+    "end": 3123,
+    "range": [
+      3102,
+      3123
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 3123,
+    "end": 3124,
+    "range": [
+      3123,
+      3124
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"ToBigUint64( -(2n ** 64n) - 2n) => 18446744073709551614n\"",
+    "start": 3160,
+    "end": 3218,
+    "range": [
+      3160,
+      3218
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 3218,
+    "end": 3219,
+    "range": [
+      3218,
+      3219
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 3219,
+    "end": 3220,
+    "range": [
+      3219,
+      3220
+    ]
+  }
+]

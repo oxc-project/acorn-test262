@@ -1,0 +1,172 @@
+[
+  {
+    "type": "Identifier",
+    "value": "await",
+    "start": 1048,
+    "end": 1053,
+    "range": [
+      1048,
+      1053
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "await",
+    "start": 1054,
+    "end": 1059,
+    "range": [
+      1054,
+      1059
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "await",
+    "start": 1060,
+    "end": 1065,
+    "range": [
+      1060,
+      1065
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "await",
+    "start": 1066,
+    "end": 1071,
+    "range": [
+      1066,
+      1071
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "await",
+    "start": 1072,
+    "end": 1077,
+    "range": [
+      1072,
+      1077
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "await",
+    "start": 1078,
+    "end": 1083,
+    "range": [
+      1078,
+      1083
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "await",
+    "start": 1084,
+    "end": 1089,
+    "range": [
+      1084,
+      1089
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "await",
+    "start": 1090,
+    "end": 1095,
+    "range": [
+      1090,
+      1095
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "await",
+    "start": 1096,
+    "end": 1101,
+    "range": [
+      1096,
+      1101
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "await",
+    "start": 1102,
+    "end": 1107,
+    "range": [
+      1102,
+      1107
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "await",
+    "start": 1108,
+    "end": 1113,
+    "range": [
+      1108,
+      1113
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "await",
+    "start": 1114,
+    "end": 1119,
+    "range": [
+      1114,
+      1119
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "await",
+    "start": 1120,
+    "end": 1125,
+    "range": [
+      1120,
+      1125
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "await",
+    "start": 1126,
+    "end": 1131,
+    "range": [
+      1126,
+      1131
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "await",
+    "start": 1132,
+    "end": 1137,
+    "range": [
+      1132,
+      1137
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'await'",
+    "start": 1138,
+    "end": 1145,
+    "range": [
+      1138,
+      1145
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 1145,
+    "end": 1146,
+    "range": [
+      1145,
+      1146
+    ]
+  }
+]

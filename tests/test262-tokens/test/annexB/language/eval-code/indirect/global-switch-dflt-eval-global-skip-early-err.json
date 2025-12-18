@@ -1,0 +1,152 @@
+[
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 731,
+    "end": 732,
+    "range": [
+      731,
+      732
+    ]
+  },
+  {
+    "type": "Numeric",
+    "value": "0",
+    "start": 732,
+    "end": 733,
+    "range": [
+      732,
+      733
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 733,
+    "end": 734,
+    "range": [
+      733,
+      734
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "eval",
+    "start": 734,
+    "end": 738,
+    "range": [
+      734,
+      738
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 738,
+    "end": 739,
+    "range": [
+      738,
+      739
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 739,
+    "end": 740,
+    "range": [
+      739,
+      740
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'let f = 123;\\\n  assert.sameValue(f, 123, \"binding is not initialized to `undefined`\");switch (1) {'",
+    "start": 743,
+    "end": 843,
+    "range": [
+      743,
+      843
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "+",
+    "start": 844,
+    "end": 845,
+    "range": [
+      844,
+      845
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'  default:'",
+    "start": 848,
+    "end": 860,
+    "range": [
+      848,
+      860
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "+",
+    "start": 861,
+    "end": 862,
+    "range": [
+      861,
+      862
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'    function f() {  }'",
+    "start": 865,
+    "end": 888,
+    "range": [
+      865,
+      888
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "+",
+    "start": 889,
+    "end": 890,
+    "range": [
+      889,
+      890
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'}\\\n  assert.sameValue(f, 123, \"value is not updated following evaluation\");'",
+    "start": 893,
+    "end": 970,
+    "range": [
+      893,
+      970
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 971,
+    "end": 972,
+    "range": [
+      971,
+      972
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 972,
+    "end": 973,
+    "range": [
+      972,
+      973
+    ]
+  }
+]

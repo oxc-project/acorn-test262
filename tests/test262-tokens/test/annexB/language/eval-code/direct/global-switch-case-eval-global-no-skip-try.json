@@ -1,0 +1,112 @@
+[
+  {
+    "type": "Identifier",
+    "value": "eval",
+    "start": 1129,
+    "end": 1133,
+    "range": [
+      1129,
+      1133
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 1133,
+    "end": 1134,
+    "range": [
+      1133,
+      1134
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'assert.sameValue(\\\n    f, undefined, \"Initialized binding created prior to evaluation\"\\\n  );\\\n  \\\n  try {\\\n    throw null;\\\n  } catch (f) {switch (1) {'",
+    "start": 1137,
+    "end": 1290,
+    "range": [
+      1137,
+      1290
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "+",
+    "start": 1291,
+    "end": 1292,
+    "range": [
+      1291,
+      1292
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'  case 1:'",
+    "start": 1295,
+    "end": 1306,
+    "range": [
+      1295,
+      1306
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "+",
+    "start": 1307,
+    "end": 1308,
+    "range": [
+      1307,
+      1308
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'    function f() { return 123; }'",
+    "start": 1311,
+    "end": 1345,
+    "range": [
+      1311,
+      1345
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "+",
+    "start": 1346,
+    "end": 1347,
+    "range": [
+      1346,
+      1347
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'}\\\n  }\\\n  \\\n  assert.sameValue(\\\n    typeof f,\\\n    \"function\",\\\n    \"binding value is updated following evaluation\"\\\n  );\\\n  assert.sameValue(f(), 123);'",
+    "start": 1350,
+    "end": 1505,
+    "range": [
+      1350,
+      1505
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 1506,
+    "end": 1507,
+    "range": [
+      1506,
+      1507
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 1507,
+    "end": 1508,
+    "range": [
+      1507,
+      1508
+    ]
+  }
+]

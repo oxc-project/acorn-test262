@@ -1,0 +1,112 @@
+[
+  {
+    "type": "Identifier",
+    "value": "eval",
+    "start": 1081,
+    "end": 1085,
+    "range": [
+      1081,
+      1085
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 1085,
+    "end": 1086,
+    "range": [
+      1085,
+      1086
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'switch (1) {'",
+    "start": 1089,
+    "end": 1103,
+    "range": [
+      1089,
+      1103
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "+",
+    "start": 1104,
+    "end": 1105,
+    "range": [
+      1104,
+      1105
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'  case 1:'",
+    "start": 1108,
+    "end": 1119,
+    "range": [
+      1108,
+      1119
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "+",
+    "start": 1120,
+    "end": 1121,
+    "range": [
+      1120,
+      1121
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'    function f() { return \"declaration\"; }'",
+    "start": 1124,
+    "end": 1168,
+    "range": [
+      1124,
+      1168
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "+",
+    "start": 1169,
+    "end": 1170,
+    "range": [
+      1169,
+      1170
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'}\\\n  assert.sameValue(typeof f, \"function\");\\\n  assert.sameValue(f(), \"declaration\");'",
+    "start": 1173,
+    "end": 1260,
+    "range": [
+      1173,
+      1260
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 1261,
+    "end": 1262,
+    "range": [
+      1261,
+      1262
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 1262,
+    "end": 1263,
+    "range": [
+      1262,
+      1263
+    ]
+  }
+]

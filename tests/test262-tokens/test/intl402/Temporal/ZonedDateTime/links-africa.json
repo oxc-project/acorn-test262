@@ -1,0 +1,1132 @@
+[
+  {
+    "type": "Keyword",
+    "value": "const",
+    "start": 277,
+    "end": 282,
+    "range": [
+      277,
+      282
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "testCases",
+    "start": 283,
+    "end": 292,
+    "range": [
+      283,
+      292
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "=",
+    "start": 293,
+    "end": 294,
+    "range": [
+      293,
+      294
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "[",
+    "start": 295,
+    "end": 296,
+    "range": [
+      295,
+      296
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"Africa/Accra\"",
+    "start": 299,
+    "end": 313,
+    "range": [
+      299,
+      313
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 313,
+    "end": 314,
+    "range": [
+      313,
+      314
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"Africa/Bamako\"",
+    "start": 369,
+    "end": 384,
+    "range": [
+      369,
+      384
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 384,
+    "end": 385,
+    "range": [
+      384,
+      385
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"Africa/Banjul\"",
+    "start": 439,
+    "end": 454,
+    "range": [
+      439,
+      454
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 454,
+    "end": 455,
+    "range": [
+      454,
+      455
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"Africa/Conakry\"",
+    "start": 515,
+    "end": 531,
+    "range": [
+      515,
+      531
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 531,
+    "end": 532,
+    "range": [
+      531,
+      532
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"Africa/Dakar\"",
+    "start": 588,
+    "end": 602,
+    "range": [
+      588,
+      602
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 602,
+    "end": 603,
+    "range": [
+      602,
+      603
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"Africa/Freetown\"",
+    "start": 660,
+    "end": 677,
+    "range": [
+      660,
+      677
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 677,
+    "end": 678,
+    "range": [
+      677,
+      678
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"Africa/Lome\"",
+    "start": 740,
+    "end": 753,
+    "range": [
+      740,
+      753
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 753,
+    "end": 754,
+    "range": [
+      753,
+      754
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"Africa/Nouakchott\"",
+    "start": 808,
+    "end": 827,
+    "range": [
+      808,
+      827
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 827,
+    "end": 828,
+    "range": [
+      827,
+      828
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"Africa/Ouagadougou\"",
+    "start": 888,
+    "end": 908,
+    "range": [
+      888,
+      908
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 908,
+    "end": 909,
+    "range": [
+      908,
+      909
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"Atlantic/St_Helena\"",
+    "start": 971,
+    "end": 991,
+    "range": [
+      971,
+      991
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 991,
+    "end": 992,
+    "range": [
+      991,
+      992
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"Africa/Addis_Ababa\"",
+    "start": 1051,
+    "end": 1071,
+    "range": [
+      1051,
+      1071
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 1071,
+    "end": 1072,
+    "range": [
+      1071,
+      1072
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"Africa/Asmara\"",
+    "start": 1131,
+    "end": 1146,
+    "range": [
+      1131,
+      1146
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 1146,
+    "end": 1147,
+    "range": [
+      1146,
+      1147
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"Africa/Dar_es_Salaam\"",
+    "start": 1205,
+    "end": 1227,
+    "range": [
+      1205,
+      1227
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 1227,
+    "end": 1228,
+    "range": [
+      1227,
+      1228
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"Africa/Djibouti\"",
+    "start": 1287,
+    "end": 1304,
+    "range": [
+      1287,
+      1304
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 1304,
+    "end": 1305,
+    "range": [
+      1304,
+      1305
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"Africa/Kampala\"",
+    "start": 1348,
+    "end": 1364,
+    "range": [
+      1348,
+      1364
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 1364,
+    "end": 1365,
+    "range": [
+      1364,
+      1365
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"Africa/Mogadishu\"",
+    "start": 1422,
+    "end": 1440,
+    "range": [
+      1422,
+      1440
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 1440,
+    "end": 1441,
+    "range": [
+      1440,
+      1441
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"Indian/Antananarivo\"",
+    "start": 1499,
+    "end": 1520,
+    "range": [
+      1499,
+      1520
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 1520,
+    "end": 1521,
+    "range": [
+      1520,
+      1521
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"Indian/Comoro\"",
+    "start": 1582,
+    "end": 1597,
+    "range": [
+      1582,
+      1597
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 1597,
+    "end": 1598,
+    "range": [
+      1597,
+      1598
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"Indian/Mayotte\"",
+    "start": 1639,
+    "end": 1655,
+    "range": [
+      1639,
+      1655
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 1655,
+    "end": 1656,
+    "range": [
+      1655,
+      1656
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"Africa/Blantyre\"",
+    "start": 1698,
+    "end": 1715,
+    "range": [
+      1698,
+      1715
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 1715,
+    "end": 1716,
+    "range": [
+      1715,
+      1716
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"Africa/Bujumbura\"",
+    "start": 1772,
+    "end": 1790,
+    "range": [
+      1772,
+      1790
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 1790,
+    "end": 1791,
+    "range": [
+      1790,
+      1791
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"Africa/Gaborone\"",
+    "start": 1848,
+    "end": 1865,
+    "range": [
+      1848,
+      1865
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 1865,
+    "end": 1866,
+    "range": [
+      1865,
+      1866
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"Africa/Harare\"",
+    "start": 1924,
+    "end": 1939,
+    "range": [
+      1924,
+      1939
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 1939,
+    "end": 1940,
+    "range": [
+      1939,
+      1940
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"Africa/Kigali\"",
+    "start": 1998,
+    "end": 2013,
+    "range": [
+      1998,
+      2013
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 2013,
+    "end": 2014,
+    "range": [
+      2013,
+      2014
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"Africa/Lubumbashi\"",
+    "start": 2070,
+    "end": 2089,
+    "range": [
+      2070,
+      2089
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 2089,
+    "end": 2090,
+    "range": [
+      2089,
+      2090
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"Africa/Lusaka\"",
+    "start": 2160,
+    "end": 2175,
+    "range": [
+      2160,
+      2175
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 2175,
+    "end": 2176,
+    "range": [
+      2175,
+      2176
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"Africa/Bangui\"",
+    "start": 2232,
+    "end": 2247,
+    "range": [
+      2232,
+      2247
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 2247,
+    "end": 2248,
+    "range": [
+      2247,
+      2248
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"Africa/Brazzaville\"",
+    "start": 2322,
+    "end": 2342,
+    "range": [
+      2322,
+      2342
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 2342,
+    "end": 2343,
+    "range": [
+      2342,
+      2343
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"Africa/Douala\"",
+    "start": 2410,
+    "end": 2425,
+    "range": [
+      2410,
+      2425
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 2425,
+    "end": 2426,
+    "range": [
+      2425,
+      2426
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"Africa/Kinshasa\"",
+    "start": 2484,
+    "end": 2501,
+    "range": [
+      2484,
+      2501
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 2501,
+    "end": 2502,
+    "range": [
+      2501,
+      2502
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"Africa/Libreville\"",
+    "start": 2581,
+    "end": 2600,
+    "range": [
+      2581,
+      2600
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 2600,
+    "end": 2601,
+    "range": [
+      2600,
+      2601
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"Africa/Luanda\"",
+    "start": 2656,
+    "end": 2671,
+    "range": [
+      2656,
+      2671
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 2671,
+    "end": 2672,
+    "range": [
+      2671,
+      2672
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"Africa/Malabo\"",
+    "start": 2728,
+    "end": 2743,
+    "range": [
+      2728,
+      2743
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 2743,
+    "end": 2744,
+    "range": [
+      2743,
+      2744
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"Africa/Niamey\"",
+    "start": 2811,
+    "end": 2826,
+    "range": [
+      2811,
+      2826
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 2826,
+    "end": 2827,
+    "range": [
+      2826,
+      2827
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"Africa/Porto-Novo\"",
+    "start": 2882,
+    "end": 2901,
+    "range": [
+      2882,
+      2901
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 2901,
+    "end": 2902,
+    "range": [
+      2901,
+      2902
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"Africa/Maseru\"",
+    "start": 2957,
+    "end": 2972,
+    "range": [
+      2957,
+      2972
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 2972,
+    "end": 2973,
+    "range": [
+      2972,
+      2973
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"Africa/Mbabane\"",
+    "start": 3030,
+    "end": 3046,
+    "range": [
+      3030,
+      3046
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 3046,
+    "end": 3047,
+    "range": [
+      3046,
+      3047
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "]",
+    "start": 3103,
+    "end": 3104,
+    "range": [
+      3103,
+      3104
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 3104,
+    "end": 3105,
+    "range": [
+      3104,
+      3105
+    ]
+  },
+  {
+    "type": "Keyword",
+    "value": "for",
+    "start": 3107,
+    "end": 3110,
+    "range": [
+      3107,
+      3110
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 3111,
+    "end": 3112,
+    "range": [
+      3111,
+      3112
+    ]
+  },
+  {
+    "type": "Keyword",
+    "value": "let",
+    "start": 3112,
+    "end": 3115,
+    "range": [
+      3112,
+      3115
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "id",
+    "start": 3116,
+    "end": 3118,
+    "range": [
+      3116,
+      3118
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "of",
+    "start": 3119,
+    "end": 3121,
+    "range": [
+      3119,
+      3121
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "testCases",
+    "start": 3122,
+    "end": 3131,
+    "range": [
+      3122,
+      3131
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 3131,
+    "end": 3132,
+    "range": [
+      3131,
+      3132
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "{",
+    "start": 3133,
+    "end": 3134,
+    "range": [
+      3133,
+      3134
+    ]
+  },
+  {
+    "type": "Keyword",
+    "value": "const",
+    "start": 3137,
+    "end": 3142,
+    "range": [
+      3137,
+      3142
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "instance",
+    "start": 3143,
+    "end": 3151,
+    "range": [
+      3143,
+      3151
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "=",
+    "start": 3152,
+    "end": 3153,
+    "range": [
+      3152,
+      3153
+    ]
+  },
+  {
+    "type": "Keyword",
+    "value": "new",
+    "start": 3154,
+    "end": 3157,
+    "range": [
+      3154,
+      3157
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "Temporal",
+    "start": 3158,
+    "end": 3166,
+    "range": [
+      3158,
+      3166
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 3166,
+    "end": 3167,
+    "range": [
+      3166,
+      3167
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "ZonedDateTime",
+    "start": 3167,
+    "end": 3180,
+    "range": [
+      3167,
+      3180
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 3180,
+    "end": 3181,
+    "range": [
+      3180,
+      3181
+    ]
+  },
+  {
+    "type": "Numeric",
+    "value": "0n",
+    "start": 3181,
+    "end": 3183,
+    "range": [
+      3181,
+      3183
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 3183,
+    "end": 3184,
+    "range": [
+      3183,
+      3184
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "id",
+    "start": 3185,
+    "end": 3187,
+    "range": [
+      3185,
+      3187
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 3187,
+    "end": 3188,
+    "range": [
+      3187,
+      3188
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 3188,
+    "end": 3189,
+    "range": [
+      3188,
+      3189
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "assert",
+    "start": 3192,
+    "end": 3198,
+    "range": [
+      3192,
+      3198
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 3198,
+    "end": 3199,
+    "range": [
+      3198,
+      3199
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "sameValue",
+    "start": 3199,
+    "end": 3208,
+    "range": [
+      3199,
+      3208
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 3208,
+    "end": 3209,
+    "range": [
+      3208,
+      3209
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "instance",
+    "start": 3209,
+    "end": 3217,
+    "range": [
+      3209,
+      3217
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 3217,
+    "end": 3218,
+    "range": [
+      3217,
+      3218
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "timeZoneId",
+    "start": 3218,
+    "end": 3228,
+    "range": [
+      3218,
+      3228
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 3228,
+    "end": 3229,
+    "range": [
+      3228,
+      3229
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "id",
+    "start": 3230,
+    "end": 3232,
+    "range": [
+      3230,
+      3232
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 3232,
+    "end": 3233,
+    "range": [
+      3232,
+      3233
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 3233,
+    "end": 3234,
+    "range": [
+      3233,
+      3234
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "}",
+    "start": 3235,
+    "end": 3236,
+    "range": [
+      3235,
+      3236
+    ]
+  }
+]

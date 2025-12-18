@@ -1,0 +1,46 @@
+[
+  {
+    "type": "Keyword",
+    "value": "typeof",
+    "start": 1139,
+    "end": 1145,
+    "range": [
+      1139,
+      1145
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "await",
+    "start": 1146,
+    "end": 1151,
+    "range": [
+      1146,
+      1151
+    ]
+  },
+  {
+    "type": "RegularExpression",
+    "value": "/1/",
+    "regex": {
+      "flags": "",
+      "pattern": "1"
+    },
+    "start": 1152,
+    "end": 1155,
+    "range": [
+      1152,
+      1155
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 1155,
+    "end": 1156,
+    "range": [
+      1155,
+      1156
+    ]
+  }
+]

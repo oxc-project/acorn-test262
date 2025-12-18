@@ -1,0 +1,346 @@
+[
+  {
+    "type": "Keyword",
+    "value": "var",
+    "start": 2171,
+    "end": 2174,
+    "range": [
+      2171,
+      2174
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "re1",
+    "start": 2175,
+    "end": 2178,
+    "range": [
+      2175,
+      2178
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "=",
+    "start": 2179,
+    "end": 2180,
+    "range": [
+      2179,
+      2180
+    ]
+  },
+  {
+    "type": "RegularExpression",
+    "value": "/(?-i:)/i",
+    "regex": {
+      "flags": "i",
+      "pattern": "(?-i:)"
+    },
+    "start": 2181,
+    "end": 2190,
+    "range": [
+      2181,
+      2190
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 2190,
+    "end": 2191,
+    "range": [
+      2190,
+      2191
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "assert",
+    "start": 2192,
+    "end": 2198,
+    "range": [
+      2192,
+      2198
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 2198,
+    "end": 2199,
+    "range": [
+      2198,
+      2199
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "re1",
+    "start": 2199,
+    "end": 2202,
+    "range": [
+      2199,
+      2202
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 2202,
+    "end": 2203,
+    "range": [
+      2202,
+      2203
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "ignoreCase",
+    "start": 2203,
+    "end": 2213,
+    "range": [
+      2203,
+      2213
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 2213,
+    "end": 2214,
+    "range": [
+      2213,
+      2214
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"RegExp instance ignoreCase property should still be set\"",
+    "start": 2215,
+    "end": 2272,
+    "range": [
+      2215,
+      2272
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 2272,
+    "end": 2273,
+    "range": [
+      2272,
+      2273
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 2273,
+    "end": 2274,
+    "range": [
+      2273,
+      2274
+    ]
+  },
+  {
+    "type": "Keyword",
+    "value": "var",
+    "start": 2276,
+    "end": 2279,
+    "range": [
+      2276,
+      2279
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "re2",
+    "start": 2280,
+    "end": 2283,
+    "range": [
+      2280,
+      2283
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "=",
+    "start": 2284,
+    "end": 2285,
+    "range": [
+      2284,
+      2285
+    ]
+  },
+  {
+    "type": "Keyword",
+    "value": "new",
+    "start": 2286,
+    "end": 2289,
+    "range": [
+      2286,
+      2289
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "RegExp",
+    "start": 2290,
+    "end": 2296,
+    "range": [
+      2290,
+      2296
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 2296,
+    "end": 2297,
+    "range": [
+      2296,
+      2297
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"(?-i:)\"",
+    "start": 2297,
+    "end": 2305,
+    "range": [
+      2297,
+      2305
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 2305,
+    "end": 2306,
+    "range": [
+      2305,
+      2306
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"i\"",
+    "start": 2307,
+    "end": 2310,
+    "range": [
+      2307,
+      2310
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 2310,
+    "end": 2311,
+    "range": [
+      2310,
+      2311
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 2311,
+    "end": 2312,
+    "range": [
+      2311,
+      2312
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "assert",
+    "start": 2313,
+    "end": 2319,
+    "range": [
+      2313,
+      2319
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 2319,
+    "end": 2320,
+    "range": [
+      2319,
+      2320
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "re2",
+    "start": 2320,
+    "end": 2323,
+    "range": [
+      2320,
+      2323
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 2323,
+    "end": 2324,
+    "range": [
+      2323,
+      2324
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "ignoreCase",
+    "start": 2324,
+    "end": 2334,
+    "range": [
+      2324,
+      2334
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 2334,
+    "end": 2335,
+    "range": [
+      2334,
+      2335
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"RegExp instance ignoreCase property should still be set\"",
+    "start": 2336,
+    "end": 2393,
+    "range": [
+      2336,
+      2393
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 2393,
+    "end": 2394,
+    "range": [
+      2393,
+      2394
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 2394,
+    "end": 2395,
+    "range": [
+      2394,
+      2395
+    ]
+  }
+]

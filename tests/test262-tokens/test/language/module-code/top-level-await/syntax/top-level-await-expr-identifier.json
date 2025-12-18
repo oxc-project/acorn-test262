@@ -1,0 +1,82 @@
+[
+  {
+    "type": "Keyword",
+    "value": "var",
+    "start": 1065,
+    "end": 1068,
+    "range": [
+      1065,
+      1068
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "foo",
+    "start": 1069,
+    "end": 1072,
+    "range": [
+      1069,
+      1072
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "=",
+    "start": 1073,
+    "end": 1074,
+    "range": [
+      1073,
+      1074
+    ]
+  },
+  {
+    "type": "Numeric",
+    "value": "1",
+    "start": 1075,
+    "end": 1076,
+    "range": [
+      1075,
+      1076
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 1076,
+    "end": 1077,
+    "range": [
+      1076,
+      1077
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "await",
+    "start": 1080,
+    "end": 1085,
+    "range": [
+      1080,
+      1085
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "foo",
+    "start": 1086,
+    "end": 1089,
+    "range": [
+      1086,
+      1089
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 1089,
+    "end": 1090,
+    "range": [
+      1089,
+      1090
+    ]
+  }
+]

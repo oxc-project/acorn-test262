@@ -1,0 +1,122 @@
+[
+  {
+    "type": "Keyword",
+    "value": "class",
+    "start": 252,
+    "end": 257,
+    "range": [
+      252,
+      257
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "C4",
+    "start": 258,
+    "end": 260,
+    "range": [
+      258,
+      260
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "{",
+    "start": 261,
+    "end": 262,
+    "range": [
+      261,
+      262
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "*",
+    "start": 265,
+    "end": 266,
+    "range": [
+      265,
+      266
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "[",
+    "start": 266,
+    "end": 267,
+    "range": [
+      266,
+      267
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'constructor'",
+    "start": 267,
+    "end": 280,
+    "range": [
+      267,
+      280
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "]",
+    "start": 280,
+    "end": 281,
+    "range": [
+      280,
+      281
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 281,
+    "end": 282,
+    "range": [
+      281,
+      282
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 282,
+    "end": 283,
+    "range": [
+      282,
+      283
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "{",
+    "start": 284,
+    "end": 285,
+    "range": [
+      284,
+      285
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "}",
+    "start": 285,
+    "end": 286,
+    "range": [
+      285,
+      286
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "}",
+    "start": 287,
+    "end": 288,
+    "range": [
+      287,
+      288
+    ]
+  }
+]

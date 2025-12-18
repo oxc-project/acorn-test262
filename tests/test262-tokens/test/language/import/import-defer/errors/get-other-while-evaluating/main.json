@@ -1,0 +1,152 @@
+[
+  {
+    "type": "Keyword",
+    "value": "import",
+    "start": 1567,
+    "end": 1573,
+    "range": [
+      1567,
+      1573
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"./dep_FIXTURE.js\"",
+    "start": 1574,
+    "end": 1592,
+    "range": [
+      1574,
+      1592
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 1592,
+    "end": 1593,
+    "range": [
+      1592,
+      1593
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "assert",
+    "start": 1595,
+    "end": 1601,
+    "range": [
+      1595,
+      1601
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 1601,
+    "end": 1602,
+    "range": [
+      1601,
+      1602
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "globalThis",
+    "start": 1602,
+    "end": 1612,
+    "range": [
+      1602,
+      1612
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "[",
+    "start": 1612,
+    "end": 1613,
+    "range": [
+      1612,
+      1613
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"error on main.foo\"",
+    "start": 1613,
+    "end": 1632,
+    "range": [
+      1613,
+      1632
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "]",
+    "start": 1632,
+    "end": 1633,
+    "range": [
+      1632,
+      1633
+    ]
+  },
+  {
+    "type": "Keyword",
+    "value": "instanceof",
+    "start": 1634,
+    "end": 1644,
+    "range": [
+      1634,
+      1644
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "TypeError",
+    "start": 1645,
+    "end": 1654,
+    "range": [
+      1645,
+      1654
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 1654,
+    "end": 1655,
+    "range": [
+      1654,
+      1655
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"main.foo while evaluating throws a TypeError\"",
+    "start": 1656,
+    "end": 1702,
+    "range": [
+      1656,
+      1702
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 1702,
+    "end": 1703,
+    "range": [
+      1702,
+      1703
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 1703,
+    "end": 1704,
+    "range": [
+      1703,
+      1704
+    ]
+  }
+]

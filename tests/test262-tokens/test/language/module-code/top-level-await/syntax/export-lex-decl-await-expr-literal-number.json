@@ -1,0 +1,142 @@
+[
+  {
+    "type": "Keyword",
+    "value": "export",
+    "start": 1853,
+    "end": 1859,
+    "range": [
+      1853,
+      1859
+    ]
+  },
+  {
+    "type": "Keyword",
+    "value": "let",
+    "start": 1860,
+    "end": 1863,
+    "range": [
+      1860,
+      1863
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "x",
+    "start": 1864,
+    "end": 1865,
+    "range": [
+      1864,
+      1865
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "=",
+    "start": 1866,
+    "end": 1867,
+    "range": [
+      1866,
+      1867
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "await",
+    "start": 1868,
+    "end": 1873,
+    "range": [
+      1868,
+      1873
+    ]
+  },
+  {
+    "type": "Numeric",
+    "value": "1",
+    "start": 1874,
+    "end": 1875,
+    "range": [
+      1874,
+      1875
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 1875,
+    "end": 1876,
+    "range": [
+      1875,
+      1876
+    ]
+  },
+  {
+    "type": "Keyword",
+    "value": "export",
+    "start": 1877,
+    "end": 1883,
+    "range": [
+      1877,
+      1883
+    ]
+  },
+  {
+    "type": "Keyword",
+    "value": "const",
+    "start": 1884,
+    "end": 1889,
+    "range": [
+      1884,
+      1889
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "y",
+    "start": 1890,
+    "end": 1891,
+    "range": [
+      1890,
+      1891
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "=",
+    "start": 1892,
+    "end": 1893,
+    "range": [
+      1892,
+      1893
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "await",
+    "start": 1894,
+    "end": 1899,
+    "range": [
+      1894,
+      1899
+    ]
+  },
+  {
+    "type": "Numeric",
+    "value": "1",
+    "start": 1900,
+    "end": 1901,
+    "range": [
+      1900,
+      1901
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 1901,
+    "end": 1902,
+    "range": [
+      1901,
+      1902
+    ]
+  }
+]

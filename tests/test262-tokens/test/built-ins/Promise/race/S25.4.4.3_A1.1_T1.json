@@ -1,0 +1,142 @@
+[
+  {
+    "type": "Identifier",
+    "value": "assert",
+    "start": 213,
+    "end": 219,
+    "range": [
+      213,
+      219
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 219,
+    "end": 220,
+    "range": [
+      219,
+      220
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "sameValue",
+    "start": 220,
+    "end": 229,
+    "range": [
+      220,
+      229
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 229,
+    "end": 230,
+    "range": [
+      229,
+      230
+    ]
+  },
+  {
+    "type": "Keyword",
+    "value": "typeof",
+    "start": 230,
+    "end": 236,
+    "range": [
+      230,
+      236
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "Promise",
+    "start": 237,
+    "end": 244,
+    "range": [
+      237,
+      244
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 244,
+    "end": 245,
+    "range": [
+      244,
+      245
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "race",
+    "start": 245,
+    "end": 249,
+    "range": [
+      245,
+      249
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 249,
+    "end": 250,
+    "range": [
+      249,
+      250
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"function\"",
+    "start": 251,
+    "end": 261,
+    "range": [
+      251,
+      261
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 261,
+    "end": 262,
+    "range": [
+      261,
+      262
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'The value of `typeof Promise.race` is expected to be \"function\"'",
+    "start": 263,
+    "end": 328,
+    "range": [
+      263,
+      328
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 328,
+    "end": 329,
+    "range": [
+      328,
+      329
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 329,
+    "end": 330,
+    "range": [
+      329,
+      330
+    ]
+  }
+]

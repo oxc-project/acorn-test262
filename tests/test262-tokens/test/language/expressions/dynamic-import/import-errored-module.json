@@ -1,0 +1,462 @@
+[
+  {
+    "type": "Identifier",
+    "value": "asyncTest",
+    "start": 2124,
+    "end": 2133,
+    "range": [
+      2124,
+      2133
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 2133,
+    "end": 2134,
+    "range": [
+      2133,
+      2134
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "async",
+    "start": 2134,
+    "end": 2139,
+    "range": [
+      2134,
+      2139
+    ]
+  },
+  {
+    "type": "Keyword",
+    "value": "function",
+    "start": 2140,
+    "end": 2148,
+    "range": [
+      2140,
+      2148
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 2149,
+    "end": 2150,
+    "range": [
+      2149,
+      2150
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 2150,
+    "end": 2151,
+    "range": [
+      2150,
+      2151
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "{",
+    "start": 2152,
+    "end": 2153,
+    "range": [
+      2152,
+      2153
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "await",
+    "start": 2156,
+    "end": 2161,
+    "range": [
+      2156,
+      2161
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "assert",
+    "start": 2162,
+    "end": 2168,
+    "range": [
+      2162,
+      2168
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 2168,
+    "end": 2169,
+    "range": [
+      2168,
+      2169
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "throwsAsync",
+    "start": 2169,
+    "end": 2180,
+    "range": [
+      2169,
+      2180
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 2180,
+    "end": 2181,
+    "range": [
+      2180,
+      2181
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "Error",
+    "start": 2186,
+    "end": 2191,
+    "range": [
+      2186,
+      2191
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 2191,
+    "end": 2192,
+    "range": [
+      2191,
+      2192
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 2197,
+    "end": 2198,
+    "range": [
+      2197,
+      2198
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 2198,
+    "end": 2199,
+    "range": [
+      2198,
+      2199
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "=>",
+    "start": 2200,
+    "end": 2202,
+    "range": [
+      2200,
+      2202
+    ]
+  },
+  {
+    "type": "Keyword",
+    "value": "import",
+    "start": 2203,
+    "end": 2209,
+    "range": [
+      2203,
+      2209
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 2209,
+    "end": 2210,
+    "range": [
+      2209,
+      2210
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'./import-errored-module_FIXTURE.js'",
+    "start": 2210,
+    "end": 2246,
+    "range": [
+      2210,
+      2246
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 2246,
+    "end": 2247,
+    "range": [
+      2246,
+      2247
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 2247,
+    "end": 2248,
+    "range": [
+      2247,
+      2248
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'The import should reject (first import)'",
+    "start": 2253,
+    "end": 2294,
+    "range": [
+      2253,
+      2294
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 2297,
+    "end": 2298,
+    "range": [
+      2297,
+      2298
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 2298,
+    "end": 2299,
+    "range": [
+      2298,
+      2299
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "await",
+    "start": 2302,
+    "end": 2307,
+    "range": [
+      2302,
+      2307
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "assert",
+    "start": 2308,
+    "end": 2314,
+    "range": [
+      2308,
+      2314
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 2314,
+    "end": 2315,
+    "range": [
+      2314,
+      2315
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "throwsAsync",
+    "start": 2315,
+    "end": 2326,
+    "range": [
+      2315,
+      2326
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 2326,
+    "end": 2327,
+    "range": [
+      2326,
+      2327
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "Error",
+    "start": 2332,
+    "end": 2337,
+    "range": [
+      2332,
+      2337
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 2337,
+    "end": 2338,
+    "range": [
+      2337,
+      2338
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 2343,
+    "end": 2344,
+    "range": [
+      2343,
+      2344
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 2344,
+    "end": 2345,
+    "range": [
+      2344,
+      2345
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "=>",
+    "start": 2346,
+    "end": 2348,
+    "range": [
+      2346,
+      2348
+    ]
+  },
+  {
+    "type": "Keyword",
+    "value": "import",
+    "start": 2349,
+    "end": 2355,
+    "range": [
+      2349,
+      2355
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 2355,
+    "end": 2356,
+    "range": [
+      2355,
+      2356
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'./import-errored-module_FIXTURE.js'",
+    "start": 2356,
+    "end": 2392,
+    "range": [
+      2356,
+      2392
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 2392,
+    "end": 2393,
+    "range": [
+      2392,
+      2393
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 2393,
+    "end": 2394,
+    "range": [
+      2393,
+      2394
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'The import should reject (second import)'",
+    "start": 2399,
+    "end": 2441,
+    "range": [
+      2399,
+      2441
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 2444,
+    "end": 2445,
+    "range": [
+      2444,
+      2445
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 2445,
+    "end": 2446,
+    "range": [
+      2445,
+      2446
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "}",
+    "start": 2447,
+    "end": 2448,
+    "range": [
+      2447,
+      2448
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 2448,
+    "end": 2449,
+    "range": [
+      2448,
+      2449
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 2449,
+    "end": 2450,
+    "range": [
+      2449,
+      2450
+    ]
+  }
+]
