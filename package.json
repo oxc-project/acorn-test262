@@ -7,9 +7,9 @@
   "main": "index.mjs",
   "scripts": {
     "init": "pnpm run '/^clone-*/'",
-    "clone-test262": "just clone-submodule submodules/test262 https://github.com/tc39/test262.git 947fee33f81e261afd4fc6020b2a1d3ac23efa60",
+    "clone-test262": "just clone-submodule submodules/test262 https://github.com/tc39/test262.git 84082e2705b9119d91789f9745df78a6fcecf7ca",
     "clone-acorn-jsx": "just clone-submodule submodules/acorn-jsx https://github.com/acornjs/acorn-jsx.git 8ed96d6ddec2065204ba07d924bb2e7bca539ea6",
-    "clone-typescript": "just clone-submodule submodules/typescript https://github.com/microsoft/TypeScript.git 0a071327153b4c386dfcab19a584e0d6224d1354",
+    "clone-typescript": "just clone-submodule submodules/typescript https://github.com/microsoft/TypeScript.git b78f0899ab6ffe1890f1adff6f5acd82da31f5d8",
     "start": "pnpm run gen-test262 && pnpm run gen-acorn-jsx && pnpm run gen-typescript",
     "gen-test262": "node src/test262.js",
     "gen-acorn-jsx": "node src/acorn-jsx.js",
