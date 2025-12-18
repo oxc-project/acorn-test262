@@ -3,6 +3,7 @@ import fs from "node:fs/promises";
 import { join as pathJoin } from "node:path";
 import acornJsx from "../submodules/acorn-jsx/index.js";
 import { transformerAcorn } from "./utils/json.js";
+import { parseEspreeTokens } from "./utils/tokens.js";
 import { run } from "./utils/run.js";
 
 const Parser = acorn.Parser.extend(acornJsx());
@@ -40,8 +41,10 @@ await run({
   subDirectory: "fixtures/pass",
   transform: transformerAcorn,
   async process(path, code) {
+    // Parse AST
+    let ast;
     try {
-      const ast = Parser.parse(code, {
+      ast = Parser.parse(code, {
         ecmaVersion: "latest",
         sourceType: "module",
         preserveParens: true,
@@ -49,18 +52,25 @@ await run({
         allowReturnOutsideFunction: true,
       });
       ast.hashbang = null;
+    } catch {
+      return;
+    }
 
-      path = path.slice("fixtures/".length);
-      return [
-        {
-          path,
-          content: code,
-        },
-        {
-          path: `${path.slice(0, -4)}.json`, // Replace `.jsx` with `.json`
-          ast,
-        },
-      ];
-    } catch {}
+    // Parse tokens
+    const tokensJson = parseEspreeTokens(code, true, true);
+
+    // Output AST and tokens
+    path = path.slice("fixtures/".length);
+    const astPath = `${path.slice(0, -4)}.json`; // Replace `.jsx` with `.json`
+
+    const outputs = [
+      { path, content: code },
+      { path: astPath, ast },
+    ];
+    if (tokensJson) {
+      const tokensPath = `${path.slice(0, -4)}.tokens.json`; // Replace `.jsx` with `.tokens.json`
+      outputs.push({ path: tokensPath, content: tokensJson });
+    }
+    return outputs;
   },
 });

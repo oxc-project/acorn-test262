@@ -73,8 +73,28 @@ await run({
           }
         }
 
-        const json = stringifyWith(program, transformerTs);
-        output += "__ESTREE_TEST__:PASS:\n```json\n" + json + "\n```\n";
+        const astJson = stringifyWith(program, transformerTs);
+        output += "__ESTREE_TEST__:AST:\n```json\n" + astJson + "\n```\n";
+
+        // Conform tokens.
+        // * Remove `loc`
+        // * Move `regex` field to after `value`
+        // * Add `start` + `end`
+        // * Move `range` field to last
+        for (let i = 0; i < tokens.length; i++) {
+          let token, range, regex, _loc;
+          ({ range, regex, loc: _loc, ...token } = tokens[i]);
+
+          if (regex !== undefined) token.regex = regex;
+          token.start = range[0];
+          token.end = range[1];
+          token.range = range;
+
+          tokens[i] = token;
+        }
+
+        const tokensJson = JSON.stringify(tokens, null, 2);
+        output += "__ESTREE_TEST__:TOKENS:\n```json\n" + tokensJson + "\n```\n";
       } catch {
         return;
       }
