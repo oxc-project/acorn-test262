@@ -1,4 +1,4 @@
-__ESTREE_TEST__:PASS:
+__ESTREE_TEST__:AST:
 ```json
 {
   "type": "Program",
@@ -138,7 +138,202 @@ __ESTREE_TEST__:PASS:
   "end": 97
 }
 ```
-__ESTREE_TEST__:PASS:
+__ESTREE_TEST__:TOKENS:
+```json
+[
+  {
+    "type": "Keyword",
+    "value": "export",
+    "start": 0,
+    "end": 6,
+    "range": [
+      0,
+      6
+    ]
+  },
+  {
+    "type": "Keyword",
+    "value": "class",
+    "start": 7,
+    "end": 12,
+    "range": [
+      7,
+      12
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "Promise",
+    "start": 13,
+    "end": 20,
+    "range": [
+      13,
+      20
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "{",
+    "start": 21,
+    "end": 22,
+    "range": [
+      21,
+      22
+    ]
+  },
+  {
+    "type": "Keyword",
+    "value": "static",
+    "start": 27,
+    "end": 33,
+    "range": [
+      27,
+      33
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "timeout",
+    "start": 34,
+    "end": 41,
+    "range": [
+      34,
+      41
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 41,
+    "end": 42,
+    "range": [
+      41,
+      42
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "delay",
+    "start": 42,
+    "end": 47,
+    "range": [
+      42,
+      47
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ":",
+    "start": 47,
+    "end": 48,
+    "range": [
+      47,
+      48
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "number",
+    "start": 49,
+    "end": 55,
+    "range": [
+      49,
+      55
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 55,
+    "end": 56,
+    "range": [
+      55,
+      56
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ":",
+    "start": 56,
+    "end": 57,
+    "range": [
+      56,
+      57
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "Promise",
+    "start": 58,
+    "end": 65,
+    "range": [
+      58,
+      65
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "{",
+    "start": 66,
+    "end": 67,
+    "range": [
+      66,
+      67
+    ]
+  },
+  {
+    "type": "Keyword",
+    "value": "return",
+    "start": 76,
+    "end": 82,
+    "range": [
+      76,
+      82
+    ]
+  },
+  {
+    "type": "Null",
+    "value": "null",
+    "start": 83,
+    "end": 87,
+    "range": [
+      83,
+      87
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 87,
+    "end": 88,
+    "range": [
+      87,
+      88
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "}",
+    "start": 93,
+    "end": 94,
+    "range": [
+      93,
+      94
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "}",
+    "start": 95,
+    "end": 96,
+    "range": [
+      95,
+      96
+    ]
+  }
+]
+```
+__ESTREE_TEST__:AST:
 ```json
 {
   "type": "Program",
@@ -239,4 +434,179 @@ __ESTREE_TEST__:PASS:
   "start": 63,
   "end": 154
 }
+```
+__ESTREE_TEST__:TOKENS:
+```json
+[
+  {
+    "type": "Keyword",
+    "value": "import",
+    "start": 63,
+    "end": 69,
+    "range": [
+      63,
+      69
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "WinJS",
+    "start": 70,
+    "end": 75,
+    "range": [
+      70,
+      75
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "=",
+    "start": 76,
+    "end": 77,
+    "range": [
+      76,
+      77
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "require",
+    "start": 78,
+    "end": 85,
+    "range": [
+      78,
+      85
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 85,
+    "end": 86,
+    "range": [
+      85,
+      86
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'memberAccessMustUseModuleInstances_0'",
+    "start": 86,
+    "end": 124,
+    "range": [
+      86,
+      124
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 124,
+    "end": 125,
+    "range": [
+      124,
+      125
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 125,
+    "end": 126,
+    "range": [
+      125,
+      126
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "WinJS",
+    "start": 128,
+    "end": 133,
+    "range": [
+      128,
+      133
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 133,
+    "end": 134,
+    "range": [
+      133,
+      134
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "Promise",
+    "start": 134,
+    "end": 141,
+    "range": [
+      134,
+      141
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 141,
+    "end": 142,
+    "range": [
+      141,
+      142
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "timeout",
+    "start": 142,
+    "end": 149,
+    "range": [
+      142,
+      149
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 149,
+    "end": 150,
+    "range": [
+      149,
+      150
+    ]
+  },
+  {
+    "type": "Numeric",
+    "value": "10",
+    "start": 150,
+    "end": 152,
+    "range": [
+      150,
+      152
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 152,
+    "end": 153,
+    "range": [
+      152,
+      153
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 153,
+    "end": 154,
+    "range": [
+      153,
+      154
+    ]
+  }
+]
 ```

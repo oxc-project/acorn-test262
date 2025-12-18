@@ -1,4 +1,4 @@
-__ESTREE_TEST__:PASS:
+__ESTREE_TEST__:AST:
 ```json
 {
   "type": "Program",
@@ -141,7 +141,212 @@ __ESTREE_TEST__:PASS:
   "end": 169
 }
 ```
-__ESTREE_TEST__:PASS:
+__ESTREE_TEST__:TOKENS:
+```json
+[
+  {
+    "type": "Keyword",
+    "value": "const",
+    "start": 48,
+    "end": 53,
+    "range": [
+      48,
+      53
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "LazySet",
+    "start": 54,
+    "end": 61,
+    "range": [
+      54,
+      61
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "=",
+    "start": 62,
+    "end": 63,
+    "range": [
+      62,
+      63
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "require",
+    "start": 64,
+    "end": 71,
+    "range": [
+      64,
+      71
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 71,
+    "end": 72,
+    "range": [
+      71,
+      72
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"./LazySet\"",
+    "start": 72,
+    "end": 83,
+    "range": [
+      72,
+      83
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 83,
+    "end": 84,
+    "range": [
+      83,
+      84
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 84,
+    "end": 85,
+    "range": [
+      84,
+      85
+    ]
+  },
+  {
+    "type": "Keyword",
+    "value": "const",
+    "start": 110,
+    "end": 115,
+    "range": [
+      110,
+      115
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "stringSet",
+    "start": 116,
+    "end": 125,
+    "range": [
+      116,
+      125
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "=",
+    "start": 126,
+    "end": 127,
+    "range": [
+      126,
+      127
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "undefined",
+    "start": 128,
+    "end": 137,
+    "range": [
+      128,
+      137
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 137,
+    "end": 138,
+    "range": [
+      137,
+      138
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "stringSet",
+    "start": 139,
+    "end": 148,
+    "range": [
+      139,
+      148
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 148,
+    "end": 149,
+    "range": [
+      148,
+      149
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "addAll",
+    "start": 149,
+    "end": 155,
+    "range": [
+      149,
+      155
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 155,
+    "end": 156,
+    "range": [
+      155,
+      156
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "stringSet",
+    "start": 156,
+    "end": 165,
+    "range": [
+      156,
+      165
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 165,
+    "end": 166,
+    "range": [
+      165,
+      166
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 166,
+    "end": 167,
+    "range": [
+      166,
+      167
+    ]
+  }
+]
+```
+__ESTREE_TEST__:AST:
 ```json
 {
   "type": "Program",
@@ -332,4 +537,259 @@ __ESTREE_TEST__:PASS:
   "start": 110,
   "end": 254
 }
+```
+__ESTREE_TEST__:TOKENS:
+```json
+[
+  {
+    "type": "Keyword",
+    "value": "class",
+    "start": 110,
+    "end": 115,
+    "range": [
+      110,
+      115
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "LazySet",
+    "start": 116,
+    "end": 123,
+    "range": [
+      116,
+      123
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "{",
+    "start": 124,
+    "end": 125,
+    "range": [
+      124,
+      125
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "addAll",
+    "start": 179,
+    "end": 185,
+    "range": [
+      179,
+      185
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 185,
+    "end": 186,
+    "range": [
+      185,
+      186
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "iterable",
+    "start": 186,
+    "end": 194,
+    "range": [
+      186,
+      194
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 194,
+    "end": 195,
+    "range": [
+      194,
+      195
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "{",
+    "start": 196,
+    "end": 197,
+    "range": [
+      196,
+      197
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "}",
+    "start": 197,
+    "end": 198,
+    "range": [
+      197,
+      198
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "[",
+    "start": 203,
+    "end": 204,
+    "range": [
+      203,
+      204
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "Symbol",
+    "start": 204,
+    "end": 210,
+    "range": [
+      204,
+      210
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 210,
+    "end": 211,
+    "range": [
+      210,
+      211
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "iterator",
+    "start": 211,
+    "end": 219,
+    "range": [
+      211,
+      219
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "]",
+    "start": 219,
+    "end": 220,
+    "range": [
+      219,
+      220
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 220,
+    "end": 221,
+    "range": [
+      220,
+      221
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 221,
+    "end": 222,
+    "range": [
+      221,
+      222
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "{",
+    "start": 223,
+    "end": 224,
+    "range": [
+      223,
+      224
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "}",
+    "start": 224,
+    "end": 225,
+    "range": [
+      224,
+      225
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "}",
+    "start": 226,
+    "end": 227,
+    "range": [
+      226,
+      227
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "module",
+    "start": 229,
+    "end": 235,
+    "range": [
+      229,
+      235
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 235,
+    "end": 236,
+    "range": [
+      235,
+      236
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "exports",
+    "start": 236,
+    "end": 243,
+    "range": [
+      236,
+      243
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "=",
+    "start": 244,
+    "end": 245,
+    "range": [
+      244,
+      245
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "LazySet",
+    "start": 246,
+    "end": 253,
+    "range": [
+      246,
+      253
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 253,
+    "end": 254,
+    "range": [
+      253,
+      254
+    ]
+  }
+]
 ```

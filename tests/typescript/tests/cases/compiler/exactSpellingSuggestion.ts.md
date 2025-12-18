@@ -1,4 +1,4 @@
-__ESTREE_TEST__:PASS:
+__ESTREE_TEST__:AST:
 ```json
 {
   "type": "Program",
@@ -168,4 +168,249 @@ __ESTREE_TEST__:PASS:
   "start": 93,
   "end": 173
 }
+```
+__ESTREE_TEST__:TOKENS:
+```json
+[
+  {
+    "type": "Keyword",
+    "value": "enum",
+    "start": 93,
+    "end": 97,
+    "range": [
+      93,
+      97
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "U8",
+    "start": 98,
+    "end": 100,
+    "range": [
+      98,
+      100
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "{",
+    "start": 101,
+    "end": 102,
+    "range": [
+      101,
+      102
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "BIT_0",
+    "start": 107,
+    "end": 112,
+    "range": [
+      107,
+      112
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "=",
+    "start": 113,
+    "end": 114,
+    "range": [
+      113,
+      114
+    ]
+  },
+  {
+    "type": "Numeric",
+    "value": "1",
+    "start": 115,
+    "end": 116,
+    "range": [
+      115,
+      116
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "<<",
+    "start": 117,
+    "end": 119,
+    "range": [
+      117,
+      119
+    ]
+  },
+  {
+    "type": "Numeric",
+    "value": "0",
+    "start": 120,
+    "end": 121,
+    "range": [
+      120,
+      121
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 121,
+    "end": 122,
+    "range": [
+      121,
+      122
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "BIT_1",
+    "start": 127,
+    "end": 132,
+    "range": [
+      127,
+      132
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "=",
+    "start": 133,
+    "end": 134,
+    "range": [
+      133,
+      134
+    ]
+  },
+  {
+    "type": "Numeric",
+    "value": "1",
+    "start": 135,
+    "end": 136,
+    "range": [
+      135,
+      136
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "<<",
+    "start": 137,
+    "end": 139,
+    "range": [
+      137,
+      139
+    ]
+  },
+  {
+    "type": "Numeric",
+    "value": "1",
+    "start": 140,
+    "end": 141,
+    "range": [
+      140,
+      141
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 141,
+    "end": 142,
+    "range": [
+      141,
+      142
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "BIT_2",
+    "start": 147,
+    "end": 152,
+    "range": [
+      147,
+      152
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "=",
+    "start": 153,
+    "end": 154,
+    "range": [
+      153,
+      154
+    ]
+  },
+  {
+    "type": "Numeric",
+    "value": "1",
+    "start": 155,
+    "end": 156,
+    "range": [
+      155,
+      156
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "<<",
+    "start": 157,
+    "end": 159,
+    "range": [
+      157,
+      159
+    ]
+  },
+  {
+    "type": "Numeric",
+    "value": "2",
+    "start": 160,
+    "end": 161,
+    "range": [
+      160,
+      161
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "}",
+    "start": 162,
+    "end": 163,
+    "range": [
+      162,
+      163
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "U8",
+    "start": 165,
+    "end": 167,
+    "range": [
+      165,
+      167
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 167,
+    "end": 168,
+    "range": [
+      167,
+      168
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "bit_2",
+    "start": 168,
+    "end": 173,
+    "range": [
+      168,
+      173
+    ]
+  }
+]
 ```

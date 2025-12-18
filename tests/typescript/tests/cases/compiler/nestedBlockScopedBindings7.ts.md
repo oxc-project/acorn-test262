@@ -1,4 +1,4 @@
-__ESTREE_TEST__:PASS:
+__ESTREE_TEST__:AST:
 ```json
 {
   "type": "Program",
@@ -154,4 +154,299 @@ __ESTREE_TEST__:PASS:
   "start": 0,
   "end": 72
 }
+```
+__ESTREE_TEST__:TOKENS:
+```json
+[
+  {
+    "type": "Keyword",
+    "value": "for",
+    "start": 0,
+    "end": 3,
+    "range": [
+      0,
+      3
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 4,
+    "end": 5,
+    "range": [
+      4,
+      5
+    ]
+  },
+  {
+    "type": "Keyword",
+    "value": "let",
+    "start": 5,
+    "end": 8,
+    "range": [
+      5,
+      8
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "x",
+    "start": 9,
+    "end": 10,
+    "range": [
+      9,
+      10
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 10,
+    "end": 11,
+    "range": [
+      10,
+      11
+    ]
+  },
+  {
+    "type": "Boolean",
+    "value": "false",
+    "start": 12,
+    "end": 17,
+    "range": [
+      12,
+      17
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 17,
+    "end": 18,
+    "range": [
+      17,
+      18
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 18,
+    "end": 19,
+    "range": [
+      18,
+      19
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "{",
+    "start": 20,
+    "end": 21,
+    "range": [
+      20,
+      21
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 26,
+    "end": 27,
+    "range": [
+      26,
+      27
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 27,
+    "end": 28,
+    "range": [
+      27,
+      28
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "=>",
+    "start": 29,
+    "end": 31,
+    "range": [
+      29,
+      31
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "x",
+    "start": 32,
+    "end": 33,
+    "range": [
+      32,
+      33
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 33,
+    "end": 34,
+    "range": [
+      33,
+      34
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "}",
+    "start": 35,
+    "end": 36,
+    "range": [
+      35,
+      36
+    ]
+  },
+  {
+    "type": "Keyword",
+    "value": "for",
+    "start": 38,
+    "end": 41,
+    "range": [
+      38,
+      41
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 42,
+    "end": 43,
+    "range": [
+      42,
+      43
+    ]
+  },
+  {
+    "type": "Keyword",
+    "value": "let",
+    "start": 43,
+    "end": 46,
+    "range": [
+      43,
+      46
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "y",
+    "start": 47,
+    "end": 48,
+    "range": [
+      47,
+      48
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 48,
+    "end": 49,
+    "range": [
+      48,
+      49
+    ]
+  },
+  {
+    "type": "Boolean",
+    "value": "false",
+    "start": 50,
+    "end": 55,
+    "range": [
+      50,
+      55
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 55,
+    "end": 56,
+    "range": [
+      55,
+      56
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 56,
+    "end": 57,
+    "range": [
+      56,
+      57
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "{",
+    "start": 58,
+    "end": 59,
+    "range": [
+      58,
+      59
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "y",
+    "start": 64,
+    "end": 65,
+    "range": [
+      64,
+      65
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "=",
+    "start": 66,
+    "end": 67,
+    "range": [
+      66,
+      67
+    ]
+  },
+  {
+    "type": "Numeric",
+    "value": "1",
+    "start": 68,
+    "end": 69,
+    "range": [
+      68,
+      69
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 69,
+    "end": 70,
+    "range": [
+      69,
+      70
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "}",
+    "start": 71,
+    "end": 72,
+    "range": [
+      71,
+      72
+    ]
+  }
+]
 ```

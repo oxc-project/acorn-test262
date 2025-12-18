@@ -1,4 +1,4 @@
-__ESTREE_TEST__:PASS:
+__ESTREE_TEST__:AST:
 ```json
 {
   "type": "Program",
@@ -80,4 +80,129 @@ __ESTREE_TEST__:PASS:
   "start": 586,
   "end": 650
 }
+```
+__ESTREE_TEST__:TOKENS:
+```json
+[
+  {
+    "type": "String",
+    "value": "\"use strict\"",
+    "start": 586,
+    "end": 598,
+    "range": [
+      586,
+      598
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 598,
+    "end": 599,
+    "range": [
+      598,
+      599
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"use strict\"",
+    "start": 600,
+    "end": 612,
+    "range": [
+      600,
+      612
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 612,
+    "end": 613,
+    "range": [
+      612,
+      613
+    ]
+  },
+  {
+    "type": "Keyword",
+    "value": "throw",
+    "start": 614,
+    "end": 619,
+    "range": [
+      614,
+      619
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "NotEarlyError",
+    "start": 620,
+    "end": 633,
+    "range": [
+      620,
+      633
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 633,
+    "end": 634,
+    "range": [
+      633,
+      634
+    ]
+  },
+  {
+    "type": "Keyword",
+    "value": "var",
+    "start": 635,
+    "end": 638,
+    "range": [
+      635,
+      638
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "public",
+    "start": 639,
+    "end": 645,
+    "range": [
+      639,
+      645
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "=",
+    "start": 646,
+    "end": 647,
+    "range": [
+      646,
+      647
+    ]
+  },
+  {
+    "type": "Numeric",
+    "value": "1",
+    "start": 648,
+    "end": 649,
+    "range": [
+      648,
+      649
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 649,
+    "end": 650,
+    "range": [
+      649,
+      650
+    ]
+  }
+]
 ```

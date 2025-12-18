@@ -1,4 +1,4 @@
-__ESTREE_TEST__:PASS:
+__ESTREE_TEST__:AST:
 ```json
 {
   "type": "Program",
@@ -271,4 +271,419 @@ __ESTREE_TEST__:PASS:
   "start": 0,
   "end": 219
 }
+```
+__ESTREE_TEST__:TOKENS:
+```json
+[
+  {
+    "type": "Keyword",
+    "value": "export",
+    "start": 0,
+    "end": 6,
+    "range": [
+      0,
+      6
+    ]
+  },
+  {
+    "type": "Keyword",
+    "value": "class",
+    "start": 7,
+    "end": 12,
+    "range": [
+      7,
+      12
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "Foo",
+    "start": 13,
+    "end": 16,
+    "range": [
+      13,
+      16
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "{",
+    "start": 17,
+    "end": 18,
+    "range": [
+      17,
+      18
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "client",
+    "start": 23,
+    "end": 29,
+    "range": [
+      23,
+      29
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "=",
+    "start": 30,
+    "end": 31,
+    "range": [
+      30,
+      31
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "{",
+    "start": 32,
+    "end": 33,
+    "range": [
+      32,
+      33
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "getThing",
+    "start": 40,
+    "end": 48,
+    "range": [
+      40,
+      48
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ":",
+    "start": 48,
+    "end": 49,
+    "range": [
+      48,
+      49
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 50,
+    "end": 51,
+    "range": [
+      50,
+      51
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 51,
+    "end": 52,
+    "range": [
+      51,
+      52
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "=>",
+    "start": 53,
+    "end": 55,
+    "range": [
+      53,
+      55
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "Promise",
+    "start": 56,
+    "end": 63,
+    "range": [
+      56,
+      63
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 63,
+    "end": 64,
+    "range": [
+      63,
+      64
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "resolve",
+    "start": 64,
+    "end": 71,
+    "range": [
+      64,
+      71
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 71,
+    "end": 72,
+    "range": [
+      71,
+      72
+    ]
+  },
+  {
+    "type": "String",
+    "value": "''",
+    "start": 72,
+    "end": 74,
+    "range": [
+      72,
+      74
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 74,
+    "end": 75,
+    "range": [
+      74,
+      75
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "}",
+    "start": 80,
+    "end": 81,
+    "range": [
+      80,
+      81
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "foo",
+    "start": 89,
+    "end": 92,
+    "range": [
+      89,
+      92
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 92,
+    "end": 93,
+    "range": [
+      92,
+      93
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 93,
+    "end": 94,
+    "range": [
+      93,
+      94
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "{",
+    "start": 95,
+    "end": 96,
+    "range": [
+      95,
+      96
+    ]
+  },
+  {
+    "type": "Keyword",
+    "value": "return",
+    "start": 103,
+    "end": 109,
+    "range": [
+      103,
+      109
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 110,
+    "end": 111,
+    "range": [
+      110,
+      111
+    ]
+  },
+  {
+    "type": "Keyword",
+    "value": "this",
+    "start": 148,
+    "end": 152,
+    "range": [
+      148,
+      152
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 152,
+    "end": 153,
+    "range": [
+      152,
+      153
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "client",
+    "start": 153,
+    "end": 159,
+    "range": [
+      153,
+      159
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 170,
+    "end": 171,
+    "range": [
+      170,
+      171
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "getThing",
+    "start": 171,
+    "end": 179,
+    "range": [
+      171,
+      179
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 179,
+    "end": 180,
+    "range": [
+      179,
+      180
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 180,
+    "end": 181,
+    "range": [
+      180,
+      181
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "satisfies",
+    "start": 182,
+    "end": 191,
+    "range": [
+      182,
+      191
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "Promise",
+    "start": 192,
+    "end": 199,
+    "range": [
+      192,
+      199
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "<",
+    "start": 199,
+    "end": 200,
+    "range": [
+      199,
+      200
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "string",
+    "start": 200,
+    "end": 206,
+    "range": [
+      200,
+      206
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ">",
+    "start": 206,
+    "end": 207,
+    "range": [
+      206,
+      207
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 207,
+    "end": 208,
+    "range": [
+      207,
+      208
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 208,
+    "end": 209,
+    "range": [
+      208,
+      209
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "}",
+    "start": 214,
+    "end": 215,
+    "range": [
+      214,
+      215
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "}",
+    "start": 218,
+    "end": 219,
+    "range": [
+      218,
+      219
+    ]
+  }
+]
 ```

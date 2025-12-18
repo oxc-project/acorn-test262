@@ -1,4 +1,4 @@
-__ESTREE_TEST__:PASS:
+__ESTREE_TEST__:AST:
 ```json
 {
   "type": "Program",
@@ -37,7 +37,52 @@ __ESTREE_TEST__:PASS:
   "end": 12
 }
 ```
-__ESTREE_TEST__:PASS:
+__ESTREE_TEST__:TOKENS:
+```json
+[
+  {
+    "type": "Keyword",
+    "value": "class",
+    "start": 0,
+    "end": 5,
+    "range": [
+      0,
+      5
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "c",
+    "start": 6,
+    "end": 7,
+    "range": [
+      6,
+      7
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "{",
+    "start": 8,
+    "end": 9,
+    "range": [
+      8,
+      9
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "}",
+    "start": 10,
+    "end": 11,
+    "range": [
+      10,
+      11
+    ]
+  }
+]
+```
+__ESTREE_TEST__:AST:
 ```json
 {
   "type": "Program",
@@ -76,7 +121,72 @@ __ESTREE_TEST__:PASS:
   "end": 48
 }
 ```
-__ESTREE_TEST__:PASS:
+__ESTREE_TEST__:TOKENS:
+```json
+[
+  {
+    "type": "Keyword",
+    "value": "function",
+    "start": 29,
+    "end": 37,
+    "range": [
+      29,
+      37
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "foo",
+    "start": 38,
+    "end": 41,
+    "range": [
+      38,
+      41
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 41,
+    "end": 42,
+    "range": [
+      41,
+      42
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 42,
+    "end": 43,
+    "range": [
+      42,
+      43
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "{",
+    "start": 44,
+    "end": 45,
+    "range": [
+      44,
+      45
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "}",
+    "start": 46,
+    "end": 47,
+    "range": [
+      46,
+      47
+    ]
+  }
+]
+```
+__ESTREE_TEST__:AST:
 ```json
 {
   "type": "Program",
@@ -114,4 +224,69 @@ __ESTREE_TEST__:PASS:
   "start": 0,
   "end": 18
 }
+```
+__ESTREE_TEST__:TOKENS:
+```json
+[
+  {
+    "type": "Keyword",
+    "value": "function",
+    "start": 0,
+    "end": 8,
+    "range": [
+      0,
+      8
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "bar",
+    "start": 9,
+    "end": 12,
+    "range": [
+      9,
+      12
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 12,
+    "end": 13,
+    "range": [
+      12,
+      13
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 13,
+    "end": 14,
+    "range": [
+      13,
+      14
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "{",
+    "start": 15,
+    "end": 16,
+    "range": [
+      15,
+      16
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "}",
+    "start": 17,
+    "end": 18,
+    "range": [
+      17,
+      18
+    ]
+  }
+]
 ```

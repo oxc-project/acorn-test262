@@ -1,4 +1,4 @@
-__ESTREE_TEST__:PASS:
+__ESTREE_TEST__:AST:
 ```json
 {
   "type": "Program",
@@ -94,7 +94,172 @@ __ESTREE_TEST__:PASS:
   "end": 124
 }
 ```
-__ESTREE_TEST__:PASS:
+__ESTREE_TEST__:TOKENS:
+```json
+[
+  {
+    "type": "Keyword",
+    "value": "export",
+    "start": 0,
+    "end": 6,
+    "range": [
+      0,
+      6
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "{",
+    "start": 7,
+    "end": 8,
+    "range": [
+      7,
+      8
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "}",
+    "start": 8,
+    "end": 9,
+    "range": [
+      8,
+      9
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "declare",
+    "start": 11,
+    "end": 18,
+    "range": [
+      11,
+      18
+    ]
+  },
+  {
+    "type": "Keyword",
+    "value": "var",
+    "start": 19,
+    "end": 22,
+    "range": [
+      19,
+      22
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "dec",
+    "start": 23,
+    "end": 26,
+    "range": [
+      23,
+      26
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ":",
+    "start": 26,
+    "end": 27,
+    "range": [
+      26,
+      27
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "any",
+    "start": 28,
+    "end": 31,
+    "range": [
+      28,
+      31
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 31,
+    "end": 32,
+    "range": [
+      31,
+      32
+    ]
+  },
+  {
+    "type": "Keyword",
+    "value": "export",
+    "start": 95,
+    "end": 101,
+    "range": [
+      95,
+      101
+    ]
+  },
+  {
+    "type": "Keyword",
+    "value": "default",
+    "start": 102,
+    "end": 109,
+    "range": [
+      102,
+      109
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "@",
+    "start": 110,
+    "end": 111,
+    "range": [
+      110,
+      111
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "dec",
+    "start": 111,
+    "end": 114,
+    "range": [
+      111,
+      114
+    ]
+  },
+  {
+    "type": "Keyword",
+    "value": "class",
+    "start": 115,
+    "end": 120,
+    "range": [
+      115,
+      120
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "{",
+    "start": 121,
+    "end": 122,
+    "range": [
+      121,
+      122
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "}",
+    "start": 122,
+    "end": 123,
+    "range": [
+      122,
+      123
+    ]
+  }
+]
+```
+__ESTREE_TEST__:AST:
 ```json
 {
   "type": "Program",
@@ -115,4 +280,39 @@ __ESTREE_TEST__:PASS:
   "start": 0,
   "end": 9
 }
+```
+__ESTREE_TEST__:TOKENS:
+```json
+[
+  {
+    "type": "Keyword",
+    "value": "export",
+    "start": 0,
+    "end": 6,
+    "range": [
+      0,
+      6
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "{",
+    "start": 7,
+    "end": 8,
+    "range": [
+      7,
+      8
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "}",
+    "start": 8,
+    "end": 9,
+    "range": [
+      8,
+      9
+    ]
+  }
+]
 ```

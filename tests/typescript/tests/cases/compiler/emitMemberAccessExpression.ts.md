@@ -1,4 +1,4 @@
-__ESTREE_TEST__:PASS:
+__ESTREE_TEST__:AST:
 ```json
 {
   "type": "Program",
@@ -23,7 +23,32 @@ __ESTREE_TEST__:PASS:
   "end": 75
 }
 ```
-__ESTREE_TEST__:PASS:
+__ESTREE_TEST__:TOKENS:
+```json
+[
+  {
+    "type": "String",
+    "value": "\"use strict\"",
+    "start": 61,
+    "end": 73,
+    "range": [
+      61,
+      73
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 73,
+    "end": 74,
+    "range": [
+      73,
+      74
+    ]
+  }
+]
+```
+__ESTREE_TEST__:AST:
 ```json
 {
   "type": "Program",
@@ -246,7 +271,322 @@ __ESTREE_TEST__:PASS:
   "end": 245
 }
 ```
-__ESTREE_TEST__:PASS:
+__ESTREE_TEST__:TOKENS:
+```json
+[
+  {
+    "type": "String",
+    "value": "\"use strict\"",
+    "start": 61,
+    "end": 73,
+    "range": [
+      61,
+      73
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 73,
+    "end": 74,
+    "range": [
+      73,
+      74
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "namespace",
+    "start": 75,
+    "end": 84,
+    "range": [
+      75,
+      84
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "Microsoft",
+    "start": 85,
+    "end": 94,
+    "range": [
+      85,
+      94
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 94,
+    "end": 95,
+    "range": [
+      94,
+      95
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "PeopleAtWork",
+    "start": 95,
+    "end": 107,
+    "range": [
+      95,
+      107
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 107,
+    "end": 108,
+    "range": [
+      107,
+      108
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "Model",
+    "start": 108,
+    "end": 113,
+    "range": [
+      108,
+      113
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "{",
+    "start": 114,
+    "end": 115,
+    "range": [
+      114,
+      115
+    ]
+  },
+  {
+    "type": "Keyword",
+    "value": "export",
+    "start": 120,
+    "end": 126,
+    "range": [
+      120,
+      126
+    ]
+  },
+  {
+    "type": "Keyword",
+    "value": "class",
+    "start": 127,
+    "end": 132,
+    "range": [
+      127,
+      132
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "_Person",
+    "start": 133,
+    "end": 140,
+    "range": [
+      133,
+      140
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "{",
+    "start": 141,
+    "end": 142,
+    "range": [
+      141,
+      142
+    ]
+  },
+  {
+    "type": "Keyword",
+    "value": "public",
+    "start": 151,
+    "end": 157,
+    "range": [
+      151,
+      157
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "populate",
+    "start": 158,
+    "end": 166,
+    "range": [
+      158,
+      166
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 166,
+    "end": 167,
+    "range": [
+      166,
+      167
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "raw",
+    "start": 167,
+    "end": 170,
+    "range": [
+      167,
+      170
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ":",
+    "start": 170,
+    "end": 171,
+    "range": [
+      170,
+      171
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "any",
+    "start": 172,
+    "end": 175,
+    "range": [
+      172,
+      175
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 175,
+    "end": 176,
+    "range": [
+      175,
+      176
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "{",
+    "start": 177,
+    "end": 178,
+    "range": [
+      177,
+      178
+    ]
+  },
+  {
+    "type": "Keyword",
+    "value": "var",
+    "start": 191,
+    "end": 194,
+    "range": [
+      191,
+      194
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "res",
+    "start": 195,
+    "end": 198,
+    "range": [
+      195,
+      198
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "=",
+    "start": 199,
+    "end": 200,
+    "range": [
+      199,
+      200
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "Model",
+    "start": 201,
+    "end": 206,
+    "range": [
+      201,
+      206
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 206,
+    "end": 207,
+    "range": [
+      206,
+      207
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "KnockoutExtentions",
+    "start": 207,
+    "end": 225,
+    "range": [
+      207,
+      225
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 225,
+    "end": 226,
+    "range": [
+      225,
+      226
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "}",
+    "start": 235,
+    "end": 236,
+    "range": [
+      235,
+      236
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "}",
+    "start": 241,
+    "end": 242,
+    "range": [
+      241,
+      242
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "}",
+    "start": 243,
+    "end": 244,
+    "range": [
+      243,
+      244
+    ]
+  }
+]
+```
+__ESTREE_TEST__:AST:
 ```json
 {
   "type": "Program",
@@ -379,4 +719,199 @@ __ESTREE_TEST__:PASS:
   "start": 122,
   "end": 232
 }
+```
+__ESTREE_TEST__:TOKENS:
+```json
+[
+  {
+    "type": "Identifier",
+    "value": "declare",
+    "start": 122,
+    "end": 129,
+    "range": [
+      122,
+      129
+    ]
+  },
+  {
+    "type": "Keyword",
+    "value": "var",
+    "start": 130,
+    "end": 133,
+    "range": [
+      130,
+      133
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "OData",
+    "start": 134,
+    "end": 139,
+    "range": [
+      134,
+      139
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ":",
+    "start": 139,
+    "end": 140,
+    "range": [
+      139,
+      140
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "any",
+    "start": 141,
+    "end": 144,
+    "range": [
+      141,
+      144
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 144,
+    "end": 145,
+    "range": [
+      144,
+      145
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "namespace",
+    "start": 146,
+    "end": 155,
+    "range": [
+      146,
+      155
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "Microsoft",
+    "start": 156,
+    "end": 165,
+    "range": [
+      156,
+      165
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 165,
+    "end": 166,
+    "range": [
+      165,
+      166
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "PeopleAtWork",
+    "start": 166,
+    "end": 178,
+    "range": [
+      166,
+      178
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 178,
+    "end": 179,
+    "range": [
+      178,
+      179
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "Model",
+    "start": 179,
+    "end": 184,
+    "range": [
+      179,
+      184
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "{",
+    "start": 185,
+    "end": 186,
+    "range": [
+      185,
+      186
+    ]
+  },
+  {
+    "type": "Keyword",
+    "value": "export",
+    "start": 191,
+    "end": 197,
+    "range": [
+      191,
+      197
+    ]
+  },
+  {
+    "type": "Keyword",
+    "value": "class",
+    "start": 198,
+    "end": 203,
+    "range": [
+      198,
+      203
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "KnockoutExtentions",
+    "start": 204,
+    "end": 222,
+    "range": [
+      204,
+      222
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "{",
+    "start": 223,
+    "end": 224,
+    "range": [
+      223,
+      224
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "}",
+    "start": 229,
+    "end": 230,
+    "range": [
+      229,
+      230
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "}",
+    "start": 231,
+    "end": 232,
+    "range": [
+      231,
+      232
+    ]
+  }
+]
 ```

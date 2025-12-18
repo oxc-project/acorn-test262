@@ -1,4 +1,4 @@
-__ESTREE_TEST__:PASS:
+__ESTREE_TEST__:AST:
 ```json
 {
   "type": "Program",
@@ -115,4 +115,179 @@ __ESTREE_TEST__:PASS:
   "start": 56,
   "end": 111
 }
+```
+__ESTREE_TEST__:TOKENS:
+```json
+[
+  {
+    "type": "String",
+    "value": "\"use strict\"",
+    "start": 56,
+    "end": 68,
+    "range": [
+      56,
+      68
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 68,
+    "end": 69,
+    "range": [
+      68,
+      69
+    ]
+  },
+  {
+    "type": "Keyword",
+    "value": "const",
+    "start": 70,
+    "end": 75,
+    "range": [
+      70,
+      75
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "x",
+    "start": 76,
+    "end": 77,
+    "range": [
+      76,
+      77
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "=",
+    "start": 78,
+    "end": 79,
+    "range": [
+      78,
+      79
+    ]
+  },
+  {
+    "type": "Numeric",
+    "value": "1",
+    "start": 80,
+    "end": 81,
+    "range": [
+      80,
+      81
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 81,
+    "end": 82,
+    "range": [
+      81,
+      82
+    ]
+  },
+  {
+    "type": "Keyword",
+    "value": "class",
+    "start": 83,
+    "end": 88,
+    "range": [
+      83,
+      88
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "C",
+    "start": 89,
+    "end": 90,
+    "range": [
+      89,
+      90
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "{",
+    "start": 91,
+    "end": 92,
+    "range": [
+      91,
+      92
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "[",
+    "start": 97,
+    "end": 98,
+    "range": [
+      97,
+      98
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "x",
+    "start": 98,
+    "end": 99,
+    "range": [
+      98,
+      99
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "]",
+    "start": 99,
+    "end": 100,
+    "range": [
+      99,
+      100
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ":",
+    "start": 100,
+    "end": 101,
+    "range": [
+      100,
+      101
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "string",
+    "start": 102,
+    "end": 108,
+    "range": [
+      102,
+      108
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 108,
+    "end": 109,
+    "range": [
+      108,
+      109
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "}",
+    "start": 110,
+    "end": 111,
+    "range": [
+      110,
+      111
+    ]
+  }
+]
 ```

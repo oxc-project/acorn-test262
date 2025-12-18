@@ -1,4 +1,4 @@
-__ESTREE_TEST__:PASS:
+__ESTREE_TEST__:AST:
 ```json
 {
   "type": "Program",
@@ -157,4 +157,189 @@ __ESTREE_TEST__:PASS:
   "start": 65,
   "end": 156
 }
+```
+__ESTREE_TEST__:TOKENS:
+```json
+[
+  {
+    "type": "Keyword",
+    "value": "class",
+    "start": 65,
+    "end": 70,
+    "range": [
+      65,
+      70
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "TypeVariable",
+    "start": 71,
+    "end": 83,
+    "range": [
+      71,
+      83
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "{",
+    "start": 84,
+    "end": 85,
+    "range": [
+      84,
+      85
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "}",
+    "start": 85,
+    "end": 86,
+    "range": [
+      85,
+      86
+    ]
+  },
+  {
+    "type": "Keyword",
+    "value": "export",
+    "start": 88,
+    "end": 94,
+    "range": [
+      88,
+      94
+    ]
+  },
+  {
+    "type": "Keyword",
+    "value": "class",
+    "start": 95,
+    "end": 100,
+    "range": [
+      95,
+      100
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "C",
+    "start": 101,
+    "end": 102,
+    "range": [
+      101,
+      102
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "<",
+    "start": 102,
+    "end": 103,
+    "range": [
+      102,
+      103
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "TypeVariable",
+    "start": 103,
+    "end": 115,
+    "range": [
+      103,
+      115
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ">",
+    "start": 115,
+    "end": 116,
+    "range": [
+      115,
+      116
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "{",
+    "start": 117,
+    "end": 118,
+    "range": [
+      117,
+      118
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "@",
+    "start": 121,
+    "end": 122,
+    "range": [
+      121,
+      122
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "Decorate",
+    "start": 122,
+    "end": 130,
+    "range": [
+      122,
+      130
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "member",
+    "start": 133,
+    "end": 139,
+    "range": [
+      133,
+      139
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ":",
+    "start": 139,
+    "end": 140,
+    "range": [
+      139,
+      140
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "TypeVariable",
+    "start": 141,
+    "end": 153,
+    "range": [
+      141,
+      153
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 153,
+    "end": 154,
+    "range": [
+      153,
+      154
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "}",
+    "start": 155,
+    "end": 156,
+    "range": [
+      155,
+      156
+    ]
+  }
+]
 ```

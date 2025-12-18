@@ -1,4 +1,4 @@
-__ESTREE_TEST__:PASS:
+__ESTREE_TEST__:AST:
 ```json
 {
   "type": "Program",
@@ -531,4 +531,849 @@ __ESTREE_TEST__:PASS:
   "start": 45,
   "end": 421
 }
+```
+__ESTREE_TEST__:TOKENS:
+```json
+[
+  {
+    "type": "Keyword",
+    "value": "import",
+    "start": 45,
+    "end": 51,
+    "range": [
+      45,
+      51
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "React",
+    "start": 52,
+    "end": 57,
+    "range": [
+      52,
+      57
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "from",
+    "start": 58,
+    "end": 62,
+    "range": [
+      58,
+      62
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"react\"",
+    "start": 63,
+    "end": 70,
+    "range": [
+      63,
+      70
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 70,
+    "end": 71,
+    "range": [
+      70,
+      71
+    ]
+  },
+  {
+    "type": "Keyword",
+    "value": "export",
+    "start": 73,
+    "end": 79,
+    "range": [
+      73,
+      79
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "type",
+    "start": 80,
+    "end": 84,
+    "range": [
+      80,
+      84
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "ButtonProps",
+    "start": 85,
+    "end": 96,
+    "range": [
+      85,
+      96
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "<",
+    "start": 96,
+    "end": 97,
+    "range": [
+      96,
+      97
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "T",
+    "start": 97,
+    "end": 98,
+    "range": [
+      97,
+      98
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "=",
+    "start": 99,
+    "end": 100,
+    "range": [
+      99,
+      100
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "{",
+    "start": 101,
+    "end": 102,
+    "range": [
+      101,
+      102
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "}",
+    "start": 102,
+    "end": 103,
+    "range": [
+      102,
+      103
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ">",
+    "start": 103,
+    "end": 104,
+    "range": [
+      103,
+      104
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "=",
+    "start": 105,
+    "end": 106,
+    "range": [
+      105,
+      106
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "React",
+    "start": 107,
+    "end": 112,
+    "range": [
+      107,
+      112
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 112,
+    "end": 113,
+    "range": [
+      112,
+      113
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "ButtonHTMLAttributes",
+    "start": 113,
+    "end": 133,
+    "range": [
+      113,
+      133
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "<",
+    "start": 133,
+    "end": 134,
+    "range": [
+      133,
+      134
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "HTMLButtonElement",
+    "start": 134,
+    "end": 151,
+    "range": [
+      134,
+      151
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ">",
+    "start": 151,
+    "end": 152,
+    "range": [
+      151,
+      152
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "&",
+    "start": 153,
+    "end": 154,
+    "range": [
+      153,
+      154
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "{",
+    "start": 155,
+    "end": 156,
+    "range": [
+      155,
+      156
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "outline",
+    "start": 161,
+    "end": 168,
+    "range": [
+      161,
+      168
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "?",
+    "start": 168,
+    "end": 169,
+    "range": [
+      168,
+      169
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ":",
+    "start": 169,
+    "end": 170,
+    "range": [
+      169,
+      170
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "boolean",
+    "start": 171,
+    "end": 178,
+    "range": [
+      171,
+      178
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 178,
+    "end": 179,
+    "range": [
+      178,
+      179
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "}",
+    "start": 180,
+    "end": 181,
+    "range": [
+      180,
+      181
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "&",
+    "start": 182,
+    "end": 183,
+    "range": [
+      182,
+      183
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "T",
+    "start": 184,
+    "end": 185,
+    "range": [
+      184,
+      185
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 185,
+    "end": 186,
+    "range": [
+      185,
+      186
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "declare",
+    "start": 188,
+    "end": 195,
+    "range": [
+      188,
+      195
+    ]
+  },
+  {
+    "type": "Keyword",
+    "value": "class",
+    "start": 196,
+    "end": 201,
+    "range": [
+      196,
+      201
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "Button",
+    "start": 202,
+    "end": 208,
+    "range": [
+      202,
+      208
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "<",
+    "start": 208,
+    "end": 209,
+    "range": [
+      208,
+      209
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "T",
+    "start": 209,
+    "end": 210,
+    "range": [
+      209,
+      210
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "=",
+    "start": 211,
+    "end": 212,
+    "range": [
+      211,
+      212
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "{",
+    "start": 213,
+    "end": 214,
+    "range": [
+      213,
+      214
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "}",
+    "start": 214,
+    "end": 215,
+    "range": [
+      214,
+      215
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ">",
+    "start": 215,
+    "end": 216,
+    "range": [
+      215,
+      216
+    ]
+  },
+  {
+    "type": "Keyword",
+    "value": "extends",
+    "start": 217,
+    "end": 224,
+    "range": [
+      217,
+      224
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "React",
+    "start": 225,
+    "end": 230,
+    "range": [
+      225,
+      230
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 230,
+    "end": 231,
+    "range": [
+      230,
+      231
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "Component",
+    "start": 231,
+    "end": 240,
+    "range": [
+      231,
+      240
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "<",
+    "start": 240,
+    "end": 241,
+    "range": [
+      240,
+      241
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "ButtonProps",
+    "start": 241,
+    "end": 252,
+    "range": [
+      241,
+      252
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "<",
+    "start": 252,
+    "end": 253,
+    "range": [
+      252,
+      253
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "T",
+    "start": 253,
+    "end": 254,
+    "range": [
+      253,
+      254
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ">",
+    "start": 254,
+    "end": 255,
+    "range": [
+      254,
+      255
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ">",
+    "start": 255,
+    "end": 256,
+    "range": [
+      255,
+      256
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "{",
+    "start": 257,
+    "end": 258,
+    "range": [
+      257,
+      258
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "}",
+    "start": 259,
+    "end": 260,
+    "range": [
+      259,
+      260
+    ]
+  },
+  {
+    "type": "Keyword",
+    "value": "interface",
+    "start": 262,
+    "end": 271,
+    "range": [
+      262,
+      271
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "CustomButtonProps",
+    "start": 272,
+    "end": 289,
+    "range": [
+      272,
+      289
+    ]
+  },
+  {
+    "type": "Keyword",
+    "value": "extends",
+    "start": 290,
+    "end": 297,
+    "range": [
+      290,
+      297
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "ButtonProps",
+    "start": 298,
+    "end": 309,
+    "range": [
+      298,
+      309
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "{",
+    "start": 310,
+    "end": 311,
+    "range": [
+      310,
+      311
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "customProp",
+    "start": 316,
+    "end": 326,
+    "range": [
+      316,
+      326
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ":",
+    "start": 326,
+    "end": 327,
+    "range": [
+      326,
+      327
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "string",
+    "start": 328,
+    "end": 334,
+    "range": [
+      328,
+      334
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 334,
+    "end": 335,
+    "range": [
+      334,
+      335
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "}",
+    "start": 336,
+    "end": 337,
+    "range": [
+      336,
+      337
+    ]
+  },
+  {
+    "type": "Keyword",
+    "value": "const",
+    "start": 339,
+    "end": 344,
+    "range": [
+      339,
+      344
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "CustomButton",
+    "start": 345,
+    "end": 357,
+    "range": [
+      345,
+      357
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ":",
+    "start": 357,
+    "end": 358,
+    "range": [
+      357,
+      358
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "React",
+    "start": 359,
+    "end": 364,
+    "range": [
+      359,
+      364
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 364,
+    "end": 365,
+    "range": [
+      364,
+      365
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "SFC",
+    "start": 365,
+    "end": 368,
+    "range": [
+      365,
+      368
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "<",
+    "start": 368,
+    "end": 369,
+    "range": [
+      368,
+      369
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "CustomButtonProps",
+    "start": 369,
+    "end": 386,
+    "range": [
+      369,
+      386
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ">",
+    "start": 386,
+    "end": 387,
+    "range": [
+      386,
+      387
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "=",
+    "start": 388,
+    "end": 389,
+    "range": [
+      388,
+      389
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "props",
+    "start": 390,
+    "end": 395,
+    "range": [
+      390,
+      395
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "=>",
+    "start": 396,
+    "end": 398,
+    "range": [
+      396,
+      398
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "<",
+    "start": 399,
+    "end": 400,
+    "range": [
+      399,
+      400
+    ]
+  },
+  {
+    "type": "JSXIdentifier",
+    "value": "Button",
+    "start": 400,
+    "end": 406,
+    "range": [
+      400,
+      406
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "{",
+    "start": 407,
+    "end": 408,
+    "range": [
+      407,
+      408
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "...",
+    "start": 408,
+    "end": 411,
+    "range": [
+      408,
+      411
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "props",
+    "start": 411,
+    "end": 416,
+    "range": [
+      411,
+      416
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "}",
+    "start": 416,
+    "end": 417,
+    "range": [
+      416,
+      417
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "/",
+    "start": 418,
+    "end": 419,
+    "range": [
+      418,
+      419
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ">",
+    "start": 419,
+    "end": 420,
+    "range": [
+      419,
+      420
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 420,
+    "end": 421,
+    "range": [
+      420,
+      421
+    ]
+  }
+]
 ```

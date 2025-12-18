@@ -1,4 +1,4 @@
-__ESTREE_TEST__:PASS:
+__ESTREE_TEST__:AST:
 ```json
 {
   "type": "Program",
@@ -107,4 +107,149 @@ __ESTREE_TEST__:PASS:
   "start": 0,
   "end": 43
 }
+```
+__ESTREE_TEST__:TOKENS:
+```json
+[
+  {
+    "type": "Keyword",
+    "value": "var",
+    "start": 0,
+    "end": 3,
+    "range": [
+      0,
+      3
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "v",
+    "start": 4,
+    "end": 5,
+    "range": [
+      4,
+      5
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "=",
+    "start": 6,
+    "end": 7,
+    "range": [
+      6,
+      7
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "@",
+    "start": 8,
+    "end": 9,
+    "range": [
+      8,
+      9
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "decorate",
+    "start": 9,
+    "end": 17,
+    "range": [
+      9,
+      17
+    ]
+  },
+  {
+    "type": "Keyword",
+    "value": "class",
+    "start": 18,
+    "end": 23,
+    "range": [
+      18,
+      23
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "C",
+    "start": 24,
+    "end": 25,
+    "range": [
+      24,
+      25
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "{",
+    "start": 26,
+    "end": 27,
+    "range": [
+      26,
+      27
+    ]
+  },
+  {
+    "type": "Keyword",
+    "value": "static",
+    "start": 28,
+    "end": 34,
+    "range": [
+      28,
+      34
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "p",
+    "start": 35,
+    "end": 36,
+    "range": [
+      35,
+      36
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "=",
+    "start": 37,
+    "end": 38,
+    "range": [
+      37,
+      38
+    ]
+  },
+  {
+    "type": "Numeric",
+    "value": "1",
+    "start": 39,
+    "end": 40,
+    "range": [
+      39,
+      40
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "}",
+    "start": 41,
+    "end": 42,
+    "range": [
+      41,
+      42
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 42,
+    "end": 43,
+    "range": [
+      42,
+      43
+    ]
+  }
+]
 ```

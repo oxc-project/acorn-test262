@@ -1,4 +1,4 @@
-__ESTREE_TEST__:PASS:
+__ESTREE_TEST__:AST:
 ```json
 {
   "type": "Program",
@@ -138,4 +138,229 @@ __ESTREE_TEST__:PASS:
   "start": 0,
   "end": 80
 }
+```
+__ESTREE_TEST__:TOKENS:
+```json
+[
+  {
+    "type": "Identifier",
+    "value": "namespace",
+    "start": 0,
+    "end": 9,
+    "range": [
+      0,
+      9
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "x",
+    "start": 10,
+    "end": 11,
+    "range": [
+      10,
+      11
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "{",
+    "start": 12,
+    "end": 13,
+    "range": [
+      12,
+      13
+    ]
+  },
+  {
+    "type": "Keyword",
+    "value": "interface",
+    "start": 18,
+    "end": 27,
+    "range": [
+      18,
+      27
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "c",
+    "start": 28,
+    "end": 29,
+    "range": [
+      28,
+      29
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "{",
+    "start": 30,
+    "end": 31,
+    "range": [
+      30,
+      31
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "}",
+    "start": 36,
+    "end": 37,
+    "range": [
+      36,
+      37
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "}",
+    "start": 38,
+    "end": 39,
+    "range": [
+      38,
+      39
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "declare",
+    "start": 40,
+    "end": 47,
+    "range": [
+      40,
+      47
+    ]
+  },
+  {
+    "type": "Keyword",
+    "value": "export",
+    "start": 48,
+    "end": 54,
+    "range": [
+      48,
+      54
+    ]
+  },
+  {
+    "type": "Keyword",
+    "value": "import",
+    "start": 55,
+    "end": 61,
+    "range": [
+      55,
+      61
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "a",
+    "start": 62,
+    "end": 63,
+    "range": [
+      62,
+      63
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "=",
+    "start": 64,
+    "end": 65,
+    "range": [
+      64,
+      65
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "x",
+    "start": 66,
+    "end": 67,
+    "range": [
+      66,
+      67
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 67,
+    "end": 68,
+    "range": [
+      67,
+      68
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "c",
+    "start": 68,
+    "end": 69,
+    "range": [
+      68,
+      69
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 69,
+    "end": 70,
+    "range": [
+      69,
+      70
+    ]
+  },
+  {
+    "type": "Keyword",
+    "value": "var",
+    "start": 71,
+    "end": 74,
+    "range": [
+      71,
+      74
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "b",
+    "start": 75,
+    "end": 76,
+    "range": [
+      75,
+      76
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ":",
+    "start": 76,
+    "end": 77,
+    "range": [
+      76,
+      77
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "a",
+    "start": 78,
+    "end": 79,
+    "range": [
+      78,
+      79
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 79,
+    "end": 80,
+    "range": [
+      79,
+      80
+    ]
+  }
+]
 ```

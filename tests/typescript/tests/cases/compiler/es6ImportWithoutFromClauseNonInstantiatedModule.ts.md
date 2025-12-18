@@ -1,4 +1,4 @@
-__ESTREE_TEST__:PASS:
+__ESTREE_TEST__:AST:
 ```json
 {
   "type": "Program",
@@ -42,7 +42,62 @@ __ESTREE_TEST__:PASS:
   "end": 23
 }
 ```
-__ESTREE_TEST__:PASS:
+__ESTREE_TEST__:TOKENS:
+```json
+[
+  {
+    "type": "Keyword",
+    "value": "export",
+    "start": 0,
+    "end": 6,
+    "range": [
+      0,
+      6
+    ]
+  },
+  {
+    "type": "Keyword",
+    "value": "interface",
+    "start": 7,
+    "end": 16,
+    "range": [
+      7,
+      16
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "i",
+    "start": 17,
+    "end": 18,
+    "range": [
+      17,
+      18
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "{",
+    "start": 19,
+    "end": 20,
+    "range": [
+      19,
+      20
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "}",
+    "start": 21,
+    "end": 22,
+    "range": [
+      21,
+      22
+    ]
+  }
+]
+```
+__ESTREE_TEST__:AST:
 ```json
 {
   "type": "Program",
@@ -69,4 +124,39 @@ __ESTREE_TEST__:PASS:
   "start": 0,
   "end": 59
 }
+```
+__ESTREE_TEST__:TOKENS:
+```json
+[
+  {
+    "type": "Keyword",
+    "value": "import",
+    "start": 0,
+    "end": 6,
+    "range": [
+      0,
+      6
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"es6ImportWithoutFromClauseNonInstantiatedModule_0\"",
+    "start": 7,
+    "end": 58,
+    "range": [
+      7,
+      58
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 58,
+    "end": 59,
+    "range": [
+      58,
+      59
+    ]
+  }
+]
 ```

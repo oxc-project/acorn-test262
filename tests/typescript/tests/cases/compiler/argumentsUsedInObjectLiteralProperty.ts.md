@@ -1,4 +1,4 @@
-__ESTREE_TEST__:PASS:
+__ESTREE_TEST__:AST:
 ```json
 {
   "type": "Program",
@@ -171,4 +171,299 @@ __ESTREE_TEST__:PASS:
   "start": 0,
   "end": 176
 }
+```
+__ESTREE_TEST__:TOKENS:
+```json
+[
+  {
+    "type": "Keyword",
+    "value": "class",
+    "start": 0,
+    "end": 5,
+    "range": [
+      0,
+      5
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "A",
+    "start": 6,
+    "end": 7,
+    "range": [
+      6,
+      7
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "{",
+    "start": 8,
+    "end": 9,
+    "range": [
+      8,
+      9
+    ]
+  },
+  {
+    "type": "Keyword",
+    "value": "public",
+    "start": 14,
+    "end": 20,
+    "range": [
+      14,
+      20
+    ]
+  },
+  {
+    "type": "Keyword",
+    "value": "static",
+    "start": 21,
+    "end": 27,
+    "range": [
+      21,
+      27
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "createSelectableViewModel",
+    "start": 28,
+    "end": 53,
+    "range": [
+      28,
+      53
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 53,
+    "end": 54,
+    "range": [
+      53,
+      54
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "initialState",
+    "start": 54,
+    "end": 66,
+    "range": [
+      54,
+      66
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "?",
+    "start": 66,
+    "end": 67,
+    "range": [
+      66,
+      67
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ":",
+    "start": 67,
+    "end": 68,
+    "range": [
+      67,
+      68
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "any",
+    "start": 69,
+    "end": 72,
+    "range": [
+      69,
+      72
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 72,
+    "end": 73,
+    "range": [
+      72,
+      73
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "selectedValue",
+    "start": 74,
+    "end": 87,
+    "range": [
+      74,
+      87
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "?",
+    "start": 87,
+    "end": 88,
+    "range": [
+      87,
+      88
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ":",
+    "start": 88,
+    "end": 89,
+    "range": [
+      88,
+      89
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "any",
+    "start": 90,
+    "end": 93,
+    "range": [
+      90,
+      93
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 93,
+    "end": 94,
+    "range": [
+      93,
+      94
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "{",
+    "start": 95,
+    "end": 96,
+    "range": [
+      95,
+      96
+    ]
+  },
+  {
+    "type": "Keyword",
+    "value": "return",
+    "start": 105,
+    "end": 111,
+    "range": [
+      105,
+      111
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "{",
+    "start": 112,
+    "end": 113,
+    "range": [
+      112,
+      113
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "selectedValue",
+    "start": 126,
+    "end": 139,
+    "range": [
+      126,
+      139
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ":",
+    "start": 139,
+    "end": 140,
+    "range": [
+      139,
+      140
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "arguments",
+    "start": 141,
+    "end": 150,
+    "range": [
+      141,
+      150
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 150,
+    "end": 151,
+    "range": [
+      150,
+      151
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "length",
+    "start": 151,
+    "end": 157,
+    "range": [
+      151,
+      157
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "}",
+    "start": 166,
+    "end": 167,
+    "range": [
+      166,
+      167
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 167,
+    "end": 168,
+    "range": [
+      167,
+      168
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "}",
+    "start": 173,
+    "end": 174,
+    "range": [
+      173,
+      174
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "}",
+    "start": 175,
+    "end": 176,
+    "range": [
+      175,
+      176
+    ]
+  }
+]
 ```

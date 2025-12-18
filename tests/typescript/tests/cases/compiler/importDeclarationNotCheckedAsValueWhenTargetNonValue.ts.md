@@ -1,4 +1,4 @@
-__ESTREE_TEST__:PASS:
+__ESTREE_TEST__:AST:
 ```json
 {
   "type": "Program",
@@ -352,4 +352,589 @@ __ESTREE_TEST__:PASS:
   "start": 0,
   "end": 470
 }
+```
+__ESTREE_TEST__:TOKENS:
+```json
+[
+  {
+    "type": "Identifier",
+    "value": "declare",
+    "start": 0,
+    "end": 7,
+    "range": [
+      0,
+      7
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "namespace",
+    "start": 8,
+    "end": 17,
+    "range": [
+      8,
+      17
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "dojox",
+    "start": 18,
+    "end": 23,
+    "range": [
+      18,
+      23
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "{",
+    "start": 24,
+    "end": 25,
+    "range": [
+      24,
+      25
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "namespace",
+    "start": 30,
+    "end": 39,
+    "range": [
+      30,
+      39
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "charting",
+    "start": 40,
+    "end": 48,
+    "range": [
+      40,
+      48
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "{",
+    "start": 49,
+    "end": 50,
+    "range": [
+      49,
+      50
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "namespace",
+    "start": 59,
+    "end": 68,
+    "range": [
+      59,
+      68
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "axis2d",
+    "start": 69,
+    "end": 75,
+    "range": [
+      69,
+      75
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "{",
+    "start": 76,
+    "end": 77,
+    "range": [
+      76,
+      77
+    ]
+  },
+  {
+    "type": "Keyword",
+    "value": "export",
+    "start": 90,
+    "end": 96,
+    "range": [
+      90,
+      96
+    ]
+  },
+  {
+    "type": "Keyword",
+    "value": "class",
+    "start": 97,
+    "end": 102,
+    "range": [
+      97,
+      102
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "Val",
+    "start": 103,
+    "end": 106,
+    "range": [
+      103,
+      106
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "{",
+    "start": 107,
+    "end": 108,
+    "range": [
+      107,
+      108
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "}",
+    "start": 109,
+    "end": 110,
+    "range": [
+      109,
+      110
+    ]
+  },
+  {
+    "type": "Keyword",
+    "value": "interface",
+    "start": 123,
+    "end": 132,
+    "range": [
+      123,
+      132
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "common",
+    "start": 133,
+    "end": 139,
+    "range": [
+      133,
+      139
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "{",
+    "start": 140,
+    "end": 141,
+    "range": [
+      140,
+      141
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "createText",
+    "start": 158,
+    "end": 168,
+    "range": [
+      158,
+      168
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ":",
+    "start": 168,
+    "end": 169,
+    "range": [
+      168,
+      169
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "object",
+    "start": 170,
+    "end": 176,
+    "range": [
+      170,
+      176
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 176,
+    "end": 177,
+    "range": [
+      176,
+      177
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "}",
+    "start": 190,
+    "end": 191,
+    "range": [
+      190,
+      191
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "namespace",
+    "start": 204,
+    "end": 213,
+    "range": [
+      204,
+      213
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "common",
+    "start": 214,
+    "end": 220,
+    "range": [
+      214,
+      220
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "{",
+    "start": 221,
+    "end": 222,
+    "range": [
+      221,
+      222
+    ]
+  },
+  {
+    "type": "Keyword",
+    "value": "interface",
+    "start": 239,
+    "end": 248,
+    "range": [
+      239,
+      248
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "createText",
+    "start": 249,
+    "end": 259,
+    "range": [
+      249,
+      259
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "{",
+    "start": 260,
+    "end": 261,
+    "range": [
+      260,
+      261
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "gfx",
+    "start": 282,
+    "end": 285,
+    "range": [
+      282,
+      285
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 285,
+    "end": 286,
+    "range": [
+      285,
+      286
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 286,
+    "end": 287,
+    "range": [
+      286,
+      287
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ":",
+    "start": 287,
+    "end": 288,
+    "range": [
+      287,
+      288
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "string",
+    "start": 289,
+    "end": 295,
+    "range": [
+      289,
+      295
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "}",
+    "start": 312,
+    "end": 313,
+    "range": [
+      312,
+      313
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "}",
+    "start": 326,
+    "end": 327,
+    "range": [
+      326,
+      327
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "}",
+    "start": 336,
+    "end": 337,
+    "range": [
+      336,
+      337
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "}",
+    "start": 342,
+    "end": 343,
+    "range": [
+      342,
+      343
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "}",
+    "start": 344,
+    "end": 345,
+    "range": [
+      344,
+      345
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "declare",
+    "start": 346,
+    "end": 353,
+    "range": [
+      346,
+      353
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "module",
+    "start": 354,
+    "end": 360,
+    "range": [
+      354,
+      360
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"dojox/charting/axis2d/common.createText\"",
+    "start": 361,
+    "end": 402,
+    "range": [
+      361,
+      402
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "{",
+    "start": 403,
+    "end": 404,
+    "range": [
+      403,
+      404
+    ]
+  },
+  {
+    "type": "Keyword",
+    "value": "import",
+    "start": 409,
+    "end": 415,
+    "range": [
+      409,
+      415
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "exp",
+    "start": 416,
+    "end": 419,
+    "range": [
+      416,
+      419
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "=",
+    "start": 420,
+    "end": 421,
+    "range": [
+      420,
+      421
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "dojox",
+    "start": 422,
+    "end": 427,
+    "range": [
+      422,
+      427
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 427,
+    "end": 428,
+    "range": [
+      427,
+      428
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "charting",
+    "start": 428,
+    "end": 436,
+    "range": [
+      428,
+      436
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 436,
+    "end": 437,
+    "range": [
+      436,
+      437
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "axis2d",
+    "start": 437,
+    "end": 443,
+    "range": [
+      437,
+      443
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 443,
+    "end": 444,
+    "range": [
+      443,
+      444
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "common",
+    "start": 444,
+    "end": 450,
+    "range": [
+      444,
+      450
+    ]
+  },
+  {
+    "type": "Keyword",
+    "value": "export",
+    "start": 455,
+    "end": 461,
+    "range": [
+      455,
+      461
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "=",
+    "start": 462,
+    "end": 463,
+    "range": [
+      462,
+      463
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "exp",
+    "start": 464,
+    "end": 467,
+    "range": [
+      464,
+      467
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 467,
+    "end": 468,
+    "range": [
+      467,
+      468
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "}",
+    "start": 469,
+    "end": 470,
+    "range": [
+      469,
+      470
+    ]
+  }
+]
 ```

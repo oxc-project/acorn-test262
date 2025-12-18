@@ -1,4 +1,4 @@
-__ESTREE_TEST__:PASS:
+__ESTREE_TEST__:AST:
 ```json
 {
   "type": "Program",
@@ -98,7 +98,172 @@ __ESTREE_TEST__:PASS:
   "end": 80
 }
 ```
-__ESTREE_TEST__:PASS:
+__ESTREE_TEST__:TOKENS:
+```json
+[
+  {
+    "type": "Identifier",
+    "value": "declare",
+    "start": 0,
+    "end": 7,
+    "range": [
+      0,
+      7
+    ]
+  },
+  {
+    "type": "Keyword",
+    "value": "const",
+    "start": 8,
+    "end": 13,
+    "range": [
+      8,
+      13
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "fromDts",
+    "start": 14,
+    "end": 21,
+    "range": [
+      14,
+      21
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "=",
+    "start": 22,
+    "end": 23,
+    "range": [
+      22,
+      23
+    ]
+  },
+  {
+    "type": "Numeric",
+    "value": "789n",
+    "start": 24,
+    "end": 28,
+    "range": [
+      24,
+      28
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 28,
+    "end": 29,
+    "range": [
+      28,
+      29
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "declare",
+    "start": 30,
+    "end": 37,
+    "range": [
+      30,
+      37
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "namespace",
+    "start": 38,
+    "end": 47,
+    "range": [
+      38,
+      47
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "Lib",
+    "start": 48,
+    "end": 51,
+    "range": [
+      48,
+      51
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "{",
+    "start": 52,
+    "end": 53,
+    "range": [
+      52,
+      53
+    ]
+  },
+  {
+    "type": "Keyword",
+    "value": "const",
+    "start": 58,
+    "end": 63,
+    "range": [
+      58,
+      63
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "value",
+    "start": 64,
+    "end": 69,
+    "range": [
+      64,
+      69
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "=",
+    "start": 70,
+    "end": 71,
+    "range": [
+      70,
+      71
+    ]
+  },
+  {
+    "type": "Numeric",
+    "value": "999n",
+    "start": 72,
+    "end": 76,
+    "range": [
+      72,
+      76
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 76,
+    "end": 77,
+    "range": [
+      76,
+      77
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "}",
+    "start": 78,
+    "end": 79,
+    "range": [
+      78,
+      79
+    ]
+  }
+]
+```
+__ESTREE_TEST__:AST:
 ```json
 {
   "type": "Program",
@@ -173,4 +338,119 @@ __ESTREE_TEST__:PASS:
   "start": 28,
   "end": 104
 }
+```
+__ESTREE_TEST__:TOKENS:
+```json
+[
+  {
+    "type": "Identifier",
+    "value": "declare",
+    "start": 28,
+    "end": 35,
+    "range": [
+      28,
+      35
+    ]
+  },
+  {
+    "type": "Keyword",
+    "value": "const",
+    "start": 36,
+    "end": 41,
+    "range": [
+      36,
+      41
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "n",
+    "start": 42,
+    "end": 43,
+    "range": [
+      42,
+      43
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "=",
+    "start": 44,
+    "end": 45,
+    "range": [
+      44,
+      45
+    ]
+  },
+  {
+    "type": "Numeric",
+    "value": "123n",
+    "start": 46,
+    "end": 50,
+    "range": [
+      46,
+      50
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 50,
+    "end": 51,
+    "range": [
+      50,
+      51
+    ]
+  },
+  {
+    "type": "Keyword",
+    "value": "const",
+    "start": 83,
+    "end": 88,
+    "range": [
+      83,
+      88
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "regular",
+    "start": 89,
+    "end": 96,
+    "range": [
+      89,
+      96
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "=",
+    "start": 97,
+    "end": 98,
+    "range": [
+      97,
+      98
+    ]
+  },
+  {
+    "type": "Numeric",
+    "value": "456n",
+    "start": 99,
+    "end": 103,
+    "range": [
+      99,
+      103
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 103,
+    "end": 104,
+    "range": [
+      103,
+      104
+    ]
+  }
+]
 ```

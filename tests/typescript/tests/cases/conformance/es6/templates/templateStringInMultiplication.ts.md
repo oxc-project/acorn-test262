@@ -1,4 +1,4 @@
-__ESTREE_TEST__:PASS:
+__ESTREE_TEST__:AST:
 ```json
 {
   "type": "Program",
@@ -82,4 +82,99 @@ __ESTREE_TEST__:PASS:
   "start": 0,
   "end": 27
 }
+```
+__ESTREE_TEST__:TOKENS:
+```json
+[
+  {
+    "type": "Keyword",
+    "value": "var",
+    "start": 0,
+    "end": 3,
+    "range": [
+      0,
+      3
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "x",
+    "start": 4,
+    "end": 5,
+    "range": [
+      4,
+      5
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "=",
+    "start": 6,
+    "end": 7,
+    "range": [
+      6,
+      7
+    ]
+  },
+  {
+    "type": "Numeric",
+    "value": "1",
+    "start": 8,
+    "end": 9,
+    "range": [
+      8,
+      9
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "*",
+    "start": 10,
+    "end": 11,
+    "range": [
+      10,
+      11
+    ]
+  },
+  {
+    "type": "Template",
+    "value": "`abc${",
+    "start": 12,
+    "end": 18,
+    "range": [
+      12,
+      18
+    ]
+  },
+  {
+    "type": "Numeric",
+    "value": "1",
+    "start": 19,
+    "end": 20,
+    "range": [
+      19,
+      20
+    ]
+  },
+  {
+    "type": "Template",
+    "value": "}def`",
+    "start": 21,
+    "end": 26,
+    "range": [
+      21,
+      26
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 26,
+    "end": 27,
+    "range": [
+      26,
+      27
+    ]
+  }
+]
 ```

@@ -1,4 +1,4 @@
-__ESTREE_TEST__:PASS:
+__ESTREE_TEST__:AST:
 ```json
 {
   "type": "Program",
@@ -420,4 +420,933 @@ __ESTREE_TEST__:PASS:
   "start": 0,
   "end": 371
 }
+```
+__ESTREE_TEST__:TOKENS:
+```json
+[
+  {
+    "type": "Keyword",
+    "value": "import",
+    "start": 0,
+    "end": 6,
+    "range": [
+      0,
+      6
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "*",
+    "start": 7,
+    "end": 8,
+    "range": [
+      7,
+      8
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "as",
+    "start": 9,
+    "end": 11,
+    "range": [
+      9,
+      11
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "thing1",
+    "start": 12,
+    "end": 18,
+    "range": [
+      12,
+      18
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "from",
+    "start": 19,
+    "end": 23,
+    "range": [
+      19,
+      23
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"./mod.mjs\"",
+    "start": 24,
+    "end": 35,
+    "range": [
+      24,
+      35
+    ]
+  },
+  {
+    "type": "Keyword",
+    "value": "with",
+    "start": 36,
+    "end": 40,
+    "range": [
+      36,
+      40
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "{",
+    "start": 41,
+    "end": 42,
+    "range": [
+      41,
+      42
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "field",
+    "start": 43,
+    "end": 48,
+    "range": [
+      43,
+      48
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ":",
+    "start": 48,
+    "end": 49,
+    "range": [
+      48,
+      49
+    ]
+  },
+  {
+    "type": "Numeric",
+    "value": "0",
+    "start": 50,
+    "end": 51,
+    "range": [
+      50,
+      51
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "}",
+    "start": 52,
+    "end": 53,
+    "range": [
+      52,
+      53
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 53,
+    "end": 54,
+    "range": [
+      53,
+      54
+    ]
+  },
+  {
+    "type": "Keyword",
+    "value": "import",
+    "start": 55,
+    "end": 61,
+    "range": [
+      55,
+      61
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "*",
+    "start": 62,
+    "end": 63,
+    "range": [
+      62,
+      63
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "as",
+    "start": 64,
+    "end": 66,
+    "range": [
+      64,
+      66
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "thing2",
+    "start": 67,
+    "end": 73,
+    "range": [
+      67,
+      73
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "from",
+    "start": 74,
+    "end": 78,
+    "range": [
+      74,
+      78
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"./mod.mjs\"",
+    "start": 79,
+    "end": 90,
+    "range": [
+      79,
+      90
+    ]
+  },
+  {
+    "type": "Keyword",
+    "value": "with",
+    "start": 91,
+    "end": 95,
+    "range": [
+      91,
+      95
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "{",
+    "start": 96,
+    "end": 97,
+    "range": [
+      96,
+      97
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "field",
+    "start": 98,
+    "end": 103,
+    "range": [
+      98,
+      103
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ":",
+    "start": 103,
+    "end": 104,
+    "range": [
+      103,
+      104
+    ]
+  },
+  {
+    "type": "Template",
+    "value": "`a`",
+    "start": 105,
+    "end": 108,
+    "range": [
+      105,
+      108
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "}",
+    "start": 109,
+    "end": 110,
+    "range": [
+      109,
+      110
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 110,
+    "end": 111,
+    "range": [
+      110,
+      111
+    ]
+  },
+  {
+    "type": "Keyword",
+    "value": "import",
+    "start": 112,
+    "end": 118,
+    "range": [
+      112,
+      118
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "*",
+    "start": 119,
+    "end": 120,
+    "range": [
+      119,
+      120
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "as",
+    "start": 121,
+    "end": 123,
+    "range": [
+      121,
+      123
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "thing3",
+    "start": 124,
+    "end": 130,
+    "range": [
+      124,
+      130
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "from",
+    "start": 131,
+    "end": 135,
+    "range": [
+      131,
+      135
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"./mod.mjs\"",
+    "start": 136,
+    "end": 147,
+    "range": [
+      136,
+      147
+    ]
+  },
+  {
+    "type": "Keyword",
+    "value": "with",
+    "start": 148,
+    "end": 152,
+    "range": [
+      148,
+      152
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "{",
+    "start": 153,
+    "end": 154,
+    "range": [
+      153,
+      154
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "field",
+    "start": 155,
+    "end": 160,
+    "range": [
+      155,
+      160
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ":",
+    "start": 160,
+    "end": 161,
+    "range": [
+      160,
+      161
+    ]
+  },
+  {
+    "type": "RegularExpression",
+    "value": "/a/g",
+    "regex": {
+      "flags": "g",
+      "pattern": "a"
+    },
+    "start": 162,
+    "end": 166,
+    "range": [
+      162,
+      166
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "}",
+    "start": 167,
+    "end": 168,
+    "range": [
+      167,
+      168
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 168,
+    "end": 169,
+    "range": [
+      168,
+      169
+    ]
+  },
+  {
+    "type": "Keyword",
+    "value": "import",
+    "start": 170,
+    "end": 176,
+    "range": [
+      170,
+      176
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "*",
+    "start": 177,
+    "end": 178,
+    "range": [
+      177,
+      178
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "as",
+    "start": 179,
+    "end": 181,
+    "range": [
+      179,
+      181
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "thing4",
+    "start": 182,
+    "end": 188,
+    "range": [
+      182,
+      188
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "from",
+    "start": 189,
+    "end": 193,
+    "range": [
+      189,
+      193
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"./mod.mjs\"",
+    "start": 194,
+    "end": 205,
+    "range": [
+      194,
+      205
+    ]
+  },
+  {
+    "type": "Keyword",
+    "value": "with",
+    "start": 206,
+    "end": 210,
+    "range": [
+      206,
+      210
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "{",
+    "start": 211,
+    "end": 212,
+    "range": [
+      211,
+      212
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "field",
+    "start": 213,
+    "end": 218,
+    "range": [
+      213,
+      218
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ":",
+    "start": 218,
+    "end": 219,
+    "range": [
+      218,
+      219
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "[",
+    "start": 220,
+    "end": 221,
+    "range": [
+      220,
+      221
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"a\"",
+    "start": 221,
+    "end": 224,
+    "range": [
+      221,
+      224
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "]",
+    "start": 224,
+    "end": 225,
+    "range": [
+      224,
+      225
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "}",
+    "start": 226,
+    "end": 227,
+    "range": [
+      226,
+      227
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 227,
+    "end": 228,
+    "range": [
+      227,
+      228
+    ]
+  },
+  {
+    "type": "Keyword",
+    "value": "import",
+    "start": 229,
+    "end": 235,
+    "range": [
+      229,
+      235
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "*",
+    "start": 236,
+    "end": 237,
+    "range": [
+      236,
+      237
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "as",
+    "start": 238,
+    "end": 240,
+    "range": [
+      238,
+      240
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "thing5",
+    "start": 241,
+    "end": 247,
+    "range": [
+      241,
+      247
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "from",
+    "start": 248,
+    "end": 252,
+    "range": [
+      248,
+      252
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"./mod.mjs\"",
+    "start": 253,
+    "end": 264,
+    "range": [
+      253,
+      264
+    ]
+  },
+  {
+    "type": "Keyword",
+    "value": "with",
+    "start": 265,
+    "end": 269,
+    "range": [
+      265,
+      269
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "{",
+    "start": 270,
+    "end": 271,
+    "range": [
+      270,
+      271
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "field",
+    "start": 272,
+    "end": 277,
+    "range": [
+      272,
+      277
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ":",
+    "start": 277,
+    "end": 278,
+    "range": [
+      277,
+      278
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "{",
+    "start": 279,
+    "end": 280,
+    "range": [
+      279,
+      280
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "a",
+    "start": 281,
+    "end": 282,
+    "range": [
+      281,
+      282
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ":",
+    "start": 282,
+    "end": 283,
+    "range": [
+      282,
+      283
+    ]
+  },
+  {
+    "type": "Numeric",
+    "value": "0",
+    "start": 284,
+    "end": 285,
+    "range": [
+      284,
+      285
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "}",
+    "start": 286,
+    "end": 287,
+    "range": [
+      286,
+      287
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "}",
+    "start": 288,
+    "end": 289,
+    "range": [
+      288,
+      289
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 289,
+    "end": 290,
+    "range": [
+      289,
+      290
+    ]
+  },
+  {
+    "type": "Keyword",
+    "value": "import",
+    "start": 291,
+    "end": 297,
+    "range": [
+      291,
+      297
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "*",
+    "start": 298,
+    "end": 299,
+    "range": [
+      298,
+      299
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "as",
+    "start": 300,
+    "end": 302,
+    "range": [
+      300,
+      302
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "thing6",
+    "start": 303,
+    "end": 309,
+    "range": [
+      303,
+      309
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "from",
+    "start": 310,
+    "end": 314,
+    "range": [
+      310,
+      314
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"./mod.mjs\"",
+    "start": 315,
+    "end": 326,
+    "range": [
+      315,
+      326
+    ]
+  },
+  {
+    "type": "Keyword",
+    "value": "with",
+    "start": 327,
+    "end": 331,
+    "range": [
+      327,
+      331
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "{",
+    "start": 332,
+    "end": 333,
+    "range": [
+      332,
+      333
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "type",
+    "start": 334,
+    "end": 338,
+    "range": [
+      334,
+      338
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ":",
+    "start": 338,
+    "end": 339,
+    "range": [
+      338,
+      339
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"json\"",
+    "start": 340,
+    "end": 346,
+    "range": [
+      340,
+      346
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 346,
+    "end": 347,
+    "range": [
+      346,
+      347
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "field",
+    "start": 348,
+    "end": 353,
+    "range": [
+      348,
+      353
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ":",
+    "start": 353,
+    "end": 354,
+    "range": [
+      353,
+      354
+    ]
+  },
+  {
+    "type": "Numeric",
+    "value": "0.",
+    "start": 355,
+    "end": 357,
+    "range": [
+      355,
+      357
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 357,
+    "end": 358,
+    "range": [
+      357,
+      358
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "toString",
+    "start": 358,
+    "end": 366,
+    "range": [
+      358,
+      366
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 366,
+    "end": 367,
+    "range": [
+      366,
+      367
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 367,
+    "end": 368,
+    "range": [
+      367,
+      368
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "}",
+    "start": 369,
+    "end": 370,
+    "range": [
+      369,
+      370
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 370,
+    "end": 371,
+    "range": [
+      370,
+      371
+    ]
+  }
+]
 ```

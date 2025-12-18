@@ -1,4 +1,4 @@
-__ESTREE_TEST__:PASS:
+__ESTREE_TEST__:AST:
 ```json
 {
   "type": "Program",
@@ -95,4 +95,149 @@ __ESTREE_TEST__:PASS:
   "start": 141,
   "end": 196
 }
+```
+__ESTREE_TEST__:TOKENS:
+```json
+[
+  {
+    "type": "Keyword",
+    "value": "const",
+    "start": 141,
+    "end": 146,
+    "range": [
+      141,
+      146
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "cb",
+    "start": 147,
+    "end": 149,
+    "range": [
+      147,
+      149
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "=",
+    "start": 150,
+    "end": 151,
+    "range": [
+      150,
+      151
+    ]
+  },
+  {
+    "type": "Keyword",
+    "value": "function",
+    "start": 152,
+    "end": 160,
+    "range": [
+      152,
+      160
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 161,
+    "end": 162,
+    "range": [
+      161,
+      162
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "a",
+    "start": 162,
+    "end": 163,
+    "range": [
+      162,
+      163
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 163,
+    "end": 164,
+    "range": [
+      163,
+      164
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "b",
+    "start": 165,
+    "end": 166,
+    "range": [
+      165,
+      166
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 166,
+    "end": 167,
+    "range": [
+      166,
+      167
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "{",
+    "start": 168,
+    "end": 169,
+    "range": [
+      168,
+      169
+    ]
+  },
+  {
+    "type": "Keyword",
+    "value": "this",
+    "start": 174,
+    "end": 178,
+    "range": [
+      174,
+      178
+    ]
+  },
+  {
+    "type": "Keyword",
+    "value": "return",
+    "start": 183,
+    "end": 189,
+    "range": [
+      183,
+      189
+    ]
+  },
+  {
+    "type": "Boolean",
+    "value": "true",
+    "start": 190,
+    "end": 194,
+    "range": [
+      190,
+      194
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "}",
+    "start": 195,
+    "end": 196,
+    "range": [
+      195,
+      196
+    ]
+  }
+]
 ```

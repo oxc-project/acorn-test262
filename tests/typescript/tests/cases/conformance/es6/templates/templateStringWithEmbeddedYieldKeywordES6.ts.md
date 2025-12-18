@@ -1,4 +1,4 @@
-__ESTREE_TEST__:PASS:
+__ESTREE_TEST__:AST:
 ```json
 {
   "type": "Program",
@@ -103,4 +103,159 @@ __ESTREE_TEST__:PASS:
   "start": 0,
   "end": 116
 }
+```
+__ESTREE_TEST__:TOKENS:
+```json
+[
+  {
+    "type": "Keyword",
+    "value": "function",
+    "start": 0,
+    "end": 8,
+    "range": [
+      0,
+      8
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "*",
+    "start": 8,
+    "end": 9,
+    "range": [
+      8,
+      9
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "gen",
+    "start": 10,
+    "end": 13,
+    "range": [
+      10,
+      13
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 13,
+    "end": 14,
+    "range": [
+      13,
+      14
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 14,
+    "end": 15,
+    "range": [
+      14,
+      15
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "{",
+    "start": 16,
+    "end": 17,
+    "range": [
+      16,
+      17
+    ]
+  },
+  {
+    "type": "Keyword",
+    "value": "var",
+    "start": 84,
+    "end": 87,
+    "range": [
+      84,
+      87
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "x",
+    "start": 88,
+    "end": 89,
+    "range": [
+      88,
+      89
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "=",
+    "start": 90,
+    "end": 91,
+    "range": [
+      90,
+      91
+    ]
+  },
+  {
+    "type": "Template",
+    "value": "`abc${",
+    "start": 92,
+    "end": 98,
+    "range": [
+      92,
+      98
+    ]
+  },
+  {
+    "type": "Keyword",
+    "value": "yield",
+    "start": 99,
+    "end": 104,
+    "range": [
+      99,
+      104
+    ]
+  },
+  {
+    "type": "Numeric",
+    "value": "10",
+    "start": 105,
+    "end": 107,
+    "range": [
+      105,
+      107
+    ]
+  },
+  {
+    "type": "Template",
+    "value": "}def`",
+    "start": 108,
+    "end": 113,
+    "range": [
+      108,
+      113
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 113,
+    "end": 114,
+    "range": [
+      113,
+      114
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "}",
+    "start": 115,
+    "end": 116,
+    "range": [
+      115,
+      116
+    ]
+  }
+]
 ```

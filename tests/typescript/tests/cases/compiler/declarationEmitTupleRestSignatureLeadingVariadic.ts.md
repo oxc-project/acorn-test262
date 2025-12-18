@@ -1,4 +1,4 @@
-__ESTREE_TEST__:PASS:
+__ESTREE_TEST__:AST:
 ```json
 {
   "type": "Program",
@@ -178,4 +178,299 @@ __ESTREE_TEST__:PASS:
   "start": 0,
   "end": 95
 }
+```
+__ESTREE_TEST__:TOKENS:
+```json
+[
+  {
+    "type": "Keyword",
+    "value": "const",
+    "start": 0,
+    "end": 5,
+    "range": [
+      0,
+      5
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "f",
+    "start": 6,
+    "end": 7,
+    "range": [
+      6,
+      7
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "=",
+    "start": 8,
+    "end": 9,
+    "range": [
+      8,
+      9
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "<",
+    "start": 10,
+    "end": 11,
+    "range": [
+      10,
+      11
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "TFirstArgs",
+    "start": 11,
+    "end": 21,
+    "range": [
+      11,
+      21
+    ]
+  },
+  {
+    "type": "Keyword",
+    "value": "extends",
+    "start": 22,
+    "end": 29,
+    "range": [
+      22,
+      29
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "any",
+    "start": 30,
+    "end": 33,
+    "range": [
+      30,
+      33
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "[",
+    "start": 33,
+    "end": 34,
+    "range": [
+      33,
+      34
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "]",
+    "start": 34,
+    "end": 35,
+    "range": [
+      34,
+      35
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 35,
+    "end": 36,
+    "range": [
+      35,
+      36
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "TLastArg",
+    "start": 37,
+    "end": 45,
+    "range": [
+      37,
+      45
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ">",
+    "start": 45,
+    "end": 46,
+    "range": [
+      45,
+      46
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 46,
+    "end": 47,
+    "range": [
+      46,
+      47
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "...",
+    "start": 47,
+    "end": 50,
+    "range": [
+      47,
+      50
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "args",
+    "start": 50,
+    "end": 54,
+    "range": [
+      50,
+      54
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ":",
+    "start": 54,
+    "end": 55,
+    "range": [
+      54,
+      55
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "[",
+    "start": 56,
+    "end": 57,
+    "range": [
+      56,
+      57
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "...",
+    "start": 57,
+    "end": 60,
+    "range": [
+      57,
+      60
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "TFirstArgs",
+    "start": 60,
+    "end": 70,
+    "range": [
+      60,
+      70
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 70,
+    "end": 71,
+    "range": [
+      70,
+      71
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "TLastArg",
+    "start": 72,
+    "end": 80,
+    "range": [
+      72,
+      80
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "]",
+    "start": 80,
+    "end": 81,
+    "range": [
+      80,
+      81
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 81,
+    "end": 82,
+    "range": [
+      81,
+      82
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ":",
+    "start": 82,
+    "end": 83,
+    "range": [
+      82,
+      83
+    ]
+  },
+  {
+    "type": "Keyword",
+    "value": "void",
+    "start": 84,
+    "end": 88,
+    "range": [
+      84,
+      88
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "=>",
+    "start": 89,
+    "end": 91,
+    "range": [
+      89,
+      91
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "{",
+    "start": 92,
+    "end": 93,
+    "range": [
+      92,
+      93
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "}",
+    "start": 93,
+    "end": 94,
+    "range": [
+      93,
+      94
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 94,
+    "end": 95,
+    "range": [
+      94,
+      95
+    ]
+  }
+]
 ```

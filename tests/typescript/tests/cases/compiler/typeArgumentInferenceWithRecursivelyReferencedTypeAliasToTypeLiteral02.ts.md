@@ -1,4 +1,4 @@
-__ESTREE_TEST__:PASS:
+__ESTREE_TEST__:AST:
 ```json
 {
   "type": "Program",
@@ -327,4 +327,449 @@ __ESTREE_TEST__:PASS:
   "start": 0,
   "end": 186
 }
+```
+__ESTREE_TEST__:TOKENS:
+```json
+[
+  {
+    "type": "Identifier",
+    "value": "type",
+    "start": 0,
+    "end": 4,
+    "range": [
+      0,
+      4
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "TreeNode",
+    "start": 5,
+    "end": 13,
+    "range": [
+      5,
+      13
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "=",
+    "start": 14,
+    "end": 15,
+    "range": [
+      14,
+      15
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "{",
+    "start": 16,
+    "end": 17,
+    "range": [
+      16,
+      17
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "name",
+    "start": 22,
+    "end": 26,
+    "range": [
+      22,
+      26
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ":",
+    "start": 26,
+    "end": 27,
+    "range": [
+      26,
+      27
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "string",
+    "start": 28,
+    "end": 34,
+    "range": [
+      28,
+      34
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 34,
+    "end": 35,
+    "range": [
+      34,
+      35
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "parent",
+    "start": 40,
+    "end": 46,
+    "range": [
+      40,
+      46
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ":",
+    "start": 46,
+    "end": 47,
+    "range": [
+      46,
+      47
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "TreeNode",
+    "start": 48,
+    "end": 56,
+    "range": [
+      48,
+      56
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 56,
+    "end": 57,
+    "range": [
+      56,
+      57
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "}",
+    "start": 58,
+    "end": 59,
+    "range": [
+      58,
+      59
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "type",
+    "start": 61,
+    "end": 65,
+    "range": [
+      61,
+      65
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "TreeNodeMiddleman",
+    "start": 66,
+    "end": 83,
+    "range": [
+      66,
+      83
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "=",
+    "start": 84,
+    "end": 85,
+    "range": [
+      84,
+      85
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "{",
+    "start": 86,
+    "end": 87,
+    "range": [
+      86,
+      87
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "name",
+    "start": 92,
+    "end": 96,
+    "range": [
+      92,
+      96
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ":",
+    "start": 96,
+    "end": 97,
+    "range": [
+      96,
+      97
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "string",
+    "start": 98,
+    "end": 104,
+    "range": [
+      98,
+      104
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 104,
+    "end": 105,
+    "range": [
+      104,
+      105
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "parent",
+    "start": 110,
+    "end": 116,
+    "range": [
+      110,
+      116
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ":",
+    "start": 116,
+    "end": 117,
+    "range": [
+      116,
+      117
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "TreeNode",
+    "start": 118,
+    "end": 126,
+    "range": [
+      118,
+      126
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 126,
+    "end": 127,
+    "range": [
+      126,
+      127
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "}",
+    "start": 128,
+    "end": 129,
+    "range": [
+      128,
+      129
+    ]
+  },
+  {
+    "type": "Keyword",
+    "value": "var",
+    "start": 131,
+    "end": 134,
+    "range": [
+      131,
+      134
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "nodes",
+    "start": 135,
+    "end": 140,
+    "range": [
+      135,
+      140
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ":",
+    "start": 140,
+    "end": 141,
+    "range": [
+      140,
+      141
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "TreeNodeMiddleman",
+    "start": 142,
+    "end": 159,
+    "range": [
+      142,
+      159
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "[",
+    "start": 159,
+    "end": 160,
+    "range": [
+      159,
+      160
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "]",
+    "start": 160,
+    "end": 161,
+    "range": [
+      160,
+      161
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 161,
+    "end": 162,
+    "range": [
+      161,
+      162
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "nodes",
+    "start": 163,
+    "end": 168,
+    "range": [
+      163,
+      168
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 168,
+    "end": 169,
+    "range": [
+      168,
+      169
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "map",
+    "start": 169,
+    "end": 172,
+    "range": [
+      169,
+      172
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 172,
+    "end": 173,
+    "range": [
+      172,
+      173
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "n",
+    "start": 173,
+    "end": 174,
+    "range": [
+      173,
+      174
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "=>",
+    "start": 175,
+    "end": 177,
+    "range": [
+      175,
+      177
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "n",
+    "start": 178,
+    "end": 179,
+    "range": [
+      178,
+      179
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 179,
+    "end": 180,
+    "range": [
+      179,
+      180
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "name",
+    "start": 180,
+    "end": 184,
+    "range": [
+      180,
+      184
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 184,
+    "end": 185,
+    "range": [
+      184,
+      185
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 185,
+    "end": 186,
+    "range": [
+      185,
+      186
+    ]
+  }
+]
 ```

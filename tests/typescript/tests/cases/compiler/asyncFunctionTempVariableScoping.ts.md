@@ -1,4 +1,4 @@
-__ESTREE_TEST__:PASS:
+__ESTREE_TEST__:AST:
 ```json
 {
   "type": "Program",
@@ -144,4 +144,189 @@ __ESTREE_TEST__:PASS:
   "start": 57,
   "end": 105
 }
+```
+__ESTREE_TEST__:TOKENS:
+```json
+[
+  {
+    "type": "Identifier",
+    "value": "async",
+    "start": 57,
+    "end": 62,
+    "range": [
+      57,
+      62
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 63,
+    "end": 64,
+    "range": [
+      63,
+      64
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "{",
+    "start": 64,
+    "end": 65,
+    "range": [
+      64,
+      65
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "foo",
+    "start": 66,
+    "end": 69,
+    "range": [
+      66,
+      69
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 69,
+    "end": 70,
+    "range": [
+      69,
+      70
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "bar",
+    "start": 71,
+    "end": 74,
+    "range": [
+      71,
+      74
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 74,
+    "end": 75,
+    "range": [
+      74,
+      75
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "...",
+    "start": 76,
+    "end": 79,
+    "range": [
+      76,
+      79
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "rest",
+    "start": 79,
+    "end": 83,
+    "range": [
+      79,
+      83
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "}",
+    "start": 84,
+    "end": 85,
+    "range": [
+      84,
+      85
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 85,
+    "end": 86,
+    "range": [
+      85,
+      86
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "=>",
+    "start": 87,
+    "end": 89,
+    "range": [
+      87,
+      89
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "bar",
+    "start": 90,
+    "end": 93,
+    "range": [
+      90,
+      93
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 93,
+    "end": 94,
+    "range": [
+      93,
+      94
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "await",
+    "start": 94,
+    "end": 99,
+    "range": [
+      94,
+      99
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "foo",
+    "start": 100,
+    "end": 103,
+    "range": [
+      100,
+      103
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 103,
+    "end": 104,
+    "range": [
+      103,
+      104
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 104,
+    "end": 105,
+    "range": [
+      104,
+      105
+    ]
+  }
+]
 ```

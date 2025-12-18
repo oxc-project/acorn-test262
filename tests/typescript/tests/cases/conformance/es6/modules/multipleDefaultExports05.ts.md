@@ -1,4 +1,4 @@
-__ESTREE_TEST__:PASS:
+__ESTREE_TEST__:AST:
 ```json
 {
   "type": "Program",
@@ -108,4 +108,189 @@ __ESTREE_TEST__:PASS:
   "start": 0,
   "end": 85
 }
+```
+__ESTREE_TEST__:TOKENS:
+```json
+[
+  {
+    "type": "Keyword",
+    "value": "export",
+    "start": 0,
+    "end": 6,
+    "range": [
+      0,
+      6
+    ]
+  },
+  {
+    "type": "Keyword",
+    "value": "default",
+    "start": 7,
+    "end": 14,
+    "range": [
+      7,
+      14
+    ]
+  },
+  {
+    "type": "Keyword",
+    "value": "class",
+    "start": 15,
+    "end": 20,
+    "range": [
+      15,
+      20
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "AA1",
+    "start": 21,
+    "end": 24,
+    "range": [
+      21,
+      24
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "{",
+    "start": 25,
+    "end": 26,
+    "range": [
+      25,
+      26
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "}",
+    "start": 26,
+    "end": 27,
+    "range": [
+      26,
+      27
+    ]
+  },
+  {
+    "type": "Keyword",
+    "value": "export",
+    "start": 29,
+    "end": 35,
+    "range": [
+      29,
+      35
+    ]
+  },
+  {
+    "type": "Keyword",
+    "value": "default",
+    "start": 36,
+    "end": 43,
+    "range": [
+      36,
+      43
+    ]
+  },
+  {
+    "type": "Keyword",
+    "value": "class",
+    "start": 44,
+    "end": 49,
+    "range": [
+      44,
+      49
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "BB1",
+    "start": 50,
+    "end": 53,
+    "range": [
+      50,
+      53
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "{",
+    "start": 54,
+    "end": 55,
+    "range": [
+      54,
+      55
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "}",
+    "start": 55,
+    "end": 56,
+    "range": [
+      55,
+      56
+    ]
+  },
+  {
+    "type": "Keyword",
+    "value": "export",
+    "start": 58,
+    "end": 64,
+    "range": [
+      58,
+      64
+    ]
+  },
+  {
+    "type": "Keyword",
+    "value": "default",
+    "start": 65,
+    "end": 72,
+    "range": [
+      65,
+      72
+    ]
+  },
+  {
+    "type": "Keyword",
+    "value": "class",
+    "start": 73,
+    "end": 78,
+    "range": [
+      73,
+      78
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "CC1",
+    "start": 79,
+    "end": 82,
+    "range": [
+      79,
+      82
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "{",
+    "start": 83,
+    "end": 84,
+    "range": [
+      83,
+      84
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "}",
+    "start": 84,
+    "end": 85,
+    "range": [
+      84,
+      85
+    ]
+  }
+]
 ```

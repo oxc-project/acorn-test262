@@ -1,4 +1,4 @@
-__ESTREE_TEST__:PASS:
+__ESTREE_TEST__:AST:
 ```json
 {
   "type": "Program",
@@ -151,4 +151,269 @@ __ESTREE_TEST__:PASS:
   "start": 0,
   "end": 120
 }
+```
+__ESTREE_TEST__:TOKENS:
+```json
+[
+  {
+    "type": "Keyword",
+    "value": "function",
+    "start": 0,
+    "end": 8,
+    "range": [
+      0,
+      8
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "greeter",
+    "start": 9,
+    "end": 16,
+    "range": [
+      9,
+      16
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 16,
+    "end": 17,
+    "range": [
+      16,
+      17
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "person",
+    "start": 17,
+    "end": 23,
+    "range": [
+      17,
+      23
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ":",
+    "start": 23,
+    "end": 24,
+    "range": [
+      23,
+      24
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "string",
+    "start": 25,
+    "end": 31,
+    "range": [
+      25,
+      31
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 31,
+    "end": 32,
+    "range": [
+      31,
+      32
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "person2",
+    "start": 33,
+    "end": 40,
+    "range": [
+      33,
+      40
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ":",
+    "start": 40,
+    "end": 41,
+    "range": [
+      40,
+      41
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "string",
+    "start": 42,
+    "end": 48,
+    "range": [
+      42,
+      48
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 48,
+    "end": 49,
+    "range": [
+      48,
+      49
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "person3",
+    "start": 50,
+    "end": 57,
+    "range": [
+      50,
+      57
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ":",
+    "start": 57,
+    "end": 58,
+    "range": [
+      57,
+      58
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "string",
+    "start": 59,
+    "end": 65,
+    "range": [
+      59,
+      65
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 65,
+    "end": 66,
+    "range": [
+      65,
+      66
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "{",
+    "start": 67,
+    "end": 68,
+    "range": [
+      67,
+      68
+    ]
+  },
+  {
+    "type": "Keyword",
+    "value": "var",
+    "start": 73,
+    "end": 76,
+    "range": [
+      73,
+      76
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "unused",
+    "start": 77,
+    "end": 83,
+    "range": [
+      77,
+      83
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "=",
+    "start": 84,
+    "end": 85,
+    "range": [
+      84,
+      85
+    ]
+  },
+  {
+    "type": "Numeric",
+    "value": "20",
+    "start": 86,
+    "end": 88,
+    "range": [
+      86,
+      88
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 88,
+    "end": 89,
+    "range": [
+      88,
+      89
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "person2",
+    "start": 94,
+    "end": 101,
+    "range": [
+      94,
+      101
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "=",
+    "start": 102,
+    "end": 103,
+    "range": [
+      102,
+      103
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"dummy value\"",
+    "start": 104,
+    "end": 117,
+    "range": [
+      104,
+      117
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 117,
+    "end": 118,
+    "range": [
+      117,
+      118
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "}",
+    "start": 119,
+    "end": 120,
+    "range": [
+      119,
+      120
+    ]
+  }
+]
 ```

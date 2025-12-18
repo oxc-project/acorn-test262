@@ -1,4 +1,4 @@
-__ESTREE_TEST__:PASS:
+__ESTREE_TEST__:AST:
 ```json
 {
   "type": "Program",
@@ -36,4 +36,69 @@ __ESTREE_TEST__:PASS:
   "start": 67,
   "end": 95
 }
+```
+__ESTREE_TEST__:TOKENS:
+```json
+[
+  {
+    "type": "Keyword",
+    "value": "function",
+    "start": 67,
+    "end": 75,
+    "range": [
+      67,
+      75
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "theWholeThing",
+    "start": 76,
+    "end": 89,
+    "range": [
+      76,
+      89
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 89,
+    "end": 90,
+    "range": [
+      89,
+      90
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 90,
+    "end": 91,
+    "range": [
+      90,
+      91
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "{",
+    "start": 92,
+    "end": 93,
+    "range": [
+      92,
+      93
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "}",
+    "start": 94,
+    "end": 95,
+    "range": [
+      94,
+      95
+    ]
+  }
+]
 ```

@@ -1,4 +1,4 @@
-__ESTREE_TEST__:PASS:
+__ESTREE_TEST__:AST:
 ```json
 {
   "type": "Program",
@@ -69,7 +69,122 @@ __ESTREE_TEST__:PASS:
   "end": 53
 }
 ```
-__ESTREE_TEST__:PASS:
+__ESTREE_TEST__:TOKENS:
+```json
+[
+  {
+    "type": "Keyword",
+    "value": "export",
+    "start": 0,
+    "end": 6,
+    "range": [
+      0,
+      6
+    ]
+  },
+  {
+    "type": "Keyword",
+    "value": "function",
+    "start": 7,
+    "end": 15,
+    "range": [
+      7,
+      15
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "doNativeThing",
+    "start": 16,
+    "end": 29,
+    "range": [
+      16,
+      29
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 29,
+    "end": 30,
+    "range": [
+      29,
+      30
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "flag",
+    "start": 30,
+    "end": 34,
+    "range": [
+      30,
+      34
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ":",
+    "start": 34,
+    "end": 35,
+    "range": [
+      34,
+      35
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "string",
+    "start": 36,
+    "end": 42,
+    "range": [
+      36,
+      42
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 42,
+    "end": 43,
+    "range": [
+      42,
+      43
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ":",
+    "start": 43,
+    "end": 44,
+    "range": [
+      43,
+      44
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "unknown",
+    "start": 45,
+    "end": 52,
+    "range": [
+      45,
+      52
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 52,
+    "end": 53,
+    "range": [
+      52,
+      53
+    ]
+  }
+]
+```
+__ESTREE_TEST__:AST:
 ```json
 {
   "type": "Program",
@@ -154,4 +269,159 @@ __ESTREE_TEST__:PASS:
   "start": 0,
   "end": 69
 }
+```
+__ESTREE_TEST__:TOKENS:
+```json
+[
+  {
+    "type": "Keyword",
+    "value": "import",
+    "start": 0,
+    "end": 6,
+    "range": [
+      0,
+      6
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "mod",
+    "start": 7,
+    "end": 10,
+    "range": [
+      7,
+      10
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "=",
+    "start": 11,
+    "end": 12,
+    "range": [
+      11,
+      12
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "require",
+    "start": 13,
+    "end": 20,
+    "range": [
+      13,
+      20
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 20,
+    "end": 21,
+    "range": [
+      20,
+      21
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"./dir/native.node\"",
+    "start": 21,
+    "end": 40,
+    "range": [
+      21,
+      40
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 40,
+    "end": 41,
+    "range": [
+      40,
+      41
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 41,
+    "end": 42,
+    "range": [
+      41,
+      42
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "mod",
+    "start": 43,
+    "end": 46,
+    "range": [
+      43,
+      46
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 46,
+    "end": 47,
+    "range": [
+      46,
+      47
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "doNativeThing",
+    "start": 47,
+    "end": 60,
+    "range": [
+      47,
+      60
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 60,
+    "end": 61,
+    "range": [
+      60,
+      61
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"good\"",
+    "start": 61,
+    "end": 67,
+    "range": [
+      61,
+      67
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 67,
+    "end": 68,
+    "range": [
+      67,
+      68
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 68,
+    "end": 69,
+    "range": [
+      68,
+      69
+    ]
+  }
+]
 ```

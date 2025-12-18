@@ -1,4 +1,4 @@
-__ESTREE_TEST__:PASS:
+__ESTREE_TEST__:AST:
 ```json
 {
   "type": "Program",
@@ -46,7 +46,62 @@ __ESTREE_TEST__:PASS:
   "end": 22
 }
 ```
-__ESTREE_TEST__:PASS:
+__ESTREE_TEST__:TOKENS:
+```json
+[
+  {
+    "type": "Keyword",
+    "value": "export",
+    "start": 0,
+    "end": 6,
+    "range": [
+      0,
+      6
+    ]
+  },
+  {
+    "type": "Keyword",
+    "value": "class",
+    "start": 7,
+    "end": 12,
+    "range": [
+      7,
+      12
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "Host",
+    "start": 13,
+    "end": 17,
+    "range": [
+      13,
+      17
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "{",
+    "start": 18,
+    "end": 19,
+    "range": [
+      18,
+      19
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "}",
+    "start": 20,
+    "end": 21,
+    "range": [
+      20,
+      21
+    ]
+  }
+]
+```
+__ESTREE_TEST__:AST:
 ```json
 {
   "type": "Program",
@@ -173,4 +228,239 @@ __ESTREE_TEST__:PASS:
   "start": 0,
   "end": 80
 }
+```
+__ESTREE_TEST__:TOKENS:
+```json
+[
+  {
+    "type": "Keyword",
+    "value": "import",
+    "start": 0,
+    "end": 6,
+    "range": [
+      0,
+      6
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "host",
+    "start": 7,
+    "end": 11,
+    "range": [
+      7,
+      11
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "=",
+    "start": 12,
+    "end": 13,
+    "range": [
+      12,
+      13
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "require",
+    "start": 14,
+    "end": 21,
+    "range": [
+      14,
+      21
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 21,
+    "end": 22,
+    "range": [
+      21,
+      22
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"host\"",
+    "start": 22,
+    "end": 28,
+    "range": [
+      22,
+      28
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 28,
+    "end": 29,
+    "range": [
+      28,
+      29
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 29,
+    "end": 30,
+    "range": [
+      29,
+      30
+    ]
+  },
+  {
+    "type": "Keyword",
+    "value": "var",
+    "start": 31,
+    "end": 34,
+    "range": [
+      31,
+      34
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "hostVar",
+    "start": 35,
+    "end": 42,
+    "range": [
+      35,
+      42
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "=",
+    "start": 43,
+    "end": 44,
+    "range": [
+      43,
+      44
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "host",
+    "start": 45,
+    "end": 49,
+    "range": [
+      45,
+      49
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 49,
+    "end": 50,
+    "range": [
+      49,
+      50
+    ]
+  },
+  {
+    "type": "Keyword",
+    "value": "var",
+    "start": 51,
+    "end": 54,
+    "range": [
+      51,
+      54
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "v",
+    "start": 55,
+    "end": 56,
+    "range": [
+      55,
+      56
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "=",
+    "start": 57,
+    "end": 58,
+    "range": [
+      57,
+      58
+    ]
+  },
+  {
+    "type": "Keyword",
+    "value": "new",
+    "start": 59,
+    "end": 62,
+    "range": [
+      59,
+      62
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "hostVar",
+    "start": 63,
+    "end": 70,
+    "range": [
+      63,
+      70
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 70,
+    "end": 71,
+    "range": [
+      70,
+      71
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "Host",
+    "start": 71,
+    "end": 75,
+    "range": [
+      71,
+      75
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 75,
+    "end": 76,
+    "range": [
+      75,
+      76
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 76,
+    "end": 77,
+    "range": [
+      76,
+      77
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 77,
+    "end": 78,
+    "range": [
+      77,
+      78
+    ]
+  }
+]
 ```

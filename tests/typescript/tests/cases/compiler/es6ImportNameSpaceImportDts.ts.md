@@ -1,4 +1,4 @@
-__ESTREE_TEST__:PASS:
+__ESTREE_TEST__:AST:
 ```json
 {
   "type": "Program",
@@ -51,7 +51,72 @@ __ESTREE_TEST__:PASS:
   "end": 22
 }
 ```
-__ESTREE_TEST__:PASS:
+__ESTREE_TEST__:TOKENS:
+```json
+[
+  {
+    "type": "Keyword",
+    "value": "export",
+    "start": 0,
+    "end": 6,
+    "range": [
+      0,
+      6
+    ]
+  },
+  {
+    "type": "Keyword",
+    "value": "class",
+    "start": 7,
+    "end": 12,
+    "range": [
+      7,
+      12
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "c",
+    "start": 13,
+    "end": 14,
+    "range": [
+      13,
+      14
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "{",
+    "start": 15,
+    "end": 16,
+    "range": [
+      15,
+      16
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "}",
+    "start": 17,
+    "end": 18,
+    "range": [
+      17,
+      18
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 18,
+    "end": 19,
+    "range": [
+      18,
+      19
+    ]
+  }
+]
+```
+__ESTREE_TEST__:AST:
 ```json
 {
   "type": "Program",
@@ -189,4 +254,259 @@ __ESTREE_TEST__:PASS:
   "start": 0,
   "end": 149
 }
+```
+__ESTREE_TEST__:TOKENS:
+```json
+[
+  {
+    "type": "Keyword",
+    "value": "import",
+    "start": 0,
+    "end": 6,
+    "range": [
+      0,
+      6
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "*",
+    "start": 7,
+    "end": 8,
+    "range": [
+      7,
+      8
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "as",
+    "start": 9,
+    "end": 11,
+    "range": [
+      9,
+      11
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "nameSpaceBinding",
+    "start": 12,
+    "end": 28,
+    "range": [
+      12,
+      28
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "from",
+    "start": 29,
+    "end": 33,
+    "range": [
+      29,
+      33
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"./server\"",
+    "start": 34,
+    "end": 44,
+    "range": [
+      34,
+      44
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 44,
+    "end": 45,
+    "range": [
+      44,
+      45
+    ]
+  },
+  {
+    "type": "Keyword",
+    "value": "export",
+    "start": 46,
+    "end": 52,
+    "range": [
+      46,
+      52
+    ]
+  },
+  {
+    "type": "Keyword",
+    "value": "var",
+    "start": 53,
+    "end": 56,
+    "range": [
+      53,
+      56
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "x",
+    "start": 57,
+    "end": 58,
+    "range": [
+      57,
+      58
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "=",
+    "start": 59,
+    "end": 60,
+    "range": [
+      59,
+      60
+    ]
+  },
+  {
+    "type": "Keyword",
+    "value": "new",
+    "start": 61,
+    "end": 64,
+    "range": [
+      61,
+      64
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "nameSpaceBinding",
+    "start": 65,
+    "end": 81,
+    "range": [
+      65,
+      81
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 81,
+    "end": 82,
+    "range": [
+      81,
+      82
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "c",
+    "start": 82,
+    "end": 83,
+    "range": [
+      82,
+      83
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 83,
+    "end": 84,
+    "range": [
+      83,
+      84
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 84,
+    "end": 85,
+    "range": [
+      84,
+      85
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 85,
+    "end": 86,
+    "range": [
+      85,
+      86
+    ]
+  },
+  {
+    "type": "Keyword",
+    "value": "import",
+    "start": 87,
+    "end": 93,
+    "range": [
+      87,
+      93
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "*",
+    "start": 94,
+    "end": 95,
+    "range": [
+      94,
+      95
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "as",
+    "start": 96,
+    "end": 98,
+    "range": [
+      96,
+      98
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "nameSpaceBinding2",
+    "start": 99,
+    "end": 116,
+    "range": [
+      99,
+      116
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "from",
+    "start": 117,
+    "end": 121,
+    "range": [
+      117,
+      121
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"./server\"",
+    "start": 122,
+    "end": 132,
+    "range": [
+      122,
+      132
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 132,
+    "end": 133,
+    "range": [
+      132,
+      133
+    ]
+  }
+]
 ```

@@ -1,4 +1,4 @@
-__ESTREE_TEST__:PASS:
+__ESTREE_TEST__:AST:
 ```json
 {
   "type": "Program",
@@ -168,4 +168,289 @@ __ESTREE_TEST__:PASS:
   "start": 258,
   "end": 341
 }
+```
+__ESTREE_TEST__:TOKENS:
+```json
+[
+  {
+    "type": "Keyword",
+    "value": "var",
+    "start": 258,
+    "end": 261,
+    "range": [
+      258,
+      261
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "a",
+    "start": 262,
+    "end": 263,
+    "range": [
+      262,
+      263
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ":",
+    "start": 263,
+    "end": 264,
+    "range": [
+      263,
+      264
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 265,
+    "end": 266,
+    "range": [
+      265,
+      266
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "a",
+    "start": 266,
+    "end": 267,
+    "range": [
+      266,
+      267
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ":",
+    "start": 267,
+    "end": 268,
+    "range": [
+      267,
+      268
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "string",
+    "start": 269,
+    "end": 275,
+    "range": [
+      269,
+      275
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 275,
+    "end": 276,
+    "range": [
+      275,
+      276
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "=>",
+    "start": 277,
+    "end": 279,
+    "range": [
+      277,
+      279
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "string",
+    "start": 280,
+    "end": 286,
+    "range": [
+      280,
+      286
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 286,
+    "end": 287,
+    "range": [
+      286,
+      287
+    ]
+  },
+  {
+    "type": "Keyword",
+    "value": "var",
+    "start": 303,
+    "end": 306,
+    "range": [
+      303,
+      306
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "r",
+    "start": 307,
+    "end": 308,
+    "range": [
+      307,
+      308
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "=",
+    "start": 309,
+    "end": 310,
+    "range": [
+      309,
+      310
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "a",
+    "start": 311,
+    "end": 312,
+    "range": [
+      311,
+      312
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "||",
+    "start": 313,
+    "end": 315,
+    "range": [
+      313,
+      315
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 316,
+    "end": 317,
+    "range": [
+      316,
+      317
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 317,
+    "end": 318,
+    "range": [
+      317,
+      318
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "a",
+    "start": 318,
+    "end": 319,
+    "range": [
+      318,
+      319
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 319,
+    "end": 320,
+    "range": [
+      319,
+      320
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "=>",
+    "start": 321,
+    "end": 323,
+    "range": [
+      321,
+      323
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "a",
+    "start": 324,
+    "end": 325,
+    "range": [
+      324,
+      325
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 325,
+    "end": 326,
+    "range": [
+      325,
+      326
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "toLowerCase",
+    "start": 326,
+    "end": 337,
+    "range": [
+      326,
+      337
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 337,
+    "end": 338,
+    "range": [
+      337,
+      338
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 338,
+    "end": 339,
+    "range": [
+      338,
+      339
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 339,
+    "end": 340,
+    "range": [
+      339,
+      340
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 340,
+    "end": 341,
+    "range": [
+      340,
+      341
+    ]
+  }
+]
 ```

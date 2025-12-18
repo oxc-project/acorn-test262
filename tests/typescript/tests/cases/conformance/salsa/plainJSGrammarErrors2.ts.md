@@ -1,4 +1,4 @@
-__ESTREE_TEST__:PASS:
+__ESTREE_TEST__:AST:
 ```json
 {
   "type": "Program",
@@ -9,7 +9,11 @@ __ESTREE_TEST__:PASS:
   "end": 0
 }
 ```
-__ESTREE_TEST__:PASS:
+__ESTREE_TEST__:TOKENS:
+```json
+[]
+```
+__ESTREE_TEST__:AST:
 ```json
 {
   "type": "Program",
@@ -34,7 +38,52 @@ __ESTREE_TEST__:PASS:
   "end": 18
 }
 ```
-__ESTREE_TEST__:PASS:
+__ESTREE_TEST__:TOKENS:
+```json
+[
+  {
+    "type": "Keyword",
+    "value": "export",
+    "start": 0,
+    "end": 6,
+    "range": [
+      0,
+      6
+    ]
+  },
+  {
+    "type": "Keyword",
+    "value": "default",
+    "start": 7,
+    "end": 14,
+    "range": [
+      7,
+      14
+    ]
+  },
+  {
+    "type": "Numeric",
+    "value": "1",
+    "start": 15,
+    "end": 16,
+    "range": [
+      15,
+      16
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 16,
+    "end": 17,
+    "range": [
+      16,
+      17
+    ]
+  }
+]
+```
+__ESTREE_TEST__:AST:
 ```json
 {
   "type": "Program",
@@ -86,4 +135,99 @@ __ESTREE_TEST__:PASS:
   "start": 23,
   "end": 58
 }
+```
+__ESTREE_TEST__:TOKENS:
+```json
+[
+  {
+    "type": "Keyword",
+    "value": "export",
+    "start": 23,
+    "end": 29,
+    "range": [
+      23,
+      29
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "{",
+    "start": 30,
+    "end": 31,
+    "range": [
+      30,
+      31
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "default",
+    "start": 32,
+    "end": 39,
+    "range": [
+      32,
+      39
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "as",
+    "start": 40,
+    "end": 42,
+    "range": [
+      40,
+      42
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "A",
+    "start": 43,
+    "end": 44,
+    "range": [
+      43,
+      44
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "}",
+    "start": 45,
+    "end": 46,
+    "range": [
+      45,
+      46
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "from",
+    "start": 47,
+    "end": 51,
+    "range": [
+      47,
+      51
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"./a\"",
+    "start": 52,
+    "end": 57,
+    "range": [
+      52,
+      57
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 57,
+    "end": 58,
+    "range": [
+      57,
+      58
+    ]
+  }
+]
 ```

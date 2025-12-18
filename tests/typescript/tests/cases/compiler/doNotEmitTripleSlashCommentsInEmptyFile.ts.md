@@ -1,4 +1,4 @@
-__ESTREE_TEST__:PASS:
+__ESTREE_TEST__:AST:
 ```json
 {
   "type": "Program",
@@ -9,7 +9,11 @@ __ESTREE_TEST__:PASS:
   "end": 0
 }
 ```
-__ESTREE_TEST__:PASS:
+__ESTREE_TEST__:TOKENS:
+```json
+[]
+```
+__ESTREE_TEST__:AST:
 ```json
 {
   "type": "Program",
@@ -20,7 +24,11 @@ __ESTREE_TEST__:PASS:
   "end": 0
 }
 ```
-__ESTREE_TEST__:PASS:
+__ESTREE_TEST__:TOKENS:
+```json
+[]
+```
+__ESTREE_TEST__:AST:
 ```json
 {
   "type": "Program",
@@ -30,4 +38,8 @@ __ESTREE_TEST__:PASS:
   "start": 147,
   "end": 147
 }
+```
+__ESTREE_TEST__:TOKENS:
+```json
+[]
 ```

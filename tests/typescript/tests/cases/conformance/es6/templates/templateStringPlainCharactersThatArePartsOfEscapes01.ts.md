@@ -1,4 +1,4 @@
-__ESTREE_TEST__:PASS:
+__ESTREE_TEST__:AST:
 ```json
 {
   "type": "Program",
@@ -33,4 +33,19 @@ __ESTREE_TEST__:PASS:
   "start": 0,
   "end": 81
 }
+```
+__ESTREE_TEST__:TOKENS:
+```json
+[
+  {
+    "type": "Template",
+    "value": "`0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 2028 2029 0085 t v f b r n`",
+    "start": 0,
+    "end": 81,
+    "range": [
+      0,
+      81
+    ]
+  }
+]
 ```

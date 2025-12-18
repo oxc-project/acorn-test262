@@ -1,4 +1,4 @@
-__ESTREE_TEST__:PASS:
+__ESTREE_TEST__:AST:
 ```json
 {
   "type": "Program",
@@ -375,4 +375,559 @@ __ESTREE_TEST__:PASS:
   "start": 0,
   "end": 227
 }
+```
+__ESTREE_TEST__:TOKENS:
+```json
+[
+  {
+    "type": "Keyword",
+    "value": "export",
+    "start": 0,
+    "end": 6,
+    "range": [
+      0,
+      6
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "namespace",
+    "start": 7,
+    "end": 16,
+    "range": [
+      7,
+      16
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "TypeScript",
+    "start": 17,
+    "end": 27,
+    "range": [
+      17,
+      27
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 27,
+    "end": 28,
+    "range": [
+      27,
+      28
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "Strasse",
+    "start": 28,
+    "end": 35,
+    "range": [
+      28,
+      35
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 35,
+    "end": 36,
+    "range": [
+      35,
+      36
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "Street",
+    "start": 36,
+    "end": 42,
+    "range": [
+      36,
+      42
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "{",
+    "start": 43,
+    "end": 44,
+    "range": [
+      43,
+      44
+    ]
+  },
+  {
+    "type": "Keyword",
+    "value": "export",
+    "start": 46,
+    "end": 52,
+    "range": [
+      46,
+      52
+    ]
+  },
+  {
+    "type": "Keyword",
+    "value": "class",
+    "start": 53,
+    "end": 58,
+    "range": [
+      53,
+      58
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "Rue",
+    "start": 59,
+    "end": 62,
+    "range": [
+      59,
+      62
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "{",
+    "start": 63,
+    "end": 64,
+    "range": [
+      63,
+      64
+    ]
+  },
+  {
+    "type": "Keyword",
+    "value": "public",
+    "start": 67,
+    "end": 73,
+    "range": [
+      67,
+      73
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "address",
+    "start": 74,
+    "end": 81,
+    "range": [
+      74,
+      81
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ":",
+    "start": 81,
+    "end": 82,
+    "range": [
+      81,
+      82
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "string",
+    "start": 82,
+    "end": 88,
+    "range": [
+      82,
+      88
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 88,
+    "end": 89,
+    "range": [
+      88,
+      89
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "}",
+    "start": 91,
+    "end": 92,
+    "range": [
+      91,
+      92
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "}",
+    "start": 94,
+    "end": 95,
+    "range": [
+      94,
+      95
+    ]
+  },
+  {
+    "type": "Keyword",
+    "value": "var",
+    "start": 97,
+    "end": 100,
+    "range": [
+      97,
+      100
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "rue",
+    "start": 101,
+    "end": 104,
+    "range": [
+      101,
+      104
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "=",
+    "start": 105,
+    "end": 106,
+    "range": [
+      105,
+      106
+    ]
+  },
+  {
+    "type": "Keyword",
+    "value": "new",
+    "start": 107,
+    "end": 110,
+    "range": [
+      107,
+      110
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "TypeScript",
+    "start": 111,
+    "end": 121,
+    "range": [
+      111,
+      121
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 121,
+    "end": 122,
+    "range": [
+      121,
+      122
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "Strasse",
+    "start": 122,
+    "end": 129,
+    "range": [
+      122,
+      129
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 129,
+    "end": 130,
+    "range": [
+      129,
+      130
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "Street",
+    "start": 130,
+    "end": 136,
+    "range": [
+      130,
+      136
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 136,
+    "end": 137,
+    "range": [
+      136,
+      137
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "Rue",
+    "start": 137,
+    "end": 140,
+    "range": [
+      137,
+      140
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 140,
+    "end": 141,
+    "range": [
+      140,
+      141
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 141,
+    "end": 142,
+    "range": [
+      141,
+      142
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 142,
+    "end": 143,
+    "range": [
+      142,
+      143
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "rue",
+    "start": 145,
+    "end": 148,
+    "range": [
+      145,
+      148
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 148,
+    "end": 149,
+    "range": [
+      148,
+      149
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "address",
+    "start": 149,
+    "end": 156,
+    "range": [
+      149,
+      156
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "=",
+    "start": 157,
+    "end": 158,
+    "range": [
+      157,
+      158
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"1 Main Street\"",
+    "start": 159,
+    "end": 174,
+    "range": [
+      159,
+      174
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 174,
+    "end": 175,
+    "range": [
+      174,
+      175
+    ]
+  },
+  {
+    "type": "Keyword",
+    "value": "void",
+    "start": 177,
+    "end": 181,
+    "range": [
+      177,
+      181
+    ]
+  },
+  {
+    "type": "Numeric",
+    "value": "0",
+    "start": 182,
+    "end": 183,
+    "range": [
+      182,
+      183
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 183,
+    "end": 184,
+    "range": [
+      183,
+      184
+    ]
+  },
+  {
+    "type": "Keyword",
+    "value": "if",
+    "start": 186,
+    "end": 188,
+    "range": [
+      186,
+      188
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 189,
+    "end": 190,
+    "range": [
+      189,
+      190
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "!",
+    "start": 190,
+    "end": 191,
+    "range": [
+      190,
+      191
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "module",
+    "start": 191,
+    "end": 197,
+    "range": [
+      191,
+      197
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 197,
+    "end": 198,
+    "range": [
+      197,
+      198
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "exports",
+    "start": 198,
+    "end": 205,
+    "range": [
+      198,
+      205
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 205,
+    "end": 206,
+    "range": [
+      205,
+      206
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "module",
+    "start": 207,
+    "end": 213,
+    "range": [
+      207,
+      213
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 213,
+    "end": 214,
+    "range": [
+      213,
+      214
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "exports",
+    "start": 214,
+    "end": 221,
+    "range": [
+      214,
+      221
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "=",
+    "start": 222,
+    "end": 223,
+    "range": [
+      222,
+      223
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"\"",
+    "start": 224,
+    "end": 226,
+    "range": [
+      224,
+      226
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 226,
+    "end": 227,
+    "range": [
+      226,
+      227
+    ]
+  }
+]
 ```

@@ -1,4 +1,4 @@
-__ESTREE_TEST__:PASS:
+__ESTREE_TEST__:AST:
 ```json
 {
   "type": "Program",
@@ -424,4 +424,569 @@ __ESTREE_TEST__:PASS:
   "start": 0,
   "end": 237
 }
+```
+__ESTREE_TEST__:TOKENS:
+```json
+[
+  {
+    "type": "Identifier",
+    "value": "namespace",
+    "start": 0,
+    "end": 9,
+    "range": [
+      0,
+      9
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "M",
+    "start": 10,
+    "end": 11,
+    "range": [
+      10,
+      11
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "{",
+    "start": 12,
+    "end": 13,
+    "range": [
+      12,
+      13
+    ]
+  },
+  {
+    "type": "Keyword",
+    "value": "export",
+    "start": 18,
+    "end": 24,
+    "range": [
+      18,
+      24
+    ]
+  },
+  {
+    "type": "Keyword",
+    "value": "class",
+    "start": 25,
+    "end": 30,
+    "range": [
+      25,
+      30
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "Point",
+    "start": 31,
+    "end": 36,
+    "range": [
+      31,
+      36
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "{",
+    "start": 37,
+    "end": 38,
+    "range": [
+      37,
+      38
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "x",
+    "start": 39,
+    "end": 40,
+    "range": [
+      39,
+      40
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ":",
+    "start": 40,
+    "end": 41,
+    "range": [
+      40,
+      41
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "number",
+    "start": 42,
+    "end": 48,
+    "range": [
+      42,
+      48
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 48,
+    "end": 49,
+    "range": [
+      48,
+      49
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "y",
+    "start": 50,
+    "end": 51,
+    "range": [
+      50,
+      51
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ":",
+    "start": 51,
+    "end": 52,
+    "range": [
+      51,
+      52
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "number",
+    "start": 53,
+    "end": 59,
+    "range": [
+      53,
+      59
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "}",
+    "start": 60,
+    "end": 61,
+    "range": [
+      60,
+      61
+    ]
+  },
+  {
+    "type": "Keyword",
+    "value": "export",
+    "start": 66,
+    "end": 72,
+    "range": [
+      66,
+      72
+    ]
+  },
+  {
+    "type": "Keyword",
+    "value": "var",
+    "start": 73,
+    "end": 76,
+    "range": [
+      73,
+      76
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "Point",
+    "start": 77,
+    "end": 82,
+    "range": [
+      77,
+      82
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "=",
+    "start": 83,
+    "end": 84,
+    "range": [
+      83,
+      84
+    ]
+  },
+  {
+    "type": "Numeric",
+    "value": "1",
+    "start": 85,
+    "end": 86,
+    "range": [
+      85,
+      86
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 86,
+    "end": 87,
+    "range": [
+      86,
+      87
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "}",
+    "start": 98,
+    "end": 99,
+    "range": [
+      98,
+      99
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "namespace",
+    "start": 101,
+    "end": 110,
+    "range": [
+      101,
+      110
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "M2",
+    "start": 111,
+    "end": 113,
+    "range": [
+      111,
+      113
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "{",
+    "start": 114,
+    "end": 115,
+    "range": [
+      114,
+      115
+    ]
+  },
+  {
+    "type": "Keyword",
+    "value": "export",
+    "start": 120,
+    "end": 126,
+    "range": [
+      120,
+      126
+    ]
+  },
+  {
+    "type": "Keyword",
+    "value": "interface",
+    "start": 127,
+    "end": 136,
+    "range": [
+      127,
+      136
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "Point",
+    "start": 137,
+    "end": 142,
+    "range": [
+      137,
+      142
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "{",
+    "start": 143,
+    "end": 144,
+    "range": [
+      143,
+      144
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "x",
+    "start": 145,
+    "end": 146,
+    "range": [
+      145,
+      146
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ":",
+    "start": 146,
+    "end": 147,
+    "range": [
+      146,
+      147
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "number",
+    "start": 148,
+    "end": 154,
+    "range": [
+      148,
+      154
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 154,
+    "end": 155,
+    "range": [
+      154,
+      155
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "y",
+    "start": 156,
+    "end": 157,
+    "range": [
+      156,
+      157
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ":",
+    "start": 157,
+    "end": 158,
+    "range": [
+      157,
+      158
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "number",
+    "start": 159,
+    "end": 165,
+    "range": [
+      159,
+      165
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "}",
+    "start": 166,
+    "end": 167,
+    "range": [
+      166,
+      167
+    ]
+  },
+  {
+    "type": "Keyword",
+    "value": "export",
+    "start": 172,
+    "end": 178,
+    "range": [
+      172,
+      178
+    ]
+  },
+  {
+    "type": "Keyword",
+    "value": "var",
+    "start": 179,
+    "end": 182,
+    "range": [
+      179,
+      182
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "Point",
+    "start": 183,
+    "end": 188,
+    "range": [
+      183,
+      188
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "=",
+    "start": 189,
+    "end": 190,
+    "range": [
+      189,
+      190
+    ]
+  },
+  {
+    "type": "Numeric",
+    "value": "1",
+    "start": 191,
+    "end": 192,
+    "range": [
+      191,
+      192
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 192,
+    "end": 193,
+    "range": [
+      192,
+      193
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "}",
+    "start": 194,
+    "end": 195,
+    "range": [
+      194,
+      195
+    ]
+  },
+  {
+    "type": "Keyword",
+    "value": "var",
+    "start": 197,
+    "end": 200,
+    "range": [
+      197,
+      200
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "m",
+    "start": 201,
+    "end": 202,
+    "range": [
+      201,
+      202
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "=",
+    "start": 203,
+    "end": 204,
+    "range": [
+      203,
+      204
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "M2",
+    "start": 205,
+    "end": 207,
+    "range": [
+      205,
+      207
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 207,
+    "end": 208,
+    "range": [
+      207,
+      208
+    ]
+  },
+  {
+    "type": "Keyword",
+    "value": "var",
+    "start": 209,
+    "end": 212,
+    "range": [
+      209,
+      212
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "p",
+    "start": 213,
+    "end": 214,
+    "range": [
+      213,
+      214
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ":",
+    "start": 214,
+    "end": 215,
+    "range": [
+      214,
+      215
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "m",
+    "start": 216,
+    "end": 217,
+    "range": [
+      216,
+      217
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 217,
+    "end": 218,
+    "range": [
+      217,
+      218
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "Point",
+    "start": 218,
+    "end": 223,
+    "range": [
+      218,
+      223
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 223,
+    "end": 224,
+    "range": [
+      223,
+      224
+    ]
+  }
+]
 ```

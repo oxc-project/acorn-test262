@@ -1,4 +1,4 @@
-__ESTREE_TEST__:PASS:
+__ESTREE_TEST__:AST:
 ```json
 {
   "type": "Program",
@@ -80,4 +80,79 @@ __ESTREE_TEST__:PASS:
   "start": 0,
   "end": 107
 }
+```
+__ESTREE_TEST__:TOKENS:
+```json
+[
+  {
+    "type": "Keyword",
+    "value": "var",
+    "start": 0,
+    "end": 3,
+    "range": [
+      0,
+      3
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "x",
+    "start": 4,
+    "end": 5,
+    "range": [
+      4,
+      5
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "=",
+    "start": 6,
+    "end": 7,
+    "range": [
+      6,
+      7
+    ]
+  },
+  {
+    "type": "Template",
+    "value": "`\\u{48}\\u{65}\\u{6c}\\u{6c}\\u{6f}${",
+    "start": 8,
+    "end": 41,
+    "range": [
+      8,
+      41
+    ]
+  },
+  {
+    "type": "Template",
+    "value": "`\\u{20}\\u{020}\\u{0020}\\u{000020}`",
+    "start": 41,
+    "end": 74,
+    "range": [
+      41,
+      74
+    ]
+  },
+  {
+    "type": "Template",
+    "value": "}\\u{77}\\u{6f}\\u{72}\\u{6c}\\u{64}`",
+    "start": 74,
+    "end": 106,
+    "range": [
+      74,
+      106
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 106,
+    "end": 107,
+    "range": [
+      106,
+      107
+    ]
+  }
+]
 ```

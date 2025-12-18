@@ -1,4 +1,4 @@
-__ESTREE_TEST__:PASS:
+__ESTREE_TEST__:AST:
 ```json
 {
   "type": "Program",
@@ -494,4 +494,779 @@ __ESTREE_TEST__:PASS:
   "start": 28,
   "end": 356
 }
+```
+__ESTREE_TEST__:TOKENS:
+```json
+[
+  {
+    "type": "Keyword",
+    "value": "enum",
+    "start": 28,
+    "end": 32,
+    "range": [
+      28,
+      32
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "ENUM1",
+    "start": 33,
+    "end": 38,
+    "range": [
+      33,
+      38
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "{",
+    "start": 39,
+    "end": 40,
+    "range": [
+      39,
+      40
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "A",
+    "start": 41,
+    "end": 42,
+    "range": [
+      41,
+      42
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 42,
+    "end": 43,
+    "range": [
+      42,
+      43
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "B",
+    "start": 44,
+    "end": 45,
+    "range": [
+      44,
+      45
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 45,
+    "end": 46,
+    "range": [
+      45,
+      46
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"\"",
+    "start": 47,
+    "end": 49,
+    "range": [
+      47,
+      49
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "}",
+    "start": 50,
+    "end": 51,
+    "range": [
+      50,
+      51
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 51,
+    "end": 52,
+    "range": [
+      51,
+      52
+    ]
+  },
+  {
+    "type": "Keyword",
+    "value": "var",
+    "start": 71,
+    "end": 74,
+    "range": [
+      71,
+      74
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "ResultIsNumber1",
+    "start": 75,
+    "end": 90,
+    "range": [
+      75,
+      90
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "=",
+    "start": 91,
+    "end": 92,
+    "range": [
+      91,
+      92
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "~",
+    "start": 93,
+    "end": 94,
+    "range": [
+      93,
+      94
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "ENUM1",
+    "start": 94,
+    "end": 99,
+    "range": [
+      94,
+      99
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 99,
+    "end": 100,
+    "range": [
+      99,
+      100
+    ]
+  },
+  {
+    "type": "Keyword",
+    "value": "var",
+    "start": 127,
+    "end": 130,
+    "range": [
+      127,
+      130
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "ResultIsNumber2",
+    "start": 131,
+    "end": 146,
+    "range": [
+      131,
+      146
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "=",
+    "start": 147,
+    "end": 148,
+    "range": [
+      147,
+      148
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "~",
+    "start": 149,
+    "end": 150,
+    "range": [
+      149,
+      150
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "ENUM1",
+    "start": 150,
+    "end": 155,
+    "range": [
+      150,
+      155
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "[",
+    "start": 155,
+    "end": 156,
+    "range": [
+      155,
+      156
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"A\"",
+    "start": 156,
+    "end": 159,
+    "range": [
+      156,
+      159
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "]",
+    "start": 159,
+    "end": 160,
+    "range": [
+      159,
+      160
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 160,
+    "end": 161,
+    "range": [
+      160,
+      161
+    ]
+  },
+  {
+    "type": "Keyword",
+    "value": "var",
+    "start": 162,
+    "end": 165,
+    "range": [
+      162,
+      165
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "ResultIsNumber3",
+    "start": 166,
+    "end": 181,
+    "range": [
+      166,
+      181
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "=",
+    "start": 182,
+    "end": 183,
+    "range": [
+      182,
+      183
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "~",
+    "start": 184,
+    "end": 185,
+    "range": [
+      184,
+      185
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 185,
+    "end": 186,
+    "range": [
+      185,
+      186
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "ENUM1",
+    "start": 186,
+    "end": 191,
+    "range": [
+      186,
+      191
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 191,
+    "end": 192,
+    "range": [
+      191,
+      192
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "A",
+    "start": 192,
+    "end": 193,
+    "range": [
+      192,
+      193
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "+",
+    "start": 194,
+    "end": 195,
+    "range": [
+      194,
+      195
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "ENUM1",
+    "start": 196,
+    "end": 201,
+    "range": [
+      196,
+      201
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "[",
+    "start": 201,
+    "end": 202,
+    "range": [
+      201,
+      202
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"B\"",
+    "start": 202,
+    "end": 205,
+    "range": [
+      202,
+      205
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "]",
+    "start": 205,
+    "end": 206,
+    "range": [
+      205,
+      206
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 206,
+    "end": 207,
+    "range": [
+      206,
+      207
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 207,
+    "end": 208,
+    "range": [
+      207,
+      208
+    ]
+  },
+  {
+    "type": "Keyword",
+    "value": "var",
+    "start": 234,
+    "end": 237,
+    "range": [
+      234,
+      237
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "ResultIsNumber4",
+    "start": 238,
+    "end": 253,
+    "range": [
+      238,
+      253
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "=",
+    "start": 254,
+    "end": 255,
+    "range": [
+      254,
+      255
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "~",
+    "start": 256,
+    "end": 257,
+    "range": [
+      256,
+      257
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "~",
+    "start": 257,
+    "end": 258,
+    "range": [
+      257,
+      258
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "~",
+    "start": 258,
+    "end": 259,
+    "range": [
+      258,
+      259
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "(",
+    "start": 259,
+    "end": 260,
+    "range": [
+      259,
+      260
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "ENUM1",
+    "start": 260,
+    "end": 265,
+    "range": [
+      260,
+      265
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "[",
+    "start": 265,
+    "end": 266,
+    "range": [
+      265,
+      266
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"A\"",
+    "start": 266,
+    "end": 269,
+    "range": [
+      266,
+      269
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "]",
+    "start": 269,
+    "end": 270,
+    "range": [
+      269,
+      270
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "+",
+    "start": 271,
+    "end": 272,
+    "range": [
+      271,
+      272
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "ENUM1",
+    "start": 273,
+    "end": 278,
+    "range": [
+      273,
+      278
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 278,
+    "end": 279,
+    "range": [
+      278,
+      279
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "B",
+    "start": 279,
+    "end": 280,
+    "range": [
+      279,
+      280
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ")",
+    "start": 280,
+    "end": 281,
+    "range": [
+      280,
+      281
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 281,
+    "end": 282,
+    "range": [
+      281,
+      282
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "~",
+    "start": 313,
+    "end": 314,
+    "range": [
+      313,
+      314
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "ENUM1",
+    "start": 314,
+    "end": 319,
+    "range": [
+      314,
+      319
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 319,
+    "end": 320,
+    "range": [
+      319,
+      320
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "~",
+    "start": 321,
+    "end": 322,
+    "range": [
+      321,
+      322
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "ENUM1",
+    "start": 322,
+    "end": 327,
+    "range": [
+      322,
+      327
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "[",
+    "start": 327,
+    "end": 328,
+    "range": [
+      327,
+      328
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"A\"",
+    "start": 328,
+    "end": 331,
+    "range": [
+      328,
+      331
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "]",
+    "start": 331,
+    "end": 332,
+    "range": [
+      331,
+      332
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 332,
+    "end": 333,
+    "range": [
+      332,
+      333
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "~",
+    "start": 334,
+    "end": 335,
+    "range": [
+      334,
+      335
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "ENUM1",
+    "start": 335,
+    "end": 340,
+    "range": [
+      335,
+      340
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 340,
+    "end": 341,
+    "range": [
+      340,
+      341
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "A",
+    "start": 341,
+    "end": 342,
+    "range": [
+      341,
+      342
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 342,
+    "end": 343,
+    "range": [
+      342,
+      343
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "~",
+    "start": 344,
+    "end": 345,
+    "range": [
+      344,
+      345
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "ENUM1",
+    "start": 345,
+    "end": 350,
+    "range": [
+      345,
+      350
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "[",
+    "start": 350,
+    "end": 351,
+    "range": [
+      350,
+      351
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"B\"",
+    "start": 351,
+    "end": 354,
+    "range": [
+      351,
+      354
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "]",
+    "start": 354,
+    "end": 355,
+    "range": [
+      354,
+      355
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 355,
+    "end": 356,
+    "range": [
+      355,
+      356
+    ]
+  }
+]
 ```

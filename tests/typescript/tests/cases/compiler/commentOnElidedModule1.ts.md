@@ -1,4 +1,4 @@
-__ESTREE_TEST__:PASS:
+__ESTREE_TEST__:AST:
 ```json
 {
   "type": "Program",
@@ -56,7 +56,92 @@ __ESTREE_TEST__:PASS:
   "end": 189
 }
 ```
-__ESTREE_TEST__:PASS:
+__ESTREE_TEST__:TOKENS:
+```json
+[
+  {
+    "type": "Identifier",
+    "value": "namespace",
+    "start": 105,
+    "end": 114,
+    "range": [
+      105,
+      114
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "ElidedModule",
+    "start": 115,
+    "end": 127,
+    "range": [
+      115,
+      127
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "{",
+    "start": 128,
+    "end": 129,
+    "range": [
+      128,
+      129
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "}",
+    "start": 130,
+    "end": 131,
+    "range": [
+      130,
+      131
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "namespace",
+    "start": 161,
+    "end": 170,
+    "range": [
+      161,
+      170
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "ElidedModule2",
+    "start": 171,
+    "end": 184,
+    "range": [
+      171,
+      184
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "{",
+    "start": 185,
+    "end": 186,
+    "range": [
+      185,
+      186
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "}",
+    "start": 187,
+    "end": 188,
+    "range": [
+      187,
+      188
+    ]
+  }
+]
+```
+__ESTREE_TEST__:AST:
 ```json
 {
   "type": "Program",
@@ -90,4 +175,49 @@ __ESTREE_TEST__:PASS:
   "start": 28,
   "end": 55
 }
+```
+__ESTREE_TEST__:TOKENS:
+```json
+[
+  {
+    "type": "Identifier",
+    "value": "namespace",
+    "start": 28,
+    "end": 37,
+    "range": [
+      28,
+      37
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "ElidedModule3",
+    "start": 38,
+    "end": 51,
+    "range": [
+      38,
+      51
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "{",
+    "start": 52,
+    "end": 53,
+    "range": [
+      52,
+      53
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "}",
+    "start": 54,
+    "end": 55,
+    "range": [
+      54,
+      55
+    ]
+  }
+]
 ```

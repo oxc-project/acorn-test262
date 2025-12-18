@@ -1,4 +1,4 @@
-__ESTREE_TEST__:PASS:
+__ESTREE_TEST__:AST:
 ```json
 {
   "type": "Program",
@@ -1250,7 +1250,1752 @@ __ESTREE_TEST__:PASS:
   "end": 2574
 }
 ```
-__ESTREE_TEST__:PASS:
+__ESTREE_TEST__:TOKENS:
+```json
+[
+  {
+    "type": "Keyword",
+    "value": "export",
+    "start": 0,
+    "end": 6,
+    "range": [
+      0,
+      6
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "namespace",
+    "start": 7,
+    "end": 16,
+    "range": [
+      7,
+      16
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "publicModule",
+    "start": 17,
+    "end": 29,
+    "range": [
+      17,
+      29
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "{",
+    "start": 30,
+    "end": 31,
+    "range": [
+      30,
+      31
+    ]
+  },
+  {
+    "type": "Keyword",
+    "value": "export",
+    "start": 36,
+    "end": 42,
+    "range": [
+      36,
+      42
+    ]
+  },
+  {
+    "type": "Keyword",
+    "value": "interface",
+    "start": 43,
+    "end": 52,
+    "range": [
+      43,
+      52
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "publicInterfaceInPublicModule",
+    "start": 53,
+    "end": 82,
+    "range": [
+      53,
+      82
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "{",
+    "start": 83,
+    "end": 84,
+    "range": [
+      83,
+      84
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "}",
+    "start": 89,
+    "end": 90,
+    "range": [
+      89,
+      90
+    ]
+  },
+  {
+    "type": "Keyword",
+    "value": "interface",
+    "start": 96,
+    "end": 105,
+    "range": [
+      96,
+      105
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "privateInterfaceInPublicModule",
+    "start": 106,
+    "end": 136,
+    "range": [
+      106,
+      136
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "{",
+    "start": 137,
+    "end": 138,
+    "range": [
+      137,
+      138
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "}",
+    "start": 143,
+    "end": 144,
+    "range": [
+      143,
+      144
+    ]
+  },
+  {
+    "type": "Keyword",
+    "value": "class",
+    "start": 150,
+    "end": 155,
+    "range": [
+      150,
+      155
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "privateClassImplementingPublicInterfaceInModule",
+    "start": 156,
+    "end": 203,
+    "range": [
+      156,
+      203
+    ]
+  },
+  {
+    "type": "Keyword",
+    "value": "implements",
+    "start": 204,
+    "end": 214,
+    "range": [
+      204,
+      214
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "publicInterfaceInPublicModule",
+    "start": 215,
+    "end": 244,
+    "range": [
+      215,
+      244
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "{",
+    "start": 245,
+    "end": 246,
+    "range": [
+      245,
+      246
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "}",
+    "start": 251,
+    "end": 252,
+    "range": [
+      251,
+      252
+    ]
+  },
+  {
+    "type": "Keyword",
+    "value": "class",
+    "start": 257,
+    "end": 262,
+    "range": [
+      257,
+      262
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "privateClassImplementingPrivateInterfaceInModule",
+    "start": 263,
+    "end": 311,
+    "range": [
+      263,
+      311
+    ]
+  },
+  {
+    "type": "Keyword",
+    "value": "implements",
+    "start": 312,
+    "end": 322,
+    "range": [
+      312,
+      322
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "privateInterfaceInPublicModule",
+    "start": 323,
+    "end": 353,
+    "range": [
+      323,
+      353
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "{",
+    "start": 354,
+    "end": 355,
+    "range": [
+      354,
+      355
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "}",
+    "start": 360,
+    "end": 361,
+    "range": [
+      360,
+      361
+    ]
+  },
+  {
+    "type": "Keyword",
+    "value": "export",
+    "start": 366,
+    "end": 372,
+    "range": [
+      366,
+      372
+    ]
+  },
+  {
+    "type": "Keyword",
+    "value": "class",
+    "start": 373,
+    "end": 378,
+    "range": [
+      373,
+      378
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "publicClassImplementingPublicInterfaceInModule",
+    "start": 379,
+    "end": 425,
+    "range": [
+      379,
+      425
+    ]
+  },
+  {
+    "type": "Keyword",
+    "value": "implements",
+    "start": 426,
+    "end": 436,
+    "range": [
+      426,
+      436
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "publicInterfaceInPublicModule",
+    "start": 437,
+    "end": 466,
+    "range": [
+      437,
+      466
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "{",
+    "start": 467,
+    "end": 468,
+    "range": [
+      467,
+      468
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "}",
+    "start": 473,
+    "end": 474,
+    "range": [
+      473,
+      474
+    ]
+  },
+  {
+    "type": "Keyword",
+    "value": "export",
+    "start": 479,
+    "end": 485,
+    "range": [
+      479,
+      485
+    ]
+  },
+  {
+    "type": "Keyword",
+    "value": "class",
+    "start": 486,
+    "end": 491,
+    "range": [
+      486,
+      491
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "publicClassImplementingPrivateInterfaceInModule",
+    "start": 492,
+    "end": 539,
+    "range": [
+      492,
+      539
+    ]
+  },
+  {
+    "type": "Keyword",
+    "value": "implements",
+    "start": 540,
+    "end": 550,
+    "range": [
+      540,
+      550
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "privateInterfaceInPublicModule",
+    "start": 551,
+    "end": 581,
+    "range": [
+      551,
+      581
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "{",
+    "start": 582,
+    "end": 583,
+    "range": [
+      582,
+      583
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "}",
+    "start": 604,
+    "end": 605,
+    "range": [
+      604,
+      605
+    ]
+  },
+  {
+    "type": "Keyword",
+    "value": "class",
+    "start": 611,
+    "end": 616,
+    "range": [
+      611,
+      616
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "privateClassImplementingFromPrivateModuleInterface",
+    "start": 617,
+    "end": 667,
+    "range": [
+      617,
+      667
+    ]
+  },
+  {
+    "type": "Keyword",
+    "value": "implements",
+    "start": 668,
+    "end": 678,
+    "range": [
+      668,
+      678
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "privateModule",
+    "start": 679,
+    "end": 692,
+    "range": [
+      679,
+      692
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 692,
+    "end": 693,
+    "range": [
+      692,
+      693
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "publicInterfaceInPrivateModule",
+    "start": 693,
+    "end": 723,
+    "range": [
+      693,
+      723
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "{",
+    "start": 724,
+    "end": 725,
+    "range": [
+      724,
+      725
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "}",
+    "start": 730,
+    "end": 731,
+    "range": [
+      730,
+      731
+    ]
+  },
+  {
+    "type": "Keyword",
+    "value": "export",
+    "start": 736,
+    "end": 742,
+    "range": [
+      736,
+      742
+    ]
+  },
+  {
+    "type": "Keyword",
+    "value": "class",
+    "start": 743,
+    "end": 748,
+    "range": [
+      743,
+      748
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "publicClassImplementingFromPrivateModuleInterface",
+    "start": 749,
+    "end": 798,
+    "range": [
+      749,
+      798
+    ]
+  },
+  {
+    "type": "Keyword",
+    "value": "implements",
+    "start": 799,
+    "end": 809,
+    "range": [
+      799,
+      809
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "privateModule",
+    "start": 810,
+    "end": 823,
+    "range": [
+      810,
+      823
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 823,
+    "end": 824,
+    "range": [
+      823,
+      824
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "publicInterfaceInPrivateModule",
+    "start": 824,
+    "end": 854,
+    "range": [
+      824,
+      854
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "{",
+    "start": 855,
+    "end": 856,
+    "range": [
+      855,
+      856
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "}",
+    "start": 877,
+    "end": 878,
+    "range": [
+      877,
+      878
+    ]
+  },
+  {
+    "type": "Keyword",
+    "value": "export",
+    "start": 884,
+    "end": 890,
+    "range": [
+      884,
+      890
+    ]
+  },
+  {
+    "type": "Keyword",
+    "value": "class",
+    "start": 891,
+    "end": 896,
+    "range": [
+      891,
+      896
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "publicClassImplementingPrivateAndPublicInterface",
+    "start": 897,
+    "end": 945,
+    "range": [
+      897,
+      945
+    ]
+  },
+  {
+    "type": "Keyword",
+    "value": "implements",
+    "start": 946,
+    "end": 956,
+    "range": [
+      946,
+      956
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "privateInterfaceInPublicModule",
+    "start": 957,
+    "end": 987,
+    "range": [
+      957,
+      987
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ",",
+    "start": 987,
+    "end": 988,
+    "range": [
+      987,
+      988
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "publicInterfaceInPublicModule",
+    "start": 989,
+    "end": 1018,
+    "range": [
+      989,
+      1018
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "{",
+    "start": 1019,
+    "end": 1020,
+    "range": [
+      1019,
+      1020
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "}",
+    "start": 1041,
+    "end": 1042,
+    "range": [
+      1041,
+      1042
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "}",
+    "start": 1043,
+    "end": 1044,
+    "range": [
+      1043,
+      1044
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "namespace",
+    "start": 1046,
+    "end": 1055,
+    "range": [
+      1046,
+      1055
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "privateModule",
+    "start": 1056,
+    "end": 1069,
+    "range": [
+      1056,
+      1069
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "{",
+    "start": 1070,
+    "end": 1071,
+    "range": [
+      1070,
+      1071
+    ]
+  },
+  {
+    "type": "Keyword",
+    "value": "export",
+    "start": 1076,
+    "end": 1082,
+    "range": [
+      1076,
+      1082
+    ]
+  },
+  {
+    "type": "Keyword",
+    "value": "interface",
+    "start": 1083,
+    "end": 1092,
+    "range": [
+      1083,
+      1092
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "publicInterfaceInPrivateModule",
+    "start": 1093,
+    "end": 1123,
+    "range": [
+      1093,
+      1123
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "{",
+    "start": 1124,
+    "end": 1125,
+    "range": [
+      1124,
+      1125
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "}",
+    "start": 1131,
+    "end": 1132,
+    "range": [
+      1131,
+      1132
+    ]
+  },
+  {
+    "type": "Keyword",
+    "value": "interface",
+    "start": 1138,
+    "end": 1147,
+    "range": [
+      1138,
+      1147
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "privateInterfaceInPrivateModule",
+    "start": 1148,
+    "end": 1179,
+    "range": [
+      1148,
+      1179
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "{",
+    "start": 1180,
+    "end": 1181,
+    "range": [
+      1180,
+      1181
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "}",
+    "start": 1186,
+    "end": 1187,
+    "range": [
+      1186,
+      1187
+    ]
+  },
+  {
+    "type": "Keyword",
+    "value": "class",
+    "start": 1193,
+    "end": 1198,
+    "range": [
+      1193,
+      1198
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "privateClassImplementingPublicInterfaceInModule",
+    "start": 1199,
+    "end": 1246,
+    "range": [
+      1199,
+      1246
+    ]
+  },
+  {
+    "type": "Keyword",
+    "value": "implements",
+    "start": 1247,
+    "end": 1257,
+    "range": [
+      1247,
+      1257
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "publicInterfaceInPrivateModule",
+    "start": 1258,
+    "end": 1288,
+    "range": [
+      1258,
+      1288
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "{",
+    "start": 1289,
+    "end": 1290,
+    "range": [
+      1289,
+      1290
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "}",
+    "start": 1295,
+    "end": 1296,
+    "range": [
+      1295,
+      1296
+    ]
+  },
+  {
+    "type": "Keyword",
+    "value": "class",
+    "start": 1301,
+    "end": 1306,
+    "range": [
+      1301,
+      1306
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "privateClassImplementingPrivateInterfaceInModule",
+    "start": 1307,
+    "end": 1355,
+    "range": [
+      1307,
+      1355
+    ]
+  },
+  {
+    "type": "Keyword",
+    "value": "implements",
+    "start": 1356,
+    "end": 1366,
+    "range": [
+      1356,
+      1366
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "privateInterfaceInPrivateModule",
+    "start": 1367,
+    "end": 1398,
+    "range": [
+      1367,
+      1398
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "{",
+    "start": 1399,
+    "end": 1400,
+    "range": [
+      1399,
+      1400
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "}",
+    "start": 1405,
+    "end": 1406,
+    "range": [
+      1405,
+      1406
+    ]
+  },
+  {
+    "type": "Keyword",
+    "value": "export",
+    "start": 1411,
+    "end": 1417,
+    "range": [
+      1411,
+      1417
+    ]
+  },
+  {
+    "type": "Keyword",
+    "value": "class",
+    "start": 1418,
+    "end": 1423,
+    "range": [
+      1418,
+      1423
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "publicClassImplementingPublicInterfaceInModule",
+    "start": 1424,
+    "end": 1470,
+    "range": [
+      1424,
+      1470
+    ]
+  },
+  {
+    "type": "Keyword",
+    "value": "implements",
+    "start": 1471,
+    "end": 1481,
+    "range": [
+      1471,
+      1481
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "publicInterfaceInPrivateModule",
+    "start": 1482,
+    "end": 1512,
+    "range": [
+      1482,
+      1512
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "{",
+    "start": 1513,
+    "end": 1514,
+    "range": [
+      1513,
+      1514
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "}",
+    "start": 1519,
+    "end": 1520,
+    "range": [
+      1519,
+      1520
+    ]
+  },
+  {
+    "type": "Keyword",
+    "value": "export",
+    "start": 1525,
+    "end": 1531,
+    "range": [
+      1525,
+      1531
+    ]
+  },
+  {
+    "type": "Keyword",
+    "value": "class",
+    "start": 1532,
+    "end": 1537,
+    "range": [
+      1532,
+      1537
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "publicClassImplementingPrivateInterfaceInModule",
+    "start": 1538,
+    "end": 1585,
+    "range": [
+      1538,
+      1585
+    ]
+  },
+  {
+    "type": "Keyword",
+    "value": "implements",
+    "start": 1586,
+    "end": 1596,
+    "range": [
+      1586,
+      1596
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "privateInterfaceInPrivateModule",
+    "start": 1597,
+    "end": 1628,
+    "range": [
+      1597,
+      1628
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "{",
+    "start": 1629,
+    "end": 1630,
+    "range": [
+      1629,
+      1630
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "}",
+    "start": 1636,
+    "end": 1637,
+    "range": [
+      1636,
+      1637
+    ]
+  },
+  {
+    "type": "Keyword",
+    "value": "class",
+    "start": 1643,
+    "end": 1648,
+    "range": [
+      1643,
+      1648
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "privateClassImplementingFromPrivateModuleInterface",
+    "start": 1649,
+    "end": 1699,
+    "range": [
+      1649,
+      1699
+    ]
+  },
+  {
+    "type": "Keyword",
+    "value": "implements",
+    "start": 1700,
+    "end": 1710,
+    "range": [
+      1700,
+      1710
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "privateModule",
+    "start": 1711,
+    "end": 1724,
+    "range": [
+      1711,
+      1724
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 1724,
+    "end": 1725,
+    "range": [
+      1724,
+      1725
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "publicInterfaceInPrivateModule",
+    "start": 1725,
+    "end": 1755,
+    "range": [
+      1725,
+      1755
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "{",
+    "start": 1756,
+    "end": 1757,
+    "range": [
+      1756,
+      1757
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "}",
+    "start": 1762,
+    "end": 1763,
+    "range": [
+      1762,
+      1763
+    ]
+  },
+  {
+    "type": "Keyword",
+    "value": "export",
+    "start": 1768,
+    "end": 1774,
+    "range": [
+      1768,
+      1774
+    ]
+  },
+  {
+    "type": "Keyword",
+    "value": "class",
+    "start": 1775,
+    "end": 1780,
+    "range": [
+      1775,
+      1780
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "publicClassImplementingFromPrivateModuleInterface",
+    "start": 1781,
+    "end": 1830,
+    "range": [
+      1781,
+      1830
+    ]
+  },
+  {
+    "type": "Keyword",
+    "value": "implements",
+    "start": 1831,
+    "end": 1841,
+    "range": [
+      1831,
+      1841
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "privateModule",
+    "start": 1842,
+    "end": 1855,
+    "range": [
+      1842,
+      1855
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 1855,
+    "end": 1856,
+    "range": [
+      1855,
+      1856
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "publicInterfaceInPrivateModule",
+    "start": 1856,
+    "end": 1886,
+    "range": [
+      1856,
+      1886
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "{",
+    "start": 1887,
+    "end": 1888,
+    "range": [
+      1887,
+      1888
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "}",
+    "start": 1893,
+    "end": 1894,
+    "range": [
+      1893,
+      1894
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "}",
+    "start": 1895,
+    "end": 1896,
+    "range": [
+      1895,
+      1896
+    ]
+  },
+  {
+    "type": "Keyword",
+    "value": "export",
+    "start": 1898,
+    "end": 1904,
+    "range": [
+      1898,
+      1904
+    ]
+  },
+  {
+    "type": "Keyword",
+    "value": "interface",
+    "start": 1905,
+    "end": 1914,
+    "range": [
+      1905,
+      1914
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "publicInterface",
+    "start": 1915,
+    "end": 1930,
+    "range": [
+      1915,
+      1930
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "{",
+    "start": 1931,
+    "end": 1932,
+    "range": [
+      1931,
+      1932
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "}",
+    "start": 1934,
+    "end": 1935,
+    "range": [
+      1934,
+      1935
+    ]
+  },
+  {
+    "type": "Keyword",
+    "value": "interface",
+    "start": 1937,
+    "end": 1946,
+    "range": [
+      1937,
+      1946
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "privateInterface",
+    "start": 1947,
+    "end": 1963,
+    "range": [
+      1947,
+      1963
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "{",
+    "start": 1964,
+    "end": 1965,
+    "range": [
+      1964,
+      1965
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "}",
+    "start": 1966,
+    "end": 1967,
+    "range": [
+      1966,
+      1967
+    ]
+  },
+  {
+    "type": "Keyword",
+    "value": "class",
+    "start": 1969,
+    "end": 1974,
+    "range": [
+      1969,
+      1974
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "privateClassImplementingPublicInterface",
+    "start": 1975,
+    "end": 2014,
+    "range": [
+      1975,
+      2014
+    ]
+  },
+  {
+    "type": "Keyword",
+    "value": "implements",
+    "start": 2015,
+    "end": 2025,
+    "range": [
+      2015,
+      2025
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "publicInterface",
+    "start": 2026,
+    "end": 2041,
+    "range": [
+      2026,
+      2041
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "{",
+    "start": 2042,
+    "end": 2043,
+    "range": [
+      2042,
+      2043
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "}",
+    "start": 2044,
+    "end": 2045,
+    "range": [
+      2044,
+      2045
+    ]
+  },
+  {
+    "type": "Keyword",
+    "value": "class",
+    "start": 2046,
+    "end": 2051,
+    "range": [
+      2046,
+      2051
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "privateClassImplementingPrivateInterfaceInModule",
+    "start": 2052,
+    "end": 2100,
+    "range": [
+      2052,
+      2100
+    ]
+  },
+  {
+    "type": "Keyword",
+    "value": "implements",
+    "start": 2101,
+    "end": 2111,
+    "range": [
+      2101,
+      2111
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "privateInterface",
+    "start": 2112,
+    "end": 2128,
+    "range": [
+      2112,
+      2128
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "{",
+    "start": 2129,
+    "end": 2130,
+    "range": [
+      2129,
+      2130
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "}",
+    "start": 2131,
+    "end": 2132,
+    "range": [
+      2131,
+      2132
+    ]
+  },
+  {
+    "type": "Keyword",
+    "value": "export",
+    "start": 2133,
+    "end": 2139,
+    "range": [
+      2133,
+      2139
+    ]
+  },
+  {
+    "type": "Keyword",
+    "value": "class",
+    "start": 2140,
+    "end": 2145,
+    "range": [
+      2140,
+      2145
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "publicClassImplementingPublicInterface",
+    "start": 2146,
+    "end": 2184,
+    "range": [
+      2146,
+      2184
+    ]
+  },
+  {
+    "type": "Keyword",
+    "value": "implements",
+    "start": 2185,
+    "end": 2195,
+    "range": [
+      2185,
+      2195
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "publicInterface",
+    "start": 2196,
+    "end": 2211,
+    "range": [
+      2196,
+      2211
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "{",
+    "start": 2212,
+    "end": 2213,
+    "range": [
+      2212,
+      2213
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "}",
+    "start": 2214,
+    "end": 2215,
+    "range": [
+      2214,
+      2215
+    ]
+  },
+  {
+    "type": "Keyword",
+    "value": "export",
+    "start": 2216,
+    "end": 2222,
+    "range": [
+      2216,
+      2222
+    ]
+  },
+  {
+    "type": "Keyword",
+    "value": "class",
+    "start": 2223,
+    "end": 2228,
+    "range": [
+      2223,
+      2228
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "publicClassImplementingPrivateInterface",
+    "start": 2229,
+    "end": 2268,
+    "range": [
+      2229,
+      2268
+    ]
+  },
+  {
+    "type": "Keyword",
+    "value": "implements",
+    "start": 2269,
+    "end": 2279,
+    "range": [
+      2269,
+      2279
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "privateInterface",
+    "start": 2280,
+    "end": 2296,
+    "range": [
+      2280,
+      2296
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "{",
+    "start": 2297,
+    "end": 2298,
+    "range": [
+      2297,
+      2298
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "}",
+    "start": 2315,
+    "end": 2316,
+    "range": [
+      2315,
+      2316
+    ]
+  },
+  {
+    "type": "Keyword",
+    "value": "class",
+    "start": 2318,
+    "end": 2323,
+    "range": [
+      2318,
+      2323
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "privateClassImplementingFromPrivateModuleInterface",
+    "start": 2324,
+    "end": 2374,
+    "range": [
+      2324,
+      2374
+    ]
+  },
+  {
+    "type": "Keyword",
+    "value": "implements",
+    "start": 2375,
+    "end": 2385,
+    "range": [
+      2375,
+      2385
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "privateModule",
+    "start": 2386,
+    "end": 2399,
+    "range": [
+      2386,
+      2399
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 2399,
+    "end": 2400,
+    "range": [
+      2399,
+      2400
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "publicInterfaceInPrivateModule",
+    "start": 2400,
+    "end": 2430,
+    "range": [
+      2400,
+      2430
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "{",
+    "start": 2431,
+    "end": 2432,
+    "range": [
+      2431,
+      2432
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "}",
+    "start": 2433,
+    "end": 2434,
+    "range": [
+      2433,
+      2434
+    ]
+  },
+  {
+    "type": "Keyword",
+    "value": "export",
+    "start": 2435,
+    "end": 2441,
+    "range": [
+      2435,
+      2441
+    ]
+  },
+  {
+    "type": "Keyword",
+    "value": "class",
+    "start": 2442,
+    "end": 2447,
+    "range": [
+      2442,
+      2447
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "publicClassImplementingFromPrivateModuleInterface",
+    "start": 2448,
+    "end": 2497,
+    "range": [
+      2448,
+      2497
+    ]
+  },
+  {
+    "type": "Keyword",
+    "value": "implements",
+    "start": 2498,
+    "end": 2508,
+    "range": [
+      2498,
+      2508
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "privateModule",
+    "start": 2509,
+    "end": 2522,
+    "range": [
+      2509,
+      2522
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 2522,
+    "end": 2523,
+    "range": [
+      2522,
+      2523
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "publicInterfaceInPrivateModule",
+    "start": 2523,
+    "end": 2553,
+    "range": [
+      2523,
+      2553
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "{",
+    "start": 2554,
+    "end": 2555,
+    "range": [
+      2554,
+      2555
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "}",
+    "start": 2572,
+    "end": 2573,
+    "range": [
+      2572,
+      2573
+    ]
+  }
+]
+```
+__ESTREE_TEST__:AST:
 ```json
 {
   "type": "Program",
@@ -1596,4 +3341,499 @@ __ESTREE_TEST__:PASS:
   "start": 0,
   "end": 738
 }
+```
+__ESTREE_TEST__:TOKENS:
+```json
+[
+  {
+    "type": "Identifier",
+    "value": "namespace",
+    "start": 0,
+    "end": 9,
+    "range": [
+      0,
+      9
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "publicModuleInGlobal",
+    "start": 10,
+    "end": 30,
+    "range": [
+      10,
+      30
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "{",
+    "start": 31,
+    "end": 32,
+    "range": [
+      31,
+      32
+    ]
+  },
+  {
+    "type": "Keyword",
+    "value": "export",
+    "start": 37,
+    "end": 43,
+    "range": [
+      37,
+      43
+    ]
+  },
+  {
+    "type": "Keyword",
+    "value": "interface",
+    "start": 44,
+    "end": 53,
+    "range": [
+      44,
+      53
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "publicInterfaceInPublicModule",
+    "start": 54,
+    "end": 83,
+    "range": [
+      54,
+      83
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "{",
+    "start": 84,
+    "end": 85,
+    "range": [
+      84,
+      85
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "}",
+    "start": 90,
+    "end": 91,
+    "range": [
+      90,
+      91
+    ]
+  },
+  {
+    "type": "Keyword",
+    "value": "interface",
+    "start": 97,
+    "end": 106,
+    "range": [
+      97,
+      106
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "privateInterfaceInPublicModule",
+    "start": 107,
+    "end": 137,
+    "range": [
+      107,
+      137
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "{",
+    "start": 138,
+    "end": 139,
+    "range": [
+      138,
+      139
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "}",
+    "start": 144,
+    "end": 145,
+    "range": [
+      144,
+      145
+    ]
+  },
+  {
+    "type": "Keyword",
+    "value": "class",
+    "start": 151,
+    "end": 156,
+    "range": [
+      151,
+      156
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "privateClassImplementingPublicInterfaceInModule",
+    "start": 157,
+    "end": 204,
+    "range": [
+      157,
+      204
+    ]
+  },
+  {
+    "type": "Keyword",
+    "value": "implements",
+    "start": 205,
+    "end": 215,
+    "range": [
+      205,
+      215
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "publicInterfaceInPublicModule",
+    "start": 216,
+    "end": 245,
+    "range": [
+      216,
+      245
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "{",
+    "start": 246,
+    "end": 247,
+    "range": [
+      246,
+      247
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "}",
+    "start": 252,
+    "end": 253,
+    "range": [
+      252,
+      253
+    ]
+  },
+  {
+    "type": "Keyword",
+    "value": "class",
+    "start": 258,
+    "end": 263,
+    "range": [
+      258,
+      263
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "privateClassImplementingPrivateInterfaceInModule",
+    "start": 264,
+    "end": 312,
+    "range": [
+      264,
+      312
+    ]
+  },
+  {
+    "type": "Keyword",
+    "value": "implements",
+    "start": 313,
+    "end": 323,
+    "range": [
+      313,
+      323
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "privateInterfaceInPublicModule",
+    "start": 324,
+    "end": 354,
+    "range": [
+      324,
+      354
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "{",
+    "start": 355,
+    "end": 356,
+    "range": [
+      355,
+      356
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "}",
+    "start": 361,
+    "end": 362,
+    "range": [
+      361,
+      362
+    ]
+  },
+  {
+    "type": "Keyword",
+    "value": "export",
+    "start": 367,
+    "end": 373,
+    "range": [
+      367,
+      373
+    ]
+  },
+  {
+    "type": "Keyword",
+    "value": "class",
+    "start": 374,
+    "end": 379,
+    "range": [
+      374,
+      379
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "publicClassImplementingPublicInterfaceInModule",
+    "start": 380,
+    "end": 426,
+    "range": [
+      380,
+      426
+    ]
+  },
+  {
+    "type": "Keyword",
+    "value": "implements",
+    "start": 427,
+    "end": 437,
+    "range": [
+      427,
+      437
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "publicInterfaceInPublicModule",
+    "start": 438,
+    "end": 467,
+    "range": [
+      438,
+      467
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "{",
+    "start": 468,
+    "end": 469,
+    "range": [
+      468,
+      469
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "}",
+    "start": 474,
+    "end": 475,
+    "range": [
+      474,
+      475
+    ]
+  },
+  {
+    "type": "Keyword",
+    "value": "export",
+    "start": 480,
+    "end": 486,
+    "range": [
+      480,
+      486
+    ]
+  },
+  {
+    "type": "Keyword",
+    "value": "class",
+    "start": 487,
+    "end": 492,
+    "range": [
+      487,
+      492
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "publicClassImplementingPrivateInterfaceInModule",
+    "start": 493,
+    "end": 540,
+    "range": [
+      493,
+      540
+    ]
+  },
+  {
+    "type": "Keyword",
+    "value": "implements",
+    "start": 541,
+    "end": 551,
+    "range": [
+      541,
+      551
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "privateInterfaceInPublicModule",
+    "start": 552,
+    "end": 582,
+    "range": [
+      552,
+      582
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "{",
+    "start": 583,
+    "end": 584,
+    "range": [
+      583,
+      584
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "}",
+    "start": 605,
+    "end": 606,
+    "range": [
+      605,
+      606
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "}",
+    "start": 607,
+    "end": 608,
+    "range": [
+      607,
+      608
+    ]
+  },
+  {
+    "type": "Keyword",
+    "value": "interface",
+    "start": 609,
+    "end": 618,
+    "range": [
+      609,
+      618
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "publicInterfaceInGlobal",
+    "start": 619,
+    "end": 642,
+    "range": [
+      619,
+      642
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "{",
+    "start": 643,
+    "end": 644,
+    "range": [
+      643,
+      644
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "}",
+    "start": 645,
+    "end": 646,
+    "range": [
+      645,
+      646
+    ]
+  },
+  {
+    "type": "Keyword",
+    "value": "class",
+    "start": 647,
+    "end": 652,
+    "range": [
+      647,
+      652
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "publicClassImplementingPublicInterfaceInGlobal",
+    "start": 653,
+    "end": 699,
+    "range": [
+      653,
+      699
+    ]
+  },
+  {
+    "type": "Keyword",
+    "value": "implements",
+    "start": 700,
+    "end": 710,
+    "range": [
+      700,
+      710
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "publicInterfaceInGlobal",
+    "start": 711,
+    "end": 734,
+    "range": [
+      711,
+      734
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "{",
+    "start": 735,
+    "end": 736,
+    "range": [
+      735,
+      736
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "}",
+    "start": 737,
+    "end": 738,
+    "range": [
+      737,
+      738
+    ]
+  }
+]
 ```

@@ -1,4 +1,4 @@
-__ESTREE_TEST__:PASS:
+__ESTREE_TEST__:AST:
 ```json
 {
   "type": "Program",
@@ -26,4 +26,33 @@ __ESTREE_TEST__:PASS:
   "start": 0,
   "end": 38
 }
+```
+__ESTREE_TEST__:TOKENS:
+```json
+[
+  {
+    "type": "RegularExpression",
+    "value": "/(#?-?\\d*\\.\\d\\w*%?)|(@?#?[\\w-?]+%?)/g",
+    "regex": {
+      "flags": "g",
+      "pattern": "(#?-?\\d*\\.\\d\\w*%?)|(@?#?[\\w-?]+%?)"
+    },
+    "start": 0,
+    "end": 37,
+    "range": [
+      0,
+      37
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 37,
+    "end": 38,
+    "range": [
+      37,
+      38
+    ]
+  }
+]
 ```

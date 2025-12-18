@@ -1,4 +1,4 @@
-__ESTREE_TEST__:PASS:
+__ESTREE_TEST__:AST:
 ```json
 {
   "type": "Program",
@@ -92,4 +92,129 @@ __ESTREE_TEST__:PASS:
   "start": 35,
   "end": 130
 }
+```
+__ESTREE_TEST__:TOKENS:
+```json
+[
+  {
+    "type": "Keyword",
+    "value": "export",
+    "start": 35,
+    "end": 41,
+    "range": [
+      35,
+      41
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "namespace",
+    "start": 42,
+    "end": 51,
+    "range": [
+      42,
+      51
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "outerModule",
+    "start": 52,
+    "end": 63,
+    "range": [
+      52,
+      63
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ".",
+    "start": 63,
+    "end": 64,
+    "range": [
+      63,
+      64
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "InnerModule",
+    "start": 64,
+    "end": 75,
+    "range": [
+      64,
+      75
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "{",
+    "start": 76,
+    "end": 77,
+    "range": [
+      76,
+      77
+    ]
+  },
+  {
+    "type": "Keyword",
+    "value": "export",
+    "start": 106,
+    "end": 112,
+    "range": [
+      106,
+      112
+    ]
+  },
+  {
+    "type": "Keyword",
+    "value": "class",
+    "start": 113,
+    "end": 118,
+    "range": [
+      113,
+      118
+    ]
+  },
+  {
+    "type": "Identifier",
+    "value": "b",
+    "start": 119,
+    "end": 120,
+    "range": [
+      119,
+      120
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "{",
+    "start": 121,
+    "end": 122,
+    "range": [
+      121,
+      122
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "}",
+    "start": 127,
+    "end": 128,
+    "range": [
+      127,
+      128
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": "}",
+    "start": 129,
+    "end": 130,
+    "range": [
+      129,
+      130
+    ]
+  }
+]
 ```

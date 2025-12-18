@@ -1,4 +1,4 @@
-__ESTREE_TEST__:PASS:
+__ESTREE_TEST__:AST:
 ```json
 {
   "type": "Program",
@@ -101,4 +101,109 @@ __ESTREE_TEST__:PASS:
   "start": 0,
   "end": 123
 }
+```
+__ESTREE_TEST__:TOKENS:
+```json
+[
+  {
+    "type": "String",
+    "value": "\"oops �� oops\"",
+    "start": 0,
+    "end": 14,
+    "range": [
+      0,
+      14
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 14,
+    "end": 15,
+    "range": [
+      14,
+      15
+    ]
+  },
+  {
+    "type": "String",
+    "value": "'oops �� oops'",
+    "start": 16,
+    "end": 30,
+    "range": [
+      16,
+      30
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 30,
+    "end": 31,
+    "range": [
+      30,
+      31
+    ]
+  },
+  {
+    "type": "Template",
+    "value": "`oops �� oops`",
+    "start": 32,
+    "end": 46,
+    "range": [
+      32,
+      46
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 46,
+    "end": 47,
+    "range": [
+      46,
+      47
+    ]
+  },
+  {
+    "type": "Template",
+    "value": "`${",
+    "start": 48,
+    "end": 51,
+    "range": [
+      48,
+      51
+    ]
+  },
+  {
+    "type": "String",
+    "value": "\"oops �� oops\"",
+    "start": 51,
+    "end": 65,
+    "range": [
+      51,
+      65
+    ]
+  },
+  {
+    "type": "Template",
+    "value": "}`",
+    "start": 65,
+    "end": 67,
+    "range": [
+      65,
+      67
+    ]
+  },
+  {
+    "type": "Punctuator",
+    "value": ";",
+    "start": 67,
+    "end": 68,
+    "range": [
+      67,
+      68
+    ]
+  }
+]
 ```

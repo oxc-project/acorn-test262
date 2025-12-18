@@ -1,4 +1,4 @@
-__ESTREE_TEST__:PASS:
+__ESTREE_TEST__:AST:
 ```json
 {
   "type": "Program",
@@ -15,4 +15,19 @@ __ESTREE_TEST__:PASS:
   "start": 95,
   "end": 101
 }
+```
+__ESTREE_TEST__:TOKENS:
+```json
+[
+  {
+    "type": "Keyword",
+    "value": "return",
+    "start": 95,
+    "end": 101,
+    "range": [
+      95,
+      101
+    ]
+  }
+]
 ```
